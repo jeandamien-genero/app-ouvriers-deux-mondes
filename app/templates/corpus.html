@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+     Les Ouvriers des Deux Mondes
+    </title>
+<meta name="author" content="Jean-Damien Généro">
+    </head>
+    <body>
+        <div>
+           <table>
+            {% for mono in corpus %}
+                <tbody>
+                        <tr>
+                            <td><a href="{{url_for('txt_mono', mono_id=corpus[mono][0])}}">{{mono}}</a></td>
+                        </tr>
+                </tbody>
+            {% endfor %}
+            </table>
+        </div>
+    </body>
+</html>
