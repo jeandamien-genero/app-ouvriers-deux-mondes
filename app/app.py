@@ -7,7 +7,6 @@
 
 
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 import os # module permettant de communiquer avec le système d'exploitation sous-jacent.
 
 chemin_actuel = os.path.dirname(os.path.abspath(__file__)) # stockage du chemin du fichier courant
