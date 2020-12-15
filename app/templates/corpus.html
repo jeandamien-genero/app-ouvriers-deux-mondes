@@ -12,7 +12,7 @@
             {% for mono in corpus %}
                 <tbody>
                         <tr>
-                            <td><a href="{{url_for('txt_mono', mono_id=corpus[mono][0])}}">{{mono}}</a></td>
+                            <td><a href="{{url_for('txt_mono', mono_id=corpus[mono])}}">{{mono}}</a></td>
                         </tr>
                 </tbody>
             {% endfor %}
