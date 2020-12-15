@@ -10,9 +10,8 @@ date = 2020-12-15
 
 # libraries
 import csv
-import os
 from bs4 import BeautifulSoup
-from flask import Flask, render_template
+from flask import render_template
 from lxml import etree
 
 
@@ -23,22 +22,32 @@ from .app import app
 # routes
 @app.route("/")
 def home():
-	return render_template("home.html")
+    """Route that loads the home page.
+    """
+    return render_template("home.html")
 
 @app.route("/monographie")
 def monographie():
+    """Route that loads a page with the monographies list out of a CSV.
+    Works with a dictionary where monographies' titles are keys and XML
+    filenames are values.
+    """
     with open("../app-ouvriers-deux-mondes/app/static/csv/id_monographies.csv") as csv_file:
         file = csv.reader(csv_file)
         dict_mono = {}
         for row in file:
-            dict_mono[row[2]] = [row[1], row[3]]
+            dict_mono[row[2]] = row[1]
         del dict_mono['Titres']
     return render_template("corpus.html", corpus=dict_mono)
-    
-    
+
+
 
 @app.route("/monographie/<mono_id>")
 def txt_mono(mono_id):
+    """Route that loads a page with monograph text.
+    :param mono_id: monograph XML filename.
+    :param mono_id: str.
+    """
     filename = "../app-ouvriers-deux-mondes/app/static/xml/" + mono_id
     with open(filename, 'r', encoding='utf8') as opening:
         file = opening.read()

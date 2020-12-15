@@ -3,22 +3,23 @@
 
 
 """
+author = Jean-Damien Généro
+date = 2020-12-15
 """
 
-
+import os
 from flask import Flask
-import os # module permettant de communiquer avec le système d'exploitation sous-jacent.
 
-chemin_actuel = os.path.dirname(os.path.abspath(__file__)) # stockage du chemin du fichier courant
-templates = os.path.join(chemin_actuel, "templates") # stockage du chemin vers les templates
-statics = os.path.join(chemin_actuel, "static") # stockage du chemin vers les statics
+
+from .routes import home
+
+
+chemin_actuel = os.path.dirname(os.path.abspath(__file__))
+templates = os.path.join(chemin_actuel, "templates")
+statics = os.path.join(chemin_actuel, "static")
 
 app = Flask(
     "Application",
     template_folder=templates,
     static_folder=statics,
-) # instantiation de l'application dans la variable app et définition des dossiers templates et
-  # statics en fonction des chemins os définis au-dessus.
-
-# Import de la route principale depuis le fichier routes.py
-from .routes import home
+)

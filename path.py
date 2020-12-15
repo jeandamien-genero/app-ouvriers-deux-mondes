@@ -1,6 +1,10 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
+"""
+author = Jean-Damien Généro
+date = 2020-12-15
+"""
 
 import os
 
