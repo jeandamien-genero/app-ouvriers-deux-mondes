@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>
+		     Ouvriers des deux mondes
+		</title>
+		<meta name="author" content="Jean-Damien Généro">
+		<meta name="application-name" content="Les Ouvriers des deux mondes">
+		<style>
+			a:link, a:visited {
+		    	text-decoration: none;
+		        color: inherit;
+		    }
+		    a:hover, a:active {
+		    	text-decoration: none;
+		    	color: #B1B0B0;
+		    }
+		</style>
+		{% include "partials.html" %}
+	</head>
+	<body>
+		<div style="margin: 10% 25% 10% 25%; font-family: 'Open Sans';">
+			<header>
+					<div style="text-align: center; margin-bottom: 8%;">
+        				<h1>
+        	    			Monographies des <i>Ouvriers des deux mondes</i>
+        	    		</h1>
+        	    		<h2>
+        	    			ANR « <i>Time Us</i> »
+        			    	</h2>
+        			</div>
+			</header>
+				{% block corps%}{%endblock%}
+			<footer>
+				<div style="padding: 4% 4% 4% 4%; font-size: 8pt; line-height: 2%;">
+					<p>
+					© Programme ANR « <a href="http://larhra.ish-lyon.cnrs.fr/anr-time-us" style="font-style: italic;" target="_blank">Time Us</a> »
+					</p>
+					<p>
+						Application développée en 2020 par Jean-Damien Généro,
+					</p>
+					<p>
+						<a href="http://crh.ehess.fr/" target="_blank">Centre de recherches historiques (UMR 8558/ CNRS-EHESS)</a>.
+					</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
