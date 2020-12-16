@@ -1,1 +1,14 @@
-{{template_flask1|safe}}
+{% extends "conteneur.html" %}
+{% block corps %}
+	<div>
+		<p style="text-align: center;">
+			→ <a href="{{url_for('monographies')}}">Revenir à la liste des monographies</a> ←
+        </p>
+	</div>
+	{{template_flask1|safe}}
+	<div>
+		<p style="text-align: center;">
+			→ <a href="{{url_for('monographies')}}">Revenir à la liste des monographies</a> ←
+        </p>
+	</div>
+{% endblock %}

@@ -1,22 +1,27 @@
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>
-     Les Ouvriers des Deux Mondes
-    </title>
-<meta name="author" content="Jean-Damien Généro">
-    </head>
-    <body>
-        <div>
-           <table>
-            {% for mono in corpus %}
-                <tbody>
+{% extends "conteneur.html" %}
+{% block corps %}
+            <div>
+                <p style="text-align: center;">
+                    → <a href="{{url_for('home')}}">Accueil</a> ←
+                </p>
+                <table style="margin: auto;">
+                    <!--<thead>
                         <tr>
-                            <td><a href="{{url_for('txt_mono', mono_id=corpus[mono])}}">{{mono}}</a></td>
+                            <th>Numéro</th>
+                            <th>Titre</th>
                         </tr>
-                </tbody>
-            {% endfor %}
-            </table>
-        </div>
-    </body>
-</html>
+                    </thead>-->
+                    {% for mono in corpus %}
+                        <tbody>
+                            <tr>
+                                <td>{{corpus[mono][0]}}</td>
+                                <td><a href="{{url_for('txt_mono', mono_id=corpus[mono][1])}}">{{mono}}</a></td>
+                            </tr>
+                        </tbody>
+                    {% endfor %}
+                </table>
+                <p style="text-align: center;">
+                    → <a href="{{url_for('home')}}">Accueil</a> ←
+                </p>
+            </div>
+{% endblock %}
