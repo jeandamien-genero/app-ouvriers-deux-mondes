@@ -26,8 +26,8 @@ def home():
     """
     return render_template("home.html")
 
-@app.route("/monographie")
-def monographie():
+@app.route("/monographies")
+def monographies():
     """Route that loads a page with the monographies list out of a CSV.
     Works with a dictionary where monographies' titles are keys and XML
     filenames are values.
@@ -36,7 +36,7 @@ def monographie():
         file = csv.reader(csv_file)
         dict_mono = {}
         for row in file:
-            dict_mono[row[2]] = row[1]
+            dict_mono[row[3]] = [row[0], row[2]]
         del dict_mono['Titres']
     return render_template("corpus.html", corpus=dict_mono)
 
