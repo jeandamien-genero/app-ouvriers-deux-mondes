@@ -28,9 +28,6 @@
                         <!-- <xsl:value-of select="replace(//div[@type='chapter']/@ana,'#','')"/> -->
                         <xsl:text>contents</xsl:text>
                     </xsl:attribute>
-                    <xsl:attribute name="style">
-                        <xsl:text>margin: 70; text-align: justify;</xsl:text>
-                    </xsl:attribute>
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
@@ -145,6 +142,9 @@
             <xsl:attribute name="target">
                 <xsl:text>_blank</xsl:text>
             </xsl:attribute>
+            <xsl:attribute name="style">
+                <xsl:text>font-weight: bold;</xsl:text>
+            </xsl:attribute>
             <xsl:text>[</xsl:text>
             <xsl:value-of select="./@n"/>
             <xsl:text>]</xsl:text>
@@ -157,20 +157,40 @@
             <xsl:value-of select="translate(./graphic/@facs, '#', '')"/>
         </xsl:variable>
         <xsl:element name="figure">
-            <xsl:element name="img">
-                <xsl:attribute name="src">
+            <xsl:attribute name="style">
+                <xsl:text>text-align: center;</xsl:text>
+            </xsl:attribute>
+            <xsl:element name="a">
+                <xsl:attribute name="href">
                     <xsl:value-of
                         select="./ancestor::TEI/facsimile[@xml:id = $url_fig]/graphic/@url"/>
                 </xsl:attribute>
-                <xsl:attribute name="width">
-                    <xsl:text>30%</xsl:text>
+                <xsl:attribute name="target">
+                    <xsl:text>_blank</xsl:text>
                 </xsl:attribute>
-                <xsl:attribute name="alt">
-                    <xsl:value-of select="normalize-space(./head)"/>
-                </xsl:attribute>
+                <xsl:element name="img">
+                    <xsl:attribute name="src">
+                        <xsl:value-of
+                            select="./ancestor::TEI/facsimile[@xml:id = $url_fig]/graphic/@url"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="width">
+                        <xsl:text>30%</xsl:text>
+                    </xsl:attribute>
+                    <xsl:attribute name="alt">
+                        <xsl:value-of select="normalize-space(./head)"/>
+                    </xsl:attribute>
+                </xsl:element>
             </xsl:element>
             <xsl:element name="figcaption">
-                <xsl:value-of select="normalize-space(./head)"/>
+                <xsl:attribute name="style">
+                    <xsl:text>font-style: italic;</xsl:text>
+                </xsl:attribute>
+                <xsl:if test="./head[@resp='added']">
+                    <xsl:text>[</xsl:text><xsl:value-of select="normalize-space(./head)"/><xsl:text>.]</xsl:text>
+                </xsl:if>
+                <xsl:if test="./head[@resp='original']">
+                    <xsl:value-of select="normalize-space(./head)"/>
+                </xsl:if>
             </xsl:element>
         </xsl:element>
     </xsl:template>
