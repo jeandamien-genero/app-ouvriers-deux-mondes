@@ -6,7 +6,7 @@
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
     <!-- MISE EN FORME DU DOCUMENT HTML -->
     <xsl:template match="/">
-        <div>
+        <div style="text-align: justify;">
             <!-- monographie -->
             <xsl:apply-templates select="//text"/>
             <div style="font-size: 10pt; margin: 70; text-align: justify;">
