@@ -184,10 +184,10 @@
                 </xsl:element>
             </xsl:element>
             <xsl:element name="figcaption">
-                <xsl:attribute name="style">
-                    <xsl:text>font-style: italic;</xsl:text>
-                </xsl:attribute>
                 <xsl:if test="./head[@resp='added']">
+                    <xsl:attribute name="style">
+                        <xsl:text>font-style: italic;</xsl:text>
+                    </xsl:attribute>
                     <xsl:text>[</xsl:text><xsl:value-of select="normalize-space(./head)"/><xsl:text>.]</xsl:text>
                 </xsl:if>
                 <xsl:if test="./head[@resp='original']">
