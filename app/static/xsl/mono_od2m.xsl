@@ -9,10 +9,12 @@
         <div style="text-align: justify;">
             <!-- monographie -->
             <xsl:apply-templates select="//text"/>
-            <div style="font-size: 10pt; margin: 70; text-align: justify;">
-                <h1>Notes</h1>
-                <xsl:apply-templates select="//text//note[@type = 'bp']/p"/>
-            </div>
+            <xsl:if test="//text//note">
+                <div style="font-size: 10pt; margin: 70; text-align: justify;">
+                    <h1>Notes</h1>
+                    <xsl:apply-templates select="//text//note[@type = 'bp']/p"/>
+                </div>
+            </xsl:if>
         </div>
         <!-- JS -->
         <script type="text/javascript" src="../static/js/js_od2m.js"/>
@@ -71,7 +73,7 @@
         <xsl:choose>
             <!-- sections -->
             <xsl:when test="./@type = 'section'">
-                <h1 style="font-size: x-large; align: center;">
+                <h1 style="font-size: x-large; text-align: center;">
                     <xsl:attribute name="id">
                         <xsl:value-of select="./@xml:id"/>
                     </xsl:attribute>
