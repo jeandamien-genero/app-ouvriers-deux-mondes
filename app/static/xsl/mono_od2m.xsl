@@ -4,6 +4,8 @@
     xmlns:xi="http://www.w3.org/2001/XInclude" exclude-result-prefixes="xs tei xi" version="1.0">
     <!--  xpath-default-namespace="http://www.tei-c.org/ns/1.0" -->
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+    <xsl:strip-space elements="*"/>
+    <xsl:preserve-space elements="ref"/> 
     <!-- MISE EN FORME DU DOCUMENT HTML -->
     <xsl:template match="/">
         <div style="text-align: justify;">
