@@ -28,8 +28,8 @@ def home():
 
 @app.route("/monographies")
 def monographies():
-    """Route that loads a page with the monographies list out of a CSV.
-    Works with a dictionary where monographies' titles are keys and XML
+    """Route that loads a page with the monographs list out of a CSV.
+    Works with a dictionary where monographs' titles are keys and XML
     filenames are values.
     """
     with open("../app-ouvriers-deux-mondes/app/static/csv/id_monographies.csv") as csv_file:
@@ -46,7 +46,7 @@ def monographies():
 def txt_mono(mono_id):
     """Route that loads a page with monograph text.
     :param mono_id: monograph XML filename.
-    :param mono_id: str.
+    :type mono_id: str.
     """
     filename = "../app-ouvriers-deux-mondes/app/static/xml/" + mono_id
     with open(filename, 'r', encoding='utf8') as opening:
