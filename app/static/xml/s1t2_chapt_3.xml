@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-010a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xml:id="ID-010a" xml:lang="fr">
+ <!-- xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" -->
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -288,7 +289,6 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <pb facs="#facs_12" n="9" source="lesouvriersdesde02sociuoft_0015.xml"/>
      <p xml:id="para_3_9_1">
       N° 10.
      </p>
@@ -299,10 +299,13 @@
       COUVREUR ET VITRIER
      </p>
      <p xml:id="para_3_9_4">
-      D'AIX-LES-BAINS (SAVOIE — ÉTATS SARDES)
+      D'AIX-LES-BAINS
+     </p>
+     <p>
+      (SAVOIE — ÉTATS SARDES)
      </p>
      <p xml:id="para_3_9_5">
-      (Ouvridr chef de metier et subsidiairement journalier, tâcheron et ouvrier tenancier dans le système du travail sans engagements)
+      (Ouvrier chef de metier et subsidiairement journalier, tâcheron et ouvrier tenancier dans le système du travail sans engagements)
      </p>
      <p xml:id="para_3_9_6">
       D'APRES LES
@@ -314,7 +317,7 @@
       PAR
      </p>
      <p xml:id="para_3_9_9">
-      M. F. LE PLAY C.E.
+      M. <persName>F. LE PLAY</persName> C.E.
      </p>
     </div>
     <div n="002" type="section">
@@ -330,10 +333,10 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_3_9_14">
-        La famille habite la petite ville d'Aix-les-Bains, située près de la frontière de France, par 45ᵉ 39ᶠ de lat. N. et 3° 35 de long. E. (M. P.), à 8kilomètres au-dessous de Chambéry, dans une petite vallée dont le fond est en grande partie formé par le lac du Bourget et dont les eaux débouchent par un canal étroit dans la rive gauche du Rhone. Les maisons d'Aix, depuis longtemps agglomérées sur le flanc d'une colline abrupte, près des abondantes sources thermales qui rendent cette localité célèbre, commencent à s'étendre dans la <pb facs="#facs_13" n="10" source="lesouvriersdesde02sociuoft_0016.xml"/> plaine contigue ; celle-ci, large d'un kilomètre, est limitée à l'est par cette colline, à l'ouest par le lac, puis par le mamelon de Tres¬serve longeant la rive sud-ouest du lac et formant promontoire entre les deux ruisseaux qui y portent leurs eaux. La banlieue rurale, complément de la commune d'Aix, comprend 13 hameaux et des habitations éparses qui, avec ceux des communes voisines, fournis¬sent aux habitants d'Aix et aux baigneurs attirés par les sources thermales une partie des denrées nécessaires à leur consommation.
+        <pb facs="#facs_12" n="9" source="lesouvriersdesde02sociuoft_0015.xml"/> La famille habite la petite ville d'Aix-les-Bains, située près de la frontière de France, par 45° 39' de lat. N. et 3° 35' de long. E. (M. P.), à 8 kilomètres au-dessous de Chambéry, dans une petite vallée dont le fond est en grande partie formé par le lac du Bourget et dont les eaux débouchent par un canal étroit dans la rive gauche du Rhône. Les maisons d'Aix, depuis longtemps agglomérées sur le flanc d'une colline abrupte, près des abondantes sources thermales qui rendent cette localité célèbre, commencent à s'étendre dans la <pb facs="#facs_13" n="10" source="lesouvriersdesde02sociuoft_0016.xml"/> plaine contiguë ; celle-ci, large d'un kilomètre, est limitée à l'est par cette colline, à l'ouest par le lac, puis par le mamelon de Tres¬serve longeant la rive sud-ouest du lac et formant promontoire entre les deux ruisseaux qui y portent leurs eaux. La banlieue rurale, complément de la commune d'Aix, comprend 13 hameaux et des habitations éparses qui, avec ceux des communes voisines, fournis¬sent aux habitants d'Aix et aux baigneurs attirés par les sources thermales une partie des denrées nécessaires à leur consommation.
        </p>
        <p xml:id="para_3_10_16">
-        Le sol, dont les strates sont redressées parallèlement à la direction du Rhône, se compose de marnes, de calcaires et de grès sableux appartenant à la formation néocomienne. Les deux principales sources d'Aix sortent de ce calcaire à la température moyenne de — 46° c., avec un volume de 4,900 litres par minute. Quelques filets de cette eau distribués au moyen de bornes-fontaines pour les besoins domestiques équivalent, pour la population, à une subven¬tion de combustible
+        Le sol, dont les strates sont redressées parallèlement à la direction du Rhône, se compose de marnes, de calcaires et de grès sableux appartenant à la formation néocomienne. Les deux principales sources d'Aix sortent de ce calcaire à la température moyenne de + 46° c., avec un volume de 4,900 litres par minute. Quelques filets de cette eau distribués au moyen de bornes-fontaines pour les besoins domestiques équivalent, pour la population, à une subven¬tion de combustible
         <ref target="#part_02_05_16" type="renvoi_int_mono">
          (14)
         </ref>
@@ -359,7 +362,7 @@
        </p>
        <figure rend="portrait" type="schema">
         <head resp="added" type="schema" xml:id="figure_1">
-         Subdivisions des hectares de la commune d'Aix-les-Bains
+         Subdivisions des hectares de la commune d'Aix-les-Bains (§ 1ᵉʳ)
         </head>
         <graphic facs="#facs_14" url="#"/>
        </figure>
@@ -409,18 +412,18 @@
        </p>
        <figure rend="portrait" type="table">
         <head resp="added" type="table" xml:id="figure_2">
-         Répartition de la population d'Aix-les-Bains (mariés, veufs, célbitaires, mineurs, domestiques)
+         Répartition de la population d'Aix-les-Bains (mariés, veufs, célbitaires, mineurs, domestiques) (§ 1ᵉʳ)
         </head>
-        <graphic facs="#facs_15_g_3" url="#" xml:id="tble_3_12_1"/>
+        <graphic facs="#facs_15" url="#" xml:id="tble_3_12_1"/>
        </figure>
        <p xml:id="para_3_12_33">
         Les chefs de famille ou de maison se répartissent, ainsi qu'il est indiqué ci-après, entre les diverses professions.
        </p>
        <figure rend="portrait" type="table">
         <head resp="added" type="table" xml:id="figure_3">
-         Catégories socio-professionnelle des chefs de famille ou de maison d'Aix-les-Bains
+         Catégories socio-professionnelle des chefs de famille ou de maison d'Aix-les-Bains (§ 1ᵉʳ)
         </head>
-        <graphic facs="#facs_15_g_5" url="#" xml:id="tble_3_12_2"/>
+        <graphic facs="#facs_15" url="#" xml:id="tble_3_12_2"/>
        </figure>
        <p xml:id="para_3_12_34">
         L'afluence de riches étrangers donne, dans cette localité, de faciles moyens d'existence à toutes les classes de la population ; néanmoins, dans l'état d'isolement où vivent les diverses subdivisions <pb facs="#facs_16" n="13" source="lesouvriersdesde02sociuoft_0019.xml"/> d'une même famille, et vu l'affaiblissement des liens de patronage
@@ -443,22 +446,19 @@
         § 2. — ÉTAT CIVIL DE LA FAMILLE.
        </head>
        <p xml:id="para_3_13_38">
-        La famille comprend les deux époux et deux jeunes enfants,
-       </p>
-       <p xml:id="para_3_13_39">
-        savoir :
+        La famille comprend les deux époux et deux jeunes enfants, savoir :
        </p>
        <p xml:id="para_3_13_40">
-        1. Josn B, chef de famille, né à Aix, marié en 1861..... 32 ans;
+        1. <persName>JOSEPH B**</persName>, chef de famille, né à Aix, marié en 1861............ 32 ans;
        </p>
        <p xml:id="para_3_13_41">
-        2. CLAUDINE D, sa femme, née à Ai..................... 28 —
+        2. <persName>CLAUDINE D**</persName>, sa femme, née à Aix............ 28 —
        </p>
        <p xml:id="para_3_13_42">
-        3. Alexandre B*, leur fls alné, né à Aix.................. 5 —
+        3. <persName>Alexandre B**</persName>, leur fils aîné, né à Aix............ 5 —
        </p>
        <p xml:id="para_3_13_43">
-        4. Ferdinand B*°, leur second fls, né à Aix................ 4 —
+        4. <persName>Ferdinand B**</persName>, leur second fils, né à Aix............ 4 —
        </p>
        <p xml:id="para_3_13_44">
         Plusieurs années avant le mariage, chacun des deux époux s'était créé une situation indépendante de la famille paternelle
@@ -472,14 +472,14 @@
         .
        </p>
        <p xml:id="para_3_13_45">
-        Le père de Joseph B** a perdu en 1849 sa première femme, dont l'héritage montant à 4,500 ᶠ a été partagé conformément à la li sarde
+        Le père de Joseph B** a perdu en 1849 sa première femme, dont l'héritage montant à 4,500ᶠ a été partagé conformément à la loi sarde
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (B)
         </ref>
-        , entre JosephB**,un frère et unesœur établis l'un et l'autre à Aix avec des métiers lucratifs : ce père, agé de 63 ans èt qui occupe <pb facs="#facs_17" n="14" source="lesouvriersdesde02sociuoft_0020.xml"/> encore l'emploi de facteur de la poste aux lettres, est marié en se¬condes noces et possesseur d'un capital de 5,000 ᶠ environ.
+        , entre Joseph B**, un frère et une sœur établis l'un et l'autre à Aix avec des métiers lucratifs : ce père, agé de 63 ans et qui occupe <pb facs="#facs_17" n="14" source="lesouvriersdesde02sociuoft_0020.xml"/> encore l'emploi de facteur de la poste aux lettres, est marié en se¬condes noces et possesseur d'un capital de 5,000ᶠ environ.
        </p>
        <p xml:id="para_3_14_47">
-        La mère de Claudine D** a perdu en 1847 son mari, petit entre¬preneur de bâtiments, qui a laissé des affaires embarrassées ; sa veuve, après une liquidation qui a constaté la perte entière du bien paternel, a pu conserverune petite maison, sa propriété personnelle, ayant une valeur de 6,000ᶠ, qui sera partagée un jour entre Clau¬dine D** et deux frères, exploitant aujourd'hui des métiers dans une situationinférieureà celle où leur père s'était momentanément élevé.
+        La mère de Claudine D** a perdu en 1847 son mari, petit entre¬preneur de bâtiments, qui a laissé des affaires embarrassées ; sa veuve, après une liquidation qui a constaté la perte entière du bien paternel, a pu conserver une petite maison, sa propriété personnelle, ayant une valeur de 6,000ᶠ, qui sera partagée un jour entre Clau¬dine D** et deux frères, exploitant aujourd'hui des métiers dans une situation inférieure à celle où leur père s'était momentanément élevé.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
@@ -643,10 +643,7 @@
         MMEBLE8.. . ................................. )ᶠ 0))
        </p>
        <p xml:id="para_3_19_77">
-        La fanillen'a point de propriété immobhiliere ; mais le capital' qu'elle place à intérêt a pour garantie hypothécaire des immeubles. Ce capital, incessamment accrupar l'épargne (D. S S°°), sera vraisembla¬
-       </p>
-       <p xml:id="para_3_19_78">
-        blement consacré dans la suite à l'acquisition d'une petite maison : la faille y trouvera son logement et a boutique
+        La fanillen'a point de propriété immobhiliere ; mais le capital' qu'elle place à intérêt a pour garantie hypothécaire des immeubles. Ce capital, incessamment accrupar l'épargne (D. S S°°), sera vraisembla¬blement consacré dans la suite à l'acquisition d'une petite maison : la faille y trouvera son logement et a boutique
         <ref target="#part_02_03_10" type="renvoi_int_mono">
          (§ 10)
         </ref>
@@ -876,7 +873,7 @@
        </p>
        <figure rend="portrait" type="schema">
         <head resp="added" type="schema" xml:id="figure_4">
-         Répartion des pièces de l'habitation de la famille B***
+         Répartion des pièces de l'habitation de la famille B*** (§ 10)
         </head>
         <graphic facs="#facs_27" url="#"/>
        </figure>
@@ -910,9 +907,8 @@
         <p xml:id="para_3_24_128">
         Obieant.. ....................................... D
         </p>-->
-       <pb facs="#facs_28" n="25" source="lesouvriersdesde02sociuoft_0031.xml"/>
        <p xml:id="para_3_25_129">
-        La maison, mal placée au point de vue du commerce de boutique
+        <pb facs="#facs_28" n="25" source="lesouvriersdesde02sociuoft_0031.xml"/> La maison, mal placée au point de vue du commerce de boutique
         <ref target="#part_02_02_08" type="renvoi_int_mono">
          (§ 8)
         </ref>
@@ -1222,28 +1218,28 @@
        </head>
        <pb facs="#facs_35" n="32" source="lesouvriersdesde02sociuoft_0038.xml"/>
        <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_35_g_2" url="#" xml:id="illu_3_32_3"/>
+        <graphic facs="#facs_35" url="#" xml:id="illu_3_32_3"/>
        </figure>
        <pb facs="#facs_36" n="33" source="lesouvriersdesde02sociuoft_0039.xml"/>
        <!--<p xml:id="para_3_33_193">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
        <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_36_g_2" url="#" xml:id="tble_3_33_4"/>
+        <graphic facs="#facs_36" url="#" xml:id="tble_3_33_4"/>
        </figure>
        <pb facs="#facs_37" n="34" source="lesouvriersdesde02sociuoft_0040.xml"/>
        <!--<p xml:id="para_3_34_194">
         BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
        <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_37_g_2" url="#" xml:id="tble_3_34_5"/>
+        <graphic facs="#facs_37" url="#" xml:id="tble_3_34_5"/>
        </figure>
        <pb facs="#facs_38" n="35" source="lesouvriersdesde02sociuoft_0041.xml"/>
        <!--<p xml:id="para_3_35_195">
         BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
        <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_38_g_2" url="#" xml:id="tble_3_35_6"/>
+        <graphic facs="#facs_38" url="#" xml:id="tble_3_35_6"/>
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
@@ -1252,21 +1248,21 @@
        </head>
        <pb facs="#facs_39" n="36" source="lesouvriersdesde02sociuoft_0042.xml"/>
        <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_39_g_2" url="#" xml:id="tble_3_36_7"/>
+        <graphic facs="#facs_39" url="#" xml:id="tble_3_36_7"/>
        </figure>
        <pb facs="#facs_40" n="37" source="lesouvriersdesde02sociuoft_0043.xml"/>
        <!--<p xml:id="para_3_37_197">
         BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
        <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_40_g_2" url="#" xml:id="tble_3_37_8"/>
+        <graphic facs="#facs_40" url="#" xml:id="tble_3_37_8"/>
        </figure>
        <pb facs="#facs_41" n="38" source="lesouvriersdesde02sociuoft_0044.xml"/>
        <!--<p xml:id="para_3_38_198">
         BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
        <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_41_g_2" url="#" xml:id="tble_3_38_9"/>
+        <graphic facs="#facs_41" url="#" xml:id="tble_3_38_9"/>
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
@@ -1278,33 +1274,33 @@
         I COMPTES DES ÉNÉFICES
         </p>-->
        <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_42_g_2" url="#" xml:id="tble_3_39_10"/>
+        <graphic facs="#facs_42" url="#" xml:id="tble_3_39_10"/>
        </figure>
        <pb facs="#facs_43" n="40" source="lesouvriersdesde02sociuoft_0046.xml"/>
        <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_43_g_1" url="#" xml:id="tble_3_40_11"/>
+        <graphic facs="#facs_43" url="#" xml:id="tble_3_40_11"/>
        </figure>
        <pb facs="#facs_44" n="41" source="lesouvriersdesde02sociuoft_0047.xml"/>
        <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_44_g_1" url="#" xml:id="tble_3_41_12"/>
+        <graphic facs="#facs_44" url="#" xml:id="tble_3_41_12"/>
        </figure>
        <pb facs="#facs_45" n="42" source="lesouvriersdesde02sociuoft_0048.xml"/>
        <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_45_g_1" url="#" xml:id="tble_3_42_13"/>
+        <graphic facs="#facs_45" url="#" xml:id="tble_3_42_13"/>
        </figure>
        <pb facs="#facs_46" n="43" source="lesouvriersdesde02sociuoft_0049.xml"/>
        <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_46_g_1" url="#" xml:id="tble_3_43_14"/>
+        <graphic facs="#facs_46" url="#" xml:id="tble_3_43_14"/>
        </figure>
        <!--<figure>
-        <graphic facs="#facs_46_g_2" url="#" xml:id="tble_3_43_15"/>
+        <graphic facs="#facs_46" url="#" xml:id="tble_3_43_15"/>
         </figure>-->
        <pb facs="#facs_47" n="44" source="lesouvriersdesde02sociuoft_0050.xml"/>
        <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_47_g_1" url="#" xml:id="tble_3_44_16"/>
+        <graphic facs="#facs_47" url="#" xml:id="tble_3_44_16"/>
        </figure>
        <!--<figure>
-        <graphic facs="#facs_47_g_2" url="#" xml:id="tble_3_44_17"/>
+        <graphic facs="#facs_47" url="#" xml:id="tble_3_44_17"/>
         </figure>-->
       </div>
      </div>
@@ -1314,7 +1310,7 @@
       NOTES
      </head>
      <p xml:id="para_3_45_201">
-      PAITS IMPORTANTS D'ORGANISATION SOCIAL; PARTICULARITÉS REMARQUABLES; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
+      FAITS IMPORTANTS D'ORGANISATION SOCIAL; PARTICULARITÉS REMARQUABLES; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
      </p>
      <div n="001" type="sub_section">
       <div n="001" type="sub_sub_section">
@@ -1383,9 +1379,9 @@
        </p>
        <figure rend="portrait" type="table">
         <head resp="added" type="table" xml:id="figure_5">
-         Comparaison du montant des impôts payés par la famille en 1851 et en 1857
+         Comparaison du montant des impôts payés par la famille en 1851 et en 1857 (notes annexes)
         </head>
-        <graphic facs="#facs_51_g_3" url="#" xml:id="tble_3_48_18"/>
+        <graphic facs="#facs_51" url="#" xml:id="tble_3_48_18"/>
        </figure>
        <p xml:id="para_3_48_213">
         Enfin, une troisième cause de mécontentement populaire est la rupture des liens moraux qui unissaient autrefois, dans cette localité, le bourgeois et l'ouvrier, et la direction nouvelle imprimée à leurs relations d'intérêt. Autrefois, le propriétaire des biens de ville et de campagne exerçait un véritable patronage sur les gens employés à l'exploitation ou à l'entretien de ces immeubles. Il adoptait et pro¬tégeait leurs enfants en qualité de parrain
@@ -1446,7 +1442,7 @@
        </p>
        <div n="001" type="paragraph">
         <head type="paragraph" xml:id="part_03_01_18_01">
-         I. Faits principaux concernant le régime des successons.
+         I. Faits principaux concernant le régime des successions.
         </head>
         <p xml:id="para_3_52_230">
          Chacun peut disposer de ses biens par testament ; cependant une part de ces biens est réservée par la loi aux enfants légitimes existant au moment du décès du propriétaire ; cette part ou légitime com¬prend le tiers des biens s'il y a un ou deux enfants ; la moitié s'il y en a un plus grand nombre.
@@ -1459,7 +1455,7 @@
         </p>
         <figure rend="portrait" type="inventory">
          <head resp="added" type="inventory" xml:id="figure_6">
-          Partage d'un héritage de 12,000ᶠ dans une famille où aucun garçon n'est voué à la prêtrise
+          Partage d'un héritage de 12,000ᶠ dans une famille où aucun garçon n'est voué à la prêtrise (notes annexes)
          </head>
          <graphic facs="#facs_56" url="#"/>
         </figure>
@@ -1492,7 +1488,7 @@
         </p>
         <figure rend="portrait" type="inventory">
          <head resp="added" type="inventory" xml:id="figure_7">
-          Partage d'un héritage de 12,000ᶠ dans une fraterie où un garçon est voué à la prêtrise
+          Partage d'un héritage de 12,000ᶠ dans une fraterie où un garçon est voué à la prêtrise (notes annexes)
          </head>
          <graphic facs="#facs_56" url="#"/>
         </figure>
@@ -1516,7 +1512,6 @@
         </p>
        </div>
        <div n="002" type="paragraph">
-        <pb facs="#facs_57" n="54" source="lesouvriersdesde02sociuoft_0060.xml"/>
         <head type="paragraph" xml:id="part_03_01_18_02">
          II. — Exemple de partage d'une successon dans la famille de Joseph B**
          <ref target="#part_02_01_02" type="renvoi_int_mono">
@@ -1525,13 +1520,13 @@
          .
         </head>
         <p xml:id="para_3_54_250">
-         La mère de Joseph B** est morte en 1849 laissant un veuf et quatre enfants issus de son unique mariage, savoir : deux garçons et deux filles tous majeurs. Avant que le partage ait été effectué, une des filles est morte à son tour, laissant pour héritiers son père, saseur et ses deux frères. Le capital laissé par la mère montait à 4,500 fr. ; les deux partages effectués simultanément ont attribué aux quatre héritiers les sommes indiquées ci-après :
+         <pb facs="#facs_57" n="54" source="lesouvriersdesde02sociuoft_0060.xml"/> La mère de Joseph B** est morte en 1849 laissant un veuf et quatre enfants issus de son unique mariage, savoir : deux garçons et deux filles tous majeurs. Avant que le partage ait été effectué, une des filles est morte à son tour, laissant pour héritiers son père, saseur et ses deux frères. Le capital laissé par la mère montait à 4,500 fr. ; les deux partages effectués simultanément ont attribué aux quatre héritiers les sommes indiquées ci-après :
         </p>
         <figure rend="portrait" type="table">
          <head resp="added" type="table" xml:id="figure_8">
-          Succession de la mère de Joseph B*** (1840)
+          Succession de la mère de Joseph B*** (1840) (notes annexes)
          </head>
-         <graphic facs="#facs_57_g_3" url="#" xml:id="tble_3_54_19"/>
+         <graphic facs="#facs_57" url="#" xml:id="tble_3_54_19"/>
         </figure>
        </div>
        <div n="003" type="paragraph">
@@ -1605,7 +1600,7 @@
       </div>
       <div n="003" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_03_01_19">
-        (C) sUR LA SOCÍTÉ DE SECOURS MUTUELS, DIE L'nion.
+        (C) SUR LA SOCIÉTÉ DE SECOURS MUTUELS, DITE L'nion.
        </head>
        <p xml:id="para_3_58_272">
         Cette société, fondée en 1851 par les ouvriers d'Aix, a, pour but immédiat de conjurer les plus désastreux effets de la maladie. Elle se compose de personnes toutes vouées aux travaux manuels, et que l'on admet seulement quand elles ont plus de 18 ans et moins de 45 ans révolus. Chaque sociétaire paie mensuellement une somme de 1ᶠ00, laquelle, après les six premiers mois, est réduite à 0ᶠ50. Il doit, sous peine de payer une amende de 1ᶠ 00, prendre part aux funérailles de chaque associé décédé. Il doit assister à chaque as¬semblée mensuelle, sous peine de payer une amende de 0ᶠ25 pour chaque absence ; enfin, sur l'invitation qui lui en est faite par le président, il doit soigner, à son tour, pendant une nuit, les socié¬taires malades ou, s'il ne peut remplir ce devoir, payer une amende de 0ᶠ 75.
@@ -1643,7 +1638,7 @@
       </div>
       <div n="004" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_03_01_20">
-        (D) sUR LES PASSAGES PÉRIODIQUES D'OISEAUX DANS LA BANLIEUE D'AIX.
+        (D) SUR LES PASSAGES PÉRIODIQUES D'OISEAUX DANS LA BANLIEUE D'AIX.
        </head>
        <p xml:id="para_3_60_282">
         Les petits oiseaux appartenant aux genres bergeronnetteˉ, ppi, fringilleˉ, bruant, alouette, etc., émigrent à l'arrière-saison de l'Eu¬rope centrale et septentrionale vers l'Asie ou le rivage de la Médi¬terranée ; puis, en sens inverse, au printemps, par bandes nom¬breuses. Sur les principaux lieux de passage, ils deviennent l'objet de chasses qui sont à la fois pour les populations une récréation et une source de profits. L'étude de cette industrie, intimement liée en beaucoup de localités au cadre des monographies d'ouvriers
