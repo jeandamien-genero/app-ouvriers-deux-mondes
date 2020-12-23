@@ -57,14 +57,26 @@
                 </xsl:if>
             </xsl:when>
             <!-- div des sous sections -->
-            <xsl:when test="./@type = 'sub_section'">
+            <xsl:when test="./@type='sub_section'">
                 <div type="sub_section">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <!-- div des sous-sous-sections -->
-            <xsl:when test="./@type = 'sub_sub_section'">
+            <xsl:when test="./@type='sub_sub_section'">
                 <div type="sub_sub_section">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+            <!-- div des paragraph -->
+            <xsl:when test="./@type='paragraph'">
+                <div type="paragraph">
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:when>
+            <!-- div des sub paragraph -->
+            <xsl:when test="./@type='sub_paragraph'">
+                <div type="sub_paragraph">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
@@ -105,6 +117,30 @@
                     </xsl:attribute>
                     <xsl:apply-templates/>
                 </h3>
+            </xsl:when>
+            <!-- paragraph -->
+            <xsl:when test="./@type = 'paragraph'">
+                <h4 style="font-size: medium;">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="./@xml:id"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="style">
+                        <xsl:text>margin: 30 auto 30 auto</xsl:text>
+                    </xsl:attribute>
+                    <xsl:apply-templates/>
+                </h4>
+            </xsl:when>
+            <!-- sub_paragraph -->
+            <xsl:when test="./@type = 'sub_paragraph'">
+                <h5 style="font-size: medium;">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="./@xml:id"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="style">
+                        <xsl:text>margin: 30 auto 30 auto</xsl:text>
+                    </xsl:attribute>
+                    <xsl:apply-templates/>
+                </h5>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
