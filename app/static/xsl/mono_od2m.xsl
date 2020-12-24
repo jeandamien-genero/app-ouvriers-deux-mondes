@@ -19,7 +19,7 @@
             </xsl:if>
         </div>
         <!-- JS -->
-        <script type="text/javascript" src="../static/js/js_od2m.js"/>
+        <script src="../static/js/js_od2m.js"/>
     </xsl:template>
     <xsl:template match="teiHeader"/>
     <!-- STRUCTURE LOGIQUE >> DIVISONS -->
@@ -27,7 +27,7 @@
         <xsl:choose>
             <!-- div globale de la monographie -->
             <xsl:when test="./@type = 'chapter'">
-                <div type="chapter">
+                <div title="chapter">
                     <xsl:attribute name="id">
                         <!-- <xsl:value-of select="replace(//div[@type='chapter']/@ana,'#','')"/> -->
                         <xsl:text>contents</xsl:text>
@@ -39,7 +39,7 @@
             <xsl:when test="./@type = 'section'">
                 <!-- mise en forme s'il s'agit du titre de la monographie -->
                 <xsl:if test="./@n = '001'">
-                    <div type="section"
+                    <div title="section"
                         style="font-weight: bold; text-align: center; margin-bottom: 60; padding-top: 25;">
                         <xsl:apply-templates/>
                     </div>
@@ -51,32 +51,32 @@
                 </xsl:if>
                 <!-- pas de mise en forme pour toutes les autres grandes sections -->
                 <xsl:if test="./@n[not(contains(., '001'))]">
-                    <div type="section">
+                    <div title="section">
                         <xsl:apply-templates/>
                     </div>
                 </xsl:if>
             </xsl:when>
             <!-- div des sous sections -->
             <xsl:when test="./@type='sub_section'">
-                <div type="sub_section">
+                <div title="sub_section">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <!-- div des sous-sous-sections -->
             <xsl:when test="./@type='sub_sub_section'">
-                <div type="sub_sub_section">
+                <div title="sub_sub_section">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <!-- div des paragraph -->
             <xsl:when test="./@type='paragraph'">
-                <div type="paragraph">
+                <div title="paragraph">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
             <!-- div des sub paragraph -->
             <xsl:when test="./@type='sub_paragraph'">
-                <div type="sub_paragraph">
+                <div title="sub_paragraph">
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
@@ -85,12 +85,12 @@
             <xsl:otherwise>
                 <xsl:element name="div">
                     <xsl:if test="./@type">
-                        <xsl:attribute name="type">
+                        <xsl:attribute name="title">
                             <xsl:value-of select="./@type"/>
                         </xsl:attribute>
                     </xsl:if>
                     <xsl:if test="./@subtype">
-                        <xsl:attribute name="subtype">
+                        <xsl:attribute name="id">
                             <xsl:value-of select="./@subtype"/>
                         </xsl:attribute>
                     </xsl:if>
