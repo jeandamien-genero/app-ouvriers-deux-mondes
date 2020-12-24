@@ -80,6 +80,23 @@
                     <xsl:apply-templates/>
                 </div>
             </xsl:when>
+            <!-- pas de règle particulière pour les autres <div>
+            à part la reprise des atributs @type et @subtype -->
+            <xsl:otherwise>
+                <xsl:element name="div">
+                    <xsl:if test="./@type">
+                        <xsl:attribute name="type">
+                            <xsl:value-of select="./@type"/>
+                        </xsl:attribute>
+                    </xsl:if>
+                    <xsl:if test="./@subtype">
+                        <xsl:attribute name="subtype">
+                            <xsl:value-of select="./@subtype"/>
+                        </xsl:attribute>
+                    </xsl:if>
+                    <xsl:apply-templates/>
+                </xsl:element>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     <!-- STRUCTURE LOGIQUE >> TITRES -->
