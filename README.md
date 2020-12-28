@@ -24,7 +24,7 @@ _Cette application a pour but de présenter un état du travail sur les monograp
 
 ## Installation process
 
-*Nota : commands to execute through the terminal (Linux or macOS)
+_Nota : commands to execute through the terminal (Linux or macOS)_
 
   * Clone the file : ```git clone https://github.com/jeandamien-genero/app-ouvriers-deux-mondes```
   
