@@ -6,56 +6,56 @@ Initial acquisition and structuration of the texts were automatically produced b
  
 The goal of the app is to present the advance of the work on the monographs. It is currently developed by Jean-Daming Généro from XML-TEI files structured by Alix Chagué and himself.
 
-Les _Ouvriers des deux mondes_ sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « [Time Us](http://larhra.ish-lyon.cnrs.fr/anr-time-us) » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+_[fr] Les _Ouvriers _des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « [Time Us](http://larhra.ish-lyon.cnrs.fr/anr-time-us) » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude._
 
-L'acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des [numérisations d'Internet Archive](http://timeusage.paris.inria.fr/mediawiki/index.php/Aper%C3%A7u_des_%C3%A9tats#Les_Ouvriers_des_Mondes), à l'aide de l'application [LSE-OD2M](https://gitlab.inria.fr/almanach/time-us/LSE-OD2M) développée par Alix Chagué, ingénieure de recherche et de développement de l'[équipe ALMAnaCH d'Inria](https://team.inria.fr/almanach/fr/). L'encodage scientifique a ensuite été réalisé par Jean-Damien Généro, ingénieur d'études du CNRS accueilli au [Centre Maurice Halbwachs](https://www.cmh.ens.fr/) (CMH) puis affecté au [Centre de recherches historiques](http://crh.ehess.fr/) (CRH) sous la supervision d'Anne Lhuissier, directrice de recherche de l'INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l'EHESS (CRH).
+_L'acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des [numérisations d'Internet Archive](http://timeusage.paris.inria.fr/mediawiki/index.php/Aper%C3%A7u_des_%C3%A9tats#Les_Ouvriers_des_Mondes), à l'aide de l'application [LSE-OD2M](https://gitlab.inria.fr/almanach/time-us/LSE-OD2M) développée par Alix Chagué, ingénieure de recherche et de développement de l'[équipe ALMAnaCH d'Inria](https://team.inria.fr/almanach/fr/). L'encodage scientifique a ensuite été réalisé par Jean-Damien Généro, ingénieur d'études du CNRS accueilli au [Centre Maurice Halbwachs](https://www.cmh.ens.fr/) (CMH) puis affecté au [Centre de recherches historiques](http://crh.ehess.fr/) (CRH) sous la supervision d'Anne Lhuissier, directrice de recherche de l'INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l'EHESS (CRH)._
 
-Cette application a pour but de présenter un état du travail sur les monographies. Elles est développée par Jean-Damien Généro, à partir de fichiers XML-TEI structurés par Alix Chagué et lui-même.
-
----
-
-## Fonctionnalités
-
-- Liste des monographies ;
-
-- Visualisation du texte des monographies avec lien vers les images IIIF des pages.
+_Cette application a pour but de présenter un état du travail sur les monographies. Elles est développée par Jean-Damien Généro, à partir de fichiers XML-TEI structurés par Alix Chagué et lui-même._
 
 ---
 
-## Installation
+## Features
 
-*Nota : commandes à exécuter dans le terminal (Linux ou macOS).*
+- List of the monographs ;
 
-  * Cloner le dossier : ```git clone https://github.com/jeandamien-genero/app-ouvriers-deux-mondes```
+- Visualisation of the monographs’ text with a link to the IIIF images of the pages ;
+
+---
+
+## Installation process
+
+*Nota : commands to execute through the terminal (Linux or macOS)
+
+  * Clone the file : ```git clone https://github.com/jeandamien-genero/app-ouvriers-deux-mondes```
   
-  * Installer l'environnement virtuel :
+  * Install the virtual environment :
   
-    * Vérifier que la version de Python est bien 3.x : ```python --version```;
+    * Check that you’re using Python 3.x version by running : ```python --version```;
     
-    * Aller dans le dossier : ```cd app-ouvriers-deux-mondes```;
+    * Go to the following file  : ```cd app-ouvriers-deux-mondes```;
     
-    * Installer l'environnement : ```python3 -m venv [nom de l'environnement]```.
+    * Install the environment : ```python3 -m venv [environment name]```.
   
-  * Installer les packages et librairies :
+  * Install the packages and libraries :
   
-    * Activer l'environnement : ```source [nom de l'environnement]/bin/activate```;
+    * Activate the environment  : ```source [environment name]/bin/activate```;
     
     * Installation : `pip install requirements.txt`
     
-    * Sortir de l'environnement : ```deactivate``` ;
+    * Exit the environment : ```deactivate``` ;
  
  ---
 
-## Lancement
+## Launch
   
-  * Activer l'environnement : ```source [nom de l'environnement]/bin/activate``` ;
+  * Activate the environment : ```source [nom de l'environnement]/bin/activate``` ;
     
-  * Lancement : ```python run.py``` ;
+  * Launch : ```python run.py``` ;
     
-  * Aller sur ```http://127.0.0.1:5000/``` ;
+  * Go to ```http://127.0.0.1:5000/``` ;
     
-  * Désactivation : ```ctrl + c``` ;
+  * Deactivation : ```ctrl + c``` ;
     
-  * Sortir de l'environnement : ```deactivate```.
+  * Exit the environment : ```deactivate```.
 
 ---
