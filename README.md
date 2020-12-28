@@ -6,12 +6,6 @@ Initial acquisition and structuration of the texts were automatically produced b
  
 The goal of the app is to present the advance of the work on the monographs. It is currently developed by Jean-Daming Généro from XML-TEI files structured by Alix Chagué and himself.
 
-[fr] _Les_ Ouvriers des deux mondes _sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « [Time Us](http://larhra.ish-lyon.cnrs.fr/anr-time-us) » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude._
-
-_L'acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des [numérisations d'Internet Archive](http://timeusage.paris.inria.fr/mediawiki/index.php/Aper%C3%A7u_des_%C3%A9tats#Les_Ouvriers_des_Mondes), à l'aide de l'application [LSE-OD2M](https://gitlab.inria.fr/almanach/time-us/LSE-OD2M) développée par Alix Chagué, ingénieure de recherche et de développement de l'[équipe ALMAnaCH d'Inria](https://team.inria.fr/almanach/fr/). L'encodage scientifique a ensuite été réalisé par Jean-Damien Généro, ingénieur d'études du CNRS accueilli au [Centre Maurice Halbwachs](https://www.cmh.ens.fr/) (CMH) puis affecté au [Centre de recherches historiques](http://crh.ehess.fr/) (CRH) sous la supervision d'Anne Lhuissier, directrice de recherche de l'INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l'EHESS (CRH)._
-
-_Cette application a pour but de présenter un état du travail sur les monographies. Elles est développée par Jean-Damien Généro, à partir de fichiers XML-TEI structurés par Alix Chagué et lui-même._
-
 ---
 
 ## Features
@@ -59,3 +53,9 @@ _Nota : commands to execute through the terminal (Linux or macOS)_
   * Exit the environment : ```deactivate```.
 
 ---
+
+[fr] _Les_ Ouvriers des deux mondes _sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « [Time Us](http://larhra.ish-lyon.cnrs.fr/anr-time-us) » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude._
+
+_L'acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des [numérisations d'Internet Archive](http://timeusage.paris.inria.fr/mediawiki/index.php/Aper%C3%A7u_des_%C3%A9tats#Les_Ouvriers_des_Mondes), à l'aide de l'application [LSE-OD2M](https://gitlab.inria.fr/almanach/time-us/LSE-OD2M) développée par Alix Chagué, ingénieure de recherche et de développement de l'[équipe ALMAnaCH d'Inria](https://team.inria.fr/almanach/fr/). L'encodage scientifique a ensuite été réalisé par Jean-Damien Généro, ingénieur d'études du CNRS accueilli au [Centre Maurice Halbwachs](https://www.cmh.ens.fr/) (CMH) puis affecté au [Centre de recherches historiques](http://crh.ehess.fr/) (CRH) sous la supervision d'Anne Lhuissier, directrice de recherche de l'INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l'EHESS (CRH)._
+
+_Cette application a pour but de présenter un état du travail sur les monographies. Elles est développée par Jean-Damien Généro, à partir de fichiers XML-TEI structurés par Alix Chagué et lui-même._
