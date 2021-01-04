@@ -19,7 +19,7 @@ var output = output || '#toc';
 container.innerHTML =
     container.innerHTML.replace(
         /<h([\d]) style=".+" id="(.+)">([^<]+)(<sup>(<a href="#\d+">\d+<\/a>)<\/sup>)?\.?<\/h([\d])>/gi,
-        function (str, openLevel, idLevel, titleText, note, link, closeLevel) {
+        function (str, openLevel, idLevel, titleText, note, refl, closeLevel) {
             if (openLevel != closeLevel) {
                 return str;
             }
@@ -41,11 +41,11 @@ container.innerHTML =
 
             if ( note ) {
                 return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
-                + titleText + '</a>' + '<sup>' + link + '</sup>' + '</h' + closeLevel + '>';
+                + titleText + '</a>' + '<sup>' + refl + '</sup>' + '</h' + closeLevel + '>'
             } else {
                 return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
-                + titleText + '</h' + closeLevel + '>';
-            }
+                + titleText + '</h' + closeLevel + '>'
+            };
         }
     );
 
