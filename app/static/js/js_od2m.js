@@ -18,8 +18,8 @@ var output = output || '#toc';
 
 container.innerHTML =
     container.innerHTML.replace(
-        /<h([\d]) style=".+" id="(.+)">([^<]+)<\/h([\d])>/gi,
-        function (str, openLevel, idLevel, titleText, closeLevel) {
+        /<h([\d]) style=".+" id="(.+)">([^<]+)(<sup>(<a href="#\d+">\d+<\/a>)<\/sup>)?\.?<\/h([\d])>/gi,
+        function (str, openLevel, idLevel, titleText, note, link, closeLevel) {
             if (openLevel != closeLevel) {
                 return str;
             }
@@ -34,12 +34,18 @@ container.innerHTML =
 
             level = parseInt(openLevel);
 
-            var anchor = idLevel.replace(/ /g, "-");
+            /* var anchor = idLevel.replace(/ /g, "-");*/
+            var anchor = idLevel;
             toc += '<li><a href="#' + anchor + '">' + titleText
                 + '</a>';
 
-            return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
-                + titleText + '</a></h' + closeLevel + '>';
+            if ( note ) {
+                return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
+                + titleText + '</a>' + '<sup>' + link + '</sup>' + '</h' + closeLevel + '>';
+            } else {
+                return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
+                + titleText + '</h' + closeLevel + '>';
+            }
         }
     );
 
