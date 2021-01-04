@@ -17,6 +17,7 @@ from lxml import etree
 
 # imports
 from .app import app
+from .clear_xml import clear_file
 
 
 # routes
@@ -49,14 +50,15 @@ def txt_mono(mono_id):
     :type mono_id: str.
     """
     filename = "../app-ouvriers-deux-mondes/app/static/xml/" + mono_id
-    with open(filename, 'r', encoding='utf8') as opening:
-        file = opening.read()
-        soup = BeautifulSoup(file, 'xml')
-        del soup.TEI['xmlns']
-        del soup.TEI['xmlns:xi']
-        result = soup.prettify()
-    with open(filename, 'w', encoding='utf8') as writting:
-        writting.write(result)
+    # with open(filename, 'r', encoding='utf8') as opening:
+        # file = opening.read()
+        # soup = BeautifulSoup(file, 'xml')
+        # del soup.TEI['xmlns']
+        # del soup.TEI['xmlns:xi']
+        # result = soup.prettify()
+    clear_file(filename)
+    # with open(filename, 'w', encoding='utf8') as writting:
+        # writting.write(result)
     source_doc = etree.parse(filename)
     xslt_doc = etree.parse("../app-ouvriers-deux-mondes/app/static/xsl/mono_od2m.xsl")
     xslt_transformer = etree.XSLT(xslt_doc)
