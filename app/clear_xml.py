@@ -37,7 +37,8 @@ titles = {"OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMB
           "BUDGET DES DÉPENSES DE L'ANNÉE": "Budget des dépenses de l'année",
           "NOTES": "Notes", "NOTES DIVERSES": "Notes diverses", "Notes DIVERSES": "Notes diverses",
           "COMPTES ANNEXES AUX BUDGETS": "Comptes annexés aux budgets",
-          "COMPTES ANNEXÉS AUX BUDGETS": "Comptes annexés aux budgets"}
+          "COMPTES ANNEXÉS AUX BUDGETS": "Comptes annexés aux budgets",
+          "TRAVAUX DE LA FAMILLE": "Travaux de la famille"}
 
 def clear_file(input_file):
   with open(input_file, 'r', encoding='utf-8') as xml_file:
