@@ -40,7 +40,7 @@
                 <!-- mise en forme s'il s'agit du titre de la monographie -->
                 <xsl:if test="./@n = '001'">
                     <div title="section"
-                        style="font-weight: bold; text-align: center; margin-bottom: 60; padding-top: 25;">
+                        style="font-weight: bold; text-align: center; margin-bottom: 5%; padding-top: 5%;">
                         <xsl:apply-templates/>
                     </div>
                     <hr/>
@@ -113,27 +113,27 @@
             </xsl:when>
             <!-- sous-sections -->
             <xsl:when test="./@type = 'sub_section'">
-                <h2 style="font-size: large;">
+                <xsl:element name="h2">
+                    <xsl:attribute name="style">
+                        <xsl:text>font-size: large; margin: 5px auto 7px auto;</xsl:text>
+                    </xsl:attribute>
                     <xsl:attribute name="id">
                         <xsl:value-of select="./@xml:id"/>
                     </xsl:attribute>
-                    <xsl:attribute name="style">
-                        <xsl:text>margin: 30 auto 45 auto</xsl:text>
-                    </xsl:attribute>
                     <xsl:apply-templates/>
-                </h2>
+                </xsl:element>
             </xsl:when>
             <!-- sous-sous-sections -->
             <xsl:when test="./@type = 'sub_sub_section'">
-                <h3 style="font-size: medium;">
+                <xsl:element name="h3">
+                    <xsl:attribute name="style">
+                        <xsl:text>font-size: medium; margin: 4px auto 6px auto;</xsl:text>
+                    </xsl:attribute>
                     <xsl:attribute name="id">
                         <xsl:value-of select="./@xml:id"/>
                     </xsl:attribute>
-                    <xsl:attribute name="style">
-                        <xsl:text>margin: 30 auto 30 auto</xsl:text>
-                    </xsl:attribute>
                     <xsl:apply-templates/>
-                </h3>
+                </xsl:element>
             </xsl:when>
             <!-- paragraph -->
             <xsl:when test="./@type = 'paragraph'">
@@ -231,7 +231,7 @@
                             select="./ancestor::TEI/facsimile[@xml:id = $url_fig]/graphic/@url"/>
                     </xsl:attribute>
                     <xsl:attribute name="width">
-                        <xsl:text>30%</xsl:text>
+                        <xsl:text>225</xsl:text>
                     </xsl:attribute>
                     <xsl:attribute name="alt">
                         <xsl:value-of select="normalize-space(./head)"/>
