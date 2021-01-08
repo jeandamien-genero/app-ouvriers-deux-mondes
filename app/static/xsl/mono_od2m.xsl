@@ -81,7 +81,7 @@
                 </div>
             </xsl:when>
             <!-- pas de règle particulière pour les autres <div>
-            à part la reprise des atributs @type et @subtype -->
+                à part la reprise des atributs @type et @subtype -->
             <xsl:otherwise>
                 <xsl:element name="div">
                     <xsl:if test="./@type">
@@ -137,35 +137,33 @@
             </xsl:when>
             <!-- paragraph -->
             <xsl:when test="./@type = 'paragraph'">
-                <h4 style="font-size: medium;">
+                <xsl:element name="h4">
+                    <xsl:attribute name="style">
+                        <xsl:text>font-size: medium; margin: 4px auto 6px auto</xsl:text>
+                    </xsl:attribute>
                     <xsl:attribute name="id">
                         <xsl:value-of select="./@xml:id"/>
                     </xsl:attribute>
-                    <xsl:attribute name="style">
-                        <xsl:text>margin: 30 auto 30 auto</xsl:text>
-                    </xsl:attribute>
                     <xsl:apply-templates/>
-                </h4>
+                </xsl:element>
             </xsl:when>
             <!-- sub_paragraph -->
             <xsl:when test="./@type = 'sub_paragraph'">
-                <h5 style="font-size: medium;">
+                <xsl:element name="h5">
+                    <xsl:attribute name="style">
+                        <xsl:text>font-size: medium; margin: 4px auto 6px auto</xsl:text>
+                    </xsl:attribute>
                     <xsl:attribute name="id">
                         <xsl:value-of select="./@xml:id"/>
                     </xsl:attribute>
-                    <xsl:attribute name="style">
-                        <xsl:text>margin: 30 auto 30 auto</xsl:text>
-                    </xsl:attribute>
                     <xsl:apply-templates/>
-                </h5>
+                </xsl:element>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
     <!-- PARAGRAPHES -->
     <xsl:template match="//text//div//p">
-        <xsl:element name="p">
-            <xsl:apply-templates/>
-        </xsl:element>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="//text//div//p/text()">
         <xsl:value-of select="translate(., '¬', '')"/>
@@ -239,14 +237,26 @@
                 </xsl:element>
             </xsl:element>
             <xsl:element name="figcaption">
+                <xsl:attribute name="style">
+                    <xsl:text>font-style: italic;</xsl:text>
+                </xsl:attribute>
                 <xsl:if test="./head[@resp='added']">
-                    <xsl:attribute name="style">
-                        <xsl:text>font-style: italic;</xsl:text>
-                    </xsl:attribute>
-                    <xsl:text>[</xsl:text><xsl:value-of select="normalize-space(./head)"/><xsl:text>.]</xsl:text>
+                   <xsl:element name="p">
+                       <xsl:text>[</xsl:text><xsl:value-of select="normalize-space(./head)"/><xsl:text>.]</xsl:text>
+                   </xsl:element>
                 </xsl:if>
                 <xsl:if test="./head[@resp='original']">
-                    <xsl:value-of select="normalize-space(./head)"/>
+                    <xsl:element name="p">
+                        <xsl:value-of select="normalize-space(./head)"/>
+                    </xsl:element>
+                </xsl:if>
+                <xsl:if test="./p">
+                    <xsl:element name="p">
+                        <xsl:attribute name="style">
+                            <xsl:text>padding-top: 0; margin-top: 0; font-size: 10pt;</xsl:text>
+                        </xsl:attribute>
+                        <xsl:apply-templates/>
+                    </xsl:element>
                 </xsl:if>
             </xsl:element>
         </xsl:element>
