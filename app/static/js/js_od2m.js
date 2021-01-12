@@ -44,7 +44,7 @@ container.innerHTML =
                 + titleText + '</a>' + '<sup>' + refl + '</sup>' + '</h' + closeLevel + '>'
             } else {
                 return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
-                + titleText + '</h' + closeLevel + '>'
+                + titleText + '</a></h' + closeLevel + '>'
             };
         }
     );
