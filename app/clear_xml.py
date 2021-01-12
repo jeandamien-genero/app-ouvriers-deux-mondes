@@ -26,7 +26,7 @@ titles = {"OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMB
           "RELIGION ET HABITUDES MORALES": "Religion et habitudes morales",
           "HYGIÈNE ET SERVICE DE SANTÉ": "Hygiène et service de santé",
           "RANG DE LA FAMILLE": "Rang de la famille", "PROPRIÉTÉS": "Propriétés", "SUBVENTIONS": "Subventions",
-          "TRAVAUX ET INDUSTRIES": "Travaux et industries", "ALIMENTS ET REPAS": "Aliements et repas",
+          "TRAVAUX ET INDUSTRIES": "Travaux et industries", "ALIMENTS ET REPAS": "Aliments et repas",
           "HABITATION, MOBILIER ET VÊTEMENTS": "Habitation, mobilier et vêtements", "RÉCRÉATIONS": "Récréations",
           "PHASES PRINCIPALES DE L'EXISTENCE": "Phases principales de l'existence",
           "MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE":
