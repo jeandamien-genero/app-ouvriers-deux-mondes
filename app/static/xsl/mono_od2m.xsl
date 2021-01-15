@@ -168,7 +168,8 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="//text//div//p/text()">
-        <xsl:value-of select="translate(., '¬', '')"/>
+        <!--<xsl:value-of select="translate(., '¬', '')"/>ᶠ-->
+        <xsl:value-of select="translate(translate(., '¬', ''), 'ᶠ', 'f')"/>
     </xsl:template>
     <!-- RENVOIS -->
     <xsl:template match="//text//ref">
