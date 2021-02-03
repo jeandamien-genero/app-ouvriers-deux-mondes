@@ -41,8 +41,6 @@ def monographies():
         del dict_mono['Titres']
     return render_template("corpus.html", corpus=dict_mono)
 
-
-
 @app.route("/monographie/<mono_id>")
 def txt_mono(mono_id):
     """Route that loads a page with monograph text.
@@ -64,3 +62,9 @@ def txt_mono(mono_id):
     xslt_transformer = etree.XSLT(xslt_doc)
     output_doc = xslt_transformer(source_doc)
     return render_template("mono.html", template_flask1=output_doc)
+
+@app.route("/search")
+def search():
+    all_sections = {"Propriétés": "proprietes", "Travaux": "travaux", "Industries": "industries",
+    "Habitation, mobilier et vêtement": "par_10"}
+    return render_template("search.html", ls_s=all_sections)

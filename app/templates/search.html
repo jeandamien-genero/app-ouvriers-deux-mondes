@@ -1,0 +1,10 @@
+{% extends "conteneur.html" %}
+	{% block corps %}
+		<div>
+			<select type="search"  method="POST">
+				{% for section in ls_s %}
+					<option value="{{ls_s[section]}}">{{section}}</option>
+				{% endfor %}
+			</select>
+		</div>
+	{% endblock %}
