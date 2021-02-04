@@ -1,10 +1,34 @@
 {% extends "conteneur.html" %}
 	{% block corps %}
 		<div>
-			<select type="search"  method="POST">
+			<p style="text-align: center;">
+				→ <a href="{{url_for('home')}}">Accueil</a> ←
+            </p>
+			<select name="select1" id="select1">
 				{% for section in ls_s %}
-					<option value="{{ls_s[section]}}">{{section}}</option>
+					<option value="{{ls_s.index(section)}}">{{section}}</option>
 				{% endfor %}
 			</select>
+			<form action="{{url_for('results')}}" method="GET">
+			<select name="select2" id="select2">
+				{% for item in subtypes %}
+					<option value="{{subtypes[item]}}">{{item}}</option>
+				{% endfor %}
+			</select>
+			<button type="submit">Rechercher</button>
+			<form>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	/* Source : https://stackoverflow.com/questions/10570904/use-jquery-to-change-a-second-select-list-based-on-the-first-select-list-option */
+	$("#select1").change(function() {
+  if ($(this).data('options') === undefined) {
+    /*Taking an array of all options-2 and kind of embedding it on the select1*/
+    $(this).data('options', $('#select2 option').clone());
+  }
+  var id = $(this).val();
+  var options = $(this).data('options').filter('[value=' + id + ']');
+  $('#select2').html(options);
+});
+</script>
 	{% endblock %}
