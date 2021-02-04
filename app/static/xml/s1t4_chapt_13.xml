@@ -1,38 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-035a" xml:lang="fr">
+<TEI xml:id="ID-035a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 1, volume 4 - Transcription</title>
+    <title>
+     Les Ouvriers des Deux Mondes - série 1, volume 4 - Transcription
+    </title>
     <respStmt>
-     <resp>originellement préparé par</resp>
-     <name>Alix Chagué</name>
+     <resp>
+      originellement préparé par
+     </resp>
+     <name>
+      Alix Chagué
+     </name>
     </respStmt>
     <respStmt>
-     <resp>et</resp>
-     <name>Jean-Damien Généro</name>
+     <resp>
+      et
+     </resp>
+     <name>
+      Jean-Damien Généro
+     </name>
     </respStmt>
     <respStmt>
-     <resp>supervisés par</resp>
-     <name>Eric Villemonte de la Clergerie</name>
+     <resp>
+      supervisés par
+     </resp>
+     <name>
+      Eric Villemonte de la Clergerie
+     </name>
     </respStmt>
    </titleStmt>
    <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
     <date when="2019"/>
-    <pubPlace>Paris, France</pubPlace>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
    </publicationStmt>
    <sourceDesc>
-    <p>Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes</p>
+    <p>
+     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+    </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
-    <p>Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.</p>
+    <p>
+     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+    </p>
    </projectDesc>
    <editorialDecl>
-    <p>Dans la balise<tag>graphic</tag>, l'attribut<att>url</att>contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.</p>
+    <p>
+     Dans la balise
+     <tag>
+      graphic
+     </tag>
+     , l'attribut
+     <att>
+      url
+     </att>
+     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
+    </p>
    </editorialDecl>
   </encodingDesc>
  </teiHeader>
@@ -168,207 +200,557 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_13_331_1">N° 35.</p>
-     <p xml:id="para_13_331_2">MINEUR</p>
-     <p xml:id="para_13_331_3">DE LA MAREMME DE TOSCANE</p>
-     <p xml:id="para_13_331_4">(TOSCANE — ITALIE)</p>
-     <p xml:id="para_13_331_5">(Journalier dans le système des engagements momentanés)</p>
-     <p>D'APRÈS LES</p>
-     <p xml:id="para_13_331_6">RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN JUIN 1860</p>
-     <p>PAR</p>
-     <p xml:id="para_13_331_7">M. <persName>F. BLANCHARD</persName>, ingénieur civil des mines.</p>
+     <p xml:id="para_13_331_1">
+      N° 35.
+     </p>
+     <p xml:id="para_13_331_2">
+      MINEUR
+     </p>
+     <p xml:id="para_13_331_3">
+      DE LA MAREMME DE TOSCANE
+     </p>
+     <p xml:id="para_13_331_4">
+      (TOSCANE — ITALIE)
+     </p>
+     <p xml:id="para_13_331_5">
+      (Journalier dans le système des engagements momentanés)
+     </p>
+     <p>
+      D'APRÈS LES
+     </p>
+     <p xml:id="para_13_331_6">
+      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN JUIN 1860
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_13_331_7">
+      M. <persName>F. BLANCHARD</persName>, ingénieur civil des mines.
+     </p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille.</head>
-     <head type="sub_section" xml:id="part_02_01">I. Défintion du lieu, de l'organlsation lndustriels et de la famille.</head>
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
+     <head type="sub_section" xml:id="part_02_01">
+      I. Défintion du lieu, de l'organlsation lndustriels et de la famille.
+     </head>
      <div n="001" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. — État du sol, de l'industrie et de la population.</head>
-      <p xml:id="para_13_331_12"><pb facs="#facs_334" n="331" source="lesouvriersdesde04sociuoft_0337.xml"/> La ville de Massa-Marittima, que la famille habite depuis dix ans, est à 19 kilomètres de Follonica, petit port situé sur la Médi¬terranée, dans le canal de Piombino, qui sépare l'île d'Ebe de la côte de Toscane.</p>
-      <p xml:id="para_13_331_13">Cette ville est bâtie sur un plateau placé à 420 mètres au-dessus du niveau de la mer ; elle domine au nord, au sud et à l'ouest la plaine à la fois si fertile et si malsaine de la Maremme, et est à son tour dominée à l'est par les montagnes de Prato et de Ger<pb facs="#facs_335" n="332" source="lesouvriersdesde04sociuoft_0338.xml"/>falio. Elle compte aujourd'hui de 3,000 à 4,000 âmes de popu¬lation fixe ; l'hiver, cette population est presque doublée par l'im¬migration des ouvriers et des pâtres descendus des montagnes. La commune de Massa, qui comprend la ville de même nom et plusieurs villages, a une population de 8,000 à 10,000 habi¬tants (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>).</p>
-      <p xml:id="para_13_332_15">Le climat de la Maremme est un dês meilleurs de l'alie. La chaleur de l'êté y est toujours tempérée par la brise de mer; l'hi¬ver n'ofre ni froids intenses ni pluies prolongées. La végétation est magnifique et la terre d'une fertilité remarquable. Mais tous ces avantages sont diminués par la présence de la mal'aria et des fièvres intermittentes qui en sont la suite. On attribue générale¬ment ces fièvres aux émanations putrides du sol, et en particulier aux miasmes dégagés par le mélange stagnant d'eau douce et d'eau de mer.</p>
-      <p xml:id="para_13_332_16">Massa fut jadis une des villes les plus importantes de cette contrée ; elle renfermait, au moyen âge, une population de plus de 10,000 âmes, composée en majeure partie de personnes engagées dans l'industrie des mines (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>). En 1225, elle racheta les drois de ses évêques, sous la juridiction temporelle desquels elle se trouvait placée, et se constitua en république. C'est alors que furent orga¬nisés les conseils des gistri artis rmeri ct argentari, magis¬trats chargés de la surveillance des mines de cuivre et d'argent et de l'exécution des lois relatives à leur exploitation.</p>
-      <p xml:id="para_13_332_17">Vers la fin du xᵉ siècle, Massa vit décliner peu à peu son in¬dustrie et décroitre sa population. Les mines furent abandonnées à cause des frais considérables qu'entraînait l'exploitation en profon¬deur, en l'absence de moyens mécaniques suffisants d'épuisement et d'extraction. Ces frais étaient un obstacle d'autant plus grand que la propriété des mines était très-morcelée ; chaque compagnie d'ouvriers était obligée d'établir des puits coûteux, qui ne servaient qu'à une exploitation très-restreinte. Dans ces circonstances, les fortes redevances à payer aux évêques et à la commune pesaient plus lourdement encore sur les exploitants; l'abaissement du prix des métaux leur porta un dernier coup dont ils ne cherchèrent pas à se relever (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>).</p>
-      <p xml:id="para_13_332_18">Vers la même époque, l'agriculture n'avait pas eu moins à souf¬frir que l'industrie. Dévasté d'abord par les guerres intestines, ensuite par les courses d'aventuriers, le pays de Massa vit ses riches plaines abandonnées. Les cours d'eau s'encombrèrent peu à peu par l'envasement et par les digues de sable que la mer appor¬tait à leur embouchure; ils se répandirent sur les plages et les cam¬pagnes environnantes et les convertirent en marais insalubres.</p>
-      <p xml:id="para_13_333_19"><pb facs="#facs_336" n="333" source="lesouvriersdesde04sociuoft_0339.xml"/> Aujourdhui, graûce à des moyens d'exploitation perfectionnés, les mines sont attaquées de nouveau et en rême temps s augmente la population de Massa. D'autre part, on s'occupe beaucoup, depuis quelques années, de l'assainissement de la Maremme : les cours d'eau ont été curés et endigués ; on cherche par le colmatage et par le drainage à combler les marais et à donner un écoulement aux sources et aux eaux pluviales. Mais l'amélioration principale, celle qui rendra la vie à ce pays, sera l'achèvement du chemin de fer de la Maremme qui traversera toute la plaine, depuis Li¬vourne jusqu'aux ́tats omains, et sera relié plus tard à celui de Civitta-Vecchia ; cette ligne, qui doit, par un embranchement, se relier à Massa, permettra à l'industrie et à l'agriculture d'écouler leurs produits, et facilitera, en outre, l'immigration des ouvriers du nord de la Toscane et de Modène.</p>
-      <p xml:id="para_13_333_20">Ces ouvriers, connus sous le nom générique de ˉLombards, quittent tous les ans leur pays vers le mois de novembre, et viennent dans la Maremme offrir le travail de leurs bras. L'été, ils retournent habituellement dans leurs montagnes ; ils commencent cependant à s'établir dans le pays; ils y restent d'abord un an, puis deux, et sy fixent enfin tout à fait, pour peu qu'ils y trouvent leur avantage.</p>
-      <p xml:id="para_13_333_21">La population sédentaire s'augmentera encore par la mise en culture de la Maremme, qui en fera disparaitre l'insalubrité. Dejà, depuis quelques années, des défrichements considérables ont eu lieu; de tous côtés se sont élevées des fermes, exploitées soit par les grands propriétaires eux-mêmes, soit dans le système du mé¬tayage <ref target="#ID-005a" type="renvoi_int_od2m">[(N° 5 (A) (C)]</ref>. L'exécution de ces travaux rendra au pays de Massa cette prospérité qui en faisait, au temps des Etrusques, une des plus belles provinces de l'alie.</p>
-      <p xml:id="para_13_333_22">La ville de Massa se trouve, par sa position élevée, presque à l'abri du fléau de la mal'aria ; elle sert même de refuge, pendant l'été, aux habitants des plaines voisines, et à ceux de Follonica. Cette dernière bourgade, située entre le marais de Piombino, aujourd'hui désséché et cultivé, et celui de San-Carlino, encore très -malsain, est en été un séjour des plus dangereux ; aussi, du 24 juin au 1ᵉʳ novembre, époque de la fermeture des mines de fer du gouvernement, est-elle désertée en masse par tous ses habi¬</p>
-      <p xml:id="para_13_333_23">Bien que vivant sur un lieu élevé et relativement très-sain, la population de Massa n'est pas exempte de fièvres ; car, ayant beau¬coup dintérêts dans la plaine, elle est obligée d'y descendre souvent.</p>
-      <p xml:id="para_13_333_24">Depuis un an, l'ouvrier et sa famille n'habitent plus Massa que <pb facs="#facs_337" n="334" source="lesouvriersdesde04sociuoft_0340.xml"/> pendant l'été ; ils résident en hiver à la mine de Castellaccia, située à 3 kilomètres de la ville : ce nom qui signitie ruine de château, vient d'un ancien château fort détruit, dit-on, par Frédéric Bar¬berousse, et près des ruines duquel sont établies les constructions de la mine.</p>
-      <p xml:id="para_13_334_26">L'ouvrier qui, depuis un an, occupe le poste de che mineur (<ref target="#part_02_02_08" type="renvoi_int_mono">§8</ref>), demeure près de ces ruines, sur le haut de la montagne et dans le même groupe d'habitations que le directeur et les employés. Quoique ce poste ne paraisse pas devoir être plus malsain que Massa, tout le monde, soit par habitude, soit par préjugé, l'aban¬donne dès la fin de juin pour n'y revenir qu'au 1ᵉ octobre.</p>
-      <p xml:id="para_13_334_27">Il faut remarquer encore que ce personnel ne couche pas à la mine; craignant les vapeurs délétères de la nuit, il quitte chaque soir Castellaccia, pour se rendre à Massa.</p>
+      <head type="sub_sub_section" xml:id="part_02_01_01">
+       § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+      </head>
+      <p xml:id="para_13_331_12">
+       <pb facs="#facs_334" n="331" source="lesouvriersdesde04sociuoft_0337.xml"/> La ville de Massa-Marittima, que la famille habite depuis dix ans, est à 19 kilomètres de Follonica, petit port situé sur la Médi¬terranée, dans le canal de Piombino, qui sépare l'île d'Ebe de la côte de Toscane.
+      </p>
+      <p xml:id="para_13_331_13">
+       Cette ville est bâtie sur un plateau placé à 420 mètres au-dessus du niveau de la mer ; elle domine au nord, au sud et à l'ouest la plaine à la fois si fertile et si malsaine de la Maremme, et est à son tour dominée à l'est par les montagnes de Prato et de Ger<pb facs="#facs_335" n="332" source="lesouvriersdesde04sociuoft_0338.xml"/>falio. Elle compte aujourd'hui de 3,000 à 4,000 âmes de popu¬lation fixe ; l'hiver, cette population est presque doublée par l'im¬migration des ouvriers et des pâtres descendus des montagnes. La commune de Massa, qui comprend la ville de même nom et plusieurs villages, a une population de 8,000 à 10,000 habi¬tants
+       <ref target="#part_03_01_20" type="renvoi_int_mono">
+        (D)
+       </ref>
+       .
+      </p>
+      <p xml:id="para_13_332_15">
+       Le climat de la Maremme est un dês meilleurs de l'alie. La chaleur de l'êté y est toujours tempérée par la brise de mer; l'hi¬ver n'offre ni froids intenses ni pluies prolongées. La végétation est magnifique et la terre d'une fertilité remarquable. Mais tous ces avantages sont diminués par la présence de la mal'aria et des fièvres intermittentes qui en sont la suite. On attribue générale¬ment ces fièvres aux émanations putrides du sol, et en particulier aux miasmes dégagés par le mélange stagnant d'eau douce et d'eau de mer.
+      </p>
+      <p xml:id="para_13_332_16">
+       Massa fut jadis une des villes les plus importantes de cette contrée ; elle renfermait, au moyen âge, une population de plus de 10,000 âmes, composée en majeure partie de personnes engagées dans l'industrie des mines
+       <ref target="#part_03_01_17" type="renvoi_int_mono">
+        (A)
+       </ref>
+       . En 1225, elle racheta les drois de ses évêques, sous la juridiction temporelle desquels elle se trouvait placée, et se constitua en république. C'est alors que furent orga¬nisés les conseils des gistri artis rmeri ct argentari, magis¬trats chargés de la surveillance des mines de cuivre et d'argent et de l'exécution des lois relatives à leur exploitation.
+      </p>
+      <p xml:id="para_13_332_17">
+       Vers la fin du xᵉ siècle, Massa vit décliner peu à peu son in¬dustrie et décroitre sa population. Les mines furent abandonnées à cause des frais considérables qu'entraînait l'exploitation en profon¬deur, en l'absence de moyens mécaniques suffisants d'épuisement et d'extraction. Ces frais étaient un obstacle d'autant plus grand que la propriété des mines était très-morcelée ; chaque compagnie d'ouvriers était obligée d'établir des puits coûteux, qui ne servaient qu'à une exploitation très-restreinte. Dans ces circonstances, les fortes redevances à payer aux évêques et à la commune pesaient plus lourdement encore sur les exploitants; l'abaissement du prix des métaux leur porta un dernier coup dont ils ne cherchèrent pas à se relever
+       <ref target="#part_03_01_17" type="renvoi_int_mono">
+        (A)
+       </ref>
+       .
+      </p>
+      <p xml:id="para_13_332_18">
+       Vers la même époque, l'agriculture n'avait pas eu moins à souf¬frir que l'industrie. Dévasté d'abord par les guerres intestines, ensuite par les courses d'aventuriers, le pays de Massa vit ses riches plaines abandonnées. Les cours d'eau s'encombrèrent peu à peu par l'envasement et par les digues de sable que la mer appor¬tait à leur embouchure; ils se répandirent sur les plages et les cam¬pagnes environnantes et les convertirent en marais insalubres.
+      </p>
+      <p xml:id="para_13_333_19">
+       <pb facs="#facs_336" n="333" source="lesouvriersdesde04sociuoft_0339.xml"/> Aujourdhui, graûce à des moyens d'exploitation perfectionnés, les mines sont attaquées de nouveau et en rême temps s augmente la population de Massa. D'autre part, on s'occupe beaucoup, depuis quelques années, de l'assainissement de la Maremme : les cours d'eau ont été curés et endigués ; on cherche par le colmatage et par le drainage à combler les marais et à donner un écoulement aux sources et aux eaux pluviales. Mais l'amélioration principale, celle qui rendra la vie à ce pays, sera l'achèvement du chemin de fer de la Maremme qui traversera toute la plaine, depuis Li¬vourne jusqu'aux ́tats omains, et sera relié plus tard à celui de Civitta-Vecchia ; cette ligne, qui doit, par un embranchement, se relier à Massa, permettra à l'industrie et à l'agriculture d'écouler leurs produits, et facilitera, en outre, l'immigration des ouvriers du nord de la Toscane et de Modène.
+      </p>
+      <p xml:id="para_13_333_20">
+       Ces ouvriers, connus sous le nom générique de ˉLombards, quittent tous les ans leur pays vers le mois de novembre, et viennent dans la Maremme offrir le travail de leurs bras. L'été, ils retournent habituellement dans leurs montagnes ; ils commencent cependant à s'établir dans le pays; ils y restent d'abord un an, puis deux, et sy fixent enfin tout à fait, pour peu qu'ils y trouvent leur avantage.
+      </p>
+      <p xml:id="para_13_333_21">
+       La population sédentaire s'augmentera encore par la mise en culture de la Maremme, qui en fera disparaitre l'insalubrité. Dejà, depuis quelques années, des défrichements considérables ont eu lieu; de tous côtés se sont élevées des fermes, exploitées soit par les grands propriétaires eux-mêmes, soit dans le système du mé¬tayage
+       <ref target="#ID-005a" type="renvoi_int_od2m">
+        [(N° 5 (A) (C)]
+       </ref>
+       . L'exécution de ces travaux rendra au pays de Massa cette prospérité qui en faisait, au temps des Etrusques, une des plus belles provinces de l'alie.
+      </p>
+      <p xml:id="para_13_333_22">
+       La ville de Massa se trouve, par sa position élevée, presque à l'abri du fléau de la mal'aria ; elle sert même de refuge, pendant l'été, aux habitants des plaines voisines, et à ceux de Follonica. Cette dernière bourgade, située entre le marais de Piombino, aujourd'hui désséché et cultivé, et celui de San-Carlino, encore très -malsain, est en été un séjour des plus dangereux ; aussi, du 24 juin au 1ᵉʳ novembre, époque de la fermeture des mines de fer du gouvernement, est-elle désertée en masse par tous ses habi¬
+      </p>
+      <p xml:id="para_13_333_23">
+       Bien que vivant sur un lieu élevé et relativement très-sain, la population de Massa n'est pas exempte de fièvres ; car, ayant beau¬coup dintérêts dans la plaine, elle est obligée d'y descendre souvent.
+      </p>
+      <p xml:id="para_13_333_24">
+       Depuis un an, l'ouvrier et sa famille n'habitent plus Massa que <pb facs="#facs_337" n="334" source="lesouvriersdesde04sociuoft_0340.xml"/> pendant l'été ; ils résident en hiver à la mine de Castellaccia, située à 3 kilomètres de la ville : ce nom qui signitie ruine de château, vient d'un ancien château fort détruit, dit-on, par Frédéric Bar¬berousse, et près des ruines duquel sont établies les constructions de la mine.
+      </p>
+      <p xml:id="para_13_334_26">
+       L'ouvrier qui, depuis un an, occupe le poste de che mineur
+       <ref target="#part_02_02_08" type="renvoi_int_mono">
+        (§8)
+       </ref>
+       , demeure près de ces ruines, sur le haut de la montagne et dans le même groupe d'habitations que le directeur et les employés. Quoique ce poste ne paraisse pas devoir être plus malsain que Massa, tout le monde, soit par habitude, soit par préjugé, l'aban¬donne dès la fin de juin pour n'y revenir qu'au 1ᵉ octobre.
+      </p>
+      <p xml:id="para_13_334_27">
+       Il faut remarquer encore que ce personnel ne couche pas à la mine; craignant les vapeurs délétères de la nuit, il quitte chaque soir Castellaccia, pour se rendre à Massa.
+      </p>
      </div>
      <div n="002" type="sub_sub_section">
       <!--Individus cités : Angelo F*** (n°035aE1) - Maria C*** (n°035aE2) - Pia F*** (n°035aE3)-->
-      <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. — État civil de la famille.</head>
-      <p xml:id="para_13_334_29">La famille comprend les deux époux et un enfant, savoir :</p>
-      <p xml:id="para_13_334_30">1° <persName>ANGELO F***</persName>, chef de famille, marié depuis 10 ans, né à San¬Macello, près Pistoia............ 40 ans.</p>
-      <p xml:id="para_13_334_32">2° <persName>MARIA C***</persName>, sa femme, née à Massa Marittima............ 27 ans.</p>
-      <p xml:id="para_13_334_33">3° <persName>Pia F***</persName>, leur fille, née à Massa Marittima............ 4 ans.</p>
-      <p xml:id="para_13_334_34">Les parents d'Angelo F*** sgont morts ; il a un frère et cinq sœurs. Le frère est marié et travaille, come charpentier, à faire les boi¬series de la mine de cuivre de Monte-Castelli, située également dans la Maremme. Les sœurs habitent San-Marcello ; quatre d'entre elles sont mariées à des ouvriers ou à des métayers.</p>
-      <p xml:id="para_13_334_35">Le père de la femme est mort depuis peu d'années ; sa mère habite avec une de ses deux sœurs, mariées à des ouvriers de Massa ; son frère, également ouvrier à Massa, est celibataire.</p>
+      <head type="sub_sub_section" xml:id="part_02_01_02">
+       § 2. — ÉTAT CIVIL DE LA FAMILLE.
+      </head>
+      <p xml:id="para_13_334_29">
+       La famille comprend les deux époux et un enfant, savoir :
+      </p>
+      <p xml:id="para_13_334_30">
+       1° <persName>ANGELO F***</persName>, chef de famille, marié depuis 10 ans, né à San¬Macello, près Pistoia............ 40 ans.
+      </p>
+      <p xml:id="para_13_334_32">
+       2° <persName>MARIA C***</persName>, sa femme, née à Massa Marittima............ 27 ans.
+      </p>
+      <p xml:id="para_13_334_33">
+       3° <persName>Pia F***</persName>, leur fille, née à Massa Marittima............ 4 ans.
+      </p>
+      <p xml:id="para_13_334_34">
+       Les parents d'Angelo F*** sgont morts ; il a un frère et cinq sœurs. Le frère est marié et travaille, come charpentier, à faire les boi¬series de la mine de cuivre de Monte-Castelli, située également dans la Maremme. Les sœurs habitent San-Marcello ; quatre d'entre elles sont mariées à des ouvriers ou à des métayers.
+      </p>
+      <p xml:id="para_13_334_35">
+       Le père de la femme est mort depuis peu d'années ; sa mère habite avec une de ses deux sœurs, mariées à des ouvriers de Massa ; son frère, également ouvrier à Massa, est celibataire.
+      </p>
      </div>
      <div n="003" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. — Religion et habitudes morales.</head>
-      <p xml:id="para_13_334_37">La famille est catholique. L'ouvrier accomplit les pratiques prin¬cipales du culte plutôt par respect humain que par esprit religieux : <pb facs="#facs_338" n="335" source="lesouvriersdesde04sociuoft_0341.xml"/> s'il va se conlesser tous les ans, c'est moins par dévotion que par suite de l'habitude contractée sous l'ancien gouvernement, dont une mesurerde police prescrivait la présentation des billets de confession. Il offre donc un contraste frappant avec les paysans de la banlieue de Florence, qui observent avec conviction les fêtes et demi-fêtes du calendrier italien (<ref target="#ID-005a" type="renvoi_int_od2m">N° 5, §3</ref>), ainsi qu'avec les fon¬deurs de plomb des Alpes Apuanes, auxquels la seule obligation de travailler le dimanche inspire une répugnance extrême (<ref target="#ID-00a" type="renvoi_int_od2m">N° 28, § 3</ref>).</p>
-      <p xml:id="para_13_335_40">La femme remplit régulièrement tous les devoirs de sa religion, et en enseigne les préceptes à sa petite fille.</p>
-      <p xml:id="para_13_335_41">Les deux époux ne savent ni lire, ni écrire. Cette ignorance est très-nuisible au chef de famille, que ses capacités comme piqueur et comme boiseur ont fait élever, il y a quelque temps, au grade de chef mineur ou de caporal (caporale di cva). Heureusement pour F***, un des deux sous-caporaux, qui sont alternativement chargés, sous ses ordres, des services de jour et de nuit de la mine, possède quelques notions de lecture et d'écriture, et peut aider son chef à tenir note des journées dont il doit chaque jour rendre compte au bureau.</p>
-      <p xml:id="para_13_335_42">La petite fille, trop jeune encore pour aller à l'école, apprend avec sa mère à réciter ses prières.</p>
+      <head type="sub_sub_section" xml:id="part_02_01_03">
+       § 3. — RELIGION ET HABITUDES MORALES.
+      </head>
+      <p xml:id="para_13_334_37">
+       La famille est catholique. L'ouvrier accomplit les pratiques prin¬cipales du culte plutôt par respect humain que par esprit religieux : <pb facs="#facs_338" n="335" source="lesouvriersdesde04sociuoft_0341.xml"/> s'il va se conlesser tous les ans, c'est moins par dévotion que par suite de l'habitude contractée sous l'ancien gouvernement, dont une mesurerde police prescrivait la présentation des billets de confession. Il offre donc un contraste frappant avec les paysans de la banlieue de Florence, qui observent avec conviction les fêtes et demi-fêtes du calendrier italien
+       <ref target="#ID-005a" type="renvoi_int_od2m">
+        (N° 5, §3)
+       </ref>
+       , ainsi qu'avec les fon¬deurs de plomb des Alpes Apuanes, auxquels la seule obligation de travailler le dimanche inspire une répugnance extrême
+       <ref target="#ID-00a" type="renvoi_int_od2m">
+        (N° 28, § 3)
+       </ref>
+       .
+      </p>
+      <p xml:id="para_13_335_40">
+       La femme remplit régulièrement tous les devoirs de sa religion, et en enseigne les préceptes à sa petite fille.
+      </p>
+      <p xml:id="para_13_335_41">
+       Les deux époux ne savent ni lire, ni écrire. Cette ignorance est très-nuisible au chef de famille, que ses capacités comme piqueur et comme boiseur ont fait élever, il y a quelque temps, au grade de chef mineur ou de caporal (caporale di cva). Heureusement pour F***, un des deux sous-caporaux, qui sont alternativement chargés, sous ses ordres, des services de jour et de nuit de la mine, possède quelques notions de lecture et d'écriture, et peut aider son chef à tenir note des journées dont il doit chaque jour rendre compte au bureau.
+      </p>
+      <p xml:id="para_13_335_42">
+       La petite fille, trop jeune encore pour aller à l'école, apprend avec sa mère à réciter ses prières.
+      </p>
      </div>
      <div n="004" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. — Hygiène et service de santé.</head>
-      <p xml:id="para_13_335_44">L'ouvrier est de taille moyenne. Ses cheveux sont châtains ; un long séjour dans la Maremme et les attaques des fièvres ont donné à son visage une teinte jaunâtre. Il est doué d'une bonne consti¬tution et n'a jamais eu d'autre maladie que les fièvres du pays, dont il a été pris deux fois assez fortement.</p>
-      <p xml:id="para_13_335_45">La première fois, en juillet 1845, étant à la mine de charbon de Monte-Bamboli, il fut atteint d'une fièvre violente qui nécessita son transport à l'hôpital de Massa. Il y fut traité, suivant l'usage. par des purgatifs (huile de ricin) et de nombreuses doses de sulfate de quinine. Au bout de cinq ou six jours, il quitta l'hopital ; mais il eut encore pendant quatre ou cinq mois des accès, revenant à des périodes régulières.</p>
-      <p xml:id="para_13_335_46">Au mois d'août 1850, F*** dut entrer de nouveau à l'hôpital de Massa ; il en sortit encore après cinq jours du même traitement, et souffrit pendant plusieurs mois de fièvres intermittentes.</p>
-      <p xml:id="para_13_335_47">La femme, d'une taille relativement plus élevée que celle de son mari, est brune de teint et noire de cheveux ; elle est également <pb facs="#facs_339" n="336" source="lesouvriersdesde04sociuoft_0342.xml"/> d'une forte constitution. N'ayant jamais quitté la ville de Massa, où elle était domestique, elle a jusqu'à présent échappé aux fièvres ; ses seules indispositions ont été des refroidissements accompagnés d'une petite fièvre dite febbre retica, pour laquelle on se con¬tente d'administrer au malade une dose d'huile de. ricin, suivie, le lendemain, d'un /iasco (deux litres) d'eau minérale naturelle rafrai¬chissante et purgative.</p>
-      <p xml:id="para_13_336_49">Les eaux minérales proviennent des sources del Tettuccio, delle Tamerici et della Toretta, qui se trouvent au village de Monte¬Catini, où les malades vont prendre des bains en été. Elles sont d'un grand usage en Toscane, et principalement dans la Maremme, dont le climat nécessite un régime spécial.</p>
-      <p xml:id="para_13_336_50">L'hôpital de Massa, quoiqu'il puisse contenir jusqu'à 200 lits, est toujours plein pendant l'été. Il est entretenu au moyen du revenu de ses propriétés, de dotations anciennes, et d'une sub¬vention communale. Les malades y reçoivent les soins de deux médecins et d'un chirurgien, auxquels sont adjoints des infirmiers des deux sexes en nombre proportionnel à la quantité des malades admis.</p>
-      <p xml:id="para_13_336_51">La Maremme a, en outre, l'ĥpital de Grossetto et celui de Campiglia.</p>
-      <p xml:id="para_13_336_52">En cas de maladie, les familles ont encore droit aux soins gratuits de médecins communaux (<ref target="#part_02_02_07" type="renvoi_int_mono">§ 7</ref>).</p>
+      <head type="sub_sub_section" xml:id="part_02_01_04">
+       § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
+      </head>
+      <p xml:id="para_13_335_44">
+       L'ouvrier est de taille moyenne. Ses cheveux sont châtains ; un long séjour dans la Maremme et les attaques des fièvres ont donné à son visage une teinte jaunâtre. Il est doué d'une bonne consti¬tution et n'a jamais eu d'autre maladie que les fièvres du pays, dont il a été pris deux fois assez fortement.
+      </p>
+      <p xml:id="para_13_335_45">
+       La première fois, en juillet 1845, étant à la mine de charbon de Monte-Bamboli, il fut atteint d'une fièvre violente qui nécessita son transport à l'hôpital de Massa. Il y fut traité, suivant l'usage. par des purgatifs (huile de ricin) et de nombreuses doses de sulfate de quinine. Au bout de cinq ou six jours, il quitta l'hopital ; mais il eut encore pendant quatre ou cinq mois des accès, revenant à des périodes régulières.
+      </p>
+      <p xml:id="para_13_335_46">
+       Au mois d'août 1850, F*** dut entrer de nouveau à l'hôpital de Massa ; il en sortit encore après cinq jours du même traitement, et souffrit pendant plusieurs mois de fièvres intermittentes.
+      </p>
+      <p xml:id="para_13_335_47">
+       La femme, d'une taille relativement plus élevée que celle de son mari, est brune de teint et noire de cheveux ; elle est également <pb facs="#facs_339" n="336" source="lesouvriersdesde04sociuoft_0342.xml"/> d'une forte constitution. N'ayant jamais quitté la ville de Massa, où elle était domestique, elle a jusqu'à présent échappé aux fièvres ; ses seules indispositions ont été des refroidissements accompagnés d'une petite fièvre dite febbre retica, pour laquelle on se con¬tente d'administrer au malade une dose d'huile de. ricin, suivie, le lendemain, d'un /iasco (deux litres) d'eau minérale naturelle rafrai¬chissante et purgative.
+      </p>
+      <p xml:id="para_13_336_49">
+       Les eaux minérales proviennent des sources del Tettuccio, delle Tamerici et della Toretta, qui se trouvent au village de Monte¬Catini, où les malades vont prendre des bains en été. Elles sont d'un grand usage en Toscane, et principalement dans la Maremme, dont le climat nécessite un régime spécial.
+      </p>
+      <p xml:id="para_13_336_50">
+       L'hôpital de Massa, quoiqu'il puisse contenir jusqu'à 200 lits, est toujours plein pendant l'été. Il est entretenu au moyen du revenu de ses propriétés, de dotations anciennes, et d'une sub¬vention communale. Les malades y reçoivent les soins de deux médecins et d'un chirurgien, auxquels sont adjoints des infirmiers des deux sexes en nombre proportionnel à la quantité des malades admis.
+      </p>
+      <p xml:id="para_13_336_51">
+       La Maremme a, en outre, l'ĥpital de Grossetto et celui de Campiglia.
+      </p>
+      <p xml:id="para_13_336_52">
+       En cas de maladie, les familles ont encore droit aux soins gratuits de médecins communaux
+       <ref target="#part_02_02_07" type="renvoi_int_mono">
+        (§ 7)
+       </ref>
+       .
+      </p>
      </div>
      <div n="005" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
-      <p xml:id="para_13_336_54">Angelo F*** occupe, depuis un an, le poste de chef mineur, qu'il doit à ses capacités comme ouvrier et à sa probité. Cette position prouve qu'il jouit de la considéraion de ses chefs, et lui assure celle des ouvriers travaillant sous ses ordres.</p>
-      <p xml:id="para_13_336_55">Il ne pouvait guère espérer arriver à la place qu'il occupe, car le défaut d'instruction en rend les fonctions difficiles pour lui. l pourrait la perdre si le directeur de la mine venait à changer; un arrêt momentané des travaux le forcerait également à reprendre ailleurs le métier d'ouvrier mineur.</p>
+      <head type="sub_sub_section" xml:id="part_02_01_05">
+       § 5. — RANG DE LA FAMILLE.
+      </head>
+      <p xml:id="para_13_336_54">
+       Angelo F*** occupe, depuis un an, le poste de chef mineur, qu'il doit à ses capacités comme ouvrier et à sa probité. Cette position prouve qu'il jouit de la considéraion de ses chefs, et lui assure celle des ouvriers travaillant sous ses ordres.
+      </p>
+      <p xml:id="para_13_336_55">
+       Il ne pouvait guère espérer arriver à la place qu'il occupe, car le défaut d'instruction en rend les fonctions difficiles pour lui. l pourrait la perdre si le directeur de la mine venait à changer; un arrêt momentané des travaux le forcerait également à reprendre ailleurs le métier d'ouvrier mineur.
+      </p>
      </div>
     </div>
     <div n="002" type="sub_section">
-     <head type="sub_section" xml:id="part_02_02">II. Moyens d'existence de la famille</head>
+     <head type="sub_section" xml:id="part_02_02">
+      II. Moyens d'existence de la famille
+     </head>
      <div n="001" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
+      <head type="sub_sub_section" xml:id="part_02_02_06">
+       § 6. — PROPRIÉTÉS.
+      </head>
       <div type="proprietes" subtype="proprietes_texte_1">
-       <p xml:id="para_13_337_60"><pb facs="#facs_340" n="337" source="lesouvriersdesde04sociuoft_0343.xml"/> (Mobilier et vêtements non compris.)
+       <p xml:id="para_13_337_60">
+        <pb facs="#facs_340" n="337" source="lesouvriersdesde04sociuoft_0343.xml"/>(Mobilier et vêtements non compris.)
        </p>
       </div>
       <div type="proprietes" subtype="immeubles">
-       <p xml:id="para_13_337_61">IMMEUBLES............ 0ᶠ 00</p>
-       <p xml:id="para_13_337_62">La famille ne possède pas de proprieté immobilière ; elle n'eu a reçu aucune en héri¬tage et ne songe pas en acquérir par l'épagne. Elle diffère encore à cet égard d'autres familles des montagnes de la Toscane (<ref target="#ID-028a" type="renvoi_int_od2m">N° 28 § 6</ref>).</p>
+       <p xml:id="para_13_337_61">
+        IMMEUBLES............ 0ᶠ 00
+       </p>
+       <p xml:id="para_13_337_62">
+        La famille ne possède pas de proprieté immobilière ; elle n'eu a reçu aucune en héri¬tage et ne songe pas en acquérir par l'épagne. Elle diffère encore à cet égard d'autres familles des montagnes de la Toscane
+        <ref target="#ID-028a" type="renvoi_int_od2m">
+         (N° 28 § 6)
+        </ref>
+        .
+       </p>
       </div>
       <div type="proprietes" subtype="argent">
-       <p xml:id="para_13_337_63">ARGENT............ 0ᶠ 00</p>
-       <p xml:id="para_13_337_64">Le salaire du mari est réglièrement employé chaque semaine à payer les fonrnisseurs, notamment ceux de grains et de viande.</p>
+       <p xml:id="para_13_337_63">
+        ARGENT............ 0ᶠ 00
+       </p>
+       <p xml:id="para_13_337_64">
+        Le salaire du mari est réglièrement employé chaque semaine à payer les fonrnisseurs, notamment ceux de grains et de viande.
+       </p>
       </div>
       <div type="proprietes" subtype="materiel">
-       <p xml:id="para_13_337_65">MATÉRIEL SPÉCIAL des travaux et industries............ 18ᶠ 80</p>
-       <p xml:id="para_13_337_66">1° Pour la préparotion du pain. — 1 maie a pétrir, 16ᶠ80.</p>
-       <p xml:id="para_13_337_67">2° Pour la récolte du bois. — 1 hachette, 2ᶠ 00.</p>
+       <p xml:id="para_13_337_65">
+        MATÉRIEL SPÉCIAL des travaux et industries............ 18ᶠ 80
+       </p>
+       <p xml:id="para_13_337_66">
+        1° Pour la préparotion du pain. — 1 maie a pétrir, 16ᶠ80.
+       </p>
+       <p xml:id="para_13_337_67">
+        2° Pour la récolte du bois. — 1 hachette, 2ᶠ 00.
+       </p>
       </div>
       <div type="proprietes" subtype="proprietes_total">
-       <p xml:id="para_13_337_68">VALEUR TOTALE des propriétés............ 18ᶠ 80</p>
+       <p xml:id="para_13_337_68">
+        VALEUR TOTALE des propriétés............ 18ᶠ 80
+       </p>
       </div>
      </div>
      <div n="002" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
-      <p xml:id="para_13_337_70">La famille profie, durant les quatre mois d'été qu'elle passe à Massa, de la faculté de récolter du bois mort pour son usage, dans les forêts de la commune et des particuliers. Pendant l'hiver, l'ouvrier ramasse ou fait ramasser pour son chauffage des menus déchets de bois de la mine et de l'atelier des charpentiers.</p>
-      <p xml:id="para_13_337_71">On peut compter comme subvenion l'intérêt du matériel de blanchissage preé à la feme par l'administration de la mine et par ses voisiunes de Massa. (<ref target="#part_02_05_14" type="renvoi_int_mono">R. 2e Son.</ref>)</p>
-      <p xml:id="para_13_337_72">La famille a droit gratuitement aux soins du chirurien et des nédecins communaux de lMassa, et à l'a :mission à l'hôpital en cas de maladie (<ref target="#ID-020a" type="renvoi_int_od2m">N° 20 § 4</ref>).</p>
-      <p xml:id="para_13_337_73">La femme est, selon la coutume toscane (<ref target="#ID-028a" type="renvoi_int_od2m">N° 28</ref>), assistée dans ses couches par une sage-lemme rétribuée par la communé: ellé <pb facs="#facs_341" n="338" source="lesouvriersdesde04sociuoft_0344.xml"/> n'est tenue qu'à lui fournir un moyen de transport pour ies visites éloignées d'un mille toscan (1658 ) de la ville de Massa. Cette sage-femme reçoit de la commune 150ᶠ ou 200ᶠ par au; mais il es aussi d'usage de lui donner une subvention proportionnée aux moyens de l'aecouehée.   done 5 630, lors de l'accouchement de sa femme.</p>
-      <p xml:id="para_13_338_75">La famille, ne nourrissant aucun animal domestique, ne profite ni de l'usage des pituraes ni de la réclte des glands dans les forêts commnales et particulières.</p>
+      <head type="sub_sub_section" xml:id="part_02_02_07">
+       § 7. — SUBVENTIONS.
+      </head>
+      <p xml:id="para_13_337_70">
+       La famille profie, durant les quatre mois d'été qu'elle passe à Massa, de la faculté de récolter du bois mort pour son usage, dans les forêts de la commune et des particuliers. Pendant l'hiver, l'ouvrier ramasse ou fait ramasser pour son chauffage des menus déchets de bois de la mine et de l'atelier des charpentiers.
+      </p>
+      <p xml:id="para_13_337_71">
+       On peut compter comme subvenion l'intérêt du matériel de blanchissage preé à la feme par l'administration de la mine et par ses voisiunes de Massa.
+       <ref target="#part_02_05_14" type="renvoi_int_mono">
+        (R. 2e Son.)
+       </ref>
+      </p>
+      <p xml:id="para_13_337_72">
+       La famille a droit gratuitement aux soins du chirurien et des nédecins communaux de lMassa, et à l'a :mission à l'hôpital en cas de maladie
+       <ref target="#ID-020a" type="renvoi_int_od2m">
+        (N° 20 § 4)
+       </ref>
+       .
+      </p>
+      <p xml:id="para_13_337_73">
+       La femme est, selon la coutume toscane
+       <ref target="#ID-028a" type="renvoi_int_od2m">
+        (N° 28)
+       </ref>
+       , assistée dans ses couches par une sage-lemme rétribuée par la communé: ellé <pb facs="#facs_341" n="338" source="lesouvriersdesde04sociuoft_0344.xml"/> n'est tenue qu'à lui fournir un moyen de transport pour ies visites éloignées d'un mille toscan (1658 ) de la ville de Massa. Cette sage-femme reçoit de la commune 150ᶠ ou 200ᶠ par au; mais il es aussi d'usage de lui donner une subvention proportionnée aux moyens de l'aecouehée.   done 5 630, lors de l'accouchement de sa femme.
+      </p>
+      <p xml:id="para_13_338_75">
+       La famille, ne nourrissant aucun animal domestique, ne profite ni de l'usage des pituraes ni de la réclte des glands dans les forêts commnales et particulières.
+      </p>
      </div>
      <div n="003" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
+      <head type="sub_sub_section" xml:id="part_02_02_08">
+       § 8. — TRAVAUX ET INDUSTRIES.
+      </head>
       <div type="travaux" subtype="ouvrier">
-       <p xml:id="para_13_338_77">TRAVAIL DE L'OUVRIER. — L'ouvrier est chargé de diriger l'exé¬cution des travaux indiqués par le directeur, et de surveiller en général tous les ouvriers mineurs, boiseurs et manœuvres de l'inté¬ieur de la mine de galène argentifère de Castellaccia. Ce travail n'a pas d'heures fixes ; l'ouvrier fait ordinairement une tournée dans la matinée et une dans l'après-midi ; en hiver, lorsqu'il ré¬réside dans la mine, il fait de temps en temps une visite de nuit ; pendant l'été, il arrive à Castellaccia le matin vers six heures, et en repart le soir à la même beure.</p>
-       <p xml:id="para_13_338_78">Comnme chef mineur l'ouvrier gagne 2ᶠ 80 par jour (5 paoli) ; lorspulil n'était que mineur ou boiseur, sa journée n'avait jamais été que de 1ᶠ 6s a 1 96.</p>
-       <p xml:id="para_13_338_79">Les travaux de la mine continuent hiver et été, jour et nuit, avec cette seule différence que l'été tout le personnel de jour va coucher à Massa, ne laissant à la mine que les ouvriers du service de nuit, qui à leur tour vont le matiu à Massa pour s'y reposer pendant la ;ournée.</p>
-       <p xml:id="para_13_338_80">En été, cependant, les travaux sont beaucoup moins actifs. Cette circonstance est due : en premier lieu, au départ de la majeure partie des Lombards qui vont faire dans leurs montagnes leurs ré¬coltes et leurs semailles, pour ne revenir qu'au mois de novembre ; en second lieu, à l'abandon des travaux industriels par les habitants de la Marene qui offrent leurs bras aux propriétaires fonciers de la plaine, pour toucher des salaires plus élevés.</p>
-       <p xml:id="para_13_338_81">Les ouvriers ordinaires gagnent alors de 2ᶠ24 2ᶠ80 par jour ; il est vrai qu'après la réclte la plupart d'entre eux enrent a l'h6¬pitaul avec des fièvres qui sot souvent pericieuses. C'est à cette époque que les hôpitaux de Campiglia, de Massa et de Grosseo sont tellement encombres de fiévreux, qu'on est souvent obligé de prendre des locanx supplèmentaires.</p>
-       <p xml:id="para_13_339_82"><pb facs="#facs_342" n="339" source="lesouvriersdesde04sociuoft_0345.xml"/> Angelo F*** ne quitte jamais la mine et se contente de son salaire, qui est du reste arrivé à peu près au maximum de ce qu'il pour¬rait gagner dans la plainé.</p>
+       <p xml:id="para_13_338_77">
+        TRAVAIL DE L'OUVRIER. — L'ouvrier est chargé de diriger l'exé¬cution des travaux indiqués par le directeur, et de surveiller en général tous les ouvriers mineurs, boiseurs et manœuvres de l'inté¬ieur de la mine de galène argentifère de Castellaccia. Ce travail n'a pas d'heures fixes ; l'ouvrier fait ordinairement une tournée dans la matinée et une dans l'après-midi ; en hiver, lorsqu'il ré¬réside dans la mine, il fait de temps en temps une visite de nuit ; pendant l'été, il arrive à Castellaccia le matin vers six heures, et en repart le soir à la même beure.
+       </p>
+       <p xml:id="para_13_338_78">
+        Comnme chef mineur l'ouvrier gagne 2ᶠ 80 par jour (5 paoli) ; lorspulil n'était que mineur ou boiseur, sa journée n'avait jamais été que de 1ᶠ 6s a 1 96.
+       </p>
+       <p xml:id="para_13_338_79">
+        Les travaux de la mine continuent hiver et été, jour et nuit, avec cette seule différence que l'été tout le personnel de jour va coucher à Massa, ne laissant à la mine que les ouvriers du service de nuit, qui à leur tour vont le matiu à Massa pour s'y reposer pendant la ;ournée.
+       </p>
+       <p xml:id="para_13_338_80">
+        En été, cependant, les travaux sont beaucoup moins actifs. Cette circonstance est due : en premier lieu, au départ de la majeure partie des Lombards qui vont faire dans leurs montagnes leurs ré¬coltes et leurs semailles, pour ne revenir qu'au mois de novembre ; en second lieu, à l'abandon des travaux industriels par les habitants de la Marene qui offrent leurs bras aux propriétaires fonciers de la plaine, pour toucher des salaires plus élevés.
+       </p>
+       <p xml:id="para_13_338_81">
+        Les ouvriers ordinaires gagnent alors de 2ᶠ24 2ᶠ80 par jour ; il est vrai qu'après la réclte la plupart d'entre eux enrent a l'h6¬pitaul avec des fièvres qui sot souvent pericieuses. C'est à cette époque que les hôpitaux de Campiglia, de Massa et de Grosseo sont tellement encombres de fiévreux, qu'on est souvent obligé de prendre des locanx supplèmentaires.
+       </p>
+       <p xml:id="para_13_339_82">
+        <pb facs="#facs_342" n="339" source="lesouvriersdesde04sociuoft_0345.xml"/> Angelo F*** ne quitte jamais la mine et se contente de son salaire, qui est du reste arrivé à peu près au maximum de ce qu'il pour¬rait gagner dans la plainé.
+       </p>
       </div>
       <div type="travaux" subtype="femme">
-       <p xml:id="para_13_339_83">TRAVAUX DE LA FEMME. — Maria C***, ayant été mise toute jeune, par ses parents, en service à Massa, n'a aucune spécialité de travail ; elle ne sait pas coudre, et elle n'a aucune habitude des opérations agricoles. llle ne prolite pas de la moisson, comme le font la plupart de ses compagnes. pour augmenter le bien-etre de la famille. Elle se borne à aller, en été, ramasser dans les bois, le combustible nécessaire à la cuisson des aliments ; à faire la lessive du linge ; enfin à se rendre une fois par semaine à son logemen. de Massa, pour prépauer le pain qu'elle fait cuire chez un boulan¬ger de la ville, et qu'elle rapporte ensuite à la mine.</p>
+       <p xml:id="para_13_339_83">
+        TRAVAUX DE LA FEMME. — Maria C***, ayant été mise toute jeune, par ses parents, en service à Massa, n'a aucune spécialité de travail ; elle ne sait pas coudre, et elle n'a aucune habitude des opérations agricoles. llle ne prolite pas de la moisson, comme le font la plupart de ses compagnes. pour augmenter le bien-etre de la famille. Elle se borne à aller, en été, ramasser dans les bois, le combustible nécessaire à la cuisson des aliments ; à faire la lessive du linge ; enfin à se rendre une fois par semaine à son logement de Massa, pour prépauer le pain qu'elle fait cuire chez un boulan¬ger de la ville, et qu'elle rapporte ensuite à la mine.
+       </p>
       </div>
      </div>
     </div>
     <div n="003" type="sub_section">
-     <head type="sub_section" xml:id="part_02_03">III. Mode d'existence de la famille</head>
+     <head type="sub_section" xml:id="part_02_03">
+      III. Mode d'existence de la famille
+     </head>
      <div n="001" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
-      <p xml:id="para_13_339_87">La population fixe de la Maremme se nourrit géuéralement mieux que celle des autres provinces de la Toscane, à cause des in¬fluences pernicieuses du climat.</p>
-      <p xml:id="para_13_339_88">Selon l'usage du pays, la famille fait habituellement trois repas par jour :</p>
-      <p xml:id="para_13_339_89">1° A 6 heures, le déjeuner café noir avec du sucre et un peu de rhun. Le père se contente de aette boisson, et ne mange rien dans la matinée; la mère et l'enfant trempent dans ce café des tar¬ines de pain grillé ;</p>
-      <p xml:id="para_13_339_90">2° A midi, le diner : miestr. ou soupe faite avec le bouillon produit par l50 grammes de viande et dans lequel on jette, un quart d'heure avant le repas, une poignée de pâte d'Italie (incstra) plus ou moins grossière. Quelquefois cette pâte est remplacée par du riz. Il arrive aussi, mais plus rarement, qu'on trempe du pain dans le bouillon, et alors cette soupe porte le nom de auppn. La viande bouillie se mange après la soupe avec du pain, dont les habitants de la Maremme font une très-grande consom¬nmation.</p>
-      <p xml:id="para_13_339_91">La famille ne consomme guère par an plus d'un kilogramme de pommes de terre ; celles-ci, du reste, sont souvent aqueuses, à <pb facs="#facs_343" n="340" source="lesouvriersdesde04sociuoft_0346.xml"/> cause de l'humidité du sol. La famille fait, au contraire, un grand usage de tomates fraiches ou conservées ; on s'en sert pour donner de la couleur et du goût au bouillon et aux ragoûts, et on les mange quelquefois crues avec du pain. La soupe se fait, les jours maigres, avec un peu de pâte, de l'huile, du jus de tomate et de</p>
-      <p xml:id="para_13_340_93">3ᵉ A sept heures, le souper : pain, fromage, aulx ou oignons crus, et quelquefois, surtout en hiver, plat de légumes tels que choux, épinards ou feuilles de bettes cuits à l'eau et assaisonnés à l'huile et au vinaigre. Plus rarement le souper se compose d'une espèce de macaroni fait avec une pâte commune d'Italie, appelée lasagne, cuite à l'eau et assaisonnée de jus de tomate et de fro¬mage de brebis sec et réduit en poudre. Dans les ménages aisés on se sert de fromage de Parmesan ; les ouvriers n'en font usage que les jours de régal.</p>
-      <p xml:id="para_13_340_94">L'eau est la boisson ordinaire de la famille ; le dimanche cepen¬dant, elle boit au diner un litre de vin. Quant à l'usage du rhum dans le café du déjeuner, c'est une habitude locale : on le considère comme un préservatif contre l'air insalubre de la Maremme.</p>
-      <p xml:id="para_13_340_95">L'hiver, et surtout pendant le carême, la famille remplace sou¬vent la viande par du poisson sec ou salé : harengs, morue, stocl¬ish, qui coûte ordinairement 0ᶠ84 le kilogramme.</p>
-      <p xml:id="para_13_340_96">Les œufs ne figurent que très-rarement dans l'alimentation, si ce n'est pour entrer dans la composition de quelque ragoût.</p>
-      <p xml:id="para_13_340_97">La famille n'emploie jamais ni lait ni beurre; l'huile d'olive, quelquefois le saindou et le lard, servent seuls à la cuisine. Le lait et le beurre sont d'un usage très-restreint dans la Maremme, ou le bétail vit par troupeaux demi-sauvages dans les bois ou sur les terres incultes, et où on laisse aux vaches leurs veaux pendant plu¬sieurs mois. Les pâtres viennent en hiver avec leurs troupeaux dans le pays, pour profiter des riches paturages qu'il renfeme, et re¬tournent en été dans les montagnes du nord de la foscane, du duché de Modène et des Romagnes. Le lait de chèvre ou de brebis est celui que l'on consomme dans les ménages aisés et dans les cafés.</p>
-      <p xml:id="para_13_340_98">La famille n'achète par an que 30ᶥ de farine de mais et autant de farine de chataigne. La polenda de farine de mais, appelée po¬lend iuue, et celle de farine de châtaigne, nommée polenda douce, n'entrent que très-rarement dans l'alimentation de la popu¬lation fixe de la Maremme. Cette pâte dense, cuite à l'eau et divi¬sée par tranches que l'on fait quelquefois rotir sur les cendres du foyer, est au contraire la base de la nourriture des Lombards im¬migrants (<ref target="#ID-028a" type="renvoi_int_od2m">N° 28, § 9</ref>).</p>
+      <head type="sub_sub_section" xml:id="part_02_03_09">
+       § 9. — ALIMENTS ET REPAS.
+      </head>
+      <p xml:id="para_13_339_87">
+       La population fixe de la Maremme se nourrit géuéralement mieux que celle des autres provinces de la Toscane, à cause des in¬fluences pernicieuses du climat.
+      </p>
+      <p xml:id="para_13_339_88">
+       Selon l'usage du pays, la famille fait habituellement trois repas par jour :
+      </p>
+      <p xml:id="para_13_339_89">
+       1° A 6 heures, le déjeuner café noir avec du sucre et un peu de rhun. Le père se contente de aette boisson, et ne mange rien dans la matinée; la mère et l'enfant trempent dans ce café des tar¬ines de pain grillé ;
+      </p>
+      <p xml:id="para_13_339_90">
+       2° A midi, le diner : miestr. ou soupe faite avec le bouillon produit par l50 grammes de viande et dans lequel on jette, un quart d'heure avant le repas, une poignée de pâte d'Italie (incstra) plus ou moins grossière. Quelquefois cette pâte est remplacée par du riz. Il arrive aussi, mais plus rarement, qu'on trempe du pain dans le bouillon, et alors cette soupe porte le nom de auppn. La viande bouillie se mange après la soupe avec du pain, dont les habitants de la Maremme font une très-grande consom¬nmation.
+      </p>
+      <p xml:id="para_13_339_91">
+       La famille ne consomme guère par an plus d'un kilogramme de pommes de terre ; celles-ci, du reste, sont souvent aqueuses, à <pb facs="#facs_343" n="340" source="lesouvriersdesde04sociuoft_0346.xml"/> cause de l'humidité du sol. La famille fait, au contraire, un grand usage de tomates fraiches ou conservées ; on s'en sert pour donner de la couleur et du goût au bouillon et aux ragoûts, et on les mange quelquefois crues avec du pain. La soupe se fait, les jours maigres, avec un peu de pâte, de l'huile, du jus de tomate et de
+      </p>
+      <p xml:id="para_13_340_93">
+       3ᵉ A sept heures, le souper : pain, fromage, aulx ou oignons crus, et quelquefois, surtout en hiver, plat de légumes tels que choux, épinards ou feuilles de bettes cuits à l'eau et assaisonnés à l'huile et au vinaigre. Plus rarement le souper se compose d'une espèce de macaroni fait avec une pâte commune d'Italie, appelée lasagne, cuite à l'eau et assaisonnée de jus de tomate et de fro¬mage de brebis sec et réduit en poudre. Dans les ménages aisés on se sert de fromage de Parmesan ; les ouvriers n'en font usage que les jours de régal.
+      </p>
+      <p xml:id="para_13_340_94">
+       L'eau est la boisson ordinaire de la famille ; le dimanche cepen¬dant, elle boit au diner un litre de vin. Quant à l'usage du rhum dans le café du déjeuner, c'est une habitude locale : on le considère comme un préservatif contre l'air insalubre de la Maremme.
+      </p>
+      <p xml:id="para_13_340_95">
+       L'hiver, et surtout pendant le carême, la famille remplace sou¬vent la viande par du poisson sec ou salé : harengs, morue, stocl¬ish, qui coûte ordinairement 0ᶠ84 le kilogramme.
+      </p>
+      <p xml:id="para_13_340_96">
+       Les œufs ne figurent que très-rarement dans l'alimentation, si ce n'est pour entrer dans la composition de quelque ragoût.
+      </p>
+      <p xml:id="para_13_340_97">
+       La famille n'emploie jamais ni lait ni beurre; l'huile d'olive, quelquefois le saindou et le lard, servent seuls à la cuisine. Le lait et le beurre sont d'un usage très-restreint dans la Maremme, ou le bétail vit par troupeaux demi-sauvages dans les bois ou sur les terres incultes, et où on laisse aux vaches leurs veaux pendant plu¬sieurs mois. Les pâtres viennent en hiver avec leurs troupeaux dans le pays, pour profiter des riches paturages qu'il renfeme, et re¬tournent en été dans les montagnes du nord de la foscane, du duché de Modène et des Romagnes. Le lait de chèvre ou de brebis est celui que l'on consomme dans les ménages aisés et dans les cafés.
+      </p>
+      <p xml:id="para_13_340_98">
+       La famille n'achète par an que 30ᶥ de farine de mais et autant de farine de chataigne. La polenda de farine de mais, appelée po¬lend iuue, et celle de farine de châtaigne, nommée polenda douce, n'entrent que très-rarement dans l'alimentation de la popu¬lation fixe de la Maremme. Cette pâte dense, cuite à l'eau et divi¬sée par tranches que l'on fait quelquefois rotir sur les cendres du foyer, est au contraire la base de la nourriture des Lombards im¬migrants
+       <ref target="#ID-028a" type="renvoi_int_od2m">
+        (N° 28, § 9)
+       </ref>
+       .
+      </p>
      </div>
      <div n="002" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
+      <head type="sub_sub_section" xml:id="part_02_03_10">
+       § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
+      </head>
       <div type="par_10" subtype="par_10_texte_1">
-       <p xml:id="para_13_341_100"><pb facs="#facs_344" n="341" source="lesouvriersdesde04sociuoft_0347.xml"/> La famille habite depuis un an, mais seulement pendant l'hiver, un logement à la mine de Casellaccia. Ce logement est situé au premier étage d'une des maisons destinées aux employés de la mine ; il est composé de trois petites pièces ayant chacune 12ᵉ de superficie et 2ᵐ50 de hauteur et éclairées chacune par une fenêtre. Les chambres sont carrelées ; les murs en sont badigeonnés de di¬verses nuances, et ont un encadrement de lignes ou de guirlandes de couleurs vives.</p>
-       <p xml:id="para_13_341_101">Avant d'occuper le poste de chef mineur, l'ouvrier demeurait constamment à Massa, où il a, du reste, conservé un logement qu'il habite pendant quatre mois de la belle saison. Ce dernier lo¬gement se compose de deux pièces au second étage, dans une rue étroite et montueuse, comme le sont toutes les rues transversales de Massa.</p>
+       <p xml:id="para_13_341_100">
+        <pb facs="#facs_344" n="341" source="lesouvriersdesde04sociuoft_0347.xml"/>La famille habite depuis un an, mais seulement pendant l'hiver, un logement à la mine de Casellaccia. Ce logement est situé au premier étage d'une des maisons destinées aux employés de la mine ; il est composé de trois petites pièces ayant chacune 12ᵉ de superficie et 2ᵐ50 de hauteur et éclairées chacune par une fenêtre. Les chambres sont carrelées ; les murs en sont badigeonnés de di¬verses nuances, et ont un encadrement de lignes ou de guirlandes de couleurs vives.
+       </p>
+       <p xml:id="para_13_341_101">
+        Avant d'occuper le poste de chef mineur, l'ouvrier demeurait constamment à Massa, où il a, du reste, conservé un logement qu'il habite pendant quatre mois de la belle saison. Ce dernier lo¬gement se compose de deux pièces au second étage, dans une rue étroite et montueuse, comme le sont toutes les rues transversales de Massa.
+       </p>
       </div>
       <div type="par_10" subtype="meubles">
-       <p xml:id="para_13_341_102">MEUBLES............ 283ᶠ 53</p>
-       <p xml:id="para_13_341_103">1° Lits. — 1 lit pour les époux :  bois de lit de chataigner. 1 grosse paillasse de paille de mais avec enveloppe de toile grise, 1 matelas, 1 raversin, 2 oreillers de laine. 140ᶠ 00 ; — 1 couveture de laine, 16ᶠ80 ; —  couvre-pied de cotoun de couleur, doublé ct piné. 1I6ᶠ 0;  Tea, 7ᶠ 60.</p>
-       <p xml:id="para_13_341_104">1 lit pour la petite file:  bois de 1i, 1 paillasse, 1 natelas, 1 oreiller. 5880 ; — l couvertue de laine, 11ᶠ20; — 1 couverture de coton de couleur doublée et piquée, 8ᶠ 40 ; — Total. 7840.</p>
-       <p xml:id="para_13_341_105">2ᵉ Meubles de la chambre d coucher. — 4 chaises, 4ᶠ 00; 1 table, 5ᶠ 00; 1 caisse servant d'armoire ᶠ 40: — Totad, 17ᶠ40.</p>
-       <p xml:id="para_13_341_106">3° Meuhles de la cuisne — 1 ahle, 560 ; — 2 chaises, 2ᶠ 00; — 2 tahourets de lois, 1ᶠ26 ; — 1 maie a pétrir. format bufet (mémoire) 1§ 6): — 2 planches pour sSupporter les ustensiles de cuisine, 1ᶠ6 ; — 1 egouttoir pour les assiettes, 2ᶠ80 ; —</p>
-       <p xml:id="para_13_341_107">4° Ohjets relatifs au culte domestique. — 1 image eunluminée de la Vierge, encadrée et garnie d'une palme d'olivier bénie le jour des Rameaux, 0ᶠ84.</p>
+       <p xml:id="para_13_341_102">
+        MEUBLES............ 283ᶠ 53
+       </p>
+       <p xml:id="para_13_341_103">
+        1° Lits. — 1 lit pour les époux :  bois de lit de chataigner. 1 grosse paillasse de paille de mais avec enveloppe de toile grise, 1 matelas, 1 raversin, 2 oreillers de laine. 140ᶠ 00 ; — 1 couveture de laine, 16ᶠ80 ; —  couvre-pied de cotoun de couleur, doublé ct piné. 1I6ᶠ 0;  Tea, 7ᶠ 60.
+       </p>
+       <p xml:id="para_13_341_104">
+        1 lit pour la petite file:  bois de 1i, 1 paillasse, 1 natelas, 1 oreiller. 5880 ; — l couvertue de laine, 11ᶠ20; — 1 couverture de coton de couleur doublée et piquée, 8ᶠ 40 ; — Total. 7840.
+       </p>
+       <p xml:id="para_13_341_105">
+        2ᵉ Meubles de la chambre d coucher. — 4 chaises, 4ᶠ 00; 1 table, 5ᶠ 00; 1 caisse servant d'armoire ᶠ 40: — Totad, 17ᶠ40.
+       </p>
+       <p xml:id="para_13_341_106">
+        3° Meubles de la cuisne — 1 ahle, 560 ; — 2 chaises, 2ᶠ 00; — 2 tahourets de lois, 1ᶠ26 ; — 1 maie a pétrir. format bufet (mémoire) 1§ 6): — 2 planches pour sSupporter les ustensiles de cuisine, 1ᶠ6 ; — 1 egouttoir pour les assiettes, 2ᶠ80 ; —
+       </p>
+       <p xml:id="para_13_341_107">
+        4° Objets relatifs au culte domestique. — 1 image eunluminée de la Vierge, encadrée et garnie d'une palme d'olivier bénie le jour des Rameaux, 0ᶠ84.
+       </p>
       </div>
       <div type="par_10" subtype="linge">
-       <p xml:id="para_13_341_108">LINGE DE MENAGE............ 105ᶠ 50</p>
-       <p xml:id="para_13_341_109">3 paires de draps de lit de chanvre, 54ᶠ 00 ; — 1 paire de draps de coton, 7ᶠ50; — 1 paire de drap de chanvre pour la petite fille, 16ᶠ80; — 2 nappes, 11ᶠ920; — 8 ser¬viettes,'8ᶠ 00; 8 essuie-main, ᶠ00. — Total, 10Sᶠ50.</p>
+       <p xml:id="para_13_341_108">
+        LINGE DE MENAGE............ 105ᶠ 50
+       </p>
+       <p xml:id="para_13_341_109">
+        3 paires de draps de lit de chanvre, 54ᶠ 00 ; — 1 paire de draps de coton, 7ᶠ50; — 1 paire de drap de chanvre pour la petite fille, 16ᶠ80; — 2 nappes, 11ᶠ920; — 8 ser¬viettes,'8ᶠ 00; 8 essuie-main, ᶠ00. — Total, 10Sᶠ50.
+       </p>
       </div>
       <div type="par_10" subtype="ustensiles">
-       <p xml:id="para_13_341_110">USTENSILES............ 32ᶠ 83</p>
-       <p xml:id="para_13_341_111">1ᵉ Dépendant de la cheminée. —  paire de chenets, 4ᶠ 00 ; — 1 paire de pincettes, ᶠ80; — 1 pelle, 1ᶠ68. — 8ᶠ48.</p>
-       <p xml:id="para_13_342_112"><pb facs="#facs_345" n="342" source="lesouvriersdesde04sociuoft_0348.xml"/> 2° Employés pour la preparation et la consommafion des alments. —  marmites de cuive rouge, 13ᶠ 44 ; — 1 poêle a frire de er, 1ᶠ68 ; — 15 assiettes, 2ᶠ25 ; — 1 sala¬dir, 1ᶠ 12 ; — 2 plats, 0ᶠ84; — 6 vases de terre dite entole, pour faire bouillir de l'eau et aire cuire la soupe, 1ᶠ 50. — Total, 20ᶠ 83.</p>
-       <p xml:id="para_13_342_113">3° Emploges pour soins de proprete. — 2 cuvettes et 1 cruche, 1ᶠ 68.</p>
-       <p xml:id="para_13_342_114">4° Emploes pour usges divers. —  cobeilles, 1ᶠ 00 ; — 3 chauflerees de terre cuite. 0ᶠ84. — ''oau, 1 84.</p>
+       <p xml:id="para_13_341_110">
+        USTENSILES............ 32ᶠ 83
+       </p>
+       <p xml:id="para_13_341_111">
+        1ᵉ Dépendant de la cheminée. —  paire de chenets, 4ᶠ 00 ; — 1 paire de pincettes, ᶠ80; — 1 pelle, 1ᶠ68. — 8ᶠ48.
+       </p>
+       <p xml:id="para_13_342_112">
+        <pb facs="#facs_345" n="342" source="lesouvriersdesde04sociuoft_0348.xml"/> 2° Employés pour la preparation et la consommafion des alments. —  marmites de cuive rouge, 13ᶠ 44 ; — 1 poêle a frire de er, 1ᶠ68 ; — 15 assiettes, 2ᶠ25 ; — 1 sala¬dir, 1ᶠ 12 ; — 2 plats, 0ᶠ84; — 6 vases de terre dite entole, pour faire bouillir de l'eau et aire cuire la soupe, 1ᶠ 50. — Total, 20ᶠ 83.
+       </p>
+       <p xml:id="para_13_342_113">
+        3° Employés pour soins de proprete. — 2 cuvettes et 1 cruche, 1ᶠ 68.
+       </p>
+       <p xml:id="para_13_342_114">
+        4° Employés pour usges divers. —  cobeilles, 1ᶠ 00 ; — 3 chauflerees de terre cuite. 0ᶠ84. — ''oau, 1 84.
+       </p>
       </div>
       <div type="par_10" subtype="vetements">
-       <p xml:id="para_13_342_115">VTMENS............ 358ᶠ 28</p>
-       <p xml:id="para_13_342_116">VÊTEMENTS DE L'ouvuE. (179ᶠ 92)</p>
-       <p xml:id="para_13_342_117">1° Vêtements du dimanche. — 3 veste de velours de cotou, 15ᶠ 12 ; — l pautalon de laine et oton, 672; — 2 ggilets. 67e; — 1 paire de lottes, 10ᶠ 0s ; — 1 chapeau de feutre mou, 4ᶠ20. — Tota, 42ᶠs4.</p>
-       <p xml:id="para_13_342_118">2° Vêtements de travail. — 2 vestes de coton croisé, 16ᶠ0; — 3 pantalons de de coton, 19ᶠ 60 ; — 2 caumisoles de laine tricotées, 13ᶠ20 ; — 3 chemises de toiie de chanve, 11ᶠ76 ; — 7 chemises de coton, 14ᶠ 00; — 3 calecons de coton, 6ᶠ60; — 6 paires dechaussettes, dont 3 de laine et 3 de coton, 6ᶠ72; — 3 paires de souliers, 33ᶠ00. — Total, 14ᶠG6.</p>
-       <p xml:id="para_13_342_120">3° Bijoux. —  montre d'argent, ̀ 40.</p>
-       <p xml:id="para_13_342_121">V2TEMENTS DE LA FEME. (152ᶠ 00) :</p>
-       <p xml:id="para_13_342_122">1° Vêtements du dimance. — 1 robe de cuton, 12ᶠ 60; — 2 ichus de soie, 8ᶠ 40 ; — : jupons blancs, 16ᶠ0 ; — 2 paires de bas de coton blanc, 3ᶠ 00 ; — I paire de sou¬liers, ᶠ 00. — Tot, 4ᶠ 00.</p>
-       <p xml:id="para_13_342_123">2° Vêtements de travail. — 4 robes de coton, 36ᶠ12 ; — 1 fichu de couleur, 84 ; — 4 jupons de couleu, 24ᶠ 00 ; — 5 chemises de cotomr, 20ᶠ 00 ; — 3 ouchirs de peche, 0ᶠ 84 ; — 2 paires de bas de couleur, 2ᶠ 60 ; — 2 paires de souliers, 11ᶠ20. Tota, 9ᶠ 60.</p>
-       <p xml:id="para_13_342_124">3° Bijoux. — 1 paire de boules d'orelles. 5ᶠ 60 ; — 1 bague, 2ᶠ80. — Total, 8ᶠ 40.</p>
-       <p xml:id="para_13_342_125">V'ÉTEMENTS DE LA PETITE FILLE. (26ᶠ 36) :</p>
-       <p xml:id="para_13_342_126">4 robes de coton, 8ᶠ 00 ; — 5 jupons, 6ᶠ 00 ; — 6 chemises de coton, 6ᶠ 00 ; — 1 mou¬choir de poche, 0ᶠ2; — 3 paires de as, 1ᶠ68 ; — 2 paires îe soulier, 4ᶠ40. — raat, 26ᶠas.</p>
+       <p xml:id="para_13_342_115">
+        VÊTEMENTS............ 358ᶠ 28
+       </p>
+       <p xml:id="para_13_342_116">
+        VÊTEMENTS DE L'OUVRIER. (179ᶠ 92)
+       </p>
+       <p xml:id="para_13_342_117">
+        1° Vêtements du dimanche. — 3 veste de velours de cotou, 15ᶠ 12 ; — l pautalon de laine et oton, 672; — 2 ggilets. 67e; — 1 paire de lottes, 10ᶠ 0s ; — 1 chapeau de feutre mou, 4ᶠ20. — Tota, 42ᶠs4.
+       </p>
+       <p xml:id="para_13_342_118">
+        2° Vêtements de travail. — 2 vestes de coton croisé, 16ᶠ0; — 3 pantalons de de coton, 19ᶠ 60 ; — 2 caumisoles de laine tricotées, 13ᶠ20 ; — 3 chemises de toiie de chanve, 11ᶠ76 ; — 7 chemises de coton, 14ᶠ 00; — 3 calecons de coton, 6ᶠ60; — 6 paires dechaussettes, dont 3 de laine et 3 de coton, 6ᶠ72; — 3 paires de souliers, 33ᶠ00. — Total, 14ᶠG6.
+       </p>
+       <p xml:id="para_13_342_120">
+        3° Bijoux. —  montre d'argent, ̀ 40.
+       </p>
+       <p xml:id="para_13_342_121">
+        VÊTEMENTS DE LA FEMME. (152ᶠ 00) :
+       </p>
+       <p xml:id="para_13_342_122">
+        1° Vêtements du dimance. — 1 robe de cuton, 12ᶠ 60; — 2 ichus de soie, 8ᶠ 40 ; — : jupons blancs, 16ᶠ0 ; — 2 paires de bas de coton blanc, 3ᶠ 00 ; — I paire de sou¬liers, ᶠ 00. — Tot, 4ᶠ 00.
+       </p>
+       <p xml:id="para_13_342_123">
+        2° Vêtements de travail. — 4 robes de coton, 36ᶠ12 ; — 1 fichu de couleur, 84 ; — 4 jupons de couleu, 24ᶠ 00 ; — 5 chemises de cotomr, 20ᶠ 00 ; — 3 ouchirs de peche, 0ᶠ 84 ; — 2 paires de bas de couleur, 2ᶠ 60 ; — 2 paires de souliers, 11ᶠ20. Tota, 9ᶠ 60.
+       </p>
+       <p xml:id="para_13_342_124">
+        3° Bijoux. — 1 paire de boules d'orelles. 5ᶠ 60 ; — 1 bague, 2ᶠ80. — Total, 8ᶠ 40.
+       </p>
+       <p xml:id="para_13_342_125">
+        VÊTEMENTS DE LA PETITE FILLE. (26ᶠ 36) :
+       </p>
+       <p xml:id="para_13_342_126">
+        4 robes de coton, 8ᶠ 00 ; — 5 jupons, 6ᶠ 00 ; — 6 chemises de coton, 6ᶠ 00 ; — 1 mou¬choir de poche, 0ᶠ2; — 3 paires de as, 1ᶠ68 ; — 2 paires îe soulier, 4ᶠ40. — raat, 26ᶠas.
+       </p>
       </div>
       <div type="par_10" subtype="par_10_total">
-       <p xml:id="para_13_342_127">VALEUR TOTALE du mobilier et des vêtements............ 780ᶠ 19</p>
+       <p xml:id="para_13_342_127">
+        VALEUR TOTALE du mobilier et des vêtements............ 780ᶠ 19
+       </p>
       </div>
      </div>
      <div n="003" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
-      <p xml:id="para_13_342_129">Une des distracions de l'ouvrier est de fumer : il dèpense en ci¬gares et en tabac 3a centimes pr semaine. Le tabac en paquet. pour la pipe et la cigarette, étant très- cher en l'oscame, le peuple ume en général. dans de trés-petites pipes. des cigares hachès: les ciggares de la régie ne coûtent en ellet que a centimes, et en¬core leur prix a-t-il doublé depuis quatre as. Les marchands au détail rognnt légérement les deux pointes des cigares et vendent ces reailles au poids pour la pipe. <pb facs="#facs_346" n="343" source="lesouvriersdesde04sociuoft_0349.xml"/> Le commerce des vieux bouts de cigares ramassés dans les rues et dans les cafés se pratique en Italie. Ces bouts de cigares se en¬dent de 1ᶠ68 a 3ᶠ 36 le lilograme</p>
-      <p xml:id="para_13_343_131">Enfin les ouvriers fument assez souvent le cigare même; mais, dans ce cas., ils le divisent en deux par économie. L'âcreté des ci¬gares toscans est telle que beaucoup de personnes aisées pratiquent le même système.</p>
-      <p xml:id="para_13_343_132">On a inroduit depuis peu en Toscane des cgares dits Caoour, moins longs et plus gros., qui ne se prêtent pas aussi bien que ceu du pays à cette division économique ; ce qui diminuern, chez la classe aisée du moins, l'usage de les couper en deux, et augmen¬tera par conséquent les revenus ede l'́at. On trouve aussi dans les grandes villes des cigares dits larvne qui, jusqu'a présent s étaien vendus, sans être de très-bonne qualité, de 28 a 56 centimes; aussi n'y avait-il que les étrangeers, peu habitués a l'àcreté les cigares toscans, qui en achetassent. Aujourd'hui cependant on vend, comme ailleurs, des cigares passables à 15, 20 et 30 centimes. .</p>
-      <p xml:id="para_13_343_133">L'ouvrier passe les après-midi de tous les dimanches dans les cabarets de Massa, où il dépense ordinairement 0ᶠ56 en café ou en punch chaud. Le prix d'une consommation est de 0ᶠ14. La famille boit également le dimanche un litre de vin du pays (<ref target="#part_02_03_09" type="renvoi_int_mono">§ 9</ref>).</p>
-      <p xml:id="para_13_343_134">lne des vécréations principales de l'ouvrier est d'assister aux rrésentations théâtrales que des troupes ambulates donnent dans la petite salle de Massa. On joue ordinairemet des opéras, et la Société musicle de la ville fornit l'orchesre. Les pièces sont choisies parmi les meilleres du répertoire italien, et en général elles ne sont pas trop anal exécutées (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>).</p>
+      <head type="sub_sub_section" xml:id="part_02_03_11">
+       § 11. — RÉCRÉATIONS.
+      </head>
+      <p xml:id="para_13_342_129">
+       Une des distracions de l'ouvrier est de fumer : il dèpense en ci¬gares et en tabac 3a centimes pr semaine. Le tabac en paquet. pour la pipe et la cigarette, étant très- cher en l'oscame, le peuple ume en général. dans de trés-petites pipes. des cigares hachès: les ciggares de la régie ne coûtent en ellet que a centimes, et en¬core leur prix a-t-il doublé depuis quatre as. Les marchands au détail rognnt légérement les deux pointes des cigares et vendent ces reailles au poids pour la pipe. <pb facs="#facs_346" n="343" source="lesouvriersdesde04sociuoft_0349.xml"/> Le commerce des vieux bouts de cigares ramassés dans les rues et dans les cafés se pratique en Italie. Ces bouts de cigares se en¬dent de 1ᶠ68 a 3ᶠ 36 le lilograme
+      </p>
+      <p xml:id="para_13_343_131">
+       Enfin les ouvriers fument assez souvent le cigare même; mais, dans ce cas., ils le divisent en deux par économie. L'âcreté des ci¬gares toscans est telle que beaucoup de personnes aisées pratiquent le même système.
+      </p>
+      <p xml:id="para_13_343_132">
+       On a inroduit depuis peu en Toscane des cgares dits Caoour, moins longs et plus gros., qui ne se prêtent pas aussi bien que ceu du pays à cette division économique ; ce qui diminuern, chez la classe aisée du moins, l'usage de les couper en deux, et augmen¬tera par conséquent les revenus ede l'́at. On trouve aussi dans les grandes villes des cigares dits larvne qui, jusqu'a présent s étaien vendus, sans être de très-bonne qualité, de 28 a 56 centimes; aussi n'y avait-il que les étrangeers, peu habitués a l'àcreté les cigares toscans, qui en achetassent. Aujourd'hui cependant on vend, comme ailleurs, des cigares passables à 15, 20 et 30 centimes. .
+      </p>
+      <p xml:id="para_13_343_133">
+       L'ouvrier passe les après-midi de tous les dimanches dans les cabarets de Massa, où il dépense ordinairement 0ᶠ56 en café ou en punch chaud. Le prix d'une consommation est de 0ᶠ14. La famille boit également le dimanche un litre de vin du pays
+       <ref target="#part_02_03_09" type="renvoi_int_mono">
+        (§ 9)
+       </ref>
+       .
+      </p>
+      <p xml:id="para_13_343_134">
+       lne des vécréations principales de l'ouvrier est d'assister aux rrésentations théâtrales que des troupes ambulates donnent dans la petite salle de Massa. On joue ordinairemet des opéras, et la Société musicle de la ville fornit l'orchesre. Les pièces sont choisies parmi les meilleres du répertoire italien, et en général elles ne sont pas trop anal exécutées
+       <ref target="#part_03_01_19" type="renvoi_int_mono">
+        (C)
+       </ref>
+       .
+      </p>
      </div>
     </div>
     <div n="004" type="sub_section">
-     <head type="sub_section" xml:id="part_02_04">IV. Histoire de la famille</head>
+     <head type="sub_section" xml:id="part_02_04">
+      IV. Histoire de la famille
+     </head>
      <div n="001" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
-      <p xml:id="para_13_343_138">L'ouvrier est né au village de San-Marcello, pès de Pistoia. Jlusqu'à l'âge de seize ans. il a travaillé avec son père qui étaimé¬tayer, et qui avait sept enfants (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>).</p>
-      <p xml:id="para_13_343_139">Le désir de gagner davantage e l'exemple de bcaucoup de ses camarades, l'engagèrent à aller dans la Maremme. Pendant les premières années, il retournait l'été dans son village ; il abandonna <pb facs="#facs_347" n="344" source="lesouvriersdesde04sociuoft_0350.xml"/> peu à peu cette habitude, se lixa dans le pays et se maria à Massa Marittima.</p>
-      <p xml:id="para_13_344_143">F*** fut d'abord engaeé comme maneuvre a l'exploitation de soufre de Radicondoli, où il gagnait 25ᶠ20 par mois. L'année sui¬vante, une autre exploitation de soufre, celle de Scanzano, l'em¬ploya au même travail, mais à 2lᶠ par mois seulement: peu de temps après, il devint sous-mineur, et gagna 33ᶠ60.</p>
-      <p xml:id="para_13_344_144">L'ouvrier alla plus tard travailler aux mines de charbon de Monte Mamboli, pres de Massa, avec un salaire mensuel de 50ᶠ40. En 1847, il entra à la mine de plomb de Castellaccia, et y resta à la solde de 40ᶠ 32 jiusqu'en 1852, époque à laquelle il devint boi¬seur avec une paye de 42ᶠ. En 1857, l'usage de payer par mois lut généralement abandonné dans la Maremme, et le pri de la jour¬née fut fixe à 1ᶠ89 par jour de travail effectif.</p>
-      <p xml:id="para_13_344_145">F*** resta dans cette condition jusqu'en 1860; un changement dans la direction anmena alors quelques mutations dans le perso¬nel. et il obtint le poste de chef mineur, avec un salaire journalier de 2ᶠ80.</p>
-      <p xml:id="para_13_344_146">A l'âge de vingt ans, l'ouvrier a dû satisfaire à la conscription dans soa village de San-Marcello. A cette époque, en 1841, le ser¬vice militaire était sans importance en Toscane ; aussi les rempla¬çants y étaient-ils faciles à trouver, et à très-bas prix.</p>
-      <p xml:id="para_13_344_147">Le nombre de soldats à nournir étant insignifiant, les communes rappaient d'une taxe légère, calculée selon les moyens de chacun. tous les conscrits appeles au tirage, e au moyen du produit de cette taxe, foraient un pécule à celui qui s'offrait volontairement pour le service militaire. La quote-part de F*** fut de 5ᶠ60 pour le pécule de l'unique conscrit à fournir par sa commune; il ignore, du reste, s'il y a eu tirage au sort et s'il a eu un bon ou un mau¬vais numéro.</p>
-      <p xml:id="para_13_344_148">A la mort de ses parents, qui étaient méayers, et qui vivaient au jour le jour, ᵉ* p'a hérité de rien : il n'est pas retourné depuis cette époque dans son pays.</p>
-      <p xml:id="para_13_344_149">L'histoire de la femme n'ofre aucune particularité rearquable. Placée comme domestique à llassa dès qu'elle fut en à̂ge de travail¬ler, elle n'a rien pu apprendre, si ce n'est la conduite de l'intérieur d'nn ménage de paysan :à dix-sept ans, elle a épousé Angelo F*** et n'a plus quitté la commune de Massa. Son père, qui éait char¬retier aux miues de fer de Follonica, est mort depuis peu d'auuées: sa mère vit encore.</p>
-      <p xml:id="para_13_344_150">Après six ans de mariage. les deux époux F*** on eu une petite fille qui est aujourd'hui âgée de 4 ans.</p>
+      <head type="sub_sub_section" xml:id="part_02_04_12">
+       § 12. — PHASES PRINCIPALES DE L'EXISTENCE.
+      </head>
+      <p xml:id="para_13_343_138">
+       L'ouvrier est né au village de San-Marcello, pès de Pistoia. Jlusqu'à l'âge de seize ans. il a travaillé avec son père qui étaimé¬tayer, et qui avait sept enfants
+       <ref target="#part_02_01_02" type="renvoi_int_mono">
+        (§ 2)
+       </ref>
+       .
+      </p>
+      <p xml:id="para_13_343_139">
+       Le désir de gagner davantage e l'exemple de bcaucoup de ses camarades, l'engagèrent à aller dans la Maremme. Pendant les premières années, il retournait l'été dans son village ; il abandonna <pb facs="#facs_347" n="344" source="lesouvriersdesde04sociuoft_0350.xml"/> peu à peu cette habitude, se lixa dans le pays et se maria à Massa Marittima.
+      </p>
+      <p xml:id="para_13_344_143">
+       F*** fut d'abord engaeé comme maneuvre a l'exploitation de soufre de Radicondoli, où il gagnait 25ᶠ20 par mois. L'année sui¬vante, une autre exploitation de soufre, celle de Scanzano, l'em¬ploya au même travail, mais à 2lᶠ par mois seulement: peu de temps après, il devint sous-mineur, et gagna 33ᶠ60.
+      </p>
+      <p xml:id="para_13_344_144">
+       L'ouvrier alla plus tard travailler aux mines de charbon de Monte Mamboli, pres de Massa, avec un salaire mensuel de 50ᶠ40. En 1847, il entra à la mine de plomb de Castellaccia, et y resta à la solde de 40ᶠ 32 jiusqu'en 1852, époque à laquelle il devint boi¬seur avec une paye de 42ᶠ. En 1857, l'usage de payer par mois lut généralement abandonné dans la Maremme, et le pri de la jour¬née fut fixe à 1ᶠ89 par jour de travail effectif.
+      </p>
+      <p xml:id="para_13_344_145">
+       F*** resta dans cette condition jusqu'en 1860; un changement dans la direction anmena alors quelques mutations dans le perso¬nel. et il obtint le poste de chef mineur, avec un salaire journalier de 2ᶠ80.
+      </p>
+      <p xml:id="para_13_344_146">
+       A l'âge de vingt ans, l'ouvrier a dû satisfaire à la conscription dans soa village de San-Marcello. A cette époque, en 1841, le ser¬vice militaire était sans importance en Toscane ; aussi les rempla¬çants y étaient-ils faciles à trouver, et à très-bas prix.
+      </p>
+      <p xml:id="para_13_344_147">
+       Le nombre de soldats à nournir étant insignifiant, les communes rappaient d'une taxe légère, calculée selon les moyens de chacun. tous les conscrits appeles au tirage, e au moyen du produit de cette taxe, foraient un pécule à celui qui s'offrait volontairement pour le service militaire. La quote-part de F*** fut de 5ᶠ60 pour le pécule de l'unique conscrit à fournir par sa commune; il ignore, du reste, s'il y a eu tirage au sort et s'il a eu un bon ou un mau¬vais numéro.
+      </p>
+      <p xml:id="para_13_344_148">
+       A la mort de ses parents, qui étaient méayers, et qui vivaient au jour le jour, ᵉ* p'a hérité de rien : il n'est pas retourné depuis cette époque dans son pays.
+      </p>
+      <p xml:id="para_13_344_149">
+       L'histoire de la femme n'offre aucune particularité rearquable. Placée comme domestique à llassa dès qu'elle fut en à̂ge de travail¬ler, elle n'a rien pu apprendre, si ce n'est la conduite de l'intérieur d'nn ménage de paysan :à dix-sept ans, elle a épousé Angelo F*** et n'a plus quitté la commune de Massa. Son père, qui éait char¬retier aux miues de fer de Follonica, est mort depuis peu d'auuées: sa mère vit encore.
+      </p>
+      <p xml:id="para_13_344_150">
+       Après six ans de mariage. les deux époux F*** on eu une petite fille qui est aujourd'hui âgée de 4 ans.
+      </p>
      </div>
      <div n="002" type="sub_sub_section">
-      <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
-      <p xml:id="para_13_345_152"><pb facs="#facs_348" n="345" source="lesouvriersdesde04sociuoft_0351.xml"/> La famille, quoique étant de mœurs irréprochables, ne peut es¬pérer d'arriver à une condition meilleure : l'ouvrier n'a pas assez d'instruction pour s'élever dans son état, pour être sûr même de conserver son poste (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>) ; la femme est inhabile aux travaux agri¬coles et n'entreprend pas ces industries domestiques qui contri¬buent tant à la prospérité des ménages de paysans (<ref target="#ID-033a" type="renvoi_int_od2m">N° 33</ref>) ; enfin les deux epoux n'ont pas ce goùt pour l'épargune qu'on a rearqué chez le fondeur des lpes Apuanes (<ref target="#ID-028a" type="renvoi_int_od2m">N° 28 § 15</ref>). Bien qu'aujour¬d'hui le salaire de l'ouvrier soit relativement élevé, l'augmentation qu'il a reçue ne sert qu'à accroitre le been - être présent. ll est obligé de laisser a la caisse de réserve de la mine 2 p. 100 de son salaire, ce qui lui donne droit, en cas d'acciden dans l'exer¬cice de ses fonctions, aux soins du chirurgien de la mine, aux médicaments et à sa paye entière pendant toute'sa maladie. Mais cette insitution ne le garantit que des accidents qui peuvent le frapper sur les travaux, et il se trouverait sans ressources s'il venait à perdre son emploi.</p>
-      <p xml:id="para_13_345_153">L'absence d'esprit d'économie chez les ouvriers de la Maremme est cn partie causée par l'impossibilié où ils sont de placer leur argent en achat de biens ruraux, même d'une cabane. Le pays est couvert, en eflet, de propriéés immenses, qui appartiennent à de riches paticuliers et qui ne peuvent être entamées par l'épargne des travailleurs.</p>
+      <head type="sub_sub_section" xml:id="part_02_04_13">
+       § 13. — MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
+      </head>
+      <p xml:id="para_13_345_152">
+       <pb facs="#facs_348" n="345" source="lesouvriersdesde04sociuoft_0351.xml"/>La famille, quoique étant de mœurs irréprochables, ne peut es¬pérer d'arriver à une condition meilleure : l'ouvrier n'a pas assez d'instruction pour s'élever dans son état, pour être sûr même de conserver son poste
+       <ref target="#part_02_02_08" type="renvoi_int_mono">
+        (§ 8)
+       </ref>
+       ; la femme est inhabile aux travaux agri¬coles et n'entreprend pas ces industries domestiques qui contri¬buent tant à la prospérité des ménages de paysans
+       <ref target="#ID-033a" type="renvoi_int_od2m">
+        (N° 33)
+       </ref>
+       ; enfin les deux epoux n'ont pas ce goùt pour l'épargune qu'on a rearqué chez le fondeur des lpes Apuanes
+       <ref target="#ID-028a" type="renvoi_int_od2m">
+        (N° 28 § 15)
+       </ref>
+       . Bien qu'aujour¬d'hui le salaire de l'ouvrier soit relativement élevé, l'augmentation qu'il a reçue ne sert qu'à accroitre le been - être présent. ll est obligé de laisser a la caisse de réserve de la mine 2 p. 100 de son salaire, ce qui lui donne droit, en cas d'acciden dans l'exer¬cice de ses fonctions, aux soins du chirurgien de la mine, aux médicaments et à sa paye entière pendant toute'sa maladie. Mais cette insitution ne le garantit que des accidents qui peuvent le frapper sur les travaux, et il se trouverait sans ressources s'il venait à perdre son emploi.
+      </p>
+      <p xml:id="para_13_345_153">
+       L'absence d'esprit d'économie chez les ouvriers de la Maremme est cn partie causée par l'impossibilié où ils sont de placer leur argent en achat de biens ruraux, même d'une cabane. Le pays est couvert, en effet, de propriéés immenses, qui appartiennent à de riches paticuliers et qui ne peuvent être entamées par l'épargne des travailleurs.
+      </p>
       <div n="005" type="sub_section">
        <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
+        <head type="sub_sub_section" xml:id="part_02_05_14">
+         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
+        </head>
         <pb facs="#facs_349" n="346" source="lesouvriersdesde04sociuoft_0352.xml"/>
         <figure rend="portrait" type="cptes_recettes">
          <graphic facs="#facs_349" url="#" xml:id="illu_13_346_1"/>
@@ -387,7 +769,9 @@
         </figure>
        </div>
        <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
+        <head type="sub_sub_section" xml:id="part_02_05_15">
+         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
+        </head>
         <pb facs="#facs_353" n="350" source="lesouvriersdesde04sociuoft_0356.xml"/>
         <figure rend="portrait" type="cptes_depenses">
          <graphic facs="#facs_353" url="#" xml:id="illu_13_350_5"/>
@@ -405,7 +789,9 @@
         </figure>
        </div>
        <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_02_05_16">COMPTES ANNEXÉS AUX BUDGETS</head>
+        <head type="sub_sub_section" xml:id="part_02_05_16">
+         COMPTES ANNEXÉS AUX BUDGETS
+        </head>
         <pb facs="#facs_356" n="353" source="lesouvriersdesde04sociuoft_0359.xml"/>
         <figure rend="portrait" type="cptes_annexes">
          <graphic facs="#facs_356" url="#" xml:id="illu_13_353_9"/>
@@ -417,68 +803,196 @@
        </div>
       </div>
       <div n="003" type="section">
-       <head type="section" xml:id="part_03">Notes.</head>
-       <p xml:id="para_13_355_157">FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMAQUABLES, APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.</p>
+       <head type="section" xml:id="part_03">
+        NOTES.
+       </head>
+       <p xml:id="para_13_355_157">
+        FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMAQUABLES, APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
+       </p>
        <div n="001" type="sub_section">
         <div n="001" type="sub_sub_section">
-         <head type="sub_sub_section" xml:id="part_03_01_17">(A) SUR LES RICIHESSES MINERALES DE LA MAEMIME DE TOSCANE.</head>
-         <p xml:id="para_13_355_159"><pb facs="#facs_358" n="355" source="lesouvriersdesde04sociuoft_0361.xml"/> L'auteur n'a pas pour but d'énumérer toutes les mines exploitées ou découvertes dans la Maremme tant par les trusques et les lomains qu'au moyen âge et de nos jours. Sans entrer dans les détails d'une description qui a été faite ailleurs, il se propose seu¬lement d'indiquer les principaux gites du pays.</p>
-         <p xml:id="para_13_355_160">On doit citer d'abord Massa Marittima, dont les mines de fer, de cuivre et de plomb argentifère furent excavecs par les ́trusques et qui devint, au XIIIe et au XIVe siècle, le centre des exploitaions de la Maremme. Ceue ville portait alors le nom de Allassa metallou, et renfermait près de 20,000 habitans.</p>
-         <p xml:id="para_13_355_161">Le cuivre portant la marque de lMassa était recherché comme un des meilleurs en Flandre, sur le marché de bruges. Les mines de plomb argentifère, dont les principales étaient à Montieri, près Massa, fournirent jusqu'au xv siècle aux villes d'Italie, telles que Florence, Sienne et olterra, la majeure partie de l'argent destiné au monnayage.</p>
-         <p xml:id="para_13_355_162">Massa eut aussi son hôtel des monnaies (aecc), qui fut établi par decret du 11 avril 1317, et qui frappait des pièces d'argent de 20 et de 6 deniers.</p>
-         <p xml:id="para_13_355_163">Les archives de Sienne et de Florence sont riches en documents relatifs aux mines du pays de Massa. On y voit des contrats d'ac¬quisition par cette ville de gîtes de plomb, de cuivre et d'ar¬gent, situés dans son territoire et cédés par des particuliers à la commune. On trouve surtout à la bibliothèque des fiai, à Flo¬rence, le manuscrit des lois de la cité de Massa (tauta t ordina¬ta civiis fass), dont le quatrième chapitre est un code de mines complet. Bien que le manuscrit porte la date de 1325, quel¬ques auteurs pensent que ce code, au moins pour quelques-unes de ses dispositions, remonte au milieu du xI siècle. Il renferme 86 articles écrits dans le latin de l'époque ; il réglemente dans les <pb facs="#facs_359" n="356" source="lesouvriersdesde04sociuoft_0362.xml"/> plus grands détails les exploitations minérales, et institue des fonctionnaires de divers ordres chargés de veiller à l'exécution de la loi<note type="bp"><p>D'après la loi de Massa, le premier occupant est le propriétaire de la mine. Tout endroit sur lequel aucune fouille n'est encore ouverte est concédé à celui qui l'a, pendant trois jours consécutifs, marqué d'une croix; mais les travaux d'exploration doivent commencer aussitôt, et ils ne doivent jamais rester plus d'un mois et trois jours en chômage, à peine de déchéance. — On pouvait ouvrir une mine, dans le territoire de Massa, à 12 ou 15 pas (21m60 ou 27m00) d'une exploitation voisine, suivant que les puits laissaient entre eux des distances respeclives de 10 ou 12 pas (18m 00 ou 21m 6O), ou que les galeries intérieures s'étendaient à cette distance. — Dans la loi de Massa, il n'est jamais question de redevances à payer aux propriétaires du sol ni à la commune, et comme il n'est jamais question non plus de la durée des concessions, il est probable qu'elles étaient faites à perpétuité. (Annales des mines, 5e série, tome XV.)</p></note>.</p>
-         <p xml:id="para_13_356_165">Après les mines de Massa, il faut citer :</p>
-         <p xml:id="para_13_356_166">Les gites argentifères de Montieri. Ces gites furent attaqués par les Etrusques, firent au milieu du xᵉ siècle la fortune de la répu¬blique de Sienne, et passèrent ensuite aux mains des évêques de Volterra, qui battaient monnaie avec l'argent de cette provenance ;</p>
-         <p xml:id="para_13_356_167">Les mines de cuivre de Campiglia, exploitées en grand par les Étrusques, comme l'attestent de profondes excavations et d'im¬menses dépôts de scories ;</p>
-         <p xml:id="para_13_356_168">Les filons cuivreux de Monte-Catini, près Volterra, et de Rocca¬Tederighi, attaqués également par les Étrusques ; ceux de Rocca¬Strada, dont les travaux remontent à l'année 1300.</p>
-         <p xml:id="para_13_356_169">Après avoir présenté une activité remarquable, toutes ces mines furent délaissées vers le milieu du xvᵉ siècle. Les principales causes de cet abandon, indiquées par M. Ulrich, directeur des mines de l'île d'Ebbe, et résumèes par M. Simonin dans les Aales des mines (5ᶠᵉ série, tome XIN), furent les suivantes :</p>
-         <p xml:id="para_13_356_170">1° Les guerres intestines. Ainsi Massa succomba, vers 1346, sous les coups répétés de la république de Sienne, et avec la chute de la liberté, qui entraina l'exil volontaire ou forcé des plus riches familles du pays, périt aussi l'industrie minérale ;</p>
-         <p xml:id="para_13_356_171">2° Les courses d'aventuriers ravageant les campagnes, et offrant aux ouvriers mineurs qui venaient se mettre à la solde des condot¬tieri, un gain plus élevé et une occupation plus attrayante ;</p>
-         <p xml:id="para_13_356_172">3° La famine et les pestes, notamment celle de 1348 décrite par Boccace, qui achevèrent d'enlever au travail des mines le peu de bras restés disponibles ;</p>
-         <p xml:id="para_13_356_173">4° Un abaissement considérable dans le prix des métaux, proba¬blement par la cessation des croisades et aussi par suite de l'exten¬sion que prirent à cette époque les mines allemandes ;</p>
-         <p xml:id="para_13_356_174">5° Le taux élevé de l'intérêt de l'argent, qui se pretait alors à Florence et à Sienne à 25 et même à 30 p. 100;</p>
-         <p xml:id="para_13_357_175"><pb facs="#facs_360" n="357" source="lesouvriersdesde04sociuoft_0363.xml"/> 6° Des crises financières, qui entraînèrent dans des faillites suc¬cessives de près de 100 millions de notre monnaie actuelle les plus riches banquiers de Florence.</p>
-         <p xml:id="para_13_357_176">De toutes les mines précitées qui furent aurefois si productives, très-peu sont actuellement en exploitation, et on ne peut guère citer que celles de Monte-Catini, qui présentent une véritable pros¬Mais de nouveaux gites sont actiyement attaqués autour de Massa : ainsi les mines de cuivre des Caponne-Vecchi et de Valcas¬trucci ; les mines de plomb argentifère de Castellaccia exploitées par la Sociéé Meallo-Tecnica ; les mines de charbon de Monte¬Bamboli et de Monte-Massi.</p>
-         <p xml:id="para_13_357_177">Quand l'espnrit d'association aura pénétré davantage au sein des populations de la 'Toscane, quand les capitalistes de ce pays con¬sentiront à s'imposer des sacrifices en vue de résultats non immé¬diats, enfin quand la tranquillité publique sera devenue sàble, il est probable que tant de richesses minérales ne resteront pas en¬fouies dans le sol de la Maremme.</p>
+         <head type="sub_sub_section" xml:id="part_03_01_17">
+          (A) SUR LES RICIHESSES MINERALES DE LA MAEMIME DE TOSCANE.
+         </head>
+         <p xml:id="para_13_355_159">
+          <pb facs="#facs_358" n="355" source="lesouvriersdesde04sociuoft_0361.xml"/> L'auteur n'a pas pour but d'énumérer toutes les mines exploitées ou découvertes dans la Maremme tant par les trusques et les lomains qu'au moyen âge et de nos jours. Sans entrer dans les détails d'une description qui a été faite ailleurs, il se propose seu¬lement d'indiquer les principaux gites du pays.
+         </p>
+         <p xml:id="para_13_355_160">
+          On doit citer d'abord Massa Marittima, dont les mines de fer, de cuivre et de plomb argentifère furent excavecs par les ́trusques et qui devint, au XIIIe et au XIVe siècle, le centre des exploitaions de la Maremme. Ceue ville portait alors le nom de Allassa metallou, et renfermait près de 20,000 habitans.
+         </p>
+         <p xml:id="para_13_355_161">
+          Le cuivre portant la marque de lMassa était recherché comme un des meilleurs en Flandre, sur le marché de bruges. Les mines de plomb argentifère, dont les principales étaient à Montieri, près Massa, fournirent jusqu'au xv siècle aux villes d'Italie, telles que Florence, Sienne et olterra, la majeure partie de l'argent destiné au monnayage.
+         </p>
+         <p xml:id="para_13_355_162">
+          Massa eut aussi son hôtel des monnaies (aecc), qui fut établi par decret du 11 avril 1317, et qui frappait des pièces d'argent de 20 et de 6 deniers.
+         </p>
+         <p xml:id="para_13_355_163">
+          Les archives de Sienne et de Florence sont riches en documents relatifs aux mines du pays de Massa. On y voit des contrats d'ac¬quisition par cette ville de gîtes de plomb, de cuivre et d'ar¬gent, situés dans son territoire et cédés par des particuliers à la commune. On trouve surtout à la bibliothèque des fiai, à Flo¬rence, le manuscrit des lois de la cité de Massa (tauta t ordina¬ta civiis fass), dont le quatrième chapitre est un code de mines complet. Bien que le manuscrit porte la date de 1325, quel¬ques auteurs pensent que ce code, au moins pour quelques-unes de ses dispositions, remonte au milieu du xI siècle. Il renferme 86 articles écrits dans le latin de l'époque ; il réglemente dans les <pb facs="#facs_359" n="356" source="lesouvriersdesde04sociuoft_0362.xml"/> plus grands détails les exploitations minérales, et institue des fonctionnaires de divers ordres chargés de veiller à l'exécution de la loi
+          <note type="bp"><p>
+           D'après la loi de Massa, le premier occupant est le propriétaire de la mine. Tout endroit sur lequel aucune fouille n'est encore ouverte est concédé à celui qui l'a, pendant trois jours consécutifs, marqué d'une croix; mais les travaux d'exploration doivent commencer aussitôt, et ils ne doivent jamais rester plus d'un mois et trois jours en chômage, à peine de déchéance. — On pouvait ouvrir une mine, dans le territoire de Massa, à 12 ou 15 pas (21m60 ou 27m00) d'une exploitation voisine, suivant que les puits laissaient entre eux des distances respeclives de 10 ou 12 pas (18m 00 ou 21m 6O), ou que les galeries intérieures s'étendaient à cette distance. — Dans la loi de Massa, il n'est jamais question de redevances à payer aux propriétaires du sol ni à la commune, et comme il n'est jamais question non plus de la durée des concessions, il est probable qu'elles étaient faites à perpétuité. (Annales des mines, 5e série, tome XV.)
+          </p></note>
+          .
+         </p>
+         <p xml:id="para_13_356_165">
+          Après les mines de Massa, il faut citer :
+         </p>
+         <p xml:id="para_13_356_166">
+          Les gites argentifères de Montieri. Ces gites furent attaqués par les Etrusques, firent au milieu du xᵉ siècle la fortune de la répu¬blique de Sienne, et passèrent ensuite aux mains des évêques de Volterra, qui battaient monnaie avec l'argent de cette provenance ;
+         </p>
+         <p xml:id="para_13_356_167">
+          Les mines de cuivre de Campiglia, exploitées en grand par les Étrusques, comme l'attestent de profondes excavations et d'im¬menses dépôts de scories ;
+         </p>
+         <p xml:id="para_13_356_168">
+          Les filons cuivreux de Monte-Catini, près Volterra, et de Rocca¬Tederighi, attaqués également par les Étrusques ; ceux de Rocca¬Strada, dont les travaux remontent à l'année 1300.
+         </p>
+         <p xml:id="para_13_356_169">
+          Après avoir présenté une activité remarquable, toutes ces mines furent délaissées vers le milieu du xvᵉ siècle. Les principales causes de cet abandon, indiquées par M. Ulrich, directeur des mines de l'île d'Ebbe, et résumèes par M. Simonin dans les Aales des mines (5ᶠᵉ série, tome XIN), furent les suivantes :
+         </p>
+         <p xml:id="para_13_356_170">
+          1° Les guerres intestines. Ainsi Massa succomba, vers 1346, sous les coups répétés de la république de Sienne, et avec la chute de la liberté, qui entraina l'exil volontaire ou forcé des plus riches familles du pays, périt aussi l'industrie minérale ;
+         </p>
+         <p xml:id="para_13_356_171">
+          2° Les courses d'aventuriers ravageant les campagnes, et offrant aux ouvriers mineurs qui venaient se mettre à la solde des condot¬tieri, un gain plus élevé et une occupation plus attrayante ;
+         </p>
+         <p xml:id="para_13_356_172">
+          3° La famine et les pestes, notamment celle de 1348 décrite par Boccace, qui achevèrent d'enlever au travail des mines le peu de bras restés disponibles ;
+         </p>
+         <p xml:id="para_13_356_173">
+          4° Un abaissement considérable dans le prix des métaux, proba¬blement par la cessation des croisades et aussi par suite de l'exten¬sion que prirent à cette époque les mines allemandes ;
+         </p>
+         <p xml:id="para_13_356_174">
+          5° Le taux élevé de l'intérêt de l'argent, qui se pretait alors à Florence et à Sienne à 25 et même à 30 p. 100;
+         </p>
+         <p xml:id="para_13_357_175">
+          <pb facs="#facs_360" n="357" source="lesouvriersdesde04sociuoft_0363.xml"/> 6° Des crises financières, qui entraînèrent dans des faillites suc¬cessives de près de 100 millions de notre monnaie actuelle les plus riches banquiers de Florence.
+         </p>
+         <p xml:id="para_13_357_176">
+          De toutes les mines précitées qui furent aurefois si productives, très-peu sont actuellement en exploitation, et on ne peut guère citer que celles de Monte-Catini, qui présentent une véritable pros¬Mais de nouveaux gites sont actiyement attaqués autour de Massa : ainsi les mines de cuivre des Caponne-Vecchi et de Valcas¬trucci ; les mines de plomb argentifère de Castellaccia exploitées par la Sociéé Meallo-Tecnica ; les mines de charbon de Monte¬Bamboli et de Monte-Massi.
+         </p>
+         <p xml:id="para_13_357_177">
+          Quand l'espnrit d'association aura pénétré davantage au sein des populations de la 'Toscane, quand les capitalistes de ce pays con¬sentiront à s'imposer des sacrifices en vue de résultats non immé¬diats, enfin quand la tranquillité publique sera devenue sàble, il est probable que tant de richesses minérales ne resteront pas en¬fouies dans le sol de la Maremme.
+         </p>
         </div>
         <div n="002" type="sub_sub_section">
-         <head type="sub_sub_section" xml:id="part_03_01_18">(B) SUR LA PROPRIÉTÉ DES MINES EN TOSCANE.</head>
-         <p xml:id="para_13_357_179">En vertu de la loi déjà citée (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>), tout citoyen pouvait, avec la simple autorisation du capitaine du peuple, entreprendre des tra¬vaux de recherche et d'exploitation de mines sur le territoire de Massa, sau indemnité ou réparation des dommages causés aux propriétaires de la surface. Cete loi est tombée en désuétude au xvᵉ siècle, après l'abandon des mines et l'adjonction de Massa à la république de Sienne, et elle n'est plus aujourd'hui qu'un do¬cument historique.</p>
-         <p xml:id="para_13_357_180">Dans la coutume actuelle de Toscane, le propriétaire de la su¬perficie dispose du tréfonds à son gré et au mieux de ses intérêts. Ses droits ont été consacrés par le grand-duc Pierre Léopold qui, en prenant possession de son gouvernement, promulgua, le 13 mai 1788, le statut suivant :</p>
-         <p xml:id="para_13_357_181">Voulant étendre autant qu'il est compatible avec l'administra¬tion publique les droits de la propriété du sol, et en même temps l'industrie de nos sujets bien aimés, qui, par diverses lois et divers règlements, sont restés soumis au droit régalien et à diverses rede<pb facs="#facs_361" n="358" source="lesouvriersdesde04sociuoft_0364.xml"/>vances en faveur de la couronne, ordonnons que toute espèce de droits sur mines, métaux, gemmes, etc., soient et demeurent abrogés.</p>
-         <p xml:id="para_13_358_183">Plus tard le même duc Léopold, devenu empereur d'Allemagne, déclare que les dispositions qu'il avait sanctionnées à l'effet de rendre libre l'industrie de ses sujets, non moins que pour restituer aux propriétaires du sol les droits dont ils avaient été frustrés à diverses époques par les lois et décrets alors en vigueur,  sont à tout jamais maintenues.</p>
-         <p xml:id="para_13_358_184">La question de la propriété des mines s'agite depuis quelques années entre les partisans des droits du propriétaire et de la liberté de l'industrie, d'une part, et ceux du droit régalien et de la régle¬mentation par l'État, d'autre part.</p>
-         <p xml:id="para_13_358_185">Plusieurs brochures ont été écrites sur cette matière par des hommes spéciaux ; la Société des Georgofili de Florence a publié dans le tome NXV de ses Aces (année 1847) les motifs invoqués des deux côtés, et quelques-uns des hommes d'État actuels de 'talie se sont trouvés melés à cette discussion.</p>
-         <p xml:id="para_13_358_186">Enfin, un projet de loi a été présenté au Parlement, dans la séance du 18 novembre 1862, au nom du ministre de l'agriculture, de l'industrie et du commerce<note type="bp"><p>M. Petitgand, ingénieur des mines, membre de la Société d'économie sociale, a bien voulu se charger de la traduction de ce projet de loi.</p></note>.</p>
-         <p xml:id="para_13_358_187">L'exposé des motifs examine la valeur des théories diverses émises sur la propriété des mines, et le mérite des législations existantes ; après avoir discuté leurs avantages et leurs inconvé¬nients, il conclut, conformément à ce qui se pratique depuis long¬temps en Angleterre et en Toscane, que les détenteurs du sol doivent être aussi considérés comme propriétaires des substances minérales, quelle que soit la profondeur à laquelle on les rencontre : prineipe qui est d'ailleurs dans l'esprit des populations italiennes.</p>
-         <p xml:id="para_13_358_188">Le rapporteur ne se dissimule pas que les prétentions de pro¬priétaires, incapables d'exploiter par eux-mêmes, ou guidés par un intérêt mal entendu, peuvent dans certains cas nuire au sort des entreprises et empêcher les progrès de l'art minéral. Mais comme toutes les industries, abandonnées à leurs propres lorces, inissent par triompher des plus grauds obstacles, le rapporteur ala certitude que la nécessité, maîtresse sévère, renversera en peu de tenmps ceux qui séléveraient à l'encontre de l'industrie minérale, et que. libre dans son essor, celle-ci s'exercera comme les autres dans le cercle des conditions économiques qui régissent le pays. Dix écoles spéciales, créées dans les centres métallurgiques, aideront au sur¬plus à y faire pénétrer les vras principes du progrès.</p>
-         <p xml:id="para_13_359_189"><pb facs="#facs_362" n="359" source="lesouvriersdesde04sociuoft_0365.xml"/> Par ces motifs, le projet de loi admet le principe de la propriété conjointe du sol et du sous-sol. L'intervention du gouvernement est limitée à une surveillance tutélaire, au double point de vue de la sécurité et de la salubrité. Simple et claire, dit le rapporteur, cette loi a par-dessus tout le mérite de simplifier le mécanisme ad¬ministratif et de rendre moins nécessaire l'ingérence de l'État.</p>
-         <p xml:id="para_13_359_190">Ce projet se divise en quatre titres :</p>
-         <p xml:id="para_13_359_191">Le titre Iᵉʳ définit en peu de mots la propriété des mines. Le pro¬priétaire d'un fonds est considéré comme le propriétaire naturel des substances qui se rencontrent à quelque profondeur que ce soit ; il peut les extraire librement à son profit ou les laisser extraire par d'autres avec son consentement, à la condition d'observer les pres¬criptions établies par cette loi et sans préjudice aux dispositions concernant l'expropriation forcée pour cause d'utilité publique.</p>
-         <p xml:id="para_13_359_192">Le titre lI expose et définit l'objet du service administratif en ce qui concerne la sécurité et la salubrité des mines. Ce service s'exerce par le ministre, au moyen d'un conseil des mines et d'un corps d'ingénieurs. On s'attend à ce que ce contr̂le de l'́tat, bien que très-borné, rencontre au sein du Parlement une vive oppo¬sition. On parait vouloir en Toscane la plus grande liberté dans Tindustrie privée.</p>
-         <p xml:id="para_13_359_193">Le titre II renferme les dispositions d'ordre public concernant l'industrie minérale: il indique les pénalités quirseront encourues pour négligence des soins commandés par la sûreté et la santé des travailleurs. C'est dans ce titre que se trouve cette disposition nou¬velle et remarquable de l'expropriation pour cause d'uilité pu¬blique, par laquelle le projet de loi cherche à concilier les droits des détenteurs du sol avec les intérêts de l'industrie. Cette expro¬priation ne pourra être accordée que dans des cas extrêmement rares et parfaitement définis, de manière à ne pas rendre illusoire, par l'intervention du gouvernement, le principe que consacre le tire ᵉʳ. Pourront être déclarés d'utilité publique les ouvrages à entreprendre sous le terrain d'autrui pour l'écoulement des eaux des mines, le transport des substances extraites, la ventilation des travaux souterrains, la conservation et la bonne exploitation des richesses minérales.</p>
-         <p xml:id="para_13_359_194">Le titre l contient des dispositions transitoires pour le maintien des droits acquis antérieurement à la loi. Il stipule que les taxes sur l'industrie minérale seront établies sur des bases uniformes pour tout le royaume.</p>
-         <p xml:id="para_13_359_195">Le rapporteur fait observer, en terminant, qu'une commission nommée par le ministère précédent s'était prononcée pour le prin¬cipe opposé au droit absolu du propriétaire. Les substances miné<pb facs="#facs_363" n="360" source="lesouvriersdesde04sociuoft_0366.xml"/>rales considérées comme res nullas devaient être concédées par le gouvernement, sous la réserve cependant d'accorder la préférence au propriétaire du sol. Si le ministère actuel n'a pas admis cette manière de voir, c'est qu'il lui a paru que cette réserve était en opposition avec les vrais principes, et que l'intervention de l'admi¬nistration ne pouvait qu'entraver l'industrie minérale.</p>
+         <head type="sub_sub_section" xml:id="part_03_01_18">
+          (B) SUR LA PROPRIÉTÉ DES MINES EN TOSCANE.
+         </head>
+         <p xml:id="para_13_357_179">
+          En vertu de la loi déjà citée
+          <ref target="#part_03_01_17" type="renvoi_int_mono">
+           (A)
+          </ref>
+          , tout citoyen pouvait, avec la simple autorisation du capitaine du peuple, entreprendre des tra¬vaux de recherche et d'exploitation de mines sur le territoire de Massa, sau indemnité ou réparation des dommages causés aux propriétaires de la surface. Cete loi est tombée en désuétude au xvᵉ siècle, après l'abandon des mines et l'adjonction de Massa à la république de Sienne, et elle n'est plus aujourd'hui qu'un do¬cument historique.
+         </p>
+         <p xml:id="para_13_357_180">
+          Dans la coutume actuelle de Toscane, le propriétaire de la su¬perficie dispose du tréfonds à son gré et au mieux de ses intérêts. Ses droits ont été consacrés par le grand-duc Pierre Léopold qui, en prenant possession de son gouvernement, promulgua, le 13 mai 1788, le statut suivant :
+         </p>
+         <p xml:id="para_13_357_181">
+          Voulant étendre autant qu'il est compatible avec l'administra¬tion publique les droits de la propriété du sol, et en même temps l'industrie de nos sujets bien aimés, qui, par diverses lois et divers règlements, sont restés soumis au droit régalien et à diverses rede<pb facs="#facs_361" n="358" source="lesouvriersdesde04sociuoft_0364.xml"/>vances en faveur de la couronne, ordonnons que toute espèce de droits sur mines, métaux, gemmes, etc., soient et demeurent abrogés.
+         </p>
+         <p xml:id="para_13_358_183">
+          Plus tard le même duc Léopold, devenu empereur d'Allemagne, déclare que les dispositions qu'il avait sanctionnées à l'effet de rendre libre l'industrie de ses sujets, non moins que pour restituer aux propriétaires du sol les droits dont ils avaient été frustrés à diverses époques par les lois et décrets alors en vigueur,  sont à tout jamais maintenues.
+         </p>
+         <p xml:id="para_13_358_184">
+          La question de la propriété des mines s'agite depuis quelques années entre les partisans des droits du propriétaire et de la liberté de l'industrie, d'une part, et ceux du droit régalien et de la régle¬mentation par l'État, d'autre part.
+         </p>
+         <p xml:id="para_13_358_185">
+          Plusieurs brochures ont été écrites sur cette matière par des hommes spéciaux ; la Société des Georgofili de Florence a publié dans le tome NXV de ses Aces (année 1847) les motifs invoqués des deux côtés, et quelques-uns des hommes d'État actuels de 'talie se sont trouvés melés à cette discussion.
+         </p>
+         <p xml:id="para_13_358_186">
+          Enfin, un projet de loi a été présenté au Parlement, dans la séance du 18 novembre 1862, au nom du ministre de l'agriculture, de l'industrie et du commerce
+          <note type="bp"><p>
+           M. Petitgand, ingénieur des mines, membre de la Société d'économie sociale, a bien voulu se charger de la traduction de ce projet de loi.
+          </p></note>
+          .
+         </p>
+         <p xml:id="para_13_358_187">
+          L'exposé des motifs examine la valeur des théories diverses émises sur la propriété des mines, et le mérite des législations existantes ; après avoir discuté leurs avantages et leurs inconvé¬nients, il conclut, conformément à ce qui se pratique depuis long¬temps en Angleterre et en Toscane, que les détenteurs du sol doivent être aussi considérés comme propriétaires des substances minérales, quelle que soit la profondeur à laquelle on les rencontre : prineipe qui est d'ailleurs dans l'esprit des populations italiennes.
+         </p>
+         <p xml:id="para_13_358_188">
+          Le rapporteur ne se dissimule pas que les prétentions de pro¬priétaires, incapables d'exploiter par eux-mêmes, ou guidés par un intérêt mal entendu, peuvent dans certains cas nuire au sort des entreprises et empêcher les progrès de l'art minéral. Mais comme toutes les industries, abandonnées à leurs propres lorces, inissent par triompher des plus grauds obstacles, le rapporteur ala certitude que la nécessité, maîtresse sévère, renversera en peu de tenmps ceux qui séléveraient à l'encontre de l'industrie minérale, et que. libre dans son essor, celle-ci s'exercera comme les autres dans le cercle des conditions économiques qui régissent le pays. Dix écoles spéciales, créées dans les centres métallurgiques, aideront au sur¬plus à y faire pénétrer les vras principes du progrès.
+         </p>
+         <p xml:id="para_13_359_189">
+          <pb facs="#facs_362" n="359" source="lesouvriersdesde04sociuoft_0365.xml"/> Par ces motifs, le projet de loi admet le principe de la propriété conjointe du sol et du sous-sol. L'intervention du gouvernement est limitée à une surveillance tutélaire, au double point de vue de la sécurité et de la salubrité. Simple et claire, dit le rapporteur, cette loi a par-dessus tout le mérite de simplifier le mécanisme ad¬ministratif et de rendre moins nécessaire l'ingérence de l'État.
+         </p>
+         <p xml:id="para_13_359_190">
+          Ce projet se divise en quatre titres :
+         </p>
+         <p xml:id="para_13_359_191">
+          Le titre Iᵉʳ définit en peu de mots la propriété des mines. Le pro¬priétaire d'un fonds est considéré comme le propriétaire naturel des substances qui se rencontrent à quelque profondeur que ce soit ; il peut les extraire librement à son profit ou les laisser extraire par d'autres avec son consentement, à la condition d'observer les pres¬criptions établies par cette loi et sans préjudice aux dispositions concernant l'expropriation forcée pour cause d'utilité publique.
+         </p>
+         <p xml:id="para_13_359_192">
+          Le titre lI expose et définit l'objet du service administratif en ce qui concerne la sécurité et la salubrité des mines. Ce service s'exerce par le ministre, au moyen d'un conseil des mines et d'un corps d'ingénieurs. On s'attend à ce que ce contr̂le de l'́tat, bien que très-borné, rencontre au sein du Parlement une vive oppo¬sition. On parait vouloir en Toscane la plus grande liberté dans Tindustrie privée.
+         </p>
+         <p xml:id="para_13_359_193">
+          Le titre II renferme les dispositions d'ordre public concernant l'industrie minérale: il indique les pénalités quirseront encourues pour négligence des soins commandés par la sûreté et la santé des travailleurs. C'est dans ce titre que se trouve cette disposition nou¬velle et remarquable de l'expropriation pour cause d'uilité pu¬blique, par laquelle le projet de loi cherche à concilier les droits des détenteurs du sol avec les intérêts de l'industrie. Cette expro¬priation ne pourra être accordée que dans des cas extrêmement rares et parfaitement définis, de manière à ne pas rendre illusoire, par l'intervention du gouvernement, le principe que consacre le tire ᵉʳ. Pourront être déclarés d'utilité publique les ouvrages à entreprendre sous le terrain d'autrui pour l'écoulement des eaux des mines, le transport des substances extraites, la ventilation des travaux souterrains, la conservation et la bonne exploitation des richesses minérales.
+         </p>
+         <p xml:id="para_13_359_194">
+          Le titre l contient des dispositions transitoires pour le maintien des droits acquis antérieurement à la loi. Il stipule que les taxes sur l'industrie minérale seront établies sur des bases uniformes pour tout le royaume.
+         </p>
+         <p xml:id="para_13_359_195">
+          Le rapporteur fait observer, en terminant, qu'une commission nommée par le ministère précédent s'était prononcée pour le prin¬cipe opposé au droit absolu du propriétaire. Les substances miné<pb facs="#facs_363" n="360" source="lesouvriersdesde04sociuoft_0366.xml"/>rales considérées comme res nullas devaient être concédées par le gouvernement, sous la réserve cependant d'accorder la préférence au propriétaire du sol. Si le ministère actuel n'a pas admis cette manière de voir, c'est qu'il lui a paru que cette réserve était en opposition avec les vrais principes, et que l'intervention de l'admi¬nistration ne pouvait qu'entraver l'industrie minérale.
+         </p>
         </div>
         <div n="003" type="sub_sub_section">
-         <head type="sub_sub_section" xml:id="part_03_01_19">(C) SUR L'NFLUENCE DU TÉATRE SUR LES POPULAIIONS OUVRIÈRES DE L'ITALIE.</head>
-         <p xml:id="para_13_360_198">Les jeux du Cirque et les représentations théâtrales ont été de tout temps la passion favorite du peuple italien. Aujourd'hui il n'est pas un opéra nouveau dont les airs les plus saillants ne de¬viennent immédiatement populaires : ils sont chantés dans toutes les classes de la société, et résonnent même au fond des mines, où il n'est pas rare d'entendre des morceaux de la rviata, du ˉTro¬atore ou de lligoletto.</p>
-         <p xml:id="para_13_360_199">Ce goût des Italiens est favorisé par le grand nombre de leurs théâres : chaque petite localité a le sien qui s'ouvre une ou deux fois par an, et où des représentations sont données soit par des troupes ambulantes, soit par des amateurs.</p>
-         <p xml:id="para_13_360_200">Le bas prix des places permet à toutes les classes de la société d'assister à ces spectacles (<ref target="#part_02_03_11" type="renvoi_int_mono">§ 11</ref>), qui vulgearisent beaucoup le sen¬timent de la musique. Le parterre (platea) ne coûte que 0ᶠ28; les stalles d'orchestre (posti distiut), peu nombreuses d'ailleurs, coû¬tent le triple, et les loges se payent suivant des arrangements faits avec le directeur de la troupe (resario).</p>
-         <p xml:id="para_13_360_201">Cette difusion des airs de théâtre exerce une heureuse influence sur les mœurs du peuple qui, même dans sa gaieté, conserve ou¬jours une certaine retenue, et remplace les chants grossiers et sou¬vent obscènes, si répandus ailleurs, par des chansons à boire ou des couplets tirés des opéras les plus en vogue (<ref target="#ID-033a" type="renvoi_int_od2m">N° 33, § 11</ref>).</p>
+         <head type="sub_sub_section" xml:id="part_03_01_19">
+          (C) SUR L'NFLUENCE DU TÉATRE SUR LES POPULAIIONS OUVRIÈRES DE L'ITALIE.
+         </head>
+         <p xml:id="para_13_360_198">
+          Les jeux du Cirque et les représentations théâtrales ont été de tout temps la passion favorite du peuple italien. Aujourd'hui il n'est pas un opéra nouveau dont les airs les plus saillants ne de¬viennent immédiatement populaires : ils sont chantés dans toutes les classes de la société, et résonnent même au fond des mines, où il n'est pas rare d'entendre des morceaux de la rviata, du ˉTro¬atore ou de lligoletto.
+         </p>
+         <p xml:id="para_13_360_199">
+          Ce goût des Italiens est favorisé par le grand nombre de leurs théâres : chaque petite localité a le sien qui s'ouvre une ou deux fois par an, et où des représentations sont données soit par des troupes ambulantes, soit par des amateurs.
+         </p>
+         <p xml:id="para_13_360_200">
+          Le bas prix des places permet à toutes les classes de la société d'assister à ces spectacles
+          <ref target="#part_02_03_11" type="renvoi_int_mono">
+           (§ 11)
+          </ref>
+          , qui vulgearisent beaucoup le sen¬timent de la musique. Le parterre (platea) ne coûte que 0ᶠ28; les stalles d'orchestre (posti distiut), peu nombreuses d'ailleurs, coû¬tent le triple, et les loges se payent suivant des arrangements faits avec le directeur de la troupe (resario).
+         </p>
+         <p xml:id="para_13_360_201">
+          Cette difusion des airs de théâtre exerce une heureuse influence sur les mœurs du peuple qui, même dans sa gaieté, conserve ou¬jours une certaine retenue, et remplace les chants grossiers et sou¬vent obscènes, si répandus ailleurs, par des chansons à boire ou des couplets tirés des opéras les plus en vogue
+          <ref target="#ID-033a" type="renvoi_int_od2m">
+           (N° 33, § 11)
+          </ref>
+          .
+         </p>
         </div>
         <div n="004" type="sub_sub_section">
-         <head type="sub_sub_section" xml:id="part_03_01_20">(D) SUR L'ORGANISATION D'UNE COMMUNE ITOSCANE.</head>
-         <p xml:id="para_13_360_203">La commune de Massa Marittima n'a plus aujourd'hui l'indépen¬dance qu'elle possédait au moyen âge. Elle ressemble, par son or<pb facs="#facs_364" n="361" source="lesouvriersdesde04sociuoft_0367.xml"/>ganisation, à toutes les autres communes de la Toscane, et com¬prand, comme celles-ci, plusieurs villages ayant ensemble une population de 8,000 a 10,000 habitants. Elle est administrée par un conseil municipal (municipio), composé d'un président (gonfa¬loniere), de cinq assesseurs (priori), de simples conseillers (consi¬glieri) et d'un secrétaire (segretario).</p>
-         <p xml:id="para_13_361_205">Toutes ces fonctions, à l'exception de la dernière, sont gratuites. Elles sont, en outre, obligatoires : on ne peut y renoncer qu'en payant une amende de 100 lires toscanes (84 francs) ; cette amende ne se paye qu'une fois.</p>
-         <p xml:id="para_13_361_206">Les conseillers sont élus par tous les Italiens ou étrangers natu¬ralisés qui payent la taxe foncière. Ils sont renouvelés par moiié tous les ans, sont rééligibles, mais peuvent cette fois refuser d'ac¬cepter leur nouveau mandat.</p>
-         <p xml:id="para_13_361_207">Les gonfalonieri recoivent les ordres d'un préfet, qui correspond lui-même avec le ministre de l'intérieur.</p>
-         <p xml:id="para_13_361_208">Les impôts de la commune sont encore, sauf le décime de guerre, ce qu'ils étaient avant l'annexion de la Toscane au royaume d'alie. Ils comprennent : 1° la contribution foncière (tassa pre¬diale), assise, d'après le cadastre, sur les propriétés territoriales et proportionnelle à leur rente présumée ; 2° la contribution mobilière (tassa di famiglia), qui frappe les chefs de famille et est basée sur les revenus qu'on leur suppose et sur le nombre de personnes qu'ils entretiennent. La répartition de cette taxe est faite chaque année par une commission choisie, dans son sein, par le conseil munici¬pal ; on peut appeler de ses décisions devant ce conseil lui-même, qui juge en dernier ressort.</p>
-         <p xml:id="para_13_361_209">La levée de toutes les contributions est faite par la commune, qui verse elle-même au trésor public la somme dont elle est im¬</p>
-         <p xml:id="para_13_361_210">La justice de paix est administrée par un préteur (pretore), dont la juridiction (mandamento) s'étend sur une ou deux communes et dont la compétence comprend les affaires de simple police et de police correctionnelle. Il y a dans les centres de population un de¬ˉlegt du gouvernement, qui a dans ses attributions la police civile et politique, et qui remplit auprès du préteur les fonctions d'accu¬sateur public. Cne delégtion comprend ordinairement deux ou trois circonscriptions de justice de paix. Le délégat correspond avec le procureur du roi et avec le préfet et peut requérir la force publique.</p>
-         <p xml:id="para_13_361_211">Les ministres locaux du culte catholique sont : 1ᵉ°le doyen (pro¬posto), qui correspond avec l'évêque et avec les curés : 2° les curés des différentes paroisses, appelés piovanni dans toute la Tos<pb facs="#facs_365" n="362" source="lesouvriersdesde04sociuoft_0368.xml"/>cane, sauf dans les Alpes Apuanes, ou ils portent le nom de rcttori; 3° les vicaires (cpellani), qui, dans les communes peuplées, assis¬tent les curés et qui desservent les chapelles publiques et particu¬lières.</p>
-         <p xml:id="para_13_362_213">Tous les ministres du culte sont, en Toscane, rétribués à l'aide des revenus des biens de l'Eglise, dont ils sont eux-mêmes les ad¬ministrateurs. Comme en ngleterre aujourd'hui, comme en France au dernier siècle, il en résulte dans les honoraires de ces ministres une grande inégalité, qui apparait d'une manière encore plus sen¬sible quand on compare entre eux les membres du haut et du bas clergé. Depuis l'annexion de la Toscane au royaume d'Italie, le nouveau gouvernement, sans rien changer à cet état de choses, ac¬corde un supplément d'honoraires aux prêtres dont le revenu an¬nuel est inférieur à 800 francs.</p>
-         <p xml:id="para_13_362_214">Les églises sont entretenues avec les rentes des biens ecclésias¬tiques affectés à cet usage, et au moyen des dons des fidèles.</p>
+         <head type="sub_sub_section" xml:id="part_03_01_20">
+          (D) SUR L'ORGANISATION D'UNE COMMUNE ITOSCANE.
+         </head>
+         <p xml:id="para_13_360_203">
+          La commune de Massa Marittima n'a plus aujourd'hui l'indépen¬dance qu'elle possédait au moyen âge. Elle ressemble, par son or<pb facs="#facs_364" n="361" source="lesouvriersdesde04sociuoft_0367.xml"/>ganisation, à toutes les autres communes de la Toscane, et com¬prand, comme celles-ci, plusieurs villages ayant ensemble une population de 8,000 a 10,000 habitants. Elle est administrée par un conseil municipal (municipio), composé d'un président (gonfa¬loniere), de cinq assesseurs (priori), de simples conseillers (consi¬glieri) et d'un secrétaire (segretario).
+         </p>
+         <p xml:id="para_13_361_205">
+          Toutes ces fonctions, à l'exception de la dernière, sont gratuites. Elles sont, en outre, obligatoires : on ne peut y renoncer qu'en payant une amende de 100 lires toscanes (84 francs) ; cette amende ne se paye qu'une fois.
+         </p>
+         <p xml:id="para_13_361_206">
+          Les conseillers sont élus par tous les Italiens ou étrangers natu¬ralisés qui payent la taxe foncière. Ils sont renouvelés par moiié tous les ans, sont rééligibles, mais peuvent cette fois refuser d'ac¬cepter leur nouveau mandat.
+         </p>
+         <p xml:id="para_13_361_207">
+          Les gonfalonieri recoivent les ordres d'un préfet, qui correspond lui-même avec le ministre de l'intérieur.
+         </p>
+         <p xml:id="para_13_361_208">
+          Les impôts de la commune sont encore, sauf le décime de guerre, ce qu'ils étaient avant l'annexion de la Toscane au royaume d'alie. Ils comprennent : 1° la contribution foncière (tassa pre¬diale), assise, d'après le cadastre, sur les propriétés territoriales et proportionnelle à leur rente présumée ; 2° la contribution mobilière (tassa di famiglia), qui frappe les chefs de famille et est basée sur les revenus qu'on leur suppose et sur le nombre de personnes qu'ils entretiennent. La répartition de cette taxe est faite chaque année par une commission choisie, dans son sein, par le conseil munici¬pal ; on peut appeler de ses décisions devant ce conseil lui-même, qui juge en dernier ressort.
+         </p>
+         <p xml:id="para_13_361_209">
+          La levée de toutes les contributions est faite par la commune, qui verse elle-même au trésor public la somme dont elle est im¬
+         </p>
+         <p xml:id="para_13_361_210">
+          La justice de paix est administrée par un préteur (pretore), dont la juridiction (mandamento) s'étend sur une ou deux communes et dont la compétence comprend les affaires de simple police et de police correctionnelle. Il y a dans les centres de population un de¬ˉlegt du gouvernement, qui a dans ses attributions la police civile et politique, et qui remplit auprès du préteur les fonctions d'accu¬sateur public. Cne delégtion comprend ordinairement deux ou trois circonscriptions de justice de paix. Le délégat correspond avec le procureur du roi et avec le préfet et peut requérir la force publique.
+         </p>
+         <p xml:id="para_13_361_211">
+          Les ministres locaux du culte catholique sont : 1ᵉ°le doyen (pro¬posto), qui correspond avec l'évêque et avec les curés : 2° les curés des différentes paroisses, appelés piovanni dans toute la Tos<pb facs="#facs_365" n="362" source="lesouvriersdesde04sociuoft_0368.xml"/>cane, sauf dans les Alpes Apuanes, ou ils portent le nom de rcttori; 3° les vicaires (cpellani), qui, dans les communes peuplées, assis¬tent les curés et qui desservent les chapelles publiques et particu¬lières.
+         </p>
+         <p xml:id="para_13_362_213">
+          Tous les ministres du culte sont, en Toscane, rétribués à l'aide des revenus des biens de l'Eglise, dont ils sont eux-mêmes les ad¬ministrateurs. Comme en ngleterre aujourd'hui, comme en France au dernier siècle, il en résulte dans les honoraires de ces ministres une grande inégalité, qui apparait d'une manière encore plus sen¬sible quand on compare entre eux les membres du haut et du bas clergé. Depuis l'annexion de la Toscane au royaume d'Italie, le nouveau gouvernement, sans rien changer à cet état de choses, ac¬corde un supplément d'honoraires aux prêtres dont le revenu an¬nuel est inférieur à 800 francs.
+         </p>
+         <p xml:id="para_13_362_214">
+          Les églises sont entretenues avec les rentes des biens ecclésias¬tiques affectés à cet usage, et au moyen des dons des fidèles.
+         </p>
         </div>
        </div>
       </div>
