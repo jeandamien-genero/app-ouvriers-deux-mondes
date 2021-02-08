@@ -8,16 +8,18 @@ date = 2020-12-15
 """
 
 # libraries
-import csv
 import os
+import re
 from bs4 import BeautifulSoup
-from flask import render_template, request
+from flask import Flask, render_template, request
 from lxml import etree
 
 
 # imports
 from .app import app
 from .clear_xml import clear_file
+from .constantes import get_section, get_section2, get_txt_from_section, filenames, proprietes_sections,inventories_dict, travaux_sections, industries_sections, par_10_sections, csv_dict
+# from.constantes import inventories_dict
 
 
 # functions
@@ -113,20 +115,58 @@ def txt_mono(mono_id):
 
 @app.route("/search")
 def search():
-    # all_sections = {"Propriétés": "1", "Travaux": "2", "Industries": "3", "Habitation, mobilier et vêtement": "4"}
-    all_sections = ["Propriétés", "Travaux", "Industries", "Habitation, mobilier et vêtement"]
-    all_subtypes = get_subtypes(get_filenames())
-    number = -1
-    subdict = {}
-    for sublist in all_subtypes:
-        number += 1
-        for subtype in sublist:
-            subdict[subtype] = str(number)
-    return render_template("search.html", ls_s=all_sections, subtypes=subdict)
+    return render_template("search.html", od2m_inventories=inventories_dict)
 
 @app.route("/search/results")
 def results():
-    motclef = request.args.get("keyword", None)
-    # il faut définir une variable résult où sera stockée la liste des sections à afficher
-    # le keyword est la valeur du xpath (mais il faut deux valeurs ?)
-    return render_template("results.html")
+    proprietes_kw = request.args.get("proprietes", None)
+    travaux_kw = request.args.get("travaux", None)
+    industries_kw = request.args.get("industries", None)
+    par_10_kw = request.args.get("par_10", None)
+    dict_proprietes = {}
+    dict_travaux = {}
+    dict_industries = {}
+    dict_par_10 = {}
+    if proprietes_kw:
+        for st_group in proprietes_sections:
+            for st_item in st_group:
+                subtype = st_item["subtype"]
+                xslt_section = get_txt_from_section(st_item)
+                name = re.findall("s\dt\d{,2}_chapt_\d{,2}\\.xml", str(xslt_section))
+                xslt_section = re.sub(name[0], csv_dict[name[0]], str(xslt_section))
+                xslt_section = str(xslt_section).replace('./app/static/xml/', '')
+                dict_proprietes[xslt_section] = subtype
+        return render_template("results.html", proprietes_kw=proprietes_kw, dict_proprietes=dict_proprietes)
+    elif travaux_kw:
+        for work_group in travaux_sections:
+            for work_item in work_group:
+                subtype = work_item["subtype"]
+                xslt_section = get_txt_from_section(work_item)
+                name = re.findall("s\dt\d{,2}_chapt_\d{,2}\\.xml", str(xslt_section))
+                xslt_section = re.sub(name[0], csv_dict[name[0]], str(xslt_section))
+                xslt_section = str(xslt_section).replace('./app/static/xml/', '')
+                dict_travaux[xslt_section] = subtype
+        return render_template("results.html", travaux_kw=travaux_kw, dict_travaux=dict_travaux)
+    elif industries_kw:
+        for industries_group in industries_sections:
+            for industries_item in industries_group:
+                subtype = industries_item["subtype"]
+                xslt_section = get_txt_from_section(industries_item)
+                name = re.findall("s\dt\d{,2}_chapt_\d{,2}\\.xml", str(xslt_section))
+                xslt_section = re.sub(name[0], csv_dict[name[0]], str(xslt_section))
+                xslt_section = str(xslt_section).replace('./app/static/xml/', '')
+                dict_industries[xslt_section] = subtype
+        return render_template("results.html", industries_kw=industries_kw, dict_industries=dict_industries)
+    elif par_10_kw:
+        for par_10_group in par_10_sections:
+            for par_10_item in par_10_group:
+                subtype = par_10_item["subtype"]
+                xslt_section = get_txt_from_section(par_10_item)
+                name = re.findall("s\dt\d{,2}_chapt_\d{,2}\\.xml", str(xslt_section))
+                xslt_section = re.sub(name[0], csv_dict[name[0]], str(xslt_section))
+                xslt_section = str(xslt_section).replace('./app/static/xml/', '')
+                dict_par_10[xslt_section] = subtype
+        return render_template("results.html", par_10_kw=par_10_kw, dict_par_10=dict_par_10)
+    else:
+        return render_template("results.html")
+
