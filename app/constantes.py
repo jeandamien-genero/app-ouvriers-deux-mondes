@@ -119,8 +119,9 @@ def get_txt_from_section(xml):
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="div">
+        <xsl:variable name="source"><xsl:value-of select="./@source"/></xsl:variable>
     	<div>
-        <p><xsl:value-of select="./@source"/></p>
+        <p style="font-weight: bold;font-size: large;">$source</p>
         <xsl:apply-templates/>
         </div>
     </xsl:template>

@@ -8,6 +8,7 @@ date = 2020-12-15
 """
 
 # libraries
+import csv
 import os
 import re
 from bs4 import BeautifulSoup
@@ -18,8 +19,7 @@ from lxml import etree
 # imports
 from .app import app
 from .clear_xml import clear_file
-from .constantes import get_section, get_section2, get_txt_from_section, filenames, proprietes_sections,inventories_dict, travaux_sections, industries_sections, par_10_sections, csv_dict
-# from.constantes import inventories_dict
+# from .constantes import get_section, get_section2, get_txt_from_section, filenames, proprietes_sections,inventories_dict, travaux_sections, industries_sections, par_10_sections, csv_dict
 
 
 # functions
@@ -113,7 +113,7 @@ def txt_mono(mono_id):
     output_doc = xslt_transformer(source_doc)
     return render_template("mono.html", template_flask1=output_doc)
 
-@app.route("/search")
+"""@app.route("/search")
 def search():
     return render_template("search.html", od2m_inventories=inventories_dict)
 
@@ -168,5 +168,5 @@ def results():
                 dict_par_10[xslt_section] = subtype
         return render_template("results.html", par_10_kw=par_10_kw, dict_par_10=dict_par_10)
     else:
-        return render_template("results.html")
+        return render_template("results.html")"""
 
