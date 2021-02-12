@@ -19,6 +19,7 @@ class Type(db.Model):
 	typelabel = db.Column(db.Text)
 	# subtype = db.relationship("Subtype")
 	subtype_tp = db.relationship('Subtype', backref='type')
+	inv_type = db.relationship('Inventory', backref='inventory_tp')
 	
 	def __init__(self, typeID, typelabel):
 		self.typeID = typeID
@@ -32,6 +33,7 @@ class Subtype(db.Model):
 	mono_fk = db.Column(db.Integer, db.ForeignKey('monography.monoID'))
 	type_essai = db.relationship('Type', back_populates='subtype_tp')
 	mono_essai = db.relationship('Monography', back_populates='subtype_mono')
+	inv_subtype = db.relationship('Inventory', backref='inventory_sbtp')
 
 	def __init__(self, subtypeID, st_label, st_type_fk):
 		self.subtypeID = subtypeID
@@ -44,6 +46,7 @@ class Monography(db.Model):
 	filename = db.Column(db.Text)
 	monotitle = db.Column(db.Text)
 	subtype_mono = db.relationship('Subtype', backref='subtype')
+	inv_mono = db.relationship('Inventory', backref='inventory')
 
 	def __init__(self, monoID, filename, monotitle):
 		self.monoID = monoID
@@ -54,13 +57,16 @@ class Inventory(db.Model):
 	__tablename__ = "inventory"
 	inventoryID = db.Column(db.Integer, primary_key=True, autoincrement=True)
 	inventoryTXT = db.Column(db.Text)
-	inventory_mono = db.Column(db.Integer)
-	inventory_type = db.Column(db.Integer)
-	inventory_subtype = db.Column(db.Text)
+	mono_inv_fk = db.Column(db.Integer, db.ForeignKey('monography.monoID'))
+	type_inv_fk = db.Column(db.Integer, db.ForeignKey('type.typeID'))
+	subtype_inv_fk = db.Column(db.Integer, db.ForeignKey('subtype.subtypeID'))
+	inventory_mono = db.relationship('Monography', back_populates='inv_mono')
+	inventory_type = db.relationship('Type', back_populates='inv_type')
+	inventory_subtype = db.relationship('Subtype', back_populates='inv_subtype')
 
-	def __init__(self, inventoryID, inventoryTXT, inventory_mono, inventory_type, inventory_subtype):
+	def __init__(self, inventoryID, inventoryTXT, mono_inv_fk, type_inv_fk, subtype_inv_fk):
 		self.inventoryID = inventoryID
 		self.inventoryTXT = inventoryTXT
-		self.inventory_mono = inventory_mono
-		self.inventory_type = inventory_type
-		self.inventory_subtype = inventory_subtype
+		self.mono_inv_fk = mono_inv_fk
+		self.type_inv_fk = type_inv_fk
+		self.subtype_inv_fk = subtype_inv_fk
