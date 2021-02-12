@@ -5,39 +5,7 @@
 				→ <a href="{{url_for('home')}}">Accueil</a> ←
             </p>
             <div>
-            	{% if dict_proprietes %}
-		<div style="margin:2%">
-		{% for item in dict_proprietes %}
-			{% if dict_proprietes[item] == proprietes_kw %}
-				{{item|safe}}
-			{% endif %}
-		{% endfor %}
-		</div>
-	{% elif dict_travaux %}
-		<div style="margin:2%">
-		{% for item in dict_travaux %}
-			{% if dict_travaux[item] == travaux_kw %}
-				{{item|safe}}
-			{% endif %}
-		{% endfor %}
-		</div>
-	{% elif dict_industries %}
-		<div style="margin:2%">
-		{% for item in dict_industries %}
-			{% if dict_industries[item] == industries_kw %}
-				{{item|safe}}
-			{% endif %}
-		{% endfor %}
-		</div>
-	{% elif dict_par_10 %}
-		<div style="margin:2%">
-		{% for item in dict_par_10 %}
-			{% if dict_par_10[item] == par_10_kw %}
-				{{item|safe}}
-			{% endif %}
-		{% endfor %}
-		</div>
-	{% endif %}
+            	
             </div>
 		</div>
 	{% endblock %}
