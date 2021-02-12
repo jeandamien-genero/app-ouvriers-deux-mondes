@@ -72,6 +72,11 @@
             </div>
         </form>
     </div>
+    <p>
+        {% for item in inv %}
+        {{item.inventoryTXT}}
+        {% endfor %}
+    </p>
         <p style="text-align: center;">
                     → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('search')}}">Recherche</a> ←
                 </p>

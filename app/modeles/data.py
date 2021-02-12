@@ -48,4 +48,13 @@ class Monography(db.Model):
 	def __init__(self, monoID, filename, monotitle):
 		self.monoID = monoID
 		self.filename = filename
-		self.monotitle = monotitle	
+		self.monotitle = monotitle
+
+class Inventory(db.Model):
+	__tablename__ = "inventory"
+	inventoryID = db.Column(db.Integer, unique=True, nullable=False, primary_key=True, autoincrement=True)
+	inventoryTXT = db.Column(db.Text)
+
+	def __init__(self, inventoryID, inventoryTXT):
+		self.inventoryID = inventoryID
+		self.inventoryTXT = inventoryTXT

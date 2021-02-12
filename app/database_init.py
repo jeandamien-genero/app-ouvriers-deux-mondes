@@ -12,7 +12,7 @@ import os
 from bs4 import BeautifulSoup
 
 from .app import db
-from .modeles.data import Type, Subtype, Monography
+from .modeles.data import Type, Subtype, Monography, Inventory
 
 def get_filenames(path, extension):
 	"""
@@ -42,6 +42,18 @@ def filenames_dict(csv_path):
                 csv_dict[line[2]] = title
     del csv_dict['Fichiers XML']
     return csv_dict
+
+def get_subtypes(files_list):
+    subtypes = []
+    for item in files_list:
+        with open(item) as xml:
+            xmlfile = xml.read()
+            soup = BeautifulSoup(xmlfile, 'xml')
+            subtype = soup.find_all('div', subtype=True)
+        for tag in subtype:
+            tag["source"] = item.replace("./app/static/xml/", "")
+            subtypes.append(tag)
+    return subtypes
 
 
 def tables_init(files_list):
@@ -74,5 +86,11 @@ def tables_init(files_list):
     corpus = filenames_dict("./app/static/csv/id_monographies.csv")
     for line in corpus:
         db.session.add(Monography(corpus[line][0], line, corpus[line][1]))
+    inventaires = get_subtypes(files_list)
+    number = 0
+    for inventaire in inventaires:
+        for sub_inventaire in inventaire:
+            number +=1
+            db.session.add(Inventory(number, str(inventaire)))
     db.session.commit()
 
