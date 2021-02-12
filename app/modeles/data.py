@@ -52,9 +52,16 @@ class Monography(db.Model):
 
 class Inventory(db.Model):
 	__tablename__ = "inventory"
-	inventoryID = db.Column(db.Integer, unique=True, nullable=False, primary_key=True, autoincrement=True)
+	inventoryID = db.Column(db.Integer, primary_key=True, autoincrement=True)
 	inventoryTXT = db.Column(db.Text)
+	inventory_mono = db.Column(db.Integer)
+	inventory_type = db.Column(db.Integer)
+	inventory_subtype = db.Column(db.Text)
 
-	def __init__(self, inventoryID, inventoryTXT):
+	def __init__(self, inventoryID, inventoryTXT, inventory_mono, inventory_type, inventory_subtype):
 		self.inventoryID = inventoryID
 		self.inventoryTXT = inventoryTXT
+		self.inventory_mono = inventory_mono
+		self.inventory_type = inventory_type
+		self.inventory_subtype = inventory_subtype
+

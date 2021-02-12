@@ -60,9 +60,9 @@ def tables_init(files_list):
     subtypes_dict = {}
     db.drop_all()
     db.create_all()
-    types_dict = {"1": "property", "2": "work", "3": "industrie", "4": "assets"}
+    types_dict = {"proprietes": "1", "travaux": "2", "industries": "3", "par_10": "4"}
     for label in types_dict:
-    	db.session.add(Type(label, types_dict[label]))
+    	db.session.add(Type(types_dict[label], label))
     db.session.commit()
     for item in files_list:
         with open(item) as xml:
@@ -79,9 +79,11 @@ def tables_init(files_list):
                 elif tag["type"] == "par_10":
                     subtypes_dict[tag["subtype"]] = "4"
     number = 0
+    new_subtypes_dict = {}
     for entry in subtypes_dict:
-    	number +=1
-    	db.session.add(Subtype(number, entry, subtypes_dict[entry]))
+        number +=1
+        new_subtypes_dict[entry] = number
+        db.session.add(Subtype(number, entry, subtypes_dict[entry]))
     db.session.commit()
     corpus = filenames_dict("./app/static/csv/id_monographies.csv")
     for line in corpus:
@@ -89,8 +91,10 @@ def tables_init(files_list):
     inventaires = get_subtypes(files_list)
     number = 0
     for inventaire in inventaires:
-        for sub_inventaire in inventaire:
-            number +=1
-            db.session.add(Inventory(number, str(inventaire)))
+        number +=1
+        source = inventaire["source"]
+        tag_type = inventaire["type"]
+        # print("\n{}\n>>>>>>>>>>>>>>>>>>>>>>>>>>> {} ####### {} ############## {} ########################\n\n".format(number, inventaire, corpus[source][0], types_dict[inventaire["type"]]))
+        db.session.add(Inventory(number, str(inventaire), corpus[source][0], types_dict[tag_type], new_subtypes_dict[inventaire["subtype"]]))
     db.session.commit()
 

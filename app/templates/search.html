@@ -74,7 +74,7 @@
     </div>
     <p>
         {% for item in inv %}
-        {{item.inventoryTXT}}
+        {{item.inventoryID}} == {{item.inventory_mono}} == {{item.inventory_type}} == {{item.inventory_subtype}} == {{item.inventoryTXT}}<br/><br/>
         {% endfor %}
     </p>
         <p style="text-align: center;">
