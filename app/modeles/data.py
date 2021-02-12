@@ -64,4 +64,3 @@ class Inventory(db.Model):
 		self.inventory_mono = inventory_mono
 		self.inventory_type = inventory_type
 		self.inventory_subtype = inventory_subtype
-
