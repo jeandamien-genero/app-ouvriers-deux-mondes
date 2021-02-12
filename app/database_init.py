@@ -7,11 +7,12 @@
     date : 2021-02-11
 """
 
+import csv
 import os
 from bs4 import BeautifulSoup
 
 from .app import db
-from .modeles.data import Type, Subtype
+from .modeles.data import Type, Subtype, Monography
 
 def get_filenames(path, extension):
 	"""
@@ -28,6 +29,19 @@ def get_filenames(path, extension):
 		if file.endswith(extension):
 			file_paths_ls.append(os.path.join(path, file))
 	return file_paths_ls
+
+
+def filenames_dict(csv_path):
+    # "./static/csv/id_monographies.csv"
+    csv_dict = {}
+    with open(csv_path, 'r', encoding='utf-8') as f:
+        file = csv.reader(f)
+        for line in file:
+            if line[2] != "none":
+                title = [line[0], line[3]]
+                csv_dict[line[2]] = title
+    del csv_dict['Fichiers XML']
+    return csv_dict
 
 
 def tables_init(files_list):
@@ -56,5 +70,9 @@ def tables_init(files_list):
     for entry in subtypes_dict:
     	number +=1
     	db.session.add(Subtype(number, entry, subtypes_dict[entry]))
+    db.session.commit()
+    corpus = filenames_dict("./app/static/csv/id_monographies.csv")
+    for line in corpus:
+        db.session.add(Monography(corpus[line][0], line, corpus[line][1]))
     db.session.commit()
 

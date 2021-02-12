@@ -19,7 +19,7 @@ from lxml import etree
 from .app import app
 from .clear_xml import clear_file
 from .database_init import get_filenames, tables_init
-from .modeles.data import Type, Subtype
+from .modeles.data import Type, Subtype, Monography
 
 
 
@@ -64,7 +64,8 @@ def txt_mono(mono_id):
 @app.route("/search")
 def search():
     subtype_tble = [st for st in Subtype.query.all()]
-    return render_template("search.html", subtype_tble=subtype_tble)
+    mono = [mono for mono in Monography.query.all()]
+    return render_template("search.html", subtype_tble=subtype_tble, mono=mono)
 
 @app.route("/search/results")
 def results():
