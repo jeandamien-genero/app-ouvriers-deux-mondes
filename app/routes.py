@@ -70,5 +70,23 @@ def search():
 
 @app.route("/search/results")
 def results():
+    proprietes_kw = request.args.get("proprietes", None)
+    travaux_kw = request.args.get("travaux", None)
+    industries_kw = request.args.get("industries", None)
+    par_10_kw = request.args.get("par_10", None)
+    result_prop = []
+    if proprietes_kw:
+        result_prop = Inventory.query.filter(Inventory.subtype_inv_fk == proprietes_kw)
+        return render_template("results.html", proprietes_kw=proprietes_kw, result_prop=result_prop)
+    if travaux_kw:
+        result_trav = Inventory.query.filter(Inventory.subtype_inv_fk == travaux_kw)
+        return render_template("results.html", travaux_kw=travaux_kw, result_trav=result_trav)
+    if industries_kw:
+        result_indus = Inventory.query.filter(Inventory.subtype_inv_fk == industries_kw)
+        return render_template("results.html", industries_kw=industries_kw, result_indus=result_indus)
+    if par_10_kw:
+        result_par_10 = Inventory.query.filter(Inventory.subtype_inv_fk == par_10_kw)
+        return render_template("results.html", par_10_kw=par_10_kw, result_par_10=result_par_10)
+    else:
         return render_template("results.html")
 

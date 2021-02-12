@@ -10,6 +10,7 @@
 import csv
 import os
 from bs4 import BeautifulSoup
+from lxml import etree
 
 from .app import db
 from .modeles.data import Type, Subtype, Monography, Inventory
@@ -42,6 +43,33 @@ def filenames_dict(csv_path):
                 csv_dict[line[2]] = title
     del csv_dict['Fichiers XML']
     return csv_dict
+
+def get_txt_from_section(xml):
+    """
+    Transforming with an XSLT stylesheet a monography's section as text.
+    :return: str
+    """
+    xslt_root = etree.XML(f"""<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude" exclude-result-prefixes="xs tei xi" version="1.0">
+    <xsl:output omit-xml-declaration="yes" method="html" indent="yes" encoding="UTF-8"/>
+    <xsl:template match="/">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="div">
+        <div>
+        <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="p">
+        <xsl:element name="p"><xsl:value-of select="normalize-space(.)"/></xsl:element>
+    </xsl:template>
+    </xsl:stylesheet>""")
+    transform = etree.XSLT(xslt_root)
+    tei = f"""<TEI>{xml}</TEI>"""
+    tree = etree.fromstring(tei)
+    result_tree = transform(tree)
+    return result_tree
 
 def get_subtypes(files_list):
     subtypes = []
@@ -94,7 +122,8 @@ def tables_init(files_list):
         number +=1
         source = inventaire["source"]
         tag_type = inventaire["type"]
+        text = str(inventaire)
         # print("\n{}\n>>>>>>>>>>>>>>>>>>>>>>>>>>> {} ####### {} ############## {} ########################\n\n".format(number, inventaire, corpus[source][0], types_dict[inventaire["type"]]))
-        db.session.add(Inventory(number, str(inventaire), corpus[source][0], types_dict[tag_type], new_subtypes_dict[inventaire["subtype"]]))
+        db.session.add(Inventory(number, text, corpus[source][0], types_dict[tag_type], new_subtypes_dict[inventaire["subtype"]]))
     db.session.commit()
 

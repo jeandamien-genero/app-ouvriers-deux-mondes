@@ -5,7 +5,43 @@
 				→ <a href="{{url_for('home')}}">Accueil</a> ←
             </p>
             <div>
-            	
+            	{% if result_prop %}
+            		{% for item in result_prop %}
+            			<p style="font-weight: bold;font-size: large;">
+            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+            				</a>
+            			</p>
+            			{{item.inventoryTXT|safe}}
+            		{% endfor %}
+            	{% elif result_trav %}
+            		{% for item in result_trav %}
+            			<p style="font-weight: bold;font-size: large;">
+            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+            				</a>
+            			</p>
+            			{{item.inventoryTXT|safe}}
+            		{% endfor %}
+            	{% elif result_indus %}
+            		{% for item in result_indus %}
+            			<p style="font-weight: bold;font-size: large;">
+            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+            				</a>
+            			</p>
+            			{{item.inventoryTXT|safe}}
+            		{% endfor %}
+            	{% elif result_par_10 %}
+            		{% for item in result_par_10 %}
+            			<p style="font-weight: bold;font-size: large;">
+            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+            				</a>
+            			</p>
+            			{{item.inventoryTXT|safe}}
+            		{% endfor %}
+            	{% endif %}
             </div>
 		</div>
 	{% endblock %}
