@@ -33,7 +33,8 @@ def get_filenames(path, extension):
 
 
 def filenames_dict(csv_path):
-    # "./static/csv/id_monographies.csv"
+    """Making a dict where XML filename = monograph's number, monograph's title.
+    """
     csv_dict = {}
     with open(csv_path, 'r', encoding='utf-8') as f:
         file = csv.reader(f)
@@ -72,7 +73,7 @@ def get_txt_from_section(xml):
     return result_tree
 
 def get_subtypes(files_list):
-    """Getting 
+    """Getting all @subtype from XML files.
     """
     subtypes = []
     for item in files_list:
