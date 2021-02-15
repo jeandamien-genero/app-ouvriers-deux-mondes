@@ -147,8 +147,9 @@ with open("./app/static/csv/id_monographies.csv", 'r', encoding='utf-8') as f:
     file = csv.reader(f)
     for line in file:
         if line[2] != "none":
-            title = "{} (n°{})".format(line[3], line[0])
+            title = [line[3], line[0]]
             csv_dict[line[2]] = title
+            
 
 
 filenames = get_filenames("./app/static/xml", ".xml")
