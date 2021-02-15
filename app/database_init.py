@@ -72,6 +72,8 @@ def get_txt_from_section(xml):
     return result_tree
 
 def get_subtypes(files_list):
+    """Getting 
+    """
     subtypes = []
     for item in files_list:
         with open(item) as xml:
@@ -85,13 +87,17 @@ def get_subtypes(files_list):
 
 
 def tables_init(files_list):
-    subtypes_dict = {}
+    """Initialization of the database
+    """
     db.drop_all()
     db.create_all()
+    # table >> TYPE
+    subtypes_dict = {}
     types_dict = {"proprietes": "1", "travaux": "2", "industries": "3", "par_10": "4"}
     for label in types_dict:
     	db.session.add(Type(types_dict[label], label))
     db.session.commit()
+    # table >> SUBTYPE
     for item in files_list:
         with open(item) as xml:
             xmlfile = xml.read()
@@ -113,9 +119,11 @@ def tables_init(files_list):
         new_subtypes_dict[entry] = number
         db.session.add(Subtype(number, entry, subtypes_dict[entry]))
     db.session.commit()
+    # table >> MONOGRAPHY
     corpus = filenames_dict("./app/static/csv/id_monographies.csv")
     for line in corpus:
         db.session.add(Monography(corpus[line][0], line, corpus[line][1]))
+    # table >> INVENTORY
     inventaires = get_subtypes(files_list)
     number = 0
     for inventaire in inventaires:
@@ -123,7 +131,6 @@ def tables_init(files_list):
         source = inventaire["source"]
         tag_type = inventaire["type"]
         text = str(inventaire)
-        # print("\n{}\n>>>>>>>>>>>>>>>>>>>>>>>>>>> {} ####### {} ############## {} ########################\n\n".format(number, inventaire, corpus[source][0], types_dict[inventaire["type"]]))
         db.session.add(Inventory(number, text, corpus[source][0], types_dict[tag_type], new_subtypes_dict[inventaire["subtype"]]))
     db.session.commit()
 
