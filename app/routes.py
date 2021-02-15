@@ -4,7 +4,7 @@
 
 """
 author = Jean-Damien Généro
-date = 2020-12-15
+date = 2020-12-15 - 2021-02-15
 """
 
 # libraries
@@ -17,26 +17,27 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import asc
 from lxml import etree
 
+#imports
 from .app import app
 from .clear_xml import clear_file
 from .database_init import get_filenames, tables_init
 from .modeles.data import Type, Subtype, Monography, Inventory
 
 
-
+# database inception
 tables_init(get_filenames("./app/static/xml", ".xml"))
 
 
 # routes
 @app.route("/")
 def home():
-    """Route that loads the home page.
+    """Loading the home page.
     """
     return render_template("home.html")
 
 @app.route("/monographies")
 def monographies():
-    """Route that loads a page with the monographs list out of a CSV.
+    """Loading a page with the monographs list out of a CSV.
     Works with a dictionary where monographs' titles are keys and XML
     filenames are values.
     """
@@ -50,7 +51,7 @@ def monographies():
 
 @app.route("/monographie/<mono_id>")
 def txt_mono(mono_id):
-    """Route that loads a page with monograph text.
+    """Loading a page with monograph text.
     :param mono_id: monograph XML filename.
     :type mono_id: str.
     """
@@ -64,6 +65,8 @@ def txt_mono(mono_id):
 
 @app.route("/search")
 def search():
+    """Loading the search page.
+    """
     subtype_tble = [st for st in Subtype.query.all()]
     mono = [mono for mono in Monography.query.all()]
     inv = [inventaire for inventaire in Inventory.query.all()]
@@ -71,6 +74,8 @@ def search():
 
 @app.route("/search/results")
 def results():
+    """Loading the results page.
+    """
     proprietes_kw = request.args.get("proprietes", None)
     travaux_kw = request.args.get("travaux", None)
     industries_kw = request.args.get("industries", None)
