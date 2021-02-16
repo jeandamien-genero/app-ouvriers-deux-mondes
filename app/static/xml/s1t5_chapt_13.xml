@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 5 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_422">
@@ -385,9 +455,11 @@
      </p>
      <p xml:id="para_13_387_2">
       DE LANCIEN COMTÉ DE DABO
-      <note type="bp"><p>
-       Le nom de Dabo a prévalu et a été seul employé dans les documents administratifs et historiques fraņais : mais le nom originel et allemand avait été Dachsbourg. Dabo n'était qu'une altération de ce nom dans le patois loeal. Depuis la conquête de 1870-71. le village de Dabo a repris ofieiellement son nom allemand.
-      </p></note>
+      <note type="bp">
+       <p>
+        Le nom de Dabo a prévalu et a été seul employé dans les documents administratifs et historiques fraņais : mais le nom originel et allemand avait été Dachsbourg. Dabo n'était qu'une altération de ce nom dans le patois loeal. Depuis la conquête de 1870-71. le village de Dabo a repris ofieiellement son nom allemand.
+       </p>
+      </note>
       (LORRAINE ALLEMANDE)
      </p>
      <p xml:id="para_13_387_3">
@@ -1518,9 +1590,11 @@
        <pb facs="#facs_472" n="37" source="lesouvriersdesde05sociuoft_0553.xml"/>
        <p xml:id="para_13_37_83">
         pris. Il y a bien encore un article de 3.000 fr. pour l'entretien des chemins ; mais les prestations sont fournies en nature et ne don¬nent pas l'équivalent du tiers en argent. Comme exemple de l'a¬bandon où sont les choses d'intérèt commun, on peut citer ce qui se passe pour les écoles des sections de Dabo. Les institutrices, dont l'une a jusqu'à 1I20 enfants, ne recoivent aucun traitement de la commune ; elles touchent le sou par semaine qui ne leur pro¬duit pas, année moyenne, plus de 20 fr., et cela pendant que les 520 usagers recoivent de lÉtat près de 300 fr. et à eux tous près de 1I50.000 fr.
-        <note type="bp"><p>
-         Si le budget à Dabo, est maigre et insuffisant, ce n'est pas faute de re¬venus ; e'est surtout parce que l'administration municipale proeède d'une ma¬nière irréguliere. Cette eommune, en etfet, outre les recettes inserites au bud¬get, a celles de la aasse noire, dont le ehifre dépasse de beaucoup le total des recettes offieielles. La asse noire, qui a pu se soustraire jusqu'à pré¬sent à l'action et au contrôle de l'administration des 1inances, doit son nom à son existence oceulte. Ce 1onds est alimenté à Dabo par des delivranees de bois mort ou viciés qui ne protitent pas aux usagers. Le reeouvrement et l'emploi se font en dehors des règles admiiistratives. La asse noive est ad¬ministrée par le maire, assisté de quelques notables ; elle est employée aux besoins de la eommune, mais selon la fantaisie du maire, qui préleve sur la caisse secrète ses frais de voyage, ses faux frais et autres dépenses qu'on ne veut pas soumettre à la sanction prefectorale. Il y a toujours un reliquat employé par les administrateurs. sel n l'importanee de la somme. à faire bombanee dans les hôtels de Strasbourg et de 'asselonne, ou simplement dans les auberges de Dabo. Le maintien de la masse noire est dans les instincts du pays. C'est un moyen de se dérober à l'inggérance de l'etrager, e'est-à-dire de l'autorité dans les affaires de la commune. On y tient done et on la con¬erve quoiqu'elle soit une occasion incessante de réeriminations contre le maire et les notables, aecusés d'employer les fonds à leur protit personnel. La reddition des comptes donne t ujours lieu à des querelles suivies de voies de fait et même de coups de eouteau. Il y a quelques années un maire a eté des¬titué et poursuivi comme coupabhle de détournements. Dans les élections mu¬nicipales, la discussion des candidatures porte uniquement sur l'emploi de la masse noire.
-        </p></note>
+        <note type="bp">
+         <p>
+          Si le budget à Dabo, est maigre et insuffisant, ce n'est pas faute de re¬venus ; e'est surtout parce que l'administration municipale proeède d'une ma¬nière irréguliere. Cette eommune, en etfet, outre les recettes inserites au bud¬get, a celles de la aasse noire, dont le ehifre dépasse de beaucoup le total des recettes offieielles. La asse noire, qui a pu se soustraire jusqu'à pré¬sent à l'action et au contrôle de l'administration des 1inances, doit son nom à son existence oceulte. Ce 1onds est alimenté à Dabo par des delivranees de bois mort ou viciés qui ne protitent pas aux usagers. Le reeouvrement et l'emploi se font en dehors des règles admiiistratives. La asse noive est ad¬ministrée par le maire, assisté de quelques notables ; elle est employée aux besoins de la eommune, mais selon la fantaisie du maire, qui préleve sur la caisse secrète ses frais de voyage, ses faux frais et autres dépenses qu'on ne veut pas soumettre à la sanction prefectorale. Il y a toujours un reliquat employé par les administrateurs. sel n l'importanee de la somme. à faire bombanee dans les hôtels de Strasbourg et de 'asselonne, ou simplement dans les auberges de Dabo. Le maintien de la masse noire est dans les instincts du pays. C'est un moyen de se dérober à l'inggérance de l'etrager, e'est-à-dire de l'autorité dans les affaires de la commune. On y tient done et on la con¬erve quoiqu'elle soit une occasion incessante de réeriminations contre le maire et les notables, aecusés d'employer les fonds à leur protit personnel. La reddition des comptes donne t ujours lieu à des querelles suivies de voies de fait et même de coups de eouteau. Il y a quelques années un maire a eté des¬titué et poursuivi comme coupabhle de détournements. Dans les élections mu¬nicipales, la discussion des candidatures porte uniquement sur l'emploi de la masse noire.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_13_37_84">
@@ -1616,9 +1690,11 @@
        </p>
        <p xml:id="para_13_41_112">
         L'égalité du partage et le grand nombre des enfants ont eu pour conséquence, de porter, dans le comté, le morcellement à ses li¬mites extrèmes. Dans les familles pauvres, chacun veut avoir sa part dans toutes les parcelles de l'héritage. Dans les familles un peu aisées, on a compris les inconvénients du morcellement et le partage s'effectue dans des conditions plus sensées. La grande culture étant impraticable dans le pays, la division des propriétés est moins préjudiciable à une honne exploitation que partout ail¬leurs. Il y a cependant dans les parties éloignées du territoire de petits domaines composés d'une maison et de quelques hectares de terrain, entourant l'habitation ; on les appelle censes. Pour ces do¬maines, le fractionnement est une opération déplorable.Cependant les propriétaires ne prennent jiamais de mesure pour en empêcher la dislocatio après leur mort. Lorsqu'arrive cet évènement, les enfants separtagent les terrains, et la maison est vendue,soit à l'un des enfants, soit à des étrangers, dépouillee de tous les terrains et n'ayant plus d'autre dépendance que le jardin qui y attient im¬médiatement. Le domaine n'exise plus et ses laumbeaux, éparpil¬lés en différentes mains, sont loin de représenter la valeur qu'ils avaient quand ils étaient réunis en un seul corps de biens
-        <note type="bp"><p>
-         Le Gouvernement allemand, dès qu'il a été maître de l'Alsaee-Lorraine en 187l, y a introduit un certain nombre de réformes législatives dont plusieurs atteignent les lois de partage forcé pour en adoueir les rigueurs et les charges. M. Claudio annet en rend un compte rais onné dans la nouvelle édition d'un des ouvrages de F. Le Play (ˉL'Orgauisation de la Famidle. 3ᵉ édition, Alfred Mame et fils a Tours. et Dentu à Paris, 1884 — Doceument annexé C, pages 62 a 73).
-        </p></note>
+        <note type="bp">
+         <p>
+          Le Gouvernement allemand, dès qu'il a été maître de l'Alsaee-Lorraine en 187l, y a introduit un certain nombre de réformes législatives dont plusieurs atteignent les lois de partage forcé pour en adoueir les rigueurs et les charges. M. Claudio annet en rend un compte rais onné dans la nouvelle édition d'un des ouvrages de F. Le Play (ˉL'Orgauisation de la Famidle. 3ᵉ édition, Alfred Mame et fils a Tours. et Dentu à Paris, 1884 — Doceument annexé C, pages 62 a 73).
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_13_41_113">
@@ -1641,9 +1717,11 @@
        </head>
        <p xml:id="para_13__120">
         A 10 kilom. de Walscheid, on commence à rencontrer des quan¬tités considérables de bois sec, qui au bout de 4 ou 5 ans se pour¬rit. L'administration forestière n'a pas toujours marqué le bois sec, donc l'enlèvement
-        <note type="bp"><p>
-         Le mauvais état de la viabilité des forêts (1863)a produit l'industrie du trans¬port et en a fait un monopole. En attelage comporte au moins deux paires de beufs et. dans la haute montagne, il ne faut pas moins de quatre paires pour trainer l mètre eube de hois. Autrefois, quand le parcours de la forét était libre toute l'année. il y a eu jusqu'à 2 voituriers à Walscheid. Les restric¬tions apportées au droit de parcours ont réduit ce nombre à moitié. Dans les 20 qui existent aujourd'hui, il n'y en a pas plus de 6 ou 8 qui récoltent tout le fourrage dont ils ont besoin. Les autres achètent plus ou moins de foin. uand les routes seront faites, c'est-à-dire après le eantonnement, il suffira de deux bœus là ou aujourd'hui il en faut quatre et même six. La profession de voi¬turier sera aecessible à un plus grand nombre. Le monopole cessera. Il n'est pas besoin de dire que les voituriers aetuels sont hostiles au cantonnement, quoique personne dans les villages ne soit autant qu'eux appelé à recueillir des avantages de cette mesure.
-        </p></note>
+        <note type="bp">
+         <p>
+          Le mauvais état de la viabilité des forêts (1863)a produit l'industrie du trans¬port et en a fait un monopole. En attelage comporte au moins deux paires de beufs et. dans la haute montagne, il ne faut pas moins de quatre paires pour trainer l mètre eube de hois. Autrefois, quand le parcours de la forét était libre toute l'année. il y a eu jusqu'à 2 voituriers à Walscheid. Les restric¬tions apportées au droit de parcours ont réduit ce nombre à moitié. Dans les 20 qui existent aujourd'hui, il n'y en a pas plus de 6 ou 8 qui récoltent tout le fourrage dont ils ont besoin. Les autres achètent plus ou moins de foin. uand les routes seront faites, c'est-à-dire après le eantonnement, il suffira de deux bœus là ou aujourd'hui il en faut quatre et même six. La profession de voi¬turier sera aecessible à un plus grand nombre. Le monopole cessera. Il n'est pas besoin de dire que les voituriers aetuels sont hostiles au cantonnement, quoique personne dans les villages ne soit autant qu'eux appelé à recueillir des avantages de cette mesure.
+         </p>
+        </note>
         dans la haute montagne coûterait plus que la valeur du bois. En 1852, elle offrait à Walscheid 51 stères de bois pour 50 centimes ; quelques années avant, à Abreschviller, 500 stères pour 16 francs, sans trouver de preneurs. Ces bois
        </p>
        <pb facs="#facs_481" n="446" source="lesouvriersdesde05sociuoft_0562.xml"/>
@@ -1746,9 +1824,11 @@
        <pb facs="#facs_485" n="" source="lesouvriersdesde05sociuoft_0566.xml"/>
        <p xml:id="para_13__155">
         toire des communes d'Abreschviller et de Voyer
-        <note type="bp"><p>
-         Les territoires forestiers d'Abreschviller et de V'oyer étaient communs aux usagers des deux villages, lesquels avaient des droits égaux sur toute l'étendue de ce territoire indivis entrelles. De même, Walscheid, IHommert et Harreberg jouissaient, dans l'indivision d'un territoire forestier, quant à leurs droits d'usages. Elles ne sont pas cantonnées. Chaeune avait et a encore à présent, sa coupe d'affouage distincte, qui lui est délivrée dans les eantons désignés par l'administration forestière, selon que celle-ei le juge convenable, dans l'intérêt de la conservation de la forét. Les bois morts, mort-bois, chablis sont délivrés en bloe, à chaque commune qui les partage en autant de lots quil y a d'usagers ou parties prenantes.
-        </p></note>
+        <note type="bp">
+         <p>
+          Les territoires forestiers d'Abreschviller et de V'oyer étaient communs aux usagers des deux villages, lesquels avaient des droits égaux sur toute l'étendue de ce territoire indivis entrelles. De même, Walscheid, IHommert et Harreberg jouissaient, dans l'indivision d'un territoire forestier, quant à leurs droits d'usages. Elles ne sont pas cantonnées. Chaeune avait et a encore à présent, sa coupe d'affouage distincte, qui lui est délivrée dans les eantons désignés par l'administration forestière, selon que celle-ei le juge convenable, dans l'intérêt de la conservation de la forét. Les bois morts, mort-bois, chablis sont délivrés en bloe, à chaque commune qui les partage en autant de lots quil y a d'usagers ou parties prenantes.
+         </p>
+        </note>
         , et ce après l'acceptation, par ces deux communes, des bases proposées par l'Etat. Les deux communes ont reçu, en échange des droits de leurs usagers, des cantons de forêt qui sont devenus des pro¬priétés communales, possédées dès lors, on ut singudi mais t aunioersi, soumises, d'ailleurs, pour l'aménagement et l'exploi¬tation, à la surveillance de l'administration forestière, comme cela existe dans toutes les propriétés forestières communales. Chacune des deux communes ayant reçu un lot distinct, l'ancienne union forestière a complètement cessé. Par suite du cantonnement, il n'a subsisté dans ses communes aucune espèce de droit d'usage, et, par conséquent, il n'y a plus d'usagers. Les habitants à domicile fixe jouissent tous indistinctivement d'un droit d'affouage qui se reduit au bois de chauffage nécessaire à chaque ménage. Comme dans toutes les communes forestières, des coupes extraor¬dinaires sont autorisées, sous le nom de quart e résere, et vendues au profit de la commune pour subvenir aux dépenses d'in¬térét communal, toutes les fois que la nécessité en est reconnue. Les droits d'usage des censes (fermes isolées aliénées par voie d'acenseoment) et de la papeterie d'Abreschviller ont été aussi rachetés par l'Etat, moyennant des cantons de forêts abandonnés en toute propriété aux ayant-droit. Les scieries d'Abreschviller et de Walscheid ont été aussi rachetées par l'Etat. Les pro¬priétaires de ours et fractions de our de scierie, ont reçu, suivant l'importance de leurs parts, en toute propriété, des par¬celles de forêt, dont ils ont été maîtres de disposer à leur gré.
        </p>
        <p xml:id="para_13__156">

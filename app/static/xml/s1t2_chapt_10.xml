@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_324">
@@ -265,7 +335,11 @@
       PAR
      </p>
      <p xml:id="para_10_321_7">
-      M. <persName>E. AVALLE</persName> Pp.
+      M.
+      <persName>
+       E. AVALLE
+      </persName>
+      Pp.
      </p>
     </div>
     <div n="002" type="section">
@@ -281,7 +355,8 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_10_321_13">
-        <pb facs="#facs_324" n="321" source="lesouvriersdesde02sociuoft_0327.xml"/> La famille habite le quartier de la Sorbonne, situé dans le onzième arrondissement de Paris, sur la rive gauche de la Seine. Le choix de cette habitation a été déterminé par la proximité de la fon¬taine de la place Saint-Michel, qui fournit à l'ouvrier la matière pre¬mière de son industrie. Cette fontaine est du petit nombre de celles où il est encore permis de puiser de l'eau gratuitement
+        <pb facs="#facs_324" n="321" source="lesouvriersdesde02sociuoft_0327.xml"/>
+        La famille habite le quartier de la Sorbonne, situé dans le onzième arrondissement de Paris, sur la rive gauche de la Seine. Le choix de cette habitation a été déterminé par la proximité de la fon¬taine de la place Saint-Michel, qui fournit à l'ouvrier la matière pre¬mière de son industrie. Cette fontaine est du petit nombre de celles où il est encore permis de puiser de l'eau gratuitement
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (A)
         </ref>
@@ -292,7 +367,9 @@
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (B)
         </ref>
-        . Cette classe d'ouvriers s'est adonnée à cette industrie parce que celle-ci ne réclame que la force physique dont ils sont <pb facs="#facs_325" n="322" source="lesouvriersdesde02sociuoft_0328.xml"/> généralement doués, et aussi parce qu'elle n'exige qu'une première mise de fonds peu considérable et en rapport avec leurs modestes ressources. Un porteur d'eau peut, moyennant la somme de 25ᶠ, se procurer tout le matériel nécessaire à son exploitation. Il l'entre¬prend presque toujours seul, car les bénéfices qu'il en peut tirer sont trop faibles pour qu'il ait avantage à chercher une clientèle plus nombreuse en prenant un salarié. C'est donc moins à son intelli¬gence personnelle qu'à l'organisation même de l'industrie qu'il doit son rang de chef de métier. Il est même contraint, pour se créer des ressources nécessaires et pour utiliser le temps que lui laisse libre son exploitation de porteur d'eau, d'avoir recours à diverses industries accessoires telles que celles de scieur de bois, de porte¬faix et de commissionnaire en ville.
+        . Cette classe d'ouvriers s'est adonnée à cette industrie parce que celle-ci ne réclame que la force physique dont ils sont
+        <pb facs="#facs_325" n="322" source="lesouvriersdesde02sociuoft_0328.xml"/>
+        généralement doués, et aussi parce qu'elle n'exige qu'une première mise de fonds peu considérable et en rapport avec leurs modestes ressources. Un porteur d'eau peut, moyennant la somme de 25ᶠ, se procurer tout le matériel nécessaire à son exploitation. Il l'entre¬prend presque toujours seul, car les bénéfices qu'il en peut tirer sont trop faibles pour qu'il ait avantage à chercher une clientèle plus nombreuse en prenant un salarié. C'est donc moins à son intelli¬gence personnelle qu'à l'organisation même de l'industrie qu'il doit son rang de chef de métier. Il est même contraint, pour se créer des ressources nécessaires et pour utiliser le temps que lui laisse libre son exploitation de porteur d'eau, d'avoir recours à diverses industries accessoires telles que celles de scieur de bois, de porte¬faix et de commissionnaire en ville.
        </p>
        <p xml:id="para_10_322_17">
         Les porteurs d'eau dits à la bretelle, effectuent le transport de l'eau à la voie, dans deux seaux soutenus à l'aide d'un appareil re¬posant sur les épaules ; c'étaient les seuls qui existassent autrefois ; mais leur nombre a considérablement diminué depuis l'adoption presque générale pour le transport de l'eau de voitures dites ton¬neaux, et que traîne soit le porteur lui-même, soit un âne ou un cheval. Toutefois l'industrie de porteur d'eau en général, tend à disparaître peu à peu dans la capitale depuis la transformation que de récentes mesures municipales ont amenée dans la distri¬bpution des eaux de la ville de Paris
@@ -318,22 +395,38 @@
         La famille se compose des deux époux et de trois enfants, sa¬voir :
        </p>
        <p xml:id="para_10_322_21">
-        <persName>GIRARD T**</persName>, chef de la famille, marié depuis 13 ans, né à V** (Cantal)............ 46 ans
+        <persName>
+         GIRARD T**
+        </persName>
+        , chef de la famille, marié depuis 13 ans, né à V** (Cantal)............ 46 ans
        </p>
        <p xml:id="para_10_322_23">
-        <persName>ÉLISABETH G**</persName>, sa femme, née à N** (Cantal)................ 34 —
+        <persName>
+         ÉLISABETH G**
+        </persName>
+        , sa femme, née à N** (Cantal)................ 34 —
        </p>
        <p xml:id="para_10_322_24">
-        <persName>Jean-Baptiste T**</persName>, leur fils aîné, né à Paris.................. 12 —
+        <persName>
+         Jean-Baptiste T**
+        </persName>
+        , leur fils aîné, né à Paris.................. 12 —
        </p>
        <p xml:id="para_10_322_25">
-        <persName>Marie-Adélaïde T**</persName>, leur fille cadette, née à Paris............ 5 —
+        <persName>
+         Marie-Adélaïde T**
+        </persName>
+        , leur fille cadette, née à Paris............ 5 —
        </p>
        <p xml:id="para_10_322_26">
-        <persName>Jules-Auguste T**</persName>, leur second fils, né à Paris............... 2 —
+        <persName>
+         Jules-Auguste T**
+        </persName>
+        , leur second fils, né à Paris............... 2 —
        </p>
        <p xml:id="para_10_323_27">
-        <pb facs="#facs_326" n="323" source="lesouvriersdesde02sociuoft_0329.xml"/> Les époux ont eu deux autres enfants qui sont morts en bas âge.
+        <pb facs="#facs_326" n="323" source="lesouvriersdesde02sociuoft_0329.xml"/>
+        Les époux ont eu deux autres enfants qui sont morts en bas âge.
        </p>
        <p xml:id="para_10_323_28">
         La mère de l'ouvrier, Jeanne C**, existe encore ; elle est âgée de 71 ans et demeure à Saint-Martial (Cantal), chez sa fille Jeanne T**, mariée depuis 6 ans et mère de deux enfants. L'ouvrier avait deux frères qui ont exercé comme lui à Paris l'industrie de porteur d'eau ; mais qui sont morts déjà depuis plusieurs années.
@@ -360,7 +453,9 @@
         Tous leurs enfants ont été néanmoins baptisés et le fils aîné se prépare à faire sa première communion ; pour obéir à l'instruction religieuse, il a désiré que la prescription de l'Église catholique fût observée le vendredi ; la famille s'y est conformée depuis quelque temps. Cet enfant fréquente une des écoles dites ˉMutuellesˉ, établies par les soins de l'administration muicipale dans chacun des arron¬dissements de Paris, et il reçoit son éducation religieuse dans les catéchismes dirigés par les prêtres de sa paroisse.
        </p>
        <p xml:id="para_10_323_34">
-        L'ouvrier, homme d'une intelligence très-bornée, e possèdé au¬cune idée morale d'un ordre supérieur ; honnête dans ses rapports journaliers, laborieux et économe par instinct, sobre par habitude, il s'adonne avec ardeur aux travaux qui assurent le pain de la <pb facs="#facs_327" n="324" source="lesouvriersdesde02sociuoft_0330.xml"/> famille ; doué d'une tendance très-prononcée pour l'épargne, il ne paraît nullement sentir les privations qu'il s'impose. D'un caractère doux et tranquille, il n'entretient pour les classes supérieures de la société aucun sentiment d'antagonisme ou d'envie ; il regarde au contraire avec une bienveillance générale et même avec une sorte de déférence les personnes placées au-dessus de lui.
+        L'ouvrier, homme d'une intelligence très-bornée, e possèdé au¬cune idée morale d'un ordre supérieur ; honnête dans ses rapports journaliers, laborieux et économe par instinct, sobre par habitude, il s'adonne avec ardeur aux travaux qui assurent le pain de la
+        <pb facs="#facs_327" n="324" source="lesouvriersdesde02sociuoft_0330.xml"/>
+        famille ; doué d'une tendance très-prononcée pour l'épargne, il ne paraît nullement sentir les privations qu'il s'impose. D'un caractère doux et tranquille, il n'entretient pour les classes supérieures de la société aucun sentiment d'antagonisme ou d'envie ; il regarde au contraire avec une bienveillance générale et même avec une sorte de déférence les personnes placées au-dessus de lui.
        </p>
        <p xml:id="para_10_324_36">
         La femme, d'un caractère naturellement vif et enjoué, d'ue gaieté même un peu trop libre, paraît également satisfaite de sa position. Elle se livre avec activité aux travaux de son ménage, et, malgré les soins qu'elle donne à ses enfants après les avoir tous allaités, elle trouve encore moyen d'ajouter, par un travail qui lui est spécial, aux bénéfices de l'industrie principale de son mari ; plus intelligente que celui-ci, elle lui donne de bons conseils en toutes circonstances, tout en reconnaissant néanmoins son droit incontestable à la direction des affaires de la famille.
@@ -381,7 +476,9 @@
         § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
        <p xml:id="para_10_324_40">
-        L'ouvrier, d'une taille de 1m 76, a une constitution très-robuste, dont il abuse même quelquefois dans les travaux pénibles auxquels il se livre ; ce qui lui occasionne des indispositions qu'il nomme ueurs rentrées, et dont il se guérit assez facilement en se soumet<pb facs="#facs_328" n="325" source="lesouvriersdesde02sociuoft_0331.xml"/>tant pendant quelque temps à une transpiration excessive. Dans sa jeunesse, il était sujet à des maux d'oreilles, il avait mênie espéré que cette prédisposition serait suffisante pour le faire réformer du service militaire ; mais, à son grand regret, cette raison ne fut pas adoptée par le conseil de révision, et ce ne fut qu'après dix-huit mois de service, pendant lesquels il s'efforça de faire passer sa maladie pour plus grave qu'elle n'était réellement, qu'il parvint à obtenir son congé pour inaptitude au service militaire.
+        L'ouvrier, d'une taille de 1m 76, a une constitution très-robuste, dont il abuse même quelquefois dans les travaux pénibles auxquels il se livre ; ce qui lui occasionne des indispositions qu'il nomme ueurs rentrées, et dont il se guérit assez facilement en se soumet
+        <pb facs="#facs_328" n="325" source="lesouvriersdesde02sociuoft_0331.xml"/>
+        tant pendant quelque temps à une transpiration excessive. Dans sa jeunesse, il était sujet à des maux d'oreilles, il avait mênie espéré que cette prédisposition serait suffisante pour le faire réformer du service militaire ; mais, à son grand regret, cette raison ne fut pas adoptée par le conseil de révision, et ce ne fut qu'après dix-huit mois de service, pendant lesquels il s'efforça de faire passer sa maladie pour plus grave qu'elle n'était réellement, qu'il parvint à obtenir son congé pour inaptitude au service militaire.
        </p>
        <p xml:id="para_10_325_42">
         Il n'a pas été vacciné et il a eu la petite vérole qui lui a laissé peu de traces. A l'age de 30 ans, avant son mariage, il fit,avec une lourde charge de bois, une chute qui eut des suites assez graves, et qui nécessita un repos absolu pendant six semaines. Quelques années après son mariage, il fit encore une assez forte maladie, occasionnée par un excès de fatigue. C'est à ce moment que, suivant les conseils de quelques-uns de ses amis, il consulta un pharacien anglais qui traite la plupart des maladies au moyen d'infusions et de simples dont il fait le débit. S'étant guéri assez promptement et trouvant cette médecine très-économique, il s'en est toujours servi depuis pour lui et les siens. Sa femme qui a été atteinte du choléra en 1849, attribue sa guérison aux potions fournies par ce pharmacien ; elle jouit du reste d'une bonne santé, elle a eu cinq couches assez heu¬reuses ; quelques jours après la troisième, cependant, une maladie, causée par un refroidissement, l'obligea de sevrer son enfant qu'elle perdit peu de temps après.
@@ -405,7 +502,8 @@
         . Celui qui est décrit dans la présente monographie est donc chef d'industrie par le fait même de ces circonstances exté¬rieures, et nullement en raison d'une initiative personnelle qui révèlerait en lui quelque supériorité. Devenu par son mariage pos¬sesseur d'un petit capital, il chercha à le faire fructifier, et dans ce but il acheta un fonds de marchand-charbonnier de bois au détail.
        </p>
        <p xml:id="para_10_326_47">
-        <pb facs="#facs_329" n="326" source="lesouvriersdesde02sociuoft_0332.xml"/> Cette tentative ne fut pas heureuse, et pour liquider une position qui s'aggravait chaque jour, il dut, quelques années après revendre à perte
+        <pb facs="#facs_329" n="326" source="lesouvriersdesde02sociuoft_0332.xml"/>
+        Cette tentative ne fut pas heureuse, et pour liquider une position qui s'aggravait chaque jour, il dut, quelques années après revendre à perte
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
@@ -427,12 +525,12 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p>
          (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_10_326_52">
          IMMEUBLES............ 0ᶠ 00
         </p>
@@ -440,7 +538,7 @@
          La famille ne possède aucune propriété de ce genre ; il est même certain qu'elle ne cherchera jamais à en acquérir dans son pays natal, l'intention bien arrêtée des deux époux étant de rester fixés
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_10_326_54">
          ARGENT............ 1,800 00
         </p>
@@ -448,7 +546,7 @@
          Cette somme a été apportée en dot par la femme, mais d'après les stipulations du contrat de ma¬riage, la famille e peut en disposer ; elle est placée sur hypothèque dans le pays des deux éponx et ils n'en touchent que l'intérêt annuel.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_10_326_56">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 66 95
         </p>
@@ -456,10 +554,12 @@
          1° Materiel de porteur deau x — 2 seaux en fer-hlanc avec couverele, d'une contenance de 20 litres chacun, 18ᶠ 00 ; — 2 seaux en bois, d'une contenance de 10 litres chacun, 6ᶠ00 ; — 1 baton légérement recourbé destiné à soutenir les deux seaux sur une épaule, et que les porteurs d'eau nomment course, 1ᶠ25. — Total, 25ᶠ25
         </p>
         <p xml:id="para_10_326_58">
-         2° Matériel de scieur de bois : 4 scies en acier, 20ᶠ00; — Crochets, sorte de hotte formée de deux morceaux de bois longs de 1ᵐ 30 environ, joints par des traverses, et munis, chacun à sa partie inférieure, d'un autre morceau formant crochet avec le premier et soutenant les fardeaux, 4ᶠ00 ; — 1 chevalet en bois servant à poser le hois pour le scier, 2ᶠ 50 ; — 2 cognées en fer, dites merlins, avec manche en bôis, pour fendre le bois à brûler, 3ᶠ 25; — 1 couperet en fer, pour fendre le bois en petits mor¬ceaux, 1ᶠ25; — 12'limes en acier pour aiguiser les scies, 4ᶠ20; — 1 clef en acier pour <pb facs="#facs_330" n="327" source="lesouvriersdesde02sociuoft_0333.xml"/> raiger les dents des scies, 1ᶠ25 ; — 1 outil tranchant recourbé pour fabriquer les man¬ches de merlin, 2ᶠ50 ; — 1 ciseau à froid, 1ᶠ 75 ; — 2 marteaux, 2ᶠ 00. — Total, 4ᶠ 70.
+         2° Matériel de scieur de bois : 4 scies en acier, 20ᶠ00; — Crochets, sorte de hotte formée de deux morceaux de bois longs de 1ᵐ 30 environ, joints par des traverses, et munis, chacun à sa partie inférieure, d'un autre morceau formant crochet avec le premier et soutenant les fardeaux, 4ᶠ00 ; — 1 chevalet en bois servant à poser le hois pour le scier, 2ᶠ 50 ; — 2 cognées en fer, dites merlins, avec manche en bôis, pour fendre le bois à brûler, 3ᶠ 25; — 1 couperet en fer, pour fendre le bois en petits mor¬ceaux, 1ᶠ25; — 12'limes en acier pour aiguiser les scies, 4ᶠ20; — 1 clef en acier pour
+         <pb facs="#facs_330" n="327" source="lesouvriersdesde02sociuoft_0333.xml"/>
+         raiger les dents des scies, 1ᶠ25 ; — 1 outil tranchant recourbé pour fabriquer les man¬ches de merlin, 2ᶠ50 ; — 1 ciseau à froid, 1ᶠ 75 ; — 2 marteaux, 2ᶠ 00. — Total, 4ᶠ 70.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_10_327_60">
          VALEUR TOTALE des propriétés................... 1,866ᶠ95
         </p>
@@ -494,13 +594,15 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_10_327_67">
          TRAVAUX DE L'OUVRIER. — Le travail principal de l'ouvrier consiste pendant toute l'année à transporter chez ses pratiques l'eau qu'il puise à la fontaine publique ; ilse sert à cet effet de deux seaux d'une contenance de 20 litres environ chacun
          <ref target="#part_02_02_06" type="renvoi_int_mono">
           (§ 6)
          </ref>
-         , qu'il suspend aux extré¬mités d'une traverse en bois appuyée sur son épaule C'est ce travail journalier qui nécessite une grande force physique, car le porteur d'eau fait en moyenne 35 à 40 voyages par jour et monte quelque¬fois jusqu'aux derniers étages d'une maison. Il a un certain nombre de pratiques qu'il fournit régulièrement pendant toute l'année, et qui constituent sa clientèle ; celle-ci se restreint en été en raison des habitudes qui font émigrer à la campagne une partie de la <pb facs="#facs_331" n="328" source="lesouvriersdesde02sociuoft_0334.xml"/> population parisienne. En dehors de cette clientèle, il porte encore de l'eau chez les personnes qui n'ont pas de porteur d'eau attitré, et qui viennent en demander à ceux qui stationnent près de la fontaine ; mais le nombre de voies d'eau ainsi fournies est peu con¬sidérable.
+         , qu'il suspend aux extré¬mités d'une traverse en bois appuyée sur son épaule C'est ce travail journalier qui nécessite une grande force physique, car le porteur d'eau fait en moyenne 35 à 40 voyages par jour et monte quelque¬fois jusqu'aux derniers étages d'une maison. Il a un certain nombre de pratiques qu'il fournit régulièrement pendant toute l'année, et qui constituent sa clientèle ; celle-ci se restreint en été en raison des habitudes qui font émigrer à la campagne une partie de la
+         <pb facs="#facs_331" n="328" source="lesouvriersdesde02sociuoft_0334.xml"/>
+         population parisienne. En dehors de cette clientèle, il porte encore de l'eau chez les personnes qui n'ont pas de porteur d'eau attitré, et qui viennent en demander à ceux qui stationnent près de la fontaine ; mais le nombre de voies d'eau ainsi fournies est peu con¬sidérable.
         </p>
         <p xml:id="para_10_328_69">
          La voie d'eau ordinaire (20 litres) se vend habituellement 0ᶠ10; la voie double (40 litres) ou grande voie, 0ᶠ15 ; c'est la plus usitée.
@@ -521,12 +623,13 @@
          Il profite des nombreuses courses que lui occasionne son in¬dustrie, pour acheter une partie des provisions de la famille.
         </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_10_328_75">
          TRAVAUX DE LA FEMME. — Le travail principal. de la femme consiste dans les soins qu'elle donne à ses enfants, particulièrement au plus jeune, et dans les travaux du ménage. Cependant elle néglige assez facilement ces derniers, d'abord parce qu'elle attache une impor¬tance très-secondaire à la bonne tenue de son ménage, ensuite parce qu'elle s'occupe de travaux qui augmentent un peu les re¬cettes de la famille. Ils consistent à piquer des cuirs de chapeaux, et elle entreprend ce travail à la tâche pour le compte d'un fabricant.
         </p>
         <p xml:id="para_10_329_76">
-         <pb facs="#facs_332" n="329" source="lesouvriersdesde02sociuoft_0335.xml"/> Elle y consacre une partie des après-midi et des soirées. Elle pour¬rait facilement gagner ainsi 1ᶠ par jour, mais l'ouvrage manquant quelquefois dans le cours de l'année, cette recette se trouve assez réduite.
+         <pb facs="#facs_332" n="329" source="lesouvriersdesde02sociuoft_0335.xml"/>
+         Elle y consacre une partie des après-midi et des soirées. Elle pour¬rait facilement gagner ainsi 1ᶠ par jour, mais l'ouvrage manquant quelquefois dans le cours de l'année, cette recette se trouve assez réduite.
         </p>
         <p xml:id="para_10_329_77">
          Comme travail secondaire, la femme s'occupe de la réparation des vêtements et du lingee de la famille, ainsi que de la confection de la plupart des vêtements des plus jeunes enfants.
@@ -535,7 +638,7 @@
          Elle trouve qu'elle est trop petitement logée pour entreprendre chez elle aucun blanchissage ; elle pense du reste qu'elle n'y trou¬verait pas une grande économie, puisqu'il faudrait pour cela négliger ses travaux de piqûre.
         </p>
        </div>
-       <div type="travaux" subtype="enfants">
+       <div subtype="enfants" type="travaux">
         <p xml:id="para_10_329_79">
          TRAVAUX DES ENFANTS. — Le fils aîné concourt aux travaux entre¬pris par sa mère dans une proportion assez considérable, pour qu'on ait cru devoir en faire mention dans le budget de la famille. C'est lui qui est chargé d'aller chercher l'ouvrage et de le reporter chez le fabricant, dont la demeure est assez éloignée (20 minutes de chemin environ de l'habitation de l'ouvrier).
         </p>
@@ -563,7 +666,8 @@
         2ᵉ° Second déjeuner à 1 heure, composé de viande ou de légumes restant du repas principal de la veille, ou bien de fromage ; l'ou¬vrier et sa femme prennent ensuite presque tous les jours un peu de café noir ; ils trouvent que cette liqueur peut, comme fortifiant, remplacer pour eux l'usage du yin qui leur serait trop dispendieux ; ils en ont du reste tellement l'habitude que s 'en passer serait pour eux une grande privation. Cette boisson, qui, au premier abord, parait recherchée pour des ouvriers peu aisés, est cependant très¬peu coûteuse ; elle revient à peine à 0ᶠ15 par repas, le sucre com¬pris.
        </p>
        <p xml:id="para_10_330_87">
-        <pb facs="#facs_333" n="330" source="lesouvriersdesde02sociuoft_0336.xml"/> 3° Diner à 6 heures 1 2 ou 7 heures, quand la journée de l'ouvrier est finie ; c'est le repas principal de la famille, il consiste ordinaire¬ment en soupe, viande ou légumes ; c'est le plus souventdu bœufde qualité inférieure, quelquefois du lard bouilli avec des choux ou de la poitrine de mouton. Quand il n'y a pas de viande, celle-ci est remplacée par un plat de légumes cuits à l'eau et assaisonnés au beurre ou à la graisse ; ces légumes varient suivant la saison, mais les pommes de terre y entrent pour la plus grande part. La famille a conservé l'usage d'un mets de son pays, qui consiste en châtai¬gnes sèches bouillies dans l'eau, avec du sel, pendant 4 heures ; on ajoute ensuite un peu de lait et le bouillon ainsi produit sert à tremper une soupe au pain; les châtaignes bouillies sont ensuite mangées comme mets principal avec du pain. Ce mets offre le double avantage d'être très-nourrissant et très-peu dispendieux : un kilo¬gramme de châtaignes à 0ᶠ60 et 0ᶠ 10 de lait suffisent pour un repas.
+        <pb facs="#facs_333" n="330" source="lesouvriersdesde02sociuoft_0336.xml"/>
+        3° Diner à 6 heures 1 2 ou 7 heures, quand la journée de l'ouvrier est finie ; c'est le repas principal de la famille, il consiste ordinaire¬ment en soupe, viande ou légumes ; c'est le plus souventdu bœufde qualité inférieure, quelquefois du lard bouilli avec des choux ou de la poitrine de mouton. Quand il n'y a pas de viande, celle-ci est remplacée par un plat de légumes cuits à l'eau et assaisonnés au beurre ou à la graisse ; ces légumes varient suivant la saison, mais les pommes de terre y entrent pour la plus grande part. La famille a conservé l'usage d'un mets de son pays, qui consiste en châtai¬gnes sèches bouillies dans l'eau, avec du sel, pendant 4 heures ; on ajoute ensuite un peu de lait et le bouillon ainsi produit sert à tremper une soupe au pain; les châtaignes bouillies sont ensuite mangées comme mets principal avec du pain. Ce mets offre le double avantage d'être très-nourrissant et très-peu dispendieux : un kilo¬gramme de châtaignes à 0ᶠ60 et 0ᶠ 10 de lait suffisent pour un repas.
        </p>
        <p xml:id="para_10_330_88">
         On fait suivre parfois le premier plat, d'une salade choisie selon la saison, ou simplement de fromage.
@@ -586,14 +690,15 @@
         , les époux, tout en se privant de mets choisis, trouvent, grâce aux facilités que l'on a dans les villes, pour se procurer à bas prix des aliments nourrissants, une très¬grande différence avec leur manière de vivre dans leur pays. Un séjour prolongé à Paris neparvient même pas à leur faire perdre ces habitudes de sobriété. Le fait de cette famille composée de cinq mem¬bres se nourrissant avec 3 par jour en moyenne, pourrait servir d'exemple à bon nombre d'ouvriers parisiens, et prouver tout au moins qu'avec de l'ordre et une économie bien entendue concernant cette importante dèpense d'une famille, il est toujours possible de se tirer d'affaire même dans les moments de grande cherté.
        </p>
        <p xml:id="para_10_331_92">
-        <pb facs="#facs_334" n="331" source="lesouvriersdesde02sociuoft_0337.xml"/> Il est à remarquer que la famille ici décrite n'a eu recours à au¬cune subvention, ni à aucun secours étranger pour traverser la dernière crise alimentaire.
+        <pb facs="#facs_334" n="331" source="lesouvriersdesde02sociuoft_0337.xml"/>
+        Il est à remarquer que la famille ici décrite n'a eu recours à au¬cune subvention, ni à aucun secours étranger pour traverser la dernière crise alimentaire.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_10_331_94">
          La maison dans laquelle habite la famille est située dans une rue bien aérée du onzième arrondissement ; elle comprend unrez¬de-chaussée, occupé par un marchand de vin, et cinq étages de logements loués à des familles d'ouvriers.
         </p>
@@ -623,9 +728,11 @@
          Le mobilier de la famille est très-pauvre ; il dénote le peu de souci des époux pour la commodité et le bien-être.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_10_331_102">
-         MEUBLES : tous très-anciens et de formes très-simples ; générale¬ment mal entretenus ; une partie a été reçue par héritage d'un des <pb facs="#facs_335" n="332" source="lesouvriersdesde02sociuoft_0338.xml"/> frères du mari. Ce modeste mobilier serait considéré dans le pays de l'ouvrier, comme luxueux........................ 26ᶠ75
+         MEUBLES : tous très-anciens et de formes très-simples ; générale¬ment mal entretenus ; une partie a été reçue par héritage d'un des
+         <pb facs="#facs_335" n="332" source="lesouvriersdesde02sociuoft_0338.xml"/>
+         frères du mari. Ce modeste mobilier serait considéré dans le pays de l'ouvrier, comme luxueux........................ 26ᶠ75
         </p>
         <p xml:id="para_10_332_104">
          1° Lits. — 1 lit pour les deux époux, comprenant : 1 bois de lit en acajou, acheté d'oe¬casion, 15ᶠ00;-2 matelas de laine, 70ᶠ00;-2 paillasses dont 1 en paille de mais, 192ᶠ00; —1 traversin de plume, ᶠ00; 2 oreillers de plume, 6ᶠ00 ;—1 rideau delit en calicot bleu, 3ᶠ00; — 2 fèches en bois pour supporter le rideau, 2ᶠ00 ; — 1 couverture de laine, 1Sᶠ00;—1 lit pour le fils aîné, conprenant: 1 lit en fer, 8ᶠ00 ; 1 matelas de laine,25ᶠ 00; 1 couverture de laine, 10ᶠ00; 1 traversin, 3ᶠ 00; — 1 lit pour la petite fille, compre¬.nant : 1 bois de lit, 3ᶠ00; 1 paillasse en petite paille d'avoine, 1ᶠ00; 1 couverture de coton, 3ᶠ00; 1 traversin, 3ᶠ00; — 1 berceau en osier avec support en bois, pour le petit garçon, et 1 paillasse d'avoine, 2ᶠ00. — Total, 186ᶠ00.
@@ -640,7 +747,7 @@
          4° Livres (donnés au fils ailné, ou achetés pour lui). — 1 livre de Cantiques, 1ᶠ00;¬1 livre d'Évangiles, 0ᶠ50; — 1 Paroissien relié et noté en musique, reçu en prix à l'école mutuelle, 3ᶠ00; —1 abrégé de l'Histoire universelle, par labbé Daniel, 0ᶠ50; —1 petite Géographie de l'abé Gauthier, 0ᶠ50; —1 Recueil de Fables de La rFontaine et 1, de Fénelon, 1ᶠ 50;  1 livr intitulé : l'Ami des écoliers, 0ᶠ50. — Total, 7ᶠ 50.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_10_332_108">
          USTENSILES : de formes très-simples, peu nombreux et en asse miauvais état..................................... 54ᶠ50
         </p>
@@ -651,7 +758,7 @@
          2° Employés pour usages diuvers : — 1 petite lame modérateur, 6ᶠ00; — 1 chande¬lier en cuivre, 1ᶠ25 ; — 1 chauferette, 1ᶠ25 ; — 2 boîtes et 2 mesures à lait, en fer¬blanc, 2ᶠ50; — 1 gibecière en cuir pour le fils aîné, 2ᶠ25 ; — plusieurs bouteilles et pots en lfaience (sans valeur). — Total, 13ᶠ50.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_10_332_111">
          LINGE DE MÉNAGE (fait de toile grossière et assez bien entre¬tenu)............ 59ᶠ 25
         </p>
@@ -659,9 +766,11 @@
          2 paires de draps, 30ᶠ00; — 2 paires plus petites pour les enfants, 20ᶠ 00;— 4 taies d'oreiller en coton,3ᶠ00; — 5 serviettes en toile, 6ᶠ25 ; — vieux torchons (sans valeur). — Total, 59ᶠ23
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_10_332_114">
-         VÊTEMENTS : remarquables par la grossièreté et la solidité des étoffes et conservant encore le type particulier à l'Auvergne ; ils sont d'une durée très-longue en raison des nombreux raccommodages <pb facs="#facs_336" n="333" source="lesouvriersdesde02sociuoft_0339.xml"/> auxquels ils sont soumis ; ces étoffes proviennent d'ailleurs en partie du pays de l'ouvrier où elles sont filées dans les familles et tissées par un otvrier spécial dans chaque village ; elles sont pareilles pour les deux sexes ; le luxe consiste à les teindre en vert foncé pour les hommes et en brun marron pour les femmes........... 273ᶠ 50
+         VÊTEMENTS : remarquables par la grossièreté et la solidité des étoffes et conservant encore le type particulier à l'Auvergne ; ils sont d'une durée très-longue en raison des nombreux raccommodages
+         <pb facs="#facs_336" n="333" source="lesouvriersdesde02sociuoft_0339.xml"/>
+         auxquels ils sont soumis ; ces étoffes proviennent d'ailleurs en partie du pays de l'ouvrier où elles sont filées dans les familles et tissées par un otvrier spécial dans chaque village ; elles sont pareilles pour les deux sexes ; le luxe consiste à les teindre en vert foncé pour les hommes et en brun marron pour les femmes........... 273ᶠ 50
         </p>
         <p xml:id="para_10_333_116">
          VÊTEMENTS DE L'OUVR (48ᶠ50) : d'une forme spéciale à son pays.
@@ -706,10 +815,11 @@
          3 blouses et 2 tabliers faits avec d'anciennes étoffes ayant déjà servi dans le ménage.
         </p>
         <p xml:id="para_10_334_134">
-         <pb facs="#facs_337" n="334" source="lesouvriersdesde02sociuoft_0340.xml"/> 2ᶠ 50; — 1 bonnet blanc, 1ᶠ 00; 1 bonnet de couleur, 0ᶠ50 ; — 3 paires de souliers, 5100, — Total, 9ᶠ00.
+         <pb facs="#facs_337" n="334" source="lesouvriersdesde02sociuoft_0340.xml"/>
+         2ᶠ 50; — 1 bonnet blanc, 1ᶠ 00; 1 bonnet de couleur, 0ᶠ50 ; — 3 paires de souliers, 5100, — Total, 9ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_10_334_135">
          VALEUR TOTALE du mobilier et des vêtements......... 768ᶠ 50
         </p>
@@ -759,7 +869,9 @@
         <ref target="#" type="renvoi_ext_oe">
          [Ouv. europ. XV (B)]
         </ref>
-        . Pour sub<pb facs="#facs_338" n="335" source="lesouvriersdesde02sociuoft_0341.xml"/>venir aux nécessités pressantes de cette position, le père de l'ouvrier émigra vers Paris, et y exerça le métier de porteur d'eau dans le¬quel son fils lui succéda plus tard. Son salaire, religieusement em¬ployé à solder les dettes de la famille, fut souvent insuffisant, et il dut contracter des emprunts, habituellement usuraires, auprès de ses camarades d'émigration plus fortunés que lui. La mère, pendant les diverses absences ede son mari, continua à cultiver sa modeste pro¬priété avec l'aide de ses jeunes enfants. L'ouvrier, qui était l'ainé d'entre eux, fut d'abord employé à a garde des animaux domesti¬ques. A douze ans, il venait de faire sa première communion, lors¬que le retour momentané de son père le contraignit à louer ses ser¬vices hors de la famille. Il fut engagé à titre de berger par les cinq ou six familles qui formaient le hameau ; celles-ci le nourrissaient, le logeaient à tour de rôle et lui donnaient une rétribution annuelle de 60ᶠ. Trois années après Girard T**, cédant aux sollicitations de son père qui l'appelait à Paris, émigra à son tour.  l'aida dans les travaux de son métier, et recueillit la clientèle que celui-ci lui abandonna deux as plus tard pour retourner définitivement au pays. Son père, en partant, laissait environ 3,000ᶠde dettes que l'ouvrier prit à tâche de payer avec le fruit de son travail. Mais sur ces entrefaites, il atteignit l'âge de la conscription, et malgré tous ses efforts, il ne put éviter de paraître sous les drapeaux. Le ser¬vice militaire lui inspirait une vive répugnance
+        . Pour sub
+        <pb facs="#facs_338" n="335" source="lesouvriersdesde02sociuoft_0341.xml"/>
+        venir aux nécessités pressantes de cette position, le père de l'ouvrier émigra vers Paris, et y exerça le métier de porteur d'eau dans le¬quel son fils lui succéda plus tard. Son salaire, religieusement em¬ployé à solder les dettes de la famille, fut souvent insuffisant, et il dut contracter des emprunts, habituellement usuraires, auprès de ses camarades d'émigration plus fortunés que lui. La mère, pendant les diverses absences ede son mari, continua à cultiver sa modeste pro¬priété avec l'aide de ses jeunes enfants. L'ouvrier, qui était l'ainé d'entre eux, fut d'abord employé à a garde des animaux domesti¬ques. A douze ans, il venait de faire sa première communion, lors¬que le retour momentané de son père le contraignit à louer ses ser¬vices hors de la famille. Il fut engagé à titre de berger par les cinq ou six familles qui formaient le hameau ; celles-ci le nourrissaient, le logeaient à tour de rôle et lui donnaient une rétribution annuelle de 60ᶠ. Trois années après Girard T**, cédant aux sollicitations de son père qui l'appelait à Paris, émigra à son tour.  l'aida dans les travaux de son métier, et recueillit la clientèle que celui-ci lui abandonna deux as plus tard pour retourner définitivement au pays. Son père, en partant, laissait environ 3,000ᶠde dettes que l'ouvrier prit à tâche de payer avec le fruit de son travail. Mais sur ces entrefaites, il atteignit l'âge de la conscription, et malgré tous ses efforts, il ne put éviter de paraître sous les drapeaux. Le ser¬vice militaire lui inspirait une vive répugnance
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (B)
         </ref>
@@ -773,7 +885,9 @@
         ; mais Girard T** entretenait toujours l'idée de revenir à Paris.
        </p>
        <p xml:id="para_10_335_150">
-        Vers cette époque, il rechercha en mariage la fille de petits cultivateurs voisins, qu'il n'obtint toutefois qu'après quelque temps d'hesitation de la part de la femme. Elisabeth G*** éprouvaitrune <pb facs="#facs_339" n="336" source="lesouvriersdesde02sociuoft_0342.xml"/> préférence marquée pour l'un de ses cousins, mais comme Girar * était un parti beaucoup plus avantageux sous le rapport de la for¬tune, elle dut céder aux instances de ses parents qui étaient très¬désireux de voir cette union s'accomplir. Ils furent mariés sous le régime dotal ; les parents du mari lui assuraient par contrat de mariage le quart en sus de sa part dans leur héritage
+        Vers cette époque, il rechercha en mariage la fille de petits cultivateurs voisins, qu'il n'obtint toutefois qu'après quelque temps d'hesitation de la part de la femme. Elisabeth G*** éprouvaitrune
+        <pb facs="#facs_339" n="336" source="lesouvriersdesde02sociuoft_0342.xml"/>
+        préférence marquée pour l'un de ses cousins, mais comme Girar * était un parti beaucoup plus avantageux sous le rapport de la for¬tune, elle dut céder aux instances de ses parents qui étaient très¬désireux de voir cette union s'accomplir. Ils furent mariés sous le régime dotal ; les parents du mari lui assuraient par contrat de mariage le quart en sus de sa part dans leur héritage
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (C)
         </ref>
@@ -801,7 +915,9 @@
         Cette somme de 3,225' fut partagée également entre sa sur et lui. Cependant il céda à celle-ci cette partie de l'héritage, à condition qu'elle se chargerait désormais de la nourriture et de l'entretien de leur vieille mère.
        </p>
        <p xml:id="para_10_336_157">
-        L'ouvrier s'empressa de rembourser la dette qu'il avait contractée envers son oncle ; il dut ensuite restituer à la famille de sa femme les 1,800ᶠde la dot de celle-ci, quin'étaiientplus garantis par la propriété <pb facs="#facs_340" n="337" source="lesouvriersdesde02sociuoft_0343.xml"/> paternelle. Cette somme fut placée sur hypothèque dans le pays, et les époux en reçoivent régulièrement le reveù
+        L'ouvrier s'empressa de rembourser la dette qu'il avait contractée envers son oncle ; il dut ensuite restituer à la famille de sa femme les 1,800ᶠde la dot de celle-ci, quin'étaiientplus garantis par la propriété
+        <pb facs="#facs_340" n="337" source="lesouvriersdesde02sociuoft_0343.xml"/>
+        paternelle. Cette somme fut placée sur hypothèque dans le pays, et les époux en reçoivent régulièrement le reveù
         <ref target="#part_02_02_06" type="renvoi_int_mono">
          (§ 6)
         </ref>
@@ -936,7 +1052,8 @@
         (A) SUR L'AMÉNAGEMENT DES EAUX DANS LA VILLE DE PARIS.
        </head>
        <p xml:id="para_10_349_174">
-        <pb facs="#facs_352" n="349" source="lesouvriersdesde02sociuoft_0355.xml"/> L'approvisionnement et la distribution de l'eau nécessaire à la consommation quotidienne de la ville de Paris sont entièrement placés sous la direction de l'administration municipale. Elle dispose d'une quantité totale de 7,390 peuces d'eau, correspondant environ à 147,800ᵉ d'eau dans l'espace de 24 heures. Cette eau pro¬vient :
+        <pb facs="#facs_352" n="349" source="lesouvriersdesde02sociuoft_0355.xml"/>
+        L'approvisionnement et la distribution de l'eau nécessaire à la consommation quotidienne de la ville de Paris sont entièrement placés sous la direction de l'administration municipale. Elle dispose d'une quantité totale de 7,390 peuces d'eau, correspondant environ à 147,800ᵉ d'eau dans l'espace de 24 heures. Cette eau pro¬vient :
        </p>
        <figure rend="portrait" type="table">
         <head resp="added" type="table" xml:id="figure_2">
@@ -1002,7 +1119,9 @@
         ce qui laisse 55,341-ᵉ disponibles.
        </p>
        <p xml:id="para_10_349_192">
-        Les 60 fontaines publiques ou de puisage sont les seules où l'on ait le droit de prendre l'eau librement ; elles alimentent la modeste industrie des porteurs d'eau à bras ou à ˉla bretelle. Les fontaines marchandes fourissent de l'eau filtrée aux frais de l'administra<pb facs="#facs_353" n="350" source="lesouvriersdesde02sociuoft_0356.xml"/>tion municipale, et les porteurs d'eau, qui exercent leur industrie à l'aide d'une voiture dite tonneau, viennent s'y approvisionner moyen¬nant une rétribution de 0ᶠ90 par mètre cube.
+        Les 60 fontaines publiques ou de puisage sont les seules où l'on ait le droit de prendre l'eau librement ; elles alimentent la modeste industrie des porteurs d'eau à bras ou à ˉla bretelle. Les fontaines marchandes fourissent de l'eau filtrée aux frais de l'administra
+        <pb facs="#facs_353" n="350" source="lesouvriersdesde02sociuoft_0356.xml"/>
+        tion municipale, et les porteurs d'eau, qui exercent leur industrie à l'aide d'une voiture dite tonneau, viennent s'y approvisionner moyen¬nant une rétribution de 0ᶠ90 par mètre cube.
        </p>
        <p xml:id="para_10_350_195">
         Un fait important à signaler ici, c'est que les efforts de l'adminis¬tration de la ville tendent constamment à supprimer les fontaines publiques pour augmenter les concessions particulières. Non-seule¬ment ce système devra assurer à la ville un revenu très-important, mais il amènera une meilleure répartition des eaux dans les diffé¬rents quartiers de la capitale. Il en résultera d'ailleurs une grande économie pour chaque habitant ; on a calculé que l'eau apportée au consommateur par un porteur d'eau ordinaire, revenait à 3ᶠ 75. le mètre cube, tandis que les prix des concessions particulières ne sont que de 0ᶠ28 le mètre cube pour les eaux de Seine et de sources, et de 0ᶠ14 le mètre cube pour les eaux du canal de l'Ourcq.
@@ -1013,7 +1132,7 @@
          (§ 1)
         </ref>
         , et on a pu constater, en effet, que leur nombre di¬minue considérablement. A la fontaine Saint-Michel par exemple, on comptait, en 1830, environ 30 porteurs d'eau venant régulièrement s'y approvisionner, et vivant exclusivement de cette industrie et de celle de scieur de bois ; aujourd'hui ce nombre est réduità 5. Cepen¬dant, l'émigration de cette classe d'ouvriers n'est pas moindre qu'elle n'était à cette époque, puisque au contraire la population des départements du Cantal et du Puy-de-Dôme qui l'alimente a diminué de 11,000 habitants dans l'espace de 20 ans. Les uns se sont livrés à d'autres métiers, tels que celui de marchand de charbon ; d'autres, et c'est le plus grand nombre, ont adopté un système plus favorable dans ces conditions nouvelles ; ils transportent l'eau dans des voitures dites tonneaux traînées à bras d'homme ou attelées d'un cheval ou d'un âne. Aujourd'hui cette industrie est ainsi répartie :
-       </p> 
+       </p>
        <p xml:id="para_10_350_197">
         7 tonneaux attelés d'anes.
        </p>
@@ -1039,7 +1158,8 @@
         (B) SUR LES MŒURS, L'ORGANISATION AGRICOLE ET LE RÉGIME D'ÉMIGRATION DES MONTAGNES DE L'AUVERGNE.
        </head>
        <p xml:id="para_10_351_204">
-        <pb facs="#facs_354" n="351" source="lesouvriersdesde02sociuoft_0357.xml"/>PAR M. DELBET PERE
+        <pb facs="#facs_354" n="351" source="lesouvriersdesde02sociuoft_0357.xml"/>
+        PAR M. DELBET PERE
        </p>
        <p xml:id="para_10_351_205">
         Le but de la présente note est de décrire les mœurs de ces rudes travailleurs qu'on rencontre à Paris et dans toutes les contrées de l'Europe, où il faut déployer force musculaire et persévérance.
@@ -1060,7 +1180,9 @@
         La population loérienne n'émigre pas : elle s'épanche périodique¬ment, à jours fixes, par familles entières sans distinction de sexe. C'est un flot composé de tous les membres valides de chaque pa¬roisse. On part le dimanche, après la messe, avec la bénédiction du curé, en emportant pour tou bagage un peu de linge, une faucille, un fléau. La journée et au besoin la nuit suffisent pour atteindre les villages où se tiennent des foires spéciales ; on se loue par famille entière, en nombre suffisant pour faire un travail donné dans un délai fixé, et chacun se trouve content s'il rapporte 20 à 30ᶠau logis. Cet argent a pour destination régulière de payer d'abord l'impôt qu'on appelle encore la taille dans le pays.puis la dette contractée envers le curé pour les frais du culte ; le reste est employé à l'achat de quelques vêtements.
        </p>
        <p xml:id="para_10_351_211">
-        L'habitant du Cantal est moins sobre en ses désirs : il s'impose les longues absences, les voyages lointains, la privation des joies de la famille, le travail soutenu pendant huit ou dix mois chaque année ; mais il lui faut d'autres résultats, il lui faut l'argent néces<pb facs="#facs_355" n="352" source="lesouvriersdesde02sociuoft_0358.xml"/>saire pour mener brillante vie pendant deux ou trois mois au village s'il estgarçon, et, s'il estmarié, père de famille, il faut acheter chaque année un coin de terre, un pré surtout qui fait la gloire et l'aisance de la maison.
+        L'habitant du Cantal est moins sobre en ses désirs : il s'impose les longues absences, les voyages lointains, la privation des joies de la famille, le travail soutenu pendant huit ou dix mois chaque année ; mais il lui faut d'autres résultats, il lui faut l'argent néces
+        <pb facs="#facs_355" n="352" source="lesouvriersdesde02sociuoft_0358.xml"/>
+        saire pour mener brillante vie pendant deux ou trois mois au village s'il estgarçon, et, s'il estmarié, père de famille, il faut acheter chaque année un coin de terre, un pré surtout qui fait la gloire et l'aisance de la maison.
        </p>
        <p xml:id="para_10_352_213">
         Riche ou pauvre, l'Auvergnat du village est élevé avec cette idée que l'émigration est un besoin, un devoir, le seul moyen d'acquérir ou d'augmenter l'aisance.
@@ -1084,7 +1206,9 @@
         Ces premiers produits reviennent à la famille, l'enfant n'en touche rien, il ne doit avoir aucun besoin, aucune dépense ne lui est per¬mise. Les vêtements sont remis en état ou remplacés au retour. Les distractions d'ailleurs ne sont pas permises tant qu'on est en voyage ; c'est au retour seulement et dans le pays qu'on a le droit d'être jeune, et pendant deux mois on se dédommage du travail forcé par les jeux les plus bruyants et les plus animés. La famille fournit aux frais de ces amusements dans la proportion de l'épargne ob¬tenue.
        </p>
        <p xml:id="para_10_352_220">
-        Cette épargne doit suffire plus tard pour assurer l'exonération du service militaire, service antipathique au montagnard au point que, <pb facs="#facs_356" n="353" source="lesouvriersdesde02sociuoft_0359.xml"/> dans les temps difficiles, on a vu de nombreux réfractaires, protégés par la population tout entière, échapper longtemps aux exigences de la loi. Cet esprit d'insurrection est heureusement remplacé par un esprit de prévoyance. Le travail et l'économie suffisent pour donner les moyens de payer l'exonération.
+        Cette épargne doit suffire plus tard pour assurer l'exonération du service militaire, service antipathique au montagnard au point que,
+        <pb facs="#facs_356" n="353" source="lesouvriersdesde02sociuoft_0359.xml"/>
+        dans les temps difficiles, on a vu de nombreux réfractaires, protégés par la population tout entière, échapper longtemps aux exigences de la loi. Cet esprit d'insurrection est heureusement remplacé par un esprit de prévoyance. Le travail et l'économie suffisent pour donner les moyens de payer l'exonération.
        </p>
        <p xml:id="para_10_353_222">
         Ceci fait, on s'occupe de capitaliser les gages jusqu'au moment où, disposant d'un petit pécule, le jeune homme devient maître à son tour et voyage pour son compte. S'il réussit, s'il rapporte beau¬coup au village, si, garçon, il peut acheter un champ, un pré sur¬tout, alors sa réputation est faite, il peut choisir parmi les jeunes filles de sa paroisse ou des paroisses voisines
@@ -1112,7 +1236,9 @@
         Sur les hauts plateaux, ce sont des pâturages inaccessibles en hiver et couverts pendant l'été de vaches laitières ou de bœufs à l'enrais.
        </p>
        <p xml:id="para_10_353_229">
-        Dans les vallées se trouvent des prés bien entretenus, bienarrosés, <pb facs="#facs_357" n="354" source="lesouvriersdesde02sociuoft_0360.xml"/> qui fournissent le foin nécessaire à la nourriture des bestiaux pen¬dant la mauvaise saison.
+        Dans les vallées se trouvent des prés bien entretenus, bienarrosés,
+        <pb facs="#facs_357" n="354" source="lesouvriersdesde02sociuoft_0360.xml"/>
+        qui fournissent le foin nécessaire à la nourriture des bestiaux pen¬dant la mauvaise saison.
        </p>
        <p xml:id="para_10_354_232">
         Ces bestiaux sont la seule véritable richesse du pays qui exporte : 1ᵉ le fromage produit à la montagne par les vaches laitières ; 2ᵉ les jeunes bœufs très-estimés pour le travail ; 3ᵉ les vaches engraissées à l'herbe et les bœufs engraissés au foin sec.
@@ -1148,7 +1274,9 @@
         Les familles sont nombreuses ; c'est une joie, c'est une gloire que d'avoir beaucoup d'enfants ; et point de soucis, point de préoccu¬pations de leur avenir. L'émigration est là, ouvrant porte assurée à l'aisance, à la fortune peut-être, pour qui veut travailler.
        </p>
        <p xml:id="para_10_354_243">
-        Quels que soient les goûts, quelles que soient les aptitudes, il y <pb facs="#facs_358" n="355" source="lesouvriersdesde02sociuoft_0361.xml"/> a place pour tout et pour tous : pionniers, scieurs de long, chaudron¬niers, émouleurs, porteurs d'eau, charbonniers, marchands de pa¬rapluies, de couvertures, marchands d'étoffes, de quincailleries, marchands de peaux de lapins, marchands de chevaux, ferrailleurs, tout se trouve, non pas dans l'organisation matérielle du pays, car aucune de ces industries n'y est exercée, mais dans les esprits et dans les idées, sans apprentissage.
+        Quels que soient les goûts, quelles que soient les aptitudes, il y
+        <pb facs="#facs_358" n="355" source="lesouvriersdesde02sociuoft_0361.xml"/>
+        a place pour tout et pour tous : pionniers, scieurs de long, chaudron¬niers, émouleurs, porteurs d'eau, charbonniers, marchands de pa¬rapluies, de couvertures, marchands d'étoffes, de quincailleries, marchands de peaux de lapins, marchands de chevaux, ferrailleurs, tout se trouve, non pas dans l'organisation matérielle du pays, car aucune de ces industries n'y est exercée, mais dans les esprits et dans les idées, sans apprentissage.
        </p>
        <p xml:id="para_10_355_245">
         Le hasarddécide, l'âge est venu, l'enfant doit partir, etil part chau¬dronnier, parce qu'il s'est trouvé un maître qui en avait besoin pour cela ; mais il peut revenir marchand de chevau, parce qu'en voyage une circonstance l'aura mis en rapport avec un maître de cette pro¬fession, et que l'intelligence déployée dans une affaire l'aura fait remarquer et choisir pour l'année suivante.
@@ -1167,7 +1295,16 @@
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
-        . Il vit isolé au milieu des populations qu'il parcourt, n'ayant de relations que pour les affaires de son com¬merce, restant sobre malré les tentations d'une vie plus sensuelle <pb facs="#facs_359" n="356" source="lesouvriersdesde02sociuoft_0362.xml"/> <ref target="#part_02_03_09" type="renvoi_int_mono">(§ 9)</ref> ; travailleur, malgré les exemples de mollesse, simple dans ses vêtements <ref target="#part_02_03_10" type="renvoi_int_mono">(§ 10)</ref>, malgré le luxe qu'il connaît, qu'il encourage chez les autres, quand il est de son intérêt de le faire ainsi.
+        . Il vit isolé au milieu des populations qu'il parcourt, n'ayant de relations que pour les affaires de son com¬merce, restant sobre malré les tentations d'une vie plus sensuelle
+        <pb facs="#facs_359" n="356" source="lesouvriersdesde02sociuoft_0362.xml"/>
+        <ref target="#part_02_03_09" type="renvoi_int_mono">
+         (§ 9)
+        </ref>
+        ; travailleur, malgré les exemples de mollesse, simple dans ses vêtements
+        <ref target="#part_02_03_10" type="renvoi_int_mono">
+         (§ 10)
+        </ref>
+        , malgré le luxe qu'il connaît, qu'il encourage chez les autres, quand il est de son intérêt de le faire ainsi.
        </p>
        <p xml:id="para_10_356_251">
         Si, par exception, jl en est qui cèdent parfois à un entraînement quelconque, ils cachent avec soin la chute quelque innocente qu'elle soit, car il faudrait en rougir au retour dans la montagne. On se retrempe d'ailleurs aux vieilles habitudes pendant les deux ou trois mois de séjour, à l'époque des travaux de la moisson, et rarement on retombe.
@@ -1188,7 +1325,9 @@
         Enfin la marche, quelque longue qu'elle soit sur de bonnes routes, est une promenade pour qui a passé sa vie à monter et descendre les pentes abruptes et rocailleuses du pays natal.
        </p>
        <p xml:id="para_10_356_257">
-        La fatigue, les privations n'existent donc pas pour l'Auvergnat du Cantal, et c'est à tort, nous le répétons, qu'on y cherche l'ex¬plication des pertes résultant de l'émigration. La véritable cause de ces pertes est dans les excès auxquels s'abandonnent quel<pb facs="#facs_360" n="357" source="lesouvriersdesde02sociuoft_0363.xml"/>ques jeunes gens emportés par la fougue des passions, et presque toujours on remarque que ce malheur arrive à ceux dont l'éduca¬tion morale a été négligée par une cause quelconque, à ceux surtout auxquels les enseignements de famille ont fait défaut.
+        La fatigue, les privations n'existent donc pas pour l'Auvergnat du Cantal, et c'est à tort, nous le répétons, qu'on y cherche l'ex¬plication des pertes résultant de l'émigration. La véritable cause de ces pertes est dans les excès auxquels s'abandonnent quel
+        <pb facs="#facs_360" n="357" source="lesouvriersdesde02sociuoft_0363.xml"/>
+        ques jeunes gens emportés par la fougue des passions, et presque toujours on remarque que ce malheur arrive à ceux dont l'éduca¬tion morale a été négligée par une cause quelconque, à ceux surtout auxquels les enseignements de famille ont fait défaut.
        </p>
        <p xml:id="para_10_357_259">
         Pour ceux-là, le retour à la montagne est à peu près impossible ; ils ne trouveraient pas une main amie pour serrer leurs mains, pas une maison ne leur serait ouverte, pas une famille honnête ne voudrait les recevoir, tant on craint pour les enfants l'exemple du mal et la contagion ; on les montre au doigt, on les fuit comme en d'autres temps on fuyait des lépreux ; aussi, ne pouvant supporter le sen¬timent général de répulsion, cessent-ils bientôt de revenir au pays. Ce nesont plus des émigrants,'mais des émigrés, et ce sont ceux-là qu'on voit ordinairement mourir dans l'émigration épuisés par les excès, et peut-être par la trop longue privation de l'air natal, jointe à la souffrance morale résultant de la réprobation dont ils sont l'objet de la part de leurs compatriotes.
@@ -1212,7 +1351,9 @@
         On ne sait pas peut-être que noblesse oblige, mais de si loin qu'on appartienne à sa famille, on se croit obligé de conserver des mœurs pures et une réputation inattaquable de probité, parce que la robe du prêtre pourrait être tachée, de la faute commise par un parent.
        </p>
        <p xml:id="para_10_357_266">
-        Le prêtre a d'ailleurs à remplir des devoirs de famille, auxquels <pb facs="#facs_361" n="358" source="lesouvriersdesde02sociuoft_0364.xml"/> il ne manque jamais. Les garçons lui appartiennent en attendant que l'émigration les enlève ; mais c'est dans la famille, sous les yeux de la mère que se fait cette éducation, jusqu'au moment où la confiance de son évêque donne charge d'âmes au jeune ecclésias¬tique, resté depuis l'ordination vicaire suppléant dans sa propre paroisse.
+        Le prêtre a d'ailleurs à remplir des devoirs de famille, auxquels
+        <pb facs="#facs_361" n="358" source="lesouvriersdesde02sociuoft_0364.xml"/>
+        il ne manque jamais. Les garçons lui appartiennent en attendant que l'émigration les enlève ; mais c'est dans la famille, sous les yeux de la mère que se fait cette éducation, jusqu'au moment où la confiance de son évêque donne charge d'âmes au jeune ecclésias¬tique, resté depuis l'ordination vicaire suppléant dans sa propre paroisse.
        </p>
        <p xml:id="para_10_358_268">
         Les pratiques religieuses, fidèlement suivies pendant l'enfance, sont exigées du jeune homme à chaque retour périodique dans la montagne ; il ne vient pas à l'idée de s'y soustraire ; car l'exemple est donné par les parents à tous les degrés, et de plus l'opinion publique repousserait le téméraire qui se croirait assez fort pour braver les accidents du voyage, sans avoir reçu au départ l'assis¬tance donnée par les sacrements.
@@ -1230,7 +1371,9 @@
         A défaut de communauté ou de maison qui les reçoive ; les sœurs de Saint-Dominique échappent à l'isolement en se dévouant à la fa¬mille qui les conserve dans son sein, partageant les travaux des champs, les soins du ménage, l'éducation des enfants ; elles sont la providence des familles assez heureuses pour les posséder. Leur présence maintient les meurs ; la règle qui leur impose certaines pratiques religieuses à heures fixes de chaque journée, donne l'ha¬bitude de la prière et de la méditation. Leur abnégation personnelle donne l'exemple du dévouement. C'est une seconde mère pour les enfants, une sœur vénérée du chef de famille, gardienne de l'hon¬neur du logis pendant l'absence, et par cela même assez influente pour ramener au bien ce chef de famille lui-même, s'il rapportait de ces longues absences périodiques des habitudes qui ne seraient plus en rapport avec les vieilles traditions soigneusement conser¬vées.
        </p>
        <p xml:id="para_10_358_273">
-        Dans les familles pauvres, là où elles ne trouveraient pas de terre <pb facs="#facs_362" n="359" source="lesouvriersdesde02sociuoft_0365.xml"/> à cultiver, les sœurs se destinent à une espèce de domesticité dont on ne voit guère d'exemple dans aucun pays.
+        Dans les familles pauvres, là où elles ne trouveraient pas de terre
+        <pb facs="#facs_362" n="359" source="lesouvriersdesde02sociuoft_0365.xml"/>
+        à cultiver, les sœurs se destinent à une espèce de domesticité dont on ne voit guère d'exemple dans aucun pays.
        </p>
        <p xml:id="para_10_359_275">
         Pour ces dernières, le noviciat, 'indépendamment des pratiques religieuses, consiste à apprendre à devenir cuisinières, femmes de chambre, servantes de fermes. La règle ordonne de se plier à tout, et l'instruction acquise, le développement des facultés intellec¬tuelles servent à faire accepter résolûment la position prise quels qu'en soient les inconvénients.
@@ -1254,7 +1397,9 @@
         L'émigration conserve l'esprit de famille, car jusqu'à certain âge tous les enfants apportent à la maison les gains faits en voyage: car les économies faites par la communauté ont pour but principal de procurer à chaque enfant le pécule nécessaire pour exercer son industrie ou son commerce quand l'âge sera venu ; car, au'lieu de la vie à part de chacun dans son ménage, on voit tous les membres de la famille, vivant réunis, surtout pendant la saison des voyages, comme pour chercher à remplacer par la vie commune la protection que ne donnent plus les chefs de la communauté.
        </p>
        <p xml:id="para_10_359_282">
-        Enfin, l'émigration développe l'esprit d'association, l'esprit d'en¬treprise, l'intelligence par l'expérience acquise, la force de carac<pb facs="#facs_363" n="360" source="lesouvriersdesde02sociuoft_0366.xml"/>tère par l'énergie qu'il faut déployer pour surmonter les difficultés inséparables de cet état.
+        Enfin, l'émigration développe l'esprit d'association, l'esprit d'en¬treprise, l'intelligence par l'expérience acquise, la force de carac
+        <pb facs="#facs_363" n="360" source="lesouvriersdesde02sociuoft_0366.xml"/>
+        tère par l'énergie qu'il faut déployer pour surmonter les difficultés inséparables de cet état.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
@@ -1281,7 +1426,9 @@
         Avec ce capital argent, les garçons émigrent et cherchent for¬tune. Les filles apportent à leurs maris le moyen d'augmenter les affaires ou de devenir maîtres. L'habitude de l'émigration, et les profits qui en découlent pour qui veut travailler et épargner font que souvent les enfants préfèrent la dot reçue à la position d'aîné ou héritier du bien. Celui-ci se trouve en effet dans une position moins bonne pour commercer ; il n'a pas reçu de capital argent, et celui qui lui vient de sa femme doit être successivement remis aux frères et sœurs qui s'établissent. La condition est acceptée néan¬moins à titre de devoir, même lorsqu'elle est désavantageuse.
        </p>
        <p xml:id="para_10_360_290">
-        C'est le père, avons-nous dit, qui reçoit la dot apportée par le conjoint de l'héritier, et il en dispose selon les intérêts de la maison dont il reste le chef. Le nouveau ménage apporte son contingent de travail, et vit en commun avec les parents de tous âges et à tous degrés. Plusieurs générations se trouvent ainsi réunies sous le même toit, acceptant l'autorité du chef de famille aussi longtemps <pb facs="#facs_364" n="361" source="lesouvriersdesde02sociuoft_0367.xml"/> que ce dernier conserve l'aptitude du commandement. Cette auto¬rité passe sans secousses à l'héritier, lorsqu'il a fait preuve d'expé¬rience et qu'il est d'âge à se faire obéir.
+        C'est le père, avons-nous dit, qui reçoit la dot apportée par le conjoint de l'héritier, et il en dispose selon les intérêts de la maison dont il reste le chef. Le nouveau ménage apporte son contingent de travail, et vit en commun avec les parents de tous âges et à tous degrés. Plusieurs générations se trouvent ainsi réunies sous le même toit, acceptant l'autorité du chef de famille aussi longtemps
+        <pb facs="#facs_364" n="361" source="lesouvriersdesde02sociuoft_0367.xml"/>
+        que ce dernier conserve l'aptitude du commandement. Cette auto¬rité passe sans secousses à l'héritier, lorsqu'il a fait preuve d'expé¬rience et qu'il est d'âge à se faire obéir.
        </p>
        <p xml:id="para_10_361_292">
         En outre des enfants, du père, de l'aieul, il y a toujours dans la maison des oncles ou tantes célibataires, travaillant au profit de la maison, regardant comme leurs les enfants qui naissent, et cepen¬dant laissant presque toujours à l'héritier leur part de la succession des grands parents et les économies qu'ils ont pu faire. Cette donation n'est pas, le plus souvent
@@ -1297,7 +1444,9 @@
         Un des effets matériels de l'application de ces idées est de main¬tenir la propriété presque toujours intacte entre les mains d'un des membres de chaque famille. Le morcellement est chose iconnue dans la montagne. En cas fort rare de partage, la division des im¬meubles se fait par lots composés de pièces entières et même, en cas de mésintelligence, il ne vient à l'esprit d'aucun des enfants de convoiter ce qui doit naturellement appartenir à la maison et rester à l'héritier choisi par le père. Ce serait une monstruosité que d'é¬lever des prétentions sur cette partie; le sentiment public indigné mettrait au ban de la paroisse quiconque méconnaîtrait à ce point la tradition des devoirs de famille.
        </p>
        <p xml:id="para_10_361_295">
-        L'émigration contribue à entretenir ces idées, en ce sens qu'un des principaux devoirs de l'héritier est de recevoir l'émigrant dans la maison paternelle, lorsqu'au retour périodique ce dernier n'a pas sa maison, son intérieur qui l'attendent. On couche où l'on peut, on vit des ressources du ménage ; riche ou pauvre, on donne du travail. au besoin des cadeaux aux enfants si la campagne a été <pb facs="#facs_365" n="362" source="lesouvriersdesde02sociuoft_0368.xml"/> bonne ; mais il ne peut être question de payer les dépenses faites pendant le séjour : l'offrir serait une offense.
+        L'émigration contribue à entretenir ces idées, en ce sens qu'un des principaux devoirs de l'héritier est de recevoir l'émigrant dans la maison paternelle, lorsqu'au retour périodique ce dernier n'a pas sa maison, son intérieur qui l'attendent. On couche où l'on peut, on vit des ressources du ménage ; riche ou pauvre, on donne du travail. au besoin des cadeaux aux enfants si la campagne a été
+        <pb facs="#facs_365" n="362" source="lesouvriersdesde02sociuoft_0368.xml"/>
+        bonne ; mais il ne peut être question de payer les dépenses faites pendant le séjour : l'offrir serait une offense.
        </p>
        <p xml:id="para_10_362_297">
         Les contrats de mariage, qui se font presque tous sous le régime dotal, fournissent un nouveau moyen d'assurer la conservation du domaine patrimonial.

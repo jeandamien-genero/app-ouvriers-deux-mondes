@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_196">
@@ -257,7 +327,11 @@
       PAR
      </p>
      <p xml:id="para_7_193_7">
-      M. <persName>J. DAUBY</persName>, COMPOSITEUR-TYPOGRAPHE.
+      M.
+      <persName>
+       J. DAUBY
+      </persName>
+      , COMPOSITEUR-TYPOGRAPHE.
      </p>
     </div>
     <div n="002" type="section">
@@ -273,10 +347,13 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_7_193_13">
-        <pb facs="#facs_196" n="193" source="lesouvriersdesde02sociuoft_0199.xml"/> La famille habite l'un des faubourgs les plus considérables de Bruxelles, celui de Louvain, dans la commune de Saint-Josse-ten-Noode. Cette commune, située en grande partie dans un vallon, forme une sorte de long boyau, qui s'étend depuis le quartier Léo¬pold jusqu'à la rivière la Senneˉ (station du chemin de fer du Nord) et qui contourne la capitale sur une longueur de 2km 3.
+        <pb facs="#facs_196" n="193" source="lesouvriersdesde02sociuoft_0199.xml"/>
+        La famille habite l'un des faubourgs les plus considérables de Bruxelles, celui de Louvain, dans la commune de Saint-Josse-ten-Noode. Cette commune, située en grande partie dans un vallon, forme une sorte de long boyau, qui s'étend depuis le quartier Léo¬pold jusqu'à la rivière la Senneˉ (station du chemin de fer du Nord) et qui contourne la capitale sur une longueur de 2km 3.
        </p>
        <p xml:id="para_7_193_14">
-        Depuis un petit nombre d'années, la commune de Saint-Josse-ten-Noode a acquis une importance considérable. Sa population qui était, en 1826, de 1,340 habitants ; en 1836, de 5,000 ; en 1846, de 14,850; en 1856, de 17,700, s'élève aujourd'hui à plus <pb facs="#facs_197" n="194" source="lesouvriersdesde02sociuoft_0200.xml"/> de 18,000 habitants, malgré le morcellement qu'a subi la commune, en 1853, morcellement qui lui a enlevé, au profit de Bruxelles, un territoire de 141 hectares, comprenant actuellement 5,000 âmes (le quartier Léopold).
+        Depuis un petit nombre d'années, la commune de Saint-Josse-ten-Noode a acquis une importance considérable. Sa population qui était, en 1826, de 1,340 habitants ; en 1836, de 5,000 ; en 1846, de 14,850; en 1856, de 17,700, s'élève aujourd'hui à plus
+        <pb facs="#facs_197" n="194" source="lesouvriersdesde02sociuoft_0200.xml"/>
+        de 18,000 habitants, malgré le morcellement qu'a subi la commune, en 1853, morcellement qui lui a enlevé, au profit de Bruxelles, un territoire de 141 hectares, comprenant actuellement 5,000 âmes (le quartier Léopold).
        </p>
        <p xml:id="para_7_194_17">
         Le territoire actuel est de 100 hectares. La commune com¬prend 35 rues, et 27 impasses ou allées habitées principalement par la classe ouvrière. Il s'y trouve 2,600 maisons, construites en maçonnerie. En octobre 1846, époque d'un recensement général, Saint-Josse-ten-Noode comptait 120 maisons non habitées et 2,283 maison habitées, savoir :
@@ -318,7 +395,9 @@
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (C)
         </ref>
-        . Bien que les rapports des patrons et des ouvriers soient, en prin¬cipe, basés sur un régime d'engagements momentanés, il n'est pas <pb facs="#facs_198" n="195" source="lesouvriersdesde02sociuoft_0201.xml"/> rare de voir des ouvriers employés depuis un grand nombre d'an¬nées che le même maître. Ainsi, l'ouvrier décrit dans la présente monographie travaille depuis 17 ans dans le même atelier.
+        . Bien que les rapports des patrons et des ouvriers soient, en prin¬cipe, basés sur un régime d'engagements momentanés, il n'est pas
+        <pb facs="#facs_198" n="195" source="lesouvriersdesde02sociuoft_0201.xml"/>
+        rare de voir des ouvriers employés depuis un grand nombre d'an¬nées che le même maître. Ainsi, l'ouvrier décrit dans la présente monographie travaille depuis 17 ans dans le même atelier.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
@@ -330,22 +409,46 @@
         La famille comprend les deux époux, et quatre enfants, savoir :
        </p>
        <p xml:id="para_7_195_29">
-        1. <persName>J.-F.-J. D***</persName>, chef de famille, marié depuis 15 ans, né à Bruxelles............ 34 ans;
+        1.
+        <persName>
+         J.-F.-J. D***
+        </persName>
+        , chef de famille, marié depuis 15 ans, né à Bruxelles............ 34 ans;
        </p>
        <p xml:id="para_7_195_30">
-        2. <persName>CATHERINE B***</persName>, femme, née a Brnxelles............ 35 —
+        2.
+        <persName>
+         CATHERINE B***
+        </persName>
+        , femme, née a Brnxelles............ 35 —
        </p>
        <p xml:id="para_7_195_31">
-        3. <persName>Henri-Octave D***</persName>, leur premier fils, né à Bruxelles............ 14 —
+        3.
+        <persName>
+         Henri-Octave D***
+        </persName>
+        , leur premier fils, né à Bruxelles............ 14 —
        </p>
        <p xml:id="para_7_195_32">
-        4. <persName>Armand-Constant D***</persName>, leur second fils, — ............ 12 —
+        4.
+        <persName>
+         Armand-Constant D***
+        </persName>
+        , leur second fils, — ............ 12 —
        </p>
        <p xml:id="para_7_195_33">
-        5. <persName>Adolphe-Joseph D***</persName>, leur troisième fils, — ............ 10 — 1/2
+        5.
+        <persName>
+         Adolphe-Joseph D***
+        </persName>
+        , leur troisième fils, — ............ 10 — 1/2
        </p>
        <p xml:id="para_7_195_34">
-        6. <persName>Antoinette-Constance D***</persName>, leur fille, née a Saint-Josse-ten-Noode............ 1 —
+        6.
+        <persName>
+         Antoinette-Constance D***
+        </persName>
+        , leur fille, née a Saint-Josse-ten-Noode............ 1 —
        </p>
        <p xml:id="para_7_195_36">
         Le père et là mère, ainsi que l'un des frères de l'ouvrier, vivent encore : le père exerce la profession de cordonnier, dans la même conmune quoique âgé de 65 ans, il jouit d'une santé parfaite et trouve en grande partie dans son état les moyens de pourvoir à son entretien et à celui de sa femme, qui est ménagère ; le frère de l'ou¬vrier exerce la profession de compositeur-typographe et travaille dans le même atelier que ce dernier ; il demeure avec ses parents, auxquels il vient faiblement en aide. La femme a perdu son père depuis dix ans ; sa mère habite, avec l'un de ses frères, la ville de P**, en Brabant ; elle y vit du produit d'un immeuble dont, de commun accord, ses enfants lui ont laissé la jouissance ; la femme de l'ouvrier a, en outre, un autre frère et deux sœurs qui, tous trois mariés, trovent dans leur travail une existence honorable.
@@ -356,7 +459,9 @@
         § 3. — RELIGION ET HABITUDES MORALES.
        </head>
        <p xml:id="para_7_195_38">
-        Les deux époux sont nés de parents catholiques. L'ouvrier n'a reçu qu'ne instruction religieuse insuffisante ; voué au travail depuis l'age de neuf ans, c'est à peine sil a pu dérober quelques senaines à ses occuptions pour la fréquentation du catéchisme ; la rude école de l'dversité et du travail li a inculqué des sentiments nmoraux et religieux qui ne l'ont jamais quitté. Chaque dimanche, il se rend régulièremait à l'ofice divin avec ses fils. Pour ces der¬niers, c'est une véritable punition lorsqu'ils ne peuvent accompa¬gner leur père à la messe qui inaugure le jour du repos hebdoma¬lire. Pendant l saison favorable, une courte promenade a lieu <pb facs="#facs_199" n="196" source="lesouvriersdesde02sociuoft_0202.xml"/> après l'office du matin. Le père saisit ordinairement cette occasion pour faire admirer, par ses enfants, la grandeur des œuvres'duCréa¬teur, en leur recommandant de penser à lui dans toutes leurs ac¬tions ; tout en développant leur intelligence, il leur inculque ainsi peu à peu des sentiments moraux, dont il se plaît à constater fré¬quemment les bons effets.
+        Les deux époux sont nés de parents catholiques. L'ouvrier n'a reçu qu'ne instruction religieuse insuffisante ; voué au travail depuis l'age de neuf ans, c'est à peine sil a pu dérober quelques senaines à ses occuptions pour la fréquentation du catéchisme ; la rude école de l'dversité et du travail li a inculqué des sentiments nmoraux et religieux qui ne l'ont jamais quitté. Chaque dimanche, il se rend régulièremait à l'ofice divin avec ses fils. Pour ces der¬niers, c'est une véritable punition lorsqu'ils ne peuvent accompa¬gner leur père à la messe qui inaugure le jour du repos hebdoma¬lire. Pendant l saison favorable, une courte promenade a lieu
+        <pb facs="#facs_199" n="196" source="lesouvriersdesde02sociuoft_0202.xml"/>
+        après l'office du matin. Le père saisit ordinairement cette occasion pour faire admirer, par ses enfants, la grandeur des œuvres'duCréa¬teur, en leur recommandant de penser à lui dans toutes leurs ac¬tions ; tout en développant leur intelligence, il leur inculque ainsi peu à peu des sentiments moraux, dont il se plaît à constater fré¬quemment les bons effets.
        </p>
        <p xml:id="para_7_196_40">
         Les repas du matin et du soir sont toujours précédés d'une prière mentale, et, ostensiblement, du signe de la croix. Avant le diner, qui a lieu en commun, l'un des enfants, à tour de rôle, récite la prière à haute voix. Pour rien au monde, l'un ne céderait son tour à l'autre, et lorsqu'une absence quelconque vient intervertir le tour d'habitude, c'est un tableau charmant à contempler qué de voir l'insistance de l'un d'eux pour remplacer le manquant dans l'ac¬complissement de cette fonction.
@@ -368,7 +473,9 @@
         L'ouvrier est doué d'un caractère assez irritable ; il attache ce¬pendant beaucoup de prix à l'estime de son patron et de ses cama¬rades. Il ambitionne surtout la réputation d'ouvrier éclairé, labo¬rieux et honnête ; c'est en poursuivant sans cesse ce but, qu'il a su se créer, par son seul travail, une position honorable qu'il s'efforce chaque jour d'améliorer.
        </p>
        <p xml:id="para_7_196_43">
-        Il n'a guère fréquenté l'école que depuis sept jusqu'à neufans. Cependant, les exigences de la profession qu'il a embrassée, secon¬dées par une volonté persévérante, lui ont fait acquêrir par lui¬même une instruction moyenne assez solide. Il consacre tous ses instants de loisir à l'étude des faits littéraires, économiques et sociaux dont il peut se procurer les éléments. Il a écrit plusieurs petits ouvrages dans ce genre qui ont obtenu quelques succès. C'est ainsi que, dans un concours scientifique et littéraire qui eut lieu à Bruges, en 1853, il obtint une médaille de vermeil et fut nommé membre correspondant d'ûne société savante ; le mémoire qu'il écri¬vit à cette occasion reçut les honneurs de l'impression. En 1856, il obtint une autre médaille à l'exposition d'économie domestique de Bruxelles pour le manuscrit d'un livre spécialement destiné aux classes ouvrières, et dans lequel il expose, sous forme de conseils, les points principaux qui peuvent intéresser le bien-être physique et moral des ouvriers, sous le triple point de vue de la vie sociale, de l'atelier et de la famille. Cet ouvrage reçut l'approbation de plu<pb facs="#facs_200" n="197" source="lesouvriersdesde02sociuoft_0203.xml"/>sieurs personnages éminents qui donnèrent à l'ouvrier quelques marques d'encouragement
+        Il n'a guère fréquenté l'école que depuis sept jusqu'à neufans. Cependant, les exigences de la profession qu'il a embrassée, secon¬dées par une volonté persévérante, lui ont fait acquêrir par lui¬même une instruction moyenne assez solide. Il consacre tous ses instants de loisir à l'étude des faits littéraires, économiques et sociaux dont il peut se procurer les éléments. Il a écrit plusieurs petits ouvrages dans ce genre qui ont obtenu quelques succès. C'est ainsi que, dans un concours scientifique et littéraire qui eut lieu à Bruges, en 1853, il obtint une médaille de vermeil et fut nommé membre correspondant d'ûne société savante ; le mémoire qu'il écri¬vit à cette occasion reçut les honneurs de l'impression. En 1856, il obtint une autre médaille à l'exposition d'économie domestique de Bruxelles pour le manuscrit d'un livre spécialement destiné aux classes ouvrières, et dans lequel il expose, sous forme de conseils, les points principaux qui peuvent intéresser le bien-être physique et moral des ouvriers, sous le triple point de vue de la vie sociale, de l'atelier et de la famille. Cet ouvrage reçut l'approbation de plu
+        <pb facs="#facs_200" n="197" source="lesouvriersdesde02sociuoft_0203.xml"/>
+        sieurs personnages éminents qui donnèrent à l'ouvrier quelques marques d'encouragement
         <ref target="#part_02_02_07" type="renvoi_int_mono">
          (§ 7)
         </ref>
@@ -415,7 +522,9 @@
         , à laquelle il participe depuis bientôt quatore ans, sans avoir été, pécuniaire¬ment, plus de quatore jours à sa charge.
        </p>
        <p xml:id="para_7_197_51">
-        La femme est de taille moyenne (1ᵐ, 65), assez bien constituée et d'un tempérament lymphatique-sanguin. A l'époque de son ma¬riage, elle annonçait une disposition à la phthisie pulmonaire, qui éclata deux ans plus tard et qui la tint languissante pendant neuf mois. ne grossesse heureuse détermina alors che elle une brusque secousse qui changea le caractère de sa maladie, et la <pb facs="#facs_201" n="198" source="lesouvriersdesde02sociuoft_0204.xml"/> rendit à la santé et aux soins de son ménage, gravement compromis par ce dispendieux événement
+        La femme est de taille moyenne (1ᵐ, 65), assez bien constituée et d'un tempérament lymphatique-sanguin. A l'époque de son ma¬riage, elle annonçait une disposition à la phthisie pulmonaire, qui éclata deux ans plus tard et qui la tint languissante pendant neuf mois. ne grossesse heureuse détermina alors che elle une brusque secousse qui changea le caractère de sa maladie, et la
+        <pb facs="#facs_201" n="198" source="lesouvriersdesde02sociuoft_0204.xml"/>
+        rendit à la santé et aux soins de son ménage, gravement compromis par ce dispendieux événement
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
@@ -457,7 +566,9 @@
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
-        . Son aptitude et sa bonne conduite ont promptement déterminé son patron à lui confier la direction de ses atelies, ainsi que les écritures d'adminis<pb facs="#facs_202" n="199" source="lesouvriersdesde02sociuoft_0205.xml"/>tration et de correspondance, assez nombreuses par les détails, que comporte la spécialité de l'établissement où il est employé. Avant la révolution belge de 1830, ses parents jouissaient d'une certaine aisance, due à leur travail. Mais un patriotisme peut-être exagéré a poussé son père à remplir trop fréquemment ses devoirs civiques; cette circonstance ne tarda pas à plonger la famille dans la dé tresse, à tel point qu'à l'age de neuf ans l'ouvrier fut forcé d'aban¬donner l'école pour l'atelier, afin de venir en aide au ménage, dont, à quatorze ans, il supportait presque toutes les charges
+        . Son aptitude et sa bonne conduite ont promptement déterminé son patron à lui confier la direction de ses atelies, ainsi que les écritures d'adminis
+        <pb facs="#facs_202" n="199" source="lesouvriersdesde02sociuoft_0205.xml"/>
+        tration et de correspondance, assez nombreuses par les détails, que comporte la spécialité de l'établissement où il est employé. Avant la révolution belge de 1830, ses parents jouissaient d'une certaine aisance, due à leur travail. Mais un patriotisme peut-être exagéré a poussé son père à remplir trop fréquemment ses devoirs civiques; cette circonstance ne tarda pas à plonger la famille dans la dé tresse, à tel point qu'à l'age de neuf ans l'ouvrier fut forcé d'aban¬donner l'école pour l'atelier, afin de venir en aide au ménage, dont, à quatorze ans, il supportait presque toutes les charges
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
@@ -475,12 +586,12 @@
         <head type="sub_sub_section" xml:id="part_02_02_06">
          § 6. — PROPRIÉTÉS.
         </head>
-        <div type="proprietes" subtype="proprietes_texte_1">
+        <div subtype="proprietes_texte_1" type="proprietes">
          <p xml:id="para_7_199_66">
           (Mobilier et vêtenments non compris)
          </p>
         </div>
-        <div type="proprietes" subtype="immeubles">
+        <div subtype="immeubles" type="proprietes">
          <p xml:id="para_7_199_67">
           MEUBLES. . .................................... . 0ᶠ 00
          </p>
@@ -488,7 +599,7 @@
           La famille ne possède point d'immeuble et ne retire aucun intérêt de celui laissé par le père de la fomme; la mère de celle-ci en conserve la jouissance exclusive jusqu'a sa mort.
          </p>
         </div>
-        <div type="proprietes" subtype="argent">
+        <div subtype="argent" type="proprietes">
          <p xml:id="para_7_199_69">
           ARGENT. . .................................. ... . . 51 71
          </p>
@@ -496,18 +607,20 @@
           Somme déposée à la caisse d'épargne, à l'intérêt de 3 pour 100, et provenant de travaux d'écritures de l'ouvrier faits pour le compte de d'autrui. Ce capital, qui était primitivement de 100ᶠ, fut augmenté jusqu'à concurrence de 60ᶠ, y eompris les intéets. Divers événements de famille, tels que les dépenses occasionnées par la premières communion de deux de ses enfants, ont obligé l'ouvrier d'y faire diverses brèches, que les dures circonstances qui pèsent depuis plusieurs années sur les classes ouvrières, no¬tanment le haut prix des denrées, ne lui ont pas encore permis de réparer.
          </p>
         </div>
-        <div type="proprietes" subtype="materiel">
+        <div subtype="materiel" type="proprietes">
          <p xml:id="para_7_199_71">
           MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 66 00
          </p>
          <p xml:id="para_7_199_72">
-          1° Instruments de travail. — 2 composteurs en fer, 10ᶠ 00 — 2 composteurs en bois, <pb facs="#facs_203" n="200" source="lesouvriersdesde02sociuoft_0206.xml"/> 1ᶠ 00 ; — 1 pince d'imprimerie, 2ᶠ 25; — un visorium pour fier la copie, 1ᶠ 00,; ¬1 couteau à flet, 0ᶠ 50. — Total, 14ᶠ 75.
+          1° Instruments de travail. — 2 composteurs en fer, 10ᶠ 00 — 2 composteurs en bois,
+          <pb facs="#facs_203" n="200" source="lesouvriersdesde02sociuoft_0206.xml"/>
+          1ᶠ 00 ; — 1 pince d'imprimerie, 2ᶠ 25; — un visorium pour fier la copie, 1ᶠ 00,; ¬1 couteau à flet, 0ᶠ 50. — Total, 14ᶠ 75.
          </p>
          <p xml:id="para_7_200_74">
           2° Livres spéciaux et fournitures de bureau, nécessaires à la correction des epreuuves à domiciˉle et à divers travaux d'écritures. — 1 dictionnaire de l'Académie française avec son complément (reliés), 40ᶠ 00 ;—1 dictionnaire flamand-français, 5ᶠ 00; — 1 manuel grammatical, 0ᶠ75 ; — 1 grammaire française-latine, 2ᶠ 00; — 1 tableau des verbes fran¬cais, 0ᶠ50; — encriers, plumes, porte-plumes, crayons, regle et papier, 3ᶠ00. — Total, S1ᶠ25.
          </p>
         </div>
-        <div type="proprietes" subtype="proprietes_total">
+        <div subtype="proprietes_total" type="proprietes">
          <p xml:id="para_7_200_75">
           VALEUR TOTALE des propriétés..................... 117ᶠ 71
          </p>
@@ -536,13 +649,15 @@
         <head type="sub_sub_section" xml:id="part_02_02_08">
          § 8. — TRAVAUX ET INDUSTRIES.
         </head>
-        <div type="travaux" subtype="ouvrier">
+        <div subtype="ouvrier" type="travaux">
          <p xml:id="para_7_200_80">
           TRAVAUX DE L'OUVRIER. — Le travail de l'ouvrier est exér uté a l'heure, tant à l'atelier qu'à domicile, pour compte d'un pa¬tron. Il consiste dans la composition et la mise en pages typogra¬phiques, dans la lecture des épreuves
           <ref target="#part_03_01_19" type="renvoi_int_mono">
            (C)
           </ref>
-          , dans la tenue des écri<pb facs="#facs_204" n="201" source="lesouvriersdesde02sociuoft_0207.xml"/>tures relatives à l'administration de l'imprimerie et, enfin, dans la surveillance de l'atelier.
+          , dans la tenue des écri
+          <pb facs="#facs_204" n="201" source="lesouvriersdesde02sociuoft_0207.xml"/>
+          tures relatives à l'administration de l'imprimerie et, enfin, dans la surveillance de l'atelier.
          </p>
          <p xml:id="para_7_201_82">
           Il est rétribué à raison de 0ᶠ50 par heure de travail. Le travail effectif est, en moyenne, de onze heures par jour. Lorsque l'ouvrage donne faiblement, la journée du lundi se termine à quatre heures de l'après-dînée, mais, en revanche, l'ouvrier a assez régulièrement un travail supplémentaire de quelques heures le dimanche et à do¬micile. A moins de circonstances extraordinaires, qui ne se présen¬tent que trois à quatre fois par an, l'atelier est fermé le dimanche et les jours de fêtes observées.
@@ -551,17 +666,17 @@
           Le salaire est payé très-régulièrement chaque quinzaine, le sa¬medi soir. .
          </p>
         </div>
-        <div type="travaux" subtype="femme">
+        <div subtype="femme" type="travaux">
          <p xml:id="para_7_201_84">
           TRAVAUX DE LA FEMME. — La femme consacre tout son temps aux soins du ménage, à la confection, à l'entretien et au blanchis¬sage du linge et des vêtements de la famille. Elle excelle dans tous les travaux de couture. Avant son mariage, elle eerçait la profes¬sion de tailleuse et était maîtresse ouvrière dans son dernier atelier. Dans les premiers temps de son union, elle travaillait pour diverses personnes, mais, depuis une dizaine d'années, les soins de la com¬munauté la réclament exclusivement. Elle est active et diligente, et son logis est cité pour sa bonne tenue, malgré les embarras qu'oc¬casionnent inévitablement les enfants.
          </p>
         </div>
-        <div type="travaux" subtype="enfants">
+        <div subtype="enfants" type="travaux">
          <p xml:id="para_7_201_85">
           TRAVAUX DES ENFANTS. — Sauf le fils aîné qui vient d'entrer dans l'établissement où est occupé son père, en qualité d'apprenti com¬mis, aux appointements de 10ᶠ par mois, les enfants n'exécutent aucun travail.
          </p>
         </div>
-        <div type="industries" subtype="famille">
+        <div subtype="famille" type="industries">
          <p xml:id="para_7_201_86">
           INDUSTRIES ENTREPRSES PAR LA FAMILLE. — L'ouvrier a pour indus¬trie la surveillance exercée par lui dans l'atelier de l'imprimerie. Selon la nature des travaux et en cas d'urgence, il trouve, en outre, dans la lecture d'épreuves à domicile des ressources supplémen¬taires qui peuvent être portées en moyenne à 6ᶠ50 par quinzaine. La femme a pour principale industrie la confection et le blanchis¬sage du linge et des vêtements de la famille.
          </p>
@@ -577,7 +692,8 @@
          § 9. — ALIMENTS ET REPAS.
         </head>
         <p xml:id="para_7_202_90">
-         <pb facs="#facs_205" n="202" source="lesouvriersdesde02sociuoft_0208.xml"/>La famille fait, en communauté, trois repas principaux par jour : ceux du matin, du midi et du soir. Pendant la saison d'été, le mari fait, en outre, à l'atelier un second déjeuner, et en toute saison un goûter à quatre heures et demie.
+         <pb facs="#facs_205" n="202" source="lesouvriersdesde02sociuoft_0208.xml"/>
+         La famille fait, en communauté, trois repas principaux par jour : ceux du matin, du midi et du soir. Pendant la saison d'été, le mari fait, en outre, à l'atelier un second déjeuner, et en toute saison un goûter à quatre heures et demie.
         </p>
         <p xml:id="para_7_202_91">
          Le dejeuner se compose invariablement de café au lait, ou le plus souvent au sucre, avec pain beurré. Le pain est de première qualité.
@@ -599,9 +715,10 @@
         <head type="sub_sub_section" xml:id="part_02_03_10">
          § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
         </head>
-        <div type="par_10" subtype="par_10_texte_1">
+        <div subtype="par_10_texte_1" type="par_10">
          <p xml:id="para_7_203_97">
-          <pb facs="#facs_206" n="203" source="lesouvriersdesde02sociuoft_0209.xml"/>La famille occupe seule, depuis quatre ans, une petite maison, sur le mur de laquelle s'élève une vigne d'envin 12 mètres de dé¬veloppament. Cette maison est composée de quatre pièces djhabita¬tion, dont deux au re-de-chaussée et deux au 1ᵉʳ étage ; d'une cave, d'un grenier et d'une cour. a surface totale de ce logement, dont la vue donne s de vsstes et magnifiques jardins, peut être évaluée ainsi qu'il suit :
+          <pb facs="#facs_206" n="203" source="lesouvriersdesde02sociuoft_0209.xml"/>
+          La famille occupe seule, depuis quatre ans, une petite maison, sur le mur de laquelle s'élève une vigne d'envin 12 mètres de dé¬veloppament. Cette maison est composée de quatre pièces djhabita¬tion, dont deux au re-de-chaussée et deux au 1ᵉʳ étage ; d'une cave, d'un grenier et d'une cour. a surface totale de ce logement, dont la vue donne s de vsstes et magnifiques jardins, peut être évaluée ainsi qu'il suit :
          </p>
          <figure rend="portrait" type="table">
           <head resp="added" type="table" xml:id="figure_2">
@@ -662,12 +779,14 @@
           , le mobilier est exenpt de toute recherche de luxe, mais il est tenu avec propreté. Sa valeur est pproximativement ainsi qu'ii suit :
          </p>
         </div>
-        <div type="par_10" subtype="meubles">
+        <div subtype="meubles" type="par_10">
          <p xml:id="para_7_203_114">
           MEUBLES............ 90ᶠ 50
          </p>
          <p xml:id="para_7_203_115">
-          1° Lit.  bodsde lit en hêtre, avec lattes et traverses en chêne, 35ᶠ00; —1 nmatelas d line, ᶠ00e1 mtds ds atere, 14ᶠ00;   paillase, 21ᶠ00; — 1 taverin ds <pb facs="#facs_207" n="204" source="lesouvriersdesde02sociuoft_0210.xml"/> plume, 8ᶠ00 — 3 oreillers, 8ᶠ00 ; — 1 couverture de laine, 15ᶠ00; — 3 couvertures de coton, 18ᶠ00; — 1 berceau pour la fille, avec garniture, 15ᶠ00. — Total, 159ᶠ00.
+          1° Lit.  bodsde lit en hêtre, avec lattes et traverses en chêne, 35ᶠ00; —1 nmatelas d line, ᶠ00e1 mtds ds atere, 14ᶠ00;   paillase, 21ᶠ00; — 1 taverin ds
+          <pb facs="#facs_207" n="204" source="lesouvriersdesde02sociuoft_0210.xml"/>
+          plume, 8ᶠ00 — 3 oreillers, 8ᶠ00 ; — 1 couverture de laine, 15ᶠ00; — 3 couvertures de coton, 18ᶠ00; — 1 berceau pour la fille, avec garniture, 15ᶠ00. — Total, 159ᶠ00.
          </p>
          <p xml:id="para_7_204_117">
           2° Meubles du cabinet (rez-de-chaussee). — 1 commode en orme, 18ᶠ00; — 1 table avec toile cirée et tapis, 10ᶠ50; — 1 pendule en bronze doré, 48ᶠ00; —2 vases en porcelaine fine, avec fleurs artificielles, 20ᶠ00 ; — 2 grands cadres contenant des images de prix, coloriées, 20ᶠ00; — 4 cadres plus petits contenant des portraits, 8ᶠ 00 — 1 cadre renfer¬mant l'attestation d'une nécompense obtenue par l'ouvrier, 5ᶠ00 ; — 1 petite glace, 3ᶠ00; — 2 médaillons en platre (sujets religieux), 2ᶠ 00; — 2 petites statuettes d'étagere en porcelaine de Saxe, 9ᶠ00; — 1 saint Joseph en imitation d'abbatre (biscuit), 2ᶠ00 ; ¬6 chaises en bois de cerisier, 20ᶠ 00 ; —1 fauteuil en bois de hêtre, 8ᶠ00; — 1 jardinière avec fleurs naturelles, 10ᶠ00 ; — 1 paravent de cheminée, 1ᶠ00 ; — 3 médailles encadrées, dont 1 en vermeil et 2 en bronzes, 30ᶠ00 — Total, 21eᶠ;
@@ -689,7 +808,7 @@
           . Une autre partie, parmi laquelle se trouvent quelques ouvrages scientifiques et littéraires, a été acquise par l'ouvrier lui-même. Efin, d'autres volumes, au nombre de 25., sont des ouvrages classiques obtenus en prix à l'école communale par ses enfants. — Valeur approximative, 40000.
          </p>
         </div>
-        <div type="par_10" subtype="ustensiles">
+        <div subtype="ustensiles" type="par_10">
          <p xml:id="para_7_204_122">
           USTENSILES : en quantité suffisante et tenus avec propreté. 235ᶠ25
          </p>
@@ -700,13 +819,15 @@
           2° Employés pour le seruice de l(alimentation. —1 carafe et 6 verres en cristal, 10ᶠ00 ; — 1 service à café et à thé en poircelaine, 25ᶠ00 ; — 1 service à liqueurs, avec étagère en fer-blane, 15ᶠ00; — 1 pinte (1/2 litre) en faience fine, à dorures, 5ᶠ 00; — 6 assiettes en faience, 6ᶠ00; — 15 assiettes en terre blanche commune, 4ᶠ50; — 2 jattes en por¬celaine, 2ᶠs0 ; — 6 jattes en terre blanche de pipe, 1ᶠ00; — 1 saladier, 1 poivrier et 6 verres communs, 200 ; — 1 terrine en faience, 1ᶠ50 ; —- 1 terrine à beurre et 2 coque¬tiers en fagience,1ᶠ50 ; — 5 vases en terre commune vernissée, 2ᶠ50 ; — 1 cruche à eau, 1ᶠ 00; — 6 couverts en argentane, avec grande louche, 25ᶠ 00; — 1 louche en fer étamé, 125 ; — couteax, cuillers et fourchettes, 5ᶠ00; — pots et bouteilles, 4ᶠ00; — 3 seaux en inc, 11ᶠ 00; — 1 casserole en fer battu, 5ᶠ 00; — 1 poêlon en fer battu, 1ᶠ25 ; —  1 marabout et 1 bouilloire en cuivre rouge, 12ᶠ00 ; — 1 cafetière et1 bouilloire en fer¬blanc, 5ᶠ00; — 1 moulin à café, 3ᶠ00; — 1 passoire en fer-blanc, 1ᶠ00; — 1 panier à marché en fer-blanc, 3ᶠ00 ; — 1 cabas en fer-blanc, 2ᶠ50 ; — 1 cabas en osier, 1ᶠ00; — 2 paniers à légumes, 2ᶠ00; — menus obhjets, 1ᶠ50. — Total, 161ᶠ00.
          </p>
          <p xml:id="para_7_204_129">
-          3° Employés pour ˉles soins de propreté. — 2 grandes brosses et 2 balais, 5ᶠ00; 1 brosse à habits èt 2 brosses à bottes, 2ᶠ00 ; —2 fers à repasser, 2ᶠ00 ; — 2 pots à l'eau, <pb facs="#facs_208" n="205" source="lesouvriersdesde02sociuoft_0211.xml"/> 1ᶠ50; — 1 bassin (lavabo) eh faence, 2ᶠ00; — 3 rasoirs, avec accessoires, 4ᶠ50; —. 1 miroir à barbe,1ᶠ50. — Total, 8ᶠ50.
+          3° Employés pour ˉles soins de propreté. — 2 grandes brosses et 2 balais, 5ᶠ00; 1 brosse à habits èt 2 brosses à bottes, 2ᶠ00 ; —2 fers à repasser, 2ᶠ00 ; — 2 pots à l'eau,
+          <pb facs="#facs_208" n="205" source="lesouvriersdesde02sociuoft_0211.xml"/>
+          1ᶠ50; — 1 bassin (lavabo) eh faence, 2ᶠ00; — 3 rasoirs, avec accessoires, 4ᶠ50; —. 1 miroir à barbe,1ᶠ50. — Total, 8ᶠ50.
          </p>
          <p xml:id="para_7_205_131">
           4° Employés pour usages divers. — 1 lampe carcel, 20ᶠ00 ; — 1 quinquet en cuivre, Sᶠ00; — 2 chandeliers en cuivre, 5ᶠ 00;— 1 grand tonneau pour recueillir l'eaude pluie, 6ᶠ00;— 2 tonneaux, plus petits, 7ᶠ00; — 3 portemanteaux, 2ᶠ00;—1 carreau à coudre avec accessoires, 3ᶠ00; —1 paire de mouchettes et 1 éteignoir, 1ᶠ 00; — mens ohjets, 1ᶠ00. — Total, 50ᶠ00.
          </p>
         </div>
-        <div type="par_10" subtype="linge">
+        <div subtype="linge" type="par_10">
          <p xml:id="para_7_205_132">
           LINGE DE MENAGE : proprement tenu, mais se bornant au néces¬STe............ 81ᶠ 00
          </p>
@@ -714,7 +835,7 @@
           2 draps de lit en toile, 1ᶠ00 ; — 6 draps de lit en coton, 21ᶠ00; — 12 draps d'enfant, 12ᶠ00 ; — 2 serviettes de tale, 3ᶠ00; — 5 rideaux de fenêtre en mousseline, 15ᶠ00; — 4 rideaux de fenetre en coton, 4ᶠ00; — 12 essuie-mains de toilette, 8ᶠ00; — 4 essuie¬mains en chanvre commun, 2ᶠ00;— 6 torchons dives,2ᶠ00.
          </p>
         </div>
-        <div type="par_10" subtype="vetements">
+        <div subtype="vetements" type="par_10">
          <p xml:id="para_7_205_134">
           VÊTEMENTS : les vêtements des époux n'affectent aucune recher¬che ; quoique peu nombreux, ils sont cependant en bon état et entre¬tenus avec soin............ 730 00
          </p>
@@ -743,7 +864,8 @@
           3° Bijoux. — 1 nneau d'or, 7ᶠ00; — 1 broahe en or émaillé, 6ᶠ00; — 1 paire de boucles d'oreille, 3ᶠ00. — Total, 16ᶠ00.
          </p>
          <p xml:id="para_7_206_146">
-          <pb facs="#facs_209" n="206" source="lesouvriersdesde02sociuoft_0212.xml"/> VÊTEMENTS DES ENFANTS (241ᶠ 00), tenus avec soin.
+          <pb facs="#facs_209" n="206" source="lesouvriersdesde02sociuoft_0212.xml"/>
+          VÊTEMENTS DES ENFANTS (241ᶠ 00), tenus avec soin.
          </p>
          <p xml:id="para_7_206_147">
           1° Vêtements des trois garçons. — 2 blouses en velours noir, 20ᶠ00; — 1 blouse en mérinos noir, 6ᶠ00 ; — 6 blouses en cotonnade, 18ᶠ00 ; — 2 paletots en drap noir, 18ᶠ00; — 2 paletots en mérinos noir, 10ᶠ 00; — 3 pantalons de drap, 18ᶠ 00 ; — 3 pantalons en étoffe de coton, 7ᶠ 00 ; — 3 gilets cn étoffe de laine, 6ᶠ 00; — 6 bonnets en drap, 9ᶠ00; — 9 chemises en coton, 17ᶠ00; — 6 paires de bas, 6ᶠ 00 ; — 6 cols en percale blanche, 8ᶠ 00; — 3 cravates de cotonnade, 2ᶠ 00; — 9 mouchoirs en coton, 4ᶠ50 ; — 3 écharpes en laine, 3ᶠ 00 ; — 3 bonnets de nuit, 1ᶠ50; — 6 paires de bottes et souliers, 25ᶠ00. — Total, 174ᶠ 00.
@@ -755,7 +877,7 @@
           NOTA. Une grande partie des vêtements des enfants provient des vieux effets des époux, et sont généralement confêctionnés par la femme.
          </p>
         </div>
-        <div type="par_10" subtype="par_10_total">
+        <div subtype="par_10_total" type="par_10">
          <p xml:id="para_7_206_153">
           VALEUR TOTALE du mobilier et des vêtements........ 1,950ᶠ 75
          </p>
@@ -769,7 +891,9 @@
          Depuis quelques années, les deux époux s'accommodent parfaite¬ment de récréations douces et de plaisirs de famille en rapport avec leurs moyens. Pendant la belle saison ils font assezrégulièrement une promenade à la campagne le dimanche et les jours fériés. Quelquefois ils visitent une des localités des environs de Bruxelles situées ur une ligne de chemin de ferˉ, telles que Vilvorde, Boitsfort, uis¬broul, etc. ; c'est alors un plaisir bien vifpour les enfants de revenir par la voie ferrée. Pendant l'hiver, la famille reste assez ordinaire¬ment au logis, le dimanche ; l'époux seul sort vers le soir, et va, dans un faubourg limitrophe, joueraux dominos avec quelques vieu amis, qui tous ont au moins le double de son âge. Quelque¬fois l'ouvrier conduit sa famille au spectacle, à l'Opéra, au Vaude¬ville ou au Cirque, et plus souvent à des soirées chantantes insti¬tuées par des membres de sa corporation, dans un local spécial. Ce sont de vraies réunions de famille, dans lesquelles toute chanson licencieuse est sévèrement proscrite. Dans ces réunions, il se fait aussi des lectures sur des questions se rattachant aux intérêts géné¬raux des classes uvrières en Belgique et particulièrement des typo¬graphes, mais restant toujours étrangères à la politique.
         </p>
         <p xml:id="para_7_206_156">
-         La famille trouve aussi quelques amusements dans les relations qu'elle entretient avec ses parents. Chaque événement de famille, naissance, mariage, fête patronale, etc., est dailleurs l'occasion d'un petit repas en commun, où règne une franche cordialité. Habi¬tuellement, chaque année l'ouvrier se rend à Louvain, à l'époque <pb facs="#facs_210" n="207" source="lesouvriersdesde02sociuoft_0213.xml"/> de la kermesse de cette ville, pour y visiter les parents de sa femme ; quelquefois, celle-ci ouv l'un des enfants l'accompagne. Deux ou trois de ces parents leur rendent leur visite aux fêtes nationales de septembre, qui se célèbrent avec un certain éclat à Bruxelles.
+         La famille trouve aussi quelques amusements dans les relations qu'elle entretient avec ses parents. Chaque événement de famille, naissance, mariage, fête patronale, etc., est dailleurs l'occasion d'un petit repas en commun, où règne une franche cordialité. Habi¬tuellement, chaque année l'ouvrier se rend à Louvain, à l'époque
+         <pb facs="#facs_210" n="207" source="lesouvriersdesde02sociuoft_0213.xml"/>
+         de la kermesse de cette ville, pour y visiter les parents de sa femme ; quelquefois, celle-ci ouv l'un des enfants l'accompagne. Deux ou trois de ces parents leur rendent leur visite aux fêtes nationales de septembre, qui se célèbrent avec un certain éclat à Bruxelles.
         </p>
         <p xml:id="para_7_207_159">
          Parmi les récréations, et outre un banquet de corps, auquel assistent annuellement la généralité des ouvriers typographes
@@ -799,7 +923,8 @@
          L'ouvrier est né à Bruxelles, en 1824 ; son père, qui était bottier¬cordonnier, et travaillait avec le concours de plusieurs ouvriers pour une bonne clientèle, jouissait d'une position aisée, due principale¬ment à son activité. Cette position fut gravement compromise par la révolution belge de 1830, qui, tout en lui enlevant le plus grand nômbre de ses clients, l'obligea à des devoirs civiques, auxquels il sacrifia ses intérêts privés, de telle sorte que, deux ans plus tard, sa famille était plongée dans un état voisin de la misère. En 1833, la pénurie du ménage devint telle, que l'ouvrier, alors âgé de 9 ans seulement, fut obligé de quitter brusquement l'école, où il n'avait encore acquis que les premiers éléments de lecture et d'écriture, pour entrer en apprentissage, dans une librairie de la ville. Il fut employé aux commissions, et plus tard à la transcription des bandes d'adresses. Au bout de quinze mois de travail opiniâtre, il étaitpar¬venu à acquérir une instruction élémentaire passable, mais le faible salaire qu'il recevait (7ᶠ par mois) engagea sa mère à lui chercher un emploi plus lucratif. Un nouveau journal quotidien venait d'être créé à Bruxelles : il y entra en qualité d'apprenti compositeur et de leveur de feuilles à la presse. Ses doubles fonctions l'obligeaient à un travail de dix-huit heures par jour, interrompu seulement par les courses que nécessite la partie typographique d'un journal.
         </p>
         <p xml:id="para_7_208_165">
-         <pb facs="#facs_211" n="208" source="lesouvriersdesde02sociuoft_0214.xml"/> Même en hiver, il devait se trouver à l'atelier depuis cinq heures du matin jusqu'à onze heures du soir. Le dimanche n'interrompait point ce travail meurtrier, pour lequel il recevait un salaire de 5ᶠ par semaine. Au bout d'un an, ne voyant point d'amélioration dans sa position, il se décida, malgré le peu d'habileté qu'il avait pu acquérir pour la composition, à changer d'atelier. Il réussit mal d'abord, mais à la suite d'un nouveau changement, il parvint à se faire admettre dans un établissement où il ne tarda pas à se former complétement, de telle sorte qu'au bout de quinze mois, il rentra dans son premier atelier, avec un salaire de 15ᶠ par semaine pour un travail journalier de huit heures et demie.
+         <pb facs="#facs_211" n="208" source="lesouvriersdesde02sociuoft_0214.xml"/>
+         Même en hiver, il devait se trouver à l'atelier depuis cinq heures du matin jusqu'à onze heures du soir. Le dimanche n'interrompait point ce travail meurtrier, pour lequel il recevait un salaire de 5ᶠ par semaine. Au bout d'un an, ne voyant point d'amélioration dans sa position, il se décida, malgré le peu d'habileté qu'il avait pu acquérir pour la composition, à changer d'atelier. Il réussit mal d'abord, mais à la suite d'un nouveau changement, il parvint à se faire admettre dans un établissement où il ne tarda pas à se former complétement, de telle sorte qu'au bout de quinze mois, il rentra dans son premier atelier, avec un salaire de 15ᶠ par semaine pour un travail journalier de huit heures et demie.
         </p>
         <p xml:id="para_7_208_166">
          L'ouvrier visita successivement plusieurs ateliers pour se perfec¬tionner dans son état. Enfin, il entra, en 1840, dans l'atelier où il est resté jusqu'à ce jour.
@@ -818,7 +943,8 @@
          Catherine B*** est née vers la fin de 1822, à Bruxelles. Son père, serrurier de profession, était chef d'industrie et était établi dans sa propre maison. Doué d'un esprit inventif, mais appliqué à des choses d'un intérêt douteux pour une famille de douze enfants, dominé par la passion de la pêche à laquelle il employait souvent le temps du travail, il ne tarda pas à se trouver dans une situation difficile.
         </p>
         <p xml:id="para_7_209_170">
-         <pb facs="#facs_212" n="209" source="lesouvriersdesde02sociuoft_0215.xml"/> Dans cet état de choses, Catherine fut chargée de la garde des plus jeunes enfants, au détriment de soninstruction. Plus tard, on lui fit embrasser la profession de tailleuseˉ, afin qu'elle pût venir en aide d'une manière plus efficace à la communauté. Comme on lui retirait habituellement la totalité de son gain, elle ne possédait au¬cune épargne à l'époque de son mariage, et n'apporta pour dot que quelques effets d'une faible valeur.
+         <pb facs="#facs_212" n="209" source="lesouvriersdesde02sociuoft_0215.xml"/>
+         Dans cet état de choses, Catherine fut chargée de la garde des plus jeunes enfants, au détriment de soninstruction. Plus tard, on lui fit embrasser la profession de tailleuseˉ, afin qu'elle pût venir en aide d'une manière plus efficace à la communauté. Comme on lui retirait habituellement la totalité de son gain, elle ne possédait au¬cune épargne à l'époque de son mariage, et n'apporta pour dot que quelques effets d'une faible valeur.
         </p>
         <p xml:id="para_7_209_171">
          En résumé, la famille, grâce à la bonne conduite et à la persévé¬rance des deux époux, ainsi qu'à l'active surveillance qu'ils exercent sur leurs enfants, jouit actuellement d'une position relativement heureuse.
@@ -931,8 +1057,8 @@
           (A) SUR LES ASSOCIATIONS DE SECOURS MUTUELS ET DE PRÉVOYANCE FONDÉES PAR LES OUVRIERS TYPOGRAPHES DE BRUXELLES.
          </head>
          <p xml:id="para_7_220_187">
-          
-          <pb facs="#facs_223" n="220" source="lesouvriersdesde02sociuoft_0226.xml"/>En vue de garantir leur bien-être physique et moral, les ouvriers typographes de Bruxelles ont créé par eux-mêmes diverses associa¬tions de prévoyance.
+          <pb facs="#facs_223" n="220" source="lesouvriersdesde02sociuoft_0226.xml"/>
+          En vue de garantir leur bien-être physique et moral, les ouvriers typographes de Bruxelles ont créé par eux-mêmes diverses associa¬tions de prévoyance.
          </p>
          <p xml:id="para_7_220_188">
           Parmi celles-ci, il faut citer d'abord la Société typographique de Secours mutuels fondée en 1820, et qûi a été le noyau de cette pépi¬nière d'associations mutuelles d'ouvriers, dont aujourd'hui la Bel- s gique est fière à juste titre, et qui a contribé pour une large part à assurer le bien-être et l'indépendance des travailleurs.
@@ -953,7 +1079,9 @@
           Frappés des inconvénients qui résultaient de cette division d'inté¬rêts, désireux surtout de mettre fin à l'antagonisme dont nous ve¬nons de parler, l'ouvrier et plusieurs de ses compagnons tentèrent à diverses reprises de réunir les deux associations rivales. Après de nombreux pourparlers, ce but fut enfin atteint en octobre 1856.
          </p>
          <p xml:id="para_7_220_194">
-          Aujourd'hui l'Association typographique compte 300 membres. Le relevé ci-après des opérations du premier semestre de 1857 peut <pb facs="#facs_224" n="221" source="lesouvriersdesde02sociuoft_0227.xml"/> donner une idée de son importance et du bien-être qu'elle répand parmi ses membres.
+          Aujourd'hui l'Association typographique compte 300 membres. Le relevé ci-après des opérations du premier semestre de 1857 peut
+          <pb facs="#facs_224" n="221" source="lesouvriersdesde02sociuoft_0227.xml"/>
+          donner une idée de son importance et du bien-être qu'elle répand parmi ses membres.
          </p>
          <figure rend="portrait" type="table">
           <head resp="added" type="table" xml:id="figure_3">
@@ -1037,7 +1165,9 @@
           L'Association est indissoluble et ne peut, en aucun cas, se réunir à une Société qui aurait un autre but.
          </p>
          <p xml:id="para_7_221_222">
-          Elle est régie par une commission élue dans son sein. Cette com¬mission s'adjoint un médecin et elle traite avec un pharmacien. Elle <pb facs="#facs_225" n="222" source="lesouvriersdesde02sociuoft_0228.xml"/> se réunit extraordinairement dans le courant des mois de juin et de décembre de chaque année, à l'effet de régler les comptes semes¬triels et de les approuver, conjointement avec trois membres qui sont nommés par l'Association, à la séance précédente. Ces comptes sont soumis aux assemblées générales des mois suivants.
+          Elle est régie par une commission élue dans son sein. Cette com¬mission s'adjoint un médecin et elle traite avec un pharmacien. Elle
+          <pb facs="#facs_225" n="222" source="lesouvriersdesde02sociuoft_0228.xml"/>
+          se réunit extraordinairement dans le courant des mois de juin et de décembre de chaque année, à l'effet de régler les comptes semes¬triels et de les approuver, conjointement avec trois membres qui sont nommés par l'Association, à la séance précédente. Ces comptes sont soumis aux assemblées générales des mois suivants.
          </p>
          <p xml:id="para_7_222_224">
           Indépendamment de la cotisation mensuelle, ordinaire, dont le prix est de1ᶠ50 et de la contribution extraordinaire exigible au décès de chaque associé et dont le taux est de 0ᶠ25, les membres sont astreints à un droit d'afiliation dont la quotité a varié selon l'âge, mais qui est aujourd'hui fixé uniformément à 15 ᶠ 00. Toutefois, en vue de faciliter les admissions, on dispense les membres de payer cette affiliation : dans ce cas, ils n'ont droit à l'indemnité pécu¬niaire qu'un an après leur admission.
@@ -1070,7 +1200,9 @@
           A défaut de femme ou d'enfants, le secours sert à solder les dettes du défunt, et à rémunérer les personnes qui luiont donné des soins.
          </p>
          <p xml:id="para_7_222_234">
-          Cette touchante sollicitude, qui s'étend même au delà de la <pb facs="#facs_226" n="223" source="lesouvriersdesde02sociuoft_0229.xml"/> tombe, a produit jusqu'ici d'excellents effets et a toujours relevé le moral des moribonds. Cette disposition, comme beaucoup d'autres, est due à l'initiative de l'ouvrier lui-même.
+          Cette touchante sollicitude, qui s'étend même au delà de la
+          <pb facs="#facs_226" n="223" source="lesouvriersdesde02sociuoft_0229.xml"/>
+          tombe, a produit jusqu'ici d'excellents effets et a toujours relevé le moral des moribonds. Cette disposition, comme beaucoup d'autres, est due à l'initiative de l'ouvrier lui-même.
          </p>
          <p xml:id="para_7_223_236">
           Telle est, à grands traits, l'organisation de cette belle institution, dont la typographie bruxelloise est fière à juste titre. Ajoutons que, par la parfaite union de ses membres, comme par la sagesse de ses administrateurs, cette Société peut être citée comme un heureu modèle à suivre pour les ouvriers de toutes les industries.
@@ -1103,7 +1235,9 @@
           On déduit toutefois de cette allocation le gain que peut réaliser l'associé indemnisé, sauf celui provenant du travail exécuté la nuit, le dimanche ou les jours fériés, qui demeure acquis à l'ouvrier.
          </p>
          <p xml:id="para_7_223_244">
-          Toutefois, la société ne tarda pas à se convaincre que son actionne serait complète que du jour où elle pourrait venir pécuniairement en aide à ses membres privés de travail pour des causes autres que des abaissements de salaires. Une caisse de secours fut instituée dans ce but, au mois d'août 1846 ; après quinze mois, elle fut transformée en une Caisse de prévoyance qui, en assurant un secours plus élevé, <pb facs="#facs_227" n="224" source="lesouvriersdesde02sociuoft_0230.xml"/> délimitait strictement les droits et les devoirs de ses membres.
+          Toutefois, la société ne tarda pas à se convaincre que son actionne serait complète que du jour où elle pourrait venir pécuniairement en aide à ses membres privés de travail pour des causes autres que des abaissements de salaires. Une caisse de secours fut instituée dans ce but, au mois d'août 1846 ; après quinze mois, elle fut transformée en une Caisse de prévoyance qui, en assurant un secours plus élevé,
+          <pb facs="#facs_227" n="224" source="lesouvriersdesde02sociuoft_0230.xml"/>
+          délimitait strictement les droits et les devoirs de ses membres.
          </p>
          <p xml:id="para_7_224_246">
           Le tableau ci-dessous donne, pour une période de cinq années (1852-1856), le résultat des opérations de cette caisse, qui est ali¬mentée au moyen d'un prélèvement de 60 pour 100 sur la recette mensuelle générale de la Société.
@@ -1129,8 +1263,10 @@
           (B) SUR L'AUGMENTATION DU SALAIRE DES OUVRIERS COMPOSITEURS-TPOGRAPHES.
          </head>
          <p xml:id="para_7_224_251">
-          La cherté des denrées alimentaires et des objets les plus indis¬pensables à l'existence avait fait naître dans ces derniers temps <pb facs="#facs_228" n="225" source="lesouvriersdesde02sociuoft_0231.xml"/> une situation qui pesait durement sur les classes ouvrières, et avait créé pour celle-ci un état de gêne qui provoqua partout la sollici¬tude des gouvernements et des industriels. En Belgique notam¬ment dans un grand nombre de professions, les chefs d'industrie augmentèrent spontanément le salaire de leurs ouvriers
-          <ref type="renvoi_int_mono" target="#part_03_01_19">
+          La cherté des denrées alimentaires et des objets les plus indis¬pensables à l'existence avait fait naître dans ces derniers temps
+          <pb facs="#facs_228" n="225" source="lesouvriersdesde02sociuoft_0231.xml"/>
+          une situation qui pesait durement sur les classes ouvrières, et avait créé pour celle-ci un état de gêne qui provoqua partout la sollici¬tude des gouvernements et des industriels. En Belgique notam¬ment dans un grand nombre de professions, les chefs d'industrie augmentèrent spontanément le salaire de leurs ouvriers
+          <ref target="#part_03_01_19" type="renvoi_int_mono">
            (C)
           </ref>
           , pour le mettre plus en rapport avec un état de choses qui paraissait devoir être permanent. Le gouvernement lui-même et les cham¬bres législatives s'associèrent à cette œuvre de haute justice so¬ciale, en augmentant les traitements des employés subalternes de rÉat.
@@ -1153,7 +1289,9 @@
           (C) SUR LES DVERS MODES DE RÉTRIBUTION DU TRAVAIL DES COMPOSTTEURS¬TYPOGRAPHES DE BRUXELLES.
          </head>
          <p xml:id="para_7_225_258">
-          Les ouvriers compositeurs-typographes se divisent, sous le rap¬port du travail, en deux catégories principales : les compositeurs aux pièces et en conscience ou à journée. Ces derniers se subdivi<pb facs="#facs_229" n="226" source="lesouvriersdesde02sociuoft_0232.xml"/>sent à leur tour en plusieurs catégories distinctes énumérées plus loin.
+          Les ouvriers compositeurs-typographes se divisent, sous le rap¬port du travail, en deux catégories principales : les compositeurs aux pièces et en conscience ou à journée. Ces derniers se subdivi
+          <pb facs="#facs_229" n="226" source="lesouvriersdesde02sociuoft_0232.xml"/>
+          sent à leur tour en plusieurs catégories distinctes énumérées plus loin.
          </p>
          <div n="001" type="paragraph">
           <head type="paragraph" xml:id="part_03_01_19_01">
@@ -1173,7 +1311,9 @@
           </figure>
           <!-- La note de bas de page va avec le tableau -->
           <p xml:id="para_7_226_264">
-           Le metteur en pages doit la correction, sur plomb, de deux ou de <pb facs="#facs_230" n="227" source="lesouvriersdesde02sociuoft_0233.xml"/> trois épreuves ; toutefois, à moins de convention contraire, celles d'auteur ne sont jamais à sa charge.
+           Le metteur en pages doit la correction, sur plomb, de deux ou de
+           <pb facs="#facs_230" n="227" source="lesouvriersdesde02sociuoft_0233.xml"/>
+           trois épreuves ; toutefois, à moins de convention contraire, celles d'auteur ne sont jamais à sa charge.
           </p>
           <p xml:id="para_7_227_266">
            Tant que sa forme n'est point mise sous presse, le metteur en pages est responsable des accidents qui peuvent y survenir. Cette responsabilité est d'ailleurs justifiée par son salaire.
@@ -1188,7 +1328,9 @@
            D'après l'ancien taux, les 1,000 cadratins se payaient 60 ou 70 centimes, selon que la copie était de la réimpression ou du ma¬nuscrit. Toutefois, dans des cas particuliers, lorsqu'il s'agissait d'une langue étrangère, lorsque la copie était surchargée de chif¬fres, de minuscules ou d'italiques, l'ouvrier recevait une surcharge qui variait de 5 à 10 centimes. Aujourd'huices prix ont été assez généralement augmentés de 10 centimes. Un compositeur habile peut, dans une journée de dix heures, réaliser un salaire qui varie de 3ᶠ à 3ᶠ50, c'est-à-dire composer 4,000 à 5,000 cadratins. Tou¬tefois, comme nous l'avons dit plus haut, tant de circonstances viennent modifier ce chiffre à son détriment, que bon an mal an, son salaire atteint à peine une moyenne de 2ᶠ par jour.
           </p>
           <p xml:id="para_7_227_270">
-           Les compositeurs aux pièces, ou tâcherons, rentrent essentielle¬ment dans la catégorie des ouvriers à engagements momentanés. Ils forment une population flottante, dont le chiffre varie actuellement à Bruxelles, entre 200 et 300. Il y a quelques années, alors que l'imprimerie belge était alimentée par la réimpression des auteurs français, ce nombre était sensiblement plus considérable. Mais l'abo¬ition de la contrefaçon, outre qu'elle a entrainé un temps d'arrêt dans l'industrie typographique bruxelloise et suscité une fâcheuse <pb facs="#facs_231" n="228" source="lesouvriersdesde02sociuoft_0234.xml"/> période de transition, a eu pour résultat de détourner de cette pro¬fession beaucoup de jeunes gens qui, trompés par son apparente facilité, s'y seraient sans doute voués comme auparavant. Au point de vue de l'art, comme sous le rapport des véritables intérêts des bons ouvriers eux-mêmes, nous sommes de ceux qui pensent qu'au fond cette abolition a plutôt été un bien qu'un mal, car elle avait le triste privilége de ne former généralement que des ouvriers mé¬diocres qui, hors de la routine de la réimpression, n'abordaient jamais sans crainte les travaux de la typographie.
+           Les compositeurs aux pièces, ou tâcherons, rentrent essentielle¬ment dans la catégorie des ouvriers à engagements momentanés. Ils forment une population flottante, dont le chiffre varie actuellement à Bruxelles, entre 200 et 300. Il y a quelques années, alors que l'imprimerie belge était alimentée par la réimpression des auteurs français, ce nombre était sensiblement plus considérable. Mais l'abo¬ition de la contrefaçon, outre qu'elle a entrainé un temps d'arrêt dans l'industrie typographique bruxelloise et suscité une fâcheuse
+           <pb facs="#facs_231" n="228" source="lesouvriersdesde02sociuoft_0234.xml"/>
+           période de transition, a eu pour résultat de détourner de cette pro¬fession beaucoup de jeunes gens qui, trompés par son apparente facilité, s'y seraient sans doute voués comme auparavant. Au point de vue de l'art, comme sous le rapport des véritables intérêts des bons ouvriers eux-mêmes, nous sommes de ceux qui pensent qu'au fond cette abolition a plutôt été un bien qu'un mal, car elle avait le triste privilége de ne former généralement que des ouvriers mé¬diocres qui, hors de la routine de la réimpression, n'abordaient jamais sans crainte les travaux de la typographie.
           </p>
          </div>
          <div n="002" type="paragraph">
@@ -1205,7 +1347,9 @@
            On compte à Bruxelles une centaine d'ouvriers compositeurs en conscience, indépendamment des chefs d'atelier. Ce sont, engénéral, des hommes d'une conduite éprouvée et très-laborieux. Aussiest-il très-rare qu'ils éprouvent des moments de chômage, presque tou¬jours rachetés d'ailleurs à d'autres époques par des travaux sup¬plémentaires. .
           </p>
           <p xml:id="para_7_228_276">
-           4° Compositeurs-ournalistes. — Ces ouvriers se recrutent généra¬lement parmi les meilleurs compositeurs aux pièces. Sans devoir posséder toutes les connaissances des compositeurs en conscience, ils ont cependant à montrer une grande aptitude à lever la lettre et à faire preuve d'une instruction assez étendue pour débrouiller <pb facs="#facs_232" n="229" source="lesouvriersdesde02sociuoft_0235.xml"/> au premier coup d'eil les affreux grimoires qu'on leur livre habi¬tuellement sous forme de copie. Ils travaillent sept jours par semaine, et sont actuellement rétribués, dans deux journaux quoti¬diens à raison de 3ᶠ50 par jour, et dans les autres journaux à raison de 3ᶠ 00. Leur journée de travail est, en moyenne, de neuf heures, partagées toutefois assez inégalement et subordonnées aux diverses éditions dont se compose le journal, à l'arrivée des courriers, etc. Dans quelques ateliers, les ouvriers sont parvenus jusqu'à un cer¬tain point à éluder ces exigences par le système des brigades, qui sont échelonnées de manière à conserver toujours dans l'atelier, pendant doue à treize heures consécutives, un certain nombre d'hommes.
+           4° Compositeurs-ournalistes. — Ces ouvriers se recrutent généra¬lement parmi les meilleurs compositeurs aux pièces. Sans devoir posséder toutes les connaissances des compositeurs en conscience, ils ont cependant à montrer une grande aptitude à lever la lettre et à faire preuve d'une instruction assez étendue pour débrouiller
+           <pb facs="#facs_232" n="229" source="lesouvriersdesde02sociuoft_0235.xml"/>
+           au premier coup d'eil les affreux grimoires qu'on leur livre habi¬tuellement sous forme de copie. Ils travaillent sept jours par semaine, et sont actuellement rétribués, dans deux journaux quoti¬diens à raison de 3ᶠ50 par jour, et dans les autres journaux à raison de 3ᶠ 00. Leur journée de travail est, en moyenne, de neuf heures, partagées toutefois assez inégalement et subordonnées aux diverses éditions dont se compose le journal, à l'arrivée des courriers, etc. Dans quelques ateliers, les ouvriers sont parvenus jusqu'à un cer¬tain point à éluder ces exigences par le système des brigades, qui sont échelonnées de manière à conserver toujours dans l'atelier, pendant doue à treize heures consécutives, un certain nombre d'hommes.
           </p>
           <p xml:id="para_7_229_278">
            Dans plusieurs ateliers, les ouvriers sont rétribués même les jours de grande fête, quoiqu'ils ne travaillent point. .Dans d'autres, ils ne reçoivent, pour ce cas, que la moitié de leur salaire quotidien. Il leur est facultatif d'ailleurs de se faire remplacer de temps à autre, soit pour leurs affaires, soit pour leurs plaisirs. Le remplaçant re¬̧oit alors leur salaire intégral.
@@ -1230,7 +1374,8 @@
           , récemment instituées, quelques-uns de leurs membres les plus actifs tentèrent un nouvel eflort en vue de rap¬procher les ouvriers de cette catégorie, et projetèrent une fête an¬nuelle à laquelle devaient être conviés patrons et ouvriers.
          </p>
          <p xml:id="para_7_230_283">
-          <pb facs="#facs_233" n="230" source="lesouvriersdesde02sociuoft_0236.xml"/> Un plein succès répondit aux démarches d'une commission qui avait officieusement été instituée dans ce but ; plusieurs maîtres imprimeurs et au delà de 200 ouvriers répondirent à son invi¬tation.
+          <pb facs="#facs_233" n="230" source="lesouvriersdesde02sociuoft_0236.xml"/>
+          Un plein succès répondit aux démarches d'une commission qui avait officieusement été instituée dans ce but ; plusieurs maîtres imprimeurs et au delà de 200 ouvriers répondirent à son invi¬tation.
          </p>
          <p xml:id="para_7_230_284">
           La plupart des journaux de Bruxelles rendirent compte de cette fête de famille, qui laissa parmi ces ouvriers les plus agréables sou¬venirs, et qui marqua dans leurs annales à l'égal d'un véritable évé¬nement. Afin de laisser aux journalistes typographes la faculté d'y assister, on choisit le jour de Noèl ; huit jours plus tard, le der¬nier jour de l'année, un bal réunit les femmes et les filles des ou¬vriers.
@@ -1245,7 +1390,9 @@
           A l'exemple de leurs confrères de la capitale de Belgique, les typographes des provinces instituèrent des fêtes analogues dans leurs villes respectives. L'ouvrier qui fait l'objet de la présente monographie eut l'honneur d'être délégué par ses compagnons pour la première réunion de ce genre qui se tint en province, celle de Namur, et il se rappelle avec bonheur la réception distinguée et très-sympathique qu'on lui fit dans cette circonstance.
          </p>
          <p xml:id="para_7_230_288">
-          Cependant, les événements de 1848, dont le soufle politique anima plus ou moins les réunions de tous les genres, imprimèrent à ces fêtes une autre direction qui, pour quelque temps amena leur transforation. En abandonnant le caractère de /éte de famille qui les avait distinguées jusque là, et qui en assurait le succès, ces réunions perdirent un nombre notable de leurs adhérents habituels. . Elles ont néanmoins recouvré aujourd'hui leur premier caractère et se donnent tantôt au nom d'une association typographique, tantôt <pb facs="#facs_234" n="231" source="lesouvriersdesde02sociuoft_0237.xml"/> au nom d'une autre ; et les questions qui s'y traitent se rapportent uniquement à leurs intérêts physiques et moraux, en dehrs de tout esprit de politique militante.
+          Cependant, les événements de 1848, dont le soufle politique anima plus ou moins les réunions de tous les genres, imprimèrent à ces fêtes une autre direction qui, pour quelque temps amena leur transforation. En abandonnant le caractère de /éte de famille qui les avait distinguées jusque là, et qui en assurait le succès, ces réunions perdirent un nombre notable de leurs adhérents habituels. . Elles ont néanmoins recouvré aujourd'hui leur premier caractère et se donnent tantôt au nom d'une association typographique, tantôt
+          <pb facs="#facs_234" n="231" source="lesouvriersdesde02sociuoft_0237.xml"/>
+          au nom d'une autre ; et les questions qui s'y traitent se rapportent uniquement à leurs intérêts physiques et moraux, en dehrs de tout esprit de politique militante.
          </p>
         </div>
         <div n="005" type="sub_sub_section">
@@ -1268,7 +1415,9 @@
           Toute personne assurée, dont l'existence dépend de son travail, et qui'avant l'âge fixé par l'assurance se trouverait, par la perte d'un membre ou d'un organe, par une infirmité permanente résul¬tant d'un accident survenu dans l'exercice de sa profession, inca¬pable de pourvoir à sa subsistance, jouira immédiatement de la rente qu'elle aura acquise depuis cinq ans au moins, sans que cette rente puisse toutefois, dans ce cas particulier, dépasser 360ᶠ. Les rentes s'acquièrent d'après des tarifs réglés par un arrêté roya] et calculés à l'inérèt de 4 12 pour 100.
          </p>
          <p xml:id="para_7_231_297">
-          Le chiffre le plus bas de la première rente est fixé à 24ᶠ ; le mon¬tant des rentes accumulées ne peut dépasser 720ᶠ. Après la consti¬tution d'une première rente de 24ᶠ, l'assuré peut acquérir, aussi souvent que ses moyens le lui permettent, une ou plusieurs rentes de 12ᶠ, qui sajoutent à la première. Ce système, qui offre l'avan<pb facs="#facs_235" n="232" source="lesouvriersdesde02sociuoft_0238.xml"/>a23e
+          Le chiffre le plus bas de la première rente est fixé à 24ᶠ ; le mon¬tant des rentes accumulées ne peut dépasser 720ᶠ. Après la consti¬tution d'une première rente de 24ᶠ, l'assuré peut acquérir, aussi souvent que ses moyens le lui permettent, une ou plusieurs rentes de 12ᶠ, qui sajoutent à la première. Ce système, qui offre l'avan
+          <pb facs="#facs_235" n="232" source="lesouvriersdesde02sociuoft_0238.xml"/>
+          a23e
          </p>
          <p xml:id="para_7_232_299">
           tage d'appliquer à la constitution de rentes des sommes très¬modiques, a été adopté afin de rendre la Caisse accessible à ceux qui ne peuvent faire que de faibles épargnes sur leproduit de leur travail, particulièrement aux ouvriers.

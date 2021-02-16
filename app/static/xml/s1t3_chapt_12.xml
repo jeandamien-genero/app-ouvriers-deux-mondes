@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 3 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_378">
@@ -240,16 +310,18 @@
      </p>
      <p xml:id="para_12_373_3">
       A FAMILLE NOMBREUSE
-      <note type="bp"><p>
-       Cette famille contraste, par ses murs, avec la plupart de celles qui appatiennent à la population de Paris proprement dite ; mais toutes les études faites jusqu'à ce jour par la Société d'économie sociale révèlent une démarction trauchée entre es prorin¬ciaux et les étrangers chargés à Paris des travaux de force, et les Parisiens qui recher¬chent plus particulièrement les ravanx exigeant de l'intelligence et de l'adresse. Parmi ces types de provinciaux, il a paru intéressant de décrire ue laille ayant conservé la fécondité, qui, au XVIIᵉ siècle, distinguait, cn France, les classs populaires et bour geoises, et qui ne se retouve plus guere aujourd'hui que chez les classes ouvrières et les paysans de l'Alsace et du pays basque
-       <ref target="#part_03_01_17" type="renvoi_int_mono">
-        (A)
-       </ref>
-       .
-       <ref target="#" type="renvoi_ext_oe">
-        [Les ˉOuv. europ. XVI (B).]
-       </ref>
-      </p></note>
+      <note type="bp">
+       <p>
+        Cette famille contraste, par ses murs, avec la plupart de celles qui appatiennent à la population de Paris proprement dite ; mais toutes les études faites jusqu'à ce jour par la Société d'économie sociale révèlent une démarction trauchée entre es prorin¬ciaux et les étrangers chargés à Paris des travaux de force, et les Parisiens qui recher¬chent plus particulièrement les ravanx exigeant de l'intelligence et de l'adresse. Parmi ces types de provinciaux, il a paru intéressant de décrire ue laille ayant conservé la fécondité, qui, au XVIIᵉ siècle, distinguait, cn France, les classs populaires et bour geoises, et qui ne se retouve plus guere aujourd'hui que chez les classes ouvrières et les paysans de l'Alsace et du pays basque
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (A)
+        </ref>
+        .
+        <ref target="#" type="renvoi_ext_oe">
+         [Les ˉOuv. europ. XVI (B).]
+        </ref>
+       </p>
+      </note>
      </p>
      <p xml:id="para_12_373_4">
       DE PARIS (SEINE — FRANCE)
@@ -267,10 +339,18 @@
       PAR
      </p>
      <p xml:id="para_12_373_7">
-      MM. <persName>COURTEILLE</persName>, commissaire de police du quartier Saint-Vincent-de-Paul
+      MM.
+      <persName>
+       COURTEILLE
+      </persName>
+      , commissaire de police du quartier Saint-Vincent-de-Paul
      </p>
      <p>
-      et <persName>J. GAUTIER</persName>, secrétaire du même commissariat.
+      et
+      <persName>
+       J. GAUTIER
+      </persName>
+      , secrétaire du même commissariat.
      </p>
     </div>
     <div n="002" type="section">
@@ -285,7 +365,10 @@
        § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
       </head>
       <p xml:id="para_12_373_13">
-       <pb facs="#facs_378" n="373" source="lesouvriersdesde03sociuoft_0381.xml"/> La famille décrite dans la présente monographie habite le fau¬bourg Saint-Martin, sur la rive droite de la Seine, près de l'ancien mur d'octroi. La modicité du prix du logement et sa proximité de <pb facs="#facs_379" n="374" source="lesouvriersdesde03sociuoft_0382.xml"/> l'ancienne barrière de La Villette avaient déterminé la famille à se fixer dans cette partie de la ville. D'une part, elle trouvait dans le voisinage de la banlieue le moyen d'acquérir à meilleur compte les denrées alimentaires, en les introduisant dans Paris par petites quantités et par conséquent franches de droit, et, d'un autre côté, le nombre considérable des enfants l'ayant fait refuser dans beau¬coup de maisons, Bernard D** avait réussi à surmonter cette diffi¬culté et à rencontrer dans celle qu'il habite actuellement un loge¬ment salubre et convenable.
+       <pb facs="#facs_378" n="373" source="lesouvriersdesde03sociuoft_0381.xml"/>
+       La famille décrite dans la présente monographie habite le fau¬bourg Saint-Martin, sur la rive droite de la Seine, près de l'ancien mur d'octroi. La modicité du prix du logement et sa proximité de
+       <pb facs="#facs_379" n="374" source="lesouvriersdesde03sociuoft_0382.xml"/>
+       l'ancienne barrière de La Villette avaient déterminé la famille à se fixer dans cette partie de la ville. D'une part, elle trouvait dans le voisinage de la banlieue le moyen d'acquérir à meilleur compte les denrées alimentaires, en les introduisant dans Paris par petites quantités et par conséquent franches de droit, et, d'un autre côté, le nombre considérable des enfants l'ayant fait refuser dans beau¬coup de maisons, Bernard D** avait réussi à surmonter cette diffi¬culté et à rencontrer dans celle qu'il habite actuellement un loge¬ment salubre et convenable.
       </p>
       <p xml:id="para_12_374_17">
        Pourvue d'une très-grande cour, cette maison offrait également au chef de famille une ressource précieuse pour la santé et l'agré¬ment de ses jeunes enfants qui pouvaient ainsi se livrer aux amu¬sements de leur age, sans cesser d'être constamment sous la sur¬veillance de leur mère. Cette proximité de La Villette permettait aussi au chef de famille, alors occupé comme homme de peine sur les ports de cette comune, de prendre tous ses repas chez lui. Employé par une administration établie dans un quartier fort éloi¬gné de son habitation, il se trouve aujourd'hui dans la nécessité de déjeuner dehors, ce qui lui occasionne un surcroît de dépenses
@@ -304,7 +387,9 @@
        Ici, ce ne sont plus les boutiques aux riches devantures dans les¬quelles l'indusrie étale ses produits les plus luxueu, et que des flos de lumière inondent à la nuit tombante ; on n'y rencontre point le promeneur, ou l'étranger curieux qui e voit de Paris que sa surface polie et civilisée. Au lieu de voitures de luxe, de lourdes charrettes roulent sur la chaussée et le courant des piétons est emporté par le mouvement rapide d'une circulation aflairée ; le fashionable et l'homme du monde sont remplacés par l'ouvrier. C'est le travail sous toutes ses formes qui vous coudoie à chaque pas.
       </p>
       <p xml:id="para_12_374_21">
-       Large, bien aéré, planté d'arbres dans une grande partie de son parcours, garni dans toute sa longgueur de fontaines et de vespa¬siennes en bronze, peu distantes les unes des autres et dues à la générosité intelliggente des propriétaires riverains, le faubourg <pb facs="#facs_380" n="375" source="lesouvriersdesde03sociuoft_0383.xml"/> Saint-Martin est un des plus beaux faubourgs de Paris, surtout dans sa partie haute. Les maisons qui bordent comme deux quais ce tor¬rent industriel, quoique ne répondant pas, par leur construction, à son aspect grandiose, n'ont point encore été touchées par le mar¬teau des démolisseurs ; aussi renferment-elles toujouis des loge¬ments accessibles aux classes nécessiteuses, ressource qui tend à disparaître complétement dans un avenir peu éloigné.
+       Large, bien aéré, planté d'arbres dans une grande partie de son parcours, garni dans toute sa longgueur de fontaines et de vespa¬siennes en bronze, peu distantes les unes des autres et dues à la générosité intelliggente des propriétaires riverains, le faubourg
+       <pb facs="#facs_380" n="375" source="lesouvriersdesde03sociuoft_0383.xml"/>
+       Saint-Martin est un des plus beaux faubourgs de Paris, surtout dans sa partie haute. Les maisons qui bordent comme deux quais ce tor¬rent industriel, quoique ne répondant pas, par leur construction, à son aspect grandiose, n'ont point encore été touchées par le mar¬teau des démolisseurs ; aussi renferment-elles toujouis des loge¬ments accessibles aux classes nécessiteuses, ressource qui tend à disparaître complétement dans un avenir peu éloigné.
       </p>
       <p xml:id="para_12_375_23">
        La maison qu'habite Bernard D** avec sa famille est occupée par soixante-cinq ménages d'ouvriers appartenant tous à diverses professions. Composée de plusieurs corps de logis séparés par une très-grande cour, les uns élevés de deux et même trois étages, d'autres n'ofrant qu'un rez-de-chaussée où sont installés des ateliers de forgerons, de cloutiers et de taillandiers, cette immense con¬struction, quoique mal bâtie, et dénuée de régularité dans son ar¬chitecture, est fort bien tenue et ofe à l'eil un aspect aussi animé que varié. La moyenne des logements peut être évaluée à 200 ᶠ. Celui qu'occupe Bernard D** est un des plus chers et des plus grands
@@ -323,64 +408,130 @@
        La famille comprend les deux époux, la mère de la femme et quinze enfants.
       </p>
       <p xml:id="para_12_375_26">
-       1. <persName>BERNARD D**</persName>, chef de famille, marié depuis le 30 octobre 1832, né au Village-Neuf, pres d'Huningue (Haut-Rhin)............ 59 ans.
+       1.
+       <persName>
+        BERNARD D**
+       </persName>
+       , chef de famille, marié depuis le 30 octobre 1832, né au Village-Neuf, pres d'Huningue (Haut-Rhin)............ 59 ans.
       </p>
       <p xml:id="para_12_375_28">
-       2. <persName>MARIE REINE P**</persName>, sa femme, née à Huningue............ 43 —
+       2.
+       <persName>
+        MARIE REINE P**
+       </persName>
+       , sa femme, née à Huningue............ 43 —
       </p>
       <p xml:id="para_12_375_29">
-       <persName>Hortense D**</persName>, née à Huningue (servante à Paris)............ 27 —
+       <persName>
+        Hortense D**
+       </persName>
+       , née à Huningue (servante à Paris)............ 27 —
       </p>
       <p xml:id="para_12_375_30">
-       <persName>Jules D**</persName>, né à Huningue (brigadier aux chasseurs de la garde impériale)............ 25 —
+       <persName>
+        Jules D**
+       </persName>
+       , né à Huningue (brigadier aux chasseurs de la garde impériale)............ 25 —
       </p>
       <p xml:id="para_12_375_32">
-       <persName>Élisa D**</persName>, née à Huningue............ 23 —
+       <persName>
+        Élisa D**
+       </persName>
+       , née à Huningue............ 23 —
       </p>
       <p xml:id="para_12_375_33">
-       <persName>Joséphine D**</persName> ............ 20 —
+       <persName>
+        Joséphine D**
+       </persName>
+       ............ 20 —
       </p>
       <p xml:id="para_12_375_34">
-       <persName>Pauline D**</persName> — ............ 19 —
+       <persName>
+        Pauline D**
+       </persName>
+       — ............ 19 —
       </p>
       <p xml:id="para_12_375_35">
        Ces trois dernières mariées le même jour à Paris, en 1860.
       </p>
       <p xml:id="para_12_375_36">
-       3. <persName>Paul D**</persName>, né à Huningue............ 17 — 1/2.
+       3.
+       <persName>
+        Paul D**
+       </persName>
+       , né à Huningue............ 17 — 1/2.
       </p>
       <p xml:id="para_12_375_37">
-       4. <persName>Marie D**</persName> ............ 16 —
+       4.
+       <persName>
+        Marie D**
+       </persName>
+       ............ 16 —
       </p>
       <p xml:id="para_12_375_38">
-       5. <persName>Rosalie D**</persName>  — ............ 14 —
+       5.
+       <persName>
+        Rosalie D**
+       </persName>
+       — ............ 14 —
       </p>
       <p xml:id="para_12_375_39">
-       6. <persName>Charles D**</persName> — ............ 13 —
+       6.
+       <persName>
+        Charles D**
+       </persName>
+       — ............ 13 —
       </p>
       <p xml:id="para_12_375_40">
-       <persName>Léonie D**</persName>, née à Huningue (élevée à Huningue, chez un oncle)............ — 2.
+       <persName>
+        Léonie D**
+       </persName>
+       , née à Huningue (élevée à Huningue, chez un oncle)............ — 2.
       </p>
       <p xml:id="para_12_375_42">
-       <persName>Louise D**</persName>, née à Huningue (admise au couvent de Conflans). 10 — 1/2.
+       <persName>
+        Louise D**
+       </persName>
+       , née à Huningue (admise au couvent de Conflans). 10 — 1/2.
       </p>
       <p xml:id="para_12_375_43">
-       7. <persName>Cécile D**</persName> — ............ 9 — 12.
+       7.
+       <persName>
+        Cécile D**
+       </persName>
+       — ............ 9 — 12.
       </p>
       <p xml:id="para_12_375_44">
-       8, <persName>Anatole D**</persName>, né à Mulhouse............ 7 — 1,2.
+       8,
+       <persName>
+        Anatole D**
+       </persName>
+       , né à Mulhouse............ 7 — 1,2.
       </p>
       <p xml:id="para_12_375_45">
-       9. <persName>Lucien D**</persName>............ 6 —
+       9.
+       <persName>
+        Lucien D**
+       </persName>
+       ............ 6 —
       </p>
       <p xml:id="para_12_375_46">
-       10. <persName>Eugénie D**</persName>, née à Paris............ 3 —
+       10.
+       <persName>
+        Eugénie D**
+       </persName>
+       , née à Paris............ 3 —
       </p>
       <p xml:id="para_12_375_47">
-       11. <persName>Rosalie C**</persName>, veuve H**, mère de Marie-Reine P**,............ 75 —
+       11.
+       <persName>
+        Rosalie C**
+       </persName>
+       , veuve H**, mère de Marie-Reine P**,............ 75 —
       </p>
       <p>
-       <pb facs="#facs_381" n="376" source="lesouvriersdesde03sociuoft_0384.xml"/> La famille serait encore plus nombreuse, sans la perte de quatre enfants qui sont morts : l'un (brûlé) à l'age de dix-huit mois ; le 2ᵉ à l'âge de quatre ans ; le 3ᵉ à six mois ; et le 4ᵉ à neuf mois.
+       <pb facs="#facs_381" n="376" source="lesouvriersdesde03sociuoft_0384.xml"/>
+       La famille serait encore plus nombreuse, sans la perte de quatre enfants qui sont morts : l'un (brûlé) à l'age de dix-huit mois ; le 2ᵉ à l'âge de quatre ans ; le 3ᵉ à six mois ; et le 4ᵉ à neuf mois.
       </p>
       <p xml:id="para_12_376_49">
        La femme D** est enceinte de son vingtième enfant.
@@ -409,7 +560,8 @@
        § 3. — RELIGION ET HABITUDES MORALES.
       </head>
       <p xml:id="para_12_377_57">
-       <pb facs="#facs_382" n="377" source="lesouvriersdesde03sociuoft_0385.xml"/>Les époux D** professent la religion catholique ; leurs enfants ont tous été élevés dans cette même religion, dont les principes et les prescriptions sont respectés et cultivés avec ferveur. Le chef de la famille, retenu par ses travaux, ne peut se livrer entièrement aux exigences du culte ; mais une piété ferme et véritable le soutient sans cesse au milieu de ses luttes avec les besoins de la vie. C'est dans ces sentiments que les époux D** ont puisé le courage et la résignation nécessaires pour traverser des jours difficiles. Ils ont l'un pour l'autre une vive affection et consacrent au travail toutes leurs forces, ayant constamment en vue l'amélioration de leur position, la conservation de leur santé et la prospérité de leur nombreuse famille.
+       <pb facs="#facs_382" n="377" source="lesouvriersdesde03sociuoft_0385.xml"/>
+       Les époux D** professent la religion catholique ; leurs enfants ont tous été élevés dans cette même religion, dont les principes et les prescriptions sont respectés et cultivés avec ferveur. Le chef de la famille, retenu par ses travaux, ne peut se livrer entièrement aux exigences du culte ; mais une piété ferme et véritable le soutient sans cesse au milieu de ses luttes avec les besoins de la vie. C'est dans ces sentiments que les époux D** ont puisé le courage et la résignation nécessaires pour traverser des jours difficiles. Ils ont l'un pour l'autre une vive affection et consacrent au travail toutes leurs forces, ayant constamment en vue l'amélioration de leur position, la conservation de leur santé et la prospérité de leur nombreuse famille.
       </p>
       <p xml:id="para_12_377_58">
        Tous les matins et tous les soirs, la femme ** écite à haute voix les prières que les enfants agenouillés au pied de leurs lits répètent avec elle. Il en est de même à tous les repas, et les offices du di¬manche sont suivis avec soin. Enfin, la vie de Paris n'a pu faire perdre à cette famille les traditions pieuses qu'elle a reçues et suivies en province.
@@ -418,7 +570,9 @@
        Bernard D** toujours dévoué aux obligations que lui impose son rude métier de manœuvre, se lève chaque jour à cinq heures, et il est toujours un des premiers arrivés au travail. Il en a été de même dans toutes les positions qu'il a occupées.
       </p>
       <p xml:id="para_12_377_60">
-       Bernard D** a reçu l'instruction première commune à tous les en¬fants de la classe ouvrière. Il a fréquenté dans son jeune âge l'école primaire de son pays. D'abord soldat, ensuite boucher à Huningue, il s'est trouvé dans des conditions sociales assez heureuses. La rude existence a laquelle il s'est voué, depuis les changements qui l'ont obligé à quitter son état et à venir vivre à Paris pour y trou¬ver les moyens de pourvoir aux besoins de sa famille, est une preuve évidente des qualités qui distinguent cet honnête travailleur. Per¬sévérant, actif et courageu, Bernard D** ne se préoccupe pas de lui-même ; s'il jette parfois un regard en arrière, c'est pour sa fa¬mille ; c'est aussi pour sa famille qu'il travaille sans cesse, suppor¬tant les plus dures privations et s'imposant des sacrifices que l'on doit facilement apprécier, en songeant qu'avec un salaire mo¬dique Bernard D** a élevé 15 enfants dans d'excellentes conditions d'ordre, de bonne conduite et d'esprit de famille. Il abandonne l'administration intérieure du ménage et la libre disposition de ses ressources à sa femme. Celle-ci, fille d'un ancien officier de l'Em¬pire, a reçu une instruction en rapport avec les conditions de sa <pb facs="#facs_383" n="378" source="lesouvriersdesde03sociuoft_0386.xml"/> naissance, et se recommande aussi par des qualités morales qu'en¬tretiennent à la fois l'amour de la famille et une foi sincère. C'est elle qui guide l'éducation des enfants, en réprimant les écarts de leur caractère et en développant chez eux les bonnes dispositions naturelles. Cette sollicitude incessante, ces soins intelligents, ont jeté de bonne heure dans le cur de ces enfants des germes qui s'épanouissent maintenant en sentiments de dévouement et de res¬pect pour l'autorité paternelle. Ces sentiments, au contraire, dis¬paraissent de plus en plus au sein des classes ouvrières de Paris, et, malheureusement, cette décadence morale marche de front avec l'oubli du devoir envers la famille et la perte du respect envers les pouvoirs sociaux. Mais c'est surtout par sa fécondité que la famille présentement décrite contraste avec le milieu où elle est placée. Le nombre de ses enfants, trait le plus caractéristique des traditions du pays natal, des sentiments religieux et des habitudes morales des deux époux, est une exception fort rare chez toutes les catégories de la population de aris
+       Bernard D** a reçu l'instruction première commune à tous les en¬fants de la classe ouvrière. Il a fréquenté dans son jeune âge l'école primaire de son pays. D'abord soldat, ensuite boucher à Huningue, il s'est trouvé dans des conditions sociales assez heureuses. La rude existence a laquelle il s'est voué, depuis les changements qui l'ont obligé à quitter son état et à venir vivre à Paris pour y trou¬ver les moyens de pourvoir aux besoins de sa famille, est une preuve évidente des qualités qui distinguent cet honnête travailleur. Per¬sévérant, actif et courageu, Bernard D** ne se préoccupe pas de lui-même ; s'il jette parfois un regard en arrière, c'est pour sa fa¬mille ; c'est aussi pour sa famille qu'il travaille sans cesse, suppor¬tant les plus dures privations et s'imposant des sacrifices que l'on doit facilement apprécier, en songeant qu'avec un salaire mo¬dique Bernard D** a élevé 15 enfants dans d'excellentes conditions d'ordre, de bonne conduite et d'esprit de famille. Il abandonne l'administration intérieure du ménage et la libre disposition de ses ressources à sa femme. Celle-ci, fille d'un ancien officier de l'Em¬pire, a reçu une instruction en rapport avec les conditions de sa
+       <pb facs="#facs_383" n="378" source="lesouvriersdesde03sociuoft_0386.xml"/>
+       naissance, et se recommande aussi par des qualités morales qu'en¬tretiennent à la fois l'amour de la famille et une foi sincère. C'est elle qui guide l'éducation des enfants, en réprimant les écarts de leur caractère et en développant chez eux les bonnes dispositions naturelles. Cette sollicitude incessante, ces soins intelligents, ont jeté de bonne heure dans le cur de ces enfants des germes qui s'épanouissent maintenant en sentiments de dévouement et de res¬pect pour l'autorité paternelle. Ces sentiments, au contraire, dis¬paraissent de plus en plus au sein des classes ouvrières de Paris, et, malheureusement, cette décadence morale marche de front avec l'oubli du devoir envers la famille et la perte du respect envers les pouvoirs sociaux. Mais c'est surtout par sa fécondité que la famille présentement décrite contraste avec le milieu où elle est placée. Le nombre de ses enfants, trait le plus caractéristique des traditions du pays natal, des sentiments religieux et des habitudes morales des deux époux, est une exception fort rare chez toutes les catégories de la population de aris
        <ref target="#part_03_01_17" type="renvoi_int_mono">
         (A)
        </ref>
@@ -446,7 +600,8 @@
        Dans une situation aussi prospère au point de vue de la santé,
       </p>
       <p xml:id="para_12_379_67">
-       <pb facs="#facs_384" n="379" source="lesouvriersdesde03sociuoft_0387.xml"/> Bernard D** e s'impose que très-peu de dépenses pour le service médical de sa famille. Cependant, s'il est fortuitement dans la nécessité d'avoir recours à des soins médicaux ou à quelques remèdes, il s'adresse aux sœurs de charité de son quartier, qui, avec le dévouement dont elles sont toujours animées, donnent des conseils, ournissent une tisane, une potion, et tout est dit. En cas de maladie ou d'indisposition grave, la famille rȩoit les visites gratuites du médecin du bureau de bienfaisance, et le même bureau fournit alors les médicaments ordonnés.
+       <pb facs="#facs_384" n="379" source="lesouvriersdesde03sociuoft_0387.xml"/>
+       Bernard D** e s'impose que très-peu de dépenses pour le service médical de sa famille. Cependant, s'il est fortuitement dans la nécessité d'avoir recours à des soins médicaux ou à quelques remèdes, il s'adresse aux sœurs de charité de son quartier, qui, avec le dévouement dont elles sont toujours animées, donnent des conseils, ournissent une tisane, une potion, et tout est dit. En cas de maladie ou d'indisposition grave, la famille rȩoit les visites gratuites du médecin du bureau de bienfaisance, et le même bureau fournit alors les médicaments ordonnés.
       </p>
      </div>
      <div n="005" type="sub_sub_section">
@@ -479,7 +634,9 @@
        <ref target="#part_02_04_12" type="renvoi_int_mono">
         (§ 12)
        </ref>
-       , Ber¬nard D** eut pu, peut-être, comme les autres membres de sa famille, conquérir par le travail une aisance honorable et une posi¬tion plus en harmonie avec ses antécédents. Toutefois, dans la <pb facs="#facs_385" n="380" source="lesouvriersdesde03sociuoft_0388.xml"/> situation même où il se trouve, il sait déployer toutes les qualités énergiques qui élèvent l'homme au-dessus du malheur, et, s'il n'a pas la considération qu'on accorde généralement au rang et à la fortune, il jouit du moins de l'estime due à la résignation et à l'es¬prit d'ordre et de devoir.
+       , Ber¬nard D** eut pu, peut-être, comme les autres membres de sa famille, conquérir par le travail une aisance honorable et une posi¬tion plus en harmonie avec ses antécédents. Toutefois, dans la
+       <pb facs="#facs_385" n="380" source="lesouvriersdesde03sociuoft_0388.xml"/>
+       situation même où il se trouve, il sait déployer toutes les qualités énergiques qui élèvent l'homme au-dessus du malheur, et, s'il n'a pas la considération qu'on accorde généralement au rang et à la fortune, il jouit du moins de l'estime due à la résignation et à l'es¬prit d'ordre et de devoir.
       </p>
      </div>
     </div>
@@ -491,12 +648,12 @@
       <head type="sub_sub_section" xml:id="part_02_02_06">
        § 6. — PROPRIÉTÉS.
       </head>
-      <div type="proprietes" subtype="proprietes_texte_1">
+      <div subtype="proprietes_texte_1" type="proprietes">
        <p xml:id="para_12_380_77">
         (Mobilier et vêtements non compris.)
        </p>
       </div>
-      <div type="proprietes" subtype="immeubles">
+      <div subtype="immeubles" type="proprietes">
        <p xml:id="para_12_380_78">
         IMMEUBLES............ 0ᶠ 00
        </p>
@@ -508,7 +665,7 @@
         équivaut à une véritable propriété et garantit un avenir aux parents.
        </p>
       </div>
-      <div type="proprietes" subtype="argent">
+      <div subtype="argent" type="proprietes">
        <p xml:id="para_12_380_81">
         ARGENT............ 0ᶠ 00
        </p>
@@ -516,7 +673,7 @@
         (La famille ne possede actuellement aucune espèce de capital.)
        </p>
       </div>
-      <div type="proprietes" subtype="animaux">
+      <div subtype="animaux" type="proprietes">
        <p xml:id="para_12_380_83">
         ANIMAUX DOMESTIQUES............ 0ᶠ 00
        </p>
@@ -524,7 +681,7 @@
         (Il n'y a aucun animal domestique.)
        </p>
       </div>
-      <div type="proprietes" subtype="materiel">
+      <div subtype="materiel" type="proprietes">
        <p xml:id="para_12_380_85">
         MATÉRIEL SPÉCIAL des travaux et industries............ 0ᶠ 00
        </p>
@@ -532,12 +689,12 @@
         Bernad D**, employé en ce moment en qualité d'homme de peine dans une admi¬nistration publique (les pompes funèbres), reçoit de celle-ci le matériel nécessaire à son travail : une blouse, une paire de sabots, une brosse et un balai.
        </p>
       </div>
-      <div type="proprietes" subtype="proprietes_total">
+      <div subtype="proprietes_total" type="proprietes">
        <p xml:id="para_12_380_87">
         VALEUR TOTALE DES PROPRIETES............ 0ᶠ 00
        </p>
       </div>
-      <div type="proprietes" subtype="proprietes_texte_2">
+      <div subtype="proprietes_texte_2" type="proprietes">
        <p xml:id="para_12_380_88">
         En parcourant les monographies des Ouriers européens et des Ouriers des Deux Mondes, on peut constater que l'absence de toute espèce de propriété est un fait extrêmement rare. Cette situa¬tion est d'autant plus digne de remarque que la famille se distingue par d'excellentes meurs et u'elle a été récemment favorisée par une recette considérable et inattendue
         <ref target="#part_03_01_18" type="renvoi_int_mono">
@@ -546,7 +703,9 @@
         . Aucun exemple n'est plus propre a montrer l'influence fâcheuse qu'exerce sur la condi¬tion des ouvriers l'absence de toute propension à l'épargne.
        </p>
        <p xml:id="para_12_380_89">
-        Cependant, les subventions accordées aux parents par les enfants qu'ils ont élevés peuvent, à la rigueur, être assimilées aux pensions <pb facs="#facs_386" n="381" source="lesouvriersdesde03sociuoft_0389.xml"/> que certains vieillards s'assurent en recourant au principes com¬binés de l'épargne et de la mutualité : à ce point de vue, les alloca¬tions reçues de la fille aînée
+        Cependant, les subventions accordées aux parents par les enfants qu'ils ont élevés peuvent, à la rigueur, être assimilées aux pensions
+        <pb facs="#facs_386" n="381" source="lesouvriersdesde03sociuoft_0389.xml"/>
+        que certains vieillards s'assurent en recourant au principes com¬binés de l'épargne et de la mutualité : à ce point de vue, les alloca¬tions reçues de la fille aînée
         <ref target="#part_02_05_14" type="renvoi_int_mono">
          (R. 2ᵉ Son)
         </ref>
@@ -580,7 +739,9 @@
        <ref target="#part_03_01_18" type="renvoi_int_mono">
         (B)
        </ref>
-       . Ce prix a été décerné à Bernard D** au mois de février 1859. A bout de ressources, Ber¬nard D** ivait dans les conditions les plus difficiles, lorsque la libéralité de M. de Reverdy et le choix du conseil municipal sont <pb facs="#facs_387" n="382" source="lesouvriersdesde03sociuoft_0390.xml"/> inopinément venus à son secours. L'argent qu'il a touché dans cette circonstance (3,000ᶠ) a permis à Bernard D** de dégager une grande partie de ses effets mobiliers engagés peu à peu et depuis longtemps au mont- de -piété pour subvenir aux besoins de la fa¬mille, de payer des dettes nombreuses et criardes et de pourvoir à quelques achats urgents qui avaient été remis faute d'argent : mais cette somme, dont le restant avait été conservé pour aider aux dépenses journalières du ménage, est aujourd'hui complétement épuisée
+       . Ce prix a été décerné à Bernard D** au mois de février 1859. A bout de ressources, Ber¬nard D** ivait dans les conditions les plus difficiles, lorsque la libéralité de M. de Reverdy et le choix du conseil municipal sont
+       <pb facs="#facs_387" n="382" source="lesouvriersdesde03sociuoft_0390.xml"/>
+       inopinément venus à son secours. L'argent qu'il a touché dans cette circonstance (3,000ᶠ) a permis à Bernard D** de dégager une grande partie de ses effets mobiliers engagés peu à peu et depuis longtemps au mont- de -piété pour subvenir aux besoins de la fa¬mille, de payer des dettes nombreuses et criardes et de pourvoir à quelques achats urgents qui avaient été remis faute d'argent : mais cette somme, dont le restant avait été conservé pour aider aux dépenses journalières du ménage, est aujourd'hui complétement épuisée
        <ref target="#part_03_01_19" type="renvoi_int_mono">
         (C)
        </ref>
@@ -594,7 +755,7 @@
       <head type="sub_sub_section" xml:id="part_02_02_08">
        § 8. — TRAVAUX ET INDUSTRIES.
       </head>
-      <div type="travaux" subtype="ouvrier">
+      <div subtype="ouvrier" type="travaux">
        <p xml:id="para_12_382_99">
         Le travail de l'ouvrier est exécuté actuellement pour le compte de l'administration des pompes funèbres, hors de la maison et à la journée. Il consiste à laver les chars et les voitures de cette admi¬nistration et à faire tout ce qui lui est ordonné en sa qualité de manœuvre. Ce travail commence à 5 heures du matin et finit à 7 heures du soir ; il est accordé deux heures dans la journée pour prendre les repas, le matin de 9 à 10 et le soir de 2 à 3 heures.
        </p>
@@ -602,20 +763,22 @@
         L'ouvrier est rétribué à raison de 2ᶠ50 par jour. En dehors du temps consacré à son travail, l'ouvrier n'entreprend aucune espece d'industrie.
        </p>
        <p xml:id="para_12_382_101">
-        L'ouvrier a travaillé pendant six ans en qualité d'homme de peine et de manœuvre sur les ports du canal Saint-Martin, dans le système des engagements momentanés. Comme aujourd'hui, il gagnait 2ᶠ 50 par jour, salaire moyen des hommes de peine à Paris. S'étant trouvé longtemps sans ouvrage pendant l'hiver dernier, Bernard pᶠ** faisait le courtage des charbons ; cette opération, qui consiste à aller dans les maisons bourgeoises et à y vendre aux particuliers du charbon de chauffage pour le compte d'un marchand en gros, rapportait, en moyenne, de 2ᶠ50 à 3ᶠ. L'été ayant ensuite ramené le travail ordinaire des ports, Bernard D** reprit ses occupations de manœuvre, et lut occupé à décharger des pavés conduits à Paris, sur des bateaux venant de Belgique. Dans le système des engage¬ments momentanés, l'ouvrier conserve plus d'indépendance vis-à¬vis du patron qui l'occupe ; il peut dans une circonstance heureuse trouver le moyen d'élever un instant son salaire ; mais ces avantages sont précaires, en raison des fluctuations qui placent sans cesse l'ouvrier dans l'alternative de perdre son emploi. Ce système, sans offrir plus de ressource pour acquérir un certain rang, ne permet <pb facs="#facs_388" n="383" source="lesouvriersdesde03sociuoft_0391.xml"/> pas à l'ouvrier d'améliorer sa position d'une manière stable et assurée. Depuis huit ans que Bernard D** sge livre au métier de ma¬neuvre, il a parcouru tous les degrés de cette dure position, et, dans les diverses industries où il a été employé en cette qualité, son salaire ne s'est jamais élevé au-dessus d'une moyenne de 2ᶠ50 par jour, malgré sa conduite, sa persévérance et ses eflorts.
+        L'ouvrier a travaillé pendant six ans en qualité d'homme de peine et de manœuvre sur les ports du canal Saint-Martin, dans le système des engagements momentanés. Comme aujourd'hui, il gagnait 2ᶠ 50 par jour, salaire moyen des hommes de peine à Paris. S'étant trouvé longtemps sans ouvrage pendant l'hiver dernier, Bernard pᶠ** faisait le courtage des charbons ; cette opération, qui consiste à aller dans les maisons bourgeoises et à y vendre aux particuliers du charbon de chauffage pour le compte d'un marchand en gros, rapportait, en moyenne, de 2ᶠ50 à 3ᶠ. L'été ayant ensuite ramené le travail ordinaire des ports, Bernard D** reprit ses occupations de manœuvre, et lut occupé à décharger des pavés conduits à Paris, sur des bateaux venant de Belgique. Dans le système des engage¬ments momentanés, l'ouvrier conserve plus d'indépendance vis-à¬vis du patron qui l'occupe ; il peut dans une circonstance heureuse trouver le moyen d'élever un instant son salaire ; mais ces avantages sont précaires, en raison des fluctuations qui placent sans cesse l'ouvrier dans l'alternative de perdre son emploi. Ce système, sans offrir plus de ressource pour acquérir un certain rang, ne permet
+        <pb facs="#facs_388" n="383" source="lesouvriersdesde03sociuoft_0391.xml"/>
+        pas à l'ouvrier d'améliorer sa position d'une manière stable et assurée. Depuis huit ans que Bernard D** sge livre au métier de ma¬neuvre, il a parcouru tous les degrés de cette dure position, et, dans les diverses industries où il a été employé en cette qualité, son salaire ne s'est jamais élevé au-dessus d'une moyenne de 2ᶠ50 par jour, malgré sa conduite, sa persévérance et ses eflorts.
        </p>
       </div>
-      <div type="travaux" subtype="femme">
+      <div subtype="femme" type="travaux">
        <p xml:id="para_12_383_103">
         TRAVAUX DE LA FEMME. — La femme consacre tout son temps aux soins du ménage. L'entretien du linge, la confection des vête¬ments des enfants, l'achat, la préparation et la cuisson des aliments absorbent ses journées tout entières. Elle n'a jamais pu trouver le loisir de se livrer à une occupation quelconque qui pût concourir, par le plus léger salaire, au bien-être de la famille.
        </p>
       </div>
-      <div type="travaux" subtype="grand_mere">
+      <div subtype="grand_mere" type="travaux">
        <p xml:id="para_12_383_104">
         TRAVAUX DE LA GRAND'MÈRE. — Agée de 75 ans et infirme, la grand'mère ne fait aucun travail rétribué. Elle emploie son temps à tricoter des bas et à soigner les enfants en bas âge.
        </p>
       </div>
-      <div type="travaux" subtype="enfants">
+      <div subtype="enfants" type="travaux">
        <p xml:id="para_12_383_105">
         TRAVAUX DES ENFANTS. — A part la fille aînée et le jeune Paul
         <ref target="#part_02_01_02" type="renvoi_int_mono">
@@ -631,7 +794,7 @@
         Deux filles sont en ce moment en apprentissage : l'une apprend l'état de modiste, l'autre celui de couturière. Elles touchent au terme de leur apprentissage, et le père de famille espère que leurs travaux, prochainement rétribués, viendront en aide aux dépenses de la communauté.
        </p>
       </div>
-      <div type="industries" subtype="famille">
+      <div subtype="famille" type="industries">
        <p xml:id="para_12_383_107">
         INDUSTRIES ENTREPRISES PAR LA FAMILLE. — En dehors des tra¬vaux de l'ouvrier et des occupations de la femme, la famille ne peut entreprendre chez elle aucune industrie ; le temps et l'espace dans le logement manqueraient pour un travail étranger à ceux que nous enons de mentionner et qui sont les ressources uniques du chef de famille.
        </p>
@@ -647,7 +810,9 @@
        § 9. — ALIMENTS ET REPAS.
       </head>
       <p xml:id="para_12_383_111">
-       La famille ne fait pour ainsi dire qu'un seul repas par jour, à 7 heures du soir ; avant ce repas substantiel, on prend tous les <pb facs="#facs_389" n="384" source="lesouvriersdesde03sociuoft_0392.xml"/> matins le café au lait avec du pain, et à midi on mange seulement du pain avec quelques fruits ou du fromage. Cette dernière collation ne se fait pas en famille. Les enfants partent tous les matins à 7 heures 1/2 pour l'école ; ils emportent chacun, dans un petit panier, les aliments nécessaires à leur repas du milieu du jour, aliments qui ne sont jamais autres que ceux ci-dessus décrits.
+       La famille ne fait pour ainsi dire qu'un seul repas par jour, à 7 heures du soir ; avant ce repas substantiel, on prend tous les
+       <pb facs="#facs_389" n="384" source="lesouvriersdesde03sociuoft_0392.xml"/>
+       matins le café au lait avec du pain, et à midi on mange seulement du pain avec quelques fruits ou du fromage. Cette dernière collation ne se fait pas en famille. Les enfants partent tous les matins à 7 heures 1/2 pour l'école ; ils emportent chacun, dans un petit panier, les aliments nécessaires à leur repas du milieu du jour, aliments qui ne sont jamais autres que ceux ci-dessus décrits.
       </p>
       <p xml:id="para_12_384_113">
        Le diner du soir, auquel assiste toujours le père de famille, se compose généralement d'une soupe et de légumes selon la saison :; parfois les légumes cuits sont remplacés par une salade. Une fois par semaine, le dimanche, on met le pot-au-leu. La femme achete 2 lilog. de tête de bœuf, qu'elle fait cuire dans de l'eau, dont on fait une soupe grasse et une viande bouillie qui se mange à part. Le prix élevé de cette denrée alimentaire ne permet pas d'en acheter de meilleure qualité, ni d'en faire aussi fréquemment usage que la famille le désirerait. On ne boit jamais de vin, cette boisson étant trop chère ; on ne la remplace pas non plus par une boisson artificielle, come cela se patique chez beaucoup d'ouvriers pa risiens
@@ -670,146 +835,152 @@
       <head type="sub_sub_section" xml:id="part_02_03_10">
        § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
       </head>
-      <div type="par_10" subtype="par_10_texte_1">
+      <div subtype="par_10_texte_1" type="par_10">
        <p xml:id="para_12_385_118">
-       <pb facs="#facs_390" n="385" source="lesouvriersdesde03sociuoft_0393.xml"/>La famille loge au deuxième étage d'une maison d'assez belle apparence et proprement tenue
-       <ref target="#part_02_01_01" type="renvoi_int_od2m">
-        (§ 1ᵉʳ)
-       </ref>
-       . L'escalier principal est celui qui conduit au logement : cet escalier, assez vaste, est construit en pierres et continue dans les mêmes proportions jusqu'aux étages superieurs de la maison.
-      </p>
-      <p xml:id="para_12_385_119">
-       Le logement de l'ouvrier se compose de trois pièces ; la première. haute de 3 metres, offre une surlace de 18 mètres carés ; elle prend jour sur la rue du Faubourg-aint-Martin pa une grande et belle fenêtre. Cette pièce est celle où la femme se tient le plus habitueilement dans la journée. On pénètre ensuite dans deux pièces contigues et séparées par une cloison : la hauteur de ces deux chambres est de 2 80; mais, mansardées dans la plus grande partie du plafond, elles ne présentent qu'une hauteur moyenne de 2 mètres. La première de ces deux chambres est éclairée par la pièce d'entrée ; la seconde, qui distribue quelque lumière à sa voisine par la porte vitrée qui les sépare, recoit le jour par deux fenêtres pratiquées dans la chambre et aboutissant à la toiture, et par une autre petite croisée donnant sur la cour et devant laquelle se balance le feuillage de quelques fleurs grinpantes, cultivées par la famille.
-      </p>
-      <p xml:id="para_12_385_120">
-       La première pièce contient une grande armoire en bois de noyer, une table et quelques chaises : un portrait du chef de famille, peint à l'époque de sa jeunesse, en est le seul onement. Les murs sont tapissés d'un papier d'une propreté convenable. Les deux autres chambres renlferment, la première deux lits, dans l'un des¬quels couchent les époux D** l'autre est une espèce de divan, couvert en vieux damas rouge, servant de meuble dans la journée et le soir de coucher pour deux enfants. Dans la seconde pièce sont installés trois autres lits et un berceau, que se partagent la grand'¬mère et les autres enfants. C'est encore dans cette pièce, pourvue d'un poêle en fonte, que se fait la cuisine. Ce poêle, chauffé l'hiver, distribue la chaleur dans tout l'appartement, dont l'aspect de pro¬preté et d'aisance étonne tout d'abord, eu égard à la position gènee de cette intéressante 1famille. La distribution des lits est faite de manière que les enfants soient convenablement séparés.
-      </p>
-      <p xml:id="para_12_385_121">
-       Le prix du loyer est de 300ᶠ par an, payable, suivant l'usage. par trimestre. Il serait difficile aux époux D** de se loger d'une 1açon plus saine et plus convenable.
-      </p>
+        <pb facs="#facs_390" n="385" source="lesouvriersdesde03sociuoft_0393.xml"/>
+        La famille loge au deuxième étage d'une maison d'assez belle apparence et proprement tenue
+        <ref target="#part_02_01_01" type="renvoi_int_od2m">
+         (§ 1ᵉʳ)
+        </ref>
+        . L'escalier principal est celui qui conduit au logement : cet escalier, assez vaste, est construit en pierres et continue dans les mêmes proportions jusqu'aux étages superieurs de la maison.
+       </p>
+       <p xml:id="para_12_385_119">
+        Le logement de l'ouvrier se compose de trois pièces ; la première. haute de 3 metres, offre une surlace de 18 mètres carés ; elle prend jour sur la rue du Faubourg-aint-Martin pa une grande et belle fenêtre. Cette pièce est celle où la femme se tient le plus habitueilement dans la journée. On pénètre ensuite dans deux pièces contigues et séparées par une cloison : la hauteur de ces deux chambres est de 2 80; mais, mansardées dans la plus grande partie du plafond, elles ne présentent qu'une hauteur moyenne de 2 mètres. La première de ces deux chambres est éclairée par la pièce d'entrée ; la seconde, qui distribue quelque lumière à sa voisine par la porte vitrée qui les sépare, recoit le jour par deux fenêtres pratiquées dans la chambre et aboutissant à la toiture, et par une autre petite croisée donnant sur la cour et devant laquelle se balance le feuillage de quelques fleurs grinpantes, cultivées par la famille.
+       </p>
+       <p xml:id="para_12_385_120">
+        La première pièce contient une grande armoire en bois de noyer, une table et quelques chaises : un portrait du chef de famille, peint à l'époque de sa jeunesse, en est le seul onement. Les murs sont tapissés d'un papier d'une propreté convenable. Les deux autres chambres renlferment, la première deux lits, dans l'un des¬quels couchent les époux D** l'autre est une espèce de divan, couvert en vieux damas rouge, servant de meuble dans la journée et le soir de coucher pour deux enfants. Dans la seconde pièce sont installés trois autres lits et un berceau, que se partagent la grand'¬mère et les autres enfants. C'est encore dans cette pièce, pourvue d'un poêle en fonte, que se fait la cuisine. Ce poêle, chauffé l'hiver, distribue la chaleur dans tout l'appartement, dont l'aspect de pro¬preté et d'aisance étonne tout d'abord, eu égard à la position gènee de cette intéressante 1famille. La distribution des lits est faite de manière que les enfants soient convenablement séparés.
+       </p>
+       <p xml:id="para_12_385_121">
+        Le prix du loyer est de 300ᶠ par an, payable, suivant l'usage. par trimestre. Il serait difficile aux époux D** de se loger d'une 1açon plus saine et plus convenable.
+       </p>
       </div>
-      <div type="par_10" subtype="meubles">
+      <div subtype="meubles" type="par_10">
        <p xml:id="para_12_385_122">
-       MEUBLES : Ils annoncent l'ordre et la popeté et marqcn une <pb facs="#facs_391" n="386" source="lesouvriersdesde03sociuoft_0394.xml"/> tendance particulière vers les habitudes bourgeoises
-       <ref target="#part_02_04_12" type="renvoi_int_mono">
-        (§ 12)
-       </ref>
-       . Presque tous ces meubles ont été achetés l'an dernier avec le prix de 3,000ᶠ qu'a touché Benard D**. [
-       <ref target="#part_02_02_07" type="renvoi_int_mono">
-        § 7
-       </ref>
-       ,
-       <ref target="#part_03_01_18" type="renvoi_int_mono">
-        (B)
-       </ref>
-       ]................. 699ᶠ 00
-      </p>
-      <p xml:id="para_12_386_124">
-       1° Lits. — 1 Bois de lit eun noyer servant aux époux, 50ᶠ 00 ; — 1 paillasse, 5ᶠ 00 ; — 2 matelas, 80ᶠ00; — 1 couvertre de laine, 15ᶠ 00 ; — 1 oreiller en plumes, 10ᶠ 00 ; — 1 édredon en duvet, 20ᶠ 00. — 1 Bois de lit en noyer servant à la grand'mère, 25ᶠ 00 ; — 1 paillasse, 5ᶠ 00 ; — 1 matelas, 30ᶠ 00 ; — 1 couverture en coton, 8ᶠ 00 ; — 1 oreiller en plumes, 5ᶠ 00 ; — 1 édredon en plumes, 10ᶠ00. — 1 Lit en fer (pour enfants), 15ᶠ 00 ; — 1 sommier, 15ᶠ 00; — 1 matelas, 25ᶠ 00; — 1 couverture de coton, 6ᶠ 00 ; — 1 oreiller, 5 00 ; — 1 édredon en plumes, 10ᶠ 00. — 1 Lit en fer (pour en¬fants), 15ᶠ 00 ; — 1 sommier, 15ᶠ 00 ; — 1 matelas, 25ᶠ 00 ; — 1 couverture, 8ᶠ 00 ;  — 1 oreiller, 5ᶠ 00 ; —1 édredon, 10ᶠ00. — 1 Bois de lit en bois blanc (pour enfants). 6ᶠ 00; — 1 paillasse, 2ᶠ 00 ; — 1 matelas, ᶠ 00 ; — 1 couverture, 2ᶠ 00 ; — 1 oreiller, 2ᶠ 00. —— 1 Bois de lit en bois llanc tpour enfants), 3ᶠ 00 ; — 1 paillasse remplie de paille d'avoine, 2ᶠ 00 ; — 1 couverture, 2ᶠ 00 ; — 1 oreiller, ᶠ 00. — 1 Lit-ca¬napé, 20ᶠ 00 ; — 1 matelas, 8ᶠ 00; — 1 couverture, 6ᶠ 00 ; — 1 oeiller, 2ᶠ 00. — 1 Meceau, 3ᶠ 00 ; — 1 paillasse remplie de paille d'avoine, 1ᶠ 50; — 1 oreiller, 2ᶠ 00; 1 couveture, 2ᶠ 00. — Total, 489ᶠ 50.
-      </p>
-      <p xml:id="para_12_386_135">
-       2° Meubles des deux chambres et de la pièce d'entrée. — 1 armoire en noyer, 60ᶠ00; — 1 commode en noyer, 60 00 ; — 1 table de nuit, 6ᶠ 00 ; — 1 bufet en noyer,  00; — 1 table en bois klane, 6ᶠ 00 ; — 1 tle, 2ᶠ 00 ; — 6 chaises garnies en paille, 25ᶠ 00 ; — 6 chaises moins bonnes que les premières, 1000 ; — 1 glace, 1ᶠ 00, — 3 tableax de famille (sans valcur vénale) ; —4 rideaux de croisées, 2ᶠ 00. — fotal, 178ᶠ 00.
-      </p>
-      <p xml:id="para_12_386_138">
-       3° Objets relatifs au culte domestique. — 1 crucifix, 5ᶠ 00 ; — 1 tableau religieux, 1ᶠ 00 ; — 2 hénitiers, 2 50 ; — 4 tableaux de la Nierge, 8ᶠ 00 ; — 1 tableau de saint Joseph, 15ᶠ00. — Total, 31ᶠ 50.
-      </p>
+        MEUBLES : Ils annoncent l'ordre et la popeté et marqcn une
+        <pb facs="#facs_391" n="386" source="lesouvriersdesde03sociuoft_0394.xml"/>
+        tendance particulière vers les habitudes bourgeoises
+        <ref target="#part_02_04_12" type="renvoi_int_mono">
+         (§ 12)
+        </ref>
+        . Presque tous ces meubles ont été achetés l'an dernier avec le prix de 3,000ᶠ qu'a touché Benard D**. [
+        <ref target="#part_02_02_07" type="renvoi_int_mono">
+         § 7
+        </ref>
+        ,
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (B)
+        </ref>
+        ]................. 699ᶠ 00
+       </p>
+       <p xml:id="para_12_386_124">
+        1° Lits. — 1 Bois de lit eun noyer servant aux époux, 50ᶠ 00 ; — 1 paillasse, 5ᶠ 00 ; — 2 matelas, 80ᶠ00; — 1 couvertre de laine, 15ᶠ 00 ; — 1 oreiller en plumes, 10ᶠ 00 ; — 1 édredon en duvet, 20ᶠ 00. — 1 Bois de lit en noyer servant à la grand'mère, 25ᶠ 00 ; — 1 paillasse, 5ᶠ 00 ; — 1 matelas, 30ᶠ 00 ; — 1 couverture en coton, 8ᶠ 00 ; — 1 oreiller en plumes, 5ᶠ 00 ; — 1 édredon en plumes, 10ᶠ00. — 1 Lit en fer (pour enfants), 15ᶠ 00 ; — 1 sommier, 15ᶠ 00; — 1 matelas, 25ᶠ 00; — 1 couverture de coton, 6ᶠ 00 ; — 1 oreiller, 5 00 ; — 1 édredon en plumes, 10ᶠ 00. — 1 Lit en fer (pour en¬fants), 15ᶠ 00 ; — 1 sommier, 15ᶠ 00 ; — 1 matelas, 25ᶠ 00 ; — 1 couverture, 8ᶠ 00 ;  — 1 oreiller, 5ᶠ 00 ; —1 édredon, 10ᶠ00. — 1 Bois de lit en bois blanc (pour enfants). 6ᶠ 00; — 1 paillasse, 2ᶠ 00 ; — 1 matelas, ᶠ 00 ; — 1 couverture, 2ᶠ 00 ; — 1 oreiller, 2ᶠ 00. —— 1 Bois de lit en bois llanc tpour enfants), 3ᶠ 00 ; — 1 paillasse remplie de paille d'avoine, 2ᶠ 00 ; — 1 couverture, 2ᶠ 00 ; — 1 oreiller, ᶠ 00. — 1 Lit-ca¬napé, 20ᶠ 00 ; — 1 matelas, 8ᶠ 00; — 1 couverture, 6ᶠ 00 ; — 1 oeiller, 2ᶠ 00. — 1 Meceau, 3ᶠ 00 ; — 1 paillasse remplie de paille d'avoine, 1ᶠ 50; — 1 oreiller, 2ᶠ 00; 1 couveture, 2ᶠ 00. — Total, 489ᶠ 50.
+       </p>
+       <p xml:id="para_12_386_135">
+        2° Meubles des deux chambres et de la pièce d'entrée. — 1 armoire en noyer, 60ᶠ00; — 1 commode en noyer, 60 00 ; — 1 table de nuit, 6ᶠ 00 ; — 1 bufet en noyer,  00; — 1 table en bois klane, 6ᶠ 00 ; — 1 tle, 2ᶠ 00 ; — 6 chaises garnies en paille, 25ᶠ 00 ; — 6 chaises moins bonnes que les premières, 1000 ; — 1 glace, 1ᶠ 00, — 3 tableax de famille (sans valcur vénale) ; —4 rideaux de croisées, 2ᶠ 00. — fotal, 178ᶠ 00.
+       </p>
+       <p xml:id="para_12_386_138">
+        3° Objets relatifs au culte domestique. — 1 crucifix, 5ᶠ 00 ; — 1 tableau religieux, 1ᶠ 00 ; — 2 hénitiers, 2 50 ; — 4 tableaux de la Nierge, 8ᶠ 00 ; — 1 tableau de saint Joseph, 15ᶠ00. — Total, 31ᶠ 50.
+       </p>
       </div>
-      <div type="par_10" subtype="linge">
+      <div subtype="linge" type="par_10">
        <p xml:id="para_12_386_139">
-       LINGE DE MÉNAGE, déposé en partie au mont-de-piété. 95ᶠ 25
-      </p>
-      <p xml:id="para_12_386_140">
-       Linge conservé à la maison : 6 paires de draps (y compris les dras servant aux enfants, efaits avec de vieux dras coupés), 41ᶠ 00 ; — 3 paires de draps de rechange, 18ᶠ 00 ; — 4 taies d'oreillers, 4ᶠ 00 ; — 6 serviettes, 3 00; — 8 torchons de cuisine, 1ᶠ 25. — Total, 67ᶠ25.
-      </p>
-      <p xml:id="para_12_386_141">
-       Linge déposé au mont-de-piété : 6 nappes, 8ᶠ 00 ; — 4 draps, 10ᶠ 00; — 2 petits draps, 5ᶠ 00 ; — 2 rideaux de lit, 5ᶠ 00. — Total, 28ᶠ 00.
-      </p>
+        LINGE DE MÉNAGE, déposé en partie au mont-de-piété. 95ᶠ 25
+       </p>
+       <p xml:id="para_12_386_140">
+        Linge conservé à la maison : 6 paires de draps (y compris les dras servant aux enfants, efaits avec de vieux dras coupés), 41ᶠ 00 ; — 3 paires de draps de rechange, 18ᶠ 00 ; — 4 taies d'oreillers, 4ᶠ 00 ; — 6 serviettes, 3 00; — 8 torchons de cuisine, 1ᶠ 25. — Total, 67ᶠ25.
+       </p>
+       <p xml:id="para_12_386_141">
+        Linge déposé au mont-de-piété : 6 nappes, 8ᶠ 00 ; — 4 draps, 10ᶠ 00; — 2 petits draps, 5ᶠ 00 ; — 2 rideaux de lit, 5ᶠ 00. — Total, 28ᶠ 00.
+       </p>
       </div>
-      <div type="par_10" subtype="ustensiles">
+      <div subtype="ustensiles" type="par_10">
        <p xml:id="para_12_386_142">
-       USTENSILES : Bien que renouvelés en partie avec l'argent pro¬venant du prix de M. de Reverdy
-       <ref target="#part_03_01_18" type="renvoi_int_mono">
-        (B)
-       </ref>
-       , ils témoignent de l'état de pénurie de la famille. ......... .............. . .... 69ᶠ 75
-      </p>
-      <p xml:id="para_12_386_143">
-       1° Pour le service de l'adimentation. — 3 marmites en fonte, 6ᶠ 00 ; — 1 eau en er¬blanc, 2ᶠ 00 ; — 1 poelon en e-llac. 0ᶠ 75 ; — 1 soupière en faience. 1ᶠ25 ; — 2 plats en terre, 1ᶠ 00 ; — 1S assiettes en laience, 2ᶠ 50 ; — 1 saladier en laience, 1ᶠ 00; — 1 p t pou le lait, 0ᶠ 50; — 1 crnche à eau en terre, 0 50 ; — 1 d uzine tasses en faience, 1 25 ; — 1 douzaine cuilles en étain, 1ᶠ 80; — 1 douzaine fourclettes en fer, 1ᶠ 20 ; — 8 couteaux de talle, 1ᶠ 50 ; — 1 pche en ler pour la soupe, 0ᶠ 50; — 1 écu¬moire en fer, 0ᶠ 50; — 2 cuilles en bois, 0 15 ; — 1 culetière en ler-hlnc, 1ᶠ 25 ; — 1 burette à huile en fer-blane, 0ᶠ 75 ; — 1 1/2 douzaine veres à bire, 0ᶠ 60. — Total, 25ᶠ 00.
-      </p>
-      <p xml:id="para_12_386_146">
-       2° Pour usages divers. — 1 fontaine, 10ᶠ 00 ; — 1 poèle en fonte avec ses tuyaux, 20ᶠ 00 ; — 1 terrine en terre pour laver la vaisselle, 0ᶠ50 ; — 2 cuvettes en terre pour <pb facs="#facs_392" n="387" source="lesouvriersdesde03sociuoft_0395.xml"/> usages domestiques, 0ᶠ 50; — 1 balai, 1ᶠ 00; — 1 panier, 0ᶠ 75 ; — 2 fers à repasser, 2ᶠ 00 ; — 1 lampe, 4ᶠ 00 ; — 1 lampe de cuisine, 0ᶠ 50; — 1 chandelier, 0ᶠ 50 ; — 1 scie, 2ᶠ 50 ; — 1 hache, 2ᶠ 50. — Total, 44ᶠ 73.
-      </p>
+        USTENSILES : Bien que renouvelés en partie avec l'argent pro¬venant du prix de M. de Reverdy
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (B)
+        </ref>
+        , ils témoignent de l'état de pénurie de la famille. ......... .............. . .... 69ᶠ 75
+       </p>
+       <p xml:id="para_12_386_143">
+        1° Pour le service de l'adimentation. — 3 marmites en fonte, 6ᶠ 00 ; — 1 eau en er¬blanc, 2ᶠ 00 ; — 1 poelon en e-llac. 0ᶠ 75 ; — 1 soupière en faience. 1ᶠ25 ; — 2 plats en terre, 1ᶠ 00 ; — 1S assiettes en laience, 2ᶠ 50 ; — 1 saladier en laience, 1ᶠ 00; — 1 p t pou le lait, 0ᶠ 50; — 1 crnche à eau en terre, 0 50 ; — 1 d uzine tasses en faience, 1 25 ; — 1 douzaine cuilles en étain, 1ᶠ 80; — 1 douzaine fourclettes en fer, 1ᶠ 20 ; — 8 couteaux de talle, 1ᶠ 50 ; — 1 pche en ler pour la soupe, 0ᶠ 50; — 1 écu¬moire en fer, 0ᶠ 50; — 2 cuilles en bois, 0 15 ; — 1 culetière en ler-hlnc, 1ᶠ 25 ; — 1 burette à huile en fer-blane, 0ᶠ 75 ; — 1 1/2 douzaine veres à bire, 0ᶠ 60. — Total, 25ᶠ 00.
+       </p>
+       <p xml:id="para_12_386_146">
+        2° Pour usages divers. — 1 fontaine, 10ᶠ 00 ; — 1 poèle en fonte avec ses tuyaux, 20ᶠ 00 ; — 1 terrine en terre pour laver la vaisselle, 0ᶠ50 ; — 2 cuvettes en terre pour
+        <pb facs="#facs_392" n="387" source="lesouvriersdesde03sociuoft_0395.xml"/>
+        usages domestiques, 0ᶠ 50; — 1 balai, 1ᶠ 00; — 1 panier, 0ᶠ 75 ; — 2 fers à repasser, 2ᶠ 00 ; — 1 lampe, 4ᶠ 00 ; — 1 lampe de cuisine, 0ᶠ 50; — 1 chandelier, 0ᶠ 50 ; — 1 scie, 2ᶠ 50 ; — 1 hache, 2ᶠ 50. — Total, 44ᶠ 73.
+       </p>
       </div>
-      <div type="par_10" subtype="vetements">
+      <div subtype="vetements" type="par_10">
        <p xml:id="para_12_387_148">
-       VÊTEMENTS : Ils sont peu abondants, mais propres et bien en¬tretenus. Ceux de l'ouvrier notamment sont assez élégants et sem¬blables à ceux de la bourgeoisie. Ils ont été, comme le mobilier, en partie renouvelés avec l'argent provenant du prix de M. de Reverdy
-       <ref target="#part_03_01_18" type="renvoi_int_mono">
-        (B)
-       </ref>
+        VÊTEMENTS : Ils sont peu abondants, mais propres et bien en¬tretenus. Ceux de l'ouvrier notamment sont assez élégants et sem¬blables à ceux de la bourgeoisie. Ils ont été, comme le mobilier, en partie renouvelés avec l'argent provenant du prix de M. de Reverdy
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (B)
+        </ref>
         ............ 652ᶠ 25
-      </p>
-      <p xml:id="para_12_387_149">
-       VÊTEMENTS DE L'OUVRIER (151ᶠ25).
-      </p>
-      <p xml:id="para_12_387_150">
-       1° Vêtements du dimanche. — 1 paletot en drap noir, 50ᶠ 00 ; — 1 pantalon en dra noir, 25ᶠ 00; — 1 gilet en soie noire (usé, 6ᶠ 00 ; — 1 chapeau noir (haute forme). 5ᶠ 00 — 1 cravate en satin, 2ᶠ 00 ; — 1 chemise hlanche en coton, 5ᶠ 00 ; — 1 paire de chaussettes, 0ᶠ 50; — 1 paire de souliers, 6ᶠ 00. — Total 99ᶠ 30.
-      </p>
-      <p xml:id="para_12_387_151">
-       2° Vêtements de travail. — 2 blouses en toile coton, 8ᶠ 00; — 1 pantalon velours, 8ᶠ00 ; — 1 gilet velours, 3ᶠ 00 ; — 1 casquette, 2ᶠ 50; — 2 paires de chaussettes, 1ᶠ50 ; — 1 cravate, 1ᶠ 00 ; — 1 paie de souliers, 5ᶠ 00 ; — 3 cheises de couleur, 9ᶠ 00; — 3 mou¬choirs de poche de couleur, 1ᶠ 00 ; — 1 vieux chapeau gris, 0ᶠ 73. — Total, 39ᶠ 73.
-      </p>
-      <p xml:id="para_12_387_152">
-       3° Bijoux. — 1 montre en argent avec chaîne (cet objet est en ce moment au mont¬de-piété), valeur, 12ᶠ 00.
-      </p>
-      <p xml:id="para_12_387_153">
-       VÊTEMENTS DE LA FEMME (112ᶠ00).
-      </p>
-      <p xml:id="para_12_387_154">
-       1° Vêtements du dimanche. — 1 robe en orleans noir, 20ᶠ 00 ; — 1 chàle noir broché, 2ᶠ 00 ; — 1 châle d'hiver (en ce moment au mont-de-piété), 17ᶠ 00 ; — 1 tablier noir, 2ᶠ 00 ; — 1 paire de bas, 0ᶠ 75 ; — 1 bonnet en mousseline, 3ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00; — 1 jupon noir, 4ᶠ 00. — Total, 76ᶠ 75.
-      </p>
-      <p xml:id="para_12_387_155">
-       2° Vêtements de travail. — 1 robe en indienne, 6ᶠ 00 ; — 2 camisoles en indienne, 6ᶠ 00 ; — 2jupes en indienne, 6ᶠ 00 ; — 2 bonnets en jacounas hlanc, 2ᶠ00 ; —2 pires de bas de couleur, 2ᶠ 50 ; — 1 paire de chaussons eu lisière, 2ᶠ 00 ; — 4 chemises en cre¬tcnne, 8ᶠ 00 ; — 3 fichus blancs, 0ᶠ 75 ; — 3 mouchoirs de couleur, 1ᶠ 00; — 2 taliers en coton, 2ᶠ 00. — Total, 35ᶠ 25.
-      </p>
-      <p xml:id="para_12_387_156">
-       VÊTEMENTS DE LA GRAND'MÈRE (S3ᶠ50).
-      </p>
-      <p xml:id="para_12_387_157">
-       1° Vêtements du dimanche. — 1 robe en orléans, 8ᶠ 00 ; — 1 châle gris en laine, 6ᶠ 00 : — 1 tablier noir, 2ᶠ 00 ; — 1 bonnet en jaconas, 0ᶠ 50 ; — 1 paire de bas, 0ᶠ 75; — 1 paire de souliers, 5ᶠ 00 ; — 1 jupon 4ᶠ 00. — Total, 26ᶠ25.
-      </p>
-      <p xml:id="para_12_387_158">
-       2° Vêtements de trauvil. — 2 camisoles d'indienne, 6ᶠ 00 ; — 2 jupons d'indienne, 6ᶠ 00; — 2 tahliers en coton, 2ᶠ 00 ; — 2 bonnets, 2ᶠ 00; — 2 paires de bas de couleur, 1ᶠ 5S0; — 3 chemises de coton, 6ᶠ 00 ; — 1 paire de chaussons en lisièe, 2ᶠ 00; — 3 mou¬choirs de couleur, 1ᶠ 00 ; — 3 fichus, 0ᶠ 75. — Total, 27ᶠ 25.
-      </p>
-      <p xml:id="para_12_387_159">
-       VÊTEMENTS DU SECOND FILS (PAUL D**) (72ᶠ50).
-      </p>
-      <p xml:id="para_12_387_160">
-       1° Vêtements du dimanche. — 1 paletot en drap, 15ᶠ 00 ; — 1 pantalon, 9ᶠ 00 ; 1 gilet, 6ᶠ 00 ; — 1 casquette, 2ᶠ 50 ; — 1 cravate, 1ᶠ 00 ; — 1 chemise, 4ᶠ 00 ; — 1 paire de chaussttes, 0ᶠ 50; — 1 paire de souliers, 6ᶠ 00. — Total, 44ᶠ 00.
-      </p>
-      <p xml:id="para_12_387_161">
-       2° Vêtements de travail. — 2 blouses en toile coton blanc, 6ᶠ 00 ; — 1 pantalon ve¬lours, 5ᶠ 00 ; — 1 gilet velours, 2ᶠ 50 ; — 2 cravates, 0ᶠ 50 ; — 3 chemises de couleur, 7ᶠ 50 ; — 2 paires de chaussettes, 1ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00 : — 3 ouchoirs. 1ᶠ 00. — Tota, 28ᶠ 50.
-      </p>
-      <p xml:id="para_12_388_162">
-       <pb facs="#facs_393" n="388" source="lesouvriersdesde03sociuoft_0396.xml"/> VÊTEMENTS DE LA CINQUIÈME FILLE (MARIE D'°°) (61ᶠ00).
-      </p>
-      <p xml:id="para_12_388_163">
-       1° Vêtements du dimanche. — 1 robe de fantaisie, 10ᶠ 00 ; — 1 chàle en laine, 7ᶠ 00; — 1 bonnet mousseline, 3ᶠ 00 ; — 1 tablier noir, 2ᶠ 00 ; — 1 col et 1 paire d manches, 2ᶠ 50 ; — 1 iupon noir, 3ᶠ 00 ; — 1 paire de bas, 0ᶠ 75 ; — 1 paire de souliers, 5ᶠ 00. — Total, 33ᶠ 25.
-      </p>
-      <p xml:id="para_12_388_166">
-       2° Vêtements de travail. — 2 robes d'indienne, 12ᶠ 00 ; — 2 thliers en coton, 1ᶠ 50; — 2 paires de bas de couleur, 1ᶠ 50 ; — 1 paire de souliers, 5ᶠ 00 ; — 3 chemises de coton, ᶠ 00 ; — 3 mouchoirs, 1ᶠ 00 ; — 3 fichus blancs, 0ᶠ 75. — Tota, 27ᶠ 75.
-      </p>
-      <p xml:id="para_12_388_168">
-       VÊTEMENTS DES AUTRES ENFANTS INDISTINCTEMENT (202ᶠ 00).
-      </p>
-      <p xml:id="para_12_388_169">
-       1° Vêtements de 4 gurcons. — 1 veste en étoffe d'été, 6ᶠ 00; — 1 gilet, 2ᶠ 00 ; — 1 pan¬talon, 3ᶠ 00 ; — 1 cravate, 0ᶠ 75 ; — 2 blouses en coton bleu, 4 50 ; — 2 pantalons d'été, 6ᶠ 00; — 1 gilet, 1ᶠ 50 ; —3 chemises, 5ᶠ 00 ; —1 cravate, ᶠ 50 ; — 2aires de chaussettes, 1ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00; — 3 mouchoirs de couleur. 1ᶠ 00 ; — 2 hlouses de laine, 6ᶠ 00; — 2 blouses, 4ᶠ 00; — 2 pantalons, 4ᶠ 00 ; — 2 paires de bas, 1ᶠ 25 ; — 3 chemises, 4ᶠ 00; — 1 cusquette, 1ᶠ 50 ; — 1 paire de souliers, 4ᶠ 00 ; — 2 mouchoirs, 0ᶠ 75 ; — 1 cravate, 0, 50 ; — 1 pantal n, 3ᶠ 00; — 2 bluses bleues, 4ᶠ 00 ; — 2 paires de bas, 1ᶠ 25 ; — 3 chemises, 4ᶠ 00; — 1 casquette, 1ᶠ 50 ; — 1 paire de souliers, 4ᶠ 00; — 2 mouchoirs, 1 crvate, 0ᶠ 50. — Total, 80ᶠ 50.
-      </p>
-      <p xml:id="para_12_388_172">
-       2° Vêtements de 6 dles. — 1 robe fantaisie, 10ᶠ 00 ; — 1 chale mousseline laine, 7ᶠ00; — 1 tablier noir, 2ᶠ 60 ; — 1 bonnet moussclne, 3ᶠ 00 ; — 1 paie de bas, 0ᶠ 75; — 1 paire de souliers, 5ᶠ 00 ; — 1 jupon oir. 3ᶠ 00 ; — 1 col, 1 paire de manches, 2ᶠ 00; — 2 robes d'indienne, 12ᶠ 0 ; — 2 tabliers, 1ᶠ 50 ; — 2 paires de bas, 1ᶠ 50 ; — 1 paire de souliers, 5ᶠ 00 ; — 3 chemiscs, ᶠ 00 ; — 3 muchois, 1ᶠ 00 ; — 3 fichus blancs, 0ᶠ 75 ; — 2 robes d'indienne, 9ᶠ 50 ; — 2 tliers noirs, 3ᶠ 00 ; — 2 pèleines noires, 4ᶠ 00 ; — 2 robes d'indienne, 8ᶠ 00 ; — 3 tahliers en coton, 4 50 ; — 2 jupons, 4ᶠ 00 ; — 2 paires de bas, 1ᶠ 50 ; — 3 chemises, 4ᶠ .0 ; — 2 mouchoirs, 0ᶠ 75 ; — 6 ichus, 1ᶠ 50 ; — 1 paire de souliers, 4ᶠ 00; — 3 cols d'inlienne, 4ᶠ 50 ; — 3 jupens, 2ᶠ 50 ; — 3 bonnets, 0ᶠ 75 ; — 4 chemises, 2ᶠ 00 ; — 3 taliers, 1 50 ; — 3 paires de bas, 1ᶠ 50 ; — 1 paire de souliers. 2ᶠ 00; — 4 fchus, 1ᶠ 00. — Total, 121ᶠ 50.
-      </p>
+       </p>
+       <p xml:id="para_12_387_149">
+        VÊTEMENTS DE L'OUVRIER (151ᶠ25).
+       </p>
+       <p xml:id="para_12_387_150">
+        1° Vêtements du dimanche. — 1 paletot en drap noir, 50ᶠ 00 ; — 1 pantalon en dra noir, 25ᶠ 00; — 1 gilet en soie noire (usé, 6ᶠ 00 ; — 1 chapeau noir (haute forme). 5ᶠ 00 — 1 cravate en satin, 2ᶠ 00 ; — 1 chemise hlanche en coton, 5ᶠ 00 ; — 1 paire de chaussettes, 0ᶠ 50; — 1 paire de souliers, 6ᶠ 00. — Total 99ᶠ 30.
+       </p>
+       <p xml:id="para_12_387_151">
+        2° Vêtements de travail. — 2 blouses en toile coton, 8ᶠ 00; — 1 pantalon velours, 8ᶠ00 ; — 1 gilet velours, 3ᶠ 00 ; — 1 casquette, 2ᶠ 50; — 2 paires de chaussettes, 1ᶠ50 ; — 1 cravate, 1ᶠ 00 ; — 1 paie de souliers, 5ᶠ 00 ; — 3 cheises de couleur, 9ᶠ 00; — 3 mou¬choirs de poche de couleur, 1ᶠ 00 ; — 1 vieux chapeau gris, 0ᶠ 73. — Total, 39ᶠ 73.
+       </p>
+       <p xml:id="para_12_387_152">
+        3° Bijoux. — 1 montre en argent avec chaîne (cet objet est en ce moment au mont¬de-piété), valeur, 12ᶠ 00.
+       </p>
+       <p xml:id="para_12_387_153">
+        VÊTEMENTS DE LA FEMME (112ᶠ00).
+       </p>
+       <p xml:id="para_12_387_154">
+        1° Vêtements du dimanche. — 1 robe en orleans noir, 20ᶠ 00 ; — 1 chàle noir broché, 2ᶠ 00 ; — 1 châle d'hiver (en ce moment au mont-de-piété), 17ᶠ 00 ; — 1 tablier noir, 2ᶠ 00 ; — 1 paire de bas, 0ᶠ 75 ; — 1 bonnet en mousseline, 3ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00; — 1 jupon noir, 4ᶠ 00. — Total, 76ᶠ 75.
+       </p>
+       <p xml:id="para_12_387_155">
+        2° Vêtements de travail. — 1 robe en indienne, 6ᶠ 00 ; — 2 camisoles en indienne, 6ᶠ 00 ; — 2jupes en indienne, 6ᶠ 00 ; — 2 bonnets en jacounas hlanc, 2ᶠ00 ; —2 pires de bas de couleur, 2ᶠ 50 ; — 1 paire de chaussons eu lisière, 2ᶠ 00 ; — 4 chemises en cre¬tcnne, 8ᶠ 00 ; — 3 fichus blancs, 0ᶠ 75 ; — 3 mouchoirs de couleur, 1ᶠ 00; — 2 taliers en coton, 2ᶠ 00. — Total, 35ᶠ 25.
+       </p>
+       <p xml:id="para_12_387_156">
+        VÊTEMENTS DE LA GRAND'MÈRE (S3ᶠ50).
+       </p>
+       <p xml:id="para_12_387_157">
+        1° Vêtements du dimanche. — 1 robe en orléans, 8ᶠ 00 ; — 1 châle gris en laine, 6ᶠ 00 : — 1 tablier noir, 2ᶠ 00 ; — 1 bonnet en jaconas, 0ᶠ 50 ; — 1 paire de bas, 0ᶠ 75; — 1 paire de souliers, 5ᶠ 00 ; — 1 jupon 4ᶠ 00. — Total, 26ᶠ25.
+       </p>
+       <p xml:id="para_12_387_158">
+        2° Vêtements de trauvil. — 2 camisoles d'indienne, 6ᶠ 00 ; — 2 jupons d'indienne, 6ᶠ 00; — 2 tahliers en coton, 2ᶠ 00 ; — 2 bonnets, 2ᶠ 00; — 2 paires de bas de couleur, 1ᶠ 5S0; — 3 chemises de coton, 6ᶠ 00 ; — 1 paire de chaussons en lisièe, 2ᶠ 00; — 3 mou¬choirs de couleur, 1ᶠ 00 ; — 3 fichus, 0ᶠ 75. — Total, 27ᶠ 25.
+       </p>
+       <p xml:id="para_12_387_159">
+        VÊTEMENTS DU SECOND FILS (PAUL D**) (72ᶠ50).
+       </p>
+       <p xml:id="para_12_387_160">
+        1° Vêtements du dimanche. — 1 paletot en drap, 15ᶠ 00 ; — 1 pantalon, 9ᶠ 00 ; 1 gilet, 6ᶠ 00 ; — 1 casquette, 2ᶠ 50 ; — 1 cravate, 1ᶠ 00 ; — 1 chemise, 4ᶠ 00 ; — 1 paire de chaussttes, 0ᶠ 50; — 1 paire de souliers, 6ᶠ 00. — Total, 44ᶠ 00.
+       </p>
+       <p xml:id="para_12_387_161">
+        2° Vêtements de travail. — 2 blouses en toile coton blanc, 6ᶠ 00 ; — 1 pantalon ve¬lours, 5ᶠ 00 ; — 1 gilet velours, 2ᶠ 50 ; — 2 cravates, 0ᶠ 50 ; — 3 chemises de couleur, 7ᶠ 50 ; — 2 paires de chaussettes, 1ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00 : — 3 ouchoirs. 1ᶠ 00. — Tota, 28ᶠ 50.
+       </p>
+       <p xml:id="para_12_388_162">
+        <pb facs="#facs_393" n="388" source="lesouvriersdesde03sociuoft_0396.xml"/>
+        VÊTEMENTS DE LA CINQUIÈME FILLE (MARIE D'°°) (61ᶠ00).
+       </p>
+       <p xml:id="para_12_388_163">
+        1° Vêtements du dimanche. — 1 robe de fantaisie, 10ᶠ 00 ; — 1 chàle en laine, 7ᶠ 00; — 1 bonnet mousseline, 3ᶠ 00 ; — 1 tablier noir, 2ᶠ 00 ; — 1 col et 1 paire d manches, 2ᶠ 50 ; — 1 iupon noir, 3ᶠ 00 ; — 1 paire de bas, 0ᶠ 75 ; — 1 paire de souliers, 5ᶠ 00. — Total, 33ᶠ 25.
+       </p>
+       <p xml:id="para_12_388_166">
+        2° Vêtements de travail. — 2 robes d'indienne, 12ᶠ 00 ; — 2 thliers en coton, 1ᶠ 50; — 2 paires de bas de couleur, 1ᶠ 50 ; — 1 paire de souliers, 5ᶠ 00 ; — 3 chemises de coton, ᶠ 00 ; — 3 mouchoirs, 1ᶠ 00 ; — 3 fichus blancs, 0ᶠ 75. — Tota, 27ᶠ 75.
+       </p>
+       <p xml:id="para_12_388_168">
+        VÊTEMENTS DES AUTRES ENFANTS INDISTINCTEMENT (202ᶠ 00).
+       </p>
+       <p xml:id="para_12_388_169">
+        1° Vêtements de 4 gurcons. — 1 veste en étoffe d'été, 6ᶠ 00; — 1 gilet, 2ᶠ 00 ; — 1 pan¬talon, 3ᶠ 00 ; — 1 cravate, 0ᶠ 75 ; — 2 blouses en coton bleu, 4 50 ; — 2 pantalons d'été, 6ᶠ 00; — 1 gilet, 1ᶠ 50 ; —3 chemises, 5ᶠ 00 ; —1 cravate, ᶠ 50 ; — 2aires de chaussettes, 1ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00; — 3 mouchoirs de couleur. 1ᶠ 00 ; — 2 hlouses de laine, 6ᶠ 00; — 2 blouses, 4ᶠ 00; — 2 pantalons, 4ᶠ 00 ; — 2 paires de bas, 1ᶠ 25 ; — 3 chemises, 4ᶠ 00; — 1 cusquette, 1ᶠ 50 ; — 1 paire de souliers, 4ᶠ 00 ; — 2 mouchoirs, 0ᶠ 75 ; — 1 cravate, 0, 50 ; — 1 pantal n, 3ᶠ 00; — 2 bluses bleues, 4ᶠ 00 ; — 2 paires de bas, 1ᶠ 25 ; — 3 chemises, 4ᶠ 00; — 1 casquette, 1ᶠ 50 ; — 1 paire de souliers, 4ᶠ 00; — 2 mouchoirs, 1 crvate, 0ᶠ 50. — Total, 80ᶠ 50.
+       </p>
+       <p xml:id="para_12_388_172">
+        2° Vêtements de 6 dles. — 1 robe fantaisie, 10ᶠ 00 ; — 1 chale mousseline laine, 7ᶠ00; — 1 tablier noir, 2ᶠ 60 ; — 1 bonnet moussclne, 3ᶠ 00 ; — 1 paie de bas, 0ᶠ 75; — 1 paire de souliers, 5ᶠ 00 ; — 1 jupon oir. 3ᶠ 00 ; — 1 col, 1 paire de manches, 2ᶠ 00; — 2 robes d'indienne, 12ᶠ 0 ; — 2 tabliers, 1ᶠ 50 ; — 2 paires de bas, 1ᶠ 50 ; — 1 paire de souliers, 5ᶠ 00 ; — 3 chemiscs, ᶠ 00 ; — 3 muchois, 1ᶠ 00 ; — 3 fichus blancs, 0ᶠ 75 ; — 2 robes d'indienne, 9ᶠ 50 ; — 2 tliers noirs, 3ᶠ 00 ; — 2 pèleines noires, 4ᶠ 00 ; — 2 robes d'indienne, 8ᶠ 00 ; — 3 tahliers en coton, 4 50 ; — 2 jupons, 4ᶠ 00 ; — 2 paires de bas, 1ᶠ 50 ; — 3 chemises, 4ᶠ .0 ; — 2 mouchoirs, 0ᶠ 75 ; — 6 ichus, 1ᶠ 50 ; — 1 paire de souliers, 4ᶠ 00; — 3 cols d'inlienne, 4ᶠ 50 ; — 3 jupens, 2ᶠ 50 ; — 3 bonnets, 0ᶠ 75 ; — 4 chemises, 2ᶠ 00 ; — 3 taliers, 1 50 ; — 3 paires de bas, 1ᶠ 50 ; — 1 paire de souliers. 2ᶠ 00; — 4 fchus, 1ᶠ 00. — Total, 121ᶠ 50.
+       </p>
       </div>
-      <div type="par_10" subtype="par_10_total">
+      <div subtype="par_10_total" type="par_10">
        <p xml:id="para_12_388_178">
         VALEUR TOTALE du mobilier et des vêtements (sauf déduction d'une valeur de 57ᶠ 00 empruntés sur divers objets déposés au mont-de-piété)............ 1,516ᶠ 25
-      </p>
+       </p>
       </div>
      </div>
      <div n="003" type="sub_sub_section">
@@ -824,7 +995,9 @@
        , qui dépensent, en plaisirs nuisibles à leur santé et à leur bien-être, une somme supérieure à la recette annuelle de la majeure partie des ouvriers ruraux.
       </p>
       <p xml:id="para_12_388_181">
-       L'ouvrier ne va jamais au cabaret, à part les rares circonstances où il est invité par un ami ou un camarade. ll ne fait pas usage du tabac. bDe temps à autre, mais rarement, quand le temps le permet, les épou, accopagnés de leurs enfants, vont laire une prome<pb facs="#facs_394" n="389" source="lesouvriersdesde03sociuoft_0397.xml"/>nade, soit au Jardin des plantes, soit dans toute autre promenade publique. Mais, contrairement à l'usage suivi parmi les ouvriers, on ne s'arrête ni au cabaret pour y faire collaion, ni chez le mar¬chand de vin pour y prendre un rafraichissement quelconque. Le budet du ménage ne saurait permettre aucun écart de cette nature. Quelquefois les époux dinent chez des amis, ou chez leurs gendres, mais ces sortes de récréations sont rares et irrégulières. Lorsque son travail le permet, le père de famille se rend le di¬manche aux offices du soir. C'est une récréation qu'il aime à se procurer, mais dont il ne peut jouir qu'assez rarement.
+       L'ouvrier ne va jamais au cabaret, à part les rares circonstances où il est invité par un ami ou un camarade. ll ne fait pas usage du tabac. bDe temps à autre, mais rarement, quand le temps le permet, les épou, accopagnés de leurs enfants, vont laire une prome
+       <pb facs="#facs_394" n="389" source="lesouvriersdesde03sociuoft_0397.xml"/>
+       nade, soit au Jardin des plantes, soit dans toute autre promenade publique. Mais, contrairement à l'usage suivi parmi les ouvriers, on ne s'arrête ni au cabaret pour y faire collaion, ni chez le mar¬chand de vin pour y prendre un rafraichissement quelconque. Le budet du ménage ne saurait permettre aucun écart de cette nature. Quelquefois les époux dinent chez des amis, ou chez leurs gendres, mais ces sortes de récréations sont rares et irrégulières. Lorsque son travail le permet, le père de famille se rend le di¬manche aux offices du soir. C'est une récréation qu'il aime à se procurer, mais dont il ne peut jouir qu'assez rarement.
       </p>
       <p xml:id="para_12_389_183">
        Les récréations trouvées dans la vie de famille, telles que con¬versations, lectures, récits, ne se rencontrent pas dans celle que nous étudions. Les enfants se couchent de bonne heure, le chef de famille rentré chez lui se livre au repos, et la femme occupe ses soirées aux travaux du ménage.
@@ -846,7 +1019,8 @@
        A l'âge de 16 ans, Bernard D**, destiné à prendre l'industrie de son père, fut envoyé à Béfort, chez un de ses oncles, en qualité de garçon boucher. ll resta dans cette ville quatre ans : puis en 1820, le sort ne lui ayant pas été favorable, il devanca l'appel et s'en¬gagea dans le 1ᵉʳ régiment d'artillerie de la garde royale. D'abord soldat, Bernard D**, à qui son instruction ne pouvait permettre facilement l'accès aux grades supérieurs dans une arme spéciale, devint plus tard artificier. Il jouissait de l'estime de ses chefs et passait pour un des plus beaux hommes de son régiment. ll aime encore à se rappeler cette époque de sa vie, et les avantages de toute sorte que lui atiraient sa taille élevée et sa bonne mine. Il raconte, avec un certain orgueil, que le colonel de son régiment le désigna pour poser devant un peintre qui devait exécuter le por¬trait en pied du prince Eugène et que l'artiste, flatté de son modèle, le fit poser plusieurs autres fois, soit à pied, soit à cheval, pour des sujets militaires.
       </p>
       <p xml:id="para_12_390_189">
-       <pb facs="#facs_395" n="390" source="lesouvriersdesde03sociuoft_0398.xml"/> Libéré du service en 1829, Bernard D** rentra dans la vie civile, malgré les instances de son chef de corps, qui l'avait désigné pour remplir dans la maison du duc d'Orléans un emploi de piqueur. Les avantages attachés à cette position ne purent retenir Bernard D** 1l avait la maladie du pays, et le désir de se marier le poussait, d'ailleurs, à quitter pour toujours la carrière des armes. Plein de jeunesse, de force et de courage, Bernard D**, à qui son père
+       <pb facs="#facs_395" n="390" source="lesouvriersdesde03sociuoft_0398.xml"/>
+       Libéré du service en 1829, Bernard D** rentra dans la vie civile, malgré les instances de son chef de corps, qui l'avait désigné pour remplir dans la maison du duc d'Orléans un emploi de piqueur. Les avantages attachés à cette position ne purent retenir Bernard D** 1l avait la maladie du pays, et le désir de se marier le poussait, d'ailleurs, à quitter pour toujours la carrière des armes. Plein de jeunesse, de force et de courage, Bernard D**, à qui son père
        <ref target="#part_02_01_05" type="renvoi_int_mono">
         (§ 5)
        </ref>
@@ -863,13 +1037,17 @@
        . devait en être autrement, et, dans les conditions sociales ou les circonstances l'ont fait descendre, ce que Bernard D** regrette le plus, c'est son ancienne situation qui le plaçait au-dessus de la classe ouvrière, et lui assurait les diverses prérogatives que le suf¬frage universel a abolies. Aussi remarque-t-on chez Bernard D** au ilieu de son dénument de toutes choses, une tendance marquée vers la vie bourgeoise. Cette nuance existe surtout dans l'installa¬tion de son mobilier et dans la recherche de sa mise. Le dimanche surtout, Bernard D** a une tenue qui est loin d'accuser la gêne de sa position. Dans les chosesmatérielles comme dans l'ordre des idées, Bernard D** emploie ses ellorts à reconquérir son ancienne place dans la société, et il n'a qu'un seul espoir d'y arriver, c'est en obtenant un emploi qu'il sollicite.
       </p>
       <p xml:id="para_12_390_194">
-       Gagner assez pour élever sa famille, même au prix des plus durs <pb facs="#facs_396" n="391" source="lesouvriersdesde03sociuoft_0399.xml"/> sacrifices, et devenir employé, voilà le seul rêve que Bernard ) caresse dans son imageination, et à ses yeux sa position ne sera véri¬tablement améliorée qu'à cette condition. C'est pour lui une ques¬tion de convenance sociale et d'amour-propre, à laquelle il paraît attacher un prix infini. Sa famille, ses parents, ses amis l'ont aban¬donné dans sa misère. Cette misère est pour lui comme un stig¬mate ; elle le flétrit. Devenir employé, redevenir bourgeois, voilà sa réhabilitation.
+       Gagner assez pour élever sa famille, même au prix des plus durs
+       <pb facs="#facs_396" n="391" source="lesouvriersdesde03sociuoft_0399.xml"/>
+       sacrifices, et devenir employé, voilà le seul rêve que Bernard ) caresse dans son imageination, et à ses yeux sa position ne sera véri¬tablement améliorée qu'à cette condition. C'est pour lui une ques¬tion de convenance sociale et d'amour-propre, à laquelle il paraît attacher un prix infini. Sa famille, ses parents, ses amis l'ont aban¬donné dans sa misère. Cette misère est pour lui comme un stig¬mate ; elle le flétrit. Devenir employé, redevenir bourgeois, voilà sa réhabilitation.
       </p>
       <p xml:id="para_12_391_196">
        Pour Bernard D**, à qui la vie militaire n'avait pas réussi à faire contracter de mauvaises habitudes, le mariage ne fut que la continuation de son existence ordinaire. Noué au travail, grâce à ses qualités et à celles de sa femme, le jeune ménage prospéra long¬temps et les recettes de l'industrie allèrent toujours en augmentant jusque vers 1S42, époque à laquelle Benard D** avait gagné. selon ce qu'il déclare, une dizaine de mille francs. Il dut croire que la fortune ne l'abandonnerait jamais. C'est à ce moment que ses affaires commencèrent à décliner, jusqu'au jour où, n'ayant plus rien, il lui fallut quitter la terre natale. Les pincipales causes qui amenèrent cette grande perturbation dans la situation de cette fa¬mille sont attribuées par Bernard D**, d'une part, à la concurrence qu'il eut à soutenir avec un boucher qui vint s'éablir à Huningue, au commencement de 1842, concurrence qui dura de longues années : d'autre part, à la mort de son beau-père, dont les affaires peu pros¬pères mirent à sa charge une grande partie de la famille de sa femme, qui vint augmenter ainsi sa propre famille, déja fort nom¬breuse. Mais ce qui paraît avoir compromis le plus les intérêts du commerce de Bernard D**, c'est la mesure qui supprima en 1845 la garnison que le ministre de la guerre entretenait à Huningue. Petite ville sans importance et n'ayant aucun élément de richesse industrielle, IHuningue n'olrit plus., une fois sa garnison partie, aucune chance de prospérité à l'industrie de Bernard D** déjà affaibli par la concurrence de son voisin, il se vit en un seul coup enlever sa clientèle, et la source de ses bénéfices fut tarie pour toujours.
       </p>
       <p xml:id="para_12_391_197">
-       Cette situation désastreuse devint bientot complète par suite d'un événement terrible dont les conséquences furent la ruine entière de ce malheureux père de famille. Au mois de mai 1S47, un incendie dont les causes restèrent toujours inconnues, et qu'on doit attribuer à quelque imprudence, se déclara dans les écuries contigues à la maison de Bernard D**. Là se trouvaient plusieurs bètes à cones, un cheval, du fourrage et des provisions importantes en céréales, qui devinrent bientôt la proie des flammes. Le feu gagnant bientôt la maison d'habitation en dévora une partie, et l'autre ne fut sauvée <pb facs="#facs_397" n="392" source="lesouvriersdesde03sociuoft_0400.xml"/> qu'a grand'peine, par le dévouement d'un voisin et de tous les habitants de la petite ville d'uningue. Coincidence bizarre le feu allumé par les bombes des alliés, en 1815, avait été la cause de la ruine du père de Bernard D**, et un incendie ravissait à celui-ci, quelques années plus tard, sa fortune et ses ressources, fruit d'une vie de travail et d'économie. Dans cette malheureuse circonstance, Bernard D** perdit environ 8,000ᶠ, c'est-a-dire à peu près tout ce qui lui restait. La révolution de 1848 et la période de sourance qui s'ensuivit n'offrirent à Bernard D** aucun moyen de ressaisir les labeaux de sa fortune, qui finissait de s'épuiser par l'aug mentation progressive de ses enfants.
+       Cette situation désastreuse devint bientot complète par suite d'un événement terrible dont les conséquences furent la ruine entière de ce malheureux père de famille. Au mois de mai 1S47, un incendie dont les causes restèrent toujours inconnues, et qu'on doit attribuer à quelque imprudence, se déclara dans les écuries contigues à la maison de Bernard D**. Là se trouvaient plusieurs bètes à cones, un cheval, du fourrage et des provisions importantes en céréales, qui devinrent bientôt la proie des flammes. Le feu gagnant bientôt la maison d'habitation en dévora une partie, et l'autre ne fut sauvée
+       <pb facs="#facs_397" n="392" source="lesouvriersdesde03sociuoft_0400.xml"/>
+       qu'a grand'peine, par le dévouement d'un voisin et de tous les habitants de la petite ville d'uningue. Coincidence bizarre le feu allumé par les bombes des alliés, en 1815, avait été la cause de la ruine du père de Bernard D**, et un incendie ravissait à celui-ci, quelques années plus tard, sa fortune et ses ressources, fruit d'une vie de travail et d'économie. Dans cette malheureuse circonstance, Bernard D** perdit environ 8,000ᶠ, c'est-a-dire à peu près tout ce qui lui restait. La révolution de 1848 et la période de sourance qui s'ensuivit n'offrirent à Bernard D** aucun moyen de ressaisir les labeaux de sa fortune, qui finissait de s'épuiser par l'aug mentation progressive de ses enfants.
       </p>
       <p xml:id="para_12_392_199">
        Quelques parcelles de terrain que possedait Bernard D**, sur les bords du hin, furent envahies par les eaux de ce fleuve, pendant l'inondation de 1851, et c'est avec 50ᶠ pour toute ressource que Bernard D** quitta son pays, au commencement de l'année 182, pour venir à Paris avec sa femme et une famille composée de la mère de cette dernière et de quatorze enfants. Il serait curieux de suivre pas à pas cette famille, au milieu des diflficultés qu'elle dut rencontrer dans cette grande cité, à laquelle chacun vient demander relugee et secours :; qui recèle dans son sein tant de misères sous des apparences si séduisantes, où le luxe le plus eréné coudoie le plus afreux dénûment.
@@ -892,7 +1070,8 @@
        .
       </p>
       <p xml:id="para_12_393_203">
-       <pb facs="#facs_398" n="393" source="lesouvriersdesde03sociuoft_0401.xml"/> Bernard D** ne rêve plus en ce moment qu'au succès de ses démarches pour obtenir un emploi dans un des services actifs de l'administration municipale.
+       <pb facs="#facs_398" n="393" source="lesouvriersdesde03sociuoft_0401.xml"/>
+       Bernard D** ne rêve plus en ce moment qu'au succès de ses démarches pour obtenir un emploi dans un des services actifs de l'administration municipale.
       </p>
      </div>
      <div n="002" type="sub_sub_section">
@@ -1589,7 +1768,8 @@
           L'Alsace envoie surtout des jeunes gens, attirés dans la capitale par le besoin de gagner un salaire plus élevé, et par le désir de se perfectionner dans leur état ou dans la connaissance de la langue française. Les professions auxquelles ils s'adonnent de préférence sont celles de mécanicien, de menuisier, d'ébéniste et de tailleur. Ces Alsaciens forment de beaucoup la portion la plus intelligente, la plus active de la colonie du faubourg. Ils se marient quelquefois avec des filles qu'ils nomment rangraises parce qu'elles sont nées à Paris ou dans des provinces où l'on parle la langue française, et le plus souvent avec des filles de la colonie et qu'ils désignent sous le nom d'Allemandes.
          </p>
          <p xml:id="para_12_406_413">
-          <pb facs="#facs_411" n="406" source="lesouvriersdesde03sociuoft_0414.xml"/> La partie la plus nombreuse de la colonie, la plus ignorante et la plus misérable, est fomée de familles qui viennent de la Loraine, du Luxembourgg et du Palatinat ; on les retrouve encore çà et là groupées dans d'autres quartiers et entassées dans les mêmes mai¬sons. Ces familles sortent presque en totalité de souches adonnées à l'agriculture. Un des motifs les plus ordinaires de leur émigration est le désir de conserver quelque petite propriété qu'elles possèdent au pays natal. Cette propriété, consistant ordinairement en une chaumière grevée d'hypothèques, est louée au moment de leur dé¬part : le prix de cette location ainsi que le fruit de leurs économies sont destinés par elles à dégrever un jour l'héritage paternel. Il faut dire que bien souvent ce projet ne se réalise pas, et que l'épar¬gne la plus réelle, la plus sure de ces familles, réside dans la fécon¬dité qui doit assurer aux vieux parents l'assistance de leurs enfants : ces familles, en efet, ont, en moyenne, cinq enfants. Les profes¬sions qu'elles exercent n'exigent point une adresse ou une intel¬ligence développées. Les hommes sont surtout chiflfonniers, ba¬layeurs de rues, manœuvres, terrassiers, ouvriers des usines à gaz ; d'autres fois carriers ou ma̧ons ; assez souvent aussi hommes d'équipe dans les chemins de fer et ouvriers dans les verreries, les fonderies, les raffineries de sucre. Les femmes exercent l'indus¬trie des allumettes chimiques, ou bien elles travaillent dans des fila¬tures de coton, dans des fabriques de boutons ou de passementeries.
+          <pb facs="#facs_411" n="406" source="lesouvriersdesde03sociuoft_0414.xml"/>
+          La partie la plus nombreuse de la colonie, la plus ignorante et la plus misérable, est fomée de familles qui viennent de la Loraine, du Luxembourgg et du Palatinat ; on les retrouve encore çà et là groupées dans d'autres quartiers et entassées dans les mêmes mai¬sons. Ces familles sortent presque en totalité de souches adonnées à l'agriculture. Un des motifs les plus ordinaires de leur émigration est le désir de conserver quelque petite propriété qu'elles possèdent au pays natal. Cette propriété, consistant ordinairement en une chaumière grevée d'hypothèques, est louée au moment de leur dé¬part : le prix de cette location ainsi que le fruit de leurs économies sont destinés par elles à dégrever un jour l'héritage paternel. Il faut dire que bien souvent ce projet ne se réalise pas, et que l'épar¬gne la plus réelle, la plus sure de ces familles, réside dans la fécon¬dité qui doit assurer aux vieux parents l'assistance de leurs enfants : ces familles, en efet, ont, en moyenne, cinq enfants. Les profes¬sions qu'elles exercent n'exigent point une adresse ou une intel¬ligence développées. Les hommes sont surtout chiflfonniers, ba¬layeurs de rues, manœuvres, terrassiers, ouvriers des usines à gaz ; d'autres fois carriers ou ma̧ons ; assez souvent aussi hommes d'équipe dans les chemins de fer et ouvriers dans les verreries, les fonderies, les raffineries de sucre. Les femmes exercent l'indus¬trie des allumettes chimiques, ou bien elles travaillent dans des fila¬tures de coton, dans des fabriques de boutons ou de passementeries.
          </p>
          <p xml:id="para_12_406_415">
           Telles sont les diverses catégories d'ouvriers chez lesquels se retrouve encore cette fécondité des mariages, qui contraste d'ane façon si frappante avec la stérilité calculée et quelquefois criminelle des ménages parisiens, appartcnant aux diflérentes classes de la société. C'est seulement dans les classes les plus inférieures, les plus pauvres, souvent même les plus dégradées
@@ -1602,7 +1782,9 @@
           De la constatation des laits qui précèdent, on peut s'élever au problème général de la fécondité et de la stérilité des mariages, en s'appuyant sur la réalité des enquêtes et de la statistique.
          </p>
          <p xml:id="para_12_406_417">
-          Au premier rang des causes de stérilité il convient de placer l'état de trouble mental et d'anarchie morale qui, depuis le der¬nier siècle, n'a cessé d'augmenter, surtout dans les centres indus¬triels. Cette situation, qui affecte les sentiments plus encore que les idées, entraine comme première conséquence l'exaltation de l'é¬goisme et l'affaiblissement de l'instinct maternel. L'éducation d'une amille ombreuse exige un dévouement de tous les instants, des <pb facs="#facs_412" n="407" source="lesouvriersdesde03sociuoft_0415.xml"/> privations de toutes sortes, dont le poids parait aujourd'hui trop lourd a supporter. De 1771 a 1775, il y avait en France 1 nais¬sance annuelle sur 25 habitants ; de 1846 a 1850, il y en a eu 1 sur 37. Il y a 50 ans, il naissait 16 enfants légitimes par chaque cen¬taine d'individus ; il n'en naît plus aujourd'hui que 12. Dans l'es¬pace de 30 ans (de 1821 à 1851), le nombre des femmes mariées nécessaires pour obtenir une naissance annuelle a augmenté de 5,8 a 7,6.
+          Au premier rang des causes de stérilité il convient de placer l'état de trouble mental et d'anarchie morale qui, depuis le der¬nier siècle, n'a cessé d'augmenter, surtout dans les centres indus¬triels. Cette situation, qui affecte les sentiments plus encore que les idées, entraine comme première conséquence l'exaltation de l'é¬goisme et l'affaiblissement de l'instinct maternel. L'éducation d'une amille ombreuse exige un dévouement de tous les instants, des
+          <pb facs="#facs_412" n="407" source="lesouvriersdesde03sociuoft_0415.xml"/>
+          privations de toutes sortes, dont le poids parait aujourd'hui trop lourd a supporter. De 1771 a 1775, il y avait en France 1 nais¬sance annuelle sur 25 habitants ; de 1846 a 1850, il y en a eu 1 sur 37. Il y a 50 ans, il naissait 16 enfants légitimes par chaque cen¬taine d'individus ; il n'en naît plus aujourd'hui que 12. Dans l'es¬pace de 30 ans (de 1821 à 1851), le nombre des femmes mariées nécessaires pour obtenir une naissance annuelle a augmenté de 5,8 a 7,6.
          </p>
          <p xml:id="para_12_407_419">
           Ce désordre social qui caractérise notre époque se traduit en¬core par une perturbation organique, imputable soit à la débauche, soit à la réaction exercée par l'état moral sur l'organisation phy¬si ue. On a observé que les cas de stérilité involontaire vont tou¬jours en augmentant, ainsi que celui des accouchements malheu¬reux. Ainsi on trouve en France :
@@ -1640,7 +1822,9 @@
           fait ressortir par des faits les conséquences d'un tel régime. en même temps qu'elle indique, dans les termes suivants, les trois conditions principales dans lesquelles se trouvent les familles pour¬vues de nombreux enfants :
          </p>
          <p xml:id="para_12_407_426">
-          1° Lorsque la partie du sol non appropriée à la culture offre <pb facs="#facs_413" n="408" source="lesouvriersdesde03sociuoft_0416.xml"/> encore une étendue considérable, et lorsque, en conséquence, les chefs de famille n'ont jamais lieu de craindre que les moyens de subsistance manquent à la nouvelle génération. Ce cas se présente pour les bachlirs nomades, les paysans d'Orembourg, les ouvriers russes, suédois, norvégiens et bulgares décrits sous les nos I, II, IV a VII.
+          1° Lorsque la partie du sol non appropriée à la culture offre
+          <pb facs="#facs_413" n="408" source="lesouvriersdesde03sociuoft_0416.xml"/>
+          encore une étendue considérable, et lorsque, en conséquence, les chefs de famille n'ont jamais lieu de craindre que les moyens de subsistance manquent à la nouvelle génération. Ce cas se présente pour les bachlirs nomades, les paysans d'Orembourg, les ouvriers russes, suédois, norvégiens et bulgares décrits sous les nos I, II, IV a VII.
          </p>
          <p xml:id="para_12_408_428">
           2° Lorsque les moyens d'alimentation étant désormais limités par le manque de terres disponibles, les chefs de famille, peu exer¬cés aux calculs de la prévoyance, s'abandonnent avec contiance à leur foi dans la bonté divine. Ce cas est celui des populations les plus pauvres, attachées aux travaux des villes et des campagnes. Il concerne spécialement le menuisier autrichien (XI), le journalier du Morvan (XXVII), le tisserand du Maine (XXIII), et surtout ces pro¬priétaires indigents qui se multiplient d'une façon si regrettable dans plusieurs districts ruraux du Vurtemberg, de la Suisse, de l'Alsace et des provinces rhénanes [XV (B)], et parmi lesquels se recrute l'émigration pauvre. Plusieurs administrations allemandes, à la vérité, s'eforcent de prévenir, par l'interdiction du mariage, la multiplication de cette partie de la population ; mais l'observation ne laisse subsister aucun doute sur l'immoralité et l'insuffisance des règlements de cette nature [XI (C), XIII (A)].
@@ -1652,7 +1836,9 @@
           </ref>
          </p>
          <p xml:id="para_12_408_430">
-          C'est ici le lieu de remarquer que les listes dressées tous les deux <pb facs="#facs_414" n="409" source="lesouvriersdesde03sociuoft_0417.xml"/> ans pour la distribution du prix de M. de Reverdy
+          C'est ici le lieu de remarquer que les listes dressées tous les deux
+          <pb facs="#facs_414" n="409" source="lesouvriersdesde03sociuoft_0417.xml"/>
+          ans pour la distribution du prix de M. de Reverdy
           <ref target="#part_03_01_18" type="renvoi_int_mono">
            (B)
           </ref>
@@ -1677,7 +1863,9 @@
           <ref target="#part_02_01_02" type="renvoi_int_mono">
            (§ 2)
           </ref>
-          dans les meilleures conditions d'ordre, de bonne conduite et d'esprit de famille. Ses concurrents s'élevaient à 42, mais aucun d'eux ne présentait une famille aussi nombreuse <pb facs="#facs_415" n="410" source="lesouvriersdesde03sociuoft_0418.xml"/> que la sienne. Le second sur la liste avait 1l enfants ; le troisième et le quatrième, 9 enfants ; venaient ensuite huit familles de 8 enfants, dix familles de 7 enfants, huit familles de 6 enfants et neuf familles de5 enfants. Les quatre derniers candidats avaient seulement de 3 à 4 enfants. Les professions qui reviennent le plus fréquemment sur la liste de 1859 sont celles de manœuvre, de maçon et de tailleur ; dans les deux premières se classent les chefs des familles les plus fécondes. Cette même particularité se représente identiquement sur la liste dressée pour 1861. Le choix s'est porté cette fois sur un maçon père de 11 enfants. La liste comprend 55 candidats ; 12 de plus qu'en 1859. On ne saurait tirer aucune conséquence de cette augmentation qui s'explique par la présence sur la liste d'un nombre équivalent de familles peu chargées d'enfants. Ces cinquante-cinq familles comptaient, savoir : trois, 11 enfants ; trois, 10 enfants ; deux, 9 enfants ; cinq, 3 en¬fants ; quinzae, 7 enfants ; quatorze,  enfants, et quatre de 5 enfants à 1 enfant.
+          dans les meilleures conditions d'ordre, de bonne conduite et d'esprit de famille. Ses concurrents s'élevaient à 42, mais aucun d'eux ne présentait une famille aussi nombreuse
+          <pb facs="#facs_415" n="410" source="lesouvriersdesde03sociuoft_0418.xml"/>
+          que la sienne. Le second sur la liste avait 1l enfants ; le troisième et le quatrième, 9 enfants ; venaient ensuite huit familles de 8 enfants, dix familles de 7 enfants, huit familles de 6 enfants et neuf familles de5 enfants. Les quatre derniers candidats avaient seulement de 3 à 4 enfants. Les professions qui reviennent le plus fréquemment sur la liste de 1859 sont celles de manœuvre, de maçon et de tailleur ; dans les deux premières se classent les chefs des familles les plus fécondes. Cette même particularité se représente identiquement sur la liste dressée pour 1861. Le choix s'est porté cette fois sur un maçon père de 11 enfants. La liste comprend 55 candidats ; 12 de plus qu'en 1859. On ne saurait tirer aucune conséquence de cette augmentation qui s'explique par la présence sur la liste d'un nombre équivalent de familles peu chargées d'enfants. Ces cinquante-cinq familles comptaient, savoir : trois, 11 enfants ; trois, 10 enfants ; deux, 9 enfants ; cinq, 3 en¬fants ; quinzae, 7 enfants ; quatorze,  enfants, et quatre de 5 enfants à 1 enfant.
          </p>
         </div>
         <div n="003" type="sub_sub_section">
@@ -1711,7 +1899,9 @@
           est -elle l'eflet mèe de cette prospérité à laquelle il était par¬venu, après avoir comencé sans fortune ; est -— ce un délfaut de principes et d'éducation qu'on doit considérer comme la cause de cet esprit d'imprévoyance qui se manilfeste à chaque instant dans la vie de Bernard p
          </p>
          <p xml:id="para_12_410_442">
-          Cette situation tient peut-être à toutes ces raisons réunies, ab¬straction laite des éventualités malheureuses dont il a été victime <pb facs="#facs_416" n="411" source="lesouvriersdesde03sociuoft_0419.xml"/> et contre lesquelles il serait diflicile de savoir au juste ce que la prévoyance la plus méticuleuse aurait pu faire. La confiance en lui-même et le goût du bien-être que le chef de famille avait con¬tractés pendant le cours de sa carrière militaire, non moins que son éducation première, ont eu aussi, vraisemblablement, leur part dans son insuccès.
+          Cette situation tient peut-être à toutes ces raisons réunies, ab¬straction laite des éventualités malheureuses dont il a été victime
+          <pb facs="#facs_416" n="411" source="lesouvriersdesde03sociuoft_0419.xml"/>
+          et contre lesquelles il serait diflicile de savoir au juste ce que la prévoyance la plus méticuleuse aurait pu faire. La confiance en lui-même et le goût du bien-être que le chef de famille avait con¬tractés pendant le cours de sa carrière militaire, non moins que son éducation première, ont eu aussi, vraisemblablement, leur part dans son insuccès.
          </p>
          <p xml:id="para_12_411_444">
           Ce goût du bien-être se révèle, du reste, dans la mise de Ber¬nard D**, dans l'installation recherchée de son mobilier, dans ses aspirations continuelles vers la vie bourgeoise. Avec de telles dis¬positions, l'on peut affirmer que, sans les qualités morales qui distinguent ce travailleur, sans la direction intelligente donnée aux soins du ménage par sa femme, cette intéressante famille eût été infailliblement vouée au plus affreuv dénûment.
@@ -1720,7 +1910,9 @@
           Bernard D** avoue lui-même qu'il avait une confiance absolue dans le développement fructueux de son commerce, et qu'il appor¬tait peu de soin à la conservation de l'argent acquis qu'il eut pu placer plus surement et plus avantageusement. Il eût pu se pré¬server aussi des derniers malheurs qui lui sont arrivés en mettant sa maison à l'abri des funestes conséquences d'un incendie par une assurance, ce qu'il ne songea jamais à faire.
          </p>
          <p xml:id="para_12_411_446">
-          Ruiné, il part pour Paris, et c'est avec cinquante francs pour toutes ressources qu'il entreprend d'établir sa famille dans cette ville immense, où il n'a que des relations peu capables de le mettre à même de gagner son pain de chaque jour et celui de la famille. Le prix de M. de Reverdy lui arrive enfin après une série d'années malheureuses, après une lutte longgue et pénible contre les difficultés de la vie. L'expérience qu'il a faite de l'instabilité des choses humaines, la pénurie, le dénûment, la perspective des charges de famille qui s'accroissent chaque jour, et la vieillesse qui s'approche, doivent conseiller à Bernard D** de faire un usage circonspect du capital dont il est redevable ̀ la libéralié de M. de Reverdy et à la bienveillance de l'administration municipale. Ce capital peut être pour lui le point de départ, non pas d'une nou¬velle fortune, mais d'une condition qui, s'améliorant par le temps. le mettrait peut-être un jour à l'abri d'une vieillesse malheureuse. Dans cette prévision, il devrait le conserver avec sollicitude, le garantir de son mieux contre toutes fâcheuses éventualités. La pré¬voyance est un fruit qu'à défaut d'éducation première devraient aire mûrir le malheur, l'epérience et la raison. Dans cette situa¬tion, quel usage a fait Bernard D** d'une ressource inattendue 0béissant à l'instinct de bien-être qui paraît le dominer, il dé¬passe la limite de ses véritables besoins et de ceux de sa famille : il ne se contente pas de payer quelques dettes, de retirer quelques <pb facs="#facs_417" n="412" source="lesouvriersdesde03sociuoft_0420.xml"/> effets engaggés au mont-de-piété dans un moment de détresse : il achète des vêtements d'une certaine recherche ; il se procure des meubles plus en harmonie avec ses gouts, avec ses ressources mo¬mentanées et ses tendances vers la bourgeoisie ; il agit comme si son capital était inépuisable. En un mot, il dépense en peu de temps une somme de trois mille francs qui, placée entre les mains d'un Auvergnat, par exemple, fût devenue pour celui-ci, au prix des plus durs sacrifices, la source d'une petite fortune.
+          Ruiné, il part pour Paris, et c'est avec cinquante francs pour toutes ressources qu'il entreprend d'établir sa famille dans cette ville immense, où il n'a que des relations peu capables de le mettre à même de gagner son pain de chaque jour et celui de la famille. Le prix de M. de Reverdy lui arrive enfin après une série d'années malheureuses, après une lutte longgue et pénible contre les difficultés de la vie. L'expérience qu'il a faite de l'instabilité des choses humaines, la pénurie, le dénûment, la perspective des charges de famille qui s'accroissent chaque jour, et la vieillesse qui s'approche, doivent conseiller à Bernard D** de faire un usage circonspect du capital dont il est redevable ̀ la libéralié de M. de Reverdy et à la bienveillance de l'administration municipale. Ce capital peut être pour lui le point de départ, non pas d'une nou¬velle fortune, mais d'une condition qui, s'améliorant par le temps. le mettrait peut-être un jour à l'abri d'une vieillesse malheureuse. Dans cette prévision, il devrait le conserver avec sollicitude, le garantir de son mieux contre toutes fâcheuses éventualités. La pré¬voyance est un fruit qu'à défaut d'éducation première devraient aire mûrir le malheur, l'epérience et la raison. Dans cette situa¬tion, quel usage a fait Bernard D** d'une ressource inattendue 0béissant à l'instinct de bien-être qui paraît le dominer, il dé¬passe la limite de ses véritables besoins et de ceux de sa famille : il ne se contente pas de payer quelques dettes, de retirer quelques
+          <pb facs="#facs_417" n="412" source="lesouvriersdesde03sociuoft_0420.xml"/>
+          effets engaggés au mont-de-piété dans un moment de détresse : il achète des vêtements d'une certaine recherche ; il se procure des meubles plus en harmonie avec ses gouts, avec ses ressources mo¬mentanées et ses tendances vers la bourgeoisie ; il agit comme si son capital était inépuisable. En un mot, il dépense en peu de temps une somme de trois mille francs qui, placée entre les mains d'un Auvergnat, par exemple, fût devenue pour celui-ci, au prix des plus durs sacrifices, la source d'une petite fortune.
          </p>
          <p xml:id="para_12_412_448">
           Ce même esprit d'imprévoyance et le défaut d'épargne se re¬trouvent encore dans l'espoir que Bernard D** nourit de recon¬quérir sa première position sociale ; en outre, les démarches inces¬santes qu'il fait pour parvenir à un emploi l'obligrent non-seulement à négliger son travail principal, mais encore à se livrer, pour son vêtement, à des dépenses que ne ferait point l'homme véritablement économe.

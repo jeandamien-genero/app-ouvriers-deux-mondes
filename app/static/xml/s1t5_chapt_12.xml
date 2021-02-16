@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 5 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_346">
@@ -1390,9 +1460,11 @@
        </p>
        <p xml:id="para_12_351_10">
         L'assainissement de la lande eut pour principes le drainage ci-dessus indiqué qui assure l'écoulement des eaux hivernales, et un système de puits descendant seulement à 5 mètres, entourés d'une maçonnerie imperméable avec un fond de débris pierreux sur environ 1 50 d'épaisseur. Ces puits percent la couche imper¬méable de l'alios et mènent les eaux qu'elle retenait dans la couche sous-iacente où par filtrage elles acquièrent une salubrité qui n'est pas contestée
-        <note type="bp"><p>
-         Voir l'Avis sur 'insertion du Meoire e M. Cambrelent, par M. endarme, inspecteur général des ponts et chaussées.
-        </p></note>
+        <note type="bp">
+         <p>
+          Voir l'Avis sur 'insertion du Meoire e M. Cambrelent, par M. endarme, inspecteur général des ponts et chaussées.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_12_351_11">
@@ -1416,9 +1488,11 @@
        </p>
        <p xml:id="para_12_352_18">
         On remarquait en effet qu'un grand nombre de propriétaires avaient déjà imité M. Chambrelent, mais aucune commune n'avait commencé à assainir les landes qu'elle posséeait
-        <note type="bp"><p>
-         Voir : Assainisseent et mise en valeur des landes ˉle Gascogee, par M. Chaumbrelent, ingenieur en chet des ponts et chaussées. Dunod, éditeur.
-        </p></note>
+        <note type="bp">
+         <p>
+          Voir : Assainisseent et mise en valeur des landes ˉle Gascogee, par M. Chaumbrelent, ingenieur en chet des ponts et chaussées. Dunod, éditeur.
+         </p>
+        </note>
        </p>
        <p xml:id="para_12_352_19">
         Une loi fut donc soumise aux Chambres et votée le 19 juin 18857. Le principe de la loi fut celui-ci :  Les landes communales des deux départements de la Gironde et des Landes seront assai¬nies et mises en valeur aux frais des communes. En cas d'impos¬sibilité ou de refus de la part des communes de faire exécuter ces travaux, il y sera pourvu aux frais de l'Etat, qui se remboursera de ses avances en principal et intérèts, sur le produit des coupes et exploitations.  La loi portait en outre que les routes agricoles destinées à desservir les terrains à assainir seraient construites aux frais du trésor public.
@@ -1557,9 +1631,11 @@
        </p>
        <p xml:id="para_12_356_62">
         Le prix de la barrique de gemme varie chaque année et même plusieurs fois chaque année
-        <note type="bp"><p>
-         Il en est de même de la plup rt des produits reirés des pins maritimes. Ainsi, l'essencee de térébenthine. qui se eoait a Dax de 75 à 80 franes au mois de septembre S2, vlait 100 1rnecs au marehé du 2l oectobre suivant et ne vaut pls maintenant que 59 r. L goudron se payait de 20 a 30 1., il y a trois ans : au commencement de l'nnée dernière, il aeignait le prix de 45 franes et dans les mois de juillet, aoit et septembre, celui de 69 frnes. Les autres produits sont suiets à d'aussi grandes variations. lles tiennent en partie à l'irrégularité avec laquelle les proluits américins sont jctés sur le marché.
-        </p></note>
+        <note type="bp">
+         <p>
+          Il en est de même de la plup rt des produits reirés des pins maritimes. Ainsi, l'essencee de térébenthine. qui se eoait a Dax de 75 à 80 franes au mois de septembre S2, vlait 100 1rnecs au marehé du 2l oectobre suivant et ne vaut pls maintenant que 59 r. L goudron se payait de 20 a 30 1., il y a trois ans : au commencement de l'nnée dernière, il aeignait le prix de 45 franes et dans les mois de juillet, aoit et septembre, celui de 69 frnes. Les autres produits sont suiets à d'aussi grandes variations. lles tiennent en partie à l'irrégularité avec laquelle les proluits américins sont jctés sur le marché.
+         </p>
+        </note>
         . Pendant la guerre d'Amé¬rique, il s'est élevé à 280 francs, l'exploitation ayaet été arrètée dans les forèts de pins américaines dont les produits résineux inondaient les marchés européens. La ]ournée pour les ouvriers gemmiers fut payée jusqu'à 10 francs. Aussi, gràce à cette élévation des pri, des fortunes considérables furet-elles réalisées en peu de temps. IBien des gens, ouvriers, marchands en gros ou paysans propriétaires, se voyant à la tète d'un gin aussi inespéré, perdirent la tète et se livreret à toute espèce de
        </p>
        <pb facs="#facs_388" n="357" source="lesouvriersdesde05sociuoft_0463.xml"/>
@@ -1574,9 +1650,11 @@
        </p>
        <p xml:id="para_12_357_67">
         Le commerce de la résine présente plusieurs particularités dignes d'ètre mises en lumière. Ainsi lorsque la barrique de gemme est vendue par les propriétaires ax chets d'atelier qui fabriquent les produits résineux, cette vente a lieu sans qu'aucune discussion s'enggage au sujet du prix. Le fabricant le fixe lui-même. Les fabricants amènent à leur tour leurs produits à Dax ou se tient un important marché de matieres résineuses ; ils s'adressent à un marchand en gros dans la loyauté duquel ils ont confiance, et s'il s'agit de ggoudron, de brais ou de colophanes, qui sont les moindres dérivés de la gemme, ils raitent à forfait sans qu'il s'élève aucune discussion. Mais pour l'essence de térébenthine, qui est le produit le plus important extrait de la gemme
-        <note type="bp"><p>
-         On compte en moyenne dans les départements des Landes et de la Gironde 150 usines dans lesquelles on distille la résine.
-        </p></note>
+        <note type="bp">
+         <p>
+          On compte en moyenne dans les départements des Landes et de la Gironde 150 usines dans lesquelles on distille la résine.
+         </p>
+        </note>
         , les usages diffè¬rent. Le samedi, jour du marché de Da, dix ou douze marchands en ros se réunissent dans un endroit réservé et constatent d'abord
        </p>
        <pb facs="#facs_389" n="358" source="lesouvriersdesde05sociuoft_0464.xml"/>
@@ -1595,18 +1673,22 @@
        </p>
        <p xml:id="para_12_359_73">
         Cependant les Landais se livrent à ces travaux avec courage. Pendant les trois semaines que dure la charbonnière, couchant sous une petite hutte formée avec des planches, ne mangeant que ce qu'on leur apporte de la maison, ils mènent une existence qui rappelle quelque peu celle du charbonnier des Alpes de la Carin¬thie
-        <note type="bp"><p>
-         <ref target="#" type="renvoi_ext_oe"> 
-          Les ˉOuviers europeens. — 2ᵉ edit., T. IV, les Ouvriers de l'oceident ; Populations stables.
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#" type="renvoi_ext_oe">
+           Les ˉOuviers europeens. — 2ᵉ edit., T. IV, les Ouvriers de l'oceident ; Populations stables.
+          </ref>
+         </p>
+        </note>
         . De temps en temps seulement un des leurs vient leur tenir compagnie ou les soulager un peu. Une charbonnière produit 28 ou 30 chars de charbon qui valent de l8 à 20 francs chacun. Très souvent le charbonnier fait le charbon non à son compte, mais à celui des exploitants de pignadas. Rétribué alors comme un simple ouvrier, il reçoit 5 francs par char.
        </p>
        <p xml:id="para_12_359_74">
         Les propriétaires des Landes retirent encore du goudron des pins maritimes. Il est produit selon deux méthodes, tantôt dans un four à gase
-        <note type="bp"><p>
-         Si on emploie ce procédé, on dresse le bois absolument eomme pour une charbonnière, sur une espèce de plate-forme ronde d'un diamètre de l0 mètres environ et formant, à 2 mètres à peu près au-dessus du sol, comme un grand entonnoir carrelé dont le centre se trouve en communieation avec un bassin construit sur un des bords.
-        </p></note>
+        <note type="bp">
+         <p>
+          Si on emploie ce procédé, on dresse le bois absolument eomme pour une charbonnière, sur une espèce de plate-forme ronde d'un diamètre de l0 mètres environ et formant, à 2 mètres à peu près au-dessus du sol, comme un grand entonnoir carrelé dont le centre se trouve en communieation avec un bassin construit sur un des bords.
+         </p>
+        </note>
         , tantôt dans un four construit différemment et qu'on appelle le hournot. La barrique de goudron vaut de 30à 10 francs. Le goudron qui est fait au moyen d'un four à gase vaut toujours
        </p>
        <pb facs="#facs_391" n="360" source="lesouvriersdesde05sociuoft_0466.xml"/>
@@ -1788,9 +1870,11 @@
          (1)
         </ref>
         qu'au point de vue moral. Les habitants des Landes n'ont pas l'exubérance méridionale et l'entrain bruyant des habi¬tants de la Chalosse, chez lesquels on trouve dans toute sa pureté le type du ascon,  vantard, querelleur, plein d'éclat, tel qu'on ne saurait s'en faire l'idée, si on ne l'a vu dans son propre milien, là surtout ou sa verve s'épanouit dans son exubérance, aux fètes locales, aux marchés et aux courses de vaches
-        <note type="bp"><p>
-         Rapport de M. le baron d'Artigues à la Soeiété d'Economie sociale. — Séance du 3 avril 188l ; La ˉRéforme sociale du 15 septembre 1881.
-        </p></note>
+        <note type="bp">
+         <p>
+          Rapport de M. le baron d'Artigues à la Soeiété d'Economie sociale. — Séance du 3 avril 188l ; La ˉRéforme sociale du 15 septembre 1881.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_12_363_127">
@@ -1808,9 +1892,11 @@
        </p>
        <p xml:id="para_12_364_133">
         Les provinces, dit M. Le Play, ont été un élément essentiel des anciennes prospérités de la France. Elles sont plus que jamais placées parmi les fondements de la constitution sociale, chez les peuples ui prospèrent encore aujourd'hui. Enfin, elles ont été détruites sans aucune raison légitime, par des hommes passionnés et ignorants ; jamais en effet on n'avait articulé un grief contre les circonscriptions provinciales, au milieu des récriminations contre l'ancien réggime et des entrainements vers la nouveauté qui précédèrent les violences de la Révolution. Toutes les règles tirées de l'expérience et de la raison se réunissent donc pour enseigner que la rétforme de la FTrance doit être intimement liée à la restauration de la vie provinciale
-        <note type="bp"><p>
-         La Réforme socialeˉ, 5ᵉ edition, t. II. p. 530 et 531.
-        </p></note>
+        <note type="bp">
+         <p>
+          La Réforme socialeˉ, 5ᵉ edition, t. II. p. 530 et 531.
+         </p>
+        </note>
         .
        </p>
        <pb facs="#facs_396" n="365" source="lesouvriersdesde05sociuoft_0473.xml"/>
@@ -1912,11 +1998,13 @@
        </p>
        <p xml:id="para_12_370_163">
         IIabitués dès leur jjeunesse à la chasse, les Landais acquièrent une rande habileté dans le maniement du fusil. Aussi, lorsqu'ils arrivent au réggiment, ils obtiennent les prix accordés aux meil¬leurs tireurs. De plus, comme ils sortent de familles où le respect n'est pas encore perdu et où les habitudes d'obéissance se sont maintenues, ils forment d'excellents soldats, disciplinés, rompus aux fatiggues, treurs habiles et sachant se contenter de peu.Au bout d'un temps très court, ils arrivent au grade de sergent. Toutefois l'esprit militaire semble éteint chez eux comme dans une trop grande partie de la France. Malgré tous les efforts des colonels pour retenir d'aussi précieux sous-oficiers, ceux-ci ne restent pas au régiment. Les Landais appartenant à des familles désorganisées aspirent à entrer dans des emplois civils. Ceux qui au contraire ont conservé, avec l'attachement au foyver, le goût des occupations rurales veulent retourner à la maison paternelle. usqu'ici les efTorts tentés par les pouvoirs publics, pour prévenir cet amoin¬drissement de nos forces militaires, ne semblent avoir eu qu'une médiocre eflicacité
-        <note type="bp"><p>
-         <ref target="#ID-043a" type="renvoi_int_od2m">
-          Voir la Monographie du Brigadier de la garde repubdicaie (3e facsicule de la deuxième partie du présent tome, n° 43.)
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#ID-043a" type="renvoi_int_od2m">
+           Voir la Monographie du Brigadier de la garde repubdicaie (3e facsicule de la deuxième partie du présent tome, n° 43.)
+          </ref>
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_12_370_164">
@@ -1928,11 +2016,13 @@
        <pb facs="#facs_402" n="371" source="lesouvriersdesde05sociuoft_0479.xml"/>
        <p xml:id="para_12_371_167">
         de chasse à payer. Si vous l'imposez, dit-il, il renoncera à ce plaisir innocent et utile à la santé, et ira chercher d'autres dis¬tractions au cabaret
-        <note type="bp"><p>
-         <ref target="#ID-023a" type="renvoi_int_od2m">
-          Les Ouvriers des Deux-Mondes. t. III, p. 146. — Monographie du Manœuvree-vigneron de l'Aunis, par M. Toussaint.
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#ID-023a" type="renvoi_int_od2m">
+           Les Ouvriers des Deux-Mondes. t. III, p. 146. — Monographie du Manœuvree-vigneron de l'Aunis, par M. Toussaint.
+          </ref>
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_12_371_168">
@@ -1971,9 +2061,11 @@
        </p>
        <p xml:id="para_12_373_179">
         Dans ces partages
-        <note type="bp"><p>
-         Rappelons ici que le partage d'ascendants peut aussi se faire dans un testament. Le testateur a le droit d'assigner leur part à chacun de ses héri¬tiers, sans leur as sentimeet, pourvu que les conditions de la loi sur les testa¬ments et les partages soient observées. Toutefois dans le département des Landes, le partage d'ascendamts se fait toujours par un acte entre-vifs, qui est du reste, même ailleurs, la forme la plus usitée.
-        </p></note>
+        <note type="bp">
+         <p>
+          Rappelons ici que le partage d'ascendants peut aussi se faire dans un testament. Le testateur a le droit d'assigner leur part à chacun de ses héri¬tiers, sans leur as sentimeet, pourvu que les conditions de la loi sur les testa¬ments et les partages soient observées. Toutefois dans le département des Landes, le partage d'ascendamts se fait toujours par un acte entre-vifs, qui est du reste, même ailleurs, la forme la plus usitée.
+         </p>
+        </note>
         , le père répartit sa fortune moyennant certains avantages stipulés en sa faveur. Tantôt, comme dans la famille décrite, il reste dans la maison, chef respecté d'une famille qui s'incline toujours devant son autorité. 'antôt, il stipule le paiement d'une pension viagére. l'antôt, chacun de ses enfants s'engage à subvenir à ses besoins et à le loger à tour de rôle.
        </p>
        <p xml:id="para_12_373_180">
@@ -1981,11 +2073,13 @@
        </p>
        <p xml:id="para_12_373_181">
         Le père et la mère
-        <note type="bp"><p>
-         <ref target="#ID-041a" type="renvoi_int_od2m">
-          Voir notre Monographie du cordonnier de Malakoff (1ᵉʳ fascicule de la deuxième partie du présent tome — n° 4l.)
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#ID-041a" type="renvoi_int_od2m">
+           Voir notre Monographie du cordonnier de Malakoff (1ᵉʳ fascicule de la deuxième partie du présent tome — n° 4l.)
+          </ref>
+         </p>
+        </note>
         se réservent fréquemment une pension dans les actes de donation. La crainte de voir révoquer la donation oblige seule les enfants à exécuter cette clause. Beaucoup de pères ou de mères de famille sont réduits à s'adresser aux tribunaux pour obtenir de leurs enfants la somme que ceux-ci s'étaient engagés à payer. Le père, devenu vieu et empèché de travailler par ses infirmités, est trop sovent une charge pour ses enants. Ces faits se reproduisent plus nombreux dans d'autres régions surtout dans les villages à banlieue morcelée du Laonnais, du Soissonnais, de la Champagne et de l'Ile de France.
        </p>
        <p xml:id="para_12_373_182">
@@ -1994,11 +2088,13 @@
        <pb facs="#facs_405" n="374" source="lesouvriersdesde05sociuoft_0482.xml"/>
        <p xml:id="para_12_374_185">
         impies que ces meurs déplorables 1ont naitre jiusque dans le sanctuaire de la famille, où les lois divines et humaines assurent ailleurs un refuge contre les atteintes de l'antagonisme
-        <note type="bp"><p>
-         <ref target="#" type="renvoi_ext_oe"> 
-          Les Ouvriers europeens, t. V, p. 106.
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#" type="renvoi_ext_oe">
+           Les Ouvriers europeens, t. V, p. 106.
+          </ref>
+         </p>
+        </note>
         .  Bien des enfants qui se sont engagés à loger chacun à leur tour leurs parents, refusent d'exécuter cette clause, et ceux-ci sont obligés d'ahandonner le toit inhospitalier de ces fils ingrats.
        </p>
        <p xml:id="para_12_374_186">
@@ -2022,9 +2118,11 @@
        </p>
        <p xml:id="para_12_375_193">
         Les dangers de l'action laissée aux copartagés, malgré leur libre consentement, seraient au moins atténués si la loi avait admis un délai très court pendant lequel elle pût s'exercer. Mais, elle s'exercera pendant trente ans. Dans tout le cours d'une période si longue, une incertitude absolue pèse sur les copartagés. Aucun fait ne les met à l'abri d'une demande en rescision, et, après avoir joui de leur propriété comme si elle leur éait pour toujours assurée, ils peuvent se trouver face à face d'une attaque en nullite qui, produite au bout de 29 ans, les obligera à soutenir un procès hérissé de diflicultés. Comment en ellet retrouver tous les documents qui donneront au tribunal le moyen de distinguer la vérité  Si tous les papiers de famille n'existent plus, il faut alors recourir à des expertises dont le coùt ne tarde pas à monter à un chifre élevé. Ainsi la famille Mélouga a été dissoute par une demande en rescision d'un partage fait en 1835, demande intentée au moment ou la prescription trentenaire allait expirer. Le récit des luttes qu'elle dut soutenir, des frais qu'elle eut à payer, des incidents multipliés qui marquèrent un procès diflicile a déjà été tracé
-        <note type="bp"><p>
-         L'Organisation de la famille. 2° édit. ; — Bulletin de la ocieté d'Écouomie sociale, T. IV, p. 303; — La Revue La Réforme sociale, 15 septembre 1883.
-        </p></note>
+        <note type="bp">
+         <p>
+          L'Organisation de la famille. 2° édit. ; — Bulletin de la ocieté d'Écouomie sociale, T. IV, p. 303; — La Revue La Réforme sociale, 15 septembre 1883.
+         </p>
+        </note>
         . A la suite de ce combat judiciaire, la famille a été ruinée, et l'union qui s'était jusqu'alors conservée entre tous les enfants s'est rompue. Tel sera toujours le résultat des procès intentés dans les conditions que la loi autorise.
        </p>
        <p xml:id="para_12_375_194">
@@ -2103,9 +2201,11 @@
        </p>
        <p xml:id="para_12_380_219">
         L'enquête mit également en lumière les plaintes que soulevait l'élévation du droit exigé par le fisc, pour les partages. Aussi, M. Jcsseau, dans son rapport consacré au droit de transcription, estimait-il d'après les faits constatés, que les quatre cinquièmes des partages d'ascendants n'étaient pas transcrits. Malgré ces fraudes universellement pratiquées, la suppressiondudroit propor¬tionnel aurait entrainé, il est vrai, un deicit annuel de 500,000f. Mais ce déficit était plus apparent que réel ; car, en cas de sup¬pression, il aurait été cempensé par le droit fixe de vingt-six mille partages qui reculent devant la transcription, à cause de l'élévation du droit, et par la vente du timbre des registres de transcription. Malgré la diminution du droit, M. .osseau calculait que l'Etat trouverait dans la reforme un benéfice 'au moins 300,000 francs par an. Il proposait de soumettre désormais les partages à un droit fixe de 1 franc
-        <note type="bp"><p>
-         Voir Enquète agricole. — 1ᵉ série, 2ᵉ volume du résumé de l'enquête, n 12-3-26-27-7-60-207-211-221-246-249.
-        </p></note>
+        <note type="bp">
+         <p>
+          Voir Enquète agricole. — 1ᵉ série, 2ᵉ volume du résumé de l'enquête, n 12-3-26-27-7-60-207-211-221-246-249.
+         </p>
+        </note>
        </p>
        <p xml:id="para_12_380_220">
         Ces réclamations de l'opinion décidèrent le gouvernement impé¬rial à présenter, en 1867, un projet de loi concernant les ventes judiciaires et les partages de diverses sortes. L'article 117 était ainsi rédigé.  Les parties sont autorisées, lorsqu'il y a parmi elles des mineurs, des interdits ou des absents, purvu que les uns et les autres soient légalement représentés, à procéder à l'amiable aux opérations, liquidations et partages, sans qu'il soit nécessaire de tirer les lots au sort, ni d'observer l'article 832 du Code. s Comme cette loi ne fut pas votée par les 'hambres, le Ministère du 2 janvier présenta un projet qui se bornait à réformer les articles 826 et 832. L'exposé des motifs constatait que ces articles exagérés par la jurisprudence rendaient impossibles les partages d'ascendants.
@@ -2181,12 +2281,14 @@
          (24)
         </ref>
         . Elle ne conserve plus la stabilité que par des combinaisons ou la volonté du père est exécutable seulement en cas de parfaite entente de tous les enfants. L'existence de mineurs au moment ou s'ouvre une succession rend cet accord impossible ou plein de dangers pour l'avenir. puisque la loi considère cette entente comme une. sorte de complicité dont elle infirme les efets. Puis, cette harmonie est toujours ditlicile à maintenir lorsque les sœurs de l'héritier sont mariées. On a déjà observé que les résistances viennent ordinairement des filles représentées par leurs maris
-        <note type="bp"><p>
-         <ref target="#" type="renvoi_ext_oe"> 
-          Les ˉOuvriers curopeens, 2 édition. Populations ebranlées. Monographie du paysan du Labourd
-         </ref>
-         .
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#" type="renvoi_ext_oe">
+           Les ˉOuvriers curopeens, 2 édition. Populations ebranlées. Monographie du paysan du Labourd
+          </ref>
+          .
+         </p>
+        </note>
         . Le même fait se produit dans les Landes, et ces résistances se multiplient d'autant plus qu'un mouvement d'émigration très accusé entraine les jjeunes gens vers les villes. Les jeunes filles snt heureuses de devenir les femes de petits fonctionnaires ou employés dont elles considèrent la position comme supérieure à celle de paysan. De plus, elles aiment mieux l'existence de la ville qu'elles trouvent plus brillante et qu'elles s'imaginent plus facile. yant puisé au foyer paternel des habitudes de travail, elles apportent en se mariant une régularité et un ordre qui soutiennent le petit ménage. Mas si le mari se livre à la dissipation, la femme se laisse envahir par l'amor de la toilette et les emharras srviennent. Pour laire face à ses dépenses excessives, le ménage n'hésite pas à réclamer la part d'héritage légalement exigible et brise ainsi un foyer auquel il ne reviendra plus s'asseoir.
        </p>
        <p xml:id="para_12_384_240">
@@ -2201,20 +2303,24 @@
        </p>
        <p xml:id="para_12_385_244">
         Dans la monographie du Bordier de la Basse-Bretagne, M. Le Play observait que l'introduction d'un système perfectionné d'enseignement considéré comme moyen essentiel d'éducation, peut provoquer dans l'rdre moral de regrrettables changements. Elle est dangereuse quand elle fournit aux populations l'occasion de s'imprégner de sentiments ostiles aux institutions tradition¬nelles de l'humanité. Chez toutes les nations où cette impulsion donnée à l'intelligence des jeunes ggénérations coincide avec l'affaiblissement des croyances religieuses et de l'autorité pater¬nelle, il se manifeste dans la constitution sociale une perturba¬tion dont les conséquences offrent dejà une gravité extreme
-        <note type="bp"><p>
-         <ref target="#" type="renvoi_ext_oe"> 
-          Les ˉOuvriers europeens, 2 édit., T. IV, p. 362, Monographie du Bordier dit Pen-ty de la Basse-Bretagne.
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#" type="renvoi_ext_oe">
+           Les ˉOuvriers europeens, 2 édit., T. IV, p. 362, Monographie du Bordier dit Pen-ty de la Basse-Bretagne.
+          </ref>
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_12_385_245">
         Cette perturbation se constate chez ls populations landaises. L'instituteur coņoit de son rôle une opinion exagérée ; il se laisse volontiers persuader qu'il est le régénérateur prédestiné de la société moderne, qu'à lui seul revient le soin de former les enfants et de combattre l'autorié traditionnelle du père de famille et du pretre. L'enseignement qu'il donne aux enfants est imbu des trois faux dogmes que la lévolution de 1789 a proclamés (liberté systématique — égalité providentielle — droit de révolte). Il procède de la croyance à la perfection originelle de l'homme, l'erreur fondamentale dont la propagation menace de désor¬ganiser aujourd'hui l'Europe
-        <note type="bp"><p>
-         <ref target="#" type="renvoi_ext_oe"> 
-          Voir Les Ouvriers europeens, 2ᵉ édit., T. I, p. 18.
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          <ref target="#" type="renvoi_ext_oe">
+           Voir Les Ouvriers europeens, 2ᵉ édit., T. I, p. 18.
+          </ref>
+         </p>
+        </note>
         . Ces doctrines erronées donnent à la jeunesse des raisons spécieuses de considérer l'autorité du père
        </p>
        <pb facs="#facs_417" n="386" source="lesouvriersdesde05sociuoft_0494.xml"/>

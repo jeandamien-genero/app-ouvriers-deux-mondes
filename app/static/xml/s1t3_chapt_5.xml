@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 3 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_30">
@@ -262,7 +332,10 @@
       PAR
      </p>
      <p xml:id="para_5_25_7">
-      M. <persName>AUGUSTIN COCHIN</persName>
+      M.
+      <persName>
+       AUGUSTIN COCHIN
+      </persName>
      </p>
     </div>
     <div n="002" type="section">
@@ -278,7 +351,8 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_5_25_13">
-        <pb facs="#facs_30" n="25" source="lesouvriersdesde03sociuoft_0033.xml"/> Les ouvrières habitent le hameau de P***, divisé en grand et petit P*** faisant partie de la commune de R**, canton de Plombières, arrondissement de Remirecourt (Vosges), et, pour quelques maisons seulement, de la commune d'*** (Haute-Saône). Ce hameau est situé à 6 kilomètres environ au nord-ouest de Plombières, à 4 kilomètres de la route qui conduit de cette ville à Épinal.
+        <pb facs="#facs_30" n="25" source="lesouvriersdesde03sociuoft_0033.xml"/>
+        Les ouvrières habitent le hameau de P***, divisé en grand et petit P*** faisant partie de la commune de R**, canton de Plombières, arrondissement de Remirecourt (Vosges), et, pour quelques maisons seulement, de la commune d'*** (Haute-Saône). Ce hameau est situé à 6 kilomètres environ au nord-ouest de Plombières, à 4 kilomètres de la route qui conduit de cette ville à Épinal.
        </p>
        <p xml:id="para_5_25_14">
         La commune de R** se compose de 325 feux, ou 1,225 habitants. Elle est pauvre ; le total des contributions est de 4,441ᶠ 31, savoir : contribution foncière, 2,808ᶠ 63; contribution personnelle et mobi¬liere, 1,030ᶠ85 ; contribution des portes et fenêtres, 578ᶠ 93, divisés entre 458 personnes. La part des impositions qui a pour objet l'in¬struction primaire n'est que de 82ᶠ 29. Aucune propriété de quelque étendue ; le morcellement est tel, que la cote la plus élevée est de 312ᶠ00 et les plus minimes de 0ᶠ18
@@ -288,7 +362,8 @@
         .
        </p>
        <p xml:id="para_5_26_15">
-        <pb facs="#facs_31" n="26" source="lesouvriersdesde03sociuoft_0034.xml"/> La commune est située sur un plateau élevé dont la structure est granitique. Le sol est maigre et n'est cultivé à peu près qu'en seigle et en sarrasin. Cependant, quelques prairies, arrosées au moyen d'un étang, tapissent les vallonnements, et dans les jardins on cul¬tive des légumes et un peu de chanvre. Des bois (chêne et bouleau) occupent une partie du territoire, dont une partie est inculte, cou¬verte de genêts et de bruyère.
+        <pb facs="#facs_31" n="26" source="lesouvriersdesde03sociuoft_0034.xml"/>
+        La commune est située sur un plateau élevé dont la structure est granitique. Le sol est maigre et n'est cultivé à peu près qu'en seigle et en sarrasin. Cependant, quelques prairies, arrosées au moyen d'un étang, tapissent les vallonnements, et dans les jardins on cul¬tive des légumes et un peu de chanvre. Des bois (chêne et bouleau) occupent une partie du territoire, dont une partie est inculte, cou¬verte de genêts et de bruyère.
        </p>
        <p xml:id="para_5_26_16">
         Les industries de la commune sont, outre la culture des champs et le travail des bois, qui emploient peu de bras : 1ᵉ l'exploitation des carrières, d'où l'on tire un moellon rougeâtre pour les construc¬tions, la lave, pierre plate pour couvrir les maisons, et aussi des pierres pour les fours des orges ; 2ᵉ le travail des forges, soit dans l'usine d'Allengry, soit dans les usines de la vallée de la Semouse, éloignée de 4 kilomètres, soit dans la fabrique de fer battu de Plombières ; 3° le service des baigneurs pendant la saison des eau ; 4ᵉ enfin, pour les femmes, la broderie
@@ -313,31 +388,65 @@
         La famille comprend huit personnes, savoir :
        </p>
        <p xml:id="para_5_26_21">
-        1. <persName>URBAIN T**</persName>, chef de la famille, né à P**, marié depuis 29 ans............ 58 ans
+        1.
+        <persName>
+         URBAIN T**
+        </persName>
+        , chef de la famille, né à P**, marié depuis 29 ans............ 58 ans
        </p>
        <p xml:id="para_5_26_23">
-        2. <persName>MARIE B***</persName>, a femme, nee à P**............ 53
+        2.
+        <persName>
+         MARIE B***
+        </persName>
+        , a femme, nee à P**............ 53
        </p>
        <p xml:id="para_5_26_24">
-        3. <persName>Jules T**</persName>, leur fils aîné, né a P**............ 23
+        3.
+        <persName>
+         Jules T**
+        </persName>
+        , leur fils aîné, né a P**............ 23
        </p>
        <p xml:id="para_5_26_25">
-        4. <persName>Élise T**</persName>, leur seconde fille, née à P**............ 21
+        4.
+        <persName>
+         Élise T**
+        </persName>
+        , leur seconde fille, née à P**............ 21
        </p>
        <p xml:id="para_5_26_26">
-        5. <persName>Joséphine T**</persName>, leur troisième fille, née P**............ 17
+        5.
+        <persName>
+         Joséphine T**
+        </persName>
+        , leur troisième fille, née P**............ 17
        </p>
        <p xml:id="para_5_26_27">
-        6. <persName>Polonie T**</persName>, leur quatrième fille, née à P**............ 14
+        6.
+        <persName>
+         Polonie T**
+        </persName>
+        , leur quatrième fille, née à P**............ 14
        </p>
        <p xml:id="para_5_26_28">
-        7. <persName>Firmin T**</persName>, leur plus jeuue garçon, né à P**............ 10
+        7.
+        <persName>
+         Firmin T**
+        </persName>
+        , leur plus jeuue garçon, né à P**............ 10
        </p>
        <p xml:id="para_5_26_29">
-        8. <persName>T***</persName>, sœur du chef de famille............ 47
+        8.
+        <persName>
+         T***
+        </persName>
+        , sœur du chef de famille............ 47
        </p>
        <p xml:id="para_5_26_30">
-        Les époux ont une fille âgée de 28 ans, qui est mariée à un <pb facs="#facs_32" n="27" source="lesouvriersdesde03sociuoft_0035.xml"/> ouvrier du voisinage. Depuis, ils ont eu deux autres enfants qui sont morts. Ils ont de plus recueilli une sœur du chef de famille, qui est tout à fait infirme.
+        Les époux ont une fille âgée de 28 ans, qui est mariée à un
+        <pb facs="#facs_32" n="27" source="lesouvriersdesde03sociuoft_0035.xml"/>
+        ouvrier du voisinage. Depuis, ils ont eu deux autres enfants qui sont morts. Ils ont de plus recueilli une sœur du chef de famille, qui est tout à fait infirme.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
@@ -377,7 +486,8 @@
         § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
        <p xml:id="para_5_28_39">
-        <pb facs="#facs_33" n="28" source="lesouvriersdesde03sociuoft_0036.xml"/>Le pays est très-sain, l'air très-vif et bienfaisant. Tous les mem¬bres de la famille, sauf la tante, qui est infirme, et le père, qui tousse fréquemment, sont bien constitués. Il n'y a pas de médecin à R**. mais les secours les plus intelligents et les plus charitables sont assurés aux malades à 'lombières, soit à l'hôpital dirigé par les sœurs de Saint-Charles de Nancy, soit par les médecins très-distin¬gués et le pharmacien de la ville.
+        <pb facs="#facs_33" n="28" source="lesouvriersdesde03sociuoft_0036.xml"/>
+        Le pays est très-sain, l'air très-vif et bienfaisant. Tous les mem¬bres de la famille, sauf la tante, qui est infirme, et le père, qui tousse fréquemment, sont bien constitués. Il n'y a pas de médecin à R**. mais les secours les plus intelligents et les plus charitables sont assurés aux malades à 'lombières, soit à l'hôpital dirigé par les sœurs de Saint-Charles de Nancy, soit par les médecins très-distin¬gués et le pharmacien de la ville.
        </p>
       </div>
       <div n="005" type="sub_sub_section">
@@ -397,12 +507,12 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_5_28_45">
          (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_5_28_46">
          IMMEUBLES (Sauf déduction d'une dette de 400ᶠ 00)... 800ᶠ 00
         </p>
@@ -413,12 +523,13 @@
          2° Immeubles ruraux. — Jardins (5 ares), 30ᶠ 00 ; — champ (16 ares), 70ᶠ 00. — Total, 100ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_5_29_48">
-         <pb facs="#facs_34" n="29" source="lesouvriersdesde03sociuoft_0037.xml"/> ARGENT............ "
+         <pb facs="#facs_34" n="29" source="lesouvriersdesde03sociuoft_0037.xml"/>
+         ARGENT............ "
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_5_29_49">
          ANIMAUX DOMESTIQUES entretenus toute l'année : 1 vache, valeur moyenne, 125ᶠ 00............ 125 00
         </p>
@@ -426,7 +537,7 @@
          ANIMAUX DOMESTIQUES entretenus seulement une partie de l'an¬née : 1 porc d'une valeur moyenne de 50ᶠ00, entretenu pendant 6 mois ; valeur moyenne calculée pour l'année entière.... 25 00
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_5_29_51">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES......... 29 35
         </p>
@@ -443,7 +554,7 @@
          4° Pour la récolte du bois et des herbes. —1 scie, 2ᶠ50 ; —1 serpe, 1ᶠ00; — 1 hache, 3ᶠ00; — 1 faux, 4ᶠ 00,; 1 rateau, 1 fr. — Total, 11ᶠ50.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_5_29_56">
          VALEUR TOTALE des propriétés.................... . 979 35
         </p>
@@ -465,7 +576,7 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_5_29_60">
          TRAVAUX DE L'OUVRIER. — Le chef de famille est carrier, ou, comme on dit dans le pays, corroycur dans une carrière située dans la même commune, et appartenant à un de ses parents. Le travail est abondant à cause de la construction, entreprise à Plom¬bières, d'une église et d'un vaste établissement thermal.
         </p>
@@ -473,12 +584,14 @@
          Il s'occupe aussi un peu du jardin et du champ.
         </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_5_29_62">
-         TRAVAUX DE LA FEMME. — Quand les enfants étaient petits, la femme joignait, aux soins du ménage, des journées dans les fermes voisines. Depuis que les enfants travaillent, que la famille est deve¬nue propriétaire, la mère, d'ailleurs affaiblie par l'âge, ses couches nombreuses et le travail, s'occupe exclusivement du ménage, de la culture du jardin et du champ, et du soin des animaux ; elle est <pb facs="#facs_35" n="30" source="lesouvriersdesde03sociuoft_0038.xml"/> aidée un peu par la tante dans tous ces travaux. C'est elle aussi qui file le chanvre que l'on récolte dans le jardin.
+         TRAVAUX DE LA FEMME. — Quand les enfants étaient petits, la femme joignait, aux soins du ménage, des journées dans les fermes voisines. Depuis que les enfants travaillent, que la famille est deve¬nue propriétaire, la mère, d'ailleurs affaiblie par l'âge, ses couches nombreuses et le travail, s'occupe exclusivement du ménage, de la culture du jardin et du champ, et du soin des animaux ; elle est
+         <pb facs="#facs_35" n="30" source="lesouvriersdesde03sociuoft_0038.xml"/>
+         aidée un peu par la tante dans tous ces travaux. C'est elle aussi qui file le chanvre que l'on récolte dans le jardin.
         </p>
        </div>
-       <div type="travaux" subtype="enfants">
+       <div subtype="enfants" type="travaux">
         <p xml:id="para_5_30_64">
          TRAVAUX DES ENFANTS. — Le fils, qui avait commencé par tra¬vailler avec son père, est maintenant occupé comme tréfileur dans une usine de la commune d'Aillevillers.
         </p>
@@ -521,9 +634,10 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_5_31_74">
-         <pb facs="#facs_36" n="31" source="lesouvriersdesde03sociuoft_0039.xml"/>La maison est carrée, assez basse, bâtie de moellons et couverte d'un vaste toit de laves épaisses qui s'étend sur les trois pièces qui servent d'habitation et l'étable des animaux. Le puits est en avant de la porte, le jardin à droite, le champ derrière ; le site est triste, plat, mal abrité. Deux ou trois autres maisons et une petite ferme, séparées les unes des autres, sans alignement, sans sentier com¬mun, composent le hameau. C'est une disposition commune dans cette partie des Vosges
+         <pb facs="#facs_36" n="31" source="lesouvriersdesde03sociuoft_0039.xml"/>
+         La maison est carrée, assez basse, bâtie de moellons et couverte d'un vaste toit de laves épaisses qui s'étend sur les trois pièces qui servent d'habitation et l'étable des animaux. Le puits est en avant de la porte, le jardin à droite, le champ derrière ; le site est triste, plat, mal abrité. Deux ou trois autres maisons et une petite ferme, séparées les unes des autres, sans alignement, sans sentier com¬mun, composent le hameau. C'est une disposition commune dans cette partie des Vosges
          <ref target="#part_02_01_01" type="renvoi_int_mono">
           (§ 1ᵉʳ)
          </ref>
@@ -539,7 +653,7 @@
          Les pièces sont basses, non carrelées, blanchies à la chaux. Tout est propre et bien tenu, l'armoire très-luisante, la cuisine bien rangée.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_5_31_78">
          MEUBLES : vieux, mais bien entretenus............. 109ᶠ 00
         </p>
@@ -550,13 +664,14 @@
          2° Mobilier de la chambre des parenls. — 1 armoire, 15ᶠ00 ; — 4 chaises, 8ᶠ00; — 1 table, 3ᶠ00 ; — 3 cadres avec des gravures coloriées insignifiantes, de la fbrique d'Épinal, 1ᶠ 00; — 1 miroir, 2ᶠ00. — Total, 27ᶠ00.
         </p>
         <p xml:id="para_5_32_82">
-         <pb facs="#facs_37" n="32" source="lesouvriersdesde03sociuoft_0040.xml"/> 3° Mobilier de la chambre des enfnts. — 4 chaises, 8ᶠ00.
+         <pb facs="#facs_37" n="32" source="lesouvriersdesde03sociuoft_0040.xml"/>
+         3° Mobilier de la chambre des enfnts. — 4 chaises, 8ᶠ00.
         </p>
         <p xml:id="para_5_32_83">
          4° Mobilier de la cuisine. — 2 dressoirs dont un assez beau, 20ᶠ00; — l'autre en planches, 4ᶠ00. — Total, 24ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_5_32_84">
          USTENSILES : réduits au strict nécessaire............ 44 00
         </p>
@@ -567,7 +682,7 @@
          2° Pour usges divers. — 3 seaux, 2 haquets, 4 paniers, environ 14ᶠ 00; — 1 lampe en cuivre laissant tremper une mèche dans l'huile, 4ᶠ 00. — Total, 18ᶠ 00.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_5_32_87">
          LINGE DE MÉNAGE : en toile solide................. 60 00
         </p>
@@ -575,7 +690,7 @@
          12 serviettes, 12 draps de lit, 6 torchons. — Total, 60ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_5_32_89">
          VÊTEMENTS..................................... 2§5 §)
         </p>
@@ -610,7 +725,7 @@
          VÊTEMENTS DE LA TANTE : on lui prète ceux de la mère et des filles.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_5_32_103">
          VALEUR TOTALE du mobilier et des vêtements........ 498ᶠ 80
         </p>
@@ -624,7 +739,9 @@
         Le père et le fils fument, et ils consomment, par semaine, une pipe et un paquet de tabac.
        </p>
        <p xml:id="para_5_32_106">
-        Le père va au cabaret très-habituellement. Le fils n'y va guère <pb facs="#facs_38" n="33" source="lesouvriersdesde03sociuoft_0041.xml"/> que le dimanche. Les filles vont à R** le dimanche, quelquelois à Plombières, surtout quand l'Empereur y fixe sa résidence. Elles reportent l'ouvrage, recoivent le payement et font les achats et les commissions. La mère et la tante ne quittent guère la maison que pour la messe. La fête du hameau, celle des communes voisines, quelques visites à la sœur mariée ou aux parents, sont les seules distractions de l'année.
+        Le père va au cabaret très-habituellement. Le fils n'y va guère
+        <pb facs="#facs_38" n="33" source="lesouvriersdesde03sociuoft_0041.xml"/>
+        que le dimanche. Les filles vont à R** le dimanche, quelquelois à Plombières, surtout quand l'Empereur y fixe sa résidence. Elles reportent l'ouvrage, recoivent le payement et font les achats et les commissions. La mère et la tante ne quittent guère la maison que pour la messe. La fête du hameau, celle des communes voisines, quelques visites à la sœur mariée ou aux parents, sont les seules distractions de l'année.
        </p>
       </div>
      </div>
@@ -1248,29 +1365,38 @@
          </head>
          <p xml:id="para_5_45_292">
           Le rapporteur du jury chargé de l'examen des tissus divers à l'ex¬position de 1839, M. Blanqui, évaluait à près de 20 millions le pro¬duit des broderies en France
-          <note type="bp"><p>
-           Rapport du jury central, 5ᵉ partie, 1ᵉ division, p. 311.
-          </p></note>
+          <note type="bp">
+           <p>
+            Rapport du jury central, 5ᵉ partie, 1ᵉ division, p. 311.
+           </p>
+          </note>
           . L'excellent rapport fait au nom du 19 jury de l'Exposition universelle de Londres en 1851, par M. Félix Aubry
-          <note type="bp"><p>
-           Rapport, p. 102, 103.
-          </p></note>
+          <note type="bp">
+           <p>
+            Rapport, p. 102, 103.
+           </p>
+          </note>
           entre dans des détails plus complets. Il estime que la fabrication des différentes broderies (broderies de fantaisie et broderies blanches) produit un mouvement commercial de 35 à 45 millions, et qu'elle occupe 150,000 à 170,000 ouvrières en France. Il porte à 550,000 le nombre de ces ouvrières pour toute l'Europe
-          <note type="bp"><p>
-           Rapport, p. 121
-          </p><p>
-           <figure rend="portrait" type="table">
-            <head resp="added" type="table" xml:id="figure_1">
-             Nombre d'ouvrière pour les dentelles et les broderies en Europe (notes annexes)
-            </head>
-            <graphic facs="#facs_50" url="#"/>
-           </figure>
-           .
-          </p></note>
+          <note type="bp">
+           <p>
+            Rapport, p. 121
+           </p>
+           <p>
+            <figure rend="portrait" type="table">
+             <head resp="added" type="table" xml:id="figure_1">
+              Nombre d'ouvrière pour les dentelles et les broderies en Europe (notes annexes)
+             </head>
+             <graphic facs="#facs_50" url="#"/>
+            </figure>
+            .
+           </p>
+          </note>
           . Le même rapporteur, au jury de la 23ᵉ classe de l'Expo¬sition universelle de Paris, en 1855
-          <note type="bp"><p>
-           Rapport général, p. 432.
-          </p></note>
+          <note type="bp">
+           <p>
+            Rapport général, p. 432.
+           </p>
+          </note>
           , croit que ce chiffre était alors de 6 à 700,000. Il assure qu'il y avait à peine 10 à 12,000 bro¬deuses en lEurope au commencement de ce siècle.
          </p>
          <p xml:id="para_5_45_293">
@@ -1278,10 +1404,14 @@
          </p>
          <p xml:id="para_5_45_294">
           En France, les statuts des brodcurs, decoupcurs, égrdtigncurs. chasublicrs, figurent au nombre de ceux qui furent revisés en 1648
-          <note type="bp"><p>
-           Voir le Livre des métiers d'Etienne Boileau, rédigé au xm e siècle, et publié, sur les manuscrits, par M. Depping, 1837, p. 380. Voir aussi le Rapport du 19e jury à l'Exposition de 1851, p. 88.
-          </p></note>
-          ; <pb facs="#facs_51" n="46" source="lesouvriersdesde03sociuoft_0054.xml"/> un article permettait aux brodeurs du roi de faire enlever chez les maîtres, par des hoquetons, les ouvrières qui leur convenaient. La communauté comprenait alors 200 maîtres. En 1778, la broderie occupait à Lyon 20,000 personnes, et elle se développait à Saint¬Quentin et à Nancy.
+          <note type="bp">
+           <p>
+            Voir le Livre des métiers d'Etienne Boileau, rédigé au xm e siècle, et publié, sur les manuscrits, par M. Depping, 1837, p. 380. Voir aussi le Rapport du 19e jury à l'Exposition de 1851, p. 88.
+           </p>
+          </note>
+          ;
+          <pb facs="#facs_51" n="46" source="lesouvriersdesde03sociuoft_0054.xml"/>
+          un article permettait aux brodeurs du roi de faire enlever chez les maîtres, par des hoquetons, les ouvrières qui leur convenaient. La communauté comprenait alors 200 maîtres. En 1778, la broderie occupait à Lyon 20,000 personnes, et elle se développait à Saint¬Quentin et à Nancy.
          </p>
          <p xml:id="para_5_46_305">
           De 1790 à 1802, cette industrie de luxe disparaît presque com¬plétement. Elle renait à partir de 1804, et à Nancy, où il n'y avait plus un seul fabricant en 1801, il y en avait, vers 1810, 30 à 32, occupant près de 5,000 ouvrières et un certain nombre de prison¬niers de guerre. Depuis 1830, le développement a été énorme. Paris seul occupait, en 1847, 6,000 ouvrières fabriquant pour 10 millions. On eut le tort, en Lorraine, d'abandonner le métier pour broder à la main, broderie plus rapide, mais plus grossière. La Suisse prit le monopole des broderies fines
@@ -1292,9 +1422,11 @@
          </p>
          <p xml:id="para_5_46_306">
           « Au département des Vosges, véritable foyer de fabrication, dans lequel l'industrie de la broderie a organisé les premiers ate¬liers spéciaux et sérieux, et qui possède dans presque toutes ses communes les ouvrières les plus nombreuses et les plus habiles
-          <note type="bp"><p>
-           Rapport général, p. 433.
-          </p></note>
+          <note type="bp">
+           <p>
+            Rapport général, p. 433.
+           </p>
+          </note>
           , le jury a voté collectivement, dans l'impossibilité de connaitre les véri¬tables producteurs, une grande médaille d'honneur. »
          </p>
         </div>
@@ -1309,7 +1441,9 @@
           Tarare et Saint-Quentin sont les deux principaux centres de fabri¬cation de la mousscdie à la fois fine et orte qui sert de tissu à la broderie. C'est à Tarare que se fournit le fabricant qui occupe les brodeuses, objet de cette étude.
          </p>
          <p xml:id="para_5_46_310">
-          Les dessinateurs sont à Paris. Ils conservent la propriété de leurs <pb facs="#facs_52" n="47" source="lesouvriersdesde03sociuoft_0055.xml"/> dessins et en vendent l'usage aux fabricants. Ces dessins, tracés sur carton, sont reproduits sur le tissu au moyen d'une machine à piquer. La contrefaçon en est punie. Mais quelques-uns des plus communs sont tombés dans le domaine public. L'enquête de 1848 signalait à Paris 935 dessinateurs, employant 258 ouvriers et vendant pour 588,346ᶠ00 de dessins à broder.
+          Les dessinateurs sont à Paris. Ils conservent la propriété de leurs
+          <pb facs="#facs_52" n="47" source="lesouvriersdesde03sociuoft_0055.xml"/>
+          dessins et en vendent l'usage aux fabricants. Ces dessins, tracés sur carton, sont reproduits sur le tissu au moyen d'une machine à piquer. La contrefaçon en est punie. Mais quelques-uns des plus communs sont tombés dans le domaine public. L'enquête de 1848 signalait à Paris 935 dessinateurs, employant 258 ouvriers et vendant pour 588,346ᶠ00 de dessins à broder.
          </p>
          <p xml:id="para_5_47_314">
           Le coton qui sert à la confection des points de la broderie est acheté soit par les ouvrières, soit par le fabricant. Celui-ci se founit à Paris (Michelet, 153, rue de Sèvres). Aux termes de la loi du 7 mars 1850, l'cheveue doit se composer de cinq écheveaux ayant chacun 70 tours de dévidoir à 1 43 le tour, soit 500 mètres. Il n'est pas sans exemple que l'on obtienne du filateur-retordeur de donner à l'écheveau 80, 90 et 100 tours. Des plaintes ont été souvent adres¬sées à l'autorité sur cette infraction à la loi, précisément faite pour protéger l'ouvrier contre des stipulations faites sans lui entre le four¬nisseur et le fabricant
@@ -1335,7 +1469,8 @@
           La fabrique de B** emploie près de 3,000 ouvrières disséminées dans les arrondissements d'pinal et de Mirecourt. Elle a un dépôt ou débllge à Plombières, un à Milan, un à Nice, seulement pen¬dant quelques mois ; à Paris, une maison de gros et une maison de détail ; à **, un atelier por laterminaison des broderies. Ses affaires s'élèvent à environ 500,000ᶠ00, moitié en gros, moitié en détail.
          </p>
          <p xml:id="para_5_48_319">
-          <pb facs="#facs_53" n="48" source="lesouvriersdesde03sociuoft_0056.xml"/> Aucune ouvrière ne fait une pièce entière. On distingue plusieurs espèces de points : le point dit plmets, le point de feston, le point d'armes, le point de sin, le point de plue, enin le jour et le point d'1lenon. La plupart des ouvrières ne savent broder que les premiers points ; les autres sont faits par des ouvrières plus habiles ; enfin, les derniers sont exécutés à la fabrique, sous les yeux des patrons, par des ouvrières d'élite, dont quelques-unes sont capables de broder de véritables chefs-d'œuvre.
+          <pb facs="#facs_53" n="48" source="lesouvriersdesde03sociuoft_0056.xml"/>
+          Aucune ouvrière ne fait une pièce entière. On distingue plusieurs espèces de points : le point dit plmets, le point de feston, le point d'armes, le point de sin, le point de plue, enin le jour et le point d'1lenon. La plupart des ouvrières ne savent broder que les premiers points ; les autres sont faits par des ouvrières plus habiles ; enfin, les derniers sont exécutés à la fabrique, sous les yeux des patrons, par des ouvrières d'élite, dont quelques-unes sont capables de broder de véritables chefs-d'œuvre.
          </p>
         </div>
         <div n="003" type="sub_sub_section">
@@ -1357,13 +1492,17 @@
          </p>
          <p xml:id="para_5_48_324">
           Il n'est pas exact d'ailleurs que la broderie soit en général très¬fatigante pour la vue, excepté lorsqu'on abuse du travail à la lu¬mière
-          <note type="bp"><p>
-           Les statuts des brodeurs, contenus dans le Livre des métiers d'Etienne Boileau [édition Depping, Imprimerie Crapelet, p. 381), défendaient le travail de nuit par cet article spécial : « nul ne pourra ouvrer audit mestier de nuiz fors tant comme la lueur du jour durra tant seulement; car l'euvre fête de nuiz ne peut estre si bone ne si souffisant comme l'euvre fête de jourz. Quiconque sera trouvé ouvrant de nuiz, il poiera deus soulz d'amende. »
-          </p></note>
+          <note type="bp">
+           <p>
+            Les statuts des brodeurs, contenus dans le Livre des métiers d'Etienne Boileau [édition Depping, Imprimerie Crapelet, p. 381), défendaient le travail de nuit par cet article spécial : « nul ne pourra ouvrer audit mestier de nuiz fors tant comme la lueur du jour durra tant seulement; car l'euvre fête de nuiz ne peut estre si bone ne si souffisant comme l'euvre fête de jourz. Quiconque sera trouvé ouvrant de nuiz, il poiera deus soulz d'amende. »
+           </p>
+          </note>
           . C'est un travail qu'on prend et qu'on laisse, et qui rentre parfaitement dans l'ordre des travaux naturels aux femmes, comme la couture, le tricot, la tapisserie, etc.
          </p>
          <p xml:id="para_5_48_325">
-          On estime à 25 ou 30,000 le nombre des ouvrières brodeuses de la Meurthe et des Nosges. Cne industrie qui fait entrer de 6 à 10 millions de salaires annuels par la main des femmes dans les mé¬nages pauvres est assurément une ggrande cause de bien-être, en même temps qu'elle est, par l'élégance, la variété et la perfection <pb facs="#facs_54" n="49" source="lesouvriersdesde03sociuoft_0057.xml"/> de ses produits, un des ornements et une des preuves de la supério¬rité du goût français.
+          On estime à 25 ou 30,000 le nombre des ouvrières brodeuses de la Meurthe et des Nosges. Cne industrie qui fait entrer de 6 à 10 millions de salaires annuels par la main des femmes dans les mé¬nages pauvres est assurément une ggrande cause de bien-être, en même temps qu'elle est, par l'élégance, la variété et la perfection
+          <pb facs="#facs_54" n="49" source="lesouvriersdesde03sociuoft_0057.xml"/>
+          de ses produits, un des ornements et une des preuves de la supério¬rité du goût français.
          </p>
          <p xml:id="para_5_49_327">
           Cependant la condition des lemmes occupées à la brcderie pré¬sente plus d'un inconvénient, soit au point de vue social, soit au point de vue de leur intérèt particulier.
@@ -1408,17 +1547,22 @@
           D'un autre côté, l'ouvrière malhonnète peut aussi se venge par bien des fraudes, communiquer les dessins, perdre ou soustraire le tissu, et surtout accepter à la ois de l'ouvrage de plusieurs mains, de manière à retarder la livraison des comamdes ; or, le temps, c'est la mode ; une ois passée, l'ouvrage est perdu.
          </p>
          <p xml:id="para_5_50_334">
-          <pb facs="#facs_55" n="50" source="lesouvriersdesde03sociuoft_0058.xml"/> Sans doute tous ces tristes faits ne se préscntent pas tous les jours. Grâce à Dieu, l'honnêteté et les vertus chrétiennes n'ont pas fui ces montagnes, et je pourrais citer des exemples touchants de la loyauté et de la charité de certains maîtres, particulièrement dans des moments de crise. Mais il n'y a, contre ces dangers, aucune ga¬rantie, et les ouvrières ne sont pas aitresses surtout d'échapper aux conséquences de la concurrence qu'elles se lont pour les salaires, ni de celle que les fabricants se font pour les prix de vente, soit à l'intérieur, soit à l'etérieur.
+          <pb facs="#facs_55" n="50" source="lesouvriersdesde03sociuoft_0058.xml"/>
+          Sans doute tous ces tristes faits ne se préscntent pas tous les jours. Grâce à Dieu, l'honnêteté et les vertus chrétiennes n'ont pas fui ces montagnes, et je pourrais citer des exemples touchants de la loyauté et de la charité de certains maîtres, particulièrement dans des moments de crise. Mais il n'y a, contre ces dangers, aucune ga¬rantie, et les ouvrières ne sont pas aitresses surtout d'échapper aux conséquences de la concurrence qu'elles se lont pour les salaires, ni de celle que les fabricants se font pour les prix de vente, soit à l'intérieur, soit à l'etérieur.
          </p>
          <p xml:id="para_5_50_335">
           Ceux-ci sont protégés contre les broderies de l'étranger, notam¬ment contre celles des cantons suisses d'ppenzell et de Saint-Gall, par une prohibition absolue
-          <note type="bp"><p>
-           Les broderies ne sont pas nommées dans le tarif, mais elles sont prohibées, à titre de coton ou pour les fils de coton sur les tissus de lin ou de chanvre, parr les lois du 10 brumaire an V (30 avril 1806) (28 avril 1816).
-          </p></note>
+          <note type="bp">
+           <p>
+            Les broderies ne sont pas nommées dans le tarif, mais elles sont prohibées, à titre de coton ou pour les fils de coton sur les tissus de lin ou de chanvre, parr les lois du 10 brumaire an V (30 avril 1806) (28 avril 1816).
+           </p>
+          </note>
           . Mais, d'une part, la contrebande, facile parce que le tissu est facile à dissimuler, active parce qu'il a une valeur élevée, introduit une telle quantité de broderies, au dire des fabricants, qu'on se demande si un droit d vlorem ne serait pas plus eflicace que cette interdiction absolue. D'autre part, les fabricants rançais, portant leurs produits sur ceux des marchés étrangers où ils ne sont pas prohibés, notamment en ltalie, y ren¬contrent les produits de la Suisse, et sont obligés de niveler leurs prix avec les prix de ces produits, et par suite de régler la main¬d'œuvre en conséquence. Aussi cette main-d'ure, sur laquelle tant d'influences contraires pèsent à la fois, ne monte pas, ne s'élève pas avec le prix de toutes choses ; très-supérieure pourtant au salaire des ouvrières suisses
-          <note type="bp"><p>
-           Il y a peu d'années, il y avait 20 p. \% de différence ; le salaire des ouvrieres suisses a été relevé de1 batz (0 15) à 4 batzen ; la moyenne est de 0 60 en Suisse, de 0ᶠS5. en France. On estime à 40,000 le nombre des ouvrières suisses ; les meilleures hahitent les cantons d'Appenzell et de Saint-Gall. Près de Bregenz, les hommes, qui sont maçons en été, deviennent brodeurs en hiver, et toute la famille travaille en commun.
-          </p></note>
+          <note type="bp">
+           <p>
+            Il y a peu d'années, il y avait 20 p. \% de différence ; le salaire des ouvrieres suisses a été relevé de1 batz (0 15) à 4 batzen ; la moyenne est de 0 60 en Suisse, de 0ᶠS5. en France. On estime à 40,000 le nombre des ouvrières suisses ; les meilleures hahitent les cantons d'Appenzell et de Saint-Gall. Près de Bregenz, les hommes, qui sont maçons en été, deviennent brodeurs en hiver, et toute la famille travaille en commun.
+           </p>
+          </note>
           , elle s'exagère quelquefois dans des moments de mode et de grande presse, pour retomberensuite très¬bas, ou s'interrompre absolument dans de fréquentes crises de chômage.
          </p>
          <p xml:id="para_5_50_336">
@@ -1430,7 +1574,8 @@
           (D) SUR LES AMÉLIORATIONS A INTRODUIRE DANS L'INDUSTRIE DE LA BRODERIE.
          </head>
          <p xml:id="para_5_51_340">
-          <pb facs="#facs_56" n="51" source="lesouvriersdesde03sociuoft_0059.xml"/>Sur des plaintes nombreuses, une enquête fut ordonnée, en 1851, par le ministre du commerce. Les membres qui composèrent la commission d'enquête, présidée par M. Gillon, deputé de la Meuse, se transportèrent dans les principaux centres de fabrication et éten¬dirent jusqu'à la Suisse leur exploration ;
+          <pb facs="#facs_56" n="51" source="lesouvriersdesde03sociuoft_0059.xml"/>
+          Sur des plaintes nombreuses, une enquête fut ordonnée, en 1851, par le ministre du commerce. Les membres qui composèrent la commission d'enquête, présidée par M. Gillon, deputé de la Meuse, se transportèrent dans les principaux centres de fabrication et éten¬dirent jusqu'à la Suisse leur exploration ;
          </p>
          <p xml:id="para_5_51_341">
           Ils reconnurent :
@@ -1465,13 +1610,16 @@
          </p>
          <p xml:id="para_5_51_350">
           Depuis, sur des plaintes nouvelles, le comité consultatifdes arts et manulactres, après avoir pris les avis assez divisés des préfets des départements intéressés, a deux fois émis le vxu (l4 mars 1857) que le livret fût imposé à la broderie, en l'étendant, comme le per¬met l'art. 7 de la loi du 7 mars 1850 sur le bobinage
-          <note type="bp"><p>
-           V. le rapport fait à l'Assemblée législative par M. Cunin-Gridaine, Moniteur du 9 octobre 1849.
-          </p></note>
+          <note type="bp">
+           <p>
+            V. le rapport fait à l'Assemblée législative par M. Cunin-Gridaine, Moniteur du 9 octobre 1849.
+           </p>
+          </note>
           .
          </p>
          <p xml:id="para_5_52_352">
-          <pb facs="#facs_57" n="52" source="lesouvriersdesde03sociuoft_0060.xml"/> Jusqu'ici ces demandes sont restées sans résultat, et on peut le comprendre :
+          <pb facs="#facs_57" n="52" source="lesouvriersdesde03sociuoft_0060.xml"/>
+          Jusqu'ici ces demandes sont restées sans résultat, et on peut le comprendre :
          </p>
          <p xml:id="para_5_52_353">
           1ᵉ On aura hésité à toucher au tarif des douanes sur un point qui concerne l'industrie des tissus ; mais on y reviendra nécessai¬rement puisque la prohibition et les perquisitions qu'elle entraîne vexent les labricants sans les défendre.
@@ -1499,7 +1647,9 @@
           <ref target="#part_03_01_22" type="renvoi_int_mono">
            (F)
           </ref>
-          , ou des prix spéciaux ? Il serait possible d'importer cette industrie dans quelques départements pauvres et <pb facs="#facs_58" n="53" source="lesouvriersdesde03sociuoft_0061.xml"/> moraux ; la pauvreté profiterait de l'industrie et l'industrie profite¬rait de lamoralité. Car tout baisse qund le maître trompe l'ouvrier, l'ouvrier le maître, et l'intemédiaire tous les deux. Bien faire au point de vue de la conscience et bien faire au point de vue du tra¬vail, se touchent ici, comme partout, de très-près.
+          , ou des prix spéciaux ? Il serait possible d'importer cette industrie dans quelques départements pauvres et
+          <pb facs="#facs_58" n="53" source="lesouvriersdesde03sociuoft_0061.xml"/>
+          moraux ; la pauvreté profiterait de l'industrie et l'industrie profite¬rait de lamoralité. Car tout baisse qund le maître trompe l'ouvrier, l'ouvrier le maître, et l'intemédiaire tous les deux. Bien faire au point de vue de la conscience et bien faire au point de vue du tra¬vail, se touchent ici, comme partout, de très-près.
          </p>
          <p xml:id="para_5_53_362">
           Faire mieux paraît le seul moyen d'obtenir l'élévation des salaires et de recouvrer la supériorité de l'industrie. Des écoles sont donc bien nécessaires, et si elles étaient à la fois instructives et profes¬sionnelles
@@ -1525,7 +1675,9 @@
           que la propriété est extrêmement divisé dans la commune de R**, puisque les cotes foncières n'excèdent pas 312ᶠ 00 et tombent à 0ᶠ 18. l en est à peu près de même dans tout le can¬ton. La superficie des communes est en général énorme (sauf celle de Plombieres, accroupie sur ses sources) ; celle d Val d'Ajol ren¬ferme près de 8,000 habitants disséminés sur plusieurs lieues. Les agglomé̀rations sont peu considérables : de petites fermes, des mai¬sons isolées sont dispersées au milieu des champs ou des prés, en général auprès de la petite propriété de ceux qui les habitent. Les bois communaux ou des landes stériles occupent le reste de la super¬icie.
          </p>
          <p xml:id="para_5_53_365">
-          Il convient de noter que la petite propriété ne paraît pas avoir, dans ce canton, les inconvénients sinalés dans d'autres monogra¬phies. l'eut-être l'agriculture reçoit-elle moins de perfectionnements, et, toutetois, elle est susceptible d'en recevoir bien peu dans ces régions montagneuses ; les champs sont bien fumés, les prés très¬bien irrigués. l'eut-être la grande propriété introduirait-elle de meilleures races de bestiaux ; les bœufs, les vaches, les chevaux, les <pb facs="#facs_59" n="54" source="lesouvriersdesde03sociuoft_0062.xml"/> anes, les moutons sont petits et chétifs. Encore faudrait-il savoir si ce climat et ces aigres herbages conviendraient à des races plus perfectionnées. Mais il est certain qu'on ne voit pas là régner cette misère qui désole certains pays de grandes propriétés, où l'ha¬bitant on-seulement ne possède rien, mais n'a pas même l'espoir de rien posséder, et ou l'on voit de pauvres hameaux enveloppés comme une escadre au milieu des gglaces par ces grandes terres de 2 à 3,000 hectares dont aucun fragment ne viendra jamais récom¬penser le travail et l'épargne de celui qui voudrait acquérir. Le partage des parcelles, après la mort, est l'occasion des embarras signaldés ailleurs. Mais, pendant la vie, l'habitant élève sa famille, la nourrit mieu, est plus retenu au sol et à la maison, grâce à sa petite propriété.
+          Il convient de noter que la petite propriété ne paraît pas avoir, dans ce canton, les inconvénients sinalés dans d'autres monogra¬phies. l'eut-être l'agriculture reçoit-elle moins de perfectionnements, et, toutetois, elle est susceptible d'en recevoir bien peu dans ces régions montagneuses ; les champs sont bien fumés, les prés très¬bien irrigués. l'eut-être la grande propriété introduirait-elle de meilleures races de bestiaux ; les bœufs, les vaches, les chevaux, les
+          <pb facs="#facs_59" n="54" source="lesouvriersdesde03sociuoft_0062.xml"/>
+          anes, les moutons sont petits et chétifs. Encore faudrait-il savoir si ce climat et ces aigres herbages conviendraient à des races plus perfectionnées. Mais il est certain qu'on ne voit pas là régner cette misère qui désole certains pays de grandes propriétés, où l'ha¬bitant on-seulement ne possède rien, mais n'a pas même l'espoir de rien posséder, et ou l'on voit de pauvres hameaux enveloppés comme une escadre au milieu des gglaces par ces grandes terres de 2 à 3,000 hectares dont aucun fragment ne viendra jamais récom¬penser le travail et l'épargne de celui qui voudrait acquérir. Le partage des parcelles, après la mort, est l'occasion des embarras signaldés ailleurs. Mais, pendant la vie, l'habitant élève sa famille, la nourrit mieu, est plus retenu au sol et à la maison, grâce à sa petite propriété.
          </p>
          <p xml:id="para_5_54_367">
           Il est vraui que le voisinage d'usines, de carrières, d'une ville fré¬quentée par les étragers, l'usage de bois comunaux, enfin l'in¬dustrie de la broderie offrent aux habitants ces industries et ces subventions complémentaires dont le mélange avec l'agericulture constitue le eilleur état social. hLa terre n'est là, en quelque sorte, que le jardin partagé entre les ouvriers de l'indusrie.
@@ -1594,7 +1746,8 @@
           La recette de 3,250ᶠ00, divisée en 325 feux, se réduit donc à
          </p>
          <p xml:id="para_5_55_387">
-          <pb facs="#facs_60" n="55" source="lesouvriersdesde03sociuoft_0063.xml"/> 10ᶠ00 par leu, diminués de 6ᶠ20 représentant 2,011ᶠ 56 de frais, ou à 3ᶠ80 par feu
+          <pb facs="#facs_60" n="55" source="lesouvriersdesde03sociuoft_0063.xml"/>
+          10ᶠ00 par leu, diminués de 6ᶠ20 représentant 2,011ᶠ 56 de frais, ou à 3ᶠ80 par feu
           <ref target="#part_02_05_16" type="renvoi_int_mono">
            (7)
           </ref>
@@ -1634,7 +1787,8 @@
           Enfin, elle est soumise à des conditions semblables, soit pour le régime de fixation des prix de main-d'œuvre, soit pour le mode de vente des produits, soit pour les rapports des ouvrières avec les entrepreneurs et les marchands.
          </p>
          <p xml:id="para_5_56_397">
-          <pb facs="#facs_61" n="56" source="lesouvriersdesde03sociuoft_0064.xml"/> Et pourtant, dans ces conditions presque identiques, cette industrie ne présente point les inconvénients si regrettables qui sont signalés dans celle de la broderie des Vosges.
+          <pb facs="#facs_61" n="56" source="lesouvriersdesde03sociuoft_0064.xml"/>
+          Et pourtant, dans ces conditions presque identiques, cette industrie ne présente point les inconvénients si regrettables qui sont signalés dans celle de la broderie des Vosges.
          </p>
          <p xml:id="para_5_56_398">
           Les mœurs se maintiennent généralement pures dans les familles, la conduite des ouvrières est sage et réservée. On n'a point à leur reprocher ces goûts de luxe, de toilette, de réunions de plaisirs qui entraînent les brodeuses des Nosges dans l'inconduite.
@@ -1652,13 +1806,16 @@
           Les produits de cette industrie ainsi ransfomée ligurèrent avec honneur à l'exposition universelle de 1855. Ce mouvement remar¬quable fut du en partie aux eflforts d'un fabricant éclairé du Puy,
          </p>
          <p xml:id="para_5_57_403">
-          <pb facs="#facs_62" n="57" source="lesouvriersdesde03sociuoft_0065.xml"/> M. Théodore Falcon, auquel le musée de la ville du Puy est rede¬vable d'une galerie précieuse consacrée exclusivement aux ouvrages de dentelles. Cette galerie de la dentelle ne pouvait être mieux placée que dans une ville devenue le centre le plus important de cette branche d'industrie, non-seulement en Framce, mais encore à l'étranger. On aura une idée de cette importance quand on saura que, sur une population de 300,000 habitants, on compte, dans le département de la Haute-Loire, plus de 60,000 ouvrières en den¬telles, outre celles des départements environnants dont les produits viennent se centraliser au Puy.
+          <pb facs="#facs_62" n="57" source="lesouvriersdesde03sociuoft_0065.xml"/>
+          M. Théodore Falcon, auquel le musée de la ville du Puy est rede¬vable d'une galerie précieuse consacrée exclusivement aux ouvrages de dentelles. Cette galerie de la dentelle ne pouvait être mieux placée que dans une ville devenue le centre le plus important de cette branche d'industrie, non-seulement en Framce, mais encore à l'étranger. On aura une idée de cette importance quand on saura que, sur une population de 300,000 habitants, on compte, dans le département de la Haute-Loire, plus de 60,000 ouvrières en den¬telles, outre celles des départements environnants dont les produits viennent se centraliser au Puy.
          </p>
          <p xml:id="para_5_57_404">
           Cette population, du reste, paraît se trouver dans les mêmes con¬ditions que celle des Vosges sous le rapport des habitations et du genre de vie. Elle est très-disséminée. La plupart des communes sont formées d'au moins 50 à S0 agglomérations ; il y en a qui en comptent jusqu'à 130, éloignées du chef-lieu de 7, S, 9 et jusqu'à 12 kilomères
-          <note type="bp"><p>
-           Tenec, 130; Issengeaux, 120; Montregard, 86; Mouistrol, 85; Saint-Jeurre, 80.
-          </p></note>
+          <note type="bp">
+           <p>
+            Tenec, 130; Issengeaux, 120; Montregard, 86; Mouistrol, 85; Saint-Jeurre, 80.
+           </p>
+          </note>
           .
          </p>
          <p xml:id="para_5_57_405">
@@ -1671,7 +1828,8 @@
           En 1665, une jeune fille du Puy se voua, par les conseils et sous la direction de l'abbé Tronson, directeur du séminaire et son con¬t esseur, à l'insruction des malades, des domestiques et des jeunes filles pauvres de sa ville natale. Elle les visitait chez elles ou dans les hôpitaux, ou bien réunissait à heures fixes, dans des assemblées, celles qui pouvaient s'y rendre. D'aures demoiselles pieuses s'ad¬joignirent à elle pour cette bonne œuvre. Elles formèrent ainsi, mais d'abord sans prononcer de vu, une congrégation religieuse, sous le nom de ˉDmoiselles de l'nstution. Cette congréggation s'occupa sur¬tout des ouvrieres en dentelles, fort nombreuses dans la ville du Puy.
          </p>
          <p xml:id="para_5_58_409">
-          <pb facs="#facs_63" n="58" source="lesouvriersdesde03sociuoft_0066.xml"/> Voici, en effet, comment s'exercait alors cette industrie. Les ouvrières de la campagne avaient l'habitude à cette époque de venir passer l'hiver au Puy, pour se livrer exclusivement à la fabrication et pouvoir plus facilement écouler leurs produits. Elles se réunis¬saient et travaillaient en commun dans de vastes maisons de l hute ville qui leur étaient cédées à loyer à très-bon marché.
+          <pb facs="#facs_63" n="58" source="lesouvriersdesde03sociuoft_0066.xml"/>
+          Voici, en effet, comment s'exercait alors cette industrie. Les ouvrières de la campagne avaient l'habitude à cette époque de venir passer l'hiver au Puy, pour se livrer exclusivement à la fabrication et pouvoir plus facilement écouler leurs produits. Elles se réunis¬saient et travaillaient en commun dans de vastes maisons de l hute ville qui leur étaient cédées à loyer à très-bon marché.
          </p>
          <p xml:id="para_5_58_410">
           Mle Martel s'introduisit dans leurs chambrées et leur persuada de suivre une règle qui, sans leur occasionner aucune perte de temps, leur fournirait les moyens de s'instruire, de sanctifier leur travail et même de l'alléer, en y mêlant une certaine diversion. « Elle leur apprenait, dit l'abbé Tronson, dans la e de Mᵉ ˉLrel, à lire, à chanter des chansons dévotes, leur enseignait la doctrine et les prières de l'lglise, et surtout leur faisait quelques bonnes lectures, proportionnées à leur capacité, et qu'elle leur expliiquait. » Chaque réunion était présidée en son absence par une ouvrière qu'elle désignait, et avait une école annexée pour les petites filles du quartier.
@@ -1689,7 +1847,8 @@
           Comme ces excursions les fatiguaient beaucoup, elles eurent la pensée de prendre pour auxiliaires d'hubles institutrices qui, après avoir été formées par elles, allaient s'établir, sous la surveil¬lance des curés, dans les villaes et les hameaux dépourvus d'école. Le peuple désigna ces auxiliaires sous le nom de Bets, qu'elles conservent encore aujourd'hui.
          </p>
          <p xml:id="para_5_59_415">
-          <pb facs="#facs_64" n="59" source="lesouvriersdesde03sociuoft_0067.xml"/> Les Béates ne font pas partie de la congerégation des Dmoiselles ; elles forment une société à part sous l'obéissance et la direction de la supérieure des emoiselles. Elles restent toujours libres de la quitter, bien qu'il soit fort rare qu'elles fassent usage de cette liberté.
+          <pb facs="#facs_64" n="59" source="lesouvriersdesde03sociuoft_0067.xml"/>
+          Les Béates ne font pas partie de la congerégation des Dmoiselles ; elles forment une société à part sous l'obéissance et la direction de la supérieure des emoiselles. Elles restent toujours libres de la quitter, bien qu'il soit fort rare qu'elles fassent usage de cette liberté.
          </p>
          <p xml:id="para_5_59_416">
           Les Demoiselles ainsi que les Béates ont leur maison mère au Puy. Le noviciat des Béates dure deux ans, pendant lesquels élles s'en¬tretiennent à leurs frais, et le plus souvent avec le produit de leur travail, ce qui nuit à leurs études. Souvent la maison leur vient en aide par des avances qu'clles remboursent ensuite petit à petit, à force de privations, d'activité et d'économie.
@@ -1702,9 +1861,11 @@
          </p>
          <p xml:id="para_5_59_419">
           1e De lui fournir une habitation de deux pièces au moins, et qui ne soit sujette à aucun passage ou à aucune autre servitude
-          <note type="bp"><p>
-           Ces maisons ont été ou sont construites soit par les communes, soit par les curés, soit par la congrégation des Demoiselles qui en abandonne alors la jouissance moyennant l'entretien et le payement des contributions.
-          </p></note>
+          <note type="bp">
+           <p>
+            Ces maisons ont été ou sont construites soit par les communes, soit par les curés, soit par la congrégation des Demoiselles qui en abandonne alors la jouissance moyennant l'entretien et le payement des contributions.
+           </p>
+          </note>
           ;
          </p>
          <p xml:id="para_5_59_420">
@@ -1715,10 +1876,14 @@
          </p>
          <p xml:id="para_5_59_422">
           4° D'astreindre chaque élève fréquentant l'école de lecture et en état de payer, à un écolage de 0 centimes par mois. Comme il y a beaucoup d'élèves gratuites, et que la pauvre sxur se montre fort indulgente sr ce payement, cet écolage ne s'élève pas annuelle¬ment en moyenne, pour la plupart d'entre elles, à une somme de trente francs. C'est avec ce modeste salaire et le produit de leur propre travail
-          <note type="bp"><p>
-           Pour apprécier à quelle faible somme doit monter ce produit, il ne faut pas oublier qu'avant 1849, une femme travaillant à la dentelle du matin au soir ne gagnait que 35, 40, 45, et rarement 50 centimes. Ces salaires se sont élevés un peu depuis, par suite de la transformation de l'industrie.
-          </p></note>
-          , qu'il faut qu'elles pourvoient à leur nourriture et à <pb facs="#facs_65" n="60" source="lesouvriersdesde03sociuoft_0068.xml"/> leur entretien pendant toute l'année, a leurs frais de déplacement pour leurs retraites mensuelles et annuelles, et enin au payement de la dette que plusieurs ont contractée pour les dépenses de leur noviciat.
+          <note type="bp">
+           <p>
+            Pour apprécier à quelle faible somme doit monter ce produit, il ne faut pas oublier qu'avant 1849, une femme travaillant à la dentelle du matin au soir ne gagnait que 35, 40, 45, et rarement 50 centimes. Ces salaires se sont élevés un peu depuis, par suite de la transformation de l'industrie.
+           </p>
+          </note>
+          , qu'il faut qu'elles pourvoient à leur nourriture et à
+          <pb facs="#facs_65" n="60" source="lesouvriersdesde03sociuoft_0068.xml"/>
+          leur entretien pendant toute l'année, a leurs frais de déplacement pour leurs retraites mensuelles et annuelles, et enin au payement de la dette que plusieurs ont contractée pour les dépenses de leur noviciat.
          </p>
          <p xml:id="para_5_60_424">
           Il est facile de concevoir d'après cela quelle est la sobiété de leur régime et quelles privations elles s'imposent ; privations qui ne sont jamais interrompues, car il leur est défendu d'accepter aucun repas, soit chez le curé, soit chez les habitants.
@@ -1748,7 +1913,8 @@
           que 35, 40, 45, et rarement 50 centimes. Ces salaires se sont élevés un peu depuis, par suite de la transformation de l'idustrie.
          </p>
          <p xml:id="para_5_61_433">
-          <pb facs="#facs_66" n="61" source="lesouvriersdesde03sociuoft_0069.xml"/> On n'admet dans ces réunions, ni les nourrices, ni les femmes enceintes, ni les filles qui ont donné quelque scandale. En être exclu pour ce motif est une grande honte ; aussi, remarque M. Dunglas parfaitement placé pour être bien instruit, les exemples en sont-ils fort rares.
+          <pb facs="#facs_66" n="61" source="lesouvriersdesde03sociuoft_0069.xml"/>
+          On n'admet dans ces réunions, ni les nourrices, ni les femmes enceintes, ni les filles qui ont donné quelque scandale. En être exclu pour ce motif est une grande honte ; aussi, remarque M. Dunglas parfaitement placé pour être bien instruit, les exemples en sont-ils fort rares.
          </p>
          <p xml:id="para_5_61_434">
           Les dimanches et les jours de fête, la Béate réunit les jeunes filles, les conduit à la paroisse et les ramène au village. Elle les reprend de nouveau après le repas, leur fait rendre compte de l'instruction reçue à l'église, leur donne quelques avis et les accompagne à la promenade jusqu'au soir. Quand le temps est trop mauvais et que la neige intercepte les communications, les habitants se réunissent dans la maison d'assemblée, et passent les heures des oflices à pier ou à faire quelques exercices religieux sous la direction de la Béate.
@@ -1763,7 +1929,9 @@
           Si l'on ne connaissait pas les miracles de la charité chrétienne et des dévouements qu'elle inspire, on douterait qu'en présence d'une pareille existence, ayant pour unique perspective dans cette vie la mort dans un hospice de charité, il dut se rencontrer beaucoup de illes disposées à entrer dans cette voie douloureuse et à persévérer jusquà la fin. C'est ce qui arrive pourtant. Non-seulement les Béates Supportent avec patience cette condition, mais elles l'aiment, elles s'y attachent et refusent de la quitter.
          </p>
          <p xml:id="para_5_61_438">
-          Voici coment s'exprime à ce sujet M. Dunglas, ancien recteur de l'Académie de la Haute-Loire : « Malgré cet état de gêne, il est plusieurs de ces saintes filles, même parmi celles qui sont bre¬vetées, et il y en a un assez grand nombre, qui ont refusé des posi¬tions bien meilleures qu'on leur offrait avec l'agrément de la supé¬rieure générale, positions qui leur assuraient unrevenu de 400, 500ᶠ et même 600ᶠ avec des droits à une retraite. D'autres ont d'abord <pb facs="#facs_67" n="62" source="lesouvriersdesde03sociuoft_0070.xml"/> accepté, mais, au moment de la séparation, le cœur leur a failli. Comment voulez-vous, me disait l'une d'elles, que j'aie le courage de quitter mes enfants, je suis au milieu d'elles depuis trente ans. D
+          Voici coment s'exprime à ce sujet M. Dunglas, ancien recteur de l'Académie de la Haute-Loire : « Malgré cet état de gêne, il est plusieurs de ces saintes filles, même parmi celles qui sont bre¬vetées, et il y en a un assez grand nombre, qui ont refusé des posi¬tions bien meilleures qu'on leur offrait avec l'agrément de la supé¬rieure générale, positions qui leur assuraient unrevenu de 400, 500ᶠ et même 600ᶠ avec des droits à une retraite. D'autres ont d'abord
+          <pb facs="#facs_67" n="62" source="lesouvriersdesde03sociuoft_0070.xml"/>
+          accepté, mais, au moment de la séparation, le cœur leur a failli. Comment voulez-vous, me disait l'une d'elles, que j'aie le courage de quitter mes enfants, je suis au milieu d'elles depuis trente ans. D
          </p>
          <p xml:id="para_5_62_440">
           Cette corporation si utile et si modeste s'accroît et se développe à proportion des bienfaits qu'elle répand et des désirs que mani¬festent les populations de profiter de ses services.
@@ -1778,7 +1946,9 @@
           Ces services sont de plus d'un genre. Nous ne voulons nous atta¬cher ici qu'à ceux qui ont pour objet l'industrie de la dentelle, et dont la continuité, en préservant les ouvrières des inconvénients signalés dans l'industrie de la broderie des Vosges, a puissamment contribué aux améliorations qui ont londé et qui entretiennent la prospérité de l'industrie dentellière dans la laute-Loire.
          </p>
          <p xml:id="para_5_62_444">
-          Ainsi que nous l'avons vu, la léate n'est pas seulement l'insti¬tutrice des jeunes lilles, elle est encore leur maîtresse d'apprentis¬sage, mais une maîtresse d'apprentissage qui ne les abandonne point une ois l'apprentissage terminé. L'écolière devenue ouvrière continue à réquenter la maison de la éate. Ille y vient non-seule¬ment travailler, ais encore se perlectionner, se tenir au courant des changements que les besoins de la mode introduisent lréquem¬ment dans cette industrie toute léminine. Elle trouve dans la Béate un auxiliaire précieux pour tous les rapports qu'elle doit nécessaire¬ment avoir avec les entrepreneurs et les marchands. Grâce à cet intermédiaire également agréé, et de l'ouvrière, parce qu'elle défend ses intérêts et protégge sa moralité, et du labricant, parce qu'elle surveille la bonne eécution des travaux et lui assure l'exac¬titude et la loyauté de l'ouvrière, la plupart des dificultés, des <pb facs="#facs_68" n="63" source="lesouvriersdesde03sociuoft_0071.xml"/> contestations, des pertes de temps, qui causent tant d'embarras et de dommages dans le commerce des broderies, sont évitées dans celui de la dentelle.
+          Ainsi que nous l'avons vu, la léate n'est pas seulement l'insti¬tutrice des jeunes lilles, elle est encore leur maîtresse d'apprentis¬sage, mais une maîtresse d'apprentissage qui ne les abandonne point une ois l'apprentissage terminé. L'écolière devenue ouvrière continue à réquenter la maison de la éate. Ille y vient non-seule¬ment travailler, ais encore se perlectionner, se tenir au courant des changements que les besoins de la mode introduisent lréquem¬ment dans cette industrie toute léminine. Elle trouve dans la Béate un auxiliaire précieux pour tous les rapports qu'elle doit nécessaire¬ment avoir avec les entrepreneurs et les marchands. Grâce à cet intermédiaire également agréé, et de l'ouvrière, parce qu'elle défend ses intérêts et protégge sa moralité, et du labricant, parce qu'elle surveille la bonne eécution des travaux et lui assure l'exac¬titude et la loyauté de l'ouvrière, la plupart des dificultés, des
+          <pb facs="#facs_68" n="63" source="lesouvriersdesde03sociuoft_0071.xml"/>
+          contestations, des pertes de temps, qui causent tant d'embarras et de dommages dans le commerce des broderies, sont évitées dans celui de la dentelle.
          </p>
          <p xml:id="para_5_63_446">
           Ce n'est pas tout : les Béates dirigent au Puy une école spé¬ciale d'apprentissage de la dentelle, dont la fondation et l'orga¬nisation peuvent aussi fournir des documents utiles pour l'amé¬lioration de l'industrie de la broderie. C'est dans cette vue que nous croyons devoir consigner ici quelques détails sur cet établis¬sement.
@@ -1802,10 +1972,14 @@
           J'emprunte ces documents à un rapport fait par M. Falcon lui¬même à la fin de 1856, et qui rend hommage dans les termes sui¬vants à l'utilité de cette fondation :
          </p>
          <p xml:id="para_5_63_453">
-          Par d'heureuses combinaisons, les Dames de la Miséricorde obtiennent un résultat complétement nouveau et satisfaisant : leurs élèves apprennent non-seulement la bonne fabrication de la den¬telle, mais elles reçoivent en même temps, dans cette précieuse maison, l'éducation morale et religieuse qu'on ne donne ordinai¬rement qu'aux enfants de la classe ouvrière aisée. Ces Dames ont créé, en un mot, une véritable maison d'instruction qui, plus que les autres, donne un proiit pécuniaire aux personnes qui la fréquentent. Ce prolit est collectivement d'environ deux cents francs par semaine, 9 à 10,000ᶠ par an, répartis entre les <pb facs="#facs_69" n="64" source="lesouvriersdesde03sociuoft_0072.xml"/> familles des enfants proportionnellement au travail de ceux-ci
-          <note type="bp"><p>
-           Nous avons appris avec regret que cette école n'existait plus, l'allocation annuelle de 800 f 00 s'étant trouvée insuffisante pour la maintenir.
-          </p></note>
+          Par d'heureuses combinaisons, les Dames de la Miséricorde obtiennent un résultat complétement nouveau et satisfaisant : leurs élèves apprennent non-seulement la bonne fabrication de la den¬telle, mais elles reçoivent en même temps, dans cette précieuse maison, l'éducation morale et religieuse qu'on ne donne ordinai¬rement qu'aux enfants de la classe ouvrière aisée. Ces Dames ont créé, en un mot, une véritable maison d'instruction qui, plus que les autres, donne un proiit pécuniaire aux personnes qui la fréquentent. Ce prolit est collectivement d'environ deux cents francs par semaine, 9 à 10,000ᶠ par an, répartis entre les
+          <pb facs="#facs_69" n="64" source="lesouvriersdesde03sociuoft_0072.xml"/>
+          familles des enfants proportionnellement au travail de ceux-ci
+          <note type="bp">
+           <p>
+            Nous avons appris avec regret que cette école n'existait plus, l'allocation annuelle de 800 f 00 s'étant trouvée insuffisante pour la maintenir.
+           </p>
+          </note>
           . »
          </p>
          <p xml:id="para_5_64_455">
@@ -1827,7 +2001,8 @@
           Or, leur éducation est complétement l'oeuvre des Assemblées et des Béates. La Béate les instruit et les élève, en lorme des ouvrières.
          </p>
          <p xml:id="para_5_65_461">
-          <pb facs="#facs_70" n="65" source="lesouvriersdesde03sociuoft_0073.xml"/> La Béate veille sur leur conduite et leurs mœurs.
+          <pb facs="#facs_70" n="65" source="lesouvriersdesde03sociuoft_0073.xml"/>
+          La Béate veille sur leur conduite et leurs mœurs.
          </p>
          <p xml:id="para_5_65_462">
           La léate prend en mains leurs intérèts, et leur évite toutes rela¬tions dangereuses ou pénibles avec les fabricants.
@@ -1863,7 +2038,9 @@
           Toutefois, il ne faut pas se dissimuler que l'esprit et les murs des populations des Vosges opposeraient, dans le commencement, des obstacles sérieux à un établissement pareil.
          </p>
          <p xml:id="para_5_65_473">
-          Dans la laute- Loire, où les habitants des campagnes ont con¬servé la foi religieuse, les murs pures, les habitudes sim¬ples, l'influence des Béates, consacrée d'ailleurs par le temps. s'exerce sans difficulté et sans conteste. t pourtant, malgré leur dévouement qui frappe tous les yeux, algré leurs services qui profitent à tous, elles se trouvent déjà en butte, de la part des classes oisives des villes et des esprits forts des villages, à des <pb facs="#facs_71" n="66" source="lesouvriersdesde03sociuoft_0074.xml"/> dédains qui vont jusqu'au dénigrement, au mépris, à la haine.
+          Dans la laute- Loire, où les habitants des campagnes ont con¬servé la foi religieuse, les murs pures, les habitudes sim¬ples, l'influence des Béates, consacrée d'ailleurs par le temps. s'exerce sans difficulté et sans conteste. t pourtant, malgré leur dévouement qui frappe tous les yeux, algré leurs services qui profitent à tous, elles se trouvent déjà en butte, de la part des classes oisives des villes et des esprits forts des villages, à des
+          <pb facs="#facs_71" n="66" source="lesouvriersdesde03sociuoft_0074.xml"/>
+          dédains qui vont jusqu'au dénigrement, au mépris, à la haine.
          </p>
          <p xml:id="para_5_66_475">
           Leur introduction dans un pays où la croyance religieuse est affaiblie, où l'inconduite est passée en habitude, où l'amour du luxe et des plaisirs domine, susciterait probablement de sérieuses diflicultés, et pour réussir demanderait beaucoup de prudence et de ménagement.

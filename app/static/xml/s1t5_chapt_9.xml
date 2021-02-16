@@ -8,67 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 5 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-    <p>
-     Le paragraphe §22 est intitulé "Précis de monographie". Dans la mesure où il est intégré à la section "Éléments divers de la constitution sociale", nous avons choisi de ne pas le placer dans un fichier séparé.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_164">
@@ -703,7 +770,7 @@
         Veements du dmache. — l pardessus, 40 fr. —  paletot. 66 fr. — 1 gilet. 15 fr. — 1 pantalon de drap. 35 fr. — 1 chapeau. 12 fr. — 1 cravaue. 75 cent. — 1 paire de bottines. 22 fr. — 'Total 19O0 f. 75.
        </p>
        <p xml:id="para_9_124_121">
-       vêtements ordinares. — 1 paletot. 40 fr. — 2 gilets. 30 fr. — l pantalon en drap. 2 fr. — 1 pantalon de coutil. 10 fr. — 1 chapeau. 10 fr. — 1 chapeau de paille. 3 fr. :50. — 2 cravates. 90 cent. — 1 paire de souliers,
+        vêtements ordinares. — 1 paletot. 40 fr. — 2 gilets. 30 fr. — l pantalon en drap. 2 fr. — 1 pantalon de coutil. 10 fr. — 1 chapeau. 10 fr. — 1 chapeau de paille. 3 fr. :50. — 2 cravates. 90 cent. — 1 paire de souliers,
        </p>
        <p xml:id="para_9_124_122">
         15 fr. — Galoches et savates. 10 fr. — 10 chemises. 50 1fr. — 8 paires de chaussettes. 4 fr. 80. — 2 calecons, 7 fr. — 2 gilets de flanelle,8 1f. — Total 214 r. 20.
@@ -716,7 +783,7 @@
         que porteut les femmes des grandes villes appartenant à une condition plus aisée.
        </p>
        <p xml:id="para_9_125_125">
-       vêtements du dmaneche. — 1 chale tapis. 109 fr. — 1 robe de soie, 78 fr. — 1 chapeau, 12 fr. — 1 paire de bottines 18 fr. — Tota 148 fr.
+        vêtements du dmaneche. — 1 chale tapis. 109 fr. — 1 robe de soie, 78 fr. — 1 chapeau, 12 fr. — 1 paire de bottines 18 fr. — Tota 148 fr.
        </p>
        <p xml:id="para_9_125_126">
         Vêtements ordinaires. — 1 chaûle long. 45 fr. — 1 costume complet, 50 fr. — 1 robe pour sortir. 20 fr. — 1 jupon gris. 15 fr. — 1 robe de fianelle, 10 fr. — 1 manteau en drap noir. 30 fr. — 4 jupons en laine tricotée. 18 fr. — 1 jupon en flanelle. 4 fr. — 1 peignoir, 8 fr. — 1 cha¬peau. 8 fr. — Bonnet, 3 fr. — 1 paire de chaussures, 10 fr. — Espadrilles et sabots. 3 fr. — Total 224 fr.
@@ -728,7 +795,7 @@
         1 costume complet acheté dans un magasin de confections. 19 fr. — 1 paire de bottines. 7 fr. — 1 chapeau. 3 fr. — Total 29 fr.
        </p>
        <p xml:id="para_9_125_129">
-       vêtements ordinaies. — 1 costume provenant d'habits appartenant au père, 8 fr. — 4 abliers. 2 fr. — 1 paire de bottines. 4 fr. — 4 chemises, 6 fr. — 1 béret, 3 fr. — 2 maillots pour l'hiver. 2 fr. 50. — 4 paires de bas de coton. 6 fr. — 4 paires de bas de laine. 8 fr. — Total 39 1fr. 50.
+        vêtements ordinaies. — 1 costume provenant d'habits appartenant au père, 8 fr. — 4 abliers. 2 fr. — 1 paire de bottines. 4 fr. — 4 chemises, 6 fr. — 1 béret, 3 fr. — 2 maillots pour l'hiver. 2 fr. 50. — 4 paires de bas de coton. 6 fr. — 4 paires de bas de laine. 8 fr. — Total 39 1fr. 50.
        </p>
        <p xml:id="para_9_125_130">
         VALEUR TOTALE du mobilier et des vêtements. . . . 1,682 fr. 15
@@ -1329,12 +1396,14 @@
        </p>
        <p xml:id="para_9_157_298">
         Si nous voulons, au contraire, apprécier l'eflicacité que conserve le véritahle patronage, nous devons nous reporter aux descrip¬tions tracées par M. Le Play dans les Ouvriers europeen
-        <note type="bp"><p>
-         Voir surtout la
-         <ref target="#" type="renvoi_ext_oe"> 
-          Monographie du Forgeron de Dannemora. ˉOuvriers euro¬pceens. Deuxième édition t. II.
-         </ref>
-        </p></note>
+        <note type="bp">
+         <p>
+          Voir surtout la
+          <ref target="#" type="renvoi_ext_oe">
+           Monographie du Forgeron de Dannemora. ˉOuvriers euro¬pceens. Deuxième édition t. II.
+          </ref>
+         </p>
+        </note>
         . L'acion du patron se retrouve dans tous les actes de la vie de l'ouvrier il partage leurs joies, s'associe à leurs miseres, qu'il a l'intelligence de prévenir, pratique la permanence des engagements et il n'aban¬donne jamais ceux qui lui donnent leur travail. Sous cette direc¬tion affectueuse et ferme, les ouvriers échappent aux maux qui sévissent sur les populations ouvrières lais sées à elles-memes et les constituent à l'état de menace permanente pour la sécurité du pays. Comme M. Le Play l'a justement dit, le paturonage est un des plus solides matériaux avec lequel s'élève une société stable.
        </p>
       </div>

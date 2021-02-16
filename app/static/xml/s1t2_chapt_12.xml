@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_450">
@@ -271,7 +341,10 @@
       PAR
      </p>
      <p xml:id="para_12_447_9">
-      M. <persName>T. CHALE</persName>
+      M.
+      <persName>
+       T. CHALE
+      </persName>
      </p>
      <p xml:id="para_12_447_10">
       CARRIER ET FABRICANT DE BLANC D'ESPAGNE
@@ -290,7 +363,10 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_12_447_16">
-        <pb facs="#facs_450" n="447" source="lesouvriersdesde02sociuoft_0453.xml"/> La famille décrite dans la présente monographie habite la com¬mune de Port-Marly, canton de Marly-le-Roy, arrondissement de Versailles, située sur la rive gauche de la Seine et sur le bras de décharge de l'établissement hydraulique dit Machine de Marly. Cet ouvrage célèbre de Louis XIV, transformé, en 1826, par la substitution d'une machine à vapeur, a été récemment agrandi par Napoléon III ; il a pour objet d'élever les eaux de la Seine à une hauteur suffisante (162 mètres) pour les distribuer dans la ville de Versailles. La commune de Port-Marly est à 2 kilomètres au nord de Marly-le-Roy, et à 16 kilomètres à l'ouest de Paris ; placée au bas de la colline qui porte Marly-le-Roy, elle est traversée par une des rou<pb facs="#facs_451" n="448" source="lesouvriersdesde02sociuoft_0454.xml"/>tes qui conduisent de Paris à Saint-Germain-en-Laye. Les habita¬tions qui, dans le siècle dernier, se groupèrent autour de l'établis¬sement hydraulique, ne constituent une paroisse, et par conséquent une commune, que depuis 1775. A cette époque, cédant aux pres¬santes sollicitations de quelques pieuses dames de la cour, le roi Louis XVI fit construire, sur sa cassette, l'église actuelle d'un aspect monumental, le presbytère et la maison d'école.
+        <pb facs="#facs_450" n="447" source="lesouvriersdesde02sociuoft_0453.xml"/>
+        La famille décrite dans la présente monographie habite la com¬mune de Port-Marly, canton de Marly-le-Roy, arrondissement de Versailles, située sur la rive gauche de la Seine et sur le bras de décharge de l'établissement hydraulique dit Machine de Marly. Cet ouvrage célèbre de Louis XIV, transformé, en 1826, par la substitution d'une machine à vapeur, a été récemment agrandi par Napoléon III ; il a pour objet d'élever les eaux de la Seine à une hauteur suffisante (162 mètres) pour les distribuer dans la ville de Versailles. La commune de Port-Marly est à 2 kilomètres au nord de Marly-le-Roy, et à 16 kilomètres à l'ouest de Paris ; placée au bas de la colline qui porte Marly-le-Roy, elle est traversée par une des rou
+        <pb facs="#facs_451" n="448" source="lesouvriersdesde02sociuoft_0454.xml"/>
+        tes qui conduisent de Paris à Saint-Germain-en-Laye. Les habita¬tions qui, dans le siècle dernier, se groupèrent autour de l'établis¬sement hydraulique, ne constituent une paroisse, et par conséquent une commune, que depuis 1775. A cette époque, cédant aux pres¬santes sollicitations de quelques pieuses dames de la cour, le roi Louis XVI fit construire, sur sa cassette, l'église actuelle d'un aspect monumental, le presbytère et la maison d'école.
        </p>
        <p xml:id="para_12_448_18">
         Le sol est composé de sable argileux, de craie et d'argile propre¬ment dite. La colline où sélève Marly-le-Roy est principalement formée de calcaire siliceux, de l'étage tertiaire inférieur, ou calcaire siliceux de Saint-Ouen. Sur la pente qui descend vers la Seine se montrent les sables de ce même étage, que les géologues désignent sous le nom de sables de Beauchamp. Plus près du niveau du fleuve viennent afleurer, sur la même pente, les couches tour à tour cal¬caires et marneuses du calcaire pisolithique, au-dessous desquelles se trouvent les vastes dépôts de la craie blanche dont les assises supé¬rieures, mêlées dun sable que le lavage en peut séparer, se prê¬tent à la fabrication de la matière connue dans l'industrie sous le nomde blanc d'Espagne.
@@ -299,7 +375,9 @@
         Le territoire de la commune a une étendue de 141P 2423 ; c'est à cet égard une des plus petites communes de France. Cette superficie restreinte est partagée en 1759 parcelles dont la plus grande a 1 0092. La culture y est assez variée ; 30 hectares en¬viron sont consacrés à la vigne qui produit en moyenne, par hec¬tare, 90 hectolitres d'un vin de qualité commune. Le reste du sol est employé à la culture des céréales, des légumes, des arbres frui¬tiers. Le rendement des terres cultivées en blé est de neuf fois la semence, ou 20 hectolitres environ par hectare, et il serait bien supérieur, si le morcellement du sol n'occasionnait pas une perte considérable de semence. En effet, lorsqu'on sème les parcelles étroites, une partie du grain lancé à la volée par la main du se¬meur se trouve répandue sans utilité sur le champ voisin consacré à une culture d'un autre genre. La majeure partie des nombreuses parcelles formant le territoire de la commune est possédée par des habitants des communes voisines presque uniquement peuplées de cultivateurs.
        </p>
        <p xml:id="para_12_448_20">
-        Port-Marly possède 2 hectares de terrains communaux, compre¬nant le port et la place de fête plantée de marronniers d'Inde dont les fruitsssuppléent aujourd'hui aux céréales dans la fabrication de l'amidon. État peu étendue et traversée par plusieurs routes impé¬riales, dans diverses directions, cette commune n'a pas de chemins vicinaux. Quant au port, il est formé d'un terrain vague applicable au chargement ou au déchargement des bateaux. Aucun ouvrage <pb facs="#facs_452" n="449" source="lesouvriersdesde02sociuoft_0455.xml"/> d'utilité publique n'y favorise ces opérations ; la commune n'a pas fait, jusqu'à présent la dépense que nécessiteraient l'achat et l'instal¬lation d'une grue ; personne n'y a même songé. ll n'y a pas de quai pour ménager l'approche des bateaux ; ceux- ci communiquent de leur bord au sommet de la berge, à l'aide de fortes planches ou madriers jetés en travers. Le port reçoit chaque année une cinquan¬taine de bateaux chargés presque exclusivement de houille d'origine belge, de tuiles et de briques, de pierres à plâtre (gypse) pour le service d'une plâtrière placée au bord du fleuve. Ces diverses mar¬chandises sont de là transportées à ersailles, dont la commune ici décrite esten quelque sorte leport. Les bateaux qui ont fait le transport du charbonde terre retournent en Belgique sans chargement, ce qui contribue à maintenir élevé le prix du frêt de ce combustible ; ce prix ne descend guère au-dessous de 9ᶠ la tonne, et il s'élève souvent jusqu'à 14ᶠ. l-n'y a aucun commerce d'escale le long de la rivière.
+        Port-Marly possède 2 hectares de terrains communaux, compre¬nant le port et la place de fête plantée de marronniers d'Inde dont les fruitsssuppléent aujourd'hui aux céréales dans la fabrication de l'amidon. État peu étendue et traversée par plusieurs routes impé¬riales, dans diverses directions, cette commune n'a pas de chemins vicinaux. Quant au port, il est formé d'un terrain vague applicable au chargement ou au déchargement des bateaux. Aucun ouvrage
+        <pb facs="#facs_452" n="449" source="lesouvriersdesde02sociuoft_0455.xml"/>
+        d'utilité publique n'y favorise ces opérations ; la commune n'a pas fait, jusqu'à présent la dépense que nécessiteraient l'achat et l'instal¬lation d'une grue ; personne n'y a même songé. ll n'y a pas de quai pour ménager l'approche des bateaux ; ceux- ci communiquent de leur bord au sommet de la berge, à l'aide de fortes planches ou madriers jetés en travers. Le port reçoit chaque année une cinquan¬taine de bateaux chargés presque exclusivement de houille d'origine belge, de tuiles et de briques, de pierres à plâtre (gypse) pour le service d'une plâtrière placée au bord du fleuve. Ces diverses mar¬chandises sont de là transportées à ersailles, dont la commune ici décrite esten quelque sorte leport. Les bateaux qui ont fait le transport du charbonde terre retournent en Belgique sans chargement, ce qui contribue à maintenir élevé le prix du frêt de ce combustible ; ce prix ne descend guère au-dessous de 9ᶠ la tonne, et il s'élève souvent jusqu'à 14ᶠ. l-n'y a aucun commerce d'escale le long de la rivière.
        </p>
        <p xml:id="para_12_449_22">
         A son arrivée, chaque bateau effectue son déchargement au moyen de certains ouvriers de la localité qui vont chercher la marchandise dans le bateau et la transportent sur le terrain du port ; ces ouvriers exécutent aussi le chargement des bateaux qui, parfois, remportent certains produits du pays. On leur donne le nom de débardeurs, et l'ouvrier présentement décrit se rapporte à cette classe. Autrefois, leur industrie était florissante, grâce à l'abon¬dance des bateaux à Port-Marly ; aujourd'hui, sous l'influence des mauvaises meurs, les sources de cette industrie se sont taries peu à peu
@@ -390,7 +468,8 @@
         Ttal............................ 27
        </p>-->
        <p xml:id="para_12_450_40">
-        <pb facs="#facs_453" n="450" source="lesouvriersdesde02sociuoft_0456.xml"/> Il existe dans cette commune 16 maisons possédées par des per¬sonnes résidant habituellement à Paris, mais qui, selon une habi¬tude très-répandue parmi les Parisiens, viennent s'y fixer pendant la belle saison.
+        <pb facs="#facs_453" n="450" source="lesouvriersdesde02sociuoft_0456.xml"/>
+        Il existe dans cette commune 16 maisons possédées par des per¬sonnes résidant habituellement à Paris, mais qui, selon une habi¬tude très-répandue parmi les Parisiens, viennent s'y fixer pendant la belle saison.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
@@ -402,25 +481,46 @@
         La famille comprend les deux époux et cinq enfants, savoir :
        </p>
        <p xml:id="para_12_450_43">
-        <persName>PAUL B***</persName>, chef de famille, marié depuis 14 ans, né à M**, (Seine-et-Oise)............ 40 ans;
+        <persName>
+         PAUL B***
+        </persName>
+        , chef de famille, marié depuis 14 ans, né à M**, (Seine-et-Oise)............ 40 ans;
        </p>
        <p xml:id="para_12_450_45">
-        <persName>AIMÉE M***</persName>, sa femme, née à B** (Seine-et-Oise)............ 30 —
+        <persName>
+         AIMÉE M***
+        </persName>
+        , sa femme, née à B** (Seine-et-Oise)............ 30 —
        </p>
        <p xml:id="para_12_450_46">
-        <persName>Pauline B***</persName>, leur fille aînée, née à P***,............ 14 —
+        <persName>
+         Pauline B***
+        </persName>
+        , leur fille aînée, née à P***,............ 14 —
        </p>
        <p xml:id="para_12_450_47">
-        <persName>Augustine B***</persName>, leur 2ᵉ fille, né à P***,............ 10 — 1/2
+        <persName>
+         Augustine B***
+        </persName>
+        , leur 2ᵉ fille, né à P***,............ 10 — 1/2
        </p>
        <p xml:id="para_12_450_48">
-        <persName>Séraphine B***</persName>, leur 3ᵉ fille, née a P***,............ 9 —
+        <persName>
+         Séraphine B***
+        </persName>
+        , leur 3ᵉ fille, née a P***,............ 9 —
        </p>
        <p xml:id="para_12_450_49">
-        <persName>Paul B***</persName>, leur fils, né à P***,............ 7 —
+        <persName>
+         Paul B***
+        </persName>
+        , leur fils, né à P***,............ 7 —
        </p>
        <p xml:id="para_12_450_50">
-        <persName>Virginie B***</persName>, leur 4ᵉ fille, née à P***,............ 4 —
+        <persName>
+         Virginie B***
+        </persName>
+        , leur 4ᵉ fille, née à P***,............ 4 —
        </p>
        <p xml:id="para_12_450_51">
         La famille a perdu deux autres enfants : l'un à 2 ans, l'autre à 5 mois ; la femme est enceinte de son huitième enfant.
@@ -441,7 +541,8 @@
         § 3. — RELIGION ET HABITUDES MORALES.
        </head>
        <p xml:id="para_12_451_55">
-        <pb facs="#facs_454" n="451" source="lesouvriersdesde02sociuoft_0457.xml"/>Le père et la mère sont catholiques, mais ils ne pratiquent la re¬ligion en aucune manière. Le père ne sait pas au juste s'il croit à Dieu, et le danger continuel, auquel il est exposé dans la carrière où il travaille, ne réveille pas chez lui l'idée de la Divinité. Il n'a jamais placé à l'entrée de sa voie de travail, comme cela se prati¬que souvent, un buis béni, ni figuré à la pioche, sur les murailles de craie, l'image grossière du Christ, en vue de la protection de Dieu
+        <pb facs="#facs_454" n="451" source="lesouvriersdesde02sociuoft_0457.xml"/>
+        Le père et la mère sont catholiques, mais ils ne pratiquent la re¬ligion en aucune manière. Le père ne sait pas au juste s'il croit à Dieu, et le danger continuel, auquel il est exposé dans la carrière où il travaille, ne réveille pas chez lui l'idée de la Divinité. Il n'a jamais placé à l'entrée de sa voie de travail, comme cela se prati¬que souvent, un buis béni, ni figuré à la pioche, sur les murailles de craie, l'image grossière du Christ, en vue de la protection de Dieu
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (A)
         </ref>
@@ -465,13 +566,17 @@
          (D)
         </ref>
         . Il n'espère plus rien, il n'a que le courage de sa tâche quotidienne
-        <note type="bp"><p>
-         La présente étude a fourni un exemple des conséquences affligeantes qu'entraîne, pour les familles d'ouvriers, le vice de l'ivrognerie. Le 29 janvier 1859, le jour même où l'auteur présentait à la Société d'Économie sociale cette monographie, rédigée depuis plusieurs semaines, l'ouvrier Paul B***, revenant ivre le long des rives de la Seine, d'un cabaret du Pecq à son logis, est tombé dans une fondrière, où on l'a trouvé, plus tard, les jambes brisées. Il est mort le 12 février suivant, après de vives souffrances, laissant sa famille dans un complet dénûment. Cette fin déplorable a jeté beaucoup d'émotion dans le pays : tous les ouvriers de la commune ont quitté leurs travaux pour accompagner à sa dernière demeure, le corps de leur camarade. Une quête faite à la porte du cimetière, et à laquelle les plus pauvres ont apporté leur obole, a produit, au profit de la veuve et des orphelins, une somme de 162 francs. Cet événement a donc mis en évidence quelques restes des sentiments moraux qui distinguaient autrefois cette population ; mais il n'a corrigé personne, et le soir même de cette triste solennité, tous les camarades du défunt étaient plongés dans l'ivresse.
-        </p></note>
+        <note type="bp">
+         <p>
+          La présente étude a fourni un exemple des conséquences affligeantes qu'entraîne, pour les familles d'ouvriers, le vice de l'ivrognerie. Le 29 janvier 1859, le jour même où l'auteur présentait à la Société d'Économie sociale cette monographie, rédigée depuis plusieurs semaines, l'ouvrier Paul B***, revenant ivre le long des rives de la Seine, d'un cabaret du Pecq à son logis, est tombé dans une fondrière, où on l'a trouvé, plus tard, les jambes brisées. Il est mort le 12 février suivant, après de vives souffrances, laissant sa famille dans un complet dénûment. Cette fin déplorable a jeté beaucoup d'émotion dans le pays : tous les ouvriers de la commune ont quitté leurs travaux pour accompagner à sa dernière demeure, le corps de leur camarade. Une quête faite à la porte du cimetière, et à laquelle les plus pauvres ont apporté leur obole, a produit, au profit de la veuve et des orphelins, une somme de 162 francs. Cet événement a donc mis en évidence quelques restes des sentiments moraux qui distinguaient autrefois cette population ; mais il n'a corrigé personne, et le soir même de cette triste solennité, tous les camarades du défunt étaient plongés dans l'ivresse.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_12_451_61">
-        Au surplus, tout en se rendant compte de sa position fâcheuse, cause pour lui d'une tristesse qui ne disparaît que les jours d'ivresse, il ne se plaint pas d'avoir une nombreuse famille ; il aime ses en¬<pb facs="#facs_455" n="452" source="lesouvriersdesde02sociuoft_0458.xml"/>fants, et c'est par là qu'il entre quelque joie dans son cœur. Il ne dit pas que le nombre de ses enfants soit la cause de son dé¬nûment
+        Au surplus, tout en se rendant compte de sa position fâcheuse, cause pour lui d'une tristesse qui ne disparaît que les jours d'ivresse, il ne se plaint pas d'avoir une nombreuse famille ; il aime ses en¬
+        <pb facs="#facs_455" n="452" source="lesouvriersdesde02sociuoft_0458.xml"/>
+        fants, et c'est par là qu'il entre quelque joie dans son cœur. Il ne dit pas que le nombre de ses enfants soit la cause de son dé¬nûment
         <ref target="#part_03_01_21" type="renvoi_int_mono">
          (E)
         </ref>
@@ -502,7 +607,9 @@
         Si donc le nombre des enfants est, pour la mère, la cause actuelle de beaucoup de privations, c'est en même temps l'espoir de l'avenir. Elle serait dans le vrai, si, pénétrée de sentiments religieux, elle avait la volonté et la force d'élever ses enfants dans la pratique sévère des devoirs du chrétien et du respect des vieux parents.
        </p>
        <p xml:id="para_12_452_72">
-        La fille aînée ne paraît pas encore entraînée dans la voie mau¬vaise où se trouvent presque toutes ses compagnes. Elle a conservé au chevet de son lit l'image que le curé lui a donnée lors de sa <pb facs="#facs_456" n="453" source="lesouvriersdesde02sociuoft_0459.xml"/> première communion, et, en sautoir sur l'image, un petit chapelet à grains noirs, terminé par une petite croix blanche. Mais déjà on la laisse aller danser les dimanches au bal du pays, sale réunion où l'obscénité des propos le dispute à l'obscénité des gestes, si le gen¬darme cesse un instant sa surveillance obligée.
+        La fille aînée ne paraît pas encore entraînée dans la voie mau¬vaise où se trouvent presque toutes ses compagnes. Elle a conservé au chevet de son lit l'image que le curé lui a donnée lors de sa
+        <pb facs="#facs_456" n="453" source="lesouvriersdesde02sociuoft_0459.xml"/>
+        première communion, et, en sautoir sur l'image, un petit chapelet à grains noirs, terminé par une petite croix blanche. Mais déjà on la laisse aller danser les dimanches au bal du pays, sale réunion où l'obscénité des propos le dispute à l'obscénité des gestes, si le gen¬darme cesse un instant sa surveillance obligée.
        </p>
       </div>
       <div n="004" type="sub_sub_section">
@@ -538,7 +645,9 @@
         3 Est-ce l'effet d'une cause purement morale3
        </p>
        <p xml:id="para_12_453_83">
-        A ce moment où il jette l'outil et où il est en proie à ce délire, <pb facs="#facs_457" n="454" source="lesouvriersdesde02sociuoft_0460.xml"/> ses yeux sont ardents, sa lèvre sèche, sa bouche sans paroles, son humeur maussade, son esprit chagrin, voisin de la querelle.
+        A ce moment où il jette l'outil et où il est en proie à ce délire,
+        <pb facs="#facs_457" n="454" source="lesouvriersdesde02sociuoft_0460.xml"/>
+        ses yeux sont ardents, sa lèvre sèche, sa bouche sans paroles, son humeur maussade, son esprit chagrin, voisin de la querelle.
        </p>
        <p xml:id="para_12_454_85">
         Enfin, le voilà sur le banc luisant du cabaret, les coudes sur la table ; la bouteille trop lente est arrivée, le verre s'emplit, et aux premières gorgées du vin du crû, âpre et cuisant, la fièvre etle délire dont je parle ont disparu. Les premières fumées du vin montées au cerveau ont produit un changement subit; la physionomie s'est éclair¬cie, la langue s'est déliée, les yeux ont repris d'abord leur douceur accoutumée.
@@ -570,49 +679,53 @@
       </div>
      </div>
      <div n="002" type="sub_section">
-            <head type="sub_section" xml:id="part_02_02">
+      <head type="sub_section" xml:id="part_02_02">
        II. Moyens d'existence de la famille
       </head>
       <div n="001" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_12_455_95">
-        <pb facs="#facs_458" n="455" source="lesouvriersdesde02sociuoft_0461.xml"/>(Mobilier et vêtements non compris.)
-       </p>
+         <pb facs="#facs_458" n="455" source="lesouvriersdesde02sociuoft_0461.xml"/>
+         (Mobilier et vêtements non compris.)
+        </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_12_455_96">
-        IMMEUBLES. — La famille ne possède qu'une créance litigieuse sur l'héritage de la mère, créance qui peut être évaluée à............ 400ᶠ 00
-       </p>
+         IMMEUBLES. — La famille ne possède qu'une créance litigieuse sur l'héritage de la mère, créance qui peut être évaluée à............ 400ᶠ 00
+        </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_12_455_97">
-        ARGENT............ 0 00
-       </p>
-       <p xml:id="para_12_455_98">
-        La famille, loin d'avoir de l'argent comptant, est toujours endettée <ref target="#part_02_05_15" type="renvoi_int_mono">(D. 5ᵉ Son)</ref>
-       </p>
+         ARGENT............ 0 00
+        </p>
+        <p xml:id="para_12_455_98">
+         La famille, loin d'avoir de l'argent comptant, est toujours endettée
+         <ref target="#part_02_05_15" type="renvoi_int_mono">
+          (D. 5ᵉ Son)
+         </ref>
+        </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_12_455_99">
-        MATÉRIEL SPÉCIAL des travaux et industries............ 19 50
-       </p>
-       <p xml:id="para_12_455_100">
-        1° Matériel pour les traouvaux de carrier et de débardeur. — Un panier à décharger le charbon, 3ᶠ 50 ; — une pelle, 2ᶠ 50; — crochets pour le déchargement des bateaux, 2ᶠ00; colletin, espèce de chapeau en cuir ayant une queue descendant sur les épaules et ter¬minée par une sorte de bosse pour porter les paniers de chabon, 7ᶠ30. — Total, 15ᶠ50.
-       </p>
-       <p xml:id="para_12_455_101">
-        2° Outils pour ˉla culture du jardin. — 1 houe, 4ᶠ00.
-       </p>
-       <p xml:id="para_12_455_102">
-        3° Matériel pour ˉle blanchissage du ˉlinge. — 1 brosse de chiendent, 050; — 1 baquet. 2ᶠ 00; — 3 fers à repasser, 2ᶠ25 ; — 1 battoir, 0ᶠ25 ; — 1 tonneau coupé en forme de baquet, 1ᶠ. — Total sᶠ00.
-       </p>
+         MATÉRIEL SPÉCIAL des travaux et industries............ 19 50
+        </p>
+        <p xml:id="para_12_455_100">
+         1° Matériel pour les traouvaux de carrier et de débardeur. — Un panier à décharger le charbon, 3ᶠ 50 ; — une pelle, 2ᶠ 50; — crochets pour le déchargement des bateaux, 2ᶠ00; colletin, espèce de chapeau en cuir ayant une queue descendant sur les épaules et ter¬minée par une sorte de bosse pour porter les paniers de chabon, 7ᶠ30. — Total, 15ᶠ50.
+        </p>
+        <p xml:id="para_12_455_101">
+         2° Outils pour ˉla culture du jardin. — 1 houe, 4ᶠ00.
+        </p>
+        <p xml:id="para_12_455_102">
+         3° Matériel pour ˉle blanchissage du ˉlinge. — 1 brosse de chiendent, 050; — 1 baquet. 2ᶠ 00; — 3 fers à repasser, 2ᶠ25 ; — 1 battoir, 0ᶠ25 ; — 1 tonneau coupé en forme de baquet, 1ᶠ. — Total sᶠ00.
+        </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_12_455_103">
-        VALEUR TOTALE des propriétés............ 425ᶠ 50
-       </p>
+         VALEUR TOTALE des propriétés............ 425ᶠ 50
+        </p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
@@ -641,7 +754,8 @@
         La famille jouit aussi de subventions d'une autre nature :
        </p>
        <p xml:id="para_12_456_112">
-        <pb facs="#facs_459" n="456" source="lesouvriersdesde02sociuoft_0462.xml"/> Une personne riche et bienfaisante habitant pendant l'été la com¬mune, et la marraine de la dernière petite fille, ont donné, cette anée, aux enfants des vêtements pour une somme de 23 ᶠ 95.
+        <pb facs="#facs_459" n="456" source="lesouvriersdesde02sociuoft_0462.xml"/>
+        Une personne riche et bienfaisante habitant pendant l'été la com¬mune, et la marraine de la dernière petite fille, ont donné, cette anée, aux enfants des vêtements pour une somme de 23 ᶠ 95.
        </p>
        <p xml:id="para_12_456_113">
         Le jour de la fête de l'Empereur, la famille a reçu 2 kilos de viande de bœuf pour un pot-au-feu, d'une valeur de 2ᶠ20.
@@ -654,56 +768,57 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_12_456_116">
-        TRAVAUX DE L'OUVRIER. — L'ouvrier pioche la craie dans les car¬rières, pour la fabrication du blanc d'Espagne.
-       </p>
-       <p xml:id="para_12_456_117">
-        Cette fabrication consiste à broyer dans un manége avec de l'eau, la craie cassée en fragments, à séparer ensuite par la décantation les deux éléments composant la craie, c'est-à-dire le carbonate de chaux et le sable siliceux.
-       </p>
-       <p xml:id="para_12_456_118">
-        Le sable descend par son poids au fond des cuves ; le carbonate plus léger reste suspendu dans l'eau.
-       </p>
-       <p xml:id="para_12_456_119">
-        L'eau est évacuée, et le carbonate, séché au soleil ou dans des séchoirs à air chaud, constitue ce qu'on appelle le blanc d'Espagne employé à divers usages dans les arts.
-       </p>
-       <p xml:id="para_12_456_120">
-        L'ouvrier ne décharge les bateaux que de loin en loin et quand il est en avance de craie dans la carrière. La rareté des arrivages empêche que le déchargement puisse constituer pour lui une occu¬pation quotidienne et réglée.
-       </p>
-       <p xml:id="para_12_456_121">
-        L'ouvrier gagne, à piocher la craie, 4 ᶠ 40 par jour ; s'il entre¬prend le piochage à la tâche, il peut gagner 4ᶠ 50a 5ᶠ00.
-       </p>
-       <p xml:id="para_12_456_122">
-        Au déchargement des bateaux, l'ouvrier, s'il est à la journée, gagne 0ᶠ50 l'heure, avec la faculté d'aller boire, de deux en deux heures, une gobette (0ᶥ2 de vin) ; à la tâche, cas le plus commun, l'ouvrier est payé à raison de 1ᶠ a 1ᶠ 60 par mille ilos, suivant que le magasin est éloigné du bateau de 10 à 80.
-       </p>
-       <p xml:id="para_12_456_123">
-        Le travail le plus avantageux pour l'ouvrier est le piochage de la craie, parce qu'il est continuel et réglé et qu'il ne lui donne pas, comme le déchargement des bateaux, l'occasion continuelle de s'enivrer. D'ailleurs, le danger constant, dans le piochage, force l'ouvrier à ne travailler que la tête saine, l'eil au guet, la main et le pied lestes, pour éviter les blocs dont la chute ne s'an¬nonce pas.
-       </p>
-       <p xml:id="para_12_456_124">
-        La culture d'un petit champ de 2 ares environ, loué au prix de 1ᶠ 80 l'are, pour y faire des légumes, peut être considéré comme un travail secondaire de l'ouvrier.
-       </p>
+         TRAVAUX DE L'OUVRIER. — L'ouvrier pioche la craie dans les car¬rières, pour la fabrication du blanc d'Espagne.
+        </p>
+        <p xml:id="para_12_456_117">
+         Cette fabrication consiste à broyer dans un manége avec de l'eau, la craie cassée en fragments, à séparer ensuite par la décantation les deux éléments composant la craie, c'est-à-dire le carbonate de chaux et le sable siliceux.
+        </p>
+        <p xml:id="para_12_456_118">
+         Le sable descend par son poids au fond des cuves ; le carbonate plus léger reste suspendu dans l'eau.
+        </p>
+        <p xml:id="para_12_456_119">
+         L'eau est évacuée, et le carbonate, séché au soleil ou dans des séchoirs à air chaud, constitue ce qu'on appelle le blanc d'Espagne employé à divers usages dans les arts.
+        </p>
+        <p xml:id="para_12_456_120">
+         L'ouvrier ne décharge les bateaux que de loin en loin et quand il est en avance de craie dans la carrière. La rareté des arrivages empêche que le déchargement puisse constituer pour lui une occu¬pation quotidienne et réglée.
+        </p>
+        <p xml:id="para_12_456_121">
+         L'ouvrier gagne, à piocher la craie, 4 ᶠ 40 par jour ; s'il entre¬prend le piochage à la tâche, il peut gagner 4ᶠ 50a 5ᶠ00.
+        </p>
+        <p xml:id="para_12_456_122">
+         Au déchargement des bateaux, l'ouvrier, s'il est à la journée, gagne 0ᶠ50 l'heure, avec la faculté d'aller boire, de deux en deux heures, une gobette (0ᶥ2 de vin) ; à la tâche, cas le plus commun, l'ouvrier est payé à raison de 1ᶠ a 1ᶠ 60 par mille ilos, suivant que le magasin est éloigné du bateau de 10 à 80.
+        </p>
+        <p xml:id="para_12_456_123">
+         Le travail le plus avantageux pour l'ouvrier est le piochage de la craie, parce qu'il est continuel et réglé et qu'il ne lui donne pas, comme le déchargement des bateaux, l'occasion continuelle de s'enivrer. D'ailleurs, le danger constant, dans le piochage, force l'ouvrier à ne travailler que la tête saine, l'eil au guet, la main et le pied lestes, pour éviter les blocs dont la chute ne s'an¬nonce pas.
+        </p>
+        <p xml:id="para_12_456_124">
+         La culture d'un petit champ de 2 ares environ, loué au prix de 1ᶠ 80 l'are, pour y faire des légumes, peut être considéré comme un travail secondaire de l'ouvrier.
+        </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_12_457_126">
-        <pb facs="#facs_460" n="457" source="lesouvriersdesde02sociuoft_0463.xml"/> TRAVAUX DE LA FEMME. — La femme consacre son temps aux soins du ménage, à la préparation des aliments, au blanchissage du linge, à la confection des vêtements, à quelques travaux de cou¬ture, au ramassage du cole et au glanage des grappes de raisin dans la saison.
-       </p>
-       <p xml:id="para_12_457_127">
-        Le blanchissage du linge de la famille l'occupe quatre journées pleines par mois. Elle donne son linge à couler au blanchisseur, c'est elle qui l'échange avant le coulage, qui le lave et le repasse.
-       </p>
-       <p xml:id="para_12_457_128">
-        Les travaux de couture qu'elle exécute pour le public ne lui rapportent pas plus de 15ᶠ par an, dérangée qu'elle est à chaque instant par les soins divers mentionnés ci-dessus.
-       </p>
+         <pb facs="#facs_460" n="457" source="lesouvriersdesde02sociuoft_0463.xml"/>
+         TRAVAUX DE LA FEMME. — La femme consacre son temps aux soins du ménage, à la préparation des aliments, au blanchissage du linge, à la confection des vêtements, à quelques travaux de cou¬ture, au ramassage du cole et au glanage des grappes de raisin dans la saison.
+        </p>
+        <p xml:id="para_12_457_127">
+         Le blanchissage du linge de la famille l'occupe quatre journées pleines par mois. Elle donne son linge à couler au blanchisseur, c'est elle qui l'échange avant le coulage, qui le lave et le repasse.
+        </p>
+        <p xml:id="para_12_457_128">
+         Les travaux de couture qu'elle exécute pour le public ne lui rapportent pas plus de 15ᶠ par an, dérangée qu'elle est à chaque instant par les soins divers mentionnés ci-dessus.
+        </p>
        </div>
-       <div type="travaux" subtype="enfants">
+       <div subtype="enfants" type="travaux">
         <p xml:id="para_12_457_129">
-        TRAVAUX DES ENFANTS. — La fille aînée a fini son apprentissage de repasseuse, et, depuis le mois de septembre de l'année dernière, gagne journellement 1ᶠ 25 à 1ᶠ 50. Elle apporte exactement son gain à la maison.
-       </p>
-       <p xml:id="para_12_457_130">
-        La seconde fille est en apprentissage chez une couturière dupays, et doit donner, sans être nourrie, deux ans et demi de son temps pour apprendre l'état.
-       </p>
-       <p xml:id="para_12_457_131">
-        La troisième fille fréquente l'école et aide sa mère dans les soins du ménage et dans le ramassage du cobe. Elle ramasse aussi le fumier sur la voie publique.
-       </p>
+         TRAVAUX DES ENFANTS. — La fille aînée a fini son apprentissage de repasseuse, et, depuis le mois de septembre de l'année dernière, gagne journellement 1ᶠ 25 à 1ᶠ 50. Elle apporte exactement son gain à la maison.
+        </p>
+        <p xml:id="para_12_457_130">
+         La seconde fille est en apprentissage chez une couturière dupays, et doit donner, sans être nourrie, deux ans et demi de son temps pour apprendre l'état.
+        </p>
+        <p xml:id="para_12_457_131">
+         La troisième fille fréquente l'école et aide sa mère dans les soins du ménage et dans le ramassage du cobe. Elle ramasse aussi le fumier sur la voie publique.
+        </p>
        </div>
       </div>
      </div>
@@ -728,7 +843,8 @@
         3° Souper de 7 à 8 heures du soir : il se compose de ce qui reste du plat du dner et d'un peu de fromage de Brie ou de Gruyère, suivant la saison.
        </p>
        <p xml:id="para_12_458_139">
-        <pb facs="#facs_461" n="458" source="lesouvriersdesde02sociuoft_0464.xml"/> La famille boit de l'eau, hormis les jours qui suivent le glanage du raisin, et lorsqu'il vient un parent ou un ami. Dans ce deriier cas on achète du vin au litre au cabaret, au prix de 0ᶠ50 le litre. On ne boit pas d'eau-de-vie.
+        <pb facs="#facs_461" n="458" source="lesouvriersdesde02sociuoft_0464.xml"/>
+        La famille boit de l'eau, hormis les jours qui suivent le glanage du raisin, et lorsqu'il vient un parent ou un ami. Dans ce deriier cas on achète du vin au litre au cabaret, au prix de 0ᶠ50 le litre. On ne boit pas d'eau-de-vie.
        </p>
        <p xml:id="para_12_458_140">
         Il est à remarquer que la famille ne fait pas usage des salades
@@ -742,134 +858,137 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_12_458_142">
-        La famille habite, au second étage d'une maison située dans la rue principale du village, un logement composé de deux pièces et d'un petit grenier.
-       </p>
-       <p xml:id="para_12_458_143">
-        Ce logement, est exposé au nord-est, sain et bien aéré. Il est payé par an 65 francs net de toute charge, versables par trimestre et soumis au congé de six semaines.
-       </p>
-       <p xml:id="para_12_458_144">
-        La famille est heureuse de l'occuper ; elle estime qu'elle ne paie qu'un loyer modéré; et de fait, les ouvriers du pays paient davan¬tage pour des logements ou semblables ou moins convenables. Sous ce rapport elle se trouve presque exceptionnellement logée.
-       </p>
-       <p xml:id="para_12_458_145">
-        L'invasion des maisons de campagne, la transformation des vieilles maisons en maisons bourgeoises, rendent de plus en plus rares et chers les logements d'ouvriers. Dans le pays, la tendance n'est pas à bâtir pour eux.
-       </p>
-       <p xml:id="para_12_458_146">
-        La pièce servant de chambre à coucher a quatre mètres de long sur trois de large ; elle est éclairée par deux fenêtres donnant sur la rue et reçoit un jour suffisant. Le sol est en carreaux de terre et ne présente pas d'humidité. La famille, aurefus dupropriétaire, atapissé cette chambre de papier peint d'une valeur de 0ᶠ30 le rouleau, ce qui lui a occasionné une dépense de 3ᶠ 50.
-       </p>
-       <p xml:id="para_12_458_147">
-        Deux lits sont placés dans la chambre, un pour le père et la mère, avec des rideaux formant alcôve et fermeture ; un pour la fille aînée et la seconde fille. La plus jeune couche dans un berceau.
-       </p>
-       <p xml:id="para_12_458_148">
-        La seconde pièce, servant de cuisine, a deux mètres de large sur quatre de longueur ; elle est également pavée de carreaux de terre. La cheminée est surmontée d'un chambranle en bois. La cuisson des aliments se fait sur un poêle en fonte, dont le tuyau s'enfonce dans le coffre de la cheminée fermé par un paravent ; une fenêtre donnant sur une cour apporte à cette cuisine un jour convenable ; la troisième fille et le petit garçon couchent dans cette cuisine et dans le même lit. On accède à ces deux pièces par un corridor ou palier d'un mètre de long sur 070 de large. La superficie totale de l'habitation est de 20P 70. La hauteur des pièces de 250. Enfin la famille jouit <pb facs="#facs_462" n="459" source="lesouvriersdesde02sociuoft_0465.xml"/> d'un petit grenier placé sous les combles de la maison, et qui lui sert à serrer le coe. Elle n'a pas de cave.
-       </p>
-       <p xml:id="para_12_459_150">
-        La maison, dans son ensemble, est assez mal tenue ; mais il y a de la propreté dans le logement de l'ouvrier.
-       </p>
-       <p xml:id="para_12_459_151">
-        Le mobilier est soigné autant que possible ; en voici le détail et l'estimation :
-       </p>
+         La famille habite, au second étage d'une maison située dans la rue principale du village, un logement composé de deux pièces et d'un petit grenier.
+        </p>
+        <p xml:id="para_12_458_143">
+         Ce logement, est exposé au nord-est, sain et bien aéré. Il est payé par an 65 francs net de toute charge, versables par trimestre et soumis au congé de six semaines.
+        </p>
+        <p xml:id="para_12_458_144">
+         La famille est heureuse de l'occuper ; elle estime qu'elle ne paie qu'un loyer modéré; et de fait, les ouvriers du pays paient davan¬tage pour des logements ou semblables ou moins convenables. Sous ce rapport elle se trouve presque exceptionnellement logée.
+        </p>
+        <p xml:id="para_12_458_145">
+         L'invasion des maisons de campagne, la transformation des vieilles maisons en maisons bourgeoises, rendent de plus en plus rares et chers les logements d'ouvriers. Dans le pays, la tendance n'est pas à bâtir pour eux.
+        </p>
+        <p xml:id="para_12_458_146">
+         La pièce servant de chambre à coucher a quatre mètres de long sur trois de large ; elle est éclairée par deux fenêtres donnant sur la rue et reçoit un jour suffisant. Le sol est en carreaux de terre et ne présente pas d'humidité. La famille, aurefus dupropriétaire, atapissé cette chambre de papier peint d'une valeur de 0ᶠ30 le rouleau, ce qui lui a occasionné une dépense de 3ᶠ 50.
+        </p>
+        <p xml:id="para_12_458_147">
+         Deux lits sont placés dans la chambre, un pour le père et la mère, avec des rideaux formant alcôve et fermeture ; un pour la fille aînée et la seconde fille. La plus jeune couche dans un berceau.
+        </p>
+        <p xml:id="para_12_458_148">
+         La seconde pièce, servant de cuisine, a deux mètres de large sur quatre de longueur ; elle est également pavée de carreaux de terre. La cheminée est surmontée d'un chambranle en bois. La cuisson des aliments se fait sur un poêle en fonte, dont le tuyau s'enfonce dans le coffre de la cheminée fermé par un paravent ; une fenêtre donnant sur une cour apporte à cette cuisine un jour convenable ; la troisième fille et le petit garçon couchent dans cette cuisine et dans le même lit. On accède à ces deux pièces par un corridor ou palier d'un mètre de long sur 070 de large. La superficie totale de l'habitation est de 20P 70. La hauteur des pièces de 250. Enfin la famille jouit
+         <pb facs="#facs_462" n="459" source="lesouvriersdesde02sociuoft_0465.xml"/>
+         d'un petit grenier placé sous les combles de la maison, et qui lui sert à serrer le coe. Elle n'a pas de cave.
+        </p>
+        <p xml:id="para_12_459_150">
+         La maison, dans son ensemble, est assez mal tenue ; mais il y a de la propreté dans le logement de l'ouvrier.
+        </p>
+        <p xml:id="para_12_459_151">
+         Le mobilier est soigné autant que possible ; en voici le détail et l'estimation :
+        </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_12_459_152">
-        MEUBLES : réduits au strict nécessaire............. 558ᶠ05
-       </p>
-       <p xml:id="para_12_459_153">
-        1° Lits. — 1 bois de lit en noyer, 70ᶠ 00; —1 matelas de laine, 40ᶠ 00; — 1 traversin de plume, 9ᶠ 00; — 2 bois de lit pour les enfants, 30ᶠ00; — 3 matelas de laine ; 90ᶠ 00; — 2 matelas de plume commune, 10ᶠ00; — 2 couvertures de laine, 20ᶠ00 ; — 1 couverture de coton, 6ᶠ 00; — 1 berceau en bois, 4ᶠ 00; — 2 paillasses en menu paille, 1ᶠ00; — 1 couverture aite avec de vieux jupons, 0ᶠ75; — 1 paire de rideaux de calicot pour le lit de l'ouvrier et de sa femme, donné par les parents de celle-ci, 20ᶠ 00. — Total 300ᶠ7
-       </p>
-       <p xml:id="para_12_459_155">
-        2° Meubles de la chambre. — 1 armoire en noyer apportée en dot par la femme, 70ᶠ 00 ; — 1 commode en noyer avec dessus de marbre, donnée par la mère de la femme à l'époque du mariage, 60ᶠ00; — 1 table de nuit en noyer, 20ᶠ00; — 6 chaises en noyer, 36ᶠ 00; — 1 paire de rideaux aux 2 fenêtres, 7ᶠ00; — 1 image encadrée (sujet religieux) et 1 chapelet suspendus au-dessus du lit de la fille aînée (mémoire).— Total 19ᶠ00.
-       </p>
-       <p xml:id="para_12_459_156">
-        3° Meubles de la pièce servant de cuisine. —1 bufft en noyer, 50ᶠ00 ;— 1 poêle en fonte avec tuyaux, 12ᶠ 00; — 1 chaise en paille, 1ᶠ 00; — 1 bolte en bois blane, 0ᶠ 50 ; - 2 paniers à charbon, 0ᶠs80. — Total, 6430.
-       </p>
+         MEUBLES : réduits au strict nécessaire............. 558ᶠ05
+        </p>
+        <p xml:id="para_12_459_153">
+         1° Lits. — 1 bois de lit en noyer, 70ᶠ 00; —1 matelas de laine, 40ᶠ 00; — 1 traversin de plume, 9ᶠ 00; — 2 bois de lit pour les enfants, 30ᶠ00; — 3 matelas de laine ; 90ᶠ 00; — 2 matelas de plume commune, 10ᶠ00; — 2 couvertures de laine, 20ᶠ00 ; — 1 couverture de coton, 6ᶠ 00; — 1 berceau en bois, 4ᶠ 00; — 2 paillasses en menu paille, 1ᶠ00; — 1 couverture aite avec de vieux jupons, 0ᶠ75; — 1 paire de rideaux de calicot pour le lit de l'ouvrier et de sa femme, donné par les parents de celle-ci, 20ᶠ 00. — Total 300ᶠ7
+        </p>
+        <p xml:id="para_12_459_155">
+         2° Meubles de la chambre. — 1 armoire en noyer apportée en dot par la femme, 70ᶠ 00 ; — 1 commode en noyer avec dessus de marbre, donnée par la mère de la femme à l'époque du mariage, 60ᶠ00; — 1 table de nuit en noyer, 20ᶠ00; — 6 chaises en noyer, 36ᶠ 00; — 1 paire de rideaux aux 2 fenêtres, 7ᶠ00; — 1 image encadrée (sujet religieux) et 1 chapelet suspendus au-dessus du lit de la fille aînée (mémoire).— Total 19ᶠ00.
+        </p>
+        <p xml:id="para_12_459_156">
+         3° Meubles de la pièce servant de cuisine. —1 bufft en noyer, 50ᶠ00 ;— 1 poêle en fonte avec tuyaux, 12ᶠ 00; — 1 chaise en paille, 1ᶠ 00; — 1 bolte en bois blane, 0ᶠ 50 ; - 2 paniers à charbon, 0ᶠs80. — Total, 6430.
+        </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_12_459_158">
-        USTENSILES : insuffisants pour les besoins les plus ordinaires, sauf quelques objets provenant des cadeaux de noceL........ 107ᶠ 75
-       </p>
-       <p xml:id="para_12_459_159">
-        1° Deendamt du poêle. — 1 crochet en fer pour attiser le feu, 0ᶠ20.
-       </p>
-       <p xml:id="para_12_459_160">
-        2° Employés pour le seroice de ˉl'alimentation. — 1 pot en terre, 1ᶠ25 ; — 8 casseroles en cuivre (cadeau de noces) 80ᶠ 00; — 12 assiettes en terre, 2ᶠ40 ; — 4 plats en terre, 2ᶠ 80; — 1 soupière en terre, 1ᶠ 25 ; — 2 tasses, 0ᶠ60; — 12 cuillers et 7 four¬chettes en métal d'Alger (cadeau de noces), 10ᶠ00; — 1 couteau, 0ᶠ30 ; — 1 bouteille¬litre, 0ᶠ30 ; — 1 tasse, 0ᶠ 20; — (il n'y a pas de verres à boire, on en emprunte quand il vient des amis). Total, 99ᶠ10.
-       </p>
-       <p xml:id="para_12_459_161">
-        3° Employés pour les soins de propreté. — 1 miroir, 0ᶠ 60; — 1 brosse à cheveux en chiendcnt pour les enfants, 0ᶠ 40; (l'ouvrier ne se rase pas lui-même). Total, 1 00.
-       </p>
-       <p xml:id="para_12_459_162">
-        4° Employés pour sages divers. — 2 chandeliers en cuivre, 2ᶠ 50; — 1 parapluie en étoffe de coton, 2ᶠ 95; — 1 panier pour la fille alnée, 2ᶠ 00. — Total, 7ᶠ 45.
-       </p>
+         USTENSILES : insuffisants pour les besoins les plus ordinaires, sauf quelques objets provenant des cadeaux de noceL........ 107ᶠ 75
+        </p>
+        <p xml:id="para_12_459_159">
+         1° Deendamt du poêle. — 1 crochet en fer pour attiser le feu, 0ᶠ20.
+        </p>
+        <p xml:id="para_12_459_160">
+         2° Employés pour le seroice de ˉl'alimentation. — 1 pot en terre, 1ᶠ25 ; — 8 casseroles en cuivre (cadeau de noces) 80ᶠ 00; — 12 assiettes en terre, 2ᶠ40 ; — 4 plats en terre, 2ᶠ 80; — 1 soupière en terre, 1ᶠ 25 ; — 2 tasses, 0ᶠ60; — 12 cuillers et 7 four¬chettes en métal d'Alger (cadeau de noces), 10ᶠ00; — 1 couteau, 0ᶠ30 ; — 1 bouteille¬litre, 0ᶠ30 ; — 1 tasse, 0ᶠ 20; — (il n'y a pas de verres à boire, on en emprunte quand il vient des amis). Total, 99ᶠ10.
+        </p>
+        <p xml:id="para_12_459_161">
+         3° Employés pour les soins de propreté. — 1 miroir, 0ᶠ 60; — 1 brosse à cheveux en chiendcnt pour les enfants, 0ᶠ 40; (l'ouvrier ne se rase pas lui-même). Total, 1 00.
+        </p>
+        <p xml:id="para_12_459_162">
+         4° Employés pour sages divers. — 2 chandeliers en cuivre, 2ᶠ 50; — 1 parapluie en étoffe de coton, 2ᶠ 95; — 1 panier pour la fille alnée, 2ᶠ 00. — Total, 7ᶠ 45.
+        </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_12_459_163">
-        LINGE DE MÉNAGE : insuffisant, témoignant de la pénurie de la fa¬ne . . . ....................... ................. 0ᶠ 00
-       </p>
-       <p xml:id="para_12_459_165">
-        1 nappe reçue en héritage, 10ᶠ00; — torchons, vieilles loques sans valeur appré¬ciables, 0ᶠ 00; — serviettes, point.
-       </p>
+         LINGE DE MÉNAGE : insuffisant, témoignant de la pénurie de la fa¬ne . . . ....................... ................. 0ᶠ 00
+        </p>
+        <p xml:id="para_12_459_165">
+         1 nappe reçue en héritage, 10ᶠ00; — torchons, vieilles loques sans valeur appré¬ciables, 0ᶠ 00; — serviettes, point.
+        </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_12_459_166">
-        VÊTEMENTS : conformes au costume des ouvriers les moins re¬cherchés dans leur mise.......................... 5ᶠ 7)
-       </p>
-       <p xml:id="para_12_459_167">
-        VÊTEMENTS DE L'OUVRIER (145ᶠ10).
-       </p>
-       <p xml:id="para_12_459_168">
-       1° Vêtements du dimanche. — 1 habit en drap noir, acheté pour le mariage, 50t00; — 1 pantalon en drap noir, 20ᶠ00 ; — 1 gilet de soie noire,15ᶠ 00 ; — 1 cravate en sa¬tin, 6tᶠ 00 ; - 1 bourgeron blen (blouse courte), 3ᶠ 00; — 1 chapeau de soie noire, 10ᶠ 00; 1 paire de bottes, 12ᶠ 00; — 2 paires de chaussettes de coton, 0ᶠ 60; — 1 chemise en toile, 3ᶠ00. — Total, 129ᶠ60.
-       </p>
-       <p xml:id="para_12_460_170">
-        <pb facs="#facs_463" n="460" source="lesouvriersdesde02sociuoft_0466.xml"/> 2° Vêtements de travail. — 1 pantalon en velours de coton, 6 00 ; — 1 gilet reçu en cadeau, 1ᶠ 50 ; — 1 casquette, 2ᶠ 00; — 1 paire de chaussons en vieux drap, faits par la femme, 1ᶠ 00; —1 paire de sabots, 0ᶠ 50; — 2 chemises en coton rayé,4ᶠ 50; — Total, 1ᶠ50.
-       </p>
-       <p xml:id="para_12_460_172">
-        VÊTEMENTS DELA FEMME, (156ᶠ 0).
-       </p>
-       <p xml:id="para_12_460_173">
-        1° Vêtements du dimanche. — 1 corsage en laine noire, 5ᶠ 00; — 1 robe de stop noir, confectionnée par la femme, 10ᶠ; — 1 pelisse ouatée en mérinos noir, 25t 00; — 1 cor¬set, 6ᶠ 00; — 3 jupons de calicot, 9ᶠ 00 ; — 1 bonnet de dentelle, du mariage, 40 00; — 1 col brodé, 4ᶠ 00;— 1 paire de bas de laine noire, 2t 00 ; -1 paire de bottines, 2ᶠ 00. — Total, 9900.
-       </p>
-       <p xml:id="para_12_460_176">
-        2° Vêtements de travail. — 1 robe d'indienne, 4 00 ; — 1 tablier d'indienne, 1 50 ; — 6 mouchoirs de tête, 1ᶠ 80 ; — 6 mouchoirs de poche, 1120; — 8 chemises de toile, 18ᶠ 00; — 1 paire de chaussons de lisiêres,1ᶠ00. — Total, 2750.
-       </p>
-       <p xml:id="para_12_460_178">
-        3° Bjoux. — oucles et pendants doreilles, apportés en dot, 30ᶠ 00.
-       </p>
-       <p xml:id="para_12_460_179">
-        VÊTEMENTS DE LA FILLE AINÉE (997); — annonçant le goût de la parure.
-       </p>
-       <p xml:id="para_12_460_180">
-        1 robe de laine (tartanelle), 13ᶠ 00; — 1 robe en étofe de coton, 10ᶠ 00; — 2 robes d'indienne 8ᶠ 00; — 1 tablier de cotonnade, 2ᶠ 00; — 5 jupons de calicot, 12ᶠ50; — 1 jupon en fnette, 5ᶠ 00; — 6 chemises en toile, 18ᶠ00; — 1 paire de bas de laine blanche, 2ᶠ30; — 1 paire de bas de laine noire, 1 25 ; — 2 paires de bas de coton, 1ᶠ 00; — 1 paire de bottines, 6ᶠ 00;— 1 paire de chaussons de lisières, 1ᶠ00; — 1 paire de sabots, 075; —2 mouchoirs, 1ᶠ 00; — 1 bonnet de tulle à rubans, 6ᶠ 00;— 1 bonnet de toile de lin fine, 3ᶠ75 ; — 3 cols, 6ᶠ00. — Total, 99ᶠ7S.
-       </p>
-       <p xml:id="para_12_460_182">
-        VÊTEMENTS DE LA SECONDE FILLE (27ᶠ 60).
-       </p>
-       <p xml:id="para_12_460_183">
-        1 robe d'indienne, reçue en cadeau, 5ᶠ 00 ; — 3 vieilles robes provenant de la sur alnée, ᶠ50 ; — 1 paire de bottines, 4100 ; — 1 paire de chaussons, 1ᶠ 50; — 1 paire de sabots, reçue en cadeau, 0ᶠ80; — 2 bonnets, 3ᶠ 00; — 1 col reçu en cadeau, 1ᶠ 30; — 1 paire de bas de laine, 150 : —1 fchu de cou, 0ᶠ 60; — 1 tablier, 1ᶠ20,; —  chemises de coton, 3ᶠ 00. — Total, 27 60.
-       </p>
-       <p xml:id="para_12_460_184">
-        VÊTEMENTS DE LA TROISIÈME FILLE (8ᶠ7S)..
-       </p>
-       <p xml:id="para_12_460_185">
-        1 robe d'indienne, reçue en cadeau, 2ᶠ 50; — 1 vieille robe de la sœur alnée (mé¬moire); — 2 chemises de coton, 2ᶠ 00; — 1 paire de vieux souliers, 1ᶠ 00— 1 petit bonnet, 1ᶠ25. — Total, 6ᶠ75.
-       </p>
-       <p xml:id="para_12_460_186">
-        VÊTEMENTS DUPETIT GARCON (915).
-       </p>
-       <p xml:id="para_12_460_187">
-        1 petit paletot, reçu en cadeau, 1ᶠ75; — 2 chemises reçues en cadeau, 2 00; ¬1 pantalon ait avec un vieux pantalon du père, 1ᶠ 50; —2 paires de brodequins, 3ᶠ00;  — 1 paire de bas de laine, 0ᶠ90. — Total, 9ᶠ 15.
-       </p>
-       <p xml:id="para_12_460_189">
-        VÊTEMENTS DELA PLUS IEUNE FILLE (10ᶠ 15).
-       </p>
-       <p xml:id="para_12_460_190">
-        3 robes de laine données par la marraine, 6ᶠ 00; — 3 cheœises de coton, 225; — 1 paire de bas de laine, reçue en cadeau, 0ᶠ90 ; — 1 paire de vieux souliers, 1 ᶠ 00. — Total, 101 15. —
-       </p>
+         VÊTEMENTS : conformes au costume des ouvriers les moins re¬cherchés dans leur mise.......................... 5ᶠ 7)
+        </p>
+        <p xml:id="para_12_459_167">
+         VÊTEMENTS DE L'OUVRIER (145ᶠ10).
+        </p>
+        <p xml:id="para_12_459_168">
+         1° Vêtements du dimanche. — 1 habit en drap noir, acheté pour le mariage, 50t00; — 1 pantalon en drap noir, 20ᶠ00 ; — 1 gilet de soie noire,15ᶠ 00 ; — 1 cravate en sa¬tin, 6tᶠ 00 ; - 1 bourgeron blen (blouse courte), 3ᶠ 00; — 1 chapeau de soie noire, 10ᶠ 00; 1 paire de bottes, 12ᶠ 00; — 2 paires de chaussettes de coton, 0ᶠ 60; — 1 chemise en toile, 3ᶠ00. — Total, 129ᶠ60.
+        </p>
+        <p xml:id="para_12_460_170">
+         <pb facs="#facs_463" n="460" source="lesouvriersdesde02sociuoft_0466.xml"/>
+         2° Vêtements de travail. — 1 pantalon en velours de coton, 6 00 ; — 1 gilet reçu en cadeau, 1ᶠ 50 ; — 1 casquette, 2ᶠ 00; — 1 paire de chaussons en vieux drap, faits par la femme, 1ᶠ 00; —1 paire de sabots, 0ᶠ 50; — 2 chemises en coton rayé,4ᶠ 50; — Total, 1ᶠ50.
+        </p>
+        <p xml:id="para_12_460_172">
+         VÊTEMENTS DELA FEMME, (156ᶠ 0).
+        </p>
+        <p xml:id="para_12_460_173">
+         1° Vêtements du dimanche. — 1 corsage en laine noire, 5ᶠ 00; — 1 robe de stop noir, confectionnée par la femme, 10ᶠ; — 1 pelisse ouatée en mérinos noir, 25t 00; — 1 cor¬set, 6ᶠ 00; — 3 jupons de calicot, 9ᶠ 00 ; — 1 bonnet de dentelle, du mariage, 40 00; — 1 col brodé, 4ᶠ 00;— 1 paire de bas de laine noire, 2t 00 ; -1 paire de bottines, 2ᶠ 00. — Total, 9900.
+        </p>
+        <p xml:id="para_12_460_176">
+         2° Vêtements de travail. — 1 robe d'indienne, 4 00 ; — 1 tablier d'indienne, 1 50 ; — 6 mouchoirs de tête, 1ᶠ 80 ; — 6 mouchoirs de poche, 1120; — 8 chemises de toile, 18ᶠ 00; — 1 paire de chaussons de lisiêres,1ᶠ00. — Total, 2750.
+        </p>
+        <p xml:id="para_12_460_178">
+         3° Bjoux. — oucles et pendants doreilles, apportés en dot, 30ᶠ 00.
+        </p>
+        <p xml:id="para_12_460_179">
+         VÊTEMENTS DE LA FILLE AINÉE (997); — annonçant le goût de la parure.
+        </p>
+        <p xml:id="para_12_460_180">
+         1 robe de laine (tartanelle), 13ᶠ 00; — 1 robe en étofe de coton, 10ᶠ 00; — 2 robes d'indienne 8ᶠ 00; — 1 tablier de cotonnade, 2ᶠ 00; — 5 jupons de calicot, 12ᶠ50; — 1 jupon en fnette, 5ᶠ 00; — 6 chemises en toile, 18ᶠ00; — 1 paire de bas de laine blanche, 2ᶠ30; — 1 paire de bas de laine noire, 1 25 ; — 2 paires de bas de coton, 1ᶠ 00; — 1 paire de bottines, 6ᶠ 00;— 1 paire de chaussons de lisières, 1ᶠ00; — 1 paire de sabots, 075; —2 mouchoirs, 1ᶠ 00; — 1 bonnet de tulle à rubans, 6ᶠ 00;— 1 bonnet de toile de lin fine, 3ᶠ75 ; — 3 cols, 6ᶠ00. — Total, 99ᶠ7S.
+        </p>
+        <p xml:id="para_12_460_182">
+         VÊTEMENTS DE LA SECONDE FILLE (27ᶠ 60).
+        </p>
+        <p xml:id="para_12_460_183">
+         1 robe d'indienne, reçue en cadeau, 5ᶠ 00 ; — 3 vieilles robes provenant de la sur alnée, ᶠ50 ; — 1 paire de bottines, 4100 ; — 1 paire de chaussons, 1ᶠ 50; — 1 paire de sabots, reçue en cadeau, 0ᶠ80; — 2 bonnets, 3ᶠ 00; — 1 col reçu en cadeau, 1ᶠ 30; — 1 paire de bas de laine, 150 : —1 fchu de cou, 0ᶠ 60; — 1 tablier, 1ᶠ20,; —  chemises de coton, 3ᶠ 00. — Total, 27 60.
+        </p>
+        <p xml:id="para_12_460_184">
+         VÊTEMENTS DE LA TROISIÈME FILLE (8ᶠ7S)..
+        </p>
+        <p xml:id="para_12_460_185">
+         1 robe d'indienne, reçue en cadeau, 2ᶠ 50; — 1 vieille robe de la sœur alnée (mé¬moire); — 2 chemises de coton, 2ᶠ 00; — 1 paire de vieux souliers, 1ᶠ 00— 1 petit bonnet, 1ᶠ25. — Total, 6ᶠ75.
+        </p>
+        <p xml:id="para_12_460_186">
+         VÊTEMENTS DUPETIT GARCON (915).
+        </p>
+        <p xml:id="para_12_460_187">
+         1 petit paletot, reçu en cadeau, 1ᶠ75; — 2 chemises reçues en cadeau, 2 00; ¬1 pantalon ait avec un vieux pantalon du père, 1ᶠ 50; —2 paires de brodequins, 3ᶠ00;  — 1 paire de bas de laine, 0ᶠ90. — Total, 9ᶠ 15.
+        </p>
+        <p xml:id="para_12_460_189">
+         VÊTEMENTS DELA PLUS IEUNE FILLE (10ᶠ 15).
+        </p>
+        <p xml:id="para_12_460_190">
+         3 robes de laine données par la marraine, 6ᶠ 00; — 3 cheœises de coton, 225; — 1 paire de bas de laine, reçue en cadeau, 0ᶠ90 ; — 1 paire de vieux souliers, 1 ᶠ 00. — Total, 101 15. —
+        </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_12_460_191">
-        VALEUR TOTALE du mobilier et des vêtements.... 1130ᶠ50
-       </p>
+         VALEUR TOTALE du mobilier et des vêtements.... 1130ᶠ50
+        </p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
@@ -877,7 +996,9 @@
         § 11. — RÉCRÉATIONS.
        </head>
        <p xml:id="para_12_460_193">
-        L'ouvrier, comme tous les habitants de la commune, n'a guère d'autre récréation que le cabaret. l fête le lundi et prolonge souvent l'interruption du travail le mardi et le mercredi. Les solennités re¬ligieuses n'existent pas pour lui. Plusieurs fois pendant l'année il va <pb facs="#facs_464" n="461" source="lesouvriersdesde02sociuoft_0467.xml"/> voir, à Meudon, ses anciens compagnons de travail. C'est une occa¬sion de boire deux jours de suite. Le vin, boire du vin, est la préoc¬cupation constante de l'ouvrier. Il en calcule les occasions, il les provoque, il est adroit à les faire naître. S'il survient un ami, on soupe à la maison, on achète en ce cas du vin au cabaret.
+        L'ouvrier, comme tous les habitants de la commune, n'a guère d'autre récréation que le cabaret. l fête le lundi et prolonge souvent l'interruption du travail le mardi et le mercredi. Les solennités re¬ligieuses n'existent pas pour lui. Plusieurs fois pendant l'année il va
+        <pb facs="#facs_464" n="461" source="lesouvriersdesde02sociuoft_0467.xml"/>
+        voir, à Meudon, ses anciens compagnons de travail. C'est une occa¬sion de boire deux jours de suite. Le vin, boire du vin, est la préoc¬cupation constante de l'ouvrier. Il en calcule les occasions, il les provoque, il est adroit à les faire naître. S'il survient un ami, on soupe à la maison, on achète en ce cas du vin au cabaret.
        </p>
        <p xml:id="para_12_461_195">
         Chaque année, à l'occasion de la fin de la vendange, après le gla¬nage du raisin, on convoque les parents et les amis ; sur 40 litres de vin qu'a pu produire le grappillage, ce jour-là on en boit la moitié.
@@ -906,7 +1027,9 @@
         § 12. — PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
        <p xml:id="para_12_461_202">
-        L'ouvrier est né à Meudon en 1819. Son père était maître carrier fabricant de blanc d'Espagne, occupant ouvriers, chevaux et voi¬tures. Il est le cinquième des 10 enfants de la famille. Il a fait à Ver¬sailles, dans sa jeunesse, l'apprentissage de la profession de doreur sur bois. Son patron ayant quitté Versailles, il est revenu chez son père et s'est livré à la fabrication du blanc d'Espagne. Quand le père <pb facs="#facs_465" n="462" source="lesouvriersdesde02sociuoft_0468.xml"/> mourut, il y a quelques années, quatre enfants seulement restaient des 10 qui avaient composé la famille. La succession consistait en une maison et une carrière, à Meudon, d'une valeur de 10,000ᶠ on fixa par un accord amiable la part des enfants à 900ᶠ. La mère conserva la maison, et de plus, les enfants sur leurs parts lui laissè¬rent 1,800ᶠ pour ses besoins. Le cadet des enfants garda la carrière et le commerce de blanc d'Espagne, à charge de rembourser ses frères du montant de leurs droits. Mais après quelque temps d'exploi¬tation, ce dernier devint fou et mourut, et, pour comble de mal¬heur, la carrière fut interdite faute de solidité.
+        L'ouvrier est né à Meudon en 1819. Son père était maître carrier fabricant de blanc d'Espagne, occupant ouvriers, chevaux et voi¬tures. Il est le cinquième des 10 enfants de la famille. Il a fait à Ver¬sailles, dans sa jeunesse, l'apprentissage de la profession de doreur sur bois. Son patron ayant quitté Versailles, il est revenu chez son père et s'est livré à la fabrication du blanc d'Espagne. Quand le père
+        <pb facs="#facs_465" n="462" source="lesouvriersdesde02sociuoft_0468.xml"/>
+        mourut, il y a quelques années, quatre enfants seulement restaient des 10 qui avaient composé la famille. La succession consistait en une maison et une carrière, à Meudon, d'une valeur de 10,000ᶠ on fixa par un accord amiable la part des enfants à 900ᶠ. La mère conserva la maison, et de plus, les enfants sur leurs parts lui laissè¬rent 1,800ᶠ pour ses besoins. Le cadet des enfants garda la carrière et le commerce de blanc d'Espagne, à charge de rembourser ses frères du montant de leurs droits. Mais après quelque temps d'exploi¬tation, ce dernier devint fou et mourut, et, pour comble de mal¬heur, la carrière fut interdite faute de solidité.
        </p>
        <p xml:id="para_12_462_204">
         La mère de l'ouvrier est morte en 1858, avantageant par son tes¬tament les enfants du fils cadet d'environ 2,000ᶠ et laissant 900ᶠ de dettes. La maison qu'elle avait conservée a été vendue 6,000ᶠ, et l'on va plaider sur la portion disponible qu'elle avait droit de donner. En sorte que, tout compte fait, quand la justice aura terminé la liquida¬tion, il ne reviendra à l'ouvrier qu'une faible somme, triste débris pour lui de la fortune paternelle.
@@ -918,7 +1041,9 @@
         La mère avait résisté autant qu'elle avait pu à l'anéantissement de l'établissement qu'elle avait fondé avec son mari. Elle avait testé dans la vue d'aider le cadet, qui conservait le commerce, à se dé¬barrasser des charges qui lui étaient imposées ; mais, par l'effet de la loi, elle n'avait pu y parvenir ; sa volonté était restée impuissante, et, pour avoir voulu autre chose que la loi, elle laissait à ses enfants un procès, cause dernière de la ruine de tous.
        </p>
        <p xml:id="para_12_462_207">
-        Dans le cas présent, et dans tous les cas analogues, la loi des suc¬cessions se charge, au décès du père, de faire descendre les enfants du rang où le père avait fait monter la famille. Elle opère en sens contraire de la civilisation, qui est d'élever ; elle rabaisse. Sans doute, la faculté de tester, et par conséquent la faculté de transmettre à l'un des enfants l'industrie de la famille, ne donne pas au père le pouvoir de placer et de maintenir tous les enfants au rang où lui-même s'était élevé ; mais au moins c'est déjà beaucoup que l'un des enfants continue la situation, le rang et l'importance paternelle. Il reste ainsi un point d'appui pour ceux que le testament n'a pas favorisés : c'est une force laissée à la famille, et, si celle-ci est chré<pb facs="#facs_466" n="463" source="lesouvriersdesde02sociuoft_0469.xml"/>tienne, on aperçoit bien vite le role tutélaire de l'héritier que le père a institué. Dans ce naufrage perpétuel que cause la mort des pères, la faculté de tester sauve au moins quelqu'un. Dans le naufrage dont je parle tout a été englouti.
+        Dans le cas présent, et dans tous les cas analogues, la loi des suc¬cessions se charge, au décès du père, de faire descendre les enfants du rang où le père avait fait monter la famille. Elle opère en sens contraire de la civilisation, qui est d'élever ; elle rabaisse. Sans doute, la faculté de tester, et par conséquent la faculté de transmettre à l'un des enfants l'industrie de la famille, ne donne pas au père le pouvoir de placer et de maintenir tous les enfants au rang où lui-même s'était élevé ; mais au moins c'est déjà beaucoup que l'un des enfants continue la situation, le rang et l'importance paternelle. Il reste ainsi un point d'appui pour ceux que le testament n'a pas favorisés : c'est une force laissée à la famille, et, si celle-ci est chré
+        <pb facs="#facs_466" n="463" source="lesouvriersdesde02sociuoft_0469.xml"/>
+        tienne, on aperçoit bien vite le role tutélaire de l'héritier que le père a institué. Dans ce naufrage perpétuel que cause la mort des pères, la faculté de tester sauve au moins quelqu'un. Dans le naufrage dont je parle tout a été englouti.
        </p>
        <p xml:id="para_12_463_209">
         La femme est née, en 1827, d'ouvriers dans une certaine aisance. Elle a appris dans sa jeunesse l'état de couturière ; mais mariée et mère à 16 ans, elle s'est constamment depuis occupée de ses enfants, et n'a pu qu'à de rares intervalles exercer sa profession.
@@ -1038,8 +1163,8 @@
          (A) ÉTAT DU CULTE DANS LA COMMUNE.
         </head>
         <p xml:id="para_12_475_225">
-         
-       <pb facs="#facs_478" n="475" source="lesouvriersdesde02sociuoft_0481.xml"/>Si l'on considère l'ensemble de la population, voici ce qu'on observe :
+         <pb facs="#facs_478" n="475" source="lesouvriersdesde02sociuoft_0481.xml"/>
+         Si l'on considère l'ensemble de la population, voici ce qu'on observe :
         </p>
         <p xml:id="para_12_475_226">
          La majeure partie des familles bourgeoises, hommes et femmes, fréquentent assidûment l'église. Quelques membres de ces familles pratiquent tous les devoirs de la religion : mais ces familles sont presque étrangères à la commune et n'appartiennent pas réelle¬ment à la population, au milieu de laquelle elles ne séjournent que durant les mois d'été. Elles font partie de ce que les habitants ap¬appellent les horsains, c'est-à-dire gens du dehors.
@@ -1060,7 +1185,9 @@
          Au surplus, ce n'est pas de l'hostilité que rencontre le curé dans le èle vraiment apostolique qu'il déploie,'c'est de l'indifférence ; on ne lui veut point de mal : on le salue à peu près quand il passe ; c'est un vieillard. Il a été reçu avec assez de politesse dans ses visites pastorales, lors de son arrivée dans le pays. Mais, avec tout cela, l'église est déserte, et la moyenne des chrétiens à la messe, curé, enfants de cheur, fidèles tout compris, n'excède pas, pendant lThiver, le nombre de 20 a 25 sur 531 habitnts.
         </p>
         <p xml:id="para_12_475_232">
-         La fabrique n'a ni biens, ni revenus : elle ne peut être riche des <pb facs="#facs_479" n="476" source="lesouvriersdesde02sociuoft_0482.xml"/> dons de parellles ouailles. Mais la commune n'a pas refusé au curé les 200 fr. de supplément accordés presque partout, en France, sur les centimes additionnels.
+         La fabrique n'a ni biens, ni revenus : elle ne peut être riche des
+         <pb facs="#facs_479" n="476" source="lesouvriersdesde02sociuoft_0482.xml"/>
+         dons de parellles ouailles. Mais la commune n'a pas refusé au curé les 200 fr. de supplément accordés presque partout, en France, sur les centimes additionnels.
         </p>
        </div>
        <div n="002" type="sub_sub_section">
@@ -1095,7 +1222,8 @@
          Le vol n'inspire guère de répulsion pour ceux qui l'ont commis. Deux individus du pays ont été condamnés récemment, l'un à 6 mois, l'autre à 2 mois de prison, pour vol sur des bateaux ; ils ont subi leur peine, sont rentrés tranquillement chez eux et boivent au cabaret avec tout le moide. Il semble qu'ils aient éprouvé un simple accident.
         </p>
         <p xml:id="para_12_477_246">
-         <pb facs="#facs_480" n="477" source="lesouvriersdesde02sociuoft_0483.xml"/> Le sentiment militaire est le seul qui semble encore subsister et qui élève l'âme. A l'époque de la conscription, les conscrits vont en corps, tambour et musique en tête, drapeau déployé,'au chef-lieu du canton ; mais ils ne chantent plus comme autrefois ces chansons militaires qui élèvent le cœur des soldats, ils chantent des chansons sales et obscènes, et ces réunions ne sont plus guère qu'un prétexte à quelques jours de plus d'ivrognerie.
+         <pb facs="#facs_480" n="477" source="lesouvriersdesde02sociuoft_0483.xml"/>
+         Le sentiment militaire est le seul qui semble encore subsister et qui élève l'âme. A l'époque de la conscription, les conscrits vont en corps, tambour et musique en tête, drapeau déployé,'au chef-lieu du canton ; mais ils ne chantent plus comme autrefois ces chansons militaires qui élèvent le cœur des soldats, ils chantent des chansons sales et obscènes, et ces réunions ne sont plus guère qu'un prétexte à quelques jours de plus d'ivrognerie.
         </p>
         <p xml:id="para_12_477_247">
          Ce serait une erreur de croire que ces mœurs dépravées n'appar¬tiennent qu'aux ouvriers.
@@ -1119,7 +1247,9 @@
          Il y a des travaux devenus presque impossibles. Les transports, par exemple, reviennent à des prix énormes, à cause de l'ivrognerie et de l'infidélité des charretiers, du mauvais traitement des chevaux. On offre jusqu'à 120ᶠ par mois pour avoir des conducteurs conve¬nables et l'on n'en trouve pas.
         </p>
         <p xml:id="para_12_477_254">
-         Il n'est pas douteux que ces causes réunies n'affectent la produc¬tion d'une manière sensible et n'élèvent le prix des produits fabri¬qués dans d'importantes proportions. C'est ainsi, par exemple, que beaucoup de négociants de Versailles ont abandonné cette localité, <pb facs="#facs_481" n="478" source="lesouvriersdesde02sociuoft_0484.xml"/> qui est leur port naturel, et font effectuer à Sèvres, le débarque¬ment des marchandises qui leur sont expédiées par la navigation de la Seine.
+         Il n'est pas douteux que ces causes réunies n'affectent la produc¬tion d'une manière sensible et n'élèvent le prix des produits fabri¬qués dans d'importantes proportions. C'est ainsi, par exemple, que beaucoup de négociants de Versailles ont abandonné cette localité,
+         <pb facs="#facs_481" n="478" source="lesouvriersdesde02sociuoft_0484.xml"/>
+         qui est leur port naturel, et font effectuer à Sèvres, le débarque¬ment des marchandises qui leur sont expédiées par la navigation de la Seine.
         </p>
         <p xml:id="para_12_478_256">
          Les habitudes vicieuses de la population nécessitent des salaires hors de proportion avec le travail effectué. Il faut payer pour les vices de tous.
@@ -1148,7 +1278,8 @@
          Le déchargement des bateaux se fait par équipes composées de 6 hommes. Deux hommes sont au bateau ; quatre portent. Ue équipe de 6 hommes qui emploie son temps peut décharger, en 10 heures de travail, 27000 kilos de charbon portés à 75 mètres. Chaque porteur transporte donc un fardeau de 6,700 kilos environ dans un panier d'osier de forme allongée, pesant 3 lilos et chargé chaque voyage de 42 kilos de charbon. Le charbon étant porté à 75 mètres, les porteurs parcourent 151 fois cette distance ou
         </p>
         <p xml:id="para_12_479_264">
-         <pb facs="#facs_482" n="479" source="lesouvriersdesde02sociuoft_0485.xml"/> 150 mètres aller et retour et font ainsi, en 10 heures, un trajet de 22,650 mètres. On doit tenir compte aussi du poids des paniers.
+         <pb facs="#facs_482" n="479" source="lesouvriersdesde02sociuoft_0485.xml"/>
+         150 mètres aller et retour et font ainsi, en 10 heures, un trajet de 22,650 mètres. On doit tenir compte aussi du poids des paniers.
         </p>
         <p xml:id="para_12_479_265">
          Le débardage a lieu a l'injure du temps, il est jugé plus pénible que le piochage de la craie qui se fait au fond de la carrière, à cou¬vert et dans une atmosphère toujours semblable.
@@ -1194,10 +1325,15 @@
          La quantité de vin bue par l'ouvrier en dehors de la famille et lui procurant l'ivresse, est loin d'égaler celle qui, régulièrement ré¬partie, assurerait l'entretien convenable des forces. C'est un fait auquelje n'aurais pas cru avant l'observation. Le vice de l'ivrognerie n'est donc pas dans l'abus, au point de vue de la quantité absolue, il est dans la consommation, à un moment donné, d'une quantité hors de rapport avec le besoin présent. Ne craignons pas, au sur¬plus, de constater que la privation du vin à l'ordinaire, dérivant de l'insuffisance des ressources, conduit souvent les ouvriers à cet abus momentané dont l'effêtest d'oblitérer leur sens moral et de les priver de la raison.
         </p>
         <p xml:id="para_12_479_276">
-         Nous avons reconnu que le vin consommé en ivrognerie par l'ou<pb facs="#facs_483" n="480" source="lesouvriersdesde02sociuoft_0486.xml"/>vrier s'élevait à 275 litres par an et coûtait 165 fr
-         <note type="bp"><p>
-          Depuis la récolte le vin a baissé et ne coûte plus que 50 cent, au cabaret; il coûtait précédemment 60 centimes.
-         </p></note>.
+         Nous avons reconnu que le vin consommé en ivrognerie par l'ou
+         <pb facs="#facs_483" n="480" source="lesouvriersdesde02sociuoft_0486.xml"/>
+         vrier s'élevait à 275 litres par an et coûtait 165 fr
+         <note type="bp">
+          <p>
+           Depuis la récolte le vin a baissé et ne coûte plus que 50 cent, au cabaret; il coûtait précédemment 60 centimes.
+          </p>
+         </note>
+         .
          Avec la même somme, beaucoup d'ouvriers plus avisés se procurent 410 litres de vin chez le vigneron. L'écart entre le prix payé au vigneron hors de l'eil du fisc et celui du cabaret est de 20 centimes par litre. Il est donc clair que l'impôt et le cabaret font obstacle à ce que beaucoup d'ouvriers se procurent le vin nécessaire à leur consommation. Dans les années d'abondance une grande partie du vin récolté se vend ainsi au préjudice du fisc età la grande joie de la population.
         </p>
         <p xml:id="para_12_480_278">
@@ -1221,7 +1357,9 @@
          (D) INFLUENCE DE QUELQUES PRINCIPES DE L'ÉCONOMIE POLITIQUE SUR LES RAPPORTS MUTUELS DES MAITRES ET DES OUVRIERS.
         </head>
         <p xml:id="para_12_480_285">
-         Il est certain que les doctrines économiques modernes ont réagi d'une manière fâcheuse sur les rapports des maîtres et des ouvriers <pb facs="#facs_484" n="481" source="lesouvriersdesde02sociuoft_0487.xml"/> et contribué à briser ou relâcher les liens moraux qui les unissaient autrefois.
+         Il est certain que les doctrines économiques modernes ont réagi d'une manière fâcheuse sur les rapports des maîtres et des ouvriers
+         <pb facs="#facs_484" n="481" source="lesouvriersdesde02sociuoft_0487.xml"/>
+         et contribué à briser ou relâcher les liens moraux qui les unissaient autrefois.
         </p>
         <p xml:id="para_12_481_288">
          L'ancien patronage était en certains points l'image de la famille. Le patron se croyait obligé envers l'ouvrier, comme l'ouvrier envers le patron. Il naissait de là une réciprocité d'attachement et de ser¬vices, fondée sur des idées morales de hiérarchie et de devoir.
@@ -1249,7 +1387,9 @@
          Voilà l'antagonisme constitué et les sentiments moraux effacés des rapports de la vie pratique.
         </p>
         <p xml:id="para_12_481_295">
-         Ces maximes économiques se sont rapidement répandues. Elles avaient pour envahir les esprits toutes sortes de facilités. Ellesles trouvaient vides en général de tout sentiment religieux, impatients de toute contrainte morale, et dans cet état de mollesse et de lâ<pb facs="#facs_485" n="482" source="lesouvriersdesde02sociuoft_0488.xml"/>cheté, qui est le fond des sociétés malades ; elles étaient surtout très¬commodes, d'une pratique facile ; elles servaient à merveille les calculs de l'égoisme, elles sont bientôt devenues la règle la plus ordinaire de conduite.
+         Ces maximes économiques se sont rapidement répandues. Elles avaient pour envahir les esprits toutes sortes de facilités. Ellesles trouvaient vides en général de tout sentiment religieux, impatients de toute contrainte morale, et dans cet état de mollesse et de lâ
+         <pb facs="#facs_485" n="482" source="lesouvriersdesde02sociuoft_0488.xml"/>
+         cheté, qui est le fond des sociétés malades ; elles étaient surtout très¬commodes, d'une pratique facile ; elles servaient à merveille les calculs de l'égoisme, elles sont bientôt devenues la règle la plus ordinaire de conduite.
         </p>
         <p xml:id="para_12_482_297">
          A Port-Marly, les chefs des petites industries sont pour la plu¬part imbus, sans d'ailleurs en posséder les formules, de ces doc¬trines économiques. Ils querellent souvent l'ouvrier sur le salaire et l'ouvrier les querelle à son tour, suivant qu'il y a plus ou moins d'ouvrage dans le pays, que les journées sont longues ou courtes, que le temps est beau ou mauvais ; ils montrent à l'ouvrier un véri¬table mépris, n'ont pour lui aucune parole d'amitié et de leur côté, plus vicieux que leurs ouvriers, ils n'en reçoivent non plus aucune considération.
@@ -1281,7 +1421,9 @@
          <ref target="#" type="renvoi_ext_oe">
           (les ˉOuv. ˉeuropˉ. XV, XXI, XXXII)
          </ref>
-         , parvenant à l'épargne à l'aide du travail et des privations, <pb facs="#facs_486" n="483" source="lesouvriersdesde02sociuoft_0489.xml"/> quelles que soient d'ailleurs les charges que leur impose la famille. Mais le nombre de ces natures d'élite diminue de plus en plus parmi les 'ouvriers que ne soutiennent pas certaines influences morales
+         , parvenant à l'épargne à l'aide du travail et des privations,
+         <pb facs="#facs_486" n="483" source="lesouvriersdesde02sociuoft_0489.xml"/>
+         quelles que soient d'ailleurs les charges que leur impose la famille. Mais le nombre de ces natures d'élite diminue de plus en plus parmi les 'ouvriers que ne soutiennent pas certaines influences morales
          <ref target="#ID-017" type="renvoi_int_od2m">
           [N° 17 (B)]
          </ref>
@@ -1300,7 +1442,9 @@
          La famille, voilà l'institution toute faite qui ne demande aucun secours à personne et n'a pas besoin du concours de l'État. C'est à cette institution si intimement liée à la nature de l'homme qu'il faut surtout demander, pour l'avenir, les moyens de réformer le déplo¬rable état de choses que je viens de signaler. Il ne faudrait pas trop compter sur les établissements de prévoyance que de généreuses pensées portent l'État et les particuliers à créer. Leur intervention, si utile aujourd'hui pour déterminer une réaction nécessaire au salut public, ne peut être qu'un palliatif temporaire.
         </p>
         <p xml:id="para_12_483_309">
-         Nous sommes voisins de l'hospice des nvalides civils, construit récemment dans le bois du Vésinet, nous le voyons qui développe <pb facs="#facs_487" n="484" source="lesouvriersdesde02sociuoft_0490.xml"/> à notre horizon prochain sa large façade ; les ouvriers qui ont le mieux conservé la trace des anciens sentiments d'honneur n'en aiment pas la vue. Ne se rendant pas compte des hautes vues de bien public qui ont provoqué cette fondation, ils en parlent peu: s'ils le font, c'est plutôt avec une sorte d'amertume. A leurs yeux, c'est le refuge de la paresse ; il seraithonteux, disent-ils, de porter l'uniforme de la mendicité après avoir presqûe tous porté l'uni¬forme du soldat. Il faut mourir chez soi, sur le lit où l'on a dormi toute sa vie, au milieu des siens et point des étrangers.
+         Nous sommes voisins de l'hospice des nvalides civils, construit récemment dans le bois du Vésinet, nous le voyons qui développe
+         <pb facs="#facs_487" n="484" source="lesouvriersdesde02sociuoft_0490.xml"/>
+         à notre horizon prochain sa large façade ; les ouvriers qui ont le mieux conservé la trace des anciens sentiments d'honneur n'en aiment pas la vue. Ne se rendant pas compte des hautes vues de bien public qui ont provoqué cette fondation, ils en parlent peu: s'ils le font, c'est plutôt avec une sorte d'amertume. A leurs yeux, c'est le refuge de la paresse ; il seraithonteux, disent-ils, de porter l'uniforme de la mendicité après avoir presqûe tous porté l'uni¬forme du soldat. Il faut mourir chez soi, sur le lit où l'on a dormi toute sa vie, au milieu des siens et point des étrangers.
         </p>
         <p xml:id="para_12_484_311">
          Revenons donc à la règle simple et claire de l'Évangile. Aime .et respecte vos parents. Tout est là. Une famille nombreuse et dont les membres s'unissent entre eux sera toujours à l'abri du besoin.
@@ -1323,7 +1467,8 @@
          Les ouvriers nomades venant isolément et à toutes les époques de l'année sont, au contraire, presque toujours chassés de leur pays par leurs vices, leurs méfaits, leur inconduite. Ce sont eux sur¬tout qui contribuent à introduire, dans cette partie de la banlieue. les déplorables caractères de démoralisation que j'ai signalés dans la présente monographie.
         </p>
         <p xml:id="para_12_485_317">
-         <pb facs="#facs_488" n="485" source="lesouvriersdesde02sociuoft_0491.xml"/> Il n'est pas sans intérêt de constater les habitudes et les mœurs des ouvriers de l'émigration périodique et de les comparer aux ha¬bitudes et aux mœurs des ouvriers sédentaires.
+         <pb facs="#facs_488" n="485" source="lesouvriersdesde02sociuoft_0491.xml"/>
+         Il n'est pas sans intérêt de constater les habitudes et les mœurs des ouvriers de l'émigration périodique et de les comparer aux ha¬bitudes et aux mœurs des ouvriers sédentaires.
         </p>
         <p xml:id="para_12_485_318">
          Parmi tous, les bas Bretons présentent un caractère tranché qui mérite l'observation.
@@ -1353,7 +1498,9 @@
          On peut dire ce me semble avec vérité que le peuple qui travaille le plus et à meilleur marché est celui auquel des habitudes réglées et de bonnes mœurs communiquent, dès la jeunesse, une santé ro¬buste et une vigueur native.
         </p>
         <p xml:id="para_12_485_327">
-         Je trouve faux en partie et essentiellement matérialiste l'axiome <pb facs="#facs_489" n="486" source="lesouvriersdesde02sociuoft_0492.xml"/> de l'économie politique qui, sans tenir compte des influences morales che les hommes, proportionne simplement la puissance du travail à la quantité des aliments consommés.
+         Je trouve faux en partie et essentiellement matérialiste l'axiome
+         <pb facs="#facs_489" n="486" source="lesouvriersdesde02sociuoft_0492.xml"/>
+         de l'économie politique qui, sans tenir compte des influences morales che les hommes, proportionne simplement la puissance du travail à la quantité des aliments consommés.
         </p>
         <p xml:id="para_12_486_329">
          Les Manceaux ont souvent les mêmes qualités que les Bretons ; plus de taille et de force physique. On retrouve aussi chez eux le sentiment du devoir et les traces de l'éducation chrétienne.
@@ -1376,10 +1523,14 @@
          J'ai vivement signalé la démoralisation qui règne dans la com¬mune que j'habite : il me paraît en effet que la connaissance du mal est le plus sûr moyen de provoquer le remède. Cette conclusion est évidente pour ces réformes qu'un peuple libre ne peut deman¬der ni à la loi ni au gouvernement, et qui ne peuvent être accom¬plies que par la force des mœurs, c'est-à-dire par l'initiative intel¬ligente des gens de bien. Je suis convaincu d'ailleurs qu'une foule d'hommes, plongés aujourd'hui dans la quiétude ou l'indifférence, se dévoueront à cette mission dès que les faits leur seront connus. Beaucoup de symptômes qui se produisent autour de nous ne lais¬sent aucun doute à cet êgard. Peut-être même est-il permis d'affir¬mer que les funestes influences qui agissent depuis deux siècles dans la banlieue de Paris, sont déjà contre-balancées par des influences contraires et qui grandissent chaque jour. Encore quelques efforts, et la cause de la civilisation sera définitivement gagnée contre l'in¬vasion inattendue d'une barbarie sans nom et sans précédentsl
         </p>
         <p xml:id="para_12_486_336">
-         Le mal présent date malheureusement de loin : il est dû surtot à ce que, pendant toute la durée du xvr siècle, les classes supé<pb facs="#facs_490" n="487" source="lesouvriersdesde02sociuoft_0493.xml"/>rieures ont donné à leurs subordonnés l'exemple du scepticisme et des mauvaises mœurs. Les ouvriers continuent à pratiquer ce que les patrons leur ont enseigné jusqu'à l'époque, encore récente, où de graves épreuves ont révélé à tous les hommes itelligents le danger de l'impulsion imprimée aux esprits depuis le règne funeste de Louis XIV. Cette situation changera dès que les classes supé¬rieures, après s'être réformées elles-mêmes, donneront de nouveau l'exemple de la religion et des bonnes mœurs. Le passé et l'avenir de cette commune, où l'on retrouve, à beaucoup d'égards, le tableau delaFrance entière, se résumentdans un fait significatif: pendant le XVe siècle, au contact
-         <note type="bp"><p>
-          Le château de Marly, séjour fréquent de ces souverains, est situé à 2 kilomètres de l'église de Port-Marly.
-         </p></note>
+         Le mal présent date malheureusement de loin : il est dû surtot à ce que, pendant toute la durée du xvr siècle, les classes supé
+         <pb facs="#facs_490" n="487" source="lesouvriersdesde02sociuoft_0493.xml"/>
+         rieures ont donné à leurs subordonnés l'exemple du scepticisme et des mauvaises mœurs. Les ouvriers continuent à pratiquer ce que les patrons leur ont enseigné jusqu'à l'époque, encore récente, où de graves épreuves ont révélé à tous les hommes itelligents le danger de l'impulsion imprimée aux esprits depuis le règne funeste de Louis XIV. Cette situation changera dès que les classes supé¬rieures, après s'être réformées elles-mêmes, donneront de nouveau l'exemple de la religion et des bonnes mœurs. Le passé et l'avenir de cette commune, où l'on retrouve, à beaucoup d'égards, le tableau delaFrance entière, se résumentdans un fait significatif: pendant le XVe siècle, au contact
+         <note type="bp">
+          <p>
+           Le château de Marly, séjour fréquent de ces souverains, est situé à 2 kilomètres de l'église de Port-Marly.
+          </p>
+         </note>
          des orgies du Régent et de Louis XV, l'é¬glise de la commune n'était guère fréquentée que par les classes ouvrières qui conservaient seules dans cette localité le dépôt de la foi religieuse, tandis qu'aujourd'hui on n'y voit plus entrer que quelques personnes appartenant à la classe bourgeoise
          <ref target="#part_03_01_17" type="renvoi_int_mono">
           (A)
@@ -1405,7 +1556,9 @@
          <ref target="#part_03_01_20" type="renvoi_int_mono">
           (D)
          </ref>
-         la propension que montrent encore les ouvriers de cette malheureuse commune vers la religion et le patronage : il ne dépend donc que de nous d'y hâter, par le bon exemple, les réformes qui se manifestent déjà, sous ces influences, dans plusieurs autres communes de la banlieue de Paris. Il serait à désirer qu'une Monographie concernant l'ue deces communes vint offrir la contre-partie du tableau que j'aitracé.Sans exagérer la portée des institutions philanthropiques et religieuses qui fonctionnent avec succès dans la banlieue de Paris, tout en constatant qu'on ne peut y voir une organisation <pb facs="#facs_491" n="488" source="lesouvriersdesde02sociuoft_0494.xml"/> définitive, et qu'elles ne suppléeront jamais à l'influence de la famille chrétienne dirigeant fermement ses propres membres, on peut aujourd'hui attendre un grand secours des œuvres qu'elles accom¬plissent. Déjà une Monographie a constaté le bien opéré dans la commune de Clichy-la-Garenne, par la Société de Saint-Vincent¬de-Paul
+         la propension que montrent encore les ouvriers de cette malheureuse commune vers la religion et le patronage : il ne dépend donc que de nous d'y hâter, par le bon exemple, les réformes qui se manifestent déjà, sous ces influences, dans plusieurs autres communes de la banlieue de Paris. Il serait à désirer qu'une Monographie concernant l'ue deces communes vint offrir la contre-partie du tableau que j'aitracé.Sans exagérer la portée des institutions philanthropiques et religieuses qui fonctionnent avec succès dans la banlieue de Paris, tout en constatant qu'on ne peut y voir une organisation
+         <pb facs="#facs_491" n="488" source="lesouvriersdesde02sociuoft_0494.xml"/>
+         définitive, et qu'elles ne suppléeront jamais à l'influence de la famille chrétienne dirigeant fermement ses propres membres, on peut aujourd'hui attendre un grand secours des œuvres qu'elles accom¬plissent. Déjà une Monographie a constaté le bien opéré dans la commune de Clichy-la-Garenne, par la Société de Saint-Vincent¬de-Paul
          <ref target="#" type="renvoi_ext_oe">
           [les ˉOuvˉ. ˉeuropˉ. XXXV, §13]
          </ref>

@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 4 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_86">
@@ -384,9 +454,11 @@
      </p>
      <p xml:id="para_8_83_3">
       DU NING-PO-FOU
-      <note type="bp"><p>
-       Cette monographie a été entièrement rédigée à Paris sur les déclarations d'un membres de la famille, établi actuellemeut rue Tronchet, n° 6, au magasin chinois. Ouang-tching-yong a toujours vécu en Chine, mais il a quitté depuis 16 ans la maison paternelle. Bien qu'il y soit retourné plusieurs fois, il a du faire des efforts de mémoire prodigieux pour répondre aux questions qui lui étaient adressées. Il a donné ainsi une preuve de cette aptitude à conserver le souveuir des faits que l'auteur considère comme un des caractères de l'intelligence chinoise. Les circonstances au milieu desquelles a été faite cette monographie justifieraient au besoin les erreurs de détail qui pourraient exister dans les budgets. Cependant, comme tous les moyens de vérification ont été employés et comme ils ont permis d'arriver à une balance exacte et à une harmonie convenable entre les chiffres des recettes et des dépenses, il n'y a pas lieu de soupçonner d'erreur grave, ni même de considérer, en dehors d'une enquête directe, tel ou tel nombre comme faux. Le primcipal résultat de cette étude à distance, la première de ce genre qui ait été publiée, est, suivant l'auteur, de prouver la puissance et la fécondité de la méthode d'observation adoptée par la Société d'économie sociale. Les seules ressources de cette méthode ont permis, en effet, de faire revivre dans cet écrit une génération éteinte depuis plusieurs années sur les côtes de la mer Orientale.
-      </p></note>
+      <note type="bp">
+       <p>
+        Cette monographie a été entièrement rédigée à Paris sur les déclarations d'un membres de la famille, établi actuellemeut rue Tronchet, n° 6, au magasin chinois. Ouang-tching-yong a toujours vécu en Chine, mais il a quitté depuis 16 ans la maison paternelle. Bien qu'il y soit retourné plusieurs fois, il a du faire des efforts de mémoire prodigieux pour répondre aux questions qui lui étaient adressées. Il a donné ainsi une preuve de cette aptitude à conserver le souveuir des faits que l'auteur considère comme un des caractères de l'intelligence chinoise. Les circonstances au milieu desquelles a été faite cette monographie justifieraient au besoin les erreurs de détail qui pourraient exister dans les budgets. Cependant, comme tous les moyens de vérification ont été employés et comme ils ont permis d'arriver à une balance exacte et à une harmonie convenable entre les chiffres des recettes et des dépenses, il n'y a pas lieu de soupçonner d'erreur grave, ni même de considérer, en dehors d'une enquête directe, tel ou tel nombre comme faux. Le primcipal résultat de cette étude à distance, la première de ce genre qui ait été publiée, est, suivant l'auteur, de prouver la puissance et la fécondité de la méthode d'observation adoptée par la Société d'économie sociale. Les seules ressources de cette méthode ont permis, en effet, de faire revivre dans cet écrit une génération éteinte depuis plusieurs années sur les côtes de la mer Orientale.
+       </p>
+      </note>
      </p>
      <p xml:id="para_8_83_4">
       (PROVINCE DE TCHÉ-KIAN — CHINE)
@@ -404,7 +476,9 @@
       PAR
      </p>
      <p xml:id="para_8_83_7">
-      <persName>OUANG-TCHING-YONG</persName>
+      <persName>
+       OUANG-TCHING-YONG
+      </persName>
      </p>
      <p xml:id="para_8_83_8">
       l'un des membres de la famille
@@ -416,7 +490,11 @@
       PAR
      </p>
      <p xml:id="para_8_83_9">
-      M. <persName>L. DONNAT</persName>, ingénieur civil des mines.
+      M.
+      <persName>
+       L. DONNAT
+      </persName>
+      , ingénieur civil des mines.
      </p>
     </div>
     <div n="002" type="section">
@@ -435,7 +513,10 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_8_83_16">
-        <pb facs="#facs_86" n="83" xml:id="lesouvriersdesde04sociuoft_0089.xml"/> Le village d'Ouang-fou, qu'habite la famille, est à 2,600m au sud-ouest de Ning-pô. Cette ville, située par 32° 12' de latitude nord et par 118° 01' de longitude est (Klaproth), est, après Hang-<pb facs="#facs_87" n="84" xml:id="lesouvriersdesde04sociuoft_0090.xml"/>tchéou, la plus importante de la province (Sang) de Tché-kian. Elle a 8,000m de circonférence, une population de 300,000 âmes, et elle n'est qu'à 24km de la mer Orientale (Toung-hai), à laquelle la relie un canal navigable, formé par le confluent de deux rivières, assez large et assez profond pour porter des vaisseaux de 200 ton¬neaux. Ning-pô est un des cinq ports ouverts au commerce de l'Europe par le traité anglais de Nan-king (27 octobre 1842).
+        <pb facs="#facs_86" n="83" xml:id="lesouvriersdesde04sociuoft_0089.xml"/>
+        Le village d'Ouang-fou, qu'habite la famille, est à 2,600m au sud-ouest de Ning-pô. Cette ville, située par 32° 12' de latitude nord et par 118° 01' de longitude est (Klaproth), est, après Hang-
+        <pb facs="#facs_87" n="84" xml:id="lesouvriersdesde04sociuoft_0090.xml"/>
+        tchéou, la plus importante de la province (Sang) de Tché-kian. Elle a 8,000m de circonférence, une population de 300,000 âmes, et elle n'est qu'à 24km de la mer Orientale (Toung-hai), à laquelle la relie un canal navigable, formé par le confluent de deux rivières, assez large et assez profond pour porter des vaisseaux de 200 ton¬neaux. Ning-pô est un des cinq ports ouverts au commerce de l'Europe par le traité anglais de Nan-king (27 octobre 1842).
        </p>
        <p xml:id="para_8_84_17">
         Le village d'Ouang-fou, comme Ning-pô, lait partie d'une pres¬qu'ile dont le sol argileux et hmide est sillonné par des cours d'eau naturels et par de nombreux canaux. Au nord-ouest de ing-pe, s'étend le lac Si-hou, qui a 8 de circonférence et qui est si célèbre dans les traditions chinoises, tandis qu'en arrière de cette ville toute la partie méridionale du Tché-kian est couverte de montagnes, qui se rattachent aux cimes élevées du o-lien, et qui sont cultivées de la base au sommet par l'industrie laborieuse des habitants.
@@ -447,7 +528,9 @@
         Les productions du pays habité par la famille dérivent de son sol et de son climat. La nature trop humide du terrain exclut le blé
        </p>
        <p xml:id="para_8_84_21">
-        exister dans les budgets. Cependant, comme tous les moyens de vérifîcation ont éte8 employés et comme ils ont permis d'arriver à une balance exacte et à une harmonie convenable entre les chilres des recettes et des dépenses. il n'y a pas lieu de soup¬̧onner d'erreur grave, ni même de considérer, en dehors d'une enquète directe, tel ou tel nombrecomme faux. Le priucipal résultat de cette étude d distance, la première de ce genre qui ait été publiee. est, suivant l'auteur, de prouver la puissaunce et la fécondité de la méthode d'obhservation adopée par la Société d'économie sociale. Les seules res¬sources de cette méthode ont permis, en effet, de faire revivre dans cet écrit une ǵné¬ration éteinte depuis plusieurs années sur les côtes de la mer Orientale <pb facs="#facs_88" n="85" xml:id="lesouvriersdesde04sociuoft_0091.xml"/> presque complétement, tandis que sa nature trop argileuse em¬pêche la culture de l'arbre à thé, qui exige un sol léger et sablon¬neux. La production la plus importante est le riz ; mais l'été, déjà trop court pour permettre deux récoltes successives, oblige le cul¬tivateur à planter, quelques semaines après la première plantation et dans les intervalles, d'autres jeunes pieds de riz qui lui donne¬ront une seconde récolte deux mois après la première. Outre le riz, la localité produitencore l'orge, les fèves, les pois, l'igname, etc. Les animaux domestiques sont les bufles, les bœufs, les porcs et les chèvres. Les bufles sont employés aux travaux de labour; les chèvres ne sont point élevées pour leur lait, mais pour les chevreaux qu'on engraisse et qu'on mange. Il n'y a pas plus de gibier sur ce sol inondé toute l'année, que de forêts dans un pays où la terre est insuffisante pour nourrir ses habitants.
+        exister dans les budgets. Cependant, comme tous les moyens de vérifîcation ont éte8 employés et comme ils ont permis d'arriver à une balance exacte et à une harmonie convenable entre les chilres des recettes et des dépenses. il n'y a pas lieu de soup¬̧onner d'erreur grave, ni même de considérer, en dehors d'une enquète directe, tel ou tel nombrecomme faux. Le priucipal résultat de cette étude d distance, la première de ce genre qui ait été publiee. est, suivant l'auteur, de prouver la puissaunce et la fécondité de la méthode d'obhservation adopée par la Société d'économie sociale. Les seules res¬sources de cette méthode ont permis, en effet, de faire revivre dans cet écrit une ǵné¬ration éteinte depuis plusieurs années sur les côtes de la mer Orientale
+        <pb facs="#facs_88" n="85" xml:id="lesouvriersdesde04sociuoft_0091.xml"/>
+        presque complétement, tandis que sa nature trop argileuse em¬pêche la culture de l'arbre à thé, qui exige un sol léger et sablon¬neux. La production la plus importante est le riz ; mais l'été, déjà trop court pour permettre deux récoltes successives, oblige le cul¬tivateur à planter, quelques semaines après la première plantation et dans les intervalles, d'autres jeunes pieds de riz qui lui donne¬ront une seconde récolte deux mois après la première. Outre le riz, la localité produitencore l'orge, les fèves, les pois, l'igname, etc. Les animaux domestiques sont les bufles, les bœufs, les porcs et les chèvres. Les bufles sont employés aux travaux de labour; les chèvres ne sont point élevées pour leur lait, mais pour les chevreaux qu'on engraisse et qu'on mange. Il n'y a pas plus de gibier sur ce sol inondé toute l'année, que de forêts dans un pays où la terre est insuffisante pour nourrir ses habitants.
        </p>
        <p xml:id="para_8_85_22">
         Ouang-fou est un des cinq villages (Tong-fou, Tching- fou, Tcheou-fou, Ouang-fou, Si-fou) réunis autour de la pagode boud¬dhiste de Ouei-tung-se. Cette agglomération fait partie du tou de Li-che-tou-ni-dou, qui forme lui-même avec trois autres (Li¬che-tou-sin-dou, Li-che-tou-sze-dou, Li-che-tou-ou-dou) le dis¬trict de Ning-hien. Ce district est un de ceux qui composent le Ning-pô-fou, dont la ville principale est Ning-pô et qui constitue une des grandes divisions de la province du Teché-lian
@@ -467,7 +550,9 @@
         La population de Ouan-fou est d'environ 120 familles, qui, à 5 membres par famille, forment une otal de 600 habitants. Cette population est entièrement formée de cultivateurs. Elle se décom¬pose à peu près de la manière suivante :
        </p>
        <p xml:id="para_8_85_26">
-        60 familles de paysans proprement dits, qui exploitent à leur propre compte leurs champs de riz, leur jardin potager et diverses industries accessoires ; <pb facs="#facs_89" n="86" xml:id="lesouvriersdesde04sociuoft_0092.xml"/> 30 familles de fermiers, qui cultivent les terres d'autrui, moyen¬nant un loyer annuel en argent de 250 à 300ᶠ ou une redevance en nature de 3,000ᶠ de ri par hectare ;
+        60 familles de paysans proprement dits, qui exploitent à leur propre compte leurs champs de riz, leur jardin potager et diverses industries accessoires ;
+        <pb facs="#facs_89" n="86" xml:id="lesouvriersdesde04sociuoft_0092.xml"/>
+        30 familles de fermiers, qui cultivent les terres d'autrui, moyen¬nant un loyer annuel en argent de 250 à 300ᶠ ou une redevance en nature de 3,000ᶠ de ri par hectare ;
        </p>
        <p xml:id="para_8_86_27">
         24 familles de journaliers propriétaires et d'ouvriers domes¬tiques : les premiers possèdent quelques ares de terrain et louent en outre le travail de leurs bras pour la culture du sol ; ils gagnent 0ᶠ 30 a 0ᶠ35 par jour et la nourriture; les seconds sont attachés aux exploitations agricoles et sont payés 40 à 50ᶠ par an, en sus de la nourriture et du logement ;
@@ -483,9 +568,11 @@
        <!--Individus cités : Si-Tseu-Ouang-men  (n°030aE1) - Vi-jun (Tra-bin)  (n°030aE2) - Hou-tseu-Ouang-men  (n°030aE3) - Tching-jiou (A-tchu)  (n°030aE4) - Tching-yong (Yé-hon)  (n°030aE5) - Tching-hoa (A-léan)  (n°030aE6) - Mor-deu-dà  (n°030aE7) - Mor-deu-siô  (n°030aE8) - A-lin  (n°030aE9) - Vi-meu (A-ni)  (n°030aE10) - Si-tseu-Ouang-men  (n°030aE11) - Tching-hao (Yen-fong)  (n°030aE12) - Tching-fou (Yé-niu)  (n°030aE13) - Tchun-lé  (n°030aE14) - Vi-tchou (A-chiô)  (n°030aE15) - Hou-tseu-Ouang-men  (n°030aE16) - Tching-Koné (Chin-fâ)  (n°030aE17) - Tching-yen (A-tchun)  (n°030aE18)-->
        <head type="sub_sub_section" xml:id="part_02_01_02">
         § 2. — ÉTAT CIVIL DE LA FAMILLE
-        <note type="bp"><p>
-         Cet état civil se rapporte à la famille telle qu'elle était constituée en 1843.
-        </p></note>
+        <note type="bp">
+         <p>
+          Cet état civil se rapporte à la famille telle qu'elle était constituée en 1843.
+         </p>
+        </note>
         .
        </head>
        <p xml:id="para_8_86_31">
@@ -495,61 +582,134 @@
         La communauté comprend en réalité dix-huit personnes ; il est vrai qu'un des membres travaille ordinairement à Ning-pô ; mais il contribue aux recettes et aux dépenses de la famille. Il existe dans le pays des communautés plus nombreuses qui renferment jusqu'à 35 et 40 membres. Dans un des cinq villages de Ouei-tung-sze, il en est une qui comprend, outre les grands parents, 9 fils avec leurs femmes et 23 petits-enfants.
        </p>
        <p>
-        <pb facs="#facs_90" n="87" xml:id="lesouvriersdesde04sociuoft_0093.xml"/> Les dix-huit personnes forment trois ménages. Leur nom, leur âge et leurs relations de parenté sont indiqués dans le tableau suivant :
+        <pb facs="#facs_90" n="87" xml:id="lesouvriersdesde04sociuoft_0093.xml"/>
+        Les dix-huit personnes forment trois ménages. Leur nom, leur âge et leurs relations de parenté sont indiqués dans le tableau suivant :
        </p>
        <p xml:id="para_8_87_35">
-        1. <persName>SI-TSEU-OUANG-MEN</persName>, chef de la famille, veuve de Ouang-Tson-Tchong, décédé depuis 32 ans à l'age de 59 ans............ 90 ans.
+        1.
+        <persName>
+         SI-TSEU-OUANG-MEN
+        </persName>
+        , chef de la famille, veuve de Ouang-Tson-Tchong, décédé depuis 32 ans à l'age de 59 ans............ 90 ans.
        </p>
        <p xml:id="para_8_87_37">
-        2. <persName>VI-JUN</persName> (Tra-bin), son fils aîné, maître de maison, cultivateur comme son père............ 51 —.
+        2.
+        <persName>
+         VI-JUN
+        </persName>
+        (Tra-bin), son fils aîné, maître de maison, cultivateur comme son père............ 51 —.
        </p>
        <p xml:id="para_8_87_39">
-        3. <persName>HOU-TSEU-OUANG-MEN</persName>, sa femme, maîtresse de maison, mariée depuis 17 ans............ 43 —
+        3.
+        <persName>
+         HOU-TSEU-OUANG-MEN
+        </persName>
+        , sa femme, maîtresse de maison, mariée depuis 17 ans............ 43 —
        </p>
        <p xml:id="para_8_87_41">
-        4. <persName>Tching-jiou</persName> (A-tchu), 1ᵉʳ fils de Vi-jun............ 15 —
+        4.
+        <persName>
+         Tching-jiou
+        </persName>
+        (A-tchu), 1ᵉʳ fils de Vi-jun............ 15 —
        </p>
        <p xml:id="para_8_87_42">
-        S. <persName>Tching-yong</persName> (Yé-hon), 2ᵉ fils de Vi-jun............ 12 —
+        S.
+        <persName>
+         Tching-yong
+        </persName>
+        (Yé-hon), 2ᵉ fils de Vi-jun............ 12 —
        </p>
        <p xml:id="para_8_87_43">
-        6. <persName>Tching-hoa</persName> (A-léan), 3ᵉ fils de Vi-jun............ 9 —
+        6.
+        <persName>
+         Tching-hoa
+        </persName>
+        (A-léan), 3ᵉ fils de Vi-jun............ 9 —
        </p>
        <p xml:id="para_8_87_44">
-        7. <persName>Mor-deu-dâ</persName>, 1ᵉʳ fille de Vi-jun............ 7 —
+        7.
+        <persName>
+         Mor-deu-dâ
+        </persName>
+        , 1ᵉʳ fille de Vi-jun............ 7 —
        </p>
        <p xml:id="para_8_87_45">
-        8. <persName>Mor-deu-siô</persName>, 2ᵉ fille de Vi-jun............ 5 —
+        8.
+        <persName>
+         Mor-deu-siô
+        </persName>
+        , 2ᵉ fille de Vi-jun............ 5 —
        </p>
        <p xml:id="para_8_87_46">
-        9. <persName>A-lin</persName>, 3ᵉ fille de Vi-jun............ 2 —
+        9.
+        <persName>
+         A-lin
+        </persName>
+        , 3ᵉ fille de Vi-jun............ 2 —
        </p>
        <p xml:id="para_8_87_47">
-        10. <persName>Vi-meu</persName> (A-ni), 1ᵉʳ frère de Vi-jun, cultivateur............ 40 —
+        10.
+        <persName>
+         Vi-meu
+        </persName>
+        (A-ni), 1ᵉʳ frère de Vi-jun, cultivateur............ 40 —
        </p>
        <p xml:id="para_8_87_48">
-        11. <persName>Si-tseu-Ouaug-men</persName>, sa femme, mariée depuis 9 ans............ 35 —
+        11.
+        <persName>
+         Si-tseu-Ouaug-men
+        </persName>
+        , sa femme, mariée depuis 9 ans............ 35 —
        </p>
        <p xml:id="para_8_87_49">
-        12. <persName>Tching-hao</persName> (Yen-fong), 1ᵉʳ fils de Vi-meu............ 8
+        12.
+        <persName>
+         Tching-hao
+        </persName>
+        (Yen-fong), 1ᵉʳ fils de Vi-meu............ 8
        </p>
        <p xml:id="para_8_87_50">
-        13. <persName>Tching-fou</persName> (Yé-niu), 2ᵉ fils de Vi-meu............ 3 —
+        13.
+        <persName>
+         Tching-fou
+        </persName>
+        (Yé-niu), 2ᵉ fils de Vi-meu............ 3 —
        </p>
        <p xml:id="para_8_87_51">
-        14. <persName>Tchun-lé</persName>, fille de Vi-meu............ 11
+        14.
+        <persName>
+         Tchun-lé
+        </persName>
+        , fille de Vi-meu............ 11
        </p>
        <p xml:id="para_8_87_52">
-        15. <persName>Vi-tchou</persName> (A-chiô), 2ᵉ frêre de Vi-jun, domestique à Ning-pô............ 31 —
+        15.
+        <persName>
+         Vi-tchou
+        </persName>
+        (A-chiô), 2ᵉ frêre de Vi-jun, domestique à Ning-pô............ 31 —
        </p>
        <p xml:id="para_8_87_53">
-        16. <persName>Hou-tseu-Ouang-men</persName>, sa femme, mariée depuis 5 ans............ 29
+        16.
+        <persName>
+         Hou-tseu-Ouang-men
+        </persName>
+        , sa femme, mariée depuis 5 ans............ 29
        </p>
        <p xml:id="para_8_87_54">
-        17. <persName>Tching-Koué</persName> (Chin-fâ), 1ᵉʳ fils de Vi-tchou............ 3 —
+        17.
+        <persName>
+         Tching-Koué
+        </persName>
+        (Chin-fâ), 1ᵉʳ fils de Vi-tchou............ 3 —
        </p>
        <p xml:id="para_8_87_55">
-        18. <persName>Tching-yen</persName> (A-tchun), 2ᵉ fils de Vi-tchou............ 1 —
+        18.
+        <persName>
+         Tching-yen
+        </persName>
+        (A-tchun), 2ᵉ fils de Vi-tchou............ 1 —
        </p>
        <p xml:id="para_8_87_56">
         Comme l'indique ce tableau, le véritable chef de la famille est la grand'mère. En Chine, où l'autorité paternelle est la base de la religion, du gouvernement et des mœurs, les vieux parents conser¬vent jusqu'à leur mort leur prépondérance. Quand il arrive, comme dans le cas actuel, que leur âge avancé leur interdit tout travail effectif, leur influence, pour n'être que consultative, n'en est pas moins réelle. C'est sous cette influence, dont il s'inspire dans toutes ses actions, que le fils aîné Vi-jun dirige, avec le concours de ses frères, les affaires du dehors, tandis que sa femme gouverne le ménage avec l'aide de ses belles-sœurs. L'autorité de l'âge, qui, chez la grand'mère, prend le caractère d'un conseil, qu'on ne manque jamais de demander et de suivre, a, chez le fils aîné et chez sa femme, le caractère d'un commandement affectueux auquel tous les membres de la famille sont tenus d'obéir.
@@ -559,7 +719,9 @@
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (B)
         </ref>
-        . Cependant, <pb facs="#facs_91" n="88" xml:id="lesouvriersdesde04sociuoft_0094.xml"/> telle est la force de ce régime que les membres, appelés à vivre au dehors par leurs travaux habituels, ne cessent d'en faire partie et d'envoyer de l'argent au chef de la famille. C'est ainsi que le plus jeune frere de Vi-jun, qui est domestique à Ning-pô dans un chan¬tier de bois, et qui y est logé et nourri, apporte tous les mois à sa grand'mère les gages qu'il a reçus.
+        . Cependant,
+        <pb facs="#facs_91" n="88" xml:id="lesouvriersdesde04sociuoft_0094.xml"/>
+        telle est la force de ce régime que les membres, appelés à vivre au dehors par leurs travaux habituels, ne cessent d'en faire partie et d'envoyer de l'argent au chef de la famille. C'est ainsi que le plus jeune frere de Vi-jun, qui est domestique à Ning-pô dans un chan¬tier de bois, et qui y est logé et nourri, apporte tous les mois à sa grand'mère les gages qu'il a reçus.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
@@ -581,7 +743,9 @@
         La famille décrite, comme toutes celles de la localité, est peu élée pour sa religion, qui n'exerce pas d'action sensible sur ses déterinations et sur ses actes. Les enfants ne vont jamais à la pagode ; les parents y vont peu. Le père ne s'y rend qu'au premier jour de l'an et aux fêtes des quatre saisons. Généralement, dans le pays, le temple n'est fréquenté par les hommes qu'après l'âge de soixante ans, et par les femmes qu'après celui de cinquante. Ainsi, la grand'mère, qui ne prend plus de part active aux travaux du ménage, se livre aux pratiques bouddhiques ; elle accomplit, depuis l'âge de cinquante-deux ans, dans un but de purification personnelle, le vœu qu'elle a formé de rester jusqu'à la fin de ses jours sans manger ni viande ni poisson, en se nourrissant exclusi¬vement de légumes.
        </p>
        <p xml:id="para_8_88_63">
-        Le trait saillant chez cette famille, comme chez toutes les familles chinoises, est le respect de l'autorité paternelle. Cete vénération est la vertu fondamentale des Chinois; en s'étendant jusqu'aux ancêtres, elle est la base du culte domestique; en s'éle¬vant jusqu'à l'Epereur, elle est la garantie de l'ordre public. Elle dirige la vie privée par les sentiments qu'elle fait naître, par les traditions qu'elle conserve, par la modération qu'elle prescrit. Dans la vie publique, elle caractérise, des sujets au souverain, une obéis¬sance librement consentie. Dans la famille ici décrite, le frère aîné maintient avec sévérité l'observation de ce devoir, en le remplis¬sant lui-même. A table, il ne mange jamais que lorsque sa mère a <pb facs="#facs_92" n="89" xml:id="lesouvriersdesde04sociuoft_0095.xml"/> donné l'exemple; c'est à elle qu'il offre d'abord tout fruit ou tout légume nouveau. Il reçoit à son tour de ses enfants ces marques de respect dont l'oubli est en Chine considéré comme un crime. Tandis que le père peut battre son fils, quel que soit son âge, et use de ce droit, le fils, à partir de l'âge de seize ans, n'appelle jamais ses parents que da-jun (monseigneur)
+        Le trait saillant chez cette famille, comme chez toutes les familles chinoises, est le respect de l'autorité paternelle. Cete vénération est la vertu fondamentale des Chinois; en s'étendant jusqu'aux ancêtres, elle est la base du culte domestique; en s'éle¬vant jusqu'à l'Epereur, elle est la garantie de l'ordre public. Elle dirige la vie privée par les sentiments qu'elle fait naître, par les traditions qu'elle conserve, par la modération qu'elle prescrit. Dans la vie publique, elle caractérise, des sujets au souverain, une obéis¬sance librement consentie. Dans la famille ici décrite, le frère aîné maintient avec sévérité l'observation de ce devoir, en le remplis¬sant lui-même. A table, il ne mange jamais que lorsque sa mère a
+        <pb facs="#facs_92" n="89" xml:id="lesouvriersdesde04sociuoft_0095.xml"/>
+        donné l'exemple; c'est à elle qu'il offre d'abord tout fruit ou tout légume nouveau. Il reçoit à son tour de ses enfants ces marques de respect dont l'oubli est en Chine considéré comme un crime. Tandis que le père peut battre son fils, quel que soit son âge, et use de ce droit, le fils, à partir de l'âge de seize ans, n'appelle jamais ses parents que da-jun (monseigneur)
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (A)
         </ref>
@@ -605,14 +769,19 @@
         Les enfants sont traités avec douceur et ne sont jamais assujettis à des travaux fatigants. Les garçons sont tenus à l'école depuis sept ans jusqu'à douze : quant aux filles, qui ne reçoivent point d'in¬struction, elles n'ont vers cet âge que des occupations insignifiantes. L'école du village, qui est fréquentée par vingt-six enfants, a été formée de la manière suivante. La personne la plus riche de la loca¬lité a fait venir un instituteur de Ning-pô pour l'éducation de ses fils, en lui assurant la nourriture, le logement et le vêtement. Les autres familles lui fournissent ses honoraires ; elles donnent pour chaque enfant. suivant son âge, de 3ᶠ à 5ᶠ par an ; les plus aisés donient 7ᶠ 50. Un instituteur peut gagner ainsi de 120ᶠ à 150ᶠ. Deux garçons de la communauté, Tching-loa et Tching-flao, se rendent tous les jours à l'école d'Ouang-fou; ils payent 5ᶠ chacun.
        </p>
        <p>
-        <pb facs="#facs_93" n="90" xml:id="lesouvriersdesde04sociuoft_0096.xml"/> On leur enseigne la lecture, l'écriture, le calcul, la grammaire et la poésie. Le premier livre qu'on met entre leurs mains est le Pa-ch¬si (les Cent Noms), le second, le ˉsien-aeu-uen (les MilleC arac¬tères). Ils doivent lire ensuite le liao-ing (Livre des devoirs filiaux), puis les quatre livres (Sze-ˉChou)
-        <note type="bp"><p>
-         Le Ta-hio (la Grande Étude), le Tchon-on (l'invariabilité dans le milieu), le Lun-pu (les Dialogues moraux) et le Men-tseu (ouvrage du philosophe Meng-tseu).
-        </p></note>
+        <pb facs="#facs_93" n="90" xml:id="lesouvriersdesde04sociuoft_0096.xml"/>
+        On leur enseigne la lecture, l'écriture, le calcul, la grammaire et la poésie. Le premier livre qu'on met entre leurs mains est le Pa-ch¬si (les Cent Noms), le second, le ˉsien-aeu-uen (les MilleC arac¬tères). Ils doivent lire ensuite le liao-ing (Livre des devoirs filiaux), puis les quatre livres (Sze-ˉChou)
+        <note type="bp">
+         <p>
+          Le Ta-hio (la Grande Étude), le Tchon-on (l'invariabilité dans le milieu), le Lun-pu (les Dialogues moraux) et le Men-tseu (ouvrage du philosophe Meng-tseu).
+         </p>
+        </note>
         et enfin les cinq classiques
-        <note type="bp"><p>
-         L'Y-king (le Livre des Transformations), le Chi-Kin (le Livre des Vers), le Chou-Kin (le Livre des Annales), le Tchun-Tsieou (le Printemps et l'Automne), et le ˉLi-Ki (le Livre des Rites).
-        </p></note>
+        <note type="bp">
+         <p>
+          L'Y-king (le Livre des Transformations), le Chi-Kin (le Livre des Vers), le Chou-Kin (le Livre des Annales), le Tchun-Tsieou (le Printemps et l'Automne), et le ˉLi-Ki (le Livre des Rites).
+         </p>
+        </note>
         (King).
        </p>
        <p xml:id="para_8_90_68">
@@ -627,7 +796,9 @@
         Tous les membres de la famille se distinguent par une constitu¬tion robuste. Les hommes, comme les Chinois en général, sont doués d'un grand développement de force musculaire, facile à com¬prendre chez un peuple d'une si prodigieuse activité. D'une taille et d'une grosseur moyennes, les hommes, comme les femmes, voués à un travail continu, ne présentent pas cette obésité disgra¬cieuse que recherchent les gens riches des villes. Les femmes sont d'un type assez agréable. Elles sont très-fécondes ; il n'est guère de ménages qui aient moins de cinq enfants. Les mariages se font, il est vrai, de bonne heure, entre dix-huit et vingt ans ; la loi les autorise à l'âge de seize ans pour les deux sexes. Sous ce rapport. la famille décrite se trouve dans des circonstances un peu excep¬tionnelles.
        </p>
        <p xml:id="para_8_90_71">
-        La santé des membres de la famille n'a été altérée par aucune maladie grave. Les femmes éprouvent bien une gêne constante de l'usage qu'elles ont d'entortiller leurs pieds ; mais cette gêne, qui suffit pour leur interdire la marche, ne va pas jusqu'à les indis¬poser et ne les empêche pas de vaquer à leurs travaux. Il est vrai <pb facs="#facs_94" n="91" xml:id="lesouvriersdesde04sociuoft_0097.xml"/> qu'à la campagne, cet usage barbare n'est pas poussé aussi loin qu'à la ville. lIci, pour faire de ses pieds des lis dorés (bin-leen), une Chinoise se condamne à une véritable mutilation. Les bandages qui, depuis son enfance, étreignent ses pieds, gênent la circulation du sang, produisent une vive inflammation et entretiennent une plaie constante. Les femmes tartares, tout en adoptant les mœurs chinoises, ont résisté à cette bizarre coutume.
+        La santé des membres de la famille n'a été altérée par aucune maladie grave. Les femmes éprouvent bien une gêne constante de l'usage qu'elles ont d'entortiller leurs pieds ; mais cette gêne, qui suffit pour leur interdire la marche, ne va pas jusqu'à les indis¬poser et ne les empêche pas de vaquer à leurs travaux. Il est vrai
+        <pb facs="#facs_94" n="91" xml:id="lesouvriersdesde04sociuoft_0097.xml"/>
+        qu'à la campagne, cet usage barbare n'est pas poussé aussi loin qu'à la ville. lIci, pour faire de ses pieds des lis dorés (bin-leen), une Chinoise se condamne à une véritable mutilation. Les bandages qui, depuis son enfance, étreignent ses pieds, gênent la circulation du sang, produisent une vive inflammation et entretiennent une plaie constante. Les femmes tartares, tout en adoptant les mœurs chinoises, ont résisté à cette bizarre coutume.
        </p>
        <p xml:id="para_8_91_75">
         A Ning-pô, dans ce pays entièrement inondé, les habitants sont sujets à des fièvres intermittentes au printemps et à l'automne. Mais ces fièvres paraissent avoir moins d'intensité que dans les pays de l'Europe où on cultive le riz. Quelle qu'en soit la raison qu'elle se trouve dans l'usage des boissons chaudes ou dans le renouvelle¬ment facile de l'air sur des côtes ouvertes à tous les vents, l'insalu¬brité est peut-être moins grande dans les riières du Tché-ian que dans celles du Piémont. Les autres maladies de la localité sont le typhus, qui sévit assez souvent, et le choléra, qui s est quelque¬fois montré.
@@ -641,7 +812,9 @@
         § 5. — RANG DE LA FAMILLE.
        </head>
        <p xml:id="para_8_91_79">
-        La famille est bien considérée dans le pays dont tous les habi¬tants descendent de la même souche. Dans une situation supérieure a celle des fermiers et des ouvriers domestiques, elle n'est au-des¬sous des familles les plus aisées que par la moindre étendue des champs qu'elle possède. Cependant telle est la division du sol, dans un pays où la coutume assure l'égalité des partages entre les fils, <pb facs="#facs_95" n="92" xml:id="lesouvriersdesde04sociuoft_0098.xml"/> que les plus riches propriétaires d'Ouang-fou et des villages voisins ne possèdent pas plus de 12 à 18 hectares de terrain, dont ils afferment une partie et cultivent le reste.
+        La famille est bien considérée dans le pays dont tous les habi¬tants descendent de la même souche. Dans une situation supérieure a celle des fermiers et des ouvriers domestiques, elle n'est au-des¬sous des familles les plus aisées que par la moindre étendue des champs qu'elle possède. Cependant telle est la division du sol, dans un pays où la coutume assure l'égalité des partages entre les fils,
+        <pb facs="#facs_95" n="92" xml:id="lesouvriersdesde04sociuoft_0098.xml"/>
+        que les plus riches propriétaires d'Ouang-fou et des villages voisins ne possèdent pas plus de 12 à 18 hectares de terrain, dont ils afferment une partie et cultivent le reste.
        </p>
       </div>
      </div>
@@ -653,12 +826,12 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_8_92_83">
          (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_8_92_84">
          IMMEUBLES acquis par héritage............ 3,250ᶠ 00
         </p>
@@ -669,7 +842,7 @@
          2ᵉ meubles rurau. — Jardin potager (tsei-di) attenant a la maison, d'une étendue de ares, 2s0ᶠ00. — Champs (da-die) de ri, d'orge, de fêves, d'ignames, d'une éten¬due de 84 ares, 2300ᶠ 00. — Total, 3030ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_8_92_87">
          ARGENT............ 00ᶠ 00
         </p>
@@ -677,7 +850,7 @@
          La communauté ne possêde pas d'argent. Le gout de l'épargne parait être une vertu peu commune chez les cultivateurs du Tché-ian. L'épargne, quand elle se produit, est employée en acquisition de terres. Les usages traditionnels, qui perpétuent les fêtes féti¬chiques avec les obligations qu'elles entrainent, conduisent ordiuairement à dépenser en quelques jours les sommes qui proviennent de la vente des produits du sol et que les besoins de la famille n'ont pas absorbées.
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_8_92_89">
          ANIMAUX DOMESTIQUES entretenus toute l'année..... 216ᶠ00
         </p>
@@ -691,12 +864,14 @@
          3 porcs (tchu) d'une valeur moyenne de stᶠ00, entretenus pendant 10 mois (de février a décembre). La valeur moyenne calculée pour l'année entiére est de 45ᶠ 00. — 2 che¬vreaux (sa-hian), d'une valeur moyenne de 4ᶠ 7, entretenus pendant 9 mois. La valeur moyenne calculée pour l'année entière est de 3ᶠ 56.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_8_92_93">
          MATÉRIEL SPÉCIAL des travaux et industries....... 544ᶠ89
         </p>
         <p xml:id="para_8_92_95">
-         1° Outils pour l'evploitation des champs. — 1 araire (li) à un seul bœuf, 15ᶠ 00; — 1 herse de fer (bo), 20ᶠ 00 ;— 1 rouleau de bois (couen-boa), 10ᶠ 00;- 4 pioches (tie-t0), ᶠ00; — 2 rateaux (oou). ᶠ 00; — 2 pelles de fer (ran-chie), 3ᶠ 50; — 1 faucilles pour couper le riz, 3ᶠ 00; — 2 faux (oan-eoou) pour couper l trèe, ᶠ S0 ; — 4 peignes <pb facs="#facs_96" n="93" xml:id="lesouvriersdesde04sociuoft_0099.xml"/> (o-die-bou) pour nettoyer le chanp de ri, 5ᶠ 00; — 1 chapelet (tsd-oeu) incliné, en bois, avec roue dentee et pignon. pour arroser le champ, 60ᶠ 00 ; — 1 bateau (su) a une seule rame pour le transport du fumier et des récoltes, d'une longueur de 6 environ et d'un tonnage de 600ᶠ, 120ᶠ00; — 6 seaux (fan-don) pour trausporter le fumier des animaux, 9ᶠ 00 ; — 2 bcites grillées dad-don) de bambou pour battre le riz aux champs, 36ᶠ 00; — 5 pelles de bois (deian-deu-boa) pour étendre le ri sur les nattes, 2ᶠ50; — 24 grands paniers (l6) pour le ri, ressés en fils de bambou, contenant chacun 60, 72ᶠ 00 ; — 1 paniers (trouss pour la paille de ri, 6ᶠ00 ; —  batons (pin-te) pour por¬ter les paniers sur l'épaule, 3ᶠ 50 ; — 12 nattes de bambou (die) de 3ᵉ50 sur 3,sur lesquelles on fait sécher le ria, 48ᶠ 00; — 2 tentes de toile (niou-boau) pour abriter pen¬dant l'été le beui qui monte l'eau, 8ᶠ00; — 1 hlutoir (fon-sidn), 10ᶠ 00; 4 criles (mi-seu) de baumbou, 1ᶠ 20; —  paniers (trouss) de 1ᵐ0 de diamètre et d'uue conte¬nance de 180e, 6ᶠ 00; — 3 paniers à main teu) contenant 6ᶠ de riz chacun, 0ᶠ7S; — 1 vau de lambou (len-ss) pour séparer le ria de la paille, 2ᶠ 00; — 2 grandes romaines (tsing) à trois cordes ponr peser les sacs de ri, 1ᶠ 00; — 1 petite romaine à main si-tsiour neser les legmes, 0ᶠ s0— 1 mesure pour le rii ra-ta, en rme ue tronc de pyramide à base carrée, faite de bois dur et cerclée en fer, contenant 30,12ᶠ50; — 1 mesure (1eu) de 6 en forme de parallélipipède rectangle, 1ᶠ 00; — 1 mesure tsin) de 0ᶠs (ivre chinoise), en forme de tronc de pyramide carrée, dont la grande hase es en haut, 0ᶠ 50; — 1 mesure (pneu-ltsin) de forme cylindrique et d'une capacité de 0ᶠ3, 0ᶠ25. — Total, 81ᶠ 00.
+         1° Outils pour l'evploitation des champs. — 1 araire (li) à un seul bœuf, 15ᶠ 00; — 1 herse de fer (bo), 20ᶠ 00 ;— 1 rouleau de bois (couen-boa), 10ᶠ 00;- 4 pioches (tie-t0), ᶠ00; — 2 rateaux (oou). ᶠ 00; — 2 pelles de fer (ran-chie), 3ᶠ 50; — 1 faucilles pour couper le riz, 3ᶠ 00; — 2 faux (oan-eoou) pour couper l trèe, ᶠ S0 ; — 4 peignes
+         <pb facs="#facs_96" n="93" xml:id="lesouvriersdesde04sociuoft_0099.xml"/>
+         (o-die-bou) pour nettoyer le chanp de ri, 5ᶠ 00; — 1 chapelet (tsd-oeu) incliné, en bois, avec roue dentee et pignon. pour arroser le champ, 60ᶠ 00 ; — 1 bateau (su) a une seule rame pour le transport du fumier et des récoltes, d'une longueur de 6 environ et d'un tonnage de 600ᶠ, 120ᶠ00; — 6 seaux (fan-don) pour trausporter le fumier des animaux, 9ᶠ 00 ; — 2 bcites grillées dad-don) de bambou pour battre le riz aux champs, 36ᶠ 00; — 5 pelles de bois (deian-deu-boa) pour étendre le ri sur les nattes, 2ᶠ50; — 24 grands paniers (l6) pour le ri, ressés en fils de bambou, contenant chacun 60, 72ᶠ 00 ; — 1 paniers (trouss pour la paille de ri, 6ᶠ00 ; —  batons (pin-te) pour por¬ter les paniers sur l'épaule, 3ᶠ 50 ; — 12 nattes de bambou (die) de 3ᵉ50 sur 3,sur lesquelles on fait sécher le ria, 48ᶠ 00; — 2 tentes de toile (niou-boau) pour abriter pen¬dant l'été le beui qui monte l'eau, 8ᶠ00; — 1 hlutoir (fon-sidn), 10ᶠ 00; 4 criles (mi-seu) de baumbou, 1ᶠ 20; —  paniers (trouss) de 1ᵐ0 de diamètre et d'uue conte¬nance de 180e, 6ᶠ 00; — 3 paniers à main teu) contenant 6ᶠ de riz chacun, 0ᶠ7S; — 1 vau de lambou (len-ss) pour séparer le ria de la paille, 2ᶠ 00; — 2 grandes romaines (tsing) à trois cordes ponr peser les sacs de ri, 1ᶠ 00; — 1 petite romaine à main si-tsiour neser les legmes, 0ᶠ s0— 1 mesure pour le rii ra-ta, en rme ue tronc de pyramide à base carrée, faite de bois dur et cerclée en fer, contenant 30,12ᶠ50; — 1 mesure (1eu) de 6 en forme de parallélipipède rectangle, 1ᶠ 00; — 1 mesure tsin) de 0ᶠs (ivre chinoise), en forme de tronc de pyramide carrée, dont la grande hase es en haut, 0ᶠ 50; — 1 mesure (pneu-ltsin) de forme cylindrique et d'une capacité de 0ᶠ3, 0ᶠ25. — Total, 81ᶠ 00.
         </p>
         <p xml:id="para_8_93_97">
          2° Outils pour la culture du jardin potager. — 2 pioches, 2ᶠ 00 ; — 1 rateau, 1ᶠ 50; — 1 pelle de fer, 1ᶠ 75; — 2 seaux, 3ᶠ00. — Total, ᶠ2s.
@@ -717,7 +892,7 @@
          7° Engin pour la oêche. — 1 filet, 1ᶠ25.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_8_93_106">
          VALEUR TOTALE des propriétés. 4,059ᶠ45
         </p>
@@ -728,7 +903,9 @@
         § 7. — SUBVENTIONS.
        </head>
        <p>
-        Un trait caractéristique de cette localité et probablement des provinces occidentales est l'absence presque complète de subventions. Il n'y a pas de pays peut-être où le sol soit plus recherché qu'en Chine, pas de pays où une population, croissant de jour en jour, se presse plus serrée sur une terre trop étroite pour la contenir. Il n'existe pas une seule forêt dans ce district ; on <pb facs="#facs_97" n="94" xml:id="lesouvriersdesde04sociuoft_0100.xml"/> n'aperçoit nulle part ni haie, ni fossé, ni presque aucun arbre, tant les Chinois ménagent un pouce de terrain. C'est à peine si l'herbe qui pousse sur les chemins de culture fournit au printemps et à l'été une partie de la nourriture des bœufs. Quelquefois les hommes vont couper cette herbe le matin avant d'aller aux champs ; mais ge travail est ordinairement confié aux deux fils aînés de Vi-jun, Tchi-jiou et Tchin-yong. qui conduisent ordinairement aussi les animaux pâturer en liberté. Un homme peut récolter par jour pour une valeur de 0ᶠ30 et un enfant pour une valeur de 0ᶠ15.
+        Un trait caractéristique de cette localité et probablement des provinces occidentales est l'absence presque complète de subventions. Il n'y a pas de pays peut-être où le sol soit plus recherché qu'en Chine, pas de pays où une population, croissant de jour en jour, se presse plus serrée sur une terre trop étroite pour la contenir. Il n'existe pas une seule forêt dans ce district ; on
+        <pb facs="#facs_97" n="94" xml:id="lesouvriersdesde04sociuoft_0100.xml"/>
+        n'aperçoit nulle part ni haie, ni fossé, ni presque aucun arbre, tant les Chinois ménagent un pouce de terrain. C'est à peine si l'herbe qui pousse sur les chemins de culture fournit au printemps et à l'été une partie de la nourriture des bœufs. Quelquefois les hommes vont couper cette herbe le matin avant d'aller aux champs ; mais ge travail est ordinairement confié aux deux fils aînés de Vi-jun, Tchi-jiou et Tchin-yong. qui conduisent ordinairement aussi les animaux pâturer en liberté. Un homme peut récolter par jour pour une valeur de 0ᶠ30 et un enfant pour une valeur de 0ᶠ15.
        </p>
        <p xml:id="para_8_94_109">
         A ces faibles subventions, on peut ajouter le poisson pêché par les hommes dans la rivière, pendant quelques journées d'hiver ; les limaçons (hélices) et les grenouilles ramassés par les enfants dans les champs de riz, enfin les pissenlits qu'ils vont aussi cueillir et que l'on cuit à l'huile ; car on ne mange jamais ni salade, ni légume
@@ -741,25 +918,26 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="hommes">
+       <div subtype="hommes" type="travaux">
         <p xml:id="para_8_94_112">
          TRAVAUX DES HOMMES. — Deux hommes seulement, Vi-jun et Vi-meu travaillent dans la communauté. Le plus jeune des chefs de famille, Vi-tchou, est employé à Ning-pô comme domestique dans une maison de commerce. Il est nourri, logé, et gagne par mois, qu'il apporte régulièrement à sa grand'mère. Quant aux deux frères aînés, leurs travaux spéciaux sont : la culture des champs de ri, d'orge, de fèves, de choux, d'ignames, etc. ; le transport des fumiers et des récoltes, le transport du ri au moulin, etc. ; l'exploitation du jardin potager, les soins donnés aux bêtes à cornes ; la récolte d'herbes sur les chemins pour les bœufs ; la pêche et la fabrication de l'huile de cola. En dehors de leurs journées de travail, les hommes vont acheter des comestibles au marché, et puiser à la rivière l'eau nécessaire aux besoins du ménage.
         </p>
        </div>
-       <div type="travaux" subtype="femmes">
+       <div subtype="femmes" type="travaux">
         <p xml:id="para_8_94_114">
          TRAVAUX DES FEMMES. — Les travaux spéciaux aux femmes sont : l'exploitation des champs en ce qui concerne le séchage, le net¬toyage, la vente du riz, etc. ; le service de la basse-cour; la fabri¬cation du calicot ; la confection et l'entretien des vêtements et du linge de la famille ; le blanchissage et les travaux domestiques tels que préparation des aliments, soins de propreté, garde des enfants.
         </p>
         <p>
-         <pb facs="#facs_98" n="95" xml:id="lesouvriersdesde04sociuoft_0101.xml"/> La grand'mère ne se livrant à aucun travail appréciable, ces occu¬pations se partagent entre les trois femmes. Chacune d'elles fait à son tour la cuisine pendant dix jours, pour toute la communauté ; mais chacune blanchit et raccommode le linge de son mari et de ses enfants.
+         <pb facs="#facs_98" n="95" xml:id="lesouvriersdesde04sociuoft_0101.xml"/>
+         La grand'mère ne se livrant à aucun travail appréciable, ces occu¬pations se partagent entre les trois femmes. Chacune d'elles fait à son tour la cuisine pendant dix jours, pour toute la communauté ; mais chacune blanchit et raccommode le linge de son mari et de ses enfants.
         </p>
        </div>
-       <div type="travaux" subtype="enfants">
+       <div subtype="enfants" type="travaux">
         <p xml:id="para_8_95_115">
          TRAVAUX DES ENFANTS. — Deux garçons seulement, Tching -jiou et Tching-yong, et une petite fille de 11 ans, Tchun-lê, secondent leurs parents dans leurs travaux. Les autres enfants fréquentent l'école et se livrent exclusivement aux jeux de leur âge. On n'em¬ploie jamais les enfants aux travaux qui pourraient excéder leurs forces. Leurs occupations consistent, pour les garçons : dans l'aide donnée aux hommes pour l'exploitation des champs, dans la récolte des herbes et dans la conduite des beufs sur les chemins ; pour la petite fille : dans l'aide donnée aux femmes pour le séchage du riz, pour la confection et l'entretien du linge, pour la garde des enfants jeunes.
         </p>
        </div>
-       <div type="industries" subtype="famille">
+       <div subtype="famille" type="industries">
         <p xml:id="para_8_95_116">
          INDUSTRIES ENTREPRISES PAR LA FAMILLE. — L'essence même de l'organisation sociale à laquelle se rattache cette famille est que tous les travaux, sans exception, soient entrepris au compte com¬mun de tous ses membres.
         </p>
@@ -784,7 +962,9 @@
          .
         </p>
         <p xml:id="para_8_95_122">
-         Ce régime a pour bases essentielles : le riz, le poisson salé, le chou frais ou salé et le deu-vou ou fromage fait avec une espèce de pois jaune (hoang-deu). Le riz est mangé en guise de pain. A table, chaque personne a à côté d'elle un bol rempli de grains de riz <pb facs="#facs_99" n="96" xml:id="lesouvriersdesde04sociuoft_0102.xml"/> crevés dans l'eau. Ce riz, ainsi que tous les mets solides, n'est pas mangé avec une fourchette, mais avec deux petits bâtonnets de bambou de 0e20 environ, désignés sous le nom métaphorique de garçons agiles (xae-tsze). L'un se tient entre le pouce et l'index de la main droite ; le second entre le même pouce et le doigt du milieu; c est à leur point de jonction qu'il faut savoir saisir chaque morceau qu'on veut porter à la bouche. Pour la soupe et pour les sauces on se sert de cuillers de porcelaine. Les mets sont apportés sur la table dans les casseroles de fer ou de fonte où ils ont été pré¬parés ; chacun se sert dans une assiette de porcelaine commune. On ne mange jamais de dessert et on ne boit pas en mangeant ; on prend après le repas une ou deux tasses de thé.
+         Ce régime a pour bases essentielles : le riz, le poisson salé, le chou frais ou salé et le deu-vou ou fromage fait avec une espèce de pois jaune (hoang-deu). Le riz est mangé en guise de pain. A table, chaque personne a à côté d'elle un bol rempli de grains de riz
+         <pb facs="#facs_99" n="96" xml:id="lesouvriersdesde04sociuoft_0102.xml"/>
+         crevés dans l'eau. Ce riz, ainsi que tous les mets solides, n'est pas mangé avec une fourchette, mais avec deux petits bâtonnets de bambou de 0e20 environ, désignés sous le nom métaphorique de garçons agiles (xae-tsze). L'un se tient entre le pouce et l'index de la main droite ; le second entre le même pouce et le doigt du milieu; c est à leur point de jonction qu'il faut savoir saisir chaque morceau qu'on veut porter à la bouche. Pour la soupe et pour les sauces on se sert de cuillers de porcelaine. Les mets sont apportés sur la table dans les casseroles de fer ou de fonte où ils ont été pré¬parés ; chacun se sert dans une assiette de porcelaine commune. On ne mange jamais de dessert et on ne boit pas en mangeant ; on prend après le repas une ou deux tasses de thé.
         </p>
         <p xml:id="para_8_96_123">
          Les hommes et les femmes mangent dans la même salle, mais à des tables différentes. Le chef de famille VNi-jun, son frère cadet, et ses deux garçons les plus âgés, se mettent à une table; à l'autre s'asseyent les femmes et les enfants.
@@ -812,9 +992,11 @@
         <head type="sub_sub_section" xml:id="part_02_03_10">
          § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
         </head>
-        <div type="par_10" subtype="par_10_texte_1">
+        <div subtype="par_10_texte_1" type="par_10">
          <p xml:id="para_8_96_132">
-          La maison d'habitation, construite en bois et en briques, présente le style uniforme de l'architectunre chinoise. Les toits qui avancent <pb facs="#facs_100" n="97" xml:id="lesouvriersdesde04sociuoft_0103.xml"/> sur la façade, comme ceux des chalets suisses, sont supportés par des colonnes de bois ; leurs bords relevés, comme le seraienit ceux d'une tente par le souflle du vent, sont ornés de figures de plâtre telles que des dragons, des queues de poisson, etc. qui rappellent le culte de ces animaux.
+          La maison d'habitation, construite en bois et en briques, présente le style uniforme de l'architectunre chinoise. Les toits qui avancent
+          <pb facs="#facs_100" n="97" xml:id="lesouvriersdesde04sociuoft_0103.xml"/>
+          sur la façade, comme ceux des chalets suisses, sont supportés par des colonnes de bois ; leurs bords relevés, comme le seraienit ceux d'une tente par le souflle du vent, sont ornés de figures de plâtre telles que des dragons, des queues de poisson, etc. qui rappellent le culte de ces animaux.
          </p>
          <p xml:id="para_8_97_133">
           La maison composée de deux corps de logis, en avant desquels se trouve une cour, renferme quatre locataires. Un des corps de logis est occupé par la famille ici décrite : il comprend un rez-de¬chaussée et un premier étage, dont les pièces sont blanchies à la
@@ -838,9 +1020,11 @@
           La valeur du mobilier et des vêtements peut être établie de la manière suivante :
          </p>
         </div>
-        <div type="par_10" subtype="meubles">
+        <div subtype="meubles" type="par_10">
          <p xml:id="para_8_97_141">
-          MEUBLES : suffisants pour les besoins du ménage, mais d'une grande simplicité. Les lits en sont, par leur forme, la portion la plus remarquable. Ces lits de bois de sapin, vernis en rouge, garnis de rideaux et de couvertures, surmontés de quatre colonnes qui sup¬portent un ciel horizontal, rappellent le lit de François Iᵉʳ du musée de Cluny. Ils ont 2ᵐ de largeur, et servent pour le mari, pour la <pb facs="#facs_101" n="98" xml:id="lesouvriersdesde04sociuoft_0104.xml"/> femme et pour les enfants. Le lit de la grand'mère n'est qu'à deux places, et sa largeur est seulement de 1ᵐ 35............ 482ᶠ50
+          MEUBLES : suffisants pour les besoins du ménage, mais d'une grande simplicité. Les lits en sont, par leur forme, la portion la plus remarquable. Ces lits de bois de sapin, vernis en rouge, garnis de rideaux et de couvertures, surmontés de quatre colonnes qui sup¬portent un ciel horizontal, rappellent le lit de François Iᵉʳ du musée de Cluny. Ils ont 2ᵐ de largeur, et servent pour le mari, pour la
+          <pb facs="#facs_101" n="98" xml:id="lesouvriersdesde04sociuoft_0104.xml"/>
+          femme et pour les enfants. Le lit de la grand'mère n'est qu'à deux places, et sa largeur est seulement de 1ᵐ 35............ 482ᶠ50
          </p>
          <p xml:id="para_8_98_142">
           1ᵉ Lits (tsan). — 3 lits pareils comprenant chacun : 1 bois de lit de sapin, 25ᶠ 00; — 1 paillsse de paille de riz, 0ᶠ 60 ;—1 natte de pnaille placée sur la paillasse et sur laquelle on couche en été, 0ᶠ 75 ; — 1 matelas rempli de coton ouaté pour l'hiver, 15 ᶠ00; — 1 couverture ouatée, 17ᶠ 50; — ideaux de coton de couleur, 5ᶠ 00; — 2 oreillers, 2ᶠ50. — Total pour un lit, 66ᶠ35. — 1 lit pour la grand'mère, 50ᶠ9. — Lits de sangle pour les enauts, 15ᶠ 00. — Total pour les lits, 265ᶠ 00.
@@ -858,7 +1042,7 @@
           5° Objets relatifs au cutte domestique. — 2 flambeaux d'étain (tcho-de), 5ᶠ 00 ; — 2 brûle-parfums détain (chian-de), 3ᶠ 50; — 1 hassin de fer (tseu-lou, pour brûler les lingots de papier, 2ᶠ 50. — Total, 11ᶠ 00.
          </p>
         </div>
-        <div type="par_10" subtype="ustensiles">
+        <div subtype="ustensiles" type="par_10">
          <p xml:id="para_8_98_149">
           USTENSILES............ 47ᶠ 30
          </p>
@@ -872,7 +1056,7 @@
           3° Servant à l'éclairage. — 2 godets de bois dans lesquels on brûle l'huile du dieu¬tse avec des éches de moelle de roseau, 0ᶠ 60; — 1 godet de cuivre, 0ᶠ 75; — 2 godets de bambou, 0ᶠ16. — Total, 1ᶠ58.
          </p>
         </div>
-        <div type="par_10" subtype="linge">
+        <div subtype="linge" type="par_10">
          <p xml:id="para_8_98_153">
           LINGE DE MÉNAGE : fait de toile de coton; peu abondant, car on ne se sert ni de draps de lit, ni de serviettes pour la table............ 4ᶠ 00
          </p>
@@ -880,9 +1064,10 @@
           1 douaine de serviettes de calicot pour la toilette, 4ᶠ 00.
          </p>
         </div>
-        <div type="par_10" subtype="vetements">
+        <div subtype="vetements" type="par_10">
          <p>
-          <pb facs="#facs_102" n="99" xml:id="lesouvriersdesde04sociuoft_0105.xml"/> VÊTEMENTS : fort simples, faits presque exclusivement de calicot, et confectionnés dans l'intérieur du ménage. L'énumération ci-des¬sous, montre que ces vêtements sont caractéristiques de la popu¬lation, qu'il y a peu de différence entre ceux des hommes et ceux des femmes. Elle fait voir en outre, que les femmes ne portent pas de bas, mais des espèces de manchons ; que jusqu'à 14 ans les jeunes filles sont habillées absolument comme les garçons ; enfin que, dans la famille, l'usage du mouchoir est inconnu même aux jours de fête. Ce détail qui n'a rien d'extraordinaire chez des culti¬vateurs, paraitra peut-être plus étonnant, si on remarque qu'il est vrai pour toute la populaion chinoise. Le mandarin en visite, se mouche à l'aide d'un morceau de papier, qu'il remet à un domes¬tique après s'en être servi. ....................... 552ᶠ 67
+          <pb facs="#facs_102" n="99" xml:id="lesouvriersdesde04sociuoft_0105.xml"/>
+          VÊTEMENTS : fort simples, faits presque exclusivement de calicot, et confectionnés dans l'intérieur du ménage. L'énumération ci-des¬sous, montre que ces vêtements sont caractéristiques de la popu¬lation, qu'il y a peu de différence entre ceux des hommes et ceux des femmes. Elle fait voir en outre, que les femmes ne portent pas de bas, mais des espèces de manchons ; que jusqu'à 14 ans les jeunes filles sont habillées absolument comme les garçons ; enfin que, dans la famille, l'usage du mouchoir est inconnu même aux jours de fête. Ce détail qui n'a rien d'extraordinaire chez des culti¬vateurs, paraitra peut-être plus étonnant, si on remarque qu'il est vrai pour toute la populaion chinoise. Le mandarin en visite, se mouche à l'aide d'un morceau de papier, qu'il remet à un domes¬tique après s'en être servi. ....................... 552ᶠ 67
          </p>
          <p xml:id="para_8_99_156">
           VÊTEMENTS DES OMMES (3 hommes), selon le détail ci-dessous (290ᶠ43).
@@ -909,7 +1094,8 @@
           3° Bijoux. — 1 épingle d'argent, 3ᶠ 00; —1 paire de boucles d'oreiles d'argent doré. 5ᶠ 00. — Total, 8ᶠ 00.
          </p>
          <p xml:id="para_8_100_165">
-          <pb facs="#facs_103" n="100" xml:id="lesouvriersdesde04sociuoft_0106.xml"/> P ieur vêtements (mèmc remarque que ci-dessus). — Valeur des vêtements d'une feme, 54ᶠ56.
+          <pb facs="#facs_103" n="100" xml:id="lesouvriersdesde04sociuoft_0106.xml"/>
+          P ieur vêtements (mèmc remarque que ci-dessus). — Valeur des vêtements d'une feme, 54ᶠ56.
          </p>
          <p xml:id="para_8_100_166">
           VÊTEMENTS DES ENFANS (garçons ou filles), selon le détail ci-dessous (44ᶠ00).
@@ -918,7 +1104,7 @@
           Vetements d'un enfant (garçon ou fille) : 1 par-dessus ouaté, 2ᶠ 50; — 1 par-dessus double, 1ᶠ 25 ; —2 pantalons, 1ᶠ 00; — 2 chemises, 1ᶠ50; — 3 paires de bas, 1ᶠ 05; — 3 paires de souliers, 1ᶠ50. — Total, 8ᶠ 80.
          </p>
         </div>
-        <div type="par_10" subtype="par_10_total">
+        <div subtype="par_10_total" type="par_10">
          <p xml:id="para_8_100_168">
           VALEUR TOTALE du mobilier et des vêtements............ 1,086ᶠ 47
          </p>
@@ -941,7 +1127,8 @@
          Les hommes s abstiennent de l'usage des spiritueux. Ce n'est qu'aux jours de fêtes qu'on boit de la bière de riz. Le frère aîné, Vi-jun, ne fait pas usage de tabac, et l'interdit absolument à ses enfants. Ses frères fument dans des pipes construites sur le prin¬cipe du narghileh. Ces pipes sont de cuivre ; elles se composent d'un réservoir en forme de tronc de cône dont la petite base est
         </p>
         <p xml:id="para_8_101_174">
-         <pb facs="#facs_104" n="101" xml:id="lesouvriersdesde04sociuoft_0107.xml"/> surmontée d'un cylindre horizontal, s'amincissant à une de ses extrémités de manière à former un tube qui s'élève en se recour¬bant, et dont la longueur est de 0 30 environ. Le réservoir tronc¬conique et la moitié du réservoir cylindrique sont remplis d'eau. Ces deux réservoirs sont traversés verticalement par un cylindre de cuivre de 0 01 à peu près de diamètre. Ce cylindre, ouvert aux deux bouts, porte, à 0 01 environ de son orifice supérieur, une plaque percée de trous. C'est au- dessus de cette plaque qu'on place un volume de tabac, inférieur à un centimètre cube, qu'une ou deux aspirations consument, et qu'il faut jeter et renouveler à chaque instant, ce qui occasionne une perte de temps énorme, quand on fume sur les travaux. L'air aspiré par le tube traverse le tabac incandescent, et la fumée arrive dans la bouche après s'être lavée dans l'eau des réservoirs.
+         <pb facs="#facs_104" n="101" xml:id="lesouvriersdesde04sociuoft_0107.xml"/>
+         surmontée d'un cylindre horizontal, s'amincissant à une de ses extrémités de manière à former un tube qui s'élève en se recour¬bant, et dont la longueur est de 0 30 environ. Le réservoir tronc¬conique et la moitié du réservoir cylindrique sont remplis d'eau. Ces deux réservoirs sont traversés verticalement par un cylindre de cuivre de 0 01 à peu près de diamètre. Ce cylindre, ouvert aux deux bouts, porte, à 0 01 environ de son orifice supérieur, une plaque percée de trous. C'est au- dessus de cette plaque qu'on place un volume de tabac, inférieur à un centimètre cube, qu'une ou deux aspirations consument, et qu'il faut jeter et renouveler à chaque instant, ce qui occasionne une perte de temps énorme, quand on fume sur les travaux. L'air aspiré par le tube traverse le tabac incandescent, et la fumée arrive dans la bouche après s'être lavée dans l'eau des réservoirs.
         </p>
         <p xml:id="para_8_101_175">
          Les femmes paraissent tenir, comme toutes les Orientales, aux bijoux et à la toilette. Elles mettent du fard sur leurs joues et sur leurs lèvres, et se noircissent les sourcils et les cils.
@@ -960,7 +1147,9 @@
          Élevés avec sévérité mais avec sollicitude, les enfants vivent en liberté dans les conditions les plus favorables au développement de leurs forces physiques, de leur intelligence et de leur cœur. De¬puis sept ans jusqu'à douze, ils fréquentent l'école où ils reçoivent une éducation religieuse d'après la doctrine de Confucius. De douze à treie ans ils apprennent un état ou commencent à se li¬vrer aux travaux de l'agriculture. Les mariages ont lieu de bonne heure et sont en général très-féconds.
         </p>
         <p xml:id="para_8_101_180">
-         L'histoire de la famille signale dans les travaux des hommes une très-grande instabilité, qui prouve bien que la culture du sol donne lieu à un labeur aussi rude que peu lucratif. Un seul des trois frères, Mi-meu est constamment resté aux champs. Mi-tchou est actuellement à ing-pê, où il sert comme commissionnaire dans un chantier de bois. Quant à i-jun, il a quité la campagne en 1835, et il a demeuré pendant six ans à la ville dans une maison de commerce où il était employé comme garçon. Il l'a quittée en 1841 lorsque ses patrons ont dû cesser leurs affaires par suite de l'occu¬<pb facs="#facs_105" n="102" xml:id="lesouvriersdesde04sociuoft_0108.xml"/> pation de Ting-hai et de Ning-pô par les troupes anglaises. Il est alors retourné à Ouang- fou prendre la direction du bien patri pation de Ting-hai et de Ning-pô par les troupes anglaises. Il est alors ¬monial.
+         L'histoire de la famille signale dans les travaux des hommes une très-grande instabilité, qui prouve bien que la culture du sol donne lieu à un labeur aussi rude que peu lucratif. Un seul des trois frères, Mi-meu est constamment resté aux champs. Mi-tchou est actuellement à ing-pê, où il sert comme commissionnaire dans un chantier de bois. Quant à i-jun, il a quité la campagne en 1835, et il a demeuré pendant six ans à la ville dans une maison de commerce où il était employé comme garçon. Il l'a quittée en 1841 lorsque ses patrons ont dû cesser leurs affaires par suite de l'occu¬
+         <pb facs="#facs_105" n="102" xml:id="lesouvriersdesde04sociuoft_0108.xml"/>
+         pation de Ting-hai et de Ning-pô par les troupes anglaises. Il est alors retourné à Ouang- fou prendre la direction du bien patri pation de Ting-hai et de Ning-pô par les troupes anglaises. Il est alors ¬monial.
         </p>
         <p xml:id="para_8_102_181">
          Ce régime d'émigration temporaire des communautés de paysans chinois offre beaucoup d'analogie avec celui des communautés de la Russie centrale
@@ -978,7 +1167,9 @@
          L'avenir de la famille est fort mal assuré. Les difficulés de la vie, fort grandes sur ce sol très-occupé, exigent de la part des cultivateurs une sobriété très-grande unie à un rude travail ; cependant la com¬munauté décrite, comme toutes celles de la localité, ne réalise au¬cune épargne. Ce fait, complétement contradictoire avec ce qui a lieu en Europe, paraît assez général et a été vérifié par Tching¬yong dans plusieurs provinces voisines de Tché-lian. A Ouang-fou, comme dans l'lnde, on travaille pour les fêtes ; on dépense aux réjouissances du premier jour de l'an la majeure partie des sommes accumulées. Quand on obtient de bonnes récoltes, et qu'il se fait une certaine épargne, elle est dissipée dans les années suivantes. On n'économise guère que pour marier ses enfants, et on s'y prépare quelquefois dix ou douze ans d'avance. La communauté décrite a dû emprunter à l'époque du mariage des frères et de la mort du père (180). Ces emprunts se font dans le village au taux de 2 pour 100l'an, bien que le taux légal en Chine soit de 3 pour 100 par lune et de 30 pour 100 par année. Un mariage chez les cultivateurs de Ouang-fou coûte environ 400ᶠ, et un enterrement 200ᶠ. Quand l'épargne se produit exceptionnellement chez les familles plus aisées et moins nombreuses, elle est toujours appliquée à des acqui¬sitions de terres, conformément à l'usage des paysans européens.
         </p>
         <p xml:id="para_8_102_185">
-         L'absence de prévoyance, combinée avec l'appauvrissement qui résulte sans cesse du partage des patrimoines rend fort précaire l'existence des familles. L'avenir des parents n'a, en effet, qu'une seule garantie. C'est le respect pour l'autorité paternelle et pour la vieillesse qui fait regarder aux enfants comme un devoir invio¬lable de nourrir leur père et leur mère. Ceux-ci mangent en général trois jours chez un de leurs fils, trois jours chez un autre. Ce devoir est si bien compris qu'à des distances quelquefois très-considé¬rables de leur lieu natal, les enfants envoient de l'argent à leurs parents âgés ou infirmes. <pb facs="#facs_106" n="103" xml:id="lesouvriersdesde04sociuoft_0109.xml"/> Les vieillards ne peuvent compter à Ouang-fou sur aucun secours étranger. Ce n'est qu'a Ning-pô qu'il y a des hospices pour abriter la vieillesse, des sociétés de bières (bog-tso) pour faire ensevelir les gens morts sans ressources, des distributions de riz, d'argent, de vêtements, etc., par la charité privée. Malgré ces institutions et les aumônes, la Chine est infestée d'une quantité de mendiants telle qu'il n'existe, dit-on, rien de semblable en aucun autre pays du monde.
+         L'absence de prévoyance, combinée avec l'appauvrissement qui résulte sans cesse du partage des patrimoines rend fort précaire l'existence des familles. L'avenir des parents n'a, en effet, qu'une seule garantie. C'est le respect pour l'autorité paternelle et pour la vieillesse qui fait regarder aux enfants comme un devoir invio¬lable de nourrir leur père et leur mère. Ceux-ci mangent en général trois jours chez un de leurs fils, trois jours chez un autre. Ce devoir est si bien compris qu'à des distances quelquefois très-considé¬rables de leur lieu natal, les enfants envoient de l'argent à leurs parents âgés ou infirmes.
+         <pb facs="#facs_106" n="103" xml:id="lesouvriersdesde04sociuoft_0109.xml"/>
+         Les vieillards ne peuvent compter à Ouang-fou sur aucun secours étranger. Ce n'est qu'a Ning-pô qu'il y a des hospices pour abriter la vieillesse, des sociétés de bières (bog-tso) pour faire ensevelir les gens morts sans ressources, des distributions de riz, d'argent, de vêtements, etc., par la charité privée. Malgré ces institutions et les aumônes, la Chine est infestée d'une quantité de mendiants telle qu'il n'existe, dit-on, rien de semblable en aucun autre pays du monde.
         </p>
        </div>
       </div>
@@ -1086,8 +1277,8 @@
         (A) SUR LE RESPECT DES CHINOIS POUR L'AUTORITÉ PATERNELLE.
        </head>
        <p xml:id="para_8_116_119">
-        
-        <pb facs="#facs_119" n="116" source="lesouvriersdesde04sociuoft_0122.xml"/>Ce qui frappe surtout à l'aspect de la civilisation chinoise, ce qui semble la caractériser, c'est la prépondérance de l'autorité pater¬nelle. Cette autorité est en effet le lien principal de la famille, la base fondamentale du gouvernement et des lois, le principe essentiel de la religion. llle conserve l'harmonie domestique, elle entretient la soumission envers les supériorites sociales, elle consacre le sou¬venir des ancètres et le respect des traditions.
+        <pb facs="#facs_119" n="116" source="lesouvriersdesde04sociuoft_0122.xml"/>
+        Ce qui frappe surtout à l'aspect de la civilisation chinoise, ce qui semble la caractériser, c'est la prépondérance de l'autorité pater¬nelle. Cette autorité est en effet le lien principal de la famille, la base fondamentale du gouvernement et des lois, le principe essentiel de la religion. llle conserve l'harmonie domestique, elle entretient la soumission envers les supériorites sociales, elle consacre le sou¬venir des ancètres et le respect des traditions.
        </p>
        <p xml:id="para_8_116_121">
         La pieté filiale est en Cine ce qu'était en Grèce l'amour de la liberté, a lome l'amour de la patrie, au moyen âge le sentiment religieux. La présente monographie en a dejà signalé quelques traits frappants
@@ -1098,43 +1289,61 @@
         <ref target="#part_02_01_02" type="renvoi_int_mono">
          (§ 2)
         </ref>
-        ont été d'ailleurs veritfiés auprès de quelques personncs quiont habité la Chine ; ils sont en outre con¬firmés par les récits que nous ont laissés les infatigables mission¬naires du xvr siècle, par les codes et par les livres chinois, ainsi que par les monuments nombreux qui couvrent le Céleste-lmpire. Ces récits et ces livres, ces tours et ces autels, manilestent sou¬vent, il est vrai, un état de choses tombé en désuétude à l'époque que l'on considère. Malgré le culte qu'elle accorde aupassé, la Chine paraît êure dans un état réel de décomposition. Les principes d'ordre sur lesquels elle repose depuis tant de siècles soet souvent aussi oubliés que les articles de ses codes. Ses édifices rappellent aussi des sentiments et des idées qui saffaiblissent de jour en jour. Cependant, s'il est un régime qui ait résisté plus que tout autre à une graduelle décadence, c'est sans aucun doute le régime patriar¬cal, qui a stéréotypé son caractère dans la famille comme dans la société, dans le gouvernement domestique comme dans l'État. Il est donc intéressant de faire connaître la piété filiale des Chinois <pb facs="#facs_120" n="117" source="lesouvriersdesde04sociuoft_0123.xml"/> dans ses prescriptions traditionnelles aussi bien que dans ses mani¬festations de tous les jours : de rechercher l'origine des faits révélés par cette monographie et de les revêtir de cette forme antique qu'on rencontre dans les livres sacrés.
+        ont été d'ailleurs veritfiés auprès de quelques personncs quiont habité la Chine ; ils sont en outre con¬firmés par les récits que nous ont laissés les infatigables mission¬naires du xvr siècle, par les codes et par les livres chinois, ainsi que par les monuments nombreux qui couvrent le Céleste-lmpire. Ces récits et ces livres, ces tours et ces autels, manilestent sou¬vent, il est vrai, un état de choses tombé en désuétude à l'époque que l'on considère. Malgré le culte qu'elle accorde aupassé, la Chine paraît êure dans un état réel de décomposition. Les principes d'ordre sur lesquels elle repose depuis tant de siècles soet souvent aussi oubliés que les articles de ses codes. Ses édifices rappellent aussi des sentiments et des idées qui saffaiblissent de jour en jour. Cependant, s'il est un régime qui ait résisté plus que tout autre à une graduelle décadence, c'est sans aucun doute le régime patriar¬cal, qui a stéréotypé son caractère dans la famille comme dans la société, dans le gouvernement domestique comme dans l'État. Il est donc intéressant de faire connaître la piété filiale des Chinois
+        <pb facs="#facs_120" n="117" source="lesouvriersdesde04sociuoft_0123.xml"/>
+        dans ses prescriptions traditionnelles aussi bien que dans ses mani¬festations de tous les jours : de rechercher l'origine des faits révélés par cette monographie et de les revêtir de cette forme antique qu'on rencontre dans les livres sacrés.
        </p>
        <p xml:id="para_8_117_122">
         Un fils a reçu la vie de son père et de sa mère, dit houng¬tseu (Confucius) à son disciple Tsen-tseu
-        <note type="bp"><p>
-         Hiao-bin ou Livre de Devoirs filiaux. C'est un choix de maximes attribuées à Confucius et d'entretiens qu'il aurait eux avec son disciple Tsen-tseu. Après la des¬truction des livres, ordonnée (213 av. JC.) par l'empereur Thsin-chi-Hoang-ti, on retrouva le Hiao-king caché dans les murailles de la maison de Confucius. Il a été commenté par plusieurs érivains, dont le plus illustre est l'empereur Youen-Tsang. de la dynastie des Tang.
-        </p></note>
+        <note type="bp">
+         <p>
+          Hiao-bin ou Livre de Devoirs filiaux. C'est un choix de maximes attribuées à Confucius et d'entretiens qu'il aurait eux avec son disciple Tsen-tseu. Après la des¬truction des livres, ordonnée (213 av. JC.) par l'empereur Thsin-chi-Hoang-ti, on retrouva le Hiao-king caché dans les murailles de la maison de Confucius. Il a été commenté par plusieurs érivains, dont le plus illustre est l'empereur Youen-Tsang. de la dynastie des Tang.
+         </p>
+        </note>
         . Ce lien qui l'unit à eux est au-dessus de tout lien, et les droits qu'ils ont sur lui sont nécessairement au-dessus de tout. Un fils est la chair de la chair et les os des os de ses parents, selon l'expression du Li-ki
-        <note type="bp"><p>
-         Code des rites et cérémonies qui règle la majeure partie des rapports sociaux et spécialement les devois de la piété filiade. Il fait partie des cinq classiques, King, dont il a été déjà question page 90.
-        </p></note>
+        <note type="bp">
+         <p>
+          Code des rites et cérémonies qui règle la majeure partie des rapports sociaux et spécialement les devois de la piété filiade. Il fait partie des cinq classiques, King, dont il a été déjà question page 90.
+         </p>
+        </note>
         . Aussi, ne pas aimer ses parents et prétendre aimer les hommes, c'est con¬1redire l'idéae de la vertu ; ne pas honorer ses parents et prétendre honorer les hommes, c'est démentir la notion du devoir.  Ces sen¬timents si noblement et si énergiquement exprimés par le premier sae de l'Orient. se trouvent retracés dans les livres nombreux que les Chinois ont écrits sur la piété filiale, et qui suffiraient à eux seuls pour former une bibliohèque. Le Hio-king et le Li-ki font partie des ouvraeges classiques, dont la connaissance appronfondie est la base de toute instruction. Le respect de l'autorité paternelle est encore consacré dans le Taï-thsing-hoeï-tien
-        <note type="bp"><p>
-         Collection des statuts administratifs de la dynastie régnante, dont la dernière édition a été publiée à Pé-king en 1825. Ce grand ouvrage qui comprend 820 kiouau ou livres et qui est accompagné d'un atlas de 1,430 gravures snr bois, règle dans leurs plus petits détails les devoirs de tous les fonctionnaires publics de l'Empire.
-        </p></note>
+        <note type="bp">
+         <p>
+          Collection des statuts administratifs de la dynastie régnante, dont la dernière édition a été publiée à Pé-king en 1825. Ce grand ouvrage qui comprend 820 kiouau ou livres et qui est accompagné d'un atlas de 1,430 gravures snr bois, règle dans leurs plus petits détails les devoirs de tous les fonctionnaires publics de l'Empire.
+         </p>
+        </note>
         ; il est réglé par le Taï-thsing-liu-li
-        <note type="bp"><p>
-         Lois et statuts de la dynastie des Tsin. Dans ce code, qui fait partie du Thsing-hoeï-tien, les lois chinoises, dont l'infraction implique une peine, sont classées sous sept titres différents :
-         <figure rend="portrait" type="inventory">
-          <head resp="added" type="inventory" xml:id="figure_1">
-           Titre du Thsing-hoeï-tien (notes annexes)
-          </head>
-          <graphic facs="#facs_120" url="#"/>
-         </figure>
-         Toutes ces lois sont réunies sous 436 articles, lesquels sont eux-mêmes divisés en autant de sections que l'école chinoise en a imaginé pour l'éclaircissement des cas et l'application proportionnelle des peines.
-        </p></note>
+        <note type="bp">
+         <p>
+          Lois et statuts de la dynastie des Tsin. Dans ce code, qui fait partie du Thsing-hoeï-tien, les lois chinoises, dont l'infraction implique une peine, sont classées sous sept titres différents :
+          <figure rend="portrait" type="inventory">
+           <head resp="added" type="inventory" xml:id="figure_1">
+            Titre du Thsing-hoeï-tien (notes annexes)
+           </head>
+           <graphic facs="#facs_120" url="#"/>
+          </figure>
+          Toutes ces lois sont réunies sous 436 articles, lesquels sont eux-mêmes divisés en autant de sections que l'école chinoise en a imaginé pour l'éclaircissement des cas et l'application proportionnelle des peines.
+         </p>
+        </note>
         ; il est célébré enfin dans le Hiao-kin-yen-y
-        <note type="bp"><p>
-         Art de gouverner les Peuples par la piété filiale.
-        </p></note> <pb facs="#facs_121" n="118" source="lesouvriersdesde04sociuoft_0124.xml"/> et dans le ˉCheng-hiun
-        <note type="bp"><p>
-         Recueil des ordonnances de Kang-hi concernant les devoirs de la piété filiale, dont il s'acquittait envers son aïeule, sa mére et son pére.
-        </p></note>
+        <note type="bp">
+         <p>
+          Art de gouverner les Peuples par la piété filiale.
+         </p>
+        </note>
+        <pb facs="#facs_121" n="118" source="lesouvriersdesde04sociuoft_0124.xml"/>
+        et dans le ˉCheng-hiun
+        <note type="bp">
+         <p>
+          Recueil des ordonnances de Kang-hi concernant les devoirs de la piété filiale, dont il s'acquittait envers son aïeule, sa mére et son pére.
+         </p>
+        </note>
         de l'empereur Kang-hi, dans les placets de Ssé-ma-kouang
-        <note type="bp"><p>
-         Célèbre historien Chinois qui vivait au XIe siècle aprèsJlésus-Christ. Il a ccmposé un ouvrage intitulé : Tseu-tchi-thoung-khian (Miroir universel à l'usage de ceux qui gouvernent), qui contenait 294 livres de texte, 30 livres de tables et 30 autres livres de dissertations et de discussions.
-        </p></note>
+        <note type="bp">
+         <p>
+          Célèbre historien Chinois qui vivait au XIe siècle aprèsJlésus-Christ. Il a ccmposé un ouvrage intitulé : Tseu-tchi-thoung-khian (Miroir universel à l'usage de ceux qui gouvernent), qui contenait 294 livres de texte, 30 livres de tables et 30 autres livres de dissertations et de discussions.
+         </p>
+        </note>
         , dans les poésies et dans les maximes des littéra¬teurs et des philosophes chinois.
        </p>
        <p xml:id="para_8_118_139">
@@ -1144,10 +1353,14 @@
         La puissance paternelle ainsi que les droits et les devoirs qu'elle entraîne ne sont jamais modifiés par la différence des condi¬tions sociales. Un père est toujours père à l'égard de son fils, de quelque dignité que celui-ci soit revêtu. « Le père d'un gouver¬neur de province ne fût-il qu'un simple paysan, dit le Tai-thsing¬ˉliu-li, si M. le gouverneur, marchant dans la ville avec ses gardes et tout son cortége, rencontre son père et veut continuer son che¬min, au lieu de descendre de la chaise par respect et de saluer son père humblement, le simple paysan a droit d'aller à lui, de le tirer par le bras et de lui donner des souflets comme à un inso¬
        </p>
        <p xml:id="para_8_118_141">
-        Ainsi un père peut battre son fils. De plus, si en frappant pour cause de désobéissance un de leurs enfants ou petits-enfants, ils viennent à le tuer, les parents ne sont passibles d'aucune peine <pb facs="#facs_122" n="119" source="lesouvriersdesde04sociuoft_0125.xml"/> ils l'ont châtié d'une manière légale et ordinaire ; ils sont con¬damnés à cent coups de bambou, sils l'ont chatié d'une facon inusitée et trop sévère ; ils ne sont punis que de soixante coups et d'une année de bannissement, s'ils ont eu l'intention de lui ôter la vie
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        Ainsi un père peut battre son fils. De plus, si en frappant pour cause de désobéissance un de leurs enfants ou petits-enfants, ils viennent à le tuer, les parents ne sont passibles d'aucune peine
+        <pb facs="#facs_122" n="119" source="lesouvriersdesde04sociuoft_0125.xml"/>
+        ils l'ont châtié d'une manière légale et ordinaire ; ils sont con¬damnés à cent coups de bambou, sils l'ont chatié d'une facon inusitée et trop sévère ; ils ne sont punis que de soixante coups et d'une année de bannissement, s'ils ont eu l'intention de lui ôter la vie
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_119_145">
@@ -1161,9 +1374,11 @@
        </p>
        <p xml:id="para_8_119_148">
         Toute personne qui tuera par pur accident les mêmes proches parents sera punie de cent coups et du bannissement perpétuel à la distance de 1,300 kilomètres de son domicile
-        <note type="bp"><p>
-         Id.
-        </p></note>
+        <note type="bp">
+         <p>
+          Id.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_119_149">
@@ -1182,13 +1397,17 @@
         Un fils porte le deuil de ses parents pendant trois ans ; mais après ce temps, il conserve toujours un tendre souvenir pour eux. S'il est vertueux, il les regrette toute sa vie et ne se permet ni joie ni amusement le jour anniversaire de leur mort.
        </p>
        <p xml:id="para_8_119_155">
-        C'est une grande preuve de piété filiale dans un fils de n'oser <pb facs="#facs_123" n="120" source="lesouvriersdesde04sociuoft_0126.xml"/> rien changer pendant trois ans à tout ce qu'avait fait ou réglé son
+        C'est une grande preuve de piété filiale dans un fils de n'oser
+        <pb facs="#facs_123" n="120" source="lesouvriersdesde04sociuoft_0126.xml"/>
+        rien changer pendant trois ans à tout ce qu'avait fait ou réglé son
        </p>
        <p xml:id="para_8_120_156">
         Dans l'antiquité, quand l'empereur était mort, le prince héri¬tier ne se mèlait pas du gouvernement pendant les trois années de deuil, et en laissait le soin à son ministre
-        <note type="bp"><p>
-         Li-ki.
-        </p></note>
+        <note type="bp">
+         <p>
+          Li-ki.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_120_157">
@@ -1196,9 +1415,11 @@
        </p>
        <p xml:id="para_8_120_158">
         On a dérogé à la loi du deuil de trois ans pour les mandarins tartares et on l'a réduit à cent jours. Les Tartares ne sont pas en assez grand nombre pour pouvoir la garder
-        <note type="bp"><p>
-         Taï-thsing-hoeï-tien. Résumé : Mémoire concernant les Chinois, tome IV, p. 131.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-hoeï-tien. Résumé : Mémoire concernant les Chinois, tome IV, p. 131.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_120_159">
@@ -1206,63 +1427,86 @@
        </p>
        <p xml:id="para_8_120_160">
         Ainsi le respect pour l'autorité paternelle s'étend à tous les ascen¬dants, à tous les parents plus âgés. Un fils qui va avec son père reste un pas derrière lui et ne fait que le suivre ; un cadet a la même attention pour son aîné
-        <note type="bp"><p>
-         Li-ki.
-        </p></note>
+        <note type="bp">
+         <p>
+          Li-ki.
+         </p>
+        </note>
         . Un oncle va chez son neveu, un aîné chez son cadet, lui donne des souflets, lorsqu'il s'est mal comporté, et même des coups de bâton. sans que celui-ci ait droit de faire autre chose que de se prosterner pour demander pardon
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_120_161">
-        Enfin l'âge est, en Chine, l'objet d'une vénération qu'on ne re¬trouve nulle part avec la même intensité.  Honorez comme votre père celui qui a le double de votre âge, dit le ˉLi-ki, et comme votre frère aîné celui qui a dix ans de plus que vous.  Dans leur politesse si cérémonieuse, si rafinée, les Chinois ont encore exageré ces rites. Ils ne se contentent pas de donner le titre de lo-gé <pb facs="#facs_124" n="121" source="lesouvriersdesde04sociuoft_0127.xml"/> (vénérable père) à une personne qu'ils traitent avec considération; ils l'emploient souvent avec une personne moins âgée qu'eux de moitié.
+        Enfin l'âge est, en Chine, l'objet d'une vénération qu'on ne re¬trouve nulle part avec la même intensité.  Honorez comme votre père celui qui a le double de votre âge, dit le ˉLi-ki, et comme votre frère aîné celui qui a dix ans de plus que vous.  Dans leur politesse si cérémonieuse, si rafinée, les Chinois ont encore exageré ces rites. Ils ne se contentent pas de donner le titre de lo-gé
+        <pb facs="#facs_124" n="121" source="lesouvriersdesde04sociuoft_0127.xml"/>
+        (vénérable père) à une personne qu'ils traitent avec considération; ils l'emploient souvent avec une personne moins âgée qu'eux de moitié.
        </p>
        <p xml:id="para_8_121_165">
         Le fils doit illusrer son nom et s'immortaliser afin que la gloire en rejaillisse sur ses parents. A l'inverse de ce qui se passe chez nous, les ascendants sont anoblis en raison des vertus et des exploits de leur postérité. A la sollicitation de son premier ministre, fils de houne-tsee, le prince tributaire de Ouei rendit le décret sui¬vant :  Une famine ravageait le royaume de ˉOuei et ton père a donné du riz à ceux qui en manquaient : quelle bienfaisance Le royaume de Oue était au bord de l'abime, et ton père, au péril de ses jours, l'a empêché d'y tomber : quelle fidélié l L'administra¬tion du royaume fut confiée à ton père ; il fit de bons, d'excellents règlements; il maintint la paix et la bonne intelligence avec les états voisins. en même temps qu'il soutint les droits de ma cou¬ronne : quelle sagaesse Aussi je lui accorde un titre de noblesse, et ue ce titre soit le bienfaisant, le fidèle et le sage (Tchie-ˉOuene¬Ouei).  Or. quel était l'auteur de toutes ces grandes choses Le ministre même auquel le décret impérial était adressé ; c'est lui qui s'était montré bienfaisant, fidèle et sage. L'honneur en remon¬tait à son père, comme en Europe il eût passé a ses descendants. « C'est que, dit le Li-i, on se persuade facilement que le père et la mère d'un fils vertueux ont été vertueux eux-mêmes.
        </p>
        <p xml:id="para_8_121_166">
         Ainsi la puissance paternelle n'expire pas au seuil du foyer domestique ; elle s'étend encore dans la vie civile. Un fils est tou¬jours mineur tant que son père est vivant, soit pour sa personne, soit pour ses biens. Ses parents rèlent son mariage sans le consul¬ter. et toute union qu'il contracterait sans leur consentement serait nlle, quel que fût son âge. Le père peut dissiper les biens que son fils a acquis, et, s'il fait des dettes, à moins que ce soit au jeu, son fils en est caution nécessaire et doit les acquitter
-        <note type="bp"><p>
-         Taï-thsing-hoeï-tien.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-hoeï-tien.
+         </p>
+        </note>
         . Les enfants, tant que le père existe. ne peuvent point acquérir un immeuble sans son autorisation ; oute acquisition faite par le fils est naulle, si le contrat n'est point revêtu de la signature du père
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_121_168">
         A côté de cette puissance paternelle dont on vient de marquer les principaux traits, existe une immense responsabilité. Tout chef de famille répond de la conduite de ses enfants ; il répond même de ses domestiques. Le père est puni pour la faute que sa fille a commise, pour les torts qu'a eus son esclave et qu'il aurait dû prévenir.
        </p>
        <p xml:id="para_8_122_168">
-        <pb facs="#facs_125" n="122" source="lesouvriersdesde04sociuoft_0128.xml"/> Ce même principe se retrouve dans les fonctions publiques et est caractéristique du gouvernement chinois.  Chaque ville est divisée en arrondissements de 10 et de 100 maisons, ou, pour employer la désignation chinoise, dix maisons font un bia, et dix ia font un pao ou une centaine. Le magistrat répond pour tout son dis¬trict ; le chef de cent maisons et celui de dix sont responsables chacun de ce qui se passe dans sa circonscription
-        <note type="bp"><p>
-         La Chine, par J.-F. Davis (1897).
-        </p></note>
+        <pb facs="#facs_125" n="122" source="lesouvriersdesde04sociuoft_0128.xml"/>
+        Ce même principe se retrouve dans les fonctions publiques et est caractéristique du gouvernement chinois.  Chaque ville est divisée en arrondissements de 10 et de 100 maisons, ou, pour employer la désignation chinoise, dix maisons font un bia, et dix ia font un pao ou une centaine. Le magistrat répond pour tout son dis¬trict ; le chef de cent maisons et celui de dix sont responsables chacun de ce qui se passe dans sa circonscription
+        <note type="bp">
+         <p>
+          La Chine, par J.-F. Davis (1897).
+         </p>
+        </note>
         . On a vu pour un parricide commis dans une province tous les mandarins desti¬tués. Tin-ou, prince de Tchou, s'imposa lui-même un châti¬ment pour n'avoir pas prévu un paricide commis dans ses états ; il 'abstint de vin pendant une lune entière
-        <note type="bp"><p>
-         Li-ki.
-        </p></note>
+        <note type="bp">
+         <p>
+          Li-ki.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_122_169">
         C'est que l'autorité paternelle est la base du gouvernement chi¬nois ; elle en est le trait fondamental.  L'empereur a comme le père de famille un pouvoir absolu sur tous ses sujets ; mais il a aussi toute la responsabilité de ce dernier. Les philosophes chinois anciens et modernes, tout en reconnaissant au souverain les droits du père de famille, n'ont jamais manqué de lui en rappeler les devoirs, a tel point qu'ils le rendent responsable de la misère des populations et même des calamités publiques. Le plus grand éloge que les écrivains croient faire du prince qui les gouverne, cest de dire qu'il est le pére et la mére du peuple.  Les petits esprits., dit Ouang-Oueu, s'evtasient en lisant les noms pompeux et sonores qu'on a donnés à quelques empereurs ou qu'ils ont pris eux-mêmes, et les sages disent tout bas : ces grands surnoms tous réunis ne donnent pas une si grande idée d'un epereur que les deux mots si simples, si naifs et si vulgaires de père et mère des peuples, dont la bonne antiquité fit un surnom aux bons princes qui aimaient leurs sujets comme leurs enfants et réussirent à les rendre heureux en les rendant meilleurs
-        <note type="bp"><p>
-         Mémoire concernant les Chinois, tome V.
-        </p></note>
+        <note type="bp">
+         <p>
+          Mémoire concernant les Chinois, tome V.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_122_170">
         Dans la préface au livre iao-hing-en-, l'empereur ang-hi s'exprime en ces termes : « Plus j'ai réfléchi sur les principes qui avaient déterminé les empereurs de l'antiquité à gouverner l'uni¬vers par la piété filiale, plus j'ai compris que c'était pour rappro¬cher le gouvernement de sa première origine et s'attacher à ce qui en est l'essence. La piété filiale est le germe et le terme de toutes les vertus. Le Chou-King
-        <note type="bp"><p>
-         Livre des Annales, revu par Confucius; c'est un des cinq King, page 90.
-        </p></note>
+        <note type="bp">
+         <p>
+          Livre des Annales, revu par Confucius; c'est un des cinq King, page 90.
+         </p>
+        </note>
         dit: Méditez la piété filiale pour soutenir la gloire de vos ancêtres, et le Chi-King
-        <note type="bp"><p>
-         Livre des Vers : un des cinq King, page 90.
-        </p></note>
-        : Les pensées de la piété iliale sont lumière. La loi du Tien (ciel), et la raison de l'homme <pb facs="#facs_126" n="123" source="lesouvriersdesde04sociuoft_0129.xml"/> déposent pour elle et n'ont jamais varié depuis la première anti¬quité; chacun doit la pratiquer. C'est pour en consacrer les devoirs que l'empereur monte sur le trône, et personne dans l'univers n'en pore l'observation aussi loin que lui. Du seuil de la porte de l'impératrice mère, où il vient s'assurer de ce qu'on doit servir sur sa table, ses soins s'élèvent par degrés jusqu'aux cérémonies solennelles qu'il fait à ses augustes ancêtres au pied des autels du Chg-T. Tout est lumière dans ce grand exemple ; l'imitation des grands en réfléchit au loin les rayons ; les dix mille peuples entrent dans la voie qu'ils leur montrent, et les quatre mers retentissent des vérités qu'ils leur portent. D
+        <note type="bp">
+         <p>
+          Livre des Vers : un des cinq King, page 90.
+         </p>
+        </note>
+        : Les pensées de la piété iliale sont lumière. La loi du Tien (ciel), et la raison de l'homme
+        <pb facs="#facs_126" n="123" source="lesouvriersdesde04sociuoft_0129.xml"/>
+        déposent pour elle et n'ont jamais varié depuis la première anti¬quité; chacun doit la pratiquer. C'est pour en consacrer les devoirs que l'empereur monte sur le trône, et personne dans l'univers n'en pore l'observation aussi loin que lui. Du seuil de la porte de l'impératrice mère, où il vient s'assurer de ce qu'on doit servir sur sa table, ses soins s'élèvent par degrés jusqu'aux cérémonies solennelles qu'il fait à ses augustes ancêtres au pied des autels du Chg-T. Tout est lumière dans ce grand exemple ; l'imitation des grands en réfléchit au loin les rayons ; les dix mille peuples entrent dans la voie qu'ils leur montrent, et les quatre mers retentissent des vérités qu'ils leur portent. D
        </p>
        <p xml:id="para_8_123_176">
         Enfin le respect pour l'autorité paternelle apparaît encore dans la religion. Impérissable témoin de la vie patriarcale, cue l'on ren¬contre au début de toutes les civilisations antiques, l'adomraaion des ancêtres caractérise en Chine le culte privé et occupe une place essentielle dans le culte public. La salle des ancêtres, dit le ˉLi¬i, est le premier bâtiment qu'on élève quand on bâtit un palais, les vases des cérémonies funèbres sont les premiers qu'on achète ; quelque pauvre qu'on soit, on ne vend point les vases des cérémo¬nies, on ne coupe point les arbres des sépultures.  On a retrouvé cette salle des ancêtres dans une humble habitation de paysans d'Ouang-fou. A Pé-ing, dans la ville rouge interdite (seu-bin¬tchig), s'élève le Tai-miao, grand temple, couvert de tuiles jaunes, dédié aux ancêtres de la famille régnante. A la fin de l'an¬née et aux quatre saisons, les deux plus âés d'entre les princes, en accompagnant ceux de la maison impériale, offrent dans ce temple le sacrifice prescrit devant les tablettes sacrées des ancêtres des empereurs et des impératrices, c'est-à-dire au père, à l'aieul et au bisaieul de l'empereur rénant.
@@ -1271,10 +1515,16 @@
         Telle est la piéé filiale qui, dans le royaume du Milieu, est la vertu par excellence de tous les rangs et de tous les états, de tous les sexes et de tus les âges. Autant et plus qu'aucun de ses sujets l'empereur doit la pratiquer. Rien ne prouve mieux l'importance qu'on lui attribue que le cérémonial avec lequel au premier jour de l'an le Fis du Ciel va saluer sa mère.
        </p>
        <p xml:id="para_8_123_179">
-        Au moment où le soleil commence à paraître sur l'horizon, tous les mandarins de tous les tribunaux (ministères) étant en grands habits de cérémonie, et rangés selon leur rang dans la cour extérieure qui est entre la salle du tr̂ne et la porte intérieure du palais. les princes de tous les ordres et comtes de la famille impé¬riale étant aussi en grands habits de cérémonie et rangés selon leur rang dans la cour de l'intérieur du palais, l'empereur sort de son appartement, porté dans sa chaise de cérémonie pour aller chez <pb facs="#facs_127" n="124" source="lesouvriersdesde04sociuoft_0130.xml"/> sa mère. Comme le palais de l'impératrice est dans l'enceinte du palais et n'est séparé que par quelques cours de celui de l'empereur, ceux qui portent les isignia de l'empire, c'est-à-dire les masses, piques, drapeaux, étendards, etc., ont à peine fait quelques pas. uoiqu'ils se touchent presque les uns les autres, qu'ils sont arrivés dans la première cour du palais de l'impératrice mère. où ils se rangent sur deux lignes ; les mandarins se rangent de même dans la seconde cour, et les princes du sang et comtes de la famille impé¬riale dans la troisième, qui est vis-à-vis de la salle du trône de l'impératrice mère. L'empereur descend de sa chaise dans le vesti¬bule de cette cour et la traverse à pied. Ce n'est pas par l'escalier du milieu, c'est par celui de l'orient que l'empereur monte sur la plate-forme qui est devant la salle du trône de l'impératrice. Dès qu'il est arrivé dans la galerie couverte qui en fait la facade, un mandarin du Li-pou (ministère des rites) se met à genoux et pré¬sente le placet de l'empereur pour prier Sa Majesté l'mpératrice de vouloir bien monter sur son trône pour recevoir ses humbles prosternations. L'eunuque mandarin, à qui on a remis le placet, le porte dans l'intérieur. L'impératrice mère sort en habit de céré¬monie de son appartement, suivie de toute la cour, et monte sur son trône. L'eunuque mandarin en avertit le mandarin du Li-pou, qui est ordinairement le président, et eelui-ci se met à genoux devant l'empereur et le prie de faire sa cérémonie filiale à sa très¬auuste mère. L'empereur s'avance sous la galerie vis-à-vis du g trône de sa mère et se tient debout, les manches abattues et les bras pendants. Les princes qui sont au fond de la cour, et les mandarins qui sont dans la suivante en font autant ; la musique de l'empereur et de l'impératrice jouent ensemble l'air Ping, ui est très- dou et très-tendre: un mandarin crie à haute voix ; te-ros d genor, et dans l'instant l'empereur, les princes et tous les mandarins tombent a genoux. Un moment après, il crie : Pro¬ternex-ros, et tout le monde se prosterne la face contre terre ; il crie : Hedresse-ros, et tout le monde se redresse ; après trois prosternations, il crie : Belere-xous, l'empereur, les princes et tous les mandarins se remettent debout dans la posture où ils étaient d'abord ; puis, tombant à genoux, font trois prosternations nou¬velles, se relèvent encore, retombent à genoux et en font trois autres, se prosternent et se redressent au cri du mandarin, maître des cérémonies. Les neuf prosternations faites, le mandarin du Li-pou se met à genoux et présente un second placet de l'empe¬reur pour inviter l'impératrice mère à retourner dans son apparte¬ment. Le placet est porté dans l'intérieur de la salle, et la musique qui accompagne l'impératrice annonce son départ ; la musique de <pb facs="#facs_128" n="125" source="lesouvriersdesde04sociuoft_0131.xml"/> l'empereur lui répond, et le mandarin du Li-pou vient se proster¬ner devant l'empereur pour lui annoncer que la cérémonie est finie, et l'inviter à s'en retourner dans son appartement. La musique de l'empereur joue une fanfare ; Sa Majesté redescend par l'escalier de l'orient, retraverse la cour à pied et se met dans sa chaise dans le vestibule où elle en était descendue, et retourne dans son apparte¬ment dans le même ordre qu'elle était venue. Alors, la cloche de la grande cour cesse de sonner, car nous avons oublié de dire qu'on commence à la sonner dès que l'empereur sort de chez lui pour cette grande cérémonie. L'impératrice épouse, suivie de toutes les reines, princesses, comtesses de la famille impériale et de toutes les dames de la cour, vient faire aussi ses prosternations à l'impé¬ratrice mère et avec le même cérémonial
-        <note type="bp"><p>
-         Mémoire concernant les Chinois, tome IV.
-        </p></note>
+        Au moment où le soleil commence à paraître sur l'horizon, tous les mandarins de tous les tribunaux (ministères) étant en grands habits de cérémonie, et rangés selon leur rang dans la cour extérieure qui est entre la salle du tr̂ne et la porte intérieure du palais. les princes de tous les ordres et comtes de la famille impé¬riale étant aussi en grands habits de cérémonie et rangés selon leur rang dans la cour de l'intérieur du palais, l'empereur sort de son appartement, porté dans sa chaise de cérémonie pour aller chez
+        <pb facs="#facs_127" n="124" source="lesouvriersdesde04sociuoft_0130.xml"/>
+        sa mère. Comme le palais de l'impératrice est dans l'enceinte du palais et n'est séparé que par quelques cours de celui de l'empereur, ceux qui portent les isignia de l'empire, c'est-à-dire les masses, piques, drapeaux, étendards, etc., ont à peine fait quelques pas. uoiqu'ils se touchent presque les uns les autres, qu'ils sont arrivés dans la première cour du palais de l'impératrice mère. où ils se rangent sur deux lignes ; les mandarins se rangent de même dans la seconde cour, et les princes du sang et comtes de la famille impé¬riale dans la troisième, qui est vis-à-vis de la salle du trône de l'impératrice mère. L'empereur descend de sa chaise dans le vesti¬bule de cette cour et la traverse à pied. Ce n'est pas par l'escalier du milieu, c'est par celui de l'orient que l'empereur monte sur la plate-forme qui est devant la salle du trône de l'impératrice. Dès qu'il est arrivé dans la galerie couverte qui en fait la facade, un mandarin du Li-pou (ministère des rites) se met à genoux et pré¬sente le placet de l'empereur pour prier Sa Majesté l'mpératrice de vouloir bien monter sur son trône pour recevoir ses humbles prosternations. L'eunuque mandarin, à qui on a remis le placet, le porte dans l'intérieur. L'impératrice mère sort en habit de céré¬monie de son appartement, suivie de toute la cour, et monte sur son trône. L'eunuque mandarin en avertit le mandarin du Li-pou, qui est ordinairement le président, et eelui-ci se met à genoux devant l'empereur et le prie de faire sa cérémonie filiale à sa très¬auuste mère. L'empereur s'avance sous la galerie vis-à-vis du g trône de sa mère et se tient debout, les manches abattues et les bras pendants. Les princes qui sont au fond de la cour, et les mandarins qui sont dans la suivante en font autant ; la musique de l'empereur et de l'impératrice jouent ensemble l'air Ping, ui est très- dou et très-tendre: un mandarin crie à haute voix ; te-ros d genor, et dans l'instant l'empereur, les princes et tous les mandarins tombent a genoux. Un moment après, il crie : Pro¬ternex-ros, et tout le monde se prosterne la face contre terre ; il crie : Hedresse-ros, et tout le monde se redresse ; après trois prosternations, il crie : Belere-xous, l'empereur, les princes et tous les mandarins se remettent debout dans la posture où ils étaient d'abord ; puis, tombant à genoux, font trois prosternations nou¬velles, se relèvent encore, retombent à genoux et en font trois autres, se prosternent et se redressent au cri du mandarin, maître des cérémonies. Les neuf prosternations faites, le mandarin du Li-pou se met à genoux et présente un second placet de l'empe¬reur pour inviter l'impératrice mère à retourner dans son apparte¬ment. Le placet est porté dans l'intérieur de la salle, et la musique qui accompagne l'impératrice annonce son départ ; la musique de
+        <pb facs="#facs_128" n="125" source="lesouvriersdesde04sociuoft_0131.xml"/>
+        l'empereur lui répond, et le mandarin du Li-pou vient se proster¬ner devant l'empereur pour lui annoncer que la cérémonie est finie, et l'inviter à s'en retourner dans son appartement. La musique de l'empereur joue une fanfare ; Sa Majesté redescend par l'escalier de l'orient, retraverse la cour à pied et se met dans sa chaise dans le vestibule où elle en était descendue, et retourne dans son apparte¬ment dans le même ordre qu'elle était venue. Alors, la cloche de la grande cour cesse de sonner, car nous avons oublié de dire qu'on commence à la sonner dès que l'empereur sort de chez lui pour cette grande cérémonie. L'impératrice épouse, suivie de toutes les reines, princesses, comtesses de la famille impériale et de toutes les dames de la cour, vient faire aussi ses prosternations à l'impé¬ratrice mère et avec le même cérémonial
+        <note type="bp">
+         <p>
+          Mémoire concernant les Chinois, tome IV.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_125_181">
@@ -1286,8 +1536,10 @@
         (B) SUR LES COMMUNAUTÉS ET SUR LES COUTUMES SUCCESSORALES DES VILLAGES DU NING-PO-FOU.
        </head>
        <p xml:id="para_8_125_184">
-        L'autorité paternelle, dont on vient de voir la prépondérance en Chine, y est, comme partout ailleurs, la base du régime des com¬munautés. La communauté chinoise d'Ouang-fou se rapproche <pb facs="#facs_129" n="126" source="lesouvriersdesde04sociuoft_0132.xml"/> davantage de la communauté russe réunissant plusieurs ménages sous un même toit
-        <ref target="#" type="renvoi_ext_oe"> 
+        L'autorité paternelle, dont on vient de voir la prépondérance en Chine, y est, comme partout ailleurs, la base du régime des com¬munautés. La communauté chinoise d'Ouang-fou se rapproche
+        <pb facs="#facs_129" n="126" source="lesouvriersdesde04sociuoft_0132.xml"/>
+        davantage de la communauté russe réunissant plusieurs ménages sous un même toit
+        <ref target="#" type="renvoi_ext_oe">
          (ˉLes ˉOuv. europ., III)
         </ref>
         , que de celle du Lavedan
@@ -1295,7 +1547,7 @@
          (n° 3)
         </ref>
         qui n'est, à proprement parler, qu'une famille nombreuse se perpétuant sur la même terre, grâce à d'excellentes mœurs et à la transmission intégrale des biens. En Chine, cette association domestique est essentiellement volontaire ; aucune pression de la loi, aucune intervention administrative ne contribue à la maintenir. On la retrouve à la ville comme à la campagne ; néanmoins elle parait exister surtout dans les familles les plus pauvres. Dans ce pays si peuplé, elle est motivée par ces raisons d'économie qui contribuent à la maintenir en Russie et qui la multiplièrent en France. à la dissolution du système féodal, quand le seigneur, pour conjurer les dificultés et l'incertitude que la vie isolée aurait rencontrées dans le principe, imposait aux familles de paysans, en leur con¬cédant une portion de ses terres, l'obligation de vivre en com¬munauté
-        <ref target="#" type="renvoi_ext_oe"> 
+        <ref target="#" type="renvoi_ext_oe">
          (ˉLes ˉOuv. europ., p. 290)
         </ref>
         . A ces motifs d'économie, il faut ajouter les intérêts d'une bonne direction. Dans le royaume du Milieu, plus qu'en ussie de nos jours, plus qu'en lrance au moyen âge, la supériorité des vieillards sur les jeunes gens est un fait incontestable ; elle résulte du développement intellectuel du peuple chinois, dont l'activité est essentiellement pratique.
@@ -1308,13 +1560,16 @@
        </p>
        <p xml:id="para_8_126_187">
         On peut se demander à ce sujet si en Chine, où l'autorité pater¬nelle est armée de tant de droits, existe la liberté de tester. Le code pénal ne dit rien à cet égard. Prévoyant seulement le cas où, après la mort des parents, la famille, dont le fils aîné devient le chef, se dissout, il prescrit, sous des peines déterminées, l'égalité des partages entre les branches aînées et cadettes
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_127_189">
-        <pb facs="#facs_130" n="127" source="lesouvriersdesde04sociuoft_0133.xml"/> Voici d'ailleurs quelles sont les coutumes en vigueur dans les villages du ing-pô-ou, en matière de succession.
+        <pb facs="#facs_130" n="127" source="lesouvriersdesde04sociuoft_0133.xml"/>
+        Voici d'ailleurs quelles sont les coutumes en vigueur dans les villages du ing-pô-ou, en matière de succession.
        </p>
        <p xml:id="para_8_127_190">
         Le testament n'y est pas en usage, dans le cas où existent des héritiers mâles. A la mort du chel de famille, sa veuve devient propriétaire du bien. Le fils aîné en prend la direction matérielle et entre en possession de tous les droits de la paternité sur ses frères cadets. Ceux-ci lui doivent la même déférence, la même sou¬mission et le même respect que s'il était leur père. La communauté peut alors se dissoudre, mais seulement du consentement de la veuve, qui va manger alternativement pendant trois jours chez chacun de ses enfants.
@@ -1327,19 +1582,25 @@
        </p>
        <p xml:id="para_8_127_193">
         Quand un homme n'a que des filles, il adopte habituellement un fils aimé (hé-tseu), auquel il laisse par testament une portion de son bien. L'adoption joue un grand rôle en Chine. n père attache la plus grande importance à avoir un fils ; il est atteint d'un véri¬table désespoir quand il est privé de cette consolation. Il se croit déshonoré ; sa famille est éteinte ; personne n'héritera de son nom ; ses filles le perdront, en passant dans la famille de leur mari; on ne fera point en son honneur les cérémonies que les rites prescrivent ; on ne brûlera point des parfums ; on ne lui offrira pas des mets ; onn'arrangera pas ses habits ; on ne tiendra pas sa place vacante au milieu de sa famille, comme cela est recommandé dans le cong-yong ; on ne remuera pas la terre sur sa sépulture : on ne cultivera pas les arbres qui y seraient plantés ; au jour anni¬verSaire de sa mort, on ne viendra pas pleurer et se lamenter sur son tombeau
-        <note type="bp"><p>
-         Mélanges asiatiques, par Abel Rémusat, tome II.
-        </p></note>
+        <note type="bp">
+         <p>
+          Mélanges asiatiques, par Abel Rémusat, tome II.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_127_195">
-        Le droit d'adoption est en Chine limité par la loi. Un père ne <pb facs="#facs_131" n="128" source="lesouvriersdesde04sociuoft_0134.xml"/> peut l'exercer en dehors de sa famille, s'il a des neveux ou des cousins.
+        Le droit d'adoption est en Chine limité par la loi. Un père ne
+        <pb facs="#facs_131" n="128" source="lesouvriersdesde04sociuoft_0134.xml"/>
+        peut l'exercer en dehors de sa famille, s'il a des neveux ou des cousins.
        </p>
        <p xml:id="para_8_128_196">
         Un homme qui n'aura point d'enfants mâles se choisira un hé¬ritier parmi ceux qui porteront le même nom que lui, et qui seront connus pour descendants des mêmes ancètres, en commençant premièrement par les enfants de son père; secondement parmi ses parents au premier degré ; troisièmement, parmi ceux du se¬cond degré ; quatrièmement, parmi ceux du troisième degré ; et cinquièmement, parmi ceux du quatrième degré ; à défaut de ceux-ci, il aura la liberté de choisir qui il voudra parmi ceux qui auront le même nom que lui. Si ensuite il vient à lui naitre un ils, ce fils et l'heriter nommé partageront cgalement dans les biens de famille
-        <note type="bp"><p>
-         Taï-thsing-liu-ti, Statuts supplémentaires.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-ti, Statuts supplémentaires.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_128_197">
@@ -1354,7 +1615,9 @@
         (C) SUR LES CÉRÉMONIES DU MARIAGE DANS LE NING-PO-FOU.
        </head>
        <p xml:id="para_8_128_200">
-        Le mariage est toujours déterminé par les parents. Le père et la mère, et, à leur défaut, les aieuls et aieules, ou enfin les plus <pb facs="#facs_132" n="129" source="lesouvriersdesde04sociuoft_0135.xml"/> proches parents du côté paternel et ensuite ceux du côté maternel jouissent d'une autorité absolue pour régler les mariages des en¬fants. lien n'est plus ordinaire pour les Chinois que d'arrêter les articles d'un mariage, longtemps avant que les parties soient en âge de le contracter. Souvent même deux amis se promettent avec solennité d'unir les enfants qui naitront d'eux, s]ils sont d'un sexe dilférent. La chose la plus essentielle dans une alliance est que les deux parties contractantes soient égales en rang et en situation, ou, comme disent les Chinois, que les portes (en) correspondent.
+        Le mariage est toujours déterminé par les parents. Le père et la mère, et, à leur défaut, les aieuls et aieules, ou enfin les plus
+        <pb facs="#facs_132" n="129" source="lesouvriersdesde04sociuoft_0135.xml"/>
+        proches parents du côté paternel et ensuite ceux du côté maternel jouissent d'une autorité absolue pour régler les mariages des en¬fants. lien n'est plus ordinaire pour les Chinois que d'arrêter les articles d'un mariage, longtemps avant que les parties soient en âge de le contracter. Souvent même deux amis se promettent avec solennité d'unir les enfants qui naitront d'eux, s]ils sont d'un sexe dilférent. La chose la plus essentielle dans une alliance est que les deux parties contractantes soient égales en rang et en situation, ou, comme disent les Chinois, que les portes (en) correspondent.
        </p>
        <p xml:id="para_8_129_203">
         Le mariage est précédé d'une négociation appelée ping, laquelle est conduite par des amis ou bien par des agents et des entremet¬teues choisis par les parents. Du côté de la jeune fille, l'intermé¬diaire est une lfemme ; c'est un homme ducôté du jeune homme. C'est alors qu'on invoque le secours de l'astrologie, et que des diseuses de bonne aveuture (che-mng) tirent d'après les huit caractères pd-tseu) les horoscopes des luturs epoux. ll y a deux caracteres pour l'année, deux pour le mois, deux pour le jour, et deux pour l'heure de la naissance. On cherche des presages divers dans la combinaison de ces caractères, et le premier soin des parents qui veulent marier leurs eulants est d'èchanger leurs huit caractères et de les comparer pour voir si, d'après les règles de l'astrologige, ils annoncent une parlaite compatiblité d'humeurs et de destinées. Ces formalités remplies et les conditions du mariage arrètées, une convention siguee est échangée entre les pères.
@@ -1363,7 +1626,8 @@
         C'est à ce contrat que commencent les liançailles (hoen-ti) qui précèdent ordinairement le mariage d'un ou deux ans. ln ratifica¬tion de l'union, le futur époux envoie des présents à sa fiancée. C'est alors que les parents de la jeune fille fixent le jour de la célé¬bration du mariage. lour choisir un jour heureux, on consulte le calendrier, qui joue un si grand role dans un pays où le culte véritable a toujours été l'adoration des astres. Cette détermination est d'une importance telle que, pour attendre un jour lavorable, on remet quelquefois la cérémonie à plusieurs mois. On considère le printemps comme l'époque la plus fortunée pour le mariage, et l'on prél̀re surtout la première lune de l'année chinoise (lévrier). Ces précautions minutieuses pour mettre les événements de la vie privée en hamonie avec les phénomènes astronomiques se retrou¬vent, à toutes les époques de l'histoire, chez les peuples dont les croyauces sont fétichiques. Dans ˉphigeniecn Audide, une des tra¬gédies d'Euripide, on en trouve un exemple remarquable. Clyte¬nesre dit à son époux : Quel jour notre enfant se mariera-t-elle3 Celui-ci répond : Lorsque le disque d'une lune heureuse apparaltra.
        </p>
        <p xml:id="para_8_130_205">
-        <pb facs="#facs_133" n="130" source="lesouvriersdesde04sociuoft_0136.xml"/> Les parents de la jeune fille font connaître a ceux du jeune homme le jour qu'ils ont choisi, et alors commence la deuxième cérémonie (rdô-ping). le futur époux envoie à sa fiancée des ca¬deax de noce. bDans les classes aisées, ces cadeaux consistent en soieries, en étoffes diverses, en bijoux tels que aiguilles de tête et bracelets ; il y a aussi une certaine somme d'argent pour montrer que le mari achete sa femme. Chez les cultivateurs on ne donne pas de corbeille, mais une somme de 100 à 200 francs, suivant la for¬tune que l'on possède. bLa jeune ille n'apporte jamais d'argent à son mari. Dans les familles de paysans, sa dot consiste en vête¬ments pour les quatre saisons, en articles de toilette, en ustensiles de ménage, ctc. Dans les familles riches, la tille reçoit en cadeaux des terres, des bufs, des instrunments de culture, des bateaux, des femmes de chambre, des malles remplies de vêtements, de linge, de fourrures, et tout ce qui est nécessaire dans une maison, sau le mobilier que le mari apporte toujours. Les familles célèbrent par des diners cette seconde cérémonie du ro-pg, ais chacune de son côté et sans se réunir entre elles.
+        <pb facs="#facs_133" n="130" source="lesouvriersdesde04sociuoft_0136.xml"/>
+        Les parents de la jeune fille font connaître a ceux du jeune homme le jour qu'ils ont choisi, et alors commence la deuxième cérémonie (rdô-ping). le futur époux envoie à sa fiancée des ca¬deax de noce. bDans les classes aisées, ces cadeaux consistent en soieries, en étoffes diverses, en bijoux tels que aiguilles de tête et bracelets ; il y a aussi une certaine somme d'argent pour montrer que le mari achete sa femme. Chez les cultivateurs on ne donne pas de corbeille, mais une somme de 100 à 200 francs, suivant la for¬tune que l'on possède. bLa jeune ille n'apporte jamais d'argent à son mari. Dans les familles de paysans, sa dot consiste en vête¬ments pour les quatre saisons, en articles de toilette, en ustensiles de ménage, ctc. Dans les familles riches, la tille reçoit en cadeaux des terres, des bufs, des instrunments de culture, des bateaux, des femmes de chambre, des malles remplies de vêtements, de linge, de fourrures, et tout ce qui est nécessaire dans une maison, sau le mobilier que le mari apporte toujours. Les familles célèbrent par des diners cette seconde cérémonie du ro-pg, ais chacune de son côté et sans se réunir entre elles.
        </p>
        <p xml:id="para_8_130_206">
         Entre le rô-ping et le hdo-tsig (mariage), les deux familles se livrent aux preparatifs du mariage. andis que chez la jeune fille on conlectionne le trousseau, on prépare à la maison du jeune homme la chaise de bois sculpté, garnie de soie rouge parfumée, qui doit transporter la mariée. On prépare également les tentures, les ta¬bleaux et les fleurs qui doivent orner les appartements. Dans les classes pauvres, et ème dans les familles aisées, on se procure tous ces objets par location.
@@ -1372,7 +1636,9 @@
         Arrive enfin la troisième cérémonie, celle du mariage. La veille, la jeune fille rase ses cheveux comme les femmes mariées, de manière à donner au front une forme carrée. Dans la famille du jeune homme on offre des sacrifices au Chag-ti (Ciel). Le jour des noces la fiancée reçoit de ses parents et de ses amies des ca¬deaux qui consistent principalement en objets de toilette. Les parents du jeune homme lui envoient des gâteaux, du vin, des volailles et des viandes, des oies vivantes, comme emblème de la concorde qui doit régner dans un ménage ; ses amis lui donnent de l'argent.
        </p>
        <p xml:id="para_8_130_209">
-        Lorsque l'heure solennelle est arrivée, le jeune homme envoie la chaise à sa iancée. ne troupe de musiciens l'accompagne ainsi quun cortége de parents et d'amis portant des lanternes et des parfums. La fiancee, tout habillée de rouge, entourée d'un long voile qui descend jusqu'a terre, le front orné de joyaux et de fleurs, est transportée à bras dans la chaise, dont les rideaux sont fermés. Tout ce qui lui appartient et les divers effets qui composent son <pb facs="#facs_134" n="131" source="lesouvriersdesde04sociuoft_0137.xml"/> trousseau sont portés autour d'elle par diférentes personnes des deux sexes. Les musiciens la précèdent, la famille la suit avec des torches et des lanternes, bien que la cérémonie, qui se fait la nuit dans certaines provinces (ainsi le iang-nan), ait lieu pendant le jour dans le Tchè-iang. Quand la chaise entre sous la porte de la maison du mari, des pètards éclatent de tous côtés : les ung-l0 (gongs). les siaou-po (cimbales), les hig-tih (clarinettes), les g (violons), les pc-p (guitares), les hie-bin (tympanons), les sng et les hung (cornemuses et harpes), retentissent avec une nouvelle énergie.
+        Lorsque l'heure solennelle est arrivée, le jeune homme envoie la chaise à sa iancée. ne troupe de musiciens l'accompagne ainsi quun cortége de parents et d'amis portant des lanternes et des parfums. La fiancee, tout habillée de rouge, entourée d'un long voile qui descend jusqu'a terre, le front orné de joyaux et de fleurs, est transportée à bras dans la chaise, dont les rideaux sont fermés. Tout ce qui lui appartient et les divers effets qui composent son
+        <pb facs="#facs_134" n="131" source="lesouvriersdesde04sociuoft_0137.xml"/>
+        trousseau sont portés autour d'elle par diférentes personnes des deux sexes. Les musiciens la précèdent, la famille la suit avec des torches et des lanternes, bien que la cérémonie, qui se fait la nuit dans certaines provinces (ainsi le iang-nan), ait lieu pendant le jour dans le Tchè-iang. Quand la chaise entre sous la porte de la maison du mari, des pètards éclatent de tous côtés : les ung-l0 (gongs). les siaou-po (cimbales), les hig-tih (clarinettes), les g (violons), les pc-p (guitares), les hie-bin (tympanons), les sng et les hung (cornemuses et harpes), retentissent avec une nouvelle énergie.
        </p>
        <p xml:id="para_8_131_210">
         La chaise est portée au milieu de la salle des cérémonies oi attend le fiancé. Deux demoiselles d'honneur frappent à la porte avec le fleau d'une balance ; des femmes l'ouvrent ; la fiancée sort et on s'incline devant elle.
@@ -1384,7 +1650,9 @@
         Les deux époux montent sur un marche pied placé devant le lit ; ils se saluent, on leur donne du vin de riz auquel on mêle quelques grains de euphr (qui signitie lien). Ils boivent en échangeant leurs tasses. On soulève les couvertures ; le jeune homme s'en va et la jeune fille reste dans la chambre.
        </p>
        <p xml:id="para_8_131_214">
-        Après la cérémonie, les hommes d'un côté, les femmes de l'autre se mettent à table pour un grand diner. Les fiancés y assistent sans y prendre part ; ils saluent de temps en temps l'assemblée, par exemple chaque fois qu'on apporte un plat nou¬veau, et toujours avec ce cérémonial que la politesse chinoise a rafiné pour les plus petites choses. Le soir un nouveau repas réunit les invités ; mais le jeune homme seul est présent et y prend part: il mange, il boit, il joue jusqu'à minuit, heure à laquelle il va trouver sa fiancée. Les plaisanteries les plus graveleuses accompagnent toujours chez les Chinois ces sortes de réunions. Les réjouissances continuent pendant trois jours, mais seulement entre les parents. Pendant ces trois jours, la mariée ne sort pas de sa chambre, du moins à la campagne : car, à la ville, elle reste un mois sans en franchir le seuil. Ce n'est qu'au bout de ce mois que les époux et la famille du marié vont rendre visite <pb facs="#facs_135" n="132" source="lesouvriersdesde04sociuoft_0138.xml"/> aux parents de la jeune femme, qui n'assistent jamais à la noce.
+        Après la cérémonie, les hommes d'un côté, les femmes de l'autre se mettent à table pour un grand diner. Les fiancés y assistent sans y prendre part ; ils saluent de temps en temps l'assemblée, par exemple chaque fois qu'on apporte un plat nou¬veau, et toujours avec ce cérémonial que la politesse chinoise a rafiné pour les plus petites choses. Le soir un nouveau repas réunit les invités ; mais le jeune homme seul est présent et y prend part: il mange, il boit, il joue jusqu'à minuit, heure à laquelle il va trouver sa fiancée. Les plaisanteries les plus graveleuses accompagnent toujours chez les Chinois ces sortes de réunions. Les réjouissances continuent pendant trois jours, mais seulement entre les parents. Pendant ces trois jours, la mariée ne sort pas de sa chambre, du moins à la campagne : car, à la ville, elle reste un mois sans en franchir le seuil. Ce n'est qu'au bout de ce mois que les époux et la famille du marié vont rendre visite
+        <pb facs="#facs_135" n="132" source="lesouvriersdesde04sociuoft_0138.xml"/>
+        aux parents de la jeune femme, qui n'assistent jamais à la noce.
        </p>
        <p xml:id="para_8_132_215">
         Telles sont les cérémonies qui accompagnent le mariage dans le Ning-pô-fou. Ces cérémonies sont purement civiles et on ne voit jamais intervenir de consécration religieuse ni chez les confu¬céens, ni chez les bouddhistes, ni chez les tao-sse. Le mariage est pour les Chinois l'acte essentiel de la vie. Telle est l'imporance qu'ils y attachent que les familles les moins aisées ne reculent devant aucune des dépenses qu'il entraîne. n vend des terres, on emprunte de l'argent, on met ses effets au mont-de-piété pour le célébrer d'après les usages établis, pour subvenir aux frais qu'occa¬sionnent les réjouissances à donner aux parents et aux amis.
@@ -1399,17 +1667,23 @@
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
-        que la polyganie. quoique permise en Chine, n'y est pas cependant un fait général et qu'on ne la rencontre habi¬tuellement, surtout dans les campagnes, que dans deux conditions : absence de postéritémâle et possibilité de nourrir plusieurs femmes. A la ville, il arrive souvent qu'un mandarin, par exemple, dont la femme est arrivée à un certain âge, s'éprend de quelque jeune fille d'une classe inférieure et l'épouse. Cette polygamie ne doit pas être confondue toutefois avec celle des pays musulmans. Il n'y a pas de harem en Chine ; il n'arive jamais, comme en Turquie et en l'erse, qu'un grand seigneur, par le seul fait de sa position, soit tenu d'avoir plusieurs emmes. Ces lemmes d'ailleurs ne sont pas des concubines. ll est bien vrai que, andis que la femme principale, est ordinairement choisie par les parents dans une famille égale à la leur, les femmes secondaires le sont par leur mari sans égard pour la parité des alliances ; mais on les épouse toujours avec certaines cérémonies qui, pour être moins compliquées que celles du mariage, n'en sont pas moins parfaitement déterminées. En outre, les enfants, dont elles devienneut mères, ont un droit à la succession paternelle. Cependant la seconde femme est tenue à l'égard de la femme principale dans un ètat de complète subordination, qu'exprime bien l'écritre chinoise. 'andis que le caractère qui représente la femme est accompagné d'un second caractère, qui signitie piceaau, contrat, pour la femme légitime (thsi), il est pour <pb facs="#facs_136" n="133" source="lesouvriersdesde04sociuoft_0139.xml"/> la femme secondaire (thsiéi), accompagné d'un caractère qui veut dire se tenir debout.
+        que la polyganie. quoique permise en Chine, n'y est pas cependant un fait général et qu'on ne la rencontre habi¬tuellement, surtout dans les campagnes, que dans deux conditions : absence de postéritémâle et possibilité de nourrir plusieurs femmes. A la ville, il arrive souvent qu'un mandarin, par exemple, dont la femme est arrivée à un certain âge, s'éprend de quelque jeune fille d'une classe inférieure et l'épouse. Cette polygamie ne doit pas être confondue toutefois avec celle des pays musulmans. Il n'y a pas de harem en Chine ; il n'arive jamais, comme en Turquie et en l'erse, qu'un grand seigneur, par le seul fait de sa position, soit tenu d'avoir plusieurs emmes. Ces lemmes d'ailleurs ne sont pas des concubines. ll est bien vrai que, andis que la femme principale, est ordinairement choisie par les parents dans une famille égale à la leur, les femmes secondaires le sont par leur mari sans égard pour la parité des alliances ; mais on les épouse toujours avec certaines cérémonies qui, pour être moins compliquées que celles du mariage, n'en sont pas moins parfaitement déterminées. En outre, les enfants, dont elles devienneut mères, ont un droit à la succession paternelle. Cependant la seconde femme est tenue à l'égard de la femme principale dans un ètat de complète subordination, qu'exprime bien l'écritre chinoise. 'andis que le caractère qui représente la femme est accompagné d'un second caractère, qui signitie piceaau, contrat, pour la femme légitime (thsi), il est pour
+        <pb facs="#facs_136" n="133" source="lesouvriersdesde04sociuoft_0139.xml"/>
+        la femme secondaire (thsiéi), accompagné d'un caractère qui veut dire se tenir debout.
        </p>
        <p xml:id="para_8_133_219">
         Le mariage est soumis en Chine à des lois restrictives assez nombreuses. Ainsi, un homme ne peut épouser une femme qui porte le même nom que lui. Un paysan d'Ouang-fou, dont tous les habitants appartiennent à la même famille, ne peut prendre femme que dans un autre village. Toute union est aussi défendue entre personnes parentes par alliance au 4ᵉ deré. Ces restrictions doivent faire naître quelques embarras dans une immense popula¬tion, où il n'y a pas plus de 2,400 noms de famille (sing)
-        <note type="bp"><p>
-         On ne trouve dans la Biographie universelle que 2,345 de familles différents, dont les plus communs sont Tchin, Yang, Ouang et Li. Les noms de deux syllabes sont au nombre de 700 environ; nénamoins, depuis l'antiquité jusqu'à nos jours, la loi qui interdit le mariage entre les Touang-sing a été ûdèlemeut observée.
-        </p></note>
+        <note type="bp">
+         <p>
+          On ne trouve dans la Biographie universelle que 2,345 de familles différents, dont les plus communs sont Tchin, Yang, Ouang et Li. Les noms de deux syllabes sont au nombre de 700 environ; nénamoins, depuis l'antiquité jusqu'à nos jours, la loi qui interdit le mariage entre les Touang-sing a été ûdèlemeut observée.
+         </p>
+        </note>
         . Voici quel est le texte de la loi
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         :
        </p>
        <p xml:id="para_8_133_220">
@@ -1431,7 +1705,9 @@
         Il y a encore d'autres circonstances pour lesquelles le mariage est interdit ou déclaré nul, s'il a eu lieu. Les voici :
        </p>
        <p xml:id="para_8_133_227">
-        1ᵉ° Si une fille a été promise à un jeune homme, si les pré<pb facs="#facs_137" n="134" source="lesouvriersdesde04sociuoft_0140.xml"/>sents ont été acceptés par les parents, la fille ne peut plus avoir d'autre mari.
+        1ᵉ° Si une fille a été promise à un jeune homme, si les pré
+        <pb facs="#facs_137" n="134" source="lesouvriersdesde04sociuoft_0140.xml"/>
+        sents ont été acceptés par les parents, la fille ne peut plus avoir d'autre mari.
        </p>
        <p xml:id="para_8_134_228">
         2ᵉ° Si à la place d'une belle personne qu'on aura fait voir à l'entremetteuse, on en substitue une autre d'une figure désa¬gréable, ou si l'on mariait la fille d'un homme libre avec un esclave, ou enfin si celui qui donnerait son esclave à une fille libre persua¬dait aux parents de la fille qu'il est son fils ou son parent, le mariage est nul dans toutes ces suppositions et ceux qui ont par¬ticipé à la fraudersont rigoureusement punis.
@@ -1441,9 +1717,11 @@
        </p>
        <p xml:id="para_8_134_230">
         4° Le mariage est encore interdit à tout homme et à toute femme durant le deuil, soit de son père, soit de sa mère. Si les promesses ont été faites avant cette mort, tout engagement cesse à cette époque. Le jeune homme doit avertir de cet événement les parents de la fille, qui lui était promise. Mais ils ne sont point dégagés de leur promesse ; ils laissent expirer le temps du deuil, écrivent ensuite au jeune homme pour lui rappeler sa parole. La fille est libre, s'il n'y persiste pas. Il est également défendu à une veuve de convoler en secondes noces, avant l'expiration du temps pendant lequel la loi veut qu'elle porte le deuil de son époux
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_134_231">
@@ -1453,7 +1731,9 @@
         Quand deux époux ne se conviennent point, et que d'un com¬mun accord ils désirent se séparer, la loi, qui fixe des bornes au droit de divorcer, n'y peut mettre opposition .
        </p>
        <p xml:id="para_8_134_233">
-        En dehors des causes spécifiées ci-dessus, tout mari qui répu¬diera sa femme subira la peine de 80 coups. oute femme qui abandonnera la maison de son mari, sans qu'il consente au <pb facs="#facs_138" n="135" source="lesouvriersdesde04sociuoft_0141.xml"/> divorce, sera punie de 100 coups, et son mari pourra la vendre à celui qui voudra l'épouser ; et si, pendant qu'elle est hors de chez lui, elle se marie à un autre, elle subira la mort par strangu¬
+        En dehors des causes spécifiées ci-dessus, tout mari qui répu¬diera sa femme subira la peine de 80 coups. oute femme qui abandonnera la maison de son mari, sans qu'il consente au
+        <pb facs="#facs_138" n="135" source="lesouvriersdesde04sociuoft_0141.xml"/>
+        divorce, sera punie de 100 coups, et son mari pourra la vendre à celui qui voudra l'épouser ; et si, pendant qu'elle est hors de chez lui, elle se marie à un autre, elle subira la mort par strangu¬
        </p>
        <p xml:id="para_8_135_236">
         Tel est sur le mariage le texte rigoureux du code pénal. Mais la coutume actuelle accuse un certain adoucissement dans les meurs ; car il n'y a plus que l'adultère bien constaté, l'adultère même sur¬pris en lagrant délit, qui entraîne ordinairement la separation des
@@ -1466,9 +1746,11 @@
        </p>
        <p xml:id="para_8_135_239">
         Un mari ne sera point puni pour avoir battu sa femme princi¬pale, à moins qu'il ne l'ait blessée en la frappant avec un instru¬ment tranchant. Si la blessure devient mortelle, ledit mari subira la mort par strangulation
-        <note type="bp"><p>
-         Taï-thsing-liu-li.
-        </p></note>
+        <note type="bp">
+         <p>
+          Taï-thsing-liu-li.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_135_240">
@@ -1484,17 +1766,23 @@
         Dans tous les cas où un mari consentira à l'adultère d'une de ses femmes, le mari, l'adulère et sa complice seront punis chacun de 90 coups . 1
        </p>
        <p xml:id="para_8_135_245">
-        Ici encore il s'est opéré dans les mœurs une amélioration pro¬gressive, et la situation de la femme en Chine est bien préférable à celle qui lui est faite dans d'autres contrées de l'Asie. La présente monographie prouve bien qu'on ne doit pas prendre à la lettre ces paroles si souvent citées ;  La femme ne doit prendre aucune part dans la direction des affaires de la famille, et il y a trois personnes auxquelles elle doit successivement obéissance : 1ᵉ à son pdre, pen¬dant qu'elle est dans la maison paternelle; 2ᵉ a son mari, après qu'elle a été mariée; 3ᵉ si elle devient veuve, à son fils aîné. Dans <pb facs="#facs_139" n="136" source="lesouvriersdesde04sociuoft_0142.xml"/> aucune circonstance de sa vie, elle ne doit être maîtresse absolue d'elle-même
-        <note type="bp"><p>
-         Tièn-kou-ni-niu-tchouan (traditions sur les devoirs des femmes dans l'antiquité).
-        </p></note>
+        Ici encore il s'est opéré dans les mœurs une amélioration pro¬gressive, et la situation de la femme en Chine est bien préférable à celle qui lui est faite dans d'autres contrées de l'Asie. La présente monographie prouve bien qu'on ne doit pas prendre à la lettre ces paroles si souvent citées ;  La femme ne doit prendre aucune part dans la direction des affaires de la famille, et il y a trois personnes auxquelles elle doit successivement obéissance : 1ᵉ à son pdre, pen¬dant qu'elle est dans la maison paternelle; 2ᵉ a son mari, après qu'elle a été mariée; 3ᵉ si elle devient veuve, à son fils aîné. Dans
+        <pb facs="#facs_139" n="136" source="lesouvriersdesde04sociuoft_0142.xml"/>
+        aucune circonstance de sa vie, elle ne doit être maîtresse absolue d'elle-même
+        <note type="bp">
+         <p>
+          Tièn-kou-ni-niu-tchouan (traditions sur les devoirs des femmes dans l'antiquité).
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_136_246">
         D'ailleurs, dans un pays où la vénération a été considérée de tout temps comme la principale vertu, les femmes ne souffent nulle¬ment du respect et de l'obéissance qu'en toute occasion elles doivent témoigner à leur mari. Préoccupées uiquement de leurs devoirs, elles ne songent jamais à réclamer de droits. Une femme célèbre, qui vivait sous l'empereur lo-i (89 à 106 ap. .C.), et qui est comptée parmi les écrivains les plus illustres, Pan-hoei-pan, a glo¬rifié ces devoirs dans quelques pages sublimes
-        <note type="bp"><p>
-         Niu-kié-tsi-pien, ouvrage en sept chapitres, traduit du chinois, par le père Amyot.
-        </p></note>
+        <note type="bp">
+         <p>
+          Niu-kié-tsi-pien, ouvrage en sept chapitres, traduit du chinois, par le père Amyot.
+         </p>
+        </note>
         qui rappellent ce précepte d'ristote : a Le plus grand mérite de la femme est de surmonter la difficulté d'obéir. —  Ne vous relâchez jamais, dit¬elle, sur la pratique des deux vertus que je regarde comme le fon¬dement de tous les autres, et qui doivent être votre plus brillante parure. Ces deux vertus principales sont : un respect sans bornes pour celui dont vous portez le nom, et une attention continuelle sur vous-même. Le respect attire le respect, un respect sans bornes fait naître l'estime, et de l'estime il se forme une affection durable à l'épreuve de tous les événements. L'attention sur soi-même lait éviter les fautes ; une attention continuelle est comme le correctif des défauts auxquels nous ne sommes que trop sujettes.
        </p>
        <p xml:id="para_8_136_247">
@@ -1506,7 +1794,9 @@
         (E) SUR LES INSTTUTIONS MUNICIPALES DU VILLAGE D'OUANG-FOU ET LES CIRCON¬SCRIPTIONS ADMINISTRATIVES AUXQUELLES IL SE RATTACHE.
        </head>
        <p xml:id="para_8_136_249">
-        Le nom de fou, qui est donné en Chine aux premières villes de l'empire, constitue pour les villages qui le portent également une sorte de distinction nobiliaire. Le village ordinaire s'appelle tsung; <pb facs="#facs_140" n="137" source="lesouvriersdesde04sociuoft_0143.xml"/> on désigne par lchun le bourg habité surtout par des commer¬
+        Le nom de fou, qui est donné en Chine aux premières villes de l'empire, constitue pour les villages qui le portent également une sorte de distinction nobiliaire. Le village ordinaire s'appelle tsung;
+        <pb facs="#facs_140" n="137" source="lesouvriersdesde04sociuoft_0143.xml"/>
+        on désigne par lchun le bourg habité surtout par des commer¬
        </p>
        <p xml:id="para_8_137_252">
         Ouang-fou, ainsi que les autres villages goupés autour de la pagode de Ouei-tung-se, fait partie du tou de Li-che-tou-ni-dou
@@ -1567,7 +1857,8 @@
         hin-tchéou-fou,
         </p>-->
        <p xml:id="para_8_138_268">
-        <pb facs="#facs_141" n="138" source="lesouvriersdesde04sociuoft_0144.xml"/> administre le trésor du village. Ce trésor est formé des revenus des biens communaux, destinés dès l'origine du village à subvenir à l'entretien de la pagode des ancêtres et aux dépenses des fêtes publiques. Ces biens s'augmentent continuellement de dons de terres faits par des personnes riches qui meurent sans enfants. Dans chaque génération toutes les familles sont chargées successi¬vement d'ordonner, sous la direction du tchon-tchiang, les fêtes du printemps et le l'automne
+        <pb facs="#facs_141" n="138" source="lesouvriersdesde04sociuoft_0144.xml"/>
+        administre le trésor du village. Ce trésor est formé des revenus des biens communaux, destinés dès l'origine du village à subvenir à l'entretien de la pagode des ancêtres et aux dépenses des fêtes publiques. Ces biens s'augmentent continuellement de dons de terres faits par des personnes riches qui meurent sans enfants. Dans chaque génération toutes les familles sont chargées successi¬vement d'ordonner, sous la direction du tchon-tchiang, les fêtes du printemps et le l'automne
         <ref target="#part_03_01_24" type="renvoi_int_mono">
          (H)
         </ref>
@@ -1589,7 +1880,9 @@
         Le bouddhisme eut pour but la réforme intellectuelle et sociale du milieu dans lequel il surgit. Le tableau de la civilisation des Brahmes et l'étude des modifications que le bouddhisme y ap¬porta trouveront place dans la monographie d'un ouvrier indien. Réénéré peu à pneu au contact de la religion nouvelle, le brahma¬nisme, vaincu, finit, après douze siècles d'asservissement, par re¬pDrendre la supériorité politique, et le bouddhisme fut chassé de l'Inde au xvᵉ siecle. On le trouve aujourd'hui en vigueur à Ceylan, au Népaul, au Thibet, en Tartarie, en Cochinchine, et enfin dan l'empire du Milieu.
        </p>
        <p xml:id="para_8_138_273">
-        C'est au Iᵉʳ siecle de l'ère chrétienne que le culte de Fô, déjà connu en Chine, y fut inroduit officiellement par un bouddhiste indien, appelé par l'empereur Ming-ti, de la dynastie des Ham. Il s'y propagea rapidement, surtout dans les classes pauvres, et se <pb facs="#facs_142" n="139" source="lesouvriersdesde04sociuoft_0145.xml"/> laissa modifier par les idées religieuses dominantes dans ce pays, sans exercer d'action sensible sur sa civilisation.
+        C'est au Iᵉʳ siecle de l'ère chrétienne que le culte de Fô, déjà connu en Chine, y fut inroduit officiellement par un bouddhiste indien, appelé par l'empereur Ming-ti, de la dynastie des Ham. Il s'y propagea rapidement, surtout dans les classes pauvres, et se
+        <pb facs="#facs_142" n="139" source="lesouvriersdesde04sociuoft_0145.xml"/>
+        laissa modifier par les idées religieuses dominantes dans ce pays, sans exercer d'action sensible sur sa civilisation.
        </p>
        <p xml:id="para_8_139_274">
         Voici en quelques mots en quoi consiste le dogme bouddhique. Rouddha s'annonce comme un rédempteur des hommes ; il les appelle tous au salut éternel, au Nirvâna. Le Nirvâna est l'anéan¬tissement final, auquel tout homme peut arriver par le came des passions, par la complète domination de lui-même. Prenant pour point de départ la croyance brahminique de la métempsycose, Bouddha considère la vie actuelle comme une transition entre une série de vies passées et une série de vies futures. L'homme revet successivement une série de formes et d'états, depuis les formes les plus élémentaires jusqu'auv états les plus parfaits. La place qu'il occupe dans l'échelle des êtres vivants ou dans l'humanité dépend du mérite des actions antérieurement accomplies. Tout homme peut, par l'exercice continu de la charité, de la prière, de l'humilité, de la pureté . échapper à cette suite d'existences qui l'attend. Sa récompense, ce n'est pas la vie future, c'est au contraire l'absorp¬tion dans le néant. Le dogme bouddhique, dont l'immense résultat fut de faire surgir dans l'Inde une classe livrée aux éudes théori¬ques, a été développé, après son fondateur, par un grand nombre d'écoles qui arrivèrent au dernier degré de la divagation mentale. Ainsi. elles ont émis cette conception que l'homme peut, par la grandeur de sa vertu, modifier à son gré les phénomènes de la nature. De la desmiracles sans fin que de simples moines produisent sans dificulté.
@@ -1598,7 +1891,9 @@
         Au point de vue pratique, ce dome a conduit à l'ascétisme, à la systématisauion de l'inactuivité sociale. Plongés dans la méditation et dans la prière. comme les yogi de l'nde, comme les esséniens de la Judée, comme les thérapeutes d'Alexandrie. comme les soli¬laires de la Tĥbaide, les prêtres de F6 n'ont d'autre occupation que de simposer les privations les plus dures pour arriver au Nirvâna.
        </p>
        <p xml:id="para_8_139_277">
-        Certains rapports du bouddhisme et du catholicisme ont frappé tous les observateurs. L'absence de caste sacerdotale, contrairement au brahmanisme, qui maintenait cette caste au-dessus des guerriers et des industriel, contrairement aussi au mosaisme, qui la conserva seule en rejetant les autres; la création d'une classe spécula¬tive accessible à tous les hommes par le perfectuionnement moral ; l'institution de la prédicaion et la propagande religieuse ; la ca¬suistique et la classification des actions bonnes et mauvaises ; les conciles pour la révision des livres canoniques ; l'adoration des reliques, dont la plus précieuse est la dent de Bouddha, à l'île de Ceylan ; les monastères, le célibat des prêtres ; l'établissement pos <pb facs="#facs_143" n="140" source="lesouvriersdesde04sociuoft_0146.xml"/> térieur d'une hiérarchie cléricale, comme celle du Thibet, où, depuis le x siècle, le grand Lama régit, du fond de sa de¬meure royale de Llassa, les populations soumises à son gouverne¬ment spirituel, sont autant de points de contact entre les deux religions.
+        Certains rapports du bouddhisme et du catholicisme ont frappé tous les observateurs. L'absence de caste sacerdotale, contrairement au brahmanisme, qui maintenait cette caste au-dessus des guerriers et des industriel, contrairement aussi au mosaisme, qui la conserva seule en rejetant les autres; la création d'une classe spécula¬tive accessible à tous les hommes par le perfectuionnement moral ; l'institution de la prédicaion et la propagande religieuse ; la ca¬suistique et la classification des actions bonnes et mauvaises ; les conciles pour la révision des livres canoniques ; l'adoration des reliques, dont la plus précieuse est la dent de Bouddha, à l'île de Ceylan ; les monastères, le célibat des prêtres ; l'établissement pos
+        <pb facs="#facs_143" n="140" source="lesouvriersdesde04sociuoft_0146.xml"/>
+        térieur d'une hiérarchie cléricale, comme celle du Thibet, où, depuis le x siècle, le grand Lama régit, du fond de sa de¬meure royale de Llassa, les populations soumises à son gouverne¬ment spirituel, sont autant de points de contact entre les deux religions.
        </p>
        <p xml:id="para_8_140_278">
         La présente monographie a signalé spécialement la trinité bouddhique, les trois précieux F6 ; l'usage des cloches et des cha¬pelets, les litanies. l'adoration de la vierge Nouan-, dont on célèbre la nativité et l'assomption ; les moines à tête rasée, les pro¬cessions, les chants, l'habitude qu'ont les religieux de n'aller jamais seuls, etc.
@@ -1613,7 +1908,9 @@
         En sortant de cette salle, on entre, par une troisième porte (siu¬men), dans une deuxième cour. Des deux côtés sélèvent de petites chapelles où sont les autels de la Terre, du Soleil, de la Lune, du Vent, de la Pluie, du Tonnerre.
        </p>
        <p xml:id="para_8_140_283">
-        Enfin, au fond de la cour s'ouvre la grande chapelle, le dd-dien. Là, trois statues colossales dae 7 de hauteur, en bois et en platre dorés. s'oflfrent à l'adoration des fidèles. Ces statues sont celles des trois Bouddha (San-Paou-Fô), savoir : le Passé, le Présent et l'Avenir ; Kouo-keu-fô, dont le règne est accompli ; Hin-tsae-Fô. <pb facs="#facs_144" n="141" source="lesouvriersdesde04sociuoft_0147.xml"/> qui domine à présent l'univers, et Oui-Lae-i, appelé à le gouver¬ner plus tard. Le premier est à droite, et ses mains, posées sur ses genoux, donnent l'idée de l'éternel repos auquel désormais il est voué; les deux autres ont au contraire le bras et la main droite levés ; devant chacun est un autel où sont posés les flambeaux, les brûle-parfums, les porte-fleurs de porcelaine, les vases de bronze, où brûlent sans cesse les lingots et les papiers parfumés. nfin, autour de la salle sont suspendus les portraits de vingt-quatre ho¬chaung (bonzes), considérés comme des saints et des prophètes.
+        Enfin, au fond de la cour s'ouvre la grande chapelle, le dd-dien. Là, trois statues colossales dae 7 de hauteur, en bois et en platre dorés. s'oflfrent à l'adoration des fidèles. Ces statues sont celles des trois Bouddha (San-Paou-Fô), savoir : le Passé, le Présent et l'Avenir ; Kouo-keu-fô, dont le règne est accompli ; Hin-tsae-Fô.
+        <pb facs="#facs_144" n="141" source="lesouvriersdesde04sociuoft_0147.xml"/>
+        qui domine à présent l'univers, et Oui-Lae-i, appelé à le gouver¬ner plus tard. Le premier est à droite, et ses mains, posées sur ses genoux, donnent l'idée de l'éternel repos auquel désormais il est voué; les deux autres ont au contraire le bras et la main droite levés ; devant chacun est un autel où sont posés les flambeaux, les brûle-parfums, les porte-fleurs de porcelaine, les vases de bronze, où brûlent sans cesse les lingots et les papiers parfumés. nfin, autour de la salle sont suspendus les portraits de vingt-quatre ho¬chaung (bonzes), considérés comme des saints et des prophètes.
        </p>
       </div>
       <div n="007" type="sub_sub_section">
@@ -1658,7 +1955,8 @@
         La fête du 1ᵉʳ de l'an est fixée à la nouvelle lune qui tombe le plus près du jour où le soleil est dans le 15ᵉ degré du Verseau.
        </p>
        <p xml:id="para_8_142_296">
-        <pb facs="#facs_145" n="142" source="lesouvriersdesde04sociuoft_0148.xml"/> Cette fête, qui n'est autre évidemment que celle du Soleil, est la fête par excellence. On s'impose toute espèce de privations et de sacritices pour subvenir aux dépenses qu'elle occasionne. Si l'argent fait délaut, on emprunte à ses parents ou à ses amis ; très-souvent même on met ses elets à un de ces bureaux de mont-de-piété (-pou) que l'on trouve à ing-pe. ainsi que dans les villes et dans les grands villages du Ning-pô-fou.
+        <pb facs="#facs_145" n="142" source="lesouvriersdesde04sociuoft_0148.xml"/>
+        Cette fête, qui n'est autre évidemment que celle du Soleil, est la fête par excellence. On s'impose toute espèce de privations et de sacritices pour subvenir aux dépenses qu'elle occasionne. Si l'argent fait délaut, on emprunte à ses parents ou à ses amis ; très-souvent même on met ses elets à un de ces bureaux de mont-de-piété (-pou) que l'on trouve à ing-pe. ainsi que dans les villes et dans les grands villages du Ning-pô-fou.
        </p>
        <p xml:id="para_8_142_297">
         Le premier jour de l'année, à cinq heures du matin, les hommes de la amille se réunissent dans la salle des cérémonies de la mai¬son
@@ -1666,9 +1964,11 @@
          (§ 10)
         </ref>
         , ou, s il n'y en a pas, dans une pièce de l'appartement. Là, rangés autour d'une table sur laquelle ils brûlent des chan¬delles, des parlums et des papiers-monnaie
-        <note type="bp"><p>
-         Papier roulé en forme de lingot.
-        </p></note>
+        <note type="bp">
+         <p>
+          Papier roulé en forme de lingot.
+         </p>
+        </note>
         , iis font des sacrilfices au hg-ti (Ciel) [I]. Ils offrent tout ce qui est préparé pour la fête : viandes, poissons, volailles, fruits, gateaux, etc. Le chef de famille préside la cérémonie. Après avoir salué trois fois le Ciel, cha¬cun se met a genoux et adresse mentalement des prières au hang-ti. Ces prières, qui ne sont jamais formulées, sont des remerciements ou des vux pour les récoltes, pour la santé, etc. Quand cette céré¬monie, qui dure une heure environ, est terminée, les femmes vien¬nent se joindre aux hommes pour sacrifier aux ancètres avec les mêmes lormalités. A partir de l'âge de douze ans les garçons assis¬tent à ces cérémonies, pendant lesquelles on lait partir des pétards de tous cotès dans les cours des maisons et dans les rues.
        </p>
        <p xml:id="para_8_142_298">
@@ -1683,7 +1983,9 @@
         et sacrifie de la même manière au Chng-ti, pendant qu'un bonze récite dans le dd-dien des prières devant l'autel des trois Bouddha.
        </p>
        <p xml:id="para_8_142_299">
-        A midi a lieu le grand repas composé de quatorze ou quinze plats de viandes, volailles, legumes. etc. Contairement à l'usage ordinaire, tous les membres de la famille sont réunis autour de la <pb facs="#facs_146" n="143" source="lesouvriersdesde04sociuoft_0149.xml"/> même table sur des bancs de bois, le mari étant assis à côté de sa femme.
+        A midi a lieu le grand repas composé de quatorze ou quinze plats de viandes, volailles, legumes. etc. Contairement à l'usage ordinaire, tous les membres de la famille sont réunis autour de la
+        <pb facs="#facs_146" n="143" source="lesouvriersdesde04sociuoft_0149.xml"/>
+        même table sur des bancs de bois, le mari étant assis à côté de sa femme.
        </p>
        <p xml:id="para_8_143_302">
         Dans l'après -midi se font les visites de voisinage, et le soir le repas de famille a lieu comme à l'ordinaire.
@@ -1703,7 +2005,9 @@
         (I) SUR LA VÉRITABLE RELIGION DES CHINOIS.
        </head>
        <p xml:id="para_8_143_308">
-        Les détails donnés précédemment sur la pagode de Ouei-tung¬se et sur les pratiques religieuses des paysans d'Ouang-fou, mon¬trent bien quel est le véritable culte de la Chine. On dit souvent que les Chinois n'ont pas de religion ; les faits cités plus haut et d'autres qui trouveront place dans cette note démentent compléte¬ment cette assertion. ans doute les croyances primitives de ce peuple ont été altérées ; elles ont été modifiées successivement par divers dogmes plus ou moins populaires, qui ont surgi en Chine, <pb facs="#facs_147" n="144" source="lesouvriersdesde04sociuoft_0150.xml"/> comme le dogme des I'ao-sseˉ, ou sectateurs de Lao-tseu, ou qui y ont été introduits, comme le bouddhisme. Sans doute ces croyances primitives paraissent aujourd'hui fort affaiblies chez une nation que la corruption a gagnée de toutes parts ; aussi a-t-on dit que la reli¬gion de la Chine, la religion oflicielle, la religion de l'Eat, n'est plus qu'une formule ; qu'elle ne consiste que dans les rites et les cérémonies que les Chinois accomplissent et non dans les idées et dans les sentiments que ces pratiques rappelaient autre¬fois aux fidèles. Cependant, derrière cette formule, on distingue encore la croyance antique telle qu'elle existait à l'origine de la monarchie chinoise, sous les empereurs lo et hun, ou plutôt telle qu'elle fut restaurée et propagée par le sage hhoug-tseu (on¬fucius).
+        Les détails donnés précédemment sur la pagode de Ouei-tung¬se et sur les pratiques religieuses des paysans d'Ouang-fou, mon¬trent bien quel est le véritable culte de la Chine. On dit souvent que les Chinois n'ont pas de religion ; les faits cités plus haut et d'autres qui trouveront place dans cette note démentent compléte¬ment cette assertion. ans doute les croyances primitives de ce peuple ont été altérées ; elles ont été modifiées successivement par divers dogmes plus ou moins populaires, qui ont surgi en Chine,
+        <pb facs="#facs_147" n="144" source="lesouvriersdesde04sociuoft_0150.xml"/>
+        comme le dogme des I'ao-sseˉ, ou sectateurs de Lao-tseu, ou qui y ont été introduits, comme le bouddhisme. Sans doute ces croyances primitives paraissent aujourd'hui fort affaiblies chez une nation que la corruption a gagnée de toutes parts ; aussi a-t-on dit que la reli¬gion de la Chine, la religion oflicielle, la religion de l'Eat, n'est plus qu'une formule ; qu'elle ne consiste que dans les rites et les cérémonies que les Chinois accomplissent et non dans les idées et dans les sentiments que ces pratiques rappelaient autre¬fois aux fidèles. Cependant, derrière cette formule, on distingue encore la croyance antique telle qu'elle existait à l'origine de la monarchie chinoise, sous les empereurs lo et hun, ou plutôt telle qu'elle fut restaurée et propagée par le sage hhoug-tseu (on¬fucius).
        </p>
        <p xml:id="para_8_144_309">
         Dans la pagode de Oueï-tung-sze on remarque
@@ -1721,7 +2025,9 @@
         à l'auteur de cette monographie. Pour eux, ce ciel visible qui nous entoure est animé de volontés et de passions analogues aux volontés et aux passions humaines ; il manifeste les sentiments qu'il éprouve par les phénomènes astrono¬miques et météorologiques que nous subissons. Cette conception religieuse, qu'on retrouve dans l'antiquité et de nos jours chez un grand nombre de peuples, n'est que l'exagération de l'influence incontestable que les corps du monde extérieurs, le soleil par exemple, exercent sur nos destinées. Seulement, cette influence n'est pas attribuée par les Chinois à une simple activité matérielle, mais à des sentiments dont les éclipses, la pluie, les inondations, les vents, le tonnerre, etc., sont des manifestations diverses.
        </p>
        <p xml:id="para_8_144_311">
-        On conçoit que le culte de la Terre (Ti) vienne tout naturelle¬ment s'adjoindre et se subordonner au culte du Ciel. A ces deux grands fétiches se rattachent en outre l'adoration du soleil, de la lune, des planètes, des constellations, celle des vents, des leurs, des montagnes, etc. A Pé-king. par exemple, parmi neul grands autels (tan) élevés en plein air dans de vastes enceintes entourées de murs, on remarque, dans l'ordre de prééminence : l'autel du <pb facs="#facs_148" n="145" source="lesouvriersdesde04sociuoft_0151.xml"/> Ciel (Tie-tn), l'auel de la Terre (T-n), l'autel de la Prière pour obtenir les fruits de la Terre en abondance (Ii-h6-an), lautel du Soleil levant (Tchao-ii-tn), l'autel de la Lune noc¬turne (i-youri-tn), etc.
+        On conçoit que le culte de la Terre (Ti) vienne tout naturelle¬ment s'adjoindre et se subordonner au culte du Ciel. A ces deux grands fétiches se rattachent en outre l'adoration du soleil, de la lune, des planètes, des constellations, celle des vents, des leurs, des montagnes, etc. A Pé-king. par exemple, parmi neul grands autels (tan) élevés en plein air dans de vastes enceintes entourées de murs, on remarque, dans l'ordre de prééminence : l'autel du
+        <pb facs="#facs_148" n="145" source="lesouvriersdesde04sociuoft_0151.xml"/>
+        Ciel (Tie-tn), l'auel de la Terre (T-n), l'autel de la Prière pour obtenir les fruits de la Terre en abondance (Ii-h6-an), lautel du Soleil levant (Tchao-ii-tn), l'autel de la Lune noc¬turne (i-youri-tn), etc.
        </p>
        <p xml:id="para_8_145_312">
         Une nouvelle preuve que les Chinois ne conçoivent pas comme les chrétiens un Dieu distinct du ciel, c'est que leurs philosophes, qui désignent le ciel proprement dit par le mot tien, désignent le Dieu des chrétiens par le mot Tien-hu (Maire du ciel). Cette dil̂rence caractéristique entre les deux systèmes religieux a été remarquée par des voyageurs judicieux. n missionnaire protestant, M. Boone, écrivait en 1850 que, si la cosmogonie de Confucius n'attribue pas la création du Ciel au ˉChang-ti, c'est parce qu'elle les identifie complétement, et qu'elle ne conçoit pas celui-ci comme pouvant exister séparément.
@@ -1740,20 +2046,26 @@
         .
        </p>
        <p xml:id="para_8_145_317">
-        Cette adoration prescrite envers les ancêtres de la famille, la religion chinoise l'étend aux ancêtres sociaux, c'est-à-dire aux hommes et aux femmes qui ont rendu des services quelconques. Ainsi, dans toutes les villes principales des sang, des fou ou des hien, on trouve, en outre des trois autels en plein air (tan) et des quatre grands temples (nio), trois petits temples (tse), qui sont : le Mng-hon-tse, ou le temple consacré aux mandarins célèbres n ; le ˉiag-chien-tse, ou le temple consacré aux sages des dis¬tricts n ; et le ˉLié-niu-tsié-fou-tse, ou le temple consacré aux vierges et aux femmes vertueuses n. Les sacrifices les plus impor¬tants, après ceux du Ciel et de la Terre, sont ceux que l'on célèbre en l'honneur des premiers empereurs de la Chine, du premier <pb facs="#facs_149" n="146" source="lesouvriersdesde04sociuoft_0152.xml"/> laboureur et du premier éleoeur de overs à soie, et surtout en l'hon¬neur du premier instituteur des hommes (Confucius).
+        Cette adoration prescrite envers les ancêtres de la famille, la religion chinoise l'étend aux ancêtres sociaux, c'est-à-dire aux hommes et aux femmes qui ont rendu des services quelconques. Ainsi, dans toutes les villes principales des sang, des fou ou des hien, on trouve, en outre des trois autels en plein air (tan) et des quatre grands temples (nio), trois petits temples (tse), qui sont : le Mng-hon-tse, ou le temple consacré aux mandarins célèbres n ; le ˉiag-chien-tse, ou le temple consacré aux sages des dis¬tricts n ; et le ˉLié-niu-tsié-fou-tse, ou le temple consacré aux vierges et aux femmes vertueuses n. Les sacrifices les plus impor¬tants, après ceux du Ciel et de la Terre, sont ceux que l'on célèbre en l'honneur des premiers empereurs de la Chine, du premier
+        <pb facs="#facs_149" n="146" source="lesouvriersdesde04sociuoft_0152.xml"/>
+        laboureur et du premier éleoeur de overs à soie, et surtout en l'hon¬neur du premier instituteur des hommes (Confucius).
        </p>
        <p xml:id="para_8_146_318">
         Ce culte d'amour et de reconnaissance que les Chinois rendent au sage philosophe est bien justifié par les services qu'il a rendus. Il a sauvé son pays de la dissolution politique et morale et lui a permis de s'élever et de se maintenir pendant plusieurs siècles à un haut degré de prospérité et de grandeur. En s'appuyant sur l'idée cosmogonique expliquée au commencement de cette note et sur l'autorité paternelle, si puissante chez les sociétés patriarcales de l'Orient, Confucius a construit une doctrine dont aucune religion ne saurait désavouer les principes.
        </p>
        <p xml:id="para_8_146_319">
         Rien de si naturel, rien de si simple, dit-il, que les principes de cette morale dont je tâche de vous inculquer les salutaires maximes. out ce que je vous dis, nos anciens sages l'ont pratiqué avant nous, et cette pratique qui, dans les temps reculés, était uni¬versellement adoptée, se réduit à l'observation des trois lois fonda¬mentales de relation entre les souverains et les sujets, entre les pères et les. enfants, entre l'époux et l'épouse, et à la pratique exacte des cinq vertus capitales qu'il suffit de nommer pour vous faire comprendre leur excellence et la nécessité de les exercer : c'est l'hmnité, c'est-à-dire cette charité universelle entre tous ceux de notre espèce, sans distinction ; c'est la justice, qui donne à chaque individu ce qui lui est dù, sans favoriser l'un plutôt que l'autre ; c'est la confrué u rites prcscrits et ur usagcs etais, ain que ceux qui lorment la société aient une même manière de vivre et participent aux mêmes avantages comme aux mênes incom¬modités ; c'est la droiture, c'est-à-dire cette rectitude d'esprit et de cœur qui fait qu'on cherche en tout le vrai et qu'on le désire, sans vouloir se donner le change à soi-même, ni le donner aux autres ; c'est enfin la sincérité ou la bonne foi, c'est-à-dire cette franchise, cette ouverture de cœur, mêlée de confiance, qui excluent toute feinte et tout déguisement, tant dans la conduite que dans le discours. Voilà ce qui a rendu nos premiers instituteurs respec¬tables pendant leur vie, et ce qui a immortalisé leurs noms après leur mort. Prenons-les pour modèles : faisons tous nos efforts pour les imiter
-        <note type="bp"><p>
-         Memoires concernant les Chinois. Tome XII. Vie de Confucius, par le père Amiot.
-        </p></note>
+        <note type="bp">
+         <p>
+          Memoires concernant les Chinois. Tome XII. Vie de Confucius, par le père Amiot.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_146_320">
-        Telle est la doctrine de Confucius, qui est en Chine la religion de l'état, la religion des lettrés. L'empereur est le chef, le souve¬rain pontife de cette religion sous le tire de hog-ti. Les manda¬rins, comme représentants du Fils du ciel (Tin-tsa), sont les ministres du culte dans les provinces. La suprématie de l'empe<pb facs="#facs_150" n="147" source="lesouvriersdesde04sociuoft_0153.xml"/>reur ne peut s'exercer qu'en ce qui concerne le culte de l'état à l'exclusion de tous les autres. Le souverain actuel, en-fng, d'origine tartare, professe le bouddhisme; mais il ne peut lui ren¬dre qu'un culte privé.
+        Telle est la doctrine de Confucius, qui est en Chine la religion de l'état, la religion des lettrés. L'empereur est le chef, le souve¬rain pontife de cette religion sous le tire de hog-ti. Les manda¬rins, comme représentants du Fils du ciel (Tin-tsa), sont les ministres du culte dans les provinces. La suprématie de l'empe
+        <pb facs="#facs_150" n="147" source="lesouvriersdesde04sociuoft_0153.xml"/>
+        reur ne peut s'exercer qu'en ce qui concerne le culte de l'état à l'exclusion de tous les autres. Le souverain actuel, en-fng, d'origine tartare, professe le bouddhisme; mais il ne peut lui ren¬dre qu'un culte privé.
        </p>
        <p xml:id="para_8_147_323">
         La métaphysique de Lao-tseu et plus tard le dogme de Bouddha ont mêlé leurs conceptions a celles de la doctrine de Confucius ; un grand nombre de lettrés emprunte des pratiques religieuses à ces deux cultes ; malgré cela, l'immortel (si) tao-sse est méprisé comme le bonze (ho-chang) bouddhiste. Quand au catholicisme, il n'a pénétré que dans les classes inférieures de la société. Le fèti¬chisme antique reste seul debout au milieu de l'indifférence reli¬gieuse et de la décadence morale que les voyageurs remarquent aujourd'hui dans l'empire chinois.
@@ -1763,9 +2075,11 @@
        </p>
        <p xml:id="para_8_147_325">
         Les Bouddhistes attachent une grande importance à certaines syllabes (Omi-to-f) qu'ils répètent perpétuellement, croyant ainsi se purifier de leurs péchés. Voici comment un mandarin, surin¬tendant des salines du Chen-si, nommé Vang-yeou-po, s'exprime au sujet de cette pratique dans une paraphrase du commentaire de l'empereur Moung-tching sur la sainte instruction (cheng-gun) de son prédécesseur ang-hi : « Supposez dit-il, que vous avez violé les lois en quelque point, et que vous soyez conduit dans la salle du jugement pour y être puni ; si vous vous mettez a crier à tue-tête plusieurs milliers de fois : Motre excellencel croye-vous ue pour cela le magistrat vous épargnera
-        <note type="bp"><p>
-         Abel Rémusat. Mélanges asiatiques.
-        </p></note>
+        <note type="bp">
+         <p>
+          Abel Rémusat. Mélanges asiatiques.
+         </p>
+        </note>
         ?
        </p>
        <p xml:id="para_8_147_326">
@@ -1775,13 +2089,17 @@
         Si vous ne brûlez pas du papier en l'honneur de F0̂, et si vous ne déposez pas des offrandes sur ses autels, il sera mécontent de vous et lera tomber son jugement sur vos têtes. Votre dieu F6 est donc un misérable. Prenons pour exemple le magistrat de votre district : quand vous n'iriez jamais le complimenter et lui faire la cour, si vous êtes honnetes gens et appliqués à votre devoir, il n'en fera pas moins d'attention à vous ; mais si vous transgressez la loi, si vous commettez des violences, et si vous usurpez les droits des autres, vous aurez beau prendre mille voies pour le flatter, il sera toujours mécontent de vous.
        </p>
        <p xml:id="para_8_147_329">
-        Le même lettré développe ensuite de la manière suivante les <pb facs="#facs_151" n="148" source="lesouvriersdesde04sociuoft_0154.xml"/> pensées de l'empereur oung-tching sur la religion catholique :
+        Le même lettré développe ensuite de la manière suivante les
+        <pb facs="#facs_151" n="148" source="lesouvriersdesde04sociuoft_0154.xml"/>
+        pensées de l'empereur oung-tching sur la religion catholique :
        </p>
        <p xml:id="para_8_148_330">
         Le secte du seigneur du ciel (Tien-tchu) elle-même, cette secte qui parle sans cesse du ciel, de la terre, et d'êtres sans ombre et sans substance, cette religion est aussi corrompue et pervertie; mais, parce que les Européens qui l'enseignent savent l'astronomie et les mathématiques, le gouvernement les emploie pour corriger le calendrier ; cela ne veut pas dire que leur religion soit bonne, et vous ne devez nullement croire à ce qu'ils vous disent
-        <note type="bp"><p>
-         Abel Rémusat. Mélanges asiatiques.
-        </p></note>
+        <note type="bp">
+         <p>
+          Abel Rémusat. Mélanges asiatiques.
+         </p>
+        </note>
         .
        </p>
        <p xml:id="para_8_148_331">
@@ -1794,7 +2112,9 @@
         Les passages ci-dessus sont suffisamment absurdes et extrava¬gants ; mais, ce n'est pas tout, il y a des reflexions encore plus fausses et déraisonnables, qui dispensent de l'obéissance qu'on doit à ses parents, et qui déclarent que le plus haut degré de l'im¬piété consiste à désobèir à la volonté du Tien-tchn,; ils racontent l'histoire d'une sainte, (ui. ayaut refusé d'obéir à un ordre de son père, lut tuée par ce père cruel, ce dont le Tien-tchu se mit en co¬lère et le foudroya. lt cela est donné comme un avertissement à tous les pères et mères, parents et amis, qui seraient tentés de sopposer aux désirs de leurs enfants, et ainsi de suite. Cette his¬toire est aussi contraire à l'ordre social et à la raison que la freur suvage d'un chien cnragé. Si les sectes de F0 et des 'Tao-sse sont indignes de la croyance, combien plus l'est celle des Européens
        </p>
        <p xml:id="para_8_148_334">
-        Telles sont les dispositions actuelles des Chinois à l'égard du christianisme. Aujourd'hui les Européens ne sont plus même em¬ployés pour leurs connaissances scientifiques, comme au temps de la mémorable mission accomplie avec tant de dévouement et de sagacité au xvrsiècle par les jésuites, alors que le père Adam Schall révisa le calendrier, que le père Verbiest fut président du tribunal desmathématiques, que les pères Bouvet, Régis et Jartoux dressèrent, par ordre de l'empereur ang-hi, la carte générale de l'empire. Par suite de la querelle intentée aux jésuites par les dominicains, <pb facs="#facs_152" n="149" source="lesouvriersdesde04sociuoft_0155.xml"/> le successeur de Kang-hi, oung-tching, signa, en 1725, lédit qui prohibait l'exercice de la religion chrétienne comme attentatoire à l'autorité paternelle de l'empereur et dangereuse pour la sûreté de TÉat. En Chine, où tous les cultes sont lérés, où les musulmans eux-mêmes sont admis aux emplois publics, le christianisme se propageait depuis le ve siècle, et il y avait eu deux archevêques catholiques à Pé-ling. Aujourd'hui, qu'une des nations les plus éclairées de l'Occident a forcé la Chine à ouvrir ses ports au com¬merce de l'opium et du thé, les jésuites ont compris que, pour con¬tinuer utilement leur euvre de propagande, ils devaient reprendre la tradition de leurs predécesseurs. Ils élèvent les petits Chinois dans la langue du pays avec une sage tolérance; ils n'aspirent qu'à préparer ainsi des mandarins qui remettront en honneur les lois de l'empire et qui apporteront une morale plus pure au foyer domestique.
+        Telles sont les dispositions actuelles des Chinois à l'égard du christianisme. Aujourd'hui les Européens ne sont plus même em¬ployés pour leurs connaissances scientifiques, comme au temps de la mémorable mission accomplie avec tant de dévouement et de sagacité au xvrsiècle par les jésuites, alors que le père Adam Schall révisa le calendrier, que le père Verbiest fut président du tribunal desmathématiques, que les pères Bouvet, Régis et Jartoux dressèrent, par ordre de l'empereur ang-hi, la carte générale de l'empire. Par suite de la querelle intentée aux jésuites par les dominicains,
+        <pb facs="#facs_152" n="149" source="lesouvriersdesde04sociuoft_0155.xml"/>
+        le successeur de Kang-hi, oung-tching, signa, en 1725, lédit qui prohibait l'exercice de la religion chrétienne comme attentatoire à l'autorité paternelle de l'empereur et dangereuse pour la sûreté de TÉat. En Chine, où tous les cultes sont lérés, où les musulmans eux-mêmes sont admis aux emplois publics, le christianisme se propageait depuis le ve siècle, et il y avait eu deux archevêques catholiques à Pé-ling. Aujourd'hui, qu'une des nations les plus éclairées de l'Occident a forcé la Chine à ouvrir ses ports au com¬merce de l'opium et du thé, les jésuites ont compris que, pour con¬tinuer utilement leur euvre de propagande, ils devaient reprendre la tradition de leurs predécesseurs. Ils élèvent les petits Chinois dans la langue du pays avec une sage tolérance; ils n'aspirent qu'à préparer ainsi des mandarins qui remettront en honneur les lois de l'empire et qui apporteront une morale plus pure au foyer domestique.
        </p>
       </div>
       <!-- PAS DE TITRE J -->
@@ -1812,7 +2132,8 @@
         Le riz ne s'obtient que par une longue suite de manipulations et de travaux, et la nécessité de les exécuter dans l'eau et dans la fange rend la culture de cette céréale très-pénible. Voici les pra¬tiques usitées à Ouang-fou.
        </p>
        <p xml:id="para_8_150_341">
-        <pb facs="#facs_153" n="150" source="lesouvriersdesde04sociuoft_0156.xml"/> Au mois de mars on coupe le trèfle qui couvre le champ, et on le laisse sur place comme engrais. On prépare ensuite la terre par un labour qui se fait à l'aide d'une charrue fort simple, sans roues, et attelée d'un bœuf. Après ce labour, on écrase les mottes avec un rouleau (couen-boa) de bois armé de dents de fer. L'homme monte sur le châssis de ce rouleau pour ajouter son poids à celui de l'appareil. Cela fait, on inonde le champ, sur lequel se dépose une couche de limon de quelques centimètres.
+        <pb facs="#facs_153" n="150" source="lesouvriersdesde04sociuoft_0156.xml"/>
+        Au mois de mars on coupe le trèfle qui couvre le champ, et on le laisse sur place comme engrais. On prépare ensuite la terre par un labour qui se fait à l'aide d'une charrue fort simple, sans roues, et attelée d'un bœuf. Après ce labour, on écrase les mottes avec un rouleau (couen-boa) de bois armé de dents de fer. L'homme monte sur le châssis de ce rouleau pour ajouter son poids à celui de l'appareil. Cela fait, on inonde le champ, sur lequel se dépose une couche de limon de quelques centimètres.
        </p>
        <p xml:id="para_8_150_342">
         L'eau d'irrigation est puisée dans un des innombrables canaux qui sillonnent cette partie de la Chine. Elle est élevée au niveau du champ par un chapelet incliné. Ce chapelet est formé de planches carrées, enfilées parallèlement à égale distance les unes des autres : il est placé dans un tube incliné à section carré, dont la partie infé¬rieure plonge dans l'eau, et dont la partie supérieure s'élève au¬dessus du champ. A l'extrémité inférieure est un tambour dont l'axe est fixé dans les parois du tube. A l'extrémité supérieure est un se¬cond tambour. entouré de planchettes pour répondre à celles de la chaîne. Quand ce tambour tourne, la chaîne tourne aussi, et les planches, qui remplissent exactement la cavité du tube, élèvent jusqu'au haut l'eau comprise dans leurs intervalles. Le tambour supérieur est mis en mouvement par un bu attelé à une grande roue armée de chevilles, qui engrènent avec les fuseaux d'un pignon placé sur l'axe du tambour.
@@ -1822,10 +2143,14 @@
        </p>
        <p xml:id="para_8_150_345">
         Le sol ainsi préparé et couvert d'une couche d'eau de 0m10 est apte à recevoir les jeunes plants de riz semés d'abord en pépinière
-        <note type="bp"><p>
-         On sème à la volée le grain qu'on a fait seriner dans des paniers et qui donne des plants au bout de trois semaines.
-        </p></note>
-        dans un autre endroit, d'où on les retire avec beaucoup de précaur tions. On choisit les plus beaux pieds qu'on réunit par paquets de 20 à 24 mèches. contenant chacune 4 plants. Le champ est di¬visé en plusieurs bandes de 080 environ de largeur, qu'on plante successivement en marchant à reculons. L'homme, tenant ses pa¬quets dans sa main gauche, creuse avec a droite de petits trous disposés en lignes parallèles et espnacés les uns des autres de 009 a 010. Dans chacun de ces trous il place une mèche, dont les <pb facs="#facs_154" n="151" source="lesouvriersdesde04sociuoft_0157.xml"/> racines sont immédiatement couvertes de limon, entraîné par l'eau, qui coule dans les trous dès que l'ouvrier en retire la main. Cette opération se fait avec une grande célérité; trois hommes plantent 6 ares en 2 heures.
+        <note type="bp">
+         <p>
+          On sème à la volée le grain qu'on a fait seriner dans des paniers et qui donne des plants au bout de trois semaines.
+         </p>
+        </note>
+        dans un autre endroit, d'où on les retire avec beaucoup de précaur tions. On choisit les plus beaux pieds qu'on réunit par paquets de 20 à 24 mèches. contenant chacune 4 plants. Le champ est di¬visé en plusieurs bandes de 080 environ de largeur, qu'on plante successivement en marchant à reculons. L'homme, tenant ses pa¬quets dans sa main gauche, creuse avec a droite de petits trous disposés en lignes parallèles et espnacés les uns des autres de 009 a 010. Dans chacun de ces trous il place une mèche, dont les
+        <pb facs="#facs_154" n="151" source="lesouvriersdesde04sociuoft_0157.xml"/>
+        racines sont immédiatement couvertes de limon, entraîné par l'eau, qui coule dans les trous dès que l'ouvrier en retire la main. Cette opération se fait avec une grande célérité; trois hommes plantent 6 ares en 2 heures.
        </p>
        <p xml:id="para_8_151_346">
         Quinze jours après la plantation, on ratisse l'intervalle des lignes de plants avec un peigne (lo-dié-boeu). Ce peigne est formé d'une planche rectangulaire, hérissée de plusieurs rangées de dents debois et munie d'un manche qui se recourbe verticalement. On nettoie deux fois, en ayant toujours soin de remuer la vase pour l'em¬pêcher de durcir et en formant avec les mauvaises herbes de petits tas, qu'on laisse sur place pour servir d'engrais. On arrache ensuite avec les mains et en se tenant à genoux dans la vase les mauvaises herbes qui restent entre les plants. Enfin on répand le fumier des animaux et l'engrais humain.
@@ -1840,7 +2165,9 @@
         La première récolte donne de 4,500 à 5,000 kilogrammes de riz blanc par hectare, et la seconde de 3,500 à 4,000 kilogrammes de riz rouge. En somme, la production annuelle, par hectare, est de 8,000 à 9,000 lilorammes. Quand tout le riz est enlevé, on sème de la graine de trèfle dans les terrains bas ; dans les terrains hauts on retourne la terre avec la charrue et on sème l'orge, le colza, les fèves.
        </p>
        <p xml:id="para_8_151_351">
-        Le riz destiné à la vente subit quelques manipulations dont les femmes sont eclusivement chargées. Elles le font sécher au soleil sur des nattes ; elles le passent dans des cribles pour le séparer de <pb facs="#facs_155" n="152" source="lesouvriersdesde04sociuoft_0158.xml"/> la paille qui reste ; elles ôtent les grains mauvais, l'étendent dans le grenier et le vendent ainsi avec ses enveloppes.
+        Le riz destiné à la vente subit quelques manipulations dont les femmes sont eclusivement chargées. Elles le font sécher au soleil sur des nattes ; elles le passent dans des cribles pour le séparer de
+        <pb facs="#facs_155" n="152" source="lesouvriersdesde04sociuoft_0158.xml"/>
+        la paille qui reste ; elles ôtent les grains mauvais, l'étendent dans le grenier et le vendent ainsi avec ses enveloppes.
        </p>
        <p xml:id="para_8_152_352">
         Quant au riz destiné aux besoins du ménage, il reste, en outre des opérations précédentes, à le dépouiller de ses enveloppes. Il faut le piler, le cribler, le vanner et le moudre. Ces travaux occupent les hommes pendant l'hiver; ils se font au mouli du village, dont chaque famille use gratuitement
@@ -1855,10 +2182,14 @@
         (L) SUR LA FABRICATION DU DEU-VOU.
        </head>
        <p xml:id="para_8_152_355">
-        Le deU-vou, qui entre pour une assez grande part dans la nour¬riture de la famille décrite, se prépare avec des pois jaunes (hong¬deu) de la manière suivante : on fait tremper les pois, on les écrase avec un peu d'eau entre deux meules, et on les exprime ensuite à travers une toile ; on fait bouillir le jus dans une casserole de fer et on le verse dans une jarre de terre où on laisse tomber quelques gouttes d'une dissolution saline. Cette dissolution s'obient en exposant à l'air, dans un panier d'osier, du sel marin dont les parties les plus solubles sont entrainées par l'humidité atmosphé¬rique dans un vase placé au-dessous. Le jus est agité avec le sel, et, quand il commence à se prendre en masse, on le verse en¬core chaud dans un moule carrè de bois recouvert d'un linge ; on presse pour exprimer l'eau, et on obtient par le refroidissement une masse ferme de couleur blanche. Cette masse appelée deu<pb facs="#facs_156" n="153" source="lesouvriersdesde04sociuoft_0159.xml"/>vou
-        <note type="bp"><p>
-         On n'a encore signalé, ni dans les Ouvriers européens, ni dans les Ouvriers des deux momies, aucun aliment de ce genre. Ainsi conservera-t-on le nom de deu-vou pour désigner les préparations analogues qui pourraient être ultérieurement rencontrées dans les monographies.
-        </p></note>
+        Le deU-vou, qui entre pour une assez grande part dans la nour¬riture de la famille décrite, se prépare avec des pois jaunes (hong¬deu) de la manière suivante : on fait tremper les pois, on les écrase avec un peu d'eau entre deux meules, et on les exprime ensuite à travers une toile ; on fait bouillir le jus dans une casserole de fer et on le verse dans une jarre de terre où on laisse tomber quelques gouttes d'une dissolution saline. Cette dissolution s'obient en exposant à l'air, dans un panier d'osier, du sel marin dont les parties les plus solubles sont entrainées par l'humidité atmosphé¬rique dans un vase placé au-dessous. Le jus est agité avec le sel, et, quand il commence à se prendre en masse, on le verse en¬core chaud dans un moule carrè de bois recouvert d'un linge ; on presse pour exprimer l'eau, et on obtient par le refroidissement une masse ferme de couleur blanche. Cette masse appelée deu
+        <pb facs="#facs_156" n="153" source="lesouvriersdesde04sociuoft_0159.xml"/>
+        vou
+        <note type="bp">
+         <p>
+          On n'a encore signalé, ni dans les Ouvriers européens, ni dans les Ouvriers des deux momies, aucun aliment de ce genre. Ainsi conservera-t-on le nom de deu-vou pour désigner les préparations analogues qui pourraient être ultérieurement rencontrées dans les monographies.
+         </p>
+        </note>
         est mangée tantôt seule avec du sel, tantôt avec de la sauce, tantôt en soupe avec des chou.
        </p>
       </div>
@@ -1881,7 +2212,8 @@
         La division décimale du tchi, qui existait déjà 2,600 ans avant J.C., et qui a été successivement abandonnée et reprise, a pré¬valu depuis la dynastie des Ming. Les multiples du tchi sont le chang. qui vaut 0 chi, et le pn qui vaut 10 tchang. Quant aux sous-multiples, 1 tchi vaut 10tsun, et l tsun vaut 10 fen. On a rare¬ment besoin de pousser la division du tchi au delà du fen, c'est-à¬dire du centième. Dans ce cas, on ferait usage, à partir du tchi, des décimales ordinaires, qui portent successivement, à partir de l'unié, les noms de /fen, li, ho, sse, hou, etc.
        </p>
        <p xml:id="para_8_154_362">
-        <pb facs="#facs_157" n="154" source="lesouvriersdesde04sociuoft_0160.xml"/> La longueur du tchi a varié d'une dynastie à l'autre, et peut-être aussi pendant la même dynastie, de 0,20 (chi des Tchéou) à 0,34 (chao-chi des Ming). Le tchi officiel de la dynastie régnante des Tai-thsing est égal à 0,319. C'estl'étalon universel dans tout l'empire.  Malgré cela, le tchi diffère selon la province, le départe¬ment, la ville, le quartier, la profession. Il n'est pas le même à Pe-ing. à Canton, à Macao, à ing-po, à Chang-hai. Il y a aussi dans chacune de ces villes le tchi des ingénieurs, des architectes, des arpenters, des maçons, des menuisiers. des charpentiers, des tailleurs, des marchands de tissus, des cordonniers, etc. Par exemple, à Fou-tchéou-fou (province de Fo-lien), le tchi varie de 0P,428 (og-bing-tchi) à 0,273 (og-tien-tchi).
+        <pb facs="#facs_157" n="154" source="lesouvriersdesde04sociuoft_0160.xml"/>
+        La longueur du tchi a varié d'une dynastie à l'autre, et peut-être aussi pendant la même dynastie, de 0,20 (chi des Tchéou) à 0,34 (chao-chi des Ming). Le tchi officiel de la dynastie régnante des Tai-thsing est égal à 0,319. C'estl'étalon universel dans tout l'empire.  Malgré cela, le tchi diffère selon la province, le départe¬ment, la ville, le quartier, la profession. Il n'est pas le même à Pe-ing. à Canton, à Macao, à ing-po, à Chang-hai. Il y a aussi dans chacune de ces villes le tchi des ingénieurs, des architectes, des arpenters, des maçons, des menuisiers. des charpentiers, des tailleurs, des marchands de tissus, des cordonniers, etc. Par exemple, à Fou-tchéou-fou (province de Fo-lien), le tchi varie de 0P,428 (og-bing-tchi) à 0,273 (og-tien-tchi).
        </p>
        <p xml:id="para_8_154_363">
         Les tchi sont faits en bois, principalement de bambou, ce qui ex¬plique leurs variations.  Les marchands ont l'habitude d'avoir au moins deux 1chi sur leur comptoir ; l'un a de 5 à 10 millimètres de moins que l'autre, et quelquefois la différence est plus forte. Cette habitude n'est pas frauduleuse, comme on pourrait le penser. La différence entre les deux tchi (3 à 6,/°) représente l'augmentation de prix de la marchandise de la vente en gros à la vente en détail. Le marchand vend l'etoffe en détail au même priv qu'il la vend en pièce, mais il la mesure avec le tchi le plus petit. La concur¬rence est si grande dans le commerce en Chine et s'exerce si libre¬ment,que la fraude est impossible.
@@ -1896,7 +2228,9 @@
         <graphic facs="#facs_157" url="#" xml:id="tble_8_154_42"/>
        </figure>
        <p xml:id="para_8_154_366">
-        MESURES ITINÉRAIRES. — L'unité principale est le li ou mille. nciennement 192 12 li faisaient un degré ; le li était donc de 577P,30. Les missionnaires européens de Pé-ling changèrent cette longueur : ils divisèrent le degré en 250 li, probablement dans <pb facs="#facs_158" n="155" source="lesouvriersdesde04sociuoft_0161.xml"/> l'intention d'en faire exactement le dixième de la lieue française de 25 au degré. On put dès lors former le tableau suivant :
+        MESURES ITINÉRAIRES. — L'unité principale est le li ou mille. nciennement 192 12 li faisaient un degré ; le li était donc de 577P,30. Les missionnaires européens de Pé-ling changèrent cette longueur : ils divisèrent le degré en 250 li, probablement dans
+        <pb facs="#facs_158" n="155" source="lesouvriersdesde04sociuoft_0161.xml"/>
+        l'intention d'en faire exactement le dixième de la lieue française de 25 au degré. On put dès lors former le tableau suivant :
        </p>
        <figure rend="portrait" type="inventory">
         <head resp="added" type="inventory" xml:id="figure_4">
@@ -1921,13 +2255,17 @@
        </p>
        <p xml:id="para_8_155_372">
         MESURES DE SUPERFICIE. — L'unité est le méou
-        <note type="bp"><p>
-         Dialecte mandarin ; se dit meu dans le dialecte Tché-kian.
-        </p></note>
+        <note type="bp">
+         <p>
+          Dialecte mandarin ; se dit meu dans le dialecte Tché-kian.
+         </p>
+        </note>
         . Le méou est un rectangle de 240 pou de longueur sur 1 pou de largeur ; 5 tchi font un pou (pas) ou 1 oung (arc). Le tchi, qui sert à régler la super¬ficie du méou, est, d'après M. Natalis Rondot
-        <note type="bp"><p>
-         Pé-king et la Chine. Mesures, monnaies et banques chinoises.
-        </p></note>
+        <note type="bp">
+         <p>
+          Pé-king et la Chine. Mesures, monnaies et banques chinoises.
+         </p>
+        </note>
         , égal à 0,335.
        </p>
        <figure rend="portrait" type="inventory">
@@ -2003,7 +2341,8 @@
         demi-ching  0515, yo  5 tcho.
         </p>-->
        <p xml:id="para_8_156_393">
-        <pb facs="#facs_159" n="156" source="lesouvriersdesde04sociuoft_0162.xml"/> POIX. — En Chine, presque tout se vend au poids. Ainsi on pèse le bois, les étoffes, presque toutes les denrées sans en excepter les liquides, et même les animaux vivants qui servent à l'alimen¬tation de l'homme, tels que bestiaux, gibier, volailles, etc. ; les grains s'achètent a poids et se vendent en détail à la mesure. L'or et l'argent sont une marchandise ; le poids et le titre règlent seuls le prix des lingots.
+        <pb facs="#facs_159" n="156" source="lesouvriersdesde04sociuoft_0162.xml"/>
+        POIX. — En Chine, presque tout se vend au poids. Ainsi on pèse le bois, les étoffes, presque toutes les denrées sans en excepter les liquides, et même les animaux vivants qui servent à l'alimen¬tation de l'homme, tels que bestiaux, gibier, volailles, etc. ; les grains s'achètent a poids et se vendent en détail à la mesure. L'or et l'argent sont une marchandise ; le poids et le titre règlent seuls le prix des lingots.
        </p>
        <p xml:id="para_8_156_394">
         L'unité de poids est le bin, ou livre divisé en 16 ling ou onces, comme l'ancienne livre française. La valeur du kin a varié sous les différentes dynasties de 165 a 740 grammes. Elle change aussi avec les localités ; d'après les renseignements fournis sur différentes parties de la Chine par les missionnaires et les voyageurs, le liang varie de 32 à 39 grammes.
@@ -2039,7 +2378,9 @@
         <graphic facs="#facs_159" url="#" xml:id="tble_8_156_43"/>
        </figure>
        <p xml:id="para_8_156_402">
-        MONNAIES. — Les Chinois n'ont qu'une seule monnaie portant une empreinte officielle ; cette monnaie est le tsien, que les étran<pb facs="#facs_160" n="157" source="lesouvriersdesde04sociuoft_0163.xml"/>gers appellent vash dans les ports ouverts au commerce, et spec ou speque à Macao et a Manllle.
+        MONNAIES. — Les Chinois n'ont qu'une seule monnaie portant une empreinte officielle ; cette monnaie est le tsien, que les étran
+        <pb facs="#facs_160" n="157" source="lesouvriersdesde04sociuoft_0163.xml"/>
+        gers appellent vash dans les ports ouverts au commerce, et spec ou speque à Macao et a Manllle.
        </p>
        <p xml:id="para_8_157_403">
         Le monnayage régulier a commencé en Chine vers l'an 1120 av. 1.C.; la forme qui a été adoptée à cette époque pour le tsien a toujours été conservée. Le tsien est circulaire, percé au milieu d'un trou carré d'environ 2 lignes, à travers lequel on passe un jonc pour réunir ces pièces par paquets de cent. Son diamètre moyen est de 24 millimètres et son poids moyen dépasse grammes. Le tsien est fondu et non frappé ; il porte d'un côté une devise en mantchou, relative à la dynastie régnante, avec le nom de cette dynastie sur le côté gauche du trou carré, et celui du monarque régnant du coté droit ; sur le revers du tsien se trouve le nom du règne (comme tao-louang, etc.) avec les deux mots tung-pu (monnaie courante). Le tsien est formé d'un alliage de cuivre, de plomb, d'étain, de ainc ou de fer. Les proportions de cet alliage varient suivant l'époque et le lieu de l'émission.
@@ -2051,13 +2392,17 @@
         Le sapèque est considérablement altéré par des faux monnayeurs. On en importe beaucoup d'une valeur inférieure de la Cochin¬chine. Le gouvernement a pris quelquefois des mesures sévères pour empêcher la contrefaçon du tsien ; mais ses elforts sont res¬tés inutiles, et la rapacité des gouverneurs eu-mêmes à altérer la valeur des sapèques est clairement démontrée par la déprécia¬tion considérable que ces monnaies ont subie. Les tsien de fabri¬cation récente, comparés à ceux du règne de kang-hi, remon¬tant à environ 160 ans, sont d'une valeur intrinsèque inférieure ; ils le sont de même à ceux du règne de ien-loung qui ne remonte pas à plus de soixante-cinq ans. Les sapèques modernes ont été altérés de la facon la plus grossière avec du sable et de la limaille
        </p>
        <p xml:id="para_8_157_407">
-        Le sapèque est la seule monnaie qui soit en usage dans l'empire chinois. L'argent en lingots a été d'abord employé pour le paye¬ment de grosses sommes, et la piastre forte d'spagne (5 fr. 42) l'a remplacé. Cette piastre dont le type, le titre et le poids n'ont pas varié pendant soixante ans, a été longtemps la seule monnaie d'ar¬gent que les Chinois voulussent accepter ; ils ne se sont décidés à recevoir les piastres du Mexique à Canton et dans les ports que depuis quelques années, et après bien des difficultés. Les piastres du Chili, du Pérou, de la Bolivie, les roupies de l'nde, les pièces <pb facs="#facs_161" n="158" source="lesouvriersdesde04sociuoft_0164.xml"/> françaises de 5 fr., les onces d'or d'spagne et les souverains d'or d'Angleterre sont dépréciés partout.
+        Le sapèque est la seule monnaie qui soit en usage dans l'empire chinois. L'argent en lingots a été d'abord employé pour le paye¬ment de grosses sommes, et la piastre forte d'spagne (5 fr. 42) l'a remplacé. Cette piastre dont le type, le titre et le poids n'ont pas varié pendant soixante ans, a été longtemps la seule monnaie d'ar¬gent que les Chinois voulussent accepter ; ils ne se sont décidés à recevoir les piastres du Mexique à Canton et dans les ports que depuis quelques années, et après bien des difficultés. Les piastres du Chili, du Pérou, de la Bolivie, les roupies de l'nde, les pièces
+        <pb facs="#facs_161" n="158" source="lesouvriersdesde04sociuoft_0164.xml"/>
+        françaises de 5 fr., les onces d'or d'spagne et les souverains d'or d'Angleterre sont dépréciés partout.
        </p>
        <p xml:id="para_8_158_408">
         La monnaie de compte n'est pour les Chinois ni le tsien ni la monnaie d'argent étrangère. Ils ont fait prévaloir dans le commerce leur coutume de prendre pour unité de monnaie de compte une unité de poids qui représente le même poids d'argent spée ou argent pur à 1000/f1000. Cette monnaie de compte est le liang avec ses subdivisions décimales. Les valeurs de ces monnaies sont données dans le tableau suivant par M. de Montigny
-        <note type="bp"><p>
-         Manuel du négoiant francais sn Chine.
-        </p></note>
+        <note type="bp">
+         <p>
+          Manuel du négoiant francais sn Chine.
+         </p>
+        </note>
         .
        </p>
        <!--<p xml:id="para_8_158_409">

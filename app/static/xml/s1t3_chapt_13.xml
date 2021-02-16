@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 3 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_418">
@@ -241,7 +311,11 @@
       PAR
      </p>
      <p xml:id="para_13_413_7">
-      M. <persName>F. BLANCHARD</persName>, directeur des mines du Botino.
+      M.
+      <persName>
+       F. BLANCHARD
+      </persName>
+      , directeur des mines du Botino.
      </p>
     </div>
     <div n="002" type="section">
@@ -257,7 +331,10 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_13_413_13">
-        <pb facs="#facs_418" n="413" source="lesouvriersdesde03sociuoft_0421.xml"/> L'ouvrier habite le hameau de Nespolo, sur la rive droite du torent Nezza, également connu à l'aval sous le nom de Versiglia, que portait anciennement toute la contrée. Ce hameau, composé seulement de six habitations, dépend du village de Redignano, situé beaucoup plus haut sur le penchant du mont Altissimo. Ce village relève lui-même administrativement de la commune de Stazema, placée, à 2 kilomètres à l'est, sur le même versant des Alpes Apuanes, qui séparent la Toscane du duché de Modène. Ces mon¬tagnes, dont les points culminants, l'Altissimo et la Pania della Croce, sont respectivement à 1467 et 1718 mètres au-dessus du <pb facs="#facs_419" n="414" source="lesouvriersdesde03sociuoft_0422.xml"/> niveau de la mer, dominent toute la vallée de Seravezza, resserrée entre elles et une autre chaîne parallèle moins haute, mais dont quelques pitons atteignent encore 800 et 1,000 mètres, comme Pizzi del Bottino et Matana.
+        <pb facs="#facs_418" n="413" source="lesouvriersdesde03sociuoft_0421.xml"/>
+        L'ouvrier habite le hameau de Nespolo, sur la rive droite du torent Nezza, également connu à l'aval sous le nom de Versiglia, que portait anciennement toute la contrée. Ce hameau, composé seulement de six habitations, dépend du village de Redignano, situé beaucoup plus haut sur le penchant du mont Altissimo. Ce village relève lui-même administrativement de la commune de Stazema, placée, à 2 kilomètres à l'est, sur le même versant des Alpes Apuanes, qui séparent la Toscane du duché de Modène. Ces mon¬tagnes, dont les points culminants, l'Altissimo et la Pania della Croce, sont respectivement à 1467 et 1718 mètres au-dessus du
+        <pb facs="#facs_419" n="414" source="lesouvriersdesde03sociuoft_0422.xml"/>
+        niveau de la mer, dominent toute la vallée de Seravezza, resserrée entre elles et une autre chaîne parallèle moins haute, mais dont quelques pitons atteignent encore 800 et 1,000 mètres, comme Pizzi del Bottino et Matana.
        </p>
        <p xml:id="para_13_414_15">
         Les cimes des Alpes Apuanes sont couvertes de neige pendant la majeure partie de l'année. Leur versant présente à chaque saillie, à chaque plateau, des hameaux et des cultures où l'on observe la succession des diflérents climats et des diverses productions de l'Europe. Au pied, c'est l'Italie avec ses orangers, ses citronniers et ses oliviers : au sommet, règnent les frimas et les neiges du nord, avec ses bruyères et quelques rares bouleaux pour seule végéta¬tion; à mi-côte grandissent les châtaigniers et les hêtres que pro¬tége un climat tempéré. Comme ressources industrielles, les Alpes puanes offrent à leurs populations l'exploitation des beaux mar¬bres blancs si renommés de Carrara et de Seravezza
@@ -280,19 +357,36 @@
         La famille comprend les deux époux et deux enfants, savoir :
        </p>
        <p xml:id="para_13_414_18">
-        1 <persName>FELICE B***</persName>, chef de famille, marié depuis 11 ans, né à Nes¬polo, commune de Redignano............ 33 ans.
+        1
+        <persName>
+         FELICE B***
+        </persName>
+        , chef de famille, marié depuis 11 ans, né à Nes¬polo, commune de Redignano............ 33 ans.
        </p>
        <p xml:id="para_13_414_19">
-        2 <persName>RosA V**</persName>, sa femme, née à Redignano............ 32 —
+        2
+        <persName>
+         RosA V**
+        </persName>
+        , sa femme, née à Redignano............ 32 —
        </p>
        <p xml:id="para_13_414_20">
-        3 <persName>Santi B***</persName>, leur fils, né à Nespolo............ 10 —
+        3
+        <persName>
+         Santi B***
+        </persName>
+        , leur fils, né à Nespolo............ 10 —
        </p>
        <p xml:id="para_13_414_21">
-        4 <persName>Stella B***</persName>, leur fille, née à Nespolo............. 2 — 1/2
+        4
+        <persName>
+         Stella B***
+        </persName>
+        , leur fille, née à Nespolo............. 2 — 1/2
        </p>
        <p xml:id="para_13_415_22">
-        <pb facs="#facs_420" n="415" source="lesouvriersdesde03sociuoft_0423.xml"/> Quatre autres enfants sont morts en bas âge.
+        <pb facs="#facs_420" n="415" source="lesouvriersdesde03sociuoft_0423.xml"/>
+        Quatre autres enfants sont morts en bas âge.
        </p>
        <p xml:id="para_13_415_23">
         L'ouvrier a perdu ses parents ; il a un frère, métayer, marié et père de cinq enfants. La mère de Rosa V* est morte ; son père, petit cultivateur propriétaire, habite Redignano avec une femme, épousée en secondes noces, un fils et une fille ; six autres enfants sont mariés.
@@ -326,7 +420,9 @@
         § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
        <p xml:id="para_13_415_28">
-        L'ouvrier est de taille moyenne ; son teint est brun, ses cheveux noirs ; il est robuste et jouit d'une bonne santé. Il n'a jamais été <pb facs="#facs_421" n="416" source="lesouvriersdesde03sociuoft_0424.xml"/> sérieusement malade ; cependant, l'année dernière, une irritation de poitrine l'a retenu une vingtaine de jours chez lui, sans l'obli¬ger à s'aliter.
+        L'ouvrier est de taille moyenne ; son teint est brun, ses cheveux noirs ; il est robuste et jouit d'une bonne santé. Il n'a jamais été
+        <pb facs="#facs_421" n="416" source="lesouvriersdesde03sociuoft_0424.xml"/>
+        sérieusement malade ; cependant, l'année dernière, une irritation de poitrine l'a retenu une vingtaine de jours chez lui, sans l'obli¬ger à s'aliter.
        </p>
        <p xml:id="para_13_416_30">
         Sa femme, de taille moyenne, brune de teint et de cheveux, est également douée d'une ex̧ellente santé que n'ont point affaiblie six couches assez rapprochées les unes des autres. Elle est enceinte en ce moment de son septième enfant. Sur les quatre qu'elle a perdus, trois ont à peine vécu quelques jours, et le quatrième est mort à l'âge de quatre ans de la petite vérole. Ce fléau, dont les parents ont toujours négligé de garantir leurs enfants par la vaccine, a rappé depuis leur ils âné, qui n'en conserve aucune trace.
@@ -363,12 +459,12 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_13_416_38">
          (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_13_416_39">
          IMMEUBLES............ 125ᶠ 00
         </p>
@@ -379,14 +475,15 @@
          2° Immeubles ruraux. — 2 champs en terrasse (25 ares), situés sur le flanc de la montagne et attenant à la aison, 336ᶠ 00; — champ (85 ares), situé dans la montagne, et dont une partie est encore en friche, 252ᶠ 00. — 'otal, 588ᶠ 00.
         </p>
         <p xml:id="para_13_417_42">
-         <pb facs="#facs_422" n="417" source="lesouvriersdesde03sociuoft_0425.xml"/> Ces divers immeubles proviennent principalement de la succession du père de l'ou¬vrier
+         <pb facs="#facs_422" n="417" source="lesouvriersdesde03sociuoft_0425.xml"/>
+         Ces divers immeubles proviennent principalement de la succession du père de l'ou¬vrier
          <ref target="#part_03_01_21" type="renvoi_int_mono">
           (E)
          </ref>
          , et en partie d'acquisitions faites avec les sommes retirées par la femme de l'héritage de sa mère ; ils s'accroissent ou s'améliorent chaque année, grâce aux épargnes et au'travail de la famille.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_13_417_43">
          ARGENT............ 0ᶠ 00
         </p>
@@ -397,7 +494,7 @@
          gne, elle est eiployée à l'amélioration des immeubles.
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_13_417_46">
          ANIMAUX DOMESTIQUES entretenus toute l'année. .. 2ᶠ 25
         </p>
@@ -415,7 +512,7 @@
          1 génisse engraissée pour la boucherie pendant 9 mois (de la fin de mars a Noe), et d'une valeur moyenne de 75ᶠ 00 ; valeur moyenne calculée pour l'année entière, 56ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_13_417_50">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 65ᶠ 00
         </p>
@@ -426,7 +523,7 @@
          2° stensile pour le blanchissage. — 1 cuvier en terre cuite (concu, 3ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_13_417_53">
          VALEUR TOTALE des propriétés............ 1,551ᶠ 25
         </p>
@@ -444,9 +541,11 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_13_417_57">
-         TRAVAUX DE L'OUVRIER. — Le travail de l'ouvrier consiste à sur¬veiller la marche d'un four à manche pour la fusion de la galène <pb facs="#facs_423" n="418" source="lesouvriersdesde03sociuoft_0426.xml"/> argentière
+         TRAVAUX DE L'OUVRIER. — Le travail de l'ouvrier consiste à sur¬veiller la marche d'un four à manche pour la fusion de la galène
+         <pb facs="#facs_423" n="418" source="lesouvriersdesde03sociuoft_0426.xml"/>
+         argentière
          <ref target="#part_03_01_21" type="renvoi_int_mono">
           (E)
          </ref>
@@ -466,7 +565,7 @@
          C'est en ces jours fériés que l'ouvrier travaille à la culture de ses champs et au défrichement du terrain qu'il possède sur la mon¬agne (R. 3°S°ʳ.).
         </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_13_418_63">
          TRAVAUX DE LA FEMME. — Le travail principal de la femme est celui du ménage. lle consacre la majeure partie de ses journées à la préparation des aliments, à l'enretien du mobilier et de l'habi¬tation, aux soins donnés aux enfants, et surtout à la surveillance attentive de la petite fille
          <ref target="#part_02_05_14" type="renvoi_int_mono">
@@ -475,15 +574,17 @@
          .
         </p>
         <p xml:id="para_13_418_64">
-         Ses travaux secondaires consistent dans l'exploitation des immeu¬bles ruraux, dans les soins donnés aux poules, dans l'engraisse¬ment de la génisse, dans le transport du fumier, dans la récolte <pb facs="#facs_424" n="419" source="lesouvriersdesde03sociuoft_0427.xml"/> des herbes et du bois de chauflage. Elle fait en outre une les¬sive pa mois et aide autant que possible une couturière qu'elle prend pendant 10 à 12 jours tous les ans pour conlectionner et entretenir les vêtements et le linge de la famille.
+         Ses travaux secondaires consistent dans l'exploitation des immeu¬bles ruraux, dans les soins donnés aux poules, dans l'engraisse¬ment de la génisse, dans le transport du fumier, dans la récolte
+         <pb facs="#facs_424" n="419" source="lesouvriersdesde03sociuoft_0427.xml"/>
+         des herbes et du bois de chauflage. Elle fait en outre une les¬sive pa mois et aide autant que possible une couturière qu'elle prend pendant 10 à 12 jours tous les ans pour conlectionner et entretenir les vêtements et le linge de la famille.
         </p>
        </div>
-       <div type="travaux" subtype="fils">
+       <div subtype="fils" type="travaux">
         <p xml:id="para_13_419_66">
          TRAVAUX DU FILS. — Le jeune garçon, à son retour de l'école ou durant les vacances, aide sa mère dans tous ses travaux, en ce qui concerne surtout la récolte des herbes et celle du bois. ll mène pâ¬turer la génisse, en ramassant des châtaignes, sur la montagne et le long des routes. Enfin, il va porter des aliments à son père le soir ou le matin, suivant les heures de travail.
         </p>
        </div>
-       <div type="industries" subtype="famille">
+       <div subtype="famille" type="industries">
         <p xml:id="para_13_419_67">
          INDUSTRIES ENTREPRISES PAR LA FAMILLE. — Séculation de l'ou¬vrier relativement à ses travaux de fondeur
          <ref target="#part_02_05_14" type="renvoi_int_mono">
@@ -515,10 +616,14 @@
         2ᵉ Entre onze heures et midi, le dîner : polenda, fromage. oignons.
        </p>
        <p xml:id="para_13_419_75">
-        3ᵉ Vers sept heures du soir, le souper, repas principalde la famille : <pb facs="#facs_425" n="420" source="lesouvriersdesde03sociuoft_0428.xml"/> soupe dite minestra
-        <note type="bp"><p>
-         Minestra est le nom générique donné aux padtes en ltalie : on l'pplique pr exten¬sion aux soupes, alors mèe que ces p̀tes qui en orment habituellement la base n'en¬trent pas dns leur composition. C'est ainsi, par exemple, que dans les mountagnes de Côme et du pys bergumasque, la inestra se compose ordinairement de riz et d'un léger bouillon de viande.
-        </p></note>
+        3ᵉ Vers sept heures du soir, le souper, repas principalde la famille :
+        <pb facs="#facs_425" n="420" source="lesouvriersdesde03sociuoft_0428.xml"/>
+        soupe dite minestra
+        <note type="bp">
+         <p>
+          Minestra est le nom générique donné aux padtes en ltalie : on l'pplique pr exten¬sion aux soupes, alors mèe que ces p̀tes qui en orment habituellement la base n'en¬trent pas dns leur composition. C'est ainsi, par exemple, que dans les mountagnes de Côme et du pys bergumasque, la inestra se compose ordinairement de riz et d'un léger bouillon de viande.
+         </p>
+        </note>
         , faite d'une pâte grossière, coupée en longues lanières, d'un peu d'huile, d'eau et de jus de tomate frais ou con¬servé. On y ajoute parois des haricots secs, et, en hiver, un mor¬ceau de porc salé.
        </p>
        <p xml:id="para_13_420_77">
@@ -532,16 +637,18 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_13_420_80">
          La maison où est né Felice B*** et qui lui a été transmise par son père
          <ref target="#part_03_01_21" type="renvoi_int_mono">
           (E)
          </ref>
-         est adossée contre la montagne et élevée de 30 à 40 mètres au-dessus du torrent de la Nezza. Ses trois étages sont de plain-pied avec le terrain par suite de la déclivité du sol, et ont accès au dehors. Par le fait de cette situation l'habitation est très-humide. Elle est construite en pierres schisteuses et couverte, partie en tuiles, partie en grandes ardoises irrégulières du pays, semblables à celles qu'on appelle cherbins dans les ardoisières belges. hLa distribution est celle-ci : au rez-de-chaussée, une écurie creusée dans le flanc de la montaggne ; au premier étage, une cuisine ; au deuxìme, une chambre à coucher. lL'ouvrier a ouvert depuis peu dans le rocher une autre pièce à côté de la cuisine, et il l'a surmontée d'une con¬struction, dont il compte laire une seconde chambre à coucher. Ces <pb facs="#facs_426" n="421" source="lesouvriersdesde03sociuoft_0429.xml"/> deux dernières pièces ne sont pas achevées ; elles n'ont encore que les murs et le toit. Les économies de l'année courante permettront sans doute de continuer les travaux et de terminer notamment les portes et les fenêtres nouvelles fermées en ce moment par des planches. L'intérieur de la maison est assez mal tenu; les murs sont enfumés ; un escalier de bois, dit échelle de meunier, conduit à la chambre à coucher, et, en attendant l'achèvement des nou¬velles pièces, la famille est fort à l'étroit dans celles qu'elle habite. Chaque chambre forme un carré de 3 48 de côté et a 2 16 de haut.
+         est adossée contre la montagne et élevée de 30 à 40 mètres au-dessus du torrent de la Nezza. Ses trois étages sont de plain-pied avec le terrain par suite de la déclivité du sol, et ont accès au dehors. Par le fait de cette situation l'habitation est très-humide. Elle est construite en pierres schisteuses et couverte, partie en tuiles, partie en grandes ardoises irrégulières du pays, semblables à celles qu'on appelle cherbins dans les ardoisières belges. hLa distribution est celle-ci : au rez-de-chaussée, une écurie creusée dans le flanc de la montaggne ; au premier étage, une cuisine ; au deuxìme, une chambre à coucher. lL'ouvrier a ouvert depuis peu dans le rocher une autre pièce à côté de la cuisine, et il l'a surmontée d'une con¬struction, dont il compte laire une seconde chambre à coucher. Ces
+         <pb facs="#facs_426" n="421" source="lesouvriersdesde03sociuoft_0429.xml"/>
+         deux dernières pièces ne sont pas achevées ; elles n'ont encore que les murs et le toit. Les économies de l'année courante permettront sans doute de continuer les travaux et de terminer notamment les portes et les fenêtres nouvelles fermées en ce moment par des planches. L'intérieur de la maison est assez mal tenu; les murs sont enfumés ; un escalier de bois, dit échelle de meunier, conduit à la chambre à coucher, et, en attendant l'achèvement des nou¬velles pièces, la famille est fort à l'étroit dans celles qu'elle habite. Chaque chambre forme un carré de 3 48 de côté et a 2 16 de haut.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_13_421_83">
          MEUBLES : achetés neufs et peu à peu avec les épargnes. 123ᶠ 50
         </p>
@@ -568,7 +675,7 @@
          4° Objets relatifs au culte domestique. — 1 image enluminée de la Madone, 0ᶠ 28.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_13_421_90">
          USTENSILES : comprenant seulement le nécessaire.... 67ᶠ 36
         </p>
@@ -582,7 +689,7 @@
          3° Employés pour usages divers. — 3 paniers plats en bois refendu ceste, 4ᶠ20 ; — 3 corbeilles de même fabrication, 0ᶠ 84 ; — 2 chaufferettes en terre (scaldini), 0ᶠ 84. — Toa, 5ᶠ 88.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_13_421_94">
          LINGE DE MÉNAGE : fait de toile grossière, et n'offrant pas de SuDeru. ..................................... 1)§5ᶠ 2§
         </p>
@@ -590,9 +697,10 @@
          7 paires de draps de lit en chanvre, 58ᶠ 80; — 12 serviettes et 2 nappes de fil et coton, 26ᶠ 48 ; — 12 essuie-mains en chanvre, 20ᶠ 00. — Total, 105ᶠ28.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_13_422_96">
-         <pb facs="#facs_427" n="422" source="lesouvriersdesde03sociuoft_0430.xml"/> VÊTEMENTS : ils ne se divisent pas en habits de fête et en habits de travail ; les plus neufs servent le dimanche, et les plus usés les jours ordinaires. . ... ........... ............. 20)8ᶠ 7
+         <pb facs="#facs_427" n="422" source="lesouvriersdesde03sociuoft_0430.xml"/>
+         VÊTEMENTS : ils ne se divisent pas en habits de fête et en habits de travail ; les plus neufs servent le dimanche, et les plus usés les jours ordinaires. . ... ........... ............. 20)8ᶠ 7
         </p>
         <p xml:id="para_13_422_97">
          VÊTEMENTS DE L'OUVRIER (69ᶠ S0) : en tout semblables à ceux que porte habituelle¬ment la bourgeoisie du pays, qui a adopté pour les dimanches le costume francais moderne.
@@ -619,7 +727,7 @@
          2° Vêtements de la petite fille. — 4 chemises et 2 robes confectionnées par la mère avec ses vieux vêtements, 10ᶠ 00 ; 2 paires de souliers, 0ᶠ 90. — Total, 10ᶠ 90.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_13_422_110">
          VALEUR TOTALE du mobilier et des vêtements... 504ᶠ 92
         </p>
@@ -634,7 +742,9 @@
         <ref target="#ID-005a" type="renvoi_int_od2m">
          (N° 5, § 11)
         </ref>
-        , est très-répandu dans cette partie de la con¬trée. L'ouvrier ne ume jamais : quelques-uns de ses camarades joignent cependant cette habitude à celle de priser ; mais c'est une exception. Le dimauche ou les jours fériés, il se rend quelquefois au village le plus voisin pour voir ses connaissances et aller boire <pb facs="#facs_428" n="423" source="lesouvriersdesde03sociuoft_0431.xml"/> au café deux verres de punch (poncio), composé d'eau chaude, de rhum, de sucre et d'un morceau de citron. Le prix de cette con¬sommation est en moyenne de 0ᶠ 28. Un de ses plaisirs est aussi de s'occuper d'un merle (Trdus Merula, Lin.) élevé par son fils et dont il a construit lui-même la cage.
+        , est très-répandu dans cette partie de la con¬trée. L'ouvrier ne ume jamais : quelques-uns de ses camarades joignent cependant cette habitude à celle de priser ; mais c'est une exception. Le dimauche ou les jours fériés, il se rend quelquefois au village le plus voisin pour voir ses connaissances et aller boire
+        <pb facs="#facs_428" n="423" source="lesouvriersdesde03sociuoft_0431.xml"/>
+        au café deux verres de punch (poncio), composé d'eau chaude, de rhum, de sucre et d'un morceau de citron. Le prix de cette con¬sommation est en moyenne de 0ᶠ 28. Un de ses plaisirs est aussi de s'occuper d'un merle (Trdus Merula, Lin.) élevé par son fils et dont il a construit lui-même la cage.
        </p>
        <p xml:id="para_13_423_114">
         Les dimanches et lesjours de fête, la mère assiste avec ses deux enfants à la messe et aux offices
@@ -665,7 +775,9 @@
         dont il se dégoûta bientôt, et nous le retrouvons, en 1846, occupé, d'abord comme manœuvre, puis comme fondeur dans l'usine qu'on venait de construire pour le traitement des minerais de plomb argentifère du Bottino. En 1855, pressé par la cherté des subsistances, l'ouvrier reprit le mé¬tier de charbonnier, espérant y gagner plus qu'à l'usine ; mais, déçu dans son espoir, il revint quelques mois après et fut réintégré dans son ancien poste qu'il occupe encore aujourd'hui.
        </p>
        <p xml:id="para_13_423_119">
-        Conformément à la loi de son pays sur la conscription, l'ouvrier dut tirer au sort à vingt ans. ll s'était prudemment engagé dans une société de vingt jeunes gens de la localité, réunis pour former le capital nécessaire au remplacement de ceux d'entre eux auxquels le sort ne serait point favorable. Grâce à cette prévoyance, l'ouvrier, dont le numéro se trouva mauvais, lut remplacé avec un des autres sociétaires, sans avoir à débourser autre chose que sa quote-part de <pb facs="#facs_429" n="424" source="lesouvriersdesde03sociuoft_0432.xml"/> 50ᶠ 00., le prix du remplacement militaire en Toscane étant alors rès-bas.
+        Conformément à la loi de son pays sur la conscription, l'ouvrier dut tirer au sort à vingt ans. ll s'était prudemment engagé dans une société de vingt jeunes gens de la localité, réunis pour former le capital nécessaire au remplacement de ceux d'entre eux auxquels le sort ne serait point favorable. Grâce à cette prévoyance, l'ouvrier, dont le numéro se trouva mauvais, lut remplacé avec un des autres sociétaires, sans avoir à débourser autre chose que sa quote-part de
+        <pb facs="#facs_429" n="424" source="lesouvriersdesde03sociuoft_0432.xml"/>
+        50ᶠ 00., le prix du remplacement militaire en Toscane étant alors rès-bas.
        </p>
        <p xml:id="para_13_424_121">
         L'existence si calme de l'ouvrier a été troublée en 1849 par un singulier événement qui décèle l'un des vices de l'ancien régime administratif de ce pays. Il revenait un soir de son travail, et s'était arrêté pour cueillir des roses sauvages dans un buisson placé à quel¬ques pas de sa demeure, lorsque cinq carabiniers (gendarmes tos¬cans) un peu ivres, qui passaient en ce moment, lui coururent sus, et le saisirent en prétendant qu'il s'était caché dans le bois pour leur jeter des pierres. Malgré ses protestations, on l'emmena gar¬rotté sans lui permettre de voir sa famille. Conduit à Pietra-Santa, il y passa la nuit en prison, et fut, le lendemain avant le jour, dirigé sur Lucques. Le directeur des établissements du Bottino s'empressa de faire les démarches nécessaires pour obtenir son élargissement: mais il s'écoula 1 jours environ avant qu'il put y réussir.
@@ -693,7 +805,8 @@
         § 13. — MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
        </head>
        <p xml:id="para_13_425_126">
-        <pb facs="#facs_430" n="425" source="lesouvriersdesde03sociuoft_0433.xml"/>Les deux époux s'appliquent à fonder leur avenir sur deux bases solides, le travail et l'épargne. Vivant avec sobriété, ils n'ont point l'ambition de s'élever au-dessus de leur condition actuelle, mais ils s'efforcent de l'améliorer autant qu'il dépend d'eux. A cet effet, ils n'étendent guère leurs dépenses au delà de la stricte satisfaction de leurs besoins, et ils consacrent leurs économies à l'agrandisse¬ment ou à l'amélioration de leur maison et de leurs champs. Ils par¬viendront ainsi infailliblement, si leur existence se prolonge confor¬mément aux éventualités ordinaires de la vie humaine, à assurer leur indépendance et à mettre leur vieillesse à l'abri du besoin.
+        <pb facs="#facs_430" n="425" source="lesouvriersdesde03sociuoft_0433.xml"/>
+        Les deux époux s'appliquent à fonder leur avenir sur deux bases solides, le travail et l'épargne. Vivant avec sobriété, ils n'ont point l'ambition de s'élever au-dessus de leur condition actuelle, mais ils s'efforcent de l'améliorer autant qu'il dépend d'eux. A cet effet, ils n'étendent guère leurs dépenses au delà de la stricte satisfaction de leurs besoins, et ils consacrent leurs économies à l'agrandisse¬ment ou à l'amélioration de leur maison et de leurs champs. Ils par¬viendront ainsi infailliblement, si leur existence se prolonge confor¬mément aux éventualités ordinaires de la vie humaine, à assurer leur indépendance et à mettre leur vieillesse à l'abri du besoin.
        </p>
        <p xml:id="para_13_425_127">
         Le régime des successions de la Toscane
@@ -1844,7 +1957,8 @@
           (A) SUR LA RICHESSE MINÉRALE DES ALPES APUANES ET SUR LES INDUSTRIES QUI EN DÉPENDENT.
          </head>
          <p xml:id="para_13_437_486">
-          <pb facs="#facs_442" n="437" source="lesouvriersdesde03sociuoft_0445.xml"/> Les Alpes Apuanes offrent à l'activité humaine de vastes res¬sources par les roches et les minerais qu'elles renferment. Il peut être utile de rappeler ici les gisements connus, les exploitations existantes et les industries qui en dépendent, enfin les richesses forestières et les cours d'eau qui alimentent ces industries.
+          <pb facs="#facs_442" n="437" source="lesouvriersdesde03sociuoft_0445.xml"/>
+          Les Alpes Apuanes offrent à l'activité humaine de vastes res¬sources par les roches et les minerais qu'elles renferment. Il peut être utile de rappeler ici les gisements connus, les exploitations existantes et les industries qui en dépendent, enfin les richesses forestières et les cours d'eau qui alimentent ces industries.
          </p>
          <p xml:id="para_13_437_487">
           I. Les gîtes minéraux des Alpes Apuanes peuvent être rangés en deux catégories, suivant qu'ils contiennent des matériaux de construction ou des minerais métallifères. Dans la première classe il faut citer :
@@ -1862,7 +1976,9 @@
           Les gites de la seconde classe actuellement en exploitation sont assez rares ; mais le nombre de ceux qui ont été exploités ancien¬nement ou dont l'existence était connue par des indices est très¬considérable. Il suffira d'indiquer les principaux : ce sont :
          </p>
          <p xml:id="para_13_437_492">
-          4° Des minerais de fer, qui se rencontrent dans les calcaires et dans les schistes cristallins à Val-di-Castello, à Stazema, à Falco¬vaja sur l'Altissimo, et à Mosceta sur la Corchia. IExploitées proba¬blement par les Romains, revendiquées en 1347 par les seigneurs de Corvaja et de Vallecchia, délaissées plus tard, mais de nouveau reprises vers 1690, ces mines, dont quelques-unes ont donné lieu à d'importants travaux, furent abandonnées quelque temps après par ordre du gouvernement, qui défendit d'employer d'autre mine<pb facs="#facs_443" n="438" source="lesouvriersdesde03sociuoft_0446.xml"/>rai que celui de l'île d'lbe, et d'autres fontes que celes de Cecina et de Follonica;
+          4° Des minerais de fer, qui se rencontrent dans les calcaires et dans les schistes cristallins à Val-di-Castello, à Stazema, à Falco¬vaja sur l'Altissimo, et à Mosceta sur la Corchia. IExploitées proba¬blement par les Romains, revendiquées en 1347 par les seigneurs de Corvaja et de Vallecchia, délaissées plus tard, mais de nouveau reprises vers 1690, ces mines, dont quelques-unes ont donné lieu à d'importants travaux, furent abandonnées quelque temps après par ordre du gouvernement, qui défendit d'employer d'autre mine
+          <pb facs="#facs_443" n="438" source="lesouvriersdesde03sociuoft_0446.xml"/>
+          rai que celui de l'île d'lbe, et d'autres fontes que celes de Cecina et de Follonica;
          </p>
          <p xml:id="para_13_438_494">
           5° Un filon de cuivre gris argentifère au canal de l'Angina, à Mal¬di-Castello, qui paraissait donner de bonnes espérances, mais dont les travaux n'ont pû être continués ; des gisements inattaqués de cuivre pyriteux, de cuivre gris et de malachite, qui ont dû donner lieu autrefois à quelque exploitation, comme l'attestent les traces d'une ancienne fonderie et les scories récemment découvertes dans la vallée de Strettoja;:
@@ -1887,7 +2003,9 @@
           1. Le versant toscan des Alpes Apuanes est en grande partie dépouillé aujourd'hui des forêts de châtaigniers (stnea ularis, Lin.) et de hêtres (ˉgs spvtic, Lin.) dont il était autrefois couvert. La disparition rapide de ces forêts à été causée par les petites forges établies sur tout le cours de la Versiglia. Ces forges emploient comme combustible le charbon de bois, dont le prix, qui était anciennement de 30 à 35 francs la tonne, s'est élevé aujour¬d'hui à 50 francs. Dans ce prix sont compris les frais de transport qui en absorbent presque la moitié.
          </p>
          <p xml:id="para_13_438_500">
-          Le travail du charbon se fait a la tâche. Le maître fournit le bois <pb facs="#facs_444" n="439" source="lesouvriersdesde03sociuoft_0447.xml"/> su pied ; les tâcherons l'abattent, le taillent, montent la meule et cuisent le charbon. Le produit est divisé par parties égales entre le patron et les ouvriers. Le gain de ce travail varie de 1ᶠ50 à 2ᶠ 00 par homme et par jour. Le charbonnier est obligé de passer presque toute l'anée dans le bois ; en hiver, il faut abattre, tailler, etc. ; au printemps, il faut préparer des charbonnières et cuire le char¬bon; il reste ensuite à en surveiller le mesurage et l'enlèvement.
+          Le travail du charbon se fait a la tâche. Le maître fournit le bois
+          <pb facs="#facs_444" n="439" source="lesouvriersdesde03sociuoft_0447.xml"/>
+          su pied ; les tâcherons l'abattent, le taillent, montent la meule et cuisent le charbon. Le produit est divisé par parties égales entre le patron et les ouvriers. Le gain de ce travail varie de 1ᶠ50 à 2ᶠ 00 par homme et par jour. Le charbonnier est obligé de passer presque toute l'anée dans le bois ; en hiver, il faut abattre, tailler, etc. ; au printemps, il faut préparer des charbonnières et cuire le char¬bon; il reste ensuite à en surveiller le mesurage et l'enlèvement.
          </p>
          <p xml:id="para_13_439_502">
           Le cours d'eau principal du versant toscan des Alpes puanes est la Versiglia, qui porte différents noms sur son parcours. Des orges, des scieries de marbre sont échelonnées sur cette rivière de 500 mètres en 500 mêtres jusqu'au- dessous de Seravezza. lle eçoit en outre une foule de ruisseaux et de torrents, dont quel¬ques-uns, comme celui dit Delle Mulina, ont assez de puissance pour mouvoir les roues hydrauliques de nmbreuses usines, telles que moulins à farine et à poudre, souffleries et martinets.
@@ -1896,7 +2014,8 @@
           II. L'exploitation la plus importante du pays est sans contredit celle des marbres de Seravezza. La première carrière fut ouverte sur le mont ltissimo d'après les ordres du pape Léon, en 1518, et sous la surveillance de Michel-Ange, qui dirigeait à cette époque à Carrara le travail des marbres destinés au tombeau de Jules ll et à la façade de l'église de San-Lorenzo de Florence. Michel-Ange employa plusieurs années à l'extraction des colonnes de San-Lo¬renzo, et il dut en même temps faire établir une route pour les transporter au bord de la mer. Léon étant mort en 1521, les tra¬vaux furent abandonnés. En 1564, Cosme ʳ de Médicis, grand-duc de Toscane, les fit reprendre, et pour en assurer les succès, il dé¬fendit de se servir du marbre de Carrara pour les monuments de ses ĺtats. Il envoya des artistes à Seravezza, 1it construire des routes, et donna ainsi un vigoureux essor à cette industrie qui tomba de nouveau sous François ᵉʳ de Médicis, en 1570. Elle ne se releva qu'en 182l, grâce au chevalier Marco Bonini de Seravezza, qui. après avoir consacré sa fortune à la reprise des travaux, s'associa en 1840 à de riches capitalistes, refit la route vers la mer, et tira des carrières du mont Altissimo et des montagnes voisines non¬seulement le marbre blanc statuaire, mais encore une foule de variétés de marbres pour l'ornementation. Ces marbres si renommés sont exportés en quantité considérable en Fance, en Angleterre, en Russie et en Amérique. Le chemin de fer en voie d'achèvement de Livourne à Massa et Carrara, et le tronçon projeté dans la vallée de Seravezza, permettront de les transporter facilement à Livourne, principal port d'embarquement. La première scierie mécanique fut montée à Seravezza il y a une trentaine d'années, et on en compte aujourd'hui plus de 25 sur le parcours de la Vezza et de la Serra.
          </p>
          <p xml:id="para_13_440_504">
-          <pb facs="#facs_445" n="440" source="lesouvriersdesde03sociuoft_0448.xml"/> On évalue que le commerce des marbres de la Versiglia produit annuellement à ce district un million de francs environ.
+          <pb facs="#facs_445" n="440" source="lesouvriersdesde03sociuoft_0448.xml"/>
+          On évalue que le commerce des marbres de la Versiglia produit annuellement à ce district un million de francs environ.
          </p>
          <p xml:id="para_13_440_505">
           Bien que la Toscane manque presque complétement de combus¬tible minéral et que ses forêts, en partie détruites, ne puissent plus produire le combustible végétal à des conditions économiques pour l'industrie sidérurgique, les forges de la Nersiglia avaient pu jusqu'à ce jour soutenir la concurrence étrangère avec assez d'avantage. Cette situation était due au système protecteur de l'ancien gouver¬nement qui, pour lavoriser ses hauts-lourneaux de Cecina, de Follo¬nica et de Valpiana et assurer l'écoulement des fontes de première fusion, avait établi des droits presque prohibitifs sur l'entrée des fers étrangers. Aujourd'hui les droits ont été diminués, et si l'auto¬nomie toscane vient à cesser bientôt, ces lers feront une rude con¬currence à ceux du pays. Les usines bien situées devront enfin entrer dans la voie du progrès. Quant à celles de la vallée de Seravezza, qui ne jouissent que d'une prospérité artificielle, elles devront naturellement tomber. Le pays présentant assez d'autres industries, il n'y aura qu'à s'applaudir de voir cesser un état de choses anormal. Les forges encore en activité sont au nombre de huit, dont cinq travaillent à deux feux et trois à un feu. Ces forges reçoivent la fonte en gueuse des hauts-lourneaux précités de Follo¬nica, Cecina, etc. Cette fonte coûte 11ᶠ 35 les 100 lil. à Forte dei Marmi, sur la plage. Le prix du ler travaillé varie selon la grosseur de 30ᶠ 27 35ᶠ 31 les 100 lil. La contrée consomme, pendant les huit mois de la campagne annuelle, de 800 à 900 tonnes de fonte de première fusion ; elle produit de 600 à 700 tonnes de fer battu de diverses grosseurs.
@@ -1910,7 +2029,9 @@
           La mine de plomb argentifère du Bottino est ouverte vers le haut de la montagne dite Pizzi del Bottino, à 500 mètres au-dessus de la Vezza, au bord de laquelle se trouvent les établissements pour la préparation mécanique et le traitement des minerais. Les travaux auxquels elle donne lieu se divisent naturellement en deux groupes principaux.
          </p>
          <p xml:id="para_13_440_508">
-          I. Le filon recoupe très-obliquement les schistes inférieurs dans lesquels il est encaissé. Il est reconnu sur une longueur de 300 mè¬tres, avec une direcuion à peu près régulière du N.0. au S.E., et une inclinaison N.-E. de 55°. Il se compose d'une gangue de quartz <pb facs="#facs_446" n="441" source="lesouvriersdesde03sociuoft_0449.xml"/> et de schistes semblables à ceux des parois, mais en partie altérés et souvent colorés par l'oxyde de fer. Les minerais contenus sont la galène à grains d'acier et la galène à petites facettes. La pre¬mière, moins argentifère, est accompagnée de pyrite de fer, de pyrite de cuivre et de blende ; la seconde est associée à la bourno¬nite, au cuivre gris argentifère et a l'antimoine sulfuré.
+          I. Le filon recoupe très-obliquement les schistes inférieurs dans lesquels il est encaissé. Il est reconnu sur une longueur de 300 mè¬tres, avec une direcuion à peu près régulière du N.0. au S.E., et une inclinaison N.-E. de 55°. Il se compose d'une gangue de quartz
+          <pb facs="#facs_446" n="441" source="lesouvriersdesde03sociuoft_0449.xml"/>
+          et de schistes semblables à ceux des parois, mais en partie altérés et souvent colorés par l'oxyde de fer. Les minerais contenus sont la galène à grains d'acier et la galène à petites facettes. La pre¬mière, moins argentifère, est accompagnée de pyrite de fer, de pyrite de cuivre et de blende ; la seconde est associée à la bourno¬nite, au cuivre gris argentifère et a l'antimoine sulfuré.
          </p>
          <p xml:id="para_13_441_510">
           On prétend que l'exploitation des mines du Bottino remonte, comme celle des principales mines de Toscane, au temps des Etrus¬ques et des Romains. Quoi qu'il en soit, elles étaient certainement fouillées au moyen âge : car la république de Lucques les enleva en 1142 aux seigneurs de Corvaja et de Vallecchia. Il est vrai que c'est principalement sur l'autre versant de la montagne du Bottino, au lieu dit l'rgentiera, et du côté de Val di Castello, que les travaux se poursuivaient à cette époque. eprise en 1542 par Cosme ᶠ de Médicis, l'exploitation proprement dite du Bottino continua jusqu'en 1580 sous Ferdinand ʳ. Elle fut recommencée vers la in de 1828 par une société livournaise, constituée sous le nom de ˉocieté i¬érlogique. La mise de fonds primitive étant devenue insuffisante, les actionnaires l'augmentèrent successivement, et en 1838, ils re¬formèrent la Société sous le nom de Compagnie dau ottino, au ca¬pital de 416,000ᶠ. C'est la société actuelle, qui., après quelques vicissitudes, est parvenue à triompher de tous les obstacles inhérents à ces sortes d'entreprises, et est aujourd'hui en pleine prospérité.
@@ -1919,7 +2040,8 @@
           La mine du Bottino a été exploitée à l'affleurement par les an¬ciens au moyen de puits et de descenderies inclinées dans le filon. Au moyen âge une galerie fut pratiquée dans le flanc de la mon¬tagne. Cette galerie de petite dimension avait été entièrement taillée à la pointerolle. Au dedans et au dehors de la mine, on retrouve cependant des traces de travail à la poudre, ce qui indique des tra¬vaux postérieurs à ceux du xv siècle. Sur les rochers de l'exté¬rieur on voit aussi les dates de 1580 et 1719, accompagnées de notes illisibles, le tout tracé probablement par les ouvriers pendant leurs heures de repos. La Société actuelle a fait agrandir la galerie ancienne et s'en est servi comme galerie d'exploitation jusqu'en 1850, époque à laquelle fut terminée une seconde galerie, percée 50 mètres plus bas. Une troisième a été commencée vers la fin de 1857, à 125 mètres en contre-bas de la précédente ; elle a déjà une longueur de 200 mètres et ne sera pas finie avant 6 ou 8 ans. L'ex¬ploitation des massils supérieurs étant presque entièrement ache¬vée, de nouveaux chantiers ont été préparés en contre-bas de cette galerie, et des gradins droits et renversés y sont déjà établis. Une machine à vapeur sera installée pour extraire en même temps les minerais et l'eau, qui est heureusement peu abondante.
          </p>
          <p xml:id="para_13_442_512">
-          <pb facs="#facs_447" n="442" source="lesouvriersdesde03sociuoft_0450.xml"/> Les inerais sont, à leur sortie de la iune, cassés et triés en trois classes : 1° le minerai riche dit compacte, peu chargé de gangue et qui donne en moyenne 40 . 100 de plomb; 2° le minerai ordinaire, qui en renferme 8 p. 100 3° le minerai stérile, qui sert à remblayer les excavations. Les deux premières qualités sont expé¬diées à l'établissement au moyen d'un petit chemin de fer formé d'une traverse de bois garnie de deux lames de fer plat, et sur le¬quel on place une sorte de bât traversé par l'essieu de deux petites roues. Chaque côté du bât reçoit un sac contenant de 100 à 110 kilogrammes de minerai. Ces véhicules descendent très-rapi¬dement ; un homme est chargé d'en surveiller deux et de les remon¬ter à vide sur son dos.
+          <pb facs="#facs_447" n="442" source="lesouvriersdesde03sociuoft_0450.xml"/>
+          Les inerais sont, à leur sortie de la iune, cassés et triés en trois classes : 1° le minerai riche dit compacte, peu chargé de gangue et qui donne en moyenne 40 . 100 de plomb; 2° le minerai ordinaire, qui en renferme 8 p. 100 3° le minerai stérile, qui sert à remblayer les excavations. Les deux premières qualités sont expé¬diées à l'établissement au moyen d'un petit chemin de fer formé d'une traverse de bois garnie de deux lames de fer plat, et sur le¬quel on place une sorte de bât traversé par l'essieu de deux petites roues. Chaque côté du bât reçoit un sac contenant de 100 à 110 kilogrammes de minerai. Ces véhicules descendent très-rapi¬dement ; un homme est chargé d'en surveiller deux et de les remon¬ter à vide sur son dos.
          </p>
          <p xml:id="para_13_442_513">
           A son arrivée à l'établissement, le minerai ordinaire, le seul qui ait à subir une préparation, est passé sous des cy lindres broyeurs de 0 35 de diamètre. Les grenailles provenant de ces cylindres tombent dans un tambour à claire-voie, appelé trone, qui les divise en quatre classes. Elles sont passées ensuite sr des cribles de différents systèmes, dont les produits tiennent de 25 à 30 p. 100 de plomb. Le refus des cribles est broyé sous un bord formé d'une bat¬terie de 10 pilons dont les sables sont travaillés sur des caisses alle¬des ou csses d obe, tandis que les boues dites svls sont lavées sur 24 bles illes ou tables dortes. ne mène roue hydraulique met en mouvement les cylindres, la trommel et le bocard.
@@ -1931,13 +2053,17 @@
           Le inerai grillé est conduit par un chemin de fer dans les chambres où se préparent les lits de usion. Les charges sont com¬posées, pour deux tiers environ, de scories des opérations précé¬dentes, et, pour un tiers, de minerais et de ttes grillées. On y ajoute un quart à un cinquième de scories de fer des forges voi¬
          </p>
          <p xml:id="para_13_442_516">
-          La fusion s'opère dans un bas fourneau à tuyère, dit /four à mn¬che, ayant 3 20 de hauteur sur 0 80 de profondeur et 0 55 de lgeur. hLe vent est envoyé à la tuyère par une machine soufllante <pb facs="#facs_448" n="443" source="lesouvriersdesde03sociuoft_0451.xml"/> verticale, à deux cylindres, mise en mouvement par une turbine Four¬neyron. Le combustible, qui est le cole des usines à ga de Livourne et de Marseille mélangé d'un peu de cole anglais, est chargé à la par¬tie antérieure (la poitrine), et le minerai à la partie postérieure (la arme) du four. Le creuset se prolonge au dehors sous la poitrine par un avant-creuset de 0 40 de diamètre, au-dessous duquel se trouve un bassin de coulée. Les coulées, qui se font de 11 heures en 11 heures, donnent du plomb argentifère, appelé plob d'œure, et des sulfures métalliques ou mttes, qui, sous forme de gâteau épais, surnagent à la surface du bain. Chacun des deux fours produit en¬viron 3 tonnes de plomb d'œuvre par semaine de travail. Les cam¬pagnes sont de 8 à 9 mois, suivantl'abondance des eaux dans la rivière. Lorsque la chemise intérieure du four commence à se ron¬ger, les fondeurs et les macons de l'usine la réparent en quelques heures, sans que le four ait le temps de se refroidir. Ce n'est qu'au milieu et à la fin de la campagne qu'on est obligé d'arrêter tout à fait pour renouveler entièrement les pierres réfractaires. On repare chaque semaine l'avant-creuset formé de brsque, c'est-à-dire d'un mélange d'argile et de charbon pulvérisé.
+          La fusion s'opère dans un bas fourneau à tuyère, dit /four à mn¬che, ayant 3 20 de hauteur sur 0 80 de profondeur et 0 55 de lgeur. hLe vent est envoyé à la tuyère par une machine soufllante
+          <pb facs="#facs_448" n="443" source="lesouvriersdesde03sociuoft_0451.xml"/>
+          verticale, à deux cylindres, mise en mouvement par une turbine Four¬neyron. Le combustible, qui est le cole des usines à ga de Livourne et de Marseille mélangé d'un peu de cole anglais, est chargé à la par¬tie antérieure (la poitrine), et le minerai à la partie postérieure (la arme) du four. Le creuset se prolonge au dehors sous la poitrine par un avant-creuset de 0 40 de diamètre, au-dessous duquel se trouve un bassin de coulée. Les coulées, qui se font de 11 heures en 11 heures, donnent du plomb argentifère, appelé plob d'œure, et des sulfures métalliques ou mttes, qui, sous forme de gâteau épais, surnagent à la surface du bain. Chacun des deux fours produit en¬viron 3 tonnes de plomb d'œuvre par semaine de travail. Les cam¬pagnes sont de 8 à 9 mois, suivantl'abondance des eaux dans la rivière. Lorsque la chemise intérieure du four commence à se ron¬ger, les fondeurs et les macons de l'usine la réparent en quelques heures, sans que le four ait le temps de se refroidir. Ce n'est qu'au milieu et à la fin de la campagne qu'on est obligé d'arrêter tout à fait pour renouveler entièrement les pierres réfractaires. On repare chaque semaine l'avant-creuset formé de brsque, c'est-à-dire d'un mélange d'argile et de charbon pulvérisé.
          </p>
          <p xml:id="para_13_443_518">
           Les mattes obtenues par la coulée contiennent 8 à 10 . 100 de plomb, 4 à 5 p. 100 de cuivre, du ainc et de l'antimoine. Ces mattes sont cassées et grillées dans des fours à cuve. Lorsqu'elles sont en¬core chaudes, on fait arriver à la partie supérieure de ces fours un petit filet d'eau, qui entraîne dans des bassins inférieurs le cuivre, le fer et le zinc. Le cuivre est précipité par le fer et soumis à un traitement spécial. On obtient de cette manière 1 12 à 2 de cui¬vre p. 100 de mattes ; il s'en perd 1 p. 100 à peu près dans la maçonnerie du four, par l'évaporation de l'eau et dans les eaux¬mères, en sorte que les mattes lessivées ne contiennent plus guères que 1 à 2 p. 100 de cuivre, quand elles retournent au fourà manche. Cette lixiviation n'a pas seulement pour avantage de produire une certaine quantité de cuivre, mais surtout d'améliorer le plomb d'euvre et les produits de la coupellation.
          </p>
          <p xml:id="para_13_443_519">
-          Cette coupeldation, qui a pour objet de séparer le plomb de l'ar¬gent, est fondée sur la propriété de ce dernier métal d'ètre inoxy¬dable à une température élevée, tandis que le premier s'oxyde et s'écoule à l'état de litharge. Elle se fait dans un four à reverbère à sole ronde ou coupelle, de 3 de diamètre, recouverte d'un cha¬peau mobile. On charge en une seule fois dans ce four 12 tonnes de plomb d'œuvre. lLes écumes, qui sont enlevées lorsque la masse est bien complétement fondue, sont assez épaisses à cause de la mau¬vaise qualité du plomb, qui renferme beaucoup d'antimoine, de cuivre et de zinc. Ces écumes repassent au four à manche. On <pb facs="#facs_449" n="444" source="lesouvriersdesde03sociuoft_0452.xml"/> donne le vent 24 heures environ après le chargement. On obtient alors successivement des litharges noires, des litharges jaunes et des litharges rouges du commerce. Les litharges obtenues vers la fin de l'opération (environ une tonne) sont considérées comme ri¬ches et repassées au four à manche avec les fonds de coupelle. L'ar¬gent produit est généralement très-pur ; il est au titre de 98 ou 99. On se contente de le refondre dans un creuset en fer, pour le couler en lingots et l'expédier à Livourne, où il est vendu pour les mon¬naies de Paris ou de Florence. Il contient de l'or, mais en quantité trop faible pour être retiré avec avantage. Le plomb d'œuvre donne aujourd'hui de 6 à 7 milliemes d'argent : il ne rendait, il y a 10 ans, que 4 à 5 millièmes : il y a donc augmentation sur le titre du minerai en profondeur.
+          Cette coupeldation, qui a pour objet de séparer le plomb de l'ar¬gent, est fondée sur la propriété de ce dernier métal d'ètre inoxy¬dable à une température élevée, tandis que le premier s'oxyde et s'écoule à l'état de litharge. Elle se fait dans un four à reverbère à sole ronde ou coupelle, de 3 de diamètre, recouverte d'un cha¬peau mobile. On charge en une seule fois dans ce four 12 tonnes de plomb d'œuvre. lLes écumes, qui sont enlevées lorsque la masse est bien complétement fondue, sont assez épaisses à cause de la mau¬vaise qualité du plomb, qui renferme beaucoup d'antimoine, de cuivre et de zinc. Ces écumes repassent au four à manche. On
+          <pb facs="#facs_449" n="444" source="lesouvriersdesde03sociuoft_0452.xml"/>
+          donne le vent 24 heures environ après le chargement. On obtient alors successivement des litharges noires, des litharges jaunes et des litharges rouges du commerce. Les litharges obtenues vers la fin de l'opération (environ une tonne) sont considérées comme ri¬ches et repassées au four à manche avec les fonds de coupelle. L'ar¬gent produit est généralement très-pur ; il est au titre de 98 ou 99. On se contente de le refondre dans un creuset en fer, pour le couler en lingots et l'expédier à Livourne, où il est vendu pour les mon¬naies de Paris ou de Florence. Il contient de l'or, mais en quantité trop faible pour être retiré avec avantage. Le plomb d'œuvre donne aujourd'hui de 6 à 7 milliemes d'argent : il ne rendait, il y a 10 ans, que 4 à 5 millièmes : il y a donc augmentation sur le titre du minerai en profondeur.
          </p>
          <p xml:id="para_13_444_521">
           Les litharges obtenues par la coupellation sont revivifiées dans un petit four à reverbère : les noires, pour plomb aigre, convena¬ble pour les caractères d'imprimerie ; les jaunes, pour plomb ordi¬naire, encore un peu dur cependant. Les litharges rouges sont li¬vrées au commerce dans cet état.
@@ -1987,16 +2113,21 @@
           (C) SUR LE CARACTÈRE PARTICULIER DES POPULATIONS OUVRIÈRÉS DU VERSANT TOSCAN DES ALPES APUANES.
          </head>
          <p xml:id="para_13_445_534">
-          <pb facs="#facs_450" n="445" source="lesouvriersdesde03sociuoft_0453.xml"/>L'ensemble des populations ouvrières des Alpes Apuanes offre, sur le versant toscan, l'exemple d'une conormité de murs remar¬quable. La manière de vivre des familles est tellement semblable que les monographies du mineur, du carrier, de l'affineur de fer, reproduiraient, sauf la différence du métier, les mêmes détails signa¬lés pour la famille du fondeur de plomb qui fait le sujet de cette monographie. On retrouverait chez tous la même sobriété, la même économie, le même désir d'acquérir une petite propriété. UCne cer¬taine tendance à l'ivrognerie que la population n'avait pu complé¬tement dominer a disparu depuis que la maladie de la vigne a restreint, dans une proportion considérable, la production du vin. lLa population duversant toscan est, en outre, essentiellement stable; elle difère en cela de la population de la province de Gerfaguana située sur l'autre versant, dans le duché de Modène. Celle-ci fournit en hi¬ver un fort contingent à l'émigration qui se répand vers les ma¬remmes toscanes, la Corse et la Sardaigne, et étend indifléremment ses services aux travaux les plus durs de l'agriculture ou de l'in¬dustrie ; mais chaque année, dans le mois de juin, elle retoune ré¬gulièrement à ses montagnes. C'est ainsi que la race humaine offre quelquefois, sur les deux revers d'une même chaine, des dilérences frappantes et qu'on retrouve également entre les animaux et les plantes.
+          <pb facs="#facs_450" n="445" source="lesouvriersdesde03sociuoft_0453.xml"/>
+          L'ensemble des populations ouvrières des Alpes Apuanes offre, sur le versant toscan, l'exemple d'une conormité de murs remar¬quable. La manière de vivre des familles est tellement semblable que les monographies du mineur, du carrier, de l'affineur de fer, reproduiraient, sauf la différence du métier, les mêmes détails signa¬lés pour la famille du fondeur de plomb qui fait le sujet de cette monographie. On retrouverait chez tous la même sobriété, la même économie, le même désir d'acquérir une petite propriété. UCne cer¬taine tendance à l'ivrognerie que la population n'avait pu complé¬tement dominer a disparu depuis que la maladie de la vigne a restreint, dans une proportion considérable, la production du vin. lLa population duversant toscan est, en outre, essentiellement stable; elle difère en cela de la population de la province de Gerfaguana située sur l'autre versant, dans le duché de Modène. Celle-ci fournit en hi¬ver un fort contingent à l'émigration qui se répand vers les ma¬remmes toscanes, la Corse et la Sardaigne, et étend indifléremment ses services aux travaux les plus durs de l'agriculture ou de l'in¬dustrie ; mais chaque année, dans le mois de juin, elle retoune ré¬gulièrement à ses montagnes. C'est ainsi que la race humaine offre quelquefois, sur les deux revers d'une même chaine, des dilérences frappantes et qu'on retrouve également entre les animaux et les plantes.
          </p>
          <p xml:id="para_13_445_535">
-          Les habitants de Alpes Apuanes du côté toscan se ressemblent au physique comme au moral. Les hommes sont généralement au¬dessous de la taille moyenne, mais bien constitués, robustes et de forte santé. Les femmes sont aussi de petite taille. Les fatigues des travaux agricoles qu'elles supportent presque seules et leur grande fécondité leur donnent de bonne heure l'apparence de la vieillesse. Il est rare qu'un ménage ait eu moins de 7 à 8 enfants, et beaucoup en ont eu l2, 15 et même davantage. Les deux tiers environs des en¬fants succombent aux maladies du premier âge. Il faut l'attribuer à l'usage de prolonger l'allaitement dans l'espoir de retarder une nou¬velle grossesse ; et comme, malgré cette précaution, les grossesses se suivent de près, le nourrisson souffre de l'état de la mère et périt souvent faute d'une nourriture convenable. Au moral, ces popula¬tions sont bonnes, mais ignorantes et superstitieuses; elles sont loin d'avoir la vivacité d'esprit et la verve des autres populations italien<pb facs="#facs_451" n="446" source="lesouvriersdesde03sociuoft_0454.xml"/>nes. Les émigrants qui se rendent l'hiver aux maremmes sont dési¬gnés sous le sobriquet de lombrds, terme empreint d'un certain mépris et dont notre mot lourdud rend assez bien l'idée. Ennemis de tout changement et de toute innovation, les ouvriers des Alpes Apuanes refusent depuis dix ans de se servir, soit dans les carrières, soit dans les mines, de mèches de sûreté ou d'épinglettes en cuivre pour charger les mines. Onretrouve d'ailleurs, plus ou moins, chez tous les ltaliens, cet attachement à la routine. Au Bottino les mineurs et manœuvres du fond (cavaiol) se sont mis en grève pendant un mois entier plutôt que d'adopter, même en été, l'heure de six heures du matin au lieu de sept heures pour commencer le travail. On leur tenait compte cependant de cette différence par une assez large aug¬mentation du salaire. Nous citerons cette dernière preuve de l'obsti¬nation et de l'ignorance de ces populations. Au mois de mai 1860, profitant des émotions politiques qui remuent encore toute l'alie, quelques chefs de faction, ain de faire naître des troubles et susci¬ter des embarras au gouvernement, répandirent le bruit que la ma¬ladie de la vigne, dont le pays a cruellement souffert, était causée pa la fumée des fours à plomb du Bottino. La cheminée de l'usine, remarquons-le, s'élève sur le penchant de la montagne à 60 mètres de hauteur et à l'extrémité d'un rampant de 200 mètres coupé par trois chambres de condensation. Les ouvriers de bonne foi, sans doute, malgré les éclaircissements de l'autorité et la communication du procès-verbal d'une commision spéciale, voulurent démolir les cheminées et les fours. Il fallut recourir à un déploiement considé¬rable de force publique et à l'arestation de 18 des plus mutins. Cette arrestation ne se it pas sans résistance, car un gendarme lut blessé, légèrement, il est vrai, d'un coup de fusil.
+          Les habitants de Alpes Apuanes du côté toscan se ressemblent au physique comme au moral. Les hommes sont généralement au¬dessous de la taille moyenne, mais bien constitués, robustes et de forte santé. Les femmes sont aussi de petite taille. Les fatigues des travaux agricoles qu'elles supportent presque seules et leur grande fécondité leur donnent de bonne heure l'apparence de la vieillesse. Il est rare qu'un ménage ait eu moins de 7 à 8 enfants, et beaucoup en ont eu l2, 15 et même davantage. Les deux tiers environs des en¬fants succombent aux maladies du premier âge. Il faut l'attribuer à l'usage de prolonger l'allaitement dans l'espoir de retarder une nou¬velle grossesse ; et comme, malgré cette précaution, les grossesses se suivent de près, le nourrisson souffre de l'état de la mère et périt souvent faute d'une nourriture convenable. Au moral, ces popula¬tions sont bonnes, mais ignorantes et superstitieuses; elles sont loin d'avoir la vivacité d'esprit et la verve des autres populations italien
+          <pb facs="#facs_451" n="446" source="lesouvriersdesde03sociuoft_0454.xml"/>
+          nes. Les émigrants qui se rendent l'hiver aux maremmes sont dési¬gnés sous le sobriquet de lombrds, terme empreint d'un certain mépris et dont notre mot lourdud rend assez bien l'idée. Ennemis de tout changement et de toute innovation, les ouvriers des Alpes Apuanes refusent depuis dix ans de se servir, soit dans les carrières, soit dans les mines, de mèches de sûreté ou d'épinglettes en cuivre pour charger les mines. Onretrouve d'ailleurs, plus ou moins, chez tous les ltaliens, cet attachement à la routine. Au Bottino les mineurs et manœuvres du fond (cavaiol) se sont mis en grève pendant un mois entier plutôt que d'adopter, même en été, l'heure de six heures du matin au lieu de sept heures pour commencer le travail. On leur tenait compte cependant de cette différence par une assez large aug¬mentation du salaire. Nous citerons cette dernière preuve de l'obsti¬nation et de l'ignorance de ces populations. Au mois de mai 1860, profitant des émotions politiques qui remuent encore toute l'alie, quelques chefs de faction, ain de faire naître des troubles et susci¬ter des embarras au gouvernement, répandirent le bruit que la ma¬ladie de la vigne, dont le pays a cruellement souffert, était causée pa la fumée des fours à plomb du Bottino. La cheminée de l'usine, remarquons-le, s'élève sur le penchant de la montagne à 60 mètres de hauteur et à l'extrémité d'un rampant de 200 mètres coupé par trois chambres de condensation. Les ouvriers de bonne foi, sans doute, malgré les éclaircissements de l'autorité et la communication du procès-verbal d'une commision spéciale, voulurent démolir les cheminées et les fours. Il fallut recourir à un déploiement considé¬rable de force publique et à l'arestation de 18 des plus mutins. Cette arrestation ne se it pas sans résistance, car un gendarme lut blessé, légèrement, il est vrai, d'un coup de fusil.
          </p>
          <p xml:id="para_13_446_537">
           Politiquement parlant, les populations ouvrières des Alpes Apuanes se sont bien associées au mouvement de l'indépendance italienne et ont fourni même quelques volontaires à l'expédition sicilienne ; mais elles sont loin cependant de partager l'enthousiasme dont toutes les autres provinces toscanes sont animées, et particu¬lièrement les maremmes où l'on a vu les parents obliés de se met¬tre à la poursuite d'enfants de 12 à l4 ans échappés pour aller rejoindre aribaldi.
          </p>
          <p xml:id="para_13_446_538">
-          En résumé, les populations des lpes Apuanes sont plus arriérées que les populations qui les avoisinent. Elles allient à leurs senti¬ments religieu une grossière superstition, telle que la croyance aux sorciers et au sorts. Le jour sous lequel elles envisagent bDieu, la Madone, les saints et les démons, permettrait de supposer qu'elles se les représentent comme de bons et de mauvais génies. Nonob¬stant cet état d'ignorance, et grâce aux excellentes mœurs fondées <pb facs="#facs_452" n="447" source="lesouvriersdesde03sociuoft_0455.xml"/> sur la religion, le travail et l'esprit d'épargne, les habitants de cette localité jouissent d'une existence calme et heureuse que cer¬tains peuples plus éclairés pourraient envier.
+          En résumé, les populations des lpes Apuanes sont plus arriérées que les populations qui les avoisinent. Elles allient à leurs senti¬ments religieu une grossière superstition, telle que la croyance aux sorciers et au sorts. Le jour sous lequel elles envisagent bDieu, la Madone, les saints et les démons, permettrait de supposer qu'elles se les représentent comme de bons et de mauvais génies. Nonob¬stant cet état d'ignorance, et grâce aux excellentes mœurs fondées
+          <pb facs="#facs_452" n="447" source="lesouvriersdesde03sociuoft_0455.xml"/>
+          sur la religion, le travail et l'esprit d'épargne, les habitants de cette localité jouissent d'une existence calme et heureuse que cer¬tains peuples plus éclairés pourraient envier.
          </p>
         </div>
         <div n="004" type="sub_sub_section">
@@ -2012,7 +2143,9 @@
           (E) SUR LE RÉGIME DES SUCCESSIONS EN TOSCANE.
          </head>
          <p xml:id="para_13_447_544">
-          La monographie du fondeur de plomb des Alpes Apuanes offre le spectacle plein d'intérêt d'une famille s'élevant à l'indépendance et au bien-être par le travail et l'épargne, sans renoncer à la fe¬condité traditionnelle du pays qu'elle habite. L'ouvrier est né dans la maison où vit sa amille, où son père vivait avant lui et que peut¬être, depuis plusieurs générations, ses ascendants se sont transmise <pb facs="#facs_453" n="448" source="lesouvriersdesde03sociuoft_0456.xml"/> successivement. Les lois de la Toscane lui garantissant, en grande partie, la libre disposition de ses biens, il lui est permis d'espérer que le toit paternel
+          La monographie du fondeur de plomb des Alpes Apuanes offre le spectacle plein d'intérêt d'une famille s'élevant à l'indépendance et au bien-être par le travail et l'épargne, sans renoncer à la fe¬condité traditionnelle du pays qu'elle habite. L'ouvrier est né dans la maison où vit sa amille, où son père vivait avant lui et que peut¬être, depuis plusieurs générations, ses ascendants se sont transmise
+          <pb facs="#facs_453" n="448" source="lesouvriersdesde03sociuoft_0456.xml"/>
+          successivement. Les lois de la Toscane lui garantissant, en grande partie, la libre disposition de ses biens, il lui est permis d'espérer que le toit paternel
           <ref target="#part_02_03_10" type="renvoi_int_mono">
            (§ 10)
           </ref>

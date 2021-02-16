@@ -8,64 +8,134 @@
      Les Ouvriers des Deux Mondes - série 1, volume 4 - Transcription
     </title>
     <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      originellement préparé par
+      acquisition et structuration initiale des textes
      </resp>
-     <name>
-      Alix Chagué
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      et
+      encodage scientifique
      </resp>
-     <name>
-      Jean-Damien Généro
-     </name>
     </respStmt>
     <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
      <resp>
-      supervisés par
+      direction scientifique
      </resp>
-     <name>
-      Eric Villemonte de la Clergerie
-     </name>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
     <publisher>
      projet ANR Time Us
     </publisher>
-    <date when="2019"/>
+    <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
    </publicationStmt>
    <sourceDesc>
     <p>
-     Les Ouvriers des Deux Mondes sont des recueils d'enquêtes sociologiques publiées pendant la deuxième moitié du XIXe siècle. Ces enquêtes ont été rassemblées sous la forme de 3 séries de plusieurs volumes. Accès aux fichiers images sources : http://timeusage.paris.inria.fr/mediawiki/index.php/Aperçu_des_états#Les_Ouvriers_des_Mondes
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
     <p>
-     Cette édition numérique des Ouvriers des deux mondes a été réalisée dans le cadre du projet ANR TIME US (http://larhra.ish-lyon.cnrs.fr/anr-time-us). Elle est générée automatiquement grâce au programme LSE-OD2M (https://gitlab.inria.fr/almanach/time-us/LSE-OD2M), développé par Alix Chagué, équipe Inria ALAMAnaCH.
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
    </projectDesc>
-   <editorialDecl>
-    <p>
-     Dans la balise
-     <tag>
-      graphic
-     </tag>
-     , l'attribut
-     <att>
-      url
-     </att>
-     contient l'url de l'image de la page hébergée par Internet Archives. L'entité &amp; y a été ajoutée automatiquement par la librairie Beautiful Soup de Python au moment de l'exécution du script d'ajout des urls (replace_img_files_names). Nous avons choisi de la laisser telle quelle afin d'obtenir un document XML valide. Avant tout usage du document, elle doit être remplacée par une esperluette afin que l'url fonctionne.
-    </p>
-   </editorialDecl>
   </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_244">
@@ -265,7 +335,11 @@
       PAR
      </p>
      <p xml:id="para_13_241_5">
-      M. <persName>A. F. BADIER</persName>, ouvrier typographe.
+      M.
+      <persName>
+       A. F. BADIER
+      </persName>
+      , ouvrier typographe.
      </p>
     </div>
     <div n="002" type="section">
@@ -281,7 +355,10 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_13_241_10">
-        <pb facs="#facs_244" n="241" source="lesouvriersdesde04sociuoft_0247.xml"/> La famille habite à Paris, sur la rive gauche de la Seine, la rue Neuve-Sainte-Geneviève, située entre le lycée Napoléon et le col¬lége Rollin (5ᵉ arrondissement). La maison, exclusivement occu¬pée par des ouvriers de divers états, est assez convenablement disposée ; elle offre toutefois des inconvénients qui proviennent en grande partie des locataires : ainsi tous les objets d'un usage commun sont sales et mal entretenus. La famille vit dans ce loge¬ment depuis le mois de janvier 1861. Précédemment elle avait demeuré, pendant près de 20 ans, en face de la bibliothèque Sainte-Geneviève, dans une maison qu'elle regrette encore et qu'elle n'a quittée que parce qu'on a dû y faire des réparations importantes. Sortie de là, elle est allée habiter une maison qui fut bientôt dé<pb facs="#facs_245" n="242" source="lesouvriersdesde04sociuoft_0248.xml"/>molie, dans un but d'utilité publique, pour le percement de la rue des Ecoles.
+        <pb facs="#facs_244" n="241" source="lesouvriersdesde04sociuoft_0247.xml"/>
+        La famille habite à Paris, sur la rive gauche de la Seine, la rue Neuve-Sainte-Geneviève, située entre le lycée Napoléon et le col¬lége Rollin (5ᵉ arrondissement). La maison, exclusivement occu¬pée par des ouvriers de divers états, est assez convenablement disposée ; elle offre toutefois des inconvénients qui proviennent en grande partie des locataires : ainsi tous les objets d'un usage commun sont sales et mal entretenus. La famille vit dans ce loge¬ment depuis le mois de janvier 1861. Précédemment elle avait demeuré, pendant près de 20 ans, en face de la bibliothèque Sainte-Geneviève, dans une maison qu'elle regrette encore et qu'elle n'a quittée que parce qu'on a dû y faire des réparations importantes. Sortie de là, elle est allée habiter une maison qui fut bientôt dé
+        <pb facs="#facs_245" n="242" source="lesouvriersdesde04sociuoft_0248.xml"/>
+        molie, dans un but d'utilité publique, pour le percement de la rue des Ecoles.
        </p>
        <p xml:id="para_13_242_12">
         L'ouvrier est occupé, depuis 34 ans, dans la même imprimerie, en qualité de compositeur-typographe. Cette profession comptait a Paris, en décembre 1860, de 3,000 à 3,500 ouvriers de diverses nations de l'Europe. Un tiers environ de ces ouvriers est souvent sans travail, et les trois quarts ne gagnent pas, en moyenne, plus de 3ᶠ par jour
@@ -310,19 +387,39 @@
         La famille comprend les deux époux et trois enfants, savoir :
        </p>
        <p xml:id="para_13_242_17">
-        1. <persName>ALEXIS-FÉLIX B***</persName>, chef de femille, né à Tours (Indre-et-Loire)............ 55 ans
+        1.
+        <persName>
+         ALEXIS-FÉLIX B***
+        </persName>
+        , chef de femille, né à Tours (Indre-et-Loire)............ 55 ans
        </p>
        <p xml:id="para_13_242_18">
-        2. <persName>CATHERINE M***</persName>, sa seconde femme, née dans la conmmune de Saint-Julien, canton de Duras (Lot-et-Garonne)............ 44 —
+        2.
+        <persName>
+         CATHERINE M***
+        </persName>
+        , sa seconde femme, née dans la conmmune de Saint-Julien, canton de Duras (Lot-et-Garonne)............ 44 —
        </p>
        <p xml:id="para_13_242_20">
-        — <persName>Marie-Stéphanie-Rosalie-Alexandrine B***</persName>, fille du prcmier lit, née a Paris et mariée au dehors............ 25 —
+        —
+        <persName>
+         Marie-Stéphanie-Rosalie-Alexandrine B***
+        </persName>
+        , fille du prcmier lit, née a Paris et mariée au dehors............ 25 —
        </p>
        <p xml:id="para_13_242_22">
-        3. <persName>Marie-Amélie-Antoinette-Anna B***</persName>, fille du second lit, née à Paris............ 7 —
+        3.
+        <persName>
+         Marie-Amélie-Antoinette-Anna B***
+        </persName>
+        , fille du second lit, née à Paris............ 7 —
        </p>
        <p xml:id="para_13_242_23">
-        4.<persName> Alfred-Emmanuel B***</persName>, fils du second lit, né à Pais............ 4 —
+        4.
+        <persName>
+         Alfred-Emmanuel B***
+        </persName>
+        , fils du second lit, né à Pais............ 4 —
        </p>
        <p xml:id="para_13_242_24">
         Quatre enfants du premier lit sont venus mort-nés ; un autre a vécu un mois. Sans ces circonstances, l'ouvrier aurait pu avoir un assez grand nombre d'enfants. Il eût différé, sous ce rapport comme sous d'autres, de la majorité de ses confrères, qui paraissent éviter, autant que possible, les charges d'une famille nombreuse
@@ -350,7 +447,8 @@
         § 3. — RELIGION ET HABITUDES MORALES.
        </head>
        <p xml:id="para_13_243_29">
-        <pb facs="#facs_246" n="243" source="lesouvriersdesde04sociuoft_0249.xml"/> Nés de parents catholiques, les époux B*** tiennent à leur reli¬gion, sans observer rigoureusement les prescriptions du culte. L'ou¬vrier surtout n'a plus le zèle qu'une éducation religieuse lui avait donné dans sa jeunesse; cependant il lit encore assez souvent le livre des Saints Evangiles. Ofrir a Dieu ses actions de grâce, faire hon¬nêtement et consciencieusement son devoir, telle est sa règle de con¬duite. Il habitue ses jeunes enfants a faire leur prière, à respecter leurs parents et à leur obéir
+        <pb facs="#facs_246" n="243" source="lesouvriersdesde04sociuoft_0249.xml"/>
+        Nés de parents catholiques, les époux B*** tiennent à leur reli¬gion, sans observer rigoureusement les prescriptions du culte. L'ou¬vrier surtout n'a plus le zèle qu'une éducation religieuse lui avait donné dans sa jeunesse; cependant il lit encore assez souvent le livre des Saints Evangiles. Ofrir a Dieu ses actions de grâce, faire hon¬nêtement et consciencieusement son devoir, telle est sa règle de con¬duite. Il habitue ses jeunes enfants a faire leur prière, à respecter leurs parents et à leur obéir
         <ref target="#ID-014a" type="renvoi_int_od2m">
          (N° 14, § 3)
         </ref>
@@ -361,9 +459,15 @@
        </p>
        <p xml:id="para_13_243_31">
         Les époux vivent en bonne intelligence et leurs enfants leur té¬moignent autant d'amitié à l'un qu'à l'autre. B** paraît d'ailleurs conserver avec soin les affections de famille. Il ne parle jamais de ses vieux parents qu'en exprimant le regret de les avoir perdus ; il ne peut contenir son émotion, quand on lui rappelle sa première femme
-        <note type="bp"><p>
-         Depuis l'époque où a été rédigée cette monographie, il a donné l'hospitalité à une de ses sœurs, qui a une partie de sa fortune aux Etats-Unis et que la diminution de ses moyens d'existence par suite de la guerre actuelle a obligée de chercher une réduction de dépenses dans la vie en commun (<ref target="#part_02_04_13" type="renvoi_int_mono">§ 13</ref>).
-        </p></note>
+        <note type="bp">
+         <p>
+          Depuis l'époque où a été rédigée cette monographie, il a donné l'hospitalité à une de ses sœurs, qui a une partie de sa fortune aux Etats-Unis et que la diminution de ses moyens d'existence par suite de la guerre actuelle a obligée de chercher une réduction de dépenses dans la vie en commun (
+          <ref target="#part_02_04_13" type="renvoi_int_mono">
+           § 13
+          </ref>
+          ).
+         </p>
+        </note>
         . Malgré sa position précaire, il accorde chaque année quelques secours à des parents peu aisés
         <ref target="#part_02_05_15" type="renvoi_int_mono">
          (D. 4ᵉ Son)
@@ -375,7 +479,9 @@
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (C)
         </ref>
-        . Un jeune garçon de 11 ans se presenta un jour à la porte de l'imprimerie, eténué de fatigue et de faim ; les car¬rières des environs de Paris étaient son lieu de refuge depuis plus d'une semaine. Emus de pitié, les ouvriers de la maison firent entre eux une collecte pour habiller l'enfant et pour le nourrir pendant quelques jours.  goffrit aussitôt pour lui servir de père. Il <pb facs="#facs_247" n="244" source="lesouvriersdesde04sociuoft_0250.xml"/> l'emmena à son domicile, où il l'entreint pendant plus de trois mois avec le concours d'une loge maçonnique, qui voulut le secon¬der dans cet acte d'humanité. ll le plaça ensuite chez un ébéniste en cadres, dont il voulait lui faire apprendre l'état, et que l'enfant quitta quelque temps après, au grand regret de l'ouvrier, pour retourner à Lyon dans sa famille.
+        . Un jeune garçon de 11 ans se presenta un jour à la porte de l'imprimerie, eténué de fatigue et de faim ; les car¬rières des environs de Paris étaient son lieu de refuge depuis plus d'une semaine. Emus de pitié, les ouvriers de la maison firent entre eux une collecte pour habiller l'enfant et pour le nourrir pendant quelques jours.  goffrit aussitôt pour lui servir de père. Il
+        <pb facs="#facs_247" n="244" source="lesouvriersdesde04sociuoft_0250.xml"/>
+        l'emmena à son domicile, où il l'entreint pendant plus de trois mois avec le concours d'une loge maçonnique, qui voulut le secon¬der dans cet acte d'humanité. ll le plaça ensuite chez un ébéniste en cadres, dont il voulait lui faire apprendre l'état, et que l'enfant quitta quelque temps après, au grand regret de l'ouvrier, pour retourner à Lyon dans sa famille.
        </p>
        <p xml:id="para_13_244_34">
         B** a une grande politesse, due sans doute à l'éducation qu'il a reçue, et parait d'un caractère très-facile et très-doux. Quelque¬fois cependant il s'abandonne à la colère, mais il ne garde pas de rancune contre ceux qui ont blessé sa suscepibilité
@@ -421,7 +527,9 @@
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
-        , a reçu une instruction assez complète. Il a appris le latin et le grec, et achevé ses classes de littérature ; il écrit passablement, et les défauts de <pb facs="#facs_248" n="245" source="lesouvriersdesde04sociuoft_0251.xml"/> son style ne proviennent que du manque d'habitude. Sa femme, au contraire, était complétement illettrée ; mais B*** est parvenu, a force de patience, à lui apprendre à lire dans les livres des en¬fants et à lui faire reproduire les lettres de l'alphabet
+        , a reçu une instruction assez complète. Il a appris le latin et le grec, et achevé ses classes de littérature ; il écrit passablement, et les défauts de
+        <pb facs="#facs_248" n="245" source="lesouvriersdesde04sociuoft_0251.xml"/>
+        son style ne proviennent que du manque d'habitude. Sa femme, au contraire, était complétement illettrée ; mais B*** est parvenu, a force de patience, à lui apprendre à lire dans les livres des en¬fants et à lui faire reproduire les lettres de l'alphabet
         <ref target="#ID-014a" type="renvoi_int_od2m">
          (N° 14, § 3)
         </ref>
@@ -442,7 +550,9 @@
         L'ouvrier n'a jamais eu, grâce à son bon tempérament, de graves maladies. Il cherche d'ailleurs à les prévenir par une bonne hy¬giène, et il en conjure les effets, quand elles se font craindre, par le repos et par des soins particuliers. Son logement est toujours propre et bien aéré ; il évite avec attention les refroidissements. En cas d'indisposition, il fait usage de quelques médicaments simples, tels que : la mauve, les quatre fleurs, le bouillon blanc, le coque¬licot, la feuille d'oranger, la graine de lin, la farine de mou¬tarde, etc. Ces médicaments sont rangés dans une petite boîte, que l'ouvrier ne laisse jamais vide.
        </p>
        <p xml:id="para_13_245_45">
-        C'est surtout sur sa famille que B*** exerce la plus active sur<pb facs="#facs_249" n="246" source="lesouvriersdesde04sociuoft_0252.xml"/>veillance. Il fait porter des bas de laine à ses enfants jusqu'à la fin du printemps. Lorsque des symptômes de refroidissement se pré¬sentent, il les combat par de petits sinapismes nppliqués aux jambes. Si une toux sèche et opiniâtre vient à les faiguer, B*** fait tiédir un peu d'eau-de-vie, en verse quelques gouttes dans le creux de la main, frotte la poitrine du malade jusqu'à ce qu'une chaleur douce se produise à la peau, et opère la même friction le long de la co¬lonne vertébrale et entre les épaules. Ce remède est toujours effi¬cace. B*** fait généralement prendre une fois par semaine en été, une fois par mois en iver, des bains a ses enfants. Le médecin n'est appelé que dans les cas graves, et il n'a jamais désapprouvé les premiers soins donnés par le père.
+        C'est surtout sur sa famille que B*** exerce la plus active sur
+        <pb facs="#facs_249" n="246" source="lesouvriersdesde04sociuoft_0252.xml"/>
+        veillance. Il fait porter des bas de laine à ses enfants jusqu'à la fin du printemps. Lorsque des symptômes de refroidissement se pré¬sentent, il les combat par de petits sinapismes nppliqués aux jambes. Si une toux sèche et opiniâtre vient à les faiguer, B*** fait tiédir un peu d'eau-de-vie, en verse quelques gouttes dans le creux de la main, frotte la poitrine du malade jusqu'à ce qu'une chaleur douce se produise à la peau, et opère la même friction le long de la co¬lonne vertébrale et entre les épaules. Ce remède est toujours effi¬cace. B*** fait généralement prendre une fois par semaine en été, une fois par mois en iver, des bains a ses enfants. Le médecin n'est appelé que dans les cas graves, et il n'a jamais désapprouvé les premiers soins donnés par le père.
        </p>
        <p xml:id="para_13_246_47">
         Sa femme, de petite taille (1m 46), jouit d'une très-bonne santé. A part ses couches, elle n'a jamais fait une seule maladie. Ses che¬veux sont châtains ; son visage a perdu de sa fraîcheur, mais il est encore agréable et rempli de finesse. La fatigue du travail a fait apparaître quelques rides le long de ses joues. Caherine M mariée à 35 ans, a eu trois couches en huit ans. La première fut pénible et dangereuse ; la mère souffrit pendant cinq jours de dou¬leurs mortelles, et l'enfant vint mort-né. Les deux autres couches ont été très-faciles, et ensemble elles n'ont pas retenu Catherine au lit pendant plus d'une semaine.
@@ -463,7 +573,9 @@
         § 5. — RANG DE LA FAMILLE.
        </head>
        <p xml:id="para_13_246_51">
-        L'honnêteté et la conduite régulière de l'ouvrier lui ont acquis la bonne réputation dont il jouit. Malgré ses qualités morales et malgré ses connaissances littéraires, il n'a pu s'élever, dans la <pb facs="#facs_250" n="247" source="lesouvriersdesde04sociuoft_0253.xml"/> hiéarchie typographique, au-dessus du rang de compositeur. La cause en est attribuée par lui et par son patron a la surdité partielle, qui rend difficiles ses communications avec les auteurs et l'empêche d'être employé a la correction des épreuves. Après avoir passé quelque temps dans cette dernière fonction, il a repris de lui-même sa première condition de paqutir
+        L'honnêteté et la conduite régulière de l'ouvrier lui ont acquis la bonne réputation dont il jouit. Malgré ses qualités morales et malgré ses connaissances littéraires, il n'a pu s'élever, dans la
+        <pb facs="#facs_250" n="247" source="lesouvriersdesde04sociuoft_0253.xml"/>
+        hiéarchie typographique, au-dessus du rang de compositeur. La cause en est attribuée par lui et par son patron a la surdité partielle, qui rend difficiles ses communications avec les auteurs et l'empêche d'être employé a la correction des épreuves. Après avoir passé quelque temps dans cette dernière fonction, il a repris de lui-même sa première condition de paqutir
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (B)
         </ref>
@@ -489,12 +601,12 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_13_247_57">
          (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_13_247_58">
          IMMEUBLES............ 0ᶠ 00
         </p>
@@ -502,7 +614,7 @@
          La famille n'en possède aucun.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_13_247_60">
          ARGENT............ 3,662ᶠ 00
         </p>
@@ -513,7 +625,7 @@
          2ᵉ Argent conservé dans le ménage pour les besoins extraordinaires : 50ᶠ00.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_13_247_63">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES.
         </p>
@@ -521,7 +633,8 @@
          1° Outils de compositeur. — 3 composteurs de fer, 8ᶠ50; — 1 composteur de bois, 0ᶠ2S ; — 1 paire de pinces, 0ᶠ50; — 2 pointes, 0ᶠ20; — 1 paie de ciseaux, 0ᶠ50; 1 manuel de rypograophie de Brun, 5ᶠ 00; — 1 bolte pour renfermer les outils, 0ᶠ60; 1I tabouret, 2ᶠ 00; — 1 coussin cn tapisserie, 3ᶠ50. —Total, 21ᶠ05.
         </p>
         <p xml:id="para_13_248_65">
-         <pb facs="#facs_251" n="248" source="lesouvriersdesde04sociuoft_0254.xml"/> 2° Outils seroant aux réparations du mobilier. — 2 marteaux de fer, 9ᶠ50; — 1 ner¬Min, 2ᶠ00; — 1 ciseau, 0ᶠ75; — 1 lime, 0ᶠ75; — un tourne-vis, 0ᶠse; — 1 rape, 0ᶠ7; — 2 lines triangulaires1ᶠ20; — 3 coins de fer, 1ᶠ 00; — 1 rabot, 0ᶠ75: — 1 scie, 3ᶠ00; — 2 compas,1ᶠ 00; — 1 couteau à petits ouvrages, 2ᶠ00; — 2 paires detenailles, 1ᶠ50; — 1 bolte de clous assotis, 1ᶠ50; —1 mètre, 0ᶠ10. — Total, 20ᶠ30.
+         <pb facs="#facs_251" n="248" source="lesouvriersdesde04sociuoft_0254.xml"/>
+         2° Outils seroant aux réparations du mobilier. — 2 marteaux de fer, 9ᶠ50; — 1 ner¬Min, 2ᶠ00; — 1 ciseau, 0ᶠ75; — 1 lime, 0ᶠ75; — un tourne-vis, 0ᶠse; — 1 rape, 0ᶠ7; — 2 lines triangulaires1ᶠ20; — 3 coins de fer, 1ᶠ 00; — 1 rabot, 0ᶠ75: — 1 scie, 3ᶠ00; — 2 compas,1ᶠ 00; — 1 couteau à petits ouvrages, 2ᶠ00; — 2 paires detenailles, 1ᶠ50; — 1 bolte de clous assotis, 1ᶠ50; —1 mètre, 0ᶠ10. — Total, 20ᶠ30.
         </p>
         <p xml:id="para_13_248_68">
          3° Ustensiles pour le blanchissage du linge de la famille. — 1 brosse de chiendent, 0ᶠ30; — 1 bautoir, 0ᶠ50 ; —  plauche à repasser le linge, 1ᶠ 50; — 3 fers à repasser, Sᶠ 00; — 1 fer à tuyauter, 0ᶠ0; — 1 poèle de fonte, 1ᶠ50. —Total, 1ISᶠ 20.
@@ -530,7 +643,7 @@
          4° Ustensiles pour la confection et l'entretien des cetements. — 1 paire de ciseaux de cordonnier, ᶠ 0; — 1 tranchet de cordonnier, 1ᶠ 00; — 10 aiguilles à tricoter, 1ᶠ 00; — 1 dé à coudre, 0ᶠ10. — Total, 7ᶠ10.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_13_248_71">
          VALEUR TOTALE des propriétés............ 3,729ᶠ 65
         </p>
@@ -557,22 +670,23 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_13_249_79">
-        <pb facs="#facs_252" n="249" source="lesouvriersdesde04sociuoft_0255.xml"/> TRAVAUX DE L'OUVRIER. — L'ouvrier travaille à la tâche, comme compositeur typographe, dans un atelier. Ce travail estpayé d'après un tarif qui est le même pour la plupart des compositeurs de Paris. B*** a eu beaucoup de peine à vaincre l'habitude, contractée pendant son enfance, de se servir de la main gauche de préférence à la droite
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        . Cette habitude estpeut-être aujourd'hui une cause du peud'agi¬lité qu'il a acquise à leverlaˉlre. Lesalaire de ses journées, variable en raison du travail qui lui échoit, peut être fixé en moyenne à 3ᶠ45.
-       </p>
-       <p xml:id="para_13_249_80">
-        L'ouvrier, qui n'aime pas à rester dans l'inaction, se livre chez lui à quelques travaux domestiques. La réparation du mobilier, l'encadrement de gravures, le vernissage de ses meubles, occupent utilement ses veillées.
-       </p>
+         <pb facs="#facs_252" n="249" source="lesouvriersdesde04sociuoft_0255.xml"/>
+         TRAVAUX DE L'OUVRIER. — L'ouvrier travaille à la tâche, comme compositeur typographe, dans un atelier. Ce travail estpayé d'après un tarif qui est le même pour la plupart des compositeurs de Paris. B*** a eu beaucoup de peine à vaincre l'habitude, contractée pendant son enfance, de se servir de la main gauche de préférence à la droite
+         <ref target="#part_03_01_18" type="renvoi_int_mono">
+          (B)
+         </ref>
+         . Cette habitude estpeut-être aujourd'hui une cause du peud'agi¬lité qu'il a acquise à leverlaˉlre. Lesalaire de ses journées, variable en raison du travail qui lui échoit, peut être fixé en moyenne à 3ᶠ45.
+        </p>
+        <p xml:id="para_13_249_80">
+         L'ouvrier, qui n'aime pas à rester dans l'inaction, se livre chez lui à quelques travaux domestiques. La réparation du mobilier, l'encadrement de gravures, le vernissage de ses meubles, occupent utilement ses veillées.
+        </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_13_249_81">
-        TRAVAUX DE LA FEMME. Dans les premières années de son ma¬riage, la femme exerçait le métier de bordeuse de souliers, qu'une de ses amies lui avait appris. Ce travail lui rapportait 1ᶠ50 a 1ᶠ 75 par jour, mais elle dut l'abandonner quand elle devint mère pour la première fois. Aujourd'hui, en dehors des heures consacrées à la promenade et aux récréations des enfants, elle s'occupe de l'en¬tretien et de la confection de leurs vêtements, et du blanchissage du linge de la famille. Elle fait en outre le ménage d'une dame âgée, dont elle soigne également le linge. Ce travail lui rapporte 10ᶠ par mois.
-       </p>
+         TRAVAUX DE LA FEMME. Dans les premières années de son ma¬riage, la femme exerçait le métier de bordeuse de souliers, qu'une de ses amies lui avait appris. Ce travail lui rapportait 1ᶠ50 a 1ᶠ 75 par jour, mais elle dut l'abandonner quand elle devint mère pour la première fois. Aujourd'hui, en dehors des heures consacrées à la promenade et aux récréations des enfants, elle s'occupe de l'en¬tretien et de la confection de leurs vêtements, et du blanchissage du linge de la famille. Elle fait en outre le ménage d'une dame âgée, dont elle soigne également le linge. Ce travail lui rapporte 10ᶠ par mois.
+        </p>
        </div>
       </div>
      </div>
@@ -595,7 +709,9 @@
         La famille fait régulièrement trois repas par jour :
        </p>
        <p xml:id="para_13_249_84">
-        1° A huit heures, le déjeuner : la femme et les enfants prennent du lait légèrement coloré avec du café. Autrefois, l'ouvrier se con¬tentait le matin, avant de partir pour l'atelier, de la même nourri¬ture, mais il a trouvé qu'elle ne le soutenait pas assez, et il l'a <pb facs="#facs_253" n="250" source="lesouvriersdesde04sociuoft_0256.xml"/> remplacée soit par de la soupe, soit par un morceau de fromage ou de viande froide; il boit en outre un verre de vin.
+        1° A huit heures, le déjeuner : la femme et les enfants prennent du lait légèrement coloré avec du café. Autrefois, l'ouvrier se con¬tentait le matin, avant de partir pour l'atelier, de la même nourri¬ture, mais il a trouvé qu'elle ne le soutenait pas assez, et il l'a
+        <pb facs="#facs_253" n="250" source="lesouvriersdesde04sociuoft_0256.xml"/>
+        remplacée soit par de la soupe, soit par un morceau de fromage ou de viande froide; il boit en outre un verre de vin.
        </p>
        <p xml:id="para_13_250_88">
         2ᵉ A midi, le dner : la femme et les enfants prennent chez eux un repas composé d'un peu de viande avec du fromage ou des con¬itures. Le père emporte ce repas à l'atelier, avec un flacon de vin.
@@ -619,7 +735,7 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_13_250_92">
          Le logement occupé par l'ouvrier, au deuxième étage d'une maison de la rue Neuve-Sainte-Geneviève
          <ref target="#part_02_01_01" type="renvoi_int_mono">
@@ -628,12 +744,13 @@
          , se compose d'une chambre servant de cuisine et d'un cabinet, pour lesquels il paye 190ᶠ 00 de loyer. Ces deux pièces, éclairées chacune par une fe¬nêtre, sont convenablement aérées ; la vue s'étend sur de vastes jardins. Malheureusement un brocanteur, qui occupe la boutique du rez-de-chaussée, entasse dans une cave de la maison des os et des chiffons, d'où sexhalent des miasmes peu salubres. Ce logement n'a qu'une superficie de 25 12. Il est si exigu que l'ouvrier a dû faire dans le cabinet, à 2 15 au-dessus du sol, une espèce de soupente pour y placer quelques meubles qui ne sont pas d'un usage journalier. Les dimensions de cet appartement con¬trastent avec l'étendue de celui du compositeur de Bruxelles, qui occupe avec sa famille une petite maison avec cour, dont la super¬ficie totale est de 84mq.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_13_250_93">
          MEUBLES : d'un style ancien, mais fort propres, quoique achetés depuis 18 ans............ 1,029ᶠ55
         </p>
         <p xml:id="para_13_251_94">
-         <pb facs="#facs_254" n="251" source="lesouvriersdesde04sociuoft_0257.xml"/> 1° Lits. — 1 lit pour les époux : 1 bois de lit de noyer, 70ᶠ00; —  matelas de laine, 7ᶠ00; — 1 lit de plumes, 67ᶠ 00; — 1 traversin de plumes, 15ᶠ 00; — 2 oreillers de plumes, 1ᶠ50 ; — 3 couvertures de laiue, 30ᶠ00; — 4 taies d'oreiller de calicot, 9ᶠ50 ; — 2 paires de rideaux de calicot, 12ᶠ80; — 1 couvre-pieds brodé au crochet par la fille nee, 3ᶠ 00. — Total, 329ᶠ 80.
+         <pb facs="#facs_254" n="251" source="lesouvriersdesde04sociuoft_0257.xml"/>
+         1° Lits. — 1 lit pour les époux : 1 bois de lit de noyer, 70ᶠ00; —  matelas de laine, 7ᶠ00; — 1 lit de plumes, 67ᶠ 00; — 1 traversin de plumes, 15ᶠ 00; — 2 oreillers de plumes, 1ᶠ50 ; — 3 couvertures de laiue, 30ᶠ00; — 4 taies d'oreiller de calicot, 9ᶠ50 ; — 2 paires de rideaux de calicot, 12ᶠ80; — 1 couvre-pieds brodé au crochet par la fille nee, 3ᶠ 00. — Total, 329ᶠ 80.
         </p>
         <p xml:id="para_13_251_96">
          1° lit pour la petite fille : 1 lit de fer, 15ᶠ 00; — 1 matelas de laine, 3ᶠ 00; — 2 cou¬vertures de laine, 18ᶠ 00; — 1 paillasse remplie de paille de soigle, 3ᶠ30; — 1 traver¬sin, 4ᶠ 00; — 1 oreiller de fougère, 4ᶠ00 ; — 1 couvre-pieds boché à la mécanique, 6ᶠ 00. — Total, 85ᶠ50.
@@ -654,7 +771,7 @@
          4° Livres. — Une quizaine d'ouvrages reliés ou brochés, tous achetés par l'ouvrier, savoir: Dictionnaire de Mailly, 3ᶠ50; — les saints Évangiles de Lamennais, 4ᶠ0; — la vie de N.S. Jésus-Christ, par l'abbé Vortot, 3ᶠ00; — les Martyrs, par Chateaubriand, 4ᶠ50; — histoire de la V'ierge, par l'abbé orsini, 9ᶠ 50; — Enseignement élémentaire universel, 10ᶠ00; — 1 vol. du Magasin pittoresque, 8ᶠ 00; — les dernies jours de Pompé. ᶠ 00 ; — Pensées de Cicéron, traduites en francais, 1ᶠ2; — 3 vlumes de l'histoire de France, par Henri Martin, 15ᶠ00; — plusieurs petits ouvrages à l'usage des enfants, la Journée du chrétien, 1 paroissien, etc., 6ᶠ50. — Tota, GIᶠ7S.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_13_251_103">
          USTENSILES............ 134ᶠ 10
         </p>
@@ -671,15 +788,16 @@
          4° Employés pour usages divers. — 1 lampe à main, 2 00; — 2 chandeliers de cuivre, 2ᶠ10; — 4 paire de mochetes, 0ᶠ76 ; — 1 balai de crin, 3ᶠ50; — 1 plumeau, 1ᶠ 0. — Total, 9ᶠ85.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_13_252_110">
-         <pb facs="#facs_255" n="252" source="lesouvriersdesde04sociuoft_0258.xml"/> LINGE DE MÉNAGE............ 156ᶠ50
+         <pb facs="#facs_255" n="252" source="lesouvriersdesde04sociuoft_0258.xml"/>
+         LINGE DE MÉNAGE............ 156ᶠ50
         </p>
         <p xml:id="para_13_252_111">
          8 draps de lit (4 de toile et 4 de coto), 90ᶠ00; — 10 draps d'enfants, 22ᶠ0; — 12 serviettes de table, 14ᶠ50 ; — 1 grande nappe, 6ᶠ 00 ; — 2 paires de petits rideaux de fenêtre de mousseline brochée, 4ᶠ50 ; — 2 gands rideaux de fenêtre de calicot, 10ᶠ00; — 6 torchons de toile, 4ᶠ50; — 4 serviettes de toilette, 4ᶠ 50. — Total, 156ᶠ50.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_13_252_113">
          VÊTEMENTS, simples pour les jours de semaine, assez recherchés pour les jours fériés............ 1,122ᶠ15
         </p>
@@ -707,12 +825,15 @@
         <p xml:id="para_13_252_123">
          VÊTEMENTS DES ENFANTS
          <ref target="#part_03_01_23" type="renvoi_int_mono">
-          (G)<!-- pas de paragraphe G dans cette monographie -->
+          (G)
+          <!-- pas de paragraphe G dans cette monographie -->
          </ref>
          . — 224ᶠ45.
         </p>
         <p xml:id="para_13_252_124">
-         1° Vêtements de la petite fille. — 3 obes de laine, 25 00 ; — 5 robes d'été, 2000;— <pb facs="#facs_256" n="253" source="lesouvriersdesde04sociuoft_0259.xml"/> 4ᶠ50; — 4 tabliers, 6ᶠ 00; — 2 pointes, 4 00; — 1 paire de gants, 1 00; — 1 chapeau de soie noire, 5ᶠ 00 ; — 1 chapeau de pille, 3ᶠ50 ; — 1 capeline de tricot de laiue, 3ᶠ00; — 2 paires de bottines, 6ᶠ00. — Tota, 142ᶠ50.
+         1° Vêtements de la petite fille. — 3 obes de laine, 25 00 ; — 5 robes d'été, 2000;—
+         <pb facs="#facs_256" n="253" source="lesouvriersdesde04sociuoft_0259.xml"/>
+         4ᶠ50; — 4 tabliers, 6ᶠ 00; — 2 pointes, 4 00; — 1 paire de gants, 1 00; — 1 chapeau de soie noire, 5ᶠ 00 ; — 1 chapeau de pille, 3ᶠ50 ; — 1 capeline de tricot de laiue, 3ᶠ00; — 2 paires de bottines, 6ᶠ00. — Tota, 142ᶠ50.
         </p>
         <p xml:id="para_13_253_126">
          2° Bijoux. — 1 paire de bhoucles d'oreilles, 7ᶠ 00; — quelques médailles et 1 petite croix d'argen, 5ᶠ50. — Total, 1ᶠ50.
@@ -721,7 +842,7 @@
          3° Vêtements du petit parco. — 3 blouses de laine, 9ᶠ 00; — 1 par-dessus gris en laine pour le dimanche, 10ᶠ00; — 1 autre par-dessus, 5ᶠ 00; — 3 pantalons, 5ᶠ25,; — 4 chemises, Sᶠ35 ; — 4 mouchoirs, 2ᶠ00; — 3 jupons, 1ᶠ00; — 4 tabliers, 5ᶠ00; 2 paires de bas de laine, 2ᶠ10; — 4 paires de bas de coton, 5ᶠ 00 ; — 3 collerettes de mousseline, 1ᶠ 50; — 3 bonnets de nuit, 1ᶠ50 ; — 3 bonnets blaucs, 2ᶠ25 ; — 1 capeline de tricot de laine, 3ᶠ00; — 1 casquette de paille, 1ᶠ50; — 1 casquette de cuir, 2ᶠ 00; — 2 paires de bottines. 5ᶠ00. — 'Total, 69ᶠ 45.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_13_253_128">
          VALEUR TOTALE du mobilier et des vêtements............ 2,442ᶠ60
         </p>
@@ -750,7 +871,9 @@
         . Il a cessé de prendre part à ces plaisirs vers l'année 1848; il ne va plus qu'au banquet offert annuel¬lement à son patron, pour célébrer l'anniversaire du jour où il reçut la croix de la Légion dhonneur. Les frais de ce repas s'élèventà 10ᶠ; ils sont payés par une cotisation volontaire versée régulièrement dans l'atelier sur les salaires de la quinaaine. Le soir du même jour, B*** passe la soirée avec sa famille au théâtre du Montparnasse, où tout le personnel de l'établissement est invité par le patron.
        </p>
        <p xml:id="para_13_253_132">
-        La famille va encore une fois par an au théâtre Saint-Marcel, <pb facs="#facs_257" n="254" source="lesouvriersdesde04sociuoft_0260.xml"/> quand on joue au profit d'un ouvrier typographe malheureux; elle fait dans ce cas une dépense de 3ᶠ00, plutôt pour accomplir un acte de charité que pour se procurer un plaisir. L'ouvrier d'ail¬leurs y trouve plus de fatigue que d'agrément, à cause de sa sur¬dité. Durant les longues soirées d'hiver, le frère de la première femme de l'ouvrier vient avec sa famille passer quelques heures avec B*** et les siens. Ces réunions sont, pour les parents, l'occa¬sion de causeries intimes, tandis que les enfants s'abandonnent ensemble à la gaieté de leur âge.
+        La famille va encore une fois par an au théâtre Saint-Marcel,
+        <pb facs="#facs_257" n="254" source="lesouvriersdesde04sociuoft_0260.xml"/>
+        quand on joue au profit d'un ouvrier typographe malheureux; elle fait dans ce cas une dépense de 3ᶠ00, plutôt pour accomplir un acte de charité que pour se procurer un plaisir. L'ouvrier d'ail¬leurs y trouve plus de fatigue que d'agrément, à cause de sa sur¬dité. Durant les longues soirées d'hiver, le frère de la première femme de l'ouvrier vient avec sa famille passer quelques heures avec B*** et les siens. Ces réunions sont, pour les parents, l'occa¬sion de causeries intimes, tandis que les enfants s'abandonnent ensemble à la gaieté de leur âge.
        </p>
       </div>
      </div>
@@ -769,7 +892,9 @@
         La mère de l'ouvrier, issue d'une famille noble par alliance, perdit ses parents et sa fortune à la chute de la royauté ; dénuée de ressources, elle épousa le père de B***, qui la rendit heureuse. Elle eut cinq garçons et quatre filles ; un seul fils lui resta, et elle désirait beaucoup le voir entrer dans les ordres religieux.
        </p>
        <p xml:id="para_13_254_138">
-        De son coté, le père de l'ouvrier ne voulait pas que B*** apprit l'êtat de cordonnier, pour lequel il avait lui-même une profonde antipathie. L'enfant montrait d'ailleurs quelques dispositions pour la langue latine qu'un vieil ami de la famille, ancien professeur, lui enseignait le soir. Toutes ces circonstances le firent placer dans un pensionnat par son père, qui payait en chaussures, pour la famille du maître, le prix de l'éducation de son fils. Arrivé à sa quatrième, B*** concourut pour l'admission au petit séminaire diocésain, et fut <pb facs="#facs_258" n="255" source="lesouvriersdesde04sociuoft_0261.xml"/> reçu le deuxième sur près de trois cents candidats. Il se trouva fort heureux dans cet établissement, où il acheva sa troisième et termina presque ses humanités. Il dut malheureusement en sortir pour suivre le traitement d'un médecin qui croyait pouvoir guérir le commencement de cette surdité
+        De son coté, le père de l'ouvrier ne voulait pas que B*** apprit l'êtat de cordonnier, pour lequel il avait lui-même une profonde antipathie. L'enfant montrait d'ailleurs quelques dispositions pour la langue latine qu'un vieil ami de la famille, ancien professeur, lui enseignait le soir. Toutes ces circonstances le firent placer dans un pensionnat par son père, qui payait en chaussures, pour la famille du maître, le prix de l'éducation de son fils. Arrivé à sa quatrième, B*** concourut pour l'admission au petit séminaire diocésain, et fut
+        <pb facs="#facs_258" n="255" source="lesouvriersdesde04sociuoft_0261.xml"/>
+        reçu le deuxième sur près de trois cents candidats. Il se trouva fort heureux dans cet établissement, où il acheva sa troisième et termina presque ses humanités. Il dut malheureusement en sortir pour suivre le traitement d'un médecin qui croyait pouvoir guérir le commencement de cette surdité
         <ref target="#part_02_01_04" type="renvoi_int_mono">
          (§ 4)
         </ref>
@@ -786,19 +911,25 @@
         En 1830, il fit partie de la garde nationale, et s'employa à l'apai¬sement des émeutes. Il y resta depuis le 24 décembre de cette année jusqu'à cette fatale revue sur les boulevards, où le maréchal Mortier trouva la mort avec tant d'autres victimes. A cette époque, il changea d'arrondissement, et se retira de la milice citoyenne. En janvier 1846, il obtint la présentation et la lecture en séance publique dune pétition adressée par lui à la Chambre des députés, pour l'amendement de la loi pour l'ertinction de la mendicite, et l'adoucissement de la pénalité qu'elle inflige.
        </p>
        <p xml:id="para_13_255_142">
-        En 1848, B*** rentra dans la garde nationale. Muni d'un ordre du maire du douième arrondissenrent, accompagné de deux ouvriers etd'un élève de l'école Polytechnique, il courut aux barricades du faubourg Saint-Marceau, pour faire livrer passage aux charrettes <pb facs="#facs_259" n="256" source="lesouvriersdesde04sociuoft_0262.xml"/> charǵes de farine ; cette tentative eut un plein succès. Le lende¬main, il concourut avec ses camarades à la protection des presses de son patron, et il eut le bonheur de les voir épargnées. A cette même époque, le travail manquant dans son atelier, il fut assez heu¬reux pour trouver un emploi dans un des bureaux établis pour la formation des premières listes électorales ; il passa ensuite au bureau de bienfaisance du douaième arrondissement comme em¬ployé auxiiaire à la distribution des secours à domicile. Quand le calme fut rétabli, il fut remercié et rentra dans son ancien atelier, qu'il n'a plus quitté depuis ce temps.
+        En 1848, B*** rentra dans la garde nationale. Muni d'un ordre du maire du douième arrondissenrent, accompagné de deux ouvriers etd'un élève de l'école Polytechnique, il courut aux barricades du faubourg Saint-Marceau, pour faire livrer passage aux charrettes
+        <pb facs="#facs_259" n="256" source="lesouvriersdesde04sociuoft_0262.xml"/>
+        charǵes de farine ; cette tentative eut un plein succès. Le lende¬main, il concourut avec ses camarades à la protection des presses de son patron, et il eut le bonheur de les voir épargnées. A cette même époque, le travail manquant dans son atelier, il fut assez heu¬reux pour trouver un emploi dans un des bureaux établis pour la formation des premières listes électorales ; il passa ensuite au bureau de bienfaisance du douaième arrondissement comme em¬ployé auxiiaire à la distribution des secours à domicile. Quand le calme fut rétabli, il fut remercié et rentra dans son ancien atelier, qu'il n'a plus quitté depuis ce temps.
        </p>
        <p xml:id="para_13_256_144">
         L'ouvrier se maria en l'année 1832. Sa première femme était bonne et laborieuse ; le premier livret de la caisse d'épargne fut pris à la fin de 1833. Elle travaillait, suivantles besoins du moment, comme giletière, gantière, brodeuse ou relieuse. Le ménage com¬mençait à prospérer, lorsqu'elle fut atteinte par une maladie longue et cruelle, une tumeur cancéreuse au côté droit, qui enleva cette malheureuse mère après quatorze années de souffrances et d'admi¬rable résignation. A ses derniers moments, jetant un regard attristé sur sa fille, qui avait quitté son apprentissage pour la soigner, elle fit promettre à son mari de se remarier. Resté seul avec sa fille à peine âgée de 14 ans, l'ouvrier s'entendit avec la maîtresse d'ap¬prentissage de son enfant, et obtint que celle-ci prendrait deux re¬pas dans l'atelier et ne le quitterait que le soir, à l'heure où son père, de retour de son travail, pourrait prendre avec elle son troi¬sième repas.
        </p>
        <p xml:id="para_13_256_145">
-        L'ouvrier s'est remarié à la fin de l'année 1851. Le père de sa se¬conde femme était un fermier aisé de la Gascogne, peu actifet grand amateur de procès. Sa femme mourut des suites d'une fluxion de poitrine. A peine devenu veu, il se remaria avec une femme plus jeune que lui de moitié. Il rendit compte à ses cinq filles du bien de leur mère ; la fille aînée fut avantagée, selon la coutume de la loca¬lité, et recut le quart de la succession ; les autres recurent chacune 50ᶠ. Caherine M***, a peine âgée de 10 ans, quitta son pays les pieds nus, ses sabots à la main et son mince bagage sous le bras, pleurant sa mère qu'elle avait tendrement aimée. Elle arriva à bDuras, où elle se mit en condition. Trois de ses sœurs allèrent à Bor¬deaux. Annette M***, sœur jumelle de Catherine M***, s'y est mariée à un honnête ouvrier, devenu aujourd'hui fabricant. Elle devait êre la marraine de la petite fille de B*** elle est morte en janvier 1861. Les deux autres sœurs de Catherine M*** sont entrées au couvent. L'une d'elles est morte, il y a trois ans, au couvent de Notre-Dame de l'Espérance, à Amiens. L'autre, sœur de la congrégation de Saint-Joseph, habite Madrid. La sœur aînée n'a jamais quitté le <pb facs="#facs_260" n="257" source="lesouvriersdesde04sociuoft_0263.xml"/> pays ; elle est veuve maintenant et a plusieurs enfants dont quel¬ques-uns sont mariés ; elle est dans une position aisée.
+        L'ouvrier s'est remarié à la fin de l'année 1851. Le père de sa se¬conde femme était un fermier aisé de la Gascogne, peu actifet grand amateur de procès. Sa femme mourut des suites d'une fluxion de poitrine. A peine devenu veu, il se remaria avec une femme plus jeune que lui de moitié. Il rendit compte à ses cinq filles du bien de leur mère ; la fille aînée fut avantagée, selon la coutume de la loca¬lité, et recut le quart de la succession ; les autres recurent chacune 50ᶠ. Caherine M***, a peine âgée de 10 ans, quitta son pays les pieds nus, ses sabots à la main et son mince bagage sous le bras, pleurant sa mère qu'elle avait tendrement aimée. Elle arriva à bDuras, où elle se mit en condition. Trois de ses sœurs allèrent à Bor¬deaux. Annette M***, sœur jumelle de Catherine M***, s'y est mariée à un honnête ouvrier, devenu aujourd'hui fabricant. Elle devait êre la marraine de la petite fille de B*** elle est morte en janvier 1861. Les deux autres sœurs de Catherine M*** sont entrées au couvent. L'une d'elles est morte, il y a trois ans, au couvent de Notre-Dame de l'Espérance, à Amiens. L'autre, sœur de la congrégation de Saint-Joseph, habite Madrid. La sœur aînée n'a jamais quitté le
+        <pb facs="#facs_260" n="257" source="lesouvriersdesde04sociuoft_0263.xml"/>
+        pays ; elle est veuve maintenant et a plusieurs enfants dont quel¬ques-uns sont mariés ; elle est dans une position aisée.
        </p>
        <p xml:id="para_13_257_147">
         Catherine M***, après avoir fait sa première communion à Duras, alla rejoindre ses sœurs à Bordeaux; elle se rendit à Paris quelques années plus tard avec les maîtres chez lesquels elle était en ser¬vice, et qui l'aimaient beaucoup : c'est là que l'ouvrier la connut. Touché de ses qualités, il la demanda en mariage ; le mari et le pèré de sa maîtresse voulurent, en témoignage de leur estime, lui servir de témoins. Les petites économies que Catherine M** possédait en se mariant, et les50ᶠ00 de la succession de sa mère, ont toujours été considérés par les époux comme un dépôt sacré.
        </p>
        <p xml:id="para_13_257_148">
-        La fille aînée de l'ouvrier parut heureuse de ce mariage, et vécut fort bien avec sa belle-mère. Le temps de son apprentissage ex¬piré, elle entra dans une bonne maison de couture. Sa belle-mère lui proposa de la prendre en pension et de l'entretenir moyennant 4ᶠ00 par semaine, lui faisant observer que, puisqu'elle gagnait 1ᶠ50 par jour, elle pourrait mettre à la caisse d'épargne ses petites éco¬nomies ; elle-même l'avait fait autrefois, et s'en était bien trouvée. La jeune fille accepta, et l'année suivante elle avait placé près de 200ᶠ. Elle devint la marraine de la petite fille issue du second mariage. Quelque temps après la naissance du petit garçon, elle parut soucieuse. Ayant fait, à l'insu de ses parents, des démarches sans résultat pour entrer dan la communauté des sœurs de Saint¬Vincent de Paul, elle parvint à se faire agréer dans celle des Dames de la Doctrine chrétienne ; mais il lui fallait le consente¬ment de son père. Elle le lui demanda, en disant que son intention était depuis longtemps arrêtée. Le père, ne voulant pas lui laisser prendre légèrement une détermination si grave, ajourna à six mois son consentement. Au bout de ce temps, la jeune fille persista, et, fatigué de sés instances, le père l'autorisa en lui prédisant qu'a¬près quelques mois elle lui reviendrait. Le prix de son entrée au couvent fut fixé à 300ᶠ; c'était à peu près la somme épargnée par elle. Elle partit pour faire son noviciat à la maison-mère, située dans les montagnes des Vosges. Le premier mois tout parut aller à merveille ; au bout de trois mois elle n'avait pu s'habituer à la règle, et elle revint à la maison paternelle conduite par une des sœurs de la communauté. La supérieure, au moment de son départ, lui rendit 100ᶠ, restant de son épargne, qui lui servirent à faire un nouveau trousseau. Il fallut travailler de nouveau. Enfin, au bout d'uneannée, elle fut demandée enmariage par unjeune homme, parent de sa famille du côté maternel ; elle l'accepta, et leur union fut célébrée après les fêtes de Paques en 1858. L'ouvrier remit à sa fille une somme de 300ᶠ00, valeur approximative du mobilier <pb facs="#facs_261" n="258" source="lesouvriersdesde04sociuoft_0264.xml"/> qu'il possédaità la mort de sa première femme, et qui avait été alors grevé de dettes, contractées pour subvenir aux besoins quotidiens.
+        La fille aînée de l'ouvrier parut heureuse de ce mariage, et vécut fort bien avec sa belle-mère. Le temps de son apprentissage ex¬piré, elle entra dans une bonne maison de couture. Sa belle-mère lui proposa de la prendre en pension et de l'entretenir moyennant 4ᶠ00 par semaine, lui faisant observer que, puisqu'elle gagnait 1ᶠ50 par jour, elle pourrait mettre à la caisse d'épargne ses petites éco¬nomies ; elle-même l'avait fait autrefois, et s'en était bien trouvée. La jeune fille accepta, et l'année suivante elle avait placé près de 200ᶠ. Elle devint la marraine de la petite fille issue du second mariage. Quelque temps après la naissance du petit garçon, elle parut soucieuse. Ayant fait, à l'insu de ses parents, des démarches sans résultat pour entrer dan la communauté des sœurs de Saint¬Vincent de Paul, elle parvint à se faire agréer dans celle des Dames de la Doctrine chrétienne ; mais il lui fallait le consente¬ment de son père. Elle le lui demanda, en disant que son intention était depuis longtemps arrêtée. Le père, ne voulant pas lui laisser prendre légèrement une détermination si grave, ajourna à six mois son consentement. Au bout de ce temps, la jeune fille persista, et, fatigué de sés instances, le père l'autorisa en lui prédisant qu'a¬près quelques mois elle lui reviendrait. Le prix de son entrée au couvent fut fixé à 300ᶠ; c'était à peu près la somme épargnée par elle. Elle partit pour faire son noviciat à la maison-mère, située dans les montagnes des Vosges. Le premier mois tout parut aller à merveille ; au bout de trois mois elle n'avait pu s'habituer à la règle, et elle revint à la maison paternelle conduite par une des sœurs de la communauté. La supérieure, au moment de son départ, lui rendit 100ᶠ, restant de son épargne, qui lui servirent à faire un nouveau trousseau. Il fallut travailler de nouveau. Enfin, au bout d'uneannée, elle fut demandée enmariage par unjeune homme, parent de sa famille du côté maternel ; elle l'accepta, et leur union fut célébrée après les fêtes de Paques en 1858. L'ouvrier remit à sa fille une somme de 300ᶠ00, valeur approximative du mobilier
+        <pb facs="#facs_261" n="258" source="lesouvriersdesde04sociuoft_0264.xml"/>
+        qu'il possédaità la mort de sa première femme, et qui avait été alors grevé de dettes, contractées pour subvenir aux besoins quotidiens.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
@@ -848,14 +979,18 @@
         .
        </p>
        <p xml:id="para_13_258_153">
-        Le bien-etre physique des deux époux, à l'époque où l'âge et les infirmités les empêcheront de travailler, a pour garanties les épargnes déjà accumulées, celes qu'ils pourront faire encore, la pension de retraite que croit pouvoir donner la société typogra<pb facs="#facs_262" n="259" source="lesouvriersdesde04sociuoft_0265.xml"/>phique, enfin l'aide de leurs enfants élevés dans des principes de bonne conduite et d'attachement filial. Ceux-ci d'ailleurs ont en perspective l'héritage d'une tante qui est revenue des États-Unis avec des économies dont le revenu lui assure 900ᶠ de rente, fruit de son travail comme modiste, et qui a testé en faveur de son neveu et de ses nièces
-        <note type="bp"><p>
-         Depuis l'époque où a été rédigée cette monographie, les revnus de la soeur de l'ouvrier se sont reduits a 600ᶠ, dont 400ᶠ proviennent de sommes placées à fonds perdu
-         <ref target="#part_02_01_03" type="renvoi_int_mono">
-          (§ 3)
-         </ref>
-         .
-        </p></note>
+        Le bien-etre physique des deux époux, à l'époque où l'âge et les infirmités les empêcheront de travailler, a pour garanties les épargnes déjà accumulées, celes qu'ils pourront faire encore, la pension de retraite que croit pouvoir donner la société typogra
+        <pb facs="#facs_262" n="259" source="lesouvriersdesde04sociuoft_0265.xml"/>
+        phique, enfin l'aide de leurs enfants élevés dans des principes de bonne conduite et d'attachement filial. Ceux-ci d'ailleurs ont en perspective l'héritage d'une tante qui est revenue des États-Unis avec des économies dont le revenu lui assure 900ᶠ de rente, fruit de son travail comme modiste, et qui a testé en faveur de son neveu et de ses nièces
+        <note type="bp">
+         <p>
+          Depuis l'époque où a été rédigée cette monographie, les revnus de la soeur de l'ouvrier se sont reduits a 600ᶠ, dont 400ᶠ proviennent de sommes placées à fonds perdu
+          <ref target="#part_02_01_03" type="renvoi_int_mono">
+           (§ 3)
+          </ref>
+          .
+         </p>
+        </note>
         .
        </p>
       </div>
@@ -931,14 +1066,16 @@
         (A) SUR L'HISTOIRE DE LA TYPOGRAPHIE PARISIENNE.
        </head>
        <p xml:id="para_11_270_273">
-        
-        <pb facs="#facs_273" n="270" source="lesouvriersdesde04sociuoft_0276.xml"/>Vers l'année 1469, sous le règne de Louis X, Guillaume Fichet, recteur de l'académie de Paris, avec l'aide et le concours de Jean de La Pierre, fit venir à Paris trois Allemands, hommes énergiques et entreprenants, élèves du savant maître Gutenberg. Ils s y éta¬blirent sous le protectorat de la Sorbonne, malgré les persécutions de l'autorité, suscitées par le clergé, qui voulait conserver le mono¬pole de la science. Ces trois hommes se nommaient : Ulric Géring, Martin rantz et Michel Friburger. Ils virent demeurer près de la célèbre abbaye de Cluny, pour exercer leur profession d'impri¬meurs en lettres, ainsi qu'il est indiqué dans leurs lettres patentes. Bientôt l'imprimerie senracina dans le sol parisien ; elle y fleurit avec éclat, surtout dans le xv siècle, où les Estienne, et surtout Robert, le neveu du premier de ce nom, lui donnèrent une vive im¬pulsion, de 1470 a 1560. ls affichaient à leur porte les épreuves des ouvrages qui devaient sortir de leurs presses, afin que le pu¬blic pût y signaler les fautes qui leur seraient échappees. a Fran¬çois Iᵉʳ, dit M. Frey dans son dictionnaire manuel de typogra¬phie, rendait de fréquentes visites à l'illustre Robert Estienne, son savant ami. n jour, il persista à attendre qu'Estienne eùt fini la lecture d'une épreuve, que celui-ci voulait interrompre Dour recevoir son roi.
+        <pb facs="#facs_273" n="270" source="lesouvriersdesde04sociuoft_0276.xml"/>
+        Vers l'année 1469, sous le règne de Louis X, Guillaume Fichet, recteur de l'académie de Paris, avec l'aide et le concours de Jean de La Pierre, fit venir à Paris trois Allemands, hommes énergiques et entreprenants, élèves du savant maître Gutenberg. Ils s y éta¬blirent sous le protectorat de la Sorbonne, malgré les persécutions de l'autorité, suscitées par le clergé, qui voulait conserver le mono¬pole de la science. Ces trois hommes se nommaient : Ulric Géring, Martin rantz et Michel Friburger. Ils virent demeurer près de la célèbre abbaye de Cluny, pour exercer leur profession d'impri¬meurs en lettres, ainsi qu'il est indiqué dans leurs lettres patentes. Bientôt l'imprimerie senracina dans le sol parisien ; elle y fleurit avec éclat, surtout dans le xv siècle, où les Estienne, et surtout Robert, le neveu du premier de ce nom, lui donnèrent une vive im¬pulsion, de 1470 a 1560. ls affichaient à leur porte les épreuves des ouvrages qui devaient sortir de leurs presses, afin que le pu¬blic pût y signaler les fautes qui leur seraient échappees. a Fran¬çois Iᵉʳ, dit M. Frey dans son dictionnaire manuel de typogra¬phie, rendait de fréquentes visites à l'illustre Robert Estienne, son savant ami. n jour, il persista à attendre qu'Estienne eùt fini la lecture d'une épreuve, que celui-ci voulait interrompre Dour recevoir son roi.
        </p>
        <p xml:id="para_11_270_274">
         Après les Estienne, parut Ambroise Didot, qui, en 1730, acquit une fort belle réputation; puis vint Firmin Didot, dont le nom fut justement estimé : il exerça sa profession de 1764 a 1836. L'expo¬sition de 1855 a mis en relief les grands maîtres de notre époque, qui se sont distingués par les ouvrages magniliques sortis de leurs presses, et surtout par la parfaite exécution du tirage des gravures sur bois, qui ont fait l'admiration des savants de l'Europe entière.
        </p>
        <p xml:id="para_11_270_276">
-        La nécessité de reproduire fréquemment et à bon marché les ou¬vrages classiques fit surgir deux procédés, la stéreotppie et ensuite <pb facs="#facs_274" n="271" source="lesouvriersdesde04sociuoft_0277.xml"/> le clichage desformes. Sous le règne de Napoléon Iᵉʳ, erhan imagina de fondre en creux des caractères de cuivre dans lesquels il coula de la matière de plomb en fusion ; celle-ci recevait l'em¬preinte d'un mouton qu'on laissait retomber fortement. Ce procédé s'appela la stéréotypie. n grand nombre de petits ouvrages in-18 existent encore de nos jours comme spécimen de son invention. Plus tard, sintroduisit le clichage des formes. On vit surgir les clicheurs au plâtre, au sable fin, à la pâte de papier. Ce dernier mode prévalut sur les autres, parce qu'i détériorait moins vite les caractères ; avec les deux premiers moyens, il fallait changer trop fréquemment les fontes, et ce renouvellement était quelque¬fois plus coûteux qu'une recomposition des édiions épuisées.
+        La nécessité de reproduire fréquemment et à bon marché les ou¬vrages classiques fit surgir deux procédés, la stéreotppie et ensuite
+        <pb facs="#facs_274" n="271" source="lesouvriersdesde04sociuoft_0277.xml"/>
+        le clichage desformes. Sous le règne de Napoléon Iᵉʳ, erhan imagina de fondre en creux des caractères de cuivre dans lesquels il coula de la matière de plomb en fusion ; celle-ci recevait l'em¬preinte d'un mouton qu'on laissait retomber fortement. Ce procédé s'appela la stéréotypie. n grand nombre de petits ouvrages in-18 existent encore de nos jours comme spécimen de son invention. Plus tard, sintroduisit le clichage des formes. On vit surgir les clicheurs au plâtre, au sable fin, à la pâte de papier. Ce dernier mode prévalut sur les autres, parce qu'i détériorait moins vite les caractères ; avec les deux premiers moyens, il fallait changer trop fréquemment les fontes, et ce renouvellement était quelque¬fois plus coûteux qu'une recomposition des édiions épuisées.
        </p>
        <p xml:id="para_11_271_277">
         A l'Exposition universelle de 1855, on a vu le piaotQgpe, jolie petite machine inventée et construite par un ouvrier compositeur de Copenhague, dont les touches, semblables à celles d'un piano, faisaient descendre les lettres que le doigt désignait. Les lettres glissaient le long de conduits, et se placaient dans l'ordre voulu pour produire le mot demandé. Mais les caractères employés dans un ouvrage étant d'inégale épaisseur, et encrassés par le service, étaient fréquemment arrêtés dans leur chute, etne formaient qu'une composition indéchifrable. La réparaion du travail opéré par cette machine coûtait presque autant que le même travail fait entiè¬rement par le compositeur. Le pianotype servait à la fois à com¬poser et à distribuer les caractères.
@@ -950,7 +1087,9 @@
         A l'Eposition universelle de 1862, on a remarqué une machine d'origine américaine, dans laquelle ce n'est plus la gravité qui dé¬1erminel'arrivée des caractères dans le composteur. Ceux-ci tom¬bent sur de petits rubans sans cesse en mouvement, qui les conduisent sur un autre ruban, placé obliquement et transver¬salement par rapport aux premiers, et qui les amène dans le com¬posteur.
        </p>
        <p xml:id="para_11_271_281">
-        On peut d'ailleurs se demander si l'on doit en principe attendre des machines à composer un avantage considérable. La lecture du manuscrit étant essentiellement une œuvre intellectuelle, l'inter¬vention de l'ouvrier ne peut être supprimée, et le problème ne <pb facs="#facs_275" n="272" source="lesouvriersdesde04sociuoft_0278.xml"/> porte que sur l'abréviation du temps peu considérable qu'il emploie a lever la lettre. Une faible réduction dans la dépense, répondant à une partie seulement du travail que doit faire le compositeur, com¬penserait-elle les frais d'achat et d'entretien de cette machine com¬pliquée3
+        On peut d'ailleurs se demander si l'on doit en principe attendre des machines à composer un avantage considérable. La lecture du manuscrit étant essentiellement une œuvre intellectuelle, l'inter¬vention de l'ouvrier ne peut être supprimée, et le problème ne
+        <pb facs="#facs_275" n="272" source="lesouvriersdesde04sociuoft_0278.xml"/>
+        porte que sur l'abréviation du temps peu considérable qu'il emploie a lever la lettre. Une faible réduction dans la dépense, répondant à une partie seulement du travail que doit faire le compositeur, com¬penserait-elle les frais d'achat et d'entretien de cette machine com¬pliquée3
        </p>
        <p xml:id="para_11_272_282">
         Le nombre des imprimeries de Paris est de 92, y compris l'imprimerie impériale et celle établie à la Monnaie pour l'im¬pression des timbres-poste. 22 imprimeurs ont une spécialité pour le latin ; 20 pour l'anglais ; 12 pour l'espagnol ; 9 pour l'allemand ; 3 pour le grec ; a pour la langue hébraique ;  pour la musique ;  pour le plain-chant ;  pour le polonais ; 1 pour la langue cophte. Quelques maisons possèdent des caractères étran¬gers ; mais les plus beaux types appartiennent à l'imprimerie impé¬riale, qui, au besoin, les met à la disposition des imprimeurs de Paris. Sa chambre de composition des langues orientales est la plus riche et la plus complète de l'Europe. lors de la capitale, dans un rayon de 100kilomètres, il y a une cinquantaine d'impri¬meries alimentées en partie par les éditeurs parisiens.
@@ -968,49 +1107,69 @@
         <figure type="figure">
          <graphic facs="#facs_275" url="#"/>
         </figure>
-        , qui signifie premier, est un homme instruit ; il représente le patron avec lequel il est sans cesse en communication directe. Pour bien remplir cette fonction, il faut avoir une grande diversité de connaissances et connaître à fond l'imprimerie. Le prote veille à la régularité du travail et à l'entre¬ien du matériel; il se met en relation avec les auteurs, surveille l'envoi et la réception des épreuves, et maintient l'ordre dans les ateliers. Autrefois le prote lisait et corrigeait lui-même les épreuves, que le patron revoyait aussi : mais les conditions du tra¬vail ont subi de telles modifications, et d'autre part il faut souvent produire dans des limites de temps si restreintes, qu'il est devenu impossible au patron et au prote de lire tout ce que les presses de l'établissement doivent imprimer : ce travail est donc fait aujour¬d'hui par des correcters d'épreuves. En outre, le prote réunit tant <pb facs="#facs_276" n="273" source="lesouvriersdesde04sociuoft_0279.xml"/> d'occupations diverses que, dans les imprimeries importantes de Paris, on a dû souvent lui adjoindre un ou deux aides. Alors le premier sous-prote s'occupe du tirage des feuilles et de la surveil¬lance des presses mécaniques. Le second est spécialement occupé du personnel de la composition : il veille à ce que le travail soit distribué avec justice entre tous les ouvriers; il révise les borde¬reaux des metteurs en pages et fait la banque
-        <note type="bp"><p>
-         On nomme banque, dans une imprimerie, ce que l'on appelle la paye dans les autres ateliers.
-        </p></note>
+        , qui signifie premier, est un homme instruit ; il représente le patron avec lequel il est sans cesse en communication directe. Pour bien remplir cette fonction, il faut avoir une grande diversité de connaissances et connaître à fond l'imprimerie. Le prote veille à la régularité du travail et à l'entre¬ien du matériel; il se met en relation avec les auteurs, surveille l'envoi et la réception des épreuves, et maintient l'ordre dans les ateliers. Autrefois le prote lisait et corrigeait lui-même les épreuves, que le patron revoyait aussi : mais les conditions du tra¬vail ont subi de telles modifications, et d'autre part il faut souvent produire dans des limites de temps si restreintes, qu'il est devenu impossible au patron et au prote de lire tout ce que les presses de l'établissement doivent imprimer : ce travail est donc fait aujour¬d'hui par des correcters d'épreuves. En outre, le prote réunit tant
+        <pb facs="#facs_276" n="273" source="lesouvriersdesde04sociuoft_0279.xml"/>
+        d'occupations diverses que, dans les imprimeries importantes de Paris, on a dû souvent lui adjoindre un ou deux aides. Alors le premier sous-prote s'occupe du tirage des feuilles et de la surveil¬lance des presses mécaniques. Le second est spécialement occupé du personnel de la composition : il veille à ce que le travail soit distribué avec justice entre tous les ouvriers; il révise les borde¬reaux des metteurs en pages et fait la banque
+        <note type="bp">
+         <p>
+          On nomme banque, dans une imprimerie, ce que l'on appelle la paye dans les autres ateliers.
+         </p>
+        </note>
         à ces derniers, qui la répartissent entre leurs paquetiers.
        </p>
        <p xml:id="para_11_273_287">
         Les CORRECTEURS D'ÉPREUVES possèdent à leur tour la confiance du prote, qui leur fait lire les feuilles sortant des mains du compo¬siteur. Ils doivent être fort instruits, connaître parfaitement leur langue et savoir convenablement le grec et le latin. Ils doivent avoir des connaissances en littérature, en histoire et en geographie. Ils sont ieteressés à ce que les ouvrages sortant de la maison qui les occupe soient aussi parlaits que possible. Le correcteur doit tra¬vailler dans un local spécial, loin de tout bruit ; il doit avoir sous la main une petite bibliothèque de livres choisis. ll y a souvent plu¬sieurs correcteurs dans une iprimerie. L'un est chargé de lire la première epreuve avant qu'on l'envoie à l'auteur, et d'en laire effacer notamment les fautes, telles que bourdons
-        <note type="bp"><p>
-         Mots oubliés.
-        </p></note>
+        <note type="bp">
+         <p>
+          Mots oubliés.
+         </p>
+        </note>
         , doublons
-        <note type="bp"><p>
-         Mots répétés.
-        </p></note>
+        <note type="bp">
+         <p>
+          Mots répétés.
+         </p>
+        </note>
         , mauvaise ponctuation ou lautes grammaticales, dont la correction est à la charge du compositeur. n autre correcteur lit la deuxième épreuve ; un autre encore lit la troisième avant que l'auteur donne son bon à tirer, vérifié une quatrième fois ; puis lorsque la feuille est prète à tirer, on remet la ierce au prote ou au patron ; celui-ci, apres l'avoir lue et setre assuré que les blancs sont convenable¬ment ietes, la signe pour qu'elle serve à établir le compte de l'ou¬vrier pressier qui en elfectue le tirage.
        </p>
        <p xml:id="para_11_273_288">
         Les ouvriers compositeurs peuvent être divisés en quatre classes : 1ᵉ les homes de conscience; 2° les metteurs cn pgcs; 3° les pque¬tiers ; 4ᵉ° les journalistes.
        </p>
        <p xml:id="para_11_273_290">
-        Les HOMMES DE CONSCIENCE Sont payés à la journée, d'après le tarif fixé, ou d'après un prix determine de gré a grè avec le paturon. La durée de leur travail est de dix heures par jour, et leur salaire varie de 5ᶠ à 7ᶠ, selon leur mérite. Ils se recrutent parmi les meil¬leurs compositeurs, parmi ceux dont le talent est reconnu des chefs d'atelier. Ils sont chargés des ouvrages de ville, des affiches, des prospectus, dans lesquels il faut déployer un grand luxe de carac¬tères variés. Le soin et la surveillance spéciale du matériel sont <pb facs="#facs_277" n="274" source="lesouvriersdesde04sociuoft_0280.xml"/> également dans leurs attributions. L'ouvrier en conscience fait aussi des tableaux. Ordinairement le tableutier est payé aux pièces. Il faut savoir parfaitement manier la lime et le couteau à filets, pour acquérir de la réputation dans ce travail exceptionnel qui, du reste, est assez bien rétribué.
+        Les HOMMES DE CONSCIENCE Sont payés à la journée, d'après le tarif fixé, ou d'après un prix determine de gré a grè avec le paturon. La durée de leur travail est de dix heures par jour, et leur salaire varie de 5ᶠ à 7ᶠ, selon leur mérite. Ils se recrutent parmi les meil¬leurs compositeurs, parmi ceux dont le talent est reconnu des chefs d'atelier. Ils sont chargés des ouvrages de ville, des affiches, des prospectus, dans lesquels il faut déployer un grand luxe de carac¬tères variés. Le soin et la surveillance spéciale du matériel sont
+        <pb facs="#facs_277" n="274" source="lesouvriersdesde04sociuoft_0280.xml"/>
+        également dans leurs attributions. L'ouvrier en conscience fait aussi des tableaux. Ordinairement le tableutier est payé aux pièces. Il faut savoir parfaitement manier la lime et le couteau à filets, pour acquérir de la réputation dans ce travail exceptionnel qui, du reste, est assez bien rétribué.
        </p>
        <p xml:id="para_11_274_291">
         Le METTEUR EN PAGES est celui qui, dans la composition d'un ou¬vrage, fait les titres, dispose les blancs, établit les pages de la longueur voulue, communique aux compositeurs les renseignements qu'on lui a donnés, reçoit chaque semaine le compte de ceux à qui il a remis du travail, fait son bordereau, et solde à chacun, le jour de la banpque, ce qui lui est dû. Comme il est seul responsable envers le prote de l'exécution de son livre, il veille à son tour à ce que la composition en soit irréprochable et régulièrement corrigée. Les mises en pages sont tarifées, en prenant pour base la mise en pages simple, sans titres courants, d'après les dimensions indiquées par les principaux formats de papier. Le metteur en pages profite des pages blanches, du commencement et de la fin des chapitres, du placement des vignettes, etc. Celui qui dirige simultanément l'exé¬cution de plusieurs ouvrages réalise d'assez beaux bénéfices; au contraire, celui qui n'a qu'un ouvrage court, qu'il compose lui¬même, n'a pas toujours de quoi employer son temps ; car pour avoir de la lere, il est obligé d'attendre que les feuilles déjà éta¬blies soient corrigées et imprimées. Le metteur en pages très-oc¬cupé s'adjoint habituellement un compositeur de son choix pour le seconder dans la répartition, entre les compositeurs, des caractères des feuilles tirées, et dans la correction sur plomb des épreuves renvoyées par les auteurs. Cetaide travaille à raison de 0ᶠ50 l'heure ; son travail est fatigant à cause de la position penchée qu'il doit garder longtemps pour la correction u marbre, é'est-à-dire pour la correction des formes disposées sur une table de marbre. Le salaire du metteur en pages est, d'après ses fonctions, très-variable : il gagne de 5ᶠ a 11ᶠ par jour.
        </p>
        <p xml:id="para_11_274_293">
         Le PAQUETIER ou COMPOSITEUR proprement dit est continuelle¬ment occupé aux travaux relatifs à la composition, à la correction de la première épreuve, avant qu'elle soit envoyée à l'auteur, et à la distribution des caractères
-        <note type="bp"><p>
-         Action de replacer dans leurs compartiments respectifs les lettres ayant formé les pages déjà imprimées.
-        </p></note>
+        <note type="bp">
+         <p>
+          Action de replacer dans leurs compartiments respectifs les lettres ayant formé les pages déjà imprimées.
+         </p>
+        </note>
         . Debout ou assis devant sa casse
-        <note type="bp"><p>
-         Boite à compartiment contenant tous les caractères de l'alphabet et placée sur un plan incliné en forme de pupitre.
-        </p></note>
+        <note type="bp">
+         <p>
+          Boite à compartiment contenant tous les caractères de l'alphabet et placée sur un plan incliné en forme de pupitre.
+         </p>
+        </note>
         , tenant le coposteur
-        <note type="bp"><p>
-         Instrument en fer de forme rectangulaire, dans lequel sont juxtaposées les lettres qui forment les mots et les mots qui forment les lignes, et qui, au moyen d'une vis, s'allonge ou se raccourcit suivant la justification que l'on veut obtenir.
-        </p></note>
-        de la main gauche, il lève de la main droite, <pb facs="#facs_278" n="275" source="lesouvriersdesde04sociuoft_0281.xml"/> entre le pouce et l'index, les lettres destinées à reproduire les mots qu'il lit sur la copie
-        <note type="bp"><p>
-         Le mot copie vient de l'usage où étaient autrefois les auteurs de recopier leurs manuscrits avant de les livrer à l'imprimerie.
-        </p></note>
+        <note type="bp">
+         <p>
+          Instrument en fer de forme rectangulaire, dans lequel sont juxtaposées les lettres qui forment les mots et les mots qui forment les lignes, et qui, au moyen d'une vis, s'allonge ou se raccourcit suivant la justification que l'on veut obtenir.
+         </p>
+        </note>
+        de la main gauche, il lève de la main droite,
+        <pb facs="#facs_278" n="275" source="lesouvriersdesde04sociuoft_0281.xml"/>
+        entre le pouce et l'index, les lettres destinées à reproduire les mots qu'il lit sur la copie
+        <note type="bp">
+         <p>
+          Le mot copie vient de l'usage où étaient autrefois les auteurs de recopier leurs manuscrits avant de les livrer à l'imprimerie.
+         </p>
+        </note>
         ou manuscrit placé devant lui, et range ces lettres dans le composteur. Ce travail se paye 0ᶠ50 par mille lettres levées pour la réimpression et 0ᶠ55 pour le manuscrit, y compris la distribution et la première correction. Ce prix varie suivant la force ou la faiblesse des caractères autres que ceux qui ont les dimen¬sions moyennes. Au-dessus ou au-dessous de ces dimensions, les prix sont plus élevés de 0ᶠ05 ou de 0ᶠ10. Le paquetier remplit sa casse avec les caractères qui lui sont distribués comme il est dit ci¬dessus. Ensuite, sur l'indication du prote ou du sous-prote, il s'a¬dresse à un metteur en pages, pour avoir de la nouvelle copie. Celui-ci inscrit son nom au premier alinéa des feuillets de ma¬nuscrit qu'il lui remet, et en même temps il en prend note sur son livre de compte. Ainsi un paquetier reçoit partiellement sa banque de plusieurs metteurs en pages, s'il a fourni du travail à chacun d'eux.
        </p>
        <p xml:id="para_11_275_294">
@@ -1020,7 +1179,8 @@
         Les JOURNALISTES ne Sont que des paquetiers choisis parmi les plus agiles compositeurs. Les journaux, qui doivent être com¬posés très-vite, n'exigent pas le même soin que les ouvrages de luxe. Quelques-uns de ces ouvriers lèvent jusqu'à 2,000 lettres à l'heure. hLeur salaire est de 6 par jour pour les journaux de grandeur ordinaire ; ceux de grand format payent 7 par jour, et ils emploient de vingt-six à vingt-huit compositeurs. Le oni¬eur en a trente-deux. Le metteur en pages d'un journal quel¬conque gagne plus que dans une autre imprimerie. Il y a des suppléants qui, n'étant payés que lorsqu'ils travaillent, ont géné¬ralement un emploi ailleurs. Chaque journaliste reste à son tour, après la composition finie, pour la correction de la dernière épreuve ou bon à tirer : cette fonction s'appelle morasse. D'après cette or¬ganisation, chacun doit faire à peu près une égale portion du tra¬vail; mais si un compositeur n'a pas l'agilité nécessaire pour faire la moyenne convenue, il est invariablement exclu par ses cama¬rades ; s'il peut faire plus, il a le droit de se reposer.
        </p>
        <p xml:id="para_11_276_296">
-        <pb facs="#facs_279" n="276" source="lesouvriersdesde04sociuoft_0282.xml"/> A l'époque des grands maîtres, les compositeurs typographes étaient lettrés. Classés au rang des artistes, ils se faisaient gloire de posséder un blason armorié. Mentel, célèbre imprimeur de Srasbourg, fut le premier anobli : rédéric V, epereur d'Alle¬nagne, lui accorda des armoiries en 146. Ce blason existe encore et se voit dans quelques imprimeries, notamment dans l'atelier où travaille l'ouvrier. ll est composé d'un heaume en or plein, ter¬miné par une pointe en cœur ; l'aigle d'Allemagne de sable est au milieu tenant entre ses serres, à dextre, le visorium avec la copie entre les mordants ; à senestre, le composteur. Ce blason est surmonté d'une couronne de comte et d'un cimier au-dessus duquel est un griffon d'aaur aux ailes droites et déployées, pressant l'une contre l'autre deux balles, servant autrefois a l'impression ; quatre longues plumes d'autruche d'azur et de gueule entrelacées des¬cendent de la couronne de chaque côté de ce blason.
+        <pb facs="#facs_279" n="276" source="lesouvriersdesde04sociuoft_0282.xml"/>
+        A l'époque des grands maîtres, les compositeurs typographes étaient lettrés. Classés au rang des artistes, ils se faisaient gloire de posséder un blason armorié. Mentel, célèbre imprimeur de Srasbourg, fut le premier anobli : rédéric V, epereur d'Alle¬nagne, lui accorda des armoiries en 146. Ce blason existe encore et se voit dans quelques imprimeries, notamment dans l'atelier où travaille l'ouvrier. ll est composé d'un heaume en or plein, ter¬miné par une pointe en cœur ; l'aigle d'Allemagne de sable est au milieu tenant entre ses serres, à dextre, le visorium avec la copie entre les mordants ; à senestre, le composteur. Ce blason est surmonté d'une couronne de comte et d'un cimier au-dessus duquel est un griffon d'aaur aux ailes droites et déployées, pressant l'une contre l'autre deux balles, servant autrefois a l'impression ; quatre longues plumes d'autruche d'azur et de gueule entrelacées des¬cendent de la couronne de chaque côté de ce blason.
        </p>
        <p xml:id="para_11_276_297">
         L'imprimerie francaise a pris le pas maintenant sur l'iprimerie allemande. Si nos premiers maîtres dans cet art ont porté l'épée comme artistes de premier ordre, la corporation des ouvriers typo¬graphes ne doit point dégénérer ; elle doit être composée unique¬ment d'hommes dont l'instruction et le mérite soient en rapport avec l'importance de leur prolession.
@@ -1045,7 +1205,9 @@
         .
        </p>
        <p xml:id="para_11_276_302">
-        Les mœurs du typographe présentent avec celles des ouvriers, décrits dans la monographie qui précède et dans celle qui suit, plu<pb facs="#facs_280" n="277" source="lesouvriersdesde04sociuoft_0283.xml"/>sieurs contrastes, qui sont autant d'analogies nouvelles avec les meurs dominantes des ouvriers parisiens. Ainsi, les ouvriers com¬positeurs ont en général un petit nombre d'enfants, ordinairement deun à trois. assez rarement quatre. B*** explique ce fait en disant qu'étant hommes intelligents, un peu lettrés même, ils ont souvent dans la pensée la perspective de la misère avec une trop nombreuse famille et s'évitent, autant que possible, cete charge onéreuse
+        Les mœurs du typographe présentent avec celles des ouvriers, décrits dans la monographie qui précède et dans celle qui suit, plu
+        <pb facs="#facs_280" n="277" source="lesouvriersdesde04sociuoft_0283.xml"/>
+        sieurs contrastes, qui sont autant d'analogies nouvelles avec les meurs dominantes des ouvriers parisiens. Ainsi, les ouvriers com¬positeurs ont en général un petit nombre d'enfants, ordinairement deun à trois. assez rarement quatre. B*** explique ce fait en disant qu'étant hommes intelligents, un peu lettrés même, ils ont souvent dans la pensée la perspective de la misère avec une trop nombreuse famille et s'évitent, autant que possible, cete charge onéreuse
         <ref target="#part_02_01_02" type="renvoi_int_mono">
          (§ 2)
         </ref>
@@ -1082,7 +1244,9 @@
         (D) SUR CERTAINES FÊTES EN USAGE DANS LA TYPOGRAPHIE.
        </head>
        <p xml:id="para_11_277_308">
-        Autrefois la corporation des typographes avait sa fête indiquée dans le calendrier, le 6 du mois de mai, jour de la Saint-lean-Port-<pb facs="#facs_281" n="278" source="lesouvriersdesde04sociuoft_0284.xml"/>Latine, son patron. Il y a près d'un demi-siècle que cette fête est tombée en désuétude et n'est plus observée que chez les relieurs.
+        Autrefois la corporation des typographes avait sa fête indiquée dans le calendrier, le 6 du mois de mai, jour de la Saint-lean-Port-
+        <pb facs="#facs_281" n="278" source="lesouvriersdesde04sociuoft_0284.xml"/>
+        Latine, son patron. Il y a près d'un demi-siècle que cette fête est tombée en désuétude et n'est plus observée que chez les relieurs.
        </p>
        <p xml:id="para_11_278_309">
         En 1843 eut lieu la réunion qui fixa pour les ouvriers typogra¬phes un tarif uniforme; un premier banquet eut lieu à cette occa¬sion le 15 septembre. Ce fut un jour de joie : patrons et ouvriers prirent place autour d'une table de 1,800 couverts, et la plus par¬faite cordialité régna dans l'assemblée. Ceue fête se reproduisit ainsi chaque année, le premier dimanche qui précédait ou qui suivait le 15 septembre, jusqu'en 1847, époque à laquelle elle cessa par ordre de la police. En 1848 et 1849 les anniversaires furent repris, pour être de nouveau interrompus. Enfin, en 1860, elle fut autorisée par le préfet de police. Les ouvriers typographes espèrent que rien ne viendra plus troubler cette réunion frater¬nelle. B***, qui y a fréquemment assisté, en a vu la reprise avec un grand plaisir.
@@ -1099,7 +1263,8 @@
         (E) SUR LA SOCIÉTÉ DE SECOURS MUTUELS DITIE SOCIETÉ TPOGRAPHIQUE PRI¬SIENNE
        </head>
        <p xml:id="para_11_279_313">
-        <pb facs="#facs_282" n="279" source="lesouvriersdesde04sociuoft_0285.xml"/>L'ouvrier a été un des fondateurs de cette société en 1841. Elle était alors connue sous le nom de ociété tgpogrphique deParis, et ne s'occupait que du maintien du salaire
+        <pb facs="#facs_282" n="279" source="lesouvriersdesde04sociuoft_0285.xml"/>
+        L'ouvrier a été un des fondateurs de cette société en 1841. Elle était alors connue sous le nom de ociété tgpogrphique deParis, et ne s'occupait que du maintien du salaire
         <ref target="#ID-014a" type="renvoi_int_od2m">
          [N°14 (A)]
         </ref>
@@ -1109,7 +1274,8 @@
         Cette société a pour but : 1° de secourir chacun de ses membres dans la maladie, les infirmités et la vieillesse ; 2ᵉ de venir en aide, par des prêts d'honneur, aux sociétaires dans la gêne; 3ᵉ de secourir les veuves et les orphelins de ses adhérents par des allo¬cations temporaires et régulières, à l'aide d'une cotisation spéciale, facultative aux sociétaires ; 4* de faciliter, par tous les moyens dont elle peut disposer, le placement des sociétaires sans travail. Elle a pour capital les sommes provenant de la liquidation des deux so¬ciétés et de la cotisation mensuelle de 2ᶠ versée par chacun de ses membres. Pour être admis à faire partie de la société typographique parisienne, il faut exercer la profession de compositeur-typographe, être d'une moralité reconnue et être présenté par deux sociétaires. La durée du noviciat est de trois mois ; nul n'a droit aux secours avant l'expiration de ce délai. Tout sociétaire est tenu d'acquitter exactement ses cotisations ; de faire connaître au bureau les maisons où l'on demande des ouvriers, afin de faciliter le placement de ses camarades inoccupés ; de se rendre au siége de la société quand il est sans ouvrage, pour y prendre connaissance des demandes qui peuvent y être faites ; enfin de visiter les malades sur l'invitation qui lui en est adressée, service qui est de rigueur et qui ne peut être refusé sous peine de perdre le droit aux primes.
        </p>
        <p xml:id="para_11_280_315">
-        <pb facs="#facs_283" n="280" source="lesouvriersdesde04sociuoft_0286.xml"/> La société alloue à tout sociétaire atteint de maladie 1ᶠ 50 par jour pendant les trois premiers mois ; à partir du quatrième mois, l'indemnité est portée a 2ᶠ par jour jusqu'à l'expiration de l'année
+        <pb facs="#facs_283" n="280" source="lesouvriersdesde04sociuoft_0286.xml"/>
+        La société alloue à tout sociétaire atteint de maladie 1ᶠ 50 par jour pendant les trois premiers mois ; à partir du quatrième mois, l'indemnité est portée a 2ᶠ par jour jusqu'à l'expiration de l'année
         <ref target="#part_02_04_13" type="renvoi_int_mono">
          (§ 13)
         </ref>
@@ -1128,7 +1294,9 @@
         Pour avoir droit à tous les avantages ci-dessus énumérés, un sociétaire doit verser une cotisation mensuelle de 2ᶠ.
        </p>
        <p xml:id="para_11_280_321">
-        Appel a êté fait à tous les typographes, qui ont été invités à devenir membres de cette société ; mais une partie seulement de la corporation y a répondu. Le nombre des membres participants est de 1,200. Le gouvernement a fait don à la société d'une somme de 4,000ᶠ : 2,000ᶠ ont été employés pour frais d'installation, et <pb facs="#facs_284" n="281" source="lesouvriersdesde04sociuoft_0287.xml"/> 2,000ᶠ ont été placés, sous le nom de la société, à la caisse des dépôts et consignations pour les retraites de la vieillesse.
+        Appel a êté fait à tous les typographes, qui ont été invités à devenir membres de cette société ; mais une partie seulement de la corporation y a répondu. Le nombre des membres participants est de 1,200. Le gouvernement a fait don à la société d'une somme de 4,000ᶠ : 2,000ᶠ ont été employés pour frais d'installation, et
+        <pb facs="#facs_284" n="281" source="lesouvriersdesde04sociuoft_0287.xml"/>
+        2,000ᶠ ont été placés, sous le nom de la société, à la caisse des dépôts et consignations pour les retraites de la vieillesse.
        </p>
       </div>
       <div n="006" type="sub_sub_section">
@@ -1148,7 +1316,9 @@
         L'euvre fut placée dès l'origine sous la direction supérieure du curé de la paroisse, assisté d'un prêtre directeur, qui le remplacait en cas d'absence ; le bureau fut composé de la manière suivante : le supérieur, le directeur, un président, deux vice-présidents, un secrétaire, deux vice-secrétaires, un trésorier, deux vice-trésoriers, un administrateur, un vice-administrateur, deux contrôleurs, deux préposés à la recette.
        </p>
        <p xml:id="para_11_281_328">
-        Après la révolution de 1848, la société fut sur le point de se dissoudre, un grand nombre de ses membres l'ayant abandonnée <pb facs="#facs_285" n="282" source="lesouvriersdesde04sociuoft_0288.xml"/> pour entrer dans les sociétés fondées dans chaque arrondissement par linitiative gouvernementale. Elle s'appela alors ˉocieé du qurtier ain-acques ; plus tard, lors de la délimitation des quar¬tiers, elle prit le nom de oeieté du quartier de la Sorbone, mais toujours sans cesser d'être sous le patronage de saint François¬Xavier. L'ancien règlement fut présenté à la sanction du ministre, et un président fut nommé par l'Empereur.
+        Après la révolution de 1848, la société fut sur le point de se dissoudre, un grand nombre de ses membres l'ayant abandonnée
+        <pb facs="#facs_285" n="282" source="lesouvriersdesde04sociuoft_0288.xml"/>
+        pour entrer dans les sociétés fondées dans chaque arrondissement par linitiative gouvernementale. Elle s'appela alors ˉocieé du qurtier ain-acques ; plus tard, lors de la délimitation des quar¬tiers, elle prit le nom de oeieté du quartier de la Sorbone, mais toujours sans cesser d'être sous le patronage de saint François¬Xavier. L'ancien règlement fut présenté à la sanction du ministre, et un président fut nommé par l'Empereur.
        </p>
        <p xml:id="para_11_282_329">
         Les cotisations fixées uniformément dans le principe à 0ᶠ50 par mois pour tous les membres, comprennent maintenant trois caté¬gories. La première, qui est de 2ᶠ par mois ne compte encore aucun adhérent ; la seconde, qui est de 1ᶠ par mois, renferme à peu près la moitié des sociétaires ; enfin la troisième se compose des anciens membres qui payent encore 0ᶠ50 par mois. Les trois quarts de ces cotisations sont remboursées par la société de Saint-Vincent-de¬Paul à des sociétaires indigents.
