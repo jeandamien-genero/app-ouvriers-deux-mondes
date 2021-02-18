@@ -1,72 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-024a" xml:lang="fr">
+<TEI xml:id="ID-024a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 1, volume 3 - Transcription</title>
+    <title>
+     Les Ouvriers des Deux Mondes - série 1, volume 3 - Transcription
+    </title>
     <respStmt>
      <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>encodage scientifique</resp>
+     <resp>
+      encodage scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>supervision technique</resp>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
    </publicationStmt>
    <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
    </projectDesc>
   </encodingDesc>
  </teiHeader>
@@ -226,225 +294,561 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_9_247_1">N° 24</p>
-     <p xml:id="para_9_247_2">LINGÈRE DE LILLE</p>
-     <p xml:id="para_9_247_3">(NORD — FRANCE)</p>
-     <p xml:id="para_9_247_4">Ouvrier-tâcheron dans le système du travail sans engagements</p>
-     <p xml:id="para_9_247_5">D'APRÈS LES</p>
-     <p xml:id="para_9_247_6">RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN JUILLET 1858</p>
-     <p>PAR</p>
-     <p xml:id="para_9_247_7">M.<persName>L. AUVRAY</persName>, TRADUCTEUR DU MINISTÈRE DE LA MARINE.</p>
+     <p xml:id="para_9_247_1">
+      N° 24
+     </p>
+     <p xml:id="para_9_247_2">
+      LINGÈRE DE LILLE
+     </p>
+     <p xml:id="para_9_247_3">
+      (NORD — FRANCE)
+     </p>
+     <p xml:id="para_9_247_4">
+      Ouvrier-tâcheron dans le système du travail sans engagements
+     </p>
+     <p xml:id="para_9_247_5">
+      D'APRÈS LES
+     </p>
+     <p xml:id="para_9_247_6">
+      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN JUILLET 1858
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_9_247_7">
+      M.
+      <persName>
+       L. AUVRAY
+      </persName>
+      , TRADUCTEUR DU MINISTÈRE DE LA MARINE.
+     </p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">OBSERVATIONS PRÉLIMINAIRES DEFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.</head>
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DEFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">I. Définition du lieu, de l'organisation industrielle et de la famille</head>
+      <head type="sub_section" xml:id="part_02_01">
+       I. Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. — État du sol, de l'industrie et de la population.</head>
-       <p xml:id="para_9_247_12"><pb facs="#facs_252" n="247" source="lesouvriersdesde03sociuoft_0255.xml"/> L'ouvrière habite Lille, chef-lieu du département du Nord.</p>
-       <p xml:id="para_9_247_13">Lille est située à environ 70 kilomètres de la côte. On y ressent toutes les brusques variations de la température de la mer. Il y pleut souvent. La ville est entrecoupée de canaux dont l'eau n'a que peu ou point de courant, à cause de l'horizontalité presque parfaite du sol. Elle est entourée d'une triple ceinture de glacis et de fossés remplis d'une eau staggnante où croissent plusieurs espèces de plantes aquatiques. Le sol présente à sa surlace une couche épaisse d'humus, qui comme une éponge retient constamment de l'hu¬midité.</p>
-       <p xml:id="para_9_248_14"><pb facs="#facs_253" n="248" source="lesouvriersdesde03sociuoft_0256.xml"/> Dans un milieu aussi insalubre (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>), avec des salaires qui ne per¬mettent pas toujours aux ouvriers ni de se vêtir, ni de se nourrir, ni de se loger convenablement (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>), surtout en présence de cer¬taines habitudes d'intempérance, une partie de la population offre un aspect déplorable On y trouve toutes les infirmités et toutes les diformités qui afligent l'espèce humaine.</p>
-       <p xml:id="para_9_248_15">Lille compte environ 800 ouvrières spécialement occupées à la fabrication du linge de corps ; il faut ajouter à ce nombre les per¬sonnes recueillies dans des établissements pieux et les femmes détenues, dont le chiffre s'élève à 2 ou 300, et dont la concurrence tend constamment à faire baisser les salaires.</p>
-       <p xml:id="para_9_248_16">La ville de Lille a conservé pour la lingerie les meilleures tradi¬tions. On y fabrique les trousseaux de grand prix pour plusieurs départements et même pour Paris, où les femmes ne peuvent guère trouver désormais dans la linerie la juste rénumération de leur temps et de leurs fatigues : car la lingerie line exige des soins et une grande habileté. Il est probable même qu'un temps vien¬dra où les ateliers de Paris ne faisant plus du tout d'élèves, devront recourir exclusivement à la province pour ces articles de luxe.</p>
-       <p xml:id="para_9_248_17">La lingerie commune se fabrique généralement dans les prisons, dans les couvents et dans des maisons dirigées par des religieuses, où l'on prend de jeunes filles en apprentissage, moyennant une faible rétribution annuelle et quelqueois même sans rétribution. Ces concurrences sont redoutables pour les ouvrières libres, car les premiers besoins de la vie étant assurés, dans les prisons par le gouvernement, dans les maisons religieuses par des quètes et des dons pieu, les chefs de ces établissements se montrent peu exi¬ggeants sur les pri qui vont toujours en diminuant.</p>
-       <p xml:id="para_9_248_18">Cet état de choses existe aujourd'hui presque partout ; il aura, dans un temps donné, des resultats fâcheux pour la lingerie, s'il n'est pas balancé par une cause opposée, la rareté des bras qui tend a se manifester dans la majeure partie de la France.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+       </head>
+       <p xml:id="para_9_247_12">
+        <pb facs="#facs_252" n="247" source="lesouvriersdesde03sociuoft_0255.xml"/>
+        L'ouvrière habite Lille, chef-lieu du département du Nord.
+       </p>
+       <p xml:id="para_9_247_13">
+        Lille est située à environ 70 kilomètres de la côte. On y ressent toutes les brusques variations de la température de la mer. Il y pleut souvent. La ville est entrecoupée de canaux dont l'eau n'a que peu ou point de courant, à cause de l'horizontalité presque parfaite du sol. Elle est entourée d'une triple ceinture de glacis et de fossés remplis d'une eau staggnante où croissent plusieurs espèces de plantes aquatiques. Le sol présente à sa surlace une couche épaisse d'humus, qui comme une éponge retient constamment de l'hu¬midité.
+       </p>
+       <p xml:id="para_9_248_14">
+        <pb facs="#facs_253" n="248" source="lesouvriersdesde03sociuoft_0256.xml"/>
+        Dans un milieu aussi insalubre
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (A)
+        </ref>
+        , avec des salaires qui ne per¬mettent pas toujours aux ouvriers ni de se vêtir, ni de se nourrir, ni de se loger convenablement
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (B)
+        </ref>
+        , surtout en présence de cer¬taines habitudes d'intempérance, une partie de la population offre un aspect déplorable On y trouve toutes les infirmités et toutes les diformités qui afligent l'espèce humaine.
+       </p>
+       <p xml:id="para_9_248_15">
+        Lille compte environ 800 ouvrières spécialement occupées à la fabrication du linge de corps ; il faut ajouter à ce nombre les per¬sonnes recueillies dans des établissements pieux et les femmes détenues, dont le chiffre s'élève à 2 ou 300, et dont la concurrence tend constamment à faire baisser les salaires.
+       </p>
+       <p xml:id="para_9_248_16">
+        La ville de Lille a conservé pour la lingerie les meilleures tradi¬tions. On y fabrique les trousseaux de grand prix pour plusieurs départements et même pour Paris, où les femmes ne peuvent guère trouver désormais dans la linerie la juste rénumération de leur temps et de leurs fatigues : car la lingerie line exige des soins et une grande habileté. Il est probable même qu'un temps vien¬dra où les ateliers de Paris ne faisant plus du tout d'élèves, devront recourir exclusivement à la province pour ces articles de luxe.
+       </p>
+       <p xml:id="para_9_248_17">
+        La lingerie commune se fabrique généralement dans les prisons, dans les couvents et dans des maisons dirigées par des religieuses, où l'on prend de jeunes filles en apprentissage, moyennant une faible rétribution annuelle et quelqueois même sans rétribution. Ces concurrences sont redoutables pour les ouvrières libres, car les premiers besoins de la vie étant assurés, dans les prisons par le gouvernement, dans les maisons religieuses par des quètes et des dons pieu, les chefs de ces établissements se montrent peu exi¬ggeants sur les pri qui vont toujours en diminuant.
+       </p>
+       <p xml:id="para_9_248_18">
+        Cet état de choses existe aujourd'hui presque partout ; il aura, dans un temps donné, des resultats fâcheux pour la lingerie, s'il n'est pas balancé par une cause opposée, la rareté des bras qui tend a se manifester dans la majeure partie de la France.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Sophie-Victoire T** (n°024aE1) - Alphonse T** (n°024aE2)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. — ETAT CIVIL DE L'OUVRIÈRE.</head>
-       <p xml:id="para_9_248_20">L'ouvriere a subi le sort commun à un trop grand nombre de filles des centres manufacturiers (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>). Elle a été séduite par un ouvrier serrurier, déjà père d'un enfant naturel dont la mère est morte de chagrin. Il est résulté de cette liaison un enfant du sexe masculin.</p>
-       <p xml:id="para_9_249_21"><pb facs="#facs_254" n="249" source="lesouvriersdesde03sociuoft_0257.xml"/> La famille se compose donc seulement de :
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. — ETAT CIVIL DE L'OUVRIÈRE.
+       </head>
+       <p xml:id="para_9_248_20">
+        L'ouvriere a subi le sort commun à un trop grand nombre de filles des centres manufacturiers
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (C)
+        </ref>
+        . Elle a été séduite par un ouvrier serrurier, déjà père d'un enfant naturel dont la mère est morte de chagrin. Il est résulté de cette liaison un enfant du sexe masculin.
+       </p>
+       <p xml:id="para_9_249_21">
+        <pb facs="#facs_254" n="249" source="lesouvriersdesde03sociuoft_0257.xml"/>
+        La famille se compose donc seulement de :
        </p>
        <p xml:id="para_9_249_22">
-        <persName>SOPHIE-VICTOIRE T**</persName>, née à Lille............ 39 ans.</p>
+        <persName>
+         SOPHIE-VICTOIRE T**
+        </persName>
+        , née à Lille............ 39 ans.
+       </p>
        <p xml:id="para_9_249_23">
-        <persName>Alphonse T**</persName>, id. ............ 7 —</p>
-       <p xml:id="para_9_249_24">Le père et la mère de l'ouvrière sont décédés depuis longtemps : il ne reste, en fait d'ascendants, qu'une aïeule par la mère, âgée aujourd'hui de près de 100 ans, et une tante célibataire, âgée de 50 ans.</p>
-       <p xml:id="para_9_249_25">L'ouvrière à 4 frères et 3 sœurs. Tous sont nés à Lille et y de¬meurent actuellement. Trois des frères exercent la profession de retordeurs de fil ; le quatrième, le plus jeune, en ce moment sous les drapeaux, a appris l'art de tailler le diamant.</p>
-       <p xml:id="para_9_249_26">Des trois sœurs de Sophie T** la première est mariée à un serru¬rier ; la seconde est femme de chambre et la troisième est entrée dans un couvent.</p>
-       <p xml:id="para_9_249_27">La tante est dentelière et n'a absolument pour vivre que le produit de son travail, qui ne dépasse pas 40 à 50 centimes par jour.</p>
+        <persName>
+         Alphonse T**
+        </persName>
+        , id. ............ 7 —
+       </p>
+       <p xml:id="para_9_249_24">
+        Le père et la mère de l'ouvrière sont décédés depuis longtemps : il ne reste, en fait d'ascendants, qu'une aïeule par la mère, âgée aujourd'hui de près de 100 ans, et une tante célibataire, âgée de 50 ans.
+       </p>
+       <p xml:id="para_9_249_25">
+        L'ouvrière à 4 frères et 3 sœurs. Tous sont nés à Lille et y de¬meurent actuellement. Trois des frères exercent la profession de retordeurs de fil ; le quatrième, le plus jeune, en ce moment sous les drapeaux, a appris l'art de tailler le diamant.
+       </p>
+       <p xml:id="para_9_249_26">
+        Des trois sœurs de Sophie T** la première est mariée à un serru¬rier ; la seconde est femme de chambre et la troisième est entrée dans un couvent.
+       </p>
+       <p xml:id="para_9_249_27">
+        La tante est dentelière et n'a absolument pour vivre que le produit de son travail, qui ne dépasse pas 40 à 50 centimes par jour.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. — Religion et habitudes morales.</head>
-       <p xml:id="para_9_249_29">L'ouvrière est née de parents catholiques. Élevée par sa mère dans des sentiments pieux, elle les a toujours conservés.</p>
-       <p xml:id="para_9_249_30">Malgré sa pauvreté et la nécessité de consacrer tous ses instants au travail, elle va chaque dimanche à une messe du matin.</p>
-       <p xml:id="para_9_249_31">Toutefois son éducation religieuse a été peu soignée ; elle pra¬tique, mais plutôt par radition que par une foi éclairée.</p>
-       <p xml:id="para_9_249_32">Sa condition ne lui permet guère de suivre les prescriptions de l'Église touchant les aliments gras ou maigres. Sa nourriture, comme celle de l'enfant, est une abstinence à peu près perpétuelle.</p>
-       <p xml:id="para_9_249_33">L'ouvrière a de l'intelligence, de l'esprit, un dévouement inal¬térable pour son enfant et un fond de gaieté qui l'abandonne rarement. Son heureux caractère lui fait supporter aisément ses souffances physiques. Dans l'hiver, lorsqu'elle est sans feu et n'a pour passer la nuit sur son grabat qu'une mince couverture de coton gris, elle entasse ses vêtements sur l'enfant pour le garantir du froid.</p>
-       <p xml:id="para_9_249_34">Sa conduite n'a pas toujours été pure ; mais les circonstances dans lesquelles la malheureuse fille a succombé, les souffrances morales et physiques qu'elle a endurées, son dévouement pour son enfant, semblent devoir racheter sa faute.</p>
-       <p xml:id="para_9_249_35">Un ouvrier serrurier qui avait déjà semé le déshonneur dans une<pb facs="#facs_255" n="250" source="lesouvriersdesde03sociuoft_0258.xml"/>famille, l'a séduite après lui avoir formellement promis de l'épou¬ser. Elle devient enceinte, et son état bientôt découvert la met en butte aux reproches et même au injures de ceux qui l'entourent. Deux de ses frères, cependant, vont trouver le séducteur et l'enga¬gent à réparer sa faute par un mariage. La peur lait promettre à celui-ci ce qu'il a l'intention de ne pas tenir ; il dit qu'il n'a pas de ressources et demande un délai de trois mois pour se préparer à exécuter sa promesse. Satisfait d'une réponse qui rétablit en quel¬que sorte l'honneur d'une famille, un des frères offre au séducteur de lui prêter 300 francs pour les premiers achats d'objets de ménage. Tout est accepté et convenu ; la luture achète de la toile et commence même à faire une paillasse et des draps. Les trois mois écoulés, les deuv frères vont de nouveau chez le séducteur : il promet une seconde fois de se marier, et l'on prend rendez-vous pour se rendre le lendemain à la mairie, ain de demander la publication des bans. Mais, le lendemain matin, cet homme partait par le chemin de fer pour Paris.</p>
-       <p xml:id="para_9_250_37">La colère de toute la famille retomba sur la malheureuse aban¬donnée ; ce fut à qui la repousserait. Cependant, elle put faire ses couches dans un faubourg, chez sa vieille tante (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>).</p>
-       <p xml:id="para_9_250_38">Jusqu'à l'âgge de 8 ans, époque où elle a perdu son père, elle est allée à l'école ; elle sait passablement lire, mais elle ne sait pas écrire. Elle chante avec gout, et sans aucune notion musicale, des chansons en patois du pays.</p>
-       <p xml:id="para_9_250_39">Elle envoie son enfant à l'école des frères de la Doctrine chré¬tienne : et elle paraît attacher beaucoup d'importance à ce qu'il y asse des progrès. lle désire qu'il devienne ois, parce qu'elle est pDersuadée que l'enfant n'est pas assez robuste pour exercer un état manuel.</p>
-       <p xml:id="para_9_250_40">L'ouvrière ne semble pas avoir conscience de sa misère. Elle ne songe guère à l'avenir que pour son enfant. Il lui est souvent arrivé, en 1848 et 1849, de manquer de travail et par conséquent de pain, et cependant elle a eu assez de dignité pour ne pas tendre la main. Les secours qu'elle a reçus à cette époque lui ont été offerts spon¬tanément par des personnes dont elle avait gagné l'estime par sa bonne conduite habituelle.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. — RELIGION ET HABITUDES MORALES.
+       </head>
+       <p xml:id="para_9_249_29">
+        L'ouvrière est née de parents catholiques. Élevée par sa mère dans des sentiments pieux, elle les a toujours conservés.
+       </p>
+       <p xml:id="para_9_249_30">
+        Malgré sa pauvreté et la nécessité de consacrer tous ses instants au travail, elle va chaque dimanche à une messe du matin.
+       </p>
+       <p xml:id="para_9_249_31">
+        Toutefois son éducation religieuse a été peu soignée ; elle pra¬tique, mais plutôt par radition que par une foi éclairée.
+       </p>
+       <p xml:id="para_9_249_32">
+        Sa condition ne lui permet guère de suivre les prescriptions de l'Église touchant les aliments gras ou maigres. Sa nourriture, comme celle de l'enfant, est une abstinence à peu près perpétuelle.
+       </p>
+       <p xml:id="para_9_249_33">
+        L'ouvrière a de l'intelligence, de l'esprit, un dévouement inal¬térable pour son enfant et un fond de gaieté qui l'abandonne rarement. Son heureux caractère lui fait supporter aisément ses souffances physiques. Dans l'hiver, lorsqu'elle est sans feu et n'a pour passer la nuit sur son grabat qu'une mince couverture de coton gris, elle entasse ses vêtements sur l'enfant pour le garantir du froid.
+       </p>
+       <p xml:id="para_9_249_34">
+        Sa conduite n'a pas toujours été pure ; mais les circonstances dans lesquelles la malheureuse fille a succombé, les souffrances morales et physiques qu'elle a endurées, son dévouement pour son enfant, semblent devoir racheter sa faute.
+       </p>
+       <p xml:id="para_9_249_35">
+        Un ouvrier serrurier qui avait déjà semé le déshonneur dans une
+        <pb facs="#facs_255" n="250" source="lesouvriersdesde03sociuoft_0258.xml"/>
+        famille, l'a séduite après lui avoir formellement promis de l'épou¬ser. Elle devient enceinte, et son état bientôt découvert la met en butte aux reproches et même au injures de ceux qui l'entourent. Deux de ses frères, cependant, vont trouver le séducteur et l'enga¬gent à réparer sa faute par un mariage. La peur lait promettre à celui-ci ce qu'il a l'intention de ne pas tenir ; il dit qu'il n'a pas de ressources et demande un délai de trois mois pour se préparer à exécuter sa promesse. Satisfait d'une réponse qui rétablit en quel¬que sorte l'honneur d'une famille, un des frères offre au séducteur de lui prêter 300 francs pour les premiers achats d'objets de ménage. Tout est accepté et convenu ; la luture achète de la toile et commence même à faire une paillasse et des draps. Les trois mois écoulés, les deuv frères vont de nouveau chez le séducteur : il promet une seconde fois de se marier, et l'on prend rendez-vous pour se rendre le lendemain à la mairie, ain de demander la publication des bans. Mais, le lendemain matin, cet homme partait par le chemin de fer pour Paris.
+       </p>
+       <p xml:id="para_9_250_37">
+        La colère de toute la famille retomba sur la malheureuse aban¬donnée ; ce fut à qui la repousserait. Cependant, elle put faire ses couches dans un faubourg, chez sa vieille tante
+        <ref target="#part_02_01_02" type="renvoi_int_mono">
+         (§ 2)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_9_250_38">
+        Jusqu'à l'âgge de 8 ans, époque où elle a perdu son père, elle est allée à l'école ; elle sait passablement lire, mais elle ne sait pas écrire. Elle chante avec gout, et sans aucune notion musicale, des chansons en patois du pays.
+       </p>
+       <p xml:id="para_9_250_39">
+        Elle envoie son enfant à l'école des frères de la Doctrine chré¬tienne : et elle paraît attacher beaucoup d'importance à ce qu'il y asse des progrès. lle désire qu'il devienne ois, parce qu'elle est pDersuadée que l'enfant n'est pas assez robuste pour exercer un état manuel.
+       </p>
+       <p xml:id="para_9_250_40">
+        L'ouvrière ne semble pas avoir conscience de sa misère. Elle ne songe guère à l'avenir que pour son enfant. Il lui est souvent arrivé, en 1848 et 1849, de manquer de travail et par conséquent de pain, et cependant elle a eu assez de dignité pour ne pas tendre la main. Les secours qu'elle a reçus à cette époque lui ont été offerts spon¬tanément par des personnes dont elle avait gagné l'estime par sa bonne conduite habituelle.
+       </p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. — Hygiène et service de santé.</head>
-       <p xml:id="para_9_250_42">L'ouvrière a un tempérament lymphatique. Elle est de taille moyenne (1ᵐ 60). Ses cheveux sont châtain- clair et peu abon¬dants. Tout en elle annonce une constitution affaiblie par les pri<pb facs="#facs_256" n="251" source="lesouvriersdesde03sociuoft_0259.xml"/>vations, l'excès de travail et les souffrances physiques. Elle est sujette à de violentes migraines dont la durée est de plusieurs jours : cette aflection, qui semble l'anéantir et la rendre incapable de tout travail, est accompagnée de vomissements dus à un état d'irritabilité nerveuse de l'estomac.</p>
-       <p xml:id="para_9_251_44">Cet état chronique de maladie n'affecte en rien le bon caractère de l'ouvrière ; elle est généralement gaie et parait soufrir avec beaucoup de patience.</p>
-       <p xml:id="para_9_251_45">Il est probable que dans d'autres conditions d'existence, telles qu'un travail modéré, une bonne alimentation et de chauds vête¬ments, l'ouvrière aurait vu disparaître des accidents qui sont dus, très-probablement, à un accouchement eflectué dans les circon¬stances les plus affligeantes.</p>
-       <p xml:id="para_9_251_46">Enceinte, et délaissée par son séducteur (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>), comme on l'a vu plus haut, repoussée par une partie de sa famille, elle n'a pu rece¬voir tous les soins que son état aurait exigés. Après des soufrances physiqes et morales, qu'il serait difficile de décrire, il eût fallu du repos et une nourriture réparatrice : malheureusement, l'ou¬vrière fut obligée de se remettre promptement au travail, et ces tristes circonstances ont, depuis lors, laissé sur sa santé des traces profondes, que son existence habituelle (<ref target="#part_02_03_09" type="renvoi_int_mono">§ 9</ref>) n'a pu effacer.</p>
-       <p xml:id="para_9_251_47">L'ouvrière ne recoit point de soins médicaux. Si elle éprouvait autre chose que ses migraines périodiques, elle devrait recourir au médecin des pauvres.</p>
-       <p xml:id="para_9_251_48">L'enfant est pâle, maigre, et toute sa constitution est empreinte de débilité. ll est, toutelois, mieux portant que ne le semble com¬porter la vie misérable à laquelle il est voué. A l'exception d'une forte fluxion de poitrine qui a duré six semaines, il n'a pas eu d'autres maladies que celles qui aflectent généralement l'enfance, telles que la rougeole et la scarlatine. Sa faiblesse de constitution ne semble pas permettre qu'on lui donne un état manuel.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
+       </head>
+       <p xml:id="para_9_250_42">
+        L'ouvrière a un tempérament lymphatique. Elle est de taille moyenne (1ᵐ 60). Ses cheveux sont châtain- clair et peu abon¬dants. Tout en elle annonce une constitution affaiblie par les pri
+        <pb facs="#facs_256" n="251" source="lesouvriersdesde03sociuoft_0259.xml"/>
+        vations, l'excès de travail et les souffrances physiques. Elle est sujette à de violentes migraines dont la durée est de plusieurs jours : cette aflection, qui semble l'anéantir et la rendre incapable de tout travail, est accompagnée de vomissements dus à un état d'irritabilité nerveuse de l'estomac.
+       </p>
+       <p xml:id="para_9_251_44">
+        Cet état chronique de maladie n'affecte en rien le bon caractère de l'ouvrière ; elle est généralement gaie et parait soufrir avec beaucoup de patience.
+       </p>
+       <p xml:id="para_9_251_45">
+        Il est probable que dans d'autres conditions d'existence, telles qu'un travail modéré, une bonne alimentation et de chauds vête¬ments, l'ouvrière aurait vu disparaître des accidents qui sont dus, très-probablement, à un accouchement eflectué dans les circon¬stances les plus affligeantes.
+       </p>
+       <p xml:id="para_9_251_46">
+        Enceinte, et délaissée par son séducteur
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (C)
+        </ref>
+        , comme on l'a vu plus haut, repoussée par une partie de sa famille, elle n'a pu rece¬voir tous les soins que son état aurait exigés. Après des soufrances physiqes et morales, qu'il serait difficile de décrire, il eût fallu du repos et une nourriture réparatrice : malheureusement, l'ou¬vrière fut obligée de se remettre promptement au travail, et ces tristes circonstances ont, depuis lors, laissé sur sa santé des traces profondes, que son existence habituelle
+        <ref target="#part_02_03_09" type="renvoi_int_mono">
+         (§ 9)
+        </ref>
+        n'a pu effacer.
+       </p>
+       <p xml:id="para_9_251_47">
+        L'ouvrière ne recoit point de soins médicaux. Si elle éprouvait autre chose que ses migraines périodiques, elle devrait recourir au médecin des pauvres.
+       </p>
+       <p xml:id="para_9_251_48">
+        L'enfant est pâle, maigre, et toute sa constitution est empreinte de débilité. ll est, toutelois, mieux portant que ne le semble com¬porter la vie misérable à laquelle il est voué. A l'exception d'une forte fluxion de poitrine qui a duré six semaines, il n'a pas eu d'autres maladies que celles qui aflectent généralement l'enfance, telles que la rougeole et la scarlatine. Sa faiblesse de constitution ne semble pas permettre qu'on lui donne un état manuel.
+       </p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
-       <p xml:id="para_9_251_50">L'état de fille-mère place l'ouvrière au dernier rang de la société : elle rencontre peu de sympathie et de pitié (<ref target="#part_03_01_22" type="renvoi_int_mono">F</ref>). Vivant dans un quar¬tier pauvre et sans espoir de pouvoir s'élever à une condition meil¬leure, l'ouvrière semble résignée à demeurer dans le cercle étroit que le sort lui a tracé.</p>
-       <p xml:id="para_9_251_51">En effet, elle n'a rien à espérer de l'avenir ; ses frères sont des ouvriers dont le travail suffit à peine à leurs besoins, et ses sœurs sont elles-mêmes dans une position précaire (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>).</p>
-       <p xml:id="para_9_252_52"><pb facs="#facs_257" n="252" source="lesouvriersdesde03sociuoft_0260.xml"/> Un mariage pourrait la faire sortir de l'éat d'isolement où elle se trouve, et lui rendre la vie moins pénible. Des propositions lui ont été faites, mais elle les a repoussées, dans l'intéret de son enfant.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. — RANG DE LA FAMILLE.
+       </head>
+       <p xml:id="para_9_251_50">
+        L'état de fille-mère place l'ouvrière au dernier rang de la société : elle rencontre peu de sympathie et de pitié
+        <ref target="#part_03_01_22" type="renvoi_int_mono">
+         (F)
+        </ref>
+        . Vivant dans un quar¬tier pauvre et sans espoir de pouvoir s'élever à une condition meil¬leure, l'ouvrière semble résignée à demeurer dans le cercle étroit que le sort lui a tracé.
+       </p>
+       <p xml:id="para_9_251_51">
+        En effet, elle n'a rien à espérer de l'avenir ; ses frères sont des ouvriers dont le travail suffit à peine à leurs besoins, et ses sœurs sont elles-mêmes dans une position précaire
+        <ref target="#part_02_01_02" type="renvoi_int_mono">
+         (§ 2)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_9_252_52">
+        <pb facs="#facs_257" n="252" source="lesouvriersdesde03sociuoft_0260.xml"/>
+        Un mariage pourrait la faire sortir de l'éat d'isolement où elle se trouve, et lui rendre la vie moins pénible. Des propositions lui ont été faites, mais elle les a repoussées, dans l'intéret de son enfant.
+       </p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">II. Moyens d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_02">
+       II. Moyens d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. — PROPRIÉTÉS.
+       </head>
        <div subtype="proprietes_texte_1" type="proprietes">
-        <p xml:id="para_9_252_55">(Mobilier et vêtements non compris.)</p>
+        <p xml:id="para_9_252_55">
+         (Mobilier et vêtements non compris.)
+        </p>
        </div>
        <div subtype="immeubles" type="proprietes">
-        <p xml:id="para_9_252_56">IMMEUBLES............ 0ᶠ 00</p>
-        <p xml:id="para_9_252_57">L'ouvriere n'a aucune propriété immobilière et semble ne devoir jamais être en posi¬tion d'en acquérir même par voie d'hérédité.</p>
+        <p xml:id="para_9_252_56">
+         IMMEUBLES............ 0ᶠ 00
+        </p>
+        <p xml:id="para_9_252_57">
+         L'ouvriere n'a aucune propriété immobilière et semble ne devoir jamais être en posi¬tion d'en acquérir même par voie d'hérédité.
+        </p>
        </div>
        <div subtype="argent" type="proprietes">
-        <p xml:id="para_9_252_58">ARGENT............ 0ᶠ 00</p>
-        <p xml:id="para_9_252_59">L'ouvrière peut à peine suffire aux premières nécessités de la vie. Son salaire est ordi¬nairement absorbé d'avance par de petites dettes contractées envers les fournisseurs.</p>
+        <p xml:id="para_9_252_58">
+         ARGENT............ 0ᶠ 00
+        </p>
+        <p xml:id="para_9_252_59">
+         L'ouvrière peut à peine suffire aux premières nécessités de la vie. Son salaire est ordi¬nairement absorbé d'avance par de petites dettes contractées envers les fournisseurs.
+        </p>
        </div>
        <div subtype="materiel" type="proprietes">
-        <p xml:id="para_9_252_60">MATÉRIEL SPECIAL DES Travaux et industries............ 0ᶠ 95</p>
-        <p xml:id="para_9_252_61">12 aiguilles diverses, 0ᶠ 15 ; — 1 paire de ciseaux, 0ᶠ 50; — 1 pelote de coton, 0ᶠ 15 ; — 1 dé à coude, 0ᶠ 15. — Total, 0ᶠ 95.</p>
+        <p xml:id="para_9_252_60">
+         MATÉRIEL SPECIAL DES TRAVAUX ET INDUSTRIES............ 0ᶠ 95
+        </p>
+        <p xml:id="para_9_252_61">
+         12 aiguilles diverses, 0ᶠ 15 ; — 1 paire de ciseaux, 0ᶠ 50; — 1 pelote de coton, 0ᶠ 15 ; — 1 dé à coude, 0ᶠ 15. — Total, 0ᶠ 95.
+        </p>
        </div>
        <div subtype="proprietes_total" type="proprietes">
-        <p xml:id="para_9_252_62">VALEUR TOTALE des propriétés............ 0ᶠ 95</p>
+        <p xml:id="para_9_252_62">
+         VALEUR TOTALE des propriétés............ 0ᶠ 95
+        </p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
-       <p xml:id="para_9_252_64">La plus importante subvention dont profite l'ouvrière consiste dans le paiement de son loyer pa un de ses frères. Sa famille, composée d'ouvriers, est dans la gène et ne peut lui fournir d'autres secours.</p>
-       <p xml:id="para_9_252_65">Une couple de chemises lui sont données annuellement pa son patron, et des vêtements hors de service, qu'une personne bien¬faisante lui envoie de temps à autre, servent à habiller l'en¬fant.</p>
-       <p xml:id="para_9_252_66">Celui-ci recoit en outre l'éducation gratis chez les frères de la bDoctrine chrétienne ; cependant cette éducation entraîne, pour la mère, une dépense d'environ 6ᶠ par an pour achats de plumes, livres, etc.</p>
-       <p xml:id="para_9_253_67"><pb facs="#facs_258" n="253" source="lesouvriersdesde03sociuoft_0261.xml"/> La subvention du loyer est de 72ᶠ par an.  Quant aux dons en nature, c'est-à-dire en lingge ou vêtements vieux, on peut les évaluer pour l'année, savoir :
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. — SUBVENTIONS.
+       </head>
+       <p xml:id="para_9_252_64">
+        La plus importante subvention dont profite l'ouvrière consiste dans le paiement de son loyer pa un de ses frères. Sa famille, composée d'ouvriers, est dans la gène et ne peut lui fournir d'autres secours.
+       </p>
+       <p xml:id="para_9_252_65">
+        Une couple de chemises lui sont données annuellement pa son patron, et des vêtements hors de service, qu'une personne bien¬faisante lui envoie de temps à autre, servent à habiller l'en¬fant.
+       </p>
+       <p xml:id="para_9_252_66">
+        Celui-ci recoit en outre l'éducation gratis chez les frères de la bDoctrine chrétienne ; cependant cette éducation entraîne, pour la mère, une dépense d'environ 6ᶠ par an pour achats de plumes, livres, etc.
+       </p>
+       <p xml:id="para_9_253_67">
+        <pb facs="#facs_258" n="253" source="lesouvriersdesde03sociuoft_0261.xml"/>
+        La subvention du loyer est de 72ᶠ par an.  Quant aux dons en nature, c'est-à-dire en lingge ou vêtements vieux, on peut les évaluer pour l'année, savoir :
        </p>
        <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_1">Subventions en linge ou en vêtements vieux reçues par l'ouvrière Sophie T** (§ 7)</head>
+        <head resp="added" type="table" xml:id="figure_1">
+         Subventions en linge ou en vêtements vieux reçues par l'ouvrière Sophie T** (§ 7)
+        </head>
         <graphic facs="#facs_258" url="#"/>
        </figure>
-       <!--<p xml:id="para_9_253_68">)eSe2S. ....................................... § ))</p>
-        <p xml:id="para_9_253_69">V'ieux vèteèntS............ ......... .......... . §8 0</p>
-        <p xml:id="para_9_253_70">Total........... 14ᶠ 00</p>-->
+       <!--<p xml:id="para_9_253_68">
+        )eSe2S. ....................................... § ))
+        </p>
+        <p xml:id="para_9_253_69">
+        V'ieux vèteèntS............ ......... .......... . §8 0
+        </p>
+        <p xml:id="para_9_253_70">
+        Total........... 14ᶠ 00
+        </p>-->
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. — TRAVAUX ET INDUSTRIES.
+       </head>
        <div subtype="ouvriere" type="travaux">
-        <p xml:id="para_9_253_72">Tout le travail de l'ouvrière est exécuté chez elle, au compte d'un patron, et à la pièce.</p>
-        <p xml:id="para_9_253_73">L'ouvrière monte des chemises d'hommes ou tire des fils. Ce dernier travail consiste à tirer, de place en place, à 1 centimètre de distance par exemple, un fil de chaîne de la toile destinée à former le devant d'une chemise. Quand tous les fils sont tirés, on rejoint, deux à deux. les espaces libres du fil de chaîue et on y place une couture. Il en résulte un tube de toile, qui, aplati par le fer à repasser, donne un pli d'un demi-centimètre de largeur. Ce mode de préparion a pour but de rendre les plis d'une lar¬geur parfaitement égale.</p>
-        <p xml:id="para_9_253_74">Le tiragc des fils n'est confié dans les ateliers qu'aux meilleures ouvrières :; c'est le travail le plus fatigant, mais aussi le mieux rétribué.</p>
-        <p xml:id="para_9_253_75">Avec la couture qui forme les plis des devants, le tirage des fils est payé, à Lille, dans les maisons ou se fabrique la lingerie de luxe, à raison de 3ᶠ50 les cent plis. Aux ouvrières d'une habileté secondaire, on livre la toile des devants avec les fils tout tirés, de sorte qu'il ne leur reste plus à faire que la couture ; elles re¬çoivent alors 2ᶠ 50 seulement pour les cent plis.</p>
-        <p xml:id="para_9_253_76">Le temps nécessaire pour tirer les fils et coudre 100 plis est au moins de 20 heures de travail. L'ouvrière consacrant 10 heures par jour à sa besogne. gagne donc 1ᶠ 75 quotidiennement ; mais il y a lieu de déduire un quart de produit pour chômages resultant des déplacements et des maladies.</p>
-        <p xml:id="para_9_253_77">L'ouvrière consacre le dimanche au nettoyage de sa chambre, au blanchissage, à la confection et au raccommodage de ses vêtements et de ceux de son enfant. llle est attachée depuis 13 ans à la même maison de lingerie, où elle a trouvé, sans interruption, pendant cette longue période, un travail payé aussitôt la livraison eflfectuée.</p>
+        <p xml:id="para_9_253_72">
+         Tout le travail de l'ouvrière est exécuté chez elle, au compte d'un patron, et à la pièce.
+        </p>
+        <p xml:id="para_9_253_73">
+         L'ouvrière monte des chemises d'hommes ou tire des fils. Ce dernier travail consiste à tirer, de place en place, à 1 centimètre de distance par exemple, un fil de chaîne de la toile destinée à former le devant d'une chemise. Quand tous les fils sont tirés, on rejoint, deux à deux. les espaces libres du fil de chaîue et on y place une couture. Il en résulte un tube de toile, qui, aplati par le fer à repasser, donne un pli d'un demi-centimètre de largeur. Ce mode de préparion a pour but de rendre les plis d'une lar¬geur parfaitement égale.
+        </p>
+        <p xml:id="para_9_253_74">
+         Le tiragc des fils n'est confié dans les ateliers qu'aux meilleures ouvrières :; c'est le travail le plus fatigant, mais aussi le mieux rétribué.
+        </p>
+        <p xml:id="para_9_253_75">
+         Avec la couture qui forme les plis des devants, le tirage des fils est payé, à Lille, dans les maisons ou se fabrique la lingerie de luxe, à raison de 3ᶠ50 les cent plis. Aux ouvrières d'une habileté secondaire, on livre la toile des devants avec les fils tout tirés, de sorte qu'il ne leur reste plus à faire que la couture ; elles re¬çoivent alors 2ᶠ 50 seulement pour les cent plis.
+        </p>
+        <p xml:id="para_9_253_76">
+         Le temps nécessaire pour tirer les fils et coudre 100 plis est au moins de 20 heures de travail. L'ouvrière consacrant 10 heures par jour à sa besogne. gagne donc 1ᶠ 75 quotidiennement ; mais il y a lieu de déduire un quart de produit pour chômages resultant des déplacements et des maladies.
+        </p>
+        <p xml:id="para_9_253_77">
+         L'ouvrière consacre le dimanche au nettoyage de sa chambre, au blanchissage, à la confection et au raccommodage de ses vêtements et de ceux de son enfant. llle est attachée depuis 13 ans à la même maison de lingerie, où elle a trouvé, sans interruption, pendant cette longue période, un travail payé aussitôt la livraison eflfectuée.
+        </p>
        </div>
        <div subtype="enfant" type="travaux">
-        <p xml:id="para_9_253_78">L'enfant, âgé de 7 ans, n'exécute aucun travail manuel ; il fait quelques commissions pour sa mère, ce qui présente pour celle-ci une économie de temps d'à peu près une heure par jour.</p>
+        <p xml:id="para_9_253_78">
+         L'enfant, âgé de 7 ans, n'exécute aucun travail manuel ; il fait quelques commissions pour sa mère, ce qui présente pour celle-ci une économie de temps d'à peu près une heure par jour.
+        </p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">III. Mode d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_03">
+       III. Mode d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
-       <p xml:id="para_9_254_82"><pb facs="#facs_259" n="254" source="lesouvriersdesde03sociuoft_0262.xml"/> L'ouvrière et son enfant font généralement quatre repas par jour, en y comprenant un goùter qui est d'usage dans le pays.</p>
-       <p xml:id="para_9_254_83">Le déjeuner, à huit heures du matin, se compose d'un peu de pain légèrement beuré qu'ils trempent dans du lait pur ou coupé d'eau de chicorée, et quelquefois dans du lait de beure.</p>
-       <p xml:id="para_9_254_84">Le dîner, qui a lieu à midi précis, consiste en pain et légumes (le plus souvent des pommes de terre) auxquels s'ajoute parfois un peu de viande.</p>
-       <p xml:id="para_9_254_85">Autaut que possible l'ouvrière met le pot-au-feu (<ref target="#ID-001a" type="renvoi_int_od2m">N° 1 § 9</ref>) deux fois par semaine, ais avec des morceaux de viande de qualité inférieure et en quantité trop minime pou qu'il en résulte un aliment suffisamment substantiel.</p>
-       <p xml:id="para_9_254_86">Le goûter, vers quatre heures du soir, ne comporte qu'une tar¬tine, longue et mince tranche de pain légèrement beurrée.</p>
-       <p xml:id="para_9_254_87">Enfin le souper, qui se prend ordinairement à huit heures du soir, se compose, comme le déjeuner, de pain trempé dans du lait pur ou mélangé.</p>
-       <p xml:id="para_9_254_88">L'ouvrière ne consomme aucune boisson fermentée. La bière, breuvage du pays, est beaucoup trop chère (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>), la première qualité coûtant 25 centimes, et la seconde de 10 à 12 centimes et demi la canette (mesure qui est égale à notre litre<note type="bp">
-         <p>Canette, expression très-usitée aujourd'hui pour désigner une mesure de bière égale au litre, nous vient du vieux mot hollandais kan, pot, qui fait au diminutif kannetje, petit pot, d'où sort canette. Le kan hollandais contenait un peu plus de 2 litres, et, par conséquent, la canette serait d'un peu plus d'un litre, mais il s'est fait ici la même transformation que pour notre aune, qui n'était que de 119 centimètres; afin de la mettre en rapport avec le système décimal, on l'a allongée à 120 centimètres, tandis que la canette a été réduite et ajustée à la contenance du litre.</p>
-        </note>). Cette dernière boisson, dite ptite biere, est généralement si faible, que les ouvriers du pays n'en consomment presque pas ; elle ne igure guère que sur la table des petits bourgeois ou l'insuffisance de cette boisson est com¬pensée par l'emploi fréquent du caé et par une nourriure substan¬tielle.</p>
-       <p xml:id="para_9_254_89">Il est regrettable que Sophie T*** ne puisse faire usage de cette boisson tout à la fois tonique et nourrissante.</p>
-       <p xml:id="para_9_254_90">Le café ne doit être mentionné ici qu'à tire d'exception, et n'est<pb facs="#facs_260" n="255" source="lesouvriersdesde03sociuoft_0263.xml"/>pris que dans de très-rares occasons ; si economiquement qu'il soit fait, son prix de revient est toujours trop élevé pour entrer régu¬lièrement dans l'alimentation de l'ouvrière, qui mêle ordinairement à son lait une infusion de chicorée.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. — ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_9_254_82">
+        <pb facs="#facs_259" n="254" source="lesouvriersdesde03sociuoft_0262.xml"/>
+        L'ouvrière et son enfant font généralement quatre repas par jour, en y comprenant un goùter qui est d'usage dans le pays.
+       </p>
+       <p xml:id="para_9_254_83">
+        Le déjeuner, à huit heures du matin, se compose d'un peu de pain légèrement beuré qu'ils trempent dans du lait pur ou coupé d'eau de chicorée, et quelquefois dans du lait de beure.
+       </p>
+       <p xml:id="para_9_254_84">
+        Le dîner, qui a lieu à midi précis, consiste en pain et légumes (le plus souvent des pommes de terre) auxquels s'ajoute parfois un peu de viande.
+       </p>
+       <p xml:id="para_9_254_85">
+        Autaut que possible l'ouvrière met le pot-au-feu
+        <ref target="#ID-001a" type="renvoi_int_od2m">
+         (N° 1 § 9)
+        </ref>
+        deux fois par semaine, ais avec des morceaux de viande de qualité inférieure et en quantité trop minime pou qu'il en résulte un aliment suffisamment substantiel.
+       </p>
+       <p xml:id="para_9_254_86">
+        Le goûter, vers quatre heures du soir, ne comporte qu'une tar¬tine, longue et mince tranche de pain légèrement beurrée.
+       </p>
+       <p xml:id="para_9_254_87">
+        Enfin le souper, qui se prend ordinairement à huit heures du soir, se compose, comme le déjeuner, de pain trempé dans du lait pur ou mélangé.
+       </p>
+       <p xml:id="para_9_254_88">
+        L'ouvrière ne consomme aucune boisson fermentée. La bière, breuvage du pays, est beaucoup trop chère
+        <ref target="#part_03_01_20" type="renvoi_int_mono">
+         (D)
+        </ref>
+        , la première qualité coûtant 25 centimes, et la seconde de 10 à 12 centimes et demi la canette (mesure qui est égale à notre litre
+        <note type="bp">
+         <p>
+          Canette, expression très-usitée aujourd'hui pour désigner une mesure de bière égale au litre, nous vient du vieux mot hollandais kan, pot, qui fait au diminutif kannetje, petit pot, d'où sort canette. Le kan hollandais contenait un peu plus de 2 litres, et, par conséquent, la canette serait d'un peu plus d'un litre, mais il s'est fait ici la même transformation que pour notre aune, qui n'était que de 119 centimètres; afin de la mettre en rapport avec le système décimal, on l'a allongée à 120 centimètres, tandis que la canette a été réduite et ajustée à la contenance du litre.
+         </p>
+        </note>
+        ). Cette dernière boisson, dite ptite biere, est généralement si faible, que les ouvriers du pays n'en consomment presque pas ; elle ne igure guère que sur la table des petits bourgeois ou l'insuffisance de cette boisson est com¬pensée par l'emploi fréquent du caé et par une nourriure substan¬tielle.
+       </p>
+       <p xml:id="para_9_254_89">
+        Il est regrettable que Sophie T*** ne puisse faire usage de cette boisson tout à la fois tonique et nourrissante.
+       </p>
+       <p xml:id="para_9_254_90">
+        Le café ne doit être mentionné ici qu'à tire d'exception, et n'est
+        <pb facs="#facs_260" n="255" source="lesouvriersdesde03sociuoft_0263.xml"/>
+        pris que dans de très-rares occasons ; si economiquement qu'il soit fait, son prix de revient est toujours trop élevé pour entrer régu¬lièrement dans l'alimentation de l'ouvrière, qui mêle ordinairement à son lait une infusion de chicorée.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="para_9_255_93">L'ouvrière habite, à Lille, dans la rue de Fives, une seule pièce située au deuxième et dernier étage de la maison.</p>
-        <p xml:id="para_9_255_94">Cette chambre reçoit l'air et le jour par une seule fenêtre, ouverte au sud-est, et donnant sur les remparts. Cette fenêtre est fort élevée au-dessus du sol, de sorte qu'il faut monter sur une chaise pour voir à l'extérieur.</p>
-        <p xml:id="para_9_255_95">La surface totale de la pièce est de 10 mètres, et la hauteur de250.</p>
-        <p xml:id="para_9_255_96">Les murs sont absolument nus. Il n'y a point de cheminée ; celle-ci est remplacée par un poêle.</p>
-        <p xml:id="para_9_255_97">Dans les premiers jours de la semaine, l'intérieur est assez propre. Le plancher, composé de careaux, est lavé chaque dimanche selon la coutume lilloise.</p>
-        <p xml:id="para_9_255_98">Le loyer de cette chambre est coté 6ᶠ par mois ; mais il est fait remise (<ref target="#part_02_02_07" type="renvoi_int_mono">§ 7</ref>) de cette dépense à l'ouvrière par un de ses frères, qui est principal locataire de la maison.</p>
-        <p xml:id="para_9_255_99">Le mobilier al'aspect le plus triste, il se compose des objets suivants :</p>
+        <p xml:id="para_9_255_93">
+         L'ouvrière habite, à Lille, dans la rue de Fives, une seule pièce située au deuxième et dernier étage de la maison.
+        </p>
+        <p xml:id="para_9_255_94">
+         Cette chambre reçoit l'air et le jour par une seule fenêtre, ouverte au sud-est, et donnant sur les remparts. Cette fenêtre est fort élevée au-dessus du sol, de sorte qu'il faut monter sur une chaise pour voir à l'extérieur.
+        </p>
+        <p xml:id="para_9_255_95">
+         La surface totale de la pièce est de 10 mètres, et la hauteur de250.
+        </p>
+        <p xml:id="para_9_255_96">
+         Les murs sont absolument nus. Il n'y a point de cheminée ; celle-ci est remplacée par un poêle.
+        </p>
+        <p xml:id="para_9_255_97">
+         Dans les premiers jours de la semaine, l'intérieur est assez propre. Le plancher, composé de careaux, est lavé chaque dimanche selon la coutume lilloise.
+        </p>
+        <p xml:id="para_9_255_98">
+         Le loyer de cette chambre est coté 6ᶠ par mois ; mais il est fait remise
+         <ref target="#part_02_02_07" type="renvoi_int_mono">
+          (§ 7)
+         </ref>
+         de cette dépense à l'ouvrière par un de ses frères, qui est principal locataire de la maison.
+        </p>
+        <p xml:id="para_9_255_99">
+         Le mobilier al'aspect le plus triste, il se compose des objets suivants :
+        </p>
        </div>
        <div subtype="meubles" type="par_10">
-        <p xml:id="para_9_255_100">MEUBLES : d'un aspect délabré............ 6ᶠ 50</p>
-        <p xml:id="para_9_255_101">1° Lit 1 Lit composé de quatre planches réunies par des pieux, dit lit de choléra<note type="bp">
-          <p>Ce genre de lit a été fabriqué à la hâte en 1849, aux frais de la ville de Lille, lois de l'épidémie cholérique, pour les nombreux malades qu'on retirait des caves où ils étaient logés. De là, la dénomination de lit de choléra</p>
-         </note>, 3ᶠ 00 ; — paillasse (mauvaise), 1ᶠ 25 ; — couverture de coton gris, 0ᶠ 75 ; — 1 traversin plein de paille, 0ᶠ 50. — Total, 5ᶠ50.</p>
-        <p xml:id="para_9_255_102">2° Meubles de l'unique chambre petite table delabrée, 0ᶠ 60 ; — 2 chaises déformées et presque defoncées, 0ᶠ 40. — Total, 1 00. .</p>
+        <p xml:id="para_9_255_100">
+         MEUBLES : d'un aspect délabré............ 6ᶠ 50
+        </p>
+        <p xml:id="para_9_255_101">
+         1° Lit 1 Lit composé de quatre planches réunies par des pieux, dit lit de choléra
+         <note type="bp">
+          <p>
+           Ce genre de lit a été fabriqué à la hâte en 1849, aux frais de la ville de Lille, lois de l'épidémie cholérique, pour les nombreux malades qu'on retirait des caves où ils étaient logés. De là, la dénomination de lit de choléra
+          </p>
+         </note>
+         , 3ᶠ 00 ; — paillasse (mauvaise), 1ᶠ 25 ; — couverture de coton gris, 0ᶠ 75 ; — 1 traversin plein de paille, 0ᶠ 50. — Total, 5ᶠ50.
+        </p>
+        <p xml:id="para_9_255_102">
+         2° Meubles de l'unique chambre petite table delabrée, 0ᶠ 60 ; — 2 chaises déformées et presque defoncées, 0ᶠ 40. — Total, 1 00. .
+        </p>
        </div>
        <div subtype="ustensiles" type="par_10">
-        <p xml:id="para_9_255_103">USTENSILES : insuffisants et usés............ 10ᶠ 30</p>
-        <p xml:id="para_9_255_104">1° Employés pour le service de l'alimenttion : 2 cuillèes, 1 fourchette et 1 couteau, 0ᶠ 50; — poetn en terre, 0ᶠ 20 ; — 2 assietues et 2 tasses, 0ᶠ 60. — Total, 1ᶠ30.</p>
-        <p xml:id="para_9_255_105">2° Employés pour uses divers : 1 poêle de crps de garde, usé ainsi que ses acces¬soires, 9ᶠ 00 ; — 1 lape, 9ᶠ 00. — Total, 9 00.</p>
+        <p xml:id="para_9_255_103">
+         USTENSILES : insuffisants et usés............ 10ᶠ 30
+        </p>
+        <p xml:id="para_9_255_104">
+         1° Employés pour le service de l'alimenttion : 2 cuillèes, 1 fourchette et 1 couteau, 0ᶠ 50; — poetn en terre, 0ᶠ 20 ; — 2 assietues et 2 tasses, 0ᶠ 60. — Total, 1ᶠ30.
+        </p>
+        <p xml:id="para_9_255_105">
+         2° Employés pour uses divers : 1 poêle de crps de garde, usé ainsi que ses acces¬soires, 9ᶠ 00 ; — 1 lape, 9ᶠ 00. — Total, 9 00.
+        </p>
        </div>
        <div subtype="vetements" type="par_10">
-        <p xml:id="para_9_255_106">VÊTEMENTS : insuffisants et usés............ 160ᶠ 55</p>
-        <p xml:id="para_9_255_107">VÊTEMENTS DE L'OUVRIÈRE, (143ᶠ 95). LeS eilleurs vêtements de l'ouvrière sont engagés au Mont-de-Pieté.</p>
-        <p xml:id="para_9_255_108">1° Vetements du dimanche, engagés au Mont-de-Piété — 2 chales, 13ᶠ 00 ; — 1 man<pb facs="#facs_261" n="256" source="lesouvriersdesde03sociuoft_0264.xml"/>teau de drap, 40ᶠ00; — 2 roles en méinos, 20ᶠ00 : — 1 robe en mousseline de laine, 6 00 ; — 6 chemises en toile, 30ᶠ 00 ; — 1 antelet cn soie, 15ᶠ00. — 'Total, l24ᶠ 00.</p>
-        <p xml:id="para_9_256_110">2° Vêtements de trvait : — 2 chemises (mauvaises), 2ᶠ00 ; — 2 jupons, 2ᶠ 00 ; — 1 paire de las, 0ᶠ 75 ; — 3 robes, dont t neuve, 13ᶠ 00 ; — 2 moucboirs, 0ᶠ 60 ; — 1 paire de vieux souliers, 1ᶠ 00; — 1 paire de sabots, 0ᶠ 60. — Total, 19ᶠ 95.</p>
-        <p xml:id="para_9_256_111">VÊTEMENTS DE L'ENFANT, 16ᶠ 60. Ces vêtements, confectionnés avec d'autres vete¬ments hors d'usage, sont cependat propres.</p>
-        <p xml:id="para_9_256_112">1 veste, 1ᶠ 50 ; — 1 paletot de dap, 4ᶠ 00 ; — 1 pantalon de drap, 3ᶠ 00; — 1 cas¬quette, 1ᶠ 00; — 1 pie de bas, 0ᶠ40 ; — 1 paie de souliers, 3ᶠ 00 ; — 2 mouchoirs, 0ᶠ 60 ; — 2 chemises, 2ᶠ50 ; — 1 paire de sahots, 0ᶠ 60. Total, 16ᶠ 60.</p>
+        <p xml:id="para_9_255_106">
+         VÊTEMENTS : insuffisants et usés............ 160ᶠ 55
+        </p>
+        <p xml:id="para_9_255_107">
+         VÊTEMENTS DE L'OUVRIÈRE, (143ᶠ 95). LeS eilleurs vêtements de l'ouvrière sont engagés au Mont-de-Pieté.
+        </p>
+        <p xml:id="para_9_255_108">
+         1° Vetements du dimanche, engagés au Mont-de-Piété — 2 chales, 13ᶠ 00 ; — 1 man
+         <pb facs="#facs_261" n="256" source="lesouvriersdesde03sociuoft_0264.xml"/>
+         teau de drap, 40ᶠ00; — 2 roles en méinos, 20ᶠ00 : — 1 robe en mousseline de laine, 6 00 ; — 6 chemises en toile, 30ᶠ 00 ; — 1 antelet cn soie, 15ᶠ00. — 'Total, l24ᶠ 00.
+        </p>
+        <p xml:id="para_9_256_110">
+         2° Vêtements de trvait : — 2 chemises (mauvaises), 2ᶠ00 ; — 2 jupons, 2ᶠ 00 ; — 1 paire de las, 0ᶠ 75 ; — 3 robes, dont t neuve, 13ᶠ 00 ; — 2 moucboirs, 0ᶠ 60 ; — 1 paire de vieux souliers, 1ᶠ 00; — 1 paire de sabots, 0ᶠ 60. — Total, 19ᶠ 95.
+        </p>
+        <p xml:id="para_9_256_111">
+         VÊTEMENTS DE L'ENFANT, 16ᶠ 60. Ces vêtements, confectionnés avec d'autres vete¬ments hors d'usage, sont cependat propres.
+        </p>
+        <p xml:id="para_9_256_112">
+         1 veste, 1ᶠ 50 ; — 1 paletot de dap, 4ᶠ 00 ; — 1 pantalon de drap, 3ᶠ 00; — 1 cas¬quette, 1ᶠ 00; — 1 pie de bas, 0ᶠ40 ; — 1 paie de souliers, 3ᶠ 00 ; — 2 mouchoirs, 0ᶠ 60 ; — 2 chemises, 2ᶠ50 ; — 1 paire de sahots, 0ᶠ 60. Total, 16ᶠ 60.
+        </p>
        </div>
        <div subtype="par_10_total" type="par_10">
-        <p xml:id="para_9_256_113">VALEUR TOTALE du mobilier et des vêtements............ 177ᶠ 85</p>
+        <p xml:id="para_9_256_113">
+         VALEUR TOTALE du mobilier et des vêtements............ 177ᶠ 85
+        </p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
-       <p xml:id="para_9_256_115">L'ouvrière ne peut se livrer à aucune récréation ; son état de pénurie en est la cause. Toutefois, comme elle appartient à une famille nombreuse, elle trouve çà et là quelques soirées de délasse¬ment, telles que la solennité des Rois, lête traditionnelle du pays. dont un lapin, assaisonné avec des oignons et des pruneaux, lait tous les rais ; le mardi gras, où se mange la tête de veau ; enin la fête du Bropueletˉ, fête des gens qui travaillent le fil, et qui se célèbre dans la famille, parce que, de père en fils, on y a exercé la profession de retordeur.</p>
-       <p xml:id="para_9_256_116">Le Broquelet (<ref target="#part_03_01_21" type="renvoi_int_mono">E</ref>) est une fête presque nationale, car c'est celle de tous les corps de métiers qui, directement ou indirectement, ma¬nient le fil ; depuis que la vapeur a ris place presque partout à côte du travail de l'homme, le Broquelet comprend même les mécani¬ciens attachés aux filatures de lin.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. — RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_9_256_115">
+        L'ouvrière ne peut se livrer à aucune récréation ; son état de pénurie en est la cause. Toutefois, comme elle appartient à une famille nombreuse, elle trouve çà et là quelques soirées de délasse¬ment, telles que la solennité des Rois, lête traditionnelle du pays. dont un lapin, assaisonné avec des oignons et des pruneaux, lait tous les rais ; le mardi gras, où se mange la tête de veau ; enin la fête du Bropueletˉ, fête des gens qui travaillent le fil, et qui se célèbre dans la famille, parce que, de père en fils, on y a exercé la profession de retordeur.
+       </p>
+       <p xml:id="para_9_256_116">
+        Le Broquelet
+        <ref target="#part_03_01_21" type="renvoi_int_mono">
+         (E)
+        </ref>
+        est une fête presque nationale, car c'est celle de tous les corps de métiers qui, directement ou indirectement, ma¬nient le fil ; depuis que la vapeur a ris place presque partout à côte du travail de l'homme, le Broquelet comprend même les mécani¬ciens attachés aux filatures de lin.
+       </p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">IV. Histoire de la famille</head>
+      <head type="sub_section" xml:id="part_02_04">
+       IV. Histoire de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
-       <p xml:id="para_9_256_120">La vie de l'ouvrière ne présente ien qui sorte du cercle des faits les plus ordinaires. ll n'en est pas de même de celle de sa famille, dont les vicissitudes éritent d'êre mentionnées.</p>
-       <p xml:id="para_9_256_121">Le père était né à Mareq-en-Barœul<note type="bp">
-         <p>Faubourg de Lille.</p>
-        </note>, en A792, pendant le célèbre bombardement de lille. Il apprit de bonne heure la profession de<pb facs="#facs_262" n="257" source="lesouvriersdesde03sociuoft_0265.xml"/>retordeur, qui était celle de ses ancètres. En 1810, il lut appelé sous les drapeaux, et ne rentra dans ses foyers qu'à la chute de l'Empire. ll épousa, en 1817, une dentelière, née a ille en 1798, dont il eut neut enfants. Sa mort fut tout à ait prématurée : un de ses enfants, celui dont il est question dans cete onographie, tomba un jour dans une losse d'aisances peu prolonde. Le pere se fit aussitôt suspendre par les pieds pour sauver l'entant ; il y parvint après des tentatives réitérées. On était en hiver, la secousse morale, le froid et la fatigue qu'il avait éprouvés altérèrent sa santé, et il mourut, laissant une veuve avec huit enfants encore en bas âge. mais heureusement avec une prolession assez lucrative, qui avait permis à la famille d'amasser de notables économies.</p>
-       <p xml:id="para_9_257_124">En 1842, la veuve prospérait, malgré ses lourdes charges, quand, à cette époque, elle se vit complétement ruinée par la fuite, à l'étranger, du patron qui jusque-là lui avait fourni du travail, et qui, à ce titre, était dépositaire de tout l'avoir de la famille.</p>
-       <p xml:id="para_9_257_125">La mère de famille mourut quelque temps après d'une tumeur au sein. A la suite de ce luneste événement, l'ouvrière dont il est ques¬tion dans la présente monographie entra immédiatement dans un atelier de lingerie ; élevée par une mère laborieuse, et laborieuse elle-même, elle ne tarda pas à ère en mesure de suffire à ses pre¬miers besoins. Elle eut trouvé dans le mariage la situation habituel¬lement acquise aux classes ouvrières de la localité, si la séduction dont elle a été victime (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>) n'avait brisé son avenir.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. — PHASES PRINCIPALES DE L'EXISTENCE.
+       </head>
+       <p xml:id="para_9_256_120">
+        La vie de l'ouvrière ne présente ien qui sorte du cercle des faits les plus ordinaires. ll n'en est pas de même de celle de sa famille, dont les vicissitudes éritent d'êre mentionnées.
+       </p>
+       <p xml:id="para_9_256_121">
+        Le père était né à Mareq-en-Barœul
+        <note type="bp">
+         <p>
+          Faubourg de Lille.
+         </p>
+        </note>
+        , en A792, pendant le célèbre bombardement de lille. Il apprit de bonne heure la profession de
+        <pb facs="#facs_262" n="257" source="lesouvriersdesde03sociuoft_0265.xml"/>
+        retordeur, qui était celle de ses ancètres. En 1810, il lut appelé sous les drapeaux, et ne rentra dans ses foyers qu'à la chute de l'Empire. ll épousa, en 1817, une dentelière, née a ille en 1798, dont il eut neut enfants. Sa mort fut tout à ait prématurée : un de ses enfants, celui dont il est question dans cete onographie, tomba un jour dans une losse d'aisances peu prolonde. Le pere se fit aussitôt suspendre par les pieds pour sauver l'entant ; il y parvint après des tentatives réitérées. On était en hiver, la secousse morale, le froid et la fatigue qu'il avait éprouvés altérèrent sa santé, et il mourut, laissant une veuve avec huit enfants encore en bas âge. mais heureusement avec une prolession assez lucrative, qui avait permis à la famille d'amasser de notables économies.
+       </p>
+       <p xml:id="para_9_257_124">
+        En 1842, la veuve prospérait, malgré ses lourdes charges, quand, à cette époque, elle se vit complétement ruinée par la fuite, à l'étranger, du patron qui jusque-là lui avait fourni du travail, et qui, à ce titre, était dépositaire de tout l'avoir de la famille.
+       </p>
+       <p xml:id="para_9_257_125">
+        La mère de famille mourut quelque temps après d'une tumeur au sein. A la suite de ce luneste événement, l'ouvrière dont il est ques¬tion dans la présente monographie entra immédiatement dans un atelier de lingerie ; élevée par une mère laborieuse, et laborieuse elle-même, elle ne tarda pas à ère en mesure de suffire à ses pre¬miers besoins. Elle eut trouvé dans le mariage la situation habituel¬lement acquise aux classes ouvrières de la localité, si la séduction dont elle a été victime
+        <ref target="#part_02_01_02" type="renvoi_int_mono">
+         (§ 2)
+        </ref>
+        n'avait brisé son avenir.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
-       <p xml:id="para_9_257_127">L'ouvrière ne fait partie d'aucune corporation civile ou religieuse qui puisse l'aider en cas de besoin. Sa position de fille-mere lui crée des embarras auprès des institutions de bienfaisance, et la place. lorsque les secours sont limités, dans une condiion un peu diffé¬rente de celle d'une mère de famille réduite aux mêmes nécessités. L'enfant subit dans sa classe les effets de cette malheureuse et fausse situation : les frères de la Dctrine chrétienne, contraints par les règlements de la ville, lui font payer 6ᶠ par an pour des livres et des fournitures qu'ils pourraient donner gratis aux enfants légi¬times. Cette rigueur pour les enants naurels se retrouve quelque¬fois en France dans certains régleents d'œuvres charitables ; des¬tinée sans doute à prévenir l'inconduite, il est douteux qu'elle atteigne le but, tandis qu'elle aggrave assurément des malheurs irréparables.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. — MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_9_257_127">
+        L'ouvrière ne fait partie d'aucune corporation civile ou religieuse qui puisse l'aider en cas de besoin. Sa position de fille-mere lui crée des embarras auprès des institutions de bienfaisance, et la place. lorsque les secours sont limités, dans une condiion un peu diffé¬rente de celle d'une mère de famille réduite aux mêmes nécessités. L'enfant subit dans sa classe les effets de cette malheureuse et fausse situation : les frères de la Dctrine chrétienne, contraints par les règlements de la ville, lui font payer 6ᶠ par an pour des livres et des fournitures qu'ils pourraient donner gratis aux enfants légi¬times. Cette rigueur pour les enants naurels se retrouve quelque¬fois en France dans certains régleents d'œuvres charitables ; des¬tinée sans doute à prévenir l'inconduite, il est douteux qu'elle atteigne le but, tandis qu'elle aggrave assurément des malheurs irréparables.
+       </p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
        <pb facs="#facs_263" n="258" source="lesouvriersdesde03sociuoft_0266.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_263" url="#" xml:id="tble_9_258_1"/>
        </figure>
        <pb facs="#facs_264" n="259" source="lesouvriersdesde03sociuoft_0267.xml"/>
-       <!--<p xml:id="para_9_259_130">§ 14. — Budget des recettes de l'année.</p>-->
+       <!--<p xml:id="para_9_259_130">
+        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_264" url="#" xml:id="tble_9_259_2"/>
        </figure>
        <pb facs="#facs_265" n="260" source="lesouvriersdesde03sociuoft_0268.xml"/>
-       <!--<p xml:id="para_9_260_131">Budget des recettes de l'année.</p>-->
+       <!--<p xml:id="para_9_260_131">
+        BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_265" url="#" xml:id="tble_9_260_3"/>
        </figure>
        <pb facs="#facs_266" n="261" source="lesouvriersdesde03sociuoft_0269.xml"/>
-       <!--<p xml:id="para_9_261_132">Budget des recettes de l'année.</p>-->
+       <!--<p xml:id="para_9_261_132">
+        BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_266" url="#" xml:id="tble_9_261_4"/>
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
        <pb facs="#facs_267" n="262" source="lesouvriersdesde03sociuoft_0270.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_267" url="#" xml:id="tble_9_262_5"/>
@@ -459,7 +863,9 @@
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">Comptes annexés aux budgets.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
        <pb facs="#facs_270" n="265" source="lesouvriersdesde03sociuoft_0273.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_270" url="#" xml:id="tble_9_265_8"/>
@@ -467,152 +873,447 @@
       </div>
      </div>
      <div n="003" type="section">
-      <head type="section" xml:id="part_03">Notes</head>
-      <p xml:id="para_9_266_136">FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES CONCLUSIONS.</p>
+      <head type="section" xml:id="part_03">
+       NOTES
+      </head>
+      <p xml:id="para_9_266_136">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES CONCLUSIONS.
+      </p>
       <div n="001" type="sub_section">
        <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">(A) SUR LA CONDITION ACTUELLE DES CLASSES OUVRIERES A LILLE.</head>
-        <p xml:id="para_9_266_138"><pb facs="#facs_271" n="266" source="lesouvriersdesde03sociuoft_0274.xml"/> Après .yon, Lille est peut-être en France le centre industriel le plus intéressant à étudier. Il y a environ vingt ans, cette ville fut, de la pat de M. Blanqui, membre de l'nstitut, l'objet d'une enquète qui attira l'atention générale sur la condition de ses ouvriers. Le savant économiste y rencontra d'épouvantables misères, qu'il dut aller découvrir au fond de bouges infects; il les dépeignit avec autant de chaleur que de talent. Son travail souleva de vives réclamaions de la part de l'edilié lilloise ; mais il eut néanmoins pour résultat de faire fermer la majeure partie des caves humides et obscures qui servaient d'habitations à une foule d'ouvriers.</p>
-        <p xml:id="para_9_266_139">La situaion intolérable des ouvriers de Lille, telle que la décri¬vait M. Blanqui, s'est beaucoup améliorée ; mais elle est bien mau¬vaie encore.</p>
-        <p xml:id="para_9_266_140">Cela tient à de nombreuses causes : à l'insalubrité d'un climat constamment humide ; à la stagnation, dans les canaux, des eaux qui raversent la ville et qui, corrompues par un grand nombre de produits industriel, exhalent des iasmes dangereux ou au moins malsains ; à l'insulisance du prix de la main-d'œuvre par suite de la concurrence des ouvriers belges (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>) qui abandonnent leur pays ou le travail est encore moins rétribué : à l'insulisance aussi de la nour¬riture, qui, composée precsque exclusivement de pommes de terre, dont la qualité décroît d'année en année, ne répare pas chez l'ou¬vrier les pertes qu'entrauine son travail ; à la privation à peu près complète de boissons réconlortantes, la bière étant constanent à un pix trop élevé pour entrer dans l'alimentation journalière des ouvriers ; eniin, à l'emploi trop réquent des alcools de grain, sous fome de genievre, hdromel, etc., au lieu de bière ou de vin.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         (A) SUR LA CONDITION ACTUELLE DES CLASSES OUVRIERES A LILLE.
+        </head>
+        <p xml:id="para_9_266_138">
+         <pb facs="#facs_271" n="266" source="lesouvriersdesde03sociuoft_0274.xml"/>
+         Après .yon, Lille est peut-être en France le centre industriel le plus intéressant à étudier. Il y a environ vingt ans, cette ville fut, de la pat de M. Blanqui, membre de l'nstitut, l'objet d'une enquète qui attira l'atention générale sur la condition de ses ouvriers. Le savant économiste y rencontra d'épouvantables misères, qu'il dut aller découvrir au fond de bouges infects; il les dépeignit avec autant de chaleur que de talent. Son travail souleva de vives réclamaions de la part de l'edilié lilloise ; mais il eut néanmoins pour résultat de faire fermer la majeure partie des caves humides et obscures qui servaient d'habitations à une foule d'ouvriers.
+        </p>
+        <p xml:id="para_9_266_139">
+         La situaion intolérable des ouvriers de Lille, telle que la décri¬vait M. Blanqui, s'est beaucoup améliorée ; mais elle est bien mau¬vaie encore.
+        </p>
+        <p xml:id="para_9_266_140">
+         Cela tient à de nombreuses causes : à l'insalubrité d'un climat constamment humide ; à la stagnation, dans les canaux, des eaux qui raversent la ville et qui, corrompues par un grand nombre de produits industriel, exhalent des iasmes dangereux ou au moins malsains ; à l'insulisance du prix de la main-d'œuvre par suite de la concurrence des ouvriers belges
+         <ref target="#part_03_01_18" type="renvoi_int_mono">
+          (B)
+         </ref>
+         qui abandonnent leur pays ou le travail est encore moins rétribué : à l'insulisance aussi de la nour¬riture, qui, composée precsque exclusivement de pommes de terre, dont la qualité décroît d'année en année, ne répare pas chez l'ou¬vrier les pertes qu'entrauine son travail ; à la privation à peu près complète de boissons réconlortantes, la bière étant constanent à un pix trop élevé pour entrer dans l'alimentation journalière des ouvriers ; eniin, à l'emploi trop réquent des alcools de grain, sous fome de genievre, hdromel, etc., au lieu de bière ou de vin.
+        </p>
        </div>
        <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">(B) DE L'INFLUENCE DU VOISINAGE DE LA BELGIQUE SUR LES SALAIRES DES OUVRIERS DU NORD.</head>
-        <p xml:id="para_9_267_142"><pb facs="#facs_272" n="267" source="lesouvriersdesde03sociuoft_0275.xml"/> Le voisinage de la Belgique est, pour la population ouvrière du Nord, une cause permanente de malaise. Des légions de pauvres éhontés, affamés, dangereux, parcourent incessamment les Flandres, comme autrefois les bandes de bohémiens parcouraient l'lurope. Parmi ces mendiants il s'en trouve de valides et de bonne volonté ; ils passent la frontière et viennent demander aux fabriques de Tourcoing, de Roubaix et de Lille, du travail à tout prix, du travail pour avoir du pain. Cette immigration vers la France est telle, qu'elle a fourni à Lille une population d'au moins 50,000 Belges sur les 150,000 habitants que contient l'enceinte nouvelle. Ce flot hu¬main, qui marche sans cesse de l'est à l'ouest, est composé de gens peu exigeants sur les conditions du travail ; ils ne demandent qu'une chose, pouvoir subvenir à leurs premiers besoins. De là, une tendance des salaires, sinon à diminuer, du moins à ne pas s'élever au niveau du prix actuel de toutes les choses nécessaires à la vie. Mais, comme presque partout, c'est particulierement le salaire des femmes qui présente sous ce rapport les faits les plus désolants.</p>
-        <p xml:id="para_9_267_143">Les ouvrières en caleçons, en chemises communes, en dentelle, sont les plus mal raitées ; leurs salaires sont aujourd'hui complé¬tement insulfisants.</p>
-        <p xml:id="para_9_267_144">Parmi les causes diverses qui rendent la vie des ouvriers si pénible dans les grands centres manufacturiers, et notamment à Lille, on peut mettre en première ligne la nécessité pour l'ouvrier de vivre dans l'intérieur d'une ville étroitement murée, où un grand nombre de personnes, riches par leur patrimoine ou leur profession, entretiennent la cherté de tout ce qui constitue l'aiimentation ; à cette cherté vient s'ajouter celle des loyers résultant du déaut d'espace, état de choses dont on souffre dans toutes les places militaires.</p>
-        <p xml:id="para_9_267_145">On a parlé plus haut de la concurrence des ouvriers belges qui, dans le présent, porte une atteinte fâcheuse aux salaires de l'ouvrier lillois; quant à son avenir, comme il n'existe pour lui aucun moyen possible de s'élever au-dessus de sa condition, il n'y songe même pas et vit à tous égards dans la plus complète insouciance.</p>
-        <p xml:id="para_9_267_146">Enfin, l'ivrognerie à laquelle sont notoirement enclins la plupart<pb facs="#facs_273" n="268" source="lesouvriersdesde03sociuoft_0276.xml"/>des ouvriers du nord de la lrance, et leur propension aux récréa¬tions ruineuses (<ref target="#part_03_01_21" type="renvoi_int_mono">E</ref>), absorbent évidemment une forte part du pro¬duit de leur travauil : ici comme partout <ref target="#" type="renvoi_ext_oe">[les Ouv. europ. XXXVI (B)]</ref>. c'est donc, dans le vice et dans l'imprévoyance, que se trouve la cause principale des privations que subit l'ouvrier lillois.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         (B) DE L'INFLUENCE DU VOISINAGE DE LA BELGIQUE SUR LES SALAIRES DES OUVRIERS DU NORD.
+        </head>
+        <p xml:id="para_9_267_142">
+         <pb facs="#facs_272" n="267" source="lesouvriersdesde03sociuoft_0275.xml"/>
+         Le voisinage de la Belgique est, pour la population ouvrière du Nord, une cause permanente de malaise. Des légions de pauvres éhontés, affamés, dangereux, parcourent incessamment les Flandres, comme autrefois les bandes de bohémiens parcouraient l'lurope. Parmi ces mendiants il s'en trouve de valides et de bonne volonté ; ils passent la frontière et viennent demander aux fabriques de Tourcoing, de Roubaix et de Lille, du travail à tout prix, du travail pour avoir du pain. Cette immigration vers la France est telle, qu'elle a fourni à Lille une population d'au moins 50,000 Belges sur les 150,000 habitants que contient l'enceinte nouvelle. Ce flot hu¬main, qui marche sans cesse de l'est à l'ouest, est composé de gens peu exigeants sur les conditions du travail ; ils ne demandent qu'une chose, pouvoir subvenir à leurs premiers besoins. De là, une tendance des salaires, sinon à diminuer, du moins à ne pas s'élever au niveau du prix actuel de toutes les choses nécessaires à la vie. Mais, comme presque partout, c'est particulierement le salaire des femmes qui présente sous ce rapport les faits les plus désolants.
+        </p>
+        <p xml:id="para_9_267_143">
+         Les ouvrières en caleçons, en chemises communes, en dentelle, sont les plus mal raitées ; leurs salaires sont aujourd'hui complé¬tement insulfisants.
+        </p>
+        <p xml:id="para_9_267_144">
+         Parmi les causes diverses qui rendent la vie des ouvriers si pénible dans les grands centres manufacturiers, et notamment à Lille, on peut mettre en première ligne la nécessité pour l'ouvrier de vivre dans l'intérieur d'une ville étroitement murée, où un grand nombre de personnes, riches par leur patrimoine ou leur profession, entretiennent la cherté de tout ce qui constitue l'aiimentation ; à cette cherté vient s'ajouter celle des loyers résultant du déaut d'espace, état de choses dont on souffre dans toutes les places militaires.
+        </p>
+        <p xml:id="para_9_267_145">
+         On a parlé plus haut de la concurrence des ouvriers belges qui, dans le présent, porte une atteinte fâcheuse aux salaires de l'ouvrier lillois; quant à son avenir, comme il n'existe pour lui aucun moyen possible de s'élever au-dessus de sa condition, il n'y songe même pas et vit à tous égards dans la plus complète insouciance.
+        </p>
+        <p xml:id="para_9_267_146">
+         Enfin, l'ivrognerie à laquelle sont notoirement enclins la plupart
+         <pb facs="#facs_273" n="268" source="lesouvriersdesde03sociuoft_0276.xml"/>
+         des ouvriers du nord de la lrance, et leur propension aux récréa¬tions ruineuses
+         <ref target="#part_03_01_21" type="renvoi_int_mono">
+          (E)
+         </ref>
+         , absorbent évidemment une forte part du pro¬duit de leur travauil : ici comme partout
+         <ref target="#" type="renvoi_ext_oe">
+          [les Ouv. europ. XXXVI (B)]
+         </ref>
+         . c'est donc, dans le vice et dans l'imprévoyance, que se trouve la cause principale des privations que subit l'ouvrier lillois.
+        </p>
        </div>
        <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">(C) SUR LA SÉDUCTION DES OUVRIÈRES DANS LES CENTRES MANUFACTURIERS.</head>
-        <p xml:id="para_9_268_149">Les actes de séduction, semblables à celui que signale la présente monographie, sont réquents dans les centres manuiacturiers. Dès leur plus jeune age, les ouvrières entendent dans les ateliers des conversations et des chants contraires aux bonnes mœurs. Plus tard, le gout de la promenade et de la danse les entraîne aux eresse et au fêtes du pays ; elles y font de fâcheuses connaissances et échappent rarement à la séduction, car elles n'ont pour les guider ou les retenir ni l'éducation morale et religieuse, ni le bon exemple ; il n'est pas rare que leur mère, leur sœur ou quelqu'une de leurs parentes n'ait eu elle-même des relations coupables avant d'être mariée. Dans les classes ouvrières, d'ailleurs, la fille devenue mère n'encourt pas autant de mépris que celle qui succomberait dans une classe plus élevée. Souvent un mariage vient eflacer les autes de jeunesse, et, dans les départements du Nord notamment, il semble que les illes-mères se marient plus facilement que les autres. Ce fait, aintes ois constaté par l'auteur de la présente monographie, lui parait devoir être expliqué ainsi : la fille séduite et délaissée, comprenant bien l'étendue de sa laute et les résultats de son isolement, cherche par tous les moyens possibles à régula¬iser sa position et à trouver un appui : ayant ce but devant elle et plus sûre d'elle-même, elle trouve plus vite un mari qu'une jeune fille novice et timide.</p>
-        <p xml:id="para_9_268_150">Les faits de séduction, déjà siregrettables quandils ont lieu entre ouvriers et ouvrières, prennent un caractère bien plus grave quand ils doivent être attribués aux patrons, aux chefs d'atelier et aux commis : on ne saurait qualilier de tels actes avec trop d'indignation</p>
-        <p xml:id="para_9_268_151">Il serait toutefois injuste d'attribuer exclusivement à l'industrie le relâchement des mœurs qu'on remarque dans les départements du Nord; les illes de la campagne sont tout aussi faibles que celles des villes, et ce qu'il y a de triste à dire, c'est que la plupart d'entre elles cherchent à entrer en relations intimes avec les jeunes<pb facs="#facs_274" n="269" source="lesouvriersdesde03sociuoft_0277.xml"/>paysans riches pour s'en laire épouser. De là un grand nombre de naissances illéitimes que des intérèts sordides empêchent le plus souvent de régulariser par le mariage.</p>
-        <p xml:id="para_9_269_153">En 1856, la commune de R**, située dans la banlieue de Lille, dont la population est d'environ 800 habitants, comptait 16 filles enceintes.</p>
-        <p xml:id="para_9_269_154">Quelques bons esprits douloureusement affectés par les nombreux cas de séduction que l'on constate en France, voudraient voir intro¬duire dans notre code les principes de la législation de l'ngleterre en cette matière (<ref target="#part_03_01_22" type="renvoi_int_mono">F</ref>).</p>
-        <p xml:id="para_9_269_155">Ils prétendent, et il est impossible de le nie, qu'en Angletere la femme est plus libre que dans notre pays : qu'elle peut sortir seule, faire même de longs voyages, sans avoir à craindre des galanteries de mauvais gout ou entendre des paroles blessantes pour sa pudeur. Ils assurent que c'est à la salutaire terreur qu'in¬spirent les lois répressives de la séduction qu'il laut attribuer cette sécurité dont jouissent les femmes de l'autre côté de la Manche.</p>
-        <p xml:id="para_9_269_156">Cette opinion ne parait pas fondée sur une counaissance par¬faite des lois anglaises. l serait fort intéressant de rechercher les causes de la supériorité qu'offre l'Angleterre sous le pport des mœurs ; mais les considérations exposées ci-après semblent prouver qu'elle ne saurait être attribuée a la législation.</p>
-        <p xml:id="para_9_269_157">A. De Laya, le savant commentateur du Droit anglais (Paris, in-8°, 184, tome I, page 191), s'exprime ainsi :</p>
-        <p xml:id="para_9_269_158">Il n'y a pas dans les lois angglaises de disposition pénale directe contre la séduction, considérée comme injure civile ou criminelle.</p>
-        <p xml:id="para_9_269_159">La loi des pauvres impose à la 1emme qui a quelques res¬sources l'obligation de pourvoir à l'entretien complet de son enlfant illégitime, et son séducteur est déchargé de toute responsabilité.</p>
-        <p xml:id="para_9_269_160">A moins qu'une femme n'ait reçu promesse lormelle de mariage. elle n'a aucune réparation à réclamer léalement de son séducteur; et encore faut-il que la promesse de mariage soit lfaite pr écrit ou sous-entendue dans des circonstances d'où la preuve découle d'une façon évidente.</p>
-        <p xml:id="para_9_269_161">Il a été impossible à l'auteur précité de citer le texte de loi qui régit la séduction, même légalement établie, car on sait qu'en Angleterre il n'y a point de code pour l'appréciation des faits ; il n'y a que des coutumes mises en pratique depuis des siècles et de nombreux arèts qui servent de point de comparaison avec la cause soumise au juge.</p>
-        <p xml:id="para_9_269_162">Ces arrêts sont écrits sur parchemin et conservés en rouleu (enrolled), s'ils sont rendus par une tCour de rcord, quant à ceux qui émanent des tribunaux inlférieurs, ils ne sont point conservés.</p>
-        <p xml:id="para_9_270_163"><pb facs="#facs_275" n="270" source="lesouvriersdesde03sociuoft_0278.xml"/> En Angleterre, où tout se résume par de l'argent, la peine appli¬quée au séducteur qui a pris des engagements est celle des dom¬mages-intérêts, dont le montant varie selon le rang et la fortune de la personne séduite et de son séducteur. Il n'est jamais question de réparation au moyen d'unmariage forcé ; les législateurs anglais comme les nôtres ont compris que le mariage devait rester un acte de consentement mutuel et non devenir une pénalité.</p>
-        <p xml:id="para_9_270_164">Touefois la loi anglaise peut frapper un séducteur, bien qu'il n'ait pris aucun engagement par écrit ; et voici la doctrine admise en pareille circonstance :</p>
-        <p xml:id="para_9_270_165">Dans aucun cas la femme séduite ne peut plaider sa cause, et demander des dommages-intérêts directement pour elle, soit comme dédommagement de ses soullrances personnelles, soit comme com¬pensation à la perte de son honneur et de sa réputation. Mais, au moyen de la fiction légale fort ancienne citée par De Laya, un parent, ou toute autre personne n loc0 prents, peut réclamer pour lui des dommages-intérêts, s'il peut prouver qu'il a été lésé par suite de la séduction, c'est-à-dire en perdant les services que lui rendait la personne séduite.</p>
-        <p xml:id="para_9_270_166">Les personnes qui, par une tolérance des tribunaux anglais, sont admises à intenter une action en dommages - intérèts pour fait de séduction, sont : le père pour sa ille, le frère pour sa sœur, l'oncle pour sa nièce, le tuteur pou sa pupille, le maître pour sa servante, et euin la Cour de Chancellerie pour les jeunes filles confiées à sa tutelle par testament ( loi du règne de Charles l).</p>
-        <p xml:id="para_9_270_167">Dans toute action, le plaignant doit au préalable prouver qu'il est dans la catégorie des parents ou tuteurs en question, ou qu'il est en voie d'y entrer ; qu'au moment du fait de séduction la per¬sonne séduite lui rendait des services dont la privation lui est onéreuse, quelque peu importants qu'aient été ces services.</p>
-        <p xml:id="para_9_270_168">A ce dernier point de vue la loi est ort tolérante, car on admet comme services le simple lait d'avoir trait une vache ou versé une tasse de thé.</p>
-        <p xml:id="para_9_270_169">Il ne faudrait cependant pas trop compter sur les tribunaux anglais pour en obtenir une constante justice ; car tandis qu'une fille qui couche hors de la maison paternelle, mais vient dans la journée y soigner le ménage, peut, si elle devient enceinte, obtenir une réparation pécuniaire sr la demande de son père : une autre fille qui deeure chez des connaissances en qualitè de femme de charge, et a visiter lréquemment ses parents, n'obtiendra rien si elle se laisse séduire, parce que ses parents n'auront pas le droit de poursuivre, la preuve ne pouvant être fournie qu'elle avait l'intention de rentrer sous le toit paternel. Il y a plus, et ici l'insuf<pb facs="#facs_276" n="271" source="lesouvriersdesde03sociuoft_0279.xml"/>fisance de la loi anglaise touche à l'odieux, elle abandonne les victimes qui auraient le plus droit à sa protection.</p>
-        <p xml:id="para_9_271_171">Ainsi, un père met sa fille en apprentissage chez un fabricant et paie une pension pour un certain nombre d'années. Au bout de quelques mois la fille est séduite par son patro ; elle devient enceinte et, pour donner le jour à son enfant, elle retourne chez son père, sur qui retombent tous les frais de médicamentation, d'entretien et de nourriture de la mère et de l'enfant. ln ce cas, cependant, le père ne peut intenter aucune action civile, attendu que sa fille n'était pas à son service.</p>
-        <p xml:id="para_9_271_172">Si la loi anglaise est indécise à l'égard des preuves à produire en cas de poursuite, elle est très-précise à l'égard de l'âge des femmes pour lesquelles il peut être demandé une réparation. oute femme séduite, quel que soit son âge, quelle que soit sa position, c'est-à-dire fille ou femme mariée séparée de son mari, est protégée par la loi ; et cela n'a rien d'étrange. puisque la loi ne punit point la séduction et qu'elle se borne à réparer le dommage causé. oici un exempe : une femme mariée depuis huit ans, mère de deux enlfants, vivait séparée de son mari depuis cinq ans. lle habitait la maison de son père où elle remplissait les fonctions de domestique. Elle se laissa séduire, devint enceinte et accoucha d'un garçon. Le père intenta une acion en dommages-intérèts contre le séducteur, en se fondant sur la perte des services de sa fille, et il eut gain de cause devant le tribunal.</p>
-        <p xml:id="para_9_271_173">Le séducteur peut échapper à une condamnation, en prouvant qu'il n'est pas le père de l'enfant ; ou que la femme a eu desrapports intimes avec d'autres que lui; ou que la femme est notoirement connue pour vivre de désordre. Toutefois cette dernière allégation ne pourrait que faire réduire la somme des dommages-intérèts à allouer, car la logique de la jurisprudence anglaise dit : s que si le plaigant a perdu les services de la personne séduite, c'est toujours du fait du séducteur, qui ne peut nier l'immoralité de sa propre conduite.</p>
-        <p xml:id="para_9_271_174">On voit par ce qui précède que la législation anglaise ne punit pas la séduction. Elle se borne à allouer des indemnités non à la femme qui a succombé, ais aux parents ou tuteurs qui ont pu souffrir dans leurs intérêts des suites de sa faiblesse. Même à ce point de vue restreint, la loi reste encore si imparaite, si inelicace, qu'il s'est formé à Londres une société protectrice des femmes dite : Society for the suppression of vice (Société pour la suppression du vice)</p>
-        <p xml:id="para_9_271_175">Il ne paraît pas que cette bienfaisante institution, en l'absence de tout texte écrit et formel à invoquer, ait eu les résultats qu'en attendaient ses fondateurs.</p>
-        <p xml:id="para_9_272_176"><pb facs="#facs_277" n="272" source="lesouvriersdesde03sociuoft_0280.xml"/> En France, bien que l'article 340 du code civil interdise la recherche de la paternité, la loi est loin de rester impuissante dans les cas de séduction où les preuves ont le caractère de l'évidence.</p>
-        <p xml:id="para_9_272_177">Ainsi les articles 334 et 535 du code pénal sont une arme vigou¬reuse dans la main du juge pour rapper ceux qui ont abusé d'une fille, en se servant de leur influence, qu'elle résulte de l'âge ou de la position sociale.</p>
-        <p xml:id="para_9_272_178">La loi française inflige des peines corporelles et des amendes, tandis que la loi anglaise n'exige que des dommages-intérets. De plus, la loi francaise considère les illes comme mineures jusqu'à l'âge de seize ans révolus, tandis qu'en Angleterre l'état de minorité cesse à quatorze ans, du moins pour les cas de séduction qualiiés crimes.</p>
-        <p xml:id="para_9_272_179">Il est donc permis de conclure de ce qui précède : que la loi fran¬caise est plus protecrice que la loi anglaise, et que si l'application n'en est pas faite plus iréquemment, cela tient plutôt à nos meurs qu'à l'insuffisance des moyens de répression (<ref target="#part_03_01_22" type="renvoi_int_mono">F</ref>).</p>
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         (C) SUR LA SÉDUCTION DES OUVRIÈRES DANS LES CENTRES MANUFACTURIERS.
+        </head>
+        <p xml:id="para_9_268_149">
+         Les actes de séduction, semblables à celui que signale la présente monographie, sont réquents dans les centres manuiacturiers. Dès leur plus jeune age, les ouvrières entendent dans les ateliers des conversations et des chants contraires aux bonnes mœurs. Plus tard, le gout de la promenade et de la danse les entraîne aux eresse et au fêtes du pays ; elles y font de fâcheuses connaissances et échappent rarement à la séduction, car elles n'ont pour les guider ou les retenir ni l'éducation morale et religieuse, ni le bon exemple ; il n'est pas rare que leur mère, leur sœur ou quelqu'une de leurs parentes n'ait eu elle-même des relations coupables avant d'être mariée. Dans les classes ouvrières, d'ailleurs, la fille devenue mère n'encourt pas autant de mépris que celle qui succomberait dans une classe plus élevée. Souvent un mariage vient eflacer les autes de jeunesse, et, dans les départements du Nord notamment, il semble que les illes-mères se marient plus facilement que les autres. Ce fait, aintes ois constaté par l'auteur de la présente monographie, lui parait devoir être expliqué ainsi : la fille séduite et délaissée, comprenant bien l'étendue de sa laute et les résultats de son isolement, cherche par tous les moyens possibles à régula¬iser sa position et à trouver un appui : ayant ce but devant elle et plus sûre d'elle-même, elle trouve plus vite un mari qu'une jeune fille novice et timide.
+        </p>
+        <p xml:id="para_9_268_150">
+         Les faits de séduction, déjà siregrettables quandils ont lieu entre ouvriers et ouvrières, prennent un caractère bien plus grave quand ils doivent être attribués aux patrons, aux chefs d'atelier et aux commis : on ne saurait qualilier de tels actes avec trop d'indignation
+        </p>
+        <p xml:id="para_9_268_151">
+         Il serait toutefois injuste d'attribuer exclusivement à l'industrie le relâchement des mœurs qu'on remarque dans les départements du Nord; les illes de la campagne sont tout aussi faibles que celles des villes, et ce qu'il y a de triste à dire, c'est que la plupart d'entre elles cherchent à entrer en relations intimes avec les jeunes
+         <pb facs="#facs_274" n="269" source="lesouvriersdesde03sociuoft_0277.xml"/>
+         paysans riches pour s'en laire épouser. De là un grand nombre de naissances illéitimes que des intérèts sordides empêchent le plus souvent de régulariser par le mariage.
+        </p>
+        <p xml:id="para_9_269_153">
+         En 1856, la commune de R**, située dans la banlieue de Lille, dont la population est d'environ 800 habitants, comptait 16 filles enceintes.
+        </p>
+        <p xml:id="para_9_269_154">
+         Quelques bons esprits douloureusement affectés par les nombreux cas de séduction que l'on constate en France, voudraient voir intro¬duire dans notre code les principes de la législation de l'ngleterre en cette matière
+         <ref target="#part_03_01_22" type="renvoi_int_mono">
+          (F)
+         </ref>
+         .
+        </p>
+        <p xml:id="para_9_269_155">
+         Ils prétendent, et il est impossible de le nie, qu'en Angletere la femme est plus libre que dans notre pays : qu'elle peut sortir seule, faire même de longs voyages, sans avoir à craindre des galanteries de mauvais gout ou entendre des paroles blessantes pour sa pudeur. Ils assurent que c'est à la salutaire terreur qu'in¬spirent les lois répressives de la séduction qu'il laut attribuer cette sécurité dont jouissent les femmes de l'autre côté de la Manche.
+        </p>
+        <p xml:id="para_9_269_156">
+         Cette opinion ne parait pas fondée sur une counaissance par¬faite des lois anglaises. l serait fort intéressant de rechercher les causes de la supériorité qu'offre l'Angleterre sous le pport des mœurs ; mais les considérations exposées ci-après semblent prouver qu'elle ne saurait être attribuée a la législation.
+        </p>
+        <p xml:id="para_9_269_157">
+         A. De Laya, le savant commentateur du Droit anglais (Paris, in-8°, 184, tome I, page 191), s'exprime ainsi :
+        </p>
+        <p xml:id="para_9_269_158">
+         Il n'y a pas dans les lois angglaises de disposition pénale directe contre la séduction, considérée comme injure civile ou criminelle.
+        </p>
+        <p xml:id="para_9_269_159">
+         La loi des pauvres impose à la 1emme qui a quelques res¬sources l'obligation de pourvoir à l'entretien complet de son enlfant illégitime, et son séducteur est déchargé de toute responsabilité.
+        </p>
+        <p xml:id="para_9_269_160">
+         A moins qu'une femme n'ait reçu promesse lormelle de mariage. elle n'a aucune réparation à réclamer léalement de son séducteur; et encore faut-il que la promesse de mariage soit lfaite pr écrit ou sous-entendue dans des circonstances d'où la preuve découle d'une façon évidente.
+        </p>
+        <p xml:id="para_9_269_161">
+         Il a été impossible à l'auteur précité de citer le texte de loi qui régit la séduction, même légalement établie, car on sait qu'en Angleterre il n'y a point de code pour l'appréciation des faits ; il n'y a que des coutumes mises en pratique depuis des siècles et de nombreux arèts qui servent de point de comparaison avec la cause soumise au juge.
+        </p>
+        <p xml:id="para_9_269_162">
+         Ces arrêts sont écrits sur parchemin et conservés en rouleu (enrolled), s'ils sont rendus par une tCour de rcord, quant à ceux qui émanent des tribunaux inlférieurs, ils ne sont point conservés.
+        </p>
+        <p xml:id="para_9_270_163">
+         <pb facs="#facs_275" n="270" source="lesouvriersdesde03sociuoft_0278.xml"/>
+         En Angleterre, où tout se résume par de l'argent, la peine appli¬quée au séducteur qui a pris des engagements est celle des dom¬mages-intérêts, dont le montant varie selon le rang et la fortune de la personne séduite et de son séducteur. Il n'est jamais question de réparation au moyen d'unmariage forcé ; les législateurs anglais comme les nôtres ont compris que le mariage devait rester un acte de consentement mutuel et non devenir une pénalité.
+        </p>
+        <p xml:id="para_9_270_164">
+         Touefois la loi anglaise peut frapper un séducteur, bien qu'il n'ait pris aucun engagement par écrit ; et voici la doctrine admise en pareille circonstance :
+        </p>
+        <p xml:id="para_9_270_165">
+         Dans aucun cas la femme séduite ne peut plaider sa cause, et demander des dommages-intérêts directement pour elle, soit comme dédommagement de ses soullrances personnelles, soit comme com¬pensation à la perte de son honneur et de sa réputation. Mais, au moyen de la fiction légale fort ancienne citée par De Laya, un parent, ou toute autre personne n loc0 prents, peut réclamer pour lui des dommages-intérêts, s'il peut prouver qu'il a été lésé par suite de la séduction, c'est-à-dire en perdant les services que lui rendait la personne séduite.
+        </p>
+        <p xml:id="para_9_270_166">
+         Les personnes qui, par une tolérance des tribunaux anglais, sont admises à intenter une action en dommages - intérèts pour fait de séduction, sont : le père pour sa ille, le frère pour sa sœur, l'oncle pour sa nièce, le tuteur pou sa pupille, le maître pour sa servante, et euin la Cour de Chancellerie pour les jeunes filles confiées à sa tutelle par testament ( loi du règne de Charles l).
+        </p>
+        <p xml:id="para_9_270_167">
+         Dans toute action, le plaignant doit au préalable prouver qu'il est dans la catégorie des parents ou tuteurs en question, ou qu'il est en voie d'y entrer ; qu'au moment du fait de séduction la per¬sonne séduite lui rendait des services dont la privation lui est onéreuse, quelque peu importants qu'aient été ces services.
+        </p>
+        <p xml:id="para_9_270_168">
+         A ce dernier point de vue la loi est ort tolérante, car on admet comme services le simple lait d'avoir trait une vache ou versé une tasse de thé.
+        </p>
+        <p xml:id="para_9_270_169">
+         Il ne faudrait cependant pas trop compter sur les tribunaux anglais pour en obtenir une constante justice ; car tandis qu'une fille qui couche hors de la maison paternelle, mais vient dans la journée y soigner le ménage, peut, si elle devient enceinte, obtenir une réparation pécuniaire sr la demande de son père : une autre fille qui deeure chez des connaissances en qualitè de femme de charge, et a visiter lréquemment ses parents, n'obtiendra rien si elle se laisse séduire, parce que ses parents n'auront pas le droit de poursuivre, la preuve ne pouvant être fournie qu'elle avait l'intention de rentrer sous le toit paternel. Il y a plus, et ici l'insuf
+         <pb facs="#facs_276" n="271" source="lesouvriersdesde03sociuoft_0279.xml"/>
+         fisance de la loi anglaise touche à l'odieux, elle abandonne les victimes qui auraient le plus droit à sa protection.
+        </p>
+        <p xml:id="para_9_271_171">
+         Ainsi, un père met sa fille en apprentissage chez un fabricant et paie une pension pour un certain nombre d'années. Au bout de quelques mois la fille est séduite par son patro ; elle devient enceinte et, pour donner le jour à son enfant, elle retourne chez son père, sur qui retombent tous les frais de médicamentation, d'entretien et de nourriture de la mère et de l'enfant. ln ce cas, cependant, le père ne peut intenter aucune action civile, attendu que sa fille n'était pas à son service.
+        </p>
+        <p xml:id="para_9_271_172">
+         Si la loi anglaise est indécise à l'égard des preuves à produire en cas de poursuite, elle est très-précise à l'égard de l'âge des femmes pour lesquelles il peut être demandé une réparation. oute femme séduite, quel que soit son âge, quelle que soit sa position, c'est-à-dire fille ou femme mariée séparée de son mari, est protégée par la loi ; et cela n'a rien d'étrange. puisque la loi ne punit point la séduction et qu'elle se borne à réparer le dommage causé. oici un exempe : une femme mariée depuis huit ans, mère de deux enlfants, vivait séparée de son mari depuis cinq ans. lle habitait la maison de son père où elle remplissait les fonctions de domestique. Elle se laissa séduire, devint enceinte et accoucha d'un garçon. Le père intenta une acion en dommages-intérèts contre le séducteur, en se fondant sur la perte des services de sa fille, et il eut gain de cause devant le tribunal.
+        </p>
+        <p xml:id="para_9_271_173">
+         Le séducteur peut échapper à une condamnation, en prouvant qu'il n'est pas le père de l'enfant ; ou que la femme a eu desrapports intimes avec d'autres que lui; ou que la femme est notoirement connue pour vivre de désordre. Toutefois cette dernière allégation ne pourrait que faire réduire la somme des dommages-intérèts à allouer, car la logique de la jurisprudence anglaise dit : s que si le plaigant a perdu les services de la personne séduite, c'est toujours du fait du séducteur, qui ne peut nier l'immoralité de sa propre conduite.
+        </p>
+        <p xml:id="para_9_271_174">
+         On voit par ce qui précède que la législation anglaise ne punit pas la séduction. Elle se borne à allouer des indemnités non à la femme qui a succombé, ais aux parents ou tuteurs qui ont pu souffrir dans leurs intérêts des suites de sa faiblesse. Même à ce point de vue restreint, la loi reste encore si imparaite, si inelicace, qu'il s'est formé à Londres une société protectrice des femmes dite : Society for the suppression of vice (Société pour la suppression du vice)
+        </p>
+        <p xml:id="para_9_271_175">
+         Il ne paraît pas que cette bienfaisante institution, en l'absence de tout texte écrit et formel à invoquer, ait eu les résultats qu'en attendaient ses fondateurs.
+        </p>
+        <p xml:id="para_9_272_176">
+         <pb facs="#facs_277" n="272" source="lesouvriersdesde03sociuoft_0280.xml"/>
+         En France, bien que l'article 340 du code civil interdise la recherche de la paternité, la loi est loin de rester impuissante dans les cas de séduction où les preuves ont le caractère de l'évidence.
+        </p>
+        <p xml:id="para_9_272_177">
+         Ainsi les articles 334 et 535 du code pénal sont une arme vigou¬reuse dans la main du juge pour rapper ceux qui ont abusé d'une fille, en se servant de leur influence, qu'elle résulte de l'âge ou de la position sociale.
+        </p>
+        <p xml:id="para_9_272_178">
+         La loi française inflige des peines corporelles et des amendes, tandis que la loi anglaise n'exige que des dommages-intérets. De plus, la loi francaise considère les illes comme mineures jusqu'à l'âge de seize ans révolus, tandis qu'en Angleterre l'état de minorité cesse à quatorze ans, du moins pour les cas de séduction qualiiés crimes.
+        </p>
+        <p xml:id="para_9_272_179">
+         Il est donc permis de conclure de ce qui précède : que la loi fran¬caise est plus protecrice que la loi anglaise, et que si l'application n'en est pas faite plus iréquemment, cela tient plutôt à nos meurs qu'à l'insuffisance des moyens de répression
+         <ref target="#part_03_01_22" type="renvoi_int_mono">
+          (F)
+         </ref>
+         .
+        </p>
        </div>
        <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_20">(D) SUR LES BOISSONS EN USAGE A LILLE.</head>
-        <p xml:id="para_9_272_181">Dans un pays roid et humide, il serait de première nécessité que les ouvriers pussent laire usage d'une boisson tonique, récon¬fortante et à bon marché. La bière, à en juger par les ingrédiens qui la composent, a des qualites hygiéniques, mais elle est tou¬jours chère. Elle se vend 0ᶠ25 le litre sur les lieux de production ; une barrique de 228 lires reviendrait donc, au détail, à 57ᶠ, c'est¬a-dire au prix des vins ordinaires de la Bourgogne et du Mâconnais dans les années lertiles.</p>
-        <p xml:id="para_9_272_182">Le prix de la biere ne dépend en aucune façon de celui des produits dont elle est extraite ; il reste constamment le même quelles que soient les variations produites das la valeur des grains par l'abondance et la pénurie des marchés.</p>
-        <p xml:id="para_9_272_183">Cet état de choses résule de l'organisation même de la vente des bières a bLille. Tout débit ou estaumiuet appartient à un brasseur qui, seul, y livre de la bière. ll fait au debitant une remise qui s'élève ordinairement à 10ᶠ par rondelle ou tonneau de l160 litres. Le brasseur ne fabrique jamais qu'une quantité de bière déterminée<pb facs="#facs_278" n="273" source="lesouvriersdesde03sociuoft_0281.xml"/>par le nombre de ses estaminets. nin les brasseurs étant peu nombreux, à cause du capital considérable qu'eige leur proiession, ne se font point entre eux de concurence sérieuse. ls ont même été accusés de s'entendre d'une façon illicite, et en 1854 ils ont été traduits devant la police correctionnelle pour délit de coalition.</p>
-        <p xml:id="para_9_273_185">Il est vrai qu'à cette époque les grains èt les houblons étaient très-chers. Le pri de l'hectolire de grain à brasser qui est en moyenne de 12ᶠ valait alors 17a 18ᶠ: et les houblons qui se payent communément 1ᶠ50 à 2ᶠ le kilogramme, se cotaient 7ᶠ50 et Sᶠ. Dans ces conditions, les brasseurs devaient perdre sur leur abrication.</p>
-        <p xml:id="para_9_273_186">Il y a à Lille quatorze brasseries. Il y en avait autrefois un plus grand nombre ; mais les petits établissements ont dû succomber à cause des dépenses énormes qu'occasionne l'entretien du matériel indispensable à cette industrie. Il y avait en outre beaucoup de cabaretiers brasseurs ; eu aussi ont cessé de fabriquer, parce qu'ils ont reconnu qu'il y avait de sérieux avantages à s'approvisionner dans de grands établissements.</p>
-        <p xml:id="para_9_273_187">Le petit nombre des brasseries dans Lille tient à plusieurs causes : le capital considérable à engager ; l'entretien très-coûteux du matériel ; les bénéfices exigus que donne la fabrication quand les grains ne sont pas à très-bas prix ; enin les ennuis que donne l'erercice à domicile.</p>
-        <p xml:id="para_9_273_188">Une petite brasserie qui fait 1,400 rondelles de bières ( à 160 livres) par an dépense environ 1,000ᶠ pour achat et réparation de tonneaux. Un tonneau neuf bien cerclé vaut 16ᶠ. Ces frais sont énormes ; ils représentent 18 00 du prix de vente, c'est-à- dire 4 centimes 12 au litre.</p>
-        <p xml:id="para_9_273_189">Quant au prix de revient de la bière, il est extrêmement difficile de l'établir; il varie comme le prix des grains, et dépend de la quantité de grains employée par les brasseurs. Dans l'arondissement de Lille on compte qu'il faut, pour brasser une rondelle ou tonne de biere, 45 kilogrammes de grain et 1 kilogramme de houblon. ll y aurait à ajouter au prix de ces matières premières l'intérêt de la valeur de l'établissement et celui du fond de roulement, le combus¬tible, la main-d'œuvre, les coulages sur des bières qu'il faut garder six mois en cave avant de les livrer à la consommation, enfin les pertes sur celles qui tournent ou, pour se servir des expressions du métier, deviennent ortes, aigres ou grses.</p>
-        <p xml:id="para_9_273_190">En résumé, les brasseurs de Lille n'ont pas de monopole, mais il serait très -difficile de leur faire concurrence, avec l'organisation actuelle de leur vente, et c'est cette organisation même qui leur a valu d'être poursuivis en police correctionnelle. On reconnaîtra sans peine que si les mots de coaltion et d'accaprement sont<pb facs="#facs_279" n="274" source="lesouvriersdesde03sociuoft_0282.xml"/>aujourd'hui sans signiication avec nos tendances à la liberté illi¬mitée du commerce, la position exceptionnelle prise par les bras¬seurs lillois dans leur localité explique peut-être l'intervention de l'autorité dans les cas ou ils ont voulu élever leurs prix de vente.</p>
-        <p xml:id="para_9_274_194">Il est à regretter que la bière ne puisse être livrée à plus bas prix à la consommation :; car si la consommation des classes ouvrières du Nord, par suite de la cherté des vivres, se portait décidément sur les boissons alcooliques, la statistique ne tarderait pas à en constater les malheureuv effets.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_20">
+         (D) SUR LES BOISSONS EN USAGE A LILLE.
+        </head>
+        <p xml:id="para_9_272_181">
+         Dans un pays roid et humide, il serait de première nécessité que les ouvriers pussent laire usage d'une boisson tonique, récon¬fortante et à bon marché. La bière, à en juger par les ingrédiens qui la composent, a des qualites hygiéniques, mais elle est tou¬jours chère. Elle se vend 0ᶠ25 le litre sur les lieux de production ; une barrique de 228 lires reviendrait donc, au détail, à 57ᶠ, c'est¬a-dire au prix des vins ordinaires de la Bourgogne et du Mâconnais dans les années lertiles.
+        </p>
+        <p xml:id="para_9_272_182">
+         Le prix de la biere ne dépend en aucune façon de celui des produits dont elle est extraite ; il reste constamment le même quelles que soient les variations produites das la valeur des grains par l'abondance et la pénurie des marchés.
+        </p>
+        <p xml:id="para_9_272_183">
+         Cet état de choses résule de l'organisation même de la vente des bières a bLille. Tout débit ou estaumiuet appartient à un brasseur qui, seul, y livre de la bière. ll fait au debitant une remise qui s'élève ordinairement à 10ᶠ par rondelle ou tonneau de l160 litres. Le brasseur ne fabrique jamais qu'une quantité de bière déterminée
+         <pb facs="#facs_278" n="273" source="lesouvriersdesde03sociuoft_0281.xml"/>
+         par le nombre de ses estaminets. nin les brasseurs étant peu nombreux, à cause du capital considérable qu'eige leur proiession, ne se font point entre eux de concurence sérieuse. ls ont même été accusés de s'entendre d'une façon illicite, et en 1854 ils ont été traduits devant la police correctionnelle pour délit de coalition.
+        </p>
+        <p xml:id="para_9_273_185">
+         Il est vrai qu'à cette époque les grains èt les houblons étaient très-chers. Le pri de l'hectolire de grain à brasser qui est en moyenne de 12ᶠ valait alors 17a 18ᶠ: et les houblons qui se payent communément 1ᶠ50 à 2ᶠ le kilogramme, se cotaient 7ᶠ50 et Sᶠ. Dans ces conditions, les brasseurs devaient perdre sur leur abrication.
+        </p>
+        <p xml:id="para_9_273_186">
+         Il y a à Lille quatorze brasseries. Il y en avait autrefois un plus grand nombre ; mais les petits établissements ont dû succomber à cause des dépenses énormes qu'occasionne l'entretien du matériel indispensable à cette industrie. Il y avait en outre beaucoup de cabaretiers brasseurs ; eu aussi ont cessé de fabriquer, parce qu'ils ont reconnu qu'il y avait de sérieux avantages à s'approvisionner dans de grands établissements.
+        </p>
+        <p xml:id="para_9_273_187">
+         Le petit nombre des brasseries dans Lille tient à plusieurs causes : le capital considérable à engager ; l'entretien très-coûteux du matériel ; les bénéfices exigus que donne la fabrication quand les grains ne sont pas à très-bas prix ; enin les ennuis que donne l'erercice à domicile.
+        </p>
+        <p xml:id="para_9_273_188">
+         Une petite brasserie qui fait 1,400 rondelles de bières ( à 160 livres) par an dépense environ 1,000ᶠ pour achat et réparation de tonneaux. Un tonneau neuf bien cerclé vaut 16ᶠ. Ces frais sont énormes ; ils représentent 18 00 du prix de vente, c'est-à- dire 4 centimes 12 au litre.
+        </p>
+        <p xml:id="para_9_273_189">
+         Quant au prix de revient de la bière, il est extrêmement difficile de l'établir; il varie comme le prix des grains, et dépend de la quantité de grains employée par les brasseurs. Dans l'arondissement de Lille on compte qu'il faut, pour brasser une rondelle ou tonne de biere, 45 kilogrammes de grain et 1 kilogramme de houblon. ll y aurait à ajouter au prix de ces matières premières l'intérêt de la valeur de l'établissement et celui du fond de roulement, le combus¬tible, la main-d'œuvre, les coulages sur des bières qu'il faut garder six mois en cave avant de les livrer à la consommation, enfin les pertes sur celles qui tournent ou, pour se servir des expressions du métier, deviennent ortes, aigres ou grses.
+        </p>
+        <p xml:id="para_9_273_190">
+         En résumé, les brasseurs de Lille n'ont pas de monopole, mais il serait très -difficile de leur faire concurrence, avec l'organisation actuelle de leur vente, et c'est cette organisation même qui leur a valu d'être poursuivis en police correctionnelle. On reconnaîtra sans peine que si les mots de coaltion et d'accaprement sont
+         <pb facs="#facs_279" n="274" source="lesouvriersdesde03sociuoft_0282.xml"/>
+         aujourd'hui sans signiication avec nos tendances à la liberté illi¬mitée du commerce, la position exceptionnelle prise par les bras¬seurs lillois dans leur localité explique peut-être l'intervention de l'autorité dans les cas ou ils ont voulu élever leurs prix de vente.
+        </p>
+        <p xml:id="para_9_274_194">
+         Il est à regretter que la bière ne puisse être livrée à plus bas prix à la consommation :; car si la consommation des classes ouvrières du Nord, par suite de la cherté des vivres, se portait décidément sur les boissons alcooliques, la statistique ne tarderait pas à en constater les malheureuv effets.
+        </p>
        </div>
        <div n="005" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_21">(E) SUR LA FÊTE DU BROQUELET.</head>
-        <p xml:id="para_9_274_196">Broquelet est un mot laissé dans le patois de la Flandre (le rou¬chi) par la domination espagnole. ll est assez curieux de voie quelle filiation il a suivie pour arriver jusqu'à nous. Broquelet n'est pas autre chose que Broquelete en espagnol, diminutif de Broquel (bouclier, appui)<note type="bp">
-          <p>On trouve dans Ducange (Dictionnaire de la basse latinité) brochelerium, inter arma vetita, in jure Vicentino, lin. 3, scuto, brochelerio, vel alio insigni arniorum defensibilium. — Notre mot bouclier ne semble pas venir de Là; on en retrouve la véritable racine dans le mot celtique buklari, qui signifie bouclier, et vienl lui-même de buler, ventre.</p>
-         </note>. Or, les dentelieres, assises sur une chaise très¬basse, travaillent sur un carreau d'étolle, renflé par le milieu, qui a la forme d'un bouclier carré, et sur lequel, en outre, elles s'p¬puict pour aire jouer les fuseaux entre leurs doigts. Il serait à désirer que beaucoup d'étyologies présentassent autant de certi¬</p>
-        <p xml:id="para_9_274_197">Le Broquelet a donc dû être primitivement la fête des dentelières travaillant sur le carreau : puis sont venus se joindre à elles les 1ileurs et les retordeurs de il, et de nos jours les écaniciens. L'industrie se développant d'année en année, le goùt des lêtes, qui règne dans le pays, a lait choisir le Broqualet pour fête patronale par d'autres corps de métiers se rattachant de près ou de loin à l'emploi du lil : tels sont les lileurs de coton et de il d'lcosse, etc.</p>
-        <p xml:id="para_9_274_198">Le Broquelet, comme presque toutes les fêtes d'ouvriers, est un jou de réjouissances, de libations démesurées, de repas prolongés et de danses de jour et de nuit.</p>
-        <p xml:id="para_9_274_199">Dès le matin, les ouvriers se rendent au cabaret pour boire du<pb facs="#facs_280" n="275" source="lesouvriersdesde03sociuoft_0283.xml"/>genièvre (produit de la distillation de l'alcool sur des baies de genévrier ; le choc des verres conduit à midi, heure traditionnelle du diner. Ce repas, qui réunit les membres de toute une famille et presque toujours des amis, se compose ordinairement d'un lapin assaisonné d'oignons et de pruneaux, desaucissons et d'une tête de veau à l'huile ; la boisson est invariablement la bière que suivent le café et les liqueurs fortes. On reprend ensuite la bière, et les pipes s'allument jusqu'au moment de partir pour le bal.</p>
-        <p xml:id="para_9_275_202">Jusqu'à ces dernieres anuées, un seul établissement semblait avoir le privilégge de servir à toutes les fêtes patronales : c'était la ouvelle-Aveture, ancienne maison de campagne princière, située en dehors des murs, à 2 kilomètres environ de la ville, et composée d'un long bâtiment lanqué de liosques surhaussés.</p>
-        <p xml:id="para_9_275_203">L'établissement avait par devant une grande cour fermée de grilles, et par derrière une vaste pelouse et des avenues couvertes de feuillage et impénétrables aux rayons du soleil.</p>
-        <p xml:id="para_9_275_204">Les danses commençaient vers deux heures de l'après-midi et se prolongeaient jusqu'à minuit et quelquelois jusqu'au lendemain matin.</p>
-        <p xml:id="para_9_275_205">La Nouvelle-Aventure, établissement unique en France pour ses dispositions grandioses tant à l'intérieur qu'à l'extérieur, pouvait recevoir au moins 20,000 personnes : aujourd'hui, abandonné et tombé en ruines, il doit être démoli pour faire place à une grande artère de la ville nouvelle.</p>
-        <p xml:id="para_9_275_206">Les ouvriers les plus aisés se rendent au bal en voiture, d'autres en oinaigrette, sorte de chaise à porteurs montée sur deux roues, que traîne un homme attelé comme un cheval, et que pousse une emme, obligée pour cela de se mettre dans la position la plus fati¬gante. On ne trouverait probablement plus ce dernier véhicule ailleurs qu'à Lille ; ce n'est pas à regretter, car il n'est rien de plus affligeant que de rencontrer un être humain translormé en bête de trait, et il n'est pas rare, en été, par les grandes chaleurs, de voir quelques-uns de ceux qui traînent les vinigrttes tomber d'apo¬plexie au bout d'une course.</p>
-        <p xml:id="para_9_275_207">Il y a 2 ou 30 ans les ouvriers du roquelet ornaient leur voi¬ture de fête avec des guirlandes.... de saucisses, entremêlées de fleurs, qu'on allait faire cuire dans un cabaret où l'on dinait, chantait et dansait.</p>
-        <p xml:id="para_9_275_208">Le lendemain de la fête, il est d'usage de se rendre en pèlerinage à Loos, petit village à une lieue de lLille, ou se trouve un vaste établissement pénitentiaire ; là, apres avoir allumé un cierge à Notre-Dame, on va boire et l'on danse. Ce sont les derniers éclats de joie de la solennité du roquelet.</p>
-        <p xml:id="para_9_276_209"><pb facs="#facs_281" n="276" source="lesouvriersdesde03sociuoft_0284.xml"/> La fête du Broquelet entraîne tous les ouvriers. qui la célèbrent dans de grandes dépenses, et pour y faire face ils ont recours à tous les moyens.</p>
-        <p xml:id="para_9_276_210">Trois mois avant la solennité, qui a lieu le 9 mai de chaque année, si c'est un lundi, ou le lundi qui suit imédiatement cette date, on commence à laire des économes, non-seulement sur le nécessaire, mais même sur l'indispensable, sans toutetois toucher au superflu ; dans le dernier mois qui précède la lete, on ne paye ni le boulanger, ni le boucher, ni l'épicier (appelé grissier<note type="bp">
-          <p>Graissier ne vient pas de graisse : il sort dun mot danois krydder (pron. kruzzer), épice, qui fait en hollandais kruid, épice, plante aromatique, et kruidenier, épicier. On retrouve une autre transformation du mot danois krydder, dans le mot nglais grocer, épicier, qui se rapproche beaucoup de graissier.</p>
-         </note>dans le pays) : on recourt au besoin à l'emprunt chez des amis ; entin la veille du grand jour, ou demande l'avance d'une quinzaine au patron. On peut ainsi réunir 100 ou l20ᶠ qui disparaitront le len¬demain sans laisser de trace. ll est vrai qu'avec une partie de cet argent on aura dégagé des vêtements neus du mont-de-piété, ou on pourra les reporter après la ète pour subvenir aux premiers besoins de l'existence. Mais si l'on considère les économies que font ces ouvriers pendant trois mois avant la fête, les dettes qu'ils con¬tractent chez leurs lournisseurs ou chez leurs anmis, et les avances qu'ils preunnent chez leur patron et qui seront a rembourser, on peut, sans exaggération, dire qu'ils dépenseunt en un jour, aux dépens de leur saté, six mois de bien-être et de vie paisible.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_21">
+         (E) SUR LA FÊTE DU BROQUELET.
+        </head>
+        <p xml:id="para_9_274_196">
+         Broquelet est un mot laissé dans le patois de la Flandre (le rou¬chi) par la domination espagnole. ll est assez curieux de voie quelle filiation il a suivie pour arriver jusqu'à nous. Broquelet n'est pas autre chose que Broquelete en espagnol, diminutif de Broquel (bouclier, appui)
+         <note type="bp">
+          <p>
+           On trouve dans Ducange (Dictionnaire de la basse latinité) brochelerium, inter arma vetita, in jure Vicentino, lin. 3, scuto, brochelerio, vel alio insigni arniorum defensibilium. — Notre mot bouclier ne semble pas venir de Là; on en retrouve la véritable racine dans le mot celtique buklari, qui signifie bouclier, et vienl lui-même de buler, ventre.
+          </p>
+         </note>
+         . Or, les dentelieres, assises sur une chaise très¬basse, travaillent sur un carreau d'étolle, renflé par le milieu, qui a la forme d'un bouclier carré, et sur lequel, en outre, elles s'p¬puict pour aire jouer les fuseaux entre leurs doigts. Il serait à désirer que beaucoup d'étyologies présentassent autant de certi¬
+        </p>
+        <p xml:id="para_9_274_197">
+         Le Broquelet a donc dû être primitivement la fête des dentelières travaillant sur le carreau : puis sont venus se joindre à elles les 1ileurs et les retordeurs de il, et de nos jours les écaniciens. L'industrie se développant d'année en année, le goùt des lêtes, qui règne dans le pays, a lait choisir le Broqualet pour fête patronale par d'autres corps de métiers se rattachant de près ou de loin à l'emploi du lil : tels sont les lileurs de coton et de il d'lcosse, etc.
+        </p>
+        <p xml:id="para_9_274_198">
+         Le Broquelet, comme presque toutes les fêtes d'ouvriers, est un jou de réjouissances, de libations démesurées, de repas prolongés et de danses de jour et de nuit.
+        </p>
+        <p xml:id="para_9_274_199">
+         Dès le matin, les ouvriers se rendent au cabaret pour boire du
+         <pb facs="#facs_280" n="275" source="lesouvriersdesde03sociuoft_0283.xml"/>
+         genièvre (produit de la distillation de l'alcool sur des baies de genévrier ; le choc des verres conduit à midi, heure traditionnelle du diner. Ce repas, qui réunit les membres de toute une famille et presque toujours des amis, se compose ordinairement d'un lapin assaisonné d'oignons et de pruneaux, desaucissons et d'une tête de veau à l'huile ; la boisson est invariablement la bière que suivent le café et les liqueurs fortes. On reprend ensuite la bière, et les pipes s'allument jusqu'au moment de partir pour le bal.
+        </p>
+        <p xml:id="para_9_275_202">
+         Jusqu'à ces dernieres anuées, un seul établissement semblait avoir le privilégge de servir à toutes les fêtes patronales : c'était la ouvelle-Aveture, ancienne maison de campagne princière, située en dehors des murs, à 2 kilomètres environ de la ville, et composée d'un long bâtiment lanqué de liosques surhaussés.
+        </p>
+        <p xml:id="para_9_275_203">
+         L'établissement avait par devant une grande cour fermée de grilles, et par derrière une vaste pelouse et des avenues couvertes de feuillage et impénétrables aux rayons du soleil.
+        </p>
+        <p xml:id="para_9_275_204">
+         Les danses commençaient vers deux heures de l'après-midi et se prolongeaient jusqu'à minuit et quelquelois jusqu'au lendemain matin.
+        </p>
+        <p xml:id="para_9_275_205">
+         La Nouvelle-Aventure, établissement unique en France pour ses dispositions grandioses tant à l'intérieur qu'à l'extérieur, pouvait recevoir au moins 20,000 personnes : aujourd'hui, abandonné et tombé en ruines, il doit être démoli pour faire place à une grande artère de la ville nouvelle.
+        </p>
+        <p xml:id="para_9_275_206">
+         Les ouvriers les plus aisés se rendent au bal en voiture, d'autres en oinaigrette, sorte de chaise à porteurs montée sur deux roues, que traîne un homme attelé comme un cheval, et que pousse une emme, obligée pour cela de se mettre dans la position la plus fati¬gante. On ne trouverait probablement plus ce dernier véhicule ailleurs qu'à Lille ; ce n'est pas à regretter, car il n'est rien de plus affligeant que de rencontrer un être humain translormé en bête de trait, et il n'est pas rare, en été, par les grandes chaleurs, de voir quelques-uns de ceux qui traînent les vinigrttes tomber d'apo¬plexie au bout d'une course.
+        </p>
+        <p xml:id="para_9_275_207">
+         Il y a 2 ou 30 ans les ouvriers du roquelet ornaient leur voi¬ture de fête avec des guirlandes.... de saucisses, entremêlées de fleurs, qu'on allait faire cuire dans un cabaret où l'on dinait, chantait et dansait.
+        </p>
+        <p xml:id="para_9_275_208">
+         Le lendemain de la fête, il est d'usage de se rendre en pèlerinage à Loos, petit village à une lieue de lLille, ou se trouve un vaste établissement pénitentiaire ; là, apres avoir allumé un cierge à Notre-Dame, on va boire et l'on danse. Ce sont les derniers éclats de joie de la solennité du roquelet.
+        </p>
+        <p xml:id="para_9_276_209">
+         <pb facs="#facs_281" n="276" source="lesouvriersdesde03sociuoft_0284.xml"/>
+         La fête du Broquelet entraîne tous les ouvriers. qui la célèbrent dans de grandes dépenses, et pour y faire face ils ont recours à tous les moyens.
+        </p>
+        <p xml:id="para_9_276_210">
+         Trois mois avant la solennité, qui a lieu le 9 mai de chaque année, si c'est un lundi, ou le lundi qui suit imédiatement cette date, on commence à laire des économes, non-seulement sur le nécessaire, mais même sur l'indispensable, sans toutetois toucher au superflu ; dans le dernier mois qui précède la lete, on ne paye ni le boulanger, ni le boucher, ni l'épicier (appelé grissier
+         <note type="bp">
+          <p>
+           Graissier ne vient pas de graisse : il sort dun mot danois krydder (pron. kruzzer), épice, qui fait en hollandais kruid, épice, plante aromatique, et kruidenier, épicier. On retrouve une autre transformation du mot danois krydder, dans le mot nglais grocer, épicier, qui se rapproche beaucoup de graissier.
+          </p>
+         </note>
+         dans le pays) : on recourt au besoin à l'emprunt chez des amis ; entin la veille du grand jour, ou demande l'avance d'une quinzaine au patron. On peut ainsi réunir 100 ou l20ᶠ qui disparaitront le len¬demain sans laisser de trace. ll est vrai qu'avec une partie de cet argent on aura dégagé des vêtements neus du mont-de-piété, ou on pourra les reporter après la ète pour subvenir aux premiers besoins de l'existence. Mais si l'on considère les économies que font ces ouvriers pendant trois mois avant la fête, les dettes qu'ils con¬tractent chez leurs lournisseurs ou chez leurs anmis, et les avances qu'ils preunnent chez leur patron et qui seront a rembourser, on peut, sans exaggération, dire qu'ils dépenseunt en un jour, aux dépens de leur saté, six mois de bien-être et de vie paisible.
+        </p>
        </div>
        <div n="006" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_22">(F) SUR LA COMPARAISON DES DIVERSES LÉGISLATIONS CONCERNANT LA SÉDUCTION.</head>
-        <p>PAR MM. A. GIGOT, avocat . et AUGUSTE ROGUÈS</p>
-        <p xml:id="para_9_276_212">I. L'observation des faits de séduction qui se multiplient avec une si déplorable facilité parmi les populations ouvrières de nos grandes villes conduit a se demander jusqu'à quel point la législa¬tion actuelle permet d'arrêter le développement de ce mal et quelles odilications pourraient être introduites dams nos lois pour suppléer à ce qu'elles ont encore d'insuflisant.</p>
-        <p xml:id="para_9_276_213">Il convient d'en exauminer successivement les dispositions au point de vue de la répression pénale et de la réparation civile.</p>
-        <p xml:id="para_9_276_214">II. L'ancien droit français, suivant en ce point les principes du droit romain, plaçait au nombre des crimes et délits le stupre, c'est<pb facs="#facs_282" n="277" source="lesouvriersdesde03sociuoft_0285.xml"/>à-dire le fait d'abuser d'une fille honnête au moyen d'une promesse de mariage ou d'un autre artifice. La peine était arbitraire et pro¬portionnée aux circonstance qui av aient accompagné le fait. La répression était, dans certains cas, d'une extrême rigueur. D'après la coutume de Bordeaux, généralisée par la déclaraion royale du 22 novembre 1730, la peine capitale était applicable au domestique qui avait suborné  la femme, la fille ou la nièce du logis.</p>
-        <p xml:id="para_9_277_218">Cette léggislation fut modifiée par l'assemblée constituante : la loi pénale se borne à punir ce que l'ancien droit nommait le rpt de rviolence exercé à l'égard d'une mineure, et le détournement même sans violence ni fraude d'une jeune fille de moins de 16 ans. Il est curieu, pour apprécier les motifs de cette réforme, de se reporter au singulier langage du rapporteur du Code pénal du 25 septembre 1791.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_22">
+         (F) SUR LA COMPARAISON DES DIVERSES LÉGISLATIONS CONCERNANT LA SÉDUCTION.
+        </head>
+        <p>
+         PAR MM. A. GIGOT, avocat . et AUGUSTE ROGUÈS
+        </p>
+        <p xml:id="para_9_276_212">
+         I. L'observation des faits de séduction qui se multiplient avec une si déplorable facilité parmi les populations ouvrières de nos grandes villes conduit a se demander jusqu'à quel point la législa¬tion actuelle permet d'arrêter le développement de ce mal et quelles odilications pourraient être introduites dams nos lois pour suppléer à ce qu'elles ont encore d'insuflisant.
+        </p>
+        <p xml:id="para_9_276_213">
+         Il convient d'en exauminer successivement les dispositions au point de vue de la répression pénale et de la réparation civile.
+        </p>
+        <p xml:id="para_9_276_214">
+         II. L'ancien droit français, suivant en ce point les principes du droit romain, plaçait au nombre des crimes et délits le stupre, c'est
+         <pb facs="#facs_282" n="277" source="lesouvriersdesde03sociuoft_0285.xml"/>
+         à-dire le fait d'abuser d'une fille honnête au moyen d'une promesse de mariage ou d'un autre artifice. La peine était arbitraire et pro¬portionnée aux circonstance qui av aient accompagné le fait. La répression était, dans certains cas, d'une extrême rigueur. D'après la coutume de Bordeaux, généralisée par la déclaraion royale du 22 novembre 1730, la peine capitale était applicable au domestique qui avait suborné  la femme, la fille ou la nièce du logis.
+        </p>
+        <p xml:id="para_9_277_218">
+         Cette léggislation fut modifiée par l'assemblée constituante : la loi pénale se borne à punir ce que l'ancien droit nommait le rpt de rviolence exercé à l'égard d'une mineure, et le détournement même sans violence ni fraude d'une jeune fille de moins de 16 ans. Il est curieu, pour apprécier les motifs de cette réforme, de se reporter au singulier langage du rapporteur du Code pénal du 25 septembre 1791.
+        </p>
         <p xml:id="para_9_277_219">
          « Nous avons pensé, dit-il, que lorsqu'il s'agit d'une fille de l6 ans, la séduction, que la nature n'avait pas mise au rang des crimes, ne pouvait y être placée par la société. Il est si difficile à cette époque de la vie, ou la précocité du sexe ajoute à une excessive sensibilité, de démeler l'efle de la séduction de l'abandon volon¬taire. Quand les atteintes portées au cœur peuvent être réciproques, comment distinguer le trait qui l'a blessé ? Comment reconnaître l'agresseur dans un combat où le vainqueur et le vaincu sont moins ennemis que complices. »
         </p>
-        <p xml:id="para_9_277_220">Le Code pénal de 1810 s'est conformé, en cette matière, aux dispositions du Code de 1791.</p>
-        <p xml:id="para_9_277_221">L'article 34 punit de la réclusion le fait d'avoir détourné un mineur de l'un ou de l'aure sexe, et de l'avoir soustrait à l'autorité de ses parents, quel que soit d'ailleurs le but de ce détournement. Les articles 355 et 356 punissent des travaux forcés à temps l'en¬lèvement, avec ou sans violence, d'une jeune fille mineure de 16 ans. La peine de l'emprisonnement est seule prononcée lorsque le ravisseur est lui-même âgé de moins de 21 ans.</p>
-        <p xml:id="para_9_277_222">Comme on le voit par la lecture de ces articles, ce qui constitue la criminalité de l'acte c'est le fait matériel de l'enlevment : quant à la séduction elle-même elle est impunie, quel que soit l'âge de la personne séduite, quels que soient les moyens employés par le séducteur pour tromper et entraîner sa victime.</p>
-        <p xml:id="para_9_277_223">Cependant, quelques jurisconsultes, rappés du caractère parti¬culier de gravité que pouv aient présenter, dans certauins cas, les faits de séduction, ont pensé que les circonstances dans lesquelles ces faits se seraient produits pourraient justifier quelquefois l'appli¬cation des dispositions de l'art. 334 du Code pénal ainsi conçu :</p>
+        <p xml:id="para_9_277_220">
+         Le Code pénal de 1810 s'est conformé, en cette matière, aux dispositions du Code de 1791.
+        </p>
+        <p xml:id="para_9_277_221">
+         L'article 34 punit de la réclusion le fait d'avoir détourné un mineur de l'un ou de l'aure sexe, et de l'avoir soustrait à l'autorité de ses parents, quel que soit d'ailleurs le but de ce détournement. Les articles 355 et 356 punissent des travaux forcés à temps l'en¬lèvement, avec ou sans violence, d'une jeune fille mineure de 16 ans. La peine de l'emprisonnement est seule prononcée lorsque le ravisseur est lui-même âgé de moins de 21 ans.
+        </p>
+        <p xml:id="para_9_277_222">
+         Comme on le voit par la lecture de ces articles, ce qui constitue la criminalité de l'acte c'est le fait matériel de l'enlevment : quant à la séduction elle-même elle est impunie, quel que soit l'âge de la personne séduite, quels que soient les moyens employés par le séducteur pour tromper et entraîner sa victime.
+        </p>
+        <p xml:id="para_9_277_223">
+         Cependant, quelques jurisconsultes, rappés du caractère parti¬culier de gravité que pouv aient présenter, dans certauins cas, les faits de séduction, ont pensé que les circonstances dans lesquelles ces faits se seraient produits pourraient justifier quelquefois l'appli¬cation des dispositions de l'art. 334 du Code pénal ainsi conçu :
+        </p>
         <p xml:id="para_9_277_224">
          » Quiconque aura attenté aux murs, en excitant, lavorisant ou
-         <pb facs="#facs_283" n="278" source="lesouvriersdesde03sociuoft_0286.xml"/>facilitant habituellement la débauche ou la corruption de la jeunesse de l'un ou de l'autre sexe au-dessous de l'âge de 21 ans, sera puni d'un emprisonnement de 6 mois à 2 ans et d'une amende de 50ᶠ a 200ᶠ. Si la prostitution ou la corruption a été excitée, favorisée ou facilitée par leurs pères, mères, tuteurs ou autres personnes char¬gées de leur surveillance, la peine sera de 2 ans à  ans d'empri¬sonnement et de 300ᶠ à 1,000ᶠ d'amende. »</p>
-        <p xml:id="para_9_278_226">La Cour de cassation avait admis cette interprétation, non sans quelque hésitation, sur deux arrêts de la chambre criminelle du 18 avril 1828 et du 17 août 1839. Mais la jurisprudence s'est depuis cette époque fixée en sens contraire. Un arrêt du 18 juin 1840, rendu, toutes chambres réunies, sur les conclusions de M. le procu¬reur général Dupin, a jugé que l'art. 334 n'était applicable qu'aux proxénètes et ne pouvait être étendu à ceux qui excitent ou lfavo¬risent la corruption d'autrui pour satisfaire leurs passions per¬sonnelles.</p>
-        <p xml:id="para_9_278_227">Cette jurisprudence, qui a été consacrée en Belgique par voie d'interprétation législative le 31 mars 1844, a été invariablement maintenue par la Cour suprème. (Voir notamment les arrêts des 17 mai 1848, 24 mars 1853, 19 août 1853, 17 avril 1854).</p>
-        <p xml:id="para_9_278_228">Il faut reconnaitre que cette jurisprudence repose sur une saine interprétation de la loi. L'examen des discussions qui ont précédé le Code pénal de 1791 et celui de 1810 prouve jusqu'à l'evi¬dence que le législateur a eu uniquement en vue, selon les termes du message adressé le 17 nivôse an 4 par le Directoire exécutif au conseil des Cinq-tCents, « le métier infâme de ceux qui débau¬chent et prostituent la jeunesse ». Il est diflicile d'ailleurs d'appli¬quer les mêmes dispositions pénales à cette honteuse industrie et aux faits de séduction, quelque coupables qu'ils puissent être. Aussi l'ancienne législation qui punissait à la fois le proxénétisme et la séduction en avait-elle fait deux délits distincts soumis à des peines diférentes.</p>
-        <p xml:id="para_9_278_229">Il resterait à examiner s'il serait utile de remettre en vigueur ces dispositions de notre ancien droit. Nous croyons qu'une sem¬blable tentative soulèverait de sérieuses objections. Nous n'invo¬querions pas pour la rcpousser les arguments du rapporteur du code de 1791, mais nous nous rattacherions volontiers à l'opinion d'un des écrivains qui ont porté dans l'étude du droit pénal les inspira¬tions les plus élevées et les plus pures.</p>
-        <p xml:id="para_9_278_230">En voulant punir certaines inractions aux lois de la chasteté et de la pudeur, a dit M. Rossi, la justice sociale dépasserait son droit, parce qu'elle n'a pas les moyens de vérifier ces faits, et qu'en essayant ces preuves, elle produirait plus de mal par le scandale des<pb facs="#facs_284" n="279" source="lesouvriersdesde03sociuoft_0287.xml"/>poursuites, que la menace de la peine ne produirait d'avantages. (Traité du droit pénal, 1ᵉʳ vol., p. 277.)</p>
-        <p xml:id="para_9_279_232">III. Si l'on ne peut trouver dans la loi pénale un remède à ces désordres, la législation civile sera-t-elle également impuissante . Le séducteur n'aura-t-il à encourir aucune responsabilié  La fille séduite ne pourra-t-elle obtenir aucune réparation bDans l'ancien droit, la réponse à ces questions était facile. Si le séducteur avait promis le mariage il pouvait être sommé devant la justice de rem¬plir sa promesse. Les promesses de mariage étaient assimilées aux iançailles et leur inexécution donnait lieu a des dommages-intérêts. Si la fille séduite était devenue mère, elle pouvait également obtenir des dommages-intérèts alors même qu'aucune promesse de mariage n'était intervenue. La recherche de la paternité était permise, et le père qui n'avait pas reconnu son enfant n'en était pas moins obligé de pourvoir à son entretien<note type="bp">
-          <p>On trouve, dans le Journal des audiences, un arêt du 21 février 1650 qui a condamné le sieur de La Gotterie à payer 4,800 livres parisis à la demoiselle Marie Choquel, pour dommages et intérêts et pour aider à la marier, si mieux il n'aimait l'épouser (ce qu'il serait tenu d'opter dans les trois jours), et à une aumône de 160 livres pour le pain des prisonniers. Le même recueil rapporte un autre arrêt du 19 juillet 1600, par lequel Etienne Bodin, docteur en médecine, et Nicolas Bodin, son fils mineur, sont condamnés à se charger de l'enfant dont Marie Fionière était accouchée, à le faire nourrir, etc., et aux dépens. Par le même arrêt, Nicolas Bodin et Marie Fionière ont été condamnés à payer chacun une amende de 16 livres pour le pain des prisonniers.</p>
-         </note>.</p>
-        <p xml:id="para_9_279_233">La question est plus complexe sous l'empire du code Napoléon. Aux termes de l'art. 1382 de ce code, tout ait quelconque de l'homme qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer. ne fille abusée par une promesse de mariage, séduite et devenue mère, peut incontestablement se prévaloir de cet article pour intenter contre son séducteur une demande en dommages-intérêts. Mais d'un autre côté, l'art. 340 du code interdit la recherche de la paternité, et la cour de cassation a constamment jugé que les promesses de mariage devaient être tenues pour nulles comme contraires au principe de la liberté des mariages. (Arrêts des mars 1836 et 30 mai 1838. Siregˉ, 3S, 1, 492.)</p>
-        <p xml:id="para_9_279_234">La jurisprudence a eu quelque peine à concilier ces dispositions entre elles. oici cependant ce qu'il est permis de conclure au milieu de la divergence de ses arrèts et des opinions des auteurs.</p>
-        <p xml:id="para_9_279_235">La promesse de mariage est nulle : la personne à qui elle a été aite ne peut en réclamer l'exécution ; mais si, par suite de cette promesse, un prejudice a été éprouvé, l'auteur de ce préjudice en doit la réparation ; la promesse de mariage sera la use du préju¬dice, et le titre écrit qui le constatera poura être invoqué à l'appui<pb facs="#facs_285" n="280" source="lesouvriersdesde03sociuoft_0288.xml"/>d'une demande en dommages-intérêts. (Cass. 24 mars 1845. Dallos, 45, 1, 177.) Quant à la nature de préjudice qui donnera ouver¬ture à une semblable demande, la jurisprudence n'est pas fixée : tantôt elle a admis que le préjudice matériel pouvait être invoqué. (Colmar, 23 janvier 1833. Dallos, 38, 2, 201) ; tantôt elle a étendu l'applicaion de l'aruicle 1382 au préjudice moral. (Toulouse, 13 mai 1842. Dallos, 43, 1, 31.) Il est incontestable, dans tous les cas, que la fille séduite et abandonnée, après avoir été rendue mère, éprouve un préjudice matériel. Mais pourra-t-elle intenter contre son séducteur une action en dommages-intérets sans violer la règle de l'art. 340 qui interdit la recherche de la paternité ? Plusieurs arrêts de la Cour de cassation et des cours impériales ont résolu la question affirmativement. (Cass. 26 mas 1845. Caen, 6 juin 1850. Montpellier, 10 mai 1851.) Voici le texte de l'arrèt de la Cour de cassation du 24 mars 1845 :</p>
+         <pb facs="#facs_283" n="278" source="lesouvriersdesde03sociuoft_0286.xml"/>
+         facilitant habituellement la débauche ou la corruption de la jeunesse de l'un ou de l'autre sexe au-dessous de l'âge de 21 ans, sera puni d'un emprisonnement de 6 mois à 2 ans et d'une amende de 50ᶠ a 200ᶠ. Si la prostitution ou la corruption a été excitée, favorisée ou facilitée par leurs pères, mères, tuteurs ou autres personnes char¬gées de leur surveillance, la peine sera de 2 ans à  ans d'empri¬sonnement et de 300ᶠ à 1,000ᶠ d'amende. »
+        </p>
+        <p xml:id="para_9_278_226">
+         La Cour de cassation avait admis cette interprétation, non sans quelque hésitation, sur deux arrêts de la chambre criminelle du 18 avril 1828 et du 17 août 1839. Mais la jurisprudence s'est depuis cette époque fixée en sens contraire. Un arrêt du 18 juin 1840, rendu, toutes chambres réunies, sur les conclusions de M. le procu¬reur général Dupin, a jugé que l'art. 334 n'était applicable qu'aux proxénètes et ne pouvait être étendu à ceux qui excitent ou lfavo¬risent la corruption d'autrui pour satisfaire leurs passions per¬sonnelles.
+        </p>
+        <p xml:id="para_9_278_227">
+         Cette jurisprudence, qui a été consacrée en Belgique par voie d'interprétation législative le 31 mars 1844, a été invariablement maintenue par la Cour suprème. (Voir notamment les arrêts des 17 mai 1848, 24 mars 1853, 19 août 1853, 17 avril 1854).
+        </p>
+        <p xml:id="para_9_278_228">
+         Il faut reconnaitre que cette jurisprudence repose sur une saine interprétation de la loi. L'examen des discussions qui ont précédé le Code pénal de 1791 et celui de 1810 prouve jusqu'à l'evi¬dence que le législateur a eu uniquement en vue, selon les termes du message adressé le 17 nivôse an 4 par le Directoire exécutif au conseil des Cinq-tCents, « le métier infâme de ceux qui débau¬chent et prostituent la jeunesse ». Il est diflicile d'ailleurs d'appli¬quer les mêmes dispositions pénales à cette honteuse industrie et aux faits de séduction, quelque coupables qu'ils puissent être. Aussi l'ancienne législation qui punissait à la fois le proxénétisme et la séduction en avait-elle fait deux délits distincts soumis à des peines diférentes.
+        </p>
+        <p xml:id="para_9_278_229">
+         Il resterait à examiner s'il serait utile de remettre en vigueur ces dispositions de notre ancien droit. Nous croyons qu'une sem¬blable tentative soulèverait de sérieuses objections. Nous n'invo¬querions pas pour la rcpousser les arguments du rapporteur du code de 1791, mais nous nous rattacherions volontiers à l'opinion d'un des écrivains qui ont porté dans l'étude du droit pénal les inspira¬tions les plus élevées et les plus pures.
+        </p>
+        <p xml:id="para_9_278_230">
+         En voulant punir certaines inractions aux lois de la chasteté et de la pudeur, a dit M. Rossi, la justice sociale dépasserait son droit, parce qu'elle n'a pas les moyens de vérifier ces faits, et qu'en essayant ces preuves, elle produirait plus de mal par le scandale des
+         <pb facs="#facs_284" n="279" source="lesouvriersdesde03sociuoft_0287.xml"/>
+         poursuites, que la menace de la peine ne produirait d'avantages. (Traité du droit pénal, 1ᵉʳ vol., p. 277.)
+        </p>
+        <p xml:id="para_9_279_232">
+         III. Si l'on ne peut trouver dans la loi pénale un remède à ces désordres, la législation civile sera-t-elle également impuissante . Le séducteur n'aura-t-il à encourir aucune responsabilié  La fille séduite ne pourra-t-elle obtenir aucune réparation bDans l'ancien droit, la réponse à ces questions était facile. Si le séducteur avait promis le mariage il pouvait être sommé devant la justice de rem¬plir sa promesse. Les promesses de mariage étaient assimilées aux iançailles et leur inexécution donnait lieu a des dommages-intérêts. Si la fille séduite était devenue mère, elle pouvait également obtenir des dommages-intérèts alors même qu'aucune promesse de mariage n'était intervenue. La recherche de la paternité était permise, et le père qui n'avait pas reconnu son enfant n'en était pas moins obligé de pourvoir à son entretien
+         <note type="bp">
+          <p>
+           On trouve, dans le Journal des audiences, un arêt du 21 février 1650 qui a condamné le sieur de La Gotterie à payer 4,800 livres parisis à la demoiselle Marie Choquel, pour dommages et intérêts et pour aider à la marier, si mieux il n'aimait l'épouser (ce qu'il serait tenu d'opter dans les trois jours), et à une aumône de 160 livres pour le pain des prisonniers. Le même recueil rapporte un autre arrêt du 19 juillet 1600, par lequel Etienne Bodin, docteur en médecine, et Nicolas Bodin, son fils mineur, sont condamnés à se charger de l'enfant dont Marie Fionière était accouchée, à le faire nourrir, etc., et aux dépens. Par le même arrêt, Nicolas Bodin et Marie Fionière ont été condamnés à payer chacun une amende de 16 livres pour le pain des prisonniers.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_9_279_233">
+         La question est plus complexe sous l'empire du code Napoléon. Aux termes de l'art. 1382 de ce code, tout ait quelconque de l'homme qui cause à autrui un dommage, oblige celui par la faute duquel il est arrivé à le réparer. ne fille abusée par une promesse de mariage, séduite et devenue mère, peut incontestablement se prévaloir de cet article pour intenter contre son séducteur une demande en dommages-intérêts. Mais d'un autre côté, l'art. 340 du code interdit la recherche de la paternité, et la cour de cassation a constamment jugé que les promesses de mariage devaient être tenues pour nulles comme contraires au principe de la liberté des mariages. (Arrêts des mars 1836 et 30 mai 1838. Siregˉ, 3S, 1, 492.)
+        </p>
+        <p xml:id="para_9_279_234">
+         La jurisprudence a eu quelque peine à concilier ces dispositions entre elles. oici cependant ce qu'il est permis de conclure au milieu de la divergence de ses arrèts et des opinions des auteurs.
+        </p>
+        <p xml:id="para_9_279_235">
+         La promesse de mariage est nulle : la personne à qui elle a été aite ne peut en réclamer l'exécution ; mais si, par suite de cette promesse, un prejudice a été éprouvé, l'auteur de ce préjudice en doit la réparation ; la promesse de mariage sera la use du préju¬dice, et le titre écrit qui le constatera poura être invoqué à l'appui
+         <pb facs="#facs_285" n="280" source="lesouvriersdesde03sociuoft_0288.xml"/>
+         d'une demande en dommages-intérêts. (Cass. 24 mars 1845. Dallos, 45, 1, 177.) Quant à la nature de préjudice qui donnera ouver¬ture à une semblable demande, la jurisprudence n'est pas fixée : tantôt elle a admis que le préjudice matériel pouvait être invoqué. (Colmar, 23 janvier 1833. Dallos, 38, 2, 201) ; tantôt elle a étendu l'applicaion de l'aruicle 1382 au préjudice moral. (Toulouse, 13 mai 1842. Dallos, 43, 1, 31.) Il est incontestable, dans tous les cas, que la fille séduite et abandonnée, après avoir été rendue mère, éprouve un préjudice matériel. Mais pourra-t-elle intenter contre son séducteur une action en dommages-intérets sans violer la règle de l'art. 340 qui interdit la recherche de la paternité ? Plusieurs arrêts de la Cour de cassation et des cours impériales ont résolu la question affirmativement. (Cass. 26 mas 1845. Caen, 6 juin 1850. Montpellier, 10 mai 1851.) Voici le texte de l'arrèt de la Cour de cassation du 24 mars 1845 :
+        </p>
         <p xml:id="para_9_280_237">
          « Attendu qu'il ne s'agissait pas devant la Cour royale de recher¬cher quel était le père de l'enfant dont la demoiselle Baysse est accou¬chée ; que l'enfant, étranger au debat, ne pouvait en aucun cas ni souffir ni profiter de la décision à intervenir ; que l'unique ques¬tion soumise aux juges d'appel était de savoir si le demandeur en cassation avait causé à la demoiselle Baysse un préjudice qu'il fût tenu de réparer ;
         </p>
         <p xml:id="para_9_280_238">
          « Attendu qu'il est constaté par l'arrêt que Labia a delaissé la fille Baysse apres ˉl'avoir séduite, qu'il est la seule et unique cause du dommage considérable qu'elle éprouve ; que la conséquence légale de ces faits était pour Labia l'obligation de réparer un tort qui ne pouvait être imputé qu'à lui ; qu'ainsi c'est avec juste raison que l'arrêt attaqué lui a fait l'application du principe de responsabilité, posé dans l'art. 1382 du code civil... »
         </p>
-        <p xml:id="para_9_280_239">Ces principes ont été plus récemment appliqués par un arrêt de la Cour de Bourges, rapporté dans la Gazete des ribunur du 29 septembre 1857, et intervenu dans les circonstances suivantes :</p>
-        <p xml:id="para_9_280_240">En 1854, un sieur M... entretint des relations intimes avec une demoiselle V... Celle-ci étant devenue grosse quitta le domicile de ses parents et alla accoucher à Clamecy. Pendant ce temps-là, M..., qui lui avait promis de l'épouser, avait quitté le pays et était venu se fixer à Paris.</p>
-        <p xml:id="para_9_280_241">Le 28 avril 1856, la demoiselle V... l'assigna en payement de 20,000 francs de dommages-intérêts pour le tort provenant de la séduction et de l'abandon dont elle avait été victime, et demanda pour l'enfant né de ses œuvres, jusqu'à sa majorité, une pension de 1,200 francs. Elle produisait à l'appui de sa demande deux lettres que M... lui avait adressées pendant sa grossesse.</p>
-        <p xml:id="para_9_281_242"><pb facs="#facs_286" n="281" source="lesouvriersdesde03sociuoft_0289.xml"/> Le tribunal de Clamecy condamna le sieur M.., par un jugement du 26 octobre 1856, à payer à la demoiselle V... une somme de 4,000 francs comme repration du dommage causé par le délais¬sement. Le jugement fut confirmé par la Cour de Bourges, adoptant les motifs des premiers juges.</p>
-        <p xml:id="para_9_281_243">Cette doctrine, qui tend à restreindre l'application de l'ar. 340 au cas ou la paternité est recherchée par l'enfant lui-même, repose sur des arguments fort sérieux<note type="bp">
-          <p>Elle a été très-ingénieusement développée par un jurisconsulte éminent, M. Demolombe, dans une dissertation sur plusieurs arrêts rendus par la Cour de Caen en ces matières. (Journal du Palais. 1852, t. 2, p. 536.)</p>
-         </note>. Autre chose, dit-on, est la re¬cherche de la paternité formée par l'enfant ou en son nom. afin de faire constater sa filiation et d'en obtenir les effets contre l'homme qu'il prétend être son père, et autre chose l'action en dommages¬intérêts formée par la femme pour la réparation du préjudice qui lui a été causé par un homme sur la foi d'une promesse de mariage dont il s'est joué ensuite. Tous les éléments de fait peuvent alors être pris en considération et par conséquent être admis en preuve sans ecepter le point de savoir si celui qui oppose à la fenme sa grossesse pour l'abandonner n'en est pas lui-même l'auteur. Ces deux actions dièrent sous un double rapport : 1° les personnes qui y figurent ne sont pas les mêmes : dans l'une c'est l'enfant seulement sans la femme, dans l'autre c'est la femme sans l'en¬fant ; 2ᵉ les intérêts en jeu sont également diférents dans les deux cas : dans la première action il s'agit de fixer l'état de l'enfant, dans la seconde il n'est question que de dommages -intérêts a allouer à la femme. n un mot, si l'art. 340 s'oppose à l'exercice de la première de ces actions, l'art. 1362 justilfie la seconde.</p>
-        <p xml:id="para_9_281_244">Toutefois il laut reconnaitre que cette distinction très-judicieuse n'a été jusqu'ici acceptée par la jurisprudence qu'avec beaucoup d'indécision. La latitude qui est laissée en ces matières à l'inter¬prétation des tribunau place les intéressés dans une incertitude que le législateur seul pourait faire cesser. Si la crainte du scan¬dale et les dispositions de l'opinion faisaient repousser l'idée d'une abrogation complète de l'art. 340, il serait possible, à ce qu'il semble, de modifier la rédaction de cet article, et d'en restreindre expressément l'application à la demande fomée par l'enlfant pour aire établir sa filiation. Le principe de la réparation civile due par le séducteur à la femme qu'il a abusée par des promesses menson¬gères se trouverait ainsi nettement consacré : peut-être serait-ce, dans l'état de notre société et de nos mœurs, le lrein le plus effi¬cace qui pût être opposé à de semblables désordres.</p>
-        <p xml:id="para_9_282_245"><pb facs="#facs_287" n="282" source="lesouvriersdesde03sociuoft_0290.xml"/> IV. Il reste, pour compléter cette étude, à rapprocher de la législation française sur cette matière les dispnositions de quelques législations étranères.</p>
-        <p xml:id="para_9_282_246">En Angleterre la loi comune (common law), tout entière basée sur l'usage immemorial, donne au père de la femme ou de la fille séduite le droit d'intenter une action contre le séducteur ; mais le principe de cette action n'est pas, come on serait tenté de le croire, le préjudice moral souflert par la famille : c'est uni¬quement le tort matériel qui résulte pour elle de la perte des ser¬vices que la ille doit à son père (loss of services). ll s'ensuit nécessairement que l'action ne peut être intentée qu'autant que la fille séduite est jusqu'à un certain point au service de ses parents : d'un autre côté, comme le droit de poursuivre repose sur des rappots de mauitre à serviteur, il n'appartient pas seulement au père, a la mère et aux parents plus éloigunés de la fille séduite, mais à toute personne à qui la cessation des services de cette fille a pu causer un préjudice matériel. Les juges n'ont pas non plus à tenir compte de l'âge plus ou moins avancé de la personne séduite. La séducion d'une femme ariée, éloignée de son mari, vivant dans sa famille ou placée chez un maître, donnerait également lieu à l'exercice de l'action.</p>
-        <p xml:id="para_9_282_247">Mais quoique en héorie la perte de services soit la seule base légale de l'action, et qu'il soit difficile de concilier avec ce principe, dans l'appréciation des dommages, le tort moral fait a la famille et à la personne séduite, l'usage de considérer surtout à ce dernier point de vue les faits de séduction est devenu constant ; on n'exigge même plus du piaignant la preuve des services qu'il est obligé d'alléguer à l'appui de sa demande. L'influence des mœurs an¬glaises et les sentiments de haute moralité des magistrats ont donné à ce système, malré le vice de son principe, une incontes¬table etlicacité.</p>
-        <p xml:id="para_9_282_248">Cependant, il est une conséquence déplorable de ce principe devant laquelle la magistrature anglaise s'est jusqu'ici trouvée im¬puissante.  n pere ne pouvant poursuivre personnellement le sé¬ducteur de sa fille, fût-elle mineure, lorsqu'elle est au service d'un tiers, il en résulte que, lorsque le maître est lui-même le séducteur, l'action ne peut etre exercée. L'opinion s'est é̀mue en Angleterre de ce deplorable résultat : on s'accorde aujourd'hui à réclamer l'inter¬vention exclusive des parents dans les actions à exercer contre les séducteurs. et la subsitution en principe de l'idée du préjudice moral à celle du tort matériel. Quant à l'action directe de la per¬sonne séduite, elle n'est pas populaire en Anggleterre. ll en est autrement en lcosse : la jeune fille peut elle-même intenter l'action<pb facs="#facs_288" n="283" source="lesouvriersdesde03sociuoft_0291.xml"/>lorsque le séducteur lui a promis le mariage, ou lorsque son assi¬duité, sa manière d'être, son langage, ont été de nature à faire croire à des intentions de mariage.</p>
-        <p xml:id="para_9_283_250">Mais si l'on s'en rapporte au sentiment général du public an¬glais, le système qui paraît devoir prédominer consisterait à voir dans la séduction une oflense faite à la famille et à donner à celle¬ci, à l'exclusion de la personne séduite, le droit d'en poursuivre la réparation.</p>
-        <p xml:id="para_9_283_251">Les lois des  États-Unis d'Amérique attestent également le soin qu'a pris le législateur de protéger les femmes contre les mauvaises mœurs. La loi de l'́tat de Nev-orl punit de peines pécuniaires et d'emprisonnement la séduction d'une femme âgée de moins de 25 ans, sans préjudice de l'action en dommages¬intérèts qui peut toujors être intentée.</p>
-        <p xml:id="para_9_283_252">Le Code Livingston, qui régit l'Etat de la Louisiane, contient la disposition suivante : « Quiconque aura séduit une femme de bonne réputation sous promesse de mariage, et violera cette proesse, sera passible d'une amende de 100 à l,000 dollars ou d'un em¬DTiSonnement de un à si mois. »</p>
-        <p xml:id="para_9_283_253">Dans l'Etat de Virginie, la séduction avait été envisagée pendant longtemps comme en Angleterre au point de vue du préjudice ma¬tériel ; mais une loi nouvelle a décidé que l'action peut être intentée contre le séducteur « sans allégation ni preuve d'aucune perte de services résultant de l'oflense commise. »</p>
-        <p xml:id="para_9_283_254">Les lois de la Prusse punissent les faits d'immoralité avec une sévérité particulière : elles privent de tous les droits et avantages attachés à leur position les pères, ères, tuteurs et maîtres, qui, pa des conversations ou des actes licencieux auraient jeté la démo¬ralisation parmi les personnes placées sous leur autorité ou leur surveillance. eux qui corrompent ou excitent à la débauche des filles ou des lemmes ariées sont punis d'un emprisonnement de six mois avec travaux forcés. La personne séduite a droit, dans tous les cas, à une réparation pécuniaire. Enfin une disposition remarquable de la législation prussienne fait peser sur le séducteur une part de responsabilité dans le meurtre ou l'abandon des enfants par la mère.</p>
-        <p xml:id="para_9_283_255">Parmi les divers systèmes qui viennent d'être indiqués, il serait assurément lort injuste d'assigener le premier rang au système anglais, dont le principe est monstrueux et l'applicaion incomplète. Peut-être cependant aucune des législations européennes n'obtient¬elle en ces matières la ème eflicacité. Il faut attribuer en grande partie cette efficacité aux efforts énergiques du peuple anglais pour l'amélioration de la moralité publique. Des sociétés libres et puis<pb facs="#facs_289" n="284" source="lesouvriersdesde03sociuoft_0292.xml"/>santes ont été formées pour atteindre cet heureux résultat. Sous leur inspiration des règlements administratifs ont été rendus et des lois votées par le parlement, et, en même temps, elles provoquent une riggoureuse application des lois pénales en recherchant et en dénoncant aux tribunaux les oflenses à la morale publique qui par¬viennent à leur connaissance.</p>
-        <p xml:id="para_9_284_257">Une de ces sociétés, connue sous la dénomination de oriété pour l suppression du rice, et établie deuis 1S02., annonce dans un de ses Rapports annuels qu'elle a provoqué deux actes du parlement ayant pour objet la suppression des maisons de jeu tgmng houses), et des maisons où l'on fait des paris pour les courses (bettimg houses). Elle ajoute qu'un projet élaboré dans son sein et destiné à restreindre les pogrès de la prostitution doit bientôt être présenté aux chambres par le gouvernement.</p>
-        <p xml:id="para_9_284_258">Grâce aux efforts de cette société, la police a pu saisir un grand nombre de gravures, livres et objets obscènes, savoir :</p>
-        <p xml:id="para_9_284_259">126,230 gavres ou peiutues.</p>
-        <p xml:id="para_9_284_260">16,073 livres.</p>
-        <p xml:id="para_9_284_261">4,64 4 ecueils de chansons.</p>
-        <p xml:id="para_9_284_262">5,399 cartes, tabatières et autres obyets.</p>
-        <p xml:id="para_9_284_263">844 planches gravées, de cuivre ou d'acier.</p>
-        <p xml:id="para_9_284_264">24 pieres lithographiques.</p>
-        <p xml:id="para_9_284_265">91 bois gravés.</p>
-        <p xml:id="para_9_284_266">11 presses à imprimer, avec accessoires.</p>
-        <p xml:id="para_9_284_267">28 quintaux de types, y compris lcs compositions.</p>
-        <p xml:id="para_9_284_268">Ces chiffres donnent une idée suffisante de l'activité que l'on déploie en Angletere pour lutter contre les progrès de la démora¬lisation. Dn peut rapprocher de ces faits l'exemple d'un meeting ten récemment dans le but d'aracer de malheureuses lemmes à la prostitution. bDes personnages du plus haut rang et du caractère le plus considérable y assistaient, et un capital important a été formé à l'aide de souscriptions pour fournir des moyens d'existence à celles de ces malheureuses qui veulent changer de vie et se réha¬biliter par le travail. C'est à cette énergie des efforts individuels et a cette préoccupation élevée de l'opinion publique qu'il faut attri¬buer, bien plus qu'à la pertection des lois, les heureux résultats obtenus en Angletere.</p>
+        <p xml:id="para_9_280_239">
+         Ces principes ont été plus récemment appliqués par un arrêt de la Cour de Bourges, rapporté dans la Gazete des ribunur du 29 septembre 1857, et intervenu dans les circonstances suivantes :
+        </p>
+        <p xml:id="para_9_280_240">
+         En 1854, un sieur M... entretint des relations intimes avec une demoiselle V... Celle-ci étant devenue grosse quitta le domicile de ses parents et alla accoucher à Clamecy. Pendant ce temps-là, M..., qui lui avait promis de l'épouser, avait quitté le pays et était venu se fixer à Paris.
+        </p>
+        <p xml:id="para_9_280_241">
+         Le 28 avril 1856, la demoiselle V... l'assigna en payement de 20,000 francs de dommages-intérêts pour le tort provenant de la séduction et de l'abandon dont elle avait été victime, et demanda pour l'enfant né de ses œuvres, jusqu'à sa majorité, une pension de 1,200 francs. Elle produisait à l'appui de sa demande deux lettres que M... lui avait adressées pendant sa grossesse.
+        </p>
+        <p xml:id="para_9_281_242">
+         <pb facs="#facs_286" n="281" source="lesouvriersdesde03sociuoft_0289.xml"/>
+         Le tribunal de Clamecy condamna le sieur M.., par un jugement du 26 octobre 1856, à payer à la demoiselle V... une somme de 4,000 francs comme repration du dommage causé par le délais¬sement. Le jugement fut confirmé par la Cour de Bourges, adoptant les motifs des premiers juges.
+        </p>
+        <p xml:id="para_9_281_243">
+         Cette doctrine, qui tend à restreindre l'application de l'ar. 340 au cas ou la paternité est recherchée par l'enfant lui-même, repose sur des arguments fort sérieux
+         <note type="bp">
+          <p>
+           Elle a été très-ingénieusement développée par un jurisconsulte éminent, M. Demolombe, dans une dissertation sur plusieurs arrêts rendus par la Cour de Caen en ces matières. (Journal du Palais. 1852, t. 2, p. 536.)
+          </p>
+         </note>
+         . Autre chose, dit-on, est la re¬cherche de la paternité formée par l'enfant ou en son nom. afin de faire constater sa filiation et d'en obtenir les effets contre l'homme qu'il prétend être son père, et autre chose l'action en dommages¬intérêts formée par la femme pour la réparation du préjudice qui lui a été causé par un homme sur la foi d'une promesse de mariage dont il s'est joué ensuite. Tous les éléments de fait peuvent alors être pris en considération et par conséquent être admis en preuve sans ecepter le point de savoir si celui qui oppose à la fenme sa grossesse pour l'abandonner n'en est pas lui-même l'auteur. Ces deux actions dièrent sous un double rapport : 1° les personnes qui y figurent ne sont pas les mêmes : dans l'une c'est l'enfant seulement sans la femme, dans l'autre c'est la femme sans l'en¬fant ; 2ᵉ les intérêts en jeu sont également diférents dans les deux cas : dans la première action il s'agit de fixer l'état de l'enfant, dans la seconde il n'est question que de dommages -intérêts a allouer à la femme. n un mot, si l'art. 340 s'oppose à l'exercice de la première de ces actions, l'art. 1362 justilfie la seconde.
+        </p>
+        <p xml:id="para_9_281_244">
+         Toutefois il laut reconnaitre que cette distinction très-judicieuse n'a été jusqu'ici acceptée par la jurisprudence qu'avec beaucoup d'indécision. La latitude qui est laissée en ces matières à l'inter¬prétation des tribunau place les intéressés dans une incertitude que le législateur seul pourait faire cesser. Si la crainte du scan¬dale et les dispositions de l'opinion faisaient repousser l'idée d'une abrogation complète de l'art. 340, il serait possible, à ce qu'il semble, de modifier la rédaction de cet article, et d'en restreindre expressément l'application à la demande fomée par l'enlfant pour aire établir sa filiation. Le principe de la réparation civile due par le séducteur à la femme qu'il a abusée par des promesses menson¬gères se trouverait ainsi nettement consacré : peut-être serait-ce, dans l'état de notre société et de nos mœurs, le lrein le plus effi¬cace qui pût être opposé à de semblables désordres.
+        </p>
+        <p xml:id="para_9_282_245">
+         <pb facs="#facs_287" n="282" source="lesouvriersdesde03sociuoft_0290.xml"/>
+         IV. Il reste, pour compléter cette étude, à rapprocher de la législation française sur cette matière les dispnositions de quelques législations étranères.
+        </p>
+        <p xml:id="para_9_282_246">
+         En Angleterre la loi comune (common law), tout entière basée sur l'usage immemorial, donne au père de la femme ou de la fille séduite le droit d'intenter une action contre le séducteur ; mais le principe de cette action n'est pas, come on serait tenté de le croire, le préjudice moral souflert par la famille : c'est uni¬quement le tort matériel qui résulte pour elle de la perte des ser¬vices que la ille doit à son père (loss of services). ll s'ensuit nécessairement que l'action ne peut être intentée qu'autant que la fille séduite est jusqu'à un certain point au service de ses parents : d'un autre côté, comme le droit de poursuivre repose sur des rappots de mauitre à serviteur, il n'appartient pas seulement au père, a la mère et aux parents plus éloigunés de la fille séduite, mais à toute personne à qui la cessation des services de cette fille a pu causer un préjudice matériel. Les juges n'ont pas non plus à tenir compte de l'âge plus ou moins avancé de la personne séduite. La séducion d'une femme ariée, éloignée de son mari, vivant dans sa famille ou placée chez un maître, donnerait également lieu à l'exercice de l'action.
+        </p>
+        <p xml:id="para_9_282_247">
+         Mais quoique en héorie la perte de services soit la seule base légale de l'action, et qu'il soit difficile de concilier avec ce principe, dans l'appréciation des dommages, le tort moral fait a la famille et à la personne séduite, l'usage de considérer surtout à ce dernier point de vue les faits de séduction est devenu constant ; on n'exigge même plus du piaignant la preuve des services qu'il est obligé d'alléguer à l'appui de sa demande. L'influence des mœurs an¬glaises et les sentiments de haute moralité des magistrats ont donné à ce système, malré le vice de son principe, une incontes¬table etlicacité.
+        </p>
+        <p xml:id="para_9_282_248">
+         Cependant, il est une conséquence déplorable de ce principe devant laquelle la magistrature anglaise s'est jusqu'ici trouvée im¬puissante.  n pere ne pouvant poursuivre personnellement le sé¬ducteur de sa fille, fût-elle mineure, lorsqu'elle est au service d'un tiers, il en résulte que, lorsque le maître est lui-même le séducteur, l'action ne peut etre exercée. L'opinion s'est é̀mue en Angleterre de ce deplorable résultat : on s'accorde aujourd'hui à réclamer l'inter¬vention exclusive des parents dans les actions à exercer contre les séducteurs. et la subsitution en principe de l'idée du préjudice moral à celle du tort matériel. Quant à l'action directe de la per¬sonne séduite, elle n'est pas populaire en Anggleterre. ll en est autrement en lcosse : la jeune fille peut elle-même intenter l'action
+         <pb facs="#facs_288" n="283" source="lesouvriersdesde03sociuoft_0291.xml"/>
+         lorsque le séducteur lui a promis le mariage, ou lorsque son assi¬duité, sa manière d'être, son langage, ont été de nature à faire croire à des intentions de mariage.
+        </p>
+        <p xml:id="para_9_283_250">
+         Mais si l'on s'en rapporte au sentiment général du public an¬glais, le système qui paraît devoir prédominer consisterait à voir dans la séduction une oflense faite à la famille et à donner à celle¬ci, à l'exclusion de la personne séduite, le droit d'en poursuivre la réparation.
+        </p>
+        <p xml:id="para_9_283_251">
+         Les lois des  États-Unis d'Amérique attestent également le soin qu'a pris le législateur de protéger les femmes contre les mauvaises mœurs. La loi de l'́tat de Nev-orl punit de peines pécuniaires et d'emprisonnement la séduction d'une femme âgée de moins de 25 ans, sans préjudice de l'action en dommages¬intérèts qui peut toujors être intentée.
+        </p>
+        <p xml:id="para_9_283_252">
+         Le Code Livingston, qui régit l'Etat de la Louisiane, contient la disposition suivante : « Quiconque aura séduit une femme de bonne réputation sous promesse de mariage, et violera cette proesse, sera passible d'une amende de 100 à l,000 dollars ou d'un em¬DTiSonnement de un à si mois. »
+        </p>
+        <p xml:id="para_9_283_253">
+         Dans l'Etat de Virginie, la séduction avait été envisagée pendant longtemps comme en Angleterre au point de vue du préjudice ma¬tériel ; mais une loi nouvelle a décidé que l'action peut être intentée contre le séducteur « sans allégation ni preuve d'aucune perte de services résultant de l'oflense commise. »
+        </p>
+        <p xml:id="para_9_283_254">
+         Les lois de la Prusse punissent les faits d'immoralité avec une sévérité particulière : elles privent de tous les droits et avantages attachés à leur position les pères, ères, tuteurs et maîtres, qui, pa des conversations ou des actes licencieux auraient jeté la démo¬ralisation parmi les personnes placées sous leur autorité ou leur surveillance. eux qui corrompent ou excitent à la débauche des filles ou des lemmes ariées sont punis d'un emprisonnement de six mois avec travaux forcés. La personne séduite a droit, dans tous les cas, à une réparation pécuniaire. Enfin une disposition remarquable de la législation prussienne fait peser sur le séducteur une part de responsabilité dans le meurtre ou l'abandon des enfants par la mère.
+        </p>
+        <p xml:id="para_9_283_255">
+         Parmi les divers systèmes qui viennent d'être indiqués, il serait assurément lort injuste d'assigener le premier rang au système anglais, dont le principe est monstrueux et l'applicaion incomplète. Peut-être cependant aucune des législations européennes n'obtient¬elle en ces matières la ème eflicacité. Il faut attribuer en grande partie cette efficacité aux efforts énergiques du peuple anglais pour l'amélioration de la moralité publique. Des sociétés libres et puis
+         <pb facs="#facs_289" n="284" source="lesouvriersdesde03sociuoft_0292.xml"/>
+         santes ont été formées pour atteindre cet heureux résultat. Sous leur inspiration des règlements administratifs ont été rendus et des lois votées par le parlement, et, en même temps, elles provoquent une riggoureuse application des lois pénales en recherchant et en dénoncant aux tribunaux les oflenses à la morale publique qui par¬viennent à leur connaissance.
+        </p>
+        <p xml:id="para_9_284_257">
+         Une de ces sociétés, connue sous la dénomination de oriété pour l suppression du rice, et établie deuis 1S02., annonce dans un de ses Rapports annuels qu'elle a provoqué deux actes du parlement ayant pour objet la suppression des maisons de jeu tgmng houses), et des maisons où l'on fait des paris pour les courses (bettimg houses). Elle ajoute qu'un projet élaboré dans son sein et destiné à restreindre les pogrès de la prostitution doit bientôt être présenté aux chambres par le gouvernement.
+        </p>
+        <p xml:id="para_9_284_258">
+         Grâce aux efforts de cette société, la police a pu saisir un grand nombre de gravures, livres et objets obscènes, savoir :
+        </p>
+        <p xml:id="para_9_284_259">
+         126,230 gavres ou peiutues.
+        </p>
+        <p xml:id="para_9_284_260">
+         16,073 livres.
+        </p>
+        <p xml:id="para_9_284_261">
+         4,64 4 ecueils de chansons.
+        </p>
+        <p xml:id="para_9_284_262">
+         5,399 cartes, tabatières et autres obyets.
+        </p>
+        <p xml:id="para_9_284_263">
+         844 planches gravées, de cuivre ou d'acier.
+        </p>
+        <p xml:id="para_9_284_264">
+         24 pieres lithographiques.
+        </p>
+        <p xml:id="para_9_284_265">
+         91 bois gravés.
+        </p>
+        <p xml:id="para_9_284_266">
+         11 presses à imprimer, avec accessoires.
+        </p>
+        <p xml:id="para_9_284_267">
+         28 quintaux de types, y compris lcs compositions.
+        </p>
+        <p xml:id="para_9_284_268">
+         Ces chiffres donnent une idée suffisante de l'activité que l'on déploie en Angletere pour lutter contre les progrès de la démora¬lisation. Dn peut rapprocher de ces faits l'exemple d'un meeting ten récemment dans le but d'aracer de malheureuses lemmes à la prostitution. bDes personnages du plus haut rang et du caractère le plus considérable y assistaient, et un capital important a été formé à l'aide de souscriptions pour fournir des moyens d'existence à celles de ces malheureuses qui veulent changer de vie et se réha¬biliter par le travail. C'est à cette énergie des efforts individuels et a cette préoccupation élevée de l'opinion publique qu'il faut attri¬buer, bien plus qu'à la pertection des lois, les heureux résultats obtenus en Angletere.
+        </p>
        </div>
       </div>
      </div>
