@@ -171,6 +171,10 @@
         <!--<xsl:value-of select="translate(., '¬', '')"/>ᶠ-->
         <xsl:value-of select="translate(translate(., '¬', ''), 'ᶠ', 'f')"/>
     </xsl:template>
+    <!-- PERSNAMES -->
+    <xsl:template match="//div[@type='chapter']/div[@n='001']//persName">
+            <xsl:text> </xsl:text><xsl:apply-templates/><xsl:text> </xsl:text>
+    </xsl:template>
     <!-- RENVOIS -->
     <xsl:template match="//text//ref">
         <xsl:choose>
