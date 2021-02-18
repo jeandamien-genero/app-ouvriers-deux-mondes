@@ -29,16 +29,20 @@ titles = {"OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMB
           "TRAVAUX ET INDUSTRIES": "Travaux et industries", "ALIMENTS ET REPAS": "Aliments et repas",
           "HABITATION, MOBILIER ET VÊTEMENTS": "Habitation, mobilier et vêtements", "RÉCRÉATIONS": "Récréations",
           "PHASES PRINCIPALES DE L'EXISTENCE": "Phases principales de l'existence",
+          "PHASES DIVERSES DE L'EXISTENCE": "Phases diverses de l'existence",
           "MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE":
               "Mœurs et institutions assurant le bien-être physique et moral de la famille",
           "MOEURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE":
               "Mœurs et institutions assurant le bien-être physique et moral de la famille",
+          "MŒURS ET INSTITUTIONS DESTINÉES A ASSURER LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE":
+          "Mœurs et institutions destinées a assurer le bien-être physique et moral de la famille",
           "BUDGET DES RECETTES DE L'ANNÉE": "Budget des recettes de l'année",
           "BUDGET DES DÉPENSES DE L'ANNÉE": "Budget des dépenses de l'année",
           "NOTES": "Notes", "NOTES DIVERSES": "Notes diverses", "Notes DIVERSES": "Notes diverses",
           "COMPTES ANNEXES AUX BUDGETS": "Comptes annexés aux budgets",
           "COMPTES ANNEXÉS AUX BUDGETS": "Comptes annexés aux budgets",
-          "TRAVAUX DE LA FAMILLE": "Travaux de la famille"}
+          "TRAVAUX DE LA FAMILLE": "Travaux de la famille",
+          "ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE": "Éléments divers de la constitution sociale"}
 
 def clear_file(input_file):
   with open(input_file, 'r', encoding='utf-8') as xml_file:
