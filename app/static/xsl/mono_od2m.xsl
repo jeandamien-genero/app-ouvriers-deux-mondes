@@ -251,7 +251,7 @@
                     <xsl:text>[</xsl:text><xsl:value-of select="normalize-space(./head)"/><xsl:text>.]</xsl:text>
                 </xsl:if>
                 <xsl:if test="./head[@resp='original']">
-                    <xsl:value-of select="normalize-space(./head)"/>
+                    <xsl:value-of select="normalize-space(./head)"/><xsl:text>.</xsl:text>
                 </xsl:if>
                 <xsl:if test="//figure/p">
                 <xsl:element name="p">
