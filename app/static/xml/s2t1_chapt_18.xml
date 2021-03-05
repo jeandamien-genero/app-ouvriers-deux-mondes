@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--monographie-->
+<TEI xml:id="ID-051a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 1 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_246">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$275/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_247">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$276/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_248">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$277/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_249">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$278/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_250">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$279/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_251">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$280/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_252">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$281/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_253">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$282/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_254">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$283/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_255">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$284/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_256">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$285/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_257">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$286/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_258">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$287/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_259">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$288/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_260">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$289/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_261">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$290/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_262">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$291/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_263">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$292/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_264">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$293/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_265">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$294/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_266">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$295/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_267">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$296/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_268">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$297/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_269">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$298/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_270">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$299/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_271">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$300/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_272">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$301/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_273">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$302/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_274">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$303/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_275">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$304/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_276">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$305/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_277">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$306/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_278">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$307/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_279">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$308/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_280">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$309/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_281">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$310/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_282">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$311/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_283">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$312/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_284">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$313/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_285">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$314/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_286">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$315/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_287">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$316/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_288">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$317/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_289">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$318/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_290">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$319/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_291">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$320/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_292">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$321/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_293">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$322/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_294">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$323/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_295">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$324/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_296">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$325/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_297">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$326/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_298">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$327/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_299">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$328/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_300">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$329/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_301">
+  <surface lrx="2189" lry="3505"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$330/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_18_229_1">
+      N° 51.
+     </p>
+     <p xml:id="para_18_229_2">
+      CULTIVATEUR-MARAICHER
+     </p>
+     <p xml:id="para_18_229_3">
+      DE DEUIL (SEINE-ET-OISE),
+     </p>
+     <p xml:id="para_18_229_4">
+      PROPRIÉTAIRE-OUVRIER,
+     </p>
+     <p xml:id="para_18_229_5">
+      DANS LE SYSTÈME DU TRAVAIL SANS ENGAGEMENTS,
+     </p>
+     <p>
+      d'après
+     </p>
+     <p xml:id="para_18_229_6">
+      LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1885,
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_18_229_7">
+      M. <persName>URBAIN GUÉRIN</persName>.
+     </p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+       </head>
+       <p xml:id="para_18_229_13">
+        <pb facs="#facs_246" n="229" source="s2lesouvriersdes01sociuoft_0275.xml"/> La famille habite, dans le département de Seine-et-Oise, la com¬mune de Deuil, dépendant du canton de Montmorency et située à 20 kilomètres de Pontoise, chef-lieu de l'arrondissement. Cette com¬mune est desservie par deux stations des chemins de fer du Nord ; l'une est celle de Deuil même, sur la ligne de Paris àMontsoult : l'autre est celle d'Enghien, sur la ligne de Paris a Beauvais, d'Enghien dont les maisons touchent celles de Deuil et qui en a été détaché, il y a environ inquante ans, pour être érigrée en commune. ne distance de 12 kilo¬mètres sépare Deuil de Paris. Cette commune faisait autrefois partie de 'le-de-France, avant que le département de Seine-et-Oise eût été formé, lors de la lévolution. Cn lien administratif la rattache seul à Versail¬les, dont elle est éloignée de 25 kilomètres ; clle n'entretient desrapports <pb facs="#facs_247" n="230" source="s2lesouvriersdes01sociuoft_0276.xml"/> d'affaires qu'avec Paris. Le département de Seine-et-Oise ne présente du reste aucune homogénéité ; les six arrondissements dont il se com¬pose communiquent peu les uns avec les autres, mais c'est une contrée essentiellement agricole et horticole. Sur ses 560.346 hectares de su¬perficie, on compe en nombres ronds :
+       </p>
+       <figure rend="portrait" type="inventory">
+        <head resp="added" type="inventory" xml:id="figure_1">
+         Répartition des hectares de la commune de Deuil (§1)
+        </head>
+        <graphic facs="#facs_247" url="#"/>
+       </figure>
+       <p xml:id="para_18_230_19">
+        Le reste se partage entre les étangs, les emplacements de villes, de bourgs, de villages, de fermes, les surfaces occupées par les routes et les chemins de fer, ete., etc.
+       </p>
+       <p xml:id="para_18_230_20">
+        Le territoire comprend aussi bien de grandes propriétés exploitées par des fermiers que de très petites propriétés affectées à la culture maraîchère et situées principalement sur les communes comprises dans la banlieue de Paris. L'avilissement du prix des céréales, dont la cul¬ture constituait jadis la principale ressource des fermiers, les amène maintenant à suivre un mode d'exploitation plus avanltageux. S'ils disposent de quelques capitaux, ils cherchent à accroître le rendement de laterre par la culture intensive : ils emploient les labours profonds, des engrais choisis et en quantité suflisante, des semences de première qualité et usent du semoir et des sarclages pour détruire toutes les plantes parasites, qui sont estimées enlever en moyenne un dixième de la récolte. Aucun département ne renferme autant de châteaux que le département de Seine-et-oise. Les communes, rapprochées de la capitale et desservies par une ligne de chemin de fer, sont parsemées d'élégantes villas et de maisons plus modestes dont les habitants sont appelés tous les jours à l'aris. L'industrie est représentée dans le dé¬partement par des établissements de genres très variés; ils appartien¬nent principalement à l'arrondissement de Corbeil.
+       </p>
+       <p xml:id="para_18_230_21">
+        Deuil est situé dans la plaine qui, à partir de Saint-Denis, s'étend u nord de l'aris ; il forme comme un triangle avec aroslay et Montmo¬rency, au bas duquel il a été construit. La Seine coule à une ditance le 6 kilomètres. De même que tout le département, Deuil appartient au climat séquanien. La température y est seulement plus élevée que celle du nord de l'arrondissement, car Deuil produit encore du vin. tandis que la culture de la vigne prend fin dans les territoires qui con¬tinent au département de l'Oise. En hiver et en automne, le village est <pb facs="#facs_248" n="231" source="s2lesouvriersdes01sociuoft_0277.xml"/> exposé aux brouillards épais qui se répandent dans lavallée de la Seine.
+       </p>
+       <p xml:id="para_18_231_24">
+        Le sol de l'arrondissement est, en général, composé de terres végé¬tales, argileuses et sablonneuses, reposant sur des masses calcaires ; les grès et les sables marins supérieurs forment les sommets des col¬lines, et le calcaire d'eau doure apparaît communément dans les plai¬nes. La vallée de Montmorency est presque partout recouverte d'une couche d'alluvion souvent fort épaisse, composée de sables et de mar¬nes remaniées. Un terrain du même genre, mais où dominent les marnes, règne dans toute l'étendue des plaines des cantons d'lcouen et de Gonesse. Aucune source n'affleure à la surface du sol sur le terri¬toire de Deuil.
+       </p>
+       <p xml:id="para_18_231_25">
+        Ce territoire, d'apres la dernière statistique agricole, reçoit l'affec¬tation suivante :
+       </p>
+       <figure rend="portrait" type="table">
+        <head resp="added" type="table" xml:id="figure_2">
+         Affectation des territoires de la commune de Deuil selon les statistiques agricoles (§1)
+        </head>
+        <graphic facs="#facs_248" url="#"/>
+       </figure>
+       <!--<p xml:id="para_18_231_26">
+        Maraichers et potagers........................................ 167 hectares.
+        </p>
+        <p xml:id="para_18_231_27">
+        Graines alimentaires, céréales et tubercules................... 102 —
+        </p>
+        <p xml:id="para_18_231_28">
+        §)S. . . ...... ... .................. . . . . . . . .. . . .. . .. . . .. . .. . ... § —
+        </p>
+        <p xml:id="para_18_231_29">
+        Prairies artificielles, fourrages et prés temporaires............. 2 —
+        </p>
+        <p xml:id="para_18_231_30">
+        Terrains divers non batis et bàtis.............................. 25 —
+        </p>-->
+       <p xml:id="para_18_231_31">
+        D'après les mêmes statistiques, le sol de Deuil produit une moyenne annuelle de 16 hectolitres en grains, de 55 quintaux en paille, par hectare, — pois et haricots, 24 hectolitres, — tubercules et racines, 0 quintaux, — choux, 0 quintaux — prairies artiicielles, 60 quintaux, — vignes, 50 hectolitres de vin. La dernière statistique a relevé pour les animaux domestiques les chiffres suivants : 500 poulets, 10 oies, 100 canards, 10 dindons, 200 pigeons, 2.000 lapins. 25 vaches laitières. Quant aux chevaux, ils n'ont pas été recensés. Chaque ma¬raîcher à peu près en possêde un. Les exploitations rurales se divisent comme il suit quant à leur étendue :
+       </p>
+       <figure rend="portrait" type="inventory">
+        <head resp="added" type="inventory" xml:id="figure_3">
+         Répartition des exploitation de la commune de Deuil en fonction de leurs superficies (§1)
+        </head>
+        <graphic facs="#facs_248" url="#"/>
+       </figure>
+       <p xml:id="para_18_231_36">
+        La commune de Deuil se compose de quatre hameaux : Ormesson, la Chevrette, Marchais, la Barre, ce dernier situé au midi sur la grande route de Pontoise. La Chevrette tire son nom duchâteau habité au dix-huitiême sièclepar Mme d'Epinay
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        . Au hameaude Marchais. il existait un ancien lac qui a été desséché ; les terres cultivées sur son <pb facs="#facs_249" n="232" source="s2lesouvriersdes01sociuoft_0278.xml"/> emplacement passent pour les plus fertiles de la commune ; lorsque l'une d'elles est en vente, les acquéreurs se la disputent avec passion.
+       </p>
+       <p xml:id="para_18_232_38">
+        Deuil offre l'aspect d'un gros bourg, ni ville, ni campagne, avec ses longues rues pavées et éclairées au ga, ses petits magasins à l'étalage modeste, ses maisons d'apparence vulgaire ; une statue de la Vierge ou l'image de Jésus crucifié en décore maintes fois l'entrée. Seule, sa vieille église, d'une haute antiquité, mérite d'attirer la curiosité, elle est consacrée à saint bugène, évêque, martyrisé à Deuil
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        . Sur une des places publiques, la reconnaissance des habitants a élevé une statue à un médecin qui a exercé ses fonctions pendant trente-trois ans dans la commune.
+       </p>
+       <p xml:id="para_18_232_39">
+        D'apres le dernier recensement opéré en 1861, la population est de 2.0)0 ames, réparties en 380 maisons ; la population agglomérée s'élève à 1.688 àmes et la population éparse à 402. Elle se partage ainsi quant à ses moyens d'existence :
+       </p>
+       <figure rend="portrait" type="inventory">
+        <head resp="added" type="inventory" xml:id="figure_4">
+         Population de la commune de Deuil répartie par profession (§1)
+        </head>
+        <graphic facs="#facs_249" url="#"/>
+       </figure>
+       <!--<p xml:id="para_18_232_40">
+        Cultivateurs chefs de ménage......................................... 224
+        </p>
+        <p xml:id="para_18_232_41">
+        Ouvriers de divers corps de métier id. ............................ 117
+        </p>
+        <p xml:id="para_18_232_42">
+        O1T11eT (. ............... ...... .:...... .... ...:.... . . ....:. . .. 1 1 4
+        </p>
+        <p xml:id="para_18_232_43">
+        epiers j. ...... .... . ...... ............ ... ... .. . .:.... .... ..... . . (0
+        </p>
+        <p xml:id="para_18_232_44">
+        Propriélaires id. ........ .. . ................. ...... ..... .......... 559
+        </p>
+        <p xml:id="para_18_232_45">
+        )l0e (. ... ......... .......... . ......... ............. ..... ... 5
+        </p>
+        <p xml:id="para_18_232_46">
+        MThndS id. .................. .... .. ........... .. ..... . ......... . 42
+        </p>
+        <p xml:id="para_18_232_47">
+        Proessions ihpérales id. .. ........ ... .........:................ ....
+        </p>
+        <p xml:id="para_18_232_48">
+        Professions diverses id. ...... ..................................... 10
+        </p>-->
+       <p xml:id="para_18_232_49">
+        La population de Deuil est done divisée en deux groupes peu iné¬gaux, la population agricole et la population adonnée à des pro¬fessions diverses. La première comprend d'anciennes familles géné¬ralement honnêtes, laborieuses, jouissant de l'aisance qu'un labeur incessant leur a procurée ; la seconde est surtout formée d'un élément flottant dont chaque ecensement constate l'augmentation. Les journa¬liers se recrutent parmi des Bourguignons, originaires de l'onne ; ils viennent tous les ans à Deuil pour exécuter les travaux dont l'insuffi¬sance du nombre de bras, prmi les familles du pays, rendrait l'ac¬complissement difficile ( 19. La majorité des employés appartient à la compagnie des Chemins de fer du Nord ; ils se logent de préférence au hameau de la Barre, le plus rapproché de la station d'Enghien.
+       </p>
+       <p xml:id="para_18_232_50">
+        Les cultivateurs s'occupent de la production des légumes : asperges (Asparagus o/fpficinalis, L.), choux (ˉBrassica oleracea, L.), choux-fleurs (Brassica botrptis, L.), carottes (Daucus carota), artichauts (ˉCinara sco¬lgms, L.), poireaux (Allium porrum, L.), salades variées et surtout pissenlits (araacum dens leonis, Desf.), pois (Pisum satiuum, L.). <pb facs="#facs_250" n="233" source="s2lesouvriersdes01sociuoft_0279.xml"/> pommes de terre (Solanum tuberosum, L.), oseille (ˉumex acetosa, L.), oignons (Allium cepa), haricots (Phaseolus vulgaris, L..), plus des fruits de toute espèce. Ils se distinguent des maraîchers proprement dits. Ceux-ci n'entreprennent pas seulement la culture de ce qu'ils appellent les gros légumes. mais aussi celle des primeurs, pour la pousse hâtive desquelles ils ont recours à de fréquents arrosages, à une fumure exces¬sive et à des procédés artificiels. Les cultivateurs de Deuil, au contraire, emploient seulement les forces naturelles et usent de l'arrosage dans de rares occasions. Les maraîchers habitent de préférence les com¬munes de la banlieue qui forment la ceinture immédiate de Paris ; ils se rendent tous les jours dans la capitale, soit aux marchés, soit à la halle, soit chezles fruitiers qu'ils fournissent de marchandises fraiches. Les cultivateurs de Deuil ne vont pas à Paris plus de deux fois par semaine, soit qu'ils vendent aux marchés temporaires qui ne se tien¬nent pas plus de deux ou trois jours chaque semaine, soit qu'ils fré¬quentent les marchés permanents
+        <ref target="#part_03_01_22" type="renvoi_int_mono">
+         (§ 22)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_18_233_52">
+        Au point de vue moral, les deux groupes de la population diffêrent par des traits bien accusés. Les familles de cultivateurs demeurent at¬tachées aux traditions, plus même que ne le ferait supposer le milieu dans lequel elles vivent ; elles se livrent à un labeur acharné. Fixées depuis longtemps au sol, elles le quittent avec répugnance. Les autres familles, et surtout celles des employés, imbues des idées de nou¬veauté, raillent toutes les traditions que les eultivateurs respectent. Elles habitent dans des logements pris en location. Ce sont, en un mot, des familles désorganisées. Malheureusement, la diminution du nombre des enfants issus des ménages de cultivateurs rend cet élé¬ment prépondérant au point de vue du nombre, et comme d'un autre côté l'immigration s'accroit sans cesse, il finira par altérer l'ancienne physionomie de la commune
+        <ref target="#part_03_01_25" type="renvoi_int_mono">
+         (§ 25)
+        </ref>
+        .
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Louis-Eugène-Denis G*** (n°051aE1) - Marie-Julie-Eugénie R*** (n°051aE2) - Célestin-Eugène-Louis G*** (n°051aE3) - Louis-Denis-Auguste G*** (n°051aE4) - Marie-Julie-Eugénie G*** (n°051aE5) - Henri-Joseph G*** (n°051aE6)-->
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. ÉTAT CIVIL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_18_233_54">
+        La famille comprend six personnes :
+       </p>
+       <p xml:id="para_18_233_55">
+        1° <persName>LOUIS-EUGÈNE-DENIS G***</persName>, pére de famille............46 ans.
+       </p>
+       <p xml:id="para_18_233_56">
+        2° <persName>MARIE-JULIE-EUGÉNIE R***</persName>, mère de famille............ 45 —
+       </p>
+       <p xml:id="para_18_233_57">
+        3° <persName>CÉLESTIN-EUGÉNE-LOUIS G***</persName>, leur fils aîné............ 21 —
+       </p>
+       <p xml:id="para_18_233_58">
+        4° <persName>LOUIS-DENIS-AUGUSTE G***</persName>, DEUXIÈME fils............ 20 —
+       </p>
+       <p xml:id="para_18_233_59">
+        5° <persName>MARIE-JULIE-EUGÉNIE G***</persName>, leur fille............ 11 —
+       </p>
+       <p xml:id="para_18_233_60">
+        6° <persName>HENRI-JOSEPH G***</persName>, troisiÈme fils............ 10 —
+       </p>
+       <p xml:id="para_18_234_61">
+        <pb facs="#facs_251" n="234" source="s2lesouvriersdes01sociuoft_0280.xml"/> Le père et la mère étaient cousins germains, tous deux sont des enfants de cultivateurs. Le grand-père de la femme du côté paternel a eu treize enfants, fécondité qui ne se retrouve plus aujourd'hui dans les mêmes familles. Ces enfants se sont dispersés à Groslay, à Fran¬conville et dans les communes environnantes. Le père a eu seulement une sœur. Il en est de même de la mère. La sœur de cette dernière, mariée mais sans enfants, habite une maison voisine. La mère est née dans la maison qu'elle occupe en ce moment ; elle possède encore son père, veuf depuis dix ans. Il demeure à côté, avec son autre fille, et vient fréquemment aider la famille, surtout au moment des travaux
+       </p>
+       <p xml:id="para_18_234_62">
+        Les parents n'ont été guidés dans les noms qu'ils ont donnés à leurs enfants que par des pensées religieuses ou par le désir de conserver les souvenirs des parrains, marraines, pères ou grands-pères.
+       </p>
+       <p xml:id="para_18_234_63">
+        Le fils aîné est actuellement au service dans l'infanterie de marine, à Brest. Le second fils a tiré au sort récemment ; il est exempté du ser¬vice par la présence de son frère sous les drapeaux. Le troisième est élevé à l'internat d'Igny, dans le département de Seine-et-Oise. Cet in¬ternat est tenu par les Frères des Écoles chrétiennes, qui donnent à leurs élèves une instruction appropriée à leur future existence d'agri¬culteurs
+        <note type="bp">
+         <p>
+          Voir sur le pensionnat d'lIguny la Reifore sociale du 15 mai 1885. — Communi¬cation de M. Gibon fils à la réunion mensuelle du groupe de Paris.
+         </p>
+        </note>
+        .
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. RELIGION ET HABITUDES MORALES.
+       </head>
+       <p xml:id="para_18_234_66">
+        La famille suit avec une scrupuleuse fidélité les prescriptions de l'Eglise: elle s'abstient notamment de consommer des aliments gras le vendredi et les autres jours d'abstinence, et ne manque jamais d'assister à la messe le dimanche. Tous ses membres remplissent le devoir pas¬cal. A peu près chaque année. l'un d'eux ou l'un des proches parents fait un pèlerinage à Notre-Dame de Lourdes. Elle entretient les meil¬leurs rapports avec le curé de la paroisse, qui la considère comme une de ses familles modèles. Le père est membre de la Conférence de Saint-Vincent de Paul, ainsi que son beau-frêre. Ce dernier est en outre le premier chantre. Un culte spécial est rendu par la famille à saint Eugène, le patron de la paroisse, dont l'église possède une partie des <pb facs="#facs_252" n="235" source="s2lesouvriersdes01sociuoft_0281.xml"/> reliques. Sur les murs de toutes les chambres de ia maison se trouvent des images religieuses. Au cours de la rédaction de cette monographie, la famille manifesta ses sentiments d'une manière touchante. L'auteur ayant dû aller à Rome, elle le sollicita de demander pour elle la béné¬diction du Saint-Père, et surtout, dit-elle, pour le fils aîné qui, étant au service et « ne pouvant remplir ses devoirs religieux, est exposé à beaucoup de dangers ».
+       </p>
+       <p xml:id="para_18_235_69">
+        Deuil est une des paroisses de la région dans laquelle l'esprit reli¬gieux s'est le mieux maintenu, malgré ses rapports quotidiens avec Paris, et de grandes préoccupations matérielles. La partie fottante de la population a sans doute abandonné les pratiques religieuses : mais il existe un noyau d'anciennes familles animées d'une foi vive et tenace. Les registres paroissiaux relèvent au temps pascal deux cent trente communions dont cent cinquante de mères de familles. quarante de jeunes filles et quarante d'hommes. ne Conférence de Saint-V'incent de Paul a été créée ; elle se recrute parmi les cultivateurs et est présidée par l'un d'eux. L'eistence de plusieurs confréries atteste également la vie religieuse de la paroisse. La jeune fille fait partie de la Congrégation des Enfants de Marie
+        <ref target="#part_03_01_20" type="renvoi_int_mono">
+         (§ 20)
+        </ref>
+        . Même dans les familles instables et détachées des idées traditionnelles, aucune hos¬tilité ne se manifeste contre le clergé. Le prêtre visite tous les ma¬lades, dont aucun ne meurt sans avoir reçu les derniers sacrements. Jusqu'ici, malgré les efforts d'une loge maconnique qui a un centre d'opérations très actif dans une commune voisine. l'enterrement civil est demeuré un fait exceptionnel, considéré comme un scandale.
+       </p>
+       <p xml:id="para_18_235_70">
+        Une grande harmonie règne entre les divers membres de la famille. Le père de la femme a fait le partage de sa fortune entre ses enfants : aucun acte d'ingratitude n'est relevé à la charge de ceux-ci ( 12). Il manifestent au contraire pour lui une vive tendresse. et lui de son coté vient souvent s'asseoir au coin du feu dans la maison de la famille il suit tous ses travaux avec sollicitude. La famille vit également sur le pied d'une étroite intimité avec la sœur de la femme et le mari de celle-ci. Un rôle prépondérant y est joué par la mère : douée d'au¬tant d'activité que de bon sens, elle est la véritable tête de la famille. Une grande part appartient du reste à la femme dans les exploita¬tions de eultivateurs maraichers. Seule elle possède les aptitudes néces¬saires pour écouler sur les marchés de Paris les produits réeoltés 25.
+       </p>
+       <p xml:id="para_18_235_71">
+        L'éducation des enfants a été aussi soignée que le comportcnt les nécessités du travail. Les parents sont. en effet, dans les longs jours <pb facs="#facs_253" n="236" source="s2lesouvriersdes01sociuoft_0282.xml"/> d'été, obligés de partir pour les champs dès l'aube. Ou ils aban¬donnent les enfants à eux-mêmes, ou, fermant la maison, ils les envoient de suite à l'école. En été, l'instituteur en voit venir jouer dès cinq heures et demie dans sa cour. Lorsque les classes sont finies, ils trouvent maintes fois la maison fermée, les parents étant encore occupés dans les champs ou n'étant pas revenus du marché. C'est pour éviter ces inconvénients que la famille a mis son dernier fils à l'in¬ternat d'Igny. Dans plusieurs familles, les parents les conient aux grands-parents réduits à l'incapacité de travailler, ou même à des domestiques. Cette diffieulté d'élever les enfants constitue une vérita¬ble infériorité sociale pour les familles de cultivateurs-araîchers.
+       </p>
+       <p xml:id="para_18_236_73">
+        Les mêmes causes empêchent les femmes de cultivateurs d'accorder autant de temps qu'elles le désireraient aux soins du ménage et notamment à la bonne tenue de leur maison. Elles sont écartées du foyer la plus grande partie de la journée ; de plus lorsqu'elles ren¬trent, elles rapportent des légumes qu'il faut faire sécher dans les ours d'humidité, et auxquels sont toujours attachés des morceaux de terre, dont le logis ne tarde pas à être jonché. Comme tous les cultivateurs de Deuil, la famille n'a d'autre ambition que de faire suivre à ses enfants la même profession. La proximité de Paris serait cependant bien faite pour les attirer vers le commerce de détail ou vers les emplois de bureau qui exercent tant de séduction sur les jeunes gens destinés au travail agricole. Néanmoins à Deuil tous les enfants de cultivateurs n'ont pas d'autre pensée que de sui¬vre la profession paternelle ; on cite seulement le ils de l'un d'eux ui, ayant reçu une instruction classique, est cntré à l'école poly¬technique et est ensuite devenu industriel. L'instituteur observe, il est vrai, que les enfants de cultivateurs montrent peu d'aptitude pour l'instruction. La famille a le désir de voir ses enfants non seu¬lement suivre la même profession, mais encore cultiver les mêmes champs au milieu desquels s'est écoulée sa laborieuse existence. Si l'attachement aux idées traditionnelles s'est maintenu dans les an¬ciennes familles, les vieilles coutumes se sont en revanche peu à peu effacées. Aucun usage spécial n'existe plus pour les fiancailles. Le jour des accords seulement, l'habitude de donner un dîner a persisté. Le lendemain du mariage, une quête est encore faite dans quelques ménages pour le marié et la mariée. Suivant l'expression populaire. cette quête est faite pour le cochon, parce qu'avec son produit les nou¬veaux époux faisaient l'acquisition d'un porc.
+       </p>
+       <p xml:id="para_18_237_74">
+        <pb facs="#facs_254" n="237" source="s2lesouvriersdes01sociuoft_0283.xml"/> La famille apporte une grande honnêteté dans ses rapports d'inté¬rêt ; elle a évité cette indélicatesse facile et quasi professionnelle que développent chez beaucoup de cultivateurs les habitudes commercia¬les. Ceu-ci n'hésitent pas à réaliser un bénéfice même insignifiant en donnant sur chaque marché une quantité de marchandise légêrement inférieure à celle que la loyauté obligerait de vendre. Cette tendance s'observe surtout à Deuil chez lesjournaliers
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (§ 19)
+        </ref>
+        ; elle va même jus¬qu'au maraudage. Les propriétaires sont fréquemment victimes de déprédations, surtout ceux dont les champs avoisinent la commune d'Épinay. Elles ne sont pas uniquement le fait de la population flot¬tante de Deuil ou des maraudeurs qui habitent la plaine Saint-Denis ; deux ou trois cultivateurs aisés sont soupconnés d'y prendre part. l n'y a pas bien longtemps qu'un d'entre eux fut grièvement blessé d'un coup de fusil par le propriétaire d'un champ quil allait dévaliser pendant la nuit.
+       </p>
+       <p xml:id="para_18_237_75">
+        Les cultivateurs de Deuil donnent l'exemple d'une extraordinaire application au travail ; peu de populations ouvrières peuvent sous ce rapport leur être comparées. Ils sont condamnés à un labeur inces¬sant, été comme hiver, et, s'ils négligent un jour de ramasser des légumes ou de se rendre au marché, ils subissent une perte cer¬taine. En tout temps, sous un soleil brûlant comme sous les frimas et la neige, ils doivent travailler dansles champs qui, disséminés ̧à et là, loin de leur maison, ne leur offrent aucun abri, lorsque quelque bour¬rasque les surprend. Cette dissémination amène en outre pour eux un redoublement de fatigue et une grande perte de temps
+        <ref target="#part_03_01_21" type="renvoi_int_mono">
+         (§ 21)
+        </ref>
+        . Beaucoup de familles continuent leur travail le dimanche ou tout au moins après les offices religieux. La famille G*** n'a jamais voulu violer la loi du repos dominical ; elle se plaît à constater qu'elle n'en a éprouvé aucun préjudice et que ses affaires sont tout aussi pros¬pères que eelles des familles moins respectueuses de la loi divine.
+       </p>
+       <p xml:id="para_18_237_76">
+        Deux fàcheuses tendances s'observent dans la population de Deuil. La première est la stérilité voulue des ménages de cultivateurs. Des familles sont nombreuses, aux yeux des habitants, lorsqu'elles ont quatre ou cinq enfants. La seconde est l'amour de la bonne chère et du jeu. La recherche de la toilette, qui ailleurs fait tant de ravages parmi les classes populaires urbaines ou rurales, sévit à peine à Deuil ; les exemples de la capitale et d'Enghien, habité pendant l'été par une population chez laquelle le luxe du costume se donne libre carrière, sont demeurés jusqu'à ce jour sans grand effet. Mais beau<pb facs="#facs_255" n="238" source="s2lesouvriersdes01sociuoft_0284.xml"/>coup de cultivateurs considêrent les jours de marché comme des jours de fête. Sur le chemin de Paris à Deuil, ils font de fréquentes stations dans les débits de boisson, et, lorsque, rentrés chez eux, ils ont dételé leur cheval, au lieu de se remettre au travail, ils vont au caié où ils passent le reste de leur journée à boire et à jouer. Les ventes réaulisées dans les marchés de Paris deux fois par semaine ne les laissent jamais sans argent, comme cela arrive aux paysans qui font recette à des intervalles plus longs. Les journaux sont très lus, surtout les journaux à un sou ; il est peu de familles qui n'en rȩoivent ou n'en achètent un tous les jours. La famille recoit la ˉCroix et le Pèlerin. La Conférence de Saint-Vincent-de-Paul possêde une bibliothêque qui prête de bons ouvrages en grande quantité. La lee¬ture des livres de voyage a éveillé chez le fils aîné le gout des aven¬tures, et, lorsqu'il a été appelé sous les drapeaux, il a choisi l'infan¬terie de marine, espérant être envoyé dans nos colonies lointaines de l'Océanie.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. HYGIÈNE ET SERVICE DE SANTÉ.
+       </head>
+       <p xml:id="para_18_238_80">
+        Les membres de la famille sont doués d'une bonne santé. Le père a l'apparence robuste ; il a eu en 1884 une fièvre typhoide qui n'a pas laissé de traces. La mère avait été atteinte de la même maladie vers l'âge de quinze ans. Les travauxmultiples auxquels elle se livre n'ont pas altéré sa santé ; ils lui ont donné seulement l'air plus âgé qu'elle n'est en réalité. Ce trait ne lui est pas particulier. La plupart des femmes de cultivateurs sur lesquelles repose l'exploitation rurale paraissent vieilles de bonne heure, sans rien perdre cependant de leur activité. En cas demaladie, la famille appelle un médecin de Deuil. Des secours médicaux nemanquent pas à cette commune ; un médecin de Montmorency vient une fois par semaine y donner des consulta¬tions. La proximité d'Enghien permet aussi d'avoir recours à un de ses médecins, très nombreux pendant la saison des eaux. Les accou¬chements se font avec le secours d'une sage-femme à laquelle on donne 20 francs. Il n'existe ni rebouteurs ni empiriques. Les travaux en plein air donnent aux cultivateurs une grande force physique. Toutefois l'irrégularité des repas, les jours de marché, rend fré¬quentes parmi eux les maladies d'estomac. De plus, le travail pénible <pb facs="#facs_256" n="239" source="s2lesouvriersdes01sociuoft_0285.xml"/> auquel ils se livrent les oblige à être sans cesse courbés, aussi la taille de beaucoup de cultivateurs s'affaisse-t-elle avant la vieillesse.
+       </p>
+      </div>
+      <div n="005" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. RANG DE LA FAMILLE.
+       </head>
+       <p xml:id="para_18_239_83">
+        Comme situation de fortune, la famille est dans la moyenne des cultivateurs-maraîchers. Sous le rapport moral, son honnêteté dans les affaires, sa fidélité aux traditions religieuses, son application au travail la placent au premier rang. On la cite également comme fort soucieuse de donner une bonne éducation à ses enfants.
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. PROPRIÉTÉS.
+       </head>
+       <div type="proprietes" subtype="proprietes_texte_1">
+        <p xml:id="para_18_239_87">
+         (Mobilier et vêtements non compris.)
+        </p>
+       </div>
+       <div type="proprietes" subtype="immeubles">
+        <p xml:id="para_18_239_88">
+         IMMEUBLES : reçus en héritage des parents et augmentés avec l'argent provenant de l'épargne............ 79000ᶠ00
+        </p>
+        <p xml:id="para_18_239_89">
+         1° Habitation. — Maison composée d'un rez-de-chaussée et d'un premier étage, sur¬monté d'un grenier, avec une cour. — Total, 15.000ᶠ00.
+        </p>
+        <p xml:id="para_18_239_90">
+         2° Domaine. — Champs servant à la culture maraîchère, y compris un jardin attenant à la maison et employé au même usage, 4 hectares à 16.000ᶠ00 en moyenne l'hectare et divisés en 39 parcelles. — Total, 64.000ᶠ00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="argent">
+        <p xml:id="para_18_239_91">
+         ARGENT. — La famille n'a pas besoin de posséder un fonds de rou¬lement de plus de............ 200ᶠ 00
+        </p>
+       </div>
+       <div type="proprietes" subtype="animaux">
+        <p xml:id="para_18_239_93">
+         ANIMAUX DOMESTIQUES : entretenus toute l'année............ 76ᶠ00
+        </p>
+        <p xml:id="para_18_239_94">
+         1° Animaux divers. — 1 cheval, 600ᶠ00 ; — 1 chien, 15ᶠ00. — Total, 615ᶠ00.
+        </p>
+        <p xml:id="para_18_239_95">
+         2° Basse-cour. — 10 poules et 2 coqs appartenant à la race de Houdan, 31ᶠ00; — 20 lapins, 60ᶠ00. — Total, 91ᶠ00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="materiel">
+        <p xml:id="para_18_239_96">
+         MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 3.215ᶠ00
+        </p>
+        <p xml:id="para_18_239_97">
+         1° Pour l'exploitation des champs. — 10 grands paniers, 35ᶠ00; — 1 paire de paniers pour la voiture, 25ᶠ00; — 1 paire de paniers pour les asperges, 25ᶠ00 ; —15 petits paniers, 30ᶠ00; — <pb facs="#facs_257" n="240" source="s2lesouvriersdes01sociuoft_0286.xml"/> 1 cuvier pour le vin, d'une contenance de 17 barriques,25ᶠ00; — 1 poulain pour charger un tonneau, 10ᶠ00; — 1 entonnoir pour le vin, 5ᶠ00; — 6 tonneaux, 30ᶠ00; — anciens tonneaux, 3ᶠ00; — 3 voitures de dimensions différentes (1 de 400ᶠ00, 1 de 500ᶠ00, 1 de 700ᶠ00), 1.600ᶠ00 ; — 1 lanterne pour la voiture, 4ᶠ50; — 1 bâche, 36ᶠ00; — 6 cercles pour la bâche, 5ᶠ00; — 1 banquette avec courroie, 4ᶠ50 ; — 2 charrues, 1 ancienne en bois et en fer, 140ᶠ00, 1 en fer, 160ᶠ00; — 1 traîneau, 25ᶠ00; — 1 herse en fer, 76ᶠ00; — 1 herse en bois, 20ᶠ00 ; — 1 petite herse à bras, 10ᶠ00; — 1 rouleau avec ses accessoires, 85ᶠ00; — 1 bineuse pour les pommes de terre et les pissenlits, 110ᶠ00; — 3 fourches, 2 croes à fumier, 7 croes pour la terre, 20ᶠ00; -— plantoirs, binettes à oignons, instruments divers, 100ᶠ00 ; — 1 échelle pour le grenier, 5ᶠ00; — 2 seaux de bois pour la cour, 4ᶠ50; — réservoirs en ainc pour emmagasiner les eaux du ciel, 61ᶠ00. — Total, 2.878ᶠ50.
+        </p>
+        <p xml:id="para_18_240_99">
+         2° Pour la vente des produits. — Décalitre, demi-décalitre, double litre, litre, demi¬litre, 7ᶠ00 ; — balance-bascule, 18ᶠ00; — poids (2 kilos, 1 kilo, 1 demi-ilo, 250 grammes, 125 grammes), 4ᶠ00; — 5 paniers, 4ᶠ00 ; — 3 douaaies de sacs, 5ᶠ00. — Total, 85ᶠ00.
+        </p>
+        <p xml:id="para_18_240_100">
+         3° Pour l'exploitation des animaux domestiques. — Harnais neuf et complet pour le cheval, acheté en bloc avec collier en cuir, sellette, sous-ventrière, licl, etc., 180ᶠ00 ; — harnais vieux, 10ᶠ00 ; — 3 fouets, 5ᶠ00 ; — 1 musette pour le cheval, 1ᶠ25. — Tota, 196ᶠ25.
+        </p>
+        <p xml:id="para_18_240_101">
+         4° Pour les industries domestiques. — 1 cuvier pour la lessive, 20ᶠ00; — baquels pour laver, 8ᶠ00 ; — battoir, 1ᶠ50; — cordes pour sécher, 2ᶠ00; — ustensiles divers pour le blanchissage et autres industries, 20ᶠ00; — 1 pelle pour le pain, 1ᶠ75 ; — 1 fourgon pour le four, 2ᶠ00. — Total, 55ᶠ25.
+        </p>
+       </div>
+       <div type="proprietes" subtype="proprietes_total">
+        <p xml:id="para_18_240_102">
+         VALEUR TOTALE DES PROPRIÉTÉS............ 83.121ᶠ00
+        </p>
+       </div>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. SUBVENTIONS.
+       </head>
+       <p xml:id="para_18_240_104">
+        La famille ne jouit d'aucune subvention. La commune ne possède dle biens communaux d'aucune sorte. Les ménages pauvres peuvent ramasser le fumier sur la route ; en dehors de cette maigre subven¬tion, ils ne doivent compter que sur eux-mêmes et sur la charité ; grâce à l'esprit religieux des vieilles familles, celle-ci ne leur fait pas défaut. C'est le régime de la propriété individuelle dans toute son étendue.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. TRAVAUX ET INDUSTRIES.
+       </head>
+       <div type="travaux" subtype="travaux_texte_1">
+        <p xml:id="para_18_240_107">
+         En été, le travail commence environ à 5 heures du matin, une heure plus tard qu'autrefois. Il est interrompu par le déjeuner pris dans les champs vers 7 heures ou heures et demie. A midi, après le dîner, nouvelle suspension jusqu'à 2 heures, une sieste suivant tou¬jours le repas. Le travail s'arrête encore à 4 heures et demie ou 5 heures pour le goûter, mais ensuite il reprend jusqu'à la fin du jour. La famille soupe cn rentrant. Dans l'hiver, le travail commence seu<pb facs="#facs_258" n="241" source="s2lesouvriersdes01sociuoft_0287.xml"/>lement au jour ; il dure sans interruption jusqu'au dîner. Il reprend sans qu'il y ait eu de sieste et se prolonge pendant un temps qui varie suivant l'heure du coucher du soleil.
+        </p>
+        <p xml:id="para_18_241_109">
+         Les jours qui précèdent les marchés, le travail des champs doit être accompli à tout prix. quelque mauvais que soit le temps. Les mem¬bres de la famille cueillent les légumes, les nettoient. les arrangent dans des paniers et chargent la voiture. Cette besogne se prolonge souvent jusqu'à l0 heures. Les personnes qui vont aumarché se jettent alors sur un lit : après quelques heures de repos, elles se relèvent, mon¬tent en voiture et arrivent sur le marché vers ou 6 heures du matin. Elles doivent y rester jusqu'à ce que les marchandises apportées aient été écoulées ; elles rentrent à la maison à 3 ou 4 heures de l'a¬près-midi. Pendant le trajet, qui s'effectue la nuit, les maraîchers ne peuvent sans danger céder au sommeil dans leur voiture; car sur les routes peu sures qui avoisinent aint-Denis, des vols fréquents sont commis. D'habiles et hardis malfaiteurs savent profiter de la somnolence des conducteurs pour s'emparer des légumes dans les voi¬tures. Les asperges sont surtout l'objet de leurs convoitises, et on cite une nuit dans laquelle presque toutes les aspergres contenues dans les voitures venant de Deuil. ont été dérobées. Les légumes volés de la sorte sont presque toujours vendus à Saint-Denis.
+        </p>
+        <p xml:id="para_18_241_110">
+         La famille ne garde plus de domestique à demeure depuis quelques années. Elle emploie comme auxiliaires des journaliers qui travaillent aux pièces dans les champs et des journalières qui sont plus spécia¬lement occupées à cueillir les légumes. Lorsqu'elles sont payées à l'heure, elles ne sont pas nourries sinon elles reçoivent 2 francs par jour et la nourriture.
+        </p>
+       </div>
+       <div type="travaux" subtype="pere">
+        <p xml:id="para_18_241_111">
+         Travaux du père. — Il s'occupe de tous les travaux des champs en général. mais plus spécialement des plantations. Il ne se rend jamais auu marché.
+        </p>
+       </div>
+       <div type="travaux" subtype="mere">
+        <p xml:id="para_18_241_112">
+         Travaux de la mère. — Le fardeau de l'exploitation retombe pres¬que tout sur elle. Elle prend part aux travaux des champs, comme tous les autres membres de la famille, prépare la cuisine, fait tous les marchés. Deux fois par semaine, elle passe donc la nuit dans une voiture. Arrivée au marché. elle n'est pas condamnée à une tâche moins pénible : disputer avec ses clients sur le pri de chaque objet et exercer une surveillance incessante pour déjouer toute fraude
+         <ref target="#part_03_01_22" type="renvoi_int_mono">
+          (§ 22)
+         </ref>
+         . Rentrée chez elle, il lui faut préparer le repas du soir. Dans beaucoup de familles. le mari, pendant ce temps, va tranquillement jouer auu <pb facs="#facs_259" n="242" source="s2lesouvriersdes01sociuoft_0288.xml"/> cabaret. La mère s'occupe aussi de tous les comptes, mais sans tenir aucune comptabilité régulière.
+        </p>
+       </div>
+       <div type="travaux" subtype="aine">
+        <p xml:id="para_18_242_114">
+         Travaux du fils aîné. — Aucune tâche spéciale n'incombait au fil aîné, avant qu'il ne fût appelé au service. Il aidait ses parents dans tous leurs travaux.
+        </p>
+       </div>
+       <div type="travaux" subtype="cadet">
+        <p xml:id="para_18_242_115">
+         Travaux du fils cadet. — Il s'occupe du cheval et de la voiture. IH va chercher les légumes dans les champs et les amène à la maison. ll accompagne sa mère au marché, conduit les marchandises chez les clients qui en achètent habituellement une grande quantité. Lorsqu'il a terminé ees diverses courses, il prend le chemin de fer pour rentrer à Deuil, et laisse sa mère revenir seule en voiture.
+        </p>
+       </div>
+       <div type="travaux" subtype="fille">
+        <p xml:id="para_18_242_116">
+         Travaux de la fille. — La fille participe aux travaux agricoles. Elle ramasse du mouron (Alsne edia, L.) pour les oiseaux ; elle le vend à son profit ; son gain s'élève parfois à 3 francs par semaine. Depuis quelques mois, la mère l'emmène au marché. pour alléger sae propre tâche et en même temps lui faire commencer l'apprentissage du commerce. La fille, en outre, la supplée déjà dans certains tra¬vaux du ménage.
+        </p>
+       </div>
+       <div type="industries" subtype="famille">
+        <p xml:id="para_18_242_117">
+         Industries entreprises par la famille. — La famille autrefois fabri¬quait elle-même son pain. Elle a renoncé à ce travail, ainsi que la plupart des familles de Deuil. D'abord l'indélicatesse des meuniers, prélevant une partie du blé qui leur était confié, lui causait un réel préjudice. En outre, comme les champs de blé étaient disséminés çà et là, ils attiraient d'autant plus les oiseaux, qui y faisaient de grands ravages. Elle a trouvé enfin un plus sur bénéfice à remplacer le klé par des légumes. D'après ses caluls. la fabrication domestique du pain lui procurait seulement un bénéfiee de 3 francs par mois sur le système de l'achat chez le boulanger ; mais, comme dans ce calcul, le bois employé pour le chauffage du four et les journées de travail n'entraient pas en ligne de compte, l'opération se traduisait finale¬ment par une perte. Aussi il n'y avait autrefois qu'un seul grainetier à Deuil ; quatre y sont maintenant établis. La famille a seulement con¬servé l'habitude de blanchir elle-même son linge
+         <ref target="#part_02_05_16" type="renvoi_int_mono">
+          (§ 16)
+         </ref>
+         .
+        </p>
+       </div>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_18_243_121">
+        <pb facs="#facs_260" n="243" source="s2lesouvriersdes01sociuoft_0289.xml"/>La famille ne s'impose aucune privation, et ne se livre à aucune dé¬pense exagérée pour la nourriture. Elle consomme de la viande à presque tous ses repas, surtout de la viande de mouton. Le bœuf lui sert pour le pot-au-feu, qu'elle met deux fois par semaine, la mère de famille y trouvant l'avantage d'avoir le repas tout préparé à son retour du travail. La famille ne mange jamais de veau ; les jours de fête, elle accommode des lapins de sa basse-cour ou plus exception¬nellement des poulets. C'est également la basse-cour qui lui fournit une partie des œufs qu'elle consomme. Elle tire de son exploitation les légumes et les fruits, mais seulement les fruits défraichis ou ta¬chés, qui sont d'aussi bonne qualité que les autres, mais qu'elle ne peut écouler sur le marché
+        <ref target="#part_03_01_22" type="renvoi_int_mono">
+         (§ 22)
+        </ref>
+        . Le vin qu'elle boit provient de ses vignes ; elle n'en achète à Deuil que dans les années de récolte in¬suffisante, sauf une petite quantité à l'usage de la mère, qui goûte peu le vin du cru.
+       </p>
+       <p xml:id="para_18_243_122">
+        Quatre repas ont lieu par jour : premier deieumer, pris le matin après le lever, pendant l'hiver, ou dans les champs, pendant l'été, vers 7 heures ou heures et demie; il se compose dans le premier cas de eafé ou de soupe, dans le second de pain et de fromage : second de¬peauner à midi ; un morceau de viande accommodé avec des lé¬gumes, ragoût de mouton ou de porc, suivi souvent de dessert. Le goiter se prend à 4 heures et demie ou à  heures à partir du mois de mai : un morceau de pain avec fruits variant selon le mois. Dans l'hiver. il a lieu plus tôt. la famille ne mange alors que du pain. L'heure du diner est de 6 heures en hiver ; il comprend ce qui reste du déjeuner avec une soupe. ln été le diner est retardé jusqu'à la chute du jour, apres que la famille a terminé son travail. Les jours de marché, les membres de la famille qui s'y rendent pren¬nent du café avant leur départ; ils déjeunent à Paris dans un petit restaurant situé à côté du marché. Ils se plaignent beaucoup de la nourriture qu'ils y consomment.
+       </p>
+       <p xml:id="para_18_243_123">
+        La famille boit de l'eau-de-vie les jours de fête et quelquefois les jours de travail, mais avec modération.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
+       <div type="par_10" subtype="par_10_texte_1">
+        <p xml:id="para_18_244_126">
+         <pb facs="#facs_261" n="244" source="s2lesouvriersdes01sociuoft_0290.xml"/>La maison, construite en pierre, est située dans la rue de la Barre, qui est en même temps la route de Pontoise. Le corps de bâtiment donnant sur la rue se compose d'un re-de-chaussée surmonté d'un premier étage et d'un grenier ; dans le corps de bâtiment prenant jour sur la cour, le premier étage est un grenier. Une porte cochère donne accès de la voie publique dans la cour. A gauche se trouve la buanderie ; à droite, après avoir monté trois marches, on entre dans la cuisine, puis dans la salle à manger où la famille se tient habituel¬lement. n escalier, partant de la cuisine, conduit au premier étage qui renferme trois chambres à coucher, plus une autre chambre af¬fectée au séchage et à la conservation des fruits. Au-dessus de tous les appartements s'étend un grenier qui sert surtout à ranger les oi¬gnons. Dans la cour, à une petite distance de la porte de la cuisine et du même côté, nous entrons dans le eellier, et, par un escalier de quelques marches, nous descendons dans une cave où on place les légumes pendant l'iver pour les faire dégeler. Au fond, faisant face à la porte cochère, se trouvent l'écurie et deux hangars d'inégale dimension ; la famille y remise ses voitures et ses instruments ara¬toires. Des cabanes pour les poulets et les lapins ont été construites dans la cour. Derrière le hangar, s'étend le jardin qui n'est à propre¬ment parler qu'un champ affecté, comme les autres, à la culture des légumes.
+        </p>
+       </div>
+       <div type="par_10" subtype="meubles">
+        <p xml:id="para_18_244_127">
+         MEUBLES : la famille possède un mobilier suffisant, mais sans aucune recherche de luxe............ 1.551ᶠ25
+        </p>
+        <p xml:id="para_18_244_128">
+         1° Literie. — 4 lits en fer, 80ᶠ00; — 1 lit en noyer, 65ᶠ00; — 2 matelas dont 1 en va¬rech, 60ᶠ00 ; — 1 lit de plume, 20ᶠ00; — 4 sommiers, 121ᶠC0; — 10 couvertures, 150ᶠ00; — 2 édredons 50ᶠ00 ; — 2 couvre-pieds, 40ᶠ00; — 8 oreillers, 24ᶠ00 (1 oreiller est fait en moyenne chaque année avec la plume des poulets provenant de la basse-cour). — Total.
+        </p>
+        <p xml:id="para_18_244_129">
+         2° Mobilier des chambres à coucher et de la salle à manger. — 1 armoire en noyer, 130ᶠ00 ; — 1 commode en noyer, 90ᶠ00; — 1 pendule, 90ᶠ00 ; — 1 glace, 35ᶠ00; — 1 tapis 6ᶠ00; — 21 porte-manteaux, 2ᶠ10; — 2 tables de nuit, 4ᶠ 00 ; — 1 vieux fauteuil, 3ᶠ00; — 1 grande table pour les repas avec rallonges, 110ᶠ00 ; — toile cirée pour la table, 7ᶠ00; ¬poèle en fonte, 100ᶠ00 ; — 16 chaises très propres, 60ᶠ00 ; — 6 chaises ordinaires, 12ᶠ00. — Total, 649ᶠ10.
+        </p>
+        <p xml:id="para_18_244_130">
+         3° Mobilier de la cuisine. — 1 buffet, 60ᶠ00; — 1 table en chéne à rallonges, 45ᶠ00; — 1 huche ou pétrin, 35ᶠ00 ; — 1 petit buffet de cuisine, 15ᶠ00 ; — 4 chaises, 7ᶠ00. — Tota.
+        </p>
+        <p xml:id="para_18_245_131">
+         <pb facs="#facs_262" n="245" source="s2lesouvriersdes01sociuoft_0291.xml"/> 4° Livres, gravures et objets de pieté. — Portraits de Pie N et de Léon XII, 4ᶠ00; — plu¬sieurs photographies de Lourdes, de Notre-Dame de Chartres, de l'église du Sacré-Ceur d'Issoudun, de l'église du Sacré-Ceur de Paray-le-Monial, 6ᶠ00 ; — gravure coloriée re¬présentant le Sacré-Ceur de Jésus et la Vierge, 3ᶠ50 ; — tableau de la Sainte-race, 2ᶠ00 ; — 2 statues de la sainte Vierge, ᶠ00 ; — statuette de saint Joseph donnée à l'ainé des fils au catéchisme de persévérance, 2ᶠ00 ; — photographies des anciens curés de la paroisse, du comte de Chambord, du grand-père paternel, des membres de la famille, et diverses, 19ᶠ25 ; — 2 tableaux de première communion, 6ᶠ00; — 2 tableaux de la sainte Vierge, 2ᶠ50; — 1 Christ, 1ᶠ50 ; — 1 chapelet de Lourdes, 0ᶠ40 ; — 1 gravure du Saint-Rosaire, 1ᶠ00; — 1 cha¬pelet en argent, 6ᶠ00 ; — 1 crucifix, 10ᶠ00; — 1 gravure de l'Ecece homo, 2ᶠ00; — 1 cadre où est le certificat d'études de la jeune fille, 3ᶠ00 ; — livres de prix des enfants, 8ᶠ00 ; livres de messe, 20ᶠ00 ; — livres de piété ( da Premiére Communion. le Mois de Marie et Notre-Dame de Lourdes, Souvenir du grandiour, Jesus xient ax enfants de la premiére communion, le Froment des Eus, Manuel des Enfants de Marie, Guide de a peune pensionnare, le Grand our approche, de Mʳ Gaume ; les Glas d'or des enfants de arie, un cantique, Manuet des Mêres chrétiennes, Introduction a la ie dévote, par saint Francois de Sales ; la raie et solide piéte, par le mè́me ; la Drection spirituelde, par le même ; le Mois du Sacre-Cœur, le Mois de Marie, e Mois de saint Josepn, ˉLettres de M de Segur ; trois petits livres, les Paillettes d'or, les Flammes de l'amour de lesus¬Crist, le Combat spirituet ; Sainte Monique, ie de la sœur Saint-Pierre, des Carmélites de ours), 26ᶠ00. — Total, 130ᶠ15.
+        </p>
+       </div>
+       <div type="par_10" subtype="ustensiles">
+        <p xml:id="para_18_245_134">
+         USTENSILES : assez nombreux pour que la famille ne se trouve jamais à court ; ne présentent aucun cachet particulier ; sont entretenus par la mère et la fille avec autant de soin que les travaux des champs le permettent............ 231ᶠ05
+        </p>
+        <p xml:id="para_18_245_135">
+         1° Employés pour la cuisson, la préparation et la consommation des aliments. — 4 cas¬seroles, 5ᶠ00; —3 cocottes en fonte, 15ᶠ00 ; — 1 marmite en fonte, 6ᶠ00; — 1 plat en fer battu, 2ᶠ25 ; — 2 boites a lait en fer battu, 2ᶠ00 ; — 3 passoires, 3ᶠ75 ; — 1 panier à salade, 0ᶠ75 ; — 1 boite pour le sucre, 1ᶠ25 ; — 1 cafetiére, 2ᶠ50 ; — 1 lampe avec réchaud et a esprit-de¬vin, 1ᶠ45 ; — 12 cuillers en étain, 1ᶠ80; — 15 fourchettes en fer, 1ᶠ50; — 12 couteaux ordi¬naires,3ᶠ00 ; — 24 assiettes creuses, 3ᶠ60; — 24 assiettes plates, 3ᶠ60 ; — 24 assiettes de des¬sert, dnnées par les enfants à l'occasion d'une fète de leur mère, 6ᶠ00; — 2 plats, 1 saladier, 3ᶠ25 ; — 1 soupière,2ᶠ00; —16 verres à pied, 3ᶠ20 ; — 12 verres a liqueurs, 2ᶠ 40; — 18 cuitters, 18ᶠ00; — 1cuiller à soupe, 2ᶠ00; — 24 cuillers a café, 3ᶠ60 ; — 1 saliere, 0ᶠ35 ; — 1 sucrier, 1ᶠ50; — 1 couteau à découpe, 1ᶠ00; — 1 pot eu porcelaine de Chine pur mettre Teau, 1ᶠ50 ; — 1 timbale en argent, 22ᶠ00 ; — 1 couvert en métai, 6ᶠ00; — 250 bouteilles, 20ᶠ00. — Total, 146ᶠ25.
+        </p>
+        <p xml:id="para_18_245_136">
+         2° Employés pour l'éclairage. — 2 chandeliers en cuivre, 7ᶠ00; — 1 lampe à es¬sence, 8ᶠ00 ; — 1 petite lampe, 1ᶠ 25 ; — 5 chandeliers en fer pour la cour, 3ᶠ 50; — 1 lan terne en fer pour la cour, 1ᶠ25 ; —  chandeliers en faience, 2ᶠ00. — Total, 23ᶠ00.
+        </p>
+        <p xml:id="para_18_245_137">
+         3° Employés à divers usages domesiques. — 2 glaces pour toilette, 2ᶠ50; — brosses à habit, 3ᶠ25;— cuvettes et pots a eau, 6ᶠ00; — peignes, 4ᶠ00; — 2 petits sacs de voyage, ᶠ00 ; — 3 paniers de fantaisie, 5ᶠ50; — 1 carton à chapeau, 4ᶠ50 ; — 1 vatise pour voyage, 14ᶠ00; — 3 cartons pour bonnets, 3ᶠ50; — vases pour mettre des fleurs, 2ᶠ50; — 1 seau de inc, 1ᶠ25 ; — 1 fourneau en fonte portatif, 3ᶠ50 ; — 4 brosses servant à cirer, 1ᶠ30; — objets servant au feu, 5ᶠ00. — Tota1, 61ᶠ80.
+        </p>
+       </div>
+       <div type="par_10" subtype="linge">
+        <p xml:id="para_18_245_140">
+         LINGE DE MÉNAGE : très suffisant et de bonne qualité............ 342ᶠ 00
+        </p>
+        <p xml:id="para_18_245_141">
+         18 paires de draps de lit, 270ᶠ00; — 30 serviettes de table, 30ᶠ00; — 1 nappe, 12ᶠ00; — 18 serviettes de toilette, 12ᶠ00; — 3 douaaines de torchons, 18ᶠ00. — Total, 342ᶠ00.
+        </p>
+       </div>
+       <div type="par_10" subtype="vetements">
+        <p xml:id="para_18_245_142">
+         VÊTEMENTS : Sauf le mouchoir qui entoure la tête des femmes, les vêtements des cultivateurs de Deuil n'offrent aucun trait particulier. <pb facs="#facs_263" n="246" source="s2lesouvriersdes01sociuoft_0292.xml"/> Depuis longtemps toute trace de costume local a disparu. La famille ne recherche pas l'élégance des vêtements, mais la solidité. Aussi évite-t-elle d'acheter dans les grands magasins les objets d'un pri peu élevé, mais dont la qualité inférieure compense le bon mar¬ché............ 4,046ᶠ 75
+        </p>
+        <p xml:id="para_18_246_144">
+         VÊTEMENTS DES HOMMES (1.765ᶠ 55).
+        </p>
+        <p xml:id="para_18_246_145">
+         1° Vêtements de travail (du père et des deux fils aînés). — 6 paires de gros souliers, 4 paires de sabots, 3 paires de guétres, 128ᶠ00; — 6 pantalons de velours, 6 pantalons de coutil, 54ᶠ00; — 6 gilets de velours, 48ᶠ00; — 3 vestes de castor, 60ᶠ00; — 3 vestes de coutil, 36ᶠ00 ; — 3 chapeaux de paille, 1ᶠ05 ; — 6 casquettes de travail, 3ᶠ50; — 6 tabliers de travail, 1ᶠ50 ; — 4 blouses, 28ᶠ00; — 1 manteau dit limousine, 22ᶠ00. —Total, 400ᶠ05.
+        </p>
+        <p xml:id="para_18_246_146">
+         2° Vêtements des jours de fête. — Vêtements du père : 1 paire de bottines, 15ᶠ00; — 4 pan¬talons de drap avec gilet pareil, 80ᶠ00; — 1 pantalon de mariage, 35ᶠ00; — 1 paletot a¬illé, 30ᶠ00; — 2 redingotes, 120ᶠ00: — 1 pardessus, 65ᶠ00; — 1 chapeau haute forme et 1 chapeau ordinaire, 13ᶠ50. — Total, 358ᶠ50. — Vètements des ils : 4 pantalons de drap, 80ᶠ00 ;— 2 padessus, 90ᶠ00; — paletot et redingote, 75ᶠ00; — 2 chapeaux de feutre, 10ᶠ00. — Total, 261ᶠ00. — Total des vêtements des jours de fête, 619ᶠ50.
+        </p>
+        <p xml:id="para_18_246_149">
+         3° Autres vêtements. — 5 douzaines de chemises, 300ᶠ00; — 4 paires de chaussettes, 35ᶠ00; — 3 gilets de chasse, 62ᶠ00; — 3 cache-nez de tricot faits par la mére, 10ᶠ00; — 3 fou¬ards, 5ᶠ00; — 10 eravates, 10ᶠ00 ; — 3 parapluies, 11ᶠ50: — 2 gilets de coton de tricot, 6ᶠ50 ; — 1 casquette de fanfare, 3ᶠ75. — Total, 543ᶠ75.
+        </p>
+        <p xml:id="para_18_246_150">
+         4° Vêtements du plus jeune fils. — 1 pantalon pour les vacances, 20ᶠ00; — 1 veste, 4ᶠ00; — 1 paletot, 5ᶠ00; — 1 pardessus pour les dimanches, 25ᶠ00; — 1 chapeau de feutre, 4ᶠ00; — 1 paire de bottines, 7ᶠ00; — 3 paires de bas, 4ᶠ50; — 3 caleçons, 7ᶠ50; — 1 gilet de tricot en laine, 5ᶠ50; — 2 gilets de tricot en coton, 3ᶠ00; — 1 paire de chaussons, 2ᶠ50; — 1 eas¬quette, 1ᶠ25 ; — 4 cravates, 3ᶠ00. — Total, 92ᶠ25.
+        </p>
+        <p xml:id="para_18_246_153">
+         5° Bijoux. — 1 montre en argent avec chaine (au pére), 60ᶠ00; — 2 montres en argent (aux deux fils aînés), 51ᶠ00. — Total, 111ᶠ00.
+        </p>
+        <p xml:id="para_18_246_154">
+         VÊTEMENTS DES FEMMES (2.281Iᶠ20).
+        </p>
+        <p xml:id="para_18_246_155">
+         1° Vêtements de la mère. — 8 r obes de travail, 200ᶠ00; — 2 robes de soie, 270ᶠ00; — 2 chales, 85ᶠ00; — 3 manteau, 75ᶠ00; — 1 pelisse pour aller la nuit au marché, 25ᶠ00; — 8 bonnets, 60ᶠ00; — 1 douzaine de fichus, 10ᶠ00; —  douzainede bas de laine, 42ᶠ00 ; — 1 dou¬aine de bas de coton, 30ᶠ00; — 42 chemises, 210ᶠ00; — 3 camisoles de tricot, 9ᶠ00; — 6 cols, 7ᶠ00; — 1 col avec manchettes en dentelles, 15ᶠ00; — 1 foulard, 4ᶠ50; — 2 fichus en mohair faits au crochet dans les s oirées d'hiver, 3ᶠ00; — 2 1ichus de laine faits de même au crochet, 14ᶠ50; — 1 capeliune en cachemire, servant pour aller a l'église pendant la semaine, 11ᶠ00: — 1 capeline pour le dimanche, 14ᶠ30; — 4 paires de gants, 7ᶠ00; — paire de chaussons en feutre, 3ᶠ75 ; — 2 paires de souliers, 24ᶠ00; — 2 paires de pa¬toufles, 10ᶠ00; — 2 corsets, 10ᶠ00; — 4 jupons noirs en mérinos pour les dimanches, 40ᶠ00; — 4 jupon de tricot en laine fait par ia jeune fille, 10ᶠ00; — 5 jupons blancs, 20ᶠ00; - 3 canmisoles de nuit, 12ᶠ00; — 2 pantalons pour l'hiver, 12ᶠ00; — 2 parapluies, 10ᶠ00 ; — 1 ombrelle, 4ᶠ50. — Total, 1.247ᶠ25.
+        </p>
+        <p xml:id="para_18_246_159">
+         2° Vêtements de la fille. — 4 robes des dimanches, dont deux faites en costume, 100ᶠ00; — 2 manteaux, 50ᶠ00; — 1 vaterproof, 20ᶠ00; — 3 chapeaux, 35ᶠ00; — 1 costume des En¬tants de Marie, 50ᶠ00 ; — 3 paires de bottines, 30ᶠ00; — 2 paires de sabots et chaussons, 6ᶠ00; — 1 paire de souliers de travail, 8ᶠ 00; — 2 robes de travail, 15ᶠ00; — 18 chemises, 63ᶠ00; — 1 douzaine de bas de laine, 24ᶠ00; — 1 paire de pantoules, 2ᶠ50; — 1 douaaine de bas de coton, 18ᶠ00; — 1 ceinture, 1ᶠ25 ; — 3 cols, ᶠ00; — 3 paires de manchettes, 3ᶠ00  — 6 bonnets de nuit, 5ᶠ00; — 6 ichus de nuit, 3ᶠ00; — 3 camisoles en tricot, 9ᶠ00; — 2 ca¬misoles pour l'été, 6ᶠ00 ; — 1 jupon en tricot, 11ᶠ00; — 3 jupons mérinos, 24ᶠ00; — 3 panta¬lons pour 'hiver, 15ᶠ00 ; — 8 pour l'été, 30ᶠ00; — 1 jaquette en cachemire, 175ᶠ00; — 1 ja<pb facs="#facs_264" n="247" source="s2lesouvriersdes01sociuoft_0293.xml"/>quette de tricot, 12ᶠ00 ; — 6 petits foulards en soie, 7ᶠ00; — 4 tabliers, 15ᶠ00; — 2 caraces, 10ᶠ00 ; — 2 paires de manchettes de laine, 10ᶠ00; — 3 paires de gants, 4ᶠ00; — 6 fichus de laine en tricot, faits par elle-méme,8ᶠ00; —2 capelines, 8ᶠ25; — 1 bonunet de linge, 3ᶠ20; — parure de dentelles, 3ᶠ00; — 2 corsets, 16ᶠ00 ; — 1 parapluie, 6ᶠ00; — 1 ombrelle, 3ᶠ50. — Total, 658ᶠ 70.
+        </p>
+        <p xml:id="para_18_247_163">
+         3° ˉBijoux (De la mère) : boutons de fantaisie, 1ᶠ00; — 1 broche camée, 50ᶠ00; — 1 bague en cheveux, ᶠ00; — 1 croix en argent, 3ᶠ00 ; — 1 paire de boucles d'oreilles, 22ᶠ00; — 1 chaine et 1 montre, 240ᶠ00. — Total, 322ᶠ00. — (De la fille) : 1 boucle en nacre, 3ᶠ25 ; — broche de fantaisie, 5ᶠ00; — 1 chaine avec 1 croix, 20ᶠ00; — 1 paire de boucles d'o¬reilles, 25ᶠ00. — Total, 53ᶠ25. — Total des bijoux, 375ᶠ25.
+        </p>
+       </div>
+       <div type="par_10" subtype="par_10_total">
+        <p xml:id="para_18_247_164">
+         VALEUR TOTALE du mobilier et des vêtements............ 6.171ᶠ05
+        </p>
+       </div>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_18_247_167">
+        Le travail en commun, si dur qu'il puisse étre, constitue la princi¬pale récréation de la famille. Elle trouve également un vif plaisir dans les rapports qu'elle entretient entre parents et voisins. Dans les rares moments de loisir dont ses membres disposent pendant les journées d'hiver, ils aiment se réunir et deviser ensemble autour du poêle. Des distractions très appréciées sont les repas où l'on recoit les parents au premier jour de l'an, à Pâques, à la Toussaint, le 8 septembre, jour de la fête du pays, et dans des occasions exception¬nelles. Le menu, plus copieux que celui des autres jours, se compose d'une soupe ou du pot-au-feu, d'un plat de bœuf ou de lapin, d'un gigot rôti, d'un plat de légumes, d'une salade, de fromage et, suivant la saison, de fruits ou de pruneaux, biscuits et petits gateaux. Le repas se termine par du thé ou du café additionné soit de rhum, soit d'eau-ue-vie.
+       </p>
+       <p xml:id="para_18_247_168">
+        Ni le père ni les fils ne fument ; ils ne vont jamais au café se livrer au plaisir du jeu, sirecherché par beaucoup d'habitants de Deuil
+        <ref target="#part_02_01_03" type="renvoi_int_mono">
+         (§ 3)
+        </ref>
+        . Le goût du théaûtre s'est répandu dans une partie de la popula¬tion. Bien des familles y passent la soirée du dimanche, le train, dit des théâtres, leur permettant de rentrer chez elles vers 1 heure et demie. La famille n'y est jamais allée.
+       </p>
+       <p xml:id="para_18_247_169">
+        Les fils ont évité de faire partie des sociétés qui, là comme ailleurs, se sont multipliées depuis quelques années. Ainsi à Deuil il existe maintenant ue fanfare, des pompiers, une Société de gymnastique, une Société de la carabine, une Société de l'arbalète, une Société du 'ournois. L'expérience prouve que ces sociétés sont trop sou<pb facs="#facs_265" n="248" source="s2lesouvriersdes01sociuoft_0294.xml"/>vent des moyens employés par les adversaires des idées traditionnelles pour s'emparer de l'esprit des je unes gens et les enlever le dimanche à la famille ou à l'église. Ces sociétés multiplient en outre les fêtes, les réunions bruyantes et chassent de l'esprit de beaucoup de jeunes gens les pensées sérieuses, pour ne leur laisser que des préoccupa¬tions futiles.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. PHASES DIVERSES DE L'ENISTENCE.
+       </head>
+       <p xml:id="para_18_248_174">
+        La vie d'une famille de cultivateurs ne présente pas des alternatives variées de prospérité ou de malheur ; elle s'écoule cahme et uniforme. La famille G*** a reçu sa propriété de ses parents ; elle l'augmentera par son épargne, sera sans cesse courbée sur ses sillons et transmet¬tra à ses enfants les mêmes terres, avec la même profession. 'elles sont les grandes lignes de cette existence.
+       </p>
+       <p xml:id="para_18_248_175">
+        Les événements de 1870-1871 amenèrent seulement des incidents dont le récit revient souvent dans les causeries de famille. Deuil était placé en dehors de la ligne de défense française, mais d'un autre côté, il était trop rapproché des fortiications de 'aris pour que les Prussiens l'occupassent et que la vie régulière de la population continuât sous la domination étrangère. Craignant d'être placés entre deux feux, tous les habitants, sauf deu ou trois, abandonnèrent leurs maisons ; les uns se réfugièrent à Paris, les autres en province. 'andis que le père s'enfermait dans la capitale avec sa mère, la femme demandait l'hospitalité à des parents habitant la Touraine. Lorsqu'ils revinrent, après la fin des hostilités, ils trouvèrent leur maison ravagée. L'ar¬mée ennemie n'avait pas occupé Deuil d'une façon continue ; elle y avait établi ses avant-postes, et pour faire du feu, les soldats, manquant de bois, prirent le mobilier des maisons que leurs proprié¬taires avaient abandonnées. Un combat très vif s'engagea non loin de là, à pinay. La famille se remettait courageusement au travail, pres¬sée de profiter du haut prix des légumes après les privations du siège de Paris, lorsqu'éclata l'insurrection. L plus grande partie de <pb facs="#facs_266" n="249" source="s2lesouvriersdes01sociuoft_0295.xml"/> la population ayant abandonné Paris, les légumes se vendaient à des prix peu élevés. De plus, dans les derniers jours de la Commune, les hommes n'osaient pas se montrer sur les marchés parisiens, craignant d'être incorporés dans les bataillons des insurgés. La famille estime à 10.000 francs la perte qu'elle a subie pendant le siêge et linsurrec¬tion,tant du chef des meubles brisés que de l'interruption de la vente.
+       </p>
+       <p xml:id="para_18_249_177">
+        Plus tard, le père de la femme, sentant ses forces faiblir, a procédé au parlage de sa fortune par acte notarié. Il a abandonné ses biens à ses enfants moyennant le paiement d'une pension annuelle de 1.500 francs, et, comme garantie de l'exécution de cette clause, ceux¬ci ne peuvent vendre une pièce de terre sans sa permission. Les con¬ditions d'existence se retrouvent identiques dans toutes les familles de cultivateurs. L'éducation des enfants rencontre de grandes difficultés à cause de l'éloignement des parents retenus par le travail des champs oOu par les courses à Paris. Aussi les femmes de maraîchers ne nour¬rissent-elles jamais leurs enfants ; elles les élèvent au biberon. A peine les enfants ont-ils acquis les rudiments de l'instruction primaire, que, le plus souvent vers l'âge de douze ans, ils sont associés aux labeurs de leurs parents. Avant la diffusion de l'instruction, cette époque de travail était même avancée. Les familles se montrent peu soucieuses de donner à leurs enfants des connaissances intellectuelles, qui leur semblent inutiles pour le travail du maraîcher. Autrefois les jeunes gens se mariaient à dix-huit ans avec des jeunes filles à peu près du même âge. Depuis, cette date a été progressive¬ment reculée et maintenant les jeunes gens n'entrent plus en ménage qu'à l'expiration du service militaire. Les mariés font rarement un contrat. C'était au contraire l'habitude générale, il y a un certain nombre d'années, parce que les époux se faisaient entre eux des dona¬tions réciproques. L'usage des contrats s'est perdu, depuis qu'ils ont reconnu l'inconvénient de ces dispositions. Les rares familles qui tien¬nent encore à en rédiger adoptent le régime de la communauté réduite aux acquêts. Mais dans le but d'éviter les droits d'enregistrement. les contractants ne font figurer que le trousseau. Le marié remet géné¬ralement à la fiancée de la main à la main une somme de 500 a 1.000 francs, qu'elle emploie en acquisition de bijoux et de bagues, et dont elle se réserve en outre une certaine part. L'usage veut que le marié achète le buffet, l'armoire, le bois de lit et les chaises. Les parents directs de deux nouveaux époux leur font ensuite des ca¬deaux en nature, tandis que les membres plus éloignés de la famille ler <pb facs="#facs_267" n="250" source="s2lesouvriersdes01sociuoft_0296.xml"/> remettent de l'argent. P'armi les cadeaux en nature figurent toujours des semences de toute espèce, pour diminuer les frais supportés par les nouveaux époux dans les premières années de leur exploitation. Comme dot plus importante, les cultivateurs donnent à leurs enfants des pièces de terre ; mais ils évitent de se lier par un engagement écrit, précisant la durée de cette donation, et demeurent ainsi toujours libres de revenir sur leur parole. Les mariages ont lieu presque ex¬elusivement entre enfants de cultivateurs-maraichers, souvent même entre cousins et cousines. Les cultivateurs de Deuil envisagent aveC méfiance l'introduction de tout élément étranger parmi eux. D'autre part la rude aîche imposée à la femme dans une exploitation marai¬chère effraie les jeunes filles peu familiarisées avec ces travaux.
+       </p>
+       <p xml:id="para_18_250_179">
+        L'usage des partages d'ascendants est général dans toutes les fa¬milles. Mais, contrairement aux pratiques adoptées par les paysans résiniers des Landes
+        <ref target="#part_02_05_16" type="renvoi_int_mono">
+         (1)
+        </ref>
+        , les parents ne donnent jamais à leurs enfants toute leur fortune. Dans la plupart des actes, ils stipulent la clause que le père de la femme a imposée à ses enfants ; ils se réservent en outre toutes les valeurs mobilières. Les enfants les recoivent à la mort de leur pére ou mère, mais ils ne les déclarent pas au fise, lorsqu'elles sont au porteur, ce qui est le cas général. Aussi la fortune des habitants de Deuil peut-elle être difficilement évaluée. ne telle manière de pro¬céder prévient les actes d'ingratitude. Le respect de l'autorité pater¬nelle s'est du reste maintenu parmi ces familles, et un enfant qui l'en¬freindrait serait mis au ban de l'opinion. Les partages entre les enfants ont toujours lieu d'une manière égale. Jadis chacun voulait recueillir un morceau de terre dans outes les parties de la commune. Au¬jourd'hui les héritiers se montrent plus préoccupés d'avoir des ter¬rains moins morcelés et situés sur le bord d'un chemin.
+       </p>
+       <p xml:id="para_18_250_180">
+        Les cultivateurs qui recoivent de leur famille une quantité de terre insufisante en prennent à location aux propriétaires plus aisés. Les fermages sont faits pour une période de temps très longue. Les bons cultivateurs gardent indéfiniment les terres qu'ils ont affermées. Comme eux ou leurs ancêtres les ont fumées et améliorées, la cessa¬tion du bail leur causerait un grand préjudice. Aucune condition de culture n'est imposée dans les baux ; les propriétaires se montrent rès faciles pour les paiements. Depuis que la hausse du prix des
+       </p>
+       <p xml:id="para_18_250_181">
+        1) Monographie du Paysan résinier de Leivigncq ;
+        <ref target="#ID-044a" type="renvoi_int_od2m">
+         Les Ouvriers des Deux Mondes, 1re série. t. V. p. 336
+        </ref>
+        . <pb facs="#facs_268" n="251" source="s2lesouvriersdes01sociuoft_0297.xml"/> terrains aux environs d'Enghien a déterminé plusieurs d'entre eu à vendre leurs terres, le locataire se réserve le droit de résiliation en cas de vente ; une année de fermage lui est donnée au locataire comme indemnité. L'épargne est employée à acheter des terres, quand il y a plusieurs enfants, des valeurs mobilières. dans le cas contraire. Les plus fortunés font construire des maisons, qu'ils louent ou qu'ils comptent vendre avec bénéfice, soit à Deuil, soit à nghien. L'usage du testament s'est totalement perdu parmi eux.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. MŒURS ET INSTITUTIONS DESTINÉES A ASSURER LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_18_251_185">
+        Le bien-être de la famille repose sur le respect des traditions proies¬sionnelles, sur des habitudes laborieuses que maintiennent les exi¬gences impérieuses d'une industrie rude à exercer. mais lucrative. enfin sur la valeur exceptionnelle de la terre, valeur due à la proximité de la capitale. Aucun doute n'existe jamais chez les cultivateurs-maraî¬chers, sur l'écoulement de leurs produits : il se fait à des prix plus ou moins avantageu, mais il est certain. Cette valeur exceptionnelle de la terre permet à une famille de vivre sur une propriété très exigué: elle atténue, sans les faire disparaître, quelques-unes des consé¬quences funestes du parage forcé. à la condition toutefois que les unions demeurent peu écondes.
+       </p>
+       <p xml:id="para_18_251_186">
+        Aussi les membres de la famille n'ont-ils recours à aucune institu¬tion pour se garantir contre des événements imprévus, et il en est de même de la plupart des familles de cultivateurs. La Société de Saint¬Vincent de Paul, la Confrérie des Dames de charité ne visent que les ménages pauvres. Une société de prévoyance s'est seulement formée entre les pompiers, qui appartiennent tous à la classe des cultiva¬teurs. Aucune autre sociétéde secoursmutuels n'existeà Deuil. IBeaucoup d'habitants de la commune font partie de la Mutualité des travailleurs, fondée à Montmorency depuis plus de quine ans. Toutefois les ten¬dances antireligieuses manifestées par cette société déterminent plu¬sieurs de ses membres à s'en retirer.
+       </p>
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
+       <pb facs="#facs_269" n="252" source="s2lesouvriersdes01sociuoft_0298.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_269" url="#"/>
+       </figure>
+       <!--<p xml:id="para_18_252_188">
+        SOURCES DES RECETTES.
+        </p>
+        <p xml:id="para_18_252_189">
+        EVALUATION APPRONIMIATTvE DES SOURCES DE RECETTES.
+        </p>
+        <p xml:id="para_18_252_190">
+        PROPRIÉTÉS POSSÉDÉES PAR LA FAMILLE.
+        </p>
+        <p xml:id="para_18_252_191">
+        ART. 1ᵉʳ. — PROPRIÉTÉS IMMOBILIÉRES.
+        </p>
+        <p xml:id="para_18_252_192">
+        HABITATION :
+        </p>
+        <p xml:id="para_18_252_193">
+        ;) . .. . . ...... ...... .. .... . . . . .......... .......................... . . ( 5)
+        </p>
+        <p xml:id="para_18_252_194">
+        IMMEUDLES RUIRAUX :
+        </p>
+        <p xml:id="para_18_252_195">
+        ChampS, prairies et arbres éps...........:.......................... ( 5)
+        </p>
+        <p xml:id="para_18_252_196">
+        ART. 2. — VALEURS MODILIÈRES.
+        </p>
+        <p xml:id="para_18_252_197">
+        ANIMAUN DOMESTIQUES entretenuS toute l'année :
+        </p>
+        <p xml:id="para_18_252_198">
+        1 (eV¦, 1 (71e1).. . .............. ........ ᵉ..................:. ..... .. ( (5)
+        </p>
+        <p xml:id="para_18_252_199">
+        Basse-cour : 12 poulets, 60 lapins...................................... (§ )
+        </p>
+        <p xml:id="para_18_252_200">
+        MATÉRIEL SPÉCIAL des travaux et industries :
+        </p>
+        <p xml:id="para_18_252_201">
+        Pour l'exploitation des champs, prairies et arbres épars.............. ( 06)
+        </p>
+        <p xml:id="para_18_252_202">
+        —. des animaunx domestiques ......................... (. 5)
+        </p>
+        <p xml:id="para_18_252_203">
+        .— 2 )T°1. . .... . . ...... .. .... . ... . . ........ :........ ... ... .... .. . ( 15)
+        </p>
+        <p xml:id="para_18_252_204">
+        — eS i(dISTIes diveTes . . ..........:.................. ........... ( 5)
+        </p>
+        <p xml:id="para_18_252_205">
+        Somme gardée au logis comme fonds de roulemcnt.................... (§ 6)
+        </p>
+        <p xml:id="para_18_252_206">
+        ART. 3. — DROIT AUX ALLOCATIONS DE SOCIÉTÉS D'ASSURANCES MUTUELLES.
+        </p>
+        <p xml:id="para_18_252_207">
+        (La famille ne fait partie d'aucune société de ce genre.)..........................
+        </p>
+        <p xml:id="para_18_252_208">
+        VALEUR TOTALE des propriétés.....................
+        </p>
+        <p xml:id="para_18_252_209">
+        SECTION II.
+        </p>
+        <p xml:id="para_18_252_210">
+        SUBVENTIONS RECUES PAR LA FAMILLE.
+        </p>
+        <p xml:id="para_18_252_211">
+        ART. 1ᵉʳ. — PROPRIÉTÉS REÇUES EN USUFRUITr.
+        </p>
+        <p xml:id="para_18_252_212">
+        (La famille ne recoit aucune propriété en usufruit.).........................
+        </p>
+        <p xml:id="para_18_252_213">
+        ART. 2. — DROITS D'USAGE SUR LES PROPRIÉTÉS VOISINES.
+        </p>
+        <p xml:id="para_18_252_214">
+        (La faille 'a auun droit d'Sa§e.)........................................
+        </p>
+        <p xml:id="para_18_252_215">
+        ART. 3. — ALLOCATIONS D'OBIETS ET DE SERVICES.
+        </p>
+        <p xml:id="para_18_252_216">
+        (La famille ne reçoit aucune allocation de ce genre.).......................:
+        </p>-->
+       <pb facs="#facs_270" n="253" source="s2lesouvriersdes01sociuoft_0299.xml"/>
+       <!--<p xml:id="para_18_253_217">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_270" url="#" xml:id="tble_18_253_1"/>
+       </figure>
+       <pb facs="#facs_271" n="254" source="s2lesouvriersdes01sociuoft_0300.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_270" url="#"/>
+       </figure>
+       <!--<p xml:id="para_18_254_220">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+        </p>
+        <p xml:id="para_18_254_221">
+        SOURCES DES RECETTES (suie).
+        </p>
+        <figure>
+        <graphic facs="#facs_271" url="#" xml:id="tble_18_254_2"/>
+        </figure>
+        <p xml:id="para_18_254_222">
+        IVDUSTRIES ENTREPRISES PAR LA FAMLLE
+        </p>
+        <p xml:id="para_18_254_223">
+        (a SO propre compte).
+        </p>
+        <p xml:id="para_18_254_224">
+        NDUTRIE entreprises au compte de la famille : Exploitation des champs, prairies et arbres épars.
+        </p>
+        <p xml:id="para_18_254_225">
+        ( ( ¦)°2V11. ........ ............... .....
+        </p>
+        <p xml:id="para_18_254_226">
+        — ( ; )S°-(t1T.. . . ............ .. . . .
+        </p>
+        <p xml:id="para_18_254_227">
+        Blanchissaae du linge de la famille. ...............
+        </p>-->
+       <pb facs="#facs_272" n="255" source="s2lesouvriersdes01sociuoft_0301.xml"/>
+       <!--<p xml:id="para_18_255_229">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE LANNÉE (suite).
+        </p>-->
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_272" url="#" xml:id="tble_18_255_3"/>
+       </figure>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
+       <pb facs="#facs_273" n="256" source="s2lesouvriersdes01sociuoft_0302.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_273" url="#" xml:id="tble_18_256_4"/>
+       </figure>
+       <pb facs="#facs_274" n="257" source="s2lesouvriersdes01sociuoft_0303.xml"/>
+       <!--<p xml:id="para_18_257_231">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE LANNÉE (suite).
+        </p>-->
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_274" url="#" xml:id="tble_18_257_5"/>
+       </figure>
+       <pb facs="#facs_275" n="258" source="s2lesouvriersdes01sociuoft_0304.xml"/>
+       <!--<p xml:id="para_18_258_233">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_275" url="#" xml:id="tble_18_258_6"/>
+       </figure>
+       <pb facs="#facs_276" n="259" source="s2lesouvriersdes01sociuoft_0305.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_276" url="#"/>
+       </figure>
+       <!--<p xml:id="para_18_259_234">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+        </p>
+        <p xml:id="para_18_259_235">
+        DESIGNATION DES DEPENSES Suite).
+        </p>
+        <p xml:id="para_18_259_236">
+        DÉPENSES CONCERNANT LES INDUSTRIES, LES DETTES, LES IMIPOTS ET LES ASSURANCES.
+        </p>
+        <p xml:id="para_18_259_237">
+        DÉPENSES CONCERNANT LES INDUSTRIES :
+        </p>
+        <p xml:id="para_18_259_238">
+        NOTA. — Les dépenses concernant les industries montent ....... ... ............ .. ..................... .. ( 1, E) 10. 10)ᶠ 4
+        </p>
+        <p xml:id="para_18_259_239">
+        Elles sont remboursées par les recettes provenant de ces mêmes industries, savoir :
+        </p>
+        <p xml:id="para_18_259_240">
+        Argent et objets employes pour la consommation du me¬nage ou fasant partie de ses épargnes, et portés, à ce titre, dans le présent budget...............:.....g... 5.277ᶠ55
+        </p>
+        <p xml:id="para_18_259_241">
+        Argent et objets appliqués de nouveau aux indus- 1
+        </p>
+        <p xml:id="para_18_259_242">
+        ries 14, Sᵉ IV), come emploi momentaé A1O.1O9 45
+        </p>
+        <p xml:id="para_18_259_243">
+        du fonds de roulement, et qui ne peuvent consé-  v. IvR
+        </p>
+        <p xml:id="para_18_259_244">
+        quemment figurer parmi les dépenses du mé- V
+        </p>
+        <p xml:id="para_18_259_245">
+        age................................... ( 16, E) 4.831ᶠ90
+        </p>
+        <p xml:id="para_18_259_246">
+        NTÉRÈ́T DES DETTES :
+        </p>
+        <p xml:id="para_18_259_247">
+        Peusioun servie au pére ( 12).
+        </p>
+        <p xml:id="para_18_259_248">
+        Propriétés non baties, 211ᶠ01 ; — popriétés bàties, 26'06 ; — cote Sonnelle et mobiliére, 28ᶠ 77; — portes e fenétres, 3ᶠ12: — pr tion., 2ᶠ030; — chien, 2ᶠ00; — heval, ᶠ00; — voiture, 5ᶠ0). ......
+        </p>
+        <p xml:id="para_18_259_249">
+        ASSURANCES CONCOURANT A GARANTIR LE BIEN-ÈTRE PHVYIQUE ET MORAL DE L
+        </p>
+        <p xml:id="para_18_259_250">
+        AsSurance contre l'incendie à la compagnie la Mutuelle. ..............
+        </p>
+        <p xml:id="para_18_259_251">
+        TOTAUX des dépenses eoncernant les industries, les dettes, les impts ¦(§ NT111(T). . . .. ...... .. .... . . ... . ... . ...... ...  . .. . ᵉ... .. .
+        </p>
+        <p xml:id="para_18_259_252">
+        ́PARCNE DE L'ANNÉE :
+        </p>
+        <p xml:id="para_18_259_253">
+        Epargne en araent aumassée pour l'acquisition de propriétés ou de va¬¦21§ )p¦¦((°S. . . ..... .. .... ..... . . . .... .. . . . .. ..... . . . ... ..... .. .. .
+        </p>
+        <p xml:id="para_18_259_254">
+        OTAUX des dépenses de l'année (balançant les reeettes). (13.624ᶠ0).
+        </p>-->
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
+       <pb facs="#facs_277" n="260" source="s2lesouvriersdes01sociuoft_0306.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_277" url="#"/>
+       </figure>
+       <!--<p xml:id="para_18_260_257">
+        SECTION I.
+        </p>
+        <p xml:id="para_18_260_258">
+        COMPTES DES BÉNÉFICES
+        </p>
+        <p xml:id="para_18_260_259">
+        RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte).
+        </p>
+        <p xml:id="para_18_260_260">
+        A. — ENPLOITATION DES CIHAMPS, PRAIRIES ET ARBRES ÉPARS.
+        </p>
+        <p xml:id="para_18_260_261">
+        RECETTES.
+        </p>
+        <p xml:id="para_18_260_262">
+        Pommes de terre, 1,500 décalitres à 0ᶠ50. ............. .:.......................
+        </p>
+        <p xml:id="para_18_260_263">
+        H:iO, 9)00 i., ;̀ 0ᶠ(50. . ...................... ................ ..............
+        </p>
+        <p xml:id="para_18_260_264">
+        Pe1its pois, 1,000 décalitres à 0ᶠ70. .............................................
+        </p>
+        <p xml:id="para_18_260_265">
+        ASperes, 333 ki,  3ᶠ 00. . ..... :...... ............................... ..........
+        </p>
+        <p xml:id="para_18_260_266">
+        (Choux, 18,090 4il. a 0ᶠ29. . . ........:..:....... ...... ........ ........:....:....
+        </p>
+        <p xml:id="para_18_260_267">
+        Artichauns, 5,820 kil, à 0ᶠ5). ... ...... ...................:..... ..:..............
+        </p>
+        <p xml:id="para_18_260_268">
+        Cates, 40) i]., ; ᶠ 3). . . . ....... .. . . . . . .... ............ .... ........ ... . . ....
+        </p>
+        <p xml:id="para_18_260_269">
+        NVels, 110 i, g 0ᶠ 40. . ....... .. ::. ...... ........ ..............:............
+        </p>
+        <p xml:id="para_18_260_270">
+        IBetteraves, 25 kil,  0ᶠ60. . .... .......... ....... ........ .......................
+        </p>
+        <p xml:id="para_18_260_271">
+        Citrouilles, 5 ki. ̀ 0ᶠ35 . ........... ............................................
+        </p>
+        <p xml:id="para_18_260_272">
+        OigOS, 900 i.  0ᶠ 3). . .. .. .. :. ..................................... ......
+        </p>
+        <p xml:id="para_18_260_273">
+        Ait, 20 kil. à 0ᶠ50, 10ᶠ00; — persil, 20 kil. à 0ᶠ30, 6ᶠ 00..........................
+        </p>
+        <p xml:id="para_18_260_274">
+        Oseille, 6,0)0 kil, a 0ᶠ25. .. ...... ........ ........................... . ....... ....
+        </p>
+        <p xml:id="para_18_260_275">
+        Salades et pissenlits, 2,100 kil. à 0ᶠ 40...........................................
+        </p>
+        <p xml:id="para_18_260_276">
+        Poireaunx, 7,000 kil. à 0ᶠ30. ........ ........ ........................:............
+        </p>
+        <p xml:id="para_18_260_277">
+        Raisin, 900 kil. (poduisant 4 barriques de vin, dont 3 consommées par la fa¬mille, et 1 barrique vendue), 360ᶠ00; — raisin, consommé et vendu sous sa
+        </p>
+        <p xml:id="para_18_260_278">
+        1forme naturelle, 109 kil. à 0ᶠ40, 40ᶠ00. .......................................
+        </p>
+        <p xml:id="para_18_260_279">
+        Poires, 1,250 ki. :̀ 0ᶠ70. ......... ........ ................ ...... ....... ....... ..
+        </p>
+        <p xml:id="para_18_260_280">
+        Pes, 59 li, ; 0, 49. . . .. . .... ..... .. . ... ........... . . .... ........ ... ....... .
+        </p>
+        <p xml:id="para_18_260_281">
+        Pre, 275 ki,  (9ᶠ 40. ... ... ... ............ .... . .... . .. .. . . ......... ... ... .. .
+        </p>
+        <p xml:id="para_18_260_282">
+        (rjs, ;) j], ; )ᶠ(0. . . . . .. . . . . . . ... ........ . .. . .. . .... . .. . . ...... . . . . . ... ..
+        </p>
+        <p xml:id="para_18_260_283">
+        Fpraises, 18 li, : 0ᶠ 40. . . ..... .. ..... . . . . . . .. . . . . . .... . . ................... .....
+        </p>
+        <p xml:id="para_18_260_284">
+        Frabpoises, 50 ki1. à 0ᶠ60. . .. . .. ..:.... ........ .............. ........... ...... .
+        </p>
+        <p xml:id="para_18_260_285">
+        CISSS, :50 j, : 0ᶠ 00. . .. . . ...... ... . . ..................................:.......
+        </p>
+        <p xml:id="para_18_260_286">
+        GroOseilles, 50 kil,  0ᶠ27. ..... ................—................... . . . .:.......
+        </p>
+        <p xml:id="para_18_260_287">
+        Pjpe, () )j, ; [ᶠ).). . . ...... ... .............. ... . .... ............... ..........
+        </p>
+        <p xml:id="para_18_260_288">
+        bprjiS, (5 . ; ]ᶠ ()4. .... ............. ...... . ............ .. .......... ........
+        </p>
+        <p xml:id="para_18_260_289">
+        Bois ramassé dans les champs, sarments de vigne, arbres ayant gelé, tiges d'artichauts, trognons de choux de Buxelles...............................
+        </p>
+        <p xml:id="para_18_260_290">
+        DÉPENSES.
+        </p>
+        <p xml:id="para_18_260_291">
+        Semences : raines de haricots, 3 décalitres à 7ᶠ00...........................
+        </p>
+        <p xml:id="para_18_260_292">
+        — Poireaux et oignons, 4 décalitres à 5ᶠ00...........................
+        </p>
+        <p xml:id="para_18_260_293">
+        )T§() . . . . . . . . . . . . . . . . . .  e . . . . . °    . . . . .  . . . . . . . . . . . . . . . . . . .  .
+        </p>
+        <p xml:id="para_18_260_294">
+        Main-d'euvre : 470 journées de 2 hommes, à 3ᶠ50..............................
+        </p>
+        <p xml:id="para_18_260_295">
+        — 440 journées de femmes, à 2ᶠ50. ...............................
+        </p>
+        <p xml:id="para_18_260_296">
+        Ouvriers pris pour sarcler et nettoyer les oignons, 75ᶠ00; — ouvriers et ouvrières pour enlever les mauvaises herbes : 200 journées d'ouvriers à 3ᶠ50, 700ᶠ; — 260 journées d'ouvrières à 2ᶠ50, 650ᶠ00 ; — ouvriers et laboureurs payés tant a a, pOr ner, 1§8)ᶠ)0. . . . .. .......... ....................................
+        </p>
+        <p xml:id="para_18_260_297">
+        2.880 00
+        </p>
+        <p xml:id="para_18_260_298">
+        A reporter.
+        </p>-->
+       <pb facs="#facs_278" n="261" source="s2lesouvriersdes01sociuoft_0307.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_278" url="#" xml:id="tble_18_261_7"/>
+       </figure>
+       <pb facs="#facs_279" n="262" source="s2lesouvriersdes01sociuoft_0308.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_279" url="#" xml:id="tble_18_262_8"/>
+       </figure>
+       <!--<p xml:id="para_18_262_299">
+        SECFION II.
+        </p>
+        <p xml:id="para_18_262_300">
+        COMPTES RELATIFS AUX SUBVENTIONS.
+        </p>
+        <p xml:id="para_18_262_301">
+        Ces comptes n'ont pas lieu d'étre établis ici, la faumille ne profitant d'aucume subvention.
+        </p>
+        <p xml:id="para_18_262_302">
+        SECTION III.
+        </p>
+        <p xml:id="para_18_262_303">
+        COMPTES DIVERS.
+        </p>
+        <p xml:id="para_18_262_304">
+        Ces comptes ont été établis directement dans les budggets.
+        </p>-->
+      </div>
+     </div>
+     <div n="003" type="section">
+      <head type="section" xml:id="part_03">
+       ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
+      </head>
+      <p xml:id="para_18_263_305">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.
+      </p>
+      <div n="001" type="sub_section">
+       <div n="001" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         § 17 DU MOUVEMENT DE LA POPULATION A DEUIL.
+        </head>
+        <p xml:id="para_18_263_308">
+         <pb facs="#facs_280" n="263" source="s2lesouvriersdes01sociuoft_0309.xml"/> Un des traits saillants de la commune de Deuil est le petit nom¬bre d'enfants dans les familles d'agriculteurs. Les recensements opé¬rés d'une manière régulière depuis le commencement du siècle manifestent ce fait qui s'accentue de plus en plus. Avant la lévolu¬tion, on ne possède aucun état régulier de la population de la paroisse de Deuil. Un recensement opéré par distriet, en 1790, lui donne une population de 1.165 habitants, répartis en 260 feux. Le territoire de la commune a subi depuis ce emps des modilications : il comprer nait une partie du territoire d'Engghien, alors inhabitée, et de plus des sections qu'une loi postérieure en a détachées, en les remplacant, il est vrai, par une autre agglomération. Toutefois le chiffre de 1.165 habitants parait assez élevé, car l'élément non agricole qui ligure aujourd'hui pour une forte proportion dans le total de la popr lation, était presque nul, les lenteurs des communications ne donnant pas aux employés le moyen de se rendre chaque jour à Paris pour retourner le soir dans leurs foyers.
+        </p>
+        <p xml:id="para_18_263_309">
+         Près de cinquante ans plus tard, en 1836. le recensement officiel constate à Deuil une population de 1.365 habitants, dont 67 appr-r tenant au sexe masculin et 68 au sexe féminin. Voici les nombres moyens des enfants par ménag:, calculés pour chaque catégorie prin¬cipale de la population :
+        </p>
+        <figure rend="portrait" type="inventory">
+         <head resp="added" type="inventory" xml:id="figure_5">
+          Nombre moyen d'enfants par ménage des catégories principales de la population de Deuil (1836) (notes annexes)
+         </head>
+         <graphic facs="#facs_280" url="#"/>
+        </figure>
+        <!--<p xml:id="para_18_263_310">
+         CivaterS.............................. .. . ..... . ............ ....... 17.3
+         </p>
+         <p xml:id="para_18_263_311">
+         O1TT8. . . ... ..... ................... ............... . ..... . .... . .. 1 1
+         </p>
+         <p xml:id="para_18_263_312">
+         Ouvriers de divers corps de métier. .................................
+         </p>-->
+        <p xml:id="para_18_264_313">
+         <pb facs="#facs_281" n="264" source="s2lesouvriersdes01sociuoft_0310.xml"/> Quinze ans plus tard, en 1851, la population s'élève au chiffre de 1.401 habitants, dont 689 hommes et 712 femmes. Le recensement relève l'existence de 463 enfants et jeunes gens au-dessous de vingt ans ; mais il accuse la tendance des cultivateurs à restreindre le chif¬fre de leur postérité, car les moyennes des enfants par ménage sont les suivantes :
+        </p>
+        <figure rend="portrait" type="inventory">
+         <head resp="added" type="inventory" xml:id="figure_6">
+          Nombre moyen d'enfants par ménage des catégories principales de la population de Deuil (1851) (notes annexes)
+         </head>
+         <graphic facs="#facs_280" url="#"/>
+        </figure>
+        <p xml:id="para_18_264_315">
+         Au recensement de 1866, la population s'est accrue. Deuil renferme ulors 2.182 habitants dont 1.109 hommes et 1.073 femmes ; il faut toutefois en défalquer 271 habitants n'ayant pas leur séjour permanent dans la commune e y restant seulement quelques mois. Ce sont cer¬tainement les ouvriers émigrants venant suppléer à l'insuffisance des bras dans les familles agricoles. Mais la tendance révélée par le re¬censement de 1851 s'aggrave, comme le constatent les moyennes suivantes
+        </p>
+        <figure rend="portrait" type="inventory">
+         <head resp="added" type="inventory" xml:id="figure_7">
+          Nombre moyen d'enfants par ménage des catégories principales de la population de Deuil (1866) (notes annexes)
+         </head>
+         <graphic facs="#facs_281" url="#"/>
+        </figure>
+        <!--<p xml:id="para_18_264_316">
+         (]jv;e1'8S.. .. . ..................—.......... .... ... . . . . . .. . . . .. .. . 1,1§
+         </p>
+         <p xml:id="para_18_264_317">
+         Ouvriers de divers Corps de mètier .................................. 1,t63
+         </p>-->
+        <p xml:id="para_18_264_318">
+         Au recensement de 1881, la situation n'a pas subi de modifications notables. Lorsqu'on s'éloigne de la propriété agricole, le nombre des enfants augmente. On trouve seulement parmi les cultivateurs trois familles ayant quatre enfants, deux en ayant cinq et trois en ayant six. Les enfants se répartissent en moyenne ainsi par ménage :
+        </p>
+        <figure rend="portrait" type="inventory">
+         <head resp="added" type="inventory" xml:id="figure_8">
+          Nombre moyen d'enfants par ménage des catégories principales de la population de Deuil (1881) (notes annexes)
+         </head>
+         <graphic facs="#facs_280" url="#"/>
+        </figure>
+        <p xml:id="para_18_264_320">
+         Il est à remarquer que la statistique est impuissante à photographier la physionomie exacte du mouvement de la population. Elle n'indique pas si deux époux qui, vivant seuls, sont portés comme sans postérité, n'ont pas des enfants habitant une autre commune ; elle reste muette sur les enfants qu'ils ont perdus. Pour apprécier avec une exactitude absolue la tendance à la stérilité, il serait non moins nécessaire de relever l'âge de chaque ménage au moment du recensement. Tel mé¬nage qui après deux ans d'union compte un enfant ne peut etre <pb facs="#facs_282" n="265" source="s2lesouvriersdes01sociuoft_0311.xml"/> placé sur la même ligne que celui auquel dix ans de vie commune en ont seulement donné deux. Malgré ces imperfections des statistiques, un fait grave, corroboré par l'enquête directe qu'a nécessitée la pré¬sente monographie, se dégage de la comparaison des divers recense¬ments ; c'est la stérilité croissante des ménages de cultivateurs. Dans une certaine mesure les mariages pratiqués presque exclusivement entre parents
+         <ref target="#part_02_04_12" type="renvoi_int_mono">
+          (§ 12)
+         </ref>
+         expliquent ce fait : mais la véritable cause est le désir manifesté par les parents de ne pas laisser à leurs enfants une position inférieure à celle qu'ils ont eux-mêmes occupée. IPartagé entre plusieurs héritiers, le domaine deviendrait insuffisant pour les faire vivre. Chacun d'eux serait obligé de joindre un autre travail à celui qu'il accomplirait sur son exploitation désormais trop exiguè. En outre la maison serait vendue, les champs sur lesquels les parents ont tra¬vaillé toute leur vie pulvérisés, peut-être même aliénés par des héri¬tiers transformés progressivement en propriétaires indigents. La famille aurait perdu sa physionomie ; elle aurait subi une déchéance.
+        </p>
+        <p xml:id="para_18_265_322">
+         L'augmentation de la population de Deuil n'est donc pas due à l'ac¬croissement régulier de ses familles agricoles, mais a l'immigration des journaliers ou des employés. Cette situation s'observe du reste dans l'arrondissement de Pontoise auquel Deuil appartient
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          (§ 1)
+         </ref>
+         . Toutes les communes situées à une petite distance de Paris ont vu depuis cinquante ans leur population s'accroitre dans une forte proportion par suite de l'immigration. Ainsi Enghien, qui, à cette époque, n'é¬tait qu'un petit hameau, compte maintenant 1.830 habitants. Mont¬morency, de 1.870 habitants en 1836, passe à 4.344 en 1881 ; Saint¬Gratien, de 487 à 1.327. Gagny a une population de 2.335 habitants, tandis qu'il yv a cinquante ans elle était seulement de 910. De 935, à la même époque, Neuilly-sur-Marne s'éleve aujourd'hui à 4.792. Une augmentation moins forte, il est vrai, est encore constatée pour les communes qui, plus éloignées de la capitale, renferment une popu¬lation supérieure à un millier d'habitants. Ecouen, par exemple, chef¬lieu de canton de 1.353 âmes au début, en a gagné en cinquante ans 397. Gonesse est passé de 2.123 à 2.935, Pontoise renferme aujour¬d'hui 6.517 habitants au lieu de 5.408 en 1836.
+        </p>
+        <p xml:id="para_18_265_323">
+         Les communes exclusivement rurales et dont la population ne s'élève pas au-dessus de 600 ont éprouvé au contraire une diminution souvent notable. Des cantons qui appartiennent a l'arrondissement de Pontoise, le canton de Marines est le seul qui ne renferme pas d'agglo¬mérations importantes. La commune la plus peuplée est le chef-lieu <pb facs="#facs_283" n="266" source="s2lesouvriersdes01sociuoft_0312.xml"/> de canton avec 1. 445 habitants. C'est le canton qui entretient avec Paris les rapports les moins fréquents, à cause de la lenteur des com¬munications. Aussi sa population diminue-t-elle. Il y a cinquante ans, elle était de 14.312, de nos jours elle est tombée à 12.814. La majorité des commuunes, 25 sur 40. a participé à cette diminution, quelques¬unes dans une proportion désastreuse. Citons celles d'Epiais-les-Lou¬vres, qui, peuplée de 130 habitants en 1836, est réduite maintenant à 90; celle de Noisy-sur-Oise qui, dans la même période de temps, en perd 22 ; celle d'Haravilliers avec une perte de 100; celle de Sagy avec une perte de 175; celle de Seraincourt, diminuée de 98. Beaucoup de petites communes rurales situées dans d'autres cantons ne sont pas mieux partagées, par exemple, Châtenay, dans le canton d'Ecouen. tombée de 70 à 49 abitants ; V'andherland, dansle canton de Gonesse, de 121 à 57 hahitants. Dans le même canton se trouve la commune de Tremblay, sur les confins du département de Seine-et-Oise et du dé¬partement de Seine-et-Marne, isolée de toute autre commune. loin d'une ligne de chemin de fer ; les habitants vivent exclusivement du travail agricole. En 1838, ils étaient au nombre de 838. Le dernier recensement n'en trouve plus que 700.
+        </p>
+        <p xml:id="para_18_266_325">
+         Si nous jetions les yeux sur l'arrondissement de Mantes, unique¬ment agricole, nous constaterions les mêmes faits. Les deux can¬tons de Limay et de Bonnières notamment, sur le territoire des¬quels n'est située aucune agglomération urbaine, ont perdu ensemble 4. 401 habitants. Que le mouvement continue, dans cinquante ans, les hameaux ou les petites communes ne renfermeront plus que quelques à̂mes, si elles ne cessent même d'être habitées. Ainsi ré¬duite, la population de ces communes est insuffisante pour faire face à tous les besoins des exploitations rurales ; plusieurs fermes sont déjà presque exclusivement cultivées par des ouvriers bretons, plus dociles et moins exigeants que les ouvriers des autres pro¬vinces. Au moment de la moisson, les propriétaires sont contraints d'appeler des travailleurs belges, sinon la récolte pourrirait sur pied. Les habitants de ces campagnes en sont venus à considérer le travail des champs comme une tàche inférieure ; ils sont attirés vers le com¬merce de détail ou ils espèrent réaliser un gain rapide, ou ils son¬gent à faire de leurs fils des employés, de leurs filles des institutri¬ces. A Deuil, les familles de cultivateurs-maraichers appellent à leur aide des ouvriers émigrants, presque tous originaires du département de l'Tonne
+         <ref target="#part_03_01_19" type="renvoi_int_mono">
+          (§ 19)
+         </ref>
+         . Beaucoup d'entre elles ont une domestique à demeure <pb facs="#facs_284" n="267" source="s2lesouvriersdes01sociuoft_0313.xml"/> toute l'année ; elle est exclusivement chargée d'aider la mêre de famille dans les durs travaux des champs, lorsque les enfants sont encore trop jeunes ou pas assez nombreu. Mais la présence d'une jeune femme dans la famille entraîne souvent de graves désordres
+         <ref target="#part_03_01_19" type="renvoi_int_mono">
+          (§ 19)
+         </ref>
+         . En outre, peu retenues dans leurs conversations, ces domestiques con¬tribuent à démoraliser les enfants ; les mères de famille, soucieuses de la moralité de ceux-ci, sont obligées pendant le travail des champs de veiller sans cesse pour que les propos licencieux ne parviennent pas à leurs oreilles.
+        </p>
+        <p xml:id="para_18_267_327">
+         La dépopulation des campagnes. l'accroissement de la population dû uniquement aux familles imprévoyantes, entraînent des consé¬quences non moins graves au point de vue de la vie publique. Elles donnent la prépondérance à l'élément urbain. Elles rendent, sous un régime de suffrage qui donne tout avantage au nombre, les classes imprévoyantes maîtresses des destinées du pays.
+        </p>
+       </div>
+       <div n="002" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         § 18. DE QUELQUES FAITS RELATIFS A L'HISTOIRE DE DEUIL.
+        </head>
+        <p xml:id="para_18_267_330">
+         Il est déjà question de Deuil sous la domination romaine. Au milieu du village, dans un vaste champ, s'élevait un temple consacré au dieu Mars. Sous la deuxieme persécution de Domitien, vers l'an 92 de l'ère chrétienne, une sentence de mort y fut prononcée par le procon¬sul romain Siscinius Fesceninus, contre saint Eugène, évêque, et elle fut exécutée. Le corps du martyr fut précipité dans le lae Mar¬chais, d'où il fut retiré six cents ans plus tard. Une châsse renfermant une portion insigne des reliques est conservée à l'église de Deuil. Plus tard, en 862, il est fait mention des vignes que l'abbé de Saint¬Denis possédait à Deuil, dans le partage de ses biens du temps de l'abbé Louis. La culture de la vigne aurait été alors le principal moyen d'existence des habitants de Deuil,  quoique une grande partie du territoire soit en plaine n, ajoute l'historien. On a vu
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          (§ 1)
+         </ref>
+         qu'il reste encore des vignes sur le territoire de la commune.
+        </p>
+        <p xml:id="para_18_267_331">
+         bLa fondation de l'église de Deuil semble remonter au onzième siècle ; elle était alors possédée, ainsi que le village, par llervé de Montmorency. Celui-ci s'en dessaisit en faveur des moines de l'ab¬baye de Saint-Florent en Anjou, et leur donna les offrandes, les <pb facs="#facs_285" n="268" source="s2lesouvriersdes01sociuoft_0314.xml"/> droits de sépulture et ce qu'on appelait hospites atrei. Un prieuré y fut fondé; il ́tait desservi par 12 religieux. Le premier supérieur vivait sous Louis le tiros en 1108 ; il se nommait Foulque et mouru en 1137. Abeilard se retira quelque temps dans le prieuré de Deuil, après avoir quitté l'abbaye de Saint-Denis ; il y ouvrit des écoles. Les religieux du prieuré furent dissous en 1594 et le couvent ne fut plus composé que de prieurs commendataires. C'est alors que fut installé dans la paroisse un curé, appartenant au clergé séculier. Voici les dates de nomination et par conséquent les durées de séjour des curés dans la paroisse : 1594, 1613, 1633, 1636, 1642, 1651, 1680, 1683, 1698, 1733, 1749, 1768, 1787, 1822, 1850, 1832, 1835, 1841, 1854, 1864, 1876, 1879. Les registres de la paroisse nous apprennent également que l'établissement des écoles date de 1600, sous le règne réparateur d'Henri IV. Parmi les événements saillants que relatent les registres de la paroisse, nous relevons en 1706 l'établissement de la confrérie de charité. La duchesse de Saint-ignan fut élue supé¬rieure. On relève ensuite parmi les noms des supérieures celui de Pᵉ 'Epinay, connue par des souvenirs moins éditiants ; elle habitait le château de la Chevrette, fréquenté par la société littéraire de Pa¬ris, notamment par Grimm et par Jean-Jacques Rousseau, qui en parle souvent dans ses onfessions. Le château a été démoli ; il en reste seulement les comnuns et une petite partie du parc. Un des quartiers de Deuil porte encore le nom de la Chevrette.
+        </p>
+       </div>
+       <div n="003" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         § 19. DES JOURNALIERS-AGRICULTEURS DE DEUIL.
+        </head>
+        <p xml:id="para_18_268_335">
+         Nous avons signalé à Deuil l'existence d'une population de journa¬liers, soit émigrants, soit résidants, qui viennent aider les cultivateurs dans les travaux auxquels leurs familles peu nombreuses seraient incapables de suffire. Ces journaliers sont originaires pour la plupart du département de l'Yonne ; ils viennent notamment des cantons de Noyers, dans l'arrondissement de Tonnerre, et de celui de Coulanges¬sur-Monne, appartenantà l'arrondissement d'Auxerre. Dans ce dernier canton, les communes de Trucy-sur-onne, de Lucy, de Crain, de Fer¬ligny en fournissent un grand nombre. Le sol y appartient générale¬ment à de grands propriétaires qui exploitent, non pas par eux-mêmes, mais par des fermiers ; ceux-ci à leur tour emploient des domestiques <pb facs="#facs_286" n="269" source="s2lesouvriersdes01sociuoft_0315.xml"/> qu'ils ne recrutent pas exclusivement parmi les gens du pays. Le reste du sol est divisé en une ininité de petites parcelles, trop peu étendues pour faire vivre une famille. L'hiver se passe difficilement pour les possesseurs de ces modestes propriétés : les plus valides travaillent dans les bois, les vieillards se contentent de faire des petits fagots. Ces difficultés d'existence ont fait naitre chez eux la pensée de chercher au loin, pendant la belle saison, un travail plus lucratif. A 'rucy-sur¬onne, le travail consiste surtout dans la culture de la vigne, et les pauvres gens aspirent à réaliser une épargne pour acheter quelques morceaux de terre qu'ils planteront en vigne. la terre calcaire du pays qui convient peu à la culture des céréales, favorisant au contraire la production du vin.
+        </p>
+        <p xml:id="para_18_269_337">
+         Le hasard parait avoir décidé du choix de Deuil comme lieu d'émi¬gration. Il y a cinquante ou soixante ans, un père de famille, accom¬pagné de sa femme, quitta son pays et vint aux environs de Paris, entre Deuil et Montmorency. Il se loua comme jardinier, vers le mois de mars, et à l'hiver il revint muni d'un petit pécule. L'ayant peu à peu augmenté, il acheta une propriété de médiocre étendue sur laquelle il planta des vignes et à laquelle il fit donner en son absence les soins nécessaires. Cet exemple entraina ses compatriotes : ils se décidèrent pendant la belle saison à aller à Deuil, espérant y amasser une mo¬deste aisance. Dans la commune de 'rucy, l'émigration annuelle emmène depuis 20 ans environ quarante ou cinquante individus, dont un tiers de ménages. Des jeunes filles se trouvent parmi les émigrants ; elles se placent chez les cultivateurs comme domestiques, employées exclusivement aux travaux agricoles. Les hommes vivant chez eux travaillent à la journée ou à la tàche pour le compte de plusieurs cultivateurs; ceux-ci engagent autant que possible les mêmes chaque année. Les journaliers préfèrent maintenant le travail à la tâche, qui leur donne l'indépendance de chef de métier ; ils entre¬prcnnent, par exemple, le binage ou le labourage d'un arpent de terre, moyennant un prix débattu avec le propriétaire et l'exécutent ensuite à leur guise. Leur gain dépend ainsi de l'activité qu'ils déploient.
+        </p>
+        <p xml:id="para_18_269_338">
+         La rétribution donnée aux journaliers a beaucoup augmenté depuis quelques années. En 1870, un homme seul réalisait en moyenne un bénéfice net de 70 francs par mois ; en ce moment les hommes placés comme domestiques reçoivent 80 francs, les femmes 50 francs. Ils ont droit en outre à la nourriture, au logement et sont blanchis par com¬plaisance. ls prennent leurs repas à la table du maître, mais élèvent <pb facs="#facs_287" n="270" source="s2lesouvriersdes01sociuoft_0316.xml"/> beaucoup de prétentions pour la nourriture. Autrefois on tuait un porc dans les familles qui avaient à nourrir des journaliers ; ceux-ci n'en veulent plus. Les femmes demandent du café, et bien des familles n'en prennent que lorsqu'elles ont à leur table des ouvrières. Em¬ployé à la journée, un homme reçoit 3ᶠ 50 ; une femme, 2 francs, plus la nourriture. Les prix ont, depuis vingt ans, augmenté de plus d'un tiers. Les maîtres constatent que les rapports sont devenus plus diiciles ; la journée commence de moins bonne heure. Les jour¬naliers ne se font pas faute de réaliser des profits au détriment de celui qui les emploie, soit en prélevant quelques légumes pour leur compte, soit en apportant une certaine lenteur dans la besogne à effee¬tuer. Les cultivateurs de Deuil observent qu'âpres au travail, lorsqu'ils travaillent pour leur propre compte ou à la tâeche, les Bourguignons se montrent peu religieux, libres de propos et d'une moralité facile. La tendance à l'épargne va chez eux jusqu'à l'avarice : après leur mariage, soit par économie, soit par crainte de l'émiettement de leur propriété, ils redoutent les nombreuses postérités. Les journaliers ren¬dent justice aux bons patrons, assez nombreux. disent-ils, mais il s'en rencontre aussi qui sont rudes pour leurs subordonnés. Dans ce cas les gens d'un même pays les mettent à l'index ; ils en cher¬chent de meilleurs et quittent les premiers, sans les avertir. Un ménage de journaliers-émigrants, actif et laborieux, rapporte en moyenne douze cents francs de sa campagne à Deuil. Il emploie cet argent à arrondir sa propriété, qu'il ne quitte plus, dès qu'en l'exploi¬tant lui-même, il est assuré d'échapper à la misère. Beaucoup d'émi¬grants reprennent dans leur pays natal le métier demaraicher qu'ils ont exercé à Deuil ; ils écoulent leurs produits sur le marché voisin et trouvent dans ce mode d'exploitation l'avantage d'avoir en tout temps de l'argent. Suivant leur expression, ils chassent ainsi « le dia¬ble de leur bourse. D'autres émigrants placent leurs économies à Deuil même. Ils louent ou achètent, s'ils sont plus fortunés, quel¬ques morceaux de terre et les cultivent eux-mêmes, tout en travaillant à la tâche sur les terres d'autrui. Le dimanche est spécialement ré¬servé à leur exploitation. Lorsque leurs affaires prospèrent, ils apr pellent leurs parents, qui vendent leur propriété de l'Yonne. Cette catégorie de journaliers augmente tous les ans. Si cette émigration périodique accroît l'aisance de ceux qui la pratiquent, elle n'élêve pas leur moralité. Ils viennent d'abord d'un département soumis à l'in¬fluence des politiciens, et où, avec un culte jaloux des « faux dogmes <pb facs="#facs_288" n="271" source="s2lesouvriersdes01sociuoft_0317.xml"/> modernes », règne une indifférence quasi générale en matière reli¬gieuse, sinon même une vive hostilité. Les cultivateurs pour lesquels ils travaillent respectent cependant les idées traditionnelles ; mais le spectacle de la richesse mal acquise qui s'étale sous les yeux des émigrants. à l'aris et à Enghien, la lecture des mauvais journaux, la propagande du cabaret achèvent de chasser de leur esprit les der¬nieres idées morales. L'intérêt devient leur seule règle de conduite. Les émigrants exercent même une mauvaise influence sur leurs mai¬tres. Des jeunes filles, admises comme journalières dans une famille, y introduisent le désordre en devenant les maîtresses du père. Ainsi la violation des lois du mariage par la stérilité systématique altère de toutes façons l'existence morale de la famille. De tels faits justifient une fois de plus le mot de F. Le Play : « La classe des journaliers¬agriculteurs prend, en certaines localités, un développement qui est une source de danger pour l'ordre public »
+         <note type="bp">
+          <p>
+           <ref target="#" type="renvoi_ext_oe">
+            Les ouvriers Europeens, 2ᵉ édit., t. V, p. 296
+           </ref>
+           .
+          </p>
+         </note>
+         .
+        </p>
+       </div>
+       <div n="004" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_20">
+         § 20. DES CONFRÉRIES DE LA PAROISSE DE DEUIL.
+        </head>
+        <p xml:id="para_18_271_343">
+         La vitalité religieuse de la paroisse de Deuil s'atteste par les con¬fréries nombreuses qui y existent. Nous avons déjà observé le même fait dans la paroisse de Lévignacq (Landes). où le retour de la popu¬lation aux pratiques religieuses s est traduit par la fondation et la prospérité de plusieurs confréries ; il mérite d'etre relaté à Deuil, parce que cette commune est située dans un milieu soumis aux in¬fluences désorganisatrices de la capitale.
+        </p>
+        <p xml:id="para_18_271_344">
+         La Confrérie des nfants de Marie est une de celles qui ont le plus de vie. Elle compte trente jeunes filles, qui doivent satisfaire aux conditions suivantes ; Ne pas travailler le dimanche et les fêtes obligatoires, assister aux offices de la paroisse, y arriver dès le commencement et s'y faire remarquer par leur bonne tenue, fuir les réunions bruyantes et mondaines. Il y a de plus la Confrérie de la Sainte-Enfance, la Confrérie du Saint-Sacrement, l'ssociation du Ro¬saire perpétuel, l'Association des Communions réparatrices, la Confrérie de Saint-Eugène, auquel les habitants de Deuil ont voué un culte spé¬cial. En outre, plusieurs euvres fonctionnent se proposant soit un but <pb facs="#facs_289" n="272" source="s2lesouvriersdes01sociuoft_0318.xml"/> exclusivement religieux, soit la distribution de secours aux familles désorganisées et incapables de vivre par elles-mêmes. A la première catégorie appartiennent : l'OEuvre de la Propagation de la foi, qui recueille annuellement plus de 300 francs et compte 12 dizaines de membres ; l'tEuvre de Saint-François de Sales, à laquelle les quêtes annuelles donnent une somme de 180 francs ; un patronage de jeunes gens. Dans la seconde se rangent l'Association des Dames de charité et la Conférence de Saint-Vincent de l'aul. L'Association des Dames de charité subvient à ses dépenses par des quètes ; elle a pu donner, dans le grand hiver de 1879-1880, un repas par jour à plus de cinquante enfants et a dépensé en distribution de vêtements plusieurs centaines de francs pendant quelques mois. La Conférence de Saint-Vincent non sSeulement secourt les familles indigentes par des dons en nature qu'elle préfère avec beaucoup de sagesse aux dons en argent ; mais encore elle leur apporte, par des visites faites à domicile, des conso¬lations morales qui préviennent chez les pauvres le développement des sentiments de haine. La Conférence a fait beaucoup de bien dans la paroisse de Deuil. Une observation analogue avait été relevée par F. Le Play dans la Monographie du aitre blanchisseur de la banlieue de Paris
+         <note type="bp">
+          <p>
+           <ref target="#" type="renvoi_ext_oe">
+            Les Ouvriers Europeens, 2 édi., . V, p. 387.
+           </ref>
+          </p>
+         </note>
+         . A Clichy comme à Deuil, les conférences ont fait péné¬trer les idées religieuses dans des familles oublicuses de la loi divine, en même temps qu'elles ont rappelé la nécessité du dévouement à une population trop absorbée par des préoccupations matérielles. Il est à remarquer que les membres de ces diverses euvres se recru¬tent à peu près exclusivement dans les familles de cultivateurs.
+        </p>
+       </div>
+       <div n="005" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_21">
+         § 21. LE MORCELLEMENT DU SOL A DEUIL.
+        </head>
+        <p xml:id="para_18_272_349">
+         La commune de Deuil compte 7.332 cotes, qui se décomposent comme il suit : 7.330 pour des parcelles au-dessous de 1 hectare et 2 seulement pour des parcelles d'une contenance supérieure : 1 pour une parcelle de 1 à 2 hectares, 1 pour une parcelle de 4 à 5 hectares. Ces chiffres expriment d'une maniêre saisissante le morcellement de la propriété dans cette commune.
+        </p>
+        <p xml:id="para_18_272_350">
+         De son côté, la propriété de la famille, d'une contenance de 4 hec<pb facs="#facs_290" n="273" source="s2lesouvriersdes01sociuoft_0319.xml"/>tares, est divisée en 39 parcelles dont voici le détail : 4 parcelles de 17 ares ; 4 de 2 ; 4 de 3; 3 de 5 ; 3 de 8 ; 1 de 9 ; 1 de 14; 1 de 15 ;1 de 25; 3 de 5 ; 1 de 12 ; 1 de 68 ; 4 de 12 a 20 ; 2 de 30 ; 1 de 40 ; 2 de 6. Si morcelée qu'elle paraisse, la propriété de la famille mé¬rite cependant d'être considérée comme une de celles qui le sont le moins. ne parcelle de 17 ares est estimée avantageuse ; elle repré¬sente, disent les maraichers, la journée d'un ouvrier, et c'est pour les parcelles inférieures à cette fraetion que se font sentir les incon¬vénients d'un morcellement poussé à l'excès. Beaucoup sont en¬clavées les unes dans les autres, sans qu'un chemin y donne accès. Les propriétaires ne peuvent se rendre sur leurs propriétés qu'en passant sur le champ de leur voisin ; lorsqu'ils veulent y transporter du fumier, ils sont obligés d'attendre la gelée, sinon ils commettraient des dégâts sur les terrains qu'ils traverseraient et seraient exposés à des demandes d'indemnité.
+        </p>
+        <p xml:id="para_18_273_355">
+         Toutefois les inconvénients du morcellement sont moins sentis à Deuil que dans d'autres régions, à cause du genre de culture absolu¬ment uniforme et qui, n'exigeant pas l'emploi d'instruments perfee¬tionnés, réclame surtout le travail des bras. On ne voit pas là, comme dans les pays à céréales, l'assolement triennal résulter de l'enchevêtre¬ment des propriétés les unes dans les autres, et un propriétaire ou un fermier intelligent réduits à suivre servilement les coutumes de ses voisins. Comment, en effet, sur des parcelles enclavées de toutes parts au milieu de champs de froment, se risquerait-on à cultiver des plantes sarclées ou des prairies artificielles 2 Les cultivateurs de Deuil éprouvent seulement les inconvénients du morcellement sur deux points. Ils reconnaissent d'abord la perte de temps qu'elle leur fait subir. Ainsi les parcelles de la famille G*** sont situées à toutes les extrémités de la commune, quelques-unes même sur le territoire d'Épinay ; comme plusieurs d'entre elles ne retienncnt pas pendant toute la journée une ou plusieurs personnes, celles-ci se transportent de parcelles en parcelles et de tels déplacements imposent une grande fatigue, surtout les jours de marché. La dissémination de ces lam¬beaux de terre rend en outre la surveillance plus diffieile. Les journa¬liers, que le maître ne peut toujours suivre, ont le moyen de mettre de côté des légumes pour eux ou d'apporter moins d'ardeur dans leur travail. De plus, si la propriété était agglomérée, le propriétaire déjouerait plus sûrement les entreprises des voleurs. Le morcellement entraine un autre inconvénient dont les habitants n'ont pas con<pb facs="#facs_291" n="274" source="s2lesouvriersdes01sociuoft_0320.xml"/>science. Nous avons vu
+         <ref target="#part_02_01_03" type="renvoi_int_mono">
+          (§ 3)
+         </ref>
+         quelles entraves le travail apportait à l'éducation des enfants : or avec un domaine aggloméré autour de la maison, les parents rentreraient plus fréquemment dans leur inté¬
+        </p>
+        <p xml:id="para_18_274_357">
+         La commune se préoccupe d'atténuer les maux du morcellement ; elle ouvre des chemins d'une largeur de 2 mêtres et sur lesquels une voiture peut passer. Les morceaux de terre complètement enclavées deviendront plus rares. De leur côté, les familles recherchent dans les partages l'attribution à chaque héritier de parcelles d'une étendue plus considérable. Remarquons encore que le nombre restreint des enfats appelés à prendre part aux partages de famille rend l'émiet¬tement de la propriété moins excessif. Si on y ajoute la valeur énorme de la terre qui permet à une famille de vivre avec un hectare, on comprendra pourquoi le type du propriétaire indigent n'a pas encore pparu à Deuil. Il est toutefois permis de se demander si cette situa¬tion est destinée à durer longtemps. Lorsque la propriété de la fa¬mille G* aura été partagée entre les quatre héritiers, chacun d'eux Sera possesseur d'un hectare de terre ; il sera encore assuré de con¬server la même posiion que ses parents. Mais si à son tour il a plu¬sieurs enfants, il ne leur transmettra qu'une position amoindrie. Comment échappcra-t-il à cette conséquence fatale2 Par un seul moycn, en réduisant le nombre de ses héritiers.
+        </p>
+        <p xml:id="para_18_274_358">
+         Le morcellement de la terre n'est pas un mal irrémédiable. Avant la lévolution, des réunions de parcelles ont été opérées par le libre consentement des propriétaires dans les provinces de Bourgognec et de Lorraine, notamment à louvres et à Roville ; en Allemagne l'in¬tervention de l'autorité municipale et de la loi a amené plusieurs faits de ce gcnre. M. ''isserand, aujourd'hui directeur de l'agriculture, a cXposé devant la Sociéte d'conomie sociale l'exemple désormais clas¬sique de la commune d'IHohentsaiida, en Saxe, où d'exeellents résultats ont été dus à la loi sur les réunions territoriales. F. Le Play a donné dans la même séance son approbation à cette manière de procé¬der
+         <note type="bp">
+          <p>
+           Bulletin de la Socieite d'economie sociale, t. IV, p. 2 à 52.
+          </p>
+         </note>
+         . Tout récemment enfin une haute autorité agricole, M. Gran¬deau, airmait de nouveau l'impérieuse nécessité d'une concentration des parcelles opérée, soit par le consentcment des intéressés, soit par une loi rendant ohligatoire le remembrcment d'une commune pourvu que les deux tiers des propriétaires y donnent leur consentement.
+        </p>
+        <p xml:id="para_18_275_360">
+         <pb facs="#facs_292" n="275" source="s2lesouvriersdes01sociuoft_0321.xml"/> Cette mesure, dont nous ne nions pas l'utilité, constitue toutefois un palliatif insuffisant, ant que le code civil laissera aussi peu de liberté aux arrangements de famille. Avec la loi prescrivant le par¬tage forcé et en nature, les parcelles se reproduiront certainement. Un seul moyen préviendra ce morcellement de la propriété : le petit nombre d'héritiers. A quelque point de vue que l'observateur se place pour examiner la loi du partage forcé, il rencontre toujours la sté¬rilité systématique comme une de ses conséquences finales.
+        </p>
+       </div>
+       <div n="006" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_22">
+         § 22. DES MARCHÉS A PARIS.
+        </head>
+        <p xml:id="para_18_275_363">
+         La famille fréquente le marché Saint-Maur-du-Temple, situé dans le 10 arrondissement et qui est un marché concédé. Au point de vue administratif, les marchés alimentaires de quartier de la ville de Paris se divisent en trois catégories : les marchés exploités par la Ville, les marchés concédés, les marchés tolérés ou non autorisés. Les marchés de la V'ille sont au nombre de vingt-cinq; ils sont exploités par les agents que nomme directenment le préfet de la Seine. Les marchés concédés sont au nombre de dix-sept. Le concession¬naire en supporte les frais de premier établissement, ainsi que les frais d'entretien et d'administration. Il distribue les places et en perçoit le prix suivant un tarif déterminé par le traité. Il verse annuellement à la Ville une redevance fixe, plus une part de ses bénéfices, quand ils arrivent à excéder dans une certaine proportion les frais annuels ainsi que les intérêts et l'amortissement du capital engagé. Les con¬cessions sont généralement limitées à une durée de cinquante ans. Quelques-unes atteignent soixante, soixante-quinze et même quatre¬vingts ans. Le contreôle des recettes est assuré, dans l'intérèt de la V'ille, pa un inspecteur du service des perceptions municipales. Les marchés tolérés ou non autorisés ne paient aucune redevance à la V'ille. Quelques-uns ont été créés au profit de personnes privilégiés, entre autres le marché d'guesseau, dans la cité Berryer, créé en 1725 par lettres patentes, en faveur de Josepl d'Aguesseau. Les ma¬raichers ont à payer dans les marchés un droit de stationnement qui se calcule d'après la dimension de la place occupée. Ce droit se paie par semaine et d'avance ; si la place n'est pas occupée, pen¬dant deux marchés consécutifs, l'administration a le droit de la <pb facs="#facs_293" n="276" source="s2lesouvriersdes01sociuoft_0322.xml"/> mettre en location. Un droit de vingt-cinq centimes par marché est exigé depuis quelques années pour la garde des voitures. Autrefois les maraîchers remisaient presque gratuitement leurs chevaux dans une écurie voisine pendant la durée de la vente.
+        </p>
+        <p xml:id="para_18_276_365">
+         Les cours des légumes ne subissent plus d'aussi grandes variations qu'il y a vingt-cinq ou trente ans. Il n'était pas rare de voir le prix d'un sac de pommes de terre s'élever de 5 à 20 francs. Les chemins de fer ont rendu les prix plus uniformes, en amenant sur les marchés pa¬risiens les légumes des extrémités de la F'rance, notamment du Midi et des environs de loscoil, où la culture des artichauts a pris un grand développement. Les tarifs établis par les compagnies de che¬mins de fer et qui diminuent selon la distance à parcourir favorisent cette ex portation des produits des départements dans la capitale. Les maraîchers des environs de Paris supportent, sans trop sc plaindre, une telle concurrence, parce que, malgré tous les soins avec lesquels ils sont emballés, les légumes expédiés par le chemin de fer perdent quelque peu de leur fraicheur. Ils observent en outre que l'augmen¬tation des consommateurs diminue le risque de ne pas vendre.
+        </p>
+        <p xml:id="para_18_276_366">
+         Le travail du marché exige une surveillance et une activité de pa¬roles incessantes. Un tiers des personnes qui se présentent à eux, disent les cultivateurs, essaient de les frauder. Les unes font habile¬ment tomber dans leur panier, qui une carotte, qui une ou deux pom¬mes de terre, qui quelques fruits ; les autres leur glissent des pièces fausses ou n'ayant pas cours. D'autres plus hardies viennent réclamer la monnaie de pièces qu'elles n'ont pas données. L'habitude du mar¬chandage est tellement répandue que les vendeurs sont obligés de hausser le prix de toutes leurs marchandises. En moyenne, la dimi¬nution de prix obtenue par le marchandage est de dix pour cent. Dans les moments de prospérité, les acheteurs se montrent plus cou¬lants sur le prix de la marchandise. Cette année, où les affaires sont difficiles, de vives contestations s'élèvent entre marchands et clients. Aussi la famille, qui vend à un marché presque exclusivement fré¬quenté par des ouvriers, éprouve-t-elle en ce moment plus de peine à écouler ses produits ; il y a bien longtemps, dit-elle, qu'on n'a vu des années comme celles qui ont préeédé 1870. Réduits dans leurs salai¬res, les ouvriers achètent moins de légumes ; la viande est pour eux l'aliment fondamental. Ils manifestent néanmoins tout autant d'exi¬gences et délaissent les fruits qu'une tache dépare, quoiqu'ils ne soient pas d'une qualit́ inférieure aux autres. Ils recherchent plus volon<pb facs="#facs_294" n="277" source="s2lesouvriersdes01sociuoft_0323.xml"/>tiers les primeurs que les gros légumes, ce qui tendrait à faire bais¬ser ces dernières denrées.
+        </p>
+        <p xml:id="para_18_277_368">
+         La clientèle des maraichers au marché Saint-Maur se recrute aussi, soit parmi les fruitiers, soit parmi les marchands dits des qua¬tre saisons, qui conduisent à bras de petites voitures dans les rues. Ces derniers forment une classe turbulente, démoralisée, impré¬voyante. Avant d'exercer un tel métier, beaucoup d'entre eux ont tenu des magasins de fruiterie, ou ont vendu à la halle. L'inconduite et souvent le manque d'un petit capital les ont perdus. Ils logent en garni, lorsque l'âge ou la maladie leur interdisent tout travail, ils tombent à la charge de l'Assistance publique. Dénués de tout avoir, ils louent leur petite voiture chaque matin et beaucoup sont en même temps ré¬duits à emprunter vingt francs pour leurs acquisitions du jour. Le soir. ils devront rendre vingt-deux francs, un franc pour la voiture, un franc pour l'intérêt de l'argent. Bien des efforts ont été tentés pour empe¬cher l'usure de les dévorer ; leur insouciance et leur routine ont rendu ces efforts infructueux. Ils déploient un art consommé dans la vente et savent parer leur voiture de beaux légumes qui en recouvrent de qualité très inférieure. Dans cette classe et dans celle des fruitiers, aucune moralité commerciale. La soif du gain provoque une falsifica¬tion éhontée des marchandises qui sembleraient devoir s'y prêter le moins. Ainsi l'on fabrique des pommes de terre nouvelles, avec des pommes de terre anciennes très petites qu'on roule dans du carbonate de soude ou de la potasse pour les débarrasser de leur peau. Le dé¬calitre, qui pèse environ 6 lilog., revient à 50 centimes et chaque demi-lilog. de pommes de terre fabriquées de la sorte est revendu 40 ou 50 centimes.
+        </p>
+       </div>
+       <div n="007" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_23">
+         § 23. SUR LA DISTRIBUTION DES TRAVAUX ENTRE LES DIFFÉRENTES ÉPOQUES DE L'ANNÉE.
+        </head>
+        <p xml:id="para_18_277_371">
+         Janvier. — Labour d'hiver. I'ransports des fumiers, lorsqu'il gèle. Plantation des arbres (pruniers, cerisiers, etc.). Plantation des choux. On commence à semer les pois.
+        </p>
+        <p xml:id="para_18_277_372">
+         Février. — On continue à semer les pois, puis les fêves de marais, les carottes maraîchères, les oignons. le persil. Plantation des frai<pb facs="#facs_295" n="278" source="s2lesouvriersdes01sociuoft_0324.xml"/>siers. Taille des arbres : poiriers, groseilliers, framboisiers. Commen¬cement de la plantation des salades, dont le plant est acheté aux ma¬raichers proprement dits, qui habitent entre Saint-Denis et Paris. Provignagᵉ pour faire des fosses, coucher la vigne.
+        </p>
+        <p xml:id="para_18_278_375">
+         Mars. — Continuation des semailles des pois. Plantation des pom¬mes de terre qui sont vendues au mois de juin. On sème les deuxièmes carottes, les asperges. Récolte des pissenlits, qui viennent à matu¬rité en même temps que les petites laitues. On découvre les arti¬chauts. Le mois de mars est, avec le mois d'avril, l'époque du plus pénible labeur.
+        </p>
+        <p xml:id="para_18_278_376">
+         Avril. — On fiche les vignes. Fin de la plantation des pommes de terre. Labour des articauts ; on ne laisse sur le pied que les plus belles pousses. On couvre les asperges. Plantation des choux de plu¬sieurs espèces. Préparaltion des terres où il y a eu des oignons. Semailles du persil et des haricots. Autrefois un ancien usage voulait qu'ils fussent semés le vendredi saint ; il est maintenant presque généralement abandonné.
+        </p>
+        <p xml:id="para_18_278_377">
+         Mai. — On coupe les asperges. Fin des semailles des haricots de toute espèce. Préparation des terres pour le mois de juin. Cueillette des fraises. On débourgeonne la vigne. On arrange les oignons.
+        </p>
+        <p xml:id="para_18_278_378">
+         Juin. — On continue à couper les asperges ; l'opération est finie au milieu du mois. Commmcncement de la plantation des choux-fleurs qui se vendent aux mois de septembre et d'octobre. Plantation des poi¬reaux. des choux de Bruxelles. Cueillette des fruits (fraises, cerises, framboises). On lie la vigne.
+        </p>
+        <p xml:id="para_18_278_379">
+         Juillet. — Continuaion de la cueillette des fruits. Plantation des pois, des choux. On laisse se reposer pendant huit ou quinze jours la terre qui a produit des pois et on y plante des choux pour l'hiver. On met à ce moment, comme fumure, des boues de Paris auxquelles on mêle du fmier de cheval. Commencement de la récolte des haricots verts, artichauts, salades.
+        </p>
+        <p xml:id="para_18_278_380">
+         Aout. — Fin de la plantation des derniers choux et haricots. Jus¬qu'au 15 environ, semailles des navets, oignons blancs et mâches pour l'hiver. On arrache l'oignon vers le 15. Le mois d'août est celui pen¬dant lequel la famille a le moins à travailler.
+        </p>
+        <p xml:id="para_18_278_381">
+         Septembre. — Récolte des pommes de terre et des haricots. Cueil¬lette et vente de poires, que l'absence de fruitier empêche de garder pendant l'hiver. Cueillette des pommes, immédiatement après leur maturité. La crainte des vols empêche les cultivateurs de laisser les <pb facs="#facs_296" n="279" source="s2lesouvriersdes01sociuoft_0325.xml"/> fruits quelque temps sur l'arbre. Vente du raisin, à la fin du mois, et des derniers artichauts. On arrache les carottes, les betteraves et les derniers oignons.
+        </p>
+        <p xml:id="para_18_279_383">
+         Octobre. — Mois des vendanges, faites avec des ouvriers auxiliaires. On commence à arracher les navets plantés au mois d'août, les choux. Vente des choux-fleurs et des gros légumes.
+        </p>
+        <p xml:id="para_18_279_384">
+         Novembre. — Continuation de la vente des gros légumes. On retire les échalas des vignes ; on coupe les asperges.
+        </p>
+        <p xml:id="para_18_279_385">
+         Décembre. — Le travail de ce mois présente une grande analogie avec celui du mois de janvier. Labours d'hiver. On met le fumier sur les artichauts pour les soustraire à l'influence de la gelée.
+        </p>
+       </div>
+       <div n="008" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_24">
+         § 24. DE QUELQUES CONDITIONS ÉCONOMIQUES D'UNE EXPLOITATION MARAICHÈRE.
+        </head>
+        <p xml:id="para_18_279_388">
+         Les maraîchers de Deuil et des autres localités recherchent beau¬coup les boues de Paris appelées gadoues. Elles donnent en effet une fumure d'une grande intensité, mais qui conserve moins longtemps son efficacité que le fumier de cheval. Aussi les cultivateurs les em¬ploient-ils pour hâter la pousse des légumes dont la vente donne un profit élevé, comme les asperges. Ces boues sont achetées aux entrepreneurs chargés de les enlever dans les rues de la capitale. Le prix varie suivant la demande, il 'élève en été jusqu'à 15 ou 18 francs par tombereau, tandis qu'en hiver il ne dépasse pas 10 francs. Les cultivateurs disposant de ressources peu considérables n'y ont re¬cours que dans les années de prospérité. Ces boues sont conduites par le vendeur à proximité des champs qu'elles doivent féconder. Les cultivateurs obtiennent même parfois qu'elles soient portées di¬rectement à l'endroit où ils en feront usage ; avant de les étendre sur la terre, ils sont obligés de les débarrasser des débris qu'elles con¬tiennent. Le fumier de cheval est également employé. La famille le prend par abonnement, sinon, elle serait exposée à le payer plus cher, surtout au moment où on recouvre les artichauts avec du fumier pour les soustraire à l'action de la gelée. Il n'est fait usage d'aucun autre engrais.
+        </p>
+        <p xml:id="para_18_279_389">
+         Plusieurs produits sont soumis à des variations de prix qui empê¬chent les cultivateurs d'en calculer le bénéfice avec certitude : tels <pb facs="#facs_297" n="280" source="s2lesouvriersdes01sociuoft_0326.xml"/> sont notamment les petits pois et l'oseille. Pour les premiers, ces va¬riations dépendent des importations sur les marchés de Paris
+         <ref target="#part_03_01_21" type="renvoi_int_mono">
+          (§ 21)
+         </ref>
+         . Pour le second, elles tiennent à la plus ou moins grande âpreté de l'hiver. Pendant le grand hiver de 18791880, la livre d'oseille a été vendue jusqu'à 1 franc. Pour les choux, les cultivateurs de Deuil ren¬contrent la concurrence d'Aubervilliers où plusieurs exploitations sont exclusivement affectées à ce produit. Les fraises ne procurent pas tous les ans le même bénéfice ; il est très diminué, lorsqu'elles sont abon¬dantes, car les cultivateurs sont alors obligés de les écouler n'importe à quel prix, presque de les donner, pluôt que d'en diffrérer la vente, à cause de la prompte détérioration de ces fruits.
+        </p>
+        <p xml:id="para_18_280_391">
+         Depuis quinze ans environ, la culture du pissenlit a pris un déve¬loppement considérable. Cette salade, peu recherchée dans les mé¬nages aisés, est au contraire très goûtée des classes populaires ; quel¬ques maraîchers s'adonnent même uniquement a cette culture; ils ont à s'imposer un labeur moins pénible qu'avec des cultures variées; mais en revanche, si le cours de la marchandise se maintient à un pri três bas, ils ne réalisent qu'un bénéfice insignifiant. L'année ac¬tuelle a été mauvaise.
+        </p>
+        <p xml:id="para_18_280_392">
+         Le vin récolté dans la propriété sert à la consommation de la famille ; celle-ci met de l'eau dans chaque pièce et compose ainsi une sorte de boisson qui est bue sans autre addition d'eau. Dans les années abon¬dantes, elle en vend ou elle en donne une certaine quantité au charron ou au maon, comme paiement des travaux que ceux-ci ont exé¬cutés pour son compte.
+        </p>
+        <p xml:id="para_18_280_393">
+         La dissémination des champs rend les vols plus faciles
+         <ref target="#part_03_01_26" type="renvoi_int_mono">
+          (§ 26)
+         </ref>
+         . Aussi pour empecher que les habitants du village ne commettent des dépré¬dations, la famille, et avec elle presque tous les cultivateurs, usent d'ingénieux stratagèmes. Ils font sur les arbres une marque avec la peinture ou badigeonnent les aspecrges, ou salissent les raisins pour détourner d'indiscrets consommateurs. Ils plantent aussi des épingles dans les artichauts. Grâce à de telles ruses, ils ont maintes fois retrouvé leurs légumes entre les mains de voisins peu scrupuleux qui n'avaient pas fait attention à ces marques accusatrices.
+        </p>
+       </div>
+       <div n="009" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_25">
+         § 25. DE LA VALEUR SOCIALE DE LA CULTURE MARAICHÈRE.
+        </head>
+        <p xml:id="para_18_281_396">
+         <pb facs="#facs_298" n="281" source="s2lesouvriersdes01sociuoft_0327.xml"/>Au cours de ses longues et patientes observations, F. Le Play avait remarqué que la possession d'un jardin potager. dépendance naturelle du foyver domestique, apporte à toute famille ouvrière, en même temps qu'une distraction, un supplément très apprécié de ressources en na¬ture. Les mêmes observations lui avaient montré que la plupart de ces familles ne sont pas aptes à posséder une propriété dépassant la sphère du foyer, surtout quand les fruits de cette propriété, au lieu de se percevoir immédiatement, ne se récoltent qu'à longue échéance.
+        </p>
+        <p xml:id="para_18_281_397">
+         La présente monographie montre que la culture d'un jardin po¬tager attache et retient toute la famille, surtout lorsqu'elle constitue son unique moyen d'existence. D'abord tous les membres de la famille peuvent y prendre part, le père aussi bien que la mère, les jeunes gcns aussi bien que les enfants. l'ous étant appliqués étroitement au même travail, partagent le même intérêt, adoptent les mêmes habi¬tudes, conçoivent les mêmes sentiments. Exercée principalement aux portes des agglomérations urbaines, cette industrie se rapproche néan¬moins des conditions les plus simples d'organisation sociale, puisque nulle part ailleurs, si ce n'est dans l'art pastoral, il n'y a pour tous les membres d'une famille ouvrière, une pareille homogénéité dans le genre d'occupations.
+        </p>
+        <p xml:id="para_18_281_398">
+         La perception immédiate du fruit de leurs peines donne un véritable attrait à ce travail: elle épargne aux cultivateurs les découragements et les déceptions de l'attente. Elle leur inspire un élan qui ne se re¬trouve pas au même degré dans les modes d'exploitation de la terre, où la peine de chaque jour ne promet que des profits lointains. Les facilités de dépecnses qui en résultent compensent, il est vrai, cet avan¬tage ; mais comme leur travail n'est lucratit que s'il est assidu, ils ne peuvent l'abandonner plus d'un jour
+         <ref target="#part_02_04_13" type="renvoi_int_mono">
+          (§ 13)
+         </ref>
+         , sans un grave préjudice. Là est le frein le plus efficace.
+        </p>
+        <p xml:id="para_18_281_399">
+         Un des avantages sociaux du maraîchage est encore la place impor¬tante qu'il réserve à la femme. Il est remarquablement approprié à ses aptitudes, par les soins minutieux d'une culture dont elle saisit tout l'intérêt et qui ne réclame pas de conceptions trop compliquées <pb facs="#facs_299" n="282" source="s2lesouvriersdes01sociuoft_0328.xml"/> d'un autre côté elle excelle dans les habiletés particulières de la vente au détail. Dans une région où le maraichage pourrait librement se constituer en domaine aggloméré, il n'aurait même plus l'inconvénient de tenir la femme éloignée du foyer
+         <ref target="#part_03_01_21" type="renvoi_int_mono">
+          (§ 21)
+         </ref>
+         .
+        </p>
+        <p xml:id="para_18_282_401">
+         En définitive, la culture maraîchère apparaît comme une forme du travail éminemment favorable à l'esprit de famille. On a souvent remarqué qu'il y avait des dynasties de jardiniers, et à Deuil les fa¬milles de maraîchers se livrent au même travail depuis un temps très reculé ; les pères comme les enfants tiennent également à leur pro¬fession. La méthode véritablement scientifique des monographies de famille fournit seule le moyen de saisir les causes de pareils faits so¬ciaux, de pénétrer leur caractère, de dégager les lois qu'ils révèlent ; seule elle rend vivante l'influence que l'organisation du travail exerce sur toute la constitution sociale.
+        </p>
+       </div>
+       <div n="010" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_26">
+         § 26. DU SORT PRÉSENT DE LA PETITE PROPRIÉTÉ EN FRANCE.
+        </head>
+        <p xml:id="para_18_282_404">
+         Les faits observés à Deuil, sont surtout instructifs si l'on se reporte aux conditions de stabilité de la petite propriété, conditions que tant d'observations ont déjà révélées. Ils montrent une fois de plus combien il faut se garder de confondre le morcellement avec la division de la propriété. Autant l'une est bienfaisante, autant l'autre est funeste au point de vue moral comme au point de vue matériel. Le fractionnement exagéré de l'atelier agricole impose aux proprié¬taires des efforts surhumains ; dans cet âpre labeur, les préoccupations matérielles ne laissent place à aucune autre pensée. léduite progres¬sivement en poussière, la petite propriété est tuée par la loi qui, dit-on, lui a donné la vie, à moins que ces parcelles éparses ne soient réunies par un acquéreur plus opulent ou que le nombre des héritiers appelés au partage soit restreint.
+        </p>
+        <p xml:id="para_18_282_405">
+         Mais, dira-t-on, à Deuil, les cultivateurs ont maintenu leur situation prospère, malgré le morcellement excessif de la propriété. C'est vrai, mais grâce à un fait exceptionnellement favorable, la proximité de Paris, qui, jointeaux conditions naturelles du sol, a amené le déve¬loppement de la culture maraîchère en lui assurant un débouché certain et illimité ; encore, malgré l'écoulement fructueux de ses pro¬duits, la petite propriété n'a-t-elle survécu au partage forcé qu'à la <pb facs="#facs_300" n="283" source="s2lesouvriersdes01sociuoft_0329.xml"/> condition de restreindre le nombre des enfants. « Toute enquête faite en France sur la partie la plus intelligente de la petite propriété, a dit F. le Play, démontrera qu'elle tend de plus en plus à se consti¬tuer sur le principe de la stérilité du mariage.
+        </p>
+        <p xml:id="para_18_283_407">
+         Sous un pareil régime, le petit propriétaire vit dans un état de guerre perpétuelle. Il doit surveiller ses terres, dont des malfaiteurs cherchent la. nuit à dérober les produits. Il est exposé aux indéli¬catesses de ses domestiques, qui le volent sur la quantité de travail payé et sur les légumes confiés à leurs soins. La nuit, lorsqu'il se rend au marché, cède-t-il à la somnolence, sous le poids du labeur de la journée, de hardis coqu ins en profitent pour soustraire avec adresse ses produits les plus précieux. iuerre entin au marché, où les acheteurs ne se font aucun scrupule de le frauder. Rentré chez lui, il doit refouler les instincts naturels de l'homme, une famille impru¬demment féconde préparerait la déchéance des siens.
+        </p>
+        <p xml:id="para_18_283_408">
+         Ainsi se révèle la connexité qui doit exister entre la loi civile et la loi de Dieu. L'esprit religieux s'est maintenu dans les vieilles familles de cultivateurs de Deuil. Il a conservé la paix au foyer domestique : pleins de respect pour l'autorité paternelle, les enfants ne donnent pas le scandale de l'ingratitude observée ailleurs à l'égard des parents qui, moyennant le paiement d'une rente viagère, abandonnent leur propriété. Les actes graves d'improbité sont rares. Quand la loi civile est venue imposer à ces familles le partage de leur domaine, sans leur laisser aucun moyen légal de s'y soustraire, elles se sont soumises, mais en même temps elles ont cherché par la quasi-sté¬rilité du mariage à éviter la décadence que le code leur infligeait. La loi humaine a fait échec aux prescriptions de la loi divine.
+        </p>
+        <p xml:id="para_18_283_409">
+         Telle est la dernière ressource des propriétaires de cette catégorie ; tous les observateurs clairvoyants et sincères ont signalé le fait, en poussant un cri d'alarme demeuré jusqu'à ce jour, non sans écho, mais sans efficacité pratique.
+        </p>
+        <p xml:id="para_18_283_410">
+         La présente monographie condamne donc le système de contrainte qui pèse sur le père de famille et dont chaque observation impar¬tiale de la réalité manifeste les désastreux effets. Elle atteste les services qu'une modification de la législation successorale rendrait à la petite propriété. Elle met en pleine lumière le caractère social de la crise que traverse la France. Malgré la vigueur de sa foi religieuse, l'avenir se dérobe à cette famille par le fait de la loi civile qui détruit les conditions essentielles de la stabilité familiale.
+        </p>
+        <p xml:id="para_18_284_411">
+         <pb facs="#facs_301" n="284" source="s2lesouvriersdes01sociuoft_0330.xml"/> Signalons enfin comme dernier enseignement de cette monographie, la solidité, dans la vie rurale, des traditions morales et religieuses qui ont fait la France. Parmi les cultivateurs de Deuil, elles ont ré¬sisté à toutes les mauvaises influences émanées de la capitale, au contact avec une population désorganisée, aux eexemples d'immoralité étalés sans cesse sous leurs yeux, aux tentations de la richesse. Ces familles forment comme un ilot battu par les vagues et dont quelques morceaux se sont seulement détachés. Mais elles sentent elles-mêmes qu'elles seront peu à peu submergées par la marée montante de la désorganisation sociale. « Nous assistons à un enterrement, »» disait un jour un vieux cultivateur de Deuil, pour exprimer, dans l'état actuel, les craintes que lui inspirait l'avenir.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
