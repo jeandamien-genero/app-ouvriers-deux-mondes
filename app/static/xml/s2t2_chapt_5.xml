@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--monographie-->
+<TEI xml:id="ID-056a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 2 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_26">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$33/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_27">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$34/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_28">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$35/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_29">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$36/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_30">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$37/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_31">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$38/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_32">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$39/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_33">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$40/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_34">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$41/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_35">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$42/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_36">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$43/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_37">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$44/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_38">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$45/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_39">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$46/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_40">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$47/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_41">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$48/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_42">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$49/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_43">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$50/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_44">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$51/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_45">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$52/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_46">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$53/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_47">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$54/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_48">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$55/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_49">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$56/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_50">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$57/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_51">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$58/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_52">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$59/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_53">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$60/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_54">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$61/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_55">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$62/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_56">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$63/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_57">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$64/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_58">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$65/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_59">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$66/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_60">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$67/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_61">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$68/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_62">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$69/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_63">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$70/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_64">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$71/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_65">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$72/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_66">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$73/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_67">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$74/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_68">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$75/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_69">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$76/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_70">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$77/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_71">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$78/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_72">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$79/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_73">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$80/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_74">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$81/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_75">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$82/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_76">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$83/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_77">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$84/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_5_1_1">
+      N° 56.
+     </p>
+     <p xml:id="para_5_1_2">
+      TOURNEUR-MÉCANICIEN
+     </p>
+     <p xml:id="para_5_1_3">
+      DES USINES DE LA SOCIÉTÉ COCKERILL
+     </p>
+     <p xml:id="para_5_1_4">
+      DE SERAING (BELGIQUE).
+     </p>
+     <p xml:id="para_5_1_5">
+      OUVRIER-TACHERON,
+     </p>
+     <p xml:id="para_5_1_6">
+      DANS LE SYSTÈMIE DES ENGAGEMENTS VOLONTAIRES PERMANENTS,
+     </p>
+     <p>
+      d'après
+     </p>
+     <p xml:id="para_5_1_7">
+      LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1886,
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_5_1_8">
+      M. <persName>URBAIN GUÉRIN</persName>.
+     </p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+       </head>
+       <p xml:id="para_5_1_14">
+        <pb facs="#facs_26" n="1" source="lesouvriersdesd02soci_0033.xml"/> La famille habite la commune de Seraing, située sur les rives de la Meuse, à 8 kilomètres en amont de Liège, chef-lieu de la pro¬vince dont elle fait partie. Seraing est desservie par la ligne de chemin de fer qui, suivant la rive droite du fleuve, part de Liège pour s'arrêter à Flémalle-Haute. Elle n'est séparée que par la Meuse de cette dernière commune, station de la grande ligne dite de Cologne à Paris.
+       </p>
+       <p xml:id="para_5_1_15">
+        Seraing appartient à un centre industriel d'une grande activité. L'ouvrier est attaché à l'établissement Cockerill, qui, par le nombre des bras qu'il emploie et la perfection de ses produits, se place au premier rang des établissements métallurgiques de l'Europe
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (§ 17)
+        </ref>
+        . Les usines se pressent les unes contre les autres. Ici, c'est la verrerie <pb facs="#facs_27" n="2" source="lesouvriersdesd02soci_0034.xml"/> du Val Saint-Lambert ; la, les fabriques de fer d'Ougrée, les grandes houillères de Marihaye, les hauts fourneaux et charbonnages de l'Es¬pérance, les charbonnages et hauts fourneaux de Sclessin ; plus loin, à Angleur, les établissements de la Vieille-Montagne.
+       </p>
+       <p xml:id="para_5_2_17">
+        Le cours du fleuve se déroule gracieusement au milieu d'une vallée que dominent des coteaux pittoresques, parsemés de bouquets de bois. Au bas de ces coteaux, se dressent d'immenses cheminées qui vomissent la fumée et la flamme ; la nuit elles ressemblent à de gigantesques lambeaux. A côté s'élèvent des gibbosités noires ; ce sont les amas de scories et de cendres qui se sont constituées peu à peu. Un tunnel, entre Liège et Seraing, a dû être percé au milieu de cette montagne artificielle. L'amas de scories et de cendres qui domine les ateliers de l'établissement Cockerill et sur lequel sont placés les bureaux des houillères, brûle lentement depuis quelques années ; sous vos pas, à travers les fissures qui se sont produites, une fumée âcre s'échappe. Cependant, quelques tourments que la main de l'homme lui ait fait subir, la nature n'a pas été dépouillée de son charme et de sa poésie.
+       </p>
+       <p xml:id="para_5_2_18">
+        En hiver, le climat de Seraing est rude et brumeux. La neige re¬couvre le sol pendant deux ou trois mois. A partir du mois d'octobre, des brouillards épais se répandent sur toute la vallée. La température estivale monte au contraire jusqu'à 25 degrés ; elle les dépasse même maintes fois : aussi, sur quelques coteaux exposés aux rayons du so¬leil et préservés en même temps des vents du nord, tels que ceux de lluy, petite ville située sur la Meuse, à 18 kilomètres environ en avant de Seraing. la vigne est cultivée, et le produit est un vin blanc mousseux.
+       </p>
+       <p xml:id="para_5_2_19">
+        «Seraing est assis sur la formation carbonifère qui entre en Belgique par le llainaut, le traverse de l'ouest à l'est et quitte la frontière belge par lIenri-Chapelle et Velhensaedt. Encaissés de Charleroi à Namur, dans la vallée de la Sambre, et, de Namur à Liège, dans la vallée de la Meuse, les terrains houillers s'amincis¬sent dans ce dernier parcours ; le calcaire carbonifère borde la rive gauche du fleuve jusqu'à Flémalle, puis, plongeant tout à coup, laisse les couches charbonneuses se reproduire plus nombreuses, plus puissantes et plus riches. Ces couches passent sous toute la superficie de Seraing. Le sol, extrèmement fertile dans la vallée, s'élève gra¬duellement du nord au sud, et atteint à mi-côte, à 60 mètres environ au-dessus du niveau de la Meuse (130 au-dessus du niveau de la <pb facs="#facs_28" n="3" source="lesouvriersdesd02soci_0035.xml"/> mer), les grès quarto-schisteux du terrain anthraxifère. La na¬ture change alors d'aspect. A la terre noire végétale et aux li¬mons mêlés de schistes houillers succèdent les schistes rouges et l'argile smectique ; les grès rouges, bruns, verts sortent de terre ; les eaux pluviales ne sont plus absorbées comme dans la vallée ; le jonc, les genêts, le houx apparaissent : c'est la région condroienne qui se montre, limitée par ses bouquets de bois. La formation carboni¬fère trace à la surface, en bcaucoup d'endroits, ses lignes d'une ma¬nière apparente, et les couleurs différentes du terrain houiller et des terrains antérieurs divisent, sur les hauteurs de Seraing, les champs de culture
+        <note type="bp">
+         <p>
+          Notice sur l'établissement Cockerill à Seraing, par Pierre Jacquemin, p. 6 et 7.
+         </p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_5_3_21">
+        Seraing renfermait, à la fin de l'année l885, une population de 30.894 habitants, qui se déployait sur une superficie d'environ 4 kilomètres et demi de longueur le long de la Meuse, c'est-à-dire de l'ouest à l'est. C'est une agglomération purement industrielle. L'é¬tablissement Cockerill comprend 10.116 ouvriers
+        <note type="bp">
+         <p>
+          En octobre 1887, ce nombre était réduit à 8.878 ; au moment de l'hiver, de nou¬velles réductions seront probablement faites : comme les autres usines ne peuvent ac¬cueillir les malheureux congédiés, on ne sait comment ils feront pour vivre1 Dans plusieurs ateliers le chômage du lundi est décrété et la paie de quinzaine ne repré¬sente que 11 journées de travail.
+         </p>
+        </note>
+        , dont une grande partie demeure à Seraing, dans un autre quartier, qui en porte le nom, se trouve la cristallerie du Val Saint-Lambert. Aussi de petites maisons de modeste apparence, construites en briques rouges, des magasins à l'étalage peu luxueux et de nombreux débits de boissons, tel est l'aspect que présentent les rues de Seraing, noircies par la poussière du charbon. Ouvriers de toute catégorie, puddleurs, mé¬caniciens, ourneurs, lamineurs, mineurs, verriers, habitent ces mai¬sonnettes. Les employés supérieurs de l'usine Cockerill et du Val Saint-Lambert forment seuls la population bourgeoise.
+       </p>
+       <p xml:id="para_5_3_22">
+        Le mouvement de la population pendant l'année 1885 comprend 1.047 naissances, dont 930 légitimes, 117 illégitimes, mais 49 ont été régularisées par légitimation ; 549 décès, 264 mariages ont eu lieu, dans la même période de temps. La statistique communale nous donne les renseignements suivants sur le nombre des électeurs : élec¬teurs généraux, 352 ; électeurs provinciaux, 1.238 ; électeurs com¬munaux, 1.60I. Le parti dit libéral réclame pour ces derniers le droit de prendre part aux élections générales, c'est-à-dire que la cons¬titution sur laquelle vit la Belgique, depuis l'époque où elle s'est sé<pb facs="#facs_29" n="4" source="lesouvriersdesd02soci_0036.xml"/>parée de la Hollande, devrait être revisée. Le budget communal pourl'exercice 1885 présente 422.281 fr. 93 de recettes, contre 421.188 . 96 de dépenses, sur lesquelles 21.286 fr..20 sont affectés au bureau de bienfaisance. A cette somme doit s'ajouter celle de 49.129 franes dépensés pour frais d'entretien d'indigents, ce qui porte à 70.415 fr. 20 le total du budget de l'assistance à Seraing
+        <note type="bp">
+         <p>
+          Rapport sur la situation et l'administration des affaires de la commune de Seraing pendant l'aunnée 1885, fait en séance publique du conseil communal le 3 octobre 1885, par le collége des bourgmestres et éehevins.
+         </p>
+        </note>
+        . Un tel chiffre indique la position diffiecile de la population ouvriêre. La crise in¬dustrielle qui sévit depuis quelques années l'a rendue encore plus dure.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Louis-Joseph B*** (n°056aE1) - Félicité-Josèphe B*** (n°056aE2) - Gaspardine-Marguerite B*** (n°056aE3) - Louise-Félicité B*** (n°056aE4)-->
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. ÉTAT CIVIL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_5_4_28">
+        La famille comprend quatre personnes.
+       </p>
+       <p xml:id="para_5_4_29">
+        <persName>LOUIS-JOSEPH B***</persName>, pére de famille............ 36 ans.
+       </p>
+       <p xml:id="para_5_4_30">
+        <persName>FÉLICITÉ-JOSEPHE B***</persName>, mère de famille............ 45 —
+       </p>
+       <p xml:id="para_5_4_31">
+        <persName>GASPARDINE-MARGUERITE B***</persName>, leur fille............ 11 —
+       </p>
+       <p xml:id="para_5_4_32">
+        <persName>LOUISE-FÉLICITÉ B***</persName>, leur file............ 11 —
+       </p>
+       <p xml:id="para_5_4_33">
+        Les deux sœurs sont jumelles. Une autre fille a été enlevée à l'âge de six mois par une maladie de la première enfance. Les noms des enfants leur ont été donnés en souvenir du père et de la mère, de leurs parrains et marraines.
+       </p>
+       <p xml:id="para_5_4_34">
+        Le père du mari était ouvrier houilleur ; il laissa sept fils et une fille. Le grand-père maternel de B*** exerçait le métier de tailleur. La femme, native de Geneffe, était la fille d'un cultivateur. Elle perdit sa mère lorsqu'elle n'avait encore que trois ans. Le père, auquel six enfants, trois fils et trois filles, étaient nés de cette pre¬mière union, se remaria ; il eut encore quatre garçons et sept filles. Aucun d'eux n'est resté agriculteur. Un des fils est devenu chef de bureau dans l'administration de la province de Liège.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. RELIGION ET HABITUDES MORALES.
+       </head>
+       <p xml:id="para_5_4_37">
+        Sans être douée d'une vive piété, la famille remplit ses devoirs religieux. Le dimanche elle assiste à la messe de dix heures. Elle ne <pb facs="#facs_30" n="5" source="lesouvriersdesd02soci_0037.xml"/> manque jamais de faire la communion pascale. Le souvenir des parents disparus n'est pas tout à fait effacé de son cœur, mais elle ne fait célébrer aucun service le jour anniversaire de leur mort. Le présent la prend tout entière, et l'écrase trop pour qu'elle ait le loisir de s'arrêter dans le passé. Elle n'entretient aucun rapport avec le clergé de la paroisse. La population ouvriêre, même dans les jours de grève, n'a jamais manifesté d'hostilité contre les idées religieuses. Beaucoup d'ouvriers, toutefois, ne se rendent pas à la messe le diman¬che : ou, rop fatigués par le labeur de la semaine, ils se reposent, ou la femme consacre la matinée du dimanche à laver. Un petitnombre d'en¬tre eux remplit le devoir pascal. Depuis la diffusion de la presse socia¬liste, les sentiments d'indifférence s'accentuent. Un enterrement civil est cependant encore un fait exceptionnel.
+       </p>
+       <p xml:id="para_5_5_40">
+        Les deux époux manifestent l'un pour l'autre un attachement très sincêre. Ainsi que cela arrive dans beaucoup de ménages d'ouvriers, la direction complête des intérêts domestiques revient à la femme. Rentré chez lui, l'homme n'aspire qu'au repos. C'est une machine : dès qu'elle ne fonctionne plus dans l'atelier, elle s'arrête. La bonne tenue du ménage repose donc sur la femme. lncapable, négligente ou légère, elle condamne la famille à un désordre complet. Atten¬tive, laborieuse et dévouée, elle saura la maintenir, même au milieu d'une situation pénible.
+       </p>
+       <p xml:id="para_5_5_41">
+        La mère s'occupe de ses deux filles avec une sollicitude touchante. Leur tenue est d'une irréprochable propreté, ainsi du reste que celle de tout le ménage. Elle désire qu'elles parviennent à se créer une existence moins malheureuse que la sienne, et elle s'efforce d'amener la réalisation de ses veux en leur donnant une bonne éducation. Les deux jumelles vont à une école dirigée par des religieuses ; elles ont, l'une d'elles surtout, la physionomie intelligente. Quoique aucun luxe n'entre dans leur mise, leurs manières, leurs vêtements annon¬ceraient une condition plus relevée que la leur. La mère souhaiterait de constituer une épargne qui plus tard mettrait ses enfants à l'abri de la misère qu'elle a subie ; mais l'état actuel de l'industrie, qui im¬pose une diminution des salaires, l'empêche d'une manière absolue de réaliser ce rêve. C'est à peine si elle parvient à vivre. Aussi expri¬me-t-elle maintes fois le regret que la société de secours mutuels n'attribue rien aux femmes et aux enfants.
+       </p>
+       <p xml:id="para_5_5_42">
+        Comme ouvrier, le mari ne voit le directeur de l'usine qu'à de très rares intervalles. Il n'a pour lui ni haine ni sympathie, tandis qu'au <pb facs="#facs_31" n="6" source="lesouvriersdesd02soci_0038.xml"/> contraire il se plaint vivement des surveillants. Sa femme a appartenu à la maison du directeur ; de là quelques relations dont elle peut user, lorsqu'elle se trouve en présence d'une diffieulté à laquelle elle ne saurait faire faee
+        <ref target="#part_02_04_12" type="renvoi_int_mono">
+         (§ 12)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_5_6_44">
+        B*** se tient à l'éeart du mouvement d'idées qui se dessine parmi les ouvriers, depuis les troubles de 1886 ; il lit quelquefois la edete, journal qui se publie à Liège, et le Courrier de ˉLiège. Beaucoup de ses compagnons lisent le Réueit, journal socialiste, dont l'influence devient puissante parmi eux, et qui prêche la transformation sociale : il les provoque à la révolte, à la grève ; il les presse de s'organiser, de ne plus compter que sur eux-mêmes ; le suffrage universel sera l'instrument avec lequel ils mettront un terme à leurs souffrances. De telles idées trouvent un écho auprès d'ouvriers dont la crise in¬dustrielle rogne les ressources. La misère au milieu de laquelle ils se débattent les aigrit contre la société, ils écoutent ceux qui vien¬nent à eux la main pleine de séduisantes promesses. Pourquoi re¬fuseraient-ils de les entendre2 Aucune autorité sociale n'est plus là pour les guider. Ils ne suspectent pas le désintéressement des écri¬vains socialistes qui n'ont avec eux aucune relation d'intérêt. Ceux¬ci deviennent peu à peu leurs véritables chefs ; les masses ouvrières leur appartiennent dans les grands centres. La femme détourne son mari de la lecture de ces feuilles ; non pas qu'elle en désapprouve le langage, mais puisqu'on ne peut changer, dit-elle, il vaut mieux se taire ». Elle ne laisse jamais ses filles lire le journal, précaution que ne prennent pas toutes les mères de famille. Les journaux, les publications socialistes pénêtrent dans tous les foyers.
+       </p>
+       <p xml:id="para_5_6_45">
+        Le cabaret exerce un vif attrait sur les ouvriers. Malgré les règle¬ments, ils y restent fréquemment la nuit. La devanture est fermée, mais les consommateurs s'enivrent à l'intérieur. Plusieurs d'entre eux y contractent des dettes qui les livrent pieds et poings liés au caba¬retier. Celui-ci les tient alors ; il ne lâche point sa proie, et l'ouvrier devra déployer des efforts énergiques, dont bien peu sont capables, pour recouvrer la possession de lui-même. Toutefois le cabaret exerce une influence plus mauvaise par l'ivresse à laquelle il pousse les ouvriers, que par les mauvaises idées qu'il répand chez eux ; le cabaretier n'est pas encore un agent électoral ou politique. Du reste B*** le visite rarement. L'empire que sa femme a su prendre sur lui le re¬tient. Quatre ou cinq salles de bal existent à Seraing ; elles donnent lieu à de graves désordres moraux. Beaucoup de femmes et de jeunes <pb facs="#facs_32" n="7" source="lesouvriersdesd02soci_0039.xml"/> filles y vont. Elles en reviennent seules. Là se nouent des relations qui n'aboutissent pas toutes au mariage. Des unions illégitimes se prolongent même par le fait des parents. Ils refusent leur consente¬ment au mariage, parce que les enfants qui vivent avec eux contri¬buent à l'aisance de la famille en apportant leurs salaires. Le jour où ils se marieraient, ils quitteraient la famille, dont les ressources seraient ainsi diminuées.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. HYGIÈNE ET SERVICE DE SANTÉ.
+       </head>
+       <p xml:id="para_5_7_49">
+        L'ouvrier a une bonne santé ; il est rarement atteint d'indisposi¬tions qui l'empêchent de se rendre à l'usine. La femme est d'une santé plus délicate ; elle souffre de douleurs névralgiques provenant d'une maladie de la tête qui s'est prolongée pendant plus de huit mois ; cette maladie était survenue à la suite d'une vive frayeur qu'elle avait éprouvée dans une discussion avec son mari. Un travail assidu lui serait diffieile ; elle est obligée de prendre quelques soins. no¬tamment de boire du lait. Les enfants paraissent bien constitués. En cas de maladie, elle peut s'adresser au médecin de l'usine
+        <ref target="#part_02_02_07" type="renvoi_int_mono">
+         (§ 7)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_5_7_50">
+        Les ouvriers sont surtout sujets aux fluxions de poitrine, prove¬nant des brusques changements de température, en passant d'un atelier surchauffé, à l'air extérieur. Ceux qui travaillent à côté des machines à vapeur, dans l'aciérie
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (§ 17)
+        </ref>
+        , sont même obligés de se mettre à moitié nus. Le poids du travail joint à une existence peu hygiénique se fait sentir sur eux de bonne heure. A cinquante ans un ouvrier a perdu une partie de ses forces, si même il n'est pas obligé de cesser tout travail industriel. B*** se livre à un genre de labeurs qui lui causent de moins pénibles fatigues.
+       </p>
+      </div>
+      <div n="005" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. RANG DE LA FAMILLE.
+       </head>
+       <p xml:id="para_5_7_53">
+        Sous le rapport matériel, la famille, si dure que paraisse sa position. est cependant moins malheureuse que beaucoup d'autres familles d'ouvriers plus chargées d'enfants. Elle est estimée de ses chefs, à cause de l'exactitude du père au travail, du soin avec lequel la mêre tâche de créer la prospérité du ménage. Le premier regrette de ne <pb facs="#facs_33" n="8" source="lesouvriersdesd02soci_0040.xml"/> plus occuper comme jadis le poste de surveillant
+        <ref target="#part_02_04_12" type="renvoi_int_mono">
+         (§ 12)
+        </ref>
+        . Ce serait, pour lui, s'élever dans la hiérarchie sociale que d'être de nouveau investi d'une telle fonction.
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. PROPRIÉTÉS.
+       </head>
+       <div type="proprietes" subtype="proprietes_texte_1">
+        <p xml:id="para_5_8_58">
+         (Mobilier et vêtements non compris.)
+        </p>
+       </div>
+       <div type="proprietes" subtype="immeubles">
+        <p xml:id="para_5_8_59">
+         IMMEUBLES : La famille n'en possède aucun.
+        </p>
+       </div>
+       <div type="proprietes" subtype="argent">
+        <p xml:id="para_5_8_60">
+         ARGENT. — La famille ne possède aucune valeur mobilière, ni aucune somme qu'elle garde comme fonds de roulement. Ce qu'elle gagne suffit à peine à ses dépenses ; comme elle paie par quinzaine la plupart des objets dont elle a besoin, elle se trouve le plus souvent avec une somme insignifiante entre les mains.
+        </p>
+       </div>
+       <div type="proprietes" subtype="animaux">
+        <p xml:id="para_5_8_61">
+         ANIMAUX DOMESTIQUES. — La famille n'en possède aucun.
+        </p>
+       </div>
+       <div type="proprietes" subtype="materiel">
+        <p xml:id="para_5_8_62">
+         MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES.
+        </p>
+        <p xml:id="para_5_8_63">
+         1° Pour l'exercice du travail industriel. — L'ouvrier ne possede aucun outil ; ils appar¬tiennent tous à l'usine.
+        </p>
+        <p xml:id="para_5_8_64">
+         2° Pour les industries domestiques. — Baquet pour laver, 2ᶠ00; — battoir, 1ᶠ00 ; — usten¬tensiles divers, 2ᶠ00. — Total, 5ᶠ00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="proprietes_total">
+        <p xml:id="para_5_8_65">
+         VALEUR TOTALE des propriétés............ 5ᶠ 00.
+        </p>
+       </div>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. SUBVENTIONS.
+       </head>
+       <p xml:id="para_5_8_68">
+        bLa Compagnie à laquelle appartient l'établissement Cockerill n'a pas borné ses rapports avec les ouvriers au strict paiement du sa¬laire. Elle a fondé un hôpital dans lequel les ouvriers malades sont reçus gratuitement ; quinze ou vingt en moyenne profitent de ces avantages. Les ouvriers qui ont une pension de retraite insuffisante ou sont infirmes, y sont également admis. Enfin l'hôpital recoit les malades de la commune, moyennant 1 fr. 50 par jour. De plus une consultation gratuite est donnée tous les jours à l'usine par le mé¬decin de l'établissement.
+       </p>
+       <p xml:id="para_5_8_69">
+        La Compagnie distribue des secours aux ouvriers malades et aux ouvriers blessés, dans la proportion de 30 a 40 pour les premiers, de 50 4 pour les seconds
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (§ 17)
+        </ref>
+        . Elle vient en aide aux ouvriers <pb facs="#facs_34" n="9" source="lesouvriersdesd02soci_0041.xml"/> nécessiteux en leur remettant, lorsqu'ils le sollicitent, un secours de 10 à 20 francs. Un enfant d'une famille d'ouvrier fait-il sa première communion, une somme de 10 francs est allouée à la famille.
+       </p>
+       <p xml:id="para_5_9_71">
+        Des avances sont faites aux ouvriers qui les demandent. Cette derniêre faveur est très appréciée des familles qui, sans cette avaice, seraient incapables de vivre ou tomberaient dans les griffes des fournisseurs.
+       </p>
+       <p xml:id="para_5_9_72">
+        Une pension est accordée aux ouvriers que les fatigues de l'âge empêchent de travailler, et cela malgré la suppression de la caisse de secours, au moyen de laquelle ce but devait être atteint. La caisse a été supprimée parce que les ouvriers avaient manifesté le désir de participer à sa gestion. Le maximum de la pension est de 70 centimes par jour.
+       </p>
+       <p xml:id="para_5_9_73">
+        Il reste aux ouvriers pauvres une dernière ressource, c'est l'ins¬cription au bureaude bienfaisance. L'ouvrier n'a pas voulu la solliciter.
+       </p>
+       <p xml:id="para_5_9_74">
+        La famille a encore reçu une subvention de la marraine d'une des petites filles : le lendemain de leur première communion, elle leur a fait deux robes d'hiver.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. TRAVAUX ET INDUSTRIES.
+       </head>
+       <div type="travaux" subtype="pere">
+        <p xml:id="para_5_9_77">
+         Travaux du père. — Le travail de l'ouvrier, employé dans l'ate¬lier de construction, consiste à réduire une pièce fabriquée qui doit entrer dans une machine à vapeur ou dans un steamer, à ses propor¬tions exactes, telles qu'elles sont fixées sur le projet ; il a sans cesse le dessin sous les yetux, pendant le travail, pour se conformer strictement à ses indications. B*** travaille, été comme hiver, de 6 heures du ma¬tin à 6 heures du soir. Il y a interruption pendant une demi-heure, à 8 heures, et pendant une heure, à midi. La proximité de son domi¬cile lui permet de revenir chez lui. Il travaille la nuit, seulement lors¬qu'une commande doit être livrée rapidement et que l'abondance du travail ne permet pas de la finir pendant le jour. En ce moment d'a¬tonie générale des affaires, un tel fait ne se produit presquejamais. Il travaille aux pièces ainsi que tous les ouvriers de cette catégorie. La paie se fait par quinzaine, le samedi. Le salaire n'est jamais exactement le même. Actuellement il ne touche pas plus de 35 francs en moyenne, quelquefois plus, quelquefois moins. Le salaire des ou<pb facs="#facs_35" n="10" source="lesouvriersdesd02soci_0042.xml"/>vriers le plus payés s'élève à 50 francs par quinzaine. D'autres au contraire touchent à peine 27 francs pendant la même période de temps
+         <note type="bp">
+          <p>
+           Au 6 août 1887 l'ouvrier n'a touché pour sa quinzaine que 3 frˉ. 20, dont 34 fr. 10 représentant en réalité le salaire fixe et fr. 10 de bénéfices qu'il avait su réaliser : depuis quelques mois une retenue de 2 fr. est faite sur son salaire, pour dettes chez un négociant. Le salaire de 72 fr. 40 pour un mois fait seulement 2 fr. 41 par jour ; c'est peu !
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_5_10_79">
+         Le dimanche, les hauts fourneaux seuls continuent à être en ac¬tivité. Les autres ateliers ne travaillent que dans des cas d'urgence exceptionnelle. La matinée du lundi est consacrée, dans la labrique de fer et les aciéries, aux réparations. Une partie des ouvriers y est seule employée ; les autres ne touchent aucun salaire.
+        </p>
+       </div>
+       <div type="travaux" subtype="mere">
+        <p xml:id="para_5_10_80">
+         Travaux de la mère. — La mère se livre à tous les travaux du ménage. C'est elle qui prépare les aliments, répare les vêtements, repasse, blanchit, s'occupe des enfants. De temps en temps elle fait des journées comme cuisinière. Elle prend alors 5 francs pour un petit diner, et plus quand le dîner est considérable ou qu'elle va hors de la ville. Elle ne veut pas aller trop fréquemment en jour¬née, parce qu'alors elle serait contrainte d'abandonner ses enfants. Elle apporte dans les travau du ménage une dextérité que ne sa¬vent plus montrer les femmes habituées au travail de l'usine.
+        </p>
+       </div>
+       <div type="travaux" subtype="enfants">
+        <p xml:id="para_5_10_81">
+         Travaux des enfants. — Les petites filles vont à l'école. Elles com mencent à se livrer à des travaux de couture. Dans beaucoup de familles, on cherche déjà à tirer parti des enfants à cet âge.
+        </p>
+       </div>
+       <div type="industries" subtype="famille">
+        <p xml:id="para_5_10_82">
+         Industries entreprises par la famille. — La famille a conservé, comme industrie domestique, le blanchissage du linge et des vête¬
+        </p>
+       </div>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_5_10_86">
+        La famille est obligée de se contenter d'une nourriture simple, peu variée, et souvent peu abondante. Cette nourriture se compose pres¬que exclusivement de pain, de pommes de terre et de lard. On consomme aussi du sirop, sorte de confiture grossiere faite avec des pommes ou des poires, et dont se nourrissent les ouvriers peu for<pb facs="#facs_36" n="11" source="lesouvriersdesd02soci_0043.xml"/>tunés. La femmme est obligée, à cause de sa santé, de boire un litre de lait par jour. La viande, la bière ne paraissent jamais sur sa table ; la famille se refuse tout diner de fête. La modicité de ses ressources ne lui permet de se procurer aucune jouissance de ce genre. Ce qu'elle mange un jour, elle doit le manger le lendemain.
+       </p>
+       <p xml:id="para_5_11_89">
+        Quatre repas ont lieu par jour : premier déjeuner, auquel l'ouvrier prend seul part, au moment de se rendre à l'usine ; il se compose d'une tartine de pain et d'une jatte de café ; second déjeuner, pris à 8 heures par toute la famille ; le menu est le même qu'au premier déjeuner ; à midi troisième repas, qu'on hésite à appeler dîner, puis¬que la soupe y paraît rarement, mais des pommes de terre et un morceau de lard, qui est supprimé dans les jours difficiles ; le soir, souper, après que l'ouvrier est rentré de l'usine ; il se compose sim¬plement d'une jatte de café, accompagnée souvent d'une tartine de de pain avec du sirop. La femme choisit les aliments qui lui revien¬nent à meilleur compte.
+       </p>
+       <p xml:id="para_5_11_90">
+        Le mari boit du genièvre en petite quantité. La femme s'abstient de toute boisson alcoolique.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
+       <div type="par_10" subtype="par_10_texte_1">
+        <p xml:id="para_5_11_93">
+         L'habitation est un petit logement donnant sur une cour à la¬quelle conduit un couloir étroit. Devant ce logement se trouve un carré de terre, mais la proximité des maisons empêche de le cul¬tiver. Il ne produit qu'une quantité de fèves insignifiante. Le loge¬ment comprend deux pièces et un petit cabinet. Au rez-de-chaussée est la salle où la famille prend ses repas, où se fait la cuisine, et où les rares visiteurs sont reçus : les murs sont ornés de gra¬vures et de photographies ; sur la fenêtre sont disposés de modestes pots de fleurs. A côté un petit cabinet sert de débarras. Un escalier en bois, très raide, monte à la pièce située au-dessus, c'est la chambre à coucher. Quoique peu élevé de plafond, le logement ne manque pas d'air, à cause de la proximité de jardins et de l'absence de hautes maisons devant lui. La maison, sise dans une rue qui va du pont de Seraing à la station du chemin de fer, est tout près de l'usine dont les murs bordent une partie de la rue.
+        </p>
+       </div>
+       <div type="par_10" subtype="meubles">
+        <p xml:id="para_5_12_94">
+         <pb facs="#facs_37" n="12" source="lesouvriersdesd02soci_0044.xml"/> MEUBLES : modestes, mais convenables............ 384ᶠ90.
+        </p>
+        <p xml:id="para_5_12_95">
+         1° Literie. — 2 lits, 20ᶠ00; — 3 matelas, 30ᶠ00; — 2 couvertures en coton, 8ᶠ00; — 2 au¬tres, sᶠ00. — Total, 64ᶠ00.
+        </p>
+        <p xml:id="para_5_12_96">
+         2° Mobilier de la pièce du bas et de la chambre à coucher. — 6 chaises en bois, 15ᶠ00; — 6 chaises de paille, 21ᶠ00 ; — 1 table à manger, 25ᶠ00 ; — 3 autres tables, 22ᶠ00 ; — 1 ar¬moire, 12ᶠ00; — 1 grand buffet avec vitrine en chène, 100ᶠ00 ; — 1 paire de rideaux, 3ᶠ00; — 1 store, 4ᶠ00; — 1 armoire uniquement destinée à la garde robe, 80ᶠ00; — 1 mi¬roir, 6ᶠ 00; — 1 coffret en bois très vieux, 8ᶠ00; 1 pendule, 8ᶠ00; — 4 porte-manteaux, 0ᶠ 40. — Total, 304ᶠ40.
+        </p>
+        <p xml:id="para_5_12_97">
+         3° Livres, gravures et objets de piété. — 2 gravures représentant des sujets historiques, 2ᶠ 00 ; — 10 photographies religieuses, 1ᶠ50; — diverses photographies de parents, 1ᶠ00; — 1 crucifix, 3ᶠ00; — gravures du Ceur de ésus-Christ, de la Vierge, 2ᶠ00; — 2 livres de messe et 1 livre de pièté, 5ᶠ00 ; — livres de lecture pour les enfants, 2ᶠ00. — Total, 16ᶠ50.
+        </p>
+       </div>
+       <div type="par_10" subtype="ustensiles">
+        <p xml:id="para_5_12_98">
+         USTENSILES : répondant aux besoins très limités de la fa¬mille............ 153ᶠ20.
+        </p>
+        <p xml:id="para_5_12_99">
+         1° Employés pour la cuisson, da prépoaration et la consommaton des aliments. — Us¬tensiles pour faire le café et arranger le feu, remontant à plus d'un siècle, 10ᶠ00; — barre pDour suspendre les objets de cuisine, 17ᶠ00; — poèles à frire de diverses grandeurs et de divers prix, 49ᶠ00; — machine à broyer le café, 7ᶠ00 ; — cafetière, 0ᶠ80; — 2 services don¬nés a la femme lorsqu'elle était chez le directeur de l'usine, 20ᶠ00; — 12 tasses, 7ᶠ00; — 7 verres, 1ᶠ40; — 2 jattes, 1ᶠ00; — 3 douzaines d'assiettes, 7ᶠ20; — 10 verres à confitures, 3ᶠ00; — fourchettes et cuillers en étain, 2ᶠ00; — 1 petite marmite, 2ᶠ50; — 4 couteaux. 2ᶠ 40. — Total : 130ᶠ30.
+        </p>
+        <p xml:id="para_5_12_100">
+         2° Employés pour l'éclairage. — 2 lampes, 1ᶠ50; — veilleuses, 0ᶠ50. — Total, 2ᶠ00.
+        </p>
+        <p xml:id="para_5_12_101">
+         3° Employés à divers usages domestiques. — Bascule, 12ᶠ00; — pots de flers, 1ᶠ40; — petites mesures, gobelets et autres, 4ᶠ00 ; — cuvette et pot à eau, 2ᶠ00; — broOSse, 1ᶠ50; — peigne, 2ᶠ00. — Total : 22ᶠ90.
+        </p>
+       </div>
+       <div type="par_10" subtype="linge">
+        <p xml:id="para_5_12_102">
+         LINGE DE MÉNAGE : en très petite quantité............ 17ᶠ 70.
+        </p>
+        <p xml:id="para_5_12_103">
+         3 paires de draps de lit, 1ᶠ00 ; — 3 serviettes, 1ᶠ50 ; — 2 torchons, 1ᶠ 20. — Total, 17ᶠ 70.
+        </p>
+       </div>
+       <div type="par_10" subtype="vetements">
+        <p xml:id="para_5_12_104">
+         VÊTEMENTS : toute trace de costume local a depuis longtemps disparu. La mêre de famille se soucie peu de l'élégance de la toi¬lette ; elle tient seulement à ce qu'elle et ses enfants soient très pro¬prement tenues. Elle n'a acheté presque aucun vêtement depuis son mariage et vit sur son fonds de jeune fille............ 308ᶠ 35.
+        </p>
+        <p xml:id="para_5_12_105">
+         VÊTEMENTS DE L'OUVRIER (86ᶠ85), selon le compte annexé aux budgets
+         <ref target="#part_02_05_16" type="renvoi_int_mono">
+          (§ 16, B)
+         </ref>
+         .
+        </p>
+        <p xml:id="para_5_12_106">
+         VÊTEMENTS DE LA MÈRE ET DES DEUX FILLES (221ᶠ50), Selon le compte annexé aux budgets
+        </p>
+       </div>
+       <div type="par_10" subtype="par_10_total">
+        <p xml:id="para_5_12_107">
+         VALEUR TOTALE du mobilier et des vêtements............ 864ᶠ 15.
+        </p>
+       </div>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_5_12_110">
+        La famille se refuse toute distraction coûteuse, même toute récep¬tion entre parents, tout anniversaire qu'on fêterait par un meilleur repas. Elle se plait à rendre quelques visites à ses parents ; deux ou trois fois par an, elle va voir à Liège le frère de la femme, qui est chef de bureau
+        <ref target="#part_02_01_02" type="renvoi_int_mono">
+         (§ 2)
+        </ref>
+        : elle y reste généralement à dîner. Elle fait <pb facs="#facs_38" n="13" source="lesouvriersdesd02soci_0045.xml"/> le voyage à pied ; le mauvais temps seul la détermine à user du tramvay. Le dimanche, l'ouvrier se promène avec ses petites filles ou se rend che sa mère. C'est aussi ce jour-là qu'il fume un cigare
+        <ref target="#part_02_01_05" type="renvoi_int_mono">
+         (§ 5)
+        </ref>
+        , mais il se montre discret dans la consommation du genièvre, qui est la grande récréation des ouvriers belges. Le genièvre leur fait oublier les soucis de leur existence ; il leur donne une excitation factice qui succêde à l'abattement causé par un dur labeur. Il dé¬guise pour l'estomac les insuffisances de l'alimentation. Les abus du genièvre exercent de véritables ravages parmi les familles ou¬vrières ; mais, comme le disait un homme qui entretient avec elles des rapports quotidiens, « il n'y a pas lieu de s'étonner, dans l'état actuel, des ravages de l'ivresse : c'est par l'alcool qu'ils échappent un instant aux angoisses de leur misère »». La lermesse de Seraing est encore un des grands plaisirs pour les familles d'ouvriers. Ce jour-là l'usine chôme, et les moins raisonnables se laissent aller à des dépenses qui engloutissent plus d'une journée de salaire. Dans l'enquête ouverte en 1886
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        , la multiplication des lermesses a été signalée comme une source de nombreux inconvénients ; elles étaient moins fréquentes autrefois.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. PHASES DIVERSES DE L'EXISTENCE.
+       </head>
+       <p xml:id="para_5_13_115">
+        Ils d'un ouvrier, le mari alla l'école jusqu'à l'âge de dix-sept ou dix¬huit ans. Il entra aussitôt après à l'établissement Cockerill où il netarda pas à être nommé surveillant. Son gain dépassait 120 francs par mois. Mais, lors de l'entrée du directeur qui est encore en fonctions
+        <note type="bp">
+         <p>
+          Sous l'influence de la crise industrielle, plusieurs modiications se sont produites dans la situation des usines Cockerill. Parmi elles il faut citer la retraite du directeur. M. le baron Sadoine, retraite motivée par certains dissentiments aec le conseil d'ad¬ministration, à propos de questions techniques, enlre autres la construction d'une usine à Nicolaieff, en Russie. ll paraît que le conseil était au fond quelque peu jaloux de l'autorité que le directeur avait su prendre. Lors de l'enquéte
+          <ref target="#part_03_01_18" type="renvoi_int_mono">
+           (§ 18)
+          </ref>
+          . les ouvriers avaient déclaré quils n'auraient pas trop à se plaindre de la Compagnie. tant que le direc¬teur serait là. Ce fait montre, apres beaucoup d'autres, les inconvénients des sociétés anonymes.
+         </p>
+        </note>
+        , plu<pb facs="#facs_39" n="14" source="lesouvriersdesd02soci_0046.xml"/>sieurs emplois qui s'étaient multipliés furent supprimés. B* perdit sa place, à son grand chagrin. Il fut obligé d'apprendre le métier de tourneur, qu'il exerce depuis cette époque. Il commence déjà à perdre quelque peu de sa vigueur, il se sent raide . Aussi aspire¬rait-il à reprendre la place qu'il avait d'abord occupée.
+       </p>
+       <p xml:id="para_5_14_118">
+        La femme appartenait à une famille de cultivateurs. Mais son père voulut joindre à l'exploitation de son domaine un commerce d'épicerie ; il contracta une dette que les intérêts grossirent. Comme il n'avait pu la rembourser, la propriété fut vendue, les enfants dis¬persés. Tous abandonnèrent la campagne. La femme se plaça comme cuisinière, jusqu'au jour de son mariage. Elle apportait un mobilier suffisant pour le ménage et une somme de 800 francs qu'elle avait économisée sou par sou. Les deux époux, désireux d'augmenter leurs ressources, résolurent d'exercer l'industrie de logeur. Mais leur en¬treprise ne fut pas heureuse, beaucoup de locataires partaient sans les payer ; les économies de la femme disparurent et le ménage se trouva endetté envers le propriétaire. Celui-ci se présenta un jour à la caisse de l'usine, pour demander le paiement d'une somme de 50 francs, qui fut ensuite retenue sur le salaire de l'ouvrier. Le mari et la femme furent vivement émus de ce procédé. Le mari voulait par¬tir de l'usine. Sa femme devint prcsque malade ; elle raconte avec une amertume mal dissimulée l'injustice du propriétaire à leur égard, injustice d'autant plus flagrante, dit-elle, que le propriétaire était riche et n'ignorait pas leur vie laborieuse, leurs privations perpé¬tuelles. Aussi considère-t-elle les droits des propriétaires comme exagérés. C'est le point par lequel les revendications socialistes trou¬vent un accès facile auprès d'elle.
+       </p>
+       <p xml:id="para_5_14_119">
+        Quant à l'avenir, le mari sait qu'il pourra avec peine sortir de sa position et se constituer une épargne ; il rêve de reprendre son an¬cienne place. Ni lui ni sa femme ne veulent que leurs enfants aillent dans une usine. Ils savent quelle flétrissure le travail industriel im¬prime sur l'enfance. Mêlées aux autres ouvriers, souvent à peine vê¬tues, les jeunes filles se démoralisent de bonne heure. Elle perdent l'ha¬bitude des travaux de ménage, le goût du foyer. Les vices masculins les envahissent. Ce seront plus tard de tristes mères, incapables de veiller à l'éducation des enfants, de soigner la bonne tenue de l'in¬térieur, de réparer les vêtements de la famille. Aussi les enfants s'élèvent-ils comme ils peuvent dans les familles nombreuses. Les parents, aux prises avec une détresse quotidienne, rognent sur leur <pb facs="#facs_40" n="15" source="lesouvriersdesd02soci_0047.xml"/> nourriture ; hors d'état de leur inculquer aucun principe, ils ne leur transmettent ni héritage moral ni héritage matériel.
+       </p>
+       <p xml:id="para_5_15_121">
+        Lorsqu'ils deviennent vieux, après une vie de labeur ils n'ont d'autre pecrspective que d'être secourus par l'Assistance publique. Les enfants sont trop écrasés par le fardeau de la vie pour être en mesure de soutenir leurs parents, et à leur tour ils transmettent aux générations désorganisées qui viendront après eux la même instabilité d'exis¬tence. C'est là le trait qui distingue les ouvriers de la grande indus¬trie, lorsque toute pensée sociale a cessé d'en inspirer la direction. Aussi l'existence de beaucoup d'entre eux se résume-t-elle dans ce mot de désespérance prononcé tristement par la femme : « Je suis prête, dit-elle, à retourner dans l'autre monde, sans que j'aie eu un jour de plaisir. »
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. MOEURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_5_15_124">
+        Exact, laborieux, l'ouvrier devrait puiser dans ces qualités la sé¬curité de son existence. Toutefois elles ne suffisent pas à lui garan¬tir le pain quotidien. Les crises industrielles qui surviennent restrei¬gnent son salaire, sans que tous ses eforts puissent en contrebalancer les conséquences désastreuses pour son bien-être. Il est dominé par une force aveugle contre laquelle il demeure impuissant. Qu'il déploie au¬jourd'hui plus ou moins d'habileté, plus ou moins d'application au travail, son salaire n'en sera pas moins diminué. De plus l'habitude du travail industriel le rend impropre à toute autre occupation ; d'ailleurs il ne possède même pas un outil.
+       </p>
+       <p xml:id="para_5_15_125">
+        En cas de maladie, l'hôpital Cockerill le recueillera. S'il tombe dans la misêre, le bureau de bienfaisance lui fournira des secours, en même temps qu'il aura la faculté de s'adresser à l'usine. Il fait aussi partie d'une société de secours mutuels à laquelle il est vivement at¬taché
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (§ 19)
+        </ref>
+        . Moyennant le paiement exact d'une cotisation de 1 frane par quinzaine, elle lui donnera un secours journalier, lorsque la ma¬ladie le contraindra d'interrompre son travail. C'est surtout sur son aide qu'il compte. Il se sent presque rassuré devant la prospérité qu'une sage administration a donnée à la Société des Mécaniciens
+       </p>
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
+       <pb facs="#facs_41" n="16" source="lesouvriersdesd02soci_0048.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_41_g_2" url="#" xml:id="tble_5_16_1"/>
+       </figure>
+       <!--<p xml:id="para_5_16_127">
+        ART. 3. — DROITS AUXN ALLOCATIONS DE SOCIÉTÉS DE SECOURS MUTUELS.
+        </p>
+        <p xml:id="para_5_16_128">
+        DRoIr aux allocations de la Société de secours mutuels des Mécaniciens réunis..
+        </p>
+        <p xml:id="para_5_16_129">
+        VALEUR TOTALE des propriétés........ ::.........:
+        </p>
+        <p xml:id="para_5_16_130">
+        SECTION II.
+        </p>
+        <p xml:id="para_5_16_131">
+        SUBVENTIONS RECUES PAR LA FAMILLE.
+        </p>
+        <p xml:id="para_5_16_132">
+        ART. 1ᵉʳ. — PROPRIÉTÉS 'RȨUES EN USUFRUIT.
+        </p>
+        <p xml:id="para_5_16_133">
+        (.a famille ne recoit aucune propriété en usufruit.)...................:...
+        </p>
+        <p xml:id="para_5_16_134">
+        ART. 2. — DROIT D'CSAGE SUR L.ES PROPRIÉTÉS VOISINES. (La famille ne jouit d'aucun droit de ce genre.).............................
+        </p>
+        <p xml:id="para_5_16_135">
+        ART. 3. — ALLOCATIONS D'OBIETS ET DE SERVICES.
+        </p>
+        <p xml:id="para_5_16_136">
+        Allocaions concernant les véteents des fillettes. .... ..............:.....
+        </p>
+        <p xml:id="para_5_16_137">
+        — le s ervice de ante......... ...................... .
+        </p>
+        <p xml:id="para_5_16_138">
+        — — le bien-être matériel de la fanille. ...............
+        </p>-->
+       <pb facs="#facs_42" n="17" source="lesouvriersdesd02soci_0049.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_42_g_1" url="#" xml:id="illu_5_17_2"/>
+       </figure>
+       <pb facs="#facs_43" n="18" source="lesouvriersdesd02soci_0050.xml"/>
+       <!--<p xml:id="para_5_18_139">
+        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_43_g_2" url="#" xml:id="tble_5_18_3"/>
+       </figure>
+       <pb facs="#facs_44" n="19" source="lesouvriersdesd02soci_0051.xml"/>
+       <!--<p xml:id="para_5_19_140">
+        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_44_g_2" url="#" xml:id="tble_5_19_4"/>
+       </figure>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
+       <pb facs="#facs_45" n="20" source="lesouvriersdesd02soci_0052.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_45_g_2" url="#" xml:id="tble_5_20_5"/>
+       </figure>
+       <pb facs="#facs_46" n="21" source="lesouvriersdesd02soci_0053.xml"/>
+       <!--<p>
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_46_g_2" url="#" xml:id="tble_5_21_6"/>
+       </figure>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
+       <pb facs="#facs_47" n="22" source="lesouvriersdesd02soci_0054.xml"/>
+       <!--<p xml:id="para_5_22_145">
+        SECTION I.
+        </p>
+        <p xml:id="para_5_22_146">
+        COMPTES DES BÉNÉFICES
+        </p>
+        <p xml:id="para_5_22_147">
+        RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte).
+        </p>-->
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_47_g_6" url="#" xml:id="tble_5_22_7"/>
+       </figure>
+       <!--<p xml:id="para_5_22_148">
+        SECTION II.
+        </p>
+        <p xml:id="para_5_22_149">
+        COMPTES RELATIFS AUX SUBVENTIONS.
+        </p>
+        <p xml:id="para_5_22_150">
+        NOTA. — Ces comptes sont directement portés dauns les budgets.
+        </p>
+        <figure type="illustration">
+        <graphic facs="#facs_47_g_10" url="#" xml:id="illu_5_22_8"/>
+        </figure>-->
+       <pb facs="#facs_48" n="23" source="lesouvriersdesd02soci_0055.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_48_g_1" url="#" xml:id="illu_5_23_9"/>
+       </figure>
+      </div>
+     </div>
+     <div n="003" type="section">
+      <head type="section" xml:id="part_03">
+       ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
+      </head>
+      <p xml:id="para_5_24_151">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITÉS REMARQUABLES; APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.
+      </p>
+      <div n="001" type="sub_section">
+       <div n="001" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         § 17. HISTOIRE ET ORGANISATION DE L'ÉTABLISSEMENT COCERILL.
+        </head>
+        <p xml:id="para_5_24_154">
+         <pb facs="#facs_49" n="24" source="lesouvriersdesd02soci_0056.xml"/> L'établisement Cockerill est aujourd'hui, par le nombre de ses ouvriers, par l'importanc e et la qualité de sa production, un des premiers établissements industriels de l'Europe. C'est lui qui a inauguré le développement de la grande industrie sur le continent. Depuis des siècles, l'industrie du fer au bois existait dans la pro¬vince de Liège. Le mouvement de l'eau, si abondante dans les vallées de la Meuse et de la Vesdre, mettait en mouvement les machines qui servaient aux fabriques collectives, répandues dans tous les villages. « L'eau d'un ruisseau, écrivait un représentant de la France en 1803. imprime à Chaudfontaine le mouvement à une multitude de roues ; on refend le fer, on forge les canons de fusils, on les polit, on fait des clous. Chaque maison de paysan est une petite usine. Partout on voit le feu de la forge, on entend les coups de marteau. » Les autres villages situés aux environs de Liège présentaient le même spectacle.
+        </p>
+        <p xml:id="para_5_24_155">
+         En 1817, deux Anglais, MM. James et John Cockerill, achetaient au gouvernement des Pavs-Bas, qui en était devenu propriétaire à la suite des événements de la Révolution, le château de Seraing, dépen¬dances et terres, ancienne propriété des princes-évêques. Fertilité des limons qui recouvrent la formation carbonifère, eaux abondantes, sa¬lubrité de l'air, beauté et diversité même du paysage, tels étaient les avantages que présentait Seraing. Doué d'une forte volonté, prévoyant l'essor qu'allait prendre l'industrie, John Cockerill attira autour de lui une série d'ingénieurs anglais pour les différentes branches de la construction des machines à vapeur et des machines de filatures. Des ouvriers anglais d'élite et des ouvriers belges recrutés partie à l'ate¬lier de Liège, partie à Seraing et dans les environs, lui fournirent la <pb facs="#facs_50" n="25" source="lesouvriersdesd02soci_0057.xml"/> main-d'œuvre. A travers des vicissitudes diverses que provoquait le contre-coup des événements politiques, Seraing fut créé. A la mort de ohn Cockerill, survenue en 1840, l'établissement avait déjà une grande importance. Il traitait avec les gouvernements étrangers pour la fourniture des ports, des arsenaux, des premiers chemins de fer que l'on construisait. John Cockerill mérite d'être considéré comme le créateur de la grande industrie en Belgique. C'est à lui qu'est due l'introduction sur le continent de la construction des ma¬chines à vapeur, de la production des fontes au cole et de la fabri¬cation du fer par la méthode anglaise. C'est dans ses établissements qu'ont été construits la premiêre machine à vapeur, le premier haut fourneau au cole, le premier four à puddler, la première locomotive, et qu'a été fabriqué le premier rail.
+        </p>
+        <p xml:id="para_5_25_157">
+         A la mort du fondateur de l'usine, une société anonyme fut consti¬tuée. Elle existe encore aujourd'hui, elle a pris un développement progressif. La compagnie qui porte le nom de Société Cockerill est régie par un Conseil d'administration composé de cinq membres qu'élisent les actionnaires ; il est assisté d'un directeur général et d'un secrétaire. Sept commissaires le surveillent. La réunion des administrateurs et des commissaires forme le Conseil général.
+        </p>
+        <p xml:id="para_5_25_158">
+         L'organisation de la Société comprend deux grandes séries de divisions : les divisions administratives et les divisions industrielles. Chacun de ces deux groupes est considéré comme ayant une existence propre. Les divisions administratives sont au nombre de sept : 1° la comptabilité commerciale, pour les opérations relatives au mouve¬ment de la caisse, du portefeuille, à la valeur des marchandises entrant et des produits sortant des usines ; — 2 la comptabilité in¬dustrielle, pour le mouvement intérieur des valeurs dans les opéra¬tions relatives à la production ou aux transformations des usines ; — 3° la caisse ; — 4° le contrôle des salaires ; — 5° le bureau du génie ; — 6° le bureau des achats, des transports et des expéditions ; — 7° l division des rentes.
+        </p>
+        <p xml:id="para_5_25_159">
+         Les divisions industrielles se composent des houillères, calcinage. miniêres, hauts fourneaux, fonderies, fabrique de fer, aciéries, for¬ges, ateliers divers de chaudronnerie, chantier des constructions navales. En outre, un service spécial est affecté aux transports et expéditions.
+        </p>
+        <p xml:id="para_5_25_160">
+         La concession houillère mesure 307I hectares et comprend 5 sièges d'exploitation, qui comptent 10 puits pour la descente et la montée <pb facs="#facs_51" n="26" source="lesouvriersdesd02soci_0058.xml"/> des ouvriers, l'éclairage, l'épuisement et l'extraction, Les puits ont atteint les profondeurs de 342, 348, 463 et 530 mètres. Les ouvriers houilleurs se divisent en plusieurs catégories. Les haveurs » abattent le charbon chaque jour sur une longueur de 1ᵐ 20 et une hauteur variant suivant la dureté de la couche ; puis ils étanconnent la taille. Les « bouteurs » font descendre le charbon à mesure de l'abattage jusqu'à la galerie de roulage. Les « chargeurs le mettent en ber¬line, et il est amené au puits par les « traîneurs », la chaîne flottante ou les chevaux. Les « bosseyeurs » poussent les voies d'aérage et de roulage chaque jour d'une longueur égale à celle de l'avancement dans le charbon par les haveurs ; et les « remblayeurs » reportent les pierres provenant de ces voies et les schistes abattus avec le charbon dans le vide fait par l'extraction du combustible. Aucune femme ne travaille dans le fond. Un certain nombre sont occupées à pousser les bannes de charbon. Les ventilateurs établis pour l'aération des houillères Cockerill produisent, dans les galeries et tailles, un cou¬rant actif donnant 3.900.000 mêtres cubes d'air par 24 heures. Les machines d'épuisement versent au jour 1.600 mêtres cubes d'eau dans le même nombre d'heures. L'extraction annuelle au minimum n'est pas inférieure à 450.000 mêtres cubes de combustible. L'usine en absorbe la presque totalité.
+        </p>
+        <p xml:id="para_5_26_162">
+         Dans la division du calcinage, les fours donnent une production annuelle de 110millions de kilogrammes de cole.
+        </p>
+        <p xml:id="para_5_26_163">
+         Les minerais de fer qu'emploie la Compagnie sont extraits princi¬palement du Luxembourg, et, depuis quelques années, d'Espagne, no¬tamment des environs de Carthagêne et de Somorostro.
+        </p>
+        <p xml:id="para_5_26_164">
+         La Compagnie a réalisé, dans la construction etle fonctionnement de ses hauts fourneaux, des perfectionnements qui ont amené une rédue¬tion d'au moins 100 francs par tonne, sur le taux des fontes produites lors de la mise en service des premiers fourneaux.
+        </p>
+        <p xml:id="para_5_26_165">
+         Les fonderies sont au nombre de deux, la fonderie de fer et la fon¬derie de cuivre. Elles fournissent à l'usine même les pièces réclamées par les diverses divisions du travail, et livrent, pour la construction des machines et des appareils commandés pour l'extérieur, des piè¬ces métalliques qui jouissent d'une grande renommée dans le monde industriel. La production annuelle s'elève à 6 millions de lilogram¬mes de pièces.
+        </p>
+        <p xml:id="para_5_26_166">
+         La fabrique de fer compte 60 moteurs développant une force collective de 2.040 chevaux-vapeur, 65 fours à réverbêre, 12 lami<pb facs="#facs_52" n="27" source="lesouvriersdesd02soci_0059.xml"/>noirs,  pilons, les cisailles et autres engins accessoires de fabrica¬tion du fer. Elle produit annuellement 25 à 26 millions dekilograummes de tôle, de fer en barres. de poutrelles, de rails de fer ; plus 1 million de kilogrammes de tôle d'acier.
+        </p>
+        <p xml:id="para_5_27_168">
+         L'acierie de Seraing est très renommée, des perfectionnements ingénieux y ont été apportés dans la fabrication de l'acier, une des opé¬rations les plus curieuses de la grande industrie. L'aciérie renferme 8 convertisseurs de tonnes, 13 fours dont les plus grands peuvent chauffer, par 24 heures, 75.000 kilogrammes d'acier ; 10 laminoirs,
+        </p>
+        <p xml:id="para_5_27_169">
+         10 pilons de 3 à 30 tonnes, 56 moteurs développant une force de 3.590 chevaux, les appareils hydrauliques pour la manœuvre des convertisseurs et des gens de service. Elle produit annuellement 80 millions kilogrammes de rails, de bandages, de barres, de ressorts. de canons de fusil, de masses diverses pour tous les usages de la construction mécanique. Le laminoir peut produire 2.000 tonnes de rails par semaine.
+        </p>
+        <p xml:id="para_5_27_170">
+         Deux grands ateliers comprennent : le premier, le martelage : le second, les forges à la main. Le martelage ébauche ou finit toutes les pièces de volume considérable, les arbres coudés, les arbres creux, les manivelles, les grands supports, les étambots, les pièces diverses de grand poids quelles qu'elles puissent être. Il fournit en outre à la forge les préparations ou pièces ébauchées nécessaires pour le tra¬vail de celle-ci. La division des ateliers de construction comprend l'atelier des modeleurs, la boulonnerie, les ateliers de préparation des pièces mécaniques, les ateliers spéciaux de montage des locomotives, des grandes machines ou appareils mécaniques considérables. Ces ateliers couvrent de vastes surfaces. Le premier atelier de préparation des pièces mécaniques s'étend notamment sur 60 mètres de longueur et 60 mêtres de largeur ; le second a 120 mètres sur 35 ; l'atelier de montage des locomotives, 60 mètres sur 60; le grand montage. 65 mètres sur 90.
+        </p>
+        <p xml:id="para_5_27_171">
+         Les chaudronneries forment, en ce qui concerne les appareils et les chaudières de locomotives et de machines fixes, une des sections de préparation des moteurs à vapeur ; une de leurs branches principales de travail est celle de la construction des ponts métalliques. Les lo¬caux pour les premiêres de ces deux divisions du travail se compo¬sent de deux ateliers de remontage, de 100 mètres sur 20. Les pro¬portions de l'atelier de construction sont encore plus considérables ;
+        </p>
+        <p xml:id="para_5_27_172">
+         Il mesure 125 mètres de longueur sur 7I0 mètres de largeur, ce qui <pb facs="#facs_53" n="28" source="lesouvriersdesd02soci_0060.xml"/> donne une superficie de près d'un hectare. La charpente de cet atelier est supportée par 170 colonnes ; c'est une des belles parties de cette gigantesque usine.
+        </p>
+        <p xml:id="para_5_28_174">
+         La dernière division du travail est le chantier des constructions navales, établi au village de lobolen, sur l'Escaut, à 6 kilomètres en amont d'Anvers. Cn chemin de fer et un tramvay le relient à Anvers et à Seraing.
+        </p>
+        <p xml:id="para_5_28_175">
+         Le tableau suivant donne, d'après le registre même de l'usine, la moyenne des salaires que reçoivent les ouvriers de la Société Cocke¬rill : c'est la moyenne de la journée de travail, non pas calculée sur l'ensemble du mois, mais en tenant seulement compte des jours pen¬dant lesquels l'ouvrier travaille.
+        </p>
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_1">
+          Moyenne des salaires que reçoivent les ouvriers de la Société Cockerill (1) (notes annexes)
+         </head>
+         <graphic facs="#facs_53" url="#" xml:id="tble_5_28_10"/>
+        </figure>
+        <!--<p xml:id="para_5_28_176">
+         1° Fabrication du fer.
+         </p>
+         <p xml:id="para_5_28_177">
+         (Ouvriers qui, suivant l'expression sinistre et pittoresque de celui qu'interrogeait l'auteur, s sont croqués à quarante ans ». Il en est peu qui résistent jusqu'à cinquante ans aux fatigues du métier.)
+         </p>
+         <p xml:id="para_5_28_178">
+         2° 1ciéries.
+         </p>
+         <p xml:id="para_5_28_179">
+         Fondeurs. ........................ 4ᶠ55 Lamineurs, chefs.................
+         </p>
+         <p xml:id="para_5_28_180">
+         Marteleurs, 1ʳ catégorie ......... 6 73 — aides.................
+         </p>
+         <p xml:id="para_5_28_181">
+         — aides ...... .....:...... 4 43
+         </p>
+         <p xml:id="para_5_28_182">
+         (Ouvriers le plus payés, mais que le travail use le plus rapidement.)
+         </p>
+         <p xml:id="para_5_28_183">
+         3° Forges et anartclage. ...... 4ᶠ63 Frappeurs.
+         </p>
+         <p xml:id="para_5_28_184">
+         4° Tournage et aiustge.
+         </p>
+         <p xml:id="para_5_28_185">
+         Tourneurs, ouvriers.............. 4ᶠ 12
+         </p>
+         <p xml:id="para_5_28_186">
+         — apprentis .... ....... . 2 27
+         </p>
+         <p xml:id="para_5_28_187">
+         Mortaiseurs............. ... ...:.... 3 85
+         </p>
+         <p xml:id="para_5_28_188">
+         Ajusteurs, chefs....... ........... 4 90
+         </p>
+         <p xml:id="para_5_28_189">
+         — OvTieTS.... .......... .  )7
+         </p>
+         <p xml:id="para_5_28_190">
+         — apprentis ...... .... ... 2 11
+         </p>
+         <p xml:id="para_5_28_191">
+         PererS .. .. .... . ............ . ... 3 5)
+         </p>
+         <p xml:id="para_5_28_192">
+         Plaeurs, ouvriers................ 3ᶠ50
+         </p>
+         <p xml:id="para_5_28_193">
+         — apprentis ............. . 1 56
+         </p>
+         <p xml:id="para_5_28_194">
+         Modeleurs, chefs ................. 5 26
+         </p>
+         <p xml:id="para_5_28_195">
+         — ouvriers .. ........... 3 )2
+         </p>
+         <p xml:id="para_5_28_196">
+         — appenis ...... ....... 1 655
+         </p>
+         <p xml:id="para_5_28_197">
+         Monteurs, chefs.................. 5 11
+         </p>
+         <p xml:id="para_5_28_198">
+         — 0vriers ... . ........... 3 §86
+         </p>
+         <p xml:id="para_5_28_199">
+         appentis...... ..... .. 1 86
+         </p>
+         <p xml:id="para_5_28_200">
+         (Si l'on compare les salaires inscrits au budget ( 14, S°° 1II1) de la monographie, on constate que la moyenne portée ici pour les Tourneurs ouvriers est notablement supé¬rieure à celle de l'époque ou l'observation a été recueillie.)
+         </p>
+         <p xml:id="para_5_28_201">
+         5° Cadciac.
+         </p>
+         <p xml:id="para_5_28_202">
+         §ᶠ 70 Gaillteurs.. .. ... ............... :
+         </p>
+         <p xml:id="para_5_28_203">
+         Placeurs de elef Calcineurs...... .
+         </p>-->
+        <figure type="table">
+         <!-- figure sur 2 pages -->
+         <head resp="added" type="table" xml:id="figure_2">
+          Moyenne des salaires que reçoivent les ouvriers de la Société Cockerill (2) (notes annexes)
+         </head>
+         <graphic facs="#facs_54" url="#"/>
+        </figure>
+        <!--<p xml:id="para_5_29_204">
+         6° auts fourneaur.
+         </p>
+         <p xml:id="para_5_29_205">
+         Fondeurs..... .......:... ....... . ᶠ13 'TrSpOrteurs . ............... ... . 2ᶠ750
+         </p>
+         <p xml:id="para_5_29_206">
+         Peseurs de nte............. .... 4 19
+         </p>
+         <p xml:id="para_5_29_207">
+         7° onderies de fer.
+         </p>
+         <p xml:id="para_5_29_208">
+         Moulcurs en terre, chefs......... 6ᶠ30 Mouleurs cn coquille, chefs...... 5ᶠ50
+         </p>
+         <p xml:id="para_5_29_209">
+         — — ouvrierS..... . 3 70 — ouvries.. . 4 53
+         </p>
+         <p xml:id="para_5_29_210">
+         — apprentis... .. 1 60 — — apprcntis.. 1 74
+         </p>-->
+        <p xml:id="para_5_29_211">
+         <pb facs="#facs_54" n="29" source="lesouvriersdesd02soci_0061.xml"/> La Compagnie dispose de puissants moyens de transport : 3 navi¬res à vapeur de 100 tonneaux, 2 barges de 400 tonneaux, 24 locomo¬tives de service, 33 kilomètres de voie ferrée.
+        </p>
+        <p xml:id="para_5_29_212">
+         Elle a surtout travaillé pour l'exportation. Le gouvernement russe et le gouvernement espagnol ont été au nombre de ses principaux clients. Elle a exécuté notamment pour le gouvernement russe : 583 machines fixes ; 206 locomotives ; 79 bateaux à vapeur et 30 barges, bateaux phares, bateaux pilotes et dragues ; 2 canonniêres blindées avec tours, machines, affûts de canon, pompes, accessoires et rechan¬ges ; pour le Volga, le premier steamer à l'américaine construit en Europe ; des ponts sur le Dniester, le Bug et des afluents du Volga. Citons encore, parmi les principales productions de l'usine, sept malles-poste faisant le service d'0stende à Douvres, des navires de transport de premier rang, notamment le Delope-Mathieu, le lhédie, 'Eggpte, le ˉCoore, la itde de Cambrai, la ille de Lille, des bateaux à vapeur, des machines soufflantes. Au point de vue du développe¬ment des affaires, la Compagnie Cockerill rencontre aujourd'hui les obstacles dans les droits que plusieurs Etats ont-imposés à l'entrée des marchandises étrangères. ln outre, une tendance se manifeste, parmi les Etats dont le territoire renferme des établissements métal¬lurgiques, à réserver exclusivement leurs commandes pour l'indus¬trie nationale. Les grandes compagnies de transport entrent dans la même voie. De telles dispositions en se généralisant rendront plus dificile dans l'avenir la position de l'établissement Cocerill. Sous le rapport matériel, outes les améliorations ont été réalisées à Seraing. C'est une des puissantes manifestations du génie indus¬triel de notre époque. Aussi plusieurs ingénieurs étrangers viennent¬ils y compléter leur instruction technique. Il y a toujours plus de demandes que la Compagnie n'est disposée à en accueillir.
+        </p>
+        <p xml:id="para_5_29_213">
+         Mais une attention égale a-t-elle été accordée aux mesures de pa¬tronage La Compagnie a-t-elle été pénétrée des devoirs qu'elle a à <pb facs="#facs_55" n="30" source="lesouvriersdesd02soci_0062.xml"/> remplir vis-à-vis des familles ouvriêres qui dépendent d'elle, de la nécessité de garantir la stabilité de leur existence Nous avons énu¬méré plus haut les subventions données à la famille
+         <ref target="#part_02_02_07" type="renvoi_int_mono">
+          (§ 7)
+         </ref>
+         . La Compa¬gnie a en outre créé un orphelinat destiné à recueillir les enfants des deux sexes issus d'un ménage d'ouvriers. Les garçons sont gardés jusqu'à quatorze ans, les jeunes filles jusqu'à vingt et un ans ; elles apprennent la couture et la cuisine. L'orphelinat coûte une somme de 40.000 francs par an. Le directeur actuel, M. le baron Sadoine, a fait construire des réfectoires où les ouvriers que l'éloignement de leur domicile empêche d'y retourner prennent leurs repas à couvert. Lors de l'épidémie de choléra de 1886, il a fait distribuer à tous les ouvriers des boissons réconfortantes. L'usine porte enfin plus d'ou¬vriers que les strictes nécessités de la production ne l'eigent. Le directeur accueille tous les ouvriers qui croient avoir à se plaindre des surveillants. Comme il n'a ni chef de cabinet ni secrétaire parti¬culier, il ouvre toutes les lettres qui sont à son adresse. Les dépenses de la Compagnie en faveur de son personnel se répartissent de la manière suivante dans le dernier exercice :
+        </p>
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_3">
+          Dépenses de la Compagnie Cockerill en faveur de son personnel (notes annexes)
+         </head>
+         <graphic facs="#facs_55" url="#"/>
+        </figure>
+        <!--<p xml:id="para_5_30_215">
+         1° Pensions ordinaires et supplémentaires; secours aux blessé
+         </p>
+         <p xml:id="para_5_30_216">
+         des et ouv riers nécessiteuX..... .::..—:..::...............
+         </p>
+         <p xml:id="para_5_30_217">
+         2ᵉ Versement à la caisse de prévoyance des ouvriers mineur
+         </p>
+         <p xml:id="para_5_30_218">
+         ° Service médica et pharmaceutique ........................
+         </p>
+         <p xml:id="para_5_30_219">
+         4° Dépenses de l'hôpital-orphelinat............................
+         </p>
+         <p xml:id="para_5_30_220">
+         Dons au bureau de bienfaisance...........................
+         </p>
+         <p xml:id="para_5_30_221">
+         6° Ecole des mineurs et école industrielle a loboen.......:..
+         </p>
+         <p xml:id="para_5_30_222">
+         241.506ᶠ29
+         </p>
+         <p xml:id="para_5_30_223">
+         41.148 24
+         </p>
+         <p xml:id="para_5_30_224">
+         ........ 366.268 88
+         </p>-->
+        <p xml:id="para_5_30_225">
+         D'après le rapport présenté à l'Assemblée générale des actionnai¬res, l'orphelinat comprend 124 orphelins, dont 107 enfants ne gagnant rien, et 17 adultes travaillant déjà à l'usine ou rendant service à l'ho¬pital, et dont le gain sert, en partie à rembourser leur entretien, en partie à constituer à la caisse d'épargne de la Compagnie, avec les intérêts à5 4, une réserve pour l'avenir, une dot.
+        </p>
+        <p xml:id="para_5_30_226">
+         La paix ne s'est pas toujours maintenue entre la Compagnie et les ouvriers. Lors des troubles de 1886
+         <ref target="#part_03_01_18" type="renvoi_int_mono">
+          (§ 18)
+         </ref>
+         , 1.200 houilleurs se mirent en grève ; ils réclamaient une augmentation de salaire. L'agitation prit une tournure assez inquiétante pour que l'envoi des troupes fût jugé nécessaire ; un homme fut tué dans les rues de Seraing. Cette année, au moment ou les grèves éclatèrent dans le bassin de Liége. dans le Borinage et dans le bassin de Charleroi, des houilleurs, en moins grand nombre qu'en 1886, quittèrent encore le travail, en <pb facs="#facs_56" n="31" source="lesouvriersdesd02soci_0063.xml"/> s'efforçant d'entrainer les autres ouvriers à la grève. Leurs cffort échouèrent, le mouvement avorta, et la plupart des grévistes, sinon tous, ne furent pas repris par la Compagnie.
+        </p>
+        <p xml:id="para_5_31_228">
+         Le trait caractéristique des idées sociales que notre époque a prises pour guides ressort avec netteté, lorsqu'on compare l'économie d'une grande usine moderne avec une organisation industrielle du temps passé, celle, par exemple, des mineurs du llaut-lIartz. s La corpora¬tion du Hartz s'est fondée sous l'empire d'une préoccupation exclusive et permanente. Toute son économie intérieure repose sur la nécessité profondément sentie, de créer aux ouvriers des moyens d'existence, qui ne puissent être compromis par les calamités publiques, par les chances commerciales ou par l'imperfection morale des individus. »
+         <ref target="#" type="renvoi_ext_oe">
+          (F. Le Play, Ouvriers européens, t. III, ch., § 1, page 129)
+         </ref>
+         . Une préoccupation toute différente a dominé les fondateurs de l'établisse¬ment Cockerill, c'est le développement de la prospérité matérielle. La stabilité de la famille ouvrière a été oubliée. Aussi la corporation des mines du laut-Hartz a-t-elle sauvegardé le bien-être moral et physique de son personnel. Malgré ses intentions bienveillantes, la Compagnie Cockerill n'est entourée que de familles instables, désor¬ganisées, proie facile pour les meneurs qui sauront exploiter le dé¬faut de sécurité de leur existence.
+        </p>
+       </div>
+       <div n="002" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         § 18. DE L'ENQUÈTE OFFICIELLE SUR LES CONDITIONS DU TRAVAIL EN BELGIQUE ET DES FAITS QUI L'ONT PRÉCÉDÉE.
+        </head>
+        <p xml:id="para_5_31_231">
+         Le 18mars 1886, un meeting se tenait à Liège, pour célébrer l'an¬niversaire de l'insurrection tristement célèbre sous le nom de la Com¬mune de Paris. Des discours incendiaires y furent prononcés ; la Commune y fut représentée comme l'aurore d'une vie nouvelle pour l'humanité, comme le signal de l'affranchissement des classes ou¬vrières, jusque-là soumises à un véritable esclavage. Les orateurs firent en même temps appel aux souffrances que la crise industrielle avait provoquées parmi les ouvriers : ils les excitèrent à se faire justice eux-mêmes, à recourir à la grève, à obtenir par la force ce que la libre volonté des patrons ne leur accorderait jamais. A la suite du meeting, la foule, grisée par de tels discours. se répandit dans les <pb facs="#facs_57" n="32" source="lesouvriersdesd02soci_0064.xml"/> rues de Liège où elle pilla tout à son aise plusieurs magasins. Aucune mesure n'avait été prise : les autorités communales n'avaient eu nullement conscience de l'effervescence de la foule. De même les soulèvements qui éclatèrent dans tout le pays vallon causèrent une profonde surprise. Comme une trainée de poudre, le mouvement se répandit dans le bassin de Liège, dans celui de Charleroi, dans le Borinage. Les ouvriers se mettaient partout en grève, réclamant une augmentation de salaire. Ils se présentaient devant les usines ou le travail n'avait pas été abandonné, et par intimidation forcaient les non-grévistes à se joindre à eux. Se répandant ensuite dans les campagnes, ils s'adressaient aux châteaux, aux maisons isolées. La peur leur faisait obtenir tout ce qu'ils demandaient. Mais ils ne s'en tinrent pas là. Ils attaquèrent les établissements industriels que des faits particuliers désignaient à leur haine. Ainsi une verrerie de Jumet ut saccagée ; tout le verre fabriqué, jeté dans le verre en fusion ; le château du directeur, brûlé : celui-ci avait introduit des procédés nouveaux dans la fabrication du verre. Au système adopté jusqu'à ce jour, il avait substitué celui des fours à bassin qui donnent une production plus intense. Comme le coût de l'établissement d'un four à bassin se montait à près de cent mille francs, les petits verriers ne pouvaient songer à l'emploi d'un tel procédé ; ils étaient donc tatalement condamnés à succomber devant la concurrence d'un rival plus puissant; de là une irritation qui ne fut pas étrangère au sac de la verrerie de Jumet. En outre, le directeur, insouciant de son devoir social et imbu d'idées antireligieuses qu'il avait cherché à imposer à ses ouvriers, n'avait pas su se concilier leur affection.
+        </p>
+        <p xml:id="para_5_32_233">
+         Les événements ayant pris le gouvernement au dépourvu, les forces militaires, ou étaient absentes, ou ne se trouvaient pas en nombre suf¬isant pour arrêter la marche des grévistes. Aussi la garde civique de plusieurs villes prit-elle les armes et se prépara-t-elle à résister à des attaques dont l'imagination surexcitée des habitants exagérait encore les dangers. L'apparition de la force armée ne suffit pas toutefois pour dissiper les grévistes. A Marcinelle, à la glacière Monseux, à Jumet, des ouvriers furent tués. Aux environs de Charleroi, d'autres s'élançaient devant des troupes en les injuriant et en leur criant . 'Tas de lâches vous pouvez tirer, nous ne vous craignons pas. Mais la répression, confiée au général Van der Smissen, fut éner¬gique. Les ouvriers avaient compté sur une grève générale devant laquelle les patrons auraient été obligés de céder. Le pays flamand <pb facs="#facs_58" n="33" source="lesouvriersdesd02soci_0065.xml"/> trompa leurs espérances ; ils ne rencontrèrent de ce côté qu'un appui incertain ; le mouvement fut vaincu.
+        </p>
+        <p xml:id="para_5_33_235">
+         Ce sera l'honneur du gouvernement belge d'avoir compris que la répression ne suffisait pas pour rétablir la paix sociale. Sans doute des causes immédiates avaient provoqué les grêves : depuis quelque temps, une propagande socialiste active était faite dans les centres ouvriers ; les meneurs belges et étrangers, sous les formes les plus diverses, provoquaient les ouvriers à la révolte. n des moyens d'ac¬tion les plus efficaces auxquels ils eurent recours, fut une diffusion de brochures. Nous avons déjà rencontré l'influence de la presse dans une famille ouvriêre, exempte de toute autre influence
+         <note type="bp">
+          <p>
+           Monographie du Cordonier de Malahofjf
+           <ref target="#ID-005a" type="renvoi_int_od2m">
+            (ˉLes ouvriers des deux Mondes, 1ᵉ série. t. V. n° 41, p. 145)
+           </ref>
+           .
+          </p>
+         </note>
+         . Ici, une brochure, le Catéchisme ddu peupde, eut un immense retentissement. Rédigé sous une forme incisive, il attaquait toutes les institutions, tous les partis de la Belgique. Il poussait les ouvriers à la guerre. en leur montrant dans les riches des exploiteurs sans pitié. Sans s'ar¬rêter à ces causes immédiates, et désireux de remédier sérieusement au mal, le gouvernement voulut le connaitre. Adoptant la méthode fé¬conde à laquelle eut recours le gouvernement anglais en 1833, il dé¬créta une enquète directe. La commission fut composée, en nombre presque égal, des représentants des deux partis qui se divisent la Belgique, libéraux et catholiques. Aucune rémunération ne fut attri¬buée à ses membres, pas même le remboursement des frais de voyage. La commission se transporta dans ous les centres ouvriers. Des affi¬ches prévenaient de son passage la population. Chacun pouvait se présenter devant les commissaires, qui s'étaient partagés par région. Une liberté absolue fut laissée aux déposants. Au moment où l'en¬quête fut ouverte, les socialistes avaient recommandé aux ouvriers de ne pas se présenter devant la commission ; mais lorsque ceux-ci virent le dévouement intelligent avec lequel elle s'acquittait de sa mis¬sion, ils y vinrent en foule et lui exposèrent franchement leurs plaintes cmme leurs aspirations.
+        </p>
+        <p xml:id="para_5_33_236">
+         Les commissaires constatèrent, sans doute, que les traditions de l'an¬cienne économie européenne n'avaient pas entiêrement disparu. Mais l'ensemble des dépositions accusait un antagonisme parfois aigu des ouvriers contre les patrons, en même temps qu'une indifférence pro¬fonde de ces derniers à l'égard de leur personnel. Ils n'envisageaient l'ouvrier qu'au point de vue du rendement. La loi de l'offre et de la <pb facs="#facs_59" n="34" source="lesouvriersdesd02soci_0066.xml"/> demande régissait seule leurs rapports. Aussi les plaintes des ouvriers prirent-elles une tournure très vive ; elles révélèrent de graves abus. Les femmes, les enfants étaient condamnés à un labeur excessif. Les premières se livraient à des travaux de force, tels que la mise en mou¬vement des bannes de charbon dans les houillères ; elles y étaient. encore employées aux travaux du fond. Les deux sex es étaient mé¬langés sans aucune précaution. Le travail de nuit, mis en pratique dans beaucoup de manufactures, engendrait des désordres qu'un in¬dustriel déclarait impossible de prévenir. Dès l'âge de treie ans, des petites filles étaient exposées à tous les dangers de la promiscuité, au milieu d'ateliers surchauffés. Le truck-system était dénoncé comme une des principales sources d'abus. Il est très répandu, notamment parmi les canonniers et les carriers du bassin de la Vesdre : tantôt les patrons paient en nature avec des objets qu'ils estiment à des prix exorbitants ; tantôt ils forcent l'ouvrier à s'alimenter à leurs maga¬sins, et reprennent ainsi une partie du salaire. Il a même été déclaré dans l'enquête que des patrons continuaient les affaires, uniquement à cause des hénéfices qu'ils réalisaient par ce dernier moyen. Dans les charbonnages, beaucoup de maîtres porions tiennent en même temps des débits de boisson ; ils favorisent ou traitent mal les ou¬vriers, suivant qu'ils sont de bons ou de mauvais clients. Ils leur ac¬cordent des crédits prolongés, de manière que l'ouvrier ne recouvre jamais sa liberté ; la retenue qu'ils peuvent opérer sur le salaire ga¬rantit la dette. Le travail à la tâche soulevait aussi des réclamations parmi les ouvriers. Il ne produit aucun des résultats qu'il devrait amener, car si l'ouvrier accomplit sa tâehe facilement et parvient à réaliser un gain plus élevé qu'avec le travail à lajournée, immédiate¬ment la tâche est majorée. Ailleurs l'ouvrier est condamné à une amende s'il ne s'acquitte pas de sa tâche. Les caisses de secours et de prévoyance ont été aussi l'objet de critiques formulées avec une grande amertume. D'abord, les ouvriers se plaignent d'être exclus de l'administration de ces caisses d'une manière systématique ; ensuite ils éprouvent, ont-ils dit, de grandes difficultés à faire régler leurs pensions, quelque modique qu'en soit le taux. Plusieurs déposants appartenant à des sociétés anonymes se plaignirent de ne posséder aucune garantie contre l'arbitraire des surveillants et des contre¬maîtres, contre lesquels ils ne peuvent faire entendre aucune récla¬mation.
+        </p>
+        <p xml:id="para_5_34_239">
+         L'augmentation des salaires, insuffisants pour faire vivre une fa<pb facs="#facs_60" n="35" source="lesouvriersdesd02soci_0067.xml"/>mille chargée d'enfants ; la réduction de la journée de travail, qui épuise les forces humaines lorsqu'elle est prolongée au delà de douze heures, et au delà de dix heures dans certaines industries même le repos du dimanche ; la constitution de pensions de retraite qui sau¬vent l'ouvrier de la misère, à laquelle il est maintenant presque fa¬talement condamné pendant sa vieillesse ; telles furent les demandes formulées d'une manière générale par les ouvriers de tous les corps de métier. En définitive, c'était le retour à la stabilité garantie de l'ancienne économie européenne qui était au fond des demandes des ouvriers, malgré les revendications politiques que les hommes de nouveauté leur avaient suggérées. Cette enquète produisit le même résultat que celle de 1833 en Angleterre : l'abandon de la doctrine erronée du laisser-faire, laisser-passe, qui a provoqué s une ère de maux. inconnus jusqu'alors dans l'humanité »». Les législateurs an¬glais s'engagèrent après 1833, dans une voie de réglementation du travail où il ne se sont plus arrêtés. De même la commission belge prépara une série de projets de loi, destinés à remédier aux maux les plus aigus que l'enquête avait révélés.
+        </p>
+        <p xml:id="para_5_35_241">
+         Interdiction du truck-system ; interdiction pour le cabaretier de sai¬ir la totalité du salaire de l'ouvrier ; mesures préventives mettant une digue à la multiplication des cabarets ; répression de l'ivrognerie ; ré¬glementation du travail des femmes et des enfants dans les usines et manufactures ; organisation, avec l'aide des pouvoirs publies, de caisses de pensions pour les veuves et les orphelins, de caisses de re¬traite, de caisses de secours mutuels en cas d'incendie, de caisses d'as¬surance contre la vieillesse et les accidents industriels ; organisation de conseils de conciliation, destinés à prévenir les conilits entre patrons et ouvriers ; amélioration de la législation sur l'expropriation par ones dans les grandes villes, et faveurs accordées aux construeteurs d'habi¬tations ouvrières convenables etsalubres ; simplification des formalités nécessaires pour l'accomplissement du mariage civil, formalités dont la complication entraine la prolongation des unions illégitimes ; telles sont les grandes lignes du monunent législatif élevé par la commis¬sion. C'est la rupture avec la politique sociale jusque-là suivie par la Belgique
+         <ref target="#part_03_01_24" type="renvoi_int_mono">
+          (§ 24)
+         </ref>
+         .
+        </p>
+       </div>
+       <div n="003" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         § 19. DE LA SOCIÉTÉ DE SECOURS MUTUELS LES  MÉCANICIENS RÉUNIS D.
+        </head>
+        <p xml:id="para_5_36_244">
+         <pb facs="#facs_61" n="36" source="lesouvriersdesd02soci_0068.xml"/>La société de secours mutuels dont l'ouvrier fait partie
+         <ref target="#part_03_01_23" type="renvoi_int_mono">
+          (§ 23)
+         </ref>
+         exclut tous les ouvriers tels que lamineurs, chauffeurs, puddleurs et raffi¬neurs, qui ne peuvent rentrer dans la catégorie des mécaniciens. Elle n'admet aucun membre atteint d'une infirmité incurable. Afin d'as¬surer la bonne composition de son personnel, elle exige de ses membres la promesse de vivre en bonnète bomme et en ouvrier rangé. Une amende de 15 centimes est infligée pour mauvaise tenue à l'assemblée générale. L'amende est portée à 50 centimes si un des mutuellistes se présente en état d'ivresse. ln cas de récidive, l'exclu¬sion du délinquant est prononcée.
+        </p>
+        <p xml:id="para_5_36_245">
+         Tout sociétaire malade recoit 2 francs par jour, pendant trois mois. 1 1fr. 50 du quatrième au sixième mois. Si les fonds en caisse attei¬gnent 4.000 francs, les secours pourront être augmentés de 50 cen¬times par jour. Aucun membre n'aura droit aux secours s'il n'a payé sa cotisation. lien n'est accordé pour accidents causés par la débauche, l'intempérance ou les jeux de force et d'adresse. Les so¬ciétaires devenus impropres au travail peuvent obtenir temporaire¬ment des secours, s'ils ont été membres actifs de la société pen dant huit ans sans interruption. De même il en est accordé aux veuves non remariées et aux orphelins, mais les secours de cette ca¬tégorie ne sont distribués que si les fonds dont dispose la société s'élèvent à 5.000 francs. Désireuse de procurer des funérailles conve¬nables à ses membres, la société attribue une somme de 25 francs pour les frais de funérailles.
+        </p>
+        <p xml:id="para_5_36_246">
+         L'administration comprend un président, un vice-président, un secrétaire, un secrétaire adjoint, un trésorier, un trésorier adjoint quatre commissaires, et trois rapporteurs. Ils doivent appartenir à la classe ouvriêre. Toute ex clusion de sociétaire est prononcée dans une assemblée générale et à la majorité des voix. Les contestations qui s'élèvent au sein de la société sont jugécs par des arbitres que nomment les intéressés. Aucun ouvrier ne peut faire partie de la so¬ciété, s'il demeure dans une commune éloignée de plus de 10kilomè¬tres. Reconnue par un acte officiel du gouvernement en 184, la so¬ciété a obtenu une médaille d'or, une d'argent, et deux cents prix, pour <pb facs="#facs_62" n="37" source="lesouvriersdesd02soci_0069.xml"/> sa bonne tenue. Les membres conçoivent de ces distinctions une légi¬time fierté. Voici comment se réglait un des derniers exercices, celui de 1884 :
+        </p>
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_4">
+          Bilan des recettes et des dépenses de la Société de secours mutuels les « Mécaniciens réunis » (notes annexes)
+         </head>
+         <graphic facs="#facs_62" url="#"/>
+        </figure>
+        <!--<p xml:id="para_5_37_248">
+         Cotisation des membres effeetifs...................................... 8.70)ᶠ00
+         </p>
+         <p xml:id="para_5_37_249">
+         Droit d'admission de 8 nouveaux membres.... ....................... 40 00
+         </p>
+         <p xml:id="para_5_37_250">
+         Ae2eS . .... ... .. ........ ᵉ:.... .................... .............. . 7§5 ;0)
+         </p>
+         <p xml:id="para_5_37_251">
+         ntéréts des fonds placés......................... .................... 858 24
+         </p>
+         <p xml:id="para_5_37_252">
+         Prime du concours triennal........ .................................. 200 00
+         </p>
+         <p xml:id="para_5_37_253">
+         Total des recettes......:.... 9.982 74
+         </p>
+         <p xml:id="para_5_37_254">
+         Secours à 162 sociétaires, 2.845 .2 journées de maladie.....:...... 6.98Gᶠ 7
+         </p>
+         <p xml:id="para_5_37_255">
+         Frais de funérailles de sociétaires décédés.......................... 75 00
+         </p>
+         <p xml:id="para_5_37_256">
+         Frais d'administraion........................................ ....... 277 74
+         </p>
+         <p xml:id="para_5_37_257">
+         Secours aux vcuves et aux familles de sociétaires décédés.......... 429 00
+         </p>
+         <p xml:id="para_5_37_258">
+         Tota des dépenses........... 7.768ᶠ A9
+         </p>
+         <p xml:id="para_5_37_259">
+         EXCÉDENT des recettes.......................................... 2.,214ᶠ 25
+         </p>
+         <p xml:id="para_5_37_260">
+         ACTIF du compte précédent.................................... 24. 416 35
+         </p>
+         <p xml:id="para_5_37_261">
+         ACTIF au 31 décembre 1884......................... 26.630ᶠ 60
+         </p>
+         <p xml:id="para_5_37_262">
+         LTactif est placé comme suit :
+         </p>
+         <p xml:id="para_5_37_263">
+         EspèCes en caissse........................... . .:. :.:ᵉᵉ ........... 12ᶠ 77
+         </p>
+         <p xml:id="para_5_37_264">
+         Caisse d'épargne de lÉtat 3 °.)...........:........... .............. 13.087 84
+         </p>
+         <p xml:id="para_5_37_265">
+         Obligations Belges (4 °,,)............................................ 11.120 35
+         </p>
+         <p xml:id="para_5_37_266">
+         Obligations de villes. ....................... ......................... 2.296 65
+         </p>
+         <p xml:id="para_5_37_267">
+         Total...... .......:........... 25.630 60
+         </p>-->
+        <p xml:id="para_5_37_268">
+         Très attaché à sa société, l'ouvrier ne manque jamais d'assister aux séances. Il en suit les opérations avec un vif intérêt : c'est d'elle qu'il attend la sécurité de l'avenir.
+        </p>
+       </div>
+       <div n="004" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_20">
+         § 20. DU MAINTIEN DE LA PAIX SOCIALE DANS LES ATELIERS DES SOCIÉTÉS ANONYMES INDUSTRIELLES ET DU PATRONAGE A NOTRE ÉPOQUE.
+        </head>
+        <p xml:id="para_5_37_271">
+         L'usine Cockerill est constituée sous la forme d'une société ano¬nyme par actions. Cette forme nouvelle d'association se multiplie dans l'industrie, non seulement pour les usines qui dépassent les forces d'une seule famille, mais encore pour des entreprises moins considérables qu'une famille conduirait avec succès. Plasieurs causes ont contribué et contribuent encore à la multiplication des associa¬tions de capitaux. C'est d'abord le perfectionnement des engins mé¬caniques : il exige une mise de fonds considérable, aussi bien pour <pb facs="#facs_63" n="38" source="lesouvriersdesd02soci_0070.xml"/> monter un établissement, que pour résister à une concurrence inces¬sante, par la transformation de l'outillage, quand l'exigent des pro¬grès nouveaux. L'industriel n'est donc plus seulement un patron au courant de tous les secrets de son métier, il doit être doublé d'un capitaliste ; l'extension d'un marché qui en vient successivement à com¬prendre tout l'univers lui demande, s il veut réussir, de joindre l'ha¬bileté du commerçant aux connaissances techniques du manufacturier. Il est donc contraint de recourir à des capitalistes. En retour de leur coopération, ceux-ci exigent un droit de surveillance, si ce n'est même une part dans la direction. La société en commandite leur refuse cette garantie. Le gérant seul demeure responsable de l'entreprise qu'il conduit à sa guise. La société anonyme la leur donne : les acion¬naires sont légalement les maîtres de l'entreprise, par le conseil d'ad¬ministration qu'ils élisent. Cn mouvcment général pousse en même temps les entreprises industrielles ou commerciales à se concentrer. Les frais généraux deviennent moindres ; la production est décuplée par la puissance des engins dont dispose l'industrie. Ainsi l'usine Coc¬lerill exécute des travaux qu'une usine moins considérable serait in¬capable d'accomplir. Sur le terrain commercial, le grand baar tue le petit magasin. Dans l'industrie, le grand atelier étouffe le petit ate¬
+        </p>
+        <p xml:id="para_5_38_273">
+         La loi du partage égal et forcé, dans les pays où elle est appliquée, rend plus difficile le maintien des entreprises familiales. Celles-ci sont menacées d'une liquidation périodique, à la mort du chef de famille. La perpétuité est au contraire assurée aux associations de ca¬pitaux ; rien n'entrave leur développement. Aussi les pêres de famille qui reculent devant l'anéantissement de leur euvre se mettent-ils sous la protection de la société anonyme. Celle-ci gagne tout le terrain que perd la famille. Tous les jours des entreprises auxquelles leurs fondateurs avaient attaché leur nom se transforment en sociétés de ce genre, aussi bien parmi les plus importantes que parmi les plus modestes.
+        </p>
+        <p xml:id="para_5_38_274">
+         Le développement de la fortune mobilière a enfin joué un rôle dans l'extension des sociétés anonymes industrielles. Beaucoup de capitaux se sont tournés vers l'industrie, s'attendant à y trouver des gains illimités. Le remplacement des rails de fer par les rails d'acier a été notamment, pour l'industrie métallurgique, l'occasion de bril¬lantes affaires. Des capitaux surabondants se sont jetés de ce côté. En 1874 il existait sept grandes usines qui suffisaient à tous les be<pb facs="#facs_64" n="39" source="lesouvriersdesd02soci_0071.xml"/>soins de l'industrie. Six autres usines de premiêre importance ont été créées. Leur production a dépassé de beaucoup l'emploi possible.
+        </p>
+        <p xml:id="para_5_39_276">
+         La société anonyme se montre peu apte à maintenir la paix so¬ciale. C'est d'abord une administration impersonnelle et presque ir¬responsable. La propriété de l'entreprise appartient à des action¬naires inconnus les uns des autres, inconnus même de la direction. « Nous ne connaissons les noms des actionnaires qu'au moment où ils déposent leurs titres pour l'assemblée générale, D disait un des employés supérieurs de l'usine Cockerill
+         <note type="bp">
+          <p>
+           Au moment où nous rédigions cette monographie, le cours des actions de la So¬ciété Cockerill était de 1.000 francs et le dividende de 50 francs.
+          </p>
+         </note>
+         ; au-dessus s'é¬lève un conseil d'administration qui n'entretient, lui aussi, aucun rapport avec le personnel. Il siêge même presque toujours dans un lieu éloigné de l'usine, par exemple dans la capitale. Les rapports personnels, que l'observation a toujours montrés être si efficaces pour le maintien de la paix sociale, ne peuvent donc pas exister dans une société. Les ouvriers sont trop nombreux, les maîtres trop éloignés. Le véritable maître, en dernier lieu, c'est le directeur. Malgré son dévouement, son honnêteté, sa science, il manifeste plus de préoc¬cupation du présent que de l'avenir. Les actionnaires recherchent avant tout de gros dividendes. Un père de famille, guidé par la pré¬voyance que lui inspire l'avenir des siens, ne limite pas ses vues au présent ; il prépare la prospérité future de son entreprise par la sa¬gesse avec laquelle il la conduit pendant. sa vie. A l'usine Cockerill, ces inconvénients sont atténués par la durée des fonctions du direc¬teur, dont la nomination remonte à 1866
+         <note type="bp">
+          <p>
+           Une note précédente dit qu'en 1887 le directeur a dû se retirer.
+          </p>
+         </note>
+         . Mais ailleurs, et notam¬ment dans les compagnies miniêres, l'avenir de l'entreprise a été compromis par une production à outrance, qui a escompté sans pré¬voyance la richesse future des filons, bientôt appauvris.
+        </p>
+        <p xml:id="para_5_39_277">
+         D'ailleurs, « la propriété d'actionnaires qui ne coopèrent pas eux¬mêmes au succès d'un atelier de travail, a, pour les ouvriers, un ca¬ractère moins évident et moins légitime que celle d'un patron qui, avec le concours de sa famille et de son héritier, donne journel¬lement dans son atelier l'exemple de l'énergie et de la sollicitude. Les efforts faits par une société pour accroître le bien-être des ouvriers, n'ont donc pas, au même degré que ceux d'un patron, les' meilleurs mérites du sacrifice. Ils excitent par conséquent moins la reconnais<pb facs="#facs_65" n="40" source="lesouvriersdesd02soci_0072.xml"/>sance
+         <note type="bp">
+          <p>
+           La Reforme sociale en France, ch. 45. § XI.
+          </p>
+         </note>
+         , » et l'irritation des ouvriers se manifeste plus vive, lors¬qu'ils croient avoir à se plaindre de la direction ou qu'une crise in¬dustrielle provoque la diminution de leurs salaires. n un mot, la société anonyme e'est le régime de l'absentéisme combiné avec celui des intendants. Or, aujourd'hui que cette forme d'association s'est multipliée, le maintien de la paix sociale y présente une importance capitale.
+        </p>
+        <p xml:id="para_5_40_281">
+         Bien des sociétés anonymes se sont préoccupées, en dehors du sa¬laire, de garantir leurs ouvriers contre la misère, tel est le cas de la Société Cockerill. Mais elles ont considéré les avantages qu'elles don naient comme un acte de charité. Pleines de défiance contre l'ou¬vrier, elle n'ont pas voulu l'appeler à l'administration des institutions qu'elles avaient créées. La Compagnie Cockerill même a supprimé les caisses de secours parce que les ouvriers avaient manifesté le désir de prendre part à leur gestion. Aussi ces institutions n'ont-elles pas produit tout le bien que leurs fondateurs en attendaient. Les ouvriers sont restés soupçonneux, d'autant plus que les secours étaient donnés en vue d'une situation exceptionnelle, mais ne se faisaient pas sentir dans la vie habituelle de la famille. Partout au contraire où l'ouvrier a été appelé à administrer les institutions de prévoyance, il s'est inté¬ressé à l'institution, il l'a regardée comme sienne ; c'est un terrain où le patron et l'ouvrier se rencontrent dans un intérêt commun. Ce¬lui-ci, par exemple, en administrant une société coopérative, se rend compte de la difficulté des affaires.
+        </p>
+        <p xml:id="para_5_40_282">
+         Le patronage tel qu'il s'exerçait autrefois, c'est le maître se con¬duisant à l'égard de ses ouvriers comme un père de famille, leur tendant la main dans les mauvais jours, dirigeant presque leurs af¬faires, mettant leur vieillesse à l'abri de la misère, et cela par le sen¬timent d'un devoir à accomplir. Cette forme de patronage n'est pas facile aujourd'hui à pratiquer. Lorsque plusieurs centaines, plusieurs milliers même d'ouvriers sont attachés à une usine, comment le par tron arriverait-il à entretenir des rapports personnels avec chacun d'eu2 En outre un grand fait s'est produit : c'est, dans plusieurs pays de l'Europe, l'accession à la vie politique des ouvriers devenus les égaux de leurs patrons ; c'est dans tous la diffusion de la presse. Les ouvriers repoussent les pures libéralités, tout ce qui sent la charité, mais ils ré¬clament ce qu'ils considèrent comme la justice. Cette tendance se révèle <pb facs="#facs_66" n="41" source="lesouvriersdesd02soci_0073.xml"/> même dans des milieux non désorganisés
+         <ref target="#part_03_01_22" type="renvoi_int_mono">
+          (§ 22)
+         </ref>
+         . La transformation fréquente du patron en simple capitaliste, les changements de direc¬tion dans les usines, contribuent encore à accentuer ces dispositions des classes ouvrières. Le patronage n'a pas perdu son efficacité ; mais il doit faire appel à l'initiative des ouvriers, déguiser même son action, se plier enfin aux circonstances extérieures, qui sont profon¬dément changées depuis la seconde moitié du siècle. Sinon, se heur¬tant contre d'invincibles défiances, il risque de demeurer stérile.
+        </p>
+       </div>
+       <div n="005" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_21">
+         § 21. DE L'INDUSTRIE DES VERRIERS ET DE L'INSUFFISANCE DE LA SEULE ÉLÉVATION DES SALAIRES POUR AMÉLIORER LE BIEN-ÉTRE DES OUVRIERS.
+        </head>
+        <p xml:id="para_5_41_287">
+         De tous les ouvriers, les verriers sont ceux qui gagnent le plus. Le salaire moyen des souffleurs ne descend pas au-dessous de 350 francs par mois, quelques-uns touchent 1.000 francs ; on cite même un ou¬vrier verrier d'une habileté extraordinaire qui réalisait un gain men¬suel de 2.000 francs. Très fiers de leur situation fortunée, les verriers se regardent comme très supérieurs aux ouvriers des autres corps de métier. Leur jalousie contre les patrons n'est pas moindre: il tiennent à leur indépendance, veulent être libres de quitter une usine au gré de leurs désirs. Autrefois, ils s'engageaient pour une 'cam¬pagne, c'est-à-dire pour un an, par des contrats verbaux, qui rarement étaient rompus. Maintenant, ils signent avec le patron un contrat d'un mois ; le souffleur s'engage à payer un dédit d'un mois, s il manque à son engagement. Jadis, également, ils ne touchaient qu'une partie de leurs salaires ; ils laissaient le surplus chez leur patron pour le prendre seulement au bout d'un an. Ces habitudes de con¬fiance ont disparu. Le salaire gagné est touché dans son intégrité. Ce salaire élevé, bien peu d'entre eux l'emploient à se constituer un capital qui leur permettrait, à cinquante ans, de vivre à l'abri de la misère. La verrerie use rapidement les ouvriers. Le soufflage dans des manchons de fer de sept à huit pieds, la température ardente à laquelle ils sont exposés, et aussi les excès, les condamnent à un repos prématuré. Les ouvriers qui travaillent au delà de cinquante ans sont cités comme des exceptions. Les désordres de leur con¬duite se manifestent sous toutes les formes. ls parient pour les com<pb facs="#facs_67" n="42" source="lesouvriersdesd02soci_0074.xml"/>bats de coqs, pour les pigeons voyageurs dont l'élevage inspire un goût très vif en Belgique. Quelques-uns entretiennent plusieurs ménages. D'autres se montent une cave composée de vins des grands crus. Leurs femmes se livrent à des dépenses de toilette exagérées. A propos du mariage d'un verrier, à Charleroi, les femmes de deux d'entre eux ivalisèrent de luxe : l'une avait une toilette de mille francs, l'autre de huit cents francs. Le mariage se célébrait à lamairie de Charleroi, le jour même où siégeait la commission d'enquète. Il boivent beaucoup, même en travaillant, à cause de l'épuisement qui résulte du soufflage. Quelques-uns consomment 7 à 8 litres de vin et de bière pendant leur travail ; le genièvre est également une de leurs boissons préférées.
+        </p>
+        <p xml:id="para_5_42_289">
+         Dans l'enquête, l'Union verrière du bassin de Charleroi formula de nombreuses et vives réclamations contre les patrons. Elle les accusa d'avoir établi une mesure métrique qui tendait à réduire le salaire de l'ouvrier. Le rebutage des manchons aux souffleurs se fait sur une trop grande échelle dans presque tous les établissements, quoique la responsabilité des travailleurs ne soit nullement oné¬reuse dans la plupart des défauts à l'occasion desquels se produisent les refus. Le dimanche n'est pas un jour d'interruption du travail; ce qui empêche les enfants employés aux verreries de se réunir à leur famille. Aussi l'nion verrière réclamait-elle la réduction à huit heures de la journée de travail ; le repos du dimanche comme dans les autres corps de métier ; le travail du souffleur serait suspendu au plus tard le samedi à minuit, pour être repris au plus tôt le lundi à six heures du matin. Au lieu des chômages irréguliers qui pro¬viennent soit de la défectuosité des fours à fusion, soit des change¬ments qu'on y apporte, soit d'autres causes, un chômage régulier de deux mois aurait lieu en juillet et août. Les ouvriers articulaient encore d'autres griefs. Lorsque des accidents surviennent, les patrons n'en acceptent nullement la responsabilité ; ils n'accordent aucun secours aux blessés. Au contraire, d'après les veux de l'Union ver¬rière, les patrons devaient être responsables de tous les accidents in¬dustriels ; ils seraient tenus de prendre les mesures nécessaires pour donner spontanément les soins aux victimes, et de leur servir des se¬cours qui les mettraient à l'abri du besoin. Loin de réclamer des contrats d'une plus longue durée, ils demandaient la suppression de tout contrat ; à l'avenir, les deux parties seraient libres en avertis¬sant l'autre de son départ quinze jours à l'avance, et cela, le 1 et <pb facs="#facs_68" n="43" source="lesouvriersdesd02soci_0075.xml"/> le 15 de chaque mois. S'étonnerait-on d'une hostilité aussi vive des ouvriers contre les patrons2 Les rapports entre eux sont presque nuls, les ouvriers ne communiquent qu'avec les contre-maîtres, aux¬quels ils reprochent l'absence de savoir professionnel. Beaucoup d'en¬tre eux sont commerçants ; ils protègent, au détriment des autres, ceux qui se fournissent chez eux. Comme ils sont payés selon les bé¬néfices du patron, ils refusent facilement le travail, en même temps quiils sont prompts à infliger des amendes. Un autre griefétait encore signalé; c'est le travail de vingt-rquatre heures qui, dans certaines circonstances, est exigé des enfants. Enfin, disait l'Union verriêre. les patrons n'avaient rien fait ni rien tenté pour améliorer la situa¬tion de leur personnel ; ils n'avaient jamais accordé de pension aux vieux ouvrIers.
+        </p>
+        <p xml:id="para_5_43_291">
+         Les ouvriers avaient accusé les patrons en termes amers ; les patrons répondirent avec non moins d'âpreté. La moyenne des sa¬laires, dirent-ils, est plus forte que l'Union verrière ne le prétend. Lorsque les patrons veulent se rapprocher des ouvriers, ceux-ci s'éloi¬gnent, refusent toute entente, et ces dispositions persistent tant qu'ils obéissent à l'Union verrière, conduite non par de vrais verriers, mais s par des artistes en socialisme »». Ce sont ces dispositions qui s'op¬posent à la création des caisses de secours dont les ouvriers dé¬plorent l'absence. Quant à leurs autres griefs, ils sont ou faux ou exagérés. Les patrons doivent être maîtres de la direction de leur usine. On se plaint du travail de vingt-quatre heures des enfants, mais la responsabilité en retombe sur les ouvriers, qui se sont tou¬jours opposés à ce qu'il fut supprimé afin d'avoir léur dimanche complet. Les mœurs des familles ouvrières ne sont plus ce qu'elles étaient jadis ; elles gaspillent leur sàlaire en dépenses de luxe, c'est pour cela que les souffleurs réclament une rémunération encore plus élevée, en oubliant tout à fait la légion si nombreuse et plus digne d'intérèt des ouvriers secondaires, étendeurs, coupeurs, emballeurs, manœuvres de tout genre, qui doivent vivre d'un salaire modeste, et dont quelques-uns gagnent à peine le strict nécessaire. Les patrons se sont interdit toute entente pouvant être considérée comme une coalition contre la main-d'euvre ; mais ils se verront dans la néces¬sité de l'abaisser, sinon l'industrie verrière belge périra.
+        </p>
+        <p xml:id="para_5_43_292">
+         En effet, cette industrie rencontre une concurrence qui lui rend chaque jour l'existence plus difficile. Concurrence intérieure d'abord ; pendant la guerre de 1870, de nombreuses verreries se sont élevées ; <pb facs="#facs_69" n="44" source="lesouvriersdesd02soci_0076.xml"/> elles escomptaient la ruine de la France, et aujourd'hui leurs pro¬duits surabondants encombrent le marché. En même temps, se res¬treignait peu à peu le grand débouché de la verrerie belge, l'Améri¬que. Des verreries s'y sont élevées; les fondateurs ont appelé des ouvriers belges, pour faire l'éducation professionnelle des ouvriers indigènes. Enfin la verrerie anglaise, qui bénéficie d'une matière première plus économique, est toujours une rivale redoutable. En outre, des habitudes nouvelles s'introduisaient dans cette indus¬trie. A une clientèle fixe avec laquelle traitaient les fabricants, les commissionnaires ont substitué une clientèle flottante dont ils sont les dispensateurs. lntermédiaires très onéreux, ils forcent les produc¬teurs à baisser leurs prix, en mettant en quelque sorte les com¬mandes aux enchères.
+        </p>
+        <p xml:id="para_5_44_294">
+         Ainsi, nulle industrie ne comporte des salaires aussi élevés que eelle des verriers. Dans nulle aulre, un antagonisme aussi aigu ne sépare les ouvriers et les patrons. ll y en a peu où l'existence de l'ouvrier soit aussi dénuée de stabilité ; elle n'est pas plus assurée que celle d'un houilleur du Borinage, qui gagne une somme à peine suffisante pour ne pas mourir de fim.
+        </p>
+       </div>
+       <div n="006" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_22">
+         § 22. DE QUELQUES MANIFESTATIONS DE L'ESPRIT D'ASSOCIATION CHEZ LES OUVRIERS BELGES.
+        </head>
+        <p xml:id="para_5_44_297">
+         L'industrie du drap existe à Verviers depuis l'an 1100, au moins. Elle subit deux crises pendant lesquelles elle fut anéantie, pour re¬prendre après le rétablissement de la pai. La première crise eut lieu au quinzième siècle, au moment de la révolte de Liège contre le duc de Bourgogne. Verviers fut détruit de fond en comble, ce qui explique l'absence totale d'anciens monuments dans cette ville. La seconde se déclara à la fin du dix-huitième siècle, sous l'occupation française pendant la lévolution. Les travaux ayant été suspendus, près des deux tiers de la population furent emportés par le froid, la faim, ou la misère. Ces années sont restées gravées dans la mé¬moire du peuple sous le nom de mauvaises années.
+        </p>
+        <p xml:id="para_5_44_298">
+         Les familles ouvrières de Verviers sont moins instables que celles des centres industriels datant seulement de la seconde moitié du siècle, et où s'est agglomérée tout à coup une nombreuse population. Verviers a <pb facs="#facs_70" n="45" source="lesouvriersdesd02soci_0077.xml"/> ses traditions. Les fabriques de drap, au lieu de se constituer en so¬ciétés anonymes, se transmettent de génération en génération dans la même famille ; plus d'une porte encore le même nom qu'au dix-hui¬tième siècle. Aussi les patrons manifestent-ils un certain souei d leurs devoirs à l'égard de leurs ouvriers. En 1868, soixante-dix-sept d'entre eux se sont associés et se sont engagés à ne plus jamais em¬ployer dans leurs fabriques d'enfants au-dessous de douze ans. Ver¬viers était alors une des villes sur lesquelles l'Internationale avait dirigé ses efforts ; elle y publiait un journal, le Mrabeau, qui provo¬quait les ouvriers à la guerre sociale. Il tomba faute de lecteurs. Lors des troubles de 1886, les agitateurs cherchèrent à y fomenter une grève, mais leurs efforts demeurèrent impuissants, après beaucoup de recherches, ils découvrirent un propriétaire qui consentit à louer une salle, pour la réunion dans laquelle ils comptaient entraîner la po¬pulaion ouvrière. Au dernier moment, devant l'effet qu'avait pro¬duit cette détermination, le propriétaire refusa la salle. La réunion ne put avoir lieu. Aucune grève ne se déclara. Toutefois les ouvriers se montrent très jaloux de leur indépendance. Ils sont peu disposés à re¬courir à l'aide du patron, dans la crainte que des liens avec l'usine n'y portent quelque atteinte. C'est à leurs propres efforts qu'ils de¬mandent des garanties contre les vicissitudes de leur existence.
+        </p>
+        <p xml:id="para_5_45_300">
+         Une série d'œuvres et d'associations ouvrières s'est produite à V'er¬viers. Tout d'abord une Sociéte des ienes ouvriers, établie depuis le 24 mars 1864, reçoit les enfants ouvriers dès qu'ils ont fait leur pre¬mière communion ; une seconde section comprend les adolescents de quinze à dix-huit ans ; le ˉCercle renferme les jeunes gens jusqu'à vingt¬deux ans. Au delà de cet âge, ils cessent généralement d'être mem¬bres actifs et peuvent faire parie du ˉCercle des eterans. Il y a réu¬nion obligatoire tous les dimanches ; la séance s'ouvre par un entretien religieux que donne un prêtre, et se termine par une causerie instruc¬tive, faite par un membre du comité. Pendant la semaine, ont lieu des cours du soir, des lecons de solfège, des répétitions de chant d'en¬semble, de musique instrumentale et de déclamation. La Société pos¬sède une caisse de secours mutuels, qui, moyennant une cotisation hebdomadaire de 5 centimes, accorde 5 francs par semaine aux ma¬lades et aux blessés. Cne caisse d'épargne a été également formée avec les économies des jeunes gens. A la date du 1ᵉʳ janvier 1886, elle possédait 11.397ᶠ 38 de dépôts. Le Cercle donne des représentations dramatiques auxquelles la population verviétoise prend un vif intérèt.
+        </p>
+        <p xml:id="para_5_46_301">
+         <pb facs="#facs_71" n="46" source="lesouvriersdesd02soci_0078.xml"/> Le succès du Cercle des jeunes gens a amené la création successive d'autres patronages dans les diverses paroisses de la ville.
+        </p>
+        <p xml:id="para_5_46_302">
+         La Société ouvriere de Sainlt-oseph s'adresse exclusivement aux adul¬tes elle a pour but de procurer, le dimanche, aux ouvriers des dis¬tractions qui les éloignent du cabaret. Elle donne des représentations dramatiques et musicales qui attirent chaque fois une foule énorme. Le ˉCercle des artisans, fondé dans le même but, donne, lui aussi, des soirées très fréquentées, au milieu desquelles des conférences sont faites sur des sujets qui intéressent la classe ouvrière. L'Association de Saint-ranois-avier réunit ledimanche plusieurs centaines d'ouvriers; ils eercent un véritable apostolat et s'efforcent de ramener à la reli¬gion leurs camarades qui en sont éloignés. La ainte-amille est une œuvre du même genre, qui compte aussi beaucoup d'adhérents. Des associations spéciales, mais calquées sur le même modèle, ont été créées en faveur des ouvriers allemands, qui sont très nombreux à Verviers. Enfin les communes suburbaines qui sont comprises dans la place industrielle de Verviers possèdent des euvres analogues, et qui n'ont pas pris un moindre développement.
+        </p>
+        <p xml:id="para_5_46_303">
+         L'esprit d'épargne est très développé dans la classe ouvrière. Une caisse d'épargne scolaire a été eréée ; elle est arrivée à réunir jusqu'à une somme de 50.000 francs. Les ouvriers ont aussi formé entre eux des associations qui ont pour but d'acheter des valeurs à lots et de payer des remplacants aux associés appelés par la conscription.
+        </p>
+       </div>
+       <div n="007" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_23">
+         § 23. DE L'ACCÈS DES OUVRIERS BELGES A LA PROPRIÉTÉ DU FOYER.
+        </head>
+        <p xml:id="para_5_46_306">
+         L'enquête de 1886 a mis en lumière les conditions défectueuses dans lesquelles un grand nombre de familles ouvrières sont logées. Elle a révélé les procédés qui ont été employés pour leur procurer un foyer décent et stable.
+        </p>
+        <p xml:id="para_5_46_307">
+         A Nivelles, une violente épidémie de choléra avait fait en 1866 de cruels ravages parmi les familles ouvrières logées dans des maisons malsaines. Le Bureau de bienfaisance estima qu'un des meilleurs moyens de venir au secours des familles peu fortunées, et d'empêcher le retour de pareils maux, était de leur assurer des logements salubres.
+        </p>
+        <p xml:id="para_5_46_308">
+         Il fit donc construire une série de maisons destinées exclusivement au ouvriers. Le prix de revient de chaque maison, terrain compris <pb facs="#facs_72" n="47" source="lesouvriersdesd02soci_0079.xml"/> (45 m. car.), fut de 1.646ᶠ46, et le prix de location mensuelle fut fixé à 6ᶠ50. Mais à cette modique somme le Bureau de bienfaisance exigea que chaque locataire ajoutât une somme mensuelle de 4 francs pour être placée à son profit à la caisse d'épargne jusqu'à concurrence du prix de la maison. Le but a été pleinement atteint, et les ouvriers sont devenus propriétaires de leur foyer. Toutefois un double obstacle compromet le maintien'de cet heureux résultat.
+        </p>
+        <p xml:id="para_5_47_310">
+         Ce sont d'abord les droits de mutation. Ainsi, à Nivelles, un ouvrier qui avait acquis une maison au prix de 1.666ᶠ 47, et s'était libéré au moyen d'un versement mensuel de 4 francs ajouté au prix du loyer, montant à 6ᶠ50 par mois, a dû payer une somme de 136ᶠ00. Elle se décompose ainsi : 92ᶠ40 pour enregistrement, 24ᶠ75 pour transcrip¬tion aux hypothèques, 18ᶠ85 pour honoraires du notaire.
+        </p>
+        <p xml:id="para_5_47_311">
+         En outre, la loi successorale qui prescrit le partage égal en nature rend impossible le maintien de la propriété dans la famille. La mai¬son doit être vendue, et ainsi disparait la stabilité du foyer. Aussi la commission royale du travail a-t-elle émis les vœux suivants : « Fa¬voriser les sociétés qui ont pour objet la construction, la location et surtout la vente des maisons ouvrières aux ouvriers, en autorisant ces sociétés à émettre des obligations à primes ; — exempter de l'im¬pôt foncier pendant quinze ans les maisons vendues à des ouvriers ; — engager les administrations communales à exonérer les sociétés et les administrations publiques de bienfaisance qui s'occupent de la construction de maisons ouvrières, des frais de voirie (acquisition de terrains destinés aux rues, pavage, égouts, conduites d'eau et de ga) ; — interdire aux provinces et aux communes l'établissement de taxes sur les maisons ouvrières exemptées de l'impôt de l'État, et dont la valeurn'excéderait pas 3.000 francs ; — accorder aux sociétés ayant pour objet la construction, l'achat, la vente ou la location d'habitations destinées aux classes ouvrières, les exemptions de divers droits octroyées en faveur des sociétés coopératives ; — exempter de tout droit de mutation l'ouvrier achetant une maison d'une valeur infé¬rieur à 3.000 francs, à une société de construction demaisons ouvrières ou à une administration publique ; — reviser certaines dispositions du Code civil à l'effet d'assurer au survivant des époux la jouissance de la maison acquise pendant le mariage et qui lui sert d'habitation : — reviser les articles 826, 827, 859 et 866 du Code civil, ordonnant le partage ou le rapport des immeubles en nature et leur vente, quand ils ne sont pas partageables, pour le cas où il n'existe dans la suc<pb facs="#facs_73" n="48" source="lesouvriersdesd02soci_0080.xml"/>cession d'autre immeuble qu'une maison d'habitation avec dépendan¬ces dont la valeur ne dépasse pas 3,000 francs. ».
+        </p>
+       </div>
+       <div n="008" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_24">
+         § 24. SITUATION ÉCONOMIQUE ET SOCIALE DE LA BELGIQUE.
+        </head>
+        <p xml:id="para_5_48_317">
+         La Belgique déploie une activité économique, qui, eu égard à sa population, ne le cède qu'à celle de l'Angleterre. Ainsi la France, avec une population de 3I millions d'habitants, a un mouvement commer¬cial annuel de 9 milliards ; l'Angleterre avec 28 millions d'habitants, de 16 ou 17 milliards. La Belgique, qui ne compte qu'une population de 5.519.844 âmes, atteint le chiffre de 3 milliards. Cette préoccupa¬tion des intérêts matériels n'est pas née avec notre époque. Au sei¬ièe siècle, la prospérité industrielle et commereciale des Pays-Bas s'était élevée très haut. Anvers, qui renfermait alors 200.000 habi¬tants, avait acquis une importance qu'elle retrouve seulement au¬jourd'hui. C'était la première place financière de l'Europe avec ses maisons allemandes et lombardes. Tous les négociants de l'Europe et même du Levant y avaient des représentants. A Bruxelles régnait l'in¬dustrie du tissage. « Ceux de Bruelles, dit un ancien historien des Pays-Bas, Metteren, avaient percé des collines, des champs et che¬mins, desquels ils avaient acheté les fonds des propriétaires, et ils y avaient fait quarante grandes écluses » pour se mettre en activité avec la mer. Ailleurs e'étaient des fabriques de drap auxquelles les troupeaux de moutons des grands propriétaires anglais fournis¬saient la matiere première. Les différents corps de métier formaient de puissantes corporations qui unissaient patrons et ouvriers. Les IBelges ne restaient pas concentrés sur leur territoire ; ils cherchaient à rayonner au loin. iand, par exemple, entretenait 500 navires ; les uns allaient en Norvège échanger des draps et des toiles contre des bois ; les autres ramenaient de Moscovie de la graisse de baleipne et des peaux, quelques-uns affrontaient les dangers d'un voyage dans les régions inconnues de la Guinée, et s'y approvisionnaient de sel ; le commerce belge s'étendait même jusqu'au Brésil, qui lui fournissait du sucre et du bois de teinture.  L'argent court dans toutes les mains, l'abondance déborde, dit un Vénitien, Guicciar¬dini ; nul homme, si humble que soit son métier, ne laisse pas que d'être riche pour son rang.
+        </p>
+        <p xml:id="para_5_49_319">
+         <pb facs="#facs_74" n="49" source="lesouvriersdesd02soci_0081.xml"/> Les troubles que provoqua la Réforme, la guerre contre l'Espagne, portèrent à la prospérité matérielle de la Belgique un coup dont elle fut lente à se relever. C'est seulement de nos jours, dans les entrailles du sol, qu'elle reconquit la richesse que lui avaient donnée jadis l'habileté de ses artisans et la hardiesse de ses négociants. La Bel¬gique est en effet traversée par une abondante formation carbo¬nifère
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          (§ 1)
+         </ref>
+         . Eploités depuis longtemps. les charbonnages n'entrè¬rent en pleine activité qu'au moment où la multiplication des machines à vapeur, l'abandon progressif du fer au bois, nécessi¬taient une grande dépense de combustibles. L'exploitation des houil¬lères devint donc une des principales sources de richesses ; elle alla sans cesse en se développantjusqu'en 1884, époque à laquelle elle attei¬gnit son apogée. En 1850, la production du bassin du llainaut était de 4.420.161 tonnes, représentant une valeur de 36.737I.37I9 francs. En 1884, elle s'éleva à 13.510996, représentant une valeur de 129.626.938 francs. L'année suivante, elle retombait à 12.925.815, valant 114.736.7I90 francs.
+        </p>
+        <p xml:id="para_5_49_320">
+         La Belgique se jeta tout entière sur l'industrie, dans laquelle elle apercevait une source inépuisable de richesses. Des usines de tout genre, verreries, hauts fourneaux, ateliers de construction, lamijnoirs, fabriques de rails, etc., s'élevèrent pressées les unes contre les au¬tres, autour des charbonnages qui leur fournissaient la force motrice. Comprenant l'importance des transports, pour une industrie qui cherche ses débouchés à l'étranger, la Belgique multiplia les che¬mins de fer, ouvrit des canaux. Produire, encore produire, toujours produire ; telle fut l'unique préoccupation des industriels. Le prix peu élevé de la vie, la ténacité laborieuse des ouvriers, la frugalité de leur existence, leur docilité, assuraient le bas prix des objets fabri¬qués. Sous ce rapport, l'industrie belge luttait victorieusement contre celles des autres nations. La richesse arriva, et avec elle, comme l'expérience l'a toujours montré, des entraînements auxquels les socié¬tés pas plus que les individus ne savent résister. Le développement d'une telle prospérité matérielle éblouit tout le pays, nul ne s'inquiéta de sauvegarder les bases essentielles de la constitution sociale.
+        </p>
+        <p xml:id="para_5_49_321">
+         Nulle part, en effet, les doctrines de l'économie nouvelle ne ren¬contraient autant d'adeptes. Les patrons ne se considéraient comme tenus à aucuns devoirs envers leurs ouvriers, en dehors du paiement du salaire ; si certains d'entre eux, obéissant à des sentiments reli¬gieux, prirent souci de la misère de leur personnel, ils furent guidés <pb facs="#facs_75" n="50" source="lesouvriersdesd02soci_0082.xml"/> par l'idée de charité. En même temps que les rapports de patrons à ouvriers se réglaient presque uniquement d'après la loi de l'offré et de la demande, le principe de la liberté absolue prévalait. 'andis que l'enquête anglaise de 1833, révélant les maux affreux qu'avaient causés les mêmes erreurs, amenait une modification de la politique de l'Angleterre en matiêre industrielle, la Belgique refusait d'a¬bandonner ces funestes errements. En 1878 encore, le Sénat belge repoussait un projet de loi qui réglementait le travail des enfants. Son histoire explique cette méfiance de la Belgique contre toute ré¬glementation, si nécessaire que les faits l'aient montrée. Elle a tou¬jours lutté contre le pouvoir central, qui pendant des siècles n'est jamais sorti de la nation même. Au moyen âge, fières de leur liberté tumultueuse, les communes, sans cesse aux prises les unes avec les autres, se trouvaient d'accord pour lutter contre le maître dont elles dépendaient. Placées loin des souverains espagnols, elles voyaient dans ces maîtres des ennemis dont il y avait tout à crain¬dre. Lorsqu'après le gouvernement paisible des archiducs, la Révo¬lution francaise éclata, la Belgique subit la domination française avec répugnance. Les traités de 1815 l'en délivrèrent, mais la soumirent au roi de llollande. Ces deux pays se complétaient heureusement l'un par l'autre : l'un produisait, l'autre exportait ; l'un se livrait au tra¬vail industriel, l'autre vivait d'agriculture et de commerce. Il offrait aux provinces belges les débouchés que la nature ne leur avait pas as¬surés, et ses riches colonies, ses nombreux ports de mer auraient empêché celles-ci de souffrir d'une pléthore industrielle. Mais la Hol¬lande ne sut pas ménager les susceptibilités religieuses de la Belgi¬que ; celle-ci, surtout dans les provinces vallonnes, manqua de pu¬tience ; et la séparation fut consommée. Toutefois, plus d'un Belge, examinant de sang-froid la condition actuelle de son pays, se demande aujourd'hui s'il doit s'applaudir à tous égards du résultat. Sans revenir sur une séparation désormais irrévocable, une union doua¬nière avec la ollande n'offrirait-elle pas au moins à la Belgique des garanties contre les périls d'une crise déchainée par une super¬production imprévoyante
+        </p>
+        <p xml:id="para_5_50_324">
+         La crise sociale devient d'autant plus grave qu'elle accompagne une crise industrielle. D'abord les mines de houille sont exploitées avec plus de peine : la richesse des filons commence à s'épuiser ; il faut descendre à de plus grandes profondeurs ; comme le grisou se draîne des couches les plus élevées vers les plus basses, à mesure <pb facs="#facs_76" n="51" source="lesouvriersdesd02soci_0083.xml"/> qu'on s'enfonce en terre, les exploitants sont obligés d'avoir recours, pour se préserver, à une ventilation puissante et coûteuse, qui absorbe tous les bénéfices. Déjà beaucoup de charbonnages ne distribuent plus, depuis plusieurs années, aucun dividende à leurs actionnaires on prévoit même que d'ici peu de temps le produit de beaucoup d'entre eux ne couvrira plus les dépenses
+         <note type="bp">
+          <p>
+           Voir l'dustrie houillêre en Belgique, par M. de Commines de Marsilly, an¬cien directeur général des mines d'Anzin (La Reforme sociale, t. III, p. 507; liv. du 1ᵉ avril 1887).
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_5_51_326">
+         En même temps s'accroit la concurrence étrangère. Soutenue par un gouvernement puissant, l'Allemagne commence à rayonner au dehors. Ses fabricants, lorsqu'ils veulent vaincre des étrangers, abais¬sent quand même leurs prix. Ainsi, chez eux, ils obtiennent des mar¬chés de locomotives à 1,80 et 1,85 par kilogramme ; tandis qu'à l'étranger, ils soumissionnent aux prix de 95 centimes et 1 franc. C'est par ce procédé que l'industrie allemande a enlevé récemment un mar¬ché de trente locomotives en Roumanie. Les Etats-Unis se ferment non seulement par leurs droits protecteurs, mais aussi par leur produc¬tion indigène
+         <ref target="#part_03_01_21" type="renvoi_int_mono">
+          (§ 21)
+         </ref>
+         . La Russie, qui était une des principales clientes des usines Cockerill, essaie à son tour de s'affranchir du tribut qu'elle paie à l'industrie étrangère. L'Angleterre, conservant sa vieille su¬périorité, envoie ses charbons notamment par les ports d'Ostende et d'Anvers, tandis que ceux du bassin de la Ruhr pénêtrent dans le pays de Liêge et que les canaux de l'Escaut et de la Sambre amènent les charbons francais provenant de filons moins épuisés. La Belgique n'est donc pas atteinte seulement sur les marchés étrangers, mais elle se voit disputer son propre marché.
+        </p>
+        <p xml:id="para_5_51_327">
+         Elle se heurte en outre à des droits protecteurs. Les charbons bel¬ges, par exemple, à leur entrée en France, sont grevés d'un droit de 1ᶠ20 par tonne, majoré du double décime de guerre et de 3 een¬times de frais de douane, soit en tout une somme de 1ᶠ43 par chaque tonne introduite. Les charbons étrangers pénètrent au contraire libre¬ment, sans aucun droit d'entrée, jusqu'au cœur de la Belgique. Elle n'ose user de représailles, parce qu'elle dispose d'un marché intérieur trop peu large pour alimenter l'activité de ses usines. Elle n'est pas assez forte d'ailleurs pour dicter des conditions à de grandes puis¬sances.
+        </p>
+        <p xml:id="para_5_51_328">
+         Puis la Belgique n'a pas de colonies ; le trop-plein de sa population <pb facs="#facs_77" n="52" source="lesouvriersdesd02soci_0084.xml"/> ne se déverse pas d'une maniêre régulière à l'étranger. Beaucoup de ses ouvriers s'établissent dans les départements francais qui l'avoi¬sinent ; celui du Nord notamment en renferme plus de 200.000. D'au¬tres Belges, poussés par la misère, cherchent aventure en Amé¬rique. L'année dernière, le 25 septembre, deux cents personnes se pressaient le matinaux abords de la gare de Roux, près de Charleroi. Une dizaine d'ouvriers houilleurs, deux enfants de douze ans et un de trois ans, s'embarquaient pour Anvers et de là pour une ville charbon¬niêre de Pensylvanie. Des adieux touchants eurent lieu au départ du train. Beaucoup de personnes pleuraient. « N'pleuré nin, disait un ouvrier, j'reverrai co ind'jore. » Il était déjà parti de cette localité, pour l'Amérique, 59 chefs de famille. Dans les quatre ou cinq der¬nières semaines qui précédaient ce départ, une soixantaine de per¬sonnes avaient émigré. Mais c'est une émigration pauvre. Le régime successoral de la Belgique lui interdit cette émigration féconde, si heureusement pratiquée par les peuples qui ont conservé le régime de la famille-souche.
+        </p>
+        <p xml:id="para_5_52_331">
+         Sevrés de tout patronage dans la plupart des usines, les ouvriers belges nourrissent contre les classes élevées une méfiance qui les livre à l'influence du parti socialiste. Celui-ci est servi par des jour¬naux qui, comme le oruit, ne coûtent que trois centimes. Le suf¬frage universell tel est leur mot d'ordre. C'est sur ce terrain que se sont faites les dernières grèves de mai et juin 1887. Les ouvriers ne formulaient aucune plainte au sujet de l'organisation du travail ; irri¬tés de l'ajournement des projets proposés par la commission royale du travail, ils déclaraient ainsi ne compter que sur eux seuls pour obtenir une législation protectrice, et les chefs du parti socialiste tentèrent en vain d'organiser une grève générale. Cependant sur les frontiêres de la Belgique veille une grande puissance, qui profiterait de troubles nouveaux et prolongés pour lui offrir l'appui intéressé de son armée contre les ouvriers soulevés. Le rétablissement de la paix sociale est donc, pour la Belgique, plus qu'une condition de prospérité: c'est une condition d'existence.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
