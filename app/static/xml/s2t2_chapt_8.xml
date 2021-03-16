@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--monographie-->
+<TEI xml:id="ID-058a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 2 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_134">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$149/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_135">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$150/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_136">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$151/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_137">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$152/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_138">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$153/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_139">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$154/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_140">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$155/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_141">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$156/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_142">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$157/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_143">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$158/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_144">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$159/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_145">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$160/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_146">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$161/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_147">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$162/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_148">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$163/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_149">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$164/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_150">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$165/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_151">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$166/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_152">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$167/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_153">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$168/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_154">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$169/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_155">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$170/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_156">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$171/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_157">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$172/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_158">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$173/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_159">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$174/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_160">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$175/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_161">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$176/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_162">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$177/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_163">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$178/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_164">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$179/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_165">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$180/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_166">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$181/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_167">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$182/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_168">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$183/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_169">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$184/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_170">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$185/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_171">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$186/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_172">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$187/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_173">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$188/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_174">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$189/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_175">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$190/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_176">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$191/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_177">
+  <surface lrx="2012" lry="3447"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$192/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_8_109_1">
+      N° 58.
+     </p>
+     <p xml:id="para_8_109_2">
+      PÊCHEUR CÔTIER.
+     </p>
+     <p xml:id="para_8_109_3">
+      D'HEYST
+     </p>
+     <p xml:id="para_8_109_4">
+      (FLANDRE OCCIDENTALE — BELGIQUE),
+     </p>
+     <p xml:id="para_8_109_5">
+      OUVRIER-PROPRIÉTAIRE,
+     </p>
+     <p xml:id="para_8_109_6">
+      DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS,
+     </p>
+     <p>
+      D'APRÈS LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN JUILLET 1885,
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_8_109_7">
+      M. <persName>VICTOR BRANTS</persName>,
+     </p>
+     <p xml:id="para_8_109_8">
+      professeur d'économie politique de l'Université catholique de Louvain,
+     </p>
+     <p>
+      secrétaire perpétuel de la Société belge d'économie sociale
+      <note type="bp">
+       <p>
+        La monographie du Pecheur côtier d'Heyst a été présentée à la Société belge d'économie sociale, qui a consacré à la discuter la séance du 17 février 1886.
+       </p>
+      </note>
+      .
+     </p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+       </head>
+       <p xml:id="para_8_109_14">
+        <pb facs="#facs_134" n="109" source="lesouvriersdesd02soci_0149.xml"/> La famille décrite dans cette monographie habite Heyst-sur-mer, pe¬tite localité maritime située à l'extrémité du littoral belge de la Flandce occidentale. Un chemin de fer la relie vers l'ouest à Blankenberghe, distant de 10 kilomètres, et de là, à Bruges, chef-lieu de la province. Du côté de l'est, en suivant la dune, on trouve le village de Knocke, avec lequel Heyst communique par une chaussée et une digue qui continuent jusqu'au Zwyn, embouchure de l'Escaut.
+       </p>
+       <p xml:id="para_8_110_17">
+        <pb facs="#facs_135" n="110" source="lesouvriersdesd02soci_0150.xml"/> L'Exposé de la situation du Royaume décrit ainsi l'état du sol dans la contrée : « La partie de la mer du Nord qui baigne cette côte est peu profonde. Une plage, composée de sable quarteux et de débris calcaires de coquilles, plonge dans la mer suivant un plan incliné d'une allure fort douce. Une rangée de collines appelées dunes, règne le long de la mer du Nord et forme une véritable barrière contre les ots, depuis Adenlerle jusqu'à Knocke. Cette barriêre naturelle, d'une hauteur et d'une largeur très variables, n'a pas toujours été assez puissante pour arrêter les flots de la mer. Au quatorième siècle, le duc Jean sans 'eur fit construire, en arrière et contre la ligne des dunes, une digue de sûreté qui porte son nom et qui est encore très visible entre Blankenberghe et Knocke. La formation des dunes est due à l'accumulation des sables que le vent de mer enlève de la plage à marée basse et pousse vers la terre ferme. Les dunes sont à peu près stériles, car elles ne produisent que le logat (plante herbacée tracante) et quelques maigres plantes. Des essais se font sur un grand nombre de points de notre littoral pour boiser les dunes et arréter leur marche
+        <note type="bp">
+         <p>
+          Exposé de 1861 a 1875 publié par la Commission centrale de statistique. Bruxel¬les, Lesigne 1885, t. 1. p. 24.
+         </p>
+        </note>
+        . »
+       </p>
+       <p xml:id="para_8_110_18">
+        On n'est pas éloigné de la région dite des polders, c'est-a-dire des terrains marécageux menacés des invasions de la mer et défendus contre elles par des travaux d'art fort anciens. Les habitants de la Flandre ont formé de très bonne heure des associations pour pro¬léger leurs terres contre la mer. Ces associations, sous le nom de cateringaues, existent aussi dans l'intérieur du pays pour tous les tra¬vaux de desséchement. Ces syndicats, vieilles gildes nationales, sub¬sistent encore. La constitution belge les consacre et un décret impé¬rial de 1811 sert de loi organique à notre régime des polders
+        <note type="bp">
+         <p>
+          Voir à ce sujet notre ouvrage intitulé : Code rural de la Belgique. Louvain 1884. liv. 1I, titre 9 ; et A. Vandenpeerecboom. ˉLes Gildes, dans la Patria ˉBelgica, 1880.
+         </p>
+        </note>
+        . Ces terres basses et humides sont fertiles, et constituent d'impor¬tantes conquêtes dont les travaux d'art, en Belgique et en Hollande. présentent un grand intérèt.
+       </p>
+       <p xml:id="para_8_110_19">
+        La valeur du terrain dans la commune est très variable, et diffère naturellement d'après les terres sablonneuses ou les terres fortes. Les premières sont e grande partie du domaine public. Longtemps elles ont été sans valeur. Elles se relèvent sur la partie de la digue occupée par des étrangers. Ailleurs, elles sont encore vagues : une <pb facs="#facs_136" n="111" source="lesouvriersdesd02soci_0151.xml"/> partie même en a été occupée par tolérance et la question de pro¬priété y est souvent difficile à trancher. La partie cultivée est rès recherchée. Elle est très morcelée, surtout aux endroits rapprochés de l'agglomération, à cause des locations faites aux pêcheurs. Ces locations pour petites cultures, dont nous reparlerons plus loin, se font au prix élevé de 120 francs la mesure de 44 ares. La contenance totale de la commune est de 848 . 30 a. 77 e. Cette contenance est divisée en 1.959 parcelles et la matrice cadastrale porte 400 arti¬cles. La population comprenait en 1880, 1.834 habitants ; elle doit apnrocher de 2.000 aujourd'hui. La répartition des habitants par professions n'est pas établie ; aussi ne sait-on pas exactement le nombre de personnes vivant de la pêche. Le nombre des pêcheurs en mer est d'environ 150 hommes faits et 50 mousses, en évaluant l'é¬quipage normal à 4 hommes et 1 mousse pour chacune des 37 cha¬loupes. On compte une moyenne de 6 à  personnes par ménage de pêcheur. La population s'accroit rapidement, malgré la forte proportion de la mortalité enfantine. Depuis une vingtaine d'années, IHeyst est devenu le rendez-vous annuel de familles qui l'ont choisi comme station balnéaire. La plage est belle et sûre, sans falaises, mais sans galets ; elle est bordée d'une longue digue briquetée de 1.800 mètres, ornée de villas de tous les styles. IIeyst est moins luxueux que Blankenberghe et O0stende, mais on y trouve, près de la mer, la vie calme et les plaisirs de la campagne. La présence des étrangers a apporté à leyst un élément de prospérité, et des débou¬chés nouveaux à l'industrie locale. La station n'étant point station de luxe ni de jeu, les inconvénients de la colonie balnéaire, au point de vue moral, ne se sont guère produits, et il en est résulté d'autre part de sérieux avantages.
+       </p>
+       <p xml:id="para_8_111_23">
+        La pêche est l'industrie essentielle de la localité : les pêcheurs sont maîtres de la place. C'est aussi l'industrie qui doit nous occuper ici. Remettant à plus tard
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (§ 17)
+        </ref>
+        le détail, nous donnerons dès à présent une idée générale de son organisation. Le pêcheur de fHeyst n'exerce que la petite pêche cotière,; ses voyages ne sont ni longs ni lointains. L'industrie de la pêche s'exerce, sur notre littoral, dans les condi¬tions qui se retrouvent sur presque toutes les côtes :  La coutume y consacre l'association du travail et du capital, et la rémunération de chacun à la part. » La barque de pêche (schutter) appartient à un armateur (reeder, coopman), non au pêcheur (isscher) lui-même. Elle est montée par quatre hommes (maeten) dont un patron (staure <pb facs="#facs_137" n="112" source="lesouvriersdesd02soci_0152.xml"/> an), et un ou parfois deux mousses (laefen). La répartition des re¬cettes se fait d'après un système coutumier très compliqué que nous analysons en rendant un compte spécial des profits de la pêche
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (§ 19)
+        </ref>
+        . Quand la barque revient à la côte, il est fait triage du gros poisson et du fretin (deelvisc). Celui-ci est partagé entre l'équipage. Le reste, le gros, le principal. après avoir été lavé et nettoyé dans une cabane (bot) spéciale à ce travail, est immédiatement envoyé à des commis¬sionnaires de vente des grandes villes, Bruges, and, Bruxelles. Louvain, Malines, Courtrai, etc. Ceux-ci font le compte de vente pour chaque barque et le renvoient à l'armateur, lequel dresse alors, avec l'aide du patron, son propre compte et celui de l'équipage. par quinzaine.
+       </p>
+       <p xml:id="para_8_112_26">
+        A Ostende, à Blankenberghe (et bientot, dit-on, aussi à Heyst) la vente du poisson se fait au contraire à la criée (afsldag), au marché (mnque de la ville. Ceci permet à tous demieux surveiller leurs inté èts, en assistant à la vente. Le profit de chaque homme est évidem¬ment très variable. Il dépend des résultats de la pêche, des saisons, des conditions du marché. L'armateur prend d'abord sa part 1/5, le patron a une part avantageuse, et le mousse une part réduite ; les autres sont égaux.
+       </p>
+       <p xml:id="para_8_112_27">
+        Le bénéfice de 600 francs par an et par homme est un taux moyven qui satisfait déjà le pêcheur. Il tombe parfois à 500, surtout dans Ces dernières années, et il peut três exceptionnellement monter à 800 francs
+        <note type="bp">
+         <p>
+          D'après la déposition d'un patron pêcheur à la séance d'enquête tenue à Heyst le 26 mars 1888. les pécheurs ne gagnent actuellement que 500 francs à peine ; il y en a qui ne gagnent que 400 et même 300 francs. Le chifre. naguère moyen, de 600 francs parait être devenu un maximum. (Note de 1888.)
+         </p>
+        </note>
+        . A Blankenberghe, ou les débouchés sont meilleurs, les profits sont plus élevés, et vont à 1.000 francs, chiffre ordinaire. L'armateur 1ournit aux pêcheurs le navire tout gréé. Il intervient aussipour sa part dans une grande partie du matériel de pêche, que l'équipage est tenu de se procurer.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Pierre X*** (n°058aE1) - Henriette Y*** (n°058aE2) - Joséphine  (n°058aE3) - Jean  (n°058aE4)-->
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. ÉTAT CIVIL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_8_112_30">
+        La famille étudiée se compose des quatre personnes suivantes :
+       </p>
+       <p xml:id="para_8_112_31">
+        1. <persName>PIERRE X***</persName>, chef de la famille, veuf de Jeanne Y***............ 41 ans.
+       </p>
+       <p xml:id="para_8_112_32">
+        2. <persName>HENRIETTE Y***</persName>, Seconde femme du pêcheur, sœur de Jeanne............ 45 —
+       </p>
+       <p xml:id="para_8_112_33">
+        3. <persName>JOSÉPHINE</persName>, fille du pécheur (premier lit)............ 14 —
+       </p>
+       <p xml:id="para_8_112_34">
+        4. <persName>JEAN</persName>, fils du pêcheur (premier lit)............ 12 —
+       </p>
+       <p>
+        <pb facs="#facs_138" n="113" source="lesouvriersdesd02soci_0153.xml"/> Un garçon, né avant Joséphine, est mort en bas âge. Les époux ont perdu leurs parents, sauf le père de Pierre X***
+        <ref target="#part_02_04_12" type="renvoi_int_mono">
+         (§ 12)
+        </ref>
+        . Les deux enfants sont encore exclusivement à la charge du ménage. Jean va a l'école gratuite, mais il s'applique mal à ses études. Il sert la messe à la paroisse et est fier de ces fonctions. La fille va à l'école payante, l'école française, et y recoit une éducation plus complète; mais elle n'aide guère sa mère à domicile.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. RELIGION ET HABITUDES MORALES.
+       </head>
+       <p xml:id="para_8_113_39">
+        Les pêcbeurs sont très attachés à leur foi religieuse. Ceux même qui se posent en esprits forts ne mettent pas en doute les grandes vérités de la foi ; ils sont rares d'ailleurs, et Pierre X***, en particulier, est très sincèrement religieux ; il en a donné des preuves. Le danger auquel il est toujours exposé ne fait que fortifier sa croyance ; mais l'irrégularité du travail l'empêche de suivre exactement les prati¬ques du culte. Les enfants se préparent avec soin à la première communion, et ne s'embarquent pas avant douze ans. Le pêcheur ne travaille jamais le dimanche, et assiste régulièrement à la messe. Lors même que l'état de la mer l'oblige à aborder dans un des ports protestants de la côte voisine, en Hollande, il fait souvent un long trajet pour accomplir le devoir dominical. Le sentiment religieux se manifeste souvent dans la vie de famille. La bénédiction des parents est fort en usage : à chaque départ du père pour la pêche, il bénit ses enfants et dit adieu à sa femme, qui lui répond par le salut chrétien : Dieu vous protègel Les ménages sont géné¬ralement paisibles. L'entente n'y est ordinairement troublée que par les excès de boisson des chefs de famille ; l'ivrognerie est le grand vice endémique de cette populationde pêcheurs. Les enfants même, dès qu'ils sont en mer, apprennent à boire. Souvent aussi ils se corrompent. Les mousses sont astreints au service très dur de la surveillance de la chaloupe sur la côte, pendant la nuit. Durant ces longues veilles sur la grève, de douae à dix-huit ans, ils appren¬nent tous les vices. Les pères sages retiennent leurs enfants sur leur propre chaloupe, mais ils ne peuvent les préserver complè¬tement. Ce danger est le grand souci de Pierre X***, qui préférerait <pb facs="#facs_139" n="114" source="lesouvriersdesd02soci_0154.xml"/> voir son fils embrasser un autre métier, mais celui-ci veut aller en mer. A l'époque du mariage, les jeunes gens se rangent et les mœurs deviennent honnêtes. Les fréquentations préliminaires sont longues, et les nombreuses fètes locales les favorisent, mais l'honneur est généralement respecté et une faute commise est toujours réparée par le mariage. Les unions sont en général précoces ; dès que le pêcheur a le rang de compagnon (maet), il cherche à se marier ; les familles sont généralement nombreuses. Convoler en secondes noces est une habitude très commune ; cela est très naturel de la part du marin qui ne peut se passer d'une ménagère pendant qu'il est en mer. Le pêcheur est très fidèle à la messe mortuaire et anni¬versaire. Il tient à faire une belle messe à ses parents ; le service funèbre, qui est tarifé de 15 à 30 francs, est rarement payé ; le clergé ne réclame pas. L'influence du sentiment religieux se traduit encore à tous moments par des actes de dévotion, dans l'exercice même de la profession. Souvent le pêcheur demande des prières et des messes, fait des offrandes et des promesses pour obtenir la protec¬tion divine pour lui-même ou pour son entreprise. Chaque année° le clergé procêde solennellement à la bénédiction de la mer, et il est suivi de la procession des pêcheurs. Cette coutume traditionnelle est gardée avec soin. De même, quand une barque nouvelle est lan¬cée, on la bénit, on la baptise, avec le concours de l'Église qui a consacré à cette imposante cérémonie une prière spéciale de son rituel
+        <ref target="#part_03_01_21" type="renvoi_int_mono">
+         (§ 21)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_8_114_41">
+        Malheureusement, le genièvre absorbe en général une part impor¬tante du revenu des pêcheurs, et frustre leur ménage de ressources considérables. On remarquera que, dans le budget des dépenses de la famille ( 14, S°P ʳ°, art. 2), nous ne mentionnons que pour memoire es articles boisson et tabac, et en effet sur ce point toute lumière s'éclipse. A chaque paie de quinaine, le pêcheur prélève pour la boisson (ugtsdag), une avant-part qu'il est impossible de calculer, car il ne la confesse pas. De même, les dépenses de ce genre sont cou¬vertes par des profits innommés, des prises en mer ou sur la côte, les épaves, la vente du menu fretin (deelisch), toutes choses dont l'estimation échappe absolument et où les camarades ne se trahis¬sent pas. Généralement, ils ne boivent guère en mer ; l'alcool d'ail¬leurs leur serait là moins nuisible ; mais sur terre ils se livrent à des libations désordonnées. Notre pere de famille est un modèle au point de vue de la boisson ; il ne s'enivre pas.
+       </p>
+       <p xml:id="para_8_115_42">
+        <pb facs="#facs_140" n="115" source="lesouvriersdesd02soci_0155.xml"/> Les dispositions des pêcheurs à l'épargne, sont très variables. Elles dépendent d'abord beaucoup de la tempérance du chef de famille. puis encore des soins et de l'intelligence de la ménagère. Les arrange¬ments du budget ordinaire des pêcheurs rendent leur situation souvent diffcile. Le produit de la pêche n'est pas toujours le même : en hiver, il y a souvent chômage, et, en tout cas, le produit est bien moindre qu'en été. Il faut donc, dans les ménages bien réglés, pour équili¬brer le budget, répartir les recettes sur toute l'année. Les femmes soigneuses, comme celle de la famille que nous étudions, s'arran¬gent de maniêre à avoir toujours de quoi payer comptant les con¬sommations du ménage ; elle a horreur des dettes. Mais ce n'est pas le cas le plus ordinaire. Il existe à cet égard des usages curieux de crédit. qu'il faut signaler. Il n'y a guère qu'un quart des pêcheurs qui paient comptant le pain de l'hiver. Il est d'usage que le boulanger nourrit les pêcheurs à crédit, de la Toussaint au carême, c'est-à-dire. pendant la mauvaise saison de la pêche. A partir de cette dernière époque, ils commencent à solder leurs arriérés, quand ils le peuvent. Ce sytème de crédit ne concerne que le pain ; les autres marchandises doivent toujours se payer comptant. Chaque samedi, les ménagères apportent au boulanger le pain qu'elles ont pétri, pour le faire cuire ; on inscrit alors leur dette en farine et cuisson sur un lret qu'on leur remet à cet effet. Parfois, mais rarement. le boulanger avance aussi quelque petite some au pêcheur gêné et l'inscrit sur son livret. Bien des pêcheurs, même lorsqu'ils sont à l'aise, usent du crédit pour le pain,  parce que c'est la coutume ». Il y en a qui ne s'acquittent pas même en été, et restent de deux ou trois ans en retard. Alors, le boulanger les effraie, les menace de refuser crédit, les engage au moins à amortir ; mais il n'exécute jamais, sans doute de peur de perdre sa clientèle. En général les pêcheurs sont imprévoyants et l'i¬vrognerie accroît ce penchant dangereux : ils sont souvent criblés de dettes. Une des rues du quartier porte le nom signiicatif de Schuld¬poort (quartier des dettes). C'est du reste pour eux le moindre souci.
+       </p>
+       <p xml:id="para_8_115_43">
+        L'emploi le plus ordinaire des épargnes des pêcheurs, quand la boisson leur en laisse, comme c'est le cas pour le nôtre, est l'ac¬quisition d'une maison. Leur profession est essentiellement fixe, et il est évident que la propriété du sol a pour eux tous les avantages. Tous, ou presque tous, sont propriétaires. C'est la première affaire d'un pêcheur qui s'établit ; mais la plupart des maisons sont grevées de fortes dettes et d'hypothèques. Ils s'acquittent lentement : parfois <pb facs="#facs_141" n="116" source="lesouvriersdesd02soci_0156.xml"/> même, leur vie n'y suffit pas. A la mort du père, un des fils reprend et rachète d'ordinaire la maison dans les mêmes conditions. Les vieilles coutumes sont fort respectées parmi les pêcheurs. Cnis par un lien antique, ils forment une sorte de caste très puissante, et une corporation dont nous parlerons plus loin
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        . La tradition des fa¬milles y est très profonde.
+       </p>
+       <p xml:id="para_8_116_45">
+        Les pêcheurs ont souvent la vie pénible ; mais s'il y en a de né¬cessiteux, ils peuvent recevoir les secours de diverses institutions
+        <ref target="#part_02_02_07" type="renvoi_int_mono">
+         (§ 7)
+        </ref>
+        . Il n'y a d'ailleurs pas de mendiants dans la commune. Les vieux parents sont soignés avec respect ; et la mère infirme de la femme N*ʳᵉ a été longtemps conservée au foyer avec un pieux dévouement, bien qu'elle fût sans ressources. Les pêcheurs qui rentrent de la mer font la part des pauvres, toujours en nature : d'abord ils donnent une part à ceux qui autrefois ont monté leur chaloupe et ne peur ent plus servir en mer ; ils distribuent aussi du poisson aux indi¬gents qui se groupent autour du bot où se lave le poisson au retour. A Blankenberghe, il leur arrive d'emporter en mer les filets des veuves de pêcheur pauvres et de leur en rapporter la prise.
+       </p>
+       <p xml:id="para_8_116_46">
+        L'instruction est assez développée. Il existe à leyst une école libre pour garçons, une pour filles, et une école communale mixte. Il y a école gratuite et école payante. Les garçons des pêcheurs vont à l'école jusqu'à doue ans, âge de l'enrôlement des mousses ; ils sa¬vent lire et écrire, mais de bonne heure ils aspirent à la vie de mer. Sauf de rares exceptions, qu'expliquent les exigences du service des baigneurs étrangers, la population des pêcheurs ne connaît que la langue flamande et spécialement le dialeete est-flamand, parsemé de mots spéciaux usités chez tous les marins de la mer du Nord jusque ur les côtes de Norvège.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. HYGIÈNE ET SERVICE DE SANTÉ.
+       </head>
+       <p xml:id="para_8_116_49">
+        Les membres de la famille jouissent d'une santé vigoureuse l'homme surtout est fortement constitué et ne se rappelle pas avoir été retenu au lit un seul jour. En général la race des pêcheurs est robuste ; ils n'ont cependant aucune notion d'hygiène, mais ils pren¬nent des précautions contre le froid en augmentant l'épaisseur des vêtements. Les maladies les plus répandues sont la pneumonie, la <pb facs="#facs_142" n="117" source="lesouvriersdesd02soci_0157.xml"/> pleurésie et les rhumatismes, fruits des rigueurs de la température et du métier. Les fièvres intermittentes, même lorsqu'elles éprouvent for¬tement le reste de la population, atteignent moins les gens de mer. La mortalité des enfants en bas âge, jusqu'à sept ans, est considé¬rable à cause de la force de l'air, de la dureté du climat ; mais ceux qui s'acclimatent deviennent plus vigoureux et il y a peu de décês avant soixante ans. Les enfants, à cause de la négligence de la plu¬part des mères, ont beaucoup de maladies de peau, teigne, gale ; mais notre famille n'en est pas atteinte ; la femme y est très soigneuse.
+       </p>
+       <p xml:id="para_8_117_51">
+        Le rude métier du pêcheur use vite ses forces ; souvent avant soixante ans il doit quitter la mer : alors il reste avec regret à con¬templer les eaux et les barques, à travailler aux filets ; et, depuis l'ar¬rivée des étrangers, il se fait souvent baigneur et réalise de gros béné¬fices. A partir de soixante ans, il recoit un secours mensuel de 6 francs de la caisse de prévoyance. Les pêcheurs ne prennent aucune précau¬tion contre les accidents. Il y a environ un accident mortel en deux ans. Ils n'emportent en mer aucun engin de sauvetage. pas même une bouée. S'il y a un malheur, ils reviennent à la côte. Leur premier recours est aux sœurs de l'Immaculée Conception, qui sont depuis longtemps expérimentées, les soignent et les rassurent. Quand une fracture se produit, la corporation octroie aussi des secours, Quand il y a des accidents graves, la famille de la victime est souvent aidée par une collecte faite dans le pays, e qui est ordinairement très pro¬ductive.
+       </p>
+      </div>
+      <div n="005" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. RANG DE LA FAMILLE.
+       </head>
+       <p xml:id="para_8_117_54">
+        bLe père de famille est un patron renommé pour son habileté, son expérience et sa probité. Il a été patron à l'âge de vingt ans, et dans les premières années il a perdu une chaloupe, ce qu'il déplore comme un ait de jeunesse. Il a plusieurs fois sauvé la vie de personnes en danger de se noyer, et il porte la médaille pour actes de courage et de dévoue¬ment. L'opinion générale de la localité lui est très favorable. Il a une vie modérée, boit peu et seulement ce qu'il faut pour ne pas etre traité de mauvais camarade. Bien qu'il soit pauvre, la situation plus élevée de divers membres de sa famille
+        <ref target="#part_02_04_12" type="renvoi_int_mono">
+         (§ 12)
+        </ref>
+        rejaillit aussi sur lui. Il a un caractêre énergique et bien trempé ; fidèle à ses croyances, quant à l'éducation de ses enfants, il a résisté à de puissantes inr <pb facs="#facs_143" n="118" source="lesouvriersdesd02soci_0158.xml"/> fluences pour leur donner une éducation religieuse. Il y veille soi¬gneusement avec le concours de sa femme dont il estime très haut les réelles qualités. Le fond du caractêre de Pierre est un peu mélan¬colique : il exprime avec tristesse son opinion sur les hommes et les choses ; il parle par aphorismes et avec grande conviction. Sa phy¬sionomie, basanée par le métier, est intelligente, même fine, et re¬flête son caractère de bonté triste mais énergique. Sa feme appar¬tient à une famille de pêcheurs moins élevée, mais elle le seconde dignement. Elle est ménagère, active et intelligente. Le fils n'a pas hérité de lui à cet égard : il n'apprend pas bien à l'école et les parents doivent à regret se résigner à le faire mousse. Cette perspec¬tive est un grand souci pour eux, et l'inquiétude relative à la vie morale du garçon en est la cause principale.
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. PROPRIÉTÉS.
+       </head>
+       <div type="proprietes" subtype="proprietes_texte_1">
+        <p xml:id="para_8_118_59">
+         (Mobilier et vêtements non compris.)
+        </p>
+       </div>
+       <div type="proprietes" subtype="immeubles">
+        <p xml:id="para_8_118_60">
+         IMMEUBLES : acquis à l'aide de fonds provenant de l'héritage mater¬nel, et d'épargnes personnelles, mais grevés des reprises à exercer
+         <ref target="#part_02_04_12" type="renvoi_int_mono">
+          (§ 12)
+         </ref>
+         par les enfants comme héritiers de la part de communauté de leur défunte mère............ 3.500ᶠ 00
+        </p>
+        <p xml:id="para_8_118_61">
+         Maison d'habitation formée d'un rez-de-chaussée seulement et comprenant une petite boutique, trois pièces et un grenier, avec un jardinet y attenant, 2.400ᶠ00.
+        </p>
+        <p xml:id="para_8_118_62">
+         Hangar contigu à la maison et affecté au nettoyage et parfois à la vente du poisson donné pour cet usage en location aux équipages de trois chaloupes, 800ᶠ00.
+        </p>
+        <p xml:id="para_8_118_63">
+         Porcherie, 300ᶠ00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="animaux">
+        <p xml:id="para_8_118_64">
+         ANIMAUX DOMESTIQUES : entretenus toute l'année............ 60ᶠ 00
+        </p>
+        <p xml:id="para_8_118_65">
+         1 porc acheté 25ᶠ00, valeur moyenne pour l'année, 60ᶠ00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="materiel">
+        <p xml:id="para_8_118_66">
+         MATÉRIEL SPÉCIAL DE TRAVAUX ET INDUSTRIES............ 424ᶠ 10
+        </p>
+        <p xml:id="para_8_118_67">
+         1° Engins et ustensiles pour le métier de pêcheur. — Part du patron dans les engins dont il est dépositaire et qui lui appartiennent en communauté avec l'armateur, les trois hommes d'équipage et le mousse ; savoir : 2 grands filets dits chaluts (ayant une valeur de 120ᶠ00 l'un, 240ᶠ00); 12 paniers (valant 1ᶠ25 l1a pièce, 15ᶠ00) ; — soit pour son sixième, 42ᶠ60 ; — part du patron dans les engins dont il est dépositaire et qui lui appartiennent en <pb facs="#facs_144" n="119" source="lesouvriersdesd02soci_0159.xml"/> communauté seulement avec ses trois hommes et son mousse ; savoir : 8 filets spéciauv dits folles ou rédres (alant 30ᶠ00l'un, 240ᶠ00); — 1 poéle, 20ᶠ 00; — 5 assiettes et 5 écuelles, 2ᶠ00; — 1 seau, 1ᶠ 50; — 22 petites barriques pour l'eau douce, 14ᶠ00 ; — 1 lanterne, 5ᶠ00; — pour son cinquième, 56ᶠ50. — Total, 99ᶠ10.
+        </p>
+        <p xml:id="para_8_119_69">
+         2° Exploitation du hangar mis en location. — 4 brosses à poisson, par an, 4ᶠ00; — 4 bacs, 3ᶠ00; — 1 marmite en fer, 10ᶠ00. — Total, 17ᶠ00.
+        </p>
+        <p xml:id="para_8_119_70">
+         3° Exploitation du champ pris en location. — 1 bêche, 6ᶠ00 ; — 1 hachette, 2ᶠ00. — Total, 8ᶠ00.
+        </p>
+        <p xml:id="para_8_119_71">
+         4° Commerce d'epicerie et mercerie. — Valeur des marchandises, 300ᶠ00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="proprietes_total">
+        <p xml:id="para_8_119_72">
+         VALEUR TOTALE des propriétés............ 3.984ᶠ 10
+        </p>
+       </div>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. SUBVENTIONS.
+       </head>
+       <p xml:id="para_8_119_75">
+        La famille ne jouit d'aucune subvention, sauf l'écolage gratuit du garçon. Il faut cependant dire quelquesmots de celles qui existent à Heyst pour la communauté des pêcheurs. Nous allons les énumérer. — 1° Les épaves. n général les pêcheurs, et surtout les rôdeurs de plage, recueillent le menu bois et la tourbe que la mer apporte à la côte ; celui qui a pris possession d'un bloc de tourbe y plante un petit pieu; ce signe de propriété est respecté ; ces prises sont tolérées: mais, surtout en hiver, il leur arrive souvent de rencontrer en mer des objets de toute nature. C'est ainsi que les petites barriques sont or¬dinairement des prises. Il en arrive aussi de plus considérables, par¬fois même de vraies cargaisons, surtout des tonneaux de vin ou d'huile, parfois de fort bonne qualité. Même à la côte, quand il y a un navire en détresse, ils calculent ses chances de salut, ils peu¬vent, à la direction qu'il prend, avoir une certitude sur son sort et prévoir les chances d'épaves. A la côte, les agents du domaine récla¬ment le droit de l'État aux épaves dans les limites de la souverai¬neté maritime ; mais le reste leur échappe souvent. Il est très rare que le pêcheur déclare les prises. S'il est hors du rayon, c'est son droit évident, mais il n'hésite pas à faire la contrebande sur ce point. La famille étudiée ne veut pas même recueillir les menues épaves de la côte : les parents ne l'y ont pas habituée. — 2° Le pêcheur peut retirer une ancre de la mer ; dans ce cas, il doit, par mesure d'intérèt général, la rapporter à terre, car l'ancre déchire les filets. Chaque chaloupe paie de ce chef à l'équipage une somme de 50 cen¬times, à titre de récompense, en vertu des statuts de la corpora<pb facs="#facs_145" n="120" source="lesouvriersdesd02soci_0160.xml"/>tion ( 18). — 3° La corporation des pêcheurs attribue des secours en cas d'accidents
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        . — 4° l existe une caisse de prévoyance qui donne des secours aux vieux pêcheurs de plus de 70 ans (1 franes par mois), aux veuves de plus de 65 ans (5 francs par mois) et parfois aussi à d'autres besoigneux. La caisse de prévoyance pour les pè¬cheurs de leyst a un règlement approuvé par arrêté royal du 1 oc¬tobre 1843. Ce reglement impose aux pêcheurs une cotisation an¬nuelle ; mais, depuis 1868, ils refusent de l'acquitter, sous prétexte que le gouvernement n'encourage plus la pêche nationale et que la caisse a suffisamment de capital. La caisse a effectivement un capital, elle joint à cette ressource un subside annuel de 1.375 francs : son ca¬pital s'est augmenté du produit de diverses collectes abondantes faites dans le pays au moment de certains accidents. En 1867, avec le reli¬quat d'une collecte, on avait fait une caisse spéciale pour donner des indemnités en cas de pertes de filets ; il y eut des abus, et le capital fut versé à la caisse de prévoyance. La commission de la caisse se compose du bourgmestre, du président du bureau de bienfaisance, du doyen de la corporation des pêcheurs et de deux armateurs. Voici le compte de la caisse pour 1884 : ˉRecettes Subside annuel, 1.37Sᶠ ; Intérêts d'un capital de 11.500ᶠ, et d'une somme de 5.600ᶠ (pro¬venant de l'ancienne caisse spéciale), ensemble 460ᶠ. Depenses en se¬cours de Janvier à Juillet inclusivement (7 mois à 123ᶠ), 861ᶠ ; d'Aout a Novembre (4 mois à 129), 516ᶠ; Décembre, 309ᶠ ; frais de bu¬reaux, 30ᶠ ; accidents, 0ᶠ. — 5° Bureau de bienfaisance. Les pêcheurs peuvent, comme tous les autres habitants, bénéficier, le cas échéant. des secours de cette institution. — 6° L'écolage gratuit existe pour illes et garçons.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. TRAVAUX ET INDUSTRIES.
+       </head>
+       <div type="travaux" subtype="ouvrier">
+        <p xml:id="para_8_120_79">
+         Travaux de l'ouvrier. — L'ouvrier exerce la profession de pêcheur côtier, en qualité de patron, sur une chaloupe de son frère. A ce travail se joint celui qui est nécessaire pour la réparation et l'entretien de la chaloupe et de ses engins. Il fabrique aussi les filets d'hiver qui son s propriété comme pêcheur. Cette industrie s'exerce dans les condi¬tions ordinaires que nous indiquons ailleurs (
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          § 1
+         </ref>
+         ,
+         <ref target="#part_03_01_17" type="renvoi_int_mono">
+          17
+         </ref>
+         ,
+         <ref target="#part_03_01_19" type="renvoi_int_mono">
+          19
+         </ref>
+         ). Quand il n'est pas en mer, il s'occupe de sa chaloupe et de ses filets ; et, le <pb facs="#facs_146" n="121" source="lesouvriersdesd02soci_0161.xml"/> rese du temps, ous les pêcheurs se bornent à contempler la mer. leur passion et leur vie.
+        </p>
+       </div>
+       <div type="travaux" subtype="femme">
+        <p xml:id="para_8_121_81">
+         Travaux de la femme. — La femme consacre une grande partie de son temps à l'entretien du ménage ; c'est elle aussi qui s'occupe des in¬dustries accessoires qui donnent l'appoint au budget des recettes. — 1° Culture du champ. La famille loue une demi-mesure de terre et y cultive des pommes de terre. La femme y travaille. L'engrais est fourni en partie par le purin de la maison, en partie par le poisson non con¬sommable ramené de la pêche, étoiles de mer, etc. Les pommes de terre du champ sont surtout consommées l'hiver, à l'époque du chô¬mage, quand le poisson manque ; c'est le grand avantage de cette cul¬ture. Tous les pêcheurs ont leur lopin de terre, à la différence de Blan¬lenberghe où ils sont tout à fait citadins. — 2° ˉEngraissement du porc. Chaque année, au début de l'hiver, le pêcheur achète un jeune porc de 16 a 25 francs et l'engraisse de pommes de terre (tubercules et pul¬pes) et de farine de seigle. Au bout de l'année, on le fait tuer, saler. fumer, fondre, et on le consomme pendant l'hiver. Les gros ménages ont parfois deux porcs ; ils en vivent aussi pendant la morte saison. — 3° Commerce de mercerie et d'epicerie. La femme a entrer pris un petit négoce ; elle vend les objets de la consommation ordi¬naire des pêcheurs : épiceries, merceries, sabots, grosses faiences, huile, etc. Son mouvement d'affaires ne dépasse pas 1.200 francs. Cha¬que semaine des agents de magasins de Bruges viennent prendre ses commandes, et elle recoit sa cargaison. Beaucoup de femmes de pa¬tron ont de ces petits magasins, mais souvent malheureusement elles y joignent un débit de boisson pour les hommes de l'équipage. — 4° ˉLocation du hangar. Les époux louent le hangar à trois cha¬loupes qui viennent y nettoyer le poisson nouvellement débarqué et parfois le vendre en détail. Ce hangar renferme une pompe ; il est traversé par une rigole centrale ; on y trouve paille, bacs, brosses. La feme doit entretenir tout cela ; le recurage du hangar, lui demande souvent beaucoup de temps à cause de la fréquence des retours. Chaque chaloupe paie de ce chef 30 francs par an.
+        </p>
+       </div>
+       <div type="travaux" subtype="fils">
+        <p xml:id="para_8_121_82">
+         Travaux du fils. — Le fils ne se livre à aucun travail lucratif. Il va à l'école où il travaille mal, et il sert la messe à la paroisse. Les parents auraient voulu le tenir sur terre au métier de charpentier ou à quel¬que autre, mais l'instinct du marin est héréditaire ; le garçon veut s'embarquer et sera mousse au prochain engagement (2 novembre), sur la barque que commande son père.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_8_122_87">
+        <pb facs="#facs_147" n="122" source="lesouvriersdesd02soci_0162.xml"/>La frugalité est générale parmi les pêcheurs. Sur terre ils pren¬nent matin et soir du café au lait avec du pain de froment.  onze heures et demie ils font le repas principal, composé de pommes de terre et de viande de porc, ou de poisson, avec du pain. La viande de porc, salée ou fumée, se consomme surtout en hiver pendant le chômage de la pêche. En été, on mange le menu poisson, le fretin (deelisc): on y comprend aussi les poissons inconnus au marché des villes. La graisse de porc sert d'assaisonnement pour le pain. En mer, le pêcheur emporte du pain, de la graisse, du poisson sec et du café. Il fait frire sur son poêlon quelques poissons de la pêche. Il mange quand il peut. Le pain, le porc, le poisson caractérisent son régime. La café lui sert de boisson. Il ne boit guère de biêre en ménage. Il n'y a pas de mets caractéristiques, si ce n'est la petite plie de mer sé¬chée au soleil et qu'on vend 2 centimes la pièce ; c'est une friandise que les enfants grignotent et que tous les pêcheurs savourent. Le poisson see entre pour beaucoup dans l'alimentation et on le trouve excellent.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
+       <div type="par_10" subtype="par_10_texte_1">
+        <p xml:id="para_8_122_90">
+         La maison ne se compose que d'un rez-de-chaussée comprenant plusieurs pièces. C'est d'abord la boutique, où on pénètre de la rue : elle communique, d'une part, avec une petite pièce munie d'une che¬minée ouverte où on fait la cuisine pendant l'été et qui conduit au hangar ; de l'autre, avec la chambre à coucher des parents, servant aussi de chambre commune et de cuisine en hiver, pour épargner le eombustible. De cette pièce, trois marches mènent à une petite chambrette plus basse où couchent les enfants. Par une échelle on parvient, du hangar, à un grenier où sont réunis les engins de pêche, que doit conserver le patron de barque. La maison est construite en maçonnerie et couverte de tuiles. Au delà du hangar, se trouve un jardinet où végètent quelques pommes de terre et quelques grosses <pb facs="#facs_148" n="123" source="lesouvriersdesd02soci_0163.xml"/> fleurs, telles que des tournesols ; là aussi est placée l'auge du porc. L'ameublement de la maison est soigné ; la propreté y est grande. Plusieurs meubles viennent des parents, de même que des menus ob¬jets qui décorent la chambre commune, images religieuses et sujets de marine. Sur la cheminée, comme dans toute maison rurale flamande, se voient alignées quelques faiences de fantaisie qui égaient la pièce. De petits rideaux coquets et propres ornent la fenêtre. On remarque des pots de fleurs, signe très ordinaire des qualités d'ordre d'une mé¬nagère.. L'image du Crucifix et celle de la Vierge se trouvent plu¬sieurs fois reproduites.
+        </p>
+        <p xml:id="para_8_123_93">
+         La cuisine d'été se fait dans une cheminée ouverte alimentée au bois ; la marmite, aussi selon un vieil usage flamand, est suspendue au-dessus du feu par une chaîne et un croc de fer : cet usage était déjà au moyen âge spécial à nos campagnes de Flandre.
+        </p>
+        <p xml:id="para_8_123_94">
+         Les vêtements féminins ont perdu beaucoup de leur caractère ; ceux du marin ont nécessairement gardé la forme particulière qui convient au métier.
+        </p>
+        <p xml:id="para_8_123_95">
+         La valeur du mobilier et des vêtements peut être estimée approxi¬mativement ainsi qu'il suit.
+        </p>
+       </div>
+       <div type="par_10" subtype="meubles">
+        <p xml:id="para_8_123_96">
+         MEUBLES : Simples, mais très soignés............ 342ᶠ00
+        </p>
+        <p xml:id="para_8_123_97">
+         1° Chambre a coucher et chambre commune. — 1 armoire, 40ᶠ00; — 1 armoire commode à tiroirs, 25ᶠ00; — 1 horloge enfermée dans une caisse en bois de 2 mètres de haut, 30ᶠ00 ; — 1 lit en bois blanc, 30ᶠ00; — rideaux de lit en indienne, 8ᶠ00; — matelas en plume et couvertures, 50ᶠ 00 ; — 1 ale de bois avec toile cirée, 10ᶠ00; — faiences d'ornement, 30ᶠ00 ; — crucifix et statuettes, 10ᶠ0; — gravures et encadrements, 10ᶠ00; — 1 poêle, 25ᶠ 00 — 7 chaises, 14ᶠ00. — Total 28e2ᶠ00.
+        </p>
+        <p xml:id="para_8_123_100">
+         2° Chambre a coucher des enfants. — 2 lits en bois blanc, 20ᶠ00; — literies, 30ᶠ00. — Total, 50ᶠ00.
+        </p>
+        <p xml:id="para_8_123_101">
+         3° Cuisine. — Il n'y a que la cheminée sans poèle, avec une galerie en bois pour poser à vaisselle, 10ᶠ00.
+        </p>
+       </div>
+       <div type="par_10" subtype="ustensiles">
+        <p xml:id="para_8_123_102">
+         USTENSILES : modestes, très proprement tenus............. 46ᶠ 10
+        </p>
+        <p xml:id="para_8_123_103">
+         1 marmite en fer, 10ᶠ00 ; — 1 marmite, 4ᶠ 00 ; — 2 douzaines d'assiettes de faience, 9ᶠ60, — 1 soupière en faience, 2ᶠ00 ; — 2 vases à salade, 2ᶠ 00; — 6 tasses à café, 3ᶠ 00 ; — 2 dou¬aines de cuillers et fourchettes en étain, 6ᶠ00 — 1 louche en étain, 0ᶠ50; — 1 cafetiére en faience, 1ᶠ25 ; — 1 cafetiére en fer-blane, 1ᶠ75 ; — 6 couteaux, 6ᶠ00.
+        </p>
+       </div>
+       <div type="par_10" subtype="linge">
+        <p xml:id="para_8_123_104">
+         LINGE : évalué à............ 218ᶠ 00
+        </p>
+       </div>
+       <div type="par_10" subtype="vetements">
+        <p xml:id="para_8_123_105">
+         VÊTEMENTS : d'un caractère essentiellement professionnel, sans recherche, mais très soigneusement tenus ; ils se font remarquer <pb facs="#facs_149" n="124" source="lesouvriersdesd02soci_0164.xml"/> par leur simplieité, hahituelle d'ailleurs chez les familles de pê¬cheurs............ 581ᶠ 00
+        </p>
+        <p xml:id="para_8_124_107">
+         VÊTEMENTS DU CHEF DE FAMILLE. — 1 chapeau ciré rabattu sur la nuque, dit sud-ouest, 3ᶠ00; — 1 camisole de fanelle rouge descendant sur les cuisses, 15ᶠ00 ; — 2 vestes en drap gros bleu, très épaisses, doublées de rouge, 50ᶠ00; — 1 manteau ciré imperméable, 12ᶠ 00; 2 paires de longs bas de laine blanche, 10ᶠ00 ; — 3 paires de chaussettes montant à mi¬jambe, 5ᶠ00 ; — 1 paire de bottes de mer en gros cuir, à tiges montantes s'attachant à la ceinture, 32ᶠ00 ; — 1 calecon en laine rouge, 12ᶠ00; — 2 pantalons de dessus en gros drap, 36ᶠ00; — 1 pantalon de couverture (pour mettre en dessus de l'un des précédents) en toile rouge, 10ᶠ00 ; — 1 tablier de cuir, 15ᶠ00 ; — 1 paire de manches en cuir montant derriére le coude, 4ᶠ 00; — 2 paires de gants de mer en flanelle, montant au milieu de l'avant-bras, 4ᶠ00 ; — 1 écharpe ceinture, 2ᶠ00; — 1 paire de sabots, 1ᶠ00 ; — 1 paire de souliers, 10ᶠ00 ; — 1 casquette, 3ᶠ00 ; — 1 médaille d'argent obtenue pour actes de courage, 10ᶠ00. — Total, 234ᶠ 00
+        </p>
+        <p xml:id="para_8_124_109">
+         A terre, le pêcheur met son costume de drap le plus neu: en été il porte seulement une camisole rouge, blanche ou rayée.
+        </p>
+        <p xml:id="para_8_124_110">
+         VÊTEMENTS DE LA FEMME : évalués ensemble à 182ᶠ00; — biioux : 1 collier, or et arge nt, avec pendeloques sur la poitrine, 30ᶠ00; — 1 paire de boucles d'oreilles, or et argent, 30ᶠ00 ; — 1 bague en or, 15ᶠ00. — Total, 257ᶠ00.
+        </p>
+        <p xml:id="para_8_124_111">
+         VÊTEMENTS DES DEUX ENFANTS : évalués pour le jeune garçon, à 58ᶠ00 ; — pour la fillette, à 32ᶠ00. — Total, 90ᶠ00.
+        </p>
+       </div>
+       <div type="par_10" subtype="par_10_total">
+        <p xml:id="para_8_124_112">
+         VALEUR TOTALE du mobilier et des vêtements............ 1.187ᶠ10
+        </p>
+       </div>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_8_124_115">
+        La population côtière observe avec grande exactitude les diman¬ches et les fêtes de l'Eglise. llors de là, elle célèbre quelques fêtes religieuses spéciales, telles que la fète de saint Antoine, celle de la bénédiction de la mer, etc. Les pêcheurs tiennent beaucoup aux cé¬rémonies et processions et se plaisent à y assister en grand nombre. Une fête religieuse, détournée de sa signification, est celle de la dé¬dicace de l'église paroissiale, appelée en flamand hermesse (er-mis). Trop souvent elle dégénère en festivités bruyantes, danses et orgies. Les lermesses ont été multipliées. Il y en a à leyst quatre par an deux d'entre elles durent près de huit jours, pendant lesquels on chôme et on s'amuse. On fait alors des dépenses de luxe plus ou moins grandes, et la boisson prend aussi sa grande part de la fête.
+       </p>
+       <p xml:id="para_8_124_116">
+        Les récréations locales sont peu caractéristiques. L'homme mâche du tabac, boit vigoureusement et joue aux cartes. La danse, qui fait grand tort chez ces populations grossières, est peu répandue. Les <pb facs="#facs_150" n="125" source="lesouvriersdesd02soci_0165.xml"/> repas de famille sont dans la coutume, notamment à la naissance d'un enfant. Vu les nombreuses parentés des pêcheurs, ces tables sont souvent fort nombreuses. La population n'a d'ailleurs guère de fêtes spéciales : celle de la bénédiction de la mer et du baptême de la barque
+        <ref target="#part_03_01_21" type="renvoi_int_mono">
+         (§ 21)
+        </ref>
+        sont les plus imposantes et les plus poétiques ; elles font une profonde impression sur l'assistance. Hors de là, la vie commune n'a guère de faits caractéristiques, et M. Bardin, qui a écrit sur les mœurs des pêcheurs un roman simple mais charmant
+        <note type="bp">
+         <p>
+          Les Rodeurs de la cote.
+         </p>
+        </note>
+        , n'a point dé¬couvert non plus de note bien saillante. Le pêcheur qui chôme passe la plus grande partie de sa journée sur la grève, à contempler la mer et à deviser sur le temps, même quand le vent, la pluie et le froid font rage.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. PHASES PRINCIPALES DE L'EXISTENCE.
+       </head>
+       <p xml:id="para_8_125_122">
+        Les deux époux que nous décrivons, appartiennent eux-mêmes à des familles de pêcheurs dans lesquelles le métier est héréditaire ; mais la condition du mari est supérieure à celle de la femme. Celle-ci n'a rien reçu de ses parents, qu'elle a perdus tous deux, après avoir longtemps soigné sa mère infirme. Elle a épousé Pierre, veuf et père de famille, par dévouement pour les orphelins de sa sœur. kElle a deux frères qui sont pêcheurs, et trois sœurs vivantes, dont deux mariées à des pêcheurs, et une mariée hors du pays. Son père et son grand¬père sont morts en mer, par suite d'accident.
+       </p>
+       <p xml:id="para_8_125_123">
+        Pierre a encore son père, pêcheur aussi jadis, mais, grâce à un se¬cond mariage, devenu armateur et propriétaire d'une dizaine de bar¬ques tant à leyst qu'à Blankenberghe. Pierre, outre deux demi¬frères, a deux sœurs et quatre frères. L'un est pêcheur comme lui: un second, charpentier de bateaux ; le troisième, grand armateur et cor¬dier, possède jusqu'à vingt barques et fait d'excellentes affaires. La <pb facs="#facs_151" n="126" source="lesouvriersdesd02soci_0166.xml"/> source de cette inégalité est intéressante à connaitre. Le grand-père maternel de Pierre était cordier ; sa veuve se remaria à un armateur ; mais un de ses petits-fils fut élevé chez le beau grand-père et l'as¬sista dans ses travaux. La mère mourut ; son mari conserva le jeune homme, mais désirant se remarier à son tour, il lui assura une situa¬tion en lui concédant douze barques dans des conditions favorables. Le jeune pêcheur avait fait, lui aussi, un mariage avantageux : il profita de l'occasion, obtint aisément d'emprunter l'argent nécessaire à l'ac¬quisition de ces barques, dont la valeur garantissait d'ailleurs fort bien le prêt ; et enfin, grâce à quelques années de forte pêche (c'était la bonne époque), il se libéra. Aujourd'hui propriétaire de vingt cha¬loupes, il emploie ses frères comme charpentier et comme stuerman, et a acquis une situation considérable. Cette inégalité n'a altéré en rien les bons rapports des divers membres de la famille. La seconde femme du beau grand-père ne fut pas favorable à Pierre et aux deux autres frêres, et le reste des biens passa à ses enfants. Notre pêcheur eut donc beaucoup moins. Lors de son premier mariage, il apporta 1.300 francs de la succession de sa défunte mère, plus 900 francs de dons et d'économies personnelles. Ces sommes, après les frais d'ins¬tallation, furent surtout consacrées à un versement sur le prix d'une maison qu'il acheta. A la mort de sa première femme, avec laquelle il n'avait pas fait de contrat de mariage, les hommes de loi intervinrent. Quoique tous les biens vinssent du mari, ils attribuêrent la maison aux enfants et le sol au père. Cette situation est encore contestée et le rêglement n'est pas définitif. Les époux s'en préoccupent et s'en chagrinent vivement. Ils regrettent de n'avoir point fait de contrat leur assurant la survivance des biens. Ils redoutent l'ingratitude des enfants et espèrent encore arriver à un meilleur arrangement.
+       </p>
+       <p xml:id="para_8_126_126">
+        Tous deux travaillent avec énergie et assiduité ( 5), mais n'espè¬rent pas élever leur situation sociale, surtout par les mauvais temps que la peche traverse actuellementl.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_8_126_129">
+        Il n'y a rien de spécial à signaler sous ce titre. Nous avons in¬diqué déjà le rang de la famille
+        <ref target="#part_02_01_05" type="renvoi_int_mono">
+         (§ 5)
+        </ref>
+        et ses meurs
+        <ref target="#part_02_01_03" type="renvoi_int_mono">
+         (§ 3)
+        </ref>
+        . Nous <pb facs="#facs_152" n="127" source="lesouvriersdesd02soci_0167.xml"/> avons dit aussi l'usage général d'acquérir la propriété de la maison
+        <ref target="#part_02_01_03" type="renvoi_int_mono">
+         (§ 3)
+        </ref>
+        , de louer un champ et de nourrir un porc
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         (§ 8)
+        </ref>
+        , et expliqué aussi les avantages qui en résultent. En parlant des subventions
+        <ref target="#part_02_02_07" type="renvoi_int_mono">
+         (§ 7)
+        </ref>
+        , nous avons signalé aussi les institutions qui pecuvent secourir les pêcheurs dans les diverses circonstances pénibles de leur existence. Les prin¬cipales garanties de sécurité dérivent de l'organisation des corpora¬tions de pêcheurs sur ces rivages, et des coutumes traditionnelles qu'elle consacre et maintient
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        . Des coutumes non moins an¬ciennes ont établi parmi eux, quant aux salaires, un système d'association du capital et du travail, qui réalise
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (§ 19)
+        </ref>
+        depuis bien longtemps d'une facon satisfaisante l'idée de la coopération. Si la rénumération è la part est aujourd'hui discutée et mise en question, eela tient à une altération des meurs parmi ces populations : aucun des reproches que l'on fait à ce régime n'aurait pu se produire, s'il était pratiqué avec la bonne foi qui, pendant plusieurs siecles, l'a rendu efficace et tutélaire. Enfin la caisse de prévoyance
+        <ref target="#part_03_01_20" type="renvoi_int_mono">
+         (§ 20)
+        </ref>
+        est encore une institution protectrice qui serait digne de confiance, si elle fonctionnait sans diffieultés et d'un commun accord
+        <ref target="#part_02_02_07" type="renvoi_int_mono">
+         (§ 7)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_8_127_132">
+        Coment améliorer la condition du pêcheur Les uns voudraient modifier le paiement des salaires et en faire des pri fixes comme dans les autres industries. D'autres voudraientrendre le pêcheur propriétaire de sa barque, mais il faudrait l'habituer aux comptes de rapide amor¬tissement, et le mettre à même de résister aux avaries par un système quelconque d'assurance. On émet avec raison l'avis qu'il faut encou¬rager la pêche et augmenter le profit par le produit, protéger l'indus¬trie par de sages conventions internationales et une surveillance active des gardes-pêche. Mais on ne peut oublier qu'avant tout il y a une ac¬tion de relèvement moral et intellectuel à exercer, une lutte contre l'intempérance et les mauvaises meurs ; c'est là le point de départ de toute réforme utile.
+       </p>
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
+       <pb facs="#facs_153" n="128" source="lesouvriersdesd02soci_0168.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_153" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_128_134">
+        SOURCES DES RECETTES.
+        </p>
+        <p xml:id="para_8_128_135">
+        ÉVALUATION APPROXIMIATIV DES SOUCES DE RECETTES.
+        </p>
+        <p xml:id="para_8_128_136">
+        PROPRIÉTÉS DPOSSÉDÉES PAR LA FAMILLE.
+        </p>
+        <p xml:id="para_8_128_137">
+        ART. 1°ʳ.  — POPRIÉTÉS IMMOBILIERES.
+        </p>
+        <p xml:id="para_8_128_138">
+        lABITATION :
+        </p>
+        <p xml:id="para_8_128_139">
+        Maison comprenant le magasin de commerce pour la femme. ....... ( 6)
+        </p>
+        <p xml:id="para_8_128_140">
+        g§(§ loue a dceséceurs...................................... §
+        </p>
+        <p xml:id="para_8_128_141">
+        ART. 2. — VALEURS MOBILIÈRES.
+        </p>
+        <p xml:id="para_8_128_142">
+        1 porc entretenu toute l'année ; valeur moyenne.... .................. ( 6)
+        </p>
+        <p xml:id="para_8_128_143">
+        MATÉRIEL SPÉCIAL des travaux et industries :
+        </p>
+        <p xml:id="para_8_128_144">
+        Engins et ustensiles pour le métier de pécheur. ..................... (, 6)
+        </p>
+        <p xml:id="para_8_128_145">
+        stensiles d'eploitation du hangar........ .... ................ ....... ( 6)
+        </p>
+        <p xml:id="para_8_128_146">
+        InStnet de culture....... .. . .. ....... ... ... .. .... .. . .. ..... .. . .... ( 6)
+        </p>
+        <p xml:id="para_8_128_147">
+        Marehamdises en magasin pour le commerce de la femme............ ( 6)
+        </p>
+        <p xml:id="para_8_128_148">
+        ART. 3. — DROIT AUN ALLOCATIONS DES SOCIÉTÉS D'ASSURANCES MUTUELLES.
+        </p>
+        <p xml:id="para_8_128_149">
+        2.400ᶠ00 800 00 300 00
+        </p>
+        <p xml:id="para_8_128_150">
+        300 00
+        </p>
+        <p xml:id="para_8_128_151">
+        (La famille ne ait partie d'aucune société de ce genre.)....................
+        </p>
+        <p xml:id="para_8_128_152">
+        VALEUR TOTALE des propriétés de la famille.
+        </p>
+        <p xml:id="para_8_128_153">
+        SECTION II.
+        </p>
+        <p xml:id="para_8_128_154">
+        SUBVENTIONS RECUES PAR LA FAMILLE
+        </p>
+        <p xml:id="para_8_128_155">
+        ART. 1ᵉʳ. — PROPRIÉTÉS REÇUES EN USUFRUIT.
+        </p>
+        <p xml:id="para_8_128_156">
+        (.a famille ne recoit aucune propriété en usufrit.).... ...................
+        </p>
+        <p xml:id="para_8_128_157">
+        ART. 2. — DROITS D'USAGE SUR DES PROPRIÉTÉS VOISINES.
+        </p>
+        <p xml:id="para_8_128_158">
+        (La famille 'evxerce auucun droit de ce genre.)............................
+        </p>
+        <p xml:id="para_8_128_159">
+        ART. 3. — ALLOCATIONS D'OBIETS ET DE SERVICES.
+        </p>
+        <p xml:id="para_8_128_160">
+        MeS prdit de péce. . . .. ... ... ..... .. . . .. .. . . ..... ... .. .. . . ...........
+        </p>
+        <p xml:id="para_8_128_161">
+        Gratuité de l'école pour le jeunc gar0n.... .. ... ................ .........
+        </p>-->
+       <pb facs="#facs_154" n="129" source="lesouvriersdesd02soci_0169.xml"/>
+       <!--<p xml:id="para_8_129_162">
+        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_154" url="#" xml:id="illu_8_129_1"/>
+       </figure>
+       <pb facs="#facs_155" n="130" source="lesouvriersdesd02soci_0170.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_155" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_130_163">
+        14. — BUDGET DES RECETTES DE L'ANNÉE (suite).
+        </p>
+        <p xml:id="para_8_130_164">
+        SOURCES DES RECETTES (uite).
+        </p>
+        <p xml:id="para_8_130_165">
+        SECTION III.
+        </p>
+        <p xml:id="para_8_130_166">
+        TRAVAUX EXÉCUTÉS PAR LA FAMILLE.
+        </p>
+        <p xml:id="para_8_130_167">
+        TRAVAUX DU CHEF DE FAMILLE
+        </p>
+        <p xml:id="para_8_130_168">
+        Travau de pêche et de conduite de la barque............................... ......
+        </p>
+        <p xml:id="para_8_130_169">
+        — de réparation, de nettoyage. de garde de la barque et des engins ; de ma¬
+        </p>
+        <p xml:id="para_8_130_170">
+        nuténtion et transport'du poissn.........................................
+        </p>
+        <p xml:id="para_8_130_171">
+        — <ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref>e(iqe (jverS, . .. .. . . ... ...... . . .. .. . . . .. .. . . . . ... . . .. . ... ..... . . . .... .
+        </p>
+        <p xml:id="para_8_130_172">
+        TOrAL des journées du chef de famille.
+        </p>
+        <p xml:id="para_8_130_173">
+        RAVAUX DE LA FEMME :
+        </p>
+        <p xml:id="para_8_130_174">
+        Travaux de culture du chanp pis en localion........................ ... .......... .
+        </p>
+        <p xml:id="para_8_130_175">
+        — de nettoyage du hangar loué a des pécheurs................................
+        </p>
+        <p xml:id="para_8_130_176">
+        — de vente et d'entretien auu magasin d'épicerie et de mercerie..........:.....
+        </p>
+        <p xml:id="para_8_130_177">
+        — de lavage, blanchissage et entretien des vêtements. ......... ..... ...........
+        </p>
+        <p xml:id="para_8_130_178">
+        —  <ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref>. . . .. ... . .. ... ..  . .... .. ..... . . .... . .. . . .. . . ..... . .. ... . .. .. .... ...
+        </p>
+        <p xml:id="para_8_130_179">
+        TRAVAUX DU JEUNE GAŖON :
+        </p>
+        <p xml:id="para_8_130_180">
+        Service de la messe à la paroisse, les dimanches et jours de fête.
+        </p>
+        <p xml:id="para_8_130_181">
+        SECTION IV.
+        </p>
+        <p xml:id="para_8_130_182">
+        INDUSTRIES ENTREPRISES PAR LR FAMILLE
+        </p>
+        <p xml:id="para_8_130_183">
+        (à son propre compte).
+        </p>
+        <p xml:id="para_8_130_184">
+        Entreprise de pêche en communauté avec l'armateur propriétaire de la barque, trois autres pé
+        </p>
+        <p xml:id="para_8_130_185">
+        <ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref>11 11) <ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref>S§. . . .. ... .. ...... ..... .. . . ... .... .. .:.. ......... .. .. .... ....... ..... .........
+        </p>
+        <p xml:id="para_8_130_186">
+        EXploitation du chanp pris en locatin ......... ........ .... .. .... ......... ... ............ ...... .
+        </p>
+        <p xml:id="para_8_130_187">
+        ETsSeent d pD0r C. ........... . . ......... .. . ... . . . .. . .. . . . . .. .... . ..:..:...................
+        </p>
+        <p xml:id="para_8_130_188">
+        Location du hangar à des pècheurs........:....:.. ..... ........................... ..........:..
+        </p>
+        <p xml:id="para_8_130_189">
+        Exploitation d'un petit commerce d'épicerie et de merceric........................................
+        </p>-->
+       <pb facs="#facs_156" n="131" source="lesouvriersdesd02soci_0171.xml"/>
+       <!--<p xml:id="para_8_131_190">
+        § 14. — BUDGET DES RECETTES DE LANNÉE (sute).
+        </p>-->
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_156" url="#" xml:id="tble_8_131_2"/>
+       </figure>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
+       <pb facs="#facs_157" n="132" source="lesouvriersdesd02soci_0172.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_157" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_132_192">
+        MONTANT DES DÉPENS
+        </p>
+        <p xml:id="para_8_132_193">
+        DÉSIGNATION DES DÉPENSES.
+        </p>
+        <p xml:id="para_8_132_194">
+        D́peuse
+        </p>
+        <p xml:id="para_8_132_195">
+        SECTION ᵉ
+        </p>
+        <p xml:id="para_8_132_196">
+        DÉPEMSES CONCERNANT LA NOURRITURE.
+        </p>
+        <p xml:id="para_8_132_197">
+        ́arie de froment et levure pour faire le pain.......
+        </p>
+        <p xml:id="para_8_132_198">
+        CSS D. . ..... . . . . . . . . . . .... .. .. ... . . ..... .. .
+        </p>
+        <p xml:id="para_8_132_199">
+        CORPs GRAS :
+        </p>
+        <p xml:id="para_8_132_200">
+        Graisse de porc foundue........ ............... ( 16,C)
+        </p>
+        <p xml:id="para_8_132_201">
+        LAITAGE ET OEUFS :
+        </p>
+        <p xml:id="para_8_132_202">
+        ,i de vace. .... ........ . .. ....... .. . . . . ............
+        </p>
+        <p xml:id="para_8_132_203">
+        VIANDES ET POISSONS :
+        </p>
+        <p xml:id="para_8_132_204">
+        Pore fumé....................... ............. ( 16, (C)
+        </p>
+        <p xml:id="para_8_132_205">
+        — S0 . .......... .......... . .. . .. ..... ..... . (i(d.). .
+        </p>
+        <p xml:id="para_8_132_206">
+        Beu pour quelques jours de fète........ ............
+        </p>
+        <p xml:id="para_8_132_207">
+        Poisson : Fretin provenant de lapêche(deelvisc)( 16, A)
+        </p>
+        <p xml:id="para_8_132_208">
+        Poids total et prix moyen......
+        </p>
+        <p xml:id="para_8_132_209">
+        LÉCUMES ET FRUITS :
+        </p>
+        <p xml:id="para_8_132_210">
+        PommeS de terres ....................... .... ( 16, B)
+        </p>
+        <p xml:id="para_8_132_211">
+        CONDIMENTS ET STIMULANTS :
+        </p>
+        <p xml:id="para_8_132_212">
+        § <ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref>)))). . . .. . ...... . . . . . . . . .... . .  . ... . . . ... ......
+        </p>
+        <p xml:id="para_8_132_213">
+        Poids total et prix moyen.......
+        </p>
+        <p xml:id="para_8_132_214">
+        BOISSONS FERMENIÉES :
+        </p>
+        <p xml:id="para_8_132_215">
+        La famille consomme du café à l'eau pour toute bpOiss0.. ... . ... ........... ... ...:............. (
+        </p>
+        <p xml:id="para_8_132_216">
+        ART. 2. — ALIMENTS CONSOMMÉS HORS DU MÉNACE.
+        </p>
+        <figure type="illustration">
+        <graphic facs="#facs_157" url="#" xml:id="illu_8_132_3"/>
+        </figure>-->
+       <pb facs="#facs_158" n="133" source="lesouvriersdesd02soci_0173.xml"/>
+       <!--<p>
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+        </p>-->
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_158" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_133_218">
+        DESIGNATION DES DÉPENSES (suite.
+        </p>
+        <p xml:id="para_8_133_219">
+        DÉPENSES CONCERNANT L'HABITATION.
+        </p>
+        <p xml:id="para_8_133_220">
+        Loyer représenté par l'iuntérêt (5°,.) : 1 d'une some de 800ᶠ déjià payée sur la valcur de la maison ; 2° d'uue dette de 1.600ᶠ sur cette valeui.....
+        </p>
+        <p xml:id="para_8_133_221">
+        Eretien et réparatios.. .. .. .. ::...... . .........:....:....... ... . ..:....
+        </p>
+        <p xml:id="para_8_133_222">
+        bon de terre 1.100 a 0ᶠ0e23. — Menu bois à 1rûler, 25ᶠ...... ..............
+        </p>
+        <p xml:id="para_8_133_223">
+        Huile de pétrole, 50 litres à 0ᶠ25................. ........ ........... ......
+        </p>
+        <p xml:id="para_8_133_224">
+        TOTAUX des dépenses concernant l'habitation........
+        </p>
+        <p xml:id="para_8_133_225">
+        DÉPENSES CONCERNANT LES VÊTEMENTS.
+        </p>
+        <p xml:id="para_8_133_226">
+        EMENTS de la famille :
+        </p>
+        <p xml:id="para_8_133_227">
+        Dépense moyenne annuelle de l'ouvrier.......
+        </p>
+        <p xml:id="para_8_133_228">
+        — de la femmne......
+        </p>
+        <p xml:id="para_8_133_229">
+        — — des deux enfants.
+        </p>
+        <p xml:id="para_8_133_230">
+        CISSAGE, entretien etconfection des vêtements : Main-d'œuvre, 75 jour¬nées de la femme à 1ᶠ 00; — Savon, achats d'étoffes, frais de merce¬Te, 2C., 27ᶠ (6. . ........... .... ......... . . .... ................ .......... .
+        </p>
+        <p xml:id="para_8_133_231">
+        OrAUx des dépenses concernant les vêtements.
+        </p>
+        <p xml:id="para_8_133_232">
+        MONTANT DES DÉPENSES.
+        </p>-->
+       <pb facs="#facs_159" n="134" source="lesouvriersdesd02soci_0174.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_159" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_134_233">
+        § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
+        </p>
+        <p xml:id="para_8_134_235">
+        MONTANT DESDÉPENSI
+        </p>
+        <figure type="illustration">
+        <graphic facs="#facs_159" url="#" xml:id="illu_8_134_4"/>
+        </figure>
+        <p xml:id="para_8_134_236">
+        DÉPENSES CONCERNANT LES BESOINS MORAUX, LES RÉCRÉATIONS ET LE SERVICE DE SANTÉ.
+        </p>
+        <p xml:id="para_8_134_237">
+        CULTE : FriS de eSSeS e1 (de serices..........................................
+        </p>
+        <p xml:id="para_8_134_238">
+        lNSTRUCTION DES ENFANT : Frais d'école, 6ᶠ00 par mois, pour la fille, 60ᶠ00; — frais
+        </p>
+        <p xml:id="para_8_134_239">
+        dont l'exonére la gratuité de l'ecole des garçons, 40ᶠ00..................
+        </p>
+        <p xml:id="para_8_134_240">
+        SECOURs ET AUMÔNES : Abandon de produits de pêche pour les pauvres de la commune, 4ᶠ00; — dons à quelques veuves de pécheur indigentes, 6ᶠ00.. RÉCRÉATIONS ET SOLENNITÉS : Dépenses aux kermesses (] 11), 25ᶠ00; — tabac a chiquer et dépenses de jeu, prélèvements sur les paies avant qu'elles ne soient entrées dans la caisse du ménage (ᵉ 1, art. 2), et que le pêcheur
+        </p>
+        <p xml:id="para_8_134_241">
+        S 2S 2V ¦1e2T. . . ... .. .......... ................ ........ . . ......... .
+        </p>
+        <p xml:id="para_8_134_242">
+        SERVICE DE SANTÉ : Réduit à quelques médicaments vulgaires..................
+        </p>
+        <p xml:id="para_8_134_243">
+        TOTAUX des dépenses concernant les besoins moraux, les récréations et le service de saunte.........
+        </p>
+        <p xml:id="para_8_134_244">
+        DÉPENSES CONCERNANT LES INDUSTRIES. LES DETTES. LES IMIPOTS ET LES ASSURANCES.
+        </p>
+        <p xml:id="para_8_134_245">
+        DÉPENSES CONCERNANT LES INDUSTRIES :
+        </p>
+        <p xml:id="para_8_134_246">
+        NOTA. — Les dépenses concernant les industries montent à (§ 16, F). 1.728ᶠ87 Elles sont remboursées par les reeettes provenant de ces mêmes industries, savoir :
+        </p>
+        <p xml:id="para_8_134_247">
+        Argent et objets employes pour la consommation du ménage ou 1aisant partie des epargues et portés a ce titre dans le présent
+        </p>
+        <p xml:id="para_8_134_248">
+        pe . ................:............:.ᵉ............... :S(54ᶠ (§5
+        </p>
+        <p xml:id="para_8_134_249">
+        Argent et objets appliques de nouveau aux industries (§ 14, S°ⁿ 1V), comme emploi momentané du fonds de roulement et qui ne peuvent conséquemmecnt figurer parmi les dépenses du ménage...................... 1. 164 22
+        </p>
+        <p xml:id="para_8_134_250">
+        NTÉRÉTS DES DETTES : Les deux tiers de la valeur de la maison sont encore
+        </p>
+        <p xml:id="para_8_134_251">
+        dus et donnent lieu à un intérèt (5 ) payé comme loyer ( 1I).........
+        </p>
+        <p xml:id="para_8_134_252">
+        1MPôrs : Suivant le compe donné ci-contre ( 1t6) ........ .....................
+        </p>
+        <p xml:id="para_8_134_253">
+        ASSURANCES CONCOURANT A GARANTIR LE BIEN-ÈTRE PMHISIQUE ET MORAL DE LA FAMILLE : Coutributions annuelles : a la corporation des pécheurs de Heyst, 1ᶠ50 ; — à la Caisse de prévoyance ( 7 pour mémoire) ; — à une cofrérie religieuse, 2ᶠ00.................................................
+        </p>
+        <p xml:id="para_8_134_254">
+        TOTAL des dépenses concernant les industries, les dettes, les impôts ¦§ SS1TS. . . ....... ...... ..... .... .. . ...... . .. . . ..........
+        </p>
+        <p xml:id="para_8_134_255">
+        ÉPARCNE DE L'ANNÉE : Destinée à l'amortissement progressif de la dette sur la valeur de la maison d'habpitation ( 1). .................................
+        </p>
+        <p xml:id="para_8_134_256">
+        OTAUN DES DÉPENSE de l'année (balançant les recettes)....... (1.459ᶠ58)
+        </p>-->
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
+       <pb facs="#facs_160" n="135" source="lesouvriersdesd02soci_0175.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_160" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_135_259">
+        SECTION I.
+        </p>
+        <p xml:id="para_8_135_260">
+        COMPTES DES BÉNÉFICES
+        </p>
+        <p xml:id="para_8_135_261">
+        RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à sou propre compte).
+        </p>
+        <p xml:id="para_8_135_262">
+        A. — ENTREPRISE DE PÊCHE EN COMMUNAUTÉ AVEC L'ARMATEUR PROPRIÉTAIRE DE LA BARQUE, TROIS AUTRES PÈCHEURS ET UN MOUSSE.
+        </p>
+        <p xml:id="para_8_135_263">
+        de simple pècheur (naet) dans la répartition de la paie, évaluée en
+        </p>
+        <p xml:id="para_8_135_264">
+        yenne à 25ᶠ00 par quinzaine...................... ........................
+        </p>
+        <p xml:id="para_8_135_265">
+        u poisson (deeluisc) counsommé par la famille, 225 0ᶠ40.............:..
+        </p>
+        <p xml:id="para_8_135_266">
+        luits de pêche non comestibles (étoiles de mer, etc.), employés comme
+        </p>
+        <p xml:id="para_8_135_267">
+        grais, 30 paniers à 1ᶠ00. ..................................................
+        </p>
+        <p xml:id="para_8_135_268">
+        spéciale attribuée au pècheur en qualité de patron. .....................
+        </p>
+        <p xml:id="para_8_135_269">
+        Totaux des recettes.................. .::.....
+        </p>
+        <p xml:id="para_8_135_270">
+        -d'œuvre : Travail du chef de famille comme pècheur et comme pa¬
+        </p>
+        <p xml:id="para_8_135_271">
+        n de barque, 189 journées à 1ᶠ 75. . ......................................
+        </p>
+        <p xml:id="para_8_135_272">
+        Travau de réparation, nettoyae, garde de la barque et des
+        </p>
+        <p xml:id="para_8_135_273">
+        engins : manutention et transport du poisson, 719 ̀ 0ᶠ70....
+        </p>
+        <p xml:id="para_8_135_274">
+        rét de sa part du matériel de pèche................................. ( t6)
+        </p>
+        <p xml:id="para_8_135_275">
+        BÉNÉFICE résuHtant de l'industrie................. ...................... ....
+        </p>
+        <p xml:id="para_8_135_276">
+        Tolaux comme ci-dessus.
+        </p>
+        <p xml:id="para_8_135_277">
+        8. — EXPLOITATION DU CHAMP PRIS EN LOCATION.
+        </p>
+        <p xml:id="para_8_135_278">
+        lte de pommes de terre, 1.300ᶥ à 0ᶠ0... 1ets destinés a p0r....................
+        </p>
+        <p xml:id="para_8_135_279">
+        Totaux des rccettes.
+        </p>
+        <p xml:id="para_8_135_280">
+        2r d'une demi-mesure (22 ares) de terre .................................:.
+        </p>
+        <p xml:id="para_8_135_281">
+        ence : Pommes de terre, 33 a 0ᶠ09. . ...................... .................
+        </p>
+        <p xml:id="para_8_135_282">
+        ure : Produits de pêche non comestibles (étoiles de mer, ctc.) (§ 14, SP 1),
+        </p>
+        <p xml:id="para_8_135_283">
+        De ] )),, .. ... ............... .... . .............. ....................
+        </p>
+        <p xml:id="para_8_135_284">
+        tion, pendant 2 journées, d'un cheval et d'une charrue.......:....:......
+        </p>
+        <p xml:id="para_8_135_285">
+        -d'œuvre : Salaire de la femme, 12 journées au printemps et 18 j. à l'au¬Qe2,  ) 7), . ..............................................
+        </p>
+        <p xml:id="para_8_135_286">
+        — Salaure d'une ouvrière pour aider à récolter, 3 journées à 1ᶠ65.
+        </p>
+        <p xml:id="para_8_135_287">
+        rèt (5 ) de la valeur du matériel d'exploitation. .................... ( 6)
+        </p>
+        <p xml:id="para_8_135_288">
+        BÉNÉFICE réSultant de cette industrie................................
+        </p>
+        <p xml:id="para_8_135_289">
+        Totaux comme ci-dessus.
+        </p>-->
+       <pb facs="#facs_161" n="136" source="lesouvriersdesd02soci_0176.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_161" url="#"/>
+       </figure>
+       <!--<p xml:id="para_8_136_292">
+        C. — ENGRAISSEMENT DU PORC.
+        </p>
+        <p xml:id="para_8_136_293">
+        Produits de l'abatage du porc engraissé : Viande salée, 30 a 1ᶠ
+        </p>
+        <p xml:id="para_8_136_294">
+        Viande fmee, 20ᶥ ; 1ᶠ75.................:....:........
+        </p>
+        <p xml:id="para_8_136_295">
+        G'aisSe, 50 ; 2ᶠ)0. . ... .. ......... ...... ........:.....
+        </p>
+        <p xml:id="para_8_136_296">
+        Totaux des recettes.
+        </p>
+        <p xml:id="para_8_136_297">
+        ACI ( ete p0TC.. . . .. ........ .... . .. ......... ........ ... .. ........ . ... . ..
+        </p>
+        <p xml:id="para_8_136_298">
+        Nourriture : Pommes de terre, 700ᵏ a 0ᶠ09; — déchets, 1ᶠ30. ..................
+        </p>
+        <p xml:id="para_8_136_299">
+        — Frine de seigle, 100 0ᶠ25........ ....:..:........... .........
+        </p>
+        <p xml:id="para_8_136_300">
+        EFrais d'abalage et de salaison payés a boucler..............................
+        </p>
+        <p xml:id="para_8_136_301">
+        ntéret (5 ) le la valeur moyenne du porc.... ........ ..:............... ( 6)
+        </p>
+        <p xml:id="para_8_136_302">
+        — .— — de la porcherie. ....... ................. ....... ( 6)
+        </p>
+        <p xml:id="para_8_136_303">
+        BÉNÉFuE réSultant de cette industrie... ... ......... ... .. ....... ......... ..
+        </p>
+        <p xml:id="para_8_136_304">
+        Totaux comme ci-dessus
+        </p>
+        <p xml:id="para_8_136_305">
+        D. — LOCATION DU IHANGAR A DES PÈCHEURS.
+        </p>
+        <p xml:id="para_8_136_306">
+        Prix de la locauion annuelle du hangar, en commun, aux équipages de trois chaloupes de péche, 30ᶠ00 par èquipa§0................ .... ... .............
+        </p>
+        <p xml:id="para_8_136_307">
+        nterèt <ref type="renvoi_int_mono" target="#part_02_05_16"><ref type="renvoi_int_mono" target="#part_02_05_16">(5)</ref></ref> de la valeur du hangr.............. ............. ..... ..... ....
+        </p>
+        <p xml:id="para_8_136_308">
+        —  — (du alérie] d'exploitai..... ... .. . . .. .............
+        </p>
+        <p xml:id="para_8_136_309">
+        Main-d'ruvre : Travaux de la feme pour nettoyage dn hangar, 20 jour¬1(§ ; <ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref> 7<ref type="renvoi_int_mono" target="#"><ref type="renvoi_int_mono" target="#">()</ref></ref>,,. . .. . . ...... . . .. .. . . .. . ... .. . . . ... .... . . . . . . . . ... ... . . .... .. . . ... .
+        </p>
+        <p xml:id="para_8_136_310">
+        BÉNÉFICE résuHtant de l'industrie.... . . .. ........... ....::.... ........ .......
+        </p>
+        <p xml:id="para_8_136_311">
+        Tota comme ci-dessus.
+        </p>
+        <p xml:id="para_8_136_312">
+        E. — EXPLOITATION D'UN PETIT COMMERCE D'ÉPICERIE ET DE MERCERIE.
+        </p>
+        <p xml:id="para_8_136_313">
+        RECETTES.
+        </p>
+        <p xml:id="para_8_136_314">
+        Somne réalisée par la vente de l'année
+        </p>
+        <p xml:id="para_8_136_315">
+        CS (S T)SeS. . . ............ .. . .................... . .. .......... .
+        </p>
+        <p xml:id="para_8_136_316">
+        Travai de la femme : 30 journées a 1ᶠ00. ........ ... .................... ......
+        </p>
+        <p xml:id="para_8_136_317">
+        Part d'intérét de la valeur de la maison d'abitation, applicable au magasin.
+        </p>
+        <p xml:id="para_8_136_318">
+        térét (55 ) du fonds de roulement (300ᶠ 00)............:......................
+        </p>
+        <p xml:id="para_8_136_319">
+        BNÉFICE réSlat de l'in(dustrie..... ... ..... ..............................
+        </p>
+        <p xml:id="para_8_136_320">
+        Total comme ci-dessus.
+        </p>-->
+       <pb facs="#facs_162" n="137" source="lesouvriersdesd02soci_0177.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic facs="#facs_162" url="#" xml:id="tble_8_137_5"/>
+       </figure>
+       <!--<p xml:id="para_8_137_321">
+        SECTION II.
+        </p>
+        <p xml:id="para_8_137_322">
+        COMPTES RELATIFS AUX SUBVENTIONS.
+        </p>
+        <p xml:id="para_8_137_323">
+        .— Les évaluations qui concernent les subventions sont directement portées au budget des recettes.
+        </p>
+        <p xml:id="para_8_137_324">
+        SECTION III.
+        </p>
+        <p xml:id="para_8_137_325">
+        COMPTES DIVERS.
+        </p>
+        <p xml:id="para_8_137_326">
+        . — COMPTE DES IMPÔTS QUE PAIE LA FAMILLE.
+        </p>
+        <figure>
+        <graphic facs="#facs_162" url="#" xml:id="tble_8_137_6"/>
+        </figure>-->
+      </div>
+     </div>
+     <div n="003" type="section">
+      <head type="section" xml:id="part_03">
+       ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
+      </head>
+      <p xml:id="para_8_138_327">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE;
+      </p>
+      <p xml:id="para_8_138_328">
+       PARTICULARITÉS REMARQUABLES;
+      </p>
+      <p xml:id="para_8_138_329">
+       APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.
+      </p>
+      <div n="001" type="sub_section">
+       <div n="001" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         § 17. ORGANISATION DE LA PÊCHE CÔTIÈRE SUR LE LITTORAL BELGE.
+        </head>
+        <p xml:id="para_8_138_331">
+         <pb facs="#facs_163" n="138" source="lesouvriersdesd02soci_0178.xml"/> Les pêcheurs de Blankenberghe et de Heyst ne se livrent qu'à la pe¬tite pêche côtière. Ils vont à une quinaine de lieues, souvent sur les côtes de Hollande ; mais leurs voyages, qui sont fréquemment limités à quelques heures, ne dépassent presque jamais quatre jours (du lundi au vendredi), sauf cas de force majeure. Ils pêchent surtout les poissons suivants : raie, sole, turbot, églefin, esturgeon, cabillaud, rouget, plie. Les pêcheurs d'O0stende et la Panne, au contraire, font la grande pê¬cle, notamment celle du hareng ; ils vont jusqu'en Islande, et restent absents pendant des mois. Nous n'en parlerons point ici.
+        </p>
+        <p xml:id="para_8_138_332">
+         La barque ou chaloupe de petite pêche (schutter) est très primi¬tive dans sa construction. Voici comment elle est décrite dans les rapports aux expositions de Boulogne et d'Anvers
+         <note type="bp">
+          <p>
+           Rapport de M. de Brouver à Boulogne cité dans le rapport sur la pêche maritime à l'exposition universelle d'Anvers, 1885, p. 24.
+          </p>
+         </note>
+         : «Ce bateau de pêche est l'ancien bateau à clin, à forte tonture, à la forme et à la poupe rondes. Il a environ l l mètres de longueur ; sa plus grande largeur est de 3ᵐ,25 et sa profondeur moyenne de 1ᵐ,30. Ces dimen¬sions lui donnent une capacité d'environ 20 tonneaux de jauge. De¬vant échouer sur le sable à chaque retour de la pêche, il n'a pas de quille, et ses varangues sont plates. Comme tous les bateaux qui appartiennent aux plages, il porte à tribord et à babord une grande semelle mobile, afin d'empêcher autant que possible la dérive. Le ba¬teau n'est pas ponté, toutefois il possède à l'avant un réduit servant de lieu de repos. Son gréement est très simple ; il porte deux mâts <pb facs="#facs_164" n="139" source="lesouvriersdesd02soci_0179.xml"/> verticaux ayant chacun sa voile carrée, le mât principal occupe à peu près le point central, le petit mât est debout à l'avant.  Une ou¬verture ménagée dans le tillac livre passage à la fumée d'un petit poêle, où le pêcheur fait frire le fretin de sa pêche.
+        </p>
+        <p xml:id="para_8_139_335">
+         D'après le même rapport à l'exposition d'Anvers sur la peche ma¬ritime, et d'après les intéressantes oles de M. A. Bardin, nous allons donner la description des engins de la pêche côtière. « La pêche, dit celui-ci
+         <note type="bp">
+          <p>
+           Notes historiques sur Blanhenberghe. Bruges. Daveluy 2ᵉ éd. s.d. p. 63.
+          </p>
+         </note>
+         , e pratique de deux facons : au chalut (horrenet) et aux polles ou rèdres (staauleet)..... Le chalut, d'origine anglaise,.. a la forme d'une chausse conique, dont la gueule présente une ouverture de dix à douze mètres. Une vergue d'écartement, attachée à la pre¬mière rangée de mailles de la partie supérieure, est maintenue par deux fers coudés, dont les extrémités aplaties soutiennent l'appareil et facilitent la traîne au fond de la mer. La rangée de mailles opposée est garnie de débris de cordages et d'étoupes ; elle frole le lit de la mer, et le poisson surpris s'engage dans la cache du chalut... Un fort grelin attache le chalut à la barque... Après deux ou trois heures de manœuvre, le chalut est hissé à bord, et la pointe conique étant défaite, laisse échapper le butin à fond de cale (la maneuvre est faite au cabestan). La pêche aux folles ou rêdres s'exercé en hiver, de novembre à mars ; elle s'attaque au cabillaud. Le filet, pareil aux barreurs employés à la pêche du hareng, est dressé en mer au moyen de balises flottantes qui maintiennent à fleur d'eau sa partie supérieure ; les ancres et les plombs qui tendent les parties inférieures, assurent une position verticale à l'appareil. D'ordinaire on embarque vingt filets, chacun d'eux peut avoir 25 mètres d'envergure, et de ce qu'ils se dressent de front, la ligne des balises atteint parfois une étendue de deux à quatre kilomètres... Le filet tendu est abandonné pendant un ou deux jours ; l'équipage y revient, visite l'appareil, et trouve le poisson, arrêté dans les mailles,  par les ouies, qui ne lui per¬mettent plus de s'échapper.
+        </p>
+        <p xml:id="para_8_139_338">
+         Les barques d'0stende, sont beaucoup plus considérables et cons¬truites à quille ; elles ont un tonnage qui atteint 56 tonnes mais ce sont aussi des chalutiers qui n'emploient pas d'engins plus per¬perfectionnés. Actuellement, il se produit un mouvement en faveur de la pêche par chalutiers à vapeur. M. A. Lecointe, ingénieur de la marine à Ostende, a publié une intéressante étude sur les condi<pb facs="#facs_165" n="140" source="lesouvriersdesd02soci_0180.xml"/>tions de cette trans formation et sur les compagnies et steamers de pêche en Angleterre
+         <note type="bp">
+          <p>
+           La pêche â vapeur en Angdeterre et l pêche à Oslede. Ostende; Daveluy, 1881.
+          </p>
+         </note>
+         . Il y expose à la fois la question au point de vue industriel et financier, en comparant les comptes du système actuel d'Otende et ceux de la pêche à vapeur. A son avis, l'avenir de la pêche maritime est dans ce dernier système ; c'est aussi l'opinion du commissaire du gouvernement pour la section de la pêche mari¬time à l'exposition d'Anvers, M. Jules Orban de Nivry. Le produit moyen brut d'une chaloupe à voiles, peut être estimé pour Blanlen¬berghe à 6.500 fr. ; à Heyst, d'après les avis les plus autorisés, il n'at¬teint pas 6.)0) fr., sans doute à cause des conditions moins favorables de débouchés et de vente
+         <note type="bp">
+          <p>
+           Rapport cité.
+          </p>
+         </note>
+         . Le profit de la pêche a beaucoup baissé depuis quelques années avec le prix du poisson, surtout depuis que les armateurs anglais et francais viennent déverser en abondance leur pêche sur nos côtes.
+        </p>
+        <p xml:id="para_8_140_341">
+         Les chaloupes appartiennent à des armateurs
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          (§ 1)
+         </ref>
+         et non aux pêcheurs. Ce n'est qu'à la Panne qu'un philanthrope intelligent, M. Bordier, a avancé aux pêcheurs la somme nécessaire, en a reçu le paiement par amortissement, et a rendu ainsi le pêcheur maître de barques. Quelque avantage qu'l puisse y avoir pour le pêcheur, à acquérir cette situation, elle lui est inconnue aussi bien à Ostende qu'à Heyst et à Blankenberghe. L'armateur construit la barque, qui toute gréée, représente un capital engagé d'environ 5.500 francs. Ce capital fixedure en moyenne 14 ans, après ce service, la carcasse ne vaut plus qu'une cinquantaine de franes de vieux bois. Au bout de 9 ans déjà, il faut renouveler les grandes planches (verplanen) et durant toute la vie de la chaloupe, il y a de grosses réparations. L'armateur. d'après les bénéfices moyens de Heyst, ne réalise que 800 a900 fancs de recette brute. Il faut prélever sur cette somme les avaries et le rapide amortissement du capital. Or ces charges sont considérables ; aussi la plupart des armateurs augmentent leurs pro¬fit s, en ajoutant à leur entreprise l'industrie de cordier, que leur assure la fourniture de leurs équipages, et parfois celle de charpentier¬constructeur. Dans ce dernier cas, faisant de grandes économies sur la construction et les réparations, ils parviennent à élever leurs béné¬fices et à s'enriehir. Ils sont tenus de supporter les grosses avaries qui arrivent au corps de la chaloupe, aux mâts, aux voiles, à tout ce <pb facs="#facs_166" n="141" source="lesouvriersdesd02soci_0181.xml"/> qui est sur l'eau, plus les ancres, les gros câbles, la boussole, la lan¬terne, tout ce qu'ils fournissent au début, sauf faute de la part du patron, qui pourrait engager sa propre responsabilité. Dans les autres avaries qui arrivent aux filets, l'armateur intervient seulement pour sa part, comme dans la constitution du capital
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          (§ 1)
+         </ref>
+         .
+        </p>
+        <p xml:id="para_8_141_345">
+         L'équipage normal de quatre maeten, compagnons dont un patron, plus un mousse
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          (§ 1)
+         </ref>
+         , se forme chaque année vers la fin d'octobre. ordinairement le 2 novembre. L'armateur choisit un patron d'après ses capacités, car celles-ci ont grande influence sur le profit de la pêche ; il doit choisir les bons courants, connaitre les places, éviter les avaries, etc. Le patron à son tour embauche son équipage. Ce engagements se prennent pour un an à partir de leur date, devant le commissaire maritime du gouvernement. La constitution du rôle d'é¬quipage entraîne pour le pêcheur un impôt annuel de 9 francs (loi du 8 mars 1843). Aux termes d'un arrêté royal du 21 décembre 1849, les marins belges sont tenus d'être porteurs d'un livret dans lequel le commissaire inscrit les dates de leurs engagements et licenciements Le coût en est de 45 centimes. Les engagements changent rarement ; les hommes restent généralement fidèles à leur barque ; il y a assez de permanence. Les conditions disciplinaires de l'engagement sont do¬minées par le code belge pour la marine marchande et la pêche ma¬ritime, qui est la loi du 21 juin 1849. En vertu de son article 52, « le capitaine a sur les gens de l'équipage l'autorité que comportent la sûreté du navire, le soin des marchandises et le succès de l'expédi¬tion ». — Art. 53 : Le capitaine doit user de son autorité avec modéra¬tion ». Bien de vieux usages . surtout à Blankenberghe, complètent ce code ou même dérogent. Ce sont les lois de la corporation.
+        </p>
+       </div>
+       <div n="002" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         § 18. LA CORPORATION DES PECHEURS.
+        </head>
+        <p xml:id="para_8_141_348">
+         Les pêcheurs forment une catégorie toute spéciale de la population
+         <ref target="#part_02_01_03" type="renvoi_int_mono">
+          (§ 3)
+         </ref>
+         , une sorte de caste. Très attachés à leur métier, ils se le trans¬mettent presque toujours héréditairement. Si ous les fils de pêcheurs ne le deviennent pas eux-mêmes, il est cependant fort rare qu'on admette un étranger dans ce métier. Cn seul exemple s'est produit à Heyst depuis dix ans. Ce fait a été signalé, avec raison, par M. Van den Bussche, dans ses savantes et intéressantes études sur la pêche et <pb facs="#facs_167" n="142" source="lesouvriersdesd02soci_0182.xml"/> les pêcheurs de Blankenberghe
+         <note type="bp">
+          <p>
+           Van den Bussche. La peche et les peiceurs de Blankenberghe, 1877, et les ar¬ticles épars dans la Revue La landre. publiée à Gand. Ce même ouvrage publie le texte flamand de la charte de la corporation.
+          </p>
+         </note>
+         . A Heyst aussi, les mêmes noms de famille de pêche se retrouvent fort loin dans les souvenirs locaux et sont portés par un grand nombre de pêcheurs ; on cite les van 'orre, les Savels, les Vlieting, les van Dierendoncl, etc. Les pêcheurs se ma¬rient entre eu, et les engins de pêche se trouvent souvent dans l'héri¬tage du père et dans la corbeille de la fiancée. A Blankenberghe les pêcheurs forment de temps immémorial une corporation, dont les antiques usages sont encore la loi du métier. La loi solennelle du serment des pêcheurs fut donnée par l'impératriee Marie-Thérèse dans une charte du 10 décembre 1767, qui ne faisait que confirmer, avec quelques modifications, les statuts du 26 mars 1696. La charte conservée est encore en vigueur, dans ses principales dispositions, et et a perpétué le souvenir populaire de l'Impératrice, dont bien des pêcheurs portent encore l'effigie. A Heyst, l'histoire ne parle pas d'un serment organisé. Il n'y a qu'un an, et le fait est remarquable, que les pêcheurs de cette plage se sont constitués en corporation, et sont allés demander au doyen de la pêche de Blankenberghe de leur donner un règlement. Celui-ci est une charte modernisée, mais ins¬pirée des traditions du métier. La corporation est formée entre les 37 patrons de barque (stuerman). Elle a, à sa tête, un doyen et deux syndics, plus un secrétaire et un trésorier.
+        </p>
+        <p xml:id="para_8_142_350">
+         L'article essentiel de la charte corporative investit le doyen d'une autorité illimitée sur les membres du métier, en ce qui concerne la profession. Ils doivent obéir à ses ordres. Le lien. pour ne pas être assermenté, n'en est pas moins respecté. Le doyen de la pêche à Heyst, le pêcheur Amand Couvyser, réalise fort bien le type de son métier ; il est fier de sa dignité et a encadré avec une légitime satis¬action l'ode inaugrurale qu'a composée pour lui un de ses compa¬gnons, lors de son installation. Les prescriptions du règlement cor¬poratif ne sont pas nombreuses. Elles portent sur quelques points de l'exercice de la profession. Voici les prin cipales : Défense d'aller en mer les dimanches et les jours de fête, d'y rester après le coucher du soleil les veilles de ces mêmes jours. Les chaloupes doivent oc¬cuper, sur la plage, les places qui leur sont assi gnées, sau cas de force najeure. Les chaloupes qui ramènent des pierres dans leurs filets doivent les porter au rivage et non les rejeter à la mer ; celles qui <pb facs="#facs_168" n="143" source="lesouvriersdesd02soci_0183.xml"/> pmènent une ancre à terre recoivent une rémunération des autres équipages, car pierres et ancres font des avaries au filets, et il im¬porte de les tirer de l'eau. Si une chaloupe est en souffrance dans un port étranger, elle doit le télégraphier au doyen ; de même un retard de 48 heures sur le retour normal oblige le doyen à une en¬quête sur le sort de la chaloupe. La corporation donne parfois des secours aux pêcheurs qui ont éprouvé des accidents en mer. L'autor rité absolue du doyen ou de ses syndics peut étendre ces prescriptions. Nous avons dit qu'ils ont droit à l'obéissance des pêcheurs. Le doyen peut défendre de sortir un jour déterminé, de prendre telle place à la plage ; il peut ordonner la participation à telle fête. etc. La corporation est trop jeune encore pour qu'on puisse apprécier l'in¬fluence de son institution.
+        </p>
+        <p xml:id="para_8_143_353">
+         Les pêcheurs se connaissent bien entre eux : ils se désignent d'or¬dinaire par des surnoms dont l'usage est très répandu. Lorsqu'un homme débute sur mer, il reçoit un surnom en quelque sorte officiel, que lui impose un pêcheur appelé de ce chef le grand parrain (de groote peter), à qui ils offrent leurs souhaits de nouvelle année et qui leur donne un s petit verre » en étrenne le jour de l'an.
+        </p>
+       </div>
+       <div n="003" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         § 19. LES SOCIÉTÉS EN PARTICIPATION CHEZ LES PÈCHEURS.
+        </head>
+        <p xml:id="para_8_143_356">
+         Les comptes de la pêche
+         <ref target="#part_02_05_16" type="renvoi_int_mono">
+          (§ 16, A)
+         </ref>
+         sont malaisés à fixer. D'antiques usages leur donnent une forme archaique dont il est difficile de saisir la clé. Le principe est l'association du capital et du travail, et la rémunération d la pat. Quand la barque arrive à terre, le gros poisson est expédié par l'équipage aux marchands de l'intérieur. Ceux-ci, chaque quinzaine, renvoient aux armateurs le compte de la vente. A cette somme, il faut joindre, en principe, le prix du poisson vendu directement par l'équipage, mais sur cet article, il y a souvent du déchet au profit des pêcheurs. Le produit brut fixé, l'armateur, de concert avec le patron de chaque chaloupe, dresse le tableau de répartition.
+        </p>
+        <p xml:id="para_8_143_357">
+         Avant part, on prélève 5% du produit brut, qui sont censés repré¬senter les frais de comptabilité et de bureau ; c'est le schryfgeld. L'armateur en garde 2/3, et donne l'autre 1/3 au patron, à titre de <pb facs="#facs_169" n="144" source="lesouvriersdesd02soci_0184.xml"/> salaire spécial de sa direction ; c'est le stuermans gagie en prenant la moyenne de 600 francs, acceptée dans le compte des recettes, ce sa¬laire peut s'élever à 87 ou 90 francs par an
+         <ref target="#part_02_05_14" type="renvoi_int_mono">
+          (§ 14, Sᵉ II)
+         </ref>
+         . Sur ce qui reste, on prélève l'ensemble des frais auxquels tous les participants doivent contribuer, notamment les réparations ou le renouvellement des chaluts, ainsi que les frais de transport du poisson, la location du ot, les paniers, etc. ; ce sont les frais de l'expédition, nommés um¬osten van thuus (onbosten van t'hus, frais de la maison). Cela fait l'armateur, à titre de capitaliste propriétaire, prend 20 du reste, et sur cette somme il doit faire les dépenses que la coutume lui im¬pose à lui seul (
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          § 1
+         </ref>
+         et
+         <ref target="#part_03_01_17" type="renvoi_int_mono">
+          17
+         </ref>
+         ). Du surplus, on prélève les contributions dues par l'équipage, sans intervention de l'armateur, notamment les cordes pour la fabrication des filets d'hiver qui sont à sa charge. les frais du petit ménage de la barque, etc. : on désigne cet article sous le nom d'une vieille monnaie, dobbels. Enfin ce qui reste, produit net (rggeld) pour l'équipage, est partagé entre les 4 maeten et le mousse : chaque homme a une part ; le mousse a 2/3 de part. Ce partage s'appelle la paie. Dans ce compte n'interviennent donc ni les grosses avaries, que supporte seul l'armateur, sauf le cas de faute du patron ; ni le fretin, propriété exclusive de l'équipage.
+        </p>
+        <p xml:id="para_8_144_359">
+         Cela dit, dressons le décompte d'une quinzaine moyenne :
+        </p>
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_1">
+          Compte d'une quinzaine de pêche (notes annexes)
+         </head>
+         <graphic facs="#facs_169" url="#"/>
+        </figure>
+        <!--<p xml:id="para_8_144_360">
+         Produit brut de la vente
+         </p>
+         <p xml:id="para_8_144_361">
+         chrfeld 5 .........
+         </p>
+         <p xml:id="para_8_144_362">
+         osle ea thuus....
+         </p>
+         <p xml:id="para_8_144_363">
+         1 douaine de paniers...
+         </p>
+         <p xml:id="para_8_144_364">
+         Reste 224ᶠ87
+         </p>
+         <p xml:id="para_8_144_365">
+         Part de l'armateur, 20 ............. 44 98
+         </p>
+         <p xml:id="para_8_144_366">
+         ¯Dobbels et cordes..... .............. 25 00
+         </p>
+         <p xml:id="para_8_144_367">
+         Produit net (vrggeld). .............. 154 89
+         </p>
+         <p xml:id="para_8_144_368">
+         A partager cn 4 aeten et 1 mousse
+         </p>
+         <p xml:id="para_8_144_369">
+         Part de chaque naet...... 33 57
+         </p>
+         <p xml:id="para_8_144_370">
+         Part du mousse ........... 20 61
+         </p>-->
+        <p xml:id="para_8_144_371">
+         Le système des comptes est à peu près le même sur les di¬verses plages du littoral, sauf des variétés de détail. M. Bardin a publié le décompte de Blankenberghe ; M. Lecointe, celui d'Ostende. A Anvers, l'armement touche généralement 3/8 de la pêche, tous rais déduits ; a 0stende, 1/3 du produit net ; à Blankenberghe, comme à leyst, 1/5, sans compter les frais de gérance et de bureau (schrpfgeld). Ces différences proviennent de la part plus ou moins <pb facs="#facs_170" n="145" source="lesouvriersdesd02soci_0185.xml"/> considérable que prend le capital à l'exécution même de l'entreprise. Dans le système de pêche d'Ostende
+         <ref target="#part_03_01_17" type="renvoi_int_mono">
+          (§ 17)
+         </ref>
+         , cette part est bien plus grande. Ces comptes sont asse compliqués, et il faut la longue ha¬bitude des gens de la côte pour y retrouver aisément les divers articles et leur signification. Il n'y a que peu d'années qu'on est parvenu à leur faire adopter la monnaie courante, au lieu des anciens patars, escalins, gros, etec.
+        </p>
+        <p xml:id="para_8_145_374">
+         Ce système de répartition des produits entre pêcheurs se pratique sur une foule de côtes. En France, en Espagne, en Grèce, en Russie, en Amérique, on trouve, comme en Belgique, le travail à la part
+         <note type="bp">
+          <p>
+           <ref target="#" type="renvoi_ext_oe">
+            F. Le Play, Ouvriers européens, t. I. p. 97.—Le Pécheur de Saint-Sébastien
+           </ref>
+           ,
+           <ref target="#ID-009a" type="renvoi_int_od2m">
+            Ou¬vriers des Deux Mondes, 1ʳᵉ série, t. I, n° 9.
+           </ref>
+           — F. EScard, e patronage ches les pe¬cheurs de la Méditerranee, Annuaire de l'économie sociale, 1880, p. 215. — Les Pé¬cheurs cdtiers des Martigues, Bull. Soc. écon. soc., t. VII, p. 13. — ne Paroisse mo¬dèle, Association catholique, Paris, 15 décembre 1879. etc. — Le pêcheur de Martigues ;
+           <ref target="#ID-052a" type="renvoi_int_od2m">
+            Ouvriers des Deux Mondes, 2ᵉ série, t. I, n° 52
+           </ref>
+           .
+          </p>
+         </note>
+         . Il en est autrement en Angleterre, en Hollande
+         <note type="bp">
+          <p>
+           <ref target="#ID-037a" type="renvoi_int_od2m">
+            Le pécheur de Marben,Ouvriers des Deux Mondes, 1 série, . IV, n° 37.
+           </ref>
+          </p>
+         </note>
+         . La nature du travail de la pêche explique cette organisation coopérative. Ce mode de con¬trat intéresse chacun au profit d'une entreprise où l'effort personnel et soutenu est réclamé de tous ; il les engage à veiller aux engins dont ils ont une part ; il est adapté à un genre de travail simple, mais où l'appui mutuel est indispensable : les difficultés de direction s'effacent devant la nécessité de la discipline à bord, pour le salut de l'équipage comme pour le succês de la pêche. D'anciennes habitudes, des relations intimes, des parentés fréquentes entre les pêcheurs fa¬cilitent aussi la pratique du système.
+        </p>
+        <p xml:id="para_8_145_375">
+         On ne peut assurément tirer de la coopération de pêche un argu¬ment en faveur du système général de la coopération de production. 'rop de circonstances spéciales interviennent ici. D'ailleurs, même pour les pêcheurs, tout le monde n'est point partisan du maintien de ces comptes antiques. Une grande confiance mutuelle est nécessaire. Or entre armateurs et pêcheurs également participants, il peut surgir des difficultés. Le systême peut prêter, des deux parts, à une exploi¬tation qui engendre des récriminations où il est malaisé de saisir le bon droit. D'aucuns prétendent qu'il y a parfois une sorte d'exploi¬tation mutuelle ou le travail fraude le capital par des ventes de pois¬son non déclaré et par d'autres moyens détournés, et où le capital se rattrape par les fournitures d'engins de pêche. Il est difficile d'ap¬précier la réalité de ces accusations mutuelles de fraude ou de trucb̀ <pb facs="#facs_171" n="146" source="lesouvriersdesd02soci_0186.xml"/> que ce système de comptes facilite évidemment
+         <note type="bp">
+          <p>
+           Etude de M. le Cᵉ F. L. VNaldbott de Bassenheim, en séance du 9 novembre 188 de la Société belge d'économie sociale, résumée dans leouvrier de Brurelles des t1 et 12 novembre. Elle concerne les pêcheurs d'0stende.
+          </p>
+         </note>
+         . Il y aurait lieu d'examiner cette situation de plus près, et déjà quelques personnes songent à préconiser le salariat pour le pêcheur
+         <note type="bp">
+          <p>
+           La loi du 16 août 1887, défend le paiement des salaires en nature et interdit, sauf cas spéciaux, les fournitures de patrons à ouvriers. Elle a pour but d'empêcher les abus du truch system. (Voir notre article : Les nouvelles lois sociales en Belgique, dans la éforme sociale. 2ᵉ série, t. V, p. 1I97.) Mais cette loi, d'après une déclaration faite au sénat par les ministres, ne s'appliquera pas aux pécheurs (séance du 11 aout 1887): bien qu'une jurisprudence récenle en matière de responsabilité les ait traités comme ouvriers, le législateur les a considérés plutôt comme associés du patron. Le séna¬teur d'0stende a d'ailleurs fait remarquer que l'armateur, dans la grande pêche, fait des avances aux pêcheurs pour la durée du voyage et les reprend au retour. On ne peut sSans inconvénient rendre ces avances impossibles. (Note de 1888.)
+          </p>
+         </note>
+         . out n'est point parfait dans le système ; des mœurs patriarcales, de vieilles coutumes de paix doivent en rendre la pratique acceptable. Ces conditions peu¬vent-elles se maintenir, même dans une industrie très fermée, au mi¬lieu d'une situation générale si différente
+        </p>
+       </div>
+       <div n="004" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_20">
+         § 20. RÉGLEMENT DE LA CAISSE DE PRÉVOYANCE.
+        </head>
+        <p xml:id="para_8_146_381">
+         Le règlement de la caisse s'exprime comme suit : « Les armateurs, considérant qu'il est urgent de fonder immédiatement sur le modèle de celles existant à Ostende, etc., une caisse de prévoyance au profit des pêcheurs de cette commune, par le moyen d'une retenue à faire sur les profits desdits pêcheurs et dont le montant provenant de leurs épargnes personnelles servira, indépendamment de ce qu'ils reçoivent comme indigents par les distributions du bureau de bienfaisance, à adoucir tant soit peu la détresse de ces malheureux ; — Considérant qu'en stipulant cette retenue à 17 francs sur la recette brute par cha¬que bateau et par année, ensuite une retenue de 50 centimes par homme, non compris deux taxes, à chaque liquidation de comptes avec les pêcheurs, par mois ; les fonds provenant desdites retenues seront suffisants pour faire face aux pensions éventuelles à accorder :
+        </p>
+        <p xml:id="para_8_146_382">
+         ART. 1 4. — Les pensions mensuelles son t fixées comme suit : — A. Pur la veuve d'un pêcheur décédé, 5 francs, avec augmenta<pb facs="#facs_172" n="147" source="lesouvriersdesd02soci_0187.xml"/>tion de 2 francs pour chacun des enfants au-dessous de quaorze ans ;
+        </p>
+        <p xml:id="para_8_147_385">
+         — B. Pour le pêcheur qui. en service actif de la pêche de Heyst, au¬rait été mutilé, et qui par suite de cette mutilation serait incapable de servir sur mer, une somme de 5 franes, s'il est célibataire, ou veuf sans enfants au-dessous de quatorze ans ; 8 francs, s'il est marié ou veuf, avec augmentation de 2 francs pour chacun de ses enfants au dessous de quatore ans ; — C. Pour le pêcheur qui aura atteint l'âge de soixante-cinq ans, 6 francs ; — D. Pour celui de soixante¬dix ans, 8 francs ; — E. Pour celui de soixante-quinze ans, 10 francs.
+        </p>
+        <p xml:id="para_8_147_386">
+         ART. 15. — Les pensions stipulées aux lettres C, D et E, seront augmentées de 2 francs dans le cas où la femme du pêcheur pen¬sionné serait âgée au delà de soixante-trois ans et en vie.
+        </p>
+        <p xml:id="para_8_147_387">
+         Ces pensions ne seront accordées que sous les conditions sui¬vantes : — 1' que le vieux pêcheur ait exercé sa profession, pour le moins, les 5 derniêres années dans la pêche de Heyst ; — 2 qu'il ait subi la retenue stipulée pendant ce même laps de temps (en désuetude):
+        </p>
+        <p xml:id="para_8_147_388">
+         — 3° qu'il soit suffisamment prouvé qu'il ne va plus en mer.
+        </p>
+        <p xml:id="para_8_147_389">
+         ART. 16. — Les veuves des pêcheurs mutilés ou âgés et pensionnés comme tels seront considérées, pour ce qui concerne la pension à leur accorder, être dans la même catégorie que les veuves des pè¬cheurs morts en service actif de la pêche.
+        </p>
+       </div>
+       <div n="005" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_21">
+         § 21. BÉNÉDICTION DE LA MER ET DES BARQUES.
+        </head>
+        <p xml:id="para_8_147_392">
+         Nous avons signalé l'esprit religieux des pêcheurs, augmenté par le contact perpétuel avec la puissance même du grand élément. Il sentent la Providence toujours présente et recourent volontiers et avec confiance aux prières de l'Eglise. « Confiteantur Domino qui des¬cendunt mare in navibus, dit le Psahmiste, facientes operationem in aquis multis ». L'lEglise prête solennellement aux pêcheurs le con¬cours de ses prières pour deux grandes cérémonies : la bénédiction de la mer ; la bénédiction de la barque. Nous en reproduisons ici le texte liturgique (ex Rituali romano).
+        </p>
+        <quote>
+         <p xml:id="para_8_147_393">
+          Benedictio nouve auis.
+         </p>
+         <p>
+          Adiutorium nostrum in nomine Domini Qui fecit caelum et terram Dominus vobiscum Et cum spiritu tuo
+         </p>
+         <p xml:id="para_8_148_394">
+          <pb facs="#facs_173" n="148" source="lesouvriersdesd02soci_0188.xml"/> Propitiare, Domine, supplicationibs nostris, et benedie navem istaum dextera tua sancta et omnes qui in ea vehentur, sicut dignatus es benedicere arcam Noe ambulantem in di¬uviis : porrige eis, Domine, dexteram tuam, sicut porrexisti beato Petro ambulanti super mare ; et mitte sanctum Angelum tuum de cœlis, qui liberet et custodiat cam semper a periculis universis, cum omnibus qui in ea erunt : et famulos tuos, repulsis adversitatibus, portu semper optabili, cursuque tranquillo tuearis, transactisque ac recte perfectis ne¬tiis omnibus, iterato tempore ad propria cum omni gaudio evocare digneris. Qui vivis et regnas, etc.
+         </p>
+         <p xml:id="para_8_148_395">
+          Aspergatur navis aqua benedicta, et infigantur quatuor partes granorum caerei pas¬calis inaperturis confectis in navi. forma crucis.
+         </p>
+        </quote>
+        <p xml:id="para_8_148_396">
+         Pour la bénédiction de la mer la formule est à peu près identique la bénédiction se fait avec le Saint Sacrement. Nous pouvons repro¬duire ici les formules, nous ne pouvons rendre l'imposante grandeur de ces cérémonies auxquels les pècbeurs assistent avec enthousiasme et recueillement.
+        </p>
+       </div>
+       <div n="006" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_22">
+         § 22. HISTOIRE ET LÉGISLATION DE LA PÊCHE EN BELGIQUE.
+        </head>
+        <p xml:id="para_8_148_399">
+         La pêche est de sa nature une industrie ancienne sur nos côtes il n'entre dans notre pensée ni de rechercher ses origines nationa¬les, ni de parcourir toutes les phases de son histoire. Peu d'écrivains se sont occupés de la question. Seuls peut-être MM. Van den Bussche et Bardin
+         <note type="bp">
+          <p>
+           Ouvrages cités.
+          </p>
+         </note>
+         ont examiné les origines de la corporation de pêche de Blankenberghe. Les rapporteurs de la commission d'enquête érigée en 1865, sur la pêche, ont retracé quelques traits de l'histoire la plus moderne
+         <note type="bp">
+          <p>
+           Rapport de la commission chargée de faire une enquéte sur la situation de la pêche maritime en Belgique. Chambre des représentants, séance du 17 mai 1866, vol. 8°, Bruxelles, Deltombe, 1866.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_8_148_400">
+         Au rapport de M. Van den Bussche, les documents connus les plus anciens sur les pêcheurs de Blankenberghe remontent au douzième siècle. A partir du quinzième siècle, on suit l'histoire de leur corpo¬ration. Cette industrie fut prospère en Flandre au moyen âge, mais souffrit beaucoup des luttes religieuses du seizième siècle. La grande pêche au hareng surtout, si florissante au quinzième siècle sur les côtes flamandes, en recut un coup terrible. Le nombre des embarca¬tions diminua. Au dix-huitième siècle le gouvernement autrichien <pb facs="#facs_174" n="149" source="lesouvriersdesd02soci_0189.xml"/> chercha à la relever. Charles V donna un règlement constitutif sur la corporation, et Macie-Thérèse le renouvela plus tard. En 1727, on avait cherché à ériger une compagnie de pêche, mais elle disparut sous l'action des mêmes causes qui firent tomber la com¬pagnie des Indes. Cependant le gouvernement prenait souci de la pêche et ne demandait qu'à l'encourager. Les côtes flamandes déser¬tées pendant les guerres, avaient à souffrir des concurrences de la France et de la ollande. On crut remédier à la situation en prohi¬bant, en 1785, l'entrée du poisson étranger. Cet édit ne dura que deux ans. En 1787, le gouverneur, comte de Cobentzl, institua une commission d'enquête. Celle-ci conclut à la prohibition du poisson étranger, à l'octroi de primes et à l'établissement de bateaux chas¬seurs, chargés de rapporter au port le produit de la pêche. Ces mesures relevêrent un peu cette industrie, mais l'invasion et l'annexion fran¬çaises vinrent couper court à cette résurrection. IL'époque de Marie-Thérèse fut une époque heureuse, qui a laissé le nom de l'im¬pératrice populaire et respecté. Pendant le régime francais, tout fut suspendu par les réquisitions. les enrôlements forcés, l'arbitraire qui régnait partout. Nous n'en voulons ici pour preuve que la procla¬mation suivante, émanée du commandant des côtes, à la municipalité de Blankenberghe : « Citoyens, je vous invite de faire une proclama¬tion qu'aucun pêcheur ne puisse aller en mer jusqu'à nouvel ordre. — Salut fraternité, » Signé : « RINDER. » On sait peu de chose de la pêche nationale, sous le gouvernement hollandais, de 1815 à 1831. I prit cependant quelques mesures pour relever l'industrie côtiêre. A partir de 1830, le gouvernement national s'occupa aussi de ces intérêts. La première partie des dispositions commence en 1831 pour finir à 1865. Pendant cette période domine l'idée de la protection directe de la pêche. Un arrêté de 1831, confirmait, en les modifiant, les droits sur le poisson étranger ; de 1834 a 1837, le législateur vota des crédits d'encouragement ; à partir de 1837, ils furent distribués sous forme de primes ; un arrêté de 1827 et d'autres de 1842, 1845, 1852 et 1862 déterminèrent le mode de distribution des primes et les conditions pour y participer ; ils réglementèrent très minutieusement l'exercice de la pêche, enfin divers arrêtés établirent des caisses de prévoyance pour les pêcheurs.
+        </p>
+        <p xml:id="para_8_149_404">
+         Ces mesures n'avaient pas développé la pêche, qui se plaignait vi¬vement de sa situation. Les crédits avaient été portés, pendant quel¬q ues années, à 100,000 francs, puis avaient été réduits insensiblement ; <pb facs="#facs_175" n="150" source="lesouvriersdesd02soci_0190.xml"/> on semblait reconnaître leur peu d'efficacité. Les plaintes de l'indus trie provoquèrent, en 1865, l'institution d'une commission d'enquête. Présidée par le vicomte du Bus, elle avait pour secrétaire M. Hymans. La commission ne jug a pas que la peche fût en si mauvais état qu'on le prétendait. Elle soutint qu'elle pouvait d'ailleurs se relever elle-même, si on lui en indiquait et facilitait le moyen ; que la prime était un encouragement aussi stérile que la protection, et elle conclut à la libre admission du poisson étranger et à l'abolition des primes. Mais comment favoriser l'initiative des pêcheurs La commission, pour faciliter les entreprises industrielles, proposait la création des écoles de mousses et l'organisation d'une surveillance protectrice de la pêche. Elle demandait aussi les facilités de transport du poisson par chemins de fer. Grâce à ces moyens, la commission espérait développer la pêche par les effTorts de l'initiative privée.
+        </p>
+        <p xml:id="para_8_150_406">
+         Ces vœux furent presque tous exaucés ; les primes furent sup¬primées en 1867 ; une loi du 15 mai 1870 abolit tous les droits sur le sel, comme sur le poisson de première provenance, et défendit toute en¬trave au commerce du poisson ; l'école de mousses d'Ostende fut or¬ganisée ; enfin des tarifs et des voies rapides facilitèrent l'expédition du poisson par terre vers les centres du pays et de l'étranger. Par le fait que les primes disparaissaient, les règlements minutieu qui organisaient la pêche, tombêrent n désuétude ; et l'armement comme l'industrie reprit ses libertés d'allure. Les pêcheurs se plai¬gnirent de cette transformation et notamment de la suppression des primes. La pêche si elle n'a point décliné, depuis 1867, est loin cependant d'avoir pris un sérieux essor, et la présente monogra¬phie en donne la preuve. La routine y domine, et on est loin de pouvoir lutter avec avantage contre les concurrences étrangères. L'a¬venir est-il donc voué à l'immobilité2 Non, sans doute ; mais il laudra bien que de nouveaux procédés appliqués avec la ressource de capitaux suffisants et le concours de marins bien dressés, met¬tent la pêche belge au niveau de la lutte. On a le projet de déve¬lopper l'école des mousses ; peut-être introduira-t-on la pêche à vapeur, grâce à quelque initiative hardie que plusieurs ont recommandée
+         <note type="bp">
+          <p>
+           La pêche à vapeur a cependant des adversaires (voir le travail de M. Lecointe). on lui reproche pariois demoins soigner le poisson, ce qui le déprécie : il semble qu'on peut éviter cet inconvénient.
+          </p>
+         </note>
+         . Si à ces modifications on pouvait joindre l'enseignement de la tem<pb facs="#facs_176" n="151" source="lesouvriersdesd02soci_0191.xml"/>pérance ; si à ces enfants de la côte on pouvait apprendre la pré¬voyance et la modération, la pêche pourrait prendre rang parmi les industries florissantes. On aurait tort d'en désespérer.
+        </p>
+        <p xml:id="para_8_151_409">
+         Nous avons un mot à ajouter sur la police de la pêche. Les re¬glements minutieux sur l'exercice de l'industrie ont disparu ; mais il faut cependant veiller à la sécurité de la mer et des côtes. La loi du 27 septembre 1842, sur la police maritime, fut organisée par un arrêté royal du 8 mars 1843, qui détermine les fonctions des com¬missaires maritimes qu'il institue. Une loi du 2l juin 1849 fut pro¬mulguée sous le titre de code disciplinaire et pénal pour la marine marchande et la pêche maritime. Un arrêté royal du 21 décembre. même année oblige tous les marins à être porteurs d'un livret. La protection et la police pouvaient s'étendre utilement plus loin. même à la haute mer : dans le courant de 1862, les puissances adop¬tèrent des mesures communes pour les signaux et maneuvres des¬tinés à prévenir l'abordage (arrêtés de 1862, 1873 et 1880); en 1877 ut promulgué de même un code de signaux à l'usage des bâti¬ments de toute nation. Enfin le 6 mars 1882, fut conclue à la Haye une convention internationale entre les puissances intéressées, pour régler la police de la pêche dans la mer du Nord. en dehoirs des eaux territoriales. Cette police protège les pêcheurs des diverses nations contre l'hostilité, la, négligence ou le mauvais gré, et tout ce qui pourrait être concurrence déloyale. Les puissances sont char¬gées de veiller à cette police par leur marine militaire. Il serait utile que la Belgique exerçât d'une manière sérieuse cette surveillance en faveur de ses nationaux.
+        </p>
+        <p xml:id="para_8_151_410">
+         Observations ajoutées en 1888. — La convention de la Haye a donné lieu à la création d'une police de la pêche. Un aviso belge en est chargé tandis que les autres puissances, notammentl'Angleterre, l'exercent de leur côté. Celle-ci le fait avec beaucoup d'attention ; des infractions fré¬quentes ont été poursuivies à la charge des pêcheurs belges par les autorités anglaises ; il en a plus rarement été de même, dit-on, à la charge des Anglais. Les pêcheurs belges ont eu avec les Anglais de fré¬quents conflits, qui ont entrainé récemment à Ostende des consé¬quences sanglantes. On se plaint des stipulations du traité de la Haye, dont plusieurs sont défavorables à la pêche belge et à ses procédés On se plaint aussi de l'application de la convention elle-même par les autorités. L'examen des éléments de ce débat est en dehors du cadre de notre présente étude. L'affaire d'Ostende a fait du bruit dans le pays.
+        </p>
+        <p xml:id="para_8_152_411">
+         <pb facs="#facs_177" n="152" source="lesouvriersdesd02soci_0192.xml"/> Des interpellations se sont produites à la Chambre
+         <note type="bp">
+          <p>
+           Séance du 17 novembre 1887.
+          </p>
+         </note>
+         . Le gouverne¬ment vient d'ouvrir une enquête sur la condition de la pêche. La com¬mission fonctionne au moment où nous écrivons ces lignes (mars 1888). Déjà, en 1886, la commission royvale du travail, siégeant à Ostende, avait recueilli les plaintes des pêcheurs
+         <note type="bp">
+          <p>
+           Comptes rendus de la commission. Section A, p. 65 à 6.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_8_152_412">
+         Ces difficultés ont attiré aussi l'attention sur la condition des pè¬cheurs. On a attribué leur irritabilité à leur triste situation. Le pro¬duit de la pêche va sans cesse en déclinant. La moyvenne du profit du propriétaire par barque, qui à O0stende était de 4.000 franes environ en 1882, est tombée à 856 francs
+         <note type="bp">
+          <p>
+           Cette baisse dans le produit de la barque de pêche coincide cependant, chose cu¬rieuse, avec une augmentation dans le produit total de la pêche. L'augmentation pro¬vient des barques a vapeur et du chifre croissant des barques à voiles ; le produit moyen des barques en a diminué, ce qui a empiré la situation des pêcheurs qui les montent. Voir la discussion citée. qui a eu lieu le 17 novembre 1887 à la Chambre.
+          </p>
+         </note>
+         en 1887 ; on sait que les barques d'0stende sont plus grandes que celles de Heyst. Dans le système de partage usité, comme le remarquait M. de Hemptinne à la Chambre, « le salaire est immédiatement et plus durement atteint que dans d'autres industries ». Or à Ostende la situation du pêcheur, à sa¬laire égal, est pire qu'à lIHeyst. Ici, nous l'avons vu, le petit champ lui procure une ressource supplémentaire précieuse, que celui d'Ostende ne connaît ni n'apprécie.
+        </p>
+        <p xml:id="para_8_152_413">
+         Nous ne voulons point, pour le moment, nous livrer à une étude comparée de la situation des pêcheurs d'Ostende avec celle des autres pêcheurs des côtes de la mer du Nord, soit sur notre littoral soit en Angleterre. Trop de causes locales influent sur cette situation. On a pu constater qu'il y a des différences importantes même entre les groupes voisins de Heyst et d'Ostende. Ea Soeiété belge d'économie sociale s'est récemment occupée de ces derniers, à l'occasion d'un exposé plein d'intérèt fait par un de ses membres, le comte F.-L. Wald¬bott de Bassenheim. L'enquète qui vient de s'ouvrir eût pu fournir à leur sujet de plus complètes lumières ; mais la commission d'enquête, écartant la question économique proprement dite, a cru devoir borner ses investigations au point de vue industriel et à l'examen de la con¬vention de la Haye.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
