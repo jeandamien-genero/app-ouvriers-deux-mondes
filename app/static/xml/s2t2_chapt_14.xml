@@ -246,13 +246,13 @@
   <surface lrx="2012" lry="3447"/>
   <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$419/full/full/0/default.jpg"/>
  </facsimile>
- <facsimile> <!-- manque la page 364 -->
+ <facsimile xml:id="facs_392b"> <!-- ajout de la page 364 -->
   <surface/>
-  <graphic url="#"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$420/full/full/0/default.jpg"/>
  </facsimile>
- <facsimile> <!-- manque la page 365 -->
+ <facsimile xml:id="facs_392c"> <!-- ajout de la page 365 (numérotée 366) -->
   <surface/>
-  <graphic url="#"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$421/full/full/0/default.jpg"/>
  </facsimile>
  <facsimile xml:id="facs_393">
   <surface lrx="2012" lry="3447"/>
@@ -329,14 +329,6 @@
  <facsimile xml:id="facs_411">
   <surface lrx="2012" lry="3447"/>
   <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$440/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_412">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$441/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_413">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$442/full/full/0/default.jpg"/>
  </facsimile>
  <text>
   <body>
@@ -1364,7 +1356,7 @@
         <p xml:id="para_14_363_308">
         TOrAUX des dépenses concernant les vêtements.
         </p>-->
-       <pb facs="#" n="364" source="#"/>
+       <pb facs="#facs_392b" n="364" source="#"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_393" url="#"/>
        </figure>
@@ -1475,7 +1467,7 @@
        <head type="sub_sub_section" xml:id="part_02_05_16">
         § 16. COMPTES ANNEXÉS AUX BUDGETS.
        </head>
-       <pb facs="#" n="365" source="#"/>
+       <pb facs="#facs_392c" n="365" source="#"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_394" url="#"/>
        </figure>
