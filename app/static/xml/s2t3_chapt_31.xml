@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--monographie-->
+<TEI xml:id="ID-070a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 3 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_350">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$385/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_351">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$386/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_352">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$387/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_353">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$388/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_354">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$389/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_355">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$390/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_356">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$391/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_357">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$392/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_358">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$393/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_359">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$394/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_360">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$395/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_361">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$396/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_362">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$397/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_363">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$398/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_364">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$399/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_365">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$400/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_366">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$401/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_367">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$402/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_368">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$403/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_369">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$404/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_370">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$405/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_371">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$406/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_372">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$407/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_373">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$408/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_374">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$409/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_375">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$410/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_376">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$411/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_377">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$412/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_378">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$413/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_379">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$414/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_380">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$415/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_381">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$416/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_382">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$417/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_383">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$418/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_384">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$419/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_385">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$420/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_386">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$421/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_387">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$422/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_388">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$423/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_389">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$424/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_390">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$425/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_391">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$426/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_392">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$427/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_393">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$428/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div type="chapter">
+    <div n="001" type="section">
+     <pb facs="#facs_350" n="325" source="s2lesouvriersdes03sociuoft_0385.xml"/>
+     <p xml:id="para_31_325_1">
+      N° 70.
+     </p>
+     <p xml:id="para_31_325_2">
+      CHARPENTIER INDÉPENDANT
+     </p>
+     <p xml:id="para_31_325_3">
+      DE PARIS
+     </p>
+     <p xml:id="para_31_325_4">
+      (SEINE — FRANCE),
+     </p>
+     <p xml:id="para_31_325_5">
+      DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS.
+     </p>
+     <p>
+      D'APRÈS LES
+     </p>
+     <p xml:id="para_31_325_6">
+      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX. EN DÉCEMBRE 18S9
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_31_325_7">
+      M. P. DU MAROUSSEM,
+     </p>
+     <p>
+      docteur en droit.
+     </p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+       </head>
+       <p xml:id="para_31_325_13">
+        La famille habite à Paris, sur la rive gauche de la Seine, vers la li¬mite du faubourg Saint-Germain et du quartier de l'École militaire, une maison occupée par une institution de jeunes filles, où la femme de l'ouvrier cumule un certain nombre de fonctions qui seront déter¬minées plus tard. Cette maison n'a rien de commun avec la « maison ouvrière » : c'est un vieil hôtel du faubourg, à vastes jardins et à aspect confortable, qui n'abrite que le personnel dirigeant de l'institution (simple externat), le concierge et la famille étudiée.
+       </p>
+       <pb facs="#facs_351" n="326" source="s2lesouvriersdes03sociuoft_0386.xml"/>
+       <p xml:id="para_31_326_14">
+        L'ouvrier, qui réunit la réputation de praticien très capable à celle non moins bien établie de « socialiste militant », est attaché comme simple compagnon à un chantier de charpente pour les cons¬tructions.
+       </p>
+       <p xml:id="para_31_326_15">
+        L'industrie de la charpente, c'est-à-dire celle qui consiste s à tra¬vailler, à façonner les bois en pièces, et à les assembler suivant certaines règles pour les constructions civiles » (en fait elle produit à Paris les combles et les escaliers), comprenait, à la fin de l'année 1889, environ 3.500 ouvriers à Paris, d'après les personnes du métier les mieux renseignées, ce qui, en ajoutant les femmes et les enfants, constituait une population de 8.000 âmes
+        <note type="bp">
+         <p>
+          Ces chiffres s'appliquent au département de la Seine qu'on ne peut séparer de Paris.
+         </p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_31_326_16">
+        Sur ces 3.500 ouvriers, un grand nombre souffraient de la crise et cherchaient à attendre, en se louant comme hommes de peine et jour¬naliers, la reprise des travaux. La crise de la charpente avait une double cause : 1° la crise générale du bâtiment, résultat des cons¬tructions démesurées et des lrachs inanciers; 2° la crise par¬ticulière de la charpente, conséquence de l'emploi de plus en plus fréquent du fer pour les combles et les escaliers, et aussi de la con¬currence faite par les machiues au travail de l'homme (machines (à tailler les tenons et les mortaises, machines à fabriquer les marches d'escalier).
+       </p>
+       <p xml:id="para_31_326_17">
+        Ces 3.500 ouvriers se divisent encore aujourd'hui, comme au temps où fut rédigée la monographie du charpentier de 1856
+        <ref target="#ID-001a" type="renvoi_int_od2m">
+         (ˉOuvriers des Deux-Mondes, tome 1er)
+        </ref>
+        , en Compagnons et en ndépendants, c'est-à¬dire non-compagnons. Dn peut évaluer les compagnons à plus de 2.000 (1.200 du Devoir, 800 de Liberté) ; les ndépendants, de plus en plus nombreux (près de 1.500), sont reliés entre eux par des sociétés diverses : Chambre syndicale de la charpente (56, rue de la Verrerie), Solidarité des charpentiers, Fédération socialiste de la charpente. L'ouvrier étudié est lndépendant.
+       </p>
+       <p xml:id="para_31_326_18">
+        Les charpentiers de l'aris, peut-être à cause des compaagnonnages, présentent unemoralitéélevée : ce sont, en général, des ouvriers à demi ruraux, nés dans les campagnes qui avoisinent le « tour de France ». Mariés pour la plupart, ils ne comprennent qu'un nombre infime d'é¬trangers. Parmi eux, plusicurs centaines d'émigrants limousins arrivent chaque printemps avec les macons, et travaillent dans des chantiers
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Paul-Antoine H*** (n°070aE1) - Marie D*** (n°070aE2) - Marie H*** (n°070aE3) - Marthe H*** (n°070aE4) - Madeleine H*** (n°070aE5)-->
+       <pb facs="#facs_352" n="327" source="s2lesouvriersdes03sociuoft_0387.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. ÉTAT CIVIL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_31_327_22">
+        La famille comprend les deux époux et trois enfants, savoir :
+       </p>
+       <p xml:id="para_31_327_23">
+        1° PAUL-ANTOINE ʳᵉᵉ, né à C. (Indre). .............................. ....... 42 ans.
+       </p>
+       <p xml:id="para_31_327_24">
+        2° MARIE Dᵉᵉʳ, née à V. (Dordogne).... ............. ........:..... ......... 70 —
+       </p>
+       <p xml:id="para_31_327_25">
+        3P MARI ᵉ ᵉ ᵉ ée a PaTiS. ..... .......... .... .....:.. ......... ..... .... .. 13 — 12
+       </p>
+       <p xml:id="para_31_327_26">
+        4° MARTIHE 1ᵉᵉʳ, ée à Paris.... .. .. ...... .. .. . ........ .... .:.... . .. ... .. . 1) —. 1,2
+       </p>
+       <p xml:id="para_31_327_27">
+        5P MADELEINE 1ᵉʳ ᵉʳ, née à Paris (en nourrice au pays de l'ouvrier). ....... 5 —
+       </p>
+       <p xml:id="para_31_327_28">
+        L'ouvrier a perdu son père et sa mère, pauvres ouvriers ruraux ; il a encore une sœur, mariée dans sa province natale ; le père de la femme était un propriétaire campagnard, qui avait tenté sans grand succès de devenir entrepreneur.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. RELIGION ET HABITUDES MORALES.
+       </head>
+       <p xml:id="para_31_327_31">
+        Les deux époux sont nés de parents catholiques ; mais ils sont arrivés peu à peu et pour des raisons diverses à cet état d'hostilité haineuse et déclarée contre le catholicisme, qui s'observe dans un si grand nombre de familles ouvrières en Occident.
+       </p>
+       <p xml:id="para_31_327_32">
+        L'ouvrier est assez loin du temps où ses réponses au catéchisme lui valaient des succès d'amour-propre qu'il se rappelle aujourd'hui avec une complaisance très ironique. Depuis le jour où la mort de son père le força à quitter son village et à commencer son tour de France », le courant d'idées où il a vécu et les lectures qu'il a faites l'ont conduit à l'athéisme le plus absolu. Le testament de Victor lugo, où le poète affirmait Dieu et l'immortalité de l'àme, lui a donné un instant à réfléchir. Mais il a écarté rapidement cette objection de quel¬ques minutes, en songeant que les croyances spiritualistes étaient incompatibles avec l'émancipation destravailleurs, et que les ouvriers ne renouvelleraient la terre pour y faire régner un bonheur immédiat qu'à la seule condition de ne pas découvrir dans le ciel un bonheur lointain. On devine les sentiments de cet hégélien d'extrême gauche
+        <note type="bp">
+         <p>
+          Voir comment le eollectivisme de arl Marx est sorti de la philosophie de lleggel, dans les Sophistes udlemands et les Nhilistes usse, par Th. Funcl-Brentano, Paris. Plon, in-8°.
+         </p>
+        </note>
+       </p>
+       <pb facs="#facs_353" n="328" source="s2lesouvriersdes03sociuoft_0388.xml"/>
+       <p xml:id="para_31_328_34">
+        à l'égard des religions prétendues révélées » et à l'égard de leurs prètres, qui lui semblent formés d'un mélange de crimes et d'hypo¬crisie. Il est marié civilement ; il a refusé de faire baptiser ses illes, et, si l'une d'elles a été ondoyée, c'est en dehors de son consentement et par une conséquence des frayeurs de la nourrice. D'ailleurs son enseignement a mis bon ordre à ce qui n'est à ses yeux qu'un com¬mencement de corruption.
+       </p>
+       <p xml:id="para_31_328_35">
+        La femme a été élevée, de même que son mari, dans le respect des dogmes de la religion chrétienne. Mais, placée de bonne heure comm domestique dans des familles de petite bourgeoisie à tendances maté¬rialistes, elle n'a pas tardé à laisser échapper tous les souvenirs de cet enseignement religieux. La doctrine,bien arrêtée de son mari l'a trouvée dans des prédispositions bienveillantes qui l'ont amenée sans peine à une incrédulité complète. Aujourd'hui, elle déclare hautement que les prêtres sont les derniers des hommes auxquels elle con¬fierait ses illes ». La confession n'est, à ses yeux, qu'une école de dépravation.
+       </p>
+       <p xml:id="para_31_328_36">
+        La moralité des deux époux est établie d'une facon indiscutable par leurs treize ans de services ininterrompus dans l'école de jeunes filles où ils habitent, et où naturellement leur conduite est contrôlée avec une certaine sévérité.
+       </p>
+       <p xml:id="para_31_328_37">
+        Le pouvoir dans la famille appartient incontestablement au mari. Intelligent, instruit, bien au-dessus de la moyenne des ouvriers char¬pentiers, qui réunissent la double réputation du corps d'état le plus honnête et le plus illettré de Paris, il domine de tout le prestige de ses succès de club et de comités l'active et consciencieuse ménagère qu'il s'est associée. L'instinct du commandement est chez lui très déve¬loppé, et il sait se faire obéir de ses fillettes, au besoin par les moyens les plus énergiques. Il n'a pas pour le vice originel la bienveillance des lettrés de son parti.
+       </p>
+       <p xml:id="para_31_328_38">
+        Cette famille, où le travail est honoré et pratiqué, se distingue par une haine très décidée contre l'organisation sociale actuelle. Le chef en qui elle se résume est, — il l'avoue lui-même,—  un insubordonné d'ins¬tinct »». La hiérarchie du compagnonnage a trouvé toujours enlui un im¬placable adversaire. Le patronat n'en est pas mieux traité. Chaque jour, au chantier ou dans les cercles d'études, il cherche à soulever contre cette tyrannie insupportable les « camarades tellement abaissés qu'ils ne se sentent pas malheureux .
+       </p>
+       <p xml:id="para_31_328_39">
+        En un mot, ce groupe familial, composé de deux ruraux implantés
+       </p>
+       <pb facs="#facs_354" n="329" source="s2lesouvriersdes03sociuoft_0389.xml"/>
+       <p xml:id="para_31_329_40">
+        à Paris, réunit une honnêteté faite d'habitude et de tradition à des idées philosophiques qui forment l'extrême avant-garde des doctrines nouvelles. C'est une combinaison curieuse de la pratique morale d'hier et des théories religieuses et sociales d'aujourd'hui.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. HYGIÈNE ET SERVICE DE SANTÉ.
+       </head>
+       <p xml:id="para_31_329_43">
+        L'ouvrier est d'une taille au-dessus de la moyenne (1ᵐ 72. 1 a l'ap¬parence de la vigueur et de la souplesse, qualités requises du char¬pentier. Son teint est un peu pâle, comme celui des populations qui habitent le versant ouest et nord-ouest du plateau central : il porte la barbe longue et les cheveux longs. Sapeur du génie pendant la guerre de 1870, il a supporté sans fatigue les rudes travaux exigés de cette arme d'élite. Une seule maladie grave l'a éloigné du chantier, en 1876; la fièvre typhoide, à laquelle il a failli succomber. Point de blessures ni d'accidents notables : il a heureusement évité « les risques pro¬fessionnels ».
+       </p>
+       <p xml:id="para_31_329_44">
+        L'ouvrière est de taille moyenne (1ʳ 63). Elle a l'air plus âgé que son mari. La cause en est due à sa santé délicate, qui ne lui enleve rien de son énergie de travailleuse. Elle est atteinte d'une gastrite et d'une maladie de cœur ; les bronches sont également d'une sensibilité extrême, et ont particulièrement souffert de l'influensa en cette année de 1890
+        <note type="bp">
+         <p>
+          L'influenza, au dix-huitiéme siécle, parcourut l'Europe comme au div-neuviéme voir les Mémoires du maréchal de ichelieu (1733. siège de Philippsbourg).
+         </p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_31_329_45">
+        Quant aux enfants, elles ont l'aspect anémique et éveillé des fillettes de Paris. Il est difficile d'émettre un avis sur la santé de la troisième, en gardiennage dans un village berrichon. Ces trois filles ont eu pour aîné un petit garçon, mort de bonne heure.
+       </p>
+       <p xml:id="para_31_329_46">
+        La famille supporte seule les différents frais de maladie. Elle a même adopté sur (ce point les mœurs de la classe bourgeoise. Dans les cas graves, elle fait appeler un médecin connu qui possède toute sa confiance; pour les simples indispositions, elle se contente d'un médecin de quartier.. Le respect de la Faculté est donc entier chez elle, et les remèdes de bonne femme sont considérés comme des superstitions. — La mère de famille a fait toutes ses couches à la
+       </p>
+       <pb facs="#facs_355" n="330" source="s2lesouvriersdes03sociuoft_0390.xml"/>
+       <p xml:id="para_31_330_48">
+        maison, malgré la dépense : elle n'a jamais eu recours à la Maternité ni au traitement chez les sages-femmes, ui exigent 100 francs par mois, plus 5 francs de pension parjour, sans compter quelques autres menus frais. Elle a essayé de nourrir sa première fille ; les deux autres ont été mises en nourrice, non pas près de Paris, mais au pays natal de l'ouvrier.
+       </p>
+       <p xml:id="para_31_330_49">
+        Il faut noter qu'en cas d'accident le charpentier indépendant bé¬néticierait de la prime d'assurance payée entièrement par le patron (10 centimes par jour et par homme).
+       </p>
+      </div>
+      <div n="005" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. RANG DE LA FAMILLE.
+       </head>
+       <p xml:id="para_31_330_52">
+        La famille occupe un rang élevé dans la hiérarchie ouvrière à un double point de vue.
+       </p>
+       <p xml:id="para_31_330_53">
+        L'ouvrier fait d'abord partie du nopau d'un chantier, c'est-à-dire du groupe auquel le patron réserve toujours de l'ouvrage. Il n'est sans doute pas gâcheur, c'est-à-dire contremaître, mais il l'a été pen¬dant de longues années. S'il ne l'est plus, la faute en retombe sur sa hardiesse trop peu dissimulée pendant les grèves de 1881-82 qui a fait fermer successivement devant lui la porte de tous les chantiers. Actuellement, il est le chef d'équipe le plus en vue de la section de charpente de son atelier. I est ordinairement chargé de la conduite des levages importants. Au début de l'année, il a commandé pendant trois mois une équipe de quinte ouvriers qui réparait l'un des édi¬fices historiques de la banlieue.
+       </p>
+       <p xml:id="para_31_330_54">
+        L'ouvrier est en outre l'un des membres influents du parti collec¬tiviste. Son éloquence, sa belle prestance, sa forte voix, en faisaient naturellement un conducteur de foules. Il prend part aux discussions de comité, à l'organisation des réunions publiques et même à la di¬rection de la nuance particuliere du parti auquel il appartient.
+       </p>
+       <p xml:id="para_31_330_55">
+        Mais, en dépit de ses hautes qualités, le chef de famille doit aban¬donner tout espoir d'arriver au patronat. Il n'a pas la souplesse qui se plie aux désirs des hommes arrivés pour arriver comme eux il n'a pas l'esprit d'éparggne qui seul permet de réunir le capital d'installa¬tion. prcsque impossible à réaliser aujourd'hui. puisqu'il doit s'elever au moins à 30.000 francs. La seule chose qu'il puisse espérer, c'est un grade émincnt en cas de révolution sociale ; mais ce sont là des aventures o les es pérances se trouvent bien souvent décues.
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <pb facs="#facs_356" n="331" source="s2lesouvriersdes03sociuoft_0391.xml"/>
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. PROPRIÉTÉS.
+       </head>
+       <p xml:id="para_31_331_58">
+        (Mobilier et vêtements non compris.)
+       </p>
+       <p xml:id="para_31_331_59">
+        IMMEUBLES . . .. . .. .. . . . ... . .. . . . . . .. . . . .. . ... .  .. . . . . . .0ᶠ 00
+       </p>
+       <p xml:id="para_31_331_60">
+        La famille n'a aucune propriété particulière et ne songe pas à la possibilité d'en acquérir jamais.
+       </p>
+       <p xml:id="para_31_331_61">
+        ARGENT ... . . . . . . . .. . . . .'. . . . . .. . . ... .. . . .: : .... . . . . . . 0ᶠ 00
+       </p>
+       <p xml:id="para_31_331_62">
+        Somme conservée cnme londs de roulement, 100ᶠ 00.
+       </p>
+       <p xml:id="para_31_331_63">
+        MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES.. .. ... ....... .88ᶠ 70
+       </p>
+       <p xml:id="para_31_331_64">
+        1ᵉ Outil de carpentier (utilisses l'telier). — 1 jauge ou règle de 0 35 sur 003, ser¬vant à tracer les mortaises et les tenons. 0ᶠ50 ; — 1 rainette, ou instrument propre à entail¬ler les mortaises et en même temps a aiguiser les scies, 2ᶠ80 ; — 1 compas en fer,2ᶠ 00; — 1 cordeau et un plom, 2ᶠ80 ; — 1 niveau d'eau, 2ᶠ 00; — 1 crayon, 0ᶠ 05 ; — 1 sac en cuir pour contenir le tout, 2ᶠ 40. — Total, 12ᶠ 55.
+       </p>
+       <p xml:id="para_31_331_65">
+        2° Outils de chrpetier (o utilisés a l'atelier). — 1 besaigué (instrument à double tranchant), 9ᶠ 60; — 1 herminette. 8ᶠ 00; — 1 cognée, 4ᶠ 80; — 1 scie de taille, 4ᶠ00; — 1 scie a main ou petite scie. 2ᶠ 40 : — 1 tarière, 2ᶠ 00; — 1 petite tariére, 1ᶠ 60: — 1 ébauchoir, ou ciscau en fer aciéré à un bout, 1ᶠ 60. — Tota., 34ᶠ 00.
+       </p>
+       <p xml:id="para_31_331_66">
+        3° Outils de meisier (servat ssi au rharpDentier). — 1 établi servant de bufet (es¬timé avec les meubles) : — 1 varlope et 1 demi-varlope (viard), 9ᶠ 00, — 1 rabot, 2ᶠ 25: — 1 paire de bouvets de 027. 2ᶠ 25 ; — 1 paire de bouvets de 0 18. 2ᶠ 25 : — 1 scie à te¬nons, 2ᶠ 70; — 1 scie à arraser, 2ᶠ25; — 1 seie allemaunde, 3ᶠ 40: — 1 valet, 3ᶠ 75; — 2 ciseaux, 1ᶠ 85: — 2 ecs-d'âne, 1ᶠ 750: — 1 guillaume, 1ᶠ 5: — 1 marteau 1ᶠ 50: — 1 paire de te¬nailles, 1ᶠ 85. — Total, 36ᶠ 40.
+       </p>
+       <p xml:id="para_31_331_67">
+        4° Pr (e blacissgpe u lige. — 1 baquet, 1ᶠ00 ; — 1 atoir, 0ᶠ 60:  — 1 brosse, 1ᶠ 25 ;
+       </p>
+       <p xml:id="para_31_331_68">
+        2 fers a repasser, 3ᶠ 0; — 1 gril, 0ᶠ90. — Tota, 5ᶠ 75.
+       </p>
+       <p xml:id="para_31_331_69">
+        VALEUR TOTALE des propriétés..... . .188ᶠ 70
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. SUBVENTIONS.
+       </head>
+       <p xml:id="para_31_331_72">
+        Les subventions reçues par la famille consistent en allocations d'ob jets et de services. Le bois de chauffage que les ouvriers de jadis i¬raient du chantier leur est maintenant refusé. L'établissement des scieries mécaniques loin de l'atelier. l'rrivée des bois ouvrés d l'é¬
+       </p>
+       <pb facs="#facs_357" n="332" source="s2lesouvriersdes03sociuoft_0392.xml"/>
+       <p xml:id="para_31_332_73">
+        tranger ont considérablement diminué la quantité des débris divers ; et. d'ailleurs les grands chantiers d'aujourd'hui ne laisseraient pas perdre ces déchets, inutiles aux petits patrons d'autrefois. Les rognures de bois, moindres d'un pied (soit 0ᵐ,33), qui résultent des opérations de levage, appartiennent touyours, comme en 1856, aux ouvriers ; mais cette subvention, qui est passée dans le métier à l'état de coutume immémoriale, disparaîtra sans doute bientôt. Les ouvriers vous font remarquer sans fausse honte qu'il suffit de deux coups de hachette dans une pièce de un mètre pour la transformer en trois rognures de 33 centimètres et par conséquent y avoir droit. Là où commence l'abus, la subvention prend naturellement fin. Le chef de ménage n'a jamais profité de ces avantages, qui entrainent des transports par¬fois pénibles.
+       </p>
+       <p xml:id="para_31_332_74">
+        Les subventions dont bénéficie la famille se rattachent à deux ordres de faits. Les unes sont la conséquence de la situation particu¬lière de la mère dans l'institution de jeunes filles dont il a été parlé, et se traduisent sous la forme d'étrennes assez élevées, environ 100 francs. Les autres dérivent de l'influence du père auprès des re¬présentants de son parti à l'Hotel de Ville, et sont représentées par une bourse de 135 francs, obtenue pour la fille aînée dans une école professionnelle. I faut y joindre 20 francs de fournitures de classe, allouées par le Conseil municipal de Paris à la fille cadette, comme à tous les enfants qui fréquentent les écoles de la Ville. Nous n'évaluons pas l'instruction gratuite.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. TRAVAUX ET INDUSTRIES.
+       </head>
+       <p xml:id="para_31_332_77">
+        Travau de l'ouvrier. — tout le travail de l'ouvrier est exécuté pour le compte d'un patron, au chantier ou au levage, moyennant un sa¬laire évalué par heure. Dans la hiérarchie de l'atelier, l'ouvrier est con¬sidéré comme chef d'équipe de la section de charpente, c'est-à-dire de la section où l'on faconne les pans de bois, échafaudages, combles, mansardes, àl'exclusion des escaliers. Comme chefd'équipe, il surveille la pose et distribue l'ouvrage aux hommes.
+       </p>
+       <p xml:id="para_31_332_78">
+        Le salaire de l'heure de travail est uniformément fixé, depuis 1879, à 80 centimes ; le principe de l'égalité est absolument pratiqué : les chefs d'équipe ont vainement réclamé en 1881 un supplément de
+       </p>
+       <pb facs="#facs_358" n="333" source="s2lesouvriersdes03sociuoft_0393.xml"/>
+       <p xml:id="para_31_333_79">
+        10 centimes par heure. Les heures supplémentaires devraient été payees « moitié en plus jusqu'à la douième, le double lorsque la douzième est dépassée » ; mais on voit par le budget des recettes qu'en fait elles sont payées au tarif ordinaire. bLa paye est mensuelle
+        <note type="bp">
+         <p>
+          Avec des acomptes qui peuvent s'èlever jusqu'à la moitié de la somne due, mais dont la famille étudiée n'use pas. — Le jour de paie est le premier samedi du mois, purvu que ce samedi ne dépasse pas le 3.
+         </p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_31_333_80">
+        Le salaire de 80centimes est à peu près net de tous frais, en ce sens que l'ouvrier ne fournit qu'une très petite partie de l'outillage, et n'a par conséquent à prélever que des frais d'entretien insignifiants. Mais, d'autre part, l'ouvrier doit payer son transport jusqu'aux lieux de le¬vage, quelque éloignés qu'ils soient : le patron ne lui en rembourse le prix que dans le cas où le travail s'effectue au delà des fortifications. C'est à ce titre que pendant trois mois l'ouvrier a reçu 1ᶠ 50 d'indem¬nité par jour.
+       </p>
+       <p xml:id="para_31_333_81">
+        La journée est de 10 heures en été (de 6 heures du matin à 6 heures du soir : mars à fin octobre) et de 8 heures en hiver (de 7e, à 4 ᶠ/, : novembre à fin février). Le dimanche n'est pas respecté en principe ; mais le chantier se ferme le 1 janvier et à la Saint-Joseph. Il faut joindre, à ces jours de repos obligatoire, les chômages accidentels, conséquence de la pluie et de la gelée, et pour beaucoup d'ouvriers le chômage des quatre mois d'hiver.
+       </p>
+       <p xml:id="para_31_333_82">
+        On peut considérer comme travaux secondaires de l'ouvrier les ré¬parations du mobilier domestique.
+       </p>
+       <p xml:id="para_31_333_83">
+        Travaux de la femme. — Le travail de la femme joue dans le budget de la familie un rôle considérable ; il offre ceci de particulier qu'il est à la fois rémunérateur et exercé au foyer. Depuis onze ans, la mère de famille est, en effet, cuisinière dans une institution de jeunes filles (externat simple) ; elle reçoit, comme rémunération de ses travaux de ménage et de préparation d'aliments pour les enfants de l'école, un double salaire : salaire en nature et salaire en argent. Le salaire en nature consiste en un logement suffisant pour toute la famille, au¬quel il faut joindre le chauffage et l'éclairage pendant les dix mois de l'année scolaire (les deux mois de vacances sont mis à part). Le sa¬laire en argent est de 60 francs par mois.
+       </p>
+       <p xml:id="para_31_333_84">
+        Les travaux accessoires de la femme sont les soins donnés au ménage, le blanchissage du linge et l'exercice de différentes industries, mono¬poles ordinaires des concierges de pensions.
+       </p>
+       <p xml:id="para_31_333_85">
+        Travaux des jeunes filles. — La fille aînée est élève d'une école profes¬
+       </p>
+       <pb facs="#facs_359" n="334" source="s2lesouvriersdes03sociuoft_0394.xml"/>
+       <p xml:id="para_31_334_88">
+        sionnelle commerciale ; elle apprend le dessin et l'anglais ; la fille ca¬dette suit les cours des écoles de la Ville. Elles prennent part quelque¬fois aux soins du ménage et font quelques commissions.
+       </p>
+       <p xml:id="para_31_334_89">
+        Industries entreprises par la famille. — Le chef de famille répare le mobilier domestique ; la mère de famille blanchit et repasse la plus grande partie de son linge, et réalise un certain chiffre de bénéfices dans trois sortes de spéculations : 1° la vente d'aliments pour le goûter des enfants ; 2° la préparation et la vente d'une boisson pen¬dant les deux mois d'été ; 3° l'achat à bon marché d'aliments aux four¬nisseurs de l'institution.
+       </p>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_31_334_93">
+        La dépense pour la nourriture est le gros article du budget des ou¬vriers. Cette remarque est vraie surtout pour la famille étudiée : Chez nous on vit bien, dit le chefde famille, c'est notre luxe. » De fait, l'ordinaire serait envié par bien des ménages de la petite bourgeoi¬sie : il s'élève à un chiffre total de 2.400 francs en chiffres ronds.
+       </p>
+       <p xml:id="para_31_334_94">
+        1 faut d'abord distinguer la nourriture prise en dehors de la famille, et celle qui est consommée au foyer.
+       </p>
+       <p xml:id="para_31_334_95">
+        L'ouvrier, comme presque tous ses camarades, habite à plus d'une heure de son chantier : il ne peut donc revenir chez lui prendre ses repas. IPendant les huit mois d'été (mars à fin octobre), c'est-a-dire pendant les journées de dix heures, il fait 2ᶠ 25 de dépense quotidienne au débit de vins (petit déjeuner, à 6 heures ; premier repas, à 9 heures ; collation, à 2 heures): pendant les quatre mois d'hiver novembre à fin février), où les journées se réduisent à huit heures, la dépense descend 1ᶠ 40 (un déjeuner à 11 heures). Les dépenses au débit de vins sont évaluées pour l'année à 760ᶠ60; il est vrai que pendant trois mois l'ou¬vrier, absent de Paris, a du souper hors de chez lui.
+       </p>
+       <p xml:id="para_31_334_96">
+        Quant aux aliments consommés dans le ménage, voici, à titre d'exem¬ple, le enu d'un jour. Le matin à 6 ou 7 heures, déjeuner pour les
+       </p>
+       <pb facs="#facs_360" n="335" source="s2lesouvriersdes03sociuoft_0395.xml"/>
+       <p xml:id="para_31_335_97">
+        femmes : lait avec du pain et un pcu de chocolat ; — à 11 heures, déjeuner : beefsteal ou côtelette de mouton, un plat de légumes, un dessert; —à2 heures, goûter : pain et chocolat ; — le soir, de 7 a 8 heures, repas de famille, au retour du père : une soupe (le pot-au¬feu est mis chaque semaine), un plat de viande, un plat de légumes, une salade et un dessert. Ajoutez à cet ordinaire plus d'un litre et dem de vin, sans compter la consommation extérieure.
+       </p>
+       <p xml:id="para_31_335_98">
+        Ces dépenses dépassent de beaucoup celles du charpentier du Devoir relevées en 1856 par Le Play et le regretté M. Focillon. Cette augnentation est due à deux causes : 1° la hausse du prix des aliments, trèssensiblepour certains articles ; 2° la recherche du confort. C'est ainsi que les morceaux de viande achetés sont devenus exclusivement des morceaux de choix ; et que certaines quantités, consignées au bud¬get, celles des matières sucrées, des boissons aromatiques et surtout des boissons fermentées, ont grandi démesurément.
+       </p>
+       <p xml:id="para_31_335_99">
+        La mère de famille, qui est maîtresse de la bourse commune, règle toutes ces dépenses au comptant ; le boulanger toutefois est payé au mois et se trouve ainsi créancier d'une sommc qui peut s'é¬lever jusqu'à 26 francs. Elle fait ses achats chez les petits détaillants du quartier, sans songer à profiter des avantages que pourraient lui offrir les grands magasins et les sociétés coopératives. Les ouvriers sentent instinctivement que leur cause est liée à celle du petit commerce, dé¬bouché naturel pour un grand nombre d'individualités intelligentes de la classe ouvrière.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
+       <p xml:id="para_31_335_102">
+        L'institution de jeunes filles ou habite la famille occupe un vieil hôtel particulier, aux limites extrêmes du faubourg Saint-Germain, auprès de l'ancienne ligne des boulevards extérieurs qui sépare ce faubourg de Grenelle. Un petit corps de bâtiment se trouve dans la cour : au rez-de-chaussée, une cuisine (la cuisine de l'école) ; au-des¬sus, une chambre et un cabinet ; en outre, une cave. C'est l'habitation ouvrière.
+       </p>
+       <p xml:id="para_31_335_103">
+        La cuisine, où la famille se tient habituellement, a 3ᵐ 05 de hau¬teur et 19 mètres carrés de surface. Comme ameublement, deux vastes fourneaux disposés en équerre dans un angle. l'un en ma̧onnerie.
+       </p>
+       <pb facs="#facs_361" n="336" source="s2lesouvriersdes03sociuoft_0396.xml"/>
+       <p xml:id="para_31_336_104">
+        l'autre en fonte, surmontés d'une immense cheminée d'appel ; au cen¬tre, une table de bois blanc ; tout autour, des placards et des étagères ; quelques caises. Note caractéristique propreté. — La chambre est moins grande (2ᵐ 25 de hauteur, 14 75 de surface) ; le cabinet atte¬nant est exigu (1 50), mais l'aération est facile. Ce logement est salubre. Il est fourni à la famille comme partie du salaire en nature de la femme. Valeur approximative : 300 francs.
+       </p>
+       <p xml:id="para_31_336_105">
+        MEUBLES : réduits au strict nécessaire et tenus avec soin . . 74)ᶠ 00
+       </p>
+       <p xml:id="para_31_336_106">
+        1° Lits. — 1 bois de lit en noyer. 50ᶠ 00; — 2 matelas de laine, 100ᶠ00 ; — 1 paillasse 5ᶠ 00; — 1 traversin (plume), 10ᶠ 00 ; — 1 couverture de laine, 15ᶠ00; — 2 oreillers, 10ᶠ 00 ;
+       </p>
+       <p xml:id="para_31_336_107">
+        — 1 dessus de lit, 12ᶠ 00; — 1 paire de rideaux de lit, 25ᶠ 00; — 1 édredon, 30ᶠ 00; —
+       </p>
+       <p xml:id="para_31_336_108">
+        1 lit en ferˉ, 30ᶠ00; 1 sommier, 25ᶠ 00; — 1 matelas, 50ᶠ 00 ; — 1 traversin, 10ᶠ 00; — 1 cou¬verture, 15ᶠ 00 ; — 1 oreilter, 5ᶠ 00; — 1 édredon, 30ᶠ00. — Total, 422ᶠ00.
+       </p>
+       <p xml:id="para_31_336_109">
+        2° Mebles de la cuisineˉ. — 1 table en bols blaunc, 25ᶠ00 ; — 4 chaises en noyer. 20ᶠ 00.
+       </p>
+       <p xml:id="para_31_336_110">
+        — Total, 45ᶠ 00.
+       </p>
+       <p xml:id="para_31_336_111">
+        3° Meubles de la chambre à corher. — 1 table de nuit en noyer, 25ᶠ 00; — 1 commode en noyer, 60ᶠ 00; — 1 établi servant de buffet, 20ᶠ 00:' — 1 table en noyer, 25ᶠ00: —
+       </p>
+       <p xml:id="para_31_336_112">
+        2 chaises en noyer, 10ᶠ00; — 1 glace, 12ᶠ00 ; — 1 pendule. 30ᶠ 00. —— Total, 182ᶠ 00.
+       </p>
+       <p xml:id="para_31_336_113">
+        4° Lires (exceptionnellement abondants). — Ouvrages techniques concernant le métier de charpentier : Traité complet de Nicolas rFourneaux ; Traité de Larouille, de Tours, 2 vol.; Dessins, etc. ; — Ouvrages divers : le Capital, de arl Marx ; l'Organisatio du travail, de Louis Blanc ; apports des Congrès ouvriers de Paris, Lyon, Marseille, Reims, Saint¬Étienne, etc. : ournad officie de la ommme, 1871 ; evolution de 1848, de Victor Maroul ; Révolution /fraaise, de Michelet : (uestion sociale de .B. Clément; Chansons du même auteur ; (atre-vigt-treice, de Victor lugo ; Mémoires de Vidocq ; des Mpsteres de Paris. dE. Sue ; le uirrat, même auteur : cclopédie des Lois franaises, par MM. Deles¬sart et E. de Granvilliers ; F'ranais et 1llemnds, guerre de 1870-1871, de Dick de Lonlay: es Eploits du deux Déecembre, par J.-G. Prat ; Ouvrages divers de .P. Maaaroz ; is¬tore des corportionsfruaises, Corporation du eubde scupté de Paris, la Corporation et ses consequences, Bilan financier de l F'rance. ete. : — Livres des deux fillettes un Buffon illustré, opage en France, de Ms Amable Tastu, la Roselière (roman, Lafon¬taine, prix divers : livres de classe, entre autres, un dictionnaire anglais et une gram¬maire. — Valeur totale, 100ᶠ 00.
+       </p>
+       <p xml:id="para_31_336_114">
+        LINGE DE MÉNAGE. . . . . . . . . . . . . . . . . . . . . . . 123ᶠ 00
+       </p>
+       <p xml:id="para_31_336_115">
+        6 paires de draps de lit, a 15ᶠ 00, 90ᶠ 00 ; — 1 douaine de serviettes de table, 8ᶠ 00; — 2 paires de rideaux de fenêtre, à 2ᶠ 50, 5ᶠ 00 ; — 2 nappes, 10ᶠ 00 ; — 6 serviettes de toilette, A4ᶠ 00; — 1 douaine de torchons. 6ᶠ 00.
+       </p>
+       <p xml:id="para_31_336_116">
+        UTENSILES . . . . . . . . . . . .. . . . . . . . . . . . . . 72ᶠ 30
+       </p>
+       <p xml:id="para_31_336_117">
+        1P Dépendant de la cheminée et du forneau. — 1 fourneau en fonte, 10ᶠ 00; — pelle, pincettes, ete., 6ᶠ 00. — Total, 16ᶠ 00.
+       </p>
+       <p xml:id="para_31_336_118">
+        2° Employés pour la prépration des aliments. —2poèlons eun foute, 4ᶠ 00; —3 casseroles en fer battu. 10ᶠ50; — 1 terrine, 1ᶠ 00; — 1 cafetière. 1ᶠ00; — 1 écumoire, 0ᶠ 50; — 1 mou¬lin à café, 1ᶠ 25 ; — 12 verres à boire, 1ᶠ 20; — 1 douzaine d'assiettes en faience, 1ᶠ 80; — 1 soupiére, 1ᶠ 10 ; — 1 saladier. 0ᶠ 90; — cuillers, fourchettes, couteaux, 12ᶠ 00; — 2 plats 1ᶠ 80; — service à café, verres à eau-de-vie, divers, 5ᶠ 00; — 1 fontaine, 10ᶠ 00. — Total
+       </p>
+       <p xml:id="para_31_336_119">
+        3° ¯Employés pour les soins de propreté éclairage. — Pot à eau et cuvette, eC., 1ᶠ 50 ; — lampe, chandeliers, etc., 2ᶠ 75. — Total, 4ᶠ 25.
+       </p>
+       <pb facs="#facs_362" n="337" source="s2lesouvriersdes03sociuoft_0397.xml"/>
+       <p xml:id="para_31_337_120">
+        VÊTEMENTS. . . . . .. .. . ... . . . . . . . . . . . . . 178ᶠ 40
+       </p>
+       <p xml:id="para_31_337_121">
+        VÊTEMENTS DE L'OUVRIER (214ᶠ 90).
+       </p>
+       <p xml:id="para_31_337_122">
+        1e° Vêtements du dima nche (semblables à ceux de la petite bourgeoisie).  1 pardessus, 1ᶠ 00; — 1 paletot en drap, 20ᶠ00; — 1 pantalon. id., 15ᶠ 00; — 1 gilet, id., 8ᶠ 00; — 1 cha¬peau de feutre, 6ᶠ00 ; — 1 cravate en soie, 1ᶠ50; — 1 cravate en coton, 0ᶠ 90; — 2 che¬
+       </p>
+       <p xml:id="para_31_337_123">
+        nises en toile, 5ᶠ00; — 1 paire de bottines, 12ᶠ 00. — Total, 78ᶠ 40.
+       </p>
+       <p xml:id="para_31_337_124">
+        2P etememts de travail. — 1 paletot de velours, 11ᶠ 00 ; — 1 gilet, id., 4ᶠ 00; — 1 pan¬talon, id., 7ᶠ 00; — 1 pantalon de fatigue en toile, 3ᶠ 00 ; — 2 vestes de travail entoile, 4ᶠ00;
+       </p>
+       <p xml:id="para_31_337_125">
+        1 casquette en drap, 0ᶠ 75 ; — 4 cravates d'été, 1ᶠ 00; — 6 chemises en coton, 12ᶠ 00: — 6 gilets de flanelle, 12ᶠ; — 3 calecons en coton, 4ᶠ 50 ; — 1 ceinture de laine, 1ᶠ 25 ; — 1 gilet de laine, 5ᶠ 00; — 12 chaussettes, 2ᶠ00 ; — 1 paire de bottes, 12ᶠ 00; — 1 paire de souliers, 7ᶠ 00. — Total, 86ᶠ 50.
+       </p>
+       <p xml:id="para_31_337_126">
+        3° Bijoux. — Une montre d'argent, 50ᶠ 00.
+       </p>
+       <p xml:id="para_31_337_127">
+        VÊTEMENTS DES FEMMES (263ᶠ 50).
+       </p>
+       <p xml:id="para_31_337_128">
+        °vêtements de la femme, pour le dimanche (imitant ceux de la petite bourgeoisie). — 1 robe de laine, 15ᶠ 00; — 1 mauteau, 10ᶠ 00; — 1 chapeau, 3ᶠ 00 ; — 1 paire de bottines, 5ᶠ 00. — Total, 33ᶠ 00.
+       </p>
+       <p xml:id="para_31_337_129">
+        2° ltememts de la /femme, pDour le travail. — 1 robe noire en laine, 15ᶠ 00; — 1 robe en coton, 10ᶠ 00; — 1 jupon de laine, 3ᶠ 00; — 2 jupons de ecoton, 8ᶠ 00; — 3 tabliers de co¬ton, 1ᶠ 50 ; — 2 caracos, 2ᶠ 50; — 4 gilets de flanelle, 6ᶠ 00; — 2 paires de bas de laine, 1ᶠ75: — 6 paires de bas de coton, 3ᶠ 00 ; — 3 paires de chaussures, 5ᶠ 00 ; — 8 chemises de coton, 6ᶠ 00; — 1 paire de sabots, 1ᶠ 00; — 2 paires de chaussons de laine, 0ᶠ 35; — 2 pan¬talons de laine, 3ᶠ 00;— 2 pantalons de coton, 2ᶠ 50; — 4 camisoles, 3ᶠ 00; — 1 corset. 3ᶠ 00 ;
+       </p>
+       <p xml:id="para_31_337_130">
+        — 1 fichu de laine, 5ᶠ 00. — Total, 79ᶠ 60.
+       </p>
+       <p xml:id="para_31_337_131">
+        3° Bijoux. — 1 bague en or, 10ᶠ 00.
+       </p>
+       <p xml:id="para_31_337_132">
+        4° Vêtements de la ille aînée. — 1 robe en laine, 8ᶠ00; — 1 robe en coton, 5ᶠ00;— 1 man¬teau de drap, 3ᶠ00 ; — 1 chapeau, 2ᶠ50; — 1 pantalon de laine, 1ᶠ 25 ; — 2 pantalons de co¬tou, 2ᶠ 50 ; — 2 paires de bas de laine, 1ᶠ 45; — 3 paires de bas de coton, 1Iᶠ 75; — 1 cor¬set, 1ᶠ 25 ; — 4 chemises de coton, 2ᶠ 90 ; — 2 tricots de laine, 4ᶠ 00 ; — 1iupon de laine, 2ᶠ00 ;
+       </p>
+       <p xml:id="para_31_337_133">
+        — 3 jupons de coton, 1ᶠ 10; — 4 paires de souliers, 15ᶠ00 ; — 1 fichu, 1ᶠ50; — 3 tabliers pour l'école, 3ᶠ00: — 1 bachelie, 1ᶠ 50 ; — menus ornements de toilette, 1ᶠ25. — Total, 58ᶠ95.
+       </p>
+       <p xml:id="para_31_337_134">
+        5° etememts de la deuvieme ilde. — Identiques à ceux de l'ainée, 58ᶠ 95.
+       </p>
+       <p xml:id="para_31_337_135">
+        6° eltements de la troisiéme ille (en nourrice). — Valeur totale, 20ᶠ00.
+       </p>
+       <p xml:id="para_31_337_136">
+        7° Vêtements en commun. — 2 douzaines de mouchoirs, 3ᶠ00.
+       </p>
+       <p xml:id="para_31_337_137">
+        VALEUR TOTALE du mobilier et des vêtements . . .. . . 1.422ᶠ 70
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_31_337_140">
+        La politique est la distraction principale et même la seule de l'ou¬vrier. Chacune de ses heures de loisir est consacrée à l'étude des moyens les plus efficaces pour aviver la haine des classes. Il cherche à fortifier encore ses convictions, — qui rappellent cependant la foi in¬vulnérable des premiers apôtres de toute religion, —par la lecture cons¬ciencieuse d'un journal quotidien et de deux journaux hebdomadaires
+       </p>
+       <pb facs="#facs_363" n="338" source="s2lesouvriersdes03sociuoft_0398.xml"/>
+       <p xml:id="para_31_338_141">
+        de son parti. Chaque scmaine il assiste avec une exactitude inaltéra¬ble à la séance de son cercle d'études sociales. es grandes fêtes, ce sont les jours où un enterrement civil, unc grève, un congrès, la cé¬lébration d'un anniversaire, lui permettent de proclamer ces idées que verra triompher l'avenir, sous le drapecau rouge de la révolution sociale.
+       </p>
+       <p xml:id="para_31_338_142">
+        Comme antithèse, les plaisirs qu'il permet à sa famille offrent un caractère d'idylle. Ce sont des repas où sont admis de loin en loin quelques camarades, chefs influents du parti ; ce sont des visites à l'Exposition, à la galerie des machines et devant la tour Eifel ; c'est surtout, le 14 juillet, une promenade à Saint-Cloud, d'ou l'on revient sur le bateau-mouche, après avoir diné sur l'herbe.
+       </p>
+       <p xml:id="para_31_338_143">
+        Pas de récréations vicieuses, on le voit : l'alcoolisme est inconnu ; la moralité est incontestée ; le jeu est ignoré. Nous ajouterons même, pour la Société contre l'abus du tabac, que l'ouvrier ne fume ni ne prise jamais.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. PHASES PRINCIPALES DE L'EXISTENCE.
+       </head>
+       <p xml:id="para_31_338_147">
+        L'ouvrier est né à (C (ndre), en 1847. I a été élevé dans une exploitation rurale du Berry, au milieu d'un régime terrien en partie analogue à celui de l'Angleterre. Le spectacle des immenses propriétés où réside une haute noblesse, très éloignée par ses mœurs et ses idées des différentes classes rurales qui l'entourent, semble lui avoir inspiré dès son enfance un vif sentiment des inégalités sociales. Son intelligence fort éveillée lui permit de retenir quelques éléments d'instruction primaire, pendant les quatre mois d'hiver ou la garde des bestiaux ne l'éloignait pas de l'école. L'éducation religieuse fut beaucoup plus soignée que l'instruction chez cet incrédule militant, et il se rappelle avec ironie les succès que ses réponses au catéchisme lui valaient auprès de ses camarades. Cependant son père était mort et sa mère était obligée de subvenir, avec son maigre salaire de lavan¬dière, aux besoins d'une fille et de son jeune garçon. L'ouvrier se sentit bientôt hanté par des idées d'indépendance et de voyages. ar¬
+       </p>
+       <pb facs="#facs_364" n="339" source="s2lesouvriersdes03sociuoft_0399.xml"/>
+       <p xml:id="para_31_339_148">
+        çon charretier à dix-sept ans, il s'engage comme apprenti chez un charpentier du voisinage. C'était à la Toussaint de 1864. Un an après, il quittait le pays et commencait son tour de France par Blois.
+       </p>
+       <p xml:id="para_31_339_149">
+        Les compagnonnages étaient alors souverains sur le « tour de France », Compagnons du Devoir contre Compagnons de Liberté. L'ou¬vrier fut contraint de s'en rapprocher, car toute puissance venait d'eux, non sans ressentir toutefois un vif éloignement pour leur hiérarchie et leur particularisme qui lui semblaient insupportables. Il suivit à Angers le cours de trait d'un « Bon Drille », et immédia¬tement s'attira par ce fait la jalousie des Compagnons de Liberté, qui l'attaquèrent traîtreusement et le rouèrent de coups, ainsi que plu¬sieurs de ses camarades. Il ne leur a jamais pardonné ce guet-apens. Le s tour de France se continuait assez paisiblement, en même temps que les études pratiques, poursuivies l'hiver, après la journée, sous la direction des Compagnons les plus capables. L'ouvrier a conservé de cette époque des travaux dont avec raison il se montre fier. La guerre de 1870 survint et, malgré sa qualité de fils aîné de veuve, il fit huit mois de campagne comme sapeur du génie dans la deuxième armée de la Loire. Il arriva à Paris au moment où la Commune agonisait, trop tard par conséquent pour jouer un rôle. Comme il s'était fixé dans les environs du marché Saint-iermain, tout près des Compagnons de Liberté, il suivit assidûment leurs cours, en leur faisant espérer qu'il offrirait toutes les aptitudes requises d'un parfait compagnon.
+       </p>
+       <p xml:id="para_31_339_150">
+        Mais tel n'était point son projet, et, son éducation terminée, il se rendit avec quelques amis, non plus chez les Compagnons de Liberté, mais chez leurs ennemis, les Compagnons du Devoir. Ici nous lui lais¬sons la parole. « Nous arrivâmes chez la mère, rue d'Allemagne. On nous dit s Que venez-vous faire, les coteries — Nous faire recevoir « compagnons. — Soyez les bienvenus. » On nous fit passer un examen rapide et l'on nous dit que, nos aptitudes étant suffisantes, il faudrait revenir le lendemain pour subir l'épreuve. On but, mangea et chanta toute la nuit, et, quand nous voulûmes régler : « Ce n'est rien, les coteries ; on règle cela plus tard. » Nous partimes naturelle¬ment pour ne plus revenir. » Les Compagnons du Devoir ne dirent «rien, tout en vouant à l'ouvrier une haine sourde qui se retrouva plus tard, à l'époque des grèves. Les Compagnons de Liberté furent moins endurants. l y eut une « batterie », d'où notre héros sortit cette fois avec les honneurs de la guerre. De ce jour. il a été et il est encore un independant résolu.
+       </p>
+       <pb facs="#facs_365" n="340" source="s2lesouvriersdes03sociuoft_0400.xml"/>
+       <p xml:id="para_31_340_151">
+        bLa première partie de la vie de l'ouvrier a été employée à combattre le compagnonnage, au milieu de ces batailles et de ces joyeuses beu¬veries que la jcunesse noble du moyen âge a léguées à la jeunesse ouvrière de ce siècle-ci. bLa seconde partie va être consacrée à la lutte contre le patronat. L'ouvrier reconnaît qu'il était né pour l'opposition et qu'une œuvre d'émancipation, quelle qu'elle f̂t, contre la tyrannie compagnonnique ou la tyrannie patronale, devait trouver en lui un soldat toujours prêt à l'action. Il est vrai que cette lutte, il n'allait plus la soutenir seul : il se mariait en 1874, et la compagne qu'il s'était choisie se montrait assez disposée à s'attaquer aux vieilles coutumes, puisqu'elle renonçait d'elle-même au mariage religieux.
+       </p>
+       <p xml:id="para_31_340_152">
+        L'ouvrière, Marie D°, était cuisinière à Paris. Cétait la fille d'un petit propriétaire périgourdin qui s'était audacieusement lancé dans une entreprise industrielle, — une exploitation de fours à chaux, — et qui avait été ruiné traîtreusement par un associé. La fille avait été con¬trinte de se mettre en condition chez des marchands assezL modestes, qui transportèrent leur commerce dans des villes de plus en plus im¬portantes, à mesure que la chance les favorisait. Elle arriva ainsi à Bordeaux, puis entra chez des libraires qui finirent par s'installer à Paris ; la domestique suivit cette famille et ne la quitta qu'au moment de son mariage, car la femme de cet ennemi irréconciable du patronat s'honore, comme les servantes du vieux temps, de n'avoir jamais eu dans sa vie que rois maîtres.
+       </p>
+       <p xml:id="para_31_340_153">
+        La situation du jeune ménage fut d'abord assez brillante : le mari était gâcheur d'escalier » dans un des grands chantiers de Paris, où il est resté sept ans ; la femme n'avait pas quitté sa condition et continuait à apporter l'appoint de ses gages dans la caisse commune. Un petit garçon survint, mort presque aussitôt ; puis, en 1876, une grave mala¬die de l'ouvrier. La guérison fut assez lente. Quelques années plus tard, le ménage, accru de deux enfants, obtint la place qu'il occupe encore à l'institution de jeunes filles. De ce côté, l'avenir était réglé pour longtemps.
+       </p>
+       <p xml:id="para_31_340_154">
+        Il n'en était pas de même du côté des chantiers de charpente. L'ou¬vrier avait quitté son ancien atelier, pour un atelier moindre où il était à la fois gâcheur de charpente et gaûcheur d'escalier, et par suite en¬core plus dégagé de toute dépendance. Mais la grève de 1879 éclate, et bientôt celle de 1881-82, entreprise cependant malgré son opposition. Son attitude dans les réunions est signalée au syndicat patronal. Il est mis à l'index : les chantiers se ferment devant lui ; ilreste de longs
+       </p>
+       <pb facs="#facs_366" n="341" source="s2lesouvriersdes03sociuoft_0401.xml"/>
+       <p xml:id="para_31_341_155">
+        mois sans ouvrage. Enfin, sa haute capacité d'homme de métier faisant oublier sa campagne contre le patronat, il est embauché dans un chan¬tier où l'ouvrage ne lui manque jamais, non plus comme contre-maître. mais comme simple compagnon.
+       </p>
+       <p xml:id="para_31_341_156">
+        Le martyre affermit la foi. Plus que jamais, l'ouvrier et l'ouvrière espèrent en la reconstitution complète de la société actuelle, lui, avec une conviction raisonnée qui s'appuie sur un système : elle, avec un instinct vague qui lui fait désirer la destruction de tous les bonheurs et de toutes les aises refusées à ses filles et à son mari.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. MOEURS ET INSTITUTIONS ASSURANT LE BIEN-ÈTRE PIHYSIQUE ET MORAL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_31_341_159">
+        Ainsi donc, la famille étudiée, sans aucun espoir de s'élever, sinon par un coup imprévu de la fortune, sera sans doute perpétuellement maintenue dans la situation inférieure d'aujourd'hui.
+       </p>
+       <p xml:id="para_31_341_160">
+        Son amour du travail, son ignorance des vices les plus couteux lui permettront d'équilibrer son budget annuel, tant que les forces de l'ou¬vrier et de l'ouvrière n'auront pas éprouvé les défaillances qu'entrainent la maladie, les accidents, la vieillesse.
+       </p>
+       <p xml:id="para_31_341_161">
+        Mais viennent les divers événements que les monographistes dési¬gnent sous le nom de phases exceptionnelles de l'existence », ces événements qui se détachent avec brutalité sur le fond uniforme de la vie, que la femme devienne infirme, que le mari tombe d'un échafau¬dage, ou que tout simplement l'un et l'autre arrivent à un âge avancé, quelle sera leur situation2
+       </p>
+       <p xml:id="para_31_341_162">
+        Pas d'épargne d'abord : à chaque année son revenu suffit à peine.
+       </p>
+       <p xml:id="para_31_341_163">
+        Pas d'institutions qui la remplacent : pas d'assurance contre les mala¬dies ; une assurance contre les accidents, conclue par le patron et dont le versement ne s'opérerait pas sans prcès ; pas de pension de retraite.
+       </p>
+       <p xml:id="para_31_341_164">
+        Outre la piété filiale des enfants, qu'il ne faut pas escompter avec trop de certitude, que reste-t-il comme ressource suprème Le secours du parti, sur lequel l'ouvrier parait compter et qui exercerait ainsi une sorte de patronage original ; et enfin la charité sous sa forme privée et administrative : les sociétés charitables et le bureau de bienfaisance.
+       </p>
+       <p xml:id="para_31_341_165">
+        Cette perspective n'est pas faite pour ramener à la société cet irré¬conciliable.
+       </p>
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <pb facs="#facs_367" n="342" source="s2lesouvriersdes03sociuoft_0402.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_367" url="#"/>
+       </figure>
+       <!--<p xml:id="para_31_342_169">
+        SOURCES DES RECETTES.
+       </p>
+       <p xml:id="para_31_342_170">
+        SECTION 1ᵉ.
+       </p>
+       <p xml:id="para_31_342_171">
+        PROPRIÉTÉS POSSÉDÉES PAR LA FAMILLE.
+       </p>
+       <p xml:id="para_31_342_172">
+        ART. 1ᵉʳ. — PROPRIÉTÉS IMMODILIÈRES.
+       </p>
+       <p xml:id="para_31_342_173">
+        (La famille ne posséde aucune propriété de ce genre)............................
+       </p>
+       <p xml:id="para_31_342_174">
+        ART. 2. — VALEURS MOBILIÈRES.
+       </p>
+       <p xml:id="para_31_342_175">
+        MATÉRIEL SPÉCIAL des travaux et industries :
+       </p>
+       <p xml:id="para_31_342_176">
+        Pour le métier de charpentier : outils cmployés à l'atelier ...................
+       </p>
+       <p xml:id="para_31_342_177">
+        .—  (Q1¦S T2)0S. .. . ...... . ..... . ........ . ....
+       </p>
+       <p xml:id="para_31_342_178">
+        — de menuisier : outils employés à la maison.................
+       </p>
+       <p xml:id="para_31_342_179">
+        Pour le bplanchissage du linC........ ...................................... ..
+       </p>
+       <p xml:id="para_31_342_180">
+        ARGENT :
+       </p>
+       <p xml:id="para_31_342_181">
+        pp( e ree.. . .. . .. ......... ........ . .. ... . .. .. ............... ...... .
+       </p>
+       <p xml:id="para_31_342_182">
+        ART. 3. — DROITS AUX ALLOCATIONS DE SOCIÉTÉS D'ASSURANCES MUTUELLES.
+       </p>
+       <p xml:id="para_31_342_183">
+        Droit éventuel à une indemnité en argent payée par une société d'assurances, en cas d'accident qui arriverait à l'ouvrier...... .................................. .
+       </p>
+       <p xml:id="para_31_342_184">
+        VALEUR TOTALE des propriétés........ .....
+       </p>
+       <p xml:id="para_31_342_185">
+        SECTION II.
+       </p>
+       <p xml:id="para_31_342_186">
+        SUBVENTIORS REÇUES PAR LA FAMILLE. ART. 1ᵉʳ. — PROPRIÉTÉS RECUES EN USUFRUIT.
+       </p>
+       <p xml:id="para_31_342_187">
+        (La famille ne reçoit aucune propriélé en usufruit.).......................
+       </p>
+       <p xml:id="para_31_342_188">
+        ART. 2. — DROITS D'USAGE SUR LES PROPRIÉTÉS VOISINES.
+       </p>
+       <p xml:id="para_31_342_189">
+        (La famille ne jouit d'aucun droit de ce genre.)............................
+       </p>
+       <p xml:id="para_31_342_190">
+        ART. 3. — ALLOCATIONS D'OBETS ET DE SERVICES. Alocations concernant l'habitaon... ......... ................ ....... ......
+       </p>
+       <p xml:id="para_31_342_191">
+        concernant l'instruction des enfants.
+       </p>
+       <p xml:id="para_31_342_192">
+        concernant les récréations ..........
+       </p>
+       <p xml:id="para_31_342_193">
+        a 1ipre l'étrenneS.... ..... .. ....... ..
+       </p>-->
+       <pb facs="#facs_368" n="343" source="s2lesouvriersdes03sociuoft_0403.xml"/>
+       <!--<p xml:id="para_31_343_194">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>-->
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_368_g_2" url="#" xml:id="illu_31_343_1"/>
+       </figure>
+       <pb facs="#facs_369" n="344" source="s2lesouvriersdes03sociuoft_0404.xml"/>
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_369" url="#"/>
+       </figure>
+       <!--<p xml:id="para_31_344_197">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>
+       <p xml:id="para_31_344_198">
+        SOURCES DES RECETTES (suie).
+       </p>
+       <p xml:id="para_31_344_199">
+        DÉSIGNATION DES TRAVAUX ET DE IL'EMPLOI DU TEMPS.
+       </p>
+       <p xml:id="para_31_344_200">
+        SE C TION III.
+       </p>
+       <p xml:id="para_31_344_201">
+        TRAVAUX EXÉCUTÉS PAR LA FAMILLE.
+       </p>
+       <p xml:id="para_31_344_202">
+        RAVAIL. PRINCIPAL, ex́cuté à l'heure au cope d'un che d'industrie: Travail dé eharpente pendant 8 mois de la belle saison...... ...:...
+       </p>
+       <p xml:id="para_31_344_203">
+        pend ant 4 mois d'hiver..
+       </p>
+       <p xml:id="para_31_344_204">
+        Travail supplémentaire de charpente, exécuté à la in des jounrnées ordinaires (1 eure chaque fois), évalué en journées de 10 heures. TRAVAI. PRINCIPAL Spécial a la femme, exécuté pour le compte d'une 1nstitution :
+       </p>
+       <p xml:id="para_31_344_205">
+        Travaux de énage et de préparation des aliments pour les éléves de l'école professionnelle. pendant 10 mois (payés à raison de 60ᶠ par mois pendant toute l'année, plus le loggeent et le chauffage
+       </p>
+       <p xml:id="para_31_344_206">
+        et l'éclairage pendant 10 mois de l'année)..... ...................
+       </p>
+       <p xml:id="para_31_344_207">
+        TRAVAUX SECONDAIRES :
+       </p>
+       <p xml:id="para_31_344_208">
+        Entretien des meubles en bois du menage par l'ouvrier...........
+       </p>
+       <p xml:id="para_31_344_209">
+        Travaux de méuage exécutes pour la famille...... ................
+       </p>
+       <p xml:id="para_31_344_210">
+        Blanchissage et repassage du linge.......... ...... ............. . ..
+       </p>
+       <p xml:id="para_31_344_211">
+        TOTAUX des journées de tous les membres de la famille
+       </p>
+       <p xml:id="para_31_344_212">
+        SE CTION IV.
+       </p>
+       <p xml:id="para_31_344_213">
+        INDUSTRIES ENTREPRISES PAR LA FAMILLE
+       </p>
+       <p xml:id="para_31_344_214">
+        (a son propre compte).
+       </p>
+       <p xml:id="para_31_344_215">
+        Eeie des eubles en is d eC. . . ..... .... . ... ..... .......... ........ .. . .....:..
+       </p>
+       <p xml:id="para_31_344_216">
+        lncissage et repassa;e du linge.... .. .. . ..... ... ... .... ........ . ... ..... ....... ........ .
+       </p>
+       <p xml:id="para_31_344_217">
+        Petit commerce d'aliments consommés au gouter par les éléves de 'école prolessionnelle. . Préparation d'une boisson, en partie vendue aux élèv es de l'institution. en partie consom
+       </p>
+       <p xml:id="para_31_344_218">
+        T ¦ ]:p¦¦°. . . . . .. .... .. . . . . . . . . . .. . . . ... . . .. . . ... . .. . ... . . . ... . ... .. . . . .... .. ... . .. ....
+       </p>
+       <p xml:id="para_31_344_219">
+        Achat a bn marche d'aliments consommés pa la fanille. .... ... ..:..... ........ ..... ........
+       </p>-->
+       <pb facs="#facs_370" n="345" source="s2lesouvriersdes03sociuoft_0405.xml"/>
+       <!--<p xml:id="para_31_345_220">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>-->
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_370_g_2" url="#" xml:id="tble_31_345_2"/>
+       </figure>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <pb facs="#facs_371" n="346" source="s2lesouvriersdes03sociuoft_0406.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_371_g_2" url="#" xml:id="tble_31_346_3"/>
+       </figure>
+       <pb facs="#facs_372" n="347" source="s2lesouvriersdes03sociuoft_0407.xml"/>
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_372" url="#"/>
+       </figure>
+       <!--<p xml:id="para_31_347_223">
+        DÉSIGNATION DES DÉPENSES (suite).
+       </p>
+       <p xml:id="para_31_347_224">
+        DÉPEXSES CONCERNANT LA NOURRITURE (suite).
+       </p>
+       <p xml:id="para_31_347_225">
+        .RT. 1ᵉʳ. — ALIMENTS CONSOMMÉS DANS LE MÉNAGE (uite).
+       </p>
+       <p xml:id="para_31_347_226">
+        ÉGUMES ET FRUITS :
+       </p>
+       <p xml:id="para_31_347_227">
+        Tubercules : Pommes de terre diverses.
+       </p>
+       <p xml:id="para_31_347_228">
+        égues farineux secs : Haricots, 4ᵏ à 0ᶠ875, 3ᶠ50 ;—
+       </p>
+       <p xml:id="para_31_347_229">
+        lentilles, 4ᵏ8 a 1 ᶠ00, 4ᶠ80. ........................
+       </p>
+       <p xml:id="para_31_347_230">
+        Légumes verts à cuire : aricots verts, 75 0ᶠ 70. 5Sᶠ25; — pois verts, 36 a 1ᶠ00, 3ᶠ60 ; — choux¬leurs et chou, 72 à 0ᶠ235, 17ᶠ 48 ; — asperges, 5ᵏ à 2ᶠ00, 10ᶠ00 ; — artichauts, 3ᵏ a 1ᶠ35. 4ᶠ05 ; — oseille, 75 a 0ᶠ40, 3ᶠ00; — tomates, 6 a 0ᶠa10,
+       </p>
+       <p xml:id="para_31_347_231">
+        2ᶠ 40 ; — choucroute, 2 à 0ᶠ40, 0ᶠ80..... .........
+       </p>
+       <p xml:id="para_31_347_232">
+        Ĺgumes racines : Carottes, 3 à 0ᶠ80, 2ᶠ 40; — poi¬reaux, navets, 13ᵏ à 0ᶠ80, 10ᶠ 40; — céleri. 15
+       </p>
+       <p xml:id="para_31_347_233">
+        0ᶠ40 0ᶠ §0.. ....... .................... ........ .
+       </p>
+       <p xml:id="para_31_347_234">
+        Légumes épices : Oignons, 15 a 0ᶠ 10, 6ᶠ 00; — ail, 0754 à 1ᶠ333, 1ᶠ 00: — échalotte, 0ᵏ250 a 2ᶠ00,
+       </p>
+       <p xml:id="para_31_347_235">
+        Salades : Cresson, pissenlit, chicorée. etc...........
+       </p>
+       <p xml:id="para_31_347_236">
+        Cucurbitacees : Melons...................... ....... .
+       </p>
+       <p xml:id="para_31_347_237">
+        ChapigonS ..... ..................... ........... ..
+       </p>
+       <p xml:id="para_31_347_238">
+        Fruits : Cerises, 3 à 0ᶠ80. 2ᶠ40: — pommes, noires, 3 0ᶠ70. 2ᶠ 10: — noi. 4* à 0ᶠ55] 2ᶠ20: — fraises.
+       </p>
+       <p xml:id="para_31_347_239">
+        Poids total et prix moyen..
+       </p>
+       <p xml:id="para_31_347_240">
+        ONDIMENTS ET STIMULANTS :
+       </p>
+       <p xml:id="para_31_347_241">
+        Epices ;: Poivre, 020 à 8ᶠ0, 2ᶠ00 ; — cornichons, 6 a 0ᶠ50, 3ᶠ00: — clous de girole, 0ᶠ 10; — pDiment. 0ᶠ50; — estragon, 0ᶠ10; — oignons. 0ᶠ60: — thym.
+       </p>
+       <p xml:id="para_31_347_242">
+        laurier, 0ᶠ30: — moutarde, 2ᶠ 40. ..............
+       </p>
+       <p xml:id="para_31_347_243">
+        Vinaigre pour salades et pour la cuisiuc...... .....
+       </p>
+       <p xml:id="para_31_347_244">
+        Chacolat, 18ᵏ25 à 4ᶠ 00. 73ᶠ00: — caé, 55 à 6ᶠ00,
+       </p>
+       <p xml:id="para_31_347_245">
+        33ᶠ00; — chicorée, 0ᶠ60. .........................
+       </p>
+       <p xml:id="para_31_347_246">
+        Sucre blane. 12 à 1ᶠ20, 14ᶠ 40: — caramel (1 acon),
+       </p>
+       <p xml:id="para_31_347_247">
+        Poids total et prix
+       </p>
+       <p xml:id="para_31_347_248">
+        OISSONs FERMENTÉES :
+       </p>
+       <p xml:id="para_31_347_249">
+        Vin acheté par pièces de 225 litres. .................
+       </p>
+       <p xml:id="para_31_347_250">
+        Eau-de-vie, 1 à 3ᶠ00, 3ᶠ 00: — rhum. 1 à 3ᶠ50, 3ᶠ50. Boisson préparée par l'ouvrière (§ 16. D) 50 a 0ᶠ20. 10ᶠ00 ; — eau de seltz, 120ᵏ a 0ᶠ15, 18ᶠ00.........
+       </p>
+       <p xml:id="para_31_347_251">
+        Poids tota et prix moyen..
+       </p>
+       <p xml:id="para_31_347_252">
+        ART. 2. — ALIMENTS PRÉPARÉS ET CONSOMMÉS EN DEHORS DU MÉNAGE.
+       </p>
+       <p xml:id="para_31_347_253">
+        Repnas pris chaque jour de travail d'été (21 jours) clez le cabaretier. à
+       </p>
+       <p xml:id="para_31_347_254">
+        'pinaire.... . ..................... ......................... .. (§ 14S. G).
+       </p>
+       <p xml:id="para_31_347_255">
+        Repnaspris chaque jour de travail d'hiver (10 jours) chez le cabaretier, à
+       </p>
+       <p xml:id="para_31_347_256">
+        ['py)Te . . . . ....... .... .. . .. .... .. . . ... . .. .... .. .. ... ... . . . . . . . . . . . . . .
+       </p>
+       <p xml:id="para_31_347_257">
+        Dier pris e sus, pDendant 63 jours, dans une localité de la bamlieue. à
+       </p>
+       <p xml:id="para_31_347_258">
+        l'occasin d' levag°... . ............. ...... ...... .......... ..... .::. ...
+       </p>
+       <p xml:id="para_31_347_259">
+        Petit déjeuner pris en sus, dans les mêmes conditions........... ... .....
+       </p>
+       <p xml:id="para_31_347_260">
+        ToTAUN des dépenses concernant la nourriture.
+       </p>
+       <p xml:id="para_31_347_261">
+        MONTANT DES DÉPENSES
+       </p>
+       <p xml:id="para_31_347_262">
+        1
+       </p>-->
+       <pb facs="#facs_373" n="348" source="s2lesouvriersdes03sociuoft_0408.xml"/>
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_373_g_1" url="#" xml:id="tble_31_348_4"/>
+       </figure>
+       <pb facs="#facs_374" n="349" source="s2lesouvriersdes03sociuoft_0409.xml"/>
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_374" url="#"/>
+       </figure>
+       <!--<p xml:id="para_31_349_263">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+       </p>
+       <p xml:id="para_31_349_264">
+        DESIGNATION DES DEPENSES tuite .
+       </p>
+       <p xml:id="para_31_349_265">
+        PENSES CONCERNANT LES BESOINS MORAUX, LES RÉCRÉATIONSS ET LE SERVICE DE SANTE (uie).
+       </p>
+       <p xml:id="para_31_349_266">
+        RÉATIONS ET SOLENNITÉS :
+       </p>
+       <p xml:id="para_31_349_267">
+        Cotisations de l'ouvrier à un Cercle d'études sociales. 18ᶠ00; — acat d'un journal socialiste, 18ᶠ25 :. — abonnement à 2 journaux socia¬listes hedomadaires, 12ᶠ00:. — ticets de l'Exposition universelle; 4 achetes à 0ᶠ50. 2ᶠ00 : — 7 rȩus en caudeau. 3ᶠ50: — 4 voyaes à
+       </p>
+       <p xml:id="para_31_349_268">
+        Saint-Cloud en famille, par bateau, 4ᶠ00 : — jouets donnés a l'enfant,. 1ᶠ0; — CoOnSoations de l'ouvrier avec les camaraules, 18ᶠ 00; — prai (e v ire, 0ᶠ 00. . .... .......:.... . . ....... ..:.:.:..........
+       </p>
+       <p xml:id="para_31_349_269">
+        rFrais de médecin et de pharmacien, 28ᶠ 00: — bains, 6ᶠ80... (§ 16, .).
+       </p>
+       <p xml:id="para_31_349_270">
+        TOTAUN des dépenses concernant les besoins moraux, les
+       </p>
+       <p xml:id="para_31_349_271">
+        récréaions et le service de
+       </p>
+       <p xml:id="para_31_349_272">
+        ENSES CONCERNANT LES INDUSTRIES :
+       </p>
+       <p xml:id="para_31_349_273">
+        NOTA. — Les dépenses concernant les industries montent ............ .... ................... .... ...... . ( 175. ) §(5ᶠ 7(
+       </p>
+       <p xml:id="para_31_349_274">
+        Elles sont remboursees par les recettes provenant de ces émes industries. savoir :
+       </p>
+       <p xml:id="para_31_349_275">
+        Argent et objets employés pour les consommations du ménage, et portés. a ce titre, au présent
+       </p>
+       <p xml:id="para_31_349_276">
+        Argent appliqué de nouveau aux industries ( 14, S°ʳ 1V), comme emploi momentané du fonds de roulement, etqui ne peut conséquem¬ment figurer parmi les dépenses du mé¬nage................................ (§ 16, F)
+       </p>
+       <p xml:id="para_31_349_277">
+        Entretien du matériel du métier de charpentier
+       </p>
+       <p xml:id="para_31_349_278">
+        RETS DFS DETTES :
+       </p>
+       <p xml:id="para_31_349_279">
+        La famille doit en général au boulanger une somme de 24ᶠ35 qui ne pDae pas d'inérèt. .... ... ......... . .... . .. . .... ... .. . ... . ... ........
+       </p>
+       <p xml:id="para_31_349_280">
+        La famille ne supporte direclement
+       </p>
+       <p xml:id="para_31_349_281">
+        GARANTIR LE BI
+       </p>
+       <p xml:id="para_31_349_282">
+        ANCES CONCOURANT
+       </p>
+       <p xml:id="para_31_349_283">
+        Contribution annuelle à une Société d'assurances. garantissant uee somme d'argent en cas d'accident qui frapperait l'ouvrier, 32ᶠ 20. (Cette dernière somme. pay ée par le patron de l'ouvrier, ne fait que pDasser par la caisse de la société d'assurances, pour revenir à la famille : on a donc p l'omettre ici. comme la recette, § 14.S°ʳʳ 1,
+       </p>
+       <p xml:id="para_31_349_284">
+        t 0.). . .... .. ... . . ..... . . .:.... ...... ... ... ..... . ..... ... .
+       </p>
+       <p xml:id="para_31_349_285">
+        s. les dettes. les im¬
+       </p>
+       <p xml:id="para_31_349_286">
+        ° i90t.. .... . .. . .. .. .......
+       </p>
+       <p xml:id="para_31_349_287">
+        -ÈTRE PHYSIQUE ET MORAL DE LA
+       </p>
+       <p xml:id="para_31_349_288">
+        GNE DE L'ANNÉE :
+       </p>
+       <p xml:id="para_31_349_289">
+        La famille dépense tout ce qu'elle gagne et tendrait plutôt a étendre ses dépenses, si scs gains augentaient, qu'a s'imposer auun sacritice pour cpargner. Comme le charpcutier de 1856. le charpeu¬tier indépendant a de l'ordre, ais pour la répartition immédiae de ses revenus entre les diférents besoins de la famille. ...........
+       </p>
+       <p xml:id="para_31_349_290">
+        TOTAUX des dépenses de l'année (halaņant les recettes) (74. 143ᶠ 61)
+       </p>-->
+      </div>
+      <div n="003" type="sub_sub_section">
+       <pb facs="#facs_375" n="350" source="s2lesouvriersdes03sociuoft_0410.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_375" url="#"/>
+       </figure>
+       <!--<p xml:id="para_31_350_294">
+        SECTION I.
+       </p>
+       <p xml:id="para_31_350_295">
+        COMPTES DES BÉNÉFICES
+       </p>
+       <p xml:id="para_31_350_296">
+        RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte).
+       </p>
+       <p xml:id="para_31_350_297">
+        A. — ENTRETIEN ET RÉPARATION DU MOBILIER DOMESTIQUE.
+       </p>
+       <p xml:id="para_31_350_298">
+        ECETTES.
+       </p>
+       <p xml:id="para_31_350_299">
+        éparation d'une table de nuit.,...:.:....:.:.... ...:... ;................
+       </p>
+       <p xml:id="para_31_350_300">
+        — de la table de la cuisine ; deux rallonges ajout́es..............
+       </p>
+       <p xml:id="para_31_350_301">
+        Bois (laisse par un menuisier).....
+       </p>
+       <p xml:id="para_31_350_302">
+        Bois des rallonges (achete).........
+       </p>
+       <p xml:id="para_31_350_303">
+        Vi, clous. Charuière....... ........
+       </p>
+       <p xml:id="para_31_350_304">
+        Main-d'euvre, 18ᵉ  0ᶠ70...........
+       </p>
+       <p xml:id="para_31_350_305">
+        d'un Serrurier...... . .
+       </p>
+       <p xml:id="para_31_350_306">
+        Iterèt(5 °.,) des outils........ . .
+       </p>
+       <p xml:id="para_31_350_307">
+        Bénétice résultant de l'industrie.
+       </p>
+       <p xml:id="para_31_350_308">
+        Totaux comme ci-dessus.
+       </p>
+       <p xml:id="para_31_350_309">
+        8. — BLANCHISSAGE ET REPASSAGE DU LINGE DE LA FAMILLE.
+       </p>
+       <p xml:id="para_31_350_310">
+        ECETTES.
+       </p>
+       <p xml:id="para_31_350_311">
+        Prix qui serait payé a une blanchisseuse et à une repasseuse exécutant le
+       </p>
+       <p xml:id="para_31_350_312">
+        Savon, 12ᶠ à 1ᶠ20.. ...... ...........
+       </p>
+       <p xml:id="para_31_350_313">
+        Exrait d'eau de javelle............
+       </p>
+       <p xml:id="para_31_350_314">
+        Carbonate de potasse. 12 à 0ᶠ20...
+       </p>
+       <p xml:id="para_31_350_315">
+        Amidon. 1ᶠ5 1ᶠ20....... .. .......
+       </p>
+       <p xml:id="para_31_350_316">
+        travail de la femme. 207e a 0ᶠ30 . . .
+       </p>
+       <p xml:id="para_31_350_317">
+        Bénéfice résultant de l'industrie.
+       </p>
+       <p xml:id="para_31_350_318">
+        Totaux omme ci-dessus.
+       </p>-->
+       <pb facs="#facs_376" n="351" source="s2lesouvriersdes03sociuoft_0411.xml"/>
+       <!--<p xml:id="para_31_351_319">
+        C. — PETIT COMMERCE D'ALIMENTS CONSOMMÉS PAR
+       </p>-->
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_376_g_2" url="#" xml:id="tble_31_351_5"/>
+       </figure>
+       <pb facs="#facs_377" n="352" source="s2lesouvriersdes03sociuoft_0412.xml"/>
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_377_g_1" url="#" xml:id="tble_31_352_6"/>
+       </figure>
+       <!--<p xml:id="para_31_352_320">
+        SECTION II.
+       </p>
+       <p xml:id="para_31_352_321">
+        COMPTES RELATIFS AUX SUBVENTIONS.
+       </p>
+       <p xml:id="para_31_352_322">
+        Ces comptes, se rapportant à des opérations très simples, ont été. en conséquence. établis dans budget lui-méme.
+       </p>
+       <p xml:id="para_31_352_323">
+        COMPTES DIVERS.
+       </p>
+       <p xml:id="para_31_352_324">
+        6. — COMPTE DE LA DÉPENSE RELATIVE A LA NOURRITURE PRISE PAR L'OUVRIER HORS DU MÉNAGE ( 9).
+       </p>
+       <p xml:id="para_31_352_325">
+        Le matiu avant le travail : vin. 1 verre ou 1,4 de litre. A 9 heures : Mrdinaire, soupe et bœuf........... .....
+       </p>
+       <p xml:id="para_31_352_326">
+        . — COMPTE DE LA DÉPENSE ANNUELLE CONCERNANT LES VÊTEMENTS ACHETÉS.
+       </p>
+       <p xml:id="para_31_352_327">
+        Vêtements du dimanche :
+       </p>
+       <p xml:id="para_31_352_328">
+        TSStS.. .. .. ... . .. ... .. .. . . . . . .. . ... . . . . . . . . .. . .. . . . . .
+       </p>
+       <p xml:id="para_31_352_329">
+        1 palet en dra)... . . .. . . . . .. . .. . ... . . . . . . . .... :.:. ....:. . . . ..
+       </p>
+       <p xml:id="para_31_352_330">
+        1 pantalon id. . . . ... .. . .. . .... ..... . . .. ... ... .. .. . .. .
+       </p>
+       <p xml:id="para_31_352_331">
+        1 chapea de etre. .. . .. . . .  .  . ... ....... . . . ............ .. .
+       </p>
+       <p xml:id="para_31_352_332">
+        1 TVte e Se.. .. .. . . ... .. .. . . .. .. . . . . .:. . .: ... . ..
+       </p>
+       <p xml:id="para_31_352_333">
+        A reporter
+       </p>-->
+       <pb facs="#facs_378" n="353" source="s2lesouvriersdes03sociuoft_0413.xml"/>
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_378_g_1" url="#" xml:id="illu_31_353_7"/>
+       </figure>
+       <pb facs="#facs_379" n="354" source="s2lesouvriersdes03sociuoft_0414.xml"/>
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_379" url="#"/>
+       </figure>
+       <!--<p xml:id="para_31_354_334">
+        Vêtements de la ille aînée (suite) :
+       </p>
+       <p xml:id="para_31_354_335">
+        4 (1en)eS (e (00I. ....... ..................
+       </p>
+       <p xml:id="para_31_354_336">
+        2 1pricots de aîné ....... .... . ........ ....... ..
+       </p>
+       <p xml:id="para_31_354_337">
+        1 jp0n de aîné... ........ ..... ... ....... ....
+       </p>
+       <p xml:id="para_31_354_338">
+        jpnS de cO0n. ....... .....................
+       </p>
+       <p xml:id="para_31_354_339">
+        4 paires de soiers . .... ......................
+       </p>
+       <p xml:id="para_31_354_340">
+        3 tabliers pour l'école. ..... ..................
+       </p>
+       <p xml:id="para_31_354_341">
+        rgec. . ............. .......... .... .... ...
+       </p>
+       <p xml:id="para_31_354_342">
+        Vêtements de la deuxième fille :
+       </p>
+       <p xml:id="para_31_354_343">
+        dentiques à ceux de l'ainée.................
+       </p>
+       <p xml:id="para_31_354_344">
+        Vêtements de l'enfant en nourriece : DeeSe 1olae . . .......... ................. .
+       </p>
+       <p xml:id="para_31_354_345">
+        Totaux pour les 3 enfants.
+       </p>
+       <p xml:id="para_31_354_346">
+        . — COMPTE DE LA DÉPENSE ANNUELLE RELATIVE AU SERVICE DE SANTÉ.
+       </p>
+       <p xml:id="para_31_354_347">
+        Médecin, 3 visites à 3ᶠ0) . .. ..............ᵉ.......... :..... .......... ..... ....
+       </p>
+       <p xml:id="para_31_354_348">
+        Pharmacien : tisanes (bourgeons de sapin, quaure-leurs).....................
+       </p>
+       <p xml:id="para_31_354_349">
+        — Sirop antiscorbutique, 1ᶠ75; — huile de foie de morue, 4ᶠ00; — (jvS ] ]ᶠ9, . .. . . . ... ............................... ... ......
+       </p>-->
+      </div>
+     </div>
+     <div n="003" type="section">
+      <pb facs="#facs_380" n="355" source="s2lesouvriersdes03sociuoft_0415.xml"/>
+      <head type="section" xml:id="part_03">
+       ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
+      </head>
+      <p xml:id="para_31_355_350">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES ; APPRECIATIONS GÉNÉRALES CONCLUSIONS
+      </p>
+      <div n="001" type="sub_section">
+       <div n="001" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         § 17. SUR L'ORGANISATION DES ATELIERS DE CHARPENTE DANS LA VILLE
+        </head>
+        <p xml:id="para_31_355_353">
+         L'atelier du charpentier, c'est-à-dire l'endroit où l'ouvrier travaille les bois en pièces et les assemble suivant certaines règles en vue des constructions civiles, varie continuellement, au moins en un sens. Sans doute, il existe un lieu fixe, où les charpentes et les escaliers se facon¬nent, mais le lieu de pose, ou de leuage, autrement dit la maison en construction ou en réparation, est naturellement très mobile.
+        </p>
+        <p xml:id="para_31_355_354">
+         ˉOrganisation de ˉl'atelier.
+        </p>
+        <p xml:id="para_31_355_355">
+         1° (hantier. — Le chantier est un espace plusou moins vaste, dont une partie, celle ou les ouvriers se tiennent, est couverte d'un hangar, — ce qui diminue d'une façon notable les chômages d'hiver, — et dont l'autre disparaît sous un amoncellement parfois considérable de chènes et de sapins simplement équarris ou sciés en planches. Ces chantiers, qui forment une double ceinture, assez souvent interrompue, autour des anciens boulevards extérieurs, d'une part et de l'autre autour des fortifications, dans la banlieue, sont parfois immcnses. Celui de la So¬ciété des Ouvriers Charpentiers de la Villette, auquel nous allons nous
+        </p>
+        <pb facs="#facs_381" n="356" source="s2lesouvriersdes03sociuoft_0416.xml"/>
+        <p xml:id="para_31_356_356">
+         reporter sans cesse dans cette description, couvre un hectare
+         <note type="bp">
+          <p>
+           49, rue Saint-Blaise, Dvisio des chamtiers : 25 à 30 grands chantiers : 30 petits : chan¬iers moyens en majorité (une dizaine d'hommes).
+          </p>
+         </note>
+         . C'est d'ailleurs un lieu historique : il servait de salle à la fameuse réunion.
+        </p>
+        <p xml:id="para_31_356_357">
+         Il scmblerait que, dans un chantier de charpente, on ne doive trouver que des charpentiers. Ce serait une très grave erreur. Outre les char¬peuntiers proprement dits, dont nous allons examiner par le détail la tche particulière, on y rencontre des scieurs de long, des serruriers, des menuisiers.
+        </p>
+        <p xml:id="para_31_356_358">
+         Les scieurs de long, dont la corporation est réduite à un millier environ par la concurrence des machines, et dont le salaire est de 60 à 70 centimes par heure, sont encore employés pour scier le bois nécessaire à la construction des escaliers. Les machines ne con¬fectionnent pas encore toutes les variétés de ce genre d'ouvrage.
+        </p>
+        <p xml:id="para_31_356_359">
+         Les serruriers ne sont pas les débris d'un métier qui disparaît, mais l'avant-garde d'un métier qui prendra une importance de plus en plus grande. Ils doivent leur admission dans le cllalèr̀ l'ivasion du fer. Leur besogne est toute matérielle : ils coupent le fer suivant ins¬tructions du contre-maître ou gâcheur. Salaire : 70 centimes.
+        </p>
+        <p xml:id="para_31_356_360">
+         Quant aux menuisiers, leur présence est justifiée par l'étroite dépen¬dance de certains travaux de menuiserie et des travaux de charpente. n un trés grand nombre de cas, l'entente doit être intime et de tous les instants. Aussi les patrons-charpentiers deviennent-ils souvent patrons menuisiers. ls paient les ouvriers de ce corps d'état70 centimes l'heure.
+        </p>
+        <p xml:id="para_31_356_361">
+         Ce ne sont là que des spécialités annexées, pour ainsi dire. La place d'honneur appartient aux véritables charpentiers. Examinons d'un peu plus près la vie quotidienne au chantier.
+        </p>
+        <p xml:id="para_31_356_362">
+         Lorsque vous avez quitté le cabinet du patron, jeté un coup d'eil sur la salle où chaque mois se fait la paie, et sur le ureau où sont étalés les plans des travaux à exécuter, vous arrivez à un petit rédu où les contre-maîtres, les gâcheurs, vieux terme de métier qui n'a rien d'ironique, étudient leurs plans, les ordres du maître, et préparent la tâche de la journée. Chaque chantier compte en général deu ge¬cheurs, le gâcheur de charpente et le gâcheur d'escalier. Ces deux gâcheurs ne sont pas égaux ; le gâcheur de charpente a le pas et ie commandement sur son collègue, mais ils dirigent chacun une section qui se spécialise absolument.
+        </p>
+        <p xml:id="para_31_356_363">
+         Voyons la première section, celle de la charpente. Quelles seront les différentes fonctions des ouvriers) Voici, par exemple, un pan de
+        </p>
+        <pb facs="#facs_382" n="357" source="s2lesouvriersdes03sociuoft_0417.xml"/>
+        <p xml:id="para_31_357_365">
+         charpente à faire, c'est le gâcheur qui va être chargé de toute la partie intelligente de l'œuvre. C'est lui qui, après avoir arrêté avec le patron la disposition de la ferme (assemblage de pièces placées de distances en distances et destinées à porter le faite et les chevrons d'un comble), celle des arbalétriers, de l'entrait, du poinçon, etc., et aussi l'épaisseur des bois, va exécuter le tracé d'assemblage. Il fait d'abord l'épure, c'est-à-dire que, sur l'aire du chantier, — c'est le tableau des charpentiers, — il trace une épure rigoureusement semblable à celle qui lui a été remise, mais à l'échelle de l'evécution. Il procède ensuite à l'établissement des bois, autrement dit à la réunion des bois, de facon à ce qu'ils s'appliquent sur les lignes correspondantes de l'épure.
+        </p>
+        <p xml:id="para_31_357_366">
+         Les autres opérations sont simples : c'est le piqué des bois, la marque des bois, le contre-jaugcage, toutes expressions qui se com¬prennent d'elles-mêmes ; le tracé sur bois des assemblages, où le gâ¬cheur se fait aide es ouvriers, surtout des plus habiles. Enfin les ouvr'rs ordmaires sont chargés de la coupe des assemblages et de la mise dedans. La ferme est terminée, il ne reste plus que le levage ou la pose, synonymes dans la langue des chantiers.
+        </p>
+        <p xml:id="para_31_357_367">
+         Le travail de la section de l'escalier est analogue à celui de la sce tion de charpente ; et nous serions contraint de répéter à peu près les mêmes développements, avec des modifications qui se coņoivent, si, au lieu de prendre pour exemple la confection d'une charpente, nous eussions pris celle d'un escalier.
+        </p>
+        <p xml:id="para_31_357_368">
+         2° ˉLeuvage. — La visite du chantier doit être complétée par une visite à une maison en construction, ou à un levage. La vie du char¬pentier se partage, en effet, entre le chantier et les endroits divers oùs'exécutent s levages. Ici les conditions du travailchangent. L'expé¬prience jeue sans doute toujours un rôle important, mais l'agilité, la force et l'adresse sont d'une utilité croissante. Il s'agit, en effet, de deux opérations distinctes : le montage des pièces de bois au moyen de la chèvre, et leur installation, qui ne va jamais sans quelques corrections sur place. C'est l'heure des accidents, de ces drames douloureux qui viennent briser prématurément des vies actives et énergiques. Jadis les travaux de levage étaient dirigés par un gàcheur spécial. La monogra¬phie du Compagnon de 1856 était celle d'un gâcheur de levage. Au¬jourd'hui on ne trouve plus dans les ateliers cette fonction particu¬lière, qui ne correspond plus à l'importance des travaux. On remplace le gàcheur de levage par un chef d'équipe, choisi parmi les ouvriers les plus experts. Dans les circonstunces où cette précaution est néces¬
+        </p>
+        <pb facs="#facs_383" n="358" source="s2lesouvriersdes03sociuoft_0418.xml"/>
+        <p xml:id="para_31_358_369">
+         saire, un des gâcheurs de chantier se transporte au lieu de pose, pour surveiller et au besoin diriger. Autrefois donc, il y avait un gâcheur pour le travail du dehors, un gâcheur pour le travail du chantier. l'ous deux maintenant restent au chantier et se spécialisent. La loi de coordination du travail humain a amené ici, comme en tant d'autres cas, le procédede ˉla diision du travail
+         <note type="bp">
+          <p>
+           V. Preis d'Ecooie politique, Th. Funck-Brentano.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_31_358_370">
+         Hiérarchie de l'atelier.
+        </p>
+        <p xml:id="para_31_358_371">
+         La description matérielle de l'atelier ne suffit pas pour le bien con¬naitre. Nous avons en face de nous un groupement d'homnmes, et partant une hiérarchie. Il ne faudrait pas se représenter un atelier de charpente comme une juxtaposition d'unités égales entre elles et sou¬mises à une autorité unique. C'est au contraire toute une échelle de grades aux appellations techniques et aux tâches définies. En haut, le patron, qui vient de temps en temps jeter le coup d'eil dumaître, et qui s'installe parfois au milieu des ouvriers, à l'époque des coups de feu, de ce que l'on appelle « les enlevages . Au-dessous, les deux gâcheurs, gâcheur de charpente et gâcheur d'escalier, avec une légère préémi¬nence pour le premier, qui est naturellement la source d'une sourde ja¬lousie. L'un et l'autre d'ailleurs règnent de haut sur leurs camarades d'atelier, par la supériorité de leurs connaissances d'abord, — toutes pra¬tiques le plus souvent, quelquefois théoriques, — et aussi par la mai¬trise absolue que la plupart du temps ils exercent sur l'embauchage. Sous les gâcheurs, se meuvent les équipes, petits groupes composés de trois hommes en principe pour la charpente, de deux pour l'es¬calier ; chiffres qui augmentent ou diminuent suivant les besoins. Chefs d'équipe et simples ouvriers se donnent le nom de Compagnons en remplissage, parce qu'ils sont censés se valoir. L'apprenti enfin vient de dernier lieu.
+        </p>
+       </div>
+       <div n="002" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         § 18. SUR LES VARIATIONS DE SALAIRE DES OUVRIERS CHARPENTIERS DEPUIS 1791.
+        </head>
+        <p xml:id="para_31_358_374">
+         Un principe se dégage de l'histoire de la corporation des charpentiers : toute surélévation de salaire a pour cause unc grève ou menace de grève.
+        </p>
+        <pb facs="#facs_384" n="359" source="s2lesouvriersdes03sociuoft_0419.xml"/>
+        <p xml:id="para_31_359_376">
+         En 1791, le salaire des charpentiers est de 2ᶠ50 par jour. La grève de 179l, qui motiva la loi du 14 juin 1791 sur les associations de gens de métier, eut pour contre-coup de porter l'heure à 30 centimes.
+        </p>
+        <p xml:id="para_31_359_377">
+         En 1822, deuxième grêve, l'heure monte à 35 centimes.
+        </p>
+        <p xml:id="para_31_359_378">
+         En 1832-33, troisiême grève; les 40 centimes sont atteints.
+        </p>
+        <p xml:id="para_31_359_379">
+         En 1845, la grande grève du siècle, aprês de longues luttes, des arrestations, un procès retentissant où Berryer présente la défense des Compagnons du Devoir, le salaire est fixé à 50 centimes.
+        </p>
+        <p xml:id="para_31_359_380">
+         En 1863, menace de grève ; quelques arrestations ; l'heure est payée 60 centimes.
+        </p>
+        <p xml:id="para_31_359_381">
+         En 1876, 70 centimes après une lutte de trois mois.
+        </p>
+        <p xml:id="para_31_359_382">
+         En 1879, 80 centimes : victoire presque immédiate des ouvriers.
+        </p>
+        <p xml:id="para_31_359_383">
+         En 1881-82, nouvelles grèves ; mais les patrons, aidés par la crise du bâtiment qui commence, et puissamment organisés (syndicat de la rue de Lutèce), empêchent l'application des 90 centimes que les syndicats ouvriers ont fait introduire dans le tarif de la Ville.
+        </p>
+        <p xml:id="para_31_359_384">
+         Le salaire, en cent ans, s'élève donc de 25 centimes à 80 centimes, soit : 320 3.
+        </p>
+        <p xml:id="para_31_359_385">
+         On peut aussi tirer de cette série de faits la remarque suivante :
+        </p>
+        <p xml:id="para_31_359_386">
+         Jusqu'en 1876, toutes les grèves sont conduites par le Compagnon¬nage du Devoir.
+        </p>
+        <p xml:id="para_31_359_387">
+         La greve de 1876 est l'euvre des Compagnons et des Indépendants.
+        </p>
+        <p xml:id="para_31_359_388">
+         La grève de 1879 est menée par les ndépendants (chambre syndi cale) ; les Compagnons suivent.
+        </p>
+        <p xml:id="para_31_359_389">
+         La grève de 1881-82est organisée par les lndépendants (Fédération socialiste) ; les Compagnons du Devoir résistent et sont exécutés en séance plénière comme aristocrates ». (Salle Molière, 159, rue Saint¬Martin).
+        </p>
+       </div>
+       <div n="003" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         § 19. SUR LES RITES SECRETS DU COMPAGNONNAGE DU DEVOIR.
+        </head>
+        <p xml:id="para_31_359_392">
+         Nous donnons ici quelques extraits d'un manuscrit fort curieux que nous avons publié ailleurs presque en entier
+         <note type="bp">
+          <p>
+           La Question ouvrière: 1, Charpentiers de Paris ; Compagnons et Indépendants ; Cours libre professé à la faculté de droit de Paris (avec preface par M. Th. Funck-Brentano). Paris, Arthur Rousseau ; 1891 ; in-8°, 298 p.
+          </p>
+         </note>
+         . Les révélations de ce manuscrit nous paraissent sulisamment exactes. La scène qui va sui¬vre est notamment décrite avec sincérité.
+        </p>
+        <pb facs="#facs_385" n="360" source="s2lesouvriersdes03sociuoft_0420.xml"/>
+        <p xml:id="para_31_360_394">
+         Le renard est pris à la renardière (chambre spéciale où les initiés sont enfermés). On lui bande les yeux, et, après d'inexprimables bri¬mades, on le conduit à la Cayenne (cave voûtée où se fait la réception). Le compagnon chargé de le conduire le mène à l'ancien (premier di¬gnitaire, qui préside la cérémonie). Celui-ci le pousse la tête sous la table et lui dit :  Appelle le père Soubise, cochon — Pêre Soubise — Plus fort, il est sourd. — P̀re Soubise . pêre Soubise — Quel est la sale bête qui vient ainsi me réveiller dans mon salon2 — C'est moi. A ce moment l'ancien l'attrape par les cheveux, lui frappe le menton sur la table et lui découvre les yeux. Les trois anciens sont nus jus¬qu'à la ceinture ; la figure, les bras, le corps, barbouillés de suie ; ils ressemblent plus à des diables qu'à des hommes. Le pauvre renard aprês tant de secousses et de brutalités ne sait plus où il en est. Cer¬tains ne savent que répondre, tant ils ont peur. « Que viens-tu faire ici, sale vermine, sale punaise2 C'est ainsi que l'on vient dans le salon du père Soubise faire un vacarme pareil En disant cela, il lui arrache les eheveux, lui tire les oreilles et lui crache à la figure. Puis il le passe au second qui le transmet au troisième. Enfin le premier le reprend et lui dit : a Veux-tu être compagnon2 E) bien, il faudra faire comme nous pour entrer dans la grande famille, il faut renoncer à la tienne. D'ailleurs tu n'en as pas besoin. lEt puis renoncer à Dieu, nous ne vou¬lons ni dévotion ni religion. Nous vivons indépendants, volant, pillant, tuant, pour nous procurer de l'argent, car ilnous en faut beaucoup pour vivre comme nous vivons ; il nous en faut trouver n'importe comment. Ainsi tu vois ce qu'il te faut faire. Si tu es consentant, nous allons te recevoir compagnon. Allons, vite, réponds. Il faut renoncer à Dieu, à ton père, à tamère, et uer et voler ; y es-tu consentant2 Non Non: Et pourquoi t'inquiéter de Dieu, tu n'en as pas besoin ; d'ailleurs la religion est une fameuse blague ; ta famille, tu n'en as pas besoin avec nous. Pour ce qui est du quibus » (argent), il nous en faut à quelque prix que ce soit. Quant à ce qui est de tuer, cela n'arrive pas souvent, mais il faut y consentir pour être reçu. Es-tu consentant NonAttrape¬moi ce cochon-là, — dit-il à son voisin, — on n'en peut rien faire ; il en connaît trop maintenant pour le mettre à la porte.  Il le passe au se¬cond et le second au troisième, en le martyrisant. Enfin, pour échapper à toutes ces tortures, l'infortuné consent, non qu'intérieurement il ne sache très bien qu'il ne fera jamais ce qu'on lui demande. Si les de¬mandes étaient faites avec douceur, il n'y a pas un omme qui renon¬cerait à ce qu'il a de plus cher, à sa faumille, à sa religion, qui conscn¬
+        </p>
+        <pb facs="#facs_386" n="361" source="s2lesouvriersdes03sociuoft_0421.xml"/>
+        <p xml:id="para_31_361_395">
+         tirait à voler et à tuer au besoin, il n'y en aurait pas un sur cent ; mais, pour cesser d'être brutalisés, ils finissent par dire :  Oui, je consens à faire tout ce que vous voudrez. » — Oui ah malheureu renard, tu as adhéré à tout, croyant bien faire ; tu t'es encore trompé : « Ah sa¬lop : ah : vermine u renonces à ton père et à ta mère, qui t'ont donné l'existence et t'ont élevé jusqu'à vingt ans, et à ta religion, et tu consentirais à voler et à assassiner pour faire partie de la société Allons donc sale animal. dépourvu de bon sens, être dégoûtant : que veux-tu que l'on fasse de toi Te confier tous nos secrets, après que tu as renoncé à ta famille et promis de voler et de tuer. Tiens mi¬sérable ... » Pendant tous ces reproches, il le frappe, le soufflette, lui crache au visage, lui arrache les cheveux, lui tire les oreilles : «Co¬chon regarde. » Il lui présente un petit Christ et lui dit :  Tiens, vois¬tu que nous ne renoncons pas à Dieu » (Certes, on en conviendra, ce serment arraché par la violence n'a aucune valeur ; le soldat aussi prête serment, maisil le prête librement : c'est ce qui donne le droit de le punir, s'il y nmanque.)— « 'Tu vas jurer y es-tu consentant— Oui... — Dis comme moi. » — Il lêve la main droite. «Je jure, devant Dieu et devant les honnêtes compagnons, de ne jamais dire ni divulguer aucun des secrets qui pourraient m'être confiés. — Je le jure: » — Maintenant il lui montre une petite planche sur laquelle il y a quatre lettres : U. V. G. T.  Tu vois ces lettres2 — Oui. — Sais¬tu ce qu'elles veulent dire2 — Non. — Eh bien, voilà : nion, Vertu, Génie, 'ravail. 'I'u sais aussi que les Compagnons ont tous un nom. Eh bien, maintenant, quel est le nom que tu désirerais choisir2 Je suppose que ce soit Blois-la-Prudence. On lui donne à son choix un parrain et une marraine, que l'on appelle le représentant et l'adjoint. On place l'un à droite, l'autre à gauche, et tous ensemble rifflent les quatre lettres : C. V. G. 'T, comme les trois anciens pour le montage de la couronne. Quand ils ont finit de riffler, ils se mettent debout. On verse deux verres de vin sur la table. Le renard en prend un et, se tournant à sa droite, il dit : « Mon représentant, acccptez de Blois¬la-Prudence, en reconnaissance, en espérance, en espérance, en recon¬naissance que vous en ferez un bon usage, comme vous ave promis à Dieu et aux honnêtes compagnons d'être honnète compagnon. Que Dieu vous en fasse la grâce et à moi aussi, mon représentant. » Le représentant répond :  Je l'accepte en espérance. en espérance, en reconnaissance, en recconnaissancC que vous en ferez un bon usg0, Comme vous ave promis à Dieu et aux honnètes compagnons d'ètre
+        </p>
+        <pb facs="#facs_387" n="362" source="s2lesouvriersdes03sociuoft_0422.xml"/>
+        <p xml:id="para_31_362_396">
+         honn̂te compagnon. D Le renard dit : « Que Dieu vous entendel Ils boivent et reposent leurs verres sur la table. On les remplit de nou¬veau: le renard en reprend un et répète les mêmes paroles, en le pré¬sentant à son adjoint. Ensuite on le fait mettre à genoux, puis, après un débat grotesque sur le tarif de l'épreuve, fixé à cinq sols, l'ancien lui remet son bandeau, prend une petite cruche pleine d'eau et lui verse de cette eau sur la figure en frappant avec sa main et en disant : «e te baptise Blois-la-Prudence au nom du père Soubise et de tous les petits Soubiseaux.
+        </p>
+       </div>
+       <div n="004" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_20">
+         § 20. CONsEILS DE PRUD'HOMMES.
+        </head>
+        <p xml:id="para_31_362_399">
+         Quand on parle du Conseil des Prud'hommes, beaucoup de per¬sonnes très instruites en matière de droit s'imaginent une juridiction où l'on se préoccupe des principes purs de la souveraine justice. C'est là une opinion qui jadis a été vraie, mais qu'actuellement il faut réformer quelque peu. Le Conseil des Prud'hommes d'aujourd'hui est une arme de guerre. Les patrons charpentiers, par exemple, s'en servent pour maintenir les salaires à 80 centimes ; les ouvriers ri¬postent en lui faisant appliquer les prix de cette série de 1882 qu'ils ont été les seuls à rédiger : soit 90 centimes. Voici comment :
+        </p>
+        <p xml:id="para_31_362_400">
+         A Paris, le Conseil des Prud'hommes, nul ne l'ignore, est divisé en quatre bureaux généraux ou Conseils de jugement : un pour les mé¬taux, un deuxième pour les tissus, un troisième pour les produits chimiques, un quatrième pour les industries diverses. L'industrie de la charpente est rangée dans la quatrième catégorie : industries di¬verses. Le projet qui est à l'étude organise un bureau général pour la seule industrie du bâtiment
+         <note type="bp">
+          <p>
+           Ce projet est devenu les décrets du 8 ars et 10 juin 1890, mais l'ancienne organi¬ation a été moins erme toute l'année 1890.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_31_362_401">
+         Dans chaque métier, patrons et ouvriers ont droit à un nombre égal de prud'hommes. Ainsi, parmi les charpentiers, qui forment un collège spécial avec les scieurs de long, les scieurs à la mécanique, les char¬pentiers mécaniciens, les électeurs patrons et les électeurs ouvriers, soumis d'ailleurs aux mêmes conditions générales : vingt-cinq ans, exercice de la profession depuis cinq ans, domicile depuis trois ans, qualité de Français, etc. (loi des 1- 4 juin 1853), ont droit à deux pru¬d'hommes patrons et deux prud'hommes ouvriers.
+        </p>
+        <pb facs="#facs_388" n="363" source="s2lesouvriersdes03sociuoft_0423.xml"/>
+        <p xml:id="para_31_363_403">
+         Le bureau général des industries diverses, c'est-à-dire le président, deux patrons, deux ouvriers, est en séance. Une affaire lui est soumise. C'est un ouvrier qui réclame son salaire et qui prétend naturellement être payé au tarif de la Ville. Le patron ne consent à lui accorder que le tarif coutumier de 80 centimes.
+        </p>
+        <p xml:id="para_31_363_404">
+         Supposez les prud'hommes ouvriers en majorité ; ce qui arrive lors¬que le hasard du roulement amène un ouvrier à cette présidence qui départage les deux partis rivaux, et d'après la loi du 7 février 1880 le fait se produit toutes les deux séances. Supposez les prud'hommes ouvriers en majorité, la réclamation de l'ouvrier est acceptée ; et, comme l'appel n'est admis qu'au delà de 200 francs, le patron est con¬traint de payer.
+        </p>
+        <p xml:id="para_31_363_405">
+         Les patrons, au contraire, sont-ils en force, qu'en résulte-t-il2 O0n ne tient pas compte du tarifde 1882; mais alors des scandales se pro¬duisent, comme en 1888, où les prud'hommes tailleur de pierre et charpentier, Boulé et Meyer, voyant que le bureau refusait d'admettre les prétentions d'un ouvrier employé aux travaux de la salle d'attente que la questure du palais Bourbon a réservée aux électeurs, se levè¬rent et déclarèrent qu'ils ne siègeraient pas un instant de plus dans un tribunal capable de rendre des décisions aussi iniques. Procês-verbal est dressé de l'incident, et un décret frappe les prud'hommes de dé¬chéance (loi des 4- 10 juin 1864).
+        </p>
+        <p xml:id="para_31_363_406">
+         Les conseillers ouvriers sont en quelque sorte astreints à déployer cette énergie, lorsqu'ils tiennent à toucher plus longtemps l'indemnité de 1.200 franes allouée par le Conseil municipal. Ils sont liés, en effet, par un mandat impératif. Nous sommes en mesure d'affirmer le fait, qui d'ailleurs est hautement avoué. L'organisation est identique dans les deux sections françaises de l'Internationale ; car l'Internationale, plus vivante que jamais malgré des dénégations répétées, a vu sa section francaise coupée en deux : fraction possibiliste ou modérée (oppor¬tuniste) et fraction guesdiste, blanquiste (ou radicale). Les prud'¬hommes possibilistes, par exemple, comparaissent mensuellement de¬vant un bureau de vigilance, qui leur fait rendre un compte exact de toutes les affaires jugées par eux. Ces bureaux siègent à côté de la Bourse du Travail, dont ils forment une des annexes non officiels. Les bureaux de vigilance blanquistes se réunissaient jadis dans la rue des Lavandières-Sainte-opportune. Sur tous ces points, nous possé¬dons des renseignements personnels que nous sommes contraints de taire par une délicatesse que tous comprendront.
+        </p>
+        <pb facs="#facs_389" n="364" source="s2lesouvriersdes03sociuoft_0424.xml"/>
+        <p xml:id="para_31_364_407">
+         Il n' avait donc rien que de juste dans cette affirmation, paradoxale au premier abord : « Le Conseil des Prud'hommes est le second moyen de lutte du salariat contre le capital. D
+        </p>
+       </div>
+       <div n="005" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_21">
+         § 21. SUR LES ASSOCIATIONS OUVRIÈRES DE PRODUCTION DANS L'INDUSTRIE DE LA CHARPENTE.
+        </head>
+        <p xml:id="para_31_364_410">
+         Trois associations ouvrières de production se sont fondées à Paris dans l'industrie de la Charpente.
+        </p>
+        <p xml:id="para_31_364_411">
+         1° LaSociété générale du Batiment, créée par la Fédération socialiste du Bâtiment, groupe corporati du parti possibiliste ou ouvrier ». Cette société, dont le chantier se trouvait près de la place d'talie, avait une section de charpente. — Capital : 50,000 francs. — Forme : société anonyme à capital variable. — Etat actuel : disparition au bout de trois mois par suite du non-versement de certaines actions et de l'instabilite du pouvoir directorial.
+        </p>
+        <p xml:id="para_31_364_412">
+         2° L'Association syndicale de la rue de Stendhal, créée en 1881 par la chambre syndicale. — Capital : il s'est élevé jusqu'à 48.000 francs. — Forme : société anonyme à capital variable. — Etat actuel : disparition au bout de cinq ans, par suite du droit au travauil reconnu aux 40 à 50 associés, et de l'instabilité de la direction.
+        </p>
+        <p xml:id="para_31_364_413">
+         3° La Société des Ouvriers charpentiers de la Villette (49, rue Saint¬Blaise), créée en 1882 par le Compagnonnage du Devoir. — Capital ae¬tuel : 92.800 francs. — Forme : société anonyme à capital variable. — Eat actuel : prospérité par suite de deux causes : l'esprit de discipline inspiré par l'aristocratique Compagnonnage du Devoir, et surtout l'é¬nergie extraordinaire de la direction.
+        </p>
+        <p xml:id="para_31_364_414">
+         Situation commerciale au 1ᵉ ianier 1891. — Montant du capital : 92.800 francs (capital-actions) ; 20.000 francs (legs lampal; capital¬obligations). — Chiffres des espèces en caisses ou en dépôt : 105.612 francs ;— Sommes dues par les débiteurs par compte, 158.749 francs plus 13.557 franes d'effets à recevoir (en portefeuille). — Réserves, 73.559 francs. — Bénéfices, 96.000 francs.
+        </p>
+        <p xml:id="para_31_364_415">
+         ˉlégime du travail. — Les associés, au nombre de deux cents, ont un tour de travail immuable. Le reste du temps, ils doivent chercher du travail dans les chantiers ordinaires.
+        </p>
+        <p xml:id="para_31_364_416">
+         Sauf les gâcheurs, qui ont 350 francs par mois, et les chefs d'équipe,
+        </p>
+        <pb facs="#facs_390" n="365" source="s2lesouvriersdes03sociuoft_0425.xml"/>
+        <p xml:id="para_31_365_417">
+         qui recoivent 10 centimes de supplément par heure à l'époque des forts travaux, le principe du salaire égal à 90 centimes l'heure est absolun.
+        </p>
+        <p xml:id="para_31_365_418">
+         Pas de secours en cas de maladie, parce que tous les associés déjà compagnons sont secourus par le Compagnonnage, mais une as¬surance contre les accidents (3 francs d'indemnité par jour) ; et enfin une caisse de secours, en voie de formation, contre l'invalidité et la vieillesse.
+        </p>
+        <p xml:id="para_31_365_419">
+         Conclusion : au point de vue commercial, cette Société constitue un des plus puissants chantiers de Paris (c'est elle qui a exécuté les revête¬ments de la galerie des machines ; — au point de vue du régime du travail, elle présente une organisation sans rivale.
+        </p>
+       </div>
+       <div n="006" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_22">
+         § 22. DES DIFFÉRENTES ÉCOLES SOCIALES DANS L'INDUSTRIE DE LA CHARPENTE.
+        </head>
+        <p xml:id="para_31_365_422">
+         1° ˉOuvriers collectioistes. — Principe (arl Marx) : mise en commun du sol et des instruments de travail. — Mode d'action : l'Association internationale des travailleurs.
+        </p>
+        <p xml:id="para_31_365_423">
+         La section française de l'Internationale s'est, on le sait, coupée en deux depuis le congrès de Saint-Étienne (1882). D'un côté se trouve la section possibiliste (Brousse, Chabert, etc., — jadis Joffrin, — Alle¬mane, etc.), subdivisée en deux à son tour depuis le congrès de Chà¬telleraut (1890) : un groupe avec Brousse un autre avec Clément et Allemane. De l'autre, la section marxiste, guesdiste, ou blanquiste, qui a pour chefs MM. Jules Guesde, Deville, Lafargue, Vaillant, etc. (en 1890 congrès de Lille), et qui s'est subdivisée également en blan¬quistes non-boulangistes et blanquistes boulangistes (ranger et Roche).
+        </p>
+        <p xml:id="para_31_365_424">
+         Quant aux différences entre les deux groupes, il faut les chercher, non dans les doctrines, mais dans la violence de l'application, et en outre dans les questions de personnes.
+        </p>
+        <p xml:id="para_31_365_425">
+         A Paris, dans l'industrie de la charpente, le groupe possibiliste brous¬siste, représenté par la Fédération socialiste des charpentiers, est le plus nombreux. Il réclame la création d'un chantier communal unique, à la place des multiples chantiers patronaux qui se ruinent par la con¬currence. Ce chantier communal, par le fait seul de sa puissance, sera
+        </p>
+        <pb facs="#facs_391" n="366" source="s2lesouvriersdes03sociuoft_0426.xml"/>
+        <p xml:id="para_31_366_427">
+         bientôt maître de la situation. — On créera alors l'union de tous les chantiers communaux en un atelier national; — puis l'union de tous les chantiers nationaux en un atelier international.
+        </p>
+        <p xml:id="para_31_366_428">
+         2° ˉOuvriers sans nuance bien défnie. — ls sont socialistes à la ma¬niêre francaise, c'est-à-dire qu'ils maintiennent le principe de la pro¬priété privée ; mais ils veulent une intervention constante de l'État dans le régime du travail.
+        </p>
+        <p xml:id="para_31_366_429">
+         Leurs revendications se ramènent à trois chefs principaux :
+        </p>
+        <p xml:id="para_31_366_430">
+         1 réclamation. — Du travail pour tous les ouvriers du métier, par le moyen d'incessants traaua puodics, — la limitation de la jour¬née de travail, empèchant les ouvriers supérieurs d'entamer la part de travail des ouvriers moins forts ou moins habiles ; — la fixation du salaire par un décret ou une loi, à condition que ce salaire soit egad pour tous.
+        </p>
+        <p xml:id="para_31_366_431">
+         2ᵉ réclamation. — Assurance obligatoire contre les accidents (payée par le patron) et contre les maladies (assurance d'Etat).
+        </p>
+        <p xml:id="para_31_366_432">
+         3° réclamation. — Assurance oodigatoire contre l'invalidité et la vieillesse (assurance d'Eat).
+        </p>
+        <p xml:id="para_31_366_433">
+         Ce deuxième groupe estde beaucoup le plus nombreux ; il faudrait y distinguer des catégories multiples. L'ensemble des idées que nous venons d'exposer forme la limite extrême.
+        </p>
+       </div>
+       <div n="007" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_23">
+         § 23. COMMENT LA GÉNÉRATION PRÉCÉDENTE S'ÉLEVAIT AU PATRONAT.
+        </head>
+        <p xml:id="para_31_366_436">
+         De cette masse d'ouvriers charpentiers qui vivent de cette vie et aussi de ces rêves, il en était, — surtout jadis, — un certain nombre qui faisant bon marché de l'égalité idéale, résolvaient à leur point de vue particulier la question sociale en s'élevant au premier rang du métier. L'épilogue de ce tableau de l'industrie de la charpente nous sera fourni par un ancien compagnon, venu à Paris avec quelques notions de géo¬métrie descriptive et retiré à soixante ans, millionnaire, dans une ville de la banlieue. Cet ouvrier, ou plutôt cet ancien ouvrier, est né en Bour¬bonnais, vers 1825. Il descend, comme il le dit avec orgueil, d'une longue série de générations de compagnons. Son père était charpen¬tier, et fut son premier maître. Il lui enseigna les éléments de la pratique du métier, et comme le jeune homme possédait des fa¬
+        </p>
+        <pb facs="#facs_392" n="367" source="s2lesouvriersdes03sociuoft_0427.xml"/>
+        <p xml:id="para_31_367_437">
+         cultés de raisonnement et de calcul exceptionnelles, il le poussa vers les connaissances théoriques de géométrie descriptive et d'arithmé¬tique, qui lui furent plus tard du plus grand secours. Peu de littérature, d'ailleurs, presque pas d'orthographe. L'orthographe n'est pas indis¬pensable sur le s tour de France ». L'ouvrier arriva rapidement à Paris.
+        </p>
+        <p xml:id="para_31_367_438">
+         Ses connaissances théoriques étaient suffisantes pour en faire un gâcheur, mais ses connaissances pratiques étaient incomplètes. C'est ici que se révèle le politique qui sait se servir des autres et par conséquent est né sous l'étoile qui porte au succès. Il trouve dans le chantier où il est embauché un vieux compagnon très expert : « Je discutais avec lui, nous disait-il ; en réalité pour apprendre. Il m'embarrassa plus d'une fois, car il en savait plus que moi ; mais alors je l'attirais sur mon terrain, les connaissances théoriques, et je le battais à plate cou¬ture. Je ne lui disais rien, car il est des choses qu'il faut savoir ne pas dire, mais il était mon maître. Je le lui ai avoué plus tard ; il n'a jamais voulu me croire. D
+        </p>
+        <p xml:id="para_31_367_439">
+         En même temps l'ouvrier accomplissait toutes les obligations que les compagnons du Devoir exigent de leurs adhérents ; il subissait les épreuves et s'élevait peu à peu aux grades supérieurs de la vieille as¬sociation, dont il ne parle qu'avec le plus grand respect. Il fondait aussi une ecole detrait. Ces écoles de trait, ou de géométrie descriptive appliquée à l'art de la charpente, qui sont un peu abandonnées au¬jourd'hui, jouent dans la vie de l'ouvrier charpentier un rôle consi¬dérable. Leur direction est pour les jeunes hommes intelligents une source de revenus très précieuse et aussi un moyen de se faire con¬naître. Il en fut ainsi de l'ouvrier dont nous retraçons l'histoire. Il fit construire par ses élèves une réduction en bois de l'un des monuments de Paris, et l'offrit à un architecte aujourd'hui célêbre et membre de l'Institut. Cette manœuvre était remarquable. L'architecte fut touché de l'attention, promit au professeur ses bons offices, et cette protection se retrouva au moment où le compagnon devint entrepreneur.
+        </p>
+        <p xml:id="para_31_367_440">
+         En effet, il s'établit peu après ; il était encore facile de s établir. Une de ses sœurs, qui avait amassé une petite fortune dans le commerce, lui avaņa les 10.000 francs nécessaires. Aujourd'hui, monter un chantier avec 10.000 francs serait folie. Aucun architecte ne voudrait traiter avec un patron offrant aussi pecu de garanties. L'ouvrier débuta en s'associant avec un camarade très acti, mais qui, ainsi que l'éco¬lier de Sully-Prudhomme, n'était pas né commerçant on a pu voir qu'au contraire le coup d'eil et l'esprit d'affaires ne faisaient pas
+        </p>
+        <pb facs="#facs_393" n="368" source="s2lesouvriersdes03sociuoft_0428.xml"/>
+        <p xml:id="para_31_368_441">
+         défaut au premier des associés. Ce fut lui qui prit en main la direction commerciale. Au bout de cinq ans, on liquidait avec 300.000 francs de chaque côté. L'architecte de l'Institut avait tenu ses promesses et payé sa dette de reconnaissance.
+        </p>
+        <p xml:id="para_31_368_442">
+         Dès ce moment la fortune était venue : elle n'est point repartie. L'ancien gâcheur est, nous l'avons dit, millionnaire. Il a toujours le culte de son compagnonnage, qu'il considère comme la sauvegarde des jeunes ouvriers. Les rites ne lui en semblent point puérils. Il les com¬pare à ceux de la franc-maçonnerie, où il occupe un grade élevé.
+        </p>
+        <p xml:id="para_31_368_443">
+         D'autre part, le patronat est, à ses yeux, le seul mode possible de l'organisation du travail, sous sa forme ancienne ou sous la forme de l'association ouvrière de production, qui ne lui parait pas autre chose qu'une union de petits patrons. Il ne croit pas aux théories des réno¬vateurs socialistes. Leur violence l'effraie. Lui est anticlérical, mais conservateur ; il a eu des rapports suivis avec un politique quil per¬siste à regarder comme le seul homme d'Etat de ces derniers temps ; il s'agit du tribun illustre dont M. Georges Duruy a fait le héros de ˉFn de Revue et qui enseignait cette doctrine : « Là où arrivent au pre¬mier rang tous ceux qui sont capables d'y être, il n'y a pas de ques¬tion sociale »
+         <note type="bp">
+          <p>
+           M. Gambetta.
+          </p>
+         </note>
+         .
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

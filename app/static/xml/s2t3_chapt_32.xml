@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--monographie-->
+<TEI xml:id="ID-071a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 3 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_394">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$433/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_395">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$434/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_396">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$435/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_397">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$436/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_398">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$437/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_399">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$438/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_400">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$439/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_401">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$440/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_402">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$441/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_403">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$442/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_404">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$443/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_405">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$444/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_406">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$445/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_407">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$446/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_408">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$447/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_409">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$448/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_410">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$449/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_411">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$450/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_412">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$451/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_413">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$452/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_414">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$453/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_415">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$456/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_416">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$457/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_417">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$458/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_418">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$459/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_419">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$460/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_420">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$461/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_421">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$462/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_422">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$463/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_423">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$464/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_424">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$465/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_425">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$466/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_426">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$467/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_427">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$468/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_428">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$469/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_429">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$470/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_430">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$471/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_431">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$472/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_432">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$473/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_433">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$474/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_434">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$475/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_435">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$476/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_436">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$477/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_437">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$478/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div type="chapter">
+    <div n="001" type="section">
+     <pb facs="#facs_394" n="369" source="s2lesouvriersdes03sociuoft_0433.xml"/>
+     <p xml:id="para_32_369_1">
+      N° 71.
+     </p>
+     <p xml:id="para_32_369_2">
+      CONDUCTEUR-TYPOGRAPHE
+     </p>
+     <p>
+      DE
+     </p>
+     <p xml:id="para_32_369_3">
+      L'AGGLOMÉRATION BRUXELLOISE
+     </p>
+     <p xml:id="para_32_369_4">
+      (BRABANT — BELGIQUE),
+     </p>
+     <p xml:id="para_32_369_5">
+      OUVRIER-JOURNALIER
+     </p>
+     <p xml:id="para_32_369_6">
+      DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS,
+     </p>
+     <p>
+      d'après les
+     </p>
+     <p xml:id="para_32_369_7">
+      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX, EN 1890,
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_32_369_8">
+      LE CHEVALIER DE MOREAU,
+     </p>
+     <p xml:id="para_32_369_9">
+      Ancien ministre de l'agriculture, de l'industrie et des travaux publics,
+     </p>
+     <p xml:id="para_32_369_10">
+      Président d'honneur de la Société belge d'Economie sociale
+      <note type="bp">
+       <p>
+        La présente monographie a fait l'objet d'un rapport présenté à la Sciété belge d'Éc nomie sociale. le 19 janvier 1891.
+       </p>
+      </note>
+      .
+     </p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
+     </head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
+       </head>
+       <p xml:id="para_32_369_16">
+        Bruxelles est entourée de populeuses communes qui forment avecc elle une agglomération de 445.227 habitants. Molenbek-Saint-Jeau. où habite l'ouvrier qui fait l'objet de la présente monographie. compte 48.656 âmes. Elle est séparée de la capitale par le canal de Charleroi et par celui de Villebroecl. A la suite de la transformation des quartiers pauvres de Bruxelles, les ouvriers ont dù chercher. dans les communes limitrophes, des logements à bon marché. A vrai
+       </p>
+       <pb facs="#facs_395" n="370" source="s2lesouvriersdes03sociuoft_0434.xml"/>
+       <p xml:id="para_32_370_19">
+        dire, ils 'ont point perdu au change. Ceux qui avaient assez de ressources, soit pour acheter, soit pour louer des maisons entiêres, en ont trouvé dans d'excellentes conditions hygiéniques ; ceux qui étaient obligés de se contenter de quelques chambres, purent s'en pro¬curer d'assez spacieuses, bien aérées et dans une bonne situation.
+       </p>
+       <p xml:id="para_32_370_20">
+        La famille décrite ici n'a pas émigré dans de semblables conditions. Elle habite Molenbek depuis longtemps, et le père et la mère de l'ouvrier ont tenu eux-mêmes l'estaminet qu'ils ont laissé à leurs en¬fants. La mère est restée dernière survivante, entourée de l'affection des siens, et ce n'est qu'à son décès, survenu il y a quatre ans, que l'ouvrier a repris à son compte la location de la maison et payé à ses frêres et sœurs 2.000 francs, pour la clientêle et le mobilier de l'estaminet.
+       </p>
+       <p xml:id="para_32_370_21">
+        De l'imprimerie où il travaille, à sa demeure qu'il quitte vers heures et demie du matin, l'ouvrier n'a pas plus d'une demi-heure de marche. Il rentre chez lui avant 6 heures du soir. Le trajet se fait par des rues larges, bien éclairées en hiver, bien arrosées en été pour éviter la poussière.
+       </p>
+       <p xml:id="para_32_370_22">
+        Les communes suburbaines de Bruxelles cherchent à donner à leurs administrés tout le bien-être des grandes villes ; elles jalousent la ca¬pitale et, comme les impositions communales se ressentent de cette légitime émulation, les ressources ne manquent pas et permettent de larges dépengses.
+       </p>
+       <p xml:id="para_32_370_23">
+        Molenbek-Saint-Jean est la moins riche des communes suburbaines de Bruxelles. Elle est surtout habitée par de petits détaillants et des ou¬vriers ; à part quelques familles aisées de rentiers, d'industriels et de fonctionnaires, sa population est pauvre. Aussi l'administration com¬munale a-t-elle grand'peine à trouver les ressources nécessaires pour satisfaire aux exigences multiples que provoque naturellement le voi¬sinage d'une grande ville. Pour faire face aux dépenses qui s'imposent, elle a dû frapper de nombreuses taxes dont voici l'énumération :
+       </p>
+       <figure type="inventory">
+        <head type="inventory" xml:id="figure_1">
+         Relevé des taxes communales
+        </head>
+        <graphic facs="#facs_395" url="#"/>
+       </figure>
+       <!--<p xml:id="para_32_370_24">
+        RELEVÉ DES TAXES COMMUNALES.
+       </p>
+       <p xml:id="para_32_370_25">
+        centimes additionnels a la contribution foncière.
+       </p>
+       <p xml:id="para_32_370_26">
+        .—  personnelle.
+       </p>
+       <p xml:id="para_32_370_27">
+        30— au droit de patente.
+       </p>
+       <p xml:id="para_32_370_28">
+        Taxe communale sur le revenu cadastral, 5 1,2 §.
+       </p>
+       <p xml:id="para_32_370_29">
+        Taxe communale sur les débitants en détail de boissons alcooliques. Droit sur les divertissements publics.
+       </p>
+       <p xml:id="para_32_370_30">
+        Taxe sur les bàtisses.
+       </p>-->
+       <pb facs="#facs_396" n="371" source="s2lesouvriersdes03sociuoft_0435.xml"/>
+       <p xml:id="para_32_371_31">
+        Tave spéciale sur les batisses.
+       </p>
+       <p xml:id="para_32_371_32">
+        Tavxe sur le pavage.
+       </p>
+       <p xml:id="para_32_371_33">
+        Taxe pour embranchements dans les eggouts publics.
+       </p>
+       <p xml:id="para_32_371_34">
+        Taxes pour tranchées dans la voie publique.
+       </p>
+       <p xml:id="para_32_371_35">
+        Taxe pour placement de pieux.
+       </p>
+       <p xml:id="para_32_371_36">
+        Taxe pour occupation de trottoirs.
+       </p>
+       <p xml:id="para_32_371_37">
+        Taxe sur les terrains non bâtis, situés à front des voies publiques. le long desquels le pDavage et la construction deségouts, ou l'un de ces travaux, ont été exécutés aux frais de la commune.
+       </p>
+       <p xml:id="para_32_371_38">
+        Taxe communale sur les abonnements au réseau téléphonique.
+       </p>
+       <p xml:id="para_32_371_39">
+        Taxe sur les fabriques, usines, dépôts de marchandises, ou tous autres établissements industriels ou commerciaux, lorsque les exploitants, ou l'un d'eux, auront leur domi¬eile ou leur résidence dans une autre localité.
+       </p>
+       <p xml:id="para_32_371_40">
+        Taxe sur les autorisations d'ériger des établissements industriels et de placer des machines à vapeur.
+       </p>
+       <p xml:id="para_32_371_41">
+        Droits d'abattoir. — Surveillance, expertise et marque.
+       </p>
+       <p xml:id="para_32_371_42">
+        Taxe sur les viandes depecées.
+       </p>
+       <p xml:id="para_32_371_43">
+        Droits de stationnement.
+       </p>
+       <p xml:id="para_32_371_44">
+        Taxe sur les caves sous trottoirs.
+       </p>
+       <p xml:id="para_32_371_45">
+        L'ouvrier dont nous commencons la monographie tient aussi un es¬taminet, ainsi que nous l'avons dit. Molenbek compte 997 débits de boissons alcooliques et 100 débits où l'on ne vend que de la bière et du vin, à l'exclusion des liqueurs, soit 1 débit de boisson par 45 ha¬bitants. L'estaminet de nore ouvrier se trouve dans la première catégorie.
+       </p>
+       <p xml:id="para_32_371_46">
+        Le soir, les petits bourgeois et les ouvriers se réunissent dans des cafés ou des estaminets pour boire de la bière. On fabrique dans l'ag¬glomération bruxelloise une bière, dite faro e Brrelles, qui est forte et douce. On en est très friand. Elle a la spécialité d'esciter à boire plutôt que de désaltérer. Les buveurs de faro, et hélas ils sont assez nombreux, deviennent épais et lourds avant l'âge et ne vivent pas vieux. On dit que, pour fabriquer de bon faro, il faut l'eau de la Senne, petite rivière qui traverse Bruxelles et Molenbek. Quoi qu'il en soit, c'est le breuvage voulu pour le soir; le matin, les ouvriers consomment de préférence des liqueurs, surtout le genièvre et le hasselt. Cette der¬nière liqueur est faite avec du froment fermenté ; la première est très falsifiée et mélangée de beaucoup de mauvais alcool. Quelques mar¬chands vont même jusqu'à y ajouter du poivre, et même du vitriol, pour lui donner plus de montant.
+       </p>
+       <p xml:id="para_32_371_47">
+        Les industries dominantes à Molenbek-Saint-Jean étaient la grosse chaudronnerie et la construction du matériel de chemins de fer, mais ces industries tendent à se déplacer, sans doute parce qu'aucune ligne de chemin de fer ne traverse Molenbek et qu'il n'y a point de gare où l'on puisse aisément transporter les produits. La commune est séparée
+       </p>
+       <pb facs="#facs_397" n="372" source="s2lesouvriersdes03sociuoft_0436.xml"/>
+       <p xml:id="para_32_372_48">
+        de la gare du Nord (Bruxelles) et de celle de l'Allée-erte (gare de marchandises pour Bruxelles) par le canal de Villebroecl, et celui-ci, comme les autres canaux qui relient cette partie du pays avec la mer d'un côté et la France de l'autre, ne sont qu'à petite section ; les ba¬teaux de fort tonnage ne peuvent yv passer. Il n'y a là qu'un triste port de cabotage et, pour comble de malheur, sur le canal qui forme limite entre Bruxelles et Molenbec, un seul pont tournant donne pasr sage à tout le mouvement qui se fait d'une localité à l'autre. Cn des motifs qui fait maintenir cette situation intolérable, c'est le projet de se servir du canal pour faire des installations maritimes et rendre Bruelles port de mer. Toute dépense que l'on consacrerait à réunir les deux communes pourrait devenir inutile si l'on se décidait à créer une voiemaritime assez large et asse profonde pour amener les grands steamers à Bruxelles. Si les pouvoirs publics pouvaient s'entendre, comme ils tentent de le faire, pour décider cet important travail, Mo¬lenbec, sur le territoire de laquelle se ferait la plus grande partie des installations, serait appelée à un brillant avenir.
+       </p>
+       <p xml:id="para_32_372_49">
+        D'autres industries que celles que nous avons déjà citées existent aussi dans la commune et sont assez prospères : fonderies de fer et cuivre ; ateliers de constructions mécaniques, de matériel d'impri¬merie ; fabriques de toiles cirées, de caoutchouc : tanneries, mégis¬series, savonneries, raffineries de sucre, etc.
+       </p>
+       <p xml:id="para_32_372_50">
+        La population y est très active et intelligente.
+       </p>
+       <p xml:id="para_32_372_51">
+        Les écoles communales se décomposent comme suit : 4 écoles de garçons, 4 de filles, 4 écoles gardiennes, 1 école ménagère, 1 école professionnelle, 1 jardin d'enfants : cette dernière seule n'est pas graer, tuite. Ces écoles sont fréquentées par environ 7.000 enfants. En outre, une école de modelage et de dessin est régulièrement suivie par plus de 512 eleves. L'Etat possède à Molenbek une école moyenne de illes, avec 128 élèves. L'enseignement libre est représenté par deux écoles, l'une de garçons, l'autre de filles ; 600 à 700 élèves en tout les fréquentent. Quoi qu'il en soit, l'instruction se répand de plus en plus dans toutes les classes : le nombre des illettrés reste pourtant encore de 10 à 12 pour cent.
+       </p>
+       <p xml:id="para_32_372_52">
+        Au point de vue moral, la population se maintient bien, les fa¬milles sont nombreuses, et celle de notre ouvrier, avec ses deux en¬fants, constitue une exception. Cette fécondité des familles est une des causes qui expliquent pourquoi, eu égard à la population, il y a moins de maisons à Molenbek qu'à Bruxelles. A Bruxelles, on enrcompte 5, 4
+       </p>
+       <pb facs="#facs_398" n="373" source="s2lesouvriersdes03sociuoft_0437.xml"/>
+       <p xml:id="para_32_373_53">
+        habitants pour une maison; à Molenbek, on en compte 10. S'il existe, comme partout, des ouvriers qui louent des chambres, la plupart des familles, même d'ouvriers, habitent des immeubles séparés. Une chambre se loue de 7i à 12 francs par mois. Une famille peut avoir deux petites chambres et une mansarde pour 15 à 18 francs par mois.
+       </p>
+       <p xml:id="para_32_373_54">
+        La loi du 9 août 1889 sur les habitations ouvrières commence à produire d'excellents effets. D'après l'article 5 de cette loi, la Caisse générale d'épargne et de retraite est autorisée à employer une partie de ses fonds disponibles en prêts faits en faveur de la construction ou de l'achat de maisons ouvrières ; et l'article 6 invite le conseil général de ladite Caisse à déterminer le taux et les conditions de ces prêts.
+       </p>
+       <p xml:id="para_32_373_55">
+        La Caisse d'épargne dispose de fonds considérables ; elle a reçu en dépôt pour plus de 300 millions de francs. Le Conseil général était divisé. Invités par la loi à faire des avances pour arriver à la construc¬tion de maisons ouvrières, certains membres soutinrent qu'on voulait dénaturer l'institution, qu'elle n'avait d'autre mission que celle de placer au plus gros intérèt possible la petite épargne pour lui payer une rente qu'on ne pouvait souhaiter assez élevée. La grande ma¬jorité du Conseil général ne se rallia pas à cette manière de voir ; il lui a paru que l'épargne du peuple ne pouvait être mieux employée qu'à rendre service à ceux-là mêmes qui la constituent, aux ouvriers et aux petits. A cette fin, il a proposé au gouvernement un projet d'arrêté royal qui a paru au Moniteur offciel en juin dernier. Le Conseil d'ad¬ministration de la Caisse d'épargne peut, en vertu de cet arrêté, prêter à des particuliers, à des associations, à des provinces, à des communes ou à des établissements publics, les sommes qu'il jugera nécessaires pour la construction ou l'achat de maisons ouvrières. Il fixe les garanties à fournir par les emprunteurs et détermine la forme suivant laquelle chaque opération doit être réalisée. Lorsque les ga¬ranties sont fournies par des tiers, le contrat de prêt à passer entre le tiers et l'ouvrier ne peut stipuler à charge de ce dernier un taux supérieur à celui qu'aura autorisé le Conseil d'administration.
+       </p>
+       <p xml:id="para_32_373_56">
+        Le taux de l'intérêt des prêts et avances effectués par la Caisse est fixé à 3 ; cependant, ce taux de l'intérèt peut être exceptionnelle¬ment réduit à 2 1/2 4, lorsque la Caisse traite avec une association de crédit qui accepte sa surveillance et dont les statuts, soumis à son approbation préalable, adoptent les conditions suivantes : 1° L'inter¬diction d'acquérir des immeubles et l'obligation de réaliser, dans le délai qui sera fixé par le Conseil d'administration de la Caisse, toute valeur
+       </p>
+       <pb facs="#facs_399" n="374" source="s2lesouvriersdes03sociuoft_0438.xml"/>
+       <p xml:id="para_32_374_57">
+        immobilière qui leur écherrait par suite de l'exécution d'un débiteur : 2° la fixation à 3 3 de tout dividende à attribuer aux capitaux versés par les acionnaires et la mise en réserve de tout excédent de bénéfice. La première de ces conditions est imposée pour éviter de faire de ce genre de sociétés des sociétés « immobilières ». Voilà seulement quelques mois que cet arrêté a paru, et déjà plus de vingt sociétés se sont constituées et ont eu recours à la Caisse d'épargne qui, après mûre réflexion, n'a pas ménagé son intervention.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Théodore X*** (n°071aE1) - Marie-Thérèse X*** (n°071aE2) - Joséphine-Alice  (n°071aE3) - Marie-Christine  (n°071aE4)-->
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. ÉTAT CIVIL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_32_374_59">
+        La famille comprend quatre personnes.
+       </p>
+       <p xml:id="para_32_374_60">
+        1° THÉoDOE X'. pére de famille, né à Molenbec. . . . . . . . . . . .. 44 ans.
+       </p>
+       <p xml:id="para_32_374_61">
+        2P MARIE-THÉRESE X, Sa femme, née à Bruvxelles. . . . . . . . . . . . . 45 —
+       </p>
+       <p xml:id="para_32_374_62">
+        3° JoOsÉPHINE-ALCE, leur fille aînée, née à Molenbec. . . . . . . . . . . . 14 —
+       </p>
+       <p xml:id="para_32_374_63">
+        4° MARIE-CHRITINE, leur fille cadette, née à Molenbec. . . . . . . . . . 8 —.
+       </p>
+       <p xml:id="para_32_374_64">
+        Les époux se sont mariés le 2 octobre 1870.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. RELIGION ET HABITUDES MORALES.
+       </head>
+       <p xml:id="para_32_374_67">
+        La famille a toujours tenu à honneur de se distinguer par sa mo¬ralité. Sous ce rapport, les ouvriers typographes de l'agglomération bruxelloise se font remarquer par la régularité de leur conduite. Dans l'atelier ou travaille l'ouvrier dont nous décrivons la famille, un seul de ses compagnons vivait en concubinage ; il vient de régulariser sa position.
+       </p>
+       <p xml:id="para_32_374_68">
+        Toute la famille pratique la religion catholique. Les parents ap¬partenaient à cette classe d'ouvriers flamands durs à eux-mêmes et três attachés à leur religion, un peu brutaux dans leurs manières et parois excessifs dans leurs appétits, mais travailleurs soumis et chrétiens convaincus. Le séjour près d'une grande ville et les idées modernes ont adouci les mœurs et affaibli le sentiment religieux de la génération actuelle. On continue à aller à la messe le dimanche et les jours de fêtes ; on fait maigre le vendredi ; mais les sacrements
+       </p>
+       <pb facs="#facs_400" n="375" source="s2lesouvriersdes03sociuoft_0439.xml"/>
+       <p xml:id="para_32_375_69">
+        sont peu fréquentés et surtout l'on a perdu l'usage de ces honnes vieilles coutumes, qui s'inspiraient des mystères et des fêtes du culte pour donner au foyer domestique un cachet religieux.
+       </p>
+       <p xml:id="para_32_375_70">
+        Les journaux socialistes pénètrent parfois dans l'estaminet, et l'ou¬vrier, quoique travailleur exemplaire, se laisserait facilement entrai¬ner à souhaiter la révolution sociale. Avec ces journaux, d'autres publications légères s'introduisent dans le foyer domestique et, bien que la mère veille attentivement à la bonne éducation de ses filles, elle n'est pas toujours maîtresse de réprimer certains propos et d'éviter certaines lectures qui peuvent faire de grands ravages dans de jeunes âmes. La nécessité où se trouvent le père et la mère de ménager leurs clients présente des dangers sur lesquels il est inutile d'insister ; recon¬naissons cependant que la clientèle habituelle est généralement con¬venable, quand elle ne se laisse pas entraîner à des excès de boisson, ce qui heureusement est de plus en plus rare.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. HYGIÈNE ET SERVICE DE SANTÉ.
+       </head>
+       <p xml:id="para_32_375_72">
+        L'ouvrier est affilié à une société de secours mutuels ; il paye à cette fin une subvention annuelle de 15ᶠ60. Il obtient ainsi gra¬tuitement pour lui les soins médicaux et pharmaceutiques. Il ne paye que la somme d'un franc les visites que le médecin fait chez lui pour les autres membres de sa famille. et recoit gratuitement tous les médicaments.
+       </p>
+       <p xml:id="para_32_375_73">
+        Les sociétés de secours mutuels reconnues par le gouvernement se multiplient en Belgique. Elles jouissent d'avantages précieux, qui sont consacrés par la loi du 3 avril 1851. La commission permanente, chargée de statuer sur les demandes de reconnaissance, veille à ce qu'aucun article des règlements des sociétés reconnues ou à reconnaître ne favorise le mouvement antisocial. En 1886, le gouvernement a re¬connu 220 sociétés nouvelles, comprenant 32.042 membres, et. en 1888, il en admettait 297. Depuis lors, le mouvement ne s'est pas ralenti.
+       </p>
+       <p xml:id="para_32_375_74">
+        La famille décrite a une excellente hygiène. Le mari, quoique d'ap¬parence un peu délicate, est rarement malade, et il supporte très aisément la vie d'atelier. Sa femme parait d'une constitution plus robuste, belle carnation et nature vigoureuse. Les jeunes filles ont
+       </p>
+       <pb facs="#facs_401" n="376" source="s2lesouvriersdes03sociuoft_0440.xml"/>
+       <p xml:id="para_32_376_75">
+        souffert, l'année dernière (1890), de ˉl'infuenaa, et l'ainée n'a échappé jusqu'ici à aucune des maladies d'enfants, ce qui cependant n'a pas altéré sa constitution.
+       </p>
+       <p xml:id="para_32_376_76">
+        La famille prend de grands soins de propreté ; tous les détails du logis sont soignés avec attention. Pendant l'été, on consacre une somme de 7ᶠ20 en bains pris dans des établissements que la com¬mne a organisés dans d'excellentes conditions d'économie.
+       </p>
+      </div>
+      <div n="005" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. RANG DE LA FAMILLE.
+       </head>
+       <p xml:id="para_32_376_79">
+        La famille occupe un rang modeste parmi les ouvriers typographes. Comme le père est conducteur dans un des principaux ateliers de la ville, il jouit naturellement d'une certaine estime ; mais il n'est pas douteux que la profession de cabaretier ne le relève pas aux yeux de ses compagnons. La plupart de ceux-ci ne vivent pas moins bien que lui, surtout quand, au salaire du mari, la femme sait joindre le gain d'un petit emploi ou d'un petit commerce, ce qui est le cas assez général. Ces familles de typographes jouiraient d'une aisance relative, voisine de l'honnête médiocrité chantée par les poètes, si les hommes trop souvent ne se livraient à la boisson et ne dépensaient en alcool une part trop forte de leurs revenus. eureusement ce n'est pas le cas de l'ouvrier qui fait l'objet de la présente monographie. Bien qu'il ait assez d'argent de poche pour dépenser 50 centimes par jour, la plus grande part, même pendant l'été, n'en est pas donnée à la boisson.
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. PROPRIÉTÉS.
+       </head>
+       <p xml:id="para_32_376_83">
+        (Mobilier et vêtements non compris.)
+       </p>
+       <p xml:id="para_32_376_84">
+        IMMEUBLES. .. ... . . ... . .. .. . ... ..... . ... . . .... . . ... ... 0ᶠ 00
+       </p>
+       <p xml:id="para_32_376_85">
+        La famille n'a aucune propriété immobilière et ne songe pas à en cquérir.
+       </p>
+       <pb facs="#facs_402" n="377" source="s2lesouvriersdes03sociuoft_0441.xml"/>
+       <p xml:id="para_32_377_86">
+        ARGENT. .. . . . . ... . . . .... . . . . . . . . . . . .. . . . . . . . . .. . . . . 883ᶠ7
+       </p>
+       <p xml:id="para_32_377_87">
+        1° Somme placée en actions de la ville de Bruxelles, emprunts 1886 : 5 actions évaluées au cours de 9ᶠ75. 483ᶠ75.
+       </p>
+       <p xml:id="para_32_377_88">
+        2° Fonds placés à la Caisse générale d'epargne, 250ᶠ 00.
+       </p>
+       <p xml:id="para_32_377_89">
+        ° Somme gardée dans la maison comme fonds de roulement pour dépenses impré¬vues et dépenses courantes, 150ᶠ00.
+       </p>
+       <p xml:id="para_32_377_90">
+        Ces diverses sommes donnent un revenu annuel de 20 francs.
+       </p>
+       <p xml:id="para_32_377_91">
+        La famille fait en outre chaque année une économie moyenne de 146ᶠ24. Elle place cette somme à la Caisse d'épargne et achète parfois une valeur d'emprunts a lots.
+       </p>
+       <p xml:id="para_32_377_92">
+        MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES.......... 2.040ᶠ60
+       </p>
+       <p xml:id="para_32_377_93">
+        L'ouvrier n'a pas d'outils propres à son métier.
+       </p>
+       <p xml:id="para_32_377_94">
+        Il possède un mobilier d'estaminet qu'il a repris au décès de ses parents et dont il a payé le montant à ses frères et sœurs.
+       </p>
+       <p xml:id="para_32_377_95">
+        Ce mobilier a été évalué au pri coûtant. Celui des enfants qui re¬prenait l'estaminet avait un avantage que l'on a cru compenser au profit des autres en estimant le mobilier à un prix élevé.
+       </p>
+       <p xml:id="para_32_377_96">
+        1° Meriel d'estamiet. — 1 buffet-comptoir avec pompes à biére, 400ᶠ00; — 1 rayon à étagère,300ᶠ00; — 2 glaces, 200ᶠ00 : — 1 pendule à régulateur, 200ᶠ00 ; — 1 billard francais et accessoires, 300ᶠ00; — 6 tables, 120ᶠ00; — 24 chaises, 240ᶠ00; — 2 bancs, 25ᶠ 00; — cadres divers et règlements de société, 30ᶠ00 ; — 150 verres à bière, 90ᶠ00; — 25 verres à vin,12ᶠ50 ; — 100 verres à liqueurs, 25ᶠ00; — lampes et suspensions, 57ᶠ 50. — Total, 2.000ᶠ00.
+       </p>
+       <p xml:id="para_32_377_97">
+        2° Pour les reparations du mobilier. — Marteaux. scies. vilebrequins, etc., 25ᶠ00.
+       </p>
+       <p xml:id="para_32_377_98">
+        3° Pour le blachissagpe du limge et des uétemets. — aquets. battoirs, etc., 15ᶠ 60.
+       </p>
+       <p xml:id="para_32_377_99">
+        DROIT ÉVENTUEL AUX ALLOCATIONS D'UNE SOCIÉTÉ TONTINIÈRE.. 2.292ᶠ17
+       </p>
+       <p xml:id="para_32_377_100">
+        L'imprimerie où travaille l'ouvrier a organisé une caisse de pré¬voyance qui se trouve dans une excellente situation. Le règlement qui l'a établie ne laisse point place à ces fréquentes déceptions. conséquences naturelles de calculs erronés
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         (§ 19)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_32_377_101">
+        Les ressources de cette caisse sont les suivantes : 1° une retenue normale de 4 sur les salaires ; 2° les retenues faites par mesures disciplinaires ; 3° le premier mois de tout salaire et les deux pre¬miers mois de toute augmentation de salaire ; 4° une subvention de la Société (l'imprimerie est en société) égale à la retenue normale de 4 ; 5° les revenus des capitaux de la Caisse.
+       </p>
+       <p xml:id="para_32_377_102">
+        L'article 20 stipule : La Caisse doit aux participants tout ce qu'elle a, mais rien que ce qu'elle a.
+       </p>
+       <p xml:id="para_32_377_103">
+        Les associés ont droit au solde de leur compte de retenue et à une
+       </p>
+       <pb facs="#facs_403" n="378" source="s2lesouvriersdes03sociuoft_0442.xml"/>
+       <p xml:id="para_32_378_104">
+        quotité du fonds de répartition proportionnelle à celle qu'ils ont dans le fonds de retenue. De là, les deux sommes que nous comptons à l'avoir de l'ouvrier :
+       </p>
+       <p xml:id="para_32_378_105">
+        1° solde du compte de retenue de la Caisse tontiniére, 858ᶠ 53.
+       </p>
+       <p xml:id="para_32_378_106">
+        2° Quotité du fouds de répartition, 1.433ᶠ 64.
+       </p>
+       <p xml:id="para_32_378_107">
+        L'ouvrier ne perdrait le droit à ces sommes d'argent que : 1° s'il mourait sans laisser ni femme, ni enfants mineurs ; 2° s'il quittait volontairement l'imprimerie avant l'âge de la retraite ou s'il en était renvoyé.
+       </p>
+       <p xml:id="para_32_378_108">
+        VALEUR TOTALE des propriétés.... 5.216ᶠ52
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. SUBVENTIONS.
+       </head>
+       <p xml:id="para_32_378_111">
+        Le versement patronal fait à la Caisse tontinière
+        <ref target="#part_02_02_06" type="renvoi_int_mono">
+         (§ 6)
+        </ref>
+        , égal à la re¬tenue prélevée sur le salaire, est la principale subvention. Les autres, insignifiantes du reste, sont en nature, sauf une somme de 20 francs, que la marraine de la fille aînée lui donne pour ses étrennes et que l'on convertit en vêtements.
+       </p>
+       <p xml:id="para_32_378_112">
+        Signalons cependant, parmi les subventions en nature, l'instruc¬tion primaire donnée gratuitement à la seconde des filles, comme elle l'a été à l'ainée. La commune se charge de ce soin.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. TRAVAUX ET INDUSTRIES.
+       </head>
+       <p xml:id="para_32_378_115">
+        Travaux de ˉl'ouvrier. — L'ouvrier, qui travaille huit heures par jour, reçoit un salaire de 5ᶠ 75, ce qui lui fait, pour 315 jours de tra¬vail, 1.811ᶠ25. I se charge aussi de toutes les réparations du mobi¬lier d'estaminet et du mobilier de son habitation. Comme il est très adroit et qu'il connait un peu de menuiserie, il peut, pour les répa¬rations ordinaires, se passer d'un homme du métier. Il consacre en¬viron 30 journées par année à remettre en état et repolir ces divers mobiliers. En comptant la journée de menuisier à 3ᶠ50, c'est une dépense de 105 francs qu'il évite chaque année. Il y a lieu d'observer que, comme son habitation est spacieuse et que les meubles de l'es¬taminet sont soumis à de grandes fatigues, le nombre de 30 journées n'est pas excessif comme il pourrait le paraître à première vue.
+       </p>
+       <p xml:id="para_32_378_116">
+        Pendant le travail, le conducteur est debout et surveille sa mar
+       </p>
+       <pb facs="#facs_404" n="379" source="s2lesouvriersdes03sociuoft_0443.xml"/>
+       <p xml:id="para_32_379_118">
+        chine. Il doit la soigner et la tenir en bon état. Ce travail n'est point fatigant: il arrive toutefois qu'à la longue la tète tourne, et des vertiges peuvent être à craindre.
+       </p>
+       <p xml:id="para_32_379_119">
+        Après sa journée et les dimanches et jours de fête, l'ouvrier passe son temps à tenir l'estaminet. C'est donc là qu'il dépense ses heures de loisir à servir la pratique, à causer avec les compagnons, à jouer une partie de cartes ou de dominos.
+       </p>
+       <p xml:id="para_32_379_120">
+        Travaux de la femmeˉ. — La femme consacre presque tout son temps aux soins du ménage. Sauf le samedi, où une ouvrière vient l'aider pendant une demi-journée, elle fait tous les nettoyages, achête et prépare les aliments, soigne le linge, confectionne et entre¬tient les vêtements, prend tous les soins de propreté que réclame l'éducation physique de ses filles. On peut évaluer à 202 le nombre des journées qu'elle consacre à ces soins divers. Le salaire ordinaire des filles d'ouvrage dont on ne paye point la nourriture étant fixé par l'usage à 3 francs, la fille qui vient aider pour les nettoyages du sa¬medi reçoit 78 francs.
+       </p>
+       <p xml:id="para_32_379_121">
+        Quand le mari est absent, la femme se charge de tenir l'estaminet.
+       </p>
+       <p xml:id="para_32_379_122">
+        travaux de laille aînéeˉ. — La fille aînée se destine à l'état de tailleuse et elle est en apprentissage. Elle touche 25 centimes par jour, ce qui lui fait un gain annuel de 75 francs. Elle aide aussi sa mère dans les travaux de couture et de blanchissage. Cette intervention peut s'évaluer à 25 jours par an pour un salaire de 1ᶠ50 par jour.
+       </p>
+       <p xml:id="para_32_379_123">
+        Industries entreprises par la famille. — L'industrie principale con¬siste à exploiter le cabaret. En outre, la maison à deux étages, louée à raison de 1,200 francs par an par l'ouvrier, lui permet de sous-louer à des tiers quelques appartements. Il reçoit de ce chef 516 francs, qui viennent s'ajouter aux recettes de l'estaminet.
+       </p>
+       <p xml:id="para_32_379_124">
+        Comme nous l'avons dit, on débite dans l'estaminet bières, vins et liqueurs. C'est surtout le soir que les chalands se pressent dans l'é¬tablissement, qui peut contenir aisément une vingtaine de personnes. Les uns jouent au billard anglais, les autres s'attablent et jouent aux cartes. T'ous consomment de la bière : en hiver du faro ; en été. saut les amateurs passionnés de faro, une bière appelée la brune et qui est plus légère. La bière est fraiche, parce que le tonneau de 100 à 120 litres est vite consommé. Elle se vend 24 centimes le litre en tonneau, et au détail le cabaretier la débite à 12 centimes le verre : le verre mesure 3 à 4 décilitres. Quand l'estaminet est rempli de monde, le service est assez dur pour le bas, qui n'est autre que
+       </p>
+       <pb facs="#facs_405" n="380" source="s2lesouvriersdes03sociuoft_0444.xml"/>
+       <p xml:id="para_32_380_125">
+        l'ouvrier, et pour sa femme. Celle-ci verse la bière et son mari la sert aux clients. arement l'une des jeunes filles aide les parents, qui tien¬nent à ce qu'elles restent éloignées de l'estaminet. S'il manque un joueur, l'ouvrier est prié de compléter la partie. Si parfois il se pré¬sente des personnes étrangères à la clientèle habituelle, elles ne viennent que pour faire au passage une consommation. La réunion du soir se compose presque toujours du même monde : ouvriers et petits négociants.
+       </p>
+       <p xml:id="para_32_380_126">
+        A prendre l'estaminet dans ces conditions, il ne serait qu'un demi¬mal. Certes, il éloigne du foyer domestique les pères et les fils de nos familles d'ouvriers et de négociants, mais il ne constitue pas un bouge où l'on ne boit et ne respire que l'alcool
+        <ref target="#part_03_01_20" type="renvoi_int_mono">
+         (§ 20)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_32_380_127">
+        La clientèle du matin est bien différente de celle du soir ; à quel¬ques exceptions près, ce ne sont plus les mêmes éléments. Le matin, et nous pouvons même dire jusqu'à cinq ou six heures de l'après-midi, ce sont les liqueurs que l'on demande. Des passants fiévreux, des ou¬vriers qui ne peuvent se dispenser de cet excitant se présentent tour à tour. Le nombre, il est vrai, n'en est pas considérable, parce que l'es¬taminet en question n'est point placé près d'une fabrique et qu'il a bon renom. Quoi qu'il en soit, l'on débite trente à quarante petits verres par jour, genièvre et hasselt, à 6 centimes, l'eau-de-vie de France à 10 centimes et l'amère à 6 centimes.
+       </p>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_32_380_131">
+        Le premier repas se fait en famille, avant le départ de l'ouvrier pour l'imprimerie et de la plus jeune des filles pour l'école. Il se compose de pain et de beurre, et de café au lait.
+       </p>
+       <p xml:id="para_32_380_132">
+        L'ouvrier fait un second déjeuner à l'atelier. Il prend avec lui une tartine garnie de viande et achète quelques verres de bière que l'on pporte aux travailleurs de l'imprimerie tous les jours à midi. Après ce repas frugal, le plus souvent l'ouvrier fait sa sieste appuyé sur sa machine. A une heure, la cloche le rappelle au travail. Pendant ce
+       </p>
+       <pb facs="#facs_406" n="381" source="s2lesouvriersdes03sociuoft_0445.xml"/>
+       <p xml:id="para_32_381_133">
+        temps, la femme et les deux filles font un repas plus copieux un po¬age gras, un peude viande, s'il en reste de la veille, et du café.
+       </p>
+       <p xml:id="para_32_381_134">
+        Le soir, au retour de l'ouvrier, on fait le repas principal. Le di¬manche et les jours de fête, ce repas a lieu au milieu de la journée. pour permettre à la famille de passer l'après-diner dans les environs de Bruxelles, à l'ombre de la forêt de Soigne ou sous quelque ton¬nelle hospitalière. Le repas principal est très réconfortant: la femme est bonne ménagère et sait apprêter convenablement les mets. Un bon potage, un plat de pommes de terre, mêlées parfois à d'autres légumes, presque toujours un peu de viande ou de poisson, et, quand on veut faire fête, un lapin, une volaille ou du jambon fumé. Dans la saison des fruits, un peu de cerises, des prunes, etc. La boisson est la biêre. La famille dépense deux tonnes de bières par an pour son usage : une tonne de faro et une tonne de bière brme, en tout 200 litres pour une somme de 46 francs.
+       </p>
+       <p xml:id="para_32_381_135">
+        QOuand, pendant l'été, on sort de la ville pour jouir de la campagne. on trouve partout sur sa route de frais estaminets et de riantes échoppes où l'on s'attarde quelque peu ; 25 francs sont rapidement dépensés ; c'est là, au dire de la ménagère, la somme qui est absorbée dans ces innocentes parties de plaisir. La famille ne consomme point de vin. Les 50 centimes dont dispose l'ouvrier pour ses menus frais de chaque jour lui permettent quelques dépenses de boissons. Chez lui, il ne prend guère qu'un peu d'alcool, le plus souvent quand un ami vient le visiter. Aussi ne voyons-nous figurer au budget qu'une somme de 2ᶠ15 en genièvre et eau-de-vie.
+       </p>
+       <p xml:id="para_32_381_136">
+        Si le garde-manger n'est pas assez bien fourni pour permettre à l'ouvrier de garnir la tartine qu'il prend avec lui pour déjeuner à l'atelier, il s'arrête en chemin chez un charcutier et se munit d'une tranche de salaison ou de viande fumée.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
+       <p xml:id="para_32_381_139">
+        La maison qu'habite l'ouvrier est une solide construction à deux étages. Il la loue annuellement 1.200 francs, mais, comme il en sous¬loue une partie pour la somme de 516 francs. son loyer ne lui repré¬sente plus qu'une dépense de 684 francs.
+       </p>
+       <pb facs="#facs_407" n="382" source="s2lesouvriersdes03sociuoft_0446.xml"/>
+       <p xml:id="para_32_382_140">
+        La pièce principale, qui fait façade avec une grande vitrine et une porte, est occupée par l'estaminet. Derrière se trouve une cuisine avec ses dépendances, qui servent à la famille. Au premier étage, plusieurs pièces sont louées, et au second la famille a conservé pour son usage trois chambres spacieuses, deux autres sont louées. Ces différentes pièces sont aménagées dans d'excellentes conditions. Celles du second mesurent près de 3 mêtres de haut. Cette habitation pos¬sède en outre deux bonnes caves, de vastes greniers et quelques mansardes qui peuvent servir de logement.
+       </p>
+       <p xml:id="para_32_382_141">
+        Le premier et le second étage comptent trois fenêtres chacun.
+       </p>
+       <p xml:id="para_32_382_142">
+        MEUBLES : ils sont en assez bon état et l'ouvrier met tous ses soins à les réparer.... .. . .... . .. .................... .. ... . 1.087ᶠ00
+       </p>
+       <p xml:id="para_32_382_143">
+        1° Literie. — 1 lit avec sommier en noyer plaqué, 95ᶠ 00 ; — 1 matelas en laine, 80ᶠ 00;
+       </p>
+       <p xml:id="para_32_382_144">
+        — 1 matelas en crin, 15ᶠ 00; — 1 traversin et 2 oreillers, 15ᶠ 00; — 2 couvertures et
+       </p>
+       <p xml:id="para_32_382_145">
+        1 courtepointe, 50ᶠ 00; — 2 couchettes en fer, 40ᶠ 00 ; — 2 matelas en laine, 75ᶠ00; — 2 ma¬telas en crin, 20ᶠ 00; — 2 traversins et 2 oreillers, 25ᶠ 00 ; — couvertures, 50ᶠ00. — Total, 465ᶠ00.
+       </p>
+       <p xml:id="para_32_382_146">
+        2° Mobidier des chambres et de la uisine. — 1 portemanteau, 90ᶠ 00 ; — 1 commode en acajou, 150ᶠ00; — 1 lavabo, 45ᶠ00 ; — 1 table de nuit, 20ᶠ 00; — 1 table rondc, 30ᶠ 00;
+       </p>
+       <p xml:id="para_32_382_147">
+        — 6 chaises cannées, 20ᶠ00; — 1 poèle-colonne ave accessoires, 22ᶠ00; — 1 buffet-ar¬moire, 27ᶠ 00; — 1 1able de cuisine, 8ᶠ 00; — 4 chaises en bois, 10ᶠ00; — 1 poéle-cuisi¬nière avec accessoires, 50ᶠ00; — rideaux blancs et de couleur, stores, 60ᶠ00 ; — 1 pendule régulateur, 35ᶠ00; — 1 glaee, 45ᶠ 00 ; — 1 fauteuil acheté d'occasion, 10ᶠ00. — Total, 622ᶠ 00.
+       </p>
+       <p xml:id="para_32_382_148">
+        USTENSILES peu nombreux.... . .... .. . .. ... . .......... 14)ᶠ0)
+       </p>
+       <p xml:id="para_32_382_149">
+        mpdoges pour de menage. — Pelles et pincettes, 3ᶠ00; — 1 seau à charbon, 2ᶠ 00; —
+       </p>
+       <p xml:id="para_32_382_150">
+        2 carafes et 8 verres, 10ᶠ00; — 1 service à café en porcelaine, 15ᶠ 00; — 12 assiettes en por¬celaine et 4 en métal, 10ᶠ00; — 1 saladier et 3 plats en porcelaine, 4ᶠ00; — 1 porte¬lacons, pour uile, vinaigre et épices, 3ᶠ 00; — 1 cruche à eau, 1ᶠ00; — 10 couverts en ruolz, 30ᶠ00; — 10 couteaux, 7ᶠ50; — 1 louche en étain, 2ᶠ 50; — pots et bouteilles, 5ᶠ00 ;— 1 moulin à café, 3ᶠ00; — 2 seaux en métal, 5ᶠ00; — 1 marabout et 1 bouilloire en cuivre, 15ᶠ 00; — poêlons et casseroles,6ᶠ00; — petites boites en bois pour mettre les épices, 2ᶠ 00;
+       </p>
+       <p xml:id="para_32_382_151">
+        — porte-allumettes, 1ᶠ 00; — 2 grands couteaux, 2ᶠ 00 ; — 6 verres à liqueur, 6ᶠ 00; — 1 lampe à pétrole, 3ᶠ 00 ; — 1 abat-jour, 1ᶠ 00 ; —— objets divers, 3ᶠ00. — Total, 140ᶠ00.
+       </p>
+       <p xml:id="para_32_382_152">
+        LINGE DE MÉNAGE : assez bien entretenu..... .. .. . ....... 146ᶠ8)
+       </p>
+       <p xml:id="para_32_382_153">
+        6 paires de draps de lit, 6 taies d'oreiller, 24 essuie-mains,  nappes, 24 serviettes torchons de cuisine; valeur totale, 146ᶠ80.
+       </p>
+       <p xml:id="para_32_382_154">
+        VÊTEMENTS : réduits au strict nécessaire.... .. ...... .... . 387ᶠ50
+       </p>
+       <p xml:id="para_32_382_155">
+        VÊTEMENTS DU PÈRE (152ᶠ 50).
+       </p>
+       <p xml:id="para_32_382_156">
+        1° etezments du dimamche. — 1 costume complet, 55ᶠ 00; — 1 pantalon et 1 gilet, 20ᶠ00
+       </p>
+       <p xml:id="para_32_382_157">
+        — 2 paires de bottines, 25ᶠ00; — 2 chapeaux, 7ᶠ 50; — objets divers, 7ᶠ 50. — Total, 115ᶠ 00. 2 Vêtements de travail. — 1 pantalon, 12ᶠ 50; — 1 veston, 1 5ᶠ 00; — pantalons et blouses
+       </p>
+       <p xml:id="para_32_382_158">
+        en toile bleue, 10ᶠ 00. — Total, 37ᶠ 50.
+       </p>
+       <pb facs="#facs_408" n="383" source="s2lesouvriersdes03sociuoft_0447.xml"/>
+       <p xml:id="para_32_383_159">
+        VÊTEMENTS DES FEMMES (235ᶠ00).
+       </p>
+       <p xml:id="para_32_383_160">
+        1° Vêtements de la ère de /fam ilde (115ᶠ 00).
+       </p>
+       <p xml:id="para_32_383_161">
+        Vêteme nts du dimanche : 1 robe, 40ᶠ00; — 1 paletot. 25ᶠ00; — 1 paire de bottines, 12ᶠ 50; — 1 chapeau, 7ᶠ50. — Total, 85ᶠ00.
+       </p>
+       <p xml:id="para_32_383_162">
+        Vêtements de travail : 1 jupon en laine, 10ᶠ 00; — jaquettes en cotonnette, 10ᶠ 00; — bonnets, 5ᶠ00; — objets divers, 5ᶠ00. — Total, 30ᶠ 00.
+       </p>
+       <p xml:id="para_32_383_163">
+        2° Vêtements de la filde aînée (70ᶠ 00).
+       </p>
+       <p xml:id="para_32_383_164">
+        Vêtements du dimanche : 1 robe, 20ᶠ 00 ; — 1 paire de bottines, 1ᶠ00 ; — 1I chapeau, 5ᶠ00 ; — objets divers, 10ᶠ00. — Total, 45ᶠ 00.
+       </p>
+       <p xml:id="para_32_383_165">
+        Vêtements de travail : valeur totale, 25ᶠ 00.
+       </p>
+       <p xml:id="para_32_383_166">
+        3° Vêtements de la fille cadeltte. — 1 robe. 20ᶠ00; — 1 paire de bottines, 10ᶠ00: — 1 manteau, 15ᶠ 00 ; — objets divers, 5ᶠ00. — Total, 50ᶠ00.
+       </p>
+       <p xml:id="para_32_383_167">
+        VALEUR TOTALE du mobilier et des vêtements ......... 1. 761ᶠ.30
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_32_383_170">
+        Les récréations jouent un rôle important dans l'existence de cette famille.
+       </p>
+       <p xml:id="para_32_383_171">
+        Le père et la mère, le père surtout, assistent plusieurs fois l'an à des représentations théâtrales, à des concerts ; ils se rendent de temps en temps au cirque avec leurs filles ; une somme de 10 francs est an¬nuellement consacrée à ce genre de divertissements. Mais le père, qui dispose pour argent de poche de 182ᶠ50, s'accorde plus souvent cette distraction. La société de secours mutuels dont l'ouvrier fait partie donne un concert annuel, et il a le droit d'y conduire tous les siens pour la somme d'un franc. Il est du reste à remarquer que les dernières places de nos théâtres sont à très bon marché, et qu, sauf à la Monnaie, presque partout les places de paradis ne coûtent que 2 centimes. Mais c'est, surtout pendant l'été, dans des excursions aux environs de Bruxelles que la famille trouve un grand amusement. Nous avons vu qu'elle dépensait 25 francs en aliments dans ces in¬téressantes promenades. Quand la course a été un peu longue et quec la mère se trouve fatiguée, il faut alors prendre le train pour revenir, ce qui entraine chaque année une dépense de 5ᶠ 00. Toutefois, la mère n'est pas toujours de la fête, il faut bien quelqu'un pour tenir l'estaminet et, comme l'ouvrier travaille toute la semaine, c'est sou¬vent lui qui profite de la distraction du dimanche.
+       </p>
+       <p xml:id="para_32_383_172">
+        L'ouvrier, on le voit, a la vie assez large, outre les 50 centimes quil consacre par jour à ses menus plaisirs, il dépense encore en
+       </p>
+       <pb facs="#facs_409" n="384" source="s2lesouvriersdes03sociuoft_0448.xml"/>
+       <p xml:id="para_32_384_173">
+        tabac et en cigares 54ᶠ 75par an. En somme, il a bien près de 20 francs par mois pour satisfaire à ses fantaisies. 20 francs par mois Les fils de familles riches, qui sont nourris, vêtus, logés. n'ont pas tous 20 francs par mois pour leurs plaisirs ; et combien avec ces 20 francs achètent leurs gants, leurs cigares, leurs cravates et trouvent encore moyen de faire des charités
+       </p>
+       <p xml:id="para_32_384_174">
+        Il y a dans la famille décrite deux jours de fêtes qui méritent d'être signalés. C'est celui de la Saint-Nicolas et celui du nouvel an.
+       </p>
+       <p xml:id="para_32_384_175">
+        Comme l'on dit en Belgique, la plus jeune des filles a encore sa Sain-Nicolas. Les grands-parents (du côté maternel) donnent des jouets pour une valeur de 5 francs ; le père en fait autant. Dans les baaars, on se procure à bon compte des poupées, des commodes, de petites voitures, etc. Pour 10 francs, on en réunit déjà une assez grande quantité. Le 6 décembre, jour de la Saint-Nicolas, on étale ces divers objets dans une chambre, on y joint quelques bon¬bons pour faire nombre, et la petite fille, que l'on promène à travers la maison à la recherche du précieux dépôt, tombe enfin comme par le plus grand des hasards sur les trésors réunis. Ce sont des cris, des surprises, des extases, des épanchements, dont les parents re¬cueillent de douces émotions. Au nouvel an, on fait aux deux jeunes tillettes de petits cadeaux ; des morceaux de pain d'épice ornent la table autour de laquelle la famille rit... et mange de bon appétit. Cette petite fête coûte 5 francs.
+       </p>
+       <p xml:id="para_32_384_176">
+        L'ouvrier ne veut pas être seul à jouir de ces douces récréations, et chaque année il dépense une somme de 5 francs en achat de pain d'épice qu'il donne en étrennes aux enfants de son frère.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. PHASES PRINCIPALES DE L'EXISTENCE.
+       </head>
+       <p xml:id="para_32_384_180">
+        L'ouvrier connait très peu l'histoire de sa famille. Il n'en sait que ce qu'il a vu lui-même. Son père était cordonnier et sa mère tailleuse quand ils contractèrent mariage. Après cinq ou six ans d'un travail opi¬
+       </p>
+       <pb facs="#facs_410" n="385" source="s2lesouvriersdes03sociuoft_0449.xml"/>
+       <p xml:id="para_32_385_181">
+        niâtre, ils eurent assez d'économies pour acheter un débit de boissons et s'établir comme cabaretiers. C'était le mari qui servait la pratique, la femme continuait son métier de tailleuse ; mais, au bout de quel¬ques années, les affaires ayant prospéré, elle cessa de travailler pour ne s'occuper que du ménage. De cette union naquirent cinq enfants dont un seul est mort en bas âge. Le frère aîné, Edouard-Jean, est cordon¬nier à Molenbek et fait tranquillement ses affaires. L'ouvrier, con¬ducteur-typographe, était le troisième de la famille; deux filles naqui¬rent après lui : Juliette-Catherine et Marie, toutes deux tailleuses et célibataires. Quelle fut l'origine de cette famille L'ouvrier n'en sait rien dire ; il ne possède aucun papier qui puisse le renseigner. D'après lui, le métier de cordonnier s'exerçait de père en fils, et avant son père son aieul l'exercait déjà.
+       </p>
+       <p xml:id="para_32_385_182">
+        Les parents de la femme vivent encore ; ils ont, le père quatre-vingts ans et la mère soixante-dix-huit ans. Ils vendent, au détail, des légu¬mes, des pommes de terre, des épiceries communes, etc. L'époux, dans sa jeunesse, gagnait sa vie à la journée, aidant les propriétaires voi¬sins à bêcher leurs jardins et à cultiver leurs terres. Molenbek n'avait pas alors le développement qu'il a pris depuis. On payait parfois le travail du mari en légumes et en pommes de terre que la femme re¬vendait. Ils se sont fait ainsi un petit pécule qui leur a permis d'élever six enfants et d'avoir de quoi vivre de leur commerce dans leurs vieux jours. L'homme était très laborieux et la femme très économe. Elle raconte qu'en 1865. lors de la création de la Caisse d'épar¬gne, elle fut une des premières à confier ses fonds à cet établisse¬ment. Elle tira de dessous un meuble, où il était bien serré et caché à tous les yeux, un petit coffret qui contenait, en monnaie surtout, une somme de 2.800 francs. Le mari s'en fut les porter fièrement à la Caisse d'épargne. Il avait connu la création de cette Caisse par un batelier du canal pour lequel il travaillait parfois et qui se plai¬gnait souvent de ne savoir comment placer sûrement ses petites éco¬nomies. Ces braves gens ont perdu quatre enfants, il leur en reste deux. Le père, bien portant malgré ses quatre-vingts ans, ne sait ps grand'chose des origines de sa famille.  Nous avons travaillé beaucoup. Monsieur, » c'est tout ce que l'on peut en tirer. Il a conservé un vague souvenir de la Révolution de 1830, mais ne paraît pas en avoir été vivement impressionné. Cne fille, la seule qui leur reste avec la femme de notre ouvrier, ne les a jamais quittés et est l'âme de ce petit foyer.
+       </p>
+       <pb facs="#facs_411" n="386" source="s2lesouvriersdes03sociuoft_0450.xml"/>
+       <p xml:id="para_32_386_183">
+        Quant à héodore N***, il entra vers l'âge de uquinze ans en apprentis¬sage chez un cordonnier, où il resta jusqu'au tirage au sort. En 1866, il fut incorporé au 9 régiment de ligne, en qualité de musicien. Il a conservé de son passage à l'armée des habitudes de discipline, de bonne tenue et de régularité, qui ont décidé de son entrée dans l'é¬tablissement où il travaille. D'abord tourneur d'imprimerie, il fut, deux ans plus tard, attaché à une presse comme margeur, puis comme pointeur, et finalement comme conducteur.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
+       </head>
+       <p xml:id="para_32_386_186">
+        L'excellente conduite de l'ouvrier et de sa femme fait bien augurer de l'avenir de cette famille. Théodore N*** est le plus jeune des conduc¬teurs de l'imprimerie et il n'est pas douteux qu'il n'arrive successive¬ment à gagner davantage et à conquérir une des places de confiance qui sont, dans l'établissement où il se trouve, attribuées au mérite autant qu'à l'ancienneté.
+       </p>
+       <p xml:id="para_32_386_187">
+        L'ouvrier n'a reçu qu'une instruction primaire très insufisante ; il n'écrit qu'avec difficulté et la lecture ne lui est pas familière. Sa femme est plus lettrée que lui, et c'est elle qui se charge de la comptabilité et de la correspondance. La fille aînée possède, elle aussi, les connaissances que l'on acquiert à l'école primaire.
+       </p>
+       <p xml:id="para_32_386_188">
+        Nous avons vu qu'elle gagnait en apprentissage 25 centimes parjour.
+       </p>
+       <p xml:id="para_32_386_189">
+        Constatons ici un fait regrettable et malheureusement trop com¬mun. Il existe beaucoup de petits ateliers de modistes et de tailleuses. Ce sont des femmes de concierges, d'huissiers, de domestiques, de petits employés, etc., qui occupent chez elles deux ou trois ou¬vriêres. Elles travaillent pour l'une ou l'autre des grandes maisons de confection ou de blanc. Les ouvrières, femmes ou jeunes filles, ne sont plus des apprenties ; elles connaissent plus ou moins parfai¬tement leur métier. Elles sont parfois enfermées dans des mansardes ou dans des chambres mal aérées. larement elles sont nourries par la personne chez qui elles travaillent. Elles sont à l'ouvrage 9, 10, 11 et 12 heures par jour, parfois davantagec. Quelques-unes de ces malheureuses ne gagnent que 70 centimes par jour, et même que 301 C'est la personne chez qui elles travaillent qui les exploite et qui
+       </p>
+       <pb facs="#facs_412" n="387" source="s2lesouvriersdes03sociuoft_0451.xml"/>
+       <p xml:id="para_32_387_190">
+        gne d'autant plus qu'elle les paye plus mal. Il est à souhaiter que la jeune fille de notre ouvrier ne soit pas plus tard victime d'un si criant abus. Son père appartient à la corporation des typographes, qui sait parfaitement défendre ses droits, et, bien qu'elle concerne exclusivement l'ouvrier, elle lui donne la mesure de ce que vaut la main-d'œuvre.
+       </p>
+       <p xml:id="para_32_387_191">
+        Presque tous les ouvriers de l'industrie typographique font en effet partie de l'ssociation libre des compositeurs et imprimeurs tgogra¬phes de ˉuxelles, qui a pour but le bien-être des associés, et la sauvegarde de leurs intérèts par des garanties mutuelles de concorde et de fraternité
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (§ 17)
+        </ref>
+        . Son organisation pratique lui permet d'exercer une surveillance continue sur tous les agissements des associés et sur¬tout sur leur salaire
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         (§ 18)
+        </ref>
+        . Non seulement son influence s'exerce surses membres, mais elle s'étend encore sur tous ceux qui font partie de la profession des typographes. Ainsi l'ouvriertypographe, même étranger à l'association, qui se permettrait d'accepter un prix inférieur au tarif, serait pourchassé, mis en quarantaine, et on irait même, cela s'est vu, jusqu'à fomenter une grève dans la maison ou il travaille.
+       </p>
+       <p xml:id="para_32_387_192">
+        La surveillance s'exerce dans chaque atelier par un sectionnaire. L'année dernière, les ouvriers des imprimeries qui n'avaient pas cédé à toutes les exigences de l'Association pour les salaires, se sont mis en grève et les patrons ont dû consentir à des augmentations. L'impri¬merie oitravaille notre ouvier n'était pas de ce nombre, et lui-même, usqu'ici, n'a pris part à aucune grève. 'Toutefois, comme l'Associa¬tion avait fomenté la grève et soutenait les grévistes, il a contribué indirectement à la résistance.
+       </p>
+       <p xml:id="para_32_387_193">
+        Peut-être Théodore N*°, qui participe à la caisse tontinière de l'éta¬blissement et à une société de secours mutuels, aimerait-il autant ne point faire partie de l'Association, mais il serait alors mal noté, et, comme ses patrons lui laissent pleine liberté, il a voulu, en y adhé¬rant, se garantir contre tout ennui
+       </p>
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <pb facs="#facs_413" n="388" source="s2lesouvriersdes03sociuoft_0452.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_413_g_2" url="#" xml:id="tble_32_388_1"/>
+       </figure>
+       <!--<p xml:id="para_32_388_195">
+        SUBVENTIONS RECUES PAR LA FAMILLE.
+       </p>
+       <p xml:id="para_32_388_196">
+        ART. 1ᵉʳ. — PROPRIÉTÉS RȨUES EN USUFRUIT.
+       </p>
+       <p xml:id="para_32_388_197">
+        (l.a famille ne jouit d'aucune propriété de ce genre.).....................
+       </p>
+       <p xml:id="para_32_388_198">
+        ART. 2. — DROITS D'USAGE SUR LES PROPRIÉTÉS VOISINES.
+       </p>
+       <p xml:id="para_32_388_199">
+        (La famille ne jouit d'aucun droit de ce genrc.)............................
+       </p>
+       <p xml:id="para_32_388_200">
+        ART. 3. — ALLOCATIONS D'OBETS ET DE SERVICES. Allocaion conerant les vêtements ............ .... ....:....... ..........
+       </p>
+       <p xml:id="para_32_388_201">
+        — 'instruction des enants..... . .......... ....... .. . :
+       </p>
+       <p xml:id="para_32_388_202">
+        .— —  T01S .. . . ...... . ............. ....... . ......
+       </p>
+       <p xml:id="para_32_388_203">
+        —  SlT1S . . . . ... .   .. ... . .. . .. .... . ... .. . . . ..... .
+       </p>-->
+       <pb facs="#facs_414" n="389" source="s2lesouvriersdes03sociuoft_0453.xml"/>
+       <!--<p xml:id="para_32_389_204">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>-->
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_414_g_2" url="#" xml:id="tble_32_389_2"/>
+       </figure>
+       <pb facs="#facs_415" n="390" source="s2lesouvriersdes03sociuoft_0456.xml"/>
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_415" url="#"/>
+       </figure>
+       <!--<p xml:id="para_32_390_205">
+        1. — BUDGET DES RECETTES DE L'ANNÉE (suite).
+       </p>
+       <p xml:id="para_32_390_206">
+        SOURCES DES RECETTES (suite).
+       </p>
+       <p xml:id="para_32_390_207">
+        DÉSIGNATION DES TRAVAUXN ET DE LEMPLOIDU TEMPS.
+       </p>
+       <p xml:id="para_32_390_208">
+        QUANTITÉ DE TRAVAIL
+       </p>
+       <p xml:id="para_32_390_209">
+        TRAVAUX EXÉCUTÉS PAR LA FAMILLE.
+       </p>
+       <p xml:id="para_32_390_210">
+        Travaux de conducteur-typographe, evécutés au compte d'un parop. 315 journées de 8 heures payées 5ᶠ 75, ce qui donne en journées de
+       </p>
+       <p xml:id="para_32_390_211">
+        ( (S . . . . .  ..  . . . . . . . . . . . .. . .  . ..... . . ..... . .. .. . . . .. . . . .. . . . . . . .
+       </p>
+       <p xml:id="para_32_390_212">
+        Teaue de 'estaminet, principalement par la femme en l'absence de son
+       </p>
+       <p xml:id="para_32_390_213">
+        éparation et entretien du mobilier d'habitation...............:......
+       </p>
+       <p xml:id="para_32_390_214">
+        — du matériel e l'elminel.... ................
+       </p>
+       <p xml:id="para_32_390_215">
+        Travaux de ménage : achat et préparation des aliments. soins donnes aux enfants, soins de propreté concernant l'habitation et le mobilier.
+       </p>
+       <p xml:id="para_32_390_216">
+        Confection et entretien du linge et des vêtements.....................
+       </p>
+       <p xml:id="para_32_390_217">
+        Blanchissage du linge et des vêtements .......................ᵉ:::...
+       </p>
+       <p xml:id="para_32_390_218">
+        Travaux de la fille aiuée, exécutés auu compte d'un patron : apprentis¬Sage de l'éa (de 1ailles°. . .. .... ... ... ..... . .............. .........
+       </p>
+       <p xml:id="para_32_390_219">
+        ToTAUX des journées de tous les membres de la famille...
+       </p>
+       <p xml:id="para_32_390_220">
+        INDUSTRIES ENTREPRISES PAR LA FAMILLE
+       </p>
+       <p xml:id="para_32_390_221">
+        (à son propre compte).
+       </p>
+       <p xml:id="para_32_390_222">
+        Exploitation d'un estaminet et débi de liqueurs, et location de chambres.....
+       </p>
+       <p xml:id="para_32_390_223">
+        Réparation et entretien du mobilier d'habitatin... ;; ᵉ.:.:...........:...
+       </p>
+       <p xml:id="para_32_390_224">
+        — — du aérie de l'estaninet et de locain . .. ............
+       </p>
+       <p xml:id="para_32_390_225">
+        Confeetion et entretien du liuge et des vêtements ... ....... ....... .......... ...
+       </p>
+       <p xml:id="para_32_390_226">
+        Rlanehissage d lingge et des véteents...... .. ..... ......... ..... . ............
+       </p>-->
+       <pb facs="#facs_416" n="391" source="s2lesouvriersdes03sociuoft_0457.xml"/>
+       <figure type="cptes_recettes">
+        <graphic facs="#facs_416" url="#"/>
+       </figure>
+       <!--<p xml:id="para_32_391_227">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE LANNÉE (suite).
+       </p>
+       <figure type="illustration">
+        <graphic facs="#facs_416_g_2" url="#" xml:id="illu_32_391_3"/>
+       </figure>
+       <p xml:id="para_32_391_228">
+        PRIXN DES SALAIRES JOURNALIERS.
+       </p>
+       <figure type="illustration">
+        <graphic facs="#facs_416_g_4" url="#" xml:id="illu_32_391_4"/>
+       </figure>
+       <p xml:id="para_32_391_229">
+        SALAIRES.
+       </p>
+       <p xml:id="para_32_391_230">
+        Salaire total attribué à ce travail.
+       </p>
+       <p xml:id="para_32_391_231">
+        (Aucun salaire ne peut être attribué à ces
+       </p>
+       <p xml:id="para_32_391_232">
+        1TV) . . ........ .... ... ......... . ..... ... .
+       </p>
+       <p xml:id="para_32_391_233">
+        Salaire total attribué a ce travail.....() 16. D)
+       </p>
+       <p xml:id="para_32_391_234">
+        — . ....., 16, E)
+       </p>
+       <p xml:id="para_32_391_235">
+        TOTAx des salaires de la famille.
+       </p>
+       <p xml:id="para_32_391_236">
+        BÉNÉFICES DES INDUSTRIES.
+       </p>
+       <p xml:id="para_32_391_237">
+        énéfice résultant de cette exploitation........... ...... .
+       </p>
+       <p xml:id="para_32_391_238">
+        de cette industrie..... .. ........:.. . :
+       </p>
+       <p xml:id="para_32_391_239">
+        16. . 1I6. 16. 7 16. I6.
+       </p>
+       <p xml:id="para_32_391_240">
+        A)
+       </p>
+       <p xml:id="para_32_391_241">
+        B)
+       </p>
+       <p xml:id="para_32_391_242">
+        D)
+       </p>
+       <p xml:id="para_32_391_243">
+        E)
+       </p>
+       <p xml:id="para_32_391_244">
+        TOTAUX des bénéfices résultant des industries.
+       </p>
+       <p xml:id="para_32_391_245">
+        OTA. — Outre les recettes portées ci-dessus en compte, les industries donnent lieu à une recette de 6.329ᶠ65 (§ 16, F), qui est appiquée de nouveau à ces mêmes industries ; cette recette et les dépenses qui la balancent (] 15. Sʳ V) ont été omises dans l'un et l'autre budget.
+       </p>
+       <p xml:id="para_32_391_246">
+        TOTAUX DES RECETTES de l'année (balançant les dépenses).. (4.233ᶠ52)
+       </p>-->
+      </div>
+      <div n="002" type="sub_sub_section">
+       <pb facs="#facs_417" n="392" source="s2lesouvriersdes03sociuoft_0458.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_417_g_2" url="#" xml:id="tble_32_392_5"/>
+       </figure>
+       <pb facs="#facs_418" n="393" source="s2lesouvriersdes03sociuoft_0459.xml"/>
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_418_g_2" url="#" xml:id="tble_32_393_6"/>
+       </figure>
+       <pb facs="#facs_419" n="394" source="s2lesouvriersdes03sociuoft_0460.xml"/>
+       <!--<p xml:id="para_32_394_249">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+       </p>-->
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_419_g_2" url="#" xml:id="tble_32_394_7"/>
+       </figure>
+       <pb facs="#facs_420" n="395" source="s2lesouvriersdes03sociuoft_0461.xml"/>
+       <!--<p xml:id="para_32_395_250">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+       </p>-->
+       <figure type="cptes_depenses">
+        <graphic facs="#facs_420_g_2" url="#" xml:id="tble_32_395_8"/>
+       </figure>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <pb facs="#facs_421" n="396" source="s2lesouvriersdes03sociuoft_0462.xml"/>
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
+       <!--<p xml:id="para_32_396_254">
+        SECTION I.
+       </p>-->
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_421_g_5" url="#" xml:id="illu_32_396_9"/>
+       </figure>
+       <!--<p xml:id="para_32_396_255">
+        A. — EXPLOITATION D'UN ESTAMINET ET DÉBIT DE LIQUEURS
+       </p>
+       <p xml:id="para_32_396_256">
+        ET LOCATION DE CHAMBRES.
+       </p>
+       <p xml:id="para_32_396_257">
+        Recette journalière faite dans l'estaminet, 20ᶠ par jiour en moyenne.. Produit de la location d'appartements à des tiers....................
+       </p>
+       <figure type="illustration">
+        <graphic facs="#facs_421_g_9" url="#" xml:id="illu_32_396_10"/>
+       </figure>
+       <p xml:id="para_32_396_258">
+        Total comme ci-dessus.
+       </p>
+       <p xml:id="para_32_396_259">
+        B. — IRÉPARATION ET ENTRETIEN DU MOBILIER D'HABITATION.
+       </p>
+       <p xml:id="para_32_396_260">
+        Some qui serait payée pour ouvriers spéciax .......... .
+       </p>
+       <p xml:id="para_32_396_261">
+        s 1ravaux, s'ils étaient exécutés par des
+       </p>
+       <p xml:id="para_32_396_262">
+        ...............................(§ 15, Sᵉ1IH). 84ᶠ57] 14
+       </p>
+       <p xml:id="para_32_396_263">
+        Achats de planches, 5ᶠ00: — clous crampons, ete., 0ᶠ70; — colle de pate, 0ᶠ45 — couleurs, 3ᶠ70; — papiers pour tapisser, 5ᶠ00.............................
+       </p>
+       <p xml:id="para_32_396_264">
+        A reporter.
+       </p>-->
+       <pb facs="#facs_422" n="397" source="s2lesouvriersdes03sociuoft_0463.xml"/>
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_422" url="#"/>
+       </figure>
+       <!--<p xml:id="para_32_397_266">
+        C. — RÉPARATION ET ENTRETIEN DU MATÉRIEL
+       </p>
+       <p xml:id="para_32_397_267">
+        DE LESTAMINET ET DE LOCATION.
+       </p>
+       <p xml:id="para_32_397_268">
+        ECETTES.
+       </p>
+       <p xml:id="para_32_397_269">
+        e qui serait payée pour ces travaux, s'ils étaient evécutés par des ou¬2TS SCX. . .. ...... .... .. . . .... ... . .... ... . .... . . ... . . .... ...... . . . (A)
+       </p>
+       <p xml:id="para_32_397_270">
+        s de planches, 6ᶠ20 ; — clous, crampons. etc., 0ᶠ80; — eolle de paite e
+       </p>
+       <p xml:id="para_32_397_271">
+        e forte, 1ᶠ20: — couleurs, 10ᶠ00 ; — objets divers . 5ᶠ00..................
+       </p>
+       <p xml:id="para_32_397_272">
+        divers imprévus pour les locataires.....................................
+       </p>
+       <p xml:id="para_32_397_273">
+        Il de l'ouvrier, 18 journ. à 3ᶠ50. ...........:.......... .......... ........ . .
+       </p>
+       <p xml:id="para_32_397_274">
+        ̀t (3 p. :) de la valeur d'une partie du matériel de rcparations.........
+       </p>
+       <p xml:id="para_32_397_275">
+        BÈNÉFICE TéSultant de l'industrie....... ...............................
+       </p>
+       <p xml:id="para_32_397_276">
+        Total comme ci-dessus..........
+       </p>
+       <p xml:id="para_32_397_277">
+        — CONFECTION ET ENTRETIEN DU LINGE ET DES VÊTEMENTS.
+       </p>
+       <p xml:id="para_32_397_278">
+        pui serait payé pour ces travaux s'ils étaient exécutés au dehors ( 15, 1I)........... ............................ ............... .......... ... ...
+       </p>
+       <p xml:id="para_32_397_279">
+        S divers : fil, laine, coton, aiguilles, etc....................
+       </p>
+       <p xml:id="para_32_397_280">
+        toile, coton, étoffes diverses ..................... .
+       </p>
+       <p xml:id="para_32_397_281">
+        Il de la famille : de la femme. 26 journ. à 3ᶠ00.............
+       </p>
+       <p xml:id="para_32_397_282">
+        — de la ille aînée. 12 journ. a 1ᶠ50..........
+       </p>
+       <p xml:id="para_32_397_283">
+        t (3 p. §) de la valeur d'une partie du matériel d'entretien. BÈ́NÉFICE réulant de l'industrie ..........................
+       </p>
+       <p xml:id="para_32_397_284">
+        Totauux comme i-dessus.
+       </p>
+       <figure type="illustration">
+        <graphic facs="#facs_422_g_20" url="#" xml:id="illu_32_397_11"/>
+       </figure>
+       <figure type="illustration">
+        <graphic facs="#facs_422_g_21" url="#" xml:id="illu_32_397_12"/>
+       </figure>-->
+       <pb facs="#facs_423" n="398" source="s2lesouvriersdes03sociuoft_0464.xml"/>
+       <figure type="cptes_annexes">
+        <graphic facs="#facs_423_g_1" url="#" xml:id="tble_32_398_13"/>
+       </figure>
+       <!--<p xml:id="para_32_398_285">
+        SECTION II.
+       </p>
+       <p xml:id="para_32_398_286">
+        COMPTES RELATIFS AUX SUBVENTIONS.
+       </p>
+       <p xml:id="para_32_398_287">
+        Ces coptcs ont ètué établis dans les budgets.
+       </p>
+       <p xml:id="para_32_398_288">
+        S ECTION III.
+       </p>
+       <p xml:id="para_32_398_289">
+        COMPTES DIVERS.
+       </p>
+       <p xml:id="para_32_398_290">
+        Tous les comptes sont établis directement dans les budgets.
+       </p>-->
+      </div>
+     </div>
+     <div n="003" type="section">
+      <pb facs="#facs_424" n="399" source="s2lesouvriersdes03sociuoft_0465.xml"/>
+      <head type="section" xml:id="part_03">
+       ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
+      </head>
+      <p xml:id="para_32_399_291">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
+      </p>
+      <div n="001" type="sub_section">
+       <div n="001" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         § 17. SUR L'ASSOCIATION LIBRE DES COMPOSITEURS ET IMPRIMŒURS TYPOGRAPHES DE BRUNELLES.
+        </head>
+        <p xml:id="para_32_399_294">
+         L'Association des typographes de Bruxelles est très puissante et mérite d'être connue. Elle a pour objet de maintenir les pri. et de ournir à ses membres le moyen de s'entr'aider en toute occasion sans violer les lois. Elle n'a et ne pourra jamais avoir aucun but politique proprement dit.
+        </p>
+        <p xml:id="para_32_399_295">
+         Le règlement, qui ne compte pas moins de 104 articles, est suivi d'un tarif des prix de la main-d'œuvre. Les associés s'engagent for¬mellement à ne travailler, pour aucun motif et sous aucun préterte à des pri inférieurs à ceux stipulés dans le tarif.
+        </p>
+        <p xml:id="para_32_399_296">
+         L'Association comprend des membres actifs et des membres hono¬raires. Ceux-ci sont les ouvriers typographes qui ont pris un autre métier ; ils payent au moins 12 francs l'an, et ne peuvent assister aux séances de l'Association.
+        </p>
+        <p xml:id="para_32_399_297">
+         La dissolution de la société ne peut jamais être proposée. Celui qui la proposerait serait exclu séance tenante, de même que celui qui se hasarderait à demander la modification de l'article qui défend cette proposition.
+        </p>
+        <p xml:id="para_32_399_298">
+         La commission administrative se compose de vingt-trois membres, dont un président, deux vice-présidents et un délégué permanent. Leur mandat est d'un an. Pour être éligible, il faut être membre depuis trois ans, être âgé de vingt-cinq ans, avoir payé toutes ses cotisations et n'a¬
+        </p>
+        <pb facs="#facs_425" n="400" source="s2lesouvriersdes03sociuoft_0466.xml"/>
+        <p xml:id="para_32_400_299">
+         voir jamais contrevenu aux intérêts généraux de l'Association. La com¬mission ne peut délibérer qu'au nombre de quine membres au moins.
+        </p>
+        <p xml:id="para_32_400_300">
+         Le délégué permanent est la cheville ouvrière de la société. Il sur¬veille les membres qui sont à la charge de la caisse ; il fait les dé¬marches pour placer les hommes sans ouvrage. Il doit se tenir au courant de toutes les adjudications ou entreprises, pour renseigner les patrons qui payent les salaires du tarif et chercher le moyen de leur assurer les commandes. Il contrôle l'embauchement et le débau¬chement
+         <note type="bp">
+          <p>
+           Embauchement et débauchement sont les termes du réglement.
+          </p>
+         </note>
+         dans ous les ateliers. A heure fixe, deux fois par jour, il doit se trouver au siège de l'Association. Il touche 175francs par mois.
+        </p>
+        <p xml:id="para_32_400_301">
+         Chaque fois que l'encaisse atteint 500 francs, le trésorier payeur en distrait 100 francs qui sont placés à intérêts. Les titres ou actions sont déposés dans le coffre-fort du receveur. Tous les semestres, les caisses sont vérifiées par le comité de comptabilité, qui décide de l'emploi et du placement des fonds.
+        </p>
+        <p xml:id="para_32_400_302">
+         Dans chaque atelier ou il y a au moins trois associés, on choisit un sectionnaire, et, à défaut d'entente, celui-ci est désigné par le sort. Il est chargé :
+        </p>
+        <p xml:id="para_32_400_303">
+         1° D'informer les membres des convocations et avis de l'adminis¬tration ;
+        </p>
+        <p xml:id="para_32_400_304">
+         2° De veiller à la stricte observation des statuts et du tarit, ainsi qu'aux embauchements et débauchements ;
+        </p>
+        <p xml:id="para_32_400_305">
+         3° De contresigner sous sa responsabilité les demandes d'indem¬nité en cas de chômage involontaire:
+        </p>
+        <p xml:id="para_32_400_306">
+         4° De percevoir les cotisations et amendes, ou toute autre contri¬bution :
+        </p>
+        <p xml:id="para_32_400_307">
+         5° D'informer le délégué permanent de toute contestation surve¬nue dans son atelier.
+        </p>
+        <p xml:id="para_32_400_308">
+         L'Association se réunit le premier jeudi de chaque mois. La réu¬nion est obligatoire : le membre qui n'y assiste point sans excuse va¬lable encourt une amende de 25 ou 50 centimes. Le non-participant à un poll est aussi passible d'une amende de 50 centimes.
+        </p>
+        <p xml:id="para_32_400_309">
+         L'ouvrier typographe qui denande à faire partie de l'Association n'est admis que s'il a vingt-cinq ans d'âge, cinq années d'exercice dans l'imprimerie, et une bonne conduite. En tous cas, il est soumis à un exament héorique et pratique, qui doit fournir la preuve de ses capacités et de ses aptitudes professionnelles.
+        </p>
+        <pb facs="#facs_426" n="401" source="s2lesouvriersdes03sociuoft_0467.xml"/>
+        <p xml:id="para_32_401_311">
+         Après son admission, il est introduit en séance par l'un des com¬missaires et, après avoir entendu la lecture de l'article 1ᵉ des statuts, lecture qui lui est faite par le président, il en signe l'original. Il paye séance tenante 5 francs, et la part réglementaire pour la caisse de retraite.
+        </p>
+        <p xml:id="para_32_401_312">
+         Cette caisse est destinée à servir une pension viagère aux associés vieux ou infirmes, devenus incapables de travailler.
+        </p>
+        <p xml:id="para_32_401_313">
+         Les ressources de la caisse se composent :
+        </p>
+        <p xml:id="para_32_401_314">
+         1° D'une somme de 20 prélevée sur la recette mensuelle ;
+        </p>
+        <p xml:id="para_32_401_315">
+         2° D'une somme de 25 prélevée sur le boni annuel ;
+        </p>
+        <p xml:id="para_32_401_316">
+         3° D'un droit d'affiliation fixé comme suit :
+        </p>
+        <p xml:id="para_32_401_317">
+         Tout nouveau membre, ainsi que tout associé de province ou de l'étranger admis dans l'Association, doit verser à la caisse comme affiliation, savoir :
+        </p>
+        <p xml:id="para_32_401_318">
+         De l'age de 20 à 25 ans.................................... 2 fr.
+        </p>
+        <p xml:id="para_32_401_319">
+         — e 25 a 30 — . . . . . . ... .... . ... . . . ................ 3
+        </p>
+        <p xml:id="para_32_401_320">
+         : :
+        </p>
+        <p xml:id="para_32_401_321">
+         4° Du produit des fêtes données au bénéfice de la caisse ;
+        </p>
+        <p xml:id="para_32_401_322">
+         5° Des subsides qui pourraient lui être alloués et des dons de toute provenance ;
+        </p>
+        <p xml:id="para_32_401_323">
+         6° Des primes et des intérêts des fonds placés.
+        </p>
+        <p xml:id="para_32_401_324">
+         Les fonds sont affectés exclusivement à servir une pension via¬gère de un franc par jour :
+        </p>
+        <p xml:id="para_32_401_325">
+         1° Au minimam : à chaque associé qui a atteint sa soiantieme an¬née et qui fait partie de l'Association depuis au moins trente ans, à la condition expresse qu'il cesse tout travail typographique.
+        </p>
+        <p xml:id="para_32_401_326">
+         2° Au maimum à chaque associé atteint d'une infirmité com¬portant incapacité absolue de travail, à la condition qu'il ait vingt¬cinq années d'association à Bruxelles.
+        </p>
+        <p xml:id="para_32_401_327">
+         L'associé qui entre dans un hospice et qui se trouve dans les conditions énoncées ci-dessus rȩoit comme gratification deux francs par semaine.
+        </p>
+        <p xml:id="para_32_401_328">
+         La caisse est régie par un comité de cinq membres dont le man¬dat gratuit ne dure qu'une année. Les administrateurs sortants sont rééligibles. Ils sont nommés : trois par une assemblée générale tenue en juin, et deux par une même assemblée en décembre.
+        </p>
+        <p xml:id="para_32_401_329">
+         Toute proposition de modification au règlement doit être faite par écrit et appuyée par vingt membres. La suppression de la caisse ne peut jamais être proposée.
+        </p>
+        <pb facs="#facs_427" n="402" source="s2lesouvriersdes03sociuoft_0468.xml"/>
+        <p xml:id="para_32_402_331">
+         La contribution mensuelle est de 2 francs.
+        </p>
+        <p xml:id="para_32_402_332">
+         Les amendes sont nombreuses. Ainsi, le membre désigné comme sectionnaire d'atelier qui en refuse la charge paye 5 francs. Celui qui est convaincu d'avoir tenu des propos calomnieux envers les adminis¬trateurs ou l'administration est puni d'une amende de 2 à 5 francs.
+        </p>
+        <p xml:id="para_32_402_333">
+         bLe président peut condamner à une amende le membre qui trou¬ble l'ordre des séances, etc.
+        </p>
+        <p xml:id="para_32_402_334">
+         L'administration a le droit de proposer à l'Association réunie qu'un membre soit rayé, blâmé ou exclus. Le membre rayé peut rentrer dans l'Association à certaines conditions déterminées par le règlement.
+        </p>
+        <p xml:id="para_32_402_335">
+         Uneindemnitéest allouée danstrois cas aux membres del'Association
+        </p>
+        <p xml:id="para_32_402_336">
+         1ᵉ° Aux associés privés de travail pour avoir résisté légalement à des actes attentatoires aux intérêts de la généralité des compositeurs et imprimeurs ;
+        </p>
+        <p xml:id="para_32_402_337">
+         2° A ceux qui sont sans travail par suite de chômage involontaire ;
+        </p>
+        <p xml:id="para_32_402_338">
+         3° A ceux qui voyagent.
+        </p>
+        <p xml:id="para_32_402_339">
+         L'indemnité dans le premier cas est de5 francs par jour.
+        </p>
+        <p xml:id="para_32_402_340">
+         Dans le second cas l'associé reçoit :
+        </p>
+        <figure type="inventory">
+         <head type="inventory" xml:id="figure_2">
+          Allocation perçu par un ouvrier membre de l'Association lors d'une période de chommage involontaire en fonction de son ancienneté
+         </head>
+         <graphic facs="#facs_427" url="#"/>
+        </figure>
+        <p xml:id="para_32_402_342">
+         Toutefois cette indemnité ne peut être allouée que pendant trois périodes de douze semaines, avec une interruption de huit semaines à la fin de chaque période.
+        </p>
+        <p xml:id="para_32_402_343">
+         Le membre qui reçoit une indemnité est astreint à se présenter au siège de la société aux jours et heures indiqués par l'administration. S'il se présentait en état d'ébriété, son indemnité lui serait retirée pendant quinze jours.
+        </p>
+        <p xml:id="para_32_402_344">
+         L'administration nomme un huissier, qui est le seul étranger au¬torisé à servir les associés en séance.
+        </p>
+       </div>
+       <div n="002" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         § 18. DU TARIF.
+        </head>
+        <p xml:id="para_32_402_347">
+         Tout membre de l'Association des typographes, nous l'avons dit, s'engage formellement à ne pas travailler, pour aucun motif et sous cun prétexte, à des prix inférieurs à ceux stipulés dans un tarif annexé au règlement.
+        </p>
+        <pb facs="#facs_428" n="403" source="s2lesouvriersdes03sociuoft_0469.xml"/>
+        <p xml:id="para_32_403_348">
+         La puissance de l'Association est telle qu'aucun ouvrier, même s'i n'appartient pas à ˉl'Association, n'oserait travailler, à Bruxelles et dans la banlieue, à un prix moindre.
+        </p>
+        <p xml:id="para_32_403_349">
+         Tous les détails les plus minutieux sont prévus par ce tarif¬règlement : les différents caractères d'écriture, les compositions en langues étrangères avec le caractère usuel et un autre caractère, les copies comprenant des alinéas partie manuscrits, partie imprimés.
+        </p>
+        <p xml:id="para_32_403_350">
+         Ce qui n'est pas prévu, dit le tarif, se rêgle en conscience.
+        </p>
+        <p xml:id="para_32_403_351">
+         En voici les principaux articles :
+        </p>
+        <p xml:id="para_32_403_352">
+         Art. 1ᵉʳ. —Les prix de la composition sont établis par mille cadratins.
+        </p>
+        <p xml:id="para_32_403_353">
+         Ces prix sont basés sur les caractères de 6 à 12 points inclus, dont les 26 lettres de l'alphabet dépassent 11 12 cadratins.
+        </p>
+        <p xml:id="para_32_403_354">
+         La surcharge pour les caractères qui mesurent moins est établie de la manière suivante.
+        </p>
+        <figure type="inventory">
+         <head type="inventory" xml:id="figure_3">
+          Valeur de la surcharge pour les caractères qui mesurent moins
+         </head>
+         <graphic facs="#facs_428" url="#"/>
+        </figure>
+        <p xml:id="para_32_403_357">
+         La grosse espace (13 du corps) entrant dans la ligne, pour com¬pléter la justification, compte comme cadratin.
+        </p>
+        <p xml:id="para_32_403_358">
+         Art. 2. — Le prix de la composition est fixé, pour les caractêres dont la force de corps est :
+        </p>
+        <figure type="inventory">
+         <head type="inventory" xml:id="figure_4">
+          Prix de la composition selon la force de corps du caractère
+         </head>
+         <graphic facs="#facs_428" url="#"/>
+        </figure>
+        <!--<p xml:id="para_32_403_359">
+         Imprimé. Manuscrit.
+        </p>
+        <p xml:id="para_32_403_360">
+         De 6 à 12 points inclus, par mille cadratins a.... 1ᶠ10 1ᶠ20 De 13 et 14 points, — — à 1 15 1 25
+        </p>
+        <p xml:id="para_32_403_361">
+         De 5 1/2 points, —  à 1 20 1 30
+        </p>
+        <p xml:id="para_32_403_362">
+         De 5 points, —. à 1 25 1 35
+        </p>-->
+        <p xml:id="para_32_403_363">
+         La composition des caractères dont la force de corps est plus faible ou plus forte se fait à l'amiable.
+        </p>
+        <p xml:id="para_32_403_364">
+         Art. 36. — Les prix minima de main-d'œuvre des imprimeurs et conducteurs sont réglés d'après les fonctions qu'ils exercent. Ils sont établis de la manière suivante :
+        </p>
+        <figure type="inventory">
+         <head type="inventory" xml:id="figure_5">
+          Prix minima de main-d'œuvre des imprimeurs et conducteurs
+         </head>
+         <graphic facs="#facs_428" url="#"/>
+         <p xml:id="para_32_403_369">
+          (1) On appelle pressier un ouvrier imprimeur travaillantà la presse a bras. Depuis l'intro¬duction des presses mécaniques, ces ouvriers ne sont presque plus utilisés. Toutefois. dans les grandes imprimeries, il existe un ou deux pressiers pour tirer un petit nombre d'exemplaires, tirer les épreuves pour corrections et les affiches.
+         </p>
+         <p xml:id="para_32_403_370">
+          (2) Un conducteur de machine simple est le conducteur qui dirige une presse n'impri¬mant qu'une couleur et d'un seul côté de la feuille à la fois.
+         </p>
+         <p xml:id="para_32_403_371">
+          (3) La machine double peut imprimer deux couleurs en même temps, ou bien imprimer en même temps le recto et le verso d'une feuille. Les presses rotatives. d'invention re¬
+         </p>
+         <pb/>
+         <p>
+          cente. sont des presses sur lesquelles le papier d'impression, au lieu d'ètre en feuille, est en rouleau continu et est coupé ḿcaniquement après l'impression. Ce sont des machines grande vitessc et spécialement employécs pour les journaux.
+         </p>
+        </figure>
+        <!--<p xml:id="para_32_403_365">
+         Prix de la journée de 10 heures d'un pressier (1)..................... 5ᶠ50
+        </p>
+        <p xml:id="para_32_403_366">
+         — d'un conducteur d'une machine simple (2)...................... 5 50
+        </p>
+        <p xml:id="para_32_403_367">
+         — d'un conducteur d'une machine double ou rotative (3).......... 6 00
+        </p>
+        <p xml:id="para_32_403_368">
+         — d'un conducteur de deux machines simples.................... 6 50
+        </p>-->
+        <pb facs="#facs_429" n="404" source="s2lesouvriersdes03sociuoft_0470.xml"/>
+        <p xml:id="para_32_404_372">
+         Aux journaux quotidiens la journée de travail est de neuf heures. Le travail supplémentaire, comme le travail de nuit et le travail du dimanche, sont prévus et taxés par le même tarif qui est três complet.
+        </p>
+       </div>
+       <div n="003" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         § 19. SUR L'ORGANISATION DE LA CAISSE TONTINIÈRE.
+        </head>
+        <p xml:id="para_32_404_375">
+        </p>
+        <p xml:id="para_32_404_376">
+         La Caisse tontinière de l'établissement n'est que de date récente. Elle
+        </p>
+        <p xml:id="para_32_404_377">
+         a été conçue avec mesure et sagesse, de façon à éviter les déconvenues qui ne sont que trop fréquentes en ces matières. L'établissement ne contracte aucune obligation positive envers les participants à la Caisse, et ceux-ci n'ont ainsi jamais à exercer aucun droit ni recours juridique quelconque. La Direction de l'établissement conserve la haute main sur la Caisse, qui est gérée par un Comité dont aucun ouvrier ne fait partie.
+        </p>
+        <p xml:id="para_32_404_378">
+         Il a été indiqué plus haut
+         <ref target="#part_02_01_05" type="renvoi_int_mono">
+          (§ 5)
+         </ref>
+         quelles sont les ressources de la Caisse et comment elle doit aux participants tout ce qu'elle a, mais rien que ce qu'elle a. Aucun mécompte n'est donc à craindre.
+        </p>
+        <p xml:id="para_32_404_379">
+         toutes les ressources de la Caisse sont appliquées à l'achat de titres de l'Eat belge. Ceux-ci sont déposés dans une boite fermée et confiés à la Banque nationale. Cette institution garde gratuitement, sous sa responsabilité, les dépôts fermés qui lui sont remis par des sociétés créées dans un but philanthropique. Le Président, accompagné du secrétaire et du trésorier de la Caisse, peuvent, quand ils le veulent, retirer ou modifier le dépôt.
+        </p>
+        <p xml:id="para_32_404_380">
+         Il est ouvert à chaque participant de la Caisse un compte productif d'intérêt à 3 ᶠ 60 4, où sont portées les retenues normales faites sur son salaire. Les intérêts sont calculés une fois par an, au 31 décembre.
+        </p>
+        <p xml:id="para_32_404_381">
+         Le bilan, dressé à la même date, contient les éléments suivants :
+        </p>
+        <p xml:id="para_32_404_382">
+         A l'actif : 1ᵉ les valeurs de la Caisse au cours de la Bourse ; 2° le solde du compte courant. — Au passif : 1ᵉ le total des soldes des comptes de retenue ; 2° le montant de ce que la Caisse doit pour sommes ou valeurs acquises aux participants ; 3° le fonds de répartition repré¬sentant le surplus de l'actif de la Caisse.
+        </p>
+        <pb facs="#facs_430" n="405" source="s2lesouvriersdes03sociuoft_0471.xml"/>
+        <p xml:id="para_32_405_384">
+         Le fonds de répartition s'augmente du solde ou d'une partie du solde des comptes de retenue des participants qui cessent de faire partie du personnel de l'établissement, sans qu'il y ait droit à retirer ce solde ou même une partie de ce solde. Le fonds de répar¬tition se modifie d'après le cours des fonds publics mentionnés à lacti.
+        </p>
+        <p xml:id="para_32_405_385">
+         Chaque année, il est remis à chaque participant une note indiquant le solde de son compte, le total des comptes de retenue et l'aetif de la Caisse, tel qu'il résulte de l'addition de solde du compte de retenue et du fonds de répartition.
+        </p>
+        <p xml:id="para_32_405_386">
+         Perdent tout droit sur la Caisse : 1° les participants qui meurent sans laisser ni femmes ni enfants mineurs ; — 2 ceux qui, avant l'âge de la retraite, quittent volontairement l'établissement, ou qui sont expulsés pour faute commise par eux.
+        </p>
+        <p xml:id="para_32_405_387">
+         Ont droit au solde de leur compte de retenue : les ouvriers qui recoivent leur démission pour toute cause étrangère à leur conduite.
+        </p>
+        <p xml:id="para_32_405_388">
+         Ont droit au solde de leur compte de retenue et à une quotité du fonds de répartition proportionnelleà celle qu'ils ont dans le fonds de retenue : 1° les ouvriers, qui, par suite d'accidents ou d'infirmités. sont dans l'impossibilitéde travailler ; — 2ᵐceux qui sont mis à laretraite à cause de leur âge avancé ; — 3° ceux qui se retirent volontairement, soit après l'âge de soixante-cinq ans, soit, après l'âge de soixante ans. 'ils ont trente-cinq ans de service dans l'établissement.
+        </p>
+        <p xml:id="para_32_405_389">
+         Les femmes des ouvriers, mariées depuis cinq ans au moins et habi¬tant avec leur mari, peuvent retirer le solde de leur compte de retenue et le tiers d'une part proportionnelle dans le fonds de répartition. Cette quotité est portée à la moitié s'il y a un enfant mineur, aux deux tiers 'il y en a deux, et à la totalité sil y en a trois ou plus.
+        </p>
+        <p xml:id="para_32_405_390">
+         La disposition relative aux orphelins mineurs est coņue de façon à sauvegarder leurs intérêts et ceux de la Caisse. L'article 26 stipule qu'ils ont droit ensemble à autant de vingtiêmes de la part qu'eùt reçue leur mère, si elle vivait encore et si elle avait le nombre d'an¬nées de mariage suffisant, qu'il reste au plus jeune d'années entières de minorité à accomplir . S'il y a en même temps ue veuve et des enfants mineurs d'un mariage antérieur, on calcule les droits des enfants comme s'il n'y avait pas de veuve, et les droits de la veuve comme s'il n'y avait pas d'enfants du premier lit, et on réduit chaque part de moitié.
+        </p>
+        <p xml:id="para_32_405_391">
+         Les ouvriers et leurs veuves peuvent opter, quant aux parts qui
+        </p>
+        <pb facs="#facs_431" n="406" source="s2lesouvriersdes03sociuoft_0472.xml"/>
+        <p xml:id="para_32_406_392">
+         leur sont acquises. entre les deux termes suivants : 1° se faire attri¬buer leur part en fonds belges restant déposés à la Caisse, qui leur en payera les coupons ; les fonds seront, dans ce cas, au décès des titu¬laires, remis à leurs représentants ; — 2ᵉ faire acheter, par la Caisse, à une société agréée par elle, une rente viagère avec telles réversions qu'ils indiqueront. Cependant, le Comité de la Caisse peut, dans l'in¬térêt des participants, de leurs veuves ou de leurs enfants, décider que les fonds publics seront immédiatement remis.
+        </p>
+        <p xml:id="para_32_406_393">
+         Comme la Caisse est de création récente, les ouvriers n'en apprécient pas encore les effets bienfaisants. Ceux qui ont dû quitter l'établisse¬ment par suite d'accidents ou d'infirmités ont seuls pu en bénéficier : telle qu'elle est constituée, il faudra longtemps pour qu'elle réponde à tout ce qu'on en attend ; mais, avec son organisation sérieuse, elle sera en mesure de satisfaire à toutes ses obligations.
+        </p>
+       </div>
+       <div n="004" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_20">
+         § 20. SUR LA LÉGISLATION DES CABARETS.
+        </head>
+        <p xml:id="para_32_406_396">
+         L'abus des boissons alcooliques existe en Belgique comme ailleurs. Le gouvernement a essayé de réagir contre cette plaie grandissante ; il a obtenu des Chambres, en 1887, une loi sur l'ivresse publique qui n'a pas produit de grands effets. Par une loi postérieure du 18 août 1889, il a été établi un droit de licence sur les nouveaux débits au détail de boissons alcooliques. Est considéré comme nouveau débit celui qui n'a pas été acquitté le 1ᶠ janvier de chaque année pour l'année précé¬dente ; celui qui, après avoir été fermé, sera rétabli ultérieurement, et aussi celui qui est transporté dans une commune autre que celle dans laquelle le débitant est imposé. Le montant de ce droit de licence est fixé comme suit :
+        </p>
+        <figure type="inventory">
+         <head type="inventory" xml:id="figure_6">
+          Prix d'une licence pour un débit d'alcool en Belgique en fonction de la taille de la commune
+         </head>
+         <graphic facs="#facs_431" url="#"/>
+        </figure>
+        <!--<p xml:id="para_32_406_397">
+         Dans les commues de 60.000 habitants et plus.................... 200ᶠ 00.
+        </p>
+        <p xml:id="para_32_406_398">
+         — de 30.000 à 60.000 exclusivement.... .......... 150 00.
+        </p>
+        <p xml:id="para_32_406_399">
+         de 15.000 a 30.000 evxclusivement.............. 100 00.
+        </p>
+        <p xml:id="para_32_406_400">
+         de 5.000 à 15.000............................... 80 00.
+        </p>
+        <p xml:id="para_32_406_401">
+         — de moins de 35.000 habitants .... ......... ..... 60 00.
+        </p>-->
+        <p xml:id="para_32_406_402">
+         Le droit de licence est dù pour l'année entière, quelle que soit la date de l'ouverture du débit.
+        </p>
+        <p xml:id="para_32_406_403">
+         Quels ont été les résultats de cette loi Avant 1887, le nombre des cbarets croissait d'année en année, à raison de cinq à six mille par an,
+        </p>
+        <pb facs="#facs_432" n="407" source="s2lesouvriersdes03sociuoft_0473.xml"/>
+        <p xml:id="para_32_407_404">
+         le 31 décembre 1890, il était au contraire tombé à 160.319 au lieu de 185.036, soit une réduction de 25.000 environ dans l'année. Les prévi¬sions pour ce droit avaient été évaluéesau budget des voies et moyens à une somme de 375.000 francs ; il n'a produit que 287.765 francs.
+        </p>
+        <p xml:id="para_32_407_405">
+         Pour les neuf premiers mois de 1891, il parait qu'il n'en est plus ainsi. Les prévisions budgétaires avaient supposé pour l'année entière une recette de 300.000 francs ; cette recette est déjà dépassée et donne pour les neut premiers mois de l'année 514.830 francs, c'est-à-dire un accroissement de 214.830 francs sur les prévisions. Il n'en faut point conclure que la loi sur la licence des cabarets n'a point atteint son but. l est trop tôt pour la juger. Elle constitue, de l'avis de tous, un des moyens les plus efficaces pour entraver la multiplication des cabarets.
+        </p>
+       </div>
+       <div n="005" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_21">
+         § 21. SUR LA MUTUALITÉ ET LES SOCIÉTÉS DE SECOURS MUTUELS.
+        </head>
+        <p xml:id="para_32_407_408">
+         La loi de 1851 et le nouveau projet de loi.
+        </p>
+        <p xml:id="para_32_407_409">
+         En Belgique, on pousse fort à la mutualité et non sans raison. Elle fournit la solution de bien des problèmes sociaux que trop souvent l'on attend de l'intervention de l'Etat. Ce mouvement, toutefois, n'est que de date récente, et les sociétés de secours mutuels étaient peu nombreuses avant 1884. Les documents officiels en signalent 194 reconnues en 1882, avec 29.687'membres effectifs. En 1886, le chiffre s'est augmenté ; on en compte 220 reconnues pour 32.042 affiliés. L'exposé des motifs du projet de loi qui modifie la législation, en matière de sociétés de secours mutuels, mentionne pour 1890, au 1ʳ janvier, 340 sociétés reconnues et 445 qui ne le sont pas. Ce docu¬ment fait observer avec raison que beaucoup d'établissements indus¬triels possèdent leur caisse de secours.
+        </p>
+        <p xml:id="para_32_407_410">
+         Bien que nous constations un mouvement ascensionnel vers la mutualité, nous n'en devons pas moins reconnaître que l'on est loin en Belgique de ce que l'on a su faire en France, où l'on compte 74 affiliés pour 1.000 habitants, et surtout en Angleterre, où il y a 172 adhérents pour 1.000 habitants ; en Belgique, la proportion ne s'élève qu'à 34. On est d'accord pour reconnaitre que la cause de cet état de choses doit être attribuée aux vices de notre législation. La loi du 3 avril 1851, qui régit la matière des sociétés de secours mu¬
+        </p>
+        <pb facs="#facs_433" n="408" source="s2lesouvriersdes03sociuoft_0474.xml"/>
+        <p xml:id="para_32_408_411">
+         tuels, est tzmide et insuffisante. Le projet de loi qui est actuellement soumis à la Législature donne satisfaction à certains griefs dirigés avec raison contre la loi de 1851 ; le plus grave a pour objet la desti¬nation de l'actif en cas de liquidation. i, par suite de la révocation ou de la dissolution de la société, toutes les dettes payées et les en¬gagements tenus, il reste un boni, ce boni, au lieu de faire retour aux associés, est attribué aux sociétés de même genre existant dans la commune ou au bureau de bienfaisance. Plus sagement, le projet de loi décide que le surplus de l'actif (après que toutes les obligations sociales auront été respectées) sera réparti entre les membres effee¬tifs, d'après la proportion déterminée par les statuts, ou, à défaut de disposition spéciale, au prorata des cotisations payées par chacun d'eux depuis son entrée dans la société.
+        </p>
+        <p xml:id="para_32_408_412">
+         Dans ce même ordre d'idées, une autre disposition du projet de loi, qui sera bien accueillie par les mutualistes et favorisera l'éclosion de nouvelles associations, est celle qui autorise à répartir entre les socié¬taires tout accroissement du fonds social, provenant d'une cause autre que les dons et legs, pourvu qu'il dépasse d'une facon manifeste les besoins de la société. Pour que cette distribution puisse avoir lieu, il faut que la majorité des trois quarts des membres inscrits la déci¬dent en assemblée générale, et que le gouvernement l'approuve.
+        </p>
+        <p xml:id="para_32_408_413">
+         La mutualité peut intervenir en vue d'atteindre les objets les plus divers, non seulement pour accorder des secours en cas de maladie, de blessures, d'infirmités, en cas de naissance d'enfants ou de frais funéraires, etc., mais encore pour s'assurer contre la perte du bétail ou contre les dégâts de la grêle, pour acheter en gros les objets usuels, les denrées, les semences, les engrais, etc. Ces di¬verses opérations étaient permises par la loi de 1851, mais elle ne le disait pas d'une maniêre assez explicite.
+        </p>
+        <p xml:id="para_32_408_414">
+         Elle interdisait formellement aux sociétés de garantir des pensions viagères à leurs membres. Bien que la Commission permanente ait, dans son projet de revision de la loi de 1851, proposé de revenir sur cette interdiction et d'autoriser la création de rentes viageres, le gouvernement n'a pas cru pouvoir aller jusque-là.
+        </p>
+        <p xml:id="para_32_408_415">
+         Voici comment il s'en explique dans l'exposé des motifs :
+        </p>
+        <p xml:id="para_32_408_416">
+         «Les sociétés qui ont voulu confondre les rentes viagères et les se¬cours n'ont pu faire face à leurs cngagements et, contraintes de se dissoudre avant terme, elles n'avaient plus de quoi indemniser les pls jeunes de leurs membres. Le fonctionnement régulier d'une
+        </p>
+        <pb facs="#facs_434" n="409" source="s2lesouvriersdes03sociuoft_0475.xml"/>
+        <p xml:id="para_32_409_417">
+         caisse de pensions est subordonné à deux conditions essentielles : il faut que les tarifs soient bien établis et les capitaux bien préservés.
+        </p>
+        <p xml:id="para_32_409_418">
+         Le taux de capitalisation à adopter doit être en rapport avec le revenu probable des placements pendant toute la durée des enga¬gements à prendre, et, pour déterminer la durée de la vie probable des assurés, il y a lieu de tenir compte de circonstances multiples. Tous les calculs doivent être établis avec une rigoureuse exactitude.
+        </p>
+        <p xml:id="para_32_409_419">
+         En supposant même que les tarifs de la caisse de retraite soient em¬ployés par les sociétés, leur application pourrait encore engendrer des mécomptes. En effet, les tables de mortalité sur lesquelles ils reposent peuvent être considérées comme exactes si elles s'appliquent à grand nombre d'individus, mais il n'en est pas de même si elles doivent déterminer la vie moyenne d'un petit groupe, la longévité exceptionnelle de quelques-uns détruisant l'équilibre des calculs.
+        </p>
+        <p xml:id="para_32_409_420">
+         « Quant à la gestion des capitaux, il faut qu'elle soit dirigée de ma¬nière à ce que le produit des placements ne soit jamais inférieur au taux auquel sont calculés les tarifs et que l'intégralité du capital soit toujours maintenue.
+        </p>
+        <p xml:id="para_32_409_421">
+         « On ne peut guère espérer que les sociétés de secours mutuels, qui n'auraient à gérer que des capitaux d'importance secondaire, attein¬draient toujours de semblables résultats, et il ne faut en aucun cas que l'ouvrier qui a voulu s'assurer une rente, souvent au prix de dures privations, puisse la voir compromise ou seulement amoindrie.
+        </p>
+        <p xml:id="para_32_409_422">
+         On ne comprend pas d'ailleurs l'intérèt qu'il peut y avoir à or¬ganiser de petites caisses qui ne pourraient offrir que les mêmes avantages que la caisse des retraites, avec des sécurités moindres et un surcroit de frais.
+        </p>
+        <p xml:id="para_32_409_423">
+         Ces observations sont fort justes et, en somme, la caisse générale de retraites est là pour constituer les rentes viagères. Aussi, le projet de loi autorise-t-il la mutualité en vue de faciliter la constitution à cette caisse, instituée sous la garantie de l'État, de pensions via¬gères au profit de sociétaires âgés ou infirmes, à servir d'intermé¬diaire entre eux et cette institution.
+        </p>
+        <p xml:id="para_32_409_424">
+         Signalons encore une autre disposition du projelt, qui fait entrer les sociétés de secours mutuels dans une voie toute nouvelle. Ces so¬ciétés pourront faire aux sociétaires des prêts qui ne dépasseront pas 200 francs.
+        </p>
+        <p xml:id="para_32_409_425">
+         L'innovation la plus importante du projet de loi est celle qui accorde de nouveaux privilèges aux sociétés reconnues.
+        </p>
+        <pb facs="#facs_435" n="410" source="s2lesouvriersdes03sociuoft_0476.xml"/>
+        <p xml:id="para_32_410_426">
+         Tandis qu'en Angleterre l'octroi de la reconnaissance légale en¬traîne avec lui tous les droits de la personne morale, en Belgique, sous l'empire de la loi de 1851, il n'engendre que des avantages de peu d'importance : faculté d'ester en justice, exemption de droits de timbre et d'enregistrement, faculté de recevoir des dons ou legs d'objets mobiliers seulement. Abdiquer son indépendance et le droit de s'administrer à sa guise pour obtenir un si mince résultat, cela ne tentait guère, et le gouvernement, sachant se soustraire à de frivoles inquiétudes, legs de la Révolution française, veut que la reconnaissance soit sérieuse et que dorénavant la société puisse posséder un local destiné à être le siège social et le lieu de réunion de la société. Les dons ou legs ayant semblable objet pourront être autorisés par le gouvernement.
+        </p>
+        <p xml:id="para_32_410_427">
+         Grâce à ces nouvelles conditions, nous pensons que les sociétés de secours mutuels se multiplieront sous les formes les plus variées, au plus grand profit de tous ceux qui travaillent.
+        </p>
+        <p xml:id="para_32_410_428">
+         La soeiété de secours mutuels dont fait partie l'ouvrier de la présente monographie attend avec impatience le vote de la nou¬velle loi pour se procurer un local convenable.
+        </p>
+        <p xml:id="para_32_410_429">
+         Par la disposition relative aux prêts autorisés jusqu'à concurrence de 200 francs, on va, nous l'espérons, arriver insensiblement à or¬ganiser le crédit agricole et à multiplier les banques populaires. En matière de crédit, bien des choses se sont faites de nos jours que l'on ne soup̧onnait pas dans le passé ; aussi n'est-il peut-être pas prudent de dire que l'on n'arrivera jamais à résoudre tel ou tel problème : mais, dans l'état actuel de nos connaissances, on peut affirmer que le crédit agricole n'est possible que par la mutualité.
+        </p>
+       </div>
+       <div n="006" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_22">
+         § 22. SUR UN PARALLÉLE ÉTABLI ENTRE LES MOYENS D'EXISTENCE DU COMPOSI¬TEUR-TYPOGRAPHE DE 1857 ET DU CONDUCTEUR-TYPOGRAPHE DE 1891.
+        </head>
+        <p xml:id="para_32_410_432">
+         ˉLes ˉOuvries des Deux Mondes publiaient, en 1859, la monographie d'un compositeur-typographe de Bruxelles
+         <note type="bp">
+          <p>
+           <ref target="#ID-014a" type="renvoi_int_od2m">
+            Les Ouvriers des Deux Moudes, 1 série, t. II : Compositeur-typographe de Bruxelles, par M. J. Dauby
+           </ref>
+           .
+          </p>
+         </note>
+         . Les deux fonctions de compositeur et de conducteur ne sont pas analogues ; l'un range les
+        </p>
+        <pb facs="#facs_436" n="411" source="s2lesouvriersdes03sociuoft_0477.xml"/>
+        <p xml:id="para_32_411_434">
+         caractères typographiques dans les cadres qui seront mis sous la presse, l'autre conduit une machine : mais, quoi qu'il en soit, on peut. avec intérêt, comparer l'existence des deux familles ouvrières, celle décrite en 1857 et celle de 1891.
+        </p>
+        <p xml:id="para_32_411_435">
+         La première accusait un certain malaise ; la seconde parait bien vivre et économise quelques centaines de francs par année. A vrai dire, notre famille de 1891 trouve dans l'estaminet un gain qui n'était pas à la portée de la première. Le compositeur-typographe travail¬lait 11 heures par jour et gagnait 4ᶠ 50 ; le conducteur travaille 8 heu¬res et reçoit 5ᶠ 75.
+        </p>
+        <p xml:id="para_32_411_436">
+         La famille décrite en 1857I se composait de six membres, la nôtre de quatre seulement. Elle consomme annuellement 162 lil. de viande pour une somme de 324ᶠ 20, ce qui fait 40 lil. par tête ; celle de 1857 con¬sommait 124 kil. payés 162ᶠ 00, ou un peu plus de 20 lil. par tête. En laitage et eufs, notre conducteur accuse une dépense de 56ᶠ00 par an et le compositeur de 79ᶠ 30.
+        </p>
+        <p xml:id="para_32_411_437">
+         Voici, en outre, quelques chiffres qui pourront servir de comparaison complémentaire.
+        </p>
+        <figure type="table">
+         <head type="table" xml:id="figure_7">
+          Objets divers de consommation des ouvriers-typogrpahes
+         </head>
+         <graphic facs="#facs_436_g_5" url="#" xml:id="tble_32_411_14"/>
+        </figure>
+        <p xml:id="para_32_411_438">
+         Cet aperçu sufit pour conclure que l'ouvrier conducteur de 1891 travaille 3 eures de moins par jour que l'ouvrier compositeur de 1857 et qu'il gagne cependant 1ᶠ 25 de plus (5ᶠ75— 4ᶠ50). La vie mate¬rielle des deux familles est à peu près la même : nourriture presque identique, un peu plus de facilité pour vivre chez celle de 1891, qui consomme plus de beurre et qui, au lieu d'eau claire comme boisson, dépense 2 tonnes de bière par an. Il n'en est pas toutefois ainsi pour le vêtement. La famille de 1891, quoique composée seulement de quatre
+        </p>
+        <pb facs="#facs_437" n="412" source="s2lesouvriersdes03sociuoft_0478.xml"/>
+        <p xml:id="para_32_412_439">
+         membres, consacre à la toilette 400ᶠ65 de plus que celle de 1857, ou l'on devait pourvoir à l'habillement de six personnes père et mère, rois fils et une fille (614ᶠ 65 — 214ᶠ 00).
+        </p>
+        <p xml:id="para_32_412_440">
+         La famille décrite en 1857 a un mobilier meilleur et un logement plus confortable que celle de 1891. La première a une vie intellectuelle que n'a pas la seconde ; on y voyait une bibliothèque de trois cents volumes environ, un grand pupitre avec rayons pour livres ; rien de semblable dans la famille de 1891 : tout au plus trois livres de prières, appartenant chacun à la mère et aux deux filles, et de temps à autre n journal acheté au crieur de la rue. Aussi la famille de 1857, grâce à l'activité, à l'intelligence et à la bonne conduite du compositeur¬typographe, a-t-elle prospéré rapidement. Son chef est aujourd'hui directeur d'une des principales imprimeries de Bruxelles. Notre con¬ducteur n'a pas la culture intellectuelle que possédait le compositeur. Actifsans doute et de bonne conduite, il n'a rien de ce qu'il faut pour s'élever au-dessus de la classe où il est né ; si, comme on le disait tantôt, il peut espérer pour l'avenir un salaire plus élevé et une posi¬tion meilleure, jamais il n'arrivera au sommet qu'a su atteindre le compositeur de 1857.
+        </p>
+        <p xml:id="para_32_412_441">
+         Un mot encore : en 1857 on ne dépensait que 58ᶠ 690 en récréations et solennités ; la grosse part de cette somme (23ᶠ 00) était consacrée à un dîner de famille donné par l'ouvrier à l'occasion de sa fête. Au¬jourd'hui, 324ᶠ 45 sont employés en réjouissances, récréations, etc. : mais ici la plus grosse part (182ᶠ50) sert d'argent de poche à l'ou¬vrier pour ses menus plaisirs.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
