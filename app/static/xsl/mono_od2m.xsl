@@ -232,11 +232,28 @@
                 </xsl:attribute>
                 <xsl:element name="img">
                     <xsl:attribute name="src">
-                        <xsl:value-of
-                            select="./ancestor::TEI/facsimile[@xml:id = $url_fig]/graphic/@url"/>
+                        <!-- <xsl:value-of
+                            select="./ancestor::TEI/facsimile[@xml:id = $url_fig]/graphic/@url"/> 
+                        <xsl:value-of select="./graphic/@url"/>-->
+                        <xsl:choose>
+                            <xsl:when test="./graphic/@url='#'">
+                                <xsl:value-of
+                                    select="./ancestor::TEI/facsimile[@xml:id = $url_fig]/graphic/@url"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="./graphic/@url"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:attribute>
                     <xsl:attribute name="width">
-                        <xsl:text>225</xsl:text>
+                        <xsl:choose>
+                            <xsl:when test="./graphic/@url='#'">
+                                <xsl:text>225</xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>650</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
                     </xsl:attribute>
                     <xsl:attribute name="alt">
                         <xsl:value-of select="normalize-space(./head)"/>
