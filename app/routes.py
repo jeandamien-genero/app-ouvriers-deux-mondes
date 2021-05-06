@@ -103,3 +103,14 @@ def results():
     else:
         return render_template("results.html")
 
+@app.route("/termsofservice")
+def terms():
+    """Loading the T&C page.
+    """
+    return render_template("terms.html")
+
+@app.route("/privacy")
+def privacy():
+    """Loading the privacy policy page.
+    """
+    return render_template("privacy.html")
