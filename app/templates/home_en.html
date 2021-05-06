@@ -1,0 +1,17 @@
+{% extends "conteneur.html" %}
+{% block corps %}
+            <div style="text-align: justify;">
+            	<p>
+                        <i>Les Ouvriers des deux mondes</i> are a collection of sociological surveys published by Frédéric Le Play (†1882) and the International Society of socio-economic practical studies. Those monographs were assembled in three sets composed of thirteen volumes from 1857 to 1913, with an addition of two booklets published in 1930. The ANR “<a href="http://larhra.ish-lyon.cnrs.fr/anr-time-us" style="font-style: italic;" target="_blank">Time Us</a>” program undertook the transcription and structuration of the monographs following the TEI standard in order to make it possible to consult and study them digitally.
+            	</p>
+                  <p>
+                        Initial acquisition and structuration of the texts were automatically produced based on the <a href="http://timeusage.paris.inria.fr/mediawiki/index.php/Aper%C3%A7u_des_%C3%A9tats#Les_Ouvriers_des_Mondes">digitization of<i>Internet Archive</i></a>, using the <a href="https://gitlab.inria.fr/almanach/time-us/LSE-OD2M" target="_blank">LSE-OD2M</a> app developed by Alix Chagué, Research and Development engineer of the <a href="https://team.inria.fr/almanach/fr/" target="_blank">ALMAnaCH team at Inria</a>. Scientific encoding was then carry out by Jean-Damien Généro, Studies Engineer at CNRS, first welcomed at the <a href="https://www.cmh.ens.fr/" target="_blank">Centre Maurice Halbwachs</a> (CMH) and then assigned at the <a href="http://crh.ehess.fr/" target="_blank">Centre de recherches historiques</a> (CRH) under the supervision of Anne Lhuissier, Research Director at INRAE (CMH) and Stéphane Baciocchi, Research Engineer from EHESS (CRH).
+                  </p>
+            	<p style="text-align: center;">
+            		The goal of the app is to present the advance of the work on the monographs. 
+            	</p>
+            	<p style="text-align: center;">
+            		→ <a href="{{url_for('monographies')}}">Monographs</a> | <a href="{{url_for('search')}}">Search</a> | <a href="{{url_for('home')}}">French</a> ←
+            	</p>
+            </div>
+{% endblock %}
