@@ -33,9 +33,15 @@ RESULT_PAR_PAGES = 5
 # routes
 @app.route("/")
 def home():
-    """Loading the home page.
+    """Loading the home page (fr).
     """
     return render_template("home.html")
+
+@app.route("/en")
+def home_en():
+    """Loading the home page (en).
+    """
+    return render_template("home_en.html")
 
 @app.route("/monographies")
 def monographies():
