@@ -75,7 +75,7 @@ def txt_mono(mono_id):
 def search():
     """Loading the search page.
     """
-    subtype_tble = [st for st in Subtype.query.all()]
+    subtype_tble = [st for st in Subtype.query.order_by(Subtype.st_label).all()]
     mono = [mono for mono in Monography.query.all()]
     inv = [inventaire for inventaire in Inventory.query.all()]
     return render_template("search.html", subtype_tble=subtype_tble, mono=mono, inv=inv)
