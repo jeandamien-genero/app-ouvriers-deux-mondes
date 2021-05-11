@@ -1,6 +1,9 @@
 {% extends "conteneur.html" %}
 {% block corps %}
             <div style="text-align: justify;">
+                  <p style="text-align: center">
+                        → <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> | <a href="{{url_for('home_en')}}">English</a> ←
+                  </p>
             	<p>
             		Les <i>Ouvriers des deux mondes</i> sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « <a href="http://larhra.ish-lyon.cnrs.fr/anr-time-us" style="font-style: italic;" target="_blank">Time Us</a> » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
             	</p>
@@ -9,9 +12,6 @@
             	</p>
             	<p style="text-align: center;">
             		Cette application a pour but de présenter un état du travail sur les monographies.
-            	</p>
-            	<p style="text-align: center;">
-            		→ <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> | <a href="{{url_for('home_en')}}">English</a> ←
             	</p>
             </div>
 {% endblock %}

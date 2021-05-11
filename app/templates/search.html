@@ -1,6 +1,9 @@
 {% extends "conteneur.html" %}
 	{% block corps %}
     <div>
+        <p style="text-align: center;">
+                    → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> ←
+        </p>
         <h1>
             Recherche
         </h1>
@@ -77,8 +80,5 @@
         {{item.inventoryID}} == {{item.inventory_mono.monotitle}} == {{item.inventory_type.typelabel}} == {{item.inventory_subtype.st_label}} == {{item.inventoryTXT}}<br/><br/>
         {% endfor %}
     </p>-->
-        <p style="text-align: center;">
-                    → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('search')}}">Recherche</a> ←
-                </p>
     </div>
 {% endblock %}

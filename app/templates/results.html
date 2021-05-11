@@ -2,8 +2,8 @@
 	{% block corps %}
 		<div>
 			<p style="text-align: center;">
-				→ <a href="{{url_for('home')}}">Accueil</a> ←
-            </p>
+				→ <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+                  </p>
             <div>
             	{% if result_prop %}
             		{% for item in result_prop.items %}
@@ -95,5 +95,8 @@
                         </div>
             	{% endif %}
             </div>
+            <p style="text-align: center;">
+                        → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+                  </p>
 		</div>
 	{% endblock %}

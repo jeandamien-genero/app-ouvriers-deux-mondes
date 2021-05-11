@@ -1,5 +1,10 @@
 {% extends "conteneur.html" %}
 {% block corps %}
+      <div>
+            <p style="text-align: center;">
+                  → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+            </p>
+      </div>
       <div style="text-align: center;">
             <h1>Mentions légales</h1>
       </div>
@@ -66,5 +71,10 @@
                   <h2>Droit de réponse</h2>
                   <p>Le droit de réponse peut être exercé auprès de l'École des hautes études en sciences sociales : service.juridique [at] ehess [.] fr.</p>
             </div>
+      </div>
+      <div>
+            <p style="text-align: center;">
+                  → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+            </p>
       </div>
 {% endblock %}

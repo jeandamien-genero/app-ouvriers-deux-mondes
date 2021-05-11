@@ -2,13 +2,13 @@
 {% block corps %}
 	<div>
 		<p style="text-align: center;">
-			→ <a href="{{url_for('monographies')}}">Revenir à la liste des monographies</a> ←
+			→ <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
         </p>
 	</div>
 	{{template_flask1|safe}}
 	<div>
 		<p style="text-align: center;">
-			→ <a href="{{url_for('monographies')}}">Revenir à la liste des monographies</a> ←
+			→ <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
         </p>
 	</div>
 {% endblock %}
