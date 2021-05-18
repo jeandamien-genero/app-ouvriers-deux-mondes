@@ -1,102 +1,102 @@
 {% extends "conteneur.html" %}
-	{% block corps %}
-		<div>
-			<p style="text-align: center;">
-				→ <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
-                  </p>
-            <div>
-            	{% if result_prop %}
-            		{% for item in result_prop.items %}
-            			<p style="font-weight: bold;font-size: large;">
-            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
-            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
-            				</a>
-            			</p>
-            			{{item.inventoryTXT|safe}}
-            		{% endfor %}
-                        <div style="text-align: center;">
-                              {%- for page in result_prop.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
-                                    {% if page %}
-                                          {% if page != proprietes_kw.page %}
-                                                <a href="{{ url_for('results', proprietes=proprietes_kw, page=page) }}">{{ page }}</a>
-                                          {% else %}
-                                                <strong>{{ page }}</strong>
-                                          {% endif %}
-                                    {% else %}
-                                          <span>…</span>
-                                    {% endif %}
-                              {%- endfor %}
-                        </div>
-            	{% elif result_trav %}
-            		{% for item in result_trav.items %}
-            			<p style="font-weight: bold;font-size: large;">
-            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
-            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
-            				</a>
-            			</p>
-            			{{item.inventoryTXT|safe}}
-            		{% endfor %}
-                        <div style="text-align: center;">
-                              {%- for page in result_trav.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
-                                    {% if page %}
-                                          {% if page != travaux_kw.page %}
-                                                <a href="{{ url_for('results', travaux=travaux_kw, page=page) }}">{{ page }}</a>
-                                          {% else %}
-                                                <strong>{{ page }}</strong>
-                                          {% endif %}
-                                    {% else %}
-                                          <span>…</span>
-                                    {% endif %}
-                              {%- endfor %}
-                        </div>
-            	{% elif result_indus %}
-            		{% for item in result_indus.items %}
-            			<p style="font-weight: bold;font-size: large;">
-            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
-            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
-            				</a>
-            			</p>
-            			{{item.inventoryTXT|safe}}
-            		{% endfor %}
-                        <div style="text-align: center;">
-                              {%- for page in result_indus.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
-                                    {% if page %}
-                                          {% if page != industries_kw.page %}
-                                                <a href="{{ url_for('results', industries=industries_kw, page=page) }}">{{ page }}</a>
-                                          {% else %}
-                                                <strong>{{ page }}</strong>
-                                          {% endif %}
-                                    {% else %}
-                                          <span>…</span>
-                                    {% endif %}
-                              {%- endfor %}
-                        </div>
-            	{% elif result_par_10 %}
-            		{% for item in result_par_10.items %}
-            			<p style="font-weight: bold;font-size: large;">
-            				<a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
-            					N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
-            				</a>
-            			</p>
-            			{{item.inventoryTXT|safe}}
-            		{% endfor %}
-                        <div style="text-align: center;">
-                              {%- for page in result_par_10.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
-                                    {% if page %}
-                                          {% if page != par_10_kw.page %}
-                                                <a href="{{ url_for('results', par_10=par_10_kw, page=page) }}">{{ page }}</a>
-                                          {% else %}
-                                                <strong>{{ page }}</strong>
-                                          {% endif %}
-                                    {% else %}
-                                          <span>…</span>
-                                    {% endif %}
-                              {%- endfor %}
-                        </div>
-            	{% endif %}
-            </div>
-            <p style="text-align: center;">
-                        → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
-                  </p>
-		</div>
-	{% endblock %}
+{% block corps %}
+<div>
+   <p style="text-align: center;">
+        → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+  </p>
+  <div>
+     {% if result_prop %}
+     {% for item in result_prop.items %}
+     <p style="font-weight: bold;font-size: large;">
+        <a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+             N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+       </a>
+ </p>
+ {{item.inventoryTXT|safe}}
+ {% endfor %}
+ <div style="text-align: center;">
+      {%- for page in result_prop.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
+      {% if page %}
+      {% if page != proprietes_kw.page %}
+      <a href="{{ url_for('results', proprietes=proprietes_kw, page=page) }}">{{ page }}</a>
+      {% else %}
+      <strong>{{ page }}</strong>
+      {% endif %}
+      {% else %}
+      <span>…</span>
+      {% endif %}
+      {%- endfor %}
+</div>
+{% elif result_trav %}
+{% for item in result_trav.items %}
+<p style="font-weight: bold;font-size: large;">
+  <a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+       N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+ </a>
+</p>
+{{item.inventoryTXT|safe}}
+{% endfor %}
+<div style="text-align: center;">
+      {%- for page in result_trav.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
+      {% if page %}
+      {% if page != travaux_kw.page %}
+      <a href="{{ url_for('results', travaux=travaux_kw, page=page) }}">{{ page }}</a>
+      {% else %}
+      <strong>{{ page }}</strong>
+      {% endif %}
+      {% else %}
+      <span>…</span>
+      {% endif %}
+      {%- endfor %}
+</div>
+{% elif result_indus %}
+{% for item in result_indus.items %}
+<p style="font-weight: bold;font-size: large;">
+  <a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+       N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+ </a>
+</p>
+{{item.inventoryTXT|safe}}
+{% endfor %}
+<div style="text-align: center;">
+      {%- for page in result_indus.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
+      {% if page %}
+      {% if page != industries_kw.page %}
+      <a href="{{ url_for('results', industries=industries_kw, page=page) }}">{{ page }}</a>
+      {% else %}
+      <strong>{{ page }}</strong>
+      {% endif %}
+      {% else %}
+      <span>…</span>
+      {% endif %}
+      {%- endfor %}
+</div>
+{% elif result_par_10 %}
+{% for item in result_par_10.items %}
+<p style="font-weight: bold;font-size: large;">
+  <a href="{{url_for('txt_mono', mono_id=item.inventory_mono.filename)}}">
+       N°{{item.inventory_mono.monoID}} - {{item.inventory_mono.monotitle}}
+ </a>
+</p>
+{{item.inventoryTXT|safe}}
+{% endfor %}
+<div style="text-align: center;">
+      {%- for page in result_par_10.iter_pages(left_edge=1, left_current=1, right_current=2, right_edge=1) %}
+      {% if page %}
+      {% if page != par_10_kw.page %}
+      <a href="{{ url_for('results', par_10=par_10_kw, page=page) }}">{{ page }}</a>
+      {% else %}
+      <strong>{{ page }}</strong>
+      {% endif %}
+      {% else %}
+      <span>…</span>
+      {% endif %}
+      {%- endfor %}
+</div>
+{% endif %}
+</div>
+<p style="text-align: center;">
+      → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+</p>
+</div>
+{% endblock %}

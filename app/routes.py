@@ -75,10 +75,10 @@ def txt_mono(mono_id):
 def search():
     """Loading the search page.
     """
+    type_tble = [tp for tp in Type.query.order_by(Type.typelabel).all()]
     subtype_tble = [st for st in Subtype.query.order_by(Subtype.st_label).all()]
     mono = [mono for mono in Monography.query.all()]
-    inv = [inventaire for inventaire in Inventory.query.all()]
-    return render_template("search.html", subtype_tble=subtype_tble, mono=mono, inv=inv)
+    return render_template("search.html", subtype_tble=subtype_tble, mono=mono)
 
 @app.route("/search/results")
 def results():
