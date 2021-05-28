@@ -169,7 +169,7 @@
     </xsl:template>
     <xsl:template match="//text//div//p/text()">
         <!--<xsl:value-of select="translate(., '¬', '')"/>ᶠ-->
-        <xsl:value-of select="translate(translate(., '¬', ''), 'ᶠ', 'f')"/>
+        <xsl:value-of select="translate(translate(translate(translate(translate(translate(., '¬', ''), 'ᶠ', 'f'), 'ᵉ', 'e'), 'ʳ', 'r'), 'ᵏ', 'k'), 'ᵐ', 'm')"/>
     </xsl:template>
     <!-- PERSNAMES -->
     <xsl:template match="//div[@type='chapter']/div[@n='001']//persName">
