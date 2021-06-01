@@ -372,18 +372,30 @@
       <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
-       <p xml:id="para_2_7_55">(Mobilier et vêtements non compris)</p>
-       <p xml:id="para_2_7_56">La situation de la famille au point de vue des propriétés est aussi ré¬duite que possible. Sans immeuble, sans argent, elle n'a qu'un matériel professionnel de peu de valeur.</p>
-       <p xml:id="para_2_7_57">IMMEUBLES. . . . . . . . . . . . .. .... Oᶠ 0)0</p>
-       <p xml:id="para_2_7_58">La famille ne peut même pas entrevoir l'époque ou, aidée par la So¬ciété de crédit aux habitations ouvrières, elle deviendrait propriétaire de sa maison. Malgré la charge minime d'un seul enfant et des gains rela tivement élevés, parce que la femme y contribue largement, elle n'équi¬libre qu'avec peine son budget ; que la fille devenue plus grande gagne même pour son propre entretien, l'allégement qui en résulterait dans les dépenses n'aurait d'autres conséquences, semble-t-il, que d'amener une plus complète satisfaction des besoins du ménage.</p>
-       <p xml:id="para_2_7_59">ARGENT . . . . . . . . . . . . . . . . . .. 5ᶠ 00</p>
-       <p xml:id="para_2_7_60">La famille possédait l'an passé un livret de caisse d'épargne portant <pb facs="#facs_12" n="8" source="lesouvriersdesde916sociuoft_0018.xml"/> la modeste inscription de 30ᶠ; il a fallu en retirer 25ᶠ pour subvenir aux frais de maladie de l'enfant.</p>
-       <p xml:id="para_2_8_62">ANIMAUX DOMESTIQUES :</p>
-       <p xml:id="para_2_8_63">Quelques poules et pigeons achetés antérieurement et qui n'avaient donné aucun bénéfice ont éte revendus dans le couraunt de l'année ; ce n'est que grâce à cela que le budget de cette année s'équilibre et l'on peut encore ajouter que ce n'est qu'avec peine, car l'une ou l'autre dé¬pense oubliée, et il ne peut manquer d'en être, mettrait les comptes en déicit.</p>
-       <p xml:id="para_2_8_64">MATÉRIEL SPÉCIAL DES Travaux et industries. . . . . 37ᶠ 50</p>
-       <p xml:id="para_2_8_65">1ᵉ° Outillage de cordonnier. — 1 marteau, l1ᶠ 75; — 4tranchets,3ᶠ 00;— l pierre à aiguiser, 0ᶠ 75 ; — 1 pince, 3ᶠ 50; — limes et râpes, 2ᶠ 10 ; — 1 fer à cambrer, 0ᶠ 60 ; — 1 masse à polir, 1ᶠ 25 ; — ciseaux, 2ᶠ 50 ; — I ébourroir, 1ᶠ 25 ; — divers fers, poincons et accessoires, 2ᶠ 50. — Total, 19ᶠ 50.</p>
-       <p xml:id="para_2_8_66">2ᵉ Outillage de piqueuse de bottines. — l machine à coudre (achetée à crédit, payable 2ᶠ 50 par semaine) (pour mémoire) ; — 1 appareil à placer les eillets et crochets monté sur la table d'une vieille machine (celle-ci sans valeur), 12ᶠ 00 ; 1l pince avec une série d'emporte-pièce, 6ᶠ 00. — Total, 18ᶠ 00.</p>
-       <p xml:id="para_2_8_67">VALEUR TOTALE des propriétés . . . . . . . 42ᶠ 50</p>
+       <div type="proprietes" subtype="proprietes_texte_1">
+        <p xml:id="para_2_7_55">(Mobilier et vêtements non compris)</p>
+        <p xml:id="para_2_7_56">La situation de la famille au point de vue des propriétés est aussi ré¬duite que possible. Sans immeuble, sans argent, elle n'a qu'un matériel professionnel de peu de valeur.</p>
+       </div>
+       <div type="proprietes" subtype="immeubles">
+        <p xml:id="para_2_7_57">IMMEUBLES............ Oᶠ 00</p>
+        <p xml:id="para_2_7_58">La famille ne peut même pas entrevoir l'époque où, aidée par la So¬ciété de crédit aux habitations ouvrières, elle deviendrait propriétaire de sa maison. Malgré la charge minime d'un seul enfant et des gains relativement élevés, parce que la femme y contribue largement, elle n'équi¬libre qu'avec peine son budget ; que la fille devenue plus grande gagne même pour son propre entretien, l'allégement qui en résulterait dans les dépenses n'aurait d'autres conséquences, semble-t-il, que d'amener une plus complète satisfaction des besoins du ménage.</p>
+       </div>
+       <div type="proprietes" subtype="argent">
+        <p xml:id="para_2_7_59">ARGENT............ 5ᶠ 00</p>
+        <p xml:id="para_2_7_60">La famille possédait l'an passé un livret de caisse d'épargne portant <pb facs="#facs_12" n="8" source="lesouvriersdesde916sociuoft_0018.xml"/> la modeste inscription de 30ᶠ; il a fallu en retirer 25ᶠ pour subvenir aux frais de maladie de l'enfant.</p>
+       </div>
+       <div type="proprietes" subtype="animaux">
+        <p xml:id="para_2_8_62">ANIMAUX DOMESTIQUES :</p>
+        <p xml:id="para_2_8_63">Quelques poules et pigeons achetés antérieurement et qui n'avaient donné aucun bénéfice ont été revendus dans le courant de l'année ; ce n'est que grâce à cela que le budget de cette année s'équilibre et l'on peut encore ajouter que ce n'est qu'avec peine, car l'une ou l'autre dé¬pense oubliée, et il ne peut manquer d'en être, mettrait les comptes en déficit.</p>
+       </div>
+       <div type="proprietes" subtype="materiel">
+        <p xml:id="para_2_8_64">MATÉRIEL SPÉCIAL DES Travaux et industries............ 37ᶠ 50</p>
+        <p xml:id="para_2_8_65">1° Outillage de cordonnier. — 1 marteau, 1ᶠ 75; — 4 tranchets, 3ᶠ 00; — 1 pierre à aiguiser, 0ᶠ 75 ; — 1 pince, 3ᶠ 50; — limes et râpes, 2ᶠ 10 ; — 1 fer à cambrer, 0ᶠ 60 ; — 1 masse à polir, 1ᶠ 25 ; — ciseaux, 2ᶠ 50 ; — 1 ébourroir, 1ᶠ 25 ; — divers fers, poincons et accessoires, 2ᶠ 50. — Total, 19ᶠ 50.</p>
+        <p xml:id="para_2_8_66">2° Outillage de piqueuse de bottines. — 1 machine à coudre (achetée à crédit, payable 2ᶠ 50 par semaine) (pour mémoire) ; — 1 appareil à placer les oeillets et crochets monté sur la table d'une vieille machine (celle-ci sans valeur), 12ᶠ 00 ; 1 pince avec une série d'emporte-pièce, 6ᶠ 00. — Total, 18ᶠ 00.</p>
+       </div>
+       <div type="proprietes" subtype="proprietes_total">
+        <p xml:id="para_2_8_67">VALEUR TOTALE des propriétés............ 42ᶠ 50</p>
+       </div>
       </div>
       <div n="002" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
@@ -391,20 +403,28 @@
       </div>
       <div n="003" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
-       <p xml:id="para_2_8_73">Mari et femme contribuent l'un et l'autre aux ressources du mé¬nage par leurs gains en argent dans des proportions peu diférentes, <pb facs="#facs_13" n="9" source="lesouvriersdesde916sociuoft_0019.xml"/> puisque les recettes de la femme y entrent pour 41.60 ᵉ., celles du mari pour 58.26 /. Si l'on tient compte de ce que pourrait valoir le temps, dificilement appréciable en argent, consacré par la ménagère à la pré¬paration des aliments, à la propreté du logis, à la toilette de l'enfant, à l'entretien du linge et des vêtements, en résumé à tous les soins du ménage, il est incontestable qu'elle pourvoit pour la part dominante à la satisfaction des besoins de la famille. Son gain n'est pas un simple appoint, il est une nécessité. Cela dénote une situation faussée et il est aisé d'imaginer combien elle deviendrait pénible si seulement étaient survenues deux ou trois naissances, combien elle est précaire dès maintenant, et pourtant dans des circonstances tout à fait favorables, puisque, de toute l'année, seule la femme a perdu par raison de santé une semaine de travail, que leur unique enfant ne leur a coûté cette année aucun frais particulier, qu'enfin la besogne a été régulière.</p>
-       <p xml:id="para_2_9_75">Le cordonnier a le tort de compter trop sur les gains de sa femme et de proportionner à leurs recettes communes les dépenses du ménage, sans prétendre que le budget des dépenses se trouve trop abondamment chargé, il est certain pourtant que des économies s'imposent et qu'il en est qui sont tout indiquées : presque 10 °, des recettes passent en dé¬penses de récréautions, c'est beaucoup lorsque l'on équilibre difficilement ses comptes.</p>
-       <p xml:id="para_2_9_76">Les époux travaillent tous deux à domicile pour le compte d'un fabri¬cant de chaussures, le mari en qualité de monteur cordonnier chargé d'achever la chaussure dont la tige et la semelle lui sont confiées ; la femme comme piqueuse confectionnant les tiges de chaussures dont les matières premières lui sont remises coupées. Tous deux doivent se rendre chez le patron pour y recevoir les commandes et les principales matières premières.</p>
-       <p xml:id="para_2_9_77">Le mari fait habituellement la bottine d'homme de qualité moyenne; le prix ordinaire qu'il en recoit est de 1ᶠ 75 la paire, quelquefois 1ᶠ 65, 1ᶠ 50 ou même 1ᶠ 40, plus rarement 1ᶠ 90; il pourrait en faire trois paires par jour, en réalité il n'a pas la besogne suffisante et, l'eut-il d'ailleurs, on peut se demander si, de facon suivie tout au moins, il saurait s'as¬treindre à un travail aussi régulier. Ce serait en tout cas changer beau¬coup à ses habitudes. En temps ordinaire, sa journée est de 11 et 12 heures de travail, même davantage, mais le lundi, fidèle en cela aux coutumes de ses compagnons — et il en est beanucoup de moins travailleurs encore — il ne commence qu'à 9, 10 ou 11 heures, s'arrête toujours à 4 heures, <pb facs="#facs_14" n="10" source="lesouvriersdesde916sociuoft_0020.xml"/> ne s'occupant qu'avec une certaine nonchalance, il prépare la besogne plutôt qu'il ne la commence ; le samedi, vers 3 ou 4 heures, il faut comp¬ter qu'il aura fini sa semaine, il va alors reporter son dernier travail et toucher son salaire. Ce n'est malheureusement pas la seule fois qu'il doive aller au magasin patronal et des pertes de temps très considé¬rables sont la conséquence de toutes ces visites. Parfois, surtout quand le travail n'abonde pas, on y attend forcément ; d'autres fois, on traîne en route négligemment. Ces courses sont à peu près journalières. De tout cela résulte qu'une semaine de travail ne donne qu'une production de 10 à 15 paires, et en tenant compte des travaux payés moins de 1ᶠ 75, un salaire de 19ᶠ 75. Ce n'est là qu'un gain brut ; au magasin du patron, l'ouvrier ne reçoit que la tige toute préparée, et de quoi faire la semelle, le contrefort, le talon ; restent à sa charge les autres fournitures, c'est-à¬dire le vieux cuir qu'on met encore dans la chaussure, les différents clous : pointes en fer de deux dimensions, petites pointes spéciales dites semences, enfin clous en cuivre qu'on emploie en plus ou moins grande quantité suivant la qualité et le fini de la chaussure, puis aussi la cire et l'enduit qui sert à noircir la semelle. Une partie seulement de ces fournitures est achetée chez le patron, qui l'inscrit au carnet de 'ouvrier en même temps que la commande remise ; au paiement le samedi il en est fait décompte ; ces fournitures sont faites aux prix ordi¬naires du commerce ; pour toutes, d'ailleurs, l'ouvrier est libre de les acheter ou il lui plait, ou du moins est censé l'être. On a vu des patrons ou des contremaîtres favoriser les ouvriers qui s'adressaient bien régu¬liêrement à l'un ou l'autre magasin qu'ils avaient de bonnes raisons de protéger. Au reste, pour ces fournitures, dès qu'on les leur livre hon¬nêtement au prix courant, cette contrainte même n'offre guère d'incon¬vénient, mais il n'en est plus de même si des faveurs sont accordées à raison de la fréquentation d'un cabaret. L'ouvrier ici monographié n'a pas ̀ se plaindre, comme certains de ses compagnons, de semblable</p>
-       <p xml:id="para_2_10_79">Bien que juridiquement en dehors de chaque commande aucune con¬vention ne lie l'ouvrier au patron, il y a entre les ouvriers sérieux et les bons patrons, c'est le cas ici, une réelle permanence de relations en fait, sinon d'engagements obligatoires en droit. Faisant habituellement le même type de chaussures et les mêmes pointures, le cordonnier reste en possession des formes, propriété du patron.</p>
-       <p xml:id="para_2_11_80"><pb facs="#facs_15" n="11" source="lesouvriersdesde916sociuoft_0021.xml"/> La besogne de la piqueuse consiste dans la confection de la tige de la chaussure, travail d'une productivité bien supérieure à celle que peut atteindre le mari ; celui-ci fait par année de 625à 650 paires, la femme, en tenant compte de la répartition moyenne des diférents genres qui lui sont confiés, n'en produit pas moins de 2,750 paires, partie de hautes bot¬tines, partie de chaussures basses, ce qui fait varier dans de fortes propor¬tions les prix unitaires qui lui sont payés. Pendant la période d'obser¬vation on peut compter que les 57 des commandes portaient sur un tra¬vail payé à 20 et à 30 eentimes la paire, le reste à 12 centimes. La femme est astreinte comme son mari à la même nécessité de courses mutiples aux bureaux du patron, comme lui elle est payée le samedi. Les four¬nitures qui sont à sa charge sont seulement les différents fils et les œillets ; les crochets, quand il en faut, lui sont confiés par le patron ; la charge la plus lourde est celle qui résulte de l'emploi de la machine à coudre, achetée au prix de 250ᶠ, elle est payée par versements hebdoma¬daires de 2ᶠ50 ; après les deux ans qu'il faut pour se libérer complête¬ment, elle sera déjà fortement endommagée, il en est qui, pour un usage continuel, ne durent guère plus. Dans le délai du erédit accordé toute réparation qui ne provient par de la faute de l'ouvrière est à la charge du fournisseur; passé ce temps, l'ouvrière doit les supporter, et étant donnée l'usure, elles deviennent asse fréquentes.</p>
-       <p xml:id="para_2_11_81">Le travail de la femme n'est guère moins prolongé que celui du mari, c'en est trop pour elle ; en hiver, il lui arrive vers 5 ou 6 heures de tom¬ber de fatigue, elle se couche alors très tôt.</p>
-       <p xml:id="para_2_11_82">Les époux ne trouvent pas de temps à consacrer à l'une ou l'autre in¬dustrie accessoire ; en le faisant, ils s'écarteraient au reste des habi¬tudes locales. A de rares occasions, le cordonnier est prié de faire une réparation pour un voisin, la ressource est minime, il confectionne lui¬même les quelques chaussures pour lui et sa famille ; la femme entre¬tient le linge et les vêtements, confectionne quelques menus articles de toilette, fait le blanchissage, toutes besognes effectuées tant bien que nal, pour lesquelles elle n'interrompt pas facilement le travail de pi¬qûre qu'elle considêre comme principal.</p>
-       <p xml:id="para_2_11_83">Attenant à la maison il y a un tout petit jardin, à peine cultivé et dont les poules se sont approprié la plus large part d'une production insuffisante.</p>
-       <p xml:id="para_2_11_84">Le cordonnier éprouve presque de la répulsion à toute autre besogne que celle de son métier, s'il abandonne ses chaussures, c'est pour ne rien faire.</p>
+       <div type="travaux" subtype="epooux">
+        <p xml:id="para_2_8_73">Mari et femme contribuent l'un et l'autre aux ressources du mé¬nage par leurs gains en argent dans des proportions peu diférentes, <pb facs="#facs_13" n="9" source="lesouvriersdesde916sociuoft_0019.xml"/> puisque les recettes de la femme y entrent pour 41.60%, celles du mari pour 58.26%. Si l'on tient compte de ce que pourrait valoir le temps, dificilement appréciable en argent, consacré par la ménagère à la pré¬paration des aliments, à la propreté du logis, à la toilette de l'enfant, à l'entretien du linge et des vêtements, en résumé à tous les soins du ménage, il est incontestable qu'elle pourvoit pour la part dominante à la satisfaction des besoins de la famille. Son gain n'est pas un simple appoint, il est une nécessité. Cela dénote une situation faussée et il est aisé d'imaginer combien elle deviendrait pénible si seulement étaient survenues deux ou trois naissances, combien elle est précaire dès maintenant, et pourtant dans des circonstances tout à fait favorables, puisque, de toute l'année, seule la femme a perdu par raison de santé une semaine de travail, que leur unique enfant ne leur a coûté cette année aucun frais particulier, qu'enfin la besogne a été régulière.</p>
+        <p xml:id="para_2_9_75">Le cordonnier a le tort de compter trop sur les gains de sa femme et de proportionner à leurs recettes communes les dépenses du ménage, sans prétendre que le budget des dépenses se trouve trop abondamment chargé, il est certain pourtant que des économies s'imposent et qu'il en est qui sont tout indiquées : presque 10%, des recettes passent en dé¬penses de récréautions, c'est beaucoup lorsque l'on équilibre difficilement ses comptes.</p>
+        <p xml:id="para_2_9_76">Les époux travaillent tous deux à domicile pour le compte d'un fabri¬cant de chaussures, le mari en qualité de monteur cordonnier chargé d'achever la chaussure dont la tige et la semelle lui sont confiées ; la femme comme piqueuse confectionnant les tiges de chaussures dont les matières premières lui sont remises coupées. Tous deux doivent se rendre chez le patron pour y recevoir les commandes et les principales matières premières.</p>
+       </div>
+       <div type="travaux" subtype="mari">
+        <p xml:id="para_2_9_77">Le mari fait habituellement la bottine d'homme de qualité moyenne; le prix ordinaire qu'il en recoit est de 1ᶠ 75 la paire, quelquefois 1ᶠ 65, 1ᶠ 50 ou même 1ᶠ 40, plus rarement 1ᶠ 90; il pourrait en faire trois paires par jour, en réalité il n'a pas la besogne suffisante et, l'eut-il d'ailleurs, on peut se demander si, de facon suivie tout au moins, il saurait s'as¬treindre à un travail aussi régulier. Ce serait en tout cas changer beau¬coup à ses habitudes. En temps ordinaire, sa journée est de 11 et 12 heures de travail, même davantage, mais le lundi, fidèle en cela aux coutumes de ses compagnons — et il en est beanucoup de moins travailleurs encore — il ne commence qu'à 9, 10 ou 11 heures, s'arrête toujours à 4 heures, <pb facs="#facs_14" n="10" source="lesouvriersdesde916sociuoft_0020.xml"/> ne s'occupant qu'avec une certaine nonchalance, il prépare la besogne plutôt qu'il ne la commence ; le samedi, vers 3 ou 4 heures, il faut comp¬ter qu'il aura fini sa semaine, il va alors reporter son dernier travail et toucher son salaire. Ce n'est malheureusement pas la seule fois qu'il doive aller au magasin patronal et des pertes de temps très considé¬rables sont la conséquence de toutes ces visites. Parfois, surtout quand le travail n'abonde pas, on y attend forcément ; d'autres fois, on traîne en route négligemment. Ces courses sont à peu près journalières. De tout cela résulte qu'une semaine de travail ne donne qu'une production de 10 à 15 paires, et en tenant compte des travaux payés moins de 1ᶠ 75, un salaire de 19ᶠ 75. Ce n'est là qu'un gain brut ; au magasin du patron, l'ouvrier ne reçoit que la tige toute préparée, et de quoi faire la semelle, le contrefort, le talon ; restent à sa charge les autres fournitures, c'est-à¬dire le vieux cuir qu'on met encore dans la chaussure, les différents clous : pointes en fer de deux dimensions, petites pointes spéciales dites semences, enfin clous en cuivre qu'on emploie en plus ou moins grande quantité suivant la qualité et le fini de la chaussure, puis aussi la cire et l'enduit qui sert à noircir la semelle. Une partie seulement de ces fournitures est achetée chez le patron, qui l'inscrit au carnet de 'ouvrier en même temps que la commande remise ; au paiement le samedi il en est fait décompte ; ces fournitures sont faites aux prix ordi¬naires du commerce ; pour toutes, d'ailleurs, l'ouvrier est libre de les acheter ou il lui plait, ou du moins est censé l'être. On a vu des patrons ou des contremaîtres favoriser les ouvriers qui s'adressaient bien régu¬liêrement à l'un ou l'autre magasin qu'ils avaient de bonnes raisons de protéger. Au reste, pour ces fournitures, dès qu'on les leur livre hon¬nêtement au prix courant, cette contrainte même n'offre guère d'incon¬vénient, mais il n'en est plus de même si des faveurs sont accordées à raison de la fréquentation d'un cabaret. L'ouvrier ici monographié n'a pas à se plaindre, comme certains de ses compagnons, de semblable abus.</p>
+        <p xml:id="para_2_10_79">Bien que juridiquement en dehors de chaque commande aucune con¬vention ne lie l'ouvrier au patron, il y a entre les ouvriers sérieux et les bons patrons, c'est le cas ici, une réelle permanence de relations en fait, sinon d'engagements obligatoires en droit. Faisant habituellement le même type de chaussures et les mêmes pointures, le cordonnier reste en possession des formes, propriété du patron.</p>
+        <p xml:id="para_2_11_80"><pb facs="#facs_15" n="11" source="lesouvriersdesde916sociuoft_0021.xml"/> La besogne de la piqueuse consiste dans la confection de la tige de la chaussure, travail d'une productivité bien supérieure à celle que peut atteindre le mari ; celui-ci fait par année de 625à 650 paires, la femme, en tenant compte de la répartition moyenne des diférents genres qui lui sont confiés, n'en produit pas moins de 2,750 paires, partie de hautes bot¬tines, partie de chaussures basses, ce qui fait varier dans de fortes propor¬tions les prix unitaires qui lui sont payés. Pendant la période d'obser¬vation on peut compter que les 57 des commandes portaient sur un tra¬vail payé à 20 et à 30 eentimes la paire, le reste à 12 centimes. La femme est astreinte comme son mari à la même nécessité de courses mutiples aux bureaux du patron, comme lui elle est payée le samedi. Les four¬nitures qui sont à sa charge sont seulement les différents fils et les œillets ; les crochets, quand il en faut, lui sont confiés par le patron ; la charge la plus lourde est celle qui résulte de l'emploi de la machine à coudre, achetée au prix de 250ᶠ, elle est payée par versements hebdoma¬daires de 2ᶠ50 ; après les deux ans qu'il faut pour se libérer complête¬ment, elle sera déjà fortement endommagée, il en est qui, pour un usage continuel, ne durent guère plus. Dans le délai du erédit accordé toute réparation qui ne provient par de la faute de l'ouvrière est à la charge du fournisseur; passé ce temps, l'ouvrière doit les supporter, et étant donnée l'usure, elles deviennent asse fréquentes.</p>
+       </div>
+       <div type="travaux" subtype="femme">
+        <p xml:id="para_2_11_81">Le travail de la femme n'est guère moins prolongé que celui du mari, c'en est trop pour elle ; en hiver, il lui arrive vers 5 ou 6 heures de tom¬ber de fatigue, elle se couche alors très tôt.</p>
+       </div>
+       <div type="industries" subtype="famille">
+        <p xml:id="para_2_11_82">Les époux ne trouvent pas de temps à consacrer à l'une ou l'autre in¬dustrie accessoire ; en le faisant, ils s'écarteraient au reste des habi¬tudes locales. A de rares occasions, le cordonnier est prié de faire une réparation pour un voisin, la ressource est minime, il confectionne lui¬même les quelques chaussures pour lui et sa famille ; la femme entre¬tient le linge et les vêtements, confectionne quelques menus articles de toilette, fait le blanchissage, toutes besognes effectuées tant bien que nal, pour lesquelles elle n'interrompt pas facilement le travail de pi¬qûre qu'elle considêre comme principal.</p>
+        <p xml:id="para_2_11_83">Attenant à la maison il y a un tout petit jardin, à peine cultivé et dont les poules se sont approprié la plus large part d'une production insuffisante.</p>
+        <p xml:id="para_2_11_84">Le cordonnier éprouve presque de la répulsion à toute autre besogne que celle de son métier, s'il abandonne ses chaussures, c'est pour ne rien faire.</p>
+       </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-            <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
        <p xml:id="para_2_12_87"><pb facs="#facs_16" n="12" source="lesouvriersdesde916sociuoft_0022.xml"/> Une nourriture assez frugale caractérise le régime alimentaire de la famille, le pain en est le principal élément, vient ensuite la pomme de terre, puis le lait à cause de la fillette. La viande figure fréquemment au repas de midi, en très petite quantité.</p>
@@ -414,36 +434,46 @@
       </div>
       <div n="002" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
-       <p xml:id="para_2_12_93">La maison de la famille, située en pleine ville, fait partie d'un groupe qu'on continue à appeler les « neuves maisons », bien qu'elles aient perdu absolument tout aspect de nouveauté ; elles datent de 1877 et sem¬blent même indiquer une vétusté précoce que favorise un entretien in¬suffisant. Une porte et une fenetre de façade avec un étage et cela huit fois répété sur une longueur totale d'une trentaine de mètres, tel est l'aspect du groupe, bâtiment en briques sans badigeonnage, realisé avec stricte économie.</p>
-       <p xml:id="para_2_12_94">La première pièce, on devrait dire l'unique pièce, du re-de-chaussèe <pb facs="#facs_17" n="13" source="lesouvriersdesde916sociuoft_0023.xml"/> mesure à peine plus de 3 mètres sur 350, elle est divisée dans sajdimen¬sion la plus grande par une cheminée en saillie d'où le poêle à long tuyau plat s'avance jusqu'au milieu de la chambre. C'est la cuisine, c'est aussi l'atelier d'hiver. Le cordonnier y occupe l'étroit espace qui sépare l'angle de la cheminée de la fenêtre de facade, cela lui sufit. IH travaille assis sur un siège bas et poisseux, un montant, dernier vestige de dossier, rappelle qu'à l'origine ce fut une chaise, on a achevé de la rendre méconnaissable en lui amputant assezhautl'extrémité des pieds. Devant l'ouvrier, sous la fenêtre, une planchette où sont alignées une</p>
-       <figure rend="portrait" type="photo">
-        <head resp="added" type="photo" xml:id="figure_1">Le coordonier au travail (§10)</head>
-        <graphic facs="#facs_17" url="https://iiif.archivelab.org/iiif/lesouvriersdesde916sociuoft%2423/424,1080,996,1400/full/0/default.jpg" xml:id="illu_2_13_1"/>
-       </figure>
-       <p xml:id="para_2_13_96">dizaine de pointes constitue son porte-outils ; y pendent, rattachés par un bout de cuir, l'ébourroir, les fers, etc. ; à ses pieds, dans une vieille caisse, les limes, ràpes et tranchets ; épars sur le sol, des ciseaux, une pince, un marteau, une petite lampe en fer-blanc qui suinte le pétrole. Une vieille tasse sans anse, une jatte ébréchée, les restes d'une boite à conserve contiennent les clous, les pointes et les semences ; tout cela enfin au milieu des retailles et des débris de vieux cuir ; telle est l'ins¬tallation complète du cordonnier. C'est, dans toute la force du terme, dans l'acception la plus complète, le travail en chambre.</p>
-       <p xml:id="para_2_14_97"><pb facs="#facs_18" n="14" source="lesouvriersdesde916sociuoft_0024.xml"/> De la premiêre pièce on passe dans une autre dont les dimensions restreintes (elle ne mesure pas plus de deux mètres de largeur et con¬tient l'escalier) empêchent d'en user autrement que pour y remettre les ustensiles de ménage, aussi en est-elle encombrée.</p>
-       <p xml:id="para_2_14_98">L'étage répète les mêmes chambres avec deux fenêtres à la facade, une seule sur le jardin. Une baie sans porte réunit les deux pièces, la plus grande contient deux lits, à peine reste-t-il place pour passer entre eux, elle est aussi l'atelier d'été; dans l'autre presque tout l'espace est occupé par une armoire contenant le linge et les vêtements et par une échelle donnant accès sous le toit.</p>
-       <p xml:id="para_2_14_99">Le tout est construit légèrement et l'on entend fort bien ce qui se passe chez le voisin.</p>
-       <p xml:id="para_2_14_100">Sous la pièce de devant se trouve une petite cave, derrière le bâti¬mont il y a une cour et un tout petit jardin. La maison est pourvue d'un robinet de la distribution d'eau de la ville.</p>
-       <p xml:id="para_2_14_101">Pareille maison se loue au prix élevé de 18ᶠ par mois.</p>
-       <p xml:id="para_2_14_102">MEUBLES : peu nombreux et la plupart en assez piteux état ; une seule pièce, peut-on dire, est meublée, ailleurs on ne trouve, à part les deux lits et une armoire, vraiment aucun meuble. . . . . 142ᶠ 25</p>
-       <p xml:id="para_2_14_103">1I° Mobilier de la pièce principale. — 1 buffet, 20ᶠ 00 ; — 1 table, 6ᶠ00; — 5 chai¬ses en bon état, plus celle du cordonnier, 10ᶠ 50 ; — 1 poêle-cuisinière, 21ᶠ 00 ; — l régulateur, 10ᶠ 00 ; — l cruciix en cuivre sur la cheminée, 2ᶠ 00 ; — l autre en plâtre sur le buffet, 0ᶠ 75 ; — quelques vases, 2 chromos (sujets religieux), 3 pho¬tographies de famille (parmi lesquelles celle du mari en gille ), 2ᶠ 50. — Total, 75 75.</p>
-       <p xml:id="para_2_14_104">2 Mobilier de la petite pièce du rea-de-chaussee. — 1 vieux poêle, l table, 1l chaise, l console, le tout valant à peine 15ᶠ 00.</p>
-       <p xml:id="para_2_14_105">3° Mobilier des pièces de l'étage. — 2 vieux lits très bas en bois, avec paillasses, 20ᶠ 00 ; — 1l chaise, 2ᶠ 00; — 1 console, 1ᶠ 50 ; — 1l grande armoire genre garde¬robe, 25ᶠ 00 ; — 8 pots à fleurs garnissant les fenêtres, 2ᶠ 00 ; — 3 chromos (sujets de genre). ᶠ 00. — Total, 51Iᶠ 50.</p>
-       <p xml:id="para_2_14_106">USTENSILES : réduits au strict nécessaire, disparates on ne saurait plus et encombrant sans ordre les fenêtres, les cheminées, les tables, même les chaises . . . . . . . . . . . . . . . 39ᶠ 00</p>
-       <p xml:id="para_2_14_107">1e Employés pour l'éclairage et le chauffage. — l lampe belge, 3ᶠ 50 ; — l petite lampe, 2ᶠ 00 ; — 1 bac à charbon et les accessoires du foyer, 3ᶠ 50. — Total, 9ᶠ 00.</p>
-       <p xml:id="para_2_14_108">2 Employés pour la préparation et la consommation des aliments. — Leur inventaire détaillé n'a pas été possible, la valeur de l'ensemble peut atteindre en¬viron 30ᶠ 00.</p>
-       <p xml:id="para_2_15_109"><pb facs="#facs_19" n="15" source="lesouvriersdesde916sociuoft_0025.xml"/> LINGE DU MÉNAGE : employé jusqu'à usure avant d'etre rem¬placé . . . . . . . . .. . . . . . . . . . . 12ᶠ 0)0 </p>
-       <p xml:id="para_2_15_110">2 paires de draps de lit, 3 paires de rideaux, quelques essuie-mains, valeur</p>
-       <p xml:id="para_2_15_111">I2 00.</p>
-       <p xml:id="para_2_15_112">VÊTEMENTS : neufs ils servent de vêtements de dimanche, plus tard ils sont portés comme vêtements de travail.. . . . . . . 225ᶠ 25</p>
-       <p xml:id="para_2_15_113">VÊTEMENTS DE L'OUVRIER (106ᶠ 00).</p>
-       <p xml:id="para_2_15_114">1 costume complet, 45ᶠ 00; — 2 costumes de travail, 22ᶠ 00 ; — 2 pantalons, 10ᶠ 00; — 2 paires de bottines, 5ᶠ 00 ; — 6 chemises, 9ᶠ 00 ; — linge et vêtements divers, 15ᶠ 00. — Total, 1I06ᶠ 00.</p>
-       <p xml:id="para_2_15_115">VÊTEMENTS DE LA FEMME (62ᶠ 00).</p>
-       <p xml:id="para_2_15_116">Robes, jupons et tailles qu'elle estime 35ᶠ 00 ; — 3 paires de chaussures, 7ᶠ 00 ; — vêtements et linge divers estimés 20ᶠ 00. — Total, 62ᶠ 00.</p>
-       <p xml:id="para_2_15_117">VErEMNrS DE LENFANT(57ᶠ 25).</p>
-       <p xml:id="para_2_15_118">Les seuls vêtements achetés dans l'année, les autres sont hors d'usage, 57ᶠ 25.</p>
-       <p xml:id="para_2_15_119">VALEUR TOTALE du mobilier et des vêtements . . . . . 418ᶠ 50</p>
+       <div type="par_10" subtype="par_10_texte_1">
+        <p xml:id="para_2_12_93">La maison de la famille, située en pleine ville, fait partie d'un groupe qu'on continue à appeler les « neuves maisons », bien qu'elles aient perdu absolument tout aspect de nouveauté ; elles datent de 1877 et sem¬blent même indiquer une vétusté précoce que favorise un entretien in¬suffisant. Une porte et une fenêtre de façade avec un étage et cela huit fois répété sur une longueur totale d'une trentaine de mètres, tel est l'aspect du groupe, bâtiment en briques sans badigeonnage, realisé avec stricte économie.</p>
+        <p xml:id="para_2_12_94">La première pièce, on devrait dire l'unique pièce, du rez-de-chaussee <pb facs="#facs_17" n="13" source="lesouvriersdesde916sociuoft_0023.xml"/> mesure à peine plus de 3 mètres sur 350, elle est divisée dans sajdimen¬sion la plus grande par une cheminée en saillie d'où le poêle à long tuyau plat s'avance jusqu'au milieu de la chambre. C'est la cuisine, c'est aussi l'atelier d'hiver. Le cordonnier y occupe l'étroit espace qui sépare l'angle de la cheminée de la fenêtre de facade, cela lui sufit. IH travaille assis sur un siège bas et poisseux, un montant, dernier vestige de dossier, rappelle qu'à l'origine ce fut une chaise, on a achevé de la rendre méconnaissable en lui amputant assez haut l'extrémité des pieds. Devant l'ouvrier, sous la fenêtre, une planchette où sont alignées une dizaine de pointes constitue son porte-outils ; y pendent, rattachés par un bout de cuir, l'ébourroir, les fers, etc. ; à ses pieds, dans une vieille caisse, les limes, râpes et tranchets ; épars sur le sol, des ciseaux, une pince, un marteau, une petite lampe en fer-blanc qui suinte le pétrole. Une vieille tasse sans anse, une jatte ébréchée, les restes d'une boite à conserve contiennent les clous, les pointes et les semences ; tout cela enfin au milieu des retailles et des débris de vieux cuir ; telle est l'ins¬tallation complète du cordonnier. C'est, dans toute la force du terme, dans l'acception la plus complète, le travail en chambre.</p>
+        <figure rend="portrait" type="photo">
+         <head resp="added" type="photo" xml:id="figure_1">Le coordonier au travail (§10)</head>
+         <graphic facs="#facs_17" url="https://iiif.archivelab.org/iiif/lesouvriersdesde916sociuoft%2423/424,1080,996,1400/full/0/default.jpg" xml:id="illu_2_13_1"/>
+        </figure>
+        <p xml:id="para_2_14_97"><pb facs="#facs_18" n="14" source="lesouvriersdesde916sociuoft_0024.xml"/> De la premiêre pièce on passe dans une autre dont les dimensions restreintes (elle ne mesure pas plus de deux mètres de largeur et con¬tient l'escalier) empêchent d'en user autrement que pour y remettre les ustensiles de ménage, aussi en est-elle encombrée.</p>
+        <p xml:id="para_2_14_98">L'étage répète les mêmes chambres avec deux fenêtres à la facade, une seule sur le jardin. Une baie sans porte réunit les deux pièces, la plus grande contient deux lits, à peine reste-t-il place pour passer entre eux, elle est aussi l'atelier d'été; dans l'autre presque tout l'espace est occupé par une armoire contenant le linge et les vêtements et par une échelle donnant accès sous le toit.</p>
+        <p xml:id="para_2_14_99">Le tout est construit légèrement et l'on entend fort bien ce qui se passe chez le voisin.</p>
+        <p xml:id="para_2_14_100">Sous la pièce de devant se trouve une petite cave, derrière le bâti¬mont il y a une cour et un tout petit jardin. La maison est pourvue d'un robinet de la distribution d'eau de la ville.</p>
+        <p xml:id="para_2_14_101">Pareille maison se loue au prix élevé de 18ᶠ par mois.</p>
+       </div>
+       <div type="par_10" subtype="meubles">
+        <p xml:id="para_2_14_102">MEUBLES : peu nombreux et la plupart en assez piteux état ; une seule pièce, peut-on dire, est meublée, ailleurs on ne trouve, à part les deux lits et une armoire, vraiment aucun meuble............ 142ᶠ 25</p>
+        <p xml:id="para_2_14_103">1° Mobilier de la pièce principale. — 1 buffet, 20ᶠ 00 ; — 1 table, 6ᶠ00; — 5 chai¬ses en bon état, plus celle du cordonnier, 10ᶠ 50 ; — 1 poêle-cuisinière, 21ᶠ 00 ; — 1 régulateur, 10ᶠ 00 ; — 1 cruciix en cuivre sur la cheminée, 2ᶠ 00 ; — 1 autre en plâtre sur le buffet, 0ᶠ 75 ; — quelques vases, 2 chromos (sujets religieux), 3 pho¬tographies de famille (parmi lesquelles celle du mari en « gille »), 2ᶠ 50. — Total, 75ᶠ 75.</p>
+        <p xml:id="para_2_14_104">2° Mobilier de la petite pièce du rez-de-chaussée. — 1 vieux poêle, 1 table, 1 chaise, 1 console, le tout valant à peine 15ᶠ 00.</p>
+        <p xml:id="para_2_14_105">3° Mobilier des pièces de l'étage. — 2 vieux lits très bas en bois, avec paillasses, 20ᶠ 00 ; — 1 chaise, 2ᶠ 00; — 1 console, 1ᶠ 50 ; — 1 grande armoire genre garde-robe, 25ᶠ 00 ; — 8 pots à fleurs garnissant les fenêtres, 2ᶠ 00 ; — 3 chromos (sujets de genre), 1ᶠ 00. — Total, 51ᶠ 50.</p>
+       </div>
+       <div type="par_10" subtype="ustensiles">
+        <p xml:id="para_2_14_106">USTENSILES : réduits au strict nécessaire, disparates on ne saurait plus et encombrant sans ordre les fenêtres, les cheminées, les tables, même les chaises............ 39ᶠ 00</p>
+        <p xml:id="para_2_14_107">1° Employés pour l'éclairage et le chauffage. — 1 lampe belge, 3ᶠ 50 ; — 1 petite lampe, 2ᶠ 00 ; — 1 bac à charbon et les accessoires du foyer, 3ᶠ 50. — Total, 9ᶠ 00.</p>
+        <p xml:id="para_2_14_108">2° Employés pour la préparation et la consommation des aliments. — Leur inventaire détaillé n'a pas été possible, la valeur de l'ensemble peut atteindre en¬viron 30ᶠ 00.</p>
+       </div>
+       <div type="par_10" subtype="linge">
+        <p xml:id="para_2_15_109"><pb facs="#facs_19" n="15" source="lesouvriersdesde916sociuoft_0025.xml"/> LINGE DU MÉNAGE : employé jusqu'à usure avant d'être rem¬placé............ 12ᶠ 00 </p>
+        <p xml:id="para_2_15_110">2 paires de draps de lit, 3 paires de rideaux, quelques essuie-mains, valeur 12ᶠ 00.</p>
+       </div>
+       <div type="par_10" subtype="vetements">
+        <p xml:id="para_2_15_112">VÊTEMENTS : neufs ils servent de vêtements de dimanche, plus tard ils sont portés comme vêtements de travail............ 225ᶠ 25</p>
+        <p xml:id="para_2_15_113">VÊTEMENTS DE L'OUVRIER (106ᶠ 00).</p>
+        <p xml:id="para_2_15_114">1 costume complet, 45ᶠ 00; — 2 costumes de travail, 22ᶠ 00 ; — 2 pantalons, 10ᶠ 00; — 2 paires de bottines, 5ᶠ 00 ; — 6 chemises, 9ᶠ 00 ; — linge et vêtements divers, 15ᶠ 00. — Total, 106ᶠ 00.</p>
+        <p xml:id="para_2_15_115">VÊTEMENTS DE LA FEMME (62ᶠ 00).</p>
+        <p xml:id="para_2_15_116">Robes, jupons et tailles qu'elle estime 35ᶠ 00 ; — 3 paires de chaussures, 7ᶠ 00 ; — vêtements et linge divers estimés 20ᶠ 00. — Total, 62ᶠ 00.</p>
+        <p xml:id="para_2_15_117">VÊTEMENTS DE L'ENFANT (57ᶠ 25).</p>
+        <p xml:id="para_2_15_118">Les seuls vêtements achetés dans l'année, les autres sont hors d'usage, 57ᶠ 25.</p>
+       </div>
+       <div type="par_10" subtype="par_10_total">
+        <p xml:id="para_2_15_119">VALEUR TOTALE du mobilier et des vêtements............ 418ᶠ 50</p>
+       </div>
       </div>
       <div n="003" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
@@ -477,12 +507,12 @@
         <graphic facs="#facs_22" url="#" xml:id="tble_2_18_3"/>
        </figure>
        <!--<p xml:id="para_2_18_138">SECTION I</p>
-       <p xml:id="para_2_18_139">SUVENTIONS HȨUES PAR LA FAMILLR</p>
-       <p xml:id="para_2_18_140">ART. 1ᵉʳ. — Propriétés RECUES EN USUFRUIT</p>
-       <p xml:id="para_2_18_141">(La famile ne recoit aucune proprlété en usufruit) . . . . . . . . . . . .</p>
-       <p xml:id="para_2_18_142">ART. 2. — DROITS D'USAGE SUR LES Propriétés VOISINES</p>
-       <p xml:id="para_2_18_143">(La famille ne joult d'aucun droit de ce genre) . . . . . . . . . . . . .</p>
-       <p xml:id="para_2_18_144">ART. 3 — ALLOCATION D'OBJIETS ET DE SERVICES Allocatlons cncernant les besolns moraux. . . . . . . . . . . . . . .</p>-->
+        <p xml:id="para_2_18_139">SUVENTIONS HȨUES PAR LA FAMILLR</p>
+        <p xml:id="para_2_18_140">ART. 1ᵉʳ. — Propriétés RECUES EN USUFRUIT</p>
+        <p xml:id="para_2_18_141">(La famile ne recoit aucune proprlété en usufruit) . . . . . . . . . . . .</p>
+        <p xml:id="para_2_18_142">ART. 2. — DROITS D'USAGE SUR LES Propriétés VOISINES</p>
+        <p xml:id="para_2_18_143">(La famille ne joult d'aucun droit de ce genre) . . . . . . . . . . . . .</p>
+        <p xml:id="para_2_18_144">ART. 3 — ALLOCATION D'OBJIETS ET DE SERVICES Allocatlons cncernant les besolns moraux. . . . . . . . . . . . . . .</p>-->
        <pb facs="#facs_23" n="19" source="lesouvriersdesde916sociuoft_0029.xml"/>
        <!--<p xml:id="para_2_19_145">§ 14.</p><p>Budget des recettes de l'année.</p>-->
        <figure rend="portrait" type="cptes_recettes">
@@ -490,15 +520,15 @@
        </figure>
        <pb facs="#facs_24" n="20" source="lesouvriersdesde916sociuoft_0030.xml"/>
        <!--<p xml:id="para_2_20_146">§ 14.</p><p>BUDGET DES RECETTES DE LANNÉE (suite)</p>
-       <p xml:id="para_2_20_147">SOURCES DES RECETTES (ite)</p>-->
+        <p xml:id="para_2_20_147">SOURCES DES RECETTES (ite)</p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_24" url="#" xml:id="tble_2_20_5"/>
        </figure>
        <!--<p xml:id="para_2_20_148">SECTION IV</p>
-       <p xml:id="para_2_20_149">INDUSTRIES ENTREPRISES PAR LA PAMILLE</p>
-       <p xml:id="para_2_20_150">(à son propre compte)</p>
-       <p xml:id="para_2_20_151">La famille n'entreprend aucune industrie proprement dite, elle se borne à faire pour son propre compte la contection de quelques chaussures et vêtements et le blanchissage du linpge (le compte fort slmple est au budget même, le temps consancré à ces travauux n'a pu être précisé) . . .. . .. . .</p>
-       <p xml:id="para_2_20_152">(1) Le nombre d'heures conucré au truvil est heucoup trop variable pour quil soit possible de préciser le total des journés de 10 heures. Voir § 8, les indicutions moyennes seulei possibles.</p>-->
+        <p xml:id="para_2_20_149">INDUSTRIES ENTREPRISES PAR LA PAMILLE</p>
+        <p xml:id="para_2_20_150">(à son propre compte)</p>
+        <p xml:id="para_2_20_151">La famille n'entreprend aucune industrie proprement dite, elle se borne à faire pour son propre compte la contection de quelques chaussures et vêtements et le blanchissage du linpge (le compte fort slmple est au budget même, le temps consancré à ces travauux n'a pu être précisé) . . .. . .. . .</p>
+        <p xml:id="para_2_20_152">(1) Le nombre d'heures conucré au truvil est heucoup trop variable pour quil soit possible de préciser le total des journés de 10 heures. Voir § 8, les indicutions moyennes seulei possibles.</p>-->
        <pb facs="#facs_25" n="21" source="lesouvriersdesde916sociuoft_0031.xml"/>
        <!--<p xml:id="para_2_21_153">§ 14.</p><p>BUDGET DES RECETTES DE LANNÉE (suite)</p>-->
        <figure rend="portrait" type="cptes_recettes">
@@ -525,16 +555,16 @@
        <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS</head>
        <pb facs="#facs_29" n="25" source="lesouvriersdesde916sociuoft_0035.xml"/>
        <!--<p xml:id="para_2_25_159">SECTION I</p>
-       <p xml:id="para_2_25_160">COMPTES DES BÉNÉFICES</p>
-       <p xml:id="para_2_25_161">RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte)</p>
-       <p xml:id="para_2_25_162">La famille n'entreprend aucune industrie proprement dite. Quelques comptes fort sommaires ont été portés au budget même.</p>
-       <p xml:id="para_2_25_163">SECTION II</p>
-       <p xml:id="para_2_25_164">COMPTES RELATIFS AUX Subventions</p>
-       <p xml:id="para_2_25_165">La famille ne recoit aucune subvention quelconque, sinon l'instruction gratuite pour l'enfant, ce qui ne nécessite point de compte particulier.</p>
-       <p xml:id="para_2_25_166">SECTION III</p>
-       <p xml:id="para_2_25_167">COMPTES DIVERS</p>
-       <p xml:id="para_2_25_168">A. — COMPTE DES SALAIRES I. — Salaire de l'ouvrier</p>
-       <p xml:id="para_2_25_169">elevé du carmet des recette</p>-->
+        <p xml:id="para_2_25_160">COMPTES DES BÉNÉFICES</p>
+        <p xml:id="para_2_25_161">RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte)</p>
+        <p xml:id="para_2_25_162">La famille n'entreprend aucune industrie proprement dite. Quelques comptes fort sommaires ont été portés au budget même.</p>
+        <p xml:id="para_2_25_163">SECTION II</p>
+        <p xml:id="para_2_25_164">COMPTES RELATIFS AUX Subventions</p>
+        <p xml:id="para_2_25_165">La famille ne recoit aucune subvention quelconque, sinon l'instruction gratuite pour l'enfant, ce qui ne nécessite point de compte particulier.</p>
+        <p xml:id="para_2_25_166">SECTION III</p>
+        <p xml:id="para_2_25_167">COMPTES DIVERS</p>
+        <p xml:id="para_2_25_168">A. — COMPTE DES SALAIRES I. — Salaire de l'ouvrier</p>
+        <p xml:id="para_2_25_169">elevé du carmet des recette</p>-->
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_29" url="#" xml:id="tble_2_25_10"/>
        </figure>
@@ -543,23 +573,23 @@
         <graphic facs="#facs_30" url="#" xml:id="tble_2_26_11"/>
        </figure>
        <!--<p xml:id="para_2_26_170">Compte nne du sululre</p>
-       <p xml:id="para_2_26_171">Salaire brut gagné par l'ouvrier</p>
-       <p xml:id="para_2_26_172">RECETTES</p>
-       <p xml:id="para_2_26_173">DÉPENSES</p>
-       <p xml:id="para_2_26_174">1,027 00</p>
-       <p xml:id="para_2_26_175">Pointes en cuivre . . . . . . .. . . . . . . .. . 62 40</p>
-       <p xml:id="para_2_26_176">Vienx cuir . . . . . . . . . . . . . . . . . . . . 14 60</p>
-       <p xml:id="para_2_26_177">Pointes en fer, grandes et petites . . . . . . . . . . .. 20 40</p>
-       <p xml:id="para_2_26_178">Pointes dites semences . . . . . . . . . . . . . . 26 00</p>
-       <p xml:id="para_2_26_179">Cire . . . . . . . . . . . . . . . . . . . . ..  4§)</p>
-       <p xml:id="para_2_26_180">Enduit noir . . . . . . . . . . . . . . . . . . . 10 A40</p>
-       <p xml:id="para_2_26_181">Entretien du matériel, achat de limes et tranchets . . . . . . 6 15</p>
-       <p xml:id="para_2_26_182">lntérêt (5 ᵉ) du matériel spécial . . . . . . . . . . . . 0 97</p>
-       <p xml:id="para_2_26_183">Salaire net. . . . . . . . . . . . . . . .. . . . §78 28</p>
-       <p xml:id="para_2_26_184">ToAL comme ci-dessus. . . . . 1,027 00</p>-->
+        <p xml:id="para_2_26_171">Salaire brut gagné par l'ouvrier</p>
+        <p xml:id="para_2_26_172">RECETTES</p>
+        <p xml:id="para_2_26_173">DÉPENSES</p>
+        <p xml:id="para_2_26_174">1,027 00</p>
+        <p xml:id="para_2_26_175">Pointes en cuivre . . . . . . .. . . . . . . .. . 62 40</p>
+        <p xml:id="para_2_26_176">Vienx cuir . . . . . . . . . . . . . . . . . . . . 14 60</p>
+        <p xml:id="para_2_26_177">Pointes en fer, grandes et petites . . . . . . . . . . .. 20 40</p>
+        <p xml:id="para_2_26_178">Pointes dites semences . . . . . . . . . . . . . . 26 00</p>
+        <p xml:id="para_2_26_179">Cire . . . . . . . . . . . . . . . . . . . . ..  4§)</p>
+        <p xml:id="para_2_26_180">Enduit noir . . . . . . . . . . . . . . . . . . . 10 A40</p>
+        <p xml:id="para_2_26_181">Entretien du matériel, achat de limes et tranchets . . . . . . 6 15</p>
+        <p xml:id="para_2_26_182">lntérêt (5 ᵉ) du matériel spécial . . . . . . . . . . . . 0 97</p>
+        <p xml:id="para_2_26_183">Salaire net. . . . . . . . . . . . . . . .. . . . §78 28</p>
+        <p xml:id="para_2_26_184">ToAL comme ci-dessus. . . . . 1,027 00</p>-->
        <pb facs="#facs_31" n="27" source="lesouvriersdesde916sociuoft_0037.xml"/>
        <!--<p xml:id="para_2_27_185">I. — Salaire de la /femme</p>
-       <p xml:id="para_2_27_186">Relevré du carnet de recette</p>-->
+        <p xml:id="para_2_27_186">Relevré du carnet de recette</p>-->
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_31" url="#" xml:id="tble_2_27_12"/>
        </figure>
@@ -568,19 +598,19 @@
         <graphic facs="#facs_32" url="#"/>
        </figure>
        <!--<p xml:id="para_2_28_187">ompte nmnuel du luire</p>
-       <p xml:id="para_2_28_188">RECETTES</p>
-       <p xml:id="para_2_28_189">Salaire brut gagné par l'ouvrière</p>
-       <p xml:id="para_2_28_190">695ᶠ 64</p>
-       <p xml:id="para_2_28_191">OÉPENSES</p>
-       <p xml:id="para_2_28_192">0́illets. . . . . . . . . . . . . . . . . . . . . . .. 12 30</p>
-       <p xml:id="para_2_28_193">Fil, à 18 centimes la bobine, 18ᶠ 36 ; — à 20 centimes, 20ᶠ 40; — à 30 cen¬times, 11ᶠ 70 . . . . . . . . . . . . . .. . . . . . 50 46</p>
-       <p xml:id="para_2_28_194">Machine, versement hebdomadaire de 2ᶠ 50 pour son achat (pour mémoire,</p>
-       <p xml:id="para_2_28_195">cette dépense étant portée au budget). . . . . . ... . . . .</p>
-       <p xml:id="para_2_28_196">Intéret de la valeur du matériel spécial (non compris la machine). . . . 0 90</p>
-       <p xml:id="para_2_28_197">Salaire net. . .. . . . . . . . . . . . . . . . . . . . 631 §98</p>
-       <p xml:id="para_2_28_198">TorAL comme ci-dessus . . . . . 695 64</p>
-       <p xml:id="para_2_28_199">B. — COMPTE RELATIF AUX VÊTEMENTS ACHETÉS</p>
-       <p xml:id="para_2_28_200">Ce compte étant fort simple et des dépenses semblables se répétant chaque année, il a pu être établi dans le budget lui-même.</p>-->
+        <p xml:id="para_2_28_188">RECETTES</p>
+        <p xml:id="para_2_28_189">Salaire brut gagné par l'ouvrière</p>
+        <p xml:id="para_2_28_190">695ᶠ 64</p>
+        <p xml:id="para_2_28_191">OÉPENSES</p>
+        <p xml:id="para_2_28_192">0́illets. . . . . . . . . . . . . . . . . . . . . . .. 12 30</p>
+        <p xml:id="para_2_28_193">Fil, à 18 centimes la bobine, 18ᶠ 36 ; — à 20 centimes, 20ᶠ 40; — à 30 cen¬times, 11ᶠ 70 . . . . . . . . . . . . . .. . . . . . 50 46</p>
+        <p xml:id="para_2_28_194">Machine, versement hebdomadaire de 2ᶠ 50 pour son achat (pour mémoire,</p>
+        <p xml:id="para_2_28_195">cette dépense étant portée au budget). . . . . . ... . . . .</p>
+        <p xml:id="para_2_28_196">Intéret de la valeur du matériel spécial (non compris la machine). . . . 0 90</p>
+        <p xml:id="para_2_28_197">Salaire net. . .. . . . . . . . . . . . . . . . . . . . 631 §98</p>
+        <p xml:id="para_2_28_198">TorAL comme ci-dessus . . . . . 695 64</p>
+        <p xml:id="para_2_28_199">B. — COMPTE RELATIF AUX VÊTEMENTS ACHETÉS</p>
+        <p xml:id="para_2_28_200">Ce compte étant fort simple et des dépenses semblables se répétant chaque année, il a pu être établi dans le budget lui-même.</p>-->
       </div>
      </div>
     </div>
