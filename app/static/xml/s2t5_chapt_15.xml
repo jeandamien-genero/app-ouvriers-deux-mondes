@@ -1,140 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-090a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xml:id="ID-090a" xml:lang="fr">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
-     Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription
-    </title>
+    <title>Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription</title>
     <respStmt>
      <persName>
-      <forename>
-       Alix
-      </forename>
-      <surname>
-       Chagué
-      </surname>
-      <affiliation>
-       ingénieure de recherche et de développement,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Alix</forename>
+      <surname>Chagué</surname>
+      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      acquisition et structuration initiale des textes
-     </resp>
+     <resp>acquisition et structuration initiale des textes</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Jean-Damien
-      </forename>
-      <surname>
-       Généro
-      </surname>
-      <affiliation from="2020-03" to="2020-09">
-       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Jean-Damien</forename>
+      <surname>Généro</surname>
+      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">
-       ingénieur d'études,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
-      <affiliation from="2020-12">
-       ingénieur d'études,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      encodage scientifique
-     </resp>
+     <resp>encodage scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Stéphane
-      </forename>
-      <surname>
-       Baciocchi
-      </surname>
-      <affiliation>
-       ingénieur de recherche de l’EHESS,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <forename>Stéphane</forename>
+      <surname>Baciocchi</surname>
+      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Anne
-      </forename>
-      <surname>
-       Lhuissier
-      </surname>
-      <affiliation>
-       directrice de recherche de l'INRAE,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <forename>Anne</forename>
+      <surname>Lhuissier</surname>
+      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Éric
-      </forename>
-      <surname>
-       Villemonte de la Clergerie
-      </surname>
-      <affiliation>
-       chargé de recherches,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Éric</forename>
+      <surname>Villemonte de la Clergerie</surname>
+      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      supervision technique
-     </resp>
+     <resp>supervision technique</resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
-    <publisher>
-     projet ANR Time Us
-    </publisher>
+    <publisher>projet ANR Time Us</publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>
-     Paris, France
-    </pubPlace>
+    <pubPlace>Paris, France</pubPlace>
    </publicationStmt>
    <sourceDesc>
-    <p>
-     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
-    </p>
+    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
+    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
    </projectDesc>
   </encodingDesc>
  </teiHeader>
@@ -331,581 +263,254 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_15__1">
-      N° 90
-     </p>
-     <p xml:id="para_15__2">
-      PETIT FONCTIONNAIRE
-     </p>
-     <p xml:id="para_15__3">
-      DE PNOM-PENH (CAMBODGE)
-     </p>
-     <p xml:id="para_15__4">
-      SALARIÉ DU TRÉSOR PUBLIC
-     </p>
-     <p xml:id="para_15__5">
-      DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS,
-     </p>
-     <p>
-      D'APRES
-     </p>
-     <p xml:id="para_15__6">
-      LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX PENDANT L'ANNÉE 1897
-     </p>
-     <p>
-      PAR
-     </p>
-     <p xml:id="para_15__7">
-      M. <persName>E. DELAIRE</persName>,
-     </p>
-     <p xml:id="para_15__8">
-      Architecte inspecteur des bâtiments civils au Cambodge.
-     </p>
+     <p xml:id="para_15__1">N° 90</p>
+     <p xml:id="para_15__2">PETIT FONCTIONNAIRE</p>
+     <p xml:id="para_15__3">DE PNOM-PENH (CAMBODGE)</p>
+     <p xml:id="para_15__4">SALARIÉ DU TRÉSOR PUBLIC</p>
+     <p xml:id="para_15__5">DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS,</p>
+     <p>D'APRES</p>
+     <p xml:id="para_15__6">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX PENDANT L'ANNÉE 1897</p>
+     <p>PAR</p>
+     <p xml:id="para_15__7">M. <persName>E. DELAIRE</persName>,</p>
+     <p xml:id="para_15__8">Architecte inspecteur des bâtiments civils au Cambodge.</p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">
-      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
-     </head>
+     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille.</head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
-       Définition du lieu, de l'organisation industrielle et de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
-        § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
-       </head>
-       <p xml:id="para_15__14">
-        <pb facs="#facs_452" n="437" source="2serlesouvriersde05sociuoft_0489.xml"/> La ville de Pnom-Penh, capitale du Cambodge, est située au centre du royaume, par 11° 34' 51'' latitude Nord, et 102° 36 21' longitude Est méridien de Paris ; elle se trouve sur le Mélong, à 300 kilomêtres de la mer, aux Quatre-Bras. A cet endroit, le grand fleuve, tonlé thôm, reçoit le fleuve doux, tonlé sap, ou bras des lacs, qui lui apporte les eaux des grands lacs intérieurs, puis se divise en deux bras nouveaux, le fleuve antérieur qui descend vers Vinh-Long et Mytho, et le fleuve postérieur ou Bassac qui passe par Chaudoc ; tous deux se jettent dans la mer de Chine. Des canaux relient le Mélong avec le port et la riviere de Saigon ; le commerce fluviul de Pnom-Penh et de tout le pays aboutit à Cholon, faubourg chinois de Saigon.
-       </p>
-       <p xml:id="para_15__15">
-        La capitale du royaume lhmer ne se composait, il y a dix ans, que <pb facs="#facs_453" n="438" source="2serlesouvriersde05sociuoft_0490.xml"/> d'une longue rue parallèle au fleuve, bordée de misérables construc¬tions chinoises et cambodgiennes. Le protectorat francais l'a pres¬que entièrement réédifiée. Un grand canal de ceinture l'entoure sur un développement de 4 kilomètres ; d'énormes terrassements ont exhaussé le sol, et des digues ont été entreprises pour mettre à l'abpri de l'inon¬dation une superficie de 300 hectares. Cette œuvre considérable, mal conçue, est inachevée, il faudra beaucoup de temps et d'argent pour la compléter. Actuellement, l'état sanitaire est mauvais : de nombreuses mares stagnantes, l'écoulement insuffisant, l'absence d'égouts, la ra¬reté et la mauvaise qualité des eaux de boisson et de lavage, la mal¬propreté asiatique des 40.000 habitants s'ajoutent aux dangers du climat et font de Pnom-Penh une ville tout à fait insalubre.
-       </p>
-       <p xml:id="para_15_438_18">
-        La population est très mêlée : elle se répartit en quartiers distinets.
-       </p>
-       <p xml:id="para_15_438_19">
-        Les édifices publics et les habitations des fonctionnaires et colons européens (200 à peine) sont groupés près de la résidence française : c'est un quartier construit tout à neuf. Le commerce, exercé par les Chinois et les Indiens dits malabars, occupe le centre de la ville ; les boutiques des marchands, abritées sous des portiques avec leurs habi¬tations au premier étage, forment d'innombrables et monotones com¬partiments nouvellement rebâtis, mais dans des conditions hygiéniques très médiocres.
-       </p>
-       <p xml:id="para_15_438_20">
-        Vers le Sud, autour du palais de roi, sont disposées les ruelles et cités cambodgiennes ; en pleine brousse, les pauvres maisonnettes en bambous juchées sur poteaux se serrent les unes contre les autres. L'occupant n'est presque jamais propriétaire du sol ; il construit lui¬même en quelques jours son rustique abri, soit sur un terrain vacant, soit sur les jardins ou dépendances des propriétés de gros dignitaires qui lui concèdent cette faveur à titre précaire. Les conditions d'ha¬bitation sont presque rurales dans cette ville cambodgienne ; elles ne sont pas beaucoup meilleures au point de vue de la salubrité, que dans le quartier chinois ; le prix élevé de l'eau potable, les émanations des marais permanents, sont les causes certaines des maladies endé¬miques qui frappent les indigènes.
-       </p>
-       <p xml:id="para_15_438_21">
-        A l'opposé et au Nord, une chrétienté d'Annamites assez nombreux forme un faubourg voisin de la cathédrale et de l'évêché ; beaucoup sont hateliers, maneuvres ou coolies, mais les Chinois ont la prépon¬dérance, ils exercent presque seuls le commerce et l'industrie, quel¬ques-uns même y ont acquis des fortunes relatives, tous ont conservé leurs costumes, leurs mœurs spéciales ; comme dans toute l'Indo-Chine, <pb facs="#facs_454" n="439" source="2serlesouvriersde05sociuoft_0491.xml"/>
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. État du sol, de l'industrie et de la population.</head>
+       <p xml:id="para_15__14"><pb facs="#facs_452" n="437" source="2serlesouvriersde05sociuoft_0489.xml"/> La ville de Pnom-Penh, capitale du Cambodge, est située au centre du royaume, par 11° 34' 51'' latitude Nord, et 102° 36 21' longitude Est méridien de Paris ; elle se trouve sur le Mélong, à 300 kilomêtres de la mer, aux Quatre-Bras. A cet endroit, le grand fleuve, tonlé thôm, reçoit le fleuve doux, tonlé sap, ou bras des lacs, qui lui apporte les eaux des grands lacs intérieurs, puis se divise en deux bras nouveaux, le fleuve antérieur qui descend vers Vinh-Long et Mytho, et le fleuve postérieur ou Bassac qui passe par Chaudoc ; tous deux se jettent dans la mer de Chine. Des canaux relient le Mélong avec le port et la riviere de Saigon ; le commerce fluviul de Pnom-Penh et de tout le pays aboutit à Cholon, faubourg chinois de Saigon.</p>
+       <p xml:id="para_15__15">La capitale du royaume lhmer ne se composait, il y a dix ans, que <pb facs="#facs_453" n="438" source="2serlesouvriersde05sociuoft_0490.xml"/> d'une longue rue parallèle au fleuve, bordée de misérables construc¬tions chinoises et cambodgiennes. Le protectorat francais l'a pres¬que entièrement réédifiée. Un grand canal de ceinture l'entoure sur un développement de 4 kilomètres ; d'énormes terrassements ont exhaussé le sol, et des digues ont été entreprises pour mettre à l'abpri de l'inon¬dation une superficie de 300 hectares. Cette œuvre considérable, mal conçue, est inachevée, il faudra beaucoup de temps et d'argent pour la compléter. Actuellement, l'état sanitaire est mauvais : de nombreuses mares stagnantes, l'écoulement insuffisant, l'absence d'égouts, la ra¬reté et la mauvaise qualité des eaux de boisson et de lavage, la mal¬propreté asiatique des 40.000 habitants s'ajoutent aux dangers du climat et font de Pnom-Penh une ville tout à fait insalubre.</p>
+       <p xml:id="para_15_438_18">La population est très mêlée : elle se répartit en quartiers distinets.</p>
+       <p xml:id="para_15_438_19">Les édifices publics et les habitations des fonctionnaires et colons européens (200 à peine) sont groupés près de la résidence française : c'est un quartier construit tout à neuf. Le commerce, exercé par les Chinois et les Indiens dits malabars, occupe le centre de la ville ; les boutiques des marchands, abritées sous des portiques avec leurs habi¬tations au premier étage, forment d'innombrables et monotones com¬partiments nouvellement rebâtis, mais dans des conditions hygiéniques très médiocres.</p>
+       <p xml:id="para_15_438_20">Vers le Sud, autour du palais de roi, sont disposées les ruelles et cités cambodgiennes ; en pleine brousse, les pauvres maisonnettes en bambous juchées sur poteaux se serrent les unes contre les autres. L'occupant n'est presque jamais propriétaire du sol ; il construit lui¬même en quelques jours son rustique abri, soit sur un terrain vacant, soit sur les jardins ou dépendances des propriétés de gros dignitaires qui lui concèdent cette faveur à titre précaire. Les conditions d'ha¬bitation sont presque rurales dans cette ville cambodgienne ; elles ne sont pas beaucoup meilleures au point de vue de la salubrité, que dans le quartier chinois ; le prix élevé de l'eau potable, les émanations des marais permanents, sont les causes certaines des maladies endé¬miques qui frappent les indigènes.</p>
+       <p xml:id="para_15_438_21">A l'opposé et au Nord, une chrétienté d'Annamites assez nombreux forme un faubourg voisin de la cathédrale et de l'évêché ; beaucoup sont hateliers, maneuvres ou coolies, mais les Chinois ont la prépon¬dérance, ils exercent presque seuls le commerce et l'industrie, quel¬ques-uns même y ont acquis des fortunes relatives, tous ont conservé leurs costumes, leurs mœurs spéciales ; comme dans toute l'Indo-Chine, <pb facs="#facs_454" n="439" source="2serlesouvriersde05sociuoft_0491.xml"/></p>
        <figure rend="landscape" type="map">
-        <head resp="original" type="map" xml:id="figure_1">
-         Phom-Penh [§1]
-        </head>
+        <head resp="original" type="map" xml:id="figure_1">Phom-Penh [§1]</head>
         <graphic facs="#facs_454" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24491/215,471,2214,3390/full/270/default.jpg" xml:id="illu_15__1"/>
        </figure>
-       <p xml:id="para_15__22">
-        <pb facs="#facs_455" n="440" source="2serlesouvriersde05sociuoft_0492.xml"/> l'immigration chinoise fournit l'élément le plus actif, le plus laborieux de la population. Au Cambodge il y a eu, depuis deux ou trois siècles, de très nombreuses alliances entre Chinois et Cambodgiens ; en géné¬ral, les familles lhmères sont restées pures de sang annamite. Citons encore des Bakus, des Chams, des Tagals, métis portugais ou espagnols, quelques Siamois au palais du roi, très peu de Laotiens, de Penongs.
-       </p>
-       <p xml:id="para_15__23">
-        Sauf les Chinois qui vivent souvent en communauté, par groupes syndiqués de compatriotes (de même congrégation), chaque famille indigène habite une petite maison séparée ; en beaucoup de cas, la femme fait un petit commerce au marché public, ou se livre au tissage et à la vannerie. Les chefs de familles cambodgiennes occupent de petits emplois chez le roi, l'obbarach, ou des postes subalternes dans l'administration française ; d'autres sont ouvriers journaliers dans le ser¬vice des travaux piblics, hommes de peine chez des commerçants eu¬ropéens, ou domestiques de Français. Le manque d'instruction, la pa¬resse des Cambodgiens les ont empêchés jusqu'ici de devenir ouvriers d'état, artisans ou marchands ; de là, le succès des Chinois et la situa¬tion favorisée qu'ils détiennent dans tout le royaume avec une habileté et une âpreté remarquables, et malgré les lourds impôts qui les frappent (20 francs pour un simple domestique).
-       </p>
-       <p xml:id="para_15__24">
-        La famille étudiée habite une hutte, phtéas, dans le quartier du palais royal, sur un terrain concédé gratuitement par un des fils du roi. Beaucoup de ces huttes sont ainsi campées au hasard vers les limites de la ville, la propriété n'étant guère délimitée, et ne pouvant l'etre utilement, dans ce pays où les 8/10es de la superficie sont incultes, faute d'habitants (10 a 12 par kilom. carré). Pnom-Penh est la seule ville du royaume ; sa population s'est accrue depuis vingt ans, mais il n'est pas possible de déterminer dans quelle mesure ; il n'est pas même aisé de supputer quelles nationalités ont profité de l'augmentation.
-       </p>
-       <p xml:id="para_15__25">
-        Les documents officiels manquent pour établir les statistiques écono¬miques ou démographiques. Quant au régime du travail, le mode d'engagement le plus habituel est le système des engagements au mois ; entre Asiatiques, dans le commerce et l'industrie, le salaire est souvent payé partiellement en nature ; les princes, les mandarins on à leur service un grand nombre de domestiques et d'ouvriers pour lesquels le riz délivré représente la plus grosse part de rémunération. On peut aussi considérer le domestique ou esclave pour dettes comme un salarié, dont l'engagement est illimité, et le salaire payé à l'a¬vance
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         (§ 17)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_15_4141_26">
-        <pb facs="#facs_456" n="441" source="2serlesouvriersde05sociuoft_0493.xml"/> Il n'y a guère dans la ville, et moins encore dans le reste du royaume, d'exploitations industrielles des produits du sol, bien que les richesses naturelles soient certainement considérables.
-       </p>
-       <p xml:id="para_15_4141_27">
-        Quelques poteries grossières, des matelas réputés, des tissus de coton et de soie, des ouvrages de vannerie sont fabriqués dans le pays ; nais la production agricole est de beaucoup la plus importante ressource nationale ; elle fournit le ri, l'élément principal de la consommation intérieure et du commerce extérieur, puis le tabac, le poivre, le coton, l'indigo, le cardamome. Il faut signaler aussi une industrie spéciale et prospère, la préparation du poisson salé et fumé, qui chaque année donne lieu à un grand trafic. Au moment de la pêche aux grands lacs, toute une population est occupée à la prise et à la préparation du pois¬son qu'on recueille abondamment ; d'innombrables jonques et sam¬pans amènent sur les berges de Pnom-Penh, et de là à Cholon-Saigon, les produits qui sont vendus jusqu'en Chine. La richesse de Pnom¬Penh est due au transit, parfois très important, de toutes ces marchan¬dises.
-       </p>
+       <p xml:id="para_15__22"><pb facs="#facs_455" n="440" source="2serlesouvriersde05sociuoft_0492.xml"/> l'immigration chinoise fournit l'élément le plus actif, le plus laborieux de la population. Au Cambodge il y a eu, depuis deux ou trois siècles, de très nombreuses alliances entre Chinois et Cambodgiens ; en géné¬ral, les familles lhmères sont restées pures de sang annamite. Citons encore des Bakus, des Chams, des Tagals, métis portugais ou espagnols, quelques Siamois au palais du roi, très peu de Laotiens, de Penongs.</p>
+       <p xml:id="para_15__23">Sauf les Chinois qui vivent souvent en communauté, par groupes syndiqués de compatriotes (de même congrégation), chaque famille indigène habite une petite maison séparée ; en beaucoup de cas, la femme fait un petit commerce au marché public, ou se livre au tissage et à la vannerie. Les chefs de familles cambodgiennes occupent de petits emplois chez le roi, l'obbarach, ou des postes subalternes dans l'administration française ; d'autres sont ouvriers journaliers dans le ser¬vice des travaux piblics, hommes de peine chez des commerçants eu¬ropéens, ou domestiques de Français. Le manque d'instruction, la pa¬resse des Cambodgiens les ont empêchés jusqu'ici de devenir ouvriers d'état, artisans ou marchands ; de là, le succès des Chinois et la situa¬tion favorisée qu'ils détiennent dans tout le royaume avec une habileté et une âpreté remarquables, et malgré les lourds impôts qui les frappent (20 francs pour un simple domestique).</p>
+       <p xml:id="para_15__24">La famille étudiée habite une hutte, phtéas, dans le quartier du palais royal, sur un terrain concédé gratuitement par un des fils du roi. Beaucoup de ces huttes sont ainsi campées au hasard vers les limites de la ville, la propriété n'étant guère délimitée, et ne pouvant l'etre utilement, dans ce pays où les 8/10es de la superficie sont incultes, faute d'habitants (10 a 12 par kilom. carré). Pnom-Penh est la seule ville du royaume ; sa population s'est accrue depuis vingt ans, mais il n'est pas possible de déterminer dans quelle mesure ; il n'est pas même aisé de supputer quelles nationalités ont profité de l'augmentation.</p>
+       <p xml:id="para_15__25">Les documents officiels manquent pour établir les statistiques écono¬miques ou démographiques. Quant au régime du travail, le mode d'engagement le plus habituel est le système des engagements au mois ; entre Asiatiques, dans le commerce et l'industrie, le salaire est souvent payé partiellement en nature ; les princes, les mandarins on à leur service un grand nombre de domestiques et d'ouvriers pour lesquels le riz délivré représente la plus grosse part de rémunération. On peut aussi considérer le domestique ou esclave pour dettes comme un salarié, dont l'engagement est illimité, et le salaire payé à l'a¬vance (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>).</p>
+       <p xml:id="para_15_4141_26"><pb facs="#facs_456" n="441" source="2serlesouvriersde05sociuoft_0493.xml"/> Il n'y a guère dans la ville, et moins encore dans le reste du royaume, d'exploitations industrielles des produits du sol, bien que les richesses naturelles soient certainement considérables.</p>
+       <p xml:id="para_15_4141_27">Quelques poteries grossières, des matelas réputés, des tissus de coton et de soie, des ouvrages de vannerie sont fabriqués dans le pays ; nais la production agricole est de beaucoup la plus importante ressource nationale ; elle fournit le ri, l'élément principal de la consommation intérieure et du commerce extérieur, puis le tabac, le poivre, le coton, l'indigo, le cardamome. Il faut signaler aussi une industrie spéciale et prospère, la préparation du poisson salé et fumé, qui chaque année donne lieu à un grand trafic. Au moment de la pêche aux grands lacs, toute une population est occupée à la prise et à la préparation du pois¬son qu'on recueille abondamment ; d'innombrables jonques et sam¬pans amènent sur les berges de Pnom-Penh, et de là à Cholon-Saigon, les produits qui sont vendus jusqu'en Chine. La richesse de Pnom¬Penh est due au transit, parfois très important, de toutes ces marchan¬dises.</p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités :  O*** (n°090aE1) - Leap  (n°090aE2) - Im  (n°090aE3) - Phling  (n°090aE4) - Dauyé  (n°090aE5) - Têt  (n°090aE6)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
-        § 2. ÉTAT CIVIL DE LA FAMILLE.
-       </head>
-       <p xml:id="para_15_4141_30">
-        Bien que les Cambodgiens professent des sentiments de famille aussi développés que les Annamites et les Chinois, ils n'ont pas comme ceux-ci de noms patronymiques : les individus de même nom ne se distinguent que par l'addition du nom du conjoint s'ils sont mariés, ou sinon pur la désignation du lieu de naissance ou d'un ascendant.
-       </p>
-       <p xml:id="para_15_4141_31">
-        La famille décrite dans cette monographie comprend six personnes dont voici l'état civil :
-       </p>
-       <p xml:id="para_15_4141_32">
-        1. <persName>O***</persName>, chef de famille, né à Krauchmar............ 40 ans
-       </p>
-       <p xml:id="para_15_4141_33">
-        2. <persName>LÉAP</persName>, Sa femme, prepon thôm, née à Kompong-Louong............ 33 —
-       </p>
-       <p xml:id="para_15_4141_34">
-        3. <persName>IM</persName>, leur premier flls, kaunbang, né à Pnom-Penh............ 8 —
-       </p>
-       <p xml:id="para_15_4141_35">
-        4. <persName>PHILING</persName>, leur second fils, kaun phâaun, né à Pnom-Penh............ 5 —
-       </p>
-       <p xml:id="para_15_4141_36">
-        5. <persName>DAUYÉ</persName>, leur unique fille, kaun srey, née à Pnom-Penh............ 3 —
-       </p>
-       <p xml:id="para_15_4141_37">
-        Il convient d'ajouter, pour compléter le ménage, un esclave pour dettes, akhnhom, du nom de <persName>Têt</persName>, acheté en 1897, né à Kompong cham, âgé actuellement de trente ans.
-       </p>
-       <p xml:id="para_15_4141_38">
-        Deux enfants sont morts jeunes, l'un tout récemment.
-       </p>
-       <p xml:id="para_15_4141_39">
-        O*** a une sœur âgée de trente-cinq ans, mariée à un commerçant de Krauchmar; le ménage vit, avec la mère, veuve, d'un petit débit d'é<pb facs="#facs_457" n="442" source="2serlesouvriersde05sociuoft_0494.xml"/>piceries et de poissons ; la mêre bénéficie en outre de l'usufruit d'un champ que lui laissent ses enfants. Un frêre Fil, âgé de vingt-quatre ans, est employé comme piqueur chez le géomètre du cadastre à Pnom¬Penh. Les oncles et tantes, frêres de la mère, des cousins et cousines, habitent Krauchmar et vivent de la culture.
-       </p>
-       <p xml:id="para_15_4142_41">
-        La famille de Léap est de Kompong-Louong, près de Oudong, l'an¬cienne capitale. Ses parents occupent des situations très modestes, mais tranquilles, chéa sauk sabai; chaque ménage compte quatre ou cinq enfants. Les conditions d'existence au village sont plus frugales encore que celles de la famille de O***, mais aucun membre de la fa¬mille ne manque du nécessaire.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
+       <p xml:id="para_15_4141_30">Bien que les Cambodgiens professent des sentiments de famille aussi développés que les Annamites et les Chinois, ils n'ont pas comme ceux-ci de noms patronymiques : les individus de même nom ne se distinguent que par l'addition du nom du conjoint s'ils sont mariés, ou sinon pur la désignation du lieu de naissance ou d'un ascendant.</p>
+       <p xml:id="para_15_4141_31">La famille décrite dans cette monographie comprend six personnes dont voici l'état civil :</p>
+       <p xml:id="para_15_4141_32">1. <persName>O***</persName>, chef de famille, né à Krauchmar............ 40 ans</p>
+       <p xml:id="para_15_4141_33">2. <persName>LÉAP</persName>, Sa femme, prepon thôm, née à Kompong-Louong............ 33 —</p>
+       <p xml:id="para_15_4141_34">3. <persName>IM</persName>, leur premier flls, kaunbang, né à Pnom-Penh............ 8 —</p>
+       <p xml:id="para_15_4141_35">4. <persName>PHILING</persName>, leur second fils, kaun phâaun, né à Pnom-Penh............ 5 —</p>
+       <p xml:id="para_15_4141_36">5. <persName>DAUYÉ</persName>, leur unique fille, kaun srey, née à Pnom-Penh............ 3 —</p>
+       <p xml:id="para_15_4141_37">Il convient d'ajouter, pour compléter le ménage, un esclave pour dettes, akhnhom, du nom de <persName>Têt</persName>, acheté en 1897, né à Kompong cham, âgé actuellement de trente ans.</p>
+       <p xml:id="para_15_4141_38">Deux enfants sont morts jeunes, l'un tout récemment.</p>
+       <p xml:id="para_15_4141_39">O*** a une sœur âgée de trente-cinq ans, mariée à un commerçant de Krauchmar; le ménage vit, avec la mère, veuve, d'un petit débit d'é<pb facs="#facs_457" n="442" source="2serlesouvriersde05sociuoft_0494.xml"/>piceries et de poissons ; la mêre bénéficie en outre de l'usufruit d'un champ que lui laissent ses enfants. Un frêre Fil, âgé de vingt-quatre ans, est employé comme piqueur chez le géomètre du cadastre à Pnom¬Penh. Les oncles et tantes, frêres de la mère, des cousins et cousines, habitent Krauchmar et vivent de la culture.</p>
+       <p xml:id="para_15_4142_41">La famille de Léap est de Kompong-Louong, près de Oudong, l'an¬cienne capitale. Ses parents occupent des situations très modestes, mais tranquilles, chéa sauk sabai; chaque ménage compte quatre ou cinq enfants. Les conditions d'existence au village sont plus frugales encore que celles de la famille de O***, mais aucun membre de la fa¬mille ne manque du nécessaire.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
-        § 3. RELIGION ET HABITUDES MORALES.
-       </head>
-       <p xml:id="para_15_4142_44">
-        Le chef de famille appartient, comme tous ses compatriotes, à la religion bouddhique ; il a accompli à la bonzerie un stage de plusieurs années, et reste fort attaché aux pratiques très simples de son culte. La famille se rend aux pagodes lors des fêtes et fait les offrandes en rap¬port avec sa pauvreté relative ; chaque matin elle remet aux bonzes quêteurs, et même à des mendiants laiiques, des aumônes en riz avec fruits ou poissons. Le fils aîné, Im, fréquente depuis un an l'école des bonzes pour y apprendre la lecture, l'écriture, et les éléments de sa religion. Les croyances des Cambodgiens sont difficiles à connaître exactement, l'étranger ne peut guère les découvrir sous les supersti¬tions idolâtriques du peuple ; et la doctrine ne semble pas être l'objet principal de l'enseignement religieux ; d'ailleurs les abstractions sont peu compréhensibles pour les cerveaux asiatiques. Au contraire, la mo¬rale pratique, basée sur les préceptes bouddhiques ou sur les traditions ancestrales, atteint un degré qui surprend l'observateur européen. La considération publique récompense les hommes attachés à leurs de¬voirs, et les mœurs ont conservé dans tout le pays une simplicité re¬marquable. Il ne semble pas que l'influence française ait jusqu'ici apporté aucun changement de ce côté.
-       </p>
-       <p xml:id="para_15_4142_45">
-        Les Malais, les Indiens, les Chams forment une minorité qui pro¬fesse le mahométisme ; on assure que dans les unions mixtes, c'est toujours la religion musulmane qui est imposée à la nouvelle famille ; même si le mari est d'une autre secte il doit se faire musulman, et les <pb facs="#facs_458" n="443" source="2serlesouvriersde05sociuoft_0495.xml"/> enfants suivent tous la même confession. Les Chinois et les Annamites sont bouddhistes, mais beaucoup moins convaincus et moins élés que les Cambodgiens. Les missionnaires catholiques ne comptent en¬core dans leurs chrétientés que des Annamites et des métis. On n'ob¬serve paes de haines religieuses entre ces populations si diverses de culte et d'origine.
-       </p>
-       <p xml:id="para_15_413_47">
-        Une grande union règne dans les familles ; le respect de la femme et des enfants pour le chef de famille est très marqué. Le père aime beau¬coup les siens, et des son travail professionnel achevé, il vit cons¬tamment avec eux dans la petite maison qu'il vient de construire.
-       </p>
-       <p xml:id="para_15_413_48">
-        O*** est nonchalant, son intelligence est moyenne, peu ouverte mais réfléchie ; il est très fidèle à ses devoirs, scrupuleux dans ses fonctions. Un peu fier, il nourrit l'ambition de parvenir à un grade élevé de l'administration indigène ; su 'parenté avec de grands man¬darins, sa connaissance du françis et son instruction dans sa propre langue, lui permettront d'occuper honorablement un poste officiel. Il vit simplement du régime ordinaire, use modérément du tabac et du bétel; il n'a jamais fumé l'opium et ne s'adonne pas au jeu. Ces deux vices d'importation chinoiserse sont vite répandus, et sévissent malheu¬reusement dans tous les classes, autant que l'alcoolisme parmi les ou¬vriers européens.
-       </p>
-       <p xml:id="para_15_413_49">
-        La sobriété de la famille est remarquable ; la mère et les enfants ne boivent que de l'eau, presque jamais de thé ni de café; O*** prend à chaque repas un petit verre de chumchum, eau-de-vie de riz, et consi¬dêre ce stimulant comme indispensable, quoique fort onéreux pour son budget.
-       </p>
-       <p xml:id="para_15_413_50">
-        La polygamie, permise par la coutume, n'est guère constatée que che les grands personnages ; les fenmes ont une réputution de sugesse qui les différencie des femmes annamites, fort dissolues. Ainsi on trouve peu de Caumbodgiennes parmi les femmes de mauvaise vie. Les enfants sont élevés avec dévoûment, et même avec une vive tendresse ; il n'est pas rare de voir de pauvres mères acheter pour leurs petits nho, des friandises, des sucreries, bien au delà des ressources de leur bourse.
-       </p>
-       <p xml:id="para_15_413_51">
-        O*** fonctionnaire d'une école du protectorat français, professe une respectueuse sympathie pour les Européens, âs lou barangsês, son admiration pour nos meurs, notre civilisation, se manifeste naivement. Bien que plus instruit que beaucoup de Cambodgiens, il est incaupable de comprendre les principes élémentaires des sciences, et les moindres <pb facs="#facs_459" n="444" source="2serlesouvriersde05sociuoft_0496.xml"/> inventions modernes lui paraissent merveilleuses. Il souhaite très vo¬lontiers les progrès de la domination francaise dans son pays, persuadé qu'elle amènera, avec le progrès matériel, la réforme des abus énor¬mes, invétérés, dont souffre le peuple, et rétablira la justice, la probité dans les administrations publiques, yutthêhor knong reechkar.
-       </p>
-       <p xml:id="para_15_444_53">
-        L'esprit de prévoyance est peu développé dans les familles, plus ce¬pendant que chez les Annamites, dont la légèreté et l'insouciance sont inconcevables ; aucune réserve pour les cas de maladie ou d'accident, aucune épargne. Il est vrai que l'assistance mutuelle est largement pra¬tiquée ; l'aide réciproque entre pàrents, entre amis et voisins même, est partout en honneur. L'analyse de la section IV du budget fait voir combien sont relativement élevées les dépenses altruistes che ces peuples si primitifs. L'organisation est ici demeurée plus près du ré¬gime originel de la-famille antique ; on ne voit pas, malgré l'extrême misêre de la masse du peuple, d'antagonisme de classes ; et soit par résignation fataliste, soit par une insensibilité qu'expliquerait une si longue déchéance, la condition de tous ces pauvres gens leur parait acceptable.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
+       <p xml:id="para_15_4142_44">Le chef de famille appartient, comme tous ses compatriotes, à la religion bouddhique ; il a accompli à la bonzerie un stage de plusieurs années, et reste fort attaché aux pratiques très simples de son culte. La famille se rend aux pagodes lors des fêtes et fait les offrandes en rap¬port avec sa pauvreté relative ; chaque matin elle remet aux bonzes quêteurs, et même à des mendiants laiiques, des aumônes en riz avec fruits ou poissons. Le fils aîné, Im, fréquente depuis un an l'école des bonzes pour y apprendre la lecture, l'écriture, et les éléments de sa religion. Les croyances des Cambodgiens sont difficiles à connaître exactement, l'étranger ne peut guère les découvrir sous les supersti¬tions idolâtriques du peuple ; et la doctrine ne semble pas être l'objet principal de l'enseignement religieux ; d'ailleurs les abstractions sont peu compréhensibles pour les cerveaux asiatiques. Au contraire, la mo¬rale pratique, basée sur les préceptes bouddhiques ou sur les traditions ancestrales, atteint un degré qui surprend l'observateur européen. La considération publique récompense les hommes attachés à leurs de¬voirs, et les mœurs ont conservé dans tout le pays une simplicité re¬marquable. Il ne semble pas que l'influence française ait jusqu'ici apporté aucun changement de ce côté.</p>
+       <p xml:id="para_15_4142_45">Les Malais, les Indiens, les Chams forment une minorité qui pro¬fesse le mahométisme ; on assure que dans les unions mixtes, c'est toujours la religion musulmane qui est imposée à la nouvelle famille ; même si le mari est d'une autre secte il doit se faire musulman, et les <pb facs="#facs_458" n="443" source="2serlesouvriersde05sociuoft_0495.xml"/> enfants suivent tous la même confession. Les Chinois et les Annamites sont bouddhistes, mais beaucoup moins convaincus et moins élés que les Cambodgiens. Les missionnaires catholiques ne comptent en¬core dans leurs chrétientés que des Annamites et des métis. On n'ob¬serve paes de haines religieuses entre ces populations si diverses de culte et d'origine.</p>
+       <p xml:id="para_15_413_47">Une grande union règne dans les familles ; le respect de la femme et des enfants pour le chef de famille est très marqué. Le père aime beau¬coup les siens, et des son travail professionnel achevé, il vit cons¬tamment avec eux dans la petite maison qu'il vient de construire.</p>
+       <p xml:id="para_15_413_48">O*** est nonchalant, son intelligence est moyenne, peu ouverte mais réfléchie ; il est très fidèle à ses devoirs, scrupuleux dans ses fonctions. Un peu fier, il nourrit l'ambition de parvenir à un grade élevé de l'administration indigène ; su 'parenté avec de grands man¬darins, sa connaissance du françis et son instruction dans sa propre langue, lui permettront d'occuper honorablement un poste officiel. Il vit simplement du régime ordinaire, use modérément du tabac et du bétel; il n'a jamais fumé l'opium et ne s'adonne pas au jeu. Ces deux vices d'importation chinoiserse sont vite répandus, et sévissent malheu¬reusement dans tous les classes, autant que l'alcoolisme parmi les ou¬vriers européens.</p>
+       <p xml:id="para_15_413_49">La sobriété de la famille est remarquable ; la mère et les enfants ne boivent que de l'eau, presque jamais de thé ni de café; O*** prend à chaque repas un petit verre de chumchum, eau-de-vie de riz, et consi¬dêre ce stimulant comme indispensable, quoique fort onéreux pour son budget.</p>
+       <p xml:id="para_15_413_50">La polygamie, permise par la coutume, n'est guère constatée que che les grands personnages ; les fenmes ont une réputution de sugesse qui les différencie des femmes annamites, fort dissolues. Ainsi on trouve peu de Caumbodgiennes parmi les femmes de mauvaise vie. Les enfants sont élevés avec dévoûment, et même avec une vive tendresse ; il n'est pas rare de voir de pauvres mères acheter pour leurs petits nho, des friandises, des sucreries, bien au delà des ressources de leur bourse.</p>
+       <p xml:id="para_15_413_51">O*** fonctionnaire d'une école du protectorat français, professe une respectueuse sympathie pour les Européens, âs lou barangsês, son admiration pour nos meurs, notre civilisation, se manifeste naivement. Bien que plus instruit que beaucoup de Cambodgiens, il est incaupable de comprendre les principes élémentaires des sciences, et les moindres <pb facs="#facs_459" n="444" source="2serlesouvriersde05sociuoft_0496.xml"/> inventions modernes lui paraissent merveilleuses. Il souhaite très vo¬lontiers les progrès de la domination francaise dans son pays, persuadé qu'elle amènera, avec le progrès matériel, la réforme des abus énor¬mes, invétérés, dont souffre le peuple, et rétablira la justice, la probité dans les administrations publiques, yutthêhor knong reechkar.</p>
+       <p xml:id="para_15_444_53">L'esprit de prévoyance est peu développé dans les familles, plus ce¬pendant que chez les Annamites, dont la légèreté et l'insouciance sont inconcevables ; aucune réserve pour les cas de maladie ou d'accident, aucune épargne. Il est vrai que l'assistance mutuelle est largement pra¬tiquée ; l'aide réciproque entre pàrents, entre amis et voisins même, est partout en honneur. L'analyse de la section IV du budget fait voir combien sont relativement élevées les dépenses altruistes che ces peuples si primitifs. L'organisation est ici demeurée plus près du ré¬gime originel de la-famille antique ; on ne voit pas, malgré l'extrême misêre de la masse du peuple, d'antagonisme de classes ; et soit par résignation fataliste, soit par une insensibilité qu'expliquerait une si longue déchéance, la condition de tous ces pauvres gens leur parait acceptable.</p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
-        § 4. HYGIÈNE ET SERVICE DE SANTÉ.
-       </head>
-       <p xml:id="para_15_444_56">
-        Le chef de famille représente asse bien la complexion moyenne du Cambodgien : 1ᵐ 56 de taille, maigre (58 k.), de teint très foncé, de force musculaire médiocre. Sa santé n'est pas bonne ; il souffre fréquemment d'accès de fièvres et d'ophtalmies ; Iang, son père, a succombé à une fièvre pernicieuse. Léap, n'est pas très robuste non plus. Deux enfants déjà sont morts de la diarrhée infantile, les trois survivants parais¬sent bien constitués ; grâce aux soins des parents, grâce aux progrès qui sont apportés au régime de nourriture et d'habitation, surtout si l'assainissement de la ville est enfin entrepris par l'autorité fran¬çaise, peut-être pourront-ils parvenir à un état de vigueur et de santé, rare chez les Cambodgiens.
-       </p>
-       <p xml:id="para_15_444_57">
-        Plus encore que dans les campagnes, les privations, l'insalubrité du climat, affaiblissent l'homme et le prédisposent aux affections épi¬démiques, redoutables en ces régions. La santé publique est mauvaise, les fièvres paludéennes, la dysenterie, le choléra font beaucoup de vic¬times. La variole décime les enfants et même les adultes. Les efforts du protectorat pour la propagation de la vaccine ont atténué le fléau ; ce<pb facs="#facs_460" n="445" source="2serlesouvriersde05sociuoft_0497.xml"/>pendant on voit partout des visages portant les traces de la maladie. Les affections hépatiques frappent les Européens plus que les Asiatiques; n'est-ce pas une conséquence de la différence d'alimentation ?
-       </p>
-       <p xml:id="para_15_415_59">
-        Le service de voirie est des plus défectueux. La ville est malpropre, les eaux ne sont pas potables. Par suite des chaleurs étouffantes pen¬dant cinq ou six mois, les marais formés après la saison pluvieuse de¬iennent pestilentiels.
-       </p>
-       <p xml:id="para_15_415_60">
-        Les Cambodgiens sont inférieurs aux Chinois comme force physique, et cependant plus grands et plus vigoureux que les Annamites, mais moins agiles. Le type est assez laid ; les femmes sont peu attrayantes, elles sont fécondes ; les ménages comptent souvent cinq ou six enfants.
-       </p>
-       <p xml:id="para_15_415_61">
-        O*** et sa famille commencent à apprécier les médicaments français, le sulfate de quinine particuliêrement. Un pharmacien européen établi depuis quelques années a déjà une nombreuse clientèle indigène. Cependant, par motif d'économie, heaucoup se contentent des soins du médecin chinois ; celui-ci vend en même temps les remèdes qu'il prescrit. Léap, dans ses dernières couches, a été assistée par une sager femme annamite qui est restée près d'elle pendant quinze jours ; les honoraires pour cette cure sont de 2 piastres
-        <note type="bp">
-         <p>
-          Dans le cour de l'année 1897, la piastre a varié de 2ᶠ 60 à 2ᶠ 30.
-         </p>
-        </note>
-        (5 francs) plus la nourriture.
-       </p>
-       <p xml:id="para_15_415_62">
-        O** est allé plusieurs fois à la consultation du médecin chef de l'hô¬pital, où a été établie une section pour les indigènes. Quand ceux-ci, plus confiants, moins timides, se seront accoutumés aux docteurs fran¬çais kruv-pêt, il en résultera une grande amélioration de la santé gé¬nérale. En Cochinchine, on a formé des infirmiers, des accoucheuses asiatiques qui rendent de précieux services et suppriment peu à peu la crédulité populaire aux sorciers et aux empiriques.
-       </p>
-       <p xml:id="para_15_415_63">
-        Il ne saurait etre question de mesures d'hygiène chez ces familles ignorantes, l'eau est trop rare pour que la propreté la plus élémentaire soit observée aussi longtemps que le contact des Européens n'aura pas modifié les mœurs.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
+       <p xml:id="para_15_444_56">Le chef de famille représente asse bien la complexion moyenne du Cambodgien : 1ᵐ 56 de taille, maigre (58 k.), de teint très foncé, de force musculaire médiocre. Sa santé n'est pas bonne ; il souffre fréquemment d'accès de fièvres et d'ophtalmies ; Iang, son père, a succombé à une fièvre pernicieuse. Léap, n'est pas très robuste non plus. Deux enfants déjà sont morts de la diarrhée infantile, les trois survivants parais¬sent bien constitués ; grâce aux soins des parents, grâce aux progrès qui sont apportés au régime de nourriture et d'habitation, surtout si l'assainissement de la ville est enfin entrepris par l'autorité fran¬çaise, peut-être pourront-ils parvenir à un état de vigueur et de santé, rare chez les Cambodgiens.</p>
+       <p xml:id="para_15_444_57">Plus encore que dans les campagnes, les privations, l'insalubrité du climat, affaiblissent l'homme et le prédisposent aux affections épi¬démiques, redoutables en ces régions. La santé publique est mauvaise, les fièvres paludéennes, la dysenterie, le choléra font beaucoup de vic¬times. La variole décime les enfants et même les adultes. Les efforts du protectorat pour la propagation de la vaccine ont atténué le fléau ; ce<pb facs="#facs_460" n="445" source="2serlesouvriersde05sociuoft_0497.xml"/>pendant on voit partout des visages portant les traces de la maladie. Les affections hépatiques frappent les Européens plus que les Asiatiques; n'est-ce pas une conséquence de la différence d'alimentation ?</p>
+       <p xml:id="para_15_415_59">Le service de voirie est des plus défectueux. La ville est malpropre, les eaux ne sont pas potables. Par suite des chaleurs étouffantes pen¬dant cinq ou six mois, les marais formés après la saison pluvieuse de¬iennent pestilentiels.</p>
+       <p xml:id="para_15_415_60">Les Cambodgiens sont inférieurs aux Chinois comme force physique, et cependant plus grands et plus vigoureux que les Annamites, mais moins agiles. Le type est assez laid ; les femmes sont peu attrayantes, elles sont fécondes ; les ménages comptent souvent cinq ou six enfants.</p>
+       <p xml:id="para_15_415_61">O*** et sa famille commencent à apprécier les médicaments français, le sulfate de quinine particuliêrement. Un pharmacien européen établi depuis quelques années a déjà une nombreuse clientèle indigène. Cependant, par motif d'économie, heaucoup se contentent des soins du médecin chinois ; celui-ci vend en même temps les remèdes qu'il prescrit. Léap, dans ses dernières couches, a été assistée par une sager femme annamite qui est restée près d'elle pendant quinze jours ; les honoraires pour cette cure sont de 2 piastres<note type="bp">
+         <p>Dans le cour de l'année 1897, la piastre a varié de 2ᶠ 60 à 2ᶠ 30.</p>
+        </note>(5 francs) plus la nourriture.</p>
+       <p xml:id="para_15_415_62">O** est allé plusieurs fois à la consultation du médecin chef de l'hô¬pital, où a été établie une section pour les indigènes. Quand ceux-ci, plus confiants, moins timides, se seront accoutumés aux docteurs fran¬çais kruv-pêt, il en résultera une grande amélioration de la santé gé¬nérale. En Cochinchine, on a formé des infirmiers, des accoucheuses asiatiques qui rendent de précieux services et suppriment peu à peu la crédulité populaire aux sorciers et aux empiriques.</p>
+       <p xml:id="para_15_415_63">Il ne saurait etre question de mesures d'hygiène chez ces familles ignorantes, l'eau est trop rare pour que la propreté la plus élémentaire soit observée aussi longtemps que le contact des Européens n'aura pas modifié les mœurs.</p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
-        § 5. RANG DE LA FAMILLE.
-       </head>
-       <p xml:id="para_15_415_66">
-        La famille occupe une situation aisée ; cependant le chef, simple instituteur, ne porte aucun des nombreux titres de la hiérarchie indi<pb facs="#facs_461" n="446" source="2serlesouvriersde05sociuoft_0498.xml"/>gène. Il n'existe pas de classes sociales fixes au Cambodge, rien qui ressemble aux castes indoues, ni aux corps de lettrés du mandarinat annamite ou chinois. Le pouvoir royal est absolu, les fonctions sont dévolues aux favoris sans conditions de moralité ou de capacité, les ré¬vocations sont arbitraires, la vénalité des charges se pratique en secret avec la complicité et au bénéfice des familiers de la cour. Malgré leurs exactions, les dignitaires n'arrivent point à constituer de fortune fa¬miliale ; des lois de succession moroda appréhendent la bonne part des biens acquis pendant l'exercice de toute fonction publique. Aucune ri¬chesse d'origine commerciale ou fonciêre, le roiseul possède des trésors immenses ; ses fils, les princes de sa dynastie, ne vivent que des subsides qu'il veut bien leur accorder. La famille est instable, elle n'est point liée au sol. La propriété a été féodale, prétendent quelques auteurs ; ac¬tuellement, on peut dire que la propriété foncière n'existe pas au Cam¬bodge, au moins comme nous l'entendons. Le sol, ou mieux le droit de cultiver, appartient au premier occupant ; en réalité, on ne peut dé¬posséder que celui qui délaisse pendant un an la parcelle qu'il détenait. Le partage des objets mobiliers a lieu par fractions égales entre les en¬fants ; l'ainé a quelquefois une part d'enfant en plus ; le pêre dispose librement par testament; la veuve est toujours héritière ou usufruitière. Les mœurs reconnaissent une supériorité honorifique aux Cambodgiens instruits, qui occupent le moindre poste officiel, reechbar, aussi O*** jouit-il d'une certaine considération qu'il mérite par la dignité de sa vie.
-       </p>
-       <p xml:id="para_15_446_69">
-        Au-dessous de ces familles de petits fonctionnaires, se place la caté¬gorie des domestiques ou agents subalternes du palais ; trois ou quatre mille personnes vivent, au dedans et autour du éang douong, de mini¬mes salaires et de quelques piculs de ri. La simplicité de la vie est telle que les plus pauvres, les nomades, se contententde 20 cents (0,50) tous les deux ou trois jours ; certains ménages dépensent moins de cent francs de nourriture annuellement.
-       </p>
-       <p xml:id="para_15_446_70">
-        La famille de O*** est protégée très généreusement par le prince S*** qui l'a même aidée lors de la construction de la maison, par le prèt gra¬tuit, hcheu, d'une somme de 30 piastres, remboursée par acomptes mensuels. O*** a acquitté exactement cette dette ; il n'en a point d'autre. Ses économies annuelles sont minces. Cette année l'équilibre de son budget a été facilité par l'appoint des lecons particulières données à un fonctionnaire du protectorat français, nais cette ressource ne se re¬produira pas régulièrement. Toutefois l'avenir lui réserve quelque avancement qui augmentera ses recettes.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
+       <p xml:id="para_15_415_66">La famille occupe une situation aisée ; cependant le chef, simple instituteur, ne porte aucun des nombreux titres de la hiérarchie indi<pb facs="#facs_461" n="446" source="2serlesouvriersde05sociuoft_0498.xml"/>gène. Il n'existe pas de classes sociales fixes au Cambodge, rien qui ressemble aux castes indoues, ni aux corps de lettrés du mandarinat annamite ou chinois. Le pouvoir royal est absolu, les fonctions sont dévolues aux favoris sans conditions de moralité ou de capacité, les ré¬vocations sont arbitraires, la vénalité des charges se pratique en secret avec la complicité et au bénéfice des familiers de la cour. Malgré leurs exactions, les dignitaires n'arrivent point à constituer de fortune fa¬miliale ; des lois de succession moroda appréhendent la bonne part des biens acquis pendant l'exercice de toute fonction publique. Aucune ri¬chesse d'origine commerciale ou fonciêre, le roiseul possède des trésors immenses ; ses fils, les princes de sa dynastie, ne vivent que des subsides qu'il veut bien leur accorder. La famille est instable, elle n'est point liée au sol. La propriété a été féodale, prétendent quelques auteurs ; ac¬tuellement, on peut dire que la propriété foncière n'existe pas au Cam¬bodge, au moins comme nous l'entendons. Le sol, ou mieux le droit de cultiver, appartient au premier occupant ; en réalité, on ne peut dé¬posséder que celui qui délaisse pendant un an la parcelle qu'il détenait. Le partage des objets mobiliers a lieu par fractions égales entre les en¬fants ; l'ainé a quelquefois une part d'enfant en plus ; le pêre dispose librement par testament; la veuve est toujours héritière ou usufruitière. Les mœurs reconnaissent une supériorité honorifique aux Cambodgiens instruits, qui occupent le moindre poste officiel, reechbar, aussi O*** jouit-il d'une certaine considération qu'il mérite par la dignité de sa vie.</p>
+       <p xml:id="para_15_446_69">Au-dessous de ces familles de petits fonctionnaires, se place la caté¬gorie des domestiques ou agents subalternes du palais ; trois ou quatre mille personnes vivent, au dedans et autour du éang douong, de mini¬mes salaires et de quelques piculs de ri. La simplicité de la vie est telle que les plus pauvres, les nomades, se contententde 20 cents (0,50) tous les deux ou trois jours ; certains ménages dépensent moins de cent francs de nourriture annuellement.</p>
+       <p xml:id="para_15_446_70">La famille de O*** est protégée très généreusement par le prince S*** qui l'a même aidée lors de la construction de la maison, par le prèt gra¬tuit, hcheu, d'une somme de 30 piastres, remboursée par acomptes mensuels. O*** a acquitté exactement cette dette ; il n'en a point d'autre. Ses économies annuelles sont minces. Cette année l'équilibre de son budget a été facilité par l'appoint des lecons particulières données à un fonctionnaire du protectorat français, nais cette ressource ne se re¬produira pas régulièrement. Toutefois l'avenir lui réserve quelque avancement qui augmentera ses recettes.</p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
-       Moyens d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
-        § 6. PROPRIÉTÉS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
        <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_15__75">
-         <pb facs="#facs_462" n="447" source="2serlesouvriersde05sociuoft_0499.xml"/>(Mobilier et vêtements non comprs.)
+        <p xml:id="para_15__75"><pb facs="#facs_462" n="447" source="2serlesouvriersde05sociuoft_0499.xml"/> (Mobilier et vêtements non comprs.)
         </p>
        </div>
        <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_15__76">
-         IMMEUBLES............ 312ᶠ 50
-        </p>
-        <p xml:id="para_15__77">
-         1° Habitation. — Maison, phtéas, composée d'un rez-de-chaussée élevé sur colonnes et d'une annexe ; le tout construit en bambous, couvert en paillotte. Les dépenses pour la construction se sont élevées à 100 plastres, 250ᶠ 00.
-        </p>
-        <p xml:id="para_15__78">
-         Terrain. — Champ de culture, châmcar, propriété rurale, acquise parle père de O*** ; superfîcie, 40 ares ; le revenu est laissé à la mère. La part de O*** dans la nue proprlété est de moitié, 62ᶠ 50.
-        </p>
+        <p xml:id="para_15__76">IMMEUBLES............ 312ᶠ 50</p>
+        <p xml:id="para_15__77">1° Habitation. — Maison, phtéas, composée d'un rez-de-chaussée élevé sur colonnes et d'une annexe ; le tout construit en bambous, couvert en paillotte. Les dépenses pour la construction se sont élevées à 100 plastres, 250ᶠ 00.</p>
+        <p xml:id="para_15__78">Terrain. — Champ de culture, châmcar, propriété rurale, acquise parle père de O*** ; superfîcie, 40 ares ; le revenu est laissé à la mère. La part de O*** dans la nue proprlété est de moitié, 62ᶠ 50.</p>
        </div>
        <div type="proprietes" subtype="argent">
-        <p xml:id="para_15__79">
-         ARGENT............ 22ᶠ 00
-        </p>
-        <p xml:id="para_15__80">
-         En monnaie d'argent, piastres françaises ou mexicaines et billon français ou cambod¬gien ; dix piastres sufisent comme fonds de roulement ; les dépenses et recettes du bud¬get sont pour les 3 en argent.
-        </p>
+        <p xml:id="para_15__79">ARGENT............ 22ᶠ 00</p>
+        <p xml:id="para_15__80">En monnaie d'argent, piastres françaises ou mexicaines et billon français ou cambod¬gien ; dix piastres sufisent comme fonds de roulement ; les dépenses et recettes du bud¬get sont pour les 3 en argent.</p>
        </div>
        <div type="proprietes" subtype="proprietes_esclave">
-        <p xml:id="para_15__81">
-         PROPRIÉTÉ D'UN khnohm ou esclave pour dettes............ 95ᶠ 00
-        </p>
-        <p xml:id="para_15__82">
-         Le billet de dette, sambot bamnôl, qui constitue le titre de créance de O*** sur le bâmreu ou esclave, est chiffré à 38 piastres.
-        </p>
+        <p xml:id="para_15__81">PROPRIÉTÉ D'UN khnohm ou esclave pour dettes............ 95ᶠ 00</p>
+        <p xml:id="para_15__82">Le billet de dette, sambot bamnôl, qui constitue le titre de créance de O*** sur le bâmreu ou esclave, est chiffré à 38 piastres.</p>
        </div>
        <div type="proprietes" subtype="animaux">
-        <p xml:id="para_15__83">
-         ANIMAUX DOMESTIQUES entretenus toute l'année............ 3ᶠ 00
-        </p>
-        <p xml:id="para_15__84">
-         8 poules, mon-nhi, 3ᶠ 00; — deux chiens de pur agrément (pour mémoire).
-        </p>
+        <p xml:id="para_15__83">ANIMAUX DOMESTIQUES entretenus toute l'année............ 3ᶠ 00</p>
+        <p xml:id="para_15__84">8 poules, mon-nhi, 3ᶠ 00; — deux chiens de pur agrément (pour mémoire).</p>
        </div>
        <div type="proprietes" subtype="materiel">
-        <p xml:id="para_15__85">
-         MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 10ᶠ 00
-        </p>
-        <p xml:id="para_15__86">
-         En plus des ustensiles de cuisine, la famille possède un mortier avec pilon en granit pour l'écrasement du riz en farine pour la patisserie fabriquée et vendue par la femme.
-        </p>
+        <p xml:id="para_15__85">MATÉRIEL SPÉCIAL DES Travaux et industries............ 10ᶠ 00</p>
+        <p xml:id="para_15__86">En plus des ustensiles de cuisine, la famille possède un mortier avec pilon en granit pour l'écrasement du riz en farine pour la patisserie fabriquée et vendue par la femme.</p>
        </div>
        <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_15__87">
-         VALEUR TOTALE des propriétés............ 442ᶠ 50
-        </p>
+        <p xml:id="para_15__87">VALEUR TOTALE des propriétés............ 442ᶠ 50</p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
-        § 7. SUBVENTIONS.
-       </head>
-       <p xml:id="para_15__90">
-        Les terrauins de la ville de Pnom-Penh n'ont été vendus aux parti¬culiers que par le protectorat francais, à qui le roi Norodom avait con¬senti une cession spéciale. Le roi possède encore de vastes étendues autour de son palais ; dans les environs, les princes ses fils ont été dotés de maisons avec jardins.
-       </p>
-       <p xml:id="para_15__91">
-        L'un d'eux, le prince S***, exerce vis-à-vis de la famille de O*** une pro¬tection très active, très bienveillante ; c'est une vieille coutume qui s'est conservée dans le pays; chaque famille se choisit, en dehors des au<pb facs="#facs_463" n="448" source="2serlesouvriersde05sociuoft_0500.xml"/>torités locales, un patron ou défenseur, mandarin haut placé ou mem¬bre de la dynastie régnante oongsa. C'est ainsi que le prince S*** a per¬mis à vingt-cinq familles de ses protégés ou clients, de s'établir sur une parcelle des terrains dépendant de son habitation; il s'est ainsi créé une impasse ou cité.
-       </p>
-       <p xml:id="para_15_448_93">
-        Aucun titre ne régularise cette concession toujours révocable ; aucun service même personnel n'est exigé en retour.
-       </p>
-       <p xml:id="para_15_448_94">
-        L'intérêt légal de 24 par mois a été attribué à la valeur du sol oc¬cupé et forme au budget le montant de la subvention allouée de ce chef, équivalente au prix de loyer d'un terrain situé dans le quar¬tier.
-       </p>
-       <p xml:id="para_15_448_95">
-        Les droits d'usage sont presque illimités dans le royaume, dont le cinquième à peine est défriché ; les produits de la nature appartien¬nent à tous : pêche, cueillette des herbes comestibles, de certains fruits sauvages, du bois pour chauffage. A Pnom-Penh, la famille a recueilli, à la saison des pluies, une partie du bois nécessaire à la cuisson des aliments ; cette subvention est évaluée à 3 stères.
-       </p>
-       <p xml:id="para_15_448_96">
-        Les coutumes nationales accordent très largement l'hospitalité aux parents, aux amis qui se visitent quelquefois à de longues dis¬tances. O*** et sa famille passent chaque année, aux vacances scolaires de janvier, deux semaines chez leurs parents de Krauchmar. C'est l'af¬fection seule qui motive ces réunions, la vieille mère ayant alors près d'elle tous ses enfants et petits-enfants. Il n'y a guère d'intérêts à débattre entre ces pauvres gens. O*** est nourri et logé chez sa sœur pendant son séjour ; sa seule dépense est le prix du voyage de 150 li¬lomètres (bateau des Messageries fluviales, 5 fr.) ; il rapporte des ca¬deaux, tabac, oranges.
-       </p>
-       <p xml:id="para_15_448_97">
-        L'instruction et l'éducation religieuse sont gratuitement données aux jeunes garçons ; le fils aîné a commencé à bénéficier de cette subven¬tion. Mais les méthodes des bonzes sont routinières, défectueuses ; la paresse, la nonchalance de tous, maîtres et élèves, est telle que les en¬fants passent quatre ou cinq années à n'apprendre que la lecture et l'é¬criture de leur langue ; il est particuliêrement regrettable que le gou¬vernement français n'ait rien fait encore pour l'instruction populaire.
-       </p>
-       <p xml:id="para_15_448_98">
-        L'allocation comme consultations médicales et produits pharma¬ceutiques est très appréciée. O*** y recourra de plus en plus.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
+       <p xml:id="para_15__90">Les terrauins de la ville de Pnom-Penh n'ont été vendus aux parti¬culiers que par le protectorat francais, à qui le roi Norodom avait con¬senti une cession spéciale. Le roi possède encore de vastes étendues autour de son palais ; dans les environs, les princes ses fils ont été dotés de maisons avec jardins.</p>
+       <p xml:id="para_15__91">L'un d'eux, le prince S***, exerce vis-à-vis de la famille de O*** une pro¬tection très active, très bienveillante ; c'est une vieille coutume qui s'est conservée dans le pays; chaque famille se choisit, en dehors des au<pb facs="#facs_463" n="448" source="2serlesouvriersde05sociuoft_0500.xml"/>torités locales, un patron ou défenseur, mandarin haut placé ou mem¬bre de la dynastie régnante oongsa. C'est ainsi que le prince S*** a per¬mis à vingt-cinq familles de ses protégés ou clients, de s'établir sur une parcelle des terrains dépendant de son habitation; il s'est ainsi créé une impasse ou cité.</p>
+       <p xml:id="para_15_448_93">Aucun titre ne régularise cette concession toujours révocable ; aucun service même personnel n'est exigé en retour.</p>
+       <p xml:id="para_15_448_94">L'intérêt légal de 24 par mois a été attribué à la valeur du sol oc¬cupé et forme au budget le montant de la subvention allouée de ce chef, équivalente au prix de loyer d'un terrain situé dans le quar¬tier.</p>
+       <p xml:id="para_15_448_95">Les droits d'usage sont presque illimités dans le royaume, dont le cinquième à peine est défriché ; les produits de la nature appartien¬nent à tous : pêche, cueillette des herbes comestibles, de certains fruits sauvages, du bois pour chauffage. A Pnom-Penh, la famille a recueilli, à la saison des pluies, une partie du bois nécessaire à la cuisson des aliments ; cette subvention est évaluée à 3 stères.</p>
+       <p xml:id="para_15_448_96">Les coutumes nationales accordent très largement l'hospitalité aux parents, aux amis qui se visitent quelquefois à de longues dis¬tances. O*** et sa famille passent chaque année, aux vacances scolaires de janvier, deux semaines chez leurs parents de Krauchmar. C'est l'af¬fection seule qui motive ces réunions, la vieille mère ayant alors près d'elle tous ses enfants et petits-enfants. Il n'y a guère d'intérêts à débattre entre ces pauvres gens. O*** est nourri et logé chez sa sœur pendant son séjour ; sa seule dépense est le prix du voyage de 150 li¬lomètres (bateau des Messageries fluviales, 5 fr.) ; il rapporte des ca¬deaux, tabac, oranges.</p>
+       <p xml:id="para_15_448_97">L'instruction et l'éducation religieuse sont gratuitement données aux jeunes garçons ; le fils aîné a commencé à bénéficier de cette subven¬tion. Mais les méthodes des bonzes sont routinières, défectueuses ; la paresse, la nonchalance de tous, maîtres et élèves, est telle que les en¬fants passent quatre ou cinq années à n'apprendre que la lecture et l'é¬criture de leur langue ; il est particuliêrement regrettable que le gou¬vernement français n'ait rien fait encore pour l'instruction populaire.</p>
+       <p xml:id="para_15_448_98">L'allocation comme consultations médicales et produits pharma¬ceutiques est très appréciée. O*** y recourra de plus en plus.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
-        § 8. TRAVAUX ET INDUSTRIES.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
        <div type="travaux" subtype="chef_famille">
-        <p xml:id="para_15_449_101">
-         <pb facs="#facs_464" n="449" source="2serlesouvriersde05sociuoft_0501.xml"/>Travaux du chef de famille. — O*** touche un traitement fixe de 16 piastres par mois à l'École cambodgienne francaise comme profes¬seur d'écriture khmère ; il enseigne en outre les éléments du français aux élêves commencants. Cette école compte aujourd'hui cent cinquante petits Chinois, Annamites, Cambodgiens et métis, admis par faveur, nourris et instruits gratuitement pendant quatre et cinq ans. Insufi¬summent dotée et organisée, l'école n'a produit que de médiocres ré¬sultats ; elle doit plus tard fournir les agents subalternes de l'adminis¬tration française au titre indigène, interprètes, scribes, secrétaires, etc. Peut-être même formera-t-elle des instituteurs lorsqu'on entreprendra l'œuvre importante de créer l'enseignement public dans tout le pays. l est à désirer que les programmes soient réformés dans un sens pra¬tique, professionnel. Actuellement, outre le directeur qui est français, le personnel enseignant comprend cinq professeurs cambodgiens; les cours ont lieu de 8 heures à 10 h. 1/2; et de 2 h. 1/2 à 5 heures ; congés dimanches et jeudis ; vacances, le mois de janvier. O*** a ainsi des loi¬sirs ; son emploi ne lui prend que 225 jours de l'année ; ce qui fait res¬sortir le prix de son travailà un taux exceptionnel de 0 fr. 40 a l'heure. Il donne en outre, quand l'occasion se présente, des lȩons de langue cambodgienne aux rares Francais qui veulent l'étudier méthodique¬ment; les cachets lui sont payés 1,2 piastre (1 fr. 25 pour deux heures); il fait aussi chez lui de menus travaux d'écriture : copies, tra¬ductions, etc. lIl apporte à ces diverses occupations une grande bonne volonté et une conscience irréprochable. Ses efforts sont appréciés de ses chefs, et des avantages de traitement, des gratifications l'en ont récompensé. Mais il est bien vite lassé quand les travaux supplémen¬taires deviennent un peu pressants ; il allègue que l'insufflsance du ré¬gime de nourriture l'empêche de fournir beaucoup de travail.
-        </p>
-        <p xml:id="para_15_449_102">
-         Cependant il procède lui-même ou avec l'aide de Têt, l'esclve, à l'entretien de la maison et du mobilier. Les pluies, les ouragans de la mauvaise saison, occasionnent fréquemment des dégradations à la frêle urchitecture ; chaque habitant exécute les réparations nécessauires.
-        </p>
+        <p xml:id="para_15_449_101"><pb facs="#facs_464" n="449" source="2serlesouvriersde05sociuoft_0501.xml"/> Travaux du chef de famille. — O*** touche un traitement fixe de 16 piastres par mois à l'École cambodgienne francaise comme profes¬seur d'écriture khmère ; il enseigne en outre les éléments du français aux élêves commencants. Cette école compte aujourd'hui cent cinquante petits Chinois, Annamites, Cambodgiens et métis, admis par faveur, nourris et instruits gratuitement pendant quatre et cinq ans. Insufi¬summent dotée et organisée, l'école n'a produit que de médiocres ré¬sultats ; elle doit plus tard fournir les agents subalternes de l'adminis¬tration française au titre indigène, interprètes, scribes, secrétaires, etc. Peut-être même formera-t-elle des instituteurs lorsqu'on entreprendra l'œuvre importante de créer l'enseignement public dans tout le pays. l est à désirer que les programmes soient réformés dans un sens pra¬tique, professionnel. Actuellement, outre le directeur qui est français, le personnel enseignant comprend cinq professeurs cambodgiens; les cours ont lieu de 8 heures à 10 h. 1/2; et de 2 h. 1/2 à 5 heures ; congés dimanches et jeudis ; vacances, le mois de janvier. O*** a ainsi des loi¬sirs ; son emploi ne lui prend que 225 jours de l'année ; ce qui fait res¬sortir le prix de son travailà un taux exceptionnel de 0 fr. 40 a l'heure. Il donne en outre, quand l'occasion se présente, des lȩons de langue cambodgienne aux rares Francais qui veulent l'étudier méthodique¬ment; les cachets lui sont payés 1,2 piastre (1 fr. 25 pour deux heures); il fait aussi chez lui de menus travaux d'écriture : copies, tra¬ductions, etc. lIl apporte à ces diverses occupations une grande bonne volonté et une conscience irréprochable. Ses efforts sont appréciés de ses chefs, et des avantages de traitement, des gratifications l'en ont récompensé. Mais il est bien vite lassé quand les travaux supplémen¬taires deviennent un peu pressants ; il allègue que l'insufflsance du ré¬gime de nourriture l'empêche de fournir beaucoup de travail.</p>
+        <p xml:id="para_15_449_102">Cependant il procède lui-même ou avec l'aide de Têt, l'esclve, à l'entretien de la maison et du mobilier. Les pluies, les ouragans de la mauvaise saison, occasionnent fréquemment des dégradations à la frêle urchitecture ; chaque habitant exécute les réparations nécessauires.</p>
        </div>
        <div type="travaux" subtype="femme">
-        <p xml:id="para_15_449_103">
-         Travaux de la femme. — Le chef de famille laisse entièrement à l mère la charge du ménage, l'achat et la préparation des aliments, la <pb facs="#facs_465" n="450" source="2serlesouvriersde05sociuoft_0502.xml"/> garde et le soin des enfants. Léap blanchit le linge et répare les vête¬ments ; elle exerce au foyer une petite industrie domestique, la fabri¬cation de petits gàteaux, nom phlê, ém, qu'elle va vendre au marché public de la ville trois fois par semaine ; ce petit négoce apporte au budget annuel un appoint de 50 francs ; les gâteaux invendus font la joie des trois enfants, très friands de sucreries, em. D'autres femmes lhmères exercent des métiers nationaux, tissage du coton et de la soie, vannerie, etc., toujours au foyer.
-        </p>
-        <p xml:id="para_15_450_105">
-         Les enfants sont trop jeunes pour être occupés à la ville ; dans les campagnes, nong sré, ils seraient utilisés à garder les bestiaux, ou à certaines cueillettes. Les deux fils n'auront qu'à poursuivre leur ins¬truction que le père désire développer. Dauyè, le petite fille, comme ses compatriotes sera peu instruite ; dés l'âge nubile elle demeurera sé¬dentaire, confinée à l'intérieur de la maison.
-        </p>
+        <p xml:id="para_15_449_103">Travaux de la femme. — Le chef de famille laisse entièrement à l mère la charge du ménage, l'achat et la préparation des aliments, la <pb facs="#facs_465" n="450" source="2serlesouvriersde05sociuoft_0502.xml"/> garde et le soin des enfants. Léap blanchit le linge et répare les vête¬ments ; elle exerce au foyer une petite industrie domestique, la fabri¬cation de petits gàteaux, nom phlê, ém, qu'elle va vendre au marché public de la ville trois fois par semaine ; ce petit négoce apporte au budget annuel un appoint de 50 francs ; les gâteaux invendus font la joie des trois enfants, très friands de sucreries, em. D'autres femmes lhmères exercent des métiers nationaux, tissage du coton et de la soie, vannerie, etc., toujours au foyer.</p>
+        <p xml:id="para_15_450_105">Les enfants sont trop jeunes pour être occupés à la ville ; dans les campagnes, nong sré, ils seraient utilisés à garder les bestiaux, ou à certaines cueillettes. Les deux fils n'auront qu'à poursuivre leur ins¬truction que le père désire développer. Dauyè, le petite fille, comme ses compatriotes sera peu instruite ; dés l'âge nubile elle demeurera sé¬dentaire, confinée à l'intérieur de la maison.</p>
        </div>
        <div type="travaux" subtype="travaux_esclave">
-        <p xml:id="para_15_450_106">
-         Travaux de l'esclave. — Têt est chargé des travaux domestiques, qu'il exécute assez mal. Sa plus lourde fonction est l'approvisionne¬ment de l'eau, qu'il doit aller chercher aux mares, pour les usages ménagers. Il n'est pas assez actif pour quérir chaque jour l'eau pota¬ble, à un kilomètre, dans le grand bras du Mélong; celle-ci est achetée fort cher, et constitue une lourde dépense pour les ménages pauvres. Têt sera prochainement libéré ; il a prévenu son maître qu'il préten¬dait réclamer le bénéfice de l'ordonnance royale d'affranchissement. Un jeune domestique ou bog, à 10 francs par mois, ne coûtera pas da¬vantage et rendra plus de services. Aussi O** se résigne aisément à la perte d'une partie du capital consacré à l'achat de Têt, il se rend compte que le travail servile n'est guère avantageux
-         <ref target="#part_03_01_17" type="renvoi_int_mono">
-          (§ 17)
-         </ref>
-         . Sous l'ancienne législation, le salaire du bamreû ne représentait que l'intérêt de la dette pour laquelle il était retenu teal, le capital ne s'amortissait point. Fait particulier ; Têt s'est enfui, il est revenu spontanément rejoindre son poste après une absence de quatre mois. Au budget, l'intérêt du ca¬pital a été inscrit aux recettes,
-         <ref target="#part_02_05_14" type="renvoi_int_mono">
-          § 14, son I
-         </ref>
-         , et le montant légal du salaire figure aux dépenses,
-         <ref target="#part_02_05_16" type="renvoi_int_mono">
-          § 16, son V
-         </ref>
-         .
-        </p>
+        <p xml:id="para_15_450_106">Travaux de l'esclave. — Têt est chargé des travaux domestiques, qu'il exécute assez mal. Sa plus lourde fonction est l'approvisionne¬ment de l'eau, qu'il doit aller chercher aux mares, pour les usages ménagers. Il n'est pas assez actif pour quérir chaque jour l'eau pota¬ble, à un kilomètre, dans le grand bras du Mélong; celle-ci est achetée fort cher, et constitue une lourde dépense pour les ménages pauvres. Têt sera prochainement libéré ; il a prévenu son maître qu'il préten¬dait réclamer le bénéfice de l'ordonnance royale d'affranchissement. Un jeune domestique ou bog, à 10 francs par mois, ne coûtera pas da¬vantage et rendra plus de services. Aussi O** se résigne aisément à la perte d'une partie du capital consacré à l'achat de Têt, il se rend compte que le travail servile n'est guère avantageux (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>). Sous l'ancienne législation, le salaire du bamreû ne représentait que l'intérêt de la dette pour laquelle il était retenu teal, le capital ne s'amortissait point. Fait particulier ; Têt s'est enfui, il est revenu spontanément rejoindre son poste après une absence de quatre mois. Au budget, l'intérêt du ca¬pital a été inscrit aux recettes,
+         <ref target="#part_02_05_14" type="renvoi_int_mono">§ 14, son I</ref>, et le montant légal du salaire figure aux dépenses,<ref target="#part_02_05_16" type="renvoi_int_mono">§ 16, son V</ref>.</p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
-       Mode d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
-        § 9. ALIMENTS ET REPAS.
-       </head>
-       <p xml:id="para_15_51_110">
-        <pb facs="#facs_466" n="451" source="2serlesouvriersde05sociuoft_0503.xml"/>Le régime alimentaire est presque uniforme dans toute l'Indo¬Chine, peut-être dans toute l'Asie ; le riz en est la base principale. Les Cmbodgiens en consomment plus proportionnellement que les peuples voisins ; la famille étudiée en mange par personne et par jour environ 1.100 grammes ; il est servi dans des bols de faience, en grains crevés dans l'eau puis roulés et pétris en boules avec la main pour être avalés. Il y a deux prix (6ᶠ 20 et 8ᶠA0 les 60 kil.), suivant l'époque de l'année. O** ne fait pas de provision et paie ainsi plus cher ; il n'a guère d'argent disponible et pas de local pour emmagasiner cette céréale encombrante et la mettre à l'abri des rongeurs.
-       </p>
-       <p xml:id="para_15_51_111">
-        Les poissons et légumes à l'eau sont servis à part et se mangent avec des cuillers chinoises en porcelaine ; les familles pauvres se servent uniquement des doigts. Le dessert se compose de fruits du pays, médiocres mais abondants. Toute la famille mange ensemble dans la première pièce, tout le monde accroupi sur des nattes : le pre¬mier repas dès le lever, à sept heures du matin : une soupe pour le mari, les reliefs de la veille pour la femme et les enfants ; à onze heures, déjeuner : poisson frais ou salé, ou viande, bol de légumes à l'eau, avec 5 à 600 grammes de riz ; assaisonnement, poivre, sel, piment, et surtout nuoc-mam, espèce de saumure de poisson fermentée très re¬cherchée ; quelques fruits suivant la saison. L'eau du fleuve, peu po¬table, pas filtrée, est la seule boisson ; elle coûte cher, deux cents (0ᶠ05) par jour. O** prend à chaque repas un petit verre de chumcaumˉ, alcool de riz, acheté che le débitant chinois, le mastroquet de Pnom¬Penh ; il refuse d'acheter l'alcool par bouteille, malgré l'économie no¬table, de peur, dit-il, d'etre tenté d'en trop boire. O*** déclare que ses parents ignoraient l'usage des alcools ; leur introduction est un pre¬mier résultat de l'influence européenne. Il serait préférable que les boissons hygiéniques, toniques, le thé, le café, fussent plus répandues ; rarement la famille en boit une tasse ; la friandise la plus ordinaire est in petit pain de farine de blé, sauvouré à l'égal d'un gâteau.
-       </p>
-       <p xml:id="para_15__113">
-        <pb facs="#facs_467" n="452" source="2serlesouvriersde05sociuoft_0504.xml"/> Le vin, les liqueurs sont encore inconnus de la plupart des ménages.
-       </p>
-       <p xml:id="para_15__114">
-        Les comptoirs chinois débitent des imitations de nos liqueurs, en même temps que leurs mixtures asiatiques, les unes et les autres très peu désirables. Aux grandes fêtes religieuses et surtout de famille, mariages, funérailles, incinérations, aux premiers jours de l'an, lors de l'anniversaire du roi, à la fête des eaux, se donnent de grands repas copieux et substantiels ; chacun met son orgueil à faire de fortes dé¬penses en ces occasions pour recevoir dignement les parents et les amis. Cependant les Cambodgiens restent sobres et ne se livrent pas aux ripailles gloutonnes et bruyantes qui font la joie des Chinois, dont ils sont loin, d'ailleurs, d'avoir le caractêre vif et enjoué et les appétits grossiers.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
+       <p xml:id="para_15_51_110"><pb facs="#facs_466" n="451" source="2serlesouvriersde05sociuoft_0503.xml"/> Le régime alimentaire est presque uniforme dans toute l'Indo¬Chine, peut-être dans toute l'Asie ; le riz en est la base principale. Les Cmbodgiens en consomment plus proportionnellement que les peuples voisins ; la famille étudiée en mange par personne et par jour environ 1.100 grammes ; il est servi dans des bols de faience, en grains crevés dans l'eau puis roulés et pétris en boules avec la main pour être avalés. Il y a deux prix (6ᶠ 20 et 8ᶠA0 les 60 kil.), suivant l'époque de l'année. O** ne fait pas de provision et paie ainsi plus cher ; il n'a guère d'argent disponible et pas de local pour emmagasiner cette céréale encombrante et la mettre à l'abri des rongeurs.</p>
+       <p xml:id="para_15_51_111">Les poissons et légumes à l'eau sont servis à part et se mangent avec des cuillers chinoises en porcelaine ; les familles pauvres se servent uniquement des doigts. Le dessert se compose de fruits du pays, médiocres mais abondants. Toute la famille mange ensemble dans la première pièce, tout le monde accroupi sur des nattes : le pre¬mier repas dès le lever, à sept heures du matin : une soupe pour le mari, les reliefs de la veille pour la femme et les enfants ; à onze heures, déjeuner : poisson frais ou salé, ou viande, bol de légumes à l'eau, avec 5 à 600 grammes de riz ; assaisonnement, poivre, sel, piment, et surtout nuoc-mam, espèce de saumure de poisson fermentée très re¬cherchée ; quelques fruits suivant la saison. L'eau du fleuve, peu po¬table, pas filtrée, est la seule boisson ; elle coûte cher, deux cents (0ᶠ05) par jour. O** prend à chaque repas un petit verre de chumcaumˉ, alcool de riz, acheté che le débitant chinois, le mastroquet de Pnom¬Penh ; il refuse d'acheter l'alcool par bouteille, malgré l'économie no¬table, de peur, dit-il, d'etre tenté d'en trop boire. O*** déclare que ses parents ignoraient l'usage des alcools ; leur introduction est un pre¬mier résultat de l'influence européenne. Il serait préférable que les boissons hygiéniques, toniques, le thé, le café, fussent plus répandues ; rarement la famille en boit une tasse ; la friandise la plus ordinaire est in petit pain de farine de blé, sauvouré à l'égal d'un gâteau.</p>
+       <p xml:id="para_15__113"><pb facs="#facs_467" n="452" source="2serlesouvriersde05sociuoft_0504.xml"/> Le vin, les liqueurs sont encore inconnus de la plupart des ménages.</p>
+       <p xml:id="para_15__114">Les comptoirs chinois débitent des imitations de nos liqueurs, en même temps que leurs mixtures asiatiques, les unes et les autres très peu désirables. Aux grandes fêtes religieuses et surtout de famille, mariages, funérailles, incinérations, aux premiers jours de l'an, lors de l'anniversaire du roi, à la fête des eaux, se donnent de grands repas copieux et substantiels ; chacun met son orgueil à faire de fortes dé¬penses en ces occasions pour recevoir dignement les parents et les amis. Cependant les Cambodgiens restent sobres et ne se livrent pas aux ripailles gloutonnes et bruyantes qui font la joie des Chinois, dont ils sont loin, d'ailleurs, d'avoir le caractêre vif et enjoué et les appétits grossiers.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
-        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
        <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_15__117">
-         La maison, phtéas, construite en bois, présente l'aspect uniforme des habitations cambodgiennes ; élevée sur poteaux de 1ᵐ 80 de hauteur au-dessus du sol, elle est à l'abri des inondations pendant la saison plu¬vieuse, ce qui donne une salubrité relative au logement. La surface cou¬verte est de 44 mètres, le volume habité est de 80 mètres cubes pour six personnes. Suivant la mode cambodgienne le dessous sert de basse-cour et de dépôt pour les détritus de toute sorte. Les dix-neuf colonnes qui supportent la charpente rustique sont en bois dur ; le reste est cons¬truit en bambous ; la couverture en paillotte, pra sebau, est beaucoup moins épaisse que le chaume de nos maisons rurales d'Europe et offre un abri moins sûr : des panneaux en paillotte remplissent les cloi¬sons intérieures et extérieures entre poteaux, et laissent comme ou¬vertures quelques châssis fabriqués de même, formant fenêtres à soufflet, angouoh. Le parquet à claire-voie, roneén, permet le net¬toyage et l'aération. La premiêre pièce, la plus grande, sert pour les repas, la réception des visiteurs et amis, sala, dans un angle derriêre un rideau de cotonnade, une natte sert de couche à l'esclave. Au fond, deux petites pièces : celle de droite est la chambre à coucher, damne, un lit grossier, en bois, avec quatre poteaux pour fixer la mousti¬quaire en mousseline, un matelas, une couverture, en voilà tout le mo¬bilier ; la mère l'occupe avec ses trois enfants : le mari dort sur une natte à côté. Naturellement, aucun chauffage, la température ne des¬<pb facs="#facs_468" n="453" source="2serlesouvriersde05sociuoft_0505.xml"/><pb facs="#facs_469" n="454" source="2serlesouvriersde05sociuoft_0506.xml"/> cend jamais au-dessous de 18°, et cette saison froide (?) dure deux mois à peine.
-        </p>
+        <p xml:id="para_15__117">La maison, phtéas, construite en bois, présente l'aspect uniforme des habitations cambodgiennes ; élevée sur poteaux de 1ᵐ 80 de hauteur au-dessus du sol, elle est à l'abri des inondations pendant la saison plu¬vieuse, ce qui donne une salubrité relative au logement. La surface cou¬verte est de 44 mètres, le volume habité est de 80 mètres cubes pour six personnes. Suivant la mode cambodgienne le dessous sert de basse-cour et de dépôt pour les détritus de toute sorte. Les dix-neuf colonnes qui supportent la charpente rustique sont en bois dur ; le reste est cons¬truit en bambous ; la couverture en paillotte, pra sebau, est beaucoup moins épaisse que le chaume de nos maisons rurales d'Europe et offre un abri moins sûr : des panneaux en paillotte remplissent les cloi¬sons intérieures et extérieures entre poteaux, et laissent comme ou¬vertures quelques châssis fabriqués de même, formant fenêtres à soufflet, angouoh. Le parquet à claire-voie, roneén, permet le net¬toyage et l'aération. La premiêre pièce, la plus grande, sert pour les repas, la réception des visiteurs et amis, sala, dans un angle derriêre un rideau de cotonnade, une natte sert de couche à l'esclave. Au fond, deux petites pièces : celle de droite est la chambre à coucher, damne, un lit grossier, en bois, avec quatre poteaux pour fixer la mousti¬quaire en mousseline, un matelas, une couverture, en voilà tout le mo¬bilier ; la mère l'occupe avec ses trois enfants : le mari dort sur une natte à côté. Naturellement, aucun chauffage, la température ne des¬<pb facs="#facs_468" n="453" source="2serlesouvriersde05sociuoft_0505.xml"/><pb facs="#facs_469" n="454" source="2serlesouvriersde05sociuoft_0506.xml"/> cend jamais au-dessous de 18°, et cette saison froide (?) dure deux mois à peine.</p>
         <figure rend="portrait" type="map">
-         <head resp="original" type="map" xml:id="figure_2">
-          Habitation d'une famille cambodgienne [§10]
-         </head>
+         <head resp="original" type="map" xml:id="figure_2">Habitation d'une famille cambodgienne [§10]</head>
          <graphic facs="#facs_468" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24505/271,447,2118,3518/full/0/default.jpg" xml:id="illu_15_453_3"/>
         </figure>
-        <p xml:id="para_15_51_122">
-         Sous le hangar annexe se préparent les aliments. On y voit le four¬neau et les jarres d'eau.
-        </p>
-        <p xml:id="para_15_51_123">
-         Quelques meubles de fabrication rudimentaire garnissent le ménage considéré comme aisé pour des Cambodgiens en voici la nomenclature et les prix d'achat.
-        </p>
+        <p xml:id="para_15_51_122">Sous le hangar annexe se préparent les aliments. On y voit le four¬neau et les jarres d'eau.</p>
+        <p xml:id="para_15_51_123">Quelques meubles de fabrication rudimentaire garnissent le ménage considéré comme aisé pour des Cambodgiens en voici la nomenclature et les prix d'achat.</p>
        </div>
        <div type="par_10" subtype="meubles">
-        <p xml:id="para_15_51_124">
-         MEUBLES, achetés d'occasion et en mauvais état............ 56ᶠ 50
-        </p>
-        <p xml:id="para_15_51_125">
-         1° Salle. — 1 chaise (kauey), 2ᶠ50 ; — 1 table à écrire (tok), 2ᶠ50 ; — 1 porte chapeau, 1ᶠ25 ; — 1 banquette cannée en rotin,5ᶠ 00. — Total, 11ᶠ25.
-        </p>
-        <p xml:id="para_15_51_126">
-         2° Chambre à coucher . — 1 lit en bois (kré), 7ᶠ 50 ; — 1 moustiquaire, 5ᶠ 00 ; — 1 matelas cambodgien (puk) en coton, 7ᶠ50; — 1 couverture, 2ᶠ50; — 1 oreiller, 1ᶠ25; — 10 nattes (Kantel) pour étendre à terre ou former portières, 5ᶠ 00; — 2 petites armoires en bois blanc, 12ᶠ50. — Total, 41ᶠ25.
-        </p>
-        <p xml:id="para_15_51_127">
-         3° Objets divers. — Livres : Arithmétique de Leyssenne ; Dictionnaire francais de Gazier ; Sambot, Sangrouom cristang, Né chéa thor cristang, brochures chrétiennes en langue khmère ; quelques cahiers de notes fixés au mur, de nombreuses gravures extraites de journaux français illustrés, cadeaux très recherchés : le tout a été reçu en souvenir d'un Français qui a pris des leçons de O***. — Total, 4ᶠ 00.
-        </p>
+        <p xml:id="para_15_51_124">MEUBLES, achetés d'occasion et en mauvais état............ 56ᶠ 50</p>
+        <p xml:id="para_15_51_125">1° Salle. — 1 chaise (kauey), 2ᶠ50 ; — 1 table à écrire (tok), 2ᶠ50 ; — 1 porte chapeau, 1ᶠ25 ; — 1 banquette cannée en rotin,5ᶠ 00. — Total, 11ᶠ25.</p>
+        <p xml:id="para_15_51_126">2° Chambre à coucher . — 1 lit en bois (kré), 7ᶠ 50 ; — 1 moustiquaire, 5ᶠ 00 ; — 1 matelas cambodgien (puk) en coton, 7ᶠ50; — 1 couverture, 2ᶠ50; — 1 oreiller, 1ᶠ25; — 10 nattes (Kantel) pour étendre à terre ou former portières, 5ᶠ 00; — 2 petites armoires en bois blanc, 12ᶠ50. — Total, 41ᶠ25.</p>
+        <p xml:id="para_15_51_127">3° Objets divers. — Livres : Arithmétique de Leyssenne ; Dictionnaire francais de Gazier ; Sambot, Sangrouom cristang, Né chéa thor cristang, brochures chrétiennes en langue khmère ; quelques cahiers de notes fixés au mur, de nombreuses gravures extraites de journaux français illustrés, cadeaux très recherchés : le tout a été reçu en souvenir d'un Français qui a pris des leçons de O***. — Total, 4ᶠ 00.</p>
        </div>
        <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_15_51_128">
-         USTENSILES, communs et usés............ 10ᶠ60
-        </p>
-        <p xml:id="para_15_51_129">
-         2 fourneaux portatifs en terre cuite de Kompong Chhnang, 1ᶠ 50; —  marmites en terre (chhnang) 0ᶠ20; — 3 jarres (péang) pour l'eau, 3ᶠ 75 ; — 6 assiettes en faïence (chan) chi¬noise, 3ᶠ00 ; — 6 bols, 1ᶠ20; — 2 verres à boire, 0ᶠ50; — 3 lampes en fer-blanc pour pétrole, 0ᶠ 45. — Total, 10ᶠ60.
-        </p>
+        <p xml:id="para_15_51_128">USTENSILES, communs et usés............ 10ᶠ60</p>
+        <p xml:id="para_15_51_129">2 fourneaux portatifs en terre cuite de Kompong Chhnang, 1ᶠ 50; —  marmites en terre (chhnang) 0ᶠ20; — 3 jarres (péang) pour l'eau, 3ᶠ 75 ; — 6 assiettes en faïence (chan) chi¬noise, 3ᶠ00 ; — 6 bols, 1ᶠ20; — 2 verres à boire, 0ᶠ50; — 3 lampes en fer-blanc pour pétrole, 0ᶠ 45. — Total, 10ᶠ60.</p>
        </div>
        <div type="par_10" subtype="linge">
-        <p xml:id="para_15_51_130">
-         LINGE DE MÉNAGE............ 2ᶠ25
-        </p>
-        <p xml:id="para_15_51_131">
-         Le linge de ménage se compose de 3 serviettes en coton pour la toilette, 2ᶠ 25.
-        </p>
+        <p xml:id="para_15_51_130">LINGE DE MÉNAGE............ 2ᶠ25</p>
+        <p xml:id="para_15_51_131">Le linge de ménage se compose de 3 serviettes en coton pour la toilette, 2ᶠ 25.</p>
        </div>
        <div type="par_10" subtype="vetements">
-        <p xml:id="para_15_51_132">
-         VÊTEMENTS : Le costume cambodgien (et siamois) comprend pour les deux sexes : un sampot en tissu de coton ; langouti rectangulaire passé comme un jupon puis renoué par les bouts entre les jambes (les Annamites et les Chinois portent le pantalon large).
-        </p>
-        <p xml:id="para_15_51_133">
-         Depuis une trentaine d'années, les hommes de la classe moyenne au Cambodge ont adopté le veston en toile blanche des Européens aux colonies. Les femmes se couvrent la poitrine d'une écharpe qui laisse les épaules et les bras découverts, ou portent une longue tuni¬que descendant aux genoux, auv. Tous marchent pieds nus ; les gros mandarins seuls et les princes portent habituellement les bas et sou¬liers. O*** n'use que deux ou trois fois dans l'année de ces raffinements de notre costume.
-        </p>
-        <p xml:id="para_15_51_134">
-         Malgré l'ardeur du soleil, beaucoup n'ont aucune coiffure, les che¬veux sont épais, noirs, relevés en brosse chez les deux sexes.
-        </p>
-        <p xml:id="para_15_51_135">
-         La confection des vêtements ordinaires n'occasionne aucun travail <pb facs="#facs_470" n="455" source="2serlesouvriersde05sociuoft_0507.xml"/> dans le ménage : il n'y a ni coupe, ni couture : les vestons du mari sont faits par des tailleurs chinois : la femme entretient seulement les habillements ; comme ses compatriotes, elle est peu habile aux travaux d'aiguille. Les vêtements usés par les parents servent ensuite aux en¬fants ou à l'esclave. La petite fille possède un bijou ; c'est un anneau d'argent porté à la cheville, il a coûté 12ᶠ50, kâng choeung............ 95ᶠ25
-        </p>
-        <p xml:id="para_15_55_137">
-         VÊTEMENTS DU PÈRE DE FAMILLE (56ᶠ50).
-        </p>
-        <p xml:id="para_15_55_138">
-         1° Vêtements de fête. — 1 paire de bas de coton, 1ᶠ50 ; — 1 paire de souliers en toile, 3ᶠ00; — 1 casque colonial en sureau recouvert en toile blanche 4ᶠ00. — Total, 8ᶠ50.
-        </p>
-        <p xml:id="para_15_55_139">
-         2° Vêtements ordinaires. — 4 vestons en toile blanche, 20ᶠ00; — garniture de boutons mobiles en nacre, 2ᶠ 50; — 6 sampots en tissu coton, 15ᶠ00; — 2 gilets filet coton, 2ᶠ00, — 1 chapeau de feutre, 3ᶠ50; — 1 parasol-parapluie, 5ᶠ00. — Total, 48ᶠ00.
-        </p>
-        <p xml:id="para_15_55_140">
-         VÊTEMENTS DE LA MÈRE (26ᶠ25).
-        </p>
-        <p xml:id="para_15_55_141">
-         Vêtements de fête et de travail. — 3 tuniques aûre, en coton, 6ᶠ75 ; — 6 écharpes, 7ᶠ50; — 6 sampots en coton, 12ᶠ00. — Total, 6ᶠ25.
-        </p>
-        <p xml:id="para_15_55_142">
-         VÊTEMENTS DES ENFANTS ET DE L'ESCLAVE (12ᶠ50).
-        </p>
-        <p xml:id="para_15_55_143">
-         1° Vêtements. — 1 sampots ayant servi au chef de famille, sans valeur.
-        </p>
-        <p xml:id="para_15_55_144">
-         2° Bijoux. — Anneau de cheville en argent, 12ᶠ50.
-        </p>
+        <p xml:id="para_15_51_132">VÊTEMENTS : Le costume cambodgien (et siamois) comprend pour les deux sexes : un sampot en tissu de coton ; langouti rectangulaire passé comme un jupon puis renoué par les bouts entre les jambes (les Annamites et les Chinois portent le pantalon large).</p>
+        <p xml:id="para_15_51_133">Depuis une trentaine d'années, les hommes de la classe moyenne au Cambodge ont adopté le veston en toile blanche des Européens aux colonies. Les femmes se couvrent la poitrine d'une écharpe qui laisse les épaules et les bras découverts, ou portent une longue tuni¬que descendant aux genoux, auv. Tous marchent pieds nus ; les gros mandarins seuls et les princes portent habituellement les bas et sou¬liers. O*** n'use que deux ou trois fois dans l'année de ces raffinements de notre costume.</p>
+        <p xml:id="para_15_51_134">Malgré l'ardeur du soleil, beaucoup n'ont aucune coiffure, les che¬veux sont épais, noirs, relevés en brosse chez les deux sexes.</p>
+        <p xml:id="para_15_51_135">La confection des vêtements ordinaires n'occasionne aucun travail <pb facs="#facs_470" n="455" source="2serlesouvriersde05sociuoft_0507.xml"/> dans le ménage : il n'y a ni coupe, ni couture : les vestons du mari sont faits par des tailleurs chinois : la femme entretient seulement les habillements ; comme ses compatriotes, elle est peu habile aux travaux d'aiguille. Les vêtements usés par les parents servent ensuite aux en¬fants ou à l'esclave. La petite fille possède un bijou ; c'est un anneau d'argent porté à la cheville, il a coûté 12ᶠ50, kâng choeung............ 95ᶠ25</p>
+        <p xml:id="para_15_55_137">VÊTEMENTS DU PÈRE DE FAMILLE (56ᶠ50).</p>
+        <p xml:id="para_15_55_138">1° Vêtements de fête. — 1 paire de bas de coton, 1ᶠ50 ; — 1 paire de souliers en toile, 3ᶠ00; — 1 casque colonial en sureau recouvert en toile blanche 4ᶠ00. — Total, 8ᶠ50.</p>
+        <p xml:id="para_15_55_139">2° Vêtements ordinaires. — 4 vestons en toile blanche, 20ᶠ00; — garniture de boutons mobiles en nacre, 2ᶠ 50; — 6 sampots en tissu coton, 15ᶠ00; — 2 gilets filet coton, 2ᶠ00, — 1 chapeau de feutre, 3ᶠ50; — 1 parasol-parapluie, 5ᶠ00. — Total, 48ᶠ00.</p>
+        <p xml:id="para_15_55_140">VÊTEMENTS DE LA MÈRE (26ᶠ25).</p>
+        <p xml:id="para_15_55_141">Vêtements de fête et de travail. — 3 tuniques aûre, en coton, 6ᶠ75 ; — 6 écharpes, 7ᶠ50; — 6 sampots en coton, 12ᶠ00. — Total, 6ᶠ25.</p>
+        <p xml:id="para_15_55_142">VÊTEMENTS DES ENFANTS ET DE L'ESCLAVE (12ᶠ50).</p>
+        <p xml:id="para_15_55_143">1° Vêtements. — 1 sampots ayant servi au chef de famille, sans valeur.</p>
+        <p xml:id="para_15_55_144">2° Bijoux. — Anneau de cheville en argent, 12ᶠ50.</p>
        </div>
        <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_15_55_145">
-         VALEUR TOTALE du mobilier et des vêtements............ 164ᶠ60
-        </p>
+        <p xml:id="para_15_55_145">VALEUR TOTALE du mobilier et des vêtements............ 164ᶠ60</p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
-        § 11. RÉCRÉATIONS.
-       </head>
-       <p xml:id="para_15_55_148">
-        Le Cambodgien se résigne au travail : il en subit la dure néces¬sité, il n'a guère d'ambition, pas de besoins ; aussi ne déploie-t-il ni l'énergie morale, ni l'activité physique du Chinois : il n'a pas non plus la malice debrouillarde de l'Annamite. Il travaille consciencieuse¬ment, mais avec lenteur ; il s'amuse tranquillement. Nombreuses sont les occasions de chômage. Les congés sont fréquents dans les admi¬nistrations et les maisons de commerce ; les heures de travail sont réduites, le climat l'impose ; le surmenage. le sveating sgstem ne seraient pas possibles; dans les campagnes, les hommes refusent souvent de travailler, même à de forts salaires. Les événements inté¬rieurs de famille, mariages, naissances, enterrements et incinérations, arrivées de parents de lu campagne, cérémonies chez les amis, sont des occasions de repos. Les fêtes publiques sont multipliées ; à Pnom-<pb facs="#facs_471" n="456" source="2serlesouvriersde05sociuoft_0508.xml"/>Penh elles sont excessivement bruyantes, grâce aux Chinois : ce peuple si peu guerrier est possédé d'une passion furieuse de bruits violents, pétards, artifices, cimbales, gongs, et toutes variétés de musi¬ques barbares. O*** et sa famille sont curieux, indolents, naifs, mu¬sards : ils parcourent les fêtes, les boutiques foraines avec un contentement paisible, ils demeurent enfants et sont heureux comme les vrais Orientaux de vivre et d'être tranquilles
-        <note type="bp">
-         <p>
-          Les deux mots khmers les plus usités : sau saoag, formule d'adieu et de bienvenue, sont exceptionnellement les mêmes pour tout le monde, dans cette langue où l'étiquette règne despotiquement ; ils signifient littéralement : contents. tranquilles, bien portants.
-         </p>
-        </note>
-        .
-       </p>
-       <p xml:id="para_15_456_150">
-        Dans certaines cérémonies, lesCambodgiens demeurent des journées entières, dans des salles ouvertes, sala, raung, accroupis, immobiles, pour écouter, en fumant des cigarettes, d'interminables psalmodies en pâli qu'ils ne comprennent pas. Le sentiment religieux ne domine pas dans ces assemblées, on n'y aperçoit que la satisfaction manifeste du repos, de l'état que nous ne pouvons exprimer que par un mot étran¬ger, méridional aussi, farniente. Les femmes ne figurent pas aux céré¬monies officielles, mais elles conduisent les enfants aux fêtes publiques ; et l'étonnement joyeux des parents égale celui des petits hmers, à la vue des spectacles européens qui pénêtrent jusqu'ici: prestidigitation, diorama, chevaux de bois, ménageries, etc.
-       </p>
-       <p xml:id="para_15_456_151">
-        Les Cambodgiens vivent beaucoup la nuit ; ils rêvent, contemplent la lune pour laquelle ils professent une vénération particulière, écou¬tent le bruit des légions d'insectes pendant les chaudes nuits d'été, où il est d'ailleurs difficile de dormir. La famille étudiée, les ména¬ges les moins riches, conservent des lampes allumées constamment, à cause dit-on, des enfants qui auraient peur. La vie de famille, où l'étranger n'est jamais admis, est simple, d'une régularité tranquille ; jamais de réunions pour boire ; on cause peu, toujours à voix basse, quelqu'un débite des récits puérils, légendaires, interminables. Beau¬coup moins de coquetterie féminine que chez les Annamites; peu de bijoux, les danseuses de la cour seules usent desartifices de la toilette.
-       </p>
-       <p xml:id="para_15_456_152">
-        Il existe une scène chinoise permanente, payante ; mais les Cam¬bodgiens n'assistent qu'aux représentations gratuites du théàtre forain chinois, aux fêtes données par le roi. Le souverain offre souvent au palais des spectacles populaires : danses indoues hiératiques, combats de coqs, ses sujets en sont très friands. Les courses ou combats d'é¬léphants n'ont plus lieu. Chaque année, réjouissances nautiques, su¬perbes régates à la fête des eaux.
-       </p>
-       <p xml:id="para_15_157_154">
-        <pb facs="#facs_472" n="457" source="2serlesouvriersde05sociuoft_0509.xml"/> L'usage du tabac est général, même chez les enfants ; le budget de la famille O*** n'en est pas obéré, les cinq lilogr. annuels néces¬saires au mari lui sont offerts par les parents de Krauchmar.
-       </p>
-       <p xml:id="para_15_157_155">
-        Le bétel est hygiénique, disent quelques auteurs et tous les Asia¬tiques. C'est à coup sûr une mode disgracieuse et répugnante, la chique est sale, déforme la bouche, noircit les dents et les fait tomber, la salive sanguinolente est malpropre; mais l'usage est invétéré. C'est une dépense onéreuse. O*** chique peu, mais sa femme qui ne fume pas, abhsorbe une douaine de chiques par jour. Le goût de l'opium est un vice dont on sait les abus ; nos autorités l'ont trouvé dans les colo¬nies indo-chinoises et n'ont pu que le réglementer, surtout l'imposer. Les Chinois et les Annamites fument beaucoup et y perdent le plus gros de leurs salaires ; le jeu emporte le reste.
-       </p>
-       <p xml:id="para_15_157_156">
-        Les jeux publics sont très fréquentés ; c'est un fléau et une ruine. Affermés par le roi (100.000 piastres), ils subsistent, bien qu'abolis en principe ; les Cambodgiens commencent à s'y laisser entrainer. L'inter¬vention des pouvoirs publics français a été faible et intermittente ; les scandales des trente-six bêtes ont cessé cependant ; il faudra de nou¬veaux efforts pour vaincre la résistance intéressée des fermiers et du souverain.
-       </p>
-       <p xml:id="para_15_157_157">
-        Heureusement, 0*** réprouve le jeu et l'opium. Être joueur et fu¬meur d'opium sont les deux passions qui déconsidèrent le plus les jeunes gens; et grâce aux fortes traditions de morale qui se trans¬mettent dauus les familles, on peut espérer que le mal sera enrayé.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
+       <p xml:id="para_15_55_148">Le Cambodgien se résigne au travail : il en subit la dure néces¬sité, il n'a guère d'ambition, pas de besoins ; aussi ne déploie-t-il ni l'énergie morale, ni l'activité physique du Chinois : il n'a pas non plus la malice debrouillarde de l'Annamite. Il travaille consciencieuse¬ment, mais avec lenteur ; il s'amuse tranquillement. Nombreuses sont les occasions de chômage. Les congés sont fréquents dans les admi¬nistrations et les maisons de commerce ; les heures de travail sont réduites, le climat l'impose ; le surmenage. le sveating sgstem ne seraient pas possibles; dans les campagnes, les hommes refusent souvent de travailler, même à de forts salaires. Les événements inté¬rieurs de famille, mariages, naissances, enterrements et incinérations, arrivées de parents de lu campagne, cérémonies chez les amis, sont des occasions de repos. Les fêtes publiques sont multipliées ; à Pnom-<pb facs="#facs_471" n="456" source="2serlesouvriersde05sociuoft_0508.xml"/>Penh elles sont excessivement bruyantes, grâce aux Chinois : ce peuple si peu guerrier est possédé d'une passion furieuse de bruits violents, pétards, artifices, cimbales, gongs, et toutes variétés de musi¬ques barbares. O*** et sa famille sont curieux, indolents, naifs, mu¬sards : ils parcourent les fêtes, les boutiques foraines avec un contentement paisible, ils demeurent enfants et sont heureux comme les vrais Orientaux de vivre et d'être tranquilles<note type="bp">
+         <p>Les deux mots khmers les plus usités : sau saoag, formule d'adieu et de bienvenue, sont exceptionnellement les mêmes pour tout le monde, dans cette langue où l'étiquette règne despotiquement ; ils signifient littéralement : contents. tranquilles, bien portants.</p>
+        </note>.</p>
+       <p xml:id="para_15_456_150">Dans certaines cérémonies, lesCambodgiens demeurent des journées entières, dans des salles ouvertes, sala, raung, accroupis, immobiles, pour écouter, en fumant des cigarettes, d'interminables psalmodies en pâli qu'ils ne comprennent pas. Le sentiment religieux ne domine pas dans ces assemblées, on n'y aperçoit que la satisfaction manifeste du repos, de l'état que nous ne pouvons exprimer que par un mot étran¬ger, méridional aussi, farniente. Les femmes ne figurent pas aux céré¬monies officielles, mais elles conduisent les enfants aux fêtes publiques ; et l'étonnement joyeux des parents égale celui des petits hmers, à la vue des spectacles européens qui pénêtrent jusqu'ici: prestidigitation, diorama, chevaux de bois, ménageries, etc.</p>
+       <p xml:id="para_15_456_151">Les Cambodgiens vivent beaucoup la nuit ; ils rêvent, contemplent la lune pour laquelle ils professent une vénération particulière, écou¬tent le bruit des légions d'insectes pendant les chaudes nuits d'été, où il est d'ailleurs difficile de dormir. La famille étudiée, les ména¬ges les moins riches, conservent des lampes allumées constamment, à cause dit-on, des enfants qui auraient peur. La vie de famille, où l'étranger n'est jamais admis, est simple, d'une régularité tranquille ; jamais de réunions pour boire ; on cause peu, toujours à voix basse, quelqu'un débite des récits puérils, légendaires, interminables. Beau¬coup moins de coquetterie féminine que chez les Annamites; peu de bijoux, les danseuses de la cour seules usent desartifices de la toilette.</p>
+       <p xml:id="para_15_456_152">Il existe une scène chinoise permanente, payante ; mais les Cam¬bodgiens n'assistent qu'aux représentations gratuites du théàtre forain chinois, aux fêtes données par le roi. Le souverain offre souvent au palais des spectacles populaires : danses indoues hiératiques, combats de coqs, ses sujets en sont très friands. Les courses ou combats d'é¬léphants n'ont plus lieu. Chaque année, réjouissances nautiques, su¬perbes régates à la fête des eaux.</p>
+       <p xml:id="para_15_157_154"><pb facs="#facs_472" n="457" source="2serlesouvriersde05sociuoft_0509.xml"/> L'usage du tabac est général, même chez les enfants ; le budget de la famille O*** n'en est pas obéré, les cinq lilogr. annuels néces¬saires au mari lui sont offerts par les parents de Krauchmar.</p>
+       <p xml:id="para_15_157_155">Le bétel est hygiénique, disent quelques auteurs et tous les Asia¬tiques. C'est à coup sûr une mode disgracieuse et répugnante, la chique est sale, déforme la bouche, noircit les dents et les fait tomber, la salive sanguinolente est malpropre; mais l'usage est invétéré. C'est une dépense onéreuse. O*** chique peu, mais sa femme qui ne fume pas, abhsorbe une douaine de chiques par jour. Le goût de l'opium est un vice dont on sait les abus ; nos autorités l'ont trouvé dans les colo¬nies indo-chinoises et n'ont pu que le réglementer, surtout l'imposer. Les Chinois et les Annamites fument beaucoup et y perdent le plus gros de leurs salaires ; le jeu emporte le reste.</p>
+       <p xml:id="para_15_157_156">Les jeux publics sont très fréquentés ; c'est un fléau et une ruine. Affermés par le roi (100.000 piastres), ils subsistent, bien qu'abolis en principe ; les Cambodgiens commencent à s'y laisser entrainer. L'inter¬vention des pouvoirs publics français a été faible et intermittente ; les scandales des trente-six bêtes ont cessé cependant ; il faudra de nou¬veaux efforts pour vaincre la résistance intéressée des fermiers et du souverain.</p>
+       <p xml:id="para_15_157_157">Heureusement, 0*** réprouve le jeu et l'opium. Être joueur et fu¬meur d'opium sont les deux passions qui déconsidèrent le plus les jeunes gens; et grâce aux fortes traditions de morale qui se trans¬mettent dauus les familles, on peut espérer que le mal sera enrayé.</p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
-       Histoire de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
-        § 12. PHASES PRINCIPALES DE L'EXISTENCE.
-       </head>
-       <p xml:id="para_15_157_161">
-        O*** est né à Krauchmar en 1858 (1219 de l'êre chaullasacrach). Son père ong a exercé les fonctions de balat, adjoint au gouverneur de la province de lantio; il vint ensuite à Pnom-Penh et fut placé à l'école caumbodgienne du protectorat français. A doue ans, à la cérémonie de la coupe du toupet, il reçut le nom bouddhique de re¬vata, saint. A dix-huit ans, il entra dans les ordres, teuou oouos, et de<pb facs="#facs_473" n="458" source="2serlesouvriersde05sociuoft_0510.xml"/>meura bonze cinq ans à la pagode des nénuphars, bottomvath, bonzerie importante de 120 moines ; il y mena la vie conventuelle dans toute sa rigueur. O*** rappelle avec complaisance cette période de sa jeunesse : nourriture extra-frugale, deux repas seulement à I heures et 11 heures du matin, 600 grammes de ri, presque pas de viande ni de légumes, promenade de quête le matin pour recueillir dans chaque maison les aumônes traditionnelles en nature. Les bonzes, deux par deux, portant sur l'épaule la marmite, bén-bat, se présen¬tent chez les habitants fidèles bouddhistes, ils doivent recevoir mais ne rien demander, et doivent même ignorer leurs bienfaiteurs. Leur cuisine est préparée par les esclaves perpétuels du couvent et quel¬ques personnes pieuses et élées. Les prières et chants religieux en chœur durent plusieurs heures par jour, quelquefois fort tard dans la nuit. La discipline est sévère, surtout sur le chapitre de la chasteté ; les lois civiles prévoient et châtient cruellement les infractions aux règles de la religion. Les bonzes les plus savants enseignent aux autres les vérités de la doctrine du Bouddha, et les éléments du pdli, qui est la langue liturgique. A vrai dire, la plupart épellent et lisent les mots, mais ne comprennent ni n'étudient les textes. Les bonzes habitent de petites cellules isolées, ou couchent en dortoir commun. Leur vêtement traditionnel se perpétue intact, jaune, drapé à l'antique, ils ont le crâne rasé, la démarche lente ; au Cambodge, mieux qu'aux contrées voisines, ils ont conservé et méritent le respect public. Il n'y a point d'engagements ni de vœux. Le sentiment religieux, les convenances sociales amènent sans contrainte les jeunes Cambodgiens des familles aisées à passer un an ou plus à la pagode. Un stage minimum de quelques mois est presque exigé par les mœurs. Il ar¬rive même que de jeunes mandarins mariés quittent leur ménage pour accomplir un trimestre ou deux de ce olontariat monacal. Les bonzes ont aussi la mission de l'enseignement, mais il y aurait beau¬coup de réformes nécessaires. Quelques encouragements, au besoin une pression officielle, par l'intermédiaire des supérieurs et du chef principal, prea sangreac, réaliseraient des progrès rapides.
-       </p>
-       <p xml:id="para_15_458_163">
-        Q** quitta la pagode librement à vingt-quatre ans, et en rentrant dans la vie laique, basa, il se créa des occupations desecrétaire puis de tré¬sorier chez le second roi, obbarach, quelques années plus tard il obtint la place de professeur à l'école cambodgienne où il avait passé comme élève. Il connut à Pnom-Penh la famille de Léap. Le père était cambod¬gien, la mêre chinoise, c'est-à-dire fille de Chinois. La mère de O*** <pb facs="#facs_474" n="459" source="2serlesouvriersde05sociuoft_0511.xml"/> était également de souche chinoise, car peu de familles lhmères se sont conservées pures de métissage. On a constaté dans un savada, es¬pèce de carnet de famille tenu fidèlement depuis deux siècles, de nom¬breuses alliances de Chinois, presque un tiers dans la même famille. L'absence de noms patronymiques ne permet pas de retrouver aisément ces mélanges. D'ailleurs, au bout de trois ou quatre générations, les métis d'origine chinoise ignorent la langue de leurs aieux et der viennent Cambodgiens de gré ou non. O*** demanda suivantles formes ta chebap, la jeune fille en mariage, chéa prepon, il l'obtint sans diffi¬culté, sa situation, sa conduite offrant toutes garanties. Il parait que la jeune fille n'a fait qu'obéir à ses parents. Un proverbe national, exa¬gérant la docilité des filles, met dans leur bouche cette réponse è une demande en mariage : J'obéirai à mon père et à ma mère comme le pied gauche suit le pied droit, sans résistance. Autre trait qui marque l'importance du foyer familial : la construction d'une maison avec colonnes en bois dur est souvent imposée au futur époux et le nariage n'est célébré qu'après réception solennelle et contradictoire des travaux. Léap a le rang d'épouse principale, preon tbhom, la loi reconnait deux autres classes : l'épouse du milieu, bandal, obtenue sans le consentement et la bénédiction des parents, l'épouse du bout, chog, esclave rachetée et élevée au rang de femme. Le caractère des cérémonies nuptiales est familial, non religieux ; contrairement à ce quia été écrit, lemarin'achète pas sa femme saufdans la troisiême classe d'épouses. O*** a remis 80 piastres (200 fr.) aux parents de sa future femme, mais cet argent a payé les frais de trousseau et les dépenses du repas de noces, rie ar. Les lois sur le mariage contiennent des dispositions fort anciennes et très curieuses, dont beaucoup sont tom¬bées en désuétude. L'autorité du mari est considérable, mais la femme a droit à la protection, à la nourriture, aux égards. Le divorce est pro¬noncé pour adultère, sévices graves ou de consentement mutuel ; les époux en rédigent un acte authentique
-        <note type="bp">
-         <p>
-          Voci, par exemple, la traduction d'un acte de divorce par consentement mutuel :
-         </p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
+       <p xml:id="para_15_157_161">O*** est né à Krauchmar en 1858 (1219 de l'êre chaullasacrach). Son père ong a exercé les fonctions de balat, adjoint au gouverneur de la province de lantio; il vint ensuite à Pnom-Penh et fut placé à l'école caumbodgienne du protectorat français. A doue ans, à la cérémonie de la coupe du toupet, il reçut le nom bouddhique de re¬vata, saint. A dix-huit ans, il entra dans les ordres, teuou oouos, et de<pb facs="#facs_473" n="458" source="2serlesouvriersde05sociuoft_0510.xml"/>meura bonze cinq ans à la pagode des nénuphars, bottomvath, bonzerie importante de 120 moines ; il y mena la vie conventuelle dans toute sa rigueur. O*** rappelle avec complaisance cette période de sa jeunesse : nourriture extra-frugale, deux repas seulement à I heures et 11 heures du matin, 600 grammes de ri, presque pas de viande ni de légumes, promenade de quête le matin pour recueillir dans chaque maison les aumônes traditionnelles en nature. Les bonzes, deux par deux, portant sur l'épaule la marmite, bén-bat, se présen¬tent chez les habitants fidèles bouddhistes, ils doivent recevoir mais ne rien demander, et doivent même ignorer leurs bienfaiteurs. Leur cuisine est préparée par les esclaves perpétuels du couvent et quel¬ques personnes pieuses et élées. Les prières et chants religieux en chœur durent plusieurs heures par jour, quelquefois fort tard dans la nuit. La discipline est sévère, surtout sur le chapitre de la chasteté ; les lois civiles prévoient et châtient cruellement les infractions aux règles de la religion. Les bonzes les plus savants enseignent aux autres les vérités de la doctrine du Bouddha, et les éléments du pdli, qui est la langue liturgique. A vrai dire, la plupart épellent et lisent les mots, mais ne comprennent ni n'étudient les textes. Les bonzes habitent de petites cellules isolées, ou couchent en dortoir commun. Leur vêtement traditionnel se perpétue intact, jaune, drapé à l'antique, ils ont le crâne rasé, la démarche lente ; au Cambodge, mieux qu'aux contrées voisines, ils ont conservé et méritent le respect public. Il n'y a point d'engagements ni de vœux. Le sentiment religieux, les convenances sociales amènent sans contrainte les jeunes Cambodgiens des familles aisées à passer un an ou plus à la pagode. Un stage minimum de quelques mois est presque exigé par les mœurs. Il ar¬rive même que de jeunes mandarins mariés quittent leur ménage pour accomplir un trimestre ou deux de ce olontariat monacal. Les bonzes ont aussi la mission de l'enseignement, mais il y aurait beau¬coup de réformes nécessaires. Quelques encouragements, au besoin une pression officielle, par l'intermédiaire des supérieurs et du chef principal, prea sangreac, réaliseraient des progrès rapides.</p>
+       <p xml:id="para_15_458_163">Q** quitta la pagode librement à vingt-quatre ans, et en rentrant dans la vie laique, basa, il se créa des occupations desecrétaire puis de tré¬sorier chez le second roi, obbarach, quelques années plus tard il obtint la place de professeur à l'école cambodgienne où il avait passé comme élève. Il connut à Pnom-Penh la famille de Léap. Le père était cambod¬gien, la mêre chinoise, c'est-à-dire fille de Chinois. La mère de O*** <pb facs="#facs_474" n="459" source="2serlesouvriersde05sociuoft_0511.xml"/> était également de souche chinoise, car peu de familles lhmères se sont conservées pures de métissage. On a constaté dans un savada, es¬pèce de carnet de famille tenu fidèlement depuis deux siècles, de nom¬breuses alliances de Chinois, presque un tiers dans la même famille. L'absence de noms patronymiques ne permet pas de retrouver aisément ces mélanges. D'ailleurs, au bout de trois ou quatre générations, les métis d'origine chinoise ignorent la langue de leurs aieux et der viennent Cambodgiens de gré ou non. O*** demanda suivantles formes ta chebap, la jeune fille en mariage, chéa prepon, il l'obtint sans diffi¬culté, sa situation, sa conduite offrant toutes garanties. Il parait que la jeune fille n'a fait qu'obéir à ses parents. Un proverbe national, exa¬gérant la docilité des filles, met dans leur bouche cette réponse è une demande en mariage : J'obéirai à mon père et à ma mère comme le pied gauche suit le pied droit, sans résistance. Autre trait qui marque l'importance du foyer familial : la construction d'une maison avec colonnes en bois dur est souvent imposée au futur époux et le nariage n'est célébré qu'après réception solennelle et contradictoire des travaux. Léap a le rang d'épouse principale, preon tbhom, la loi reconnait deux autres classes : l'épouse du milieu, bandal, obtenue sans le consentement et la bénédiction des parents, l'épouse du bout, chog, esclave rachetée et élevée au rang de femme. Le caractère des cérémonies nuptiales est familial, non religieux ; contrairement à ce quia été écrit, lemarin'achète pas sa femme saufdans la troisiême classe d'épouses. O*** a remis 80 piastres (200 fr.) aux parents de sa future femme, mais cet argent a payé les frais de trousseau et les dépenses du repas de noces, rie ar. Les lois sur le mariage contiennent des dispositions fort anciennes et très curieuses, dont beaucoup sont tom¬bées en désuétude. L'autorité du mari est considérable, mais la femme a droit à la protection, à la nourriture, aux égards. Le divorce est pro¬noncé pour adultère, sévices graves ou de consentement mutuel ; les époux en rédigent un acte authentique<note type="bp">
+         <p>Voci, par exemple, la traduction d'un acte de divorce par consentement mutuel :</p>
          <p>
           <quote>
            <p>
-            « Cet écrit est fait par le sieur Meun Komchan Cheyvat, mari, pour rester entre lesmains de dume Srakom, son épouse. Le sieur Meun et ladite dame ont accompli les cérémonies d'u¬sage et se sont pris mutuellement pour mari et épouse suivant la loi. Vingt ans se sont écoulés depuis, ils n'ont pas eu d'enfant. A présent le sieur Meun et sa femme comprennent qu'ils ont ainsi subl la punition de leurs péchés. Tous deux consentent de plein gré et sans haine à se quitter, a cesser d'etre mari et femme. Ils ont procédé au partage de leurs biens et richesses. De cette manière le sieur Meun pourra prendre une autre épouse, et la dame Sraom pourra prendre un autre mari, aucun des deux ne pourra s'opposer au mariage de l'autre ; leur union est définitivement rompue.
-           </p>
+            « Cet écrit est fait par le sieur Meun Komchan Cheyvat, mari, pour rester entre lesmains de dume Srakom, son épouse. Le sieur Meun et ladite dame ont accompli les cérémonies d'u¬sage et se sont pris mutuellement pour mari et épouse suivant la loi. Vingt ans se sont écoulés depuis, ils n'ont pas eu d'enfant. A présent le sieur Meun et sa femme comprennent qu'ils ont ainsi subl la punition de leurs péchés. Tous deux consentent de plein gré et sans haine à se quitter, a cesser d'etre mari et femme. Ils ont procédé au partage de leurs biens et richesses. De cette manière le sieur Meun pourra prendre une autre épouse, et la dame Sraom pourra prendre un autre mari, aucun des deux ne pourra s'opposer au mariage de l'autre ; leur union est définitivement rompue.</p>
            <p>
             « Jour samedi, 6° de la lune décroissante du 9ᵉ mois, année du coq, 9ᵉ de la décade, 38ᵉ année du règne. »
            </p>
           </quote>
          </p>
-        </note>
-        . Iong, le père de O***, a laissé <pb facs="#facs_475" n="460" source="2serlesouvriersde05sociuoft_0512.xml"/> en mourant quelques meubles et un peu d'argent, partagés entre les enfants, plus une pièce de terre, chd̂mcar, acquise pour 3 barres d'argent (125 fr.) ; cette propriété a été abandonnée en usufruit à la veuve, sin, qui la loue 20 francs par an, par bail écrit pour trois ans ; le locataire, neabh chap, paie en outre l'impôt ; il cultive le tabac, thnam.
-       </p>
-       <p xml:id="para_15__170">
-        La famille étudiée a occupé deux domiciles à Pnom-Penh ; la maison précédente avait été bâtie sur des terrains cédés gratuitement comme celle d'aujourd'hui ; elle a été revendue sans perte.
-       </p>
-       <p xml:id="para_15__171">
-        Avant Têt, l'esclave bamndl, une autre esclave femme faisait le ser¬vice domestique ; elle avait été achetée 60 piastres et rétrocédée 50 pias¬tres ; la différence étant abandonnée gracieusement à l'esclave, en déduction du capital de la dette, qui régit sa condition. Les Cambod¬giens persistent à considérer comme personnes libres les domestiques retenus ainsi pour dettes; aucun d'entre eux n'accepte notre mot escla¬vage comme la traduction exacte de l'état de ces personnes. Au sur¬plus, leur libération est très prochaine. Plusieurs conventions, passées avec Norodom en 187I7 et en 1884, ont été confirmées par un accord avec le nouveau gouverneur général, M. Doumer, en juillet 1897, et un règlement détaillé a récemment été publié ; de nombreux arrêts dejustice ont affranchi déjà des bamreû bamnol, depuis deux mois. Têt, à la fin de 1898, sera libre et aura acquitté les 38 piastres de son prix d'achat.
-       </p>
-       <p xml:id="para_15__172">
-        La vie de O*** a été peu accidentée. Sauf la mort de deux enfants en bas âge, il n'a point éprouvé de violents chagrins. La satisfaction de ses besoins, très modestes, est assurée par un traitement régulier, convenable. L'avenir lui apparait sous les meilleurs auspices. Il ne lui manque même pas le désir un peu ambitieux qui soutient l'homme et donne un but à son activité : il rêve un poste dans l'administration de son pays et a des chances de l'obtenir.
-       </p>
+        </note>. Iong, le père de O***, a laissé <pb facs="#facs_475" n="460" source="2serlesouvriersde05sociuoft_0512.xml"/> en mourant quelques meubles et un peu d'argent, partagés entre les enfants, plus une pièce de terre, chd̂mcar, acquise pour 3 barres d'argent (125 fr.) ; cette propriété a été abandonnée en usufruit à la veuve, sin, qui la loue 20 francs par an, par bail écrit pour trois ans ; le locataire, neabh chap, paie en outre l'impôt ; il cultive le tabac, thnam.</p>
+       <p xml:id="para_15__170">La famille étudiée a occupé deux domiciles à Pnom-Penh ; la maison précédente avait été bâtie sur des terrains cédés gratuitement comme celle d'aujourd'hui ; elle a été revendue sans perte.</p>
+       <p xml:id="para_15__171">Avant Têt, l'esclave bamndl, une autre esclave femme faisait le ser¬vice domestique ; elle avait été achetée 60 piastres et rétrocédée 50 pias¬tres ; la différence étant abandonnée gracieusement à l'esclave, en déduction du capital de la dette, qui régit sa condition. Les Cambod¬giens persistent à considérer comme personnes libres les domestiques retenus ainsi pour dettes; aucun d'entre eux n'accepte notre mot escla¬vage comme la traduction exacte de l'état de ces personnes. Au sur¬plus, leur libération est très prochaine. Plusieurs conventions, passées avec Norodom en 187I7 et en 1884, ont été confirmées par un accord avec le nouveau gouverneur général, M. Doumer, en juillet 1897, et un règlement détaillé a récemment été publié ; de nombreux arrêts dejustice ont affranchi déjà des bamreû bamnol, depuis deux mois. Têt, à la fin de 1898, sera libre et aura acquitté les 38 piastres de son prix d'achat.</p>
+       <p xml:id="para_15__172">La vie de O*** a été peu accidentée. Sauf la mort de deux enfants en bas âge, il n'a point éprouvé de violents chagrins. La satisfaction de ses besoins, très modestes, est assurée par un traitement régulier, convenable. L'avenir lui apparait sous les meilleurs auspices. Il ne lui manque même pas le désir un peu ambitieux qui soutient l'homme et donne un but à son activité : il rêve un poste dans l'administration de son pays et a des chances de l'obtenir.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
-        § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
-       </head>
-       <p xml:id="para_15__175">
-        L'auteur de cette monographie a pu observer sur place la dernière phase de la décadence politique d'un peuple autrefois puissant; il n'a constaté que des vestiges à peine visibles de beaucoup de vieilles institutions. Un travail intéressant d'archéologie sociale pourrait être essayé. Le Cambodge n'est qu'une poussiêre d'hommes. La féodalité, <pb facs="#facs_476" n="461" source="2serlesouvriersde05sociuoft_0513.xml"/> quelle qu'ait été sa constitution, s'est transformée en un patronage moral que les lois ignorent à peu près. Le village, la commune n'exis¬tent plus administrativement, les empiètements du pouvoir central ont tout détruit. L'exécutif et le judiciaire sont confondus ; partout l'arbitraire et la prévarication.
-       </p>
-       <p xml:id="para_15_461_177">
-        Dans ce désordre général, la famille semble avoir surnagé ; elle demeure solide, elle sera le pivot, le centre de toutes les réformes et des reconstitutions dont la nation protectrice assume la charge et le devoir ; c'est l'étude de la famille qui devra préoccuper ceux qui gouverne¬ront le Cambodge. Il faudra chercher, plus qu'on ne l'a fait jusqu'ici, à connaitre les traditions, les besoins moraux et matériels de ce peuple si arriéré, mais si docile. L'administration française n'a pas toujours rempli ses devoirs de patronage intellectuel et moral. Les hauts fonctionnaires qui l'ont représentée ont été souvent au-dessous de leur mission. De graves abus se sont perpétués, des excès condam¬nables sont restés trop longtemps impunis. Rien n'a été fait ni même préparé pour le relèvement, la réorganisation du peuple khmer. Les inportants changements récemment effectués dans le haut personnel de la résidence de France répareront les fautes et assureront les pro¬grès de l'avenir, nous voulons l'espérer.
-       </p>
-       <p xml:id="para_15_461_178">
-        Qui sait si la méthode des monographies ne pourra pas éclairer, faciliter cette œuvre Actuellement, c'est encore dans l'autorité pa¬ternelle universellement respectée, dans la profonde affection qui unit les membres des familles, riches ou pauvres, pauvres surtout, que subsistent les garanties du bien-être physique et moral, l'espé¬rance d'une solide paix sociale, sau aoa national appliqué à tout le peuple cambodgien régénéré.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
+       <p xml:id="para_15__175">L'auteur de cette monographie a pu observer sur place la dernière phase de la décadence politique d'un peuple autrefois puissant; il n'a constaté que des vestiges à peine visibles de beaucoup de vieilles institutions. Un travail intéressant d'archéologie sociale pourrait être essayé. Le Cambodge n'est qu'une poussiêre d'hommes. La féodalité, <pb facs="#facs_476" n="461" source="2serlesouvriersde05sociuoft_0513.xml"/> quelle qu'ait été sa constitution, s'est transformée en un patronage moral que les lois ignorent à peu près. Le village, la commune n'exis¬tent plus administrativement, les empiètements du pouvoir central ont tout détruit. L'exécutif et le judiciaire sont confondus ; partout l'arbitraire et la prévarication.</p>
+       <p xml:id="para_15_461_177">Dans ce désordre général, la famille semble avoir surnagé ; elle demeure solide, elle sera le pivot, le centre de toutes les réformes et des reconstitutions dont la nation protectrice assume la charge et le devoir ; c'est l'étude de la famille qui devra préoccuper ceux qui gouverne¬ront le Cambodge. Il faudra chercher, plus qu'on ne l'a fait jusqu'ici, à connaitre les traditions, les besoins moraux et matériels de ce peuple si arriéré, mais si docile. L'administration française n'a pas toujours rempli ses devoirs de patronage intellectuel et moral. Les hauts fonctionnaires qui l'ont représentée ont été souvent au-dessous de leur mission. De graves abus se sont perpétués, des excès condam¬nables sont restés trop longtemps impunis. Rien n'a été fait ni même préparé pour le relèvement, la réorganisation du peuple khmer. Les inportants changements récemment effectués dans le haut personnel de la résidence de France répareront les fautes et assureront les pro¬grès de l'avenir, nous voulons l'espérer.</p>
+       <p xml:id="para_15_461_178">Qui sait si la méthode des monographies ne pourra pas éclairer, faciliter cette œuvre Actuellement, c'est encore dans l'autorité pa¬ternelle universellement respectée, dans la profonde affection qui unit les membres des familles, riches ou pauvres, pauvres surtout, que subsistent les garanties du bien-être physique et moral, l'espé¬rance d'une solide paix sociale, sau aoa national appliqué à tout le peuple cambodgien régénéré.</p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
-        § 14. BUDGET DES RECETTES DE L'ANNÉE.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. Budget des recettes de l'année.</head>
        <pb facs="#facs_477" n="462" source="2serlesouvriersde05sociuoft_0514.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_477" url="#" xml:id="tble_15_462_4"/>
        </figure>
-       <!--<p xml:id="para_15_462_181">
-        8ECTION II.
-        </p>
-        <p xml:id="para_15_462_182">
-        SUBVENTIONS RECUES PAR LA FAMILLE. ART. 1ᵉʳ. — PROPRIÉTÉS REÇUES EN USUFRUIT.
-        </p>
-        <p xml:id="para_15_462_183">
-        USuruit du sol sur lequel est construite la maison.........................
-        </p>
-        <p xml:id="para_15_462_184">
-        ART. 2. — DROITS D'USAGE SUR LES PROPRIÉTÉS VOISINES.
-        </p>
-        <p xml:id="para_15_462_185">
-        Droit sur le bois du domaine public........................................
-        </p>
-        <p xml:id="para_15_462_186">
-        ART. 3. — ALLOCATIONS D'OBETS ET DE SERVICES. Aocaions de Orrire...................................................
-        </p>
-        <p xml:id="para_15_462_187">
-        Allocations concernant l'instruction...... ......................... .......
-        </p>
-        <p xml:id="para_15_462_188">
-        Allocations concernant la santé..... ................................ ........
-        </p>-->
+       <!--<p xml:id="para_15_462_181">8ECTION II.</p>
+        <p xml:id="para_15_462_182">Subventions RECUES PAR LA FAMILLE. ART. 1ᵉʳ. — Propriétés REÇUES EN USUFRUIT.</p>
+        <p xml:id="para_15_462_183">USuruit du sol sur lequel est construite la maison.........................</p>
+        <p xml:id="para_15_462_184">ART. 2. — DROITS D'USAGE SUR LES Propriétés VOISINES.</p>
+        <p xml:id="para_15_462_185">Droit sur le bois du domaine public........................................</p>
+        <p xml:id="para_15_462_186">ART. 3. — ALLOCATIONS D'OBETS ET DE SERVICES. Aocaions de Orrire...................................................</p>
+        <p xml:id="para_15_462_187">Allocations concernant l'instruction...... ......................... .......</p>
+        <p xml:id="para_15_462_188">Allocations concernant la santé..... ................................ ........</p>-->
        <pb facs="#facs_478" n="463" source="2serlesouvriersde05sociuoft_0515.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_478" url="#" xml:id="tble_15__5"/>
@@ -914,182 +519,72 @@
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_479" url="#"/>
        </figure>
-       <!--<p xml:id="para_15_161_189">
-        § 14.
-        </p><p>
-        BUDGET DES RECETTES DE L'ANNÉE.
-        </p>
-        <p xml:id="para_15_161_190">
-        SOURCES DES RECETTES (suite).
-        </p>
-        <p xml:id="para_15_161_191">
-        DÉSIGNATION DES TRAVAUX ET DE L'EMPLOI DU TEMPS.
-        </p>
-        <p xml:id="para_15_161_192">
-        SEC TION III.
-        </p>
-        <p xml:id="para_15_161_193">
-        TRAVAUX EXÉCUTÉS PAR LA FAMILLE.
-        </p>
-        <p xml:id="para_15_161_194">
-        TRAVAUX PRINCIPAUX :
-        </p>
-        <p xml:id="para_15_161_195">
-        Emploi de professeur à l'école de Pnom-Penh<note type="bp">Les journées ont été calculées au chiffre uniforme de 10 heures ; en fait, le travail journalier du professeur n'est que de 5 heures environ ; celui de l'esclave depasse au contraire 1 heures, mais il comporte la présence plus que le labeur.</p></note>....................
-        </p>
-        <p xml:id="para_15_161_196">
-        econsparticulières de langue cabodgienne au dehors............
-        </p>
-        <p xml:id="para_15_161_197">
-        ExXpéditions et traductions à la maison..............................
-        </p>
-        <p xml:id="para_15_161_198">
-        TRAVAUX SECONDAIRES :
-        </p>
-        <p xml:id="para_15_161_199">
-        SECTION IV
-        </p>
-        <p xml:id="para_15_161_200">
-        QUANTITE DE TRAVAIL EFFECTUÉ.
-        </p>
-        <p xml:id="para_15_161_201">
-        Homme.  Feme.  Esclave.
-        </p>
-        <p xml:id="para_15_161_202">
-        112
-        </p>
-        <p xml:id="para_15_161_203">
-        25
-        </p>
-        <p xml:id="para_15_161_204">
-        10
-        </p>
+       <!--<p xml:id="para_15_161_189">§ 14.</p><p>Budget des recettes de l'année.</p>
+        <p xml:id="para_15_161_190">SOURCES DES RECETTES (suite).</p>
+        <p xml:id="para_15_161_191">DÉSIGNATION DES TRAVAUX ET DE L'EMPLOI DU TEMPS.</p>
+        <p xml:id="para_15_161_192">SEC TION III.</p>
+        <p xml:id="para_15_161_193">TRAVAUX EXÉCUTÉS PAR LA FAMILLE.</p>
+        <p xml:id="para_15_161_194">TRAVAUX PRINCIPAUX :</p>
+        <p xml:id="para_15_161_195">Emploi de professeur à l'école de Pnom-Penh<note type="bp">Les journées ont été calculées au chiffre uniforme de 10 heures ; en fait, le travail journalier du professeur n'est que de 5 heures environ ; celui de l'esclave depasse au contraire 1 heures, mais il comporte la présence plus que le labeur.</p></note>....................</p>
+        <p xml:id="para_15_161_196">econsparticulières de langue cabodgienne au dehors............</p>
+        <p xml:id="para_15_161_197">ExXpéditions et traductions à la maison..............................</p>
+        <p xml:id="para_15_161_198">TRAVAUX SECONDAIRES :</p>
+        <p xml:id="para_15_161_199">SECTION IV</p>
+        <p xml:id="para_15_161_200">QUANTITE DE TRAVAIL EFFECTUÉ.</p>
+        <p xml:id="para_15_161_201">Homme.  Feme.  Esclave.</p>
+        <p xml:id="para_15_161_202">112</p>
+        <p xml:id="para_15_161_203">25</p>
+        <p xml:id="para_15_161_204">10</p>
         <figure>
         <graphic facs="#facs_479" url="#" xml:id="tble_15_161_6"/>
         </figure>
-        <p xml:id="para_15_161_205">
-        INDUSTRIES ENTREPRISES PAR L FAMILL
-        </p>
-        <p xml:id="para_15_161_206">
-        (à son propre compte).
-        </p>
-        <p xml:id="para_15_161_207">
-        Confection et vente de pâtisserie et de cigarettes .
-        </p>
-        <p xml:id="para_15_161_208">
-        Blanchissage du linge de la famille...............
-        </p>
-        <p xml:id="para_15_161_209">
-        Exploitation de la basse-cour.....................
-        </p>-->
+        <p xml:id="para_15_161_205">INDUSTRIES ENTREPRISES PAR L FAMILL</p>
+        <p xml:id="para_15_161_206">(à son propre compte).</p>
+        <p xml:id="para_15_161_207">Confection et vente de pâtisserie et de cigarettes .</p>
+        <p xml:id="para_15_161_208">Blanchissage du linge de la famille...............</p>
+        <p xml:id="para_15_161_209">Exploitation de la basse-cour.....................</p>-->
        <pb facs="#facs_480" n="465" source="2serlesouvriersde05sociuoft_0517.xml"/>
-       <!--<p xml:id="para_15_465_211">
-        § 14.
-        </p><p>
-        BUDGET DES RECETTES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_15_465_211">§ 14.</p><p>Budget des recettes de l'année.</p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_480" url="#" xml:id="tble_15_465_7"/>
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
-        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. Budget des dépenses de l'année.</head>
        <pb facs="#facs_481" n="466" source="2serlesouvriersde05sociuoft_0518.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_481" url="#"/>
        </figure>
-       <!--<p xml:id="para_15_166_213">
-        MONTANT DES DÉPENSES.
-        </p>
-        <p xml:id="para_15_166_214">
-        DESIGNATION DES DÉPENSES.
-        </p>
-        <p xml:id="para_15_166_215">
-        des objets conommé en nature.
-        </p>
-        <p xml:id="para_15_166_216">
-        Dépense
-        </p>
-        <p xml:id="para_15_166_217">
-        POIDS ET PRIX DES ALIMENTS.
-        </p>
-        <p xml:id="para_15_166_218">
-        POIDS PRIX
-        </p>
-        <p xml:id="para_15_166_219">
-        consommé.] par hilog.
-        </p>
-        <p xml:id="para_15_166_220">
-        SECTION ʳ°.
-        </p>
-        <p xml:id="para_15_166_221">
-        DÉPENSES CONCERNANT LA NOURRITURE.
-        </p>
-        <p xml:id="para_15_166_222">
-        ART. 1ᵉʳ. — ALIMENTS CONSOMMÉS DANS LE MÉNAGE
-        </p>
-        <p xml:id="para_15_166_223">
-        (ar le chei de famille, sa femme, ses 3 enfant, et son esclave pendant 350 jour).
-        </p>
-        <p xml:id="para_15_166_224">
-        CÉRÉALES :
-        </p>
-        <p xml:id="para_15_166_225">
-        Riz : pendant six mois ..........
-        </p>
-        <p xml:id="para_15_166_226">
-        pendantle reste de l'année. Pain :100 petits pains à 0ᶠ10.....
-        </p>
-        <p xml:id="para_15_166_227">
-        840ᵏ0 810 0 16 6
-        </p>
-        <p xml:id="para_15_166_228">
-        0ᶠ 14 0 40 0 60
-        </p>
-        <p xml:id="para_15_166_229">
-        11I7
-        </p>
-        <p xml:id="para_15_166_230">
-        84
-        </p>
-        <p xml:id="para_15_166_231">
-        10
-        </p>
-        <p xml:id="para_15_166_232">
-        Poids total et prix moyen
-        </p>
-        <p xml:id="para_15_166_233">
-        1696 6
-        </p>
-        <p xml:id="para_15_166_234">
-        0 12
-        </p>
-        <p xml:id="para_15_166_235">
-        CORPS GRAS :
-        </p>
-        <p xml:id="para_15_166_236">
-        Graisse de porc
-        </p>
-        <p xml:id="para_15_166_237">
-        4 0 60
-        </p>
-        <p xml:id="para_15_166_238">
-        2
-        </p>
-        <p xml:id="para_15_166_239">
-        LAITAGE ET EUFS :
-        </p>
-        <p xml:id="para_15_166_240">
-        200 œufs (dont 100 achetés au marché)
-        </p>
-        <p xml:id="para_15_166_241">
-        2ᶠ00 2
-        </p>
-        <p xml:id="para_15_166_242">
-        VIANDES ET POISSONS :
-        </p>
+       <!--<p xml:id="para_15_166_213">MONTANT DES DÉPENSES.</p>
+        <p xml:id="para_15_166_214">DESIGNATION DES DÉPENSES.</p>
+        <p xml:id="para_15_166_215">des objets conommé en nature.</p>
+        <p xml:id="para_15_166_216">Dépense</p>
+        <p xml:id="para_15_166_217">POIDS ET PRIX DES ALIMENTS.</p>
+        <p xml:id="para_15_166_218">POIDS PRIX</p>
+        <p xml:id="para_15_166_219">consommé.] par hilog.</p>
+        <p xml:id="para_15_166_220">SECTION ʳ°.</p>
+        <p xml:id="para_15_166_221">DÉPENSES CONCERNANT LA NOURRITURE.</p>
+        <p xml:id="para_15_166_222">ART. 1ᵉʳ. — ALIMENTS CONSOMMÉS DANS LE MÉNAGE</p>
+        <p xml:id="para_15_166_223">(ar le chei de famille, sa femme, ses 3 enfant, et son esclave pendant 350 jour).</p>
+        <p xml:id="para_15_166_224">CÉRÉALES :</p>
+        <p xml:id="para_15_166_225">Riz : pendant six mois ..........</p>
+        <p xml:id="para_15_166_226">pendantle reste de l'année. Pain :100 petits pains à 0ᶠ10.....</p>
+        <p xml:id="para_15_166_227">840ᵏ0 810 0 16 6</p>
+        <p xml:id="para_15_166_228">0ᶠ 14 0 40 0 60</p>
+        <p xml:id="para_15_166_229">11I7</p>
+        <p xml:id="para_15_166_230">84</p>
+        <p xml:id="para_15_166_231">10</p>
+        <p xml:id="para_15_166_232">Poids total et prix moyen</p>
+        <p xml:id="para_15_166_233">1696 6</p>
+        <p xml:id="para_15_166_234">0 12</p>
+        <p xml:id="para_15_166_235">CORPS GRAS :</p>
+        <p xml:id="para_15_166_236">Graisse de porc</p>
+        <p xml:id="para_15_166_237">4 0 60</p>
+        <p xml:id="para_15_166_238">2</p>
+        <p xml:id="para_15_166_239">LAITAGE ET EUFS :</p>
+        <p xml:id="para_15_166_240">200 œufs (dont 100 achetés au marché)</p>
+        <p xml:id="para_15_166_241">2ᶠ00 2</p>
+        <p xml:id="para_15_166_242">VIANDES ET POISSONS :</p>
         <figure>
         <graphic facs="#facs_481" url="#" xml:id="tble_15_166_8"/>
         </figure>-->
@@ -1097,71 +592,29 @@
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_482" url="#"/>
        </figure>
-       <!--<p xml:id="para_15__244">
-        § 15.
-        </p><p>
-        BUDGET DES DÉPENSES DE LANNÉE (suite).
-        </p>
-        <p xml:id="para_15__245">
-        DÉSIGNATION DES DÉPENSES (suite).
-        </p>
-        <p xml:id="para_15__246">
-        SECTION ʳᵉ.
-        </p>
-        <p xml:id="para_15__247">
-        DÉPENSES CONCERNANT LA NOURRTURE (uite).
-        </p>
-        <p xml:id="para_15__248">
-        AR. 1ᵉʳ. — ALIMENTS CONSOMMÉS DANS LE MÉNAGE (uite).
-        </p>
-        <p xml:id="para_15__249">
-        Poids total et prix moyen.
-        </p>
-        <p xml:id="para_15__250">
-        BOISSONS NON FERMENÉES:
-        </p>
-        <p xml:id="para_15__251">
-        Eau du élong pour boire, 2 eaux par jour, à 0ᶠ025.
-        </p>
-        <p xml:id="para_15__252">
-        BOISONs FERMENTÉES
-        </p>
-        <p xml:id="para_15__253">
-        Alcool, 700 petits verres à 0ᶠ07 .. .................
-        </p>
-        <p xml:id="para_15__254">
-        POIDS ET PRIX DES
-        </p>
-        <p xml:id="para_15__255">
-        ALIMIENTS.
-        </p>
+       <!--<p xml:id="para_15__244">§ 15.</p><p>BUDGET DES DÉPENSES DE LANNÉE (suite).</p>
+        <p xml:id="para_15__245">DÉSIGNATION DES DÉPENSES (suite).</p>
+        <p xml:id="para_15__246">SECTION ʳᵉ.</p>
+        <p xml:id="para_15__247">DÉPENSES CONCERNANT LA NOURRTURE (uite).</p>
+        <p xml:id="para_15__248">AR. 1ᵉʳ. — ALIMENTS CONSOMMÉS DANS LE MÉNAGE (uite).</p>
+        <p xml:id="para_15__249">Poids total et prix moyen.</p>
+        <p xml:id="para_15__250">BOISSONS NON FERMENÉES:</p>
+        <p xml:id="para_15__251">Eau du élong pour boire, 2 eaux par jour, à 0ᶠ025.</p>
+        <p xml:id="para_15__252">BOISONs FERMENTÉES</p>
+        <p xml:id="para_15__253">Alcool, 700 petits verres à 0ᶠ07 .. .................</p>
+        <p xml:id="para_15__254">POIDS ET PRIX DES</p>
+        <p xml:id="para_15__255">ALIMIENTS.</p>
         <figure>
         <graphic facs="#facs_482" url="#" xml:id="tble_15__9"/>
         </figure>
-        <p xml:id="para_15__256">
-        ART. . —ALIMENITS PRÉPARÉS ET CONSOMMÉS EN DEHORS DU MÉNAGE.
-        </p>
-        <p xml:id="para_15__257">
-        Repas consommés che des parents et amis, évaluation............
-        </p>
-        <p xml:id="para_15__258">
-        TorAUx des dépenses concernant la nourriture.
-        </p>
-        <p xml:id="para_15__259">
-        MONTANT DES DÉPENSES.
-        </p>
-        <p xml:id="para_15__260">
-        des objet
-        </p>
-        <p xml:id="para_15__261">
-        5ᶠ00
-        </p>-->
+        <p xml:id="para_15__256">ART. . —ALIMENITS PRÉPARÉS ET CONSOMMÉS EN DEHORS DU MÉNAGE.</p>
+        <p xml:id="para_15__257">Repas consommés che des parents et amis, évaluation............</p>
+        <p xml:id="para_15__258">TorAUx des dépenses concernant la nourriture.</p>
+        <p xml:id="para_15__259">MONTANT DES DÉPENSES.</p>
+        <p xml:id="para_15__260">des objet</p>
+        <p xml:id="para_15__261">5ᶠ00</p>-->
        <pb facs="#facs_483" n="468" source="2serlesouvriersde05sociuoft_0520.xml"/>
-       <!--<p xml:id="para_15__264">
-        § 15.
-        </p><p>
-        BUDGET DES DÉPENSES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_15__264">§ 15.</p><p>Budget des dépenses de l'année.</p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_483" url="#" xml:id="tble_15__10"/>
        </figure>
@@ -1170,32 +623,20 @@
         <graphic facs="#facs_484" url="#" xml:id="tble_15__11"/>
        </figure>
        <pb facs="#facs_485" n="470" source="2serlesouvriersde05sociuoft_0522.xml"/>
-       <!--<p xml:id="para_15_470_268">
-        § 15.
-        </p><p>
-        BUDGET DES DÉPENSES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_15_470_268">§ 15.</p><p>Budget des dépenses de l'année.</p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_485" url="#" xml:id="tble_15_470_12"/>
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
-        § 16. COMPTES ANNEXÉS AUX BUDGETS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS.</head>
        <pb facs="#facs_486" n="471" source="2serlesouvriersde05sociuoft_0523.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_486" url="#"/>
        </figure>
-       <!--<p xml:id="para_15__272">
-        SECTION L
-        </p>
-        <p xml:id="para_15__273">
-        COMPTES DES BÉNÉFICES
-        </p>
-        <p xml:id="para_15__274">
-        RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte).
-        </p>
+       <!--<p xml:id="para_15__272">SECTION L</p>
+        <p xml:id="para_15__273">COMPTES DES BÉNÉFICES</p>
+        <p xml:id="para_15__274">RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte).</p>
         <figure>
         <graphic facs="#facs_486" url="#" xml:id="tble_15__13"/>
         </figure>-->
@@ -1203,24 +644,12 @@
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_487" url="#" xml:id="tble_15_172_14"/>
        </figure>
-       <!--<p xml:id="para_15_172_275">
-        SECTION I.
-        </p>
-        <p xml:id="para_15_172_276">
-        COMPTES RELATIS AUX SUBVENTIONS
-        </p>
-        <p xml:id="para_15_172_277">
-        Ces comptes sont directement portés dans les budgets.
-        </p>
-        <p xml:id="para_15_172_278">
-        SECTION III.
-        </p>
-        <p xml:id="para_15_172_279">
-        COMPTES DIVERS.
-        </p>
-        <p xml:id="para_15_172_280">
-        E. — COMPTE DE LA DÉPENSE ANNUELLE CONCERNANT LES VÊTEMENTS.
-        </p>
+       <!--<p xml:id="para_15_172_275">SECTION I.</p>
+        <p xml:id="para_15_172_276">COMPTES RELATIS AUX Subventions</p>
+        <p xml:id="para_15_172_277">Ces comptes sont directement portés dans les budgets.</p>
+        <p xml:id="para_15_172_278">SECTION III.</p>
+        <p xml:id="para_15_172_279">COMPTES DIVERS.</p>
+        <p xml:id="para_15_172_280">E. — COMPTE DE LA DÉPENSE ANNUELLE CONCERNANT LES VÊTEMENTS.</p>
         <figure>
         <graphic facs="#facs_487" url="#" xml:id="tble_15_172_15"/>
         </figure>-->
@@ -1228,165 +657,75 @@
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_488" url="#"/>
        </figure>
-       <!--<p xml:id="para_15_173_281">
-        COMPTE DE LA DÉPENSE ANNUELLE CONCERNANT LES VÊTEMENTS (suite).
-        </p>
+       <!--<p xml:id="para_15_173_281">COMPTE DE LA DÉPENSE ANNUELLE CONCERNANT LES VÊTEMENTS (suite).</p>
         <figure>
         <graphic facs="#facs_488" url="#" xml:id="tble_15_173_16"/>
         </figure>
-        <p xml:id="para_15_173_282">
-        . — COMPTE DE LA DÉPENSE DES CHIQUES DE BÉTEL.
-        </p>
+        <p xml:id="para_15_173_282">. — COMPTE DE LA DÉPENSE DES CHIQUES DE BÉTEL.</p>
         <figure>
         <graphic facs="#facs_488" url="#" xml:id="tble_15_173_17"/>
         </figure>-->
       </div>
      </div>
      <div n="003" type="section">
-      <head type="section" xml:id="part_03">
-       ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
-      </head>
-      <p xml:id="para_15__283">
-       FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMARQUABLES APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS
-      </p>
+      <head type="section" xml:id="part_03">Éléments divers de la constitution sociale</head>
+      <p xml:id="para_15__283">FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMARQUABLES APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS</p>
       <div n="001" type="sub_section">
        <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">
-         § 17. SUR L'ESCLAVAGE AU CAMBODGE.
-        </head>
-        <p xml:id="para_15__286">
-         <pb facs="#facs_489" n="474" source="2serlesouvriersde05sociuoft_0526.xml"/> L'esclavage a été peu à peu adouci au Cambodge, et les dernières mesures décrétées depuis 1877, c'est-à-dire depuis plus de vingt ans, l'auraient supprimé complètement, s'il n'y avait eu une résistance obstinée des propriétaires intéressés, et une coupable faiblesse de la part des pouvoirs publics. On comptait jadis quatre formes distinctes d'esclavage correspondant aux origines différentes de la condition des esclaves.
-        </p>
-        <p xml:id="para_15__287">
-         1° Les uns, à l'instar des pays africains, provenaient des peuplades sauvages, voisines du royaume à l'Est et au Nord. La traite alimentait encore, en 1870, les marchés d'esclaves de Sambol et de Pnom-Penh. Les captifs étaient vendus par leurs compatriotes à des traficants chi¬nois ou cambodgiens, quelquefois même, les gros mandarins des pro¬vinces limitrophes ne craignaient pas d'opérer chez les Stieng, les Penong, etc., des expéditions sanglantes d'où ils ramenaient des trou¬peaux d'hommes, de femmes et d'enfants dont le commerce s e faisait publiquement et procurait de gros bénéfices : un adulte se vendait de 500 a 600 francs. Ces esclaves ne pouvaient se racheter ; ils étaient considérés comme une marchandise, mais on assure qu'à aucune époque, ils n'étaient maîtraités. L'ordonnance royale du 15 jan¬vier 1877 a supprimé l'esclavage à vie.
-        </p>
-        <p xml:id="para_15__288">
-         2° Les neah ngéer ou pols, hommes du roi, esclaves de l'État, ont été réduits à cette condition par les lois du pays, à la suite de con¬damnations pour crimes commis par eux ou par leurs ancêtres ; ils <pb facs="#facs_490" n="475" source="2serlesouvriersde05sociuoft_0527.xml"/> vivent à part, se marient entre eux et sont exclus des fonctions pu¬bliques. Ils doivent à l'Etat trois mois de service ou corvées, ou des redevances particulières en nature. La même ordonnance de 1877I les a autorisés à se racheter. On compte, dans certaines provinces cam¬bodgiennes, des villages entiers habités par des pols, leur affran¬chissement aura des conséquences heureuses pour le développement du travail agricole et augmentera les recettes de l'impôt personnel. On peut estimer que plus de 50.000 individus, classés par euphé¬misme dans la catégorie des domestiques, ne paient actuellement que 1 piastre 20 (3ᶠ00) par an de taxe personnelle ; dorénavant comptés comme hommes libres, ils seront imposés à 2 piastres 50 (6ᶠ25), soit une plus value de 162.500 francs ou de 2,70 1 du budget total, celui-ci étant de 6.000.000 francs, à peu prês 4 francs par habitant.
-        </p>
-        <p xml:id="para_15__291">
-         3° Les esclaves de pagodes, ds pol prea. Leur condition était meil¬leure que celle des pols de l'État ; elle résultait aussi de condamnations légales à la suite de crimes ayant un caractere de sacrilège ; les pol préa étaient attachés héréditairement au service intérieur des pagodes ; on les a assimilés aux serfs de main-morte. Ils ont à peu près disparu.
-        </p>
-        <p xml:id="para_15__292">
-         4° L'esclavage domestique pour dettes est une forme très particu¬lière de servitude. Les Cambodgiens n'admettent point que notre ex¬pression esclave puisse s'appliquer justement aux hnhom bam¬eu bdmnaul, littéralement servyiteurs employés à cause de dette ; les mots bancham engagement, chompea retenu, qui désignent fréquem¬ment l'état de ces personnes, ne sont point à leurs yeux l'indice d'une dégradation, au moins définitive. La possibilité du rachat a toujours été proclamée légalement, et c'est par suite des abus des créanciers¬maîtres, que le montant de la dette, cause de la domesticité, ne s'a¬mortissait jamais, et que l'esclavage se perpétuait. La dette, pour laquelle l'esclave est engagé, peut avoir pourcause le non-paiement d'a¬mendes judiciaires ; la loi pénale applique à un grand nombre de délits et crimes des condamnations pécuniaires, dommages intérêts et amendes au profit du trésor publie. Bien souvent, le coupable ne pouvant s'acquitter était vendu pour le montant de l'amende. L'es¬clave peut aussi s'être lui-meme mis en gage pour garantir une dette précédente dont il ne peut acquitter même les intérêts, ou en gage d'une somme qu'il touche du maître en entrant à son service. Le père de famille peut ainsi engager sa femme et ses enfants jusqu'au rem¬boursement de la somme due. L'esclave pour dette a le droit de se faire racheter, c'est-à-dire de changer de maître ; il lui suflt de trou<pb facs="#facs_491" n="476" source="2serlesouvriersde05sociuoft_0528.xml"/>ver un nouveau maître qui consente à payer au premier le montant du billet de dette, sambot bamnouol. Cette lettre de dette est le livret de l'esclave domestique ; le maître y inscrit les rares boni qui pourront diminuer le capital dû ; il y ajoutait trop souvent et par mauvaise foi des supplèments ou amendes pour les fautes commises dans le service. Le travail de l'esclave ne payant que l'intérêt du capital sous l'ancienne législation, le rachat devenait souvent presque impossible, puisqu'il n'y avait jamais d'amortissement.
-        </p>
-        <p xml:id="para_15_76_294">
-         Les esclaves domestiques sont de beaucoup les plus nombreux parmi ces catégories au Cambodge ; ce sont ceux-là dont les réformes entreprises depuis 1877I ont surtout visé le graduel affranchisse¬ment.
-        </p>
-        <p xml:id="para_15_76_295">
-         Le gouvernement français semble déterminé à requérir la mise en pratique rigoureuse de cette ordonnance; les effets se produiront promptement, et le salariat domestique aura dans quelques années rem¬placé l'esclavage pour dettes. Beaucoup d'esclaves libérés resteront chez leurs maîtres à titre de domestiques à gages, et la réforme sera accomplie presque sans heurt ni difficulté. Tous les témoignages s'ac¬cordent à reconnaître que l'esclavage domestique était relativement doux et le traitement très humain. Mais cette institution humiliante développait la nonchalance, la paresse naturelle des Cambodgiens ; ni le maître, ni les esclaves ne travaillent chez ces peuples, et l'aboli¬tion progressive, prudemment dosée puisqu'elle est amorcée depuis 1877I, ne sera pas seulement un grand bienfait moral, elle sera surtout une évolution économique féconde.
-        </p>
-        <p xml:id="para_15_76_296">
-         Laissant de côté le préambule et pour n'en donner que le dispositif, l'ordonnance royale du 29 décembre 1897 est concue presque littéra¬lement en ces termes
-        </p>
-        <p xml:id="para_15_76_297">
-         ART. 1ᵉʳ ——Ilest défendu à tous, dans le royaume, de vendre ou d'a¬cheter des personnes de n'importe quelle nationalité, hommes, enfants, même si ces personnes consentent à se vendre volontairement. Il est défendu de vendre, d'acheter absolument.
-        </p>
-        <p xml:id="para_15_76_298">
-         ART. 2. — A partir de ce jour et à l'avenir, si un homme a emprunté de l'argent à quelqu'un, et ayant cherché à s'acquitter n'a pu le faire, puis est entré volontairement au service du maître créancier, il est juste que cet homme rȩoive salaire : chaque mâle âgé de 21 ans et plus jusqu'à 60 ans, recevra 3 piastres par mois; chaque fille ou femme âgée de 18 ans et plus jusqu'à 60, 2 piastres par mois ; en outre il est juste que le maître fournisse l'entretien, la nourriture, les vêtements.
-        </p>
-        <p xml:id="para_15__300">
-         <pb facs="#facs_492" n="477" source="2serlesouvriersde05sociuoft_0529.xml"/> Les personnes attachées au service d'autrui : hommes âgés de- moins de 21 ans, femmes âgées de moins de 18 ans, qui suivant les lois et coutumes du pays sont réputées incapables de travailler, ainsi que les hommes ou femmes âgés de 60 ans et plus, réputés infirmes suivant les coutumes, ne recevront aucun salaire ; seulement le maître créan¬cier leur devra l'entretien, la nourriture et l'habillement.
-        </p>
-        <p xml:id="para_15__301">
-         ART. 3. — Toute personne homme ou femme, qui s'engage pour être domest̀que de quelqu'n, ou qui engage ses enfants encore jeunes, devra marquer les phalanges des doigts sur la lettre de dette qui de¬meure aux mains du maître ; de plus le rédacteur de la pièce signera, placera son cachet ou tracera les marques des phalanges en témoi¬gnage d'exactitude.
-        </p>
-        <p xml:id="para_15__302">
-         Quant aux personne, hommes ou filles, que leurs père et mère enga¬gent comme domestiques au service de quelqu'un, dès leur jeune age, elles pourront quand arrivera leur majorité (pouvoir se marier ou pouvoir travailler) quitter le service du maître et s'en aller libres d'engagement de dette. Elles pourront aussi faire une autre lettre de dette suivant la forme légale, s'engager elles-mêmes à rester encore et substituer leur propre engagement à la dette de leurs parents. Si elles ne consentent pas à demeurer plus longtemps, le maître aura le droit de réclamer sa créance aux père et mère et même aux enfants que ceux-ci avaient engagés.
-        </p>
-        <p xml:id="para_15__303">
-         Quant au chiffre de la lettre de dette, il faudra indiquer les intérêts au dos en plus du capital primitif; il faudra marquer les phalanges des doigts de la personne retenue comme domestique ; de plus, il faudra deux témoins qui ne soient pas parents du maître créancier, ni du débiteur, ils signeront, apposeront leurs cachets ou marqueront les traces de leurs phalanges, pour certifier l'uuthenticité.
-        </p>
-        <p xml:id="para_15__304">
-         ART. 4. — La somme due portera intérêt de 3 pour cent, par mois c'est-à-dire qu'une somme de 3 nén de capital, portera intérêt dans un mois de 3 ch, soit pour cent piastres de principal un intérêt mensuel de 3 piastres.
-        </p>
-        <p xml:id="para_15__305">
-         Sur la lettre constatant la dette, quand le débiteur sera entré au service domestique du créancier, il faudra marquer le montant du sa¬laire, compté suivunt les prescriptions de la présente ordonnance royale, lorsque le débiteur aura accompli une année de service ; puis le maître et le débiteur calculeront exactement le chiffre des intérêts et le chiffre des salaires, feront la balance des deux sommes pour liquider le solde définitif de la dette, quel qu'il soit. Si le débiteur veut <pb facs="#facs_493" n="478" source="2serlesouvriersde05sociuoft_0530.xml"/> continuer à rester chez son maître, on fera une nouvelle lettre ; chaque année le même calcul sera répété. Si avant une année accomplie, le débiteur veut quitter son maître, il faudra de même calculer exactement les intérêts et le salaire, en faire la balance, afin de connaitre le solde, et le débiteur pourra s'en aller.
-        </p>
-        <p xml:id="para_15__308">
-         ART. 5. — Tout homme attaché au service d'autrui par suite d'en¬gagement pour dette peut à son gré, à n'importe quelle époque, quitter son maître et aller demeurer chez un autre. Il doit alors avertir le créancier-maître sept jours àl'avance, et lui rembours er le solde encore dû de la lettre de dette, marquée des phalanges de ses doigts ; cela fait, il est libre de partir.
-        </p>
-        <p xml:id="para_15__309">
-         S'il n'avertit pas le maître sept jours d'avance pour délai de rem¬boursement de la dette, il paiera une indemnité. Si le débiteur ne paie pas et s'enfuit, il est juste que le maître ait le droit de le faire arrêter, la plainte sera portée devant le tribunal pour être jugée, décidée selon les lois. S'il est démontré que le débiteur demeure engagé pour une somme quelconque, il faudra que ce débiteur trouve l'argent pour rembourser, sinon il sera légalement et justement mis en prison à cause de sa dette selon l'ordonnance royale du vendredi 12ᵉ jour de la lune croissante, 11ᵉ mois, chollasacrach 1259, année rola, 9ᵉ de la décade, identique au 8 octobre 1897. Mais le maître créancier paiera le prix de la nourriture. de son débiteur, qu'il aura fait emprisonner, soit pour un homme, soit pour une femme, 2 piastres par mois.
-        </p>
-        <p xml:id="para_15__310">
-         ART. 6. — Les personnes attachées au service d'autrui, qui ne sont pas encore en âge de travailler, ou qui sont devenues infirmes, au termes de l'article 2 de la présente ordonnance royale, ne recevront aucun salaire. Mais il est juste que le capital de la dette pour laquelle elles sont engagées ne porte aucun intérêt. Si des père et mere ont engagé leur enfant avant sa majorité, pour être au service d'un maître, le capital de la dette ne portera intérêt qu'à partir de l'âge de la ma¬jorité, si le serviteur consent à demeurer chez son maître au delà de cette date.
-        </p>
-        <p xml:id="para_15__311">
-         ART. 7. — L'intéret de la dette pour laquelle une personne est retenue comme domestique, pourra être égal au capital si c'est un homme, et au delà on ne comptera que le capital; s'il s'agit d'une femme l'intérêt ne courra que jusqu'à concurrence de moitié du ca¬pital.
-        </p>
-        <p xml:id="para_15__312">
-         ART. 8. — Pour les esclaves domestiques, au service d'un maître depuis dix ans écoulés, ainsi qu'il est dit dans l'ordonnance royale du <pb facs="#facs_494" n="479" source="2serlesouvriersde05sociuoft_0531.xml"/> jour1ᵉʳ de lalune croissante, 3 mois de l'année du Rat, 8° de la décade, correspondant au 18 janvier 1877, s'ils sont demeurés ces dix années, on devra réduire la dette pour laquelle ils sont retenus; on les tiendre quittes de moitié et ils pourront partir ; pour ceux qui sont retenus depuis moins de dix ans, à partir du jour 1ᵉʳ de la lune croissante, 3ᵉ mois année du Rat, 8° de la décade (c'est-à-dire depuis le 18 jan¬vier 1877) jusqu'au 1 jour de la lune croissante du 3ᵉ mois de l'année Cha, 8ᵉ de la décade, qui correspond au 15 janvier 1887, juste dix années, la somme qui reste due en surplus de la part de moitié, à compter depuis le 1ᵉʳ jour de la lune croissante du 3 mois de l'année cha, 8ᵉ de la décade, sera diminuée du salaire acquis aux termes de la présente ordonnance royale; le capital réduit de moitié sera diminué des salaires ainsi caulculés et augmenté des intérêts courus.
-        </p>
-        <p xml:id="para_15_479_314">
-         ART. 9. — Si un homme est demeuré domestique au service de quelqu'un pendant de longues années, et que le calcul des salaires gagnés par lui soit beaucoup plus élevé que le cupital de la dette, augmenté des intérêts, il devra être de suite libre de son corps et quitte de tout engagement, mais le maître ne sera pas tenu de rem¬bourser les salaires excédant le montant de la dette ; car cet homme¬là est demeuré de son plein gré au service du maître jusqu'à l'époque de sa libération ; il n'a pas porté de plainte, n'a pas demandé à être libéré ni le jour de la publication de l'ordonnance royale, ni depuis.
-        </p>
-        <p xml:id="para_15_479_315">
-         Mais si le moment de la libération arrivé, la dette éteinte, le maître ne laisse pas le serviteur partir quitte d'engagement, et que le do¬mestique porte plainte au tribunal, si le tribunal juge, décide, après enquète, que le serviteur est demeuré au delà de l'extinction de sa dette, capital et intérêt, quel que soit l'excédent, dans ce cas seulement il est juste que le maître rembourse le surplus.
-        </p>
-        <p xml:id="para_15_479_316">
-         ARr. 10. — Les infractions à propos d'un article quelconque de la présente ordonnance royale seront punies sévèrement, suivant les traditions des ancêtres. Si la lettre de plainte n'est pas conforme au contenu de la présente ordonnance, on n'accueillera pas la plainte.
-        </p>
-        <p xml:id="para_15_479_317">
-         ART. 11. — Les tribunaux qui connaitront des différends entre maîtres et serviteurs domestiques pour dettes, devront juger et dé¬cider avec justice et équité, conformément au texte de la présente ordonnance royale.
-        </p>
-        <p xml:id="para_15_479_318">
-         ART. 12. — Le Conseil des ministres devra veiller à ce que cette ordonnance soit exécutée ; elle devra être imprimée, publiée, répun¬due et afflchée afin d'être connue de tous les intéressés.
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_17">§ 17. SUR L'ESCLAVAGE AU CAMBODGE.</head>
+        <p xml:id="para_15__286"><pb facs="#facs_489" n="474" source="2serlesouvriersde05sociuoft_0526.xml"/> L'esclavage a été peu à peu adouci au Cambodge, et les dernières mesures décrétées depuis 1877, c'est-à-dire depuis plus de vingt ans, l'auraient supprimé complètement, s'il n'y avait eu une résistance obstinée des propriétaires intéressés, et une coupable faiblesse de la part des pouvoirs publics. On comptait jadis quatre formes distinctes d'esclavage correspondant aux origines différentes de la condition des esclaves.</p>
+        <p xml:id="para_15__287">1° Les uns, à l'instar des pays africains, provenaient des peuplades sauvages, voisines du royaume à l'Est et au Nord. La traite alimentait encore, en 1870, les marchés d'esclaves de Sambol et de Pnom-Penh. Les captifs étaient vendus par leurs compatriotes à des traficants chi¬nois ou cambodgiens, quelquefois même, les gros mandarins des pro¬vinces limitrophes ne craignaient pas d'opérer chez les Stieng, les Penong, etc., des expéditions sanglantes d'où ils ramenaient des trou¬peaux d'hommes, de femmes et d'enfants dont le commerce s e faisait publiquement et procurait de gros bénéfices : un adulte se vendait de 500 a 600 francs. Ces esclaves ne pouvaient se racheter ; ils étaient considérés comme une marchandise, mais on assure qu'à aucune époque, ils n'étaient maîtraités. L'ordonnance royale du 15 jan¬vier 1877 a supprimé l'esclavage à vie.</p>
+        <p xml:id="para_15__288">2° Les neah ngéer ou pols, hommes du roi, esclaves de l'État, ont été réduits à cette condition par les lois du pays, à la suite de con¬damnations pour crimes commis par eux ou par leurs ancêtres ; ils <pb facs="#facs_490" n="475" source="2serlesouvriersde05sociuoft_0527.xml"/> vivent à part, se marient entre eux et sont exclus des fonctions pu¬bliques. Ils doivent à l'Etat trois mois de service ou corvées, ou des redevances particulières en nature. La même ordonnance de 1877I les a autorisés à se racheter. On compte, dans certaines provinces cam¬bodgiennes, des villages entiers habités par des pols, leur affran¬chissement aura des conséquences heureuses pour le développement du travail agricole et augmentera les recettes de l'impôt personnel. On peut estimer que plus de 50.000 individus, classés par euphé¬misme dans la catégorie des domestiques, ne paient actuellement que 1 piastre 20 (3ᶠ00) par an de taxe personnelle ; dorénavant comptés comme hommes libres, ils seront imposés à 2 piastres 50 (6ᶠ25), soit une plus value de 162.500 francs ou de 2,70 1 du budget total, celui-ci étant de 6.000.000 francs, à peu prês 4 francs par habitant.</p>
+        <p xml:id="para_15__291">3° Les esclaves de pagodes, ds pol prea. Leur condition était meil¬leure que celle des pols de l'État ; elle résultait aussi de condamnations légales à la suite de crimes ayant un caractere de sacrilège ; les pol préa étaient attachés héréditairement au service intérieur des pagodes ; on les a assimilés aux serfs de main-morte. Ils ont à peu près disparu.</p>
+        <p xml:id="para_15__292">4° L'esclavage domestique pour dettes est une forme très particu¬lière de servitude. Les Cambodgiens n'admettent point que notre ex¬pression esclave puisse s'appliquer justement aux hnhom bam¬eu bdmnaul, littéralement servyiteurs employés à cause de dette ; les mots bancham engagement, chompea retenu, qui désignent fréquem¬ment l'état de ces personnes, ne sont point à leurs yeux l'indice d'une dégradation, au moins définitive. La possibilité du rachat a toujours été proclamée légalement, et c'est par suite des abus des créanciers¬maîtres, que le montant de la dette, cause de la domesticité, ne s'a¬mortissait jamais, et que l'esclavage se perpétuait. La dette, pour laquelle l'esclave est engagé, peut avoir pourcause le non-paiement d'a¬mendes judiciaires ; la loi pénale applique à un grand nombre de délits et crimes des condamnations pécuniaires, dommages intérêts et amendes au profit du trésor publie. Bien souvent, le coupable ne pouvant s'acquitter était vendu pour le montant de l'amende. L'es¬clave peut aussi s'être lui-meme mis en gage pour garantir une dette précédente dont il ne peut acquitter même les intérêts, ou en gage d'une somme qu'il touche du maître en entrant à son service. Le père de famille peut ainsi engager sa femme et ses enfants jusqu'au rem¬boursement de la somme due. L'esclave pour dette a le droit de se faire racheter, c'est-à-dire de changer de maître ; il lui suflt de trou<pb facs="#facs_491" n="476" source="2serlesouvriersde05sociuoft_0528.xml"/>ver un nouveau maître qui consente à payer au premier le montant du billet de dette, sambot bamnouol. Cette lettre de dette est le livret de l'esclave domestique ; le maître y inscrit les rares boni qui pourront diminuer le capital dû ; il y ajoutait trop souvent et par mauvaise foi des supplèments ou amendes pour les fautes commises dans le service. Le travail de l'esclave ne payant que l'intérêt du capital sous l'ancienne législation, le rachat devenait souvent presque impossible, puisqu'il n'y avait jamais d'amortissement.</p>
+        <p xml:id="para_15_76_294">Les esclaves domestiques sont de beaucoup les plus nombreux parmi ces catégories au Cambodge ; ce sont ceux-là dont les réformes entreprises depuis 1877I ont surtout visé le graduel affranchisse¬ment.</p>
+        <p xml:id="para_15_76_295">Le gouvernement français semble déterminé à requérir la mise en pratique rigoureuse de cette ordonnance; les effets se produiront promptement, et le salariat domestique aura dans quelques années rem¬placé l'esclavage pour dettes. Beaucoup d'esclaves libérés resteront chez leurs maîtres à titre de domestiques à gages, et la réforme sera accomplie presque sans heurt ni difficulté. Tous les témoignages s'ac¬cordent à reconnaître que l'esclavage domestique était relativement doux et le traitement très humain. Mais cette institution humiliante développait la nonchalance, la paresse naturelle des Cambodgiens ; ni le maître, ni les esclaves ne travaillent chez ces peuples, et l'aboli¬tion progressive, prudemment dosée puisqu'elle est amorcée depuis 1877I, ne sera pas seulement un grand bienfait moral, elle sera surtout une évolution économique féconde.</p>
+        <p xml:id="para_15_76_296">Laissant de côté le préambule et pour n'en donner que le dispositif, l'ordonnance royale du 29 décembre 1897 est concue presque littéra¬lement en ces termes</p>
+        <p xml:id="para_15_76_297">ART. 1ᵉʳ ——Ilest défendu à tous, dans le royaume, de vendre ou d'a¬cheter des personnes de n'importe quelle nationalité, hommes, enfants, même si ces personnes consentent à se vendre volontairement. Il est défendu de vendre, d'acheter absolument.</p>
+        <p xml:id="para_15_76_298">ART. 2. — A partir de ce jour et à l'avenir, si un homme a emprunté de l'argent à quelqu'un, et ayant cherché à s'acquitter n'a pu le faire, puis est entré volontairement au service du maître créancier, il est juste que cet homme rȩoive salaire : chaque mâle âgé de 21 ans et plus jusqu'à 60 ans, recevra 3 piastres par mois; chaque fille ou femme âgée de 18 ans et plus jusqu'à 60, 2 piastres par mois ; en outre il est juste que le maître fournisse l'entretien, la nourriture, les vêtements.</p>
+        <p xml:id="para_15__300"><pb facs="#facs_492" n="477" source="2serlesouvriersde05sociuoft_0529.xml"/> Les personnes attachées au service d'autrui : hommes âgés de- moins de 21 ans, femmes âgées de moins de 18 ans, qui suivant les lois et coutumes du pays sont réputées incapables de travailler, ainsi que les hommes ou femmes âgés de 60 ans et plus, réputés infirmes suivant les coutumes, ne recevront aucun salaire ; seulement le maître créan¬cier leur devra l'entretien, la nourriture et l'habillement.</p>
+        <p xml:id="para_15__301">ART. 3. — Toute personne homme ou femme, qui s'engage pour être domest̀que de quelqu'n, ou qui engage ses enfants encore jeunes, devra marquer les phalanges des doigts sur la lettre de dette qui de¬meure aux mains du maître ; de plus le rédacteur de la pièce signera, placera son cachet ou tracera les marques des phalanges en témoi¬gnage d'exactitude.</p>
+        <p xml:id="para_15__302">Quant aux personne, hommes ou filles, que leurs père et mère enga¬gent comme domestiques au service de quelqu'un, dès leur jeune age, elles pourront quand arrivera leur majorité (pouvoir se marier ou pouvoir travailler) quitter le service du maître et s'en aller libres d'engagement de dette. Elles pourront aussi faire une autre lettre de dette suivant la forme légale, s'engager elles-mêmes à rester encore et substituer leur propre engagement à la dette de leurs parents. Si elles ne consentent pas à demeurer plus longtemps, le maître aura le droit de réclamer sa créance aux père et mère et même aux enfants que ceux-ci avaient engagés.</p>
+        <p xml:id="para_15__303">Quant au chiffre de la lettre de dette, il faudra indiquer les intérêts au dos en plus du capital primitif; il faudra marquer les phalanges des doigts de la personne retenue comme domestique ; de plus, il faudra deux témoins qui ne soient pas parents du maître créancier, ni du débiteur, ils signeront, apposeront leurs cachets ou marqueront les traces de leurs phalanges, pour certifier l'uuthenticité.</p>
+        <p xml:id="para_15__304">ART. 4. — La somme due portera intérêt de 3 pour cent, par mois c'est-à-dire qu'une somme de 3 nén de capital, portera intérêt dans un mois de 3 ch, soit pour cent piastres de principal un intérêt mensuel de 3 piastres.</p>
+        <p xml:id="para_15__305">Sur la lettre constatant la dette, quand le débiteur sera entré au service domestique du créancier, il faudra marquer le montant du sa¬laire, compté suivunt les prescriptions de la présente ordonnance royale, lorsque le débiteur aura accompli une année de service ; puis le maître et le débiteur calculeront exactement le chiffre des intérêts et le chiffre des salaires, feront la balance des deux sommes pour liquider le solde définitif de la dette, quel qu'il soit. Si le débiteur veut <pb facs="#facs_493" n="478" source="2serlesouvriersde05sociuoft_0530.xml"/> continuer à rester chez son maître, on fera une nouvelle lettre ; chaque année le même calcul sera répété. Si avant une année accomplie, le débiteur veut quitter son maître, il faudra de même calculer exactement les intérêts et le salaire, en faire la balance, afin de connaitre le solde, et le débiteur pourra s'en aller.</p>
+        <p xml:id="para_15__308">ART. 5. — Tout homme attaché au service d'autrui par suite d'en¬gagement pour dette peut à son gré, à n'importe quelle époque, quitter son maître et aller demeurer chez un autre. Il doit alors avertir le créancier-maître sept jours àl'avance, et lui rembours er le solde encore dû de la lettre de dette, marquée des phalanges de ses doigts ; cela fait, il est libre de partir.</p>
+        <p xml:id="para_15__309">S'il n'avertit pas le maître sept jours d'avance pour délai de rem¬boursement de la dette, il paiera une indemnité. Si le débiteur ne paie pas et s'enfuit, il est juste que le maître ait le droit de le faire arrêter, la plainte sera portée devant le tribunal pour être jugée, décidée selon les lois. S'il est démontré que le débiteur demeure engagé pour une somme quelconque, il faudra que ce débiteur trouve l'argent pour rembourser, sinon il sera légalement et justement mis en prison à cause de sa dette selon l'ordonnance royale du vendredi 12ᵉ jour de la lune croissante, 11ᵉ mois, chollasacrach 1259, année rola, 9ᵉ de la décade, identique au 8 octobre 1897. Mais le maître créancier paiera le prix de la nourriture. de son débiteur, qu'il aura fait emprisonner, soit pour un homme, soit pour une femme, 2 piastres par mois.</p>
+        <p xml:id="para_15__310">ART. 6. — Les personnes attachées au service d'autrui, qui ne sont pas encore en âge de travailler, ou qui sont devenues infirmes, au termes de l'article 2 de la présente ordonnance royale, ne recevront aucun salaire. Mais il est juste que le capital de la dette pour laquelle elles sont engagées ne porte aucun intérêt. Si des père et mere ont engagé leur enfant avant sa majorité, pour être au service d'un maître, le capital de la dette ne portera intérêt qu'à partir de l'âge de la ma¬jorité, si le serviteur consent à demeurer chez son maître au delà de cette date.</p>
+        <p xml:id="para_15__311">ART. 7. — L'intéret de la dette pour laquelle une personne est retenue comme domestique, pourra être égal au capital si c'est un homme, et au delà on ne comptera que le capital; s'il s'agit d'une femme l'intérêt ne courra que jusqu'à concurrence de moitié du ca¬pital.</p>
+        <p xml:id="para_15__312">ART. 8. — Pour les esclaves domestiques, au service d'un maître depuis dix ans écoulés, ainsi qu'il est dit dans l'ordonnance royale du <pb facs="#facs_494" n="479" source="2serlesouvriersde05sociuoft_0531.xml"/> jour1ᵉʳ de lalune croissante, 3 mois de l'année du Rat, 8° de la décade, correspondant au 18 janvier 1877, s'ils sont demeurés ces dix années, on devra réduire la dette pour laquelle ils sont retenus; on les tiendre quittes de moitié et ils pourront partir ; pour ceux qui sont retenus depuis moins de dix ans, à partir du jour 1ᵉʳ de la lune croissante, 3ᵉ mois année du Rat, 8° de la décade (c'est-à-dire depuis le 18 jan¬vier 1877) jusqu'au 1 jour de la lune croissante du 3ᵉ mois de l'année Cha, 8ᵉ de la décade, qui correspond au 15 janvier 1887, juste dix années, la somme qui reste due en surplus de la part de moitié, à compter depuis le 1ᵉʳ jour de la lune croissante du 3 mois de l'année cha, 8ᵉ de la décade, sera diminuée du salaire acquis aux termes de la présente ordonnance royale; le capital réduit de moitié sera diminué des salaires ainsi caulculés et augmenté des intérêts courus.</p>
+        <p xml:id="para_15_479_314">ART. 9. — Si un homme est demeuré domestique au service de quelqu'un pendant de longues années, et que le calcul des salaires gagnés par lui soit beaucoup plus élevé que le cupital de la dette, augmenté des intérêts, il devra être de suite libre de son corps et quitte de tout engagement, mais le maître ne sera pas tenu de rem¬bourser les salaires excédant le montant de la dette ; car cet homme¬là est demeuré de son plein gré au service du maître jusqu'à l'époque de sa libération ; il n'a pas porté de plainte, n'a pas demandé à être libéré ni le jour de la publication de l'ordonnance royale, ni depuis.</p>
+        <p xml:id="para_15_479_315">Mais si le moment de la libération arrivé, la dette éteinte, le maître ne laisse pas le serviteur partir quitte d'engagement, et que le do¬mestique porte plainte au tribunal, si le tribunal juge, décide, après enquète, que le serviteur est demeuré au delà de l'extinction de sa dette, capital et intérêt, quel que soit l'excédent, dans ce cas seulement il est juste que le maître rembourse le surplus.</p>
+        <p xml:id="para_15_479_316">ARr. 10. — Les infractions à propos d'un article quelconque de la présente ordonnance royale seront punies sévèrement, suivant les traditions des ancêtres. Si la lettre de plainte n'est pas conforme au contenu de la présente ordonnance, on n'accueillera pas la plainte.</p>
+        <p xml:id="para_15_479_317">ART. 11. — Les tribunaux qui connaitront des différends entre maîtres et serviteurs domestiques pour dettes, devront juger et dé¬cider avec justice et équité, conformément au texte de la présente ordonnance royale.</p>
+        <p xml:id="para_15_479_318">ART. 12. — Le Conseil des ministres devra veiller à ce que cette ordonnance soit exécutée ; elle devra être imprimée, publiée, répun¬due et afflchée afin d'être connue de tous les intéressés.</p>
        </div>
        <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">
-         § 18. COMPARAISON DE TROIS BUDGETS OBSERVÉS EN 1897
-        </head>
-        <p xml:id="para_15__322">
-         <pb facs="#facs_495" n="480" source="2serlesouvriersde05sociuoft_0532.xml"/>1° Petit fonctionnaire de Pnom-Penh (Cambodge).
-        </p>
-        <p xml:id="para_15__323">
-         2° Mineur du Pas-de-Calais (France).
-        </p>
-        <p xml:id="para_15__324">
-         3° Serrurier-forgeron de Picpus, à Paris.
-        </p>
-        <p xml:id="para_15__325">
-         Il n'a pas paru sans intérêt d'établir un parallele entre le budget du Petit fonctionnaire de Pnom-Penh, et ceux de deux ouvriers fran¬cais, le Mineur du Pas-de-Calais, et le Serrurier de Picpus (nᵉr 86 et 88 de la 2° série des ˉOuvriers des ˉDeux Mondes, tome V).
-        </p>
-        <p xml:id="para_15__326">
-         O0bservés à la même époque, dressés suivant une méthode commune, ils permettront une comparaison exacte entre les conditions générales de l'existence, dans des mondes totalement différents.
-        </p>
-        <p xml:id="para_15__327">
-         La part principale des recettes est formée par les salaires, de 75 à 92 2 ; le chef de famille peut absolument y compter, le revenu est stable.
-        </p>
-        <p xml:id="para_15__328">
-         Les totaux de subventions sont sensiblement les mêmes pour les deux premiers budgets ; presque nuls pour le 3ᵉ, budget urbain. A la 4° section, les bénéfices des industries s'élèvent pour l'ouvrier parisien. Chez les uns et les autres, la moitié environ des dépenses est affectée à la nourriture ; l'habitation absorbe de 10 a 17 /, ; le vêtement, de 9 à 18, ; les conditions climatériques motivent ces écarts ; les besoins moraux représentent en France à peine ; et 2 °, et près de 10 °, à Pnom-Penh ; les récréations, 12, 8 et 6%,, le chifre le plus élevé est celui de l'ouvrier parisien ; enfin l'épargne va de 6 à 12 °..
-        </p>
-        <p xml:id="para_15__329">
-         En comparant aussi les poids des aliments consommés on s'explique la faiblesse physique et l'indolence des Asiatiques réduits à une nour¬riture peu substantielle.
-        </p>
-        <p xml:id="para_15__330">
-         On remarquera que la situation morale des Cambodgiens est mani¬festement supérieure à leur condition matérielle. La proportion de leurs maigres ressources volontairement consacrée aux dépenses de reli¬gion, de charité et de famille, est relativement fort élevée, tandis que le pourcentage des colonnes intitulées : boissons, récréations, in¬dique une sobriété, une sagesse de meurs qui méritent notre estime. <pb facs="#facs_496" n="481" source="2serlesouvriersde05sociuoft_0533.xml"/><pb facs="#facs_497" n="482" source="2serlesouvriersde05sociuoft_0534.xml"/><pb facs="#facs_498" n="483" source="2serlesouvriersde05sociuoft_0535.xml"/>
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_18">§ 18. COMPARAISON DE TROIS BUDGETS OBSERVÉS EN 1897</head>
+        <p xml:id="para_15__322"><pb facs="#facs_495" n="480" source="2serlesouvriersde05sociuoft_0532.xml"/> 1° Petit fonctionnaire de Pnom-Penh (Cambodge).</p>
+        <p xml:id="para_15__323">2° Mineur du Pas-de-Calais (France).</p>
+        <p xml:id="para_15__324">3° Serrurier-forgeron de Picpus, à Paris.</p>
+        <p xml:id="para_15__325">Il n'a pas paru sans intérêt d'établir un parallele entre le budget du Petit fonctionnaire de Pnom-Penh, et ceux de deux ouvriers fran¬cais, le Mineur du Pas-de-Calais, et le Serrurier de Picpus (nᵉr 86 et 88 de la 2° série des ˉOuvriers des ˉDeux Mondes, tome V).</p>
+        <p xml:id="para_15__326">O0bservés à la même époque, dressés suivant une méthode commune, ils permettront une comparaison exacte entre les conditions générales de l'existence, dans des mondes totalement différents.</p>
+        <p xml:id="para_15__327">La part principale des recettes est formée par les salaires, de 75 à 92 2 ; le chef de famille peut absolument y compter, le revenu est stable.</p>
+        <p xml:id="para_15__328">Les totaux de subventions sont sensiblement les mêmes pour les deux premiers budgets ; presque nuls pour le 3ᵉ, budget urbain. A la 4° section, les bénéfices des industries s'élèvent pour l'ouvrier parisien. Chez les uns et les autres, la moitié environ des dépenses est affectée à la nourriture ; l'habitation absorbe de 10 a 17 /, ; le vêtement, de 9 à 18, ; les conditions climatériques motivent ces écarts ; les besoins moraux représentent en France à peine ; et 2 °, et près de 10 °, à Pnom-Penh ; les récréations, 12, 8 et 6%,, le chifre le plus élevé est celui de l'ouvrier parisien ; enfin l'épargne va de 6 à 12 °..</p>
+        <p xml:id="para_15__329">En comparant aussi les poids des aliments consommés on s'explique la faiblesse physique et l'indolence des Asiatiques réduits à une nour¬riture peu substantielle.</p>
+        <p xml:id="para_15__330">On remarquera que la situation morale des Cambodgiens est mani¬festement supérieure à leur condition matérielle. La proportion de leurs maigres ressources volontairement consacrée aux dépenses de reli¬gion, de charité et de famille, est relativement fort élevée, tandis que le pourcentage des colonnes intitulées : boissons, récréations, in¬dique une sobriété, une sagesse de meurs qui méritent notre estime. <pb facs="#facs_496" n="481" source="2serlesouvriersde05sociuoft_0533.xml"/><pb facs="#facs_497" n="482" source="2serlesouvriersde05sociuoft_0534.xml"/><pb facs="#facs_498" n="483" source="2serlesouvriersde05sociuoft_0535.xml"/></p>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_3">
-          A. — Budgets des recettes [notes annexes]
-         </head>
+         <head resp="original" type="table" xml:id="figure_3">A. — Budgets des recettes [notes annexes]</head>
          <graphic facs="#facs_496" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24533/0,495,2836,3340/full/0/default.jpg" xml:id="tble_15_1_18"/>
         </figure>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_4">
-          B. — Budgets des dépenses [notes annexes]
-         </head>
+         <head resp="original" type="table" xml:id="figure_4">B. — Budgets des dépenses [notes annexes]</head>
          <graphic facs="#facs_497" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24534/39,551,2740,3387/full/0/default.jpg" xml:id="tble_15_82_19"/>
         </figure>
         <figure rend="portrait" type="table">
          <!-- figure sur 2 pages -->
-         <head resp="original" type="table" xml:id="figure_5">
-          B. — Budgets des dépenses (suite) [notes annexes]
-         </head>
+         <head resp="original" type="table" xml:id="figure_5">B. — Budgets des dépenses (suite) [notes annexes]</head>
          <graphic facs="#facs_498" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24535/0,399,2804,2652/full/0/default.jpg" xml:id="tble_15_483_20"/>
         </figure>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_6">
-          C. — Comparaison en poids des aliments consommés [notes annexes]
-         </head>
+         <head resp="original" type="table" xml:id="figure_6">C. — Comparaison en poids des aliments consommés [notes annexes]</head>
          <graphic facs="#facs_498" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24535/-8,3075,2772,862/full/0/default.jpg" xml:id="tble_15_483_21"/>
         </figure>
        </div>
