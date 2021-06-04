@@ -1,72 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-104a" xml:lang="fr">
+<TEI xml:id="ID-104a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 3, volume 2 - Transcription</title>
+    <title>
+     Les Ouvriers des Deux Mondes - série 3, volume 2 - Transcription
+    </title>
     <respStmt>
      <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>encodage scientifique</resp>
+     <resp>
+      encodage scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>supervision technique</resp>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </titleStmt>
    <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
    </publicationStmt>
    <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
    <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
    </projectDesc>
   </encodingDesc>
  </teiHeader>
@@ -242,307 +310,770 @@
   <body>
    <div ana="#ID-104a" type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_6_257_1">N° 104</p>
-     <p xml:id="para_6_257_2">TEINTURIER DE GANTERIE ET GANTIÈRES</p>
-     <p xml:id="para_6_257_3">DE SAINT-JUNIEN</p>
-     <p xml:id="para_6_257_4">(Haute-Vienne — France)</p>
-     <p xml:id="para_6_257_5">TACHERONS</p>
-     <p xml:id="para_6_257_6">DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS</p>
-     <p>d'après</p>
-     <p xml:id="para_6_257_7">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1904 ET 1905</p>
-     <p xml:id="para_6_257_8">M. L. DE MAILLARD</p>
+     <p xml:id="para_6_257_1">
+      N° 104
+     </p>
+     <p xml:id="para_6_257_2">
+      TEINTURIER DE GANTERIE ET GANTIÈRES
+     </p>
+     <p xml:id="para_6_257_3">
+      DE SAINT-JUNIEN
+     </p>
+     <p xml:id="para_6_257_4">
+      (Haute-Vienne — France)
+     </p>
+     <p xml:id="para_6_257_5">
+      TACHERONS
+     </p>
+     <p xml:id="para_6_257_6">
+      DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS
+     </p>
+     <p>
+      d'après
+     </p>
+     <p xml:id="para_6_257_7">
+      LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1904 ET 1905
+     </p>
+     <p xml:id="para_6_257_8">
+      M. <persName>L. DE MAILLARD</persName>
+     </p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE
+     </head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. ÉTAT DU SOL, DE L'NDUSTRIE ET DE LA POPULATION</head>
-       <p xml:id="para_6_257_14"><pb facs="#facs_261" n="257" source="lesouvriersdesde916sociuoft_0283.xml"/> La ville de Saint-Junien (50°98 de latitude nord et 1°80 de longitude ouest), batie en amphithéàtre sur le coteau qui sépare la Glane de la Vienne, n'a jamais été un centre administratif ni judiciaire, pas plus sous l'ancien régime que depuis la Révolution.</p>
-       <p xml:id="para_6_257_15">Jadis, elle fut surtout une cité religieuse. Le roc où elle s'élêve (l'alti¬tude en est de 214,750, au niveau de la rivière elle n'est que de 178,843) fut choisi comme retraite par l'ermite saint Junien qui, dit-on, était petit<pb facs="#facs_262" n="258" source="lesouvriersdesde916sociuoft_0284.xml"/>fils de Clodion, et la foret de Comodolicum lui sembla un lieu propice à la plus austère des pénitences. A la mort du saint, les miracles abon¬dèrent ; bientôt les légendes fleurirent et le désert se peupla autour de son tombeau. Les monastères furent nombreux à Saint-Junien. La ta¬tistique de la Haute-Vienne (1808) rappelle qu'avant la Révolution il s'y trouvait une collégiale (du x siècle), quatre couvents (dominicaine, récollets, religieuses de Notre-Dame et cordeliers) et la petite église go¬thique de Notre-Dame du Pont<note type="bp">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION
+       </head>
+       <p xml:id="para_6_257_14">
+        <pb facs="#facs_261" n="257" source="lesouvriersdesde916sociuoft_0283.xml"/> La ville de Saint-Junien (50°98 de latitude nord et 1°80 de longitude ouest), batie en amphithéàtre sur le coteau qui sépare la Glane de la Vienne, n'a jamais été un centre administratif ni judiciaire, pas plus sous l'ancien régime que depuis la Révolution.
+       </p>
+       <p xml:id="para_6_257_15">
+        Jadis, elle fut surtout une cité religieuse. Le roc où elle s'élêve (l'alti¬tude en est de 214,750, au niveau de la rivière elle n'est que de 178,843) fut choisi comme retraite par l'ermite saint Junien qui, dit-on, était petit<pb facs="#facs_262" n="258" source="lesouvriersdesde916sociuoft_0284.xml"/>fils de Clodion, et la foret de Comodolicum lui sembla un lieu propice à la plus austère des pénitences. A la mort du saint, les miracles abon¬dèrent ; bientôt les légendes fleurirent et le désert se peupla autour de son tombeau. Les monastères furent nombreux à Saint-Junien. La ta¬tistique de la Haute-Vienne (1808) rappelle qu'avant la Révolution il s'y trouvait une collégiale (du x siècle), quatre couvents (dominicaine, récollets, religieuses de Notre-Dame et cordeliers) et la petite église go¬thique de Notre-Dame du Pont
+        <note type="bp">
          <p>
-          <ref target="#ID-472a" type="renvoi_int_od2m">La légende de Notre-Dame du Pont se trouve dans le fascicule supplémen¬taire consacré à la Sociéte des Papeteries du Limousin par M. du Maroussem</ref>.</p>
-        </note>. Cet oratoire et le tombeau du saint ermite étaient en grande vénération au moyen âge. Louis XI les visita deux fois en 1463 et 1465, y pria moult dévotement n et accorda des franchises à la ville.</p>
-       <p xml:id="para_6_258_18">De cette époque de pèlerinages, dont les ostensions actuelles sont un vestige, date le développement commercial et l'importance de la com¬mune. Antérieurement, en effet, la vie sociale avait occupé les hauteurs de la rive gauche de la Vienne, à l'entrecroisement des voies romaines, dont le bourg de Cassinomagus (Chassenon) était le centre. Elle se déve¬loppe désormais dans la petite ville si bien placée entre le Poitou et le Limousin, près d'une grande route de « roulage allant de Brest à Lyon.</p>
-       <p xml:id="para_6_258_19">Pendant les guerres des x et xve siècles, les Anglais s'emparèrent plusieurs fois de Saint-unien ; les huguenots le ravagèrent en 1569 et mirent le feu aux couvents ; mais « dévotions » et commerce se relevèrent bientôt, grâce à la volonté obstinée d'une population dont la profondeur de sentiment religieux n'étailt égalée que par l'âpreté au gain et la dissi¬mulation craintive.</p>
-       <p xml:id="para_6_258_20">Actuellement, les croyances sont très affaiblies quant aux dogmes, mais le besoin de surnaturel persiste plus indestructible que partout ailleurs et se traduit par d'incroyables superstitions<note type="bp">
-         <p>Aspect de la population,<ref target="#ID-065a" type="renvoi_int_od2m">voir Ouvriers des Deux Mondes, n° 65, Metayers en communauté du Confolentais, par M. P. du Maroussem</ref>.</p>
-        </note>.</p>
-       <p xml:id="para_6_258_21">Notre siècle d'industrie et de commerce a fait de Saint-Junien une ville manufacturière que la ligne de chemin de fer de Saintes à Limoges (Etat et Compagnie d'Orléans) favorise comme le faisaient les routes d'antan.</p>
-       <p xml:id="para_6_258_22">Cette région, limite extrême dè la zone du plateau central, dont le sol est granitique, la terre argileuse couverte d'ajoncs et de bruyères sur ses collines arrondies et de prairies dans ses nombreuses et étroites vallées, est un pays d'élevage, mais un pays pauvre. La ville de Saint-Junien, <pb facs="#facs_263" n="259" source="lesouvriersdesde916sociuoft_0285.xml"/> que l'importaunce de son chiffre d'affaires a mise au second rang du dépar¬tement, doit donc tout aux industries. Trois d'entre elles, sorties des essais de l'ancien régime : la ganterie, la mégisserie et la fabrication du papier de paille, y ont aggloméré une population intéressante et conside¬rable (11,42 habitants).</p>
-       <p xml:id="para_6_259_26">L'aspect des intérieurs, les mœeurs, le patois (langue d'oc, dialecte limousin) universellement employé, montrent qu'on a affaire à des paysans déracinés.</p>
-       <p xml:id="para_6_259_27">Elle est aussi curieuse cette petite ville où tous les contrastes, les plus moyenageux et les plus modernes, se produisent. Des vieilles maisons en bois, dont les divers étages sont sur la rue, à des avancements difé¬rents, sort un ronronnement de machine à coudre ; et les grandes portes bases et cinrées, — boutiques d'autrefois — qui portent les dates de 1530 ou 1618, sont largement vitrées et laissent voir la frêle silhouette d'une gantière qui coud fébrilement. Elle est mise à la dernière mode : paysanne hier, elle sera pétroleuse demain dans la prochaine grève.</p>
-       <p xml:id="para_6_259_28">L'écaurt trop considérable et trop rapide qui s'est produit entre patrons et travailleurs, habilement exploité par une perfide propagande socialiste partie de Limoges, a donné de malheureux résultats. Une grève est tou¬jours à l'etat latent à Saint-Junien, au grand préjudice de l'industrie et du commerce réellement atteints ces temps derniers.</p>
-       <p xml:id="para_6_259_29">Saint-Junien fait partie de l'arrondissement de Rochechouart<note type="bp">
-         <p>Rochechouart faisait, autrefois, partie du Poitou ; Saint-Junien, du Limou¬sin ; de là, déjà, un antagonisme qui n'a fait que croitre. A présent les grèves de Saint-Junien seomblent apporter un peu de vie industrielle à Rochechouart.</p>
-        </note>, qui détient la sous-préfecture malgré l'importance bien plus grande de ce chef-lieu de canton.</p>
+          <ref target="#ID-472a" type="renvoi_int_od2m">
+           La légende de Notre-Dame du Pont se trouve dans le fascicule supplémen¬taire consacré à la Sociéte des Papeteries du Limousin par M. du Maroussem
+          </ref>
+          .
+         </p>
+        </note>
+        . Cet oratoire et le tombeau du saint ermite étaient en grande vénération au moyen âge. Louis XI les visita deux fois en 1463 et 1465, y pria moult dévotement n et accorda des franchises à la ville.
+       </p>
+       <p xml:id="para_6_258_18">
+        De cette époque de pèlerinages, dont les ostensions actuelles sont un vestige, date le développement commercial et l'importance de la com¬mune. Antérieurement, en effet, la vie sociale avait occupé les hauteurs de la rive gauche de la Vienne, à l'entrecroisement des voies romaines, dont le bourg de Cassinomagus (Chassenon) était le centre. Elle se déve¬loppe désormais dans la petite ville si bien placée entre le Poitou et le Limousin, près d'une grande route de « roulage allant de Brest à Lyon.
+       </p>
+       <p xml:id="para_6_258_19">
+        Pendant les guerres des x et xve siècles, les Anglais s'emparèrent plusieurs fois de Saint-unien ; les huguenots le ravagèrent en 1569 et mirent le feu aux couvents ; mais « dévotions » et commerce se relevèrent bientôt, grâce à la volonté obstinée d'une population dont la profondeur de sentiment religieux n'étailt égalée que par l'âpreté au gain et la dissi¬mulation craintive.
+       </p>
+       <p xml:id="para_6_258_20">
+        Actuellement, les croyances sont très affaiblies quant aux dogmes, mais le besoin de surnaturel persiste plus indestructible que partout ailleurs et se traduit par d'incroyables superstitions
+        <note type="bp">
+         <p>
+          Aspect de la population,
+          <ref target="#ID-065a" type="renvoi_int_od2m">
+           voir Ouvriers des Deux Mondes, n° 65, Metayers en communauté du Confolentais, par M. P. du Maroussem
+          </ref>
+          .
+         </p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_6_258_21">
+        Notre siècle d'industrie et de commerce a fait de Saint-Junien une ville manufacturière que la ligne de chemin de fer de Saintes à Limoges (Etat et Compagnie d'Orléans) favorise comme le faisaient les routes d'antan.
+       </p>
+       <p xml:id="para_6_258_22">
+        Cette région, limite extrême dè la zone du plateau central, dont le sol est granitique, la terre argileuse couverte d'ajoncs et de bruyères sur ses collines arrondies et de prairies dans ses nombreuses et étroites vallées, est un pays d'élevage, mais un pays pauvre. La ville de Saint-Junien, <pb facs="#facs_263" n="259" source="lesouvriersdesde916sociuoft_0285.xml"/> que l'importaunce de son chiffre d'affaires a mise au second rang du dépar¬tement, doit donc tout aux industries. Trois d'entre elles, sorties des essais de l'ancien régime : la ganterie, la mégisserie et la fabrication du papier de paille, y ont aggloméré une population intéressante et conside¬rable (11,42 habitants).
+       </p>
+       <p xml:id="para_6_259_26">
+        L'aspect des intérieurs, les mœeurs, le patois (langue d'oc, dialecte limousin) universellement employé, montrent qu'on a affaire à des paysans déracinés.
+       </p>
+       <p xml:id="para_6_259_27">
+        Elle est aussi curieuse cette petite ville où tous les contrastes, les plus moyenageux et les plus modernes, se produisent. Des vieilles maisons en bois, dont les divers étages sont sur la rue, à des avancements difé¬rents, sort un ronronnement de machine à coudre ; et les grandes portes bases et cinrées, — boutiques d'autrefois — qui portent les dates de 1530 ou 1618, sont largement vitrées et laissent voir la frêle silhouette d'une gantière qui coud fébrilement. Elle est mise à la dernière mode : paysanne hier, elle sera pétroleuse demain dans la prochaine grève.
+       </p>
+       <p xml:id="para_6_259_28">
+        L'écaurt trop considérable et trop rapide qui s'est produit entre patrons et travailleurs, habilement exploité par une perfide propagande socialiste partie de Limoges, a donné de malheureux résultats. Une grève est tou¬jours à l'etat latent à Saint-Junien, au grand préjudice de l'industrie et du commerce réellement atteints ces temps derniers.
+       </p>
+       <p xml:id="para_6_259_29">
+        Saint-Junien fait partie de l'arrondissement de Rochechouart
+        <note type="bp">
+         <p>
+          Rochechouart faisait, autrefois, partie du Poitou ; Saint-Junien, du Limou¬sin ; de là, déjà, un antagonisme qui n'a fait que croitre. A présent les grèves de Saint-Junien seomblent apporter un peu de vie industrielle à Rochechouart.
+         </p>
+        </note>
+        , qui détient la sous-préfecture malgré l'importance bien plus grande de ce chef-lieu de canton.
+       </p>
        <div n="002" type="sub_sub_section">
         <!--Individus cités : Martial D. (n°104aE1) - Annette L. (n°104aE2) - Marie D. (n°104aE3) - Henri D. (n°104aE4) - Marie-Louise D. (n°104aE5)-->
-        <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
-        <p xml:id="para_6_259_32">La famille, objet de cette monographie, se compose de cinq personnes vivant sous le même toit :</p>
-        <p xml:id="para_6_259_33">1. Martial D., le pere de famille, né à Saint-Brice (Haute-Vienne). . 52 ans.</p>
-        <p xml:id="para_6_259_34">2. Annette L., sa fèmme, née à Saint-Brice (Haute-Vienne) . . . . 19 —</p>
-        <p xml:id="para_6_259_35">3. Marie D., leur fille aînée, née à Saint-Brice (Haute-Vienne) . . . 19 —</p>
-        <p xml:id="para_6_259_36">Henri D., lenr ils, né à Saillat (Haute-Vienne) . . .. . . . 12</p>
-        <p xml:id="para_6_259_37">5. Marie-Louise D., leur ille, née à Saint-Junien (Haute-Vienne) . . 10 —</p>
-        <p xml:id="para_6_259_38">Il y a en outre une fille, Francoise, née à Saint-Brice, âgée de dix-sept <pb facs="#facs_264" n="260" source="lesouvriersdesde916sociuoft_0286.xml"/> ans, qui est en service à Châteauroux dans une famille de gantiers enri¬chis. Il importe de noter, dès à présent, qu'elle n'est pas comprise dans la monographie.</p>
-        <p xml:id="para_6_260_41">Le reste de la famille vit a Saint-Junien du travail du père, ouvrier teinturier, de celui de la mère et de la fille aînée, toutes deux gantières.</p>
-        <p xml:id="para_6_260_42">Paysans de souche de métayers, les D. ont rompu avec leurs tradi tions rurales, è cause de la santé précaire de la mère de famille, inca¬pable de suffire aux travaux des champs et aux devoirs d'une ménagère de campagne.</p>
+        <head type="sub_sub_section" xml:id="part_02_01_02">
+         § 2. ÉTAT CIVIL DE LA FAMILLE.
+        </head>
+        <p xml:id="para_6_259_32">
+         La famille, objet de cette monographie, se compose de cinq personnes vivant sous le même toit :
+        </p>
+        <p xml:id="para_6_259_33">
+         1. <persName>Martial D.</persName>, le père de famille, né à Saint-Brice (Haute-Vienne)............ 52 ans.
+        </p>
+        <p xml:id="para_6_259_34">
+         2. <persName>Annette L.</persName>, sa femme, née à Saint-Brice (Haute-Vienne)............ 49 —
+        </p>
+        <p xml:id="para_6_259_35">
+         3. <persName>Marie D.</persName>, leur fille aînée, née à Saint-Brice (Haute-Vienne)............ 19 —
+        </p>
+        <p xml:id="para_6_259_36">
+         4. <persName>Henri D.</persName>, lenr fils, né à Saillat (Haute-Vienne)............ 12
+        </p>
+        <p xml:id="para_6_259_37">
+         5. <persName>Marie-Louise D.</persName>, leur fille, née à Saint-Junien (Haute-Vienne)............ 10 —
+        </p>
+        <p xml:id="para_6_259_38">
+         Il y a en outre une fille, Françoise, née à Saint-Brice, âgée de dix-sept <pb facs="#facs_264" n="260" source="lesouvriersdesde916sociuoft_0286.xml"/> ans, qui est en service à Châteauroux dans une famille de gantiers enri¬chis. Il importe de noter, dès à présent, qu'elle n'est pas comprise dans la monographie.
+        </p>
+        <p xml:id="para_6_260_41">
+         Le reste de la famille vit a Saint-Junien du travail du père, ouvrier teinturier, de celui de la mère et de la fille aînée, toutes deux gantières.
+        </p>
+        <p xml:id="para_6_260_42">
+         Paysans de souche de métayers, les D. ont rompu avec leurs traditions rurales, à cause de la santé précaire de la mère de famille, inca¬pable de suffire aux travaux des champs et aux devoirs d'une ménagère de campagne.
+        </p>
        </div>
        <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
-        <p xml:id="para_6_260_45">Les membres de la famille vont à l'église « quand ils ont le temps, et considèrent la pratique religieuse comme un passe-temps de riche » mais ils sont catholiques et tiennent à l'être. Leur ignorance est encore plus grande que leurs préjugés ; et ce qui reste debout de leur foi au milieu de bien des ruines est un ensemble de superstitions étranges et indestruc¬tibles. Annette fait avirer les charbons afin de savoir à quel saint, dans un cas donné, il faut adresser les dévotions ». La chose est, parailt-il, fort importante et la bonne femme a beaucoup de renom. Personne n'en parle, mais tout le monde le sait; on fait semblant d'en rire, mais on y croit ferme. Pour ces simples, qui, toujours courbés vers les choses ma¬térielles, s'élèvent avec dificulté vers le sublime du dogme catholique, la vieille religion paienne renalt dans beaucoup de ses rites. Les « bons saints se vengent comme les divinités anciennes ; d'ailleurs il leur est attribué une grande puissance, plus grande à coup sûr que celle de Dieul.... On ne tarirait pas de raconter à ce sujet des anecdotes typiques et combien amusantesl</p>
-        <p xml:id="para_6_260_46">Pendant une grève qui éclata en 1902, Marie D.,resta plus de trois mois sans ouvrage, elle dut faire des travaux de ménage en ville. Elle alla chez une vieille demoiselle dont l'intelligence et le désir du bien s'alliaient à une très franche simplicité. Elle conquit vite la confiance et 1'affection de la jeune fille près de laquelle elle venait s'asseoir et tra¬vailler ; elle la fit causer, et canusant elle-même dissipa une foule de pré¬jugés. D'elle, Marie accepta des services d'abord, puis des conseils qui, d'une autre « bourgeoise, l'eussent blessée.</p>
-        <p xml:id="para_6_261_47"><pb facs="#facs_265" n="261" source="lesouvriersdesde916sociuoft_0287.xml"/> Quand les deux femmes se séparèrent, l'une avait acquis l'expérience d'un très simple et très sûr moyen d'apostolat, l'autre des idées plus justes et une pratique religieuse plus serieuse, excessive au dire des amies, et surtout la haine instinctive qu'elle ressentait contre la classe supérieure avait disparu. Elle est classée à présent dans le bon parti »».</p>
-        <p xml:id="para_6_261_48">Les D. forment un groupe familial très uni, très honnête, presque heu¬reux dansla pauvreté actuelle, qui est un progrès sur la misère d'hier. Leur demeure se compose d'une seule pièce très grande, d'un aspect misérable, servant tout à la fois de dortoir, de cuisine et d'atelier. Les attributs de ces diverses destinations l'encombrent sans la remplir ; on sent la mala¬die de la mère et la lassitude de la jeune fille. Celle-ci, qui dérobe à son métier le temps qu'elle consacre au ménage, le simplifie antant que pos¬sible. Aucune recherche de luxe, aucun indice de la personnalité de ceux qui habitent ici ; ils ont l'air campés. De fait, ils sont restés si peu partout où ils ont passé peu si l'on considère la stabilité ordinaire des paysans) qu'ils n'ont guère pu se fixer.</p>
-        <p xml:id="para_6_261_49">Prês de la mêre et de la fille, une autre ouvrière complète le petit ate¬lier ; c'est une amie qui, malheureuse auprès d'un père indigne, a ac¬cepté avec joie de venir travailler près des femmes D., elle ne les quitte que le soir et au moment des repas'; celle-là représente l'industrie de luxe, elle est brodeuse (toujours pour les gante) ; elle fait presque partie de la famille.</p>
-        <p xml:id="para_6_261_50">Un logement ouvrier faisant face à celui de la famille est occupé par un jeune doleur, proche parent de Martial. On habite si près que l'on peut se parler d'un atefier a l'autre, et pour abréger les heures de labeur monotone, les chansons du joyeux doleur apportent une note gaie chez les petites couturières. Nul roman d'ébauché. Marie est trop infé¬rieure à son cousin dans la hiérarchie ouvrière pour que l'on puisse songer au mariage.</p>
-        <p xml:id="para_6_261_51">En dehors de ce groupe intime, peu de relations à Saint-Junien, mais quelques-unes avec la gent de la campagne. Sous ce nom sont com¬pris les parents jusqu'au degré le plus éloigné.</p>
-        <p xml:id="para_6_261_52">enri a été enfant de chœur, ses parents ont pensé un instant qu'il s'élêverait davantage sur les degrés de l'autel ; ils l'avaient fait entrer à la maîtrise par vague désir de préservation, ils l'ont laissé courir ailleurs quand il l'a voulu, puisque c'était son idée . Ces pauvres gens sont d'une faiblesse incroyable et leurs enfants de douze ans leur font peur.</p>
+        <head type="sub_sub_section" xml:id="part_02_01_03">
+         § 3. RELIGION ET HABITUDES MORALES.
+        </head>
+        <p xml:id="para_6_260_45">
+         Les membres de la famille vont à l'église « quand ils ont le temps, et considèrent la pratique religieuse comme un passe-temps de riche » mais ils sont catholiques et tiennent à l'être. Leur ignorance est encore plus grande que leurs préjugés ; et ce qui reste debout de leur foi au milieu de bien des ruines est un ensemble de superstitions étranges et indestruc¬tibles. Annette fait avirer les charbons afin de savoir à quel saint, dans un cas donné, il faut adresser les dévotions ». La chose est, parailt-il, fort importante et la bonne femme a beaucoup de renom. Personne n'en parle, mais tout le monde le sait; on fait semblant d'en rire, mais on y croit ferme. Pour ces simples, qui, toujours courbés vers les choses ma¬térielles, s'élèvent avec dificulté vers le sublime du dogme catholique, la vieille religion paienne renalt dans beaucoup de ses rites. Les « bons saints se vengent comme les divinités anciennes ; d'ailleurs il leur est attribué une grande puissance, plus grande à coup sûr que celle de Dieul.... On ne tarirait pas de raconter à ce sujet des anecdotes typiques et combien amusantesl
+        </p>
+        <p xml:id="para_6_260_46">
+         Pendant une grève qui éclata en 1902, Marie D.,resta plus de trois mois sans ouvrage, elle dut faire des travaux de ménage en ville. Elle alla chez une vieille demoiselle dont l'intelligence et le désir du bien s'alliaient à une très franche simplicité. Elle conquit vite la confiance et 1'affection de la jeune fille près de laquelle elle venait s'asseoir et tra¬vailler ; elle la fit causer, et canusant elle-même dissipa une foule de pré¬jugés. D'elle, Marie accepta des services d'abord, puis des conseils qui, d'une autre « bourgeoise, l'eussent blessée.
+        </p>
+        <p xml:id="para_6_261_47">
+         <pb facs="#facs_265" n="261" source="lesouvriersdesde916sociuoft_0287.xml"/> Quand les deux femmes se séparèrent, l'une avait acquis l'expérience d'un très simple et très sûr moyen d'apostolat, l'autre des idées plus justes et une pratique religieuse plus serieuse, excessive au dire des amies, et surtout la haine instinctive qu'elle ressentait contre la classe supérieure avait disparu. Elle est classée à présent dans le bon parti »».
+        </p>
+        <p xml:id="para_6_261_48">
+         Les D. forment un groupe familial très uni, très honnête, presque heu¬reux dansla pauvreté actuelle, qui est un progrès sur la misère d'hier. Leur demeure se compose d'une seule pièce très grande, d'un aspect misérable, servant tout à la fois de dortoir, de cuisine et d'atelier. Les attributs de ces diverses destinations l'encombrent sans la remplir ; on sent la mala¬die de la mère et la lassitude de la jeune fille. Celle-ci, qui dérobe à son métier le temps qu'elle consacre au ménage, le simplifie antant que pos¬sible. Aucune recherche de luxe, aucun indice de la personnalité de ceux qui habitent ici ; ils ont l'air campés. De fait, ils sont restés si peu partout où ils ont passé peu si l'on considère la stabilité ordinaire des paysans) qu'ils n'ont guère pu se fixer.
+        </p>
+        <p xml:id="para_6_261_49">
+         Prês de la mêre et de la fille, une autre ouvrière complète le petit ate¬lier ; c'est une amie qui, malheureuse auprès d'un père indigne, a ac¬cepté avec joie de venir travailler près des femmes D., elle ne les quitte que le soir et au moment des repas'; celle-là représente l'industrie de luxe, elle est brodeuse (toujours pour les gante) ; elle fait presque partie de la famille.
+        </p>
+        <p xml:id="para_6_261_50">
+         Un logement ouvrier faisant face à celui de la famille est occupé par un jeune doleur, proche parent de Martial. On habite si près que l'on peut se parler d'un atefier a l'autre, et pour abréger les heures de labeur monotone, les chansons du joyeux doleur apportent une note gaie chez les petites couturières. Nul roman d'ébauché. Marie est trop infé¬rieure à son cousin dans la hiérarchie ouvrière pour que l'on puisse songer au mariage.
+        </p>
+        <p xml:id="para_6_261_51">
+         En dehors de ce groupe intime, peu de relations à Saint-Junien, mais quelques-unes avec la gent de la campagne. Sous ce nom sont com¬pris les parents jusqu'au degré le plus éloigné.
+        </p>
+        <p xml:id="para_6_261_52">
+         enri a été enfant de chœur, ses parents ont pensé un instant qu'il s'élêverait davantage sur les degrés de l'autel ; ils l'avaient fait entrer à la maîtrise par vague désir de préservation, ils l'ont laissé courir ailleurs quand il l'a voulu, puisque c'était son idée . Ces pauvres gens sont d'une faiblesse incroyable et leurs enfants de douze ans leur font peur.
+        </p>
        </div>
        <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
-        <p xml:id="para_6_262_55"><pb facs="#facs_266" n="262" source="lesouvriersdesde916sociuoft_0288.xml"/> Martial est grand (185), il jouit d'une force peu commune et d'une belle santé que n'ont point altérée les libations du dimanche. Intelli¬gence assez bornée, mais caractère violent, il compte parmi les ortes têtes » de Saint-unien. Il est à croire que ses poings seraient plus utiles au parti que ses conseils. Au demeurant, un brave homme, hon¬nête et vaillant travailleur.</p>
-        <p xml:id="para_6_262_56">Annette est une petite brune (1ᵉ54), aux attaches fines comme les vraies paysannes du Limousin, celles d'autrefois du moins.</p>
-        <p xml:id="para_6_262_57">Cette face expressive, énergique, est vieillie avant l'âge par des années de souffrance. En remontant de plusieurs siècles dans son humble gé¬néaulogie, on trouverait, sans doute, quelque ancêtre arabe, car la cha¬leur de ce vieux sang se trahit dans son impétuosité de gestes et de pa¬roles, comme se reconnaît le type dans son teint mat et ses yeux d'Orien¬tale. Étrange et canptivante figure sous la coife monacale des Limou¬sines !....</p>
-        <p xml:id="para_6_262_58">La rusticité de la fille aînée n'a pas la même gràce que cellerde sa mère. De taille peu élevée (1m53), elle a un léger embonpoint, un air nonchalant ; tout en elle indique un tempérament anémié. L'exercice et la nourriture fortifiante ont manqué à cette enfant qui a « peiné  trop jeune pour venir en aide à la famille. C'est presque partout le droit d'ai¬nesse chez les pauvres.</p>
-        <p xml:id="para_6_262_59">Ses mains seules s'agitent vivement pour saisir l'ouvrage, le conduire et l'amonceler devant elle en un tas qu'elle regarde avec la seule satis¬faction de voir la tàche diminuer.</p>
-        <p xml:id="para_6_262_60">La iate fébrile avec laquelle elle fait aller sa pédale et, préoccupée d'abattre le plus d'ouvrage possible, prolonge ses veilles et prend à peine le temps des repas, amènera un surmenage ; mais aucun règle¬ment ne peut limiter les heures de travail pour la façonnière à domicile. En cousant doue heures par jour, une habile ouvrière ne peut guère faire plus de seize à dix-huit paires de gants ; et dans les moments de grande presse », il faut absolument rapporter à jour et à heure fixes le stoc confié.</p>
-        <p xml:id="para_6_262_61">Le garçonnet de douze ans a grandi trop vite, il n'est en ce moment <pb facs="#facs_267" n="263" source="lesouvriersdesde916sociuoft_0289.xml"/> qu'un sujet d'inquiétude pour ses parents; si sa santé se fortifie, on en fera un « doleur n, ce qui est fort apprécié<note type="bp">
-          <p>Le doleur gagne de 5 a 5ᶠ25 par jour, il est très indépendant ; mais il faut. un apprentissage (10ᶠ par mois) et des avances pour ce métier, car l'outillage coûte cher.</p>
-         </note>.</p>
-        <p xml:id="para_6_263_63">Née à la ville, la petite Marie-Louise n'a pas soufert du changement d'habitudes, elle pousse comme une giroflée sur un vieux mur ; elle en a l'aspect frêle et la robustesse.</p>
-        <p xml:id="para_6_263_64">Ces pauvres gens ont peu de recours contre la maladie et le chômage : leurs ressources individuelles, qui sont minces, et l'aide charitable des voisins. Cependant, en cas d'accidents graves, il y aurait l'hopital (gra¬tuit) de Saint-Junien et l'assurance en cas d'accidents procurerait des soins et des secours médicaux au père, ouvrier d'usine. Du reste, on a peu de confiance au médecin, on va plus fréquemment trouver la sor¬cière n, bonne femme qui me semble n'avoir rien de diabolique, mais quelque connaissance des simples.... et surtout de la simplicité de ses clients</p>
+        <head type="sub_sub_section" xml:id="part_02_01_04">
+         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
+        </head>
+        <p xml:id="para_6_262_55">
+         <pb facs="#facs_266" n="262" source="lesouvriersdesde916sociuoft_0288.xml"/>Martial est grand (185), il jouit d'une force peu commune et d'une belle santé que n'ont point altérée les libations du dimanche. Intelli¬gence assez bornée, mais caractère violent, il compte parmi les ortes têtes » de Saint-unien. Il est à croire que ses poings seraient plus utiles au parti que ses conseils. Au demeurant, un brave homme, hon¬nête et vaillant travailleur.
+        </p>
+        <p xml:id="para_6_262_56">
+         Annette est une petite brune (1ᵉ54), aux attaches fines comme les vraies paysannes du Limousin, celles d'autrefois du moins.
+        </p>
+        <p xml:id="para_6_262_57">
+         Cette face expressive, énergique, est vieillie avant l'âge par des années de souffrance. En remontant de plusieurs siècles dans son humble gé¬néaulogie, on trouverait, sans doute, quelque ancêtre arabe, car la cha¬leur de ce vieux sang se trahit dans son impétuosité de gestes et de pa¬roles, comme se reconnaît le type dans son teint mat et ses yeux d'Orien¬tale. Étrange et canptivante figure sous la coife monacale des Limou¬sines !....
+        </p>
+        <p xml:id="para_6_262_58">
+         La rusticité de la fille aînée n'a pas la même gràce que cellerde sa mère. De taille peu élevée (1m53), elle a un léger embonpoint, un air nonchalant ; tout en elle indique un tempérament anémié. L'exercice et la nourriture fortifiante ont manqué à cette enfant qui a « peiné  trop jeune pour venir en aide à la famille. C'est presque partout le droit d'ai¬nesse chez les pauvres.
+        </p>
+        <p xml:id="para_6_262_59">
+         Ses mains seules s'agitent vivement pour saisir l'ouvrage, le conduire et l'amonceler devant elle en un tas qu'elle regarde avec la seule satis¬faction de voir la tàche diminuer.
+        </p>
+        <p xml:id="para_6_262_60">
+         La iate fébrile avec laquelle elle fait aller sa pédale et, préoccupée d'abattre le plus d'ouvrage possible, prolonge ses veilles et prend à peine le temps des repas, amènera un surmenage ; mais aucun règle¬ment ne peut limiter les heures de travail pour la façonnière à domicile. En cousant doue heures par jour, une habile ouvrière ne peut guère faire plus de seize à dix-huit paires de gants ; et dans les moments de grande presse », il faut absolument rapporter à jour et à heure fixes le stoc confié.
+        </p>
+        <p xml:id="para_6_262_61">
+         Le garçonnet de douze ans a grandi trop vite, il n'est en ce moment <pb facs="#facs_267" n="263" source="lesouvriersdesde916sociuoft_0289.xml"/> qu'un sujet d'inquiétude pour ses parents; si sa santé se fortifie, on en fera un « doleur n, ce qui est fort apprécié
+         <note type="bp">
+          <p>
+           Le doleur gagne de 5 a 5ᶠ25 par jour, il est très indépendant ; mais il faut. un apprentissage (10ᶠ par mois) et des avances pour ce métier, car l'outillage coûte cher.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_6_263_63">
+         Née à la ville, la petite Marie-Louise n'a pas soufert du changement d'habitudes, elle pousse comme une giroflée sur un vieux mur ; elle en a l'aspect frêle et la robustesse.
+        </p>
+        <p xml:id="para_6_263_64">
+         Ces pauvres gens ont peu de recours contre la maladie et le chômage : leurs ressources individuelles, qui sont minces, et l'aide charitable des voisins. Cependant, en cas d'accidents graves, il y aurait l'hopital (gra¬tuit) de Saint-Junien et l'assurance en cas d'accidents procurerait des soins et des secours médicaux au père, ouvrier d'usine. Du reste, on a peu de confiance au médecin, on va plus fréquemment trouver la sor¬cière n, bonne femme qui me semble n'avoir rien de diabolique, mais quelque connaissance des simples.... et surtout de la simplicité de ses clients
+        </p>
        </div>
        <div n="005" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
-        <p xml:id="para_6_263_67">La misère a été rude, les difficeultés nombreuses, depuis quine ans que les D. ont quitté la ferme, et leur rang est encore bien humble. Ils ne sont qu'au premier échelon dans cette ascension qui va du rural à l'ou¬vrier de luxe : langage. vêtements, habitudes, ils ont presque tout gardé des paysans.</p>
-        <p xml:id="para_6_263_68">Cependant le père, qui a commencé par être manœuvre aux usines de papier de pauille, actuellement est teinturier dans une ganterie ; c'est un progrès, ces ouvriers étant très considérés. Sa femme et sa fille sont habiles dans leur métier que le préjugé local place au premier rang dans la hiérarchie du travail à Saint-Junien ; les gantiers, en efet, se posent en « artistes et en indépendants, à cause du façonnage à domicile.</p>
-        <p xml:id="para_6_263_69">La fille cadette, placée d'abord comme petite bonne chez des patrons gantiers, les a suivis a Chateauroux, où ils ont fondé une maison de com¬merce : elle y est « demoiselle de magasin .</p>
-        <p xml:id="para_6_263_70">Enfin la petite, plus imprégnée de vie urbaine, a déjà l'adresse et le goût des ouvrières ; cette gamine n pourra entrer à treize ans à l'atelier <pb facs="#facs_268" n="264" source="lesouvriersdesde916sociuoft_0290.xml"/> comme petite main et gagner jusqu'à 30ᶠ par mois ; plusieurs enfants de treize ou quatorze ans, diligentes et adroites,  peuvent arriver à se faire cette somme. Quant au petit garçon, peut-être aura-t-il la force physique nécessaire pour le métier auquel il se destine, mais il n'atteindra pas à la vigueur morale qu'il faut pour se faire et pour gar¬der une place honorable dans l'incessante montée qui transforme la so¬ciété. Pourtant un bon doleur peut devenir petit patron aussez vite.</p>
+        <head type="sub_sub_section" xml:id="part_02_01_05">
+         § 5. RANG DE LA FAMILLE.
+        </head>
+        <p xml:id="para_6_263_67">
+         La misère a été rude, les difficeultés nombreuses, depuis quine ans que les D. ont quitté la ferme, et leur rang est encore bien humble. Ils ne sont qu'au premier échelon dans cette ascension qui va du rural à l'ou¬vrier de luxe : langage. vêtements, habitudes, ils ont presque tout gardé des paysans.
+        </p>
+        <p xml:id="para_6_263_68">
+         Cependant le père, qui a commencé par être manœuvre aux usines de papier de pauille, actuellement est teinturier dans une ganterie ; c'est un progrès, ces ouvriers étant très considérés. Sa femme et sa fille sont habiles dans leur métier que le préjugé local place au premier rang dans la hiérarchie du travail à Saint-Junien ; les gantiers, en efet, se posent en « artistes et en indépendants, à cause du façonnage à domicile.
+        </p>
+        <p xml:id="para_6_263_69">
+         La fille cadette, placée d'abord comme petite bonne chez des patrons gantiers, les a suivis a Chateauroux, où ils ont fondé une maison de com¬merce : elle y est « demoiselle de magasin .
+        </p>
+        <p xml:id="para_6_263_70">
+         Enfin la petite, plus imprégnée de vie urbaine, a déjà l'adresse et le goût des ouvrières ; cette gamine n pourra entrer à treize ans à l'atelier <pb facs="#facs_268" n="264" source="lesouvriersdesde916sociuoft_0290.xml"/> comme petite main et gagner jusqu'à 30ᶠ par mois ; plusieurs enfants de treize ou quatorze ans, diligentes et adroites,  peuvent arriver à se faire cette somme. Quant au petit garçon, peut-être aura-t-il la force physique nécessaire pour le métier auquel il se destine, mais il n'atteindra pas à la vigueur morale qu'il faut pour se faire et pour gar¬der une place honorable dans l'incessante montée qui transforme la so¬ciété. Pourtant un bon doleur peut devenir petit patron aussez vite.
+        </p>
        </div>
       </div>
       <div n="002" type="sub_section">
-       <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
+       <head type="sub_section" xml:id="part_02_02">
+        Moyens d'existence de la famille
+       </head>
       </div>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
-       <p xml:id="para_6_264_76">(Mobilier et vêtements non compris)</p>
-       <p xml:id="para_6_264_77">IMMEUBLES. . . . . .. . . . . . . . . . . . 0ᶠ 00</p>
-       <p xml:id="para_6_264_78">La famille n'a aucune propriété immobilière et ne voit pas la possibi¬lité d'en acquérir.</p>
-       <p xml:id="para_6_264_79">ARGENT ET VALEURS MOBILIÈRES. . . . . . . . . . 122ᶠ 00</p>
-       <p xml:id="para_6_264_80">Somme déposée à la caisse d'épargne, 12ᶠ 00 ; — économies réalisées depuis six</p>
-       <p xml:id="para_6_264_81">ans, I0ᶠ 00. — Total, 122ᶠ 00.</p>
-       <p xml:id="para_6_264_82">ANIMAUX DOMESTIQUES . . . . .. . . . . . . . 0ᶠ 00</p>
-       <p xml:id="para_6_264_83">Un chardonneret (pour mémoire).</p>
-       <p xml:id="para_6_264_84">MATÉRIEL SPÉCIAL DES Travaux et industries. . . . . 136ᶠ 00</p>
-       <p xml:id="para_6_264_85">1ᵉ Pour les travaux de teinturier. — Sabots blindés de fer, 1ᶠ 00 ; — 1 blouse, 3 00 — Tota, 7 00.</p>
-       <p xml:id="para_6_264_86">2° Pour la couture des gants. — 1 machine surjeteuse, 100ᶠ 00 ; — 1 douzaine d'aiguilles à machine, 2ᶠ 40; —  a mécanique n pour les boutonnières, 10ᶠ 00; — 1 crochet pour la broderie des gants, 1ᶠ 50 ; — l paire de ciseaux fins pour les boutonnieres, 2ᶠ 00. — Total, 1I15ᶠ 90.</p>
-       <p xml:id="para_6_264_87">3° Pour le raccomodae des oeteents. — Dés, fil, aiguilles, ciseaux, boutons, 5ᶠ 00.</p>
-       <p xml:id="para_6_264_89">1° Pour le blanchissage et le repassage du linge. — 1 battoir, 0ᶠ 60; — 1 sslle à laver, 2ᶠ 50 ; — 1 hotte pour transporter le linge, 2ᶠ 00 ; — 2 fers à repasser, 3(00. — Total, 8ᶠ I0.</p>
-       <p xml:id="para_6_264_90">VALEUR TOTALE des propriétés. . . .. .. . . . . 258ᶠ 00</p>
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. PROPRIÉTÉS.
+       </head>
+       <p xml:id="para_6_264_76">
+        (Mobilier et vêtements non compris)
+       </p>
+       <p xml:id="para_6_264_77">
+        IMMEUBLES. . . . . .. . . . . . . . . . . . 0ᶠ 00
+       </p>
+       <p xml:id="para_6_264_78">
+        La famille n'a aucune propriété immobilière et ne voit pas la possibi¬lité d'en acquérir.
+       </p>
+       <p xml:id="para_6_264_79">
+        ARGENT ET VALEURS MOBILIÈRES. . . . . . . . . . 122ᶠ 00
+       </p>
+       <p xml:id="para_6_264_80">
+        Somme déposée à la caisse d'épargne, 12ᶠ 00 ; — économies réalisées depuis six
+       </p>
+       <p xml:id="para_6_264_81">
+        ans, I0ᶠ 00. — Total, 122ᶠ 00.
+       </p>
+       <p xml:id="para_6_264_82">
+        ANIMAUX DOMESTIQUES . . . . .. . . . . . . . 0ᶠ 00
+       </p>
+       <p xml:id="para_6_264_83">
+        Un chardonneret (pour mémoire).
+       </p>
+       <p xml:id="para_6_264_84">
+        MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES. . . . . 136ᶠ 00
+       </p>
+       <p xml:id="para_6_264_85">
+        1ᵉ Pour les travaux de teinturier. — Sabots blindés de fer, 1ᶠ 00 ; — 1 blouse, 3 00 — Tota, 7 00.
+       </p>
+       <p xml:id="para_6_264_86">
+        2° Pour la couture des gants. — 1 machine surjeteuse, 100ᶠ 00 ; — 1 douzaine d'aiguilles à machine, 2ᶠ 40; —  a mécanique n pour les boutonnières, 10ᶠ 00; — 1 crochet pour la broderie des gants, 1ᶠ 50 ; — l paire de ciseaux fins pour les boutonnieres, 2ᶠ 00. — Total, 1I15ᶠ 90.
+       </p>
+       <p xml:id="para_6_264_87">
+        3° Pour le raccomodae des oeteents. — Dés, fil, aiguilles, ciseaux, boutons, 5ᶠ 00.
+       </p>
+       <p xml:id="para_6_264_89">
+        1° Pour le blanchissage et le repassage du linge. — 1 battoir, 0ᶠ 60; — 1 sslle à laver, 2ᶠ 50 ; — 1 hotte pour transporter le linge, 2ᶠ 00 ; — 2 fers à repasser, 3(00. — Total, 8ᶠ I0.
+       </p>
+       <p xml:id="para_6_264_90">
+        VALEUR TOTALE des propriétés. . . .. .. . . . . 258ᶠ 00
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
-       <p xml:id="para_6_265_93"><pb facs="#facs_269" n="265" source="lesouvriersdesde916sociuoft_0291.xml"/> Elles ne sont pas nombreuses : l'école communale pour les deux enfants, puis quelques « cadeaux pratiques »» faits par des parents plus fortunés, caudeaux dont mention est faite au budget des recettes ; enfin les secours envoyés par la fille cadette. Les envois de la « demoiselle de magasin sont peu considérables, les frais de toilette absorbant facilement ses minces épargnes.</p>
-       <p xml:id="para_6_265_94">Il n'y a pas à compter sur les patrons qui donnent l'ouvrage : le façon¬nage à domicile développe l'individualisme et isole la famille.</p>
-       <p xml:id="para_6_265_95">Cependant, ici, gràce au père ouvrierd'une teinturerie, les consultations gratuites pourraient être obtenues en cas d'accidents.</p>
-       <p xml:id="para_6_265_96">La loi du 9 avril 1898 a généralisé l'assurance pour les cas d'accidents. Quand l'incapacité de travail est de quatre jours au moins, le patron est tenu, outre les frais médicaux et pharmaceutiques, à une indemnité journalière ; il doit aussi, en certains cas, des rentes n aux membres de la famille.</p>
-       <p xml:id="para_6_265_97">Cette assurance est importante pour les teinturiers, très exposés aux brûlures.</p>
-       <p xml:id="para_6_265_98">La mutuaulité est représentéeàSaint-Junien par deux sociétés: l'aUnion, société professionnelle réservée aux ouvriers du cuir, et la Ville deSaint¬Junien », société locale ouverte à tous les corps d'état. Mais la famille, avec la lenteur de compréhension et de décision qui caractérise les pay¬sans, s'est, jusqu'à présent, refusée à faire partie d'aucun de ces deux groupes.</p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. SUBVENTIONS.
+       </head>
+       <p xml:id="para_6_265_93">
+        <pb facs="#facs_269" n="265" source="lesouvriersdesde916sociuoft_0291.xml"/>Elles ne sont pas nombreuses : l'école communale pour les deux enfants, puis quelques « cadeaux pratiques »» faits par des parents plus fortunés, caudeaux dont mention est faite au budget des recettes ; enfin les secours envoyés par la fille cadette. Les envois de la « demoiselle de magasin sont peu considérables, les frais de toilette absorbant facilement ses minces épargnes.
+       </p>
+       <p xml:id="para_6_265_94">
+        Il n'y a pas à compter sur les patrons qui donnent l'ouvrage : le façon¬nage à domicile développe l'individualisme et isole la famille.
+       </p>
+       <p xml:id="para_6_265_95">
+        Cependant, ici, gràce au père ouvrierd'une teinturerie, les consultations gratuites pourraient être obtenues en cas d'accidents.
+       </p>
+       <p xml:id="para_6_265_96">
+        La loi du 9 avril 1898 a généralisé l'assurance pour les cas d'accidents. Quand l'incapacité de travail est de quatre jours au moins, le patron est tenu, outre les frais médicaux et pharmaceutiques, à une indemnité journalière ; il doit aussi, en certains cas, des rentes n aux membres de la famille.
+       </p>
+       <p xml:id="para_6_265_97">
+        Cette assurance est importante pour les teinturiers, très exposés aux brûlures.
+       </p>
+       <p xml:id="para_6_265_98">
+        La mutuaulité est représentéeàSaint-Junien par deux sociétés: l'aUnion, société professionnelle réservée aux ouvriers du cuir, et la Ville deSaint¬Junien », société locale ouverte à tous les corps d'état. Mais la famille, avec la lenteur de compréhension et de décision qui caractérise les pay¬sans, s'est, jusqu'à présent, refusée à faire partie d'aucun de ces deux groupes.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
-       <p xml:id="para_6_265_101">travail de louuvrier. — Martial est un robuste Limousin qui accom¬plit sa besogne de manœuvre à la teinturerie comme il était papetier à Saillat, comme il conduisait ses vaches dans les sillons de Saint-Brice, lentement, sans initiative, avec la résignation passive de ceux, individus ou races, qui ont beaucoup souffert.</p>
-       <p xml:id="para_6_266_102"><pb facs="#facs_270" n="266" source="lesouvriersdesde916sociuoft_0292.xml"/> A quelques centaines de mètres du logement familial se trouve l'ate¬lier où, de sept heures en été et de huit heures en hiver jusqu'à midi, et d'une heure en hiver et de deux heures en été jusqu'à sept heures du soir, il accomplit sa tàche journalière.</p>
-       <p xml:id="para_6_266_103">Au fond de l'atelier où il travaille se trouve une chaudière encaustrée dans la maçonnerie d'un foyer, on y chaufe longuement 200 litres d'eau pour 25 ilos de bois de teinture. Les bois de Cuba pour le jaune, du Brésil pour le rouge, de F'ustel pour le jaune verdatre, de Campêche pour le noir, sont soumis de leur côté à une ébullition plus ou moins forte sui¬vant la couleur à obtenir ; puis on fond les mélanges.</p>
-       <p xml:id="para_6_266_104">Les peaux « palissonnées », mais non dolées », sont plongées dans une cuve d'eau tiède, foulées aux pieds, puis, aussitôt sèches, étendues sur de larges tables recouvertes de inc formant baquets. Le teinturier imbibe fortement d'urine la surfaceà teindre (côté fleur,<ref target="#part_03_01_18" type="renvoi_int_mono">§ 18</ref>), puis il passe a l'éponge ou à la brosse la matière colorante. Il parait qu'aucune mé¬thode chimique n'a pu remplacar ce procédé primitif.</p>
-       <p xml:id="para_6_266_105">Le travail du teinturier n'est pas fatigant, mais il comporte des mani¬pulations peu agréables. On le paie à raison de 1ᶠ par douaine de peaux ; ce qui permet d'atteindre au maximum 5ᶠ par jour. Martial se fait un gain quotidien de 4ᶠ, mais les chômages sont nombreux, il ne faut comp¬ter que 185 jours de travail. Il parvient à s'occuper comme journalier pendant 115 jours à 2ᶠ.</p>
-       <p xml:id="para_6_266_106">Travauax de la ere. — La mère, paysanne affinée et avisée, a tou¬jours eu à faire des travaux d'adresse plutôt que de force, et maintenant qu'elle est infîrme, elle agit peu, mais, par son intelligente impulsion, elle reste l'ame de la maison.</p>
-       <p xml:id="para_6_266_107">Elle est gantière et travaille avec sa fille ; dans l'ordre chronologique, la besogne de celle-ci passe d'abord.</p>
-       <p xml:id="para_6_266_108">Quand Marie a fini, pour ce qui la concerne, une paire de gants, elle les passe à sa mère, qui taille un petit morceau de peau de la dimension de la boutonnière, saisit les deux parties entre les pinces de sa «mécani¬que », fait le surjet et rabat à très petits points. Ce n'est pas très dii¬cile, mais c'est délicat ; Anette travaille avec rapidité.</p>
-       <p xml:id="para_6_266_109">Travaux de laflle aînée. — Marie est gantière ; c'est à elle que les patrons confient l'ouvrage, elle en a la direction ; sa mère et sa jeune sœur sont ses ouvrières.</p>
-       <p xml:id="para_6_266_110">Tout est préparé à l'atelier: les gants taillés à l'emporte-pièce, les bou¬tonnières fendues, la place des boutons indiquée, alnsi que celle des broderies du dessus de la main.</p>
-       <p xml:id="para_6_267_111"><pb facs="#facs_271" n="267" source="lesouvriersdesde916sociuoft_0293.xml"/> Le caudre habituel du travail des gantières est l'unique chambre du pauvre logis : les machines à coudre se touchent devant la fenêtre et les jeunes filles se font vis-à-vis, babillant, cousant et riant ; près de Marie, le fauteuil de l'infirme et sa s mécanique (appareil qui aidait à coudre régulièrement le gant avant la machine et qui sert à présent pour les boutonnières) ; sur l'appui de la fenêtre, une grande boite contenant l'ouvrage préparé, les écheveaux de fil assortis, les boutons, etc.</p>
-       <p xml:id="para_6_267_112">La couturière prend la pièce de peau découpée qui sera tout à l'heure un gant et pour . ormer la pochette de chaque doigt, elle coud à chaque bande une fourchette (petite bande étroite et arrondie à l'ex¬trémité supérieure), on replie ensuite les deux moitiés du gant doigts contre doigts et l'on surjette. La confection du pouce est un peu plus compliquée, on le coud séparément et sans fourchette, puis on le fixe, par sa partie large et arrondie, à l'échancrure qui lui est destinée. Une petite pièce triangulaire doit être ajoutée pour permettre le jeu du pouce. Il ya six fourchettes n pour chaque gant, soit douze surjets sans compter les coutures du petit doigt et du pouce; gràce à la machine v,le travail est rapidement exécuté, il suffit d'une demi-heure à trois quarts d'heure par paire.</p>
-       <p xml:id="para_6_267_113">Certains gants ont les nervures du dessus de la main simplement sur¬jetées, Marie se sert encore de sa machine pour les faire. Chaque nervure est indiquée par deux points qui en fixent la longueur ; l'ouvrière n'a qu'à plier verticalement entre les deux et à surjeter. Pour les gants bro¬dés, une autre machine est nécessaire et, d'après le principe de la divi¬sion du travail, l'ouvrage est fait par une autre main. Justement la com¬pagne de Marie est brodeuse. Leur chambre est un véritable petit atelier.</p>
-       <p xml:id="para_6_267_114">Les broderies se font parfois au crochet, comme cela se pratiquait tou¬jours jadis.</p>
-       <p xml:id="para_6_267_115">Les boutons, pour les gants communs, sont places par la couturière, mais les boutons à pression sont posés à l'atelier.</p>
-       <p xml:id="para_6_267_116">Pour le matériel, les frais sont insignifiants après l'achat de la ma¬chine. Celle-ci coûte une centaine de francs et peut etre payée par acomptes mensuels. Les menus accessoires, fil, boutons, etc., sont four¬nis par le patron, les aiguilles sont à la charge de l'ouvriêre.</p>
-       <p xml:id="para_6_267_117">Marie ne fait, en moyenne, qu'une douzaine de paires de gants par jour, parce qu'elle travaille beaucoup au ménage. Sa mère se fait 0ᶠ 90 pour les boutonnières. Une gantière qui se tient toute la journée à sa machine gagne bien 3 francs.</p>
-       <p xml:id="para_6_268_118"><pb facs="#facs_272" n="268" source="lesouvriersdesde916sociuoft_0294.xml"/> N'ayant pas à quitter la maison, on s'adonne sans peine aux soins do¬mestiques. Mais le travail est distribué d'une manière irrégulière sui¬vant que les commandes sont pressées ou qu'elles ne donnent pas ; il faut faire tout le travail donné et dans le temps voulu sous peine d'amende : une ouvrière doit se soumettre ou ne plus compter avoir d'ou¬vrage dans la maison.</p>
-       <p xml:id="para_6_268_119">Dans ces conditions, une mère de famille ne peut se charger de beau¬coup de ce travail et il n'est rémunérateur que si l'on en fait beaucoup. Il faut une bienveillance spéciale, exemptant parfois du règlement, pour permettre à une ménagère de travailler aux gants avec profit.</p>
-       <p xml:id="para_6_268_120">Je connais un jeune ménage de gantiers : le mari doleur, la femme couturière, qui travaillent avec acharnement douze heures par jour et se font jusqu'à 200ᶠ par mois, qu'ils dépensent entièrement pour la table et la toilette. Cette femme fait jusqu'à dix-neuf paires dans sa journée ; mais c'est une ouvrière de luxe et tous les travaux de son ménage sont exécutes en dehors. Là encore, la petite industrie en chambre tue les in¬dustries domestiques accessoires, ou bien elle n'est rien qu'un appoint au budget.</p>
-       <p xml:id="para_6_268_121">Dans les familles comme celle dont nous nous occupons, où les soucis du ménage réclament la femme, le gain du gantier est forcément mo¬</p>
-       <p xml:id="para_6_268_122">raoaux des jeunes enfants. — Marie-Louise trouve, quand elle re¬vient de la classe, sa partie à faire dans l tàche familiale, elle coud les houtons, plie et assortit les gants, permettant ainsi à l'aînée de conti¬nuer sa couture et de faire une paire de plus par jour.</p>
-       <p xml:id="para_6_268_123">Le petit enri va encore à l'école, ne pouvant entrer en apprentissage avant treize ans. Jusqu'à présent il gagnait quelque argent comme en¬fant de chœur : il ne l'est plus.</p>
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. TRAVAUX ET INDUSTRIES.
+       </head>
+       <p xml:id="para_6_265_101">
+        travail de louuvrier. — Martial est un robuste Limousin qui accom¬plit sa besogne de manœuvre à la teinturerie comme il était papetier à Saillat, comme il conduisait ses vaches dans les sillons de Saint-Brice, lentement, sans initiative, avec la résignation passive de ceux, individus ou races, qui ont beaucoup souffert.
+       </p>
+       <p xml:id="para_6_266_102">
+        <pb facs="#facs_270" n="266" source="lesouvriersdesde916sociuoft_0292.xml"/> A quelques centaines de mètres du logement familial se trouve l'ate¬lier où, de sept heures en été et de huit heures en hiver jusqu'à midi, et d'une heure en hiver et de deux heures en été jusqu'à sept heures du soir, il accomplit sa tàche journalière.
+       </p>
+       <p xml:id="para_6_266_103">
+        Au fond de l'atelier où il travaille se trouve une chaudière encaustrée dans la maçonnerie d'un foyer, on y chaufe longuement 200 litres d'eau pour 25 ilos de bois de teinture. Les bois de Cuba pour le jaune, du Brésil pour le rouge, de F'ustel pour le jaune verdatre, de Campêche pour le noir, sont soumis de leur côté à une ébullition plus ou moins forte sui¬vant la couleur à obtenir ; puis on fond les mélanges.
+       </p>
+       <p xml:id="para_6_266_104">
+        Les peaux « palissonnées », mais non dolées », sont plongées dans une cuve d'eau tiède, foulées aux pieds, puis, aussitôt sèches, étendues sur de larges tables recouvertes de inc formant baquets. Le teinturier imbibe fortement d'urine la surfaceà teindre (côté fleur,
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         § 18
+        </ref>
+        ), puis il passe a l'éponge ou à la brosse la matière colorante. Il parait qu'aucune mé¬thode chimique n'a pu remplacar ce procédé primitif.
+       </p>
+       <p xml:id="para_6_266_105">
+        Le travail du teinturier n'est pas fatigant, mais il comporte des mani¬pulations peu agréables. On le paie à raison de 1ᶠ par douaine de peaux ; ce qui permet d'atteindre au maximum 5ᶠ par jour. Martial se fait un gain quotidien de 4ᶠ, mais les chômages sont nombreux, il ne faut comp¬ter que 185 jours de travail. Il parvient à s'occuper comme journalier pendant 115 jours à 2ᶠ.
+       </p>
+       <p xml:id="para_6_266_106">
+        Travauax de la ere. — La mère, paysanne affinée et avisée, a tou¬jours eu à faire des travaux d'adresse plutôt que de force, et maintenant qu'elle est infîrme, elle agit peu, mais, par son intelligente impulsion, elle reste l'ame de la maison.
+       </p>
+       <p xml:id="para_6_266_107">
+        Elle est gantière et travaille avec sa fille ; dans l'ordre chronologique, la besogne de celle-ci passe d'abord.
+       </p>
+       <p xml:id="para_6_266_108">
+        Quand Marie a fini, pour ce qui la concerne, une paire de gants, elle les passe à sa mère, qui taille un petit morceau de peau de la dimension de la boutonnière, saisit les deux parties entre les pinces de sa «mécani¬que », fait le surjet et rabat à très petits points. Ce n'est pas très dii¬cile, mais c'est délicat ; Anette travaille avec rapidité.
+       </p>
+       <p xml:id="para_6_266_109">
+        Travaux de laflle aînée. — Marie est gantière ; c'est à elle que les patrons confient l'ouvrage, elle en a la direction ; sa mère et sa jeune sœur sont ses ouvrières.
+       </p>
+       <p xml:id="para_6_266_110">
+        Tout est préparé à l'atelier: les gants taillés à l'emporte-pièce, les bou¬tonnières fendues, la place des boutons indiquée, alnsi que celle des broderies du dessus de la main.
+       </p>
+       <p xml:id="para_6_267_111">
+        <pb facs="#facs_271" n="267" source="lesouvriersdesde916sociuoft_0293.xml"/> Le caudre habituel du travail des gantières est l'unique chambre du pauvre logis : les machines à coudre se touchent devant la fenêtre et les jeunes filles se font vis-à-vis, babillant, cousant et riant ; près de Marie, le fauteuil de l'infirme et sa s mécanique (appareil qui aidait à coudre régulièrement le gant avant la machine et qui sert à présent pour les boutonnières) ; sur l'appui de la fenêtre, une grande boite contenant l'ouvrage préparé, les écheveaux de fil assortis, les boutons, etc.
+       </p>
+       <p xml:id="para_6_267_112">
+        La couturière prend la pièce de peau découpée qui sera tout à l'heure un gant et pour . ormer la pochette de chaque doigt, elle coud à chaque bande une fourchette (petite bande étroite et arrondie à l'ex¬trémité supérieure), on replie ensuite les deux moitiés du gant doigts contre doigts et l'on surjette. La confection du pouce est un peu plus compliquée, on le coud séparément et sans fourchette, puis on le fixe, par sa partie large et arrondie, à l'échancrure qui lui est destinée. Une petite pièce triangulaire doit être ajoutée pour permettre le jeu du pouce. Il ya six fourchettes n pour chaque gant, soit douze surjets sans compter les coutures du petit doigt et du pouce; gràce à la machine v,le travail est rapidement exécuté, il suffit d'une demi-heure à trois quarts d'heure par paire.
+       </p>
+       <p xml:id="para_6_267_113">
+        Certains gants ont les nervures du dessus de la main simplement sur¬jetées, Marie se sert encore de sa machine pour les faire. Chaque nervure est indiquée par deux points qui en fixent la longueur ; l'ouvrière n'a qu'à plier verticalement entre les deux et à surjeter. Pour les gants bro¬dés, une autre machine est nécessaire et, d'après le principe de la divi¬sion du travail, l'ouvrage est fait par une autre main. Justement la com¬pagne de Marie est brodeuse. Leur chambre est un véritable petit atelier.
+       </p>
+       <p xml:id="para_6_267_114">
+        Les broderies se font parfois au crochet, comme cela se pratiquait tou¬jours jadis.
+       </p>
+       <p xml:id="para_6_267_115">
+        Les boutons, pour les gants communs, sont places par la couturière, mais les boutons à pression sont posés à l'atelier.
+       </p>
+       <p xml:id="para_6_267_116">
+        Pour le matériel, les frais sont insignifiants après l'achat de la ma¬chine. Celle-ci coûte une centaine de francs et peut etre payée par acomptes mensuels. Les menus accessoires, fil, boutons, etc., sont four¬nis par le patron, les aiguilles sont à la charge de l'ouvriêre.
+       </p>
+       <p xml:id="para_6_267_117">
+        Marie ne fait, en moyenne, qu'une douzaine de paires de gants par jour, parce qu'elle travaille beaucoup au ménage. Sa mère se fait 0ᶠ 90 pour les boutonnières. Une gantière qui se tient toute la journée à sa machine gagne bien 3 francs.
+       </p>
+       <p xml:id="para_6_268_118">
+        <pb facs="#facs_272" n="268" source="lesouvriersdesde916sociuoft_0294.xml"/> N'ayant pas à quitter la maison, on s'adonne sans peine aux soins do¬mestiques. Mais le travail est distribué d'une manière irrégulière sui¬vant que les commandes sont pressées ou qu'elles ne donnent pas ; il faut faire tout le travail donné et dans le temps voulu sous peine d'amende : une ouvrière doit se soumettre ou ne plus compter avoir d'ou¬vrage dans la maison.
+       </p>
+       <p xml:id="para_6_268_119">
+        Dans ces conditions, une mère de famille ne peut se charger de beau¬coup de ce travail et il n'est rémunérateur que si l'on en fait beaucoup. Il faut une bienveillance spéciale, exemptant parfois du règlement, pour permettre à une ménagère de travailler aux gants avec profit.
+       </p>
+       <p xml:id="para_6_268_120">
+        Je connais un jeune ménage de gantiers : le mari doleur, la femme couturière, qui travaillent avec acharnement douze heures par jour et se font jusqu'à 200ᶠ par mois, qu'ils dépensent entièrement pour la table et la toilette. Cette femme fait jusqu'à dix-neuf paires dans sa journée ; mais c'est une ouvrière de luxe et tous les travaux de son ménage sont exécutes en dehors. Là encore, la petite industrie en chambre tue les in¬dustries domestiques accessoires, ou bien elle n'est rien qu'un appoint au budget.
+       </p>
+       <p xml:id="para_6_268_121">
+        Dans les familles comme celle dont nous nous occupons, où les soucis du ménage réclament la femme, le gain du gantier est forcément mo¬
+       </p>
+       <p xml:id="para_6_268_122">
+        raoaux des jeunes enfants. — Marie-Louise trouve, quand elle re¬vient de la classe, sa partie à faire dans l tàche familiale, elle coud les houtons, plie et assortit les gants, permettant ainsi à l'aînée de conti¬nuer sa couture et de faire une paire de plus par jour.
+       </p>
+       <p xml:id="para_6_268_123">
+        Le petit enri va encore à l'école, ne pouvant entrer en apprentissage avant treize ans. Jusqu'à présent il gagnait quelque argent comme en¬fant de chœur : il ne l'est plus.
+       </p>
        <p xml:id="para_6_268_124">
         'ravau accessoires et idustries domestiques. — Annette, quand elle n'aide pas la gantière », confectionne des blouses et des tabliers, ouvrage facile qu'elle fait vite et très bien et qui lui est payé dix ou quinze sous par objet. C'est encore elle qui se charge de tout le raccom¬modage et fait beaucoup des vêtements de la famille. Marie exécute des travaux plus pénibles : cuisine, lavage, repassage, tout cela d'une ma¬nière un peu sommaire quand il y a des commandes, mais les chômages sont assez fréquents pour qu'elle puisse s'y livrer. Le père fuit pour l'en¬tretien de la maison et du mobilier quelques menus travaux de menui¬
        </p>
       </div>
      </div>
      <div n="003" type="sub_section">
-            <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+            <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
-       <p xml:id="para_6_269_128"><pb facs="#facs_273" n="269" source="lesouvriersdesde916sociuoft_0295.xml"/> aricots et pommes de terre sont le fond de l'alimentation, la viande est presque toujours réservée pour le père. Celui-ci revient à midi pour le repas principal qui se compose d'une soupe maigre — aux choux, le plus souvent — et d'un s ragoût n, plat de légumes en sauce avec un petit morceauu de mouton parfois, plus souvent de porc, pour les dimanches et les fêtes, une soupe de salé  et un « fricot, morceau d'agneau sauté avec des pommes de terre.</p>
-       <p xml:id="para_6_269_129">Le lapin est aussi un mets de choix ; mais rien ne vaut les boudins D qui forment le régal par ex cellence. Il y en a toujours lorsqu'on recoit la gent » ; ces jours-la, les malheureux, qui vivent toute l'année avec une parcimonieuse économie, font le plus étrange gaspillage.</p>
-       <p xml:id="para_6_269_130">Le vin est acheté au détail (car on n'a pas de place pour le conserver), il est servi avec le plus grand ménagement, le père seul en boit ordinai¬rement.</p>
-       <p xml:id="para_6_269_131">Le soir, a sept heures, une soupe abondante, du pain et du fromage ou des grillons » et des chataignes, ou de la salade, ou quelques restes, composent le repas.</p>
-       <p xml:id="para_6_269_132">En partant pour l'usine, le matin vers six heures, le père mange un énorme morceau de pain avec de l'ail et du sel : une frottée » ; il a soin d'en emporter autant pour sa collation d'une heure. La mère et les en¬fants prennent du café et du lait comme petit déjeuner.</p>
-       <p xml:id="para_6_269_133">On ne possède pas de fourneau, mais une simple petite cheminée au bois, où le repas s mijote toute la matinée avec ou sans soins, suivant que l'ouvrage presse plus ou moins ; foyer minuscule qui ne suffit pas, l'hiver, à réchauffer la vaste pièce ou l'on n'a de clarté qu'auprès de la fenêtre. Lorsque la température ne nécessite pas de feu, on fait réchauf¬fer, le soir, sur une petite lampe à alcool, la soupe faite à midi.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. ALIMENTS ET REPAS.
+       </head>
+       <p xml:id="para_6_269_128">
+        <pb facs="#facs_273" n="269" source="lesouvriersdesde916sociuoft_0295.xml"/>aricots et pommes de terre sont le fond de l'alimentation, la viande est presque toujours réservée pour le père. Celui-ci revient à midi pour le repas principal qui se compose d'une soupe maigre — aux choux, le plus souvent — et d'un s ragoût n, plat de légumes en sauce avec un petit morceauu de mouton parfois, plus souvent de porc, pour les dimanches et les fêtes, une soupe de salé  et un « fricot, morceau d'agneau sauté avec des pommes de terre.
+       </p>
+       <p xml:id="para_6_269_129">
+        Le lapin est aussi un mets de choix ; mais rien ne vaut les boudins D qui forment le régal par ex cellence. Il y en a toujours lorsqu'on recoit la gent » ; ces jours-la, les malheureux, qui vivent toute l'année avec une parcimonieuse économie, font le plus étrange gaspillage.
+       </p>
+       <p xml:id="para_6_269_130">
+        Le vin est acheté au détail (car on n'a pas de place pour le conserver), il est servi avec le plus grand ménagement, le père seul en boit ordinai¬rement.
+       </p>
+       <p xml:id="para_6_269_131">
+        Le soir, a sept heures, une soupe abondante, du pain et du fromage ou des grillons » et des chataignes, ou de la salade, ou quelques restes, composent le repas.
+       </p>
+       <p xml:id="para_6_269_132">
+        En partant pour l'usine, le matin vers six heures, le père mange un énorme morceau de pain avec de l'ail et du sel : une frottée » ; il a soin d'en emporter autant pour sa collation d'une heure. La mère et les en¬fants prennent du café et du lait comme petit déjeuner.
+       </p>
+       <p xml:id="para_6_269_133">
+        On ne possède pas de fourneau, mais une simple petite cheminée au bois, où le repas s mijote toute la matinée avec ou sans soins, suivant que l'ouvrage presse plus ou moins ; foyer minuscule qui ne suffit pas, l'hiver, à réchauffer la vaste pièce ou l'on n'a de clarté qu'auprès de la fenêtre. Lorsque la température ne nécessite pas de feu, on fait réchauf¬fer, le soir, sur une petite lampe à alcool, la soupe faite à midi.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
-       <p xml:id="para_6_270_136"><pb facs="#facs_274" n="270" source="lesouvriersdesde916sociuoft_0296.xml"/> Le logemet de la famille est situé à l'extrémité d'une des plus an¬ciennes rues de Saint-Junien : la rue du Pont-Levis, aujourd'hui rue Lucien Dumas, c'est la plus commercante de la petite ville ; non loin est un hôtel ayant appartenu à la famille de Mirabeau.</p>
-       <p xml:id="para_6_270_137">La pauvre maison noire et vieille, à l'escalier branlant, aux portes disjointes, ne participe guère à la splendeur n des étalages voisins.</p>
-       <p xml:id="para_6_270_138">Le rez-de-chaussée est occupé par une auberge, l'escalier est ploné dans une obscurité presque complète ; au second, à droite, une porte basse s'ouvre sur le palier et donne accès dans la grande et unique chambre de la famille ; au fond d'un corridor à gauche se trouve l'appar¬tement du doleur (<ref target="#part_02_01_03" type="renvoi_int_mono">§ 3</ref>).</p>
-       <p xml:id="para_6_270_139">La chambre mesure 7P50 de longueur sur une largeur de 6 mètres et a 2ᵉ50 de hauteur. Deux lits aux draps grossiers avec des couvre pieds d'un rouge éclatant, mais sans rideaux, ce luxe des plus pauvres paysans, une table carrée petite et boiteuse, quelques hardes accrochées à des clous, des caisses, occupent un des côtés de la pièce. Les murs sont nus et crépis à la chaux. L'autre côté est pris par la cheminée, le bois pour le feu, un autre lit. Les ustensiles de cuisine sont suspendus au mur près de la cheminée, puis vient une petite étagère supportant verres et bouteilles, une autre en dessous pour les chaussures, plus bas encore les marmites, braisières, trépieds, pelle à feu. Entre les deux fenêtres une commode en vieux noyer, très encombrée, les machines, quelques chaises, sous la table du milieu, une grande cauisse où l'on met la vais¬selle. Celle qui n'y peut tenir, lavée ou non, reste sur la table. Tout est pauvre et laisse une pénible impression de tristesse ; mais réellement, il faut un soin admirable pour que cette chambre ne soit pas un tau¬dis sans nom, et l'on ne peut comprendre comment l'ouvrage s'amon¬celle ici, ayant l'air de n'avoir pas été touché, formant une note claire et élégante au milieu de ces détails sordides.</p>
-       <p xml:id="para_6_270_140">Les fenètres, aux vitres troubles, sont sans rideaux, sur le rebord ex¬t̀rieur est posée la cage du chardonneret de enry. C'est toute une équi¬pée d'école buissonnière que rappelle le petit oiseau, puis le pardon ac<pb facs="#facs_275" n="271" source="lesouvriersdesde916sociuoft_0297.xml"/>cordé au coupable après maintes taloches, et la condescendance du papa qui, à la veillée, fit là cage d'osier.</p>
-       <p xml:id="para_6_271_142">La table est trop petite pour réunir les cinq convives, on mange ur le pouce .</p>
-       <p xml:id="para_6_271_143">n petit miroir, un bénitier de porcelaine avec un ange rose, une vierge en plâtre entourée de fleurs en papier, le certificat du père au régiment, des images de première communion et des illustrations du Petit ourna fixées au mur avec des épingles ; voilà l'habitation de la famille.</p>
-       <p xml:id="para_6_271_144">MEUBLES . . . . . . .. . .. . .. . . . 2)0ᶠ 20</p>
-       <p xml:id="para_6_271_145">1ᵉ Literieˉ. — 3 lits en noyer, 60ᶠ 00 ; — 3 paillasses, 30ᶠ 00: — 2 lits de plume couettes, 35ᶠ 00 ; — 3 traversins, 6ᶠ 00 ; — l oreiller, 2ᶠ 50 ; — 3 couvertures, 15ᶠ 00 ; — 2 couvre-pieds (faits par Annette), 5ᶠ 00. — Total, 153ᶠ 50.</p>
-       <p xml:id="para_6_271_146">2ᵉ Autre mobilier. — 1 vieille table en chêne, 5ᶠ 00; — 1 petite table en bois blanc, 2ᶠ 00; — 1 commode en noyer, 20ᶠ 00; — 4 chaises, 8ᶠ 00; — 1 fautenil de paille, 1ᶠ50 ; — 1 chauffe-pieds en bois, 0ᶠ 75 ; — 1 cage, 0ᶠ50 ; — l miroir, 1ᶠ 45 ; — l reveil, 6ᶠ 00 ; — bénitier, cadre, statue, etc., 1ᶠ 50. — Total, 16ᶠ 70.</p>
-       <p xml:id="para_6_271_147">UTENSILES. . . . . . . . . . . . . . ... 31ᶠ 00</p>
-       <p xml:id="para_6_271_148">1° Dependant du fourneauˉ. — Paolle, pincettes, trépied, souflet, 3ᶠ 35.</p>
-       <p xml:id="para_6_271_149">2° Employés poaur la préparation et la consommation des alients. — 1 brai¬sière, 2ᶠ 50 ; — 1 marmite, 3ᶠ 00 ; — l grande casserole en fer battu, 2ᶠ 00; —</p>
-       <p xml:id="para_6_271_150">1 plus petite, 0ᶠ 75 ; — 1 casserole en terre cuite, 0ᶠ 30 ; — 1 bouilloire en fer battu, 1ᶠ 25; — Fourchettes, cuillers en fer-blanc (chacun a son couteau de poche), 2ᶠ 20 ; — 1 couteau de cuisine, 1ᶠ 10; — plats et récipients divers, 2ᶠ50; 6 verres et l pot à eau gagnés aux frairies, 2ᶠ 90; — 4 assiettes de porcelaine fine (déchet) ; — 1 saladier, 2 tasses et soucoupes, 1ᶠ50 ; — 1 bol, 0ᶠ 10. — Total,20ᶠ10.</p>
-       <p xml:id="para_6_271_151">3° Employés pour les soins de propreté et d'eclairage. — Pot à eau, cuvette, vase, 3ᶠ 50; — 1 bassine à laver la vaisselle, fer-blanc, 1ᶠ 25 ;  l pelle à ordure, eon bois, 0ᶠ 60 ; — l lampe, 1ᶠ 45 ; — 2 chandeliere, 0ᶠ 75. — Total, 7ᶠ 55.</p>
-       <p xml:id="para_6_271_152">LINGE DE MÉNAGE . . .. . . . . . . . .. 63ᶠ 50</p>
-       <p xml:id="para_6_271_153">6 paires de draps roux, toile du pays, 30ᶠ 00; — 2 paires de draps en coton petit modèle, 14ᶠ 00; —  taie d'oreiller en cotonnade rouge a fleurs, 0ᶠ 60; — 3 nappes en toile bise, 5ᶠ00 ; — l demi-douzaine de torchons vieux, 2ᶠ 00; — 1 douzaine de torchons vieux, 2ᶠ 00 ; — l douzaine de serviettes, 2ᶠ 10 ; — divers, 1ᶠ 50; — 1 dou¬aaine d'essuie-mains grosse toile, 6ᶠ 00. — Total, 63ᶠ 50.</p>
-       <p xml:id="para_6_271_154">VÊTEMENTS. . . . . . . . . .. . .. . . . 347ᶠ 30</p>
-       <p xml:id="para_6_271_155">VÊTEMENTS DE L'OUVRIER différant de ceux des paysans en ce qu'il n'a pas de blouse le dimanche . . . . . . . . . . . .. .. . . .. . ))ᶠ §5</p>
-       <p xml:id="para_6_271_156">vêtements du dianche. — l complet de drap noir de Saint-Laurent ou</p>
-       <p xml:id="para_6_271_157">bleute, 30ᶠ 00: — 1 chapeau feutre à larges bords, 3ᶠ 00 ; — 1 paire de gros sou¬liers ferrés, 8ᶠ 00; — 1 pèlerine ou capuchon, en drap (dite lorraine), 1ᶠ50 ; —</p>
-       <p xml:id="para_6_271_158">2 chemises blanches en grosse toile (col et manchettes cotonnade), 5ᶠ 50; — l cra¬vate plastron, 1ᶠ 15 ; — 1 chapeau de paille, 1ᶠ15. — Total, 53ᶠ 90.</p>
-       <p xml:id="para_6_271_159">vêtements de travail. — 1 veston et l pantalon de velours, 8ᶠ 00; — l casquette,</p>
-       <p xml:id="para_6_272_160"><pb facs="#facs_276" n="272" source="lesouvriersdesde916sociuoft_0298.xml"/> 2ᶠ 25; — l gilet de laine (tricoté par la mère), 4ᶠ 50 ; — 3 chemises de coton cou¬leur, 7ᶠ 00; — 1 paire de sabots. 3ᶠ 00 ; — 2 gilets de flanelle et 3 paires de chaussons de laine, 3ᶠ 00; — l paire de sabots cuir et bois, 4ᶠ 50; — 2 paires de chaussettes en gros coton, 1ᶠ 20; — 2 cravates, 0ᶠ 70; — 1 cache-nez, 2ᶠ 00; — 1l courroie, 0ᶠ 60. — Total, 36ᶠ 75.</p>
-       <p xml:id="para_6_272_161">V2rEMENTS DE LA MÈRE . ... .. ... .. . 54ᶠ 60</p>
-       <p xml:id="para_6_272_162">Vêtements du dianche. — l costume en molleton noir rayé de blane, 9ᶠ 00; —</p>
-       <p xml:id="para_6_272_163">1 chale de laine noire, 3ᶠ 50; — l jupon de molleton blanc. 3ᶠ 00; — 1 paire de sabots cuir et bois (socques), 3ᶠ 00; — 2 coiffes harbichet, 6ᶠ 00; — l parapluie,</p>
-       <p xml:id="para_6_272_164">1ᶠ 15; — 1 caraco en cachemire. 2ᶠ 00; — l ablier cotonnade, 2ᶠ 00. — Total, 29ᶠ95.</p>
-       <p xml:id="para_6_272_165">vêtements de tous ˉles jours. — l jupon, 1ᶠ50 ; — 2 vieilles jupes, 2ᶠ50 ; — 2 ca¬misoles en cotonnade, 2ᶠ 00; — 4 chemises de coton, 8ᶠ 00; — 3 paires de bas de laine (faits par la mère), 3ᶠ 50; — 6 mouchoirs cotonnade à carreaux, 2ᶠ 00; — l tablier, 1ᶠ 50 ; —  paire de chaussures de feutre, 1ᶠ 45; — 2 madras, 2ᶠ 20. — Total, 2ᶠ 65.</p>
-       <p xml:id="para_6_272_166">VÊTEMENTS DE LA FILLE AINÉE . . . . . . . . . . 97ᶠ §60</p>
-       <p xml:id="para_6_272_167">Vêtements du dimancheˉ. — 1 robe en lainage clair, 15ᶠ 00 ; — l jaquette, 3ᶠ 95; — 1 chapeau de feutre, 3ᶠ 00; — l1 chapeau de paille, 2ᶠ 45; — 1 paire de souliers, 9ᶠ 00 ; — 1 robe cotonnade, 8ᶠ 00; — l corsage fantaisie, 3ᶠ 25; — 1 ombrelle, 2ᶠ 00. — Tota, 46ᶠ 65.</p>
-       <p xml:id="para_6_272_168">vêtements de trarvail. — 3 corsages vieux, 8ᶠ 50 ; — 6 chemises cotonnade, 13ᶠ 00 ; — 3 paires de bas de coton. 5ᶠ 00; — 2 paires de bas de laine, 4ᶠ00 ; — l vieux chapeau.'1ᶠ 00; — 1 paire de chaussons de feutre, 1ᶠ 45; — vieux souliers, 3ᶠ 00 ; — sabots cuir e bois, 3ᶠ 50 ; — 1 pelerine de laine, 3ᶠ 00; — 2 tabliers ein cotonnade, 2ᶠ 50 ; — 6 mouchoirs blancs, 1ᶠ 50; — l corset, 2ᶠ50; — 2 vieux iupnons,. 2ᶠ 00. — Total, 50ᶠ 95.</p>
-       <p xml:id="para_6_272_169">VÊTEMENTS DE LA PETITE FILLE . . . . . .. .. 54ᶠ 45</p>
-       <p xml:id="para_6_272_170">vêtements du dimanche. — 1 robe en lainage écossais, 8ᶠ 00; — l chapeau de feutre, 2ᶠ 25; — l chapeau de paille, 1ᶠ 15 ; — 1 peit colle, 2ᶠ50 ; — 1 jupon. 1ᶠ 50 ; — 1 paire de boines, 5ᶠ 50; — 1 cravate, 0ᶠ50. — Total, 21ᶠ70.</p>
-       <p xml:id="para_6_272_171">vêtements de tous les jours. — 2 vieux corsages, 4ᶠ 00; — 2 vieilles jupes lai¬nage, 3ᶠ 00 ; — souliers, 41ᶠ 50 ; — l capeline de tricot, 2ᶠ 25; — l1 tablier fantaisie, 1ᶠ 45; — 3 chemises en cotonnade, 5ᶠ 50 ; — l corset., 1ᶠ 95 ; — 4 mouchnoirs blancs en coton, 0ᶠ 80 ; — 1 foulard, 2ᶠ 00 ; — 2 paires de as en couon, 2ᶠ 90 ; — 1 paire de bas de laine, 1ᶠ 65; — galochee, 2ᶠ 75. — Total, 32ᶠ 75.</p>
-       <p xml:id="para_6_272_172">MÈTEMENTS DU PETIT GARCON . . . . . . . .. . 50ᶠ 00</p>
-       <p xml:id="para_6_272_173">vêtements du dimanche. — l complet en cheviotte beige, 12ᶠ 00; — 1 casquette à visiere, 2ᶠ 15 ; — 1 chapeau de paille, 0ᶠ 95 ; — souliers, 3ᶠ35 ; — l pèlerine lor¬raine, 5ᶠ 00: — 1 cravae, 0ᶠ30. — Total, 21ᶠ 05.</p>
-       <p xml:id="para_6_272_174">vêtements de tous les ;ours. — 3 chemises en flanelle de couleur, 5ᶠ 45; — 3 paires de chaussettes. 1ᶠ.80; — sabots, 3ᶠ 50; — 6 mouchoirs, 1ᶠ 75; — l vieux cos¬tume. 5ᶠ 00 ; — 2 pantalons, 8ᶠ 00; — 1 béret, 0ᶠ 5. — Total, 25ᶠ 95.</p>
-       <p xml:id="para_6_272_175">VALEUR TOTALE du mobilier et des vêtements 642ᶠ 00</p>
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. HABITATION, MOBILIER ET VÊTEMENTS.
+       </head>
+       <p xml:id="para_6_270_136">
+        <pb facs="#facs_274" n="270" source="lesouvriersdesde916sociuoft_0296.xml"/>Le logemet de la famille est situé à l'extrémité d'une des plus an¬ciennes rues de Saint-Junien : la rue du Pont-Levis, aujourd'hui rue Lucien Dumas, c'est la plus commercante de la petite ville ; non loin est un hôtel ayant appartenu à la famille de Mirabeau.
+       </p>
+       <p xml:id="para_6_270_137">
+        La pauvre maison noire et vieille, à l'escalier branlant, aux portes disjointes, ne participe guère à la splendeur n des étalages voisins.
+       </p>
+       <p xml:id="para_6_270_138">
+        Le rez-de-chaussée est occupé par une auberge, l'escalier est ploné dans une obscurité presque complète ; au second, à droite, une porte basse s'ouvre sur le palier et donne accès dans la grande et unique chambre de la famille ; au fond d'un corridor à gauche se trouve l'appar¬tement du doleur
+        <ref target="#part_02_01_03" type="renvoi_int_mono">
+         (§ 3)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_6_270_139">
+        La chambre mesure 7P50 de longueur sur une largeur de 6 mètres et a 2ᵉ50 de hauteur. Deux lits aux draps grossiers avec des couvre pieds d'un rouge éclatant, mais sans rideaux, ce luxe des plus pauvres paysans, une table carrée petite et boiteuse, quelques hardes accrochées à des clous, des caisses, occupent un des côtés de la pièce. Les murs sont nus et crépis à la chaux. L'autre côté est pris par la cheminée, le bois pour le feu, un autre lit. Les ustensiles de cuisine sont suspendus au mur près de la cheminée, puis vient une petite étagère supportant verres et bouteilles, une autre en dessous pour les chaussures, plus bas encore les marmites, braisières, trépieds, pelle à feu. Entre les deux fenêtres une commode en vieux noyer, très encombrée, les machines, quelques chaises, sous la table du milieu, une grande cauisse où l'on met la vais¬selle. Celle qui n'y peut tenir, lavée ou non, reste sur la table. Tout est pauvre et laisse une pénible impression de tristesse ; mais réellement, il faut un soin admirable pour que cette chambre ne soit pas un tau¬dis sans nom, et l'on ne peut comprendre comment l'ouvrage s'amon¬celle ici, ayant l'air de n'avoir pas été touché, formant une note claire et élégante au milieu de ces détails sordides.
+       </p>
+       <p xml:id="para_6_270_140">
+        Les fenètres, aux vitres troubles, sont sans rideaux, sur le rebord ex¬t̀rieur est posée la cage du chardonneret de enry. C'est toute une équi¬pée d'école buissonnière que rappelle le petit oiseau, puis le pardon ac<pb facs="#facs_275" n="271" source="lesouvriersdesde916sociuoft_0297.xml"/>cordé au coupable après maintes taloches, et la condescendance du papa qui, à la veillée, fit là cage d'osier.
+       </p>
+       <p xml:id="para_6_271_142">
+        La table est trop petite pour réunir les cinq convives, on mange ur le pouce .
+       </p>
+       <p xml:id="para_6_271_143">
+        n petit miroir, un bénitier de porcelaine avec un ange rose, une vierge en plâtre entourée de fleurs en papier, le certificat du père au régiment, des images de première communion et des illustrations du Petit ourna fixées au mur avec des épingles ; voilà l'habitation de la famille.
+       </p>
+       <p xml:id="para_6_271_144">
+        MEUBLES . . . . . . .. . .. . .. . . . 2)0ᶠ 20
+       </p>
+       <p xml:id="para_6_271_145">
+        1ᵉ Literieˉ. — 3 lits en noyer, 60ᶠ 00 ; — 3 paillasses, 30ᶠ 00: — 2 lits de plume couettes, 35ᶠ 00 ; — 3 traversins, 6ᶠ 00 ; — l oreiller, 2ᶠ 50 ; — 3 couvertures, 15ᶠ 00 ; — 2 couvre-pieds (faits par Annette), 5ᶠ 00. — Total, 153ᶠ 50.
+       </p>
+       <p xml:id="para_6_271_146">
+        2ᵉ Autre mobilier. — 1 vieille table en chêne, 5ᶠ 00; — 1 petite table en bois blanc, 2ᶠ 00; — 1 commode en noyer, 20ᶠ 00; — 4 chaises, 8ᶠ 00; — 1 fautenil de paille, 1ᶠ50 ; — 1 chauffe-pieds en bois, 0ᶠ 75 ; — 1 cage, 0ᶠ50 ; — l miroir, 1ᶠ 45 ; — l reveil, 6ᶠ 00 ; — bénitier, cadre, statue, etc., 1ᶠ 50. — Total, 16ᶠ 70.
+       </p>
+       <p xml:id="para_6_271_147">
+        UTENSILES. . . . . . . . . . . . . . ... 31ᶠ 00
+       </p>
+       <p xml:id="para_6_271_148">
+        1° Dependant du fourneauˉ. — Paolle, pincettes, trépied, souflet, 3ᶠ 35.
+       </p>
+       <p xml:id="para_6_271_149">
+        2° Employés poaur la préparation et la consommation des alients. — 1 brai¬sière, 2ᶠ 50 ; — 1 marmite, 3ᶠ 00 ; — l grande casserole en fer battu, 2ᶠ 00; —
+       </p>
+       <p xml:id="para_6_271_150">
+        1 plus petite, 0ᶠ 75 ; — 1 casserole en terre cuite, 0ᶠ 30 ; — 1 bouilloire en fer battu, 1ᶠ 25; — Fourchettes, cuillers en fer-blanc (chacun a son couteau de poche), 2ᶠ 20 ; — 1 couteau de cuisine, 1ᶠ 10; — plats et récipients divers, 2ᶠ50; 6 verres et l pot à eau gagnés aux frairies, 2ᶠ 90; — 4 assiettes de porcelaine fine (déchet) ; — 1 saladier, 2 tasses et soucoupes, 1ᶠ50 ; — 1 bol, 0ᶠ 10. — Total,20ᶠ10.
+       </p>
+       <p xml:id="para_6_271_151">
+        3° Employés pour les soins de propreté et d'eclairage. — Pot à eau, cuvette, vase, 3ᶠ 50; — 1 bassine à laver la vaisselle, fer-blanc, 1ᶠ 25 ;  l pelle à ordure, eon bois, 0ᶠ 60 ; — l lampe, 1ᶠ 45 ; — 2 chandeliere, 0ᶠ 75. — Total, 7ᶠ 55.
+       </p>
+       <p xml:id="para_6_271_152">
+        LINGE DE MÉNAGE . . .. . . . . . . . .. 63ᶠ 50
+       </p>
+       <p xml:id="para_6_271_153">
+        6 paires de draps roux, toile du pays, 30ᶠ 00; — 2 paires de draps en coton petit modèle, 14ᶠ 00; —  taie d'oreiller en cotonnade rouge a fleurs, 0ᶠ 60; — 3 nappes en toile bise, 5ᶠ00 ; — l demi-douzaine de torchons vieux, 2ᶠ 00; — 1 douzaine de torchons vieux, 2ᶠ 00 ; — l douzaine de serviettes, 2ᶠ 10 ; — divers, 1ᶠ 50; — 1 dou¬aaine d'essuie-mains grosse toile, 6ᶠ 00. — Total, 63ᶠ 50.
+       </p>
+       <p xml:id="para_6_271_154">
+        VÊTEMENTS. . . . . . . . . .. . .. . . . 347ᶠ 30
+       </p>
+       <p xml:id="para_6_271_155">
+        VÊTEMENTS DE L'OUVRIER différant de ceux des paysans en ce qu'il n'a pas de blouse le dimanche . . . . . . . . . . . .. .. . . .. . ))ᶠ §5
+       </p>
+       <p xml:id="para_6_271_156">
+        vêtements du dianche. — l complet de drap noir de Saint-Laurent ou
+       </p>
+       <p xml:id="para_6_271_157">
+        bleute, 30ᶠ 00: — 1 chapeau feutre à larges bords, 3ᶠ 00 ; — 1 paire de gros sou¬liers ferrés, 8ᶠ 00; — 1 pèlerine ou capuchon, en drap (dite lorraine), 1ᶠ50 ; —
+       </p>
+       <p xml:id="para_6_271_158">
+        2 chemises blanches en grosse toile (col et manchettes cotonnade), 5ᶠ 50; — l cra¬vate plastron, 1ᶠ 15 ; — 1 chapeau de paille, 1ᶠ15. — Total, 53ᶠ 90.
+       </p>
+       <p xml:id="para_6_271_159">
+        vêtements de travail. — 1 veston et l pantalon de velours, 8ᶠ 00; — l casquette,
+       </p>
+       <p xml:id="para_6_272_160">
+        <pb facs="#facs_276" n="272" source="lesouvriersdesde916sociuoft_0298.xml"/> 2ᶠ 25; — l gilet de laine (tricoté par la mère), 4ᶠ 50 ; — 3 chemises de coton cou¬leur, 7ᶠ 00; — 1 paire de sabots. 3ᶠ 00 ; — 2 gilets de flanelle et 3 paires de chaussons de laine, 3ᶠ 00; — l paire de sabots cuir et bois, 4ᶠ 50; — 2 paires de chaussettes en gros coton, 1ᶠ 20; — 2 cravates, 0ᶠ 70; — 1 cache-nez, 2ᶠ 00; — 1l courroie, 0ᶠ 60. — Total, 36ᶠ 75.
+       </p>
+       <p xml:id="para_6_272_161">
+        V2rEMENTS DE LA MÈRE . ... .. ... .. . 54ᶠ 60
+       </p>
+       <p xml:id="para_6_272_162">
+        Vêtements du dianche. — l costume en molleton noir rayé de blane, 9ᶠ 00; —
+       </p>
+       <p xml:id="para_6_272_163">
+        1 chale de laine noire, 3ᶠ 50; — l jupon de molleton blanc. 3ᶠ 00; — 1 paire de sabots cuir et bois (socques), 3ᶠ 00; — 2 coiffes harbichet, 6ᶠ 00; — l parapluie,
+       </p>
+       <p xml:id="para_6_272_164">
+        1ᶠ 15; — 1 caraco en cachemire. 2ᶠ 00; — l ablier cotonnade, 2ᶠ 00. — Total, 29ᶠ95.
+       </p>
+       <p xml:id="para_6_272_165">
+        vêtements de tous ˉles jours. — l jupon, 1ᶠ50 ; — 2 vieilles jupes, 2ᶠ50 ; — 2 ca¬misoles en cotonnade, 2ᶠ 00; — 4 chemises de coton, 8ᶠ 00; — 3 paires de bas de laine (faits par la mère), 3ᶠ 50; — 6 mouchoirs cotonnade à carreaux, 2ᶠ 00; — l tablier, 1ᶠ 50 ; —  paire de chaussures de feutre, 1ᶠ 45; — 2 madras, 2ᶠ 20. — Total, 2ᶠ 65.
+       </p>
+       <p xml:id="para_6_272_166">
+        VÊTEMENTS DE LA FILLE AINÉE . . . . . . . . . . 97ᶠ §60
+       </p>
+       <p xml:id="para_6_272_167">
+        Vêtements du dimancheˉ. — 1 robe en lainage clair, 15ᶠ 00 ; — l jaquette, 3ᶠ 95; — 1 chapeau de feutre, 3ᶠ 00; — l1 chapeau de paille, 2ᶠ 45; — 1 paire de souliers, 9ᶠ 00 ; — 1 robe cotonnade, 8ᶠ 00; — l corsage fantaisie, 3ᶠ 25; — 1 ombrelle, 2ᶠ 00. — Tota, 46ᶠ 65.
+       </p>
+       <p xml:id="para_6_272_168">
+        vêtements de trarvail. — 3 corsages vieux, 8ᶠ 50 ; — 6 chemises cotonnade, 13ᶠ 00 ; — 3 paires de bas de coton. 5ᶠ 00; — 2 paires de bas de laine, 4ᶠ00 ; — l vieux chapeau.'1ᶠ 00; — 1 paire de chaussons de feutre, 1ᶠ 45; — vieux souliers, 3ᶠ 00 ; — sabots cuir e bois, 3ᶠ 50 ; — 1 pelerine de laine, 3ᶠ 00; — 2 tabliers ein cotonnade, 2ᶠ 50 ; — 6 mouchoirs blancs, 1ᶠ 50; — l corset, 2ᶠ50; — 2 vieux iupnons,. 2ᶠ 00. — Total, 50ᶠ 95.
+       </p>
+       <p xml:id="para_6_272_169">
+        VÊTEMENTS DE LA PETITE FILLE . . . . . .. .. 54ᶠ 45
+       </p>
+       <p xml:id="para_6_272_170">
+        vêtements du dimanche. — 1 robe en lainage écossais, 8ᶠ 00; — l chapeau de feutre, 2ᶠ 25; — l chapeau de paille, 1ᶠ 15 ; — 1 peit colle, 2ᶠ50 ; — 1 jupon. 1ᶠ 50 ; — 1 paire de boines, 5ᶠ 50; — 1 cravate, 0ᶠ50. — Total, 21ᶠ70.
+       </p>
+       <p xml:id="para_6_272_171">
+        vêtements de tous les jours. — 2 vieux corsages, 4ᶠ 00; — 2 vieilles jupes lai¬nage, 3ᶠ 00 ; — souliers, 41ᶠ 50 ; — l capeline de tricot, 2ᶠ 25; — l1 tablier fantaisie, 1ᶠ 45; — 3 chemises en cotonnade, 5ᶠ 50 ; — l corset., 1ᶠ 95 ; — 4 mouchnoirs blancs en coton, 0ᶠ 80 ; — 1 foulard, 2ᶠ 00 ; — 2 paires de as en couon, 2ᶠ 90 ; — 1 paire de bas de laine, 1ᶠ 65; — galochee, 2ᶠ 75. — Total, 32ᶠ 75.
+       </p>
+       <p xml:id="para_6_272_172">
+        MÈTEMENTS DU PETIT GARCON . . . . . . . .. . 50ᶠ 00
+       </p>
+       <p xml:id="para_6_272_173">
+        vêtements du dimanche. — l complet en cheviotte beige, 12ᶠ 00; — 1 casquette à visiere, 2ᶠ 15 ; — 1 chapeau de paille, 0ᶠ 95 ; — souliers, 3ᶠ35 ; — l pèlerine lor¬raine, 5ᶠ 00: — 1 cravae, 0ᶠ30. — Total, 21ᶠ 05.
+       </p>
+       <p xml:id="para_6_272_174">
+        vêtements de tous les ;ours. — 3 chemises en flanelle de couleur, 5ᶠ 45; — 3 paires de chaussettes. 1ᶠ.80; — sabots, 3ᶠ 50; — 6 mouchoirs, 1ᶠ 75; — l vieux cos¬tume. 5ᶠ 00 ; — 2 pantalons, 8ᶠ 00; — 1 béret, 0ᶠ 5. — Total, 25ᶠ 95.
+       </p>
+       <p xml:id="para_6_272_175">
+        VALEUR TOTALE du mobilier et des vêtements 642ᶠ 00
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
-       <p xml:id="para_6_273_179"><pb facs="#facs_277" n="273" source="lesouvriersdesde916sociuoft_0299.xml"/> Cette partie de l'étude de la famille fait ressortir toute la tristesse de la situation ouvrière, au point de vue moral, dans les petits centres dont Saint-Junien est le type. Là existent tout à la fois la grossiêreté des campagnards et le désir intense qu'ont les ouvriers de ville d'imiter la vie bourgeoise dans toutes ses manifestations extérieures. nassouvie, cette prétention s'exaspère et les toilettes, les journaux de mode, les livraisons de toutes sortes absorbent presque partout le gain des jours.... et des longues veillées. Le luxe des vêtements est insensé parmi les petites ouvrières ; cela prouve, parait-il, l'habileté au travail et leur tient lieu de dotl.... Le dimanche, à la promenade, la mieux parée est remar¬quée, on recherche ses ressources, on suppute le nombre de paires de gants qu'elle doit exécuter par jour, on admire...., et plus d'un mariage s'est décidé d'après ces données un peu vagues.</p>
-       <p xml:id="para_6_273_180">Quoi qu'il en soit, la pauvre Marie D. ne peut jouir du même plaisir et des mêmes espoirs ; mais les foires, bals et « frairies lui sont des délas¬sements très chers. On en revient à minuit ou une heure du matin sous la garde du père, — qui a passé ce temps à l'auberge, — la jeune ille est restée sous l'illusoire protection de quelque parente ou amie. I1 y a des bals presque tous les dimanches. Les danses usitées sont des imitations de celles des salons : la varse » et la polla qu'on exécute fort bien; malheureusement, la gracieuse bourrée limousine est complètement oubliée, quelquee personnes âgées seulement la connaissent encore. Annette la dansait avec une gràce charmante, il y a quelques années, aux sons doux et monotones de la vielle à présent remplacée par la ̂te ou l'accordéon. La s chabrette (le biniou des Bretons) n'est plus qu'un souvenir de musée.</p>
-       <p xml:id="para_6_273_181">Le Limousin est crédule et curieux ; il aime tout ce qui est spectacle et représentation (les premiers Mystêres furent, dit-on, joués dans cette province), les « Otensions<note type="bp">
-         <p>On appelle de ce nom l'exposition solennelle de toutes les reliques possédées dans chaque ville, elle dure cinquante jours. Le jour de la sortie et celui de la rentrée des raoliques on représente les principaux événements de la vie des saints.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. RÉCRÉATIONS.
+       </head>
+       <p xml:id="para_6_273_179">
+        <pb facs="#facs_277" n="273" source="lesouvriersdesde916sociuoft_0299.xml"/>Cette partie de l'étude de la famille fait ressortir toute la tristesse de la situation ouvrière, au point de vue moral, dans les petits centres dont Saint-Junien est le type. Là existent tout à la fois la grossiêreté des campagnards et le désir intense qu'ont les ouvriers de ville d'imiter la vie bourgeoise dans toutes ses manifestations extérieures. nassouvie, cette prétention s'exaspère et les toilettes, les journaux de mode, les livraisons de toutes sortes absorbent presque partout le gain des jours.... et des longues veillées. Le luxe des vêtements est insensé parmi les petites ouvrières ; cela prouve, parait-il, l'habileté au travail et leur tient lieu de dotl.... Le dimanche, à la promenade, la mieux parée est remar¬quée, on recherche ses ressources, on suppute le nombre de paires de gants qu'elle doit exécuter par jour, on admire...., et plus d'un mariage s'est décidé d'après ces données un peu vagues.
+       </p>
+       <p xml:id="para_6_273_180">
+        Quoi qu'il en soit, la pauvre Marie D. ne peut jouir du même plaisir et des mêmes espoirs ; mais les foires, bals et « frairies lui sont des délas¬sements très chers. On en revient à minuit ou une heure du matin sous la garde du père, — qui a passé ce temps à l'auberge, — la jeune ille est restée sous l'illusoire protection de quelque parente ou amie. I1 y a des bals presque tous les dimanches. Les danses usitées sont des imitations de celles des salons : la varse » et la polla qu'on exécute fort bien; malheureusement, la gracieuse bourrée limousine est complètement oubliée, quelquee personnes âgées seulement la connaissent encore. Annette la dansait avec une gràce charmante, il y a quelques années, aux sons doux et monotones de la vielle à présent remplacée par la ̂te ou l'accordéon. La s chabrette (le biniou des Bretons) n'est plus qu'un souvenir de musée.
+       </p>
+       <p xml:id="para_6_273_181">
+        Le Limousin est crédule et curieux ; il aime tout ce qui est spectacle et représentation (les premiers Mystêres furent, dit-on, joués dans cette province), les « Otensions
+        <note type="bp">
+         <p>
+          On appelle de ce nom l'exposition solennelle de toutes les reliques possédées dans chaque ville, elle dure cinquante jours. Le jour de la sortie et celui de la rentrée des raoliques on représente les principaux événements de la vie des saints.
+         </p>
         </note>
-        » en sont une preuve. Ces manifestations <pb facs="#facs_278" n="274" source="lesouvriersdesde916sociuoft_0300.xml"/> religieuses spéciales à ce pays proviennent d'un vœu analogue à celui d'Oberammergau, mais plus ancien ; elles sont faites tous les sept ans et sont particulièrement belles à Saint-Junien. C'est un grand honneur et une grande joie de figurer parmi la céleste procession le jour de la rentrée des reliques. Les bourgeois et les ouvriers très aisés peuvent seuls y prétendre, mais les « Suisses » sont choisis parmi les plus humbles et nommés par élection. Le doleur, voisin des D., conserve précieuse¬ment une photographie des s figurants aux dernières ostensions où son père portait l'habit de « Suisse » ou garde des reliques.</p>
-       <p xml:id="para_6_274_185">Les fêtes septennales ne peuvent suffire au goût que l'on a ici pour les spectacles des représentations dramatiques ont lieu fréquemment à  la salle des fêtes . Martial D., sa fille aînée et le petit garçon n'en man¬quent guère quand le prix des places n'est pas trop élevé. Il est parfois de 0ᶠ30l1 Les cirques, chevaux de bois, charlatans de toute espèce, sont toujours entourés d'une foule nombreuse et sympathique où se retrouvent les trois enfants D.</p>
-       <p xml:id="para_6_274_186">Boire et jouer aux cartes sont les plus grands plaisirs de Martial, aussi revient-it parfois, le dimanche, plus gai que de raison et la démarche légèrement déconcertée. Annette gronde, elle a le verbe haut, mais elle ne s'inquiète guère pourtant de cette conséquence des joies dominicales : la sobriété des jours de travail remet l'équilibre dans la bourse et dans la</p>
-       <p xml:id="para_6_274_187">Le père, la mère, la fille aînée ne savent pas lire, mais la science des deux petits est mise à contribution, et chaque dimanche, Martial apporte le Petit Journal illustre, qui fait les délices de la famille. Le ˉLustra est un oracle.</p>
+        » en sont une preuve. Ces manifestations <pb facs="#facs_278" n="274" source="lesouvriersdesde916sociuoft_0300.xml"/> religieuses spéciales à ce pays proviennent d'un vœu analogue à celui d'Oberammergau, mais plus ancien ; elles sont faites tous les sept ans et sont particulièrement belles à Saint-Junien. C'est un grand honneur et une grande joie de figurer parmi la céleste procession le jour de la rentrée des reliques. Les bourgeois et les ouvriers très aisés peuvent seuls y prétendre, mais les « Suisses » sont choisis parmi les plus humbles et nommés par élection. Le doleur, voisin des D., conserve précieuse¬ment une photographie des s figurants aux dernières ostensions où son père portait l'habit de « Suisse » ou garde des reliques.
+       </p>
+       <p xml:id="para_6_274_185">
+        Les fêtes septennales ne peuvent suffire au goût que l'on a ici pour les spectacles des représentations dramatiques ont lieu fréquemment à  la salle des fêtes . Martial D., sa fille aînée et le petit garçon n'en man¬quent guère quand le prix des places n'est pas trop élevé. Il est parfois de 0ᶠ30l1 Les cirques, chevaux de bois, charlatans de toute espèce, sont toujours entourés d'une foule nombreuse et sympathique où se retrouvent les trois enfants D.
+       </p>
+       <p xml:id="para_6_274_186">
+        Boire et jouer aux cartes sont les plus grands plaisirs de Martial, aussi revient-it parfois, le dimanche, plus gai que de raison et la démarche légèrement déconcertée. Annette gronde, elle a le verbe haut, mais elle ne s'inquiète guère pourtant de cette conséquence des joies dominicales : la sobriété des jours de travail remet l'équilibre dans la bourse et dans la
+       </p>
+       <p xml:id="para_6_274_187">
+        Le père, la mère, la fille aînée ne savent pas lire, mais la science des deux petits est mise à contribution, et chaque dimanche, Martial apporte le Petit Journal illustre, qui fait les délices de la famille. Le ˉLustra est un oracle.
+       </p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
-       <p xml:id="para_6_274_191">C'est une famille essentiellement limousine qui n'a jamais quitté les rives de la Vienne. Le père, la mère et deux des aînées sont nés à Saint¬Brice, dans un milieu agricole.</p>
-       <p xml:id="para_6_274_192">Annette est fille d'un métayer ; elle avait trois ans quand son père <pb facs="#facs_279" n="275" source="lesouvriersdesde916sociuoft_0301.xml"/> épousa, en seconde noce, une veuve dont la fillette avait à peu près le même âge. Le enfants grandirent comme soœurs et plusieurs autres petites bouches à nourrir venant accroitre la misère, dès leur première communion, on plaçu les deux petites alnées ; elles se firent apprécier et restèrent jusqu'à leur mariage dans les maisons où elles étaient entrées à onze ans.</p>
-       <p xml:id="para_6_275_194">Elles ne se revirent guère pendant ce temps-là, Annette restant à Saint-Brice, dans une riche ferme, l'autre près de Saint-Laurent, mais elles se gardèrent la même afection et, à présent encore, la famille de Valérie, plus fortunée, reste un appui pour celle d'Annette. Elles se e son¬nèrent n toujours bien, suivant le mot très expressif du patois local.</p>
-       <p xml:id="para_6_275_195">Plusieurs années s'écoulèrent dans le calme d'une existence très active. La petite servante était devenue la cheville ouvrière de la ferme, l'inti¬mité nait facilement entre maîtres et serviteurs dans ces maisons paysannes ; les jeunes filles étaient des « demoiselles élevées en pen¬sion ; Annette s'affina à leur contauct, et travaillant avec elles, apprit la couture, la coupe, le repassage. Son éducation fait la gloire de la fa¬mille. En 1884, c'est la grande étape, le mariage, l'émigration vers l'usine, la vie aux prises avec la misère.</p>
-       <p xml:id="para_6_275_196">Un valet de la ferme, Martial D., s'etait vivement épris de la jeoune servante. Il appartenait à une famille de bons métayers, et pour se faire quelque agent bien à lui, il s'était placé en revenant du service mili¬taire. Bon travailleur, c'est un caractère faible, brutaul parfois, une nature très fruste.</p>
-       <p xml:id="para_6_275_197">La noce se fit à l'automne, et les veillées furent gaies cet hiver-là ; mais quand il fallut travailler dans la métairie et prendre part au rude labeur des champs, Annette, qui n'y était pas accoutumée, se plai¬gnit; n'ayant pas les habitudes ni le genre de vie des autres membres de la famille, elle s'ennuyait et finit par décider son mari à quitter la terre pour l'usine.</p>
-       <p xml:id="para_6_275_198">Ces paysans, qui n'ont jamais touché de salaire régulier, sont hypno¬tisés par la paie que n'influencent ni les risques de la gelée ni les varia¬tions des prix de vente.</p>
-       <p xml:id="para_6_275_199">IIs allèrent à Saillat (Haute-Vienne), à quelques lieues de lè, où Valé¬rie, mariée à un ouvrier papetier, les appelait.</p>
-       <p xml:id="para_6_275_200">Quand Martial dut, avec 2 francs par jour, sufire à tous les besoins d'une famille qui s'augmentait rapidement et faire face à des dépenses auxquelles on ne pensait pas, qui ne comptaient pas à la ferme, le pauvre homme vit bien qu'il avait eu tort d'abandonner la terre et de <pb facs="#facs_280" n="276" source="lesouvriersdesde916sociuoft_0302.xml"/> quitter les «vieux, mais il était trop tard ; la communauté (groupe de ménages réunis dans une métairie sous l'autorité du père) était rompue, ils avaient à se tirer d'affaire tout seuls, ce fut dur.</p>
-       <p xml:id="para_6_276_202">L'homme prenait l'ouvrage à sept heures du matin et rentrait à sept heures du soir : deux heures de repos, dix heoures de travail ; la femme, malgré sa bonne volonté, ne put longtemps s'employer au triage du pa¬pier : on exige neui heures de présence, de huit heures du matin à onze heures et d'une heure à six heures du soir. Que restait-il pour les soins du ménage et des enfants, pour la préparation des repas Elle était à ses pièces, à tant la rame de 480 feuilles, et se faisait 1ᶠ 50 par jour. Pendant ce temps, les enfants étaient confiés à une voisine charitable.</p>
-       <p xml:id="para_6_276_203">La naissance de deux jumeaux (qui ne vécurent que quelques mois) rendit Annette incapable d'aller à la papeterie, le travail même de la maison devint trop lourd pour elle et son aînée n'avait que six ans l Ahl les années pénibles qu'il fallut alors passer On lutta courageusement et l'aide de l'amie d'enfance fut précieuse ; ce fut elle qui trouva de l'ou¬vrage à domicile pour Annette ; celle-ci était adroite et peu chérante n, elle eut vite une clientèle pour la couture; puis Valérie prêt une méca¬nique à coudre les gants ; le travail étauit payé, en ce temps-là, 3ᶠ la dou¬aine, la jeune femme n'eut pas d'apprentissage à payer, son amie lui fit part de son savoir-faire, en même temps qu'elle lui procurait le matériel et les commandes. La petite Marie cessa de fréquenter l'ecole pour aider sa mère et s'initier près d'elle au métier de gantière.</p>
-       <p xml:id="para_6_276_204">Quand les « machines à coudre eurent partout remplacé le travail à la main, les patrons réduisirent leurs prix, ce fut une nouvelle crise.</p>
-       <p xml:id="para_6_276_205">Alors la famille vint s'établir à Saint-Junien pour se donner exclusi¬vement à une industrie qui plus tard serait un métier pour les filles.</p>
-       <p xml:id="para_6_276_206">Le père entra bientôt dans une teinturerie ; la seconde fille, Francoise, moins adroite que Marie, ne paraissait pas pouvoir gagner sa vie dans la ganterie, elle fut placée comme petite bonne chez les patrons qui don¬naient de l'ouvrage à la mère, les deux tout petits allaient à l'asile, puis à l'école.</p>
-       <p xml:id="para_6_276_207">Quelques années passèrent, Marie acheta, au prix de 100ᶠ, une machine d'occasion, elle devait la payer à raison de 10ᶠ par mois, elle y réussit ; alors elle put se charger d'un peu plus d'ouvrage : le pain quotidien était à peu près assuré.</p>
-       <p xml:id="para_6_276_208">LorS de nos premières visites, le petit garçon était enfant de chœur et il en étauit très fier, c'est la première chose dont on nous parla pour en¬trer en connaissance. Ses fonctions lui rapportaient quelques bénéfices, <pb facs="#facs_281" n="277" source="lesouvriersdesde916sociuoft_0303.xml"/> un peu d'argent, beaucoup de protections ; mais elles fnirent par l'en¬nuyer, parce qu'elles l'empechaient de vagabonder le dimanche avec d'autres gamins ; actuellement il les a abandonnées.</p>
-       <p xml:id="para_6_277_210">Marie-Louise put enfin faire la petite ménagère et rendre quelques services dans l'industrie familiale : c'est la situation présente, très beso¬gneuse, mais sans dettes criardes, on arrive à assurer l'èquilibre du bud¬get avec beaucoup de privations et sans aide, car les cadeaux que don¬nent encore les amis des mauvais jours sont compensés par l'hospitalité donnée ; ces campagnards sont toujours reçus chez les D. quand ils viennent à Saint-Junien.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. PHASES PRINCIPALES DE L'EXISTENCE.
+       </head>
+       <p xml:id="para_6_274_191">
+        C'est une famille essentiellement limousine qui n'a jamais quitté les rives de la Vienne. Le père, la mère et deux des aînées sont nés à Saint¬Brice, dans un milieu agricole.
+       </p>
+       <p xml:id="para_6_274_192">
+        Annette est fille d'un métayer ; elle avait trois ans quand son père <pb facs="#facs_279" n="275" source="lesouvriersdesde916sociuoft_0301.xml"/> épousa, en seconde noce, une veuve dont la fillette avait à peu près le même âge. Le enfants grandirent comme soœurs et plusieurs autres petites bouches à nourrir venant accroitre la misère, dès leur première communion, on plaçu les deux petites alnées ; elles se firent apprécier et restèrent jusqu'à leur mariage dans les maisons où elles étaient entrées à onze ans.
+       </p>
+       <p xml:id="para_6_275_194">
+        Elles ne se revirent guère pendant ce temps-là, Annette restant à Saint-Brice, dans une riche ferme, l'autre près de Saint-Laurent, mais elles se gardèrent la même afection et, à présent encore, la famille de Valérie, plus fortunée, reste un appui pour celle d'Annette. Elles se e son¬nèrent n toujours bien, suivant le mot très expressif du patois local.
+       </p>
+       <p xml:id="para_6_275_195">
+        Plusieurs années s'écoulèrent dans le calme d'une existence très active. La petite servante était devenue la cheville ouvrière de la ferme, l'inti¬mité nait facilement entre maîtres et serviteurs dans ces maisons paysannes ; les jeunes filles étaient des « demoiselles élevées en pen¬sion ; Annette s'affina à leur contauct, et travaillant avec elles, apprit la couture, la coupe, le repassage. Son éducation fait la gloire de la fa¬mille. En 1884, c'est la grande étape, le mariage, l'émigration vers l'usine, la vie aux prises avec la misère.
+       </p>
+       <p xml:id="para_6_275_196">
+        Un valet de la ferme, Martial D., s'etait vivement épris de la jeoune servante. Il appartenait à une famille de bons métayers, et pour se faire quelque agent bien à lui, il s'était placé en revenant du service mili¬taire. Bon travailleur, c'est un caractère faible, brutaul parfois, une nature très fruste.
+       </p>
+       <p xml:id="para_6_275_197">
+        La noce se fit à l'automne, et les veillées furent gaies cet hiver-là ; mais quand il fallut travailler dans la métairie et prendre part au rude labeur des champs, Annette, qui n'y était pas accoutumée, se plai¬gnit; n'ayant pas les habitudes ni le genre de vie des autres membres de la famille, elle s'ennuyait et finit par décider son mari à quitter la terre pour l'usine.
+       </p>
+       <p xml:id="para_6_275_198">
+        Ces paysans, qui n'ont jamais touché de salaire régulier, sont hypno¬tisés par la paie que n'influencent ni les risques de la gelée ni les varia¬tions des prix de vente.
+       </p>
+       <p xml:id="para_6_275_199">
+        IIs allèrent à Saillat (Haute-Vienne), à quelques lieues de lè, où Valé¬rie, mariée à un ouvrier papetier, les appelait.
+       </p>
+       <p xml:id="para_6_275_200">
+        Quand Martial dut, avec 2 francs par jour, sufire à tous les besoins d'une famille qui s'augmentait rapidement et faire face à des dépenses auxquelles on ne pensait pas, qui ne comptaient pas à la ferme, le pauvre homme vit bien qu'il avait eu tort d'abandonner la terre et de <pb facs="#facs_280" n="276" source="lesouvriersdesde916sociuoft_0302.xml"/> quitter les «vieux, mais il était trop tard ; la communauté (groupe de ménages réunis dans une métairie sous l'autorité du père) était rompue, ils avaient à se tirer d'affaire tout seuls, ce fut dur.
+       </p>
+       <p xml:id="para_6_276_202">
+        L'homme prenait l'ouvrage à sept heures du matin et rentrait à sept heures du soir : deux heures de repos, dix heoures de travail ; la femme, malgré sa bonne volonté, ne put longtemps s'employer au triage du pa¬pier : on exige neui heures de présence, de huit heures du matin à onze heures et d'une heure à six heures du soir. Que restait-il pour les soins du ménage et des enfants, pour la préparation des repas Elle était à ses pièces, à tant la rame de 480 feuilles, et se faisait 1ᶠ 50 par jour. Pendant ce temps, les enfants étaient confiés à une voisine charitable.
+       </p>
+       <p xml:id="para_6_276_203">
+        La naissance de deux jumeaux (qui ne vécurent que quelques mois) rendit Annette incapable d'aller à la papeterie, le travail même de la maison devint trop lourd pour elle et son aînée n'avait que six ans l Ahl les années pénibles qu'il fallut alors passer On lutta courageusement et l'aide de l'amie d'enfance fut précieuse ; ce fut elle qui trouva de l'ou¬vrage à domicile pour Annette ; celle-ci était adroite et peu chérante n, elle eut vite une clientèle pour la couture; puis Valérie prêt une méca¬nique à coudre les gants ; le travail étauit payé, en ce temps-là, 3ᶠ la dou¬aine, la jeune femme n'eut pas d'apprentissage à payer, son amie lui fit part de son savoir-faire, en même temps qu'elle lui procurait le matériel et les commandes. La petite Marie cessa de fréquenter l'ecole pour aider sa mère et s'initier près d'elle au métier de gantière.
+       </p>
+       <p xml:id="para_6_276_204">
+        Quand les « machines à coudre eurent partout remplacé le travail à la main, les patrons réduisirent leurs prix, ce fut une nouvelle crise.
+       </p>
+       <p xml:id="para_6_276_205">
+        Alors la famille vint s'établir à Saint-Junien pour se donner exclusi¬vement à une industrie qui plus tard serait un métier pour les filles.
+       </p>
+       <p xml:id="para_6_276_206">
+        Le père entra bientôt dans une teinturerie ; la seconde fille, Francoise, moins adroite que Marie, ne paraissait pas pouvoir gagner sa vie dans la ganterie, elle fut placée comme petite bonne chez les patrons qui don¬naient de l'ouvrage à la mère, les deux tout petits allaient à l'asile, puis à l'école.
+       </p>
+       <p xml:id="para_6_276_207">
+        Quelques années passèrent, Marie acheta, au prix de 100ᶠ, une machine d'occasion, elle devait la payer à raison de 10ᶠ par mois, elle y réussit ; alors elle put se charger d'un peu plus d'ouvrage : le pain quotidien était à peu près assuré.
+       </p>
+       <p xml:id="para_6_276_208">
+        LorS de nos premières visites, le petit garçon était enfant de chœur et il en étauit très fier, c'est la première chose dont on nous parla pour en¬trer en connaissance. Ses fonctions lui rapportaient quelques bénéfices, <pb facs="#facs_281" n="277" source="lesouvriersdesde916sociuoft_0303.xml"/> un peu d'argent, beaucoup de protections ; mais elles fnirent par l'en¬nuyer, parce qu'elles l'empechaient de vagabonder le dimanche avec d'autres gamins ; actuellement il les a abandonnées.
+       </p>
+       <p xml:id="para_6_277_210">
+        Marie-Louise put enfin faire la petite ménagère et rendre quelques services dans l'industrie familiale : c'est la situation présente, très beso¬gneuse, mais sans dettes criardes, on arrive à assurer l'èquilibre du bud¬get avec beaucoup de privations et sans aide, car les cadeaux que don¬nent encore les amis des mauvais jours sont compensés par l'hospitalité donnée ; ces campagnards sont toujours reçus chez les D. quand ils viennent à Saint-Junien.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ETRE PHYSIQUE ET MORAL DE LA FAMILLE</head>
-       <p xml:id="para_6_277_213">Dês longtemps,la charité et la philanthropie se sont ingéniées à multi¬plier les secours contre tous lesaccidentsde la vie; mais ici les campagnes et les petites villes en bénéficient à peine. Ces institutions, quand elles existent, n'y sont comprises ni par ceux qui les dirigent ni par ceux qui devraient y avoir recours.</p>
-       <p xml:id="para_6_277_214">Aucune assurance n'est venue en aide à ces paysans déracinés ui ont été ballottés de misère en misère entre les maladies et le chômage. Ils sont trop timides, trop défiants : lidée de mutualité et incompréhen¬sible pour eux et le respect humain éloigne les jeunes filles de toute asso¬ciation religieuse. C'est donc sur leurs propres forces qu'il leur faut compter, et elles ont suffi jusqu'à présent : la vaillance, l'économie, l'es¬prit d'union qui a fait concourir les eforts de tous au bien dela famille » valent bien d'autres appuis.</p>
-       <p xml:id="para_6_277_215">A côté de lénergie individuelle a surgi l'amitié et l'esprit charitable de la s gent » pour les moments de crise aigue, et celui de l'Église. Ainsi le travail, la famille et la religion restent encore les garanties les plus solides comme les plus simples.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE
+       </head>
+       <p xml:id="para_6_277_213">
+        Dês longtemps,la charité et la philanthropie se sont ingéniées à multi¬plier les secours contre tous lesaccidentsde la vie; mais ici les campagnes et les petites villes en bénéficient à peine. Ces institutions, quand elles existent, n'y sont comprises ni par ceux qui les dirigent ni par ceux qui devraient y avoir recours.
+       </p>
+       <p xml:id="para_6_277_214">
+        Aucune assurance n'est venue en aide à ces paysans déracinés ui ont été ballottés de misère en misère entre les maladies et le chômage. Ils sont trop timides, trop défiants : lidée de mutualité et incompréhen¬sible pour eux et le respect humain éloigne les jeunes filles de toute asso¬ciation religieuse. C'est donc sur leurs propres forces qu'il leur faut compter, et elles ont suffi jusqu'à présent : la vaillance, l'économie, l'es¬prit d'union qui a fait concourir les eforts de tous au bien dela famille » valent bien d'autres appuis.
+       </p>
+       <p xml:id="para_6_277_215">
+        A côté de lénergie individuelle a surgi l'amitié et l'esprit charitable de la s gent » pour les moments de crise aigue, et celui de l'Église. Ainsi le travail, la famille et la religion restent encore les garanties les plus solides comme les plus simples.
+       </p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. Budget des recettes de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. BUDGET DES RECETTES DE L'ANNÉE.
+       </head>
        <pb facs="#facs_282" n="278" source="lesouvriersdesde916sociuoft_0304.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_282" url="#" xml:id="tble_6_278_1"/>
        </figure>
-       <!--<p xml:id="para_6_278_217">SECTION II</p>
-       <p xml:id="para_6_278_218">SUVENTIONS RȨUES PAR LA FAILLE</p>
-       <p xml:id="para_6_278_219">ART. 1ᵉʳ. — Propriétés REÇUES EN USUFRUIT (A famille ne recoit aucune proprieté en usufruit) . . . . . . . . . . . .</p>
-       <p xml:id="para_6_278_220">ART. 2. — DROITs D'USAGE SUR LES Propriétés VOISINES (Aa famllle ne jouit d'aucun droit d'usage). . . . . . . . . . . . . . .</p>
-       <p xml:id="para_6_278_221">ART. . — ALLOCATION D'OBIETS ET DE SERVICES</p>
-       <p xml:id="para_6_278_222">Allocatlons concernant la nourrlture de la part de parents habitnnt la csmpagne. .</p>
-       <p xml:id="para_6_278_223">Allocations concernant l'lnstructlon . .. . .. . . . . . . . . . . .</p>
-       <p xml:id="para_6_278_224">Allocations reçues en espèces . . . . . . .. .. . . . .. . . .</p>-->
+       <!--<p xml:id="para_6_278_217">
+        SECTION II
+       </p>
+       <p xml:id="para_6_278_218">
+        SUVENTIONS RȨUES PAR LA FAILLE
+       </p>
+       <p xml:id="para_6_278_219">
+        ART. 1ᵉʳ. — PROPRIÉTÉS REÇUES EN USUFRUIT (A famille ne recoit aucune proprieté en usufruit) . . . . . . . . . . . .
+       </p>
+       <p xml:id="para_6_278_220">
+        ART. 2. — DROITs D'USAGE SUR LES PROPRIÉTÉS VOISINES (Aa famllle ne jouit d'aucun droit d'usage). . . . . . . . . . . . . . .
+       </p>
+       <p xml:id="para_6_278_221">
+        ART. . — ALLOCATION D'OBIETS ET DE SERVICES
+       </p>
+       <p xml:id="para_6_278_222">
+        Allocatlons concernant la nourrlture de la part de parents habitnnt la csmpagne. .
+       </p>
+       <p xml:id="para_6_278_223">
+        Allocations concernant l'lnstructlon . .. . .. . . . . . . . . . . .
+       </p>
+       <p xml:id="para_6_278_224">
+        Allocations reçues en espèces . . . . . . .. .. . . . .. . . .
+       </p>-->
        <pb facs="#facs_283" n="279" source="lesouvriersdesde916sociuoft_0305.xml"/>
-       <!--<p xml:id="para_6_279_225">§ 14.</p><p>Budget des recettes de l'année.</p>-->
+       <!--<p xml:id="para_6_279_225">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_283" url="#" xml:id="tble_6_279_2"/>
        </figure>
        <pb facs="#facs_284" n="280" source="lesouvriersdesde916sociuoft_0306.xml"/>
-       <!--<p xml:id="para_6_280_226">§ 14.</p><p>Budget des recettes de l'année.</p>-->
+       <!--<p xml:id="para_6_280_226">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_284" url="#" xml:id="tble_6_280_3"/>
        </figure>
-       <!--<p xml:id="para_6_280_228">SECTION Iv</p>
-       <p xml:id="para_6_280_229">INDUSTRIES EMTREPMIEES PAR LA FAILL</p>
-       <p xml:id="para_6_280_230">(à son propre compte)</p>
-       <p xml:id="para_6_280_231">Confectlon de vêtements pour la famille. . . . . . .. . . . . . .</p>-->
+       <!--<p xml:id="para_6_280_228">
+        SECTION Iv
+       </p>
+       <p xml:id="para_6_280_229">
+        INDUSTRIES EMTREPMIEES PAR LA FAILL
+       </p>
+       <p xml:id="para_6_280_230">
+        (à son propre compte)
+       </p>
+       <p xml:id="para_6_280_231">
+        Confectlon de vêtements pour la famille. . . . . . .. . . . . . .
+       </p>-->
        <pb facs="#facs_285" n="281" source="lesouvriersdesde916sociuoft_0307.xml"/>
-       <!--<p xml:id="para_6_281_232">§ 14.</p><p>Budget des recettes de l'année.</p>-->
+       <!--<p xml:id="para_6_281_232">
+        § 14.
+        </p><p>
+        BUDGET DES RECETTES DE L'ANNÉE.
+       </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_285" url="#" xml:id="tble_6_281_4"/>
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. Budget des dépenses de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
+       </head>
        <pb facs="#facs_286" n="282" source="lesouvriersdesde916sociuoft_0308.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_286" url="#" xml:id="tble_6_282_5"/>
        </figure>
        <pb facs="#facs_287" n="283" source="lesouvriersdesde916sociuoft_0309.xml"/>
-       <!--<p xml:id="para_6_283_234">§ 15.</p><p>Budget des dépenses de l'année.</p>-->
+       <!--<p xml:id="para_6_283_234">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+       </p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_287" url="#" xml:id="tble_6_283_6"/>
        </figure>
        <pb facs="#facs_288" n="284" source="lesouvriersdesde916sociuoft_0310.xml"/>
-       <!--<p xml:id="para_6_284_235">§ 15.</p><p>Budget des dépenses de l'année.</p>-->
+       <!--<p xml:id="para_6_284_235">
+        § 15.
+        </p><p>
+        BUDGET DES DÉPENSES DE L'ANNÉE.
+       </p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_288" url="#" xml:id="tble_6_284_7"/>
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS</head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS
+       </head>
        <pb facs="#facs_289" n="285" source="lesouvriersdesde916sociuoft_0311.xml"/>
-       <!--<p xml:id="para_6_285_238">SECTION I</p>
-       <p xml:id="para_6_285_239">COMPTES DES BÉNÉFICES</p>
-       <p xml:id="para_6_285_240">RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte)</p>-->
+       <!--<p xml:id="para_6_285_238">
+        SECTION I
+       </p>
+       <p xml:id="para_6_285_239">
+        COMPTES DES BÉNÉFICES
+       </p>
+       <p xml:id="para_6_285_240">
+        RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte)
+       </p>-->
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_289" url="#" xml:id="tble_6_285_8"/>
        </figure>
-       <!--<p xml:id="para_6_285_241">SECTION II</p>
-       <p xml:id="para_6_285_242">COMPTES RELATIFS AUX SUEVENTIONS</p>
-       <p xml:id="para_6_285_243">Ces comptes donnant lieu à des opérations trés simples, ont été établis dans le budget lui-même.</p>-->
+       <!--<p xml:id="para_6_285_241">
+        SECTION II
+       </p>
+       <p xml:id="para_6_285_242">
+        COMPTES RELATIFS AUX SUEVENTIONS
+       </p>
+       <p xml:id="para_6_285_243">
+        Ces comptes donnant lieu à des opérations trés simples, ont été établis dans le budget lui-même.
+       </p>-->
        <pb facs="#facs_290" n="286" source="lesouvriersdesde916sociuoft_0312.xml"/>
-       <!--<p xml:id="para_6_286_244">SECTION III</p>
-       <p xml:id="para_6_286_245">COMPTES DIVERS</p>-->
+       <!--<p xml:id="para_6_286_244">
+        SECTION III
+       </p>
+       <p xml:id="para_6_286_245">
+        COMPTES DIVERS
+       </p>-->
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_290" url="#" xml:id="tble_6_286_9"/>
        </figure>
@@ -554,105 +1085,280 @@
      </div>
     </div>
     <div n="003" type="section">
-     <head type="section" xml:id="part_03">ÉLÉMENTS DIVERS SUR LA CONSTITUTION SOCIALE.</head>
-     <p xml:id="para_6_288_246">FAITS IMPORTANTS DORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.</p>
+     <head type="section" xml:id="part_03">
+      ÉLÉMENTS DIVERS SUR LA CONSTITUTION SOCIALE.
+     </head>
+     <p xml:id="para_6_288_246">
+      FAITS IMPORTANTS DORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
+     </p>
      <div n="001" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_17">§ 17. SUR L'INDUSTRIE DES GANTS A SAIN-IUNIEN</head>
-       <p xml:id="para_6_288_250"><pb facs="#facs_292" n="288" source="lesouvriersdesde916sociuoft_0314.xml"/> Saint-Junien étendait au loin sa réputaution, avant que Niort, Milhau, Lunéville eussent aucune manufacture ; tout aussi bien que Grenoble, il pouvait reverdiquer l'honneur de fournir de gants « la ville et la cour n. Sans rechercher si cette industrie a été importée par les Arabes en Li¬mousin ou si elle fleurit à Saint-unien depuis les visites de Louis XI, on peut affirmer qu'elle existait quand Jeanne d'Albret était vicomtesse de la province. Voiture, MPe de Sévigné même en parlent dans leurs lettres.</p>
-       <p xml:id="para_6_288_251">Au XVII° iècle, le commerce des gants ne se développa guère : la dif¬ficulté des communications et l'esprit peu hasardeux des anciens maîtres ont du nécessairement restreindre la fabrication. En 1688, il y avauit sur la route de Limoges un bureau des Traites foraines ou les fermiers de la gabelle rançonnaient les cuirs et autres marchandises du Limou¬sin. Plus tard, le droit général que percevait la régie causa de notables préjudices au commerce de la petite ville.</p>
-       <p xml:id="para_6_288_252">L'établissement et la chute du papier-monnaie faillirent lui porter un coup mortel, il y eut un arrêt de dix ans dans le travail de la gan¬terie. Il reprit avec l'Empire.</p>
-       <p xml:id="para_6_288_253">En 1804, la commune de Saint-Junien comptuit 5,395 individus et 1,079 feux.</p>
-       <p xml:id="para_6_288_254">Les moulins à papier de paille étaient au nombre de deux (surla Glane, dont les eaux granitiques auraient, aux yeux des spécialistes, une vertu particulière). Ce fut, d'ailleurs, plus tard que l'industrie du papier de paille se développa.</p>
-       <p xml:id="para_6_289_255"><pb facs="#facs_293" n="289" source="lesouvriersdesde916sociuoft_0315.xml"/> Les tanneries, fort déclinées de leur situation antérieure à la Révolu¬tion, y étaient encore au nombre de sept sur les quarante-deux du dé¬partoment de la Haute-Vienne.</p>
-       <p xml:id="para_6_289_256">La ganterie, enfin, diminuée elle aussi par la periode révolutionnaire, était néanmoins la plus florissante des industries locaules. On comptait trente-six patrons gantiers occupant 130 couturières ; leur production était estimée a 12,000 paires de gants par an. Le chiffre d'affaires de 132,000ᶠ correspondait à 3,600 douzaines de peauux diverses (667 de che¬vreaux, 2,333 d'agneaux, 600 de moutons). Les gantiers étaient en même temps mégissiers et préparaient eux-mêmes les peaux dont ils faisaient usage.</p>
-       <p xml:id="para_6_289_257">Les débouchés étaient surtout Paris, Lyon, Bordeaux, Angoulême, Saintes, La Rochelle. On avait perdu le débouché américain qui existait avant 1793.</p>
-       <p xml:id="para_6_289_258">Ce ne fut qu'aprês 1833 que la fabrication prit un sérieux développe¬ment ; à cette époque, elle représentait une valeur de 149,000ᶠ. En 1844, elle s'élevait a 250,000ᶠ. En 1860, on confectionnait à Saint-Junien 53,000 douzaines de paires de gants : valeur moyenne, 900,000ᶠ, aux¬quels on peut ajouter le produit de la vente des peaux d'agneaux, des laines, de la colle et des débris, qu'on peut évaluer à 200,000ᶠ, ce qui porte le chifre d'affaires à 1,100,000ᶠ. La progression était remar¬quable, elle s'accentua avec le mouvement commercial qui bouleversa le monde du travail.</p>
-       <p xml:id="para_6_289_259">Actuellement, en 1904, il y a à Saint-Junien 28 abriques, grandes ou petites, faisant en moyenne pour 120,000ᶠ d'affaires, soit ensemble 3,360,000ᶠ. Elles occupent 800 ouvriers tant à domicile qu'en atelier.</p>
-       <p xml:id="para_6_289_260">Les tanneries se sont transformées et ont fait place aux mégisseries, qui non seulement préparent les peaux nécessaires à Saint-Junien, mais travaillent pour l'étranger : l'Angleterre, l'Amérique, la Russie. Les moulins à papiers de paille ont pris aussi un immense développement, ils occupent un millier d'ouvriers sur les 6,200 qui sont attachés aux di¬verses industries de Saint-Junien, dont la population totale atteint 11,132 individus.</p>
-       <p xml:id="para_6_289_261">Dans l'ensemble de l'industrie gantière et même à ne considérer que la fabrication du gant de peau, Saint-Junien n'occupe qu'une situaution assez modeste<note type="bp">
+       <head type="sub_sub_section" xml:id="part_03_01_17">
+        § 17. SUR L'INDUSTRIE DES GANTS A SAIN-IUNIEN
+       </head>
+       <p xml:id="para_6_288_250">
+        <pb facs="#facs_292" n="288" source="lesouvriersdesde916sociuoft_0314.xml"/> Saint-Junien étendait au loin sa réputaution, avant que Niort, Milhau, Lunéville eussent aucune manufacture ; tout aussi bien que Grenoble, il pouvait reverdiquer l'honneur de fournir de gants « la ville et la cour n. Sans rechercher si cette industrie a été importée par les Arabes en Li¬mousin ou si elle fleurit à Saint-unien depuis les visites de Louis XI, on peut affirmer qu'elle existait quand Jeanne d'Albret était vicomtesse de la province. Voiture, MPe de Sévigné même en parlent dans leurs lettres.
+       </p>
+       <p xml:id="para_6_288_251">
+        Au XVII° iècle, le commerce des gants ne se développa guère : la dif¬ficulté des communications et l'esprit peu hasardeux des anciens maîtres ont du nécessairement restreindre la fabrication. En 1688, il y avauit sur la route de Limoges un bureau des Traites foraines ou les fermiers de la gabelle rançonnaient les cuirs et autres marchandises du Limou¬sin. Plus tard, le droit général que percevait la régie causa de notables préjudices au commerce de la petite ville.
+       </p>
+       <p xml:id="para_6_288_252">
+        L'établissement et la chute du papier-monnaie faillirent lui porter un coup mortel, il y eut un arrêt de dix ans dans le travail de la gan¬terie. Il reprit avec l'Empire.
+       </p>
+       <p xml:id="para_6_288_253">
+        En 1804, la commune de Saint-Junien comptuit 5,395 individus et 1,079 feux.
+       </p>
+       <p xml:id="para_6_288_254">
+        Les moulins à papier de paille étaient au nombre de deux (surla Glane, dont les eaux granitiques auraient, aux yeux des spécialistes, une vertu particulière). Ce fut, d'ailleurs, plus tard que l'industrie du papier de paille se développa.
+       </p>
+       <p xml:id="para_6_289_255">
+        <pb facs="#facs_293" n="289" source="lesouvriersdesde916sociuoft_0315.xml"/> Les tanneries, fort déclinées de leur situation antérieure à la Révolu¬tion, y étaient encore au nombre de sept sur les quarante-deux du dé¬partoment de la Haute-Vienne.
+       </p>
+       <p xml:id="para_6_289_256">
+        La ganterie, enfin, diminuée elle aussi par la periode révolutionnaire, était néanmoins la plus florissante des industries locaules. On comptait trente-six patrons gantiers occupant 130 couturières ; leur production était estimée a 12,000 paires de gants par an. Le chiffre d'affaires de 132,000ᶠ correspondait à 3,600 douzaines de peauux diverses (667 de che¬vreaux, 2,333 d'agneaux, 600 de moutons). Les gantiers étaient en même temps mégissiers et préparaient eux-mêmes les peaux dont ils faisaient usage.
+       </p>
+       <p xml:id="para_6_289_257">
+        Les débouchés étaient surtout Paris, Lyon, Bordeaux, Angoulême, Saintes, La Rochelle. On avait perdu le débouché américain qui existait avant 1793.
+       </p>
+       <p xml:id="para_6_289_258">
+        Ce ne fut qu'aprês 1833 que la fabrication prit un sérieux développe¬ment ; à cette époque, elle représentait une valeur de 149,000ᶠ. En 1844, elle s'élevait a 250,000ᶠ. En 1860, on confectionnait à Saint-Junien 53,000 douzaines de paires de gants : valeur moyenne, 900,000ᶠ, aux¬quels on peut ajouter le produit de la vente des peaux d'agneaux, des laines, de la colle et des débris, qu'on peut évaluer à 200,000ᶠ, ce qui porte le chifre d'affaires à 1,100,000ᶠ. La progression était remar¬quable, elle s'accentua avec le mouvement commercial qui bouleversa le monde du travail.
+       </p>
+       <p xml:id="para_6_289_259">
+        Actuellement, en 1904, il y a à Saint-Junien 28 abriques, grandes ou petites, faisant en moyenne pour 120,000ᶠ d'affaires, soit ensemble 3,360,000ᶠ. Elles occupent 800 ouvriers tant à domicile qu'en atelier.
+       </p>
+       <p xml:id="para_6_289_260">
+        Les tanneries se sont transformées et ont fait place aux mégisseries, qui non seulement préparent les peaux nécessaires à Saint-Junien, mais travaillent pour l'étranger : l'Angleterre, l'Amérique, la Russie. Les moulins à papiers de paille ont pris aussi un immense développement, ils occupent un millier d'ouvriers sur les 6,200 qui sont attachés aux di¬verses industries de Saint-Junien, dont la population totale atteint 11,132 individus.
+       </p>
+       <p xml:id="para_6_289_261">
+        Dans l'ensemble de l'industrie gantière et même à ne considérer que la fabrication du gant de peau, Saint-Junien n'occupe qu'une situaution assez modeste
+        <note type="bp">
          <p>
-          <ref target="#ID-055a" type="renvoi_int_od2m">V. la Monographie du Gantier de Grenoble, par M. de Toytot, surtout les §§ 19 à 2l. (Ouvriers des ˉDeux Mondes, 2ᵉ série, t. Iᵉʳ, p. 502 et suiv.)</ref>
+          <ref target="#ID-055a" type="renvoi_int_od2m">
+           V. la Monographie du Gantier de Grenoble, par M. de Toytot, surtout les §§ 19 à 2l. (Ouvriers des ˉDeux Mondes, 2ᵉ série, t. Iᵉʳ, p. 502 et suiv.)
+          </ref>
          </p>
-        </note>.</p>
-       <p xml:id="para_6_290_264"><pb facs="#facs_294" n="290" source="lesouvriersdesde916sociuoft_0316.xml"/> D'après le recensement professionnel de 1896, il y avait en France 260 ́taublissements de gantiers avec un personnel de 20,600 individus. 225 de ces fabriques occupaient de 5 à 50 ouvriers, et 34 en avaient de 51 a 500.</p>
-       <p xml:id="para_6_290_265">Les trois points où se rencontrent le plus de ganteries de peau étaient : l'sère, la Haute-Marne et l'Aveyron.</p>
-       <p xml:id="para_6_290_266">La plus importante des usines est celle de la Haute-Marne, dont le personnel est de 1,037 ouvriers. Les hommes 5 gagnent de 2ᶠ 25 1 5ᶠ25. Les femmes de 1ᶠ 25a 2ᶠ 50.</p>
-       <p xml:id="para_6_290_267">Dans l'Isère, deux usines ont : l'une 272 ouvriers (40 chevaux-vapeur); l'autre 354 ouvriers (5 chevaux-vapeur).</p>
-       <p xml:id="para_6_290_268">Dans l'Aveyron, une fabrique collective occupe 19 personnes en ate¬lier et, à domicile : 69 gantiers, 47 couseuses, 14 brodeuses, 2I ouvrières diverses, en tout 157 personnes.</p>
-       <p xml:id="para_6_290_269">Notons encore, dans le Pas-de-Calais, 81 ouvriers ; dans la Seine-et¬Oise, 61 ; dans le Loir-et-Cher, 27.</p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_6_290_264">
+        <pb facs="#facs_294" n="290" source="lesouvriersdesde916sociuoft_0316.xml"/> D'après le recensement professionnel de 1896, il y avait en France 260 ́taublissements de gantiers avec un personnel de 20,600 individus. 225 de ces fabriques occupaient de 5 à 50 ouvriers, et 34 en avaient de 51 a 500.
+       </p>
+       <p xml:id="para_6_290_265">
+        Les trois points où se rencontrent le plus de ganteries de peau étaient : l'sère, la Haute-Marne et l'Aveyron.
+       </p>
+       <p xml:id="para_6_290_266">
+        La plus importante des usines est celle de la Haute-Marne, dont le personnel est de 1,037 ouvriers. Les hommes 5 gagnent de 2ᶠ 25 1 5ᶠ25. Les femmes de 1ᶠ 25a 2ᶠ 50.
+       </p>
+       <p xml:id="para_6_290_267">
+        Dans l'Isère, deux usines ont : l'une 272 ouvriers (40 chevaux-vapeur); l'autre 354 ouvriers (5 chevaux-vapeur).
+       </p>
+       <p xml:id="para_6_290_268">
+        Dans l'Aveyron, une fabrique collective occupe 19 personnes en ate¬lier et, à domicile : 69 gantiers, 47 couseuses, 14 brodeuses, 2I ouvrières diverses, en tout 157 personnes.
+       </p>
+       <p xml:id="para_6_290_269">
+        Notons encore, dans le Pas-de-Calais, 81 ouvriers ; dans la Seine-et¬Oise, 61 ; dans le Loir-et-Cher, 27.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_18">§ 18. SUR L'ORGANISATION DE LA GANTERIE EN FABRIQUE COLLECTIVE</head>
-       <p xml:id="para_6_290_272">La confection des gants était, à l'origine, l'œuvre de petits ateliers de trois ou quatre travailleurs traitant directement avec les clients, gros marchands ; mais il a fallu concentrer ses forces pour lutter contre la concurrence moderne, le nombre des ateliers a diminué et leurs rouages ont grossi ; ils sont devenus de puissants intermédiaires entre les ou¬vriers et ouvrières disséminés dans les plus pauvres quartiers de Saint¬Junien et les grands magasins. Plusieurs d'entre eux ont leur maison d'écoulement à Limoges, où la vente est plus savamment combinée que sur place ; la plupart ne font travailler que pour le Louvre et le Bon Marché.</p>
-       <p xml:id="para_6_290_273">Les centres d'où part ce mouvement de circulation sont vraiment in¬téressants à étudier comme préparateurs, distributeurs et receveurs du travail qui se fait au dehors et qu'ils refusent ou acceptent ; comme exé¬cuteurs aussi, car chaque maison a quelques ouvriers à demeure pour répondre aux commandes pressantes.</p>
-       <p xml:id="para_6_290_274">La maison Tardiff semble un type complet du genre et peut-être le <pb facs="#facs_295" n="291" source="lesouvriersdesde916sociuoft_0317.xml"/> plus rapproché de la forme primitive, car elle n'a pris que juste l'ac¬croissement indispensable aux conditions nouvelles de son fonctionne¬ment. C'est pour elle que travaillent les ouvrières étudiées dans cette monographie. La préparation des peaux nécessite plusieurs opérations qui, la plupart, sont exécutées ordinairement dans les mégisseries. La maison Tardi fait tout par elle-même.</p>
-       <p xml:id="para_6_291_276">Pénétrons d'abord dans la salle de nourrissage . Les peaux sont abandonnées ving-quatre heures dans un bain de jaune d'œuf (24 pour 36 peaux), de farine et de sel ; elles y acquièrent une grande souplesse, les pores reprennent l'aspect qu'ils avaient sur l'animal vivant : c'est ce qu'on appelle « la fleur, le côté « chair » s'engorge de matières dont il va être débarrassé dans les opérations suivantes.</p>
-       <p xml:id="para_6_291_277">On lave ensuite à grande eau et l'on fait sécher douze heures dans une</p>
-       <p xml:id="para_6_291_278">Il faut alors procéder au triage, car il serait inutile de soumettre aux épreuves du palissonnage n et de la teinture les peaux qui manquent de solidité.</p>
-       <p xml:id="para_6_291_279">Près de la salle du triage, travaillent les s palissonneurs, qui ont la plus rude besogne. Toujours debout, penchés sur un racloir fixé au sol et s'élevant à une hauteur de 060 à peu près, ils frottent vivement le côté  chair des peaux sur l'instrument tranchant, tandis que la « feur n n'est jamais en contact qu'avec la jambe nue de l'opérateur : nulle éraflure n'est donc a redouter ; le « palissonneur » porte un pan¬talon dont la partie antérieure du côté droit est coupée au-dessus du genou.</p>
-       <p xml:id="para_6_291_280">Ces ouvriers travaillent a la tache et se font de 5 à 6ᶠ par jour,</p>
-       <p xml:id="para_6_291_281">Vient ensuite la teinture. Sur de larges tables de inc, les peaux sont, à l'aide d'une éponge, imprégnées d'urine et de couleur. Rien, parait-il, ne peut remplacer ce liquide pour la préparation immédiate a la tein¬ture. Un fixatif à base de sulfate de cuivre ou de fer détruit ensuite tout microbe.</p>
-       <p xml:id="para_6_291_282">Les peaux une fois préparées sont distribuées aux petits patrons ou aux divers services.</p>
-       <p xml:id="para_6_291_283">Les doleurs n, qui tous travaillent à domicile, viennent chercher la matière à ouvrer ; il est tenu un compte très exact des peaux qui leur sont confiées et du nombre de gants qu'on peut en faire ; ce qu'ils dété¬riorent reste à leur charge.</p>
-       <p xml:id="para_6_291_284">La tâche qui leur incombe est le complément du travail du s palis¬sonneur : ils raclent les peaux sur des tables de marbre pour faire <pb facs="#facs_296" n="292" source="lesouvriersdesde916sociuoft_0318.xml"/> disparaitre les dernières rugosités de la chair et donner le plus ou moins d'épaisseur.</p>
-       <p xml:id="para_6_292_286">Beaucoup de doleurs sont aussi coupeurs, quelques-uns font coudre le gant à leurs frais et le rendent ensuite au patron ; d'autres se passent d'intermédiaires et n'ont d'autres rapports avec la fabrique que ceux né¬cessités par l'achat des peaux, ils sont de moins en moins nombreux. La plupart rapportent les peaux dolées à l'atelier de coupure de la malson Tardifi, qui les taille et les confie ensuite aux ouvrières du dehors.</p>
-       <p xml:id="para_6_292_287">Celles-ci doivent se présenter à certaines heures, prévues par un règle¬ment qui est atfiché à la porte de la fabrique ; on leur remet un stoel de gants coupés plus ou moins consdérable suivant leurs capacités et la a marche » actuelle du travail. On leur donue aussi le fil et, s'il y a lieu, les boutons assortis.</p>
-       <p xml:id="para_6_292_288">L'ouvrage est ainsi confié pour un laps de temps déterminé, l'ouvrière doit le rapporter au jour et à l'heure fixés pour qu'il soit soumis au con¬trôle, puis elle reçoit son salaire, 1ᶠ 50 par douzaine de gants cousus, plus 0ᶠ 90 pour les boutonnières si elle en a été chargée.</p>
-       <p xml:id="para_6_292_289">Quand la couture est irrégulière, l'ouvrage légèrement sali, elle subit une amende. Il en est de même lorsqu'elle ne se présente pas à lheure du contrôle.</p>
-       <p xml:id="para_6_292_290">Il y a dix ou quinze ans, toutes les paysannes de la banlieue s'occu¬paient l'hiver à la couture des gants, mais les règlements et la baisse des prix due à l'emploi des machines leur ont fait abandonner cette indus¬</p>
-       <p xml:id="para_6_292_291">En dehors du travail de préparation signalé plus haut, la participation du patron à la confection des gants est fort restreinte. Une machine à emporte-pièce lui sert à découper les peaux suivant les pointures<note type="bp">
-         <p>Un coupeur de fabrique gagne 3ᶠ par jour : celui qui travaille à son compte et distribue l'ouvrage de couture peut se fairae 4ᶠ 25, mais il court plus de risques.</p>
-        </note>, un ouvrier spécial marque les boutonnières et les nervures, des fillettes as¬sortissent les paires avec les pouces et les fourchettes qui leur convien¬nent et recoupent les bavures. Pour compléter l'atelier, citons encore quelques couturières, une brodeuse, une faiseuse de boutonnières, une placeuse de boutons à pression, une dresseuse qui donne aux gants un dernier glace en les passant à la brosse circulaire de velours, enfin une plieuse payée à 0ᶠ 75 de la douzaine.</p>
-       <p xml:id="para_6_292_292">Les ouvrières de fabrique peuvent emporter chez elles du travail pour <pb facs="#facs_297" n="293" source="lesouvriersdesde916sociuoft_0319.xml"/> la soirée ; c'est ainsi que les « petites mains font des gants fourrés et gagnent un supplement d'une quinzaine de francs par mois. Ce travail leur est exclusivement réservé, on ne le confle pas aux ouvrières du dehors.</p>
+       <head type="sub_sub_section" xml:id="part_03_01_18">
+        § 18. SUR L'ORGANISATION DE LA GANTERIE EN FABRIQUE COLLECTIVE
+       </head>
+       <p xml:id="para_6_290_272">
+        La confection des gants était, à l'origine, l'œuvre de petits ateliers de trois ou quatre travailleurs traitant directement avec les clients, gros marchands ; mais il a fallu concentrer ses forces pour lutter contre la concurrence moderne, le nombre des ateliers a diminué et leurs rouages ont grossi ; ils sont devenus de puissants intermédiaires entre les ou¬vriers et ouvrières disséminés dans les plus pauvres quartiers de Saint¬Junien et les grands magasins. Plusieurs d'entre eux ont leur maison d'écoulement à Limoges, où la vente est plus savamment combinée que sur place ; la plupart ne font travailler que pour le Louvre et le Bon Marché.
+       </p>
+       <p xml:id="para_6_290_273">
+        Les centres d'où part ce mouvement de circulation sont vraiment in¬téressants à étudier comme préparateurs, distributeurs et receveurs du travail qui se fait au dehors et qu'ils refusent ou acceptent ; comme exé¬cuteurs aussi, car chaque maison a quelques ouvriers à demeure pour répondre aux commandes pressantes.
+       </p>
+       <p xml:id="para_6_290_274">
+        La maison Tardiff semble un type complet du genre et peut-être le <pb facs="#facs_295" n="291" source="lesouvriersdesde916sociuoft_0317.xml"/> plus rapproché de la forme primitive, car elle n'a pris que juste l'ac¬croissement indispensable aux conditions nouvelles de son fonctionne¬ment. C'est pour elle que travaillent les ouvrières étudiées dans cette monographie. La préparation des peaux nécessite plusieurs opérations qui, la plupart, sont exécutées ordinairement dans les mégisseries. La maison Tardi fait tout par elle-même.
+       </p>
+       <p xml:id="para_6_291_276">
+        Pénétrons d'abord dans la salle de nourrissage . Les peaux sont abandonnées ving-quatre heures dans un bain de jaune d'œuf (24 pour 36 peaux), de farine et de sel ; elles y acquièrent une grande souplesse, les pores reprennent l'aspect qu'ils avaient sur l'animal vivant : c'est ce qu'on appelle « la fleur, le côté « chair » s'engorge de matières dont il va être débarrassé dans les opérations suivantes.
+       </p>
+       <p xml:id="para_6_291_277">
+        On lave ensuite à grande eau et l'on fait sécher douze heures dans une
+       </p>
+       <p xml:id="para_6_291_278">
+        Il faut alors procéder au triage, car il serait inutile de soumettre aux épreuves du palissonnage n et de la teinture les peaux qui manquent de solidité.
+       </p>
+       <p xml:id="para_6_291_279">
+        Près de la salle du triage, travaillent les s palissonneurs, qui ont la plus rude besogne. Toujours debout, penchés sur un racloir fixé au sol et s'élevant à une hauteur de 060 à peu près, ils frottent vivement le côté  chair des peaux sur l'instrument tranchant, tandis que la « feur n n'est jamais en contact qu'avec la jambe nue de l'opérateur : nulle éraflure n'est donc a redouter ; le « palissonneur » porte un pan¬talon dont la partie antérieure du côté droit est coupée au-dessus du genou.
+       </p>
+       <p xml:id="para_6_291_280">
+        Ces ouvriers travaillent a la tache et se font de 5 à 6ᶠ par jour,
+       </p>
+       <p xml:id="para_6_291_281">
+        Vient ensuite la teinture. Sur de larges tables de inc, les peaux sont, à l'aide d'une éponge, imprégnées d'urine et de couleur. Rien, parait-il, ne peut remplacer ce liquide pour la préparation immédiate a la tein¬ture. Un fixatif à base de sulfate de cuivre ou de fer détruit ensuite tout microbe.
+       </p>
+       <p xml:id="para_6_291_282">
+        Les peaux une fois préparées sont distribuées aux petits patrons ou aux divers services.
+       </p>
+       <p xml:id="para_6_291_283">
+        Les doleurs n, qui tous travaillent à domicile, viennent chercher la matière à ouvrer ; il est tenu un compte très exact des peaux qui leur sont confiées et du nombre de gants qu'on peut en faire ; ce qu'ils dété¬riorent reste à leur charge.
+       </p>
+       <p xml:id="para_6_291_284">
+        La tâche qui leur incombe est le complément du travail du s palis¬sonneur : ils raclent les peaux sur des tables de marbre pour faire <pb facs="#facs_296" n="292" source="lesouvriersdesde916sociuoft_0318.xml"/> disparaitre les dernières rugosités de la chair et donner le plus ou moins d'épaisseur.
+       </p>
+       <p xml:id="para_6_292_286">
+        Beaucoup de doleurs sont aussi coupeurs, quelques-uns font coudre le gant à leurs frais et le rendent ensuite au patron ; d'autres se passent d'intermédiaires et n'ont d'autres rapports avec la fabrique que ceux né¬cessités par l'achat des peaux, ils sont de moins en moins nombreux. La plupart rapportent les peaux dolées à l'atelier de coupure de la malson Tardifi, qui les taille et les confie ensuite aux ouvrières du dehors.
+       </p>
+       <p xml:id="para_6_292_287">
+        Celles-ci doivent se présenter à certaines heures, prévues par un règle¬ment qui est atfiché à la porte de la fabrique ; on leur remet un stoel de gants coupés plus ou moins consdérable suivant leurs capacités et la a marche » actuelle du travail. On leur donue aussi le fil et, s'il y a lieu, les boutons assortis.
+       </p>
+       <p xml:id="para_6_292_288">
+        L'ouvrage est ainsi confié pour un laps de temps déterminé, l'ouvrière doit le rapporter au jour et à l'heure fixés pour qu'il soit soumis au con¬trôle, puis elle reçoit son salaire, 1ᶠ 50 par douzaine de gants cousus, plus 0ᶠ 90 pour les boutonnières si elle en a été chargée.
+       </p>
+       <p xml:id="para_6_292_289">
+        Quand la couture est irrégulière, l'ouvrage légèrement sali, elle subit une amende. Il en est de même lorsqu'elle ne se présente pas à lheure du contrôle.
+       </p>
+       <p xml:id="para_6_292_290">
+        Il y a dix ou quinze ans, toutes les paysannes de la banlieue s'occu¬paient l'hiver à la couture des gants, mais les règlements et la baisse des prix due à l'emploi des machines leur ont fait abandonner cette indus¬
+       </p>
+       <p xml:id="para_6_292_291">
+        En dehors du travail de préparation signalé plus haut, la participation du patron à la confection des gants est fort restreinte. Une machine à emporte-pièce lui sert à découper les peaux suivant les pointures
+        <note type="bp">
+         <p>
+          Un coupeur de fabrique gagne 3ᶠ par jour : celui qui travaille à son compte et distribue l'ouvrage de couture peut se fairae 4ᶠ 25, mais il court plus de risques.
+         </p>
+        </note>
+        , un ouvrier spécial marque les boutonnières et les nervures, des fillettes as¬sortissent les paires avec les pouces et les fourchettes qui leur convien¬nent et recoupent les bavures. Pour compléter l'atelier, citons encore quelques couturières, une brodeuse, une faiseuse de boutonnières, une placeuse de boutons à pression, une dresseuse qui donne aux gants un dernier glace en les passant à la brosse circulaire de velours, enfin une plieuse payée à 0ᶠ 75 de la douzaine.
+       </p>
+       <p xml:id="para_6_292_292">
+        Les ouvrières de fabrique peuvent emporter chez elles du travail pour <pb facs="#facs_297" n="293" source="lesouvriersdesde916sociuoft_0319.xml"/> la soirée ; c'est ainsi que les « petites mains font des gants fourrés et gagnent un supplement d'une quinzaine de francs par mois. Ce travail leur est exclusivement réservé, on ne le confle pas aux ouvrières du dehors.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_19">§ 19. SUR LA PEAUSSERIE ET LA MÉGISSERIE A SAINT-IUNIEN</head>
+       <head type="sub_sub_section" xml:id="part_03_01_19">
+        § 19. SUR LA PEAUSSERIE ET LA MÉGISSERIE A SAINT-IUNIEN
+       </head>
        <p xml:id="para_6_293_297">
-        'andis que les gantiers de Grenoble demandent à Annonay toutes les peaux mégies dont ils ont besoin, Saint-Junien les a toujours préparées sur place ; actuellement même, la mégisserie y a plus d'importance que la ganterie.</p>
-       <p xml:id="para_6_293_298">Les usines Raymond Dumas et Deslas emploient chacune près de trois cents ouvriers avec un outillage perfectionné. Les peaux viennent de l'étranger, de l'Espagne pour la plupart ; elles sont exportées en Angle¬terre, en Amérique, en Russie ; les ganteries françaises en demandent peu et les. gants de Saint-Junien sont presque tous faits avec des peaux dites d'agneaux du pays, tirées des départements du sud-ouest. Les peaux d'agneauux de Bordeaux sont à coup sûr la première qualité de FTrance pour la force, le nerf et la taille. Celles de Limoges sont plus moelleuses, plus fines, plus brillantes ; elles ressemblent à s'y méprendre ù l'agneau de Turin et donnent d'excellents gants, facon chevreau . Mais la race ovine est si mal soignée dans les bergeries limousines, le bétail pait si souvent dans des lieux humides et malsains que les peaux présentent fréquemment des taches, des durillons, appelés « arcin n ; elles sont en outre très faibles et il faut n'employer que le premier choix.</p>
-       <p xml:id="para_6_293_299">Les achats se traitent à la douaaine, 13 ou 18ᶠ pour les plus belles, et au demi-lilo de 3 4ᶠ 50 pour celles d'agneaux du pays. Ces dernières, une fois débourrées, sont si faibles que souvent on ne peut en retirer que de la colle qui est vendue aux papeteries de Saillat.</p>
-       <p xml:id="para_6_293_300">Au sortir des magasins de réserve où les peaux brutes se conservent gràce aux antiseptiques, alles sont laissées dix-huit heures dans un bain de chaux, puis rincées fortement et débourrées, c'est-à-dire débarrassées de la laine qui leur est encore adhérente, mais qui se détache facilement après le bain de chaux. Elles passent ensuite dans plusieurs cylindres animés d'un mouvement de rotation. Puis frottées sur un plan incliné et lavées comme le feraient les lavandiêres à la riviêre, elles sont ensuite</p>
-       <p xml:id="para_6_293_301">29. <pb facs="#facs_298" n="294" source="lesouvriersdesde916sociuoft_0320.xml"/> assouplies avec de la crotte de chien » et « nourries » dans de grandes cuves où se produit un commencement de fermentation avec dégage¬ment de chaleur, elles sont rincées de nouveauu et séchées à l'aide d'un système de ventilation très ingénieux. Elles présentent alors l'aspect d'une étofe d'une éclatante blancheur, mais très raide, la souplesse va leur être rendue dans une grande roue fermée où elles sont battues par de larges palette. Les palissonneurs s'en emparent ensuite (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>).</p>
-       <p xml:id="para_6_294_303">Des procédés diférents de palissonnage permettent de « truquer et de donner la façon Suède à des peaux ordinaires, ou la façon « tan¬née » à des peauux simplement mégissées. Les gants dits de peau de chien proviennent également d'un tour de métier.</p>
-       <p xml:id="para_6_294_304">Pour répondre aux besoins de la mégisserie, il est un commerce asse peu ordinaire, celui de la crotte de chien »», d'un grand usage pour assouplir ou dégraisser les peaux. Mélangée d'eau et chauffée pendant plusieurs heures, elle prend le nom savoureux de « confit n et forme une masse compacte qu'on filtre avec soin, pour y plonger les peux fnes. C'est cela qui leur donne le velouté cher aux élégantes.</p>
-       <p xml:id="para_6_294_305">Dix lilos de cette matière première peuvent nettoyer cent peaux et sont vendus 1ᶠ50, i1 n'y a pas de quoi ruiner l'industriel ni enrichir le ramasseur.</p>
+        'andis que les gantiers de Grenoble demandent à Annonay toutes les peaux mégies dont ils ont besoin, Saint-Junien les a toujours préparées sur place ; actuellement même, la mégisserie y a plus d'importance que la ganterie.
+       </p>
+       <p xml:id="para_6_293_298">
+        Les usines Raymond Dumas et Deslas emploient chacune près de trois cents ouvriers avec un outillage perfectionné. Les peaux viennent de l'étranger, de l'Espagne pour la plupart ; elles sont exportées en Angle¬terre, en Amérique, en Russie ; les ganteries françaises en demandent peu et les. gants de Saint-Junien sont presque tous faits avec des peaux dites d'agneaux du pays, tirées des départements du sud-ouest. Les peaux d'agneauux de Bordeaux sont à coup sûr la première qualité de FTrance pour la force, le nerf et la taille. Celles de Limoges sont plus moelleuses, plus fines, plus brillantes ; elles ressemblent à s'y méprendre ù l'agneau de Turin et donnent d'excellents gants, facon chevreau . Mais la race ovine est si mal soignée dans les bergeries limousines, le bétail pait si souvent dans des lieux humides et malsains que les peaux présentent fréquemment des taches, des durillons, appelés « arcin n ; elles sont en outre très faibles et il faut n'employer que le premier choix.
+       </p>
+       <p xml:id="para_6_293_299">
+        Les achats se traitent à la douaaine, 13 ou 18ᶠ pour les plus belles, et au demi-lilo de 3 4ᶠ 50 pour celles d'agneaux du pays. Ces dernières, une fois débourrées, sont si faibles que souvent on ne peut en retirer que de la colle qui est vendue aux papeteries de Saillat.
+       </p>
+       <p xml:id="para_6_293_300">
+        Au sortir des magasins de réserve où les peaux brutes se conservent gràce aux antiseptiques, alles sont laissées dix-huit heures dans un bain de chaux, puis rincées fortement et débourrées, c'est-à-dire débarrassées de la laine qui leur est encore adhérente, mais qui se détache facilement après le bain de chaux. Elles passent ensuite dans plusieurs cylindres animés d'un mouvement de rotation. Puis frottées sur un plan incliné et lavées comme le feraient les lavandiêres à la riviêre, elles sont ensuite
+       </p>
+       <p xml:id="para_6_293_301">
+        29. <pb facs="#facs_298" n="294" source="lesouvriersdesde916sociuoft_0320.xml"/> assouplies avec de la crotte de chien » et « nourries » dans de grandes cuves où se produit un commencement de fermentation avec dégage¬ment de chaleur, elles sont rincées de nouveauu et séchées à l'aide d'un système de ventilation très ingénieux. Elles présentent alors l'aspect d'une étofe d'une éclatante blancheur, mais très raide, la souplesse va leur être rendue dans une grande roue fermée où elles sont battues par de larges palette. Les palissonneurs s'en emparent ensuite
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         (§ 17)
+        </ref>
+        .
+       </p>
+       <p xml:id="para_6_294_303">
+        Des procédés diférents de palissonnage permettent de « truquer et de donner la façon Suède à des peaux ordinaires, ou la façon « tan¬née » à des peauux simplement mégissées. Les gants dits de peau de chien proviennent également d'un tour de métier.
+       </p>
+       <p xml:id="para_6_294_304">
+        Pour répondre aux besoins de la mégisserie, il est un commerce asse peu ordinaire, celui de la crotte de chien »», d'un grand usage pour assouplir ou dégraisser les peaux. Mélangée d'eau et chauffée pendant plusieurs heures, elle prend le nom savoureux de « confit n et forme une masse compacte qu'on filtre avec soin, pour y plonger les peux fnes. C'est cela qui leur donne le velouté cher aux élégantes.
+       </p>
+       <p xml:id="para_6_294_305">
+        Dix lilos de cette matière première peuvent nettoyer cent peaux et sont vendus 1ᶠ50, i1 n'y a pas de quoi ruiner l'industriel ni enrichir le ramasseur.
+       </p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_20">§ 20. SUR LA CONDITION SOCIALE DES OUVRIERS DE SAINT-IUNIEN</head>
-       <p xml:id="para_6_294_308">Le travail qui garde la jeune fille au foyer et lui conserve la possibi¬1ité et l'habitude des occupations domestiques, est évidemment plus sain et plus moralisateur que celui qui l'entraine vers les grandes agglomé¬rations ouvrières. Elle le continuera, jeune épouse, jeune mère, sans quitter sa maison, sans négliger ses devoirs essentiels, et il apnportera un complément de bien-être ou l'appoint nécessaire à la vie commune. Tel est l'immense avantage de l'industrie qui nous occupe, et pourtant un changement est réclamé qui substituerait l'asservissement du sejour à l'usine à l'indépendance actuelle, tous les ouvriers seraient payés à la journée et non plus à la tàche. Il est vrai que tous les petits patrons seraient ruinés, et c'est ce que désirent les ouvriers, qui ne comprennent pas que tout petit atelier qui se ferme, c'est un grade patronal de <pb facs="#facs_299" n="295" source="lesouvriersdesde916sociuoft_0321.xml"/> moins pour les légitimes ambitions des collaborateurs de second rang<note type="bp">
-         <p>M. du Marousseom, Question ouvrière.</p>
-        </note>. »</p>
-       <p xml:id="para_6_295_310">L'imprévoyance, l'absence d'épargne, la vie au jour le jour qui les habitue à absorber la recette de quinaaine, condamne les ouvriers de Saint-unien à la misere, dès le premier arrêt dans le travail ; cette mi¬sère est la pàte sur laquelle travaille le levain des meneurs. Ceux-ci, utopistes ou coquins, ont choisi Saint-Junien comme une succursale de Limoges : ils s'en occupent activement, et les s pelaux », c'est le sobri¬quet des ouvriers du cuir, sont prompts à passer du programme à la bataille. La vie devient alors presque impossible à ceux qui voudraient rester du parti de l'ordre ; une persécution sournoise et parois cruelle ne cesse de les poursuivre.</p>
-       <p xml:id="para_6_295_311">Ils eurent beaucoup à soufrir pendant les grèves des deux dernières années. Il faudrait une force d'ame extraordinaire pour résister à tant d'assauts ; beaucoup, comme la famille ici décrite, se laissent aller au courant.</p>
-       <p xml:id="para_6_295_312">Dans ces milieux, il faudrait porter la propagande des idées saines avec des organisations puissantes qui permettent aux ouvriers de se ressaisir. Le grand mouvement jaune » (il commence à pénétrer à Saint-Junien) en fournira peut-être les éléments.</p>
-       <p xml:id="para_6_295_313">Une autre planche de salut est l'esprit religieux, qui a laissé une pro¬fonde empreinte. mais dont on a oublié l'origine chretienne. Le champ est en friche depui des siècles, mais « c'est le fond qui manque le moins » ; détruire la superstition, qui est l'aspect le plus commun de l'idée religieuse ici, serait dangereux ; elle est l'enveloppe solide d'une foi très obscurcie, on pourrait s'en servir en la ramenant à sa source.</p>
-       <p xml:id="para_6_295_314">Il est incontestable — l'exemple de la famille étudiée l'atteste — qu'un êle intelligent et persévérant, qui se dévouerait à éclairer et à diriger ces ignorants et ces trompés, ne resterait pas sans résultat.</p>
-       <p xml:id="para_6_295_315">Les doctrines égalitaires ont fait éclore tant d'amertume chez les souf¬frants, qu'il faut des trésors de vraie cordialité pour qu'ils absolvent la supériorité du bienfaiteur matériel ou moral.</p>
+       <head type="sub_sub_section" xml:id="part_03_01_20">
+        § 20. SUR LA CONDITION SOCIALE DES OUVRIERS DE SAINT-IUNIEN
+       </head>
+       <p xml:id="para_6_294_308">
+        Le travail qui garde la jeune fille au foyer et lui conserve la possibi¬1ité et l'habitude des occupations domestiques, est évidemment plus sain et plus moralisateur que celui qui l'entraine vers les grandes agglomé¬rations ouvrières. Elle le continuera, jeune épouse, jeune mère, sans quitter sa maison, sans négliger ses devoirs essentiels, et il apnportera un complément de bien-être ou l'appoint nécessaire à la vie commune. Tel est l'immense avantage de l'industrie qui nous occupe, et pourtant un changement est réclamé qui substituerait l'asservissement du sejour à l'usine à l'indépendance actuelle, tous les ouvriers seraient payés à la journée et non plus à la tàche. Il est vrai que tous les petits patrons seraient ruinés, et c'est ce que désirent les ouvriers, qui ne comprennent pas que tout petit atelier qui se ferme, c'est un grade patronal de <pb facs="#facs_299" n="295" source="lesouvriersdesde916sociuoft_0321.xml"/> moins pour les légitimes ambitions des collaborateurs de second rang
+        <note type="bp">
+         <p>
+          M. du Marousseom, Question ouvrière.
+         </p>
+        </note>
+        . »
+       </p>
+       <p xml:id="para_6_295_310">
+        L'imprévoyance, l'absence d'épargne, la vie au jour le jour qui les habitue à absorber la recette de quinaaine, condamne les ouvriers de Saint-unien à la misere, dès le premier arrêt dans le travail ; cette mi¬sère est la pàte sur laquelle travaille le levain des meneurs. Ceux-ci, utopistes ou coquins, ont choisi Saint-Junien comme une succursale de Limoges : ils s'en occupent activement, et les s pelaux », c'est le sobri¬quet des ouvriers du cuir, sont prompts à passer du programme à la bataille. La vie devient alors presque impossible à ceux qui voudraient rester du parti de l'ordre ; une persécution sournoise et parois cruelle ne cesse de les poursuivre.
+       </p>
+       <p xml:id="para_6_295_311">
+        Ils eurent beaucoup à soufrir pendant les grèves des deux dernières années. Il faudrait une force d'ame extraordinaire pour résister à tant d'assauts ; beaucoup, comme la famille ici décrite, se laissent aller au courant.
+       </p>
+       <p xml:id="para_6_295_312">
+        Dans ces milieux, il faudrait porter la propagande des idées saines avec des organisations puissantes qui permettent aux ouvriers de se ressaisir. Le grand mouvement jaune » (il commence à pénétrer à Saint-Junien) en fournira peut-être les éléments.
+       </p>
+       <p xml:id="para_6_295_313">
+        Une autre planche de salut est l'esprit religieux, qui a laissé une pro¬fonde empreinte. mais dont on a oublié l'origine chretienne. Le champ est en friche depui des siècles, mais « c'est le fond qui manque le moins » ; détruire la superstition, qui est l'aspect le plus commun de l'idée religieuse ici, serait dangereux ; elle est l'enveloppe solide d'une foi très obscurcie, on pourrait s'en servir en la ramenant à sa source.
+       </p>
+       <p xml:id="para_6_295_314">
+        Il est incontestable — l'exemple de la famille étudiée l'atteste — qu'un êle intelligent et persévérant, qui se dévouerait à éclairer et à diriger ces ignorants et ces trompés, ne resterait pas sans résultat.
+       </p>
+       <p xml:id="para_6_295_315">
+        Les doctrines égalitaires ont fait éclore tant d'amertume chez les souf¬frants, qu'il faut des trésors de vraie cordialité pour qu'ils absolvent la supériorité du bienfaiteur matériel ou moral.
+       </p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_21">§ 21. SUR LES CHOMAGES ET LES GRÈVES DE 1902 A 1905</head>
-       <p xml:id="para_6_296_319"><pb facs="#facs_300" n="296" source="lesouvriersdesde916sociuoft_0322.xml"/> Chaque crise à Limoges amène une convulsion à Saint-Junien, et c'est à la suite de la longue grève de l'été de 1902, au sujet du reglement de la journée de dix heures parmi les porcelainiers, que les mégissiers se sou¬levèrent le plus violemment. L'usine aymond-Dumas fut fermée pen¬dant deux mois, car les ouvriers, prétextant l'adoption d'une nouvelle machine qui remplaçait le travail de plusieurs hommes, menacaient de briser tout l'outillage. Toutes les vitres, les vérandas furent détruites, les dragons de Limoges occupèrent la ville et gardèrent les usines ; d'insi¬gnifiantes échauffourées se produisirent. Puis l'accord se fit et la reprise du travail avec diminution d'une heure et renvoi de quelques ouvriers.</p>
-       <p xml:id="para_6_296_320">La- fin de l'année 1902 fut calme à Saint-Junien et la Chambre de com¬merce de Limoges rend ainsi compte du premier semestre de 1903: « La mégisserie subit une crise qui semble devoir persister (due à la grève précédente) ; mais la ganterie a eu un travail soutenu et régulier jusqu'au mois de juin, époque de la morte- saison. La reprise sérieuse n'aura lieu qu'en septembre.  Elle fut sérieuse et donnait bon espoir : 20ᵉ/, de chômeurs contre 50ᵉ/, au mois d'août.</p>
-       <p xml:id="para_6_296_321">En décembre, la proportion est encore de 20 ᵉ.; mais à ce moment éclate une grève pour une question d'augmentation de salaire ; elle em¬brasse tous les petits ateliers de ganterie, quelques teintureries, et dure sept semaines.</p>
-       <p xml:id="para_6_296_322">Janvier 1904 accuse 15 ᵉ de chômeurs chez les ouvriers en cuirs, et 25 % chez les gantiers ; en février, 60 °, ; en mars, 50% ; en avril, la proportion descénd de 50 a 30 % dans la ganterie. Mais le 9 avril 1904, les mégissiers de deux établissements se mettent en grève pour deman¬der une diminution du temps de travail. Les patrons font droit à leur requête.</p>
-       <p xml:id="para_6_296_323">L'application de la journée (de dix heures en avril 1904 n'a pas eu pour conséquence une diminution de salaires dans ces deux mégisse¬ries ; trente-quatre adultes, qui faisaient auparavant onze heures par jour, ne font plus que dix heures avec le même salaire à la journée.</p>
-       <p xml:id="para_6_296_324">A la suite des grèves, un questionnauire fut envoyé par les préfets ; en <pb facs="#facs_301" n="297" source="lesouvriersdesde916sociuoft_0323.xml"/> ce qui concerne les cuirs et peaux, ils n'eurent de renseignements précis qu'ù Neuvic (Dordogne) et à Saint-Junien L'enquête a prouvé cependant qu'en général, dans ces industries, le nombre d'ouvriers, dont le salaire journalier moyen s'est maintenu ou a été augnmenté, est de quatre cent trente, dont deux cent cinquante femmes dans cent quatre-vingt-quatre établissements.</p>
-       <p xml:id="para_6_297_326">En mai 1904, les fabriques qui auraient du être en pleoine période d'ac¬tivité chômaient ; deux établissements occupant cent cinquante ouvriers avaient disparu depuis le 1ᵉ janvier. Il y avait manque d'ouvrage.</p>
-       <p xml:id="para_6_297_327">En juillet 1904 le chômage diminue un peu malgré la morte-saison, et parmi les deux cent cinquante syndiqués de la ganterie, il n'atteint que 15%.</p>
-       <p xml:id="para_6_297_328">C'est à cette époque qu'il est pour la première fois question des syn¬diqués dans les comptes rendus de l'Oice du travail pour Saint¬Junien.</p>
-       <p xml:id="para_6_297_329">En août, grève des ouvrières en sacs à papier pour une augmentation de saulaire ; vive effervescence ; plusieurs petites grèves de gantiers se joi¬gnent à la première. Les sachetières obtiennent satisfaction.</p>
-       <p xml:id="para_6_297_330">L'année 1905 est particulièrement fertile en grèves ; on veut imiter Limoges.</p>
-       <p xml:id="para_6_297_331">Le 8 janvier, les gaziers s'étaient mis en grève pour demander la réin¬tégration d'un camarade, ils subissent un échec. Le 14, les gantiers de la fabrique X. quittent l'ouvrage pour le même motii, mais avec plus de succès ; ils rentrent cinq jours après. Du 29 mars au 6 avril, cent cin¬quante maçons et tailleurs de pierre demandent une augmentation de salaire et se mettent en grève. Une transaction calme l'agitation.</p>
-       <p xml:id="para_6_297_332">Le 19 mai, les ouvriers en papier de paille demandent, avec la journée de dix heures, une augmentation de salaire. Le confit se termine par une transaction.</p>
-       <p xml:id="para_6_297_333">Enin, le 8 juin 1905, les palissonneurs, travaillant à la tàche, se plai¬gnent de la réduction due à la loi de dix heures, et les ouvrières sache¬tiêres se joignent à eux le 22 juin pour demander la réintégration d'une ouvrière renvoyée. Cette dernière greve a encore reussi dans sa réclama¬</p>
-       <p xml:id="para_6_297_334">En février 1905, les deux cent cinquante syndiqués de la ganterie sont occupés, tandis qu'il y a 50ᵉ, de chômeurs parmi les gantiers en général a Saint-Junien<note type="bp">
-         <p>D'après le conseil des prud'hommes de Saint-dunien.</p>
-        </note>. Le travail est normal dans la mégisserie, la journée <pb facs="#facs_302" n="298" source="lesouvriersdesde916sociuoft_0324.xml"/> moyenne est de dix heures ; l'industrie du papier, arrêtée par la grève de décembre, a repris sa marche.</p>
-       <p xml:id="para_6_298_337">Depuis lors le travail se maintient régulier et actif.</p>
-       <p xml:id="para_6_298_338">En mars 1905, il y a chômage de 5 ᵉ. che les ouvriers en cuirs et penux à Saint-Junien, ils font dix heures de travail en moyenne par se¬maine et on coppte dix syndiqués. Parmi les gantiers (deux cent cin¬quante syndiqués) on trouve 30/, de chômeurs.</p>
-       <p xml:id="para_6_298_339">En mai, il n'y en a aucun parmi les cent trois syndiqués de la ganterie, et l'on n'en note que 2 ᵉ°, dans les industries du cuir et de la peau. Ces dernières comptent 20, de chômeurs en juin, ils sont nombreux aussi parmi les gantiers, tandis que le travail est actif dans les papeteries.</p>
-       <p xml:id="para_6_298_340">Le Geront : A. VILLECHÉNOUX</p>
+       <head type="sub_sub_section" xml:id="part_03_01_21">
+        § 21. SUR LES CHOMAGES ET LES GRÈVES DE 1902 A 1905
+       </head>
+       <p xml:id="para_6_296_319">
+        <pb facs="#facs_300" n="296" source="lesouvriersdesde916sociuoft_0322.xml"/>Chaque crise à Limoges amène une convulsion à Saint-Junien, et c'est à la suite de la longue grève de l'été de 1902, au sujet du reglement de la journée de dix heures parmi les porcelainiers, que les mégissiers se sou¬levèrent le plus violemment. L'usine aymond-Dumas fut fermée pen¬dant deux mois, car les ouvriers, prétextant l'adoption d'une nouvelle machine qui remplaçait le travail de plusieurs hommes, menacaient de briser tout l'outillage. Toutes les vitres, les vérandas furent détruites, les dragons de Limoges occupèrent la ville et gardèrent les usines ; d'insi¬gnifiantes échauffourées se produisirent. Puis l'accord se fit et la reprise du travail avec diminution d'une heure et renvoi de quelques ouvriers.
+       </p>
+       <p xml:id="para_6_296_320">
+        La- fin de l'année 1902 fut calme à Saint-Junien et la Chambre de com¬merce de Limoges rend ainsi compte du premier semestre de 1903: « La mégisserie subit une crise qui semble devoir persister (due à la grève précédente) ; mais la ganterie a eu un travail soutenu et régulier jusqu'au mois de juin, époque de la morte- saison. La reprise sérieuse n'aura lieu qu'en septembre.  Elle fut sérieuse et donnait bon espoir : 20ᵉ/, de chômeurs contre 50ᵉ/, au mois d'août.
+       </p>
+       <p xml:id="para_6_296_321">
+        En décembre, la proportion est encore de 20 ᵉ.; mais à ce moment éclate une grève pour une question d'augmentation de salaire ; elle em¬brasse tous les petits ateliers de ganterie, quelques teintureries, et dure sept semaines.
+       </p>
+       <p xml:id="para_6_296_322">
+        Janvier 1904 accuse 15 ᵉ de chômeurs chez les ouvriers en cuirs, et 25 % chez les gantiers ; en février, 60 °, ; en mars, 50% ; en avril, la proportion descénd de 50 a 30 % dans la ganterie. Mais le 9 avril 1904, les mégissiers de deux établissements se mettent en grève pour deman¬der une diminution du temps de travail. Les patrons font droit à leur requête.
+       </p>
+       <p xml:id="para_6_296_323">
+        L'application de la journée (de dix heures en avril 1904 n'a pas eu pour conséquence une diminution de salaires dans ces deux mégisse¬ries ; trente-quatre adultes, qui faisaient auparavant onze heures par jour, ne font plus que dix heures avec le même salaire à la journée.
+       </p>
+       <p xml:id="para_6_296_324">
+        A la suite des grèves, un questionnauire fut envoyé par les préfets ; en <pb facs="#facs_301" n="297" source="lesouvriersdesde916sociuoft_0323.xml"/> ce qui concerne les cuirs et peaux, ils n'eurent de renseignements précis qu'ù Neuvic (Dordogne) et à Saint-Junien L'enquête a prouvé cependant qu'en général, dans ces industries, le nombre d'ouvriers, dont le salaire journalier moyen s'est maintenu ou a été augnmenté, est de quatre cent trente, dont deux cent cinquante femmes dans cent quatre-vingt-quatre établissements.
+       </p>
+       <p xml:id="para_6_297_326">
+        En mai 1904, les fabriques qui auraient du être en pleoine période d'ac¬tivité chômaient ; deux établissements occupant cent cinquante ouvriers avaient disparu depuis le 1ᵉ janvier. Il y avait manque d'ouvrage.
+       </p>
+       <p xml:id="para_6_297_327">
+        En juillet 1904 le chômage diminue un peu malgré la morte-saison, et parmi les deux cent cinquante syndiqués de la ganterie, il n'atteint que 15%.
+       </p>
+       <p xml:id="para_6_297_328">
+        C'est à cette époque qu'il est pour la première fois question des syn¬diqués dans les comptes rendus de l'Oice du travail pour Saint¬Junien.
+       </p>
+       <p xml:id="para_6_297_329">
+        En août, grève des ouvrières en sacs à papier pour une augmentation de saulaire ; vive effervescence ; plusieurs petites grèves de gantiers se joi¬gnent à la première. Les sachetières obtiennent satisfaction.
+       </p>
+       <p xml:id="para_6_297_330">
+        L'année 1905 est particulièrement fertile en grèves ; on veut imiter Limoges.
+       </p>
+       <p xml:id="para_6_297_331">
+        Le 8 janvier, les gaziers s'étaient mis en grève pour demander la réin¬tégration d'un camarade, ils subissent un échec. Le 14, les gantiers de la fabrique X. quittent l'ouvrage pour le même motii, mais avec plus de succès ; ils rentrent cinq jours après. Du 29 mars au 6 avril, cent cin¬quante maçons et tailleurs de pierre demandent une augmentation de salaire et se mettent en grève. Une transaction calme l'agitation.
+       </p>
+       <p xml:id="para_6_297_332">
+        Le 19 mai, les ouvriers en papier de paille demandent, avec la journée de dix heures, une augmentation de salaire. Le confit se termine par une transaction.
+       </p>
+       <p xml:id="para_6_297_333">
+        Enin, le 8 juin 1905, les palissonneurs, travaillant à la tàche, se plai¬gnent de la réduction due à la loi de dix heures, et les ouvrières sache¬tiêres se joignent à eux le 22 juin pour demander la réintégration d'une ouvrière renvoyée. Cette dernière greve a encore reussi dans sa réclama¬
+       </p>
+       <p xml:id="para_6_297_334">
+        En février 1905, les deux cent cinquante syndiqués de la ganterie sont occupés, tandis qu'il y a 50ᵉ, de chômeurs parmi les gantiers en général a Saint-Junien
+        <note type="bp">
+         <p>
+          D'après le conseil des prud'hommes de Saint-dunien.
+         </p>
+        </note>
+        . Le travail est normal dans la mégisserie, la journée <pb facs="#facs_302" n="298" source="lesouvriersdesde916sociuoft_0324.xml"/> moyenne est de dix heures ; l'industrie du papier, arrêtée par la grève de décembre, a repris sa marche.
+       </p>
+       <p xml:id="para_6_298_337">
+        Depuis lors le travail se maintient régulier et actif.
+       </p>
+       <p xml:id="para_6_298_338">
+        En mars 1905, il y a chômage de 5 ᵉ. che les ouvriers en cuirs et penux à Saint-Junien, ils font dix heures de travail en moyenne par se¬maine et on coppte dix syndiqués. Parmi les gantiers (deux cent cin¬quante syndiqués) on trouve 30/, de chômeurs.
+       </p>
+       <p xml:id="para_6_298_339">
+        En mai, il n'y en a aucun parmi les cent trois syndiqués de la ganterie, et l'on n'en note que 2 ᵉ°, dans les industries du cuir et de la peau. Ces dernières comptent 20, de chômeurs en juin, ils sont nombreux aussi parmi les gantiers, tandis que le travail est actif dans les papeteries.
+       </p>
+       <p xml:id="para_6_298_340">
+        Le Geront : A. VILLECHÉNOUX
+       </p>
       </div>
      </div>
     </div>
