@@ -618,39 +618,53 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. — PROPRIÉTÉS.
        </head>
-       <p xml:id="para_13_301_93">
-        (Mobilier et vêtenents non compris)
-       </p>
-       <p xml:id="para_13_301_94">
-        IMEUBLES .0f 00
-       </p>
-       <p xml:id="para_13_301_95">
-        La famille n'’a aucune propriété immobilière et elle ne voit pas la pos¬sibilité d’en acquérir, du moins dans un avenir prochain.
-       </p>
-       <p xml:id="para_13_301_96">
-        ARGENT ET VALEURS MOBILIÉRES 140f00
-       </p>
-       <p xml:id="para_13_301_97">
-        L’ouvrier ne fait pas d’épargne proprement dite. Il utilise les quelques <pb facs="#facs_10" n="302" source="od2m_s3_t3_m112a_0344.xml"/> centaines de francs qui constituent ses économies à verser à ses créan¬ciers des remboursements de dettes anciennes laissées à la suite de faillites.
-       </p>
-       <p xml:id="para_13_302_100">
-        Somme gardée à la maison, 130f 00; — une part de fondateur de la Société coopérative de consommation, 10f 00. — Total, l40f 00.
-       </p>
-       <p xml:id="para_13_302_101">
-        MATÉRIEL sPÉCIAL DES TRAVAUX ET INDUSTRIES. 3f 50
-       </p>
-       <p xml:id="para_13_302_102">
-        1° Pour la culture du jardin. — 2 pioches, 2f 00 ; — 1 ratcau, 1f 00 ; — l pelle, 1f 50 ; — 1 outil à ràtisser, 1f00. — Total. 5f 50.
-       </p>
-       <p xml:id="para_13_302_103">
-        2° Pour le blanchissage et le repassage. — 1 « couleuse », Sf 00 ; — 3 cuviers, 10f00 ; — 1 fer à repasser, 2f 00. — Total, 20f 00.
-       </p>
-       <p xml:id="para_13_302_104">
-        3° Pour la coupe du bois. — 2 scies, 5f 0 ; — 2 haches, 5f00. — Total, 10f 00. 4° Pour e raccomodage dcs oétcments — Fils, aiguilles, ciseaux, boutons, dés. — Total, 4f00.
-       </p>
-       <p xml:id="para_13_302_105">
-        VALEUR TOTALE IDES PROPRIÉTÉS. 179f50
-       </p>
+       <div type="proprietes" subtype="proprietes_texte_1">
+        <p xml:id="para_13_301_93">
+         (Mobilier et vêtenents non compris)
+        </p>
+       </div>
+       <div type="proprietes" subtype="immeubles">
+        <p xml:id="para_13_301_94">
+         IMMEUBLES............ 0f 00
+        </p>
+        <p xml:id="para_13_301_95">
+         La famille n'a aucune propriété immobilière et elle ne voit pas la pos¬sibilité d’en acquérir, du moins dans un avenir prochain.
+        </p>
+       </div>
+       <div type="proprietes" subtype="argent_valeurs">
+        <p xml:id="para_13_301_96">
+         ARGENT ET VALEURS MOBILIÉRES............140f00
+        </p>
+        <p xml:id="para_13_301_97">
+         L’ouvrier ne fait pas d’épargne proprement dite. Il utilise les quelques <pb facs="#facs_10" n="302" source="od2m_s3_t3_m112a_0344.xml"/> centaines de francs qui constituent ses économies à verser à ses créan¬ciers des remboursements de dettes anciennes laissées à la suite de faillites.
+        </p>
+        <p xml:id="para_13_302_100">
+         Somme gardée à la maison, 130f 00; — une part de fondateur de la Société coopérative de consommation, 10f 00. — Total, 
+         140f 00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="materiel">
+        <p xml:id="para_13_302_101">
+         MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 39f 50
+        </p>
+        <p xml:id="para_13_302_102">
+         1° Pour la culture du jardin. — 2 pioches, 2f 00 ; — 1 ratcau, 1f 00 ; — 1 pelle, 1f 50 ; — 1 outil à râtisser, 1f00. — Total, 5f 50.
+        </p>
+        <p xml:id="para_13_302_103">
+         2° Pour le blanchissage et le repassage. — 1 « couleuse », 8f 00 ; — 3 cuviers, 10f00 ; — 1 fer à repasser, 2f 00. — Total, 20f 00.
+        </p>
+        <p xml:id="para_13_302_104">
+         3° Pour la coupe du bois. — 2 scies, 5f 0 ; — 2 haches, 5f00. — Total, 10f 00.
+        </p>
+        <p>
+         4° Pour le raccomodage des vêtements — Fils, aiguilles, ciseaux, boutons, dés. — Total, 4f00.
+        </p>
+       </div>
+       <div type="proprietes" subtype="proprietes_total">
+        <p xml:id="para_13_302_105">
+         VALEUR TOTALE DES PROPRIÉTÉS............ 179f50
+        </p>
+       </div>
       </div>
       <div n="002" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_07">
@@ -928,70 +942,70 @@
        </figure>
        <!--<p xml:id="para_13_314_213">
         SECTION II
-       </p>
-       <p xml:id="para_13_314_214">
+        </p>
+        <p xml:id="para_13_314_214">
         sUBENMTIONS REUEB PAR LA FAMILLE
-       </p>
-       <p xml:id="para_13_314_215">
+        </p>
+        <p xml:id="para_13_314_215">
         AT. 1°r. — PRoPRIÉrÉS REçUESs EN USUFRUIr (La famille ne reçoit aucune propriété en usufruit) .
-       </p>
-       <p xml:id="para_13_314_216">
+        </p>
+        <p xml:id="para_13_314_216">
         ART. 2. — ROrTS D'USAGE SUR LES PROPRIÉTÉS VOISINES
-       </p>
-       <p xml:id="para_13_314_217">
+        </p>
+        <p xml:id="para_13_314_217">
         (La famille ne jouit d’aucun droit d’usage)
-       </p>
-       <p xml:id="para_13_314_218">
+        </p>
+        <p xml:id="para_13_314_218">
         ART. 3. — ALLOCATION D'ORIETS ET DE SERVICES
-       </p>
-       <p xml:id="para_13_314_219">
+        </p>
+        <p xml:id="para_13_314_219">
         Allocations concernant l’nstruction.
-       </p>
-       <p xml:id="para_13_314_220">
+        </p>
+        <p xml:id="para_13_314_220">
         ——le er vlce de santé .
-       </p>
-       <p xml:id="para_13_314_221">
+        </p>
+        <p xml:id="para_13_314_221">
         —— aSSIraitE8
-       </p>-->
+        </p>-->
        <pb facs="#facs_23" n="315" source="od2m_s3_t3_m112a_0357.xml"/>
        <!--<p xml:id="para_13_315_224">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic url="#" xml:id="tble_13_315_5"/>
        </figure>
        <pb facs="#facs_24" n="316" source="od2m_s3_t3_m112a_0358.xml"/>
        <!--<p xml:id="para_13_316_229">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
-       </p>
-       <p xml:id="para_13_316_230">
+        </p>
+        <p xml:id="para_13_316_230">
         SOUR CES DES RECETTES ie
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic url="#" xml:id="tble_13_316_6"/>
        </figure>
        <!--<p xml:id="para_13_316_231">
         SECTION IV
-       </p>
-       <p xml:id="para_13_316_232">
+        </p>
+        <p xml:id="para_13_316_232">
         IDUSTRIES ENTMEPRISES PAR LM FMLE
-       </p>
-       <p xml:id="para_13_316_233">
+        </p>
+        <p xml:id="para_13_316_233">
         ( son propre compte)
-       </p>
-       <p xml:id="para_13_316_234">
+        </p>
+        <p xml:id="para_13_316_234">
         Culture du jardn.     ».  . »...
-       </p>
-       <p xml:id="para_13_316_235">
+        </p>
+        <p xml:id="para_13_316_235">
         Lavage, hlnchssage et raccommodage du llnge et des êlements
-       </p>
-       <p xml:id="para_13_316_236">
+        </p>
+        <p xml:id="para_13_316_236">
         (1) ll convient de noter que, suivant la méthode sdoptée dans ces publications, la journée est uniforaénent calculée à rasison de t0 heurcs de travsil.
-       </p>-->
+        </p>-->
        <pb facs="#facs_25" n="317" source="od2m_s3_t3_m112a_0359.xml"/>
        <!--<p xml:id="para_13_317_241">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic url="#" xml:id="tble_13_317_7"/>
        </figure>
@@ -1007,21 +1021,21 @@
        <pb facs="#facs_27" n="319" source="od2m_s3_t3_m112a_0361.xml"/>
        <!--<p xml:id="para_13_319_249">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic url="#" xml:id="tble_13_319_9"/>
        </figure>
        <pb facs="#facs_28" n="320" source="od2m_s3_t3_m112a_0362.xml"/>
        <!--<p xml:id="para_13_320_250">
         15. — BUDGET DES DÉPENSES DE LTANNÉE (uite)
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic url="#" xml:id="tble_13_320_10"/>
        </figure>
        <pb facs="#facs_29" n="321" source="od2m_s3_t3_m112a_0363.xml"/>
        <!--<p xml:id="para_13_321_253">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic url="#" xml:id="tble_13_321_11"/>
        </figure>
@@ -1033,13 +1047,13 @@
        </head>
        <!--<p xml:id="para_13_322_257">
         sEcroN t
-       </p>
-       <p xml:id="para_13_322_258">
+        </p>
+        <p xml:id="para_13_322_258">
         ooMPrTES DES BÉNÊICES
-       </p>
-       <p xml:id="para_13_322_259">
+        </p>
+        <p xml:id="para_13_322_259">
         RÊsuLTANT DES INDUSTRIES ENTTREPRISES PAR LA FAMILLE (à aon propre eompte)
-       </p>-->
+        </p>-->
        <figure rend="portrait" type="cptes_annexes">
         <graphic url="#" xml:id="tble_13_322_12"/>
        </figure>
@@ -1302,13 +1316,13 @@
         </figure>
         <!--<p xml:id="para_13_334_375">
          Hommes : 747 consultations.
-        </p>
-        <p xml:id="para_13_334_376">
+         </p>
+         <p xml:id="para_13_334_376">
          Femmes : 1,040 —
-        </p>
-        <p xml:id="para_13_334_377">
+         </p>
+         <p xml:id="para_13_334_377">
          Soit en totalité : 1,787 consultations gratuites.
-        </p>-->
+         </p>-->
         <p xml:id="para_13_334_378">
          En 1911, il y a eu 3,199 consultations et 536 visites à domicile.
         </p>
@@ -1335,22 +1349,22 @@
         </figure>
         <!--<p xml:id="para_13_335_386">
          En 1907. 9,134f 35
-        </p>
-        <p xml:id="para_13_335_387">
+         </p>
+         <p xml:id="para_13_335_387">
          En 1908..  9,688f 30
-        </p>
-        <p xml:id="para_13_335_388">
+         </p>
+         <p xml:id="para_13_335_388">
          En 1909..  5,087f 00
-        </p>
-        <p xml:id="para_13_335_389">
+         </p>
+         <p xml:id="para_13_335_389">
          En 1910. . 5,137f 75
-        </p>
-        <p xml:id="para_13_335_390">
+         </p>
+         <p xml:id="para_13_335_390">
          En 1911.    6,243f 50
-        </p>
-        <p xml:id="para_13_335_391">
+         </p>
+         <p xml:id="para_13_335_391">
          Soit en totalité, pendant cinq ans.   . 35,290f 90
-        </p>-->
+         </p>-->
         <p xml:id="para_13_335_392">
          Signalons une autre institution sociale importante de la fabrique : la Caisse de preogance en faveur du personnel. Cette œuvre est exclusi¬vement alimentée par la Société Peter, Cailler, Kohler et ci-devant par la Société Cailler. Le capital de cette caisse est destiné, dans un avenir plus ou moins éloigné, à fournir une pension de retraite aux ouvriers et aux ouvrières.
         </p>
@@ -1368,19 +1382,19 @@
         </figure>
         <!--<p xml:id="para_13_335_395">
          En 1907.. 2,355f 65
-        </p>
-        <p xml:id="para_13_335_396">
+         </p>
+         <p xml:id="para_13_335_396">
          En 1908. . .1,423f 95
-        </p>
-        <p xml:id="para_13_335_397">
+         </p>
+         <p xml:id="para_13_335_397">
          En 1909. .3,225f 45
-        </p>
-        <p xml:id="para_13_335_398">
+         </p>
+         <p xml:id="para_13_335_398">
          En 1910. .   2,450f 00
-        </p>
-        <p xml:id="para_13_335_399">
+         </p>
+         <p xml:id="para_13_335_399">
          En 1911..  1,050f 00
-        </p>-->
+         </p>-->
         <p xml:id="para_13_335_400">
          Cette caisse est fornée par contributions du personel de la fabrique lors de chaque décès (50 centimes par personne), et par un versement de la Société Cailler s’élevant à 10 % de la contribution du personnel. Il est payé aux familles des employés décédés une somme de 350f. Le surplus des cotisations et de l'allocation est versé au fonds de réserve de la caisse.
         </p>
