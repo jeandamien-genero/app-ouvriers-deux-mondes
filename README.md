@@ -44,7 +44,7 @@ _Nota : commands to execute through the terminal (Linux or macOS)_
   
   * Activate the environment : ```source [nom de l'environnement]/bin/activate``` ;
     
-  * Launch : ```python run.py``` ;
+  * Launch : ```python3 run.py``` ;
     
   * Go to ```http://127.0.0.1:5000/``` ;
     
