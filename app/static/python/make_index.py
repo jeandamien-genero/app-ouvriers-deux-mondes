@@ -88,3 +88,6 @@ def make_index(table, xml_file):
         final_result = soup.replace('xmlns:', 'xmlns')
         with open(xml_file, 'w', encoding='utf8') as xml_index:
             xml_index.write(final_result)
+
+
+# make_index("../csv/O2M_prosopo_enquetees.csv", "../meta-xml/index_od2m.xml")
