@@ -1,517 +1,517 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xml:id="ID-109a" xml:lang="fr">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription</title>
-    <respStmt>
-     <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>encodage scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>supervision technique</resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_1">
-  <surface lrx="1264" lry="1938"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f167/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_2">
-  <surface lrx="1264" lry="1934"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f168/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_3">
-  <surface lrx="1264" lry="1937"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f169/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_4">
-  <surface lrx="1260" lry="1940"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f170/full/full/0/native.jpg"/>
- </facsimile>
- <!-- PAGE OUBLIÉE PAR LSE-OD2M -->
- <facsimile xml:id="facs_33">
-  <surface lrx="1260" lry="1940"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f171/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_5">
-  <surface lrx="1260" lry="1940"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f172/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_6">
-  <surface lrx="1260" lry="1941"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f173/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_7">
-  <surface lrx="1260" lry="1947"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f174/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_8">
-  <surface lrx="1260" lry="1949"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f175/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_9">
-  <surface lrx="1260" lry="1943"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f176/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_10">
-  <surface lrx="1260" lry="1949"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f177/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_11">
-  <surface lrx="1260" lry="1949"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f178/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_12">
-  <surface lrx="1260" lry="1947"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f179/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_13">
-  <surface lrx="1260" lry="1940"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f180/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_14">
-  <surface lrx="1260" lry="1942"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f181/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_15">
-  <surface lrx="1260" lry="1940"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f182/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_16">
-  <surface lrx="1260" lry="1940"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f183/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_17">
-  <surface lrx="1260" lry="1941"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f184/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_18">
-  <surface lrx="1260" lry="1949"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f185/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_19">
-  <surface lrx="1260" lry="1956"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f186/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_20">
-  <surface lrx="1260" lry="1942"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f187/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_21">
-  <surface lrx="1260" lry="1942"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f188/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_22">
-  <surface lrx="1260" lry="1948"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f189/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_23">
-  <surface lrx="1260" lry="1956"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f190/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_24">
-  <surface lrx="1260" lry="1944"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f191/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_25">
-  <surface lrx="1260" lry="1942"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f192/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_26">
-  <surface lrx="1260" lry="1946"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f193/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_27">
-  <surface lrx="1260" lry="1958"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f194/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_28">
-  <surface lrx="1260" lry="1939"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f195/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_29">
-  <surface lrx="1260" lry="1942"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f196/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_30">
-  <surface lrx="1260" lry="1946"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f197/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_31">
-  <surface lrx="1260" lry="1956"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f198/full/full/0/native.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_32">
-  <surface lrx="1260" lry="1942"/>
-  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f199/full/full/0/native.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div ana="ID-109a" type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_13__1">N° 109</p>
-     <p xml:id="para_13__2">TISSEUR D'USINE</p>
-     <p xml:id="para_13__3">DE SAINT-QUENTIN</p>
-     <p xml:id="para_13__4">TACHERON</p>
-     <p xml:id="para_13__5">DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS</p>
-     <p xml:id="para_13__6">d’après</p>
-     <p xml:id="para_13__7">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1908</p>
-     <p xml:id="para_13__8">PAR</p>
-     <p xml:id="para_13__9">Mmes <persName>BÉROT-BERGER</persName> ET <persName>LEBRUN</persName></p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1. ÉTAT DU SOL, DE L’INDUSTRIE ET DE LA POPULATION</head>
-       <p xml:id="para_13__15"><pb facs="#facs_1" n="77" source="od2m_s3_t3_m109a_0095.xml"/> La ville de Saint-Quentin, vieille et belle ruche manufacturière, compte 52000 habitants. Elle est située à 156 kilomètres au nord-est de Paris et bâtie sur un coteau qui se rattache aux collines de l’Artois et dont l’altitude est de 108 mètres à l'Hôtel de ville.</p>
-       <p xml:id="para_13__16">Au pied de cette colline coule la Somme, petit cours d’eau très tran¬quille et régulier, qui naît à quinze kilomètres de là, et se déroule dans une vallée bourbeuse, toujours humide.</p>
-       <p xml:id="para_13__17">La Somme a formé deux étangs : l'étang du Haut, grande pièce d’eau de 80 hectares, embarrassée de roseaux et de nénuphars, et l’étang du <pb facs="#facs_2" n="78" source="od2m_s3_t3_m109a_0096.xml"/> Bas, aujourd'hui desséché et livré à une culture maraîchère bien comprise</p>
-       <p>Entre les deux étangs, les Romains avaient établi une chaussée e construit un pont. C’est encore aujourd'hui le seul lieu de passage entre a ville et l’important faubourg d’Isle qui se développe au sud ; le fau oourg Saint-Martin s'étage au sud-ouest ; le faubourg Saint-Jean s’étend au nord et le quartier de Remicourt à l'est.</p>
-       <p>La ville est donc encerclée de faubourgs dont la population s’accroit chaque jour. Remarque importante : ils sont tous bâtis sur le flanc de :oteaux exposés au nord. Cette mauvaise orientation, jointe à l’humi¬iité naturelle du sol et du climat, font paraltre plus froides et plus sombres les maisons des ouvriers.</p>
-       <p>La ville est souvent embrumée, certaines rues noircies de la poussière le charbon des cités industrielles sont rarement sèches ; longtemps on espère les beaux jours clairs et chauds, le printemps est aigre mais nsoleillé, l'été lourd, parfois accablant, l’automne, bien qu’humide, reste égayé par la foire annuelle très fréquentée, l'hiver est boueux.</p>
-       <p>Il pleut deux cents jours par an. C’est peut-être la raison qui fait chérir la maison familiale où l’on travaille et que la Saint-Quentinoise excelle à orner si personnellement.</p>
-       <p>Le caractère des habitants ne souffre pas de l'inclémence de l’atmos hère. Le Saint-Quentinois est de rapports faciles, d’humeur enjouée. Il garde dans ses relations une rondeur que les rivalités politiques ot es luttes religieuses n’ont pas encore détruite. Il est hardi, entrepre¬nant, il a en lui-même une confiance extrême, il risque de grosses affaires parfois avec de faibles moyens</p>
-       <p>a prospérité rapide de ceux qui ont réussi exerce sur lui une véri¬able fascination ; elle est pour lui un stimulant énergique. Il aime la iberté et il en use dans son langage, dans sa conduite, dans ses con¬ceptions politiques et économiques</p>
-       <p>ci, pas trop de distinctions de castes, la mobilité des fortunes les détruirait vite, du reste ; l’homme créateur de richesse vaut mieux que la richesse qu’il crée, le Saint-Quentinois estime l'homme d’action, pprécie l’effort et admire le succès. L'artisan songe à agrandir son ate¬lier, l'ouvrier de choix rêve de travailler chez lui, d’être son maître ; l’ouvrier de manufacture souffre de travailler pour un patron. Du haut en bas de l’échelle, l'autorité de l'homme sur l'homme est gênante, on souhaite la supprimer ou la réglementer, c'est-à-dire l’amoindrir. L'in¬dividualisme est trs puissant.</p>
-       <p xml:id="para_13_9_21"><pb facs="#facs_3" n="79" source="od2m_s3_t3_m109a_0097.xml"/> Les associations ouvrières de production ont grand’peine à se former, plus encore à durer. On les crée par instinct d’égalité, elles croulent ar suite des rivalités qui surgissent entre les coopérateurs. Les coopé¬ratives de consommation sont rares ; l’une d’elles, la Fraternelle, pros¬père, grâce à la valeur personnelle de quelques dirigeants et aux avan¬tages matériels qu’elle procure.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Constant G. (n°109aE1) - Blanche D. (n°109aE2) - Emile G. (n°109aE3) - Albert G. (n°109aE4) - Constant G. (n°109aE5) - Henriette G. (n°109aE6) - Georgette G. (n°109aE7) - André G. (n°109aE8) - Lucien G. (n°109aE9) - Paul G. (n°109aE10) - Henriette C. (n°109aE11)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille</head>
-       <p>
-        <persName>Constant G.</persName>, chef de famille, né à Seboncourt............ 36 ans.</p>
-       <p>
-        <persName>Blanche D.</persName>, sa femme, née au Cateau............ 34 —</p>
-       <p>
-        <persName>Émile G.</persName>, leur fils aîné, né à Saint-Quentin............ 15 —</p>
-       <p>
-        <persName>Albert G.</persName><note type="bp">
-         <p>Les époux G, ont eu le malheur de perdre leur fils Albert, avant que cette monographie ne fut terminée.</p>
-        </note>, 2ᵉ fils, né à Guise............ 12 —</p>
-       <p>
-        <persName>Constant G.</persName>, 3ᵉ fils, né à Saint-Quentin............ 11 —</p>
-       <p>
-        <persName>Henriette G.</persName>, 1ʳᵉ fille, née à Saint-Quentin............ 8 —</p>
-       <p>
-        <persName>Georgette G.</persName>, 2ᵉ fille, née a Saint-Quentin............  7 —</p>
-       <p>
-        <persName>André G.</persName>, 4ᵉ fils, né à Saint-Quentin............  4 —</p>
-       <p>
-        <persName>Lucien</persName> et <persName>Paul G.</persName>, leurs 5ᵉ et 6ᵉ fils jumeaux, nés à Saint-Quentin, en février 1908.</p>
-       <p>
-        <persName>Henriette C.</persName>, mére de Blanche, née à Valenciennes, mariée en 1861 et veuve depuis 1880............  71 —</p>
-       <p>Les époux G. ont perdu un fils qui, né à Saint-Quentin le 20 mai 1905, y est mort à l'âge de trois mois et dix jours.</p>
-       <p>La mére de Blanche, qui habite avec elle depuis son mariage, lui a rendu les plus grands services en l’aidant 4 élever les enfants.</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales</head>
-       <p>Les époux G. sont religieux de cœur et de tendances, religieux lans la pratique aussi, quand ils n'en sont pas empêchés par les occupations et les soucis de leur nombreuse famille. Cependant, il ne paraît <pb facs="#facs_4" n="80" source="od2m_s3_t3_m109a_0098.xml"/> pas y avoir chez eux de volonté ferme et arrétée de pratiquer la reli-gion.</p>
-       <p>Leur nature affectueuse et bonne, l'éducation de la mère et de lagrand'mère, reçue pour toutes deux chez les sœurs, les bienfaiteursqui les entourent, I’élévation de leur nature, le besoin de trouver lapaix, la force à leur source, qu’ils sentent et devinent, plus qu’'ils ne laconnaissent par réflexion ou examen, voilà les simples et beaux motifede leurs sentiments.</p>
-       <p>Avant la naissance des deux jumeaux, la mère était heureuse d’ha-biller tous ses enfants et de se rendre avec eux a la messe. Elle ne peutpas le faire maintenant, car la santé de ces deux bébés réclame beau-coup de soins, et la sienne a été un peu ébranlée par les soucis de leurnaissance.</p>
-       <p>Les enfants vont à l'église sans leur mère; mais Dieu, qui bénit lesnombreuses familles, l’aidera à surmonter ces obstacles momentanés, etlui donnera la force nécessaire pour soigner à la fois l'âme et le corpsde ses chers enfants; car l'affection, la bonté, la tendresse sont, avecl'organisation, les qualités qui régnent toujours dans la maison.</p>
-       <p>Le travail assidu et les peines n’y ont introduit ni l'impatience ni ladureté. Les enfants sont complaisants, obligeants les uns pour lesautres, et ils ont en même temps le respect de l’autorité, grâce a la mèreet à la grand’mère, car le père est plus faible et plus indifférent. L'ordrerégne, malgré des ressources minimes pour une trés nombreuse famille.</p>
-       <p>La féte de la grand’mère n’est jamais oubliée, et le fils aîné, Émile,reçoit aussi, à la Saint-Nicolas, un petit cadeau utile, qui est un témoi-gnage de la reconnaissance et du respect auxquels lui donnent droitdéja les services qu’il commence à rendre à sa famille par son travail etson dévouement.</p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. HYGIENE ET SERVICE DE SANTÉ</head>
-       <p>Constant G. est assez grand, d’une figure douce, d’aspect bien portant,sans extrême vigueur physique.</p>
-       <p>Toujours chargé d'enfants et de travail, malgré une sagesse relative,il s’est négligé parfois, hésitant à s'arréter pour un rhume, qui s’aggra-vait sans laisser heurensement de traces sérieuses. </p>
-       <p>
-        <!-- PAGE OUBLIÉE PARS LSE-OD2M --><pb facs="#facs_33" n="81" source="od2m_s3_t3_m109a_0099.xml"/> Cette nombreuse famille est obligée de se nourrir trop économiquement, et les forces du père ne sont pas assez entretenues et réparées.</p>
-       <p>La mére est grande et d’aspect plus vigoureux. Cependant, la fatigue et les ennuis, qui arrivaient à dépasser ses forces, ont tari son lait et elle n'a pu nourrir ses jumeaux,</p>
-       <p>Elle n’avait jamais été malade que d’un ulcére à la jambe, qui l'a arrétée quatre mois en 1901.</p>
-       <p>Le fils aîné Émile est toujours en excellente santé. Il a été nourri onze mois au sein.</p>
-       <p>Albert a eu des convulsions internes à l'âge de quinze jours. On I'a opéré, en 1906, d'un œil qui louchait à la suite de ses convulsions d’enfant, mais il n'a presque jamais vu de cet ceil. Enfant bon et très ordonné, éléve studieux, ayant l’orthographe facile et l’écriture superbe, il n’a jamais pu se familiariser avec l'arithmétique.</p>
-       <p>Constant, moins soigneux, tousse pour un rien, a eu sans cesse des bronchites étant jeune et, chose curieuse, ces bronchites ont cessé a la suite d’une chute dans un puite d'eau sale. L’enfant avait alore huit ans.</p>
-       <p>Henriette jouit d’une bonne santé; enfant intelligente et vive, elle va volontiers a I’école et au catéchisme, aide au ménage et commence à coudre à la machine et à habiller sa poupée avec élégance. Il faudrait la fortifier et, ce qui désole en général les bonnes mères chargées de famille, c'est d'être obligées de refuser à leurs enfants ce qui changerait leur constitution frêle en une plus robuste. Ea ce moment, cette fillette boit du sirop de fer donné par le bureau de bienfaisance.</p>
-       <p>Georgette eat une bonne grosse fille, mais a beaucoup d’humeur, au dire de sa mére, qui la nourriseait lorsqu’elle fut prise de son ulcère à la jambe en 1901; cependant le docteur lui a déconseillé de sevrer l'enfant et elle a obéi. Depuis plusieurs mois, l'enfant souftre un peu de glandes au cou.</p>
-       <p>André, solide et gros, est vagabond, tapageur et affectueux.</p>
-       <p>Les petits jumeaux ont réclamé bien des soins et des attentions, tant de la grand'mère et de la mère que du bureau de bienfaisance et des œuvres privées. Que de sollicitude pour lee arracher souvent et tour à tour à la mort! Aussitôt remis à la crèche, ils retombaient, malgré mille soins; il faliait les tenir à la maison continuellement et les changer en les poudrant toutes les heures, leur donner des bains d’amidon chaque soir, etc., si l'on voulait voir tomber leur échauffement atroce et dormir quelques heures la nuit. Leurs pleurs réveilliaient toute la maison.</p>
-       <p xml:id="para_13_82_23"><pb facs="#facs_5" n="82" source="od2m_s3_t3_m109a_0100.xml"/> La grand’mère est alerte, active, malgré ses soixante et onze ans, mais asthmatique et souffrant d’étouffements, surtout le matin ; elle est très énergique et se fait obéir instantanément. A part la faiblesse du père pour le tabac à chiquer, les habitudes d’hygiène de la famille sont excellentes : il faut noter en sa faveur la régularité dans les repas, une grande propreté, le soin des vêtements qui assure à chacun à peu près le nécessaire, suivant les saisons, et enfin le choix judicieux de l’habita¬tion, située presque dans les champs, à l'extrémité de la ville, oi les loyers sont beaucoup moins chers, ce qui permet de louer une maison entière, au lieu de s’entasser, au centre du faubourg, dans une ou deux pièces malsaines.</p>
-       <p xml:id="para_13_82_24">Pierre, qui est mort à trois mois, en 1905, était né très délicat, avec perforation du palais. A cette époque, la mère ne quittait guère le tissage et les médecins de l’hospice pensèrent qu’il était victime du travail d’usine où elle s’épuisait.</p>
-       <p xml:id="para_13_82_25">Malgré tout, — et il faut insister sur cette réflexion finale, — la famille, très bien constituée pour vivre, travailler, croitre et multiplier dans les conditions normales de la vie, n’est pas assez résistante pour supporter sans grands préjudices le surcroît de travail et de privations auquel sont assujetties les familles nombreuses dans notre organisation sociale : père, mère et enfants en pâtissent.</p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
-       <p xml:id="para_13_82_28">C’est une famille d’ouvriers honnêtes qui est l’objet de cette monogra¬phie, elle peut être comparée à la moyenne des ménages des travailleurs français.</p>
-       <p xml:id="para_13_82_29">L'influence des ascendances différentes chez l'homme et chez la femme s'y observe chaque jour et en toutes choses.</p>
-       <p xml:id="para_13_82_30">Les parents deConstant G. n’ont jamais eu de métier régulier. Lui-méme ne sait pas lire et était ouvrier de cour jusqu'à son mariage. Sans sa femme, qui lui a appris à tisser, il serait sans métier fixe, et aurait trouvé, bien avant le chômage de 1908, cent occasions de se donner moins de peine et plus de liberté.</p>
-       <p xml:id="para_13_82_31">Par suite de ce caractére même un peu veule, et dont il n’est guère responsable, puisqu’il est d’une hérédité telle et que ses frères lui res<pb facs="#facs_6" n="83" source="od2m_s3_t3_m109a_0101.xml"/>semblent moralement, les enfants ne sont presque jamais repris par lui, et voici le mot que cite sa femme : « Il laisse tout faire. »</p>
-       <p xml:id="para_13__34">On observe donc ici que la puissance paternelle, que consacre le Code civil, ne s’exerce pas et qu’il faudrait plutôt assurer des droits à la pissance maternelle. C’est la mère qui, malgré les naissances succes¬sives, est le pouvoir directeur des enfants. Elle est le véritable chef de famille, cherchant et trouvant de l'ouvrage pour ses fils, les reprenant à table, exigeant de l’ordre, de la propreté morale et pbysique, et faisant taire les petits pendant que les grands lisent ou étudient leurs leçons. Mais quel calme peut-on obtenir au milieu des quatre derniers qui jouent ou piaillentt Et pourtant, pendant que la mère surveille son souper, observe le jeu des petits, elle est devant son rouet, où elle dé¬vide des fuseaux de laine qui doivent servir au tissage pour les lisières de flanelle. Elle gagne ainsi environ 1f par jour en s’y tenant huit heures. Ce n’est qu’en septembre 1908, depuis que les jumeaux vont mieux, qu’elle a entrepris ce travail à domicile, qui lui permet de soigner toute la maison. Elle comprend que sa présence à l'usine serait un crime, alors que tous rentrent affamés. La mère à l’atelier met les enfants au ruis¬seau et pousse le père au cabaret, conclut-elle.</p>
-       <p xml:id="para_13__35">Le rang de la famille se maintient donc, malgré tout, par la mère qui, elle, sait lire, penser et prévoir, et dont les parents ont toujours eu un métier.</p>
-       <p xml:id="para_13__36">En résumé, sans la femme qui « fait la maison », on aurait vu la famille sombrer depuis longtemps. Avec l’évolution féministe univer¬selle, on ne trouvera jamais assez d’exemples en l’honneur des femmes qui surent se priver toute leur vie même du linge indispensable, pour procurer à monsieur le tabac quotidien nécessaire à satisfaire ses goûts.</p>
-       <p xml:id="para_13__37">Il était temps que la loi sur la libre disposition des salaires fût votée, mais en attendant que les femmes instruites plaident pour leurs sœurs de misère, il importe que les compétentes se renseignent aux foyers labo¬rieux et se persuadent que cette résignation et ce martyrologe ont suffi¬samment duré.</p>
-       <p xml:id="para_13__38">L’esclavage doit sortir définitivement des rangs de notre société.</p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">MOYENS D'EXISTENCE DE LA FAMILLE</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
-       <div type="proprietes" subtype="proprietets_texte_1">
-        <p xml:id="para_13_84_41"><pb facs="#facs_7" n="84" source="od2m_s3_t3_m109a_0102.xml"/>(Mobilier et vêtements non compris)</p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_13_84_42">IMMEUBLES :</p>
-        <p xml:id="para_13_84_43">La famille ne possède aucune propriété immobilière.</p>
-       </div>
-       <div type="proprietes" subtype="argent_valeurs">
-        <p xml:id="para_13_84_44">ARGENT ET VALEURS MOBILIÉRES :</p>
-        <p xml:id="para_13_84_45">La famille ne possède ni argent ni valeurs mobilières.</p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_13_84_46">ANIMAUX DOMESTIQUES............ 52f 00</p>
-        <p xml:id="para_13_84_48">Un couple de lapins, 7f 00 ; — 12 jeunes lapins, 36f 00 ; — 2 cochons d'Inde, 3f 00 ; — 1 oie, 6f 00. — Total. 52f 00.</p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_13_84_49">MATÉRIEL SPÉCIAL DES Travaux et industries............ 290f95</p>
-        <p xml:id="para_13_84_50">1° Pour le issage : 3 greffes, 1f 65 ; — 3 épincettes. 1f 50 ; — 3 efforges, 1f 20 ; — 3 paires de ciseaux, 4f 50; — 3 alênes. 0f 60. — Total, 9f 45.</p>
-        <p xml:id="para_13_84_52">2° Pour les travaux de couture : 1 machine à coudre, 225f 00 ; — ciseaux, dés, aiguilles et divers, 10f 00. — Total, 235f 00.</p>
-        <p xml:id="para_13_84_53">3° Pour le blanchissage et le repassae : 2 petites cuves, 6f 00 ; — 1 lessiveuse, 7f 50 ; — 1 couverture à repasser, 2f 00 ; — 2 fers, 4f 00. — Total, 19f 50.</p>
-        <p xml:id="para_13_84_54">4° Pour le jardinage : 2 arrosoirs, 7f 00 ; — 1 bêche, 3f 50 ; — 1 pelle, 3f 50 ; — 1 raclette, 2f 50 ; — 1 binette, 2f 50 ; — 1 ràteau, 3f 00; — sabots à planches, 2f 50 ; — plantoir, 0f 50 ; — corde à aligner, avec pieux, 2f 00. — Total, 27f 00.</p>
-       </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_13_84_56">VALEUR TOTALE des propriétés............ 342f 95</p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
-       <p xml:id="para_13_84_57">La famille ne pourrait vivre, sans les subventions dont elle est géné¬reusement pourvue.</p>
-       <p xml:id="para_13_84_58">Les salaires en argent des différents membres de la famille ne s’élvent, en effet, qu'à 1,320 fr. pour onze bouches à nourrir et les salaires en nature pour des travaux exécutés pour le compte d’étrangers n’atteignent que 175 fr. Leur total ne dépasse guère que d’un neuvième l’ensemble des subventions.</p>
-       <p xml:id="para_13_84_59">Les Dames de la Providence de Saint-Quentin, qui sont les dames de <pb facs="#facs_8" n="85" source="od2m_s3_t3_m109a_0103.xml"/> charité de la ville : femmes de propriétaires, d’industriels, d’ingénieurs, de commerçants ou d’employés supérieurs, entourent de soins dévoués et intelligents les familles pauvres, et tout particulièrement celle qui fait l'objet de cette monographie. Elles vibrent à toutes les émotions de la famille ouvrière, prenant part à ses joies, comme à ses peines.</p>
-       <p xml:id="para_13_85_63">S'agit-il d’un baptême, d’une première communion ? Elles sont là, avec un livre, des dragées, une petite robe blanche.</p>
-       <p xml:id="para_13_85_64">La pauvre mère est-elle penchée au chevet d’un enfant malade ? Elles s’asseyent de l’autre côté du petit lit, veillant, elles aussi, aidant de leur savoir, de leur délicatesse, en même temps que de leur bourse.</p>
-       <p xml:id="para_13_85_65">L’exiguité des ressources fait-elle plier sous le poids des soucis et des inquiétudes l’âme du père ou de la mère ? Elles remontent leur cou¬rage et leur donnent confiance en Dieu.</p>
-       <p xml:id="para_13_85_66">C’est bien ici le rôle de la charité, dont médisent, croyons-nous, seu¬lement ceux qui n’ont jamais eu le bonheur de la rencontrer, ou qui sont incapables de la sentir dans leur propre cœur.</p>
-       <p xml:id="para_13_85_67">Mais ces dames de charité n’ont le cœur ni étroit, ni mesquin. Elles savent que leur amour tout seul ne donne pas du pain à la famille ouvrière, n'habille pas les enfants.</p>
-       <p xml:id="para_13_85_68">Elles ne sont pas toutes riches, les Visiteuses ; elles ne peuvent pas oublier leurs devoirs de famille pour secourir ceux qui souffrent et qu'elles aiment. Elles n’hésitent pas alors à recourir aux institutions sociales qui peuvent aider les malheureux.</p>
-       <p xml:id="para_13_85_69">Elles les étudient pour les mieux connaître, afin de les mettre plus efficacement au service de leurs pauvres amis. Ces derniers ne doivent méconnaitre aucun des distributeurs, qui ont chacun leur utilité respec¬tive. L’école, avec ses dons de vêtements et sa cantine scolaire, ses four¬nitures de livres et de cahiers, ses petites fêtes ; le bureau de bienfaisance avec le pain, le charbon, les soins du médecin et les médicaments et son œuvre de la « Goutte de lait » avec le lait stérilisé pour les jumeaux ; la donation Clin, qui habille un jeune garçon, au moment où il peut cher¬cher une place ; la Mutualité maternelle<note type="bp">
-         <p>La Mutualité maternelle (civile et militaire) de Saint-Quentin verse 40 fr. à la naissance de chaque enfant dont la mère a payé depuis dix mois une cotisa¬tion mensuelle de 0 fr. 25. Cette Société mutuelle. très prospère autant que popu¬laire, a, par ses multiples services d'hygiène sociale et ses inspectrices de premier ordre, réduit des deux tiers la mortalité infantile dans son champ d'action. Il est donc indispensable que les cœurs généreux aident toutes les travailleuses a s'y associer, afin de les voir bénéticier de ses précieux avantages.</p>
-        </note>; la subvention à la vieillesse pour la grand’mère, apporent à la famille autant de ressources qui,<pb facs="#facs_9" n="86" source="od2m_s3_t3_m109a_0104.xml"/>jointes aux dons de vêtements, de literie et d’argent des Dames de la Providence, contribuent à lui assurer le nécessaire. Mais ce n’est ni le père, ni la mère, ni la grand’mère qui demandent pour eux ces secours. La plupart du temps, ils les ignorent; ils ne savent pas demander; ils sont timides, hésitants, absorbés par le travail, accablés de soucis.</p>
-       <p xml:id="para_13_80_73">C’est leur dame visiteuse qui remplit auprès d’eux le rôle d’ange gar¬dien terrestre et qui fait le trajet de leur demeure dans tous les lieux de charité ou d'assistance humaine, où elle sait qu’elle obtiendra pour ses protégés ce dont ils ont besoin.</p>
-       <p xml:id="para_13_80_74">Malgré tant de charité et de bonne organisation de l’assistance, il faut remarquer la faiblesse totale des ressources de cette nombreuse famille. Si nous faisons abstraction des salaires attribués aux travaux domes¬tiques, tels que blanchissage et repassage, arrangement et entretien du linge et des vêtements, culture du jardin, etc., nous avons pour res¬sources totales : 1,495f de salaires et 1,340f 95 de subventions, c’est-à-dire 2,835f 95 à répartir entre onze membres, soit 257f 80 pour chacun. C’est peu ! Et encore ces ressources sont-elles aléatoires : que le lugubre chômage s’accentue; que la dame visiteuse vienne à manquer; que le bureau de bienfaisance, l'école ou les particuliers diminuent leurs dons ou les suspendent, c'est la faim, c’est le dénuement et l’étiolement, pour ne pas insister davantage.</p>
-       <p xml:id="para_13_80_75">Comment est-il possible que les familles nombreuses se multiplient dans un tel état de choses ?</p>
-       <p xml:id="para_13_80_76">Ne serait-il pas juste, n’y a-t-il pas moyen d’établir une mutualité paternelle, obligeant tous les hommes de vingt-cinq à cinquante ans à verser chaque année une petite somme de 5 à 10 fr., et donnant droit à une allocation mensuelle pour chaque enfant au-dessous de treize ans ?</p>
-       <p xml:id="para_13_80_77">Les familles ouvrières nombreuses seraient ainsi puissamment soutenues pendant la première jeunesse de leurs enfants, et laissées à elles-mêmes quand ceux-ci, élevés, deviennent pour les parents une source de richesse.</p>
-       <p xml:id="para_13_80_78">L’homme de vingt-cinq à cinquante ans, qui n’arriverait pas à payer la modique cotisation de la mutualité paternelle, serait privé de ses droits d’électeur et de citoyen.</p>
-       <p xml:id="para_13_80_79">La charité aura toujours sa place et ses devoirs. Aussi bonne que devienne une organisation sociale, il se trouve toujours des malheureux que pressent trop les rouages, ou qu’ont oubliés les institutions. La cha¬rité arrive alors avec tous les remèdes de son amour; mais son plus grand désir, son but suprême, est de chercher, sans y réussir jamais complète¬ment, à permettre à ceux qu'elle aime de se passer de son secours.</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
-       <div type="travaux" subtype="ouvrier">
-        <p xml:id="para_13_87_83"><pb facs="#facs_10" n="87" source="od2m_s3_t3_m109a_0105.xml"/> L’année 1908 fut particulièrement rude pour la famille : naissance des jumeaux, chômage puis décès d’un fils de douze ans.</p>
-        <p xml:id="para_13_87_84">Pendant les quatre premiers mois de l’année, Constant G. se faisait au tissage, chez M. Schmidt, une moyenne de 3f par jour.</p>
-        <p xml:id="para_13_87_85">Son fils Émile ne gagnait alors que0f50; mais le gain du jeune homme s’élevait rapidement, lorsque le chômage arrêta tout travail et força G. à partir au binage<note type="bp">
-          <p>Le « binage », dit encore le « démariage » des betteraves, consiste à enlever avec une binette l'excédent des jeunes betteraves et à ne laisser que les belles, bien venues, qui trouvent alors la place et la sève nécessaires.</p>
-         </note>des betteraves avec ses trois fils aînés : Émile, Albert et Constant, ce dernier n'ayant encore que onze ans.</p>
-        <p xml:id="para_13_87_86">Ils y gagnèrent 60f, recevant de plus, du fermier, des légumes de toutes sortes qui composaient leurs repas. Ils les faisaient cuire eux-mêmes, à l’aide de bois ramassé sur la route.</p>
-        <p xml:id="para_13_87_87">Ils couchaient sous grange dans la longue paille. Rentré à Saint-Quentin et le chômage persistant, G. chercha partout, se mêla forcé¬ment à des intermédiaires qui lui promirent l’embauchage, tels les débardeurs du canal ou gérants d’estaminet qui prennent souvent des hommes de peine à 2f par jour, à la condition qu’ils en consommeront la moitié chez eux. Bref, G. se négligea.</p>
-        <p xml:id="para_13_87_88">Enfin, les enfants criant famine, malgré quelques dons supplémen¬taires de l’assistance privée, car il n’eut pas droit à ceux de la commune, ayant été absent (il travaillait aux betteraves lors de la distribution des primes aux chômeurs), Constant G. entra chez un jardinier. Adroit dans ce métier, il y resta deux mois, y fut nourri et gagna net 2f50 par jour, plus sa nourriture. Ce travail au grand air le fortifia. En juillet, il sema et s'occupa des légumes pour les maraîchers. En août, il récolta les fruits, les cornichons, repiqua des fraisiers et se montra soigneux aux arrosages et à ce que commandait le patron. Le fils aîné, mile, gagna pendant ces deux mois une moyenne de 1f 50 par jour dans une ferme où il était à toute main.</p>
-        <p xml:id="para_13_87_89">En septembre, le père recommença à travailler au tissage et se fit,<pb facs="#facs_11" n="88" source="od2m_s3_t3_m109a_0106.xml"/>comme autrefois, 18f par semaine jusqu’à fin décembre. Son fils Émile travaillait avec lui, et le salaire du jeune homme s’éleva rapidement à 2f par jour.</p>
-        <p xml:id="para_13_88_93">L’usine Taine et Cie, où il était occupé, possède, dit-on, six cents mé¬tiers en une seule salle, on y tisse la laine. Le travail est de dix heures par jour, de six heures et demie du matin à six heures du soir, avec interruption de onze heures et demie à une heure pour le dîner. Le sa¬laire est calculé aux pièces et payé deux fois par semaine pour les petites, et en une fois, deux jours d’ordinaire après la remise du travail, pour celles qui exigent huit, dix ou même vingt jours ; on peut obtenir des acomptes.</p>
-       </div>
-       <div type="travaux" subtype="mere">
-        <p xml:id="para_13_88_94">La mère, Blanche D., a gagné pendant une partie de l’année de 5 à 6f par semaine, à dévider chez elle des fuseaux de laine pour les lisières de flanelle de couleur. Une journée de travail de huit heures peut lui procurer 1f de salaire.</p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
-       <p xml:id="para_13_88_98">On a vu, à propos de l’hygiène (<ref target="#part_02_01_04" type="renvoi_int_mono">§ 4</ref>), que la santé des membres de la famille G. était bonne, d'une façon générale, et bien équilibrée, quoique la vigueur fût en décroissance, et on retrouve la même note pour l’ali¬mentation, qui est saine, régulière, et bien ordonnée, mais insufifisam¬ment réconfortante. Comment pourrait-il en être autrement La somme allouée à la nourriture annuelle, pour une famille de onze membres, est de 1,999f, y compris toutes les subventions de nourriture, les lapins et autres animaux élevés dans la cour, et les produits du jardin, ce qui porte à 0f 497 la dépense journalière de chaque membre. Et les jumeaux réclamant du lait stérilisé, les fils aînés de onze, douze et quinze ans ayant le bon appétit de leur âge, le coùt de la nourriture du père et de la mère ne peut guère s'élever au-dessus de cette moyenne.</p>
-       <p xml:id="para_13_88_99">Or, le père de ces huit enfants a trente-six ans, la mère trente-quatre. Ils sont dans la force de l’âge, surchargés de fatigue et de travail. Les<pb facs="#facs_12" n="89" source="od2m_s3_t3_m109a_0107.xml"/>forces, généreusement dépensées, auraient besoin de se renouveler lar¬gement aussi. Il n’en est rien.</p>
-       <p xml:id="para_13_89_101">Entrons dans le détail de l’alimentation. En tenant compte du temps où le père et trois des enfants ont été nourris aux frais du patron, le pain est représenté par 1,735 kilos, soit 570 grammes par jour et par personne, les jumeaux n’en étant encore qu'au lait ; le riz, les nouilles et les autres pâtes, par 32 grammes ; les pommes de terre n’arrivent pas à 165 grammes. Les légumes ne sont guère abondants.</p>
-       <p xml:id="para_13_89_102">La consommation de viande et de poisson n’est que d'un peu plus de 22 grammes par tête et par jour.</p>
-       <p xml:id="para_13_89_103">Il n’est bu par an que 100 litres de bière, et aucune autre boisson fer¬mentée. Le chocolat est presque inconnu ; mais le café est assez aimé ; c’est le déjeuner du matin de presque toute la famille, en y ajoutant seulement un peu de lait. On le mélange aussi à l'eau, qui est la boisson de tous, afin de la rendre plus stimulante et plus digestive. La grand'¬mère soupe bien souvent le soir avec du café au lait.</p>
-       <p xml:id="para_13_89_104">Les repas se font régulièrement : petit déjeuner à sept heures ; dlner à onze heures et demie ; gofûter à quatre heures ; souper à sept heures. Ils se prennent dans la cuisine, qui est en même temps la salle à man¬ger, une belle pièce, éclairée et aérée par une grande fenêtre ; les murs garnis de rayons de vaisselle assez coquettement rangée. La table est en bois blanc, mais solide, commode, et faite sur mesures, pour la pièce et pour la famille.</p>
-       <p xml:id="para_13_89_105">Voici le récit d’un témoin qui rendait aux époux G. une visite inat¬tendue : Un jeudi à midi, nous entrions chez les G., afin de les trouver réunis. Les enfants, au retour de l’école, s’étaient lavé les mains et avaient pris place autour de la longue table. A une extrémité, le père; à l’autre, la grand’mère ; au milieu, la maman qui venait de servir dans chaque assiette fleurie une appétissante soupe aux légumes. Les couverts étaient admirablement frottés, la table de bois blanc ne portait aucune tache, et les plus petits enfants avaient, comme voisins, les parents ou les frères aiînés.</p>
-       <p xml:id="para_13_89_106">Dès notre arrivée, les écoliers se levèrent comme s’il se fût agi de M. l’inspecteur primaire. Le père avança sa chaise, les grands interrom¬pirent leur repas, et les petites semblèrent hypnotisées par le paquet de pâtisserie que nous apportions. Nous causâmes de toutes les santés et du travail général, mais surtout des petits jumeaux fragiles, dont l’un était même en danger.</p>
-       <p xml:id="para_13_89_107">Le père nous parut fatigué et peu enclin à reprendre ou à redresser<pb facs="#facs_13" n="90" source="od2m_s3_t3_m109a_0108.xml"/>les enfants, tandis que la grand’mère, par un commandement énergique, rétablit le silence qu’avait subitement troublé le chat gourmand, sour¬nois et voleur.</p>
-       <p xml:id="para_13_90_110">En dix minutes, nous avions réglé cette importante question de sau¬ver avant tout les jumeaux, qui réclamaient des soins minutieux exclu¬sivement maternels, et dont l’état ne pouvait supporter le trajet mati¬nal aux crèches. La mère quitta le tissage pour redevenir bonne mère et les jumeaux furent sauvés.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_13_90_113">La maison habitée par la famille G. est située à l'extrémité de la ville de Saint-Quentin, sur le chemin de Gauchy, qui va du faubourg d’Isle aux nouveaux abattoirs.</p>
-        <p xml:id="para_13_90_114">L’usine Schmidt, où a travaillé Constant, tient également par un côté à ce chemin de Gauchy, mais plus près du faubourg, dans la partie où les maisons ne sont pas éloignées les unes des autres, tandis que celle des époux G. est une des dernières du côté des abattoirs, avant les champs, et devant un terrain de remblai, qui est un des points noirs de l'habitation, car on y jette toutes sortes de débris, dont certains peu¬vent être malsains.</p>
-        <p xml:id="para_13_90_115">Cette restriction faite, la situation est excellente, les habitations n’étant pas trop agglomérées ; l’air et le soleil entourant la maison, d’où les enfants peuvent facilement s’échapper, seuls, ou avec la mère et la grand’mère, pour aller cultiver les jardins de la famille, qui sont peu éloignés, ramasser du bois sous les arbres, du fumier sur les routes, ou simpiement pour s’ébattre ou se reposer dans les champs.</p>
-        <p xml:id="para_13_90_116">L’habitation est spacieuse et commode.</p>
-        <p xml:id="para_13_90_117">Le rez-de-chaussée est sur une cave, où il y a malheureusement des infiltrations d’eau. On y entre dans un corridor longeant la chambre des parents, aboutissant à l’escalier et donnant sur la cuisine. Celle-ci prend jour sur la cour et les champs par une porte-fenêtre. C’est une belle pièce assez grande, qui sert en même temps de salle à manger.</p>
-        <p xml:id="para_13_90_118">A gauche de la porte, on y trouve la table de famille, toujours bien lavée ; en face, le fourneau économique ; puis l'armoire à vaisselle et, au<pb facs="#facs_14" n="91" source="od2m_s3_t3_m109a_0109.xml"/>dessus, des rayons coquettement garnis de papier, où sont exposées des assiettes (gagnées avec des tickets d’épicerie) et autres pièces de service.</p>
-        <figure rend="portrait" type="photo">
-         <head resp="original" type="photo" xml:id="figure_1">La famille G. et son habitation [§10]</head>
-         <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f181/295,475,1098,1746/full/0/default.jpg" xml:id="illu_13_91_2"/>
-        </figure>
-        <p xml:id="para_13_91_122">Une porte fait communiquer la cuisine et la chambre des parents, où l’on voit leur lit, bien modeste, ainsi que l’indique l’inventaire; à côté, le berceau d’osier des jumeaux (avec oreiller des deux côtés), la chemi<pb facs="#facs_15" n="92" source="od2m_s3_t3_m109a_0110.xml"/>née, l’armoire à linge, puis une petite table toujours chargée de linge à raccommoder ou de vêtements à refaire ; la fenêtre, donnant sur le che¬min de Gauchy, la machine à coudre et le petit lit d’André.</p>
-        <p xml:id="para_13_92_125">Neuf chaises vont et viennent de la cuisine à la chambre.</p>
-        <p xml:id="para_13_92_126">Sur la cheminée, une pendule, deux lampes, de nombreux bibelots. Bien des photographies autour de la cheminée. Au-dessus du lit des parents, quelques gravures, sans caractère spécial.</p>
-        <p xml:id="para_13_92_127">La cour est assez grande. Elle renferme des niches à lapins, une autre pour l’oie et les cochons d'Inde. En face des niches, sont rangés les débris de bois, ramassés chaque jour par les enfants et les femmes.</p>
-        <p xml:id="para_13_92_128">Au premier, l’escalier débouche dans le corridor, qui n'a plus que la moitié de celui du rez-de-chaussée. En face, une porte donne accès à la chambre de grand’mère et des grands, vaste pièce qui s’étend sur toute la façade de la maison. On y voit : le lit de grand'mère, le seul qui soit en bois et possède un sommier ainsi qu’un matelas de laine, une chemi¬née, sans aucune garniture, un portemanteau, protégé par un rideau et une tablette, auquel sont pendus les vêtements du dimanche. Deux lits pour les trois garçons, tournant le dos à celui d’Henriette et de Geor¬gette. Une fenêtre donne sur le chemin de Gauchy.</p>
-        <p xml:id="para_13_92_129">Le cachet de première communion d’Eile, une gravure de la Répu¬blique et un vieux coucou sont les seuls ornements de cette chambre, qui ne possède aucun autre siège que les lits.</p>
-        <p xml:id="para_13_92_130">Le corridor du premier communique également avec la pièce de débarras. éclairée en haut par un vasistas et renfermant les plus vieux vêtements de la famille, pendus sur une corde, et non recouverts ; de vieilles chaussures, presque toutes dépareillées, qui servent pour rac¬commoder les autres, et des débris de charbon et de bois carbonisé ramassés récemment dans les décombres du grand incendie de la mai¬son Sere1 frères.</p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_13_92_131">MEUBLES............ 619f50</p>
-        <p xml:id="para_13_92_132">1° Literie : 1 lit en fer pour les parents, 35f 00 ; — 1 paillasse, 8f 00 ; — 1 ma¬telas en varech, 20f 00 ; — 1 traversin rempli de paille courte (balle d'avoine), 3f 50; — 1 couverture grise, 15f 00 ; — 1 dessus de lit en coton, 5f 00; — 1 petit lit en fer, pour André, 4f 00 ; — 1 paillasse. 3f 00 ; — 1 paillasse de paille courte, 5f 00; — 1 oreiller de paille courte, 3f 00 ; — 1 couverure, 3f 00 ; — 1 berceau en osier pour les jumeaux, 2f 50 ; — 1 paillasse de paille courte, 3f 00 ; — 1 petit oreiller de paille courte, 2f 00 ; — 1 couverture, 2f 00 ; — 1 lit en noyer pour la grand'¬mère, 40f 00 : — 1 sommier, 25f 00 ; — 1 matelas de laine, 40f 00 ; — 1 oreiller de courte paille, 3f 50 ; — 1 couvre-pieds piqué, 10f 00 ; — 2 lits en fer pour les garçons, 30f 00 ; — 2 paillasses, 7f 00; — 2 paillasses de paille courte, 15f 00 ; — 2 oreillers, 7f 00 ; — 2 couvertures. 16f 00 ; — 1 lit en fer pour les filles, 15f 00; <pb facs="#facs_16" n="93" source="od2m_s3_t3_m109a_0111.xml"/> — 1 paillasse, 3f 50 ; — 1 paillasse de paille courte, 7f 50; — 1 oreiller, 3f 50 ; — 1 couverture, 8f 00. — Total, 345f 00.</p>
-        <p xml:id="para_13__135">2° Cuisine : 1 fourneau, 37f 00 ; — 1 armoire, 35f 00 ; — rayons à vaisselle, 15f00; — 9 chaises, 36f 00 ; — 1 table, 11f 00. — Total, 134f 00.</p>
-        <p xml:id="para_13__136">3° Chambre des parents : 1 armoire, 36f 00; — 1 table, 8f 00 ; — 1 pendule, 28f 00 ; — 2 lampes, 8f 00 ; — nombreux petits bibelots, 20f 00 ; — gravures, 5f 00 ; — photographies de famille, encadrées, 15f 00. — Total, 120f 00.</p>
-        <p xml:id="para_13__138">4° Chambre de la grand’mére et des grands : 1 vieux coucou, 2f 00; — planche, portemanteau et rideau pour les vêtements, 15f 00 ; — cachet de première com¬munion, encadré, 2f 00 ; — 1 autre gravure (République), 1f 50. — Total, 20f 50.</p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_13__139">USTENSILES............ 68f 10</p>
-        <p xml:id="para_13__140">1° Servant à la préparation et à la consommation des aliments : 1 pot à graisse, 0f 40 ; — 1 marmite en émail, 6f 50 ; — 1 série de casseroles, 3f 75 ; — 1 fait-tout en émail, 2f 25 ; — 1 cuvette, 0f 75 ; — 1 cocotte, 4f 50 ; — 1 poêlon, 1f 50; — 1 bassine, 2f 00 ; — 3 couteaux, 1f 50 ; — 10 couverts, 3f 00 ; — 3 biberons et 4 tetines, 2f 20 ; — 1 moulin à café, 2f 50 ;— 1 cafetière-filtre, 2f 00 ; — 1 panier, 2f 50; — 1 panier à salade, 0f 40; — boites diverses, 3f 00 ; — 2 passoires, 1 enton¬noir, 1 louche, 1 écumoire, 1f 00 ; — bouteilles, 2f 00 ; — 3 plats, 2f 00 ; — 22 assiettes, 2f 50 ; — 10 verres, 0f 60; — 10 tasses, 1f 00; — 8 bols, 1f 60; — 1 sou¬pière, 2f 00 ; — 1 saladier, 1f 00 ; — vases divers, 3f 00 ; — accessoires du foyer, 3f 00. — Total, 58f 45</p>
-        <p xml:id="para_13__144">2° Servant au soins de propreté et à l'entretien de la maison et du mobilier : 2 balais, 3f 10 ; — 2 seaux, 1f 75 ; — 1 boîte à savon, 0f 30 ; — 1 trépied (ancien pied de berceau), 0f 50 ; — 1 boite à outils, marteau, etc., 4f 00. — Total, 9f 65.</p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_13__146">VÊTEMENTS............  528f 95</p>
-        <p xml:id="para_13__147">VÊTEMENTS DE LA MÈRE ET DE LA GRAND'MÈRE(102f 00).</p>
-        <p xml:id="para_13__148">Pour le dimanche : 2 jupes noires, 30f 00 ; — 2 tabliers, 4f 50 : — 2 matinées, 6f 00 ; — 2 fichus de laine, 5f 00 ; — 2 fichus de tête, 2f 50 ; — 2 jupons, 4f 50; — 2 cravates, 1f 50 ; — 2 paires de pantoufies, 6f 00.</p>
-        <p xml:id="para_13__149">Pour tous les jours : 2 jupes, 15f 00; — 2 matinées, 5f 00; — 2 paires de sa¬bots, 4f 00 ; — 2 camisoles de nuit, 3f 00 ; — 4 chemises de jour, 6f 00 ; — 4 mou¬choirs, 3f 00; — 4 paires de bas, 6f 00. — Total, 102f 00.</p>
-        <p xml:id="para_13__150">VÊTEMENTS DU PÈRE  (51f 25).</p>
-        <p xml:id="para_13__151">Pour le dimanche : Veston et gilet, 10f 50 ; — pantalon, qui a servi au mariage, 3f 50 ; — 1 chemise, 3f 00 ; — 1 chapeau, 2f 00 ; — bretelles et cravate, 2f 50.</p>
-        <p xml:id="para_13__152">Pour le travail : 1 pantalon de velours, 6f 00; — 1 paletot de drap, usagé, 6f00;  — 2 chemises, 5f 00 ; — 3 paires de chaussettes, 2f 25 ; — 3 mouchoirs, 2f 25 ; — 1 paire de chaussons, 2f 50 ; — 1 paire de sabots, 3f 00 ; — 1 casquette, 2f 00 ; — 1 ceinture, 0f 75. — Total, 51f 25.</p>
-        <p xml:id="para_13__156">VÊTEMENTS D’ÉMILE, D'ALBERT ET DE CONSTANT (175f 50).</p>
-        <p xml:id="para_13__157">Pour le dimanche : Vêtement complet de leur première communion : celui d’Émile, 11f 50 ; — celui d’Albert, 15f 50 ; — celui de Constant, 30f 00 ; — 3 cha¬peaux, 7f 50; — 3 chemises, 7f 50 ; — cravates et bretelles, 9f 00; — 3 paires de chaussures, 15 00.</p>
-        <p xml:id="para_13__158">Pour le travail : 3 vestons, 15f 00; — 3 pantalons. 18f 00 ; — 6 chemises, 12f 00 ; — 3 ceintures, 1f 50 ; — 9 paires de chaussettes, 4f 50 ; — 9 mouchoirs, 4f 50 ; — 3 bérets, 3f 75 ; — 3 paires de chaussons, 6f 75 ; — 3 paires de sabots, 9f 00 ; — 2 tabliers d’école, 4f 50. — Total, 175f 50.</p>
-        <p xml:id="para_13_94_164"><pb facs="#facs_17" n="94" source="od2m_s3_t3_m109a_0112.xml"/> VÊTEMENTS D'HENRIETTE ET DE GEORGETTE (107f 00).</p>
-        <p xml:id="para_13_94_165">Pour le dimanche : 2 robes, 24f 00 ; — 2 chapeaux, 7f 00 ; — 2 fichus de laine, 5f 00 ; — 2 tabliers, 5f 00 ; — 2 jupons, 6f 00 ; — 2 paires de chaussons, 10f 00.</p>
-        <p xml:id="para_13_94_166">Pour tous les jours : 2 robes, 12f 00 ; — 2 fichus, 4f 00; — 2 fichus pour la tête, 2f 50 ; — 2 foulards cravate, 2f 00 ; — 2 jupons, 6f 00 ; — 4 paires de bas, 5f 00 ; — 6 mouchoirs, 2f 00; — 2 tabliers d’école, 4f 50 ; — 2 paires de chaussons. 3f 00 ; — 2 paires de galoches, 9f 00. — Total, 107f 00.</p>
-        <p xml:id="para_13_94_167">VÊTEMENTS D'ANDRÉ (33f 20).</p>
-        <p xml:id="para_13_94_168">Pour le dimanche : Petit vêtement, blouse et culotte, 7f 00; — 1 béret, 1f 25 ;— 1 chemise, 1f 75 ; — 1 paire de chaussures, 3f 50; — 1 foulard cravate, 0f 75.</p>
-        <p xml:id="para_13_94_169">Pour tous les jours : 1 jersey, 2f 50 ; — 2 chemises, 2f 50 ; — 3 paires de bas, 3f 00; — 3 mouchoirs, 1f 20 ; — 1 foulard, 0f 75 ; — 1 pantalon, 3f 00 ; — 1 ta¬blier, 2f 00 ; — 1 béret, 1f 00 ; — 1 paire de galoches, 3f 00. — Total, 33f 20.</p>
-        <p>LAYETTES JUMEAUX (60f 00).</p>
-        <p xml:id="para_13_94_170">Layettes reçues, 42f 00 ; — 12 couches, 9f 00; — 6 petits fichus de coton, 3f 00;  — 2 brassières de laine, 3f 00 ; — 2 fichus de laine, 3f 00. — Total, 60f 00.</p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_13_94_172">LINGE de maison............ 136f 50</p>
-        <p xml:id="para_13_94_173">10 grands draps, 100f 00 ; — 4 draps d'enfants, 14f 00; — 18 serviettes, 13f 50 ; — 12 torchons, 6f 00 ; — 4 taies d’oreiller, 3f 00. — Total, 136f 50.</p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_13_94_175">VALEUR TOTALE du mobilier et des vêtements............ 1,353f05</p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
-       <p xml:id="para_13_94_178">Chacun, dans la famille, ayant un tempérament différent, se distrait à sa manière.</p>
-       <p xml:id="para_13_94_179">Le père illettré ne s’intéresse même pas aux livres de prix de ses enfants que l’instituteur du quartier, au dire de la mère, choisit on ne peut mieux. Sa récréation principale est de jardiner, et quand il est bien luné, il fait un jardin que tous admirent en passant, et qui fournit à la famille d’abondants légumes.</p>
-       <p xml:id="para_13_94_180">Les plus petits des enfants l’assistent quelquefois, ils ont la charge de cueillir les légumes et mettent leur point d’honneur à ne pas se tromper ; les plus sages reçoivent souvent cette responsabilité qui les grandit à leurs yeux. Quant au grand fils Émile, comme récompense, il a quinze sous par dimanche. Il s’arrange avc cela pour ses récréations et son tabac. Son plaisir favori, c’est de jouer au cochonnet, jeu d'adresse où on lance des ronds de métal le plus près possible d’un centre indiqué.</p>
-       <p xml:id="para_13_94_181">Constant est un amateur de pêche, il a une patience admirable à attendre que sa ligne tremble et que le goujon du canal s’y accroche.</p>
-       <p xml:id="para_13_95_183"><pb facs="#facs_18" n="95" source="od2m_s3_t3_m109a_0113.xml"/> Quant aux fillettes, elles accompagnent la mère et la grand’mère quand elles vont au cimetière visiter les tombes de leurs frères décédés; puis elles ont la charge de porter les jumeaux à tour de rôle, parés des jolies petites robes bleues et roses qu'une main charitable leur a fabriquées. On n’est d’ailleurs coquet que pour ceux-là, qui sont les joujoux des deux filles et du gros André.</p>
-      </div>
-     </div>
-     <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
-       <p xml:id="para_13_95_187">Les treize premières années de leur mariage, le père et la mère G. purent travailler en filature, grâce à la présence au logis de la mère de la femme, qui éleva les enfants.</p>
-       <p xml:id="para_13_95_188">Ils restèrent les douze dernières années au tissage de M. Paul Schmidt, industriel parfait, dont la compétence technique n’a d’égale que sa haute philanthropie. Il envoya des secours immédiats à la nais¬sance des jumeaux, garda l’homme malgré ses irrégularités de travail, et lui rappela souvent avec une excessive bonté ses devoirs de père. Constant l’en récompensa mal en changeant d’usine.</p>
-       <p xml:id="para_13_95_189">Depuis les chômages, survenus aux textiles en 1908, il travaille à l'usine Taine et Cie (anciennement Testart), voisine de la manufacture P. Schmidt.</p>
-       <p xml:id="para_13_95_190">Comme phase matérielle dans la vie générale de la famille, il n'y eut jamais de misère noire, grâce au bureau de bienfaisance et aux œuvres privées. Aucun enfant ne fut ni gravement malade ni blessé accidentel¬lement.</p>
-       <p xml:id="para_13_95_191">La naissance des jumeaux, en février 1908, et l’état de santé où se trouva la mère quelques mois avant leur venue, l’empêchèrent alors de travailler. D'où une gêne réelle cette année-là. Ces bébés ne purent s’ac¬commoder des crèches, où ils furent mis à trois semaines (trop tôt, sur¬tout en hiver). Notez qu'on les retire à six heures et demie du matin de leur berceau pour les mener en pleine route, où le grand air les conges¬tionne.</p>
-       <p xml:id="para_13_96_193"><pb facs="#facs_19" n="96" source="od2m_s3_t3_m109a_0114.xml"/> Sans la naissance de ces petits, il est probable que l’équilibre finan¬cier se serait maintenu comme d’ordinaire.</p>
-       <p xml:id="para_13_96_194">On a vu (<ref target="#part_02_01_04" type="renvoi_int_mono">§ 4</ref>) l’histoire de la famille au point de vue de la santé de ses membres. Vers la fin de 1908, la mort cruelle, brutale, est venue frapper Albert, âgé alors de douze ans.</p>
-       <p xml:id="para_13_96_195">Quelle tristesse en ce tableau !</p>
-       <p xml:id="para_13_96_196">La méningite accomplissait son œuvre, et le cher patient reposait sur un lit d’une blancheur remarquable, autour duquel la bonne mère avait épinglé deux couvre-lits de coton blanc artistement raccommodés, ancien cadeau d’un grand cœur qui avait voulu faire plaisir au lieu d’empiler ces vieux crochets dans une caisse de grenier. Et que de soins pour Albert jusqu’à sa dernière heurel Une tristesse régnait partout. Durant deux mois, l’entrain ne put reparaître et la petite Henriette pleurait avec ses deux mamans chaque fois qu'on évoquait ce pauvre cher Albert.</p>
-       <p xml:id="para_13_96_197">En résumé, 1908 a été rempli d’épreuves pour la famille. Pendant cette unique année, on a vu la naissance des jumeaux ; la maladie, qui frappe dès leur naissance les pauvres petits, et met l’un d’eux en danger de mort ; le chômage, obligeant le père à aller, loin de la famille et de la maison, travailler aux betteraves avec ses fils aînés, le condamnant ensuite à se placer comme jardinier, pendant qu’Émile se fait domestique de ferme, déséquilibrant le budget et entraiînant à quelques dettes chez les fournisseurs et au retard dans le paiement du loyer.</p>
-       <p xml:id="para_13_96_198">Cette année apporte encore la mort du pauvre Albert.</p>
-       <p xml:id="para_13_96_199">Existence en somme qui, partout ailleurs, aurait été bouleversée bien des fois et peut-être irrémédiablement, sans le stoïcisme de deux femmes qui furent et restent de fait chefs de famille.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille</head>
-       <p xml:id="para_13_96_203">Les sociétés de secours mutuels, si accessibles et si bienfaisantes aux travailleurs qui s'y sont inscrits jeunes ou qui, étant plus âgés, ne sont pas trop chargés de famille, deviennent presque impossibles aux hommes comme Constant G. Le droit d’entrée en est trop élevé et le mé<pb facs="#facs_20" n="97" source="od2m_s3_t3_m109a_0115.xml"/>nage, qui ne mange déjà pas à sa faim, ne peut véritablement rien dis¬traire des salaires mensuels. Malgré les avantages consentis aux asso¬ciations, aux groupements, ce citoyen utile semble écrasé sous une charge trop lourde.</p>
-       <p xml:id="para_13_97_206">Sous ce poids succombent ceux dont la nature, semblable à celle de ce père de famille, ne trouve pas dans une femme de devoir, d'ordre et de cœur, l'appui qui lui est nécessaire.</p>
-       <p xml:id="para_13_97_207">Ces hommes n’ont aucune tendance à l’action sociale, et j'en accuse leur tempérament d’abord, puis la fatigue causée par le travail. Ce sont des passifs. De plus, le travail de suroeillant de métier mécanique, qui ne demande pas l'effort d’intelligence que réclamaient jadis les métiers à bras, fait que les prédispositions à l’apathie, à l'indifférence s’accen¬tuent et que, rapidement, la personnalité de lindividu s’anesthésie.</p>
-       <p xml:id="para_13_97_208">Les circonstances atténuantes plaident en faveur de Constant G., qui, ne sachant ni lire ni écrire, ne reçoit que le reflet des causeries et du jugement de ses camarades. Tout est amorti en lui, et c’est peut-être heureux.</p>
-       <p xml:id="para_13_97_209">Les crises semblent alors moins âpres, et j’incline à penser que les deux femmes, qui ont pleuré toutes leurs larmes au décès d’Albert, restent moins sensibles qu’autrefois aux ennuis secondaires.</p>
-       <p xml:id="para_13_97_210">Mais au-dessus de toutes ces considérations et des aides municipales et privées déjà nommées, et détaillées comme il convient au budget, une vertu-force se dresse magnifique, auréolant ce foyer : c’est l’esprit familial. Cette tendance très vraie, très accusée, règne parfaitement chez les G. Même après les faiblesses consommées, elle sonne le rappel.</p>
-       <p xml:id="para_13_97_211">La tendresse maternelle en est aussi le puissant aimant. Elle n’est comparable qu’à celle de l’aeule. Ici l’on s’aime bien, et c’est la cause du bonheur, malgré tout. Personne ne mange avec appétit quand l’un des petits souffre, et sitôt qu’un bébé pleure, ce ne sont pas deux mains de domestique agacée qui s’avancent, mais huit ou dix bras joyeux, toujours prêts à bercer et à chérir.</p>
-       <p xml:id="para_13_97_212">Ah ! les braves cœurs dans les braves gens !</p>
-       <p xml:id="para_13_97_213">Et puis, somme toute, n’y a-t-il point assez de turbulents et de me¬neurs ! G., de par sa nature, ne frappe personne, ne brutalise pas, ne braille point. C’est un pacifique.</p>
-       <p xml:id="para_13_97_214">Ce serait un suiveur. Après tout, une bonne armée doit réunir autre chose que des chefs et des agités. Ces tempéraments peu frondeurs sont moutonniers et, sur eux, la discipline vaudra toujours.</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13-2">Note sur la famille depuis 1908</head>
-       <p xml:id="para_13_98_217"><pb facs="#facs_21" n="98" source="od2m_s3_t3_m109a_0116.xml"/> C’est au milieu de bien des fluctuations<note type="bp">
-         <p>Elles ont apporté de grandes difficultés à notre travail, pour lequel nous sommes obligées de réclamer un peu d'indulgence.</p>
-        </note>qu’ont été recueillis les élé¬ments de cette monographie, et, tandis qu'ils sont mis en œuvre, la vie continue à opérer dans la famille, et à opérer d’abord tristement. Le travail manque toujours aux tisseurs ; la place d'homme de peine n'avait été que temporaire pour Constant G.</p>
-       <p xml:id="para_13_98_218">Cette bonne nature n'avait eu qu’à se laisser vivre pendant seize ans. L'amour pour sa femme, le travail, les enfants aimables, la maison bien tenue, l’ont porté dans la vie comme une barque sur un lac paisible ; mais la tempête s’est élevée, le vent a soufflé bien âpre. Un enfant mort, pas de travail, les dettes qui montent, le loyer qui n’est plus payé, le propriétaire qui menace ; comme il faut tenir ferme la barre pour ne pas laisser le vaisseau se briser contre tant de récifs ! Et Constant G., qui était un brave homme, qui pratiquait la vertu dans les temps faciles, qui allait volontiers à l'église, sans bien savoir pourquoi, ne tenait pas la barre du gouvernail de son me, celle de la foi, de la confiance en Dieu et de la soumission à sa volonté, quoi qu'il arrive !</p>
-       <p xml:id="para_13_98_219">L'épreuve et l’oisiveté du chômage le trouvèrent désemparé, filant sans résistance au courant de tous les dangers qui menacent et attirent le pauvre ouvrier sans travail : le débitant, les mauvais camarades, cer¬taines femmes, qui, pour vivre sans privations et sans fatigues, dé¬truisent d’un coup, dans l’ombre, ce que les braves mères de famille ont édifié avec tant d'amour et d’efforts. Constant, découragé par la misère des siens, étourdi par la faim, qui rend la boisson mortelle, entraîné par des conseils perfides, que rien de ferme en lui ne savait repousser, quitta sa femme et ses enfants et partit.</p>
-       <p xml:id="para_13_98_220">L’éloignement du cœur ne pouvait être de longue durée quand de si longs et de si bons souvenirs rappelaient vers la femme abandonnée, quand tant de petites têtes charmantes semblaient s’élever pour appeler le père. Mais la pauvre femme blessée, épuisée, elle aussi, tenait rigueur.</p>
-       <p xml:id="para_13_98_221">Il fallut intervenir, et la dame inspectrice arriva.</p>
-       <p xml:id="para_13_98_222">Sur son rapport, le maire fit venir Constant, le mit en face de sa faute, lui montra toute la responsabilité d’un père de famille déserteur. Mais, en même temps, il comprit que la charge d’une famille nombreuse<pb facs="#facs_22" n="99" source="od2m_s3_t3_m109a_0117.xml"/>est bien lourde, pour les épaules d’un ouvrier qui n’a d’autres ressources que son gain journalier, et impossible à soutenir, quand le travail vient à manquer. Il accorda à la famille un secours immédiat, qui l’aida à se relever avec plus de confiance et de courage.</p>
-       <p xml:id="para_13_99_226">Aujourd’hui, malgré le décès d'un nouvel enfant<note type="bp">
-         <p>Henri, né Ie 18 février 1909, mort en septembre, même année.</p>
-        </note>, qui ne vécut que quelques mois, la famille G. a repris son calme et sa marche régulière.</p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
-       <pb facs="#facs_23" n="100" source="od2m_s3_t3_m109a_0118.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic url="#" xml:id="tble_13_100_3"/>
-       </figure>
-       <!--<p xml:id="para_13_100_231">SECTIoN 1</p>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription</title>
+<respStmt>
+<persName>
+<forename>Alix</forename>
+<surname>Chagué</surname>
+<affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+</persName>
+<resp>acquisition et structuration initiale des textes</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Jean-Damien</forename>
+<surname>Généro</surname>
+<affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+<affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+</affiliation>
+<affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+</affiliation>
+</persName>
+<resp>encodage scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Stéphane</forename>
+<surname>Baciocchi</surname>
+<affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+</affiliation>
+</persName>
+<resp>direction scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Anne</forename>
+<surname>Lhuissier</surname>
+<affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+</affiliation>
+</persName>
+<resp>direction scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Éric</forename>
+<surname>Villemonte de la Clergerie</surname>
+<affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+</persName>
+<resp>supervision technique</resp>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>projet ANR Time Us</publisher>
+<date from="2019" to="2021"/>
+<pubPlace>Paris, France</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_1">
+<surface lrx="1264" lry="1938"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f167/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_2">
+<surface lrx="1264" lry="1934"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f168/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_3">
+<surface lrx="1264" lry="1937"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f169/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_4">
+<surface lrx="1260" lry="1940"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f170/full/full/0/native.jpg"/>
+</facsimile>
+<!-- PAGE OUBLIÉE PAR LSE-OD2M -->
+<facsimile xml:id="facs_33">
+<surface lrx="1260" lry="1940"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f171/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_5">
+<surface lrx="1260" lry="1940"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f172/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_6">
+<surface lrx="1260" lry="1941"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f173/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_7">
+<surface lrx="1260" lry="1947"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f174/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_8">
+<surface lrx="1260" lry="1949"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f175/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_9">
+<surface lrx="1260" lry="1943"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f176/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_10">
+<surface lrx="1260" lry="1949"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f177/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_11">
+<surface lrx="1260" lry="1949"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f178/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_12">
+<surface lrx="1260" lry="1947"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f179/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_13">
+<surface lrx="1260" lry="1940"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f180/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_14">
+<surface lrx="1260" lry="1942"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f181/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_15">
+<surface lrx="1260" lry="1940"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f182/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_16">
+<surface lrx="1260" lry="1940"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f183/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_17">
+<surface lrx="1260" lry="1941"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f184/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_18">
+<surface lrx="1260" lry="1949"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f185/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_19">
+<surface lrx="1260" lry="1956"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f186/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_20">
+<surface lrx="1260" lry="1942"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f187/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_21">
+<surface lrx="1260" lry="1942"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f188/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_22">
+<surface lrx="1260" lry="1948"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f189/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_23">
+<surface lrx="1260" lry="1956"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f190/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_24">
+<surface lrx="1260" lry="1944"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f191/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_25">
+<surface lrx="1260" lry="1942"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f192/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_26">
+<surface lrx="1260" lry="1946"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f193/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_27">
+<surface lrx="1260" lry="1958"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f194/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_28">
+<surface lrx="1260" lry="1939"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f195/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_29">
+<surface lrx="1260" lry="1942"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f196/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_30">
+<surface lrx="1260" lry="1946"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f197/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_31">
+<surface lrx="1260" lry="1956"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f198/full/full/0/native.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_32">
+<surface lrx="1260" lry="1942"/>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f199/full/full/0/native.jpg"/>
+</facsimile>
+<text>
+<body>
+<div ana="ID-109a" type="chapter">
+<div n="001" type="section">
+<p xml:id="para_13__1">N° 109</p>
+<p xml:id="para_13__2">TISSEUR D'USINE</p>
+<p xml:id="para_13__3">DE SAINT-QUENTIN</p>
+<p xml:id="para_13__4">TACHERON</p>
+<p xml:id="para_13__5">DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS</p>
+<p xml:id="para_13__6">d’après</p>
+<p xml:id="para_13__7">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1908</p>
+<p xml:id="para_13__8">PAR</p>
+<p xml:id="para_13__9">Mmes <persName>BÉROT-BERGER</persName> ET <persName>LEBRUN</persName></p>
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">§ 1. ÉTAT DU SOL, DE L’INDUSTRIE ET DE LA POPULATION</head>
+<p xml:id="para_13__15"><pb facs="#facs_1" n="77" source="od2m_s3_t3_m109a_0095.xml"/> La ville de Saint-Quentin, vieille et belle ruche manufacturière, compte 52000 habitants. Elle est située à 156 kilomètres au nord-est de Paris et bâtie sur un coteau qui se rattache aux collines de l’Artois et dont l’altitude est de 108 mètres à l'Hôtel de ville.</p>
+<p xml:id="para_13__16">Au pied de cette colline coule la Somme, petit cours d’eau très tran¬quille et régulier, qui naît à quinze kilomètres de là, et se déroule dans une vallée bourbeuse, toujours humide.</p>
+<p xml:id="para_13__17">La Somme a formé deux étangs : l'étang du Haut, grande pièce d’eau de 80 hectares, embarrassée de roseaux et de nénuphars, et l’étang du <pb facs="#facs_2" n="78" source="od2m_s3_t3_m109a_0096.xml"/> Bas, aujourd'hui desséché et livré à une culture maraîchère bien comprise</p>
+<p>Entre les deux étangs, les Romains avaient établi une chaussée e construit un pont. C’est encore aujourd'hui le seul lieu de passage entre a ville et l’important faubourg d’Isle qui se développe au sud ; le fau oourg Saint-Martin s'étage au sud-ouest ; le faubourg Saint-Jean s’étend au nord et le quartier de Remicourt à l'est.</p>
+<p>La ville est donc encerclée de faubourgs dont la population s’accroit chaque jour. Remarque importante : ils sont tous bâtis sur le flanc de :oteaux exposés au nord. Cette mauvaise orientation, jointe à l’humi¬iité naturelle du sol et du climat, font paraltre plus froides et plus sombres les maisons des ouvriers.</p>
+<p>La ville est souvent embrumée, certaines rues noircies de la poussière le charbon des cités industrielles sont rarement sèches ; longtemps on espère les beaux jours clairs et chauds, le printemps est aigre mais nsoleillé, l'été lourd, parfois accablant, l’automne, bien qu’humide, reste égayé par la foire annuelle très fréquentée, l'hiver est boueux.</p>
+<p>Il pleut deux cents jours par an. C’est peut-être la raison qui fait chérir la maison familiale où l’on travaille et que la Saint-Quentinoise excelle à orner si personnellement.</p>
+<p>Le caractère des habitants ne souffre pas de l'inclémence de l’atmos hère. Le Saint-Quentinois est de rapports faciles, d’humeur enjouée. Il garde dans ses relations une rondeur que les rivalités politiques ot es luttes religieuses n’ont pas encore détruite. Il est hardi, entrepre¬nant, il a en lui-même une confiance extrême, il risque de grosses affaires parfois avec de faibles moyens</p>
+<p>a prospérité rapide de ceux qui ont réussi exerce sur lui une véri¬able fascination ; elle est pour lui un stimulant énergique. Il aime la iberté et il en use dans son langage, dans sa conduite, dans ses con¬ceptions politiques et économiques</p>
+<p>ci, pas trop de distinctions de castes, la mobilité des fortunes les détruirait vite, du reste ; l’homme créateur de richesse vaut mieux que la richesse qu’il crée, le Saint-Quentinois estime l'homme d’action, pprécie l’effort et admire le succès. L'artisan songe à agrandir son ate¬lier, l'ouvrier de choix rêve de travailler chez lui, d’être son maître ; l’ouvrier de manufacture souffre de travailler pour un patron. Du haut en bas de l’échelle, l'autorité de l'homme sur l'homme est gênante, on souhaite la supprimer ou la réglementer, c'est-à-dire l’amoindrir. L'in¬dividualisme est trs puissant.</p>
+<p xml:id="para_13_9_21"><pb facs="#facs_3" n="79" source="od2m_s3_t3_m109a_0097.xml"/> Les associations ouvrières de production ont grand’peine à se former, plus encore à durer. On les crée par instinct d’égalité, elles croulent ar suite des rivalités qui surgissent entre les coopérateurs. Les coopé¬ratives de consommation sont rares ; l’une d’elles, la Fraternelle, pros¬père, grâce à la valeur personnelle de quelques dirigeants et aux avan¬tages matériels qu’elle procure.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Constant G. (n°109aE1) - Blanche D. (n°109aE2) - Emile G. (n°109aE3) - Albert G. (n°109aE4) - Constant G. (n°109aE5) - Henriette G. (n°109aE6) - Georgette G. (n°109aE7) - André G. (n°109aE8) - Lucien G. (n°109aE9) - Paul G. (n°109aE10) - Henriette C. (n°109aE11)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille</head>
+<p>
+<persName xml:id="ID-109aE1">Constant G.</persName>, chef de famille, né à Seboncourt............ 36 ans.</p>
+<p>
+<persName xml:id="ID-109aE2">Blanche D.</persName>, sa femme, née au Cateau............ 34 —</p>
+<p>
+<persName xml:id="ID-109aE3">Émile G.</persName>, leur fils aîné, né à Saint-Quentin............ 15 —</p>
+<p>
+<persName xml:id="ID-109aE4">Albert G.</persName><note type="bp">
+<p>Les époux G, ont eu le malheur de perdre leur fils Albert, avant que cette monographie ne fut terminée.</p>
+</note>, 2ᵉ fils, né à Guise............ 12 —</p>
+<p>
+<persName xml:id="ID-109aE5">Constant G.</persName>, 3ᵉ fils, né à Saint-Quentin............ 11 —</p>
+<p>
+<persName xml:id="ID-109aE6">Henriette G.</persName>, 1ʳᵉ fille, née à Saint-Quentin............ 8 —</p>
+<p>
+<persName xml:id="ID-109aE7">Georgette G.</persName>, 2ᵉ fille, née a Saint-Quentin............  7 —</p>
+<p>
+<persName xml:id="ID-109aE8">André G.</persName>, 4ᵉ fils, né à Saint-Quentin............  4 —</p>
+<p>
+<persName xml:id="ID-109aE9">Lucien</persName> et <persName xml:id="ID-109aE10">Paul G.</persName>, leurs 5ᵉ et 6ᵉ fils jumeaux, nés à Saint-Quentin, en février 1908.</p>
+<p>
+<persName xml:id="ID-109aE11">Henriette C.</persName>, mére de Blanche, née à Valenciennes, mariée en 1861 et veuve depuis 1880............  71 —</p>
+<p>Les époux G. ont perdu un fils qui, né à Saint-Quentin le 20 mai 1905, y est mort à l'âge de trois mois et dix jours.</p>
+<p>La mére de Blanche, qui habite avec elle depuis son mariage, lui a rendu les plus grands services en l’aidant 4 élever les enfants.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales</head>
+<p>Les époux G. sont religieux de cœur et de tendances, religieux lans la pratique aussi, quand ils n'en sont pas empêchés par les occupations et les soucis de leur nombreuse famille. Cependant, il ne paraît <pb facs="#facs_4" n="80" source="od2m_s3_t3_m109a_0098.xml"/> pas y avoir chez eux de volonté ferme et arrétée de pratiquer la reli-gion.</p>
+<p>Leur nature affectueuse et bonne, l'éducation de la mère et de lagrand'mère, reçue pour toutes deux chez les sœurs, les bienfaiteursqui les entourent, I’élévation de leur nature, le besoin de trouver lapaix, la force à leur source, qu’ils sentent et devinent, plus qu’'ils ne laconnaissent par réflexion ou examen, voilà les simples et beaux motifede leurs sentiments.</p>
+<p>Avant la naissance des deux jumeaux, la mère était heureuse d’ha-biller tous ses enfants et de se rendre avec eux a la messe. Elle ne peutpas le faire maintenant, car la santé de ces deux bébés réclame beau-coup de soins, et la sienne a été un peu ébranlée par les soucis de leurnaissance.</p>
+<p>Les enfants vont à l'église sans leur mère; mais Dieu, qui bénit lesnombreuses familles, l’aidera à surmonter ces obstacles momentanés, etlui donnera la force nécessaire pour soigner à la fois l'âme et le corpsde ses chers enfants; car l'affection, la bonté, la tendresse sont, avecl'organisation, les qualités qui régnent toujours dans la maison.</p>
+<p>Le travail assidu et les peines n’y ont introduit ni l'impatience ni ladureté. Les enfants sont complaisants, obligeants les uns pour lesautres, et ils ont en même temps le respect de l’autorité, grâce a la mèreet à la grand’mère, car le père est plus faible et plus indifférent. L'ordrerégne, malgré des ressources minimes pour une trés nombreuse famille.</p>
+<p>La féte de la grand’mère n’est jamais oubliée, et le fils aîné, Émile,reçoit aussi, à la Saint-Nicolas, un petit cadeau utile, qui est un témoi-gnage de la reconnaissance et du respect auxquels lui donnent droitdéja les services qu’il commence à rendre à sa famille par son travail etson dévouement.</p>
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">§ 4. HYGIENE ET SERVICE DE SANTÉ</head>
+<p>Constant G. est assez grand, d’une figure douce, d’aspect bien portant,sans extrême vigueur physique.</p>
+<p>Toujours chargé d'enfants et de travail, malgré une sagesse relative,il s’est négligé parfois, hésitant à s'arréter pour un rhume, qui s’aggra-vait sans laisser heurensement de traces sérieuses. </p>
+<p>
+<!-- PAGE OUBLIÉE PARS LSE-OD2M --><pb facs="#facs_33" n="81" source="od2m_s3_t3_m109a_0099.xml"/> Cette nombreuse famille est obligée de se nourrir trop économiquement, et les forces du père ne sont pas assez entretenues et réparées.</p>
+<p>La mére est grande et d’aspect plus vigoureux. Cependant, la fatigue et les ennuis, qui arrivaient à dépasser ses forces, ont tari son lait et elle n'a pu nourrir ses jumeaux,</p>
+<p>Elle n’avait jamais été malade que d’un ulcére à la jambe, qui l'a arrétée quatre mois en 1901.</p>
+<p>Le fils aîné Émile est toujours en excellente santé. Il a été nourri onze mois au sein.</p>
+<p>Albert a eu des convulsions internes à l'âge de quinze jours. On I'a opéré, en 1906, d'un œil qui louchait à la suite de ses convulsions d’enfant, mais il n'a presque jamais vu de cet ceil. Enfant bon et très ordonné, éléve studieux, ayant l’orthographe facile et l’écriture superbe, il n’a jamais pu se familiariser avec l'arithmétique.</p>
+<p>Constant, moins soigneux, tousse pour un rien, a eu sans cesse des bronchites étant jeune et, chose curieuse, ces bronchites ont cessé a la suite d’une chute dans un puite d'eau sale. L’enfant avait alore huit ans.</p>
+<p>Henriette jouit d’une bonne santé; enfant intelligente et vive, elle va volontiers a I’école et au catéchisme, aide au ménage et commence à coudre à la machine et à habiller sa poupée avec élégance. Il faudrait la fortifier et, ce qui désole en général les bonnes mères chargées de famille, c'est d'être obligées de refuser à leurs enfants ce qui changerait leur constitution frêle en une plus robuste. Ea ce moment, cette fillette boit du sirop de fer donné par le bureau de bienfaisance.</p>
+<p>Georgette eat une bonne grosse fille, mais a beaucoup d’humeur, au dire de sa mére, qui la nourriseait lorsqu’elle fut prise de son ulcère à la jambe en 1901; cependant le docteur lui a déconseillé de sevrer l'enfant et elle a obéi. Depuis plusieurs mois, l'enfant souftre un peu de glandes au cou.</p>
+<p>André, solide et gros, est vagabond, tapageur et affectueux.</p>
+<p>Les petits jumeaux ont réclamé bien des soins et des attentions, tant de la grand'mère et de la mère que du bureau de bienfaisance et des œuvres privées. Que de sollicitude pour lee arracher souvent et tour à tour à la mort! Aussitôt remis à la crèche, ils retombaient, malgré mille soins; il faliait les tenir à la maison continuellement et les changer en les poudrant toutes les heures, leur donner des bains d’amidon chaque soir, etc., si l'on voulait voir tomber leur échauffement atroce et dormir quelques heures la nuit. Leurs pleurs réveilliaient toute la maison.</p>
+<p xml:id="para_13_82_23"><pb facs="#facs_5" n="82" source="od2m_s3_t3_m109a_0100.xml"/> La grand’mère est alerte, active, malgré ses soixante et onze ans, mais asthmatique et souffrant d’étouffements, surtout le matin ; elle est très énergique et se fait obéir instantanément. A part la faiblesse du père pour le tabac à chiquer, les habitudes d’hygiène de la famille sont excellentes : il faut noter en sa faveur la régularité dans les repas, une grande propreté, le soin des vêtements qui assure à chacun à peu près le nécessaire, suivant les saisons, et enfin le choix judicieux de l’habita¬tion, située presque dans les champs, à l'extrémité de la ville, oi les loyers sont beaucoup moins chers, ce qui permet de louer une maison entière, au lieu de s’entasser, au centre du faubourg, dans une ou deux pièces malsaines.</p>
+<p xml:id="para_13_82_24">Pierre, qui est mort à trois mois, en 1905, était né très délicat, avec perforation du palais. A cette époque, la mère ne quittait guère le tissage et les médecins de l’hospice pensèrent qu’il était victime du travail d’usine où elle s’épuisait.</p>
+<p xml:id="para_13_82_25">Malgré tout, — et il faut insister sur cette réflexion finale, — la famille, très bien constituée pour vivre, travailler, croitre et multiplier dans les conditions normales de la vie, n’est pas assez résistante pour supporter sans grands préjudices le surcroît de travail et de privations auquel sont assujetties les familles nombreuses dans notre organisation sociale : père, mère et enfants en pâtissent.</p>
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
+<p xml:id="para_13_82_28">C’est une famille d’ouvriers honnêtes qui est l’objet de cette monogra¬phie, elle peut être comparée à la moyenne des ménages des travailleurs français.</p>
+<p xml:id="para_13_82_29">L'influence des ascendances différentes chez l'homme et chez la femme s'y observe chaque jour et en toutes choses.</p>
+<p xml:id="para_13_82_30">Les parents deConstant G. n’ont jamais eu de métier régulier. Lui-méme ne sait pas lire et était ouvrier de cour jusqu'à son mariage. Sans sa femme, qui lui a appris à tisser, il serait sans métier fixe, et aurait trouvé, bien avant le chômage de 1908, cent occasions de se donner moins de peine et plus de liberté.</p>
+<p xml:id="para_13_82_31">Par suite de ce caractére même un peu veule, et dont il n’est guère responsable, puisqu’il est d’une hérédité telle et que ses frères lui res<pb facs="#facs_6" n="83" source="od2m_s3_t3_m109a_0101.xml"/>semblent moralement, les enfants ne sont presque jamais repris par lui, et voici le mot que cite sa femme : « Il laisse tout faire. »</p>
+<p xml:id="para_13__34">On observe donc ici que la puissance paternelle, que consacre le Code civil, ne s’exerce pas et qu’il faudrait plutôt assurer des droits à la pissance maternelle. C’est la mère qui, malgré les naissances succes¬sives, est le pouvoir directeur des enfants. Elle est le véritable chef de famille, cherchant et trouvant de l'ouvrage pour ses fils, les reprenant à table, exigeant de l’ordre, de la propreté morale et pbysique, et faisant taire les petits pendant que les grands lisent ou étudient leurs leçons. Mais quel calme peut-on obtenir au milieu des quatre derniers qui jouent ou piaillentt Et pourtant, pendant que la mère surveille son souper, observe le jeu des petits, elle est devant son rouet, où elle dé¬vide des fuseaux de laine qui doivent servir au tissage pour les lisières de flanelle. Elle gagne ainsi environ 1f par jour en s’y tenant huit heures. Ce n’est qu’en septembre 1908, depuis que les jumeaux vont mieux, qu’elle a entrepris ce travail à domicile, qui lui permet de soigner toute la maison. Elle comprend que sa présence à l'usine serait un crime, alors que tous rentrent affamés. La mère à l’atelier met les enfants au ruis¬seau et pousse le père au cabaret, conclut-elle.</p>
+<p xml:id="para_13__35">Le rang de la famille se maintient donc, malgré tout, par la mère qui, elle, sait lire, penser et prévoir, et dont les parents ont toujours eu un métier.</p>
+<p xml:id="para_13__36">En résumé, sans la femme qui « fait la maison », on aurait vu la famille sombrer depuis longtemps. Avec l’évolution féministe univer¬selle, on ne trouvera jamais assez d’exemples en l’honneur des femmes qui surent se priver toute leur vie même du linge indispensable, pour procurer à monsieur le tabac quotidien nécessaire à satisfaire ses goûts.</p>
+<p xml:id="para_13__37">Il était temps que la loi sur la libre disposition des salaires fût votée, mais en attendant que les femmes instruites plaident pour leurs sœurs de misère, il importe que les compétentes se renseignent aux foyers labo¬rieux et se persuadent que cette résignation et ce martyrologe ont suffi¬samment duré.</p>
+<p xml:id="para_13__38">L’esclavage doit sortir définitivement des rangs de notre société.</p>
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">MOYENS D'EXISTENCE DE LA FAMILLE</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
+<div subtype="proprietets_texte_1" type="proprietes">
+<p xml:id="para_13_84_41"><pb facs="#facs_7" n="84" source="od2m_s3_t3_m109a_0102.xml"/>(Mobilier et vêtements non compris)</p>
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_13_84_42">IMMEUBLES :</p>
+<p xml:id="para_13_84_43">La famille ne possède aucune propriété immobilière.</p>
+</div>
+<div subtype="argent_valeurs" type="proprietes">
+<p xml:id="para_13_84_44">ARGENT ET VALEURS MOBILIÉRES :</p>
+<p xml:id="para_13_84_45">La famille ne possède ni argent ni valeurs mobilières.</p>
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_13_84_46">ANIMAUX DOMESTIQUES............ 52f 00</p>
+<p xml:id="para_13_84_48">Un couple de lapins, 7f 00 ; — 12 jeunes lapins, 36f 00 ; — 2 cochons d'Inde, 3f 00 ; — 1 oie, 6f 00. — Total. 52f 00.</p>
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_13_84_49">MATÉRIEL SPÉCIAL DES Travaux et industries............ 290f95</p>
+<p xml:id="para_13_84_50">1° Pour le issage : 3 greffes, 1f 65 ; — 3 épincettes. 1f 50 ; — 3 efforges, 1f 20 ; — 3 paires de ciseaux, 4f 50; — 3 alênes. 0f 60. — Total, 9f 45.</p>
+<p xml:id="para_13_84_52">2° Pour les travaux de couture : 1 machine à coudre, 225f 00 ; — ciseaux, dés, aiguilles et divers, 10f 00. — Total, 235f 00.</p>
+<p xml:id="para_13_84_53">3° Pour le blanchissage et le repassae : 2 petites cuves, 6f 00 ; — 1 lessiveuse, 7f 50 ; — 1 couverture à repasser, 2f 00 ; — 2 fers, 4f 00. — Total, 19f 50.</p>
+<p xml:id="para_13_84_54">4° Pour le jardinage : 2 arrosoirs, 7f 00 ; — 1 bêche, 3f 50 ; — 1 pelle, 3f 50 ; — 1 raclette, 2f 50 ; — 1 binette, 2f 50 ; — 1 ràteau, 3f 00; — sabots à planches, 2f 50 ; — plantoir, 0f 50 ; — corde à aligner, avec pieux, 2f 00. — Total, 27f 00.</p>
+</div>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_13_84_56">VALEUR TOTALE des propriétés............ 342f 95</p>
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
+<p xml:id="para_13_84_57">La famille ne pourrait vivre, sans les subventions dont elle est géné¬reusement pourvue.</p>
+<p xml:id="para_13_84_58">Les salaires en argent des différents membres de la famille ne s’élvent, en effet, qu'à 1,320 fr. pour onze bouches à nourrir et les salaires en nature pour des travaux exécutés pour le compte d’étrangers n’atteignent que 175 fr. Leur total ne dépasse guère que d’un neuvième l’ensemble des subventions.</p>
+<p xml:id="para_13_84_59">Les Dames de la Providence de Saint-Quentin, qui sont les dames de <pb facs="#facs_8" n="85" source="od2m_s3_t3_m109a_0103.xml"/> charité de la ville : femmes de propriétaires, d’industriels, d’ingénieurs, de commerçants ou d’employés supérieurs, entourent de soins dévoués et intelligents les familles pauvres, et tout particulièrement celle qui fait l'objet de cette monographie. Elles vibrent à toutes les émotions de la famille ouvrière, prenant part à ses joies, comme à ses peines.</p>
+<p xml:id="para_13_85_63">S'agit-il d’un baptême, d’une première communion ? Elles sont là, avec un livre, des dragées, une petite robe blanche.</p>
+<p xml:id="para_13_85_64">La pauvre mère est-elle penchée au chevet d’un enfant malade ? Elles s’asseyent de l’autre côté du petit lit, veillant, elles aussi, aidant de leur savoir, de leur délicatesse, en même temps que de leur bourse.</p>
+<p xml:id="para_13_85_65">L’exiguité des ressources fait-elle plier sous le poids des soucis et des inquiétudes l’âme du père ou de la mère ? Elles remontent leur cou¬rage et leur donnent confiance en Dieu.</p>
+<p xml:id="para_13_85_66">C’est bien ici le rôle de la charité, dont médisent, croyons-nous, seu¬lement ceux qui n’ont jamais eu le bonheur de la rencontrer, ou qui sont incapables de la sentir dans leur propre cœur.</p>
+<p xml:id="para_13_85_67">Mais ces dames de charité n’ont le cœur ni étroit, ni mesquin. Elles savent que leur amour tout seul ne donne pas du pain à la famille ouvrière, n'habille pas les enfants.</p>
+<p xml:id="para_13_85_68">Elles ne sont pas toutes riches, les Visiteuses ; elles ne peuvent pas oublier leurs devoirs de famille pour secourir ceux qui souffrent et qu'elles aiment. Elles n’hésitent pas alors à recourir aux institutions sociales qui peuvent aider les malheureux.</p>
+<p xml:id="para_13_85_69">Elles les étudient pour les mieux connaître, afin de les mettre plus efficacement au service de leurs pauvres amis. Ces derniers ne doivent méconnaitre aucun des distributeurs, qui ont chacun leur utilité respec¬tive. L’école, avec ses dons de vêtements et sa cantine scolaire, ses four¬nitures de livres et de cahiers, ses petites fêtes ; le bureau de bienfaisance avec le pain, le charbon, les soins du médecin et les médicaments et son œuvre de la « Goutte de lait » avec le lait stérilisé pour les jumeaux ; la donation Clin, qui habille un jeune garçon, au moment où il peut cher¬cher une place ; la Mutualité maternelle<note type="bp">
+<p>La Mutualité maternelle (civile et militaire) de Saint-Quentin verse 40 fr. à la naissance de chaque enfant dont la mère a payé depuis dix mois une cotisa¬tion mensuelle de 0 fr. 25. Cette Société mutuelle. très prospère autant que popu¬laire, a, par ses multiples services d'hygiène sociale et ses inspectrices de premier ordre, réduit des deux tiers la mortalité infantile dans son champ d'action. Il est donc indispensable que les cœurs généreux aident toutes les travailleuses a s'y associer, afin de les voir bénéticier de ses précieux avantages.</p>
+</note>; la subvention à la vieillesse pour la grand’mère, apporent à la famille autant de ressources qui,<pb facs="#facs_9" n="86" source="od2m_s3_t3_m109a_0104.xml"/>jointes aux dons de vêtements, de literie et d’argent des Dames de la Providence, contribuent à lui assurer le nécessaire. Mais ce n’est ni le père, ni la mère, ni la grand’mère qui demandent pour eux ces secours. La plupart du temps, ils les ignorent; ils ne savent pas demander; ils sont timides, hésitants, absorbés par le travail, accablés de soucis.</p>
+<p xml:id="para_13_80_73">C’est leur dame visiteuse qui remplit auprès d’eux le rôle d’ange gar¬dien terrestre et qui fait le trajet de leur demeure dans tous les lieux de charité ou d'assistance humaine, où elle sait qu’elle obtiendra pour ses protégés ce dont ils ont besoin.</p>
+<p xml:id="para_13_80_74">Malgré tant de charité et de bonne organisation de l’assistance, il faut remarquer la faiblesse totale des ressources de cette nombreuse famille. Si nous faisons abstraction des salaires attribués aux travaux domes¬tiques, tels que blanchissage et repassage, arrangement et entretien du linge et des vêtements, culture du jardin, etc., nous avons pour res¬sources totales : 1,495f de salaires et 1,340f 95 de subventions, c’est-à-dire 2,835f 95 à répartir entre onze membres, soit 257f 80 pour chacun. C’est peu ! Et encore ces ressources sont-elles aléatoires : que le lugubre chômage s’accentue; que la dame visiteuse vienne à manquer; que le bureau de bienfaisance, l'école ou les particuliers diminuent leurs dons ou les suspendent, c'est la faim, c’est le dénuement et l’étiolement, pour ne pas insister davantage.</p>
+<p xml:id="para_13_80_75">Comment est-il possible que les familles nombreuses se multiplient dans un tel état de choses ?</p>
+<p xml:id="para_13_80_76">Ne serait-il pas juste, n’y a-t-il pas moyen d’établir une mutualité paternelle, obligeant tous les hommes de vingt-cinq à cinquante ans à verser chaque année une petite somme de 5 à 10 fr., et donnant droit à une allocation mensuelle pour chaque enfant au-dessous de treize ans ?</p>
+<p xml:id="para_13_80_77">Les familles ouvrières nombreuses seraient ainsi puissamment soutenues pendant la première jeunesse de leurs enfants, et laissées à elles-mêmes quand ceux-ci, élevés, deviennent pour les parents une source de richesse.</p>
+<p xml:id="para_13_80_78">L’homme de vingt-cinq à cinquante ans, qui n’arriverait pas à payer la modique cotisation de la mutualité paternelle, serait privé de ses droits d’électeur et de citoyen.</p>
+<p xml:id="para_13_80_79">La charité aura toujours sa place et ses devoirs. Aussi bonne que devienne une organisation sociale, il se trouve toujours des malheureux que pressent trop les rouages, ou qu’ont oubliés les institutions. La cha¬rité arrive alors avec tous les remèdes de son amour; mais son plus grand désir, son but suprême, est de chercher, sans y réussir jamais complète¬ment, à permettre à ceux qu'elle aime de se passer de son secours.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
+<div subtype="ouvrier" type="travaux">
+<p xml:id="para_13_87_83"><pb facs="#facs_10" n="87" source="od2m_s3_t3_m109a_0105.xml"/> L’année 1908 fut particulièrement rude pour la famille : naissance des jumeaux, chômage puis décès d’un fils de douze ans.</p>
+<p xml:id="para_13_87_84">Pendant les quatre premiers mois de l’année, Constant G. se faisait au tissage, chez M. Schmidt, une moyenne de 3f par jour.</p>
+<p xml:id="para_13_87_85">Son fils Émile ne gagnait alors que0f50; mais le gain du jeune homme s’élevait rapidement, lorsque le chômage arrêta tout travail et força G. à partir au binage<note type="bp">
+<p>Le « binage », dit encore le « démariage » des betteraves, consiste à enlever avec une binette l'excédent des jeunes betteraves et à ne laisser que les belles, bien venues, qui trouvent alors la place et la sève nécessaires.</p>
+</note>des betteraves avec ses trois fils aînés : Émile, Albert et Constant, ce dernier n'ayant encore que onze ans.</p>
+<p xml:id="para_13_87_86">Ils y gagnèrent 60f, recevant de plus, du fermier, des légumes de toutes sortes qui composaient leurs repas. Ils les faisaient cuire eux-mêmes, à l’aide de bois ramassé sur la route.</p>
+<p xml:id="para_13_87_87">Ils couchaient sous grange dans la longue paille. Rentré à Saint-Quentin et le chômage persistant, G. chercha partout, se mêla forcé¬ment à des intermédiaires qui lui promirent l’embauchage, tels les débardeurs du canal ou gérants d’estaminet qui prennent souvent des hommes de peine à 2f par jour, à la condition qu’ils en consommeront la moitié chez eux. Bref, G. se négligea.</p>
+<p xml:id="para_13_87_88">Enfin, les enfants criant famine, malgré quelques dons supplémen¬taires de l’assistance privée, car il n’eut pas droit à ceux de la commune, ayant été absent (il travaillait aux betteraves lors de la distribution des primes aux chômeurs), Constant G. entra chez un jardinier. Adroit dans ce métier, il y resta deux mois, y fut nourri et gagna net 2f50 par jour, plus sa nourriture. Ce travail au grand air le fortifia. En juillet, il sema et s'occupa des légumes pour les maraîchers. En août, il récolta les fruits, les cornichons, repiqua des fraisiers et se montra soigneux aux arrosages et à ce que commandait le patron. Le fils aîné, mile, gagna pendant ces deux mois une moyenne de 1f 50 par jour dans une ferme où il était à toute main.</p>
+<p xml:id="para_13_87_89">En septembre, le père recommença à travailler au tissage et se fit,<pb facs="#facs_11" n="88" source="od2m_s3_t3_m109a_0106.xml"/>comme autrefois, 18f par semaine jusqu’à fin décembre. Son fils Émile travaillait avec lui, et le salaire du jeune homme s’éleva rapidement à 2f par jour.</p>
+<p xml:id="para_13_88_93">L’usine Taine et Cie, où il était occupé, possède, dit-on, six cents mé¬tiers en une seule salle, on y tisse la laine. Le travail est de dix heures par jour, de six heures et demie du matin à six heures du soir, avec interruption de onze heures et demie à une heure pour le dîner. Le sa¬laire est calculé aux pièces et payé deux fois par semaine pour les petites, et en une fois, deux jours d’ordinaire après la remise du travail, pour celles qui exigent huit, dix ou même vingt jours ; on peut obtenir des acomptes.</p>
+</div>
+<div subtype="mere" type="travaux">
+<p xml:id="para_13_88_94">La mère, Blanche D., a gagné pendant une partie de l’année de 5 à 6f par semaine, à dévider chez elle des fuseaux de laine pour les lisières de flanelle de couleur. Une journée de travail de huit heures peut lui procurer 1f de salaire.</p>
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
+<p xml:id="para_13_88_98">On a vu, à propos de l’hygiène (<ref target="#part_02_01_04" type="renvoi_int_mono">§ 4</ref>), que la santé des membres de la famille G. était bonne, d'une façon générale, et bien équilibrée, quoique la vigueur fût en décroissance, et on retrouve la même note pour l’ali¬mentation, qui est saine, régulière, et bien ordonnée, mais insufifisam¬ment réconfortante. Comment pourrait-il en être autrement La somme allouée à la nourriture annuelle, pour une famille de onze membres, est de 1,999f, y compris toutes les subventions de nourriture, les lapins et autres animaux élevés dans la cour, et les produits du jardin, ce qui porte à 0f 497 la dépense journalière de chaque membre. Et les jumeaux réclamant du lait stérilisé, les fils aînés de onze, douze et quinze ans ayant le bon appétit de leur âge, le coùt de la nourriture du père et de la mère ne peut guère s'élever au-dessus de cette moyenne.</p>
+<p xml:id="para_13_88_99">Or, le père de ces huit enfants a trente-six ans, la mère trente-quatre. Ils sont dans la force de l’âge, surchargés de fatigue et de travail. Les<pb facs="#facs_12" n="89" source="od2m_s3_t3_m109a_0107.xml"/>forces, généreusement dépensées, auraient besoin de se renouveler lar¬gement aussi. Il n’en est rien.</p>
+<p xml:id="para_13_89_101">Entrons dans le détail de l’alimentation. En tenant compte du temps où le père et trois des enfants ont été nourris aux frais du patron, le pain est représenté par 1,735 kilos, soit 570 grammes par jour et par personne, les jumeaux n’en étant encore qu'au lait ; le riz, les nouilles et les autres pâtes, par 32 grammes ; les pommes de terre n’arrivent pas à 165 grammes. Les légumes ne sont guère abondants.</p>
+<p xml:id="para_13_89_102">La consommation de viande et de poisson n’est que d'un peu plus de 22 grammes par tête et par jour.</p>
+<p xml:id="para_13_89_103">Il n’est bu par an que 100 litres de bière, et aucune autre boisson fer¬mentée. Le chocolat est presque inconnu ; mais le café est assez aimé ; c’est le déjeuner du matin de presque toute la famille, en y ajoutant seulement un peu de lait. On le mélange aussi à l'eau, qui est la boisson de tous, afin de la rendre plus stimulante et plus digestive. La grand'¬mère soupe bien souvent le soir avec du café au lait.</p>
+<p xml:id="para_13_89_104">Les repas se font régulièrement : petit déjeuner à sept heures ; dlner à onze heures et demie ; gofûter à quatre heures ; souper à sept heures. Ils se prennent dans la cuisine, qui est en même temps la salle à man¬ger, une belle pièce, éclairée et aérée par une grande fenêtre ; les murs garnis de rayons de vaisselle assez coquettement rangée. La table est en bois blanc, mais solide, commode, et faite sur mesures, pour la pièce et pour la famille.</p>
+<p xml:id="para_13_89_105">Voici le récit d’un témoin qui rendait aux époux G. une visite inat¬tendue : Un jeudi à midi, nous entrions chez les G., afin de les trouver réunis. Les enfants, au retour de l’école, s’étaient lavé les mains et avaient pris place autour de la longue table. A une extrémité, le père; à l’autre, la grand’mère ; au milieu, la maman qui venait de servir dans chaque assiette fleurie une appétissante soupe aux légumes. Les couverts étaient admirablement frottés, la table de bois blanc ne portait aucune tache, et les plus petits enfants avaient, comme voisins, les parents ou les frères aiînés.</p>
+<p xml:id="para_13_89_106">Dès notre arrivée, les écoliers se levèrent comme s’il se fût agi de M. l’inspecteur primaire. Le père avança sa chaise, les grands interrom¬pirent leur repas, et les petites semblèrent hypnotisées par le paquet de pâtisserie que nous apportions. Nous causâmes de toutes les santés et du travail général, mais surtout des petits jumeaux fragiles, dont l’un était même en danger.</p>
+<p xml:id="para_13_89_107">Le père nous parut fatigué et peu enclin à reprendre ou à redresser<pb facs="#facs_13" n="90" source="od2m_s3_t3_m109a_0108.xml"/>les enfants, tandis que la grand’mère, par un commandement énergique, rétablit le silence qu’avait subitement troublé le chat gourmand, sour¬nois et voleur.</p>
+<p xml:id="para_13_90_110">En dix minutes, nous avions réglé cette importante question de sau¬ver avant tout les jumeaux, qui réclamaient des soins minutieux exclu¬sivement maternels, et dont l’état ne pouvait supporter le trajet mati¬nal aux crèches. La mère quitta le tissage pour redevenir bonne mère et les jumeaux furent sauvés.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_13_90_113">La maison habitée par la famille G. est située à l'extrémité de la ville de Saint-Quentin, sur le chemin de Gauchy, qui va du faubourg d’Isle aux nouveaux abattoirs.</p>
+<p xml:id="para_13_90_114">L’usine Schmidt, où a travaillé Constant, tient également par un côté à ce chemin de Gauchy, mais plus près du faubourg, dans la partie où les maisons ne sont pas éloignées les unes des autres, tandis que celle des époux G. est une des dernières du côté des abattoirs, avant les champs, et devant un terrain de remblai, qui est un des points noirs de l'habitation, car on y jette toutes sortes de débris, dont certains peu¬vent être malsains.</p>
+<p xml:id="para_13_90_115">Cette restriction faite, la situation est excellente, les habitations n’étant pas trop agglomérées ; l’air et le soleil entourant la maison, d’où les enfants peuvent facilement s’échapper, seuls, ou avec la mère et la grand’mère, pour aller cultiver les jardins de la famille, qui sont peu éloignés, ramasser du bois sous les arbres, du fumier sur les routes, ou simpiement pour s’ébattre ou se reposer dans les champs.</p>
+<p xml:id="para_13_90_116">L’habitation est spacieuse et commode.</p>
+<p xml:id="para_13_90_117">Le rez-de-chaussée est sur une cave, où il y a malheureusement des infiltrations d’eau. On y entre dans un corridor longeant la chambre des parents, aboutissant à l’escalier et donnant sur la cuisine. Celle-ci prend jour sur la cour et les champs par une porte-fenêtre. C’est une belle pièce assez grande, qui sert en même temps de salle à manger.</p>
+<p xml:id="para_13_90_118">A gauche de la porte, on y trouve la table de famille, toujours bien lavée ; en face, le fourneau économique ; puis l'armoire à vaisselle et, au<pb facs="#facs_14" n="91" source="od2m_s3_t3_m109a_0109.xml"/>dessus, des rayons coquettement garnis de papier, où sont exposées des assiettes (gagnées avec des tickets d’épicerie) et autres pièces de service.</p>
+<figure rend="portrait" type="photo">
+<head resp="original" type="photo" xml:id="figure_1">La famille G. et son habitation [§10]</head>
+<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f181/295,475,1098,1746/full/0/default.jpg" xml:id="illu_13_91_2"/>
+</figure>
+<p xml:id="para_13_91_122">Une porte fait communiquer la cuisine et la chambre des parents, où l’on voit leur lit, bien modeste, ainsi que l’indique l’inventaire; à côté, le berceau d’osier des jumeaux (avec oreiller des deux côtés), la chemi<pb facs="#facs_15" n="92" source="od2m_s3_t3_m109a_0110.xml"/>née, l’armoire à linge, puis une petite table toujours chargée de linge à raccommoder ou de vêtements à refaire ; la fenêtre, donnant sur le che¬min de Gauchy, la machine à coudre et le petit lit d’André.</p>
+<p xml:id="para_13_92_125">Neuf chaises vont et viennent de la cuisine à la chambre.</p>
+<p xml:id="para_13_92_126">Sur la cheminée, une pendule, deux lampes, de nombreux bibelots. Bien des photographies autour de la cheminée. Au-dessus du lit des parents, quelques gravures, sans caractère spécial.</p>
+<p xml:id="para_13_92_127">La cour est assez grande. Elle renferme des niches à lapins, une autre pour l’oie et les cochons d'Inde. En face des niches, sont rangés les débris de bois, ramassés chaque jour par les enfants et les femmes.</p>
+<p xml:id="para_13_92_128">Au premier, l’escalier débouche dans le corridor, qui n'a plus que la moitié de celui du rez-de-chaussée. En face, une porte donne accès à la chambre de grand’mère et des grands, vaste pièce qui s’étend sur toute la façade de la maison. On y voit : le lit de grand'mère, le seul qui soit en bois et possède un sommier ainsi qu’un matelas de laine, une chemi¬née, sans aucune garniture, un portemanteau, protégé par un rideau et une tablette, auquel sont pendus les vêtements du dimanche. Deux lits pour les trois garçons, tournant le dos à celui d’Henriette et de Geor¬gette. Une fenêtre donne sur le chemin de Gauchy.</p>
+<p xml:id="para_13_92_129">Le cachet de première communion d’Eile, une gravure de la Répu¬blique et un vieux coucou sont les seuls ornements de cette chambre, qui ne possède aucun autre siège que les lits.</p>
+<p xml:id="para_13_92_130">Le corridor du premier communique également avec la pièce de débarras. éclairée en haut par un vasistas et renfermant les plus vieux vêtements de la famille, pendus sur une corde, et non recouverts ; de vieilles chaussures, presque toutes dépareillées, qui servent pour rac¬commoder les autres, et des débris de charbon et de bois carbonisé ramassés récemment dans les décombres du grand incendie de la mai¬son Sere1 frères.</p>
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_13_92_131">MEUBLES............ 619f50</p>
+<p xml:id="para_13_92_132">1° Literie : 1 lit en fer pour les parents, 35f 00 ; — 1 paillasse, 8f 00 ; — 1 ma¬telas en varech, 20f 00 ; — 1 traversin rempli de paille courte (balle d'avoine), 3f 50; — 1 couverture grise, 15f 00 ; — 1 dessus de lit en coton, 5f 00; — 1 petit lit en fer, pour André, 4f 00 ; — 1 paillasse. 3f 00 ; — 1 paillasse de paille courte, 5f 00; — 1 oreiller de paille courte, 3f 00 ; — 1 couverure, 3f 00 ; — 1 berceau en osier pour les jumeaux, 2f 50 ; — 1 paillasse de paille courte, 3f 00 ; — 1 petit oreiller de paille courte, 2f 00 ; — 1 couverture, 2f 00 ; — 1 lit en noyer pour la grand'¬mère, 40f 00 : — 1 sommier, 25f 00 ; — 1 matelas de laine, 40f 00 ; — 1 oreiller de courte paille, 3f 50 ; — 1 couvre-pieds piqué, 10f 00 ; — 2 lits en fer pour les garçons, 30f 00 ; — 2 paillasses, 7f 00; — 2 paillasses de paille courte, 15f 00 ; — 2 oreillers, 7f 00 ; — 2 couvertures. 16f 00 ; — 1 lit en fer pour les filles, 15f 00; <pb facs="#facs_16" n="93" source="od2m_s3_t3_m109a_0111.xml"/> — 1 paillasse, 3f 50 ; — 1 paillasse de paille courte, 7f 50; — 1 oreiller, 3f 50 ; — 1 couverture, 8f 00. — Total, 345f 00.</p>
+<p xml:id="para_13__135">2° Cuisine : 1 fourneau, 37f 00 ; — 1 armoire, 35f 00 ; — rayons à vaisselle, 15f00; — 9 chaises, 36f 00 ; — 1 table, 11f 00. — Total, 134f 00.</p>
+<p xml:id="para_13__136">3° Chambre des parents : 1 armoire, 36f 00; — 1 table, 8f 00 ; — 1 pendule, 28f 00 ; — 2 lampes, 8f 00 ; — nombreux petits bibelots, 20f 00 ; — gravures, 5f 00 ; — photographies de famille, encadrées, 15f 00. — Total, 120f 00.</p>
+<p xml:id="para_13__138">4° Chambre de la grand’mére et des grands : 1 vieux coucou, 2f 00; — planche, portemanteau et rideau pour les vêtements, 15f 00 ; — cachet de première com¬munion, encadré, 2f 00 ; — 1 autre gravure (République), 1f 50. — Total, 20f 50.</p>
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_13__139">USTENSILES............ 68f 10</p>
+<p xml:id="para_13__140">1° Servant à la préparation et à la consommation des aliments : 1 pot à graisse, 0f 40 ; — 1 marmite en émail, 6f 50 ; — 1 série de casseroles, 3f 75 ; — 1 fait-tout en émail, 2f 25 ; — 1 cuvette, 0f 75 ; — 1 cocotte, 4f 50 ; — 1 poêlon, 1f 50; — 1 bassine, 2f 00 ; — 3 couteaux, 1f 50 ; — 10 couverts, 3f 00 ; — 3 biberons et 4 tetines, 2f 20 ; — 1 moulin à café, 2f 50 ;— 1 cafetière-filtre, 2f 00 ; — 1 panier, 2f 50; — 1 panier à salade, 0f 40; — boites diverses, 3f 00 ; — 2 passoires, 1 enton¬noir, 1 louche, 1 écumoire, 1f 00 ; — bouteilles, 2f 00 ; — 3 plats, 2f 00 ; — 22 assiettes, 2f 50 ; — 10 verres, 0f 60; — 10 tasses, 1f 00; — 8 bols, 1f 60; — 1 sou¬pière, 2f 00 ; — 1 saladier, 1f 00 ; — vases divers, 3f 00 ; — accessoires du foyer, 3f 00. — Total, 58f 45</p>
+<p xml:id="para_13__144">2° Servant au soins de propreté et à l'entretien de la maison et du mobilier : 2 balais, 3f 10 ; — 2 seaux, 1f 75 ; — 1 boîte à savon, 0f 30 ; — 1 trépied (ancien pied de berceau), 0f 50 ; — 1 boite à outils, marteau, etc., 4f 00. — Total, 9f 65.</p>
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_13__146">VÊTEMENTS............  528f 95</p>
+<p xml:id="para_13__147">VÊTEMENTS DE LA MÈRE ET DE LA GRAND'MÈRE(102f 00).</p>
+<p xml:id="para_13__148">Pour le dimanche : 2 jupes noires, 30f 00 ; — 2 tabliers, 4f 50 : — 2 matinées, 6f 00 ; — 2 fichus de laine, 5f 00 ; — 2 fichus de tête, 2f 50 ; — 2 jupons, 4f 50; — 2 cravates, 1f 50 ; — 2 paires de pantoufies, 6f 00.</p>
+<p xml:id="para_13__149">Pour tous les jours : 2 jupes, 15f 00; — 2 matinées, 5f 00; — 2 paires de sa¬bots, 4f 00 ; — 2 camisoles de nuit, 3f 00 ; — 4 chemises de jour, 6f 00 ; — 4 mou¬choirs, 3f 00; — 4 paires de bas, 6f 00. — Total, 102f 00.</p>
+<p xml:id="para_13__150">VÊTEMENTS DU PÈRE  (51f 25).</p>
+<p xml:id="para_13__151">Pour le dimanche : Veston et gilet, 10f 50 ; — pantalon, qui a servi au mariage, 3f 50 ; — 1 chemise, 3f 00 ; — 1 chapeau, 2f 00 ; — bretelles et cravate, 2f 50.</p>
+<p xml:id="para_13__152">Pour le travail : 1 pantalon de velours, 6f 00; — 1 paletot de drap, usagé, 6f00;  — 2 chemises, 5f 00 ; — 3 paires de chaussettes, 2f 25 ; — 3 mouchoirs, 2f 25 ; — 1 paire de chaussons, 2f 50 ; — 1 paire de sabots, 3f 00 ; — 1 casquette, 2f 00 ; — 1 ceinture, 0f 75. — Total, 51f 25.</p>
+<p xml:id="para_13__156">VÊTEMENTS D’ÉMILE, D'ALBERT ET DE CONSTANT (175f 50).</p>
+<p xml:id="para_13__157">Pour le dimanche : Vêtement complet de leur première communion : celui d’Émile, 11f 50 ; — celui d’Albert, 15f 50 ; — celui de Constant, 30f 00 ; — 3 cha¬peaux, 7f 50; — 3 chemises, 7f 50 ; — cravates et bretelles, 9f 00; — 3 paires de chaussures, 15 00.</p>
+<p xml:id="para_13__158">Pour le travail : 3 vestons, 15f 00; — 3 pantalons. 18f 00 ; — 6 chemises, 12f 00 ; — 3 ceintures, 1f 50 ; — 9 paires de chaussettes, 4f 50 ; — 9 mouchoirs, 4f 50 ; — 3 bérets, 3f 75 ; — 3 paires de chaussons, 6f 75 ; — 3 paires de sabots, 9f 00 ; — 2 tabliers d’école, 4f 50. — Total, 175f 50.</p>
+<p xml:id="para_13_94_164"><pb facs="#facs_17" n="94" source="od2m_s3_t3_m109a_0112.xml"/> VÊTEMENTS D'HENRIETTE ET DE GEORGETTE (107f 00).</p>
+<p xml:id="para_13_94_165">Pour le dimanche : 2 robes, 24f 00 ; — 2 chapeaux, 7f 00 ; — 2 fichus de laine, 5f 00 ; — 2 tabliers, 5f 00 ; — 2 jupons, 6f 00 ; — 2 paires de chaussons, 10f 00.</p>
+<p xml:id="para_13_94_166">Pour tous les jours : 2 robes, 12f 00 ; — 2 fichus, 4f 00; — 2 fichus pour la tête, 2f 50 ; — 2 foulards cravate, 2f 00 ; — 2 jupons, 6f 00 ; — 4 paires de bas, 5f 00 ; — 6 mouchoirs, 2f 00; — 2 tabliers d’école, 4f 50 ; — 2 paires de chaussons. 3f 00 ; — 2 paires de galoches, 9f 00. — Total, 107f 00.</p>
+<p xml:id="para_13_94_167">VÊTEMENTS D'ANDRÉ (33f 20).</p>
+<p xml:id="para_13_94_168">Pour le dimanche : Petit vêtement, blouse et culotte, 7f 00; — 1 béret, 1f 25 ;— 1 chemise, 1f 75 ; — 1 paire de chaussures, 3f 50; — 1 foulard cravate, 0f 75.</p>
+<p xml:id="para_13_94_169">Pour tous les jours : 1 jersey, 2f 50 ; — 2 chemises, 2f 50 ; — 3 paires de bas, 3f 00; — 3 mouchoirs, 1f 20 ; — 1 foulard, 0f 75 ; — 1 pantalon, 3f 00 ; — 1 ta¬blier, 2f 00 ; — 1 béret, 1f 00 ; — 1 paire de galoches, 3f 00. — Total, 33f 20.</p>
+<p>LAYETTES JUMEAUX (60f 00).</p>
+<p xml:id="para_13_94_170">Layettes reçues, 42f 00 ; — 12 couches, 9f 00; — 6 petits fichus de coton, 3f 00;  — 2 brassières de laine, 3f 00 ; — 2 fichus de laine, 3f 00. — Total, 60f 00.</p>
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_13_94_172">LINGE de maison............ 136f 50</p>
+<p xml:id="para_13_94_173">10 grands draps, 100f 00 ; — 4 draps d'enfants, 14f 00; — 18 serviettes, 13f 50 ; — 12 torchons, 6f 00 ; — 4 taies d’oreiller, 3f 00. — Total, 136f 50.</p>
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_13_94_175">VALEUR TOTALE du mobilier et des vêtements............ 1,353f05</p>
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
+<p xml:id="para_13_94_178">Chacun, dans la famille, ayant un tempérament différent, se distrait à sa manière.</p>
+<p xml:id="para_13_94_179">Le père illettré ne s’intéresse même pas aux livres de prix de ses enfants que l’instituteur du quartier, au dire de la mère, choisit on ne peut mieux. Sa récréation principale est de jardiner, et quand il est bien luné, il fait un jardin que tous admirent en passant, et qui fournit à la famille d’abondants légumes.</p>
+<p xml:id="para_13_94_180">Les plus petits des enfants l’assistent quelquefois, ils ont la charge de cueillir les légumes et mettent leur point d’honneur à ne pas se tromper ; les plus sages reçoivent souvent cette responsabilité qui les grandit à leurs yeux. Quant au grand fils Émile, comme récompense, il a quinze sous par dimanche. Il s’arrange avc cela pour ses récréations et son tabac. Son plaisir favori, c’est de jouer au cochonnet, jeu d'adresse où on lance des ronds de métal le plus près possible d’un centre indiqué.</p>
+<p xml:id="para_13_94_181">Constant est un amateur de pêche, il a une patience admirable à attendre que sa ligne tremble et que le goujon du canal s’y accroche.</p>
+<p xml:id="para_13_95_183"><pb facs="#facs_18" n="95" source="od2m_s3_t3_m109a_0113.xml"/> Quant aux fillettes, elles accompagnent la mère et la grand’mère quand elles vont au cimetière visiter les tombes de leurs frères décédés; puis elles ont la charge de porter les jumeaux à tour de rôle, parés des jolies petites robes bleues et roses qu'une main charitable leur a fabriquées. On n’est d’ailleurs coquet que pour ceux-là, qui sont les joujoux des deux filles et du gros André.</p>
+</div>
+</div>
+<div n="004" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
+<p xml:id="para_13_95_187">Les treize premières années de leur mariage, le père et la mère G. purent travailler en filature, grâce à la présence au logis de la mère de la femme, qui éleva les enfants.</p>
+<p xml:id="para_13_95_188">Ils restèrent les douze dernières années au tissage de M. Paul Schmidt, industriel parfait, dont la compétence technique n’a d’égale que sa haute philanthropie. Il envoya des secours immédiats à la nais¬sance des jumeaux, garda l’homme malgré ses irrégularités de travail, et lui rappela souvent avec une excessive bonté ses devoirs de père. Constant l’en récompensa mal en changeant d’usine.</p>
+<p xml:id="para_13_95_189">Depuis les chômages, survenus aux textiles en 1908, il travaille à l'usine Taine et Cie (anciennement Testart), voisine de la manufacture P. Schmidt.</p>
+<p xml:id="para_13_95_190">Comme phase matérielle dans la vie générale de la famille, il n'y eut jamais de misère noire, grâce au bureau de bienfaisance et aux œuvres privées. Aucun enfant ne fut ni gravement malade ni blessé accidentel¬lement.</p>
+<p xml:id="para_13_95_191">La naissance des jumeaux, en février 1908, et l’état de santé où se trouva la mère quelques mois avant leur venue, l’empêchèrent alors de travailler. D'où une gêne réelle cette année-là. Ces bébés ne purent s’ac¬commoder des crèches, où ils furent mis à trois semaines (trop tôt, sur¬tout en hiver). Notez qu'on les retire à six heures et demie du matin de leur berceau pour les mener en pleine route, où le grand air les conges¬tionne.</p>
+<p xml:id="para_13_96_193"><pb facs="#facs_19" n="96" source="od2m_s3_t3_m109a_0114.xml"/> Sans la naissance de ces petits, il est probable que l’équilibre finan¬cier se serait maintenu comme d’ordinaire.</p>
+<p xml:id="para_13_96_194">On a vu (<ref target="#part_02_01_04" type="renvoi_int_mono">§ 4</ref>) l’histoire de la famille au point de vue de la santé de ses membres. Vers la fin de 1908, la mort cruelle, brutale, est venue frapper Albert, âgé alors de douze ans.</p>
+<p xml:id="para_13_96_195">Quelle tristesse en ce tableau !</p>
+<p xml:id="para_13_96_196">La méningite accomplissait son œuvre, et le cher patient reposait sur un lit d’une blancheur remarquable, autour duquel la bonne mère avait épinglé deux couvre-lits de coton blanc artistement raccommodés, ancien cadeau d’un grand cœur qui avait voulu faire plaisir au lieu d’empiler ces vieux crochets dans une caisse de grenier. Et que de soins pour Albert jusqu’à sa dernière heurel Une tristesse régnait partout. Durant deux mois, l’entrain ne put reparaître et la petite Henriette pleurait avec ses deux mamans chaque fois qu'on évoquait ce pauvre cher Albert.</p>
+<p xml:id="para_13_96_197">En résumé, 1908 a été rempli d’épreuves pour la famille. Pendant cette unique année, on a vu la naissance des jumeaux ; la maladie, qui frappe dès leur naissance les pauvres petits, et met l’un d’eux en danger de mort ; le chômage, obligeant le père à aller, loin de la famille et de la maison, travailler aux betteraves avec ses fils aînés, le condamnant ensuite à se placer comme jardinier, pendant qu’Émile se fait domestique de ferme, déséquilibrant le budget et entraiînant à quelques dettes chez les fournisseurs et au retard dans le paiement du loyer.</p>
+<p xml:id="para_13_96_198">Cette année apporte encore la mort du pauvre Albert.</p>
+<p xml:id="para_13_96_199">Existence en somme qui, partout ailleurs, aurait été bouleversée bien des fois et peut-être irrémédiablement, sans le stoïcisme de deux femmes qui furent et restent de fait chefs de famille.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille</head>
+<p xml:id="para_13_96_203">Les sociétés de secours mutuels, si accessibles et si bienfaisantes aux travailleurs qui s'y sont inscrits jeunes ou qui, étant plus âgés, ne sont pas trop chargés de famille, deviennent presque impossibles aux hommes comme Constant G. Le droit d’entrée en est trop élevé et le mé<pb facs="#facs_20" n="97" source="od2m_s3_t3_m109a_0115.xml"/>nage, qui ne mange déjà pas à sa faim, ne peut véritablement rien dis¬traire des salaires mensuels. Malgré les avantages consentis aux asso¬ciations, aux groupements, ce citoyen utile semble écrasé sous une charge trop lourde.</p>
+<p xml:id="para_13_97_206">Sous ce poids succombent ceux dont la nature, semblable à celle de ce père de famille, ne trouve pas dans une femme de devoir, d'ordre et de cœur, l'appui qui lui est nécessaire.</p>
+<p xml:id="para_13_97_207">Ces hommes n’ont aucune tendance à l’action sociale, et j'en accuse leur tempérament d’abord, puis la fatigue causée par le travail. Ce sont des passifs. De plus, le travail de suroeillant de métier mécanique, qui ne demande pas l'effort d’intelligence que réclamaient jadis les métiers à bras, fait que les prédispositions à l’apathie, à l'indifférence s’accen¬tuent et que, rapidement, la personnalité de lindividu s’anesthésie.</p>
+<p xml:id="para_13_97_208">Les circonstances atténuantes plaident en faveur de Constant G., qui, ne sachant ni lire ni écrire, ne reçoit que le reflet des causeries et du jugement de ses camarades. Tout est amorti en lui, et c’est peut-être heureux.</p>
+<p xml:id="para_13_97_209">Les crises semblent alors moins âpres, et j’incline à penser que les deux femmes, qui ont pleuré toutes leurs larmes au décès d’Albert, restent moins sensibles qu’autrefois aux ennuis secondaires.</p>
+<p xml:id="para_13_97_210">Mais au-dessus de toutes ces considérations et des aides municipales et privées déjà nommées, et détaillées comme il convient au budget, une vertu-force se dresse magnifique, auréolant ce foyer : c’est l’esprit familial. Cette tendance très vraie, très accusée, règne parfaitement chez les G. Même après les faiblesses consommées, elle sonne le rappel.</p>
+<p xml:id="para_13_97_211">La tendresse maternelle en est aussi le puissant aimant. Elle n’est comparable qu’à celle de l’aeule. Ici l’on s’aime bien, et c’est la cause du bonheur, malgré tout. Personne ne mange avec appétit quand l’un des petits souffre, et sitôt qu’un bébé pleure, ce ne sont pas deux mains de domestique agacée qui s’avancent, mais huit ou dix bras joyeux, toujours prêts à bercer et à chérir.</p>
+<p xml:id="para_13_97_212">Ah ! les braves cœurs dans les braves gens !</p>
+<p xml:id="para_13_97_213">Et puis, somme toute, n’y a-t-il point assez de turbulents et de me¬neurs ! G., de par sa nature, ne frappe personne, ne brutalise pas, ne braille point. C’est un pacifique.</p>
+<p xml:id="para_13_97_214">Ce serait un suiveur. Après tout, une bonne armée doit réunir autre chose que des chefs et des agités. Ces tempéraments peu frondeurs sont moutonniers et, sur eux, la discipline vaudra toujours.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13-2">Note sur la famille depuis 1908</head>
+<p xml:id="para_13_98_217"><pb facs="#facs_21" n="98" source="od2m_s3_t3_m109a_0116.xml"/> C’est au milieu de bien des fluctuations<note type="bp">
+<p>Elles ont apporté de grandes difficultés à notre travail, pour lequel nous sommes obligées de réclamer un peu d'indulgence.</p>
+</note>qu’ont été recueillis les élé¬ments de cette monographie, et, tandis qu'ils sont mis en œuvre, la vie continue à opérer dans la famille, et à opérer d’abord tristement. Le travail manque toujours aux tisseurs ; la place d'homme de peine n'avait été que temporaire pour Constant G.</p>
+<p xml:id="para_13_98_218">Cette bonne nature n'avait eu qu’à se laisser vivre pendant seize ans. L'amour pour sa femme, le travail, les enfants aimables, la maison bien tenue, l’ont porté dans la vie comme une barque sur un lac paisible ; mais la tempête s’est élevée, le vent a soufflé bien âpre. Un enfant mort, pas de travail, les dettes qui montent, le loyer qui n’est plus payé, le propriétaire qui menace ; comme il faut tenir ferme la barre pour ne pas laisser le vaisseau se briser contre tant de récifs ! Et Constant G., qui était un brave homme, qui pratiquait la vertu dans les temps faciles, qui allait volontiers à l'église, sans bien savoir pourquoi, ne tenait pas la barre du gouvernail de son me, celle de la foi, de la confiance en Dieu et de la soumission à sa volonté, quoi qu'il arrive !</p>
+<p xml:id="para_13_98_219">L'épreuve et l’oisiveté du chômage le trouvèrent désemparé, filant sans résistance au courant de tous les dangers qui menacent et attirent le pauvre ouvrier sans travail : le débitant, les mauvais camarades, cer¬taines femmes, qui, pour vivre sans privations et sans fatigues, dé¬truisent d’un coup, dans l’ombre, ce que les braves mères de famille ont édifié avec tant d'amour et d’efforts. Constant, découragé par la misère des siens, étourdi par la faim, qui rend la boisson mortelle, entraîné par des conseils perfides, que rien de ferme en lui ne savait repousser, quitta sa femme et ses enfants et partit.</p>
+<p xml:id="para_13_98_220">L’éloignement du cœur ne pouvait être de longue durée quand de si longs et de si bons souvenirs rappelaient vers la femme abandonnée, quand tant de petites têtes charmantes semblaient s’élever pour appeler le père. Mais la pauvre femme blessée, épuisée, elle aussi, tenait rigueur.</p>
+<p xml:id="para_13_98_221">Il fallut intervenir, et la dame inspectrice arriva.</p>
+<p xml:id="para_13_98_222">Sur son rapport, le maire fit venir Constant, le mit en face de sa faute, lui montra toute la responsabilité d’un père de famille déserteur. Mais, en même temps, il comprit que la charge d’une famille nombreuse<pb facs="#facs_22" n="99" source="od2m_s3_t3_m109a_0117.xml"/>est bien lourde, pour les épaules d’un ouvrier qui n’a d’autres ressources que son gain journalier, et impossible à soutenir, quand le travail vient à manquer. Il accorda à la famille un secours immédiat, qui l’aida à se relever avec plus de confiance et de courage.</p>
+<p xml:id="para_13_99_226">Aujourd’hui, malgré le décès d'un nouvel enfant<note type="bp">
+<p>Henri, né Ie 18 février 1909, mort en septembre, même année.</p>
+</note>, qui ne vécut que quelques mois, la famille G. a repris son calme et sa marche régulière.</p>
+</div>
+</div>
+<div n="005" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
+<pb facs="#facs_23" n="100" source="od2m_s3_t3_m109a_0118.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic url="#" xml:id="tble_13_100_3"/>
+</figure>
+<!--<p xml:id="para_13_100_231">SECTIoN 1</p>
         <p xml:id="para_13_100_232">BUBENTIONS RSQUES FAM LA FAMILILE</p>
         <p xml:id="para_13_100_233">Aar. 1°f. — Propriétés RECUES EN USUFRUIT (La famille ne reçoit aucune propriété en usufruit).</p>
         <p xml:id="para_13_100_234">ART. 2. — DnoTs D'UsAGE UR LES Propriétés VOISINES (La famille ne profite d'aucun droit d’usage)</p>
@@ -526,71 +526,71 @@
         <p xml:id="para_13_100_242">——les industries »
         </p>
         <p xml:id="para_13_100_243">—reçues en espêces .</p>-->
-       <pb facs="#facs_24" n="101" source="od2m_s3_t3_m109a_0119.xml"/>
-       <!--<p xml:id="para_13_101_244">14. — BUDGET DES RECETTES DE L’ANNEE (suie)</p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic url="#" xml:id="tble_13_101_4"/>
-       </figure>
-       <pb facs="#facs_25" n="102" source="od2m_s3_t3_m109a_0120.xml"/>
-       <!--<p xml:id="para_13_102_246">§ 14. — Budget des recettes de l'année.</p>
+<pb facs="#facs_24" n="101" source="od2m_s3_t3_m109a_0119.xml"/>
+<!--<p xml:id="para_13_101_244">14. — BUDGET DES RECETTES DE L’ANNEE (suie)</p>-->
+<figure rend="portrait" type="cptes_recettes">
+<graphic url="#" xml:id="tble_13_101_4"/>
+</figure>
+<pb facs="#facs_25" n="102" source="od2m_s3_t3_m109a_0120.xml"/>
+<!--<p xml:id="para_13_102_246">§ 14. — Budget des recettes de l'année.</p>
         <p xml:id="para_13_102_247">SOURCES DES R ECETTES (ite)</p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic url="#" xml:id="tble_13_102_5"/>
-       </figure>
-       <!--<p xml:id="para_13_102_248">SECTION Iv</p>
+<figure rend="portrait" type="cptes_recettes">
+<graphic url="#" xml:id="tble_13_102_5"/>
+</figure>
+<!--<p xml:id="para_13_102_248">SECTION Iv</p>
         <p xml:id="para_13_102_249">INDUSTRIES ENTREPRISES FAR LA FAMILLE</p>
         <p xml:id="para_13_102_250">(à son propre compte)</p>
         <p xml:id="para_13_102_251">Culture du jardin.</p>
         <p xml:id="para_13_102_252">Exploitation de la basse-cour..</p>
         <p xml:id="para_13_102_253">Coifection et arrangement de vêtements et linges Blanchissage et repassage du liage</p>-->
-       <pb facs="#facs_26" n="103" source="od2m_s3_t3_m109a_0121.xml"/>
-       <!--<p xml:id="para_13_103_255">§ 14. — Budget des recettes de l'année.</p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic url="#" xml:id="tble_13_103_6"/>
-       </figure>
-       <p xml:id="para_13_103_257">
-       </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
-       <pb facs="#facs_27" n="104" source="od2m_s3_t3_m109a_0122.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic url="#" xml:id="tble_13_104_7"/>
-       </figure>
-       <pb facs="#facs_28" n="105" source="od2m_s3_t3_m109a_0123.xml"/>
-       <!--<p xml:id="para_13_105_264">§ 15. — Budget des dépenses de l'année.</p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic url="#" xml:id="tble_13_105_8"/>
-       </figure>
-       <pb facs="#facs_29" n="106" source="od2m_s3_t3_m109a_0124.xml"/>
-       <!--<p xml:id="para_13_106_266">§ 15. — Budget des dépenses de l'année.</p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic url="#" xml:id="tble_13_106_9"/>
-       </figure>
-       <pb facs="#facs_30" n="107" source="od2m_s3_t3_m109a_0125.xml"/>
-       <!--<p xml:id="para_13_107_268">15. — BUDGET DES DEPENSES DE L’ANNÉE (suite)</p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic url="#" xml:id="tble_13_107_10"/>
-       </figure>
-       <pb facs="#facs_31" n="108" source="od2m_s3_t3_m109a_0126.xml"/>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS</head>
-       <!--<p xml:id="para_13_108_272">SECTION I</p>
+<pb facs="#facs_26" n="103" source="od2m_s3_t3_m109a_0121.xml"/>
+<!--<p xml:id="para_13_103_255">§ 14. — Budget des recettes de l'année.</p>-->
+<figure rend="portrait" type="cptes_recettes">
+<graphic url="#" xml:id="tble_13_103_6"/>
+</figure>
+<p xml:id="para_13_103_257">
+</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
+<pb facs="#facs_27" n="104" source="od2m_s3_t3_m109a_0122.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic url="#" xml:id="tble_13_104_7"/>
+</figure>
+<pb facs="#facs_28" n="105" source="od2m_s3_t3_m109a_0123.xml"/>
+<!--<p xml:id="para_13_105_264">§ 15. — Budget des dépenses de l'année.</p>-->
+<figure rend="portrait" type="cptes_depenses">
+<graphic url="#" xml:id="tble_13_105_8"/>
+</figure>
+<pb facs="#facs_29" n="106" source="od2m_s3_t3_m109a_0124.xml"/>
+<!--<p xml:id="para_13_106_266">§ 15. — Budget des dépenses de l'année.</p>-->
+<figure rend="portrait" type="cptes_depenses">
+<graphic url="#" xml:id="tble_13_106_9"/>
+</figure>
+<pb facs="#facs_30" n="107" source="od2m_s3_t3_m109a_0125.xml"/>
+<!--<p xml:id="para_13_107_268">15. — BUDGET DES DEPENSES DE L’ANNÉE (suite)</p>-->
+<figure rend="portrait" type="cptes_depenses">
+<graphic url="#" xml:id="tble_13_107_10"/>
+</figure>
+<pb facs="#facs_31" n="108" source="od2m_s3_t3_m109a_0126.xml"/>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS</head>
+<!--<p xml:id="para_13_108_272">SECTION I</p>
         <p xml:id="para_13_108_273">cOMPTES DES BÉNÉFICES</p>
         <p xml:id="para_13_108_274">RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE ( son propre compte)</p>-->
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic url="#" xml:id="tble_13_108_11"/>
-       </figure>
-       <pb facs="#facs_32" n="109" source="od2m_s3_t3_m109a_0127.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic url="#" xml:id="tble_13_8_12"/>
-       </figure>
-      </div>
-     </div>
-    </div>
-    <!-- PAS DE SECTION DE Notes -->
-   </div>
-  </body>
- </text>
+<figure rend="portrait" type="cptes_annexes">
+<graphic url="#" xml:id="tble_13_108_11"/>
+</figure>
+<pb facs="#facs_32" n="109" source="od2m_s3_t3_m109a_0127.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic url="#" xml:id="tble_13_8_12"/>
+</figure>
+</div>
+</div>
+</div>
+<!-- PAS DE SECTION DE Notes -->
+</div>
+</body>
+</text>
 </TEI>

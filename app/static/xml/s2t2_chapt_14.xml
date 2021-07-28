@@ -1,906 +1,904 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie-->
-<TEI xml:id="ID-062a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>
+<!--monographie--><TEI xml:id="ID-062a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>
      Les Ouvriers des Deux Mondes - série 2, volume 2 - Transcription
     </title>
-    <respStmt>
-     <persName>
-      <forename>
+<respStmt>
+<persName>
+<forename>
        Alix
       </forename>
-      <surname>
+<surname>
        Chagué
       </surname>
-      <affiliation>
+<affiliation>
        ingénieure de recherche et de développement,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       acquisition et structuration initiale des textes
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Jean-Damien
       </forename>
-      <surname>
+<surname>
        Généro
       </surname>
-      <affiliation from="2020-03" to="2020-09">
+<affiliation from="2020-03" to="2020-09">
        stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">
+</affiliation>
+<affiliation from="2020-09" to="2020-11">
        ingénieur d'études,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-      <affiliation from="2020-12">
+</affiliation>
+<affiliation from="2020-12">
        ingénieur d'études,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       encodage scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Stéphane
       </forename>
-      <surname>
+<surname>
        Baciocchi
       </surname>
-      <affiliation>
+<affiliation>
        ingénieur de recherche de l’EHESS,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Anne
       </forename>
-      <surname>
+<surname>
        Lhuissier
       </surname>
-      <affiliation>
+<affiliation>
        directrice de recherche de l'INRAE,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Éric
       </forename>
-      <surname>
+<surname>
        Villemonte de la Clergerie
       </surname>
-      <affiliation>
+<affiliation>
        chargé de recherches,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       supervision technique
      </resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>
      projet ANR Time Us
     </publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>
+<date from="2019" to="2021"/>
+<pubPlace>
      Paris, France
     </pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>
+</publicationStmt>
+<sourceDesc>
+<p>
      Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>
      L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_366">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$393/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_367">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$394/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_368">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$395/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_369">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$396/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_370">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$397/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_371">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$398/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_372">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$399/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_373">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$400/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_374">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$401/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_375">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$402/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_376">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$403/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_377">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$404/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_378">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$405/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_379">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$406/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_380">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$407/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_381">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$408/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_382">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$409/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_383">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$410/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_384">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$411/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_385">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$412/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_386">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$413/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_387">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$414/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_388">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$415/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_389">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$416/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_390">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$417/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_391">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$418/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_392">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$419/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_392b"> <!-- ajout de la page 364 -->
-  <surface/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$420/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_392c"> <!-- ajout de la page 365 (numérotée 366) -->
-  <surface/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$421/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_393">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$422/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_394">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$423/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_395">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$424/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_396">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$425/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_397">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$426/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_398">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$427/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_399">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$428/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_400">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$429/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_401">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$430/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_402">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$431/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_403">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$432/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_404">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$433/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_405">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$434/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_406">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$435/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_407">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$436/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_408">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$437/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_409">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$438/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_410">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$439/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_411">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$440/full/full/0/default.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_14_337_1">
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_366">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$393/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_367">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$394/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_368">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$395/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_369">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$396/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_370">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$397/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_371">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$398/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_372">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$399/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_373">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$400/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_374">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$401/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_375">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$402/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_376">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$403/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_377">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$404/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_378">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$405/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_379">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$406/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_380">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$407/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_381">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$408/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_382">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$409/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_383">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$410/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_384">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$411/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_385">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$412/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_386">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$413/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_387">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$414/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_388">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$415/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_389">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$416/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_390">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$417/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_391">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$418/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_392">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$419/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_392b"> <!-- ajout de la page 364 -->
+<surface/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$420/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_392c"> <!-- ajout de la page 365 (numérotée 366) -->
+<surface/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$421/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_393">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$422/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_394">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$423/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_395">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$424/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_396">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$425/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_397">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$426/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_398">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$427/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_399">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$428/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_400">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$429/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_401">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$430/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_402">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$431/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_403">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$432/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_404">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$433/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_405">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$434/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_406">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$435/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_407">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$436/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_408">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$437/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_409">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$438/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_410">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$439/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_411">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$440/full/full/0/default.jpg"/>
+</facsimile>
+<text>
+<body>
+<div type="chapter">
+<div n="001" type="section">
+<p xml:id="para_14_337_1">
       N° 62.
      </p>
-     <p xml:id="para_14_337_2">
+<p xml:id="para_14_337_2">
       TAILLEUR DE SILEX
      </p>
-     <p>
+<p>
       ET
      </p>
-     <p xml:id="para_14_337_3">
+<p xml:id="para_14_337_3">
       VIGNERON DE L'ORLÉANAIS
      </p>
-     <p xml:id="para_14_337_4">
+<p xml:id="para_14_337_4">
       (LOIR-ET-CHER. — FRANCE).
      </p>
-     <p xml:id="para_14_337_5">
+<p xml:id="para_14_337_5">
       PROPRIETAIRE-TACHERON
      </p>
-     <p xml:id="para_14_337_6">
+<p xml:id="para_14_337_6">
       DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS,
      </p>
-     <p xml:id="para_14_337_7">
+<p xml:id="para_14_337_7">
       D'APRÈS LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN SEPTEMBRE 1887,
      </p>
-     <p>
+<p>
       PAR
      </p>
-     <p xml:id="para_14_337_8">
+<p xml:id="para_14_337_8">
       M. FÉNELON GIBON,
      </p>
-     <p xml:id="para_14_337_9">
+<p xml:id="para_14_337_9">
       Secrétaire adjoint de la Société générale d'Éducation et d'Enseigmement.
      </p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">
       OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
      </head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">
        Définition du lieu, de l'organisation industrielle et de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">
         § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
-       <p xml:id="para_14_337_15">
-        <pb facs="#facs_366" n="337" source="lesouvriersdesd02soci_0393.xml"/> La famille décrite dans cette monographie
+<p xml:id="para_14_337_15">
+<pb facs="#facs_366" n="337" source="lesouvriersdesd02soci_0393.xml"/> La famille décrite dans cette monographie
         <note type="bp">
-         <p>
+<p>
           La monographie du Tailleur de silex de Meusnes a été présentée à la Société d'é¬conomie sociale, qui a consacré à la discuter la séance du 14 novembre 1887.
          </p>
-        </note>
+</note>
         habite l'un des dix hameaux qui constituent la commune de Meusnes, celui qu'on nomme Bois-Pontois. Cet éparpillement de la population résulte de ce que, la terre étant d'une fertilité médiocre, le paysan est obligé de cultiver une grande étendue de terrain pour obtenir des produits suffisants, et il trouve intérêt à s'installer près de son exploitation.
        </p>
-       <p xml:id="para_14_338_17">
-        <pb facs="#facs_367" n="338" source="lesouvriersdesd02soci_0394.xml"/> Le chef-lieu de la commune est situé par 47° 20' de latitude nord et par 0° 50' de longitude ouest, à 2 kilomètres environ de la rive gauche du Cher et à 3 kilomètres en amont de son conlluent avec la petite rivière du Touzon. Il est à 6 kilomètres de la ville de Selles-sur-Cher; à 9 kilomètres de Saint-Aignan, le chef-lieu de canton ; à 14 de Va¬lençay (Indre) ; à 46 environ de Vierzon (Cher) ; à 65 kilomètres de Tours, et à 40 de Blois, chef-lieu du département de Loir-et-Cher. Située à l'extrémité méridionale du département, la commune a pour limites de son territoire, au sud, le canton de Valencay : la limite du département d'Indre-et-Loire se trouve à environ 12 kilomètres. Cette partie du département de Loir-et-Cher, située au midi de l'ancienne province de l'Orléanais, confine à la Touraine et au Berry; elle est comprise dans l'arrondissement et dans le diocèse de Blois, dans le cinquième corps d'armée, et relève de la cour d'appel d'Or¬léans.
+<p xml:id="para_14_338_17">
+<pb facs="#facs_367" n="338" source="lesouvriersdesd02soci_0394.xml"/> Le chef-lieu de la commune est situé par 47° 20' de latitude nord et par 0° 50' de longitude ouest, à 2 kilomètres environ de la rive gauche du Cher et à 3 kilomètres en amont de son conlluent avec la petite rivière du Touzon. Il est à 6 kilomètres de la ville de Selles-sur-Cher; à 9 kilomètres de Saint-Aignan, le chef-lieu de canton ; à 14 de Va¬lençay (Indre) ; à 46 environ de Vierzon (Cher) ; à 65 kilomètres de Tours, et à 40 de Blois, chef-lieu du département de Loir-et-Cher. Située à l'extrémité méridionale du département, la commune a pour limites de son territoire, au sud, le canton de Valencay : la limite du département d'Indre-et-Loire se trouve à environ 12 kilomètres. Cette partie du département de Loir-et-Cher, située au midi de l'ancienne province de l'Orléanais, confine à la Touraine et au Berry; elle est comprise dans l'arrondissement et dans le diocèse de Blois, dans le cinquième corps d'armée, et relève de la cour d'appel d'Or¬léans.
        </p>
-       <p xml:id="para_14_338_18">
+<p xml:id="para_14_338_18">
         Le territoire de Meusnes appartient au terrain secondaire, à l'inter¬section de la craie moyenne et de la craie inférieure, dans laquelle se trouve le silex pyromaque. Le Cher, rivière torrentueuse, a sa rive gauche bordée, sur une largeur d'environ 2 kilomètres, de prairies fournissant des foins de très bonne qualité. Le canal du Berry est incrusté dans les pentes qui soutiennent les collines très rapprochées de la rive droite ; il a son point terminus à Saint-ignan et la naviga¬tion se continue vers Tours sur la rivière canalisée du Cher. La route nationale de Paris à Châteauroux. qui passe à Selles-sur-Cher, est dis¬tante de 5 kilomètres ; de cette route part le chemin départemental qui met Meusnes en communication avec Saint-ignan. Sur la rive droite du Cher, et parallèlement à cette rivière, se trouve le chemin de fer à une seule voie qui relie les importantes gares de Vierzon et de Tours : ce chemin fait partie d'une voie transversale qui va des ports de l'Océan à l'oulon et met en communication les régions Ouest et Est du territoire français.
        </p>
-       <p xml:id="para_14_338_19">
+<p xml:id="para_14_338_19">
         Le climat est plutôt sec qu'humide ; les chaleurs y sont fort élevées souvent persistantes : le hermomètre descend rarement à 10°. La lo¬calité présente un phénomène d'un certain intérêt. Les orages y sont peu fréquents, par suite de la disposition du terrain, les nuages changeant souvent de direction pour remonter la vallée du Cher. En raison de la configuration du sol, qui appartient au plateau cen¬tral où les altitudes sont trés peu différentes et les cours d'eau cou¬lent dans des vallées généralement étroites et étranglées, les vents <pb facs="#facs_368" n="339" source="lesouvriersdesd02soci_0395.xml"/> soufflent avec une violence qui souvent dégénère en tempête, et que l'on nomme foude dans la localité.
        </p>
-       <p xml:id="para_14_339_21">
+<p xml:id="para_14_339_21">
         Le pays, exempt de marécages, est sain ; les cultures de toute na¬ture et quelques bois peu étendus contribuent à son assainissement. La seule richesse minérale consiste dans les gisements de silex pyro¬maque dont l'exploitation, si florissante jadis, décroit sensible¬ment. On ne peut citer, comme richesses végétales, que des prés naturels d'une étendue relativement considérable, et quelques bois de pins maritimes, sur certains terrains dont la constitution rap¬pelle celle de la Sologne. Le gibier à poil ou à plume est peu abon¬
        </p>
-       <p xml:id="para_14_339_22">
+<p xml:id="para_14_339_22">
         On cultive sur ce territoire toutes les céréales du nord de la France, les betteraves fourragères les pommes de terre, le chanvre pour faire la toile nécessaire aux besoins de chaque famille. Les prairies ar¬ificielles y sont nombreuses, et la culture de la vigne, surtout depuis quelques années, y a pris une grande extension. Presque toutes les familles élêvent un porc, une vache, des chèvres, des lapins. La taille du silex pour briquet et pierre à fusil, qui au siècle dernier était la principale occupation de la plus grande partie des habitants, n'est plus pratiquée que par quelques familles
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (§ 17)
         </ref>
         .
        </p>
-       <p xml:id="para_14_339_23">
+<p xml:id="para_14_339_23">
         On peut citer comme industrie urbaine, celle des femmes qui, en paissant leurs vaches, confectionnent les petits plis pour orner la fine lingerie : les autres industries urbaines existantes (confection de vête¬ments, etc.), d'ailleurs sans intérêt, suffisent aux besoins de la popu¬lation. Les ouvriers nécessaires à l'entretien et à la confection du matériel de culture, maréchaux ferrants, charron, bourrelier, exis¬(ent dans la commune. ndépendamment de l'exportation des pierres à feu, il se fait, dans les bonnes années, un commerce de vin considé rable. Les terres sont, en général, de qualité médiocre.
        </p>
-       <p xml:id="para_14_339_24">
+<p xml:id="para_14_339_24">
         La diminution de la population de Meusnes n'est pas aussi sensible qu'on serait porté à le croire au premier abord. En effet, le nombre des habitants est à peu de chose près stationnaire depuis une qua¬rantaine d'années, c'est-à-dire depuis l'époque à laquelle le commerce des pierres à feu a perdu subitement son importance. Bien des familles de caillouteurs quittêrent alors le pays. Voici les chiffres ressortant du dernier recensement, lequel remonte à 1885.
        </p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_1">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_1">
          Comparaison des nombres de maisons, de ménages et d'habitant de la commune de Meusnes avec ceux du chef-lieu (§1)
         </head>
-        <graphic facs="#facs_368" url="#"/>
-       </figure>
-       <p xml:id="para_14_340_27">
-        <pb facs="#facs_369" n="340" source="lesouvriersdesd02soci_0396.xml"/> Le surplus de la population est distribué entre 9 hameaux. Le relevé suivant montre bien la répartition des enfants par ménage : le tra¬vail a été fait sur un nombre total de 221 des ménages habitant la com¬mune, et qui ont un nombre total de 617 enfants :
+<graphic facs="#facs_368" url="#"/>
+</figure>
+<p xml:id="para_14_340_27">
+<pb facs="#facs_369" n="340" source="lesouvriersdesd02soci_0396.xml"/> Le surplus de la population est distribué entre 9 hameaux. Le relevé suivant montre bien la répartition des enfants par ménage : le tra¬vail a été fait sur un nombre total de 221 des ménages habitant la com¬mune, et qui ont un nombre total de 617 enfants :
        </p>
-       <figure rend="portrait" type="schema">
-        <head resp="added" type="schema" xml:id="figure_2">
+<figure rend="portrait" type="schema">
+<head resp="added" type="schema" xml:id="figure_2">
          Nombre des ménages et des enfants de la commune de Meusnes (§1)
         </head>
-        <graphic facs="#facs_369" url="#" xml:id="illu_14_340_1"/>
-       </figure>
-       <p xml:id="para_14_340_28">
+<graphic facs="#facs_369" url="#" xml:id="illu_14_340_1"/>
+</figure>
+<p xml:id="para_14_340_28">
         Ces chiffres donnent une moyenne de 2,79 enfants par ménage.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Désiré P*** (n°062aE1) - Célestine Q*** (n°062aE2) - Aurélie  (n°062aE3) - Renée  (n°062aE4)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Désiré P*** (n°062aE1) - Célestine Q*** (n°062aE2) - Aurélie  (n°062aE3) - Renée  (n°062aE4)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">
         § 2. ÉTAT CIVIL DE LA FAMILLE.
        </head>
-       <p xml:id="para_14_340_30">
+<p xml:id="para_14_340_30">
         La famille comprend trois personnes et un nouveau-né, savoir :
        </p>
-       <p xml:id="para_14_340_31">
-        <persName>DÉSIRÉ P***</persName>, chef de famille, marié depuis treize ans, né à Chamber¬lin, commune de Meusnes............ 35 ans.
+<p xml:id="para_14_340_31">
+<persName xml:id="ID-062aE1">DÉSIRÉ P***</persName>, chef de famille, marié depuis treize ans, né à Chamber¬lin, commune de Meusnes............ 35 ans.
        </p>
-       <p xml:id="para_14_340_33">
-        <persName>CÉLESTINE Q***</persName>, sa femme, née dans la maison que le ménage habite............ 31 —
+<p xml:id="para_14_340_33">
+<persName xml:id="ID-062aE2">CÉLESTINE Q***</persName>, sa femme, née dans la maison que le ménage habite............ 31 —
        </p>
-       <p xml:id="para_14_340_34">
-        <persName>AURÉLIE</persName>, leur fille aînée, née à Meusnes (Bois-Pontois)............ 10 —
+<p xml:id="para_14_340_34">
+<persName xml:id="ID-062aE3">AURÉLIE</persName>, leur fille aînée, née à Meusnes (Bois-Pontois)............ 10 —
        </p>
-       <p xml:id="para_14_340_35">
-        <persName>RENÉE</persName>, leur fille cadette, née à Meusnes (Bois-Pontois) le 30 septembre 1887.
+<p xml:id="para_14_340_35">
+<persName xml:id="ID-062aE4">RENÉE</persName>, leur fille cadette, née à Meusnes (Bois-Pontois) le 30 septembre 1887.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">
         § 3. RELIGION ET HABITUDES MORALES.
        </head>
-       <p xml:id="para_14_340_38">
+<p xml:id="para_14_340_38">
         Les membres de la famille, comme la population en général, pro¬fessent la religion catholique ; mais, à part quelques exceptions, on constate dans le pays une grande indifférence religieuse : aussi l'in¬fluence du clergé est-elle à peu près nulle. Les pratiques du culte se bornent, pour la plupart des habitants (les hommes surtout), à l'assistance à la messe aux grandes fêtes de l'́glise ; cependant les processions des ogations, de la Fête-Dieu et de l'Assomption, qui sont encore permises, sont quelque peu suivies. La femme P*** fait ses prières du matin et du soir à genoux sur une chaise ; le mari, sans re¬courir à la priêre orale, se recommande à Dieu ; la fillette fait régu¬liêrement ses prières, à part : tantôt l'un, tantôt l'autre des parents la conduit à la messe du dimanche. On remarque au-dessus de la cheminée, des images représentant l'entrée de Notre-Seigneur à Jéru¬salem, la Mater dolorosa et le petit saint Jean, avec un rameau de buis <pb facs="#facs_370" n="341" source="lesouvriersdesd02soci_0397.xml"/> béni : des images sacrées se voient dans la plupart des maisons.
        </p>
-       <p xml:id="para_14_341_40">
+<p xml:id="para_14_341_40">
         Toute la population tient au mariage religieux, au baptême et sur¬tout à la sépulture religieuse. Le jour de l'enterrement, la cérémonie est généralement très simple ; le service solennel est reporté à un jour ultérieur à la convenance de toutes les personnes de la famille, dont quelques-unes peuvent habiter des localités éloignées.
        </p>
-       <p xml:id="para_14_341_41">
+<p xml:id="para_14_341_41">
         La commune possède une église dont la construction remonte à plusieurs siècles, et qui, selon toute apparence, faisait partie des im¬meubles d'un prieuré occupe par sept moines ; le nom de prieuré est demeuré à la propriété qui existe actuellement sur cet emplacement. Les archives historiques n'offrent d'autre mention intéressante que la cession, par Childebert, du territoire de Meusnes à Saint-Eusice, abbé de Selles en Berry (Selles-sur-Cher), en reconnaissance de la prédic¬tion que le religieux fit au roi de son prochain succès contre les Visi¬goths : la liberté fut donnée aux prisonniers ramenés à Selles, qui se trouverait ainsi être une colonie de Visigoths. La statue de saint Vin¬cent, patron des vignerons, est placée dans une église ; la fête de ce saint, célébrée religieusement, est l'occasion de réjouissances dans les familles
         <ref target="#part_02_03_11" type="renvoi_int_mono">
          (§ 11)
         </ref>
         . La fête du pays, qui dans le centre de la France se nomme assemblée, a lieu le lundi de la Pentecôte.
        </p>
-       <p xml:id="para_14_341_42">
+<p xml:id="para_14_341_42">
         Le ménage qui nous occupe offre un exemple d'entente et de bonne harmonie digne d'être signalé. Les époux sont très unis, affectueux l'un pour l'autre, d'un heureux caractère ; toutes les affaires se traitent en commun. Pleins de déférence pour leur vieux père, ils l'accueillent cordialement toutes les fois qu'il vient les visiter. Dans le pays, les femmes se mettent ordinairement à table avec le mari, sauf le cas où des journaliers participent au repas ; cette exception n'a jamais son ap plication dans le ménage observé.
        </p>
-       <p xml:id="para_14_341_43">
+<p xml:id="para_14_341_43">
         Selon la coutume du pays, les vieux parents, lorsqu'ils deviennent hors d'état de cultiver leurs biens, les répartissent entre leurs enfants, à charge par ceux-ci de leur faire des rentes ou de leur assurer l'hos¬pitalité à tour de rôle ; mais il arrive souvent que ces malheureux vieillards se repentent amèrement de s'être dépouillés de leurs res¬sources, les enfants ne remplissant pas convenablement leurs engage ments. Dans l'espèce, les époux P*** ont reçu du vieux père tout ce qui leur devait revenir ; celui-ci habite un autre hameau de la com¬mune, où il continue son travail de caillouteur.
        </p>
-       <p xml:id="para_14_341_44">
+<p xml:id="para_14_341_44">
         Le souvenir des morts est en honneur dans le pays ; les habitants vont prier sur la tombe de leurs défunts à la fête des morts, après la <pb facs="#facs_371" n="342" source="lesouvriersdesd02soci_0398.xml"/> messe, le dimanche des ameaux, et lorsqu'ils ont assisté à l'enterre¬ment d'un parent ou d'un ami : ils considèrent cette assistance comme un devoir, quelle que soit la distance.
        </p>
-       <p xml:id="para_14_342_46">
+<p xml:id="para_14_342_46">
         Les enfants sont entourés de soins aflectueux, mais pas toujours suffisamment éclairés ; la fillette est l'objet de soins particuliers dans le ménage P***. On tient beaucoup à envoyer les enfants à l'école, mais les absences scolaires sont fréquentes à l'époque des moissons, des vendanges, et pendant la mauvaise saison, en raison de la distance qui sépare les hameaux du bourg, chef-lieu de la commune. Les domes¬tiques, qui sont loués pour une année d'une Saint-ean à l'autre, sont généralement bien traités et mangent toujours à la table des maîtres. On est habituellement doux à l'égard des animaux ; le dicton en usage attribue cette doueceur à un motif d'intérêt, qui est au moins judicieux : « On ne frapperait pas après sa bourse »
        </p>
-       <p xml:id="para_14_342_47">
+<p xml:id="para_14_342_47">
         Bien que les mendiants se multiplient sur les routes, le ménage P*ᵉ n'a guère occasion d'exercer l'hospitalité, parce qu'il habite à une asse grande distance du seul chemin important qui traverse la com¬mune ; sa situation précaire lui interdirait d'ailleurs des actes fréquents de charité. Ses rapports avec les voisins sont empreints de cordia¬lité, et exempts de contestations : il ne ressemble nullement, sous ce rapport, à la plupart des gens de l'endroit, qui fatiguent de leurs dis¬cussions et de leurs querelles le juge de paix de Saint-Aignan. Il est juste cependant d'ajouter qu'ils ont le bon esprit de ne guère dépasser cette juridiction ; les procès pour affaires sont peu nombreux. La ma¬niêre d'être des deux époux est a la fois affable et polie. En bonnes relations avec le patron, ils recoivent ses visites avec déférence et sont tout heureux de tailler le silex devant lui, lorsqu'il leur amène des curieux ; il leur est arrivé de l'accompagner à la pêche aux écre¬visses et de lui servir d'aide dans ses opérations photographiques. Ils n'ont aucun rapport avec des croyants d'une autre religion ; mais leur instruction rudimentaire en matières religieuses est une garantie de la tolérance qu'ils y apporteraient.
        </p>
-       <p xml:id="para_14_342_48">
+<p xml:id="para_14_342_48">
         La population a, en général, des habitudes morales ; le mariage arrive très utilement pour les fortifier. On verra plus loin
         <ref target="#part_02_03_11" type="renvoi_int_mono">
          (§ 11)
         </ref>
         le danger que la fréquentation des bals fait courir à la jeunesse. La fa¬mille observée ne laisse rien à désirer, au point de vue de la mora¬lité ; pour des paysans, la maison est convenablement tenue, les vêtements sont en assez bon état : l'ouvrier a soin de prendre des vê¬tements spéciaux pour extraire le silex. Le ménage, simple en tout, <pb facs="#facs_372" n="343" source="lesouvriersdesd02soci_0399.xml"/> est tempérant, peut-etre en raison de la nécessité de réduire ses dé¬penses. La population a des dispositions marquées pour l'épargne ; elle en fait généralement une application mal entendue, en affectant ses économies à l'acquisition de terres dont le prix, dépassant sensi¬blement ses moyens, lui fait contracter des engagements onéreux surtout dans les mauvaises années.
        </p>
-       <p xml:id="para_14_343_50">
+<p xml:id="para_14_343_50">
         Dans la commune de Meusnes, il n'y a pas d'habitudes d'émigra¬tion dans les ménages. Les familles sont sédentaires, mais les émi¬ggrations temporaires des jeunes garçons et des jeunes filles y sont passées en usage : la coutume est de mettre, dès la sortie de l'école, les enfants en service dans un rayon peu étendu, et cela jusqu'au ma¬riage ou jusqu'à l'époque du service militaire. La femme P** a, elle aussi, payé son tribut à cette coutume
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
         .
        </p>
-       <p xml:id="para_14_343_51">
+<p xml:id="para_14_343_51">
         Les gens lettrés sont en fort petit nombre dans la présente généra¬tion ; les plus instruits n'ont guère qu'un reflet des connaissances en¬seignées à l'école et au catéchisme. C'est ainsi que l'ouvrier P*** ne sait ni lire ni écrire, comme presque tous ses frères et sœurs ; la femme peut faire, au besoin, une lettre mal orthographiée, et la signer. Le ménage a l'intention de laisser Aurélie à l'école jusqu'à l'âge de treize ans ; cette enfant a quelques connaissances religieuses puisées au catéchisme de la paroisse ; elle fréquente l'école communale, peut¬être au regret des parents ; là comme ailleurs, une pression à la¬quelle il leur eût été diffieile de se soustraire, peut bien avoir pesé sur leur détermination
         <note type="bp">
-         <p>
+<p>
           Note ajoutée en 1888. — Je tiens à compléter par la mention d'un fait tout récent la description de nos tailleurs de pierre â briquet. Lors de la dernière rentrée scolaire (1887-88), la jeune Aurélie a repris ses études à l'école libre de Meusnes ; elle vient de recevoir des mains des sœurs de la congrégation d'Evron, des récompenses qui attestent le bon travail de l'année. La famille ᵉᵉᵉ connait maintenant le chemin de l'école congréganiste, et, quand le moment en sera venu, la petite Renée le prendra à son tour. L'éducation chrétienne, désormais assurée a ces enfants, entre dans le pa¬trimoine de cette famille et l'amélioration morale va marcher de pair avec le relève¬ment de la situation matérielle ; une sainte conspiration de la charité lutte ainsi contre l'oppression qu'une loi récente ajoute à celles déja imposées aux familles.
          </p>
-        </note>
+</note>
         .
        </p>
-       <p xml:id="para_14_343_52">
+<p xml:id="para_14_343_52">
         II n'y a pas précisément de patois local, mais quelques mots de vieux français sont restés en usage, et souvent la prononciation est très diferente de celle d'aujourd'hui
         <ref target="#part_03_01_20" type="renvoi_int_mono">
          (§ 20)
         </ref>
         .
        </p>
-       <p xml:id="para_14_343_53">
+<p xml:id="para_14_343_53">
         La profession de tailleur de silex, bien qu'elle exige une certaine habileté manuelle, ne parait pas de nature à développer sensiblement les facultés intellectuelles. A Meusnes, les paysans, comme presque <pb facs="#facs_373" n="344" source="lesouvriersdesd02soci_0400.xml"/> partout. sont disposés à repousser les innovations qui concernent les méthodes de travail et de culture : habituellement ils se défient des gens qui ne sont pas de leur classe et qui, disent-ils, ont puisé leurs connaissances dans les lvres. Lussi, jusqu'à présent, bien peu d'en¬tre eux font partie des syndicats agricoles, qui pourraient leur rendre des services importants. Quelques innovations ont cependant rouvé grâce devant eux ; l'établissement des prairies artificielles et la cul¬ture des betteraves fourragères, dont ils ont reconnu l'utilité pour leurs bestiaux.
        </p>
-       <p xml:id="para_14_344_56">
+<p xml:id="para_14_344_56">
         L'esprit démocratique est inné en eux et ils n'ont pas été aussi re¬helles aux innovations apportées dans l'ordre civil et politique : on coņoit que cet esprit ait augmenté sensiblement l'antagonisme qui a toujours existé entre patrons et ouvriers. La lecture des journaux dé¬mocratiques, qui se répandent chaque jour davantage, contribue encore à envenimer cette situation difficile.
        </p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">
         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
-       <p xml:id="para_14_344_59">
+<p xml:id="para_14_344_59">
         Le mari, d'une bonne constitution, et d'une taille un peu au-dessous de la moyenne, jouit d'une santé satisfaisante. Jusqu'à présent il n'a éprouvé d'autres maladies que des fiêvres, contractées en 1877, qui ont duré dix mois, et des rhumatismes qu'il attribue aux imprudences commises à la pêche aux écrevisses : ces troubles de santé peuvent être aussi les suites de l'exercice de sa profession, souvent malsaine
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (§ 17)
         </ref>
         ; il en souffrait encore lorsqu'il a dû faire son service de vingt. huit jours à Blois, mais le changement d'air l'a remis. La femme, d'une constitution moins forte, est cependant d'une bonne santé. La illette parait délicate ; sans doute, comme sa mère, elle pourra pren¬dre des forces avec l'âge.
        </p>
-       <p xml:id="para_14_344_60">
+<p xml:id="para_14_344_60">
         La population de Meusnes, sans paraitre robuste, est généralement res apte à supporter la fatigue des travaux agricoles ; elle renferme une proportion d'octogénaires qui dépasse la moyenne (8 sur 1.065 habitants). Il y a certaines habitudes de propreté parmi les habitants, bien qu'ils ne prennent pas de bains : du reste, à tort ou à raison, les eaux du Fouzon passent pour donner la fièvre. Les substances animales entrent pour peu de chose dans l'alimentation quotidienne, à l'excep<pb facs="#facs_374" n="345" source="lesouvriersdesd02soci_0401.xml"/>tion du porc et des lapins. Quoique presque tous les habitants soient propriétaires de vignobles, ils ne consomment que peu de vin; leur boisson habituelle est une piquette préparée avec une infusion de marc de raisin, contenue dans des futailles où l'on remplace par une égale quantité d'eau la portion de liquide consommée, tant que la liqueur tirée conserve quelque saveur. Les vêtements varient suivant les saisons ; il est à remarquer que la population est très sensible au froid. L'habitation de la famille observée est couverte en tuiles, saine et suffisante ; d'ailleurs, on remarque depuis quelques années une grande amélioration dans les installations de nos paysans.
        </p>
-       <p xml:id="para_14_345_63">
+<p xml:id="para_14_345_63">
         Le service médical laisse beaucoup à désirer en raison de l'éloigne¬ment des médecins, dont les uns résident à Selles-sur-Cher (6 lil.), les autres à Saint-Aignan (9 kil.). Les chefs de famille sont très peu aptes à administrer eux-mêmes les médicaments, mais cet inconvénient est atténué par les visites et les soins que donne aux malades la sœur supérieure de l'école libre. Il existe dans la région quelques empiri¬ques (rebouteuax), qui inspirent plus de confiance que les médecins : ces industriels se transmettent leur art de père en fils, et, par crainte des médecins diplômés, rendent leurs visites au petit jour, portant ostensiblement un outil pour laisser supposer qu'ils vont s'acquitter de leur labeur quotidien ; ils ne sont guère appelés que dans les cas qui réclameraient le ministêre du chirurgien : ils ont l'aantage de coiûter moins cher. Quant aux vétérinaires, il n'en existe que dans cer¬tains chefs-lieux de canton ; ce sont les maréchaux ferrants qui sou¬vent les suppléent, et souvent, comme on peut le penser, au détri¬ment des sujets.
        </p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">
         § 5. RANG DE LA FAMILLE.
        </head>
-       <p xml:id="para_14_345_65">
+<p xml:id="para_14_345_65">
         L'ouvrier appartient à la catégorie des ouvriers-propriétaires. Il possède, en effet, une maison, des vignes et un jardin
         <ref target="#part_02_02_06" type="renvoi_int_mono">
          (§ 6)
         </ref>
         . Mais cette possession, qui exerce sur lui une influence morale extrêmement sa¬lutaire, ne tient qu'une petite place dans la vie de l'ouvrier ; cette saine influence se fortifie considérablement de la participation de toute la famille à l'industrie de son chef. Il lui suffit de quelques journées de travail pour cultiver le jardin ; à l'exception du premier labour, il s'occupe lui-même de toute la culture de ses vignes.
        </p>
-       <p xml:id="para_14_346_66">
-        <pb facs="#facs_375" n="346" source="lesouvriersdesd02soci_0402.xml"/> La véritable profession de l'ouvrier est celle de tailleur de silex tâ¬cheron. C'est à son habileté professionnelle, autant qu'à sa probité, qu'il doit d'avoir pu contracter exceptionnellement un engagement à long terme ; dans cette profession, la plupart des ouvriers travaillent actuellement sans engagement. La femme emploie à la taille du silex tout le temps que les soins du ménage laissent disponible.
+<p xml:id="para_14_346_66">
+<pb facs="#facs_375" n="346" source="lesouvriersdesd02soci_0402.xml"/> La véritable profession de l'ouvrier est celle de tailleur de silex tâ¬cheron. C'est à son habileté professionnelle, autant qu'à sa probité, qu'il doit d'avoir pu contracter exceptionnellement un engagement à long terme ; dans cette profession, la plupart des ouvriers travaillent actuellement sans engagement. La femme emploie à la taille du silex tout le temps que les soins du ménage laissent disponible.
        </p>
-       <p xml:id="para_14_346_67">
+<p xml:id="para_14_346_67">
         La position de la famille est très modeste : les qualités de chacun des époux leur ont concilié l'estime générale, et le fait est d'autant plus à leur honneur que leur métier n'est pas de ceux qui entrainent néces¬sairement la considération. Ils n'ont que de bonnes relations avec les habitants de la commune, quelle que soit leur situation. Ils n'ont eu aucune occasion d'avoir des rapports avec les étrangers.
        </p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">
        Moyens d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_14_346_71">
+<div subtype="proprietes_texte_1" type="proprietes">
+<p xml:id="para_14_346_71">
          (Mobilier et vêtements non compris.)
         </p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_14_346_72">
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_14_346_72">
          IMMEUBLES en partie reçus par héritage, du père de la femme ; en partie acquis avec les épargnes de la famille............ 4.075ᶠ 00
         </p>
-        <p xml:id="para_14_346_73">
+<p xml:id="para_14_346_73">
          1° Maison d'habitation, composée d'un rez-de-chaussée surmonté d'un grenier, avec une cour y attenant, 1.200ᶠ 00 (héritage paternel).
         </p>
-        <p xml:id="para_14_346_74">
+<p xml:id="para_14_346_74">
          2° Bâtiments ruraux. — Cellier, avec écurie pour l'âne et pour les lapins, 500ᶥ00; — Hangar en bois avecc toiture de sarments, 25ᶠ00. — Total, 525ᶠ00.
         </p>
-        <p xml:id="para_14_346_75">
+<p xml:id="para_14_346_75">
          3° Immeubles ruraux.— Une pièce de vignes (7° 50), 225ᶠ00 (héritage paternel) ; — Au¬res pièces de vigne (ensemble 60a), 1.625ᶠ00 ; —Jlardin (11ᵉ) situé à proximité de la maison, 200ᶠ00; — Terrain pour l'extraction du silex (23°), 300ᶠ00 (héritage paternel). — Total, 2.350ᶠ 00.
         </p>
-       </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_14_346_76">
+</div>
+<div subtype="argent" type="proprietes">
+<p xml:id="para_14_346_76">
          ARGENT............ 0ᶠ 00
         </p>
-        <p xml:id="para_14_346_77">
+<p xml:id="para_14_346_77">
          La famille a toujours employé ses épargnes à des acquisitions d'immeubles et ne par¬vient pas à garder la moindre somme en argent disponible.
         </p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_14_346_78">
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_14_346_78">
          ANIMAUX DOMESTIQUES : entretenus toute l'année............ 178ᶠ00
         </p>
-        <p>
+<p>
          1 âne, 150ᶠ 00; — 8 lapins (chacun entretenu pendant 6 mois), 13ᶠ 00; — 10 poules 15ᶠ 00; — 1 chat avec son chaton (mémoire).
         </p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_14_347_79">
-         <pb facs="#facs_376" n="347" source="lesouvriersdesd02soci_0403.xml"/> MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 366ᶠ00
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_14_347_79">
+<pb facs="#facs_376" n="347" source="lesouvriersdesd02soci_0403.xml"/> MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 366ᶠ00
         </p>
-        <p xml:id="para_14_347_81">
+<p xml:id="para_14_347_81">
          Extraction et taille du silex. — 3 pics pour l'extraction, 6ᶠ00 ; — 6 ciseaux pour la taille, 3ᶠ00; — 3 marteaux pour fendre, 5ᶠ00 ; — 3 petits marteaux, dits roulettes, 'pour détailler, 2ᶠ50; — 2 pelles, 2ᶠ00; — 1 établi, 5ᶠ00 ; — 4 chaises basses de travail, 3ᶠ50 ; 1 voiture pour le transport à l'atelier du silex provenant des fouilles, 80ᶠ00; — Harnais de ane, 25ᶠ00. — Total, 132ᶠ00.
         </p>
-        <p xml:id="para_14_347_82">
+<p xml:id="para_14_347_82">
          2° Exploitation des vignes. — 2 houes, 5ᶠ00; — 1 tonneau demi-pièce, 3ᶠ00; — 2 ban¬nes, 4ᶠ00; — 3 seilles, 3ᶠ00 ; — 9 tonneaux pour la vendange, 45ᶠ00; — 1 cuve, 130ᶠ00. — Total, 190ᶠ00.
         </p>
-        <p xml:id="para_14_347_83">
+<p xml:id="para_14_347_83">
          3° Entreprise de moissons. — 2 faux montées avec leurs accessoires, 16ᶠ00;—1 faucille, 1Iᶠ 00. — Total, 17ᶠ00.
         </p>
-        <p xml:id="para_14_347_84">
+<p xml:id="para_14_347_84">
          4° Exploitation du jardin. — 1 binette (outil double composé d'un erochet à deu dents et d'une palette en fer), 2ᶠ00 ; — 3 houes, dites riants, 4ᶠ50; — 1 tranche pour couper lTherbe, 1ᶠ00 ; — 1 gouet, 1ᶠ00 ; — 1 brouette, 4ᶠ00. — Total, 12ᶠ50.
         </p>
-        <p xml:id="para_14_347_85">
+<p xml:id="para_14_347_85">
          5° Blanchissage et entretien du linge et des vêtements. — 2 selles à laver, 6ᶠ00 ; — 1 bat¬toir, 0ᶠ25 ; — 1 fer à repasser, 0ᶠ60; — Menus ustensiles de couture, 1ᶠ15. — Total, 8ᶠ00.
         </p>
-        <p xml:id="para_14_347_86">
+<p xml:id="para_14_347_86">
          6° Entretien de la maison et du mobilier. — 1 ciseau, 1ᶠ00; — 1 plane, 2ᶠ00; — 1 marteau, 0ᶠ50. — Total, 3ᶠ50.
         </p>
-        <p xml:id="para_14_347_87">
+<p xml:id="para_14_347_87">
          7° Armes. — 1 vieux pistolet à pierre, transfiormé en pistolet à piston, 3ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_14_347_90">
+</div>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_14_347_90">
          VALEUR TOTALE des propriétés............ 4.619ᶠ 00
         </p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">
         § 7. SUBVENTIONS.
        </head>
-       <p xml:id="para_14_347_88">
+<p xml:id="para_14_347_88">
         Le régime de la petite propriété est depuis longtemps établi dans la localité
         <ref target="#part_03_01_21" type="renvoi_int_mono">
          (§ 21)
         </ref>
         . Ici comme partout, le paysan a l'amour de la terre : cette passion est poussée à un tel point que chacun tient à avoir, lors de l'ouverture des successions, sa part de chacune des terres qui com¬posent l'héritage, et la division se fait de manière à ce que tous les héritiers aient des parts équivalentes en fécondité : on se trouve ainsi amené à morceler les parcelles dans le sens de la plus grande pente et à leur donner assez souvent la forme d'une languette si allongée (215ᵐ sur 5ᵐ et même sur 3ᵐ, par exemple) qu'il devient extrêmement difficile de la labourer. Dans le cas où le labour est rendu impossible, ces parcelles ne peuvent plus recevoir que des plantes cultivées à la main ou le plus souvent des vignes, dont le produit est si malheureu¬sement variable depuis bien des années.
        </p>
-       <p xml:id="para_14_347_89">
+<p xml:id="para_14_347_89">
         En dehors du bureau de bienfaisance de la commune, il n'existe aucune société pouvant allouer des subventions aux nécessiteux. 'ou¬tefois, il convient de citer un usage touchant : en cas de maladie d'un <pb facs="#facs_377" n="348" source="lesouvriersdesd02soci_0404.xml"/> père de famille, les parents, amis ou voisins se chargent des travaux à faire à ses cultures.
        </p>
-       <p xml:id="para_14_348_94">
+<p xml:id="para_14_348_94">
         On peut qualifier de subvention un usage du pays, qui consiste à donner une vache en cheptel, c'est-à-dire à la confier à une famille, en échange des soins et de la nourriture donnés à l'animal ; la famille en recueille intégralement les produits, fumiers et lait, et la moitié de l'argent que rapporte la vente du veau ; s'il arrivait que la bête fût vendue, la perte ou le gain serait partagé par moitié.
        </p>
-       <p xml:id="para_14_348_95">
+<p xml:id="para_14_348_95">
         Les seuls profits à citer pour la famille observée se résument dans les gratifications, très modestes d'ailleurs, faites à la fillette par les curieux qui, de temps à autre, viennent voir travailler le silex. Il n'en est pas fait mention dans les comptes, en raison de leur caractère essentiellement aléatoire.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
-        <p xml:id="para_14_348_98">
+<div subtype="ouvrier" type="travaux">
+<p xml:id="para_14_348_98">
          Travaux de l'ouvrier. — Un traité passé pour huit ans avec l'u¬nique marchand de pierres à fusil qui existe encore en ce moment dans le pays, lie la famille de l'ouvrier. Aux termes de ce contrat, tout le silex fabriqué par les membres de la famille est leé, c'est-à-dire reçu, chaque semaine par l'agent chargé des réceptions, à des prix con¬venus selon les différentes sortes
          <ref target="#part_03_01_17" type="renvoi_int_mono">
           (§ 17)
          </ref>
          . L'ouvrier fait tous les travaux nécessaires à sa vigne, à l'exception du premier labour de printemps. Par manière de récréation utile, il travaille à son jardin, autant que les circonstances le lui permettent, et, s'il y a urgence, il suspend même son industrie principale.
         </p>
-       </div>
-       <div type="travaux" subtype="femme">
-        <p xml:id="para_14_348_99">
+</div>
+<div subtype="femme" type="travaux">
+<p xml:id="para_14_348_99">
          Travaux de la femme. — La taille du silex absorbe fort la ménagère. qui donne le surplus de son temps aux soins de la maison : c'est elle qui prépare les repas, qui confectionne, avec des étoffes achetées, la plupart des vêtements de la famille, s'occupe de l'entretien des effets, procède à la lessive quatre fois par an, soigne l'âne et la petite basse¬cour. Elle aide son mari dans les travaux des vignes, autres que la taille et le labour.
         </p>
-       </div>
-       <div type="travaux" subtype="enfant">
-        <p xml:id="para_14_348_100">
+</div>
+<div subtype="enfant" type="travaux">
+<p xml:id="para_14_348_100">
          Travaux de l'enfant. — La petite fille emploie le temps qui lui reste en dehors des classes, à aider la mère suivant ses forces : elle a déjà <pb facs="#facs_378" n="349" source="lesouvriersdesd02soci_0405.xml"/> commencé, depuis l'âge de sept ans, la taille du silex et, pour encou¬rager l'enfant, le produit du travail est réservé à son entretien.
-        </p
-        ></div>
-       <div type="industries" subtype="famille">
-        <p xml:id="para_14_349_102">
+        </p></div>
+<div subtype="famille" type="industries">
+<p xml:id="para_14_349_102">
          Industries entreprises par la famille. — Comme un grand nombre des habitants du pays, le ménage qui nous occupe se rend, à l'époque des moissons, dans une région du département de l'Indre, appelée la Champagne, pour y entreprendre à la tâche une certaine ré¬colte de céréales. Dans ces travaux, qui en moyenne durent un mois, la femme aide habituellement son mari en formant les javelles der¬rière lui. Cette industrie n'est que temporaire.
         </p>
-        <p xml:id="para_14_349_103">
+<p xml:id="para_14_349_103">
          A l'exception des prés naturels entourés de fossés ou de haies (bou¬chures), tous les autres sont livrés au pâturage en commun, aussitôt après la première coupe : cette jouissance dure habituellement du mois d'août au mois de mars. Le pàturage s'exerce encore sur les accote¬ments, talus et fossés des routes et chemins ; on y voit, à certaines heures de la journée, une quantité notable de vaches tenues à la corde par des femmes et des enfants. La famille observée, qui ne possède pas de vache et qui a des occupations permanentes, ne participe pas à cet avantage. Le glanage est toléré, il prend le nom d'albotage, quand il s'exerce sur les vignes, la vendange faite. La famille P*** e prend part à aucun glanage.
         </p>
-        <p xml:id="para_14_349_104">
+<p xml:id="para_14_349_104">
          Elle achète au prix de 55 francs, pour la nourriture de son âne, la coupe d'un pré d'une contenance de 65 ares. Les lapinus sont nourris avec la luzerne du jardin, l'herbe recueillie par la femme et les produits de la taille des vignes. L'âne transporte le silex, le matin, selon les besoins de la fabrieation : le ménage ne peut en faire d'approvision¬nements, faute de ressources ; il est ainsi contraint d'entretenir un poêle pendant l'hiver, pour opérer la dessiccation. Il achète à la corde le gros bois qui lui est nécessaire, et les fagots (bourrées) au cent ; le transport est effectué par l'âne.
         </p>
-        <p xml:id="para_14_349_105">
+<p xml:id="para_14_349_105">
          Autrefois, l'ouvrier s'adonnait avec passion à la pêche aux écre¬visses, quand il en espérait un placement avantageux ; il y a renoncé en raison du grave dommage qui en est résulté pour sa santé
          <ref target="#part_02_01_04" type="renvoi_int_mono">
           (§ 4)
          </ref>
          .
         </p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">
        Mode d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">
         § 9. ALIMENTS ET REPAS.
        </head>
-       <p xml:id="para_14_350_109">
-        <pb facs="#facs_379" n="350" source="lesouvriersdesd02soci_0406.xml"/>Le régime alimentaire de la famille P*** est presque entièrement vé¬gétal : les aliments ordinaires sont les pommes de terre, les haricots (pois, dans le pays), quelques poissons salés (harengs, sardines, morrue) et les salades. Indépendamment de ces aliments, la famille achète deux à trois livres de salé par semaine, beurre, fromage de chèvre de l'espèce dite de Valençay, très recherchée dans le pays, et assez souvent fromage de lait caillé. Lorsque la vendange est abondante, on achète un porc que l'on met dans le saloir, pour servir aux besoins de toute l'année. Les aliments chauds sont préparés soit à la cheminée de la chambre soit au poêle de l'atelier. La famille P*** trouve avantage à prendre son pain chez le boulanger. L'emploi du four banal est trop accidentel pour entrer en ligne de compte.
+<p xml:id="para_14_350_109">
+<pb facs="#facs_379" n="350" source="lesouvriersdesd02soci_0406.xml"/>Le régime alimentaire de la famille P*** est presque entièrement vé¬gétal : les aliments ordinaires sont les pommes de terre, les haricots (pois, dans le pays), quelques poissons salés (harengs, sardines, morrue) et les salades. Indépendamment de ces aliments, la famille achète deux à trois livres de salé par semaine, beurre, fromage de chèvre de l'espèce dite de Valençay, très recherchée dans le pays, et assez souvent fromage de lait caillé. Lorsque la vendange est abondante, on achète un porc que l'on met dans le saloir, pour servir aux besoins de toute l'année. Les aliments chauds sont préparés soit à la cheminée de la chambre soit au poêle de l'atelier. La famille P*** trouve avantage à prendre son pain chez le boulanger. L'emploi du four banal est trop accidentel pour entrer en ligne de compte.
        </p>
-       <p xml:id="para_14_350_110">
+<p xml:id="para_14_350_110">
         Pendant l'été, dans la région centrale de la FTrance, l'habitude est de faire quatre repas par jour :
        </p>
-       <p xml:id="para_14_350_111">
+<p xml:id="para_14_350_111">
         Le premier, dès le lever ; il consiste, pour l'homme, en un mor¬ceau de pain qu'il mange de bel appétit en se rendant au travail ; autrefois, il l'accompagnait volontiers d'un petit verre d'eau-de-vie de marc : il y a renoncé, par économie.
        </p>
-       <p xml:id="para_14_350_112">
+<p xml:id="para_14_350_112">
         Le second, appelé goûter, a lieu vers onze heures, à l'instant où les vaches rentrent du pâturage et les chevaux du labour. Ce repas, dont la base habituelle est la soupe, avec légumes et pain, le plus souvent faite au salé, est pris en famille, dès que les soins nécessaires ont été donnés aux bestiaux ; il est suivi d'une sieste qui dure, pen¬dant la chaleur du jour, jusqu'à environ deux heures.
        </p>
-       <p xml:id="para_14_350_113">
+<p xml:id="para_14_350_113">
         Le troisième repas, trés léger celui-là, qui se nomme petit goûter, se prend généralement entre quatre et cinq heures : une croûte de pain, arrosée d'un verre de boisson, voilà un menu bien vite épuisé. Toutefois, le repas se prolonge une demi-heure, à moins que l'homme ne soit occupé à un travail etérieur.
        </p>
-       <p xml:id="para_14_350_114">
+<p xml:id="para_14_350_114">
         Le quatrième repas, le souper, se prend après le travail fini et les <pb facs="#facs_380" n="351" source="lesouvriersdesd02soci_0407.xml"/> bestiaux soignés, généralement vers neuf heures du soir. a compo¬sition est analogue à celle du second repas.
        </p>
-       <p xml:id="para_14_351_116">
+<p xml:id="para_14_351_116">
         En hiver, on ne fait que trois repas ; le troisième est supprimé et l'heure du souper est moins tardive.
        </p>
-       <p xml:id="para_14_351_117">
+<p xml:id="para_14_351_117">
         Les enfants qui vont à l'école emportent dans un panier leur goûter, composé d'une tartine (graissée) de beurre ou de fromage, de fruits de la saison, et quelquefois, dans les jours prospères, d'un morceau de pain avec du chocolat.
        </p>
-       <p xml:id="para_14_351_118">
+<p xml:id="para_14_351_118">
         La famille P*** ait ses repas dans les conditions qui précèdent : mais, comme la taille du silex peut se continuer à la lumière, il arrive souvent à notre ménage de prendre une collation avant de se coucher.
        </p>
-       <p xml:id="para_14_351_119">
+<p xml:id="para_14_351_119">
         On conçoit qu'une aussi maigre alimentation tienne lieu de jeûne, pour des gens d'ailleurs peu instruits de leur religion : aussi les jeûnes et abstinences ne sont-ils pas observés, à l'exception toutefois du vendredi saint, jour où l'on ne prendrait des aliments gras sous aucun prétexte.
        </p>
-       <p xml:id="para_14_351_120">
+<p xml:id="para_14_351_120">
         Les rudes travaux, tels que ceux de la moisson et de la fenaison, entraînent une modification assez sensible dans le mode d'alimenta¬tion. Les ouvriers, tout en recevant le prix de la journée ordinaire. sont nourris d'une manière plus substantielle aux frais du patron, et la boisson habituelle est alors remplacée par du vin léger, préparé exprès. Les journaliers employés à la vendange reçoivent, outre leur salaire, une nourriture plus recherchée
         <ref target="#part_02_03_11" type="renvoi_int_mono">
          (§ 11)
         </ref>
         .
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_14_351_123">
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_14_351_123">
          La maison, bà̂tie en moellons avec mortier de terre, a ses murs recouverts d'un enduit en mortier de chaux. Elle est très saine, en raison de sa situation pittoresque au sommet d'une pente plantée de vignes, au milieu desquelles se trouvent de côté et d'autre des rési¬dus de taille de silex déposés depuis des siècles : là, les archéologues découvriraient à coup sûr une collection complète d'armes et d'ins¬truments de l'âge de pierre. Cette maison fait partie d'un hameau de la commune, dit Bois-Pontois, à cause de sa proximité du bois du même nom ; elle s'ouvre sur la cour, à l'exposition du levant : à l'ex<pb facs="#facs_381" n="352" source="lesouvriersdesd02soci_0408.xml"/>térieur, quelques pots de fleurs, placés à gauche de la porte, récréent la vue. Le carrelage, qui forme le sol de l'habitation, est extrême¬ment dégradé par le maniement du silex souvent déposé devant le feu pour en chasser l'humidité, nuisible à la taille.
         </p>
-        <p xml:id="para_14_352_125">
+<p xml:id="para_14_352_125">
          La maison se compose de deux pièces, dont la plus grande, pourvue d'une cheminée, sert à la fois de chambre à coucher pour deux lits, et de cuisine ; l'autre, affeetée à l'atelier, est munie d'un poêle que l'on chauffe au bois. On accède au grenier qui surmonte le tout, par une échelle apposée à la lucarne façonnée en porte : c'est le mode d'accès en usage dans le pays. Le grenier sert à remiser le foin destiné à l'âne, les légumes et toutes les provisions de la famille. Les solives du plafond sont apparentes et les murs sont blanchis à la chaux. Malgré l'exiguité de l'habitation, tout étant à sa place, les provi¬sions et les menus ustensiles de ménage renfermés dans la maie, l'oeil est satisfait et ne remarque pas trop l'état de vétusté du mobilier.
         </p>
-       </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_14_352_126">
+</div>
+<div subtype="meubles" type="par_10">
+<p xml:id="para_14_352_126">
          MEUBLES presque tous achetés d'occasion et en assez bon état, bien tenus............ 575ᶠ00
         </p>
-        <p xml:id="para_14_352_127">
+<p xml:id="para_14_352_127">
          1° Lits. — 1 lit pour les époux : 1 bois de 1it, 20ᶠ00 ; — 1 lit de plume, 120ᶠ00; — 1 pail¬lasse, 7ᶠ00; — 1 matclas de foin d'herbes fines, cueillies par la femme de l'ouvrier, avec son enveloppe, 5ᶠ00; — 1 traversiun, 7ᶠ00; — 2 oreillers, 14ᶠ00; — 1 couvre-pieds composè d'une couche d'ouate entre deux toiles de coton, 20ᶠ00 ; — Rideaux en cretonne rouge et courte-pointe servant de couverture, 33ᶠ00. — Total, 226ᶠ00.
         </p>
-        <p xml:id="para_14_352_128">
+<p xml:id="para_14_352_128">
          1 lit pour la fillette : 1 bois de lit, 20ᶠ00; — 1 iit de plume, 70ᶠ00; — 1 paillasse, 9ᶠ00; — 1 matelas de foin d'herbes fines, cueillies par la femme de 'ouvrier, avec son enveloppec, 5ᶠ00; — 1 traversin, 7ᶠ00; — 1 couverture de laine, 33ᶠ00; — Rideaux eu coton bleu, pro¬venant de la succession du père de la femme, 15ᶠ00. — Total, 15ᶠ00.
         </p>
-        <p xml:id="para_14_352_129">
+<p xml:id="para_14_352_129">
          2° Meubles de la chambre à coucher servant de cuisne. — 6 chaises en assez mauvais état, 27ᶠ00; — 1 armoire en bois d'arbre fruitier, avec montants en chéne, 70ᶠ00; — maie destinée à la fabrication du pain et employée comme buifet, 18ᶠ00; — 1 horloge en bois, 25ᶠ00 ; — 1iroir 0ᶠ60 ; — 1 photoggraphie d'un groupe militaire, dont fait partie un frère des époux, 1ᶠ25 ; — Cadres dives donnés en cadcau, 1ᶠ65; — 1 table prêtée par le patron pour la réception des pierres à fusil (mémoire). — Total, 143ᶠ50.
         </p>
-        <p xml:id="para_14_352_130">
+<p xml:id="para_14_352_130">
          3° Mobilier de l'atelier pour la taille du silex. — 1 poêle en fonte,28ᶠ00 ; —1 table, 7ᶠ00; — 1 établi provenant de la succession du père de la femme, 3ᶠ00; — 4 chaises basses, de travait, en assez mauvais état, 3ᶠ0. — Total, 43ᶠ00.
         </p>
-        <p xml:id="para_14_352_132">
+<p xml:id="para_14_352_132">
          4° Livres et fournitures de bureau. — Plusieurs exemplaires de l'Almanach le Bavard que l'ouvrier achète chaque année, 1ᶠ00; — Livres de prix de la mère et de la fille, 2ᶠ00 ; — Encrier, plumes, papier, 0ᶠ50; — Livres classiques prétés par l'école communale (mé¬moire). — Total, 3ᶠ50.
         </p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_14_352_134">
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_14_352_134">
          LINGE DE MÉNAGE : fait de toile grossière et réduit au strict néces¬saire............ 67ᶠ 00
         </p>
-        <p>
+<p>
          8 paires de draps, 64ᶠ 00; — 10 torchons et vieux linges, 3ᶠ 00. — Total, 67ᶠ 00.
         </p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_14_353_135">
-         <pb facs="#facs_382" n="353" source="lesouvriersdesd02soci_0409.xml"/> USTENSILES : communs, en partie usés, comprenant seulement le nécessaire............ 44ᶠ 00
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_14_353_135">
+<pb facs="#facs_382" n="353" source="lesouvriersdesd02soci_0409.xml"/> USTENSILES : communs, en partie usés, comprenant seulement le nécessaire............ 44ᶠ 00
         </p>
-        <p xml:id="para_14_353_136">
+<p xml:id="para_14_353_136">
          1° Dépendant de la cheminée. — 2 chenets, 1 crémaillére provenant de la succession du pére de la femme, 1ᶠ 50 ; — 1 pelle et 1 paire de pincettes, 3ᶠ50. — Total, 5ᶠ00.
         </p>
-        <p xml:id="para_14_353_137">
+<p xml:id="para_14_353_137">
          2° Employés pour la préparation et la cuisson du pain. — 4 corbeilles (paillons) dans lesquelles on place la pâte pour lui donner la formc du pain, 3ᶠ00.
         </p>
-        <p xml:id="para_14_353_138">
+<p xml:id="para_14_353_138">
          3° Employés pour la cuisson et la consommation des aliments. — 1 marmite et 1 hau¬dron en fer, 3ᶠ00 ; — 2 soupières, 1ᶠ00 ; — 8 assiettes et3 casseroles en fer battu, 2ᶠ50 ; ¬2 plats en grosse terre cuite, 0ᶠ50; — 1 baril en bois servant à porter la boisson aux champs, 2ᶠ00 ; — 8 verres à boire et 6 bouteilles de verre, 2ᶠ00 ; — 1 poêle en fer battu, 1ᶠ00; — 12 euillers et 12 fourchettes en fer étamé, 3ᶠ00; — 1 cuiller à pot en fer étamé, 0ᶠ50; — 3 couteaux de poche (il n'y a pas dans la maison de couteaux de table), 2ᶠ50 ; -— 1 seau en bois avec cercles de fer, dans lequel on conserve l'eau servant aux besoins du ménage, 2ᶠ00. — Total, 20ᶠ00.
         </p>
-        <p xml:id="para_14_353_139">
+<p xml:id="para_14_353_139">
          4° Employés pour les soins de propreté. — 1 rasoir et ustensiles divers servant à l'ouv rier pour se faire la barbe, 2ᶠ00; — 3 brosses pour souliers et habits, 2ᶠ00. — Total, 4ᶠ00.
         </p>
-        <p xml:id="para_14_353_140">
+<p xml:id="para_14_353_140">
          5° Employés pour usages divers. — 1 saloir, 9ᶠ00 ; — 1 chaufferette (couet) en tole avec accessoires, 3ᶠ00. — Total, 12ᶠ00.
         </p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_14_353_141">
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_14_353_141">
          VÊTEMENTS : choisis exclusivement en vue de l'utilité, raccommodés jusqu'à usure complète ; la capote de la femme a seule une forme spéciale............ 415ᶠ 25
         </p>
-        <p xml:id="para_14_353_142">
+<p xml:id="para_14_353_142">
          VÊTEMENTS DE L'OUVRIER
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (voir le détail au § 16, I)
          </ref>
          , 215ᶠ 00.
         </p>
-        <p xml:id="para_14_353_143">
+<p xml:id="para_14_353_143">
          VÊTEMENTS DE LA FEMME
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (§ 16, I)
          </ref>
          , 178ᶠ 00.
         </p>
-        <p xml:id="para_14_353_144">
+<p xml:id="para_14_353_144">
          VÊTEMENTS DE LA PETITE FILLE
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (§ 16, I)
          </ref>
          , 22ᶠ25.
         </p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_14_353_145">
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_14_353_145">
          VALEUR TOTALE du mobilier et des vêtements............ 1.101ᶠ 25
         </p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">
         § 11. RÉCRÉATIONS.
        </head>
-       <p xml:id="para_14_353_148">
+<p xml:id="para_14_353_148">
         L'esprit de famille est três développé dans le ménage P*ᵉᵉ. Très laborieux, scrupuleux observateurs du repos dominical, les époux ne prennent de récréations que le dimanche. A l'issue de la grand'messe. à laquelle l'ouvrier assiste de temps à autre, l'agent chargé de la réception des pierres à fusil procède à la paie, dans le bureau atte¬nant au magasin. La nécessité de se procurer de la monnaie conduit asse souvent le mari au café ; les camarades lui font parfois aussi une douce violence, et, après une pause qui entraîne nécessairement quelque dépense, les conversations sont souvent reprises au domicile <pb facs="#facs_383" n="354" source="lesouvriersdesd02soci_0410.xml"/> de l'un d'eux, autour d'un jeu de cartes. Ce jour-là, la femme va habi¬tuellement dans différents hameaux de la commune, pour voir ses parents ; cette sortie se fait le plus souvent en famille avec la fillette.
        </p>
-       <p xml:id="para_14_354_151">
+<p xml:id="para_14_354_151">
         Il y a vingt ans, le jeu de boules était très en honneur dans le pays ; on y joue encore un peu au palet. Les jeunes filles de l'endroit sont passionnées pour les danses : ici, autant qu'ailleurs, cette passion a les plus grands inconvénients, car ces réunions, qui commencent dès la fin des vêpres, presque toujours loin du regard des mères, se pro¬longent fort avant dans la nuit, et le cavalier fait volontiers quelques pas de conduite... souvent dangereuse. Notre ménagère a, elle aussi, ort aimé la danse ; mais, occupée de quinze à dix-huit ans au service d'autrui comme vachêre, elle n'a pu s'y adonner autant qu'elle l'eùt voulu. Le souvenir de cette privation lui reste encore après treize ans de mariage.
        </p>
-       <p xml:id="para_14_354_152">
+<p xml:id="para_14_354_152">
         La famille P*** n'a pas l'habitude de consommer des spiritueux : en trois mois elle ne boit pas un demi-litre d'eau-de-vie. Elle vend la presque totalité du vin qu'elle récolte, ne s'en réservant habituellement qu'une centaine de litres ; elle fait argent du surplus et se con¬tente, pour son ordinaire, de la boisson dont il a été parlé plus haut
         <ref target="#part_02_01_04" type="renvoi_int_mono">
          (§ 4)
         </ref>
         . Quant aux narcotiques, le mari n'en use que sous la forme de tabac à priser : c'est pour lui une dépense importante, puisqu'elle atteint de 36 à 40 francs par an.
        </p>
-       <p xml:id="para_14_354_153">
+<p xml:id="para_14_354_153">
         Aux veillées d'hiver, les voisins se réunissent souvent au domicile du ménage P***, un peu pour profiter de la lumière de la lampe à essence ou de la chandelle qui éclaire l'atelier. Les fêtes de la famille se résument dans la célébration des fêtes de parrainage et des anni¬versaires de naissance. Elle aime assister aux réjouissances des noces, toutes les fois qu'elle en trouve l'occasion ; elle va rarement aux foires et ne fréquente pas les assemblees des villages voisins ; elle se contente de la fête locale et de celle de Saint-Mincent, patron des vignerons. La véritable fête des vignerons est celle des entonnailles (mise en tonneaux du vin nouveau). Les habitants ont coutume de s'adjoindre, pour la circonstance, des membres de leur famille et des amis ; le repas du soir, plus copieux qu'à l'ordinaire, est largement arrosé de vin nou¬veau, qui rend guillerets nos vendangeurs et les dispose aux chan¬sons bruyantes, trop souvent égrillardes. Les invités convient, à leur tour, leur amphitryon à leurs entonnailles, en sorte que ces réjouis¬sances se prolongent beaucoup. Il n'existe pas de spectacles pu¬lies dans la commune ; les jeux de hasard y sont inconnus.
        </p>
-       <p xml:id="para_14_355_154">
-        <pb facs="#facs_384" n="355" source="lesouvriersdesd02soci_0411.xml"/> L'ouvrier s'occupe avec intérêt de son jardin, qu'il eultive à temps perdu; il fait sa vendange en famille. Il a renoncé à la pêche aux écrevisses
+<p xml:id="para_14_355_154">
+<pb facs="#facs_384" n="355" source="lesouvriersdesd02soci_0411.xml"/> L'ouvrier s'occupe avec intérêt de son jardin, qu'il eultive à temps perdu; il fait sa vendange en famille. Il a renoncé à la pêche aux écrevisses
         <ref target="#part_02_01_04" type="renvoi_int_mono">
          (§ 4)
         </ref>
         . Il ne se livre pas au braconnage, ainsi que s'y adonnent une bonne partie des gens de la contrée.
        </p>
-       <p xml:id="para_14_355_155">
+<p xml:id="para_14_355_155">
         L'aprês-midi ou le soir du dimanche, la femme lit souvent à haute voix à son mari, dans ses vieux livres de prix ou dans un livre prêté par un voisin : certaine histoire sainte illustrée a fait les délices des époux, dès les premières années de leur union. La fillette commence à suppléer sa mêre pour la lecture. On ne connait dans le pays d'autre musique que celle des ménétriers qui jouent dans les bals du violon et du cornet à piston.
        </p>
-      </div>
-     </div>
-     <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
+</div>
+</div>
+<div n="004" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">
        Histoire de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">
         § 12. PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
-       <p xml:id="para_14_355_159">
+<p xml:id="para_14_355_159">
         L'histoire de la famille ne présente d'autre particularité remarr quable que celle-ci : la profession de tailleur de silex y est exercée depuis quatre générations. C'est cette circonstance qui nous a déter¬miné à prendre la famille P** pour sujet de cette monographie.
        </p>
-       <p xml:id="para_14_355_160">
+<p xml:id="para_14_355_160">
         L'ouvrier a encore son père, Alexandre, âgé de 63 ans, caillouteur comme lui. Il est l'ainé de six enfants ; tous ses frêres et sœurs sont encore vivants, Alexandrine, Auguste, Virginie, Eugénie et Eugène, âgés de 33, 30, 28, 25 ét 24 ans, tous mariés, tous caillouteurs, à l'exception d'Alexandrine, vigneronne, ne s'occupant plus que par intervalles de la taille du silex.
        </p>
-       <p xml:id="para_14_355_161">
+<p xml:id="para_14_355_161">
         La femme de l'ouvrier, dont le père était également tailleur de silex, a quatre frères et sœurs vivants : Paul-Léon, Florentine, Augus¬tine et Gilles, âgés de 51, 48, 43, et 38 ans, tous mariés, domiciliés dans la commune et pourvus de famille ; après avoir été caillouteurs, ils se livrent maintenant à la culture et spécialement à celle de la <pb facs="#facs_385" n="356" source="lesouvriersdesd02soci_0412.xml"/> mère de l'ouvrier avait au moins dix-huit cousins germains ; son frère, oncle maternel du ménage P***, a eu dix-huit enfants.
        </p>
-       <p xml:id="para_14_356_163">
+<p xml:id="para_14_356_163">
         Dès l'âge de sept ans, Désire P*** travaillait avec son père la pierre à deux coups (dite n° 12), la plus simple. Ila exercé cette profession, sans aucune interruption, jusqu'à l'époque où il a été appelé à Blois, dans un régiment d'infanterie, comme soldat de la deuxième portion du contingent ; il a fait là son service militaire qui n'a duré que six mois, à l'expiration desquels il s'est marié à une jeune fille originaire du pays. De son côté, la femme avait taillé des pierres jusqu'à l'âge de quine ans, époque à laquelle son tuteur la mit en service comme vachère (elle avait perdu son père quelques mois auparavant) : elle est restée en condition durant deux ans à Meusnes, et une troisième année, dans le voisinage, à Sassay, canton de Contres (Loir-et-Cher), qu'elle a quitté pour se marier.
        </p>
-       <p xml:id="para_14_356_164">
+<p xml:id="para_14_356_164">
         Lors de l'entrée en ménage, la situation était difficile ; mais elle devint bientôt meilleure sous la féconde influence du travail, de l'ordre et de l'économie, les qualités maîtresses des deux époux. Bientôt, ils furent en état de faire d'importantes acquisitions, d'acheter un cellier. du terrain pour planter quelques vignes, un âne et une voiture, si nécessaires pour le transport des silex bruts, et ils complétèrent leur matériel de vignerons par l'achat d'une cuve. Comme les autres, ils se laissêrent aller à acheter du bien au delà de leurs ressources, et ils ont ainsi contracté quelques dettes, qui ne sont pas encore com¬plêtement éteintes.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">
         § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
        </head>
-       <p xml:id="para_14_356_167">
+<p xml:id="para_14_356_167">
         L'avenir de la famille est rassurant, bien que l'importance du commerce du silex tende à décroitre; mais les qualités de l'ouvrier, qui le classent à part, lui assurent du travail au delà de l'époque (cinq années) où finira son engagement. Il est fort heureux pour le ménage P*** que son travail spécial lui crée des ressources indépen¬dantes de celles qu'il peut tirer de ses vignes ; il y trouve un salaire sur lequel il est en droit de compter, tandis que le produit des vignes <pb facs="#facs_386" n="357" source="lesouvriersdesd02soci_0413.xml"/> est essentiellement aléatoire, surtout depuis quelques années : la situation du Loir-et-Cher n'étant pas meilleure, au point de vue des vignobles, que celle des départements de l'ouest et du midi de la France. En raison de tout ce qui vient d'être dit, nous nous croyons fondéà croire que la situation du ménage P*** ne fera que s'améliorer ; les qualités sérieuses des époux en sont le garant : leur passé répond de l'avenir.
        </p>
-       <p xml:id="para_14_357_169">
+<p xml:id="para_14_357_169">
         Mais constater ce fait, c'est constater que pour assurer le bien-être physique et moral de la famille, il n'y a guère autour d'elle d'institu¬tions tutélaires sur lesquelles on puisse compter. Cet honnête père de famille s'efforcera sans doute de donner à ses enfants une saine édu¬cation. La mère l'y aidera, et l'union intime des deux époux rendra sans doute efficace cette communauté d'efforts. Les mœurs de la parenté qui les entoure fortifieront l'influence des bons exemples que trouveront les enfants au foyer natal. En un mot, le rôle social des parents sera rempli d'une façon assez rassurante. Mais à côté de cela, quel secours les assistera si l'œuvre rencontre des difficultés inatten¬dues ? Le ministre du culte ? Mais son autorité est minée et annulée
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
@@ -911,18 +909,18 @@
         </ref>
         . Le patron ? En réalité cet appui de la famille de l'ouvrier fait ici défaut. Il y a donc isolement et faiblesse ; aussi le ménage est peu fécond : deux enfants au bout de treize ans de mariage ; et encore, peut-être au jour du partage trouvera-t-on qu'un seul eut bien simplifié la question.
        </p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
+</div>
+</div>
+<div n="005" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">
         § 14. BUDGET DES RECETTES DE L'ANNÉE.
        </head>
-       <pb facs="#facs_387" n="358" source="lesouvriersdesd02soci_0414.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_387" url="#" xml:id="tble_14_358_4"/>
-       </figure>
-       <!--<p xml:id="para_14_358_171">
+<pb facs="#facs_387" n="358" source="lesouvriersdesd02soci_0414.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_387" url="#" xml:id="tble_14_358_4"/>
+</figure>
+<!--<p xml:id="para_14_358_171">
         ECTION II.
         </p>
         <p xml:id="para_14_358_172">
@@ -946,11 +944,11 @@
         <p xml:id="para_14_358_178">
         lnstruction donnce gratuitement, suivan la loi, a la petite fille fréquentant l'école commun
         </p>-->
-       <pb facs="#facs_388" n="359" source="lesouvriersdesd02soci_0415.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_388" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_359_179">
+<pb facs="#facs_388" n="359" source="lesouvriersdesd02soci_0415.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_388" url="#"/>
+</figure>
+<!--<p xml:id="para_14_359_179">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>
         <p xml:id="para_14_359_180">
@@ -1043,11 +1041,11 @@
         <p xml:id="para_14_359_209">
         ToTAL des produits des subventions..
         </p>-->
-       <pb facs="#facs_389" n="360" source="lesouvriersdesd02soci_0416.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_389" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_360_210">
+<pb facs="#facs_389" n="360" source="lesouvriersdesd02soci_0416.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_389" url="#"/>
+</figure>
+<!--<p xml:id="para_14_360_210">
         14. — BUDGET DES RECETTES DE LANNÉE (uite).
         </p>
         <p xml:id="para_14_360_211">
@@ -1143,11 +1141,11 @@
         <p xml:id="para_14_360_241">
         Blanchissage du linge et des vêtements........
         </p>-->
-       <pb facs="#facs_390" n="361" source="lesouvriersdesd02soci_0417.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_390" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_361_242">
+<pb facs="#facs_390" n="361" source="lesouvriersdesd02soci_0417.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_390" url="#"/>
+</figure>
+<!--<p xml:id="para_14_361_242">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>
         <p xml:id="para_14_361_243">
@@ -1239,23 +1237,23 @@
         <p xml:id="para_14_361_272">
         TOTAUX DES RECETTES de l'année (balancant les dépenses)... (1.522ᶠ79
         </p>-->
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
        </head>
-       <pb facs="#facs_391" n="362" source="lesouvriersdesd02soci_0418.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_391" url="#" xml:id="tble_14_362_5"/>
-       </figure>
-       <pb facs="#facs_392" n="363" source="lesouvriersdesd02soci_0419.xml"/>
-       <!--<p xml:id="part_02_05_15">
+<pb facs="#facs_391" n="362" source="lesouvriersdesd02soci_0418.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_391" url="#" xml:id="tble_14_362_5"/>
+</figure>
+<pb facs="#facs_392" n="363" source="lesouvriersdesd02soci_0419.xml"/>
+<!--<p xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_392" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_363_275">
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_392" url="#"/>
+</figure>
+<!--<p xml:id="para_14_363_275">
         MONTANT DESDÉPENSES.
         </p>
         <p xml:id="para_14_363_276">
@@ -1356,11 +1354,11 @@
         <p xml:id="para_14_363_308">
         TOrAUX des dépenses concernant les vêtements.
         </p>-->
-       <pb facs="#facs_392b" n="364" source="#"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_393" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_364_309">
+<pb facs="#facs_392b" n="364" source="#"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_393" url="#"/>
+</figure>
+<!--<p xml:id="para_14_364_309">
         15. — BUDGET DES DÉPENSES DE L'ANNÉE (suite).
         </p>
         <p xml:id="para_14_364_310">
@@ -1462,16 +1460,16 @@
         <p xml:id="para_14_364_342">
         TOAUN DES DÉPENSES de l'année (balançant les recettes)....... (1. 522ᶠ70)
         </p>-->
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">
         § 16. COMPTES ANNEXÉS AUX BUDGETS.
        </head>
-       <pb facs="#facs_392c" n="365" source="#"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_394" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_365_345">
+<pb facs="#facs_392c" n="365" source="#"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_394" url="#"/>
+</figure>
+<!--<p xml:id="para_14_365_345">
         SECTION I.
         </p>
         <p xml:id="para_14_365_346">
@@ -1573,11 +1571,11 @@
         <p xml:id="para_14_365_378">
         Totaux des recettes.
         </p>-->
-       <pb facs="#facs_393" n="366" source="lesouvriersdesd02soci_0424.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_395" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_366_380">
+<pb facs="#facs_393" n="366" source="lesouvriersdesd02soci_0424.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_395" url="#"/>
+</figure>
+<!--<p xml:id="para_14_366_380">
         EXPLOITATION DES VIGNES (suite).
         </p>
         <p xml:id="para_14_366_381">
@@ -1715,11 +1713,11 @@
         <p xml:id="para_14_366_425">
         ᶠ00 ; entretien
         </p>-->
-       <pb facs="#facs_394" n="367" source="lesouvriersdesd02soci_0425.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_396" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_367_426">
+<pb facs="#facs_394" n="367" source="lesouvriersdesd02soci_0425.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_396" url="#"/>
+</figure>
+<!--<p xml:id="para_14_367_426">
         E. — ELEAGE DE LAPINS.
         </p>
         <p xml:id="para_14_367_427">
@@ -1815,11 +1813,11 @@
         <p xml:id="para_14_367_457">
         Total comme ci-dessus.
         </p>-->
-       <pb facs="#facs_395" n="368" source="lesouvriersdesd02soci_0426.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_397" url="#"/>
-       </figure>
-       <!--<p xml:id="para_14_368_458">
+<pb facs="#facs_395" n="368" source="lesouvriersdesd02soci_0426.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_397" url="#"/>
+</figure>
+<!--<p xml:id="para_14_368_458">
         VALEURS
         </p>
         <p xml:id="para_14_368_459">
@@ -1927,126 +1925,126 @@
         <p xml:id="para_14_368_493">
         A reporter.
         </p>-->
-       <pb facs="#facs_396" n="369" source="lesouvriersdesd02soci_0427.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_398" url="#" xml:id="tble_14_369_6"/>
-       </figure>
-      </div>
-     </div>
-     <div n="003" type="section">
-      <head type="section" xml:id="part_03">
+<pb facs="#facs_396" n="369" source="lesouvriersdesd02soci_0427.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_398" url="#" xml:id="tble_14_369_6"/>
+</figure>
+</div>
+</div>
+<div n="003" type="section">
+<head type="section" xml:id="part_03">
        ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
       </head>
-      <p xml:id="para_14_370_494">
+<p xml:id="para_14_370_494">
        FAITS IMPORTANTS D'ORGANISATION SOCIALE; PRTICULARITÉS REMARQUABLES; APPRÉCIATIONS GÉNERALES; CONCLUSIONS.
       </p>
-      <div n="001" type="sub_section">
-       <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">
+<div n="001" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_17">
          § 17. L'INDUSTRIE DES PIERRES A FEU
          <note type="bp">
-          <p>
+<p>
            Les données historiques ont été fournies par un officier supérieur en etraite, avec une obligeance à laquelle on se plait à rendre un reconnaissant hommage.
           </p>
-         </note>
+</note>
          .
         </head>
-        <p xml:id="para_14_370_497">
-         <pb facs="#facs_397" n="370" source="lesouvriersdesd02soci_0428.xml"/> Historique. — L'exploitation des carrières de silex, qui remonte aux ̀ges les plus reculés, était dans l'origine une industrie absolument ouverte. Le silex pyromaque a toujours été d'un usage courant pour produire du feu. On peut lire dans l'néide certain passage où Vir¬gile parle du briquet :
+<p xml:id="para_14_370_497">
+<pb facs="#facs_397" n="370" source="lesouvriersdesd02soci_0428.xml"/> Historique. — L'exploitation des carrières de silex, qui remonte aux ̀ges les plus reculés, était dans l'origine une industrie absolument ouverte. Le silex pyromaque a toujours été d'un usage courant pour produire du feu. On peut lire dans l'néide certain passage où Vir¬gile parle du briquet :
         </p>
-        <quote>
-         <p xml:id="para_14_370_498">
+<quote>
+<p xml:id="para_14_370_498">
           Ac primum silici scintillam excudit Achates,
          </p>
-         <p>
+<p>
           Suscepitque ignem foliis, atque arida circum
          </p>
-         <p>
+<p>
           Nutrimenta dedit rapuitque in fomite flammam.
          </p>
-        </quote>
-        <p xml:id="para_14_370_500">
+</quote>
+<p xml:id="para_14_370_500">
          On sait que, dans les temps préhistoriques, le silex était façonné en outils et en armes. Le rôle du silex fut considérable dans l'huma¬nité : il eut, à plusieurs reprises, une grande influence sur son dévelop¬pement ; il servait à l'homme à se défendre contre les animaux dange¬reux et lui permettait de faire sa proie des bêtes plus faibles : grâce à lui, il dépecait les viandes, préparait les peaux pour ses vêtements, coupait le bois, creusait ses habitations dans le rocher, etc. En ces temps reculés, on ramassait du silex dans beaucoup de nos régions, notamment à Troyes, à Bougival et dans la vallée du Cher.
         </p>
-        <p xml:id="para_14_370_501">
+<p xml:id="para_14_370_501">
          Puis, dans des temps moins lointains, le silex, de taillé devient poli, et sous cette forme les hommes sont tellement frappés des ser¬vices qu'ils en reçoivent, que l'instrument de silex par excellence, la <pb facs="#facs_398" n="371" source="lesouvriersdesd02soci_0429.xml"/> hache, devient l'objet de leur culte, lemplacé par le br onze, ensuite par le fer, le silex ne tarde pas à être oublié, quand après une longue éclipse il reparait, mais avec une destination spéciale : le service de la guerre. Par son adaptation aux armes à feu, il donne à la destruc¬tion une impulsion nouvelle ; c'est lui qui jonche de morts les champs de bataille des règnes de Louis NXV et de Louis XV, qui affranchit l'Amérique du joug de l'Angleterre, fait triompher la France avec les soldats de la République et sème la terreur à travers l'Europe sur les pas de Napoléon 1ᵉʳ.
         </p>
-        <p xml:id="para_14_371_504">
+<p xml:id="para_14_371_504">
          L'État n'intervint dans la fourniture des pierres à feu qu'à l'époque de la substitution du silex à la mèche pour les mousquets, pistolets et fusils : cette substitution, qui s'opéra vers l'an 1640, amena une exten¬sion de plus en plus grande de l'exploitation. A partir de cette époque et jusqu'en 1794, l'administration militaire pourvoyait à ses besoins par des achats soit auprès d'entrepreneurs de carrières à silex, soit dans le commerce ; elle n'avait pas encore éprouvé la nécessité de s'as¬surer de vastes approvisionnements. La période d'exploitation la plus brillante s'étend de 1794 à 1814, vingt années de fer ou il fallut tenir tête à l'Europe coalisée. La surveillance s'exerca durant cette pé¬riode à une double fin : approvisionner nos armées, interdire le silex français à de nombreuses armées étrangères (celles de l'Allemagne, de la Hollande, de l'Espagne, du Portugal, nos tributaires pour les pierres à feu). Une Commission des armes portatives fut instituée par le Comité de salut public : elle délégua un nommé Salicet, qui fit une enquête à Meusnes et dans les carrières circonvoisines, à tCouffy, à Saint-Aignan et à Lye. Le commissaire de la Révolution procéda à d'im¬portantes acquisitions ; pour en donner l'idée, il suffit de rappeler que sur les trente millions de pierres à fusil existant en 179)4, l'armée en avait retenu dix millions pour son service : ce chiffre considérable s'explique par l'énorme quantité d'hommes qui passaient sous les dra¬peaux, par la facilité avec laquelle se perdaient les pierres et par leur prompte mise hors de service, une bonne pierre ne supportant pas plus de cinquante coups. Les Annales de l'artillerie, auxquelles nous empruntons ces chiffres, conservent les rapports de Salicet, tous pom¬peux et surchargés de la rhétorique ampoulée du temps. Vers 1796. Salicet fit donner à un nommé Maréchal une commission de contrôleur près les mines, chargé des achats pour le compte du gouvernement, en résidence à Meusnes, avec 4.000 francs de traitement ; ce traite¬ment, une première fois réduit à 2.400 francs, fut abaissé, en 1802, à
         </p>
-        <p xml:id="para_14_372_505">
-         <pb facs="#facs_399" n="372" source="lesouvriersdesd02soci_0430.xml"/> 1.200 francs. Maréchal reçut alors le titre de garde d'artillerie et passa sous les ordres du directeur d'artillerie de la Rochelle ; il était encore en fonctions en 1813. Meusnes était la résidence habituelle de Maré¬chal, comme contrôleur et comme garde d'artillerie ; il se transpor¬tait quelquefois à Saint-ignan, qui possédait un magasin de silex taillés, gardé par un employé non payé, probablement un caillouteur de l'endroit.
+<p xml:id="para_14_372_505">
+<pb facs="#facs_399" n="372" source="lesouvriersdesd02soci_0430.xml"/> 1.200 francs. Maréchal reçut alors le titre de garde d'artillerie et passa sous les ordres du directeur d'artillerie de la Rochelle ; il était encore en fonctions en 1813. Meusnes était la résidence habituelle de Maré¬chal, comme contrôleur et comme garde d'artillerie ; il se transpor¬tait quelquefois à Saint-ignan, qui possédait un magasin de silex taillés, gardé par un employé non payé, probablement un caillouteur de l'endroit.
         </p>
-        <p xml:id="para_14_372_506">
+<p xml:id="para_14_372_506">
          Jusqu'en 1814, il n'est fait mention, dans les documents de l'artil¬lerie, d'aucun officier en résidence dans les pays d'extraction du silex. Toutefois, des officiers étaient envoyés en mission pour la réception des pierres à feu, et nous voyons un capitaine Floret se faire remarquer par le soin minutieux qu'il apportait à cette opération. En 1814, le capitaine Devarennes est nommé en résidence fixe à Saint-Aignan ; il est remplacé, en 1836, par le capitaine Desmazis, demeuré en fone¬tions jusqu'au 11 février 1847. Saint-Aignan dépendait alors de la di¬rection d'artillerie de Tours, transférée à Bourges en 1847 : le poste de Saint-Aignan a été supprimé la même année. Le fusil à percussion ayant été adopté en 1840, il n' avait plus de fusils à pierre en service, au moment de cette suppression d'emploi. De nos jours, la pierre à feu trouve son plus grand débouché sur le sol africain et dans le Nou¬veau-Monde. Pour ne parler que de l'Afrique, les rabes et les habi¬tants du continent africain préfèrent de beaucoup et même exclusive¬ment le fusil à pierre. La raison en est bien simple : incapables de fabriquer par elles-mêmes des amorces chimiques, ces peuplades se trouveraient absolument désarmées, dans leurs guerres contre les Européens, si elles faisaient usage des nouveaux fusils.
         </p>
-        <p xml:id="para_14_372_507">
+<p xml:id="para_14_372_507">
          L'industrie des pierres à feu est bien tombée : à l'heure présente, elle n'occupe plus, dans le village de Meusnes, que 20 hommes, 24 femmes et 10 enfants : et encore emploient-ils à d'autres travaux une partie de leur temps, une moyenne de 400 francs de salaires est distribuée par semaine entre ces ouvriers. Que les anthropologis¬tes et économistes qui s'intéressent à la taille du silex se hâtent donc d'aller visiter nos hameaux de Porcheriou, du Musa, du Bois-Pontois, de la Colardiêre et de Chamberlain, s'ils veulent voir encore à l'œuvre le eaillouteur et sa famille l dans quelques années, vraisemblablement, ils ne l'y trouveraient plus.
         </p>
-        <p xml:id="para_14_372_508">
+<p xml:id="para_14_372_508">
          Le magasin de Meusnes a encore une importance qui s'explique d'autant mieux que l'industrie a cessé d'être prospère ; il loge dix millions de pierres, qui représentent un capital de 25.000 francs ; il <pb facs="#facs_400" n="373" source="lesouvriersdesd02soci_0431.xml"/> expédie par an 8 millions de pierres, qui forment un poids de cent mille kilogrammes ; les frais d'exploitation (personnel de tonneliers et de compteuses, emballage et transport des silex taillés des villages au magasin et à la gare expéditrice de Selles-sur-Cher) représentent une somme égale aux déboursés qu'exige l'achat des pierres elles mêmes.
         </p>
-        <p xml:id="para_14_373_510">
+<p xml:id="para_14_373_510">
          ˉxploitation. — Les annales de l'artillerie signalent, pour la France, des gisements de silex dans les localités ci-apres désignées : Meusnes, Noyer, Couffy, au canton de Saint-ignan (de Carismont, selon le vo¬cabulaire révolutionnaire) dans le Loir-et-Cher: Lye, attenant à ce que l'on appelait jadis les mines de Saint-ignan, dans l'Indre ; Maysse et Saint-Vincent, dans l'rdèche ; Cérilly, dans l'onne et la Roche¬iuyon, en Seine-et-Oise. Mais l'extraction du silex eut toujours son siège principal à Meusnes ; aussi les caillouteurs de cette localité et des deux communes voisines de Noyer et de Coufly dépassaient le chiffre de 800 sous la Révolution.
         </p>
-        <p xml:id="para_14_373_511">
+<p xml:id="para_14_373_511">
          Centre de l'industrie des caillouteurs, la commune de Meusnes a, de tout temps, 1ourni les ouvriers spéciaux de cette industrie. C'est à Meusnes que l'empereur Joseph, au cours de son voyage de 1776, allait chercher un contre-maître pour organiser des ateliers en gypte, c'est encore à Meusnes que des négociants de Mons empruntaient des ouvriers, en 1821. Plus tard, Méhémet-Ali envoyaità Meusnes de jeunes gyptiens pour étudier sur place les détails de la fabrication. Ces derniers renseignements résultent du mémoire présenté à la Société d'anthropologie, sur la fabrication des pierres à fusil en France, par M. P. Salmon, vice-président de la commission des monuments mé¬galithiques.
         </p>
-        <p xml:id="para_14_373_512">
+<p xml:id="para_14_373_512">
          Depuis le milieu du dix-septième siècle et jusqu'à la Révolution, les eaillouteurs se contentaient d'enlever la terre végétale, puis ils creu¬saient des trous que, suivant leurs formes, ils appelaient rigoles, caves ou crocs, quand ils avaient fouillé la terre à une certaine profondeur, ils remblayaient les excavations avec la terre de la surfaee. Plus tard, ils pratiquèrent des galeries souterraines. Ils achetaient et ils achèten encore aujourd'hui ou ils louent une, deux ou trois boisselées de terre (la boisselee est de I ares 70 centiares) ; ils s'associent ordinairement trois ou quatre pour une exploitation.
         </p>
-        <p xml:id="para_14_373_513">
+<p xml:id="para_14_373_513">
          L'exploitation subit trois phases bien distinctes : l'extraction, la. fente ou division des blocs en fragments, le cliage ou division de ces fragments en écailles ou lames à surfaces parallèles.
         </p>
-        <p xml:id="para_14_374_514">
-         <pb facs="#facs_401" n="374" source="lesouvriersdesd02soci_0432.xml"/> La première opération consiste à déterminer l'emplacement des puits d'extraction, en considérant que chacun d'eux permet d'exploiter 50 mêtres carrés en moyenne ; ces puits, que l'on peut comparer à des tuyaux d'anciennes cheminées, sont creusés verticalement, avec une section rectangulaire de 2mètres sur 0 centimètres et une profondeur de 3 mètres environ. Si le puits ne rencontre pas le silex, le caillouteur pratique dans une de ses grandes parois ce quiil appelle une incision, c'est-à-dire une amorce de galerie horizontale taillée en voûte à sa partie supérieure ; la hauteur de cette galerie ne dépasse pas 1 mètre et sa largeur est d'environ 2 mètres; à une distance de moins d'un mètre de ce point de départ, il.ouvre un nouveau puits en tout semblable au premier ; puis, s'il ne rencontre pas le silex avant d'être arrivé a une nouvelle profondeur de 3 mètres, il fait une nouvelle incision et un troisième puits, continuant ainsi jusqu'à ce qu'il soit arrivéà la couche à exploiter. Dn a vu parfois des fouilles descendre jusqu'à 16 mètres. de profondeur. Le silex trouvé, l'ouvrier pratique dans une des grandes parois du puits intérieur une galerie (maîtresse cave) taillée en voûte, de 1 mètre de hauteur et de 1ᵐ 30 à 2 mètres de largeur, si elle se trouve dans l'argile ; dans la marne, elle est ordinairement de 4 mètres de largeur. A son extrémité, l'ouvrier pratique, dans une direction perpendiculaire à son axe, une nouvelle galerie de dimensions plus restreintes (un caveriot, petite cave ; c'est le rameau des mines militaires). Les déblais des puits, des incisions, de la maîtresse cave et du premier caveriot, ainsi que les silex provenant du caveriot sont remontés à la surface du sol en se servant de la pelle. En face du caveriot, on ouvre dès lors, dans la paroi opposée de la maîtresse-cave, un nouveau rameau dont les déblais servent à rem¬blayer le premier : le travail se continue ainsi en revenant en arrière et en ouvrant dans chacune des parois de la maîtresse-cave autant de rameaux qu'il est possible d'en creuser. Les silex sont poussés à la pelle ou enlevés à bras d'homme, si leurs dimensions sont trop consi¬dérables, jusqu'à l'orifice du puits supérieur. La fouille est méthodi¬quement conduite, en bourrant avec les déblais d'un rameau le vide d'un rameau opposé : ces mêmes opérations sont répétées en avant de l'autre grande paroi du puits inférieur. Ainsi. l'on arrive à extraire le caillou sur une surface de 8 mètres sur i, soit d'environ 50 mètres carrés.
+<p xml:id="para_14_374_514">
+<pb facs="#facs_401" n="374" source="lesouvriersdesd02soci_0432.xml"/> La première opération consiste à déterminer l'emplacement des puits d'extraction, en considérant que chacun d'eux permet d'exploiter 50 mêtres carrés en moyenne ; ces puits, que l'on peut comparer à des tuyaux d'anciennes cheminées, sont creusés verticalement, avec une section rectangulaire de 2mètres sur 0 centimètres et une profondeur de 3 mètres environ. Si le puits ne rencontre pas le silex, le caillouteur pratique dans une de ses grandes parois ce quiil appelle une incision, c'est-à-dire une amorce de galerie horizontale taillée en voûte à sa partie supérieure ; la hauteur de cette galerie ne dépasse pas 1 mètre et sa largeur est d'environ 2 mètres; à une distance de moins d'un mètre de ce point de départ, il.ouvre un nouveau puits en tout semblable au premier ; puis, s'il ne rencontre pas le silex avant d'être arrivé a une nouvelle profondeur de 3 mètres, il fait une nouvelle incision et un troisième puits, continuant ainsi jusqu'à ce qu'il soit arrivéà la couche à exploiter. Dn a vu parfois des fouilles descendre jusqu'à 16 mètres. de profondeur. Le silex trouvé, l'ouvrier pratique dans une des grandes parois du puits intérieur une galerie (maîtresse cave) taillée en voûte, de 1 mètre de hauteur et de 1ᵐ 30 à 2 mètres de largeur, si elle se trouve dans l'argile ; dans la marne, elle est ordinairement de 4 mètres de largeur. A son extrémité, l'ouvrier pratique, dans une direction perpendiculaire à son axe, une nouvelle galerie de dimensions plus restreintes (un caveriot, petite cave ; c'est le rameau des mines militaires). Les déblais des puits, des incisions, de la maîtresse cave et du premier caveriot, ainsi que les silex provenant du caveriot sont remontés à la surface du sol en se servant de la pelle. En face du caveriot, on ouvre dès lors, dans la paroi opposée de la maîtresse-cave, un nouveau rameau dont les déblais servent à rem¬blayer le premier : le travail se continue ainsi en revenant en arrière et en ouvrant dans chacune des parois de la maîtresse-cave autant de rameaux qu'il est possible d'en creuser. Les silex sont poussés à la pelle ou enlevés à bras d'homme, si leurs dimensions sont trop consi¬dérables, jusqu'à l'orifice du puits supérieur. La fouille est méthodi¬quement conduite, en bourrant avec les déblais d'un rameau le vide d'un rameau opposé : ces mêmes opérations sont répétées en avant de l'autre grande paroi du puits inférieur. Ainsi. l'on arrive à extraire le caillou sur une surface de 8 mètres sur i, soit d'environ 50 mètres carrés.
         </p>
-        <p xml:id="para_14_374_515">
+<p xml:id="para_14_374_515">
          Autrefois, la fente et le clivage avaient lieu sur le bord même de la carrière, pour réduire la charge à emporter : aujourd'hui, ces travau <pb facs="#facs_402" n="375" source="lesouvriersdesd02soci_0433.xml"/> se font au village. Pour fendre ou cliver les cailloux, l'ouvrier se ga¬rantit du vent ; l'hiver, il se met devant le feu, et l'été, hors de la maison, à l'ombre. C'est ainsi que nous trouvions habituellement Désiré P** fendant les cailloux, assis sur un tas de silex déchargé au seuil de sa porte. Les écailles sont taillées en pierres à feu et à briquet, sur des tables épaisses dites billots, et le travail de taille est plus gé¬néralement fait par les femmes et les enfants ; c'est encore ce qui se pratique dans la famille observée. Les renseignements, sévèrement contrôlés, que nous tenons de la bouche même de notre chef de fa¬mille, ont le mérite de saisir sur le vif le mouvement de cette exploi¬tation.
         </p>
-        <p xml:id="para_14_375_517">
+<p xml:id="para_14_375_517">
          Quand Désiré va extraire le silex, il part en tenue de travail, géné¬ralement vers cinq heures du matin. La carrière exploitée est habi¬tuellement à un ou deux kilomètres, parfois à cinq ou six kilomètres de son domicile. Souvent on s'y rend à plusieurs, parfois même jusqu'à quatre ou cinq, quand l'extraction est profonde ; pour faciliter la descente dans la mine, des entailles formant marches sont pratiquées de deux en deux pieds dans les parois opposées du puits. Pour le travail de fouille, les caillouteurs se servent de pics et de pelles ; ils s'éclairent avec des chandelles. Les voûtes des caves ou caveriots imitent assez bien une gueule de four ; en raison de leur peu de hau¬teur, l'ouvrier travaille accroupi sur ses genoux. On commence par dégager la terre souvent boueuse, puis on détache, en s'aidant de la pique,  les blocs de silex que l'on projette au dehors avec la pelle : quand ils sont trop gros pour être ainsi ramenés, on les remonte en fai¬sant la chaine avec les camarades.
         </p>
-        <p xml:id="para_14_375_518">
+<p xml:id="para_14_375_518">
          Alors se fait le partage en autant de parts qu'il y avait d'ouvriers occupés à l'extraction, puis on tire au sort ces parts. Désiré rapporte sa part dans la voiture traînée par l'àne qu'il a amené dès le matin à la carriêre, et vers onze heures il la décharge devant la maison, s'il fait beau, et sous son hangar, quand il pleut. La famille écarte, c'est¬à-dire étend, les silex sur le sol pour les faire sécher ; ce n'est qu'après une dessiccation convenable que le trempant (tranchant) du marteau peut les diviser à l'aide d'un petit coup sec dont il faut avoir le secret. Dans la famille observée, la taille des pierres est faite par la femme et la fillette ; elles en taillent de dix sortes différentes. L'agent chargé des réceptions passe le samedi dans les villages pour leuer (recevoir), et la levée, pour le hameau de Bois-Pontois, se fait au domicile de père.
         </p>
-        <p xml:id="para_14_376_519">
-         <pb facs="#facs_403" n="376" source="lesouvriersdesd02soci_0434.xml"/> Les instruments spéciaux employés pour la confection des pierres à feu sont : une petite masse de fer à tête carrée, sans acier, pour di¬viser les blocs en fragments, un marteau à deux pointes, de bon acier, pour le clivage ; une petite roulette d'acier non trempé, sorte de troi¬sième marteau, en forme de champignon, pour la taille des pierres, qui se fait en placant la partie inférieure de l'écaille sur un ciseau en biseau des deux côtés, adapté sur le devant du billot ; ce ciseau est incliné de 20° environ vers l'ouvrier, qui s'assied en avant sur une pe¬tite chaise basse ; enfin, une lime pour aiguiser le ciseau. Il faut une minute au plus pour faire une pierre. Un bon ouvrier fend et prépare deux mille écailles (lames) en un jour ; celui ou celle qui taille fait au moins huit cents pierres par jour.
+<p xml:id="para_14_376_519">
+<pb facs="#facs_403" n="376" source="lesouvriersdesd02soci_0434.xml"/> Les instruments spéciaux employés pour la confection des pierres à feu sont : une petite masse de fer à tête carrée, sans acier, pour di¬viser les blocs en fragments, un marteau à deux pointes, de bon acier, pour le clivage ; une petite roulette d'acier non trempé, sorte de troi¬sième marteau, en forme de champignon, pour la taille des pierres, qui se fait en placant la partie inférieure de l'écaille sur un ciseau en biseau des deux côtés, adapté sur le devant du billot ; ce ciseau est incliné de 20° environ vers l'ouvrier, qui s'assied en avant sur une pe¬tite chaise basse ; enfin, une lime pour aiguiser le ciseau. Il faut une minute au plus pour faire une pierre. Un bon ouvrier fend et prépare deux mille écailles (lames) en un jour ; celui ou celle qui taille fait au moins huit cents pierres par jour.
         </p>
-        <p xml:id="para_14_376_520">
+<p xml:id="para_14_376_520">
          Pour être convenablement taillé, le silex doit contenir son eau de mine, cette eau radicale qui lui donne sa transparence. Les cailloux recherchés sont 'généralement sur des lits de marne, à dix ou doue mêtres de profondeur. Le silex pyromaque, en sortant de la carriêre, est couvert d'une écorce blanche de deux lignes et plus quelquefois d'épaisseur, et d'un aspect terreux ; sa masse est globulaire : l'aspect intérieur est gras, luisant, d'un grain fin, presque imperceptible ; sa couleur, du jaune de miel jusqu'au brun noirâtre, est généralement blonde sur les rives du Cher, brune-noirâtre à la Roche-uyon. Longtemps exposé aux intempéries de l'air, il prend une nouvelle écorce blanche friable ; jusques dams son intérieur, il perd son œil gras, a demi-transparence, devient blanchâtre et moins pesant ; il faut le tenir dans des lieux frais et fermés, pour que sa cassure soit moins courte : c'est le moyen de lui conserver son tranchant. Son exploitation exige les plus grandes précautions : au sortir de la carrière, il est quelquefois trop humide ; il faut alors, avant de le fendre, le laisser sécher soit en plein air, soit devant le feu. D'un autre côté, s'il est trop sec, il ne peut plus être taillé, il se casse
         </p>
-        <p xml:id="para_14_376_521">
+<p xml:id="para_14_376_521">
          Les deux types que nous retenons (le commerce en connait plus de quinze espèces différentes) sont : la pierre à une mèche (biseau), dite pierre à fusil, et la pierre à deux mèches ou à deux coups, ainsi nom¬mée parce qu'on fait une deuxième mèche à l'opposé de la première, au lieu de faire un talon : c'est la pierre à briquet, encore aujourd'hui très répandue. Le mot « mèche, employé ici, vient de la substitu¬tion de la pierre à fusil à la mèche, dont on se servait dans l'origine pour mettre le feu à la charge des mousquets.
         </p>
-        <p xml:id="para_14_377_523">
-         <pb facs="#facs_404" n="377" source="lesouvriersdesd02soci_0435.xml"/> Apeŗçu des prix. — Notre armée employait quatre espèces de pierres à feu; leurs prix, par mille, étaient les suivants :
+<p xml:id="para_14_377_523">
+<pb facs="#facs_404" n="377" source="lesouvriersdesd02soci_0435.xml"/> Apeŗçu des prix. — Notre armée employait quatre espèces de pierres à feu; leurs prix, par mille, étaient les suivants :
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_3">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_3">
           Evolution du prix des quatre type de pierre à feu pour fusil employées par l'armée (1700, 1800, 1804, 1808) (notes annexes)
          </head>
-         <graphic facs="#facs_404" url="#"/>
-        </figure>
-        <p xml:id="para_14_377_524">
+<graphic facs="#facs_404" url="#"/>
+</figure>
+<p xml:id="para_14_377_524">
          Les fournitures effectuées en 1800 furent payées 135.000 francs en assignats, ce qui ne représente guère plus de 20.000 francs, tant était grande la dépréciation de ce papier. Des marchés furent régulièrement passés par l'administration de l'artillerie ; ils étaient sensiblement plus àvantageux que l'achat direct aux producteurs. En 1804, le mille se payait en moyenne 7 francs ; 9 franes en 1809, tonne comprise, et rendu à Lyon, Strasbourg ou Saint-Quentin. Les fournisseurs en avaient demandé 20 francs.
         </p>
-        <p xml:id="para_14_377_525">
+<p xml:id="para_14_377_525">
          Aujourd'hui
          <note type="bp">
-          <p>
+<p>
            Ces chiffres ont été produits dans la séance du 14 novembre 1887 de la Sociéte d'économie socile, à l'occasion de laquelle M. Salmon a fait hommage d'un mé¬moire déjà cité. (Réforme sociale, 1er janvier 1888.)
           </p>
-         </note>
+</note>
          , la demande des pierres à fusil suffit à entretenir la production en France, en Angleterre et en Albanie; elle a même aug¬menté depuis nos récents progrès dans le bassin de Tombouctou. Sur les marchés du haut Niger, le mille de pierres à feu vaut de 12 à 16 francs, et notre traité de commerce avec le sultan de Ségou stipu¬lait une livraison de 30.000 pierres. Suivant leur forme, leur grosseur et leur façon, ces pierres sont toujours payées de 0 fr. 75 c. à 4 fr. 50 le mille.
         </p>
-        <p xml:id="para_14_377_526">
+<p xml:id="para_14_377_526">
          Mortalité qu'engendre cette industrie. — Il n'est pas nécessaire, hélas pour que la pierre à feu soit meurtrière, qu'elle soit appliquée au fusil. Cette exploitation fut pernicieuse à un tel degré que l'on a vu les caillouteurs de Meusnes se renouveler trois fois en soixante ans ; on conçoit aisément combien fut éprouvée, à cette époque, la popula¬tion tout entiêre, la plupart des chefs de famille étant caillouteurs lorsque l'industrie prospérait.
         </p>
-        <p xml:id="para_14_377_527">
+<p xml:id="para_14_377_527">
          Des 1799, M. Maréchal, le garde d'artillerie dont nous avons parlé, présentait sous cette touchante épigraphe : Miseris succurrere quaerit, un remarquable mémoire où il s'appliquait à faire ressortir le danger de cette industrie pour la santé des caillouteurs : 1° dans les galeries. <pb facs="#facs_405" n="378" source="lesouvriersdesd02soci_0436.xml"/> d'une part, manque d'aération : l'oxygène de l'air est transformé en ga acide carbonique, sous l'action combinée de la respiration et des lampes, et, par suite, dangers d'asphyxie à l'intérieur ; d'autre part, température plus élevée qu'à l'extérieur, et, comme conséquence, me¬nace permanente de rhumes et de bronchites à la sortie des carrières ; 2° dans le débit du silex, production d'une poussière de menus cris¬taux, tenue en suspension dans l'air, respirée par les ouvriers et pé¬nétrant dans les poumons : de là des bronchites et des maladies de poitrine, si funestes aux caillouteurs qu'ils ne dépassaient guère l'âge de quarante à quarante-cinq ans. Maréchal, ayant su qu'un prix avait été proposé pour celui qui garantirait les émouleurs de baionnettes de la poussière de leurs meules, demanda la fondation d'un prix de 3.000 francs pour l'inventeur d'un procédé qui préserverait les caillou¬teurs. La proposition fut adoptée, mais je ne sache pas que le pri ait jamais été décerné.
         </p>
-        <!--<p xml:id="para_14_377_528">
+<!--<p xml:id="para_14_377_528">
          Pour fusils de rempart.... Pour fusils de munition..
          </p>
          <p xml:id="para_14_377_529">
@@ -2061,102 +2059,102 @@
          <p xml:id="para_14_377_532">
          moyenne.
          </p>-->
-        <p xml:id="para_14_378_535">
+<p xml:id="para_14_378_535">
          Une note, consignée dans un travail de M. Bourgouin, et datée de 1825, est d'un effrayant laconisme : « M. le curé m'a assuré n'avoir encore fait qu'un ou deux mariages en présence des pères et mêres des époux, et cela parce qu'ils étaient morts prématurément. » Les faits, d'accord avec les chiffres, établissent d'une manière certaine que la fabrication du silex, en dehors même de son but, était au pre¬mier chef inhumaine et meurtrière. 'ajouterai, ce que les chiffres ne peuvent enseigner, que cette industrie, comme il arrive pour beau¬coup d'autres, en s'établissant dans le pays, en avait dépravé les meurs.
         </p>
-        <p xml:id="para_14_378_536">
+<p xml:id="para_14_378_536">
          Le cultivateur ou le vigneron, en devenant ouvrier du caillou, per¬dait une des qualités les plus précieuses du paysan français, une de celles qui contribuent le plus à la vitalité de notre nation, l'amour de l'épargne. iagnant des prix élevés et se sachant condamné à une fin prochaine, le caillouteur se hâtait de jouir et, dépensant follement, en excès de toutes sortes, le fruit de son travail, il ne pensait même pas à en employer une faible partie pour assurer à sa famille la sécurité du lendemain, ni même pour lui procurer un accroissement actuel de bien-être.
         </p>
-        <p xml:id="para_14_378_537">
+<p xml:id="para_14_378_537">
          Donc, au point de vue spécial de la population, malgré les gains que cette industrie lui procurait, on ne peut qu'applaudir à sa dispa¬rition presque complète.
         </p>
-       </div>
-       <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_18">
          § 18. PRATIQUES RELIGIEUSES LOCALES.
         </head>
-        <p xml:id="para_14_379_540">
-         <pb facs="#facs_406" n="379" source="lesouvriersdesd02soci_0437.xml"/>Voici un certain nombre de pratiques touchantes, quoique supersti¬tieuses, qui attestent de vieilles traditions de foi latente et d'habitudes religieuses.
+<p xml:id="para_14_379_540">
+<pb facs="#facs_406" n="379" source="lesouvriersdesd02soci_0437.xml"/>Voici un certain nombre de pratiques touchantes, quoique supersti¬tieuses, qui attestent de vieilles traditions de foi latente et d'habitudes religieuses.
         </p>
-        <p xml:id="para_14_379_541">
+<p xml:id="para_14_379_541">
          Beaucoup de familles ont l'usage d'entreprendre des pèlerinages dans certaines églises ou chapelles spéciales de la région, à l'effet d'obtenir la guérison de leurs enfants affligés de telle ou telle maladie : elles appellent cela « faire un voyage ». C'est ainsi que l'on fait des voyages à l'église de Meusnes, à l'effet de préserver les enfants des convulsions et des cris de peur. On demande alors au prêtre de réciter un Evangile en tenant l'étole sur la tête des enfants. Il existe deux moyens de suppléer au voyage on peut le faire exécuter à ses frais par un ami, ou bien mettre de côté la petite somme que le voyage eût nécessitée ; il est essentiel, pour la validité,'que ladite somme ait été déposée dans un endroit inaccessible à la pluie, sans que personne ait vu effectuer le précieux dépôt.
         </p>
-        <p xml:id="para_14_379_542">
+<p xml:id="para_14_379_542">
          Le 6 août, jour de la fête de la Transfiguration, l'enfant de chœur remet au prêtre, au moment de l'offertoire, des raisins choisis parmi les plus murs des vignes environnantes : le prêtre les bénit, exprime dans le calice le jus de plusieurs grains, et les quelques grappes qui restent sont distribuées aux fidèles qui assistent à la messe.
         </p>
-        <p xml:id="para_14_379_543">
+<p xml:id="para_14_379_543">
          Le vendredi saint, tous les petits enfants de Meusnes sont amenés à l'église, dans leurs plus beaux habits de fête, pour l'adoration de la croix : c'est un concert assourdissant de cris et de vagissements qu rappelle d'assez loin les vociférations du Prétoire
         </p>
-        <p xml:id="para_14_379_544">
+<p xml:id="para_14_379_544">
          Aux processions de la Fête-Dieu, pour obtenir que le bébé marche de bonne heure, la mère met les pieds nus de son enfant sur le tapis à la place qu'occupaient les pieds du prêtre, lorsqu'il donnait la bé¬nédiction. Un grand nombre d'objets de piété (chapelets, livres, sta¬tuettes, etc.), sont soumis à la bénédiction du prêtre à la fin de la messe. Il est rare que l'on prenne possession d'une maison nouvelle¬ment construite, sans la faire bénir.
         </p>
-       </div>
-       <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_19">
          § 19. LE COSTUME DU PAYS.
         </head>
-        <p xml:id="para_14_380_547">
-         <pb facs="#facs_407" n="380" source="lesouvriersdesd02soci_0438.xml"/>Les deux particularités du costume de la contrée concernent l'ha¬billement des femmes du peuple. Le bonnet, plat du fond et presque rond, a ses bords étroitement appliqués contre la tête ; ceux-ci sont garnis de petites ruches tuyautées très fines. Les fillettes le portent pour leur première communion et à partir de ce jour ; les mariées le surmontent de leur couronne de fleurs d'oranger. Les broderies, les vraies dentelles, les rubans de moire ornent à profusion les coiffures, dans ces grandes circonstances, et, s'ils n'ajoutent pas de charme aux personnes, iis leur donnent incontestablement beaucoup plus de prix.
+<p xml:id="para_14_380_547">
+<pb facs="#facs_407" n="380" source="lesouvriersdesd02soci_0438.xml"/>Les deux particularités du costume de la contrée concernent l'ha¬billement des femmes du peuple. Le bonnet, plat du fond et presque rond, a ses bords étroitement appliqués contre la tête ; ceux-ci sont garnis de petites ruches tuyautées très fines. Les fillettes le portent pour leur première communion et à partir de ce jour ; les mariées le surmontent de leur couronne de fleurs d'oranger. Les broderies, les vraies dentelles, les rubans de moire ornent à profusion les coiffures, dans ces grandes circonstances, et, s'ils n'ajoutent pas de charme aux personnes, iis leur donnent incontestablement beaucoup plus de prix.
         </p>
-        <p xml:id="para_14_380_548">
+<p xml:id="para_14_380_548">
          La capote, long vêtement de drap avec capuchon rond, analogue aux mantes de nos aieules, est d'un usage traditionnel. Les femmes dans une situation un peu aisée en ont généralement deux, l'une, en drap bleu assez grossier, pour aller aux champs en hiver ou faire de petites courses pendant la semaine ; l'autre, en drap noir très fin, dont le capuchon est garni d'une large bande de velours, pour le dimanche et les circonstances où elles font quelque toilette. La femme P** a ees deux capotes. ''oute femme en grand deuil est tenue à porter ce vête¬ment avec le capuchon rabattu sur la tête, quelque température qu'il fasse ; il en est de même lorsqu'elles assistent à un enterrement et à l'ofice des morts. C'est un spectacle vraiment lugubre qui fait songer à une apparition de fantômes, que celui de toutes ces femmes groupées dans l'église et cachées sous leurs longs vêtements de deuil.
         </p>
-       </div>
-       <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_20">
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_20">
          § 20. QUELQUES TRAITS DU LANGAGE LOCAL.
         </head>
-        <p xml:id="para_14_380_551">
+<p xml:id="para_14_380_551">
          Bien que le pays de Blois ait la réputation de parler le plus pur français, le paysan de Meusnes, on peut l'affirmer sans crainte, es1 absolument rebelle à cette correction de langage qui fait la distinction d'un grand nombre d'habitants de Loir-et-Cher. En passant par ses lèvres, Blois devient ˉloèt, la diphtongue eau devient iau,; l'habitude de manger l'r lui fait dire suprieur pour supérieur. Son vocabulaire <pb facs="#facs_408" n="381" source="lesouvriersdesd02soci_0439.xml"/> familier est un mélange de patois local et de locutions corrompues, parmi lesquelles on retrouve quelques mots de vieux français :
         </p>
-        <p xml:id="para_14_381_553">
+<p xml:id="para_14_381_553">
          Aca d'iau, pluie torrentielle ; adresser, mettre en lieu sûr ; appeleter, aller vite en besogne : baper, crier ; berouetle, brouette ; besson, ju¬meau; boheme, fillette ; boisson, buisson : bomir, vomir ; brancilloire, balançoire ; brocher, tricoter: buie, lessive ; caillotte, maladie des cail¬louteurs ; cavetlte, coqueluche ; censaure, sangsue ; détraueter, déranger du travail régulier ; drôle, garçonnet : enroatille, enroué ; faire ses pt¬ques, communier même hors du temps pascal ; fatigué, malade ; Fete¬a-Dieu, Féte-Dieu ; foude, vent violent ; fripe, viande ; gouleˉ, bouche, haissableˉ, désagréable ; horreur, erreur ; ˉlichon, gourmand; ligner, pêcher à la ligne ; miche, pain blanc ; mignon, gentil ; ouaille, mouton ; peter, marcher ; pdace, chambre ; poeser, avoir de l'eau dans sa chaus¬sure ; uérir, chercher ; rio, petit ruisseau ; siége-vous, asseyez-vous ; trainier, mendiant errant ; truè, pomne de terre ; vuner, poursuivre ; venelle, sentier.
         </p>
-        <p xml:id="para_14_381_554">
+<p xml:id="para_14_381_554">
          Les mesures de superficie couramment en usage se nomment : l'ar¬pent, applicable aux prés et aux vignes ; la boisselee, applicable aux terres en culture et aux bois ; la journee, qui s'applique spécialement aux vignes. La journée vaut 5 ares ; la boisselée, qui, avant l'usage obligatoire des mesures métriques, était évaluée à  ares 60 centiares, se calcule généralement aujourd'hui à  ares 70 centiares (il y en a 13 a l'hectare). L'arpent vaut 8 boisselées. Dans les ventes et transactions entre particuliers, les mesures métriques sont nécessairement appli¬
         </p>
-       </div>
-       <div n="005" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_21">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_21">
          § 21. LE MORCELLEMENT DE LA PETITE PROPRIÉTÉ.
         </head>
-        <p xml:id="para_14_381_557">
+<p xml:id="para_14_381_557">
          Nous avons dejà dit que les dispositions du Code civil sont rigoureu¬sement appliquées dans les successions et les partages, c'est-â-dire que chaque pièce de terre est partagée entre tous les cohéritiers, par des procédés de division souvent bizarres, en vue d'attribuer à chaque partie prenante des parcelles de même qualité. Cela a pour incon¬vénient d'augmenter à l'infini le morcellement (
          <ref target="#part_02_02_07" type="renvoi_int_mono">
           § 7
          </ref>
          , ). C'est le cas d'arrêter notre attention, à titre d'exemple, sur le morcellement des propriétés foncières de la famille qui nous occupe spécialement : <pb facs="#facs_409" n="382" source="lesouvriersdesd02soci_0440.xml"/> leménage P**, qui possède 67 ares 50 centiares de vignes et un jardin de 11 ares, a ses vignes réparties en cinq parcelles, dont trois n'ont que 5, 7 et 8 ares. Il se fait ainsi, au détriment des petits propriétaires, un véritable travail de Pénélope, consistant à créer une modeste pro¬priété qui, au lieu de subsister entre les mains de quelques-uns des enfants, est dépecée et réduite en lambeaux à la mort du possesseur. Ce morcellement indéfini, pour ainsi dire, est une des causes de l'aug¬mentation du prix de la main-d'œuvre ; car les cultures à la main, qu en sont la conséquence, occupent tous les bras disponibles, et par suite les journaliers agricoles deviennent de plus en plus rares. Les inconvénients du morcellement pourraient être en partie évités au moyen d'estimations qui permettraient des compensations en argent ; mais l'usage de la soulte est antipathique à la population.
         </p>
-        <p xml:id="para_14_382_559">
+<p xml:id="para_14_382_559">
          L'amour de nos paysans pour la terre est proverbial : fait qui serait fort heureux, car il a pour conséquence habituelle le goût de l'é¬pargne, s'il ne les entraînait à des achats qui souvent dépassent de beaucoup leurs ressources pécuniaires. Le vendeur prend hypo¬thèque sur le bien vendu, et le preneur se trouve chargé du paiement d'une rente dont le montant dépasse presque toujours le produit du champ acheté. Une foule de petits prêteurs d'argent exploitent ce tra¬vers de nos paysans et vivent de leur travail comme la fourmi exploite, dit-on, le puceron. La petite propriété est donc souvent endettée, c'est le cas de la famille observée. Dans les circonstances actuelles où la main-d'euvre est chère et les prix de vente peu rémunérateurs, un tel systeme achemine la plupart des acheteurs vers la ruine : le nombre des saisies, rares jusqu'à présent, va sensiblement augmenter, nous le savons. C'est un nouvel et triste exemple à ajouter à ceux que la Société d'Economie sociale a déjà recueillis sur la crise que la petite propriété subit aetuellement en beaucoup de régions.
         </p>
-        <p xml:id="para_14_382_560">
+<p xml:id="para_14_382_560">
          LE VIGNERON TAILLEUR DE PIERRES A FEU.
         </p>
-        <p xml:id="para_14_382_561">
+<p xml:id="para_14_382_561">
          Les différents traits sous lesquels nous venons d'envisager la famille, objet de la présente monographie, nous permettent d'en fixer le clas¬sement avec une rigoureuse sûreté, et de dégager quelques réflexions qui n'ont pu trouver place dans le corps de cette étude.
         </p>
-        <p xml:id="para_14_383_562">
-         <pb facs="#facs_410" n="383" source="lesouvriersdesd02soci_0441.xml"/> Tailleur de silex tâcheron, chef de ménage, propriétaire de son foyer et de son atelier, notre ouvrier contracte avec le patron une as¬sociation utile aux deux parties, et conserve pourtant une véritable indépendance, puisque, dans une certaine mesure, il est libre de régler l'emploi de son temps selon ses propres convenances : il fait ainsi un premier pas vers la condition de chef de métier qui travaille pour son propre compte. Il a contracté sous le régime des engagements mo¬mentanés, et nous avons pu observer les effets de la transformation qui a fait cesser les engagements volontaires permanents. Le régime des engagements momentanés marque un certain relâchement des liens sociaux, sous la double influence des idées et des mœurs ; il révêle un affaiblissement incontestable de la solidarité qui unit le maître à l'ouvrier ; il est un des traits de cette tendance à la désor¬ganisation de l'atelier sur laquelle F. Le Play insiste et revient avec une si haute raison dans la ˉdeforme sociale en France et dans l'ˉOrga¬nisation du travail.
+<p xml:id="para_14_383_562">
+<pb facs="#facs_410" n="383" source="lesouvriersdesd02soci_0441.xml"/> Tailleur de silex tâcheron, chef de ménage, propriétaire de son foyer et de son atelier, notre ouvrier contracte avec le patron une as¬sociation utile aux deux parties, et conserve pourtant une véritable indépendance, puisque, dans une certaine mesure, il est libre de régler l'emploi de son temps selon ses propres convenances : il fait ainsi un premier pas vers la condition de chef de métier qui travaille pour son propre compte. Il a contracté sous le régime des engagements mo¬mentanés, et nous avons pu observer les effets de la transformation qui a fait cesser les engagements volontaires permanents. Le régime des engagements momentanés marque un certain relâchement des liens sociaux, sous la double influence des idées et des mœurs ; il révêle un affaiblissement incontestable de la solidarité qui unit le maître à l'ouvrier ; il est un des traits de cette tendance à la désor¬ganisation de l'atelier sur laquelle F. Le Play insiste et revient avec une si haute raison dans la ˉdeforme sociale en France et dans l'ˉOrga¬nisation du travail.
         </p>
-        <p xml:id="para_14_383_563">
+<p xml:id="para_14_383_563">
          Les particularités qui se rattachent à la condition de notre ouvrier offrent un ensemble d'idées assez complexes. Lié au patron par des rapports d'intérêts qui se traduisent en un salaire, il est artisan, à le considérer dans sonindustrie de cailouteur. Mais l'alliance des travaux industriels et agricoles donne à sa situation sociale un double aspect qui fait l'originalité de cette monographie. ˉPaysan-igneron, il a fait par cela même un pas de plus vers l'indépendance. Dépourvue malheu¬reusement du capital nécessaire à une exploitation fructueuse, la amille P***, que nous avons vue constamment unie dans le travail du silex, possède des qualités morales qui lui ont permis d'améliorer sensiblement sa condition ; elle a su s'élever, par degrés, de la situa¬tion de tâcheron à celle de propriétaire. bLa saine influence de la pro¬priété se fortifie encore par la participation de toute la famille à l'in¬dustrie de l'ouvrier
          <ref target="#part_02_01_05" type="renvoi_int_mono">
           (§ 5)
          </ref>
          .
         </p>
-        <p xml:id="para_14_383_564">
+<p xml:id="para_14_383_564">
          L'activité de la famille ne s'est pas bornée aux travaux entrepris pour le compte d'un patron ; elle entreprend, pour son propre compte, et avec le concours de tous ses membres, diverses autres industries, parmi lesquelles la récolte des céréales tient une place importante. Elle possède en toute propriété maison, jardin et vignes ; exploite di¬rectement ses vignes et son jardin, justifiant les conclusions que F. Le Play a si fermement tirées de ses observations, par sa résistance aux vices développés par les appétits sensuels et aux pièges tendus aux désirs cupides par les prêteurs d'argent. Cette possession toutefois, <pb facs="#facs_411" n="384" source="lesouvriersdesd02soci_0442.xml"/> si elle exerce sur notre famille l'influence morale la plus salutaire, n'a sur sa vie active qu'une influence de second ordre, et l'abus des achats de terrains, relevé aux paragraphes 3, 12 et 19, empêche sa situation de s'affermir, autant que ses qualités morales lui en donneraient in¬contestablement le droit.
         </p>
-        <p xml:id="para_14_384_566">
+<p xml:id="para_14_384_566">
          Il m'a été, je veux le dire en terminant, maintes fois donné, au cours de ces observations, de vérifier le bien fondé des recommandations ins¬crites dans l'nstruction sur les monographies de familles je me suis rendu compte qu'il n'est pas si difficile que je le craignais tout d'abord. de gagner la confiance de braves gens à l'amélioration de la condition desquels on s'intéresse, auxquels on laisse entendre, parfois deviner, les améliorations souhaitables dans leur organisation. Le terrain m'avait été excellemment préparé, sans doute, par un éminent et cher collaborateur, dont je dois taire le nom, mais la réserve qui m'est im¬posée ajoute encore à ma gratitude. J'étais parvenu à obtenir la confiance de la famille, peut-être mieux encore ; car ces braves gens trouvaient longs, disaient-ils, les intervalles de mes visites.
         </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </body>
- </text>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</text>
 </TEI>

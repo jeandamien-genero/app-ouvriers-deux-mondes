@@ -1,446 +1,445 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie-->
-<TEI xml:id="ID-074a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>
+<!--monographie--><TEI xml:id="ID-074a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>
      Les Ouvriers des Deux Mondes - série 2, volume 4 - Transcription
     </title>
-    <respStmt>
-     <persName>
-      <forename>
+<respStmt>
+<persName>
+<forename>
        Alix
       </forename>
-      <surname>
+<surname>
        Chagué
       </surname>
-      <affiliation>
+<affiliation>
        ingénieure de recherche et de développement,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       acquisition et structuration initiale des textes
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Jean-Damien
       </forename>
-      <surname>
+<surname>
        Généro
       </surname>
-      <affiliation from="2020-03" to="2020-09">
+<affiliation from="2020-03" to="2020-09">
        stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">
+</affiliation>
+<affiliation from="2020-09" to="2020-11">
        ingénieur d'études,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-      <affiliation from="2020-12">
+</affiliation>
+<affiliation from="2020-12">
        ingénieur d'études,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       encodage scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Stéphane
       </forename>
-      <surname>
+<surname>
        Baciocchi
       </surname>
-      <affiliation>
+<affiliation>
        ingénieur de recherche de l’EHESS,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Anne
       </forename>
-      <surname>
+<surname>
        Lhuissier
       </surname>
-      <affiliation>
+<affiliation>
        directrice de recherche de l'INRAE,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Éric
       </forename>
-      <surname>
+<surname>
        Villemonte de la Clergerie
       </surname>
-      <affiliation>
+<affiliation>
        chargé de recherches,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       supervision technique
      </resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>
      projet ANR Time Us
     </publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>
+<date from="2019" to="2021"/>
+<pubPlace>
      Paris, France
     </pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>
+</publicationStmt>
+<sourceDesc>
+<p>
      Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>
      L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_64">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$75/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_65">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$76/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_66">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$77/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_67">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$78/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_68">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$79/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_69">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$80/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_70">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$81/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_71">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$82/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_72">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$83/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_73">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$84/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_74">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$85/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_75">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$86/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_76">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$87/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_77">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$88/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_78">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$89/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_79">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$90/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_80">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$91/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_81">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$92/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_82">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$93/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_83">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$94/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_84">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$95/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_85">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$96/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_86">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$97/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_87">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$98/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_88">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$99/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_89">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$100/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_90">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$101/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_91">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$102/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_92">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$103/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_93">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$104/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_94">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$105/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_95">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$106/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_96">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$107/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_97">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$108/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_98">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$109/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_99">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$110/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_100">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$111/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_101">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$112/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_102">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$113/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_103">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$114/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_104">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$115/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_105">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$116/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_106">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$117/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_107">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$118/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_108">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$119/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_109">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$120/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_110">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$121/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_111">
-  <surface lrx="2253" lry="3506"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$122/full/full/0/default.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_6_53_1">
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_64">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$75/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_65">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$76/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_66">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$77/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_67">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$78/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_68">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$79/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_69">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$80/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_70">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$81/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_71">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$82/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_72">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$83/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_73">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$84/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_74">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$85/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_75">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$86/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_76">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$87/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_77">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$88/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_78">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$89/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_79">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$90/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_80">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$91/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_81">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$92/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_82">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$93/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_83">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$94/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_84">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$95/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_85">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$96/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_86">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$97/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_87">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$98/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_88">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$99/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_89">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$100/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_90">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$101/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_91">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$102/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_92">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$103/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_93">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$104/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_94">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$105/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_95">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$106/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_96">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$107/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_97">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$108/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_98">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$109/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_99">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$110/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_100">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$111/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_101">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$112/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_102">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$113/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_103">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$114/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_104">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$115/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_105">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$116/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_106">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$117/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_107">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$118/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_108">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$119/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_109">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$120/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_110">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$121/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_111">
+<surface lrx="2253" lry="3506"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes04sociuoft$122/full/full/0/default.jpg"/>
+</facsimile>
+<text>
+<body>
+<div type="chapter">
+<div n="001" type="section">
+<p xml:id="para_6_53_1">
       N° 74.
      </p>
-     <p xml:id="para_6_53_2">
+<p xml:id="para_6_53_2">
       ÉBÉNISTE PARISIEN DE HAUT LUXE
      </p>
-     <p xml:id="para_6_53_3">
+<p xml:id="para_6_53_3">
       (SEINE — FRANCE),
      </p>
-     <p xml:id="para_6_53_4">
+<p xml:id="para_6_53_4">
       OUVRIER-JOURNALIER,
      </p>
-     <p xml:id="para_6_53_5">
+<p xml:id="para_6_53_5">
       DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS,
      </p>
-     <p>
+<p>
       D'APRÈS
      </p>
-     <p xml:id="para_6_53_6">
+<p xml:id="para_6_53_6">
       LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX, EN JANVIER ET FÉVRIER 1891,
      </p>
-     <p>
+<p>
       PAR
      </p>
-     <p xml:id="para_6_53_7">
+<p xml:id="para_6_53_7">
       M. <persName>P. DU MAROUSSEM</persName>,
      </p>
-     <p xml:id="para_6_53_8">
+<p xml:id="para_6_53_8">
       Docteur en Droit.
      </p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">
       OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
      </head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">
        Définition du lieu, de l'organisation industrielle et de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">
         § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION
         <note type="bp">
-         <p>
+<p>
           Voir La Question ouvrière ; II, Ebénistes du faubourg St-Antoine, par P. du Ma¬roussem, avec une préface de Th. Funck-Brentano. Rousseau. 1882, in-8.
          </p>
-        </note>
+</note>
         .
        </head>
-       <p xml:id="para_6_53_14">
-        <pb facs="#facs_64" n="53" source="s2lesouvriersdes04sociuoft_0075.xml"/> La famille habite en plein faubourg Saint-Antoine, à la limite de la zone excentrique peuplée des ouvriers les plus misérables, là où la rue de Montreuil est coupée par le boulevard Voltaire.
+<p xml:id="para_6_53_14">
+<pb facs="#facs_64" n="53" source="s2lesouvriersdes04sociuoft_0075.xml"/> La famille habite en plein faubourg Saint-Antoine, à la limite de la zone excentrique peuplée des ouvriers les plus misérables, là où la rue de Montreuil est coupée par le boulevard Voltaire.
        </p>
-       <p xml:id="para_6_53_15">
+<p xml:id="para_6_53_15">
         Le faubourg Saint-Antoine, c'est-à-dire l'enchevêtrement de rues étroites qui s'étagent sur les deux rives de la large chaussée reliant la place de l'ancienne Bastille au donjon de Vincennes, constitue, cha¬cun le sait aussi bien par son expérience personnelle que par ses sou¬venirs historiques, une cité nettement tranchée dans cet amas por<pb facs="#facs_65" n="54" source="s2lesouvriersdes04sociuoft_0076.xml"/>digieux de cités diverses qui s'appelle Paris. C'est une ville ouvriere, spécialisée dans un seul métier, la « Ville du meuble ». Elle a grandi brusquement, vers le milieu du siècle. Sous l'ancien régime, pour échapper aux règlements de la corporation obligatoire et fermée, des ébénistes libres s'étaient établis là, et payaient assez chèrement leur indépendance par « l'exploitation » que leur faisait subir la caste déjà grandissante des marchands : c'est du moins le dire de Roubo, dans son Art du menuisier. Le « rang des marchands » désignait, de mé¬moire d'homme, tout l'ensemble des magasins de meubles compris entre la pointe de la Bastille et la rue Saint-Nicolas. Mais les ateliers d'ébénisterie n'en restaient pas moins éparpillés, sans agglomération particulière, çà et là sur tous les quartiers de Paris. Vers le milieu du règne de Louis-Philippe furent inventées la plupart des machines à travailler le bois, scie à ruban, machine à moulurer, machine à can¬neler, et., ete. Elles vinrent persuader aux économistes, et même aux hommes pratiques que l'ébénisterie-menuiserie, métier classique de petite industrie, allait suivre la même voie que le tissage ou le filage de la laine, du coton, de la soie, et s'organiser en vastes ateliers. Presque aussitôt ce résultat, qui semblait inévitable, fut détourné par l'installation d'usines de force motrice, où une multitude de petits ateliers loués par des patrons, mouluriers (toupilleurs), raboteurs. tourneurs, canneleurs, ete., etc., se tinrent à la disposition de leurs col¬lègues, les petits patrons ébénistes, sauvés ainsi de la concentration industrielle. Où devaient s'installer ces usines que l'on peut comparer « aux banalités » de l'ancien régime, four ou moulin communs au milieu d'une population rurale ? Là où les bois se débarquaient depuis l'origine des temps, là ou les ébénistes déjà nombreux réclamaient un prompt secours et promettaient d'immédiates pratiques ? Au faubourg Saint-Antoine. La fortune du faubourg était assurée. Ces usines for¬nmèrent autant de centres d'attraction ramenant autour d'eux la foule des petits ateliers disséminés. Tous refluèrent en une seule masse. La production s'activa prodigieusement, gràce aux machines. La prospé¬rité matérielle de Paris sous le second Empire, le réseau des chemins de fer qui permettait de déverser sur la province le trop-plein des dépôts, le prestige même de la politique française à l'étranger, et partant de l'art français, qui multipliait les demandes ; tout cet ensemble de causes acheva l'euvre : la ville du meuble, telle que nous pouvons la visiter aujourd'hui.
        </p>
-       <p xml:id="para_6_54_18">
+<p xml:id="para_6_54_18">
         Si l'on considêre avec attention cette ville du meuble, qui, sauf le <pb facs="#facs_66" n="55" source="s2lesouvriersdes04sociuoft_0077.xml"/> groupe des fabricants de Montparnasse et quelques maisons aux Bati¬gnolles, condense toute l'industrie, avec ses annexes du quartier des Vosges, de Charonne, Bagnolet et Montreuil, trois catégories d'a¬teliers s'y distinguent aisément, qui forment, non pas trois quartiers, car elles s'entremêlent avec l'irrégularité la plus complète, mais trois classes de fabrication correspondant aux différents degrés de richesse de la clientèle : classification fatale en un siècle d'argent.
        </p>
-       <p xml:id="para_6_55_20">
+<p xml:id="para_6_55_20">
         Ce sont d'abord les ateliers de haut luxe, d'où sortent les chefs¬d'œuvre des expositions, les armoires sculptées de 70.000 francs, ou les bureaux à applications de bronze de 25.000 francs : quelques-uns organisés à la vapeur, usines véritables, comme la maison rieger (Da¬mon, Millot et Colin), parce qu'ils mènent de front ébénisterie, char¬penterie et menuiserie artistiques ; la plupart réduits à un nombre limité d'ouvriers choisis, sculpteurs et ébénistes, et recourant aux mouluriers, découpeurs, tourneurs, etc., du faubourg. Ils sont dirigés par des patrons appartenantà labourgeoisie, qui rȩoiventla commande directe des clients, font construire les meubles sous leurs yeux ou ceux de leur contre-maître et livrent sans autre intermédiaire. Un magasin est annexé à l'atelier, rempli d'ameublements fabriqués d'avance soit pour servir de modèles aux acheteurs de la haute classe, soit pour at¬tirer les acheteurs des classes moyennes, car il n'existe pas de limite tranchée entre ces différentes zones du métier. Environ 145 patrons, dont 115, comme Lemoine ou Dienst, réunissant la tapisserie à l'ébé¬nisterie, et 40, avec Dasson ou Zviener, spécialisés dans la marque¬terie et le bronze ; 4.000 ouvriers, disaient les déposants de l'enquête législative de 1884, ce qui est un chiffre trop ancien et inexact d'ail¬leurs, même à cette époque.
        </p>
-       <p xml:id="para_6_55_21">
+<p xml:id="para_6_55_21">
         A coté du meuble de haut luxe se place la catégorie beaucoup plus importante du meuble courant ou bourgeois : cette épithéte en définit suffisamment la nature. Le premier rôle ici appartient aux intermé¬diaires, aux marchands, et parmi ceux-ci aux plus puissants de tous, à ces forteresses commerciales hors pair,  les Grands Magasins . Ce sont eux qui disposent de la commande. Client unique, ils régentent despotiquement le peuple de leurs tenanciers, c'est-à-dire des petits patrons misérablement spécialisés, avec leurs quelques ouvriers, dans la production toujours identique à elle-même du même meuble, buf¬fet sculpté, porte-parapluies pour antichambre, bibliothèque en bois noirci, chambre à coucher bambou, etc., etc. Cependant le fçonnier, ouvrier en chambre qui dépend d'un marchand-fabricant, et le petit <pb facs="#facs_67" n="56" source="s2lesouvriersdes04sociuoft_0078.xml"/> patron vendant directement à la clientèle bourgeoise, y maintiennent des vestiges de toute l'évolution antérieure. La statistique des mar¬chands n'a pas été tentée : celle des ouvriers, du moins d'après l'en¬quète que nous venons de citer, indique un total de 7.000.
        </p>
-       <p xml:id="para_6_56_23">
+<p xml:id="para_6_56_23">
         Reste le meuble de trole, qui n'est pas seulement, ainsi qu'un raison¬nement logique tendrait à le faire croire, le meuble des classes ou¬vrières, puisqu'il comprend le faux luxe et presque tous les modèles acceptés par la bourgeoisie, mais bien « le meuble fabriqué d'avance sans savoir à qui on le vendra ». « Commande et trôle » se font ainsi antithèse. Même domination des marchands, mais de maisons un peu inférieures, Crespin, le B̂cheron, Simon, etc., etc., et une tactique dif¬férente pour obtenir les meubles au moindre prix, soit dans les débats individuels de l'offe, lorsque la petite charrette à bras ou la tapis¬sière du « charabanier » s'arrêtent au seuil de la maison de vente, soit à la foire en plein vent de l'avenue Ledru-Rollin, le samedi, qui très inexactement dans les discussions de la presse monopolise à son pro¬1it le nom de trôle; 700 trôleurs, dit l'enquête de 1884 ; en réalité, un nombre flottant, incertain, car une communication incessante unit cette troisième catégorie à la deuxième.
        </p>
-       <p xml:id="para_6_56_24">
+<p xml:id="para_6_56_24">
         Qelle que soit la zone de l'industrie d'où ils relèvent, les ébénistes du faubourg, les « ébénos », comme ils se désignent en leur argot, pré¬sentent un trait de mœurs curieux. Ce ne sont pas, au moins en prin¬cipe, des Parisiens de vieille race. Ceux qui sont nés a Paris ne sont pas des fils d'ébénistes, mais de journaliers, d'hommes sans métier. Ainsi une poussée insensible hausse chaque génération à un degré ré¬puté supérieur par le « bon ton » de ces milieux ouvriers, chez qui cer¬tains n'en soup̧onneraient guère : les fils d'ébénistes sont sculpteurs. Mais la plupart ont grandi en province, menuisiers de village ou de petites villes : pour eux aussi la loi d'ascension continuelle et générale a notre époque s'est vérifiée.
        </p>
-       <p xml:id="para_6_56_25">
+<p xml:id="para_6_56_25">
         La plupart, disons-nous, si l'on fait abstraction des étrangers, car les étrangers sont légion au faubourg, et c'est un second trait de cette population de 16 à 20.000 travailleurs. A chaque pas, dans les cours, ces ruches travailleuses que le passant découvre avec surprise à un dé¬tour, les enseignes de noms étrangers pullulent ; toutes les langues ré¬sonnent : llamands, Alsaciens, Allemands surtout, Wallons, Piémontais (dans le meuble sculpté), ont formé par une infiltration lente et régu¬liere des quartiers étrangers dans ce coin de Paris ; quelque peu désin¬téressés de nos luttes politiques, ils ont donné une physionomie plus <pb facs="#facs_68" n="57" source="s2lesouvriersdes04sociuoft_0079.xml"/> calme à ce terrible faubourg, toujours prêt aux émeutes, et prompt aux barricades, lorsqu'il était aux mains de la seule race gauloise.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Théophile H*** (n°074aE1) - Emma L*** (n°074aE2) - Eugène H*** (n°074aE3) - Adrienne H*** (n°074aE4) - Georges H*** (n°074aE5)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Théophile H*** (n°074aE1) - Emma L*** (n°074aE2) - Eugène H*** (n°074aE3) - Adrienne H*** (n°074aE4) - Georges H*** (n°074aE5)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">
         § 2. ÉTAT CIVIL DE LA FAMILLE.
        </head>
-       <p xml:id="para_6_57_29">
+<p xml:id="para_6_57_29">
         La famille qui fait l'objet de la présente monographie se compose de cinq personnes :
        </p>
-       <p xml:id="para_6_57_30">
-        1. <persName>THÉOPHILE L***</persName>, pére de famille, ébéniste............ 42 ans.
+<p xml:id="para_6_57_30">
+        1. <persName xml:id="ID-074aE1">THÉOPHILE L***</persName>, pére de famille, ébéniste............ 42 ans.
        </p>
-       <p xml:id="para_6_57_31">
-        2. <persName>EMMA L***</persName>, mére de famille, tailleuse............ 40 ans.
+<p xml:id="para_6_57_31">
+        2. <persName xml:id="ID-074aE2">EMMA L***</persName>, mére de famille, tailleuse............ 40 ans.
        </p>
-       <p xml:id="para_6_57_32">
-        3. <persName>EUGÈNE H***</persName>, fils aîné, apprenti sculpteur............ 18 ans.
+<p xml:id="para_6_57_32">
+        3. <persName xml:id="ID-074aE3">EUGÈNE H***</persName>, fils aîné, apprenti sculpteur............ 18 ans.
        </p>
-       <p xml:id="para_6_57_33">
-        4. <persName>ADRIENNE H***</persName>, fille aînée, apprentie brunisseuse............ 13 ans.
+<p xml:id="para_6_57_33">
+        4. <persName xml:id="ID-074aE4">ADRIENNE H***</persName>, fille aînée, apprentie brunisseuse............ 13 ans.
        </p>
-       <p xml:id="para_6_57_34">
-        5. <persName>GEORGES H***</persName>, second fils............ 8 and.
+<p xml:id="para_6_57_34">
+        5. <persName xml:id="ID-074aE5">GEORGES H***</persName>, second fils............ 8 and.
        </p>
-       <p xml:id="para_6_57_35">
+<p xml:id="para_6_57_35">
         Le père de l'ouvrier, Champenois d'origine, était journalier, plus tard marchand de bois en détail à la Villette ; sa mère, blanchisseuse, rue de Flandres ; cette dernière est morte ; le père vit toujours, seul à soixante-douze ans, gagnant péniblement 10 francs par semaine dans une fabrique de poupées. Une sœur de l'ouvrier est mariée à Paris.
        </p>
-       <p xml:id="para_6_57_36">
+<p xml:id="para_6_57_36">
         La femme, qui est née en Champagne, comme le père de son mari, a conservé ses frères et sœurs dans son village natal, aux environs de Troyes. Elle a perdu ses parents, petits industriels tuiliers qui avaient vécu au jour le jour, sans atteindre une réelle aisance. Elle sort d'une nuance sociale un peu différente de celle de son mari.
        </p>
-       <p xml:id="para_6_57_37">
+<p xml:id="para_6_57_37">
         Voilà donc une famille de second degré en quelque sorte, au point de vue de l'origine. Elle n'est pas purement Parisienne, quoique son chef soit Parisien d'éducation. Elle n'est pas purement Champenoise, bien que l'ouvrier soit de Champagne. Aussi devions-nous la rencontrer dans une de ces industries qui tiennent le milieu entre le métier de journalier, exercé par les ruraux brusquement transplantés dans la grande agglomération, et les métiers de luxe recherchés par les Pari¬siens de la deuxième génération, sculpture, ciselure, mécanique, etc.
        </p>
-       <p xml:id="para_6_57_38">
+<p xml:id="para_6_57_38">
         Cette famille, si on l'examine au point de vue de la constitution qu'elle présente, est évidemment instable. Le régime d'instabilité prévalait déjà en Champagne avant l'incorporation au royaume de France (1361). Mais elle a conservé avec sa province des rapports assez fréquents : elle y possède un mobilier
         <ref target="#part_02_02_06" type="renvoi_int_mono">
          (§ 6)
@@ -451,398 +450,398 @@
         </ref>
         . On ne peut affir¬mer l'esprit de retour mais peut-être le verrait-on se raviver après un <pb facs="#facs_69" n="58" source="s2lesouvriersdes04sociuoft_0080.xml"/> revers. L'instabilité est ainsi quelque peu compensée par ces relations de parenté et de voisinage dans un milieu agricole.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">
         § 3. RELIGION ET HABITUDES MORALES.
        </head>
-       <p xml:id="para_6_58_42">
+<p xml:id="para_6_58_42">
         En France, la religion catholique, — religion de la majorité des citoyens, — est généralement celle de l'unanimité des femmes. La femme croit ou l'homme doute. Mais, dans le chef-lieu de canton industriel de la Champagne où l'ouvrière a été élevée, l'indif¬férence féminine semble complète. « l'ai assisté aux offices, pour y montrer des toilettes, nous disait la femme ; mes amies faisaient comme moi.  Cependant cet aveu même ne prouve-t-il pas que le bon ton exige encore une assiduité relative et qu'un respect mécanique de la tradition a du moins remplacé l'antique ferveur ?
        </p>
-       <p xml:id="para_6_58_43">
+<p xml:id="para_6_58_43">
         Le père et la mère de l'ouvrier avaient été soumis à ce régime avant leur départ pour Paris. Leur fils devait naturellement obéir à la fatale poussée de la marche en avant. Il s'éleva avec la génération ouvrière de la fin de l'Empire, dans la haine des prêtres et la passion des opi¬nions libérales. Le sergent-major des féderés de Belleville qui avait maneuvré à côté des exécuteurs des cléricaux arrêtés comme otages de Versailles, a senti en lui ce sentiment de méprisante hostilité grandir avec les années. L'indifférence de sa femme l'a merveilleusement
        </p>
-       <p xml:id="para_6_58_44">
+<p xml:id="para_6_58_44">
         Progressivement, toutes les habitudes des pratiques superstitieuses» ont été déracinées de cet intérieur où l'esprit de négation absolu s'est introduit, d'abord sous la forme railleuse de nos écrivains du dix¬huitième siècle, plus tard sous la forme didactique et tranchante du collectivisme allemand. Ce retour à « l'état de nature primitif se ma¬nifeste par un crescendo assez curieux de la séparation des trois enfants d'avec l'Église établie. Le fils aîné, élevé en Champagne, fut baptisé et sentit se réveiller en lui, à l'époque de sa première communion, quel¬ques germes de mysticisme que les conseils paternels et la lecture du Parti ouvrier eurent bien vite dissipés. La illette a reçu le sacrement de baptème, mais il fut décidé qu'elle ne s'aventurerait pas au delà. sur le chemin de l'initiation compléte à la foi chrétienne. Le garçonnet n'est même pas allé si loin.
        </p>
-       <p xml:id="para_6_58_45">
+<p xml:id="para_6_58_45">
         Autrefois, le mariage du pére et de la mère a reçu une consécration <pb facs="#facs_70" n="59" source="s2lesouvriersdes04sociuoft_0081.xml"/> religieuse. L'antique culte a servi de prologue à cette vie de famille dominée par l'extrême « esprit de nouveauté ». Le respect humain opère de ces miracles. L'opinion publique d'un bourg champenois ne peut être à la hauteur du courant d'idées des quartiers ouvriers de Pa¬ris.
         <ref target="#ID-070a" type="renvoi_int_od2m">
          (Voir la monographie du Charpentier indépendant ; Ouv. des deux Mondes, 2ᵉ série, tome II, n° 70)
         </ref>
         .
        </p>
-       <p xml:id="para_6_59_47">
+<p xml:id="para_6_59_47">
         Est-ce l'effet de la vitesse acquise La religion supprimée, la morale subsiste en cette famille ouvrière. Sans doute, il ne faudrait pas y chercher la pleine et calme majesté des mœurs habituelles aux popula¬tions rurales disséminées en certains massifs montagneux del'Europe. Mais le sentiment altruiste qui rapproche l'individu de l'individu et échafaude ainsi l'un au-dessus de l'autre les divers groupes sociaux, famille, voisinage, atelier, etc., n'y fait pas complêtement défaut.
        </p>
-       <p xml:id="para_6_59_48">
+<p xml:id="para_6_59_48">
         Entre membres de la famille, l'entente est étroite : le père, assez vif, mais sans colères bien soutenues, défend par des impatiences réitérées une autorité qui n'est pas sérieusement contredite. Le tempérament san¬guin de l'ouvrière la porterait à des manifestations plus bruyantes de volonté ; mais les enfants, élevés à l'ancienne mode, sous la main parfois sévèrede leurs supérieurs domesliques, ne se laissent pas entrainerà d'ex¬ceptionnelles insoumissions. La vie de famille est, en somme, aimée et appréciée par tous. Voilà pour le point de vue moral. Au point de vue pécuniaire, le mari est resté le chef de la communauté, ou, comme il le dit avec un modernisme marqué, de la collectivité familiale. Tous les revenus sont versés dans la bourse unique, qu'il administre avec des délégations partielles accordées à la femme, sans prodigalité, sans éco¬nomie.
        </p>
-       <p xml:id="para_6_59_49">
+<p xml:id="para_6_59_49">
         Vis-à-vis des différentes individualités, ou des différentes familles de la même classe sociale qui l'entourent, la famille peut se recommander de son honnêteté. L'ouvrier est secrétaire d'une association politique : il en a été le trésorier pendant de longues années, à la satisfaction de tous. Il a passé par cette épreuve décisive du maniement des fonds et de la continuelle tentation.
        </p>
-       <p xml:id="para_6_59_50">
+<p xml:id="para_6_59_50">
         Placez au contraire la famille en face des classes sociales supérieures, du patron qui emploie l'ouvrier, des clientes riches qui ne ménagent pas les commandes à l'ouvrière, habile tailleuse, l'abime s'ouvre : plus d'entente ; on se sent en face des habitants de l'autre rive que l'on peut dépouiller impunément. Le patronat est sapé par les arguments scienti¬fiques de la chambre syndicale ; il est mis au ban de l'évolution histo¬rique qui tôt ou tard le balaiera. Quant aux clientes favorisées par <pb facs="#facs_71" n="60" source="s2lesouvriersdes04sociuoft_0082.xml"/> l'organisme social actuel, elles sont soumises, sans aucune idée d'indé¬licatesse, à de légères préemptions dont elles se doutent, qu'on dissi¬mule à peine, et qui sous le nom de « gratte » constituent une source importante de profits dans tous les ateliers des tailleuses parisiennes. sorte de maraude sur la terre du riche « à qui il en restera toujours
        </p>
-       <p xml:id="para_6_60_52">
+<p xml:id="para_6_60_52">
         A partir de ce niveau, l'altruisme disparait done. On ne trouverait plus que séparatisme, indépendance, insubordination, peu importent les termes, vis-à-vis des pouvoirs publics d'aujourd'hui.
        </p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">
         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
-       <p xml:id="para_6_60_55">
+<p xml:id="para_6_60_55">
         Les soins physiques vont occuper la place maîtresse que les cou¬tumes des ancêtres avaient réservée aux préoccupations extra-terres¬tres : le prêtre ne disparait que pour laisser le champ libre à l'in¬luence du médecin.
        </p>
-       <p xml:id="para_6_60_56">
+<p xml:id="para_6_60_56">
         Rarement, en effet, le culte tout matérialiste de la bonne santé défendue par les prescriptions minutieuses de la science moderne» atteint une semblable intensité : nous respirons ici l'air de ces recueils populaires qui entremêlent les professions d'athéisme et les prescrip¬tions médicales. La plus profonde et la plus instinctive méfiance à l'égard des vices brutaux qui compromettent l'existence ou la sécu¬rité humaine ; jeu, débauche ou ivrognerie. Une vie réglée, une nour¬riture copieuse ; des promenades hors Paris le dimanche. A la moin¬dre indisposition, le recours à la toute-puissante faculté : un abon¬nement général à une société de secours mutuels, ancienne et solide, a permis sans trop de dépenses cette ponctualité de dispositions pre¬ventives.
        </p>
-       <p xml:id="para_6_60_57">
+<p xml:id="para_6_60_57">
         Cependant, il n'en est pas moins facile de constater la dégénéres¬cence de la race champenoise dans les individus qui composent la fa¬mille ouvrière. Cet homme de 1ᵐ,63, à front haut dénudé, à l'expres¬ion fine et perçante sous les moustaches épaisses qui constituent à pu près le seul trait révélateur de son origine de Françauis du Nord. n'est que le descendant étiolé de ce peuple sanguin et haut de sta¬ture qui apparut si formidable aux populations méridionales, lors¬qu'elles se virent envahies par lui au siècle de Simon de Montfort. Une <pb facs="#facs_72" n="61" source="s2lesouvriersdes04sociuoft_0083.xml"/> aflection particulière qui exige une surveillance suivie et des opéra¬tions intermittentes, l'a fait exempter du service militaire. Il ne parait cependant avoir subi les atteintes d'aucune maladie ayant laissé sub¬sister des conséquences incurables. Tout autre est l'ouvrière. Plus grande que son mari, 1ᵐ,67, brune, sanguine, l'il noir, elle a sup¬porté sans faillir ses maternités successives. Deux choses lui semblent également inconnues : la mauvaise santé et la mauvaise humeur. Le type brun a passé au fils aîné, petit de taille, mais assez robuste. L'a¬némie et le blond des cheveux se retrouvent chez les deux cadets : la fillette et le garçonnet, vrai gamin de Paris.
        </p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">
         § 5. RANG DE LA FAMILLE.
        </head>
-       <p xml:id="para_6_61_61">
+<p xml:id="para_6_61_61">
         Cette famille ouvrière occupe un rang élevé. Son chef est l'un des premiers parmi les ouvriers de son métier. La femme s'est haussée au patronat.
        </p>
-       <p xml:id="para_6_61_62">
+<p xml:id="para_6_61_62">
         L'ouvrier appartient à la zone de haut luxe dans l'industrie de l'a¬meublement, c'est-à-dire qu'il travaille sur plans et confectionne in¬différemment toute espèce de meubles ; il fréquente de préférence les ateliers célèbres, et actuellement fait partie du s noyau » d'un atelier, du groupe régulièrement employé. Dans cette zone et dans la nuance de son industrie, il occupe une place considérée en raison de son habi¬leté professionnelle, de ses connaissances, de sa régularité, de sa science des écritures : c'est un membre influent de la chambre syndi¬cale ; les sociétés politiques lui confient leurs archives ; ses relations politiques l'ont fait nommer par la préfecture de police membre de la commission locale de surveillance du travail des apprentis dans son quartier. Il participe donc quelque peu à la puissance publique.
        </p>
-       <p xml:id="para_6_61_63">
+<p xml:id="para_6_61_63">
         L'ouvrière a su acquérir dans un certain rayon une réputation de tailleuse adroite ; elle augmente chaque jour sa clientêle, et il lui se¬rait aisé, n'était l'étroitesse du logement, de réunir des ouvrières et de devenir le centre d'une entreprise importante ; son indépendance et sa sécurité semblent complètes ; elle bénéficie de tous les avantages de la petite industrie qui travaille directement pour la clientèle bourgeoise.
        </p>
-       <p xml:id="para_6_61_64">
+<p xml:id="para_6_61_64">
         Cependant les sentiments de l'ensemble sont révolutionnaires. Que devient donc l'axiome : « Ce qui enfante les révolutions, c'est la mi<pb facs="#facs_73" n="62" source="s2lesouvriersdes04sociuoft_0084.xml"/>sère. » L'ouvrier y répond par cet autre : « Les révolutionnaires ne sont pas des misérables : an bon réuolutionnaire est ceui qui a le ventre plein. »
        </p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">
        Moyens d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_6_62_69">
+<div subtype="proprietes_texte_1" type="proprietes">
+<p xml:id="para_6_62_69">
          (Mobilier et vêtements non compris.)
         </p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_6_62_70">
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_6_62_70">
          IMMEUBLES............ 0ᶠ 00
         </p>
-        <p xml:id="para_6_62_71">
+<p xml:id="para_6_62_71">
          La famille n'a aucune propriété immobilière et ne songe même pas à la possibilité d'en acquérir jamais.
         </p>
-       </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_6_62_72">
+</div>
+<div subtype="argent" type="proprietes">
+<p xml:id="para_6_62_72">
          ARGENT............ 120ᶠ 00
         </p>
-        <p xml:id="para_6_62_73">
+<p xml:id="para_6_62_73">
          1 action de la société coopérative de consomnmation la Moissonneuse, 60ᶠ00; — 1 bon de l'Exposition universelle de 1889, 25ᶠ 00; — argent placé à la caisse d'epargne par les enfants, 4ᶠ 00 ; — fonds de roulement, 40ᶠ 00. — Total, 129ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_6_62_74">
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_6_62_74">
          ANIMAUX DOMESTIQUES............ 0ᶠ 00
         </p>
-        <p xml:id="para_6_62_75">
+<p xml:id="para_6_62_75">
          Un couple d'oiseaux (pour mémoire).
         </p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_6_62_76">
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_6_62_76">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 357ᶠ 65
         </p>
-        <p xml:id="para_6_62_77">
+<p xml:id="para_6_62_77">
          1° Outils d'ébéniste (chef de famille). — L'ébéniste est obligé par les coutumes du mé¬tier de fournir tous les outils : en principe, le patron ne lui doit que l'etabli, les presses et les serre-joints ; surtout dans les ateliers de haut luxe où les outils employés doivent étre de premier ordre, le capital provenant ainsi du salarié atteint une valeur élevée. — Scies diverses, 30ᶠ00,; — varlope et riflard, 18ᶠ 00; — rabots, 14ᶠ 00; — guillaume en acier fondu et bois, 37ᶠ 00; — instruments à mesurer et à tracer, compas, rusquin, etc.. com¬pas, régle, 10ᶠ 00; — instruments à moulurer, bouvets, becdanes. etc., 30ᶠ00 ; — outils divers, marteau, maillet, racloir, ciseaux, vilebrequin, mèche, etc., 11ᶠ00. — Total, 150ᶠ00.
         </p>
-        <p xml:id="para_6_62_78">
+<p xml:id="para_6_62_78">
          2° Outils de sculpfeur (fils aîné).  — Ciseaux divers, etc., 38ᶠ 00. — Total, 38ᶠ00.
         </p>
-        <p xml:id="para_6_62_79">
+<p xml:id="para_6_62_79">
          3° Outils de tailleuse (mère de famile). — Machine à coudre, 150ᶠ00; — ciseaux, dés, aiguilles, mètres, patrons, etc., 10ᶠ 00. — Total, 160ᶠ00.
         </p>
-        <p xml:id="para_6_62_80">
+<p xml:id="para_6_62_80">
          4° Outils de brunisseuse (fille aimée). — Brunissoir, etc., 3ᶠ00. — Total, 3ᶠ00.
         </p>
-        <p xml:id="para_6_62_81">
+<p xml:id="para_6_62_81">
          5° Matériel pour le blanchissage et le repassage du linge. — 1 baquet, 1ᶠ 00; — 1 batoir. 0ᶠ 0:  1 brosse en chiendent, 0ᶠ 25 ; — 4 fers à repasser, 1ᶠ00; — 1 grille, 0ᶠ90. — Total, 6ᶠ 65.
         </p>
-       </div>
-       <div type="proprietes" subtype="mobilier_en_depot">
-        <p xml:id="para_6_62_82">
+</div>
+<div subtype="mobilier_en_depot" type="proprietes">
+<p xml:id="para_6_62_82">
          MOBILIER DÉPOSÉ CHEZ UN PARENT AU PAYS DE LA FEMME............ 300ᶠ 00
         </p>
-       </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_6_62_83">
+</div>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_6_62_83">
          VALEUR TOTALE des propriétés............ 786ᶠ 65
         </p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">
         § 7. SUBVENTIONS.
        </head>
-       <p xml:id="para_6_63_86">
-        <pb facs="#facs_74" n="63" source="s2lesouvriersdes04sociuoft_0085.xml"/>L'important paragraphe des subventions qui, pour les populations primitives, accumule l'interminable description des pâturages, des fo¬rêts, des étangs, des fleuves, des tourbières où les familles vont cher¬cher des secours proportionnés, non à leur travail, mais à leurs besoins, se transforme curieusement dans nos cités agglomérées à outrance de l'Occident. Laissez de côté les menus objets aban¬donnés par le patron, les cadeaux échangés, qu'ils aient un caractère d'utilité ou d'agrément, qu'il s'agisse de vêtements ou de billets de théâtre : que reste-t-il2 Uniquement ces subventions qui, sous le nom d'instruction générale ou professionnelle, s'adressent au développer ment intellectuel de l'individu. La personnalité humaine peut en effet librement se fortifier. L'Etat et la commune viennent à son aide par leurs somptueuses écoles, dirigées par des maîtres experts, et régies par le principe de la gratuité la plus absolue ; la ville de Paris surtout y joint ses immenses magasins scolaires du boulevard Morland qui, moyennant une dépense annuelle de 3ᶠ,80 par tête, mettent à la dis¬position de tous les enfants parisiens les fournitures scolaires. Les chambres syndicales, aidées par les subventions de la Ville, appor¬tent comme couronnement l'éducation industrielle ; telle la chambre syndicale ouvriere du meuble qui réunit trois fois par semaine, au 16 de la rue de Charonne, près de deux cents apprentis. La famille observée participe à ces larges distributions du savoir. Elles lui parais¬sent la première condition de cette émancipation des travailleurs qu'elle espère et qu'elle prépare.
+<p xml:id="para_6_63_86">
+<pb facs="#facs_74" n="63" source="s2lesouvriersdes04sociuoft_0085.xml"/>L'important paragraphe des subventions qui, pour les populations primitives, accumule l'interminable description des pâturages, des fo¬rêts, des étangs, des fleuves, des tourbières où les familles vont cher¬cher des secours proportionnés, non à leur travail, mais à leurs besoins, se transforme curieusement dans nos cités agglomérées à outrance de l'Occident. Laissez de côté les menus objets aban¬donnés par le patron, les cadeaux échangés, qu'ils aient un caractère d'utilité ou d'agrément, qu'il s'agisse de vêtements ou de billets de théâtre : que reste-t-il2 Uniquement ces subventions qui, sous le nom d'instruction générale ou professionnelle, s'adressent au développer ment intellectuel de l'individu. La personnalité humaine peut en effet librement se fortifier. L'Etat et la commune viennent à son aide par leurs somptueuses écoles, dirigées par des maîtres experts, et régies par le principe de la gratuité la plus absolue ; la ville de Paris surtout y joint ses immenses magasins scolaires du boulevard Morland qui, moyennant une dépense annuelle de 3ᶠ,80 par tête, mettent à la dis¬position de tous les enfants parisiens les fournitures scolaires. Les chambres syndicales, aidées par les subventions de la Ville, appor¬tent comme couronnement l'éducation industrielle ; telle la chambre syndicale ouvriere du meuble qui réunit trois fois par semaine, au 16 de la rue de Charonne, près de deux cents apprentis. La famille observée participe à ces larges distributions du savoir. Elles lui parais¬sent la première condition de cette émancipation des travailleurs qu'elle espère et qu'elle prépare.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
-        <p xml:id="para_6_63_89">
+<div subtype="ouvrier" type="travaux">
+<p xml:id="para_6_63_89">
          Travaux de l'ouvrier. — L'ouvrier appartient au « noyau » d'un atelier de haut luxe. Chaque matin, après une demi-heure de marche, il arrive place Royale. L'heure réglementaire de l'arrivée est 7 heures, période d'été ; 7 h. 1/2, période d'hiver. ll passe ses habits de travail. mis en réserve à l'atelier, et commence sa tâche de la journée. S'il <pb facs="#facs_75" n="64" source="s2lesouvriersdes04sociuoft_0086.xml"/> s'agit d'ouvrages de haut luxe, il reçoit le salaire de l'heure-étalon 1ixée par la chambre syndicale ouvrière, 0ᶠ80. N'y a-t-il au contraire pour toute commande que des ouvrages ordinaires, partant évalua¬bles, il est payé d'après le tarif particulier de la maison ; sur le livre d'atelier qui reste entre les mains du contre-maître, il signe l'accep¬tation de ce marché à forfait, dès lors inattaquable, et exécute ainsi, e'est le résumé de son livre de paye pour l'année, — une bibliothèque, un lit, un buflet, une armoire, soit 1.022 francs de salaires pour 152 journées. ou 6ᶠ723 par jour. A 9 heures, léger déjeuner sur le pouce. mais sans interruption de travail : c'est une tolérance particulière à l'atelier. A 11 heures. jusqu'à midi et demi, pleine liberté : c'est le re¬pas principal. A 4 heures, dix minutes de repos avec sortie, le tra¬ditionnel « coup de quatre heures . A 7 heures du soir, licenciement de l'atelier. Di heures de travail plein ; repos complet le dimanche : travail le lundi. Le salaire est payé régulièrement toutes les quin¬
         </p>
-        <p xml:id="para_6_64_91">
+<p xml:id="para_6_64_91">
          Joignez à ce travail une occupation très différente, non plus ma¬nuelle, mais bureaucratique : le secrétariat de deux sociétés, l'une politique, l'autre de secours mutuels, industrie accessoire des repré¬sentants du prolétariat lettré.
         </p>
-       </div>
-       <div type="travaux" subtype="femme">
-        <p xml:id="para_6_64_92">
+</div>
+<div subtype="femme" type="travaux">
+<p xml:id="para_6_64_92">
          Travaux de la femme. — La femme, indépendamment de ces fonctions domestiques, qui chez toutes les familles francaises forment l'attribut spécial de la ménagère, exerce le métier de tailleuse, tailleuse en chambre travaillant directement pour une clientèle aisée, et par con¬séquent hors le l'atteinte de l'épouvantable exploitation sous laquelle les maisons de confection écrasent la faconnière parisienne. Six à sept heures par jour sont consacrées à ce travail. Le gain qui en résulte, 0ᶠ 30 l'heure, soit 462ᶠ 90 pour 154,3 journées de 10 heures, ne doit pas être considéré isolément. I faut y joindre les bénéfices réalisés sur les ventes de fournitures et aussi ces déchets abandonnés à l'ou¬vrière, qui sans aucune idée de s gratte », — le terme est technique, — réunit toujours de ce côté un certain profit. Cette industrie, exercée au foyer, est éminemment favorable au point de vue social.
         </p>
-       </div>
-       <div type="travaux" subtype="fils_aine">
-        <p xml:id="para_6_64_93">
+</div>
+<div subtype="fils_aine" type="travaux">
+<p xml:id="para_6_64_93">
          Travail du fils aîné. — ll est apprenti sculpteur. L'atelier de haut luxe où il est embauché, comprend deux sections, celle des sculpteurs et celle des ébénistes. Les journées sont réglées par des coutumes iden¬iques à celle de l'atelier de son père, saut pour le coup de quatre heures . Tous deux se retrouvent d'ailleurs aux heures des repas. L'apprenti, qui ébauche et tinit, a reçu0 50 par semaine jusqu'au 2 août 1890, et 5 francs à partir du 2 août. Il va bientôt toucher la moitié du gain ordinaire.
         </p>
-       </div>
-       <div type="travaux" subtype="jeune_fille">
-        <p xml:id="para_6_65_95">
+</div>
+<div subtype="jeune_fille" type="travaux">
+<p xml:id="para_6_65_95">
          Travail de la jeune fille. — Depuis le 6 octobre jusqu'au milieu de décembre 1890, elle a été apprentie brunisseuse (d'or et d'argent). Elle gagnait 0ᶠ50 par jour. L'atelier était dirigé par une jeune fille et paraissait manquer de tenue. Il vient de fermer. La fillette cherche une autre profession plus avantageuse. Elle aide sa mère pour les soins du ménage.
         </p>
-       </div>
-       <div type="travaux" subtype="fils_deuxieme">
-        <p xml:id="para_6_65_96">
+</div>
+<div subtype="fils_deuxieme" type="travaux">
+<p xml:id="para_6_65_96">
          Travail du second fils. — L'école, quelques commissions.
         </p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">
        Mode d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">
         § 9. ALIMENTS ET REPAS.
        </head>
-       <p xml:id="para_6_65_99">
+<p xml:id="para_6_65_99">
         Il faut distinguer les repas pris par l'ouvrier et son fils en dehors du ménage et les recpas de famille proprement dits, qui se répartis¬sent de la façon suivante :
        </p>
-       <p xml:id="para_6_65_100">
+<p xml:id="para_6_65_100">
         A 7 heures moins le quart, petit déjeuner avant le départ : du café noir, de la soupe, si l'on a eu le temps de la faire réchauffer.
        </p>
-       <p xml:id="para_6_65_101">
+<p xml:id="para_6_65_101">
         A 9 heures, le père mange, en travaillant, un morceau de pain qu'il a apporté à l'atelier.
        </p>
-       <p xml:id="para_6_65_102">
+<p xml:id="para_6_65_102">
         A 11 heures, jusqu'à midi et demi, dîner de l'ouvrier et de l'ap¬prenti, qui se sont rejoints dans un débit de vin du quartier. On achète une chopine de vin, 0ᶠ 40, un peu plus d'une livre de pain, 0ᶠ25 (chez le boulanger) ; le plat de viande cuit la veille par la ménagère est réchauffé par l'apprenti à son atelier, dans le bain-marie de la colle (c'est une sorte de subvention, à coup sûr originale). On y ajoute un café avec un petit verre d'eau-de-vie pour le père, 0ᶠ35.
        </p>
-       <p xml:id="para_6_65_103">
+<p xml:id="para_6_65_103">
         A 4 heures, le « coup de quatre », le vin traditionnel des ébénistes : une petite chopine de vin, parfois un peu de pain, 0ᶠ25 de dépense. Le père seul en profite. Le reglement de l'atelier du fil l'interdit.
        </p>
-       <p xml:id="para_6_65_104">
+<p xml:id="para_6_65_104">
         Après le petit déjeuner de 7 heures moins le quart, l'ouvrière, la fillette et le petit garçon ont pris en commun le diner de 11 heures. Ce sont les restes du souper de la veille. Parfois, au moment de presse, on va chercher un plat tout préparé dans un restaurant du voisinage, <pb facs="#facs_77" n="66" source="s2lesouvriersdes04sociuoft_0088.xml"/> coutume assez fréquente dans les ateliers domestiques de Paris. On reprend du café.
        </p>
-       <p xml:id="para_6_66_106">
+<p xml:id="para_6_66_106">
         Enfin réunion de tous au repas du soir, à 7 h. 1/2 ou 8 heures. Le menu ordinaire est celui des ouvriers aisés : la soupe (le pot-au-feu est mis toutes les semaines), un plat de viande avec légumes, une salade, un dessert. Nourriture substantielle et convenablement pré¬
        </p>
-       <p xml:id="para_6_66_107">
+<p xml:id="para_6_66_107">
         A noter, sur tous ces achats, l'influence des sociétés coopératives de consommation. Celles-ci sont puissantes au faubourg. La plus pros¬père est « la Moissonneuse », qui réunit les boulangeries, les bouche¬ries, les dépôts d'etoffe, de chaussures, de quincaillerie, etc., etc., en 17 succursales groupées autour de son siège central, 32, rue des Bou¬lets. Ses bénéfices sont répartis entre les sociétaires. Tout à côté gran¬dit « la Sociale » avec deux comptoirs seulement (11, rue de l'Orillon, et rue de Cotte, 27) : elle relève directement du parti possibiliste¬broussiste, et verse ses bénéfices dans la caisse du parti. Contre cette concurrence, les petits détaillants, dont le crédit est le plus ferme appui, ont créé dans le NN arrondissement une ligue, qui a pour objet de livrer à toute personne payant comptant des bons d'escompte ». Ces bons sont escomptés à 3 3 au siège de l'union, 17, ruePaul-Bert. Toute personneayant touché8 francs d'escompte reçoit un billet participant au tirage d'un quart d'obligation de la Ville de Paris ». Cet essai est encore trop récent pour qu'on puisse en appré¬cier l'efficacité. Il ne résulte pas moins de ces faits que, par la dimi¬nution des intermédiaires (qui forment la classe moyenne), la sépa¬ration entre riches et pauvres s'accentue encore au faubourg Saint¬Antoine.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_6_66_110">
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_6_66_110">
          La famille habite, presque à la limite du faubourg, là où la rue de Montreuil coupe le boulevard Vltaire, une maison ouvrière étroite et hate. T'out au quatrième, au dernier palier, elle occupe un petit lo¬gement de deux pièces, à l'aspect propre et décent d'un appartement de la très petite bourgeoisie. La pièce d'entrée mesure 2ᵐ.65 d'élé¬vation . 10 metres carrés environ de surface. Elle a pour centre le <pb facs="#facs_78" n="67" source="s2lesouvriersdes04sociuoft_0089.xml"/> poêle, qui masque la cheminée et sur lequel chauffent les repas d'hiver: tout autour, un buffet, un lit de fer, une table ; la tapisserie est assez gaie, ornée de cadres où des chromolithographies évoquent des souvenirs de vie champêtre. Une large fenêtre s'ouvre sur l'en¬tassement de ce quartier ouvrier et sur le Père-Lachaise. La seconde pièce, à peu près de même surface, est meublée avec encore plus de soin : un lit d'acajou plaqué, une armoire à glace, un canapé, un lit d'enfant ; une garniture complète de cheminée, pendule, fleurs et glace. — L'impression première est favorable ; l'habitation est saine. mais manifestement trop petite : c'est là son vice.
         </p>
-       </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_6_67_112">
+</div>
+<div subtype="meubles" type="par_10">
+<p xml:id="para_6_67_112">
          MEUBLES : assez confortables............ 1284ᶠ50
         </p>
-        <p xml:id="para_6_67_113">
+<p xml:id="para_6_67_113">
          1° Literie. — 1 lit acajou plaqué. 100ᶠ00; — 1 somnier, 50ᶠ00 ; 2matelas, 120ᶠ00; — 1 1i de plume, 60ᶠ00; — 1 traversin, 15ᶠ00 ; — 2 oreillers, 20ᶠ00; — 1 couverture, 40ᶠ00; — 1 édredon, 40ᶠ00; — 1 lit-canapé, 40ᶠ00 ; — 2 lits de plume, 80ᶠ00 ; — 3 oreillers, 40ᶠ00; — 1 couverture, 20ᶠ00; — 1 courte-pointe, 6ᶠ00; — 1 lit de fer pour enfant, 20ᶠ00 ; — 1 somnier. 40ᶠ 00 ; — 2 matelas, 30ᶠ00 ; — 2 oreillers, 15ᶠ00; — 1 couverture, 10ᶠ00. — Total, 716ᶠ00.
         </p>
-        <p xml:id="para_6_67_114">
+<p xml:id="para_6_67_114">
          2° Meubles de la pièce de réception (outre le lit-canapé). — 1 poêle en fonte, 25ᶠ00; ¬1 buffet, 70ᶠ00; — 1 table à deux tiroirs, 10ᶠ00; — 1 table à manger, 30ᶠ00 ; — 1 chaise 'enfant, 3ᶠ00 ; — 4 chaises, 28ᶠ00 ; — garniture de cheminée ( vases), 30ᶠ 90; — tableaux (chromolithographies), 7ᶠ00 ; — fragments de sculpture sur bois, 5ᶠ00 ;— 1 suspension, 3ᶠ50; — divers, 10ᶠ 00. — Total, 221ᶠ50.
         </p>
-        <p xml:id="para_6_67_115">
+<p xml:id="para_6_67_115">
          3° Meubles de la grande chambre a coucher (outre le grand lit en acajou), — 1 armoire à glace acajou, 115ᶠ00; — table a ouvrage idem, 0ᶠ00 : — table de nuit idem, 12ᶠ00: — 4 chaises, 28ᶠ00; — 1 garniture de cheminée avec pendule, 100ᶠ00 ; — 1 couronne de leurs d'oranger sous verre, 9ᶠ00; — divers, 5ᶠ00; — cartons et presse à imprimer prove¬namt d'une association politique, en dépôt (pour mémoire). — Total, 289ᶠ00.
         </p>
-        <p xml:id="para_6_67_116">
+<p xml:id="para_6_67_116">
          4° Objets de toilette. — Divers, 3ᶠ00.
         </p>
-        <p xml:id="para_6_67_117">
+<p xml:id="para_6_67_117">
          5° Livres. — Dictionnaire, Histoire de France, recueils de chansons, pamphlets politi¬ucs, 1 paroissien, livres scolaires, etc. ; papier, encre, plumes. — Total, 25ᶠ00.
         </p>
-        <p xml:id="para_6_67_118">
+<p xml:id="para_6_67_118">
          6° Armes. — 1 revolver, 1 canne à épée. — Total, 30ᶠ 00.
         </p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_6_67_119">
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_6_67_119">
          LINGE DE MÉNAGE............ 305ᶠ 00
         </p>
-        <p xml:id="para_6_67_120">
+<p xml:id="para_6_67_120">
          10 paires de draps, 200ᶠ00; — 3 douzaines de serviettes. 36ᶠ00 : — 6 nappes, 40ᶠ00; — 4 douzaines d'essuie-mains et torchons, 24ᶠ00; — 2 paires de petits rideaux blanes, 5ᶠ00. — Total. 305ᶠ00.
         </p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_6_67_121">
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_6_67_121">
          USTENSILES............ 103 00
         </p>
-        <p xml:id="para_6_67_122">
+<p xml:id="para_6_67_122">
          1° Employés pour la préparation des aliments. — Batterie de cuisine, casseroles, poêles, poêlons, terrines, etc., 20ᶠ00; — 1 coquille, 10ᶠ00; — plats, soupiéres, saladiers, etc., 8ᶠ00,; — 3 douzaines d'assiettes, 3ᶠ 00; — 1 douzaine de verres, 3ᶠ00 ; — 1 douzaine de cou¬verts de fer, 4ᶠ00: — 6 couteaux, 24ᶠ00; — 1 fontaine à filtre, 16ᶠ00; — 10 verres, 6ᶠ00. — Total. 94ᶠ00.
         </p>
-        <p xml:id="para_6_67_123">
+<p xml:id="para_6_67_123">
          2° Employés pour les soins de propreté. — Pot à eau, cuvettes, vases, 4ᶠ00. — Total, 4ᶠ00.
         </p>
-        <p xml:id="para_6_67_124">
+<p xml:id="para_6_67_124">
          3° Employés à usages divers. — Lampes, bougeoirs, pelles, pincettes, etc., 5ᶠ00. —
         </p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_6_68_125">
-         <pb facs="#facs_79" n="68" source="s2lesouvriersdes04sociuoft_0090.xml"/> VÊTEMENTS............ 997ᶠ 75
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_6_68_125">
+<pb facs="#facs_79" n="68" source="s2lesouvriersdes04sociuoft_0090.xml"/> VÊTEMENTS............ 997ᶠ 75
         </p>
-        <p xml:id="para_6_68_126">
+<p xml:id="para_6_68_126">
          VÊTEMENTS DE L'OUVRIER, 178ᶠ15.
         </p>
-        <p xml:id="para_6_68_127">
+<p xml:id="para_6_68_127">
          1° Vêtements des dimamches et des jours ordinaires. — 1 pardessus, 20ᶠ00 ; — 2 complets en drap, 30ᶠ00; — 4 pantalons en drap, 20ᶠ00 ; — 1 costume d'été en toile, 7ᶠ00; — 1 tricot, 8ᶠ 00; — 1 douzaine de chemises de toile. 30ᶠ00; — 3 gilets de flanelle, 6ᶠ00 ; — 3 calecons de coton, 4ᶠ40; — 3 paires de chaussettes, 1ᶠ00; — 3 cravates en soie, 6ᶠ00; — 1 cache-nez, 1ᶠ 50 ; — 3 chapeaux feutre et paille, 6ᶠ00: — 1 paire de souliers, 5ᶠ00; — 1 paire de sabots, 1ᶠ 50. — Total, 1416ᶠ10.
         </p>
-        <p xml:id="para_6_68_128">
+<p xml:id="para_6_68_128">
          2° Vêtements de travail. — 2 cottes de travail, 3ᶠ00; — 2 tabliers de travail, 1ᶠ10; — 2 gilets à manches, 2ᶠ20,; — 2 casquettes, 0ᶠ75. — Total, 7ᶠ05.
         </p>
-        <p xml:id="para_6_68_129">
+<p xml:id="para_6_68_129">
          3° Bijoux. — Montre en argent, 25ᶠ00. — Total, 25ᶠ00.
         </p>
-        <p xml:id="para_6_68_130">
+<p xml:id="para_6_68_130">
          VÊTEMENTS DU FILS AINÉ, 127ᶠ95.
         </p>
-        <p xml:id="para_6_68_131">
+<p xml:id="para_6_68_131">
          1° Vêtements des dimanches et des jours ordinaires. — 1 pardessus, 10ᶠ00; — 1 complet, 16ᶠ00; —  pantalons, 10ᶠ00; — 1 ricot, 5ᶠ00 ; — 8 chemises de toile. 30ᶠ00; — 3 gilets de lanelle, 2ᶠ10 ; — 2 caleçons de coton, 3ᶠ50 ; — 8 paires de chaussettes, 2ᶠ50: — 3 cravates ou oulards de soie, 5ᶠ40; — 2 chapeaux, feutre et paille, 3ᶠ20; — 1 paire de bottines, 6ᶠ00 : — 1 paire de sabots, 1ᶠ50 ; — 1 paire de savates, 0ᶠ50. — Total, 95ᶠ70.
         </p>
-        <p xml:id="para_6_68_132">
+<p xml:id="para_6_68_132">
          2° Vêtements de travail. — 2 blouses blanches de sculpteur, 4ᶠ00; — 1 gilet à manches, 1ᶠ75 ; — 3 casquettes, 1ᶠ50. — Total, 7ᶠ25.
         </p>
-        <p xml:id="para_6_68_134">
+<p xml:id="para_6_68_134">
          3° Bijoux. — 1 montre en argent, 25ᶠ00. — Total, 25ᶠ00.
         </p>
-        <p xml:id="para_6_68_135">
+<p xml:id="para_6_68_135">
          VÊTEMENTS DE LA FEMME, 58ᶠ10.
         </p>
-        <p xml:id="para_6_68_136">
+<p xml:id="para_6_68_136">
          1° Vêtements des dimanches et des jours ordinaires. — 2 robes de soie noire, 60ᶠ00; — 2 costumes en cachemire ou étoffe fantaisie noire, 30ᶠ00; — 1 jaquette de drap, 10ᶠ00; — 1 manteau d'hiver, 30ᶠ00; — 1 visite d'été, 21ᶠ00 ; — 1 chale de laine noire, 2ᶠ50; — 2 pei¬gnoirs, 12ᶠ00: — 4 matinées, 8ᶠ00; — 15 jupons blancs brodés, 40ᶠ00 ; — 12 camisoles bro¬dées : 30ᶠ00 ; — 1 corset. 8ᶠ50;   2 douzaines de chemises, 27ᶠ00; — 9 paires de bas de laine, 16ᶠ00; — 4 pautalons, 5ᶠ00; — 2 chapeaux, 6ᶠ00 ; — 1 foulard, 0ᶠ50; — 1 paire de gants de laine, 1ᶠ10; — 1 paire de bottines de cuir, ᶠ00 ; — 1 paire de souliers de satin, 7ᶠ0. — Total, 323ᶠ10.
         </p>
-        <p xml:id="para_6_68_140">
+<p xml:id="para_6_68_140">
          2° Bijoux. — 1 montre de femme, en or, sans chaine, 100ᶠ00; — 3 paires de boucles d'oreilles, 60ᶠ00: — 1 bague en or. 30ᶠ00; — 1 broche, 25ᶠ00; — 1 parure (boucles d'oreilles et collier) en corail, 20ᶠ00. — Total, 235ᶠ00.
         </p>
-        <p xml:id="para_6_68_141">
+<p xml:id="para_6_68_141">
          VÊTEMENTS DE LA FILLE AINÉE, 72ᶠ70.
         </p>
-        <p xml:id="para_6_68_142">
+<p xml:id="para_6_68_142">
          1° Vêtements des dimamches et des jours ordinaires. — 2 robes noires, et couleurs, 13ᶠ00; — 2 jupes, 7ᶠ00; — 2 casaques, 10ᶠ00; — 1 manteau, 6ᶠ00; — 1 douaaine de chemises, 9ᶠ00. — 2 pantalons. 1ᶠ00; —— 3 paires de bas, 4ᶠ00; — 1 corset, 2ᶠ70; — 1 châle de laine bleue ; 2ᶠ50; — 3 clapeanuv, 6ᶠ00: — 1 paire de gants de laine, 0ᶠ50: — 3 paires de chaussures, 11ᶠ00. — Total, 72ᶠ 70.
         </p>
-        <p xml:id="para_6_68_143">
+<p xml:id="para_6_68_143">
          VÊTEMENTS DU SECOND FILS, 41ᶠ30.
         </p>
-        <p xml:id="para_6_68_144">
+<p xml:id="para_6_68_144">
          Vêtements des dimanches e des jours odinaires. — 1 pardessus, 3ᶠ00; — 2 costumes complets, 9ᶠ00; — 1 costume d'été, 2ᶠ50 ; — 4 tabliers noirs lustrine, 3ᶠ20; — 1 caleçon tri¬cot. 0ᶠ80; — 2 tricots de laine, 2ᶠ20 ;  6 chemises, 8ᶠ00; — 3 paires de bas, 1ᶠ90; — 1 cache-nez, 0ᶠ90; — 3 cravates, 0ᶠ45 ; — 1 chapeau. 1ᶠ25 ; — 1 casquette, 1ᶠ10; — 4 paires de sou¬liers, 7ᶠ00. — Total, 41ᶠ30.
         </p>
-        <p xml:id="para_6_68_146">
+<p xml:id="para_6_68_146">
          EFFETS COMMUN. 19ᶠ25.
         </p>
-        <p xml:id="para_6_68_147">
+<p xml:id="para_6_68_147">
          5 douzaines de mouchoirs, 13ᶠ00 ; — 2 parapluies, 5ᶠ00; — 2 ombrelles, 1ᶠ25. — To¬tal, 19ᶠ25.
         </p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_6_68_148">
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_6_68_148">
          VALEUR TOTALE du mobilier et des vêtements............ 2.690ᶠ25
         </p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">
         § 11. RÉCRÉATIONS.
        </head>
-       <p xml:id="para_6_69_151">
-        <pb facs="#facs_80" n="69" source="s2lesouvriersdes04sociuoft_0091.xml"/>C'est au paragraphe Récréations qu'il faut regarder les monogra¬phies d'ouvriers révolutionnaires. On y gagne de dissiper ce préjugé : « Ouvrier socialiste, ouvrier débauché, c'est seule et même chose. » La vérité est plus sombre. D'honnêtes gens demandent le bouleverse¬ment de l'état social. Les distractions quotidiennes du père, indépen¬damment de la lecture du ˉlappel et du ¯Parti ouvrier, et de l'assistance assidue aux séances des différentes sociétés dont il fait partie, sont les causeries au débit de vin avec les camarades et les interminables cigarettes, qu'il ne peut s'empêcher d'ajouter les unes aux autres avec une satisfaction toujours nouvelle. Le fils participe d'ailleurs, mais plus sobrement, à ce genre de distraction. La femme et la fillette achètent un journal de modes et entretiennent avec un certain nombre d'amies et de voisines des rapports fort suivis. Le dimanche est le jour des fêtes de famille et aussi des excursions : l'hiver, c'est le pati¬nage au bois de Vincennes ; l'été, les pique-niques dans la banlieue, à vry ; on se rend chez des aumis, et l'on paie son écot sans façon à titre de revanche : c'est le divertissement le plus coûteux de la famille. Joigne-y les journées passées au café, pendant quelques dimanches brumeux d'hiver, les parties de billard où l'on joue la consommation, puis, des matinées et des soirées au café-concert, ou aux théâtres, Beaumarchais, Chatelet, Porte-Saint-Martin, surtout avec des billets donnés. Est-il nécessaire de mentionner, pour être scrupuleusement complet, les soins accordés à la cage assez coquette ou l'on est parvenu à élever deux oiseaux ?
+<p xml:id="para_6_69_151">
+<pb facs="#facs_80" n="69" source="s2lesouvriersdes04sociuoft_0091.xml"/>C'est au paragraphe Récréations qu'il faut regarder les monogra¬phies d'ouvriers révolutionnaires. On y gagne de dissiper ce préjugé : « Ouvrier socialiste, ouvrier débauché, c'est seule et même chose. » La vérité est plus sombre. D'honnêtes gens demandent le bouleverse¬ment de l'état social. Les distractions quotidiennes du père, indépen¬damment de la lecture du ˉlappel et du ¯Parti ouvrier, et de l'assistance assidue aux séances des différentes sociétés dont il fait partie, sont les causeries au débit de vin avec les camarades et les interminables cigarettes, qu'il ne peut s'empêcher d'ajouter les unes aux autres avec une satisfaction toujours nouvelle. Le fils participe d'ailleurs, mais plus sobrement, à ce genre de distraction. La femme et la fillette achètent un journal de modes et entretiennent avec un certain nombre d'amies et de voisines des rapports fort suivis. Le dimanche est le jour des fêtes de famille et aussi des excursions : l'hiver, c'est le pati¬nage au bois de Vincennes ; l'été, les pique-niques dans la banlieue, à vry ; on se rend chez des aumis, et l'on paie son écot sans façon à titre de revanche : c'est le divertissement le plus coûteux de la famille. Joigne-y les journées passées au café, pendant quelques dimanches brumeux d'hiver, les parties de billard où l'on joue la consommation, puis, des matinées et des soirées au café-concert, ou aux théâtres, Beaumarchais, Chatelet, Porte-Saint-Martin, surtout avec des billets donnés. Est-il nécessaire de mentionner, pour être scrupuleusement complet, les soins accordés à la cage assez coquette ou l'on est parvenu à élever deux oiseaux ?
        </p>
-      </div>
-     </div>
-     <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
+</div>
+</div>
+<div n="004" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">
        Histoire de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">
         § 12. PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
-       <p xml:id="para_6_69_155">
+<p xml:id="para_6_69_155">
         L'ouvrier, qui est né à V... (Aube), avait deux ans lorsque son père et sa mère émigrèrent de leur province natale à Belleville. Nous savons <pb facs="#facs_81" n="70" source="s2lesouvriersdes04sociuoft_0092.xml"/> déjà que son père était journalier et que sa mère, ancienne femme de chambre, s'était établie blanchisseuse. L'enfance de l'ouvrier fut ma¬ladive : la force et la santé ne sont venues qu'assez tard. On l'envoya à un pensionnalt, ce qui fait supposer chez ses parents des vues assez ambitieuses sur son compte. Mais sa paresse le fit retomber à l'école communale. A douze ans, apprenti chez un marchand de meubles que son père avait cru fabricamt, il apprend à courir les rues du grand Paris : cette vie vagabonde dure pcu ; il est placé chez un véritable ébé¬niste, où il travaille deux ans sans rien gagner ; puis parvient à un salaire de 2 fr. 50 par jour, sans se spécialiser, ce qui lui a permis plus tard, malgré les désavantages du début, d'arriver aux hautes maisons. A dix-sept ans, l'apprentissage était terminé. Lavie d'ouvrier proprement dit commencait. Tout d'un coup, à dix-huit ans, au moment même où un heureux projet d'union semblait écarter toute idée de voyage, une envie folle de voir « le pays, surtout la mer, le saisit. Il part, sans prévenir personne. C'était en 1869. Le chemin de fer le débarque à O0rléans. Il visite ainsi Blois, l'ours, Poitiers. Mais ses ressources s'é¬puisent, et il revient bientôt à Paris, sans avoir atteint l'Océan, qu'il verra plus tard, lorsque des travaux l'appelleront à ennes, Saint-Malo, Dinan et Dinard.
        </p>
-       <p xml:id="para_6_70_157">
+<p xml:id="para_6_70_157">
         A la veille de la guerre, il tire au sort et est réformé. Paris est assiégé. L'ouvrier est enrôlé dans la garde nationale ; il prend part à l'arrière¬garde aux batailles de Champigny et du Bourget. La Commune éclate. l'élection le nomme sergent-major ; il participe aux engagements contre l'armée de Versailles, mais en rase campagne. Il n'a pas eu l'occasion de figurer dans la défense des barricades. Au moment de la déroute des insurgés, il est arrèté pendant 48 heures et doit sa mise en liberté à un brigadier de police qui habitait la même maison que lui. Un peu effrayée de ce rôle politique, sa mère l'envoie en Champagne, dans l'espoir de le faire oublier. Là, l'ouvrier se marie avec la fille d'un tuilier. Le mariage a lieu à l'église par respect humain. De retour à IParis, il est cité comme témoin devant les conseils de guerre de Versailles, et est menacé d'une nouvelle arrestation, menace non suivie d'effet.
        </p>
-       <p xml:id="para_6_70_158">
+<p xml:id="para_6_70_158">
         Alors recommence la vie paisible. Les ateliers succèdent aux aleliers, car l'indépendance de l'ouvrier est telle qu'il ne souflre ni injustice ni passe-droit. Mais l'habileté qu'il a su acquérir lui permet de ne par¬courir ainsi que les maisons les plus connues. A un certain moment, à la mort des parents de sa femme, et de sa mère, possesseur d'un <pb facs="#facs_82" n="71" source="s2lesouvriersdes04sociuoft_0093.xml"/> capital de 1.000 francs, il a cherché à s'établir comme façonnier. Ses prcmiers marchés l'ont dégoûté de cette tentative et il est revenu à l'embrigadement des ateliers. Actuellement, il n'a plus aucun héritage ̀ attendre. Son père s'est remarié et la seconde femme a absorbé les économies de la première ; un petit commerce de bois et charbons n'a pas prospéré ; la misère est venue ; mais « le vieux ne veut pas être à charge ; il tient à garder sa vie « indépendante : une place dans un asile de l'Assistance publique serait son reve.
        </p>
-       <p xml:id="para_6_71_160">
+<p xml:id="para_6_71_160">
         Les ambitions de l'ouvrier doivent se reporter sur ses enfants. Il cherche à les hausser d'un degré social. Le fils est sculpteur, industrie de premier rang d'après les idées du peuple parisien. La fille étai brunisseuse, industrie également de luxe. La mère projette pour cette derniêre un métier plus lucratif, celui de sage-femme, non à Paris, mais en province, au village natal. Une de ses amies, ancienne sage¬femme, reçue docteur en médecine, le lui conseille.
        </p>
-       <p xml:id="para_6_71_161">
+<p xml:id="para_6_71_161">
         C'est un trait de mœurs curieux, au point de vue de leur avenir, que ce rapprochement des ouvriers de haut luxe avec les professions scien¬tifiques, cette recherche d'une plus large existence s'unissant au cou¬rant d'esprit à tendance matérialiste et athée. Les vices des civilisa¬tions raffinées, la morphinomanie, par exemple, pénètrent par ce côté les classes ouvrières. De plus, ces lettrés de second rang, instituteurs ou professeurs, ces artistes inférieurs, dessinateurs ou sculpteurs, ces savants de degré modeste, préparatcurs, sages-femmes, médecins même, développent insensiblement chez les hauts ouvriers et la petite bour¬geoisie de Paris la glorification « des droits de l'individu qui ne connait « ni Dieu ni maître ». et préparent ainsi les voies du socialisme niveleur.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">
         § 13 MOEURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
        </head>
-       <p xml:id="para_6_71_164">
+<p xml:id="para_6_71_164">
         La plus puissante garantie de sécurité que cette famille puisse op¬poser aux accidents de la vie, est l'esprit de travail. Il faut y joindre l'esprit d'ordre. Le père, qui en définitive se réserve l'autorité, tient ses comptes, comme les registres des associations dont il a été tréso¬rier et secrétaire.
        </p>
-       <p xml:id="para_6_71_165">
+<p xml:id="para_6_71_165">
         L'esprit d'épargne fait défaut, sau en ce qui touche les cotisations <pb facs="#facs_83" n="72" source="s2lesouvriersdes04sociuoft_0094.xml"/> des sociétés d'assurance mutuelle. Nous sommes en présence de mu¬tuellistes convaincus : assurance contre l'incendie, à une société à prime assurance contre l'incendie des outils et les difficultés judiciai¬res concernant le travail, à la chambre syndicale des ébénistes ; as¬surance contre les maladies pour tous les membres de la famille, à une société asse peu nombreuse, mais très florissante du faubourg.
        </p>
-       <p xml:id="para_6_72_167">
+<p xml:id="para_6_72_167">
         Presque toues les primes détilent. Il y manque cependant les secours conre les événements les plus graves, — non pas contre les accidents, assez r ares dans la profession, — mais contre l'invalidité et la vieil¬Le rôle du pére, cherchant à soixante-dix ans un refuge dans les asiles de l'Assistance publique. est peu enviable ; mais pas d'espoir de l'évi¬ter, car l'accès du patronat est interdit. L'épargne ne sera pas essayée, le patron ne la favorise qu'à un point de vue assez curieux (l'épargne du loyer, en retenant 15 francs par quinzaine). Les enfants, dernier refuge, réussiront-ils et s'ils réussissent, garderont-ils ce reste d'ins¬tinct social, la déférence et la pitié pour les « vieux » ?
        </p>
-       <p xml:id="para_6_72_168">
+<p xml:id="para_6_72_168">
         Cependant, en terminant l'examen des institutions protectrices de la famille ouvrière, il convient de signaler un essai pratique, dont les conséquences actuelles sont presque nulles, mais qui peut-être, au point de vue de l'assistance, est appelé à diminuer l'insécurité des travailleurs de l'ébénisterie. A côté et très distincte du syndicat des patrons (11, rue de la Cerisaie) qui restera toujours un instrument de lutte sociale. ne institution originale et pacifique se dessine : c'est le Patronage des Enfants de l'Ebenisterie, fondé en 186 par MM. Henry Lemoine. Crohé, Fourdinois, iodin, etc. A première vue, ce patronage se pré¬sente comme une sorte de société de protection de l'enfance, réduite ux seuls apprentis ébénistes, menuisiers en sièges. facteurs de pianos et de illards, tourneurs, sculpteurs sur bois, découpeurs. marqueteurs et serruriers en meubles. Mais il y a plus : on y constate tout un enscignement professionnel, des cours du soir (77, avenue Ledru-Rollin), toute une école, où des patrons, des contre-maîtres enseignent aux enants les éléments théoriques strictement néces¬saires pour compléter les procédés appris chaque jour à l'atelier. Il s y fait en outre, chaque année, des concours, non plus seulement entre les enfants du patronagc, mais entre tous les apprentis du métier ; une mise en loge des concurrents, et une large distribution de prix qui assurent des places avantageuses dans les maisons en vue : c'est le « chef¬d'euvre », sous la forme plus moderne d'une sorte de baccalauréat <pb facs="#facs_84" n="73" source="s2lesouvriersdes04sociuoft_0095.xml"/> de l'ébénisterie »». Enfin l'institution décerne des médailles, ou de pe¬tites sommes d'argent aux vieux ouvriers recommandés par une exceptionnelle permanence d'engagements. Et dans les conférences ou les discours du patronage, on vante le lien corporatif e qui assure le maintien des connaissances artistiques et soutient l'ouvrier dans les phases douloureuses de la vie...  (Voir la conférence de M. Fresson, secrétaire du patronage et de la chambre patronale.)
        </p>
-       <p xml:id="para_6_73_170">
+<p xml:id="para_6_73_170">
         L'idée de corporation flotte tellement dans l'air, que nous la ren¬controns dans les écrits du patron-menuisier Mazaroz, rêvant la recons¬titution de la République professionnelle de Saint-Louis par la franc¬maconnerie. n effet, nous sommes en présence d'une tentative de re¬constitution partielle de la corporation, qui n'aura plus la devise du groupement ancien : « Exclusion et obligation », mais bien : « Appel à tous et liberté ». Ce sera probablement, à vrai dire, un syndicat mixte, qui « permettra aux moyens patrons du métier de pratiquer les insti¬tutions de patronage que le grand patron peut entreprendre avec ses propres forces ». Telle sera, en effet, la portée exacte de cette organi¬sation, que le collectiviste étudié dans la présente monographie consi¬dère comme une manœuvre patronale dirigée contre la constitution égalitaire du « parti ouvrier ».
        </p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
+</div>
+</div>
+<div n="005" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">
         § 14. BUDGET DES RECETTES DE L'ANNÉE.
        </head>
-       <pb facs="#facs_85" n="74" source="s2lesouvriersdes04sociuoft_0096.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_85_g_2" url="#" xml:id="illu_6_74_1"/>
-       </figure>
-       <!--<p xml:id="para_6_74_172">
+<pb facs="#facs_85" n="74" source="s2lesouvriersdes04sociuoft_0096.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_85_g_2" url="#" xml:id="illu_6_74_1"/>
+</figure>
+<!--<p xml:id="para_6_74_172">
         SECTION ᵉ.
         </p>
         <p xml:id="para_6_74_173">
@@ -935,16 +934,16 @@
         <p xml:id="para_6_74_202">
         ART. 3. — ALLOCATIONS D'OIETS ET DE SERVICES. ¯lnS ccernal l'h;itatin... ....... .... ... ..... ... ... ... ... . . ... .
         </p>-->
-       <pb facs="#facs_86" n="75" source="s2lesouvriersdes04sociuoft_0097.xml"/>
-       <!--<p xml:id="para_6_75_203">
+<pb facs="#facs_86" n="75" source="s2lesouvriersdes04sociuoft_0097.xml"/>
+<!--<p xml:id="para_6_75_203">
         § 14.
         </p><p>
         BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_86_g_2" url="#" xml:id="illu_6_75_2"/>
-       </figure>
-       <!--<p xml:id="para_6_75_204">
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_86_g_2" url="#" xml:id="illu_6_75_2"/>
+</figure>
+<!--<p xml:id="para_6_75_204">
         REVENUS DES PROPRIETÉS.
         </p>
         <p xml:id="para_6_75_205">
@@ -1022,11 +1021,11 @@
         <p xml:id="para_6_75_229">
         ToTAUx des produits des subventions.
         </p>-->
-       <pb facs="#facs_87" n="76" source="s2lesouvriersdes04sociuoft_0098.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_87" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_76_230">
+<pb facs="#facs_87" n="76" source="s2lesouvriersdes04sociuoft_0098.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_87" url="#"/>
+</figure>
+<!--<p xml:id="para_6_76_230">
         § 14.
         </p><p>
         BUDGET DES RECETTES DE L'ANNÉE.
@@ -1100,27 +1099,27 @@
         <p xml:id="para_6_76_253">
         BlacissaC du lln§C............... .. . ... ........ ... .. ... .. ... .. .......
         </p>-->
-       <pb facs="#facs_88" n="77" source="s2lesouvriersdes04sociuoft_0099.xml"/>
-       <!--<p xml:id="para_6_77_254">
+<pb facs="#facs_88" n="77" source="s2lesouvriersdes04sociuoft_0099.xml"/>
+<!--<p xml:id="para_6_77_254">
         14. — BUDGET DES RECETTES DE L'ANNÉE (suite).
         </p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_88_g_2" url="#" xml:id="tble_6_77_3"/>
-       </figure>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_88_g_2" url="#" xml:id="tble_6_77_3"/>
+</figure>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE
        </head>
-       <pb facs="#facs_89" n="78" source="s2lesouvriersdes04sociuoft_0100.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_89_g_2" url="#" xml:id="tble_6_78_4"/>
-       </figure>
-       <pb facs="#facs_90" n="79" source="s2lesouvriersdes04sociuoft_0101.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_90" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_79_256">
+<pb facs="#facs_89" n="78" source="s2lesouvriersdes04sociuoft_0100.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_89_g_2" url="#" xml:id="tble_6_78_4"/>
+</figure>
+<pb facs="#facs_90" n="79" source="s2lesouvriersdes04sociuoft_0101.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_90" url="#"/>
+</figure>
+<!--<p xml:id="para_6_79_256">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE (suite).
         </p>
         <p xml:id="para_6_79_257">
@@ -1218,11 +1217,11 @@
         </p>
         <p xml:id="para_6_79_288">
         </p>-->
-       <pb facs="#facs_91" n="80" source="s2lesouvriersdes04sociuoft_0102.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_91" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_80_289">
+<pb facs="#facs_91" n="80" source="s2lesouvriersdes04sociuoft_0102.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_91" url="#"/>
+</figure>
+<!--<p xml:id="para_6_80_289">
         1I5. — BUDGET DES DÉPENSES DE L'ANNÉE (suite).
         </p>
         <p xml:id="para_6_80_290">
@@ -1294,23 +1293,23 @@
         <figure>
         <graphic facs="#facs_91_g_24" url="#" xml:id="tble_6_80_5"/>
         </figure>-->
-       <pb facs="#facs_92" n="81" source="s2lesouvriersdes04sociuoft_0103.xml"/>
-       <!--<p xml:id="part_02_05_15">
+<pb facs="#facs_92" n="81" source="s2lesouvriersdes04sociuoft_0103.xml"/>
+<!--<p xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_92_g_2" url="#" xml:id="tble_6_81_6"/>
-       </figure>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_92_g_2" url="#" xml:id="tble_6_81_6"/>
+</figure>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">
         § 16. COMPTES ANNENÉS AUX BUDGETS.
        </head>
-       <pb facs="#facs_93" n="82" source="s2lesouvriersdes04sociuoft_0104.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_93" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_82_315">
+<pb facs="#facs_93" n="82" source="s2lesouvriersdes04sociuoft_0104.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_93" url="#"/>
+</figure>
+<!--<p xml:id="para_6_82_315">
         SECTION I.
         </p>
         <p xml:id="para_6_82_316">
@@ -1391,15 +1390,15 @@
         <p xml:id="para_6_82_340">
         'laV cmme i-desst1s.
         </p>-->
-       <pb facs="#facs_94" n="83" source="s2lesouvriersdes04sociuoft_0105.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_94_g_1" url="#" xml:id="tble_6_83_8"/>
-       </figure>
-       <pb facs="#facs_95" n="84" source="s2lesouvriersdes04sociuoft_0106.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_95" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_84_341">
+<pb facs="#facs_94" n="83" source="s2lesouvriersdes04sociuoft_0105.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_94_g_1" url="#" xml:id="tble_6_83_8"/>
+</figure>
+<pb facs="#facs_95" n="84" source="s2lesouvriersdes04sociuoft_0106.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_95" url="#"/>
+</figure>
+<!--<p xml:id="para_6_84_341">
         S ECTION II.
         </p>
         <p xml:id="para_6_84_342">
@@ -1441,11 +1440,11 @@
         <figure type="illustration">
         <graphic facs="#facs_95_g_14" url="#" xml:id="illu_6_84_10"/>
         </figure>-->
-       <pb facs="#facs_96" n="85" source="s2lesouvriersdes04sociuoft_0107.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_96" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_85_353">
+<pb facs="#facs_96" n="85" source="s2lesouvriersdes04sociuoft_0107.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_96" url="#"/>
+</figure>
+<!--<p xml:id="para_6_85_353">
         Aur. 2. — VÊTEMENTS DU FILS AINE.
         </p>
         <p xml:id="para_6_85_354">
@@ -1592,11 +1591,11 @@
         <p xml:id="para_6_85_401">
         nnuelle
         </p>-->
-       <pb facs="#facs_97" n="86" source="s2lesouvriersdes04sociuoft_0108.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_97" url="#"/>
-       </figure>
-       <!--<p xml:id="para_6_86_402">
+<pb facs="#facs_97" n="86" source="s2lesouvriersdes04sociuoft_0108.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_97" url="#"/>
+</figure>
+<!--<p xml:id="para_6_86_402">
         ARr. 4. — VÊTEMENTS DE LA FILLE AIÉE (uite).
         </p>
         <p xml:id="para_6_86_403">
@@ -1677,244 +1676,244 @@
         <p xml:id="para_6_86_428">
         15 0
         </p>-->
-      </div>
-     </div>
-     <div n="003" type="section">
-      <head type="section" xml:id="part_03">
+</div>
+</div>
+<div n="003" type="section">
+<head type="section" xml:id="part_03">
        ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
       </head>
-      <p xml:id="para_6_87_429">
+<p xml:id="para_6_87_429">
        FAITS IMPORTANTS DORGANISATION SOCIALE;
       </p>
-      <p xml:id="para_6_87_430">
+<p xml:id="para_6_87_430">
        PARTICULARITÉS REMARQUABLES;
       </p>
-      <p xml:id="para_6_87_431">
+<p xml:id="para_6_87_431">
        APPRÉCIATIONS GÉNÉRALES : CONCLUSIONS.
       </p>
-      <div n="001" type="sub_section">
-       <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">
+<div n="001" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_17">
          § 17. MONOGRAPHIE D'UN ATELIER DE IAUT LUXE.
         </head>
-        <p xml:id="para_6_87_434">
-         <pb facs="#facs_98" n="87" source="s2lesouvriersdes04sociuoft_0109.xml"/> La maison choisie (celle ou l'ouvrier travaille) est une de ces maisons sérieuses, solides, à l'intérieur desquelles deux catégories d'ouvriers, tapissiers d'une part, ébénistes de l'autre, travaillent sur la commande directe du client, en se faisant aider de façonniers, sculpteurs en ronde-bosse, sculpteurs ordinaires ou en bas-relief, can¬neleurs, découpeurs, monteurs en bronze, ciseleurs, doreurs, petits patrons ou bien ouvriers seuls, qui prêtent du dehors, de leur atelier ou de leur mansarde, une indispensable collaboration à l'œuvre ; aux alentours de cet atelier central, se devine la foule des petits patrons ébénistes qui deviennent les auxiliaires de la maison, quand il s'agit de remplir le magasin de meubles fabriqués à l'avance, enlevés de suite par l'acheteur.
+<p xml:id="para_6_87_434">
+<pb facs="#facs_98" n="87" source="s2lesouvriersdes04sociuoft_0109.xml"/> La maison choisie (celle ou l'ouvrier travaille) est une de ces maisons sérieuses, solides, à l'intérieur desquelles deux catégories d'ouvriers, tapissiers d'une part, ébénistes de l'autre, travaillent sur la commande directe du client, en se faisant aider de façonniers, sculpteurs en ronde-bosse, sculpteurs ordinaires ou en bas-relief, can¬neleurs, découpeurs, monteurs en bronze, ciseleurs, doreurs, petits patrons ou bien ouvriers seuls, qui prêtent du dehors, de leur atelier ou de leur mansarde, une indispensable collaboration à l'œuvre ; aux alentours de cet atelier central, se devine la foule des petits patrons ébénistes qui deviennent les auxiliaires de la maison, quand il s'agit de remplir le magasin de meubles fabriqués à l'avance, enlevés de suite par l'acheteur.
         </p>
-        <div n="001" type="paragraph">
-         <head type="paragraph" xml:id="part_03_01_17_01">
+<div n="001" type="paragraph">
+<head type="paragraph" xml:id="part_03_01_17_01">
           I. — ORGANISATION COMMERCIALE.
          </head>
-         <p xml:id="para_6_87_436">
+<p xml:id="para_6_87_436">
           Pour découvrir l'ensemble de l'organisation commerciale, il faut aller droit au point décisif : les bureaux.
          </p>
-         <p xml:id="para_6_87_437">
+<p xml:id="para_6_87_437">
           Ici le patron s'occupe en général asse peu des détails de la mai¬son. Actuellement, par suite d'un événement survenu depuis quel¬ques semaines, le chiffre des employés est de deux un premier com¬mis-vendeur, et un second, jouant le rôle d'auxiliaire et d'aide de <pb facs="#facs_99" n="88" source="s2lesouvriersdes04sociuoft_0110.xml"/> camp. Chaque semaine un comptable vient transcrire pendant cinq heures environ sur les livres de comptabilité exigés par le Code, li¬vre-journal, grand-livre, etc..., la comptabilité réelle de la maison, beaucoup plus commode et plus pratique. Ce fait est à noter ; il ré¬sume toute l'économie politique : les grands principes légaux d'un côté, l'usage de l'autre. Cette comptabilité réelle, courante, la seule où le patron étudie sa situation à un moment donné, se compose de quatre livres différents que nous allons décrire très rapidement, parce qu'ils révèlent tout le fonctionnement commercial de la maison : le ˉlivre de commande, le livre d'atelier, le livre de debit et le ˉliure de caisse.
          </p>
-         <p xml:id="para_6_88_439">
+<p xml:id="para_6_88_439">
           Sur le premier, le livre de commande, le commis en chef ou le ven¬deur inscrit au jour le jour toutes les commandes faites par le client : commandes directes le plus souvent, parce que le client, parisien, pro¬vincial ou étranger, visite lui-même la maison de haut luxe ; indirectes aussi, parce qu'il luisemble parfois préférable d'employer, sans se dépla¬cer, l'intermédiaire de ces grandes maisons de commission de la rue de Paradis, quise distribuentles différents pays d'Europe, surtout d'Améri¬que, et y transportent les articles les plus divers ; corsets et mobiliers, articles de Paris et denrées alimentaires. Sur le deuxième, le livre d'ate¬lier, qui est double, livre des tapissiers, livre des ébénistes (nous ne nous occuperons que de celui-ci), le premier commis ou le second re¬copie les commandes. Ce livre a une forme rectangulaire allongée ; sur le verso, la commande est inscrite ; le recto d'en face est laissé li¬bre : cette page blanche est réservée au contre-maître qui y inscrit le prixde reuient. C'est sur ce prix de revient que se calculera, en ajoutant un tant qui sera indiqué tout à l'heure, le priv de ente. Sur le troi¬sième livre, appelé liue de debit, le premier commis, qui décidément est la clef de voûte de l'organisation commerciale comme le contre¬maître est la clet de voûte de l'organisation industrielle, note au fur et à mesure tous les objets livrés : objets exécutés sur commande peu à peu, en général avec des retards ; objets vendus au comptant et pris au magasin. nfin sur le quatrième livre, le livre de caisse, est constaté le mouvement des fonds : l'entrée et la sortie.
          </p>
-         <p xml:id="para_6_88_440">
+<p xml:id="para_6_88_440">
           C'est avec les deux derniers livres que le comptable reconstruit la belle ordonnance de la comptabilité en partie double.
          </p>
-         <p xml:id="para_6_88_441">
+<p xml:id="para_6_88_441">
           Ajoutez à ces livres un petit carnet où le deuxième commis dresse la liste de tous les échantillons de tapisserie, — parce que le magausin contient en réserve non les pièces mêmes, mais les échantillons dépo<pb facs="#facs_100" n="89" source="s2lesouvriersdes04sociuoft_0111.xml"/>sés par des maisons d'étoffes pour meubles
           <note type="bp">
-           <p>
+<p>
             Ces maisons font exécuter sur dessins leurs articles les plus coûteux à Lyon, les plus commun à Roubaix, et les revendent aux tapissiers.
            </p>
-          </note>
+</note>
           , — vous posséderez toute la comptabilité occulte et courante d'une maison d'ameublement de haut luxe ; par suite, une idée absolument exacte de la marche de ses rouages commerciaux.
          </p>
-         <p xml:id="para_6_89_443">
+<p xml:id="para_6_89_443">
           Avant de quitter les bureaux, ouvrons ces différents livres, et éta¬blissons approximativement dans ses grandes lignes le budget de la maison pendant les derniêres années.
          </p>
-         <div n="001" type="paragraph">
-          <head type="sub_paragraph" xml:id="part_03_01_17_01_01">
+<div n="001" type="paragraph">
+<head type="sub_paragraph" xml:id="part_03_01_17_01_01">
           a) Dépenses.
          </head>
-         <p xml:id="para_6_89_445">
+<p xml:id="para_6_89_445">
           En tête des dépenses d'une maison de commerce se trouve une somme fixe, constante, les frais générauv, c'est-à-dire :
          </p>
-         <p xml:id="para_6_89_446">
+<p xml:id="para_6_89_446">
           Le loyer. — La construction est ancienne et mal distribuée pour l'industrie............ 11.000 fr.
          </p>
-         <p xml:id="para_6_89_448">
+<p xml:id="para_6_89_448">
           Les contributions. — Portes et fenêtres, patente............ 2.000 fr.
          </p>
-         <p xml:id="para_6_89_449">
+<p xml:id="para_6_89_449">
           Les assurances. — Payées depuis 1854 sans incendie............ 2.000 fr.
          </p>
-         <p xml:id="para_6_89_450">
+<p xml:id="para_6_89_450">
           Le traitement des employés. — Le commis-vendeur peut toucher 5. 000 frcancs; si on y ajoute, et le cas est fréquent, un intérèt ou partici¬pation de 1;4 ou 1,;2, on atteint rapidement 10.000 francs, même davantage : soit 10,000 francs ; le 2° employé est payé environ 200 francs par mois, ici 2.400 francs ; le comptable payé au mois ou à l'heure, 50 francs par mois, 1 fr. 50 l'heure : 600 francs; 4.000 francs pour le contre-maître des ébénistes ; 4.000 francs pour le contre-maître des tapissiers ; l.400 francs pour la contre-maîtresse ; total. . 22.000fr.
          </p>
-         <p xml:id="para_6_89_452">
+<p xml:id="para_6_89_452">
           Le chauffage............ 500 fr.
          </p>
-         <p xml:id="para_6_89_453">
+<p xml:id="para_6_89_453">
           Le gaz............ 1.00 fr.
          </p>
-         <p xml:id="para_6_89_454">
+<p xml:id="para_6_89_454">
           La voiture, le cheval, les garçons. — Nourriture et salaire, 120 a 150 francs par mois............ 4.000 fr.
          </p>
-         <p xml:id="para_6_89_456">
+<p xml:id="para_6_89_456">
           L'intéret du capital engagé dans l'exploitation (sans parler des com¬missions prélevées par l'escompteur, Crédit lyonnais ou banque Leroy, par exemple, si la maison n'a pas un fonds de roulement suffisant pour se passer des vendeurs d'argent). — Le capital s'élêve ici à 50.000 francs argent et 100.00) francs nature, savoir : le matérield'ébé¬nisterie, asse restreint, prce que le patron fournit seulement, en vertu la coutume, les établis, les serre-joints et les presses, soit 3.00 francs <pb facs="#facs_101" n="90" source="s2lesouvriersdes04sociuoft_0112.xml"/> le matériel de tapisserie 3,500 francs ; enfin 93.000 francs de vieux meu¬bles,  rossignols,  succès d'exposition qui n'ont pas trouvé d'acheteur ; — total, 150.000 francs à 5 %., soit............ 7.500 fr.
          </p>
-         <p xml:id="para_6_90_458">
+<p xml:id="para_6_90_458">
           Le total des frais géneraur s'élève done à la somme de............ 50.000 f.
          </p>
-         <p xml:id="para_6_90_459">
+<p xml:id="para_6_90_459">
           Pour compléter la section des dépenses approximatives de l'année, il reste à indiquer deux catégories non plus fixes, mais variables suivant la quantité et la nature des objets produits : la matière pre¬miere et la main-d'œuvre.
          </p>
-         <p xml:id="para_6_90_460">
+<p xml:id="para_6_90_460">
           La matière première, s'il s'agit de bois, noyer, chêne, peuplier, etc.. est achetée à des marchands en gros, qui se chargent du séchage . C'est une innovation dans l'industrie : les patrons ne sont plus tenus à conserver ces énormes réserves, si coûteuses au double point de vue de la surface occupée et de l'assurance, que l'on rencontrait jadis dans les ateliers et que l'on a signalées récemment dans la liquidation Ma¬aroz. Le bois est disposé dans les chantiers en tas distincts, corres¬pondant chacun à une maison cliente. Les achats de la fabrique d'é¬bénisterie que nous étudions, faits par lots de 7.000 à 8.000 francs, sont payés au comptant ou à 90 jours. — Le bois des îles, acajou, palissandre, ébène, etc., s'achète, au contraire, par petits lots, dans des dépôts complètement séparés des autres, comme la maison Hol¬land et ses voisines de la rue de Charenton. Bois ordinaires et bois des îles sont, en effet, au faubourg, l'objet de deux commerces très rap¬prochés, mais non confondus.
          </p>
-         <p xml:id="para_6_90_461">
+<p xml:id="para_6_90_461">
           Quant aux étoffes, le chiffre total des achats est difficile à évaluer : le lecteur a vu comment il s'effectuait sur échantillons déposés et choisis par le client. La différence entre le prix des achats et des ventes de ces étoffes est la grosse source de bénéfices des maisons qui, comme la maison monographiée, réunissent la tapisserie à l'ébénis¬
          </p>
-         <p xml:id="para_6_90_462">
+<p xml:id="para_6_90_462">
           Le total des dépenses concernant les atiees premières peut être évalué à 25.000 francs.
          </p>
-         <p xml:id="para_6_90_463">
+<p xml:id="para_6_90_463">
           La main-d'œuvre s'éleve en chiffres ronds à : 50.000 francs pour les ébénistes, 50.000 francs pour les tapissiers. Ajoute-y pour les mul¬tiples collaborateurs qui travaillent au dehors, et aussi pour les fabri¬cants-ébénistes d'ordre inférieur dont les produits remplissent le ma¬asin, une somme qui monte rapidement à 185.000 franes.
          </p>
-         <p xml:id="para_6_90_464">
+<p xml:id="para_6_90_464">
           Le total des dépenses de main-d'œuvre est ainsi de 285.)00 franes.
          </p>
-         <p xml:id="para_6_90_465">
+<p xml:id="para_6_90_465">
           Et vous arrivez au véritable cliffre des dépenses de la maison, frais :énéraux et autres, soit (trois cent soixante mille francs) 360,000 fr.
           </p>
-         </div>
-         <div n="002" type="paragraph">
-          <head type="sub_paragraph" xml:id="part_03_01_17_01_02">
+</div>
+<div n="002" type="paragraph">
+<head type="sub_paragraph" xml:id="part_03_01_17_01_02">
            b) Recettes.
          </head>
-         <p xml:id="para_6_91_467">
-          <pb facs="#facs_102" n="91" source="s2lesouvriersdes04sociuoft_0113.xml"/> Les recettes ont été pendant l'année observée d'environ 400.000 fr.
+<p xml:id="para_6_91_467">
+<pb facs="#facs_102" n="91" source="s2lesouvriersdes04sociuoft_0113.xml"/> Les recettes ont été pendant l'année observée d'environ 400.000 fr.
          </p>
-         <p xml:id="para_6_91_468">
+<p xml:id="para_6_91_468">
           Elles ont été constituées par une majoration de 30 à 40 sur le prix de revient des objets de haut luxe fabriqués à l'atelier (cette pro¬portion est authentique), et par les bénéfices, plus ou moins aléatoires, réalisés sur les meubles achetés et revendus dont il serait facile de faire ressortir l'influence grandissante.
          </p>
-         <p xml:id="para_6_91_469">
+<p xml:id="para_6_91_469">
           La maison fait donc 400.000 francs d'affaires. En conséquence, cette maison de haut lue qui tend à vendre de plus en plus du confortable estimable, il est vrai, mais préparé d'avance, réalise quarante mille francs de bénéfices.
          </p>
-         </div>
-        </div>
-        <div n="002" type="paragraph">
-         <head type="paragraph" xml:id="part_03_01_17_02">
+</div>
+</div>
+<div n="002" type="paragraph">
+<head type="paragraph" xml:id="part_03_01_17_02">
           II. — ORGANISATION DU TRAVAIL.
          </head>
-         <p xml:id="para_6_91_471">
+<p xml:id="para_6_91_471">
           Remarquons l'absence complète d'outillages mécaniques qui, au contraire, se rencontreraient dans certaines maisons (rieger, Allard, Association générale d'ébénisterie, etc.), où l'on exécute des ou¬vrages de menuiserie et de charpenterie artistique, et étudions a) la série des opérations que subit le meuble scupté de haut luxe (et ce meuble seulement) ; b) l'organisation du travail proprement dite.
          </p>
-         <div n="001" type="sub_paragraph">
-          <head type="sub_paragraph" xml:id="part_03_01_17_02_01">
+<div n="001" type="sub_paragraph">
+<head type="sub_paragraph" xml:id="part_03_01_17_02_01">
            a) La série des opérations est assez complexe.
           </head>
-          <p xml:id="para_6_91_473">
+<p xml:id="para_6_91_473">
            1° D'abord il faut avoir le dessin du meuble. La maison ne s'est ja¬mais adjoint un dessinateur en titre. Outre un avantage d'économie, elle prétend atteindre ainsi un avantage artistique, qui est de varier ses genres : la « manière » d'un dessinateur, effectivement, finit pres¬que toujours par faire « dater » les meubles d'une maison. Elle s'adresse aux dessinateurs en vogue du faubourg, les Maincent, les Langfeld, etc., même Quétin qui tient boutique ouverte de dessins de luxe et de lithographies pour les trôleurs. Un beau dessin d'une jardi¬nière à forme nouvelle, par exemple, pcut être payé 60 francs. Après le dessin, le contre-maître rédige le pdan, c'est-à-dire le tracé à grandeur d'exécution, ce qui correspond à l'épure exécutée sur le sol par le gâ¬cheur charpentier
            <note type="bp">
-            <p>
-             <ref target="#ID-070a" type="renvoi_int_od2m">
+<p>
+<ref target="#ID-070a" type="renvoi_int_od2m">
               V. Ouvriers des Deux Mondes, 2ᵉ série, t. III ; monographie du Charpentier indepen¬dant de Paris, §1.
              </ref>
-            </p>
-           </note>
+</p>
+</note>
            . Le plan est constitué par la projection sur une <pb facs="#facs_103" n="92" source="s2lesouvriersdes04sociuoft_0114.xml"/> surface horizontale du meuble étendu à terre : c'est une application de la géométrie descriptive.
           </p>
-          <p xml:id="para_6_92_476">
+<p xml:id="para_6_92_476">
            2° Le contre-maître choisit les bois dans le magasin. L'ébéniste commence à les couper et à les corroyer, autrement dit à les ra¬
           </p>
-          <p xml:id="para_6_92_477">
+<p xml:id="para_6_92_477">
            3° Ici s'ouvre toute une série de travaux successifs, poursuivis sans le secours de l'ébéniste, en dehors de l'atelier, et nécessitant pour la plupart l'intervention de ces machines-outils que nous aurions ren¬contrées toutes réunies dans quelques maisons, telles que la maison rieger. De loin en loin, au faubourg, rue Saint-Bernard, passage Charles Dalery (ancien passage Vaucanson), etc., s'élèvent de vastes usines, qui distribuent en une multitude de cases exiguès la force mo¬trice a de petits patrons tourneurs et canneleurs. A côté se trouvent des scieries plus importantes où la scie à découper et les machines à moulurer, « les toupies », attendent les ébénistes d'alentour. Voilà qui va remplacer le coûteux outillage à bien peu de frais. Il s'agit, par exemple, de l'une des colonnettes d'un buffet sculpté : l'ébéniste a taillé un petit pilier de noyer à section rectangulaire ; ce pilier est porté à l'usine Saint-Bernard ; un patron tourneur le transforme en colonnette en traçant tout autour avec ses outils les anneaux mar¬qués sur le plan, le tout aux pièces d'après la convention, puis cette colonnette est remise au canneleur qui avec sa machine d'abord, à la main ensuite, y imprime les rainures parallèles que nous supposons rectilignes ; — attenant à la colonnette, une arcade était trop longue à cier avec la main, elle est confiée au découpeur et les moulures sont rapidement achevées à la oupie. — Ce n'est pas out, si le rôle des ma¬chines est terminé, voici le moment du sculpteur en bas-relief; on lui envoie (si la maison n'a ps son atelierde sculpteurs à côté de l'atelier d'ébénistes, et c'est le cas le plus fréquent), la colonnette déjà tournée et cannelée, les parties voisines découpées et moulurées ; il trace ou fait tracer par ses ouvriers, payés à l'heure pour ces ouvrages de haut lue, aux pièces pour les ouvrages courants, les arabesques ou les ornements fantaisistes qui lui sont indiqués. Nous n'avons pas parlé du sculpteur en ronde-bosse, de l'imagier qui travaille chez lui, seul, gagnant 25 à 10 francs par jour, artiste ouvrier dont les mœurs rappellent celles des artistes bourgcois, qui odele en glaise, puis exécute sur le bois les tétes, emblèmes, et autres ornements des vantaux ou du faite du
           </p>
-          <p xml:id="para_6_92_478">
+<p xml:id="para_6_92_478">
            4° Maintenant toutes les pièces éparpillées au faubourg rentrent à <pb facs="#facs_104" n="93" source="s2lesouvriersdes04sociuoft_0115.xml"/> l'atelier. L'ébéniste, l'ouvrier du début, procède à l'assemblage des différentes parties, car il a eu le temps de terminer le placage, ou encore le contreplacage des parties planes, c'est-à-dire qu'il a collé sur celles-ci une ou plusieurs feuilles de noyer enlevées soit à la scie, soit au couteau, qui ont pour effet d'empêcher le bois de travailler et les jointures de se séparer.
           </p>
-          <p xml:id="para_6_93_480">
+<p xml:id="para_6_93_480">
            5° Puis vient le tour de l'habillage du meuble : l'application des sculptures simplement collées qui devraient être rares dans un meuble de haut luxe.
           </p>
-          <p xml:id="para_6_93_481">
+<p xml:id="para_6_93_481">
            6° Enfin l'opération de la teinture du bois : les portions du meuble sont plongées dans un bain de brou de noix étendu d'eau : on passe le papier de verre et aussi l'encaustique (térébenthine où l'on dissout de la cire et de la terre de Sienne). On réajuste, et le meuble peut être livré, ou porté chez le bronzier qui y ajoute soit les candélabres, soit les sta¬tues qui doivent le surmonter. C'est un buffet de salle à mangcr, une armoire, une bibliothèque, un lit, une jardinière, etc.
           </p>
-         </div>
-         <div n="002" type="sub_paragraph">
-          <head type="sub_paragraph" xml:id="part_03_01_17_02_02">
+</div>
+<div n="002" type="sub_paragraph">
+<head type="sub_paragraph" xml:id="part_03_01_17_02_02">
            b) L'organisation du travail proprement dite, second paragraphe de cette monographie d'atelier, peut se résumer rapidement.
           </head>
-          <p xml:id="para_6_93_483">
+<p xml:id="para_6_93_483">
            Tous les ouvriers de l'atelier sont des ouvriers de haut luxe ; ils se dis¬tinguent donc par deux caractères généraux. D'abord ils travaillent sur plan (c'est une classification capitale du faubourg, celle entre ouvriers qui savent lire les plans et ouvriers qui ne savent pas les lire). De plus, ils sont capables de construire n'importe quel meuble, ils ne se sont pas spécialisés, comme on se spécialise dans le meuble courant ou le meuble de trôle. Cependant quelques ouvriers sont, par suite de dispositions naturelles, plus particulièrement chargés de certains ouvrages, les tables par exemple. — Les sièges sont l'objet d'une spécialité, même dans la zone du haut luxe ; les menuisiers en fauteuils ou en sièges constituent une catégorie à part, jadis puissante a Paris, réduite aujourd'hui par suite de diverses causes à un millier d'individus, à pcu près tous ouvriers du haut luxe ; très souvent les maisons de premier ordre leur réservent un atelier spécial : ici l'on s'adresse à un faconnier du dehors.
           </p>
-          <p xml:id="para_6_93_484">
+<p xml:id="para_6_93_484">
            Mais à un autre point de vue, les ouvriers de cet atelier d'ébéniste¬rie se divisent en deux parties : le noyau et les supplémentaires. Le noyau, c'est l'élite toujours occupée, dans laquelle se rencontrent des hommes engagés depuis dix, doue ans. — Dans un atelier voisin, la maison Lemoine, se trouve même le doyen des ébénistes de Paris, le <pb facs="#facs_105" n="94" source="s2lesouvriersdes04sociuoft_0116.xml"/> père Séguin, âgé de 92 ans et comptant 58 années de présence auprès du même établi, un établi de forme antique, sur lequel sont rangés les outils familiers àl'ébénistedelapremièremoitié dusiècle : il vient encore gagner de temps à autre ses 50 centimes par heure en construisant les croix de bois sur lesquelles Barbedienne couche un Christ de bronze. — Au noyau s'ajoutent les supplémentaires, engagés avec soin et parmi les ouvriers de choix qui suivent les maisons de haut luxe, Dasson, loux, viener, Janselme, etc. Les engagements se concluent sans bu¬reau de placement ; le contre-maître attire ses amis, surtout ses com¬patriotes ; souvent les ouvriers l'accompagnent d'atelier en atelier. Le noyau est ici composé actuellement de 18 ébénistes : sur ces 18 ou¬vriers,  ou 8 Alsaciens; on connait la proportion considérable des ébénistes de race alsacienne ou étrangère ; le contre-maître est égale¬ment alsacien.
           </p>
-          <p xml:id="para_6_94_486">
+<p xml:id="para_6_94_486">
            Le règlement de l'atelier est conçu de la manière suivante : la journée est de 10 heures de travail complet. — lEn été on entre à 7 heures du matin; 1 heure 12 est laissée pour le déjeuner ; 10 mi¬nutes pour le « coup de quatre heures, le vin traditionnel des ébé¬nistes ; on sort à 7 heures du soir. — En hiver, l'arrivée est à 7I h. 1/2; mais le même ordre est observé. — Chômage complet le dimanche, travail le lundi.
           </p>
-          <p xml:id="para_6_94_487">
+<p xml:id="para_6_94_487">
            Reste la question du salaire. Deux modes de salaire dans l'atelier.
           </p>
-          <p xml:id="para_6_94_488">
+<p xml:id="para_6_94_488">
            Lorsqu'il s'agit d'ouvrages de haut luxe, rarement exécutés, diffi¬ciles à évaluer par suite de l'imprévu, les ouvriers sont payés à l'heure, en règle générale 80 centimes, par exception, 85 centimes.
           </p>
-          <p xml:id="para_6_94_489">
+<p xml:id="para_6_94_489">
            Lorsqu'il s 'agit d'ouvrages évaluables, surtout ordinaires, exécutés pour le magasin, le travail est fait aux pièces, d'après le tarif de la maison. Ce tarif, particulier à chaque atelier, à cause des praltiques, des coutumes spéciales, est établi en principe sur la base de l'heure¬étalon fixée par la chambre syndicale ouvrière à 80 centimes; mais en fait, il est facile au contre-maître d'imposer à l'ouvrier un marché désavan¬tageux, et de le lui faire signer sur son livre ; les prudhommes ne pourront désormais qu'appliquer les tcrmes d'une convention régu¬liere et parfaitement prouvée. Le chef de la maison étudiée paie d'ail¬leurs immédiatement tout ouvrier qui réclame un supplément de prix. auf à le renvoyer aprés paycment.
           </p>
-          <p xml:id="para_6_94_490">
+<p xml:id="para_6_94_490">
            Le payement du salaire a lieu toutes les quinzaines ; des à-comptes peuvent être donnés. Chaque quinzaine, l'ouvrier de haut luxe devrait toucher pour l2 jours à 8 francs : 96 francs. En réalité on lui verse <pb facs="#facs_106" n="95" source="s2lesouvriersdes04sociuoft_0117.xml"/> seulement 81 francs par suite d'une combinaison originale qui se ré¬pand dans un certain nombre d'ateliers. Les 1:5 francs ainsi économisés chaque quinzaine forment un fonds de réserve, remis chaque trimestre à l'ouvrier, le fonds de l'épargne du loyer.
           </p>
-          <p xml:id="para_6_95_492">
+<p xml:id="para_6_95_492">
            Aucune institution de patronage d'ailleurs : pas d'assurance contre les maladies, pas d'assurance contre les accidents, pas de caisse de retraite pour la vieillesse.
           </p>
-          <p xml:id="para_6_95_493">
+<p xml:id="para_6_95_493">
            Toutes les garanties contre les infortunes des « phases exception¬nelles de l'existence ne sont inconnues dans le métier d'ébénisterie. Une seule institution est à signaler, cette retenue ou épargne en vue du payement du terme. C'est deijà quelque chose. Elle indique une préoccupation, un instinct au moins vague des devoirs du pa¬tronat
            <note type="bp">
-            <p>
+<p>
              Le groupement patronal (car ici on voit poindre la lutte), la chambre syndicale des patrons a son siége, 11, rue de la Cerisaic (jadis 13) ; elle comprend 160 membres sur 3.000 patrons.
             </p>
-            <p>
+<p>
              Les grouupements ouvriers sont au nombre de deux (pour les ébénistes). D'abord la chambre syndicale des ouv riers ébénistes et du meuble sculpté (nuance collectiviste) a son bureau 36, rue de Montreuil ; 1.86 membres sur 16.000 à 20.000 ouvriers : quadruple b : 1° la défense des intéréts ouvriers par les dépositions aux enquétes, l'enseignement professionnel, etc.; 2° la préparation aux élections des prudhmmes ; 3° l'assistance judi¬ciaire des ouvriers plaidant contre leur patron : 4° les gréves. — Esuite l'Union syndi¬cale du meuble sculpté et de l'ébenisterie ( nuance anarchiste), aujourd'hui, 79, houle¬vard de Picpus. Voir : benistes du fauoorg aint-.1toime. et, pour l'Union syndicale, le ˉMode économique du 30 mai 1891.
             </p>
-           </note>
+</note>
            .
           </p>
-         </div>
-        </div>
-       </div>
-       <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">
+</div>
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_18">
          § 18. LE MEUBLE COURANT.
         </head>
-        <p xml:id="para_6_95_496">
+<p xml:id="para_6_95_496">
          Dans cette monographie sur l'ouvrier ébéniste, nous n'avons en¬core eu à signaler ni l'action du grand magasin, ni celle du sweating system. C'est que notre intention n'a été concentrée jusqu'ici que sur la première zone du métier, moins importante que les deux autres, puisque d'après les statisticiens les moins mal informés, elle réunit seulement 4.000 travailleurs sur 16.000 à 20.000.
         </p>
-        <p xml:id="para_6_95_497">
+<p xml:id="para_6_95_497">
          Il faut donc, pour être complet, ouvrir quelques aperçus rapides sur le monde d'à-côté, si opposé d'aspect et de constitution.
         </p>
-        <p xml:id="para_6_95_498">
+<p xml:id="para_6_95_498">
          La première province que l'on rencontre dans ce voyage à vol d'oiseau, est celle du meuble courant ou bourgeois. Deux traits lui sont particuliers : 1° l'importance toute-puissante du marchand; — 2° la spécialisation à outrance de l'ouvrier.
         </p>
-        <p xml:id="para_6_95_499">
+<p xml:id="para_6_95_499">
          Le marchand, prenant à sa charge tous les risques de l'emmaga<pb facs="#facs_107" n="96" source="s2lesouvriersdes04sociuoft_0118.xml"/>sinage et de l'attente, maître unique de la commande, devient le suerain despotique d'une série de petits ateliers qui, n'ayant qu'un seul débouché, sont en réalité esclaves. Grâce à cette situation, le marchand finit toujours, au moins en principe, par peser sur les cours ; et on aboutit ainsi à ce que les Anglais ont baptisé du nom de sweating system, ou système de la sueur.
         </p>
-        <p xml:id="para_6_96_503">
+<p xml:id="para_6_96_503">
          Par suite, bien que quelques petits patrons du meuble courant ven¬dent encore directement à la clientèle des classes moyennes, et qu'il soit encore facile de découvrir des spécimens du faconnier, de l'ébé¬niste travaillant en chambre et à la tâche pour le compte d'un mar¬chand fabricant, le tableau en raccourci de la catégorie entière est donné par l'étude d'un grand magasin n, et d'un « petit atelier lié à ce dernier par la coutume de commandes régulières.
         </p>
-        <p xml:id="para_6_96_504">
+<p xml:id="para_6_96_504">
          Un grand magasin. — Deux classes de grands magasins : le grand magasin de vente au comptant (système Boucicaut), le grand magasin de vente à credit (système Crespin). Le premier est bien connu, mais le second est le plus curieux. Voici une table-toilette anglaise qui est marquée 18 francs. Si vous la paye comptant, un escompte de 3 vous est consenti ; soit un rabais à 17 fr. 45. Si vous voulez acheter à crédit, les plus grandes faveurs vous sont consenties : le quart est versé, et le reste, divisé en à-comptes de un franc, vous sera réclamé chaque semaine par « l'abonneur ou receveur de la maison. Les combinaisons usuraires sont presque fatalement une conséquence de ce contrat d'imprévoyance.
         </p>
-        <p xml:id="para_6_96_505">
+<p xml:id="para_6_96_505">
          Un petit atelier. — Prenons pour exemple un fabricant de toilettes anglaises du faubourg.
         </p>
-        <p xml:id="para_6_96_506">
+<p xml:id="para_6_96_506">
          a) Monographie d'atelier (le patron, 1 ouvrier, 1 apprenti). — Voici le compte du bénéfice de la fabrication d'une table-toilette anglaise, en acajou ou noyer, de 70 centimètres de large.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_1">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_1">
           Monographie d'atelier : recettes et dépenses (notes annexes)
          </head>
-         <graphic facs="#facs_107" url="#"/>
-        </figure>
-        <!--<p xml:id="para_6_96_507">
+<graphic facs="#facs_107" url="#"/>
+</figure>
+<!--<p xml:id="para_6_96_507">
          RECETTES.
          </p>
          <p xml:id="para_6_96_508">
@@ -1941,31 +1940,31 @@
          <p xml:id="para_6_96_515">
          Tota comme ci-desss ..... .. . 12 80
          </p>-->
-        <p xml:id="para_6_97_516">
-         <pb facs="#facs_108" n="97" source="s2lesouvriersdes04sociuoft_0119.xml"/> Il faut multiplier ces chiffres par 600. qui est le nombre de ces ta¬bles-toilettes fabriquées par année ( les toilettes-commodes, tables de nuit chiffonniers, etc., contenant la même proportion de matière première et de main-d'euvre). On a ainsi :
+<p xml:id="para_6_97_516">
+<pb facs="#facs_108" n="97" source="s2lesouvriersdes04sociuoft_0119.xml"/> Il faut multiplier ces chiffres par 600. qui est le nombre de ces ta¬bles-toilettes fabriquées par année ( les toilettes-commodes, tables de nuit chiffonniers, etc., contenant la même proportion de matière première et de main-d'euvre). On a ainsi :
         </p>
-        <p xml:id="para_6_97_517">
+<p xml:id="para_6_97_517">
          Matiére première............ 9ᶠ55 X 600 = 5,730ᶠ00
         </p>
-        <p xml:id="para_6_97_518">
+<p xml:id="para_6_97_518">
          Main-d'euvre............ 3ᶠ25 X 600 = 1.950ᶠ00
         </p>
-        <p xml:id="para_6_97_519">
+<p xml:id="para_6_97_519">
          Sur ces 600 toilettes, 300 sont fabriquées par l'ouvrier, à raison de 1 par journée de 3 francs. De ce chef le patron fait donc un gain supplémentaire de 0ᶠ,25 300 75 f.
         </p>
-        <p xml:id="para_6_97_520">
+<p xml:id="para_6_97_520">
          b) Monographie de famille (le père, la mère, cinq enfants). — lIaute moralité, nationalité belge (pays vallon).
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_2">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_2">
           Monographie de famille : recettes et dépenses (notes annexes)
          </head>
-         <graphic facs="#facs_108" url="#"/>
-         <p>
+<graphic facs="#facs_108" url="#"/>
+<p>
           (1) Ici nous ne tenons compte que des valeurs en argent.
          </p>
-        </figure>
-        <!--<p xml:id="para_6_97_521">
+</figure>
+<!--<p xml:id="para_6_97_521">
          RECETTES.
          </p>
          <p xml:id="para_6_97_522">
@@ -2028,60 +2027,60 @@
          <p xml:id="para_6_97_541">
          Total des dépenses............. 2.369 25
          </p>-->
-        <p xml:id="para_6_97_542">
+<p xml:id="para_6_97_542">
          Le paiement des commandes par le grand bazar ramène le swea¬ting system. Toujours, à la réception, des difficultés sont soulevées : des rabais, ou des laissés pour compte. On cède, car immédiatement la place serait prise par les concurrents et l'on se trouverait sans pain. Il faut subir des conditions draconiennes: le prélèvement d'un escompte de 5% ; la suppression de tous les centimes qui dépassent un mul¬tiple de 5 (99 par exemple réduits à 95); le paiement du timbre de <pb facs="#facs_109" n="98" source="s2lesouvriersdes04sociuoft_0120.xml"/> quittance. Ce cautionnement de 50 francs est déposé. En outre, si l'ate¬lier avait un cachet artistique exceptionnel, et s'il y avait à craindre une certaine indépendance, on le lierait par un traité.
         </p>
-        <p xml:id="para_6_98_545">
+<p xml:id="para_6_98_545">
          Voilà comment le grand magasin arrive à acquérir juste au prix de revient, parfois même au-dessous.
         </p>
-       </div>
-       <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_19">
          § 19. LE MEUBLE DE TROLE.
         </head>
-        <p xml:id="para_6_98_548">
+<p xml:id="para_6_98_548">
          Tout meuble fabriqué d'avance, sans savoir à qui on le vendra, est dit meuble de trôle.
         </p>
-        <p xml:id="para_6_98_549">
+<p xml:id="para_6_98_549">
          Les deux traits signalés pour le meuble courant
          <ref target="#part_03_01_18" type="renvoi_int_mono">
           (§ 18)
          </ref>
          , l'importance du marchand, et la spécialisation du fabricant, se retrouvent avec une intensité au moins égale. Mais le marchand a recours à des procé¬dés différents : par des manœuvres habiles, en acculant son adversaire à la misère, il arrive à acquérir le meuble au prix qu'il lui plait de fixer. En effet l'alternative de l'ouvrier est la suivante : céder à n'im¬porte quel prix, ou manquer de l'argent nécessaire pour recommen¬cer le meuble du lendemain.
         </p>
-        <p xml:id="para_6_98_550">
+<p xml:id="para_6_98_550">
          La trôle, au sens général, est la recherche de l'acheteur qui con¬sentira à accepter le meuble fabriqué d'avance.
         </p>
-        <p xml:id="para_6_98_551">
+<p xml:id="para_6_98_551">
          Elle prend deux formes. C'est, d'un côté, lo/ffre, ou la promenade de porte en porte, de magasin en magasin, avec l'armoire à glace, le buffet en bois blanc, la bibliothèque en bois noirci, etc., ou encore l'avis donné au marchand par l'entremise du porteur, le plus souvent auvergnat. C'est, d'autre part, la trdle proprement dite, la foire du sa¬medi, sur l'avenue Ledru-Rollin, que tous les flâneurs du faubourg connaissent. Ici les meubles exposés sur les petites charrettes ou les tapissières des charabaniers attendent le client.
         </p>
-        <p xml:id="para_6_98_552">
+<p xml:id="para_6_98_552">
          Prenons pour exemple de trôleur un ouvrier piémontais de trente¬neuf ans. ll est marié et père de quatre enfants. Sa spécialité est le bufet sculpté.
         </p>
-        <p xml:id="para_6_98_553">
+<p xml:id="para_6_98_553">
          a) Monographie d'atelier. — L'ouvrier travaille seul. Voici le compte des bénéfices d'un bufet Henri Il.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_3">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_3">
           Monographie d'atelier : recettes et dépenses (1) (notes annexes)
          </head>
-         <graphic facs="#facs_109" url="#"/>
-        </figure>
-        <!--</p>
+<graphic facs="#facs_109" url="#"/>
+</figure>
+<!--</p>
          <p xml:id="para_6_98_554">
          butflet llenri ll, hauteur 2
          </p>
          <p xml:id="para_6_98_555">
          largeur
          </p>-->
-        <figure type="table">
-         <!-- figure sur 2 pages -->
-         <head type="table" xml:id="figure_4">
+<figure type="table">
+<!-- figure sur 2 pages -->
+<head type="table" xml:id="figure_4">
           Monographie d'atelier : recettes et dépenses (2) (notes annexes)
          </head>
-         <graphic facs="#facs_110" url="#"/>
-        </figure>
-        <!--<p xml:id="para_6_99_556">
+<graphic facs="#facs_110" url="#"/>
+</figure>
+<!--<p xml:id="para_6_99_556">
          DÉPENSES.
          </p>
          <p xml:id="para_6_99_557">
@@ -2117,28 +2116,28 @@
          <p xml:id="para_6_99_567">
          Total comme ci-dessus........... 170 00
          </p>-->
-        <p xml:id="para_6_99_568">
-         <pb facs="#facs_110" n="99" source="s2lesouvriersdes04sociuoft_0121.xml"/> En multipliant par 26, nombre annuel des buffets fabriqués, on a, pour l'année :
+<p xml:id="para_6_99_568">
+<pb facs="#facs_110" n="99" source="s2lesouvriersdes04sociuoft_0121.xml"/> En multipliant par 26, nombre annuel des buffets fabriqués, on a, pour l'année :
         </p>
-        <p xml:id="para_6_99_569">
+<p xml:id="para_6_99_569">
          Matiéres premiéres et transports : 129ᶠ 50 X 26............ 3.367ᶠ 00
         </p>
-        <p xml:id="para_6_99_570">
+<p xml:id="para_6_99_570">
          Salaires : 40ᶠ 50 X 26............ 1.053 00
         </p>
-        <p xml:id="para_6_99_571">
+<p xml:id="para_6_99_571">
          Les recettes sont complétées par des bénéfices exceptionnels pro¬venant de ventes particulierement avantageuses, soit 18 000.
         </p>
-        <p>
+<p>
          b) Monographie de famille.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_5">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_5">
           Monographie de famille : recettes et dépenses (notes annexes)
          </head>
-         <graphic facs="#facs_110" url="#"/>
-        </figure>
-        <!--<p xml:id="para_6_99_572">
+<graphic facs="#facs_110" url="#"/>
+</figure>
+<!--<p xml:id="para_6_99_572">
          RECETTES.
          </p>
          <p xml:id="para_6_99_573">
@@ -2192,29 +2191,29 @@
          <p xml:id="para_6_99_589">
          Total des dépenses....... .... 1.753 00
          </p>-->
-        <p xml:id="para_6_99_590">
+<p xml:id="para_6_99_590">
          C'est donc un déficit de 220 francs, savoir : 120 dus aux deux proprié¬taires, 25 au boulanger, 25 aux autres fournisseurs, et 50 au Mont¬de-Pieté.
         </p>
-        <p xml:id="para_6_100_592">
-         <pb facs="#facs_111" n="100" source="s2lesouvriersdes04sociuoft_0122.xml"/> Ici le sweating system varie de forme. Les agents des Grands Ma¬gasins, les commissionnaires du faubourg, les petits marchands, ont leurs s porteurs, auvergnats pour la plupart, qui sont à l'affT̂t des trôleurs endettés. Il est aisé de se ligurer les maneuvres, les abus de confiance même, du porteur ; et la dépréciation de l'id́e de va¬leur, qui se produit dans le cerveau du fabricant.
+<p xml:id="para_6_100_592">
+<pb facs="#facs_111" n="100" source="s2lesouvriersdes04sociuoft_0122.xml"/> Ici le sweating system varie de forme. Les agents des Grands Ma¬gasins, les commissionnaires du faubourg, les petits marchands, ont leurs s porteurs, auvergnats pour la plupart, qui sont à l'affT̂t des trôleurs endettés. Il est aisé de se ligurer les maneuvres, les abus de confiance même, du porteur ; et la dépréciation de l'id́e de va¬leur, qui se produit dans le cerveau du fabricant.
         </p>
-        <p xml:id="para_6_100_593">
+<p xml:id="para_6_100_593">
          A la foire du samedi, les marchands s'unissent en syndicat, se distribuent les meubles, et achètent à la tombée de la nuit.
         </p>
-        <p xml:id="para_6_100_594">
+<p xml:id="para_6_100_594">
          Un nouveau procédé très efficace est le prét sur meubles, pratiqué en grand par les Magasins Généraux de la place de la République, et par quelques entreprises privées, notamment les Docks de l'Ameublement (rue Crozatier et rue de Citeaux).
         </p>
-        <p xml:id="para_6_100_595">
+<p xml:id="para_6_100_595">
          Partout les meubles sont achetés au-dessous du prix de revient, et continuellement les mêmes hommes rapportent des meubles iden¬tiques, au même prix, parce qu'ils n'ont payé ni le marchand de vernis, ni le propriétaire, ni le boulanger, ni le boucher, parce que l'Assis¬tance publique et la charité privée viennent leur permettre, par d'iné¬puisables aumônes, d'abaisser encore des marchés désavantageux. C'est ainsi que des meubles sont vendus à l'Hotel des Ventes, par suite de la complaisance de certains commissaires-priseurs, aux Magasins Généraux, chez Crespin, Simon, au Bûcheron, etc., etc.
         </p>
-        <p xml:id="para_6_100_596">
+<p xml:id="para_6_100_596">
          Nulle part, plus que dans la zone de la trôle, n'apparaissent les effets des trois crises qui se superposent aujourd'hui dans l'industrie de l'ameublement : la crise commerciale, c'est-à-dire la suppression des débouchés ; la crise industrielle, c'est-à-dire le renversement des rapports entre le magasin et l'atelier ; et la crise sociale, c'est-à-dire l'égoisme de tous manifesté dans la « lutte pour la vie ».
         </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </body>
- </text>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</text>
 </TEI>

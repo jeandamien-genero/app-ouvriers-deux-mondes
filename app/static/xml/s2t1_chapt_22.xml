@@ -1,796 +1,795 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie-->
-<TEI xml:id="ID-055a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>
+<!--monographie--><TEI xml:id="ID-055a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>
      Les Ouvriers des Deux Mondes - série 2, volume 1 - Transcription
     </title>
-    <respStmt>
-     <persName>
-      <forename>
+<respStmt>
+<persName>
+<forename>
        Alix
       </forename>
-      <surname>
+<surname>
        Chagué
       </surname>
-      <affiliation>
+<affiliation>
        ingénieure de recherche et de développement,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       acquisition et structuration initiale des textes
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Jean-Damien
       </forename>
-      <surname>
+<surname>
        Généro
       </surname>
-      <affiliation from="2020-03" to="2020-09">
+<affiliation from="2020-03" to="2020-09">
        stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">
+</affiliation>
+<affiliation from="2020-09" to="2020-11">
        ingénieur d'études,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-      <affiliation from="2020-12">
+</affiliation>
+<affiliation from="2020-12">
        ingénieur d'études,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       encodage scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Stéphane
       </forename>
-      <surname>
+<surname>
        Baciocchi
       </surname>
-      <affiliation>
+<affiliation>
        ingénieur de recherche de l’EHESS,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Anne
       </forename>
-      <surname>
+<surname>
        Lhuissier
       </surname>
-      <affiliation>
+<affiliation>
        directrice de recherche de l'INRAE,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Éric
       </forename>
-      <surname>
+<surname>
        Villemonte de la Clergerie
       </surname>
-      <affiliation>
+<affiliation>
        chargé de recherches,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       supervision technique
      </resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>
      projet ANR Time Us
     </publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>
+<date from="2019" to="2021"/>
+<pubPlace>
      Paris, France
     </pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>
+</publicationStmt>
+<sourceDesc>
+<p>
      Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>
      L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_482">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$531/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_483">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$532/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_484">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$533/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_485">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$534/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_486">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$535/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_487">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$536/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_488">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$537/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_489">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$538/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_490">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$539/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_491">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$540/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_492">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$541/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_493">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$542/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_494">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$543/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_495">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$544/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_496">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$545/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_497">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$546/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_498">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$547/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_499">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$548/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_500">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$549/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_501">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$550/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_502">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$551/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_503">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$552/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_504">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$553/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_505">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$554/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_506">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$555/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_507">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$556/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_508">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$557/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_509">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$558/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_510">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$559/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_511">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$560/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_512">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$561/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_513">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$562/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_514">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$563/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_515">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$564/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_516">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$565/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_517">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$566/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_518">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$567/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_519">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$568/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_520">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$569/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_521">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$570/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_522">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$571/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_523">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$572/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_524">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$573/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_525">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$574/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_526">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$575/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_527">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$576/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_528">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$577/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_529">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$578/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_530">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$579/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_531">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$580/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_532">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$581/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_533">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$582/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_534">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$583/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_535">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$584/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_536">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$585/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_537">
-  <surface lrx="2189" lry="3505"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$586/full/full/0/default.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_22_465_1">
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_482">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$531/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_483">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$532/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_484">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$533/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_485">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$534/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_486">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$535/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_487">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$536/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_488">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$537/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_489">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$538/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_490">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$539/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_491">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$540/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_492">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$541/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_493">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$542/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_494">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$543/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_495">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$544/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_496">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$545/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_497">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$546/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_498">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$547/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_499">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$548/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_500">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$549/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_501">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$550/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_502">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$551/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_503">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$552/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_504">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$553/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_505">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$554/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_506">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$555/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_507">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$556/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_508">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$557/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_509">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$558/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_510">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$559/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_511">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$560/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_512">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$561/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_513">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$562/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_514">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$563/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_515">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$564/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_516">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$565/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_517">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$566/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_518">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$567/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_519">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$568/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_520">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$569/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_521">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$570/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_522">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$571/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_523">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$572/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_524">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$573/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_525">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$574/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_526">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$575/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_527">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$576/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_528">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$577/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_529">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$578/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_530">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$579/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_531">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$580/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_532">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$581/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_533">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$582/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_534">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$583/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_535">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$584/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_536">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$585/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_537">
+<surface lrx="2189" lry="3505"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft$586/full/full/0/default.jpg"/>
+</facsimile>
+<text>
+<body>
+<div type="chapter">
+<div n="001" type="section">
+<p xml:id="para_22_465_1">
       N° 55.
      </p>
-     <p xml:id="para_22_465_2">
+<p xml:id="para_22_465_2">
       GANTIER
      </p>
-     <p xml:id="para_22_465_3">
+<p xml:id="para_22_465_3">
       DE GRENOBLE (ISÈRE).
      </p>
-     <p xml:id="para_22_465_4">
+<p xml:id="para_22_465_4">
       OUVRIER-TACHERON,
      </p>
-     <p xml:id="para_22_465_5">
+<p xml:id="para_22_465_5">
       DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS,
      </p>
-     <p>
+<p>
       d'après
      </p>
-     <p xml:id="para_22_465_6">
+<p xml:id="para_22_465_6">
       LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN AOUT 1865 PUIS EN 1886 ET 1887,
      </p>
-     <p>
+<p>
       PAR
      </p>
-     <p xml:id="para_22_465_7">
+<p xml:id="para_22_465_7">
       M. <persName>ERNEST DE TOYTOT</persName>,
      </p>
-     <p xml:id="para_22_465_8">
+<p xml:id="para_22_465_8">
       Avocat à Nevers.
      </p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">
       OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
      </head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">
        Définition du lieu, de l'organisation industrielle et de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">
         § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
-       <p xml:id="para_22_465_14">
-        <pb facs="#facs_482" n="465" source="s2lesouvriersdes01sociuoft_0531.xml"/> La famille qui fait l'objet de cette monographie habite la petite commune de Biviers, à 9 kilomètres de Grenoble et à 500 mètres au-dessus du niveau de la mer, dans la magnifique vallee du Grésivau¬dan. Elle est placée sur le versant sud-est du groupe de montagnes connues sous le nom de massif de la Grande-Chartreuse. La commune renferme 587 habitants, dont les maisons, réunies en village autour du clocher de l'église, forment deux rues principales. D'autres maisons isolées et quelques châteaux plus ou moins écartés, sont répandus aux environs, et entourés de vignes, de jardins et de terres extrêmement fertiles. Le sol de ces campagnes, comme celui de la vallée du Grési¬vaudan qu'elles dominent, est fort riche ; il comporte les cultures les plus variées, et nulle part peut-être la végétation ne s'y montre plus vigoureuse et plus brillante. Comme en Lombardie, la même terre <pb facs="#facs_483" n="466" source="s2lesouvriersdes01sociuoft_0532.xml"/> nourrit à la fois des céréales ou des fourrages, des mûriers pour l'é¬levage des vers à soie, une des branches importantes de l'agriculture locale, et enfin de la vigne, disposée en treillages le long des mû¬riers. La vallée produit en outre des chanvres qui atteignent une prodigieuse hauteur. Cette fécondité, jointe aux richesses industrielles et aux ressources pésuniaires du pays, donne à la propriété une très grande valeur et invite à morceler la terre de plus en plus. L'aspect général des maisons, dont beaucoup sont entourées de cours et de jardins, indique l'aisance. L'eau qui descend de la montagne alimente de nombreuses fontaines, des lavoirs et des bassins, qui placés à la portée de chaque famille, pour ne pas dire dans chaque maison, prêtent un puissant secours à la cuiture des plantes, aux besoins de la vie, non moins qu'à l'hygiène et à la prospérité générales.
+<p xml:id="para_22_465_14">
+<pb facs="#facs_482" n="465" source="s2lesouvriersdes01sociuoft_0531.xml"/> La famille qui fait l'objet de cette monographie habite la petite commune de Biviers, à 9 kilomètres de Grenoble et à 500 mètres au-dessus du niveau de la mer, dans la magnifique vallee du Grésivau¬dan. Elle est placée sur le versant sud-est du groupe de montagnes connues sous le nom de massif de la Grande-Chartreuse. La commune renferme 587 habitants, dont les maisons, réunies en village autour du clocher de l'église, forment deux rues principales. D'autres maisons isolées et quelques châteaux plus ou moins écartés, sont répandus aux environs, et entourés de vignes, de jardins et de terres extrêmement fertiles. Le sol de ces campagnes, comme celui de la vallée du Grési¬vaudan qu'elles dominent, est fort riche ; il comporte les cultures les plus variées, et nulle part peut-être la végétation ne s'y montre plus vigoureuse et plus brillante. Comme en Lombardie, la même terre <pb facs="#facs_483" n="466" source="s2lesouvriersdes01sociuoft_0532.xml"/> nourrit à la fois des céréales ou des fourrages, des mûriers pour l'é¬levage des vers à soie, une des branches importantes de l'agriculture locale, et enfin de la vigne, disposée en treillages le long des mû¬riers. La vallée produit en outre des chanvres qui atteignent une prodigieuse hauteur. Cette fécondité, jointe aux richesses industrielles et aux ressources pésuniaires du pays, donne à la propriété une très grande valeur et invite à morceler la terre de plus en plus. L'aspect général des maisons, dont beaucoup sont entourées de cours et de jardins, indique l'aisance. L'eau qui descend de la montagne alimente de nombreuses fontaines, des lavoirs et des bassins, qui placés à la portée de chaque famille, pour ne pas dire dans chaque maison, prêtent un puissant secours à la cuiture des plantes, aux besoins de la vie, non moins qu'à l'hygiène et à la prospérité générales.
        </p>
-       <p xml:id="para_22_466_16">
+<p xml:id="para_22_466_16">
         L'air de Biviers est pur et salubre ; cependant, à causede l'exposition et de la situation géographique, la température y est plus froide en hiver, plus chaude en été que dans les pays du centre de la France. Au demeurant, la population est forte et vigoureuse ; on n'y remarque pas de maladies spéciales, mais plutôt un nombre relativement consi¬dérable de vieillards d'un âge très avancé. La moyenne d'âge y a at¬teint, de 1851 à 1864, le chiffre extraordinaire de cinquante-deux ans. Malheureusement le nombre des naissances y diminue sensiblement ; dans la même période, la population y a décru de cent cinquante per¬sonnes environ, soit par suite de l'émigration dans les villes, soit aussi à cause de la diminution du nombre des enfants dans chaque famille.
        </p>
-       <p xml:id="para_22_466_17">
+<p xml:id="para_22_466_17">
         La plupart des habitants de cette commune sont des propriétaires et des cultivateurs travaillant eux-mêmes à leurs champs ou déte¬nant à titre de fermiers les terres d'autrui. Cependant une industrie urbaine, dont le centre est à Grenoble, et qui prend chaque jour de plus vastes proportions, a depuis longtemps envahi les populations agri¬coles du département de l'Isère. C'est l'industrie de la ganterie, à la¬quelle se rattachent naturellement les diverses industries de la tan¬nerie, peausserie, mégisserie, teinture des peaux, etc. A Grenoble, en effet, se fabriquent la plus grande partie des gants dont le com¬merce alimente la France, l'Angleterre et l'Amérique. Favorable au travail domestique et à la division du travail, facile à exercer, n'exigeant ni la vie d'atelier, ni un matériel considérable, elle enlêve beaucoup de bras à l'agriculture, par la séduction d'un salaire élevé et d'un labeur peu fatigant. La facilité des communications avec Grenoble contribue encore à développer, dans certaines localités re<pb facs="#facs_484" n="467" source="s2lesouvriersdes01sociuoft_0533.xml"/>lativement éloignées du centre de fabrication, cette industrie à la fois uraine et rurale, car beaucoup d'ouvriers et surtout d'ouvrières en gants habitent la campagne et en conservent dans une certaine mesure les traditions, sans toutefois prêter le moindre concours aux travaux agricoles qu'ils ont abandonnés. Biviers et la plupart des villages de la vallée du Grésivaudan qui avoisinent Grenoble offrent ce mélange d'une population en partie adonnée aux travaux des champs, en partie détournée vers les travaux de la ganterie. La famille de l'ouvrier qui fait l'objet de cette monographie résume en elle, ainsi que beaucoup d'autres, le type complexe d'une famille née et résidant à la campagne, mais appartenant à la ille par sa pro¬fession, ses habitudes et ses goûts.
        </p>
-       <p xml:id="para_22_467_19">
+<p xml:id="para_22_467_19">
         Le pays vingt et un ans après (1886). — Malgré bien des changements survenus dans la constitution politique, dans l'état des esprits, dans l'industrie, l'agriculture, les mœurs, la vie intime aussi bien que l'apparence extérieure de la population de Biviers n'a pas sensiblement varié. Le chiffre des habitants est toujours le même ; le nombre des vieillards d'une longévité exceptionnelle se maintient également, et la moyenne du nombre des naissances est toujours restreinte. La population est restée forte et vigoureuse ; la plupart des hommes sont grands ; ils continuent, plus que dans les communes voisines, à cultiver la terre ; ils attachent un grand pri à la propriété des champs et de la vigne ; de plus, les femmes et les jeunes filles, moins occupées qu'autrefois aux travaux de la ganterie, prennent part elles¬mêmes à certaines besognes agricoles. L'industrie, pour les raisons que nous énumérons plus loin
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (§ 19)
         </ref>
         , émigre de plus en plus vers la ville, et ne doit plus être comptée dans la commune de Biviers comme une ressource. D'autre part, la maladie des vers à soie a fait presque complètement abandonner la culture des mûriers et les soins qu'elle comportait.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Théodore G*** (n°055aE1) - Virginie M*** (n°055aE2) - Rosalie G*** (n°055aE3) - Rosine G*** (n°055aE4) - Théodore G*** (n°055aE5) - Albert G*** (n°055aE6) - Marius G*** (n°055aE7)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Théodore G*** (n°055aE1) - Virginie M*** (n°055aE2) - Rosalie G*** (n°055aE3) - Rosine G*** (n°055aE4) - Théodore G*** (n°055aE5) - Albert G*** (n°055aE6) - Marius G*** (n°055aE7)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">
         § 2. ÉTAT CIVIL DE LA FAMILLE.
        </head>
-       <p xml:id="para_22_467_22">
+<p xml:id="para_22_467_22">
         La famille comprend, en 1865, les deux époux et un enfant, savoir :
        </p>
-       <p xml:id="para_22_467_23">
-        1. <persName>THÉODORE G***</persName>, chef de famille, marié depuis deux ans environ, né à Biviers............ 30 ans.
+<p xml:id="para_22_467_23">
+        1. <persName xml:id="ID-055aE1">THÉODORE G***</persName>, chef de famille, marié depuis deux ans environ, né à Biviers............ 30 ans.
        </p>
-       <p xml:id="para_22_467_24">
-        2. <persName>VIRGINIE G***</persName>, sa femme, née à Biviers............ 21 —
+<p xml:id="para_22_467_24">
+        2. <persName xml:id="ID-055aE2">VIRGINIE G***</persName>, sa femme, née à Biviers............ 21 —
        </p>
-       <p xml:id="para_22_467_25">
-        3. <persName>ROSALIE G***</persName>, leur fille, née à Biviers............ 8 mois
+<p xml:id="para_22_467_25">
+        3. <persName xml:id="ID-055aE3">ROSALIE G***</persName>, leur fille, née à Biviers............ 8 mois
        </p>
-       <p xml:id="para_22_468_26">
-        <pb facs="#facs_485" n="468" source="s2lesouvriersdes01sociuoft_0534.xml"/> L'ouvrier a perdu récemment son père, qui demeurait à Biviers. Il lui reste sa mère, qui continue d'habiter la petite propriété de famille ; deux frères, qui tous deux sont cultivateurs dans le pays, et une soeur mariée à un gantier de Grenoble. La femme possède encore son père et sa mère ; ils habitent la même commune et font valoir de leur travail quelques terres dont ils sont propriétaires. Elle a, en outre, une sœur aînée mariée à un boulanger de Grenoble.
+<p xml:id="para_22_468_26">
+<pb facs="#facs_485" n="468" source="s2lesouvriersdes01sociuoft_0534.xml"/> L'ouvrier a perdu récemment son père, qui demeurait à Biviers. Il lui reste sa mère, qui continue d'habiter la petite propriété de famille ; deux frères, qui tous deux sont cultivateurs dans le pays, et une soeur mariée à un gantier de Grenoble. La femme possède encore son père et sa mère ; ils habitent la même commune et font valoir de leur travail quelques terres dont ils sont propriétaires. Elle a, en outre, une sœur aînée mariée à un boulanger de Grenoble.
        </p>
-       <p xml:id="para_22_468_27">
+<p xml:id="para_22_468_27">
         L'etat civil de la même famille en 1886. — Vingt et un ans plus tard, cette famille a éprouvé les changements suivants :
        </p>
-       <p xml:id="para_22_468_28">
+<p xml:id="para_22_468_28">
         THÉODORE G***, chef de famille, est déecédé en 1876.
        </p>
-       <p xml:id="para_22_468_29">
+<p xml:id="para_22_468_29">
         VIRGINI M***, sa veuve, gantière, quelquefois femme de journée, réside encore à Bi¬viers.
        </p>
-       <p xml:id="para_22_468_30">
+<p xml:id="para_22_468_30">
         ROSALIE G***, leur fille, est domestique à Marseille.
        </p>
-       <p xml:id="para_22_468_31">
+<p xml:id="para_22_468_31">
         Depuis 1865, sont nés dans le ménage :
        </p>
-       <p xml:id="para_22_468_32">
-        <persName>ROSINE G***</persName>, deuxiéme fille, domesique à Voiron, âgée en 1886 de............ 19 ans.
+<p xml:id="para_22_468_32">
+<persName xml:id="ID-055aE4">ROSINE G***</persName>, deuxiéme fille, domesique à Voiron, âgée en 1886 de............ 19 ans.
        </p>
-       <p xml:id="para_22_468_33">
-        <persName>THÉODORE G***</persName>, leur premier fils, fréquentant l'école à Biviers............ 16 —
+<p xml:id="para_22_468_33">
+<persName xml:id="ID-055aE5">THÉODORE G***</persName>, leur premier fils, fréquentant l'école à Biviers............ 16 —
        </p>
-       <p xml:id="para_22_468_34">
-        <persName>ALBERT G***</persName>, deuxiéme fils, né en 1873, décédé en 1875.
+<p xml:id="para_22_468_34">
+<persName xml:id="ID-055aE6">ALBERT G***</persName>, deuxiéme fils, né en 1873, décédé en 1875.
        </p>
-       <p xml:id="para_22_468_35">
-        <persName>MARIUS G***</persName>, troisième fils, fréquentant l'école à Biviers............ 10 —
+<p xml:id="para_22_468_35">
+<persName xml:id="ID-055aE7">MARIUS G***</persName>, troisième fils, fréquentant l'école à Biviers............ 10 —
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">
         § 3. RELIGION ET HABITUDES MORALES.
        </head>
-       <p xml:id="para_22_468_38">
+<p xml:id="para_22_468_38">
         Les époux G*** appartiennent à la religion catholique et tous deux, quoique dans une mesure différente, en observent les prescriptions. La commune de Biviers, dans laquelle ils ont été élevés et instruits. l'un par l'instituteur, l'autre par les sœurs de la Providence, peut, à la vérité, être citée comme exceptionnelle pour la moralité et les habitudes religieuses de ses habitants. Seule entre toutes les paroisses des environs, Biviers conserva sous la Terreur un prêtre réfractaire que la piété de ses paroissiens sut dérober aux recherches de la po¬lice révolutionnaire, et grâce auquel demeurèrent intactes les prati¬ques de foi et de dévotion que la persécution avait fait disparaitre ail¬
        </p>
-       <p xml:id="para_22_468_39">
+<p xml:id="para_22_468_39">
         Malgré le milieu dans lequel il a été élevé, G*** n'apporte qu'un èle médiocre à l'observation des pratiques religieuses en hon¬neur dans son village. ll va à la messe le dimanche et s'acquitte du devoir pascal, mais là se bornent à peu près tous ses actes de dévotion auxquels il parait cependant tenir, mais par habitude et <pb facs="#facs_486" n="469" source="s2lesouvriersdes01sociuoft_0535.xml"/> par convenance, plutôt que par une conviction profonde. Il est du nombre de ceux qui fréquentent volontiers les cabarets et les lieux de réunion à l'heure des vêpres et des offices ; il aime à s'amuser et ne le dissimule pas. Ses idées ont quelque peu subi l'influence des ouvriers de la ville qu'il a fréquentés avant son mariage. Il a néan¬moins une bonne nature, un caractère ouvert et loyal ; il porte à ses parents et à ceux de sa femme une véritable affection ; récemment il a montré un soin tout particulier à faire élever un petit monument à son père défunt. Il a en outre le mérite d'être satisfait de sa posi¬sition et de son état ; il aime à parler de son travail et parait n'avoir nul souci de l'avenir. Il semble attaché à sa femme et à son enfant, mais il aime aussi se réunir avec ses amis, à les recevoir ehez lui, soit le jour, soit le soir. Il est généreux, obligeant et ne regarde pas à la dépense ; aussi, bien que gagnant beaucoup, il est peu probable qu'il arrive à faire des économies. Il cause facilement et avec une grande intelligence, commune du reste à tous les habitants du Dauphiné. Cependant son instruction ne dépasse pas celle des enfants élevés dans les écoles communales. Il avoue lui-même qu'il sait mal l'or¬thographe ; qu'il ne connait guère, en fait de calcul, que l'addition, la soustraction, la multiplication, et n'est pas sûr de la division ; qu'il possède seulement en outre quelques notions d'histoire et de géogra¬phie. Il parcourt, plutôt qu'il ne les lit, les deux journaux de la lo¬calité, qu'il trouve à l'auberge du village et chez un voisin, mais entre lesquels il ne fait aucune différence. Le sejour de Grenoble, les relations d'atelier, les cabinets de lecture où il a jadis loué des livres, le théâtre, lui ont aussi jeté dans l'esprit des idées plus ou moins justes et plus ou moins complètes sur les hommes et sur les choses. Il ajoute avoir lu autrefois volontiers des romans et des pièces de théatre ; il cite avec une certaine complaisance ˉLa ˉLame aux camelias cOmme un des types de ses lectures favorites.
        </p>
-       <p xml:id="para_22_469_41">
+<p xml:id="para_22_469_41">
         Virginie M*** a été aussi bien élevée, et elle a mieux que son mari conservé les habitudes de dévotion religieuse qui lui ont été données. Elle fréquente les sacrements, trouve moyen d'assister à la messe dans une chapelle voisine de sa maison, afin d'être libre de garder son enfant pendant la messe de la paroisse. Elle fait observer à son mari les prescriptions relatives au vendredi, et parait en outre remplir eNactement tous les devoirs essentiels de sa profession. Son instruc¬tion, acquise chez les sœurs de Biviers, est peut-être moins super¬icielle que celle de son mari. Elle a commencé, il y a peu de temps, <pb facs="#facs_487" n="470" source="s2lesouvriersdes01sociuoft_0536.xml"/> à tenir les comptes du ménage, et avant la naissance de son enfant, elle employait souvent ses dimanches et ses soirées à lire des livres que lui fournissait la Bibliothèque des bons livres de Biviers.
        </p>
-       <p xml:id="para_22_470_43">
+<p xml:id="para_22_470_43">
         ˉLes habitudes morales ingt et un ans apres. — En 1886 on retrouve à Biviers les mœurs que nous signalions en 1865. Le conseil munici¬pal, ami des traditions, a maintenu jusqu'à nouvel ordre une ex¬eellente école de sœurs. La société de secours mutuels et le bureau de bienfaisance, sous la direction d'hommes riches et charitables, fonctionnent avec une admirable entente. Enfin la compagnie de sapeurs pompiers, outre les services qu'elle rend en cas d'incendie, conserve parmi les habitants les habitudes d'association, de discipline, de dévouement. On remarque que l'esprit militaire est plus développé dans cette commune que dans les autres. Il en est de même de l'esprit et des habitudes religieuses. Néanmoins les excitations révolutionnai res, les attaques de la petite presse, la propagande du mal sous toutes ses formes, tendent à démoraliser la population de Biviers ou tout au moins à diminuer la bonne renommée qu'elle s'était acquise. Les jeunes gens s'affranchissent volontiers des pratiques de leur religion. Les enfants affectent vis-à-vis de leurs père etmère des allures d'indé¬pendance et de rébellion. Enfin, les habitudes de luxe, de depense. voire de dissipation, ont envahi ces campagnards à mesure que l'ai¬sance et la richesse s'y sont maintenues depuis plus longtemps. Au dire des pères de famille les plus dignes de foi, le luxe des vêtements, chez les femmes surtout, dépasse tout ce qu'on peut imaginer. L'ou¬vrière endimanchée qui gagne à peine de quoi vivre ne se distingue nullement de la femme riche occupant une haute position. Cet en¬traînement de la classe inférieure n'est point spécial à Biviers ; mais il est la cause d'une démoralisation incessante et la source de la gène et de la misêre d'un bien grand nombre de familles d'ouvriers. Les dépenses concernant la nourriture se sont élevées dans la même proportion, au grand détriment des familles. Le vin, la viande, le café, les liqueurs sont d'un usage courant à la maison, même chez les plus pauvres ;, sans parler des habitudes de café et de cabaret qui sont trop souvent le triste privilège des hommes. Tels sont les motifs de la décadence et de la ruinc du gantier *°, dont la triste histoire est esquissée plus loin
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
-       </p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
+</p>
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">
         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
-       <p xml:id="para_22_471_46">
-        <pb facs="#facs_488" n="471" source="s2lesouvriersdes01sociuoft_0537.xml"/>Théodore G*** est grand, d'une taille bien prise, d'un embonpoint médiocre, d'un tempérament sanguin ; il a toutes les apparences d'une forte constitution ; il a pris part jusqu'à l'âge de vingt-cinq ans aux travaux de l'agriculture, a servi dans l'artillerie et a fait sous les murs de Sébastopol le service de la tranchée pendant une année, après laquelle son père l'a racheté et rappelé auprès de lui. Il avait contracté en Orient le typhus et le scorbut ; mais son retour en France l'a promptement rétabli. Depuis lors, il n'a jamais éprouvé la moindre souffrance, et la profession de gantier est, de son propre aveu, une des plus douces et des plus commodes qu'on puisse exercer. Son travail d'ailleurs ne l'empêche pas d'aller à Grenoble de temps à autre, de se promener le dimanche et les jours de fête, et même d'aller en été et en automne faire quelques courses dans la montagne ou quelques parties de chasse.
+<p xml:id="para_22_471_46">
+<pb facs="#facs_488" n="471" source="s2lesouvriersdes01sociuoft_0537.xml"/>Théodore G*** est grand, d'une taille bien prise, d'un embonpoint médiocre, d'un tempérament sanguin ; il a toutes les apparences d'une forte constitution ; il a pris part jusqu'à l'âge de vingt-cinq ans aux travaux de l'agriculture, a servi dans l'artillerie et a fait sous les murs de Sébastopol le service de la tranchée pendant une année, après laquelle son père l'a racheté et rappelé auprès de lui. Il avait contracté en Orient le typhus et le scorbut ; mais son retour en France l'a promptement rétabli. Depuis lors, il n'a jamais éprouvé la moindre souffrance, et la profession de gantier est, de son propre aveu, une des plus douces et des plus commodes qu'on puisse exercer. Son travail d'ailleurs ne l'empêche pas d'aller à Grenoble de temps à autre, de se promener le dimanche et les jours de fête, et même d'aller en été et en automne faire quelques courses dans la montagne ou quelques parties de chasse.
        </p>
-       <p xml:id="para_22_471_47">
+<p xml:id="para_22_471_47">
         La femme est également d'une taille élevée, sans pourtant pa¬raître très robuste. Elle a les yeux bleus et le teint pâle ; mais elle assure n'avoir été malade qu'une seule fois, à l'âge de onze ans. Elle nourrit avec grand succès sa petite fille, qui promet elle-même de devenir forte et très jolie. La mère sèvrerait volontiers son enfant si elle pouvait trouver moyennant un bon prix un autre nourrisson à élever chez elle. Elle mènerait ainsi de front, comme elle le fait ac¬tuellement, les travaux du ménage, les soins de l'allaitement et même quelques ouvrages de couture et de ganterie.
        </p>
-       <p xml:id="para_22_471_48">
+<p xml:id="para_22_471_48">
         Les époux G*** n'usent jamais des soins du médecin ni d'aucune médicamentation spéciale: ils vivent bien et boivent du vin à tous leurs repas, ainsi que la plupart des ouvriers du pays. Leur enfant a été vaccinée ; quoique assez forte, elle est blonde et parait avoir un tempérament lymphatique assez prononcé.
        </p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">
         § 5. RANG DE LA FAMILLE.
        </head>
-       <p xml:id="para_22_471_51">
+<p xml:id="para_22_471_51">
         L'ouvrier appartient à une famille aisée d'agriculteurs. Son père a tenu longtemps une ferme importante, a exploité pour son propre <pb facs="#facs_489" n="472" source="s2lesouvriersdes01sociuoft_0538.xml"/> compte une propriété achetée avec le fruit de ses économies, et dont la valeur peut être estimée à 16.000 francs. Les frères de l'ouvrier sont aujourd'hui (1865) encore estimés comme fermiers, et lui-même a longtemps suivi la profession agricole. Egalement apte aux travaux des champs et à la culture de la vigne, il passait à juste titre pour un des ouvriers les plus intelligents et les plus certains de réussir. A vingt-cinq ans cependant, il n'a pu résister au désir d'apprendre la profession de gantier, pour laquelle il avait senti de tout temps un certain attrait, tant à cause de la facilité du travail et des rela¬tions avec la ville, qu'à cause de l'élévation des salaires. Aujourd'hui (1865) qu'il a triomphé des dificultés de l'apprentissage, il peut être assuré d'un travail à peu près régulier et son salaire peut être classé un peu au-dessus de la moyenne. Il y trouve en outre cet avantage que, fixé à la campagne près de sa famille et de celle de sa femme, à proximité de Grenoble, il jouit d'une aisance plus grande que ses confrères de la ville, à cause du bas prix des loyers, de la facilité de la vie, de la modicité des dépenses loin des séductions qu'offrent les centres populeux. Enfin par ses parents, par sa posi¬tion et son caractêre il est à la fois plus connu, plus estimé, plus considéré dans son village que partout ailleurs.
        </p>
-       <p xml:id="para_22_472_53">
+<p xml:id="para_22_472_53">
         Le temps a cependant démenti ces prévisions (1886) et l'on verra plus loin sous quelles influences
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
         .
        </p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">
        Moyens d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_22_472_57">
+<div subtype="proprietes_texte_1" type="proprietes">
+<p xml:id="para_22_472_57">
          (Mobilier et vêtements non compris.)
         </p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_22_472_58">
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_22_472_58">
          IMMEUBLES : terres provenant de la succession paternelle de l'ou¬vrier, indivises entre sa mère (une moitié), ses deux frères et sa sœur (l'autre moitié); on peut estimer la part de l'ouvrier à............ 2.000ᶠ00
         </p>
-       </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_22_472_59">
+</div>
+<div subtype="argent" type="proprietes">
+<p xml:id="para_22_472_59">
          ARGENT............ 600 ᶠ00
         </p>
-        <p xml:id="para_22_472_60">
+<p xml:id="para_22_472_60">
          Dot de la femme, conservée par les parents, et dont ils payent les intérêts à 50/0, 500ᶠ00; — Somme conservée dans le ménage comme fonds de roulement, 100ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_22_473_61">
-         <pb facs="#facs_490" n="473" source="s2lesouvriersdes01sociuoft_0539.xml"/> ANIMAUX DOMESTIQUES entretenus toute l'année............ 10 ᶠ00
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_22_473_61">
+<pb facs="#facs_490" n="473" source="s2lesouvriersdes01sociuoft_0539.xml"/> ANIMAUX DOMESTIQUES entretenus toute l'année............ 10 ᶠ00
         </p>
-        <p xml:id="para_22_473_62">
+<p xml:id="para_22_473_62">
          6 lapins renouvelés à mesure, 10ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_22_473_63">
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_22_473_63">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 214ᶠ00
         </p>
-        <p xml:id="para_22_473_64">
+<p xml:id="para_22_473_64">
          1° Outils de gantier coupeur. — 1 table de gantier, 45ᶠ00; — 1 paire de grands ciseaux, 30ᶠ00 ; — 1 couteauu à doler, 6ᶠ00 ; — 1 coutcau à piquer, 2ᶠ 00; — 1 plaque de marbre, 6ᶠ00 ; — 1 règle, 0ᶠ60; — 1 planche à gants, 0ᶠ50; — 1 nappe à humecter la peau, 3ᶠ00; — 1 tabouret, 5ᶠ00 ; — 1 boite à farine pour les gants, 0ᶠ50 ; — 1 ridelle à marquer, 5ᶠ00; — 1 pierre à aiguiser, 3ᶠ00; — 1 pot à mettre les débris de peaux de gants, 0ᶠ25; — encrier et plume pour marquer les numéros des gants, 0ᶠ15 ; — 1 mécaunique a coudre les gants, pour la femme, 6ᶠ00. — Total, 108ᶠ00.
         </p>
-        <p xml:id="para_22_473_66">
+<p xml:id="para_22_473_66">
          2° Outils servant à la chasse, à l'entretien et à la réparation de la maison et du jardin. — 1 fusil, 40ᶠ00 ; —1 marteau, 1ᶠ00 ; — 1 scie, 3ᶠ00; — 1 hache, 3ᶠ00; — 1 pioche, 2ᶠ00; — 1 pelle carrée,2ᶠ00; — 1 bêche, 5ᶠ00 ; — 1 meule, 1ᶠ00 ; — 1 trident, 2ᶠ00; — 1 râteau, 2ᶠ00.  — Total, 61ᶠ00.
         </p>
-        <p xml:id="para_22_473_69">
+<p xml:id="para_22_473_69">
          3° Ustensiles servant à la confection du pain de ménage. — 1 pétrin, 20ᶠ00 ; — 1 ra¬cloir, 1ᶠ00; — 1 planchette, 1ᶠ00; — 1 corbeille, 1ᶠ00. — Total, 23ᶠ00.
         </p>
-        <p xml:id="para_22_473_70">
+<p xml:id="para_22_473_70">
          4° Ustensiles serant au blanchissage du linge. — 1 battoir, 1ᶠ00; — 1 planche à laver, 2ᶠ00 ; — 1 baquet, 2ᶠ00 ; — 1 couverture a repasser, 3ᶠ00; — 4 fers, 6ᶠ00 ; — petits fers, 1ᶠ 00. — Total, 15ᶠ00.
         </p>
-        <p xml:id="para_22_473_72">
+<p xml:id="para_22_473_72">
          5° Ustensiles pour la confection et l'etretien du linge et des vêtements. — 2 paires de ciseaux, 5ᶠ00 ; — dés à coudre, 0ᶠ30 ; — aiguilles, 1ᶠ00; — aiguilles à tricoter, 0ᶠ70. — Total, 7ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_22_473_73">
+</div>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_22_473_73">
          VALEUR TOTALE des propriétés............ 2.824 ᶠ00
         </p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">
         § 7. SUBVENTIONS.
        </head>
-       <p xml:id="para_22_473_76">
+<p xml:id="para_22_473_76">
         L'ouvrier ne reçoit aucune subvention de son patron ; cependant il est d'usage parmi les fabricants de gants de Grenoble de donner quelquefois au jour de l'an, à ceux de leurs ouvriers auxquels ils tien¬nent particulièrement, une rémunération d'encouragement qui peut s'élever de 25 à 50 francs. G*** n'est pas encore assez ancien dans la maison où il travaille, pour avoir obtenu cette faveur, qui suppose d'ailleurs pénurie d'ouvriers ; ce qui n'a pas eu lieu depuis quelques années.
        </p>
-       <p xml:id="para_22_473_77">
+<p xml:id="para_22_473_77">
         Les époux recoivent de leurs familles, qui toutes deux habitent le même village, une foule de petites subventions, qui, pour ne pas être fixes, ne laissent pas que de les aider beaucoup, ce sont des pommes de terre, des légumes, du vin, du raisin, des fruits, du laitage. Il mangent aussi de temps à autre chez leurs parents, soit à Biviers, soit à Grenoble, où ils ont l'un et l'autre une sœur mariée ; mais ces repas ne sauraient figurer au budget, en raison des dépenses qu'ils occasionnent à l'ouvrier pour les services et les politesses quiil rend <pb facs="#facs_491" n="474" source="s2lesouvriersdes01sociuoft_0540.xml"/> à son tour. Enfin on doit mentionner ici les cadeaux et les vêtements qui sont fournis à la petite fille par sa marraine et sa tante de Gre¬noble, qui se trouve sans enfants et lui donne à peu près tout ce dont elle a besoin
         <ref target="#part_02_05_16" type="renvoi_int_mono">
          (§ 16, F et G)
         </ref>
         .
        </p>
-       <p xml:id="para_22_474_79">
+<p xml:id="para_22_474_79">
         La commune de Biviers possêde dans la montagne quelques bois communaux, où les habitants ont le droit d'aller couper une certaine quantité de combustible ; mais la difficulté de l'exploitation empêche la plupart des habitants d'user de cette subvention. G*** n'en a jamais profité.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
-        <p xml:id="para_22_474_82">
+<div subtype="ouvrier" type="travaux">
+<p xml:id="para_22_474_82">
          Travail de l'ouvrier. — L'ouvrier travaille à la tâche comme tail¬leur coupeur de gants. Cette profession, qui est celle des gantiers pro¬prement dits, est assurément aussi la plus importante et la plus déli¬cate. Elle consiste à donner à la peau sa dernière préparation en vue de la qualité et du nombre des gants qu'on doit en tirer suivant la commande du patron, qui livre à l'ouvrier une certaine quantité de peaux représentant un nombre déterminé de paires de gants. L'ou¬vrier gantier tire la peau dans le sens le plus favorable et enlêve les parties rugueuses ou trop épaisses. Il cherche à en dissimuler les défauts ou plutôt à les faire coincider avec l'ouverture des doigts. Enfin il taille à l'aide de ciseaux sur des formes en carton la main ébauchée du gant. C'est de ce travail préparatoire, de cette forme ru dimentaire et qui semble à peine indiquée, que dépend le mérite véri table et réel du gant. La ain de fer qui viendra ensuite tailler mé¬caniquement l'œuvre ébauchée par le gantier, ne saurait faire disparaitre les défauts de la peau, ni changer le mauvais sens qui lui aurait été donnée primitivement. La tâche du gantier coupeur consiste donc à savoir tirer un parti avantageux des peaux qui lui sont confiées, de manière non seulement à ce que le gant en fasse ressortir les perfections et disparaître les défauts, mais de manière aussi à ce qu'aucune parcelle de la matière première ne soit perdue pour la fabrication. Les patrons fixent eux-mêmes à chaque ouvrier la quantité de gants qu'ils doivent rapporter pour le nombre de peaux données. Si l'ouvrier est habile, il pourra presque toujours en ob¬tenir porter quelques-uns de plus et ce sera son profit; s'il en taille <pb facs="#facs_492" n="475" source="s2lesouvriersdes01sociuoft_0541.xml"/> moins par suite d'accidents ou d'erreurs, il lui sera facile de faire va¬loir ses raisons au patron, pour peu qu'il soit connu comme ouvrier consciencieux et expérimenté. Il ne parait pas que de graves diffi¬cultés à cet égard s'élèvent fréquemment entre les ouvriers et les patrons. On peut estimer facilement d'ailleurs ce qu'une peau doit fournir de paires de gants.
         </p>
-        <p xml:id="para_22_475_84">
+<p xml:id="para_22_475_84">
          Le prix de ce travail est à peu près le même pour tous les gantiers ; il se paye généralement 3 francs par douaine de gants taillés. G*** en fait 16 environ, ce qui porte sa journée moyenne à 4 francs, et c'est aussi la journée moyenne de la plupart des gantiers ; mais il n'est pas diffieile de dépasser ce chiffre en forçant les heures de travail, d'ar¬river ainsi à faire 2 douaines de paires de gants dans la journée et à gagner 6 francs. Outre son ouvrage habituel, G*** va à la ville tous les huit jours ou tous les quinze jours, chercher de l'ouvrage ou por¬ter au patron celui qu'il a terminé. A ses moments perdus il cultive son petit jardin, et rend quelques services à la ferme de ses parents, qui l'en rémunèrent en nature ; mais la profession de gantier exige une telle délicatesse et une telle propreté qu'il est difficile de mener de front les travaux manuels de la campagne et ceux de la ganterie. En revanche, cette profession peut s'eercer en tout temps et à toute heure du jour ; le soir à la veillée, au milieu des réunions et des con¬versations des voisins, l'ouvrier G*** prolonge son travail et augmente ainsi considérablement à certains jours son salaire, sans en éprouver à proprement parler aucune fatigue
          <ref target="#part_02_03_11" type="renvoi_int_mono">
           (§ 11)
          </ref>
          . C'est le grand profit de l'ouvrage d la taiche et à domicile, qui ne nécessite d'ailleurs ni outil¬lage considérable ou encombrant, ni loel spécial.
         </p>
-       </div>
-       <div type="travaux" subtype="femme">
-        <p xml:id="para_22_475_85">
+</div>
+<div subtype="femme" type="travaux">
+<p xml:id="para_22_475_85">
          Travail de la femme. — La femme G*** s'occupe, comme la plupart des jeunes femmes de l'Isère, de coudre et de piquer des gants ; cet ouvrage se fait à la main, au moyen d'un petit étau appelé mécanique, qui enserre le gant et règle la ligne ou l'aiguille doit passer. On paye 3 francs la douzaine de paires de gants cousus ; une bonne ouvrière ne peut guère gagner plus de 1 franc par jour, c'est ce que gagne la femme G*** les jours où elle n'est point trop dérangée par son enfant et les soins du ménage. En dehors de ce travail et des soins qu'elle donne à sa petite fille qu'elle nourrit, elle s'occupe de l'entretien et de la confection de ses vêtements et de ceux de son mari, du blan¬chissage du linge, de la fabrication du pain et de la préparation des aliments.
         </p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">
        Mode d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">
         § 9. ALIMENTS ET REPAS.
        </head>
-       <p xml:id="para_22_476_89">
-        <pb facs="#facs_493" n="476" source="s2lesouvriersdes01sociuoft_0542.xml"/>L'alimentation des artisans de l'Isère est généralement très bonne. Celle de la famille G*ᵉ est substantielle et abondante : habitant la campagne, cette famille profite, sans grandes dépenses, des ressour¬ces que procurent les jardins et les fermes de leurs parents, et du bon marché des denrées, qui ne subissent pas à Biviers les droits d'oc¬troi. La famille G*** n'est pas absolument économe ; elle ne cherche pas à réduire la qualité de son alimentation, encore moins la quan¬tité. Cependant le bas prix des objets qu'elle consomme en plus grande abondance, notamment le vin, autorise jusqu'à un certain point cette prodigalité, qui n'est pas d'ailleurs disproportionnée avec les salaires des époux, la position quiils occupent et les habitudes gé¬nérales du pays.
+<p xml:id="para_22_476_89">
+<pb facs="#facs_493" n="476" source="s2lesouvriersdes01sociuoft_0542.xml"/>L'alimentation des artisans de l'Isère est généralement très bonne. Celle de la famille G*ᵉ est substantielle et abondante : habitant la campagne, cette famille profite, sans grandes dépenses, des ressour¬ces que procurent les jardins et les fermes de leurs parents, et du bon marché des denrées, qui ne subissent pas à Biviers les droits d'oc¬troi. La famille G*** n'est pas absolument économe ; elle ne cherche pas à réduire la qualité de son alimentation, encore moins la quan¬tité. Cependant le bas prix des objets qu'elle consomme en plus grande abondance, notamment le vin, autorise jusqu'à un certain point cette prodigalité, qui n'est pas d'ailleurs disproportionnée avec les salaires des époux, la position quiils occupent et les habitudes gé¬nérales du pays.
        </p>
-       <p xml:id="para_22_476_90">
+<p xml:id="para_22_476_90">
         La famille fait régulièrement trois repas par jour : 1° à 8 heures du matin, le déjeuner il se compose toujours d'une soupe aux légumes ou au laitage, d'œufs et de légumes accommodés de diverses manières : même à ce repas et en tout temps les époux G*** boivent du vin; 2° à midi, le diner un plat de viande soit bouillie, soit rôtie, soit accom¬modée enragoût un plat de légumes accommodé en gratin au fromage, suivant une mode très répafdue dans le pays ; enfin des fruits frais ou conservés, suivant la saison; 3° à 7 heures du soir, le souper on y prend une soupe grasse ou maigre, des légumes, du fromage, des fruits, quelquefois aussi les restes du dîner.
        </p>
-       <p xml:id="para_22_476_91">
+<p xml:id="para_22_476_91">
         Le régime alimentaire de la famille G*** a ceci de remarquable que le vin y joue un rôle extrêmement important. De leur aveu, les deux époux consomment à eux seuls au minimum 9 hectolitres de vin par an. Ils en boivent 3 litres par jour à eux deux, sans compter les verres de vin qui s'offrent entre voisins à toute heure du jour et par forme de politesse, quand on va se visiter. Il est vrai que la famille G*** ne fait en cela que se conformer aux usages d'un pays où le vin n'est nulle¬ment un objet de luxe, surtout dans les campagnes, qui le récoltent en assez grande abondance et préfèrent le consommer plutôt que de le vendre à vil prix. L'ouvrier assure même que les mendiants secou<pb facs="#facs_494" n="477" source="s2lesouvriersdes01sociuoft_0543.xml"/>rus par la charité publique ou privée ne sauraient se passer de vin, et qu'en fait ils en boivent autant que les artisans aisés. On ne voit pas toutefois que cette abondance du vin produise plus d'ivrognes qu'ail¬leurs, mais elle développe le goût du cabaret et de l'oisiveté, et en¬traîne avec elle une certaine facilité de vie et de dépense qui est peu favorable à l'économie bien entendue des ménages. ne autre obser¬vation s'applique à l'usage, très répandu dans le département de l'Isère, du fromage de Gruyère pour accommoder les légumes et la viande sous forme de gratin. Les époux G*** ne consomment que 12 li¬logrammes de beurre ; en revanche ils emploient 25 kilogrammes de fromage, qui passent presque en entier dans la cuisine. Cet assai¬sonnement, très répandu dans le pays, est à la fois économique et fa¬vorable à l'alimentation. A Grenoble, on voit presque àchaque heure du jour circuler dans les rues des plats tout préparés et couverts de fromage de Gruyêre râpé, qu'on porte au four banal du boulanger : moyennant une très légère redevance, on s'épargne ainsi les frais du combustible et de la préparation des aliments.
        </p>
-       <p xml:id="para_22_477_93">
+<p xml:id="para_22_477_93">
         La femme G*** fait elle-même le pain de la maison ; elle achète chez l'épicier et le cabaretier du village les quelques objets dont elle peut avoir besoin.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_22_477_96">
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_22_477_96">
          Le logement occupé par l'ouvrier donne sur une petite cour située dans la rue principale du village. Il se compose de trois pièces dont l'une sert de cuisine, la deuxième d'atelier et la troisième de cham¬bre à coucher. L'ouvrier dispose en outre d'une sorte de cellier, où il peut mettre son vin, les outils et les légumes du jardin ; il y entre¬tient aussi des lapins. Enfin, derrière la maison se trouve un jardin partagé entre plusieurs locataires, et alimenté par un puits commun ; l'ouvrier a dans ce jardin la jouissance de 50 mêtres carrés quil cul¬tive. Les chambres sont garnies de planchers en sapin ; les murs. ta¬pissés de papier, saul la cuisine, qui est blanchie à la chaux. L'ensem¬ble de la maison est propre, ais on est attristé en voyant qu'une habitation rurale soit ainsi divisée entre un nombre considérable de locataires, qui se partagent parcimonieusement l'espace des chambres et des étages. l'air de la rue, le sol du jardinet, et par-desss tout la <pb facs="#facs_495" n="478" source="s2lesouvriersdes01sociuoft_0544.xml"/> communauté de l'escalier, de la cour et des passages. Ces sortes de maisons, conséquences fatales dumorcellement de la vie industrielle et de la séparation des familles, n'ont rien de commun avec la vie large, aérée, spacieuse dont F. Le Play a tracé un si séduisant ta¬bleau dans sa description de la petite propriété sous le régime des familles-souches. (ˉLa ˉRéforme sociale en France, chap. 34 §§ VI et VI).
         </p>
-        <p xml:id="para_22_478_98">
+<p xml:id="para_22_478_98">
          La valeur du mobilier et des vêtements peut être établie ainsi qu'il suit :
         </p>
-       </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_22_478_99">
+</div>
+<div subtype="meubles" type="par_10">
+<p xml:id="para_22_478_99">
          MEUBLES : de formes modernes, la plupart en noyer, simples, solides et confectionnés depuis peu de temps par le menuisier du vil¬age............ 167ᶠ 45.
         </p>
-        <p xml:id="para_22_478_100">
+<p xml:id="para_22_478_100">
          1° Lits. — 2 lits complets dont 1 en noyer, 80ᶠ00; — 1 lit pour les époux, 30ᶠ00 ; — 3 ma¬telas, 150ᶠ00 ; — 1 sommier élastique, 60ᶠ00; — 1 paillasse en mais, 20ᶠ00; — 2 traversins. 15ᶠ00; — 2 oreillers de plume,15ᶠ00; — 2 couvertures de laine, 60ᶠ00 ; — 2 couvre-pieds piqués, 60ᶠ00; — 2 couvre-pieds de coton, 12ᶠ00; — 2 paires de rideaux en mousseline, 39ᶠ00; — 1 petit berceau et son support, 6ᶠ00 ; — 2 paillasses, 4ᶠ00 ; — 2 couvertures pi¬uées, 8ᶠ00. — Total, 550ᶠ00.
         </p>
-        <p xml:id="para_22_478_101">
+<p xml:id="para_22_478_101">
          2° Mobilier de l'atelier. — 1 commode en noyer, 40ᶠ00; — 1 table à ' pieds tors, 5ᶠ0e ; — 3 chaises, 4ᶠ50 ; — (able de gantier et instruments qui figurent dans le matériel des travaux et des industries, . 6.) — Total, 49ᶠ50.
         </p>
-        <p xml:id="para_22_478_102">
+<p xml:id="para_22_478_102">
          3° Mobilier de la cuisine ou salle a manger. — 1 table, 30ᶠ00; — 5 chaises, 4ᶠ50. — Total, 34ᶠ50.
         </p>
-        <p xml:id="para_22_478_103">
+<p xml:id="para_22_478_103">
          4° Moilier de la chambre a coucher. — 1 commode en noyer, 80ᶠ00 ; — 6 chaises neuves, 30ᶠ00 ; — 1 table à ouvrage, 6ᶠ00 ; — 1 armoire, 40ᶠ00; — 1 table à jeu, 15ᶠ00; — 1 portrait de Louis XVI, 10ᶠ00 ; — 2 petits cadres en perles, 8ᶠ00; — 1 glace, 50ᶠ00 ; — 1 pendule a colonnes torses, 100ᶠ00. — Tota, 339ᶠ00.
         </p>
-        <p xml:id="para_22_478_104">
+<p xml:id="para_22_478_104">
          5° Objets relatifs au culte domestique. — 1 madone couverte d'un globe, 20ᶠ00; — sous ce globe est conservée la couronne de mariage de la jeune feme, 15ᶠ00; — 1 cruciix, 1ᶠ50; — 1 image de première communion encadrée, 0ᶠ50 ; — la F'uite en ˉggpDte et diverses images pieuses, 3ᶠ50. — Total, 40ᶠ50.
         </p>
-        <p xml:id="para_22_478_105">
+<p xml:id="para_22_478_105">
          6° Livres. — Divers livres de classe appartenant à la femme ou au mari : Gram¬aire, A1rithmetiqueˉ, Histore sainte, Histoire de France, 'ocabulaire, Devoir du Cre¬tien, 20ᶠ00 ; — Maison rustique, édition assez curieuse par son ancienneté, 10ᶠ00; — Cui¬siniere a la campagne, 2ᶠ00; — 3 volumes de Sermons du P. de Mac-Carthy, 10ᶠ00; — Mois de Marie, Iitation de.esus-Crist, 3ᶠ00 ; — Paroissien relié en chagrin (cadeau fait à la femme), 6ᶠ00; -— Paroissien, 4ᶠ00; — ourée du Chrétien, 1ᶠ00 ; — 1 volume de la ie des saints, 2ᶠ00. — Total, 58ᶠ 00.
         </p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_22_478_106">
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_22_478_106">
          USTENSILES : en assez grand nombre et assez bien appropriés aux besoins usuels...... .... ...... .... . .... ............ . . [(7ᶠ .4;5.
         </p>
-        <p xml:id="para_22_478_107">
+<p xml:id="para_22_478_107">
          1° Dépendant de la cheiee et du poêle. — Pelle et pincettes, 3ᶠ00; — 1 fourneau avec trépied, chenets, 17ᶠ00 ; — 1 poèle et son tuyau, 30ᶠ00. — Total, 50ᶠ00.
         </p>
-        <p xml:id="para_22_478_108">
+<p xml:id="para_22_478_108">
          2° Employés pour la préparation et la consommation des aliments. — 1 marmite en fonte, 4ᶠ00;— 1 marmite pour faire cuire la viande, 5ᶠ00; — 2 casseroles en fer battu, 4ᶠ00 ; <pb facs="#facs_496" n="479" source="s2lesouvriersdes01sociuoft_0545.xml"/> — 1 plat pour le gratin, 1ᶠ00 ; — 1 poéle, 5ᶠ00; — passoire, écumoire et cuillére à ragout, 2ᶠ50 ; — rape et couteau à hacher, 5ᶠ00; — 2 casseroles en terre, 2 pots en terre, 1ᶠ50; — 24 assiettes plates en faiience, 3ᶠ50 ; — 24 assiettes plates, 4ᶠ00; — 6 plats en faiience, 5ᶠ00; — 1 saladier, 0ᶠ60; — 1 carafe, 0ᶠ75 ; — 2 salières en verre, 0ᶠ50; — 1 pot a eau, 1ᶠ00; — 1 cruche et 1 arrosoir, 6ᶠ00; — 6 tasses et 1 sucrier en porcelaine, 6ᶠ00; — 1 pot au lait, 0ᶠ50; — 1 douzaine de couverts en er, 3ᶠ60 ; — 6 couteaux de table, 3ᶠ00; — 1 douaine de verres, 2ᶠ00 ; — 1 corbeille pour le pain, 1ᶠ00 ; — 2 paniers, 2ᶠ00. — Total, 67ᶠ45.
         </p>
-        <p xml:id="para_22_479_111">
+<p xml:id="para_22_479_111">
          3° Employés pour des soins de propreté. — 3 rasoirs, 9ᶠ00;  peigne et brosse à che¬veux, 5ᶠ00; — 1 brosse à habit, 3ᶠ00; — brosses à souliers, 1ᶠ50. — Total, 18ᶠ50.
         </p>
-        <p xml:id="para_22_479_112">
+<p xml:id="para_22_479_112">
          4° Employés pour usages divers. — 2 lampes à huile de pétrole, 10ᶠ00; — 1 lampe¬modérateur, 10ᶠ00; — chandeliers en cuivre, 8ᶠ00 ; — mouchettes et étcignoir, 2ᶠ00 ; — balai et plumeau, 1ᶠ50. — Total, 31ᶠ50.
         </p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_22_479_113">
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_22_479_113">
          LINGE DE MÉNAGE............ 398ᶠ 00.
         </p>
-        <p xml:id="para_22_479_114">
+<p xml:id="para_22_479_114">
          12 paires de draps en toile, 260ᶠ00 ; — 18 drapcau, 24ᶠ00 ; — 24 serviettes de table, 60ᶠ00 ; — 24 essuie-mains, 24ᶠ00; — 12 tabliers de cuisine, 12ᶠ00; — 12 torchons, 12ᶠ00; — 2 paires de rideaux de calicot, 6ᶠ00. — Total, 398ᶠ00.
         </p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_22_479_115">
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_22_479_115">
          VÊTEMENTS : assezL simples pour les jours de la semaine, surtout en ce qui concerne la femme ; très élégants et très nombreux pour les ours fériés............ 2.131ᶠ 00.
         </p>
-        <p xml:id="para_22_479_116">
-         VÊTEMENTS DE L'OUVRIER, selon le détail porté au <ref target="#part_02_05_16" type="renvoi_int_mono">>§ 16, H</ref> (vêtements du di¬manche, 741ᶠ 00 ; vêtements de travail, 69ᶠ50). — 810ᶠ50.
+<p xml:id="para_22_479_116">
+         VÊTEMENTS DE L'OUVRIER, selon le détail porté au <ref target="#part_02_05_16" type="renvoi_int_mono">&gt;§ 16, H</ref> (vêtements du di¬manche, 741ᶠ 00 ; vêtements de travail, 69ᶠ50). — 810ᶠ50.
         </p>
-        <p xml:id="para_22_479_117">
-         VÊTEMENTS DE LA FEMME, sSelon le détail porté au <ref target="#part_02_05_16" type="renvoi_int_mono">>§ 16, H</ref> (vêtements des jours de fête, 1.131ᶠ 00 ; vêtements de travail, 102ᶠ50. — 1.233ᶠ50.
+<p xml:id="para_22_479_117">
+         VÊTEMENTS DE LA FEMME, sSelon le détail porté au <ref target="#part_02_05_16" type="renvoi_int_mono">&gt;§ 16, H</ref> (vêtements des jours de fête, 1.131ᶠ 00 ; vêtements de travail, 102ᶠ50. — 1.233ᶠ50.
         </p>
-        <p xml:id="para_22_479_118">
-         VÊTEMENTS DE LA PETITE FILLE, Selon le détail porté au <ref target="#part_02_05_16" type="renvoi_int_mono">>§ 16, H</ref>. — 87ᶠ00.
+<p xml:id="para_22_479_118">
+         VÊTEMENTS DE LA PETITE FILLE, Selon le détail porté au <ref target="#part_02_05_16" type="renvoi_int_mono">&gt;§ 16, H</ref>. — 87ᶠ00.
         </p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_22_479_119">
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_22_479_119">
          VALEUR TOTALE dumobilier et des vêtements............ 3.767ᶠ 95.
         </p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">
         § 11. RÉCRÉATIONS.
        </head>
-       <p xml:id="para_22_479_122">
+<p xml:id="para_22_479_122">
         Les récréations de l'ouvrier sont fréquentes et variées. Sa femme y participe dans une certaine mesure, sans pouvoir cependant s'absenter de la maison aussi fréquemment que lui, à cause des soins du ménage et de ceux que réclame son enfant.
        </p>
-       <p xml:id="para_22_479_123">
+<p xml:id="para_22_479_123">
         En tout temps et presque à chaque instant, l'ouvrier recoit des visi¬teurs et des amis qui viennent causer avec lui, prendre un verre de vin ou simplement lui dire bonjour. Ces distractions n'interrompent pas, il faut le reconnaître, le travail de l'ouvrier, ni même celui de <pb facs="#facs_497" n="480" source="s2lesouvriersdes01sociuoft_0546.xml"/> sa femne. Le soir, surtout en hiver, les voisins viennent passer la veillée chez G***, qui est aimé à cause de la franchise de son ca¬ractère et de sa gaité. Ces réunions durent jusqu'à 11 heures, tandis que dans les autres maisons tout le monde est couché à 9 heures. Fort gaies d'ailleurs, elles ne servent qu'à prolonger le travail jusqu'à une heure plus avancée. G*** affirme qu'il ne s'en lève pas moins tous les jours à 5 heures du matin. En dehors de ces distractions, l'ouvrier donne de temps à autre quelques soins à son jardin ; il s'amuse à nourrir quelques lapins et quelques oiseaux ; il lit les feuilles de la localité et les petits journaux quil peut se procurer. Obligé d'aller à la ville presque chaque semaine, il en profite pour visiter ses amis, Ses connaissances et ses beaux-frères, chez lesquels il mange fré¬quemment. D'autres fois il prend sa nourriture au restaurant, à la pension alimentaire, ou fait au caé quelques consommations qui va¬rient de 1 à 2 francs. Sa femme va quelquefois aussi à Grenoble, mais plus rarement. Elle s'absente presque chaque jour de la maison pour aller voir sa mère et ses parents ; ceux-ci viennent à leur tour voir leur petite-ille et tiennent compagnie à l'ouvrière.
        </p>
-       <p xml:id="para_22_480_126">
+<p xml:id="para_22_480_126">
         Les véritables récréations de G*** ont lieu le dimanche et les jours de fête. Après la messe ou le repas de midi, il est assez dans ses habitudes d'aller se promener avec ses amis, soit sur la mon¬tagne, soit dans les bois au bord de l'l̀re. D'autres fois il va visiter les foires et les fêtes de village, connues dans le pays sous le nom de vogues, il y consomme presque toujours de la bière ou du vin ; mais il affirme que depuis son mariage il ne prend plus part aux danses, qui sont selon lui le privilège exclusif des jeunes gens non mariés. La grande distraction du pays est le jeu de boules, jeu tra¬ditionnel dans l'Isère et dans le Midi, qui exige une grande adresse et qui présente dans certains cas un véritable intérêt. G*** y joue fré¬quemment avec les hommes du village ; chaque partie coûte 50 cen¬times. Enin, dans la saison, G*** s'amuse à tirer des grives ou des moi¬neaux. Quelquefois aussiil se promène avec sa femme ; ils vont ensemble visiter leurs parents et dînent chez eux quatre ou cinq fois par an. La veille de Noél et dans quelques autres circonstances, on se réunit dans leur maison. on joue au piquet ou à quelque autre jeu, mais sans enjeu. L'ouvrier ne fume que très peu ; il ne consomme guère en moyenne qu'un cigare de 5 centimes par semaine.
        </p>
-       <p xml:id="para_22_480_127">
+<p xml:id="para_22_480_127">
         A part les veillées du soir, les récréations auxquelles se livre *°ᵉ sont celles de tous les habitants des villages et des banlieues des <pb facs="#facs_498" n="481" source="s2lesouvriersdes01sociuoft_0547.xml"/> villes de l'lIsère. Les ouvriers habitant la ville, et particulièrement. les gantiers, ont des goûts de dépenses plus considérables encore : le spectacle, les romans, le café occupent une place importante dans leur budget, et la majeure partie de leurs salaires est absorbée par ces distractions coûteuses. G***, avant son mariage et quand il ha¬bitait Grenoble, se livrait ave ses camarades à tous les amusements de la ville ; aujourd'hui il y a renoncé à peu près complètement.
        </p>
-      </div>
-     </div>
-     <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
+</div>
+</div>
+<div n="004" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">
        Histoire de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">
         § 12. PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
-       <p xml:id="para_22_481_132">
+<p xml:id="para_22_481_132">
         Le père et l'aieul de l'ouvrier jouissaient d'une réputation méritée d'honnêteté, jointe à la considération qui s'attache toujours à ceux qui possèdent de la terre, même en petite quantité. Son père fut pendant trente ans fermier d'un domaine qui passait pour le mieux cultivé et le plus florissant du pays. Sa femme et ses enfants l'aidaient aux travaux des champs et de la vigne, la petite culture du département de l'Isère n'exigeant que rarement l'emploi de domestiques étrangers. G***, ainsi que ses deux frères et sa sœur, a donc reçu à la campagne une éducation agricole; il était particulièrement apte aux travaux des champs et en avait le goût ; il devait d'ailleurs succéder a son père et continuer de faire valoir pour son propre compte le petit héritage de famille acheté sur les économies de la ferme. En 1854, le service militaire l'appela au 4e régiment d'artillerie, alors en garnison à Strasbourg, et il fut envoyé en Crimée au bout d'un mois. Après un an de campagne devant Sébastopol, ramené à Cette, il ne tarde pas à reprendre avec la santé son service d'artilleur. Mais le dégoùt de la vie militaire, la nostalgie et aussi le besoin qu'ont ses parents de ses services le décident à se faire remplacer. Il se rachète en 1857 moyennant la somme de 3.000 francs, qui lui est en partie fournie par son père, et il reprend ses travaux agricoles, jouissant avecc bonheur de la vie de famille. A vingt-cinq ans, pressé par un cama<pb facs="#facs_499" n="482" source="s2lesouvriersdes01sociuoft_0548.xml"/>rade qui lui promet un apprentissage aisé et rapide dans la profession de gantier, malgré les objections de sa famille, il s'installe à Grenoble pour faire son apprentissage, qui dure quinze mois et lui coûte 170 francs, plus 1.200 francs de frais de nourriture, de logement et d'entretien à la ville. Au bout de quinze mois, il se met en atelier et travaille à son compte moyennant un salaire qui s'élève dès les premiers temps à 3 francs par jour. Il ne tarde pas cependant à retourner au village, où il peut exercer sa profession à moins de frais.
        </p>
-       <p xml:id="para_22_482_134">
+<p xml:id="para_22_482_134">
         Il épouse bientôt Virginie *, qu'il connaissait depuis son enfance ; elle appartenait àune famille aisée d'agriculteurs habitant Biviers depuis de longues années, et avec laquelle lui-même avait toujours eu de hon¬nes relations. llevée dans des habitudes pieuses et régulières, elle n'est pas sans avoir eu dans sa jeunesse un goût assez prononcé pour la toilette, qui ne parait pas avoir sensiblement diminué avec le mariage. Elle a reçu 500 franes de dot, plus beaucoup d'objets de toilette ; le mariage a eu lieu sous le régime dotal, auquel tous les habitans de l'lsère, riches ou pauvres, intéressés ou non, paraissent tenir ex¬trêmement. G*** apporte de son côté, outre les salaires importants qu'il gagne, sa part dans l'héritage de son père récemment décédé. Les époux sont établis depuis deux ans dans leur village ou ils mènent, grầce à leur aisance et à l'absence de charges, une vie heureuse et facile. Ils sont d'ailleurs aidés de toute façon par leurs parents res¬pectifs. Les freres du mari sont fermiers et la mère continue de faire valoir pour la communauté la petite propriété indivise de la famille. Une autre sœur, mariée à un gantier de trenoble, est aussi fort à l'aise. Quant aux parents de la femme. ils habitent également le vil¬lage de iviers et cultivent leurs champs, toujours prêts à rendre à leurs enfants toute espèce de services ; une sœur de V'irginie, ma¬riée à un boulanger de trenoble, et sans enfants, recoit les époux G*** a la ville et leur fait de fréquents cadeaux
         <ref target="#part_02_02_07" type="renvoi_int_mono">
          (§ 7)
         </ref>
         .
        </p>
-       <p xml:id="para_22_482_135">
+<p xml:id="para_22_482_135">
         L'ouvrier et sa femme sont trop jeunes encore pour qu'on puisse prévoir clairement ce que sera leur existence dans l'avenir. Peut¬être la situation présente (1865) les dispense-t-elle un peu trop des préoccupaions et des habitudes d'épargne que devrait leur imposer une famille plus nombreuse.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">
         § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
        </head>
-       <p xml:id="para_22_483_138">
-        <pb facs="#facs_500" n="483" source="s2lesouvriersdes01sociuoft_0549.xml"/>Comme toutes les populations de l'Isère et particulièrement les ouvriers gantiers, les époux G*** ongent peu à l'avenir, dépensent volontiers sans souci du lendemain le salaire de la veille, convaincus qu'un peu de travail les remettra à flot. L'un et l'autre d'ailleurs ont quelque fortune à attendre de leurs parents. Ces propriétés im¬mobilières. auxquelles ils tiennent l'un et l'autre et par la force de l'habitude et par la sécurité que donne toujours la propriété même aux plus pauvres, doivent les garantir contre toute éventualité fà¬cheuse. lependant leur aisance pourrait subir quelques atteintes si l'un d'eux venait à ne plus pouvoir travailler, simême, bien que ce soit peu fréquent dans l'sère, leur famille venait à augmenter d'une facon notahle. Aussi l'ouvrier fait-il partie depuis deux ans d'une société de secours mutuels dite : ocieté de préognce et de bienfaisance mutuelles des gantiers, la plus ancienne et la plus importante des institutions de ce genre dans le pays. Moyennant une rétribution de 1ᶠ60 par mois, le sociétaire est assuré de recevoir pour chaque jour de chômage ou de maladie, une somme déterminée par le réglement d'après son ̀ge et sa condition. S'il s'agit de maladie. il a droit aux visites gratuites du médecin; les médicaments sont fournis par la So¬ciété. A soixante-cinq ans, il a droit à une retraite qui ne s'élêve pas à moins de 5) francs par an, et qui dès soixante-dix ans est portée à 365 francs. Enfin la société fournit à ses membres une 1oule d'avantages pécuniaires et des secours précieux en cas de dé¬tresse. Le sentiment et les habitudes de la mutualité sont extrême¬ment développés à irenoble. Aucune ville ne possède un aussi grand nombre de sociétés de secours mutuels : chaque profession, chaque village, même le plus modeste et le plus éloigné. a la sienne. Beaucoup d'ouvriers font à la fois partie de deux soeiétés ; ils aug¬mentent ainsi leur épargne en vue des droits à la retraite, et se pro¬Curent en cas de chômage ou de maladie une rémunération double. Bien que faisant partie de la Société de prévoyance des gatiers de renoble, 6** s'il était malade, n'aurait pas droit aux visites du mé<pb facs="#facs_501" n="484" source="s2lesouvriersdes01sociuoft_0550.xml"/>decin ; le rayon de ce service médical est limité à deuxkilomètres autour du siège de la Société. Pour suppléer à cette ressource, il aurait intérèt à se faire inscrire en outre, lui et sa femme, à la société de secours mutuels de leur village, peut-être le feront-ils plus tard; mais l'insouciance ordinaire des ouvriers gantiers leur a jusqu'ici fait négliger cette sage mesure.
+<p xml:id="para_22_483_138">
+<pb facs="#facs_500" n="483" source="s2lesouvriersdes01sociuoft_0549.xml"/>Comme toutes les populations de l'Isère et particulièrement les ouvriers gantiers, les époux G*** ongent peu à l'avenir, dépensent volontiers sans souci du lendemain le salaire de la veille, convaincus qu'un peu de travail les remettra à flot. L'un et l'autre d'ailleurs ont quelque fortune à attendre de leurs parents. Ces propriétés im¬mobilières. auxquelles ils tiennent l'un et l'autre et par la force de l'habitude et par la sécurité que donne toujours la propriété même aux plus pauvres, doivent les garantir contre toute éventualité fà¬cheuse. lependant leur aisance pourrait subir quelques atteintes si l'un d'eux venait à ne plus pouvoir travailler, simême, bien que ce soit peu fréquent dans l'sère, leur famille venait à augmenter d'une facon notahle. Aussi l'ouvrier fait-il partie depuis deux ans d'une société de secours mutuels dite : ocieté de préognce et de bienfaisance mutuelles des gantiers, la plus ancienne et la plus importante des institutions de ce genre dans le pays. Moyennant une rétribution de 1ᶠ60 par mois, le sociétaire est assuré de recevoir pour chaque jour de chômage ou de maladie, une somme déterminée par le réglement d'après son ̀ge et sa condition. S'il s'agit de maladie. il a droit aux visites gratuites du médecin; les médicaments sont fournis par la So¬ciété. A soixante-cinq ans, il a droit à une retraite qui ne s'élêve pas à moins de 5) francs par an, et qui dès soixante-dix ans est portée à 365 francs. Enfin la société fournit à ses membres une 1oule d'avantages pécuniaires et des secours précieux en cas de dé¬tresse. Le sentiment et les habitudes de la mutualité sont extrême¬ment développés à irenoble. Aucune ville ne possède un aussi grand nombre de sociétés de secours mutuels : chaque profession, chaque village, même le plus modeste et le plus éloigné. a la sienne. Beaucoup d'ouvriers font à la fois partie de deux soeiétés ; ils aug¬mentent ainsi leur épargne en vue des droits à la retraite, et se pro¬Curent en cas de chômage ou de maladie une rémunération double. Bien que faisant partie de la Société de prévoyance des gatiers de renoble, 6** s'il était malade, n'aurait pas droit aux visites du mé<pb facs="#facs_501" n="484" source="s2lesouvriersdes01sociuoft_0550.xml"/>decin ; le rayon de ce service médical est limité à deuxkilomètres autour du siège de la Société. Pour suppléer à cette ressource, il aurait intérèt à se faire inscrire en outre, lui et sa femme, à la société de secours mutuels de leur village, peut-être le feront-ils plus tard; mais l'insouciance ordinaire des ouvriers gantiers leur a jusqu'ici fait négliger cette sage mesure.
        </p>
-       <p xml:id="para_22_484_140">
+<p xml:id="para_22_484_140">
         La realité ingt et an ans après ces previsions. — Ce n'était pas sans raison que, dès 1865, la situation heureuse du jeune ménage sem¬blait assez précaire. En 1886, elle est cruellement changée D'abord le nombre des enfants a quintuplé, sans qu'une sage prévoyance ait imposé aux deux époux une vie plus sévère. Longtemps ils ont été garantis par la prospérité de l'industrie gantière. Malgré un certain état de gêne. qui n'était d'ailleurs que passager, ils ont pu subvenir à leurs besoins, à l'aide d'un travail plus ou moins régulier, jus¬qu'en 1872. A cette époque. G*** eut la malencontreuse idée d'aban¬donner sa profession. malgré les ressources assurées qu'elle continuait à lui offrir ; il ouvrit à l'entrée du village de Biviers un café-restau¬rant, et cela, dans une commune éloiggnée de la grande route et peu fréquentée des étrangers. D'autre part, le capital nécessaire manquait entièrement dans ce ménage peu économe ; ils empruntèrent, d'abord pour faire lace aux dépenses de première installation, puis pour soutenir l'entreprise, dont les maigres profits furent toujours bien au-dessous des intérêts dont elle était grevée. G*** et sa femme renon¬cèrent à s'occuper des travaux de ganterie, sous prétexte de vaquer au service de l'auberge et du café, et la position ne cessa de s'aggraver. L'ouvrier, dès qu'il fut maître du restaurant, tomba dans la paresse, la boisson et la débauche ; sa santé fut détruite par les désordres de sa conduite et au bout de quatre ans il en mourait, devant encore le prix de son malencontreux établissement, et ruiné en outre par ses emprunts périodiques.
        </p>
-       <p xml:id="para_22_484_141">
+<p xml:id="para_22_484_141">
         Sa veuve essaya trois ans encore de lutter contre une situation sans issue: enfin elle abandonna son café-restaurant, non sans regrets, car cette vie relativement facile a pour les natures imprévoyantes un attrait tout particulier. Elle avait apporté dans son travail une mol¬lesse et une nonchalance regrettables, et n'avait nulle idée d'ordre ou d'économie ; mais elle fit dans son malheur des efforts méritoires pour accomplir ses devoirs envers sa vieille mère et ses enfants. Ses deux illes aînées sont placées comme cuisinière et domestique dans de bonnes maisons ; elles paraissent se bien conduire et conserver des <pb facs="#facs_502" n="485" source="s2lesouvriersdes01sociuoft_0551.xml"/> sentiments religieux. Les deux garçons, doués tous deux de grands moyens, sont élevés avec soin chez les frères des Ecoles chrétiennes d'une commune voisine. Elle-même, retirée chez sa mère infirme et âgée. gagne courageusement sa vie, en faisant des ménages, en soi¬gnant des malades. Elle assiste sa mère dans une large mesure. L'ave¬nir de cette famille déchue est dans ses enfants mais pourront-ils reconstituer un jour, les uns ou les autres. un loyer et un atelier domestiques tels que ceu dont la présente monographie a eu pour but de fixer le souvenir
        </p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
+</div>
+</div>
+<div n="005" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">
         § 14. BUDGET DES RECETTES DE L'ANNÉE.
        </head>
-       <pb facs="#facs_503" n="486" source="s2lesouvriersdes01sociuoft_0552.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_503" url="#" xml:id="tble_22_486_1"/>
-       </figure>
-       <!--<p xml:id="para_22_486_144">
+<pb facs="#facs_503" n="486" source="s2lesouvriersdes01sociuoft_0552.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_503" url="#" xml:id="tble_22_486_1"/>
+</figure>
+<!--<p xml:id="para_22_486_144">
         SECTION II.
         </p>
         <p xml:id="para_22_486_145">
@@ -817,43 +816,43 @@
         <p xml:id="para_22_486_152">
         — la urriture de la ffille. .. . . ..... .............. . ........ ..............
         </p>-->
-       <pb facs="#facs_504" n="487" source="s2lesouvriersdes01sociuoft_0553.xml"/>
-       <!--<p xml:id="para_22_487_154">
+<pb facs="#facs_504" n="487" source="s2lesouvriersdes01sociuoft_0553.xml"/>
+<!--<p xml:id="para_22_487_154">
         § 14.
         </p><p>
         BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_504" url="#" xml:id="tble_22_487_2"/>
-       </figure>
-       <pb facs="#facs_505" n="488" source="s2lesouvriersdes01sociuoft_0554.xml"/>
-       <!--<p xml:id="para_22_488_155">
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_504" url="#" xml:id="tble_22_487_2"/>
+</figure>
+<pb facs="#facs_505" n="488" source="s2lesouvriersdes01sociuoft_0554.xml"/>
+<!--<p xml:id="para_22_488_155">
         § 14.
         </p><p>
         BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_505" url="#" xml:id="tble_22_488_3"/>
-       </figure>
-       <pb facs="#facs_506" n="489" source="s2lesouvriersdes01sociuoft_0555.xml"/>
-       <!--<p xml:id="para_22_489_156">
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_505" url="#" xml:id="tble_22_488_3"/>
+</figure>
+<pb facs="#facs_506" n="489" source="s2lesouvriersdes01sociuoft_0555.xml"/>
+<!--<p xml:id="para_22_489_156">
         § 14.
         </p><p>
         BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_506" url="#" xml:id="tble_22_489_4"/>
-       </figure>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_506" url="#" xml:id="tble_22_489_4"/>
+</figure>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
        </head>
-       <pb facs="#facs_507" n="490" source="s2lesouvriersdes01sociuoft_0556.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_507" url="#" xml:id="tble_22_490_5"/>
-       </figure>
-       <!--<p xml:id="para_22_490_158">
+<pb facs="#facs_507" n="490" source="s2lesouvriersdes01sociuoft_0556.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_507" url="#" xml:id="tble_22_490_5"/>
+</figure>
+<!--<p xml:id="para_22_490_158">
         DÉPENSES CONCERNANT LA NOURRITURE.
         </p>
         <p xml:id="para_22_490_159">
@@ -980,18 +979,18 @@
         </p>
         <p xml:id="para_22_490_200">
         </p>-->
-       <pb facs="#facs_508" n="491" source="s2lesouvriersdes01sociuoft_0557.xml"/>
-       <!--<p xml:id="part_02_05_15">
+<pb facs="#facs_508" n="491" source="s2lesouvriersdes01sociuoft_0557.xml"/>
+<!--<p xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_508" url="#" xml:id="tble_22_491_6"/>
-       </figure>
-       <pb facs="#facs_509" n="492" source="s2lesouvriersdes01sociuoft_0558.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_509" url="#"/>
-       </figure>
-       <!--<p xml:id="para_22_492_202">
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_508" url="#" xml:id="tble_22_491_6"/>
+</figure>
+<pb facs="#facs_509" n="492" source="s2lesouvriersdes01sociuoft_0558.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_509" url="#"/>
+</figure>
+<!--<p xml:id="para_22_492_202">
         § 15.
         </p><p>
         BUDGET DES DÉPENSES DE L'ANNÉE.
@@ -1131,16 +1130,16 @@
         <p xml:id="para_22_492_247">
         162 10 11.762 15
         </p>-->
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">
         § 16. COMPTES ANNEXÉS AUX BUDGETS.
        </head>
-       <pb facs="#facs_510" n="493" source="s2lesouvriersdes01sociuoft_0559.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_510" url="#"/>
-       </figure>
-       <!--<p xml:id="para_22_493_250">
+<pb facs="#facs_510" n="493" source="s2lesouvriersdes01sociuoft_0559.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_510" url="#"/>
+</figure>
+<!--<p xml:id="para_22_493_250">
         SECTION I.
         </p>
         <p xml:id="para_22_493_251">
@@ -1230,12 +1229,12 @@
         <p xml:id="para_22_493_278">
         Tota comme ci-dessus.
         </p>-->
-       <pb facs="#facs_511" n="494" source="s2lesouvriersdes01sociuoft_0560.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_511" url="#" xml:id="tble_22_494_9"/>
-       </figure>
-       <pb facs="#facs_512" n="495" source="s2lesouvriersdes01sociuoft_0561.xml"/>
-       <!--<p xml:id="para_22_495_279">
+<pb facs="#facs_511" n="494" source="s2lesouvriersdes01sociuoft_0560.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_511" url="#" xml:id="tble_22_494_9"/>
+</figure>
+<pb facs="#facs_512" n="495" source="s2lesouvriersdes01sociuoft_0561.xml"/>
+<!--<p xml:id="para_22_495_279">
         SECTION
         </p>
         <p xml:id="para_22_495_280">
@@ -1352,14 +1351,14 @@
         <p xml:id="para_22_495_316">
         paires de chaussettes à 0ᶠ50............
         </p>-->
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_512" url="#" xml:id="illu_22_495_11"/>
-       </figure>
-       <pb facs="#facs_513" n="496" source="s2lesouvriersdes01sociuoft_0562.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_513" url="#"/>
-       </figure>
-       <!--<p xml:id="para_22_496_317">
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_512" url="#" xml:id="illu_22_495_11"/>
+</figure>
+<pb facs="#facs_513" n="496" source="s2lesouvriersdes01sociuoft_0562.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_513" url="#"/>
+</figure>
+<!--<p xml:id="para_22_496_317">
         ART. 2. — VÊTEMENTS DE LA FEMME.
         </p>
         <p xml:id="para_22_496_318">
@@ -1461,171 +1460,171 @@
         <p xml:id="para_22_496_350">
         Vêtements achetés par les parents :
         </p>-->
-      </div>
-     </div>
-     <div n="003" type="section">
-      <head type="section" xml:id="part_03">
+</div>
+</div>
+<div n="003" type="section">
+<head type="section" xml:id="part_03">
        ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
       </head>
-      <p xml:id="para_22_497_351">
+<p xml:id="para_22_497_351">
        FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITES REMARQUABLES; APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.
       </p>
-      <div n="001" type="sub_section">
-       <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">
+<div n="001" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_17">
          § 17. CONDITIONS DE L'AGRICULTURE ET CONSÉQUENCES DU MORCELLEMENT DE LA PROPRIÉTÉ DANS L'ISÈRE.
         </head>
-        <p xml:id="para_22_497_356">
-         <pb facs="#facs_514" n="497" source="s2lesouvriersdes01sociuoft_0563.xml"/> La situation de l'agriculture dans la vallée de l'lsère dépend de la richesse extraordinaire du sol. Nulle terre plus fertile, nulles eaux plus abondantes et plus fécondes, nul ciel plus clément et plus tem¬péré. Rien ne ressemble mieux aux plaines si riches de la Lombardie que la vallée du Grésivaudan, avec sa triple récolte de blé, de mû¬riers et de vignes suspendues aux mûriers, sans parler des autres cul¬tures telles que les prairies artificielles, les chanvres, les plantes légu¬mineuses, et les bois croissant au versant des montagnes
+<p xml:id="para_22_497_356">
+<pb facs="#facs_514" n="497" source="s2lesouvriersdes01sociuoft_0563.xml"/> La situation de l'agriculture dans la vallée de l'lsère dépend de la richesse extraordinaire du sol. Nulle terre plus fertile, nulles eaux plus abondantes et plus fécondes, nul ciel plus clément et plus tem¬péré. Rien ne ressemble mieux aux plaines si riches de la Lombardie que la vallée du Grésivaudan, avec sa triple récolte de blé, de mû¬riers et de vignes suspendues aux mûriers, sans parler des autres cul¬tures telles que les prairies artificielles, les chanvres, les plantes légu¬mineuses, et les bois croissant au versant des montagnes
          <note type="bp">
-          <p>
+<p>
            Nous nous occupons uniquement ici de la partie véritablement aggricole du pays et spécialement de la vallée du Grésivaudan. Nos présentes observations économi¬ques ou sociales ne peuvent en rien s'appliquer aux montagnes qui avoisinent Gre¬oble. Les murs, la vie et les habitudes des habitants de la plaine sont en tous points différentes de ceux dé la montagne.
           </p>
-         </note>
+</note>
          . Malgré ces heureuses conditions naturelles, il n'est pas diffieile de constater les souffrances qui minent l'agriculture du sud-est, ou qui la main¬tiennent tout au moins dans un état de stagnation véritable. Les causes de eet état de malaise nous semblent tenir, les unes spécialement au département de l'Iêre et à ses habitants, les autres au régime agri¬cole général de la France.
         </p>
-        <p xml:id="para_22_497_357">
+<p xml:id="para_22_497_357">
          D'abord, il faut signaler le prix élevé de la main-d'œuvre qui dans l'Isère se fait sentir depuis de longues années. Les familles rurales se dispersent, les jeunes gens abandonnent la terre pour s'adonner à des travaux d'industrie urbaine. Le domaine paternel, dejà réduit à un faible produit par le prix excessif de la terre, tend chaque jour à <pb facs="#facs_515" n="498" source="s2lesouvriersdes01sociuoft_0564.xml"/> se morceler davantage. Les héritages, loin d'être agglomérés, se composent en certaines parties de bandes dans lesquelles les voisins limitrophes s'entendent pour produire les mêmes cultures. Il serait superlu de faire ressortir à quel point ce morcellement est fatal à la production matérielle de la terre. (Voir F. Le Play, ˉLa ˉReforme sociale en Franceˉ, chapitre XXXIV.) Mais au point de vue moral, qui ne comprend que cet état de choses détache l'homme de sa propriété réduite en lambeaux, et le détourne vers les villes où semble s'ouvrir pour lui une plus belle perspective2 Parfois, le bon sens des familles retarde l'heure du morcellement. C'est ainsi que l'ouvrier gantier et sa sœur conservent la propriété de famille indivise aivec leur mère et leurs frères, qui la cultivent moyennant une faible redevance. Il n'est pas sans exemple de voir des enfants céder leur part à celui des frères que ses goûts et son aptitude fixent à la campagne. Mais ce sont là des exceptions qui chaque jour deviennent plus rares.
         </p>
-        <p xml:id="para_22_498_361">
+<p xml:id="para_22_498_361">
          En second lieu, le haut prix de la culture dans l'Isère tient à l'ab¬sence de bétail et conséquemmment de fumier. Ces cultures si brillantes de la vallée du tGrésivaudan, qui frappent au premier coup d'eil le voyageur, ne s'obtiennent pas sans labeur et sans argent. Là où le cultivateur retire, presque sans assolement, une récolte triple, il faut une triple quantité d'engrais. De là ces dépenses incessantes que font les fermiers pour tirer de tirenoble, à tout prix, la poudrette ou d'uutres cngrais animaux. Ainsi disparait une part notable des béné¬tices, qui subissent en outre depuis quelques années (1865) des dimi¬nutions notables, par suite de l'abaissement du prix des denrées, tandis que tout hausse en proportion inverse. Ainsi, en même temps que la valeur de la propriété fonciere atteignait son maximum (j'ai vu vendre dans l'lsère des terrains sur le pied de 10.000 francs l'hee¬tare), que la rareté des ouvriers faisait hausser les salaires d'une manière exorbitante, que les impôts eux-mêmes et surtout les octrois des villes s'accroissaient dans une proportion effrayante, les denrées aggricoles subissaient une dépréciation énorme, et voici comment on pcut s'en rendre compe.
         </p>
-        <p xml:id="para_22_498_362">
+<p xml:id="para_22_498_362">
          Le blé, comme partout, quelles que soient les causes de ce fait, rémunère à peine le cultivateur. Le vin, d'une abondance exception¬nelle dans l'Isère, ne peut cependant lutter contre les bas prix des vins du Midi, plus abondants encore, et que les chemins de fer apportent aujourd'hui partout sans difficulté. Enfin les vers à soie sont en proie à une maladie qui depuis quelques années rend la <pb facs="#facs_516" n="499" source="s2lesouvriersdes01sociuoft_0565.xml"/> récolte des mûriers à peu près improductive faute d'emploi. Reste la culture du chanvre, une des plus fécondes et des plus riches qu'on puisse admirer sur le sol de l'Isère ; mais le nombre des terrains pourvus des eaux nécessaires pour le rouissage est três limité. Nous voudrions voir le département de l'Isère diriger ses efforts vers la production et l'amélioration du bétail, substituer à la culture coû¬teuse du blé la facile végétation des prairies naturelles, qui trouve¬raient, dans l'humus des vallées arrosées par les eaux descendant des montagnes, un sol merveilleusement préparé. Nous voudrions sur¬tout voir les cultivateurs et les fermiers donner plus d'attention aux cultures herbacées et légumineuses, destinées à entretenir la stabula¬tion et à augmenter le nombre et la qualité du bétail
          <note type="bp">
-          <p>
+<p>
            Nous ne pouvons pas ne pas signaler ici les résultats vraiment merveilleux obtenus à ce point de vue par le directeur de la ferme-école de Saint-miers (Isère). Il a déjà mis en pré une partie notable de la propriété. et la race d'animaux de l'espèce bovine qu'il élève, obtient une supériorité marquée à chaque concours. sur le maigre bétail de l'Isère qui sert aux travaux du labourage.
           </p>
-         </note>
+</note>
          . Indépen¬damment du profit qui résulterait de la production de la viande, l culture même des céréales y trouverait son compte par une production incessante de fumier, et la propriété serait ainsi affranchie de l'obli gation de se fournir au dehors d'engrais coûteux, dont la quantité d'ailleurs reste toujours inférieure aux besoins du sol.
         </p>
-        <p xml:id="para_22_499_364">
+<p xml:id="para_22_499_364">
          Nous ne saurions, d'autre part, trop affirmer que le dégrêvement des impôts, le remaniement de notre système financier, la liberté des transactions rendraient des bras aux campagnes, et au tra¬vail un salaire rémunérateur. Si maintenant les maladies, les intem¬péries des saisons, les mauvaises récoltes, la concurrence ou l'abon¬dance trop grande des denrées similaires produisait parfois une souffrance momentanée dans ces régions si favorisées de la Providence et des hommes, on nous permettra de croire que l'activité humaine est assez forte pour triompher par elle-même de ces épreuves, aux¬quelles d'ailleurs les lois restrictives n'apportent elles-mêmes qu'un tempérament fugitif et trompeur.
         </p>
-        <p xml:id="para_22_499_365">
+<p xml:id="para_22_499_365">
          ˉL'agriculture de l'lsère s'est-elde amélioree de 1865 d 18862 — Les faits constatés et consignés ci-dessus il y a plus de vingt ans, n'ont pas cessé d'etre vrais ; ils sont allés en s'aggravant. D'une part le grand développement de l'industrie, l'attrait des salaires élevés ont de plus en plus dépeuplé les campagnes ; d'autre part la culture, sans que le sol ait perdu sa fertilité, est devenue moins rémunératrice. La <pb facs="#facs_517" n="500" source="s2lesouvriersdes01sociuoft_0566.xml"/> maladie des vers à soie et les transformations de l'industrie des soie¬ries ont provoqué l'arrachement d'une grande partie des mûriers, et réduit à presque rien l'élevage des vers, qui jadis était encore pour les femmes et les jeunes filles de la campagne une source de produits dont profitait la famille, sans diminuer en rien la fécondité de la terre. La vigne a été envahie par le phylloxéra: mais les vins du pays lut¬tent encore avec succès contre ceux de l'étranger. Ils sont recherchés des habitants de la région, qui les payent un prix élevé, non seule¬ment parce qu'ils sont rares (en raison des mauvaises années qui, pres¬que sans interruption, se sont succédé depuis quinze ans), mais aussi parce que leur qualité semble être une garantie contre la fraude et la sophistication des vins du Midi, ou de ceux que fournit le commerce. Quant au blé, la culture par excellence de la fertile vallée de l'sêre, il ne peut lutter contre l'importation des blés étrangers. Les propriér taires et les fermiers en réclamant un droit compensateur ne deman¬dent point, à vrai dire, la protection, mais simplement l'égalité, ou, pour mieux dire, le dégrèvement des impôts qui pèsent outre mesure sur la propriété foncière. Ces impôts n'ont fait qu'augmenter depuis la guerre, plus encore dans l'Isêre qu'ailleurs, en ce sens que la po¬pulation très dense, la propriété très morcelée, ont ressenti plus qu'ailleurs les charges imposées au peys.
         </p>
-        <p xml:id="para_22_500_368">
+<p xml:id="para_22_500_368">
          Le mal que nous signalions en 1865, à savoir l'abandon des do¬maines par les fermiers, n'a pas diminué, bien au contraire. La difi¬culté de se procurer des ouvriers, le haut prix de main-d'œuvre ont dégoûté de la terre tous ceux qui n'étaient pas sur leurs propres biens. raute de fermiers, beaucoup de propriétaires ont inutilement cherché à vendre leurs domaines ; d'autres ont fait sur le prix de vente des pertes considérables. Quant aux paysans cultivant par eux-mêmes leur petite propriété, ils ne réussissent qu'à la condition d'avoir de nombreux enfants et des bras vigoureux ; il leur est presque impos¬sible de se procurer des domestiques. Ils donnent l'exemple du tra¬vail, de l'attachement au sol ; mais trop souvent aussi le défaut de capitaux les arrète dans leur essor. Quelques-uns végètent tristement, faute de pouvoir fumer leurs terres et faire les dépenses nécessaires. D'autres enfin sont réduits, après avoir trop entrepris, à abandonner le domaine, faute de pouvoir le payer ou tout au moins le cultiver.
         </p>
-       </div>
-       <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_18">
          § 18. DE LA DIMINUTION DU NOMBRE DES ENFANTS DANS LES FAMILLES DE L'ISÈRE.
         </head>
-        <p xml:id="para_22_501_371">
-         <pb facs="#facs_518" n="501" source="s2lesouvriersdes01sociuoft_0567.xml"/>Le département de l'Isère est un des plus riches et des plus peuplés de France, en ce sens que la population y est fortement condensée et que les étrangers y affluent, attirés par les ressources de l'industrie et le développement de la richesse. Mais si l'on cherche quel est le rapport entre le nombre des familles et celui des naissances, on constate que cette population d'artisans, de cultivateurs, d'ouvriers, n'a le plus sou¬vent par famille qu'un enfant, quelquefois deux, rarement trois. La commune de Biviers, qui se composait il y a quelques années (1865) de 800 habitants environ, a vu diminuer sa population dans une pro¬portion notable ; elle n'est plus aujourd'hui que de 587 individus. Cette diminution doit être attribuée aussi bien à la stérilité des mariages qu'à l'émigration vers les villes. Mais si nous examinons dans cette même commune pendant une certaine période les ménages qui ont habité cette petite localité, nous trouvons que 205 ménages n'ont donné naissance qu'à 407 enfants, ce qui limite à moins de 2 (19 en¬fants pour 10 familles) la moyenne des enfants ; tandis que dans les types des familles-souches décrites par Le Play, cette moyenne s'élève à 6, I, 8 et même 9. Encore avons-nous restreint nos observations à une commune particulièrement morale et religieuse, agricole plutôt qu'industrielle, et placée dans des conditions de salubrité telles que la moyenne de la vie humaine y atteint un chiffre extraordinairement élevé
+<p xml:id="para_22_501_371">
+<pb facs="#facs_518" n="501" source="s2lesouvriersdes01sociuoft_0567.xml"/>Le département de l'Isère est un des plus riches et des plus peuplés de France, en ce sens que la population y est fortement condensée et que les étrangers y affluent, attirés par les ressources de l'industrie et le développement de la richesse. Mais si l'on cherche quel est le rapport entre le nombre des familles et celui des naissances, on constate que cette population d'artisans, de cultivateurs, d'ouvriers, n'a le plus sou¬vent par famille qu'un enfant, quelquefois deux, rarement trois. La commune de Biviers, qui se composait il y a quelques années (1865) de 800 habitants environ, a vu diminuer sa population dans une pro¬portion notable ; elle n'est plus aujourd'hui que de 587 individus. Cette diminution doit être attribuée aussi bien à la stérilité des mariages qu'à l'émigration vers les villes. Mais si nous examinons dans cette même commune pendant une certaine période les ménages qui ont habité cette petite localité, nous trouvons que 205 ménages n'ont donné naissance qu'à 407 enfants, ce qui limite à moins de 2 (19 en¬fants pour 10 familles) la moyenne des enfants ; tandis que dans les types des familles-souches décrites par Le Play, cette moyenne s'élève à 6, I, 8 et même 9. Encore avons-nous restreint nos observations à une commune particulièrement morale et religieuse, agricole plutôt qu'industrielle, et placée dans des conditions de salubrité telles que la moyenne de la vie humaine y atteint un chiffre extraordinairement élevé
          <note type="bp">
-          <p>
+<p>
            D'après les observations consignées sur un tableau mortuaire par M. le curé de Biviers, pendant une période d'observation de 13 ans. la moyenne d'âge des habitants de cette commune s'élève au chiffre énorme de 51 ans 9 mois 23 jours. Sur 183 per¬sonnes décédées pendant une période de 13 ans. 31 ont dépassé 60 ans. 37 ont dépassé 70 ans. 22 ont dépassé 80 ans. 4 ont dépassé 90 ans. Malgré ces conditions excellentes au point de vue de l'état sanitaireet de la longévité, le nombre des naissances pendant la même période est inférieur de 37 à celui des décès :
           </p>
-          <p>
+<p>
            Décés en 13 ans sur 600 habitants environ....................... 183
           </p>
-          <p>
+<p>
            Naissances dans les mêmes conditions .......................... 146
           </p>
-         </note>
+</note>
          . Peu ou point de maladies, une vieillesse avancée dépassant chez plusieurs 80 et 90 ans pas de misère ni de pauvreté ; des terres fertiles et riches ne demandant que des bras pour rémunérer largement le cultivateur ; une population morale et plutôt religieuse qu'indiffé<pb facs="#facs_519" n="502" source="s2lesouvriersdes01sociuoft_0568.xml"/>rente : toutes ces conditions sont des plus favorables au développe ment, avec les vertus de la famille, du nombre des membres qui doi¬vent concourir à sa prospérité2 Que serait-ce donc si nous avions porté nos observations sur les populations industrielles de Grenoble, de Viille et de Voiron ; là où l'amour du luxe et la recherche du bien¬être, l'égoisme individuel et l'absence de principes religieux portent à rechercher avant tout une vie facile et aisée au détriment de la famille et des bonnes mœurs ; là où les maladies et les fatigues corporelles abrègent la durée moyenne de la vie humaine et du mariage ; là eniin où unc population trop resserrée sur un même espace ne trouve que des difficultés pour s'accroitre2
         </p>
-       </div>
-       <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_19">
          § 19. CONDITIONS ÉCONOMIQUES ET MORALES DE L'INDUSTRIE DE LA GANTERIE A GRENOBLE.
         </head>
-        <p xml:id="para_22_502_378">
+<p xml:id="para_22_502_378">
          L'industrie de la ganterie est assurément une industrie urhaine. Ce¬pendant on aurait tort de croire qu'elle ne s'exerce qu'à la ville ; l'ou¬vrier qui fait l'objet de cette monographie fournit la preuve du con¬traire, et il est loin d'ètre une exception : les femmes surtout exercent plutôt à la campaggne qu'à la ville le métier de couseuse ou de pi¬queuse de gants. lIl suffit en effet que l'ouvrier ou la couseuse puisse à certaines époques déterminées porter ou envoyer au fabricant son ouvrage ; on profite du voyage à la ville pour prendre de nouvelles commandes, acheter des fournitures, recevoir, s'il est besoin, un changcment de direction dans la confection du travail ; c'est ainsi que dans les villages, au sein des campagnes les plus agrestes du Dauphiné, jusque dans les solitudes des montagnes, s'exerce une industrie d'une excessive délicatesse. De ce fait, une population nombreuse (en 1865, le chiffre des gantiers, hommes ou femmes, dans le département de 1'sère ne s'élève pas à moins de 27.490) est enlevée à la culture de la terre. Non seulement l'exercice d'une profession sédentaire éloigne le gantier de la vie et des habitudes agricoles, mais il développe chez lui des goûts tout opposés. Tout travail manuel lui est forcément inter¬dit ; la moindre rugosité aux mains, le moindre contact de ses mains avec un outil ou un objet de travail rendrait l'ouvrier gantier impropre à son métier ou tout au moins lui ferait courir le risque de gâter son ouvrage. Il en est de même pour les femmes et les jeunes filles, à cette <pb facs="#facs_520" n="503" source="s2lesouvriersdes01sociuoft_0569.xml"/> différence près que le nombre des couturières est plus considérable encore que celui des gantiers, et que la séduction exercée sur elles dans les villages par cette profession, semble être plus grande encore que pour les hommes. Coudre des gants n'exige ni un long apprentissage ni des efforts pénibles. Au village même, malgré l'exiguité du salaire, il est fort doux de passer la journée entière assise devant sa porte en compagnie des voisines et des amies qui exercent la même industrie. En outre, et par le fait seul qu'elle touche des gants, la jeune fille ou la femme qui s'adonne à cette industrie est affranchie de tout autre travail et de tout soin dans le ménage. Car dans le cas où les gants sont gâtés ou salis, le patron les lui laisse pour compte, ce qui même arrive encore assez fréquemment. Ainsi nait chez les hommes de ces campagnes une vie à part : point de meurs rustiques nul intérêt, nul concours aux travaux des champs, nul travail manuel ; nulle activité en dehors de la spécialité très restreinte à laquelle ils se livrent ; chez les femmes mêmes résultats, et, en outre, vie apathique et molle, travail peu rémunéré et exclusif; par suite, goûts de paresse, habitudes de luxe, émigration à la ville, et tout ce qui s'ensuit.
         </p>
-        <p xml:id="para_22_503_380">
+<p xml:id="para_22_503_380">
          Après les inconvénients de cette industrie, il est juste d'indiquer les avantages. D'abord l'ouvrage manque rarement, et si minime que soit le salaire, surtout pour les femmes, il en est peu qui ne puissent s'y adonner à certaines époques et augmenter par là les ressources de la maison. D'un autre côté, cette industrie peut s'exercer en fa¬mille à l'ombre du foyer domestique, loin de la corruption des ateliers, et même à la campagne, loin des séductions de la ville
          <note type="bp">
-          <p>
+<p>
            Les gantiers et gantières de Grenoble même sont peu estimés au point de vue de leur moralité. On les voit le dimanche faire au loin ou dans les environs de Grenoble des parties de plaisir où ils dépensent en une journée le gain de la semaine tout en¬tiere. Les habitudes de café, de théàtre et le luxe de la toilette y sont répandus come dans les classes riches. L'ouvrier avoue lui-même la fàcheuse renommée de ses con¬freres de la ville; l'éléation du salaire contribue surtout à les débaucher, en leur fournissant le moyen de satisfaire de mauvaises passions.
           </p>
-         </note>
+</note>
          . Elle n'exige en outre ni un loyer considérable, comme les ateliers des tisserands, ni un matériel coûteux ; elle se prête à la division du travail jusque dans ses plus extrêmes limites, et par son organisation d'ouvrage d la tadche, elle laisse au père de famille toute liberté, soit de restreindre son industrie, de chômer en cas de maladie, sans qu'il en résulte pour lui ni expulsion de la fabrique, ni amendes, ni retenues ; soit d'augmenter au contraire sa production en multipliant ses efforts, en dépassant <pb facs="#facs_521" n="504" source="s2lesouvriersdes01sociuoft_0570.xml"/> même, s'il le faut, les heures normales du travail, en y associant sa femme, ses enfants, ses apprentis. L'industrie de la ganterie est d'ail¬leurs essentiellement morale quand elle s'exerce dans le sein du mé¬nage et par les deux époux. Près d'eux grandissent les enfants, que l'on initie peu à peu aux mêmes travaux ; les jeunes filles, sous la surveil¬lance du père et de la mêre, loin des ateliers et de la ville, y trouvent a la fois un emploi lucratif de leur temps, la stabilité du travail et la possibilité de rester au foyer de la famille. Souvent même les com¬mandes de travail sont la récompense de la bonne conduite et de la bonne réputation.
         </p>
-        <p xml:id="para_22_504_383">
+<p xml:id="para_22_504_383">
          Malheureusement le régime de la libre concurrence, favorable au progrès dont il fait une loi, condamne les industries modernes à des transformations qui ne laissent guère auxouvriers la sécurité de l'avenir. En 1886, nous retrouvons une tout autre situation. La ma¬chine à coudre a remplacé le travail à la main. Cette machine. qu'il ne faut pas confondre avec le petit étau (mécanique) qui sert à maintenir le gant et à le coudre à la main d'une facon régulière, fait aujourd'hui six fois plus d'ouvrage que l'aiguille tenue par une ouvrière même habile ; et comme la fabrication des gants a diminué d'une facon no¬table, il y a double motif pour que le nombre des ouvriêres occupées à ce genre d'ouvrage se soit notablement abaissé. La machine à coudre coûte 180 francs environ ; tout le monde ne pouvait se procurer un outil d'un tel pri ; les femmes qui ne se livrent à cette industrie qu'accidentellement, ou à temps perdu, ont dû y renoncer. D'une autre part la machine à coudre appliquée à la ganterie a le mérite de donner à la couture et à la piqûre une régularité parfaite contre la¬quelle ne peut pas lutter le travail à la main. D'ailleurs la grande ra¬pidité qu'elle introduit dans le travail a complêtement changé, non seulement l'économie du travail, mais encore les conditions des com¬mandes et des livraisons. Le fabricant de gants ne se soucie plus de donner de l'ouvrage, même à prix réduit, à des ouvrières sans ma¬chine. Devenu non moins exigeant sur la perfection de la couture que sur la rapidité de livraison de ses commandes, il a subi les conditions nouvelles dues à la mobilité du goût et de la mode, à la concurrence, à la hausse ou la baisse des matières premières ; il ne peut plus, comme autrefois, faire d'un seul coup des commandes considérables. Il ne faut plus surtout que les marchandises s'accumulent chez les couseuses à domicile pour n'être livrées qu'à de longs intervalles. L'industriel a besoin de pouvoir compter sur sa commande de gants du <pb facs="#facs_522" n="505" source="s2lesouvriersdes01sociuoft_0571.xml"/> jour au lendemain, afin qu'il lui soit loisible de modifier ses formes suivant le goût du jour ; il a besoin de traiter directement avec les ouvrières, de lesvoir, de leur donner ses instructions et de les modifier s'il y a lieu. Il ne peut donc employer maintenant que des femmes peu éloignées de la ville, qui lui apportent elles-mêmes leur ouvrage et remportent d'autres commandes. Enfin la production des gants a baissé de moitié à Grenoble depuis dix ans environ
          <ref target="#part_03_01_21" type="renvoi_int_mono">
           (§ 21)
          </ref>
          . Il est résulté de tant de changements imprévus une diminution des quatre cinquièmes environ dans la population ouvrière des femmes occupées à la gan¬terie, et l'agglomération des ouvrières à Grenoble ou tout au moins dans la banlieue ou les villages avoisinants.
         </p>
-        <p xml:id="para_22_505_385">
+<p xml:id="para_22_505_385">
          De là chômage, souffrance et misère, dans ces populations rurales dont les femmes pour la plupart vivaient de l'industrie de la ganterie. A ces maux, nés du mouvement même de l'industrie, il n'y a, hélas : nul remède, que le retour pénible et progressif des femmes et des jeunes filles aux travaux des champs et de la maison. C'est ce que beau¬coup font déjà ; mais l'habitude de cette vie nouvelle est dure à prendre. Plusieurs jeunes filles qui restaient au village sont mainte¬nant d'autant plus sollicitées d'aller à la ville et d'y exercer une pro¬fession urbaine. Cette évolution de l'industrie gantière a, en outre. supprimé l'industrie des entremetteuses. On désignait sous ce nom des femmes qui procuraient dans la campagne du travail aux ouvrières trop éloignées pour venir à la ville, et cela moyennant une légère rémunération de 30 centimes par douzaine. L'économie nouvelle du travail a rendu inutile cette profession qui faisait vivre quelques vieilles femmes et permettait aux ouvrières les plus éloignées de re¬cevoir leur travail sans se déranger.
         </p>
-        <p xml:id="para_22_505_386">
+<p xml:id="para_22_505_386">
          Quant aux hommes, particuliêrement ceux qui exerçaient la pro¬fession de coupeurs, la même cause a produit le même effet, quoique sur une moins vaste échelle. Les besoins nouveaux de l'industrie, que nous avons signalés, ne permettent plus aux ouvriers gantiers d'ha¬biter comme autrefois des communes rurales. Ils résident tous, pres¬que sans exception. à arenoble, à proximité de la fabrique où ils tra¬vaillent.
         </p>
-       </div>
-       <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_20">
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_20">
          § 20. FABRICATION DES GANTS DE PEAU.
         </head>
-        <p xml:id="para_22_505_389">
+<p xml:id="para_22_505_389">
          On a coutume de distinguer la ganterie tissée et la ganterie coupée. La première est de tricot ou de filet, fait au-métier ou à la main. Ce <pb facs="#facs_523" n="506" source="s2lesouvriersdes01sociuoft_0572.xml"/> n'est pas celle dont nous avons à parler. La ganterie coupée, ou plutôt ganterie de peau, est la plus délicate par la matière qu'elle emploie et le mode de fabrication ; elle comprend trois séries d'industries : la mégisserie, la teinturerie des peaux et enfin la ganterie proprement dite. La mégisserie est l'art de préparer les peaux destinées aux usages de la chaussure et surtout de la ganterie. Les peaux d'agneaux, de che¬vreau ou de veaux mort-nés, sont presque les seules employées à la fabrication des gants. Beaucoup de gants répandus dans le com¬merce sous le nom de gants de daim, de chamois, de chien sont également fabriqués avec des peaux de chevreau ou d'agneau très tortes. Mais le gant de chevreau est de beaucoup le plus solide, le plus fin et le plus beau.
         </p>
-        <p xml:id="para_22_506_391">
+<p xml:id="para_22_506_391">
          La teinture des peaux préparées ne s'applique qu'aux gants de cou¬
         </p>
-        <p xml:id="para_22_506_392">
+<p xml:id="para_22_506_392">
          Ganterieˉ. — bLa fabrication du gant est l'euvre de l'ouvrier coupeur de gants vulgairement appelé gntier. A Grenoble, elle occupe une seule catégorie d'ouvriers, tandis qu'à Paris elle se répartit entre trois qui ont chacune leur spécialité. A Grenoble encore, le fabricant de gants achète les peaux mégissées et teintes ; c'est surtout dans l'intel¬ligent achat des peaux, dans l'opportunité des achats suivant les variations des prix, que consistent le talent et les chances de succès du fabricant. Puis il les classe par douzaines, suivant leur nature, leur qualité, leur couleur, leur dimension et l'usage particulier auquel il les destine. Aux ouvriers habiles, intelligents, soigneux, on confie les peaux de premier choix, les couleurs délicates, l'ouvrage difficile ; ux coupeurs moins expérimentés, on réserve les gants de qualité in¬férieure, ceux qu'il importe moins d'obtenir irréprochables. Les dou¬aines de peaux sont soigneusement comptées et étiquetées : chacune d'elles porte inscrits au revers le nombre et le numéro des gants qu'elle est susceptible de fournir entre les mains de l'ouvrier qui en saura tirer parti. bLe livre du patron fait foi du nombre de peaux livrées et des quantités de gants qu'elles doivent fournir. Il est rare qu'une difficulté s'élève à ce sujet entre les gantiers et les fabricants.
         </p>
-        <p xml:id="para_22_506_393">
+<p xml:id="para_22_506_393">
          L'ouvrier emporte chez lui
          <note type="bp">
-          <p>
+<p>
            Il est à remarquer que cette industrie s exerce le plus souvent a domicile. Ce n'est que par exception et pour avoir sous la main quelques ouvriers, ou plutôt pour surveiller l'ouvrage des débutants et les diriger, que les patrons font tra¬vailler chez eux.
           </p>
-         </note>
+</note>
          l'ouvrage qui lui a été confié ; il com¬mence par donner à ses peaux une légère humidité en les plaçant <pb facs="#facs_524" n="507" source="s2lesouvriersdes01sociuoft_0573.xml"/> pendant douze heures environ dans un linge mouillé. Ensuite il les dole, c'est-à-dire qu'il les réduit à l'épaisseur convenable, les égae¬lise, les rend plus fines et plus douces. Il se sert pour cette opéra¬tion d'un morceau de marbre sur lequel il étend sa peau et d'une longue lame souple et mince dite couteau à doler. Cette opération, assez fatigante, exige une main légère et sûre et un soin minutieux pour ne pas couper ou déchirer la peau. Puis vient l'étauillonnage : l'ouvrier se met en mesure de dépecer la peau suivant la dimension et le nombre des gants qu'il se propose de faire ; le morceau dépecé se nomme étauillon. Il n'a encore que la forme d'un parallélogramme ; il s'agit de savoir le couper de la faconla plus favorable. Puis on déborde la peau étavillonnée, c'est-à-dire qu'on la détireen lui faisant subir dan tous les sens, surles bords d'une table, une traction qui s'opère naturelle¬ment d'une façon plus énergique dans le sens longitudinal. C'est le dres¬sage. qui doitdonnerà l'étavillon l'apparence d'un gant. L'ouvrier place sa peau, pliée en deux parties égales, sur un calibre de carton qui re¬présente assez exactement la forme d'une main de gant développée. e'est-à-dire le dessus et le dessous de la main éitant accolés l'un à l'autre et formant huit doigts. les pouces non compris. C'està M. MNavier Jouvin qu'onest redevable de la régularité parfaite de la coupe actuelle ; il a su (vers 1835), classer d'une manière rigoureuse les mains d'hom¬mes, de femmes et d'enfants, dans quatre séries, d'aprês la longueur, et dans cinq séries, d'après la largeur ; les séries se subdivisent elles¬mêmes en un grand nombre decalibres, qui s'indiquent pr des numéros et des lettres. Les calibres ne sont que les reproductions en carton des différentes coupes et des diverses mesures appropriées aux dimensions de la main. C'est sur ce carton que l'ouvrier place sa peau pour couper le gant. Il y a aussi des calibres de pouces proportionnés à cette main et des calibres de fourchettes proportionnées aux doigts. L'ouvrier tire sa peau de manière à en faire concorder les défauts avec les fentes des doigts, pour les dissimuler ; il plie en deux l'étavillon, le pose sur le calibre et coupe à l'aide de ciseaux le contour de la main déterminé d'après la longueur approximative des doigts ; il fait à l'aide de calibres spéciaux la même opération pour les pouces et pour les fourchettes qui uniront les doigts, et en formeront les côtés.
         </p>
-        <p xml:id="para_22_507_396">
+<p xml:id="para_22_507_396">
          La peau étavillonnée et pliée en double, de manière à former le dessus et le dessous de la main, est livrée au fendeur, qui taille les doigts mécaniquement avec un emporte-pièce à balancier. ll uffit de placer les six paires de gants pliées en double, la main droite contre <pb facs="#facs_525" n="508" source="s2lesouvriersdes01sociuoft_0574.xml"/> la main gauche sous un calibre en fer appelé main de fer,; un simple coup de balancier fend les doigts et découpe les étavillons à la gran¬deur voulue. Mais c'est par l'étirage de la peau et l'art de combiner les défauts de la peau avec les entailles des doigts que le gantier fixe à la main de fer un tracé rigoureux. Le fendeur travaille dans la fa¬brique sous les yeux du patron, auquel appartiennent les calibres. Cet ouvrier n'a autre chose à faire qu'à placer avec ordre les gants, six paires par six paires, sous la main de fer et à donner le coup de balancier. Ce sont très souvent des femmes qui exécutent ce travail. Une opération analogue a lieu pour les pouces et les fourchettes. Des femmes assortissent ensuite ces pouces et ces fourchettes aux gants suivant les couleurs et les nuances. Les gants fendus et préparés sont alors disposés par paquets de douze, pour être livrés aux couseuses et aux iqueuses.
         </p>
-        <p xml:id="para_22_508_398">
+<p xml:id="para_22_508_398">
          Ces derniers travaux, qui ont longtemps occupé dans l'sère un nom¬bre considérable d'ouvrières, se faisaient au moyven d'un petit étau denté portatif qui tient le gant en respect et trace la couture. L'ouvrière n'avait qu'à passer l'aiguille dans chacune des dents de la mécanique. On coud les gants à points de surjets ou même à points de piqûre, ce qui est plus solide et plus élégant. Des ouvrières spéciales attachées aux fabriques cousent ensuite les agrafes, chaînettes, boutons, ti¬rettes qui servent à attacher les gants. Enfin un dresseur leur donne la dernière forme et avec elle le lustre et le glacé. Il cmmence par les passer dans des baguettes bien unies, bien lisses et arrondies a leur extrémité ; il enlève ainsi tous les plis et toutes les gercures de la peau puis il les plie et les passe au rouleau ; après quoi les pa¬quets sont rangés par douzaines dans des cartons étiquetés, et ils sont livrés au commerce.
         </p>
-        <p xml:id="para_22_508_399">
+<p xml:id="para_22_508_399">
          Le mouvement industriel a été en augmentant malgré la guerre de 1870 et la période de souffrance qui l'a suivie ; la ganterie n'a cessé de progresser jusque vers 1878 ou 1880. Mais depuis ce mo¬ment, la concurrence s'est établie dans divers pays étrangcrs qui ont cessé de venir s approvisionner à Grenoble.
         </p>
-        <p xml:id="para_22_508_400">
+<p xml:id="para_22_508_400">
          ˉModifications suruenues dans les conditions de ˉl'industrie, de 1865 à 1886. — Durant cettepériode, les progrès de la mécaniqueet de la chi¬mie ont diminué la main-d'œuvre ; ils ont apporté dans la préparation des peaux une rapidité d'exécution et une perfection plus grandes.
         </p>
-        <p xml:id="para_22_508_401">
+<p xml:id="para_22_508_401">
          En ce qui concerne le travail de l'ouvrier gantier, une innovation importante à signaler, sinon un progrès, c'est la substitution pro<pb facs="#facs_526" n="509" source="s2lesouvriersdes01sociuoft_0575.xml"/>gressive du travail en fabrique au travail domestique à domicile ; les causes méritent d'en être notées. Le patron livre à tel ou tel ouvrier un certain nombre de peaux ; or l'ouvrier habile, trop habile même, pouvait, dans le secret de son atelier domestique, frauder sur la quantité de gants à livrer. A l'aide de l'étirage, en se montrant peu scrupuleux sur les parties faibles de la pcau, qu'il utilisait là ou il aurait dû ne prendre que des fourchettes et des coupures, il parve¬nait parfois à économiser une peau sur douze. Il rendait au patron le nombre de gants prescrit, mais de qualité inférieure, pris dans les bas côtés ; puis il vendait à son profit la peau économisée. Des rece¬leurs achetaient ces marchandises, produits de la fraude et du vol, et en faisaient fabriquer des gants qui eux-mêmes livrés à des prix in¬férieurs pesaient sur les cours. Il résulte des renseignements re¬cueillis chez divers fabricants en 1886, que les ouvriers grenoblois dont la moralité et l'honnêteté ont marché depuis vingt ans en sens inverse des progrès industriels, pratiquent cette fraude sur la plus vaste échelle. Les receleurs aussi bien que les auteurs du vol sont fréquemment traduits en police correctionnelle pour des faits de cette nature. Le fabricant a dû apporter à ses commandes une sur¬veillance toute particulière, et renoncer au régime de l'atelier privé, de façon à voir le travail s'exécuter à la fabrique et pour ainsi dire sous ses yeux. Cette innovation met tristement en relief la déca¬dence des mœurs chez les ouvriers grenoblois.
         </p>
-        <p xml:id="para_22_509_403">
+<p xml:id="para_22_509_403">
          Il y a eu une autre innovation purement technique, consistant dans les perfectionnements qu'a reçus le système Navier Jouvin. On a créé une échelle de proportions de la main humaine beaucoup plus par¬faite dans la forme et beaucoup plus simple, en ce sens qu'un moindre nombre de numéros ou calibres répond absolument à toutes les va¬riétés des mains quelles qu'elles soient. Aujourd'hui, la main de fer ou calibre correspond à 22 numéros seulement ; d'après le sys¬tème ancien de Jouvin il y en avait bien davantage : il n'y a, en ce qui concerne la largeur, que 8 calibres pour les hommes, 8 calibres pour les femmes, 6 calibres pour les enfants. En effet, dans une même catégorie de gants, la largeur des mains varie peu. Quant à la longueur des doigts, on se borne toujours pour le même calibre à trois clas¬sifications, les courts, les moyens et les longs. On obtient ainsi des gants d'une coupe très harmonieuse et très sensiblement supérieure à celle d'autrefois.
         </p>
-       </div>
-       <div n="005" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_21">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_21">
          § 21. NOMBRE ET SALAIRES DES OUVRIERS GANTIERS DE GRENOBLE.
         </head>
-        <p xml:id="para_22_510_406">
-         <pb facs="#facs_527" n="510" source="s2lesouvriersdes01sociuoft_0576.xml"/>La mégisserie exercée autrefois à Grenoble, même sur une grande échelle, n'occupait plus en 1865 que 10 établissements formant un en¬semble de 250 ouvriers. A cette industrie se rattache le commerce des ufs employés à la préparation des peaux. On ne peut estimer àmoins de 50.000 par semaine le nombre d'œufs consommés à renoble seule¬ment pour cet usage. Encore la plupart des peaux arrivent-elles toutes préparées de Lombardie, de Piémont, d'Allemagne et surtout d'An¬nonay, qui est le grand centre de mégisserie de peaux de chevreau et d'agneau. Il se vendait alors pour 20 millions de francs de peaux à Grenoble ; si nous rapprochons ce chiffre de celui de 30 à 33 mil¬lions qui représente le prix de la quantité de gants vendus annuelle¬ment, il en résulte que dans la valeur d'un gant, les deux tiers environ représentent le prix moyen de la peau, et l'autre tiers les dépenses de fabrication. Il faut en moyenne 8 peaux de chevreau pour faire une douzaine de paires de gants, Ce qui équivaut à dire qu'une peau fait 3 gants. Il en est à peu près de même des agneaux ; mais la consom¬mation des peaux de chevreaux est beaucoup plus considérable, à Grenoble du moins ; la proportion en faveur de celles-ci est environ de 1 à 5. Beaucoup de fabricants ne produisent que des gants de premier choix et n'emploient conséquemment que du chevreau. L'agneau sert aux gants de second choi, aux gants blancs en particulier ; on en fait aussi, en l'habillant avec de l'huile, des peaux dites de castor.
+<p xml:id="para_22_510_406">
+<pb facs="#facs_527" n="510" source="s2lesouvriersdes01sociuoft_0576.xml"/>La mégisserie exercée autrefois à Grenoble, même sur une grande échelle, n'occupait plus en 1865 que 10 établissements formant un en¬semble de 250 ouvriers. A cette industrie se rattache le commerce des ufs employés à la préparation des peaux. On ne peut estimer àmoins de 50.000 par semaine le nombre d'œufs consommés à renoble seule¬ment pour cet usage. Encore la plupart des peaux arrivent-elles toutes préparées de Lombardie, de Piémont, d'Allemagne et surtout d'An¬nonay, qui est le grand centre de mégisserie de peaux de chevreau et d'agneau. Il se vendait alors pour 20 millions de francs de peaux à Grenoble ; si nous rapprochons ce chiffre de celui de 30 à 33 mil¬lions qui représente le prix de la quantité de gants vendus annuelle¬ment, il en résulte que dans la valeur d'un gant, les deux tiers environ représentent le prix moyen de la peau, et l'autre tiers les dépenses de fabrication. Il faut en moyenne 8 peaux de chevreau pour faire une douzaine de paires de gants, Ce qui équivaut à dire qu'une peau fait 3 gants. Il en est à peu près de même des agneaux ; mais la consom¬mation des peaux de chevreaux est beaucoup plus considérable, à Grenoble du moins ; la proportion en faveur de celles-ci est environ de 1 à 5. Beaucoup de fabricants ne produisent que des gants de premier choix et n'emploient conséquemment que du chevreau. L'agneau sert aux gants de second choi, aux gants blancs en particulier ; on en fait aussi, en l'habillant avec de l'huile, des peaux dites de castor.
         </p>
-        <p xml:id="para_22_510_408">
+<p xml:id="para_22_510_408">
          On comptait à Grenoble, en 1865, 400 a 500 ouvriers occupés à la teinturerie proprement dite. Il faut y rattacher l'industrie singulière de la récolte et de la vente des urines, cmployées comme mordants. Tous les matins un certain nombre de femmes, dont c'est le princi¬pal travail, se répandent dans les maisons de la ville où elles sont au¬torisées à entrer. Elles débarrassent les vases de nuit du liquide qui s'y trouve contenu, et qui leur est abandonné gratuitement. Elles ven¬dent aux teinturiers cette urine (qui doit être renouvelée chaque jour)
         </p>
-        <p xml:id="para_22_510_409">
+<p xml:id="para_22_510_409">
          2 francs et 2ᶠ 50l'hectolitre. Chaque femme en moyenne peut gagner cette somme dans sa matinée, c'est-à-dire que cette industrie, tout infime qu'elle paraisse, est plus rémunératrice que celle des coutu¬riè res ou des brodeuses.
         </p>
-        <p xml:id="para_22_510_410">
+<p xml:id="para_22_510_410">
          Quant à la ganterie proprement dite, on peut juger de son impor<pb facs="#facs_528" n="511" source="s2lesouvriersdes01sociuoft_0577.xml"/>tance par les tableaux ci-dessous. Nous les avons recueillis et contro¬lés d'après les déclarations des grands fabricants de Grenoble.
         </p>
-        <p xml:id="para_22_511_413">
+<p xml:id="para_22_511_413">
          La ganterie de Grenoble est relativement d'origine moderne. L'En¬ccopédie ne mentionne même pas la capitale du Dauphiné parmi les villes occupées de cette industrie. Dès la fin du règne de Louis NV cependant, la fabrication des gants prend à Grenoble une certaine importance, puis augmente et diminue successivement avec les guerres de la Révolution et de l'Empire. La période de paix qui s'ouvre à 1815 favorise l'exportation des gants de Grenoble, qui dès lors lutte avec Paris. L'année 1826 ouvre une ère de prospérité ; c'est l'époque du traité de commerce avec l'Angleterre. Le gant fraņais, prohibé jusqu'alors, entre chez nos voisins moyennant un droit de 5 francs par douzaine. C'est l'époque aussi où comence l'exportation aux tats-Unis, en Amérique et aux colonies dont le commerce constitue, surtout pour Grenoble, un débouché avanta¬geux. Peu de temps après, en 1835, les perfectionnements de Navier Jouvin assurent à l'industrie de Grenoble une supériorité marquée. La révolution de 1848 n'apporte qu'un trouble médiocre à cet état pros¬père. En 1862, le traité de commerce et le libre échange éveillent de grandes espérances, dont la guerre d'Amérique paraît expliquer la tardive réalisation. Néanmoins les documents recueillis en 1865 té¬moignent encore d'une heureuse situation.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_1">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_1">
           Développement de l'industrie de la ganterie de Grenoble dans une période de 15 ans [notes annexes]
          </head>
-         <graphic facs="#facs_528" url="#"/>
-        </figure>
-        <!--<p xml:id="para_22_511_415">
+<graphic facs="#facs_528" url="#"/>
+</figure>
+<!--<p xml:id="para_22_511_415">
          Années. Gants produits annuellement. Ouvriers employés.
          </p>
          <p xml:id="para_22_511_416">
@@ -1637,19 +1636,19 @@
          <p xml:id="para_22_511_418">
          1865 1.800.000 27.300 —
          </p>-->
-        <p xml:id="para_22_511_419">
+<p xml:id="para_22_511_419">
          Une enquête privée a fourni les chiffres suivants qui, bien qu'ap¬proximatifs, devaient être très près de la réalité :
         </p>
-        <p xml:id="para_22_511_420">
+<p xml:id="para_22_511_420">
          Personnes occupees en 1865 par l'industrie de la anterie, â Grenoble.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_2">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_2">
           Personnes occupées en 1865 par l'industrie de la ganterie, â Grenoble [notes annexes]
          </head>
-         <graphic facs="#facs_528" url="#"/>
-        </figure>
-        <!--<p xml:id="para_22_511_421">
+<graphic facs="#facs_528" url="#"/>
+</figure>
+<!--<p xml:id="para_22_511_421">
          Commis, employés, ouvriéres travaillant a la journée (pour étiqueter, numéroter, terminer
          </p>
          <p xml:id="para_22_511_422">
@@ -1676,16 +1675,16 @@
          <p xml:id="para_22_511_429">
          24.000 — 1ᶠ00 1ᶠ50
          </p>-->
-        <p xml:id="para_22_512_430">
+<p xml:id="para_22_512_430">
          Personnes occupees par des industries se rattachant ae la ganterie.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_3">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_3">
           Personnes occupees par des industries se rattachant à la ganterie [notes annexes]
          </head>
-         <graphic facs="#facs_529" url="#"/>
-        </figure>
-        <!--<p xml:id="para_22_512_431">
+<graphic facs="#facs_529" url="#"/>
+</figure>
+<!--<p xml:id="para_22_512_431">
          Mej§SeTS........ .... ............................................... . 25)
          </p>
          <p xml:id="para_22_512_432">
@@ -1700,13 +1699,13 @@
          <p xml:id="para_22_512_435">
          Ttal.................... 950
          </p>-->
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_4">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_4">
           Commerce annuel de la ganterie de Grenoble en 1865 [notes annexes]
          </head>
-         <graphic facs="#facs_529" url="#"/>
-        </figure>
-        <!--<p xml:id="para_22_512_437">
+<graphic facs="#facs_529" url="#"/>
+</figure>
+<!--<p xml:id="para_22_512_437">
          Pour l'Angleterre et les Indes.............................. 600.000 douzaines.
          </p>
          <p xml:id="para_22_512_438">
@@ -1724,40 +1723,40 @@
          <p xml:id="para_22_512_442">
          1.000.000 —
          </p>-->
-        <p xml:id="para_22_512_443">
-         <pb facs="#facs_529" n="512" source="s2lesouvriersdes01sociuoft_0578.xml"/> D'après ces chiffres énormes de production et d'exportation on se¬rait tenté de croire que la fabrication de Grenoble fournit à elle seule le commerce du monde entier. Il n'en est rien cependant ; l'Italie, l'Espagne, et la lussie se livrent, quoique dans des proportions moin¬dres, à cette même industrie. Quant à la France, cinq villes se par¬agent à elles seules la fabrication totale : Grenoble d'abord ; puis celles que voici :
+<p xml:id="para_22_512_443">
+<pb facs="#facs_529" n="512" source="s2lesouvriersdes01sociuoft_0578.xml"/> D'après ces chiffres énormes de production et d'exportation on se¬rait tenté de croire que la fabrication de Grenoble fournit à elle seule le commerce du monde entier. Il n'en est rien cependant ; l'Italie, l'Espagne, et la lussie se livrent, quoique dans des proportions moin¬dres, à cette même industrie. Quant à la France, cinq villes se par¬agent à elles seules la fabrication totale : Grenoble d'abord ; puis celles que voici :
         </p>
-        <p xml:id="para_22_512_444">
+<p xml:id="para_22_512_444">
          Paris, environ les 4/5 de celle de Grenoble, soit..................... 800.000 douzaines.
         </p>
-        <p xml:id="para_22_512_445">
+<p xml:id="para_22_512_445">
          Chaumont et Troyes, environ 1,3 de ceelle de Grenoble, soit...... . 330.000 —
         </p>
-        <p xml:id="para_22_512_446">
+<p xml:id="para_22_512_446">
          Millau (Aveyron), environ 1/4 de celle de Grenoble, soit. . .......... 250.000 —
         </p>
-        <p xml:id="para_22_512_447">
+<p xml:id="para_22_512_447">
          Saint-.unie (Haute-Vienne) environ 14 de celle de Grenoble, soit.. 250.000 —
         </p>
-        <p xml:id="para_22_512_448">
+<p xml:id="para_22_512_448">
          Cela donne en 1865, pour total de la production franaise annuelle. 2. 630. 000 douzaines. de paires de gants.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_5">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_5">
           Commerce annuel de la ganterie de Grenoble en 1886 [notes annexes].
          </head>
-         <graphic facs="#facs_529" url="#" xml:id="illu_22_512_13"/>
-        </figure>
-        <p xml:id="para_22_512_450">
+<graphic facs="#facs_529" url="#" xml:id="illu_22_512_13"/>
+</figure>
+<p xml:id="para_22_512_450">
          L'Angleterre, qui se fournissait uniquement à Grenoble, prend aujourd'hui en grande partie sa ganterie en Belgique, à Bruxelles notamment. La lussie, qui figurait en 1865 pour 175.000 douzaines, <pb facs="#facs_530" n="513" source="s2lesouvriersdes01sociuoft_0579.xml"/> fabrique entièrement elle-même. Il en est de même de l'Allemagne, de l'Espagne, du Portugal, et de l'ltalie. qui depuis longtemps nous avait devancés dans cette voie. En résumé, ces diverses mutations constituent pour la fabrication annuelle de Grenoble une diminution totale de 450.000 douzaines. Les autres centres de la fabrication fran¬çaise ont vu leur production diminuer dans une plus large mesure encore.
         </p>
-        <figure type="table">
-         <head resp="original" type="table" xml:id="figure_6">
+<figure type="table">
+<head resp="original" type="table" xml:id="figure_6">
           Evolution de la production annuelle française de gant de 1865 à 1886 [notes annexes]
          </head>
-         <graphic facs="#facs_530" url="#"/>
-        </figure>
-        <!--<p xml:id="para_22_513_453">
+<graphic facs="#facs_530" url="#"/>
+</figure>
+<!--<p xml:id="para_22_513_453">
          Grenoble . .. ......... ... ....... .
          </p>
          <p xml:id="para_22_513_454">
@@ -1766,85 +1765,85 @@
          <p xml:id="para_22_513_455">
          Saint-Junien (laute-Vienne).. .. Millau (Aveyron)................
          </p>-->
-        <p xml:id="para_22_513_456">
+<p xml:id="para_22_513_456">
          On attribue cette diminution au développement de l'industrie gan¬tiêre en ltalie, en spagne, en Portugal en Belgique, en Allemagne et en Russie. Ajoutons que, parmi les fabricants de Grenoble nouvel¬lement installés avec un outillage très perfectionné, plusieurs sont étrangers, Anglais ou Américains ; leur production, si elle profite en partie à nos ouvriers, s'écoule à l'étranger. Le bénéfiee de ees objets fabriqués en France, par des mains ou du moins par des maisons étrangeres, ne profite donc pas au pays.
         </p>
-        <p xml:id="para_22_513_457">
+<p xml:id="para_22_513_457">
          Les exigences de la mode et la forme des gants sont venus cepen¬dant atténuer en partie les effets de cette diminution. D'une part. l'u¬sage des gants dits de peau de Suêde, a diminué le prix mopen de la paire de gants ; mais, d'un autre côté, les gants longs fort usités aujour¬d'hui, qui comptent quelquefois jusqu'à huit rangs de boutons, deman¬dent un travail plus coûteux, une peau plus large, une main-d'œu¬vre plus considérable. Ce caprice de la mode a maintenu le ehiffre du produit en argent malgré la diminution du nombre d'artieles fabri¬qués ; il eût suffi, assure-t-on, à équilibrer le chiffre des affaires : mais, par suite de progrès dans les procédés de fabrication. la baisse étant de 30 0 0 environ, il en est résulté une perte qui n'est point contestable.
         </p>
-        <p xml:id="para_22_513_458">
+<p xml:id="para_22_513_458">
          Pour la ganterie, la grande industrie tend à remplaéer la petite. La multiplicité des demandes . la variété des formes et des cou¬leurs, les progrès de l'outillage et de la fabrication exigent de vastes ateliers, une unité de direction puissante et un capital consi¬dérable. Aussi les petits fabricants ont presque complètement disparu <pb facs="#facs_531" n="514" source="s2lesouvriersdes01sociuoft_0580.xml"/> aussi bien que les ouvriers et les ouvrières en chambre ou à la cam¬page. Les labricants, en 1886, ne sont plus qu'une cinquantaine; il fabriquent à peu pres la moitié moins qu'autrefois, et ils em¬ploient certainement une proportion d'ouvriers inférieure à la moitié.
         </p>
-        <p xml:id="para_22_514_468">
+<p xml:id="para_22_514_468">
          La lacilité des transports, les grandes maisons de commerce cen¬tralisé ont aussi modifié dans une large mesure les conditions de la vente des produits. L'industrie est aujourd'hui absolument subor¬donnée au commerce ; le patron, si élevée que soit la perlection de son outillage et de sa main-d'œuvre, n'a rien fait s'il n'a pu en ème temps s'assurer l'écoulement de sa marchandise. Aussi voit-on aujourd'hui les chefs des grandes maisons de ganterie quitter tGire¬noble. et voyager au loin pour placer leurs produits. ls n'y arrivent pas toujours. et beaucoup sont obligés de restreindre leur fabrication.
         </p>
-        <p xml:id="para_22_514_469">
+<p xml:id="para_22_514_469">
          Voilà pourquoi aussi les fabricants étrangers installés dans l'sère ont une concurrence si terrible à notre industrie. Ils ne sont ps seulement admirablement outillés: ils n'ont pas seulement 300 cou¬peurs et l0 ouvrières travaillant à la journée, alors que les maisons rancaises n'ont que 15 coupeurs et l0 ouvrières. Par-dessus tout ils ont en Angleterre, en Amérique. le placement assuré de leurs pro¬duits.
         </p>
-       </div>
-       <div n="006" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_22">
+</div>
+<div n="006" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_22">
          § 22. SOCIÉTÉ DE PRÉVOYANCE DES GANTIERS DE GRENOBLE.
         </head>
-        <p xml:id="para_22_514_472">
+<p xml:id="para_22_514_472">
          La Sociéte de prevogance des gantiers de Grenoble ne recoit que des ommes de probite et d'honneur.  être admis et y rester est donc déjà une granlie et une protection contre les vices, l'intempérance, la débauche. kElle a pour but de subventionner les sociétaires malades sans ourage ou adges d'au moins soixante-cinq ans. Dans le premier cas, elle allouc par chaque jour de maladie une subvention, qui est en général de 1 franc et qui peut s'élever plus haut par suite de l'augmentation des dividendes de la caisse, au moyen d'un supplé¬ment de cotisation versé à la caisse dite suppdemenlare. C'est en quelque sorte une double assurance. Elle fournit gratuitement des remèdes, des visites de médecin, des voyages aux eaux, des secours de toute naure. tContre le chômage, elle assure aux membres sans travail une llocation égale à celle des malades. Contre la vieil<pb facs="#facs_532" n="515" source="s2lesouvriersdes01sociuoft_0581.xml"/>lesse, elle alloue au membre qui a attéint soixante-cinq ams, même travaillant encore, un cinquième di traitement d'un membre sans ou¬vrage, et s'il a soixante-dix ans révolus, elle le considère comme pen¬sionnaire de la société et lui alloue le même traitement que dans les deux catégories ci-dessus.
         </p>
-        <p xml:id="para_22_515_474">
+<p xml:id="para_22_515_474">
          La cotisation mensuelle des membres sociétaires est de ᶠ(60; i on demande maintenant par quel moyen une société peut constituer un fonds asse puissant pour assurer à ses vieillards une caisse de retraite aussi généreuse, nous répondrons que son mécanisme repose uni¬quement sur la quotité des droits d'entrée basés sur l'âge du sociétaire. Ainsi la subvention mensuelle de 1ᶠ 60 suffit à fournir les secours de maladie :mais la caisse des retraites, qui ne forme point cependant une caisse à part, fournit des rentes viagères à ses vieillard au moyen des droits percus sur chaque entrée. Le sociétaire entrant à vingt ans paye 30 francs ; ce droit est soumis à une augmentation progressive par année d'âge en plus : à trente ans, il est de 55 francs de 80 francs à trente-si et de 100 francs à quarante ans. ln un mot, le droit d'entrée augmente avec les chances de mort et à me¬sure aussi qu'on se rapproche de l'âge qui donne droit à la re¬traite. Après quarante ans, nul n'est plus admis. et l'appor pro¬tite en cas de décès à la Société. Ce mode de formation d'une caisse de retraite nous parait bien supérieur à celui usité généralement, qui est pris sur l'excédent des cotisations : car les maladies et les dépenses peuvent, à certaines années, dépasser les ressources sur lesquelles on avait compté. Au reste, la Société de prévoyance des gantiers date de 1803; elle avait en caisse, en 1864, toutes dépenses payées . une somme dépassant 1))0.0))0 francs, et ses ressources n'ont pas depuis cessé de s'accroitre.
         </p>
-        <p xml:id="para_22_515_475">
+<p xml:id="para_22_515_475">
          En 1886. l'auteur relit ce paragraphe, après un supplément d'en¬quête, et il n'a rien à modifier de ce qu'il a écrit vingt ans aupara¬
         </p>
-       </div>
-       <div n="007" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_23">
+</div>
+<div n="007" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_23">
          § 23. SOCIÉTÉ COOPÉRATIVE DE GRENOBLE DITE L'ASSOCIATION ALIMENTAIRE. FONDÉE EN 1851.
         </head>
-        <p xml:id="para_22_515_478">
+<p xml:id="para_22_515_478">
          côté des associations de secours mutuels établies à Grenolle de¬puis longues années, eiste une association d'un caractère et d'un ordre différent, bien qu'émanant du même principe. Nous vulons <pb facs="#facs_533" n="516" source="s2lesouvriersdes01sociuoft_0582.xml"/> parler de l'ssociation alimentaie établie'à Grenoble au commence¬ment de 1851. Cette association i'est pas autre chose qu'une societé ceopergtive de consommation, mais elle a cela de remarquable qu'elle s'est formée sous l'inspiration d'un homme de bien, M. Taulier, à une époque où le mot de cooperation n'eistait point encore, où l'idée coopérative, surtout celle qui a pour objet la consommation, avait à peine germé dans quelques esprits avancés alors enfin qu'aucune société semblable n'était venue servir d'exemple ou d'encouragement à ceux qui auraient été entés de l'imiter.
         </p>
-        <p xml:id="para_22_516_480">
+<p xml:id="para_22_516_480">
          Le but du fondateur a été de délivrer les femmes douvriers (pres¬que toutes occupées aux travau de la ganterie), des soucis de la cuisine et du ménagre ; de les affranchir de toute dépendance vis-à-vis du boucher, du boulanger et de tous les fournisseurs, chez lesquels il est si commode de contracter des dettes ; enfin d'arracher, par l'appàt du bon marché, la population ouvrière aux dangers du cabaret et de l'estaminet. La Société alimentaire de Grenoble n'a pas cessé de pros¬pérer depuis 1852, et le nombre des aliments qu'elle a fournis n'a cessé de croitre, andis que ses économies et son fonds de réserve allaient sans cesse en augmentant. Contrairement aux Sociétés angglaises de con¬sommation, qui vendent au pri courant leurs denrées et partagent à la in de l'année les bénéfices entre les acheteurs et les sociétaires, proportionnellment aux achats, l'ssociation alimentaire de Gre¬noble ne donne point de dividendes et s'interdit de spéculer sur le priN de la vente ; en sorte que l'acheteur sociétaire profite du bon marché qui lui est fait et bénéficie en détail de tous les avantages que présentent des acquisitions faites en gros. Il n'y a pas non plus de mauvaises années ou d'années sans bénéfices, puisque la Société livre toujours ses aliments au même prix, quitte à se récupérer dans une année d'abondance des pertes faites pendant une année de di¬ette. Au reste, pour apprécier à sa juste valeur l'Association alimen¬taire, nous extrayons d'une brochure imprimée à Grenoble, vers 1860, quelques passgcs qui en donnent une idée exacte aussi bien en 1865 qu'en 1886.
         </p>
-        <p xml:id="para_22_516_481">
+<p xml:id="para_22_516_481">
          LAssociation alimentaire est une réunion de personnes qui font préparer leurs ali¬ments dans une cuisine commune, soit pour les emporter à domicile, soit pour les con¬sommer dans des éfectoires attenant à la cuisine même. Le titre de sociétaire s'ac¬quiert au moyen d'une carte qui, selon l'une ou l'autre hypothése, coùte 25 ecentimes ou 1 franc par an. Le sociétaire porteur de sa carte se préscnte d'abord à un guichet situe dans la cour de l'etablissement, aux heures indiquées, c'est-à-dire de 7 heures à 9 heures, puis de 11 heures a 2 heures, et le soir de 6 heures à 8 heures et demie. Au guichet, il achète des jetons. Il y a six espèces de jetons : soupe, viandes, légumes, vin, pain, dessert.
         </p>
-        <p xml:id="para_22_517_483">
-         <pb facs="#facs_534" n="517" source="s2lesouvriersdes01sociuoft_0583.xml"/> Ces jetons portent d'un cote les armes de la ville de Grenoble, de l'autre est inscrit le nom de la denrée qu'ils représentent. Le sociétaire muni de jetons demande les aliments auxquels il a droit et livre en échange de chaque ration qu'il rȩoit le jeton correspon¬dant. Les rations sont ainsi composées et taxées : 1ᵉ° Soupe (1 litre), 10 centimes ; ¬2° iande environ 130 à 200 grmmes, ou poisson sec et cuit), 20 centimes ; — 3° Ler gees (une bonne assiettée), 10 centimes ; — 4° im (25 centilitres), 10 centimes ; — 5° Pain (130 grammes environ), 5 centimes ; — 6° Dessert, 10 centimes. Un sociétaire ne pe ut consommer plus d'un demi-litre de vin par repas. Nulle soupe de ménage ne vaut la soupe de l'association alimentaire : le pain, la viande, fournis par un boulanger et plu¬sieurs bouchers avec lesquels des marchés ont été passés, sont de première qualité. Les lég umes apportés chaque matin ou achetés par grosse provision sont parfaitement choisis ; le vin est bon, entièrement pur, oujours acheté longtemps d'avance. Les desserts se composent de portions de fromage, de fruits très variés, cuits ou crus, entiers ou frac¬tionnés, selon l'espèce. Parmi les fruits figurent les oranges, les fraises, et celes-ci Sont assaisonnées avec du sucre. Tous les mets sont préparés et servis avec une propreté extrême. Les convives de l'intérieur apportent eux-mémes leurs rations sur la table ou ils veulent se pacer. Là ils trouvent assiettes, cuiller, fourchette, couteau, verre, carafe, sel, poivre, vinaigre et moutarde. Les assiettes sont en porcelaine opaque ; les cuillers et fourchettes en fer battu et étamé. A l'entrée de l'établissement est un tableau qui fait connaitre les mets préparés pour ciaque repas. De 7 heures à 9 heures du matin, on ne délivre que du pain, du vi, de la soupe et des desserts. Il y a deux réfectoires : l'un, exclusivement réservé aux femmes qui veulent étre seules, ou aux familles, a 7 mètres de long sur 6 de large : l'autre, ou les convives peuvent se mêler indistinctement, se compose de deux pièces communiquant entre elles. L'une a 16 métres sur 6, la seconde a 9 mètres sur 5.
+<p xml:id="para_22_517_483">
+<pb facs="#facs_534" n="517" source="s2lesouvriersdes01sociuoft_0583.xml"/> Ces jetons portent d'un cote les armes de la ville de Grenoble, de l'autre est inscrit le nom de la denrée qu'ils représentent. Le sociétaire muni de jetons demande les aliments auxquels il a droit et livre en échange de chaque ration qu'il rȩoit le jeton correspon¬dant. Les rations sont ainsi composées et taxées : 1ᵉ° Soupe (1 litre), 10 centimes ; ¬2° iande environ 130 à 200 grmmes, ou poisson sec et cuit), 20 centimes ; — 3° Ler gees (une bonne assiettée), 10 centimes ; — 4° im (25 centilitres), 10 centimes ; — 5° Pain (130 grammes environ), 5 centimes ; — 6° Dessert, 10 centimes. Un sociétaire ne pe ut consommer plus d'un demi-litre de vin par repas. Nulle soupe de ménage ne vaut la soupe de l'association alimentaire : le pain, la viande, fournis par un boulanger et plu¬sieurs bouchers avec lesquels des marchés ont été passés, sont de première qualité. Les lég umes apportés chaque matin ou achetés par grosse provision sont parfaitement choisis ; le vin est bon, entièrement pur, oujours acheté longtemps d'avance. Les desserts se composent de portions de fromage, de fruits très variés, cuits ou crus, entiers ou frac¬tionnés, selon l'espèce. Parmi les fruits figurent les oranges, les fraises, et celes-ci Sont assaisonnées avec du sucre. Tous les mets sont préparés et servis avec une propreté extrême. Les convives de l'intérieur apportent eux-mémes leurs rations sur la table ou ils veulent se pacer. Là ils trouvent assiettes, cuiller, fourchette, couteau, verre, carafe, sel, poivre, vinaigre et moutarde. Les assiettes sont en porcelaine opaque ; les cuillers et fourchettes en fer battu et étamé. A l'entrée de l'établissement est un tableau qui fait connaitre les mets préparés pour ciaque repas. De 7 heures à 9 heures du matin, on ne délivre que du pain, du vi, de la soupe et des desserts. Il y a deux réfectoires : l'un, exclusivement réservé aux femmes qui veulent étre seules, ou aux familles, a 7 mètres de long sur 6 de large : l'autre, ou les convives peuvent se mêler indistinctement, se compose de deux pièces communiquant entre elles. L'une a 16 métres sur 6, la seconde a 9 mètres sur 5.
         </p>
-        <p xml:id="para_22_517_484">
+<p xml:id="para_22_517_484">
          L'association est administrée par une commission de 15 membres nommés en assem¬blée générale. IH y a en outre un comité de 100 membres choisis par la commission et dont beaucoup appartiennent aux premiers rangs de la population. Tous les jours trois membres de ce comité sont de service dans l'établisscment ; l'un reçoit les jetons au gui¬chet extérieur ; avec un second, il surveille en même temps la distribution. Le troisième parcourt les réfectoires. Le personnel salarié est ainsi constitué : un commissaire ou di¬recteur général, trésorier, 100 francs par mois ; un économe, 85 francs ; un agent comp¬table, 75 francs ; un cuisinier en chef, 60 francs ; un deuxiéme cuisinier, 50 francs ; un sommelier, 50 francs ; divers cmployés subalternes, de 20 à 40 francs. A ces frais gé¬néraux il fat principalement ajouter le loyer, l'éclairage qui est au ga, le chauffage et la nourriture des employés. Chaque soir les commissaires de service comptent les jetons versés pendant le jour dans des boites à six compartiments. Les commissaires et Téconome mentionnent sur un livre spécial le nombre de jetons qu'ils ont trouvés. Ces jetons, placés ensuite par nombre de 50 dans de petites boites de fer-blanc, sont remis à 'agent comptable. Le commissaire directeur inscrit sur soun livre à la page Entrée la totalité des jetons, à la page Sortie le nombre de ceux qui ont été livrés à l'agent comp¬table. L'agent comptable inscrit a son tour sur son livre à la page ntrée les jetons qu'il a reçus, à la page Sortie ceux qu'il a vcndus. L'on connait ainsi jour par jour le nombre et l'espéce des jetons soit vendus soit consommés, et par conséquent la valeur en argent des uns et des autres. A la fin de chaque mois, le président de la commission administrative, d'après les notes que lui remet l'éeonome et qu'il vériie, délivre aux fournisseurs des mandats sur le trésorier. Enin les livres de comptabilité générale sont tenus par le président.
         </p>
-       </div>
-       <div n="008" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_24">
+</div>
+<div n="008" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_24">
          § 24. SUR CERTAINES RESTRICTIONS TRADITIONNELLES APPORTÉES A LA LIBERTÉ DE L'APPRENTISSAGE.
         </head>
-        <p xml:id="para_22_517_487">
+<p xml:id="para_22_517_487">
          Il existe dans l'industrie des gantiers de trenoble une sorte d'ac¬cord tacite entre les ouvriers pour ne pas former d'apprentis autres <pb facs="#facs_535" n="518" source="s2lesouvriersdes01sociuoft_0584.xml"/> que leurs fil ou les orphelins d'un gantier décédé. Cette restriction à la liberté du travail est sans doute un reste des traditions de l'an¬cienne corporation des gantiers ; cependant on peut dire que les ouvriers ont dû redouter la surabondance des nouveau venus attirés par l'appàt d'un apprentissage facile et d'un travail rémunérateur. Ce n'est d'ailleurs pas là un fait unique, on l'observe, là et ailleurs, dans beaucoup de corps de métiers. l est vrai que cette coutume est presque chaque jour éludée ; on prend chez soi des apprentis qu'on fait passer pour des fils ou des neveux. Beaucoup de coupeurs ou autres ouvriers se font aider par des appreuntis non seulemet étrangers à leur famille, mais même étrangers au pays. Le niveau de la moralité a tellement baissé à Grenoble. qu'on ne peut trouver d'enfants soumis et dociles pour l'apprentissage. Ils sont presque toujours indisciplinés et dépravés avant l'âgge. On remarque toutefois que les apprentis ita¬liens sont très recherchés ; ils sont généralement mieux élevés et plus Soumis aux patrons. Les mégissiers surtout en emploient un grand nom¬bre de treize à vingt ans. La fraude est moins facile à Grenoble, où les ouvriers se connaissent, puis les patrons eux-mêmes favorisent peu l'apprentissage des jeunes ouvriers. Souvent ils n'accordent à un coupeur de gants l'autorisation de former un apprenti qu'à ses risques et périls, le menacant de refuser impitoyablement tout travail qui ne sera pas irréprochable ; en sorte que l'ouvrier lui-même est peu in¬téressé à associer personne à son ouvrage. Enfin le rerlement de la ocieté de secours mautuels des gantiers se fait le complice de cette res¬triction apportée à la liberté de l'apprentissage. Ne serait-il pas bon d' abroger les articles suivants
         </p>
-        <p xml:id="para_22_518_489">
+<p xml:id="para_22_518_489">
          AT. 53. — Tout societauire se dis posat a prendre un apprenti, n'importe la qualité de celui-ci, doit, avant de l'occuper, en faire la déclaration par écrit au conseil d'ad ministration, en s'engageant à verser pour ee fait une somme de 40 francs dans la caisse de la Société. — ARr. 100. — Celui qui n'ayant pas fait la déclaration voulue par l'art. 53 occuperait un apprenti, sera contraint a une amende de 2 francs. Cette amende triplerait s'il est prouvé que le membre est en contravention depuis plus d'un mois ; le tout san préjudice de la somme versee par l'article 53. — ART. 113. — ont exemptés du paie¬ment de la somme ixée par l'art. 53 concernant les apprentis : 1ᵉ eeux dont l'apprenti aurait déjà versé cette somme en travaillant avec un autre ; 2° ceux dont l'apprente serait fils d'unmembre de la société; 3° ceux dont l'apprenti aurait déjà travaille comme ouvrier pendant trois mois, ce qui résulterait de son livret. n
         </p>
-        <p xml:id="para_22_518_490">
+<p xml:id="para_22_518_490">
          Ce dernier article fait voir qu'il ne s'agit nullement ici d'une me¬sure purement fiscale, mais que le but réel est d'éloigner de l'appren¬tissage et du métier tous ceux qui n'y sont pas déjà entrés à un titre quelconque.
         </p>
-       </div>
-       <div n="009" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_25">
+</div>
+<div n="009" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_25">
          § 25. DE L'EXTENSION RÉCENTE DE LA VILLE DE GRENOBLE.
         </head>
-        <p xml:id="para_22_519_493">
-         <pb facs="#facs_536" n="519" source="s2lesouvriersdes01sociuoft_0585.xml"/>La ville de Grenoble comptait. en 1865, 35.000 habitants. a popu¬lation s'élevait en 1870 a 40.000; elle est aujourd'hui, en 1886. de 58.000 habitants, et ce chiffre tend sans cesse à augmenter. En 1865. un quartier neuf avec de larges avenues. des squares, des maisons à quatre ou cinq étages, avait donné à la ville un aspect de grandeur, d'élégance et de richesse qui contrastait avec les vieilles rues étroites et sombres de l'ancienne cité. Depuis la guerre. la popu¬lation ouvrière s'est portée du côté du chemin de fer. et tairenoble a Vu presque doubler sa population dans le quartier Saint-Bruno (du nom de l'égrlise qu'il dessert. Là se trouvent les maisons ouvrières . les grandes usines, les industries diverses, et aussi des villas et des mai¬sons de campagne aérées, ombragées de grands arbres. qui donnent. à ce quartier populeux et laborieux l'aspect de la richesse et du luxe. Plusieurs industriels ont construit leur maison de caumpagne à côté des établissements de mégisserie. de teinturerie ou autres qu'ils e¬ploitent. ls ont à leur portée de l'eau, des réservoirs, de vastes ma¬gasins. un outillage mieux installé que dans le centre de la ville, et en outre ils peuvent, sans quitter leur maison, surveiller leurs travaux et vaquer aux soins de leur industrie. L'église de aint-Bruno, aux vastes proportions, au style majestueux et sobre, a été en grande partie élevée aux frais des religieux de la rande-tChartreuse. qui sont les bienfaiteurs de la contrée, et viennent dans une large mesure en aide à la plupart des euvres de bienfaisance, d'enseignement et de dévotion religieuse du département de l'Isêre.
+<p xml:id="para_22_519_493">
+<pb facs="#facs_536" n="519" source="s2lesouvriersdes01sociuoft_0585.xml"/>La ville de Grenoble comptait. en 1865, 35.000 habitants. a popu¬lation s'élevait en 1870 a 40.000; elle est aujourd'hui, en 1886. de 58.000 habitants, et ce chiffre tend sans cesse à augmenter. En 1865. un quartier neuf avec de larges avenues. des squares, des maisons à quatre ou cinq étages, avait donné à la ville un aspect de grandeur, d'élégance et de richesse qui contrastait avec les vieilles rues étroites et sombres de l'ancienne cité. Depuis la guerre. la popu¬lation ouvrière s'est portée du côté du chemin de fer. et tairenoble a Vu presque doubler sa population dans le quartier Saint-Bruno (du nom de l'égrlise qu'il dessert. Là se trouvent les maisons ouvrières . les grandes usines, les industries diverses, et aussi des villas et des mai¬sons de campagne aérées, ombragées de grands arbres. qui donnent. à ce quartier populeux et laborieux l'aspect de la richesse et du luxe. Plusieurs industriels ont construit leur maison de caumpagne à côté des établissements de mégisserie. de teinturerie ou autres qu'ils e¬ploitent. ls ont à leur portée de l'eau, des réservoirs, de vastes ma¬gasins. un outillage mieux installé que dans le centre de la ville, et en outre ils peuvent, sans quitter leur maison, surveiller leurs travaux et vaquer aux soins de leur industrie. L'église de aint-Bruno, aux vastes proportions, au style majestueux et sobre, a été en grande partie élevée aux frais des religieux de la rande-tChartreuse. qui sont les bienfaiteurs de la contrée, et viennent dans une large mesure en aide à la plupart des euvres de bienfaisance, d'enseignement et de dévotion religieuse du département de l'Isêre.
         </p>
-        <p xml:id="para_22_519_494">
+<p xml:id="para_22_519_494">
          Cette prospérité matérielle ne tourne malheureusement poin au profit des habitudes morales et de l'harmonie sociale. Non moins que Paris. Lyon et Marseille, Grenoble est une ville agitée, turbu¬lente, troublée par les passions politiques, les grêves, les conflits et les luttes avec les patrons. La population ouvrière est irréligieuse. peu morale, adonnée à l'ivrognerie. aux violences de toute nature en re¬vanche, l'esprit est ouvert à toutes les choses intellectuelles ; tous les enfant fréquentent les écoles : tous y sont instruits. pleins de facilité <pb facs="#facs_537" n="520" source="s2lesouvriersdes01sociuoft_0586.xml"/> et d'aptitude. A côté des écoles laiques, les frères et les surs n'ont cessé de voir prospérer leurs maisons, et dans le quartier Saint¬Bruno en particulier, l'école des Frêres qui ne recevait seulement 50 élèves la première année, en compterait quatre ans après, plus de 400 i l'établissement pouvait loger tous ceux qui se présentent. côté des écoles, les euvres religieuses se multiplient. Les Petites sœurs des pauvres jouissent dans la ville d'une popularité justement méritée. Les salles d'asile luttent avec succès contre les crèches mu¬nicipales. Ainsi dans une population nombreuse, ardente passionnée même, les saines traditions ne perdent pas leurs droits. Il faudra, quoi que l'on prétende, longtemps encore compter avec l'idée reli¬gieuse profondément gravée au cœur du peuple par un passé de dix-sept siècles souvent illustrés par le patriotisme uni à la saiunteté et au talent.
         </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </body>
- </text>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</text>
 </TEI>

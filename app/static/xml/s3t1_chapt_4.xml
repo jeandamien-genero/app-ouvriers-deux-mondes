@@ -1,428 +1,427 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie-->
-<TEI xml:id="ID-092b" xml:lang="fr">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 3, volume 1 - Transcription</title>
-    <respStmt>
-     <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>encodage scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>supervision technique</resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_114">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$129/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_115">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$130/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_116">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$131/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_117">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$132/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_118">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$133/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_119">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$134/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_120">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$135/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_121">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$136/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_122">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$137/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_123">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$138/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_124">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$139/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_125">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$140/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_126">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$141/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_127">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$142/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_128">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$143/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_129">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$144/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_130">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$145/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_131">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$146/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_132">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$147/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_133">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$148/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_134">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$149/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_135">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$150/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_136">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$151/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_137">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$152/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_138">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$153/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_139">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$154/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_140">
-  <surface lrx="2210" lry="3522"/>
-  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$155/full/full/0/default.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_4_61_1">N° 92 bis</p>
-     <p xml:id="para_4_61_2">PRECIS DUNE MONOGRAPHIE</p>
-     <p xml:id="para_4_61_3">PECHEUR-COTIER</p>
-     <p xml:id="para_4_61_4">MAITRE DE BARQUES</p>
-     <p xml:id="para_4_61_5">DE L'ARCHIPEL CHUSAN (CHINE)</p>
-     <p xml:id="para_4_61_6">OUVRIER-PROPRIÉTAIRE, CHEF DE MÉTIER DANS LE SYSTÈME DU TRAVAIL SANS ENGAGEMENT</p>
-     <p>d'après</p>
-     <p xml:id="para_4_61_7">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1857</p>
-     <p>PAR M. <persName>G-EUGÈNE SIMON</persName></p>
-     <p xml:id="para_4_61_8">Consul de France à Fou-Tchéou</p>
-     <p>COORDONNÉS</p>
-     <p xml:id="para_4_61_9">PAR M. <persName>PAUL ESCARD</persName><note type="bp">
-       <p>La Société d'économie sociale a cru intéressant, dans les circonstances actuelles, de publier quelques-uns des renseignements monographiques recueillis en Chine par M. E. Simon. Le temps, en effet, dans ce pays de la stabilité, n'en a pas altéré l'exactitude et la précision.</p>
-      </note>
-     </p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1. ETAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION</head>
-       <p xml:id="para_4_61_15"><pb facs="#facs_114" n="61" source="lesouvriersdesde0108sociuoft_0129.xml"/> Les côtes chinoises offrent un développement de plus de quinze cents lieues ; et, en avant de ces côtes, une foule d'îles s'échelonnent les unes <pb facs="#facs_115" n="62" source="lesouvriersdesde0108sociuoft_0130.xml"/> à la suite des autres, depuis le fond du golfe de Tong-King jusqu'aux bouches du Mang-Tsê-Kiang. Parmi ces archipels, celui de Chusan est, entre tous, d'une prodigieuse fécondité. Après l'agriculture et la naviga¬tion, on peut dire qu'il n'y a pas en Chine d'industrie plus répandue que celle de la pêche. La nature des lieux l'a voulu ainsi. C'est d'abord la longue étendue des rivages, offrant dans de nombreuses et profondes anfractuosités des abris commodes et sûrs. C'est ensuite, en avant de ces côtes, la multitude des îles qui s'alignent en files ou se groupent en archipels. En outre, dans l'intérieur, ce sont des fleuves aux cours larges et puissants, d'innombrables rivieres et de grands lacs ; enfin, jusque sur les hauts plateaux de la Mongolie, des lacs salés où se ren¬contrent des représentants de la faune marine. De telles conditions natu¬relles, dans un pays aussi peuplé que la Chine, où les besoins sont si impérieux, ont fait depuis longtemps de l'exploitation des eaux l'une des principales industries de la population.</p>
-       <p xml:id="para_4_62_19">Aussi le poisson entre-t-il pour une part importante dans la nourriture ordinaire. On estime que chaque Chinois consomme par an de 20 à 25 kilogrammes de poisson sec ou salé. Le chifre de 20 kilogrammes peut être considéré comme une moyenne pour toute la Chine, car il n'y a pas de localité qui ne puisse être approvisionnée, soit en poisson see qui s'expédie partout, soit en poisson frais dont toutes les rivières abondent.</p>
-       <p xml:id="para_4_62_20">En admettant que la Chine contienne 400 milions d'habitants, on voit qu'il ne lui faudrait pas moins de 8 milliards de kilogrammes de poisson par an, valant trois à quatre milliards de francs. Il y a donc là une branche d'industrie fort considérable, qui occupe environ huit à dix mil¬lions d'hommes. Malgré l'effrayante destruction qu'implique une pareille consommation, le poisson croit et se multiplie partout en abondance. Il n'y a pas de flaque d'eau formée par les dernières pluies où il n'appa¬raisse bientot ; il n'y a pas de rivières qui ne soit prête à fournir son contingent, et quant aux grands lacs, ce sont les plus beaux viviers que l'on puisse rêver. Mais, de ces viviers, il en est trois qui sont d'une merveilleuse richesse : le lac Po-Yang, qui a 32 lieues de tour ; le lac Tong-Ting qui en a 80; et, dans la mer, l'archipel Chusan.</p>
-       <p xml:id="para_4_62_21">Rien de plus beau, de plus grandiose que le lac Tong-Ting au jour levant. A sa surface flottent les vapeurs de la nuit, qui se divisent bientôt aux premiers rayons du soleil, et s'en vont au gré d'un vent léger puis apparaissent dans le lointain, sur le bleu verdatre du ciel, des montagnes qui s'élèvent du milieu de ses eaux ; bientôt surgissent <pb facs="#facs_116" n="63" source="lesouvriersdesde0108sociuoft_0131.xml"/> de tous côtés des essaims innombrables de voiles blanches. Ce sont les barques des pêcheurs ou des acheteurs qui se rendent dans les cantonne¬ments ; par leur mouvement tranquille, elles donnent à tout l'ensemble du spectacle une animation paisible, d'un charme singulier.</p>
-       <p xml:id="para_4_63_23">L'archipel Chusan ou Tchou-San, qui se trouve en face de la côte orientale de la Chine, au sud de Shanghai, est situé par 29°56' et 30°10' de latitude Nord; l'extrémité de l'île principale touche au 120° degré de longitude Est<note type="bp">
-         <p>La capitale Tang Haï est au milieu de la côte méridionale de l'île Chusan, par 30°1' de latitude Nord et 9°45'50'' de longitude Est.</p>
-        </note>. L'aspect en est tout à fait spécial. On ne voit pour ainsi dire rien que par surprise ; à peine a-t-on aperçu un convoi de petites barques qu'il disparait derrière l'une des quatre-vingts îles dont l'archipel est composé, et l'on ne découvre les cantonnements qu'au mo¬ment presque où l'on est déjà engagé au milieu des rues de ces grandes cités flottantes.</p>
-       <p xml:id="para_4_63_24">Un des cantonnements les plus importants de l'archipel Chusan est celui de Kin-Shan, île située aux confins du groupe et au nord de la grande île de Chusan. Il y a là quatre mille barques de toutes grandeurs, parmi lesquelles sont ceelles des pêcheurs que la présente monographie se propose d'étudier.</p>
-       <p xml:id="para_4_63_25">La famille de Seng-Kong-Chan, ainsi que celles de cinq ou six cents de ses confrères, habite au village de So-Kong-San (ou Zo-Kong-San), qui se trouve au nord de Ning-Po, dans la province de Tchê-Kiang.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Seng-ou-Chen  (n°092bE1) -  sa femme (n°092bE2) -  leur fils aîné (n°092bE3) -  la femme de celui-ci (n°092bE4) -  la plus jeune fille de Seng-ou-Chan (n°092bE5)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
-       <p xml:id="para_4_63_28">La famille se compose de cinq personnes :</p>
-       <p xml:id="para_4_63_29">1. <persName>SENG-OU-CHAN</persName>, né à Zo-Kong-San (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>)............ 42 ans.</p>
-       <p xml:id="para_4_63_30">2. <persName>Sa femme</persName>............ 40 —</p>
-       <p xml:id="para_4_63_31">3. <persName>Leur fils aîné</persName>, marié depuis un an............ 22 —</p>
-       <p xml:id="para_4_63_32">4. <persName>La femme</persName> de celui-ci............ 19 —</p>
-       <p xml:id="para_4_63_33">5. <persName>La plus jeune fille</persName> de Seong-ou-Chan............ 17 —</p>
-       <p xml:id="para_4_63_34">Le fils n'a pas encore d'enfants. Il est resté dans la communauté. Une première fille, âgée de 20 ans, est mariée comme son frère aîné : le cul¬tivateur qu'elle a épousé demeure à cinq lieues de So-Kong-San. La se¬conde fille est fiancée à un pêcheur propriétaire.</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
-       <p xml:id="para_4_64_38"><pb facs="#facs_117" n="64" source="lesouvriersdesde0108sociuoft_0132.xml"/> Malgré les obstacles que leur profession oppose à l'exercice du culte des ancêtres, qui est le fond le plus sérieux<note type="bp">
-         <p>Ce culte ne parait pas être idolâtrique. Les offrandes que l'on fait aux ta¬blettes familiales sont chose courante. Même aux vivants que l'on respecte, sans les adorer nullement, on présente, en certaines circonstances, de l'encens, des ali¬ments, etc. C'est un signe de sympathie, d'intérêt porte à toute la gen (humanité), aux morts comme aux vivants, sans plus ni moins de vénération.</p>
-        </note>des croyances des Chi¬nois, il faut pourtant reconnaitre que, chez les pêcheurs, ces croyances, avec leur cortège de superstitions, paraissent plus vives encore que dans les autres classes de la populatio. Ainsi, pour rien au monde, ils ne manqueraient à chaque départ et à chaque arrivée, oû qu'ils aillent et d'où qu'ils viennent, de brûler au moins quelques pétards et quelques paquets de papier. Mais il serait dificile de dire à quelle intention, et si les uns, les plus intelligents, le font pour se rendre le ciel favorable, beaucoup d'autres, le plus grand nombre peut-etre, n'ont pour but que de conjurer le mauvais sort ou d'apaiser quelque divinité redoutable, surtout le mauvais dragon. Ce dragon a même des temples et des fêtes régulièrement instituées. Ainsi l'on voit parailtre ici avec plus d'évidence qu'ailleurs des superstitions qui ne semblent guère être, dans la plus grande partie des autres professions, que le triste privilège des classes les plus infimes et les plus ignorantes.</p>
-       <p xml:id="para_4_64_39">Seng-ou-Chan lui-même n'y échappe pas. Il est, en effet, maître de barques, et c'est lui qui, au moment du départ pour la pêche, réunit ses hommes ; puis l'on offre des prières au ciel et des sacrifices aux deux patrons des pêcheurs, afin de se les rendre favorables.</p>
-       <p xml:id="para_4_64_40">Les patrons qu'on invoque ainsi dans le Fo-Kien et le Tché-Kiang (province à laquelle appartient l'archipel Tchné-Kian), et probablement aussi dans tout le sud de la Chine, sont Yang-Fou et Tien-Feï-Kong. Kang-Fou a le pouvoir de pousser les poissons vers les filets des pêcheurs pour lesquels il se sent quelque prédilection. Quant à Tien-Feï-Kong, la patronne, c'était, il y a huit cents ans, sous l'empereur Yuen-You, de la dynastie des Soung, une jeune fille de dix-huit ans, qui. après un songe révélateur, sauva héroiquement un de ses frères naufra¬gés. L'Empereur, admirant un amour fraternel assez puissant pour ins<pb facs="#facs_118" n="65" source="lesouvriersdesde0108sociuoft_0133.xml"/>pirer de tels pressentiments, ou révérant le don miraculeux que la jeune fille semblait avoir reçu du ciel, fit d'abord accorder à elle et à ses parents (à la vieillesse desquels elle se consacra) de grands honneurs. Puis, lors¬qu'elle mourut, on continua de la célébrer et de l'invoquer au ciel. De¬puis ce temps, c'est elle que la piété populaire charge de protéger les pêcheurs dans les mauvais temps ; elle a, ainsi que Yang-Fou, de nom¬breux temples où son image est placée, et l'on dit qu'elle a un grand pouvoir<note type="bp">
-         <p>A Niéou-Tchang, en Mandchourie, il existe un temple aux murailles et aux plafonds duquel sont suspendus, en manière d'ex-voto, comme à Notre-Dame de la arde ou à Sainte-Anne d'Auray, une foule de modèles réduits de bateaux sauvés des naufrages par le patron du temple. Il en existe aussi sur beaucoup d'autres points du littoral.</p>
-        </note>. Les sacrifices qu'on offre à Yang-Fou et à Tien-Feï-Kong se composent d'une oie ou d'une poule (que l'on égorge au commencement de la cérémonie, et d'après certauins rites déterminés), de quarante-huit œufs, deux poissons, des légumes et du vin. On brûle aussi deux chan¬delles, autant de batons d'encens qu'il y a d'hommes, des paquets de pa¬pier, et l'on fait partir les inévitables pétards. Lorsque tous les aliments sont restés sur la table pendant un temps convenable, on y ajoute d'autres mets, et du tout on fait un festin auquel tout le monde prend part avant de commencer la pêche.</p>
-       <p xml:id="para_4_65_43">On pourrait ajouter, à ce qui concerne ces divers rites, les pratiques qu'on observe pour construire les maisons (<ref target="#part_02_03_10" type="renvoi_int_mono">§ 10</ref>). On consulte le Fong-Choueï. Mais qu'est-ce donc que le Fong-Choueï<note type="bp">
-         <p>G.-Eug. Simon, ˉLa Cite chinoiseˉ. Paris, 1891, p. 337, 338, 339.</p>
-        </note>
+<!--monographie--><TEI xml:id="ID-092b" xml:lang="fr">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Les Ouvriers des Deux Mondes - série 3, volume 1 - Transcription</title>
+<respStmt>
+<persName>
+<forename>Alix</forename>
+<surname>Chagué</surname>
+<affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+</persName>
+<resp>acquisition et structuration initiale des textes</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Jean-Damien</forename>
+<surname>Généro</surname>
+<affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+<affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+</affiliation>
+<affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+</affiliation>
+</persName>
+<resp>encodage scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Stéphane</forename>
+<surname>Baciocchi</surname>
+<affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+</affiliation>
+</persName>
+<resp>direction scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Anne</forename>
+<surname>Lhuissier</surname>
+<affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+</affiliation>
+</persName>
+<resp>direction scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Éric</forename>
+<surname>Villemonte de la Clergerie</surname>
+<affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+</persName>
+<resp>supervision technique</resp>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>projet ANR Time Us</publisher>
+<date from="2019" to="2021"/>
+<pubPlace>Paris, France</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_114">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$129/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_115">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$130/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_116">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$131/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_117">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$132/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_118">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$133/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_119">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$134/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_120">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$135/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_121">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$136/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_122">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$137/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_123">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$138/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_124">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$139/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_125">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$140/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_126">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$141/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_127">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$142/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_128">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$143/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_129">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$144/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_130">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$145/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_131">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$146/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_132">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$147/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_133">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$148/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_134">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$149/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_135">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$150/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_136">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$151/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_137">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$152/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_138">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$153/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_139">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$154/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_140">
+<surface lrx="2210" lry="3522"/>
+<graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$155/full/full/0/default.jpg"/>
+</facsimile>
+<text>
+<body>
+<div type="chapter">
+<div n="001" type="section">
+<p xml:id="para_4_61_1">N° 92 bis</p>
+<p xml:id="para_4_61_2">PRECIS DUNE MONOGRAPHIE</p>
+<p xml:id="para_4_61_3">PECHEUR-COTIER</p>
+<p xml:id="para_4_61_4">MAITRE DE BARQUES</p>
+<p xml:id="para_4_61_5">DE L'ARCHIPEL CHUSAN (CHINE)</p>
+<p xml:id="para_4_61_6">OUVRIER-PROPRIÉTAIRE, CHEF DE MÉTIER DANS LE SYSTÈME DU TRAVAIL SANS ENGAGEMENT</p>
+<p>d'après</p>
+<p xml:id="para_4_61_7">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1857</p>
+<p>PAR M. <persName>G-EUGÈNE SIMON</persName></p>
+<p xml:id="para_4_61_8">Consul de France à Fou-Tchéou</p>
+<p>COORDONNÉS</p>
+<p xml:id="para_4_61_9">PAR M. <persName>PAUL ESCARD</persName><note type="bp">
+<p>La Société d'économie sociale a cru intéressant, dans les circonstances actuelles, de publier quelques-uns des renseignements monographiques recueillis en Chine par M. E. Simon. Le temps, en effet, dans ce pays de la stabilité, n'en a pas altéré l'exactitude et la précision.</p>
+</note>
+</p>
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">§ 1. ETAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION</head>
+<p xml:id="para_4_61_15"><pb facs="#facs_114" n="61" source="lesouvriersdesde0108sociuoft_0129.xml"/> Les côtes chinoises offrent un développement de plus de quinze cents lieues ; et, en avant de ces côtes, une foule d'îles s'échelonnent les unes <pb facs="#facs_115" n="62" source="lesouvriersdesde0108sociuoft_0130.xml"/> à la suite des autres, depuis le fond du golfe de Tong-King jusqu'aux bouches du Mang-Tsê-Kiang. Parmi ces archipels, celui de Chusan est, entre tous, d'une prodigieuse fécondité. Après l'agriculture et la naviga¬tion, on peut dire qu'il n'y a pas en Chine d'industrie plus répandue que celle de la pêche. La nature des lieux l'a voulu ainsi. C'est d'abord la longue étendue des rivages, offrant dans de nombreuses et profondes anfractuosités des abris commodes et sûrs. C'est ensuite, en avant de ces côtes, la multitude des îles qui s'alignent en files ou se groupent en archipels. En outre, dans l'intérieur, ce sont des fleuves aux cours larges et puissants, d'innombrables rivieres et de grands lacs ; enfin, jusque sur les hauts plateaux de la Mongolie, des lacs salés où se ren¬contrent des représentants de la faune marine. De telles conditions natu¬relles, dans un pays aussi peuplé que la Chine, où les besoins sont si impérieux, ont fait depuis longtemps de l'exploitation des eaux l'une des principales industries de la population.</p>
+<p xml:id="para_4_62_19">Aussi le poisson entre-t-il pour une part importante dans la nourriture ordinaire. On estime que chaque Chinois consomme par an de 20 à 25 kilogrammes de poisson sec ou salé. Le chifre de 20 kilogrammes peut être considéré comme une moyenne pour toute la Chine, car il n'y a pas de localité qui ne puisse être approvisionnée, soit en poisson see qui s'expédie partout, soit en poisson frais dont toutes les rivières abondent.</p>
+<p xml:id="para_4_62_20">En admettant que la Chine contienne 400 milions d'habitants, on voit qu'il ne lui faudrait pas moins de 8 milliards de kilogrammes de poisson par an, valant trois à quatre milliards de francs. Il y a donc là une branche d'industrie fort considérable, qui occupe environ huit à dix mil¬lions d'hommes. Malgré l'effrayante destruction qu'implique une pareille consommation, le poisson croit et se multiplie partout en abondance. Il n'y a pas de flaque d'eau formée par les dernières pluies où il n'appa¬raisse bientot ; il n'y a pas de rivières qui ne soit prête à fournir son contingent, et quant aux grands lacs, ce sont les plus beaux viviers que l'on puisse rêver. Mais, de ces viviers, il en est trois qui sont d'une merveilleuse richesse : le lac Po-Yang, qui a 32 lieues de tour ; le lac Tong-Ting qui en a 80; et, dans la mer, l'archipel Chusan.</p>
+<p xml:id="para_4_62_21">Rien de plus beau, de plus grandiose que le lac Tong-Ting au jour levant. A sa surface flottent les vapeurs de la nuit, qui se divisent bientôt aux premiers rayons du soleil, et s'en vont au gré d'un vent léger puis apparaissent dans le lointain, sur le bleu verdatre du ciel, des montagnes qui s'élèvent du milieu de ses eaux ; bientôt surgissent <pb facs="#facs_116" n="63" source="lesouvriersdesde0108sociuoft_0131.xml"/> de tous côtés des essaims innombrables de voiles blanches. Ce sont les barques des pêcheurs ou des acheteurs qui se rendent dans les cantonne¬ments ; par leur mouvement tranquille, elles donnent à tout l'ensemble du spectacle une animation paisible, d'un charme singulier.</p>
+<p xml:id="para_4_63_23">L'archipel Chusan ou Tchou-San, qui se trouve en face de la côte orientale de la Chine, au sud de Shanghai, est situé par 29°56' et 30°10' de latitude Nord; l'extrémité de l'île principale touche au 120° degré de longitude Est<note type="bp">
+<p>La capitale Tang Haï est au milieu de la côte méridionale de l'île Chusan, par 30°1' de latitude Nord et 9°45'50'' de longitude Est.</p>
+</note>. L'aspect en est tout à fait spécial. On ne voit pour ainsi dire rien que par surprise ; à peine a-t-on aperçu un convoi de petites barques qu'il disparait derrière l'une des quatre-vingts îles dont l'archipel est composé, et l'on ne découvre les cantonnements qu'au mo¬ment presque où l'on est déjà engagé au milieu des rues de ces grandes cités flottantes.</p>
+<p xml:id="para_4_63_24">Un des cantonnements les plus importants de l'archipel Chusan est celui de Kin-Shan, île située aux confins du groupe et au nord de la grande île de Chusan. Il y a là quatre mille barques de toutes grandeurs, parmi lesquelles sont ceelles des pêcheurs que la présente monographie se propose d'étudier.</p>
+<p xml:id="para_4_63_25">La famille de Seng-Kong-Chan, ainsi que celles de cinq ou six cents de ses confrères, habite au village de So-Kong-San (ou Zo-Kong-San), qui se trouve au nord de Ning-Po, dans la province de Tchê-Kiang.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Seng-ou-Chen  (n°092bE1) -  sa femme (n°092bE2) -  leur fils aîné (n°092bE3) -  la femme de celui-ci (n°092bE4) -  la plus jeune fille de Seng-ou-Chan (n°092bE5)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
+<p xml:id="para_4_63_28">La famille se compose de cinq personnes :</p>
+<p xml:id="para_4_63_29">1. <persName xml:id="ID-092bE1">SENG-OU-CHAN</persName>, né à Zo-Kong-San (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>)............ 42 ans.</p>
+<p xml:id="para_4_63_30">2. <persName xml:id="ID-092bE2">Sa femme</persName>............ 40 —</p>
+<p xml:id="para_4_63_31">3. <persName xml:id="ID-092bE3">Leur fils aîné</persName>, marié depuis un an............ 22 —</p>
+<p xml:id="para_4_63_32">4. <persName xml:id="ID-092bE4">La femme</persName> de celui-ci............ 19 —</p>
+<p xml:id="para_4_63_33">5. <persName xml:id="ID-092bE5">La plus jeune fille</persName> de Seong-ou-Chan............ 17 —</p>
+<p xml:id="para_4_63_34">Le fils n'a pas encore d'enfants. Il est resté dans la communauté. Une première fille, âgée de 20 ans, est mariée comme son frère aîné : le cul¬tivateur qu'elle a épousé demeure à cinq lieues de So-Kong-San. La se¬conde fille est fiancée à un pêcheur propriétaire.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
+<p xml:id="para_4_64_38"><pb facs="#facs_117" n="64" source="lesouvriersdesde0108sociuoft_0132.xml"/> Malgré les obstacles que leur profession oppose à l'exercice du culte des ancêtres, qui est le fond le plus sérieux<note type="bp">
+<p>Ce culte ne parait pas être idolâtrique. Les offrandes que l'on fait aux ta¬blettes familiales sont chose courante. Même aux vivants que l'on respecte, sans les adorer nullement, on présente, en certaines circonstances, de l'encens, des ali¬ments, etc. C'est un signe de sympathie, d'intérêt porte à toute la gen (humanité), aux morts comme aux vivants, sans plus ni moins de vénération.</p>
+</note>des croyances des Chi¬nois, il faut pourtant reconnaitre que, chez les pêcheurs, ces croyances, avec leur cortège de superstitions, paraissent plus vives encore que dans les autres classes de la populatio. Ainsi, pour rien au monde, ils ne manqueraient à chaque départ et à chaque arrivée, oû qu'ils aillent et d'où qu'ils viennent, de brûler au moins quelques pétards et quelques paquets de papier. Mais il serait dificile de dire à quelle intention, et si les uns, les plus intelligents, le font pour se rendre le ciel favorable, beaucoup d'autres, le plus grand nombre peut-etre, n'ont pour but que de conjurer le mauvais sort ou d'apaiser quelque divinité redoutable, surtout le mauvais dragon. Ce dragon a même des temples et des fêtes régulièrement instituées. Ainsi l'on voit parailtre ici avec plus d'évidence qu'ailleurs des superstitions qui ne semblent guère être, dans la plus grande partie des autres professions, que le triste privilège des classes les plus infimes et les plus ignorantes.</p>
+<p xml:id="para_4_64_39">Seng-ou-Chan lui-même n'y échappe pas. Il est, en effet, maître de barques, et c'est lui qui, au moment du départ pour la pêche, réunit ses hommes ; puis l'on offre des prières au ciel et des sacrifices aux deux patrons des pêcheurs, afin de se les rendre favorables.</p>
+<p xml:id="para_4_64_40">Les patrons qu'on invoque ainsi dans le Fo-Kien et le Tché-Kiang (province à laquelle appartient l'archipel Tchné-Kian), et probablement aussi dans tout le sud de la Chine, sont Yang-Fou et Tien-Feï-Kong. Kang-Fou a le pouvoir de pousser les poissons vers les filets des pêcheurs pour lesquels il se sent quelque prédilection. Quant à Tien-Feï-Kong, la patronne, c'était, il y a huit cents ans, sous l'empereur Yuen-You, de la dynastie des Soung, une jeune fille de dix-huit ans, qui. après un songe révélateur, sauva héroiquement un de ses frères naufra¬gés. L'Empereur, admirant un amour fraternel assez puissant pour ins<pb facs="#facs_118" n="65" source="lesouvriersdesde0108sociuoft_0133.xml"/>pirer de tels pressentiments, ou révérant le don miraculeux que la jeune fille semblait avoir reçu du ciel, fit d'abord accorder à elle et à ses parents (à la vieillesse desquels elle se consacra) de grands honneurs. Puis, lors¬qu'elle mourut, on continua de la célébrer et de l'invoquer au ciel. De¬puis ce temps, c'est elle que la piété populaire charge de protéger les pêcheurs dans les mauvais temps ; elle a, ainsi que Yang-Fou, de nom¬breux temples où son image est placée, et l'on dit qu'elle a un grand pouvoir<note type="bp">
+<p>A Niéou-Tchang, en Mandchourie, il existe un temple aux murailles et aux plafonds duquel sont suspendus, en manière d'ex-voto, comme à Notre-Dame de la arde ou à Sainte-Anne d'Auray, une foule de modèles réduits de bateaux sauvés des naufrages par le patron du temple. Il en existe aussi sur beaucoup d'autres points du littoral.</p>
+</note>. Les sacrifices qu'on offre à Yang-Fou et à Tien-Feï-Kong se composent d'une oie ou d'une poule (que l'on égorge au commencement de la cérémonie, et d'après certauins rites déterminés), de quarante-huit œufs, deux poissons, des légumes et du vin. On brûle aussi deux chan¬delles, autant de batons d'encens qu'il y a d'hommes, des paquets de pa¬pier, et l'on fait partir les inévitables pétards. Lorsque tous les aliments sont restés sur la table pendant un temps convenable, on y ajoute d'autres mets, et du tout on fait un festin auquel tout le monde prend part avant de commencer la pêche.</p>
+<p xml:id="para_4_65_43">On pourrait ajouter, à ce qui concerne ces divers rites, les pratiques qu'on observe pour construire les maisons (<ref target="#part_02_03_10" type="renvoi_int_mono">§ 10</ref>). On consulte le Fong-Choueï. Mais qu'est-ce donc que le Fong-Choueï<note type="bp">
+<p>G.-Eug. Simon, ˉLa Cite chinoiseˉ. Paris, 1891, p. 337, 338, 339.</p>
+</note>
         ? — II semble que ce soit une sortede système de géomancie fondé sur des observations empiriques ou qui paraissent telles aux Européens, faites sur les con¬ditions topographiques qui doivent présider au choix du terrain sur lequel on se propose de bàtir une maison, d'édiier une sépulture, etc. Si ces conditions sont observées, on aura pour soi toutes les chances de bonheur ; s'il arrive au contraire que l'on ait à supporter une série de malheurs ou d'insuccès, c'est qu'elles auront été méconnues. Il ne faut point, par exemple, que le vent fong, venant de certains côtés, soit arrêté par un obstacle tel qu'une colline ou n'importe quelle éminence, tandis que l'on doit en opposer à d'autres vents de mauvaise influence. Il ne faut pas non plus que jusqu'à une distance déterminée un cours d'eau, chouei, coule parallèlement à la façade d'une maison. Si la situation et la topographie du terrain — plaine, val ou coteau — ne réunissent pas les circonstances favorables, les habitants élèvent à frais communs une <pb facs="#facs_119" n="66" source="lesouvriersdesde0108sociuoft_0134.xml"/> tour dont la hauteur est calculée d'après certaines données, afin de dé¬tourner les mauvais courants. On doit encore veiller à éviter le voisi¬nage d'édifices ou de lieux d'ou les regards d'une personne pourraient plonger chez vous. Voilè quelques-unes des conditions du Fong-Choueï, mais il y en a beaucoup d'autres dont l'ensemble constitue une sorte de savoir exploité par des individus qui s'y adonnent spécialement et que l'on ne manque pas de consulter.</p>
-       <p xml:id="para_4_66_47">Ce sont là des pratiques extérieures : les Chinois croient-ils à leur efficacité ? A cette question ils pourraient répondre :  Vous nous embarrassez beaucoup ; quelquefois nous croyons, souvent nous ne croyons pas. Quelquefois nous rions de ceux que nous voyons aller aux pêlerinages, et il nous arrive assez souvent d'y aller nous-mêmes, cela dépend<note type="bp">
-         <p>Cf. G.-Eug. Simon, ˉLa Cite chinoiseˉ. Paris, 189l ; p. 68 et seq. — Il y a aussi en Chine des taouistes, des mahométans, des juifs et des chrétiens.</p>
-        </note>.  Bref, on accomplit ces rites par habitude et la prospérité des habitants semble ressortir de eette fidélité au culte, fidélité plutôt machinale que réfléchie, mais avant tout intéressée. Ici comme sou¬vent ailleurs, la religion n'est pas profonde chez les masses et la philosophie reste la part des lettrés. Le confucianisme contient de sublimes théories que le peuple adopte dans ce qu'elles ont de pratique. Quant au bouddhisme, il est professé par la majorité des Célestes depuis le 1ᵉʳ siècle de notre ère, quatre cents ans après la mort de Confucius, époque a laquelle le culte national était de nouveau envahi par les fausses pratiques dont l'avait dégagé l'illustre sage; mais il n'est pas, à proprement parler, pratiqué. Il n'est pas non plus la religion nationale : on est bouddhiste en Chine, comme beaucoup en France sont catholiques du fait de leur baptême et sans plus. Le culte, d'ailleurs, en est peu suivi, les Chinois préférant les cérémonies domestiques aux rites des « prêtres » boudhistes dans leurs temples.</p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
-       <p xml:id="para_4_66_50">Tous les hommes de So-Kong-San sont d'une santé très robuste ; on comprend qu'en effet les faibles se tournent vers un autre métier. Aucun d'eux n'est jamais ou ne se dit jamais malade, caur on ne peut appeler maladies les légères indispositions qui ne résultent que d'un excès de <pb facs="#facs_120" n="67" source="lesouvriersdesde0108sociuoft_0135.xml"/> fatigue et que deux ou trois jours au plus de rapos à la cabane suffisent à faire disparaître.</p>
-       <p xml:id="para_4_67_53">Lorsqu'ils deviennent trop vieux pour les supporter ou lorsqu'ils sont atteints d'infirmités précoces, ils renoncent à leur métier et se font géné¬ralement cultivateurs soit à gages, soit pour leur compte. Ce dernier cas est le plus fréquent, car il est bien rare qu'un pêcheur, pour peu qu'il ait pu travailler pendant huit ou dix ans à la mer, n'ait pas plusieurs méous<note type="bp">
-         <p>6 ares 37 centiares (1 quinzième d'hectare).</p>
-        </note>de terre à sa disposition, à moins qu'il n'ait employé ses éco¬nomies à quelque société de pêche. Ceci est fréquent, mais alors il trouve facilement à céder sa part, et de pêcheur il se fait cultivateur, sinon sans regret, du moins sans répugnance, et sans craindre les moqueries et les sarcasmes dont, dans certaines localités maritimes de la F'rance, les paysans et les pêcheurs se poursuivent réciproquement.</p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
-       <p xml:id="para_4_67_56">L'égalité la plus parfaite semble exister en Chine entre tous les ci¬toyens ; les fonctionnaires seuls font exception à cette règle. Aussi ne pourrait-on établir de classement et assigner un rang à la famille dont nous nous occupons, qu'en divisant systématiquement la population maritime en plusieurs catégories d'après la richesse de ceux qui exercent la profession de pêcheurs. A ce point de vue, Seng-ou-Chan appartien¬drait à la première ou au moins à la seconde de ces catégories, vu le nombre de matelots qu'il emploie et les bénéfices qu'il réalise.</p>
-       <p xml:id="para_4_67_57">Seng-ou-Chang, en effet, quoiqu'il continue encore son fatigant état de pêcheur, est assez riche, comme le prouve l'inventaire de ses pro¬priétés.</p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_4_68_62"><pb facs="#facs_121" n="68" source="lesouvriersdesde0108sociuoft_0136.xml"/> (Mobilier et vêtements non compris)
+<p xml:id="para_4_66_47">Ce sont là des pratiques extérieures : les Chinois croient-ils à leur efficacité ? A cette question ils pourraient répondre :  Vous nous embarrassez beaucoup ; quelquefois nous croyons, souvent nous ne croyons pas. Quelquefois nous rions de ceux que nous voyons aller aux pêlerinages, et il nous arrive assez souvent d'y aller nous-mêmes, cela dépend<note type="bp">
+<p>Cf. G.-Eug. Simon, ˉLa Cite chinoiseˉ. Paris, 189l ; p. 68 et seq. — Il y a aussi en Chine des taouistes, des mahométans, des juifs et des chrétiens.</p>
+</note>.  Bref, on accomplit ces rites par habitude et la prospérité des habitants semble ressortir de eette fidélité au culte, fidélité plutôt machinale que réfléchie, mais avant tout intéressée. Ici comme sou¬vent ailleurs, la religion n'est pas profonde chez les masses et la philosophie reste la part des lettrés. Le confucianisme contient de sublimes théories que le peuple adopte dans ce qu'elles ont de pratique. Quant au bouddhisme, il est professé par la majorité des Célestes depuis le 1ᵉʳ siècle de notre ère, quatre cents ans après la mort de Confucius, époque a laquelle le culte national était de nouveau envahi par les fausses pratiques dont l'avait dégagé l'illustre sage; mais il n'est pas, à proprement parler, pratiqué. Il n'est pas non plus la religion nationale : on est bouddhiste en Chine, comme beaucoup en France sont catholiques du fait de leur baptême et sans plus. Le culte, d'ailleurs, en est peu suivi, les Chinois préférant les cérémonies domestiques aux rites des « prêtres » boudhistes dans leurs temples.</p>
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
+<p xml:id="para_4_66_50">Tous les hommes de So-Kong-San sont d'une santé très robuste ; on comprend qu'en effet les faibles se tournent vers un autre métier. Aucun d'eux n'est jamais ou ne se dit jamais malade, caur on ne peut appeler maladies les légères indispositions qui ne résultent que d'un excès de <pb facs="#facs_120" n="67" source="lesouvriersdesde0108sociuoft_0135.xml"/> fatigue et que deux ou trois jours au plus de rapos à la cabane suffisent à faire disparaître.</p>
+<p xml:id="para_4_67_53">Lorsqu'ils deviennent trop vieux pour les supporter ou lorsqu'ils sont atteints d'infirmités précoces, ils renoncent à leur métier et se font géné¬ralement cultivateurs soit à gages, soit pour leur compte. Ce dernier cas est le plus fréquent, car il est bien rare qu'un pêcheur, pour peu qu'il ait pu travailler pendant huit ou dix ans à la mer, n'ait pas plusieurs méous<note type="bp">
+<p>6 ares 37 centiares (1 quinzième d'hectare).</p>
+</note>de terre à sa disposition, à moins qu'il n'ait employé ses éco¬nomies à quelque société de pêche. Ceci est fréquent, mais alors il trouve facilement à céder sa part, et de pêcheur il se fait cultivateur, sinon sans regret, du moins sans répugnance, et sans craindre les moqueries et les sarcasmes dont, dans certaines localités maritimes de la F'rance, les paysans et les pêcheurs se poursuivent réciproquement.</p>
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
+<p xml:id="para_4_67_56">L'égalité la plus parfaite semble exister en Chine entre tous les ci¬toyens ; les fonctionnaires seuls font exception à cette règle. Aussi ne pourrait-on établir de classement et assigner un rang à la famille dont nous nous occupons, qu'en divisant systématiquement la population maritime en plusieurs catégories d'après la richesse de ceux qui exercent la profession de pêcheurs. A ce point de vue, Seng-ou-Chan appartien¬drait à la première ou au moins à la seconde de ces catégories, vu le nombre de matelots qu'il emploie et les bénéfices qu'il réalise.</p>
+<p xml:id="para_4_67_57">Seng-ou-Chang, en effet, quoiqu'il continue encore son fatigant état de pêcheur, est assez riche, comme le prouve l'inventaire de ses pro¬priétés.</p>
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
+<div subtype="proprietes_texte_1" type="proprietes">
+<p xml:id="para_4_68_62"><pb facs="#facs_121" n="68" source="lesouvriersdesde0108sociuoft_0136.xml"/> (Mobilier et vêtements non compris)
         </p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_4_68_63">IMMEUBLES............ 17,760ᶠ 00</p>
-        <p xml:id="para_4_68_64">1 maison à 5 « kiennes »  (<ref target="#part_02_03_10" type="renvoi_int_mono">§ 10</ref>) et à un étage, 6,000ᶠ 00 ; — 34 méous de terre [plus de 2 hectares], dont 15 reçus en héritage, à 330ᶠ 00 l'un, soit 11,220ᶠ 00 ; — 3 cabanes de pêcheurs meublées, à 180ᶠ 00 l'une, ou 540ᶠ 00. — Total, 17,760ᶠ 00.</p>
-       </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_4_68_65">ARGENT. — La famille prête la plus grande partie de ses capitaux a 10 ou 12% (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>) aux autres habitants de la localité ; elle emploie le reste en spéculations qui lui rapportent 15 a 20%............ 40,000ᶠ 00 </p>
-        <p xml:id="para_4_68_66">Somme reçue en héritage, 12,000ᶠ 00 ; — ressources provenant de l'épargne, 28,000ᶠ 00. — Total, 40,000ᶠ 00.</p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_4_68_67">MATÉRIEL SPÉCIAL DES Travaux et industries............ 20,786ᶠ 25</p>
-        <p xml:id="para_4_68_68">1° Mobilier et engins de pêche. — 6 grands bateaux avec leurs 3 bachots, 5,960ᶠ 00 ; — 2 autres petits bachots en mauvais état, 120ᶠ 00; — gréement des 6 bateaux, à 2396ᶠ 00 l'un<note type="bp">
-          <p>Détail de la valeur du gréoment : 1 grand mat. 1I80ᶠ 00 ; — 1 petit mat. 60ᶠ 00; — 1 grande voile, 72ᶠ 00 ; — 1 petite voile, 36ᶠ 00 ; — vergues en bambous, 30ᶠ 00 ; — 1 ancre en bois, 240ᶠ 00 ; — 1 grande ancre en fer, 180ᶠ00; — 1 petite ancre en fer, 150ᶠ 00 ; — cordages, 120ᶠ 00 ; — 2 fourneaux en terre, 24ᶠ 00 ; — grandes marmites, 18ᶠ 00 ; — 3 cuillères en cuivre, 1 pelle en fer, 2 pelles en cuivre, 4 haches. 2 marteaux, 1 couteau, 60ᶠ 00 ; — 1 grand filet, 510ᶠ00; — 1 autre filet, 180ᶠ 00; — lignes de pêche garnies d'hamecons, 160ᶠ 00 ; — 20 har¬pons petits et grands, 60ᶠ 00; — 20 paniers à mettre le poisson, 60ᶠ 00 ; — 2 gaffes, 6ᶠ 00; — 1 gouvernail, 140ᶠ 00 ; — 2 grands avirons, 50ᶠ 00 ; — 2 petits avirons, 30ᶠ 00. — Total, 2,396ᶠ 00.</p>
-         </note>,376ᶠ 00. — Total. 20,456ᶠ 00.</p>
-        <p xml:id="para_4_68_69">2° Instruments de culture. — 1 pompe à pieds à 2 hommes (vieille), 20ᶠ 00; — 2 houes à 4 dents, 6ᶠ 00; — 2 houes à petites dents, 3ᶠ 40; — 1 râteau de rizière, 1ᶠ 60 ; — 4 seaux à engrais, 18ᶠ 00 ; — 2 petits seaux à engrais, 6ᶠ 00 ; — 1 grande cuillère à engrais, 1ᶠ 90; — 1 petite cuillère à engrais, 1ᶠ 40; — 2 faucilles, 6ᶠ00; — 1 vieille caisse à battre le riz, 12ᶠ00 ; — 2 jarres à engrais, 21ᶠ00. — Total, 100ᶠ30.</p>
-        <p xml:id="para_4_68_70">3° Ustensiles de greniers et magasins. — 2 nattes à battre le riz, 6ᶠ50; — 1 van, 24ᶠ 00 ; — 2 tamis, 2ᶠ 80; — 2 balais, 0ᶠ 30; — 1 pelle en bois, 1ᶠ75 ; — 6 sacs en toile, 6ᶠ 60; — 1 moulin à décortiquer, 9ᶠ 00 ; — 1 moulin à farine, en pierre, 27ᶠ 00; — 1 mortier en pierre, 2ᶠ 00 ; — 30 pots à conserves, 60ᶠ 00. — Total,158ᶠ 95.</p>
-        <p xml:id="para_4_68_71">4° Instruments pour la confection des tissus. — 2 tours à filer, 6ᶠ 00; — 1 métier à tisser, 35ᶠ 00; — 1 autre metier à tisser, 30ᶠ 00. — Total, 71ᶠ 00.</p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_4_69_73"><pb facs="#facs_122" n="69" source="lesouvriersdesde0108sociuoft_0137.xml"/> ANIMAUX............ 195ᶠ 00 </p>
-        <p xml:id="para_4_69_74">1° Animaux entretenus toute l'année. — 6 poules, 9ᶠ 00; — 1 coq, 2ᶠ 00 ; — 1 chien et 1 chat (p. mémoire). — Total, 11ᶠ 00.</p>
-        <p xml:id="para_4_69_75">2° Animaux entretenus unz partie de l'année. — 2 porcs gras, 184ᶠ 00.</p>
-        <div type="proprietes" subtype="proprietes_total">
-         <p xml:id="para_4_69_76">VALEUR TOTALE des propriétés............ 78,741ᶠ 25</p>
-        </div>
-       </div>
-       <div type="proprietes" subtype="magasin">
-        <p xml:id="para_4_69_77">Indépendamment des propriétés rapportant un revenu ou employées aux industries, la famille, au moment où les observations ont été re¬cueillies, avait des provisions en magasin pour une valeur de 1,971ᶠ50, ainsi réparties :</p>
-        <p xml:id="para_4_69_79">Denrées ou provisions en magasin. — 4,800 kg. de riz en paille, à 9ᶠ 00 les 61 kg., soit 708ᶠ 00 ; — 1,500 kg. de riz blanc, à 12ᶠ 00 les 61 kg., soit 295ᶠ 00 ; — 6,000 kg. de paille, à 0ᶠ 75 les 61 kg., soit 73ᶠ 50 ; — 80 kg. de poisson salé à 30ᶠ les 61 kg., soit 40ᶠ 00 ; — 60 kg. de porc salé, à 96ᶠ les 61 kg., soit 95ᶠ 00 ; — 400 kg de choux salés, à 8ᶠ 50 les 61 kg., soit 55ᶠ 00 ; — 144 kg. de sel, a 2ᶠ les 61 kg., soit 28ᶠ 00 ; — 200 kg. de vin. à 36ᶠ 00 les 61 kg., soit 16ᶠ 00: — 120 kg. d'huile, à 75ᶠ 00 les 61 kg., soit 147ᶠ 00 ; — 15 kg. de tabac a 1ᶠ 05 les 0 kg. 604, soit 26ᶠ 00 ; — 22 kg. de sucre commun à 0ᶠ 30 les 0 kg. 604, soit 11ᶠ 00 ; — 20 kg. de thé, a 1ᶠ 30 les 0 kg. 604, soit 43ᶠ 00 ; — 20 kg. de gingembre, à 13ᶠ 00 les 61 kg., soit 4ᶠ 00. — Total, 1,971ᶠ50.</p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
-       <p xml:id="para_4_69_82">Dans tout autre pays que la Chine, — en Europe particulièrement, — la pêche est soumise vis-à-vis de l'Etatà des droits fort onéreux. En Chine, au contraire, on pourrait la considérer comme une subvention à peu près gratuite, malgré un faible impôt de 30ᶠ par barque, si elle ne néces¬sitait d'autre part une grande dépense de travail et de capitaux (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>).</p>
-       <p xml:id="para_4_69_83">La famille de Seng-ou-Chan ne semble donc jouir véritablement que d'une seule sorte de subvention : la récolte de la vase retirée des canaux, et qui est une fumure de premier ordre, presque équivalente à l'engrais humain dont les Chinois font, on le sait, un usage si habile et si impor¬</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
-       <div type="industries" subtype="famille">
-        <p xml:id="para_4_69_86">Si Seng-ou-Chan ne fait pas valoir lui-même tout son capital, et s'il en prête une partie au taux faible de 10 ou 12%. (<ref target="#part_02_02_06" type="renvoi_int_mono">§ 6</ref>), ce n'est pas par <pb facs="#facs_123" n="70" source="lesouvriersdesde0108sociuoft_0138.xml"/> philanthropie, mais par nécessité. La plupart du temps il est éloigné du village, presque séparé de la terre et des autres hommes ; il ne peut donc se livrer à des spéculations de quelque importance avec la suite indis¬pensable, pour éviter de perdre ou d'être trompé. D'ailleurs, un peu loin des villes, les opérations de commerce sont moins actives et moins pro¬ductives, de sorte qu'au fond le sacrifice que lui impose sous ce rap¬port son état de pêcheur n'est pas aussi grand qu'on pourrauit le penser. En outre, en prêtant à intérèt fixe, il choisit ses débiteurs, et, s'il retire moins, il est sûr de ne rien perdre. Pour les mêmes motifs, Seng-ou-Chan a renoncé aussi à faire valoir ses champs. Il n'en cultive que 8 méous pour s'occuper, lui et son fils, pendant les moments qu'ils vien¬nent de temps en temps et à tour de rôle passer à la maison, lorsque l'époque des pêches abondantes est finie (<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1er</ref>). Il loue le reste à rai¬son de douze francs le méou. Quant aux femmes, dispensées de soins domestiques nombreux par suite de l'absence presque continuelle des hommes, elles n'ont à peu près à faire que leur propre ménage, mais elles emploient leurs loisirs soit à tisser des pièces de coton, soit à coudre ou à broder certains objets de leur habillement, tels que les souliers et les langes qui enveloppent leurs pieds (<ref target="#part_02_04_13" type="renvoi_int_mono">§ 13, note</ref>). La pêche est donc à peu près la seule industrie de la famille, et elle est pratiquée sur une assez grande échelle, puisque Seng-ou-Chan y emploie constamment six grands bateaux à deux mâts montés chacun par six hommes. Les Seng-ou-Chan, pour mieux entrainer leurs matelots, travaillent avec eu et comme eux. Ils ne s'absentent jamais ensemble de leur cantonnement de Kin-Shan où la pêche a lieu toute l'année, excepté pendant les deux ou trois mois de juin à septembre.</p>
-        <p xml:id="para_4_70_88">A l'époque de la grande pêche, qui, pour beaucoup, commence en oc¬tobre et se prolonge jusqu'en juin, on compte dans les cantonnements près de trente-cinq mille barques. A la pêche d'août, il y en a encore quinze ou vingt mille. On y vient de loin, du Fo-Kien, du Quan-Tong et même de Formose. On part ensemble par flottilles de cent cinquante, deux cents ou trois cents barques, et l'on s'arrête au bas de la rivière. Là on attend des bateaux armés de canons, dont nous parlons plus bas et qui doivent escorter les pêcheurs et les protéger contre les pirates pen¬dant tout le temps de la pêche ; quand tout le monde est réuni, on pro¬fite de la première marée et l'on arrive ensemble au cantonnement de Kin-Shan. Le cantonnement est formé par les barques groupées deux aù deux et composant ainsi des quartiers avec de larges rues (d'eau) où l'on dispose les engins entre les files parallèles de bateaux.</p>
-        <p xml:id="para_4_71_89"><pb facs="#facs_124" n="71" source="lesouvriersdesde0108sociuoft_0139.xml"/> Les bateaux se suivent et pêchent ainsi deux à deux ; à terre (à Kin-Shan), ils ont une cabane pour deux : chaque paire de bateaux a un patron chef, qui est payé 45ᶠ par mois, un deuxième patron, qui est payé 36ᶠ, et dix hommes à qui l'on donne 1ᶠ par jour. Tous ont, en outre, la nourriture estimée à 0ᶠ 50 par jour ; et enfin il est accordé à chaque paire de bateaux, et pour être distribués entre les hommes qui les montent, 10% sur les bénéfices qu'ils produisent ; mais ceux qui quittent la peche avant la fin de la saison ou ceux qu'on est obligé de renvoyer perdent leur part, qui rentre dans la masse commune.</p>
-        <p xml:id="para_4_71_90">Une paire de bateaux peut rapporter jusqu'à 20,000 ou 22,000ᶠ, quand l'année est bonne, mais elle peut faire perdre aussi jusqu'à 2,500 ou 3,000ᶠ, car les frais sont considérables. La solde et la nourriture des ma¬rins par deux bateaux reviennent environ à 560 par mois, ce qui fait 5,600ᶠ pour les dix mois de pêche. Pendant les deux mois de repos, on garde, pour faire les réparations, les patrons et quelques matelots, que l'on paie comme s'ils étaient à la mer, ce qui fait encore 400ᶠ par paire pour chacun de ces mois. Il y a de plus l'intérêt annuel de la valeur des bateaux et du bachot, soit, à 10ᵉ, environ, 200ᶠ ; puis l'intérêt annuel de la valeur des gréements, à raison de 2,396ᶠ par bateau, ou 4,792ᶠ par paire, auxquels il faut ajouter la valeur de la cabane, meublée d'une table et de ses chaises, qui est de 180ᶠ. En tout 4,972ᶠ, représentant à 10 °/ un intérêt de 497ᶠ. Encore n'est-ce pas tout : chaque paire de ba¬teaux coûte pour son entretien annuel, en gréement à remplacer, en peinture et réparations de tout genre, 600ᶠ. Enfin, il faut payer l'impôt et le droit de protection. Le premier est de 30ᶠ pour chaque grand ba¬teau ou 60ᶠ par paire, et est payé aux mandarins. Le deuxième est payé à une compagnie qui a l'entreprise de la protection<note type="bp">
-          <p>Rien n'est plus défectueux que ce système de protection en régie. Le can¬tonnement de in Shan en est un exemple ; pour les 4,000 barques de pêche qui y sont établies, grandes ou petites, il faudrait au moins 70 bateaux armés et 1,000a 1,200hommes. Or, il n'y a en réalité que 10 bateaux ; seulement, au lieu de n'être armés que de 2 canons et montés de 15 hommes, ils ont 4 ou 6 pièces de canon et 30 hommes. Ceux-ci, à défaut d'une surveillance sévère, se trouvent assez forts pour se transformer eux-mêmes, contre tonus leurs devoirs, en pirates à l'égard des malheureux bateaux qui passent sans défense à quelque distance des cantonnements, et attendent naturellement d'eux aide et secours en cas de danger.</p>
-         </note>et qui doit avoir un grand bateau armé de 2 canons et monté par 15 hommes au moins pour une moyenne de 30 grandes barques de pêcheurs. Ce droit de pro¬tection est de 120ᶠ pour chaque paire de grands,bateaux. Les autres paient de 36 à 72ᶠ.</p>
-        <p xml:id="para_4_72_92"><pb facs="#facs_125" n="72" source="lesouvriersdesde0108sociuoft_0140.xml"/> Les dépenses afférentes à une paire de bateaux peuvent donc se réca¬pituler ainsi :
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_4_68_63">IMMEUBLES............ 17,760ᶠ 00</p>
+<p xml:id="para_4_68_64">1 maison à 5 « kiennes »  (<ref target="#part_02_03_10" type="renvoi_int_mono">§ 10</ref>) et à un étage, 6,000ᶠ 00 ; — 34 méous de terre [plus de 2 hectares], dont 15 reçus en héritage, à 330ᶠ 00 l'un, soit 11,220ᶠ 00 ; — 3 cabanes de pêcheurs meublées, à 180ᶠ 00 l'une, ou 540ᶠ 00. — Total, 17,760ᶠ 00.</p>
+</div>
+<div subtype="argent" type="proprietes">
+<p xml:id="para_4_68_65">ARGENT. — La famille prête la plus grande partie de ses capitaux a 10 ou 12% (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>) aux autres habitants de la localité ; elle emploie le reste en spéculations qui lui rapportent 15 a 20%............ 40,000ᶠ 00 </p>
+<p xml:id="para_4_68_66">Somme reçue en héritage, 12,000ᶠ 00 ; — ressources provenant de l'épargne, 28,000ᶠ 00. — Total, 40,000ᶠ 00.</p>
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_4_68_67">MATÉRIEL SPÉCIAL DES Travaux et industries............ 20,786ᶠ 25</p>
+<p xml:id="para_4_68_68">1° Mobilier et engins de pêche. — 6 grands bateaux avec leurs 3 bachots, 5,960ᶠ 00 ; — 2 autres petits bachots en mauvais état, 120ᶠ 00; — gréement des 6 bateaux, à 2396ᶠ 00 l'un<note type="bp">
+<p>Détail de la valeur du gréoment : 1 grand mat. 1I80ᶠ 00 ; — 1 petit mat. 60ᶠ 00; — 1 grande voile, 72ᶠ 00 ; — 1 petite voile, 36ᶠ 00 ; — vergues en bambous, 30ᶠ 00 ; — 1 ancre en bois, 240ᶠ 00 ; — 1 grande ancre en fer, 180ᶠ00; — 1 petite ancre en fer, 150ᶠ 00 ; — cordages, 120ᶠ 00 ; — 2 fourneaux en terre, 24ᶠ 00 ; — grandes marmites, 18ᶠ 00 ; — 3 cuillères en cuivre, 1 pelle en fer, 2 pelles en cuivre, 4 haches. 2 marteaux, 1 couteau, 60ᶠ 00 ; — 1 grand filet, 510ᶠ00; — 1 autre filet, 180ᶠ 00; — lignes de pêche garnies d'hamecons, 160ᶠ 00 ; — 20 har¬pons petits et grands, 60ᶠ 00; — 20 paniers à mettre le poisson, 60ᶠ 00 ; — 2 gaffes, 6ᶠ 00; — 1 gouvernail, 140ᶠ 00 ; — 2 grands avirons, 50ᶠ 00 ; — 2 petits avirons, 30ᶠ 00. — Total, 2,396ᶠ 00.</p>
+</note>,376ᶠ 00. — Total. 20,456ᶠ 00.</p>
+<p xml:id="para_4_68_69">2° Instruments de culture. — 1 pompe à pieds à 2 hommes (vieille), 20ᶠ 00; — 2 houes à 4 dents, 6ᶠ 00; — 2 houes à petites dents, 3ᶠ 40; — 1 râteau de rizière, 1ᶠ 60 ; — 4 seaux à engrais, 18ᶠ 00 ; — 2 petits seaux à engrais, 6ᶠ 00 ; — 1 grande cuillère à engrais, 1ᶠ 90; — 1 petite cuillère à engrais, 1ᶠ 40; — 2 faucilles, 6ᶠ00; — 1 vieille caisse à battre le riz, 12ᶠ00 ; — 2 jarres à engrais, 21ᶠ00. — Total, 100ᶠ30.</p>
+<p xml:id="para_4_68_70">3° Ustensiles de greniers et magasins. — 2 nattes à battre le riz, 6ᶠ50; — 1 van, 24ᶠ 00 ; — 2 tamis, 2ᶠ 80; — 2 balais, 0ᶠ 30; — 1 pelle en bois, 1ᶠ75 ; — 6 sacs en toile, 6ᶠ 60; — 1 moulin à décortiquer, 9ᶠ 00 ; — 1 moulin à farine, en pierre, 27ᶠ 00; — 1 mortier en pierre, 2ᶠ 00 ; — 30 pots à conserves, 60ᶠ 00. — Total,158ᶠ 95.</p>
+<p xml:id="para_4_68_71">4° Instruments pour la confection des tissus. — 2 tours à filer, 6ᶠ 00; — 1 métier à tisser, 35ᶠ 00; — 1 autre metier à tisser, 30ᶠ 00. — Total, 71ᶠ 00.</p>
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_4_69_73"><pb facs="#facs_122" n="69" source="lesouvriersdesde0108sociuoft_0137.xml"/> ANIMAUX............ 195ᶠ 00 </p>
+<p xml:id="para_4_69_74">1° Animaux entretenus toute l'année. — 6 poules, 9ᶠ 00; — 1 coq, 2ᶠ 00 ; — 1 chien et 1 chat (p. mémoire). — Total, 11ᶠ 00.</p>
+<p xml:id="para_4_69_75">2° Animaux entretenus unz partie de l'année. — 2 porcs gras, 184ᶠ 00.</p>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_4_69_76">VALEUR TOTALE des propriétés............ 78,741ᶠ 25</p>
+</div>
+</div>
+<div subtype="magasin" type="proprietes">
+<p xml:id="para_4_69_77">Indépendamment des propriétés rapportant un revenu ou employées aux industries, la famille, au moment où les observations ont été re¬cueillies, avait des provisions en magasin pour une valeur de 1,971ᶠ50, ainsi réparties :</p>
+<p xml:id="para_4_69_79">Denrées ou provisions en magasin. — 4,800 kg. de riz en paille, à 9ᶠ 00 les 61 kg., soit 708ᶠ 00 ; — 1,500 kg. de riz blanc, à 12ᶠ 00 les 61 kg., soit 295ᶠ 00 ; — 6,000 kg. de paille, à 0ᶠ 75 les 61 kg., soit 73ᶠ 50 ; — 80 kg. de poisson salé à 30ᶠ les 61 kg., soit 40ᶠ 00 ; — 60 kg. de porc salé, à 96ᶠ les 61 kg., soit 95ᶠ 00 ; — 400 kg de choux salés, à 8ᶠ 50 les 61 kg., soit 55ᶠ 00 ; — 144 kg. de sel, a 2ᶠ les 61 kg., soit 28ᶠ 00 ; — 200 kg. de vin. à 36ᶠ 00 les 61 kg., soit 16ᶠ 00: — 120 kg. d'huile, à 75ᶠ 00 les 61 kg., soit 147ᶠ 00 ; — 15 kg. de tabac a 1ᶠ 05 les 0 kg. 604, soit 26ᶠ 00 ; — 22 kg. de sucre commun à 0ᶠ 30 les 0 kg. 604, soit 11ᶠ 00 ; — 20 kg. de thé, a 1ᶠ 30 les 0 kg. 604, soit 43ᶠ 00 ; — 20 kg. de gingembre, à 13ᶠ 00 les 61 kg., soit 4ᶠ 00. — Total, 1,971ᶠ50.</p>
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
+<p xml:id="para_4_69_82">Dans tout autre pays que la Chine, — en Europe particulièrement, — la pêche est soumise vis-à-vis de l'Etatà des droits fort onéreux. En Chine, au contraire, on pourrait la considérer comme une subvention à peu près gratuite, malgré un faible impôt de 30ᶠ par barque, si elle ne néces¬sitait d'autre part une grande dépense de travail et de capitaux (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>).</p>
+<p xml:id="para_4_69_83">La famille de Seng-ou-Chan ne semble donc jouir véritablement que d'une seule sorte de subvention : la récolte de la vase retirée des canaux, et qui est une fumure de premier ordre, presque équivalente à l'engrais humain dont les Chinois font, on le sait, un usage si habile et si impor¬</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
+<div subtype="famille" type="industries">
+<p xml:id="para_4_69_86">Si Seng-ou-Chan ne fait pas valoir lui-même tout son capital, et s'il en prête une partie au taux faible de 10 ou 12%. (<ref target="#part_02_02_06" type="renvoi_int_mono">§ 6</ref>), ce n'est pas par <pb facs="#facs_123" n="70" source="lesouvriersdesde0108sociuoft_0138.xml"/> philanthropie, mais par nécessité. La plupart du temps il est éloigné du village, presque séparé de la terre et des autres hommes ; il ne peut donc se livrer à des spéculations de quelque importance avec la suite indis¬pensable, pour éviter de perdre ou d'être trompé. D'ailleurs, un peu loin des villes, les opérations de commerce sont moins actives et moins pro¬ductives, de sorte qu'au fond le sacrifice que lui impose sous ce rap¬port son état de pêcheur n'est pas aussi grand qu'on pourrauit le penser. En outre, en prêtant à intérèt fixe, il choisit ses débiteurs, et, s'il retire moins, il est sûr de ne rien perdre. Pour les mêmes motifs, Seng-ou-Chan a renoncé aussi à faire valoir ses champs. Il n'en cultive que 8 méous pour s'occuper, lui et son fils, pendant les moments qu'ils vien¬nent de temps en temps et à tour de rôle passer à la maison, lorsque l'époque des pêches abondantes est finie (<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1er</ref>). Il loue le reste à rai¬son de douze francs le méou. Quant aux femmes, dispensées de soins domestiques nombreux par suite de l'absence presque continuelle des hommes, elles n'ont à peu près à faire que leur propre ménage, mais elles emploient leurs loisirs soit à tisser des pièces de coton, soit à coudre ou à broder certains objets de leur habillement, tels que les souliers et les langes qui enveloppent leurs pieds (<ref target="#part_02_04_13" type="renvoi_int_mono">§ 13, note</ref>). La pêche est donc à peu près la seule industrie de la famille, et elle est pratiquée sur une assez grande échelle, puisque Seng-ou-Chan y emploie constamment six grands bateaux à deux mâts montés chacun par six hommes. Les Seng-ou-Chan, pour mieux entrainer leurs matelots, travaillent avec eu et comme eux. Ils ne s'absentent jamais ensemble de leur cantonnement de Kin-Shan où la pêche a lieu toute l'année, excepté pendant les deux ou trois mois de juin à septembre.</p>
+<p xml:id="para_4_70_88">A l'époque de la grande pêche, qui, pour beaucoup, commence en oc¬tobre et se prolonge jusqu'en juin, on compte dans les cantonnements près de trente-cinq mille barques. A la pêche d'août, il y en a encore quinze ou vingt mille. On y vient de loin, du Fo-Kien, du Quan-Tong et même de Formose. On part ensemble par flottilles de cent cinquante, deux cents ou trois cents barques, et l'on s'arrête au bas de la rivière. Là on attend des bateaux armés de canons, dont nous parlons plus bas et qui doivent escorter les pêcheurs et les protéger contre les pirates pen¬dant tout le temps de la pêche ; quand tout le monde est réuni, on pro¬fite de la première marée et l'on arrive ensemble au cantonnement de Kin-Shan. Le cantonnement est formé par les barques groupées deux aù deux et composant ainsi des quartiers avec de larges rues (d'eau) où l'on dispose les engins entre les files parallèles de bateaux.</p>
+<p xml:id="para_4_71_89"><pb facs="#facs_124" n="71" source="lesouvriersdesde0108sociuoft_0139.xml"/> Les bateaux se suivent et pêchent ainsi deux à deux ; à terre (à Kin-Shan), ils ont une cabane pour deux : chaque paire de bateaux a un patron chef, qui est payé 45ᶠ par mois, un deuxième patron, qui est payé 36ᶠ, et dix hommes à qui l'on donne 1ᶠ par jour. Tous ont, en outre, la nourriture estimée à 0ᶠ 50 par jour ; et enfin il est accordé à chaque paire de bateaux, et pour être distribués entre les hommes qui les montent, 10% sur les bénéfices qu'ils produisent ; mais ceux qui quittent la peche avant la fin de la saison ou ceux qu'on est obligé de renvoyer perdent leur part, qui rentre dans la masse commune.</p>
+<p xml:id="para_4_71_90">Une paire de bateaux peut rapporter jusqu'à 20,000 ou 22,000ᶠ, quand l'année est bonne, mais elle peut faire perdre aussi jusqu'à 2,500 ou 3,000ᶠ, car les frais sont considérables. La solde et la nourriture des ma¬rins par deux bateaux reviennent environ à 560 par mois, ce qui fait 5,600ᶠ pour les dix mois de pêche. Pendant les deux mois de repos, on garde, pour faire les réparations, les patrons et quelques matelots, que l'on paie comme s'ils étaient à la mer, ce qui fait encore 400ᶠ par paire pour chacun de ces mois. Il y a de plus l'intérêt annuel de la valeur des bateaux et du bachot, soit, à 10ᵉ, environ, 200ᶠ ; puis l'intérêt annuel de la valeur des gréements, à raison de 2,396ᶠ par bateau, ou 4,792ᶠ par paire, auxquels il faut ajouter la valeur de la cabane, meublée d'une table et de ses chaises, qui est de 180ᶠ. En tout 4,972ᶠ, représentant à 10 °/ un intérêt de 497ᶠ. Encore n'est-ce pas tout : chaque paire de ba¬teaux coûte pour son entretien annuel, en gréement à remplacer, en peinture et réparations de tout genre, 600ᶠ. Enfin, il faut payer l'impôt et le droit de protection. Le premier est de 30ᶠ pour chaque grand ba¬teau ou 60ᶠ par paire, et est payé aux mandarins. Le deuxième est payé à une compagnie qui a l'entreprise de la protection<note type="bp">
+<p>Rien n'est plus défectueux que ce système de protection en régie. Le can¬tonnement de in Shan en est un exemple ; pour les 4,000 barques de pêche qui y sont établies, grandes ou petites, il faudrait au moins 70 bateaux armés et 1,000a 1,200hommes. Or, il n'y a en réalité que 10 bateaux ; seulement, au lieu de n'être armés que de 2 canons et montés de 15 hommes, ils ont 4 ou 6 pièces de canon et 30 hommes. Ceux-ci, à défaut d'une surveillance sévère, se trouvent assez forts pour se transformer eux-mêmes, contre tonus leurs devoirs, en pirates à l'égard des malheureux bateaux qui passent sans défense à quelque distance des cantonnements, et attendent naturellement d'eux aide et secours en cas de danger.</p>
+</note>et qui doit avoir un grand bateau armé de 2 canons et monté par 15 hommes au moins pour une moyenne de 30 grandes barques de pêcheurs. Ce droit de pro¬tection est de 120ᶠ pour chaque paire de grands,bateaux. Les autres paient de 36 à 72ᶠ.</p>
+<p xml:id="para_4_72_92"><pb facs="#facs_125" n="72" source="lesouvriersdesde0108sociuoft_0140.xml"/> Les dépenses afférentes à une paire de bateaux peuvent donc se réca¬pituler ainsi :
         </p>
-        <p xml:id="para_4_72_93">Main-d'œuvre pendant les 0 mois de pêche, 5,600ᶠ 00 ; — pendant les deux mois de repos, 800ᶠ 00 ; — intérêt à 10% de la valeur des deux bateaux, 200ᶠ 00; — intérêt à 10% de la valeur de deux gréements et de la cabane, 97ᶠ 00; — entre¬tien et réparation, 600ᶠ 00 ; — impôt, 60ᶠ 00 ; — droit de protection, 120ᶠ 00. — Total, 7,87700.</p>
-        <p xml:id="para_4_72_94">Telle année (1866), chaque paire de bateaux, outre le remboursement de ces 7,900ᶠ de dépenses, a produit une recette de 6,000ᶠ. On regarde le chiffre de ces bénéfices comme une moyenne ordinaire, plutôt un peu faible. Comme le poisson se vend en moyenne à raison de 0ᶠ 30 le kilog., cette somme brute de 13 à 14,000ᶠ produite par chaque paire de bateaux correspond à une peche annuelle de 45,000 kilog. environ.</p>
-        <p xml:id="para_4_72_95">Bien que la pêche du poisson comestible soit le but quasi exclusif du travail de Seng-ou-Chan, les hommes qu'il emploie, de même que ses confrères de Kin-Shan, cherchent aussi à capturer des poissons dont les vessies natatoires servent à préparer de la colle ou même une sorte de vermicelle, ou souvent encore à falsifier des nids d'hirondelles.</p>
-        <p xml:id="para_4_72_96">On attaque et l'on prend également les petits requins ou les autres gros poissons qui passent à portée des harpons. Seng-ou-Chan obtient de la sorte 80 ou 100ᶠ pour 250 à 300 lilog. d'huile ; 1,200 ou 1,500ᶠ de vessies de poissons et une centaine de francs de peaux de requins.</p>
-        <p xml:id="para_4_72_97">Les pecheurs, une fois le poisson débarqué, ne s'en occupent que pour le vendre. C'est à l'acheteur aè le conserver et à lui donner les prépara¬tions nécessaires. Il y a à cet efet, a Kin-Shan et vis-à-vis de tous les cantonnements, de grandes glacières abondamment pourvues où l'on trouve, pendant presque toute la durée de la chaleur, de la glace à 0ᶠ 02 ou 0ᶠ 03 le lilog. Cependant lorsque la mer est tellement mauvaise que les acheteurs n'osent pas se risquer à venir de la terre ferme, il faut bien que le pêcheur assure la conservation de ses produits, mais ce n'est là qu'une exception rare.</p>
-        <p xml:id="para_4_72_98">Les accidents survenus dans le travail et les grosses avaries sont en¬tièrement à la charge du maître. Si un des marins se noie pendant la pêche, la famille doit être indemnisée. L'indemnité n'est pas fixe : elle dépend des besoins que la mort de ce membre de la famille laisse en soufrance ; elle est plus forte pour un père de famille que pour un céli¬bataire, pour un jeune que pour un vieux. Elle est en général de 4 à 500 pour un célibataire ; mais on a vu des maîtres de pêche condaumnés par les mandarins à payer jusqu'à 2,500 ou 3,000ᶠ pour un père de famille. Ces sortes de procès sont d'ailleurs très peu fréquents.</p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
-       <p xml:id="para_4_73_102"><pb facs="#facs_126" n="73" source="lesouvriersdesde0108sociuoft_0141.xml"/> Les provisions alimentaires sont distribuées, avant le départ de So¬ong-San, par la femme et la bru de Seng-ou-Chan, et renouvelées pen¬dant la saison entre les mains du premier patron de chaque paire de bateaux. A l'arrivée à Kin-Shan, elles sont transportées dans les ca¬banes respectives, et la cuisine est faite par l'un des hommes.</p>
-       <p xml:id="para_4_73_103">Pendant la station à Kin-Shan, les pêcheurs font cinq repas par jour et six quand la pêche se prolonge dans la nuit. Les repas ordinaires ont lieu au lever du jour, à neuf heures, à midi, à quatre heures et le soir. Le riz et le poisson naturellement en font la base. La viande n'y entre qu'en très petite quantité, encore est-ce presque uniquement de la viande séchée des canards que tout l'archipel et surtout la grande île de Chusan élêve et fournit par centaines de mille. On y ajoute tantôt des légumes salés, tantôt des herbes marines (si-houi, espèce de varech), du fromage de pois<note type="bp">
-         <p>Le Deu-Wou (ou Theou-vou) est une farine de pois jaunes fermentée et sa¬lée, puis réduite en pate (ˉLes ˉOuovriers des deux ondes, 1ᵉ série, t. IV, nᵉ 30, Paysans en communauté du Ning-Po-Fou, note L, p. 152).</p>
-        </note>sec, du gingembre<note type="bp">
-         <p>On assaisonne aussi avec la oia ou a Sauce noire, n connue maintenant des Occidentaux.</p>
-        </note>, des pousses de bambous que la grande île Chusan produit aussi en abondance, et des coquillages.</p>
-       <p xml:id="para_4_73_104">On ne boit de l'eau-de-vie de riz que deux fois par jour : à midi ou une heure, et le soir.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_4_73_107">Les maisons sont construites en Chine d'une manière uniforme : on éléve de distance en distance des colonnes de bois sur lesquelles on dis¬pose la toiture et on entoure le tout d'un mur cloisonné en briques. Un ienn est un de ces entre-colonnements. Comme ils ont toujours le même espacement, on connaît l'importance de la maison au nombre de « kienns ».</p>
-        <p xml:id="para_4_74_110"><pb facs="#facs_127" n="74" source="lesouvriersdesde0108sociuoft_0142.xml"/> L'habitation de Seng-ou-Chan en compte cinq. Elle est orientée nord et sud<note type="bp">
-          <p>Cf. G.-Eug. Simon, ˉLa Cite chinoise, Paris, 1891, p. 338 et suiv.</p>
-         </note>et elle s'ouvre de ce dernier côté. C'est de là, dit-on, que souflent les vents les plus favorables ̀ la santé (<ref target="#part_02_01_03" type="renvoi_int_mono">§ 3</ref>).</p>
-        <p xml:id="para_4_74_111">Les trois cabanes ou baraques qui servent chacune aux douze hommes d'une paire de bateaux sont construites en bambous et en tor¬chis. A l'intérieur, elles sont divisées en deux ou trois compartiments dont l'un sert de cuisine et de magasin et les deux autres de dortoirs. Chaque homme se construit un lit dans un angle, c'est-à-dire que, sur quatre piquets enfoncés en terre, il installe un caudre garni d'un treillis de chanvre de palmier sur lequel sa couverture est roulée. Chacun a le plus souvent deux couvertures qui ne sont pas de trop pendant l'hiver. Ces couvertures ainsi qu'un manteau en fil de palmier sont leur propriété personnelle, mais les cadres appartiennent à Seng-ou-Chan. Deux hommes couchent à bord de chaque bateau et sont remplacés la nuit suivante par deux de leurs camarades, dont ils prennent les lits. Le chef de famille et son fils s'astreignent à suivre en tout le même régime que leurs hommes (<ref target="#part_02_04_13" type="renvoi_int_mono">§ 13</ref>).</p>
-        <p xml:id="para_4_74_112">On remarquera, d'après les listes données ci-après, que les vêtements des deux hommes sont en double, ou du moins que chaque espèce en est représentée par un chiffre pair : le père et le fils doivent avoir, cha¬cun, un égal nombre de vêtements ; de même pour la mère et la bru. Les vêtements des hommes ont presque moitié moins de valeur (501ᶠ) que ceux des femmes (901).</p>
-       </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_4_74_113">MEUBLES............ 1,143ᶠ50</p>
-        <p xml:id="para_4_74_114">1° Mobilier du salon ou chambre de cerémonie. — 1 longue table, 36ᶠ 00 ; — 1 table carrée, 30ᶠ 00 ; — 9 chaises, 30ᶠ 00; — 2 escabeaux, 12ᶠ 00; — 4 guéridons, 16ᶠ 00 ; — 1 tableau, 4ᶠ 00 ; — 1 autel des ancêtres, 22ᶠ 00 ; — 2 chandeliers d'étain. 14ᶠ 00 ; — 1 brûle-parfums, 41ᶠ 00. — Total, 168ᶠ 00.</p>
-        <p xml:id="para_4_74_117">2° Mobilier des chambres à coucher. — 1 grand lit, 1I50ᶠ 00 ; — 1 autre grand lit, 120ᶠ 00 ; — 2 petits lits, 60ᶠ 00 ; — 2 grandes armoires, 108ᶠ 00; — 4 couvertures, 120ᶠ 00 ; — 2 grands matelas, 24ᶠ 00; — 2 petits matelas, I8ᶠ 00; — 2 nattes, 5ᶠ 00 ; — 2 petites nattes, 2ᶠ 50 ; — 2 grands moustiquaires, 60ᶠ 00 ; — 2 petits mousti¬quaires, 32ᶠ 00; — 4 oreillers, 10ᶠ 00; — 2 tables, 36ᶠ 00; — 3 escabeaux, 18ᶠ 00 ; — 1 petite armoire, 15ᶠ 00; — 6 chaises en bambonu, 15ᶠ 00 ; — 2 coffres en bois, 21ᶠ 00 ; — 1 coffre en cuivre, 14ᶠ 00; — 1 paire de chandeliers d'étain, 12ᶠ 00 ; — 2 ehandeliers en cuivre, 5ᶠ 00 ; — 2 petites lampes, 1ᶠ 50 ; — 1 réchaud, 3ᶠ 00 ; — 2 lavabos vernis, 20ᶠ 00; — 2 chaises percées, 20ᶠ 00; — 1 autre chaise percée, 6ᶠ 00; — 1 cuvette en cuivre, 5ᶠ 00 ; — 1 théière de chambre en étain, 6ᶠ 00. — To¬tal, 910ᶠ 00.</p>
-        <p xml:id="para_4_74_123">3° Mobilier de la cuisine. — 1 fournaau en briques à 3 foyers, 30ᶠ 00 ; — 1 ar<pb facs="#facs_128" n="75" source="lesouvriersdesde0108sociuoft_0143.xml"/>moire à vaisselle, 18ᶠ 00; — 1 table, 4ᶠ 50 ; — 1 longue table, 7ᶠ 00; — 6 chaises en bambou, ordinaires, 6ᶠ 00. — Total, 65ᶠ 50.</p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_4_75_126">USTENSILES............ 149ᶠ 05</p>
-        <p xml:id="para_4_75_127">1° Ustensiles de cuisine. — 3 marmites en fer, 3ᶠ 60 ; — 2 marmites (petites). 3ᶠ 00; — 2 cuillères en cuivre, 1ᶠ 20; — 3 couvercles de marmite, 1ᶠ 05; — 1 paire de pincettes, 1ᶠ 50; — 3 pelles, dont 1 en fer et 2 en cuivre, 4ᶠ50 ; — 1 couteau de cuisine, 1ᶠ 50; — 1 grande jarre, 18ᶠ 00 ; — 1 petite jarre, 12ᶠ 00; — 20 pots à con¬serves, en terre, avec les couvercles en étain, 18ᶠ 00 ; — 50 tasses, 15ᶠ 00; — 20 as¬siettes, 5ᶠ 00 ; — 10 grands plats, 12ᶠ 00 ; — 50 paires de baguettes noires, 1ᶠ 00; — 100 paires de baguettes en bambou, 0ᶠ 50; — 20 petites tasses à vin, 1ᶠ50; — 2 grandes cuillères en porcelaine, 1ᶠ 00; — 20 tasses à thé, 6ᶠ 00; — 2 théieres en porcelaine, 9ᶠ 00 ; — 2 bouteilles à vin en étain, 12ᶠ 00. — Total,127 ᶠ35.</p>
-        <p xml:id="para_4_75_129">2° Objets divers. — 1 pipe à eau, 7ᶠ 00; — 1 pipe en bambou, 3ᶠ 00 ;— 3 para¬pluies, 4ᶠ 95 ; — 1 Souam pan (machine à compter), 1ᶠ50 ; — 7 eventails, 5ᶠ 00;— 1 écritoire, 0ᶠ 25. — Total, 2ᶠ70.</p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_4_75_130">VÊTEMENTS............ 1,586ᶠ 50</p>
-        <p xml:id="para_4_75_131">VÊTEMENTS DES DEUX HOMMES (501ᶠ 00).</p>
-        <p xml:id="para_4_75_132">2 chapeaux de cérémonie, 20ᶠ 00 ; — 2 chapeaux en feutre ordinaires, 6ᶠ 00; — 2 bonnets de soie doublés (§ 22), 2ᶠ 00; — 4 cols, 2ᶠ 00 ; — 6 blouses-chemises, 19ᶠ 50 ; — 6 pantalons, 19ᶠ 50 ; — 4 larges pantalons-braies pour le travail, doublés et ouatés, 48ᶠ 00; — 4 calecons simples, 14ᶠ 00 ; — 4 pardessus ouatés, 36ᶠ 00; — 4 pe¬lisses doublées, 18ᶠ 00 ; — 4 pardessus simples, 21ᶠ 00 ; — 6 paires de bas, 6ᶠ 00; — paires de souliers, 14ᶠ 00 ; — 4 gilets simples, 24ᶠ 00; — 2 ceintures de soie, 11ᶠ 00 ; — 2 ceintures de coton, 6ᶠ 00; — 2 manteaux doublés en mouton, 72ᶠ00; — 2 gilets doublés en mouton, 30ᶠ 00 ; — 2 robes de soie doublées, 84ᶠ 00; — 2 man¬teau limousines en fil de palmier, 12ᶠ 00. — Total, 501ᶠ 00.</p>
-        <p xml:id="para_4_75_136">VÊTEMENTS DES DEUX FEMMES (901ᶠ 00).</p>
-        <p xml:id="para_4_75_137">6 chemises, 36ᶠ 00 ; — 4 gilets ouatés, 48ᶠ 00; — 2 gilets doublés en mouton, 36ᶠ 00; — 2 pelisses doublées en mouton, 120ᶠ 00 ; — 2 tabliers jupons, 36ᶠ 00 ; — 2 tabliers jupons, plus ordinaires, 24ᶠ 00; — 4 tabliers coton, 14ᶠ 00 ; — 2 bonnets, 12ᶠ 00; — 4 robes de soie, 192ᶠ 00; — 2 pelisses de soie, 60ᶠ00; — 2 pelisses ouatées, en coton, 24ᶠ 00 ; —.2 grands manteaux ouatés, 72ᶠ 00; — 2 pelisses ouatées, 36ᶠ 00; — 4 grandes épingles d'argent, 24ᶠ 00; — 2 petites épingles d'argent, 7ᶠ 00 ; — 2 paires boucles d'oreilles, 15ᶠ 00; — 2 coiffures en cheveux, 8ᶠ 00 ; — 2 paires de bracelets d'argent, 18ᶠ 00 ; — 2 paires de souliers ordiaires, 5ᶠ 00 ; — 2 pelisses doublées en bourre de soie, 48ᶠ 00 ; — 2 paires de souliers de fêtes, 12ᶠ 00; — 2 ceintures de soie, 24ᶠ 00. — Total, 901ᶠ 00.</p>
-        <p xml:id="para_4_75_141">VÊTEMENTS DE LA JEUNE FILLE (148ᶠ 50).</p>
-        <p xml:id="para_4_75_142">Il épingle de tête en argent, 2ᶠ 50; — 1 bonnet soie, 4ᶠ 00 ; — 4 chemises coton, 9ᶠ 00 ; — 2 pantalons, 4ᶠ 00 ; — 1 pardessus ouaté, 11ᶠ 00 ; — 2 pantalons bourre de soie, 18ᶠ 00; — 1 robe coton, 12ᶠ 00; — 1 robe soie, 30ᶠ 00; — 1 ceinture soie, 6ᶠ 00 ; — 1 pardessus soie, 20ᶠ 00 ; — 1 ceinture coton, 3ᶠ 00 ; — 1 pelisse, 18ᶠ 00 ; — 1 gilet ouaté, 7ᶠ 00 ; — 1 paire de souliers ordinaires, 1ᶠ50; — 1 paire de souliers de fêtes. 2ᶠ50. — Total, 148ᶠ 50.</p>
-        <p xml:id="para_4_75_144">Objets divers. — Jarretières, linge de pieds, rubans, etc., 36ᶠ 00.</p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_4_75_145">VALEUR TOTALE du mobilier et des vêtements............ 2,879ᶠ 05</p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
-       <p xml:id="para_4_76_148"><pb facs="#facs_129" n="76" source="lesouvriersdesde0108sociuoft_0144.xml"/> Les pagodes en Chine ne sont pas seulement des temples : presque toutes, excepté celles qui sont affectées au culte des ancêtres ou au culte de la terre, sont plutôt des lieux de réunion, des cercles, placés sous l'invocation d'un patron choisi par la société ou par l'individu qui a fait construire l'édifice. C'est ainsi que dans chaque ville, chaque corps de métier a sa pagode, et que, dans les villes fréquentées par les voyageurs d'une autre province, il existe une pagode contenant un certain nombre de chambres destinées à les recevoir et à les loger (de même que dans beaucoup de nos monastères et couvents européens), s'ils ne veulent ou s'ils ne peuvent aller à l'auberge. Les voyageurs ont même la faculté d'y déposer leurs marchandises, et à certains jours de la semaine, on y tient marché. La pagode comprend, outre l'autel du patron auquel elle est vouée, des cours plus ou moins vastes et un théatre, où l'on appelle de temps en temps des troupes d'acteurs<note type="bp">
-         <p>Ces pagodes sont quelquefois fort belles. Celle de iang-Si, à Han-éou, était partout revêtue de porcelaines et de briques vernissées de diverses couleurs, et ses toits étaient en tuiles vernissées. La pagode de Fo-Kien, à Ning-Po, est une de plus riches de la Chine ; elle a coûté huit millions.</p>
-        </note>.</p>
-       <p xml:id="para_4_76_149">Remarquons, à cette occasion, qu'en Chine le seul métier réellement méprisé, et qui rend méprisable quiconque le pratique, est celui d'ac¬teur<note type="bp">
-         <p>Ainsi que celui qu'exercent les débitants d'opium.</p>
-        </note>. Mais il faut reconnailtre que l'art dramatique n'y est point compris et exercé comme il l'est en Europe et que les comédiens mé¬ritent assez leur mauvaise réputation dans le Céleste Empire.</p>
-       <p xml:id="para_4_76_150">Les pagodes de Kang-Fou et celles de Tien-Feï-Kong, à Kin-Shan, ren¬ferment donc un théatre sur lequel des troupes nomades viennent aux principales fêtes donner des reprèsentations. Il y en a du reste toujours quelqu'une en tournée dans l'archipel et rien n'est plus facile que de lae faire venir. C'est, pour les pêcheurs comme pour les autres Chinois, la distraction la plus recherchée, et ils l'aiment avec passion.</p>
-       <p xml:id="para_4_76_151">Il y a encore les jeux de cartes et d'autres jeux de hasard ; mais, bien que les matelots ne puissent s'y livrer que pendant les très mauvais temps qui les forcent à rester à terre, ils donnent lieu à trop d'inconvé¬nients pour que les maîtres de pêche et les patrons de barques ne les surveillent et même souvent ne les interdisent d'une facon très sévêre.</p>
-       <p xml:id="para_4_77_154"><pb facs="#facs_130" n="77" source="lesouvriersdesde0108sociuoft_0145.xml"/> Quelques-uns en font une condition d'engagement. Seng-ou-Chan permet le jeu ; mais il exerce une surveillance, et, d'ailleurs, la plupart de ses matelots sont des hommes faits et mariés, qu'il connaît, qu'il emploie depuis longtemps et dont il ne redoute pas les excès.</p>
-       <p xml:id="para_4_77_155">Quant à Seng-ou-Chan et son ils, personnellement ils ne jouent jamais. Leurs dépenses de théatre sont, d'un autre côté, assez modérées : elles ne s'élèvent qu'à 18 francs par an. Pour le tabac, la consommation an¬nuelle est de 90 ilos, qui coûtent 273 francs.</p>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
-       <p xml:id="para_4_77_159">Seng-ou-Chan est le deuxième fils d'une famille de pêcheurs dont le chef est mort, il y a onze ans, à l'âge de soixante-deux ans, laissant une veuve qui mourut peu de temps après, à soixante et un ans, et cinq enfants, dont quatre garçons. La fille est mariée dans un autre village ; les trois autres frères habitent aussi So-Iong-San et sont également pêcheurs. Le partage des intérêts a été fait à la mort de la mère et ils vivent séparément.</p>
-       <p xml:id="para_4_77_160">Seng-ou-Chan devrait s'appeler ˉLo-Seng-ou-Chan, si les cinq ou six cents familles de o-long-San ne portaient pas toutes, comme lui, ce premier nom de Lo, qu'elles ont hérité du fondateur du village (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>), leur aieul. Il a quarante-deux ans ; il est marié et a trois enfants : un garçon et deux filles (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>). Il n'est pas seul l'auteur de toute sa fortune. A la mort de la mère, lorsque les enfants se partagèrent l'héritage, il eut pour sa part 15 méous de terre et 12,000 francs. Mais il a gagné le reste depuis lors, c'est-a-dire depuis onze ans.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
-       <p xml:id="para_4_77_163">Parmi les avantages que la constitution sociale de la Chine assure à <pb facs="#facs_131" n="78" source="lesouvriersdesde0108sociuoft_0146.xml"/> la famille que nous venons d'étudier, il faut signaler d'abord le goût général de la nation pour le plus noble et le plus utile des arts, l'agricul¬ture — art pratiqué quelque peu par les Seng-ou-Chan (père et fils) sur 8 de leurs 34 méous de terre (§<ref target="#part_02_02_06" type="renvoi_int_mono">§ 6</ref> et <ref target="#part_02_02_08" type="renvoi_int_mono">8</ref>) ; — ensuite, le respect de l'autorité paternelle (§<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>,<ref target="#part_03_01_18" type="renvoi_int_mono">18</ref> et <ref target="#part_03_01_19" type="renvoi_int_mono">19</ref>), qui se traduit par le culte des ancêtres et la liberté testamentaire ; puis, le r̂le très important, quoi qu'on en pense en Europe, que joue la femme dans le ménage chinois, car elle y tient la bourse<note type="bp">
-         <p>Notons bien ici que la mode en Chine, pour les femmes, de se serrer les pieds dans de petites chaussures courtes ne leur a pas été imposée dans l'intention de les retenir au foyer domestique : elles savent faire leur devoir sans cette con¬trainte, que du reste elles pourraient facilement éviter en sortant en chaise à porteurs. Mais l'origine en remonte, croit-on,. à une impératrice qui, pour cause d'infirmité ou pour tout autre motif, avait pris cette habitude et fut ensuite cour¬toisement imitée.</p>
-        </note>, et aussi la précocité des mariages alliée à la vie en communauté de famille ; enfin, le petit nombre des fonctionnaires (à peine 1 par 400,000 citoyens)<note type="bp">
-         <p>G.-Eug. Simon, ˉLa Cite chinoiseˉ. Paris, 891, p. 192.</p>
-        </note>et leurs sérieuses responsabilités : tel est le controle effectivement exercé sur les actes privés et publies de l'Empe¬reur par la « cour de censeurs<note type="bp">
-         <p>Ibid.. p. 152 et suiv.</p>
-        </note>; » et, en dernier lieu, la modicité de l'impot<note type="bp">
-         <p>L'opium seul est soumis à une forte taxe : l'on veut par là détourner les Chinois de l'emploi néfaste de ce produit si abondamment importé par les Anglais civilisateurs.</p>
-        </note>, qui n'est que de 3 fr. pour chaque habitant.</p>
-       <p xml:id="para_4_78_165">Ajoutons maintenant que le caractère personnel du chef de famille, et en particulier sa persévérace dans un travail pénible (§<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref> et <ref target="#part_02_03_10" type="renvoi_int_mono">10</ref>), est la meilleure garantie de la prospérité des Seng-ou-Chan.</p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <head type="sub_section" xml:id="part_02_05">BUDGET DOMESTIQUE ANNUEL<lb/>§§ 14 et 15. RECETTES ET DÉPENSES DE LA FAMILLE</head>
-      <p xml:id="para_4_78_169">Bien que le budget de la famille ne puisse pas être établi en détail, les observations très précises recueillies sur place permettent d'apprécier dans leur ensemble ses recettes et ses dépenses, et de dresser le compte des industries qu'elle exerce.</p>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">RECETTES ANNUELLES</head>
-       <pb facs="#facs_132" n="79" source="lesouvriersdesde0108sociuoft_0147.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_132" url="#"/>
-       </figure>
-       <!--<p xml:id="para_4_79_176">Reoenus des proprieté́ : lIntérêt à 10 °. de la valeur (6,000ᶠ 00) de l'habitation, 600ᶠ 00; — intérêt a 10ᵒ/., de la valeur (510ᶠ 00) des ca¬banes de pêche, 54ᶠ 00 ; — revenus de 34 méous de terre, 108ᶠ 00. . 1,062ᶠ 00</p>
+<p xml:id="para_4_72_93">Main-d'œuvre pendant les 0 mois de pêche, 5,600ᶠ 00 ; — pendant les deux mois de repos, 800ᶠ 00 ; — intérêt à 10% de la valeur des deux bateaux, 200ᶠ 00; — intérêt à 10% de la valeur de deux gréements et de la cabane, 97ᶠ 00; — entre¬tien et réparation, 600ᶠ 00 ; — impôt, 60ᶠ 00 ; — droit de protection, 120ᶠ 00. — Total, 7,87700.</p>
+<p xml:id="para_4_72_94">Telle année (1866), chaque paire de bateaux, outre le remboursement de ces 7,900ᶠ de dépenses, a produit une recette de 6,000ᶠ. On regarde le chiffre de ces bénéfices comme une moyenne ordinaire, plutôt un peu faible. Comme le poisson se vend en moyenne à raison de 0ᶠ 30 le kilog., cette somme brute de 13 à 14,000ᶠ produite par chaque paire de bateaux correspond à une peche annuelle de 45,000 kilog. environ.</p>
+<p xml:id="para_4_72_95">Bien que la pêche du poisson comestible soit le but quasi exclusif du travail de Seng-ou-Chan, les hommes qu'il emploie, de même que ses confrères de Kin-Shan, cherchent aussi à capturer des poissons dont les vessies natatoires servent à préparer de la colle ou même une sorte de vermicelle, ou souvent encore à falsifier des nids d'hirondelles.</p>
+<p xml:id="para_4_72_96">On attaque et l'on prend également les petits requins ou les autres gros poissons qui passent à portée des harpons. Seng-ou-Chan obtient de la sorte 80 ou 100ᶠ pour 250 à 300 lilog. d'huile ; 1,200 ou 1,500ᶠ de vessies de poissons et une centaine de francs de peaux de requins.</p>
+<p xml:id="para_4_72_97">Les pecheurs, une fois le poisson débarqué, ne s'en occupent que pour le vendre. C'est à l'acheteur aè le conserver et à lui donner les prépara¬tions nécessaires. Il y a à cet efet, a Kin-Shan et vis-à-vis de tous les cantonnements, de grandes glacières abondamment pourvues où l'on trouve, pendant presque toute la durée de la chaleur, de la glace à 0ᶠ 02 ou 0ᶠ 03 le lilog. Cependant lorsque la mer est tellement mauvaise que les acheteurs n'osent pas se risquer à venir de la terre ferme, il faut bien que le pêcheur assure la conservation de ses produits, mais ce n'est là qu'une exception rare.</p>
+<p xml:id="para_4_72_98">Les accidents survenus dans le travail et les grosses avaries sont en¬tièrement à la charge du maître. Si un des marins se noie pendant la pêche, la famille doit être indemnisée. L'indemnité n'est pas fixe : elle dépend des besoins que la mort de ce membre de la famille laisse en soufrance ; elle est plus forte pour un père de famille que pour un céli¬bataire, pour un jeune que pour un vieux. Elle est en général de 4 à 500 pour un célibataire ; mais on a vu des maîtres de pêche condaumnés par les mandarins à payer jusqu'à 2,500 ou 3,000ᶠ pour un père de famille. Ces sortes de procès sont d'ailleurs très peu fréquents.</p>
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
+<p xml:id="para_4_73_102"><pb facs="#facs_126" n="73" source="lesouvriersdesde0108sociuoft_0141.xml"/> Les provisions alimentaires sont distribuées, avant le départ de So¬ong-San, par la femme et la bru de Seng-ou-Chan, et renouvelées pen¬dant la saison entre les mains du premier patron de chaque paire de bateaux. A l'arrivée à Kin-Shan, elles sont transportées dans les ca¬banes respectives, et la cuisine est faite par l'un des hommes.</p>
+<p xml:id="para_4_73_103">Pendant la station à Kin-Shan, les pêcheurs font cinq repas par jour et six quand la pêche se prolonge dans la nuit. Les repas ordinaires ont lieu au lever du jour, à neuf heures, à midi, à quatre heures et le soir. Le riz et le poisson naturellement en font la base. La viande n'y entre qu'en très petite quantité, encore est-ce presque uniquement de la viande séchée des canards que tout l'archipel et surtout la grande île de Chusan élêve et fournit par centaines de mille. On y ajoute tantôt des légumes salés, tantôt des herbes marines (si-houi, espèce de varech), du fromage de pois<note type="bp">
+<p>Le Deu-Wou (ou Theou-vou) est une farine de pois jaunes fermentée et sa¬lée, puis réduite en pate (ˉLes ˉOuovriers des deux ondes, 1ᵉ série, t. IV, nᵉ 30, Paysans en communauté du Ning-Po-Fou, note L, p. 152).</p>
+</note>sec, du gingembre<note type="bp">
+<p>On assaisonne aussi avec la oia ou a Sauce noire, n connue maintenant des Occidentaux.</p>
+</note>, des pousses de bambous que la grande île Chusan produit aussi en abondance, et des coquillages.</p>
+<p xml:id="para_4_73_104">On ne boit de l'eau-de-vie de riz que deux fois par jour : à midi ou une heure, et le soir.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_4_73_107">Les maisons sont construites en Chine d'une manière uniforme : on éléve de distance en distance des colonnes de bois sur lesquelles on dis¬pose la toiture et on entoure le tout d'un mur cloisonné en briques. Un ienn est un de ces entre-colonnements. Comme ils ont toujours le même espacement, on connaît l'importance de la maison au nombre de « kienns ».</p>
+<p xml:id="para_4_74_110"><pb facs="#facs_127" n="74" source="lesouvriersdesde0108sociuoft_0142.xml"/> L'habitation de Seng-ou-Chan en compte cinq. Elle est orientée nord et sud<note type="bp">
+<p>Cf. G.-Eug. Simon, ˉLa Cite chinoise, Paris, 1891, p. 338 et suiv.</p>
+</note>et elle s'ouvre de ce dernier côté. C'est de là, dit-on, que souflent les vents les plus favorables ̀ la santé (<ref target="#part_02_01_03" type="renvoi_int_mono">§ 3</ref>).</p>
+<p xml:id="para_4_74_111">Les trois cabanes ou baraques qui servent chacune aux douze hommes d'une paire de bateaux sont construites en bambous et en tor¬chis. A l'intérieur, elles sont divisées en deux ou trois compartiments dont l'un sert de cuisine et de magasin et les deux autres de dortoirs. Chaque homme se construit un lit dans un angle, c'est-à-dire que, sur quatre piquets enfoncés en terre, il installe un caudre garni d'un treillis de chanvre de palmier sur lequel sa couverture est roulée. Chacun a le plus souvent deux couvertures qui ne sont pas de trop pendant l'hiver. Ces couvertures ainsi qu'un manteau en fil de palmier sont leur propriété personnelle, mais les cadres appartiennent à Seng-ou-Chan. Deux hommes couchent à bord de chaque bateau et sont remplacés la nuit suivante par deux de leurs camarades, dont ils prennent les lits. Le chef de famille et son fils s'astreignent à suivre en tout le même régime que leurs hommes (<ref target="#part_02_04_13" type="renvoi_int_mono">§ 13</ref>).</p>
+<p xml:id="para_4_74_112">On remarquera, d'après les listes données ci-après, que les vêtements des deux hommes sont en double, ou du moins que chaque espèce en est représentée par un chiffre pair : le père et le fils doivent avoir, cha¬cun, un égal nombre de vêtements ; de même pour la mère et la bru. Les vêtements des hommes ont presque moitié moins de valeur (501ᶠ) que ceux des femmes (901).</p>
+</div>
+<div subtype="meubles" type="par_10">
+<p xml:id="para_4_74_113">MEUBLES............ 1,143ᶠ50</p>
+<p xml:id="para_4_74_114">1° Mobilier du salon ou chambre de cerémonie. — 1 longue table, 36ᶠ 00 ; — 1 table carrée, 30ᶠ 00 ; — 9 chaises, 30ᶠ 00; — 2 escabeaux, 12ᶠ 00; — 4 guéridons, 16ᶠ 00 ; — 1 tableau, 4ᶠ 00 ; — 1 autel des ancêtres, 22ᶠ 00 ; — 2 chandeliers d'étain. 14ᶠ 00 ; — 1 brûle-parfums, 41ᶠ 00. — Total, 168ᶠ 00.</p>
+<p xml:id="para_4_74_117">2° Mobilier des chambres à coucher. — 1 grand lit, 1I50ᶠ 00 ; — 1 autre grand lit, 120ᶠ 00 ; — 2 petits lits, 60ᶠ 00 ; — 2 grandes armoires, 108ᶠ 00; — 4 couvertures, 120ᶠ 00 ; — 2 grands matelas, 24ᶠ 00; — 2 petits matelas, I8ᶠ 00; — 2 nattes, 5ᶠ 00 ; — 2 petites nattes, 2ᶠ 50 ; — 2 grands moustiquaires, 60ᶠ 00 ; — 2 petits mousti¬quaires, 32ᶠ 00; — 4 oreillers, 10ᶠ 00; — 2 tables, 36ᶠ 00; — 3 escabeaux, 18ᶠ 00 ; — 1 petite armoire, 15ᶠ 00; — 6 chaises en bambonu, 15ᶠ 00 ; — 2 coffres en bois, 21ᶠ 00 ; — 1 coffre en cuivre, 14ᶠ 00; — 1 paire de chandeliers d'étain, 12ᶠ 00 ; — 2 ehandeliers en cuivre, 5ᶠ 00 ; — 2 petites lampes, 1ᶠ 50 ; — 1 réchaud, 3ᶠ 00 ; — 2 lavabos vernis, 20ᶠ 00; — 2 chaises percées, 20ᶠ 00; — 1 autre chaise percée, 6ᶠ 00; — 1 cuvette en cuivre, 5ᶠ 00 ; — 1 théière de chambre en étain, 6ᶠ 00. — To¬tal, 910ᶠ 00.</p>
+<p xml:id="para_4_74_123">3° Mobilier de la cuisine. — 1 fournaau en briques à 3 foyers, 30ᶠ 00 ; — 1 ar<pb facs="#facs_128" n="75" source="lesouvriersdesde0108sociuoft_0143.xml"/>moire à vaisselle, 18ᶠ 00; — 1 table, 4ᶠ 50 ; — 1 longue table, 7ᶠ 00; — 6 chaises en bambou, ordinaires, 6ᶠ 00. — Total, 65ᶠ 50.</p>
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_4_75_126">USTENSILES............ 149ᶠ 05</p>
+<p xml:id="para_4_75_127">1° Ustensiles de cuisine. — 3 marmites en fer, 3ᶠ 60 ; — 2 marmites (petites). 3ᶠ 00; — 2 cuillères en cuivre, 1ᶠ 20; — 3 couvercles de marmite, 1ᶠ 05; — 1 paire de pincettes, 1ᶠ 50; — 3 pelles, dont 1 en fer et 2 en cuivre, 4ᶠ50 ; — 1 couteau de cuisine, 1ᶠ 50; — 1 grande jarre, 18ᶠ 00 ; — 1 petite jarre, 12ᶠ 00; — 20 pots à con¬serves, en terre, avec les couvercles en étain, 18ᶠ 00 ; — 50 tasses, 15ᶠ 00; — 20 as¬siettes, 5ᶠ 00 ; — 10 grands plats, 12ᶠ 00 ; — 50 paires de baguettes noires, 1ᶠ 00; — 100 paires de baguettes en bambou, 0ᶠ 50; — 20 petites tasses à vin, 1ᶠ50; — 2 grandes cuillères en porcelaine, 1ᶠ 00; — 20 tasses à thé, 6ᶠ 00; — 2 théieres en porcelaine, 9ᶠ 00 ; — 2 bouteilles à vin en étain, 12ᶠ 00. — Total,127 ᶠ35.</p>
+<p xml:id="para_4_75_129">2° Objets divers. — 1 pipe à eau, 7ᶠ 00; — 1 pipe en bambou, 3ᶠ 00 ;— 3 para¬pluies, 4ᶠ 95 ; — 1 Souam pan (machine à compter), 1ᶠ50 ; — 7 eventails, 5ᶠ 00;— 1 écritoire, 0ᶠ 25. — Total, 2ᶠ70.</p>
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_4_75_130">VÊTEMENTS............ 1,586ᶠ 50</p>
+<p xml:id="para_4_75_131">VÊTEMENTS DES DEUX HOMMES (501ᶠ 00).</p>
+<p xml:id="para_4_75_132">2 chapeaux de cérémonie, 20ᶠ 00 ; — 2 chapeaux en feutre ordinaires, 6ᶠ 00; — 2 bonnets de soie doublés (§ 22), 2ᶠ 00; — 4 cols, 2ᶠ 00 ; — 6 blouses-chemises, 19ᶠ 50 ; — 6 pantalons, 19ᶠ 50 ; — 4 larges pantalons-braies pour le travail, doublés et ouatés, 48ᶠ 00; — 4 calecons simples, 14ᶠ 00 ; — 4 pardessus ouatés, 36ᶠ 00; — 4 pe¬lisses doublées, 18ᶠ 00 ; — 4 pardessus simples, 21ᶠ 00 ; — 6 paires de bas, 6ᶠ 00; — paires de souliers, 14ᶠ 00 ; — 4 gilets simples, 24ᶠ 00; — 2 ceintures de soie, 11ᶠ 00 ; — 2 ceintures de coton, 6ᶠ 00; — 2 manteaux doublés en mouton, 72ᶠ00; — 2 gilets doublés en mouton, 30ᶠ 00 ; — 2 robes de soie doublées, 84ᶠ 00; — 2 man¬teau limousines en fil de palmier, 12ᶠ 00. — Total, 501ᶠ 00.</p>
+<p xml:id="para_4_75_136">VÊTEMENTS DES DEUX FEMMES (901ᶠ 00).</p>
+<p xml:id="para_4_75_137">6 chemises, 36ᶠ 00 ; — 4 gilets ouatés, 48ᶠ 00; — 2 gilets doublés en mouton, 36ᶠ 00; — 2 pelisses doublées en mouton, 120ᶠ 00 ; — 2 tabliers jupons, 36ᶠ 00 ; — 2 tabliers jupons, plus ordinaires, 24ᶠ 00; — 4 tabliers coton, 14ᶠ 00 ; — 2 bonnets, 12ᶠ 00; — 4 robes de soie, 192ᶠ 00; — 2 pelisses de soie, 60ᶠ00; — 2 pelisses ouatées, en coton, 24ᶠ 00 ; —.2 grands manteaux ouatés, 72ᶠ 00; — 2 pelisses ouatées, 36ᶠ 00; — 4 grandes épingles d'argent, 24ᶠ 00; — 2 petites épingles d'argent, 7ᶠ 00 ; — 2 paires boucles d'oreilles, 15ᶠ 00; — 2 coiffures en cheveux, 8ᶠ 00 ; — 2 paires de bracelets d'argent, 18ᶠ 00 ; — 2 paires de souliers ordiaires, 5ᶠ 00 ; — 2 pelisses doublées en bourre de soie, 48ᶠ 00 ; — 2 paires de souliers de fêtes, 12ᶠ 00; — 2 ceintures de soie, 24ᶠ 00. — Total, 901ᶠ 00.</p>
+<p xml:id="para_4_75_141">VÊTEMENTS DE LA JEUNE FILLE (148ᶠ 50).</p>
+<p xml:id="para_4_75_142">Il épingle de tête en argent, 2ᶠ 50; — 1 bonnet soie, 4ᶠ 00 ; — 4 chemises coton, 9ᶠ 00 ; — 2 pantalons, 4ᶠ 00 ; — 1 pardessus ouaté, 11ᶠ 00 ; — 2 pantalons bourre de soie, 18ᶠ 00; — 1 robe coton, 12ᶠ 00; — 1 robe soie, 30ᶠ 00; — 1 ceinture soie, 6ᶠ 00 ; — 1 pardessus soie, 20ᶠ 00 ; — 1 ceinture coton, 3ᶠ 00 ; — 1 pelisse, 18ᶠ 00 ; — 1 gilet ouaté, 7ᶠ 00 ; — 1 paire de souliers ordinaires, 1ᶠ50; — 1 paire de souliers de fêtes. 2ᶠ50. — Total, 148ᶠ 50.</p>
+<p xml:id="para_4_75_144">Objets divers. — Jarretières, linge de pieds, rubans, etc., 36ᶠ 00.</p>
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_4_75_145">VALEUR TOTALE du mobilier et des vêtements............ 2,879ᶠ 05</p>
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
+<p xml:id="para_4_76_148"><pb facs="#facs_129" n="76" source="lesouvriersdesde0108sociuoft_0144.xml"/> Les pagodes en Chine ne sont pas seulement des temples : presque toutes, excepté celles qui sont affectées au culte des ancêtres ou au culte de la terre, sont plutôt des lieux de réunion, des cercles, placés sous l'invocation d'un patron choisi par la société ou par l'individu qui a fait construire l'édifice. C'est ainsi que dans chaque ville, chaque corps de métier a sa pagode, et que, dans les villes fréquentées par les voyageurs d'une autre province, il existe une pagode contenant un certain nombre de chambres destinées à les recevoir et à les loger (de même que dans beaucoup de nos monastères et couvents européens), s'ils ne veulent ou s'ils ne peuvent aller à l'auberge. Les voyageurs ont même la faculté d'y déposer leurs marchandises, et à certains jours de la semaine, on y tient marché. La pagode comprend, outre l'autel du patron auquel elle est vouée, des cours plus ou moins vastes et un théatre, où l'on appelle de temps en temps des troupes d'acteurs<note type="bp">
+<p>Ces pagodes sont quelquefois fort belles. Celle de iang-Si, à Han-éou, était partout revêtue de porcelaines et de briques vernissées de diverses couleurs, et ses toits étaient en tuiles vernissées. La pagode de Fo-Kien, à Ning-Po, est une de plus riches de la Chine ; elle a coûté huit millions.</p>
+</note>.</p>
+<p xml:id="para_4_76_149">Remarquons, à cette occasion, qu'en Chine le seul métier réellement méprisé, et qui rend méprisable quiconque le pratique, est celui d'ac¬teur<note type="bp">
+<p>Ainsi que celui qu'exercent les débitants d'opium.</p>
+</note>. Mais il faut reconnailtre que l'art dramatique n'y est point compris et exercé comme il l'est en Europe et que les comédiens mé¬ritent assez leur mauvaise réputation dans le Céleste Empire.</p>
+<p xml:id="para_4_76_150">Les pagodes de Kang-Fou et celles de Tien-Feï-Kong, à Kin-Shan, ren¬ferment donc un théatre sur lequel des troupes nomades viennent aux principales fêtes donner des reprèsentations. Il y en a du reste toujours quelqu'une en tournée dans l'archipel et rien n'est plus facile que de lae faire venir. C'est, pour les pêcheurs comme pour les autres Chinois, la distraction la plus recherchée, et ils l'aiment avec passion.</p>
+<p xml:id="para_4_76_151">Il y a encore les jeux de cartes et d'autres jeux de hasard ; mais, bien que les matelots ne puissent s'y livrer que pendant les très mauvais temps qui les forcent à rester à terre, ils donnent lieu à trop d'inconvé¬nients pour que les maîtres de pêche et les patrons de barques ne les surveillent et même souvent ne les interdisent d'une facon très sévêre.</p>
+<p xml:id="para_4_77_154"><pb facs="#facs_130" n="77" source="lesouvriersdesde0108sociuoft_0145.xml"/> Quelques-uns en font une condition d'engagement. Seng-ou-Chan permet le jeu ; mais il exerce une surveillance, et, d'ailleurs, la plupart de ses matelots sont des hommes faits et mariés, qu'il connaît, qu'il emploie depuis longtemps et dont il ne redoute pas les excès.</p>
+<p xml:id="para_4_77_155">Quant à Seng-ou-Chan et son ils, personnellement ils ne jouent jamais. Leurs dépenses de théatre sont, d'un autre côté, assez modérées : elles ne s'élèvent qu'à 18 francs par an. Pour le tabac, la consommation an¬nuelle est de 90 ilos, qui coûtent 273 francs.</p>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
+<p xml:id="para_4_77_159">Seng-ou-Chan est le deuxième fils d'une famille de pêcheurs dont le chef est mort, il y a onze ans, à l'âge de soixante-deux ans, laissant une veuve qui mourut peu de temps après, à soixante et un ans, et cinq enfants, dont quatre garçons. La fille est mariée dans un autre village ; les trois autres frères habitent aussi So-Iong-San et sont également pêcheurs. Le partage des intérêts a été fait à la mort de la mère et ils vivent séparément.</p>
+<p xml:id="para_4_77_160">Seng-ou-Chan devrait s'appeler ˉLo-Seng-ou-Chan, si les cinq ou six cents familles de o-long-San ne portaient pas toutes, comme lui, ce premier nom de Lo, qu'elles ont hérité du fondateur du village (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>), leur aieul. Il a quarante-deux ans ; il est marié et a trois enfants : un garçon et deux filles (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>). Il n'est pas seul l'auteur de toute sa fortune. A la mort de la mère, lorsque les enfants se partagèrent l'héritage, il eut pour sa part 15 méous de terre et 12,000 francs. Mais il a gagné le reste depuis lors, c'est-a-dire depuis onze ans.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
+<p xml:id="para_4_77_163">Parmi les avantages que la constitution sociale de la Chine assure à <pb facs="#facs_131" n="78" source="lesouvriersdesde0108sociuoft_0146.xml"/> la famille que nous venons d'étudier, il faut signaler d'abord le goût général de la nation pour le plus noble et le plus utile des arts, l'agricul¬ture — art pratiqué quelque peu par les Seng-ou-Chan (père et fils) sur 8 de leurs 34 méous de terre (§<ref target="#part_02_02_06" type="renvoi_int_mono">§ 6</ref> et <ref target="#part_02_02_08" type="renvoi_int_mono">8</ref>) ; — ensuite, le respect de l'autorité paternelle (§<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>,<ref target="#part_03_01_18" type="renvoi_int_mono">18</ref> et <ref target="#part_03_01_19" type="renvoi_int_mono">19</ref>), qui se traduit par le culte des ancêtres et la liberté testamentaire ; puis, le r̂le très important, quoi qu'on en pense en Europe, que joue la femme dans le ménage chinois, car elle y tient la bourse<note type="bp">
+<p>Notons bien ici que la mode en Chine, pour les femmes, de se serrer les pieds dans de petites chaussures courtes ne leur a pas été imposée dans l'intention de les retenir au foyer domestique : elles savent faire leur devoir sans cette con¬trainte, que du reste elles pourraient facilement éviter en sortant en chaise à porteurs. Mais l'origine en remonte, croit-on,. à une impératrice qui, pour cause d'infirmité ou pour tout autre motif, avait pris cette habitude et fut ensuite cour¬toisement imitée.</p>
+</note>, et aussi la précocité des mariages alliée à la vie en communauté de famille ; enfin, le petit nombre des fonctionnaires (à peine 1 par 400,000 citoyens)<note type="bp">
+<p>G.-Eug. Simon, ˉLa Cite chinoiseˉ. Paris, 891, p. 192.</p>
+</note>et leurs sérieuses responsabilités : tel est le controle effectivement exercé sur les actes privés et publies de l'Empe¬reur par la « cour de censeurs<note type="bp">
+<p>Ibid.. p. 152 et suiv.</p>
+</note>; » et, en dernier lieu, la modicité de l'impot<note type="bp">
+<p>L'opium seul est soumis à une forte taxe : l'on veut par là détourner les Chinois de l'emploi néfaste de ce produit si abondamment importé par les Anglais civilisateurs.</p>
+</note>, qui n'est que de 3 fr. pour chaque habitant.</p>
+<p xml:id="para_4_78_165">Ajoutons maintenant que le caractère personnel du chef de famille, et en particulier sa persévérace dans un travail pénible (§<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref> et <ref target="#part_02_03_10" type="renvoi_int_mono">10</ref>), est la meilleure garantie de la prospérité des Seng-ou-Chan.</p>
+</div>
+</div>
+<div n="005" type="sub_section">
+<head type="sub_section" xml:id="part_02_05">BUDGET DOMESTIQUE ANNUEL<lb/>§§ 14 et 15. RECETTES ET DÉPENSES DE LA FAMILLE</head>
+<p xml:id="para_4_78_169">Bien que le budget de la famille ne puisse pas être établi en détail, les observations très précises recueillies sur place permettent d'apprécier dans leur ensemble ses recettes et ses dépenses, et de dresser le compte des industries qu'elle exerce.</p>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">RECETTES ANNUELLES</head>
+<pb facs="#facs_132" n="79" source="lesouvriersdesde0108sociuoft_0147.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_132" url="#"/>
+</figure>
+<!--<p xml:id="para_4_79_176">Reoenus des proprieté́ : lIntérêt à 10 °. de la valeur (6,000ᶠ 00) de l'habitation, 600ᶠ 00; — intérêt a 10ᵒ/., de la valeur (510ᶠ 00) des ca¬banes de pêche, 54ᶠ 00 ; — revenus de 34 méous de terre, 108ᶠ 00. . 1,062ᶠ 00</p>
         <p xml:id="para_4_79_177">Intérêt de l'argent prêté ou employé en spéculations. . . . . . 5.000 00</p>
         <p xml:id="para_4_79_178">Intérêt de la valeur des animaux entretenus toute l'année, 1ᶠ 10, et</p>
         <p xml:id="para_4_79_179">de la valeur du matériel des industries, 2078ᶠ 70 . . .. . . . 2,079 80</p>
         <p xml:id="para_4_79_180">Subventions . . . . . . . . . . . . . . . . .. . . . 81 00</p>
         <p xml:id="para_4_79_181">ˉBenéfices des industries (comptes A, B, C, D) . . . .. . . . . 26,291 60</p>
         <p xml:id="para_4_79_182">Total des recettes . . .. .: . . . . . . . . 31,517ᶠ10</p>-->
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">DÉPENSES ANNUELLES</head>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_132" url="#"/>
-       </figure>
-       <!--<p xml:id="para_4_79_184">Nourriture ; Ria en paille, I9,500 . a 9ᶠ les 6l ., 2,730ᶠ 00 ; — riz récolté, 2000 ., 291ᶠ 00 ; — frais de décorticage et de mouture en dehors du ménage, 546ᶠ 00; — huile à manger. l40 ., 170ᶠ 00; — graisse de porc, 6l ., 96ᶠ 00 ; — laitage, 140ᶠ 00; — 700 eufs de la basse-cour, 1ᶠ 00 ; — 2500 eufs de poule et 500 eufs de canard. 70ᶠ 00 ; — porcs de la basse-cour, 181ᶠ 00 ; — porc salé, l0, 220ᶠ 00 ; — 8 poulets, 8ᶠ 80; — canards secs, 180 ., 265ᶠ 00 ; — pois¬son frais, 1,500 l, 450ᶠ 00; — poisson sale, 300 k.,150ᶠ 00; — varechs et coquillages, émoireˉ,; — légumes du potager, 300ᶠ 00 ; — choux salés, 1,800.,206ᶠ00 ; — sel, 300 ., 90ᶠ 00 ; — the, 30, 76ᶠ 00; — sucre, 132 ., 70ᶠ 00; — vin ordinaire, 600 k., 125ᶠ 00, etc. . . . Habitation : loyer, 600ᶠ 00; — entretien de la maison, 300ᶠ 00 ; — en¬tretien du mobilier et des ustensiles évalués à 3ᵉ, de leur valeur, 39ᶠ 00. — Chaufage : paille, lI5,000.,182ᶠ 50; menu bois, 1I5,000 ., 307ᶠ 50 ; — ensemble, 190ᶠ 00. — Éclairage : huile a bruler, l30 k.,</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">DÉPENSES ANNUELLES</head>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_132" url="#"/>
+</figure>
+<!--<p xml:id="para_4_79_184">Nourriture ; Ria en paille, I9,500 . a 9ᶠ les 6l ., 2,730ᶠ 00 ; — riz récolté, 2000 ., 291ᶠ 00 ; — frais de décorticage et de mouture en dehors du ménage, 546ᶠ 00; — huile à manger. l40 ., 170ᶠ 00; — graisse de porc, 6l ., 96ᶠ 00 ; — laitage, 140ᶠ 00; — 700 eufs de la basse-cour, 1ᶠ 00 ; — 2500 eufs de poule et 500 eufs de canard. 70ᶠ 00 ; — porcs de la basse-cour, 181ᶠ 00 ; — porc salé, l0, 220ᶠ 00 ; — 8 poulets, 8ᶠ 80; — canards secs, 180 ., 265ᶠ 00 ; — pois¬son frais, 1,500 l, 450ᶠ 00; — poisson sale, 300 k.,150ᶠ 00; — varechs et coquillages, émoireˉ,; — légumes du potager, 300ᶠ 00 ; — choux salés, 1,800.,206ᶠ00 ; — sel, 300 ., 90ᶠ 00 ; — the, 30, 76ᶠ 00; — sucre, 132 ., 70ᶠ 00; — vin ordinaire, 600 k., 125ᶠ 00, etc. . . . Habitation : loyer, 600ᶠ 00; — entretien de la maison, 300ᶠ 00 ; — en¬tretien du mobilier et des ustensiles évalués à 3ᵉ, de leur valeur, 39ᶠ 00. — Chaufage : paille, lI5,000.,182ᶠ 50; menu bois, 1I5,000 ., 307ᶠ 50 ; — ensemble, 190ᶠ 00. — Éclairage : huile a bruler, l30 k.,</p>
         <p xml:id="para_4_79_185">155ᶠ 00 . . . . . . . . . . . . . . . . . . . . . .</p>
         <p xml:id="para_4_79_186">vêtements : entretien annuel, 100ᶠ 00 ; — blanchissage, pour mé¬Tè, . . .  . . .. . . . . . . . . . . . .</p>
         <p xml:id="para_4_79_187">esoins morax</p>
@@ -438,14 +437,14 @@
         <p xml:id="para_4_79_197">Recettes . . . . . .. . . . . . . . . . . . 34,517ᶠ 10</p>
         <p xml:id="para_4_79_198">Dépenses . . . . . . . . .. . . . . . . . . 9,211 00</p>
         <p xml:id="para_4_79_199">Épargne (comprenant les salaires de la famille). . . . 25,306ᶠ 40</p>-->
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES SPÉCIAUX DES INDUSTRIES</head>
-       <pb facs="#facs_133" n="80" source="lesouvriersdesde0108sociuoft_0148.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_133" url="#"/>
-       </figure>
-       <!--<p xml:id="para_4_80_202">A. — ˉrploitation de l péche</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES SPÉCIAUX DES INDUSTRIES</head>
+<pb facs="#facs_133" n="80" source="lesouvriersdesde0108sociuoft_0148.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_133" url="#"/>
+</figure>
+<!--<p xml:id="para_4_80_202">A. — ˉrploitation de l péche</p>
         <p xml:id="para_4_80_203">RECEITES</p>
         <p xml:id="para_4_80_204">Poisson frais : 135,4150 k. à 0ᶠ 30 (prix minimum) . . .. . . . 40,635ᶠ00</p>
         <p xml:id="para_4_80_205">Huile de poisson : 300 k. a 25ᶠ 00 les 6l l. . . . . . . . . . . 1I25 00</p>
@@ -479,11 +478,11 @@
         <p xml:id="para_4_80_233">8 poulets à 1ᶠ 10 la pièce . .. .. . . . . . . . . .. 8 80</p>
         <p xml:id="para_4_80_234">.00 ufs a 0ᶠ 02 la pièce. . . .. . . . . . . . . ... 141 00</p>
         <p xml:id="para_4_80_235">Total des recettes . . . . . . . . . . . . . 800ᶠ 80</p>-->
-       <pb facs="#facs_134" n="81" source="lesouvriersdesde0108sociuoft_0149.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_134" url="#"/>
-       </figure>
-       <!--<p xml:id="para_4_81_236">BUDGET DOMESTIQUE ANNUEL. 81</p>
+<pb facs="#facs_134" n="81" source="lesouvriersdesde0108sociuoft_0149.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_134" url="#"/>
+</figure>
+<!--<p xml:id="para_4_81_236">BUDGET DOMESTIQUE ANNUEL. 81</p>
         <p xml:id="para_4_81_237">DÉPENSES</p>
         <p xml:id="para_4_81_238">lntérêts de la valeur des 8 méous en culture directe. . . . . . . 96ᶠ 00</p>
         <p xml:id="para_4_81_239">— — des animaux entretenus toute l'année . . ..1 10 </p>
@@ -514,48 +513,48 @@
         <p xml:id="para_4_81_264">— des terres et de la basse-cour . . . . . . . . . . 536 80 </p>
         <p xml:id="para_4_81_265">Tissage domestique . . . . . . . . . . . . . . . . . . 60 10</p>
         <p xml:id="para_4_81_266">BÉNÉFcEs des industries (comprenant les salaires de la famille). 26,291ᶠ 60</p>-->
-      </div>
-     </div>
-    </div>
-    <div n="003" type="section">
-     <head type="section" xml:id="part_03">Éléments divers de la constitution sociale</head>
-     <p xml:id="para_4_82_267">FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMARQUABLES APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS</p>
-     <div n="001" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_17">§ 17. LA TERRE ET LA FAMILLE</head>
-       <p xml:id="para_4_82_270"><pb facs="#facs_135" n="82" source="lesouvriersdesde0108sociuoft_0150.xml"/> La plupart des villages empruntent leur nom au plus antique cultiva¬teur qui s'est établi dans le lieu ; et cette étymologie est même tellement commune qu'il semble que, dans le pays, tout le monde la connaisse. Cependant, ce nom de famille donné à tout un canton, consacré par les siècles, devenu — en s'étendant sur la surface au fur et à mesure qu'il se prolongeait dans le temps — le nom administratif, géographique, d'une partie du territoire, ce nom, par les effets qui résultent de son origine, mérite une sérieuse attention ; il exerce sur les meurs une influence considérable ; il y a là comme un air de féodalite sans que, pourtant, ce soit réellement féodal.</p>
-       <p xml:id="para_4_82_271">Les habitants de tel village sortent tous de cette antique maison, qui est la plus vieille de toutes ; et, à mesure qu'ils en sortaient, se sont établis au plus près. Aussi, le terrain qu'ils cultivent porte-t-il le même nom que cette maison et ce nom est le leur (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>). Ils sont donc bien chez eux, non pas chez un autre, et n'appartiennent qu'à eux-mêmes. De maîtres, ils n'en ont pas ; de chef, ils en ont bien, mais c'est celui de cette même vieille maison et ce n'est que pour cela qu'il est leur chef, c'est le père.</p>
-       <p xml:id="para_4_82_272">Essayez de faire sortir un Ouang-Ming-Tse, par exemple, du pays des Ouang ; propose-lui même, ailleurs, dans un autre pays, le double de ce qu'il possède chez lui; proposez-lui le triple, et ne craignez pas qu'il ac¬cepte.</p>
-       <p xml:id="para_4_83_273"><pb facs="#facs_136" n="83" source="lesouvriersdesde0108sociuoft_0151.xml"/> Sa terre aura beau être plus grande, ce ne sera plus sa terre autant que la première. Ce sera une terre des Mu — si c'est le pays des Mu que vous lui indiquez — appartenant à Ouang ; lui-même ne sera plus un Ouang, et il deviendra seulement M. Ouan; autant vaudrait proposer à quelqu'un de vendre sa nationalité. Cela est si vrai que dans les juge¬ments de famille, la condamnation à l'exil se borne très souvent à l'ex¬clusion du territoire habité par la famille. Cette peine suit. On en peut sourire d'abord, mais ensuite on comprend et on plaint l'exilé.</p>
-       <p xml:id="para_4_83_274">Il est à l'étranger,  puisque l'étranger commence pour lui hors de la limite du domaine des siens. Ce n'est pas qu'il manque de tout ; en le condamnant à l'exil, on ne l'a pas nécessairement condamné à la pau¬vreté ni à la misere ; suivant les circonstances, on a pu lui permettre de réauliser ses biens et d'en emporter la valeur, d'emmener sa femme et ses enfants ; le père a même pu ne pas le déshériter et lui faire sa part de l'héritage, afin qu'il n'y ait plus rien de commun ; dans tous les cas, sa mère lui aura bien probablement glissé une partie de l'épargne du ménage, mais il n'est plus sur le territoire de la communauté : il est puni.</p>
-       <p xml:id="para_4_83_275">Ainsi l'on voit que c'est bien ici qu'on peut dire de la terre ce qu'en France on dit de la noblesse, à savoir : qu'elle oblige et qu'elle moralise.</p>
-       <p xml:id="para_4_83_276">Les filles sont exhérédées par la loi de tout droit aux immeubles de la famille, et par les mœurs de tout droit aux autres propriétés. Quand il y a des enfants màles, on donne aux filles, à leur mariage, un trousseau comprenant quelques meubles et proportionné à la fortune de la famille ; à la mort des parents, elles peuvent encore recevoir un souvenir, mais c'est tout. Cependant nul ne trouve mauvais que le père ou la mère leur fassent de temps en temps des cadeaux d'argent ou d'objets mobiliers, pourvu que cela ne fasse pas tort au patrimoine des enfants mâles. Quand il n'y a pas d'enfants males, elles héritent. Maintenant, en ce qui concerne les enfants males, la liberté du père est entière, aucune loi ne la règle ni ne la limite. Il peut faire de son bien ce qu'il veut et n'en doit compte à personne.... si ce n'est à tout le monde, c'est-à-dire à l'opinion publique, aux mœurs dont linfluence est si grande et se fait sentir à chaque instant.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_18">§ 18. LE LIVRE DE FAMILLE EN CHINE</head>
-       <p xml:id="para_4_83_279">Quand un jeune homme est séparé du tronc familial et qu'il s'aventure, par caprice ou par force, au courant de la destinée, l'usage est, en Chine, <pb facs="#facs_137" n="84" source="lesouvriersdesde0108sociuoft_0152.xml"/> qu'il emporte avec lui une copie du livre de famille. Non pas pourtant du livre tout entier, il suffit qu'il remonte jusqu'au premier de ses an¬cêtres qui, s'étant trouvé dans les mêmes circonstances que lui, aura créé la ramification à laquelle il appartient ou, le plus souvent, jusqu'au quatrième ou au troisième aieul.</p>
-       <p xml:id="para_4_84_281">Revêtu du sceau du chef de la maison et de celui du chef du village, qui n'est lui-même presque toujours que l'ainé de la plus ancienne branche d'où proviennent tous les ménages environnants, ce livre cons¬titue désormais les pénates et l'état civil du jeune homme. Si, par suite soit d'insouciance et d'imprévoyance, soit au contraire de la volonté du chef présidant le conseil de famille, il n'y a pas eu, avant son départ, de partage d'intérêts, ce livre lui réserve sa part dans les chances heu¬reuses de la famille, comme il doit, d'autre part, enregistrer tous ses profits. Mais si la séparation d'intérêts a été prononcée, il ne lui donne droit à rien prétendre, et ce n'est plus que sur lui-même qu'il doit comp¬ter.</p>
-       <p xml:id="para_4_84_282">Cependant, et quoiqu'il le sache parfaitement, il lui semble, avec ce livre, n'être ni seul ni abandonné ; c'est là qu'il concentre maintenant ses souvenirs et ses affections. Puis il n'est pas un vagabond, et viennent des circonstances favorables, il fécondera ce germe d'une nouvelle fa¬mille. Le voilà prêt à faire souche à son tour. Il est né.</p>
-       <p xml:id="para_4_84_283">C'est un membre de la branche aînée qui est conservateur des archives de la famille et de la salle des ancêtres ; c'est lui qui inscrit les nais¬sances et les décès ; c'est en ses mains que les petits-fils viennent dépo¬ser la tablette de leur aieul à la mort de leur père ; c'est aussi sous sa présidence que se célèbrent les fêtes et les anniversaires des ancêtres. A ces fêtes, ou du moins aux principales, le chef de chaque famille sans exception vient assister.</p>
-       <p xml:id="para_4_84_284">Là s'arrêtent les relations générales qui rattachent les familles les plus éloignées à la branche principale, et elles ne se resserrent davantage que suivant le degré de parenté, les sympathies particulières, l'analogie de conditions, etc. Inutile d'ajouter que si quelque membre avait besoin d'un secours urgent, il pourrait le trouver en s'adressant au chef des archives ; mais, en général, ce n'est qu'à la dernière extrémité qu'on se décide à l'invoquer. Tous les Chinois aiment mieux emprunter, même à des taux très élevés et à des étrangers, que de demander à des parents. Ce serait, en effet, d'après les mœurs, obliger ceux-ci ù prêter et pour cela peut-être a se gèner, car on ne connait pas exactement leurs moyens, ou encore à rougir de ne pouvoir le faire. Or, il est aussi mal d'avoir mis <pb facs="#facs_138" n="85" source="lesouvriersdesde0108sociuoft_0153.xml"/> quelqu'un dans le cas de rougir (ou, comme ils le disent, « de perdre la face ») qu'il serait mal à un parent de ne pas prêter quand il le peut.</p>
-       <p xml:id="para_4_85_286">Il y a encore une autre raison, c'est que, les mœurs interdisant de parent à parent l'intérêt de l'argent et l'emploi de la contrainte pour se faire rembourser, il faut bien prendre garde que celui à qui on s'adresse ne puisse soupçonner qu'on a l'arrière-pensée de profiter de ces empêche¬ments. Et puis, si on ne pouvait pas rembourser, comment oser paraître sans rougir aux assemblées de famille, sous les yeux d'un créancier mécontent et besogneux Mieux vaut mille fois emprunter ailleurs : pour peu qu'on ait d'amis, il n'est pas difficile d'inventer quelque Hoei-Tsienn (petite société d'argent), dont il sera loisible aux parents de faire partie.</p>
-       <p xml:id="para_4_85_287">Mais qu'il s'agisse d'un procès, d'un litige quelconque, comme c'est un scandale et peut-être la ruine (car, hélasl les juges, sinon la justice, coûtent cher en Chine)<note type="bp">
-         <p>Il est inutile de dire qu'il y a à cette règle de très nombreuses et honorables exceptions.</p>
-        </note>, il faut l'éviter à tout prix. Tout le monde s'unit ; la cause d'un seul devient la cause de chacun, et personne ne recule devant les sacrifices même diliciles. La famille se retrouve là tout entiere, et du côté du bon droit l'opinion, et malheur à qui la brave !</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_19">§ 19. LES RITES DU RESPECT ET DES FÈTES DE LA VIEILLESSE CHEZ LES CHINOIS</head>
-       <p xml:id="para_4_85_290">Les domestiques ont leur entrée dans la cour intérieure de la maison les jours de fête ou de cérémonie, où ils se présentent vêtus de leurs plus beaux habits, et tous ensemble font trois fois le Ko-Téou (proster¬nation) devant le chef de la famille seul, et deux fois devant les autres maîtres. Ils sont dispensés pour les autres jours de cette salutation. Mais les enfants l'observent chaque matin, et les vieux parents eux-mêmes de l'un à l'autre. Enfin tout le monde se réunit encore au salon pour les instructions que le Chinois, qui tient aux vieilles traditions, ne manque pas de faire.</p>
-       <p xml:id="para_4_85_291">Quelquefois on fête la cinquantaine, mais assez rarement ; l'on attend d'habitude la soixantaine. C'est alors pour tout le monde une occasion de distraction et de réjouissances : pour les pauvres, une occasion à libé¬ralités. Tous les anciens du village, les jeunes et les propres enfants de la famille sont rassemblés dans la première cour, chacun revêtu de son <pb facs="#facs_139" n="86" source="lesouvriersdesde0108sociuoft_0154.xml"/> plus beau vêtement. Puis, à un moment donné, la porte s'ouvre, et deux messagers s'avancent : ils font le e-Teou et présentent les cartes de visite des principaux de ceux qui demandent à entrer. Puis la porte s'ouvre de nouveau, et des porteurs de présents s'avancent qui déposent leurs cadeaux. La porte s'ouvre encore, et ce sont des enfants, puis les anciens, puis tous les gens du village qui viennent deux à deux se pros¬terner en souhaitant au vieillard dix mille félicités et une longue vie. Celui-ci offre à son tour un immense repas et des représentations de théàtre-foire qui durent toute la journée et toute la nuit devant la mai¬son. On renouvelle cette fête tous les dix ans, mais à soixante-dix ans elle est encore bien plus solennelle. Il est rare que les mandarins ne s'y associent pas, en envoyant au moins leur carte de visite ù l'heureux sep¬tuagénaire, et, quand ils veulent particulièrement l'honorer, ils vont en personne lui adresser leurs félicitations.</p>
-       <p xml:id="para_4_86_294">On voit combien le respect est pratiqué à l'égard de la vieillesse, non pas seulement par les enfants vis-à-vis de leurs aieuls ou de leurs pa¬rents âgés ni même uniquement de la part des domestiques envers leure maîtres. De hauts personnages le professent et ne croient nullement s'abaisser loin de là, en payant aux favorisés du temps le tribut de leur vénération. Le fait suivant, parmi bien d'autres analogues, le prouve encore d'une façon plus évidente. Le respect, du reste, y est dicté par une sincère gratitude.</p>
-       <p xml:id="para_4_86_295">Il y avait à ou-i-Mang. capitale de la province de oung-chéou (l'une des plus occidentales de la Chine), un pharmacien-médecin qui méritait d'être appelé le médecin des pauvres, car il ne leur faisait pas payer ses visites ou ses conseils. Quant à ses remedes, s'il les vendait, ce n'était pas pour y retrouver le prix de ses visites, mais seulement pour limiter ses sacrifices. Et même, depuis qu'il s'était fait chretien, il ne les vendait plus. il les donnait. A la vérité, la pharmacie était bien quelque peu approvisionnée par la mission, mais ce n'était pas seule¬ment aux frais de la mission qu'il se montrait généreux : il fournissauit aussi de lui-même des remèdes qui lui occasionnaient certaines dé¬penses.</p>
-       <p xml:id="para_4_86_296">Après le soin des pauvres, il avait encore la spécialité du traitement des enfants ; il les sauvait presque tous, et il y avait peu de familles dans la ville qui ne lui dussent la vie de quelqu'un des leurs. ll eut un jour, en particulier, le bonheur de guérir d'une maladie grave le jeune fils du gouverneur ; et, soit que cette cure ait coûté peu de frais, soit qu'il pensât, au contruire, qu'en refusant tous les présents du gouver<pb facs="#facs_140" n="87" source="lesouvriersdesde0108sociuoft_0155.xml"/>neur, la reconnaissance de celui-ci rejaillirait sur toute la chrétienté, il ne voulut point changer ses habitudes et n'accepta rien, malgré les ins¬tances qui lui furent faites.</p>
-       <p xml:id="para_4_87_298">On répête, entre autres aménités, que les Chinois ne sont pas recon¬naissants ; mais ceux qui le disent seraient fort embarrassés de prouver leur jugement. La vérité est que les Chinois sont à peu près comme tous les autres hommes, et qu'ils n'ont le cœur ni plus haut ni plus bas. En tous cas, il parait que le bienfait du médecin pesait fort au gouverneur ; aussi bien s'avisa-t-il que ce brave homme ne devait pas être loin de sa soixante-dixiême année (il en était à la soixante-huitième). Et, deux ans après, qui fut étonné ? — Le généreux bienfaiteur.</p>
-       <p xml:id="para_4_87_299">Le gouverneur sortit de son palais avec toute la pompe des plus grands jours, entouré de tout son cortège — plus de deux cents personnes — faisant porter ses éventails, ses parasols, ses drapeaux, et accompagné de ses musiciens. Puis, suivi de tous les obligés du bon docteur, il se rendit chez lui, et le premier inclina le front jusqu'à terre devant le dévoué médecin ; et, pendant que le déilé continuait, il s'assit près de lui, fit suspendre au-dessus de sa tête une inscription d'honneur et en¬fin s'invita au diner, auquel il prit part du meilleur appétit. L'épilogue de ce récit, c'est que le gouverneur, qui n'était point un méchant homme, a continué désormaisà être favorable aux chrétiens.</p>
-      </div>
-     </div>
-    </div>
-   </div>
-  </body>
- </text>
+</div>
+</div>
+</div>
+<div n="003" type="section">
+<head type="section" xml:id="part_03">Éléments divers de la constitution sociale</head>
+<p xml:id="para_4_82_267">FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMARQUABLES APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS</p>
+<div n="001" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_17">§ 17. LA TERRE ET LA FAMILLE</head>
+<p xml:id="para_4_82_270"><pb facs="#facs_135" n="82" source="lesouvriersdesde0108sociuoft_0150.xml"/> La plupart des villages empruntent leur nom au plus antique cultiva¬teur qui s'est établi dans le lieu ; et cette étymologie est même tellement commune qu'il semble que, dans le pays, tout le monde la connaisse. Cependant, ce nom de famille donné à tout un canton, consacré par les siècles, devenu — en s'étendant sur la surface au fur et à mesure qu'il se prolongeait dans le temps — le nom administratif, géographique, d'une partie du territoire, ce nom, par les effets qui résultent de son origine, mérite une sérieuse attention ; il exerce sur les meurs une influence considérable ; il y a là comme un air de féodalite sans que, pourtant, ce soit réellement féodal.</p>
+<p xml:id="para_4_82_271">Les habitants de tel village sortent tous de cette antique maison, qui est la plus vieille de toutes ; et, à mesure qu'ils en sortaient, se sont établis au plus près. Aussi, le terrain qu'ils cultivent porte-t-il le même nom que cette maison et ce nom est le leur (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>). Ils sont donc bien chez eux, non pas chez un autre, et n'appartiennent qu'à eux-mêmes. De maîtres, ils n'en ont pas ; de chef, ils en ont bien, mais c'est celui de cette même vieille maison et ce n'est que pour cela qu'il est leur chef, c'est le père.</p>
+<p xml:id="para_4_82_272">Essayez de faire sortir un Ouang-Ming-Tse, par exemple, du pays des Ouang ; propose-lui même, ailleurs, dans un autre pays, le double de ce qu'il possède chez lui; proposez-lui le triple, et ne craignez pas qu'il ac¬cepte.</p>
+<p xml:id="para_4_83_273"><pb facs="#facs_136" n="83" source="lesouvriersdesde0108sociuoft_0151.xml"/> Sa terre aura beau être plus grande, ce ne sera plus sa terre autant que la première. Ce sera une terre des Mu — si c'est le pays des Mu que vous lui indiquez — appartenant à Ouang ; lui-même ne sera plus un Ouang, et il deviendra seulement M. Ouan; autant vaudrait proposer à quelqu'un de vendre sa nationalité. Cela est si vrai que dans les juge¬ments de famille, la condamnation à l'exil se borne très souvent à l'ex¬clusion du territoire habité par la famille. Cette peine suit. On en peut sourire d'abord, mais ensuite on comprend et on plaint l'exilé.</p>
+<p xml:id="para_4_83_274">Il est à l'étranger,  puisque l'étranger commence pour lui hors de la limite du domaine des siens. Ce n'est pas qu'il manque de tout ; en le condamnant à l'exil, on ne l'a pas nécessairement condamné à la pau¬vreté ni à la misere ; suivant les circonstances, on a pu lui permettre de réauliser ses biens et d'en emporter la valeur, d'emmener sa femme et ses enfants ; le père a même pu ne pas le déshériter et lui faire sa part de l'héritage, afin qu'il n'y ait plus rien de commun ; dans tous les cas, sa mère lui aura bien probablement glissé une partie de l'épargne du ménage, mais il n'est plus sur le territoire de la communauté : il est puni.</p>
+<p xml:id="para_4_83_275">Ainsi l'on voit que c'est bien ici qu'on peut dire de la terre ce qu'en France on dit de la noblesse, à savoir : qu'elle oblige et qu'elle moralise.</p>
+<p xml:id="para_4_83_276">Les filles sont exhérédées par la loi de tout droit aux immeubles de la famille, et par les mœurs de tout droit aux autres propriétés. Quand il y a des enfants màles, on donne aux filles, à leur mariage, un trousseau comprenant quelques meubles et proportionné à la fortune de la famille ; à la mort des parents, elles peuvent encore recevoir un souvenir, mais c'est tout. Cependant nul ne trouve mauvais que le père ou la mère leur fassent de temps en temps des cadeaux d'argent ou d'objets mobiliers, pourvu que cela ne fasse pas tort au patrimoine des enfants mâles. Quand il n'y a pas d'enfants males, elles héritent. Maintenant, en ce qui concerne les enfants males, la liberté du père est entière, aucune loi ne la règle ni ne la limite. Il peut faire de son bien ce qu'il veut et n'en doit compte à personne.... si ce n'est à tout le monde, c'est-à-dire à l'opinion publique, aux mœurs dont linfluence est si grande et se fait sentir à chaque instant.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_18">§ 18. LE LIVRE DE FAMILLE EN CHINE</head>
+<p xml:id="para_4_83_279">Quand un jeune homme est séparé du tronc familial et qu'il s'aventure, par caprice ou par force, au courant de la destinée, l'usage est, en Chine, <pb facs="#facs_137" n="84" source="lesouvriersdesde0108sociuoft_0152.xml"/> qu'il emporte avec lui une copie du livre de famille. Non pas pourtant du livre tout entier, il suffit qu'il remonte jusqu'au premier de ses an¬cêtres qui, s'étant trouvé dans les mêmes circonstances que lui, aura créé la ramification à laquelle il appartient ou, le plus souvent, jusqu'au quatrième ou au troisième aieul.</p>
+<p xml:id="para_4_84_281">Revêtu du sceau du chef de la maison et de celui du chef du village, qui n'est lui-même presque toujours que l'ainé de la plus ancienne branche d'où proviennent tous les ménages environnants, ce livre cons¬titue désormais les pénates et l'état civil du jeune homme. Si, par suite soit d'insouciance et d'imprévoyance, soit au contraire de la volonté du chef présidant le conseil de famille, il n'y a pas eu, avant son départ, de partage d'intérêts, ce livre lui réserve sa part dans les chances heu¬reuses de la famille, comme il doit, d'autre part, enregistrer tous ses profits. Mais si la séparation d'intérêts a été prononcée, il ne lui donne droit à rien prétendre, et ce n'est plus que sur lui-même qu'il doit comp¬ter.</p>
+<p xml:id="para_4_84_282">Cependant, et quoiqu'il le sache parfaitement, il lui semble, avec ce livre, n'être ni seul ni abandonné ; c'est là qu'il concentre maintenant ses souvenirs et ses affections. Puis il n'est pas un vagabond, et viennent des circonstances favorables, il fécondera ce germe d'une nouvelle fa¬mille. Le voilà prêt à faire souche à son tour. Il est né.</p>
+<p xml:id="para_4_84_283">C'est un membre de la branche aînée qui est conservateur des archives de la famille et de la salle des ancêtres ; c'est lui qui inscrit les nais¬sances et les décès ; c'est en ses mains que les petits-fils viennent dépo¬ser la tablette de leur aieul à la mort de leur père ; c'est aussi sous sa présidence que se célèbrent les fêtes et les anniversaires des ancêtres. A ces fêtes, ou du moins aux principales, le chef de chaque famille sans exception vient assister.</p>
+<p xml:id="para_4_84_284">Là s'arrêtent les relations générales qui rattachent les familles les plus éloignées à la branche principale, et elles ne se resserrent davantage que suivant le degré de parenté, les sympathies particulières, l'analogie de conditions, etc. Inutile d'ajouter que si quelque membre avait besoin d'un secours urgent, il pourrait le trouver en s'adressant au chef des archives ; mais, en général, ce n'est qu'à la dernière extrémité qu'on se décide à l'invoquer. Tous les Chinois aiment mieux emprunter, même à des taux très élevés et à des étrangers, que de demander à des parents. Ce serait, en effet, d'après les mœurs, obliger ceux-ci ù prêter et pour cela peut-être a se gèner, car on ne connait pas exactement leurs moyens, ou encore à rougir de ne pouvoir le faire. Or, il est aussi mal d'avoir mis <pb facs="#facs_138" n="85" source="lesouvriersdesde0108sociuoft_0153.xml"/> quelqu'un dans le cas de rougir (ou, comme ils le disent, « de perdre la face ») qu'il serait mal à un parent de ne pas prêter quand il le peut.</p>
+<p xml:id="para_4_85_286">Il y a encore une autre raison, c'est que, les mœurs interdisant de parent à parent l'intérêt de l'argent et l'emploi de la contrainte pour se faire rembourser, il faut bien prendre garde que celui à qui on s'adresse ne puisse soupçonner qu'on a l'arrière-pensée de profiter de ces empêche¬ments. Et puis, si on ne pouvait pas rembourser, comment oser paraître sans rougir aux assemblées de famille, sous les yeux d'un créancier mécontent et besogneux Mieux vaut mille fois emprunter ailleurs : pour peu qu'on ait d'amis, il n'est pas difficile d'inventer quelque Hoei-Tsienn (petite société d'argent), dont il sera loisible aux parents de faire partie.</p>
+<p xml:id="para_4_85_287">Mais qu'il s'agisse d'un procès, d'un litige quelconque, comme c'est un scandale et peut-être la ruine (car, hélasl les juges, sinon la justice, coûtent cher en Chine)<note type="bp">
+<p>Il est inutile de dire qu'il y a à cette règle de très nombreuses et honorables exceptions.</p>
+</note>, il faut l'éviter à tout prix. Tout le monde s'unit ; la cause d'un seul devient la cause de chacun, et personne ne recule devant les sacrifices même diliciles. La famille se retrouve là tout entiere, et du côté du bon droit l'opinion, et malheur à qui la brave !</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_19">§ 19. LES RITES DU RESPECT ET DES FÈTES DE LA VIEILLESSE CHEZ LES CHINOIS</head>
+<p xml:id="para_4_85_290">Les domestiques ont leur entrée dans la cour intérieure de la maison les jours de fête ou de cérémonie, où ils se présentent vêtus de leurs plus beaux habits, et tous ensemble font trois fois le Ko-Téou (proster¬nation) devant le chef de la famille seul, et deux fois devant les autres maîtres. Ils sont dispensés pour les autres jours de cette salutation. Mais les enfants l'observent chaque matin, et les vieux parents eux-mêmes de l'un à l'autre. Enfin tout le monde se réunit encore au salon pour les instructions que le Chinois, qui tient aux vieilles traditions, ne manque pas de faire.</p>
+<p xml:id="para_4_85_291">Quelquefois on fête la cinquantaine, mais assez rarement ; l'on attend d'habitude la soixantaine. C'est alors pour tout le monde une occasion de distraction et de réjouissances : pour les pauvres, une occasion à libé¬ralités. Tous les anciens du village, les jeunes et les propres enfants de la famille sont rassemblés dans la première cour, chacun revêtu de son <pb facs="#facs_139" n="86" source="lesouvriersdesde0108sociuoft_0154.xml"/> plus beau vêtement. Puis, à un moment donné, la porte s'ouvre, et deux messagers s'avancent : ils font le e-Teou et présentent les cartes de visite des principaux de ceux qui demandent à entrer. Puis la porte s'ouvre de nouveau, et des porteurs de présents s'avancent qui déposent leurs cadeaux. La porte s'ouvre encore, et ce sont des enfants, puis les anciens, puis tous les gens du village qui viennent deux à deux se pros¬terner en souhaitant au vieillard dix mille félicités et une longue vie. Celui-ci offre à son tour un immense repas et des représentations de théàtre-foire qui durent toute la journée et toute la nuit devant la mai¬son. On renouvelle cette fête tous les dix ans, mais à soixante-dix ans elle est encore bien plus solennelle. Il est rare que les mandarins ne s'y associent pas, en envoyant au moins leur carte de visite ù l'heureux sep¬tuagénaire, et, quand ils veulent particulièrement l'honorer, ils vont en personne lui adresser leurs félicitations.</p>
+<p xml:id="para_4_86_294">On voit combien le respect est pratiqué à l'égard de la vieillesse, non pas seulement par les enfants vis-à-vis de leurs aieuls ou de leurs pa¬rents âgés ni même uniquement de la part des domestiques envers leure maîtres. De hauts personnages le professent et ne croient nullement s'abaisser loin de là, en payant aux favorisés du temps le tribut de leur vénération. Le fait suivant, parmi bien d'autres analogues, le prouve encore d'une façon plus évidente. Le respect, du reste, y est dicté par une sincère gratitude.</p>
+<p xml:id="para_4_86_295">Il y avait à ou-i-Mang. capitale de la province de oung-chéou (l'une des plus occidentales de la Chine), un pharmacien-médecin qui méritait d'être appelé le médecin des pauvres, car il ne leur faisait pas payer ses visites ou ses conseils. Quant à ses remedes, s'il les vendait, ce n'était pas pour y retrouver le prix de ses visites, mais seulement pour limiter ses sacrifices. Et même, depuis qu'il s'était fait chretien, il ne les vendait plus. il les donnait. A la vérité, la pharmacie était bien quelque peu approvisionnée par la mission, mais ce n'était pas seule¬ment aux frais de la mission qu'il se montrait généreux : il fournissauit aussi de lui-même des remèdes qui lui occasionnaient certaines dé¬penses.</p>
+<p xml:id="para_4_86_296">Après le soin des pauvres, il avait encore la spécialité du traitement des enfants ; il les sauvait presque tous, et il y avait peu de familles dans la ville qui ne lui dussent la vie de quelqu'un des leurs. ll eut un jour, en particulier, le bonheur de guérir d'une maladie grave le jeune fils du gouverneur ; et, soit que cette cure ait coûté peu de frais, soit qu'il pensât, au contruire, qu'en refusant tous les présents du gouver<pb facs="#facs_140" n="87" source="lesouvriersdesde0108sociuoft_0155.xml"/>neur, la reconnaissance de celui-ci rejaillirait sur toute la chrétienté, il ne voulut point changer ses habitudes et n'accepta rien, malgré les ins¬tances qui lui furent faites.</p>
+<p xml:id="para_4_87_298">On répête, entre autres aménités, que les Chinois ne sont pas recon¬naissants ; mais ceux qui le disent seraient fort embarrassés de prouver leur jugement. La vérité est que les Chinois sont à peu près comme tous les autres hommes, et qu'ils n'ont le cœur ni plus haut ni plus bas. En tous cas, il parait que le bienfait du médecin pesait fort au gouverneur ; aussi bien s'avisa-t-il que ce brave homme ne devait pas être loin de sa soixante-dixiême année (il en était à la soixante-huitième). Et, deux ans après, qui fut étonné ? — Le généreux bienfaiteur.</p>
+<p xml:id="para_4_87_299">Le gouverneur sortit de son palais avec toute la pompe des plus grands jours, entouré de tout son cortège — plus de deux cents personnes — faisant porter ses éventails, ses parasols, ses drapeaux, et accompagné de ses musiciens. Puis, suivi de tous les obligés du bon docteur, il se rendit chez lui, et le premier inclina le front jusqu'à terre devant le dévoué médecin ; et, pendant que le déilé continuait, il s'assit près de lui, fit suspendre au-dessus de sa tête une inscription d'honneur et en¬fin s'invita au diner, auquel il prit part du meilleur appétit. L'épilogue de ce récit, c'est que le gouverneur, qui n'était point un méchant homme, a continué désormaisà être favorable aux chrétiens.</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</text>
 </TEI>

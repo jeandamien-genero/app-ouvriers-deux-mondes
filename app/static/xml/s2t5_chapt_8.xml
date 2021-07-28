@@ -1,522 +1,521 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie-->
-<TEI xml:id="ID-085a" xml:lang="fr">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription</title>
-    <respStmt>
-     <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>encodage scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>supervision technique</resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_204">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$223/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_205">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$224/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_206">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$225/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_207">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$226/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_208">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$227/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_209">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$228/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_210">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$229/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_211">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$230/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_212">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$231/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_213">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$232/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_214">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$233/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_215">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$234/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_216">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$235/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_217">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$236/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_218">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$237/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_219">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$238/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_220">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$239/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_221">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$240/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_222">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$241/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_223">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$242/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_224">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$243/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_225">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$244/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_226">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$245/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_227">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$246/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_228">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$247/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_229">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$248/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_230">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$249/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_231">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$250/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_232">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$251/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_233">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$252/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_234">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$253/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_235">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$254/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_236">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$255/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_237">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$256/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_238">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$257/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_239">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$258/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_240">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$259/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_241">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$260/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_242">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$261/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_243">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$262/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_244">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$263/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_245">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$264/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_246">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$265/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_247">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$266/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_248">
-  <surface lrx="2638" lry="4302"/>
-  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$267/full/full/0/default.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_8_189_1">N° 85.</p>
-     <p xml:id="para_8_189_2">PAYSAN MÉTAYER</p>
-     <p xml:id="para_8_189_3">(CONTADINO MEZZAJUOL0)</p>
-     <p xml:id="para_8_189_4">DE LA COMMUNE DE ROCCASANCASCIANO</p>
-     <p xml:id="para_8_189_5">(ROMAGNE-TOSCANE — ITALIE)</p>
-     <p xml:id="para_8_189_6">OUVRIER TENANCIER</p>
-     <p xml:id="para_8_189_7">DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS</p>
-     <p>d'après</p>
-     <p xml:id="para_8_189_8">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1879-1880</p>
-     <p>AVEC DES Notes DE 1895</p>
-     <p xml:id="para_8_189_9">PAR</p>
-     <p xml:id="para_8_189_10">M. <persName>J.-P. ASSIRELLI</persName></p>
-     <p xml:id="para_8_189_11">Docteur en Droit, Avocat, Ex-Professeur de sciences économiques dans les Instituts techniques du Royaume d'Italie</p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. État du sol, de l'industrie et de la population.</head>
-       <p xml:id="para_8_189_17"><pb facs="#facs_204" n="189" source="2serlesouvriersde05sociuoft_0223.xml"/> La famille de paysans dont nous allons nous occuper vit à la cam¬pagne à environ 2 kilomètres et demi du pays de Roccasancas¬ciano.</p>
-       <p xml:id="para_8_189_18">Un sol découpé par des collines escarpées, quelques hauts plateaux, des vallées étroites et profondes, au fond desquelles coulent les ruis¬seaux qui alimentent le fleuve trauversant la vallée principule, des vil¬lages bâtis çà et là, tout le long des cours d'eau, telle est la physiono<pb facs="#facs_205" n="190" source="2serlesouvriersde05sociuoft_0224.xml"/>mie générale de presque toute la haute Romagne, appelée, à raison de la circonscription administrative dont elle fait partie, Romagne-Toscane.</p>
-       <p xml:id="para_8_190_21">Dans toute la campagne on rencontre des maisons éparses, des ter¬rains cultivés, des bois plus ou moins étendus ; l'oeil y est charmé par la variété des sites ; l'esprit y est frappé d'admiration devant ce résultat de l'industrie de l'homme qui de terrains rudes et sauvages a fait des champs riants et fertiles. D'ailleurs l'aspect de la campagne où vit la famille que nous étudions, ressemble tout à fait à celui de la plus grande partie de la moyenne ltalie, et l'on peut dire, à ce point de vue, que le genre de vie de cette famille est identique à celui de presque tous les contadini<note type="bp">
-         <p>Contadine, paysan habitant dans le domaine du conte, anciennement contado.</p>
-        </note>de cette région, qui comprend les sept provinces les plus fertiles du royaume (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>).</p>
-       <p xml:id="para_8_190_22">La commune de Roccasancasciano fait partie de la province de Florence ; elle comprend une partie de la vallée du fleuve Montone et s'étend sur les hautes collines qui en bordent le cours, jusqu'aux li¬mites des communes voisines.</p>
-       <p xml:id="para_8_190_23">L'élévation du sol, sur les rives du fleuve, est de 500 mètres environ au-dessus du niveau de la mer.</p>
-       <p xml:id="para_8_190_24">Le climat, sec pendant l'été, n'est que très peu humide en hiver. La température varie entre -24° et -12° en été, -9° et -15° en hiver ; en 1892-1893, le thermomètre est exceptionnellement descendu jus¬qu'à -19°.</p>
-       <p xml:id="para_8_190_25">Les vents dominants sont, en été, le vent du sud-ouest et, en hiver, les vents du nord et du nord-est.</p>
-       <p xml:id="para_8_190_26">Si l'on tient compte de tout ce qui précède et de ce que la neige, qui tombe très abondamment en hiver, commence quelquefois aux pre¬miers jours d'octobre, on peut dresser le tableau suivant :</p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_1">Rapports entre les saisons, les évènements métérologiques et la culture à Roccasancasciano (§1)</head>
-        <graphic facs="#facs_205" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24224/267,2994,2114,887/full/0/default.jpg" xml:id="tble_8_190_1"/>
-       </figure>
-       <p xml:id="para_8_191_28"><pb facs="#facs_206" n="191" source="2serlesouvriersde05sociuoft_0225.xml"/> Les travaux agricoles occupent la majeure partie de la population ; toute son activité se concentre sur les importants marchés de cocons vers la fin de juin et les premiers jours de juillet, les foires de bétail du mois d'aout au mois de novembre, et chaque mercredi les marchés de blé, mais, etc.</p>
-       <p xml:id="para_8_191_29">Dans la classe ouvrière, la plus importante cutégorie est celle des contadini. Le métayage pur, qui représente l'union du capital avec le travail, la rémunération du travail par la participation aux produits des champs et du bétail, domine d'une manière absolue. Il en résulte que la population est clairsemée, que presque tout le monde est sûr d'avoir du travail et du pain, que le bien-être et la paix sociale sont assurés.</p>
-       <p xml:id="para_8_191_30">Le pays est également habité par des braccianti<note type="bp">
-         <p>On appelle aracciante le journaller, celui qui vit presque uniquement du travanil de e bra.</p>
-        </note>. Un petit nombre d'entre eux, les plus connus par leur capacité et leur honnêteté, cul¬tivent aussi, à titre de métayers, des terres dites sode<note type="bp">
-         <p>Le mot soda rappelle l'origine du métayage, à l'époque ou les propriétaires donnèrent aux paysans des terres à défricher (en ktnllen dissodare).</p>
-        </note>
+<!--monographie--><TEI xml:id="ID-085a" xml:lang="fr">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription</title>
+<respStmt>
+<persName>
+<forename>Alix</forename>
+<surname>Chagué</surname>
+<affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+</persName>
+<resp>acquisition et structuration initiale des textes</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Jean-Damien</forename>
+<surname>Généro</surname>
+<affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+<affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+</affiliation>
+<affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+</affiliation>
+</persName>
+<resp>encodage scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Stéphane</forename>
+<surname>Baciocchi</surname>
+<affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+</affiliation>
+</persName>
+<resp>direction scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Anne</forename>
+<surname>Lhuissier</surname>
+<affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+</affiliation>
+</persName>
+<resp>direction scientifique</resp>
+</respStmt>
+<respStmt>
+<persName>
+<forename>Éric</forename>
+<surname>Villemonte de la Clergerie</surname>
+<affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+</affiliation>
+</persName>
+<resp>supervision technique</resp>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>projet ANR Time Us</publisher>
+<date from="2019" to="2021"/>
+<pubPlace>Paris, France</pubPlace>
+</publicationStmt>
+<sourceDesc>
+<p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_204">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$223/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_205">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$224/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_206">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$225/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_207">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$226/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_208">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$227/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_209">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$228/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_210">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$229/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_211">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$230/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_212">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$231/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_213">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$232/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_214">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$233/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_215">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$234/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_216">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$235/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_217">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$236/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_218">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$237/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_219">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$238/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_220">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$239/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_221">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$240/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_222">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$241/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_223">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$242/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_224">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$243/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_225">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$244/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_226">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$245/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_227">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$246/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_228">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$247/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_229">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$248/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_230">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$249/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_231">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$250/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_232">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$251/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_233">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$252/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_234">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$253/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_235">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$254/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_236">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$255/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_237">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$256/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_238">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$257/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_239">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$258/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_240">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$259/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_241">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$260/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_242">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$261/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_243">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$262/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_244">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$263/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_245">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$264/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_246">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$265/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_247">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$266/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_248">
+<surface lrx="2638" lry="4302"/>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$267/full/full/0/default.jpg"/>
+</facsimile>
+<text>
+<body>
+<div type="chapter">
+<div n="001" type="section">
+<p xml:id="para_8_189_1">N° 85.</p>
+<p xml:id="para_8_189_2">PAYSAN MÉTAYER</p>
+<p xml:id="para_8_189_3">(CONTADINO MEZZAJUOL0)</p>
+<p xml:id="para_8_189_4">DE LA COMMUNE DE ROCCASANCASCIANO</p>
+<p xml:id="para_8_189_5">(ROMAGNE-TOSCANE — ITALIE)</p>
+<p xml:id="para_8_189_6">OUVRIER TENANCIER</p>
+<p xml:id="para_8_189_7">DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS</p>
+<p>d'après</p>
+<p xml:id="para_8_189_8">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1879-1880</p>
+<p>AVEC DES Notes DE 1895</p>
+<p xml:id="para_8_189_9">PAR</p>
+<p xml:id="para_8_189_10">M. <persName>J.-P. ASSIRELLI</persName></p>
+<p xml:id="para_8_189_11">Docteur en Droit, Avocat, Ex-Professeur de sciences économiques dans les Instituts techniques du Royaume d'Italie</p>
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. État du sol, de l'industrie et de la population.</head>
+<p xml:id="para_8_189_17"><pb facs="#facs_204" n="189" source="2serlesouvriersde05sociuoft_0223.xml"/> La famille de paysans dont nous allons nous occuper vit à la cam¬pagne à environ 2 kilomètres et demi du pays de Roccasancas¬ciano.</p>
+<p xml:id="para_8_189_18">Un sol découpé par des collines escarpées, quelques hauts plateaux, des vallées étroites et profondes, au fond desquelles coulent les ruis¬seaux qui alimentent le fleuve trauversant la vallée principule, des vil¬lages bâtis çà et là, tout le long des cours d'eau, telle est la physiono<pb facs="#facs_205" n="190" source="2serlesouvriersde05sociuoft_0224.xml"/>mie générale de presque toute la haute Romagne, appelée, à raison de la circonscription administrative dont elle fait partie, Romagne-Toscane.</p>
+<p xml:id="para_8_190_21">Dans toute la campagne on rencontre des maisons éparses, des ter¬rains cultivés, des bois plus ou moins étendus ; l'oeil y est charmé par la variété des sites ; l'esprit y est frappé d'admiration devant ce résultat de l'industrie de l'homme qui de terrains rudes et sauvages a fait des champs riants et fertiles. D'ailleurs l'aspect de la campagne où vit la famille que nous étudions, ressemble tout à fait à celui de la plus grande partie de la moyenne ltalie, et l'on peut dire, à ce point de vue, que le genre de vie de cette famille est identique à celui de presque tous les contadini<note type="bp">
+<p>Contadine, paysan habitant dans le domaine du conte, anciennement contado.</p>
+</note>de cette région, qui comprend les sept provinces les plus fertiles du royaume (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>).</p>
+<p xml:id="para_8_190_22">La commune de Roccasancasciano fait partie de la province de Florence ; elle comprend une partie de la vallée du fleuve Montone et s'étend sur les hautes collines qui en bordent le cours, jusqu'aux li¬mites des communes voisines.</p>
+<p xml:id="para_8_190_23">L'élévation du sol, sur les rives du fleuve, est de 500 mètres environ au-dessus du niveau de la mer.</p>
+<p xml:id="para_8_190_24">Le climat, sec pendant l'été, n'est que très peu humide en hiver. La température varie entre -24° et -12° en été, -9° et -15° en hiver ; en 1892-1893, le thermomètre est exceptionnellement descendu jus¬qu'à -19°.</p>
+<p xml:id="para_8_190_25">Les vents dominants sont, en été, le vent du sud-ouest et, en hiver, les vents du nord et du nord-est.</p>
+<p xml:id="para_8_190_26">Si l'on tient compte de tout ce qui précède et de ce que la neige, qui tombe très abondamment en hiver, commence quelquefois aux pre¬miers jours d'octobre, on peut dresser le tableau suivant :</p>
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_1">Rapports entre les saisons, les évènements métérologiques et la culture à Roccasancasciano (§1)</head>
+<graphic facs="#facs_205" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24224/267,2994,2114,887/full/0/default.jpg" xml:id="tble_8_190_1"/>
+</figure>
+<p xml:id="para_8_191_28"><pb facs="#facs_206" n="191" source="2serlesouvriersde05sociuoft_0225.xml"/> Les travaux agricoles occupent la majeure partie de la population ; toute son activité se concentre sur les importants marchés de cocons vers la fin de juin et les premiers jours de juillet, les foires de bétail du mois d'aout au mois de novembre, et chaque mercredi les marchés de blé, mais, etc.</p>
+<p xml:id="para_8_191_29">Dans la classe ouvrière, la plus importante cutégorie est celle des contadini. Le métayage pur, qui représente l'union du capital avec le travail, la rémunération du travail par la participation aux produits des champs et du bétail, domine d'une manière absolue. Il en résulte que la population est clairsemée, que presque tout le monde est sûr d'avoir du travail et du pain, que le bien-être et la paix sociale sont assurés.</p>
+<p xml:id="para_8_191_30">Le pays est également habité par des braccianti<note type="bp">
+<p>On appelle aracciante le journaller, celui qui vit presque uniquement du travanil de e bra.</p>
+</note>. Un petit nombre d'entre eux, les plus connus par leur capacité et leur honnêteté, cul¬tivent aussi, à titre de métayers, des terres dites sode<note type="bp">
+<p>Le mot soda rappelle l'origine du métayage, à l'époque ou les propriétaires donnèrent aux paysans des terres à défricher (en ktnllen dissodare).</p>
+</note>
         (terrains en friche). Les autres vivent au jour le jour de l'œuvre de leurs bras. Pendant l'été et l'automne, la récolte des foins et l'abattage du bois à brûler les occupent suffisamment (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), mais en hiver la faim vient trop souvent frapper à leur porte. Il n'est pas rare, en cette saison, de voir de malheureux enfants rechercher dans les tas d'ordures des débris d'os pour apaiser leur faim et tâcher de retrouver dans les cendres du foyer éteint un peu de chaleur pour leurs petits pieds rouges de froid.</p>
-       <p xml:id="para_8_191_31">Le contadino apporte au podere (la métairie) ses instruments de travail (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), son labeur personnel et celui de sa famille. Ses dépenses en argent, à raison du travail des champs, se réduisent à peu de chose pendant la saison de la récolte.</p>
-       <p xml:id="para_8_191_32">Outre les terrains et la maison, le propriétaire fournit le bétail et fait même les avances indispensables pour l'entretien et l'engraisse¬ment. Tout ce qui concerne la tenue de la ferme, dans les rapports du propriétaire avec le métayer, est consigné sur les livres du premier et sur un registre qui est laissé aux mains du contadino. Les recettes et les dépenses sont partagées par moitié. La comptabilité se règle chaque année au mois de mars et le solde est reporté au nouveau cômpte. Il est rare que le règlement constitue le contadino créancier du propriétaire.</p>
-       <p xml:id="para_8_192_35"><pb facs="#facs_207" n="192" source="2serlesouvriersde05sociuoft_0226.xml"/> Ce sont les comptes en nature (si combattus par quelques écono¬mistes) qui dominent ; et vraiment telles sont les conditions des rap¬ports entre propriétaire et métayer, qu'avec cet échange presque con¬tinuel de produits donnés et reçus qui se compensent, l'argent n'est nécessaire que pour terminer et balancer les comptes. Cette méthode est tout à l'avantage du métayer.</p>
-       <p xml:id="para_8_192_36">La population agricole est presque toute disséminée dans la cam¬pagne ; elle habite des maisons généralement bâties au milieu des terres que chaque famille travaille et qui forment l'unité de culture appelée podere, métairie.</p>
-       <p xml:id="para_8_192_37">D'après le recensement de 1881 (1re categorie, groupe I), on comp¬tait pour la campagne seule :</p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_2">Décompte de la population par catégories socio-professionnelles (1881) (§1)</head>
-        <graphic facs="#facs_207" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24226/384,1594,1886,508/full/0/default.jpg"/>
-       </figure>
-       <!--<p xml:id="para_8_192_38">1P Agriculteurs propriétaires............................................ 33</p>
+<p xml:id="para_8_191_31">Le contadino apporte au podere (la métairie) ses instruments de travail (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), son labeur personnel et celui de sa famille. Ses dépenses en argent, à raison du travail des champs, se réduisent à peu de chose pendant la saison de la récolte.</p>
+<p xml:id="para_8_191_32">Outre les terrains et la maison, le propriétaire fournit le bétail et fait même les avances indispensables pour l'entretien et l'engraisse¬ment. Tout ce qui concerne la tenue de la ferme, dans les rapports du propriétaire avec le métayer, est consigné sur les livres du premier et sur un registre qui est laissé aux mains du contadino. Les recettes et les dépenses sont partagées par moitié. La comptabilité se règle chaque année au mois de mars et le solde est reporté au nouveau cômpte. Il est rare que le règlement constitue le contadino créancier du propriétaire.</p>
+<p xml:id="para_8_192_35"><pb facs="#facs_207" n="192" source="2serlesouvriersde05sociuoft_0226.xml"/> Ce sont les comptes en nature (si combattus par quelques écono¬mistes) qui dominent ; et vraiment telles sont les conditions des rap¬ports entre propriétaire et métayer, qu'avec cet échange presque con¬tinuel de produits donnés et reçus qui se compensent, l'argent n'est nécessaire que pour terminer et balancer les comptes. Cette méthode est tout à l'avantage du métayer.</p>
+<p xml:id="para_8_192_36">La population agricole est presque toute disséminée dans la cam¬pagne ; elle habite des maisons généralement bâties au milieu des terres que chaque famille travaille et qui forment l'unité de culture appelée podere, métairie.</p>
+<p xml:id="para_8_192_37">D'après le recensement de 1881 (1re categorie, groupe I), on comp¬tait pour la campagne seule :</p>
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_2">Décompte de la population par catégories socio-professionnelles (1881) (§1)</head>
+<graphic facs="#facs_207" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24226/384,1594,1886,508/full/0/default.jpg"/>
+</figure>
+<!--<p xml:id="para_8_192_38">1P Agriculteurs propriétaires............................................ 33</p>
         <p xml:id="para_8_192_39">22 — élayeTS .. ..... .................... ......... ...... . .... . 6(y§8</p>
         <p xml:id="para_8_192_40">§9 — jeTS. .... .............. . .. ........... ...... ... ... ...</p>
         <p xml:id="para_8_192_41">A4° Hommes d'affaires (facteurs, agents d'affaires, etc., etc.).............. 4</p>
         <p xml:id="para_8_192_42">5° Salariés, contadni à engagement permanent........................ 35</p>
         <p xml:id="para_8_192_43">(5° rcC71. .... ...... ......................... ... ... ............... .. . 19)</p>
         <p xml:id="para_8_192_44">Total................... 931</p>-->
-       <p xml:id="para_8_192_45">La population totale de la commune, y compris l'agglomération, était de 3.997 habitants.</p>
-       <p xml:id="para_8_192_46">D'après les registres communaux, on trouve</p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_3">Décompte des maisons et des familles dans la commune et dans la campagne d'après les registres communaux (§1)</head>
-        <graphic facs="#facs_207" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24226/388,2446,1814,352/full/0/default.jpg" xml:id="tble_8_192_2"/>
-       </figure>
-       <p xml:id="para_8_192_47">Le nombre des laboureurs-journaliers est de 190 répartis en 160 fa¬milles<note type="bp">
-         <p>D'après les données ci-dessus (n° 1 à 5), il y aurait seulement 41 habitants dans la campagne ; or les registres communaux y constatant 36 familles réparties en 379 maisons, cela donnerait donc une moyenne de 1,96 habitant par maison, ce ui parait anormal.</p>
-        </note>.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Joseph C*** (n°085aE1) - Thérèse S*** (n°085aE2) - Jean C*** (n°085aE3) - Julie C*** (n°085aE4) - Rosine C*** (n°085aE5)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
-       <p xml:id="para_8_192_50">Les observations consignées ici portent sur l'année 1878-79. La famille se composait alors de cinq personnes, savoir :</p>
-       <p xml:id="para_8_193_52"><pb facs="#facs_208" n="193" source="2serlesouvriersde05sociuoft_0227.xml"/> 1° <persName>JOSEPH C***</persName>, chef de famille, né à Roccasancasciano, marié en 1873............ 32 ans </p>
-       <p xml:id="para_8_193_53">2° <persName>THÉRESE S***</persName>, sa femme, née à Roccasancasciano............ 28 —</p>
-       <p xml:id="para_8_193_54">3° <persName>JEAN C***</persName>, leur fils, né à Roccasancasciano............ 5 —</p>
-       <p xml:id="para_8_193_55">4° <persName>JULIE C***</persName>, leur fille, née à Roccasancasciano............3 —</p>
-       <p xml:id="para_8_193_56">5° <persName>ROSINE C***</persName>, sœur du chef de famille, née à Roccasancasciano............ 27 —</p>
-       <p xml:id="para_8_193_57">Le ménage comprenait en plus un étranger, Vespasien M***, enfant trouvé recueilli par l'hôpital des Innocenti à Florence, puis adopté par la famille. Il partageait ses tristesses et ses joies ; Joseph le considérait comme un frêre, et Vespasien donnait en retour à ses parents d'adop¬tion toutes ses pensées, toutes ses forces, toute son intelligence<note type="bp">
-         <p>Rosine et Vespasien sont morts tous deux en 1880.</p>
-        </note>.</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
-       <p xml:id="para_8_193_60">En ce qui concerne la religion et les habitudes morales, la famille que nous étudions ne diffère guère de celles de l'Italie centrale.</p>
-       <p xml:id="para_8_193_61">Le paysan observe, autant qu'il le peut, les pratiques religieuses. Le dimanche, il va à la paroisse pour y entendre la messe : il y retourne même souvent pour assister aux vêpres. Le repos du dimanche et des autres fêtes d'obligation est presque universellement observé. Le seul travail qu'on se permette consiste dans les soins à donner au bétail.</p>
-       <p xml:id="para_8_193_62">Les fêtes les plus importantes au point de vue du repos et des exer¬cices de piété sont Noel, Pâques, les Rogations et la Fête-Dieu. Ce jour-là, le paysan répand partout dans les rues où doit passer le Saint Sacrement, les fleurs qu'il a récoltées dans les champs.</p>
-       <p xml:id="para_8_193_63">I est à remarquer que les jeunes gens qui reviennent au pays, après avoir accompli leur service militaire, montrent beaucoup d'indifférence pour les pratiques religieuses ; la même observation doit être faite en ce qui concerne la morale.</p>
-       <p xml:id="para_8_193_64">Les relations entre les deux sexes sont généralement très honnêtes. Les mariages sont rarement la suite de ce rapprochement brutal qui est le propre d'un état primitif. La femme mariée ne tutoie jamais son mari. Cependant les unions sont presque toujours très heureuses, car elles sont le fruit d'une réflexion sérieuse et de considérations diverses dont l'amour ne tient pas toujours suffisamment compte.</p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
-       <p xml:id="para_8_194_68"><pb facs="#facs_209" n="194" source="2serlesouvriersde05sociuoft_0228.xml"/> Les membres de la famille sont d'une constitution très robuste. Sans doute leur habitation est un peu étroite et le fumier en est beau¬coup trop rapproché (fait d'ailleurs très fréquent) ; mais cependant sa situation sur une hauteur que le grand air balaie constamment en fait une maison très saine et bien exposée.</p>
-       <p xml:id="para_8_194_69">L'eau, qu'il fallait autrefois aller chercher au loin, se trouve main¬tenant à quelques pas de la maison, depuis que le propriétaire a fait creuser un puits au fond duquel jaillit une eau de source très saine.</p>
-       <p xml:id="para_8_194_70">Le paysan, en général, ne prend pas beaucoup de soin de la pro¬preté de sa personne, ni de celle de ses vêtements. La famille C*** pour¬tant n'a pas ce défaut : les femmes tiennent la maison toujours propre et le linge des hommes bien blanc.</p>
-       <p xml:id="para_8_194_71">Les paysans n'ont qu'une médiocre confiance dans la science du mé¬decin que la commune paye pour assister les malades pauvres. Sans doute, étant rangés parmi les pauvres, ils ont droit à ces soins gra¬tuits ; mais ils donnent toujours quelque chose au médecin, une couple de poulets par exemple. On dit généralement que le paysan fait appeler le médecin quand il serait temps de faire venir le prêtre, et c'est assez vrai; peut-être l'habitude d'offrir un menu présent explique-t-elle cette insouciance. Ce qu'il faut dire surtout, c'est qu'en cas d'accident le paysan préfère avoir recours aux individus qui, étant nés à certains jours de l'année, sont réputés avoir la vertu de guérir par divers signes les suites de chutes, les brûlures, les blessures de toute sorte.</p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
-       <p xml:id="para_8_194_74">La famille C*** est de celles qui ont le respect de la coutume, de la tradition, des habitudes de travail.</p>
-       <p xml:id="para_8_194_75">Joseph est très estimé ; on le regarde comme un paysan intelligent et honnête. Vespasien et lui étaient autrefois considérés comme le type du contadino qui soigne très bien son exploitation et ne s'occupe pas <pb facs="#facs_210" n="195" source="2serlesouvriersde05sociuoft_0229.xml"/> d'autre chose. Quand ils prirent la ferme qu'ils cultivent actuelle¬ment, on disait dans le pays :  Ils laissent une dette en souffrance pour aller en faire une autre.  Quelques années plus tard, ils jouis¬saient de l'estime générale d'ailleurs bien méritée (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>) : les pay¬sans eux-mêmes étaient devenus bienveillants pour eux.</p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_8_195_80">(Mobilier et vêtements non compris.)</p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_8_195_81">IMMEUBLES : La famille n'en possède aucun.</p>
-       </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_8_195_82">ARGENT............ 342ᶠ58</p>
-        <p xml:id="para_8_195_83">La famille ne possède aucune valeur mobilière en dehors de la créance qu'elle peut avoir sur le propriétaire. Cette créance portée aux registres du propriétaire et du contadino n'est point productive d'intérêt, le règlement de compte définitif ne se fait qu'à l'expiration du contrat de métayage. A l'époque de la présente monographie, la créance du contadino s'élevait à 34ᶠ58.</p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_8_195_85">ANIMAUX DOMESTIQUES............ 14ᶠ50</p>
-        <p xml:id="para_8_195_86">1 poulets et coqs, 1ᶠ 00; — 2 poulets d'Inde, 5ᶠ00, par moitié avec le propriétaire, 2ᶠ50. — Total, 14ᶠ 50.</p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_8_195_87">MATÉRIEL SPÉCIAL DES Travaux et industries............ 165ᶠ65</p>
-        <p xml:id="para_8_195_88">1° Ustensiles employés pour la culture. — 2 charrues, 4ᶠ00; — 1 faux, 0ᶠ75; — 6 faux, 5ᶠ30; — 1 petite enclume avec marteau pour les faux, 2ᶠ 00; — 4 pioches, 7ᶠ00; — 3 bèches, 7ᶠ50; — 1 hoyau, 1ᶠ50 ; — 2 fourches en fer pour le fumier, 1ᶠ00; —1 hache, 3ᶠ00; — 1 petite hache, 0ᶠ70; — 1 serpe, 1ᶠ00; — 1 joug en orme, 3ᶠ00; — 2 clochettes avec sangles pour les bœufs, 7ᶠ00; — 2 grillande, 0ᶠ 50; — 1 paire de fers (naser) pour les bœufs, 1ᶠ60 ; — 1 corde pour guider (8m), 1ᶠ30 ; — 3 couvertures, 10ᶠ00; —1 traineau, 3ᶠ00; — Total, 60ᶠ55.</p>
-        <p xml:id="para_8_195_89">2° Ustensiles employés pour la fabrication du vin. —  tonneaux, 30ᶠ00; —  petits fûts, 7ᶠ00; — 1 cuve, 15ᶠ 00; — 4 petites cuves (pour la cueillette du raisin), 12ᶠ00. — Total, 64ᶠ00.</p>
-        <p xml:id="para_8_195_90">3° Ustensiles employés à la fabrication du fromage. — 1 vase pour faire le fromage, 1ᶠ00; — 2 planches pour le sécher, 3ᶠ00; — 8 petits cercles pour le former, 0ᶠ80. — Total. 4ᶠ80.</p>
-        <p xml:id="para_8_195_91">4° Ustensiles employés pour l'élevage du ver à soie. — 3 fonds en paille, 1ᶠ80; — 10 nattes, 8ᶠ00; — colonnes en bois, cannes. etc., 6ᶠ00. — Total, 13ᶠ80.</p>
-        <p xml:id="para_8_195_92">5° Ustensiles employés pour le tissage et le laige. — 1 métier avec accessoires, 20ᶠ00.</p>
-        <p xml:id="para_8_195_93">6° Ustensiles pour le blanchissage du linge. — 1 petite cuve, 2ᶠ50.</p>
-       </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_8_195_94">VALEUR TOTALE des propriétés............ 522ᶠ 73</p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
-       <p xml:id="para_8_196_98"><pb facs="#facs_211" n="196" source="2serlesouvriersde05sociuoft_0230.xml"/> Le propriétaire de la ferme n'alloue à la famille aucune subvention en dehors de la maison et du potager, pour lesquels le contadino ne paie, suivant les règles du métayage, aucune redevance. Pendant le courant de l'année, il lui fait souvent des avances sur les récoltes à venir.</p>
-       <p xml:id="para_8_196_99">Faut-il considérer comme une subvention, d'ailleurs indépendante de la volonté du propriétaire, la laculté forcément laissée, en dehors de toute convention, d'abattre du bois non pas seulement pour les né¬cessités domestiqes, mais aussi pour la vente2 Dans tous les cas, c'est une coutume très ancienne et très répandue à laquelle les pro¬priétaires-paysans résidant à la campagne pourront seuls mettre un terme. Les contadini cherchent à la justifier en disant qu'elle a pour but d'acheter le sel, comprare il sale<note type="bp">
-         <p>Les comptes des métayers se faisant surtout en nature, l'argent est rare chez eux et ils s'efforeent de l'économiser par tous les moyens : le sel est une de leurs principales dé¬penses en argent; l'expression employée tend à indiquer qu'ils ne vendent du bois que pour se procurer l'argent nécessaire à l'achat du sel.</p>
-        </note>. Mais pourtant cet usage ressemble plus à un détournement qu'à une subvention, puisque, en principe, le bois est réservé au propriétaire. Le paysan n'a d'autre obligation que de le protéger contre les déprédations, et le bois nécessaire à ses besoins domestiques suffit à le récompenser de ce soin.</p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
-       <p xml:id="para_8_196_102">Dans le système du métayage, la famille réside sur le fonds, même où elle travaille ; son activité est ou doit être exclusivement consacrée à l'exploitation de la métairie. Il y a par suite une très grande unifor¬mité dans le travail et une étude générale suffit, sans qu'il soit néces¬saire de particulariser pour ce qui concerne la famille C***.</p>
-       <div type="travaux" subtype="famille">
-        <p xml:id="para_8_196_103">Travaux des divers membres de la famille du contadino. — Il n'est pas très facile de distinguer le travail de l'homme, de celui des femmes et des enfants en dehors de la maison : il faut, pour y par<pb facs="#facs_212" n="197" source="2serlesouvriersde05sociuoft_0231.xml"/>venir, tenir compte de l'âge et des forces de chacun. Tous les membres de la famille travaillent dans les champs et pour les champs. Très jeunes, les paysans commencent leur carrière, indépendante sans doute, mais souvent bien pénible, en gardant le bétail ; hommes mûrs, ils em¬ploient leur force dans les champs qu'ils fécondent de la sueur de leur front (et certes ce n'est pas là une métaphorel) ; devenus vieux, ils reprennent les occupations dans lesquelles se passa leur jeunesse, au début de leur vie fatiguée. Avec ce système on ne peut, comme dans les régions où la population agricole est concentrée dans les vil¬lages, se plaindre de ce que les enfants, les femmes et les vieillards restent oisifs à la maison.</p>
-        <p xml:id="para_8_197_106">Celui qui ne connaît pas la vie de la campagne est toujours surpris de voir de grands bœufs obéir à la voix d'un tout jeune enfant, âgé de sept ou huit ans peut-être, qui les garde au pâturage, où le père ou la mere les ont conduits.</p>
-        <p xml:id="para_8_197_107">Quant au travail des femmes, il consiste à piocher, à bêcher, à râ¬teler, à lier, à aider à battre le blé à l'époque des récoltes ; les hommes recueillent les feuilles de mûrier et les transportent à la ferme ; les femmes soignent les vers à soie dans toutes les phases de leur exis¬tence jusqu'à ce qu'ils soient transformés en cocons ; ce sont elles aussi qui traient les vaches et les brebis, font les fromages, filent la laine... D'une façon généraule on peut dire que les hoimes ne s'occupent en rien de ce qui se passe à la maison aussi longtemps qu'il y a du travail à la campagne ; ils se contentent de pourvoir à l'approvisionnement du bois nécessaire à la cuisine et au chauffage.</p>
-        <p xml:id="para_8_197_108">Depuis le moment où la semence est confiée à la terre jusqu'au jour de la récolte, le contadino est occupé dans ses champs, sous le ciel inclément,qui souvent dès l'automne amène la neige et la gelée. Sui¬vant les années, l'ensemencement du froment avance ou retarde ; mais d'une manière générale on peut dire qu'il est terminé avant la Tous¬saint. Alors arrive l'hiver qui couvre tout de son manteau épais et blanc et empeche tout travail dans les champs. Le contadino à cette époque s'occupe à la maison, répare ou fait ses chaussures, entretient le mobilier, exerce toutes sortes de petites industries. Les femmes fi¬lent et tissent le lin, le chanvre, le coton, la laine. Il en est ainsi jus¬qu'à ce que cessent la neige, les gelées, le froid, jusqu'à ce que le so¬leil bienfaisant vienne réchauffer la terre. En mars, on commence à soigner la vigne, on prépare les champs, on sème le mais, les maraa¬teli (littéralement : plantes qu'on sème en mars), les haricots, etc.</p>
-        <p xml:id="para_8_198_109"><pb facs="#facs_213" n="198" source="2serlesouvriersde05sociuoft_0232.xml"/> Bientôt la terre se recouvre d'une verte végétation et l'on se met à sarcler le froment, à soigner les vers à soie.</p>
-        <p xml:id="para_8_198_110">Le soleil reste plus longtemps à l'horizon et darde avec plus d'in¬tensité ses rayons lumineux et chauds ; juillet arrive et le conta¬dino commence à recueillir les fruits de tant de labeurs : froment, maratelli, mais, fruits, raisin en octobre, etc. Après quoi, comme il avait creusé la terre en août pour y déposer la semence de froment, en automne il la bêche pour semer le mais, et son travail dans les champs ne cesse que lorsque toutes ses terres sont ensemencées.</p>
-       </div>
-       <div type="industries" subtype="famille">
-        <p xml:id="para_8_198_111">Industries entreprises par la famille. — Aux travaux de la culture se joignent les industries accessoires, comme l'élevage du ver à soie, du bétail, le filage de la laine, la fabrication des fromages que nous n'avons pu omettre de citer déjà.</p>
-        <p xml:id="para_8_198_112">La confection des corbeilles d'osier, des charrues, etc., forme aussi de petites industries auxquelles s'adonnent quelques contadini lorsque le travail ordinaire leur laisse un peu de loisir, spécialement en hiver. Il y a toujours profit à employer tout son temps, dût-on n'en retirer qu'un bénéfice minime. ˉOgni pruno fa siepe (tout est bon à quelque chose), dit un proverbe. Il faut avouer, pourtant, que lorsque le pro¬priétaire veille lui-même à l'administration de ses biens, mettant en pratique les enseignements d'un autre proverbe : Le pedate del pa¬drone ingrassano ail terreno (les pas du maître engraissent le sol), les contadini ont bien peu de temps à eux, sauf pendant l'hiver, lorsque la neige couvre la terre.</p>
-        <p xml:id="para_8_198_113">Une industrie à laquelle s'adonnent contadini et braccianti, c'est celle de l'abattage du bois à br̂ler. Il semble que, dans l'esprit de tous les peuples, le bois soit compris dans les res nullius et que le ius lgnand soit presque un droit acquis par un usage de plusieurs siècles, au moins dans les pays où, le froid étant très intense, on doit pouvoir prendre le bois partout où on le trouve. Ce droit s'appuie d'un côté sur l'impossibilité où sont les propriétaires de faire bonne garde autour de leurs bois et sur le défaut de mesures répressives dans les lois, et de l'autre sur la malhonnêteté et la misère humaines.</p>
-        <p xml:id="para_8_198_114">Les plus honnêtes se contentent d'emporter ce qui ne peut causer aucun dommage au propriétaire, bois mort, rejetons, etc..., certains autres demandent même la permission de le prendre. Mais le plus généralement chacun coupe où il peut. C'est surtout du mois d'octo¬bre au mois de mars que s'exerce cette industrie ; mais en réalité elle dure toute l'année.</p>
-        <p xml:id="para_8_199_115"><pb facs="#facs_214" n="199" source="2serlesouvriersde05sociuoft_0233.xml"/> Si l'on considère que les braccianti répandus dans le pays sont au nombre de 200 environ, répartis en 160 familles (<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1</ref>) ; qu'on compte près de 700 contadini composant 360 familles ; que par suite 520 à 550 fagots de bois gros et petit sont nécessaires pour subvenir aux besoins de cette population ; que de plus les braccianti vendent au moins un fagot à chaque marché le mercredi et le dimanche, que le même fait a lieu dans plus des deux tiers des familles de contadini, on verra quelle énorme quantité de bois est enlevée chaque année en plus de celui qui sert aux propriétaires ou qu'ils peuvent vendre eux-mê¬mes. C'est pour cela que les propriétaires ont défriché beaucoup de bois en se préoccupant uniquement d'en retirer un revenu quelconque ; or beaucoup de ces terrains défrichés, appelés sode, ne sont plus sus¬ceptibles d'aucune culture, parce que les eaux ont entraîné toute la terre végétale, et d'autres sont complêtement épuisés et ne rapportent presque rien. Sans doute, en appliquant les lois sur les forêts, on a obligé les propriétaires à reboiser beaucoup de ces terrains ; mais en fait le remède a été pour eux pire que le mal : car d'un côté le gouvernement ne leur a accordé pour cela aucune subvention, et d'autre part on leur a enlevé une source de revenus, si faible f̂t¬elle. En outre on a privé de nombreux oraccianti d'un travail souvent rémunérateur (<ref target="#part_03_01_18" type="renvoi_int_mono">§ 18</ref>).</p>
-        <p xml:id="para_8_199_116">La famille C***, en particulier, se livre à ces différents travaux.</p>
-        <p xml:id="para_8_199_117">Le podere qu'elle occupe peut être divisé comme suit :</p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_4">Répartition des terres cultivables, incultes et boisées du podere (§8)</head>
-         <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24233/378,2622,1798,520/full/0/default.jpg"/>
-        </figure>
-        <!--<p xml:id="para_8_199_118">Champs en partie plantés d'arbres et de vignes :</p>
+<p xml:id="para_8_192_45">La population totale de la commune, y compris l'agglomération, était de 3.997 habitants.</p>
+<p xml:id="para_8_192_46">D'après les registres communaux, on trouve</p>
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_3">Décompte des maisons et des familles dans la commune et dans la campagne d'après les registres communaux (§1)</head>
+<graphic facs="#facs_207" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24226/388,2446,1814,352/full/0/default.jpg" xml:id="tble_8_192_2"/>
+</figure>
+<p xml:id="para_8_192_47">Le nombre des laboureurs-journaliers est de 190 répartis en 160 fa¬milles<note type="bp">
+<p>D'après les données ci-dessus (n° 1 à 5), il y aurait seulement 41 habitants dans la campagne ; or les registres communaux y constatant 36 familles réparties en 379 maisons, cela donnerait donc une moyenne de 1,96 habitant par maison, ce ui parait anormal.</p>
+</note>.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Joseph C*** (n°085aE1) - Thérèse S*** (n°085aE2) - Jean C*** (n°085aE3) - Julie C*** (n°085aE4) - Rosine C*** (n°085aE5)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
+<p xml:id="para_8_192_50">Les observations consignées ici portent sur l'année 1878-79. La famille se composait alors de cinq personnes, savoir :</p>
+<p xml:id="para_8_193_52"><pb facs="#facs_208" n="193" source="2serlesouvriersde05sociuoft_0227.xml"/> 1° <persName xml:id="ID-085aE1">JOSEPH C***</persName>, chef de famille, né à Roccasancasciano, marié en 1873............ 32 ans </p>
+<p xml:id="para_8_193_53">2° <persName xml:id="ID-085aE2">THÉRESE S***</persName>, sa femme, née à Roccasancasciano............ 28 —</p>
+<p xml:id="para_8_193_54">3° <persName xml:id="ID-085aE3">JEAN C***</persName>, leur fils, né à Roccasancasciano............ 5 —</p>
+<p xml:id="para_8_193_55">4° <persName xml:id="ID-085aE4">JULIE C***</persName>, leur fille, née à Roccasancasciano............3 —</p>
+<p xml:id="para_8_193_56">5° <persName xml:id="ID-085aE5">ROSINE C***</persName>, sœur du chef de famille, née à Roccasancasciano............ 27 —</p>
+<p xml:id="para_8_193_57">Le ménage comprenait en plus un étranger, Vespasien M***, enfant trouvé recueilli par l'hôpital des Innocenti à Florence, puis adopté par la famille. Il partageait ses tristesses et ses joies ; Joseph le considérait comme un frêre, et Vespasien donnait en retour à ses parents d'adop¬tion toutes ses pensées, toutes ses forces, toute son intelligence<note type="bp">
+<p>Rosine et Vespasien sont morts tous deux en 1880.</p>
+</note>.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
+<p xml:id="para_8_193_60">En ce qui concerne la religion et les habitudes morales, la famille que nous étudions ne diffère guère de celles de l'Italie centrale.</p>
+<p xml:id="para_8_193_61">Le paysan observe, autant qu'il le peut, les pratiques religieuses. Le dimanche, il va à la paroisse pour y entendre la messe : il y retourne même souvent pour assister aux vêpres. Le repos du dimanche et des autres fêtes d'obligation est presque universellement observé. Le seul travail qu'on se permette consiste dans les soins à donner au bétail.</p>
+<p xml:id="para_8_193_62">Les fêtes les plus importantes au point de vue du repos et des exer¬cices de piété sont Noel, Pâques, les Rogations et la Fête-Dieu. Ce jour-là, le paysan répand partout dans les rues où doit passer le Saint Sacrement, les fleurs qu'il a récoltées dans les champs.</p>
+<p xml:id="para_8_193_63">I est à remarquer que les jeunes gens qui reviennent au pays, après avoir accompli leur service militaire, montrent beaucoup d'indifférence pour les pratiques religieuses ; la même observation doit être faite en ce qui concerne la morale.</p>
+<p xml:id="para_8_193_64">Les relations entre les deux sexes sont généralement très honnêtes. Les mariages sont rarement la suite de ce rapprochement brutal qui est le propre d'un état primitif. La femme mariée ne tutoie jamais son mari. Cependant les unions sont presque toujours très heureuses, car elles sont le fruit d'une réflexion sérieuse et de considérations diverses dont l'amour ne tient pas toujours suffisamment compte.</p>
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
+<p xml:id="para_8_194_68"><pb facs="#facs_209" n="194" source="2serlesouvriersde05sociuoft_0228.xml"/> Les membres de la famille sont d'une constitution très robuste. Sans doute leur habitation est un peu étroite et le fumier en est beau¬coup trop rapproché (fait d'ailleurs très fréquent) ; mais cependant sa situation sur une hauteur que le grand air balaie constamment en fait une maison très saine et bien exposée.</p>
+<p xml:id="para_8_194_69">L'eau, qu'il fallait autrefois aller chercher au loin, se trouve main¬tenant à quelques pas de la maison, depuis que le propriétaire a fait creuser un puits au fond duquel jaillit une eau de source très saine.</p>
+<p xml:id="para_8_194_70">Le paysan, en général, ne prend pas beaucoup de soin de la pro¬preté de sa personne, ni de celle de ses vêtements. La famille C*** pour¬tant n'a pas ce défaut : les femmes tiennent la maison toujours propre et le linge des hommes bien blanc.</p>
+<p xml:id="para_8_194_71">Les paysans n'ont qu'une médiocre confiance dans la science du mé¬decin que la commune paye pour assister les malades pauvres. Sans doute, étant rangés parmi les pauvres, ils ont droit à ces soins gra¬tuits ; mais ils donnent toujours quelque chose au médecin, une couple de poulets par exemple. On dit généralement que le paysan fait appeler le médecin quand il serait temps de faire venir le prêtre, et c'est assez vrai; peut-être l'habitude d'offrir un menu présent explique-t-elle cette insouciance. Ce qu'il faut dire surtout, c'est qu'en cas d'accident le paysan préfère avoir recours aux individus qui, étant nés à certains jours de l'année, sont réputés avoir la vertu de guérir par divers signes les suites de chutes, les brûlures, les blessures de toute sorte.</p>
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
+<p xml:id="para_8_194_74">La famille C*** est de celles qui ont le respect de la coutume, de la tradition, des habitudes de travail.</p>
+<p xml:id="para_8_194_75">Joseph est très estimé ; on le regarde comme un paysan intelligent et honnête. Vespasien et lui étaient autrefois considérés comme le type du contadino qui soigne très bien son exploitation et ne s'occupe pas <pb facs="#facs_210" n="195" source="2serlesouvriersde05sociuoft_0229.xml"/> d'autre chose. Quand ils prirent la ferme qu'ils cultivent actuelle¬ment, on disait dans le pays :  Ils laissent une dette en souffrance pour aller en faire une autre.  Quelques années plus tard, ils jouis¬saient de l'estime générale d'ailleurs bien méritée (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>) : les pay¬sans eux-mêmes étaient devenus bienveillants pour eux.</p>
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
+<div subtype="proprietes_texte_1" type="proprietes">
+<p xml:id="para_8_195_80">(Mobilier et vêtements non compris.)</p>
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_8_195_81">IMMEUBLES : La famille n'en possède aucun.</p>
+</div>
+<div subtype="argent" type="proprietes">
+<p xml:id="para_8_195_82">ARGENT............ 342ᶠ58</p>
+<p xml:id="para_8_195_83">La famille ne possède aucune valeur mobilière en dehors de la créance qu'elle peut avoir sur le propriétaire. Cette créance portée aux registres du propriétaire et du contadino n'est point productive d'intérêt, le règlement de compte définitif ne se fait qu'à l'expiration du contrat de métayage. A l'époque de la présente monographie, la créance du contadino s'élevait à 34ᶠ58.</p>
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_8_195_85">ANIMAUX DOMESTIQUES............ 14ᶠ50</p>
+<p xml:id="para_8_195_86">1 poulets et coqs, 1ᶠ 00; — 2 poulets d'Inde, 5ᶠ00, par moitié avec le propriétaire, 2ᶠ50. — Total, 14ᶠ 50.</p>
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_8_195_87">MATÉRIEL SPÉCIAL DES Travaux et industries............ 165ᶠ65</p>
+<p xml:id="para_8_195_88">1° Ustensiles employés pour la culture. — 2 charrues, 4ᶠ00; — 1 faux, 0ᶠ75; — 6 faux, 5ᶠ30; — 1 petite enclume avec marteau pour les faux, 2ᶠ 00; — 4 pioches, 7ᶠ00; — 3 bèches, 7ᶠ50; — 1 hoyau, 1ᶠ50 ; — 2 fourches en fer pour le fumier, 1ᶠ00; —1 hache, 3ᶠ00; — 1 petite hache, 0ᶠ70; — 1 serpe, 1ᶠ00; — 1 joug en orme, 3ᶠ00; — 2 clochettes avec sangles pour les bœufs, 7ᶠ00; — 2 grillande, 0ᶠ 50; — 1 paire de fers (naser) pour les bœufs, 1ᶠ60 ; — 1 corde pour guider (8m), 1ᶠ30 ; — 3 couvertures, 10ᶠ00; —1 traineau, 3ᶠ00; — Total, 60ᶠ55.</p>
+<p xml:id="para_8_195_89">2° Ustensiles employés pour la fabrication du vin. —  tonneaux, 30ᶠ00; —  petits fûts, 7ᶠ00; — 1 cuve, 15ᶠ 00; — 4 petites cuves (pour la cueillette du raisin), 12ᶠ00. — Total, 64ᶠ00.</p>
+<p xml:id="para_8_195_90">3° Ustensiles employés à la fabrication du fromage. — 1 vase pour faire le fromage, 1ᶠ00; — 2 planches pour le sécher, 3ᶠ00; — 8 petits cercles pour le former, 0ᶠ80. — Total. 4ᶠ80.</p>
+<p xml:id="para_8_195_91">4° Ustensiles employés pour l'élevage du ver à soie. — 3 fonds en paille, 1ᶠ80; — 10 nattes, 8ᶠ00; — colonnes en bois, cannes. etc., 6ᶠ00. — Total, 13ᶠ80.</p>
+<p xml:id="para_8_195_92">5° Ustensiles employés pour le tissage et le laige. — 1 métier avec accessoires, 20ᶠ00.</p>
+<p xml:id="para_8_195_93">6° Ustensiles pour le blanchissage du linge. — 1 petite cuve, 2ᶠ50.</p>
+</div>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_8_195_94">VALEUR TOTALE des propriétés............ 522ᶠ 73</p>
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
+<p xml:id="para_8_196_98"><pb facs="#facs_211" n="196" source="2serlesouvriersde05sociuoft_0230.xml"/> Le propriétaire de la ferme n'alloue à la famille aucune subvention en dehors de la maison et du potager, pour lesquels le contadino ne paie, suivant les règles du métayage, aucune redevance. Pendant le courant de l'année, il lui fait souvent des avances sur les récoltes à venir.</p>
+<p xml:id="para_8_196_99">Faut-il considérer comme une subvention, d'ailleurs indépendante de la volonté du propriétaire, la laculté forcément laissée, en dehors de toute convention, d'abattre du bois non pas seulement pour les né¬cessités domestiqes, mais aussi pour la vente2 Dans tous les cas, c'est une coutume très ancienne et très répandue à laquelle les pro¬priétaires-paysans résidant à la campagne pourront seuls mettre un terme. Les contadini cherchent à la justifier en disant qu'elle a pour but d'acheter le sel, comprare il sale<note type="bp">
+<p>Les comptes des métayers se faisant surtout en nature, l'argent est rare chez eux et ils s'efforeent de l'économiser par tous les moyens : le sel est une de leurs principales dé¬penses en argent; l'expression employée tend à indiquer qu'ils ne vendent du bois que pour se procurer l'argent nécessaire à l'achat du sel.</p>
+</note>. Mais pourtant cet usage ressemble plus à un détournement qu'à une subvention, puisque, en principe, le bois est réservé au propriétaire. Le paysan n'a d'autre obligation que de le protéger contre les déprédations, et le bois nécessaire à ses besoins domestiques suffit à le récompenser de ce soin.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
+<p xml:id="para_8_196_102">Dans le système du métayage, la famille réside sur le fonds, même où elle travaille ; son activité est ou doit être exclusivement consacrée à l'exploitation de la métairie. Il y a par suite une très grande unifor¬mité dans le travail et une étude générale suffit, sans qu'il soit néces¬saire de particulariser pour ce qui concerne la famille C***.</p>
+<div subtype="famille" type="travaux">
+<p xml:id="para_8_196_103">Travaux des divers membres de la famille du contadino. — Il n'est pas très facile de distinguer le travail de l'homme, de celui des femmes et des enfants en dehors de la maison : il faut, pour y par<pb facs="#facs_212" n="197" source="2serlesouvriersde05sociuoft_0231.xml"/>venir, tenir compte de l'âge et des forces de chacun. Tous les membres de la famille travaillent dans les champs et pour les champs. Très jeunes, les paysans commencent leur carrière, indépendante sans doute, mais souvent bien pénible, en gardant le bétail ; hommes mûrs, ils em¬ploient leur force dans les champs qu'ils fécondent de la sueur de leur front (et certes ce n'est pas là une métaphorel) ; devenus vieux, ils reprennent les occupations dans lesquelles se passa leur jeunesse, au début de leur vie fatiguée. Avec ce système on ne peut, comme dans les régions où la population agricole est concentrée dans les vil¬lages, se plaindre de ce que les enfants, les femmes et les vieillards restent oisifs à la maison.</p>
+<p xml:id="para_8_197_106">Celui qui ne connaît pas la vie de la campagne est toujours surpris de voir de grands bœufs obéir à la voix d'un tout jeune enfant, âgé de sept ou huit ans peut-être, qui les garde au pâturage, où le père ou la mere les ont conduits.</p>
+<p xml:id="para_8_197_107">Quant au travail des femmes, il consiste à piocher, à bêcher, à râ¬teler, à lier, à aider à battre le blé à l'époque des récoltes ; les hommes recueillent les feuilles de mûrier et les transportent à la ferme ; les femmes soignent les vers à soie dans toutes les phases de leur exis¬tence jusqu'à ce qu'ils soient transformés en cocons ; ce sont elles aussi qui traient les vaches et les brebis, font les fromages, filent la laine... D'une façon généraule on peut dire que les hoimes ne s'occupent en rien de ce qui se passe à la maison aussi longtemps qu'il y a du travail à la campagne ; ils se contentent de pourvoir à l'approvisionnement du bois nécessaire à la cuisine et au chauffage.</p>
+<p xml:id="para_8_197_108">Depuis le moment où la semence est confiée à la terre jusqu'au jour de la récolte, le contadino est occupé dans ses champs, sous le ciel inclément,qui souvent dès l'automne amène la neige et la gelée. Sui¬vant les années, l'ensemencement du froment avance ou retarde ; mais d'une manière générale on peut dire qu'il est terminé avant la Tous¬saint. Alors arrive l'hiver qui couvre tout de son manteau épais et blanc et empeche tout travail dans les champs. Le contadino à cette époque s'occupe à la maison, répare ou fait ses chaussures, entretient le mobilier, exerce toutes sortes de petites industries. Les femmes fi¬lent et tissent le lin, le chanvre, le coton, la laine. Il en est ainsi jus¬qu'à ce que cessent la neige, les gelées, le froid, jusqu'à ce que le so¬leil bienfaisant vienne réchauffer la terre. En mars, on commence à soigner la vigne, on prépare les champs, on sème le mais, les maraa¬teli (littéralement : plantes qu'on sème en mars), les haricots, etc.</p>
+<p xml:id="para_8_198_109"><pb facs="#facs_213" n="198" source="2serlesouvriersde05sociuoft_0232.xml"/> Bientôt la terre se recouvre d'une verte végétation et l'on se met à sarcler le froment, à soigner les vers à soie.</p>
+<p xml:id="para_8_198_110">Le soleil reste plus longtemps à l'horizon et darde avec plus d'in¬tensité ses rayons lumineux et chauds ; juillet arrive et le conta¬dino commence à recueillir les fruits de tant de labeurs : froment, maratelli, mais, fruits, raisin en octobre, etc. Après quoi, comme il avait creusé la terre en août pour y déposer la semence de froment, en automne il la bêche pour semer le mais, et son travail dans les champs ne cesse que lorsque toutes ses terres sont ensemencées.</p>
+</div>
+<div subtype="famille" type="industries">
+<p xml:id="para_8_198_111">Industries entreprises par la famille. — Aux travaux de la culture se joignent les industries accessoires, comme l'élevage du ver à soie, du bétail, le filage de la laine, la fabrication des fromages que nous n'avons pu omettre de citer déjà.</p>
+<p xml:id="para_8_198_112">La confection des corbeilles d'osier, des charrues, etc., forme aussi de petites industries auxquelles s'adonnent quelques contadini lorsque le travail ordinaire leur laisse un peu de loisir, spécialement en hiver. Il y a toujours profit à employer tout son temps, dût-on n'en retirer qu'un bénéfice minime. ˉOgni pruno fa siepe (tout est bon à quelque chose), dit un proverbe. Il faut avouer, pourtant, que lorsque le pro¬priétaire veille lui-même à l'administration de ses biens, mettant en pratique les enseignements d'un autre proverbe : Le pedate del pa¬drone ingrassano ail terreno (les pas du maître engraissent le sol), les contadini ont bien peu de temps à eux, sauf pendant l'hiver, lorsque la neige couvre la terre.</p>
+<p xml:id="para_8_198_113">Une industrie à laquelle s'adonnent contadini et braccianti, c'est celle de l'abattage du bois à br̂ler. Il semble que, dans l'esprit de tous les peuples, le bois soit compris dans les res nullius et que le ius lgnand soit presque un droit acquis par un usage de plusieurs siècles, au moins dans les pays où, le froid étant très intense, on doit pouvoir prendre le bois partout où on le trouve. Ce droit s'appuie d'un côté sur l'impossibilité où sont les propriétaires de faire bonne garde autour de leurs bois et sur le défaut de mesures répressives dans les lois, et de l'autre sur la malhonnêteté et la misère humaines.</p>
+<p xml:id="para_8_198_114">Les plus honnêtes se contentent d'emporter ce qui ne peut causer aucun dommage au propriétaire, bois mort, rejetons, etc..., certains autres demandent même la permission de le prendre. Mais le plus généralement chacun coupe où il peut. C'est surtout du mois d'octo¬bre au mois de mars que s'exerce cette industrie ; mais en réalité elle dure toute l'année.</p>
+<p xml:id="para_8_199_115"><pb facs="#facs_214" n="199" source="2serlesouvriersde05sociuoft_0233.xml"/> Si l'on considère que les braccianti répandus dans le pays sont au nombre de 200 environ, répartis en 160 familles (<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1</ref>) ; qu'on compte près de 700 contadini composant 360 familles ; que par suite 520 à 550 fagots de bois gros et petit sont nécessaires pour subvenir aux besoins de cette population ; que de plus les braccianti vendent au moins un fagot à chaque marché le mercredi et le dimanche, que le même fait a lieu dans plus des deux tiers des familles de contadini, on verra quelle énorme quantité de bois est enlevée chaque année en plus de celui qui sert aux propriétaires ou qu'ils peuvent vendre eux-mê¬mes. C'est pour cela que les propriétaires ont défriché beaucoup de bois en se préoccupant uniquement d'en retirer un revenu quelconque ; or beaucoup de ces terrains défrichés, appelés sode, ne sont plus sus¬ceptibles d'aucune culture, parce que les eaux ont entraîné toute la terre végétale, et d'autres sont complêtement épuisés et ne rapportent presque rien. Sans doute, en appliquant les lois sur les forêts, on a obligé les propriétaires à reboiser beaucoup de ces terrains ; mais en fait le remède a été pour eux pire que le mal : car d'un côté le gouvernement ne leur a accordé pour cela aucune subvention, et d'autre part on leur a enlevé une source de revenus, si faible f̂t¬elle. En outre on a privé de nombreux oraccianti d'un travail souvent rémunérateur (<ref target="#part_03_01_18" type="renvoi_int_mono">§ 18</ref>).</p>
+<p xml:id="para_8_199_116">La famille C***, en particulier, se livre à ces différents travaux.</p>
+<p xml:id="para_8_199_117">Le podere qu'elle occupe peut être divisé comme suit :</p>
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_4">Répartition des terres cultivables, incultes et boisées du podere (§8)</head>
+<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24233/378,2622,1798,520/full/0/default.jpg"/>
+</figure>
+<!--<p xml:id="para_8_199_118">Champs en partie plantés d'arbres et de vignes :</p>
          <p xml:id="para_8_199_119">employés à la culture du blé......................... 4ᵏ30</p>
          <p xml:id="para_8_199_120">— —  aS. ....... ............... A </p>
          <p xml:id="para_8_199_121">— — de la slla............. ........ 40 </p>
          <p xml:id="para_8_199_122">errains couvert de bois .... ......... .............. ......... 10ᶥ 00</p>
          <p xml:id="para_8_199_123">.— C1. .. . . .......... .. ........... .. . ... ......... .. . )ᵏ §(</p>
          <p xml:id="para_8_199_124">Total......... 2300</p>-->
-        <p xml:id="para_8_199_125">Le bétail garnissant la ferme et qui appartient au propriétaire se composait, à la fin de l'année dont il est ici question et après les ventes mentionnées plus loin (<ref target="#part_02_05_16" type="renvoi_int_mono">§ 16, B</ref>), de 2 bœufs de travail, 25 brebis, 1 bé¬lier et 2 chèvres.</p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
-       <p xml:id="para_8_200_130"><pb facs="#facs_215" n="200" source="2serlesouvriersde05sociuoft_0234.xml"/> La sobriété est le trait principal du caractère du contadino. C'est la polenta<note type="bp">
-         <p>Bouillie de farine de mais.</p>
-        </note>qui fait la base de son alimentation. La farine de froment n'est généralement employée qu'à l'époque des grands travaux : mois¬son, vendange, etc... Le paysan, alors, tue des poulets, achète un peu de viande, boit du vin, fait bonne chêre. En dehors de ces occa¬sions, il ne mange de la viande qu'aux fêtes solennelles, comme Noel, Pâques etc. La polenta est apprêtée avec du lard, de l'oignon et du fromage ; les plus pauvres la mangent sans autres condiments que du sel et de l'ail. On fait aussi, avec la farine de mais, un gâteau que l'on appelle pieda, gâteau large et plat, composé de farine de mais et de farine de blé bien pétrie que l'on met cuire sur une cadette. Mers la fin de l'automne, les paysans aisés ont l'habitude de faire de la pieda, aliment toujours lourd mais très appétissant, en y ajoutant un pâté de calebasse cuite, du lard, des oignons et des épices. Le plat s'ap¬pelle alors tortellisulla castra<note type="bp">
-         <p>Littéralement : petite tarte sur la pierre.</p>
-        </note>: on le mange spécialement à la Tous¬saint.</p>
-       <p xml:id="para_8_200_131">On se sert de la farine de froment non seulement pour faire le pain et pour le potage, nais encore en la réduisant en pâte avec de l'eau ou des œufs pour en former avec un sciadur<note type="bp">
-         <p>Petit bâton rond en hêtre.</p>
-        </note>des feuilles larges et très minces que l'on taille pour les différents potages. Généralement on la mange avec des haricots ; les plus aisés la font cuire dans du bouillon de viande.</p>
-       <p xml:id="para_8_200_132">Le vin est le plus souvent fait avec le raisin de deuxième et de troi¬sième qualité. Le meilleur est vendu et le prix en sert à payer les fournisseurs ou à acheter ce qui est nécessaire pour confectionner les chaussures et les vêtements.</p>
-       <p xml:id="para_8_200_133">En général, le paysan fait quatre repas par jour : le matin à <pb facs="#facs_216" n="201" source="2serlesouvriersde05sociuoft_0235.xml"/> huit heures avec du pain, du fromage, de la polenta ou de la piada de la veille ; vers une heure, repas le plus abondant avec du potage ou de la polenta, suivant le degré d'aisance. Enfin vient, selon la longueur du jour, la merenda ou la cena, pour laquelle on n'allume pas le feu.</p>
-       <p xml:id="para_8_201_139">La famille que nous étudions eut tout d'abord une existence asse difficile : tous les repas se composaient de polenta, parfois sans sel (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>), assaisonnée d'ail. Dans la suite la prospérité est venue, et les repas furent ceux de paysans auxquels rien ne manque pour sutisfaire à tous les besoins de la vie.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_8_201_142">La maison du podere ne diffère guère de toutes les autres maisons de la campagne au rez-de-chaussée les étables, la cave, la chambre des métiers à tisser; au premier et unique étage, la cuisine, l'appr¬tement le plus vaste, 8 mètres sur, et deux chambres à coucher. C'est dans la cuisine que se passe la plus grande partie de la vie domesti¬que. Un four est annexé à la maison. Dans les habitations plus petites, qui n'ont qu'une chambre à consacrer à l'usage de magasin, on con¬serve le froment et le mais dans de petites mannes de paille tressée (brulle).</p>
-        <p xml:id="para_8_201_143">Il y a une vingtaine d'années, les propriétaires faisaient encore des améliorations à leurs métairies et même aux maisons : c'est de cette époque que datent la disparition des chàssis à papier aux fenêtres, alors en usage presque partout, et leur remplacement par des chassis à vitres. Aujourd'hui, les propriétaires qui font des améliorations sont extrêmement rares : les exigences du fisc empêchent toute iitiative de ce côté.</p>
-       </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_8_201_144">MEUBLES............ 113ᶠ 00</p>
-        <p xml:id="para_8_201_145">1° Literie. — 3 lits montés (bois, paillasse, orelller de plumes, couverture), 30ᶠ00; — 5 couvertures piquées, 40ᶠ00; — 2 couvertures de coton, 12ᶠ 00; — 1 berceau avec cou¬vertures, 3ᶠ00. — Total, 87ᶠe0.</p>
-        <p xml:id="para_8_201_146">2° Mobilier. —  coffres en forme de banc et un autre plus petit, 5ᶠ 00 ; — 1 petite table, 1ᶠ00;  1 grande table. 5ᶠ00;   1 uche. 8ᶠ 00; — 2 bancs, 4ᶠ 00: — 4 chaises en paille, 3ᶠ 00.  — Total. 6ᶠ 00.</p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_8_202_148"><pb facs="#facs_217" n="202" source="2serlesouvriersde05sociuoft_0236.xml"/> USTENSILES............ 59ᶠ 45 </p>
-        <p xml:id="para_8_202_149">1° Accessoires du foyer. — Chaîne de foyer, crémaillère, 1ᶠ 50; — 3 trépieds, 0ᶠ60 ; — 1 gril, 0ᶠ25 ; — 1 pelle, 0ᶠ 60. — Total, 2ᶠ95.</p>
-        <p xml:id="para_8_202_150">2° Ustensiles pour la préparation et la consommation des aliments. — 1 poêle, 3ᶠ 00; — 1 grand chaudron, 8ᶠ 00; — 1 petit chaudron, 6ᶠ00; — 1 casserole de cuivre, 4ᶠ 00; — 1 marmite et 2 casseroles en terre cuite, 0ᶠ 75 ; — 2 couvercles en fer, 0ᶠ30; —2 cruches en cuivre, 10ᶠ 00: — 1 pot à eau en terre cuite, 0ᶠ80 ; — 1 bassin en terre cuite, 1ᶠ00 ; — 2 fers à gratter, 0ᶠ60; — 6 flacons, 1ᶠ20; — 6 verres, 0ᶠ90; — 1 bouteille en verre blanc, 0ᶠ25; — 1 soupière, 0ᶠ60 ; — 12 assiettes à soupe ordinaires, 3ᶠ 00 ; — 12 assiettes ordinaires, 3ᶠ00; — 4 couverts en fer, 2ᶠ00 ; — 2 sas, 3ᶠ50. — Total, 48ᶠ 90.</p>
-        <p xml:id="para_8_202_153">3° Ustensiles divers. — 2 lampes en fer, 0ᶠ 60 ; — 4 mannes en paille tressée, 4ᶠ 00; — 6 sacs, 3ᶠ 00. — Total, 7ᶠ60.</p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_8_202_154">LINGE DE MÉNAGE............ 123ᶠ 00</p>
-        <p xml:id="para_8_202_155">7 paires de draps de lit, 70ᶠ00; — 5 couvertures de coton imprimé, 20ᶠ00; — 4 couver¬tures piquées, de réserve, 20ᶠ00 ; — 8 essuie-mains, 2ᶠ 00 ; — 3 nappes ordinaires, 5ᶠ00 ; — 6 serviettes, 4ᶠ 00; — 4 tabliers de cuisine, 2ᶠ 00. — Total, 123ᶠ00.</p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_8_202_156">VÊTEMENTS............ 277ᶠ 8)</p>
-        <p xml:id="para_8_202_157">VÊTEMENTS DES HOMMES (Joseph et Vespasien) (138ᶠ00).</p>
-        <p xml:id="para_8_202_158">1° Vêtements du dimanche. — 1 habit complet en tricot de lin, fait par les femmes, pour Pété, 20ᶠ 00 ; — costumes complets en tricot de laine et de coton, achetés, 30ᶠ00; — 4 cha¬pDeaux, 2ᶠ00 ; — 2 paires de souliers neufs, 20ᶠ 00; — 2 paires de souliers ayant servi, 10ᶠ 00; — 4 paires de bas, 2ᶠ 00; — 2 manteaux pour l'hiver, 30ᶠ 00; — 6 ehemises de lin (tissées par les femmes), 4ᶠ 00. — Total, 118ᶠ00.</p>
-        <p xml:id="para_8_202_159">2° Vêtements de travail. — Costumes en toile très usés, ensemble, 29ᶠ 00.</p>
-        <p xml:id="para_8_202_160">VÊTEMENTS DE FEMMES (Thérèse et Rosine) (129ᶠ80).</p>
-        <p xml:id="para_8_202_161">1° Vêtements du dimanche. — 2 costumes complets pour l'été, 15ᶠ 00 ; — 2 autres pour l'hiver, 25ᶠ00 ; — 2 fichus de laine de couleur, 6ᶠ 00; — 2 tabliers de laine, 4ᶠ00; — 2 paires de souliers presque neufs, 16ᶠ00; — 4 paires de bas, 2ᶠ 00 ; — 4 mouchoirs, 1ᶠ 00 ; — 2 éven¬tails, 0ᶠ80; — 6 chemises, 4ᶠ 00; — 2 corsets (faits par les femmes elles-mémes), 4ᶠ00. — Total, 77ᶠ80.</p>
-        <p xml:id="para_8_202_162">2° Vêtements de travail. — Ensemble, 12ᶠ 00.</p>
-        <p xml:id="para_8_202_163">3° Bijoux. — 2 paires de boucles d'oreilles, 15ᶠ 00; — 2 eolliers en corail, 20ᶠ00; — 1 anneau (appartenant à Thérèse), 5ᶠ 00. — Total, 40ᶠ00.</p>
-        <p xml:id="para_8_202_164">VÊTEMENTS DES ENFANTS. — Ensemble, 10ᶠ00.</p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_8_202_165">VALEUR TOTALE du mobilier et des vêtements............ 573ᶠ 25</p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
-       <p xml:id="para_8_202_168">Les distractions que le contadino peut se permettre ne sont pas très nombreuses. Les meilleures sont celles auxquelles il s'adonne à l'é<pb facs="#facs_218" n="203" source="2serlesouvriersde05sociuoft_0237.xml"/>poque des grandes récoltes, de la moisson, de la vendange, au temps où le travail est le plus dur. Alors, surtout si la récolte est abondante, on se livre habituellement à des réjouissances qui se manifestent par des cris, des chants, des bals dans l'aire, au son du violon et du tam¬bour de basque : on dirait un souvenir de l'ancien pagas où les incolae célébraient la moisson en criant : Io ! Io ! Date messes et bona vina !</p>
-       <p xml:id="para_8_203_170">Pendant l'hiver, c'est un usage très répandu parmi les contadini aisés de faire la oeillée, que l'on passe dans la cuisine, l'appartement le plus grand de la maison, et non pas dans les étables comme cela se fait dans la plaine.</p>
-       <p xml:id="para_8_203_171">La famille C***, soit en raison de sa situation économique, soit à cause de ses malheurs, s'est rarement adonnée à ces distractions. Comme les contadini ont l'habitude de s'entr'aider aux époques des grands tra¬vaux, les membres de cette famille prennent part aux divertissements de leurs voisins plus aisés auxquels ils vont prêter main-forte et rendre diférents services.</p>
-       <p xml:id="para_8_203_172">Il faut d'ailleurs, à ce point de vue, distinguer entre les contadini habitant auprès des villages et ceux qui résident au loin. Chez ceux-ci, le jeu est très rare, on danse, on chante, on boit un peu, on ba¬varde beaucoup ; chez les premiers, au contraire, il est rare qu'on ne joue pas aux cartes et même parfois aux jeux de hasard.</p>
-       <p xml:id="para_8_203_173">Les paysans trouvent encore d'autres distractions dans les foires, les fêtes religieuses comme la Fête-Dieu, l'Ascension, etc. Aux épo¬ques où il y a le moins de travail dans les fermes, ils passent plu¬sieurs heures au village ou à la paroisse, suivent les processions, même s'ils ne font pas partie des confréries, ce qui est rare, et trompent le temps en bavardant et en mangeant des lupins et des marrons ; les moins bons fréquentent les cabarets et fument la pipe ; ceux qui sont tout à fait mauvais jouent en outre aux cartes. Il en est de même au moment des grandes foires comme celles du Pardon d'Assises (2 août), des 8-9 octobre, 15 novembre, etc... On danse alors sur les places, et les jeunes filles refusent rarement de se laisser conduire au bal par leur flancé ou par celui qui, après la fête, le deviendra certainement.</p>
-       <p xml:id="para_8_203_174">Ces bals et ces danses en public sont d'importation étrangère et viennent de la Basse-Romagne, où ils sont très usités chaque dimanche. Dans la paroisse de Roccasancasciano, ils avaient lieu seulement, il y a quelques années, à l'occasion de la foire San-Donnino (8-9 octobre), qui attirait beaucoup de monde, surtout à cause de la fête religieuse <pb facs="#facs_219" n="204" source="2serlesouvriersde05sociuoft_0238.xml"/> de la paroisse voisine où l'on conserve un reliquaire du saint de ce nom, qui a la réputation de guérir de la rage tous ceux qui l'ont touché.</p>
-      </div>
-     </div>
-     <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
-       <p xml:id="para_8_204_179">La famille dont nous nous occupons a de tout temps exercé le métier de contadino. Autrefois elle exploitait une métairie plus impor¬tante ; mais les maladies et les malheurs de toute sorte l'ayant déci¬mée, les frères se séparèrent. L'oncle de Joseph put amasser quelque argent dans son métier de marchand de froment. Son père, au contraire, ne fit pas fortune et quand il prit le podere à titre de métayage, sa famille était dans une situation plutôt misérable.</p>
-       <p xml:id="para_8_204_180">Cette famille doit à son activité, à son abnégation et au concours précieux que lui prêta son propriétaire, de se trouver actuellement dans une bonne situation.</p>
-       <p xml:id="para_8_204_181">On trouvera au <ref target="#part_03_01_20" type="renvoi_int_mono">§ 20</ref> des renseignements plus détaillés et trop longs pour être placés ici, notamment sur la situation matérielle de la fa¬mille durant les années qui précédèrent et celles qui suivirent l'année 1878-79 sur laquelle a été faite la présente monographie.</p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
-       <p xml:id="para_8_204_184">La vie du contadin, dans cette région est partagée entre trois choses : la famille, le sol, le propriétaire. C'est la condition générale de tous les contadini et en cela la famille C*** est en tous points sem¬blable aux autres.</p>
-       <p xml:id="para_8_204_185">La famille est la force du cultivateur ; plus nombreux en sont les membres, plus grand est le podere qu'elle peut prétendre exploiter. Aussi <pb facs="#facs_220" n="205" source="2serlesouvriersde05sociuoft_0239.xml"/> la naissance d'un enfant mâle est-elle pour tous la cause d'une grande joie, tandis que le départ pour le service militaire est regardé comme un malheur.</p>
-       <p xml:id="para_8_205_187">Suivant les aptitudes de chacun des membres de la famille, le con¬tadino choisit son podere, selon qu'ils sont portés à la culture ou è l'élevage du bétail, il doit naturellement préférer la ferme dans la¬quelle ses enfants trouveront le mieux à employer leur activité. Pour le bon paysan, il faut nécessairement que la possession du sol qu'il cultive lui soit assurée, panrce qu'il est certain dès lors que son travil trouvera tôt ou tard sa récompense.</p>
-       <p xml:id="para_8_205_188">Quant au propriétaire, un vieux proverbe très répandu dit de lui : Il buon proprietario fa il ouon contadino e oice ersa. La prospérité de tous les deux dépend en effet de la nature de leurs rapports ; l'un et l'autre ont intérêt à ce que le paysan reste de longues années dans la même ferme. Aussi le propriétaire a-t-il tout profit à lui venir en aide, à le soutenir, à être pour lui un patron, presque un père.</p>
-       <p xml:id="para_8_205_189">En dehors de cela, que peut souhaiter le paysan Quelles institu¬tions peuvent assurer son bien-être physique et moral Quel besoin a-t-il, par exemple, de s'inscrire dans des sociétés de secours mutuels Son aide naturel c'est le propriétaire, et quiconque refuse son concours au bon paysan fait son propre malheur en même temps que celui de son métayer. Car si le paysan se trouve dans la nécessité de recourir à l'usure, il cesse de cultiver le podere comme il doit le faire et ne tarde pas à en chercher un autre. Malheur à ceux, propriétaires ou paysans, qui changent trop souvent l'un de podere, l'autre de conta¬dno</p>
-       <p xml:id="para_8_205_190">Le curé de la paroisse peut aussi concourir à assurer ce bien-être par son exemple et sa parole ; mais il n'en est pas toujours ainsi, et parfois peut-être le prêtre semble-t-il ne pas avoir toute la délicatesse et l'abnégation qu'on peut attendre de lui.</p>
-       <p xml:id="para_8_205_191">Le paysan paye la moitié de l'impôtsur le bétail etl'impôtde famille ; mais comme ce qu'il gagne lui arrive en nature et non en argent, il ne supporte l'impôt de consommation que dans la mesure où ce droit grêve les produits qu'il est obligé d'acheter au village. Il recoit en échange, de la commune, l'assistance médicale gratuite, et si la maladie devient incurauble, il est envoyé à l'hôpital de Florence, de Forli ou de Faenza, également aux frais de la commune : il est en effet compris dans la grande catégorie de poveri à laquelle appartiennent tous ceux qui vivent du travail de leurs bras.</p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. Budget des recettes de l'année.</head>
-       <pb facs="#facs_221" n="206" source="2serlesouvriersde05sociuoft_0240.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_221" url="#"/>
-       </figure>
-       <!--<p xml:id="para_8_206_194">SOURCES DES RECETTES.</p>
+<p xml:id="para_8_199_125">Le bétail garnissant la ferme et qui appartient au propriétaire se composait, à la fin de l'année dont il est ici question et après les ventes mentionnées plus loin (<ref target="#part_02_05_16" type="renvoi_int_mono">§ 16, B</ref>), de 2 bœufs de travail, 25 brebis, 1 bé¬lier et 2 chèvres.</p>
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
+<p xml:id="para_8_200_130"><pb facs="#facs_215" n="200" source="2serlesouvriersde05sociuoft_0234.xml"/> La sobriété est le trait principal du caractère du contadino. C'est la polenta<note type="bp">
+<p>Bouillie de farine de mais.</p>
+</note>qui fait la base de son alimentation. La farine de froment n'est généralement employée qu'à l'époque des grands travaux : mois¬son, vendange, etc... Le paysan, alors, tue des poulets, achète un peu de viande, boit du vin, fait bonne chêre. En dehors de ces occa¬sions, il ne mange de la viande qu'aux fêtes solennelles, comme Noel, Pâques etc. La polenta est apprêtée avec du lard, de l'oignon et du fromage ; les plus pauvres la mangent sans autres condiments que du sel et de l'ail. On fait aussi, avec la farine de mais, un gâteau que l'on appelle pieda, gâteau large et plat, composé de farine de mais et de farine de blé bien pétrie que l'on met cuire sur une cadette. Mers la fin de l'automne, les paysans aisés ont l'habitude de faire de la pieda, aliment toujours lourd mais très appétissant, en y ajoutant un pâté de calebasse cuite, du lard, des oignons et des épices. Le plat s'ap¬pelle alors tortellisulla castra<note type="bp">
+<p>Littéralement : petite tarte sur la pierre.</p>
+</note>: on le mange spécialement à la Tous¬saint.</p>
+<p xml:id="para_8_200_131">On se sert de la farine de froment non seulement pour faire le pain et pour le potage, nais encore en la réduisant en pâte avec de l'eau ou des œufs pour en former avec un sciadur<note type="bp">
+<p>Petit bâton rond en hêtre.</p>
+</note>des feuilles larges et très minces que l'on taille pour les différents potages. Généralement on la mange avec des haricots ; les plus aisés la font cuire dans du bouillon de viande.</p>
+<p xml:id="para_8_200_132">Le vin est le plus souvent fait avec le raisin de deuxième et de troi¬sième qualité. Le meilleur est vendu et le prix en sert à payer les fournisseurs ou à acheter ce qui est nécessaire pour confectionner les chaussures et les vêtements.</p>
+<p xml:id="para_8_200_133">En général, le paysan fait quatre repas par jour : le matin à <pb facs="#facs_216" n="201" source="2serlesouvriersde05sociuoft_0235.xml"/> huit heures avec du pain, du fromage, de la polenta ou de la piada de la veille ; vers une heure, repas le plus abondant avec du potage ou de la polenta, suivant le degré d'aisance. Enfin vient, selon la longueur du jour, la merenda ou la cena, pour laquelle on n'allume pas le feu.</p>
+<p xml:id="para_8_201_139">La famille que nous étudions eut tout d'abord une existence asse difficile : tous les repas se composaient de polenta, parfois sans sel (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>), assaisonnée d'ail. Dans la suite la prospérité est venue, et les repas furent ceux de paysans auxquels rien ne manque pour sutisfaire à tous les besoins de la vie.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_8_201_142">La maison du podere ne diffère guère de toutes les autres maisons de la campagne au rez-de-chaussée les étables, la cave, la chambre des métiers à tisser; au premier et unique étage, la cuisine, l'appr¬tement le plus vaste, 8 mètres sur, et deux chambres à coucher. C'est dans la cuisine que se passe la plus grande partie de la vie domesti¬que. Un four est annexé à la maison. Dans les habitations plus petites, qui n'ont qu'une chambre à consacrer à l'usage de magasin, on con¬serve le froment et le mais dans de petites mannes de paille tressée (brulle).</p>
+<p xml:id="para_8_201_143">Il y a une vingtaine d'années, les propriétaires faisaient encore des améliorations à leurs métairies et même aux maisons : c'est de cette époque que datent la disparition des chàssis à papier aux fenêtres, alors en usage presque partout, et leur remplacement par des chassis à vitres. Aujourd'hui, les propriétaires qui font des améliorations sont extrêmement rares : les exigences du fisc empêchent toute iitiative de ce côté.</p>
+</div>
+<div subtype="meubles" type="par_10">
+<p xml:id="para_8_201_144">MEUBLES............ 113ᶠ 00</p>
+<p xml:id="para_8_201_145">1° Literie. — 3 lits montés (bois, paillasse, orelller de plumes, couverture), 30ᶠ00; — 5 couvertures piquées, 40ᶠ00; — 2 couvertures de coton, 12ᶠ 00; — 1 berceau avec cou¬vertures, 3ᶠ00. — Total, 87ᶠe0.</p>
+<p xml:id="para_8_201_146">2° Mobilier. —  coffres en forme de banc et un autre plus petit, 5ᶠ 00 ; — 1 petite table, 1ᶠ00;  1 grande table. 5ᶠ00;   1 uche. 8ᶠ 00; — 2 bancs, 4ᶠ 00: — 4 chaises en paille, 3ᶠ 00.  — Total. 6ᶠ 00.</p>
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_8_202_148"><pb facs="#facs_217" n="202" source="2serlesouvriersde05sociuoft_0236.xml"/> USTENSILES............ 59ᶠ 45 </p>
+<p xml:id="para_8_202_149">1° Accessoires du foyer. — Chaîne de foyer, crémaillère, 1ᶠ 50; — 3 trépieds, 0ᶠ60 ; — 1 gril, 0ᶠ25 ; — 1 pelle, 0ᶠ 60. — Total, 2ᶠ95.</p>
+<p xml:id="para_8_202_150">2° Ustensiles pour la préparation et la consommation des aliments. — 1 poêle, 3ᶠ 00; — 1 grand chaudron, 8ᶠ 00; — 1 petit chaudron, 6ᶠ00; — 1 casserole de cuivre, 4ᶠ 00; — 1 marmite et 2 casseroles en terre cuite, 0ᶠ 75 ; — 2 couvercles en fer, 0ᶠ30; —2 cruches en cuivre, 10ᶠ 00: — 1 pot à eau en terre cuite, 0ᶠ80 ; — 1 bassin en terre cuite, 1ᶠ00 ; — 2 fers à gratter, 0ᶠ60; — 6 flacons, 1ᶠ20; — 6 verres, 0ᶠ90; — 1 bouteille en verre blanc, 0ᶠ25; — 1 soupière, 0ᶠ60 ; — 12 assiettes à soupe ordinaires, 3ᶠ 00 ; — 12 assiettes ordinaires, 3ᶠ00; — 4 couverts en fer, 2ᶠ00 ; — 2 sas, 3ᶠ50. — Total, 48ᶠ 90.</p>
+<p xml:id="para_8_202_153">3° Ustensiles divers. — 2 lampes en fer, 0ᶠ 60 ; — 4 mannes en paille tressée, 4ᶠ 00; — 6 sacs, 3ᶠ 00. — Total, 7ᶠ60.</p>
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_8_202_154">LINGE DE MÉNAGE............ 123ᶠ 00</p>
+<p xml:id="para_8_202_155">7 paires de draps de lit, 70ᶠ00; — 5 couvertures de coton imprimé, 20ᶠ00; — 4 couver¬tures piquées, de réserve, 20ᶠ00 ; — 8 essuie-mains, 2ᶠ 00 ; — 3 nappes ordinaires, 5ᶠ00 ; — 6 serviettes, 4ᶠ 00; — 4 tabliers de cuisine, 2ᶠ 00. — Total, 123ᶠ00.</p>
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_8_202_156">VÊTEMENTS............ 277ᶠ 8)</p>
+<p xml:id="para_8_202_157">VÊTEMENTS DES HOMMES (Joseph et Vespasien) (138ᶠ00).</p>
+<p xml:id="para_8_202_158">1° Vêtements du dimanche. — 1 habit complet en tricot de lin, fait par les femmes, pour Pété, 20ᶠ 00 ; — costumes complets en tricot de laine et de coton, achetés, 30ᶠ00; — 4 cha¬pDeaux, 2ᶠ00 ; — 2 paires de souliers neufs, 20ᶠ 00; — 2 paires de souliers ayant servi, 10ᶠ 00; — 4 paires de bas, 2ᶠ 00; — 2 manteaux pour l'hiver, 30ᶠ 00; — 6 ehemises de lin (tissées par les femmes), 4ᶠ 00. — Total, 118ᶠ00.</p>
+<p xml:id="para_8_202_159">2° Vêtements de travail. — Costumes en toile très usés, ensemble, 29ᶠ 00.</p>
+<p xml:id="para_8_202_160">VÊTEMENTS DE FEMMES (Thérèse et Rosine) (129ᶠ80).</p>
+<p xml:id="para_8_202_161">1° Vêtements du dimanche. — 2 costumes complets pour l'été, 15ᶠ 00 ; — 2 autres pour l'hiver, 25ᶠ00 ; — 2 fichus de laine de couleur, 6ᶠ 00; — 2 tabliers de laine, 4ᶠ00; — 2 paires de souliers presque neufs, 16ᶠ00; — 4 paires de bas, 2ᶠ 00 ; — 4 mouchoirs, 1ᶠ 00 ; — 2 éven¬tails, 0ᶠ80; — 6 chemises, 4ᶠ 00; — 2 corsets (faits par les femmes elles-mémes), 4ᶠ00. — Total, 77ᶠ80.</p>
+<p xml:id="para_8_202_162">2° Vêtements de travail. — Ensemble, 12ᶠ 00.</p>
+<p xml:id="para_8_202_163">3° Bijoux. — 2 paires de boucles d'oreilles, 15ᶠ 00; — 2 eolliers en corail, 20ᶠ00; — 1 anneau (appartenant à Thérèse), 5ᶠ 00. — Total, 40ᶠ00.</p>
+<p xml:id="para_8_202_164">VÊTEMENTS DES ENFANTS. — Ensemble, 10ᶠ00.</p>
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_8_202_165">VALEUR TOTALE du mobilier et des vêtements............ 573ᶠ 25</p>
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
+<p xml:id="para_8_202_168">Les distractions que le contadino peut se permettre ne sont pas très nombreuses. Les meilleures sont celles auxquelles il s'adonne à l'é<pb facs="#facs_218" n="203" source="2serlesouvriersde05sociuoft_0237.xml"/>poque des grandes récoltes, de la moisson, de la vendange, au temps où le travail est le plus dur. Alors, surtout si la récolte est abondante, on se livre habituellement à des réjouissances qui se manifestent par des cris, des chants, des bals dans l'aire, au son du violon et du tam¬bour de basque : on dirait un souvenir de l'ancien pagas où les incolae célébraient la moisson en criant : Io ! Io ! Date messes et bona vina !</p>
+<p xml:id="para_8_203_170">Pendant l'hiver, c'est un usage très répandu parmi les contadini aisés de faire la oeillée, que l'on passe dans la cuisine, l'appartement le plus grand de la maison, et non pas dans les étables comme cela se fait dans la plaine.</p>
+<p xml:id="para_8_203_171">La famille C***, soit en raison de sa situation économique, soit à cause de ses malheurs, s'est rarement adonnée à ces distractions. Comme les contadini ont l'habitude de s'entr'aider aux époques des grands tra¬vaux, les membres de cette famille prennent part aux divertissements de leurs voisins plus aisés auxquels ils vont prêter main-forte et rendre diférents services.</p>
+<p xml:id="para_8_203_172">Il faut d'ailleurs, à ce point de vue, distinguer entre les contadini habitant auprès des villages et ceux qui résident au loin. Chez ceux-ci, le jeu est très rare, on danse, on chante, on boit un peu, on ba¬varde beaucoup ; chez les premiers, au contraire, il est rare qu'on ne joue pas aux cartes et même parfois aux jeux de hasard.</p>
+<p xml:id="para_8_203_173">Les paysans trouvent encore d'autres distractions dans les foires, les fêtes religieuses comme la Fête-Dieu, l'Ascension, etc. Aux épo¬ques où il y a le moins de travail dans les fermes, ils passent plu¬sieurs heures au village ou à la paroisse, suivent les processions, même s'ils ne font pas partie des confréries, ce qui est rare, et trompent le temps en bavardant et en mangeant des lupins et des marrons ; les moins bons fréquentent les cabarets et fument la pipe ; ceux qui sont tout à fait mauvais jouent en outre aux cartes. Il en est de même au moment des grandes foires comme celles du Pardon d'Assises (2 août), des 8-9 octobre, 15 novembre, etc... On danse alors sur les places, et les jeunes filles refusent rarement de se laisser conduire au bal par leur flancé ou par celui qui, après la fête, le deviendra certainement.</p>
+<p xml:id="para_8_203_174">Ces bals et ces danses en public sont d'importation étrangère et viennent de la Basse-Romagne, où ils sont très usités chaque dimanche. Dans la paroisse de Roccasancasciano, ils avaient lieu seulement, il y a quelques années, à l'occasion de la foire San-Donnino (8-9 octobre), qui attirait beaucoup de monde, surtout à cause de la fête religieuse <pb facs="#facs_219" n="204" source="2serlesouvriersde05sociuoft_0238.xml"/> de la paroisse voisine où l'on conserve un reliquaire du saint de ce nom, qui a la réputation de guérir de la rage tous ceux qui l'ont touché.</p>
+</div>
+</div>
+<div n="004" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
+<p xml:id="para_8_204_179">La famille dont nous nous occupons a de tout temps exercé le métier de contadino. Autrefois elle exploitait une métairie plus impor¬tante ; mais les maladies et les malheurs de toute sorte l'ayant déci¬mée, les frères se séparèrent. L'oncle de Joseph put amasser quelque argent dans son métier de marchand de froment. Son père, au contraire, ne fit pas fortune et quand il prit le podere à titre de métayage, sa famille était dans une situation plutôt misérable.</p>
+<p xml:id="para_8_204_180">Cette famille doit à son activité, à son abnégation et au concours précieux que lui prêta son propriétaire, de se trouver actuellement dans une bonne situation.</p>
+<p xml:id="para_8_204_181">On trouvera au <ref target="#part_03_01_20" type="renvoi_int_mono">§ 20</ref> des renseignements plus détaillés et trop longs pour être placés ici, notamment sur la situation matérielle de la fa¬mille durant les années qui précédèrent et celles qui suivirent l'année 1878-79 sur laquelle a été faite la présente monographie.</p>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
+<p xml:id="para_8_204_184">La vie du contadin, dans cette région est partagée entre trois choses : la famille, le sol, le propriétaire. C'est la condition générale de tous les contadini et en cela la famille C*** est en tous points sem¬blable aux autres.</p>
+<p xml:id="para_8_204_185">La famille est la force du cultivateur ; plus nombreux en sont les membres, plus grand est le podere qu'elle peut prétendre exploiter. Aussi <pb facs="#facs_220" n="205" source="2serlesouvriersde05sociuoft_0239.xml"/> la naissance d'un enfant mâle est-elle pour tous la cause d'une grande joie, tandis que le départ pour le service militaire est regardé comme un malheur.</p>
+<p xml:id="para_8_205_187">Suivant les aptitudes de chacun des membres de la famille, le con¬tadino choisit son podere, selon qu'ils sont portés à la culture ou è l'élevage du bétail, il doit naturellement préférer la ferme dans la¬quelle ses enfants trouveront le mieux à employer leur activité. Pour le bon paysan, il faut nécessairement que la possession du sol qu'il cultive lui soit assurée, panrce qu'il est certain dès lors que son travil trouvera tôt ou tard sa récompense.</p>
+<p xml:id="para_8_205_188">Quant au propriétaire, un vieux proverbe très répandu dit de lui : Il buon proprietario fa il ouon contadino e oice ersa. La prospérité de tous les deux dépend en effet de la nature de leurs rapports ; l'un et l'autre ont intérêt à ce que le paysan reste de longues années dans la même ferme. Aussi le propriétaire a-t-il tout profit à lui venir en aide, à le soutenir, à être pour lui un patron, presque un père.</p>
+<p xml:id="para_8_205_189">En dehors de cela, que peut souhaiter le paysan Quelles institu¬tions peuvent assurer son bien-être physique et moral Quel besoin a-t-il, par exemple, de s'inscrire dans des sociétés de secours mutuels Son aide naturel c'est le propriétaire, et quiconque refuse son concours au bon paysan fait son propre malheur en même temps que celui de son métayer. Car si le paysan se trouve dans la nécessité de recourir à l'usure, il cesse de cultiver le podere comme il doit le faire et ne tarde pas à en chercher un autre. Malheur à ceux, propriétaires ou paysans, qui changent trop souvent l'un de podere, l'autre de conta¬dno</p>
+<p xml:id="para_8_205_190">Le curé de la paroisse peut aussi concourir à assurer ce bien-être par son exemple et sa parole ; mais il n'en est pas toujours ainsi, et parfois peut-être le prêtre semble-t-il ne pas avoir toute la délicatesse et l'abnégation qu'on peut attendre de lui.</p>
+<p xml:id="para_8_205_191">Le paysan paye la moitié de l'impôtsur le bétail etl'impôtde famille ; mais comme ce qu'il gagne lui arrive en nature et non en argent, il ne supporte l'impôt de consommation que dans la mesure où ce droit grêve les produits qu'il est obligé d'acheter au village. Il recoit en échange, de la commune, l'assistance médicale gratuite, et si la maladie devient incurauble, il est envoyé à l'hôpital de Florence, de Forli ou de Faenza, également aux frais de la commune : il est en effet compris dans la grande catégorie de poveri à laquelle appartiennent tous ceux qui vivent du travail de leurs bras.</p>
+</div>
+</div>
+<div n="005" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">§ 14. Budget des recettes de l'année.</head>
+<pb facs="#facs_221" n="206" source="2serlesouvriersde05sociuoft_0240.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_221" url="#"/>
+</figure>
+<!--<p xml:id="para_8_206_194">SOURCES DES RECETTES.</p>
         <p xml:id="para_8_206_195">EVALUATIO APPROXIMATIVR A DES SOURCES D RRCTTRS. 11</p>
         <p xml:id="para_8_206_196">SE CTION Fᵉ.</p>
         <p xml:id="para_8_206_197">Propriétés POSSÉDÉES PAR LA FAMILLE.</p>
@@ -552,16 +551,16 @@
         <p xml:id="para_8_206_227">ART. 3. — ALLOCATIONS D'OBIETS ET DE SERVICES.</p>
         <p xml:id="para_8_206_228">Soins du médecin aux frais de la commune...............................</p>
         <p xml:id="para_8_206_229">Avances faites par le propriétaire...........:.....:..............:.. .. .....</p>-->
-       <pb facs="#facs_222" n="207" source="2serlesouvriersde05sociuoft_0241.xml"/>
-       <!--<p xml:id="para_8_207_230">§ 14.</p><p>Budget des recettes de l'année.</p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_222" url="#" xml:id="tble_8_207_3"/>
-       </figure>
-       <pb facs="#facs_223" n="208" source="2serlesouvriersde05sociuoft_0242.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_223" url="#"/>
-       </figure>
-       <!--<p xml:id="para_8_208_232">§ 14.</p><p>Budget des recettes de l'année.</p>
+<pb facs="#facs_222" n="207" source="2serlesouvriersde05sociuoft_0241.xml"/>
+<!--<p xml:id="para_8_207_230">§ 14.</p><p>Budget des recettes de l'année.</p>-->
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_222" url="#" xml:id="tble_8_207_3"/>
+</figure>
+<pb facs="#facs_223" n="208" source="2serlesouvriersde05sociuoft_0242.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_223" url="#"/>
+</figure>
+<!--<p xml:id="para_8_208_232">§ 14.</p><p>Budget des recettes de l'année.</p>
         <figure>
         <graphic facs="#facs_223" url="#" xml:id="tble_8_208_4"/>
         </figure>
@@ -581,23 +580,23 @@
         </figure>
         <p xml:id="para_8_208_243">. . (§ 16 . ... § 18, ... § 16, ... (§ 16,. ... 16, . ... (§ 16, ...  16,</p>
         <p xml:id="para_8_208_244">... (§ 16,</p>-->
-       <pb facs="#facs_224" n="209" source="2serlesouvriersde05sociuoft_0243.xml"/>
-       <!--<p xml:id="para_8_209_245">§ 14.</p><p>Budget des recettes de l'année.</p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_224" url="#" xml:id="illu_8_209_6"/>
-       </figure>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. Budget des dépenses de l'année.</head>
-       <pb facs="#facs_225" n="210" source="2serlesouvriersde05sociuoft_0244.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_225" url="#" xml:id="tble_8_210_7"/>
-       </figure>
-       <pb facs="#facs_226" n="211" source="2serlesouvriersde05sociuoft_0245.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_226" url="#" xml:id="tble_8_211_8"/>
-       </figure>
-       <!--<p xml:id="para_8_211_249">ART. 2. —ALIMENTS PRÉPARÉS ET CONSOMMÉS EN DEHORS DU MÉNAGE. uelques menues dépenses de nourriture les jours de foire et de marché..</p>
+<pb facs="#facs_224" n="209" source="2serlesouvriersde05sociuoft_0243.xml"/>
+<!--<p xml:id="para_8_209_245">§ 14.</p><p>Budget des recettes de l'année.</p>-->
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_224" url="#" xml:id="illu_8_209_6"/>
+</figure>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">§ 15. Budget des dépenses de l'année.</head>
+<pb facs="#facs_225" n="210" source="2serlesouvriersde05sociuoft_0244.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_225" url="#" xml:id="tble_8_210_7"/>
+</figure>
+<pb facs="#facs_226" n="211" source="2serlesouvriersde05sociuoft_0245.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_226" url="#" xml:id="tble_8_211_8"/>
+</figure>
+<!--<p xml:id="para_8_211_249">ART. 2. —ALIMENTS PRÉPARÉS ET CONSOMMÉS EN DEHORS DU MÉNAGE. uelques menues dépenses de nourriture les jours de foire et de marché..</p>
         <p xml:id="para_8_211_250">TOTAUX des dépenses concernant la nourriture......</p>
         <p xml:id="para_8_211_251">SECTION I.</p>
         <p xml:id="para_8_211_252">DÉPENSES CONCERNANT L'HAITATION.</p>
@@ -614,12 +613,12 @@
         <p xml:id="para_8_211_262">ToAUx des dépenses concernant l'habitation.</p>
         <p xml:id="para_8_211_263">MONTANT DES DEPENSES.</p>
         <p xml:id="para_8_211_264">10 00</p>-->
-       <pb facs="#facs_227" n="212" source="2serlesouvriersde05sociuoft_0246.xml"/>
-       <!--<p xml:id="para_8_212_266">§ 15.</p><p>BUDGET DES DÉPENSES DE LANNÉE (sudte).</p>-->
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_227" url="#" xml:id="illu_8_212_9"/>
-       </figure>
-       <!--<p xml:id="para_8_212_267">VÊTEMENTS :</p>
+<pb facs="#facs_227" n="212" source="2serlesouvriersde05sociuoft_0246.xml"/>
+<!--<p xml:id="para_8_212_266">§ 15.</p><p>BUDGET DES DÉPENSES DE LANNÉE (sudte).</p>-->
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_227" url="#" xml:id="illu_8_212_9"/>
+</figure>
+<!--<p xml:id="para_8_212_267">VÊTEMENTS :</p>
         <p xml:id="para_8_212_268">Vêtements et linge confectionnés dans le ménage............ <ref type="renvoi_int_mono" target="#part_02_05_16">(§ 16, K)</ref></p>
         <p xml:id="para_8_212_269">Toile achetée, 30 mètres à 0ᶠ45. ............ .......... ..:.......... .</p>
         <p xml:id="para_8_212_270">AChats de vètemeS.............. ... .. . .......... ..... ...............</p>
@@ -641,11 +640,11 @@
         <p xml:id="para_8_212_286">TOTAUX des dépenses concernant les besoins moraux, les récréa¬tions et le service de santé. ........ .....:...................</p>
         <p xml:id="para_8_212_287">87ᶠ 10 2 50 56 00</p>
         <p xml:id="para_8_212_288">15 00 7 20</p>-->
-       <pb facs="#facs_228" n="213" source="2serlesouvriersde05sociuoft_0247.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_228" url="#"/>
-       </figure>
-       <!--<p xml:id="para_8_213_289">§ 15.</p><p>BUDGET DES DEPENSES DE L'ANNEE (suite).</p>
+<pb facs="#facs_228" n="213" source="2serlesouvriersde05sociuoft_0247.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_228" url="#"/>
+</figure>
+<!--<p xml:id="para_8_213_289">§ 15.</p><p>BUDGET DES DEPENSES DE L'ANNEE (suite).</p>
         <p xml:id="para_8_213_290">DÉSIGNATION DES DÉPENSES (suite).</p>
         <p xml:id="para_8_213_291">MONTANT DES DEPENSES</p>
         <p xml:id="para_8_213_292">Valeur Dépenses</p>
@@ -677,29 +676,29 @@
         <p xml:id="para_8_213_318">TOAUX DES DÉPENSES de l'année (balancant les recettes). (1.355ᶠ25)</p>
         <p xml:id="para_8_213_319">866 42</p>
         <p xml:id="para_8_213_320">488 83</p>-->
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS.</head>
-       <pb facs="#facs_229" n="214" source="2serlesouvriersde05sociuoft_0248.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_229" url="#"/>
-       </figure>
-       <!--<p xml:id="para_8_214_324">SECTION I.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS.</head>
+<pb facs="#facs_229" n="214" source="2serlesouvriersde05sociuoft_0248.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_229" url="#"/>
+</figure>
+<!--<p xml:id="para_8_214_324">SECTION I.</p>
         <p xml:id="para_8_214_325">COMPTES DES BÉNÉFICES</p>
         <p xml:id="para_8_214_326">RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (à son propre compte).</p>
         <p xml:id="para_8_214_327">A à 6. — ENTEEPRISE DE CULTURE ET D'ÉLEVAGE A TITRE DE MÉTAYER<note type="bp">Il n'y a à signaler icidans les comptes relatifs au métayage que ce qui incombe et ce qui revie au contadino,;de là l'omission qdu travail des b œufs ( que l'on trouvera d'ailleurs indiqué ai lasᵉʳ du § 16) et de la valeur locative des terrains du podere.</p></note>. (Part du métayer.)</p>
         <figure>
         <graphic facs="#facs_229" url="#" xml:id="tble_8_214_10"/>
         </figure>-->
-       <pb facs="#facs_230" n="215" source="2serlesouvriersde05sociuoft_0249.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_230" url="#" xml:id="tble_8_215_11"/>
-       </figure>
-       <pb facs="#facs_231" n="216" source="2serlesouvriersde05sociuoft_0250.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_231" url="#" xml:id="tble_8_216_12"/>
-       </figure>
-       <!-- D. — EXPLOITATION DE LA BASSE-COUR (AU COMPTE </p>
+<pb facs="#facs_230" n="215" source="2serlesouvriersde05sociuoft_0249.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_230" url="#" xml:id="tble_8_215_11"/>
+</figure>
+<pb facs="#facs_231" n="216" source="2serlesouvriersde05sociuoft_0250.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_231" url="#" xml:id="tble_8_216_12"/>
+</figure>
+<!-- D. — EXPLOITATION DE LA BASSE-COUR (AU COMPTE </p>
         <p xml:id="para_8_216_330">DU MÉTAYER).</p>
         <figure>
         <graphic facs="#facs_231" url="#" xml:id="tble_8_216_13"/>
@@ -743,15 +742,15 @@
         <p xml:id="para_8_216_367">19 80</p>
         <p xml:id="para_8_216_368">0 20</p>
         <p xml:id="para_8_216_369">Totaux comme ci-dessus.</p>-->
-       <pb facs="#facs_232" n="217" source="2serlesouvriersde05sociuoft_0251.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_232" url="#" xml:id="tble_8_217_14"/>
-       </figure>
-       <pb facs="#facs_233" n="218" source="2serlesouvriersde05sociuoft_0252.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_233" url="#"/>
-       </figure>
-       <!--<p xml:id="para_8_218_370">. — FABRICATION DU VIN DANS LE MÉNAGE.</p>
+<pb facs="#facs_232" n="217" source="2serlesouvriersde05sociuoft_0251.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_232" url="#" xml:id="tble_8_217_14"/>
+</figure>
+<pb facs="#facs_233" n="218" source="2serlesouvriersde05sociuoft_0252.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_233" url="#"/>
+</figure>
+<!--<p xml:id="para_8_218_370">. — FABRICATION DU VIN DANS LE MÉNAGE.</p>
         <figure>
         <graphic facs="#facs_233" url="#" xml:id="tble_8_218_15"/>
         </figure>
@@ -795,58 +794,58 @@
         <p xml:id="para_8_218_408">31 20 3 00</p>
         <p xml:id="para_8_218_409">7 50 3 00 1 00 28 00 13 70</p>
         <p xml:id="para_8_218_410">Totaux comme ci-dessus.</p>-->
-       <pb facs="#facs_234" n="219" source="2serlesouvriersde05sociuoft_0253.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_234" url="#" xml:id="tble_8_219_16"/>
-       </figure>
-       <!--<p xml:id="para_8_219_412">SEOTION II.</p>
+<pb facs="#facs_234" n="219" source="2serlesouvriersde05sociuoft_0253.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_234" url="#" xml:id="tble_8_219_16"/>
+</figure>
+<!--<p xml:id="para_8_219_412">SEOTION II.</p>
         <p xml:id="para_8_219_413">COMPTES RELATIFS AUX Subventions.</p>
         <p xml:id="para_8_219_414">apcomptes, donnant lieu à des opérations très simples, ont eté établis dans le budget lul-même.</p>-->
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_234" url="#" xml:id="tble_8_219_17"/>
-       </figure>
-       <pb facs="#facs_235" n="220" source="2serlesouvriersde05sociuoft_0254.xml"/>
-       <!--<p xml:id="para_8_220_415">NOMBRE DES JOURNÉES.</p>-->
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_235" url="#" xml:id="tble_8_220_18"/>
-       </figure>
-      </div>
-     </div>
-     <div n="003" type="section">
-      <head type="section" xml:id="part_03">Éléments divers de la constitution sociale</head>
-      <p xml:id="para_8_221_416">FAITS IMPORTANTS D'ORGANISATION SOCIALE;</p>
-      <p xml:id="para_8_221_417">PRTICULARITÉS REMARQUABLES;</p>
-      <p xml:id="para_8_221_418">APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.</p>
-      <div n="001" type="sub_section">
-       <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">§ 17. LA ROMAGNE TOSCANE; SOL ET POPULATION AGRICOLE.</head>
-        <p xml:id="para_8_221_421"><pb facs="#facs_236" n="221" source="2serlesouvriersde05sociuoft_0255.xml"/> La partie de la province de Florence qui regarde l'Adriatique, dans lae moyenne ltalie, s'étendant entre les deux sommets des Apennins, le Mont Futa au nord et le Corsivo au sud, entre les 43° et 44° degrés de latitude nord et les 29ᵉ et 30 degrés de longitude est, est connue sous le nom spécial de Romagne 'oscane. Elle comprend à peu près le territoire qui composait la partie septentrionale de la Galla Senonia dont les anciens habitants, ancêtres de la population actuelle, turbulents et guerriers, étaient toujours en lutte avec les Étrusques et les Romains. Le dialecte que l'on y parle partout rappelle bien cette origine : ainsi la désinence in (vin, moulin, etc.) y est prononcée en, avec ce son nasal qui est le propre des Gaules d'aujourd'hui.</p>
-        <p xml:id="para_8_221_422">Au moyen age, cette contrée était divisée entre les comtes Guidi, les comtes della Massa, et les comtes de Cabboli ; depuis, à diverses épor ques, elle fut absorbée par la république de Florence dont l'intérêt politique exigeait cette incursion dans le territoire situé au delà de l'Apennin et faisant partie des Etats de l'Eglise. Aujourd'hui elle com¬prend deux parties, rentrant toutes deux dans la province de Florence. La première et la plus grande comprend 12 communes, avec une po¬pulation totale de 45.335 habitants et une superficie de 1.010 kilom. carrés, formant une circonscription qui doit son nom à son chef-lieu de Roccasancasciano. La seconde fait partie de la circonscription de Florence même ; on y compte 21.500 habitants et sa superficie est de 530 kilom. carrés. Les deux parties réunies ont donc une superflcie de <pb facs="#facs_237" n="222" source="2serlesouvriersde05sociuoft_0256.xml"/> 1.540 kilomètres carrés et une population de près de 67.000habitants.</p>
-        <p xml:id="para_8_222_425">La province s'étend du côté des contreforts des Apennins, domi¬née par les sommets des monts Berio (1.243), ˉCorsio (1.175). Guerno (1.133), Pollay (1.192ʳ), Cauallaro (1.029), Chioda (701), Mozaaicone (964), rebbio (614ᵐ), Melandro (670), etc. ; le sol y est très accidenté. Souvent on y rencontre de fortes collines s'a¬baissant en vallons étroits et profonds, rarement de hauts plateaux très étendus : pourtant le terrain fertile ne manque pas. Les fleuves Santerno, ˉLamone, edoio, Montone, Habbi, Bidente et Saui, qui y coulent, forment des vallées étroites qui s'élargissent peu à peu à me¬sure qu'on s'éloigne de la zone des montagnes et des hautes collines et qu'on entre dans la plaine où se termine la Romagne Toscane propre¬ment dite et où commence la région que Repetti, dans son Dictionnaire de la Toscane, appelle les Gaules Boi<note type="bp">
-          <p>Notre ami, le professeur G. Mengozzi, dans son poème latin Tusce Romandiolae Ceres,  en donne cette description :<quote>
-            <p>Qua caput attulit pater Apenninus ad auras,</p>
-            <p>Praebet et hybernis mons Falterona cacumen Ecelsum nivibus, silvis et rupibus asprum,</p>
-            <p>Panditur ad gelidos vallis conversa Trlones,</p>
-            <p>Liviensis rapida alluitur que luminis unda,</p>
-            <p>Oppida quod septem lapidoso intersecat alveo,</p>
-            <p>Miseet et Adriaco spumosos aequore fluctus,</p>
-            <p>Mœnia quâ juste surgunt antiqua Ravenne.</p>
-           </quote>
-          </p>
-         </note>.</p>
-        <p xml:id="para_8_222_426">Par sa position élevée faisant face au nord et par suite des vents du nord qui y dominent en automne et en hiver, le climat y est plu¬tôt froid et la neige reste longtemps sur la terre.</p>
-        <p xml:id="para_8_222_427">Au point de vue agricole, la Romagne Toscane peut être divisée en trois ones : 1° la zone des montagnes ou des Apennins proprement dits,dans laquelle il n'y a presque pas de culture et ou dominent les bois de sapins : la seule industrie qui y soit possible est l'élevage des bes¬tiaux ; la population fixe y fait complètement défaut; 2° la zone dite du châtaignier, où l'on trouve de grands bois de chênes ; la culture du blé, de la vigne, du mûrier y commence, mais l'industrie du bétail y est encore très active ; 3° la one des hautes collines où l'exploitation de la terre atteint son plein développement ; les bois y sont rares et de peu d'étendue ; les maisons champêtres y sont très nombreuses et la campagne présente cet aspect de végétation et de culture dû à la main intelligente de l'homme.</p>
-        <p xml:id="para_8_222_428">La population de cette éontrée est plutôt fière, mais de caractère loyal. Dans les villages, la corruption des mœurs et l'égoisme des <pb facs="#facs_238" n="223" source="2serlesouvriersde05sociuoft_0257.xml"/> habitants sont des faits très dignes de remarque ; dans la campagne, les liens de famille et les traditions sont universellement respectés.</p>
-        <p xml:id="para_8_223_438">Le paysan romagnol est d'une haute stature, d'une constitution ner¬veuse et forte, résistant bien aux travaux les plus pénibles, aux intem¬péries les plus dures<note type="bp">
-          <p>Sous un climat si rigoureux, les maladies les plus fréquentes sont dues aux refroi¬dissements. Ia pellagre y est rare. Voici du reste les chiffres qui résultent à ce sujet de enquéte de 179 :<figure rend="portrait" type="table">
-            <head resp="added" type="table" xml:id="figure_5">Nombre d'admis à l'hôpital et de morts par commune en 1879 (notes annexes)</head>
-            <graphic facs="#facs_238" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24257/311,2922,1954,1103/full/0/default.jpg"/>
-           </figure>
-          </p>
-         </note>. Excellent soldat, sensible à l'amour-propre, il se soumet sans difficulté aux rigueurs de la discipline, et l'esprit de corps s'éveille très vite en lui ; si l'on pouvait former un corps spécial de ces montagnards, il ne manquerait certainement pas du courage et de la témérité qui font les héros.</p>
-        <p xml:id="para_8_223_439">Presque tous les contadini qui rentrent dans leurs foyers après le service militaire ont appris à lire et à écrire, l'instruetion étant obliga¬toire à l'armée. Les communes ont bien aussi ouvert dans la campagne quelques écoles élémentaires conformément aux dispositions de la loi sur l'instruction obligatoire ; mais elles sont peu fréquentées en raison même de la situation du contadino; nous avons dit, en effet, qu'à la ferme tous, jeunes et vieux, sont occupés et que personne ne reste inactif (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>).</p>
-        <p xml:id="para_8_223_440">En général le contadino reprend, en rentrant du service, les habitu¬des traditionnelles de sa famille : il faut toutefois faire une distinction. Les jeunes gens appartenant à des familles dont les poderi sont situés près des villages se plient difficilement à la vie pleine de fatigues et de privations qu'ils ont passée auparavant et qui est restée celle de leurs parents. Beaucoup émigrent vers les villes et s'y engagent comme por¬tefaix, garçons de café ou d'hôtel, etc.</p>
-        <!--<p xml:id="para_8_223_442">COMMUNES.</p>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_234" url="#" xml:id="tble_8_219_17"/>
+</figure>
+<pb facs="#facs_235" n="220" source="2serlesouvriersde05sociuoft_0254.xml"/>
+<!--<p xml:id="para_8_220_415">NOMBRE DES JOURNÉES.</p>-->
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_235" url="#" xml:id="tble_8_220_18"/>
+</figure>
+</div>
+</div>
+<div n="003" type="section">
+<head type="section" xml:id="part_03">Éléments divers de la constitution sociale</head>
+<p xml:id="para_8_221_416">FAITS IMPORTANTS D'ORGANISATION SOCIALE;</p>
+<p xml:id="para_8_221_417">PRTICULARITÉS REMARQUABLES;</p>
+<p xml:id="para_8_221_418">APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.</p>
+<div n="001" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_17">§ 17. LA ROMAGNE TOSCANE; SOL ET POPULATION AGRICOLE.</head>
+<p xml:id="para_8_221_421"><pb facs="#facs_236" n="221" source="2serlesouvriersde05sociuoft_0255.xml"/> La partie de la province de Florence qui regarde l'Adriatique, dans lae moyenne ltalie, s'étendant entre les deux sommets des Apennins, le Mont Futa au nord et le Corsivo au sud, entre les 43° et 44° degrés de latitude nord et les 29ᵉ et 30 degrés de longitude est, est connue sous le nom spécial de Romagne 'oscane. Elle comprend à peu près le territoire qui composait la partie septentrionale de la Galla Senonia dont les anciens habitants, ancêtres de la population actuelle, turbulents et guerriers, étaient toujours en lutte avec les Étrusques et les Romains. Le dialecte que l'on y parle partout rappelle bien cette origine : ainsi la désinence in (vin, moulin, etc.) y est prononcée en, avec ce son nasal qui est le propre des Gaules d'aujourd'hui.</p>
+<p xml:id="para_8_221_422">Au moyen age, cette contrée était divisée entre les comtes Guidi, les comtes della Massa, et les comtes de Cabboli ; depuis, à diverses épor ques, elle fut absorbée par la république de Florence dont l'intérêt politique exigeait cette incursion dans le territoire situé au delà de l'Apennin et faisant partie des Etats de l'Eglise. Aujourd'hui elle com¬prend deux parties, rentrant toutes deux dans la province de Florence. La première et la plus grande comprend 12 communes, avec une po¬pulation totale de 45.335 habitants et une superficie de 1.010 kilom. carrés, formant une circonscription qui doit son nom à son chef-lieu de Roccasancasciano. La seconde fait partie de la circonscription de Florence même ; on y compte 21.500 habitants et sa superficie est de 530 kilom. carrés. Les deux parties réunies ont donc une superflcie de <pb facs="#facs_237" n="222" source="2serlesouvriersde05sociuoft_0256.xml"/> 1.540 kilomètres carrés et une population de près de 67.000habitants.</p>
+<p xml:id="para_8_222_425">La province s'étend du côté des contreforts des Apennins, domi¬née par les sommets des monts Berio (1.243), ˉCorsio (1.175). Guerno (1.133), Pollay (1.192ʳ), Cauallaro (1.029), Chioda (701), Mozaaicone (964), rebbio (614ᵐ), Melandro (670), etc. ; le sol y est très accidenté. Souvent on y rencontre de fortes collines s'a¬baissant en vallons étroits et profonds, rarement de hauts plateaux très étendus : pourtant le terrain fertile ne manque pas. Les fleuves Santerno, ˉLamone, edoio, Montone, Habbi, Bidente et Saui, qui y coulent, forment des vallées étroites qui s'élargissent peu à peu à me¬sure qu'on s'éloigne de la zone des montagnes et des hautes collines et qu'on entre dans la plaine où se termine la Romagne Toscane propre¬ment dite et où commence la région que Repetti, dans son Dictionnaire de la Toscane, appelle les Gaules Boi<note type="bp">
+<p>Notre ami, le professeur G. Mengozzi, dans son poème latin Tusce Romandiolae Ceres,  en donne cette description :<quote>
+<p>Qua caput attulit pater Apenninus ad auras,</p>
+<p>Praebet et hybernis mons Falterona cacumen Ecelsum nivibus, silvis et rupibus asprum,</p>
+<p>Panditur ad gelidos vallis conversa Trlones,</p>
+<p>Liviensis rapida alluitur que luminis unda,</p>
+<p>Oppida quod septem lapidoso intersecat alveo,</p>
+<p>Miseet et Adriaco spumosos aequore fluctus,</p>
+<p>Mœnia quâ juste surgunt antiqua Ravenne.</p>
+</quote>
+</p>
+</note>.</p>
+<p xml:id="para_8_222_426">Par sa position élevée faisant face au nord et par suite des vents du nord qui y dominent en automne et en hiver, le climat y est plu¬tôt froid et la neige reste longtemps sur la terre.</p>
+<p xml:id="para_8_222_427">Au point de vue agricole, la Romagne Toscane peut être divisée en trois ones : 1° la zone des montagnes ou des Apennins proprement dits,dans laquelle il n'y a presque pas de culture et ou dominent les bois de sapins : la seule industrie qui y soit possible est l'élevage des bes¬tiaux ; la population fixe y fait complètement défaut; 2° la zone dite du châtaignier, où l'on trouve de grands bois de chênes ; la culture du blé, de la vigne, du mûrier y commence, mais l'industrie du bétail y est encore très active ; 3° la one des hautes collines où l'exploitation de la terre atteint son plein développement ; les bois y sont rares et de peu d'étendue ; les maisons champêtres y sont très nombreuses et la campagne présente cet aspect de végétation et de culture dû à la main intelligente de l'homme.</p>
+<p xml:id="para_8_222_428">La population de cette éontrée est plutôt fière, mais de caractère loyal. Dans les villages, la corruption des mœurs et l'égoisme des <pb facs="#facs_238" n="223" source="2serlesouvriersde05sociuoft_0257.xml"/> habitants sont des faits très dignes de remarque ; dans la campagne, les liens de famille et les traditions sont universellement respectés.</p>
+<p xml:id="para_8_223_438">Le paysan romagnol est d'une haute stature, d'une constitution ner¬veuse et forte, résistant bien aux travaux les plus pénibles, aux intem¬péries les plus dures<note type="bp">
+<p>Sous un climat si rigoureux, les maladies les plus fréquentes sont dues aux refroi¬dissements. Ia pellagre y est rare. Voici du reste les chiffres qui résultent à ce sujet de enquéte de 179 :<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_5">Nombre d'admis à l'hôpital et de morts par commune en 1879 (notes annexes)</head>
+<graphic facs="#facs_238" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24257/311,2922,1954,1103/full/0/default.jpg"/>
+</figure>
+</p>
+</note>. Excellent soldat, sensible à l'amour-propre, il se soumet sans difficulté aux rigueurs de la discipline, et l'esprit de corps s'éveille très vite en lui ; si l'on pouvait former un corps spécial de ces montagnards, il ne manquerait certainement pas du courage et de la témérité qui font les héros.</p>
+<p xml:id="para_8_223_439">Presque tous les contadini qui rentrent dans leurs foyers après le service militaire ont appris à lire et à écrire, l'instruetion étant obliga¬toire à l'armée. Les communes ont bien aussi ouvert dans la campagne quelques écoles élémentaires conformément aux dispositions de la loi sur l'instruction obligatoire ; mais elles sont peu fréquentées en raison même de la situation du contadino; nous avons dit, en effet, qu'à la ferme tous, jeunes et vieux, sont occupés et que personne ne reste inactif (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>).</p>
+<p xml:id="para_8_223_440">En général le contadino reprend, en rentrant du service, les habitu¬des traditionnelles de sa famille : il faut toutefois faire une distinction. Les jeunes gens appartenant à des familles dont les poderi sont situés près des villages se plient difficilement à la vie pleine de fatigues et de privations qu'ils ont passée auparavant et qui est restée celle de leurs parents. Beaucoup émigrent vers les villes et s'y engagent comme por¬tefaix, garçons de café ou d'hôtel, etc.</p>
+<!--<p xml:id="para_8_223_442">COMMUNES.</p>
          <p xml:id="para_8_223_443">Pellagrosi.</p>
          <p xml:id="para_8_223_444">Admls ah Topltnl. Morts.</p>
          <p xml:id="para_8_223_445">Bagn0 di Romagn.................................... 2 1</p>
@@ -862,71 +861,71 @@
          <p xml:id="para_8_223_455">ocaaeacian0 ........................ ............. ) 3</p>
          <p xml:id="para_8_223_456">Sl0.. .......... .................... . .. ...... ... .. 1 9</p>
          <p xml:id="para_8_223_457">Totaux §;</p>-->
-       </div>
-       <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">§ 18. LES CULTIVATEURS ET LE CONTRAT DE COLONAGE.</head>
-        <p xml:id="para_8_224_460"><pb facs="#facs_239" n="224" source="2serlesouvriersde05sociuoft_0258.xml"/> Désirant parler de tous les individus qui travaillent la terre dans cette région, nous devons tout d'abord faire une première distinction en deux catégories. La première comprend les contadini ou coloni : c'est la plus nombreuse ; la seconde est celle des braccianti. Dans la première rentrent tous ceux qui habitent la campagne et exploitent un podere ; dans la seconde, ceux qui habitent les villages et vivent du travail de leurs bras, sans être toujours au service des contadini. Entre ces deux classes, on rencontre les meaaaioli qui participent de l'un et de l'autre : ils tiennent des contadini en ce qu'ils cultivent des terres en vertu de contrats de métayage ; ils ressemblent aux braccianti en ce que la plus grande partie de leurs moyens d'existence consiste dans des travaux payés en argent à la journée, soit au service des contadini soit autrement. C'est là une classe très importante à laquelle on doit le défrichement de la Toscane, ainsi qu'en témoigne l'histoire des con¬trats passés pour la plantation de la vigne, qui ont donné naissance au métayage. Une monographie sur ce sujet serait très intéressante et nous avons déjà recueilli presque tous les renseignements nécessaires à cet effet.</p>
-        <p xml:id="para_8_224_461">Voici, brièvement résumés, quelques détails sur les contadini. Dans presque toute la moyenne talie, le sol défriché est partagé en sections représentant autant d'unités de culture que peut en exploiter chaque famille quel que soit le nombre de ses membres, et qu'on appelle po¬deri. Le podere est le type de la culture mixte. On y cultive principa¬lement le blé, le mais, la sulla (lupinella), le mûrier, la vigne, etc... Au point de vue de l'exploitation, il est divisé en deux parties dites annuali, de manière que le sol de chacune puisse recevoir la même quantité de semence et de sulla. On observe généralement l'assolement suivant : 1 année, blé ; 2 année, mais ; 3 année, blé et sulla, celle-ci restant deux hivers à la même place, de sorte qu'on la récolte trois fois. La troisiême année, au mois de juillet et d'août, on laboure la terre en vue d'y semer du blé.</p>
-        <p xml:id="para_8_224_462">Le contadino, à son entrée dans le podere (1 mars, suivant l'usage). prend au fermier sortant le bétail et les fourrages au prix d'estimation : <pb facs="#facs_240" n="225" source="2serlesouvriersde05sociuoft_0259.xml"/> c'est ce qu'on appelle prendre les stime (de stima, estimation). Dans la langue usuelle, on distingue les stime morte qui comprennent la paille, le foin, la sulla en paillers, le fumier en tas, et les stime morte ou le bétail. Les stime morte font partie du mobilier du podere, elles varient en quantité puisqu'elles dépendent de l'activité du paysan et de la nature du climat. L'estimation est faite par deux experts, choisis l'un par le métayer sortant, l'autre par le contadino entrant. Pour les stime morte, on se préoccupe seulement de la différence entre ce qui est pris et ce qui est laissé, et le règlement s'en fait à l'époque des comptes définitifs. Pour les stime vive, au contraire, l'estimation a tous les effets d'une véritable vente entre le fermier sortant et celui qui le remplace.</p>
-        <p xml:id="para_8_225_464">Les rapports entre les propriétaires et les contadini sont régis par les lois ou par la coutume. Il faut à ce point de vue considérer d'abord quels sont les droits et les devoirs du contadino : les droits et les de¬voirs du propriétaire en découleront ensuite naturellement.</p>
-        <p xml:id="para_8_225_465">Droits du paysan. — Jouissance gratuite de la maison, des dépen¬dances, du potager, des bois, s'il y en a, au moins dans la limite des besoins domestiques (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>) ; faculté d'élever des poulets ; droit à la moitié des récoltes et à la moitié des bénéfices sur le bétail, fourni entièrement par le propriétaire.</p>
-        <p xml:id="para_8_225_466">Devoirs. — Le paysan doit exploiter le podere exclusivement à ses frais, faire les récoltes, en transporter la moitié au grenier du pro¬priétaire, pourvoir à l'entretien des constructions, combler, par le croit, les vides survenus dans le bétail. Il doit en outre garder les bois, donner au propriétaire plusieurs couples de poulets, lui verser une petite somme à titre de graeaaa (redevance) et comme repré¬sentation de l'intérêt du capital que le propriétaire immobilise sur le podere et dont le paysan lui-même profite largement.</p>
-        <p xml:id="para_8_225_467">Le métayage a pour base le partage par moitié des produits du sol, des bénéfices et des pertes. Les impôts fonciers, provinciaux, etc., sont entièrement à la charge du propriétaire. Les contributions locules ne sont supportées par moitié que si elles concernent le bétail. Les con¬tributions personnelles sont à la charge exclusive du contadino.</p>
-        <p xml:id="para_8_225_468">Ce contrat spécial rentre dans la locatio-conductio operarum, il est régi par le livre III, tit. IX, chap. v du Code civil italien qui a pour titre : Della meadria, o masseria, o colonia. Il comprend 14 arti¬cles. L'article 1647 en donne la définition; les autres peuvent être répartis en trois sections, comprenant : 1ᵉ° les dispositions relatives <pb facs="#facs_241" n="226" source="2serlesouvriersde05sociuoft_0260.xml"/> aux rapports entre le propriétaire et le contadino,; 2° celles qui re¬gardent les obligations du propriétaire ; 3° celles qui concernent les obligations du contadino. Le métayage ne cesse pas de plein droit : un acte est nécessaire (art. 1651). Si l'une des parties manque aux obligations stipulées ou si une maladie habituelle met le paysan dans l'impossibilité de travailler, le contrat peut être résolu avant l'expi¬ration du temps fixé (art. 1652). Dans tous les cas, il se résout à la fin de l'année agricole, par la mort du paysan (art. 1653). Toutefois, sile décès se produit quatre mois avant la fin de l'année, le propriétaire est tenu de laisser aux héritiers la faculté de continuer ou non l'ex¬ploitation de la ferme pendant une autre année. Les articles 1655 et suivants ne sont applicables qu'à défaut de la coutume, qui est tou¬jours très respectée<note type="bp">
-          <p>L'article 167 du Code civil italien n'a pas de correspondant dans le Code civil fran¬çais. L'article 1648 peut être comparé aux articles 1772 et 1773 du Code civil francais. L'ar¬ticle 1649 est la traduction littérale des deux articles 1763 et 1764 du Code civil français. Les articles 1650à 62 ont trait à la durée du contrat et les termes en sont identiques à ceux des articles 1774à 177I6 du Code francais. Entin les articles 1653 et 1654 n'existent point en droit francais.</p>
-         </note>.</p>
-        <p xml:id="para_8_226_470">Le propriétaire tient un livre de comptes et remet au contadino un petit livret sur lequel il inscrit, un par un, tous les articles de son propre compte. Les difficultés sur ce point sont très rares ; le pro¬priétaire n'abuse point de l'ignorance du paysan, et celui-ci de son côté ne met jamais en doute l'honnêteté de son maître. Il est vrai aussi que les éléments de compte ne sont pas très nombreux et que le paysan a bonne mémoire.</p>
-        <p xml:id="para_8_226_471">1Il est un point sur lequel le propriétaire cherche avant tout à se renseigner lorsqu'un paysan lui demande un podere, c'est le point de savoir si lafamiglia ha bisogno, c'est-à-dire si elle a des dettes envers le propriétaire qu'elle quitte et si celui-ci lui permet d'emporter la récolte : car sans cela la famille ne pourrait arriver à vivre jusqu'à la récolte de l'année suivante. C'est d'ailleurs un très ancien usage que le propriétaire n'abandonne pas son fermier et lui fasse des avances soit en nature (blé, mais) soit en argent, sur les bénéfices futurs, pourvu que le paysan soit solvable (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>).</p>
-        <p xml:id="para_8_226_472">C'est le mais qui fait la base de l'alimentation du paysan. Aussi est-il d'usage de lui laisser un certain nombre de mesures sull' aia (sur l'aire) au moment du partage des récoltes, au prix du premier marché de février qui suit, époque à laquelle les cours ne sont ni trop élevés ni trop bas.</p>
-        <p xml:id="para_8_227_474"><pb facs="#facs_242" n="227" source="2serlesouvriersde05sociuoft_0261.xml"/> De cette manière les rapports entre propriétaires et contadini sont très intimes et il n'est pas rare que, même à notre époque, certaines familles restent 20, 30 et 40 ans de suite duns le même podere ou avec le même propriétaire. Toutefois il est bien regrettable que la classe des petits propriétaires et des cultivateurs aille toujours en diminuant. La terre tend à devenir la propriété de ceux qui, pouvant faire des avances, cherchent avant tout un placement avantageux. Les petits propriétaires ne peuvent supporter le fardeauu des charges écrasantes imposées à la terre par l'Etat, les provinces et les communes. La propriété n'est point protégée suff̂samment contre les voleurs cham¬pètres; le mouvement ascensionnel vers un degré plus élevé d'ins¬truction, dont l'agriculteur pourtant n'a nullement besoin, se manifeste de plus en plus ; la propriété perd de jour en jour son caractère et sa fonction sociale, et le propriétaire aussi bien que le cultivateur sont chassés peu à peu et abandonnent de plus en plus la terre.</p>
-       </div>
-       <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">§ 19. SUR LES CONDITIONS MORALES DE LA CLASSE RURALE.</head>
-        <p xml:id="para_8_227_477">Du système d'exploitation de la terre et du fait que toute la famille réside et habite sur le lieu même de son travail on peut tirer deux considérations importantes. La première, c'est que les liens de famille sont plus forts à la campagne que dans les villages ; la seconde, c'est que tant que la famille entière travaille, sans qu'aucun de ses mem¬bres reste oisif, elle ne manque jamais du nécessaire et que son existence est assurée : deux faits qui, en somme, sont des garanties de la paix sociale.</p>
-        <p xml:id="para_8_227_478">Il ne faudrait pas en conclure toutefois que les liens de famille soient très forts. Aujourd'hui, dans les familes qui résident pres des centres habités, les jeunes gens trop souvent se révoltent contre l'u¬nion si nécessaire, dont la direction incombe naturellement au chef de famille. Il en est surtout ainsi au retour du service militaire. On ne retrouve plus alors cette scrupuleuse honnêteté, ces coutumes si sé¬vères de jadis, cette force de progrès et de résistaunce qui sont la con¬séquence d'une vérituble et sincére union. Souvent même le jeune homme refuse de continuer le métier il et abiect de son père, et ce <pb facs="#facs_243" n="228" source="2serlesouvriersde05sociuoft_0262.xml"/> sont ceux qui sont inscrits dans des sociétés politiques qui vont jus¬qu'à dédaigner la traditionnelle polenta</p>
-        <p xml:id="para_8_228_480">Heureusement jusqu'ici ces désertions n'ont pas eu grande im¬portance ; car il en est beucoup qui, par suite de malheurs domesti¬ques, se sont trouvés dans la nécessité de descendre d'un degré et de devenir braccianti. Or, il faut faire de longs sacrifices, supporter de dures fatigues pour revenir à sa situation première et remonter à la classe des contadini. Pourtant ce fait est d'autant plus digne d'at¬tention qu'il se produit plus spécialement chez ceux qui rentrent au foyer après le service militaire.</p>
-        <p xml:id="para_8_228_481">Certains observateurs croient retrouver dans la forme sinon dans le fond de la religion professée par les paysans quelque chose qui rap¬pelle le panthéisme de l'ancien pagus. Sans doute le paysan croit encore à quelque chose, contrairement à l'ouvrier habitant des vil¬lages, qui ne croit plus à rien. Chez lui existe encore l'idée du sur¬naturel, de la récompense du bien, du repos et du bien-être de la vie future, et cela suffit à lui faire supporter sa rude existence, à l'aider, à le fortifier dans son pénible travail. Du reste sa situation même, son isolement, l'uniformité de son travail le rendent fataliste et font qu'il accepte le bien ou le mal presque avec la même indiffé¬rence. Il y à quelques mois, un de nos paysans, un peu boiteux, bon ouvrier, qui savait très bien lire et écrire, surpris par une maladie dans le champ même où il travaillait, attendit le soir pour se mettre au lit ; dans la nuit, la maladie prit un caractère de réelle gravité et tandis que son frère allait chercher le médecin, le brave homme, sentant sa fin prochaine, fixa les yeux sur des images sacrées placées devant lui, et le chapelet dans la main, mourut tranquillement, as¬sisté uniquement de sa belle-sœur dont il releva le courage en disant que le bon Dieu le recevrait dans sa miséricorde et mettrait fin à ses souffrancesl</p>
-       </div>
-       <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_20">§ 20. Notes COMPLÉMENTAIRES SUR L'HISTOIRE DE LA FAMILLE DE 1868 A 1881.</head>
-        <p xml:id="para_8_228_484">La famille C***, que nous venons d'étudier en 1878-79, eut, dans les dix années qui précédèrent, une histoire fort intéressante. A une série de malheurs peu ordinaires, elle opposa une énergie invincible, sûre qu'elle était que le propriétaire ne l'abandonnerait pas.</p>
-        <p xml:id="para_8_229_485"><pb facs="#facs_244" n="229" source="2serlesouvriersde05sociuoft_0263.xml"/> Le contrat de colonage relatif au podere ˉCuaolano fut passé entre les propriétaires et la famille C*** en 1866 et entra en vigueur en mars 1867. La famille était alors composée du père et de la mère, âgés res¬pectivement de cinquante-quatre et cinquante ans, et de quatre enfants parmi lesquels Joseph et Rosine ; déjà elle avait adopté Vespasien M**, âgé alors de treie ans.</p>
-        <p xml:id="para_8_229_486">La famille avait dû, par suite de pertes subies sur le bétail, aban¬donner la ferme qu'elle cultivait auparavant, et laisser au propriétaire sa récolte de froment comme compensation partielle de ses dettes. Aussi le nouveau propriétaire ne voulut-il point, tout d'abord, passer contrat avec les C*** ; mais un frere d'André, le chef de famille, qui jouissait d'un grand crédit dans la contrée, se porta garant des dettes à raison des avances que pourrait faire le propriétaire, et alors, les renseignements recueillis sur la moralité et les habitudes de travail étant très favorables, le contrat fut conclu.</p>
-        <p xml:id="para_8_229_487">Les livres du propriétaire (§<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1</ref> et <ref target="#part_03_01_17" type="renvoi_int_mono">17</ref>) enregistrent directement tout ce qui se rapporte au métayage ; ils sont aussi un témoignage indirect de tout ce qui a trait aux phases principales de l'existence de la fa¬mille. Si une avance y est notée on indique également le motif qui l'a rendue nécessaire. Ainsi, en se reportant aux comptes annuels, on a un tableau des principaux événements auxquels la famille a été mêlée.</p>
-        <p xml:id="para_8_229_488">Les stime morte reçues à l'entrée dans la ferme atteignaient une valeur de 257ᶠ10 ; les stime oive, 642ᶠ91.</p>
-        <p xml:id="para_8_229_489">La situation de la famille était très misérable, tout lui manquait.</p>
-        <p xml:id="para_8_229_490">Si, à l'exemple de bien d'autres, tombées dans une situation sem¬blable, elle s'était résignée à aller augmenter dans le pays la classe déjà si nombreuse des braccianti, que de souffrances elle aurait endu¬réesl C'eût été pour elle l'hiver à passer dans une maison vide de tout, l'hiver, avec ses soixante-cinq jours, en moyenne, de pluie, de neige, de gelée...</p>
-        <p xml:id="para_8_229_491">Le propriétaire avait promis de l'aider et il tint parole. Du 1janvier au 26 juin, il lui fit des avances considérables qui devaient être res¬tituées à la récolte. En outreillui acheta deux jeunes beufs (manol), un petit cheval, deux chèvres et lui fournit même du travail à la journée.</p>
-        <p xml:id="para_8_229_492">Il n'y eut pas de privations auxquelles la famille, pleine de confiance dans l'avenir, ne consentit à s'assujettir. On mangea presque tous les jours la polenta, parfois sans sel, en dépit des reproches du proprié¬taire. On restreignit le plus possible l'usage des chaussures et souvent je surpris les jeunes femmes marchant déchaussées sur la neige et res<pb facs="#facs_245" n="230" source="2serlesouvriersde05sociuoft_0264.xml"/>tant ainsi à protéger les bois contre les voleurs; on but de l'eau jus¬qu'à la récolte, époque à laquelle le propriétaire donna un baril de vin de 33,429 pour soutenir les travailleurs au milieu des grandes fa¬tigues.</p>
-        <p xml:id="para_8_230_494">En juin 1867, André C** le chef de la famille, tomba d'un cerisier et mourut. Le propriétaire avança l'argent nécessaire pour ses mo¬destes funérailles. Tout le monde était alors convaincu que la fa¬mille ne comptant plus que deux hommes, tous deux très jeunes, la colonie allait se dissoudre; mais le propriétaire, qui savait bien pourtant que les avances par lui faites s'élevaient déjà à près de 400ᶠ, tint ferme. Pour une famille de braccianti, il serait certainement impos¬sible de payer pareille dette. Mais l'énergie et l'activité de la famille ne trompa pas l'attente du propriétaire. Les deux hommes ne restèrent point seuls ; les sœurs de Joseph, Rosine et Menghina leur vinrent en aide et travaillèrent dans les champs avec eux ; d'un autre côté, grâce aux soins intelligents de la mère, le bétail ne tarda pas à prospérer.</p>
-        <p xml:id="para_8_230_495">Les comptes annuels permettent de constater comment furent réa¬lisées les prévisions du propriétaire. Nous les avons résumés plus loin en un seul tableau.</p>
-        <p xml:id="para_8_230_496">Les avances faites par le propriétaire la première année et s'élevant à 351P,91 purent dès le premier compte être réduites à 157,20 : deux ou trois années comme celle-là et la dette du paysan se transformerait en créance. De son côté, le contadino avait, avec une grande partie de sa part de blé et de vin, payé plus de la moitié de ce qu'il devait au pro¬priétaire précédent. Sans doute les peines et les privations de la fa¬mille ne diminuêrent que très peu, mais l'espoir de payer ses dettes et de conquérir une situation très honorable s'accrut en elle. Jamais il ne fut démenti par les faits.</p>
-        <p xml:id="para_8_230_497">En 1869, la dette envers l'ancien propriétaire fut presque totalement payée et le compte de 1870 se termina par un solde en faveur du contadino, les privations et les peines de la famille furent, dès lors, de beaucoup atténuées.</p>
-        <p xml:id="para_8_230_498">C'est un fait vraiment digne de remarque qu'en moins de trois ans cette famille est parvenue à amortir complètement sa dette, grâce aux peines et aux privations qu'elle s'est imposées. Semblable résultat eut¬il jamais été atteint par une famille de braccianti</p>
-        <p xml:id="para_8_230_499">L'année 1871 fut moins heureuse, les récoltes ne réussirent point, le bétail fut atteint de maladie, si bien que le propriétaire dut de nou¬veau faire de fortes avances qui ne purent être remboursées de suite.</p>
-        <p xml:id="para_8_231_500"><pb facs="#facs_246" n="231" source="2serlesouvriersde05sociuoft_0265.xml"/> Depuis cette époque, les années s'écoulèrent tristes et pénibles pour le propriétaire et pour la famille C***. Des malheurs intimes empêchè¬rent que le système pourtant si utile des comptes annuels fût réguliè¬rement continué. Aussi le compte suivant comprend-il les années 1872, 1873 et 1874. Pendant cette période, la famille eut d'ailleurs à subir diverses modifications : en août 1872, la mêre de famille mourut et en 1873 la mort vint frapper sa fille Menghina. Pour réparer ces pertes, Joseph, devenu chef de famille, épousa au mois d'avril Thérèse S*ᵉᵉ qui en avril 1874 donna le jour à un fils. On lui donna le nom de Jean, en vertu de l'usage qui veut que l'enfant porte le nom du saint dont on célèbre la fête le jour de sa naissance.</p>
-        <p xml:id="para_8_231_501">Les deux décès dans la faumille et le mariage de Joseph furent l'oc¬casion d'avances assez considérables en argent de la part du proprié¬taire ; elles atteignirent 170 francs. La situation matérielle de la famille se maintint cependant malgré les nouveaux frais occasionnés par la naissance d'un second fils en 1875, et le départ d'une sœur de Joseph, Christine, qui se maria peu de temps après.</p>
-        <p xml:id="para_8_231_502">Aucun fait saillant ne marqua les années suivantes ; mais 1880 fut très malheureux pour la famille C***. Vespasien étant tombé sur la neige glacée se blessa au genou; tous les conseils, toutes les prescriptions furent inutiles, on ne put le guérir ; enfin lui-même il demanda à être porté à l'hôpital où, surpris par la variole, il mourut au mois d'août.</p>
-        <p xml:id="para_8_231_503">A ce malheur qui privait la famille de la moitié de sa force et de sa direction, vint s'ajouter, dans les premiers jours de juillet, la perte de la majeure partie des récoltes qu'une grêle terrible anéantit au moment où l'on parlait de commencer la moisson, engloutissant ainsi les fruits d'une année entière de travail.</p>
-        <p xml:id="para_8_231_504">Ces deux coups si pénibles et si imprévus abattirent le courage de Joseph. Il lui était impossible de soutenir le podere à lui seul. Aussi demanda-t-il une ferme plus petite, contigie au Cuaolano. Le pro¬priétaire eut beaucoup de peine à le convaincre que cette ferme, dans laquelle il n'y avait de travail que pour un homme et une femme, ne suffirait point à le nourrir avec sa famille; que de plus, en raison de la situation des terres, il étuit impossible d'y entretenir, outre des bœufs de travail, plus d'un âne et d'un porc ; que par suite il ne pou¬vait espérer y subvenir, même en travaillant beaucoup, aux dépenses de sa famille, ni surtout réaliser avec le bétauil les bénéfices qui avaient été la cause de sa prospérité dans le passé.</p>
-        <p xml:id="para_8_231_505">Convaincu par ces observations, Josepb acceptu de prendre à co<pb facs="#facs_247" n="232" source="2serlesouvriersde05sociuoft_0266.xml"/>lonie partiaire un autre podere, également voisin du premier, où il put avec sa famille conserver ses bonnes habitudes de travail, grâce aux conditions avantageuses qui lui furent faites.</p>
-        <p xml:id="para_8_232_507">Dans cette même année, peut-être par suite des privations que la famille s'imposa pour suppléer au défaut de récolte, peut-être aussi à cause du changement de climat, des fièvre survinrent auxquelles la femme de Joseph succomba le 1ᵉʳ novembre.</p>
-        <p xml:id="para_8_232_508">Telle est en résumé l'histoire de la famille C*** pendant cette période de 14 ans.</p>
-        <p xml:id="para_8_232_509">Entrée en 1867 au podere Cuaaolan, elle comptait alors sept per¬sonnes à nourrir, sa situation était déjà des plus précaires, elle eut encore à subir des infortunes de toute sorte, souvent fort lourdes, et cependant elle parvint à sa sortie de la ferme, à être créancière d'une somme assez ronde, et jouissant d'une situation désormais inébran¬lable, car depuis, Joseph, son chef, est toujours demeuré dans le même podere qu'il améliore de plus en plus  <pb facs="#facs_248" n="233" source="2serlesouvriersde05sociuoft_0267.xml"/>.</p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_6">Résumé des comptes arrêtés entre la famille C*** et le propriétaire, de 1868 à 1881 [notes annexes]</head>
-         <graphic facs="#facs_247" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24266/119,2007,2250,1919/full/0/default.jpg" xml:id="tble_8_232_19"/>
-        </figure>
-        <figure type="table">
-         <!-- figure sur 2 pages -->
-         <head resp="original" type="table" xml:id="figure_7">Résumé des comptes arrêtés entre la famille C*** et le propriétaire, de 1868 à 1881 [notes annexes]</head>
-         <graphic facs="#facs_248" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24267/135,407,2326,3262/full/0/default.jpg" xml:id="tble_8_233_20"/>
-        </figure>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </body>
- </text>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_18">§ 18. LES CULTIVATEURS ET LE CONTRAT DE COLONAGE.</head>
+<p xml:id="para_8_224_460"><pb facs="#facs_239" n="224" source="2serlesouvriersde05sociuoft_0258.xml"/> Désirant parler de tous les individus qui travaillent la terre dans cette région, nous devons tout d'abord faire une première distinction en deux catégories. La première comprend les contadini ou coloni : c'est la plus nombreuse ; la seconde est celle des braccianti. Dans la première rentrent tous ceux qui habitent la campagne et exploitent un podere ; dans la seconde, ceux qui habitent les villages et vivent du travail de leurs bras, sans être toujours au service des contadini. Entre ces deux classes, on rencontre les meaaaioli qui participent de l'un et de l'autre : ils tiennent des contadini en ce qu'ils cultivent des terres en vertu de contrats de métayage ; ils ressemblent aux braccianti en ce que la plus grande partie de leurs moyens d'existence consiste dans des travaux payés en argent à la journée, soit au service des contadini soit autrement. C'est là une classe très importante à laquelle on doit le défrichement de la Toscane, ainsi qu'en témoigne l'histoire des con¬trats passés pour la plantation de la vigne, qui ont donné naissance au métayage. Une monographie sur ce sujet serait très intéressante et nous avons déjà recueilli presque tous les renseignements nécessaires à cet effet.</p>
+<p xml:id="para_8_224_461">Voici, brièvement résumés, quelques détails sur les contadini. Dans presque toute la moyenne talie, le sol défriché est partagé en sections représentant autant d'unités de culture que peut en exploiter chaque famille quel que soit le nombre de ses membres, et qu'on appelle po¬deri. Le podere est le type de la culture mixte. On y cultive principa¬lement le blé, le mais, la sulla (lupinella), le mûrier, la vigne, etc... Au point de vue de l'exploitation, il est divisé en deux parties dites annuali, de manière que le sol de chacune puisse recevoir la même quantité de semence et de sulla. On observe généralement l'assolement suivant : 1 année, blé ; 2 année, mais ; 3 année, blé et sulla, celle-ci restant deux hivers à la même place, de sorte qu'on la récolte trois fois. La troisiême année, au mois de juillet et d'août, on laboure la terre en vue d'y semer du blé.</p>
+<p xml:id="para_8_224_462">Le contadino, à son entrée dans le podere (1 mars, suivant l'usage). prend au fermier sortant le bétail et les fourrages au prix d'estimation : <pb facs="#facs_240" n="225" source="2serlesouvriersde05sociuoft_0259.xml"/> c'est ce qu'on appelle prendre les stime (de stima, estimation). Dans la langue usuelle, on distingue les stime morte qui comprennent la paille, le foin, la sulla en paillers, le fumier en tas, et les stime morte ou le bétail. Les stime morte font partie du mobilier du podere, elles varient en quantité puisqu'elles dépendent de l'activité du paysan et de la nature du climat. L'estimation est faite par deux experts, choisis l'un par le métayer sortant, l'autre par le contadino entrant. Pour les stime morte, on se préoccupe seulement de la différence entre ce qui est pris et ce qui est laissé, et le règlement s'en fait à l'époque des comptes définitifs. Pour les stime vive, au contraire, l'estimation a tous les effets d'une véritable vente entre le fermier sortant et celui qui le remplace.</p>
+<p xml:id="para_8_225_464">Les rapports entre les propriétaires et les contadini sont régis par les lois ou par la coutume. Il faut à ce point de vue considérer d'abord quels sont les droits et les devoirs du contadino : les droits et les de¬voirs du propriétaire en découleront ensuite naturellement.</p>
+<p xml:id="para_8_225_465">Droits du paysan. — Jouissance gratuite de la maison, des dépen¬dances, du potager, des bois, s'il y en a, au moins dans la limite des besoins domestiques (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>) ; faculté d'élever des poulets ; droit à la moitié des récoltes et à la moitié des bénéfices sur le bétail, fourni entièrement par le propriétaire.</p>
+<p xml:id="para_8_225_466">Devoirs. — Le paysan doit exploiter le podere exclusivement à ses frais, faire les récoltes, en transporter la moitié au grenier du pro¬priétaire, pourvoir à l'entretien des constructions, combler, par le croit, les vides survenus dans le bétail. Il doit en outre garder les bois, donner au propriétaire plusieurs couples de poulets, lui verser une petite somme à titre de graeaaa (redevance) et comme repré¬sentation de l'intérêt du capital que le propriétaire immobilise sur le podere et dont le paysan lui-même profite largement.</p>
+<p xml:id="para_8_225_467">Le métayage a pour base le partage par moitié des produits du sol, des bénéfices et des pertes. Les impôts fonciers, provinciaux, etc., sont entièrement à la charge du propriétaire. Les contributions locules ne sont supportées par moitié que si elles concernent le bétail. Les con¬tributions personnelles sont à la charge exclusive du contadino.</p>
+<p xml:id="para_8_225_468">Ce contrat spécial rentre dans la locatio-conductio operarum, il est régi par le livre III, tit. IX, chap. v du Code civil italien qui a pour titre : Della meadria, o masseria, o colonia. Il comprend 14 arti¬cles. L'article 1647 en donne la définition; les autres peuvent être répartis en trois sections, comprenant : 1ᵉ° les dispositions relatives <pb facs="#facs_241" n="226" source="2serlesouvriersde05sociuoft_0260.xml"/> aux rapports entre le propriétaire et le contadino,; 2° celles qui re¬gardent les obligations du propriétaire ; 3° celles qui concernent les obligations du contadino. Le métayage ne cesse pas de plein droit : un acte est nécessaire (art. 1651). Si l'une des parties manque aux obligations stipulées ou si une maladie habituelle met le paysan dans l'impossibilité de travailler, le contrat peut être résolu avant l'expi¬ration du temps fixé (art. 1652). Dans tous les cas, il se résout à la fin de l'année agricole, par la mort du paysan (art. 1653). Toutefois, sile décès se produit quatre mois avant la fin de l'année, le propriétaire est tenu de laisser aux héritiers la faculté de continuer ou non l'ex¬ploitation de la ferme pendant une autre année. Les articles 1655 et suivants ne sont applicables qu'à défaut de la coutume, qui est tou¬jours très respectée<note type="bp">
+<p>L'article 167 du Code civil italien n'a pas de correspondant dans le Code civil fran¬çais. L'article 1648 peut être comparé aux articles 1772 et 1773 du Code civil francais. L'ar¬ticle 1649 est la traduction littérale des deux articles 1763 et 1764 du Code civil français. Les articles 1650à 62 ont trait à la durée du contrat et les termes en sont identiques à ceux des articles 1774à 177I6 du Code francais. Entin les articles 1653 et 1654 n'existent point en droit francais.</p>
+</note>.</p>
+<p xml:id="para_8_226_470">Le propriétaire tient un livre de comptes et remet au contadino un petit livret sur lequel il inscrit, un par un, tous les articles de son propre compte. Les difficultés sur ce point sont très rares ; le pro¬priétaire n'abuse point de l'ignorance du paysan, et celui-ci de son côté ne met jamais en doute l'honnêteté de son maître. Il est vrai aussi que les éléments de compte ne sont pas très nombreux et que le paysan a bonne mémoire.</p>
+<p xml:id="para_8_226_471">1Il est un point sur lequel le propriétaire cherche avant tout à se renseigner lorsqu'un paysan lui demande un podere, c'est le point de savoir si lafamiglia ha bisogno, c'est-à-dire si elle a des dettes envers le propriétaire qu'elle quitte et si celui-ci lui permet d'emporter la récolte : car sans cela la famille ne pourrait arriver à vivre jusqu'à la récolte de l'année suivante. C'est d'ailleurs un très ancien usage que le propriétaire n'abandonne pas son fermier et lui fasse des avances soit en nature (blé, mais) soit en argent, sur les bénéfices futurs, pourvu que le paysan soit solvable (<ref target="#part_02_04_12" type="renvoi_int_mono">§ 12</ref>).</p>
+<p xml:id="para_8_226_472">C'est le mais qui fait la base de l'alimentation du paysan. Aussi est-il d'usage de lui laisser un certain nombre de mesures sull' aia (sur l'aire) au moment du partage des récoltes, au prix du premier marché de février qui suit, époque à laquelle les cours ne sont ni trop élevés ni trop bas.</p>
+<p xml:id="para_8_227_474"><pb facs="#facs_242" n="227" source="2serlesouvriersde05sociuoft_0261.xml"/> De cette manière les rapports entre propriétaires et contadini sont très intimes et il n'est pas rare que, même à notre époque, certaines familles restent 20, 30 et 40 ans de suite duns le même podere ou avec le même propriétaire. Toutefois il est bien regrettable que la classe des petits propriétaires et des cultivateurs aille toujours en diminuant. La terre tend à devenir la propriété de ceux qui, pouvant faire des avances, cherchent avant tout un placement avantageux. Les petits propriétaires ne peuvent supporter le fardeauu des charges écrasantes imposées à la terre par l'Etat, les provinces et les communes. La propriété n'est point protégée suff̂samment contre les voleurs cham¬pètres; le mouvement ascensionnel vers un degré plus élevé d'ins¬truction, dont l'agriculteur pourtant n'a nullement besoin, se manifeste de plus en plus ; la propriété perd de jour en jour son caractère et sa fonction sociale, et le propriétaire aussi bien que le cultivateur sont chassés peu à peu et abandonnent de plus en plus la terre.</p>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_19">§ 19. SUR LES CONDITIONS MORALES DE LA CLASSE RURALE.</head>
+<p xml:id="para_8_227_477">Du système d'exploitation de la terre et du fait que toute la famille réside et habite sur le lieu même de son travail on peut tirer deux considérations importantes. La première, c'est que les liens de famille sont plus forts à la campagne que dans les villages ; la seconde, c'est que tant que la famille entière travaille, sans qu'aucun de ses mem¬bres reste oisif, elle ne manque jamais du nécessaire et que son existence est assurée : deux faits qui, en somme, sont des garanties de la paix sociale.</p>
+<p xml:id="para_8_227_478">Il ne faudrait pas en conclure toutefois que les liens de famille soient très forts. Aujourd'hui, dans les familes qui résident pres des centres habités, les jeunes gens trop souvent se révoltent contre l'u¬nion si nécessaire, dont la direction incombe naturellement au chef de famille. Il en est surtout ainsi au retour du service militaire. On ne retrouve plus alors cette scrupuleuse honnêteté, ces coutumes si sé¬vères de jadis, cette force de progrès et de résistaunce qui sont la con¬séquence d'une vérituble et sincére union. Souvent même le jeune homme refuse de continuer le métier il et abiect de son père, et ce <pb facs="#facs_243" n="228" source="2serlesouvriersde05sociuoft_0262.xml"/> sont ceux qui sont inscrits dans des sociétés politiques qui vont jus¬qu'à dédaigner la traditionnelle polenta</p>
+<p xml:id="para_8_228_480">Heureusement jusqu'ici ces désertions n'ont pas eu grande im¬portance ; car il en est beucoup qui, par suite de malheurs domesti¬ques, se sont trouvés dans la nécessité de descendre d'un degré et de devenir braccianti. Or, il faut faire de longs sacrifices, supporter de dures fatigues pour revenir à sa situation première et remonter à la classe des contadini. Pourtant ce fait est d'autant plus digne d'at¬tention qu'il se produit plus spécialement chez ceux qui rentrent au foyer après le service militaire.</p>
+<p xml:id="para_8_228_481">Certains observateurs croient retrouver dans la forme sinon dans le fond de la religion professée par les paysans quelque chose qui rap¬pelle le panthéisme de l'ancien pagus. Sans doute le paysan croit encore à quelque chose, contrairement à l'ouvrier habitant des vil¬lages, qui ne croit plus à rien. Chez lui existe encore l'idée du sur¬naturel, de la récompense du bien, du repos et du bien-être de la vie future, et cela suffit à lui faire supporter sa rude existence, à l'aider, à le fortifier dans son pénible travail. Du reste sa situation même, son isolement, l'uniformité de son travail le rendent fataliste et font qu'il accepte le bien ou le mal presque avec la même indiffé¬rence. Il y à quelques mois, un de nos paysans, un peu boiteux, bon ouvrier, qui savait très bien lire et écrire, surpris par une maladie dans le champ même où il travaillait, attendit le soir pour se mettre au lit ; dans la nuit, la maladie prit un caractère de réelle gravité et tandis que son frère allait chercher le médecin, le brave homme, sentant sa fin prochaine, fixa les yeux sur des images sacrées placées devant lui, et le chapelet dans la main, mourut tranquillement, as¬sisté uniquement de sa belle-sœur dont il releva le courage en disant que le bon Dieu le recevrait dans sa miséricorde et mettrait fin à ses souffrancesl</p>
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_20">§ 20. Notes COMPLÉMENTAIRES SUR L'HISTOIRE DE LA FAMILLE DE 1868 A 1881.</head>
+<p xml:id="para_8_228_484">La famille C***, que nous venons d'étudier en 1878-79, eut, dans les dix années qui précédèrent, une histoire fort intéressante. A une série de malheurs peu ordinaires, elle opposa une énergie invincible, sûre qu'elle était que le propriétaire ne l'abandonnerait pas.</p>
+<p xml:id="para_8_229_485"><pb facs="#facs_244" n="229" source="2serlesouvriersde05sociuoft_0263.xml"/> Le contrat de colonage relatif au podere ˉCuaolano fut passé entre les propriétaires et la famille C*** en 1866 et entra en vigueur en mars 1867. La famille était alors composée du père et de la mère, âgés res¬pectivement de cinquante-quatre et cinquante ans, et de quatre enfants parmi lesquels Joseph et Rosine ; déjà elle avait adopté Vespasien M**, âgé alors de treie ans.</p>
+<p xml:id="para_8_229_486">La famille avait dû, par suite de pertes subies sur le bétail, aban¬donner la ferme qu'elle cultivait auparavant, et laisser au propriétaire sa récolte de froment comme compensation partielle de ses dettes. Aussi le nouveau propriétaire ne voulut-il point, tout d'abord, passer contrat avec les C*** ; mais un frere d'André, le chef de famille, qui jouissait d'un grand crédit dans la contrée, se porta garant des dettes à raison des avances que pourrait faire le propriétaire, et alors, les renseignements recueillis sur la moralité et les habitudes de travail étant très favorables, le contrat fut conclu.</p>
+<p xml:id="para_8_229_487">Les livres du propriétaire (§<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1</ref> et <ref target="#part_03_01_17" type="renvoi_int_mono">17</ref>) enregistrent directement tout ce qui se rapporte au métayage ; ils sont aussi un témoignage indirect de tout ce qui a trait aux phases principales de l'existence de la fa¬mille. Si une avance y est notée on indique également le motif qui l'a rendue nécessaire. Ainsi, en se reportant aux comptes annuels, on a un tableau des principaux événements auxquels la famille a été mêlée.</p>
+<p xml:id="para_8_229_488">Les stime morte reçues à l'entrée dans la ferme atteignaient une valeur de 257ᶠ10 ; les stime oive, 642ᶠ91.</p>
+<p xml:id="para_8_229_489">La situation de la famille était très misérable, tout lui manquait.</p>
+<p xml:id="para_8_229_490">Si, à l'exemple de bien d'autres, tombées dans une situation sem¬blable, elle s'était résignée à aller augmenter dans le pays la classe déjà si nombreuse des braccianti, que de souffrances elle aurait endu¬réesl C'eût été pour elle l'hiver à passer dans une maison vide de tout, l'hiver, avec ses soixante-cinq jours, en moyenne, de pluie, de neige, de gelée...</p>
+<p xml:id="para_8_229_491">Le propriétaire avait promis de l'aider et il tint parole. Du 1janvier au 26 juin, il lui fit des avances considérables qui devaient être res¬tituées à la récolte. En outreillui acheta deux jeunes beufs (manol), un petit cheval, deux chèvres et lui fournit même du travail à la journée.</p>
+<p xml:id="para_8_229_492">Il n'y eut pas de privations auxquelles la famille, pleine de confiance dans l'avenir, ne consentit à s'assujettir. On mangea presque tous les jours la polenta, parfois sans sel, en dépit des reproches du proprié¬taire. On restreignit le plus possible l'usage des chaussures et souvent je surpris les jeunes femmes marchant déchaussées sur la neige et res<pb facs="#facs_245" n="230" source="2serlesouvriersde05sociuoft_0264.xml"/>tant ainsi à protéger les bois contre les voleurs; on but de l'eau jus¬qu'à la récolte, époque à laquelle le propriétaire donna un baril de vin de 33,429 pour soutenir les travailleurs au milieu des grandes fa¬tigues.</p>
+<p xml:id="para_8_230_494">En juin 1867, André C** le chef de la famille, tomba d'un cerisier et mourut. Le propriétaire avança l'argent nécessaire pour ses mo¬destes funérailles. Tout le monde était alors convaincu que la fa¬mille ne comptant plus que deux hommes, tous deux très jeunes, la colonie allait se dissoudre; mais le propriétaire, qui savait bien pourtant que les avances par lui faites s'élevaient déjà à près de 400ᶠ, tint ferme. Pour une famille de braccianti, il serait certainement impos¬sible de payer pareille dette. Mais l'énergie et l'activité de la famille ne trompa pas l'attente du propriétaire. Les deux hommes ne restèrent point seuls ; les sœurs de Joseph, Rosine et Menghina leur vinrent en aide et travaillèrent dans les champs avec eux ; d'un autre côté, grâce aux soins intelligents de la mère, le bétail ne tarda pas à prospérer.</p>
+<p xml:id="para_8_230_495">Les comptes annuels permettent de constater comment furent réa¬lisées les prévisions du propriétaire. Nous les avons résumés plus loin en un seul tableau.</p>
+<p xml:id="para_8_230_496">Les avances faites par le propriétaire la première année et s'élevant à 351P,91 purent dès le premier compte être réduites à 157,20 : deux ou trois années comme celle-là et la dette du paysan se transformerait en créance. De son côté, le contadino avait, avec une grande partie de sa part de blé et de vin, payé plus de la moitié de ce qu'il devait au pro¬priétaire précédent. Sans doute les peines et les privations de la fa¬mille ne diminuêrent que très peu, mais l'espoir de payer ses dettes et de conquérir une situation très honorable s'accrut en elle. Jamais il ne fut démenti par les faits.</p>
+<p xml:id="para_8_230_497">En 1869, la dette envers l'ancien propriétaire fut presque totalement payée et le compte de 1870 se termina par un solde en faveur du contadino, les privations et les peines de la famille furent, dès lors, de beaucoup atténuées.</p>
+<p xml:id="para_8_230_498">C'est un fait vraiment digne de remarque qu'en moins de trois ans cette famille est parvenue à amortir complètement sa dette, grâce aux peines et aux privations qu'elle s'est imposées. Semblable résultat eut¬il jamais été atteint par une famille de braccianti</p>
+<p xml:id="para_8_230_499">L'année 1871 fut moins heureuse, les récoltes ne réussirent point, le bétail fut atteint de maladie, si bien que le propriétaire dut de nou¬veau faire de fortes avances qui ne purent être remboursées de suite.</p>
+<p xml:id="para_8_231_500"><pb facs="#facs_246" n="231" source="2serlesouvriersde05sociuoft_0265.xml"/> Depuis cette époque, les années s'écoulèrent tristes et pénibles pour le propriétaire et pour la famille C***. Des malheurs intimes empêchè¬rent que le système pourtant si utile des comptes annuels fût réguliè¬rement continué. Aussi le compte suivant comprend-il les années 1872, 1873 et 1874. Pendant cette période, la famille eut d'ailleurs à subir diverses modifications : en août 1872, la mêre de famille mourut et en 1873 la mort vint frapper sa fille Menghina. Pour réparer ces pertes, Joseph, devenu chef de famille, épousa au mois d'avril Thérèse S*ᵉᵉ qui en avril 1874 donna le jour à un fils. On lui donna le nom de Jean, en vertu de l'usage qui veut que l'enfant porte le nom du saint dont on célèbre la fête le jour de sa naissance.</p>
+<p xml:id="para_8_231_501">Les deux décès dans la faumille et le mariage de Joseph furent l'oc¬casion d'avances assez considérables en argent de la part du proprié¬taire ; elles atteignirent 170 francs. La situation matérielle de la famille se maintint cependant malgré les nouveaux frais occasionnés par la naissance d'un second fils en 1875, et le départ d'une sœur de Joseph, Christine, qui se maria peu de temps après.</p>
+<p xml:id="para_8_231_502">Aucun fait saillant ne marqua les années suivantes ; mais 1880 fut très malheureux pour la famille C***. Vespasien étant tombé sur la neige glacée se blessa au genou; tous les conseils, toutes les prescriptions furent inutiles, on ne put le guérir ; enfin lui-même il demanda à être porté à l'hôpital où, surpris par la variole, il mourut au mois d'août.</p>
+<p xml:id="para_8_231_503">A ce malheur qui privait la famille de la moitié de sa force et de sa direction, vint s'ajouter, dans les premiers jours de juillet, la perte de la majeure partie des récoltes qu'une grêle terrible anéantit au moment où l'on parlait de commencer la moisson, engloutissant ainsi les fruits d'une année entière de travail.</p>
+<p xml:id="para_8_231_504">Ces deux coups si pénibles et si imprévus abattirent le courage de Joseph. Il lui était impossible de soutenir le podere à lui seul. Aussi demanda-t-il une ferme plus petite, contigie au Cuaolano. Le pro¬priétaire eut beaucoup de peine à le convaincre que cette ferme, dans laquelle il n'y avait de travail que pour un homme et une femme, ne suffirait point à le nourrir avec sa famille; que de plus, en raison de la situation des terres, il étuit impossible d'y entretenir, outre des bœufs de travail, plus d'un âne et d'un porc ; que par suite il ne pou¬vait espérer y subvenir, même en travaillant beaucoup, aux dépenses de sa famille, ni surtout réaliser avec le bétauil les bénéfices qui avaient été la cause de sa prospérité dans le passé.</p>
+<p xml:id="para_8_231_505">Convaincu par ces observations, Josepb acceptu de prendre à co<pb facs="#facs_247" n="232" source="2serlesouvriersde05sociuoft_0266.xml"/>lonie partiaire un autre podere, également voisin du premier, où il put avec sa famille conserver ses bonnes habitudes de travail, grâce aux conditions avantageuses qui lui furent faites.</p>
+<p xml:id="para_8_232_507">Dans cette même année, peut-être par suite des privations que la famille s'imposa pour suppléer au défaut de récolte, peut-être aussi à cause du changement de climat, des fièvre survinrent auxquelles la femme de Joseph succomba le 1ᵉʳ novembre.</p>
+<p xml:id="para_8_232_508">Telle est en résumé l'histoire de la famille C*** pendant cette période de 14 ans.</p>
+<p xml:id="para_8_232_509">Entrée en 1867 au podere Cuaaolan, elle comptait alors sept per¬sonnes à nourrir, sa situation était déjà des plus précaires, elle eut encore à subir des infortunes de toute sorte, souvent fort lourdes, et cependant elle parvint à sa sortie de la ferme, à être créancière d'une somme assez ronde, et jouissant d'une situation désormais inébran¬lable, car depuis, Joseph, son chef, est toujours demeuré dans le même podere qu'il améliore de plus en plus  <pb facs="#facs_248" n="233" source="2serlesouvriersde05sociuoft_0267.xml"/>.</p>
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_6">Résumé des comptes arrêtés entre la famille C*** et le propriétaire, de 1868 à 1881 [notes annexes]</head>
+<graphic facs="#facs_247" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24266/119,2007,2250,1919/full/0/default.jpg" xml:id="tble_8_232_19"/>
+</figure>
+<figure type="table">
+<!-- figure sur 2 pages -->
+<head resp="original" type="table" xml:id="figure_7">Résumé des comptes arrêtés entre la famille C*** et le propriétaire, de 1868 à 1881 [notes annexes]</head>
+<graphic facs="#facs_248" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24267/135,407,2326,3262/full/0/default.jpg" xml:id="tble_8_233_20"/>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</text>
 </TEI>

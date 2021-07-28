@@ -1,468 +1,467 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie-->
-<TEI xml:id="ID-061a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title>
+<!--monographie--><TEI xml:id="ID-061a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>
      Les Ouvriers des Deux Mondes - série 2, volume 2 - Transcription
     </title>
-    <respStmt>
-     <persName>
-      <forename>
+<respStmt>
+<persName>
+<forename>
        Alix
       </forename>
-      <surname>
+<surname>
        Chagué
       </surname>
-      <affiliation>
+<affiliation>
        ingénieure de recherche et de développement,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       acquisition et structuration initiale des textes
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Jean-Damien
       </forename>
-      <surname>
+<surname>
        Généro
       </surname>
-      <affiliation from="2020-03" to="2020-09">
+<affiliation from="2020-03" to="2020-09">
        stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">
+</affiliation>
+<affiliation from="2020-09" to="2020-11">
        ingénieur d'études,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-      <affiliation from="2020-12">
+</affiliation>
+<affiliation from="2020-12">
        ingénieur d'études,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       encodage scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Stéphane
       </forename>
-      <surname>
+<surname>
        Baciocchi
       </surname>
-      <affiliation>
+<affiliation>
        ingénieur de recherche de l’EHESS,
        <orgName>
         Centre de recherches historiques
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Anne
       </forename>
-      <surname>
+<surname>
        Lhuissier
       </surname>
-      <affiliation>
+<affiliation>
        directrice de recherche de l'INRAE,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       direction scientifique
      </resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>
+</respStmt>
+<respStmt>
+<persName>
+<forename>
        Éric
       </forename>
-      <surname>
+<surname>
        Villemonte de la Clergerie
       </surname>
-      <affiliation>
+<affiliation>
        chargé de recherches,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-      </affiliation>
-     </persName>
-     <resp>
+</affiliation>
+</persName>
+<resp>
       supervision technique
      </resp>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <publisher>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>
      projet ANR Time Us
     </publisher>
-    <date from="2019" to="2021"/>
-    <pubPlace>
+<date from="2019" to="2021"/>
+<pubPlace>
      Paris, France
     </pubPlace>
-   </publicationStmt>
-   <sourceDesc>
-    <p>
+</publicationStmt>
+<sourceDesc>
+<p>
      Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>
      L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
     </p>
-   </projectDesc>
-  </encodingDesc>
- </teiHeader>
- <facsimile xml:id="facs_310">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$333/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_311">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$334/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_312">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$335/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_313">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$336/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_314">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$337/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_315">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$338/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_316">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$339/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_317">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$340/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_318">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$341/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_319">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$342/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_320">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$343/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_321">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$344/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_322">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$345/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_323">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$346/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_324">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$347/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_325">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$348/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_326">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$349/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_327">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$350/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_328">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$351/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_329">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$352/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_330">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$353/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_331">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$354/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_332">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$355/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_333">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$356/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_334">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$357/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_335">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$358/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_336">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$359/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_337">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$360/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_338">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$361/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_339">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$362/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_340">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$363/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_341">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$364/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_342">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$365/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_343">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$366/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_344">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$367/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_345">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$368/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_346">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$369/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_347">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$370/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_348">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$371/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_349">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$372/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_350">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$373/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_351">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$374/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_352">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$375/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_353">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$376/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_354">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$377/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_355">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$378/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_356">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$379/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_357">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$380/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_358">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$381/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_359">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$382/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_360">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$383/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_361">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$384/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_362">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$385/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_363">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$386/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_364">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$387/full/full/0/default.jpg"/>
- </facsimile>
- <facsimile xml:id="facs_365">
-  <surface lrx="2012" lry="3447"/>
-  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$388/full/full/0/default.jpg"/>
- </facsimile>
- <text>
-  <body>
-   <div type="chapter">
-    <div n="001" type="section">
-     <p xml:id="para_13_281_1">
+</projectDesc>
+</encodingDesc>
+</teiHeader>
+<facsimile xml:id="facs_310">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$333/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_311">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$334/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_312">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$335/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_313">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$336/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_314">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$337/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_315">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$338/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_316">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$339/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_317">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$340/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_318">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$341/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_319">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$342/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_320">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$343/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_321">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$344/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_322">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$345/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_323">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$346/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_324">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$347/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_325">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$348/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_326">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$349/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_327">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$350/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_328">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$351/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_329">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$352/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_330">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$353/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_331">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$354/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_332">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$355/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_333">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$356/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_334">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$357/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_335">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$358/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_336">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$359/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_337">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$360/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_338">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$361/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_339">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$362/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_340">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$363/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_341">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$364/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_342">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$365/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_343">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$366/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_344">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$367/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_345">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$368/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_346">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$369/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_347">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$370/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_348">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$371/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_349">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$372/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_350">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$373/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_351">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$374/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_352">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$375/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_353">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$376/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_354">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$377/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_355">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$378/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_356">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$379/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_357">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$380/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_358">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$381/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_359">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$382/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_360">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$383/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_361">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$384/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_362">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$385/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_363">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$386/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_364">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$387/full/full/0/default.jpg"/>
+</facsimile>
+<facsimile xml:id="facs_365">
+<surface lrx="2012" lry="3447"/>
+<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes02sociuoft$388/full/full/0/default.jpg"/>
+</facsimile>
+<text>
+<body>
+<div type="chapter">
+<div n="001" type="section">
+<p xml:id="para_13_281_1">
       N° 61.
      </p>
-     <p xml:id="para_13_281_2">
+<p xml:id="para_13_281_2">
       MINEUR DES SOUFRIÈRES
      </p>
-     <p xml:id="para_13_281_3">
+<p xml:id="para_13_281_3">
       DE LERCARA
      </p>
-     <p xml:id="para_13_281_4">
+<p xml:id="para_13_281_4">
       (PROVINCE DE PALERME — SICILE),
      </p>
-     <p xml:id="para_13_281_5">
+<p xml:id="para_13_281_5">
       OUVRIER-PROPRIÉTAIRE
      </p>
-     <p xml:id="para_13_281_6">
+<p xml:id="para_13_281_6">
       DANS LE SYSTÈME DES ENGAGEMENTS VOLONTAIRES PERMANENTS,
      </p>
-     <p>
+<p>
       D'APRÈS LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1886,
      </p>
-     <p>
+<p>
       PAR
      </p>
-     <p xml:id="para_13_281_7">
+<p xml:id="para_13_281_7">
       LE PROF. <persName>HIPPOLYTE SANTANGELO-SPOTO</persName>,
      </p>
-     <p xml:id="para_13_281_8">
+<p xml:id="para_13_281_8">
       Avocat a Palerme, Membre titulire dé la Société internationale d'Économie sociale.
      </p>
-    </div>
-    <div n="002" type="section">
-     <head type="section" xml:id="part_02">
+</div>
+<div n="002" type="section">
+<head type="section" xml:id="part_02">
       OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE.
      </head>
-     <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
+<div n="001" type="sub_section">
+<head type="sub_section" xml:id="part_02_01">
        Définition du lieu, de l'organisation industrielle et de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_01">
         § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
-       <p xml:id="para_13_281_14">
-        <pb facs="#facs_310" n="281" source="lesouvriersdesd02soci_0333.xml"/> La commune de Lercara-Friddi, où habite la famille ici décrite, est située à 77 kilomètres de Palerme, capitale de l'île, et à 57 kilomètres de Girgenti, en suivant la voie ferrée. Ces deux villes lui ouvrent des débouchés assurés pour le commerce du soufre. Comprise dans le fief de Friddi, elle se trouve sur le penchant de la colline de Croce, en face de celle de Madora, à 660 mètres au-dessus du niveau de la mer. Elle s'étend sur environ 30 hectares, à 5 kilomètres d'une station de chemin de fer, sur la ligne Palerme-Roccapalumba-Girgenti. Ler¬cara-Friddi fait partie de l'arrondissement ou district administratif de Termini-merese, province de Palerme.
+<p xml:id="para_13_281_14">
+<pb facs="#facs_310" n="281" source="lesouvriersdesd02soci_0333.xml"/> La commune de Lercara-Friddi, où habite la famille ici décrite, est située à 77 kilomètres de Palerme, capitale de l'île, et à 57 kilomètres de Girgenti, en suivant la voie ferrée. Ces deux villes lui ouvrent des débouchés assurés pour le commerce du soufre. Comprise dans le fief de Friddi, elle se trouve sur le penchant de la colline de Croce, en face de celle de Madora, à 660 mètres au-dessus du niveau de la mer. Elle s'étend sur environ 30 hectares, à 5 kilomètres d'une station de chemin de fer, sur la ligne Palerme-Roccapalumba-Girgenti. Ler¬cara-Friddi fait partie de l'arrondissement ou district administratif de Termini-merese, province de Palerme.
        </p>
-       <p xml:id="para_13_282_16">
-        <pb facs="#facs_311" n="282" source="lesouvriersdesd02soci_0334.xml"/> Son territoire n'a pas plus de 3.941 hectares. Mais il est très riche et très productif, en raison de ses magnifliques dépôts de soufre, qui font vivre la majeure partie de la population. C'est un pays de pe¬tites vallées et de collines peu élevées ; le sol est en partie argi¬leux et en partie calcaire, à l'exception des quatre collines où le soufre, mêlé à une marne brune, se trouve à 3 mètres à peine de profondeur.
+<p xml:id="para_13_282_16">
+<pb facs="#facs_311" n="282" source="lesouvriersdesd02soci_0334.xml"/> Son territoire n'a pas plus de 3.941 hectares. Mais il est très riche et très productif, en raison de ses magnifliques dépôts de soufre, qui font vivre la majeure partie de la population. C'est un pays de pe¬tites vallées et de collines peu élevées ; le sol est en partie argi¬leux et en partie calcaire, à l'exception des quatre collines où le soufre, mêlé à une marne brune, se trouve à 3 mètres à peine de profondeur.
        </p>
-       <p xml:id="para_13_282_17">
+<p xml:id="para_13_282_17">
         L'origine de Lercara ne remonte pas au delà de 1603. Ce fut, jus¬qu'en 1828, un pays éminemment agricole. Tous ses habitants n'é¬taient que des tenanciers personne n'était libre, ni propriétaire du fonds qu'il cultivait. Aujourd'hui les choses ont changé, et. grâce à la découverte des mines de soufre, le pays possède de gros propriétaires et de riches capitalistes. En 1828, époque où la première mine fut découverte
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (§ 18)
         </ref>
         , la population comptait 5.854 habitants. Il y avait 1.169 feux, quand la superficie des terrains bâtis occupait à peine un hectare. Dans l'espace de cinquante-huit années, le nombre des habi¬tants a presque triplé ; la commune a pris de l'extension ; la popula¬tion a vu s'améliorer ses conditions générales d'existence.
        </p>
-       <p xml:id="para_13_282_18">
+<p xml:id="para_13_282_18">
         La superficie des 3.941 hectares se répartit entre les anciens fiefs de Caruso, Savochetta, Faverchi de Castronuovo, Friddi et Friddicelli. C'étaient et ce sont encore de vastes étendues de territoire, cultivées pour la plus grande partie en blé ; les populations, pendant deux siè¬cles, ne se sont prêtées à aucun progrès. Aujourd'hui Friddi et Frid¬dicelli seulement ont leurs terres louées par petits lots (par spiaauna, comme on dit dans le dialecte du pays), variant de 1 à 10 hectares : la culture intensive y a remplacé la culture extensive.
        </p>
-       <p xml:id="para_13_282_19">
+<p xml:id="para_13_282_19">
         On y voit des cultures de vignes et de sumacs, des champs d'oli¬viers, d'amandiers et d'arbres fruitiers. Les autres terres, affermées par lots, pour des périodes de six années, à de gros propriétaires des pays voisins, notamment de Vieari et de Roccapalumba, sont encore cultivées en céréales, selon la vieille routine du pays.
        </p>
-       <p xml:id="para_13_282_20">
+<p xml:id="para_13_282_20">
         Sur une longueur de près de 5 kilomètres, au pied de la colline où se trouve Lercara, coule un torrent insignifiant en été, mais qui grossit en hiver, dans la saison des pluies. A 1 kilomètre de la commune jaillit une source d'eau sulfureuse ; à 3 kilomètres, dans la Plaine du lac, en jaillit une autre d'eau salée. Ces deux sources, malgré leur importance au point de vue scientifique et hygiénique, ne sont pas exploitées. En face, s'élève la colline isolée de Ma¬dora, aride et brûlée, sans végétation et sans vie. Au bas, s'étend, <pb facs="#facs_312" n="283" source="lesouvriersdesd02soci_0335.xml"/> sur une longueur de 7 kilomètres environ, la Plaine de Giglio. D'ail¬leurs ni bois ni verdure, et aussi loin qu'on porte le regard, en été, tout est brûlé et desséché ; tout est abandon et désolation. Le ser¬vice le plus important qui ait été rendu à la population de Ler¬cara, c'est l'aqueduc qu'ont fait construire les représentants de la commune. Il amène dans le pays les eaux réunies des contrées loin¬taines de San Luca, de Depupo et de Carcaretto ; ses douze fontaines distribuent une eau excellente, très légère, et qui, très riche en car¬bonates, facilite la digestion. Il est fâcheux que, dans des campagnes si vastes et de terrain vierge, qui pourraient être dix fois plus belles et plus fertiles, l'irrigation ne vienne pas dissoudre les matiêres fé¬condantes des couches supérieures du sol, et faire absorber par le sol inférieur le guano et les engrais.
        </p>
-       <p xml:id="para_13_283_22">
+<p xml:id="para_13_283_22">
         Outre le chemin de fer qui met Lercara à proximité de Palerme et de Girgenti, une route carrossable d'un parcours de 40 milles (52 lil. 1/2) conduit à Palerme, et une autre de 48 milles siciliens, se dirige sur Girgenti et ses dépendances. La traaera ˉFauerchi mène à Castronuovo, la traera Panara, à Cammarata, la traera Piano delle Force, à Alia et à Valledolmo, et la trzaea Piano du lac, à Vi¬cari. Ces raere sont d'anciens chemins à mulets, qui mettent en communication les centres les plus importants, pour le commerce des produits de la terre et des richesses naturelles.
        </p>
-       <p xml:id="para_13_283_23">
+<p xml:id="para_13_283_23">
         Le climat est doux et tempéré ; le ciel s'assombrit rarement de nuages orageux. En été, le maximum de température est 38°; en hiver, le minimum, 6° de froid ; la température moyenne, 18° centi¬grades environ. Les pluies sont fréquentes en automne et en hiver ; il ne pleut jamais ou prcsque jamais en été. Il tombe, dans l'année, 501 millimètres d'eau, ce qui favorise beaucoup la végétation et donne au cultivateur une assurance de récolte. La sécheresse dure de juin à fin septembre. Presque tous les hivers la neige couvre les toits, les hauteurs et les campagnes ; mais elle fond rapidement et ne reste jamais plus de trois jours consécutifs. Rarement éclate un violent orage accompagné de tonnerre et de grêle.
        </p>
-       <p xml:id="para_13_283_24">
+<p xml:id="para_13_283_24">
         La nature même des lieux garantit la population de Lercara de la plupart des causes morbides propres à l'infirmité humaine : mais elle en engendre d'autres qui lui sont particuliêres, et affectent surtout les mineurs des soufrières. Si certaines maladies telles que la teigne, la gale, l'herpès, les scrofules, la phtisie, l'infection paludéenne, sont heureusement modiliées ou totalement neutralisées par le séjour dans <pb facs="#facs_313" n="284" source="lesouvriersdesd02soci_0336.xml"/> la soufrière, ce régime produit chez les mineurs bien des maux que conjurerait sans aucun doute une application intelligente des lois de l'hygiène. Il est juste cependant de signaler à Lercara, comme d'im¬portantes améliorations hygiéniques, la distribution à domicile de l'excellente eau de San Luca au moyen de robinets particuliers, et la construction des égouts qui, de chaque maison, enlêvent, par des conduits souterrains, les eaux sales ou ménagères et les immondices, puis vont les déverser fort loin de la commune.
        </p>
-       <p xml:id="para_13_284_26">
+<p xml:id="para_13_284_26">
         L'exploitation des mines de soufre est la fortune de Lercara ; elle est la seule et unique cause de l'agglomération ouvrière. Le sol qu'elles occupent n'est qu'un prolongement isolé des terrains sulfurifères qui ont dans l'île une vaste extension, avec quelques interruptions, notam¬ment dans les provinces de Caltanissetta, de Girgenti et de Catane, mais qui montrent partout les mêmes caractères généraux. Les gypses et les tufs oumarnes bitumineuses recouvrent le dépôt de soufre, qui présente là comme ailleurs des intermittences et des solutions de continuité.
        </p>
-       <p xml:id="para_13_284_27">
+<p xml:id="para_13_284_27">
         Ce furent, dès le-principe les propriétaires qui firent, pour leur propre compte, les fouilles et les opérations de fusion. Puis intervin¬rent les maîtres tâcherons, ceux qui faisaient une partie du travail moyennant un pri convenu. Ensuite l'association des propriétaires sauva l'industrie des mines, quand l'exploitation isolée devint impos¬sible par suite des profondeurs où il fallut poursuivre le minerai, de l'envahissement des eaux dans les bas-fonds, et des chicanes au sujet de la délimitation des fouilles
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (§ 18)
         </ref>
         . L'association qui a uni les pro¬priétaires a fait disparaître les limites entre les propriétés et supprimé les causes de conflit. Puis le chemin de fer, passant à 7 kilomètres de Lercara, fournit maintenant les moyens de transport et auvre ses débouchés au commerce d'exportation. Quelques particuliers cepen¬dant exploitent une ou plusieurs mines ; elles fonctionnent indépen¬damment l'une de l'autre, en face d'une association de propriétaires et de capitalistes qui, pour des causes diverses, produisent à moins de frais une plus grande quantité de minerai. Il en sera ainsi tant que le propriétaire exigera, en maintenant l'extraction à dos d'homme, que le minerai provenant des fouilles pratiquées dans sa propriété soit extrait directement par l'escalier qui y donne accès. Cette exigence du propriétaire a pour seul motif une plus grande facilité pour re¬connaître le minerai de sa mine, et la part qui lui revient ; car le minerai s'évalue d'après les tas accumulés sur le plateau extérieur qui est contigu à l'entrée de la mine. Le prix convenu varie entre <pb facs="#facs_314" n="285" source="lesouvriersdesd02soci_0337.xml"/> 15, 20 ou 30% du soufre produit, et le paiement se fait en nature à la mine. Le 15 est le prix fixé habituellement pour les terrains à explorer, où l'existence du soufre n'est pas encore re¬connue. Le 25 ou le 30% est pour les mines en activité. Le pri moyen est ainsi de 20%. La durée du traité est un des obstacles à la bonne marche des mines. Elle est ordinairement de six années fermes et de trois années facultatives. Le traité a donc une durée absolue de six ans, durée qui peut être prorogée de trois autres années, si le tache¬ron, dans un délai déterminé, ordinairement six mois avant l'expiration des six ans, ne déclare pas vouloir se retirer.
        </p>
-       <p xml:id="para_13_285_29">
+<p xml:id="para_13_285_29">
         La production annuelle, avant 1839, était évaluée à 200.000 quin¬taux en moyenne (15.868.400 kilogrammes) ; de 1860 à 1874, elle variait entre 150 et 160.000 quintaux. Depuis 1874, elle est descen¬due à 100.000 et s'élêve quelquefois, comme dans ces derniêres an¬nées, jusqu'à 250.000 quintaux par an (19.838.500 kilogrammes).
        </p>
-       <p xml:id="para_13_285_30">
+<p xml:id="para_13_285_30">
         Après les mines de soufre viennent les richesses créées par la cul¬ture. Dans l'année 1885, la production agricole a donné les chiffres suivants :
        </p>
-       <figure rend="portrait" type="inventory">
-        <head resp="added" type="inventory" xml:id="figure_1">
+<figure rend="portrait" type="inventory">
+<head resp="added" type="inventory" xml:id="figure_1">
          Volume et valeur de la production agricole dans la commune de Lercara-Friddi (1885) (§1)
         </head>
-        <graphic facs="#facs_314" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_285_31">
+<graphic facs="#facs_314" url="#"/>
+</figure>
+<!--<p xml:id="para_13_285_31">
         Grains...... 6.200 hectolitres, à 19ᶠ00 l'hectolitre en moyenne.
         </p>
         <p xml:id="para_13_285_32">
@@ -477,37 +476,37 @@
         <p xml:id="para_13_285_35">
         Sumacs..... 130 quintaux 21ᶠ25 le quinta —
         </p>-->
-       <p xml:id="para_13_285_36">
+<p xml:id="para_13_285_36">
         Les produits des arbres fruitiers à haute tige et en général les pro¬duits horticoles suffisent à peine aux besoins particuliers des familles de propriétaires, et à la demande du petit commerce local. On est heureux de signaler que la production des vins et des sumacs se développe depuis quelques années : c'est ainsi que seront rendus à l'agriculture les bras qui surabondent dans l'industrie miniêre. Les propriétaires de vignobles ont eu l'idée de fonder, pour la prochaine campagne agricole, un cellier collectif (cantina sociale) servant à donner un type unique à la vinification du pays. L'idée n'est pas difficile à mettre à exécution, si nous considérons que ce sont les plus gros propriétaires de mines de soufre qui ont commencé et continué à planter des vignes. En consacrant leurs capitaux à la fondation d'un bon établissement œnologique, sans courir aucun risque, ils fe¬raient une euvre utile ; car la concurrence de l'Amérique et de l'Asie ayant rendu la production de nos céréales peu profitable, et en ayant depuis quelques années diminué le rendement, il ne reste aux proprié¬taires ruraux que la production des vins en grand, faite de manière à <pb facs="#facs_315" n="286" source="lesouvriersdesd02soci_0338.xml"/> prendre le pas sur la production internationale de la France et de l'Es¬pagne. qui ordinairement achètent nos vins, leur font subir des prépa¬rations de leur façon, et nous les revendent ensuite sous d'autres noms.
        </p>
-       <p xml:id="para_13_286_38">
+<p xml:id="para_13_286_38">
         La commune manquant de propriétaires avec ce qu'on appelle des feudataires, ou tenanciers de fiefs affermés, l'art du pâturage fait défaut ; aussi les bêtes à laine et à cornes produisent-elles peu, et, pour la consommation locale, faut-il avoir recours à une importa¬tion permanente. Une vache de boucherie se vend sur place 200 francs, une chèvre de 20 à 25 francs, une brebis 12ᶠ 75. La dernière statistique de la commune a relevé, pour les animaux domestiques : 22I chevaux, 127 mulets, 196 ânes. La modicité de ces chiffres n'a rien d'étonnant si l'on tient compte du peu de développement local de l'industrie agricole. L'élevage des porcs, prohibé dans la commune, est fait, dans les campagnes, par les fermiers ou métayers ; la production varie de 100 à 125 par an. L'élevage des poules est une très petite industrie domestique qui donne annuellement de 600 à 700 poules, et de 200 à 250 œufs par jour. Le reste est fourni par l'importation.
        </p>
-       <p xml:id="para_13_286_39">
+<p xml:id="para_13_286_39">
         Il n'existe d'autre industrie domestique spéciale que celle des petits boutiquiers, qui gagnent leur vie au moyen d'un travail journalier et incertain. Notons deux moulins à soufre mus par des animaux et un moulinà vapeur pour la mouture du blé : les premiers moulent chacun de 6 à 8 quintaux de soufre par jour ; le second, de la force de 8 che¬vaux, pourrait moudre 24 hectolitres de blé par heure, mais la plus grande quantité de blé à moudre est portée aux moulins à eau d'une commune voisine, celle de Castronuovo. Lercara exporte du soufre et recoit une forte importation de blé. Il n'existe aucun document officiel concernant l'importation et l'exportation d'autres denrées.
        </p>
-       <p xml:id="para_13_286_40">
+<p xml:id="para_13_286_40">
         Si, comme il a été dit plus haut, à Friddi et à Friddicelli, les terres sont simplement louées par petits lots, dans les autres pays, cultivées en céréales, elles sont données à long bail. Le contrat de bail a une durée de six à neuf ans ; le feudataire sous-loue le fief par petits lots, et par périodes de deux à trois années, au paysan cultivateur. Le taux des locations est à raison de 14 à 18 francs la sade, et se paie en ar¬gent, et non en produits. Les petites propriétés se répartissent comme suit, d'après leur étendue :
        </p>
-       <figure rend="portrait" type="schema">
-        <head resp="added" type="schema" xml:id="figure_2">
+<figure rend="portrait" type="schema">
+<head resp="added" type="schema" xml:id="figure_2">
          Nombre et superficie des petites propriétés dans la commune de Lercara-Friddi (§1)
         </head>
-        <graphic facs="#facs_315" url="#" />
-       </figure>
-       <p xml:id="para_13_287_41">
-        <pb facs="#facs_316" n="287" source="lesouvriersdesd02soci_0339.xml"/> Le régime qui prévaut pour elles est le contrat de métayage : comme telle, la propriété est très morcelée avec les avantages qui résultent d'un morcellement limité. Le prix d'un hectare de terrain est de 1.000 francs.
+<graphic facs="#facs_315" url="#"/>
+</figure>
+<p xml:id="para_13_287_41">
+<pb facs="#facs_316" n="287" source="lesouvriersdesd02soci_0339.xml"/> Le régime qui prévaut pour elles est le contrat de métayage : comme telle, la propriété est très morcelée avec les avantages qui résultent d'un morcellement limité. Le prix d'un hectare de terrain est de 1.000 francs.
        </p>
-       <p xml:id="para_13_287_42">
+<p xml:id="para_13_287_42">
         En 1885, l'ensemble du territoire de Lercara offrait, sous le rap¬port des cultures, les catégories suivantes :
        </p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_3">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_3">
          Répartition des cultures sur le territoire de la commune de Lercara-Friddi (1885) (§1)
         </head>
-        <graphic facs="#facs_316" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_287_44">
+<graphic facs="#facs_316" url="#"/>
+</figure>
+<!--<p xml:id="para_13_287_44">
         Terrains cultivés en jardins........................... 5 77 A1878
         </p>
         <p xml:id="para_13_287_45">
@@ -531,16 +530,16 @@
         <p xml:id="para_13_287_51">
         Total.......:... 3.198 04 4052
         </p>-->
-       <p xml:id="para_13_287_52">
+<p xml:id="para_13_287_52">
         Aujourd'hui le territoire, qui, suivant le chiffre déclaré par la com¬mune, a une superficie de 3.941 hectares, est, suivant le chiffTre oi¬ciel, de 3.365 hectares : la superficie cultivée est ainsi répartie :
        </p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_4">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_4">
          Répartition des surfaces cultivées sur le territoire de la commune de Lercara-Friddi (§1)
         </head>
-        <graphic facs="#facs_316" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_287_53">
+<graphic facs="#facs_316" url="#"/>
+</figure>
+<!--<p xml:id="para_13_287_53">
         Céréales. OTge..................:.:................. 155 hectares
         </p>
         <p xml:id="para_13_287_54">
@@ -561,16 +560,16 @@
         <p xml:id="para_13_287_59">
         3.941 hectares
         </p>-->
-       <p xml:id="para_13_287_60">
+<p xml:id="para_13_287_60">
         Le cadastre de la commune remonte au commencement du siècle ; par suite, l'impôt y grève moins les fonds récemment améliorés que ceux qui l'étaient déjà à l'époque du cadastre. Un prêtre de la com¬mune s'étonnait avec moi que, dans la Plaine du lae, 120 ares de terre moitié plantés et moitié ensemencés eussent à payer par an 3ᶠ50. tandis que 88 ares ensemencés payaient à Friddicelli 9ᶠ 75. L'impôt cadastral résultant, pour Lercara, des rôles de contributions fon¬cières de l'année 1875, s'élève à 163.140ᶠ 56, et le revenu imposable dont le chiffre figure dans les rôles publiés pour la même année 1875, est de 67.934ᶠ 67. Le montant total des contributions directes dues à l'Etat, d'aprês le dernier compte rendu de l'année 1875, s'élève à 48.7I58ᶠ30, ainsi répartis :
        </p>
-       <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_5">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_5">
          Montant des contirbutions directes dues à l'État (1875) (§1)
         </head>
-        <graphic facs="#facs_316" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_287_61">
+<graphic facs="#facs_316" url="#"/>
+</figure>
+<!--<p xml:id="para_13_287_61">
         Impôt foncier....................................... 28. 106ᶠ9
         </p>
         <p xml:id="para_13_287_62">
@@ -585,121 +584,121 @@
         <p xml:id="para_13_287_65">
         Centimes additionnels des communes ............. 13.057 74
         </p>-->
-       <p xml:id="para_13_287_66">
+<p xml:id="para_13_287_66">
         La moyenne de la derniêre période quinquennale est, pour les centimes additionnels, de 13.647ᶠ02 ; elle présente une augmenta<pb facs="#facs_317" n="288" source="lesouvriersdesd02soci_0340.xml"/>tion de 547ᶠ 19 sur la moyenne de la période précédente, qui était 13.099ᶠ 83.
        </p>
-       <p xml:id="para_13_288_69">
+<p xml:id="para_13_288_69">
         Parlons enfin de la population. Au commencement du dix-sep¬tième siecle, les 120 maisons dont se composait Lercara abritaient 279 habitants ; en 1703 on en comptait 1.536 dans 483 maisons ; en 1798, pour 836 feux, 5.336 habitants ; en 1831, 1.081 feux et 6.305 ames ; enfin, en 1852, la population atteignait 7.463 âmes. A cette époque, l'exploitation du soufre est installée et accroît les moyens d'existence ; aussi le recensement de 1871 porte-t-il le nombre des habitants à 9.154, dont 9.062 groupés au centre de la commune, et 92 épars dans la campagne ; celui de 1881 accuse 13.423 habitants, dont 13.324 ag glomérés. Au 31 décembre 1885, Lercara possédait 14.423 âmes.
        </p>
-       <p xml:id="para_13_288_70">
+<p xml:id="para_13_288_70">
         Je me plais à signaler ici, d'une manière générale, l'augmentation de la population par suite de l'accroissement du bien-être. Compara¬tivement à d'autres communes de l'arrondissement, bien que la classe des mineurs soit notée comme une des plus exposées, les senti¬ments de famille sont ici moins affaiblis ; chez les ouvriers de la loca¬lité vivent encore l'affection conjugale, la soumission des femmes et des enfants, le culte des traditions, l'attachement pour les membres de la famille. Il n'en est pas ainsi des ouvriers nomades, véritables semeurs d'ivraie, qui dans leur existence précaire et parasite, mettent à mal ou tout au moins détournent de la bonne voie l'ouvrier honnête et laborieux.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <!--Individus cités : Francesco G*** (n°061aE1) - Rosalia Gr*** (n°061aE2) - Giachino G*** (n°061aE3) - Stefania G*** (n°061aE4) - Agata O*** (n°061aE5)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
+</div>
+<div n="002" type="sub_sub_section">
+<!--Individus cités : Francesco G*** (n°061aE1) - Rosalia Gr*** (n°061aE2) - Giachino G*** (n°061aE3) - Stefania G*** (n°061aE4) - Agata O*** (n°061aE5)-->
+<head type="sub_sub_section" xml:id="part_02_01_02">
         § 2. ÉTAT CIVIL DE LA FAMILLE.
        </head>
-       <p xml:id="para_13_288_73">
+<p xml:id="para_13_288_73">
         La famille décrite ici se compose de cinq personnes :
        </p>
-       <p xml:id="para_13_288_74">
-        1. <persName>FRANCESCO G***</persName>, père de famille............ 62 ans.
+<p xml:id="para_13_288_74">
+        1. <persName xml:id="ID-061aE1">FRANCESCO G***</persName>, père de famille............ 62 ans.
        </p>
-       <p xml:id="para_13_288_75">
-        2. <persName>ROSALIA, Gr***</persName>, nére de famille............ 51 —
+<p xml:id="para_13_288_75">
+        2. <persName xml:id="ID-061aE2">ROSALIA, Gr***</persName>, nére de famille............ 51 —
        </p>
-       <p xml:id="para_13_288_76">
-        3. <persName>GIACHINO</persName>, leur second fils............ 25 —
+<p xml:id="para_13_288_76">
+        3. <persName xml:id="ID-061aE3">GIACHINO</persName>, leur second fils............ 25 —
        </p>
-       <p xml:id="para_13_288_77">
-        4. <persName>STEFANIA G***</persName>, leur fille............ 20 —
+<p xml:id="para_13_288_77">
+        4. <persName xml:id="ID-061aE4">STEFANIA G***</persName>, leur fille............ 20 —
        </p>
-       <p xml:id="para_13_288_78">
-        5. <persName>AGATA O***</persName>, veuve P***, mère de Rosalia............ 75 —
+<p xml:id="para_13_288_78">
+        5. <persName xml:id="ID-061aE5">AGATA O***</persName>, veuve P***, mère de Rosalia............ 75 —
        </p>
-       <p xml:id="para_13_288_79">
+<p xml:id="para_13_288_79">
         Par tradition de famille et conformément à la coutume locale, les enfants non mariés vivent avec le père, dont pas un, sous des pré¬textes fictifs ou blâmables, ne quitte le toit domestique pour établir ailleurs son domicile.
        </p>
-       <p xml:id="para_13_288_80">
+<p xml:id="para_13_288_80">
         Vito, le fils aîné, marié depuis peu à Rosalia L***, robuste villageoise du pays, habite avec sa femme et deux enfants une maison séparée. Il travaille chez un oncle, dont il gère les affaires, et dirige l'entre¬prise de transports de soufre, de la commune à la gare voisine.
        </p>
-       <p xml:id="para_13_289_81">
-        <pb facs="#facs_318" n="289" source="lesouvriersdesd02soci_0341.xml"/> Joachin, prêtre depuis deux ans, est le directeur d'une école élé¬mentaire de la commune et demeure sous le toit paternel.
+<p xml:id="para_13_289_81">
+<pb facs="#facs_318" n="289" source="lesouvriersdesd02soci_0341.xml"/> Joachin, prêtre depuis deux ans, est le directeur d'une école élé¬mentaire de la commune et demeure sous le toit paternel.
        </p>
-       <p xml:id="para_13_289_82">
+<p xml:id="para_13_289_82">
         Rosalia Gr*** a eu si enfants, dont trois sont morts
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
         ; bien que déjà avancée en âge elle ne néglige rien des affaires de la maison, et Stefania l'aide avec zèle et dévouement. Sa vieille mère, Agata 0***, qui, mariée à dix-sept ans, eut neuf enfants, lui donne l'assistance que comporte son âge.
        </p>
-       <p xml:id="para_13_289_83">
+<p xml:id="para_13_289_83">
         Francesco a deux frères et une sœur. L'un de ses frères, l'honneur de sa famille et du pays, est chanoine de la collégiale de Marie, pré¬dicateur renommé et de talent, aimé et vénéré de ses parents et de la commune tout entière. L'autre, fabricant de pâtes alimentaires, marié à une fille de Lercara, a trois enfants. La sœur vit avec son frère le chanoine.
        </p>
-       <p xml:id="para_13_289_84">
+<p xml:id="para_13_289_84">
         Les parents ne se sont inspirés, dans le choix qu'ils ont fait des noms de baptême de leurs enfants, que de la pensée religieuse, et du désir de conserver la mémoire du père, de la mère, et des aïeux.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_03">
         § 3. RELIGION ET HABITUDES MORALES.
        </head>
-       <p xml:id="para_13_289_87">
+<p xml:id="para_13_289_87">
         Toute la population de Lercara, ouvriers comme bourgeois, mani¬feste son attachement à la religion catholique par l'assistance aux divers exercices du culte, les habitudes de piété au sein des familles et l'exacte observance des prescriptions relatives au jeûne et à l'abs¬tinence. Le peu d'incrédules que l'on pourrait citer s'observent parmi ceux qui viennent de la ville, où, soit indifférence générale, soit absence de stimulant à suivre les pratiques traditionnelles, les ha¬bitudes religieuses tombent en désuétude. Autrement la plupart des familles sont très ferventes et tiennent beaucoup à ce que la religion soit respectée.
        </p>
-       <p xml:id="para_13_289_88">
+<p xml:id="para_13_289_88">
         La famille de Francesco G*** en observe scrupuleusement les prin¬cipes et les règles. Ce qui le prouve, c'est que l'ouvrier a voulu qu'un de ses enfants suivit la vocation religieuse et revêtit l'habit ecclésiastique, pour ne pas rompre la tradition de la famille, qui est d'avoir un prêtre dans sa maison. Le clergé est si respecté que le fils, déjà bénéficier de l'église métropolitaine dédiée à N.-D. des Neiges, quoique sacré prêtre seulement depuis deux ans, jouit de la considération de ses collêgues, et semble devoir hériter de ces hom<pb facs="#facs_319" n="290" source="lesouvriersdesd02soci_0342.xml"/>mages et de cette vénération que l'instruction, le talent de la parole. le zèle chrétien, ont su mériter à son oncle, depuis de longues an¬nées chanoine de la collégiale, où il occupe le second poste. En 1885, l'évêque ayant remarqué les qualités du jeune prêtre, l'avait proposé comme curé dans une commune de la Vénétie. Mais Giachino pensa être plus utile en restant dans son pays, où il exerçait déjà une salutaire influence auprès de toutes les classes.
        </p>
-       <p xml:id="para_13_290_90">
+<p xml:id="para_13_290_90">
         Parmi les pieuses pratiques de la famille, il faut signaler l'habitude de la récitation quotidienne, en commun, du rosaire, que Stefania dit à haute voix, et des grâces à Dieu pour les bienfaits de la journée ; l'observation rigoureuse des jeûnes du carême et des Quatre-Temps, et de l'abstinence du gras le vendredi et le samedi. Elle professe une dévotion particulière à Marie mmaculée, dont elle conserve, depuis trente-quatre ans, une petite statue devant laquelle la lampe votive brûle constamment. Les praiques extérieures ne sont pas moins gar¬dées ; la famille, quand elle le peut, accompagne le viatique et suit les processions.
        </p>
-       <p xml:id="para_13_290_91">
+<p xml:id="para_13_290_91">
         Le maintien des habitudes religieuses doit être attribué à l'influence du clergé. Bien que peu nombreux (23 prêtres), il est si respectable, il a tant d'autorité, que devant le prêtre tout le monde s'incline et courbe la tête ; les colères et les rancunes de partis disparaissent ; il met la paix entre les plaideurs, il est l'arbitre de tous les différends. Les prêtres n'ont pas un lieu spécial de réunion, comme c'est l'usage dans certaines communes de l'île (Pettineo, Tusa, Acireale, Jesi) ; mais partout où ils entrent, que ce soit dans les maisons bourgeoises, ou dans les sociétés ouvrières, agricoles, de secours mutuels, ils trouvent affection, bon vouloir et sympathie. L'influence bienfaisante et moralisatrice du prêtre se manifeste, dans les familles de Lercarae, par le culte qu'elles ont de l'honneur et de la foi jurée.
        </p>
-       <p xml:id="para_13_290_92">
+<p xml:id="para_13_290_92">
         Rien de particulier ne caractérise dans le pays la cérémonie nup¬tiale. Autrefois il était d'usage de célébrer le mariage à l'église, aux premières heures du jour, avant même le lever du soleil. Aujourd'hui cet usage n'existe plus. Les baptêmes se font ordinairement au beau milieu du jour. Tous les enfants de la parenté et du voisinage, vêtus de blanc, assistent au baptême, chacun avec un cierge à la main. Au retour, on leur donne des dragées et quelques petites friandises., Ils saluent le nouveau-né devant le lit de sa mère, en répétant son nom en cheur.
        </p>
-       <p xml:id="para_13_290_93">
+<p xml:id="para_13_290_93">
         Bien que les vieux usages se perdent, pour la sépulture des morts <pb facs="#facs_320" n="291" source="lesouvriersdesd02soci_0343.xml"/> ils demeurent intacts. Les parents, vêtus de noir, accompagnent eux¬mêmes le dé funt à l'église, assistent à la messe, et le suivent, en chantant des psaumes, jusqu'à sa dernière demeure. Le cortège, en sortant de l'église, se range sur une seule ligne, les hommes en tête, puis les femmes et les enfants. On va d'un pas lent en répétant d'un air triste le ˉlequiem, à la suite du prêtre qui a célébré la messe. Une autre coutume caractéristique du pays est la suivante : quand la mort visite une maison, celle même du plus humble ouvrier, si le défunt a reçu les sacrements, on le place sur un très beau lit construit tout exprès et appelé talam, couvert des draps les plus fins qu'il y ait dans la maison ; les draps sont brodés à jour, ornés de dentelles et de galons ; ils ne servent que pour cette circonstance et se trans¬mettent de génération en génération. Un linge blane. également brodé à jour, sert à couvrir la bouche du défunt. Quand le malade meurt impénitent, c'est la famille seule qui le pleure ; aucune pompe ne l'ac¬compagne à l'église ni au cimetière.
        </p>
-       <p xml:id="para_13_291_95">
+<p xml:id="para_13_291_95">
         Neuf églises sont ouvertes au culte, à Lercara. Dans chacune d'elles se célêbre annuellement la fête patronale. Le saint protecteur est conduit en procession dans les rues, suivi par les fidèles et précédé des quatre congrégations ou confréries du Saint-Sacrement, du Saint¬Esprit, de Saint-Antoine et de Saint-François-avier, qui ont conservé tous les caractères des confréries de la fin du dix-huitième siècle et de la première moitié de celui-ci. Elles n'ont pour but que de donner plus d'éclat au culte religieux, et de fournir une assistance mutuelle en cas de maladie ou de mort. L'église métropolitaine est le siège de l'association des Mères chrétiennes, qui sont assez nombreuses. L'é¬glise du collêge de Marie, dédiée au Saint-Rosaire, est le siège de l'association des Enfants de Marie.
        </p>
-       <p xml:id="para_13_291_96">
+<p xml:id="para_13_291_96">
         Les époux G***, pendant trente-cinq ans de ménage, ont vécu en parfaite harmonie : jamais un dissentiment intérieur, jamais le moindre relâchement dans leur affection. L'ouvrier est plein de dé¬férence pour sa femme, seule souveraine dans la maison, dont elle a l'administration et le soin. Le mari, les enfants, n'ont à penser qu'au travail, le reste est du ressort de la mère. L'autorité des parents a beaucoup d'influence dans la famille, comme dans toutes celles qui sont depuis longtemps établies à Lercara, y ont leur maison ou leur terre, ou y sont attachés comme travaillant dans une mine. Les dissen¬sions sont rares entre familles, entre parents, dissensions habituelle¬ment fomentées par les femmes ; il est encore plus rare qu'il y ait <pb facs="#facs_321" n="292" source="lesouvriersdesd02soci_0344.xml"/> des scandales dans la famille, que l'épouse reste séparée de son mari, ou que celui-ci vive avec une concubine. Les mariages clandestins, les enlèvements sont également beaucoup moins fréquents que dans certaines communes de la Sieile.
        </p>
-       <p xml:id="para_13_292_98">
+<p xml:id="para_13_292_98">
         La famille G*** a réussi à conquérir l'estime du voisinage, grâce à une patiente énergie, à une courageuse résignation dans les peines et les difficultés de la vie. Le culte du foyer, l'amour de la profession, l'attachement au pays ont toujours soutenu les deux époux. Par-dessus toute chose ils tiennent à demeurer dans la vieille maison qu'ils ont toujours habitée. C'est l'héritage du père, et quand une main misérable vint la dévaster
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
         , Francesco en éprouva un chagrin sans égal, et voulut la rebatir à tout prix.
        </p>
-       <p xml:id="para_13_292_99">
+<p xml:id="para_13_292_99">
         L'ouvrier sait lire et compter ainsi que sa fille, qui a été élevée au couvent de Marie. Il exprime nettement ses idées et il explique avec beaucoup de précision les diverses phases de son existence et tout ce qui regarde son métier. La lecture, l'expérience, le contact de son frère et de son fils, prêtres tous deux, ses relations constantes avec ses patrons (Pucci, Gonzalès et Nicolosi), pour lesquels il a conservé des sentiments d'affection, lui ont fait acquérir une certaine instruction doublée d'une distinction naturelle d'esprit et d'un jugement droit. La femme ne sait ni lire ni compter ; mais elle a toute l'intelligence, toute la perspicacité nécessaire pour bien diriger le ménage et le tirer de toute crise.
        </p>
-       <p xml:id="para_13_292_100">
+<p xml:id="para_13_292_100">
         Il est dans les traditions de la famille G*** de ne rien aliéner ou distraire des propriétés, à moins d'un besoin impérieux. C'est du reste l'usage presque général, et après la mort du chef de famille, la mère reste usufruitiêre et administre la totalité des biens, quoique les lois civiles et la coutume poussent au partage forcé et à la des¬truction de la propriété. Fidêles à la tradition du pays, les pères de famille de Lercara, en mourant, ne divisent pas en égales parts leur héritage entre leurs enfants survivants ; mais, tempérant les pres¬criptions de la loi par les tendances et les traditions de la famille, ils en disposent librement. Les enfants n'y sont nullement rebelles. Les fils destinent ordinairement à la famille tout ce qu'ils gagnent, et quand ils se marient, ils reçoivent de leur père une somme d'argent ou une maison d'habitation, ou des objets mobiliers évalués exacte¬ment en argent, pour être mis plus tard en rapport avec la quotité légale de leur part d'héritage. La propriété foncière reste ordinai¬rement indivise, et quand il y a disproportion entre sa valeur et la <pb facs="#facs_322" n="293" source="lesouvriersdesd02soci_0345.xml"/> quote-part reçue par chaque enfant pour sa légitime, on l'égalise au moyen d'une somme d'argent versée au moment où elle tombe dans la succession. C'est ainsi que l'on conjure les inconvénients qui résulteraient du morcellement de la propriété.
        </p>
-       <p xml:id="para_13_293_102">
+<p xml:id="para_13_293_102">
         Les mœurs sont bonnes en général, bien que les mariages soient peu précoces. Cela tient d'abord à ce que les hommes ne se marient pas avant d'être revenus du service militaire ou d'en avoir été exemp¬tés ; ensuite, à ce que tout père de famille refuse d'accorder sa fille à celui qui, travaillant encore à forfait, ne peut disposer d'un gain as¬suré ; cela tient enfin à la séparation qui a eu lieu, depuis dix ans, entre le travail des hommes et celui des femmes. Celles-ci ne descendent plus dans les mines, où l'obscurité des galeries, la nudité des travailleurs, la chaleur et les exhalaisons souterraines pouvaient provoquer de trop faciles désordres. L'œil le plus pénétrant ne dé¬couvrirait pas à Lercara une femme de mauvaise vie, ou un exemple avéré d'atteinte à la foi conjugale. S'il se produit quelque atteinte à la morale publique, quelque outrage aux habitudes religieuses, ou quelque scandale de vice, il faut l'imputer exclusivement à la po¬pulation ouvrière fottante, qui gaspille au jour le jour ce qu'elle gagne, sans souci du lendemain. Il en est peu, parmi ces ouvriers, qui aient une femme à eux ; ils vivent à trois, à cinq ou à sept (toujours en nombre impair), dans une maison où ils ne viennent que pour dormir. Les ouvriers du pays montrent deux tendances spéciales : les uns, dès qu'ils ont amassé une somme suffisante pour aller chercher meilleure fortune ailleurs, émigrent, descendent en ville ou s'embarquent pour l'Amérique ; les autres, au contraire, jaloux de posséder, gardent leur trésor aussi soigneusement que l'on porterait un verre d'huile à tra¬vers une foule.
        </p>
-       <p xml:id="para_13_293_103">
+<p xml:id="para_13_293_103">
         Il règne dans la classe aisée un peu d'égoisme et d'incdiflérence re¬ligieuse ; c'est uniquement un effet des temps ; les traditions de famille s'y conservent en général. L'ambition a produit certaines inimitiés, mais le patronage que le député au parlement, FTinocchiaro-Aprile, exerce depuis peu sur tous les habitants de Lercara, a suffi pour ré¬concilier les partis. La paix sociale n'est plus troublée ; chaque fa¬mille travaille à son bien-être et à la prospérité de celles que des rai¬sons d'industrie ou de commerce placent sous son influence.
        </p>
-      </div>
-      <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_04">
         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
-       <p xml:id="para_13_294_106">
-        <pb facs="#facs_323" n="294" source="lesouvriersdesd02soci_0346.xml"/>Tous les membres de la famille ont une forte constitution et jouis¬sent d'une parfaite santé. Le père est vigoureux, robuste, et résiste à la fatigue. La dernière maladie qui ait mis sa vie en danger, est une angine de poitrine qu'il eut à quatorze ans. Sa femme a eu des gros¬sesses pénibles et des couches laborieuses. Elle a allaité elle-même ses enfants avec un succès constant. Maintenamt encore elle se porte bien, et ne souffre que de rares maux de tête. Les mêmes inconvé¬nients quant aux grossesses et aux couches ont été observés chez la plupart des ouvrières de la commune qui ont travaillé dans les mines de soufre. Elles paraissent vieilles de bonne heure, sans rien perdre cependant de leur activité.
+<p xml:id="para_13_294_106">
+<pb facs="#facs_323" n="294" source="lesouvriersdesd02soci_0346.xml"/>Tous les membres de la famille ont une forte constitution et jouis¬sent d'une parfaite santé. Le père est vigoureux, robuste, et résiste à la fatigue. La dernière maladie qui ait mis sa vie en danger, est une angine de poitrine qu'il eut à quatorze ans. Sa femme a eu des gros¬sesses pénibles et des couches laborieuses. Elle a allaité elle-même ses enfants avec un succès constant. Maintenamt encore elle se porte bien, et ne souffre que de rares maux de tête. Les mêmes inconvé¬nients quant aux grossesses et aux couches ont été observés chez la plupart des ouvrières de la commune qui ont travaillé dans les mines de soufre. Elles paraissent vieilles de bonne heure, sans rien perdre cependant de leur activité.
        </p>
-       <p xml:id="para_13_294_107">
+<p xml:id="para_13_294_107">
         En cas de maladie, et c'est d'ordinaire la bronchite simple qui vient en hiver tourmenter notre famille, on a recours aux conseils et aux soins d'un des meilleurs médecins de la commune, de celui qui a rendu tant de services aux mineurs. Les secours médicaux et les médicaments ne manquent pas, car il y a dans la commune six bonnes pharmacies. Les femmes en couches sont assistées par une sage-femme communale, à qui les pauvres gens ne donnent rien, mais à qui les maisons bourgcoises donnent 20 francs. Une sage-femme libre exerce également, mais ne jouit pas de la confiance générale.
        </p>
-       <p xml:id="para_13_294_108">
+<p xml:id="para_13_294_108">
         La commune entretient un médecin aux appointements fixes de 5.000 francs, et elle possède trois médecins libres. L'un d'eux, le docteur Alfonso Giordano, ému des affections graves qui frappent les mineurs
         <ref target="#part_03_01_23" type="renvoi_int_mono">
          (§ 23)
@@ -710,109 +709,109 @@
         </ref>
         pour les ouvriers de la société Rose, Gardner et Cᵉ.
        </p>
-       <p xml:id="para_13_295_110">
+<p xml:id="para_13_295_110">
         En général, les ouvriers des soufrières parviennent rarement à un âge avancé. Ils ont habituellement les dents gâtées ; leurs cheveux tom¬bent prématurément ; ils sont sujets à des inflammations des voies respiratoires, des organes visuels, parfois même de l'encéphale, par¬fois aussi à des rhumatismes chroniques. On y peut ajouter le retard de la puberté, la stérilité chez les femmes, la caducité précoce et la débilité générale
         <ref target="#part_03_01_23" type="renvoi_int_mono">
          (§ 23)
         </ref>
         .
        </p>
-      </div>
-      <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_01_05">
         § 5. RANG DE LA FAMILLE.
        </head>
-       <p xml:id="para_13_295_113">
+<p xml:id="para_13_295_113">
         L'honnêteté, la conduite irréprochable et réguliêre de l'ouvrier, son assiduité au travail, les longues années passées dans la même mine, sa grande expérience, la confiance qu'on lui a montrée en le destinant à devenir le chef capomaestro de la mine Giordano, sa fidé¬lité et son culte pour les traditions religieuses, lui ont assuré, ainsi qu'à sa famille, une sorte de supériorité morale sur les autres mi¬neurs de la commune. Comme situation de fortune, la famille est la plus heureuse parmi les ouvriers. Ce qui concourt à ennoblir et à re¬lever son nom, c'est l'instruction, l'honorabilité, la droiture du .fils prêtre, qui, très jeune, a su mériter la sympathie des fidèles. C'est une famille que l'on peut citer comme la plus sociable, la plus attachée aux institutions et aux coutumes du foyer, en même temps que la plus respectueuse envers les lois
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
         .
        </p>
-      </div>
-     </div>
-     <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
+</div>
+</div>
+<div n="002" type="sub_section">
+<head type="sub_section" xml:id="part_02_02">
        Moyens d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_13_295_117">
+<div subtype="proprietes_texte_1" type="proprietes">
+<p xml:id="para_13_295_117">
          (Mobilier et vêtements non compris.)
         </p>
-       </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_13_295_118">
+</div>
+<div subtype="immeubles" type="proprietes">
+<p xml:id="para_13_295_118">
          IMMEUBLES............ 14.000ᶠ00
         </p>
-        <p xml:id="para_13_295_119">
+<p xml:id="para_13_295_119">
          1° Maison d'habitation <ref target="#part_02_03_10" type="renvoi_int_mono">(§ 10)</ref>, sise à Lercara, provenant de la succession paternelle, et que l'ouvrier conserve avec un soin jaloux, 6.000ᶠ00.
         </p>
-        <p xml:id="para_13_295_120">
+<p xml:id="para_13_295_120">
          2° 13 ares 75 de terre, sur la colline de Croce, constituant le patrimoine du fils prêtre : mine de soufre autrefois exploitée, et abandonnée aujourd'hui parce qu'elle est inondée d'eau, 8.000ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_13_296_121">
-         <pb facs="#facs_325" n="296" source="lesouvriersdesd02soci_0348.xml"/> ANIMAUX DOMESTIQUES............ 96ᶠ00
+</div>
+<div subtype="animaux" type="proprietes">
+<p xml:id="para_13_296_121">
+<pb facs="#facs_325" n="296" source="lesouvriersdesd02soci_0348.xml"/> ANIMAUX DOMESTIQUES............ 96ᶠ00
         </p>
-        <p xml:id="para_13_296_122">
+<p xml:id="para_13_296_122">
          1 porc et 12 poules, 96ᶠ00.
         </p>
-       </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_13_296_123">
+</div>
+<div subtype="argent" type="proprietes">
+<p xml:id="para_13_296_123">
          ARGENT............ 1.500ᶠ00
         </p>
-        <p xml:id="para_13_296_124">
+<p xml:id="para_13_296_124">
          Somme mise en réserve par les deux époux et formant le fonds de roulement pour le ménage, 500ᶠ 00; — Épargnées ralisées depuis trois ans, époque à laquelle le fils prêtre a cessé d'etre à la charge de la famille, 600ᶠ 00; — Somme possédée à titre individuel (épargnes per¬sonnelles de la jeune fille) ; 400ᶠ00. — Total, 1.500ᶠ 00.
         </p>
-       </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_13_296_125">
+</div>
+<div subtype="materiel" type="proprietes">
+<p xml:id="para_13_296_125">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 238ᶠ30
         </p>
-        <p xml:id="para_13_296_126">
+<p xml:id="para_13_296_126">
          La famille possède fort peu de matériel de ce genre ; en voici la valeur : pour les pe¬tits travaux des femmes, 1ᶠ30 ; pour le blanchissage, 30ᶠ00; pour la confection et l'entre¬tien du linge, 17ᶠ00 ; pour les animaux domestiques, 10ᶠ 00. — Total, 238ᶠ30.
         </p>
-       </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_13_296_127">
+</div>
+<div subtype="proprietes_total" type="proprietes">
+<p xml:id="para_13_296_127">
          VALEUR TOTALE des propriétés............ 15.834ᶠ30
         </p>
-       </div>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
+</div>
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_07">
         § 7. SUBVENTIONS.
        </head>
-       <p xml:id="para_13_296_129">
+<p xml:id="para_13_296_129">
         La famille ne recoit ni gratifications en nature, ni secours en ar¬gent. Les conducteurs des mines ont depuis quelques années complè¬tement supprimé les étrennes qu'il était d'usage de donner aux chefs de mine, lors du renouvellement de l'année. On ne peut regarder comme subventions dont jouisse la famille que les cadeaux reçus par la ille, les d̂ners pris hors de la maison, les dons en vin et en fruits.
        </p>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
-        <p xml:id="para_13_296_132">
+<div subtype="ouvrier" type="travaux">
+<p xml:id="para_13_296_132">
          Travail de l'ouvrier, chef de famille. — L'ouvrier a un temps de tra¬vail déterminé et une rémunération invariable, comme chef capomaes¬tro des ouvriers employés aux mines Fiorentino et Giordano. Son en¬gagement avec le patron est volontaire et permanent. Ce système a l'avantage de lui assurer du travail pour l'année entière, tandis que les chefs des autres mines travaillent à la journée, mais ont 25à 50 cen¬times de plus par jour. Son travail est payé au prix fixe de 3 francs par jour, prix convenu et tarifé, comme ceux des autres travailleurs
          <ref target="#part_03_01_19" type="renvoi_int_mono">
           (§ 19)
          </ref>
          . Il est rarement obligé de travailler la nuit ; cela n'arrive qu'en cas d'accident, lorsqu'il s'agit de parer aux éboulements, aux chutes de voûtes qui peuvent se produire. Il ne travaille que les jours ordi¬naires, c'est-â-dire 300 jours de l'année ; il est libre, pour le culte <pb facs="#facs_326" n="297" source="lesouvriersdesd02soci_0349.xml"/> religieux et les fêtes de famille, les 65 autres jours. Son travail est plus intellectuel que manuel : il doit diriger l'ouvrage des pionniers (pirriatura) et celui des terrassiers (carusi) ; il a la redoutable respon¬sabilité de la vie des ouvriers ; il est, en conséquence, obligé de pré¬voir le danger et de suspendre les travau en temps opportun. Le tra¬vail est exécuté au compte eclusif de celui qui en acquitte les droits.
         </p>
-       </div>
-       <div type="travaux" subtype="fils_deuxieme">
-        <p xml:id="para_13_297_134">
+</div>
+<div subtype="fils_deuxieme" type="travaux">
+<p xml:id="para_13_297_134">
          Travail du deuxième fils. — Giachino est prêtre depuis deux ans et consacre son temps à l'exercice du saint ministère et à l'enseigne¬ment des enfants de l'école de la commune.
         </p>
-       </div>
-       <div type="travaux" subtype="femmes">
-        <p xml:id="para_13_297_135">
+</div>
+<div subtype="femmes" type="travaux">
+<p xml:id="para_13_297_135">
          Travail des femmes. — La femme et la fille de l'ouvrier répar¬tissent lèur temps à leur gré entre les divers travaux donestiques. Elles passent deux jours de la semaine à laver, raccommoder et repasser le linge de la maison. Le reste du temps, elles l'emploient à faire des bas à façon ou à coudre du linge. Ces petites industries procurent à la famille quelques ressources (
          <ref target="#part_02_05_14" type="renvoi_int_mono">
           § 14, sect. IV
@@ -823,198 +822,198 @@
          </ref>
          ).
         </p>
-       </div>
-      </div>
-     </div>
-     <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
+</div>
+</div>
+</div>
+<div n="003" type="sub_section">
+<head type="sub_section" xml:id="part_02_03">
        Mode d'existence de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_09">
         § 9. ALIMENTS ET REPAS.
        </head>
-       <p xml:id="para_13_297_139">
+<p xml:id="para_13_297_139">
         L'alimentation est simple, mais saine et suffisante car toute bonne organisation domestique a ici pour double principe de ne s'im¬poser aucune privation, mais de ne se laisser aller à aucune dépense ecagérée, à aucun luxe. On varie suivant les saisons, mais on se règle sur l'aisance ou la gêne du moment. On mange presque tous les jours de la viande, à l'exception, bien entendu, du vendredi et du samedi, des vigiles et des fêtes de dévotion particulière. On alterne la viande bouillie avec la viande cuite à l'étuvée, la viande frite avec la viande rôtie, selon les occupations du jour et le besoin d'une saine et forte nourriture. Le vendredi et le samedi on mangedu maigre, ordi¬nairement une soupe (minestra) aux herbes ou aux légumes. Les eufs que la famille consomme proviennent du poulailler ou s'achètent au marché, et font la collation du prêtre et de l'ouvrier, pendant que les 1emmes ont de la salade, des fruits frais ou secs, selon le temps. Le vin se fait à la maison, sur la fin d'octobre, époque où l'on achète le moût à bon marché, pour le tirer au clair selon les besoins de l'année. Quand la provision manque, on achéte du vin à la barrique, qui dure un mois en été et de quinze à vingt jours en hiver.
        </p>
-       <p xml:id="para_13_298_141">
-        <pb facs="#facs_327" n="298" source="lesouvriersdesd02soci_0350.xml"/> Chaque matin, à peine levés, tous prennent du café, préparé avec deux tiers de café mola et un tiers d'orge en grains (orao tallito). Les femmes préfèrent une tasse de lait froid, et en septembre et oc¬tobre un prenier déjeuner (antipasto) de figues d'Inde. Les repas ont lieu, l'été comme l'hiver, à 9 heures du matin, et à 3 heures et demie 4 heures de l'après-midi. A 9 heures du matin, les femmes et l'abbé, qui a déjà dit sa messe, déjeunent (colaione) à la maison avec un morceau de viande accommodé aux légumes, ou avec des œufs durs, une omelette au fromage, du pain, du vin et des fruits. L'ouvrier dé¬jeune dans les galeries des mines, ordinairement avec un morceau de viande froide préparée la veille, un œuf, du pain, un quart de litre de vin. A 3 heures et demie 4 heures de l'après-midi, en hiver, on com¬mence le diner (pranao) par une soupe aux herbes ou aux légumes, puis un rb̂ti de viande ou une friture de poissons, des herbes à l'huile ou sautées, vin et dessert ; en été, macaronis au jus ou aux tomates, viande et œufs. Les restes sont conservés pour le lendemain.
+<p xml:id="para_13_298_141">
+<pb facs="#facs_327" n="298" source="lesouvriersdesd02soci_0350.xml"/> Chaque matin, à peine levés, tous prennent du café, préparé avec deux tiers de café mola et un tiers d'orge en grains (orao tallito). Les femmes préfèrent une tasse de lait froid, et en septembre et oc¬tobre un prenier déjeuner (antipasto) de figues d'Inde. Les repas ont lieu, l'été comme l'hiver, à 9 heures du matin, et à 3 heures et demie 4 heures de l'après-midi. A 9 heures du matin, les femmes et l'abbé, qui a déjà dit sa messe, déjeunent (colaione) à la maison avec un morceau de viande accommodé aux légumes, ou avec des œufs durs, une omelette au fromage, du pain, du vin et des fruits. L'ouvrier dé¬jeune dans les galeries des mines, ordinairement avec un morceau de viande froide préparée la veille, un œuf, du pain, un quart de litre de vin. A 3 heures et demie 4 heures de l'après-midi, en hiver, on com¬mence le diner (pranao) par une soupe aux herbes ou aux légumes, puis un rb̂ti de viande ou une friture de poissons, des herbes à l'huile ou sautées, vin et dessert ; en été, macaronis au jus ou aux tomates, viande et œufs. Les restes sont conservés pour le lendemain.
        </p>
-       <p xml:id="para_13_298_142">
+<p xml:id="para_13_298_142">
         Le pain que consomme la famille est fait dans la maison par les femmes, une fois par semaine. C'est un pain d'une pâte forte, blonde, riche en substances alimentaires, ni trop lourde ni trop légère ; il est bien levé et fait de bonne farine de froment. C'est un bon pain rassis qui, lorsqu'il est cuit à point, durcit sans moisir. La croûte est d'une belle couleur blonde, lisse et sans crevasses. Il contient du son, parce qu'en blutant la farine on n'a pas eu la prévoyance de se servir d'un tamis assez fin.
        </p>
-       <p xml:id="para_13_298_143">
+<p xml:id="para_13_298_143">
         Le vin, également préparé dans la maison, est exempt de mélanges et de sophistications dangereuses.
        </p>
-       <p xml:id="para_13_298_144">
+<p xml:id="para_13_298_144">
         Sauf pour certaines fêtes, comme celles de Notre-Dame des Neiges, de Saint-Martin, de Noél, de Pâques, du premier de l'an, du carna¬val, ou pour quelques autres occasions assez rares, la famille ne change en rien sa manière de vivre. Dans ces circonstances, on ajoute un plat ou deux au repas, quelques douceurs ou quelque bouteille de bon vin de Sicile, mais on ne sort jamais des bornes de la tempé¬rance et de l'économie.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_13_298_147">
+<div subtype="par_10_texte_1" type="par_10">
+<p xml:id="para_13_298_147">
          La maison qu'habite Francesco G*** lui appartient; il l'a reçue en héritage de son père, et il la garde précieusement comme le sanc<pb facs="#facs_328" n="299" source="lesouvriersdesd02soci_0351.xml"/>tuaire des douces affections de famille. Elle occupe une étendue de 720 mètres carrés, a la forme d'un rectangle d'environ 36 mêtres de profondeur sur 20 mètres de facade, et comprend : un re-de¬chaussée de cinq pièces, avec un escalier ; un premier et un second étage contenant chacun trois pièces, plus une cuisine et deux petites chambres. On monte du rez-de-chaussée aux étages supérieurs par un escalier intérieur, un peu raide, mais bien régulier. La maison est construite en pierre calcaire du pays, et couverte en tuiles fabriquées à Lercara. La famille l'occupe tout entière ; le rez-de-chaussée sert aux diverses occupations domestiques, et recoit en dépôt les provi¬sions annuelles. La porte d'entrée du rez-de-chaussée est sur le côté de la maison et donne accès dans la pièce destinée aux affaires do¬mestiques (stana di trafjfco) ; deux portes intérieures, l'une en face, l'autre à gauche, mènent de cette premiêre pièce dans deux pièces de dépôt (stana di deposito) pour garder le bois, les légumes, le vin, les fruits secs, etc. La façade de la maison est occupée, au rez-de¬chaussée, par deux magasins que l'on loue à l'occasion et qui ont chacun leur porte d'entrée extérieure sur la rue.
         </p>
-        <p xml:id="para_13_299_149">
+<p xml:id="para_13_299_149">
          Le premier étage est l'appartement de l'abbé; il comprend : un sa¬lon, un cabinet salle d'étude et de réception, une chambre à coucher avec oratoire,' un cabinet de toilette et une bibliothèque. Le second étage est le logement de l'ouvrier avec le reste de la famille ; il se com¬pose d'une salle à manger, de la chambre à coucher du père et de la mêre, de la chambre à coucher de la fille et de la grand'mère ; enfin d'une petite garde-robe, de la cuisine et des cabinets d'aisances.
         </p>
-        <p xml:id="para_13_299_150">
+<p xml:id="para_13_299_150">
          Cette maison, située dans le quartier Garibaldi, rue Garibaldi, au midi, et au levant dans l'autre sens, est, des autres côtés, contiguee à d'autres maisons. Tout y est simple et y dénote l'amour de la pro¬preté et de l'ordre. Les meubles n'ont rien de remarquable ; ils sont de bois ordinaire, peints ou non, simples, modestes, mais solides et durables. Il y a dans l'ensemble un certain air d'aisance propre à une famille qui, fidêle au principe de la transmission intégrale, a reçu ce mobilier de ses parents, et l'a religieusement conservé en sou¬venir de jours plus heureux. Au dire de l'ouvrier, tous ces meubles correspondent à une certaine période d'aisance, où les débuts étant larges, on pouvait satisfaire aux exigences du moment, aux nécessités du bon ordre domestique. Dans la famille on trouve tout ce qui concerne l'habillement, la lingerie, les effets d'usage domestique, car, selon l'expression de la vieille mère, quand on manque des <pb facs="#facs_329" n="300" source="lesouvriersdesd02soci_0352.xml"/> meubles nécessaires, on manque nécessairement d'ordre, et l'on gas¬pille davantage parce que tout est moins soigné. En réalité, les meilleurs principes d'économie domestique enseignent qu'il faut dé¬penser 10 de plus, pour bien conserver 100; ce supplément de 10 en dépense décuple la durée du mobilier.
         </p>
-       </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_13_300_152">
+</div>
+<div subtype="meubles" type="par_10">
+<p xml:id="para_13_300_152">
          MEUBLES, Simples, mais bien tenus............ 1.471ᶠ25
         </p>
-        <p xml:id="para_13_300_153">
+<p xml:id="para_13_300_153">
          1° Literie. — 1 lit en fer, 18ᶠ00 ; — 1 1it à 2 places pour les parents, 35ᶠ00; — 1 lit en bois pour l'abbé, 60ᶠ00 ; — 5 matelas de laine, 250ᶠ00 ; — 3 matelas de crin végétal, 18ᶠ00 ; — 8 oreillers, 24ᶠ00 ; — 2 couvre-pieds pour lits à une place, et 1 pour lit à deux places,50ᶠ00 ; — 4 couvertures de laine, 36ᶠ00; — 4 couvertures blanches, 28ᶠ00 ; — 1 couvre-pieds, 8ᶠ00  — Total, pour les lits, 527ᶠ00.
         </p>
-        <p xml:id="para_13_300_156">
+<p xml:id="para_13_300_156">
          2° Mobilier de la chambre à coucher et du cabinet d'etude de l'abbé. — 2 grands coffres (cantarani) en acajou, 80ᶠ00; — 1 commode en noyer, 24ᶠ00; — 1 pendule, 30ᶠ00 ; — 1 glacec, 35ᶠ00; — 1 tapis, 6ᶠ00; — 1 porte-habits, 5ᶠ 00; — 10 porte-manteaux, 2ᶠ50; — 1 table a manger, 30ᶠ00; — 2 petites tables, 9ᶠ00; — 18 chaises, 54ᶠ00; — 6 chaises communes, 9 ᶠ00. — Total, 284ᶠ50.
         </p>
-        <p xml:id="para_13_300_158">
+<p xml:id="para_13_300_158">
          3° Mobilier de la cuisineˉ. — 1 armoire, 4ᶠ00; — 1 garde-manger, 6ᶠ00; — 2 chaises. 3ᶠ00; —  escabeau, 4ᶠ00; — 1 table de cuisine (buffet da trinciare), 18ᶠ00. — Total, 35ᶠ00.
         </p>
-        <p xml:id="para_13_300_159">
+<p xml:id="para_13_300_159">
          4° Objets relatifs au culte domestique. — 1 statue de Marie Immaculée, 76ᶠ50; — 3 cruci¬ix, 14ᶠ00; — 12 images encadrées, 60ᶠ00; — 1 statuette de saint oseph, 4ᶠ00; — 3 béni¬tiers, 3ᶠ00; — 4 chapclets, 6ᶠ25 ; — 4 cadres sculptés, 24ᶠ 00. — Total, 187ᶠ75.
         </p>
-        <p xml:id="para_13_300_160">
+<p xml:id="para_13_300_160">
          5° Livres de l'abbé et autres. — Livres d'étude, 336ᶠ00 ; — Livres de priéres, 90ᶠ00; — Livre de messe pour la jeune 1fille, 6ᶠ00; — Ofiees de la semaine sainte, 5ᶠ00. — Total,
         </p>
-       </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_13_300_161">
+</div>
+<div subtype="ustensiles" type="par_10">
+<p xml:id="para_13_300_161">
          USTENSILES, assez abondants et très bien soignés............ 180ᶠ95
         </p>
-        <p xml:id="para_13_300_162">
+<p xml:id="para_13_300_162">
          1° Servant a la consommation des aliments et à la cuisine. — 2 pots en fer, 6ᶠ00; — 2 casseroles, 5ᶠ00 ; — 3 marmites en terre, 1ᶠ25; — 1 crochet en fer pour suspendre la viande, 3ᶠ00; — 2 poêles, 3ᶠ40 ; — 1 corbeille à œufs, 1ᶠ25 ; — 1 boite en fer-blanc pour le sucre, 1ᶠ25 ; — 1 boite à café, 1ᶠ25 ; — 1 cafetière, 1ᶠ75 ; — 12 couverts en fer étamé, 3ᶠ00; — 1 douzaine de couteaux avec manches en os, 3ᶠ00; — 24 assiettes 3ᶠ60; — 24 assiettes pates, 3ᶠ20 ; — 21 assiettes à dessert, 4ᶠ00 ; — 2 plats et 1 saladier, 3ᶠ65 ; — 12 verres à bDoire, 3ᶠ00 ; — 2 salières, 0ᶠ30 ; — 6 tasses à café, 1ᶠ80; — 6 coquetiers, 0ᶠ90 ; — 1 couteau à découper, 0ᶠ75 ; — 6 couverts d'argent, 30ᶠ00; — 1 couvre-plat, 0ᶠ85 ; — 4 bouteilles; 4ᶠ40; — 1 pelle en fer et 1 paire de pincettes, 2ᶠ00; — 1 pot à lait, 0ᶠ80 ; — 2 boites, 0ᶠ70. — Total, 90ᶠ10.
         </p>
-        <p xml:id="para_13_300_166">
+<p xml:id="para_13_300_166">
          2° Servant à d'éclairage. — 3 lampes à pétrole, 10ᶠ25 ; — 1 suspension au pétrole, 8ᶠ00; — 1 lampe d'escalier, 1ᶠ75 ; — 1 lampe de cuisine, 0ᶠ65. — Total, 20ᶠ65.
         </p>
-        <p xml:id="para_13_300_168">
+<p xml:id="para_13_300_168">
          3° Servant à la toilette et a quelques autres usages. — 2 petits mroirs, 2ᶠ50; — 1 brosse à habits, 2ᶠ80: — 3 peignes, 2ᶠ30; — 1 sac de voyage, 5ᶠ00 ; — 3 paniers, 0ᶠ80 ; — 1 cor¬eille, 3ᶠ00 ; — 1 carton à chapeau pour l'abbé, 3ᶠ00; — 1 valise, 9ᶠ00; — 2 vases à fleurs. 2ᶠ 00; — 1 brasier de cuivre jaune, 8ᶠ75 ; — 1 pied pour le brasier, 6ᶠ00 ; — 2 brosses à sou¬i ers, 1ᶠ90; — 1 brosse à cheveux, 1ᶠ25 ; — 3 bidets, 106ᶠ 00 ; — 2 commodités, 4ᶠ40 ; — 3 vases de nuit, 1ᶠ50. — Total, 70ᶠ20.
         </p>
-       </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_13_300_170">
+</div>
+<div subtype="linge" type="par_10">
+<p xml:id="para_13_300_170">
          LINGE DE MAISON, entretenu avec grand soin............ 206ᶠ50
         </p>
-        <p>
+<p>
          8 paires de draps, 120ᶠ 00 ; — 18 serviettes de table, 36ᶠ 00; — 1 napperon, 1ᶠ 00 ; — 2 nappes de table, 12ᶠ 00; — 1 nappe de plus grosse toile, 3ᶠ 00; — 12 essue-mains, 30ᶠ 00; — 6 linges à toilette, 4ᶠ 50. — Total, 206ᶠ 50.
         </p>
-       </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_13_301_171">
-         <pb facs="#facs_330" n="301" source="lesouvriersdesd02soci_0353.xml"/> VÊTEMENTS : d'un caractère professionnel............ 1.110ᶠ40
+</div>
+<div subtype="vetements" type="par_10">
+<p xml:id="para_13_301_171">
+<pb facs="#facs_330" n="301" source="lesouvriersdesd02soci_0353.xml"/> VÊTEMENTS : d'un caractère professionnel............ 1.110ᶠ40
         </p>
-        <p xml:id="para_13_301_172">
+<p xml:id="para_13_301_172">
          VETEMENS DU PÈRE
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (voir le détail au § 16 F.)
          </ref>
          , 245ᶠ80.
         </p>
-        <p xml:id="para_13_301_173">
+<p xml:id="para_13_301_173">
          VÊTEMENTS DES FEMMES
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (§ 16 F)
          </ref>
          , 454ᶠ30.
         </p>
-        <p xml:id="para_13_301_174">
+<p xml:id="para_13_301_174">
          VÊTEMENTS DE L'ABBÉ
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (§ 16 F)
          </ref>
          , 410ᶠ30.
         </p>
-       </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_13_301_175">
+</div>
+<div subtype="par_10_total" type="par_10">
+<p xml:id="para_13_301_175">
          VALEUR TOTALE du mobilier et des vêtements............ 2.969ᶠ10
         </p>
-       </div>
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
+</div>
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_03_11">
         § 11. RÉCRÉATIONS.
        </head>
-       <p xml:id="para_13_301_178">
+<p xml:id="para_13_301_178">
         La vie sobre et régulière de la famille nous explique la simplicité des récréations dont elle se contente. L'ouvrier se complait habituel¬lement le soir dans les réunions de la famille ; il les partage agréable¬ment avec ses voisins, le dimanche, après diner. Le fils aîné, Vit6 et la belle-fille, presque tous les jours, après le diner, descendent chez notre ouvrier, et viennent passer la soirée à causer d'affaires et quelquefois à jouer aux cartes. En hiver, pendant les longues veil¬lées, l'ouvrier raconte à ses enfants quelques épisodes de son exis¬tence, ou quelques anecdotes intéressantes concernant la vie de ses parents défunts. Il entretient chez eux les traditions d'affection et d'honneur domestique propres aux familles qui, au sein d'un bien¬être relatif, gardent le culte de ceux dont ils ont reçu la vie morale aussi bien que la vie matérielle. En été, les jours de repos ou de fête se passent souvent à la campagne, où l'on va, l'après-midi, cueillir sur les arbres des fruits nouveaux. C'est une grande joie de rompre avec le train ordinaire de la vie, pour prendre part à la vendange et à la récolte des olives.
        </p>
-       <p xml:id="para_13_301_179">
+<p xml:id="para_13_301_179">
         L'abbé, après s'être acquitté des devoirs de son ministère, aime, vers la chute du jour, en compagnie de ses confrères ou de quelques laiques, se délasser le long de la route, en respirant l'air pur de la campagne. Quand sonne l'Anedus, il récite la prière du soir ; puis, à la nuit, va dans telle ou telle maison, où il y a une amande à casser, ou un doigt de bon vin à goûter ; on fait la partie de tressette ou de sco¬pone, lorsqu'à la table de jeu sont assis le curé et le vicaire.
        </p>
-       <p xml:id="para_13_301_180">
+<p xml:id="para_13_301_180">
         L'ouvrier n'a nullement l'habitude de fréquenter les cabarets ; il fit les sociétés de dissipateurs et de désœuvrés ; le bruit et la bombance qui s'y font l'attristent et le choquent, loin de le divertir. Pendant le temps du carnaval, il prend part aux divertissements de famille, et quelquefois, pour faire diversion, la femme et les enfants <pb facs="#facs_331" n="302" source="lesouvriersdesd02soci_0354.xml"/> ne craignent pas de se déguiser et de se mêler joyeusement à la bande des danseurs.
        </p>
-       <p xml:id="para_13_302_182">
+<p xml:id="para_13_302_182">
         Quand quelque troupe de comédiens ouvre un théâtre dans la com¬mune, l'ouvrier mène sa famille au spectacle, persuadé que non seulement le théàtre divertit, mais qu'en outre il instruit, selon la vieille devise : Castigat ridendo mores.
        </p>
-      </div>
-     </div>
-     <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
+</div>
+</div>
+<div n="004" type="sub_section">
+<head type="sub_section" xml:id="part_02_04">
        Histoire de la famille
       </head>
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_12">
         § 12. PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
-       <p xml:id="para_13_302_186">
+<p xml:id="para_13_302_186">
         La vie d'une famille d'aouvrier mineur ne s'écoule pas douce et fa¬cile comme celle d'un villageois ou d'un artisan chef de métier. La famille G** a reçu du père de son chef la propriété des immeubles qu'elle possède ; elle en a reçu également un clos planté d'arbres que les circonstances l'obligèrent à vendre, lorsque, pour éviter les soucis d'un procês, il fallut faire face à de grands sacrifices d'argent. Mais la maison fut scrupuleusement conservée, et elle a été améliorée ; on conservera la mine de soufre, que l'on espère un jour pouvoir ex¬ploiter, ou donner à mettre en culture. Tout cela sera transmis aux enfants pour les rattacher aux souvenirs de famille. Telles sont les grandes lignes de cette existence.
        </p>
-       <p xml:id="para_13_302_187">
+<p xml:id="para_13_302_187">
         Né a Lercara d'un père agriculteur propriétaire, qui lui-même était ils de villageois, Francesco G*** n'a jamais quitté le pays natal. Dans sa jeunesse, redoutant la vie rurale, tandis qu'un de ses frères entrait dans une fabrique de pâtes alimentaires, que l'autre, plus intelligent, avec le secours de l'évêque, faisait ses études au séminaire de Palerme, il apprit l'état de cordonnier. Cette industrie, très développée depuis 1819 dans les pays traversés par les grandes routes royales, lui four¬nit les moyens de soulager la gêne de ses parents, puis d'entrer lui¬même en ménage. A vingt-quatre ans, il épousalRosalia Gr**, fille d'un artisan aisé. Après quelques mois de mariage, il fut de ceux qui, en 1848, réclamèrent et défendirent la constitution. En 1850, incorporé dans la garde nationale, il mérita un rapide avancement jusqu'au grade <pb facs="#facs_332" n="303" source="lesouvriersdesd02soci_0355.xml"/> de capitaine, et tout le monde lui donne journellement ce titre avec le respect dû à un homme qui jouit de l'estime générale.
        </p>
-       <p xml:id="para_13_303_189">
+<p xml:id="para_13_303_189">
         Voyant, dès 1848, le développement toujours croissant de l'indus¬trie du soufre, il résolut de travailler aux mines et commença comme terrassier (sterratore), puis il se fit admettre comme pionnier (ou pio¬cheur, picconiere) ; enfin, avec le fruit de ses économies, il fit comme tâcheron l'entreprise, à moitié frais, et finit par devenir chef de mine (capomaestro), dirigeant les fouilles et prenant la responsabilité du tra¬vail. C'est en cette qualité qu'il entra, en 1852, à une mine de Ma¬dora, et qu'il y resta quatore ans, gagnant 5 francs par jour. II fut ensuite, aux mêmes appointements, pendant neuf ans, à une mine de Friddi, et à celle de Romano pendant cinq ans. Il passa enfin dans les mines Giordano et Fiorentino, en 1880, époque où l'industrie soufrière commenca à décliner. Le salaire fut réduit à 4ᶠ75 ; il est aujourd'hui de 4 francs et, dans certaines conditions, de 3 francs.
        </p>
-       <p xml:id="para_13_303_190">
+<p xml:id="para_13_303_190">
         Francesco G*** eut de son mariage six enfants. Maria, Antonino et Pietro sont morts ; Vito, Giachino et Stefania sont seuls survivants. Pietro mourut du croup, à huit ans. Mariaet Antonino, jeunes encore. périrent tous deux de mort violente. Maria reçut de son frère Antonino un coup de revolver parti par accident. Seize mois après ce mal¬heur, Antonino lui-même fut, une nuit, assailli par d'audacieux mal¬faiteurs qui l'emportêrent au loin dans la campagne et le tuèrent. Le procès qui s'ensuivit attribua le crime à la jalousie. Des deux assas¬sins, l'un mourut en prison préventive, l'autre fut condamné à vingt ans de travaux forcés.
        </p>
-       <p xml:id="para_13_303_191">
+<p xml:id="para_13_303_191">
         Le fil Vito resta deu ans, dans le corps de l'infanterie, à l'armée du roi. Soldat de mœurs irréprochables, et attaché à tous ses devoirs, il sortit avec le grade de caporal fourrier, du 30° régiment, 10 com¬pagnie. Il se maria peu d'anées après, et se mit dans son ménage ; mais, toujours attaché à la maison paternelle, il est resté docile aux conseils de son capitaineˉ. Il y eut recours quand il dut songer à choi¬sir un travailmanuel ou à entreprendre une industrie pour nourrir sa femme et sa famille naissante.
        </p>
-       <p xml:id="para_13_303_192">
+<p xml:id="para_13_303_192">
         En somme, nous pouvons dire que les conditions d'existence de la famille G** n'ont jamais été rudes ; elles ont même été en s'a¬méliorant, et aujourd'hui, comptant un prêtre parmi ses membres, elle a vu s'accroître autour d'elle la considération et l'estime. Pour¬tant il y a eu une sombre page dans cette simple histoire. Après l'as¬sassinat de leur fils Antonino, les parents furent contraints, pour faire <pb facs="#facs_333" n="304" source="lesouvriersdesd02soci_0356.xml"/> face aux frais judiciaires, de vendre un fonds de terre, et de louer le premier étage de leur maison à un personnagc qui n'était pas aimé dans la commune. En 1877, deux misérables, restés inconnus, prati¬quèrent autour de la maison qu'habitait ce personnage détesté une mine à laquelle ils mirent le feu ; il en résulta des dégâts pour 3.000 francs environ, sans aucun malheur de personnes. La famille G*** dut, pendant plusieurs années, s'ôter les morceaux de la bouche. pour réparer le mal fait à l'habitation par cet abominable attentat.
        </p>
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_04_13">
         § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
        </head>
-       <p xml:id="para_13_304_196">
+<p xml:id="para_13_304_196">
         C'est dans sa frugalité, dans ses habitudes invétérées d'ordre, de travail et d'économie, dans l'union et la bonne entente de tous ses embres, que la famille trouve de solides garanties de bien-être et de sécurité. Vouée au culte du foyer paternel, toujours préoccupée du lendemain, elle a fait chaque année, d'un commun accord, les épargnes nécessaires pour instruire le fils Giachino et pour lui ou¬vrir la carrière ecclésiastique.
        </p>
-       <p xml:id="para_13_304_197">
+<p xml:id="para_13_304_197">
         Plus confiante dans la Providence que dans les calculs de l'intéret atériel, elle a persisté à croire que la présence dans la maison d'un homme de mérite entouré de respect serait une meilleure garantie de bien-être que la possession d'un capital accumulé ou destiné aux trafics de l'usure.
        </p>
-       <p xml:id="para_13_304_198">
+<p xml:id="para_13_304_198">
         Depuis le jour où elle s'est constituée (11 janvier 1871), Frances¬e G*** a toujours fait partie d'une société d'ouvriers soufriers fondée sous le titre : Faternitéet rrail (ˉratehanaa e Lauvoro), par le Dʳ Al¬phonse Giordano. Notre ouvrier en a été président pendant sept ans, et, ayant cédé la présidence, il est maintenant du conseil. Cette associa¬tion ne procure aucun avantage actuel, les fonds en caisse étant destinés aux ouvriers malheureux ou malades. Le fonds de caisse est constitué au moyen des minimes cotisations des sociétaires stagiaires et des sociétaires effectifs. En cas de maladie, le sociétaire momen¬tanément empêché de vaquer à ses occupations a droit à l'assistance du médecin, aux médicaments gratuits et à un secours à partir du jour où il a donné avis régulier de la maladie au médecin de la So¬eiété. Les membres de la famille du sociétaire qui tombent malades <pb facs="#facs_334" n="305" source="lesouvriersdesd02soci_0357.xml"/> ont droit seulement à l'assistance du médecin. Le secours journalier encas de maladie est fixé à 1 franc par jour pour tous les sociétaires effectifs, et 60 centimes pour les sociétaires stagiaires. Celui dont la maladie est le résultat d'une rixe, ou de l'abus des boissons alcooliques. est justement déchu de son droit de secours, mais on lui accorde les soins du médecin. Cne autre disposition des statuts prononce la radiation de tout sociétaire vivant notoirement avec une femme pu¬blique, ou coupable du déshonneur d'une famille. Le secours accordé par la Société ne peut avoir que la durée de quatre mois pendant l'année. Notre ouvrier n'en a jamais bénéficié, et il souhaite de n'en avoir jamais hesoin.
        </p>
-       <p xml:id="para_13_305_200">
+<p xml:id="para_13_305_200">
         La Société se charge, avec tous les moyens dont elle peut disposer, de procurer à ses membres l'instruction nécessaire, la connaissance des droits et des devoirs del'home. les principes les plus usuels de l'hygiène domestique. 'lout sociétaire illettré est obligé d'apprendre à lire, à écrire et à compter ; l'instruction est aussi obligatoire pour les enfants. En ce qui concerne les sociétaires, la Société y pourvoit par les conférences du dimanche et par les cours du soir qui ont lieu dans la saison d'hiver, pendant un temps déterminé. La municipalité se charge de fournir les moyens d'instruction aux enfants. Il résulte des statistiques de la commune que di écoles primaires y sont ou¬vertes, cinq pour les garçons et cinq pour les filles. Elles sont fré¬quentées par 500 enfants en moyenne, soit 270 garçons et 230 filles. L'obligation de l'instruction primaire n'a pas changé les conditions de ces écoles. La municipalité ne s'est pas préoccupée de contraindre les familles à obéir à la loi ; les parents s'en sont encore moins oc¬cupés, car ils ne songent qu'à mettre, dès le jeune âge, les enfants au travail, sans souci d'épuiser prématurément leurs forces physiques et intellectuelles. Le député Finocchiaro Aprile a obtenu, dans les der¬niers mois de cette année, du ministre de l'Instruction publique, une subvention pour élever à Lercara un bâtiment scolaire municipal, et pour y fonder un cours technique et un gymnase élémentaire. Puis¬qu'on applaudit à cette idée, pourquoi ne pense-t-on pas sérieusement à rendre exécutoire la loi sur l'instruction primaire2
        </p>
-       <p xml:id="para_13_305_201">
+<p xml:id="para_13_305_201">
         Nous devons, en terminant, signaler tout le bien que fait la société Fraternité et travail, et la bonne réputation dont jouit tout sociétaire auprès de l'autorité publique.
        </p>
-      </div>
-     </div>
-     <div n="005" type="sub_section">
-      <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
+</div>
+</div>
+<div n="005" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_14">
         § 14. BUDGET DES RECETTES DE L'ANNÉE.
        </head>
-       <pb facs="#facs_335" n="306" source="lesouvriersdesd02soci_0358.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_335" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_306_203">
+<pb facs="#facs_335" n="306" source="lesouvriersdesd02soci_0358.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_335" url="#"/>
+</figure>
+<!--<p xml:id="para_13_306_203">
         SOURCES DES RECETTES.
         </p>
         <p xml:id="para_13_306_204">
@@ -1104,18 +1103,18 @@
         <p xml:id="para_13_306_232">
         Allocations diverses provenant de bonnes relations..............................
         </p>-->
-       <pb facs="#facs_336" n="307" source="lesouvriersdesd02soci_0359.xml"/>
-       <!--<p xml:id="para_13_307_234">
+<pb facs="#facs_336" n="307" source="lesouvriersdesd02soci_0359.xml"/>
+<!--<p xml:id="para_13_307_234">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_336" url="#" xml:id="tble_13_307_2"/>
-       </figure>
-       <pb facs="#facs_337" n="308" source="lesouvriersdesd02soci_0360.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_336" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_308_235">
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_336" url="#" xml:id="tble_13_307_2"/>
+</figure>
+<pb facs="#facs_337" n="308" source="lesouvriersdesd02soci_0360.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_336" url="#"/>
+</figure>
+<!--<p xml:id="para_13_308_235">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>
         <p xml:id="para_13_308_236">
@@ -1184,11 +1183,11 @@
         <p xml:id="para_13_308_257">
         Blanchissage et repassage des vêtements et du linge de la famille. Confection, entretien et raccommodage des vêtements et du linge. EMploitation des animaux domestiques...............:...:.........
         </p>-->
-       <pb facs="#facs_338" n="309" source="lesouvriersdesd02soci_0361.xml"/>
-       <figure rend="portrait" type="cptes_recettes">
-        <graphic facs="#facs_338" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_309_259">
+<pb facs="#facs_338" n="309" source="lesouvriersdesd02soci_0361.xml"/>
+<figure rend="portrait" type="cptes_recettes">
+<graphic facs="#facs_338" url="#"/>
+</figure>
+<!--<p xml:id="para_13_309_259">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>
         <p xml:id="para_13_309_260">
@@ -1251,20 +1250,20 @@
         <p xml:id="para_13_309_279">
         Recette
         </p>-->
-      </div>
-      <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_15">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE (sudite).
        </head>
-       <pb facs="#facs_339" n="310" source="lesouvriersdesd02soci_0362.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_339" url="#" xml:id="tble_13_310_3"/>
-       </figure>
-       <pb facs="#facs_340" n="311" source="lesouvriersdesd02soci_0363.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_340" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_311_282">
+<pb facs="#facs_339" n="310" source="lesouvriersdesd02soci_0362.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_339" url="#" xml:id="tble_13_310_3"/>
+</figure>
+<pb facs="#facs_340" n="311" source="lesouvriersdesd02soci_0363.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_340" url="#"/>
+</figure>
+<!--<p xml:id="para_13_311_282">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE (sudite).
         </p>
         <p xml:id="para_13_311_283">
@@ -1360,11 +1359,11 @@
         <p xml:id="para_13_311_313">
         des objets consommés en nature.
         </p>-->
-       <pb facs="#facs_341" n="312" source="lesouvriersdesd02soci_0364.xml"/>
-       <figure rend="portrait" type="cptes_depenses">
-        <graphic facs="#facs_341" url="#"/>
-       </figure>
-       <!--<p xml:id="part_02_05_15">
+<pb facs="#facs_341" n="312" source="lesouvriersdesd02soci_0364.xml"/>
+<figure rend="portrait" type="cptes_depenses">
+<graphic facs="#facs_341" url="#"/>
+</figure>
+<!--<p xml:id="part_02_05_15">
         § 15. BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>
         <p xml:id="para_13_312_315">
@@ -1445,16 +1444,16 @@
         <p xml:id="para_13_312_339">
         433ᶠ60 3.
         </p>-->
-      </div>
-      <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_02_05_16">
         § 16. COMPTES ANNEXÉS AUX BUDGETS.
        </head>
-       <pb facs="#facs_342" n="313" source="lesouvriersdesd02soci_0365.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_342" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_313_342">
+<pb facs="#facs_342" n="313" source="lesouvriersdesd02soci_0365.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_342" url="#"/>
+</figure>
+<!--<p xml:id="para_13_313_342">
         SECTION I.
         </p>
         <p xml:id="para_13_313_343">
@@ -1556,11 +1555,11 @@
         <p xml:id="para_13_313_375">
         Total comme ci-dessus................:
         </p>-->
-       <pb facs="#facs_343" n="314" source="lesouvriersdesd02soci_0366.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_343" url="#" xml:id="tble_13_314_5"/>
-       </figure>
-       <!--<p xml:id="para_13_314_377">
+<pb facs="#facs_343" n="314" source="lesouvriersdesd02soci_0366.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_343" url="#" xml:id="tble_13_314_5"/>
+</figure>
+<!--<p xml:id="para_13_314_377">
         SECTION II.
         </p>
         <p xml:id="para_13_314_378">
@@ -1569,15 +1568,15 @@
         <p xml:id="para_13_314_379">
         Les subventions ne donnent lieu à aucun compte particulier.
         </p>-->
-       <pb facs="#facs_344" n="315" source="lesouvriersdesd02soci_0367.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_344" url="#" xml:id="tble_13_315_6"/>
-       </figure>
-       <pb facs="#facs_345" n="316" source="lesouvriersdesd02soci_0368.xml"/>
-       <figure rend="portrait" type="cptes_annexes">
-        <graphic facs="#facs_345" url="#"/>
-       </figure>
-       <!--<p xml:id="para_13_316_382">
+<pb facs="#facs_344" n="315" source="lesouvriersdesd02soci_0367.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_344" url="#" xml:id="tble_13_315_6"/>
+</figure>
+<pb facs="#facs_345" n="316" source="lesouvriersdesd02soci_0368.xml"/>
+<figure rend="portrait" type="cptes_annexes">
+<graphic facs="#facs_345" url="#"/>
+</figure>
+<!--<p xml:id="para_13_316_382">
         ART. 3. — MÈTEMENTS DU FILS PRÈTRE.
         </p>
         <p xml:id="para_13_316_383">
@@ -1646,69 +1645,69 @@
         <figure type="illustration">
         <graphic facs="#facs_345" url="#" xml:id="illu_13_316_7"/>
         </figure>-->
-      </div>
-     </div>
-     <div n="003" type="section">
-      <head type="section" xml:id="part_03">
+</div>
+</div>
+<div n="003" type="section">
+<head type="section" xml:id="part_03">
        ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE
       </head>
-      <p xml:id="para_13_317_404">
+<p xml:id="para_13_317_404">
        FAITS IMPORTANTS D'ORGANISATION SOCIALE;
       </p>
-      <p xml:id="para_13_317_405">
+<p xml:id="para_13_317_405">
        PARTICULARITÉS REMARQUABLES ;
       </p>
-      <p xml:id="para_13_317_406">
+<p xml:id="para_13_317_406">
        APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.
       </p>
-      <div n="001" type="sub_section">
-       <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">
+<div n="001" type="sub_section">
+<div n="001" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_17">
          § 17. LES GISEMENTS DE SOUFRE DE LERCARA-FRIDDI.
         </head>
-        <p xml:id="para_13_317_409">
-         <pb facs="#facs_346" n="317" source="lesouvriersdesd02soci_0369.xml"/> Aux renseignements généraux sur les gisements de soufre que fournit le
+<p xml:id="para_13_317_409">
+<pb facs="#facs_346" n="317" source="lesouvriersdesd02soci_0369.xml"/> Aux renseignements généraux sur les gisements de soufre que fournit le
          <ref target="#part_02_01_01" type="renvoi_int_mono">
           § 1ᵉ
          </ref>
          , il est indispensable de joindre des détails précis et développés. Le soufre est très abondant dans les deux collines de Groce et de Friddi qui dominent le pays. Le filon a 2 kilomêtres, dans sa plus grande) longueur, et va de Friddi à la colline de Serio, ou du niord au sud ; sa largeur est de 1 kilomètre de la colline de Madora à la colline de Croce, ou de l'est à l'ouest. Mais le minerai de soufre n'occupe pas toute cette étendue. Dans les intervalles des quatre groupes de gisements, on remarque de notables variations, et de chacun d'eux on extrait une masse distincte. L'interruption n'est peut-être pas absolue entre la colline de Madora et la colline de Serio, mais si le dépôt de soufre subsiste encore, il y subit un rétrécissement qui pratiquement équivaut à une solution de continuité. Le groupe de la colline de Croce est le plus riche et le plus étendu. Une fois qu'on a mis le pied dans la mine, on ne voit jusqu'au fond que minerai de soufre. Ce n'est qu'à une plus grande profondeur que la stratifica¬tion apparait, et que s'y intercalent deux de ces couches minces d'ar¬gile bitumineuse qu'on désigne sous le nom de partimenti (sépara¬tions). Leur épaisseur varie depuis quelques centimètres jusqu'à 1ᵐ50. Le groupe de Friddi est moins étendu. Le gisement y est divisé en partimenti plus serrés, et il a une puissance qui a été reconnue supé rieure à 25 mètres. A la colline de Madora, il y a quatre bancs de mi¬nerai séparés par des bancs de marne et de ballatini ou gypses de texture schisteuse associés à la marne. Dans le banc supérieur, le mi<pb facs="#facs_347" n="318" source="lesouvriersdesd02soci_0370.xml"/>nerai est disposé par bandes ; dans les deux suivantes, il est poreux, on le nomme perciuliato et il est formé de calcaire à petits grains avec du soufre dispersé dans ses cavités. D'après le chevalier Antonio Fabri, ingénieur, les strates se succéderaient de la façon suivante :
         </p>
-        <p xml:id="para_13_318_411">
+<p xml:id="para_13_318_411">
          a Minerai dispesé par bandes d'une puissance de 6 à 10 mètres ;</p>
-        <p>
+<p>
          b Partimento, de 2 mètres environ ;
         </p>
-        <p>
+<p>
          c Minerai perciuliato, d'une puissance de 2 à 3 mètrcs ;
         </p>
-        <p>
+<p>
          d Partimento, de 5 à 6 mètres ;
         </p>
-        <p> 
+<p> 
          e Minerai perciuldiato, d'une puissance de 3,50 a 4 mètres ;
         </p>
-        <p>
+<p>
          f Partimento, de 2 à 4 mètres ;
         </p>
-        <p>
+<p>
          g  Autre banc de minerai, de 3,50 à 4 mètres ;
         </p>
-        <p>
+<p>
          h Gypses.
         </p>
-        <p xml:id="para_13_318_413">
+<p xml:id="para_13_318_413">
          Il en résulterait une puissance utile de 15 à 50 mètres. A la pro¬fondeur de 75 mètres environ, le banc supérieur est diminué par la présence des gypses, et disparait presque entièrement. Maintenant, les ouvriers travaillent spécialement dans les couches de perciuliato qui donnent un soufre de seconde qualité. A la colline de Serio, où les couches de minerai se perdent dans le gypse, les partimenti ont une épaisseur de 30à 70centimètres. La puissance du minerai à la colline de Croce varie de 40 à 60mêtres ; elle est analogue à celle de Friddi. Elle varie de 15 à 20 mètres, à Madora ; elle est de 3 à 10 mètres à Serio.
         </p>
-        <p xml:id="para_13_318_414">
+<p xml:id="para_13_318_414">
          La stratification des quatre collines forme un bassin minier qui par son inclinaison à peu près concentrique, facilite l'œuvre de l'épuisement des eaux en commun. Les collines sont situées sur quatre points opposés deux à deux, comme aux sommets d'une sorte de lo¬sange irrégulier ; comme les couches des deux collines opposées ont leurs pentes en sens contraire, le gisement de soufre a réellement la forme d'un bassin. Les collines de Friddi et de Serio sont en face l'une de l'autre. Les couches de la colline de Serio sont inclinées d'environ 20°dans la direction de l'est-nord-est, tandis que celles de Friddi vont vers le sud, avec une inclinaison d'environ 23°. Les collines de Croce et de Madora sont presque sur la ligne est-ouest. La stratification de la première se dirige vers le nord-sud-ouest, et plonge à l'est avec une pente de 16 à 40°; la seconde va directement du nord à l'ouest, et plonge vers l'ouest-sud-ouest, avec une inclinaison qui varie de 17ᵉ à 37° ou 40°. Les eaux, dirigées par des couches imperméables, se Téunissent au centre du bassin, au milieu duquel une seule machine à épuisement peut sufire à tenir étanches toutes les mines ouvertes dans les quatre collines, et qui forment un groupe pour chaque col line. Le tableau suivant indique leurs dénominations, leur champ d'exploitation, et leurs exploitants.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_6">
+<figure rend="portrait" type="table">
+<head resp="added" type="table" xml:id="figure_6">
           Liste des quatre groupes miniers et supercifies de leurs subdivisions (notes annexes)
          </head>
-         <graphic facs="#facs_348" url="#"/>
-        </figure>
-        <!--<p xml:id="para_13_319_415">
+<graphic facs="#facs_348" url="#"/>
+</figure>
+<!--<p xml:id="para_13_319_415">
          GROUPE DE CROCE.
          </p>
          <p xml:id="para_13_319_416">
@@ -1765,114 +1764,114 @@
          <p xml:id="para_13_319_433">
          Bongiovanni, 2,62 ..........:.......................:.... Bongiovanni, exploitant
          </p>-->
-        <p xml:id="para_13_319_434">
-         <pb facs="#facs_348" n="319" source="lesouvriersdesd02soci_0371.xml"/> Les plus prospères sont les mines Sartorio et celles exploitées par la Société Gardner et Rose. Leur production s'élève annuellement à une moyenne de 1.800 tonnes, tandis que toutes les autres ensemble ne dépassent pas 80 tonnes.
+<p xml:id="para_13_319_434">
+<pb facs="#facs_348" n="319" source="lesouvriersdesd02soci_0371.xml"/> Les plus prospères sont les mines Sartorio et celles exploitées par la Société Gardner et Rose. Leur production s'élève annuellement à une moyenne de 1.800 tonnes, tandis que toutes les autres ensemble ne dépassent pas 80 tonnes.
         </p>
-       </div>
-       <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">
+</div>
+<div n="002" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_18">
          § 18. DÉVELOPPEMENT ET VICISSITUDES DE L'INDUSTRIE SOUFRIÈRE.
         </head>
-        <p xml:id="para_13_319_437">
+<p xml:id="para_13_319_437">
          En 1828, un fait accidentel fit concevoir aux propriétaires des ter¬rains des quatre collines ci-dessus décrites le soupçon que le sous¬sol de leurs propriétés recelait une richesse ignorée : le soufre. Les essais de fouilles et de fusions donnèrent de séduisants résultats.
         </p>
-        <p xml:id="para_13_319_438">
+<p xml:id="para_13_319_438">
          Les premières explorations eurent lieu en 1830, à Serio, puis, peu après, à Croce, et enfin à Madora. Dès 1832 les bénéfices furent très encourageants ; aussitôt les capitaux et les bras, s'éloignant de l'agri¬culture, prirent cette nouvelle direction. A Friddi, les recherches ne datent que de 1846, dit-on, mais les mines n'y eurent une certaine importance que huit ou neu ans après. Les mines de la colline de Croce et celles de Lercara prirent en quelques années le développe¬ment que comportaient la qualité et la quantité des produits. A Ler¬cara, dès les premières années de l'exploitation, les mines eurent une <pb facs="#facs_349" n="320" source="lesouvriersdesd02soci_0372.xml"/> allure uniforme. A mesure que l'on fouillait, on pratiqua dans la roche même des escaliers de descente dont les degrés, de 10 à 60 centimètres de hauteur, se développaient au milieu de galeries, tantôt à peine assez larges pour le passage d'un homme, tantôt assez spa¬cieuses et assez élevées pour permettre la libre circulation, tantôt si basses qu'on s'y glissait avec peine le dos courbé ou à plat ventre. Pour les soutenir, on ménageait dans la masse des piliers naturels. trop souvent remaniés pour des nécessités ultérieures. Tout cela se fit au hasard selon l'abondance du minerai, selon la facilité du travail. Il en résulta bientôt un enchevêtrement de grandes excavations, su¬perposées à plusieurs étages, appuyées sur des piliers tantôt trop frêles, tantôt reposant sur le vide en dessous ; vaste et fragile édifice où le moindre faux mouvement devait entraîner d'effroyables catas¬trophes ; la cupidité et la lésinerie des entrepreneurs en accéléra l'é¬vénement. Quand la présence de l'eau empêcha de pousser plus avant les travaux, on amincit les piliers des anciens chantiers ; en même temps on poussa les fouilles sur une vaste étendue. Dans les gisements moins puissants des autres groupes, comme dans la solfatare de la colline de Serio, les travaux d'affouillement furent conduits d'une manière plus sage.
         </p>
-        <p xml:id="para_13_320_440">
+<p xml:id="para_13_320_440">
          Pendant ies dernières années qui précédèrent 1860, les fouilles se poursuivirent avec une activité inimaginable, et en 1859, la produc¬tion atteignit un maximum auquel elle n'est plus parvenue. Mais la période des revers et des désastres s'ouvrit bientôt. Déjà, avant 1860. les eaux avaient occasionné un éboulement partiel de minime impor¬tance. En mars 1860, trois mines furent anéanties en peu de jours. Les éboulements partiels continuèrent en février 1861, et en octobre 1862, où ils ensevelirent un nombre d'ouvriers que l'on ne connut jamais. Au mois de mai 1862, dans une autre mine, éclata un incen¬die qui fut éteint seulement dans les premiers mois de 1876.
         </p>
-        <p xml:id="para_13_320_441">
+<p xml:id="para_13_320_441">
          Les ouvriers étaient profondément découragés ; de 1863 à 1865, les eaux continuèrent à mettre obstacle aux travaux ; la situation était des plus mauvaises : il fallait y porter remède. Il se forma entre MM. Gardner, ose et Cᵉ, Ireneo Pucci et Em. Sartorio, exploitants de cinq mines submergées de la colline de Croce, une société pour l'é¬tablissement d'une machine à épuiser les eaux. L'ingénieur Moris établit un puits en pierre de taille qui. en 1867, avait 3ᵐ 50 de dia¬mètre et parvenait à une profondeur de 70 mètres, ouvrant un large champ d'exploitation 25 ou 30 mètres plus bas que la plus grande <pb facs="#facs_350" n="321" source="lesouvriersdesd02soci_0373.xml"/> profondeur atteinte auparavant. Un boisement en chêne le partageait en deux compartiments, l'un pour l'extraction de l'eau, l'autre pour les fouilles et autres travaux de mine. On y installa une machine à vapeur., actionnant un système de deux pompes, l'une élévatoire amenant l'eau du fond dans un bassin, 35 mètres au-dessus ; l'autre foulante, la poussant, de ce bassin, 45 mêtres plus haut, Elles enlê¬vent, avec une vitesse de 7 à 8 coups de piston par minute, 68 mètres cubes d'eau par heure. La machine motrice et le puits avec son sys¬tème de pompes forment le centre de l'établissement appelé le Puits de l'Union (Poso dell' nione), et qui comprend en outre une forge. un atelier de menuiserie, un magasin, deux cabanes pour les ou¬vriers, un puisard avec petite pompe à bras, un réservoir en ma¬çonnerie, enfin une machine à vapeur de 6 chevaux, mettant en mou¬vement une soufflerie, destinée à prévenir l'accumulation au fond du puits, des gaz hydrogène sulfuré et hydrogêne protocarboné, en assurant l'aérage général. Par mesure de précaution, les ateliers sont pourvus de quatre appureils respiratoires Galibert et d'un certain nombre, toujours variable, de lampes de sûreté. Plus tard il a fallu pousser le puits 50 mètres plus bas ; installer une nouvellemachine à vapeur, de 90 chevaux, avec un appareil d'épuisement des eaux pour une profondeur de 120 mètres. C'est une pompe qui met en mouve¬ment un balancier avec deux récipients, chacun de un mètre cube. En une minute et I secondes, l'un de ces récipients monte et se vide de son contenu, tandis que l'autre descend et se remplit d'eau : c'est, en 11 heures de travail, un débit de 2.323 mètres cubes. La dépense totale pour cet ensemble de travaux atteignit 600.000 francs.
         </p>
-        <p xml:id="para_13_321_443">
+<p xml:id="para_13_321_443">
          L'action de la Société ouvrait une ère nouvelle inaugurée en 1868 par l'assêchement des mines de Madora et de Croce. Malheureusement des rivalités personnelles, d'absurdes querelles entre les participants sus¬pendirent le jeu de lamachine d'épuisement et laissêrent aux eaux libre carrière. Puis revinrent les catastrophes. Le 4 juin 187I0, effondre¬ment soudain des chantiers de deux mines voisines appartenant au groupe Croce ; mort de 19 ouvriers. Dix jours après, éboulement à Madora avec submersion du fond des mines. En 1871, aggravation de la situation générale : inondations, éboulements, et, dans les inter¬valles, incendies à Croce ; travaux d'exploitation très dangereux et pDeu productifs, à Croce comme à Madora. Enfin, en février 1873. les propriétaires comprirent le tort que leurs différends faisaient à la production : on arrangea les procès ; la machine à épuise<pb facs="#facs_351" n="322" source="lesouvriersdesd02soci_0374.xml"/>ment rentra en action et les mines furent de nouveau asséchées.
         </p>
-        <p xml:id="para_13_322_445">
+<p xml:id="para_13_322_445">
          Aussitôt renait le bien-être : dans la seule année 1873, la produc¬tion des seuls groupes Croce et Friddi, dépassant les plus beaux ré¬sultats des temps antérieurs, s'élêve à 260.000 quintaux siciliens. Mais la période des désastres n'est pas encore terminée : le 25 juin 1873, incendie d'une des mines du groupe Croce ; 3 ouvriers, surpris par le gaz acide sulfureux, sont asphyxiés. Puis les éboulements se succèdent à Serio, à Croce, aux Friddi jusqu'en 1874.
         </p>
-        <p xml:id="para_13_322_446">
+<p xml:id="para_13_322_446">
          Dans le même temps néanmoins se réalisa un grand progrès, et l'honneur en revient à la compagnie Giulio Sartorio. Il s'agit de la Suppression du transport, à dos d'homme, du minerai sortant de la mine, jusqu'au chantier de fusion. Dès 1873, fut essayé l'emploi d'un manège à chevaux analogue à celui dont les jardiniers se servent pour élever les eaux d'arrosage. On y renonça ; c'était coûteux et peu sûr. L'année suivante, on remplaça le manège par un système de deux plans inclinés, adossés, dont l'un monte de l'issue de la mine, l'autre redescend vers le chantier de fusion. L'inclinaison des deux plans est de 40e; une machine à vapeur de douze chevaux imprime à des vagonnets un mouvement de double va-et-vient, amenant de la mine vers le chantier les vagonnets pleins de minerai et ramenant à la mine ceux qui sont vides.
         </p>
-        <p xml:id="para_13_322_447">
+<p xml:id="para_13_322_447">
          Les éboulements devinrent rares de 1874 à 1885 ; on en compte seulement deux ou trois partiels, et cette situation se maintient à cause de la disposition mieux entendue des nouveaux chantiers et de l'abandon à peu près complet des anciens. On n'y a plus recours que momentanément et dans des cas fortuits où l'eau empêche de creuser plus avant. Aussi a-t-il moins péri d'ouvriers dans les mines de soufre de 1874 a 1885, que de 1863 a 1873.
         </p>
-        <p xml:id="para_13_322_448">
+<p xml:id="para_13_322_448">
          Jusqu'en 1860, avant les premiers désastres qui se succédèrent dans les mines des collines de Croce et de Madora, la production du soufre variait annuellement jde 150.000 à 160.000 quintaux. La des¬truction des chantiers, les inondations eurent pour conséquence néces¬saire un ralentissement dans la production ; les fouilles furent inter¬rompues, et lés salaires diminuèrent. En 1864, alors que les mines de Madora étaient fermées, la production de l'une des collines de Croce, Friddi ou Serio descendit à 58.700 quintaux. Elle varie entre 60.000 et 110.000jusqu'à 1867; elle s'élêve a 255.000 en 1868 ; elle est de 120.000 à 200.000 de 1869 à 1880, et reste stationnaire à 180.000 quintaux dans ces dernières années.
         </p>
-       </div>
-       <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">
+</div>
+<div n="003" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_19">
          § 19. EXPLOITATION; RÉPARTITION DES TRAVAUX ET DES SALAIRES.
         </head>
-        <p xml:id="para_13_323_451">
-         <pb facs="#facs_352" n="323" source="lesouvriersdesd02soci_0375.xml"/>Ordinairement l'exploitant d'une mine n'en est pas le propriétaire. Ce sont des sociétés de capitalistes (en grande partie de Lercara), qui louent les mines à raison de 15 à 20 du produit brut ou de la valeur vénale. Les fermiers des mines sous-traitent avec des tâcherons spé¬ciaux pour les travaux de fouilles, qui se font sous la direction de maîtres dépendants d'ingénieuirs des mines. Les ouvriers chargés des travaux de fouilles sont appelés picconieri (en sicilien, pirriatura). Ils sont habituellement rétribués à tant du mêtre (une caisse de 1ᵐ40 80 ( 80) de minerai fouillé ; s ont à leur charge les transports, l'e¬traction, la consommation de l'huile et la fourniture des outils. Dans les mines (Sartorio et Sociale) où existent des chantiers à extraction mécanique et à transport sur rails, les picconieri ont à leur compte e travail de fouille y compris l'huile et les outils ; cela seul justifie la différence du salaire qui leur a été attribué ces derniêres années : à moins qu'on ne tienne compte de la nature duminerai, des conditions de gisement, de la profondeur des mines, du chemin à parcourir de l'intérieur à l'extérieur pour les mines à escaliers, de la distance du lieu où se font les fouilles au puits d'extraction dans les mines pour¬vues d'ascenseurs mécaniques. Le prix total des fouilles, transport, extraction à dos d'homme, mise en tas, se maintient aux conditions actuelles, pour toutes les mines de soufre en activité et pour une pé¬riode de dix ans, au prix moyen de 4ᶠ 28 à 4ᶠ82. Dans la période dé¬cennale 18641875, il était de 4ᶠ28 a 5ᶠ30.
+<p xml:id="para_13_323_451">
+<pb facs="#facs_352" n="323" source="lesouvriersdesd02soci_0375.xml"/>Ordinairement l'exploitant d'une mine n'en est pas le propriétaire. Ce sont des sociétés de capitalistes (en grande partie de Lercara), qui louent les mines à raison de 15 à 20 du produit brut ou de la valeur vénale. Les fermiers des mines sous-traitent avec des tâcherons spé¬ciaux pour les travaux de fouilles, qui se font sous la direction de maîtres dépendants d'ingénieuirs des mines. Les ouvriers chargés des travaux de fouilles sont appelés picconieri (en sicilien, pirriatura). Ils sont habituellement rétribués à tant du mêtre (une caisse de 1ᵐ40 80 ( 80) de minerai fouillé ; s ont à leur charge les transports, l'e¬traction, la consommation de l'huile et la fourniture des outils. Dans les mines (Sartorio et Sociale) où existent des chantiers à extraction mécanique et à transport sur rails, les picconieri ont à leur compte e travail de fouille y compris l'huile et les outils ; cela seul justifie la différence du salaire qui leur a été attribué ces derniêres années : à moins qu'on ne tienne compte de la nature duminerai, des conditions de gisement, de la profondeur des mines, du chemin à parcourir de l'intérieur à l'extérieur pour les mines à escaliers, de la distance du lieu où se font les fouilles au puits d'extraction dans les mines pour¬vues d'ascenseurs mécaniques. Le prix total des fouilles, transport, extraction à dos d'homme, mise en tas, se maintient aux conditions actuelles, pour toutes les mines de soufre en activité et pour une pé¬riode de dix ans, au prix moyen de 4ᶠ 28 à 4ᶠ82. Dans la période dé¬cennale 18641875, il était de 4ᶠ28 a 5ᶠ30.
         </p>
-        <p xml:id="para_13_323_452">
+<p xml:id="para_13_323_452">
          Le transport du minerai au puits d'extraction et sa mise au dehors regardent les carusi, ces travaux se font encore à dos d'homme, et le plus souvent par des garçons et des jeunes filles dont plusieurs ne semblent pas avoir dix ans. Sur 2.300 ouvriers occupés dans les sou¬frières, il y avait 900 enfants de huit à douze ans. Le travail des enfants y est depuis peu en décroissance, soit par suite de la diminution de leurs salaires, soit en raison de la loi sur l'instruction obligatoire qui n'est pas encore pleinement mise à exécution, mais que l'on tend à faire exécuter. Quant à la loi sur le travail des femmes et des enfants, promulguée en ltalie le 11 février 1886, et rendue exécutoire par or¬donnance du 17 septembre 1886, on ne peut encore en voir les effets.
         </p>
-        <p xml:id="para_13_324_453">
-         <pb facs="#facs_353" n="324" source="lesouvriersdesd02soci_0376.xml"/> Bien des gens affirment qu'elle ne changera rien à l'état actuel des choses, parce qu'elle ne répond pas aux besoins des mines. Le poids que l'enfamt transporte à dos est de 10 a 15, parfois même 20 lil., et il faut monter 10 a 12 fois par jour un escalier tortueux, étroit et ma¬laisé. On distingue, parmi les carusi: lesempitori oucaricatori, chargeurs de fourneaux, en grande partie des femmes ou des filles de neuf à douze ans ; les sterratori employés à creuser les fours ; les trasportatori, porteurs de gangue à dos d'homme. Les trasportatori (porteurs) et les scaatori (extracteurs) de gangue au tombereau ransportent à dos une charge de 60 a 65 lil. de gangue.
+<p xml:id="para_13_324_453">
+<pb facs="#facs_353" n="324" source="lesouvriersdesd02soci_0376.xml"/> Bien des gens affirment qu'elle ne changera rien à l'état actuel des choses, parce qu'elle ne répond pas aux besoins des mines. Le poids que l'enfamt transporte à dos est de 10 a 15, parfois même 20 lil., et il faut monter 10 a 12 fois par jour un escalier tortueux, étroit et ma¬laisé. On distingue, parmi les carusi: lesempitori oucaricatori, chargeurs de fourneaux, en grande partie des femmes ou des filles de neuf à douze ans ; les sterratori employés à creuser les fours ; les trasportatori, porteurs de gangue à dos d'homme. Les trasportatori (porteurs) et les scaatori (extracteurs) de gangue au tombereau ransportent à dos une charge de 60 a 65 lil. de gangue.
         </p>
-        <p xml:id="para_13_324_454">
+<p xml:id="para_13_324_454">
          Les manovali ou maneuvres sont divisés en : catastatori, quimettent le soufre en tas ; arditori, chargés d'entretenir les fours, et empitori, occupés à remplir les moules, appelés gaouti, du liquide sulfurifêre qui. par le refroidissement, se prend en pains. Ils travaillent toujours à la journée. Là où les chantiers sont établis, maçons, machinistes, chauffeurs, ajusteurs, aides-forgerons, sans aucun engagement per¬manent, travaillent aussi à la journée. Celle-ci est au minimum de sept heures, huit au maximum, en hiver ; huit heures à huit heures e demie, en été.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_7">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_7">
           Salaire des ouvriers des soufrières de 1862 à 1886 [notes annexes].
          </head>
-         <graphic facs="#facs_353" url="#"/>
-        </figure>
-        <p xml:id="para_13_324_456">
+<graphic facs="#facs_353" url="#"/>
+</figure>
+<p xml:id="para_13_324_456">
          Ces variations sont les conséquences des malheurs et des revers, de l'introduction des machines, des inondations, du manque de vivres et des influences épidémiques.
         </p>
-       </div>
-       <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_20">
+</div>
+<div n="004" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_20">
          § 20. AVENIR DE L'INDUSTRIE SOUFRIÈRE.
         </head>
-        <p xml:id="para_13_325_459">
-         <pb facs="#facs_354" n="325" source="lesouvriersdesd02soci_0377.xml"/>Les premiers propriétaires et exploitants de mines dépensaient 10 pour gagner 90. Les couches de soufre étaient à peine de 3 à 5 mêtres au-dessous du sol ; l'extraction, l'assèchement et la fusion leur coû¬taient peu ou ne leur coûtaient rien ; enfin, le prix élevé que le soufre avait atteint dans le commerce leur assurait de très grands béné¬fices. Aujourd'hui les prix se sont nivelés ; l'exploitation est beaucoup plus coûteuse ; les temps difficiles sont venus.
+<p xml:id="para_13_325_459">
+<pb facs="#facs_354" n="325" source="lesouvriersdesd02soci_0377.xml"/>Les premiers propriétaires et exploitants de mines dépensaient 10 pour gagner 90. Les couches de soufre étaient à peine de 3 à 5 mêtres au-dessous du sol ; l'extraction, l'assèchement et la fusion leur coû¬taient peu ou ne leur coûtaient rien ; enfin, le prix élevé que le soufre avait atteint dans le commerce leur assurait de très grands béné¬fices. Aujourd'hui les prix se sont nivelés ; l'exploitation est beaucoup plus coûteuse ; les temps difficiles sont venus.
         </p>
-        <p xml:id="para_13_325_460">
+<p xml:id="para_13_325_460">
          Les calculs basés sur les données de l'expérience montrent qu'avec une profondeur moyenne de 70 mètres et une production annuelle de
         </p>
-        <p xml:id="para_13_325_461">
+<p xml:id="para_13_325_461">
          220.000 tonnes de minerai, ainsi qu'on évaluait celle de Lercara avant. les derniers éboulements de 1873, les transports intérieurs et l'extraction exigeaient environ 1.200 manuvres, et les frais étaient de 2ᶠ 50 par tonne; soit plus de 500.000 francs de frais par an. aujourd'hui qu'on a atteint la profondeur de 100 à 150 mètres, et qu'on retire environ 260.000 tonnes, 4 à 6 manœuvres par pionnier ne sont plus suffisants, et les dépenses sont de 3ᶠ35 a 5ᶠ 13 par tonne, ce qui donne plus de 2.000 ou 3.000 manœuvres et de 866.000 à 1.300.000 francs de frais annuels. Les difficultés que comportent de si grandes dépenses menacent l'existence même de l'industrie sou¬friêre. Pour la sauver, il faut changer de système, et se tourner vers l'etraction mécanique, adoptée à Lercara, dans les mines de la So¬ciale et de Sartorio, qui sont les plus prospères, et dans lesquelles règne le plus d'activité.
         </p>
-        <p xml:id="para_13_325_463">
+<p xml:id="para_13_325_463">
          Les inconvénients que présentent les mines de Lercara, où les an¬ciennes méthodes sont en usage, se résument dans les quatre faits suivants : — 1° les frais d'extraction à dos d'homme sont excessifs, et ils augmentent rapidement au fur et à mesure que la profondeur devient plus grande ; — 2° le nombre des manœuvres s'accroit rapi¬dement avec la profondeur des travaux ; par suite, l'abondance de la production est subordonnée au nombre de maneuvres dont on peut disposer ; enfin le mode d'extraction à dos d'homme peut de¬venir matériellement impossible, si sur un point la circulation se ralentissait ou s'interrompait et que l'air fût assez raréié pour ne plus suffire à la respiration ; — 3° l'extraction à dos d'homme est pénible, dangereuse, nuisible au développement physique des enfants employés <pb facs="#facs_355" n="326" source="lesouvriersdesd02soci_0378.xml"/> à ce rude travail ; — 4° la moralité de ces enfants a beaucoup à souffrir dans leur contact avec les pionniers, qui les corrompent, les exploitent et les abrutissent.
         </p>
-        <p xml:id="para_13_326_465">
+<p xml:id="para_13_326_465">
          Évidemment ces inconvénients n'existent pas dans les mines où l'on emploie les moyens mécaniques. Le nombre des manuvres ne variera pas sensiblement, que la profondeur soit de 100 ou de 200 mètres ; si les frais d'extraction augmentent en raison de la moindre quantité de minerai extraite dansun temps donné, l'augmentation sera imperceptible ; alors on pourra supporter sans trop de dommage la mobilité des prix du soufre dans le commerce. Les mines à méca¬nisme tueront celles où le travail à dos d'homme est en usage.
         </p>
-        <p xml:id="para_13_326_466">
+<p xml:id="para_13_326_466">
          L'avenir de l'industrie soufrière tient encore à une autre question : celle du mode de traitement du minerai. C'est de là que dépendent en grande partie, et la bonne qualité du produit livré au commerce, et la différence des prix, et les classements désavantageux. Mais cette question se résout moins simplement que la précédente.
         </p>
-        <p xml:id="para_13_326_467">
+<p xml:id="para_13_326_467">
          Lercara, entre tous les bassins miniers de Sicile, a le mérite d'avoir fait les plus nombreuses expériences sur le traitement du minerai. L'appareil 6ill à la colline de Croce, le four Durand aux mines de Madora, le four llirel à Serio ; les appareils à vapeur de la Société pour la fusion du soufre, établis à la colline de Croce et aux Friddi depuis 1878, dans les mines Sartorio, Piraino, Sinatra et Giordano, montrent avec quel zêle les indusriels de Lercara ont recherché la lumière dans cette question délicate. Toutefois, les neuf appareils à vapeur des collines de Croce et de Friddi fonctionnent active¬ment, et en même temps le minerai de Lercara continue d'être traité au four. L'expérience a démontré que selon la qualité des minerais en gangue, il faut préférer tantôt le four tantôt l'appareil à vapeur ; parfois même il faut combiner les deux systèmes : toute erreur à cet égard a pour conséquence une diminution de produit.
         </p>
-        <p xml:id="para_13_326_468">
+<p xml:id="para_13_326_468">
          Ordinairement, dans le traitement au four, on perd environ 33 de soufre. Cette perte est celle que subit un minerai dit idrouvoro (hydro¬vore), de richesse moyennc, à gangue calcaire marneuse, et conte¬nant une quantité d'eau déterminée. La perte s'élève à 41,44 si le minerai est pauvre : car alors le soufre est en moindre proportion et la gangue à chauffer en proportion plus grande. La perte est de 66 4 si le minerai est gypseux, humide, et contient une quantité plus grande d'eau à vaporiser. Les minerais riches de 25 à 30 perdent presque 13, parce qu'une moindre proportion de soufre <pb facs="#facs_356" n="327" source="lesouvriersdesd02soci_0379.xml"/> échappe à la combustion. Sans contredit l'appareil à vapeur a sur e four de notables avantages; mais on ne sait pas encore en faire un emploi convenable pour tous les genres de minerais. En outre, la so¬ciété privilégiée qui est en possession exclusive du procédé se fait plus d'une fois la part du lion.
         </p>
-       </div>
-       <div n="005" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_21">
+</div>
+<div n="005" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_21">
          § 21. SITUATION ÉCONOMQUE DES MINEURS DES SOUFRIÈRES COMPARÉE A CELLE DES AUTRES CLASSES D'OUVRIERS.
         </head>
-        <p xml:id="para_13_327_472">
+<p xml:id="para_13_327_472">
          La condition des mineurs des soufrières, comparée à celle des au¬tres classes de travailleurs de Lercara, ne serait pas, à l'examnier bien à fond, des plus mauvaises, si le patronage des tàcherons ou conducteurs de mines s'étendait sur eux.
         </p>
-        <p xml:id="para_13_327_473">
+<p xml:id="para_13_327_473">
          Classés par professions, les chefs de famille présentaient à peu près, en 1885, les chiffres suivants :
         </p>
-        <figure rend="portrait" type="schema">
-         <head resp="added" type="schema" xml:id="figure_8">
+<figure rend="portrait" type="schema">
+<head resp="added" type="schema" xml:id="figure_8">
           Professions des chefs de familles de Lercara (1885) (notes annexes)
          </head>
-         <graphic facs="#facs_356" url="#"/>
-        </figure>
-        <!--<p xml:id="para_13_327_474">
+<graphic facs="#facs_356" url="#"/>
+</figure>
+<!--<p xml:id="para_13_327_474">
          Hommes de peine, journaliers....
          </p>
          <p xml:id="para_13_327_475">
@@ -1899,102 +1898,102 @@
          <p xml:id="para_13_327_482">
          Procssions diverses.....
          </p>-->
-        <p xml:id="para_13_327_483">
+<p xml:id="para_13_327_483">
          La plupart des familles de Lercara vivent de l'industrie soufrière. et l'on voit combien la classe des mineurs et tâcherons surpasse toutes les autres ; aussi, pour cette population, le principal intérêt économique est d'assurer la vie des ouvriers mineurs, qui présente justement des conditions asse précaires. Les hommes de peine et les journaliers gagnent ordinairement de 1ᶠ 50 a 1ᶠ70 ; ce qui sufit aux besoins de leur petite famille. Ils n'ont que la dépense annuelle de leur loyer, 25ᶠ50 a 38ᶠ75, plus la dépense de la vie quotidienne, soit, par jour, de 1ᶠ 25 à 1ᶠ 40. Le bois à brûler, les vêtements, les ustensiles, les petites) commodités domestiques sont payés sur les excédents quotidiens des salaires ou sur les gratifications éventuelles.
         </p>
-        <p xml:id="para_13_327_484">
+<p xml:id="para_13_327_484">
          Plus précaire se trouve la condition des ouvriers agriculteurs. Il ne travaillent pas toujours ; ils restent des semaines entières à garder la maison, et quandils ont du travail, il gagnent 1ᶠ 27 avec la nour¬riture et le vin. ou 2 francs sans la nourriture. La plupart, obligés <pb facs="#facs_357" n="328" source="lesouvriersdesd02soci_0380.xml"/> d'aller travailler loin de leur habitation, préfèrent avoir 1ᶠ27 et la nourriture. lIls font sur le lieu même de leur travail un repas et boivent du bon vin ; le soir, ils se contentent d'une soupe d'herbes et de légumes avec du riz. Ceux qui gagnent 2 francs emportent leur dé¬jeuner, et, le soir, ils mangent aussi une soupe du même genre et une friture d'herbes. Quant au bois de chauffage, aux ustensiles de mé¬nage, ou s'arrange toujours pour le mieux. Le service médical est reçu gratuitement ou se paie à très bon compte (par ex.,  francs par an). On ne mange de la viande qu'aux neuf principales fêtes de l'an¬née, et grâce aux petites recettes extraordinaires que les fêtes pro¬curent elles-mêmes par les travaux de circonstance auxquels elles donnent lieu.
         </p>
-        <p xml:id="para_13_328_486">
+<p xml:id="para_13_328_486">
          Les journaliers et les paysans qui travaillent de leurs bras ont d'ailleurs une vie tranquille et laborieuse ; ils sont heureux dans leur pauvreté. Contents de leur sort, calmes, sereins, rien ne les préoc¬cupe, rien ne les trouble dans leur habituelle sérénité d'esprit. Les liens qui unissent les pères et les enfants sont très étroits ; les époux conservent entre eux le respect et la soumission qu'ils se doivent, et les parents vivent dans un mutuel accord de bienveillance. Les ma¬riages se contractent sous les deux formes, civile et religieuse, la préséance étant donnée à la forme religieuse. Le libertinage est in¬connu chez eux ; la prostitution y est rare, l'inceste presque sans exemple ; il n'y a point d'adultères ni de naissances illégitimes. Ils ont tous un profond sentiment religieux, non sans une teinte de su¬perstition ; tous ont le respect des personnes et de la propriété.
         </p>
-        <p xml:id="para_13_328_487">
+<p xml:id="para_13_328_487">
          Bien différente est presque à tous égards la condition du mineur des soufrières, qui n'a jamais un sou en poche, et qui ne peut jamais rien économiser. A l'exception du picconiere et du capomaestro, le mi¬neur ne gagne en moyenne que 2ᶠ 25 par jour. Il est payé à la fin de la semaine par les tâcherons ou les fermiers de la mine ; aussi, pendant la semaine, il a le droit de prendre à la cantine tous les comestibles et toutes les boissons spiritueuses dont il a besoin. n ouvrier qui ga¬gnait 2ᶠ 25 par jour y avait pris, dans une semaine, pour sa famille (4 personnes), des denrées constituant une avance de 14ᶠ 32.
         </p>
-        <p xml:id="para_13_328_488">
+<p xml:id="para_13_328_488">
          Le tout, s'ill'eût acheté aumarché, lui aurait coûté seulement12ᶠ24; c'était donc une perte 2ᶠ08 sur sa paie hebdomadaire, soit plus de 100 francs pour l'année. Si le tâcheron ou le fermier de la mine paie à la fin de la semaine, c'est qu'il se ménage ainsi chaque semaine une fructueuse circulation d'environ 1.000 francs pour gagner <pb facs="#facs_358" n="329" source="lesouvriersdesd02soci_0381.xml"/> sur les vivres fournis par anticipation à l'ouvrier, à un prix plus élevé qu'au marché, ou supérieur au prix d'achat ou de production. Il y a encore une autre raison : il s'assure ainsi pour une semaine le travail de l'ouvrier, dont il n'a pas liquidé la situation ; il se l'assure pour plusieurs mois quand les avances en nature dépassent quelque peu le montant de la paie hebdomadaire. C'est là un régime d'ex¬ploitation avec fraude et sujétion industrielle qui pousse l'ouvrier à la dépense et l'éloigne de toute habitude, de toute possibilité d'épargne.
         </p>
-        <p xml:id="para_13_329_490">
+<p xml:id="para_13_329_490">
          Mais ee n'est pas tout. Le tàcheron ou pionnier fait ordinairement l'avance d'une somme qui va de 50 à 150 francs (suivant l'âge des enfants, les exigences du travail, et le besoin des familles), au chef de famille, qui, en échange et en garantie, lui loue ses enfants pour qu'il tire profit de leur travail. Ce marché immoral, en vain dénoncé à l'opinion publique, a pour conséquence habituelle que le père ne par¬vient jamais à réunir la somme nécessaire pour se libérer de sa dette, et que l'enfant est dès lors obligé de travailler jusqu'à vingt ans au service du pionnier qui a fait l'avance. Souvent les enfants ainsi vendus, comme on dit, pour un plat de lentilles, se révoltent contre les pion¬niers, et il en résulte des scênes terribles de sang et de vengeance. Telle est l'origine des outrages et des cruautés que les pionniers font subir aux carusi.
         </p>
-        <p xml:id="para_13_329_491">
+<p xml:id="para_13_329_491">
          Pour conjurer ou atténuer ces maux il n'y a à compter ni sur la pro¬tection des industriels, ni sur l'énergie des associations de secours mu¬tuels.  Voyez ce Monsieur en carrosse, me disait un jour un ouvrier, en me montrant M. Rose ; il s'est enrichi en me volant honnêtement, moi, mes enfants et mes camarades ; il a fait ses millions en détour¬nant un sou sur notre gain de chaque jour, en fraudant sur notre salaire.  Cependant, depuis quelque temps, on semble vouloir mieux faire. A côté du ˉCircolo naionale (Cercle national) et du Casino civile (Casino civil) existent des associations telles que ˉLa Concordia entre ouvriers en général, la Fratellana e ˉLauoro (la Fraternité et le Travail) entre ouvriers mineurs, la ocieta tra olfatari (So¬ciété des mineurs), l'Agricola (l'Agricole) pour les agriculteurs : toutes ont pour but l'assistance mutuelle. Mais nos ouvriers ont trop de peine à équilibrer leurs recettes avec leurs dépenses de première nécessité, pour payer à une société d'assurance mutuelle la coti¬sation qui assure assistance médicale, secours quotidien, médica¬ments, ete. MM. Rose, ardner et Pucci, justement émus de cette situation, ont songé, dans les premiers mois de 1886, à fonder une <pb facs="#facs_359" n="330" source="lesouvriersdesd02soci_0382.xml"/> caisse de secours pour les ouvriers et les employés des mines de leur exploitation. Elle a pour but : 1° de fournir aux ouvriers et aux em¬ployés de la Société, à leurs femmes et à leurs enfants, les médica¬ments, en cas de maladie ; 2° d'accorder des secours temporaires ou permanents à ceux que des blessures ou des maladies empêcheraient de travailler; 3° de donner des secours aux enfants et aux veuves d'ouvriers et d'employés tombés dans le malheur ; 4° d'acquitter toutes les dépenses rendues nécessaires par les accidents.
         </p>
-        <p xml:id="para_13_330_494">
+<p xml:id="para_13_330_494">
          Le fonds de la caisse de secours est constitué par : 1 une retenue de 2 4 sur tous les salaires des ouvriers, les appointements des em¬ployés, aussi bien que sur le montant des travaux donnés à forfait; 2 une subvention annuelle de 1.000 francs payée par l'administra¬tion ; 3° le montant des amendes infligées aux ouvriers, employés et tâcherons, pour mauvaise conduite ou pour infraction aux règle¬ments de l'administration ; 4° les revenus des sommes en caisse ; 5° les dons qui peuvent être faits à la caisse de secours.
         </p>
-        <p xml:id="para_13_330_495">
+<p xml:id="para_13_330_495">
          La caisse de secours s'est assuré, moyennant un traitement annuel de 1.000 francs à chacun d'eux, le concours des deux meilleurs mé¬decins de la commune. Le secours en cas d'accident varie de 85 cen¬times à 2ᶠ25 par jour, quand la blessure, pour être guérie, demande plus de cinq jours, et si l'on travaille depuis un mois au moins pour l'administration. En cas de simple maladie, le secours est de 30 cen¬times par jour, à compter du sixième jour de maladie. Les médica¬ments sont délivrés gratuitement.
         </p>
-       </div>
-       <div n="006" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_22">
+</div>
+<div n="006" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_22">
          § 22. TRAVAIL DES FEMMES ET DES ENFANTS DANS LES SOUFRIÈRES.
         </head>
-        <p xml:id="para_13_330_498">
+<p xml:id="para_13_330_498">
          'étais venu à Lercara avec l'intention de m'occuper spécialement de la condition des femmes et des enfants employés dans les mines de soufre. Je connaissais les marchés de vente d'enfants aux tâcherons
          <ref target="#part_03_01_21" type="renvoi_int_mono">
           (§ 21)
          </ref>
          , l'immoralité des mineurs, les vexations et les outrages envers les carusi. Je pus me convaincre que l'excès du travail, la mauvais éducation, l'abrutissement des enfants sont des faits universels.
         </p>
-        <p xml:id="para_13_330_499">
+<p xml:id="para_13_330_499">
          Dans le territoire de Lercara. les femmes et les enfants sont em¬ployés : àl'intérieur des soufrières, dans les fouilles des galeries, aux sondages et à l'extraction du minerai brut ; à l'extérieur, pour creuser et charger les fours où 'effeetue la fusion du soufre. Sur dix garçons <pb facs="#facs_360" n="331" source="lesouvriersdesd02soci_0383.xml"/> interrogés, et qui dans la mine Sartorio étaient alectés au transport des chargements, huit déclarêrent gagner 65 centimes par jour, travailler de 5 heures à 4 heures, avec 1 heure et demie de repos, et ne souffrir i violences ni mauvais traitements. Un autre dit qu'il ne gagnait rien, le tàcheron ayant depuis deux ans fait à son père une avance de 100 francs pour le mariage de sa sœur, avance sur laquelle il avait déjà recouvré 25 francs. Il travaillait de 8 à 4 heures, avec une demi-heure d'inter¬valle, et il ne se souvenait pas d'avoir reçu de coups ou de mauvais traitements. Le dixième ne voulait pas dire ce qu'il gagnait ; d'abord i fondait en larmes, puis il avoua quil n'avait point de parents, et que le tàcheron, en échange de son travail, lui donnait le vivre et le couvert.
         </p>
-        <p xml:id="para_13_331_501">
+<p xml:id="para_13_331_501">
          Dans les mines administrées par Pucci, sur 5 garçons interrogés et qui sont occupés aux transports à dos d'homme pour le chargement des vagonnets dans les fouilles souterraines, quatre m'ont répondu qu'ils gagnaient5 centimes par jour, et travaillaient sans interruption depuis 5 heures jusqu'à midi et demi. L'un d'eux, une fois seulement, fut battu par le pionnier qui ne voulait pas ajouter foi à l'indisposi¬tion dont l'enfant s'était plaint. Le cinquième ne gagne rien ; son père l'a cédé au pionnier pour 125 francs ; il travaille depuis cinq ans, et. comme il est de Casteltermini, il couche en plein air avec un compa¬gnon. A ous je demandai s'ils n'avaient jamais été pincés, ourmentés, battus, brûlés au fer chaud, frappés de verges : tous me répondirent que non. Ils désiraient seulement plus de repos pour le déjeuner et une recommandation en leur faveur auprès du capomaestro. Leur sa¬laire était presque à moitié absorbé pour leur déjeuner, et ils portaient le reste à la maman. Ils ne se rappelaient pas qu'on leur eût donné des cadeaux ou des gratifications : en cas de malheur ou de maladie, ils reconnaissaient avoir été assistés et soignés.
         </p>
-        <p xml:id="para_13_331_502">
+<p xml:id="para_13_331_502">
          C'est d'ailleurs un spectacle navrant que celui de ces pauvres peltits êtres se traînant par les escaliers raides et interminables, courbés et haletants sous un énorme poids de 30 à 50 kilogrammes en moyenne, au milieu d'une atmosphère tantôt glacée tantôt étouffante, mais toujours viciée et corrompue. Le cœur saigne quand on les voit, sans relâche, sans éveiller autour d'eux aucune pitié, travailler de sept à dix heures par jour, comme les adultes, au mépris du veu de la nature, qui réclame pour eux du sommeil et un repos réparateur ; les vêtements en lambeaux, presque nus, exposés sans défense aux rigueurs de l'hiver aussi bien qu'aux rayons brûlants du soleil d'août: <pb facs="#facs_361" n="332" source="lesouvriersdesd02soci_0384.xml"/> paèles, maigres et parfois livrés aux mauvais traitements d'un pion¬nier sous-traitant, tâcheron aussi dur qu'insatiable.
         </p>
-        <p xml:id="para_13_332_504">
+<p xml:id="para_13_332_504">
          L'humanité et la famille devraient s'émouvoir à ce spectacle. C'est encore bien plus triste et plus révoltant, quand aumilieu d'une troupe de carusi et de pionniers (ordinairement tout nus, ou seulement vêtus devant et derrière, à la partie inférieure du buste, de deux lambeaux d'étoffe flottante), on aperçoit des jeunes filles, voilant leur nudité de misérables haillons ; on chercherait en vain sur leurs traits dégradés quelques vestiges des grâces de la femme ou de la candeur de l'enfant.
         </p>
-        <p xml:id="para_13_332_505">
+<p xml:id="para_13_332_505">
          Les heures de travail pour les femmes et les enfants, dans les mi¬nes, sont les mêmes que pour les autres ouvriers. Il n'y a de diffé¬rence que dans la nature du service. Le travail intérieur est rarement fait par les femmes ; ià sont les crusi, occupés à extraire le minerai et à le transporter à dos du fond de la mine à l'orifice. Pour eux, le travail commence toujours avant le jour, sauf en été, et il se prolonge jusqu'à midi. C'est huit heures de travail, sauf le temps nécessaire pour se rendre à la mine et en revenir (temps fort court, puisque les carusi logent tout près des mines) ; sauf quelques instants pour man¬ger un morceau. L'usage des carusi est de casser une croûte de pain pendant qu'ils redescendent dans la mine, après qu'ils se sont dé¬chargés. Dans cette catégorie, il n'y a pas de temps de repos ; les en¬fants n'échappent à la vigilance du tàcheron qu'en s'arrêtant quelques instants dans les escaliers. Le travail extérieur comprend le charge¬ment et le creusement des fours. Il est plus long, mais moins péni¬ble ; aussi dure-t-il presque une journée entière, sauf une heure ou deux pour les repas. Les enfants ne sont employés la nuit que dans des cas exceptionnels, comme lorsqu'il y a lieu d'activer le creusement d'une galerie, d'augmenter le rendement de la mine, de presser le chargement de nouveaux fours, de chômer un jour de fête, etc.
         </p>
-        <p xml:id="para_13_332_506">
+<p xml:id="para_13_332_506">
          Ces malheureux enfants sont tous ignorants, et l'on n'a nul soin de les envoyer même à l'école du soir. Le maire de la commune né¬glige d'y obliger les parents en leur appliquant les amendes édictées par la loi. Une promiscuité précoce dans les détours obscurs et soli¬taires des mines, ou la vie en commun au dehors sous l'autorité de personnes d'une morale suspecte, uniquement préoccupées de tirer de ces pauvres créatures le plus grand profit possible, engendre des vices de toute sorte, soumet l'enfance à un régime déplorable, cor¬rompt la classe entière des ouvriers mineurs.
         </p>
-        <p xml:id="para_13_332_507">
+<p xml:id="para_13_332_507">
          Le foyer domestique n'est plus un sanctuaire qui puisse les proté<pb facs="#facs_362" n="333" source="lesouvriersdesd02soci_0385.xml"/>ger ; car les habitations de ces victimes d'une exploitation sans frein ne sont que des cabanes étroites, obscures, malpropres, infectes, suant l'humidité et la pourriture. Le foyer, mal disposé, ne donne point de chaleur, mais vous aveugle par la fumée et la vapeur de charbon. C'est à peine si l'on y trouve un gite inhabitable, immonde, où les sexes et les âges se confondent pêle-mêle et se dépravent. La nourriture manque ou est de mauvaise qualité. La nécessité de faire des écono¬mies pour vivre oblige fréquemment plus de deux familles, de race et d'origine diverses, que le malheur rapproche, dans les profondeurs des mines, à vivre, à coucher ensemble dans une même pièce ou une même échoppe, sans qu'une séparation en planches, un lambeau d'étoffe puisse servir de voile à la pudeur. On devine quelles scênes d'immonde bestialité déshonorent des couples ainsi confondus.
         </p>
-        <p xml:id="para_13_333_509">
+<p xml:id="para_13_333_509">
          A des désordres d'une telle gravité la loi ne peut remédier : la famille elle-même a été détruite. A son défaut, ce sont des familles saines et vivant au milieu de ces malheureux, qui peuvent et doivent guérir peu à peu et avec patience de pareilles misères morales. Il faut arborer ici la banniêre du patronage ; elle recueillera sous ses plis protecteurs ces classes avilies, et les arrachera aux spéculations sans vergogne des capitalistes, qui en sont venus à faire sans pitié métier et marchandise de leurs frères en Jésus-Christ.
         </p>
-       </div>
-       <div n="007" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_23">
+</div>
+<div n="007" type="sub_sub_section">
+<head type="sub_sub_section" xml:id="part_03_01_23">
          § 23. HYGIÈNE DE L'OUVRIER MINEUR DES SOUFRIÈRES.
         </head>
-        <p xml:id="para_13_333_512">
+<p xml:id="para_13_333_512">
          Les ouvriers des soufrières ont leurs maladies ou infirmités proes¬sionnelles. D'ailleurs l'examen des mines exploitées à Lercara révèle combien, au point de vue de l'hygiène, elles laissent à désirer. A l'exté¬rieur la fumée du soufre en combustion, et la poussiêre du ginisi (c'est ainsi qu'on appelle la scorie du minerai fondu), attaquent tantôt d'une manière continue, tantôt momentanément, les organes de la respira¬tion et de la vision chez tous les ouvriers, et plus spécialement chez les arditoi, les catastatori, et les empitori. Les premiers souffrent beaucoup du rayonnement du calorique et de la transition subite du chaud au froid. En outre, les propriétés caustiques et irritantes du gazL acide sulfureux ont des effets qui leur sont propres : l'altération des dents, la chute prématurée des cheveux, l'inflammation des yeux <pb facs="#facs_363" n="334" source="lesouvriersdesd02soci_0386.xml"/> et des voies respiratoires, l'emphysème, la bronchorrhée, les sueurs excessives qui finissent par débiliter complètement l'organisme. Les brusques variations de la température provoquent quelquefois des inflammations de l'encéphale ou des rhumatismes chroniques.
         </p>
-        <p xml:id="para_13_334_514">
+<p xml:id="para_13_334_514">
          Dans l'intérieur des mines, les causes d'insalubrité sont des plus nombreuses et des plus graves. La chaleur y est excessive faute d'une ventilation suffisante ou à cause des incendies de quelque mine con¬tigué ; le sol est humide et au niveau de l'eau: l'air est souvent altéré pr des dégagements de ga acide sulfureux, hydrogène sulfuré ᶠ(agru), acide carbonique (rinchiusu), et quelquefois, dans le fond des galeries et des puits, de grisou ou ga hydrogène protocarboné (antimoniu). Joignez à cela l'influence du travail prématuré et exa¬géré des enfants ; joignez-y enfin des éboulements subits qui précipi¬tent des quartiers de roches le long des escaliers.
         </p>
-        <p xml:id="para_13_334_515">
+<p xml:id="para_13_334_515">
          Le ga acide sulfureux détermine de rapides et fortes conjoncti¬vites, des coryas, des stomatites, et surtout une vive irritation des organes respiratoires. Si l'ouvrier frappé par ce ga continue à res¬pirer, il peut en outre y avoir rupture des vésicules pulmonaires, et par suite pénétration de l'air sous la peau ; de là, toux répétée et douloureuse, oppression, respiration presque exclusivement abdomi¬nale, râle muqueux, pouls petit, lêvres rosées d'abord, puis viola¬cées. Suivant la quantité de gaz inspiré et la constitution du malade, il peut y avoir mort immédiate par asphyxie, ou bronchite capil¬laire, dont les suites sont fréquemment funestes.
         </p>
-        <p xml:id="para_13_334_516">
+<p xml:id="para_13_334_516">
          Le gaz hydrogène sulfuré a une action plus redoutable encore. Les mineurs n'y résistent que s'ils sont robustes, si le dégagement du gaz n'est pas instantané, ou s'il est combattu par une bonne ventila¬tion: autrement ils tombent comme foudroyés à la première atteinte. Le ga hydrogène protocarboné est plus rare dans les soufrières de Sicile, mais il se produit parfois lorsque dans les couches miné¬rales se rencontre quelque filon de bitume. Mêlé à l'air des galeries. il éclate violemment au contact d'une lampe allumée ; chacun con¬nait ces meurtrières explosions, fléaux des houillères.
         </p>
-        <p xml:id="para_13_334_517">
+<p xml:id="para_13_334_517">
          Le ga acide carbonique a pour origine, dans les mines de Lercara, une ventilation imparfaite, l'accumulation des matières fécales et des produits de la combustion des lampes ; il se dégage aussi des cre¬vasses de la roche, surtout dans les marnes bitumineuses. L'air vi¬cié par l'acide carbonique peu agir lentement sur l'organisme : il altère peu à peu ous les actes de a nutrition et détruit la vie, <pb facs="#facs_364" n="335" source="lesouvriersdesd02soci_0387.xml"/> surtout chez les êtres minés par la misère, une alimentation insuf¬fisante, un travail précoce et excessif. Mais les effets peuvent être rapides et énergiques on éprouve alors un malaise général, avec syncopes, nausées, oppression et gêne croissante de la respiration: puis somnolence, évanouissement, peau froide et bleuâtre: enfin, survient la mort.
         </p>
-        <p xml:id="para_13_335_519">
+<p xml:id="para_13_335_519">
          L'accumulation des matières fécales a d'autres conséquences fu¬nestes. Ces matières renferment les œufs d'un helminthe bien connu sous le nom d'anchylostome duodénal, que lui a donné Dubini. Quand elles se sont desséchées, ces eufs, emportés avec la poussière qui en provient, se mêlent à l'air et sont aspirés inconsciemment par les ou¬vriers. Le Dʳ Alphonse Giordano, longtemps après les observations de Dubini, a trouvé ce parasite chez les ouvriers des chantiers souterrains du Saint-Gothard, de Saint-Gall, chez les mineurs du pays de Pavie, chez ceux des mines d'alun des provinces de Catane et de Messine. En examinant les matières excrémentitielles des ouvriers mineurs de Lercara, il découvrit et m'a montré ces œufs au microscope. Les docteurs Pernice et antangelo Antonino ont constaté, à la clinique de Palerme, sur trois ouvriers, guéris depuis, que, trois mois après avoir été aspirés, les œufs du parasite déterminent l'affection appelée chlorose d'Eggpte ou mieux anchpdostomanémie ; c'est une anémie ré¬sultant de la perte continuelle de sang que ces vers provoquent, en suçant les parois de l'intestin duodénum. Le patient commence par avoir de la fièvre par moments, tous les deux ou trois jours. Il perd l'appétit et ressent des douleurs aux tempes ; il a chaque jour, sans douleur, trois, quatre, cinq selles délayées mais non sanguinolentes. Amaigrissement, affaiblissement, décoloration du visage, fatigue dans la marche, palpitations de cœur, enflure des membres inférieurs, et le malade s'éteint bientôt complètement exsanguè. Telle est la mort du plus grand nombre, et l'auteur croit être prochainement en mesure de le prouver par des documents statistiques.
         </p>
-        <p xml:id="para_13_335_520">
+<p xml:id="para_13_335_520">
          Le travail précoce dans les solfatares a, sur la conformation et le développement de l'individu, des effets vraiment déplorables, d'a¬près les témoignages de Bodio, de Lombroso, du D Predieri, du prof. Bosi (Rapport au conseil sanitaire de Girgenti en 1868,) du général Torre (Observations sur les résultats du recrutement militaire dans les cantons où s'extrait le soufre), et du Dʳ Panfile Panora. On cons¬tate que chaque année les conseils de revision ont surtout à refuser pour le service militaire des jeunes gens trop petits. des bossus. <pb facs="#facs_365" n="336" source="lesouvriersdesd02soci_0388.xml"/> enfin des contrefaits d'autres sortes. C'est ce qui ressort du tableau suivant.
         </p>
-        <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_9">
+<figure rend="portrait" type="table">
+<head resp="original" type="table" xml:id="figure_9">
           Extrait des résultats du recrutement militaire en Sicile [notes annexes]
          </head>
-         <graphic facs="#facs_365" url="#"/>
-        </figure>
-        <!--<p xml:id="para_13_336_523">
+<graphic facs="#facs_365" url="#"/>
+</figure>
+<!--<p xml:id="para_13_336_523">
          RS DES SOUFRIERES.
          </p>
          <p xml:id="para_13_336_524">
@@ -2039,14 +2038,14 @@
          <p xml:id="para_13_336_537">
          Totaux générau...........:...
          </p>-->
-        <p xml:id="para_13_336_538">
+<p xml:id="para_13_336_538">
          Dans la mine la Sociale, à Croce, que j'ai visitée en détail, j'aitrouvé trente-deux sujets ayant une tendance à devenir bossus. Pour moi, tous les bossus de Lercara se ressemblent : chez tous l'épine dorsale est déviée et fait saillie de même : c'est l'effet du sac de minerai habituel¬lement posé sur le cou, appuyé contre la tête et maintenu par les mains, les deux bras levés, en même temps que, pour gravir les esca¬liers tortueux. le corps se penche en avant.
         </p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </body>
- </text>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</text>
 </TEI>
