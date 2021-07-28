@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Guide relatif à l'encodage de l'édition des Ouvriers des deux mondes</title>
+            <respStmt>
+               <resp>
+                  écrit par
+               </resp>
+               <name>
+                  Jean-Damien Généro
+               </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               projet ANR Time Us
+            </publisher>
+            <date when="2020"/>
+            <pubPlace>
+               Paris, France
+            </pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Derived from <ref target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base odd</ref> after an analysis of 195 files in corpus-od2m/files/</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1>
+            <head>Guide d'encodage</head>
+            <p>Ce guide entend décrire et expliquer les choix effectués lors de l'encodage des volumes des <hi rend="italic">Ouvriers des deux mondes</hi>.</p>
+            <div2>
+               <head>Structure générale</head>
+               <p>L'identifiant du fichier se trouve dans l'attribut <att>xml:id</att> de l'élément racine <tag>TEI</tag>. De ce dernier descendent les trois grandes parties du document : le <tag>teiHeader</tag>, les <tag>facsimile</tag> et le <tag>text</tag>.</p>
+               <p>Le <tag>teiHeader</tag> contient une présentation normalisée et répétée dans chaque fichier de la série des <hi rend="italic">Ouvriers des deux mondes</hi>. Elle se traduit par les mentions du titre (<tag>titleStmt</tag>) et des responsabilités éditoriales (<tag>respStmt</tag> et <tag>publicationStmt</tag>), suivies d'une brève présentation des volumes originaux (<tag>sourceDesc</tag> et du projet d'édition numérique (<tag>projectDesc</tag>) et s'achève par une préconisation relative à l'utilisation des fichiers, en l'occurence la nécessité de remplacer une entité hexadécimale dans la balise <tag>graphic</tag> (<tag>editorialDecl</tag>).</p>
+               <p>Les <tag>facsimile</tag> font le lien entre l'image de chaque page et sa transcription, avec l'URL de l'image contenue dans la balise <tag>graphic</tag>. Les coordonnées spatiales de la zone de transcriptions sont contenues dans la balise <tag>surface</tag>. Les <tag>zone</tag> des <tag>facsimile</tag> ont été supprimées, car l'alignement entre l'image et le texte n'étant pas l'objectif du projet et les balises originales, du fait de divers corrections manuelles, étaient devenues fausses.</p>
+               <p>Le <tag>text</tag> contient la transcription au sein de la balise <tag>body</tag>. Lorsqu'une citation a été identifiée, elle est placée dans un élélment <tag>quote</tag>.</p>
+            </div2>
+            <div2>
+               <head>Encodage de la transcription</head>
+               <div3>
+                  <head>Principes généraux</head>
+                  <p>Les transcriptions sont structurées autour d'un enchâssement de <tag>div</tag>, chacune étant identifiée par un attribut <att>type</att>. Il est obligatoire pour la <tag>div</tag> et son <tag>head</tag>.</p>
+                  <p>Chaque ligne est encodée dans un <tag>p</tag>, les changements de page étant signalés par des <tag>pb</tag>.</p>
+               </div3>
+               <div3>
+                  <head>La structure logique</head>
+                  <p>Les monographies de familles sont composées d'un ensemble minimale de dix-huit titres de plusieurs niveaux, dont le nombre peut dépasser la trentaine en fonction du nombre de paragraphes de notes. Chaque division (<tag>div</tag>) et chaque titre (<tag>head</tag>) possède obligatoirement un attribut <att>type</att> dont les valeurs possibles sont reprises des sections documentaires LaTeX (<val>chapter</val>, <val>section</val>, <val>sub_section</val>, <val>sub_sub_section</val>, <val>paragraph</val> et <val>sub_paragraph</val>). Les titres possèdent également un <att>xml:id</att> obligatoire, dont la liste des valeurs présentée dans l'ODD est exhaustive et s'accompagne de leur fréquence d'utilisation. Cette liste contient également des identifiant pour des figures, qui possèdent la même balise de titre.</p>
+               </div3>
+               <div3>
+                  <head>Les renvois internes et externes</head>
+                  <p>Trois types de renvois sont présents dans les textes :<list>
+                     <item>Les renvois internes à la monographie ;</item>
+                     <item>Les renvois internes comparatifs à d'autres monographies des <hi rend="i">Ouvriers des deux mondes</hi> ;</item>
+                     <item>Les renvois externes comparatifs aux monographies des <hi rend="i">Ouvriers européens</hi> ;</item>
+                  </list></p>
+                  <p>Tous sont encodés avec une balise <tag>ref</tag> avec deux attributs
+                     obligatoires : <tag>target</tag> et <tag>type</tag>. Le premier pointe vers
+                     l'identifiant du paragraphe s'il s'agit d'un renvoi interne, vers celui du
+                     fichier s'il s'agit d'un renvoi externe, et il n'est pas complété lorsqu'il
+                     s'agit d'un renvoi vers les <hi rend="i">Ouvriers européens</hi> (qui ne sont
+                     pas encodés). Le <tag>type</tag> possède trois valeurs possibles,
+                     <val>renvoi_int_mono</val>, <val>renvoi_int_od2m</val> et
+                     <val>renvoi_ext_oe</val>.</p>
+               </div3>
+               <div3>
+                  <head>Les figures</head>
+                  <p>Les figures sont encodées dans une balise <tag>figure</tag> avec un attribut <att>type</att> obligatoire. Ses valeurs sont : <list>
+                     <item><val>inventory</val> pour un inventaire ou une liste où certains éléments sont répétés par des traits. Il s'agit du type de figure qu'il sera le plus aisé à convertir en texte ;</item>
+                     <item><val>table</val> pour les tableaux conventionnels ;</item>
+                     <item><val>schema</val> pour les tableaux dressés sous forme d'accolades ;</item>
+                     <item><val>cptes_recettes</val>, <val>cptes_depenses</val>, <val>cptes_annexes</val> pour les tableaux de budget (§§14, 15 et 16) ;</item>
+                     <item><val>photo</val>, <val>map</val>, <val>croquis</val>, <val>graph</val> pour les objets graphiques ;</item>
+                     <item><val>ecriture</val> pour un texte en khmer dans s2t5_chapt_16 ;</item>
+                     <item><val>budget</val> : la monographie n° 113, datée de 1928, possède une structure particulière avec un premier tableau intitulé "Budget familial" et, en annexe, les tableaux de budget conventionnels qui se trouve dans les autres monographies. Le premier tableau a reçu la caractérisation de <val>budget</val>.</item>
+                  </list></p>
+                  <p>Des cas particuliers qui n'ont pas vocation à durer :<list>
+                     <item><val>famille</val> dans deux fichiers où le début du paragraphe 2 a été considéré comme une figure (s2t1_chapt_20 et s2t3_chapt_28) ;</item>
+                     <item><val>figure</val> pour un mot grec dans le fichier s1t4_chapt_11, pour lequel il faut trouver une police d'écriture adéquate ;</item>
+                     <item><val>txt</val> pour un texte cité sur deux colonnes dans une note de bas de page dans le fichier s2t2_chapt_16.</item>
+                  </list></p>
+                  <p>Les notes de bas de pages se rattachant à des figures ont été placées dans des balises <tag>p</tag>.</p>
+                  <p>Lorsqu'il existait le titre de la figure a été placé dans une balise <tag>head</tag> ; le cas échéant, nous sommes intervenus pour donner un titre à la figure. Cette balise possède deux attributs : `@type` (reprise du même atribut du <tag>figure</tag> parent) et `@xml:id` dont la valeur est composée de `figure_` et du numéro d'ordre de la figure dans le document. Les tableaux de budgets (§§ 14 à 16) ne possèdent pas de balise <tag>head</tag>.</p>
+                  <p>Trois types de commentaire viennent caractériser les figures, dans l'attente de pouvoir les intégrer dans des éléments TEI : <code>figure sur 2 pages</code>, <code>figure sur 3 pages</code>, <code>figure en paysage</code>.</p>
+               </div3>
+               <div3>
+                  <head>Les notes de bas de page</head>
+                  <p>Les notes de bas de page sont placées dans des balises <tag>note</tag> avec un attribut <att>type</att> de valeur <val>bp</val> (<hi rend="i">bas de page</hi>).</p>
+                  <p>Lorsqu'il y a lieu, les changements de paragraphes sont signalées par une balise <tag>lb</tag>` et les changements de pages par une balise <tag>pb</tag>.</p>
+                  <p>La numérotation originale a été supprimée (elle pourra être ré-implantée automatique avec une feuille XSLT), ainsi que les appels de notes.</p>
+                  <p>Dans s3t2_chapt_7, deux notes ne possèdent pas d'appels de note (n°105, p. 368 et 369). Elles sont signalées par le commentaire <code>note sans appel de note</code>.</p>
+               </div3>
+            </div2>
+         </div1>
+         <div1>
+            <head>Spécifications de l'encodage</head>
+            <schemaSpec ident="oddbyexample" start="TEI ">
+               <moduleRef key="tei"/>
+               <!--Checking module textcrit-->
+               <classRef key="att.textCritical"/>
+               <classRef key="model.rdgLike"/>
+               <classRef key="model.rdgPart"/>
+               <classSpec ident="att.textCritical" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="varSeq" mode="delete"/>
+                     <attDef ident="require" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module msdescription-->
+               <classRef key="model.physDescPart"/>
+               <!--Checking module namesdates-->
+               <classRef key="model.persNamePart"/>
+               <classRef key="model.persNamePart"/>
+               <moduleRef key="namesdates"
+                  include="persName forename placeName country region settlement person place"/>
+               <elementSpec ident="persName" mode="change">
+                  <attList>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="full" mode="delete">
+                     </attDef>
+                     <attDef ident="type" mode="change" usage="opt"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="forename" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="placeName" mode="change">
+                  <attList>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="full" mode="delete">
+                        <valList mode="add" type="closed">
+                           <valItem ident="yes"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="country" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="region" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="open">
+                           <valItem ident="diocese"/>
+                           <valItem ident="province"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settlement" mode="change">
+                  <attList>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="person" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="age" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="place" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module dictionaries-->
+               <classRef key="att.lexicographic"/>
+               <classRef key="model.entryLike"/>
+               <classRef key="model.formPart"/>
+               <classRef key="model.gramPart"/>
+               <classRef key="model.lexicalRefinement"/>
+               <classRef key="model.morphLike"/>
+               <classRef key="model.ptrLike.form"/>
+               <classSpec ident="att.lexicographic" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="expand" mode="delete"/>
+                     <attDef ident="norm" mode="delete"/>
+                     <attDef ident="split" mode="delete"/>
+                     <attDef ident="value" mode="delete"/>
+                     <attDef ident="orig" mode="delete"/>
+                     <attDef ident="location" mode="delete"/>
+                     <attDef ident="mergedIn" mode="delete"/>
+                     <attDef ident="opt" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module tagdocs-->
+               <classRef key="att.combinable"/>
+               <classRef key="att.identified"/>
+               <classRef key="model.contentPart"/>
+               <moduleRef key="tagdocs"
+                  include="att tag classRef moduleRef schemaSpec elementSpec classSpec attList attDef valItem valList"/>
+               <elementSpec ident="att" mode="change">
+                  <attList>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="tag" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="classRef" mode="change">
+                  <attList>
+                     <attDef ident="expand" mode="delete"/>
+                     <attDef ident="include" mode="delete"/>
+                     <attDef ident="except" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="moduleRef" mode="change">
+                  <attList>
+                     <attDef ident="prefix" mode="delete"/>
+                     <attDef ident="except" mode="delete"/>
+                     <attDef ident="url" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="schemaSpec" mode="change">
+                  <attList>
+                     <attDef ident="prefix" mode="delete"/>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="docLang" mode="delete"/>
+                     <attDef ident="defaultExceptions" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="elementSpec" mode="change">
+                  <attList>
+                     <attDef ident="prefix" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="change"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="classSpec" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="atts"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="generate" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="change"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="atts"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="attList" mode="change">
+                  <attList>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="attDef" mode="change">
+                  <attList>
+                     <attDef ident="usage" mode="delete"/>
+                     <attDef ident="ns" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="change"/>
+                           <valItem ident="delete"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="valItem" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="valList" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="closed"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="add"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <classSpec ident="att.identified" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="predeclare" mode="delete"/>
+                     <attDef ident="module" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.ascribed.directed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="toWhom" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.dimensions" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="extent" mode="delete"/>
+                     <attDef ident="precision" mode="delete"/>
+                     <attDef ident="scope" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.damaged" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="agent" mode="delete"/>
+                     <attDef ident="degree" mode="delete"/>
+                     <attDef ident="group" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable.w3c" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="calendar" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.divLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="sample" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.media" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="width" mode="delete"/>
+                     <attDef ident="height" mode="delete"/>
+                     <attDef ident="scale" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.naming" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="nymRef" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.typed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="subtype" mode="change"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="evaluate" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing.group" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="domains" mode="delete"/>
+                     <attDef ident="targFunc" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.segLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="function" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.timed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="start" mode="delete"/>
+                     <attDef ident="end" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.transcriptional" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete"/>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="seq" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.personal" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="sort" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module core-->
+               <moduleRef key="core"
+                  include="p name date ref head graphic pb lb respStmt resp title note quote publisher pubPlace"/>
+               <elementSpec ident="p" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- ajout de quote -->
+               <elementSpec ident="quote" mode="change"/>
+               <!-- ajout de note -->
+               <elementSpec ident="note" mode="change">
+                  <attList>
+                     <!-- @type obligatoire dans <note> -->
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="bp"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="name" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="date" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="ref" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <!-- @type obligatoire dans <ref> -->
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="renvoi_int_mono"/>
+                           <valItem ident="renvoi_ext_oe"/>
+                           <valItem ident="renvoi_int_od2m"/>
+                        </valList>
+                     </attDef>
+                     <!-- @target obligatoire dans <ref> -->
+                     <attDef ident="target" mode="change" usage="req"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="head" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <!-- @type obligatoire dans <head> -->
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="section"/>
+                           <valItem ident="sub_section"/>
+                           <valItem ident="sub_sub_Section"/>
+                           <valItem ident="sub_sub_section"/>
+                           <valItem ident="paragraph"/>
+                           <valItem ident="sub_paragraph"/>
+                           <valItem ident="cptes_recettes"/>
+                           <valItem ident="cptes_depenses"/>
+                           <valItem ident="cptes_annexes"/>
+                           <valItem ident="inventory"/>
+                           <valItem ident="table"/>
+                           <valItem ident="map"/>
+                           <valItem ident="photo"/>
+                           <valItem ident="schema"/>
+                           <valItem ident="graph"/> <!-- pertinence ? -->
+                           <valItem ident="croquis"/> <!-- pertinence ? -->
+                           <valItem ident="budget"/> <!-- pertinence ? -->
+                           <valItem ident="ecriture"/> <!-- temporaire -->
+                           <valItem ident="figure"/> <!-- temporaire -->
+                           <valItem ident="famille"/> <!-- temporaire -->
+                           <valItem ident="txt"/> <!-- temporaire -->
+                        </valList>
+                     </attDef>
+                     <!-- @xml:id obligatoire dans <head> -->
+                     <attDef ident="xml:id" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="part_02"/> <!-- occurrence(s) au 27/11/2020 : 246 -->
+                           <valItem ident="part_02_01"/> <!-- occurrence(s) au 27/11/2020 : 128 -->
+                           <valItem ident="part_02_01_01"/> <!-- occurrence(s) au 27/11/2020 : 119 -->
+                           <valItem ident="part_02_01_02"/> <!-- occurrence(s) au 27/11/2020 : 121 -->
+                           <valItem ident="part_02_01_03"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_01_04"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_01_05"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_01_14"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_02_01_15"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_02_02"/> <!-- occurrence(s) au 27/11/2020 : 125 -->
+                           <valItem ident="part_02_02_06"/> <!-- occurrence(s) au 27/11/2020 : 122 -->
+                           <valItem ident="part_02_02_07"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_02_08"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_03"/> <!-- occurrence(s) au 27/11/2020 : 123 -->
+                           <valItem ident="part_02_03_09"/> <!-- occurrence(s) au 27/11/2020 : 123 -->
+                           <valItem ident="part_02_03_10"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_03_11"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_04"/> <!-- occurrence(s) au 27/11/2020 : 121 -->
+                           <valItem ident="part_02_04_12"/> <!-- occurrence(s) au 27/11/2020 : 124 -->
+                           <valItem ident="part_02_04_13"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_04_13-2"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_02_05"/> <!-- occurrence(s) au 27/11/2020 : 11 -->
+                           <valItem ident="part_02_05_01"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_02_05_02"/> <!-- occurrence(s) au 27/11/2020 : 4 -->
+                           <valItem ident="part_02_05_14"/> <!-- occurrence(s) au 27/11/2020 : 228 -->
+                           <valItem ident="part_02_05_14_01"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_02_05_14_02"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_02_05_15"/> <!-- occurrence(s) au 27/11/2020 : 120 -->
+                           <valItem ident="part_02_05_15-2"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_02_05_16"/> <!-- occurrence(s) au 27/11/2020 : 113 -->
+                           <valItem ident="part_02_05-2"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_02_06"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_02_07"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_02_08"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03"/> <!-- occurrence(s) au 27/11/2020 : 118 -->
+                           <valItem ident="part_03_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_01_18"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_17"/> <!-- occurrence(s) au 27/11/2020 : 228 -->
+                           <valItem ident="part_03_01_17_01"/> <!-- occurrence(s) au 27/11/2020 : 7 -->
+                           <valItem ident="part_03_01_17_02"/> <!-- occurrence(s) au 27/11/2020 : 7 -->
+                           <valItem ident="part_03_01_17_03"/> <!-- occurrence(s) au 27/11/2020 : 4 -->
+                           <valItem ident="part_03_01_17_04"/> <!-- occurrence(s) au 27/11/2020 : 4 -->
+                           <valItem ident="part_03_01_17_05"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_17_06"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_17_07"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_17_08"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_18"/> <!-- occurrence(s) au 27/11/2020 : 112 -->
+                           <valItem ident="part_03_01_18_01"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_18_02"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_18_03"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_18_04"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_19"/> <!-- occurrence(s) au 27/11/2020 : 104 -->
+                           <valItem ident="part_03_01_19_01"/> <!-- occurrence(s) au 27/11/2020 : 8 -->
+                           <valItem ident="part_03_01_19_01_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_19_01_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_19_02"/> <!-- occurrence(s) au 27/11/2020 : 8 -->
+                           <valItem ident="part_03_01_19_03"/> <!-- occurrence(s) au 27/11/2020 : 7 -->
+                           <valItem ident="part_03_01_19_04"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_19_05"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_19_06"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_20"/> <!-- occurrence(s) au 27/11/2020 : 91 -->
+                           <valItem ident="part_03_01_20_01"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_20_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_20_03"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_20_04"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_20_05"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_21"/> <!-- occurrence(s) au 27/11/2020 : 76 -->
+                           <valItem ident="part_03_01_21_01"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_21_02"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_21_02_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_21_02_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_21_02_03"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_21_03"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_22"/> <!-- occurrence(s) au 27/11/2020 : 53 -->
+                           <valItem ident="part_03_01_22_01"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_22_02"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_22_03"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_22_04"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_22_05"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_23"/> <!-- occurrence(s) au 27/11/2020 : 34 -->
+                           <valItem ident="part_03_01_24"/> <!-- occurrence(s) au 27/11/2020 : 23 -->
+                           <valItem ident="part_03_01_24_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_24_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_24_03"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_24_04"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_24_05"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_24_06"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_25"/> <!-- occurrence(s) au 27/11/2020 : 15 -->
+                           <valItem ident="part_03_01_26"/> <!-- occurrence(s) au 27/11/2020 : 9 -->
+                           <valItem ident="part_03_01_26-2"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_27"/> <!-- occurrence(s) au 27/11/2020 : 5 -->
+                           <valItem ident="part_03_01_27_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_27_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_28"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_29"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_30"/> <!-- occurrence(s) au 27/11/2020 : 3 -->
+                           <valItem ident="part_03_01_31"/> <!-- occurrence(s) au 27/11/2020 : 2 -->
+                           <valItem ident="part_03_01_32"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_33"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_34"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_01_35"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_03"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_04"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_05"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_06"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_03_07"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_03"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_04"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_05"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_06"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_07"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_04_08"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_05"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_05_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_05_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_06"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_07"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_07_01"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_07_02"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="part_07_03"/> <!-- occurrence(s) au 27/11/2020 : 1 -->
+                           <valItem ident="figure_1"/>
+                           <valItem ident="figure_2"/>
+                           <valItem ident="figure_3"/>
+                           <valItem ident="figure_4"/>
+                           <valItem ident="figure_5"/>
+                           <valItem ident="figure_6"/>
+                           <valItem ident="figure_7"/>
+                           <valItem ident="figure_8"/>
+                           <valItem ident="figure_9"/>
+                           <valItem ident="figure_10"/>
+                           <valItem ident="figure_11"/>
+                           <valItem ident="figure_12"/>
+                           <valItem ident="figure_13"/>
+                           <valItem ident="figure_14"/>
+                           <valItem ident="figure_15"/>
+                           <valItem ident="figure_16"/>
+                           <valItem ident="figure_17"/>
+                           <valItem ident="figure_18"/>
+                           <valItem ident="figure_19"/>
+                           <valItem ident="figure_20"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="graphic" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="pb" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="section"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="lb" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="respStmt" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="resp" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="level" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="short"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="short"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="when" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publisher" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="pubPlace" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module figures-->
+               <moduleRef key="figures" include="figure"/>
+               <elementSpec ident="figure" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="cptes_recettes"/>
+                           <valItem ident="cptes_depenses"/>
+                           <valItem ident="cptes_annexes"/>
+                           <valItem ident="inventory"/>
+                           <valItem ident="table"/>
+                           <valItem ident="map"/>
+                           <valItem ident="photo"/>
+                           <valItem ident="schema"/>
+                           <valItem ident="graph"/> <!-- pertinence ? -->
+                           <valItem ident="croquis"/> <!-- pertinence ? -->
+                           <valItem ident="budget"/> <!-- pertinence ? -->
+                           <valItem ident="ecriture"/> <!-- temporaire -->
+                           <valItem ident="figure"/> <!-- temporaire -->
+                           <valItem ident="famille"/> <!-- temporaire -->
+                           <valItem ident="txt"/> <!-- temporaire -->
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!--Checking module header-->
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt publicationStmt sourceDesc encodingDesc projectDesc editorialDecl"/>
+               <elementSpec ident="teiHeader" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="fileDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="titleStmt" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publicationStmt" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="sourceDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="encodingDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="projectDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="editorialDecl" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module gaiji-->
+               <!--Checking module verse-->
+               <!--Checking module transcr-->
+               <classRef key="att.coordinated"/>
+               <classRef key="att.global.facs"/>
+               <moduleRef key="transcr" include="facsimile surface zone"/>
+               <elementSpec ident="facsimile" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="surface" mode="change">
+                  <attList>
+                     <attDef ident="attachment" mode="delete"/>
+                     <attDef ident="flipping" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="ulx" mode="delete"/>
+                     <attDef ident="uly" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!-- <zone> supprimée -->
+               <elementSpec ident="zone" mode="delete" >
+                  <attList>
+                     <attDef ident="rotate" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <classSpec ident="att.coordinated" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="start" mode="delete"/>
+                     <attDef ident="points" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module linking-->
+               <!--Checking module analysis-->
+               <classRef key="att.global.analytic"/>
+               <!--Checking module textstructure-->
+               <moduleRef key="textstructure" include="TEI text body div"/>
+               <elementSpec ident="TEI" mode="change">
+                  <attList>
+                     <attDef ident="version" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="text" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="body" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="div" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <!-- @type obligatoire pour <div> -->
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="chapter"/>
+                           <valItem ident="section"/>
+                           <valItem ident="sub_section"/>
+                           <valItem ident="sub_sub_section"/>
+                           <valItem ident="paragraph"/>
+                           <valItem ident="sub_paragraph"/>
+                           <valItem ident="proprietes"/>
+                           <valItem ident="travaux"/>
+                           <valItem ident="industries"/>
+                           <valItem ident="par_10"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="change" usage="opt"/>
+                  </attList>
+               </elementSpec>
+            </schemaSpec>
+         </div1>
+      </body>
+   </text>
+</TEI>
