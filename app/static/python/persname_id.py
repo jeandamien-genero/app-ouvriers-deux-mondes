@@ -34,9 +34,9 @@ def persname_id(fileslist):
                 for persname in persnames:
                     counter +=1
                     persname["xml:id"] = "ID-" + monographs[monograph] + "E" + str(counter)
-            result = soup
+            result = soup.prettify()
         with open(path, 'w', encoding='utf-8') as writting:
-            writting.write(str(result))
+            writting.write(result)
             print("{} ----> Done !".format(path))
 
 
