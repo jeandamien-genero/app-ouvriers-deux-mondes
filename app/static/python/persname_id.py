@@ -16,7 +16,12 @@ import os
 from bs4 import BeautifulSoup
 
 
-def persname_id(fileslist):
+def persname_id(fileslist) -> None:
+    """
+    Adding persName id. ID = "ID-" + monograph's id + "E" + persName index order.
+    :param fileslist: csv with monographs list, where column 1 is monographs' Ids and column 2 monographs' filenames.
+    :type fileslist: str
+    """
     with open(fileslist) as opening:
         csv_list = csv.reader(opening)
         monographs = {}
@@ -40,4 +45,4 @@ def persname_id(fileslist):
             print("{} ----> Done !".format(path))
 
 
-persname_id("../csv/id_monographies.csv")
+# persname_id("../csv/id_monographies.csv")
