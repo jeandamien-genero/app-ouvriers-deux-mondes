@@ -1,4 +1,8 @@
-# app-ouvriers-deux-mondes
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+# Les Ouvriers des deux mondes
 
 _Les Ouvriers des deux mondes_ are a collection of sociological surveys published by Frédéric Le Play (†1882) and the International Society of socio-economic practical studies. Those monographs were assembled in three sets composed of thirteen volumes from 1857 to 1913, with an addition of two booklets published in 1930. The ANR “Time Us” program undertook the transcription and structuration of the monographs following the TEI standard in order to make it possible to consult and study them digitally. 
 
@@ -44,7 +48,7 @@ _Nota : commands to execute through the terminal (Linux or macOS)_
   
   * Activate the environment : ```source [nom de l'environnement]/bin/activate``` ;
     
-  * Launch : ```python run.py``` ;
+  * Launch : ```python3 run.py``` ;
     
   * Go to ```http://127.0.0.1:5000/``` ;
     

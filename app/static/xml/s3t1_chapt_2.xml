@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--monographie-->
+<TEI xml:id="ID-472a" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Les Ouvriers des Deux Mondes - série 3, volume 1 - Transcription</title>
+    <respStmt>
+     <persName>
+      <forename>Alix</forename>
+      <surname>Chagué</surname>
+      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      </affiliation>
+     </persName>
+     <resp>acquisition et structuration initiale des textes</resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>Jean-Damien</forename>
+      <surname>Généro</surname>
+      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+      </affiliation>
+      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+      </affiliation>
+     </persName>
+     <resp>encodage scientifique</resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>Stéphane</forename>
+      <surname>Baciocchi</surname>
+      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+      </affiliation>
+     </persName>
+     <resp>direction scientifique</resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>Anne</forename>
+      <surname>Lhuissier</surname>
+      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+      </affiliation>
+     </persName>
+     <resp>direction scientifique</resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>Éric</forename>
+      <surname>Villemonte de la Clergerie</surname>
+      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      </affiliation>
+     </persName>
+     <resp>supervision technique</resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>projet ANR Time Us</publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>Paris, France</pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_4">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$11/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_5">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$12/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_6">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$13/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_7">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$14/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_8">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$15/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_9">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$16/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_10">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$17/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_11">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$18/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_12">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$19/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_13">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$20/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_14">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$21/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_15">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$22/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_16">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$23/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_17">
+  <surface lrx="3510" lry="2144"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$24/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_18">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$25/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_19">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$26/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_20">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$27/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_21">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$28/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_22">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$29/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_23">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$30/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_24">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$31/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_25">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$32/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_26">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$33/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_27">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$34/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_28">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$35/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_29">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$36/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_30">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$37/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_31">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$38/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_32">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$39/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_33">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$40/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_34">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$41/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_35">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$42/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_36">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$43/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_37">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$44/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_38">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$45/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_39">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$46/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_40">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$47/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_41">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$48/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_42">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$49/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_43">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$50/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_44">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$51/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_45">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$52/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_46">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$53/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_47">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$54/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_48">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$55/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_49">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$56/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_50">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$57/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_51">
+  <surface lrx="2210" lry="3522"/>
+  <graphic url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft$58/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div ana="#ID-472a" type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_2_1_1">A</p>
+     <p xml:id="para_2_1_2">LA SOCIÉTÉ GÉNÉRALE</p>
+     <p>DES</p>
+     <p xml:id="para_2_1_3">PAPETERIES DU LIMOUSIN</p>
+     <p xml:id="para_2_1_4">(Haute-Vienne et Charente. — France.)</p>
+     <p xml:id="para_2_1_5">GROUPE D'USINES RURALES PRIMITIVEMENT INDÉPENDANTES ET DEPUIS PEU FUSIONNÉES</p>
+     <p>D'APRÈS</p>
+     <p xml:id="para_2_1_6">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1899 ET 1900</p>
+     <p>PAR</p>
+     <p xml:id="para_2_1_7">M. PIERRE DU MAROUSSEM</p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">OBSERVATIONS PRÉLIMINAIRES</head>
+     <p xml:id="para_2_1_9"><pb facs="#facs_4" n="1" source="lesouvriersdesde0108sociuoft_0011.xml"/> La première des Monographies d'ateliers industriels présente une difficulté pratique, qui doit avant tout être résolue. L'atelier visé n'est pas un rouage nettement unitaire, tel que le seraient le Creusot, Baccarat, Saint-Gobain. Il est multiple, composé d'une pluralité d'ateliers très analogues entre eux, qui se suffiraient à eux-mêmes, qui se suffisaient il y a quelques années, mais qui, aujourd'hui, tout en conservant un aspect matériel identique à celui d'autrefois, ont abdiqué et mis en commun leur direction financière et commerciale. D'où la nécessité pour l'observateur de manier, d'une facon spéciale, le cadre rigide de la Monographie d'atelier, tel qu'il a été adopté par la Société d'économie sociale<note type="bp">
+       <p>V. dans la Réfrme socialeˉ, 15 mai 1887 et 1ᵉʳ decembre 1896, les études de M. E. Cheysson sur l'observation méthodique des ateliers de travail et le cadre qu'il a tracé pour en dresser des monographies.</p>
+      </note>ou même tel qu'il a été simplifié par nos enquêtes adminis¬tratives<note type="bp">
+       <p>V. les Enquetes (Pratique et théorie), par P. du Maroussem. Paris, Flix Alcan, 1900. — V. également : Eoénistes du fauoourg ˉaiut-Antoine, p. 52 ; le Vete¬ment, p. 217; Alimentation et vêtement (passim).</p>
+      </note>.</p>
+     <p xml:id="para_2_1_10">Le plan général comprendra trois parties :</p>
+     <p xml:id="para_2_1_11">1° UNE USINE ISOLÉE (fabrique de papier de paille de X***).</p>
+     <p xml:id="para_2_1_12">2° ORGANISATION INDUSTRIELLE DU GROUPE FUSIONNÉ.</p>
+     <p xml:id="para_2_1_13">3° ORGANISATION COMMERCIALE ET FINANCIÈRE DU GROUPE FUSIONNÉ.</p>
+    </div>
+    <div n="003" type="section">
+     <head type="section" xml:id="part_03">PREMIÈRE PARTIE. Une usine isolée</head>
+     <p xml:id="para_2_2_18"><pb facs="#facs_5" n="2" source="lesouvriersdesde0108sociuoft_0012.xml" type="section"/> Rien ne donne l'impression du concret comme une monographie plus réduite dans l'intérieur de la monographie même. L'usine décrite doit etre classée au premier rang de la série des sept usines hydrauliques, ises l'une sur la Glane et les six autres sur la Vienne, qui consti¬tuaient à elles seules le groupe de fusion en février et avril 1899<note type="bp">
+       <p>D'après le rapport du conseil d'administration da 1899, huit nouvaelles usines ont été agrégées (V. plus loin, p. I3 et l).</p>
+      </note>. Cette usine offre donc une grande importance comme echantillon, parce qu'elle précise la tendance vers laquelle toutes ˉles autres evoluent<note type="bp">
+       <p>V. les Enquetes, et l'echantillonnage, p. 15, 37 aet 48.</p>
+      </note>.</p>
+     <div n="001" type="sub_section">
+      <p xml:id="para_2_2_19">GÉNÉRALITÉS SUR LA RÉGION. — Les « <ref target="#ID-065a" type="renvoi_int_od2m">>Métayers en communauté du Confolentais</ref>, » publiés par les Ouvriers des Deux Mondes<note type="bp">
+        <p>
+         <ref target="#ID-065a" type="renvoi_int_od2m">2ᵉ serie, t. III. n° 65.</ref>
+        </p>
+       </note>, nous dispensent de longs développements sur le milieu où s'élève l'usine rurale.</p>
+      <p xml:id="para_2_2_20">Nous sommes sur l'ancien territoire des Lemovices, qui du coté de l'ouest forme cette région particulière mi-limousine, mi-charentaise, appelée le a Haut-Angoumois, n ou Confolentais (50° 98 de latitude nord ; 1° 80 de longitude ouest). Le sol est formé de hauteurs ar¬rondies d'une altitude de deux cents à trois cents mètres, qui vont 'abaissant sans cesse de l'est à l'ouest, depuis les montagnes du Li¬mousin auxquelles elles s'adossent, jusqu'aux collines et aux plateaux de la Basse-Charente. C'est encore la one granitique du plateau cen¬tral dans sa limite extrême ; le sous-sol est un terrain de cristaullisation ; la surface est argileuse. — Climat tempéré de la France centrale, avec une tendance marquée à la prédominance des brouillards et de l'humi¬dité. — Entre toutes les petites collines, d'étroits cours d'eau qui font <pb facs="#facs_6" n="3" source="lesouvriersdesde0108sociuoft_0013.xml"/> mouvoir des moulins minuscules : au centre de ce réseau, la large voie de la Vienne, avec une moyenne de cent mètres de large. La Vienne est (en principe) le trait d'union entre les sept premières papeteries qui ont formé la Société générale des papeteries du Limousin.</p>
+      <p xml:id="para_2_3_25">Quant à la population. sa base est constituée par les Aquitains, avec cheveux noirs et yeux bleus, parlant la langue d'oc (dialecte limousin). Mais nous sommes à la frontière de la race envahissante du Nord et de la race conquise du Centre. Cette frontière se trouve un peu plus à l'ouest, près de la grande forêt de la Braconne<note type="bp">
+        <p>V. la carte de la séparation des idiomes. Statistique monugmentale de la Charente, par Michon.</p>
+       </note>. Aussi les métissages sont-ils fréquents et le sang poitevin (teint plus coloré et cheveux blonds) se retrouve-t-il à chaque pas.</p>
+      <p xml:id="para_2_3_26">La statlstique professionnelle affirme nettement la prédominance de la population rurale dans le canton. Sur les 13,000 habitants de ces douze communes, la presque totalité est formée par des communautés paysannes (en dissolution) de métayers éleveurs de bestiaux. Çà et là, des gentilhommières ; puis de gros bourgs où se concentrent les petits commercaunts et les artisans du bâtiment et du fer. Au point de vue in¬dustriel, deux tuileries, deux carrières et la papeterie décrite.</p>
+      <p xml:id="para_2_3_27">La ligne d'Angoulème à Limoges, actuellement à la Compagnie d'Or¬léans (jadis à la Compagnie des Charentes), longe la Vienne (non navi¬gable). Les usines hydrauliques, strictement rurales et noyées dans l'élé¬ment campagnard, sont rattachées à la plus prochaine station par une voie de raccordement e quelquefois par le téléphone.</p>
+     </div>
+     <div n="002" type="sub_section">
+      <p xml:id="para_2_3_28">GÉNÉRALITÉ SUR L'INDUSTRIE. Les papeteries du Limousin sem¬blaient prospères à la fin du siecle dernier et au commencement du XIX° siècle. Dans sa Statistique du departeent de la ˉaute-Vienne (1808), Rougier-Chàtenet s'exprime ainsi : « Les papeteries sont un des objets qui méritent le plus de xer l'attention du gouvernement dans le département de la Haute-Vienne. » Mais il s'agissait du papier d'impri¬merie, même du papier de luxe, et le tableau des trente-neuf moulins (p. 462) nous montre qu'il n'y a aucune espèce de flliation à établir entre les papiers de chifons (dont le centre voisin d'Angoulème a anéanti l'essor) et les modernes papeteries de papier de paille éparses sur la one limousine.</p>
+      <p xml:id="para_2_3_29">Cette industrie particulière existait cependant, d'après les souvenirs locauux, dès le début du siècle. La petite rivière de la lane, aux eaux <pb facs="#facs_7" n="4" source="lesouvriersdesde0108sociuoft_0014.xml"/> essentiellement granitiques, paraissait le seul point favorable à son installation. Le Moulin-Brice (ort diférent de la papeterie de Saint¬Brice, sur la Vienne) y produisait déjà du papier d'emballage, d'après les antiques coutumes de la papeterie ; défibrage aux maillets, préleve¬ment de la pàte au tamis (ou forme), égouttage sous la presse, séchage à l'air. Entre 1820 et 1830, la famille de Feydeau organise au Chàtelard, près de Saint-unien, toujours sur la Glane, une usine dite perfec¬tionnée. Le « Dérot » fut fondé peu après. Les grands acheteurs de pa¬pier d'emballage étaient les raineries du port de Nantes, dont le rou¬lage apportait les produits en se dirigeant vers Clermont par la route de Turgot<note type="bp">
+        <p>C'tait la route de Saintes à Clermont, la route du a Sel. La route de Nantes se raccordait avec la première près d'Étagnac (Charente).</p>
+       </note>, et rechargeait au retour les papiers de paille auvergnats et limousins. A partir de 1864, la marche en avant s'accentue : l'usine du Pont-Notre-Dame succède à un vieux moulin des de Saint-Auvent; le Moulin-Pelgros, près de Saint-Junien (1866), préseinte alors la der¬nière expression de l'outillage moderne (les turbines y remplacent les roues).</p>
+      <p xml:id="para_2_4_32">Mais c'est au moment de l'inauguration de la ligne des Charentes (1874), que les fondations se multiplient, en général sur l'emplacement des moulins à blé et à huile. La facilité des communications coincide avec une transformation du commerce de détail, qui agrandit extraordi¬nairement le marché. Les raffineries accroissent leurs demandes par l'innovation de la vente du sucre cassé en morceaux réguliers ; l'épicerie, la confiserie, ne se bornent plus à utiliser les vieux manuscrits et les volumes invendus ; les grands magasins ajoutent expéditions sur expé¬ditions,; la création des colis postaux enfin, si intéressannte pour la mode, 'article de Paris, le jouet, etc., etc., ouvre au papier d'emballage ¬du papier de paille de seigle — employé à l'état simple ou transformé en cartonnages, un avenir de très réelle prospérité.</p>
+      <p xml:id="para_2_4_33">Actuellement, lindustrie se trouve au summum de cette phase as¬cendante, avec niveau presque constant.</p>
+      <p xml:id="para_2_4_34">Sous le bénéice de ces remarques générales, l'usine visée peut être décrite à l'aide des onae alinéaus suivants :</p>
+     </div>
+     <div n="003" type="sub_section">
+      <p xml:id="para_2_4_35">I. MILIEU. — Le milieu strictement rural a déjù été précisé som¬mairement. L'usine est située sur le bord de la rivière la Vienne, qui pourrait lui fournir une force de 240 chevaux : elle est desservie par une voie ferrée qui la rattache à la station distante de 1,500 mètres : la <pb facs="#facs_8" n="5" source="lesouvriersdesde0108sociuoft_0015.xml"/> voie particulière, propriété de l'usine, mesure 700 mètres. —Son aspect est propre et coquet : elle couvre, avec ses dépendances, plus d'un hec¬tare. La haute cheminée des générateurs la révéle de loin, même à ceux qui ne peuvent apercevoir ses toits rouges et noirs (tuiles et ardoises), cachés par les replis de terrain. A gauche de l'entrée, vingt et une mai¬sons ouvrières se serrent en une ligne non discontinue (maisons neuves). L'emplacement avait été judicieusement choisi par les anciens proprié¬taires. La one circonvoisine fournit une abondante quantité de seigle, réeoltée sur les terres froides. La force motrice avait été rendue indé¬pendante par l'acquisition d'un moulin situé en amont (moulin à blé). — L'usine elle-même est un ancien moulin à huile (huile de cola).</p>
+     </div>
+     <div n="004" type="sub_section">
+      <p xml:id="para_2_5_38">II. CARACTÉRISTIQUE SOCIALE DU CHEF DE L'ENTREPRISE. — Le directeur actuel, qui était l'un des deux propriétaires fondateurs, se rattache par son origine aux professions libérales : il n'en est pas moins un homme technique capabler et actif. Il habite un pavillon, dans l'usine même.</p>
+     </div>
+     <div n="005" type="sub_section">
+      <p xml:id="para_2_5_39">III. INSTALLATION MATÉRIELLE; DIVISIONS PRINCIPALES DE L'ATELIER; LA TECHNIQUE. — L'énumération des opérations techniques que nous allons tenter, avec le moins de développements possible, n'a pas pour but d'initier le lecteur aux secrets de la fabrication du papier de paille. Ni l'ingénieur, ni le chimiste, ni le fabricant n'y trouveront de révéla¬tions intéressantes. Le but cherché est une description « économique et sociaule :  circulation des produits et organisation du travail. Mais le cadre matériel, imposé par la technique, domine cette circulation et cette organisation. Il faut donc l'esquisser.</p>
+      <p xml:id="para_2_5_40">a) ouages généraux. — 1° ˉLe bureau très réduit : le personnel commercial se borne à deux personnes : le directeur et un comptable, en même temps chef de fabrication. Là se trouve l'appareil tǵlépho¬nique. Éclairage à l'électricité.</p>
+      <p xml:id="para_2_5_41">2 L'atelier de meicanique, installé tout auprès du bureau. C'est l'ame industrielle de l'ensemble. L'outillage se devine : la forge, les étaux, les. machines à percer, les tours, etc., c'est-à-dire tous les moyens de ré¬parer les pièces mécaniques de la fabrication, et même de les améliorer.</p>
+      <p xml:id="para_2_5_42">3° L'atelier des charpentiers-menusiers : autre centre également important. Les hommes du métier, pour le fer et le bois, doivent for¬mer une sorte de groupe de sous-officiers, qui tantôt interviennent comme spécialistes, tantôt comme simples surveillants.</p>
+      <p xml:id="para_2_5_43">b) Force motrice; eclairage et vapeur. — 1° ˉLaforce motriee est fournie par la chute d'eau, haute de 2ᵉ30, bàtie diagonalement sur la rivière qui présente à ce point une largeur de 114 mètres. Pas de vaste <pb facs="#facs_9" n="6" source="lesouvriersdesde0108sociuoft_0016.xml"/> roue, analogue à celle des anciens moulins à blé ou huile, comme on en rencontrerait d'ailleurs en quelques usines de la Société ; mais cinq tur¬bines en fonte, système Fontaine et Singrun.</p>
+      <p xml:id="para_2_6_45">2° L'éclairage est procuré à l'aide d'une machine Gramme, mise en mouvement par la chute d'eau (105 voltés utilisées par l'usine).</p>
+      <p xml:id="para_2_6_46">3° L'atelier de chaufe, qui fournit la vapeur nécessaire à la fabrica¬tion, se compose de deux générateurs (surface totale : 150 m. q.).</p>
+      <p xml:id="para_2_6_47">4° Annexe de L'atelier precedent : le dépôt de charbon (charbon anglais et charbon de Cransac).</p>
+      <p xml:id="para_2_6_48">c) Fabrication proprement dite. — Les matières premières utilisées se composent de chaux et de paille de seigle; deux dépôts s'apercoivent dès l'arrivée à l'usine : 1° La chaux grasse. — ElIle provient de fours situés à Taponnat (limite de la zone granitique et de la zone calcaire de la Basse-Charente).</p>
+      <p xml:id="para_2_6_49">2° Les pailles de seigle disposees en pallers. — Ce sont d'énormes meules de paille, couvertes d'un toit à deux eaux et installées à la suite l'une de l'autre, près de l'usine (ces réserves ont pour objet de remédier à la montée subite du prix de la paille, en cas de sécheresse ou de mau¬vaises récoltes).</p>
+      <p xml:id="para_2_6_50">La fabrication proprement dite peut se diviser en deux grandes sec¬tions. Dans la première, la pâte liquide est préparée ainsi que nous allons le voir ; dans la seconde, le papier est produit par une série d'ac¬tions mécaniques rassemblées en une seule machine, qui remplace ainsi les équipes successives des ouvriers papetiers d'autrefois.</p>
+      <p xml:id="para_2_6_51">1° Preparation de la pdte liquide. — a) ˉLe grenier. — Après pesage sur bascule, le vagon de paille, introduit sur rails dans le hall de récep¬tion, eost déchargé au second étage, qui constitue le grenier. Des coupe¬paille, mus mécaniquement, hachent la paille en menus morceaux. Des maneuvres, armés de racloirs, poussent cette paille hachée vers la trappe ouverte, qui correspond à la mare que l'on veut remplir.</p>
+      <p xml:id="para_2_6_52">b) L'atelier des mares. — Au-dessous du grenier et mis en commu¬nication avec lui à l'aide de trappes, l'atelier des mares se présente comme une juxtaposition régulière de fosses en ciment ou mares. Fosses de droite et fosses de gauche (20 en tout) sont séparées par un chemin étroit, de la largeur des vagonnets qui circulent incessamment. Une fosse est vide ; la paille hachée y est précipitée par la trappe correspon¬dante. En même tomps, du lait de chaux est versé sur cette paille séchée qu'il rendra plus fbreuse, plus facile à broyer; paille et lait de chaux se succèdent. La fosse est remplie. On la laissefermenterˉ, acerer. C'est <pb facs="#facs_10" n="7" source="lesouvriersdesde0108sociuoft_0017.xml"/> dans cet atelier qu'il faudrait dévoiler les « tours de main spéciaux, les petits secrets du métier, pour éviter par exemple le boursouflement du mélange. Après la fosse romplie, on passe à une autre.</p>
+      <p xml:id="para_2_7_54">Les fosses prêtes sont vidées par les journaliers, et le mélange est transporté à l'aide de vagonnets glissant sur des rails dans l'atelier de broyage.</p>
+      <p xml:id="para_2_7_55">c) ˉL'atelier de broyae. — Dans cet atelier, treize paires de meules en granit (de 250 de diamètre) et tournant sur leur tranche écrasent la paille et la réduisent en pâte. Celle-ci est transportée par des vis d'Ar¬chimède dans un vaste réservoir ou dallot qui occupe une partie du sous-sol. Puis une pompe à boulets l'élève dans un cuvier rond, où elle attend les manipulations subséquentes.</p>
+      <p xml:id="para_2_7_56">d) ˉL'atelier des cgdindres et du nettoyage fna. — Les trois cylindres (dits s piles Debiée ) ont pour but l'achèvement du broyage, et aussi du nettoyage et du raffinage; des tambours-laveurs enlèvent le lait de chaux qui brûlerait les feutres de la machine à fabriquer le papier. Après le cylindrage la pâte tombe dans un cuvier-récepteur, où des bras de fer, des agitateurs, la battent énergiquement. Une roue à écopes l'amène dans un nouveau « dallot ou cuvier carré, situé au second. C'est la salle d'attente de la fabrication.</p>
+      <p xml:id="para_2_7_57">2° Production du papier. — Tout un vaste hall oblong est occupé par l'ame de l'usine, la machine à fabriquer le papier,  la machine, dit-on par abréviation, qui représente, on le sait, le point d'arrivée de l'un des efforts industriels les plus curieux vers la substitution du tra¬vail-esclave (ou mécanique) au travauil libre et intelligent de l'homme.</p>
+      <p xml:id="para_2_7_58">Si l'on veut comprendre l'action complexe de cet assemblage de cylindres, de feutres, de séchoirs, etc., il faut partir de l'idée précédente et y voir la réunion dans une seule main de fer, pour ainsi dire, de toutes les opérations soigneusement divisées jadis entre des escouades d'ou¬vriers. Division du travail, d'abord— division maintenue pour le travail di4t à la main du papier de luxe<note type="bp">
+        <p>Le « luxe » qui avoisine l'art, sauve toujours l'indépendance de l'ouvrier, ar¬tisan ou artiste. La machine procure non le a fini,  mais la quantité et le bon marché.</p>
+       </note>ou même d'une facon générale dans les pays de main-d'œuvre très bon marché, comme le Japon — et enfin concentration dans la a machine qui recoit la pate liquide et rend les feuilles de papier coupées et prêtes pour l'expedition, voilà les deux étapes successives.</p>
+      <p xml:id="para_2_8_60"><pb facs="#facs_11" n="8" source="lesouvriersdesde0108sociuoft_0018.xml"/> La machine » que nous avons sous les yeux peut passer pour un assez bel échantillon de l'espèce (une machine peut coûter 115,000ᶠ). Elle présente 250 de large, et est due à un constructeur-mécanicien de Limoges. Ses opérations peuvent être divisées en six séries successives : 1ᵉ là mise sur les « formes. » La pàte arrive par un robinet sur les formes, » autrement dit de vastes rouleaux de 2 mètres de diamètre, autour desquels s'applique un feutre. Au moment ou la nappe de bouillie jaune arrive sur le feutre, une presse montante la durcit et le feutre l'enlève. La pérégrination du long et large ruban ne s'arrêtera que sur la table terminus, ou les feuilles de papier coupées à la dimension voulue ce jour-là se superposeront en masses compactes ; 2 les « cylindres¬sécheurs, » dont la surface est portée à une haute température par l'intervention de la vapeur, recoivent le papier, dont l'eil peut suivre le régulier et perpétuel voyage vers un durcissement progressif ; 3° les calandres exécutent le satinage;  4ᵉ la bobineuse enroule le ruban ; 5 le «dévidoir le reçoit ; 6° enfin la « coupeuse le sectionne.</p>
+      <p xml:id="para_2_8_61">Des gamins, petits apprentis (si l'on peut donner à cet emploi le nom d'apprentissage), sont chargés de la réception finale et de la mise à</p>
+      <p xml:id="para_2_8_62">3° Ecpeidition. — Un second hal bordé de comptoirs (la table de triage et pliage) où les ballots attendent l'empaquetage, avec une petite voie centrale pour vagonnets (dont il est d'ailleurs peu fait d'usage). A la sortie du hall, par les baies latérales, qui font du hall un quai d'em¬barquement, les vagons de la Compagnie d'Orléans sont chargés et n'ont plus qu'à effectuer le trajet d'unkilomètre et demi pour arriver à la gare de départ.</p>
+     </div>
+     <div n="006" type="sub_section">
+      <p xml:id="para_2_8_63">IV. — PRODUCTION. — La production de l'usine consiste en papiers paille et brun — maculatures (papier de couleur que l'on intercale entre les papiers blancs) et cartons satinés ou non satinés. » (Spécialité de pa¬piers pour sacs, sucres et pointes.) Elle a eté de 9,000 lilos quotidiens, soit 3,200 tonnes par an.</p>
+     </div>
+     <div n="007" type="sub_section">
+      <p xml:id="para_2_8_64">V. — COMPOSITION DU PERSONNEL ; ORIGINE, RECRUTEMENT. — En mettant à part le directeur et le comptable, l'efaetif total de l'usine atteint 75 personnes. L'élément masculin domine : 45 hommes. En effet, la force nécessaire pour les travaux maintient la suprématie de l'ouvrier, malgré l'invasion ascendante du travail de la femme, dans l'industrie contemporaine. — A la tête de ce groupe de 45 hommes, il faut signaler le mécannicien (en même temps électricien), ses 2 aides, les 2 charpen¬tiers, les 2 surveillants, les chauffeurs. Les femmes sont au nombre de 25; <pb facs="#facs_12" n="9" source="lesouvriersdesde0108sociuoft_0019.xml"/> elles sont réservées pour le triage et le pliage. Les enfants ou gamins n placés à l'extrémité de la machine, un peu comme les gamins des im¬primeries, ne dépassent pas 5. Ces 75 personnes sont fournies par 31 fa¬milles, dont 20 habitent 20 maisons appartenant à l'usine. Les 11 autres sont installées au chef-lieu de la commune ou dans les villages voisins.</p>
+      <p xml:id="para_2_9_66">Le noyau du personnel (notamment le mécanicien) fut jadis amené de Saint-Junien, centre de l'industrie. Le « noyau ne signifie pas la partie du personnel toujours employée n par opposition aux s extras ou collaborateurs d'occausion : la régularité du travail est la même pour tous. Il désigne les ouvriers du début (1874). Le surplus a été emprunté à la localité..</p>
+     </div>
+     <div n="008" type="sub_section">
+      <p xml:id="para_2_9_67">VI. — JOURS DE MARCHE JOURS ET HEURES DE TRAVAIL. — L'uine ne chôme ni jour ni nuit, pendant l'année entière, sauf aux quatre grandes fêtes. La raison de cette continuité est double : 1ᵉ absence de morte-saison commerciale par suite de la régularité des demandes du commerce de détail ;2 nécessité d'éviter les mises en train » inutiles. — ˉConsegquence, un service de nuit ; Douze hommes demeurent en perma¬nence aux meules, aux cylindres, à la machine, n aux chaufferies. Le roulement a lieu toutes les quinzaines. L'équipe montante se repose seulement ainsi une demi-journée, au moment de la relève.</p>
+      <p xml:id="para_2_9_68">Les femmes ne sont utilisées que d'une facon irrégulière (150 jours par an).</p>
+      <p xml:id="para_2_9_69">Heures de travail :de minuit à midi, avec repos, pour les petites équipes visées plus haut. De 7 h. à 7 h. pour la grande équipe des autres ouvriers (12 heures pleines). De 8 h. à 6 h. pour les femmes (2 heures de repos).</p>
+     </div>
+     <div n="009" type="sub_section">
+      <p xml:id="para_2_9_70">VII. — SALAIRES. — Le directeur recoit 500ᶠ par mois ; le comptable, 200ᶠ avec la gratification. Les hommes sont payés au mois et à la jour¬née : mécaniciens : 160 par mois ; aides et charpentiers, 120ᶠ, 110ᶠ ; chauffeurs, 3ᶠ par jour ; ouvriers ordinaires, 2ᶠ50,2ᶠ 25, 2ᶠ (moyenne 2ᶠ 25; soit700 a 750ᶠ par année avec les repos).</p>
+      <p xml:id="para_2_9_71">Les femmes ont leur salaire calculé aux pièces : par exemple à raison de 0ᶠ 15 par 500 feuilles (en réalité 480 avec la tolérance), soit 1ᶠ 25 par jour.</p>
+      <p xml:id="para_2_9_72">Les gamins sont payés à la journée : 1ᶠ, 1ᶠ25, 1ᶠ 50.</p>
+      <p xml:id="para_2_9_73">Il est à remarquer que la paye est fixée au6 de chaque mois, afin d'évi¬ter les tentations d'une importante foire voisine, qui a lieu le 5. En outre, l'attribution du loyer constitue pour 20 familles un salaire en nature.</p>
+     </div>
+     <div n="010" type="sub_section">
+      <p xml:id="para_2_9_74">VIII. — INSTITUTIONS DE PATRONAGE. — On doit classer en tête des institutions de patronage les « habitations ouvrières,  les 21 maisons, <pb facs="#facs_13" n="10" source="lesouvriersdesde0108sociuoft_0020.xml"/> délivrées gratuitement : 1ᵉ au comptable ; 2 aux 20 familles le plus anciennement au service de l'usine. Cest, en efet, l'ancienneté qui déter¬mine l'octroi de ce complément de salaire ; les onze familles nouvelles en bénéficieront au fur et à mesure des extinctions. L'assurance contre les accidents, rendue indispensable par la loi du 9 avril 1898, était déjà pratiquée avant l'application de cette loi. L'ancienne Compagnie a retransformé la police avec des coefficients plus lourds. A signaler, la cantine tenue par le mécanicien.</p>
+     </div>
+     <div n="011" type="sub_section">
+      <p xml:id="para_2_10_77">IX. — RAPPORTS DE LA DIRECTION ET DES OUVRIR<note type="bp">
+        <p>Nous évitons avec soin les expressions du « capital » et du « travail. » Voir les Enquetes, p. 225 et suiv.</p>
+       </note>. — Une tentative de grève, motivée par une dificulté au sujet du reglement, a échoué en vingt-quae heures, il y a trois années. Somie toute, entente suffisante. La race est craintive et assez dissimulée. EElle ne manifesterait guère une opposition franche qu'après une longue propagande, et à la faveur de circonstances supprimant le péril.</p>
+     </div>
+     <div n="012" type="sub_section">
+      <p xml:id="para_2_10_78">X. — HABITUDES GÉNÉRALES DES FAMILLES OUVRIÈRES. — Les ouvriers sont des ouvriers-paysans, parlant « patois, » semblables aux manuvres campagnards, déracinés du sol, analogues à ceux que l'on rencontrait dans les manufactures des xv et xv siècles. La <ref target="#ID-065a" type="renvoi_int_od2m">monographie des « Métayers confolentais, »</ref> déjà citée, donne l'idée rigoureuse de leur manière de penser et de vivre<note type="bp">
+        <p>On peut également consulter le précis de la <ref target="#ID-065b" type="renvoi_int_od2m">Monographie du Paysan et Ma¬con émigrant de la Marche (Ouvr. des Deux Mondes, 2 sér., t. II)</ref>.</p>
+       </note>.</p>
+     </div>
+     <div n="012" type="sub_section">
+      <p xml:id="para_2_10_79">X. — OBSERVATIONS GÉNÉRALES. — Bien que l'usine décrite soit deve¬nue un simple compartiment de production du vaste ensemble formé par la Société générale des Papeteries du Limousin, il convient de rappeler que ses clients antérieurs étaient à peu près au nombre de 80 : marchands de papiers en gros (fournisseurs de l'épicerie, de la rafenerie, etc.), et aussi faconniers, c'est-à-dire fabriquant ces enveloppes de papier gaufré qu'utilisent la parfumerie et la pharmacie. Ces 80 clients se sont fondus dans lae clientèle de la Société par la décapitation commerciale de l'usine.</p>
+     </div>
+    </div>
+    <div n="004" type="section">
+     <head type="section" xml:id="part_04">DEUXIÈME PARTIE. ORGANISATION INDUSTRIELLE DU GROUPE FUSIONNÉ</head>
+     <p xml:id="para_2_11_83"><pb facs="#facs_14" n="11" source="lesouvriersdesde0108sociuoft_0021.xml"/> Si les sept usines du a Limousin (les sept usines groupées au début de 1899) avaient été simplement reliées par un trust,  au sens rigou¬reux du mot<note type="bp">
+       <p>V. Appendice, la différence du « trust » et de la « fusion. » Celle-ci est le couronnement du a « trust, » mais doit être distinguée de ce dernier.</p>
+      </note>
+      — autrement dit par un syndicat de relèvement des prix (par exemple) — il n'y aurait pas lieu de rédiger cette deuxième partie, ayant pour titre : Organisation industrielle de l'ensemble. En efet, chaque entreprise, plus ou moins analogue à l'entreprise précédemment décrite, aurait conservé son autonomie industrielle complète et se serait bornée à déposer en commun une fraction de son indépendance commerciale et financière. Ici, au contraire, chaque usine n'est plus qu'une pièce dans le mécanisme d'ensemble, dont le centre se trouve au bureau de Saint¬Junien. C'est de Saint-Junien, où cinq des usines primitives s'agglo¬mèret, que des ordres quotidiens animent l'activité totale. Le principe du commandement a reflué la-bas. ne laissant à chaque unité de jadis que le devoir d'obéir comme un simple rouage<note type="bp">
+       <p>L'importante usine Labrousse de Saillac reste en dehors de la fusion.</p>
+      </note>.</p>
+     <p xml:id="para_2_11_84">Les sept rouages, disposés d'après leur ordre d'importance (série ascen¬dante), peuvent être décrits à l'aide du signalement suivant :</p>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_04_01">N° 1. — USINE DE NOTRE-DAME DU PONT</head>
+      <p xml:id="para_2_11_86">1° Milieu. — Sur la Vienne, a Saint-Junien même, auprès du sanctuaire, fameux dans la contrée, de Notre-Dame du Pont<note type="bp">
+        <p>La légende prétend que ce sanctuaire fut élevé à l'emplacement même où Aymerie IV, vicomte de Rochechouart, traversa la Vienne en échappant aux hommes d'armes du roi, après le meurtre du sire de Cromieres (ist. de Hoche¬chouart, par Dullery).</p>
+       </note>. — 2° orce motrice et machines. —</p>
+      <p xml:id="para_2_12_90"><pb facs="#facs_15" n="12" source="lesouvriersdesde0108sociuoft_0022.xml"/> 3 roues hydrauliques. système Sagebien, 90 chovaux ; l turbine, système Fontaine, 30 chevaux ; total, 120 chevaux. Surface des générateurs, ll0P. Pas d'électri¬cité, l'usine est éclairée au gaa (Cᶠ du gaa de Saint-Junien). Fosses à macératio, 2. Paires de meules, 8. Piles rafinouses, 4. — 3° Ejeectif ouvrier. — Total, 16 personnes (30 hommes, 12 femmes, 4 gamins). Salaires, 22,000ᶠ 00. — 4° Po¬duction. — L'usine fabrique le papier d'emballage de toute forme. Poids total annuel, 1,200,000 ilos.</p>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_04_02">N° 2. — USINE DU DÉROT</head>
+      <p xml:id="para_2_12_92">e° Milieu. — Sur la lane, afiuent de la Vienne, près Saint-Junien. — 2° Forece motrice et achines. — 3 roues hydrauliques, systême à auget ; force, 60 che¬vaux ; 2 turbines, systèmes Fontaine et Leprince, 60 chevaux ; total, 120 chevaux. Surface des générateurs, 120. Elaeetricité. Fosses à macération, l6. Paires de meules, l0. Piles raffinenses, 3. Machine à papier, 1 de l60. — 3° Epectif ou¬orier. — Total, 56 (37 hommes, 5 femmes, 4 gamins). Salaires, 30,000ᶠ 00. — 4° Production. — L'usine fabrique papier de paille, cartons, maculatures, papier à sucre, à sacs et à pointes. Poids total annuel, 1I,500,000 kilos.</p>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_04_03">N° 3. — USINE DU MOULIN DE PUYGRENIER, A CONFOLENS (CHARENTE)</head>
+      <p xml:id="para_2_12_94">1° Milieu. — Sur la Vienne, à Confolens, Chareonte. — 2ᵉ Force motrice et ma¬chines. — 4 turbines, système Fontaine, 140 chevaux. Surface des générateurs, 60. Électricité. Fosses à macération, l4. Paires de meules, 8. Piles raffineuses, . Machine à papier, une, 21I0. — 3° Eectif ouorier. — Total, 6l (38 hommes. 9 femmes, 4 enfants). Salaires, 34,000ᶠ 00.  1° Praoduction. — L'usine fabrique : le papier de paille en tous genres ; spécialités de maculatures. Poids total annuel, 1,600,000 ilos.</p>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_04_04">N° 4. — USINE DE GRANDMONT</head>
+      <p xml:id="para_2_12_96">1ᵉ Milieu. — Sur la Vienne, près Saint-unien. — 2ᵉ orce motrice et machines. — 7 turbines, syistème Fontaine, 300 chevaux. Surface des générateurs, 25. Pas d'électricité, éclairage au gaa. Fosses à macération, 40. Paires de meules, 22. Piles rafineuses, 8. Machines à papier, 2, ᵉ70 chacune. — 3ᵉ Eectif ouvrier. — Total, 92 (54 hommes, 30 femmes, 3 gamins). Salaires, 50,000ᶠ 00. — 1ᵉ° Produc¬tion. — L'usine fabrique : le papier paille et emballage, spécialités pour rafîne¬ries, pour sacs, pour bouherie. Poids total annuel, 3,000,000 ilos.</p>
+     </div>
+     <div n="005" type="sub_section">
+      <head type="sub_section" xml:id="part_04_05">N° 5. — USINE DE SAINN-BRICE</head>
+      <p xml:id="para_2_12_98">1ᵉ ilie. — Sur la Vionne, près Saint-unien. — 2ᵉ Force motrice et machines. — 5 turbines, système Fontaine, 300 chevaux. Surface des générateurs, 90. Éleetricité. Fosses à macération, l4. Paires de meules, 6. Broyeuses,  (équivalant à 8 paires de meules en tont). Piles raffineuses, 4. Machine à papier, l. — 3ᵉ Ejc¬tif ouvrier. — Total, 68 (43 hommes, 2l femmes, 4 gamins). — 4ᵉ Production. — L'usine fabrique tous papiers d'emballage Poids total annuel, 2,500,000 kilos.</p>
+     </div>
+     <div n="006" type="sub_section">
+      <head type="sub_section" xml:id="part_04_06">N° 6. — USINE D'EXIDEUIL</head>
+      <p xml:id="para_2_13_100"><pb facs="#facs_16" n="13" source="lesouvriersdesde0108sociuoft_0023.xml"/> 1ᵉ Milieu. — Sur la Vienne, près d'Eideuil (Charente). — 2° Force motrice et machines. — 5 turbines, systèmes Fontaine et Singriin, 300 chevaux. Surface des génerateurs, l50. Electricité, 105 voltes. Fosses à macération, 20. Paires de meules, l4. Piles rafineuses, 4. 1 machine à papier, 2P20. — 3ᵉ Ejectif ouorier.</p>
+      <p xml:id="para_2_13_101">— Total, 76 (45 hommes, 27 femmes, 4 gamins). Salaires, 42,000ᶠ 00. — 4° Pro¬duction. — L'usine fabrique le papier paille et brun, maculatures et cartons sa¬tinés ou non satinés. Spécialité de papier pour sacs, sucre et pointes. Poids total annuel, 2,500,000 ilos.</p>
+     </div>
+     <div n="007" type="sub_section">
+      <head type="sub_section" xml:id="part_04_07">N° 7. — USINE DU MOULIN-PELGROS</head>
+      <p xml:id="para_2_13_103">1ᵉ Milieu. — Sur la Vienne, près Saint-Junien. — 2° orce motrie et machines.</p>
+      <p xml:id="para_2_13_104">— 7 turbines, système Fontaine, 300 chevaux. Surface des générateurs, 200. Électricité. Fosses à macéraion, 42. Paires de meules, 30. Piles raffineouses, 10. Machines à papier, 2, ʳ10, 1ʳ65. — 3ᵉ Eectif ouvrier. — Total, 95 (6 hommes, 20 femmes,  gamins). Salaires, 60,000ᶠ 00. — ᵉ Production. — L'usine fabrique les papiers à sacs et à pointes, le papier paille d'emballage, le papier paille de toutes couleurs, en rames et en rouleaux. Spécialité de maculatures pour papiers blancs. Poids total annuel, 3,500,000 lilos.</p>
+     </div>
+     <div n="008" type="sub_section">
+      <head type="sub_section" xml:id="part_04_08">RÉCAPITULATION</head>
+      <p xml:id="para_2_13_106">La « Société générale des Papeteries du Limousin groupait donc au début de 1899 (par ses sept usines fusionnées) :</p>
+      <p xml:id="para_2_13_107">1ᵉ 1,640 chevaux de force motrice.</p>
+      <p xml:id="para_2_13_108">2° 855 mètres carrés de surface de chaufe.</p>
+      <p xml:id="para_2_13_109">3° 158 fosses à macération.</p>
+      <p xml:id="para_2_13_110">4e 98 paires de meules.</p>
+      <p xml:id="para_2_13_111">5° 37 piles rafineuses.</p>
+      <p xml:id="para_2_13_112">60 9 machines à papier.</p>
+      <p xml:id="para_2_13_113">Elle atteignait 15,800,000 lilos de production annuelle.</p>
+      <p xml:id="para_2_13_114">Mais cest surtout en considérant lafectif total de 487 personnes (307 ouvriers, 114 ouvrières, 16 gamins) que l'on arrive à saisir l'ampleur de l'organisation<note type="bp">
+        <p>L'agrégation récente de huit nouvelles usines ajoute naturellement un sur¬croit de force considérable au groupe des sept prmières : on en jugera par le tableau de la page stuivante.</p>
+       </note>. <pb facs="#facs_17" n="14" source="lesouvriersdesde0108sociuoft_0024.xml"/></p>
+      <figure rend="landscape" type="table">
+       <!-- figure en paysage -->
+       <head resp="original" type="table" xml:id="figure_1">Consistance de huit usines nouvellement agrégées à la société</head>
+       <graphic facs="#facs_17_g_2" url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft%2424/352,351,1496,2838/full/270/default.jpg" xml:id="tble_2_14_1"/>
+      </figure>
+      <!--<p xml:id="para_2_14_117">La récapitulation générale fournit ainsi un total de :</p>
+      <p xml:id="para_2_14_118">2,910 ehevaux-vapeur.</p>
+      <p xml:id="para_2_14_119">18 machines à papier.</p>
+      <p xml:id="para_2_14_120">832 personnes (avec 419,000ᶠ00 de salaire). 24,300 tonnnes de production.</p>-->
+      <p xml:id="para_2_15_121"><pb facs="#facs_18" n="15" source="lesouvriersdesde0108sociuoft_0025.xml"/> L'étude de cette population ouvrière va nous permettre de mettre en relief la situation sociale de la petite ville de Saint-Junien, la seconde ville industrielle de la Haute-Vienne<note type="bp">
+        <p>La première est naturellement la cité porcelainière, Limoges.</p>
+       </note>(9,674 hab., d'après le recense¬ment de 1896, dont 5,965 agglomérés). En effet, la commune de Saint¬Junien — ville et banlieue immédiate<note type="bp">
+        <p>La ville est batie en amphithéâtre sur le penchant du coteau qui sépare le lit de la Vienne de celui de la alane.</p>
+       </note>
+       — comprend une population papetière importaunte. Cinq des usines primitives de la Société y sont réunies, sans parler de deux autres, nouvellement agrégées, et de deux indépendauntes. Sur le total de la population ouvrière de la commune (5,000 personnes environ), les trois corporations du apneer,, du cuir (mégisserie) et de la ganterie représentent près de 4,500 hommes, femmes et enfants (ouvriers, ouvrières et leurs familles). La papeterie peut ré¬clamer plus d'un millier sur cet efectif.</p>
+      <p xml:id="para_2_15_122">1° Classication de l'industrie dans la série des industries localas. — Le préjugé local place au premier rang les s gantieis,  qui, volon¬tiers, se posent en artistes (comme les sculpteurs pour le bois), et en a indépendants » (à cause du faconnage à domicile). Immédiatement après viennent les mégissiers, les a pelaux,  dit la langue locale (ou¬vriers en peaux), collaborateurs de la grande industrie (200, 300 ouvriers agglomérés) ; leur prestige relatif est dû à un salaire de 3ᶠ par jour. Enfin, au dernier rang : les papetiers, plus ruraux, plus près de la terre, n mais avec une distinction fondamentale (papetiers proprement dits et manuvres), qui se retrouvera plus loin.</p>
+      <p xml:id="para_2_15_123">2 Recrutement et répartition du personnel. — Toute la ville de Saint-Junien témoigne d'un appel incessant aux populations rurales circonvoisines. Sur les 9,674 habitants, 8,190 sont originaires du dépar¬tement et 1,080 de la Charente (arrondissement voisin et similaire de Confolens). L'aspect des intérieurs ouvriers, les mœurs, le patois uni¬versellement utilisé montrent que l'on a affaire à des s paysans déra¬</p>
+      <p xml:id="para_2_15_124">La population des usines de papiers de paille (usines de banlieue, aè cause des chutes d'eau sur la Vlienne et la Glane) forme un premier échelon de la transformation des campagnards en citadins. Elle est plus rustique, au moins dans sa partie inférieure. En effet, deux catégo<pb facs="#facs_19" n="16" source="lesouvriersdesde0108sociuoft_0026.xml"/>ries s'y distinguent, que nous avons déjà entrevues : a) l'état-major, les familles papetières proprement dites ; celles-ci surtout traditionnelles, héréditaires, avec le désir d'élévation sourde vers le commerce, les fonc¬tions d'instituteur, etc. ; — ) les maneuvres, simples paysans appelés en collaboration subordonnée.</p>
+      <p xml:id="para_2_16_129">a) L'état-major comprendrait : 1ᵉ les contremaîtres et surveillants ;</p>
+      <p xml:id="para_2_16_130">— 2ᵉ les hommes de métier : mécaniciens, chaufeurs, charpentiers, ma¬cons ; — 3° les papetiers : gouverneurs de cylindres (brégères, ou broyeurs en patois), conducteurs de machines, apprentis conducteurs faisant fonctions de graisseurs, coupeurs, tireurs de feuille, le chef de salle (d'emballages).</p>
+      <p xml:id="para_2_16_131">NOTA. — Les trieuses sont le plus souvent les femmes et filles des ouvriers précédents.</p>
+      <p xml:id="para_2_16_132">) Les maneuvres se décomposent ainsi : 1ᵉ hommes de peine ; ¬2 hommes du grenier ; — 3° mareurs (marères), ouvriers des mares ;</p>
+      <p xml:id="para_2_16_133">— 4° sallerants (emballeurs).</p>
+      <p xml:id="para_2_16_134">REMAROUE. — Ce hommes de peine, de grenier, ces mareurs et ces sallerants sont en général sous la direction de chefs d'équipe respon¬sables.</p>
+      <p xml:id="para_2_16_135">3° Durée du travail. — a) Jours de arce. — Toutes les usines sont à feu continu. Elles ne s'arrêtent en principe que quatre fois par an, pendant vingt-quatre heures à chaque arrêt : à Paques, l'Ascension, la Toussaint, Noel. Pas de halte le 1ᵉ janvier ni le 14 juillet. Repos à Saint-Junien le 15 août (fête locale). Les accidents de machine peuvent également entrainer des repos forcés.</p>
+      <p xml:id="para_2_16_136">) eures du travail. — La distinction de l'état-major et des manou¬vres présente à ce point de vue une très grande importance. L'état¬major — les hommes occupés aux chaufferies, aux cylindres, à la ma¬chine — se partage en deux équipes. L'une de ces équipes prend le ser¬vice de midi à minuit ; l'autre de minuit à midi. Tous les quine jours, on intervertit l'ordre des équipes. Les maneuvres, qui forment une grande euipe, ne travaillent que le jour. Arrivée a 5 h. du matin ; sor¬tie à 7 h. du soir (2 h. de repos ; 12h. de travai). Les femmes employées au triage et au comptage des papiers ne sont astreintes qu'aè neuf heures de présence : 8 h. du matin à 11 h. ; 1 h. à 6 h. du soir (150 jours par an en moyenne).</p>
+      <p xml:id="para_2_16_137">4° Salaires totaux et salaires individuels. — 1ᵉ Salaires totau. — 278,000ᶠ annuels pour les sept usines primitivement associées (salaires des ouvriers seuls, les employés de bureau mis aè part) ;</p>
+      <p xml:id="para_2_17_138"><pb facs="#facs_20" n="17" source="lesouvriersdesde0108sociuoft_0027.xml"/> 29 Salaires indioiduels. — a) EEtat-major :
+      </p>
+      <p xml:id="para_2_17_139">Contremaîtres, 150ᶠ par mois, chaufés, éclairés, logés.</p>
+      <p xml:id="para_2_17_140">Surveillants, 100ᶠ par mois, logés.</p>
+      <p xml:id="para_2_17_141">Mêcaniciens, 120ᶠ, 140ᶠ par mois, logés.</p>
+      <p xml:id="para_2_17_142">Charpentiers,. 120ᶠ par mois (3ᶠ 50, 3ᶠ 75 par jour). logés.</p>
+      <p xml:id="para_2_17_143">Macons, 2ᶠ 50 par jour, logés.</p>
+      <p xml:id="para_2_17_144">Chaufeurs, 3ᶠ par jour, logés.</p>
+      <p xml:id="para_2_17_145">Gouverneurs de cylindres, ᶠ par jour, logés.</p>
+      <p xml:id="para_2_17_146">Conducteurs de machines, 100ᶠ, 120ᶠ par mois, logés.</p>
+      <p xml:id="para_2_17_147">Apprentis conducteurs (graisseurs), 1ᶠ 75 par jour, logés.</p>
+      <p xml:id="para_2_17_148">Tireurs de feuilles (gamins), 1ᶠ, 1ᶠ50, logés.</p>
+      <p xml:id="para_2_17_149">Chef de salle (d'emballage), 100ᶠ, 110ᶠ par mois, logé.</p>
+      <p xml:id="para_2_17_150">) Manœuvres : 1ᶠ 75, 2ᶠ par jour, non logés.</p>
+      <p xml:id="para_2_17_151">Les femmes sont payées aux pièces, à tant la rame de 480 fouilles ; soit 1ᶠ, 1ᶠ 25 de salaire quotidien.</p>
+      <p xml:id="para_2_17_152">REMAROUES. — I. Le logeoment constitue à la fois une institution de patronage et un salaire en nature. On constate que l'état-major (les pa¬petiers proprement dits) est logé. EEfectivement, c'est une sorte de néces¬sité professionnelle que de le tenir sous la main (service de nuit). Lorsque leos logements bâtis par l'usine sont en nombre insuffisant, l'administration loue des immeubles rapprochés. — II. La s paie n a lieu tous les mois (versement d'acomptes).</p>
+      <p xml:id="para_2_17_153">5° nstitutions créées en faveur des ouvriers. — a) Par l'Etat. La loi du 9 avril 1898, entrée en vigueur le 1ᵉʳ juillet 1899, a généralisé l'assrance en cas d'accidents, notamment pour toutes les industries mécaniques (art. 1ʳ). Le procédé utilisé est la contrainte indirecte à l'assurance. En efet, en cas d'accidents suffisamment graves (au moins 4 jours d'incapacite), le patron est tenu, outre les frais médicauux et pharmaceutiques, à des indemnités journalières, à des rentes et à des pensions aux membres de la famille. Il en résulte que tous les chefs d'industrie s'assurent soit à des compagnies à primes fixes, soit à des syndicats de garantie. La loi de 1898 n'a pas modifié sensiblement dail¬leurs la situation des ouvriers papetiers. Les risques professionnels sot assez fréquents : ongles arrachés, doigts coupés, brûlures. Depuis une vingtaine d'années, ces risques étaient garantis par l'assurance. Les. réformes récentes ont eu surtout pour résultat de supprimer le main¬tien du salaire entre le jour de l'accident et le quatrième jour, fait normal autrefois.</p>
+      <p xml:id="para_2_17_154">La Société générale des papeteries du Limousin verse à la Compa<pb facs="#facs_21" n="18" source="lesouvriersdesde0108sociuoft_0028.xml"/>gnie l'Esperanee de Paris 1ᶠ 50ᵉ/, du saulaire de ses ouvriers. Cette prime suffit pour couvrir : 1° le versement du demi-salaire, en cas d'incapacité temporaire ; 2ᵉ° la demi-réduction du salaire annuel, en cas d'incapacité partielle et permanente; 3° la rente du demi-salaire annuel. en cas d'in¬capacité permanente et totale ; 4ᵉ les pensions de l'article 3 ; 5e les frais médicaux, pharmaceutiques et funéraires.</p>
+      <p xml:id="para_2_18_157">b) Par les ouoriers eu-memes. — La mutualite est représentée à Saint-Junien par deux Sociétés :  l'Union,  Société professionnelle ré¬servée aux ouvriers du cuir, et la Ville de Saint-Junien,  Société locale ouverte à tous les corps d'état. L'état-major des papetiers fournit à cette dernière un certain nombre d'adhérents, qui cumulent ainsi les indem¬nités de l'assurance patronale et de leur propre assurance, du moins en cas d'accidents. Pas de chambre syndicale ouvrière (il en existe pour le cuir et le bâtiment) ; pas de coopératives générales de consommation (Limoges est au contraire une ville essentiellement coopérative), mais deux boulangeries coopératives. L'esprit de la corporation de jadis survit dans quelques habitudes religieuses. De même que les gantiers ont pour patron sainte Catherine et les mégissiers saint Jean-Baptiste, les pape¬tiers sont placés sous la protection de la sainte Croix. Un autel spécial consacré à la sainte Croix — autel de confrérie — s'est conservé dans l'église de Saint-unien.</p>
+      <p xml:id="para_2_18_158">c) Par les patrons. — Les institutions de patronage se bornent aux habitations ouvrières déjà signalêes. Chaque logement se compose, lisons-nous dans un document émané de la direction, d'une grande pièce au re-de-chaussée (cuisine servant aux parents de chambre à cou¬cher) et d'une chambre au premier étage (chambre des enfants). Un jardin est annexé à la maison ouvrière.  Quelques-unes des usines au¬torisent le contremaître à ouvrir une cantine, qui bénéf̂cie du droit de reotenue sur les salaires.</p>
+      <p xml:id="para_2_18_159">6° Hbitndes générales de la famille ouvrière. — Les monographies de famille déjà citées (lMetayers en communaute du Confolentais et Preieis du aacon) permettent de tracer rapidement le tableau de la famille papetière. A son niveau inférieur (famille de manuvre), la famille ouvrière est un simple ménage détaché d'une s communauté paysanne (groupe de plusieurs ménages réunis dans une métairie sous l'autorité du père), ou descendant d'une communaute depuis longteompe rompue. Talle cette famille, habitant le faubourg Notre-Dame, composée du père : 28 ans; de la mère, 25 ans, et de trois enfants : 4 ans, 1 an et demi,  mois. Le chef, ancien cultivateur, déraciné par le service mili<pb facs="#facs_22" n="19" source="lesouvriersdesde0108sociuoft_0029.xml"/>taire, puis macon, journalier en principe, vient d'etre engagé comme homme de grenier. La femme, ille de petits propriétaires indigents, plus tard servante et nourrice dans une ville du nord de la France, emploie à des travaux de ganterie et de couture les rares moments que lui laissent les soins domestiques. Recettes annuelles : 700ᶠ pour l'homme, 80ᶠ pour la femme. Les dépenses absorbent vite ce maigre budget : 60ᶠ de loyer pour une seule chambre au re-de-chaussée, un petit cellier et un jardin microscopique ; le bois, le charbon ; la nourriture, surtout végétarienne (pain, 1ᶠ 30 et 1ᶠ 40 la tourte de 10 livres ; viande, 0ᶠ 70 la livre), le lait pour les enfants, les vêtements indispensables : la marge demeure assez étroite pour les plaisirs et récréations.</p>
+      <p xml:id="para_2_19_161">Au niveau supérieur (papetiers proprement dits), le cadre s'agrandit. Dans la même maison habite un surveillant; avec 1,440ᶠ, plus 200ᶠ pour la femme ; intérieur plus coquet, toilette plus rafinée et urbanisation progressive (tenue d'ouvrier des villes). Beaucoup de ses confrères placent leur argent en immeubles ruraux. Lui — le chef — préfère les valeurs mobilieres. Sa fille sera institutrice<note type="bp">
+        <p>C'est nn échantillon d'avant-garde.</p>
+       </note>!</p>
+      <p xml:id="para_2_19_162">En résumé, ace sobre, frugale (le fait est constaté pour tous les Limousins dans les régiments) ; asse économe ; portée un peu plus que jadis vers l'alcoolisme, mais sans les excès des milieux ouvriers du Nord ; à croyances religieuses afaiblies et encore à natalité nombreuse. Malgré un certain relâchement moral, par rapport à la rigidité antique, la femme se trouve encore protégée par le caractère familial de l'indus¬trie. La jeunefille est surveillée par ses parents et ses frères, dont elle devient la voisine d'atelier.</p>
+      <p xml:id="para_2_19_163">7P Rapports entre le capital et le travail. — Les usines de papier de paille, groupées par la Société genérale du Limousin, peuvent être placées au premier rang au point de vue de la permanence des engager ments. Les états-majors des papetiers proprement dits offrent de nom¬breuses individualités qui comptent trente années de présence. En 1898, la Société a fait donner 6 médailles destinées aux vieux ouvriers et serviteurs ; en 1899, 12 médailles. Malheureusement, aucune compta¬bilité n'a été dressée au sujet des entrées et des sorties d'ouvriers. Il en résulte que tout tableau statistique devient impossible. Les peuples heureux n'ont pas d'histoire et les usines les plus stables doivent se pas¬ser de diagramme.</p>
+      <p xml:id="para_2_19_164">Pas de chômage, pas de grèves.</p>
+      <p xml:id="para_2_20_167"><pb facs="#facs_23" n="20" source="lesouvriersdesde0108sociuoft_0030.xml"/> Les rapports du patron rural et de ses auxiliaires rappelaient à s'y méprendre à l'origine les rapports du propriétaire de domaine et de ees métayers (<ref target="#ID-065a" type="renvoi_int_od2m">V. Metayers confolentais</ref>). La confiance était réciproue; les demandes de conseils et d'assistance étauient fréquentes. Malgré quelques nuages, c'est encore aujourd'hui un devoir pour le chef d'industrie d'as¬sister à tous les mariages et à tous les enterrements qui surviennent dans les familles ouvrières. La cérémonie du nouvel an a conservé quelque chose de sa patriaurcale saveur. Ce jour-là, bien que les feux ne soient pas éteints, la coutume impose une distribution de « gouttes aux ouvriers, et de pralines aux ouvrières, enfants et jeunes filles.</p>
+      <p xml:id="para_2_20_168">La guerre sociale n'en est pas moins déclarée, à quelques lieues de là, dans la cité porcelainière de Limoges, ville essentiellement coopérative et socialiste, comme Gand ou Roubaix.</p>
+     </div>
+    </div>
+    <div n="005" type="section">
+     <head type="section" xml:id="part_05">TROISIÈME PARTIE. ORGANISATION COMMERCIALE ET FINANCIÈRES</head>
+     <p xml:id="para_2_21_170"><pb facs="#facs_24" n="21" source="lesouvriersdesde0108sociuoft_0031.xml"/> Plus que jamais, le bureauu 'central de Saint-Junieon (situé près du champ de foire) va devenir le point visé par l'objectif monographique. La fusion est précisément l'unification de la volonté commerciale et des profits à répartir.</p>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_05_01">1° SECTION. — ORGANISATION COMMERCIALE</head>
+      <p xml:id="para_2_21_172">Comme manifestation extérieure du bureau central, un immeuble sans aucun signe distinctif. Les deux administrateurs délégués (portés à trois depuis l'extension de la Socióté) en forment la clef de voûte. Au¬dessous d'eux : 1ᵉ le bureau de la correspondance generale (clientèle, vente) et de la correspondance usines : 3 employés ; 2° le bureau des approoisionnements et achats : 1 employé; 3° le bureau de la compda¬bilite géerale (caisse) : 3 employés ; 4° le bureau de la comptaoiite usines : 2 employés. En tout neu employés (plus le concierge), aux appointements variant de 1,200ᶠ a 2,000ᶠ, astreints à huit heures quoti¬diennes de présence (9 h. du matin, 7 h. du soir).</p>
+      <p xml:id="para_2_21_173">De ce centre, l'observateur découvre nettement la marche combinée des sept usines, qu'a fixée pour le premier exercice le bilan ci-dessous :</p>
+      <figure rend="portrait" type="table">
+       <head resp="original" type="table" xml:id="figure_2">Resumé du bilan general définif au 31 juillet 1899</head>
+       <graphic facs="#facs_24_g_7" url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft%2431/115,2162,2034,1051/full/0/default.jpg" xml:id="tble_2_21_2"/>
+      </figure>
+      <p xml:id="para_2_22_178"><pb facs="#facs_25" n="22" source="lesouvriersdesde0108sociuoft_0032.xml"/> Mais un bilan ne va pas sans commentaire. Il indique la situation à un moment donné (ici le 3 juillet). La marche véritable, pour l'exer¬cice entier, serait beaucoup mieux résumée par un compte d'industrie. Malheureusement, un compte général aurait le tort d'etre indiscret et pourrait soulever, de la part de la Société, les susceptibilités les plus ex¬plicaubles. En bornant le compte d'industrie à une seule usine sur les sept, nous concilions le respect de l'exactitude la plus scrupuleuse avec le respect des secrets.</p>
+      <figure rend="portrait" type="table">
+       <head resp="original" type="table" xml:id="figure_3">Compte de l'industrie (appliqué à une seule usine) (1)</head>
+       <graphic facs="#facs_25" url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft%2432/247,1059,1738,2130/full/0/default.jpg"/>
+      </figure>
+      <!--<p xml:id="para_2_22_180">I. RrTE</p>
+       <p xml:id="para_2_22_181">Poduction annuelle. . . 3,500,000 hilos</p>
+      <p xml:id="para_2_22_182">A déduire, casses, 10 ᵉ.. 350,000</p>
+      <p xml:id="para_2_22_183">Praoduction nette facturée. 3,1I50,000 hilos, à 13ᶠ 00 las 1I00 ilos. . 109,500ᶠ 00</p>
+      <p xml:id="para_2_22_184">II. DÉPENES</p>
+      <p xml:id="para_2_22_185">ᵉ Matières premières.</p>
+      <p xml:id="para_2_22_186">1ᵉ Paille (en comptant 100 ilos de paille pour 80 lilos</p>
+      <p xml:id="para_2_22_187">de papier), 4,375,000 ilos, à 4ᶠ 50 Iaes 1I00 ilos. . . . 196,875ᶠ 00 2° Charbon (marché de 1,200 a 1,400 tonnes par an ;</p>
+      <p xml:id="para_2_22_188">prix moyen à la tonne, 19ᶠ 75). . . . . . .. . . 27,650ᶠ 00</p>
+      <p xml:id="para_2_22_189">3° Chaux (50 à 55 tonnes par mois, soit 650 tonnes par</p>
+      <p xml:id="para_2_22_190">an; prix de la tonne, 1I5ᶠ 65) . . . . . . . . . . 1I0,I72ᶠ 50 23,697ᶠ 50</p>
+      <p xml:id="para_2_22_191">2P Main-d'euvre.</p>
+      <p xml:id="para_2_22_192">1ᵉ Appointements, gratifications . . . . . . . . 10,000ᶠ 00</p>
+      <p xml:id="para_2_22_193">2 Salaires (3,600ᶠ 00 par mois). . . . . . . . . 43,200ᶠ 00 53,200ᶠ 00</p>
+      <p xml:id="para_2_22_194">3° Entretien du matériel.</p>
+      <p xml:id="para_2_22_195">ᵉ Impot et téléphone, 2,000ᶠ 00 . . . . .  . . 2,000ᶠ 00</p>
+      <p xml:id="para_2_22_196">2° Entrotien proprement dit : futres, 12,500ᶠ 00; — cordages, 4,000ᶠ 00 ; — graissage, 2,500ᶠ00; — éclairage.</p>
+      <p xml:id="para_2_22_197">1,000ᶠ 00; — toiles métalliques, 2,000ᶠ 00 ; — courroies,</p>
+      <p xml:id="para_2_22_198">2,000ᶠ 00; — marchandises diverses, 6,000ᶠ 00; — fer, fonte, bois, acier, arbres en fer et acier, 8,000ᶠ 00 ; —</p>
+      <p xml:id="para_2_22_199">tota, 38,000ᶠ 00 . . . .. . . . . . . . . . . 38,000ᶠ 00</p>
+      <p xml:id="para_2_22_200">3° rais généraux (pour la caisse ceontrale), réparation des immeubles, gardiennage de l'aiguille remboursé à la Compagnie d'Orléans ; assurances incendle et acci¬dents ; emploi de maneuvres non visés aux salaires ;</p>
+      <p xml:id="para_2_22_201">profits et pertes (agio sur ramises). Tota, 20,I77F 50 . 20,I77I 5O 60,I77 S0</p>
+      <p xml:id="para_2_22_202">88,O75ᶠ</p>
+      <p xml:id="para_2_22_203">BÉEuer (15 /. du chifre d'affaires). . . . 61I,25ᶠ</p>
+      <p xml:id="para_2_22_204">Total egal. . . . 109,500ᶠ 00</p>
+      <p xml:id="para_2_22_205">NOTA. — Le bénéfices totaux de la Société entière pour l'exercice clos au 3l juillot 899 sont evalués a 231,62ᶠ 05, ainsi répartis :</p>
+      <p xml:id="para_2_22_206">:</p>-->
+      <figure rend="portrait" type="table">
+       <!-- figure sur 2 pages -->
+       <head resp="original" type="table" xml:id="figure_4">Compte de l'industrie (appliqué à une seule usine) (2)</head>
+       <graphic facs="#facs_26" url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft%2433/231,355,1722,491/full/0/default.jpg"/>
+      </figure>
+      <!--<p xml:id="para_2_23_207">1ᵉ5 % à la réserve legale. . . . . . . . . . . . . . 1,582ᶠ 60</p>
+      <p xml:id="para_2_23_208">2° 7/12 de 5 ᵉ/, à titre de dividonde aux actionnaires . . . . . 97562ᶠ 50</p>
+      <p xml:id="para_2_23_209">3° 5 ᵉ. au conseil d'administration sur le surplus, soit . . . . 18,376ᶠ 05</p>
+      <p xml:id="para_2_23_210">4° Aux actionnaires, 3ᶠ 083333 par action. . . . . . . . . .103,I37Eᶠ 50</p>
+      <p xml:id="para_2_23_211">5ᵉ° A reporter a nouveau . . . . . . . . . . . . . . . 993ᶠ 40</p>
+      <p xml:id="para_2_23_212">Taotal. . . . . . 23,652ᶠ 0s</p>
+      <p xml:id="para_2_23_213">Ce qui représente 19 % du chipre d'apaires (1I,200,000ᶠ 00 pour sept mois) ou 11% du capital social (3,345,000ᶠ 00.</p>-->
+      <p xml:id="para_2_23_214"><pb facs="#facs_26" n="23" source="lesouvriersdesde0108sociuoft_0033.xml"/> Du compte général d'industrie, » que l'on peut induire maintenant des livres de comptabilité ordinaire de la Société, il convient de dégager les explications sur les deux points non encore développés et résumant tout le mouvement commercial : 1e les ventes ; 2ᵉ les achats.</p>
+      <p xml:id="para_2_23_215">A. LES VNENTES. — Mature du produit. — Le produit est le papier jaune de paille destiné à l'emballage, sous toutes ses formes (même car¬tonnage), et aussi de toutes couleurs (Moulin Pelgros).</p>
+      <p xml:id="para_2_23_216">Acheteurs et coutumes de la oente. — Les acheteurs sont variés : 1° D'abord les gros marchands de papier n (dont les noms se retrou¬vent dans l'annuaire de la papeterie), installés principalement à Paris et dans les grandes villes. Ces marchands répartissent le produit entre les détaillants, épicerie, boucherie, quincaillerie, etc. ; 2ᵉ certains clients di¬rects, d'une importance toute particulière : les raffineurs, les grands ma¬gasins ; 3ᵉ les « façonniers,  qui se servent du papier de paille en vue de fabrication spéciale : boites, cartonnages divers. Ces façonniers se sont parfois installés dans la région même, à portée de leurs approvi¬ionnements.</p>
+      <p xml:id="para_2_23_217">La vente est conclue a 60 jours, et aussi à 30 jours, fn du mois sur¬tout. — On procede par traites, que l'on peut faire escompter. Il en résulte qu'un onds de roulement important est nécessaire. Le prix courant ac¬tuel moyen atteint 14ᶠ les 100 lilos en gare de départ. Le marché est surtout un marché intérieur (limite des frontières douanières).</p>
+      <p xml:id="para_2_23_218">Concurrencefrancaise. — Les fabriques de papier de paille peouvent être divisées en trois groupes pour lae France : 1 Groupe d ˉLimousin (Haute-Vienne, Iaute-Charente, puis Corrèe). — Vingt-cinq usines en¬viron, avec lesquelles il ne faut pas confondre les a faconniers n indiqués sur l'annuaire. Les quine usines agrégées atteignent les 80 ᵉ/, de la production totale. — 2ᵉ Groupe de ˉl'Isère. — Moius nombreux, avec une nuance technique très tranchée (cuisson de larpaille), qui rapproche ce papier, très bon marché, du papier buvard (exportation en Orient). — 3 Groupe reton (Morhihan, Côtes-du-Nord). — Qualité intermédiaire du produit.</p>
+      <p xml:id="para_2_24_219"><pb facs="#facs_27" n="24" source="lesouvriersdesde0108sociuoft_0034.xml"/> Il faut noter la fondation de l'usine d'Évergnicourt (Aisne), entre Laon et Reims, dans des conditions d'installation très favorables (caunau, chemin de fer, charbon, paille à bon marché ; débouchés de Paris tout proches). Cette fondation est sortie du groupe limousin.</p>
+      <p xml:id="para_2_24_220">Deux remarques doivent etre formulées. La concurrence française ne se borne pas à des groupes analogues, fabriquant également le papier de paille. Toute une série d'usines proposent aux acheteurs le papier d'em¬ballage en pate de bois (notamment dans les Vosges). En outre, la con¬currence francaise fait surgir la question des a tarifs » de chemins de fer. Au début, avant l'extension du groupe, et avant la concurrence du papier de bois, les 100 ilos se vendaient couramment 30ᶠ. Les compagnies de transport avaient fixé leurs prix en conséquence. Depuis, le prix de vente a baissé de 67 /, (13ᶠ au lieu de 30ᶠ), et le coût du transport n'a pas varié. Le groupe limousin réclame de ce côté une réforme à la compagnie d'Orléans.</p>
+      <p xml:id="para_2_24_221">Concurrence etrangere. — Le marché français semble réservé par un droit de 10ᶠ par 100 ilos. Néanmoins, les eforts tentés dans cer¬tains pays sont inquiétants. L'Allemagne, notamment dans la Prusse rhénane, a organisé l'industrie en grand (l'une de ses usines possède cinq machines en face des « deux machines du Moulin Pelgros ). L'talie, en Piémont, l'Autriche, par Trieste, deviennent également me¬naçantes. o</p>
+      <p xml:id="para_2_24_222">Etension a 'exterieur. — On pourrait parfaitement concevoir le marché intérieur réservé,  et le marché extérieur conquis. Ainsi que cela se constate en F'rance pour les raffineries, et aux États-nis pour de nombreuses industries, les fabricants, assurés d'un prix rémunéra¬teur dans la limite des frontières douanières, peuvent écouler à vil prix leurs produits à l'étranger, par une sorte de compensation de bénéfices. L'Orient, déjà entamé par le groupe de l'Isère, parait un terrain hasar¬deux par suite de l'insécurité des relations commerciales. L'Angleterre pourrait être eossayée.  Mais il faudrait modifier les épaisseurs. C'est un problème a l'étude.</p>
+      <p xml:id="para_2_24_223">ariation des pri. — La conclusion de cet apercu rapide est la baisse des prix. 30ᶠ par 100 kilos, il y a quelques années, 14ᶠ au¬jourd'hui, tel est le chemin descendu. — On peut par l'union (et ce sera là un des bons efets de la « fusion ) relever quelque peu la valeur du produit. Mais l'amélioration dans ce sens sera forcément minime, parce que la raison d'etre du produit est dans le bon marché, et que la dispa¬rition du bon marché amènerait la disparition de la demande.</p>
+      <p xml:id="para_2_25_224"><pb facs="#facs_28" n="25" source="lesouvriersdesde0108sociuoft_0035.xml"/> B. L'ACHAT. — L'achat porte sur trois matières premières :
+      </p>
+      <p xml:id="para_2_25_225">1° ˉLa paille. — La paille (toujours de seigle<note type="bp">
+        <p>Elle est plus fibraeuse ; nous avons signalé cette supériorité technique sur le paille de froment.</p>
+       </note>, est achetée dans une one formée par la Creuse, la Corrèe, la IHaute-Vienne, le Puy-de-Dômé, un peu le Lot. Les marchands-vendeurs sont des paysans riches, avan¬cant à leurs voisins le vin, les engrais, et se faisant rembourser en paille. — Quelques achats sont également conclus avec la production lo¬cale. La llvraison a lieu sur vagons, en gare des usines diverses. Règlement comptant par chèques sur des établissements de crédit. Un point à relever : la très grande importance des transports. Au moment de la sécheresse de 1893, la paille, consommée par les bestiaux, deve¬nait introuvable pour l'industrie. Sur l'intervention du gouvernement, les compagnies de chemins de fer abaissèrent leurs transports de 25 ᵉ. et l'industrie limousine put s'approvisionner jusque dans les Landes et le Lot-et-6aronne. La compagnie d'O0rléans, d'ailleurs (ligne d'Angou¬lême à Limoges), trouva sa compensation dans un transit inaccou¬</p>
+      <p xml:id="para_2_25_226">2° ˉLe charbon. — Achats aux conditions ordinaires du commerce du charbon, dans leos compagnies houillères du Midi, Cransac, etc.</p>
+      <p xml:id="para_2_25_227">3° ˉLa chaux. — Les fours à chaux charentais, situés à peu de dis¬tance, sont les fournisseurs de la Société papetière.</p>
+      <p xml:id="para_2_25_228">FAITS NOUVEAUX CONCERNANT LA VENTE ET L'ACEAT, ET RÉSULTANT DE LA FUSION. — Bien souvent, au cours de nos enquétes, nous avons insisté sur la perturbation qui résulte, pour une filière économique<note type="bp">
+        <p>On appelle lière la snite des organisations industrielles et commerciales qui ont pour objet un produit donné : ici, le commerce de la paille, les usinos, le commerce du papier.</p>
+       </note>, du grossissement d'un rouage par rapport aux autres. Ce rouage nou¬veau exerce une pression n plus énergique sur les rouages qui le pré¬cèdent et ceux qui le suivent.</p>
+      <p xml:id="para_2_25_229">a) ente. — Au point de vue des ventes, la nouvelle usine-monstre (la fusion a eu pour résultat de la créer, puisqu'elle concentre les 80 ᵉ/, de la production) peut exercer évidemment un leger relèvement des cours : le prix de 14ᶠ les 100 lilos, rapidement atteint en est la preuve. Mais nous avons constaté que, de ce côté, par suite de la compétition natio¬nale et internationale, il sera toujours dificile de se a donner de l'air. n La force des choses oppose une barrière. <pb facs="#facs_29" n="26" source="lesouvriersdesde0108sociuoft_0036.xml"/> b) Acats. — Il en sera autrement du côté des achats. Les fournis¬seurs, proportionnellement faibles devant ce client formidable, seront contraints de consentir à dgs'conditions meilleures (pour ce client) ; c'est le profit ordinaire des gros achats.</p>
+      <p xml:id="para_2_26_233">c) ˉeorganisation commerciade et industrielle. — Enfin, l'usine, unique au point de vue commercial, malgré sa division en ateliers dis¬tincts, porra, d'une part, mieux proportionner sa producfion a l'état du marché (premier essai ordinaire des a trusts ), et, d'autre part, créer des débouchés nouveaux ; enfin, répartir le travail entre les diférents ateliers, en diférenciant les spécialités n (ce qui équivaut à atteindre pour chacune de ces spécialités les avantages de la fabrication en grand).</p>
+      <p xml:id="para_2_26_234">L'orgaunisation commerciale doit prendre fin sur cette esquisse du pro¬gramme en train de se réaliser.</p>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_05_02">II° SECTION. — ORGANISATION FINANCIÈRE</head>
+      <p xml:id="para_2_26_236">De même que le compte d'industrie et le bilan forment le résumé chifré de l'organisation commerciale, les stntuts, la charte constitutive de la Société, condensenttoute l'organisation financière. Mais ces statuts exigent une préface historique.</p>
+      <p xml:id="para_2_26_237">ITORIOUE DE LA FONDATON DE LA SOCIÉTÉ. — Les fabricants de papier de la Haute-vienne suivaient depuis quelque temps avec intéret la formation des nouvelles sociétés industrielles et commerciales. Le mouvement qui s'était appliqué sous Louis-Philippe aux compagnies de chemins de fer, aux mines, à l'éclairage des villes, etc., se reproduisait avec une force presque égale à un niveau inférieur de l'activité écono¬mique. A Paris, des spéculateurs anglais mettaient en actions » la grande maison de couture Paquin<note type="bp">
+        <p>Capital,  500,000 livres sterling.  Voir le journal The Gentlemen du 2l no¬veombre 1897.</p>
+       </note>, la fabrique de cycles lumber, etc. Bien plus, une banque — devenue fameuse depuis — la a Banque spé¬ciale des valeurs industrielles,  25, rue Vivienne, fondée par un ban¬quier-escompteur fort intelligent, M. Paul Bernhard, multipliait les créations analogues. Il est inutile de donner ici la longue liste des éta¬blissements Biscuits Olibet,   Chaussures ncroyables,  « Tavernes Pousset,  etc., transformées par l'initiative de cette Banque.</p>
+      <p xml:id="para_2_26_238">La dificulté pour les fabricants limousins résidait dans leur faiblesse <pb facs="#facs_30" n="27" source="lesouvriersdesde0108sociuoft_0037.xml"/> individuelle. Pour que le capital d'une entreprise puisse être découpé en fractions négociables auprès du public, il est de toute nécessité que cette entreprise ait revêtu une certaine importance, et par suite une certauine notoriété. Dans une ville — Limoges en avait ofert des exepmples, — un café, une distillerie, un magasin de nouveautés peuvent attirer les caupi¬talistes locauux par l'aspect quotidien d'une prospérité incontestée. Mais des usines rurales doivent s'adresser au delà de leur one immédiate, où indiférence serait générale ; elles doivent viser les grandes places financières : or, ces grandes s places n ne s'occupent pas d'une poussière d'entreprises, à discuter, à évaluer chacune séparément ; elles ne pro¬cèdent que par s grandes masses,  sur des objets à leur taille. D'où cette première condition : une fusion intime entre les petites fabriques ; autrement dit : un monopole.</p>
+      <p xml:id="para_2_27_241">Avant d'aller plus loin, quelques déinitions sont nécessaires.</p>
+      <p xml:id="para_2_27_242">La a fusion,  l'unification statutaire, prolongeoment naturel du trust » ou simple entente, est un procédé commercial par lequel on réduit cinq, dix, quine usines en une seule, cinq, dix, quinze fois plus puissante. La « mise en actions est un procédé financier, par lequel un commercant, un usinier fait passer le droit aux bénéfices qui résulte de sapropriété personnelle entre les mains de nouveaux venus, ou même de ses collaborateurs ouvriers, cela moyennant un versement qui cor¬respond conventionnellement à ces bénéfices présumés. La mise en actions peut être philanthropique, comme dans l'usine Godin au Fami¬listère de Guise, comme dans les ppeteries de Laroche-Joubert, à Angou¬lême. Elle peut être purement intéressée et motivée par l'impossibi¬lIité de faire passer à une àutre individualité un fonds de commerce d'une extrême importaunce : à cet égard, le xvII siècle avait déjà tenté l'opération pour les mines, à Anin et dans le bassin de la Loire (Com¬pagnie Lacombe); le milieu du xx° siècle a multiplié les essais pour le fer, le tissage, ce que l'on appelle les grandes industries (voir notam¬ment les Grandes portunes en Angleterre, de Ch. de Varigny<note type="bp">
+        <p>Revue des Deux Mondes, 1888.</p>
+       </note>). Le gain pour le a transformateur devient plus ou moins élevé, suivant qu'il arrive à hausser plus ou moins le taux de capitalisation.</p>
+      <p xml:id="para_2_27_243">Les exemples précédents démontrent que la « fusion est possible sans mise en actions (Monopoles des rafineurs américains), et que la ie en actions n'est pas forcément accompagnée de a fusion n (maison Paquin, etc.). Mais les raisons développées plus haut ont fait <pb facs="#facs_31" n="28" source="lesouvriersdesde0108sociuoft_0038.xml"/> souder l'un à l'autre les deux procédés pour les papeteries du Limou¬</p>
+      <p xml:id="para_2_28_247">Donc, vers l'été de 188 l'un des titulaires de parts » familiales d'une usine de Saint-Junien (le régime légal de ces ateliers moyens était en général la commandite) s'aboucha avec plusieurs autres de ses voi¬sins et concurrents. Les motifs ordinaires de l fusion,  c'est-a-dire les plus grandes facilités pour défendre les prix, maintenir les débouchés, acquérir lesmatières premières, furent très aisément saisis. L'avantage résultant de la relisation partielle, grâce aux actions émises dans le public, avait déjà frappé les esprits, ainsi que nous l'avons constaté. Les adhésions ne furent donc pas longues à obtenir. Mais il était nécessaire de se procurer l'aide d'un émetteur, » d'un fnancier habitué à ces tentatives toujours délicates et disposant de l'expérience, des relations, en même temps que du crédit. Linitiateur de la combinaison s'adressa au directeur de lae Banque speciale, n M. Paul Bernhard. Rien ne pouvait mieux convenir à l'homme audacieux qui, à ce moment-là, s'était taillé une place brillante dans cette nouvelle spécialité finan¬cière<note type="bp">
+        <p>
+         <ref target="#part_07_03" type="renvoi_int_mono">Voir aux annexes l'etude sur la Banque spéciale des valeurs indutrielle et son hitoire.</ref>
+        </p>
+       </note>. « L'affaire n fut rapidement établie.</p>
+      <p xml:id="para_2_28_248">MÉCANISME DE L'OPÉRATION. — La dificulté de la mise en actions d'une entreprise consiste tout d'abord dans l'évaluation du a taux de capitalisation,  ou si l'on préfère (puisque l'un résulte de l'autre), du acapital de la Sociéte. En général, la base du calcul étant le bénéfice net, moyen, normal, en apparence définitif, on capitalise au denier dix, ce qui veut dire que l'on multiplie par dix le bénéfice net. Cent mille francs de bénéfices nets, un million de capital, tel est le rapport usuel, que toute une série de considérations tirées de l'industrie, de l'état du marché, etc., peuvent modifier. Ce rapport — le denier dix — semble suffisant, en présence de l'abaissement du revenu des valeurs mobilières, qui oscille autour de 3ᶠ 50 (denier 28), et du revenu de la terre ou s rente,  qui ne dépasse pas 3ᶠ (denier 33). Au bout de quelques exercices régulièrement prospères, le pair » de l'action, autrement dit le taux npninal (500ᶠ par exemple), monte infailliblement, parce que les placements à 10 s trouvent toujours des preneurs : les demandes à 520, 550 et 600ᶠ même se produisent, ce qui abaisse, il est vrai, le revenu vers le taux de 8 9., oujours fort avantageux. Cette diférence entre 500 at 600ᶠ constitue une s prime,  un boni que tous les por<pb facs="#facs_32" n="29" source="lesouvriersdesde0108sociuoft_0039.xml"/>teours, aussi bien les usiniers du début que les capitalistes de la sous¬cription, peuvent toucher.</p>
+      <p xml:id="para_2_29_251">Lorsque la mise en actions se complique d'une fusion, comme dans le cas des papeteries du Limousin, la diversité des intérêts a concilier (il y a au moins un chef par usine) provoque des négociations parfois déli¬cates sur l'estimation des entreprises. Chacun insiste sur la supériorité de son outillage, sur l'étendue de ses terrains, sur la puissance de se force hydraulique, etc., eotc. Si bien qu'en présence de cesᵉnuances le chiffre du bénéfice net cesse de rester la seule et unique mesure.</p>
+      <p xml:id="para_2_29_252">1 ˉComment les dipferentes ausines furent estimees et le premier ca¬pita. — Après des pourparlers inutiles à retracer, les valeurs estima¬tives des diverses usines furent arrêtées ainsi qu'il suit (V. les statuts, art. 7) :</p>
+      <figure rend="portrait" type="table">
+       <head resp="added" type="table" xml:id="figure_5">Valeurs estimatices des usines</head>
+       <graphic facs="#facs_32" url="https://iiif.archivelab.org/iiif/lesouvriersdesde0108sociuoft%2439/472,1334,1174,474/full/0/default.jpg"/>
+      </figure>
+      <!--<p xml:id="para_2_29_254">1° ine de Notre-Dame du Pont. . . . 160,000ᶠ 00</p>
+      <p xml:id="para_2_29_255">2ᵉ sine du Dérot . . . . . . . . . 335,000ᶠ 00</p>
+      <p xml:id="para_2_29_256">3° sine dun Moulin de Puygrenier . . . 350,000ᶠ 00</p>
+      <p xml:id="para_2_29_257">4° Usine de Grandmont . . . . . . . 600,000ᶠ 00</p>
+      <p xml:id="para_2_29_258">5° Usine de Saint Brice . . . . . . . 600,000ᶠ 00</p>
+      <p xml:id="para_2_29_259">6 Usine dEideuil. . . . . .. . . 600,000ᶠ 00</p>
+      <p xml:id="para_2_29_260">7 Usine du Moulin-Pelgros. . . . . .) 700,000ᶠ 00</p>
+      <p xml:id="para_2_29_261">Total. . . . . 3,345,000ᶠ 00</p>-->
+      <p xml:id="para_2_29_262">Cepremier capital de trois millions trois cent quarante-cinq mille francs correspondait-il à dix fois le bénéfice net, suivant la coutume plus haut signalée Malgré le silence des intéressés sur ce point, il est facile de répondre négativement. Les sept usines ne s'élevaient pas au total de 300,000ᶠ de bénéfice net, ce qui nous ramène au denier quinze, soit 8 %. Mais il est juste de reconnaltre que les entreprises industrielles propre¬ment dites s'étaient accrues d'un certain capital mort (terrains, chutes d'eau), qui, actuellement sans revenu, constitue toutefois une réserve, et à ce titre, devait être évaulué.</p>
+      <p xml:id="para_2_29_263">2° ˉLa proportion des actions d'apport et des actions ofertes au pu¬blic. — Le prix d'achat des diérentes usines étant déterminé, il s'agis¬sait de savoir la somme réelle qui serait efectivement versée aux usi¬niers, en bonnes espèces sonnantes, et la somme nominale, convention¬nelle, qu'ils seraient supposés laisser dans l'entreprise fusionnée. La première est représentée par les actions émises dans le public, puisque le public acheteur paie ces sortes d'affaires. La seconde correspond à ce que l'on appelle les actions d'apport.</p>
+      <p xml:id="para_2_29_264">a proportion des actions d'apport et des actions émises — c'est-à¬dire ce que les usiniers gardent et ce qu'ils réalisent — constitue la <pb facs="#facs_33" n="30" source="lesouvriersdesde0108sociuoft_0040.xml"/> pierre de touche du sérieux de l'entreprise. Une fabrication puissaunte bat¬elle son plein, la permanence des profits semble-t-elle assurée, le fonda¬teur ou le titulaire actuel ne consent à abandonner que la plus petite fraction de ces profits<note type="bp">
+        <p>Lorsqu'il conent à la mise en actions. Les grandes maisons de commaerce de ognac ont raefusé énergiquement la transformation.</p>
+       </note>: que lui importe de l'argent liquide, dont le rendement serait insignifiant Si, au contraire, les « beaux jours ne sont que transitoires, et si la crise est fatale (resserrement des débouchés, marche ascensionnelle de la concurrence, etc., etc.), le fabricant tend à enfler d́miès̀urément les actions émises, en restreignant les actions d'ap¬port. Les papetiers limousins ont, à cet égard, afirméleur foi dans l'ave¬nir. Malgré l'insistance des émetteurs, ils ont tenu a conserver les quatre cinquièmes des actions, (2,676,000ᶠ) ; la réalisation s'est bornée pour eux à la somme totale de 669,000ᶠ. Cest relativement peu de chose. La relation courante des deux catégories d'actions a une tendance à se rapprochar de l'égalité (moitié pour l'une, moitié pour l'autre).</p>
+      <p xml:id="para_2_30_266">D'ailleurs, il convient de remarquer que les fabricants retrouvent un avantage immédiat que l'on n'aperçoit pas à première vue. Chaque usine exigeait de chacun d'eux l'immobilisation d'une certaine somme comme fonds de roulement. Cette somme se trouve libérée par la créa¬tion de la Société, qui se procure les avances nécessauires par sas moyens particuliers.</p>
+      <p xml:id="para_2_30_267">3° La direction. — Pendant que certains théoriciens d'écoles opposées affirment la force du capital, D la pratique est convaincue que le suc¬ces d'une euvre dépend de a l'intelligence, de la direction.  Le seul moyen de donner confiance aux souscripteurs d'actions industrielles est de leur dire : « La volonté qui a présidé au développement et à la richesse actuelle de l'entreprise conservera toute son autorité. ˉPisque rien e sera cange dans cet ensemole, vou avez la sécurité entière pour votre placeoment. » Conformément à ce principe immuable, le conseil d'administration a été composé des anciens s chefs. n Les admi¬nistrateurs délégués, sur lesquels repose la responsabilité quotidienne, sont précisément les initiateurs de la fusion.</p>
+      <p xml:id="para_2_30_268">4ᵉ ˉLe tau nominal des actions. — Quel est le taux nominal des ac¬tions 100ᶠ. Pourquoi pas 1,000ᶠ, 500ᶠ IH semhle que la chose soit indif¬férente. Ce qui prouve qu'il n'en est rien, c'est l'uniformité du tux de 100ᶠ, qui se roncontre dans toutes les Sociétés fondées par la Banque spéciale des valeurs industrielles (en exécution de la loi du 1ᵉʳ août 1893).</p>
+      <p xml:id="para_2_31_270"><pb facs="#facs_34" n="31" source="lesouvriersdesde0108sociuoft_0041.xml"/> Le motii de cette loi, annexe de la fameuse loi desSociétés, du2̀4 juillet 1867, est en apparence la sollicitation de la petite epargne. n Ce qui prouve que ce motif est un simple prétexte, c'est tout d'abord le mode ordinaire des souscriptions qui se produisent par s groupes d'actions » (cinq, dix et davantage); en second lieu, la nécessité de posséder cin¬quante actions pour être électeur a l'assemblée générale, article 36 des statuts (ce qui relègue dans l'ombre les soucis démocratiques en faveur de la petite epargne); 3ᵉ° enfin, l'existence des syndicats,  souscripteurs de grandes masses, qui se cachent toujours derrière ce genre d'opérations.</p>
+      <p xml:id="para_2_31_271">Quelle est donc la raison d'être des coupures de 100ᶠ2Tout simplement le désir de la hausse rapide, de l'elévation du capital à 125ᶠ, 150ᶠ, 175ᶠ .— ce que l'on appelle la prime,  ainsi que nous l'avons dit en exami¬nant l'avantage retiré par les usiniers de la mise en actions<note type="bp">
+        <p>Les propositions de loi qui ont pour but d'admettre les actions de 25ᶠ 00 d'une facon normale constituent un renchérissement du même point de vue.</p>
+       </note>. Cette prime, en efet — nous y insistons, car là se trouve le levier de tout l'ensemble — est presque fatale, lorsque les profits de l'entreprise se maintiennent. La baisse du taux de lintérêt des valeurs d'Etats amène une lente oscillation de l'épargne internationale vers les place¬ments industriels. Ce fait a été bien souvent relevé, et c'est à lui que l'on doit attribuerl'afaissement subit de la rente francaise 3ᵉ. au-dessous du pair. Donc, lorsque le publie se trouve en présence de maisons de com¬merce ou d'ateliers rapportant 6, 7, 8 et 10 ᵉ°,., il éprouve une tendance irrésistible vers le raisonnement suivant : a Quand hien même je n'ob¬tiendrai que du 5 ᵉ., cela serait encore préférable au 3 /. normal; D et il achète plus cher,  en faisant monter ce que nous avons encore appale le taux de capitalisaution.</p>
+      <p xml:id="para_2_31_272">Mais l'expérience a prouvé que les actions de 100ᶠ haussent plus rapi¬dement que des actions de 500ᶠ ou de 1,000ᶠ, malgré l'identité apparente duraisonnement dans tous les cas. On se résigne plus facilement à payer 125ᶠ un objet coté jusqu'alors 100ᶠ, qu'à verser 625ᶠ à la place de 500ᶠ. Les articles à 0ᶠ 05 ou 0ᶠ 10 du petit commerce d'alimentation ou des baaars nous présentent à chaque instant un phénomène analogue de majorations formidables, patiemment supportées. Qu'importe de payer 0ᶠ 10 la hrioche évaluée jadis 0ᶠ 05, ou de passer à un pantin de 0ᶠ 20, alors qu'on avait coutume de se borner à 0ᶠ 15 de dépenses L'idée de valeur est plus aisément modifable chez l'acheteur, à mesure que l'importance de l'achat diminue.</p>
+      <p xml:id="para_2_32_274"><pb facs="#facs_35" n="32" source="lesouvriersdesde0108sociuoft_0042.xml"/> Le secret du taux des actions des sociétés analogues aux a Papeteries du Limousin n ne se cache pase ailleurs. C'est la fissure par laquelle l'opération sérieuse laisse entrevoir le « jeu, » la « spéculation<note type="bp">
+        <p>V., au début du Manuel de la spéculation de Proudhon, la distinction si sage entre la « spéculation » et ses « abus. »</p>
+       </note>, » ou, pour parler une langue plus précise, le profit réalisé par les plus habiles à l'aide du trompe-l'œil d'une capitalisation illusoire Ce point particulier sera repris, d'ailleurs, dans une annexe du présent travail.</p>
+      <p xml:id="para_2_32_275">5° L'intervention des obligations. — Subsidiairement (et l'article 28 des statuts le prévoit), le capital de la Société peut être accru au moyen d'obligations. Cette utilisation accessoire des obligations a été portée à une haute perfection par les Sociétés anglaises et américaines, qui arrivent, par ce procédé, aux résultats les plus contraires. En efet, on peut tour à tour, grece aux obligations, se procurer à bon marché un capital dont le profit passe ainsi aux actions, et, en sens inverse, rien n'est plus facile que d'anéantir le bénéfce des actions, lorsque le total des emprunts, et par suite lintérêt à servir, devient exagéré<note type="bp">
+        <p>Parfois, en Amérique, le groupe des actionnaires qui détient la majorite de actions fait contracter des emprunts pour les souscrire lui-même. Ainsi il touche, sous forme d'intérts, la totalité de dividandes, et le groupe de la minorité voit a part réduit a zéro.</p>
+       </note>. Cest évidemment le premier résultat qui est recherché par les nouvelles Sociétés industrielles, à la suite des aiciennes Sociétés de crédit, des Compagnies de chemins de fer, des Compagnies du ga, etc., etc. Le but viaé est toujours la haasse de l'action en face de la aisse de l'intérêt. Cette considération sufit.</p>
+      <p xml:id="para_2_32_276">Ajoutons qu'un emprunt contracté par les usiniers-fondateurs presque au moment de la formation de la Société — et cela après le maintieon energique de la plus grande partie des actions entre leurs mains — est la meilleure preuve de leur foi dans le succès. L'emprunt (un million) fut émis par la « Banque spéciale n dans la seconde quinaine de janvier 1899. Chacune des dix mille obligations rapportait 4ᶠ'25 din¬terêt et et était remboursée au pair en 75 ans par tirages au sort annuels.</p>
+      <p xml:id="para_2_32_277">6° Rôle ecact du oanquier emetteur. — Le rôle du banquier émetteur consiste, dans les affaires de ce genre, à faire l'avance des frais de pu¬blicité (afiches, journaux, prospectus, etc., etc.), moyennant un tint pour 100 sur l'émission. Simple courtier, travauillant a forfait, il met eon contact l'entreprise nouvelle et le public. Mais ici (art. 6), la Banque <pb facs="#facs_36" n="33" source="lesouvriersdesde0108sociuoft_0043.xml"/> spéciale des valeurs industrielles était allée plus loin : elle s'était engagée à assurer la souscription totale de 669,000ᶠ d'actions, et du mil¬lion d'obligations. Elle était souscripteur elle-même et souscripteur inté¬gral. En échange, elle se faisait garantir une commission de 175,000ᶠ ersee en espéces.</p>
+      <p xml:id="para_2_33_281">MÉCANISME JURIDIQUE DE L'ENTREPRISE. — Les statuts passés par¬devant M Merle, notaire à Saint-Junien, comprennent douze titres et soixante et un articles. La forme juridique adoptée est la Société ano¬nyme n avec actions de 100ᶠ complètement libérées.</p>
+      <p xml:id="para_2_33_282">1ᵉ ˉLes pouooirs. — Les pouvoirs, comme dans toutes les Sociétés simi¬laires, sont constitués par l'Assemblee generale et le Conseil d'admi¬istration. On peut qualifier ces deux degrés de la puissaunce souveraine en disant s que le Sénat est oligarchique et le Conseil presque tout¬puissant.</p>
+      <p xml:id="para_2_33_283">La marque oligarchique est fournie par l'article 36 et l'artiele 45. L'électeur doit être propriétaire d'au moins cinquante actions. Il est compté à chaque actionnaire autant de voix qu'il a de fois cinquante actions. Les propriétaires d'un nombre d'actions inférieur à cinquante peuvent se réunir pour former le nombre nécessaire et se faire représen¬ter par l'un d'eux.</p>
+      <p xml:id="para_2_33_284">La ceontralisation de la puissance entre les mains du Conseil (Conseil de sept membres au moins, douze au plus, art. 23) est établie par le titre III en entier et s'afirme à chaque détour des statuts. Sans doute, l'administrateur est lié a l'entreprise oar une solidarité qu'il ne peut briser : « Il doit être propriétaire de deux cent cinquante actions, qui seront nominatives, inaliénables pendant la durée de ses fonctions, frap¬pées d'un timbre indiquant cette inaliénabilité, déposées dans la caisse sociaule et afectées, conformément à la loi, à la garantie des actes de sa gestion » (art. 25). Mais cela fait, uni à ses collègues, il peut ce qu'il veut. Il peut même (art. 29) « a emprunter pour le compte de la Société jusqu'à concurrence d'une somme d'un million. » Il a le droit d'initia¬tive! et peut rejeter toute proposition imprévue de l'ordre du jour, qui est arrêté cinq jours d'avance (art. 45).</p>
+      <p xml:id="para_2_33_285">On sent laort pour continuer l'entreprise, ainsi qu'on l'avait jadis comprise et agrandie. Les initiatives d'autrefois, conservées et en quelque sorte rivées a l'œuvre, sont gardées contre linexpérience et les ambitions des intrus. Aux anciens de commander, semble-t-on dire ; aux nouveaux de partager.</p>
+      <p xml:id="para_2_33_286">NOTA. — Le Comité de direction n'est qu'une émanation du Conseil <pb facs="#facs_37" n="34" source="lesouvriersdesde0108sociuoft_0044.xml"/> des administrateurs. Il n'a pas de vie par lui-meme, bien qu'en fait l'infuence dominante vienne s'y concentrer.</p>
+      <p xml:id="para_2_34_289">2° ˉLes oeneices. — Le plan général du fonctionnement doit avoir pour pendant le tableau de la répartition finale. Celle-ci, dans les Sociétés anonynes, offre à première vue un grand intérêt. La réserve, les action¬naires, le Conseil d'administration, sont les trois copartageants. La pré¬férence accordée à l'un d'eux dénote la pensée intime qui anime le mé¬canisme tout entier.</p>
+      <p xml:id="para_2_34_290">Ici, la réserve — c'est-à-dire l'avenir — a eu sa place marquée mais sans détermination bien nette. En sus de la réserve légale de 5 ᵒ. (art. 52, 54), « il pourra être créé un fonds d'amortissement du prix d'achat du fonds de commerce et de matériel, ou de prévoyance.  Mais le montant de cette réserve extralégale pourra n seulement être proposé par le Conseil et accepté par l'assemblée. On n'a pas voulu se lier. Les acheteurs d'actions estiment surtout le rendement immédiat, et l'on y</p>
+      <p xml:id="para_2_34_291">Après la réserve,  un premier dividende fixe de 5 / est assuré à toutes les actions.  C'est la sécurité, aussi grande que possible, étant donné l'alea industriel. Une sorte de a fotteur maintiendra ainsi l'action au niveau du pair.</p>
+      <p xml:id="para_2_34_292">Enin, voici le Conseil d'administration qui apparait ; rémunéré seule¬ment, si par une juste compensation de ses énormes pouvoirs il arrive à dépasser le rendement de 5 ᵉ, en faveur des actions. Sur le surplus, il a des droits privilégiés — droits équitables, puisque ce surplus est du précisément à sa gestion judicieuse; — les premiers 15 ᵉ, lui reviennent. Enfin, comme dernière masse, les 85 % complémentaires se trans¬forment en « boni,  en dividende additionnel, qui va rejoindre les actions.</p>
+      <p xml:id="para_2_34_293">3 L'aecroissement de la fusion. » —I1 fallait prévoir l'agran¬dissement de la a fusion (toujours au point de vue juridique ; le point de vue de fait serae exaumine ultérieurement). Le « Conseil pré¬pare. Une assemblée générale ratifie (art. 47). Cette assemblée, comme dans tous les cas graves, doit représenter plus de la moitié du capital social.</p>
+      <p xml:id="para_2_34_294">4ᵉ La dissolution. — Il faut prévoir la défaite — et la mort (au sur¬plus, la Société n'est conclue que pour soixante-quine ans). C'est lorsque le capital social se trouvera réduit des trois quarts (art. 56) que la question de la dissolution pourra être posée. Encore faudra-t-il que la cuuse de cette réduction soit une suite de pertes constautées à un <pb facs="#facs_38" n="35" source="lesouvriersdesde0108sociuoft_0045.xml"/> ou plusieurs inventaires (art. 55). Si le Conseil ne bouge pas, les com¬missaires peuvent agir (art. 57). L'assemblée extraordinaire prononce, s'il faut ou non amener le drapeau blanc.</p>
+      <p xml:id="para_2_35_296">SUITE DE L'ISTORIOUE DE LA SOCIÉTÉ. — Cet épilogue historique est du plus haut intéret. C'est la description de la première marche en avant de la a fusion.</p>
+      <p xml:id="para_2_35_297">Au début de 1899, la Société offre l'aspect matériel et juridique retracé par les pages précédentes. L'assemblée générale du janvier 1899, pré¬voyant l'acquisition de huit nouvelles usines (énumérées au tableau de la page 14), décida que le capital social pourrait être porté de 3,345,000ᶠ a 5,550,000ᶠ (soit 2 millions et demi d'augmentation). Cette résolution fut exécutée par étapes.</p>
+      <p xml:id="para_2_35_298">1ᵉ Premiere augentation (de 3,345,000 à 3,746,000). — Afin de pou¬voir payer aux apporteurs d'usines le cinquième de leurs apports, ainsi que l'acquisition d'un moulin (le moulin Rougerie acheté purement et simplement, et non mis en actions), plus les marchandises et matières premières des usines apportées, il était nécessaire de se procurer une somme de 401,000ᶠ. Ces 40,100 actions de 100ᶠ furent souscrites sans émission publique par les premiers souscripteurs (droit de préférence de l'art. 11 des statuts) et par un groupe d'amis. La circulaire du 20 sep¬tembre 1899 indiquait que le montant de ces actions était versé en tota¬lité dans la caisse des banquiers de la Société.</p>
+      <p xml:id="para_2_35_299">2° Deuxiême augmentation. — Cette deuxième augmentation (visée par la même circulaire du 20 septembre) comprenait une opération fort simple et une opération plus compliquée. L'opération simple était l'ad¬mission des 1,202,400ᶠ d'actions d'apport correspondant aux usines nou¬vellement agrégées. C'était une simple consécration pnr l'assemblée générale, et cette ratification eut lieu plus tard (17 novembre 1899). Les 1,202,400ᶠ ainsi ajoutés atteignirent un total de 4,948,000ᶠ.</p>
+      <p xml:id="para_2_35_300">Mais le point délicat consistait à lancer dans le public les 60,160 ac¬tions (601,600ᶠ) qui restaient en marge avant d'atteindre les 5,550,000ᶠ déinitifs. Malgré l'excellent efet produit sur le public par les 6 ᵉ. du premier eoxercice de sept mois (10 % par année<note type="bp">
+        <p>Les actions étaient offortes a 110ᶠ 00.</p>
+       </note>), un événement inattendu fit remettre la souscription à une date indéterminée. En oc¬tobre, M. Paul Bernhard, fondauteur de la Banque spéciaule, D mourut. Une campagne acharnée était dirigée contre l'établissement lui-même et la « Société générale des papeteries du Limousin,  en dépit de son auto<pb facs="#facs_39" n="36" source="lesouvriersdesde0108sociuoft_0046.xml"/>nomie entière, comprit qu'elle devait laisser passer le vent de panique qui bouleversait les nouvelles valeurs industrielles. D</p>
+      <p xml:id="para_2_36_303">3° Troisième augmentation. — Après l'accalmie, le 24 janvier 1900 on put risquer l'émission contre espêces de 12,024 actions et porter ainsi le capital à 5.074,000ᶠ. Les souscripteurs primitifs et aussi la « Banque spéciale, » en vertu de contrats, intervinrent à des degrés divers<note type="bp">
+        <p>V. Journal des valeurs ndurielles, nᵉ 31, janvier 1900.</p>
+       </note>. Le moment actuel semble un moment d'expectative, de halte. Le but fixe : le capital de 5 millions et demi, ne sera pas abandonné.</p>
+     </div>
+    </div>
+    <div n="006" type="section">
+     <head type="section" xml:id="part_06">CONCLUSION</head>
+     <p xml:id="para_2_37_305"><pb facs="#facs_40" n="37" source="lesouvriersdesde0108sociuoft_0047.xml"/> La Société générale des papeteries du Limousin n apparait donc comme une unité économique puissante par l'importance de son capital (chutes d'eau, immeubles, argent), et aussi par la valeur des hommes expérimentés qui la dirigent. Sa force peut s'accroitre encore. Elle annexera d'autres usines, par cette association égalitaire que les histo¬riens appellent s synœcisme n pour les nations, et aussi par l'achat pur et simple au nom des usines associées, — nous allions dire la conquête collective au nom de toutes. L'acquisition du moulin Rougerie est le premier pas vers cette voie particulière.</p>
+     <p xml:id="para_2_37_306">Mais cetteSociétéa des obstacles à redouter. Son a monopole n'est que ictif. De solides entreprises locales ont résisté : d'autres peuvent se fonder. Des associés eux-mêmes ont réservé l'autonomie de leurs usines particulières : à Evergnicourt, dans l'Aisne. à Montpont et Saint-Antoine dans la Dordogne. Il ne peut être question d'écraser le marché. En outre, un autre danger est à craindre : c'est le miroitement des dividendes exa¬gérés, qui poussent l'action à une hausse factice. Les réserves extra¬légales sont indispensables : l'amortissement est la première loi de pru¬dence industrielle. Réserver et amortir, c'est l'œuvre d'un homme d'affaires. Compter sur les s primes, » les bonis de Bourse, c'est l'œuvre d'un joueur.</p>
+     <p xml:id="para_2_37_307">Les fondateurs de la Société générale des papeteries du Limousin n n'entendent pas faire dévier leur industrie vers la spéculation abusive. Ils ont gardé les risques n pour eux, au lieu de les rejeter sur les autres, ce qui est le contraire de la spéculation des mises en actions. La collaboration de la a Banque spéciale n ne peut leur imprimer aucun caractère d'agiotage. e Banque spéciale et Papeteries du Limousin n demeurent aussi distinctes que le fameux a Crédit mobilier pouvait 1etre des a établissements du Louvre n ou de la « Compagnie transatlan¬tique. »</p>
+    </div>
+    <div n="007" type="section">
+     <head type="section" xml:id="part_07">APPENDICES</head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_07_01">§ 1. — LES « TRUSTS<note type="bp">
+        <p>La première oxpreossion et d'origine anglaise, la seconde d'origine alle¬mande.</p>
+       </note>
+       » (OU CARTELLS) ET LES « FUSIONS »
+      </head>
+      <p xml:id="para_2_38_309"><pb facs="#facs_41" n="38" source="lesouvriersdesde0108sociuoft_0048.xml"/> On est tenté de confondre «le trust n (ou cartel) et la a fusion. » Les deux procédés aboutissent avec plus ou moins d'énergie à un résultat unique : la concentration commerciale ou industrielle. Toutefois, une diférence importante les sépare. Le trust (ou cartell), c'est la « coa¬ltion,  le syndicat,   l'alliance.  Parole donnée entre des unités qui conservent leur existeonce indépendante, tel est le point de départ de l'opération, confirmé par l'étymologie. La s fusion, D c'est la substitu¬tion d'une unité nouvelle, plus puissante, l'absorption de plusieurs en une seule. Lorsqu'elle s'effectue sur une large échelle, la fusion prend le nom de monopole. D </p>
+      <p xml:id="para_2_38_310">Exmple de a truts.  — Les trusts » peuvent se produire : 1° par simple entente (marchands de bois du Nivernais ; entrepreneurs de travaux publics ; raffineurs parisiens) ; 2° par pacte écrit (raffineurs francais de pétrole ; syndicaut des cuivres, des fers, du charbon, etc.). Quelquefois les a syndicats professionnels » (loi de mars 1884) deviennent enveloppe du « trust. » La Chambre syndicale des patrons boulangers de Paris (7, rue d'Anjou) forme un trust n pour le relèvement des prix, en luttant contre les menaces de « taxe municipale. n Bien plus, son action se manifeste, avec plus de prudence, contre les boulangers dissi¬dents, qui tentent de baisser le prix du pain (création de dépôts).</p>
+      <p xml:id="para_2_38_311">I. xomples de fusions.  — Les « fusions v ne se sont pas pro¬duites seulement aux Etats-Unis, ainsi qu'on pourrait se l'imaginer par la lecture d'ouvrages récemment publiés<note type="bp">
+        <p>V. Paul de Rousiers, les Indutries monopolisées ux Etats-Unis.</p>
+       </note>.</p>
+      <p xml:id="para_2_38_312">Le Manuel du speculateaur a la ˉBourse, de P.-J. Proudhon (1857), nous montre l'intensité du mouvement analogue, qui s'est produit en</p>
+      <p xml:id="para_2_39_315">LES TRUSTS ET LES FUSIONS.</p>
+      <p xml:id="para_2_39_316"><pb facs="#facs_42" n="39" source="lesouvriersdesde0108sociuoft_0049.xml"/> France vers le milieu du siècle. Toutes les grandes compagnies de che¬mins de fer, actuellement existantes, sont le résultat de « fusions.  La Compagnie d'Orléans absorba les anciennes Sociétés de Paris a O0rléans, du Centre, d'Orléauns a Bordeaux. de Tours à Nantes (décret de fusion du 17 mars 1852). La Compagnie de Paris-Lyon-Méditerranée fut cons¬tituée par les anciennes compagnies de Paris à Lyon, de Dijon à Be¬sancon, de Dole à Salins. Meme phénomene pour « lEst et pour al'Ouest.  Le Nord lui-même n'échappa pas complètement à la règle. — En même temps, la Compagnie parisienne du gaz (acte du 19. décembre 1855) incorporait six sociétés par̂iculières (Sociétés Mar¬gueritte, Brunton, Dubochet, Lacarrière, Payn et Gosselin). — Dans le bassin houiller de la Loire, l'agglomération des concessions aboutissait à la Compagnie des mines de la Loire (acte du 17 février 1847), baptisée immédiatement du nom de a monopole » par le langage populaire et fractionnée de force par le gouvernement (1854). Inutile, après cette liste déjà longue, d'insister sur les fusions n plus récentes.</p>
+      <p xml:id="para_2_39_317">A quoi bon distinguer dira quelqu'un. Qu'it s'agisse de trust ou de fusion, n la conséquence devient identique. Le « trust est une fusion qui débute ; la a fusion,  un a trust qui s'achève.  Rien n'est plus vrai ; mais les deux phases d'un mouvement même unique sont intéressantes à séparer. Les concentrations et monopoles n sou¬lèvent des questions d'interventiopn publique. Cette intervention est pratiquement aisée dans le casde trust ;  plus difficile et en tous cas d'ordre diférent dans le cas de « fusion<note type="bp">
+        <p>Aux Etats-Unis, en 1892, le a trust des rafineurs de pétrole, se voyant menacé comme a ligue,  devint une union v concentrant 450 millions de francs en une eule main.</p>
+       </note>. » Cette nuance entre les dif¬cultés pratiques justiie la dualité d'expression, même en dehors de lae science du droit.</p>
+      <p xml:id="para_2_39_318">NOTA. — Le monopole n des industries et commerces ordinaires (par opposition aux industries vitales d'une nation, alimentation, transports, mines, etc.) n'offre pas de dangers immédiats. La concurrence inté¬rieure et extérieure désagrège le plus souvent les a concentrations,  trusts ou fusions. n On aperçoit de toute évidence que le papier d'emballage ne dépassera pas une certaine limite de prix, malgré le « monopole n du Limousin (monopole d'ailleurs incomplet).</p>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_07_02">§ 2. — LE TAUX DE CAPITALISATION ET L'ESTIMATION DES VALEURS INDUSTRIELLES</head>
+      <p xml:id="para_2_40_322"><pb facs="#facs_43" n="40" source="lesouvriersdesde0108sociuoft_0050.xml"/> Une seule chose est réelle, vivante : le revenu d'une entreprise : exploitation rurale, office ministériel, maison de commerce, usine. Les rentes sont des délégations de revenus. Pour les créances elles-mêmes, pour les sommes prêtées où cette somme nettement fixée semble tenir la première place, le revenu conserve une telle importance, que le por¬teur d'un titre très sûr ou très productif trouvera des preneurs disposés à se substituer à lui, en lui rendant plus que sa somme (Obligations de la ville de Paris, au-dessus du pair).</p>
+      <p xml:id="para_2_40_323">Mais, lorsqu'on veut modifier la composition de sa fortune, il est né¬cessaire d'évaluer ce droit à toucher des arrerages annuels. Cette éva¬luation prend le nom de capital, et le rapport entre revenu et capital (qui peut être dix fois, vingt, trente fois supérieur au revenu) s'appelle tauv de capitalisation. Or, la mise en actions des entreprises indus¬trielles et commerciales d'après le mode nouveau a pour base une esti¬mation de ce genre.</p>
+      <p xml:id="para_2_40_324">Par rapport aux reuvenus, le capital admis n'est-il pas exagéré  Ne porte-t-on pas trop haut le tau de capitalisation</p>
+      <p xml:id="para_2_40_325">La s cupitalisation prudente. — Le taux de capitalisation n est fort diférent suivant le genre de revenus auquel il s'applique.</p>
+      <p xml:id="para_2_40_326">1° ˉLa terre. — La terre rapporte et doit rapporter 3 °. Cest dire que la capitalisation a lieu au denier 33; 3 ( 33 touchent à 100.</p>
+      <p xml:id="para_2_40_327">2° ˉLes aisons urboaines. — Elles doivent produire 4 /. (à cause du déchet d'entretieon), c'est le denier 25, puisque 100 est 25 fois supérieur à 4.</p>
+      <p xml:id="para_2_40_328">3° Rentes. — Le « taux de capitalisation de la rente a beaucoup varié. En 1848, la rente baissa à 32, c'est-à-dire que pour 32ᶠ on recevait 3ᶠ de rente : soit le denier 10. Aujourd'hui, la rente avoisine le pair, soit 100ᶠ, soit le denier33.</p>
+      <p xml:id="para_2_40_329">4e Créances. — Ici, le capital n (la somme prêtée) est établi d'a¬vance. Mais le taux de capitalisation est utilisé à rebours. pour établir l'intérêt, comme il était utilisé précédemment — le revenu seul étant certain — pour établir le capital. Les prospectus des grands établisse¬ments financiers, où l'on dispose en face de chaque valeur (obligation) son revenu annuel, nous montrent que le loyer de l'argent prêté s'abaisse à 2ᶠ50, 3 °., (denier 33). La baisse de lintérêt est un lieu <pb facs="#facs_44" n="41" source="lesouvriersdesde0108sociuoft_0051.xml"/> commun. Le nouvel intérêt légal en matière civile est de 4, soit au de¬</p>
+      <p xml:id="para_2_41_331">5ᵉ oOees ministeriels. — La chancellerie n (ministère de la justice) multiplie par 6 les recettes moyennes des études de notaires (cinq ou sept derniers oxercices), et détermine ainsi la a finance de l'ofice. Le taux de capitalisation descend donc très bas : denier 6.</p>
+      <p xml:id="para_2_41_332">6° Fonds de commerce. — Rien n'est variable comme le rapport entre le profit annuel et le prix d'achat. Une boucherie de 300ᶠ quotidiens de débit (à peu près 6,000ᶠ de profits nets, avec 109,000ᶠ d'aaires) s'a¬chète à Paris 30,000ᶠ, soit au denier 5. Une maison de couture du quar¬tier de l'Opéra se paie 1 million pour un profit annuel de 350,000ᶠ, soit le denier 3. L'expérience des commercants a tenu compte de l'aléa, du peu de durée relative des succès commerciaux. Rien n'est prudent comme cette évaluation des anciennes valeurs industrielles par les spé¬cialistes.</p>
+      <p xml:id="para_2_41_333">II. La capitalisation des valeurs industrielles. — Si l'on con¬sulte la cote n de la Bourse, on ne tarde pas à s'apercevoir que, pour les valeurs industrielles réputées sûres (Mines, Chemins de fer, etc.) le public se contente de 3 ᵉ.. Lorsque la sécurité diminue, le 3 ᵉ. devient du 4, du 5, du 6. Mais toujours une sorte de niveau irrésis¬tible semble traiter ce droit aléatoire à des bénéfices comme le rende¬ment de la terre, des maisons, ou comme l'engagement solennel des États et des cités. L'erreur est cependant flagrante. Les mines s'épui¬sent. La métallurgie, l'éclairage au gaa, sont à la merci d'une invention. Le commerce de l'alimentation dépend d'un changement d'habitudes de la clientêle (grands restaurants du boulevard). Les industries du haut luxe pivotent sur l'inspiration d'une individualité : grand couturier, modiste fameuse, joaillier hors pair. Accepter le denier 33 ou le denier 25 reste pure folie aux yeux des praticiens.</p>
+      <p xml:id="para_2_41_334">L'acheteur désireux de placer ses épargnes doit employer une autre méthde. Il doit se poser séparément ces deux questions : 1ᵉ Quel est le revenu à toucher 2° Quel est le capital Le revenu, on le connaît par la distribution des dividendes. Le capital, au contraire, ne se devine que par une lecture attentive du bilan<note type="bp">
+        <p>V. Revue éconoique et financière, avril et mai 1900.</p>
+       </note>. La valetur d'une action est, en prin¬cipe, rigoureusement égale à la quote-part qui reviendrait à l'actionnaire, en cas d'arrêt brusque et d'immédiate liquidation. l est parfaitement possible que ce capital soit, par rapport au revenu, 33 fois ou 20 fois <pb facs="#facs_45" n="42" source="lesouvriersdesde0108sociuoft_0052.xml"/> supérieur : la compagnie est propriétaire de terrains ; elle a accumulé ses réserves d'argent ou de matériel. Mais il est possible aussi que la seule base soit une clientèle fantasque et une direction transitoire.</p>
+      <p xml:id="para_2_42_337">Et cependant, chacun se souciant peu du déluge ou du cataclysme futurs, achete pour revendre bien vite, après avoir profité de la prime. Or, cette prime est constituée le plus souvent par l'imagination seule des imprévoyants, qui — suivant le mot de Proudhon — s con¬somment l'avenir (en remettant leur capital) pour un présent de plus en plus appauvri.</p>
+      <p xml:id="para_2_42_338">Le lecteur peut apprécier maintenant, une à une et en toute justice, les Nouvelles valeurs industrlelles : Biscuits Olibet, Tavernes Pousset, Chaussures incroyables, etc.</p>
+      <p xml:id="para_2_42_339">Limportance des immeubles et chutes d'eau (évalués à 4 millions et demi) releve encore la sécurité pour la e Société générale des papeteries du Limousin.</p>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_07_03">§ 3. — LA BANQUE SPÉCIALE DES VALEURS INDUSTRIELLES</head>
+      <p xml:id="para_2_42_341">Il n'est pas d'histoire plus curieuse que l'histoire de la s Banque spé¬ciale des valeurs industrielles. n C'est, en raccourci, le refet de la cé¬lèbre a Compagnie des lndes de Lav, et aussi de la non moins fameuse lnion générale de M. Bontoux, mais sans les désastres et les ruines retentissantes. Néanmoins, la comparaison demeure exacte, en ce sens que la Banque spéciale a donné contre un écueil sur lequel ses devan¬cières avaient sombré corps et biens.</p>
+      <p xml:id="para_2_42_342">En 1896 et 1897, le monde des affaires de Paris s'inquiétait fort des faits et gestes de fnanciers anglais, qui mettaient en actions a cer¬taines maisons parisiennes,  la maison de couture Paquin, le cycle Humber, etc., etc. On parlait même d'une conquete de la France par les capitaux anglais, ce qui étauit une illusion, attendu que les émetteurs britanniques songeaient surtoutà se débarrasser de leur papier, après la constitution des Sociétés.</p>
+      <p xml:id="para_2_42_343">Sur ces entrefaites, utilisant le courant déjà créé, M. Paul Bernhard, un banquier escompteur de Paris, associé de la banque Bernhard-Car¬pentier, résolut de fonder une banque d'émission, destinée à géneraliser le procédé anglais. La baisse du taux de l'intérêt sur toutes les valeurs d'État, d'une part, les très forts rendements de certains commerces et de certaines industries, d'autre part, lui paraissauient ofrir une occasion fa¬vorable pour établir une liaison entre l'épargne et ces entreprises. Forcer <pb facs="#facs_46" n="43" source="lesouvriersdesde0108sociuoft_0053.xml"/> l'attention publique par une réclame savante, l'allécher par de petitese coupures, faire miroiter aux yeux des détenteurs des grosses maisons commerciales l'impossibilité de a vendre autrement et de se retirer, tels étaient les moyens entrevus. .</p>
+      <p xml:id="para_2_43_345">Ajoutons que M. Paul Bernhard, né en 1854, d'un simple ouvrier devenu chef de l'importante fabrique d'allumettes de la rue de l'Ourcq, présentait toutes les garanties de succès. Après un rapide essai commer¬cial, qu'il avait interrompu, il s'était engagé comme employé de banque, avait rachete, en 1881, l'étblissement de ses débuts financiers, puis ae¬socié a M. Poncelin d'abord, plus tard a M. Carpentier, on l'avait vu se hausser peu à peu à un rang élevé dansla Banque d'escompte pari¬sienne. En 1887, il était nomme juge au tribunal de commerce, ce qui réunissait à sa réputation d'intelligence le prestige de la plus incontes¬table honorabilité<note type="bp">
+        <p>M Paul Bernhard est mort en oetobre 1899.</p>
+       </note>.</p>
+      <p xml:id="para_2_43_346">La Banque spéciale mérite d'être étudiée dans ses deux phases : 1ᵉ la phaese d'extraordinaire prospérité de 1897 an mois d'avril 1899; 2 la phase de crise, qui dure encore.</p>
+      <p xml:id="para_2_43_347">PHASE DE PROSPÉRITÉ. — Les statuts de la Banque spécile des va¬leurs industrielles,  dont le siège social est toujours 25, rua Vivienne, sur la place de la Bourse, furent déposés le 28 octobre 1897. Pu de chose à dire sur la constitution juridique. L'analyse des statuts de la Société genérale des papeteries du Limousin nous a déjà familiarisés avec les principales idées qui y sont mises en œuvre.</p>
+      <p xml:id="para_2_43_348">Le capital initial est de dix millions, divisés en 100,000 actions de 100ᶠ chacune (entièrement libérées).</p>
+      <p xml:id="para_2_43_349">Le pouvoir se trouve extraordinairement concentré. Nonseulementl'as¬semblée générale se compose des seuls actionnaires propriétaires de cin¬quante actions n (art. 26); non seulement . il est compté à chaque ac¬tionnaire autant de voix qu'il a de fois cinquante actions, sans limita¬tion du nombre de voix (art. 35) ; mais encore, pour les trois premières années, la Société est administrée par M. Paul Bernhard, en qualité d'administrateur unique. C'est le césarisme pur. De la découlait une cu¬rieuse répartition de bénéfices (art. 42). Après le prélêvement des 5 ᵉ/s de la réserve légale, des 5, de l'intéret des actions, et d'une réserve extraordinaire variable, il y avait lieu à une série de distributions suc¬cessives.</p>
+      <p xml:id="para_2_43_350">Le premier niveau se partageait entre l'administrateur unique (20 %) <pb facs="#facs_47" n="44" source="lesouvriersdesde0108sociuoft_0054.xml"/> et les actionnaires, qui recevaient un 5 ᵉ. supplément de leurs actions. Enfin, le dernier excédent se divisait en deux parties égaules : 50 % aux actionnaires, 50 ᵉ., à l'administrateur. Celui-ci pouvait monnayer ce droit<note type="bp">
+        <p>En fait, il n'y eut que 500 actionnaireos au debut (V. rapport à l'assemblee générale extraordinaire du 5 novembre 1898).</p>
+       </note>en créant deux mille parts de fondateurs, qui correspondaient chacune à un deux-milliême de ladite portion de bénéfices.</p>
+      <p xml:id="para_2_44_353">Le mécanisme financier semblait aussi simple que bieon conçu. On com¬mencait par rechercher des entreprises prospères fonctionnant depuis nombre d'années.  On constituait le capital, d'après le coeicient précé¬demment examiné, s en exigeant que les hommes qui les ont créées, qui les ont dirigées, restassent à la tête de l'affaire.  La Banque, moyennant une commission variable, souscrivait les actions de capital (celles qui correspondaient à l'argent liquide), puis, à l'aide de ses relations, de son active publicité, etc., elle tâchait de classer les actions dans le publie<note type="bp">
+        <p>La Banque possède même un journal, le Journal des valeurs industrielles.</p>
+       </note>.</p>
+      <p xml:id="para_2_44_354">Sur les émissions ainsi lancées, les actionnaires de la Banque avaient un droit de privilège, ce qui leur assurait des bénéfices certains, grâce à la plus-value immédiaute des actions. En efet, la chasse à la plus-value apparaissait immédiatement. Des a syndicats — groupement de capi¬talistes — réunissaient de gros paquets d'actions et, aussitôt que la va¬leur était admise à la cote de la Bourse, on assistait à une montée rapide des titres ainsi soulevés.</p>
+      <p xml:id="para_2_44_355">Cétait même là la fissure de la combinaison. Sans doute, ces Sociétés acquéraient une autonomie complète,  mais il était exagéré de dire qu'elles n'avaient avec la Banque d'autres points de contact que le paiement des coupons.  Pour soutenir les cours, les syndicats emprun¬taient sur dépôts de titres et la «Banque mère » se trouvait ainsi alour¬die par de fortes charges de famille.</p>
+      <p xml:id="para_2_44_356">Quoi qu'il en soit, tout marcha merveilleusement pendant le premier exercice. Le bilan au 31 janvier 1899 était commenté avec un accent de triomphe. Il accusait, sur un total de 2 millions 12 : 10 millions de capital et 3 millions 12 de profits. L'action était cotée 235 (pour mon¬ter bientôt a 270). Elle avait reçu 17ᶠ de dividende, sans parler des béné¬fices indirects provenant des privilêges de souscription.</p>
+      <p xml:id="para_2_44_357">Et les Sociétés a autonomes, » quel déilé de succes éclatants 1 Les «Chaussures lncroyables » avaient distribué 12,50 % ; cote : 223. La 4 Société des Tavernes Pousset et Royale réunies,  8 ᵐ/, soit un cours <pb facs="#facs_48" n="45" source="lesouvriersdesde0108sociuoft_0055.xml"/> de 200ᶠ. La « Mode nationale, » les « Biscuits Olibet, » les EEtablisse¬ments Porcher,  entre 7 12 et 8 1/2, soit des cours de 133ᶠ a 142ᶠ et de 102ᶠ.</p>
+      <p xml:id="para_2_45_361">Le fondateur résumait l'efort total par ceotte seule phrase :  Les titres des diverses Sociétés créées par nous,, en y comprenant la Banque elle¬même, représentent un capital de 42 millions. Ces titres, au cours actueol, ont une valeur de 66 millions. n On parlait de fortunes subitementaccrues rue Vivienne, un peu comme au xV siècle rue Quincampoix. Aussi, l'assemblée extraordinaire du 11 mars 1899 (point culminant de l'entre¬prise) fut-elle enthousiaste. On porta le capital de 10 millions à 30 mil¬lions, afin de poursuivre à fond les avantags réalisés ; et l'on adjoignit quatre administrateurs à M. Paul Bernhard. D'autres transformations etaient sur le tapis. La maison bordelaise s Schreder et de Constans allait substituer la marque à la coutume antique du lieu d'origine, le cru. » La Société parisienne des Eaux gaaeuses était sur pied. Enfin, une « Compagnie générale commerciale et industrielle,  au capital de 10 millions, une sorte d'  Omnium,  allait permettre d'appliquer l'idée fondamentale à de toutes petites affaires, trop faibles pour être isolées, mais à rendement exceptionnel.</p>
+      <p xml:id="para_2_45_362">I. LA CRISE. — Les 10 millions d'actions nouvelles s'émettaient ra¬pidement au mois de mars 1899, livrées à 145ᶠ aux anciens porteurs et amenant un cours nivelé de 225ᶠ pour les actions nouvelles et anciennes, lorsque le public apprit brusquement que la Société Schrœder et Constans, n de Bordeaux, mourait presque avant de naitre. Au dernier moment, on s'était apercu que les écritures de la maison n transformée avaient été savamment raotouchées. D'où impossibilité de tenir vis-à-vis des souscripteurs les promesses du rendement à 8 ᵉ, souvent affirmé. M. Paul Bernhard, très hardiment, déclara la Société non viable, et prit d ses frais les dépenses, qui s'élevaient, disauit-on, à 1 million. C'était d'un beau joueur. Mais une première atteinte était portée à l'œuvre. Chacun le sentit.</p>
+      <p xml:id="para_2_45_363">Cependant, l'activité du premier administrateur de la a Banque spé¬ciale se tournait de plus en plus vers la « Filiale,  depuis longtempe annoncée :  La Compagnie générale, commerciale, et industrielle. Ainsi que le précisait une notice de quelques pages, il s'agissait de por¬ter son attention sur la transformation d'affaires eprouvees, mais dont le capital, inférieur à un million et demi, ne permettait pas une émi¬sion séparée.La Compagnie grouperait ces affaires, sans placer plus. d'un million et demi sur chacune ; puis, utilisannt la nouvelle loi duᶠ</p>
+      <p xml:id="para_2_46_365"><pb facs="#facs_49" n="46" source="lesouvriersdesde0108sociuoft_0056.xml"/> 1ᵉʳ mars 1898 sur le nantissement en matière de fonds de commerce, elle créerait des obligations, ainsi gagées par privilège spécial et analogues aux obligations du Crédit foncier, qui se classeraient facilement. Ainsi l'argent serait fourni bon marché par les obligataires, à cause de la baisse du taux de l'intéret, et les dividendes reviendraient aux action¬naires, étant donnés les profits élevés des entreprises. La souscription fut ouverte. Les actionnaires de la Banque pouvaient acquérir l'action de la a Filiale à 135ᶠ.</p>
+      <p xml:id="para_2_46_366">Ce fut alors que le lrach survint, par suite d'un raisonnement simple qui se généralisa. La clientèle des combinaisons de la Banque était for¬cément restreinte. Afn de bénéficier de l'infaillille prime de l'action filiale, un très grand nombre de personnes réalisèrent les actions de la Banque, sur lesquelles elles trouvaient avoir sufisamment gagné<note type="bp">
+        <p>Chose curieuse, c'était pour empécher la hausse absurde que M. Paul Bern¬hardt avait fait vendre à ses premiers et fidèles souscripteurs en leur diatribuant des parts bénéfciaires ; et ce furent les acquéreurs nouveaux qui causèrnt la pa¬nique en vendant à tout prix.</p>
+       </note>. Une baisse devait déjà en résulter ; la hate avec laquelle on se portait vers le bateau neuf commençait à faire pencher le bateau ancien ; lors¬qu'un grand établissement de crédit, voyant dans la Filiale n une ma¬nœuvre qu'on avait déjà observée dans le fameux Syndicat des cuivres,  donna lesignal de la panique. On était au mois de juin. Dans une seule Bourse, l'action de 224ᶠ se négocia, dit-on, à 6ᶠ ; mais la cote fut annulée. Les baissiers étaient engagés avec une telle ardeur que, tout d'un coup, l'impossibilité de tenir les engagements fit remonter le cours a 124ᶠ1 Puis, malgré les eforts du Syndicat des actions, qui avauit été fort éprouvé, tout s'effondra de nouveau.</p>
+      <p xml:id="para_2_46_367">Un bilan fut immédiatement publié (22 juin 1899). Il s'élevait a 35 mil¬lions, avec 517,000ᶠ de profits. Le calcul le plus simple permettait d'afirmer que la valeur réelle de l'action approchait de 120ᶠ. L'engoue¬ment d'autrafois avait sa réaction. Cette sorte de courant est pénible à rmonter.</p>
+      <p xml:id="para_2_46_368">fut décidé que le Syndicat destiné à soutenir les actions serait rompu; qu'on laisserait les choses aller sur leur pente naturelle. Les Sociétés industrielles fondées n'étaient-elles pas autonomes, solide, assurant les hénefces promis On répondait avec une certaine raison : Le aart Jdes Sociétés industrielles peut être assuré, Mais la confiance n'étant plus, la Banque ne pourra plus en fonder d'autres ; donc alle n'aura plus de bénéflces.</p>
+      <p xml:id="para_2_47_370"><pb facs="#facs_50" n="47" source="lesouvriersdesde0108sociuoft_0057.xml"/> En octobre, M. Paul Bernhard, très affeeté de son insucces, mourut brusquement. L'action s'afaissa à 44ᶠ.</p>
+      <p xml:id="para_2_47_371">Pour mettre fin à l'inquiétude ascendante des porteurs, le Conseil d'administration, à la tête duquel se trouvent des commercants éprouvés comme MM. Ancelot, Buisson, etc., décida que des experts examine¬raient la comptabilité sociale. Ces experts furent optimistes. A l'assem¬blée génerale du 16 décembre, ils déclarèrent que l'actif s'élevait à 21,761,000ᶠ. Les administrateurs ramenèrent le chifre à 19,764,000ᶠ. L'action, rigoureusement, aurait dû atteindre les environs du pair, 95 à 98. Elle se haussa péniblement à 80ᶠ. Beaucoup réalisèrent. Nou¬valle baisse.</p>
+      <p xml:id="para_2_47_372">Actuellement, la lourdeur ne frappe pas seulement l'action de la Banque (60, 61) ; elle s'étend aux Sociétés industrielles. Les Chaussures Incroyables sont à 160ᶠ ; les Tavernes Pousset, à 149ᶠ ; la Mode nationale, a 72ᶠ 50; les Biscuits Olibet, a 99ᶠ50, diminuant ainsil'actif de la Banque. qui détient naturellement un fort contingent de ces actions. En mettant les estimations au pire, l'action de la Banque semble pouirtant valoir encore 74ᶠ Telle est la réfexion judicieuse du Joural des valeurs in¬dustrielles, n le 24janvier. Elle permet de mesurer le chemin parcouru<note type="bp">
+        <p>Depuis que ces lignes ont été écrites, la Banque spéciale, réorganisée par un « groupe » nouveau, semble appelée à n avenir rassurant.</p>
+       </note>.</p>
+      <p xml:id="para_2_47_373">Il ne nous appartient pas de donner, dans cette courte étude, un pro¬gramme de reconstitution à une entreprise aussi importante que la Banque spéciale des valeurs industrielles. Mais nous pouvons indiquer sans hésitation un certain nombre de points nettement établis par l'année qui vient de s'écouler.</p>
+      <p xml:id="para_2_47_374">1e Les Sociétés industrielles, fondées par la Banque, sont viables pour la plupart. Cette concession semble confirmer le programme du Conseil actuel de la Banque.</p>
+      <p xml:id="para_2_47_375">2° Toujours dans le sens du même programme : il est possible, plus que jamais, de mettre en actions des entreprises s ayant fait leurs preuves; n chaque industrie, chaque commerce, dans chaque pays et chaque cité, voit journellement des transformations semblables, che¬mins de fer, mines, métallurgie, tissages, alimentation.</p>
+      <p xml:id="para_2_47_376">3ᵉ Mais après les rafales essuyées à la Bourse — l'admission à la cote offre de ces dangers qu'ignore la paisible transmission en banque — la</p>
+      <p xml:id="para_2_48_379"><pb facs="#facs_51" n="48" source="lesouvriersdesde0108sociuoft_0058.xml"/> Banque spéciale, il faut le reconnaitre, n'offre plus la vigueur première pour présider, sous sa forme actuelle, à de semblables transformations. Son public spécial,  lui aussi, est épuisé ; à chaque relèvement, il réa¬lise ; son souci est non de s'engager à fond, mais de se dégager.</p>
+      <p xml:id="para_2_48_380">4ᵉ° La Banque est d'ailleurs formidablement alourdie par les paquets d'actions des Sociétés créées par elle, et qui représentent une forte partie de son actif. a Qu'importe, si ces sociétés rapportent dira-t-on. La Banque et ces Sociétés se nuisent. Chaque chien pris à part nage à merveille. Qu'une corde attache deux chiens l'un à l'autre, c'est la noyade. Il faut couper la corde.</p>
+      <p xml:id="para_2_48_381">Serait-il au-dessus des forces humaines de tenter cette amputation, même en revenant à un capital de dix millions liquides — l'efectif des temps de prospérité 2</p>
+      <p xml:id="para_2_48_382">5° Ainsi allégée, la Banque deviendrait précisément cette Compagnie industrielle et commerciale, la dernière conception de Paul Bernhard, celle qui a fait craquer l'édifice et qui est de beauucoup la plus bienfai¬sante. Réunir toute une série d'affaires sérieuses, mais non à leur apogée, en n omnium, sans chasse à la prime, sans majoration, au prix réel desfonds de commerce : puis attirer la plus forte partie de l'argent nécessaire à l'aide d'obligations gagées sur le privilège nouveau, c'est marcher à des profits sûrs. Cette combinaison d'actionnaires audacieux visaunt les gros bénéfices et d'obligataires prudents cherchant un gsge solide, constituerait une affaire commerciale et non plus une affaire de spéculation.</p>
+      <p xml:id="para_2_48_383">Banque de spéculation sur les valeurs industrielles, tel était le nom qui convenait à la Banque ; et la spéculation devait devenir un jour ou l'autre malheureuse, puisque, pour le plus grand profit des premiers por¬teurs, elle systématisait l'erreur courante du public qui, en matière d'industrie et de commerce, est porté à juger du capital, non par son estimation directe, mais à l'aide d'un taux erroné de capitlisation.</p>
+      <p xml:id="para_2_48_384">ˉLe gérant : A. VILLECENOUX.</p>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>
