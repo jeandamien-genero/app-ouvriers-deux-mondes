@@ -1,328 +1,622 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie--><TEI xml:id="ID-066b" xml:lang="fr">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Les Ouvriers des Deux Mondes - série 2, volume 3 - Transcription</title>
-<respStmt>
-<persName>
-<forename>Alix</forename>
-<surname>Chagué</surname>
-<affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
-</affiliation>
-</persName>
-<resp>acquisition et structuration initiale des textes</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Jean-Damien</forename>
-<surname>Généro</surname>
-<affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
-</affiliation>
-<affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
-</affiliation>
-<affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
-</affiliation>
-</persName>
-<resp>encodage scientifique</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Stéphane</forename>
-<surname>Baciocchi</surname>
-<affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
-</affiliation>
-</persName>
-<resp>direction scientifique</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Anne</forename>
-<surname>Lhuissier</surname>
-<affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
-</affiliation>
-</persName>
-<resp>direction scientifique</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Éric</forename>
-<surname>Villemonte de la Clergerie</surname>
-<affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
-</affiliation>
-</persName>
-<resp>supervision technique</resp>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<publisher>projet ANR Time Us</publisher>
-<date from="2019" to="2021"/>
-<pubPlace>Paris, France</pubPlace>
-</publicationStmt>
-<sourceDesc>
-<p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<projectDesc>
-<p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-</projectDesc>
-</encodingDesc>
-</teiHeader>
-<facsimile xml:id="facs_149">
-<surface lrx="3478" lry="2151"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$166/full/full/!90/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_150">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$169/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_151">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$170/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_152">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$171/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_153">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$172/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_154">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$173/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_155">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$174/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_156">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$175/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_157">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$176/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_158">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$177/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_159">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$178/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_160">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$179/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_161">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$180/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_162">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$181/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_163">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$182/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_164">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$183/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_165">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$184/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_166">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$185/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_167">
-<surface lrx="2151" lry="3478"/>
-<graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$186/full/full/0/default.jpg"/>
-</facsimile>
-<text>
-<body>
-<div ana="#ID-066b" type="chapter">
-<div n="001" type="section">
-<p xml:id="para_7_125_1">N° 66 bis.</p>
-<p xml:id="para_7_125_2">PRÉCIS D'UNE MONOGRAPHIE</p>
-<p xml:id="para_7_125_3">PÈCHEUR CÔTIER.</p>
-<p xml:id="para_7_125_4">DU FINMARK.</p>
-<p xml:id="para_7_125_5">(LAPONIE-NORVÈGE),</p>
-<p xml:id="para_7_125_6">OUVRIER CHEF DE MÉTIER,</p>
-<p xml:id="para_7_125_7">DANS LE SYSTÈME DU TRAVAIL SANS ENGAGEMENTS,</p>
-<p>PAR</p>
-<p xml:id="para_7_125_8">M. <persName>F. ESCARD</persName>,</p>
-<p xml:id="para_7_125_9">d'aprés les renseignemens recueillis en 1884</p>
-<p>pendant l'expédition scientifique du Prince Roland Bonaparte.</p>
-</div>
-<div n="002" type="section">
-<figure rend="landscape" type="photo">
-<head resp="original" type="photo" xml:id="figure_1"><pb facs="#facs_149" n="126" source="s2lesouvriersdes03sociuoft_0166.xml"/>  Gamme lapon du varanger fjord (Finmark). Expédition scientifique du Prince R. Bonaparte
+<!--monographie-->
+<TEI xml:id="ID-066b" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 3 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_149">
+  <surface lrx="3478" lry="2151"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$166/full/full/!90/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_150">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$169/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_151">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$170/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_152">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$171/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_153">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$172/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_154">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$173/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_155">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$174/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_156">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$175/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_157">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$176/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_158">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$177/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_159">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$178/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_160">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$179/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_161">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$180/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_162">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$181/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_163">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$182/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_164">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$183/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_165">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$184/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_166">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$185/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_167">
+  <surface lrx="2151" lry="3478"/>
+  <graphic url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft$186/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div ana="#ID-066b" type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_7_125_1">
+      N° 66 bis.
+     </p>
+     <p xml:id="para_7_125_2">
+      PRÉCIS D'UNE MONOGRAPHIE
+     </p>
+     <p xml:id="para_7_125_3">
+      PÈCHEUR CÔTIER.
+     </p>
+     <p xml:id="para_7_125_4">
+      DU FINMARK.
+     </p>
+     <p xml:id="para_7_125_5">
+      (LAPONIE-NORVÈGE),
+     </p>
+     <p xml:id="para_7_125_6">
+      OUVRIER CHEF DE MÉTIER,
+     </p>
+     <p xml:id="para_7_125_7">
+      DANS LE SYSTÈME DU TRAVAIL SANS ENGAGEMENTS,
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_7_125_8">
+      M.
+      <persName>
+       F. ESCARD
+      </persName>
+      ,
+     </p>
+     <p xml:id="para_7_125_9">
+      d'aprés les renseignemens recueillis en 1884
+     </p>
+     <p>
+      pendant l'expédition scientifique du Prince Roland Bonaparte.
+     </p>
+    </div>
+    <div n="002" type="section">
+     <figure rend="landscape" type="photo">
+      <head resp="original" type="photo" xml:id="figure_1">
+       <pb facs="#facs_149" n="126" source="s2lesouvriersdes03sociuoft_0166.xml"/>
+       Gamme lapon du varanger fjord (Finmark). Expédition scientifique du Prince R. Bonaparte
       </head>
-<graphic facs="#facs_149" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24166/143,327,1831,2782/full/270/default.jpg" xml:id="illu_6_126_11"/>
-</figure>
-<!-- Pas de titre "Observations préliminaires..." dans cette monographie -->
-<div n="001" type="sub_section">
-<head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
-<div n="001" type="sub_sub_section">
-<p xml:id="para_7_125_11"><pb facs="#facs_150" n="125" source="s2lesouvriersdes03sociuoft_0169.xml"/> Le milieu où vit la famille. — Le golfe de Varanger, ou Varanger-Fjord, est le seul des gollfes norvégiens qui entre dans les terres dns la direction de l'est à l'ouest ; il a depuis Vadsö une prolondeur d'une cinquantaine de kilomètres. Tout au fond, il se partage en deux bran¬ches dans les sinuosités desquelles s'abritent de nombreuses popula¬tions de pêcheurs ; c'est sur la rive gauche du golfe qui regarde au Sud, que se trouve la commune de Nœseby, dont l'écart de Mortensnœs fait paurtie (26° 43' long. E. ; 70° 7' lat. N.).</p>
-<p xml:id="para_7_125_12">Mortensnœs, ou cap de Martin, est, en effet, un petit promontoire autour duquel sont éparses une douzaine d'habitaions avec cinquante et un habitants ; d'abord, près du rivage, la saison en bois du mar¬chand, ses magasins et sa boutique, et le wharf sur pilotis pour y ac¬céder. Au delà de quelques rochers qui viennent mourir au hord des <pb facs="#facs_151" n="126" source="s2lesouvriersdes03sociuoft_0170.xml"/> eaux du golfe, des familles finnoises ont dressé, il y a peu d'années, leurs maisonnettes et leurs étables ; plus haut, au pied de la monta¬gne, sont les gammer, ou huttes de deux familles de Lapons.</p>
-<p xml:id="para_7_126_14">Le Stor-Fjeld, ou grand plateau qui domine au nord ces groupes d'habitations, est un paturage d'été, entrecoupé de deux lacs qui s'é¬coulent furtivement à travers la masse schisteuse jusqu'à la mer. Au plus lointain horizon que l'on distingue sur cette hauteur vers le nord, on aperçoit une ligne circulaire de bois et de forêts. Les eaux qui s'é¬coulent du plateau se transforment, autour des maisons des Finnois, en un petit ruisseau que ceux-ci utilisent pour leurs besoins domes¬tiques au-dessus. les Lapons en ont déjà arrèté au passage une in¬1iltration pour s'en faire une citerne.</p>
-<p xml:id="para_7_126_15">Une route neuve, construite en 1869, et destinée à relier depuis Vadso tous les villages épars sur la côte du golfe, sépare les Finnois des Lapons : enfin, une ligne télégraphique passe au bas de cette route. Les Finnois établis à Mortensns sont agriculteurs, c'est-à-dire qu'ils élèvent un peu de bétail et transforment quelques parcelles de la prairie qui les entoure en petites cultures potagères. Les Lapons sont exclusivement pêcheurs.</p>
-<p xml:id="para_7_126_16">Le marchand établi dans ces sites reculés (landandler) est une ins titution particulière. Etabli par autorisation spéciale du gouvernement et comme par privilège, moyennant le versement préalable d'un petit nombre de ronors<note type="bp">
-<p>La couronne (kronor) vaut 1 fr. 39.</p>
-</note>, c'est lui qui centralise tous les produits de sa région : les Lapons nomades des plateaux environnants lui appor¬tent les pcaux, les bois etmême la chair de leurs rennes ; les pêcheurs lui remettent la plus grande partie du produit de leur pêche ; les agri¬culteurs, la portion de leur récolte qu'ils n'emploient pas directe¬ment ln échange, et par une sorte de troc, le marchand fournit aux uns et aux autres les farines russes ou suédoises, le riz, le café, les étoles et les parties de vêtements qu'ils ne fabriquent pas eux-mêmes, quelques ustensiles, ete. Il a près de sa demeure le puits couvert qui ne gèle pas. Ce n'est qu'exceptionnellement que le marchand donne monnaie, cn vue du payement dcs impôts. par excmple, ou autres rais d'une nature analogue. Quelques-uns de ces marchands font rapidement fortune, dit-on. Mais cette institution doit nous intéresser surtout ici en ce qu'elle constitue un mode de paronage qui a rendu les plus grands services à ces populations clairsemées et dépourvues <pb facs="#facs_152" n="127" source="s2lesouvriersdes03sociuoft_0171.xml"/> d'initiative. Le marchand de Mortensnœs n'y est établi que depuis six années ; il y avait trouvé installées nos deux familles laponnes : les Finnois, au contraire, n'y sont venus qu'après lui et encouragés par Sa présence.</p>
-<p xml:id="para_7_127_20">Les Lapons de la Suède, de la Norvège et de la lussie sont régis selon les lois de celui de ces ltats qu'ils habitent, et ceux du Finmar, en particulier sont, comme tous les habitants de cette province, dis¬pensés du service militaire, astreints à l'instruction et assujettis à un impôt, dont le mode de répartition mérite d'être signalé. Divisés, en eflfet, en quatre catéggories, les contribuables voient diminuer la qao tité de leur contribution en proportion de leurs charges de famille et du nombre de leurs enfants, mesure assurément féconde à tous égards. ''out .apon qui paye impôt depuis cinq années est électeur ; tout électeur, auu contraire, qui a besoin des secours de l'Assistance publique est déchu de ses droits civiques. Toutefois, répandus sur un vaste espace, les Lapons de Norvège, même en unissant outes leurs Voix sur le nom d'un seul d'entre eux, ne pourraient arriver à une majorité sufisante pour avoir un représentant de leur race au l'arle¬</p>
-</div>
-<div n="002" type="sub_sub_section">
-<!--Individus cités : Jol Andersen (n°066bE1) - Ellen Berrit Gretesdatter (n°066bE2) - Berrit Gretesdatter (n°066bE3) - Ellen Berritsdatter (n°066bE4) -   (n°066bE5) -   (n°066bE6) -   (n°066bE7) -   (n°066bE8)-->
-<p xml:id="para_7_127_21">Les membres de la famille. — La famille étudiée comprend huit per¬sonnes <persName xml:id="ID-066bE1">Jol Andersen</persName>, trente-deux ans, chef de la famille ; <persName xml:id="ID-066bE2">Ellen Berrit Gretesdatter</persName>, sa femme, trente ans; <persName xml:id="ID-066bE3">Berrit Jolsdatter</persName>, soixante ans, mère du chef de la famille ; <persName xml:id="ID-066bE4">Ellen Berritsdatter</persName>, sœur de celui-ci, vingt-six ans.</p>
-<p xml:id="para_7_127_22">Le ménage a quatre enfants : deux filles de six et quatre ans, deux garçons : l'un de deux ans, l'autre de deux mois.</p>
-<p xml:id="para_7_127_23">Cette famille est en parenté avec celle qui habite la seconde cabane et qui comprend une femme veuve, une fille de vingt-deux ans et une fille plus jeune.</p>
-</div>
-<div n="003" type="sub_sub_section">
-<p xml:id="para_7_127_24">Religion et habitudes morales. — Les lapons sont luthériens ; ils fré¬quentent règulièrement le dimanche l'église de Neseby, ou sont faites les prédications en inlandais et en lapon ; leurs enfants ont été baptisés à cette église. Le zèle des Lapons est si vif, dit-on, que les mères. plutôt que de manquer le prône, apportent quelquefois avec elles leurs enfants dans leur berceau, quitte à les bercer pendant toute la durée du prêche.</p>
-<p xml:id="para_7_127_25">bL'instruction étant obliggatoire dans tout le royaume, nos pêcheurs savent lire le lapon et le finlandais, mais ne savent pas écrire. Leurs enfants seront plus instruits ; des règlements récents les obligent à fré¬quenter l'école de huit à quiuze ans : les familles sédentaires doivent les <pb facs="#facs_153" n="128" source="s2lesouvriersdes03sociuoft_0172.xml"/> envoyer doue semaines pa a, oitié au printemps, oitié en u¬tomne : les nomades ne sont obligés qu'à neul'semaines de fréquentaion, n janvier, évrier et mars, ́poque où les hommes seuls suivent les rennes, que tous les membres de la famille accompagnent dams le reste de l'année. Les maîtres d'école ambulants du siècle passé ont disparu, comme les missionnaires nomades, avec l'installation d'écoles nom¬breuses et de paroisses plus rapprochées.</p>
-<p xml:id="para_7_128_28">Sous cette double influence, les années qui précèdent les mariages sont innocentes, et quand l'âge de vingt-cinq ans est venu, si les jeunes gens, en se mariant, ne s'apportent pas de grandes richesses, ils se sont appréciés depuis longtemps dns une vie toute au grand jour. En signe de la demande en mariage, le jeune homme a envoyé un mouchoir brodé et quelque menue bijouterie de cuivre, d'étain ou tout au plus d'argent : la famille a reçu en même temps un don de spiritueux ou de viande; cela sufit pour que le consentement soit ac¬quis si mouchoir et victuailles ne sont pas renvoyés. Au reste, les nais¬sances illégitimes sont-elles une exception des plus rares, et l'infanti¬cide est-il sans exemple parmi les Lapons. l'eut-être n'en fut-il pas ainsi avant l'introduction du christianisme ; en effet, une légende sub¬siste encore parmi eux qui raconte que lorsqu'un enfant est mort des mains de sa mère, l'âme de la petite créature erre à travers le fjeld jusqu'à ce qu'elle ait retrouvé celle qui lui avait donné et repris la vie, et quand elle l'a retrouvée. s'attachant à elle pendant son somr meil, elle boit tout le lait de son sein jusqu'à ce qu'elle l'ait épuisé.</p>
-<p xml:id="para_7_128_29">Les nouveau-nés doivent être baptisés, quelle que soit la distance de la station, dans les deux années qui suivent la naissance. bLe jour du baptème, un cadeau est fait par les parents au pasteur, une bourse cn pcau de renne. par excmple, ou une pochette à tabac. De son côté, le parrain constitue à son filleul un commencement de dot par l'ap¬port d'une renne pleine, dont le produit et le croît s'augmentent à son bénéfice jusqu'à sa majorité. C'est d'ailleurs tout ce que, garçon ou fille, il aura en propre, l'héritage paternel quoique régi par la loi norvégienne, demeurant en communauté permanente entre les en¬fants. Quand le parrain n'est pas en possession de rennes, son ca-¬deau se compose de bétail d'une autre espèce : l'une des vaches qu possède la famille que nous étudions a été le cadeau fait au dernier né par son parrain.</p>
-</div>
-<div n="004" type="sub_sub_section">
-<p xml:id="para_7_128_30">Hygiene et service de santé. — L'hygiéne, à vrai dire, laisse beau¬coup à désirer. L'usage des bains est inconnu, les soins de propreté <pb facs="#facs_154" n="129" source="s2lesouvriersdes03sociuoft_0173.xml"/> sont insuflisants ; l'iabitude de vivre presque pêle-mèle avec les ani¬maux, et surtout l'emploi nécessaire des fourrures, engendrent des parasites, à tel point abondants qu'un de nos compagnons de voyage. le Dʳ Ten-ate, a pu découvrir, dans une famille laponne de ''roms. deux espèces nouvelles de e pédiculés ».</p>
-<p xml:id="para_8__4">Le service de santé est fait dans la paroisse par un médecin de Vads, à l'époque de ses tournées annuelles.</p>
-<p xml:id="para_8__5">C'est l'une des femmes finnoises de Mortensnœs qui est autorisée à opérer les accouchements. Ne nous alarmons pas de cet état de choses qui semble insuffisant : les apons n'en vivent pas moins très vieux. si j'en crois les renseignements de la statistique.</p>
-<p xml:id="para_8__6">La mortalité en Europe a été, de 1865 a 1876, par 1.000 habitants : de 31,6 pour l'Autriche ; 27, 4 pour l'Allemagne ; 24,3 pour la France; 22,2 pour l'Angleterre: 19.4 pour la Suéde, et 7.6 seulement pour la</p>
-</div>
-</div>
-<div n="002" type="sub_section">
-<head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
-<div n="001" type="sub_sub_section">
-<div subtype="famille" type="proprietes">
-<p xml:id="para_8__8">Proprietés. — La famille Andersen est propriétaire de sa maison, de deux barques et de deux vaches. Elle n'a pas contracté d'engage¬ments pour son travail, soit avec le marchand, soit avecc les proprié¬taires finnois qui l'avoisinent. Elle peut être cependant considérée come liée avec le marchand, par une dette d'à peu près 100 kronors de marchandises fournies l'année dernière à crédit, la saison de pêche ayant été exceptionnellement mauvaise ; c'est une dette un peu lourde, si nous en jugeons par la valeur des propriétés de la famille et de ses revenus ordinaires. L'habitation avec son contenu, les vêtements excepés, peut être évaluée de 40 à 50 kronors ; les flets et les barques valent de 1.50 à 200 kronors ; les deux vaches : l'une 80 kronors, l'autre 100 kronors, parce qu'elle se trouve à la saison de la parturi¬tion. Les vaches produisent trois litres de lait par jour.</p>
-</div>
-</div>
-<div n="002" type="sub_sub_section">
-<p xml:id="para_8__9">Subventions. — Il est vrai que d'assez importantes subventions vien¬nent s'ajouter à ces recettes. La tourbe est en abondance autour des laes du tor-Fjeld et sulirait presque au chauflage de l'habitation pour l'année entière. Le bois à prendre dans des conditions prévues n'est qu'à une heure de distance sur cette montgne. pendant la belle Saison, les vaches y sont eunées paitre. et l'herbe qui croi plus pres <pb facs="#facs_155" n="130" source="s2lesouvriersdes03sociuoft_0174.xml"/> de la maison peut être amassée et conservée pour l'hiver ; en outre, la chasse fournit en oiseaux de marais et de forêts une importante aug¬mentaion d'liments. La prise de quelques animaux à fourrures vient aussi ajouter parfois une autre reeette à ce petit budget.</p>
-</div>
-<div n="003" type="sub_sub_section">
-<div subtype="famille" type="travaux">
-<p xml:id="para_8__12">Travaux. — L'ouvrier travaille pendant une moyenne de 300 jours : l'été, surtout à la pêche et un peu chez le marchand, soit pour le ma¬gasin à guano soit pour la préparation de l'huile de foie de morue l'hiver, principalement au contraire à ces dernières occupalions. Sa femme et sa sœur participent presque journellement à la pêche pen dant la belle saison, tandis que pendant l'hiver elles s'occupent unique¬ment avec la vieille mère des travaux du ménage.</p>
-<p xml:id="para_8__13">La pêche se fait à peu près exclusivement dans le golfe de Varanger. Rarement les barques de Mortensnœs vont jusqu'à Vadsö où elles ont pu cependant recueillir parfois de la libéralité des pêcheurs de baleine quelques quartiers de viande de cétacé pour améliorer leur alimentation. La saison de pêche qui s'étend d'avril à septembre dans tout le golfe de Varanger, produit ordinairement une valeur de 300 kronors : il en est consommé dans la famille ou échangé avec des navires de passage environ pour 50 kronors. Le reste est vendu auu marchand. Les morues séehées (cabillauds) sont envoyées comme denrées marchandes par paquets de douze douaines : chaque paquet vaut environ 40 kronors et pèse 100 lilog., ce qui correspond à peu près à 50 centimes le kilog. Hammerfest, Tromsö, Trondjem, Bergen, Hambourg, sont les escales principales de cette denrée, qui se vend au détail jusqu'en Es¬pagne et dans la Méditerranée.</p>
-</div>
-</div>
-</div>
-<div n="003" type="sub_section">
-<head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
-<div n="001" type="sub_sub_section">
-<p xml:id="para_8__15">Aliments et repas. — Hommes et femmes vivent complétement en¬semble et n'ont qu'une pièce pour travailler, se reposer et prendre leurs repas. Ceux-ci sont composés d'ordinaire de poissons, de riz ou de pain fait au foyer de la famille, auxquels on n'ajoute que très rare¬ment soit de la viande de baleine reçue en passant devant Vadsö, soit un quartier de renne acheté par occasion aux bergers des plateaux voisins ; dans cette dernière circonstance, les deux amilles laponnes de Mrtensnœs se réunissent et établissent leurs dépenses réciproques en proportion de leur consommation. Chaque année, une des deux vaches <pb facs="#facs_156" n="131" source="s2lesouvriersdes03sociuoft_0175.xml"/> doit produire un veau, qui sera mangé solennellement au temps des fêtes de Noël. Pendant tout l'hiver le poisson est mangé sec : quand la mer « est découverte » pendant la saison rigoureuse, ils peuvent quelquefois cependant manger un peu de poisson frais.</p>
-<p xml:id="para_8__18">Le pain est préparé par la mère du chef de famille. Cette femme, accroupie non loin du foyer, mêle d'abord dans un vase en bois sa farine d'avoine avec de l'eau tiède : elle en a bientt fait une boule qu'elle serre et pétrit dans ses mains, puis elle la replace au fond du vase, et là, d'un coup de poing, l'écrase en forme d'écuelle ; sous sa main, comme l'argile entre les doigts du potier, elle s'allonge et s'amincit selon la capacité du vase au fond duquel elle est pressée en tournant: puis elle est dressée dans cet état, à peu pres debout, près des cendres du foyer, ou elle est séchée d'abord, puis tournée, retournée et enfin roussie, plutôi que cuite à point. Nous avons mangé de cette galette : avec du lait de renne et en petite quantité, elle n'a pas trop pesé à nos estomacs. Quant au lait lui-même, il m'a paru trop sucré et trop onctueux, trop gras, avec le goût du lichen qu'on donne en tisane au enfants enrhumés : bien propre pour les pays froids, par conséquent, et, comme l'huile de foie de morue, pouvant offrir un ex emple de plus de l'harmonie qui existe entre les milieux et les besoins.</p>
-<p xml:id="para_8__19">C'est autour du foyer qu'est le plus souvent dressé le couvert ; la galette sert d'assiette, portée sur les genoux ; le poisson, ou la chair. cuits sur la braise, forment le plat essentiel, et chacun en prend sa part en bloc, ou bouchée par bouchée, à l'aide d'un morceau de bois affilé qui sert de fourchette individuelle: on mange ainsi à peu près toute la journée, avec accompagnement de café édulcoré de beurre, de fromage ou de lait de renne.</p>
-</div>
-<div n="002" type="sub_sub_section">
-<div subtype="par_10_texte_1" type="par_10">
-<p xml:id="para_8__20">Habitation, mobilier et vêtements. — La maison est faite de plaques de gazon, posé les racines en dehors, et qui reverdit ensuite. A la distance de quelques pas à peine, on dirait ane de ces cahutes aban¬données par les cantonniers, qui une portion de route terminée, sont allés plus loin porter leurs outils.</p>
-<p xml:id="para_8__21">Elle comprend trois corps de construction d'une hauteur de deuN mètres, sur huit de largeur : le logis principal, avec le foyer central ; l'étable, formant l'aile opposée de la demeure ; entre les deux, les reliant, l'entrée, dont le fond sert de dépôt pour plusieurs sortes de denrées. En dehors de ces trois corps, la maison comprend aussi un séehoir en arrière et deux magasins en contre- bas de la route de Neseby qui passe devant la porte du gamme : celle-ci est ouverte au <pb facs="#facs_157" n="132" source="s2lesouvriersdes03sociuoft_0176.xml"/> sud-est. Entre la maison et le séchoir est la petite citerne, ou puits à 1leur de terre, sous un rocher de quelques centimètres de haut.</p>
-<p xml:id="para_8_132_23">Dans l'étale est un réduit pour les vaches : cette pièce est d'ailleurs débarrassée de tous ustensiles ménagers, ceux-ci sont relégués dans le couloir.</p>
-</div>
-<div subtype="meubles" type="par_10">
-<p xml:id="para_8_132_24">Dans la chambre habitée, deux lits sont placés chacun dans un angle, séparés par le foyer ; l'un des lits est fait de brindilles de bouleau et de peaux de renne, l'autre lit est sur pieds, très bas. Quel¬ques outils d'usage fréquent sont seuls accrochés dans cette pièce, qui est privée de toute sorte de sièges. Cn coffre en tient lieu : on y serre les vêtements. n semis de feuilles déchirées de bouleau ou de sapin est répandu ordinairement dans l'entrée et autour du foyer ou se tient la famille.</p>
-</div>
-<div subtype="ustensiles" type="par_10">
-<p xml:id="para_8_132_25">Voici, en outre, l'énumération des ustensiles et des vêtements de la famille :</p>
-<p xml:id="para_8_132_26">Ustensiles : 6 cuillers en laiton, un seau en zine, 4 seilles en bois, deux barils, un grand chaudron en fonte, un plus petit, deux boîtes à lait en bois, un pilon à poisson, une baratte, un eoffre, une natte, un berceau, un rouet, une salière, une petite quantité de poterie vernissée, 10 couteaux, 24 vases à lait en bois cerclé, identiques, d'une hauteur de 7 centimètres et de 4 de diamètre, un moulinà café, un croc pour la cuisson des aliments, cinq cuillers en bois ; une lampe à essence avec sa suspension, évaluée l kronor 1/2 (2ᶠ10) ; une pssoire en zinc ; quelques vases en terre de pipe et en fer battu; pots à tabac et à café ; pipes, bâtons ouvrés, cuillers en bois de renne ; auge pour l'étable ; fourches deux traîneaux pour transport de denrées ou déplacements personnels.</p>
-</div>
-<div subtype="vetements" type="par_10">
-<p xml:id="para_8_132_27">Vêtements : 3 robes de femmes, confectionnées par la famille, et faites chacune de 4 mètres de drap provenant de la fabrique d'effets militaires de Copenhague, à 9 kronors le mètre ; 2 robes en peau de renne ; 2 robes d'homme ; une pelisse en peau de mouton ; 8 braies en drap à raison de 150 pour chacune ;  petits fichus de laine ; I bon. nets, dont 2 pour homme, à l kronor l'un ;  paires de chaussures, la paire à 12 kronor ; 3 paires de demi-bottes à 2 kr. 50; 9 dessous (che¬mises2) de laine, à 1 kronor 50 ; 4 peaux de renne pour la literie, et 2 peaux de mouton ; 4 ceintures en laine ; 2 ceintures en cuir ; 30 mè¬tres de ruban de laine pour serrer les chevilles et les poignets, à 1 kronor 60 les 2 métres (suffit pour les deux jambes) : 4paires de gants de laine, à 1 2 kronor ; 2 paires gants de peau à 1 kronor ; 2 colliers <pb facs="#facs_158" n="133" source="s2lesouvriersdes03sociuoft_0177.xml"/> de perles en verre de couleur ; agrafes en étain ; une baggue en argent. 3 bagues en étain ; cravates et mouchoirs en minime quantité: bourses, bagues à tabac.</p>
-</div>
-<div subtype="par_10_texte_2" type="par_10">
-<p xml:id="para_9__3">Quand on entre par la porte étroite et basse dans cet intérieur peu fortuné, on traverse d'abord le couloir sombre où nous distinguons cependant un petit berceau suspendu et contenant un enfant de deux ou trois mois. Dans la chambre, la lumière indécise qui pénêtre par l'unique petite fenêtre laisse à peine reconnaitre un pele-mêle de gens et de chiens allongés autour des grosses pierres qui forment le oyer central. C'est qu'en effet, les lits ne font qu'un avec le sol, composés come ils sont de peaux de rennes ou atres fourrures étalées sur un matelas de brindilles de bouleau sans toile. Ces branchages couvrent ordinairement toute la partie du sol que l'âtre central laisse libre ; là, on s'allonge au hasard, dans la fumée et au milieu des chiens à fin museau de loup, d'ours ou de renard.</p>
-<p xml:id="para_9__4">Hors de la hutte, d'autres traits imprévus viennent s'ajouter à ce tableau de la vie de notre famille laponne. Ici, sur un tertre, la vieille mère étire entre ses dents des tendons de renne, qu'elle roule sur sa joue droite d'abord, puis sur son épaule et sur son lanc, pour en faire du fil; — sa fille, là-bas, attache sur le gros drap feutré qui doit lui fournir en même temps sa jupe, sa robe et son manteau, ces rubans de laine jaune, ou rouge, ou verte, dont elle alterne les direetions et les enjambements en vives bordures ; — l'ainé des garçons s'essaye plus loin à lancer de la main gauche le long lasso des nomades et s'amuse à le serrer autour de la tête de l'un des chiens, ou de la taille de sa sœur, blondine plus âgée que lui, qui se sauve en riant.</p>
-</div>
-</div>
-<div n="003" type="sub_sub_section">
-<p xml:id="para_9__5">Recréations. — En dehors des repas, qui se prennent autour du foyer, une grande partie du temps se passe à fumer. Pour les pasteurs, en effet, les rennes travaillent à peu pres spontanément à faire leur lait, leur poil et leur chair : ils suffisent ainsi à faire vivre à peu près complètement leurs maîtres, qui se procurent farine, condiments. étoffes, en vendant les peaux et les bois qui ne leur sont pas d'une nécessité absolue. Les pêcheurs, il est vrai, ont plus à faire, même l'hiver, car à défaut des rennes, ils vivent de poisson et par le poisson, ce qui entraîne pour eu les travaux variés que nous avons déerits.</p>
-<p xml:id="para_9__6">La ferveur de ces populations permet aussi de mentionner à cette place l'assistance aux offices et les fêtes religieuses.</p>
-</div>
-</div>
-<div n="004" type="sub_section">
-<head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
-<div n="001" type="sub_sub_section">
-<p xml:id="para_9_134_9"><pb facs="#facs_159" n="134" source="s2lesouvriersdes03sociuoft_0178.xml"/> L'hiver dans l'obscurité de six mois, l'été dans la lumière polaire, pour tous mêmes occupations, et la vie marche sans qu'on se soucie à peine de savoir depuis combien d'années on est né ; aussi la plupnrt des Lapons ignorent-ils leur aige. — n chapitre de notre cadre mo¬nographique s'intitule : « Histoire de la famille » : on pressent déjà que cette histoire ne sera pas longue pour le foyer d'Andersen. — Il a sept ans, il épousait une Finnoise, née à Jacobsen . dans le Sud-Va¬ranger, sur la frontière russe. I avait vécu jusque-là avec son père et sa mère dans les eonditions dont nous venons de retracer ici les principaux traits. Sa mère, devenue veuve il y a dix ans, n'en était pas moins restée la maîtresse de la maisonnée; elle l'st encore malgré l'adjonction d'une belle-fille. — De deux en deux ans, quatre enfants sont nés dans ce foyer paisible : la grand'mère et la mère, avec la sœur du père de famille, s'occupent sans efforts à les élever ; leurs jeux les égayent et leur sont une récréation permanente. De temps en temps, elles les portent avec elles à l'église de Neseby, et quelquefois, dans l'une des barques, au marché de 'ads0. — Les garçons seront probablement pêcheurs comme leurs anciens, et se ma¬rieront vraisemblablement dans quelqu'une des familles finnoises ou déjà métissées de Mortensnœs ou des environs. ans changer de vie. ils augmenteront par là leur fortune de quelque terre cultivée. et les filles auront un sort aussi sur.</p>
-<p xml:id="para_9_134_10">Ne nous apitoyons donc pas rop sur la misère présente, plus ap¬parente d'ailleurs que réelle, de nos Lapons. ous devrions plutoùt les envier peut-être. De la vie simple, de l'existence primitive des homnes, ils ont tous les avantages : les productions du sol et des eaux à leur portée, des cueillettes faciles et abondantes, la santé et l'intelligence: — de la civilisation, ils recoivent les bienfaits de l'ins¬truction et la sécurité. V'oudriez-vous les voir mieux vètus, plus déli¬catement nourris, logés avec plus d'aisance, ils vous répondront que leur longévité, la rareté des maladies parmi eux prouvent que leur alimentation et leur habillement sont parfaitement appropriés aux besoins de leur climat. Leur maison n'est pas aussi élégante que les hahitations en bois des Norvégiens et des Finnois, mais elle ne risque rien de l'incendie. elle est plus chaude l'hiver et plus fraiche l'été. <pb facs="#facs_160" n="135" source="s2lesouvriersdes03sociuoft_0179.xml"/> Un gouvernement peu exigeant les protège contre les autres et contre eux-mêmes, et il les secourt dans les cas exceptionnellement graves de malechance ou de pauvreté ; enfin, la présence du paron-mar¬chand leur assure, quoi qu'il arrive, le pain quotidien. Pour changer de milieu, n'arriver d'ailleurs qu'à la vie plus précaire d'un ouvrier d'atelier urbain, il leur faudrait aller vers le sud, au moins jusqu'à 'rondjhem. Je suis bien convaincu que, pour quelques plaisirs de plus qu'ils pourraient goûter dans les villes, ils y perdraient la meilleure part d'eux-mêmes et le paisible bonheur dont ils savent sagement se contenter ̀ Mortensnœs.</p>
-</div>
-</div>
-<div n="005" type="sub_section">
-<head type="sub_section" xml:id="part_02_05">BUDGET DOMESTIQUE ANNUEL.</head>
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_14">RECETTES DE LA FAMILLE.</head>
-<figure rend="portrait" type="cptes_recettes">
-<graphic facs="#facs_160" url="#"/>
-</figure>
-<!--<p xml:id="para_10__5">Revenus des propriétés (12ʳ50) . ...................... .............. 17ᶠ 40</p>
+      <graphic facs="#facs_149" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24166/143,327,1831,2782/full/270/default.jpg" xml:id="illu_6_126_11"/>
+     </figure>
+     <!-- Pas de titre "Observations préliminaires..." dans cette monographie -->
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <p xml:id="para_7_125_11">
+        <pb facs="#facs_150" n="125" source="s2lesouvriersdes03sociuoft_0169.xml"/>
+        Le milieu où vit la famille. — Le golfe de Varanger, ou Varanger-Fjord, est le seul des gollfes norvégiens qui entre dans les terres dns la direction de l'est à l'ouest ; il a depuis Vadsö une prolondeur d'une cinquantaine de kilomètres. Tout au fond, il se partage en deux bran¬ches dans les sinuosités desquelles s'abritent de nombreuses popula¬tions de pêcheurs ; c'est sur la rive gauche du golfe qui regarde au Sud, que se trouve la commune de Nœseby, dont l'écart de Mortensnœs fait paurtie (26° 43' long. E. ; 70° 7' lat. N.).
+       </p>
+       <p xml:id="para_7_125_12">
+        Mortensnœs, ou cap de Martin, est, en effet, un petit promontoire autour duquel sont éparses une douzaine d'habitaions avec cinquante et un habitants ; d'abord, près du rivage, la saison en bois du mar¬chand, ses magasins et sa boutique, et le wharf sur pilotis pour y ac¬céder. Au delà de quelques rochers qui viennent mourir au hord des
+        <pb facs="#facs_151" n="126" source="s2lesouvriersdes03sociuoft_0170.xml"/>
+        eaux du golfe, des familles finnoises ont dressé, il y a peu d'années, leurs maisonnettes et leurs étables ; plus haut, au pied de la monta¬gne, sont les gammer, ou huttes de deux familles de Lapons.
+       </p>
+       <p xml:id="para_7_126_14">
+        Le Stor-Fjeld, ou grand plateau qui domine au nord ces groupes d'habitations, est un paturage d'été, entrecoupé de deux lacs qui s'é¬coulent furtivement à travers la masse schisteuse jusqu'à la mer. Au plus lointain horizon que l'on distingue sur cette hauteur vers le nord, on aperçoit une ligne circulaire de bois et de forêts. Les eaux qui s'é¬coulent du plateau se transforment, autour des maisons des Finnois, en un petit ruisseau que ceux-ci utilisent pour leurs besoins domes¬tiques au-dessus. les Lapons en ont déjà arrèté au passage une in¬1iltration pour s'en faire une citerne.
+       </p>
+       <p xml:id="para_7_126_15">
+        Une route neuve, construite en 1869, et destinée à relier depuis Vadso tous les villages épars sur la côte du golfe, sépare les Finnois des Lapons : enfin, une ligne télégraphique passe au bas de cette route. Les Finnois établis à Mortensns sont agriculteurs, c'est-à-dire qu'ils élèvent un peu de bétail et transforment quelques parcelles de la prairie qui les entoure en petites cultures potagères. Les Lapons sont exclusivement pêcheurs.
+       </p>
+       <p xml:id="para_7_126_16">
+        Le marchand établi dans ces sites reculés (landandler) est une ins titution particulière. Etabli par autorisation spéciale du gouvernement et comme par privilège, moyennant le versement préalable d'un petit nombre de ronors
+        <note type="bp">
+         <p>
+          La couronne (kronor) vaut 1 fr. 39.
+         </p>
+        </note>
+        , c'est lui qui centralise tous les produits de sa région : les Lapons nomades des plateaux environnants lui appor¬tent les pcaux, les bois etmême la chair de leurs rennes ; les pêcheurs lui remettent la plus grande partie du produit de leur pêche ; les agri¬culteurs, la portion de leur récolte qu'ils n'emploient pas directe¬ment ln échange, et par une sorte de troc, le marchand fournit aux uns et aux autres les farines russes ou suédoises, le riz, le café, les étoles et les parties de vêtements qu'ils ne fabriquent pas eux-mêmes, quelques ustensiles, ete. Il a près de sa demeure le puits couvert qui ne gèle pas. Ce n'est qu'exceptionnellement que le marchand donne monnaie, cn vue du payement dcs impôts. par excmple, ou autres rais d'une nature analogue. Quelques-uns de ces marchands font rapidement fortune, dit-on. Mais cette institution doit nous intéresser surtout ici en ce qu'elle constitue un mode de paronage qui a rendu les plus grands services à ces populations clairsemées et dépourvues
+        <pb facs="#facs_152" n="127" source="s2lesouvriersdes03sociuoft_0171.xml"/>
+        d'initiative. Le marchand de Mortensnœs n'y est établi que depuis six années ; il y avait trouvé installées nos deux familles laponnes : les Finnois, au contraire, n'y sont venus qu'après lui et encouragés par Sa présence.
+       </p>
+       <p xml:id="para_7_127_20">
+        Les Lapons de la Suède, de la Norvège et de la lussie sont régis selon les lois de celui de ces ltats qu'ils habitent, et ceux du Finmar, en particulier sont, comme tous les habitants de cette province, dis¬pensés du service militaire, astreints à l'instruction et assujettis à un impôt, dont le mode de répartition mérite d'être signalé. Divisés, en eflfet, en quatre catéggories, les contribuables voient diminuer la qao tité de leur contribution en proportion de leurs charges de famille et du nombre de leurs enfants, mesure assurément féconde à tous égards. ''out .apon qui paye impôt depuis cinq années est électeur ; tout électeur, auu contraire, qui a besoin des secours de l'Assistance publique est déchu de ses droits civiques. Toutefois, répandus sur un vaste espace, les Lapons de Norvège, même en unissant outes leurs Voix sur le nom d'un seul d'entre eux, ne pourraient arriver à une majorité sufisante pour avoir un représentant de leur race au l'arle¬
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Jol Andersen (n°066bE1) - Ellen Berrit Gretesdatter (n°066bE2) - Berrit Gretesdatter (n°066bE3) - Ellen Berritsdatter (n°066bE4) -   (n°066bE5) -   (n°066bE6) -   (n°066bE7) -   (n°066bE8)-->
+       <p xml:id="para_7_127_21">
+        Les membres de la famille. — La famille étudiée comprend huit per¬sonnes
+        <persName xml:id="ID-066bE1">
+         Jol Andersen
+        </persName>
+        , trente-deux ans, chef de la famille ;
+        <persName xml:id="ID-066bE2">
+         Ellen Berrit Gretesdatter
+        </persName>
+        , sa femme, trente ans;
+        <persName xml:id="ID-066bE3">
+         Berrit Jolsdatter
+        </persName>
+        , soixante ans, mère du chef de la famille ;
+        <persName xml:id="ID-066bE4">
+         Ellen Berritsdatter
+        </persName>
+        , sœur de celui-ci, vingt-six ans.
+       </p>
+       <p xml:id="para_7_127_22">
+        Le ménage a quatre enfants : deux filles de six et quatre ans, deux garçons : l'un de deux ans, l'autre de deux mois.
+       </p>
+       <p xml:id="para_7_127_23">
+        Cette famille est en parenté avec celle qui habite la seconde cabane et qui comprend une femme veuve, une fille de vingt-deux ans et une fille plus jeune.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <p xml:id="para_7_127_24">
+        Religion et habitudes morales. — Les lapons sont luthériens ; ils fré¬quentent règulièrement le dimanche l'église de Neseby, ou sont faites les prédications en inlandais et en lapon ; leurs enfants ont été baptisés à cette église. Le zèle des Lapons est si vif, dit-on, que les mères. plutôt que de manquer le prône, apportent quelquefois avec elles leurs enfants dans leur berceau, quitte à les bercer pendant toute la durée du prêche.
+       </p>
+       <p xml:id="para_7_127_25">
+        bL'instruction étant obliggatoire dans tout le royaume, nos pêcheurs savent lire le lapon et le finlandais, mais ne savent pas écrire. Leurs enfants seront plus instruits ; des règlements récents les obligent à fré¬quenter l'école de huit à quiuze ans : les familles sédentaires doivent les
+        <pb facs="#facs_153" n="128" source="s2lesouvriersdes03sociuoft_0172.xml"/>
+        envoyer doue semaines pa a, oitié au printemps, oitié en u¬tomne : les nomades ne sont obligés qu'à neul'semaines de fréquentaion, n janvier, évrier et mars, ́poque où les hommes seuls suivent les rennes, que tous les membres de la famille accompagnent dams le reste de l'année. Les maîtres d'école ambulants du siècle passé ont disparu, comme les missionnaires nomades, avec l'installation d'écoles nom¬breuses et de paroisses plus rapprochées.
+       </p>
+       <p xml:id="para_7_128_28">
+        Sous cette double influence, les années qui précèdent les mariages sont innocentes, et quand l'âge de vingt-cinq ans est venu, si les jeunes gens, en se mariant, ne s'apportent pas de grandes richesses, ils se sont appréciés depuis longtemps dns une vie toute au grand jour. En signe de la demande en mariage, le jeune homme a envoyé un mouchoir brodé et quelque menue bijouterie de cuivre, d'étain ou tout au plus d'argent : la famille a reçu en même temps un don de spiritueux ou de viande; cela sufit pour que le consentement soit ac¬quis si mouchoir et victuailles ne sont pas renvoyés. Au reste, les nais¬sances illégitimes sont-elles une exception des plus rares, et l'infanti¬cide est-il sans exemple parmi les Lapons. l'eut-être n'en fut-il pas ainsi avant l'introduction du christianisme ; en effet, une légende sub¬siste encore parmi eux qui raconte que lorsqu'un enfant est mort des mains de sa mère, l'âme de la petite créature erre à travers le fjeld jusqu'à ce qu'elle ait retrouvé celle qui lui avait donné et repris la vie, et quand elle l'a retrouvée. s'attachant à elle pendant son somr meil, elle boit tout le lait de son sein jusqu'à ce qu'elle l'ait épuisé.
+       </p>
+       <p xml:id="para_7_128_29">
+        Les nouveau-nés doivent être baptisés, quelle que soit la distance de la station, dans les deux années qui suivent la naissance. bLe jour du baptème, un cadeau est fait par les parents au pasteur, une bourse cn pcau de renne. par excmple, ou une pochette à tabac. De son côté, le parrain constitue à son filleul un commencement de dot par l'ap¬port d'une renne pleine, dont le produit et le croît s'augmentent à son bénéfice jusqu'à sa majorité. C'est d'ailleurs tout ce que, garçon ou fille, il aura en propre, l'héritage paternel quoique régi par la loi norvégienne, demeurant en communauté permanente entre les en¬fants. Quand le parrain n'est pas en possession de rennes, son ca-¬deau se compose de bétail d'une autre espèce : l'une des vaches qu possède la famille que nous étudions a été le cadeau fait au dernier né par son parrain.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <p xml:id="para_7_128_30">
+        Hygiene et service de santé. — L'hygiéne, à vrai dire, laisse beau¬coup à désirer. L'usage des bains est inconnu, les soins de propreté
+        <pb facs="#facs_154" n="129" source="s2lesouvriersdes03sociuoft_0173.xml"/>
+        sont insuflisants ; l'iabitude de vivre presque pêle-mèle avec les ani¬maux, et surtout l'emploi nécessaire des fourrures, engendrent des parasites, à tel point abondants qu'un de nos compagnons de voyage. le Dʳ Ten-ate, a pu découvrir, dans une famille laponne de ''roms. deux espèces nouvelles de e pédiculés ».
+       </p>
+       <p xml:id="para_8__4">
+        Le service de santé est fait dans la paroisse par un médecin de Vads, à l'époque de ses tournées annuelles.
+       </p>
+       <p xml:id="para_8__5">
+        C'est l'une des femmes finnoises de Mortensnœs qui est autorisée à opérer les accouchements. Ne nous alarmons pas de cet état de choses qui semble insuffisant : les apons n'en vivent pas moins très vieux. si j'en crois les renseignements de la statistique.
+       </p>
+       <p xml:id="para_8__6">
+        La mortalité en Europe a été, de 1865 a 1876, par 1.000 habitants : de 31,6 pour l'Autriche ; 27, 4 pour l'Allemagne ; 24,3 pour la France; 22,2 pour l'Angleterre: 19.4 pour la Suéde, et 7.6 seulement pour la
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <div subtype="famille" type="proprietes">
+        <p xml:id="para_8__8">
+         Proprietés. — La famille Andersen est propriétaire de sa maison, de deux barques et de deux vaches. Elle n'a pas contracté d'engage¬ments pour son travail, soit avec le marchand, soit avecc les proprié¬taires finnois qui l'avoisinent. Elle peut être cependant considérée come liée avec le marchand, par une dette d'à peu près 100 kronors de marchandises fournies l'année dernière à crédit, la saison de pêche ayant été exceptionnellement mauvaise ; c'est une dette un peu lourde, si nous en jugeons par la valeur des propriétés de la famille et de ses revenus ordinaires. L'habitation avec son contenu, les vêtements excepés, peut être évaluée de 40 à 50 kronors ; les flets et les barques valent de 1.50 à 200 kronors ; les deux vaches : l'une 80 kronors, l'autre 100 kronors, parce qu'elle se trouve à la saison de la parturi¬tion. Les vaches produisent trois litres de lait par jour.
+        </p>
+       </div>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <p xml:id="para_8__9">
+        Subventions. — Il est vrai que d'assez importantes subventions vien¬nent s'ajouter à ces recettes. La tourbe est en abondance autour des laes du tor-Fjeld et sulirait presque au chauflage de l'habitation pour l'année entière. Le bois à prendre dans des conditions prévues n'est qu'à une heure de distance sur cette montgne. pendant la belle Saison, les vaches y sont eunées paitre. et l'herbe qui croi plus pres
+        <pb facs="#facs_155" n="130" source="s2lesouvriersdes03sociuoft_0174.xml"/>
+        de la maison peut être amassée et conservée pour l'hiver ; en outre, la chasse fournit en oiseaux de marais et de forêts une importante aug¬mentaion d'liments. La prise de quelques animaux à fourrures vient aussi ajouter parfois une autre reeette à ce petit budget.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <div subtype="famille" type="travaux">
+        <p xml:id="para_8__12">
+         Travaux. — L'ouvrier travaille pendant une moyenne de 300 jours : l'été, surtout à la pêche et un peu chez le marchand, soit pour le ma¬gasin à guano soit pour la préparation de l'huile de foie de morue l'hiver, principalement au contraire à ces dernières occupalions. Sa femme et sa sœur participent presque journellement à la pêche pen dant la belle saison, tandis que pendant l'hiver elles s'occupent unique¬ment avec la vieille mère des travaux du ménage.
+        </p>
+        <p xml:id="para_8__13">
+         La pêche se fait à peu près exclusivement dans le golfe de Varanger. Rarement les barques de Mortensnœs vont jusqu'à Vadsö où elles ont pu cependant recueillir parfois de la libéralité des pêcheurs de baleine quelques quartiers de viande de cétacé pour améliorer leur alimentation. La saison de pêche qui s'étend d'avril à septembre dans tout le golfe de Varanger, produit ordinairement une valeur de 300 kronors : il en est consommé dans la famille ou échangé avec des navires de passage environ pour 50 kronors. Le reste est vendu auu marchand. Les morues séehées (cabillauds) sont envoyées comme denrées marchandes par paquets de douze douaines : chaque paquet vaut environ 40 kronors et pèse 100 lilog., ce qui correspond à peu près à 50 centimes le kilog. Hammerfest, Tromsö, Trondjem, Bergen, Hambourg, sont les escales principales de cette denrée, qui se vend au détail jusqu'en Es¬pagne et dans la Méditerranée.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <p xml:id="para_8__15">
+        Aliments et repas. — Hommes et femmes vivent complétement en¬semble et n'ont qu'une pièce pour travailler, se reposer et prendre leurs repas. Ceux-ci sont composés d'ordinaire de poissons, de riz ou de pain fait au foyer de la famille, auxquels on n'ajoute que très rare¬ment soit de la viande de baleine reçue en passant devant Vadsö, soit un quartier de renne acheté par occasion aux bergers des plateaux voisins ; dans cette dernière circonstance, les deux amilles laponnes de Mrtensnœs se réunissent et établissent leurs dépenses réciproques en proportion de leur consommation. Chaque année, une des deux vaches
+        <pb facs="#facs_156" n="131" source="s2lesouvriersdes03sociuoft_0175.xml"/>
+        doit produire un veau, qui sera mangé solennellement au temps des fêtes de Noël. Pendant tout l'hiver le poisson est mangé sec : quand la mer « est découverte » pendant la saison rigoureuse, ils peuvent quelquefois cependant manger un peu de poisson frais.
+       </p>
+       <p xml:id="para_8__18">
+        Le pain est préparé par la mère du chef de famille. Cette femme, accroupie non loin du foyer, mêle d'abord dans un vase en bois sa farine d'avoine avec de l'eau tiède : elle en a bientt fait une boule qu'elle serre et pétrit dans ses mains, puis elle la replace au fond du vase, et là, d'un coup de poing, l'écrase en forme d'écuelle ; sous sa main, comme l'argile entre les doigts du potier, elle s'allonge et s'amincit selon la capacité du vase au fond duquel elle est pressée en tournant: puis elle est dressée dans cet état, à peu pres debout, près des cendres du foyer, ou elle est séchée d'abord, puis tournée, retournée et enfin roussie, plutôi que cuite à point. Nous avons mangé de cette galette : avec du lait de renne et en petite quantité, elle n'a pas trop pesé à nos estomacs. Quant au lait lui-même, il m'a paru trop sucré et trop onctueux, trop gras, avec le goût du lichen qu'on donne en tisane au enfants enrhumés : bien propre pour les pays froids, par conséquent, et, comme l'huile de foie de morue, pouvant offrir un ex emple de plus de l'harmonie qui existe entre les milieux et les besoins.
+       </p>
+       <p xml:id="para_8__19">
+        C'est autour du foyer qu'est le plus souvent dressé le couvert ; la galette sert d'assiette, portée sur les genoux ; le poisson, ou la chair. cuits sur la braise, forment le plat essentiel, et chacun en prend sa part en bloc, ou bouchée par bouchée, à l'aide d'un morceau de bois affilé qui sert de fourchette individuelle: on mange ainsi à peu près toute la journée, avec accompagnement de café édulcoré de beurre, de fromage ou de lait de renne.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <div subtype="par_10_texte_1" type="par_10">
+        <p xml:id="para_8__20">
+         Habitation, mobilier et vêtements. — La maison est faite de plaques de gazon, posé les racines en dehors, et qui reverdit ensuite. A la distance de quelques pas à peine, on dirait ane de ces cahutes aban¬données par les cantonniers, qui une portion de route terminée, sont allés plus loin porter leurs outils.
+        </p>
+        <p xml:id="para_8__21">
+         Elle comprend trois corps de construction d'une hauteur de deuN mètres, sur huit de largeur : le logis principal, avec le foyer central ; l'étable, formant l'aile opposée de la demeure ; entre les deux, les reliant, l'entrée, dont le fond sert de dépôt pour plusieurs sortes de denrées. En dehors de ces trois corps, la maison comprend aussi un séehoir en arrière et deux magasins en contre- bas de la route de Neseby qui passe devant la porte du gamme : celle-ci est ouverte au
+         <pb facs="#facs_157" n="132" source="s2lesouvriersdes03sociuoft_0176.xml"/>
+         sud-est. Entre la maison et le séchoir est la petite citerne, ou puits à 1leur de terre, sous un rocher de quelques centimètres de haut.
+        </p>
+        <p xml:id="para_8_132_23">
+         Dans l'étale est un réduit pour les vaches : cette pièce est d'ailleurs débarrassée de tous ustensiles ménagers, ceux-ci sont relégués dans le couloir.
+        </p>
+       </div>
+       <div subtype="meubles" type="par_10">
+        <p xml:id="para_8_132_24">
+         Dans la chambre habitée, deux lits sont placés chacun dans un angle, séparés par le foyer ; l'un des lits est fait de brindilles de bouleau et de peaux de renne, l'autre lit est sur pieds, très bas. Quel¬ques outils d'usage fréquent sont seuls accrochés dans cette pièce, qui est privée de toute sorte de sièges. Cn coffre en tient lieu : on y serre les vêtements. n semis de feuilles déchirées de bouleau ou de sapin est répandu ordinairement dans l'entrée et autour du foyer ou se tient la famille.
+        </p>
+       </div>
+       <div subtype="ustensiles" type="par_10">
+        <p xml:id="para_8_132_25">
+         Voici, en outre, l'énumération des ustensiles et des vêtements de la famille :
+        </p>
+        <p xml:id="para_8_132_26">
+         Ustensiles : 6 cuillers en laiton, un seau en zine, 4 seilles en bois, deux barils, un grand chaudron en fonte, un plus petit, deux boîtes à lait en bois, un pilon à poisson, une baratte, un eoffre, une natte, un berceau, un rouet, une salière, une petite quantité de poterie vernissée, 10 couteaux, 24 vases à lait en bois cerclé, identiques, d'une hauteur de 7 centimètres et de 4 de diamètre, un moulinà café, un croc pour la cuisson des aliments, cinq cuillers en bois ; une lampe à essence avec sa suspension, évaluée l kronor 1/2 (2ᶠ10) ; une pssoire en zinc ; quelques vases en terre de pipe et en fer battu; pots à tabac et à café ; pipes, bâtons ouvrés, cuillers en bois de renne ; auge pour l'étable ; fourches deux traîneaux pour transport de denrées ou déplacements personnels.
+        </p>
+       </div>
+       <div subtype="vetements" type="par_10">
+        <p xml:id="para_8_132_27">
+         Vêtements : 3 robes de femmes, confectionnées par la famille, et faites chacune de 4 mètres de drap provenant de la fabrique d'effets militaires de Copenhague, à 9 kronors le mètre ; 2 robes en peau de renne ; 2 robes d'homme ; une pelisse en peau de mouton ; 8 braies en drap à raison de 150 pour chacune ;  petits fichus de laine ; I bon. nets, dont 2 pour homme, à l kronor l'un ;  paires de chaussures, la paire à 12 kronor ; 3 paires de demi-bottes à 2 kr. 50; 9 dessous (che¬mises2) de laine, à 1 kronor 50 ; 4 peaux de renne pour la literie, et 2 peaux de mouton ; 4 ceintures en laine ; 2 ceintures en cuir ; 30 mè¬tres de ruban de laine pour serrer les chevilles et les poignets, à 1 kronor 60 les 2 métres (suffit pour les deux jambes) : 4paires de gants de laine, à 1 2 kronor ; 2 paires gants de peau à 1 kronor ; 2 colliers
+         <pb facs="#facs_158" n="133" source="s2lesouvriersdes03sociuoft_0177.xml"/>
+         de perles en verre de couleur ; agrafes en étain ; une baggue en argent. 3 bagues en étain ; cravates et mouchoirs en minime quantité: bourses, bagues à tabac.
+        </p>
+       </div>
+       <div subtype="par_10_texte_2" type="par_10">
+        <p xml:id="para_9__3">
+         Quand on entre par la porte étroite et basse dans cet intérieur peu fortuné, on traverse d'abord le couloir sombre où nous distinguons cependant un petit berceau suspendu et contenant un enfant de deux ou trois mois. Dans la chambre, la lumière indécise qui pénêtre par l'unique petite fenêtre laisse à peine reconnaitre un pele-mêle de gens et de chiens allongés autour des grosses pierres qui forment le oyer central. C'est qu'en effet, les lits ne font qu'un avec le sol, composés come ils sont de peaux de rennes ou atres fourrures étalées sur un matelas de brindilles de bouleau sans toile. Ces branchages couvrent ordinairement toute la partie du sol que l'âtre central laisse libre ; là, on s'allonge au hasard, dans la fumée et au milieu des chiens à fin museau de loup, d'ours ou de renard.
+        </p>
+        <p xml:id="para_9__4">
+         Hors de la hutte, d'autres traits imprévus viennent s'ajouter à ce tableau de la vie de notre famille laponne. Ici, sur un tertre, la vieille mère étire entre ses dents des tendons de renne, qu'elle roule sur sa joue droite d'abord, puis sur son épaule et sur son lanc, pour en faire du fil; — sa fille, là-bas, attache sur le gros drap feutré qui doit lui fournir en même temps sa jupe, sa robe et son manteau, ces rubans de laine jaune, ou rouge, ou verte, dont elle alterne les direetions et les enjambements en vives bordures ; — l'ainé des garçons s'essaye plus loin à lancer de la main gauche le long lasso des nomades et s'amuse à le serrer autour de la tête de l'un des chiens, ou de la taille de sa sœur, blondine plus âgée que lui, qui se sauve en riant.
+        </p>
+       </div>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <p xml:id="para_9__5">
+        Recréations. — En dehors des repas, qui se prennent autour du foyer, une grande partie du temps se passe à fumer. Pour les pasteurs, en effet, les rennes travaillent à peu pres spontanément à faire leur lait, leur poil et leur chair : ils suffisent ainsi à faire vivre à peu près complètement leurs maîtres, qui se procurent farine, condiments. étoffes, en vendant les peaux et les bois qui ne leur sont pas d'une nécessité absolue. Les pêcheurs, il est vrai, ont plus à faire, même l'hiver, car à défaut des rennes, ils vivent de poisson et par le poisson, ce qui entraîne pour eu les travaux variés que nous avons déerits.
+       </p>
+       <p xml:id="para_9__6">
+        La ferveur de ces populations permet aussi de mentionner à cette place l'assistance aux offices et les fêtes religieuses.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <p xml:id="para_9_134_9">
+        <pb facs="#facs_159" n="134" source="s2lesouvriersdes03sociuoft_0178.xml"/>
+        L'hiver dans l'obscurité de six mois, l'été dans la lumière polaire, pour tous mêmes occupations, et la vie marche sans qu'on se soucie à peine de savoir depuis combien d'années on est né ; aussi la plupnrt des Lapons ignorent-ils leur aige. — n chapitre de notre cadre mo¬nographique s'intitule : « Histoire de la famille » : on pressent déjà que cette histoire ne sera pas longue pour le foyer d'Andersen. — Il a sept ans, il épousait une Finnoise, née à Jacobsen . dans le Sud-Va¬ranger, sur la frontière russe. I avait vécu jusque-là avec son père et sa mère dans les eonditions dont nous venons de retracer ici les principaux traits. Sa mère, devenue veuve il y a dix ans, n'en était pas moins restée la maîtresse de la maisonnée; elle l'st encore malgré l'adjonction d'une belle-fille. — De deux en deux ans, quatre enfants sont nés dans ce foyer paisible : la grand'mère et la mère, avec la sœur du père de famille, s'occupent sans efforts à les élever ; leurs jeux les égayent et leur sont une récréation permanente. De temps en temps, elles les portent avec elles à l'église de Neseby, et quelquefois, dans l'une des barques, au marché de 'ads0. — Les garçons seront probablement pêcheurs comme leurs anciens, et se ma¬rieront vraisemblablement dans quelqu'une des familles finnoises ou déjà métissées de Mortensnœs ou des environs. ans changer de vie. ils augmenteront par là leur fortune de quelque terre cultivée. et les filles auront un sort aussi sur.
+       </p>
+       <p xml:id="para_9_134_10">
+        Ne nous apitoyons donc pas rop sur la misère présente, plus ap¬parente d'ailleurs que réelle, de nos Lapons. ous devrions plutoùt les envier peut-être. De la vie simple, de l'existence primitive des homnes, ils ont tous les avantages : les productions du sol et des eaux à leur portée, des cueillettes faciles et abondantes, la santé et l'intelligence: — de la civilisation, ils recoivent les bienfaits de l'ins¬truction et la sécurité. V'oudriez-vous les voir mieux vètus, plus déli¬catement nourris, logés avec plus d'aisance, ils vous répondront que leur longévité, la rareté des maladies parmi eux prouvent que leur alimentation et leur habillement sont parfaitement appropriés aux besoins de leur climat. Leur maison n'est pas aussi élégante que les hahitations en bois des Norvégiens et des Finnois, mais elle ne risque rien de l'incendie. elle est plus chaude l'hiver et plus fraiche l'été.
+        <pb facs="#facs_160" n="135" source="s2lesouvriersdes03sociuoft_0179.xml"/>
+        Un gouvernement peu exigeant les protège contre les autres et contre eux-mêmes, et il les secourt dans les cas exceptionnellement graves de malechance ou de pauvreté ; enfin, la présence du paron-mar¬chand leur assure, quoi qu'il arrive, le pain quotidien. Pour changer de milieu, n'arriver d'ailleurs qu'à la vie plus précaire d'un ouvrier d'atelier urbain, il leur faudrait aller vers le sud, au moins jusqu'à 'rondjhem. Je suis bien convaincu que, pour quelques plaisirs de plus qu'ils pourraient goûter dans les villes, ils y perdraient la meilleure part d'eux-mêmes et le paisible bonheur dont ils savent sagement se contenter ̀ Mortensnœs.
+       </p>
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <head type="sub_section" xml:id="part_02_05">
+       BUDGET DOMESTIQUE ANNUEL.
+      </head>
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        RECETTES DE LA FAMILLE.
+       </head>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_160" url="#"/>
+       </figure>
+       <!--<p xml:id="para_10__5">Revenus des propriétés (12ʳ50) . ...................... .............. 17ᶠ 40</p>
         <p xml:id="para_10__6">Produit des subventions (25 kr.)...... ...................... ........ 34 75</p>
         <p xml:id="para_10__7">Salaires de la famille (165 kr.)......... .............................. 229 35</p>
         <p xml:id="para_10__8">Bénéfiees des industries entreprises par la famille à son propre nple 1460 r.) . . ........ .... .:. ....... .:..: ..:.. .............. . 39) 40</p>
         <p xml:id="para_10__9">Total des recettes (662ᵏʳ 50)...... 20 90</p>-->
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_01">DÉPENSES DE LA FAMILLE.</head>
-<figure rend="portrait" type="cptes_depenses">
-<graphic facs="#facs_160" url="#"/>
-</figure>
-<!--<p xml:id="para_10__11">Nourriture (695 kr.)......... ... ... ...... ... .. ...... .:... . ....:...... 97ᶠ)2</p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_01">
+        DÉPENSES DE LA FAMILLE.
+       </head>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_160" url="#"/>
+       </figure>
+       <!--<p xml:id="para_10__11">Nourriture (695 kr.)......... ... ... ...... ... .. ...... .:... . ....:...... 97ᶠ)2</p>
         <p xml:id="para_10__12">Habilation (2ᵏᶠ 45)...... . ........ ..........::. ...................... 3 45</p>
         <p xml:id="para_10__13">Vètepmenls (20kr.)... .... ....... ....:. .. ...... ........ . ...... ... .... 27 80</p>
         <p xml:id="para_10__14">Besoins moraux. récréations et service de santé (22 kr.)........... 30 8</p>
         <p xml:id="para_10__15">De(tes. impôts, assurances (15 k1r.)................. .. .............. 20 85</p>
         <p xml:id="para_10__16">Total des dépenses (754ᵏ 45)....... 1048 70</p>-->
-<p xml:id="para_10__17">Les dépenses, on le voit, ont excédé les recettes de 91 lr. 9, soit 127ᶠ80, en raison d'une campagne de pêche exceptionnellement mauvaise. La dette ainsi contractée envers le marchand devra être payée peu à peu avec les produits d'années meilleures.</p>
-</div>
-</div>
-</div>
-<div n="003" type="section">
-<head type="section" xml:id="part_02_05_02">FAITS SOCIAUX REMARQUABLES.</head>
-<div n="001" type="sub_section">
-<div n="001" type="sub_sub_section">
-<p xml:id="para_10_136_19"><pb facs="#facs_161" n="136" source="s2lesouvriersdes03sociuoft_0180.xml"/> La Laponie et ses habiants<note type="bp">
-<p>Le prince Roland Bonaparte a bien voulu nous permettre de détacher cette note d'un inportant ouvrage sur Les Lapons dont il prépare la publication.</p>
-</note>. — Le nord de la Scandinavie est abité par une race d'hommes qui diffèrent considérablement de leurs voisins scandinaves : ce sont les Lapons. Ceux-ci ne connaissent pas ce nom ; ils s'appellent Sabe ou Same, au pluriel Saeh ou Samelats. ll nomment leur pas ame dna. L'origine du mot « lapon » et son étymologie sonl assez conuses : il n'est cité dans aucun docu¬ment antérieur au douzième siècle. es Norvégiens appellent les La¬pons inner, Finnois, ainsi qu'ils sont désignés dans les plus anciens documents scandinaves ; de là le nom de la province la plus septen¬trionale de la Norvège : Finmarl. pays des Finner.</p>
-<p xml:id="para_10_136_20">Le territoire occupé par les Lapons, ou Laponie, se divise entre quatre Etats : la Norvège, la Suède, la Finlande et la Russie. La su¬perficie des territoires lapons et leur population sont données par le ableau suivant :</p>
-<figure rend="portrait" type="table">
-<head resp="added" type="table" xml:id="figure_2">Superficie de la Laponie en Norvège, Suède, Finlande et Russie (notes annexes)</head>
-<graphic facs="#facs_161" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24180/263,1762,1673,628/full/0/default.jpg" xml:id="illu_10_136_1"/>
-</figure>
-<p xml:id="para_10_136_21">Les documents que nous possédons ne nous permetten pas de dire si les Lapons diminuent ou augmentent. mais il est un fait cer¬tain, c'est que le nombre des Lapons purs diminue considérablement. Les mariages entre Lapons et Finnois sont très nombreux dans le nord de la Scandinavie, les Finnois envahissant lentement les terri¬toires lapons de la Suède et de la Norvège. Les Lapons qui, avant l'invention des bateaux à vapeur vivaient presque en dehors de la ci¬vilisation européenne, sont peu à peu refoulés vers le nord par les <pb facs="#facs_162" n="137" source="s2lesouvriersdes03sociuoft_0181.xml"/> colons scandinaves qui viennent s'établir sur des territoires dont ils étaient autrefois les seuls maîtres.</p>
-<p xml:id="para_11__4">Le Lapon est petit ; la moyenne de la taille de 200 individus est de 1°,53 pour les hommes, et de 1ᵐ,47 pour les femmes. Les Lapons ont le visage rond : les pommettes sont fortement saillantes, les yeux sont petits et enfoncés. Ils ont peu de cils : ceux-ci manquent sou¬vent, enlevés qu'ils sont par les aflections des yeux auxquels sont fré¬quemment sujets les Lapons, qui, comme on le sait, vivent dans une atmosphère enfumée.</p>
-<p xml:id="para_11__5">La vue est très bonne. Le ne est asse petit et affeete une forme très inclinée en avant. C'est du moins le type que nous avons vu le plus souvent ; la bouche est grande, les dents sont souvent usées. Le menton est pointu ; les cheveux sont longs, ondés, noirs et luisants : beaucoup de Lapons sont chauves de bonne heure ; ils ont peu de barbe et, quand ils en ont, elle est très clairsemée ; la couleur de leur peau est souvent foncée par la fumée au milieu de laquelle vit le Lapon dans sa demeure, et par la saleté dont il est généralement cou¬vert ; même les jeunes gens ont de nombreuses rides qui, s'ajoutant aux caractères déjà signalés. les font paraître vieux avant l'âge. La voix est peu forte et criarde. Les jambes des Lapons sont générale¬ment petites. le rapport de la taille assise à la taille debout étant pour 112 sujets de 52,90 pour les hommes et de 52,98 pour les femmes ; mais il faut reconnaitre que l'apparence est souvent trom¬peuse, le Lapon marchant généralement voûté. A cause de sa nour¬riture défectueuse, le Lapon est généralement maigre, mais son sys¬tème musculaire est très développé: il est fort et agile, il est très grand marcheur ; en hiver, il franchit. en très peu de temps. à l'aide de ses patins, des distances énormes sur la glace. n 1884, cinq La¬pons ont franchi, en une seule traite, 227 kilometres avce uune vi¬tesse moyenne de 10kilomètres par heure.</p>
-<p xml:id="para_11__6">Ils ont bonne santé. mais ils perdent beaucoup d'enfants laute de soins. u moral, le Lapon est doux, peu violent, et cherche souvent à atteindre son but par la ruse. Quoique chaque individu porte conti¬nuellement sur lui un couteau, il y a rarement de ries sangglantes.</p>
-<p xml:id="para_11__7">AVutrefois, la très grande majorité des Lapons vivait à l'état pastoral et élevait d'immenses troupeaux de rennes qui. cn leur fournissant l nourriture (viande et lait), leur servaient de bêtes de somme ; avec une espèce particulière de chiens qui les aidaient à garder leurs troupeaux. c'étaient leurs seuls animaux domestiques. Mais actuellement, à cause <pb facs="#facs_163" n="138" source="s2lesouvriersdes03sociuoft_0182.xml"/> des diflicultés créées par les colons scandinaves a propos des rennes, beaucoup de Lapons ont dû abandonner leur vie errante et leurs trou¬peaux pour devenir sédentaires<note type="bp">
-<p>On trouve encore dans toute la Laponie 400. 000 rennes environ.</p>
-</note>. ll y a donc actuellement deux sortes de apons : 1° les bapons des montagnes, ˉ'ieldlapperne en nor¬végien et jialldapparne en suédois ; 2 les Lapons sédentaires.</p>
-<p xml:id="para_11__10">En hiver, lorsque le sol est couvert de neige, ces Lapons habitent les vallées, dans des tentes faites avec quelques perches recouvertes d'une étoffe de laine (oadmal) ; en été, on la remplace par de la toile ; au milieu de la tente, se trouve le foyer ; les chiens couchent pele-mêle avec toute la famille.</p>
-<p xml:id="para_11__11">Pour voyager dans cette saison, ils se servent de traineaux attelés de rennes ; c'est de cette manière qu'ils franchissent de très grandes distances en fort peu de tcmps. Lcur nourriture se compose de lai¬tage, de gibier et de café. Autrefois ils buvaient beaucoup d'eau-de¬vie, mais il est actuellement défendu de leur en vendre.</p>
-<p xml:id="para_11__12">Le costume des Lapons comprend en hiver : une espèce de grande blouse en fourrure serrée à la taille par une ceinture à laquelle pend un couteau dans son étui. La tète est couverte par un bonnet de cou¬leur voyante, soit carré. comme en Norvège, soit pointu, comme en Suède. La chaussure se compose d'une paire de souliers en cuir en¬tièrement cousu et imperméable, appelés omager à l'intérieur, pour caler le pied, on met une espèce d'herbe spéciale ; l'extrémité inférieure du pantalon est introduite dans la tige du soulier et serrée à l'aide d'un fort ruban. Cne paire de gants complète ce costume. L'habillement des femmes est à peu près le même. I'our marcher sur la neige, ils ont une paire de grands patins de 2 mètres de long, et pour s'aider ils tiennent alors à la main un grand bâton qui porte un reuflement à l'une de ses extrémités pour l'empêcher de s enfoncer dans la neige. L'été venu, quand les vallées sont changées en marécages, ou pullulent les moustiques insupportables aux rennes, le bLapon de montagne, qut ne peut plus se servir de son traîneau, charge sa tente et son mobilier sur le dos de ses rennes pour gagner les pàturages des hauts pla¬teauN. Les femmes portent les enfants sur leur dos dans des berceaux en bois. L'été est la mauvaise saison pour le Lapon de montagne.</p>
-<p xml:id="para_11__13">Quant aux Lapons sédentaires, Lapons pêcheurs, Lapons des bois. Lapons des rivières, etc., ils ont cn partie adopté la vie des paysans et des pêcheurs scandinaves. Ils se construisent soit des maisons en <pb facs="#facs_164" n="139" source="s2lesouvriersdes03sociuoft_0183.xml"/> bois où l'on voit quelquefois des fenètres ornées de carreaux, soit des gmmer. tCes dernières constructions sont de petites maisons basses, faites en bois et recouvertes de terre et de gaon, on y rencontre s ou vent des poêles. C'est à une famille de bLapon sédentaire qu'est con¬sacré le précis de monographie qui précède).</p>
-<p xml:id="para_12__4">A quelle époque les Lapons arrivèrent-ils en Laponie D'oùvinrent¬il2 Quelle est leur parenté avec les autres peuples analogues Ce sont des questions qu'il est impossible de résoudre actuellement. Un fait parait acquis, c'est que les Lapons viennent de l'Aie centrale, où ils auraient été en contact avec d'autres peuples qui ont encore des afi¬nités avec eux. Leurs migrations se seraient faites par le nord, car leur langue ne possède aucun mot propre à elle pour désigner les objets d'une nature plus clémente ; en revanche. ils ont une foule de noms pour désigner les différentes formes de montagnes et les différents états qu'affectent la neige et la glace. n autre fait, à peu près certain aussi, c'est que les Lapons entrérent en Scandinavie par le nord-est et non par le sud, comme quelques auteurs l'ont avancé.</p>
-<p xml:id="para_12__5">Il y a une centaine d'amées, les Lapons étaient encore palens ; ac¬tuellement, ils sont tous convertis, en apparence du moins, et ont presque oublié toutes leurs anciennes pratiques, qui, au moyen âge, les faisaient passer pour de grands sorciers qu'on venait de très loin consulter.</p>
-<p xml:id="para_12__6">Prince Roland BONAPARTE.</p>
-</div>
-<div n="002" type="sub_sub_section">
-<p xml:id="para_12__7">Les canpements lapons ; le commerce d'amerfest. — La vallée qui s'ouvre en face de Tromsô entre trois montagnes neigeuses, le 'rom¬sodal, est notre première étape. Là campent, une partie de l'année, deux groupes de familles laponnes, parties de arasuendo, en Suède, il y a deux mois, avec leurs rennes, et près d'y retourner, dans quel¬ques semaines, comme elles en sont venues, à petites journées. Fai¬sant paltre leurs rennes et pêchant dans les nombreux cours d'eau qui descendent des sommets environnants, elles s'abritent avec leurs ustensiles et leurs chiens dans des huttes baties qui appartiennent ux deux plus fortunés d'entre leurs membres.</p>
-<p xml:id="para_12__8">Lors de notre première visite. nous les rencontràmes à un pcu plus d'une demi-heure du rivage maritime, en amont : là est un de leurs campements, dans le petit pli que forment les basses monltagnes : on y arrive, en prenant le chemin qui passe. par une courte allée de bouleaux et de sorhiers, devant le cimetière verdoyant de l'romso, 0u <pb facs="#facs_165" n="140" source="s2lesouvriersdes03sociuoft_0184.xml"/> sont inhumés aussi bien les Lapons nomades que les citoens de la petite ville ; plus loin. une gracieuse prairie, arrondie par les eaux de la montagne tombant dans le ''romsosund, s'ouvre au pied de quel¬ques fabriques : entin, on cnjambe un pont sur un de ces torrents, on entre dans un sentier, on saute de pierre cn pierre deux ou trois au¬tres eaux courantes, ct, poussant un peu plus hau, on apercoit l'é¬troite esplanade caillouteuse, où vit en passant la petite tribu. A unec centaine de pas au delà de ces deux huttes, étaient parqués cinquante ou soixante rennes, ramenés le matin des plateaux supérieurs. Pré¬venus sans doute de notre projet de visite par ceux d'entre eux que nous avions pu voir de près la veille dans les rues de 'romso, où ils étaient venus pour faire des achats dans les boutiques ou pour vendre à quelques particuliers leurs peaux, bois et chair de rennes, les La¬pons s'étaient hàtés d'augmenter l'attrait du tableau par la présence de ces précieuses bêtes.</p>
-<p xml:id="para_12_140_11">Les huttes étaient formées d'un assemblage de perches et de plaques de terre gaonnée qui défie la description. Nous y pénétrons un à un, en deux séries d'invités, par une porte de 1 mètre à 1ᵐ,50 de haut, et tinissons par distinguer des jaumbes et des chiens allongés pele-mêle autour d'un foyer central, formé de quelques grosses pierres, et dont la fumée s'échappe diicilement par un trou supérieur. Quatre po¬teaux supportent le cadre de cette ouverture, au-dessous de laquelle reste suspendue à une poutrelle transversale la cafetière-chaudron ou la marmite de service pour le moment. A l'opposite des chiens et des pieds, les bustes des habitants s'appuient aux parois de la hutte parmi les cordages, les peaux et tout le matériel de la cuisine ou des indus¬tries domestiques.</p>
-<p xml:id="para_12_140_12">Si Hammerfest n'est pas la ville la plus septentrionale du monde, elle est dumoins la plus septentrionale de l'Europe. Le pays m'a ce¬pendant plus d'une ois rappelé, dans ses spces aritimes, tantôt notre grand étang de Berre, avec ses lointains lumineux de montagnes, et tantôt, quand la brume couvre les horizons éloignés, les belles eaux resserrées du lac des Quatre-Cantons.  l'out entière outillée pour le débarquement ou l'embarquement. on ne la voit elle-même ormée que de vharfs, de quais, d'échelles ; c'est ici que se concentrent les produits, pèchés dans les grands fjords du Nord, et quiils sont échan¬gés contre des marchandises étrangères, cn telle abondance, qu'il y a des marchands qui ne traliquent pas sur moins que quare à cinq cent mille couronnes de produits par an: cn ce moment, une flottille <pb facs="#facs_166" n="141" source="s2lesouvriersdes03sociuoft_0185.xml"/> russe est dans le port, apportant bois et farines d'Arlhangel et de ola dans une quinzaine de barques, dont chacune est la propriété de Son patron, et qui vont remporter d'ici poissons et pelleteries, tro¬qués contre leurs denrées ; aussi les marchands, et un peu tout le monde, parlent-ils le russe à Hammerfest.</p>
-<p xml:id="para_13__4">Les Lapons des côtes fournissent une part importante de ces pro¬duits morues sèches, uiles, guano fait des têtes et des vertèbres de poissons. Sur tous les rivages, de ''romso à Iammerfest, nous les avons vus à l'œuvre. Autour du valo, dont Iammerifest est la grande ville, sont disséminées de nombreuses stations laponnes, qu'il faut aller chercher, il est vrai, à travers l'archipel, au fond des anses peu fréquentées où elles sont abritées. Le Vlor, qui dessert l'Alben. fait chaque semaine le service de ces fjords et prend sa direction, regle son retour, enfin espace ses escales selon les voyageurs et les mar¬chandises qu'il doit transporter, tout en faisant la poste. Nous avons pu visiter ainsi, après les pasteurs du Tromsodal, et avant les pê¬cheurs du Varanger, quelques stations de Lapons agricoles.</p>
-<p xml:id="para_13__5">Établis au pied de hauts rochers, à travers lesquels grimpent leurs moutons, leurs vaches ou leurs chèvres, ils cultivent quelques petits terrains entre la mer et la montagne. Le poisson est leur plat princi¬pal là encore ; mais ils y joignent la chair de leur bétail, qu'ils ali¬mentent, l'hiver, du foin réservé à l'automne, et dont ils emploient aussi le lait et la laine. Précisément en face de notre première station, à Beritsfjord, dans un petit hameau de quatre huttes, voici un métier à tisser. La trame est en fil de corde ; la navette est l'œuvre mal dé¬ggrossie d'un ouvrier peu habile ; la tension verticale est obtenue par le poids de quartiers de roche inégaux : le tout forme enfin un ensemble assez rudimentaire ; mais le travail obtenu n'est pas laid les bigarrures grises, blanches et noires, qui se dessinent dans l'étofle, sont vives à l'il, et le produit est solide comme il convient à ces rudes climats.</p>
-<p xml:id="para_13__6">Un peu plus loin, le tableau de la vie agricole s'agrandit. C'est ici une troupe de faneuses dans leurs longs fourreaux de drap bleu : elles retournent, avec leurs grands râteaux coloriés, l'herbe coupée. garnie encore de ses fleurs ; le précédent hameau était campé sur un bourrelet de roche faisant parapet au-dessus des eaux : en se prolon¬geant ici, il s'est élargi et monte en pente douce vers les plateaux où nous voyons distinctement à l'eil nu quelques rennes, dont un hlane, écartés du troupeau qui pâture sans doute sur «le fjeld » dont nous <pb facs="#facs_167" n="142" source="s2lesouvriersdes03sociuoft_0186.xml"/> n'apercevons que la bordure. Un petit ruisseau qui en descend glisse jusqu'à la mer, vallonnant la prairie, où sont plantés cinq ou six gammer » lapons ; un vieux père, la barbe en collier, surveille de loin des serviteurs, qui sont occupés, en contre-bas. à faucher, et dont l'air de santé et de bonne humeur contraste avec la réserve or¬dinaire et la timidité des pêcheurs que nous avions vus jusque-là. On entre en rapports, on questionne, on mesure, on photographie, et, quand nous partons, des divers points de la scène agreste, les « fa¬revell : farevell » nous accompagnent jusqu'au bateau à l'ancre, qui va nous porter à valsund. Les mêmes tableaux et nos études nous ont retenus dans cette station jusqu'aux dernières heures du jour.</p>
-</div>
-</div>
-</div>
-</div>
-</body>
-</text>
+       <p xml:id="para_10__17">
+        Les dépenses, on le voit, ont excédé les recettes de 91 lr. 9, soit 127ᶠ80, en raison d'une campagne de pêche exceptionnellement mauvaise. La dette ainsi contractée envers le marchand devra être payée peu à peu avec les produits d'années meilleures.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div n="003" type="section">
+     <head type="section" xml:id="part_02_05_02">
+      FAITS SOCIAUX REMARQUABLES.
+     </head>
+     <div n="001" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <p xml:id="para_10_136_19">
+        <pb facs="#facs_161" n="136" source="s2lesouvriersdes03sociuoft_0180.xml"/>
+        La Laponie et ses habiants
+        <note type="bp">
+         <p>
+          Le prince Roland Bonaparte a bien voulu nous permettre de détacher cette note d'un inportant ouvrage sur Les Lapons dont il prépare la publication.
+         </p>
+        </note>
+        . — Le nord de la Scandinavie est abité par une race d'hommes qui diffèrent considérablement de leurs voisins scandinaves : ce sont les Lapons. Ceux-ci ne connaissent pas ce nom ; ils s'appellent Sabe ou Same, au pluriel Saeh ou Samelats. ll nomment leur pas ame dna. L'origine du mot « lapon » et son étymologie sonl assez conuses : il n'est cité dans aucun docu¬ment antérieur au douzième siècle. es Norvégiens appellent les La¬pons inner, Finnois, ainsi qu'ils sont désignés dans les plus anciens documents scandinaves ; de là le nom de la province la plus septen¬trionale de la Norvège : Finmarl. pays des Finner.
+       </p>
+       <p xml:id="para_10_136_20">
+        Le territoire occupé par les Lapons, ou Laponie, se divise entre quatre Etats : la Norvège, la Suède, la Finlande et la Russie. La su¬perficie des territoires lapons et leur population sont données par le ableau suivant :
+       </p>
+       <figure rend="portrait" type="table">
+        <head resp="added" type="table" xml:id="figure_2">
+         Superficie de la Laponie en Norvège, Suède, Finlande et Russie (notes annexes)
+        </head>
+        <graphic facs="#facs_161" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24180/263,1762,1673,628/full/0/default.jpg" xml:id="illu_10_136_1"/>
+       </figure>
+       <p xml:id="para_10_136_21">
+        Les documents que nous possédons ne nous permetten pas de dire si les Lapons diminuent ou augmentent. mais il est un fait cer¬tain, c'est que le nombre des Lapons purs diminue considérablement. Les mariages entre Lapons et Finnois sont très nombreux dans le nord de la Scandinavie, les Finnois envahissant lentement les terri¬toires lapons de la Suède et de la Norvège. Les Lapons qui, avant l'invention des bateaux à vapeur vivaient presque en dehors de la ci¬vilisation européenne, sont peu à peu refoulés vers le nord par les
+        <pb facs="#facs_162" n="137" source="s2lesouvriersdes03sociuoft_0181.xml"/>
+        colons scandinaves qui viennent s'établir sur des territoires dont ils étaient autrefois les seuls maîtres.
+       </p>
+       <p xml:id="para_11__4">
+        Le Lapon est petit ; la moyenne de la taille de 200 individus est de 1°,53 pour les hommes, et de 1ᵐ,47 pour les femmes. Les Lapons ont le visage rond : les pommettes sont fortement saillantes, les yeux sont petits et enfoncés. Ils ont peu de cils : ceux-ci manquent sou¬vent, enlevés qu'ils sont par les aflections des yeux auxquels sont fré¬quemment sujets les Lapons, qui, comme on le sait, vivent dans une atmosphère enfumée.
+       </p>
+       <p xml:id="para_11__5">
+        La vue est très bonne. Le ne est asse petit et affeete une forme très inclinée en avant. C'est du moins le type que nous avons vu le plus souvent ; la bouche est grande, les dents sont souvent usées. Le menton est pointu ; les cheveux sont longs, ondés, noirs et luisants : beaucoup de Lapons sont chauves de bonne heure ; ils ont peu de barbe et, quand ils en ont, elle est très clairsemée ; la couleur de leur peau est souvent foncée par la fumée au milieu de laquelle vit le Lapon dans sa demeure, et par la saleté dont il est généralement cou¬vert ; même les jeunes gens ont de nombreuses rides qui, s'ajoutant aux caractères déjà signalés. les font paraître vieux avant l'âge. La voix est peu forte et criarde. Les jambes des Lapons sont générale¬ment petites. le rapport de la taille assise à la taille debout étant pour 112 sujets de 52,90 pour les hommes et de 52,98 pour les femmes ; mais il faut reconnaitre que l'apparence est souvent trom¬peuse, le Lapon marchant généralement voûté. A cause de sa nour¬riture défectueuse, le Lapon est généralement maigre, mais son sys¬tème musculaire est très développé: il est fort et agile, il est très grand marcheur ; en hiver, il franchit. en très peu de temps. à l'aide de ses patins, des distances énormes sur la glace. n 1884, cinq La¬pons ont franchi, en une seule traite, 227 kilometres avce uune vi¬tesse moyenne de 10kilomètres par heure.
+       </p>
+       <p xml:id="para_11__6">
+        Ils ont bonne santé. mais ils perdent beaucoup d'enfants laute de soins. u moral, le Lapon est doux, peu violent, et cherche souvent à atteindre son but par la ruse. Quoique chaque individu porte conti¬nuellement sur lui un couteau, il y a rarement de ries sangglantes.
+       </p>
+       <p xml:id="para_11__7">
+        AVutrefois, la très grande majorité des Lapons vivait à l'état pastoral et élevait d'immenses troupeaux de rennes qui. cn leur fournissant l nourriture (viande et lait), leur servaient de bêtes de somme ; avec une espèce particulière de chiens qui les aidaient à garder leurs troupeaux. c'étaient leurs seuls animaux domestiques. Mais actuellement, à cause
+        <pb facs="#facs_163" n="138" source="s2lesouvriersdes03sociuoft_0182.xml"/>
+        des diflicultés créées par les colons scandinaves a propos des rennes, beaucoup de Lapons ont dû abandonner leur vie errante et leurs trou¬peaux pour devenir sédentaires
+        <note type="bp">
+         <p>
+          On trouve encore dans toute la Laponie 400. 000 rennes environ.
+         </p>
+        </note>
+        . ll y a donc actuellement deux sortes de apons : 1° les bapons des montagnes, ˉ'ieldlapperne en nor¬végien et jialldapparne en suédois ; 2 les Lapons sédentaires.
+       </p>
+       <p xml:id="para_11__10">
+        En hiver, lorsque le sol est couvert de neige, ces Lapons habitent les vallées, dans des tentes faites avec quelques perches recouvertes d'une étoffe de laine (oadmal) ; en été, on la remplace par de la toile ; au milieu de la tente, se trouve le foyer ; les chiens couchent pele-mêle avec toute la famille.
+       </p>
+       <p xml:id="para_11__11">
+        Pour voyager dans cette saison, ils se servent de traineaux attelés de rennes ; c'est de cette manière qu'ils franchissent de très grandes distances en fort peu de tcmps. Lcur nourriture se compose de lai¬tage, de gibier et de café. Autrefois ils buvaient beaucoup d'eau-de¬vie, mais il est actuellement défendu de leur en vendre.
+       </p>
+       <p xml:id="para_11__12">
+        Le costume des Lapons comprend en hiver : une espèce de grande blouse en fourrure serrée à la taille par une ceinture à laquelle pend un couteau dans son étui. La tète est couverte par un bonnet de cou¬leur voyante, soit carré. comme en Norvège, soit pointu, comme en Suède. La chaussure se compose d'une paire de souliers en cuir en¬tièrement cousu et imperméable, appelés omager à l'intérieur, pour caler le pied, on met une espèce d'herbe spéciale ; l'extrémité inférieure du pantalon est introduite dans la tige du soulier et serrée à l'aide d'un fort ruban. Cne paire de gants complète ce costume. L'habillement des femmes est à peu près le même. I'our marcher sur la neige, ils ont une paire de grands patins de 2 mètres de long, et pour s'aider ils tiennent alors à la main un grand bâton qui porte un reuflement à l'une de ses extrémités pour l'empêcher de s enfoncer dans la neige. L'été venu, quand les vallées sont changées en marécages, ou pullulent les moustiques insupportables aux rennes, le bLapon de montagne, qut ne peut plus se servir de son traîneau, charge sa tente et son mobilier sur le dos de ses rennes pour gagner les pàturages des hauts pla¬teauN. Les femmes portent les enfants sur leur dos dans des berceaux en bois. L'été est la mauvaise saison pour le Lapon de montagne.
+       </p>
+       <p xml:id="para_11__13">
+        Quant aux Lapons sédentaires, Lapons pêcheurs, Lapons des bois. Lapons des rivières, etc., ils ont cn partie adopté la vie des paysans et des pêcheurs scandinaves. Ils se construisent soit des maisons en
+        <pb facs="#facs_164" n="139" source="s2lesouvriersdes03sociuoft_0183.xml"/>
+        bois où l'on voit quelquefois des fenètres ornées de carreaux, soit des gmmer. tCes dernières constructions sont de petites maisons basses, faites en bois et recouvertes de terre et de gaon, on y rencontre s ou vent des poêles. C'est à une famille de bLapon sédentaire qu'est con¬sacré le précis de monographie qui précède).
+       </p>
+       <p xml:id="para_12__4">
+        A quelle époque les Lapons arrivèrent-ils en Laponie D'oùvinrent¬il2 Quelle est leur parenté avec les autres peuples analogues Ce sont des questions qu'il est impossible de résoudre actuellement. Un fait parait acquis, c'est que les Lapons viennent de l'Aie centrale, où ils auraient été en contact avec d'autres peuples qui ont encore des afi¬nités avec eux. Leurs migrations se seraient faites par le nord, car leur langue ne possède aucun mot propre à elle pour désigner les objets d'une nature plus clémente ; en revanche. ils ont une foule de noms pour désigner les différentes formes de montagnes et les différents états qu'affectent la neige et la glace. n autre fait, à peu près certain aussi, c'est que les Lapons entrérent en Scandinavie par le nord-est et non par le sud, comme quelques auteurs l'ont avancé.
+       </p>
+       <p xml:id="para_12__5">
+        Il y a une centaine d'amées, les Lapons étaient encore palens ; ac¬tuellement, ils sont tous convertis, en apparence du moins, et ont presque oublié toutes leurs anciennes pratiques, qui, au moyen âge, les faisaient passer pour de grands sorciers qu'on venait de très loin consulter.
+       </p>
+       <p xml:id="para_12__6">
+        Prince Roland BONAPARTE.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <p xml:id="para_12__7">
+        Les canpements lapons ; le commerce d'amerfest. — La vallée qui s'ouvre en face de Tromsô entre trois montagnes neigeuses, le 'rom¬sodal, est notre première étape. Là campent, une partie de l'année, deux groupes de familles laponnes, parties de arasuendo, en Suède, il y a deux mois, avec leurs rennes, et près d'y retourner, dans quel¬ques semaines, comme elles en sont venues, à petites journées. Fai¬sant paltre leurs rennes et pêchant dans les nombreux cours d'eau qui descendent des sommets environnants, elles s'abritent avec leurs ustensiles et leurs chiens dans des huttes baties qui appartiennent ux deux plus fortunés d'entre leurs membres.
+       </p>
+       <p xml:id="para_12__8">
+        Lors de notre première visite. nous les rencontràmes à un pcu plus d'une demi-heure du rivage maritime, en amont : là est un de leurs campements, dans le petit pli que forment les basses monltagnes : on y arrive, en prenant le chemin qui passe. par une courte allée de bouleaux et de sorhiers, devant le cimetière verdoyant de l'romso, 0u
+        <pb facs="#facs_165" n="140" source="s2lesouvriersdes03sociuoft_0184.xml"/>
+        sont inhumés aussi bien les Lapons nomades que les citoens de la petite ville ; plus loin. une gracieuse prairie, arrondie par les eaux de la montagne tombant dans le ''romsosund, s'ouvre au pied de quel¬ques fabriques : entin, on cnjambe un pont sur un de ces torrents, on entre dans un sentier, on saute de pierre cn pierre deux ou trois au¬tres eaux courantes, ct, poussant un peu plus hau, on apercoit l'é¬troite esplanade caillouteuse, où vit en passant la petite tribu. A unec centaine de pas au delà de ces deux huttes, étaient parqués cinquante ou soixante rennes, ramenés le matin des plateaux supérieurs. Pré¬venus sans doute de notre projet de visite par ceux d'entre eux que nous avions pu voir de près la veille dans les rues de 'romso, où ils étaient venus pour faire des achats dans les boutiques ou pour vendre à quelques particuliers leurs peaux, bois et chair de rennes, les La¬pons s'étaient hàtés d'augmenter l'attrait du tableau par la présence de ces précieuses bêtes.
+       </p>
+       <p xml:id="para_12_140_11">
+        Les huttes étaient formées d'un assemblage de perches et de plaques de terre gaonnée qui défie la description. Nous y pénétrons un à un, en deux séries d'invités, par une porte de 1 mètre à 1ᵐ,50 de haut, et tinissons par distinguer des jaumbes et des chiens allongés pele-mêle autour d'un foyer central, formé de quelques grosses pierres, et dont la fumée s'échappe diicilement par un trou supérieur. Quatre po¬teaux supportent le cadre de cette ouverture, au-dessous de laquelle reste suspendue à une poutrelle transversale la cafetière-chaudron ou la marmite de service pour le moment. A l'opposite des chiens et des pieds, les bustes des habitants s'appuient aux parois de la hutte parmi les cordages, les peaux et tout le matériel de la cuisine ou des indus¬tries domestiques.
+       </p>
+       <p xml:id="para_12_140_12">
+        Si Hammerfest n'est pas la ville la plus septentrionale du monde, elle est dumoins la plus septentrionale de l'Europe. Le pays m'a ce¬pendant plus d'une ois rappelé, dans ses spces aritimes, tantôt notre grand étang de Berre, avec ses lointains lumineux de montagnes, et tantôt, quand la brume couvre les horizons éloignés, les belles eaux resserrées du lac des Quatre-Cantons.  l'out entière outillée pour le débarquement ou l'embarquement. on ne la voit elle-même ormée que de vharfs, de quais, d'échelles ; c'est ici que se concentrent les produits, pèchés dans les grands fjords du Nord, et quiils sont échan¬gés contre des marchandises étrangères, cn telle abondance, qu'il y a des marchands qui ne traliquent pas sur moins que quare à cinq cent mille couronnes de produits par an: cn ce moment, une flottille
+        <pb facs="#facs_166" n="141" source="s2lesouvriersdes03sociuoft_0185.xml"/>
+        russe est dans le port, apportant bois et farines d'Arlhangel et de ola dans une quinzaine de barques, dont chacune est la propriété de Son patron, et qui vont remporter d'ici poissons et pelleteries, tro¬qués contre leurs denrées ; aussi les marchands, et un peu tout le monde, parlent-ils le russe à Hammerfest.
+       </p>
+       <p xml:id="para_13__4">
+        Les Lapons des côtes fournissent une part importante de ces pro¬duits morues sèches, uiles, guano fait des têtes et des vertèbres de poissons. Sur tous les rivages, de ''romso à Iammerfest, nous les avons vus à l'œuvre. Autour du valo, dont Iammerifest est la grande ville, sont disséminées de nombreuses stations laponnes, qu'il faut aller chercher, il est vrai, à travers l'archipel, au fond des anses peu fréquentées où elles sont abritées. Le Vlor, qui dessert l'Alben. fait chaque semaine le service de ces fjords et prend sa direction, regle son retour, enfin espace ses escales selon les voyageurs et les mar¬chandises qu'il doit transporter, tout en faisant la poste. Nous avons pu visiter ainsi, après les pasteurs du Tromsodal, et avant les pê¬cheurs du Varanger, quelques stations de Lapons agricoles.
+       </p>
+       <p xml:id="para_13__5">
+        Établis au pied de hauts rochers, à travers lesquels grimpent leurs moutons, leurs vaches ou leurs chèvres, ils cultivent quelques petits terrains entre la mer et la montagne. Le poisson est leur plat princi¬pal là encore ; mais ils y joignent la chair de leur bétail, qu'ils ali¬mentent, l'hiver, du foin réservé à l'automne, et dont ils emploient aussi le lait et la laine. Précisément en face de notre première station, à Beritsfjord, dans un petit hameau de quatre huttes, voici un métier à tisser. La trame est en fil de corde ; la navette est l'œuvre mal dé¬ggrossie d'un ouvrier peu habile ; la tension verticale est obtenue par le poids de quartiers de roche inégaux : le tout forme enfin un ensemble assez rudimentaire ; mais le travail obtenu n'est pas laid les bigarrures grises, blanches et noires, qui se dessinent dans l'étofle, sont vives à l'il, et le produit est solide comme il convient à ces rudes climats.
+       </p>
+       <p xml:id="para_13__6">
+        Un peu plus loin, le tableau de la vie agricole s'agrandit. C'est ici une troupe de faneuses dans leurs longs fourreaux de drap bleu : elles retournent, avec leurs grands râteaux coloriés, l'herbe coupée. garnie encore de ses fleurs ; le précédent hameau était campé sur un bourrelet de roche faisant parapet au-dessus des eaux : en se prolon¬geant ici, il s'est élargi et monte en pente douce vers les plateaux où nous voyons distinctement à l'eil nu quelques rennes, dont un hlane, écartés du troupeau qui pâture sans doute sur «le fjeld » dont nous
+        <pb facs="#facs_167" n="142" source="s2lesouvriersdes03sociuoft_0186.xml"/>
+        n'apercevons que la bordure. Un petit ruisseau qui en descend glisse jusqu'à la mer, vallonnant la prairie, où sont plantés cinq ou six gammer » lapons ; un vieux père, la barbe en collier, surveille de loin des serviteurs, qui sont occupés, en contre-bas. à faucher, et dont l'air de santé et de bonne humeur contraste avec la réserve or¬dinaire et la timidité des pêcheurs que nous avions vus jusque-là. On entre en rapports, on questionne, on mesure, on photographie, et, quand nous partons, des divers points de la scène agreste, les « fa¬revell : farevell » nous accompagnent jusqu'au bateau à l'ancre, qui va nous porter à valsund. Les mêmes tableaux et nos études nous ont retenus dans cette station jusqu'aux dernières heures du jour.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>

@@ -1,894 +1,951 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xml:id="ID-111a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
      Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription
     </title>
-<respStmt>
-<persName>
-<forename>
+    <respStmt>
+     <persName>
+      <forename>
        Alix
       </forename>
-<surname>
+      <surname>
        Chagué
       </surname>
-<affiliation>
+      <affiliation>
        ingénieure de recherche et de développement,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-</affiliation>
-</persName>
-<resp>
+      </affiliation>
+     </persName>
+     <resp>
       acquisition et structuration initiale des textes
      </resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
        Jean-Damien
       </forename>
-<surname>
+      <surname>
        Généro
       </surname>
-<affiliation from="2020-03" to="2020-09">
+      <affiliation from="2020-03" to="2020-09">
        stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-</affiliation>
-<affiliation from="2020-09" to="2020-11">
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
        ingénieur d'études,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-</affiliation>
-<affiliation from="2020-12">
+      </affiliation>
+      <affiliation from="2020-12">
        ingénieur d'études,
        <orgName>
         Centre de recherches historiques
        </orgName>
-</affiliation>
-</persName>
-<resp>
+      </affiliation>
+     </persName>
+     <resp>
       encodage scientifique
      </resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
        Stéphane
       </forename>
-<surname>
+      <surname>
        Baciocchi
       </surname>
-<affiliation>
+      <affiliation>
        ingénieur de recherche de l'EHESS,
        <orgName>
         Centre de recherches historiques
        </orgName>
-</affiliation>
-</persName>
-<resp>
+      </affiliation>
+     </persName>
+     <resp>
       direction scientifique
      </resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
        Anne
       </forename>
-<surname>
+      <surname>
        Lhuissier
       </surname>
-<affiliation>
+      <affiliation>
        directrice de recherche de l'INRAE,
        <orgName>
         Centre Maurice Halbwachs
        </orgName>
-</affiliation>
-</persName>
-<resp>
+      </affiliation>
+     </persName>
+     <resp>
       direction scientifique
      </resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
        Éric
       </forename>
-<surname>
+      <surname>
        Villemonte de la Clergerie
       </surname>
-<affiliation>
+      <affiliation>
        chargé de recherches,
        <orgName>
         équipe ALMAnaCH d'Inria
        </orgName>
-</affiliation>
-</persName>
-<resp>
+      </affiliation>
+     </persName>
+     <resp>
       supervision technique
      </resp>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<publisher>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
      projet ANR Time Us
     </publisher>
-<date from="2019" to="2021"/>
-<pubPlace>
+    <date from="2019" to="2021"/>
+    <pubPlace>
      Paris, France
     </pubPlace>
-</publicationStmt>
-<sourceDesc>
-<p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
      Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
     </p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<projectDesc>
-<p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
      L'acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d'Internet Archive, à l'aide de l'application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l'équipe ALMAnaCH d'Inria. L'encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l'École nationale des chartes (mars à sept. 2020), puis ingénieur d'études du CNRS d'abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d'Anne Lhuissier, directrice de recherche de l'INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l'EHESS (CRH).
     </p>
-</projectDesc>
-</encodingDesc>
-</teiHeader>
-<facsimile xml:id="facs_1">
-<surface lrx="1245" lry="1944"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f305/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_2">
-<surface lrx="850" lry="1398"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f306/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_3">
-<surface lrx="1245" lry="1948"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f307/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_4">
-<surface lrx="1245" lry="1948"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f308/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_5">
-<surface lrx="1245" lry="1940"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f309/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_6">
-<surface lrx="1245" lry="1940"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f310/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_7">
-<surface lrx="850" lry="1395"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f311/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_8">
-<surface lrx="1245" lry="1940"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f312/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_9">
-<surface lrx="1245" lry="1942"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f313/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_10">
-<surface lrx="1245" lry="1941"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f314/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_11">
-<surface lrx="1245" lry="1950"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f315/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_12">
-<surface lrx="1245" lry="1939"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f316/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_13">
-<surface lrx="1245" lry="1942"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f317/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_14">
-<surface lrx="1245" lry="1949"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f318/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_15">
-<surface lrx="1245" lry="1956"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f319/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_16">
-<surface lrx="1245" lry="1944"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f320/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_17">
-<surface lrx="1245" lry="1954"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f321/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_18">
-<surface lrx="1245" lry="1968"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f322/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_19">
-<surface lrx="850" lry="1401"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f323/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_20">
-<surface lrx="1245" lry="1944"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f324/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_21">
-<surface lrx="850" lry="1398"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f325/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_22">
-<surface lrx="1245" lry="1942"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f326/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_23">
-<surface lrx="1245" lry="1945"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f327/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_24">
-<surface lrx="1245" lry="1941"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f328/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_25">
-<surface lrx="1245" lry="1947"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f329/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_26">
-<surface lrx="850" lry="1396"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f330/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_27">
-<surface lrx="1245" lry="1952"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f331/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_28">
-<surface lrx="1245" lry="1939"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f332/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_29">
-<surface lrx="850" lry="1401"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f333/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_30">
-<surface lrx="1245" lry="1945"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f334/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_31">
-<surface lrx="850" lry="1401"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f335/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_32">
-<surface lrx="1245" lry="1941"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f336/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_33">
-<surface lrx="1245" lry="1952"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f337/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_34">
-<surface lrx="850" lry="1398"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f338/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_35">
-<surface lrx="1245" lry="1946"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f339/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_36">
-<surface lrx="1245" lry="1939"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f340/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_37">
-<surface lrx="1245" lry="1946"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f341/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_38">
-<surface lrx="1245" lry="1948"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f342/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_39">
-<surface lrx="1245" lry="1953"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f343/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_40">
-<surface lrx="850" lry="1393"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f344/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_41">
-<surface lrx="1245" lry="1949"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f345/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_42">
-<surface lrx="1245" lry="1947"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f346/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_43">
-<surface lrx="1245" lry="1946"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f347/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_44">
-<surface lrx="850" lry="1394"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f348/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_45">
-<surface lrx="850" lry="1400"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f349/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_46">
-<surface lrx="1245" lry="1946"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f350/full/full/0/native.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_47">
-<surface lrx="850" lry="1401"/>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f351/full/full/0/native.jpg"/>
-</facsimile>
-<text>
-<body>
-<div ana="111a" type="chapter">
-<div n="001" type="section">
-<p xml:id="para_13__1">
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_1">
+  <surface lrx="1245" lry="1944"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f305/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_2">
+  <surface lrx="850" lry="1398"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f306/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_3">
+  <surface lrx="1245" lry="1948"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f307/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_4">
+  <surface lrx="1245" lry="1948"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f308/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_5">
+  <surface lrx="1245" lry="1940"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f309/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_6">
+  <surface lrx="1245" lry="1940"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f310/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_7">
+  <surface lrx="850" lry="1395"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f311/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_8">
+  <surface lrx="1245" lry="1940"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f312/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_9">
+  <surface lrx="1245" lry="1942"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f313/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_10">
+  <surface lrx="1245" lry="1941"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f314/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_11">
+  <surface lrx="1245" lry="1950"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f315/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_12">
+  <surface lrx="1245" lry="1939"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f316/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_13">
+  <surface lrx="1245" lry="1942"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f317/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_14">
+  <surface lrx="1245" lry="1949"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f318/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_15">
+  <surface lrx="1245" lry="1956"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f319/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_16">
+  <surface lrx="1245" lry="1944"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f320/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_17">
+  <surface lrx="1245" lry="1954"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f321/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_18">
+  <surface lrx="1245" lry="1968"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f322/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_19">
+  <surface lrx="850" lry="1401"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f323/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_20">
+  <surface lrx="1245" lry="1944"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f324/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_21">
+  <surface lrx="850" lry="1398"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f325/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_22">
+  <surface lrx="1245" lry="1942"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f326/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_23">
+  <surface lrx="1245" lry="1945"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f327/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_24">
+  <surface lrx="1245" lry="1941"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f328/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_25">
+  <surface lrx="1245" lry="1947"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f329/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_26">
+  <surface lrx="850" lry="1396"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f330/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_27">
+  <surface lrx="1245" lry="1952"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f331/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_28">
+  <surface lrx="1245" lry="1939"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f332/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_29">
+  <surface lrx="850" lry="1401"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f333/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_30">
+  <surface lrx="1245" lry="1945"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f334/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_31">
+  <surface lrx="850" lry="1401"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f335/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_32">
+  <surface lrx="1245" lry="1941"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f336/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_33">
+  <surface lrx="1245" lry="1952"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f337/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_34">
+  <surface lrx="850" lry="1398"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f338/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_35">
+  <surface lrx="1245" lry="1946"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f339/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_36">
+  <surface lrx="1245" lry="1939"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f340/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_37">
+  <surface lrx="1245" lry="1946"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f341/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_38">
+  <surface lrx="1245" lry="1948"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f342/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_39">
+  <surface lrx="1245" lry="1953"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f343/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_40">
+  <surface lrx="850" lry="1393"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f344/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_41">
+  <surface lrx="1245" lry="1949"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f345/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_42">
+  <surface lrx="1245" lry="1947"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f346/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_43">
+  <surface lrx="1245" lry="1946"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f347/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_44">
+  <surface lrx="850" lry="1394"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f348/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_45">
+  <surface lrx="850" lry="1400"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f349/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_46">
+  <surface lrx="1245" lry="1946"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f350/full/full/0/native.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_47">
+  <surface lrx="850" lry="1401"/>
+  <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f351/full/full/0/native.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div ana="111a" type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_13__1">
       N° 111
      </p>
-<p xml:id="para_13__2">
+     <p xml:id="para_13__2">
       TISSERAND D'USINE
      </p>
-<p xml:id="para_13__3">
+     <p xml:id="para_13__3">
       DE ROULERS
      </p>
-<p xml:id="para_13__4">
+     <p xml:id="para_13__4">
       (Flandre occidentale — Belgique)
      </p>
-<p xml:id="para_13__5">
+     <p xml:id="para_13__5">
       OUVRIER-TACHERON
      </p>
-<p xml:id="para_13__6">
+     <p xml:id="para_13__6">
       DANS LE SYSTÈME DES ENGAGEMENTS MONMENTANÉS
      </p>
-<p xml:id="para_13__7">
+     <p xml:id="para_13__7">
       d'après
      </p>
-<p xml:id="para_13__8">
+     <p xml:id="para_13__8">
       LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN JUILLET-AOUT 19O9 ET JUILLET-AOUT 1910
      </p>
-<p xml:id="para_13__9">
+     <p xml:id="para_13__9">
       PAR
      </p>
-<p xml:id="para_13__10">
-<persName>JEAN BERNOLET</persName>
-</p>
-<p xml:id="para_13__11">
+     <p xml:id="para_13__10">
+      <persName>
+       JEAN BERNOLET
+      </persName>
+     </p>
+     <p xml:id="para_13__11">
       Avocat au barreau de Louvain
      </p>
-</div>
-<div n="002" type="section">
-<head type="section" xml:id="part_02">
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
       OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE
      </head>
-<div n="001" type="sub_section">
-<head type="sub_section" xml:id="part_02_01">
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
        Définition du lieu, de l'organisation industrielle et de la famille
       </head>
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_01_01">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
         § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION
        </head>
-<p xml:id="para_13__17">
-<pb facs="#facs_1" n="217" source="od2m_s3_t3_m111a_0251.xml"/>
-        Roulers, ville industrielle très florissante, fait partie de la Flandre occidentale, une des neuf provinces du royaume de Belgique. Au point de vue géographique, elle est située par 50° 56' 40'' de latitude nord et par 0° 47' 33'' du méridien de Paris, dans la plaine, où la Babilliebeek, <pb facs="#facs_2" n="218" source="od2m_s3_t3_m111a_0252.xml"/> déjà auparavant réunie à la Collievyverbeek, se jette avec la Duivels¬beek, la St. Amandsbeek, la Klauvaertsbeek et la Krombeek dans la Mandel. Cette dernière riviére canalisée relie la ville à la Lys et par elle à l'Escaut. Un réseau de chemins de fer met Roulers en communi¬cation avec les principaux centres de la Flandre : Ostende, Bruges, Courtrai, pres, etc. Elle appartient à l'arrondissement judiciaire de Courtrai et au diocése de Bruges, et se trouve à environ trois heures de Courtrai, quatre heures de Dixmudes et d'Ypres, et six heures de Bruges, chef-lieu de la province.
+       <p xml:id="para_13__17">
+        <pb facs="#facs_1" n="217" source="od2m_s3_t3_m111a_0251.xml"/>
+        Roulers, ville industrielle très florissante, fait partie de la Flandre occidentale, une des neuf provinces du royaume de Belgique. Au point de vue géographique, elle est située par 50° 56' 40'' de latitude nord et par 0° 47' 33'' du méridien de Paris, dans la plaine, où la Babilliebeek,
+        <pb facs="#facs_2" n="218" source="od2m_s3_t3_m111a_0252.xml"/>
+        déjà auparavant réunie à la Collievyverbeek, se jette avec la Duivels¬beek, la St. Amandsbeek, la Klauvaertsbeek et la Krombeek dans la Mandel. Cette dernière riviére canalisée relie la ville à la Lys et par elle à l'Escaut. Un réseau de chemins de fer met Roulers en communi¬cation avec les principaux centres de la Flandre : Ostende, Bruges, Courtrai, pres, etc. Elle appartient à l'arrondissement judiciaire de Courtrai et au diocése de Bruges, et se trouve à environ trois heures de Courtrai, quatre heures de Dixmudes et d'Ypres, et six heures de Bruges, chef-lieu de la province.
        </p>
-<p xml:id="para_13_4_23">
+       <p xml:id="para_13_4_23">
         Roulers, en flamand Roeselare, vient probablement du latin ou roman Roslar, Rollare, Roslare, Ruscelarium. L'origine et la signification du nom Roeselare est encore de nos jours pour les étymologistes flamands
         <note type="bp">
-<p>
+         <p>
           Signalons en passant les ouvrages de : iramay. Lanssens, le chanoine Desmedt, Johan Wialer. De Pouer. CIaerhout. Malfait, Veralleman et Verhelst.
          </p>
-</note>
+        </note>
         l'objet de multiples recherches et querelles.
        </p>
-<p xml:id="para_13_4_24">
+       <p xml:id="para_13_4_24">
         D'après les uns (Grammay), Roulers vient de Rollo, chef normand; d'après d'autres (Lanssens), elle vient de Lares. divinité romaine; Desmedt la fait dériver de loslare, espèce de prairie pour parquer les chevaux d'une marktgenootschap. La plus jeune opinion la fait dériver de Ruscelarium ou champs de roseaux. Ceci s'appuie sur le fait que Roulers est bâti sur des marais comblés et assainis.
        </p>
-<p xml:id="para_13_4_25">
+       <p xml:id="para_13_4_25">
         Roulers est une des plus anciennes communes de la Flandre, au moins à en croire Malbrancq
         <note type="bp">
-<p>
+         <p>
           Malbrancq, De Morinis, l. 69.
          </p>
-</note>
+        </note>
         . On en parle dans les vieilles chartes de Louis le Bon (822), Charles le Chauve (847), Charles le Simple (899), etc. Mais dans ces temps-là, Roulers n'était encore qu'un hameau, attaché à l'une ou à l'autre institution ecclésiastique. Quand le comte Bau-1 douin II eut définitivement délivré le pays des invasions normandes, il s'efforça de relever, dans nos contrées appauvries, l'agriculture, l'indus¬trie et le commerce.
        </p>
-<p xml:id="para_13_4_27">
+       <p xml:id="para_13_4_27">
         Il fit appel aux artisans étrangers en même temps qu'il institua des( foires annuelles. Le même Baudouin travailla au relèvement de Rou¬lers qu'il fortifia pour la mettre à même de se défendre contre les inva¬sions ennemies.
        </p>
-<p xml:id="para_13_4_30">
+       <p xml:id="para_13_4_30">
         Depuis le x siècle, elle appartenait à l'abbaye bénédictine d'Elnon, à Saint-Amand; elle passa, au xur siècle, aux mains des ducs de Bologne et fut vendue avec ses dépendances en 1282 au comte Gui de Dampierre,au profit de Jean de Namur. Vers la fin du même siècle, elle fut élevée au rang de ville.
        </p>
-<p xml:id="para_13_219_35">
-<pb facs="#facs_3" n="219" source="od2m_s3_t3_m111a_0253.xml"/> Depuis lors, elle prit part aux nombreuses querelles et guerres qui en¬sanglantèrent la Flandre, et fut même plusieurs fois incendiée. Notons pendant l''invasion française en 1695 l'établissement à Roulers du quar¬tier général du maréchal de Villeroy, qui, en partant, fit piller et incen¬dier la ville et mit en fuite les habitants, à tel point qu'en 1699, Rou¬lers ne comptait plus que 312 maisons et 699 habitants
+       <p xml:id="para_13_219_35">
+        <pb facs="#facs_3" n="219" source="od2m_s3_t3_m111a_0253.xml"/>
+        Depuis lors, elle prit part aux nombreuses querelles et guerres qui en¬sanglantèrent la Flandre, et fut même plusieurs fois incendiée. Notons pendant l''invasion française en 1695 l'établissement à Roulers du quar¬tier général du maréchal de Villeroy, qui, en partant, fit piller et incen¬dier la ville et mit en fuite les habitants, à tel point qu'en 1699, Rou¬lers ne comptait plus que 312 maisons et 699 habitants
         <note type="bp">
-<p>
+         <p>
           De Potter : Geschiedenis der tad Rousselare Archief der Gentsche ioogs¬school : Mémoire sur la Flandre flamingante.
          </p>
-</note>
+        </note>
         . La ville se ré¬tablit, eut encore à souffrir de la Révolution française de 1792 et fina¬lement contribua largement à la Révolution belge de 1830 et à la fonda¬tion du royaume.
        </p>
-<p xml:id="para_13_219_36">
+       <p xml:id="para_13_219_36">
         L'industrie la plus ancienne et la plus importante de Roulers était le tissage de draps. Quand, en 1356, le comte Louis de Male décida qu'à trois heures de marche d'Ypres, personne ne pourrait plus tisser du drap ressemblant à celui qui était tissé à VYpres, il fit une exception pour la ville de Roulers.
        </p>
-<p xml:id="para_13_219_37">
+       <p xml:id="para_13_219_37">
         Dans la charte des « Lakenscheerders » de Bruges, elle figure comme la ville la plus connue pour ses draps. A voir les « Stadsrekeninghen » de 1522 à 1558, le magistrat de Roulers n'épargnait nulle peine pour y attirer les marchands. A maintes reprises, on envoya le « Schout » aux villes les plus importantes pour recommander son marché aux commer¬çants. Les échevins régalaient régulièrement ceux d'entre les marchands qui faisaient le plus d'affaires, et à ceux qui venaient de loin, ils don¬naient des cadeaux consistant en sommes d'argent. Chaque pièce appor¬tée aumarché devait être revêtue du sceau de la ville. A cet effet, celle-ci nommait sept « zegelaers », dont cinq au moins devaient être présents à chaque foire ou marché. Ces « zegelaers » avaient droit aux amendes qu'ils infligeaient à ceux dont le lin était mal fait et, en outre, à un « schele parisis » par pièce.
        </p>
-<p xml:id="para_13_219_38">
-        Pour devenir tisserand, il fallait commencer par deux ans d'apprentis¬sage. Les maîtres tisserands avaient le droit de suspendre le tissage en ville. Les luttes du xvr et du xvir siècle furent une cause de ruine pour la foire de Roulers qui, depuis, se releva un peu, pour finir en 1860. Le tissage, malgré la déchéance de la foire, y resta en honneur. D'après la chronique rimée de 1735, qui a trait à la chute de l'aiguille de la tour de l'église Saint-Michel, il y aurait eu en ce moment à Roulers 2,000 métiers pour le tissage du lin. Ce nombre était certes trop élevé, on peut toutefois conclure de cette assertion que, vers ces temps, le tis<pb facs="#facs_4" n="220" source="od2m_s3_t3_m111a_0254.xml"/>sage y était encore très répandu. Avant la crise du lin en 1840, la ville était surtout renommée par une spécialité de lin très léger appelé Rolette. Lors de l'introduction des machines, Roulers évolua immédia¬Vêtement dans la nouvelle direction imprimée au tissage. En 1875, on comptait déjà cinq filatures et trois tissages mécaniques. De nos jours, Roulers peut être considéré en Flandre occidentale comme un des cen¬tres les plus florissants et les plus importants pour le tissage du lin
+       <p xml:id="para_13_219_38">
+        Pour devenir tisserand, il fallait commencer par deux ans d'apprentis¬sage. Les maîtres tisserands avaient le droit de suspendre le tissage en ville. Les luttes du xvr et du xvir siècle furent une cause de ruine pour la foire de Roulers qui, depuis, se releva un peu, pour finir en 1860. Le tissage, malgré la déchéance de la foire, y resta en honneur. D'après la chronique rimée de 1735, qui a trait à la chute de l'aiguille de la tour de l'église Saint-Michel, il y aurait eu en ce moment à Roulers 2,000 métiers pour le tissage du lin. Ce nombre était certes trop élevé, on peut toutefois conclure de cette assertion que, vers ces temps, le tis
+        <pb facs="#facs_4" n="220" source="od2m_s3_t3_m111a_0254.xml"/>
+        sage y était encore très répandu. Avant la crise du lin en 1840, la ville était surtout renommée par une spécialité de lin très léger appelé Rolette. Lors de l'introduction des machines, Roulers évolua immédia¬Vêtement dans la nouvelle direction imprimée au tissage. En 1875, on comptait déjà cinq filatures et trois tissages mécaniques. De nos jours, Roulers peut être considéré en Flandre occidentale comme un des cen¬tres les plus florissants et les plus importants pour le tissage du lin
         <note type="bp">
-<p>
+         <p>
           Eug. Prost : La Belgipu agricole, industrielle etr commerciale.
          </p>
-</note>
+        </note>
         .
        </p>
-<p xml:id="para_13_220_42">
+       <p xml:id="para_13_220_42">
         A ce point ce vue, elle surpasse son ancienne concurrente Courtrai
         <note type="bp">
-<p>
+         <p>
           La Belgique (1830-1905), publication du ministère de l'industrie et du travail.
          </p>
-</note>
+        </note>
         . C'est la seule ville où on tisse encore le lin bleu tant recherché, surtout par les mineurs belges.
        </p>
-<p xml:id="para_13_220_43">
+       <p xml:id="para_13_220_43">
         Une statistique officielle évaluait en 1890 la population ouvrière comme suit : patrons : 433; ouvriers techniciens : 1 ; inspecteurs : 81 ; ouvriers : 4,913; ouvrières : 1,064.
        </p>
-<p xml:id="para_13_220_44">
+       <p xml:id="para_13_220_44">
         Une statistique officielle de 1901 fait la division suivante :
        </p>
-<figure rend="portrait" type="table">
-<head resp="added" type="table" xml:id="figure_1">
+       <figure rend="portrait" type="table">
+        <head resp="added" type="table" xml:id="figure_1">
          Répartition des ouvriers de Roulers par métier et par sexe, et nombre d'enfants ouvriers (§1)
         </head>
-<graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f308/311,1099,1281,1275/full/0/default.jpg"/>
-</figure>
-<p xml:id="para_13_221_47">
-<pb facs="#facs_5" n="221" source="od2m_s3_t3_m111a_0255.xml"/> Il est à remarquer dans cette statistique qu'on signale cinq filles et deux femmes comme tisserandes, ce qui n'est plus vrai de nos jours. Depuis 1901, la population ouvrière s'est accrue considérablement. Il n'est pas encore paru de statistique officielle, toutefois l'augmentation se montre dans le nombre de tisserands inscrits sur la liste des électeurs, pour le conseil des prud'hommes de 1910. Ils sont au nombre de 768, et il faut ajouter les jeunes qui ne sont pas encore électeurs.
+        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f308/311,1099,1281,1275/full/0/default.jpg"/>
+       </figure>
+       <p xml:id="para_13_221_47">
+        <pb facs="#facs_5" n="221" source="od2m_s3_t3_m111a_0255.xml"/>
+        Il est à remarquer dans cette statistique qu'on signale cinq filles et deux femmes comme tisserandes, ce qui n'est plus vrai de nos jours. Depuis 1901, la population ouvrière s'est accrue considérablement. Il n'est pas encore paru de statistique officielle, toutefois l'augmentation se montre dans le nombre de tisserands inscrits sur la liste des électeurs, pour le conseil des prud'hommes de 1910. Ils sont au nombre de 768, et il faut ajouter les jeunes qui ne sont pas encore électeurs.
        </p>
-<p xml:id="para_13_221_48">
+       <p xml:id="para_13_221_48">
         Pour favoriser le développement de l'industrie locale, l'enseignement professionnel a été poussé avec vigueur par la ville et par l'initiative privée. Un « Leervserkhuis » fut fondé en 184, lors de la crise du lin, par les soins de l'État et de la ville. On y enseignait à lire, à écrire, à tisser le coton, le lin, le jacquart, l'orléans, le paramatas, le lin damassé. En 1864, l'école comptait trente-cinq métiers, dont vingt pour des com¬mençants et quinze pour des élèves plus avancés. Depuis, l'école profes¬sionnelle fut transportée au petit séminaire où l'enseignement continua à se donner jusqu'en 1906. Vers cette année fut fondée une nouvelle école professionnelle bien aménagée et outillée, mais malheureusement fréquentée par un nombre trop restreint d'apprentis (11). La cause en est surtout attribuée à l'indifférence des patrons.
        </p>
-<p xml:id="para_13_221_49">
+       <p xml:id="para_13_221_49">
         L'industrie locale se trouve depuis quelques années dans une période de crise. Des causes diverses y ont contribué, et notamment la dépres¬sion du lin au profit du coton, et la surproduction dans les dernières années. Aussi remarque-t-on des suspensions de travail à certains jours, des renvois d'ouvriers, des réductions d'heures de travail. Heureusement l'horizon s'éclaircit, d'autant plus que ces crises ne sont jamais si aigués à Roulers que dans les autres centres, parce que dès qu'une crise s'an¬nonce, les ouvriers prévoyants s'en vont travailler aux champs.
        </p>
-<p xml:id="para_13_221_50">
+       <p xml:id="para_13_221_50">
         La population de Roulers qui était, en 1806, de 8,406 habitants, passe à 1,03t en 1856; 153,674 en 1866; 16,153 en 1876; 19,735 en 1886 ; 22,603 en 1896; 25,107 en 1906; 25,593 en 1909. On peut dire, approximativement, que le chiffre de la population croit de 200 à 300 individus par an, par le seul excédent des naissances sur les décés.
        </p>
-<p xml:id="para_13_221_51">
-        Pendant un grand nombre d'années. le système d'exploitation capita¬liste provoqua à Roulers des abus de travail; la défense de faire partie des syndicats, la durée excessive de la journée de travail, le manque d'unité dans le mesurage des pièces et dans la rémunération, le truck¬system pratiqué en grand, l'emploi précoce et abusif des enfants, y eurent des résultats douloureux. L'effort des diverses forces sociales, du clergé, qui s'occupe des intérêts populaires avec un intense dévouement, <pb facs="#facs_6" n="222" source="od2m_s3_t3_m111a_0256.xml"/> et des ouvriers eux-mêmes, surtout des patrons-ouvriers dont nous par¬lerons plus loin, l'initiative de certains patrons soucieux et conscients de leurs devoirs, l'intervention de la commune, du pouvoir législatif et du service d'inspection du travail modifièrent la situation vraiment par trop scandaleuse au début et redressérent bien des griefs.
+       <p xml:id="para_13_221_51">
+        Pendant un grand nombre d'années. le système d'exploitation capita¬liste provoqua à Roulers des abus de travail; la défense de faire partie des syndicats, la durée excessive de la journée de travail, le manque d'unité dans le mesurage des pièces et dans la rémunération, le truck¬system pratiqué en grand, l'emploi précoce et abusif des enfants, y eurent des résultats douloureux. L'effort des diverses forces sociales, du clergé, qui s'occupe des intérêts populaires avec un intense dévouement,
+        <pb facs="#facs_6" n="222" source="od2m_s3_t3_m111a_0256.xml"/>
+        et des ouvriers eux-mêmes, surtout des patrons-ouvriers dont nous par¬lerons plus loin, l'initiative de certains patrons soucieux et conscients de leurs devoirs, l'intervention de la commune, du pouvoir législatif et du service d'inspection du travail modifièrent la situation vraiment par trop scandaleuse au début et redressérent bien des griefs.
        </p>
-<p xml:id="para_13__54">
+       <p xml:id="para_13__54">
         Quand l'ouvrage manque, bon nombre d'ouvriers s'en vont travailler aux champs, ce qui enpêche beaucoup de crises. La contrée environnant la ville est totalement changée depuis une trentaine d'années. Jadis on s'adon¬nait beaucoup à la culture du lin; de nos jours, pour des causes difficiles à saisir, elle est devenue de moins en moins prospère, et cela malgré les circonstances les plus favorables : la constitution et la situation du sol ne peut être meilleure, le vent est tiède, l'air saturé de vapeurs d'eau, la température ne connait ni élévations ni dépressions brusques. Ajoutez à cela la proximité de la rivière, la Lys, qui communique aux produits, par le rouissage, des qualités qui les font apprécier du monde entier. La véritable cause de ce phénomène est peut-être bien l'importation de chanvre étranger, surtout du chanvre russe, et les variations des récoltes, d'où le manque d'ouvriers qui préfèrent le travail plus rémunérateur et plus constant de la fabrique. Une statistique publiée par le ministère de l'agriculture établit, calculé sur cent hectares, la relation suivante entre les différents produits actuellement cultivés aux environs de Roulers
         <note type="bp">
-<p>
+         <p>
           Recensement agricole 1909, partie documentaire.
          </p>
-</note>
+        </note>
         :
        </p>
-<figure rend="portrait" type="table">
-<head resp="added" type="table" xml:id="figure_2">
+       <figure rend="portrait" type="table">
+        <head resp="added" type="table" xml:id="figure_2">
          Statistiques des produits cultivés aux environs de Roulers (surface allouée, production totale, production moyenne par hectare) (§1)
         </head>
-<graphic facs="#facs_6" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f310/312,1458,1268,1130/full/0/default.jpg" xml:id="tble_13__5"/>
-</figure>
-<p xml:id="para_13_223_57">
-<pb facs="#facs_7" n="223" source="od2m_s3_t3_m111a_0257.xml"/> On ne rencontre autour de Roulers que peu de paysans propriétaires. L plupart louent leurs champs moyennant un prix à payer annuelle¬ment à la « Bamisse » (fête de saint Bavon, le 1ᵉʳ octobre). On calcule que, dans le sud de la Flandre occidentale, sur une superficie totale de 290,427 hectares 52, au moins 240,326 hectares 62, soit 82,74%, sont des terres louées.
+        <graphic facs="#facs_6" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f310/312,1458,1268,1130/full/0/default.jpg" xml:id="tble_13__5"/>
+       </figure>
+       <p xml:id="para_13_223_57">
+        <pb facs="#facs_7" n="223" source="od2m_s3_t3_m111a_0257.xml"/>
+        On ne rencontre autour de Roulers que peu de paysans propriétaires. L plupart louent leurs champs moyennant un prix à payer annuelle¬ment à la « Bamisse » (fête de saint Bavon, le 1ᵉʳ octobre). On calcule que, dans le sud de la Flandre occidentale, sur une superficie totale de 290,427 hectares 52, au moins 240,326 hectares 62, soit 82,74%, sont des terres louées.
        </p>
-<p xml:id="para_13_223_58">
+       <p xml:id="para_13_223_58">
         L'esprit de la population rurale est tout différent de celui de la popu¬lation urbaine
         <note type="bp">
-<p>
+         <p>
           Dubois : L'iuduatrie du tissage du lin dans les Flandres. p. 54.
          </p>
-</note>
+        </note>
         . « Esprit d'entreprise et d'initiative, d'un côté, qui ne redoute pas la nouveauté pour elle-même, de l'autre, un attachement souvent routinier aux choses accoutumées, peu disposé à s'engager dans les voies nouvelles. La coutume et la tradition conservent ici tout leur empire, avec la religion, dont les dogmes et les pratiques sont respectés et dont les préceptes imprègnent profondément les mœurs et la conduite des individus et des familles. Population honnête, laborieuse et indus¬trieuse, sachant se contenter de peu et borner très vite son ambition ; race forte et vaillaute, dont la vie calme et paisible ignore les incertitu¬des et les luttes de l'existence dans les grands centres. »
        </p>
-</div>
-<div n="002" type="sub_sub_section">
-<!--Individus cités : Camille H. (n°111aE1) - Marie G. (n°111aE2) - Anna  (n°111aE3) - Charles  (n°111aE4) - Emile  (n°111aE5) - Victor  (n°111aE6) - Godelieve  (n°111aE7) - Rosa  (n°111aE8)-->
-<head type="sub_sub_section" xml:id="part_02_01_02">
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités : Camille H. (n°111aE1) - Marie G. (n°111aE2) - Anna  (n°111aE3) - Charles  (n°111aE4) - Emile  (n°111aE5) - Victor  (n°111aE6) - Godelieve  (n°111aE7) - Rosa  (n°111aE8)-->
+       <head type="sub_sub_section" xml:id="part_02_01_02">
         § 2. ÉTAT CIVIL DE LA FAMILLE
        </head>
-<p xml:id="para_13_223_61">
+       <p xml:id="para_13_223_61">
         La famille se compose de huit personnes, savoir :
        </p>
-<p xml:id="para_13_223_62">
-<persName xml:id="ID-111aE1">Camille H.</persName>, chef de famille, né à Roulers............ 47 ans.
+       <p xml:id="para_13_223_62">
+        <persName xml:id="ID-111aE1">
+         Camille H.
+        </persName>
+        , chef de famille, né à Roulers............ 47 ans.
        </p>
-<p xml:id="para_13_223_63">
-<persName xml:id="ID-111aE2">Marie G.</persName>, sa femme, née à Roulers............ 45 —
+       <p xml:id="para_13_223_63">
+        <persName xml:id="ID-111aE2">
+         Marie G.
+        </persName>
+        , sa femme, née à Roulers............ 45 —
        </p>
-<p xml:id="para_13_223_64">
-<persName xml:id="ID-111aE3">Anna</persName>, leur fille aînée, née à Roulers............ 20 —
+       <p xml:id="para_13_223_64">
+        <persName xml:id="ID-111aE3">
+         Anna
+        </persName>
+        , leur fille aînée, née à Roulers............ 20 —
        </p>
-<p xml:id="para_13_223_65">
-<persName xml:id="ID-111aE4">Charles</persName>, leur fils aîné, né à Roulers............ 18 —
+       <p xml:id="para_13_223_65">
+        <persName xml:id="ID-111aE4">
+         Charles
+        </persName>
+        , leur fils aîné, né à Roulers............ 18 —
        </p>
-<p xml:id="para_13_223_66">
-<persName xml:id="ID-111aE5">Émile</persName>, leur deuxième fils, né à Roulers............ 17 —
+       <p xml:id="para_13_223_66">
+        <persName xml:id="ID-111aE5">
+         Émile
+        </persName>
+        , leur deuxième fils, né à Roulers............ 17 —
        </p>
-<p xml:id="para_13_223_67">
-<persName xml:id="ID-111aE6">Victor</persName>, leur troisiéme fils, né à Rolers............ 14 —
+       <p xml:id="para_13_223_67">
+        <persName xml:id="ID-111aE6">
+         Victor
+        </persName>
+        , leur troisiéme fils, né à Rolers............ 14 —
        </p>
-<p xml:id="para_13_223_68">
-<persName xml:id="ID-111aE7">Godelieve</persName>, leur deuxieme fille, nee à Roulers............  12 —
+       <p xml:id="para_13_223_68">
+        <persName xml:id="ID-111aE7">
+         Godelieve
+        </persName>
+        , leur deuxieme fille, nee à Roulers............  12 —
        </p>
-<p xml:id="para_13_223_69">
-<persName xml:id="ID-111aE8">Rosa</persName>, leur troisième fille, née à Roulers............ 11 —
+       <p xml:id="para_13_223_69">
+        <persName xml:id="ID-111aE8">
+         Rosa
+        </persName>
+        , leur troisième fille, née à Roulers............ 11 —
        </p>
-<p xml:id="para_13_223_70">
+       <p xml:id="para_13_223_70">
         Aucun enfant n'est mort. La famille a entretenu pendant longtemps le grand-père infirme de Camille, mort il y a à peu près trois ans, entouré de l'affection touchante de ses enfants et de ses petits-enfants. Son souvenir est resté vivace dans la famille.
        </p>
-<p xml:id="para_13_223_71">
-        Celle-ci est, au point de vue économique, dans une période moyenne. EIe a passé l'époque difficile, où les charges sont plus lourdes à cause <pb facs="#facs_8" n="224" source="od2m_s3_t3_m111a_0258.xml"/> des soins à donner aux jeunes enfants et les revenus moins élevés, vu que les parents seuls sont en état de gagner. Actuellement, les trois aînés des enfants travaillent et le quatrième est en apprentissage.
+       <p xml:id="para_13_223_71">
+        Celle-ci est, au point de vue économique, dans une période moyenne. EIe a passé l'époque difficile, où les charges sont plus lourdes à cause
+        <pb facs="#facs_8" n="224" source="od2m_s3_t3_m111a_0258.xml"/>
+        des soins à donner aux jeunes enfants et les revenus moins élevés, vu que les parents seuls sont en état de gagner. Actuellement, les trois aînés des enfants travaillent et le quatrième est en apprentissage.
        </p>
-</div>
-<div n="003" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_01_03">
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_03">
         § 3. RELIGION ET HABITUDES MORALES
        </head>
-<p xml:id="para_13_224_80">
+       <p xml:id="para_13_224_80">
         Comme la population en général, la famille H. professe la religion catholique ; le sentiment religieux y est fortement développé et les pratiques du culte sont régulièrement accomplies. L'ouvrier et sa femme, nés de parents catholiques, s'efforcent de diriger leurs enfants dans la voie du devoir et leur donnent l'exeple d'une vie chrétienne et vertueuse. Le clergé exerce une heureuse influence sur eux comme sur l'ensemble de la population, surtout depuis qu'il s'est résolument enagé dans la voie des œuvres sociales, dont beaucoup lui doivent l'existence et la vitalité. ILe dimanche, la famille assiste à une messe basse. Pendant la semaine, le temps manque souvent pour y assister, mais on y va parfois. La prière du soir, dite en commun, resta en hon¬neur aussi longtemps que les enfants étaient petits, actuellement cette coutume est malheureusement délaissée.
        </p>
-<p xml:id="para_13_224_81">
+       <p xml:id="para_13_224_81">
         La population tient aux baptèmes, aux mariages et aux enterrements religieux, et ces cérémonies, notamment les enterrements, sont très sui¬vies ; les messes dites de « quarantaine » sont rigoureusement célé¬brées. Les enterrements civils sont à peu près inconnus. Le sentiment religieux s'affirme encore en des associations et confréries multiples et florissantes : la confrérie de Saint-François-Xavier (elle compte envi¬ron 350 membres) qui a pour but de procurer le dimanche un passe¬temps agréable aux ouvriers ; la confrérie de Saint-Michel qui donne des secours aux nécessiteux non secourus par d'autres institutions ; les mères chrétiennes pour soulager les femmes accouchées; la confrérie de Saint-Vincent de Paul; les patronages pour garçons et filles (ces der¬niers s'appellent communément les « Germana's » ).
        </p>
-<p xml:id="para_13_224_82">
-        Aucune chapelle n'est plus populaire que celle des Pères rédemptoristes. Chaque mardi, les ouvriers et ouvrières y vont assister en grand nom¬bre au salut et au sermon. La confrérie de la Sainte-Famille, qui y est établie, compte jusqu'à 1,200 membres. Annuellement, elle organise des pèlerinages à Dadizeele. C'est vraiment touchant de voir nos bons <pb facs="#facs_9" n="225" source="od2m_s3_t3_m111a_0259.xml"/> ouvriers, souvent au nombre de mille, traverser la ville, tête nue, récitant des prières et chantant des cantiques religieux. Ce qui contri¬bue encore à entretenir vivant à Roulers le sentiment religieux, c'est l'exemple donné par quelques patrons catholiques, notamment celui de la fabrique où travaille Camille H., qui ne craignent point de placer le Christ dans l'atelier, et d'y défendre sévérement les blasphèmes. Le chômage aux jours fériés facilite l'observation des pratiques religieuses. Il y a quelques années, un patron a érigé une chapelle protestante et fait venir un pasteur pour la desservir On compte cependant peu de protestants, surtout parmi la population ouvrière.
+       <p xml:id="para_13_224_82">
+        Aucune chapelle n'est plus populaire que celle des Pères rédemptoristes. Chaque mardi, les ouvriers et ouvrières y vont assister en grand nom¬bre au salut et au sermon. La confrérie de la Sainte-Famille, qui y est établie, compte jusqu'à 1,200 membres. Annuellement, elle organise des pèlerinages à Dadizeele. C'est vraiment touchant de voir nos bons
+        <pb facs="#facs_9" n="225" source="od2m_s3_t3_m111a_0259.xml"/>
+        ouvriers, souvent au nombre de mille, traverser la ville, tête nue, récitant des prières et chantant des cantiques religieux. Ce qui contri¬bue encore à entretenir vivant à Roulers le sentiment religieux, c'est l'exemple donné par quelques patrons catholiques, notamment celui de la fabrique où travaille Camille H., qui ne craignent point de placer le Christ dans l'atelier, et d'y défendre sévérement les blasphèmes. Le chômage aux jours fériés facilite l'observation des pratiques religieuses. Il y a quelques années, un patron a érigé une chapelle protestante et fait venir un pasteur pour la desservir On compte cependant peu de protestants, surtout parmi la population ouvrière.
        </p>
-<p xml:id="para_13_225_85">
+       <p xml:id="para_13_225_85">
         Malgré toutes les institutions sociales, il y a bien assez de pauvres dans la ville et les secours accordés par le bureau de bienfaisance sont nombreux.
        </p>
-<p xml:id="para_13_225_86">
+       <p xml:id="para_13_225_86">
         Bien disciplinée, la famille H. pent servir d'exemple d'accord et de bonne entente, la meilleure harmonie rgne entre les divers membres unis par une affection solide. Dans l'administration du patrimoine et la conduite des affaires domestiques, la mêre est maîtresse absolue, secon¬dée seulement par ses enfants et son mari qui se plaît à vanter la pré¬voyance de son épouse et son esprit de sage économie. Aussi la famille lui est-elle en grande partie redevable de sa situation satisfaisante. Le goût de l'épargne s'est développé dans la famille, comme dans la popu¬lation en général. Cela est d en grande partie aux exhortations et aux encouragements du clergé et du syndicat. Il y a très peu d'années, sur 100 ménages, 90 au moins clôturaient leur budget en déficit et devaient recourir à la charité. La boisson absorbait beaucoup et le salaire était trop minime. L'épargne a passé peu à peu dans les mœurs, grâce à l'ardente lutte de tous les jours, menée par les cercles antialcooliques, grâce aux caisses d'épargne établies, non plus dans les cabarets, où on épargnait pour avoir de quoi boire à la kermesse, mais au sein d'œuvres religieuses, telle la congrégation de Saint-Kavier, et dans la Gilde et les syndicats. Ajoutez à cela l'heureuse influence des conféren¬ces, l'exemple de quelques ouvriers modèles et l'augmentation des sa¬laires.
        </p>
-<p xml:id="para_13_225_87">
-        L'éducation des enfants fait l'objet des soins assidus des parents. Ils ont fréquenté les écoles catholiques et y ont reçu une instruction élémen¬taire assez compléte. D'ordinaire on envoie l'enfant à l'école jusqu' sa première communion. puis il est obligé de travailler des demi-journées à la fabrique, car peu de parents songent à faire compléter son instruction par un passage à l'école professionnelle. Toute la famille sait lire et <pb facs="#facs_10" n="226" source="od2m_s3_t3_m111a_0260.xml"/> écrire, n'empêche qu'on n'y achète que pou ou pas de livres. Seul « Het Nieuws van den Dag », « Iet Voll » et la « Gildeblad » entrent dans la maison.
+       <p xml:id="para_13_225_87">
+        L'éducation des enfants fait l'objet des soins assidus des parents. Ils ont fréquenté les écoles catholiques et y ont reçu une instruction élémen¬taire assez compléte. D'ordinaire on envoie l'enfant à l'école jusqu' sa première communion. puis il est obligé de travailler des demi-journées à la fabrique, car peu de parents songent à faire compléter son instruction par un passage à l'école professionnelle. Toute la famille sait lire et
+        <pb facs="#facs_10" n="226" source="od2m_s3_t3_m111a_0260.xml"/>
+        écrire, n'empêche qu'on n'y achète que pou ou pas de livres. Seul « Het Nieuws van den Dag », « Iet Voll » et la « Gildeblad » entrent dans la maison.
        </p>
-<p xml:id="para_13_226_90">
+       <p xml:id="para_13_226_90">
         D'une façon générale, les dispositions à s'entr'aider sont assez hien marquées dans la population ouvrière notamment, et on cite des cas vraiment touchants de fraternelle commisération entre les familles ouvrières. Cependant la population dans son ensemble est plutôt de mœurs rudes et les relations sociales sont parfois exemptes de poli¬tesse et d'harmonie. Entre patrons et ouvriers, elles ont perdu en grande partie leur caractère de déférence et d'attachement. D'une part, les ouvriers, sous la poussée des idées socialistes qui gagnent chaque jour des adhérents grâce à la propagande des journaux et à la conduite mala¬droite de certains patrons, sont portés à voir dans leurs maîtres des ennemis ou tout au moins des exploiteurs ; d'autre part, beaucoup de patrons, à cause de la grande industrie, ont cessé d'être en contact jour¬nalier avec les ouvriers qu'ils emploient. Ajoutons aussitôt, cependant, qu'il y a des exceptions. Des ouvriers, et surtout ceux d'un certain âge, comme notre chef de famille, ont conservé les saines traditions d'antan, et bien des patrons, dont l'esprit d'initiative et l'ardeur au travail sont universellement reconnus, ne dédaignent pas de mettre, s'il le faut, la main à la besogne. Dans ce domaine, les œuvres sociales sont un puis¬sant moyen de rénovation.
        </p>
-<p xml:id="para_13_226_91">
+       <p xml:id="para_13_226_91">
         L'influence pernicieuse des cabarets, nombreux et très fréquentés par les ouvriers et les ouvriéres, des bals, etc., mérite d'être notée. La femme mariée est presque toujours fidéle à son mari. Le nombre des enfants illégitimes atteint à peine 43 sur 848. Les habitations sont proprement tenues. Pour les vêtements, on remarque ici, parmi la jeunesse et surtout parmi les jeunes filles. le goût immodéré de la toilette. Quant au ménage décrit, il est sobre, l'usage de la boisson y est très modéré.
        </p>
-</div>
-<div n="004" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_01_04">
+      </div>
+      <div n="004" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_04">
         § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
-<p xml:id="para_13_226_94">
-        L'état sanitaire de la famille est satisfaisant. Le mari, de taille élevée, jouit d'une santé de fer, et sa constitution robuste lui permet de vaquer au labourage de son champ, aux heures où la fabrique le laisse libre. Il n'a pas encore éprouvé de maladie. La mère, de taille moyenne, est dure <pb facs="#facs_11" n="227" source="od2m_s3_t3_m111a_0261.xml"/> à la fatigue et s'occupe du matin au soir des soins du ménage. Tous les enfants ont hérité de cette bonne santé, favorisée par l'adjonction à la maison d'un lopin de terre.
+       <p xml:id="para_13_226_94">
+        L'état sanitaire de la famille est satisfaisant. Le mari, de taille élevée, jouit d'une santé de fer, et sa constitution robuste lui permet de vaquer au labourage de son champ, aux heures où la fabrique le laisse libre. Il n'a pas encore éprouvé de maladie. La mère, de taille moyenne, est dure
+        <pb facs="#facs_11" n="227" source="od2m_s3_t3_m111a_0261.xml"/>
+        à la fatigue et s'occupe du matin au soir des soins du ménage. Tous les enfants ont hérité de cette bonne santé, favorisée par l'adjonction à la maison d'un lopin de terre.
        </p>
-<p xml:id="para_13_227_97">
+       <p xml:id="para_13_227_97">
         L'hygiène domestique est assez rudimentaire. Il y a un service privé pour la désinfection des maisons, système Goebel-Hoton, mis gratuite¬ment par le « Godshuis-Hospitaal » à la disposition des indigents. En général, les chefs de famille montrent peu d'aptitude à administrer eux¬mêmes les médicaments. Malgré toutes les mesures prises, le peuple a encore souvent recours aux remèdes empiriques, d'ordinaire inefficaces, que la crédulité populaire revêt d'une force de guérison extraordinaire.
        </p>
-</div>
-<div n="005" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_01_05">
+      </div>
+      <div n="005" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_01_05">
         § 5. — RANG DE LA FAMILLE.
        </head>
-<p xml:id="para_13_227_100">
+       <p xml:id="para_13_227_100">
         Le mari est tisserand à la tâche dans un tissage mécanique de lin à Roulers. C'est un ouvrier modèle, d'une exactitude éprouvée et connais¬sant bien son métier. Il est aimé de son patron et estimé des autres ouvriers, Il travaille depuis dix ans dans la même fabrique. Les belles qualités de prévoyance, d'ordre et d'économie, jointes à la modestie des enfants, au caractère affable de la femme, ont acquis à la famille l'es¬time des habitants du quartier qu'elle habite. D'un caractère plus alerte et plus vif, le fils aîné aime à dominer ses camarades, sur lesquels il exerce une heureuse influence. La famille, d'ailleurs, a peu de relations. Les heures libres sont consacrées à la culture du jardin, les longues soi¬rées d'hiver se passent à lire les journaux ou à jouer aux cartes. A tout prendre, c'est le type d'une bonne famille ouvrière de Roulers, sans vi¬sées ambitieuses, vivant contente de sen sort et jouissant de l'estime de tous ceux qui l'approchent. Elle est un spécimen de l'endurance de cette race semi-urbaine, semi- campagnarde, saine de corps et d'esprit.
        </p>
-</div>
-</div>
-<div n="002" type="sub_section">
-<head type="sub_section" xml:id="part_02_02">
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
        Moyens d'existence de la famille
       </head>
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_02_06">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS
        </head>
-<div subtype="proprietes_texte_1" type="proprietes">
-<p>
-<pb facs="#facs_12" n="228" source="od2m_s3_t3_m111a_0262.xml"/> (Mobilier et vêtements non compris)
+       <div subtype="proprietes_texte_1" type="proprietes">
+        <p>
+         <pb facs="#facs_12" n="228" source="od2m_s3_t3_m111a_0262.xml"/>
+         (Mobilier et vêtements non compris)
         </p>
-<p xml:id="para_13_228_105">
+        <p xml:id="para_13_228_105">
          La famille ne possède pas d'immeubles, la maison et le jardinet sont loués. Quand le travail abondait, elle faisait régulièrement des versements à la caisse d'épargne ; actuellement, elle ne peut les continuer, mais a au moins l'heureuse idée de laisser les intérêts grossir le capital.
         </p>
-<p xml:id="para_13_228_106">
+        <p xml:id="para_13_228_106">
          Tous les ans, le père et la mère versent chacun 6f à la caisse de retraite. Camille est affiliée à celle de la fabrique. Le patron alloue pour chaque versement mensuel de 0f 50 une prime égale. Ils ont versé tous deux les cinq premières années à capital abandonné, les autres à capital réservé. Leur versement jusqu'à ce jour leur assure le droit éventuel à une pension à l'âge de soixante ans, pour le père de 15f 84 pour cinq années de versement à capital abandorné, plus 6f 43 pour six années à capital réservé, et pour la mère de 7f87 et 3f43 suivant la même distinc¬tion.
         </p>
-</div>
-<div subtype="immeubles" type="proprietes">
-<p xml:id="para_13_228_107">
+       </div>
+       <div subtype="immeubles" type="proprietes">
+        <p xml:id="para_13_228_107">
          IMMEUBLES. La famille n'en possède pas.
         </p>
-</div>
-<div subtype="argent_valeur" type="proprietes">
-<p xml:id="para_13_228_108">
+       </div>
+       <div subtype="argent_valeur" type="proprietes">
+        <p xml:id="para_13_228_108">
          ARGENT ET VALEURS MOBILIÉRES............ 838f00
         </p>
-<p xml:id="para_13_228_109">
+        <p xml:id="para_13_228_109">
          Somme déposée à la Caisse d'épargne, 730f 00 ; — somme versée à capital réservé à la Caisse de retraite, pour le père, 72f 00; — pour la mère, 36f 00. — droit éventuel à une pension par suite de versements à capital abandonné (pour mémoire). — Total, 838f 00.
         </p>
-</div>
-<div subtype="animaux" type="proprietes">
-<p xml:id="para_13_228_110">
+       </div>
+       <div subtype="animaux" type="proprietes">
+        <p xml:id="para_13_228_110">
          ANIMAUX DOMESTIOUES entretenus toute l'année............ 590f00
         </p>
-<p xml:id="para_13_228_111">
+        <p xml:id="para_13_228_111">
          Une vache, 550f 00; — deux chèvres, 40f 00 — Total, 590f 00.
         </p>
-</div>
-<div subtype="materiels" type="proprietes">
-<p xml:id="para_13_228_112">
+       </div>
+       <div subtype="materiels" type="proprietes">
+        <p xml:id="para_13_228_112">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 118f00
         </p>
-<p xml:id="para_13_228_113">
+        <p xml:id="para_13_228_113">
          1° Pour la culture. — Outils divers, 8f 00 ; — brouette, 10f 00. — Total, 18f 00.
         </p>
-<p xml:id="para_13_228_114">
+        <p xml:id="para_13_228_114">
          2° Pour la couture. — Machine à coudre, 90f 00 ; — nécessaire de couture, 10f 00. — Total, 100f 00.
         </p>
-</div>
-<div subtype="proprietes_total" type="proprietes">
-<p xml:id="para_13_228_115">
+       </div>
+       <div subtype="proprietes_total" type="proprietes">
+        <p xml:id="para_13_228_115">
          VALEUR TOTALE des propriétés............ 1,546f00
         </p>
-</div>
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_02_07">
+       </div>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_07">
         § 7. SUBVENTIONS.
        </head>
-<p xml:id="para_13_229_119">
-<pb facs="#facs_13" n="229" source="od2m_s3_t3_m111a_0263.xml"/> La famille vit exclusivement de ses propres ressources et ne reçoit aucune subvention, à part la prime mensuelle de 0f 50 accordée par le patron pour la pension de Camille. On peut signaler ici, bien que ce ne soit certes pas une subvention, l'assurance contre les accidents, mise par la loi à la charge des patrons ; c'est plutôt une indemnité, rentrant pour le patron dans les frais de l'entreprise.
+       <p xml:id="para_13_229_119">
+        <pb facs="#facs_13" n="229" source="od2m_s3_t3_m111a_0263.xml"/>
+        La famille vit exclusivement de ses propres ressources et ne reçoit aucune subvention, à part la prime mensuelle de 0f 50 accordée par le patron pour la pension de Camille. On peut signaler ici, bien que ce ne soit certes pas une subvention, l'assurance contre les accidents, mise par la loi à la charge des patrons ; c'est plutôt une indemnité, rentrant pour le patron dans les frais de l'entreprise.
        </p>
-</div>
-<div n="003" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_02_08">
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. — TRAVAUX ET INDUSTRIES.
        </head>
-<div subtype="ouvrier" type="travaux">
-<p xml:id="para_13_229_122">
+       <div subtype="ouvrier" type="travaux">
+        <p xml:id="para_13_229_122">
          La fabrique où travaille Camille H*** est une des plus anciennes et en même temps des plus florissantes de Roulers. Elle est renommée pour une spécialité de lin bleu auquel la ville a donné son nom : « Roeselaars blauw linnen ». La journée commence le matin à six heures pour finir à sept heures ou sept heures un quart. Il y a des repos d'une heure et demie à midi et d'un quart d'heure à huit heures et à quatre heures, ce qui fait onze heures de travail effectif. Il y a à Roulers une poussée vers la réduction des heures de travail. Elle se fait sentir en cas de chômage par suite de manque de commandes, mais, de plus, elle est régulière¬ment étudiée et discutée par les hommes d'œuvres et fort goûtée de beaucoup d'ouvriers. Le motif allégué est que, en ce qui concerne le tis¬sage, l'ouvrier parvient plus aisément à compenser les réductions de temps par l'accélération du travail et l'intensité de son attention ; de plus, la fatigue est grande, parce que l'ouvrier travaille simultanément à deux métiers. Le Conseil supérieur de l'industrie et du travail de Bel¬gique a proposé comme mesure générale la réduction de la journée de travail des personnes protégées, au maximum de onze heures par jour dans l'industrie textile du lin, du chanvre et du jute. Il n'y a pas de travail de nuit, même pour l'exécution de commandes importantes.
         </p>
-<p xml:id="para_13_229_123">
-         La question du mesurage des pièces et de l'affichage du tarif des sa¬laires fut l'objet d'une lutte entre le syndicat des tisserands et le gou<pb facs="#facs_14" n="230" source="od2m_s3_t3_m111a_0264.xml"/>vernement. Il en sera question plus loin
+        <p xml:id="para_13_229_123">
+         La question du mesurage des pièces et de l'affichage du tarif des sa¬laires fut l'objet d'une lutte entre le syndicat des tisserands et le gou
+         <pb facs="#facs_14" n="230" source="od2m_s3_t3_m111a_0264.xml"/>
+         vernement. Il en sera question plus loin
          <ref target="#part_03_01_19" type="renvoi_int_mono">
           (§ 19)
          </ref>
          . Camille y prit une part très active.
         </p>
-<p xml:id="para_13_230_126">
+        <p xml:id="para_13_230_126">
          Camille H*** travaille à deux métiers et gagne actuellement environ 19f par semaine. Il est satisfait de ce salaire, parce qu'il le compare à ce qu'il gagnait il y a une quinzaine d'années. A cette époque. le journal « De nieuwe tyd » ayant noté semaine par semaine pendant cinq mois le salaire de vingt ouvriers appartenant à des tisseranderies différentes, obtint le résultat suivant
          <note type="bp">
-<p>
+          <p>
            Ces chiffres furent contirés par l'inspection du travil, 1896, p. 135.
           </p>
-</note>
+         </note>
          :
         </p>
-<figure rend="portrait" type="inventory">
-<head resp="added" type="inventory" xml:id="figure_3">
+        <figure rend="portrait" type="inventory">
+         <head resp="added" type="inventory" xml:id="figure_3">
           Salaire moyen de vingt ouvriers des tisseranderies, établi par le journal « De nieuwe tyd » (§8)
          </head>
-<graphic facs="#facs_14" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f318/323,757,925,265/full/0/default.jpg" xml:id="tble_13_230_6"/>
-</figure>
-<!--<p xml:id="para_13_230_127">
+         <graphic facs="#facs_14" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f318/323,757,925,265/full/0/default.jpg" xml:id="tble_13_230_6"/>
+        </figure>
+        <!--<p xml:id="para_13_230_127">
          Au mois de juillet, le salaire moyen était de 12f12
          </p>-->
-<p xml:id="para_13_230_128">
+        <p xml:id="para_13_230_128">
          Doit-on s'étonner dès lors que la bienfaisance publique ait eu à inter¬venir pour boucler le budget de chaque famille?
         </p>
-<p xml:id="para_13_230_129">
+        <p xml:id="para_13_230_129">
          Ce qu'on gagne aujourd'hui n'est pas encore trop élevé, mais la diffé¬rence est sensible, le relevé suivant de quelques salaires gagnés actuelle¬ment par les ouvriers travaillant à deux métiers en fait foi : dresseur et tisserand, de 18 à 20f par semaine ; calandreur, 18f par semaine; mesureur, 15 à 17f par semaine.
         </p>
-<p xml:id="para_13_230_130">
+        <p xml:id="para_13_230_130">
          L'été, dès que les jours commencent à s'allonger, Camille aime à tra¬vailler dans son jardin, quand il revient de la fabrique. Seul, vu le peu d'heures qu'il peut y consacrer, il n'arriverait pas à en faire grand pro¬fit, mais ses enfants et sa femme lui viennent en aide.
         </p>
-</div>
-<div subtype="mere" type="travaux">
-<p xml:id="para_13_230_131">
+       </div>
+       <div subtype="mere" type="travaux">
+        <p xml:id="para_13_230_131">
          La mère soigne la maison, elle coud, lave, repasse ; avec un ménage de huit personnes, la besogne ne lui manque pas. Elle est propre et aime que tout soit en ordre chez elle. Le soin du jardin et des animaux repose principalement sur elle.
         </p>
-</div>
-<div subtype="enfants" type="travaux">
-<p xml:id="para_13_230_132">
+       </div>
+       <div subtype="enfants" type="travaux">
+        <p xml:id="para_13_230_132">
          Anna travaille en qualité d'épouleuse dans la même fabrique que son père.
         </p>
-<p xml:id="para_13_230_133">
+        <p xml:id="para_13_230_133">
          La question du travail des femmes pour le tissage même fut long¬temps débattue à Roulers. Le syndicat catholique combattit de toutes ses forces la mise en pratique d'un système qu'il considérait comme pouvant avoir de fâcheuses conséquences au point de vue des salaires, de la moralité et de la famille. Une grève éclata
          <note type="bp">
-<p>
+          <p>
            Inspection du travail, 1900. p. 133.
           </p>
-</note>
-         , soutenue par le syn¬dicat. La question ne fut pas résolue. Aucun atelier jusqu'ici n'emploie <pb facs="#facs_15" n="231" source="od2m_s3_t3_m111a_0265.xml"/> des femmes comme tisserandes, mais on y recourt comme bobineuses, épouleuses et encore ne sont-ce généralement que des jeunes filles, et très peu de femmes mariées. Anna travaille le même nombre d'heures que son père. Si elle était mariée, elle pourrait finir à onze heures du matin au lieu de midi, pour aller préparer son diner. Elle gagne environ 12f par semaine.
+         </note>
+         , soutenue par le syn¬dicat. La question ne fut pas résolue. Aucun atelier jusqu'ici n'emploie
+         <pb facs="#facs_15" n="231" source="od2m_s3_t3_m111a_0265.xml"/>
+         des femmes comme tisserandes, mais on y recourt comme bobineuses, épouleuses et encore ne sont-ce généralement que des jeunes filles, et très peu de femmes mariées. Anna travaille le même nombre d'heures que son père. Si elle était mariée, elle pourrait finir à onze heures du matin au lieu de midi, pour aller préparer son diner. Elle gagne environ 12f par semaine.
         </p>
-<p xml:id="para_13_231_138">
+        <p xml:id="para_13_231_138">
          Charles et Emile travaillent dans la même fabrique que leur père, en qualité de tisserands. Ils ne sont pas encore bien habiles et ne gagnent, le premier, qu'environ 10f, le second, que de 8 à 9f. Victor apprend le métier de sabotier et ne gagne rien. Les deux plus jeunes enfants: Gode¬lieve et osa, vont à l'école et continueront jusqu'à l'âge de treize ans.
         </p>
-</div>
-</div>
-</div>
-<div n="003" type="sub_section">
-<head type="sub_section" xml:id="part_02_03">
+       </div>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
        Mode d'existence de la famille
       </head>
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_03_09">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_09">
         § 9. — ALIMENTS ET REPAS.
        </head>
-<p xml:id="para_13_231_142">
+       <p xml:id="para_13_231_142">
         L'alimentation laisse en général fortement à désirer. On consomme de la viande en moyenne deux fois par semaine. Le père en mange tous les jours. Ordinairement c'est de la viande de veau, plat préféré à Roulers. Quant aux poissons, on en mange le vendredi et les jours de carême et de Quatre-Temps, la morue et l'aiglefin ont les préférences, cela dépend de ce que fournit le marché. Comme on est à peu de distance de Bruges, le poisson est peu cher, sauf pendant la saison balnéaire. On fait grande consommation de harengs. La base de l'alimentation consiste en pain blanc et en pommes de terre. La récolte du jardin ne suffit pas, il faut en acheter encore cinquante kilos pour compléter la provision. Le riz figure dans l'alimentation pour six kilos par mois. Le beurre est d'un usage très répandu ; on n'use jamais de margarine. On boit du lait, du café, mais surtout de la bière (Rodenbachsbier) forte, reconstituante et nutritive; il est dans les habitudes à Roulers de consommer la bire au cabaret; dans le ménage qui nous occupe, on préfère la boire en famille. La consommation d'alcool est nulle.
        </p>
-<p xml:id="para_13_231_143">
-        La famille prend cinq repas par jour. Le matin, on boit du café avec du pain blanc ; à huit heures, on fait à la fabrique un second déjeuner, <pb facs="#facs_16" n="232" source="od2m_s3_t3_m111a_0266.xml"/> consistant encore en café et tartines apportés le matin ; les repas à la fabrique se font en commun dans la salle de travail. A midi, on dlne en famille ; c'est le repas principal, consistant en une bonne soupe (du lait battu le vendredi ou la soupe aux pois ou haricots), de la viande pour le père et deux fois par semaine pour toute la famille (du poisson le ven¬dredi), avec des pommes de terre. A quatre heures, on prend encore à l'usine du café et des tartines. Enfin, à huit heures du soir, le souper en famille consiste encore en tartines, avec ce qui reste des pommes de terre du dîner. Ces repas ne durent guère qu'un quart d'heure à huit et à quatre heures, environ une demi-heure à midi et le soir.
+       <p xml:id="para_13_231_143">
+        La famille prend cinq repas par jour. Le matin, on boit du café avec du pain blanc ; à huit heures, on fait à la fabrique un second déjeuner,
+        <pb facs="#facs_16" n="232" source="od2m_s3_t3_m111a_0266.xml"/>
+        consistant encore en café et tartines apportés le matin ; les repas à la fabrique se font en commun dans la salle de travail. A midi, on dlne en famille ; c'est le repas principal, consistant en une bonne soupe (du lait battu le vendredi ou la soupe aux pois ou haricots), de la viande pour le père et deux fois par semaine pour toute la famille (du poisson le ven¬dredi), avec des pommes de terre. A quatre heures, on prend encore à l'usine du café et des tartines. Enfin, à huit heures du soir, le souper en famille consiste encore en tartines, avec ce qui reste des pommes de terre du dîner. Ces repas ne durent guère qu'un quart d'heure à huit et à quatre heures, environ une demi-heure à midi et le soir.
        </p>
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_03_10">
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS
        </head>
-<div subtype="par_10_texte_1" type="par_10">
-<p xml:id="para_13_232_148">
+       <div subtype="par_10_texte_1" type="par_10">
+        <p xml:id="para_13_232_148">
          Il n'y a ni cités ouvrières ni quartiers populaires à Roulers. Les tisse¬rands y vivent mêlés à d'autres ouvriers, aux petits bourgeois, aux boutiquiers, dans les multiples rues de la ville. Camille habite dans la rue du Sud, de uidstraat, une des plus longues et larges de la cité. Il est à proximité de sa fabrique, comme d'ailleurs tous les ouvriers, vu le peu de superficie de la ville. Les maisons ouvrières, sans doute grâce à l'initiative du comité des Verkmanshuizen, font du progrès, mais combien elles laissent pourtant encore à désirer! Bien des demeures sont exigués, basses, sans air ni lumière, au grand détriment de la santé. La famille H. habite une maison de moyenne grandeur, avec un jardin. Elle est propre, des images religieuses ou profanes, pendues aux murs blanchis à la chaux, en font un intérieur agréable dans sa simplicité.
         </p>
-<p xml:id="para_13_232_149">
+        <p xml:id="para_13_232_149">
          En franchissant le seuil, on pénètre dans un petit corridor qui donne accès, du côté de la rue, à une petite chambre appelée généralement le salon ; à côté, une salle assez vaste sert à la fois de salle à manger et de cuisine. Par une porte vitrée on pénètre dans une construction ajoutée il y a quelques années à la maison et se composant de deux pièces, dont l'une sert de buanderie, l'aitre d'étable. Du corridor, un escalier conduit au premier étage, composé de deux pièces : la chambre à coucher des parents et celle des filles. Les fils logent au grenier transformé en cham¬bre mansardée. L'aspect extérieur de la maison est propre, sans dénoter toutefois la moindre idée de style.
         </p>
-<p xml:id="para_13_232_150">
-         L'habitation et le jardin mesurent environ quate cents verges, soit <pb facs="#facs_17" n="233" source="od2m_s3_t3_m111a_0267.xml"/> 58 ares 96 centiares, et sont pris à loyer, par bail verbal, au prix de 195f par an.
+        <p xml:id="para_13_232_150">
+         L'habitation et le jardin mesurent environ quate cents verges, soit
+         <pb facs="#facs_17" n="233" source="od2m_s3_t3_m111a_0267.xml"/>
+         58 ares 96 centiares, et sont pris à loyer, par bail verbal, au prix de 195f par an.
         </p>
-</div>
-<div subtype="meubles" type="par_10">
-<p xml:id="para_13__153">
+       </div>
+       <div subtype="meubles" type="par_10">
+        <p xml:id="para_13__153">
          MEUBLES. — Le mobilier se limite au nécessaire. Dans le petit salon, deux étagères, attachées au mur et recouvertes de bibelots et de porce¬laines, dénotent la présence de jeunes filles............ 1,042f 65
         </p>
-<p xml:id="para_13__154">
+        <p xml:id="para_13__154">
          1° Mobilier des chambres à coucher : 1 lit avec matelas et accessoires (pour les parents), 150f 00 ; — 1 armoire, 9f 50; — 1 lavabo, 5f 00 ; — 2 chaises, 4f 50 ; — 1 crucifix, 1f 00; — 1 descente de lit, 2f 00; — 1 commode, 30f 00; — 2 lits avec matelas et accessoires (pour les jeunes filles), 300f00; — 1 armoire, 15f00; — 1 lavabo, 5f 00; — 3 chaises, 6f 75; — 1 cruciix, 1f 00; — 1 glace, 5f 00; — 1 table, 10f 00; — 1 tapis de table, 5f 00 ; — 2 lits en fer avec matelas et accessoires (pour les fils), 200f 00; — 1 armoire, 9f 00; — 4 chaises, 8f 00 ; — 1 cruciix, 1f 00. — Total, 767f 75.
         </p>
-<p xml:id="para_13__156">
+        <p xml:id="para_13__156">
          2° Mobilier du salon : 1 table ronde en noyer, 15f 00 ; — 1 tapis de table, 10f 00; — 1 miroir, 30f 00 ; — 1 Vierge en porcelaine, 50f 00; — 6 chaises, 24f 00; — 1 tapis, 20f 00; — 2 étagères garnies, 10f 00; — des images, 6f 00. — Total, 165f 00.
         </p>
-<p xml:id="para_13__158">
+        <p xml:id="para_13__158">
          3° Mobilier de la cuisine : 1 table rectangulaire recouverte de toile cirée, 12f 00; — 1 armoire, 15f 00; — 9 chaises, 30f 00; — 1 horloge en bois, 40f 00; — 1 miroir, 1f 00; — 1 statue de saint Antoine, 0f 90; — images diverses, 5f 00. — Total, 103f 90.
         </p>
-<p xml:id="para_13__159">
+        <p xml:id="para_13__159">
          4° Mobilier du jardin : 1 banc de jardin, 6f 00.
         </p>
-</div>
-<div subtype="ustensiles" type="par_10">
-<p xml:id="para_13__160">
+       </div>
+       <div subtype="ustensiles" type="par_10">
+        <p xml:id="para_13__160">
          USTENSILES. — Généralement en bon état, ils comprennent tous les articles de cuisine et de table nécessaires pour les besoins de la fa¬mille............ 187f55
         </p>
-<p xml:id="para_13__161">
+        <p xml:id="para_13__161">
          1° Employés pour la cuisson et la consommation des aliments : 1 pot-au-feu émaillé, 5f 00; — 2 marmites en fonte, 2f 50; — 8 casseroles en fer battu, 10f 00; — 2 bouilloires et 1 passoire, 3f 00; — 2 cafetières et 2 filtres, 5f 00 ; — 3 bassines en fer battu, 3f 50 ; — 2 plats en fer battu, 3f 00; — divers petits ustensiles en fer-blanc, 8f 00; — 2 douzaines et demie de cuillers et de fourchettes en fer étamé, 3f 50 ; — 2 douzaines de verres à boire, 4f 00 ; — 8 couteaux de table, 2f 00; — 3 douzaines d'assiettes en faïence, 6f 00; — 5 plats de faïence, 3f 00 ; — 1 carafe, 0f 50 ; — 4 seaux en fer, 4f 50. — 1 bac à charbon, 1f 25; — 2 poêles, 50f 00; — 1 poêle en fonte, 1f 00; — 2 cuillers à pot, 0f 80 ; — 1 service à café, 6f 50. — Total, 123f 05.
         </p>
-<p xml:id="para_13__164">
+        <p xml:id="para_13__164">
          2° Employés pour l'éclairage : 4 lampes à pétrole, 20f 00; — 2 lanternes, 6f 00. — Total, 26f 00.
         </p>
-<p xml:id="para_13__166">
+        <p xml:id="para_13__166">
          3° Employés pour les soins de propreté : 2 cuvettes en zinc, 3f 00; — 6 brosses pour souliers et habits, 4f 00 ; — 3 balais, 5f 00. — Total, 12f 00.
         </p>
-<p xml:id="para_13__167">
+        <p xml:id="para_13__167">
          4° Employés pour la cave : 3 tonneaux, 13f 00. — Total, 13f 00.
         </p>
-<p xml:id="para_13__168">
+        <p xml:id="para_13__168">
          5° Employés peur usages divers : 3 paniers en jonc, 6f 00 ; — 2 arrosoirs, 5f 00; — 1 table, 2f 50. — Total, 13f 50.
         </p>
-</div>
-<div subtype="linge" type="par_10">
-<p xml:id="para_13__170">
+       </div>
+       <div subtype="linge" type="par_10">
+        <p xml:id="para_13__170">
          LINGE DE MÉNAGE. — En bon état, entretenu et raccommodé avec soin............ 198f 00
         </p>
-<p xml:id="para_13__171">
+        <p xml:id="para_13__171">
          12 paires de draps, 160f 00 ; — 1 nappe, 4f 00 ; — 2 douzaines de torchons, 9f 00; — 8 taies d'oreiller, 15f 00 ; — 5 paires de rideaux de fenêtres, 10f 00. — Total, 198f 00.
         </p>
-</div>
-<div subtype="vetements" type="par_10">
-<p xml:id="para_13_234_172">
-<pb facs="#facs_18" n="234" source="od2m_s3_t3_m111a_0268.xml"/> VÊTEMENTS. — La famille ne fait pas de folles dépenses. Chaque per¬sonne possède des vêtements de dimanche, propres et soignés. En outre, le père, la mère, le fils et la fille aînée ont un costume de travail. Les autres portent en semaine les vieux costumes de dimanche, que la mère a soin d'entretenir dans un état parfait de propreté. Les plus jeunes doivent naturellement user les vêtements, encore en bon état mais deve¬nus trop étroits, des aînés ; il en est de même pour les souliers et pour le linge. Les filles tricotent elles-mêmes leurs bas. La plus jeune fille a fait cette année sa première communion ; à cet effet, on a remis à neuf le costume de première communion de ses sœurs, ce qui fait que la dépense, ordinairement élevée en pareille circonstance, n'a heureusement pas dépassé 20f. Valeur totale des vêtements............ 1,116f70
+       </div>
+       <div subtype="vetements" type="par_10">
+        <p xml:id="para_13_234_172">
+         <pb facs="#facs_18" n="234" source="od2m_s3_t3_m111a_0268.xml"/>
+         VÊTEMENTS. — La famille ne fait pas de folles dépenses. Chaque per¬sonne possède des vêtements de dimanche, propres et soignés. En outre, le père, la mère, le fils et la fille aînée ont un costume de travail. Les autres portent en semaine les vieux costumes de dimanche, que la mère a soin d'entretenir dans un état parfait de propreté. Les plus jeunes doivent naturellement user les vêtements, encore en bon état mais deve¬nus trop étroits, des aînés ; il en est de même pour les souliers et pour le linge. Les filles tricotent elles-mêmes leurs bas. La plus jeune fille a fait cette année sa première communion ; à cet effet, on a remis à neuf le costume de première communion de ses sœurs, ce qui fait que la dépense, ordinairement élevée en pareille circonstance, n'a heureusement pas dépassé 20f. Valeur totale des vêtements............ 1,116f70
         </p>
-<p xml:id="para_13_234_174">
+        <p xml:id="para_13_234_174">
          Vêtements de l'ouvrier (177f 50).
         </p>
-<p xml:id="para_13_234_175">
+        <p xml:id="para_13_234_175">
          1 costume complet pour le dimanche, 45f 00 ; — 1 chpeau, 3f 50; — 6 chemises, 12f 00; — 6 paires de chaussettes, 12f 00 ; — 1 casquette, 1f 25; — 1 costume de tra¬vail, 20f 00 ; — 1 paire de sabots, 1f 25; — 1 paire de souliers, 16f 00 ; — 6 mou¬choirs de poche, 2f 00; — devants de chemises et cols, 2f 50. — Total, 115f 50.
         </p>
-<p xml:id="para_13_234_176">
+        <p xml:id="para_13_234_176">
          VÊTEMENTS DE LA MÈRE (177f 05).
         </p>
-<p xml:id="para_13_234_177">
+        <p xml:id="para_13_234_177">
          1 manteau en drap, 30f 00; — 1 costume complet pour le dimanche, 50f 00 ; — 1 paire de chaussures, 18f00; — 2 jupons de couleur, 12f 00; — 6 tabliers, 10f 00; — 6 mouchoirs de poche, 2f 80 ; — 6 chemises, 10f 00; — 1 costume de travail, 18f 00; — 1 paire de sabots, 1f 25 ; — 6 pantalons, 25f 00. — Total, 177f 05.
         </p>
-<p xml:id="para_13_234_178">
+        <p xml:id="para_13_234_178">
          VÊTEMENTS DES FILLES (510f 65).
         </p>
-<p xml:id="para_13_234_179">
+        <p xml:id="para_13_234_179">
          3 costumes de dimanche, 180f 00; — 1 costume de travail (fille aînée), 20f 00 ; — 3 jupons de couleur, 15f 00; — 12 pantalons, 25f00 ; — 3 corsets, 18f00; — 3 paires de bottines (dimanche), 48f 00 ; — 1 paire de bottines (semaine), 12f 00; — sabots, 1f 25; — 6 tabliers de travail (fille aînée), 10f 00; — 4 tabliers de travail (deux autres filles), 8f 00 ; — 3 tabliers fantaisie, 15f 00 ; — 18 chemises, 30f 00; — 18 mouchoirs de poche. 8f 40; — 1 costume de première communion, 120f 00. — Total, 510f 65.
         </p>
-<p xml:id="para_13_234_180">
+        <p xml:id="para_13_234_180">
          VÊTEMENTS DES FILS (313f 50).
         </p>
-<p xml:id="para_13_234_181">
+        <p xml:id="para_13_234_181">
          3 costumes de dimanche, 150f 00; — 1 costume de travail, 18f 00 ; — 3 chapeaux, 10f 50; — 3 casquettes, 3f 75 ; — sabots, 1f 25 ; — 3 paires de souliers, 45f 00; — 30 mouchoirs de poche, 10f 00; — 6 paires de chaussettes, 12f 00; — 12 paires de bas, 15f 00 ; — devants de chemises et cols, 12f 00 ; — 18 chemises, 36f 00. — Total, 313f 50.
         </p>
-</div>
-<div subtype="par_10_total" type="par_10">
-<p xml:id="para_13_234_182">
+       </div>
+       <div subtype="par_10_total" type="par_10">
+        <p xml:id="para_13_234_182">
          VALEUR TOTALE du mobilier et des vêtements............ 2,544f90
         </p>
-</div>
-</div>
-<div n="003" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_03_11">
+       </div>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_03_11">
         § 11. RÉCRÉATION
        </head>
-<p xml:id="para_13__186">
-<pb facs="#facs_19" n="235" source="od2m_s3_t3_m111a_0269.xml"/> Les jours de récréation sont les dimanches, les lundis et mardis de Pâques et de Pentecôte, les jours de Noêi et de nouvet an et leur lende¬main, enfin toute la semaine de la kermesse. Le patron des tisserands n'est pas fêté à Roulers. A l'occasion de ces jours de fête, une brouille éclata, l'année passée, au sein de l'Union professionnelle. Le syndicat prétendait que le second jour de Noël et de nouvel an n'était pas, comme on l'avait toujours admis au sein de l'Union, des jours de chômage forcé, et qu'en conséquence elle ne paierait plus une indemnité de chômage ces jours-là. Un certain nombre de syndiqués (40) démissionnèrent, mais la mesure resta en vigueur.
+       <p xml:id="para_13__186">
+        <pb facs="#facs_19" n="235" source="od2m_s3_t3_m111a_0269.xml"/>
+        Les jours de récréation sont les dimanches, les lundis et mardis de Pâques et de Pentecôte, les jours de Noêi et de nouvet an et leur lende¬main, enfin toute la semaine de la kermesse. Le patron des tisserands n'est pas fêté à Roulers. A l'occasion de ces jours de fête, une brouille éclata, l'année passée, au sein de l'Union professionnelle. Le syndicat prétendait que le second jour de Noël et de nouvel an n'était pas, comme on l'avait toujours admis au sein de l'Union, des jours de chômage forcé, et qu'en conséquence elle ne paierait plus une indemnité de chômage ces jours-là. Un certain nombre de syndiqués (40) démissionnèrent, mais la mesure resta en vigueur.
        </p>
-<p xml:id="para_13__187">
+       <p xml:id="para_13__187">
         Ces jours-là, Camille va le matin après la messe jouer aux cartes et boire un verre. L'après-midi, il fait une promenade en famille, si le temps le permet, puis va jouer aux boules, pendant que les aînés jouent au Smytbord (petit palet), et que les plus jeunes vont s'amu¬ser au Patronage. En cela, la famille donne l'exemple à celles dont les garçons et filles, dês quinze ans, passent la journée à courir aux caba¬rets, à boire et faire du tapage en rue, à tel point que régulièrement, après un jour de fête, la Gildeblad doit faire la leçon à ses membres qui ont oublié au fond des verres qu'ils sont syndiqués et que, comme tels, ils doivent donner le bon exemple aux autres ouvriers. Notons toutefois que, par rapport aux autres centres industriels de la Flandre, on ne boit pas beaucoup, et surtout qu'on ne boit que ces jours de fête et que l'habitude de chômer le lundi de chaque semaine n'y est pas générale.
        </p>
-<p xml:id="para_13__188">
+       <p xml:id="para_13__188">
         Il arrive qu'aux jours de fête, Camille reçoit quelques amis. Alors, il reste chez lui le soir pour jouer aux cartes et boire un petit verre en com¬pagnie et à la santé des invités.
        </p>
-</div>
-</div>
-<div n="004" type="sub_section">
-<head type="sub_section" xml:id="part_02_04">
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
        Histoire de la famille
       </head>
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_04_12">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_12">
         § 12. — PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
-<p xml:id="para_13_236_191">
-<pb facs="#facs_20" n="236" source="od2m_s3_t3_m111a_0270.xml"/>
+       <p xml:id="para_13_236_191">
+        <pb facs="#facs_20" n="236" source="od2m_s3_t3_m111a_0270.xml"/>
         Camille est fils d'un tisserand de lin, travaillant à domicile. Il a suivi l'école, comme ses camarades, jusqu'à sa première communion, et sait lire, écrire et calculer. Il se souvient encore de ce qu'à l'école le maî¬tre lui apprenait avant tout : geschriften lezen, c'est-à-dire à lire des écri¬tures faites à la main. La facilité avec laquelle il déchiffre encore aujour¬d'hui des lettres et autres écrits prouve qu'il a été bon élève. Il a appris le métier chez son père, mais s'est bien vite laissé entraîner dans le mou¬vement qui sollicitait les tisserands à travailler à l'atelier. Au commen¬cement, il a souvent changé de fabrique, il y a maintenant dix ans qu'il travaille chez le même patron.
        </p>
-<p xml:id="para_13_236_192">
+       <p xml:id="para_13_236_192">
         Il s'est marié à vingt-cinq ans et a eu un premier enfant à vingt-sept. Il parle avec éloges de sa femme, une voisine de jeune âge. Elle habitait la maison en face de la sienne, et comme elle ne différait de lui que d'un an à peine, ils furent camarades dés leur plus jeune âge, pour finir par un mariage heureux et béni.
        </p>
-<p xml:id="para_13_236_193">
+       <p xml:id="para_13_236_193">
         Depuis quelque temps, il s'intéresse au mouvement social; longtemps, comme la plupart des ouvriers, il y fut indifférent. Il se souvient toujours de l'abbé Lauvers, l'ami des ouvriers et l'initiateur de la vie syndicale dans les Flandres, à l'intention duquel il récite tous les soirs un Pater
         <note type="bp">
-<p>
+         <p>
           L'abbé Lauvers est décédé à Bruges le 28 décembre 1910. Ce fut un deuil universel dans toute la Flandre, surtout à oulers. A Bruges, des patrons chô¬mèrent pour permettre à leurs ouvriers d'assister à l'enterrement. Roulers envoya une délégation d'ouvriers. Ce fut au milieu d'une foule immense, composée de toutes les classes de la société, mais surtout d'ouvriers, que fut conduit au cime¬tièré celui qui sacrifia toute sa vie au relèvement de la classe ouvrière des Flandres, surtout de Roulers, et empêcha le socialisme d'y pénétrer. La famille H. n'est pas seule à loulers à réciter tous les soirs un Pater à l'intention du cher défunt.
          </p>
-</note>
+        </note>
         .
        </p>
-<p xml:id="para_13_236_194">
-        Ce fut lui qui l'initia au mouvement. Camille entra dans l'Union pro¬fessionnelle catholique, combattit avec elle l'attitude des patrons qui s'opposaient au syndicat et peut se réjouir aujourd'hui du succès <pb facs="#facs_21" n="237" source="od2m_s3_t3_m111a_0271.xml"/> obtenu. Il a inculqué à ses fils les idées sociales et les a amenés à suivre les réunions d'étude établies dans la Gilde.
+       <p xml:id="para_13_236_194">
+        Ce fut lui qui l'initia au mouvement. Camille entra dans l'Union pro¬fessionnelle catholique, combattit avec elle l'attitude des patrons qui s'opposaient au syndicat et peut se réjouir aujourd'hui du succès
+        <pb facs="#facs_21" n="237" source="od2m_s3_t3_m111a_0271.xml"/>
+        obtenu. Il a inculqué à ses fils les idées sociales et les a amenés à suivre les réunions d'étude établies dans la Gilde.
        </p>
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_04_13">
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_04_13">
         § 13. MŒURS ET INSTITUTION ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE
        </head>
-<p xml:id="para_13_23_200">
+       <p xml:id="para_13_23_200">
         La famille est des plus heureuses et voit l'avenir sans trop d'inquiétu¬des. Grâce à un esprit d'économie bien réglé, elle a formé un petit capi¬tal qui lui permettrait, en tout cas, de parer à la premiére misère. Bien que ces dernières années aient été mauvaises, on est parvenu à équili¬brer le budget, cela donne courage au père qui met sa confiance en Dieu, convaincu qu'il ne manquera pas d'aider un pére de famille qui fait ce qu'il doit et ce qu'il peut. Quant aux maladies, la bonne constitution de tous les membres de la famille leur enlève toute crainte actuelle et la loi sur la réparation des accidents du travail permet de ne pas trop songer aux suites funestes de tels malheurs.
        </p>
-<p xml:id="para_13_23_201">
+       <p xml:id="para_13_23_201">
         Bien noté de son patron et travailleur de bonne volonté, Camille ne craint pas le renvoi. Si cette éventualité devait se produire, il espère encore trouver un réfuge dans la coopérative du syndicat qu'il a aidé à fonder et dont il sera question plus loin.
        </p>
-</div>
-</div>
-<div n="005" type="sub_section">
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_14">
+      </div>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_14">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
        </head>
-<pb facs="#facs_22" n="238" source="od2m_s3_t3_m111a_0272.xml"/>
-<figure rend="portrait" type="cptes_recettes">
-<graphic facs="#facs_22" url="#"/>
-</figure>
-<!--<p xml:id="para_13_238_203">
+       <pb facs="#facs_22" n="238" source="od2m_s3_t3_m111a_0272.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_22" url="#"/>
+       </figure>
+       <!--<p xml:id="para_13_238_203">
         SOUR CES DES RECETTES
         </p>
         <p xml:id="para_13_238_204">
@@ -987,31 +1044,31 @@
         <p xml:id="para_13_238_235">
         Allocations concernant la calsse des pensions..
         </p>-->
-<pb facs="#facs_23" n="239" source="od2m_s3_t3_m111a_0273.xml"/>
-<!--<p xml:id="para_13_239_236">
+       <pb facs="#facs_23" n="239" source="od2m_s3_t3_m111a_0273.xml"/>
+       <!--<p xml:id="para_13_239_236">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-<figure rend="portrait" type="cptes_recettes">
-<graphic url="#" xml:id="tble_13_239_11"/>
-</figure>
-<pb facs="#facs_24" n="240" source="od2m_s3_t3_m111a_0274.xml"/>
-<!--<p xml:id="para_13_240_240">
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic url="#" xml:id="tble_13_239_11"/>
+       </figure>
+       <pb facs="#facs_24" n="240" source="od2m_s3_t3_m111a_0274.xml"/>
+       <!--<p xml:id="para_13_240_240">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>-->
-<figure rend="portrait" type="cptes_recettes">
-<graphic url="#" xml:id="illu_13_240_12"/>
-</figure>
-<pb facs="#facs_25" n="241" source="od2m_s3_t3_m111a_0275.xml"/>
-<!--<p xml:id="para_13_241_244">
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic url="#" xml:id="illu_13_240_12"/>
+       </figure>
+       <pb facs="#facs_25" n="241" source="od2m_s3_t3_m111a_0275.xml"/>
+       <!--<p xml:id="para_13_241_244">
         § 14. — BUDGET DES RECETTES DE L'ANNÉE.
         </p>
         <p xml:id="para_13_241_245">
         R ECETTES
         </p>-->
-<figure rend="portrait" type="cptes_recettes">
-<graphic url="#" xml:id="illu_13_241_13"/>
-</figure>
-<!--<p xml:id="para_13_241_246">
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic url="#" xml:id="illu_13_241_13"/>
+       </figure>
+       <!--<p xml:id="para_13_241_246">
         SECTION IV
         </p>
         <p xml:id="para_13_241_247">
@@ -1029,36 +1086,36 @@
         <p xml:id="para_13_241_251">
         Torux DES rEcErrES de l'année (balançant les dépenses) (2,832f 51).
         </p>-->
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_15">
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_15">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
        </head>
-<pb facs="#facs_26" n="242" source="od2m_s3_t3_m111a_0276.xml"/>
-<figure rend="portrait" type="cptes_depenses">
-<graphic url="#" xml:id="tble_13_242_14"/>
-</figure>
-<pb facs="#facs_27" n="243" source="od2m_s3_t3_m111a_0277.xml"/>
-<!--<p xml:id="para_13__266">
+       <pb facs="#facs_26" n="242" source="od2m_s3_t3_m111a_0276.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic url="#" xml:id="tble_13_242_14"/>
+       </figure>
+       <pb facs="#facs_27" n="243" source="od2m_s3_t3_m111a_0277.xml"/>
+       <!--<p xml:id="para_13__266">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
-<figure rend="portrait" type="cptes_depenses">
-<graphic url="#" xml:id="tble_13__16"/>
-</figure>
-<pb facs="#facs_28" n="244" source="od2m_s3_t3_m111a_0278.xml"/>
-<!--<p xml:id="para_13_244_268">
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic url="#" xml:id="tble_13__16"/>
+       </figure>
+       <pb facs="#facs_28" n="244" source="od2m_s3_t3_m111a_0278.xml"/>
+       <!--<p xml:id="para_13_244_268">
         § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
         </p>-->
-<figure rend="portrait" type="cptes_depenses">
-<graphic url="#" xml:id="tble_13_244_17"/>
-</figure>
-</div>
-<div n="003" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_16">
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic url="#" xml:id="tble_13_244_17"/>
+       </figure>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_16">
         § 16. COMPTES ANNEÉS ACN BUDGETS
        </head>
-<pb facs="#facs_29" n="245" source="od2m_s3_t3_m111a_0279.xml"/>
-<!--<p xml:id="para_13_245_271">
+       <pb facs="#facs_29" n="245" source="od2m_s3_t3_m111a_0279.xml"/>
+       <!--<p xml:id="para_13_245_271">
         SECTION 1
         </p>
         <p xml:id="para_13_245_272">
@@ -1067,11 +1124,11 @@
         <p xml:id="para_13_245_273">
         RÉSULTANT DES INDUSTRIES ENTREPRISES PAR LA FAMILLE (a son propre compte)
         </p>-->
-<figure rend="portrait" type="cptes_annexes">
-<graphic url="#" xml:id="tble_13_245_19"/>
-</figure>
-<pb facs="#facs_30" n="246" source="od2m_s3_t3_m111a_0280.xml"/>
-<!--<p xml:id="para_13_246_278">
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic url="#" xml:id="tble_13_245_19"/>
+       </figure>
+       <pb facs="#facs_30" n="246" source="od2m_s3_t3_m111a_0280.xml"/>
+       <!--<p xml:id="para_13_246_278">
         SECTION II
         </p>
         <p xml:id="para_13_246_279">
@@ -1086,114 +1143,127 @@
         <p xml:id="para_13_246_282">
         COMPTES DIVERES
         </p>-->
-<figure rend="portrait" type="cptes_annexes">
-<graphic url="#" xml:id="tble_13_246_20"/>
-</figure>
-<pb facs="#facs_31" n="247" source="od2m_s3_t3_m111a_0281.xml"/>
-<figure rend="portrait" type="cptes_annexes">
-<graphic url="#" xml:id="tble_13__21"/>
-</figure>
-</div>
-</div>
-<div n="003" type="section">
-<head type="section" xml:id="part_03">
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic url="#" xml:id="tble_13_246_20"/>
+       </figure>
+       <pb facs="#facs_31" n="247" source="od2m_s3_t3_m111a_0281.xml"/>
+       <figure rend="portrait" type="cptes_annexes">
+        <graphic url="#" xml:id="tble_13__21"/>
+       </figure>
+      </div>
+     </div>
+     <div n="003" type="section">
+      <head type="section" xml:id="part_03">
        ÉLÉMENTS DIVERS DE LA CONSTITUTION SOCIALE.
       </head>
-<p xml:id="para_13__288">
+      <p xml:id="para_13__288">
        FAITS IMPORTANTS D'ORGANISATION SOCLALE : PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
       </p>
-<div n="001" type="sub_section">
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_03_01_17">
+      <div n="001" type="sub_section">
+       <div n="001" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_17">
          § 17. SUR LE TRAVAIL EN FABRIQUE
         </head>
-<p xml:id="para_13__291">
-<pb facs="#facs_32" n="248" source="od2m_s3_t3_m111a_0282.xml"/> En général, avant la loi de 1889 et l'arrêté royal de 1892, les enfants étaient envoyés trop tôt à la fabrique. Ils suivaient l'école primaire jus¬qu'à dix ou douze ans, puis les parents, avides de gain, oubliaient que ces enfants n'avaient pas encore atteint l'âge voulu pour leur permettre de s'enfermer des journées entières dans cette atmosphère si nuisible à la santé du corps et de l'âme, et les envoyaient à l'atelier. Si morale et si bonne que soit l'organisation d'une fabrique, il y subsiste toujours les dangers inhérents pour la jeunesse à ces réunions d'hommes sou¬vent grossiers. C'est, en grande partie, ce manque d'éducation qui a rendu l'action sociale difficile à Roulers.
+        <p xml:id="para_13__291">
+         <pb facs="#facs_32" n="248" source="od2m_s3_t3_m111a_0282.xml"/>
+         En général, avant la loi de 1889 et l'arrêté royal de 1892, les enfants étaient envoyés trop tôt à la fabrique. Ils suivaient l'école primaire jus¬qu'à dix ou douze ans, puis les parents, avides de gain, oubliaient que ces enfants n'avaient pas encore atteint l'âge voulu pour leur permettre de s'enfermer des journées entières dans cette atmosphère si nuisible à la santé du corps et de l'âme, et les envoyaient à l'atelier. Si morale et si bonne que soit l'organisation d'une fabrique, il y subsiste toujours les dangers inhérents pour la jeunesse à ces réunions d'hommes sou¬vent grossiers. C'est, en grande partie, ce manque d'éducation qui a rendu l'action sociale difficile à Roulers.
         </p>
-<p xml:id="para_13__292">
+        <p xml:id="para_13__292">
          Il est malaisé de bien établir ce qu'était la vie de fabrique il y a une quinzaine d'années. On se trouve en présence de deux rapports d'en¬quête, l'une officielle, l'autre due à l'initiative privée, mais combien différentes
          <note type="bp">
-<p>
+          <p>
            Rapport présenté an Conseil supérieur du travail, première session 1892, groupe Vl, rapport de l'inspecteur du travail de Courtrai; et De Nieuve Tyd. année 1896.
           </p>
-</note>
-         ! Les enfants de douze à seize ans travaillaient de six heures du matin à sept heures et demie du soir. En cela, les deux rapports concordent. ais alors que le rapport officiel conclut « que le travail n'est pas trop long, que la loi ne pourrait pas limiter la journée à moins de douze heures (si ce n'est que pour les filles. il admettait la réduction à neuf heures pour leur permettre de s'initier à la tenue du ménage), que le repos est suffisant, qu'il doit être pris de préférence dans les <pb facs="#facs_33" n="249" source="od2m_s3_t3_m111a_0283.xml"/> salles de travail, bref, qu'il n'y a pas lieu de souhaiter des changements au travail journalier; l'enquête menée par l'abbé Lauvers prouvait que le repos ne pouvait être pris dans la salle du travail, lieu empesté où des ouvriers, souvent, oubliaient dans leurs propos la présence des jeunes garçons et des filles. L'enquête privée rapporte, en outre, que toute la journée se passait, pour les enfants, en réprimandes, que des contremaîtres portaient des ceintures en cuir dont ils les frappaient, et que le travail était excessif et trop fatigant pour eux. Il serait difficile de préciser actuellement jusqu'à quel point ces dernières affirmations étaient vraies. Les résultats de cette enquête furent publiés et personne ne riposta.
+         </note>
+         ! Les enfants de douze à seize ans travaillaient de six heures du matin à sept heures et demie du soir. En cela, les deux rapports concordent. ais alors que le rapport officiel conclut « que le travail n'est pas trop long, que la loi ne pourrait pas limiter la journée à moins de douze heures (si ce n'est que pour les filles. il admettait la réduction à neuf heures pour leur permettre de s'initier à la tenue du ménage), que le repos est suffisant, qu'il doit être pris de préférence dans les
+         <pb facs="#facs_33" n="249" source="od2m_s3_t3_m111a_0283.xml"/>
+         salles de travail, bref, qu'il n'y a pas lieu de souhaiter des changements au travail journalier; l'enquête menée par l'abbé Lauvers prouvait que le repos ne pouvait être pris dans la salle du travail, lieu empesté où des ouvriers, souvent, oubliaient dans leurs propos la présence des jeunes garçons et des filles. L'enquête privée rapporte, en outre, que toute la journée se passait, pour les enfants, en réprimandes, que des contremaîtres portaient des ceintures en cuir dont ils les frappaient, et que le travail était excessif et trop fatigant pour eux. Il serait difficile de préciser actuellement jusqu'à quel point ces dernières affirmations étaient vraies. Les résultats de cette enquête furent publiés et personne ne riposta.
         </p>
-<p xml:id="para_13__296">
+        <p xml:id="para_13__296">
          Bref, l'arrêté royal du 26 décembre 1892 fit chose utile en prescrivant par son article 2 que la durée du travail effectif des enfants et des ado¬lescents âgés de moins de seize ans, ainsi que des filles et des femmes âgées de plus de seize ans et de moins de vingt et un ans, ne pourrait dépasser onze heures et demie par jour, et par son article 3, que, pour les enfants de moins de treize ans, on ne pourrait dépasser six heures par jour.
         </p>
-<p xml:id="para_13__297">
+        <p xml:id="para_13__297">
          Actuellement, le nombre des enfants occupés en fabrique diminue par suite de cette réglementation et aussi par le fait du travail simultané à deux métiers. Il est impossible d'apprendre à tisser de cette façon, il faut nécessairement commencer par un seul métier. Ce travail étant évidemment bien moins productif, les patrons préfèrent ne plus embau¬cher d'enfants. Cette situation, jointe au fait qu'il y en a peu (onze seu¬lement) qui suivent les cours de l'école professionnelle, pourrait, sous peu, amener un manque d'ouvriers habiles. Les enfants employés quand même à la fabrique travaillent, les filles comme bobineuses et épou¬leuses, les garçons comme tisserands de petits métiers. De seize à dix¬sept ans, ils gagnent environ 12f par semaine. Avant cet âge, cela dé¬pend beaucoup de leurs aptitudes et de leur application au travail.
         </p>
-<p xml:id="para_13__298">
-         En ce qui concerne l'emploi des femmes, il convient de rendre hom¬mage aux patrons ; ils ont fait leur possible pour améliorer la situation. Aucune n'est admise à travailler au métier et, toujours, elles sont sépa¬rées des hommes ou même dans des locaux diférents, et sont obligées de sortir de l'atelier avant les hommes; à cet effet, leur travail finit un peu avant l'heure : pour la femme mariée, il cesse le matin à onze heures, pour lui permettre de préparer le diner. Cet usage est dû au Westvlaam¬sche Veversbond qui le préconisa la première fois en sa séance du 22 septembre 1898 et le fit accepter par la Landgilde derVevers. Celle-ci <pb facs="#facs_34" n="250" source="od2m_s3_t3_m111a_0284.xml"/> le réclama instamment dans un écrit collectif adressé aux patrons belges, et obtint gain de cause, au moins à Roulers.
+        <p xml:id="para_13__298">
+         En ce qui concerne l'emploi des femmes, il convient de rendre hom¬mage aux patrons ; ils ont fait leur possible pour améliorer la situation. Aucune n'est admise à travailler au métier et, toujours, elles sont sépa¬rées des hommes ou même dans des locaux diférents, et sont obligées de sortir de l'atelier avant les hommes; à cet effet, leur travail finit un peu avant l'heure : pour la femme mariée, il cesse le matin à onze heures, pour lui permettre de préparer le diner. Cet usage est dû au Westvlaam¬sche Veversbond qui le préconisa la première fois en sa séance du 22 septembre 1898 et le fit accepter par la Landgilde derVevers. Celle-ci
+         <pb facs="#facs_34" n="250" source="od2m_s3_t3_m111a_0284.xml"/>
+         le réclama instamment dans un écrit collectif adressé aux patrons belges, et obtint gain de cause, au moins à Roulers.
         </p>
-<p xml:id="para_13__303">
+        <p xml:id="para_13__303">
          Il n'est pas sans intérét de citer ici, à titre documentaire, toutes les mesures et les réformes conseillées par le Vestvlaamsche Veversbond en vue d'empêcher l'nmoralité de la fabrique ou d'y remédier ; en voici le relevé : entrée spéciale pour les femmes, séparation des sexes dans les ateliers, avec défense d'employer des hommes, même momentané¬ment, dans les ateliers de femmes ; pour celles-ci, suppression de l'obli¬gation d'aller prendre des matériaux quelconques à la cabinedes contre¬maîtres, cabinets de toilette particuliers, autorisation de quitter l'atelier un quart d'heure avant les hommes, contremaîtres pria parmi les femmes; de plus, obligation pour le patron de veiller fermement à ce qu'il ne soit pas commis de délits contre la moralité puhlique, et de choi¬sir les contremaîtres parmi des hommes à la moralité desquels on peut se fier.
         </p>
-<p xml:id="para_13__304">
+        <p xml:id="para_13__304">
          Les rapporte entre ouvriers et patrons varient souvent suivant l'atti¬tude même de ces derniers. Il en est qui se soucient peu de l'ouvrier, il y en a qui se rendent compte de la responsabilité qui pèse sur eux vis-à¬vis des ouvriers, « réunis dans un atelier pour exécuter un travail qui doit profiter au patron, passant la moitié de la journée sous sa direction, retenus, par la nature même de leur labeur, dans une certaine infériorité d'instruction et même de liberté, exposés aux inconvénients, aux dan¬gers qui naissent des occupations monotones, des longues fatigues, de la concentration des masses au milieu d'atmosphères où le vice et la maladie trouvent tant d'aliments
          <note type="bp">
-<p>
+          <p>
            Perin : Le Patron.
           </p>
-</note>
+         </note>
          . »
         </p>
-<p xml:id="para_13__305">
+        <p xml:id="para_13__305">
          Outre les mesures déjà citées, il est, en général, défendu d'apporter des boissons enivrantes dans l'atelier. Mais, comme l'arrêté royal du 26 décembre 1892, dans son article à, stipule que : « pendant les repos, les ouvriers seront libres de sortir de l'établissement », il en est asset qui en profitent pour visiter les cabarets nombreux autour des fabriques.
         </p>
-<p xml:id="para_13__306">
-         Un autre abus, le rucksystem, doit être signalé ici : longtemps, il fut de coutume à IRoulers de ne se servir de l'argent qu'en cas de nécessité extrême. On payait en pains, même en sacs, avec lesquels on pouvait aller chercher pendant la semaine une quantité déterminée de farine. On en était arrivé à faire accepter le sac par tout le monde comme une vraie unité monétaire. La gilde fut la première à s'y opposer. Mal lui en advint : de mixte qu'elle était, elle devint purement ouvrière. Tous les <pb facs="#facs_35" n="251" source="od2m_s3_t3_m111a_0285.xml"/> patrons démissionnèrent, et cela donna même lieu à une grève. La loi du 16 août 1887f abolit cet abus. « Les salaires des ouvriers doivent do¬rénavant être payés en monnaie métallique ou fiduciaire, ayant cours légal. Tous paiements effectués sous une autre forme sont nuls et non avenus. » Au début, on tourna la loi en payant le samedi en argent, pour échanger, le dimanche après, l'argent contre des bons, et à cela il fut difficile de remédier, les ouvriers n'osant pas ouvertement dénon¬cer le mal par crainte de renvoi.
+        <p xml:id="para_13__306">
+         Un autre abus, le rucksystem, doit être signalé ici : longtemps, il fut de coutume à IRoulers de ne se servir de l'argent qu'en cas de nécessité extrême. On payait en pains, même en sacs, avec lesquels on pouvait aller chercher pendant la semaine une quantité déterminée de farine. On en était arrivé à faire accepter le sac par tout le monde comme une vraie unité monétaire. La gilde fut la première à s'y opposer. Mal lui en advint : de mixte qu'elle était, elle devint purement ouvrière. Tous les
+         <pb facs="#facs_35" n="251" source="od2m_s3_t3_m111a_0285.xml"/>
+         patrons démissionnèrent, et cela donna même lieu à une grève. La loi du 16 août 1887f abolit cet abus. « Les salaires des ouvriers doivent do¬rénavant être payés en monnaie métallique ou fiduciaire, ayant cours légal. Tous paiements effectués sous une autre forme sont nuls et non avenus. » Au début, on tourna la loi en payant le samedi en argent, pour échanger, le dimanche après, l'argent contre des bons, et à cela il fut difficile de remédier, les ouvriers n'osant pas ouvertement dénon¬cer le mal par crainte de renvoi.
         </p>
-<p xml:id="para_13_251_309">
+        <p xml:id="para_13_251_309">
          Un autre abus encore consiste en ce que beaucoup de contremaîtres tiennent des cabarets ou des magasins, et les ouvriers se croient mora¬lement tenus d'y aller. Certains même sont d'avis que plus ils y dépen¬sent, plus ils auront de travail. Ici encore, il est malaisé de faire dénon¬cer l'abus par l'ouvrier. Enfin, on a fortement récriminé contre certains patrons qui permettaient aux socialistes de vendre leurs journaux à l'intérieur de la fabrique, les recommandaient et, dans une grève soute¬nue tout entière par les socialistes, permirent des quêtes pour la grève, dans l'atelier, pendant le travail, aprè avoir eu soin eux-mêmes d'offrir leur obole. L'entente entre patrons et ouvriers n'est pas toujours par¬faite, et ce qui contribue surtout à rendre cette situation critique, c'est l'attitude des patrons par rapport au droit d'association des ouvriers.
         </p>
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_03_01_18">
+       </div>
+       <div n="002" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_18">
          §  18. SUR LES ORGANISATIONS SYNDICALES
         </head>
-<p xml:id="para_13_251_312">
+        <p xml:id="para_13_251_312">
          Lors de la fondation de la « Gilde der Ambachten en Neringen », les patrons étaient plutôt favorables à l'idée syndicale. Le premier prési¬dent de la Gilde fut choisi parmi les patrons qui assistaient régulière¬ment aux réunions. L'idée qu''ils se formaient de la Gilde était qu'elle devait être une sorte de patronage pour les ouvriers, où ils pourraient trouver un amusement honnête et subsidiairement qu'elle pourrait deve¬nir pour eux un moyen sûr et efficace de tenir les ouvriers courbés sous le joug de leur domination.
         </p>
-<p xml:id="para_13_251_313">
-         La Gilde fonda des Unions professionnelles qui, lors de ses démêlés avec le gouvernement pour l'affichage obligatoire du tarif des salaires et pour le mesurage des pièces, prirent ouvertement son parti. Dès lors, c'en était fait pour les patrons de la Gilde et de ses Unions profes¬sionnelles. A la rigueur, les patrons acceptaient, approuvaient même que les ouvriers assistassent à ses réunions, pour autant qu'elles affec<pb facs="#facs_36" n="252" source="od2m_s3_t3_m111a_0286.xml"/>taient un caractère purement récréatif, mais que ces réunions se chan¬geassent en comités de défense contre les patrons et de résistance à leurs ordres, cela, ils ne pourraient et n'oseraient le tolérer. Une lutte achar¬née commença.
+        <p xml:id="para_13_251_313">
+         La Gilde fonda des Unions professionnelles qui, lors de ses démêlés avec le gouvernement pour l'affichage obligatoire du tarif des salaires et pour le mesurage des pièces, prirent ouvertement son parti. Dès lors, c'en était fait pour les patrons de la Gilde et de ses Unions profes¬sionnelles. A la rigueur, les patrons acceptaient, approuvaient même que les ouvriers assistassent à ses réunions, pour autant qu'elles affec
+         <pb facs="#facs_36" n="252" source="od2m_s3_t3_m111a_0286.xml"/>
+         taient un caractère purement récréatif, mais que ces réunions se chan¬geassent en comités de défense contre les patrons et de résistance à leurs ordres, cela, ils ne pourraient et n'oseraient le tolérer. Une lutte achar¬née commença.
         </p>
-<p xml:id="para_13_252_315">
+        <p xml:id="para_13_252_315">
          L'attitude des patrons était radicale. Plusieurs d'entre eux insérérent dans leur règlement d'atelier une clause portant défense à leurs ou¬vriers, sous peine de renvoi, de faire partie d'une certaine association professionnelle ou Gilde. La Gilde porta plainte à l'inspection du tra¬vail et au parquet. L'inspecteur répondit que comme il ne s'agissait pas d'une infraction à la loi sur les règlements d'atelier ou aux autres lois dont l'inspection du travail a mission d'assurer l'exécution, il n'avait point qualité pour intervenir officiellement. Touefois, il crut devoir tenter une démarche officieuse auprès des patrons intéressés, à l'effet d'obtenir amiablement la suppression de la clause dont se plaignaient les ouvriers
          <note type="bp">
-<p>
+          <p>
            Inspection du travail, 1901, p. 158.
           </p>
-</note>
-         . La démarche demeura infructueuse. Saisi des plaintes des intéressés, le parquet estima que les faits, eu égard aux circonstan¬ces dans lesquelles ils s'étaient produits, ne tombaient pas sous l'appli¬cation de l'article 310 du Code pénal (atteinte à la liberté du travail). La Gilde employa d'autres armes. Elle décréta que quiconque serait renvoyé pour un tel motif serait considéré comme chômeur involontaire et dès lors admis à l'indemnité de chômage. Le président du syndicat des tisserands exposa ses griefs à la réunion de la fédération nationale, « Lan¬dalgefederatie» (190i) qui chargea un représentant, membrede la Ligue démocratique belge, de faire une interpellation à ce sujet à la Chambre. Enfin, la Gildeblad, dans une série d'articles de 1900 à 1906, démontra à l'évidence aux bourgeois et aux patrons de Roulers que les Unions professionnelles n'avaient pas pour but de semer la discorde entre pa¬trons et ouvriers, mais bien au contraire d'aboutir, par des concessions réciproques, à une entente amiable. Le résultat fut que plusieurs pa¬trons effacèrent l'article en question de leur règlement d'atelier. Malheu¬reusement, deux fabriques maintiennent encore de nos jours (1910) la défense, conçue dans les termes suivants : « Article 20. — Les ouvriers membres de la Gilde der Ambachten en Neringen, sont obligés de démis¬sionner ou de quitter l'atelier. » <pb facs="#facs_37" n="253" source="od2m_s3_t3_m111a_0287.xml"/> devint exclusivement ouvrière. Elle commença la série de ses réformes par la lutte contre le trucksystem, puis tenta de faire fixer par la com¬mune et les Godshuizen (maisons de charité) un minimum de salaires dans les ouvrages commandés par eux ; en 1897, on fit droit à sa de¬mande ; elle s'occupa ensuite de fonder des unions professionnelles, no¬tamment celles des tisserands, des blanchisseurs, des teinturiers (1891), des tailleurs (1892), des ouvriers de fabriques, des métallurgistes, des maçons (1893), des imprimeurs (1906), etc.
+         </note>
+         . La démarche demeura infructueuse. Saisi des plaintes des intéressés, le parquet estima que les faits, eu égard aux circonstan¬ces dans lesquelles ils s'étaient produits, ne tombaient pas sous l'appli¬cation de l'article 310 du Code pénal (atteinte à la liberté du travail). La Gilde employa d'autres armes. Elle décréta que quiconque serait renvoyé pour un tel motif serait considéré comme chômeur involontaire et dès lors admis à l'indemnité de chômage. Le président du syndicat des tisserands exposa ses griefs à la réunion de la fédération nationale, « Lan¬dalgefederatie» (190i) qui chargea un représentant, membrede la Ligue démocratique belge, de faire une interpellation à ce sujet à la Chambre. Enfin, la Gildeblad, dans une série d'articles de 1900 à 1906, démontra à l'évidence aux bourgeois et aux patrons de Roulers que les Unions professionnelles n'avaient pas pour but de semer la discorde entre pa¬trons et ouvriers, mais bien au contraire d'aboutir, par des concessions réciproques, à une entente amiable. Le résultat fut que plusieurs pa¬trons effacèrent l'article en question de leur règlement d'atelier. Malheu¬reusement, deux fabriques maintiennent encore de nos jours (1910) la défense, conçue dans les termes suivants : « Article 20. — Les ouvriers membres de la Gilde der Ambachten en Neringen, sont obligés de démis¬sionner ou de quitter l'atelier. »
+         <pb facs="#facs_37" n="253" source="od2m_s3_t3_m111a_0287.xml"/>
+         devint exclusivement ouvrière. Elle commença la série de ses réformes par la lutte contre le trucksystem, puis tenta de faire fixer par la com¬mune et les Godshuizen (maisons de charité) un minimum de salaires dans les ouvrages commandés par eux ; en 1897, on fit droit à sa de¬mande ; elle s'occupa ensuite de fonder des unions professionnelles, no¬tamment celles des tisserands, des blanchisseurs, des teinturiers (1891), des tailleurs (1892), des ouvriers de fabriques, des métallurgistes, des maçons (1893), des imprimeurs (1906), etc.
         </p>
-<p xml:id="para_13__320">
+        <p xml:id="para_13__320">
          Pour mettre ses membres à même de se former une idée des modes d'organisation et de travail dans les autres cités, elle obtint de la ville des subsides de 150f pour visiter les expositions belges. Mais la somme suffisait à peine à rembourser les frais d'un petit nombre de membres ; dès 1893, elle prit l'initiative d'organiser des expositions à Roulers même, avec le concours de quelques patrons de bonne volonté. D'autres expositions eurent lieu en 1895 et 1904.
         </p>
-<p xml:id="para_13__321">
+        <p xml:id="para_13__321">
          En fait d'instruction, elle fonda une école ménagère, obtint pour ses membres l'autorisation d'emprunter des livres à l'académie communale, institua des cours professionnels (1896) pour les ouvriers charpentiers et métallurgistes, et commença en 1899 les cours du soir. En 1900, elle adressa une pétition au ministre du travail, à l'effet d'obtenir un ins¬pecteur du travail pour Roulers seul. En 1904, fut fondée la « Gilde¬s blad ». Enfin, en 1906, elle prit l'initiative d'un service de pains. Moyen¬nant 0f 65, l'ouvrier reçoit deux bons par semaine, donnant droit chacun à un pain blanc de 1,250 à 1,300 grammes. Ces pains coûtent 0f 35 pièce, l'ouvrier faisait donc un bénéfice de 0f05 par semaine et par deux pains achetés au moyen de ces bons. Il y a quelques mois, la Gilde a aban¬donné ce système pour organiser une boulangerie coopérative.
         </p>
-<p xml:id="para_13__322">
+        <p xml:id="para_13__322">
          Dans la série des initiatives prises par la Gilde, il en est trois qui méritent une attention spéciale. C'est d'abord la formation d'une liste de candidats pour l'élection du Conseil des prud'hommes. Jusqu'en 1892, ce conseil, à Roulers, était composé exclusivement de patrons et de contremaîtres. Dès 1892, la Gilde voulut qu'il ft ouvert aux ouvriers. Elle proposa une liste de candidats et eut la chance de les voir élus à grande majorité. L'un d'eux fut dans la suite élu vice-président du conseil. Depuis lors, elle tient bon et, à chaque élection, ses candidats sortent victorieux de la lutte.
         </p>
-<p xml:id="para_13__323">
-         Il faut citer ensuite la fondation de la Stedelijke Werkloozenkas. En 1908, la Gilde adressa au conseil communal de Roulers une pétition pour l'érection d'une caisse communale de chômage. Elle invoquait <pb facs="#facs_38" n="254" source="od2m_s3_t3_m111a_0288.xml"/> l'essor pris par le commerce augmentant le danger de crise, la néces¬sité pour l'ouvrier de s'assurer contre le chômage involontaire, comme il le fait depuis nombre d'années contre la maladie et les accidents du travail, et le devoir, pour les administrations publiques, de s'intéresser aux œuvres de prévoyance et d'épargne et de même à l'assu¬rance contre le chômage involontaire, d'autant plus qu'il est désastreux et pour l'ouvrier et pour la ville même. Le conseil communal accueillit la proposition et fonda une caisse communale de chômage à laquelle elle alloua un crédit provisoire de 1,000 f. L'organisation de la caisse fut confiée à un comité, nommé par le collége des bourgmestres et échevins et se composant de conseillers communaux, de patrons, de membres des caisses de chômage existant déjà à Roulers et de membres de l'ad¬ministration des hospices. Des subventions sont accordées à tout ou¬vrier qui manque de travail par suite d'une cause inhérente à l'indus¬trie même et qui a versé sa cotisation au moins depuis une année déjà dans une caisse existante. Le subside varie, proportionnellement à l'in¬demité accordée à l'ouvrier par la caisse privée à laquelle il est affilié.
+        <p xml:id="para_13__323">
+         Il faut citer ensuite la fondation de la Stedelijke Werkloozenkas. En 1908, la Gilde adressa au conseil communal de Roulers une pétition pour l'érection d'une caisse communale de chômage. Elle invoquait
+         <pb facs="#facs_38" n="254" source="od2m_s3_t3_m111a_0288.xml"/>
+         l'essor pris par le commerce augmentant le danger de crise, la néces¬sité pour l'ouvrier de s'assurer contre le chômage involontaire, comme il le fait depuis nombre d'années contre la maladie et les accidents du travail, et le devoir, pour les administrations publiques, de s'intéresser aux œuvres de prévoyance et d'épargne et de même à l'assu¬rance contre le chômage involontaire, d'autant plus qu'il est désastreux et pour l'ouvrier et pour la ville même. Le conseil communal accueillit la proposition et fonda une caisse communale de chômage à laquelle elle alloua un crédit provisoire de 1,000 f. L'organisation de la caisse fut confiée à un comité, nommé par le collége des bourgmestres et échevins et se composant de conseillers communaux, de patrons, de membres des caisses de chômage existant déjà à Roulers et de membres de l'ad¬ministration des hospices. Des subventions sont accordées à tout ou¬vrier qui manque de travail par suite d'une cause inhérente à l'indus¬trie même et qui a versé sa cotisation au moins depuis une année déjà dans une caisse existante. Le subside varie, proportionnellement à l'in¬demité accordée à l'ouvrier par la caisse privée à laquelle il est affilié.
         </p>
-<p xml:id="para_13_254_326">
+        <p xml:id="para_13_254_326">
          Le compte de 1910 s'est établi comme suit :
         </p>
-<figure rend="portrait" type="table">
-<head resp="added" type="table" xml:id="figure_4">
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_4">
           Recettes de la caisse de chômage de Roulers (Stedelijke Werkloozenka) (notes annexes)
          </head>
-<graphic facs="#facs_38" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f342/300,1310,1316,1122/full/0/default.jpg"/>
-<p xml:id="para_13_254_343">
+         <graphic facs="#facs_38" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f342/300,1310,1316,1122/full/0/default.jpg"/>
+         <p xml:id="para_13_254_343">
           (1) La ville abandonne à la caisse le produit d'une taxe de 100f pour l'usage d'une salle du premier étage de l'hôtel de ville pour les mariages, et d'autres taxes à charge de sociétés tenant leurs réunions à l'hôtel de ville.
          </p>
-</figure>
-<!--<p xml:id="para_13_254_327">
+        </figure>
+        <!--<p xml:id="para_13_254_327">
          RECEITTES :
          </p>
          <p xml:id="para_13_254_328">
@@ -1241,239 +1311,250 @@
          <p xml:id="para_13_254_342">
          Reste en caisse.      2,259f39
          </p>-->
-<p xml:id="para_13__345">
-<pb facs="#facs_39" n="255" source="od2m_s3_t3_m111a_0289.xml"/> Enfin, il faut signaler la « Zorgen voor Morgen ». C'est une caisse de pension fondée en 1898. En voici le tableau des affiliés depuis 1904.
+        <p xml:id="para_13__345">
+         <pb facs="#facs_39" n="255" source="od2m_s3_t3_m111a_0289.xml"/>
+         Enfin, il faut signaler la « Zorgen voor Morgen ». C'est une caisse de pension fondée en 1898. En voici le tableau des affiliés depuis 1904.
         </p>
-<figure rend="portrait" type="table">
-<head resp="added" type="table" xml:id="figure_5">
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_5">
           Tableau des affilié de la caisse de pension (« Zorgen voor Morgen ») de 1904 à 1908 (notes annexes)
          </head>
-<graphic facs="#facs_39" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f343/177,439,1257,333/full/0/default.jpg" xml:id="tble_13__23"/>
-</figure>
-<p xml:id="para_13__346">
+         <graphic facs="#facs_39" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f343/177,439,1257,333/full/0/default.jpg" xml:id="tble_13__23"/>
+        </figure>
+        <p xml:id="para_13__346">
          Les bilans ci-dessous (celui de 1907 nous fait défaut) en résument la situation.
         </p>
-<figure rend="portrait" type="table">
-<head resp="added" type="table" xml:id="figure_6">
+        <figure rend="portrait" type="table">
+         <head resp="added" type="table" xml:id="figure_6">
           Recettes et dépenses de la caisse de pension (« Zorgen voor Morgen ») de 1904 à 1910
          </head>
-<graphic facs="#facs_39" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f343/99,955,1435,1491/full/0/default.jpg" xml:id="tble_13__24"/>
-<p xml:id="para_13__347">
+         <graphic facs="#facs_39" url="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6154186x/f343/99,955,1435,1491/full/0/default.jpg" xml:id="tble_13__24"/>
+         <p xml:id="para_13__347">
           (1) Ces chiffres sont repris de la Gildeblad van Roeselaere et reproduits i ci tels quels en dépit des erreurs d'addition qu'ils révèlent (notes annexes)
          </p>
-</figure>
-<p xml:id="para_13__348">
-<pb facs="#facs_40" n="256" source="od2m_s3_t3_m111a_0290.xml"/> Syndicat catolique des tisserands. — Fondé en 1891, il poussa, dès le début, de toutes ses forces à la fondation et à l'organisation d'une coopérative de tissage, dans le but d'y puiser les ressources nécessaires pour venir en aide à ses membres nécessiteux et d' former des hommes indépendants, aptes à mener la lutte syndicale. Grâce à l'appui de cette coopérative, le syndicat forma une caisse de chômage, la cotisation était fixée à 0f 10 par semaine et donnait droit à une indemnité, en cas de chômage involontaire, de 1f50 par jour. En 1907, la cotisation fut élevée à 0f 25 pour les hommes et à 0f 15 pour les femmes. La même année on changea de nom et désormais le syndicat porte le nom de « Vakve¬reeniging der Fabriekverkers » (Syndicat des ouvriers d'atelier). Dès septembre 1909, le nombre d'ouvriers inscrits dépassait les neuf cents.
+        </figure>
+        <p xml:id="para_13__348">
+         <pb facs="#facs_40" n="256" source="od2m_s3_t3_m111a_0290.xml"/>
+         Syndicat catolique des tisserands. — Fondé en 1891, il poussa, dès le début, de toutes ses forces à la fondation et à l'organisation d'une coopérative de tissage, dans le but d'y puiser les ressources nécessaires pour venir en aide à ses membres nécessiteux et d' former des hommes indépendants, aptes à mener la lutte syndicale. Grâce à l'appui de cette coopérative, le syndicat forma une caisse de chômage, la cotisation était fixée à 0f 10 par semaine et donnait droit à une indemnité, en cas de chômage involontaire, de 1f50 par jour. En 1907, la cotisation fut élevée à 0f 25 pour les hommes et à 0f 15 pour les femmes. La même année on changea de nom et désormais le syndicat porte le nom de « Vakve¬reeniging der Fabriekverkers » (Syndicat des ouvriers d'atelier). Dès septembre 1909, le nombre d'ouvriers inscrits dépassait les neuf cents.
         </p>
-<p xml:id="para_13__349">
+        <p xml:id="para_13__349">
          Syndicat socialiste des tisserands. — Son organisation diffère peu de celle du syndicat catholique. Il a une caisse de chômage dont la cotisa¬tion est fixée à 0f 15. Il fut fondé en 1906. Avant cette date il en existait un autre qui fut aboli en 1900, parce qu'il ne comptait plus que treize membres.
         </p>
-<p xml:id="para_13__350">
+        <p xml:id="para_13__350">
          Coopérative Saint-Joseph (St Jozefsweversbond). — Nous avons déjà signalé pius haut la fondation et l'organisation d'une coopérative de tissage, au sein de l'union professionnelle des tisserands. Cette coopéra¬tive forme le nœud de la vie syndicale à Roulers. Ses débuts furent des plus modestes. Le premier but était de procurer du travail aux ouvriers chassés de l'atelier pour avoir fait partie de la Gilde. La fondation date de 18t4. Quelques ouvriers se réunissaient régulièrement le soir pour travailler en commun, l'atelier n'était autre qu'une chambre à coucher où l'on avait placé un vieux métier. Le grenier d'une école voisine servait de magasin. Bientôt on fut forcé de recourir au travail à domicile, la chambre était devenue trop étroite et l'argent manquait pour acquérir un local plus vaste. L'entreprise marcha si bien qu'en 1896 on parvint à louer une vieille fabrique où on plaça successivement plusieurs métiers mécaniques, plus tard on y installa une teinturerie. En 1907, la coopé¬rative se transforma en société anonyme. Le terrain occupé mesure 750 mètres carrés. Le nombre des métiers est de sept. Les chiffres d'af¬faires des dernières années ont été les suivants
         </p>
-<p xml:id="para_13__351">
+        <p xml:id="para_13__351">
          En 1900. 76,895f57
         </p>
-<p>
+        <p>
          En 1901, 73.115f81
         </p>
-<p>
+        <p>
          En 1902, 82,614f59
         </p>
-<p>
+        <p>
          Eo 1903, 83,139f56
         </p>
-<p xml:id="para_13__354">
-<pb facs="#facs_41" n="257" source="od2m_s3_t3_m111a_0291.xml"/> En 1904, 86,076f19
+        <p xml:id="para_13__354">
+         <pb facs="#facs_41" n="257" source="od2m_s3_t3_m111a_0291.xml"/>
+         En 1904, 86,076f19
         </p>
-<p>
+        <p>
          En 1905, 9,2I5f 44
         </p>
-<p>
+        <p>
          En 1906, 94,215f44
         </p>
-<p>
+        <p>
          En 1907, 102,310f86
         </p>
-<p>
+        <p>
          En 1908, 97,275f32
         </p>
-<p>
+        <p>
          En 1909, 113,110f80
         </p>
-<p xml:id="para_13__355">
+        <p xml:id="para_13__355">
          Les avantages de cette institution sont évidents : elle fournit du travail aux chômeurs, et procure des ressources financières à la Gilde et aux syndicats ; ajoutons que les ouvriers y gagnent plus que chez les autres patrons, en outre on y a introduit le systéme des parts de bénéfices.
         </p>
-<p xml:id="para_13__356">
+        <p xml:id="para_13__356">
          Le St Jozefsweversbond a permis à des ouvriers de se dévouer à la vie syndicale sans être entravés par les patrons. C'est grâce à cette institution que le syndicat de Roulers osa demander le vote d'une loi sur le mesurage des pièces, et combattre ouvertement les patrons qui défen¬daient à leurs ouvriers l'afiliation à la Gilde. Enfin, cette institution fut la première à afficher dans ses ateliers un tarif de salaires. Le mesurage se fait par les tisserands eux-mêmes en présence d'un contremaître. Les prix sont calculés pour la largeur d'un mètre à raison de 20 duites par centimètre, ils sont de :
         </p>
-<p xml:id="para_13__357">
+        <p xml:id="para_13__357">
          0f07 le mètre pour le coton pur et le tissu en chanvre, filasses de chanvre (une chaîne).
         </p>
-<p xml:id="para_13__358">
+        <p xml:id="para_13__358">
          0f 075 le mètre pour le croisé satin à mérinos et le lin mixte, chaîne en coton.
         </p>
-<p xml:id="para_13__359">
+        <p xml:id="para_13__359">
          0f08 le métre pour le lin pur et le lin mixte, chaîne en fil.
         </p>
-<p xml:id="para_13__360">
+        <p xml:id="para_13__360">
          0f085 le mètre pour le croisé lourd.
         </p>
-<p xml:id="para_13__361">
+        <p xml:id="para_13__361">
          0f095 le métre pour le tissu lourd, coton filasses de chanvre, chanvre double chatne.
         </p>
-<p xml:id="para_13__362">
+        <p xml:id="para_13__362">
          Dans tous les cas il y a augmentation ou diminution d'un quart de centime par différence de 0rt0 dans la largeur et également pour chaque duite en plus ou en moins des 20 par centimètre.
         </p>
-<p xml:id="para_13__363">
+        <p xml:id="para_13__363">
          Pour les tissus de chanvre, filasses de chanvre ou coton dont la largeur dépasse 1ᵐ50, la différence par 0ᵐ10 et par duite est d'un demi-centime au lieu d'un quart.
         </p>
-<p xml:id="para_13__364">
+        <p xml:id="para_13__364">
          Pour les essuie-mains bordés, on paie un demi-centime en plus, et pour ceux qui sont en carré 0f01 en plus que ce qui serait attribué par le tarif ordinaire.
         </p>
-</div>
-<div n="003" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_03_01_19">
+       </div>
+       <div n="003" type="sub_sub_section">
+        <head type="sub_sub_section" xml:id="part_03_01_19">
          §  19. SUR LA LOI CONCERNANIT LE MENSURAGE ET L'AFFICHAGE 1DU TARIF DES SALAIRES
         </head>
-<p xml:id="para_13_258_370">
-<pb facs="#facs_42" n="258" source="od2m_s3_t3_m111a_0292.xml"/>
+        <p xml:id="para_13_258_370">
+         <pb facs="#facs_42" n="258" source="od2m_s3_t3_m111a_0292.xml"/>
          Avant la loi de 1901, on payait à Roulers à la duite « Smette ». Par Smette, on entendait originairement une tache noire qu'on faisait sur la pièce tissée, à des intervalles réguliers, soit, dans le cas présent, tous les cinq mètres. Plus tard, on inventa les ensouples (rouleaux en bois, placés à une certaine hauteur du sol, sur lesquels on enroule la chaîne et qu'on appelle, à Roulers, arbres (Boom). Elles pouvaient con¬tenir environ 1,000 mètres de fils. On tissait dès lors, avec une seule ensouple, deux ou trois pièces. Le fabricant donnait une ensouple conte¬nant de quoi tisser tant de pièces de tant de mètres chacune. Il payait à la pièce, ce qui voulait dire par 100 métres. Si donc le fabricant don¬nait une ensouple contenant de quoi tisser trois pièces, le tisserand divi¬sait le lin tissé en trois parts au moyen d'une tache noire appelée dé¬sormais « Smette ». « Les prix s'établissaient par pièce d'une longueur déterminée : 100, 110 ou 120 mètres. Mais il arrivait que ces pièces étaient plus longues : au lieu de 100 ou 110 mètres, elles mesuraient 120 ou 130 mètres, et cependant l'ouvrier n'était payé que sur la longueur type
          <note type="bp">
-<p>
+          <p>
            L'industrie du tissage du lin dans les Flandres, par Ernest Dubois. p. 165.
           </p>
-</note>
+         </note>
          . » La loi de 1896 l'autorisait à assister au mesurage, mais il sa¬vait d'avance que réclamer équivalait à se faire signifier un congé. C'est dans ces conditions que surgirent des démêlés entre le syndicat catho¬lique de Roulers et le gouvernement.
         </p>
-<p xml:id="para_13_258_371">
+        <p xml:id="para_13_258_371">
          Les réformes réclamées par le syndicat comprenaient : l'obligation pour les patrons de se servir du mètre comme unité de mesure, et celle d'afficher le tarif des salaires dans la salle du travail. Les patrons ob¬jectaient l'impossibilité pratique d'élaborer un tel tarif. Le syndicat, au contraire, concluait à la possibilité, vu que le tarif en question exis¬tait déjà en fait dans toutes les fabriques. Comment pouvait-on en effet, prétendait-il, dresser des prix courants, si on ignorait le montant du salaire que coûte tel ou tel article ? Il réclamait donc l'affichage de cette donnée servant à l''élaloration des prix. La crainte de la concur¬rence empêcha les patrons d'obtempérer à ce désir.
         </p>
-<p xml:id="para_13__374">
-<pb facs="#facs_43" n="259" source="od2m_s3_t3_m111a_0293.xml"/> Le Tewtielbewerker commença la lutte par un article intitulé : « En fraude des lois sociales ». Il signalait des abus qui s'étaient produits à Roulers, et concluait à la nécessité d'une loi prescrivant le mètre comme unité de mesure et l'affichage obligatoire du tarif des salaires. On l'en¬voya à une soixantaine de représentants. Lors du congrès du « West¬vlaamsche Weversbond » (septembre 1896), l'assemblée exprima le même vœu. Deux ans s'écoulèrent, rien n'était changé. La « Landgilde der veefstofbeverkers » adressa alors une circulaire à tous les patrons de l'industrie textile, essayant d'obtenir à l'amiable la réforme réclamée. La circulaire resta sans effet. On s'adressa cette fois aux Chambres. M. Cooreman, ministre du travail, promit de déposer un projet de loi, mais la dissolution des Chambres l'en empêcha. Le projet fut déposé le 11 décembre 1900 par M. Surmont de Volxberghe. Ce projet rendait obligatoire le système métrique comme base du nmesurage, sauf des exceptions à déterminer par le gouvernement.
+        <p xml:id="para_13__374">
+         <pb facs="#facs_43" n="259" source="od2m_s3_t3_m111a_0293.xml"/>
+         Le Tewtielbewerker commença la lutte par un article intitulé : « En fraude des lois sociales ». Il signalait des abus qui s'étaient produits à Roulers, et concluait à la nécessité d'une loi prescrivant le mètre comme unité de mesure et l'affichage obligatoire du tarif des salaires. On l'en¬voya à une soixantaine de représentants. Lors du congrès du « West¬vlaamsche Weversbond » (septembre 1896), l'assemblée exprima le même vœu. Deux ans s'écoulèrent, rien n'était changé. La « Landgilde der veefstofbeverkers » adressa alors une circulaire à tous les patrons de l'industrie textile, essayant d'obtenir à l'amiable la réforme réclamée. La circulaire resta sans effet. On s'adressa cette fois aux Chambres. M. Cooreman, ministre du travail, promit de déposer un projet de loi, mais la dissolution des Chambres l'en empêcha. Le projet fut déposé le 11 décembre 1900 par M. Surmont de Volxberghe. Ce projet rendait obligatoire le système métrique comme base du nmesurage, sauf des exceptions à déterminer par le gouvernement.
         </p>
-<p xml:id="para_13__375">
+        <p xml:id="para_13__375">
          Le « Westvlaamsche Weversbond » tint une réunion extraordinaire à Roulers le 24 février, où il fut décidé de demander au ministre l'inser¬tion dans le projet d'une clause rendant l'affichage du tarif obligatoire. Il fut décidé, en outre, d'agir dans le même sens près MM. les représen¬tants, membres du « Belgische Volksbond ».
         </p>
-<p xml:id="para_13__376">
+        <p xml:id="para_13__376">
          Malgré les efforts de M. Renkin, Anseele et Malempré, qui récla¬mèrent l'affichage obligatoire d'un tarif, la loi fut votée sans qu'il inter¬vnt de réglementation à ce sujet.
         </p>
-<p xml:id="para_13__377">
+        <p xml:id="para_13__377">
          On eut donc une loi sur le mesurage, mais l'application laissait forte¬ment à désirer à Roulers. Le syndicat protesta auprès du ministre et réclama un arrêté royal réglant cette application. « La loi du 30 juillet 1901, répondit le ministre, n'interdit point l'emploi, pour déterminer les salaires, d'unités de compte non basées sur le système métrique. L'inspection du travail n'est donc pas légalement autorisée à exiger l'abandon de semblables unités de compte, tel que, par exemple, le paiement aux pièces.
         </p>
-<p xml:id="para_13__378">
+        <p xml:id="para_13__378">
          « La loi du 30 juillet 1901 (art. 3 prévoit seulement que le gouverne¬ment pourra interdire, dans les industries déterminées, l'emploi d'unités de compte qui ne seraient point basées sur le système métrique, mais le gouvernement ne peut exercer ce droit qu'après avoir pris l'avis des sec¬tions compétentes des conseils de l'industrie et du travail (art. 4).
         </p>
-<p xml:id="para_13__379">
-         « Les sections de ces conseils représentant l'industrie du tissage seront réunies, en exécution de ladite loi, aussitôt après la validation des élec¬tions qui doivent avoir lieu dans le courant de ce mois pour le renou<pb facs="#facs_44" n="260" source="od2m_s3_t3_m111a_0294.xml"/>vellement ou la constitution d'un assez grand nombre d'entre elles. »
+        <p xml:id="para_13__379">
+         « Les sections de ces conseils représentant l'industrie du tissage seront réunies, en exécution de ladite loi, aussitôt après la validation des élec¬tions qui doivent avoir lieu dans le courant de ce mois pour le renou
+         <pb facs="#facs_44" n="260" source="od2m_s3_t3_m111a_0294.xml"/>
+         vellement ou la constitution d'un assez grand nombre d'entre elles. »
         </p>
-<p xml:id="para_13_260_382">
+        <p xml:id="para_13_260_382">
          Le ministre convoqua les conseils et leur soumit un questionnaire. Le mécontentement augmenta à Roulers, car on prétendait que les ques¬tions posées étaient en désaccord avec les déclarations du ministre au Sénat et celles faites au délégué Staessens de Roulers, ainsi qu'avec le texte de la nouvelle loi. M. Verhaegen qui, lors de la discussion du pro¬jet à la Chambre, s'était abstenu de soutenir l'amendement Renkin, Anseele et Malempré, déposa une proposition de loi réglementant cette question (5 mai 1902). Cette proposition, signée par MM. Verhaegeu, Renkin, Cooreman et Levie, tendait à obliger les patrons d'indiquer la base du salaire, soit dans le règlement d'atelier, soit dans un supplé¬ment.
         </p>
-<p xml:id="para_13_260_383">
+        <p xml:id="para_13_260_383">
          La fédération des « Christene Wevers » vota des remerciements à M. Verhaegen et résolut de l'appuyer. Une lettre collective fut envoyée à M. Francotte, alors ministre du travail, et un délégué, IP Staessens, de Roulers, fut chargé de soutenir personnellement près de lui les deside¬rata.
         </p>
-<p xml:id="para_13_260_384">
+        <p xml:id="para_13_260_384">
          Le ministre convoqua les conseils du travail pour demander leur avis sur la question. Les inspecteurs prétendaient que l'affichage était impos¬sible. Le conseil supérieur de l'industrie et du travail, saisi de la ques¬tion, amenda le projet et lui donna la forme suivante :
         </p>
-<p xml:id="para_13_260_385">
+        <p xml:id="para_13_260_385">
          Art. 1ᵉʳ. — La disposition suivante est insérée dans la loi du 15 juin 1896 sur les règlements d'atelier, dont elle formera l'article 2 bis (b).
         </p>
-<p xml:id="para_13_260_386">
+        <p xml:id="para_13_260_386">
          Art. 2 bis. — Dans les entreprises visées par l'article 1°f et déterminées par le roi, lorsque l'ouvrier est rétribué, à la pièce, à la tâche ou à l'en¬treprise, les bases de sa rémunération doivent lui être indiquées de manière à lui permettre le calcul de celle-ci et préalablement à l'exécu¬tion du travail, soit dans un tarif de salaires, soit dans un bulletin à remettre à l'ouvrier intéressé ou au chef d'équipe des ouvriers asso¬ciés.
         </p>
-<p xml:id="para_13_260_387">
+        <p xml:id="para_13_260_387">
          Tout changement au tarif ou au bulletin doit être porté à la connais¬sance des ouvriers intéressés, dans les mêmes conditions. Le change¬ment ne porte pas préjudice aux contrats en cours.
         </p>
-<p xml:id="para_13_260_388">
+        <p xml:id="para_13_260_388">
          Avant de déterminer les entreprises à soumettre aux prescriptions du présent article, le roi prend l'avis des sections compétentes des conseils de l'industrie et du travail et celui du conseil supérieur du travail.
         </p>
-<p xml:id="para_13_260_389">
+        <p xml:id="para_13_260_389">
          Art. 2. — L'alinéa dernier de l'article 1f de la même loi est complété comme suit: « Le tarif et le bulletin visés à l'article 2 bis doivent être rédigés dans une langue comprise par les ouvriers intéressés. »
         </p>
-<p xml:id="para_13_261_390">
-<pb facs="#facs_45" n="261" source="od2m_s3_t3_m111a_0295.xml"/> Art. 3. — Les deux premiers alinéas de l'article 2 de la même loi sont remplacés par les dispositions suivantes :
+        <p xml:id="para_13_261_390">
+         <pb facs="#facs_45" n="261" source="od2m_s3_t3_m111a_0295.xml"/>
+         Art. 3. — Les deux premiers alinéas de l'article 2 de la même loi sont remplacés par les dispositions suivantes :
         </p>
-<p xml:id="para_13_261_391">
+        <p xml:id="para_13_261_391">
          Le règlement est et reste affiché, le tarif visé à l'article 2 bis est et reste affiché ou déposé dans les lIocaux de l'entreprise à un endroit appa¬rent.
         </p>
-<p xml:id="para_13_261_392">
+        <p xml:id="para_13_261_392">
          Art. 4. — L'alinéa 2 de l'article 15 de la même loi est complété par les mots : « et ceux qui ne se seront pas conformés, le cas échéant, aux prescriptions de l'article 2 bis. »
         </p>
-<p xml:id="para_13_261_393">
+        <p xml:id="para_13_261_393">
          Cette proposition fut déposée à la Chambre ; jusqu'à ce jour, elle n'a pas encore été discutée.
         </p>
-<p xml:id="para_13_261_394">
+        <p xml:id="para_13_261_394">
          La loi sur le mesurage n'était pas appliquée à Roulers. En effet, elle prévoyait un arrété royal réglant son application. Il fut publié au Mo¬nileur le 1ᵉʳ octobre 1903. Il inaugurait comme base du mesurage le compteur automatique.
         </p>
-<p xml:id="para_13_261_395">
+        <p xml:id="para_13_261_395">
          Tout comme la loi de 1901, l'arrêté de 1903 resta inappliqué. Le syn¬dicat de Roulers menaça de se dissoudre comme union professionnelle reconnue. M. Gillès de Pélichy interpella le ministre dans la séance du 23 mai 1904. Le ministre reconnut n'avoir pas obtenu jusqu'à ce moment le succès que l'on pouvait attendre de la première application de la loi de 1901. En effet, sur 149 établissements, 54 étaient en défaut, 72 étaient complètement en règle et 23 à peu près en règle.
         </p>
-<p xml:id="para_13_261_396">
+        <p xml:id="para_13_261_396">
          Dans certains cas, il y avait ignorance de la loi ; il s'est trouvé des patrons qui ne savaient pas de quoi il s'agissait ; par contre, quelques autres ont montré un mauvais vouloir qu'il fallait réprimer.
         </p>
-<p xml:id="para_13_261_397">
+        <p xml:id="para_13_261_397">
          Le ministre estimait qu'il fallait agir par le raisonnement, par la per¬suasion. Il avait, déclarait-il, recommandé aux inspecteurs une surveil¬lance active, mais en même temps, leur avait prescrit de fournir jusqu'à dix fois leurs recommandations aux patrons qui ne seraient pas suffi¬samment éclairés, et de ne verbaliser que lorsqu'il leur serait démontré qu'il y avait un mauvais vouloir absolu.
         </p>
-<p xml:id="para_13_261_398">
+        <p xml:id="para_13_261_398">
          Roulers s'emporta. Une lettre véhémente, adressée au ministre, lui re¬procha d'avoir dit que les ouvriers étaient mécontents de la ioi, alors que tous les ouvriers, sans distinction, réclamaient cette loi.
         </p>
-<p xml:id="para_13_261_399">
-         Les journaux s'en mêlèrent; la question fut de nouveau posée devant la Chambre. Le ministre, dans sa réponse, exposa à merveille la situa¬tion : « On ne lit pas toujours très attentivement, dit-il, la loi du 30 juillet 1901 sur le mesurage du travail des ouvriers. Cette loi fait une distinc<pb facs="#facs_46" n="262" source="od2m_s3_t3_m111a_0296.xml"/>tion très nette entre les unités de poids et de mesure, qui doivent être basées sur le système métrique, et les unités de compte dont elle prévoit aussi l'emploi et qu'elle permet de réglementer.
+        <p xml:id="para_13_261_399">
+         Les journaux s'en mêlèrent; la question fut de nouveau posée devant la Chambre. Le ministre, dans sa réponse, exposa à merveille la situa¬tion : « On ne lit pas toujours très attentivement, dit-il, la loi du 30 juillet 1901 sur le mesurage du travail des ouvriers. Cette loi fait une distinc
+         <pb facs="#facs_46" n="262" source="od2m_s3_t3_m111a_0296.xml"/>
+         tion très nette entre les unités de poids et de mesure, qui doivent être basées sur le système métrique, et les unités de compte dont elle prévoit aussi l'emploi et qu'elle permet de réglementer.
         </p>
-<p xml:id="para_13_262_401">
+        <p xml:id="para_13_262_401">
          « Il y a des unités de compte excellentes; je citerai notamment la duite qui sert de base à la fixation du salaire et qui, comme telle, ne donne lieu à aucune contestation. En est-il de même des autres unités de compte ? On a commencé par se plaindre amèrement de ce qu'on appelle dans les Flandres la « smette », c'est-à-dire l'enseigne ou longueur de chaîne ourdie. Les ouvriers ont vivement critiqué l'emploi de cette unité ; ils ont estimé que tout contrôle était impossible, puisqu'on ne peut plus déterminer la longueur de la « smette », une fois que la pièce ourdie est transformée en pièce tissée.
         </p>
-<p xml:id="para_13_262_402">
+        <p xml:id="para_13_262_402">
          « La loi permettant d'interdire toute unité de compte qui n'est pas basée sur le système métrique, un arrêté royal du 1ᵉʳ octobre 1903 interdit l'emploi de la « smette ».
         </p>
-<p xml:id="para_13_262_403">
+        <p xml:id="para_13_262_403">
          « Cette mesure souleva quelques protestations de la part des patrons, sans donner aux ouvriers la satisfaction que j'espérais. En effet, la lon¬gueur de chaîne ourdie a été remplacée, pour fixer le salaire, par la pièce tissée. Il semble qu'une fois la pièce étendue, rien n'est plus facile que de se rendre compte de sa longueur. On croirait qu'il suffit d'une mesure quelconque, d'un mètre ou d'un métreur à rouleau ; mais ici apparaissent les griefs des patrons.
         </p>
-<p xml:id="para_13_262_404">
+        <p xml:id="para_13_262_404">
          « Il existe, paratt-il, une pratique, d'après laquelle l'ouvrier, au mo¬ment du mesurage, peut tendre à l'excès la pièce ; d'autre part, l'ouvrier, en diminuant le nombre de duites, c'est-à-dire en réduisant le nombre de fils de la trame, peut, avec une même longueur de chaîne ourdie, faire une pièce beaucoup plus grande que de raison, mais ayant une valeur sensiblement moindre, le tissu n'étant pas assez serré.
         </p>
-<p xml:id="para_13_262_405">
+        <p xml:id="para_13_262_405">
          La solution radicale consisterait à introduire dans les Flandres le compte-duites automatique qui marche si bien à Verviers et dont l'emploi ne donne lieu à aucune difficulté.
         </p>
-<p xml:id="para_13_262_406">
+        <p xml:id="para_13_262_406">
          « La perspective de cette réforme a provoqué des appréhensions chez les ouvriers, qui craignent un bloc enfariné et, d'autre part, suscite des protestations de la part des patrons, dont il troublerait les pratiques et à qui il imposerait des dépenses nouvelles. »
         </p>
-<p xml:id="para_13_262_407">
-         Voyant que prendre la chose au tragique ne réussissait pas, Roulers inaugura une autre tactique. Le ministre voulait un compteur automa¬tique : soit, ils en inventèrent un. Une lettre adressée au ministre an¬nonça la nouvelle. « Nous venons d'inventer un compteur automatique, <pb facs="#facs_47" n="263" source="od2m_s3_t3_m111a_0297.xml"/> qui donne un résultat idéal, veuillez avoir la bonté d'envoyer un ins¬pecteur. » L'inspecteur alla voir. Vraiment, il marchait tout le temps que dura l'inspection, mais une fois l'inspecteur parti, il s'arrêta uet, à jamais.
+        <p xml:id="para_13_262_407">
+         Voyant que prendre la chose au tragique ne réussissait pas, Roulers inaugura une autre tactique. Le ministre voulait un compteur automa¬tique : soit, ils en inventèrent un. Une lettre adressée au ministre an¬nonça la nouvelle. « Nous venons d'inventer un compteur automatique,
+         <pb facs="#facs_47" n="263" source="od2m_s3_t3_m111a_0297.xml"/>
+         qui donne un résultat idéal, veuillez avoir la bonté d'envoyer un ins¬pecteur. » L'inspecteur alla voir. Vraiment, il marchait tout le temps que dura l'inspection, mais une fois l'inspecteur parti, il s'arrêta uet, à jamais.
         </p>
-<p xml:id="para_13__409">
+        <p xml:id="para_13__409">
          Enfin,le 16 juillet 1905, le roi signa un arrêté royal conçu comme suit :
         </p>
-<p xml:id="para_13__410">
+        <p xml:id="para_13__410">
          Art. 1ᵉʳ. — Dans l'industrie du tissage, l'emploi de la pièce tissée et de l'êcheveau comme unités de compte servant à déterminer le salaire des ouvriers est interdit.
         </p>
-<p xml:id="para_13__411">
+        <p xml:id="para_13__411">
          Art. 2. — Le présent arrêté entrera en vigueur Ie 1ef septembre 1905.
         </p>
-<p xml:id="para_13__412">
+        <p xml:id="para_13__412">
          L'arrété resta sans application. De là, des plaintes sans nombre dans le Textielbevserker — veefstofbeverker — Gildeblad. L'inspecteur du travail ne pouvait nier le fait.
         </p>
-<p xml:id="para_13__413">
+        <p xml:id="para_13__413">
          L'application de ce nouvel arrêté rencontra d'abord une grande oppo¬sition dans les tissages mécaniques, puis peu à peu un changement s'opéra. Des patrons inaugurèrent, pour éviter les difficultés, un nouveau mode de paiement. Ils divisérent le prix fixe de la pièce par un nom¬bre de mètres supérieur à la longueur moyenne des pièces et laissèrent à l'ouvrier le choix entre le prix au mètre ainsi calculé et le prix fixe. Puis, peu à peu, ils prirent tous le système métrique comme unité de mesure.
         </p>
-<p xml:id="para_13__414">
+        <p xml:id="para_13__414">
          Quant à l'affichage du tarif des salaires, malgré l'absence de loi, on l'applique à peu près partout. Puisque les patrons sont olligés de par la loi de prendre le systéme métrique comme unité de mesure, il leur est facile de faire des tarifs de ce genre. D'ailleurs, pour faciliter le calcul des salaires, ils commencèrent par donner à chaque ouvrier un tarif, mais comme ces tarifs se perdaient trop facilement, nécessité leur fut de l'affi¬cher dans l'atelier.
         </p>
-<p xml:id="para_13__415">
+        <p xml:id="para_13__415">
          Le rapport officiel du syndicat catholique concluait à juste titre en 1907 : « Depuis dix ans, nous luttons pour le paiement au métre et l'affi¬chage obligatoire du tarif des salaires. Grâce à notre ténacité, les réfor¬mes sont introduites. »
         </p>
-<p xml:id="para_13__416">
+        <p xml:id="para_13__416">
          L'histoire de cet incident, de ce grief particulier, montre la forte orga¬nisation des groupes roulariens, et donne aussi un aperçu intéressant, croyons-nous, du caractère local.
         </p>
-<p xml:id="para_13__417">
+        <p xml:id="para_13__417">
          Le Gérant : A. VILLECHENOUX
         </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</body>
-</text>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>

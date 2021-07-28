@@ -1,318 +1,574 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--monographie--><TEI xml:id="ID-090b" xml:lang="fr">
-<teiHeader>
-<fileDesc>
-<titleStmt>
-<title>Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription</title>
-<respStmt>
-<persName>
-<forename>Alix</forename>
-<surname>Chagué</surname>
-<affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
-</affiliation>
-</persName>
-<resp>acquisition et structuration initiale des textes</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Jean-Damien</forename>
-<surname>Généro</surname>
-<affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
-</affiliation>
-<affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
-</affiliation>
-<affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
-</affiliation>
-</persName>
-<resp>encodage scientifique</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Stéphane</forename>
-<surname>Baciocchi</surname>
-<affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
-</affiliation>
-</persName>
-<resp>direction scientifique</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Anne</forename>
-<surname>Lhuissier</surname>
-<affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
-</affiliation>
-</persName>
-<resp>direction scientifique</resp>
-</respStmt>
-<respStmt>
-<persName>
-<forename>Éric</forename>
-<surname>Villemonte de la Clergerie</surname>
-<affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
-</affiliation>
-</persName>
-<resp>supervision technique</resp>
-</respStmt>
-</titleStmt>
-<publicationStmt>
-<publisher>projet ANR Time Us</publisher>
-<date from="2019" to="2021"/>
-<pubPlace>Paris, France</pubPlace>
-</publicationStmt>
-<sourceDesc>
-<p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
-</sourceDesc>
-</fileDesc>
-<encodingDesc>
-<projectDesc>
-<p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-</projectDesc>
-</encodingDesc>
-</teiHeader>
-<facsimile xml:id="facs_499">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$536/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_499b">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24537/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_500">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$539/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_501">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$540/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_502">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$541/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_503">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$542/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_504">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$543/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_505">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$544/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_506">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$545/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_507">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$546/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_508">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$547/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_509">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$548/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_510">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$549/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_511">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$550/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_512">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$551/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_513">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$552/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_514">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$553/full/full/0/default.jpg"/>
-</facsimile>
-<facsimile xml:id="facs_515">
-<surface lrx="2638" lry="4302"/>
-<graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$554/full/full/0/default.jpg"/>
-</facsimile>
-<text>
-<body>
-<div ana="#ID-090b" type="chapter">
-<div n="001" type="section">
-<p xml:id="para_16_484_1">N° 90 bis</p>
-<p xml:id="para_16_484_2">PRÉIS D'UNE MONOGRAPHIE</p>
-<p xml:id="para_16_484_3">D'UN</p>
-<p xml:id="para_16_484_4">MANEUVRE-COOLIE</p>
-<p xml:id="para_16_484_5">DE PNOM-PENH</p>
-<p xml:id="para_16_484_6">JOURNALIER</p>
-<p xml:id="para_16_484_7">DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS</p>
-<p>D'APRÈS</p>
-<p xml:id="para_16_484_8">LES RENSEIGNEMEÉNTS RECUEILLIS SUR LES LIEUX EN 1897</p>
-<p>PAR</p>
-<p xml:id="para_16_484_9">M. <persName>E. DELAIRE</persName>,</p>
-<p xml:id="para_16_484_10">architecte inspecteur des bâtiments civils au Cambodge.</p>
-</div>
-<div n="002" type="section">
-<head type="section" xml:id="part_02">OBSERVATIONS PRÉLIMINAIRES</head>
-<div n="001" type="sub_section">
-<head type="sub_section" xml:id="part_02_01">DÉFINITION DU LIEU, DE L'ORGANISATION INDUSTRIELLE ET DE LA FAMILLE</head>
-<div n="001" type="sub_sub_section">
-<p xml:id="para_16_484_14"><pb facs="#facs_499" n="484" source="2serlesouvriersde05sociuoft_0536.xml"/> Milieu où vit la famille. — La famille habite le faubourg annamite au Nord de la ville de Pnom-Penh ; la population y est assez divisée. — Les maisons, en paillotte, appartiennent à des Chinois ou à des Cam¬bodgiens aisés, et sont louées au mois.  Le sol du quartier est bas, marécageux ; les ruelles sont étroites, malpropres. Quelques boutiques de marchands chinois, un marché public achalandé représentent toute l'activité commerciale. Un grand boulevard, le long de la rive du Mélong, est en voie d'exécution et transformera prochainement cette partie de la ville dont les habitants devront émigrer. L'état sani¬taire est maiuvais actuellement.</p>
-<p xml:id="para_16_484_16">Les manoeuvres dits coolies sont engagés à la journée, et peuvent être renvoyés sans avis préalable. Cependant S*** pendant presque toute <pb facs="#facs_500" n="485" source="2serlesouvriersde05sociuoft_0539.xml"/> l'année est occupé par le même patron, chef d'une maison européenne d'importation; la paie y a lieu tous les mois, mais de fréquents acomptes sont accordés. S*** bénéficie aussi de quelques cadeaux et menues gratifications.. epos hebdomadaire et congés aux fêtes fran¬çaises et indigenes. Il n'existe dans la ville que les petits ateliers de fabricants ou artisans chinois occupant quelques ouvriers seulement. Le service des ponts et chaussées a organisé des équipes de maneu¬vres pour la confection et la réparation de quelques chemins. Une seule usine, pour l'égrenage du coton et l'utilisation des sous-produits, compte un personnel de pluns de cent hommes. Le travail se poursuit jour et nuit pendant cinq ou six mois ; la journée est de douze heures. Cet établissement, situé à Ksach-Kandal, a été cédé à des patrons chinois. On compte encore quelques distilleries d'alcool de riz, et une exploitation agricole à Kampot. Jusqu'ici, le recrutement des ouvriers est assez difficile, à cause de la paresse des indigènes, mais la discipline est maintenue partout sans peine.</p>
-<figure rend="landscape" type="photo">
-<head resp="original" type="photo" xml:id="figure_1">Cambodgiens et Annamites [§1]</head>
-<graphic facs="#facs_499b" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24537/151,311,2422,3758/full/!90/default.jpg"/>
-</figure>
-</div>
-<div n="002" type="sub_sub_section">
-<!--Individus cités :  S*** (n°090bE1) - Ti  (n°090bE2) - Chhim  (n°090bE3) - Sém  (n°090bE4)-->
-<p xml:id="para_16_485_18">Membres de la famille. — La famille comprend quatre personnes :</p>
-<p xml:id="para_16_485_19">1. <persName xml:id="ID-090bE1">S***</persName>, chef de famille, né à Takêo, près Pnom-Penh............ 32 ans.</p>
-<p xml:id="para_16_485_20">2. <persName xml:id="ID-090bE2">Ti</persName>, Sa femme, née à Pnom-Penh............ 28 —</p>
-<p xml:id="para_16_485_21">3. <persName xml:id="ID-090bE3">Chhim</persName>, leur fils, né à Pnom-Penh............ 5 —</p>
-<p xml:id="para_16_485_22">4. <persName xml:id="ID-090bE4">Sem</persName>, leur fille, née à Pnom-Penh............ 2 1/2.</p>
-<p xml:id="para_16_485_23">S*** est né de parents cambodgiens, habitant le village de Takêo, faubourg de Pnom-Penh ; il les a perdus tous deux à l'âge de quinze ans. Il a deux frères aînés. Sa femme Ti est fille d'un Cambodgien et d'une Annamite, alliance exceptionnelle au Cambodge ; le père était ouvrier charpentier aux chantiers du palais du roi; les frères et sœurs demeurés à Pnom-Penh, y vivent très pauvrement. S*** et Ti ont eu, outre Chhim et Sêm, un troisième enfant qui leur a été enlevé l'an dernier par la variole peu de mois après sa naissance.</p>
-</div>
-<div n="003" type="sub_sub_section">
-<p xml:id="para_16_485_24">Religion et habitudes morales. — Les membres de la famille sont bouddhistes ; l'origine annamite de la femme semble avoir affaibli la ferveur des croyances ; néanmoins l'autorité des mœurs et les tra¬ditions khmères maintiennent encore les pratiques du culte, et sur¬tout les grossières superstitions qui ont dénaturé la doctrine spiritua¬liste du Bouddha. Les rapports de S*** avec les commerçants européens chez lesquels il trouve un salaire plus élevé, ont beaucoup influé sur lui ; il comprend et parle un peu le francais sabir, qui est en usuge uvec les indigènes illettrés aux colonies ; il a même quitté le costume cambodgien, mais a conservé, semble-t-il, les qualités nationales : la <pb facs="#facs_501" n="486" source="2serlesouvriersde05sociuoft_0540.xml"/> douceur et la probité ; ses patrons tiennent beaucoup à lui. Le voisi¬nage de la communauté catholique, l'instruction donnée à quelques enfants par les Sœurs de l'ordre de Saint-Paul de Chartres, modifient aussi peu à peu la population de ce faubourg. Les parents montrent une grande affection pour leurs enfants et leur prodiguent les soins les plus tendres.</p>
-<p xml:id="para_16_486_27">La charge matérielle du ménage est minime; les petits nho vaguent nus la plupart du temps dans les rues ou sur les places, et leur nour¬riture comme leur éducation ne coûtent guère ; aussi voit-on beau¬coup de familles nombreuses. Sans les ravages des maladies endémi¬ques, l'accroissement de la population serait très rapide.</p>
-<p xml:id="para_16_486_28">Il n'est pas facile de supposer une amélioration du sort de la famille étudiée. Le père ne connait aucun métier, les Chinois seuls fournis¬sent des artisans ; les salaires qui se sont élevés pendant la période des travaux de la réfection de la ville, se maintiendront vraisembla¬blement aux taux actuels. L'épargne est bien difficile, à cause de la modicité, de l'instabilité des recettes. Par contre, la résignation, l'en¬durance de ces pauvres gens leur permet de supporter sans trop de peine, les privations des périodes de chômage.</p>
-</div>
-<div n="004" type="sub_sub_section">
-<p xml:id="para_16_486_29">Hygiêne et service de santé. — Les membres de la famille ont éprouvé les atteintes des maladies régnantes : fièvre, dysenterie, ophtalmie, etc. ; le plus jeune de leurs enfants, non vacciné, est mort en bas âge de la variole. L'hôpital francais leur accorde soins et mé¬dicaments. Pour tous soins de propreté, il n'y a à signaler que quel¬ques bains dans les eux du tonlé sap. Les accouchements ont eu lieu avec l'assistance d'une sage-femme annamite.</p>
-<p xml:id="para_16_486_30">S*** est grand et maigre ; sa constitution n'est pas robuste, fré¬quemment il est obligé d'interrompre son travail ; sa femme est petite, malingre ; tous deux, quoique jeunes, semblent déjà affaiblis ; les deux enfants qui leur restent sont bien portants.</p>
-</div>
-<div n="005" type="sub_sub_section">
-<p xml:id="para_16_486_31">Rang de la famille. — S*** occupe un rang des plus humbles ; il me possède pas un foyer personnel, distinct ; c'est l'ouvrier nomade, exposé à toutes les vicissitudes de la pauvreté. Ses relations avec les voisins, les parents, les amis de sa famille sont douces, aimables ; mais leur extrême misère à tous les prive des réunions intimes, des repas solennels, si goûtés des populations indo-chinoises. La bienveil¬lance que lui accordent ses patrons témoigne de son honnêteté, fort commune d'ailleurs dans ce modeste milieu. Il est trop ignorant pour apprécier les modifications que peut apporter la domination française <pb facs="#facs_502" n="487" source="2serlesouvriersde05sociuoft_0541.xml"/> au sort du peuple, trop pauvre pour avoir subi les exactions des man¬darins ; il semble destiné à demeurer indifférent, presque étranger aux importantes transformations politiques et sociales que subira son pays.</p>
-</div>
-</div>
-<div n="002" type="sub_section">
-<head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
-<div n="001" type="sub_sub_section">
-<div subtype="immeubles_argent" type="proprietes">
-<p xml:id="para_16_487_34">Proprietés. — La famille ne possède et ne possédera très proba¬blement jamais aucune propriété immobilière, l'ouvrier n'a pas même besoin d'outils professionnels. Les quelques piastres du fonds de rou¬lement ont souvent fait défaut ; le chiffre en a toujours été minime, au plus 10 francs.</p>
-</div>
-</div>
-<div n="002" type="sub_sub_section">
-<p xml:id="para_16_487_35">Subventions. — La famille recueille librement dans la brousse, aux diverses époques de l'année, les produits naturels du sol, tels que herbes comestibles, fruits sauvages, bois de chauffage. La valeur de ces droits d'usage peut etre estimée à 7 fr. 7I5.</p>
-<p xml:id="para_16_487_36">S*** reçoit à titre d'aumônes de vieux vêtements, quelques cadeaux des négociants européens qui l'emploient ; les consultations et médica¬ments de l'hôpital représentent une valeur d'une dizaine de piastres. L'ensemble des objets et services alloués est évalué à 40fr. 75.</p>
-</div>
-<div n="003" type="sub_sub_section">
-<div subtype="ouvrier" type="travaux">
-<p xml:id="para_16_487_37">Travaux. — L'ouvrier se loue comme coolie, pour le compte des commerçants et industriels de la ville. Il est maneuvre, jour¬nalier, homme de peine, incapauble d'aucun travail professionnel ; sa faiblesse physique, sa nonchalance font même de lui un médiocre portefaix.</p>
-<p xml:id="para_16_487_38">Les lourds chargements et déchargements de marchandises sur le port de Pnom-Penh sont le plus souvent exécutés par des Chinois vigoureux. S*** est occupé à peu près régulièrement dix mois de l'année à la manutention, au service intérieur des magasins chez un négociant français. Il fait les courses du dehors, entretient et nettoie les locaux, procède au rangement des marchandises, et à leur livrai¬son ; il touche un salaire quotidien de 30 cents (environ 0fr. 75) pour 10 heures de travail. Il reçoit occasionnellement quelques minimes gratifications, qui élèvent la recette mensuelle (absences déduites) à 20 francs (8 piastres). Pendant les deux mois de chômage, il est momentanément embauché à divers travaux ou chantiers publics, et peut encore gagner une quinaine de francs. Depuis quatre ans, il jouit d'une stabilité relative dans ces divers emplois.</p>
-<p xml:id="para_16_488_40"><pb facs="#facs_503" n="488" source="2serlesouvriersde05sociuoft_0542.xml"/> Aucune épargne, aucune assurance ne garantissent l'avenir.</p>
-</div>
-<div subtype="mere" type="travaux">
-<p xml:id="para_16_488_41">La mère s'occupe soigneusement des enfants et du ménage. La simplicité de sa mission maternelle lui laisse le loisir de tenir au marché voisin une petite boutique de légumes, de fruits, de poissons, dont le bénéfice net est à peu près de 40 francs par an.</p>
-</div>
-</div>
-</div>
-<div n="003" type="sub_section">
-<head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
-<div n="001" type="sub_sub_section">
-<p xml:id="para_16_488_43">Aliments et repas. — La base de la nourriture se compose de riz, environ 1 kilog. par personne et par jour. Les légumes à cuire, les poissons et les fruits proviennent de la boutique de la mère de fa¬mille et sont payés à des prix réduits. Pour les repas de midi et du soir, le ménage achète fréquemment aux petits débitants chinois, des portions toutes préparées contenant une espèce de soupe avec pois¬sons, ou viandes et légumes assaisonnés d'un peu de graisse de porc et de quelques condiments. Ces portions sont vendues un et deux cents, soit 0 fr. 025 ou 0 fr. 05. D'autres fois, la femme procède elle-même à la cuisson de ces aliments ; en tous les cas, le riz est préparé à la maison. La cuisine se fait au bois : il n'y a pas de houille. Le régime et le mode de nourriture sont presque semblables à ceux du ménage du petit fonctionnaire de Pnom-Penh. Plus de frugalité encore. Presque pas de viande, pas de volaille ni d'œufs, point d'eau potable. La famille est réduite à l'eau des mares, absorbée sans filtrage ni alu¬nage. Pas de café ni de thé. Quelques verres de chumchaumˉ, achetés chez le marchand chinois. Le ménage est trop pauvre pour supporter les frais de repas de fête offerts aux parents et amis. Son budget con¬cernant les dépenses de nourriture semble le minimum de ce que peut consommer une famille de quatre personnes.</p>
-</div>
-<div n="002" type="sub_sub_section">
-<div subtype="par_10_texte_1" type="par_10">
-<p xml:id="para_16_488_44">Habitation, mobilier et vêtements. — La famille n'occupe qu'une portion, un compartiment de 4ᵐ x 4ᵐ, d'une maison de bois à la cambodgienne, faisant partie d'une série de constructions rustiques élevées aux deux côtés d'une ruelle du village annamite. Les habita¬tions sont contigues, et une petite véranda abrite l'une des façades. Le loyer est trop cher, vu l'exiguité du local et la valeur de la ba¬tisse ; il se paie au mois et d'avance, à raison d'une piastre 1 5, environ 36 francs par an, ce qui représente au moins 40 1 de <pb facs="#facs_504" n="489" source="2serlesouvriersde05sociuoft_0543.xml"/> revenu pour le Chinois propriétaire. Néanmoins, la famille s'impose cette charge lourde, car il lui faudrait s'éloigner du centre de la ville pour trouver un terrain vacant, et elle ne possède pas les 25 ou 30 piastres nécessaires à la construction d'une paillotte.</p>
-</div>
-<div subtype="meubles_ustensiles" type="par_10">
-<p xml:id="para_16_489_47">Meubles et ustensiles. — L'unique chambre ne contient que trois nattes et quelques menus ustensiles de ménage, un fourneau portatif en terre cuite, une marmite et un bol en cuivre, une jarre pour l'eau, une lampe en fer-blane. Le tout en très mauvais état et sans valeur.</p>
-</div>
-<div subtype="linge" type="par_10">
-<p xml:id="para_16_489_48">Linge de ménage. — Il fait complètement défaut.</p>
-</div>
-<div subtype="vetements" type="par_10">
-<p xml:id="para_16_489_49">Vêtements. — Le chef de famille et sa femme portent le pantalon large, bo, comme les Annamites ; les vestons en toile et le chapeau du mari proviennent des dons de ses patrons. La femme porte la tunique annamite en tissu de coton noir, taillée et cousue par elle. Elle fabrique aussi les vêtements des enfants : d'ailleurs ceux-ci sont souvent nus.</p>
-<p xml:id="para_16_489_50">Comme vêtements la famille possède : 6 pantalons de coton, 7ᶠ 50 ; 3 tuniques en coton pour la femme, 4ᶠ 50; 6 vestes de toile blanche, 9ᶠ 00; 1 chapeau de feutre, 1ᶠ 00; 1 parapluie, 2ᶠ 00. Soit en tout pour une valeur de 24ᶠ 00.</p>
-</div>
-</div>
-<div n="003" type="sub_sub_section">
-<p xml:id="para_16_489_51">Récréations. — Les deux époux vivent en parfaite intimité, et après le travail se retrouvent avec les enfants dans la tranquillité de leur pauvre logis. Les relations de voisinage, de parenté, constituent leurs seules distractions, et leur plus grand plaisir est le repos, la quiétude des lon¬gues soirées àla maison. Tous participent avecjoie aux fêtes publiques et religieuses, aux divertissements du palais du Roi, aux spectacles forains, et ces occasions se renouvellent souvent. S*** fume et chique le bétel, mais sans excès ; il ne joue pas et n'abuse pas de l'alcool.</p>
-</div>
-</div>
-<div n="004" type="sub_section">
-<head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
-<p xml:id="para_16_489_53">Les parents de S*** vivaient misérablement à Talêo, et ne purent don¬ner aucune éducation à leurs enfants. Cependant les trois fils apprirent à la bonzerie la lecture et l'écriture. S*** a toujours connu la pauvreté et l'insécurité du lendemain ; il est demeuré insouciant et imprévoyant, et vit au jour le jour, très résigné. Il n'est point dépourvu d'intelli¬gence et remplit son poste de manutentionnaire à l'entière satisfaction <pb facs="#facs_505" n="490" source="2serlesouvriersde05sociuoft_0544.xml"/> de son patron ; il comprend un peu le français, connait la langue an¬namite et sait compter. Il s'est marié à vingt-quatre ans, sa femme en avait vingt, elle habitait alors le village de Talêo.</p>
-<p xml:id="para_16_490_56">Aucune propriété, aucune valeur mobilière de part ni d'autre, et le ménage n'a point l'espoir d'en acquérir. Au cours de l'année, la femme a dû maintes fois emprunter à une voisine annamite les quelques piastres destinées à l'achat des marchandises qu'elle va vendre au marché. Ces petits emprunts à courte durée, deux ou trois jours, se contractent à un cent par piastre et par jour, soit 365 par an; le budget annuel a été obéré de 10 francs de ce fait, fréquem¬ment répété. L'usure est un fléau en Indo-Chine. Les autorités n'ont rien tenté pour atténuer le mal. Au contraire, le mont-de-piété institué officiellement, affermé à un concessionnaire français, a été autorisé à exploiter vodieusement les pauvres indigènes, en leur prê¬tant sur gages, au taux excessif de 5 par mois. L'intérêt légal a peu à peu été modéré dans nos possessions cochinchinoises ; mais au Cambodge il est encore de 2, et 3 par mois.</p>
-<p xml:id="para_16_490_57">Le protectorat français aurait pu aussi, depuis plusieurs années, favoriser les progrès de l'instruction, encourager l'apprentissage, créer facilement, ne fût-ce que grâce aux chantiers de travaux pur blics, une classe solide d'artisans, d'ouvriers manuels. Il n'en a rien été : l'élément chinois, commeŗant et industriel, a absorbé tout, et les indigènes délaissés sont restés ignorants et incapables comme jadis. L'abolition de l'esclavage (<ref target="#ID-090a" type="renvoi_int_od2m">V. le § 17 de la monographie précédente</ref>) serait depuis longtemps un fait accompli, sans la coupable inertie des résidents français. Une action énergique doit être exercée sur le gou¬vernement du roi, qui a toujours opposé une apathie tout orientale à la réalisation des réformes les plus urgentes. C'est ainsi notamment que, malgré des engagements réitérés, la ferme des jeux subsiste dans tout le royaume. Le trésor royal (non plus le trésor français, il est vrai) concède, pour une somme annuelle de 100.000 piastres, l'ex¬ploitation des jeux publics à des traitants chinois. Les Asiatiques sont très friands des jeux de hasard ; les indigènes arrêtés pour vol ont presque tous perdu au oaquan le montant des larcins pour lesquels ils sont emprisonnés. C'est déjà trop que les recettes du fisc soient alimentées par les produits de deux autres monopoles également con¬traires à la morale et à la santé publiques : l'alcool et l'opium.</p>
-<p xml:id="para_16_490_58">La sécurité matérielle est maintenant générale sur tout le terri¬toire ; le rendement des impôts augmente progressivement, bien plus <pb facs="#facs_506" n="491" source="2serlesouvriersde05sociuoft_0545.xml"/> par une meilleure perception que par suite de nouvelles taxes. La création de nombreuses voies de communication fluviales ou ferrées développera l'activité agricole, et permettra l'exploitation de régions encore désertes ou insuffisamment cultivées. En établissant ou en con¬solidant la propriété, on contribuera très efficacement à ce développer ment et au repeuplement. Des institutions protectrices, comme le homestead, devraient assurer la transmission des patrimoines dans les familles ; il sera bon de mettre en garde l'indigène imprévoyant et igno¬rant contre la cupidité des trafiquants chinois qui exploitent déjà les paysans, cultivateurs de riz et de coton. La surveillance des résidents français est insuffisante et n'empêche pas les abus des juges prévarica¬teurs et des mandarins collecteurs d'impôts. L'éducation donnée par les boneries pourrait être accompagnée d'un enseignement élémen¬taire pratique, quelques encouragements officiels amèneraient un ra¬pide progrès. Croirait-on que l'imprimerie du protectorat n'a pas encore su publier de documents ou d'ouvrages en caractères cambod¬giens alors que toutes les langues similaires s'impriment aisément, le siamois, le birman, pour ne parler que des pays soumis au protec¬torat anglais, alors que l'Imprimerie nationale à Paris possède tous les caractères typographiques kmhers ? L'incapacité des fonctionnaires coloniaux est parfois inconcevable ; la mollesse, le relàchement des meurs de plusieurs, jusque dans les hauts rangs de la hiérarchie administrative, ont causé bien des scandales. Leur action sur les indi¬gènes est gênée par leur ignorance de la langue, et leur contrôle vis-à-vis des mandarins est illusoire.</p>
-<p xml:id="para_16_491_60">On le voit, la tâche du gouvernement français est importante ; il doit diriger, guider, énergiquement et sans retrd, les autorités cambodgiennes dans la voie d'une restauration sociale. Malgré leur apathie naturelle, ces populations simples et paisibles se relèveront peu à peu. Avec un peu de bien-être matériel, sous une sage adminis¬tration, elles reconquerront l'activité physique qu'une extrême mi¬sère, due à une tyrannie séculaire et non à leurs meurs, a depuis longtemps afaiblie, bien plus que les conditions du climat.</p>
-<p xml:id="para_16_491_61">Les institutions qui assureront à la famille, à la nation cambod¬gienne, le bien-être physique et moral seront celles qui s'inspireront du principe nécessaire à toute autorité : la justice, et qui rappelleront à ce peuple dégénéré le devoir universel de l'humanité : le travail.</p>
-</div>
-<div n="005" type="sub_section">
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_02">Budget des recettes de l'année.</head>
-<pb facs="#facs_507" n="492" source="2serlesouvriersde05sociuoft_0546.xml"/>
-<figure rend="portrait" type="cptes_recettes">
-<graphic facs="#facs_507" url="#" xml:id="tble_16_492_1"/>
-</figure>
-<pb facs="#facs_508" n="493" source="2serlesouvriersde05sociuoft_0547.xml"/>
-<figure rend="portrait" type="cptes_recettes">
-<graphic facs="#facs_508" url="#" xml:id="tble_16_493_2"/>
-</figure>
-<pb facs="#facs_509" n="494" source="2serlesouvriersde05sociuoft_0548.xml"/>
-<figure rend="portrait" type="cptes_recettes">
-<graphic facs="#facs_509" url="#" xml:id="tble_16_494_3"/>
-</figure>
-<pb facs="#facs_510" n="495" source="2serlesouvriersde05sociuoft_0549.xml"/>
-<figure rend="portrait" type="cptes_recettes">
-<graphic facs="#facs_510" url="#" xml:id="tble_16_495_4"/>
-</figure>
-</div>
-<div n="002" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_02_05_01">Budget des dépenses de l'année.</head>
-<pb facs="#facs_511" n="496" source="2serlesouvriersde05sociuoft_0550.xml"/>
-<figure rend="portrait" type="cptes_depenses">
-<graphic facs="#facs_511" url="#" xml:id="tble_16_496_5"/>
-</figure>
-<pb facs="#facs_512" n="497" source="2serlesouvriersde05sociuoft_0551.xml"/>
-<figure rend="portrait" type="cptes_depenses">
-<graphic facs="#facs_512" url="#" xml:id="tble_16_497_6"/>
-</figure>
-<pb facs="#facs_513" n="498" source="2serlesouvriersde05sociuoft_0552.xml"/>
-<figure rend="portrait" type="cptes_depenses">
-<graphic facs="#facs_513" url="#" xml:id="tble_16_498_7"/>
-</figure>
-</div>
-</div>
-</div>
-<div n="003" type="section">
-<head type="section" xml:id="part_03">DOCUMENTS ANNEXES</head>
-<div n="001" type="sub_section">
-<div n="001" type="sub_sub_section">
-<head type="sub_sub_section" xml:id="part_03_01_17">Extraits de la loi des Epouses, lakkhana tassa phyriya (traduction inédite).</head>
-<figure rend="portrait" type="ecriture">
-<head resp="added" type="ecriture" xml:id="figure_2">Texte khmer (notes annexes)</head>
-<graphic facs="#facs_514" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24553/359,887,2118,607/full/0/default.jpg" xml:id="illu_16_499_8"/>
-</figure>
-<p xml:id="para_16_499_79"><pb facs="#facs_514" n="499" source="2serlesouvriersde05sociuoft_0553.xml"/> Les lois cambodgiennes ont été codifiées en 189, et autographiées en 2 fascicules. Les articles suivants ont été traduits par l'auteur sur ce texte, qui comprend, en 80 pages, des prescriptions relatives aux devoirs du mariage.</p>
-<p xml:id="para_16_499_80">La fille que ses mère et père ont accordée en mariage à un homme qui a accompli les rites et s'est prosterné devant eux, cette fille sera l'épouse de cet homme, son nom sera épouse principale.</p>
-<p xml:id="para_16_499_81">Si un homme demande à une femme de venir chez lui, s'il la nourrit et prend soin d'elle, elle sera son épouse à la suite ; son rang viendra après celui de l'épouse principale, son nom sera épouse intermédiaire.</p>
-<p xml:id="para_16_499_82">Si une femme pauvre et misérable est recueillie, rachetée par un homme, s'il l'amène chez lui, la trouve belle et la nourrit, pour en faire son épouse, son nom sera servante-épouse.</p>
-<p xml:id="para_16_499_83">Si un homme commet l'adultère avec une femme épouse principale, il sera condamné à la totalité de l'amende fixée par la loi royale.</p>
-<p xml:id="para_16_499_84">Si un homme commet l'adultère avec une femme épouse intermé¬diaire, ilsera condamné à l'amende selon la loi ; mais il sera quitte d'un cinquième et ne paiera que les quatre cinquièmes.</p>
-<p xml:id="para_16_499_85">Si un homme commet l'adultere avec une servante épouse, il sera condamné à l'amende selon la loi, mais il sera quitte de deux cin¬quièmes et ne paiera que les trois cinquièmes.</p>
-<p xml:id="para_16_499_86">Quant à la femme corrompue et vicieuse reconnue coupable d'adul¬tère, on lui couvrira la tête d'un panier, on lui placer des fleurs rouges aux oreilles, des tresses de mêmes fleurs sur la tète et au cou ; on la promènera publiquement pendant trois jours, au bruit du gong.</p>
-<p xml:id="para_16_499_87">Pour se racheter de ce châtiment, elle paiera amende suivunt son âge ; le montant de l'amende servira à la nourriture des éléphants du roi. Si le mari de la femme coupable persiste à l'aimer, elle sera quitte <pb facs="#facs_515" n="500" source="2serlesouvriersde05sociuoft_0554.xml"/> du châtiment, mais elle devra payer l'amende au profit du trésor royal.</p>
-<p xml:id="para_16_500_90">Si une femme commet l'adultère, et que le mari la surprenne en flagrant délit avec l'amant, s'il frappe et tue l'amant, qu'il frappe la femme aussi ; il ne doit pas tuer seulementl'un des deux coupables. S'il épargne l'un ou l'autre, le mari meurtrier sera condamné à une amende proportionnée à ses grades ; l'amende sera versée au trésor royal.</p>
-<p xml:id="para_16_500_91">Si une femme est infidèle, et que sa faute soit démontrée par l'en¬quête, l'épouse coupable et son complice paieront l'amende fixée par la loi. Les biens, richesses, esclaves, éléphants, chevaux, buffles, bœufs appartenant aux deux coupables, qu'il y en ait peu ou beaucoup, seront attribués au mari offensé.</p>
-<p xml:id="para_16_500_92">Si un homme a des relations coupables avec une femme mariée et veut ensuite l'épouser, il ne le pourra pas, la loi défend l'adultère, la femme coupable sera rendue à son mari.</p>
-<p xml:id="para_16_500_93">Si un maître, ou l'un de ses fils, frères ou neveux, use de violence pour séduire une fille esclave et la possède, si cette fille crie au se¬cours et que ses cris soient entendus ; la loi décide qu'elle sera libérée pour moitié et ne devra plus à son maître que la moitié du prix de son rachat. — Si l'esclave a consenti de plein gré, elle ne sera pas libérée.</p>
-<p xml:id="para_16_500_94">Si un homme et une femme ont vécu ensemble, gagné leur vie en commun comme mari et épouse et que l'homme injustement la quitte et reprenne tous les biens, autant les propres que ceux acquis par le travail commun, la femme pourra déposer une plainte. Cet homme n'a pas nourri, soigné sa femme comme il est juste ; il devra rapporter tous les biens, dont il sera opéré un partage le mari reprendra ses propres ; le surplus, qu'il y en ait peu ou beaucoup, sera attribué par moitié à chaque époux. La femme cessera d'être l'épouse de cet homme qui l'a quittée, et ne l'a pas nourrie suivant la loi morale.</p>
-<p xml:id="para_16_500_95">Si un mari et son épouse se battent, se querellent, veulent se séparer, le mari devra signer une lettre de divorce pour libérer son épouse. S'ils ne s'entendent pas, que tous deux veuillent se quitter de leur plein gré, c'est qu'il y a une fatalité contre leur union, la loi ne les contraint pas à demeurer liés contre leur volonté : qu'ils se quittent. La'femme remettra les biens propres, plus les présents de noces s'il n'y a pas d'enfants.</p>
-<p xml:id="para_16_500_96">Le Roi veut que des ordres soient donnés dans tout le royaume pour que chaque homme nourrisse, entretienne, soigne, sa famille, enfants, femme, frères et parents, selon le devoir de justice et quel que soit le nombre de personnes à sa charge.</p>
-</div>
-</div>
-</div>
-</div>
-</body>
-</text>
+<!--monographie-->
+<TEI xml:id="ID-090b" xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription
+    </title>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     projet ANR Time Us
+    </publisher>
+    <date from="2019" to="2021"/>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+   </publicationStmt>
+   <sourceDesc>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>
+     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
+    </p>
+   </projectDesc>
+  </encodingDesc>
+ </teiHeader>
+ <facsimile xml:id="facs_499">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$536/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_499b">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24537/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_500">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$539/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_501">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$540/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_502">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$541/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_503">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$542/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_504">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$543/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_505">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$544/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_506">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$545/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_507">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$546/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_508">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$547/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_509">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$548/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_510">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$549/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_511">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$550/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_512">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$551/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_513">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$552/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_514">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$553/full/full/0/default.jpg"/>
+ </facsimile>
+ <facsimile xml:id="facs_515">
+  <surface lrx="2638" lry="4302"/>
+  <graphic url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft$554/full/full/0/default.jpg"/>
+ </facsimile>
+ <text>
+  <body>
+   <div ana="#ID-090b" type="chapter">
+    <div n="001" type="section">
+     <p xml:id="para_16_484_1">
+      N° 90 bis
+     </p>
+     <p xml:id="para_16_484_2">
+      PRÉIS D'UNE MONOGRAPHIE
+     </p>
+     <p xml:id="para_16_484_3">
+      D'UN
+     </p>
+     <p xml:id="para_16_484_4">
+      MANEUVRE-COOLIE
+     </p>
+     <p xml:id="para_16_484_5">
+      DE PNOM-PENH
+     </p>
+     <p xml:id="para_16_484_6">
+      JOURNALIER
+     </p>
+     <p xml:id="para_16_484_7">
+      DANS LE SYSTÈME DES ENGAGEMENTS MOMENTANÉS
+     </p>
+     <p>
+      D'APRÈS
+     </p>
+     <p xml:id="para_16_484_8">
+      LES RENSEIGNEMEÉNTS RECUEILLIS SUR LES LIEUX EN 1897
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_16_484_9">
+      M.
+      <persName>
+       E. DELAIRE
+      </persName>
+      ,
+     </p>
+     <p xml:id="para_16_484_10">
+      architecte inspecteur des bâtiments civils au Cambodge.
+     </p>
+    </div>
+    <div n="002" type="section">
+     <head type="section" xml:id="part_02">
+      OBSERVATIONS PRÉLIMINAIRES
+     </head>
+     <div n="001" type="sub_section">
+      <head type="sub_section" xml:id="part_02_01">
+       DÉFINITION DU LIEU, DE L'ORGANISATION INDUSTRIELLE ET DE LA FAMILLE
+      </head>
+      <div n="001" type="sub_sub_section">
+       <p xml:id="para_16_484_14">
+        <pb facs="#facs_499" n="484" source="2serlesouvriersde05sociuoft_0536.xml"/>
+        Milieu où vit la famille. — La famille habite le faubourg annamite au Nord de la ville de Pnom-Penh ; la population y est assez divisée. — Les maisons, en paillotte, appartiennent à des Chinois ou à des Cam¬bodgiens aisés, et sont louées au mois.  Le sol du quartier est bas, marécageux ; les ruelles sont étroites, malpropres. Quelques boutiques de marchands chinois, un marché public achalandé représentent toute l'activité commerciale. Un grand boulevard, le long de la rive du Mélong, est en voie d'exécution et transformera prochainement cette partie de la ville dont les habitants devront émigrer. L'état sani¬taire est maiuvais actuellement.
+       </p>
+       <p xml:id="para_16_484_16">
+        Les manoeuvres dits coolies sont engagés à la journée, et peuvent être renvoyés sans avis préalable. Cependant S*** pendant presque toute
+        <pb facs="#facs_500" n="485" source="2serlesouvriersde05sociuoft_0539.xml"/>
+        l'année est occupé par le même patron, chef d'une maison européenne d'importation; la paie y a lieu tous les mois, mais de fréquents acomptes sont accordés. S*** bénéficie aussi de quelques cadeaux et menues gratifications.. epos hebdomadaire et congés aux fêtes fran¬çaises et indigenes. Il n'existe dans la ville que les petits ateliers de fabricants ou artisans chinois occupant quelques ouvriers seulement. Le service des ponts et chaussées a organisé des équipes de maneu¬vres pour la confection et la réparation de quelques chemins. Une seule usine, pour l'égrenage du coton et l'utilisation des sous-produits, compte un personnel de pluns de cent hommes. Le travail se poursuit jour et nuit pendant cinq ou six mois ; la journée est de douze heures. Cet établissement, situé à Ksach-Kandal, a été cédé à des patrons chinois. On compte encore quelques distilleries d'alcool de riz, et une exploitation agricole à Kampot. Jusqu'ici, le recrutement des ouvriers est assez difficile, à cause de la paresse des indigènes, mais la discipline est maintenue partout sans peine.
+       </p>
+       <figure rend="landscape" type="photo">
+        <head resp="original" type="photo" xml:id="figure_1">
+         Cambodgiens et Annamites [§1]
+        </head>
+        <graphic facs="#facs_499b" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24537/151,311,2422,3758/full/!90/default.jpg"/>
+       </figure>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <!--Individus cités :  S*** (n°090bE1) - Ti  (n°090bE2) - Chhim  (n°090bE3) - Sém  (n°090bE4)-->
+       <p xml:id="para_16_485_18">
+        Membres de la famille. — La famille comprend quatre personnes :
+       </p>
+       <p xml:id="para_16_485_19">
+        1.
+        <persName xml:id="ID-090bE1">
+         S***
+        </persName>
+        , chef de famille, né à Takêo, près Pnom-Penh............ 32 ans.
+       </p>
+       <p xml:id="para_16_485_20">
+        2.
+        <persName xml:id="ID-090bE2">
+         Ti
+        </persName>
+        , Sa femme, née à Pnom-Penh............ 28 —
+       </p>
+       <p xml:id="para_16_485_21">
+        3.
+        <persName xml:id="ID-090bE3">
+         Chhim
+        </persName>
+        , leur fils, né à Pnom-Penh............ 5 —
+       </p>
+       <p xml:id="para_16_485_22">
+        4.
+        <persName xml:id="ID-090bE4">
+         Sem
+        </persName>
+        , leur fille, née à Pnom-Penh............ 2 1/2.
+       </p>
+       <p xml:id="para_16_485_23">
+        S*** est né de parents cambodgiens, habitant le village de Takêo, faubourg de Pnom-Penh ; il les a perdus tous deux à l'âge de quinze ans. Il a deux frères aînés. Sa femme Ti est fille d'un Cambodgien et d'une Annamite, alliance exceptionnelle au Cambodge ; le père était ouvrier charpentier aux chantiers du palais du roi; les frères et sœurs demeurés à Pnom-Penh, y vivent très pauvrement. S*** et Ti ont eu, outre Chhim et Sêm, un troisième enfant qui leur a été enlevé l'an dernier par la variole peu de mois après sa naissance.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <p xml:id="para_16_485_24">
+        Religion et habitudes morales. — Les membres de la famille sont bouddhistes ; l'origine annamite de la femme semble avoir affaibli la ferveur des croyances ; néanmoins l'autorité des mœurs et les tra¬ditions khmères maintiennent encore les pratiques du culte, et sur¬tout les grossières superstitions qui ont dénaturé la doctrine spiritua¬liste du Bouddha. Les rapports de S*** avec les commerçants européens chez lesquels il trouve un salaire plus élevé, ont beaucoup influé sur lui ; il comprend et parle un peu le francais sabir, qui est en usuge uvec les indigènes illettrés aux colonies ; il a même quitté le costume cambodgien, mais a conservé, semble-t-il, les qualités nationales : la
+        <pb facs="#facs_501" n="486" source="2serlesouvriersde05sociuoft_0540.xml"/>
+        douceur et la probité ; ses patrons tiennent beaucoup à lui. Le voisi¬nage de la communauté catholique, l'instruction donnée à quelques enfants par les Sœurs de l'ordre de Saint-Paul de Chartres, modifient aussi peu à peu la population de ce faubourg. Les parents montrent une grande affection pour leurs enfants et leur prodiguent les soins les plus tendres.
+       </p>
+       <p xml:id="para_16_486_27">
+        La charge matérielle du ménage est minime; les petits nho vaguent nus la plupart du temps dans les rues ou sur les places, et leur nour¬riture comme leur éducation ne coûtent guère ; aussi voit-on beau¬coup de familles nombreuses. Sans les ravages des maladies endémi¬ques, l'accroissement de la population serait très rapide.
+       </p>
+       <p xml:id="para_16_486_28">
+        Il n'est pas facile de supposer une amélioration du sort de la famille étudiée. Le père ne connait aucun métier, les Chinois seuls fournis¬sent des artisans ; les salaires qui se sont élevés pendant la période des travaux de la réfection de la ville, se maintiendront vraisembla¬blement aux taux actuels. L'épargne est bien difficile, à cause de la modicité, de l'instabilité des recettes. Par contre, la résignation, l'en¬durance de ces pauvres gens leur permet de supporter sans trop de peine, les privations des périodes de chômage.
+       </p>
+      </div>
+      <div n="004" type="sub_sub_section">
+       <p xml:id="para_16_486_29">
+        Hygiêne et service de santé. — Les membres de la famille ont éprouvé les atteintes des maladies régnantes : fièvre, dysenterie, ophtalmie, etc. ; le plus jeune de leurs enfants, non vacciné, est mort en bas âge de la variole. L'hôpital francais leur accorde soins et mé¬dicaments. Pour tous soins de propreté, il n'y a à signaler que quel¬ques bains dans les eux du tonlé sap. Les accouchements ont eu lieu avec l'assistance d'une sage-femme annamite.
+       </p>
+       <p xml:id="para_16_486_30">
+        S*** est grand et maigre ; sa constitution n'est pas robuste, fré¬quemment il est obligé d'interrompre son travail ; sa femme est petite, malingre ; tous deux, quoique jeunes, semblent déjà affaiblis ; les deux enfants qui leur restent sont bien portants.
+       </p>
+      </div>
+      <div n="005" type="sub_sub_section">
+       <p xml:id="para_16_486_31">
+        Rang de la famille. — S*** occupe un rang des plus humbles ; il me possède pas un foyer personnel, distinct ; c'est l'ouvrier nomade, exposé à toutes les vicissitudes de la pauvreté. Ses relations avec les voisins, les parents, les amis de sa famille sont douces, aimables ; mais leur extrême misère à tous les prive des réunions intimes, des repas solennels, si goûtés des populations indo-chinoises. La bienveil¬lance que lui accordent ses patrons témoigne de son honnêteté, fort commune d'ailleurs dans ce modeste milieu. Il est trop ignorant pour apprécier les modifications que peut apporter la domination française
+        <pb facs="#facs_502" n="487" source="2serlesouvriersde05sociuoft_0541.xml"/>
+        au sort du peuple, trop pauvre pour avoir subi les exactions des man¬darins ; il semble destiné à demeurer indifférent, presque étranger aux importantes transformations politiques et sociales que subira son pays.
+       </p>
+      </div>
+     </div>
+     <div n="002" type="sub_section">
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <div subtype="immeubles_argent" type="proprietes">
+        <p xml:id="para_16_487_34">
+         Proprietés. — La famille ne possède et ne possédera très proba¬blement jamais aucune propriété immobilière, l'ouvrier n'a pas même besoin d'outils professionnels. Les quelques piastres du fonds de rou¬lement ont souvent fait défaut ; le chiffre en a toujours été minime, au plus 10 francs.
+        </p>
+       </div>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <p xml:id="para_16_487_35">
+        Subventions. — La famille recueille librement dans la brousse, aux diverses époques de l'année, les produits naturels du sol, tels que herbes comestibles, fruits sauvages, bois de chauffage. La valeur de ces droits d'usage peut etre estimée à 7 fr. 7I5.
+       </p>
+       <p xml:id="para_16_487_36">
+        S*** reçoit à titre d'aumônes de vieux vêtements, quelques cadeaux des négociants européens qui l'emploient ; les consultations et médica¬ments de l'hôpital représentent une valeur d'une dizaine de piastres. L'ensemble des objets et services alloués est évalué à 40fr. 75.
+       </p>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <div subtype="ouvrier" type="travaux">
+        <p xml:id="para_16_487_37">
+         Travaux. — L'ouvrier se loue comme coolie, pour le compte des commerçants et industriels de la ville. Il est maneuvre, jour¬nalier, homme de peine, incapauble d'aucun travail professionnel ; sa faiblesse physique, sa nonchalance font même de lui un médiocre portefaix.
+        </p>
+        <p xml:id="para_16_487_38">
+         Les lourds chargements et déchargements de marchandises sur le port de Pnom-Penh sont le plus souvent exécutés par des Chinois vigoureux. S*** est occupé à peu près régulièrement dix mois de l'année à la manutention, au service intérieur des magasins chez un négociant français. Il fait les courses du dehors, entretient et nettoie les locaux, procède au rangement des marchandises, et à leur livrai¬son ; il touche un salaire quotidien de 30 cents (environ 0fr. 75) pour 10 heures de travail. Il reçoit occasionnellement quelques minimes gratifications, qui élèvent la recette mensuelle (absences déduites) à 20 francs (8 piastres). Pendant les deux mois de chômage, il est momentanément embauché à divers travaux ou chantiers publics, et peut encore gagner une quinaine de francs. Depuis quatre ans, il jouit d'une stabilité relative dans ces divers emplois.
+        </p>
+        <p xml:id="para_16_488_40">
+         <pb facs="#facs_503" n="488" source="2serlesouvriersde05sociuoft_0542.xml"/>
+         Aucune épargne, aucune assurance ne garantissent l'avenir.
+        </p>
+       </div>
+       <div subtype="mere" type="travaux">
+        <p xml:id="para_16_488_41">
+         La mère s'occupe soigneusement des enfants et du ménage. La simplicité de sa mission maternelle lui laisse le loisir de tenir au marché voisin une petite boutique de légumes, de fruits, de poissons, dont le bénéfice net est à peu près de 40 francs par an.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div n="003" type="sub_section">
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
+      <div n="001" type="sub_sub_section">
+       <p xml:id="para_16_488_43">
+        Aliments et repas. — La base de la nourriture se compose de riz, environ 1 kilog. par personne et par jour. Les légumes à cuire, les poissons et les fruits proviennent de la boutique de la mère de fa¬mille et sont payés à des prix réduits. Pour les repas de midi et du soir, le ménage achète fréquemment aux petits débitants chinois, des portions toutes préparées contenant une espèce de soupe avec pois¬sons, ou viandes et légumes assaisonnés d'un peu de graisse de porc et de quelques condiments. Ces portions sont vendues un et deux cents, soit 0 fr. 025 ou 0 fr. 05. D'autres fois, la femme procède elle-même à la cuisson de ces aliments ; en tous les cas, le riz est préparé à la maison. La cuisine se fait au bois : il n'y a pas de houille. Le régime et le mode de nourriture sont presque semblables à ceux du ménage du petit fonctionnaire de Pnom-Penh. Plus de frugalité encore. Presque pas de viande, pas de volaille ni d'œufs, point d'eau potable. La famille est réduite à l'eau des mares, absorbée sans filtrage ni alu¬nage. Pas de café ni de thé. Quelques verres de chumchaumˉ, achetés chez le marchand chinois. Le ménage est trop pauvre pour supporter les frais de repas de fête offerts aux parents et amis. Son budget con¬cernant les dépenses de nourriture semble le minimum de ce que peut consommer une famille de quatre personnes.
+       </p>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <div subtype="par_10_texte_1" type="par_10">
+        <p xml:id="para_16_488_44">
+         Habitation, mobilier et vêtements. — La famille n'occupe qu'une portion, un compartiment de 4ᵐ x 4ᵐ, d'une maison de bois à la cambodgienne, faisant partie d'une série de constructions rustiques élevées aux deux côtés d'une ruelle du village annamite. Les habita¬tions sont contigues, et une petite véranda abrite l'une des façades. Le loyer est trop cher, vu l'exiguité du local et la valeur de la ba¬tisse ; il se paie au mois et d'avance, à raison d'une piastre 1 5, environ 36 francs par an, ce qui représente au moins 40 1 de
+         <pb facs="#facs_504" n="489" source="2serlesouvriersde05sociuoft_0543.xml"/>
+         revenu pour le Chinois propriétaire. Néanmoins, la famille s'impose cette charge lourde, car il lui faudrait s'éloigner du centre de la ville pour trouver un terrain vacant, et elle ne possède pas les 25 ou 30 piastres nécessaires à la construction d'une paillotte.
+        </p>
+       </div>
+       <div subtype="meubles_ustensiles" type="par_10">
+        <p xml:id="para_16_489_47">
+         Meubles et ustensiles. — L'unique chambre ne contient que trois nattes et quelques menus ustensiles de ménage, un fourneau portatif en terre cuite, une marmite et un bol en cuivre, une jarre pour l'eau, une lampe en fer-blane. Le tout en très mauvais état et sans valeur.
+        </p>
+       </div>
+       <div subtype="linge" type="par_10">
+        <p xml:id="para_16_489_48">
+         Linge de ménage. — Il fait complètement défaut.
+        </p>
+       </div>
+       <div subtype="vetements" type="par_10">
+        <p xml:id="para_16_489_49">
+         Vêtements. — Le chef de famille et sa femme portent le pantalon large, bo, comme les Annamites ; les vestons en toile et le chapeau du mari proviennent des dons de ses patrons. La femme porte la tunique annamite en tissu de coton noir, taillée et cousue par elle. Elle fabrique aussi les vêtements des enfants : d'ailleurs ceux-ci sont souvent nus.
+        </p>
+        <p xml:id="para_16_489_50">
+         Comme vêtements la famille possède : 6 pantalons de coton, 7ᶠ 50 ; 3 tuniques en coton pour la femme, 4ᶠ 50; 6 vestes de toile blanche, 9ᶠ 00; 1 chapeau de feutre, 1ᶠ 00; 1 parapluie, 2ᶠ 00. Soit en tout pour une valeur de 24ᶠ 00.
+        </p>
+       </div>
+      </div>
+      <div n="003" type="sub_sub_section">
+       <p xml:id="para_16_489_51">
+        Récréations. — Les deux époux vivent en parfaite intimité, et après le travail se retrouvent avec les enfants dans la tranquillité de leur pauvre logis. Les relations de voisinage, de parenté, constituent leurs seules distractions, et leur plus grand plaisir est le repos, la quiétude des lon¬gues soirées àla maison. Tous participent avecjoie aux fêtes publiques et religieuses, aux divertissements du palais du Roi, aux spectacles forains, et ces occasions se renouvellent souvent. S*** fume et chique le bétel, mais sans excès ; il ne joue pas et n'abuse pas de l'alcool.
+       </p>
+      </div>
+     </div>
+     <div n="004" type="sub_section">
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
+      <p xml:id="para_16_489_53">
+       Les parents de S*** vivaient misérablement à Talêo, et ne purent don¬ner aucune éducation à leurs enfants. Cependant les trois fils apprirent à la bonzerie la lecture et l'écriture. S*** a toujours connu la pauvreté et l'insécurité du lendemain ; il est demeuré insouciant et imprévoyant, et vit au jour le jour, très résigné. Il n'est point dépourvu d'intelli¬gence et remplit son poste de manutentionnaire à l'entière satisfaction
+       <pb facs="#facs_505" n="490" source="2serlesouvriersde05sociuoft_0544.xml"/>
+       de son patron ; il comprend un peu le français, connait la langue an¬namite et sait compter. Il s'est marié à vingt-quatre ans, sa femme en avait vingt, elle habitait alors le village de Talêo.
+      </p>
+      <p xml:id="para_16_490_56">
+       Aucune propriété, aucune valeur mobilière de part ni d'autre, et le ménage n'a point l'espoir d'en acquérir. Au cours de l'année, la femme a dû maintes fois emprunter à une voisine annamite les quelques piastres destinées à l'achat des marchandises qu'elle va vendre au marché. Ces petits emprunts à courte durée, deux ou trois jours, se contractent à un cent par piastre et par jour, soit 365 par an; le budget annuel a été obéré de 10 francs de ce fait, fréquem¬ment répété. L'usure est un fléau en Indo-Chine. Les autorités n'ont rien tenté pour atténuer le mal. Au contraire, le mont-de-piété institué officiellement, affermé à un concessionnaire français, a été autorisé à exploiter vodieusement les pauvres indigènes, en leur prê¬tant sur gages, au taux excessif de 5 par mois. L'intérêt légal a peu à peu été modéré dans nos possessions cochinchinoises ; mais au Cambodge il est encore de 2, et 3 par mois.
+      </p>
+      <p xml:id="para_16_490_57">
+       Le protectorat français aurait pu aussi, depuis plusieurs années, favoriser les progrès de l'instruction, encourager l'apprentissage, créer facilement, ne fût-ce que grâce aux chantiers de travaux pur blics, une classe solide d'artisans, d'ouvriers manuels. Il n'en a rien été : l'élément chinois, commeŗant et industriel, a absorbé tout, et les indigènes délaissés sont restés ignorants et incapables comme jadis. L'abolition de l'esclavage (
+       <ref target="#ID-090a" type="renvoi_int_od2m">
+        V. le § 17 de la monographie précédente
+       </ref>
+       ) serait depuis longtemps un fait accompli, sans la coupable inertie des résidents français. Une action énergique doit être exercée sur le gou¬vernement du roi, qui a toujours opposé une apathie tout orientale à la réalisation des réformes les plus urgentes. C'est ainsi notamment que, malgré des engagements réitérés, la ferme des jeux subsiste dans tout le royaume. Le trésor royal (non plus le trésor français, il est vrai) concède, pour une somme annuelle de 100.000 piastres, l'ex¬ploitation des jeux publics à des traitants chinois. Les Asiatiques sont très friands des jeux de hasard ; les indigènes arrêtés pour vol ont presque tous perdu au oaquan le montant des larcins pour lesquels ils sont emprisonnés. C'est déjà trop que les recettes du fisc soient alimentées par les produits de deux autres monopoles également con¬traires à la morale et à la santé publiques : l'alcool et l'opium.
+      </p>
+      <p xml:id="para_16_490_58">
+       La sécurité matérielle est maintenant générale sur tout le terri¬toire ; le rendement des impôts augmente progressivement, bien plus
+       <pb facs="#facs_506" n="491" source="2serlesouvriersde05sociuoft_0545.xml"/>
+       par une meilleure perception que par suite de nouvelles taxes. La création de nombreuses voies de communication fluviales ou ferrées développera l'activité agricole, et permettra l'exploitation de régions encore désertes ou insuffisamment cultivées. En établissant ou en con¬solidant la propriété, on contribuera très efficacement à ce développer ment et au repeuplement. Des institutions protectrices, comme le homestead, devraient assurer la transmission des patrimoines dans les familles ; il sera bon de mettre en garde l'indigène imprévoyant et igno¬rant contre la cupidité des trafiquants chinois qui exploitent déjà les paysans, cultivateurs de riz et de coton. La surveillance des résidents français est insuffisante et n'empêche pas les abus des juges prévarica¬teurs et des mandarins collecteurs d'impôts. L'éducation donnée par les boneries pourrait être accompagnée d'un enseignement élémen¬taire pratique, quelques encouragements officiels amèneraient un ra¬pide progrès. Croirait-on que l'imprimerie du protectorat n'a pas encore su publier de documents ou d'ouvrages en caractères cambod¬giens alors que toutes les langues similaires s'impriment aisément, le siamois, le birman, pour ne parler que des pays soumis au protec¬torat anglais, alors que l'Imprimerie nationale à Paris possède tous les caractères typographiques kmhers ? L'incapacité des fonctionnaires coloniaux est parfois inconcevable ; la mollesse, le relàchement des meurs de plusieurs, jusque dans les hauts rangs de la hiérarchie administrative, ont causé bien des scandales. Leur action sur les indi¬gènes est gênée par leur ignorance de la langue, et leur contrôle vis-à-vis des mandarins est illusoire.
+      </p>
+      <p xml:id="para_16_491_60">
+       On le voit, la tâche du gouvernement français est importante ; il doit diriger, guider, énergiquement et sans retrd, les autorités cambodgiennes dans la voie d'une restauration sociale. Malgré leur apathie naturelle, ces populations simples et paisibles se relèveront peu à peu. Avec un peu de bien-être matériel, sous une sage adminis¬tration, elles reconquerront l'activité physique qu'une extrême mi¬sère, due à une tyrannie séculaire et non à leurs meurs, a depuis longtemps afaiblie, bien plus que les conditions du climat.
+      </p>
+      <p xml:id="para_16_491_61">
+       Les institutions qui assureront à la famille, à la nation cambod¬gienne, le bien-être physique et moral seront celles qui s'inspireront du principe nécessaire à toute autorité : la justice, et qui rappelleront à ce peuple dégénéré le devoir universel de l'humanité : le travail.
+      </p>
+     </div>
+     <div n="005" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_02">
+        Budget des recettes de l'année.
+       </head>
+       <pb facs="#facs_507" n="492" source="2serlesouvriersde05sociuoft_0546.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_507" url="#" xml:id="tble_16_492_1"/>
+       </figure>
+       <pb facs="#facs_508" n="493" source="2serlesouvriersde05sociuoft_0547.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_508" url="#" xml:id="tble_16_493_2"/>
+       </figure>
+       <pb facs="#facs_509" n="494" source="2serlesouvriersde05sociuoft_0548.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_509" url="#" xml:id="tble_16_494_3"/>
+       </figure>
+       <pb facs="#facs_510" n="495" source="2serlesouvriersde05sociuoft_0549.xml"/>
+       <figure rend="portrait" type="cptes_recettes">
+        <graphic facs="#facs_510" url="#" xml:id="tble_16_495_4"/>
+       </figure>
+      </div>
+      <div n="002" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_02_05_01">
+        Budget des dépenses de l'année.
+       </head>
+       <pb facs="#facs_511" n="496" source="2serlesouvriersde05sociuoft_0550.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_511" url="#" xml:id="tble_16_496_5"/>
+       </figure>
+       <pb facs="#facs_512" n="497" source="2serlesouvriersde05sociuoft_0551.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_512" url="#" xml:id="tble_16_497_6"/>
+       </figure>
+       <pb facs="#facs_513" n="498" source="2serlesouvriersde05sociuoft_0552.xml"/>
+       <figure rend="portrait" type="cptes_depenses">
+        <graphic facs="#facs_513" url="#" xml:id="tble_16_498_7"/>
+       </figure>
+      </div>
+     </div>
+    </div>
+    <div n="003" type="section">
+     <head type="section" xml:id="part_03">
+      DOCUMENTS ANNEXES
+     </head>
+     <div n="001" type="sub_section">
+      <div n="001" type="sub_sub_section">
+       <head type="sub_sub_section" xml:id="part_03_01_17">
+        Extraits de la loi des Epouses, lakkhana tassa phyriya (traduction inédite).
+       </head>
+       <figure rend="portrait" type="ecriture">
+        <head resp="added" type="ecriture" xml:id="figure_2">
+         Texte khmer (notes annexes)
+        </head>
+        <graphic facs="#facs_514" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24553/359,887,2118,607/full/0/default.jpg" xml:id="illu_16_499_8"/>
+       </figure>
+       <p xml:id="para_16_499_79">
+        <pb facs="#facs_514" n="499" source="2serlesouvriersde05sociuoft_0553.xml"/>
+        Les lois cambodgiennes ont été codifiées en 189, et autographiées en 2 fascicules. Les articles suivants ont été traduits par l'auteur sur ce texte, qui comprend, en 80 pages, des prescriptions relatives aux devoirs du mariage.
+       </p>
+       <p xml:id="para_16_499_80">
+        La fille que ses mère et père ont accordée en mariage à un homme qui a accompli les rites et s'est prosterné devant eux, cette fille sera l'épouse de cet homme, son nom sera épouse principale.
+       </p>
+       <p xml:id="para_16_499_81">
+        Si un homme demande à une femme de venir chez lui, s'il la nourrit et prend soin d'elle, elle sera son épouse à la suite ; son rang viendra après celui de l'épouse principale, son nom sera épouse intermédiaire.
+       </p>
+       <p xml:id="para_16_499_82">
+        Si une femme pauvre et misérable est recueillie, rachetée par un homme, s'il l'amène chez lui, la trouve belle et la nourrit, pour en faire son épouse, son nom sera servante-épouse.
+       </p>
+       <p xml:id="para_16_499_83">
+        Si un homme commet l'adultère avec une femme épouse principale, il sera condamné à la totalité de l'amende fixée par la loi royale.
+       </p>
+       <p xml:id="para_16_499_84">
+        Si un homme commet l'adultère avec une femme épouse intermé¬diaire, ilsera condamné à l'amende selon la loi ; mais il sera quitte d'un cinquième et ne paiera que les quatre cinquièmes.
+       </p>
+       <p xml:id="para_16_499_85">
+        Si un homme commet l'adultere avec une servante épouse, il sera condamné à l'amende selon la loi, mais il sera quitte de deux cin¬quièmes et ne paiera que les trois cinquièmes.
+       </p>
+       <p xml:id="para_16_499_86">
+        Quant à la femme corrompue et vicieuse reconnue coupable d'adul¬tère, on lui couvrira la tête d'un panier, on lui placer des fleurs rouges aux oreilles, des tresses de mêmes fleurs sur la tète et au cou ; on la promènera publiquement pendant trois jours, au bruit du gong.
+       </p>
+       <p xml:id="para_16_499_87">
+        Pour se racheter de ce châtiment, elle paiera amende suivunt son âge ; le montant de l'amende servira à la nourriture des éléphants du roi. Si le mari de la femme coupable persiste à l'aimer, elle sera quitte
+        <pb facs="#facs_515" n="500" source="2serlesouvriersde05sociuoft_0554.xml"/>
+        du châtiment, mais elle devra payer l'amende au profit du trésor royal.
+       </p>
+       <p xml:id="para_16_500_90">
+        Si une femme commet l'adultère, et que le mari la surprenne en flagrant délit avec l'amant, s'il frappe et tue l'amant, qu'il frappe la femme aussi ; il ne doit pas tuer seulementl'un des deux coupables. S'il épargne l'un ou l'autre, le mari meurtrier sera condamné à une amende proportionnée à ses grades ; l'amende sera versée au trésor royal.
+       </p>
+       <p xml:id="para_16_500_91">
+        Si une femme est infidèle, et que sa faute soit démontrée par l'en¬quête, l'épouse coupable et son complice paieront l'amende fixée par la loi. Les biens, richesses, esclaves, éléphants, chevaux, buffles, bœufs appartenant aux deux coupables, qu'il y en ait peu ou beaucoup, seront attribués au mari offensé.
+       </p>
+       <p xml:id="para_16_500_92">
+        Si un homme a des relations coupables avec une femme mariée et veut ensuite l'épouser, il ne le pourra pas, la loi défend l'adultère, la femme coupable sera rendue à son mari.
+       </p>
+       <p xml:id="para_16_500_93">
+        Si un maître, ou l'un de ses fils, frères ou neveux, use de violence pour séduire une fille esclave et la possède, si cette fille crie au se¬cours et que ses cris soient entendus ; la loi décide qu'elle sera libérée pour moitié et ne devra plus à son maître que la moitié du prix de son rachat. — Si l'esclave a consenti de plein gré, elle ne sera pas libérée.
+       </p>
+       <p xml:id="para_16_500_94">
+        Si un homme et une femme ont vécu ensemble, gagné leur vie en commun comme mari et épouse et que l'homme injustement la quitte et reprenne tous les biens, autant les propres que ceux acquis par le travail commun, la femme pourra déposer une plainte. Cet homme n'a pas nourri, soigné sa femme comme il est juste ; il devra rapporter tous les biens, dont il sera opéré un partage le mari reprendra ses propres ; le surplus, qu'il y en ait peu ou beaucoup, sera attribué par moitié à chaque époux. La femme cessera d'être l'épouse de cet homme qui l'a quittée, et ne l'a pas nourrie suivant la loi morale.
+       </p>
+       <p xml:id="para_16_500_95">
+        Si un mari et son épouse se battent, se querellent, veulent se séparer, le mari devra signer une lettre de divorce pour libérer son épouse. S'ils ne s'entendent pas, que tous deux veuillent se quitter de leur plein gré, c'est qu'il y a une fatalité contre leur union, la loi ne les contraint pas à demeurer liés contre leur volonté : qu'ils se quittent. La'femme remettra les biens propres, plus les présents de noces s'il n'y a pas d'enfants.
+       </p>
+       <p xml:id="para_16_500_96">
+        Le Roi veut que des ordres soient donnés dans tout le royaume pour que chaque homme nourrisse, entretienne, soigne, sa famille, enfants, femme, frères et parents, selon le devoir de justice et quel que soit le nombre de personnes à sa charge.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>
