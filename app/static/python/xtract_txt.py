@@ -60,6 +60,8 @@ def xtract_txt(local_path) -> None:
             output_doc = re.sub(r'[\.A-Za-z]\n( *[,;\-])', '.\\1', output_doc)
             # removing return after number : 1.\nRocco S., père
             output_doc = re.sub(r'(\d+\.)\n(.+)', '\\1 \\2', output_doc)
+            # removing return after * : JEAN-BAPTISTE H***\n, quatrième fils
+            output_doc = re.sub(r'\*\n,', '*,', output_doc)
             # removing line with only a full stop.
             output_doc = re.sub(r'\n\.', '.', output_doc)
             # removing ¬
