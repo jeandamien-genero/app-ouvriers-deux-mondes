@@ -52,6 +52,18 @@ def xtract_txt(local_path) -> None:
         with open(os.path.join(local_path, 'txt/' + filenames.replace('.xml', '.txt')), 'w') as txt_file:
             output_doc = re.sub(r' +\n', r'', str(output_doc))
             output_doc = re.sub(r'      +', r'', str(output_doc))
+            # removing return for lines begining by a min caps
+            output_doc = re.sub(r' ?\n([a-zéèàç])', ' \\1', output_doc)
+            # removing return for () [ex : (\n§1\n)]
+            output_doc = re.sub(r'\( ?\n(.+)\n\)', '(\\1)', output_doc)
+            # removing return for full stop and coma or letter in §2 : Rocco S.\n, père...
+            output_doc = re.sub(r'[\.A-Za-z]\n( *[,;\-])', '.\\1', output_doc)
+            # removing return after number : 1.\nRocco S., père
+            output_doc = re.sub(r'(\d+\.)\n(.+)', '\\1 \\2', output_doc)
+            # removing line with only a full stop.
+            output_doc = re.sub(r'\n\.', '.', output_doc)
+            # removing ¬
+            output_doc = output_doc.replace("¬", "")
             txt_file.write(str(output_doc))
             print("{} -----> Done !".format(filenames.replace('.xml', '.txt')))
 
