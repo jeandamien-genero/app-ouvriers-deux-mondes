@@ -18,6 +18,9 @@ from lxml import etree
 def xtract_txt(local_path) -> None:
     """
     Extracting plain text from monographs' xmlfiles.
+    XSLT transformation only works if TEI root has a TEI namespace ;
+    hence we first open the xml file and check it out : if there is no namespace,
+    we add it and overwrite the file with the version  including the namespace.
     :param local_path: path to the repository containing monographs' xmlfiles (= static).
     :type local_path: str
     """
