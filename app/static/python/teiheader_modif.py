@@ -28,7 +28,7 @@ def monographs_dict(local_path, csvfile):
 
 
 def new_teiheader(local_path):
-    monographs = monographs_dict("/home/genero/Bureau/OD2M/app-ouvriers-deux-mondes/app/static", "csv/id_monographies.csv")
+    monographs = monographs_dict("..", "csv/id_monographies.csv")
     for filenames in monographs:
         with open(os.path.join(local_path, filenames), 'r', encoding='utf-8') as xml_file:
             soup = BeautifulSoup(xml_file, 'xml')
