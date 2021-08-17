@@ -1,169 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-012a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="ID-012a" xml:lang="fr">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title level="m" n="12" type="main">
-     Menuisier-charpentier (Nedjar) de Tanger (Province de Tanger - Maroc)
-    </title>
-    <title level="s" type="desc">
-     Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription
-    </title>
-    <title level="m" type="short">
-     menuisier-charpentier-tanger-12
-    </title>
-    <author n="1" role="investigator">
-     Narcisse Cotte
-    </author>
-    <editor>
-     Société internationale des études pratiques d'économie sociale
-    </editor>
+    <title level="m" n="12" type="main">Menuisier-charpentier (Nedjar) de Tanger (Province de Tanger - Maroc)</title>
+    <title level="s" type="desc">Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription</title>
+    <title level="m" type="short">menuisier-charpentier-tanger-12</title>
+    <author n="1" role="investigator">Narcisse Cotte</author>
+    <editor>Société internationale des études pratiques d'économie sociale</editor>
     <respStmt>
-     <resp>
-      Fichier XML-TEI encodé de 2019 à 2021
-     </resp>
-     <orgName>
-      programme ANR TIME US
-     </orgName>
+     <resp>Fichier XML-TEI encodé de 2019 à 2021</resp>
+     <orgName>programme ANR TIME US</orgName>
     </respStmt>
    </titleStmt>
    <editionStmt>
-    <edition>
-     Édition et encodage scientifique de la monographie n°12 des Ouvriers des deux mondes, "Menuisier-charpentier (Nedjar) de Tanger (Province de Tanger - Maroc)". Elle a d'abord été publiée en fascicule en 1858, puis reliée en 1858, à partir d'une enquête réalisée à Tanger (Tanger-Tétouan-Al Hoceïma, Maroc)  en 1855 et 1856.
-    </edition>
-    <funder>
-     Agence nationale de la Recherche
-    </funder>
+    <edition>Édition et encodage scientifique de la monographie n°12 des Ouvriers des deux mondes, "Menuisier-charpentier (Nedjar) de Tanger (Province de Tanger - Maroc)". Elle a d'abord été publiée en fascicule en 1858, puis reliée en 1858, à partir d'une enquête réalisée à Tanger (Tanger-Tétouan-Al Hoceïma, Maroc)  en 1855 et 1856.</edition>
+    <funder>Agence nationale de la Recherche</funder>
     <respStmt>
      <persName>
-      <forename>
-       Alix
-      </forename>
-      <surname>
-       Chagué
-      </surname>
-      <affiliation>
-       ingénieure de recherche et de développement,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Alix</forename>
+      <surname>Chagué</surname>
+      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      acquisition et structuration initiale des textes
-     </resp>
+     <resp>acquisition et structuration initiale des textes</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Jean-Damien
-      </forename>
-      <surname>
-       Généro
-      </surname>
-      <affiliation from="2020-03" to="2020-09">
-       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Jean-Damien</forename>
+      <surname>Généro</surname>
+      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">
-       ingénieur d'études,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
-      <affiliation from="2020-12">
-       ingénieur d'études,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      encodage scientifique
-     </resp>
+     <resp>encodage scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Stéphane
-      </forename>
-      <surname>
-       Baciocchi
-      </surname>
-      <affiliation>
-       ingénieur de recherche de l’EHESS,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <forename>Stéphane</forename>
+      <surname>Baciocchi</surname>
+      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Anne
-      </forename>
-      <surname>
-       Lhuissier
-      </surname>
-      <affiliation>
-       directrice de recherche de l'INRAE,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <forename>Anne</forename>
+      <surname>Lhuissier</surname>
+      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Éric
-      </forename>
-      <surname>
-       Villemonte de la Clergerie
-      </surname>
-      <affiliation>
-       chargé de recherches,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Éric</forename>
+      <surname>Villemonte de la Clergerie</surname>
+      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      supervision technique
-     </resp>
+     <resp>supervision technique</resp>
     </respStmt>
    </editionStmt>
    <publicationStmt>
-    <publisher>
-     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
-    </publisher>
+    <publisher>Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH</publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>
-     Paris, France
-    </pubPlace>
-    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
-     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
-    </authority>
+    <pubPlace>Paris, France</pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century</authority>
     <availability status="free">
-     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
-      Distributed under an Open License 2.0
-     </licence>
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">Distributed under an Open License 2.0</licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <p>
-     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
-    </p>
+    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
    </sourceDesc>
   </fileDesc>
  </teiHeader>
@@ -331,486 +245,190 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_5_105_1">
-      N° 12.
-     </p>
-     <p xml:id="para_5_105_2">
-      MENUISIER-CHARPENTIER
-     </p>
-     <p xml:id="para_5_105_3">
-      (NEDJAR)
-     </p>
-     <p xml:id="para_5_105_4">
-      DE TANGER
-     </p>
-     <p xml:id="para_5_105_5">
-      (PROVINCE DE TANGER — MAROC)
-     </p>
-     <p xml:id="para_5_105_6">
-      (Ouvrier chef de métier et propriétaire, dans le système du travail sans engagements)
-     </p>
-     <p>
-      D'APRÈS LES
-     </p>
-     <p xml:id="para_5_105_7">
-      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX, EN 1855-1856
-     </p>
-     <p xml:id="para_5_105_8">
-      PAR
-     </p>
-     <p xml:id="para_5_105_9">
-      M.
-      <persName>
-       NARCISSE COTTE
-      </persName>
-      .
-     </p>
+     <p xml:id="para_5_105_1">N° 12.</p>
+     <p xml:id="para_5_105_2">MENUISIER-CHARPENTIER</p>
+     <p xml:id="para_5_105_3">(NEDJAR)</p>
+     <p xml:id="para_5_105_4">DE TANGER</p>
+     <p xml:id="para_5_105_5">(PROVINCE DE TANGER — MAROC)</p>
+     <p xml:id="para_5_105_6">(Ouvrier chef de métier et propriétaire, dans le système du travail sans engagements)</p>
+     <p>D'APRÈS LES</p>
+     <p xml:id="para_5_105_7">RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX, EN 1855-1856</p>
+     <p xml:id="para_5_105_8">PAR</p>
+     <p xml:id="para_5_105_9">M.<persName>NARCISSE COTTE</persName>.</p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">
-      OBSERVATIONS PRÉLIMINAIRES DÉINISSANT LA CONDITTION DES DIVERS MEMBRES DE LA FAMILLE.
-     </head>
+     <head type="section" xml:id="part_02">OBSERVATIONS PRÉLIMINAIRES DÉINISSANT LA CONDITTION DES DIVERS MEMBRES DE LA FAMILLE.</head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
-       I. Définition du lieu, de l'organisation industrielle et de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_01">I. Définition du lieu, de l'organisation industrielle et de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
-        § 1ᵉʳ. — État du sol, de l'industrie et de la population.
-       </head>
-       <p xml:id="para_5_105_14">
-        <pb facs="#facs_108" n="105" source="lesouvriersdesde02sociuoft_0111.xml"/>
-        La famille habite Tanger, capitale maritime de l'empire du Maroc, située sur l'Océan, à 10 kilomètres du cap Spartel, au point où le détroit de Gibraltar présente sa plus grande largeur. La ville est bâtie en amphithéâtre, à l'extrémité occidentale d'une baie semi-circulaire ouverte au nord-est. Cette position modifie sensiblement les conditions climatériques que l'on trouve à quelques kilomètres dans l'intérieur. Ainsi, la moyenne de la température en hiver est de 15°c, et en été de 30°c, à l'ombre ; tandis qu'à Alkassar-el-Kebir, le thermomètre donne une moyenne de 20°c en hiver et de 37°c dans la belle saison.
-       </p>
-       <p xml:id="para_5_106_15">
-        <pb facs="#facs_109" n="106" source="lesouvriersdesde02sociuoft_0112.xml"/>
-        A Tanger, les menuisiers sont à la fois charpentiers, menuisiers et ébénistes. Cette profession est représentée par trois espagnols, cinq maîtres (maallem) musulmans, et dix maîtres israélites, occu¬pant ensemble environ vingt ouvriers à la journée. Aucune organi¬sation ne règle les rapports de ces ouvriers avec leurs patrons. Le prix de la journée est librement débattu et varie suivant les talents de chacun ; le travail est d'ailleurs fort irrégulier. La plupart des habitants n'ont d'autre mobilier que des coffres. Les maisons se délabrent et s'écroulent sans réparations ; aussi n'est-il pas rare de voir presque tous les menuisiers s'adonner, pendant plusieurs mois de l'année, à d'autres professions ; les uns se font maçons, portefaix à la marine ou marchands de fruits et de légumes sur la place de la ville.
-       </p>
-       <p xml:id="para_5_106_16">
-        Le maître dont il est ici question a su, par son habileté excep¬tionnelle, échapper à ces conditions précaires. Les maisons con¬sulaires et les maisons riches de la ville suffisent à lui fournir des travaux qui lui permettent de s'adjoindre de deux à quatre ouvriers. Quelques travaux de charpente et les travaux ordinaires de la me¬nuiserie sont abandonnés à ces auxiliaires ; le maître seul est assez habile pour réparer les meubles européens et pour en confection¬ner de neufs sur les modèles qui lui sont donnés.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. — État du sol, de l'industrie et de la population.</head>
+       <p xml:id="para_5_105_14"><pb facs="#facs_108" n="105" source="lesouvriersdesde02sociuoft_0111.xml"/> La famille habite Tanger, capitale maritime de l'empire du Maroc, située sur l'Océan, à 10 kilomètres du cap Spartel, au point où le détroit de Gibraltar présente sa plus grande largeur. La ville est bâtie en amphithéâtre, à l'extrémité occidentale d'une baie semi-circulaire ouverte au nord-est. Cette position modifie sensiblement les conditions climatériques que l'on trouve à quelques kilomètres dans l'intérieur. Ainsi, la moyenne de la température en hiver est de 15°c, et en été de 30°c, à l'ombre ; tandis qu'à Alkassar-el-Kebir, le thermomètre donne une moyenne de 20°c en hiver et de 37°c dans la belle saison.</p>
+       <p xml:id="para_5_106_15"><pb facs="#facs_109" n="106" source="lesouvriersdesde02sociuoft_0112.xml"/> A Tanger, les menuisiers sont à la fois charpentiers, menuisiers et ébénistes. Cette profession est représentée par trois espagnols, cinq maîtres (maallem) musulmans, et dix maîtres israélites, occu¬pant ensemble environ vingt ouvriers à la journée. Aucune organi¬sation ne règle les rapports de ces ouvriers avec leurs patrons. Le prix de la journée est librement débattu et varie suivant les talents de chacun ; le travail est d'ailleurs fort irrégulier. La plupart des habitants n'ont d'autre mobilier que des coffres. Les maisons se délabrent et s'écroulent sans réparations ; aussi n'est-il pas rare de voir presque tous les menuisiers s'adonner, pendant plusieurs mois de l'année, à d'autres professions ; les uns se font maçons, portefaix à la marine ou marchands de fruits et de légumes sur la place de la ville.</p>
+       <p xml:id="para_5_106_16">Le maître dont il est ici question a su, par son habileté excep¬tionnelle, échapper à ces conditions précaires. Les maisons con¬sulaires et les maisons riches de la ville suffisent à lui fournir des travaux qui lui permettent de s'adjoindre de deux à quatre ouvriers. Quelques travaux de charpente et les travaux ordinaires de la me¬nuiserie sont abandonnés à ces auxiliaires ; le maître seul est assez habile pour réparer les meubles européens et pour en confection¬ner de neufs sur les modèles qui lui sont donnés.</p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Mohammed-el-Sousi  (n°012aE1) - Aïcha  (n°012aE2) - Ismaïl  (n°012aE3) - Ahmet  (n°012aE4) - Négresse du Soudan  (n°012aE5)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
-        § 2. — État civil de la famille.
-       </head>
-       <p xml:id="para_5_106_18">
-        Les musulmans n'ont pas d'état civil ; presque tous ignorent leur âge : les chiffres que nous donnons ne sont donc qu'approxi¬matifs et calculés sur la prise d'Alger par les Français, sur l'avé¬nement du sultan actuel, ou sur le bombardement de Tanger par notre escadre.
-       </p>
-       <p xml:id="para_5_106_19">
-        La famille comprend les deux époux, deux enfants et une né¬gresse esclave, savoir :
-       </p>
-       <p xml:id="para_5_106_20">
-        1.
-        <persName xml:id="ID-012aE1">
-         MOHAMMED-EL-SOUSI
-        </persName>
-        , chef de famille, marié depuis vingt ans, né dans la province de Sous, ainsi que l'indique son surnom, el-Sousi............ 40 ans ;
-       </p>
-       <p xml:id="para_5_106_22">
-        2.
-        <persName xml:id="ID-012aE2">
-         AÏCHA
-        </persName>
-        , sa femme, née à Tanger......................... 32 —
-       </p>
-       <p xml:id="para_5_106_23">
-        3.
-        <persName xml:id="ID-012aE3">
-         Ismaïl
-        </persName>
-        , fils aîné, né à Tanger, parti dans l'intérieur...... 18 —
-       </p>
-       <p xml:id="para_5_106_24">
-        4.
-        <persName xml:id="ID-012aE4">
-         Ahmet
-        </persName>
-        , second fils, né à Tanger........................ 10 —
-       </p>
-       <p xml:id="para_5_106_25">
-        5.
-        <persName xml:id="ID-012aE5">
-         Négresse du Soudan
-        </persName>
-        , esclave........................... 25 —
-       </p>
-       <p xml:id="para_5_106_26">
-        Quant aux parents des époux, la mère et un frère du maître sont seuls survivants. Ce frère, veuf, et père de deux enfants en bas âge, a recueilli sa mère qui élève ses petits enfants. Il est lui-même
-        <pb facs="#facs_110" n="107" source="lesouvriersdesde02sociuoft_0113.xml"/>
-        assez habile menuisier et surveille les ouvriers de son frère lors¬qu'il manque de travaux pour son propre compte.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. — État civil de la famille.</head>
+       <p xml:id="para_5_106_18">Les musulmans n'ont pas d'état civil ; presque tous ignorent leur âge : les chiffres que nous donnons ne sont donc qu'approxi¬matifs et calculés sur la prise d'Alger par les Français, sur l'avé¬nement du sultan actuel, ou sur le bombardement de Tanger par notre escadre.</p>
+       <p xml:id="para_5_106_19">La famille comprend les deux époux, deux enfants et une né¬gresse esclave, savoir :</p>
+       <p xml:id="para_5_106_20">1.<persName xml:id="ID-012aE1">MOHAMMED-EL-SOUSI</persName>, chef de famille, marié depuis vingt ans, né dans la province de Sous, ainsi que l'indique son surnom, el-Sousi............ 40 ans ;</p>
+       <p xml:id="para_5_106_22">2.<persName xml:id="ID-012aE2">AÏCHA</persName>, sa femme, née à Tanger......................... 32 —</p>
+       <p xml:id="para_5_106_23">3.<persName xml:id="ID-012aE3">Ismaïl</persName>, fils aîné, né à Tanger, parti dans l'intérieur...... 18 —</p>
+       <p xml:id="para_5_106_24">4.<persName xml:id="ID-012aE4">Ahmet</persName>, second fils, né à Tanger........................ 10 —</p>
+       <p xml:id="para_5_106_25">5.<persName xml:id="ID-012aE5">Négresse du Soudan</persName>, esclave........................... 25 —</p>
+       <p xml:id="para_5_106_26">Quant aux parents des époux, la mère et un frère du maître sont seuls survivants. Ce frère, veuf, et père de deux enfants en bas âge, a recueilli sa mère qui élève ses petits enfants. Il est lui-même<pb facs="#facs_110" n="107" source="lesouvriersdesde02sociuoft_0113.xml"/>assez habile menuisier et surveille les ouvriers de son frère lors¬qu'il manque de travaux pour son propre compte.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
-        § 3. — Religion et habitudes morales.
-       </head>
-       <p xml:id="para_5_107_29">
-        Les deux époux appartiennent à la race maure et sont nés de parents très-fervents dans l'islamisme. Le chef de famille a pu un enseignement religieux très-complet : il sait lire et écrire ; il a appris par cœur tout le Koran et en cite quelquefois les versets. On sait que là se borne la science religieuse et profane des musul¬mans. Ceux que l'on distingue du titre de thalee (lettré), ont lu quelques commentateurs, quelques poètes, quelques juristes ; et cela seul, avec l'assiduité à répéter sans cesse ces lectures, les dis¬tingue du reste des croyants. Le maître doit à ces connaissances exceptionnelles une distinction qui le place au premier rang parmi les indigènes. Deux voyages qu'il a faits à Marseille, et plus d'un an de séjour à Gibraltar et à Cadix, où il s'est perfectionné dans sa profession, ont singulièrement adouci en lui les instincts fanatiques de sa race. lIl parle passablement l'espagnol, et fait grand cas des Européens ; ses relations fréquentes avec le corps consulaire, et l'humeur bienveillante dont il fait preuve à l'égard des ˉMazaréens (ˉVessaira), lui attirent les sarcasmes de ses coreligionnaires ; ses talents, et l'envie qu'ils excitent, sont loin d'atténuer ces disposir tions ; mais le titre de haagii (saint), que lui vaut un pèlerinage à la Mecque, l'exactitude qu'il apporte à l'accomplissement de ses devoirs religieux, l'aisance dont il jouit, et surtout la qualité de protégé firanxaisˉ, lui permettent de dédaigner la malveillance. Les pratiques religieuses dont il s'acquitte ostensiblement sont un moyen de conserver l'estime et la considération des indigènes ; mais, vis-à-vis des chrétiens, il fait assez bon marché des menues obser¬vances auxquelles il se soumet publiquement ; et, sans sortir des bornes d'un certain respect pour sa religion, il laisse percer la pré¬férence qu'il accorde aux mœurs et aux idées des Européens. Il est d'une probité exacte et même délicate. Il se montre ami d'un cer¬tain luxe, principalement dans ses vêtements ; il est cependant économe et aspire à tirer de ses propriétés un revenu,suffisant pour vivre sans s'adonner avec assiduité aux travaux de sa profession. Il possède une maison de campagne et un vaste terrain, à unkilomètre environ de Tanger, et il voudrait donner un jour tous ses soins à l'horticulture. Les notions qu'il a du dessin linéaire, du calcul et des premiers éléments de la géométrie descriptive, lui assurent une supériorité si marquée sur ses confrères, qu'on lui
-        <pb facs="#facs_111" n="108" source="lesouvriersdesde02sociuoft_0114.xml"/>
-        accorde sans peine une rétribution triple de celle qu'ils obtiennent ordinairement. Dans ces conditions, il est facile de prévoir qu'il arrivera, en quelques années, au but de ses désirs.
-       </p>
-       <p xml:id="para_5_108_31">
-        La femme a été élevée, comme toutes les musulmanes citadines, dans l'habitude d'une complète réclusion ; elle n'a avec son mari que des rapports assez restreints et dépourvus du caractère d'inti¬mité qui résulte de la position morale de la femme dans les pays chrétiens. Ces rapports sont d'ailleurs aussi doux que le permettent les usages musulmans. Son mari l'autorise à sortir chaque vendredi pour se rendre au cimetière et, de loin en loin, elle consacre quel¬ques heures à visiter ses amies. Elle paraît douée d'un esprit enjoué et se montre dévouée à ses enfants, respectueuse envers leur père ; elle traite sa négresse avec douceur et se montre dévote musulmane. Son mari lui fait, chaque année, cadeau de quelque bijou ou de quelque autre objet de luxe. Il lui impose une tenue toujours soi¬gnée et élégante. Sous ce dernier rapport, elle tient un rang dis¬tingué parmi les femmes riches de la ville.
-       </p>
-       <p xml:id="para_5_108_32">
-        En résumé, la famille décrite dans cette monographie est placée dans des conditions qui la rendent exceptionnellement intéressante. Ce n'est plus la barbarie ; ce n'est pas la civilisation. La famille de Mohammed-el-Sousi est le type de nombreuses familles arabes qui, attachées par la naissance, par l'éducation et par des idées tradi¬tionnelles, aux croyances et aux mœurs musulmanes, apprécient cependant les bienfaits et le caractère protecteur de la domination française en Afrique.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. — Religion et habitudes morales.</head>
+       <p xml:id="para_5_107_29">Les deux époux appartiennent à la race maure et sont nés de parents très-fervents dans l'islamisme. Le chef de famille a pu un enseignement religieux très-complet : il sait lire et écrire ; il a appris par cœur tout le Koran et en cite quelquefois les versets. On sait que là se borne la science religieuse et profane des musul¬mans. Ceux que l'on distingue du titre de thalee (lettré), ont lu quelques commentateurs, quelques poètes, quelques juristes ; et cela seul, avec l'assiduité à répéter sans cesse ces lectures, les dis¬tingue du reste des croyants. Le maître doit à ces connaissances exceptionnelles une distinction qui le place au premier rang parmi les indigènes. Deux voyages qu'il a faits à Marseille, et plus d'un an de séjour à Gibraltar et à Cadix, où il s'est perfectionné dans sa profession, ont singulièrement adouci en lui les instincts fanatiques de sa race. lIl parle passablement l'espagnol, et fait grand cas des Européens ; ses relations fréquentes avec le corps consulaire, et l'humeur bienveillante dont il fait preuve à l'égard des ˉMazaréens (ˉVessaira), lui attirent les sarcasmes de ses coreligionnaires ; ses talents, et l'envie qu'ils excitent, sont loin d'atténuer ces disposir tions ; mais le titre de haagii (saint), que lui vaut un pèlerinage à la Mecque, l'exactitude qu'il apporte à l'accomplissement de ses devoirs religieux, l'aisance dont il jouit, et surtout la qualité de protégé firanxaisˉ, lui permettent de dédaigner la malveillance. Les pratiques religieuses dont il s'acquitte ostensiblement sont un moyen de conserver l'estime et la considération des indigènes ; mais, vis-à-vis des chrétiens, il fait assez bon marché des menues obser¬vances auxquelles il se soumet publiquement ; et, sans sortir des bornes d'un certain respect pour sa religion, il laisse percer la pré¬férence qu'il accorde aux mœurs et aux idées des Européens. Il est d'une probité exacte et même délicate. Il se montre ami d'un cer¬tain luxe, principalement dans ses vêtements ; il est cependant économe et aspire à tirer de ses propriétés un revenu,suffisant pour vivre sans s'adonner avec assiduité aux travaux de sa profession. Il possède une maison de campagne et un vaste terrain, à unkilomètre environ de Tanger, et il voudrait donner un jour tous ses soins à l'horticulture. Les notions qu'il a du dessin linéaire, du calcul et des premiers éléments de la géométrie descriptive, lui assurent une supériorité si marquée sur ses confrères, qu'on lui<pb facs="#facs_111" n="108" source="lesouvriersdesde02sociuoft_0114.xml"/>accorde sans peine une rétribution triple de celle qu'ils obtiennent ordinairement. Dans ces conditions, il est facile de prévoir qu'il arrivera, en quelques années, au but de ses désirs.</p>
+       <p xml:id="para_5_108_31">La femme a été élevée, comme toutes les musulmanes citadines, dans l'habitude d'une complète réclusion ; elle n'a avec son mari que des rapports assez restreints et dépourvus du caractère d'inti¬mité qui résulte de la position morale de la femme dans les pays chrétiens. Ces rapports sont d'ailleurs aussi doux que le permettent les usages musulmans. Son mari l'autorise à sortir chaque vendredi pour se rendre au cimetière et, de loin en loin, elle consacre quel¬ques heures à visiter ses amies. Elle paraît douée d'un esprit enjoué et se montre dévouée à ses enfants, respectueuse envers leur père ; elle traite sa négresse avec douceur et se montre dévote musulmane. Son mari lui fait, chaque année, cadeau de quelque bijou ou de quelque autre objet de luxe. Il lui impose une tenue toujours soi¬gnée et élégante. Sous ce dernier rapport, elle tient un rang dis¬tingué parmi les femmes riches de la ville.</p>
+       <p xml:id="para_5_108_32">En résumé, la famille décrite dans cette monographie est placée dans des conditions qui la rendent exceptionnellement intéressante. Ce n'est plus la barbarie ; ce n'est pas la civilisation. La famille de Mohammed-el-Sousi est le type de nombreuses familles arabes qui, attachées par la naissance, par l'éducation et par des idées tradi¬tionnelles, aux croyances et aux mœurs musulmanes, apprécient cependant les bienfaits et le caractère protecteur de la domination française en Afrique.</p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
-        § 4. — Hygiène et service de santé.
-       </head>
-       <p xml:id="para_5_108_34">
-        La taille du maître est de 165 ; il est d'un tempérament nerveux et bilieux. Son teint est fortement bistré ; sa barbe noire, clair¬semée. Sa tête est complétement rasée, et toujours enveloppée d'un épais turban roulé autour d'une calotte de drap rouge. Sa force physique est loin de répondre à son activité, à son énergie intellec¬tuelle et morale. Il est sujet aux fièvres périodiques qui le visitent chaque année à l'époque ede la canicule ; mais il les combat efficace¬ment au moyen du sulfate de quinine, qu'il se procure à la phar¬macie européenne établie à Tanger. Il dédaigne les sorciers-méde¬cins indigènes, et a recours au médecin de la légation française. Cette confiance lui est d'ailleurs commune avec les indigènes de distinction. Le petit peuple a seul recours à la médecine des empi¬riques nomades, dont les remèdes se réduisent à l'emploi des ven¬touses, à la cautérisation par le fer rouge, et aux amulettes de toutes sortes.
-       </p>
-       <p xml:id="para_5_109_35">
-        <pb facs="#facs_112" n="109" source="lesouvriersdesde02sociuoft_0115.xml"/>
-        Le climat de Tanger est d'une salubrité parfaite. Les fiêvres, qui font quelques ravages parmi les indigènes, n'ont d'autre cause qu'un mauvais régime alimentaire, et le peu de soin que beaucoup d'entre eux apportent à se préserver de l'humidité. Pour l'indi¬gène qui nous occupe, la cause déterminante des fièvres résulte de l'exercice de sa profession et des transpirations abondantes qu'elle provoque, transpirations souvent arrêtées par la brise du large qui circule dans les ruelles de la ville.
-       </p>
-       <p xml:id="para_5_109_36">
-        La santé de la femme est assez mauvaise, comme celle de la plupart des femmes mauresques. Elle n'est atteinte d'aucune mala¬die déterminée : son état consiste dans une débilité générale due à la vie sédentaire et recluse à laquelle les usages du pays la cundamnent. L'usage constant du couscoussou et de l'eau claire l'a amenée à un état d'embonpoint excessif, fort recherché d'ailleurs par les dames musulmanes, qui le considèrent comme la première condition de la véritable beauté. Un genre de vie si contraire à la nature exerce une influence funeste sur le tempérament des mauresques. Aussi n'arrivent-elles que rarement à un âge très¬avancé ; beaucoup sont stériles ; la plupart n'ont que deux enfants. Les remèdes dont l'emploi est principalement recommandé par le médecin de la légation, pour les indispositions ordinaires de ces danes, sont l'émétique et le sel de magnésie.
-       </p>
-       <p xml:id="para_5_109_37">
-        Les Mauresques ont généralement des couches laborieuses, mais heureuses. Elles ont recours, dans ces circonstances, à des sages¬femmes (quabla) dont l'expérience consommée suffit à vaincre les cas les plus dificiles.
-       </p>
-       <p xml:id="para_5_109_38">
-        Les enfants sont presque tous beaux, bien faits, et d'un tempé¬rament vigoureux. Les garçons se maintiennent, en grandissant, dans ces heureuses conditions ; les filles s'étiolent et, vers l'âge de 15 ans, subissent le sort de leur mère.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. — Hygiène et service de santé.</head>
+       <p xml:id="para_5_108_34">La taille du maître est de 165 ; il est d'un tempérament nerveux et bilieux. Son teint est fortement bistré ; sa barbe noire, clair¬semée. Sa tête est complétement rasée, et toujours enveloppée d'un épais turban roulé autour d'une calotte de drap rouge. Sa force physique est loin de répondre à son activité, à son énergie intellec¬tuelle et morale. Il est sujet aux fièvres périodiques qui le visitent chaque année à l'époque ede la canicule ; mais il les combat efficace¬ment au moyen du sulfate de quinine, qu'il se procure à la phar¬macie européenne établie à Tanger. Il dédaigne les sorciers-méde¬cins indigènes, et a recours au médecin de la légation française. Cette confiance lui est d'ailleurs commune avec les indigènes de distinction. Le petit peuple a seul recours à la médecine des empi¬riques nomades, dont les remèdes se réduisent à l'emploi des ven¬touses, à la cautérisation par le fer rouge, et aux amulettes de toutes sortes.</p>
+       <p xml:id="para_5_109_35"><pb facs="#facs_112" n="109" source="lesouvriersdesde02sociuoft_0115.xml"/> Le climat de Tanger est d'une salubrité parfaite. Les fiêvres, qui font quelques ravages parmi les indigènes, n'ont d'autre cause qu'un mauvais régime alimentaire, et le peu de soin que beaucoup d'entre eux apportent à se préserver de l'humidité. Pour l'indi¬gène qui nous occupe, la cause déterminante des fièvres résulte de l'exercice de sa profession et des transpirations abondantes qu'elle provoque, transpirations souvent arrêtées par la brise du large qui circule dans les ruelles de la ville.</p>
+       <p xml:id="para_5_109_36">La santé de la femme est assez mauvaise, comme celle de la plupart des femmes mauresques. Elle n'est atteinte d'aucune mala¬die déterminée : son état consiste dans une débilité générale due à la vie sédentaire et recluse à laquelle les usages du pays la cundamnent. L'usage constant du couscoussou et de l'eau claire l'a amenée à un état d'embonpoint excessif, fort recherché d'ailleurs par les dames musulmanes, qui le considèrent comme la première condition de la véritable beauté. Un genre de vie si contraire à la nature exerce une influence funeste sur le tempérament des mauresques. Aussi n'arrivent-elles que rarement à un âge très¬avancé ; beaucoup sont stériles ; la plupart n'ont que deux enfants. Les remèdes dont l'emploi est principalement recommandé par le médecin de la légation, pour les indispositions ordinaires de ces danes, sont l'émétique et le sel de magnésie.</p>
+       <p xml:id="para_5_109_37">Les Mauresques ont généralement des couches laborieuses, mais heureuses. Elles ont recours, dans ces circonstances, à des sages¬femmes (quabla) dont l'expérience consommée suffit à vaincre les cas les plus dificiles.</p>
+       <p xml:id="para_5_109_38">Les enfants sont presque tous beaux, bien faits, et d'un tempé¬rament vigoureux. Les garçons se maintiennent, en grandissant, dans ces heureuses conditions ; les filles s'étiolent et, vers l'âge de 15 ans, subissent le sort de leur mère.</p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
-        § 5. — Rang de la famille.
-       </head>
-       <p xml:id="para_5_109_40">
-        Le maître, avant son mariage, n'avait rien qui le distinguât des autres ouvriers musulmans. Ses moyens d'existence étaient variés, ais fort précaires. Il se maria à son retour d'Espagne, d'où il revint avec des talents qui le firent bientôt s'élever au premier rang dans la vile de Tanger. Sa position n'a cessé de s'agrandir. Il par¬tage aujourd'hui, avec un ébéniste espagnol attaché au consulat général d'Espagne, le monapole des travaux de belle menuiserie et d'ébénisterie. Son habileté est peut-être inférieure à celle de son confrère d'Espagne ; mais celui-ci a contracté en Europe des habi¬tudes qui le forcent a être assez exigeant pour le prix de ses tra
-        <pb facs="#facs_113" n="110" source="lesouvriersdesde02sociuoft_0116.xml"/>
-        vaux. Grâce à cette circonstance, le maître musulman, qui tra¬vaille à des prix moins élevés, conserve la plus belle et la plus nombreuse clientèle. Le salaire des ouvriers qu'il emploie, quoique supérieur à celui qu'ils recevraient chez d'autres patrons, n'est pas en proportion avec ses bénéfices personnels, qui sont considérables.
-       </p>
-       <p xml:id="para_5_110_42">
-        Dans les idées de la race, l'exercice d'une profession manuelle est compatible avec la noblesse : aucun préjugé ne soppose donc à ce que le maître soit compté au premier rang parmi les musul¬mans de Tanger.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
+       <p xml:id="para_5_109_40">Le maître, avant son mariage, n'avait rien qui le distinguât des autres ouvriers musulmans. Ses moyens d'existence étaient variés, ais fort précaires. Il se maria à son retour d'Espagne, d'où il revint avec des talents qui le firent bientôt s'élever au premier rang dans la vile de Tanger. Sa position n'a cessé de s'agrandir. Il par¬tage aujourd'hui, avec un ébéniste espagnol attaché au consulat général d'Espagne, le monapole des travaux de belle menuiserie et d'ébénisterie. Son habileté est peut-être inférieure à celle de son confrère d'Espagne ; mais celui-ci a contracté en Europe des habi¬tudes qui le forcent a être assez exigeant pour le prix de ses tra<pb facs="#facs_113" n="110" source="lesouvriersdesde02sociuoft_0116.xml"/>vaux. Grâce à cette circonstance, le maître musulman, qui tra¬vaille à des prix moins élevés, conserve la plus belle et la plus nombreuse clientèle. Le salaire des ouvriers qu'il emploie, quoique supérieur à celui qu'ils recevraient chez d'autres patrons, n'est pas en proportion avec ses bénéfices personnels, qui sont considérables.</p>
+       <p xml:id="para_5_110_42">Dans les idées de la race, l'exercice d'une profession manuelle est compatible avec la noblesse : aucun préjugé ne soppose donc à ce que le maître soit compté au premier rang parmi les musul¬mans de Tanger.</p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
-       II. Moyens d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_02">II. Moyens d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
-        § 6. — Propriétés.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
        <div subtype="proprietes_texte_1" type="proprietes">
-        <p xml:id="para_5_110_46">
-         (Mobilier et vêtements non compris)
-        </p>
+        <p xml:id="para_5_110_46">(Mobilier et vêtements non compris)</p>
        </div>
        <div subtype="immeubles" type="proprietes">
-        <p xml:id="para_5_110_47">
-         IMMEULES. Maisond e campagne, jardin, verger, vignes. 11,000ᶠ00
-        </p>
-        <p xml:id="para_5_110_48">
-         Maison et jardin, 6,000ᶠ; — verger, 3,500ᶠ; — vignes, 1,500ᶠ.
-        </p>
+        <p xml:id="para_5_110_47">IMMEULES. Maisond e campagne, jardin, verger, vignes. 11,000ᶠ00</p>
+        <p xml:id="para_5_110_48">Maison et jardin, 6,000ᶠ; — verger, 3,500ᶠ; — vignes, 1,500ᶠ.</p>
        </div>
        <div subtype="argent" type="proprietes">
-        <p xml:id="para_5_110_49">
-         ARGENT... .................................. . 1),)0) )0)
-        </p>
-        <p xml:id="para_5_110_50">
-         Partie de cette somme en coffre-fort, 2,000ᶠ. — Le reste entre les mains de juifs de Gibraltar, qui le font valoir à raison de 10 p. 100 d'intérêt.
-        </p>
+        <p xml:id="para_5_110_49">ARGENT... .................................. . 1),)0) )0)</p>
+        <p xml:id="para_5_110_50">Partie de cette somme en coffre-fort, 2,000ᶠ. — Le reste entre les mains de juifs de Gibraltar, qui le font valoir à raison de 10 p. 100 d'intérêt.</p>
        </div>
        <div subtype="materiel" type="proprietes">
-        <p xml:id="para_5_110_51">
-         MATÉRIEL SPÉCIAL DES Travaux et industries.......... 3,401 00
-        </p>
-        <p xml:id="para_5_110_52">
-         1° Matieres premières. — Poutres et planches de sapin, 1,000ᶠ; — poutres et planches de bois d'arar, 2,000ᶠ. — Total, 3,000ᶠ.
-        </p>
-        <p xml:id="para_5_110_53">
-         2° outils de charpentier et de menuisier ebenisteˉ. — 3 établis avec étaux, 150ᶠ; — 6 haches de diverses grandeurs, 20ᶠ; — 12 rabots, varlopes, rabots à moulures, 50ᶠ; — 6 valets en fer, 18ᶠ; — maillets, 5ᶠ; — 4 marteaux, 8ᶠ; — 4 tenailles, 12ᶠ ; — grande scie à refendre, 25ᶠ; — 6 scies grandes et petites, 30ᶠ; — 4 compas en fer, 5ᶠ; — 12gouges, 15ᶠ; — 6 ciseaux à froid, 10ᶠ; — équerre, mètre, fl à plomb, 5ᶠ. —Total, 33ᶠ.
-        </p>
-        <p xml:id="para_5_110_54">
-         3° Materiel pour ˉle blanchissage. — Une auge et sa planchette, 15ᶠ; — battoir et brosse de chiendent, 1ᶠ66. — Total, 16ᶠ66.
-        </p>
-        <p xml:id="para_5_110_55">
-         4° Outils de ardinageˉ. — 4 bêches,8ᶠ; — 2 arrosoirs, 6ᶠ; — 2 pioches, 8ᶠ; — 2 hoyaux, 6ᶠ; — couteaux et menus outils, 5ᶠ. — Total, 33ᶠ.
-        </p>
+        <p xml:id="para_5_110_51">MATÉRIEL SPÉCIAL DES Travaux et industries.......... 3,401 00</p>
+        <p xml:id="para_5_110_52">1° Matieres premières. — Poutres et planches de sapin, 1,000ᶠ; — poutres et planches de bois d'arar, 2,000ᶠ. — Total, 3,000ᶠ.</p>
+        <p xml:id="para_5_110_53">2° outils de charpentier et de menuisier ebenisteˉ. — 3 établis avec étaux, 150ᶠ; — 6 haches de diverses grandeurs, 20ᶠ; — 12 rabots, varlopes, rabots à moulures, 50ᶠ; — 6 valets en fer, 18ᶠ; — maillets, 5ᶠ; — 4 marteaux, 8ᶠ; — 4 tenailles, 12ᶠ ; — grande scie à refendre, 25ᶠ; — 6 scies grandes et petites, 30ᶠ; — 4 compas en fer, 5ᶠ; — 12gouges, 15ᶠ; — 6 ciseaux à froid, 10ᶠ; — équerre, mètre, fl à plomb, 5ᶠ. —Total, 33ᶠ.</p>
+        <p xml:id="para_5_110_54">3° Materiel pour ˉle blanchissage. — Une auge et sa planchette, 15ᶠ; — battoir et brosse de chiendent, 1ᶠ66. — Total, 16ᶠ66.</p>
+        <p xml:id="para_5_110_55">4° Outils de ardinageˉ. — 4 bêches,8ᶠ; — 2 arrosoirs, 6ᶠ; — 2 pioches, 8ᶠ; — 2 hoyaux, 6ᶠ; — couteaux et menus outils, 5ᶠ. — Total, 33ᶠ.</p>
        </div>
        <div subtype="proprietes_esclave" type="proprietes">
-        <p xml:id="para_5_110_56">
-         NEGRESSE ESCLAVE. Il convient d'ajouter à la liste des propriétés la négresse esclave qui sert la famille, et dont la valeur commer¬ciale est représentée par.......................... 300ᶠ00
-        </p>
+        <p xml:id="para_5_110_56">NEGRESSE ESCLAVE. Il convient d'ajouter à la liste des propriétés la négresse esclave qui sert la famille, et dont la valeur commer¬ciale est représentée par.......................... 300ᶠ00</p>
        </div>
        <div subtype="proprietes_total" type="proprietes">
-        <p xml:id="para_5_110_58">
-         VALEUR TOTALE des propriétés................... 24,702ᶠ66
-        </p>
+        <p xml:id="para_5_110_58">VALEUR TOTALE des propriétés................... 24,702ᶠ66</p>
        </div>
        <div subtype="proprietes_texte_2" type="proprietes">
-        <p xml:id="para_5_110_59">
-         Si l'on considère que les denrées alimentaires sont, en moyenne,
-         <pb facs="#facs_114" n="111" source="lesouvriersdesde02sociuoft_0117.xml"/>
-         trois fois moins chères au Maroc qu'en France, et que les besoins des familles indigènes sont incomparablement plus restreints, on comprendra comment le maître dont il s'agit est estimé riche par ses concitoyens.
-        </p>
+        <p xml:id="para_5_110_59">Si l'on considère que les denrées alimentaires sont, en moyenne,<pb facs="#facs_114" n="111" source="lesouvriersdesde02sociuoft_0117.xml"/>trois fois moins chères au Maroc qu'en France, et que les besoins des familles indigènes sont incomparablement plus restreints, on comprendra comment le maître dont il s'agit est estimé riche par ses concitoyens.</p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
-        § 7. — Subventions.
-       </head>
-       <p xml:id="para_5_111_62">
-        Quelques cadeaux que reçoit la famille peuvent seuls être consi¬dérés comme subvention. Il est assez difficile de déterminer la va-. leur de ces cadeaux, qui consistent en fichus de soie, petits bijoux, ou pièces d'étoffes communes, offerts à la femme par les amis de la famille. La valeur des cadeaux en étoffes a été inscrite au budget pour une somme de 11ᶠ50 ; quant aux bijoux, on peut en fixer la valeur annuelle à 40ᶠ.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
+       <p xml:id="para_5_111_62">Quelques cadeaux que reçoit la famille peuvent seuls être consi¬dérés comme subvention. Il est assez difficile de déterminer la va-. leur de ces cadeaux, qui consistent en fichus de soie, petits bijoux, ou pièces d'étoffes communes, offerts à la femme par les amis de la famille. La valeur des cadeaux en étoffes a été inscrite au budget pour une somme de 11ᶠ50 ; quant aux bijoux, on peut en fixer la valeur annuelle à 40ᶠ.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
-        § 8. — Travaux et industries.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
        <div subtype="ouvrier" type="travaux">
-        <p xml:id="para_5_111_64">
-         TRAVAUX DE L'OUVRIER. — Tout le travail est exécuté au compte de différents particuliers. Chaque pièce se fait moyennant un prix débattu et qui varie, pour les mêmes objets, suivant la cherté de la matière première et la fortune du client. Le maître estime lui-même ses bénéfices nets à une somme annuelle qui varie entre 1,500ᶠ et 2,000ᶠ.
-        </p>
-        <p xml:id="para_5_111_65">
-         On peut considérer comme des travaux secondaires du maître les soins qu'il donne à ses jardins. Un jardinigr riffain a la garde et l'exploitation de ces jardins, dont les produits consistent en fruits, légumes et raisin. Quelques-uns de ces produits sont vendus au marché de la ville ; une grande partie est consommée par la famille, ou offerte en cadeaux. Le maître se propose, lorsqu'il abandonnera les travaux de sa profession, de donner à la culture de sa terre assez de développement pour en faire son principal moyen d'existence. Dans l'état actuel, elle est pour lui de nul rapport.
-        </p>
+        <p xml:id="para_5_111_64">TRAVAUX DE L'OUVRIER. — Tout le travail est exécuté au compte de différents particuliers. Chaque pièce se fait moyennant un prix débattu et qui varie, pour les mêmes objets, suivant la cherté de la matière première et la fortune du client. Le maître estime lui-même ses bénéfices nets à une somme annuelle qui varie entre 1,500ᶠ et 2,000ᶠ.</p>
+        <p xml:id="para_5_111_65">On peut considérer comme des travaux secondaires du maître les soins qu'il donne à ses jardins. Un jardinigr riffain a la garde et l'exploitation de ces jardins, dont les produits consistent en fruits, légumes et raisin. Quelques-uns de ces produits sont vendus au marché de la ville ; une grande partie est consommée par la famille, ou offerte en cadeaux. Le maître se propose, lorsqu'il abandonnera les travaux de sa profession, de donner à la culture de sa terre assez de développement pour en faire son principal moyen d'existence. Dans l'état actuel, elle est pour lui de nul rapport.</p>
        </div>
        <div subtype="femme" type="travaux">
-        <p xml:id="para_5_111_66">
-         TRAVAUX DE LA FEMME. — La femme soigne son enfant, surveille les apprets de la cuisine et les travaux intérieurs, qui consistent à naintenir dans la maison une grande propreté, au moyen de fré¬quentes lessives et du lavage quotidien du carreau des chambres et de la cour intérieure. L'absence de mobilier la dispense de tout le détail d'entretien qui occupe les femmes de nos ouvriers. Elle passe une grande partie de son temps accroupie sur une natte et dans un état d'oisiveté complète.
-        </p>
+        <p xml:id="para_5_111_66">TRAVAUX DE LA FEMME. — La femme soigne son enfant, surveille les apprets de la cuisine et les travaux intérieurs, qui consistent à naintenir dans la maison une grande propreté, au moyen de fré¬quentes lessives et du lavage quotidien du carreau des chambres et de la cour intérieure. L'absence de mobilier la dispense de tout le détail d'entretien qui occupe les femmes de nos ouvriers. Elle passe une grande partie de son temps accroupie sur une natte et dans un état d'oisiveté complète.</p>
        </div>
        <div subtype="travaux_esclave" type="travaux">
-        <p xml:id="para_5_111_67">
-         TRAVAUX DE LA NÉGRESSE. — Elle est chargée de tous les travaux domestiques : elle prépare tous les deux jours le couscoussou, pétrit
-         <pb facs="#facs_115" n="112" source="lesouvriersdesde02sociuoft_0118.xml"/>
-         le pain chaque jour, fait la lessive, blanchit fréquemment les mu¬railles à la chaux vive, et s'occupe à quelques travaux de couture ayant pour objet l'entretien des vêtements les plus communs.
-        </p>
+        <p xml:id="para_5_111_67">TRAVAUX DE LA NÉGRESSE. — Elle est chargée de tous les travaux domestiques : elle prépare tous les deux jours le couscoussou, pétrit<pb facs="#facs_115" n="112" source="lesouvriersdesde02sociuoft_0118.xml"/>le pain chaque jour, fait la lessive, blanchit fréquemment les mu¬railles à la chaux vive, et s'occupe à quelques travaux de couture ayant pour objet l'entretien des vêtements les plus communs.</p>
        </div>
        <div subtype="enfant" type="travaux">
-        <p xml:id="para_5_112_69">
-         TRAVAUX DE L'ENFANT. — L'enfant ne s'adonne à aucun travail lucratif ; il passe chaque jour huit heures à l'école, où toutes ses études se bornent à répéter, avec une cinquantaine d'autres enfants, un seul verset du Koran, jusqu'à ce que le maître (thaleb), jugeant que ce verset est suffisamment gravé dans la mémoire de ses élèves, veuille bien en faire répéter un autre.
-        </p>
+        <p xml:id="para_5_112_69">TRAVAUX DE L'ENFANT. — L'enfant ne s'adonne à aucun travail lucratif ; il passe chaque jour huit heures à l'école, où toutes ses études se bornent à répéter, avec une cinquantaine d'autres enfants, un seul verset du Koran, jusqu'à ce que le maître (thaleb), jugeant que ce verset est suffisamment gravé dans la mémoire de ses élèves, veuille bien en faire répéter un autre.</p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
-       III. Mode d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_03">III. Mode d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
-        § 9. — Aliments et repas.
-       </head>
-       <p xml:id="para_5_112_73">
-        La famille fait trois repas par jour : celui du matin, ou premier déjeuner, consiste en quelques tasses de lait, pur ou mélangé de café, et prises avec du pain ou des dattes. Vers onze heures, un second déjeuner est servi ; il est plus substantiel que le précédent et consiste en un plat de couscoussou au lait, fortement sucré et épicé de cannelle, de poivre (fefèl), de fleurs d'oranger et d'autres aromates. Quelques fruits de la saison servent de dessert. En été, le couscoussou est souvent remplacé par différents légumes accom¬modés en salade. La famille consomme aussi une certaine quantité de miel et de conserves, dont l'usage est très-répandu à Tangedans les maisons riches.
-       </p>
-       <p xml:id="para_5_112_74">
-        Le soir, vers six heures, a lieu le principal repas. On sert un énorme plat de couscoussou cuit à la vapeur et préparé au bouillon gras. On y mêle ordinairement soit quelques morceaux de mouton, soit une poule, soit deux ou trois pigeons ou perdreaux. Les musulmans, comme les juifs, s'abstiennent de manger du gibier, car la loi leur prescrit de se nourrir seulement d'animaux saignés. Le couscoussou est quelquefois remplacé par des poulets rissolés dansdes flots d'huile, ou par des poissons apprêtés de la même manière. La famille boit de l'eau et du thé à tous les repas. L'usage du café n'est que fort peu répandu au Maroc, et celui du thé a prévalu, grâce à l'impor¬tation anglaise de cette denrée économique. Les Marocains pren¬nent cette boisson très-sucrée et mélangée de menthe. Le maître, persuadé que le vin de France est pour lui un fortifiant indispen¬sable, fait secrètement un usage modéré de cette boisson défendue par la loi.
-       </p>
-       <p xml:id="para_5_113_75">
-        <pb facs="#facs_116" n="113" source="lesouvriersdesde02sociuoft_0119.xml"/>
-        Une particularité doit être remarquée : l'ouvrier dine seul et à part, l'usage du pays ne permettant pas aux femmes de manger avec leur mari. L'enfant mange indifféremment avec son père ou avec sa mère.
-       </p>
-       <p xml:id="para_5_113_76">
-        L'usage des tables, des siéges, des assiettes et de tous les acces¬soires d'un repas européen, est complétement inconnu de la plupart des musulmans. Les convives sont accroupis sur une natte, et les mets sont servis dans de grands plats de terre cuite ; chacun y plonge les doigts et en tire le morceau qui lui convient. Le cous¬coussou se prend de la même façon : chacun le mange dans le creux de la main. L'ablution qui suit le repas remplace l'usage de la serviette.
-       </p>
-       <p xml:id="para_5_113_77">
-        Le vendredi (loum-el-iemaa), ou les jours de fête, la négresse confectionne avec sa maîtresse différents petits gâteaux (halaouat) ; les principaux ingrédients sont la farine de froment, le couscoussou, le beurre, le miel, le sucre, les amandes et la fleur d'oranger.
-       </p>
-       <p xml:id="para_5_113_78">
-        Le jeûne du rimdan est strictement observé par toute la famille. A cette époque, aucun musulman ne doit ni boire, ni manger, ni fumer, ni aspirer la fumée d'aucun mets, ni même celle du tabac depuis trois heures du matin jusqu'au coucher du soleil. Chaque soir un coup de canon, parti de la lasba (citadelle), donne le signal de la rupture du jeûne. Ce signal est ardemment épié. On voit, dans les rues, les hommes accroupis devant les maisons, la pipe bourrée et l'allumette à la main. Au coup de canon, les allu¬mettes s'enflamment, toutes les bouches aspirent à la fois et envoient des bouffées vers le ciel.
-       </p>
-       <p xml:id="para_5_113_79">
-        Ce jeûne rigoureux, prolongé pendant tout un mois, est d'autant plus préjudiciable à la santé publique, que les musulmans passent la nuit presque entière à se gorger ; aussi le râmdan est-il toujours suivi de nombreux cas de fièvre et de dyssenterie.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
+       <p xml:id="para_5_112_73">La famille fait trois repas par jour : celui du matin, ou premier déjeuner, consiste en quelques tasses de lait, pur ou mélangé de café, et prises avec du pain ou des dattes. Vers onze heures, un second déjeuner est servi ; il est plus substantiel que le précédent et consiste en un plat de couscoussou au lait, fortement sucré et épicé de cannelle, de poivre (fefèl), de fleurs d'oranger et d'autres aromates. Quelques fruits de la saison servent de dessert. En été, le couscoussou est souvent remplacé par différents légumes accom¬modés en salade. La famille consomme aussi une certaine quantité de miel et de conserves, dont l'usage est très-répandu à Tangedans les maisons riches.</p>
+       <p xml:id="para_5_112_74">Le soir, vers six heures, a lieu le principal repas. On sert un énorme plat de couscoussou cuit à la vapeur et préparé au bouillon gras. On y mêle ordinairement soit quelques morceaux de mouton, soit une poule, soit deux ou trois pigeons ou perdreaux. Les musulmans, comme les juifs, s'abstiennent de manger du gibier, car la loi leur prescrit de se nourrir seulement d'animaux saignés. Le couscoussou est quelquefois remplacé par des poulets rissolés dansdes flots d'huile, ou par des poissons apprêtés de la même manière. La famille boit de l'eau et du thé à tous les repas. L'usage du café n'est que fort peu répandu au Maroc, et celui du thé a prévalu, grâce à l'impor¬tation anglaise de cette denrée économique. Les Marocains pren¬nent cette boisson très-sucrée et mélangée de menthe. Le maître, persuadé que le vin de France est pour lui un fortifiant indispen¬sable, fait secrètement un usage modéré de cette boisson défendue par la loi.</p>
+       <p xml:id="para_5_113_75"><pb facs="#facs_116" n="113" source="lesouvriersdesde02sociuoft_0119.xml"/> Une particularité doit être remarquée : l'ouvrier dine seul et à part, l'usage du pays ne permettant pas aux femmes de manger avec leur mari. L'enfant mange indifféremment avec son père ou avec sa mère.</p>
+       <p xml:id="para_5_113_76">L'usage des tables, des siéges, des assiettes et de tous les acces¬soires d'un repas européen, est complétement inconnu de la plupart des musulmans. Les convives sont accroupis sur une natte, et les mets sont servis dans de grands plats de terre cuite ; chacun y plonge les doigts et en tire le morceau qui lui convient. Le cous¬coussou se prend de la même façon : chacun le mange dans le creux de la main. L'ablution qui suit le repas remplace l'usage de la serviette.</p>
+       <p xml:id="para_5_113_77">Le vendredi (loum-el-iemaa), ou les jours de fête, la négresse confectionne avec sa maîtresse différents petits gâteaux (halaouat) ; les principaux ingrédients sont la farine de froment, le couscoussou, le beurre, le miel, le sucre, les amandes et la fleur d'oranger.</p>
+       <p xml:id="para_5_113_78">Le jeûne du rimdan est strictement observé par toute la famille. A cette époque, aucun musulman ne doit ni boire, ni manger, ni fumer, ni aspirer la fumée d'aucun mets, ni même celle du tabac depuis trois heures du matin jusqu'au coucher du soleil. Chaque soir un coup de canon, parti de la lasba (citadelle), donne le signal de la rupture du jeûne. Ce signal est ardemment épié. On voit, dans les rues, les hommes accroupis devant les maisons, la pipe bourrée et l'allumette à la main. Au coup de canon, les allu¬mettes s'enflamment, toutes les bouches aspirent à la fois et envoient des bouffées vers le ciel.</p>
+       <p xml:id="para_5_113_79">Ce jeûne rigoureux, prolongé pendant tout un mois, est d'autant plus préjudiciable à la santé publique, que les musulmans passent la nuit presque entière à se gorger ; aussi le râmdan est-il toujours suivi de nombreux cas de fièvre et de dyssenterie.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
-        § 10. — Habitation, mobilier et vêtements.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="para_5_113_81">
-         La maison habitée par la famille est située au centre de la ville, à proximité des maisons consulaires. Elle est composée de quatre grandes pièces ouvrant sur une petite cour intérieure d'environ 10 mètres carrés. Ces pièces sont longues, étroites, et ne prennent jour que par les portes à deux battants qui y donnent accès. Le maître occupe la plus belle de ces pièces ; la mère et l'enfant habi¬tent la seconde; la troisième est abandonnée à la négresse, et la dernière sert de magasin à toute la famille. La cuisine se fait au milieu de la cour.
-        </p>
-        <p xml:id="para_5_113_82">
-         L'absence de fenêtres, etla disposition des quatre pièces au re-de
-         <pb facs="#facs_117" n="114" source="lesouvriersdesde02sociuoft_0120.xml"/>
-         chaussée, entretiennent dans la maison une fraicheur souvent exces¬sive. La plupart des maisons mauresques sont assez humides pour exercer une pernicieuse influence sur la santé des femmes qui y vivent retirées. Les terrasses sont mal bâties. Dans la saison des pluies, l'eau suinte toujours par en haut, le long des murailles.
-        </p>
-        <p xml:id="para_5_114_85">
-         Le maître paie, par trimestre, un loyer annuel de 400ᶠ; mais dans ce prix il faut comprendre la location d'une masure attenante à la maison et qui sert d'atelier et de magasin.
-        </p>
-        <p xml:id="para_5_114_86">
-         Le mobilier consiste uniquement dans les objets suivants :
-        </p>
+        <p xml:id="para_5_113_81">La maison habitée par la famille est située au centre de la ville, à proximité des maisons consulaires. Elle est composée de quatre grandes pièces ouvrant sur une petite cour intérieure d'environ 10 mètres carrés. Ces pièces sont longues, étroites, et ne prennent jour que par les portes à deux battants qui y donnent accès. Le maître occupe la plus belle de ces pièces ; la mère et l'enfant habi¬tent la seconde; la troisième est abandonnée à la négresse, et la dernière sert de magasin à toute la famille. La cuisine se fait au milieu de la cour.</p>
+        <p xml:id="para_5_113_82">L'absence de fenêtres, etla disposition des quatre pièces au re-de<pb facs="#facs_117" n="114" source="lesouvriersdesde02sociuoft_0120.xml"/>chaussée, entretiennent dans la maison une fraicheur souvent exces¬sive. La plupart des maisons mauresques sont assez humides pour exercer une pernicieuse influence sur la santé des femmes qui y vivent retirées. Les terrasses sont mal bâties. Dans la saison des pluies, l'eau suinte toujours par en haut, le long des murailles.</p>
+        <p xml:id="para_5_114_85">Le maître paie, par trimestre, un loyer annuel de 400ᶠ; mais dans ce prix il faut comprendre la location d'une masure attenante à la maison et qui sert d'atelier et de magasin.</p>
+        <p xml:id="para_5_114_86">Le mobilier consiste uniquement dans les objets suivants :</p>
        </div>
        <div subtype="meubles" type="par_10">
-        <p xml:id="para_5_114_87">
-         MEUBLES : Ils sont tenus dans les meilleures conditions du com¬fort et entretenus avec soin....................... 1,718ᶠ00
-        </p>
-        <p xml:id="para_5_114_88">
-         1° Lits. — 6 matelas en laine du pays, 300ᶠ; — 2 tapis de Rabatt (ville du Maroc), 120ᶠ; — 6 couvertures de laine de Tunis, 400ᶠ; — 6 couvertures de laine du pays, tissu gros¬sier, 60ᶠ; —12 coussins en cuir maroquin ou en drap fn, 60ᶠ ; — 6 draps de coton, 70ᶠ; — rideaux d'indienne à grandes fleurs, 40ᶠ ; — 3 grandes nattes tricolores de Tétuan (ville du Maroc), 80ᶠ; — 2 nattes communes, 10ᶠ. — Total, 1,140ᶠ.
-        </p>
-        <p xml:id="para_5_114_91">
-         2° Mobilier de la chambre de ˉl'ouvrier. — 2 grands coffres peints et sculptés à la mode mauresque, 100ᶠ; — 6 chaises de bois peintes en vert, à l'usage des visiteurs euro¬péens, 30ᶠ. — Total, 130ᶠ.
-        </p>
-        <p xml:id="para_5_114_92">
-         3° Mobiliee de la chambre de ˉla femme. — 2 grands coffres peints et sculptés à la mauresque, 100ᶠ; — 2 tabourets de Tétuan, 20ᶠ; — 6 miroirs de Cadix, 150ᶠ.— Total,270ᶠ
-        </p>
+        <p xml:id="para_5_114_87">MEUBLES : Ils sont tenus dans les meilleures conditions du com¬fort et entretenus avec soin....................... 1,718ᶠ00</p>
+        <p xml:id="para_5_114_88">1° Lits. — 6 matelas en laine du pays, 300ᶠ; — 2 tapis de Rabatt (ville du Maroc), 120ᶠ; — 6 couvertures de laine de Tunis, 400ᶠ; — 6 couvertures de laine du pays, tissu gros¬sier, 60ᶠ; —12 coussins en cuir maroquin ou en drap fn, 60ᶠ ; — 6 draps de coton, 70ᶠ; — rideaux d'indienne à grandes fleurs, 40ᶠ ; — 3 grandes nattes tricolores de Tétuan (ville du Maroc), 80ᶠ; — 2 nattes communes, 10ᶠ. — Total, 1,140ᶠ.</p>
+        <p xml:id="para_5_114_91">2° Mobilier de la chambre de ˉl'ouvrier. — 2 grands coffres peints et sculptés à la mode mauresque, 100ᶠ; — 6 chaises de bois peintes en vert, à l'usage des visiteurs euro¬péens, 30ᶠ. — Total, 130ᶠ.</p>
+        <p xml:id="para_5_114_92">3° Mobiliee de la chambre de ˉla femme. — 2 grands coffres peints et sculptés à la mauresque, 100ᶠ; — 2 tabourets de Tétuan, 20ᶠ; — 6 miroirs de Cadix, 150ᶠ.— Total,270ᶠ</p>
        </div>
        <div subtype="linge" type="par_10">
-        <p xml:id="para_5_114_93">
-         LINGE DE MÉNAGE : Différentes pièces de toile et de coton serant aux ablutions et à la cuisine......................... 60 00
-        </p>
+        <p xml:id="para_5_114_93">LINGE DE MÉNAGE : Différentes pièces de toile et de coton serant aux ablutions et à la cuisine......................... 60 00</p>
        </div>
        <div subtype="ustensiles" type="par_10">
-        <p xml:id="para_5_114_94">
-         USTENSILES : Ils comprennent tous les articles de cuisine et des objets affectés à des usages divers. Ils sont tous en très-bon état et etretenus avec propreté.......................... 118 00
-        </p>
-        <p xml:id="para_5_114_95">
-         Employés pour la préparation des aliments. — 1 paire de pincettes 2ᶠ; —4 réchauds en terre cuite, 1ᶠ; — 12 plats en terre cuite de diverses grandeurs, 4ᶠ; — 10 tasses en terre,2ᶠ;—grande jarre de Tétuan servant de fontaine, 20ᶠ;— autre jarre de Tétuan, 10ᶠ; — 20 cruches et gargoulettes, 8; — quelques pièces de porcelaine, 20ᶠ; — 1 théière avec service à thé de Gibraltar, 30ᶠ. — Total, 97ᶠ.
-        </p>
-        <p xml:id="para_5_114_97">
-         2° Employés pour les soins de propreté. — Balais de jonc, éventails, chasse-mouches, 4ᶠ; — 4 brûle-parfums, 2ᶠ; — 3 foles à essence en cristal, 6ᶠ. — Total, 12ᶠ.
-        </p>
-        <p xml:id="para_5_114_98">
-         3° Usages divers. — 2 fanaux, 6ᶠ ; — 6 fambeaux en verre, 3ᶠ. — Total, 9ᶠ.
-        </p>
+        <p xml:id="para_5_114_94">USTENSILES : Ils comprennent tous les articles de cuisine et des objets affectés à des usages divers. Ils sont tous en très-bon état et etretenus avec propreté.......................... 118 00</p>
+        <p xml:id="para_5_114_95">Employés pour la préparation des aliments. — 1 paire de pincettes 2ᶠ; —4 réchauds en terre cuite, 1ᶠ; — 12 plats en terre cuite de diverses grandeurs, 4ᶠ; — 10 tasses en terre,2ᶠ;—grande jarre de Tétuan servant de fontaine, 20ᶠ;— autre jarre de Tétuan, 10ᶠ; — 20 cruches et gargoulettes, 8; — quelques pièces de porcelaine, 20ᶠ; — 1 théière avec service à thé de Gibraltar, 30ᶠ. — Total, 97ᶠ.</p>
+        <p xml:id="para_5_114_97">2° Employés pour les soins de propreté. — Balais de jonc, éventails, chasse-mouches, 4ᶠ; — 4 brûle-parfums, 2ᶠ; — 3 foles à essence en cristal, 6ᶠ. — Total, 12ᶠ.</p>
+        <p xml:id="para_5_114_98">3° Usages divers. — 2 fanaux, 6ᶠ ; — 6 fambeaux en verre, 3ᶠ. — Total, 9ᶠ.</p>
        </div>
        <div subtype="vetements" type="par_10">
-        <p xml:id="para_5_114_99">
-         VÊTEMENTS : Les vêtements de la famille, même en temps ordi¬naire, sont ceux de la classe aisée ; les vêtements de fête sont rarement renouvelés ; lorsqu'ils sont flétris ils passent, avec quel¬ques modifications, à l'usage journalier ; la plupart des bijoux se transmettent par voie d'héritage, et servent ainsi à plusieurs générations. . ..................................... 10,88
-        </p>
-        <p xml:id="para_5_114_100">
-         VÊTEMENTS DE L'OUVRIER (853ᶠ).
-        </p>
-        <p xml:id="para_5_114_101">
-         1° Vêtements du vendredi et des grandes fétes. — 1 hai de laine fine, 120ᶠ; — 1 iel¬ˉlaba de laine blanche, 50ᶠ; — 1 djellaba de drap bleu, 100ᶠ; — uune pièce de soie des Indes pour turban, 100ᶠ; — 1 chachia, ou calotte de drap rouge, 5ᶠ ; — 1 pantalon large (srouel) de drap bleu clair, 50ᶠ ; — 1 sarouel en toile blanche, 25ᶠ; — 1 gilet de drap
-         <pb facs="#facs_118" n="115" source="lesouvriersdesde02sociuoft_0121.xml"/>
-         rouge, orné de passementeries, 35ᶠ; —1 veste de drap rouge brodée d'r et de soie, 150ᶠ; 1 ceinture de soie cerise et or, 60ᶠ; — babouches ou chaussures en maroquin jaune, 3ᶠ. Total, 698ᶠ.
-        </p>
-        <p xml:id="para_5_115_103">
-         2° Vêtements de travail. — 4 djellaba en grosse laine rayée, 0ᶠ; — turban blanc et chachia roge, 13ᶠ; — 3 sarouels de toile commune, 30ᶠ ; — gilet de drap bleu, 15ᶠ; — 1 veste de drap rouge, 50ᶠ; — 1 ceinture rouge en soie et en laine, 3ᶠ; — 1 paire de babouches, 2ᶠ. — Total, 1ᶠ.
-        </p>
-        <p xml:id="para_5_115_104">
-         VETEMENTS DE LA FEMME (9,671ᶠ).
-        </p>
-        <p xml:id="para_5_115_105">
-         1° Vêtements du vendredi et des grandes fêtes. — 3 foulards de soie brochés d'0r, pour la coifure, 60ᶠ; — 3 gilets (bedidt) de drap d'or et d'argent, 100ᶠ; — 1 veste de drap d'or, brodée d'or fn, 300ᶠ; —1 veste de soie brodée d'or fn, 800ᶠ; — 2 ceintures de soie brochées d'or, 300ᶠ; —  paires de larges manches de gae mouchetée d'or et d'a¬gent, 100ᶠ; —  seroual (calȩons) de soie, 150ᶠ; — babouches de velours en or fn, 50ᶠ; — babonuches de drap d'or pailleté, 30ᶠ; — hal de soie et laine, 10ᶠ; — burnous de Fe, 20ᶠ. — Total, 1,850ᶠ.
-        </p>
-        <p xml:id="para_5_115_106">
-         2° Vêtements communs. — foulards de tète, 30ᶠ; — 2 gilets de tafetas,40ᶠ ; — 2 tu¬niques longues de mousseline et de coton fn, 40ᶠ; — 1 ceinture, 5ᶠ; —2 sérouàl de co¬ton, 0ᶠ; — babouches, 6ᶠ ;— ha de laine, 60ᶠ; hal de coton, 20ᶠ. — Total, 221ᶠ.
-        </p>
-        <p xml:id="para_5_115_107">
-         3° Bjoux (1,600ᶠ).
-        </p>
-        <p xml:id="para_5_115_108">
-         Pendants d'oreilles en or et pierrries, 300ᶠ; — 4 bracelets en or massii, 2,000ᶠ; — 4 bracelets en argent ciselé, 600ᶠ; —  anneaux d'argent massif, pour les jambes (hhal¬hal), 400ᶠ; — bagues en or, ugent, brillants et pierreries, 1,000ᶠ;—1 collier de perles nes, inégales et mal assorties, 00ᶠ; — 1 collier de corail, 40ᶠ; — épingles en or et enar¬gent pour la toilette, 60ᶠ; — 1 plaque de diamants pour orner la poitrine, 3,000ᶠ.
-        </p>
-        <p xml:id="para_5_115_109">
-         VETEMENTS DE L'ENFANT (139ᶠ).
-        </p>
-        <p xml:id="para_5_115_110">
-         1° Vêtements de fête. — 1 chachia, 4ᶠ;— 2 tuniques de laine rouge, 40ᶠ; — 1 sarouel de toile, 6ᶠ; — 1 burnous de drap bleu, 50ᶠ; — 1 ceintur, 10ᶠ; — babouches, ᶠ. — Tota, 1.
-        </p>
-        <p xml:id="para_5_115_111">
-         2° Vêtements communs. — tuniques de coton, 20ᶠ; — 2 seroual de coton, 6ᶠ; — djel¬lba degrosse laine, 1ᶠ; —1 csdanture, 4ᶠ ; —babouches, 2ᶠ; — 1 anneau d'argent, 3ᶠ. — oa, .
-        </p>
-        <p xml:id="para_5_115_112">
-         VETEMENTS DE LA NEGRESSE (205ᶠ).
-        </p>
-        <p xml:id="para_5_115_113">
-         2 caleçons de coton, 1 ;—  tuniques de coton, 24ᶠ ; — 1 ha de laine, 40ᶠ; —1 hal de coton, 1ᶠ; —1 pièce de coton rayée ronge et blen (fonta), 1ᶠ; — 1 foulard de soie, 10ᶠ; — un ouchor de coton pour la tête, ᶠ; — 2 paires de babouches, 4ᶠ; —  cein¬tures, 0ᶠ; — 1 bague d'argnt, ᶠ; - pendants d'oreilles eon argent, 60ᶠ.
-        </p>
+        <p xml:id="para_5_114_99">VÊTEMENTS : Les vêtements de la famille, même en temps ordi¬naire, sont ceux de la classe aisée ; les vêtements de fête sont rarement renouvelés ; lorsqu'ils sont flétris ils passent, avec quel¬ques modifications, à l'usage journalier ; la plupart des bijoux se transmettent par voie d'héritage, et servent ainsi à plusieurs générations. . ..................................... 10,88</p>
+        <p xml:id="para_5_114_100">VÊTEMENTS DE L'OUVRIER (853ᶠ).</p>
+        <p xml:id="para_5_114_101">1° Vêtements du vendredi et des grandes fétes. — 1 hai de laine fine, 120ᶠ; — 1 iel¬ˉlaba de laine blanche, 50ᶠ; — 1 djellaba de drap bleu, 100ᶠ; — uune pièce de soie des Indes pour turban, 100ᶠ; — 1 chachia, ou calotte de drap rouge, 5ᶠ ; — 1 pantalon large (srouel) de drap bleu clair, 50ᶠ ; — 1 sarouel en toile blanche, 25ᶠ; — 1 gilet de drap<pb facs="#facs_118" n="115" source="lesouvriersdesde02sociuoft_0121.xml"/>rouge, orné de passementeries, 35ᶠ; —1 veste de drap rouge brodée d'r et de soie, 150ᶠ; 1 ceinture de soie cerise et or, 60ᶠ; — babouches ou chaussures en maroquin jaune, 3ᶠ. Total, 698ᶠ.</p>
+        <p xml:id="para_5_115_103">2° Vêtements de travail. — 4 djellaba en grosse laine rayée, 0ᶠ; — turban blanc et chachia roge, 13ᶠ; — 3 sarouels de toile commune, 30ᶠ ; — gilet de drap bleu, 15ᶠ; — 1 veste de drap rouge, 50ᶠ; — 1 ceinture rouge en soie et en laine, 3ᶠ; — 1 paire de babouches, 2ᶠ. — Total, 1ᶠ.</p>
+        <p xml:id="para_5_115_104">VETEMENTS DE LA FEMME (9,671ᶠ).</p>
+        <p xml:id="para_5_115_105">1° Vêtements du vendredi et des grandes fêtes. — 3 foulards de soie brochés d'0r, pour la coifure, 60ᶠ; — 3 gilets (bedidt) de drap d'or et d'argent, 100ᶠ; — 1 veste de drap d'or, brodée d'or fn, 300ᶠ; —1 veste de soie brodée d'or fn, 800ᶠ; — 2 ceintures de soie brochées d'or, 300ᶠ; —  paires de larges manches de gae mouchetée d'or et d'a¬gent, 100ᶠ; —  seroual (calȩons) de soie, 150ᶠ; — babouches de velours en or fn, 50ᶠ; — babonuches de drap d'or pailleté, 30ᶠ; — hal de soie et laine, 10ᶠ; — burnous de Fe, 20ᶠ. — Total, 1,850ᶠ.</p>
+        <p xml:id="para_5_115_106">2° Vêtements communs. — foulards de tète, 30ᶠ; — 2 gilets de tafetas,40ᶠ ; — 2 tu¬niques longues de mousseline et de coton fn, 40ᶠ; — 1 ceinture, 5ᶠ; —2 sérouàl de co¬ton, 0ᶠ; — babouches, 6ᶠ ;— ha de laine, 60ᶠ; hal de coton, 20ᶠ. — Total, 221ᶠ.</p>
+        <p xml:id="para_5_115_107">3° Bjoux (1,600ᶠ).</p>
+        <p xml:id="para_5_115_108">Pendants d'oreilles en or et pierrries, 300ᶠ; — 4 bracelets en or massii, 2,000ᶠ; — 4 bracelets en argent ciselé, 600ᶠ; —  anneaux d'argent massif, pour les jambes (hhal¬hal), 400ᶠ; — bagues en or, ugent, brillants et pierreries, 1,000ᶠ;—1 collier de perles nes, inégales et mal assorties, 00ᶠ; — 1 collier de corail, 40ᶠ; — épingles en or et enar¬gent pour la toilette, 60ᶠ; — 1 plaque de diamants pour orner la poitrine, 3,000ᶠ.</p>
+        <p xml:id="para_5_115_109">VETEMENTS DE L'ENFANT (139ᶠ).</p>
+        <p xml:id="para_5_115_110">1° Vêtements de fête. — 1 chachia, 4ᶠ;— 2 tuniques de laine rouge, 40ᶠ; — 1 sarouel de toile, 6ᶠ; — 1 burnous de drap bleu, 50ᶠ; — 1 ceintur, 10ᶠ; — babouches, ᶠ. — Tota, 1.</p>
+        <p xml:id="para_5_115_111">2° Vêtements communs. — tuniques de coton, 20ᶠ; — 2 seroual de coton, 6ᶠ; — djel¬lba degrosse laine, 1ᶠ; —1 csdanture, 4ᶠ ; —babouches, 2ᶠ; — 1 anneau d'argent, 3ᶠ. — oa, .</p>
+        <p xml:id="para_5_115_112">VETEMENTS DE LA NEGRESSE (205ᶠ).</p>
+        <p xml:id="para_5_115_113">2 caleçons de coton, 1 ;—  tuniques de coton, 24ᶠ ; — 1 ha de laine, 40ᶠ; —1 hal de coton, 1ᶠ; —1 pièce de coton rayée ronge et blen (fonta), 1ᶠ; — 1 foulard de soie, 10ᶠ; — un ouchor de coton pour la tête, ᶠ; — 2 paires de babouches, 4ᶠ; —  cein¬tures, 0ᶠ; — 1 bague d'argnt, ᶠ; - pendants d'oreilles eon argent, 60ᶠ.</p>
        </div>
        <div subtype="par_10_total" type="par_10">
-        <p xml:id="para_5_115_114">
-         VALEUR TOTAL du mobilier et des vêtements....... 12,006ᶠ00
-        </p>
+        <p xml:id="para_5_115_114">VALEUR TOTAL du mobilier et des vêtements....... 12,006ᶠ00</p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
-        § 11. — Récréations.
-       </head>
-       <p xml:id="para_5_115_116">
-        Les distractions de la famille sont assez bornées : chaque ven¬dredi la femme pase quelques heures à visiter ses amies, et se rend au cimetière, où elle acconplit quelques devoirs religieux. Ce pèlerinage hebdomadaire est véritablement une récréation pour les musulmanes. Ells forment là des groupes nombreux, et see livrent à un babil fort vif, qu'elles interrompent de temps à autre pour pousser des cris de deuil et pour se livrer à la pantomime de la
-        <pb facs="#facs_119" n="116" source="lesouvriersdesde02sociuoft_0122.xml"/>
-        douleur et du désespoir. Pendant ce temps, le mari se rend dans ses jardins, où il passe l'après-dinée du vendredi et toute la jour¬née du samedi. Il est ordinairement accompagné de son fils qui, d'autres fois, reste avec sa mère.
-       </p>
-       <p xml:id="para_5_116_119">
-        Durant la belle saison, l'enfant se rend chaque jour, vers sept heures du soir, sur la place de la ville, où il se plait à écouter les récits des conteurs de profession ou à voir les exercices des sal¬timbanques (
-        <ref target="#part_03_01_20" type="renvoi_int_mono">
-         D
-        </ref>
-        ).
-       </p>
-       <p xml:id="para_5_116_120">
-        Les seules occasions de distraction en commun sont les noces, qui se renouvellent fréquemment à Tanger. Toute la famille s'y rend ordinairement, parée de ses plus riches habits. Les noces durent plusieurs jours, et on y consomme une étonnante quantité de mets de toutes sortes.
-       </p>
-       <p xml:id="para_5_116_121">
-        La récréation ordinaire de l'ouvrier consiste dans les soins qu'il donne à une famille de lapins blancs. Il aime à voir ces animaux s'ébattre sous ses yeux parmi les copeaux qui encombrent son ate¬lier. Son goût dominant est pour les fleurs, qu'il cultive avec un soin tout particulier, et dont il fait souvent des bouquets qu'il con¬serve dans sa maison et jusque sous le hangar où il travaille.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
+       <p xml:id="para_5_115_116">Les distractions de la famille sont assez bornées : chaque ven¬dredi la femme pase quelques heures à visiter ses amies, et se rend au cimetière, où elle acconplit quelques devoirs religieux. Ce pèlerinage hebdomadaire est véritablement une récréation pour les musulmanes. Ells forment là des groupes nombreux, et see livrent à un babil fort vif, qu'elles interrompent de temps à autre pour pousser des cris de deuil et pour se livrer à la pantomime de la<pb facs="#facs_119" n="116" source="lesouvriersdesde02sociuoft_0122.xml"/>douleur et du désespoir. Pendant ce temps, le mari se rend dans ses jardins, où il passe l'après-dinée du vendredi et toute la jour¬née du samedi. Il est ordinairement accompagné de son fils qui, d'autres fois, reste avec sa mère.</p>
+       <p xml:id="para_5_116_119">Durant la belle saison, l'enfant se rend chaque jour, vers sept heures du soir, sur la place de la ville, où il se plait à écouter les récits des conteurs de profession ou à voir les exercices des sal¬timbanques (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>).</p>
+       <p xml:id="para_5_116_120">Les seules occasions de distraction en commun sont les noces, qui se renouvellent fréquemment à Tanger. Toute la famille s'y rend ordinairement, parée de ses plus riches habits. Les noces durent plusieurs jours, et on y consomme une étonnante quantité de mets de toutes sortes.</p>
+       <p xml:id="para_5_116_121">La récréation ordinaire de l'ouvrier consiste dans les soins qu'il donne à une famille de lapins blancs. Il aime à voir ces animaux s'ébattre sous ses yeux parmi les copeaux qui encombrent son ate¬lier. Son goût dominant est pour les fleurs, qu'il cultive avec un soin tout particulier, et dont il fait souvent des bouquets qu'il con¬serve dans sa maison et jusque sous le hangar où il travaille.</p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
-       IV. Histoire de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_04">IV. Histoire de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
-        § 12. — Phases principales de l'existence.
-       </head>
-       <p xml:id="para_5_116_125">
-        L'ouvrier est né dans un douar de la province de Sous, qui con¬fine au grand désert et au Tafilelt. Il ignore lui-même l'année de sa naissance ; mais, selon toute probabilité, elle se rapporte à l'an¬née 1815 de notre ère. Son père était maréchal ferrant (
-        <ref target="#part_03_01_20" type="renvoi_int_mono">
-         D
-        </ref>
-        ) et avait épousé une Mauresque (
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         A
-        </ref>
-        ) deanger, fille d'un marchand de merceries au baaar de cette ville ; l'ouvrier le perdit vers le temps de son adoles¬cence. Sa mère veuve revint à Tanger, dans sa famille, avec deux.gar¬cons ; et c'est dans cette ville que le jeune Mohammed-el-Sousi apprit l'état de menuisier. Il avait jusque-là fréquenté assidûment l'école ; son intelligence était remarquable. Dès le début de son apprentis¬sage, il résolut de devenir un maître distingué ; dans cette pensée, il se rendit à Gibraltar où il travailla, pendant six mois, chez un ébé¬niste espagnol fort habite. De Gibraltar, il fit un voyage à Marseille, il en revint après une semaine d'excursion dans les magasins de cette ville, et passa paisiblement quelques années dans l'exercice de sa profession. Jaloux d'acquérir aux yeux des indigènes un. titre
-        <pb facs="#facs_120" n="117" source="lesouvriersdesde02sociuoft_0123.xml"/>
-        d'honneur et de considération, il partit avec les pèlerins qui se rendent chaque année à la Meble. Au retour, il séjourna dans les principales villes du littoral barbaresque, et notamment à Alger, depuis longtemps au pouvoir des Français. Son voyage dura ainsi trois années. Il avait environ vingt ans quand il revint à Tanger, où il épousa une de ses parentes, fille d'un marchand d'étoffes du baar. Pendant son absence, les parents de sa mère étaient orts, et celle¬ci s'était retirée che son fils aîné, resté veuf avec deux enfants. Peu de temps après son mariage, l'ouvrier fit à Cadix un séjour de six mois ; c'est là qu'il acheva d'apprendre l'espagnol et qu'il prit quelques leçons de dessin linéaire et de géographie descriptive. Pendant ce temps sa jeune femme était restée chez ses parents. A son retour il loua la maison qu'il occupe encore aujourd'hui et s'adonna avec ardeur à sa profession. Il ne tarda pas à conquérir un bien-être qui lui permit de vivre avec un certain luxe, d'acquérir successivement du terrain et d'acheter une négresse (
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         B
-        </ref>
-        ) pour le ser¬vice de sa famille. Il eut un fils qui aujourd'hui est établi dans l'in¬térieur du pays ; et, quelques années plus tard, un autre fils qu'il élève, et qui probablement continuera les travaux de son père.
-       </p>
-       <p xml:id="para_5_117_127">
-        La femme avait environ douze ans lorsqu'elle se maria ; elle était fille unique. Ses parents sont morts vers l'époque de la bataille d'lsly. Son histoire est si intimement liée à celle de son mari, qu'elle a été exposée complétement dans le cours de cette monographie.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
+       <p xml:id="para_5_116_125">L'ouvrier est né dans un douar de la province de Sous, qui con¬fine au grand désert et au Tafilelt. Il ignore lui-même l'année de sa naissance ; mais, selon toute probabilité, elle se rapporte à l'an¬née 1815 de notre ère. Son père était maréchal ferrant (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>) et avait épousé une Mauresque (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>) deanger, fille d'un marchand de merceries au baaar de cette ville ; l'ouvrier le perdit vers le temps de son adoles¬cence. Sa mère veuve revint à Tanger, dans sa famille, avec deux.gar¬cons ; et c'est dans cette ville que le jeune Mohammed-el-Sousi apprit l'état de menuisier. Il avait jusque-là fréquenté assidûment l'école ; son intelligence était remarquable. Dès le début de son apprentis¬sage, il résolut de devenir un maître distingué ; dans cette pensée, il se rendit à Gibraltar où il travailla, pendant six mois, chez un ébé¬niste espagnol fort habite. De Gibraltar, il fit un voyage à Marseille, il en revint après une semaine d'excursion dans les magasins de cette ville, et passa paisiblement quelques années dans l'exercice de sa profession. Jaloux d'acquérir aux yeux des indigènes un. titre<pb facs="#facs_120" n="117" source="lesouvriersdesde02sociuoft_0123.xml"/>d'honneur et de considération, il partit avec les pèlerins qui se rendent chaque année à la Meble. Au retour, il séjourna dans les principales villes du littoral barbaresque, et notamment à Alger, depuis longtemps au pouvoir des Français. Son voyage dura ainsi trois années. Il avait environ vingt ans quand il revint à Tanger, où il épousa une de ses parentes, fille d'un marchand d'étoffes du baar. Pendant son absence, les parents de sa mère étaient orts, et celle¬ci s'était retirée che son fils aîné, resté veuf avec deux enfants. Peu de temps après son mariage, l'ouvrier fit à Cadix un séjour de six mois ; c'est là qu'il acheva d'apprendre l'espagnol et qu'il prit quelques leçons de dessin linéaire et de géographie descriptive. Pendant ce temps sa jeune femme était restée chez ses parents. A son retour il loua la maison qu'il occupe encore aujourd'hui et s'adonna avec ardeur à sa profession. Il ne tarda pas à conquérir un bien-être qui lui permit de vivre avec un certain luxe, d'acquérir successivement du terrain et d'acheter une négresse (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>) pour le ser¬vice de sa famille. Il eut un fils qui aujourd'hui est établi dans l'in¬térieur du pays ; et, quelques années plus tard, un autre fils qu'il élève, et qui probablement continuera les travaux de son père.</p>
+       <p xml:id="para_5_117_127">La femme avait environ douze ans lorsqu'elle se maria ; elle était fille unique. Ses parents sont morts vers l'époque de la bataille d'lsly. Son histoire est si intimement liée à celle de son mari, qu'elle a été exposée complétement dans le cours de cette monographie.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
-        § 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.
-       </head>
-       <p xml:id="para_5_117_129">
-        Les parents de l'ouvrier étaient de fervents musulmans. Son assi¬duité à la lecture du Koran et aux devoirs du culte, jointe à un amour instinctif du travail et de l'ordre, et au vif désir de s'élever aux rangs supérieurs, lui a conquis le respect public et une posi¬tion dont il ne peut plus déchoir, grâce à la protection française (
-        <ref target="#part_03_01_21" type="renvoi_int_mono">
-         E
-        </ref>
-        ) qui le met à l'abri des vexations réservées aux riches indigènes (
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         A
-        </ref>
-        ). Le bien-être et la tranquillité intérieure de la famille sont encore assurés par la résolution bien arrêtée de l'ouvrier de n'avoir jamais qu'une seule femme. Sa fortune lui permettrait de vivre en polyga¬mie, comme un certain nombre de ses coreligionnaires ; mais il est persuadé que la paix domestique en serait troublée, et il est d'hu¬meur trop pacifique pour régner chez lui par la grâce du bâton, comme c'est l'usage des maris marocains (
-        <ref target="#part_03_01_19" type="renvoi_int_mono">
-         C
-        </ref>
-        ).
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
+       <p xml:id="para_5_117_129">Les parents de l'ouvrier étaient de fervents musulmans. Son assi¬duité à la lecture du Koran et aux devoirs du culte, jointe à un amour instinctif du travail et de l'ordre, et au vif désir de s'élever aux rangs supérieurs, lui a conquis le respect public et une posi¬tion dont il ne peut plus déchoir, grâce à la protection française (<ref target="#part_03_01_21" type="renvoi_int_mono">E</ref>) qui le met à l'abri des vexations réservées aux riches indigènes (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>). Le bien-être et la tranquillité intérieure de la famille sont encore assurés par la résolution bien arrêtée de l'ouvrier de n'avoir jamais qu'une seule femme. Sa fortune lui permettrait de vivre en polyga¬mie, comme un certain nombre de ses coreligionnaires ; mais il est persuadé que la paix domestique en serait troublée, et il est d'hu¬meur trop pacifique pour régner chez lui par la grâce du bâton, comme c'est l'usage des maris marocains (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>).</p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
-        § 14. — Budget des recettes de l'année.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
        <pb facs="#facs_121" n="118" source="lesouvriersdesde02sociuoft_0124.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_121" url="#" xml:id="tble_5_118_1"/>
@@ -830,9 +448,7 @@
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
-        § 15. — Budget des dépenses de l'année.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
        <pb facs="#facs_125" n="122" source="lesouvriersdesde02sociuoft_0128.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_125" url="#" xml:id="tble_5_122_5"/>
@@ -849,9 +465,7 @@
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
-        Comptes annexés aux budgets.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">Comptes annexés aux budgets.</head>
        <pb facs="#facs_128" n="125" source="lesouvriersdesde02sociuoft_0131.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_128" url="#" xml:id="tble_5_125_8"/>
@@ -867,244 +481,81 @@
       </div>
      </div>
      <div n="003" type="section">
-      <head type="section" xml:id="part_03">
-       Notes
-      </head>
-      <p xml:id="para_5_128_136">
-       FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMARQUABLES ; APPRECIATIONS GÉNÉRALES ; CONCLUSIONS.
-      </p>
+      <head type="section" xml:id="part_03">Notes</head>
+      <p xml:id="para_5_128_136">FAITS IMPORTANTS D'ORGANISATION SOCIALE PARTICULARITÉS REMARQUABLES ; APPRECIATIONS GÉNÉRALES ; CONCLUSIONS.</p>
       <div n="001" type="sub_section">
        <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">
-         (A) SUR L'ORGANISATION POLITIQUE ET SOCIALE DU MAROC.
-        </head>
-        <p xml:id="para_5_128_138">
-         <pb facs="#facs_131" n="128" source="lesouvriersdesde02sociuoft_0134.xml"/>
-         Le sultan possède en propre non-seulement le territoire, mais encore les biens et la personne même de ses sujets. Les sujets doi¬vent s'estimer heureux quand chaque matin leur tête se retrouve sur leurs épaules ; à plus forte raison s'ils ont encore entre les mains quelques moyens d'existence : cela résulte strictement du droit politique en vigueur ; et bien que ce droit soit appliqué à un nombre restreint d'individus, le bon plaisir du souverain en décide seul. Remarquons toutefois que c'est là, d'après le Koran, un véritable abus de pouvoir. Bien que le code religieux n'ait rien déterminé quant au régime des propriétés, il est incontestable que ses pré¬ceptes généraux prescrivent le respect des droits de chacun et recommandent aux puissants des mœurs plus humaines. D'ailleurs, les premiers jurisconsultes, les commentateurs les plus accrédi¬tés, ont fait des lois contre la spoliation ; ces lois ont été respectées par les pemiers balifes. Mais les mœurs ont changé, les abus ont prévalu à ce point que, de nos jours, fort peu de croyants élè¬vent des doutes sur le droit absolu que se sont arrogé leurs des¬potes.
-        </p>
-        <p xml:id="para_5_128_139">
-         Chaque ville ou place du territoire est livrée aux griffes d'un laid, ou gouverneur, qui exerce à peu près sans contrôle, sur ses admi¬nistrés, la même autorité que le sultan exerce sur tout son peuple. Les tribus ont aussi leurs laids ; et les douars, ou cercles de tentes, obéissent à des cheils sous l'autorité des laids. Les pachas gou¬vernent des provinces et ont plusieurs laids sous leur dépendance. Le sultan dit à tel pacha : Il me faut 100,000 piastres (de 5ᶠ) ; le pacha dit à ses baids : ˉSidna (notre seigneur) veut de l'argent ; si chacun de vous ne me donne 100,000 piastres, chacun de vous pourrira en prison. Les laids s'adressent dans les mêmes termes aux plus riches habitants, aux négociants, surtout aux juifs. Ainsi, l'ordre parti d'en haut se transmet, toujours plus menaçant, jus¬qu'aux individus taillables à merci. Bâtons, prison, violences de
-         <pb facs="#facs_132" n="129" source="lesouvriersdesde02sociuoft_0135.xml"/>
-         toutes sortes venant en aide, l'or finit par jaillir au milieu d'un con¬cert de soupirs et de gémissements. N'oublions pas de rappeler que si le sultan demande 1]000 piastres, le pacha demande autant de fois 1,000 piastres qu'il a de kaids sous sa dépendance ; les laids, autant de fois cette même somme qu'ils ont d'administrés présumés assez riches pour la donner ; d'où il résulte que. pour chacun de — ces fonctionnaires, Tordre impérial n'est qu'un prétexte aux exac¬tions particulières. Le sultan le sait, mais il n'a garde de rien réformer : il trouve plus avantageux, lorsqu'il juge que tel laid ou pacha s'est suffisamment enrichi, de le faire saisir par un détache¬ment de la garde noire ou des ˉOudaias (tribu militaire), et de lui extorquer, au moyen des supplices, le produit de ses exactions. Il est assez rare qu'à la suite de ces exécutions extrajudiciaires réser¬vées aux exacteurs, quelqu'un d'entre eux passe de vie à trépas. Quand la torture et le bâton ont fait sortir de leur coffre une somme assez ronde, ils sont, pour l'ordinaire, renvoyés avec honneur et réintégrés dans leurs dignités et prérogatives, qu'ils exercent avec la résolution de plus en plus ardente de se créer des ressources pour l'avenir. Les uns s'efforcent de reculer, en faisant au sultan de riches présents, le temps de nouvelles épreuves ; les autres at¬tendent et laissent arriver ces temps de rigueur, sans s'occuper des noyens d'y échapper. Si, pour des motifs rarement divulgués, le sultan a résolu de se débarrasser d'un de ses dignitaires, il l'appelle auprès de lui, l'accueille avec une faveur exceptionnelle et lui fait offrir une tasse de café. Quelques heures après l'audience, le trop honoré sujet meurt dans les convulsions d'une soudaine agonie : C'était écrit disent ceux qui l'entourent.
-        </p>
-        <p xml:id="para_5_129_141">
-         Tels sont les procédés employés par le sultan du Maroc pour prélever son budget exceptionnel. Quant aux impôts réguliers, le mode de leur perception étant le même que dans tous les États mu¬sulmans, ne donne lieu à aucune observation.
-        </p>
-        <p xml:id="para_5_129_142">
-         Moulai Abd-er-Rahman, sultan du Maroc, était, sous le règne de son oncle Moulai-Sliman, simple préposé à la douane de Mogador. On assure qu'il a dépouillél'ainé de ses cousins de l'héritage impérial par un trait de fourberie audacieuse : l'héritier présomptif se nom¬mait Abd-er-Rahman Ben-Sliman ; le douanier avait nom Abd-er-Rahman Ben-Hisham. Une simple substitution de lettres, après rature, fit que la lettre du sultan défunt, qui conférait le pouvoir à celui qui la recevrait, arriva directement à Sidi Abd-er-Rahman Ben-Hisham. Abd-er-Rahman est craintif, soupçonneux, cauteleux, parcimonieux ; il conserve sur le trône tous les instincts et toutes les habitudes d'un employé du fisc.
-        </p>
-        <p xml:id="para_5_129_143">
-         Ces qualités lui sufisent d'ailleurs pour dominer sur des popu
-         <pb facs="#facs_133" n="130" source="lesouvriersdesde02sociuoft_0136.xml"/>
-         lations qu'aucun lien d'unité ne rattache entre elles, et qui trouvent sans cesse, dans la diversité de races et d'intérêts, des occasions et des motifs de prolonger les luttes intestines qui les ont toujours divisées.
-        </p>
-        <p xml:id="para_5_130_145">
-         Les Maures, les Arabes, les Berbères et les Nègres sont les qua¬tre principales races musulmanes de l'empire marocain. Pour com¬prendre leur situation respective, il faut se représenter le Maroc comme une monarchie mauresque ; le sultan est un roi maure qui gouverne un peuple maure. La population mauresque est, en effet, la plus nombreuse. Si l'on admet que le chiffre total des sujets marocains est de 8 millions, les Maures en forment à peu près la moitié. Ils sont les plus riches, les plus policés, les plus puissants ; c'est parmi eux que se recrutent les ulémas, les tholbas, les laids, les pachas, tout ce qui possède honneurs, pouvoir, dignités. Les autres races ne prennent rang qu'accidentellement dans la hiérar¬chie politique et administrative ; jamais elles n'y ont été naturali¬sées. Les Maures remplissent les villes ; ils s'y adonnent au négoce, et savent y déployer, malgré des habitudes de paresse, les res¬sources d'un génie incontestable. Les plaines sont aux Arabes, les montagnes aux Berbères ; ainsi, Berbères, Schelleuh, Arabes¬Bédouins, Nègres du Soudan, pressent de tous côtés la race domi¬nante comme la marée presse de ses flots montants un archipel d'lots qu'elle menace d'engloutir. Le jour où les tribus s'accorde¬raient dans leurs efforts pour écraser leurs communs oppresseurs, verrait certainement la ruine de la puissance mauresque, qui ne se soutient qu'à force de ruse, en semant habilement des germes de division et de haine parmi ceux qu'elle domine.
-        </p>
-        <p xml:id="para_5_130_146">
-         La mauvaise foi, la poltronnerie, toutes les basses passions, con¬courent à rendre les Maures dignes d'être gouvernés come ils le sont. Les vices des autres races indigènes révèlent une nature bar¬bare, mais accessible à des sentiments généreux ; ceux des Maures n'ont rien que d'efféminé et de méprisable. Des brillantes qualités qui distinguèrent leurs ancêtres, ils n'ont gardé qu'un orgueil intrai¬table et les dehors d'une majesté superbe. La plupart descendent d'anciennes familles grenadines et andalouses ; quelques-uns des plus qualifiés conservent encore les clefs de villes ou de maisons aujourd'hui espagnoles ; mais ils connaissent à peine leur glorieuse histoire ; ils ont perdu jusqu'au souvenir des travaux qui furent un foyer de lumière pour l'Europe chrétienne. Ils restent écrasés sous un despotisme qui leur ôte jusqu'à la liberté de jouir des richesses qu'ils amassent.
-        </p>
-        <p xml:id="para_5_130_147">
-         Les juifs forment une portion notable de la population des villes marocaines. Leur condition, au milieu des autres races indigènes,
-         <pb facs="#facs_134" n="131" source="lesouvriersdesde02sociuoft_0137.xml"/>
-         est la même qui leur fut faite, au moyen age, parmi les popula¬tions de l'Europe chrétienne. Les musulmans semblent avoir pris à tàche d'exécuter les menaces prophétiques adressées autrefois à l'infidèle Juda. Lisez les lamentations de Jérémie, et vous aure la description poétique et navrante du pèlerinage que les tri¬bus d'lIsrael accomplssent sous la verge des enfants d'Ismael le déshérité.
-        </p>
-        <p xml:id="para_5_131_149">
-         Les juifs, au Maroc, sont rangés parmi les animaux immondes. Si les musulmans appliquent aujourd'hui aux chrétiens l'épithète d'impurs et de maudits, c'est un effet de l'ignorance où sont la plu¬part d'entre eux des enseignements réels du Koran : car Mahomet déclare, en plusieurs endroits, que les Naaaréens pourront être sau¬vés, et il ne défend pas le commerce avec eux ; mais il s'exprime, au sujet des juifs, en des termes qui excluent jusqu'aux sentiments naturels de l'humanité. Il les déclare maudits de Dieu s'ils persis¬tent dans leur voie, et tous destinés aux flammes inextinguibles ; et cela, ajoute-t-il, parce qu'ils ont mis à mort lésus, le soufle de Dieu (ˉouh'Allah). Les musulmans agissent donc avec eux comme avec des ennemis de Dieu, irrévocablement livrés à Ĉan (Satan); s'ils ne les exterminent pas, ils allèguent pour raison les services qu'ils en tirent ; et comme, en ce monde, les vrais croyants peuvent user de tout pour leur profit, la tolérance des princes musulmans consiste à laisser vivre les juifs comme on laisse vivre un troupeau d'animaux utiles.
-        </p>
-        <p xml:id="para_5_131_150">
-         Aujourd'hui, cette tolérance, grâce à la honteuse paresse des races musulmanes, est plus que jamais imposée par la nécessité. Si les juifs étaient tout à coup retranchés du corps social marocain, la plus extrême misère envahirait les populations. Les juifs, en effet, exercent à peu près seuls tous les arts de l'industrie que les Maures ont en suprême dédain. Ils sont serruriers, orfévres, maçons, fondeurs de métaux, potiers, monnayeurs. Le sultan confie même aux plus instruits la perception des impôts dans les villes, et les emploie dans les négociations avec les chrétiens. Esclaves en appa¬rence, ils exercent en réalité l'ascendant que leur assure une itel¬ligence souple et déliée, et la revanche qu'ils prennent sur leurs persécuteurs, pour être cachée sous les dehors de l'humilité et de l'abjection, n'en est que plus complète et plus inévitable.
-        </p>
-        <p xml:id="para_5_131_151">
-         Chaque soir, au coucher du soleil, les juifs rentrent dans un quartier séparé, entouré d'un mur d'enceinte, et ils n'en peuvent sortir que le lendemain pour se rendre dans la ville musulmane où ils ont leurs boutiques. Les Maures désignent ce quartier, où l Pre les uifs. du nom de melta4 (erre salée, maudite). Chaque ville, à l'exception de Tanger, possède son mellah. Cette
-         <pb facs="#facs_135" n="132" source="lesouvriersdesde02sociuoft_0138.xml"/>
-         exception en faveur des juifs de Tanger se fonde sur ce que la ville tout entière a été livrée à la souillure des consuls chrétiens qui y résident.
-        </p>
-        <p xml:id="para_5_132_153">
-         Les juifs sont condamnés à ne porter que des vêtemients noirs, cette couleur étant l'emblème du malheur et de la malédiction. Il leur est interdit de monter à cheval ;  cet animal est trop noble pour leur usage. S'ils passent devant une mosquée, une aaouia (chapelle), un saint, un marabout, un chérif, ils doivent ôter leur chaussure et la porter à la main jusqu'à ce qu'ils aient passé. Ils ne peuvent traverser les cimetières musulmans ; leurs femmes, sous le moindre prétexte, sont fouettées en place publique par l'ahrifa, musulmane spécialement chargée de cette fonction. Si un musul¬man les frappe, il leur est interdit, sous peine de mort, de se dé¬fendre autrement que par la fuite ou par adresse. On voit fréquem¬ment des enfants de sept ou huit ans lapider de vigoureux jeunes gens, les frapper à coups de bâton, les souffleter, les mordre, les déchirer de leurs ongles. Ces hommes sont des juifs : ils se courbent, se tordent, font des efforts pour se dégager ; mais tous leurs mou¬vements trahissent la préoccupation de ne frapper ou blesser aucun des assaillants.
-        </p>
-        <p xml:id="para_5_132_154">
-         Lorsque le sultan, ou quelque prince de sa famille, traverse une des villes de l'empire, les juifs sont tenus de faire aux voyageurs de magnifiques cadeaux. Ils ont la plus large part dans le lot de la misère commune. Le fardeau de leur servitude est tel, qu'on ima¬gine à peine comment cette race étonnante peut le porter sans per¬dre jusqu'au souvenir de la foi antique qui lui vaut tant de per¬sécutions. Il est à remarquer que peu de ces malheureux apostasient, quels que soient d'ailleurs le déréglement de leurs mœurs et les ténèbres de leurs consciences. Le pharisaisme est plus que jamais florissant parmi eux ; les cérémonies du culte extérieur absorbent une bonne partie de leur existence. Nos ergoteurs les plus retors ne sont que naifs, si on les compare à leurs juges et à leurs doc¬teurs. Leurs rabbins ont fabriqué une morale internationale qui peut se résumer ainsi : La terre entière appartient au peuple de Dieu ; ce que les infideles possèdent, ils vous lont pris, ô Israélites ! c'est votre droit de le leur ôter par la ruse, puisque la force n'est pas avec vous. Si vous réussissez, vous avez repris votre bien qu'on vous avait enlevé. On conçoit que cette doctrine fait de la probité des juifs marocains un véritable sable mouvant, que la crainte seule rend plus ou moins solide sous les pas de l'infidele qui s'y aventure.
-        </p>
-        <p xml:id="para_5_132_155">
-         La constance des juifs à garder la foi de leurs pères serait moins surprenante, si elle était soutenue par un enseignement lumineux,
-         <pb facs="#facs_136" n="133" source="lesouvriersdesde02sociuoft_0139.xml"/>
-         par des euvres dignes du Dieu d'braham et de Mose. Mais rien de semblable dans ce troupeau infortuné. L'ignorance, la supersti¬tion grossière, tous les vices qui ont conduit leurs pères enchaînés sur les bords des fleuves de Babylone, règnent en maître sur ces cœurs également étrangers au désespoir et à l'espérance. Ils disent : Dieu ous a rejetés et dispersés pour un temps, à cause des crimes de nos pères. Il nous a condamnés à courber nos têtes, jusqu'à ce que toutes les nations de la terre aient passé sur nos épaules ; mais nous savons qu'un jour, il nous rassemblera de tous les points du monde, et que nous reprendrons le règne et la puis¬sance.  — Telle est à peu près, aujourd'hui, la substance de leur foi. Les rabbins s'attachent surtout à cet enseignement. Le reste est englouti dans un naufrage où il est impossible de rien démêler. La codition matérielle de cette race détestée n'est pas meilleuré que sa situation morale ; si l'on pénètre dans un mella, on 'étonne que la peste n'y fasse pas de fréquentes apparitions. Rien, dans les plus sales ruelles de nos villes, ne peut se com¬parer au mélange de tous les miasmes empoisonnés qui circulent, en courants épais, dans le labyrinthe du quartier jui. Des amas d'immondices servent de lit à des débris d'animaux en putréfac¬tion, baignent dans une fange épaisse et noirâtre, ou forment des monticules immondes qu'il faut franchir à chaque pas pour pénétrer dans les carrefours qu'ils obstruent. A travers toute cette fange, où s'ébattent à l'aise les enfants de la plus sale des popu¬laces, on vit passer des femmes couvertes de vêtements de soie brodés d'or et ornés de pierreries. Le contraste est si vif, qu'on est porté à ne voir en elles que des femmes parées et costumées pour quelque fête de carnaval.
-        </p>
-        <p xml:id="para_5_133_157">
-         Telles sont les deux races déchues sous lesquelles vivent en réa¬lité les populations barbares indigènes ; l'une jouant le triste rôle de conquérants dégénérés, maintenus par leur basse habileté dans une domination dont leur mollesse et leur dépravation incurable les ont depuis longtemps rendus indignes ; l'autre ignominieusement courbée sous une proscription religieuse, mais active, rusée, indus¬triense, apre au trafic de toutes choses et tenant dans ses mains maudites presque tous les ressorts matériels d'une société dont tous les membres s'unissent pour la persécuter. Cette situation de la race juive peut rappeler à quelques égards l'influence occulte qu'elle eut au moyen âge dans les sociétés cbrétiennes où son abjection était à peine moindre ; mais, si les juifs furent longtemps les ban¬quiers et les commerçants de l'Europe, jamais,celle-ci ne leur appar¬tint comme on voit encore aujourd'hui la plupart des pays de 'Is¬lam ; car jamais aucune race chrétienne n'a même approché de la
-         <pb facs="#facs_137" n="134" source="lesouvriersdesde02sociuoft_0140.xml"/>
-         dépravation et de l'avilissement qui viennent d'être indiqués che les Maures du Maroc.
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_17">(A) SUR L'ORGANISATION POLITIQUE ET SOCIALE DU MAROC.</head>
+        <p xml:id="para_5_128_138"><pb facs="#facs_131" n="128" source="lesouvriersdesde02sociuoft_0134.xml"/> Le sultan possède en propre non-seulement le territoire, mais encore les biens et la personne même de ses sujets. Les sujets doi¬vent s'estimer heureux quand chaque matin leur tête se retrouve sur leurs épaules ; à plus forte raison s'ils ont encore entre les mains quelques moyens d'existence : cela résulte strictement du droit politique en vigueur ; et bien que ce droit soit appliqué à un nombre restreint d'individus, le bon plaisir du souverain en décide seul. Remarquons toutefois que c'est là, d'après le Koran, un véritable abus de pouvoir. Bien que le code religieux n'ait rien déterminé quant au régime des propriétés, il est incontestable que ses pré¬ceptes généraux prescrivent le respect des droits de chacun et recommandent aux puissants des mœurs plus humaines. D'ailleurs, les premiers jurisconsultes, les commentateurs les plus accrédi¬tés, ont fait des lois contre la spoliation ; ces lois ont été respectées par les pemiers balifes. Mais les mœurs ont changé, les abus ont prévalu à ce point que, de nos jours, fort peu de croyants élè¬vent des doutes sur le droit absolu que se sont arrogé leurs des¬potes.</p>
+        <p xml:id="para_5_128_139">Chaque ville ou place du territoire est livrée aux griffes d'un laid, ou gouverneur, qui exerce à peu près sans contrôle, sur ses admi¬nistrés, la même autorité que le sultan exerce sur tout son peuple. Les tribus ont aussi leurs laids ; et les douars, ou cercles de tentes, obéissent à des cheils sous l'autorité des laids. Les pachas gou¬vernent des provinces et ont plusieurs laids sous leur dépendance. Le sultan dit à tel pacha : Il me faut 100,000 piastres (de 5ᶠ) ; le pacha dit à ses baids : ˉSidna (notre seigneur) veut de l'argent ; si chacun de vous ne me donne 100,000 piastres, chacun de vous pourrira en prison. Les laids s'adressent dans les mêmes termes aux plus riches habitants, aux négociants, surtout aux juifs. Ainsi, l'ordre parti d'en haut se transmet, toujours plus menaçant, jus¬qu'aux individus taillables à merci. Bâtons, prison, violences de<pb facs="#facs_132" n="129" source="lesouvriersdesde02sociuoft_0135.xml"/>toutes sortes venant en aide, l'or finit par jaillir au milieu d'un con¬cert de soupirs et de gémissements. N'oublions pas de rappeler que si le sultan demande 1]000 piastres, le pacha demande autant de fois 1,000 piastres qu'il a de kaids sous sa dépendance ; les laids, autant de fois cette même somme qu'ils ont d'administrés présumés assez riches pour la donner ; d'où il résulte que. pour chacun de — ces fonctionnaires, Tordre impérial n'est qu'un prétexte aux exac¬tions particulières. Le sultan le sait, mais il n'a garde de rien réformer : il trouve plus avantageux, lorsqu'il juge que tel laid ou pacha s'est suffisamment enrichi, de le faire saisir par un détache¬ment de la garde noire ou des ˉOudaias (tribu militaire), et de lui extorquer, au moyen des supplices, le produit de ses exactions. Il est assez rare qu'à la suite de ces exécutions extrajudiciaires réser¬vées aux exacteurs, quelqu'un d'entre eux passe de vie à trépas. Quand la torture et le bâton ont fait sortir de leur coffre une somme assez ronde, ils sont, pour l'ordinaire, renvoyés avec honneur et réintégrés dans leurs dignités et prérogatives, qu'ils exercent avec la résolution de plus en plus ardente de se créer des ressources pour l'avenir. Les uns s'efforcent de reculer, en faisant au sultan de riches présents, le temps de nouvelles épreuves ; les autres at¬tendent et laissent arriver ces temps de rigueur, sans s'occuper des noyens d'y échapper. Si, pour des motifs rarement divulgués, le sultan a résolu de se débarrasser d'un de ses dignitaires, il l'appelle auprès de lui, l'accueille avec une faveur exceptionnelle et lui fait offrir une tasse de café. Quelques heures après l'audience, le trop honoré sujet meurt dans les convulsions d'une soudaine agonie : C'était écrit disent ceux qui l'entourent.</p>
+        <p xml:id="para_5_129_141">Tels sont les procédés employés par le sultan du Maroc pour prélever son budget exceptionnel. Quant aux impôts réguliers, le mode de leur perception étant le même que dans tous les États mu¬sulmans, ne donne lieu à aucune observation.</p>
+        <p xml:id="para_5_129_142">Moulai Abd-er-Rahman, sultan du Maroc, était, sous le règne de son oncle Moulai-Sliman, simple préposé à la douane de Mogador. On assure qu'il a dépouillél'ainé de ses cousins de l'héritage impérial par un trait de fourberie audacieuse : l'héritier présomptif se nom¬mait Abd-er-Rahman Ben-Sliman ; le douanier avait nom Abd-er-Rahman Ben-Hisham. Une simple substitution de lettres, après rature, fit que la lettre du sultan défunt, qui conférait le pouvoir à celui qui la recevrait, arriva directement à Sidi Abd-er-Rahman Ben-Hisham. Abd-er-Rahman est craintif, soupçonneux, cauteleux, parcimonieux ; il conserve sur le trône tous les instincts et toutes les habitudes d'un employé du fisc.</p>
+        <p xml:id="para_5_129_143">Ces qualités lui sufisent d'ailleurs pour dominer sur des popu<pb facs="#facs_133" n="130" source="lesouvriersdesde02sociuoft_0136.xml"/>lations qu'aucun lien d'unité ne rattache entre elles, et qui trouvent sans cesse, dans la diversité de races et d'intérêts, des occasions et des motifs de prolonger les luttes intestines qui les ont toujours divisées.</p>
+        <p xml:id="para_5_130_145">Les Maures, les Arabes, les Berbères et les Nègres sont les qua¬tre principales races musulmanes de l'empire marocain. Pour com¬prendre leur situation respective, il faut se représenter le Maroc comme une monarchie mauresque ; le sultan est un roi maure qui gouverne un peuple maure. La population mauresque est, en effet, la plus nombreuse. Si l'on admet que le chiffre total des sujets marocains est de 8 millions, les Maures en forment à peu près la moitié. Ils sont les plus riches, les plus policés, les plus puissants ; c'est parmi eux que se recrutent les ulémas, les tholbas, les laids, les pachas, tout ce qui possède honneurs, pouvoir, dignités. Les autres races ne prennent rang qu'accidentellement dans la hiérar¬chie politique et administrative ; jamais elles n'y ont été naturali¬sées. Les Maures remplissent les villes ; ils s'y adonnent au négoce, et savent y déployer, malgré des habitudes de paresse, les res¬sources d'un génie incontestable. Les plaines sont aux Arabes, les montagnes aux Berbères ; ainsi, Berbères, Schelleuh, Arabes¬Bédouins, Nègres du Soudan, pressent de tous côtés la race domi¬nante comme la marée presse de ses flots montants un archipel d'lots qu'elle menace d'engloutir. Le jour où les tribus s'accorde¬raient dans leurs efforts pour écraser leurs communs oppresseurs, verrait certainement la ruine de la puissance mauresque, qui ne se soutient qu'à force de ruse, en semant habilement des germes de division et de haine parmi ceux qu'elle domine.</p>
+        <p xml:id="para_5_130_146">La mauvaise foi, la poltronnerie, toutes les basses passions, con¬courent à rendre les Maures dignes d'être gouvernés come ils le sont. Les vices des autres races indigènes révèlent une nature bar¬bare, mais accessible à des sentiments généreux ; ceux des Maures n'ont rien que d'efféminé et de méprisable. Des brillantes qualités qui distinguèrent leurs ancêtres, ils n'ont gardé qu'un orgueil intrai¬table et les dehors d'une majesté superbe. La plupart descendent d'anciennes familles grenadines et andalouses ; quelques-uns des plus qualifiés conservent encore les clefs de villes ou de maisons aujourd'hui espagnoles ; mais ils connaissent à peine leur glorieuse histoire ; ils ont perdu jusqu'au souvenir des travaux qui furent un foyer de lumière pour l'Europe chrétienne. Ils restent écrasés sous un despotisme qui leur ôte jusqu'à la liberté de jouir des richesses qu'ils amassent.</p>
+        <p xml:id="para_5_130_147">Les juifs forment une portion notable de la population des villes marocaines. Leur condition, au milieu des autres races indigènes,<pb facs="#facs_134" n="131" source="lesouvriersdesde02sociuoft_0137.xml"/>est la même qui leur fut faite, au moyen age, parmi les popula¬tions de l'Europe chrétienne. Les musulmans semblent avoir pris à tàche d'exécuter les menaces prophétiques adressées autrefois à l'infidèle Juda. Lisez les lamentations de Jérémie, et vous aure la description poétique et navrante du pèlerinage que les tri¬bus d'lIsrael accomplssent sous la verge des enfants d'Ismael le déshérité.</p>
+        <p xml:id="para_5_131_149">Les juifs, au Maroc, sont rangés parmi les animaux immondes. Si les musulmans appliquent aujourd'hui aux chrétiens l'épithète d'impurs et de maudits, c'est un effet de l'ignorance où sont la plu¬part d'entre eux des enseignements réels du Koran : car Mahomet déclare, en plusieurs endroits, que les Naaaréens pourront être sau¬vés, et il ne défend pas le commerce avec eux ; mais il s'exprime, au sujet des juifs, en des termes qui excluent jusqu'aux sentiments naturels de l'humanité. Il les déclare maudits de Dieu s'ils persis¬tent dans leur voie, et tous destinés aux flammes inextinguibles ; et cela, ajoute-t-il, parce qu'ils ont mis à mort lésus, le soufle de Dieu (ˉouh'Allah). Les musulmans agissent donc avec eux comme avec des ennemis de Dieu, irrévocablement livrés à Ĉan (Satan); s'ils ne les exterminent pas, ils allèguent pour raison les services qu'ils en tirent ; et comme, en ce monde, les vrais croyants peuvent user de tout pour leur profit, la tolérance des princes musulmans consiste à laisser vivre les juifs comme on laisse vivre un troupeau d'animaux utiles.</p>
+        <p xml:id="para_5_131_150">Aujourd'hui, cette tolérance, grâce à la honteuse paresse des races musulmanes, est plus que jamais imposée par la nécessité. Si les juifs étaient tout à coup retranchés du corps social marocain, la plus extrême misère envahirait les populations. Les juifs, en effet, exercent à peu près seuls tous les arts de l'industrie que les Maures ont en suprême dédain. Ils sont serruriers, orfévres, maçons, fondeurs de métaux, potiers, monnayeurs. Le sultan confie même aux plus instruits la perception des impôts dans les villes, et les emploie dans les négociations avec les chrétiens. Esclaves en appa¬rence, ils exercent en réalité l'ascendant que leur assure une itel¬ligence souple et déliée, et la revanche qu'ils prennent sur leurs persécuteurs, pour être cachée sous les dehors de l'humilité et de l'abjection, n'en est que plus complète et plus inévitable.</p>
+        <p xml:id="para_5_131_151">Chaque soir, au coucher du soleil, les juifs rentrent dans un quartier séparé, entouré d'un mur d'enceinte, et ils n'en peuvent sortir que le lendemain pour se rendre dans la ville musulmane où ils ont leurs boutiques. Les Maures désignent ce quartier, où l Pre les uifs. du nom de melta4 (erre salée, maudite). Chaque ville, à l'exception de Tanger, possède son mellah. Cette<pb facs="#facs_135" n="132" source="lesouvriersdesde02sociuoft_0138.xml"/>exception en faveur des juifs de Tanger se fonde sur ce que la ville tout entière a été livrée à la souillure des consuls chrétiens qui y résident.</p>
+        <p xml:id="para_5_132_153">Les juifs sont condamnés à ne porter que des vêtemients noirs, cette couleur étant l'emblème du malheur et de la malédiction. Il leur est interdit de monter à cheval ;  cet animal est trop noble pour leur usage. S'ils passent devant une mosquée, une aaouia (chapelle), un saint, un marabout, un chérif, ils doivent ôter leur chaussure et la porter à la main jusqu'à ce qu'ils aient passé. Ils ne peuvent traverser les cimetières musulmans ; leurs femmes, sous le moindre prétexte, sont fouettées en place publique par l'ahrifa, musulmane spécialement chargée de cette fonction. Si un musul¬man les frappe, il leur est interdit, sous peine de mort, de se dé¬fendre autrement que par la fuite ou par adresse. On voit fréquem¬ment des enfants de sept ou huit ans lapider de vigoureux jeunes gens, les frapper à coups de bâton, les souffleter, les mordre, les déchirer de leurs ongles. Ces hommes sont des juifs : ils se courbent, se tordent, font des efforts pour se dégager ; mais tous leurs mou¬vements trahissent la préoccupation de ne frapper ou blesser aucun des assaillants.</p>
+        <p xml:id="para_5_132_154">Lorsque le sultan, ou quelque prince de sa famille, traverse une des villes de l'empire, les juifs sont tenus de faire aux voyageurs de magnifiques cadeaux. Ils ont la plus large part dans le lot de la misère commune. Le fardeau de leur servitude est tel, qu'on ima¬gine à peine comment cette race étonnante peut le porter sans per¬dre jusqu'au souvenir de la foi antique qui lui vaut tant de per¬sécutions. Il est à remarquer que peu de ces malheureux apostasient, quels que soient d'ailleurs le déréglement de leurs mœurs et les ténèbres de leurs consciences. Le pharisaisme est plus que jamais florissant parmi eux ; les cérémonies du culte extérieur absorbent une bonne partie de leur existence. Nos ergoteurs les plus retors ne sont que naifs, si on les compare à leurs juges et à leurs doc¬teurs. Leurs rabbins ont fabriqué une morale internationale qui peut se résumer ainsi : La terre entière appartient au peuple de Dieu ; ce que les infideles possèdent, ils vous lont pris, ô Israélites ! c'est votre droit de le leur ôter par la ruse, puisque la force n'est pas avec vous. Si vous réussissez, vous avez repris votre bien qu'on vous avait enlevé. On conçoit que cette doctrine fait de la probité des juifs marocains un véritable sable mouvant, que la crainte seule rend plus ou moins solide sous les pas de l'infidele qui s'y aventure.</p>
+        <p xml:id="para_5_132_155">La constance des juifs à garder la foi de leurs pères serait moins surprenante, si elle était soutenue par un enseignement lumineux,<pb facs="#facs_136" n="133" source="lesouvriersdesde02sociuoft_0139.xml"/>par des euvres dignes du Dieu d'braham et de Mose. Mais rien de semblable dans ce troupeau infortuné. L'ignorance, la supersti¬tion grossière, tous les vices qui ont conduit leurs pères enchaînés sur les bords des fleuves de Babylone, règnent en maître sur ces cœurs également étrangers au désespoir et à l'espérance. Ils disent : Dieu ous a rejetés et dispersés pour un temps, à cause des crimes de nos pères. Il nous a condamnés à courber nos têtes, jusqu'à ce que toutes les nations de la terre aient passé sur nos épaules ; mais nous savons qu'un jour, il nous rassemblera de tous les points du monde, et que nous reprendrons le règne et la puis¬sance.  — Telle est à peu près, aujourd'hui, la substance de leur foi. Les rabbins s'attachent surtout à cet enseignement. Le reste est englouti dans un naufrage où il est impossible de rien démêler. La codition matérielle de cette race détestée n'est pas meilleuré que sa situation morale ; si l'on pénètre dans un mella, on 'étonne que la peste n'y fasse pas de fréquentes apparitions. Rien, dans les plus sales ruelles de nos villes, ne peut se com¬parer au mélange de tous les miasmes empoisonnés qui circulent, en courants épais, dans le labyrinthe du quartier jui. Des amas d'immondices servent de lit à des débris d'animaux en putréfac¬tion, baignent dans une fange épaisse et noirâtre, ou forment des monticules immondes qu'il faut franchir à chaque pas pour pénétrer dans les carrefours qu'ils obstruent. A travers toute cette fange, où s'ébattent à l'aise les enfants de la plus sale des popu¬laces, on vit passer des femmes couvertes de vêtements de soie brodés d'or et ornés de pierreries. Le contraste est si vif, qu'on est porté à ne voir en elles que des femmes parées et costumées pour quelque fête de carnaval.</p>
+        <p xml:id="para_5_133_157">Telles sont les deux races déchues sous lesquelles vivent en réa¬lité les populations barbares indigènes ; l'une jouant le triste rôle de conquérants dégénérés, maintenus par leur basse habileté dans une domination dont leur mollesse et leur dépravation incurable les ont depuis longtemps rendus indignes ; l'autre ignominieusement courbée sous une proscription religieuse, mais active, rusée, indus¬triense, apre au trafic de toutes choses et tenant dans ses mains maudites presque tous les ressorts matériels d'une société dont tous les membres s'unissent pour la persécuter. Cette situation de la race juive peut rappeler à quelques égards l'influence occulte qu'elle eut au moyen âge dans les sociétés cbrétiennes où son abjection était à peine moindre ; mais, si les juifs furent longtemps les ban¬quiers et les commerçants de l'Europe, jamais,celle-ci ne leur appar¬tint comme on voit encore aujourd'hui la plupart des pays de 'Is¬lam ; car jamais aucune race chrétienne n'a même approché de la<pb facs="#facs_137" n="134" source="lesouvriersdesde02sociuoft_0140.xml"/>dépravation et de l'avilissement qui viennent d'être indiqués che les Maures du Maroc.</p>
        </div>
        <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">
-         (B) SUR L'ESCLAVAGE AU MAROC.
-        </head>
-        <p xml:id="para_5_134_160">
-         L'esclavage, aboli à Tunis, est encore florissant au Maroc. La race noire est très-nombreuse dans l'empire ; c'est dans son sein que se recrute la milice des Bouhari, dont le rôle a été celui des janis¬saires de l'Orient. La plupart des nègres du Maroc sont originaires du Soudan. Les Maures les traitent avec douceur et les affranchis¬sent moyennant de légères conditions ; cet affranchissement est constaté par un acte rédigé par-devant le cadi. Tous sont musul¬mans. Les Maures rendent hommage aux belles qualités dont ils sont doués, et surmontent en leur faveur l'horreur que leur inspire la couleur noire.
-        </p>
-        <p xml:id="para_5_134_161">
-         Tanger n'a pas de marché d'esclaves : lorsqu'un Maure veutvendre un nègre ou une négresse, il confie la marchandise humaine à un crieur public qui parcourtla ville en criant le prix d'un cheval, d'un âne, d'un tapis, du nègre ou de la négresse. Cette promenade n'altère nullement la jovialité naturelle de l'esclave, qui se prête de bonne grâce à l'examen minutieux des chalands, et qui s'attache de l'air le plus insoucieux aux pas de son nouveau maître. La vente ou l'échange d'un esclave n'est l'objet d'aucun acte public, et se traite comme toute autre transaction particulière.
-        </p>
-        <p xml:id="para_5_134_162">
-         Presque tous les nègres libres de Tanger sont porteurs d'eau (hammuaili), ou ma̧ons (bennai).
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_18">(B) SUR L'ESCLAVAGE AU MAROC.</head>
+        <p xml:id="para_5_134_160">L'esclavage, aboli à Tunis, est encore florissant au Maroc. La race noire est très-nombreuse dans l'empire ; c'est dans son sein que se recrute la milice des Bouhari, dont le rôle a été celui des janis¬saires de l'Orient. La plupart des nègres du Maroc sont originaires du Soudan. Les Maures les traitent avec douceur et les affranchis¬sent moyennant de légères conditions ; cet affranchissement est constaté par un acte rédigé par-devant le cadi. Tous sont musul¬mans. Les Maures rendent hommage aux belles qualités dont ils sont doués, et surmontent en leur faveur l'horreur que leur inspire la couleur noire.</p>
+        <p xml:id="para_5_134_161">Tanger n'a pas de marché d'esclaves : lorsqu'un Maure veutvendre un nègre ou une négresse, il confie la marchandise humaine à un crieur public qui parcourtla ville en criant le prix d'un cheval, d'un âne, d'un tapis, du nègre ou de la négresse. Cette promenade n'altère nullement la jovialité naturelle de l'esclave, qui se prête de bonne grâce à l'examen minutieux des chalands, et qui s'attache de l'air le plus insoucieux aux pas de son nouveau maître. La vente ou l'échange d'un esclave n'est l'objet d'aucun acte public, et se traite comme toute autre transaction particulière.</p>
+        <p xml:id="para_5_134_162">Presque tous les nègres libres de Tanger sont porteurs d'eau (hammuaili), ou ma̧ons (bennai).</p>
        </div>
        <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">
-         (C) UR L'ORGANISATION DE LA FAMILLE ET DE LA PROPRIÉTÉ AU MAROC.
-        </head>
-        <p xml:id="para_5_134_164">
-         Au Maroc, comme dans tous les pays musulmans, le Koran est la seule loi qui règle les rapports des différents membres d'une famille. L'autorité du mari sur sa femme est absolue, sans toutefois qu'elle puisse s'étendre jusqu'à donner la mort. Le Koran dit formellement : « Vous réprimanderez celles de vos femmes dont vous aurez à crain¬dre la désobéissance ; vous les relèguerez dans des lits à part, vous
-         <pb facs="#facs_138" n="135" source="lesouvriersdesde02sociuoft_0141.xml"/>
-         les battre. » (Ch. IV, sourate, les Femmes, v. 38.) Tout musul¬man peut avoir quatre femmes légitimes, sans compter les escla¬ves. Le droit de répudiation s'exerce arbitrairement, et la seule condition que la loi y met, c'est que le mari ne renverra pas sa femme sans lui payer la dot qu'il li aura reconnue en l'épousant. Voici les paroles du Koran : « Si vous désirez changer une femme contre une autre, et que vous ayez donné à l'une d'elle cent dinars, ne lui en ôtez rien ; voudriez-vous les lui arracher par une injustice évidente ? » (Même sourate, v. 24.) Les femmes peuvent'apporter des biens à leur mari ; mais elles en conservent la libre et entière disposition. La dot proprement dite (sada) vient de l'homme : c'est là, suivant le Koran, un privilége et un titre de supériorité. « Les hommes sont supérieurs aux femmes à cause des qualités par lesquelles Dieu a élevé ceux-ci au-dessus de celles-là, et parce que les hommes emploient leurs biens pour doter les,fémmes » (même sou¬rate, v. 38).
-        </p>
-        <p xml:id="para_5_135_166">
-         La répudiation peut se faire deux fois sanse entraîner, pour le mari, d'autre conséquence que de reprendre simplement sa femme au cas où il le désirerait ; mais si un mari a répudié sa femme trois fois, il ne lui est permis de la reprendre que lorsqu'elle aura épousé un autre homme et que celui-ci l'aura répudiée à son tour. Le mari, après qu'il aura répudié sa femme, doit la garder trois mois dans sa naison ; si, au bout de ce temps, elle est reconnue grosse, la loi engage le mari à la reprendre. S'il persiste à la répudier, il est tenu de pourvoir à l'entretien de la mère et de l'enfant pendant tout le temps de l'allaitement. Après ce temps, l'enfant seul reste à sa charge.
-        </p>
-        <p xml:id="para_5_135_167">
-         La loi recommande au père d'élever avec soin ses enfants et de les traiter doucement. Mais, dans la pratique, les enfants sont souvent traités avec une sévérité qui, sans exclure les sentiments d'amour réciproque, développe surtout ceux du respect mêlé de crainte.
-        </p>
-        <p xml:id="para_5_135_168">
-         C'est principalement dans les tribus que l'éducation des enfants offre la plus grande aialogie avec ce qui se passait chez les Spar¬tiates. J'ai entendu citer, comme un exemple louable, celui d'un père qui, pour graver dans la mémoire de son fils une défense dic¬tée peut-être par l'anour paternel, lui coupa un doigt et lui enjoi¬gnit de ne plus aller à l'af̂t du lion : la perte de ce doigt, disait ce musulman, appellera sans cesse à mon fils la volonté de son père. — Quand les familles sont peu nombreuses, il n'est pas rare de voir les fils rester dans le voisinage de leur père et vivre entre eux en parfaite intelligence. Telle était la famille de Ben-Abbou, pacha de Tanger. Ses deux fils le suivaient dans toutes ses expéditions et don¬naient l'exemple du plus touchant respect filial. Mais quand, excep
-         <pb facs="#facs_139" n="136" source="lesouvriersdesde02sociuoft_0142.xml"/>
-         tionnellement, un musulman est père de vingt, de trente, de qua¬rante enfants, on conçoit que les liens de famille se relâchent singulièrement, et qu'ils ne tardent pas à se briser.
-        </p>
-        <p xml:id="para_5_136_170">
-         Les enfants témoignent généralement un grand amour et un grand respect pour leur mère. C'est là, au Maroc, le côté le plus heureux de la vie des femmes : leurs relations conjugales sont avi¬lissantes ; mais, comme mères, elles retrouvent les hommages et les sentiments qui leur sont dus. Elles-mêmes sont très-dévouées à leurs enfants. Il faut toutefois noter la sensible différence qu'on observe sur ce point entre les Maures, les Arabes et certaines tribus des Berbères. Chez ces derniers, la femme est considérée comme un meuble dont le maître peut disposer à son gré. Si le mari meurt sans enfants, sa femme revient par droit d'héritage au frère ou au plus proche parent du défunt ; si au contraire il laisse un fils, celui¬ci devient propriétaire de sa mère, qu'il peut vendre au même prix qu'elle a coûté à son père.
-        </p>
-        <p xml:id="para_5_136_171">
-         C'est aussi le Koran qui règle les héritages ; mais le prophète¬législateur est loin d'avoir tout prévu, et cette matière a été l'objet d'importants travaux de la part des jurisconsultes qui ont com¬menté, expliqué et complété la loi. Voici, dans ses dispositions es¬sentielles, le régime des héritages en vigueur dans tous les pays muSulmans.
-        </p>
-        <p xml:id="para_5_136_172">
-         Le père dispose du tiers de ses biens s'il n'a pas de dettes. La loi dispose du reste comme il suit : s'il y a des enfants, les gar¬cons reçoivent deux parts, les filles une seule part, c'est-à-dire la moitié de ce que leurs frères ont reçu. S'il n'y a que des garçons, chacun rȩoit une part égale, sans aucune faveur pour l'aîné ; s'il n'y a que des filles, elles rȩoivent les deux tiers de l'héritage ; s'il n'y a qu'une seule fille, elle ne reçoit que la moitié de l'héritage.
-        </p>
-        <p xml:id="para_5_136_173">
-         Bien que le père puisse disposer absolument, s'il n'a pas de dettes, du tiers de ses biens, il fait presque toujours le partage légal du, tout ; il est très-rare que le tiers dont il peut disposer soit employvé en faveur des aînés. S'il arrive que le père désire disposer de plus du tiers de ses biens, il peut le faire moyennant le consentement des héritiers. Si une partie seulement des héritiers consent, les con¬sentants cèdent une fraction convenue de ce que la loi leur assigne, et les autres recoivent intégralement leur part.
-        </p>
-        <p xml:id="para_5_136_174">
-         Les enfants naturels, c'est-à-dire ceux qui ne sont nés ni d'une femme légitime ni d'une esclave, ne sont pas appelés à hériter.
-        </p>
-        <p xml:id="para_5_136_175">
-         Aux hommes revient la moitié de ce,que laissent leurs femmes si elles n'ont pas d'enfant; le quart, si elles en ont, mais seulement après les legs qu'elles auront fait, et les dettes payées.
-        </p>
-        <p xml:id="para_5_136_176">
-         Aux femmes revient le quart de ce que laisse le mari s'il n'a pas
-         <pb facs="#facs_140" n="137" source="lesouvriersdesde02sociuoft_0143.xml"/>
-         d'enfant ; s'il en a, elles auront le huitième de la succession, aprèg les legs faits par le mari et les dettes payées.
-        </p>
-        <p xml:id="para_5_137_178">
-         Si le défunt laisse un enfant, é père et la mère du défunt reçoi¬vent chacun un sixième. Si, au contraire, il n'y a pas d'enfant, et que les ascendants héritent, le père aura deux tiers ét la mère l'autre tiers. Si le défunt laisse des frères, la mère n'aura qu'un sixième, et les frères se partageront l'autre sixième.
-        </p>
-        <p xml:id="para_5_137_179">
-         Si un homme hérite d'un parent éloigné, et qu'il ait des frères ou des sœurs, ceux-ci concourront au tiers de la succession, les legs et les dettes prélevés.
-        </p>
-        <p xml:id="para_5_137_180">
-         Les petits enfants n'héritent qu'à défaut d'enfants directs. Les oncles paternels seuls peuvent hériter ; ce n'est qu'à leur défaut que les oncles maternels prennent part à la succession.
-        </p>
-        <p xml:id="para_5_137_181">
-         Si le défunt ne laisse aucun héritage, les enfants ne sont pas res¬ponsables de ses dettes.
-        </p>
-        <p xml:id="para_5_137_182">
-         Lorsqu'un homme est mort en laissant du bien, on commence par prélever pour les funérailles la somme estimée nécessaire. Puis la femme prélève la dot qui lui a été assurée ; puis les créanciers sont payés dans un ordre déterminé ; et enfin, les héritiers reçoivent leur part d'héritage.
-        </p>
-        <p xml:id="para_5_137_183">
-         On comprend quelles complications inouies la polygamie fait naltre dans la répartition des héritages. C'est un fractionnement poussé quelquefois jusqu'à une quasi-annihilation des biens. Aussi, beaucoup de musulmans ne profitent pas de la liberté que leur ac¬corde la loi, et s'en tiennent à une seule femme. L'ouvrier dont nous avons fait la monographie se trouve dans ce cas.
-        </p>
-        <p xml:id="para_5_137_184">
-         En résumé, la liberté absolue de tester n'existe pas parmi les musulmans, et la loi impose le partage de la plus grande partie des biens, sans que les alnés aient aucun druit qui les distingue des autres enfants ; les femmes sont toujours traitées avec défaveur ; elles ne sont à la lettre que la moitié des hommes. En méditant sur ces points, on arriverait sans aucun doute à expliquer en partie l'abaissement des sociétés musulmanes.
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_19">(C) UR L'ORGANISATION DE LA FAMILLE ET DE LA PROPRIÉTÉ AU MAROC.</head>
+        <p xml:id="para_5_134_164">Au Maroc, comme dans tous les pays musulmans, le Koran est la seule loi qui règle les rapports des différents membres d'une famille. L'autorité du mari sur sa femme est absolue, sans toutefois qu'elle puisse s'étendre jusqu'à donner la mort. Le Koran dit formellement : « Vous réprimanderez celles de vos femmes dont vous aurez à crain¬dre la désobéissance ; vous les relèguerez dans des lits à part, vous<pb facs="#facs_138" n="135" source="lesouvriersdesde02sociuoft_0141.xml"/>les battre. » (Ch. IV, sourate, les Femmes, v. 38.) Tout musul¬man peut avoir quatre femmes légitimes, sans compter les escla¬ves. Le droit de répudiation s'exerce arbitrairement, et la seule condition que la loi y met, c'est que le mari ne renverra pas sa femme sans lui payer la dot qu'il li aura reconnue en l'épousant. Voici les paroles du Koran : « Si vous désirez changer une femme contre une autre, et que vous ayez donné à l'une d'elle cent dinars, ne lui en ôtez rien ; voudriez-vous les lui arracher par une injustice évidente ? » (Même sourate, v. 24.) Les femmes peuvent'apporter des biens à leur mari ; mais elles en conservent la libre et entière disposition. La dot proprement dite (sada) vient de l'homme : c'est là, suivant le Koran, un privilége et un titre de supériorité. « Les hommes sont supérieurs aux femmes à cause des qualités par lesquelles Dieu a élevé ceux-ci au-dessus de celles-là, et parce que les hommes emploient leurs biens pour doter les,fémmes » (même sou¬rate, v. 38).</p>
+        <p xml:id="para_5_135_166">La répudiation peut se faire deux fois sanse entraîner, pour le mari, d'autre conséquence que de reprendre simplement sa femme au cas où il le désirerait ; mais si un mari a répudié sa femme trois fois, il ne lui est permis de la reprendre que lorsqu'elle aura épousé un autre homme et que celui-ci l'aura répudiée à son tour. Le mari, après qu'il aura répudié sa femme, doit la garder trois mois dans sa naison ; si, au bout de ce temps, elle est reconnue grosse, la loi engage le mari à la reprendre. S'il persiste à la répudier, il est tenu de pourvoir à l'entretien de la mère et de l'enfant pendant tout le temps de l'allaitement. Après ce temps, l'enfant seul reste à sa charge.</p>
+        <p xml:id="para_5_135_167">La loi recommande au père d'élever avec soin ses enfants et de les traiter doucement. Mais, dans la pratique, les enfants sont souvent traités avec une sévérité qui, sans exclure les sentiments d'amour réciproque, développe surtout ceux du respect mêlé de crainte.</p>
+        <p xml:id="para_5_135_168">C'est principalement dans les tribus que l'éducation des enfants offre la plus grande aialogie avec ce qui se passait chez les Spar¬tiates. J'ai entendu citer, comme un exemple louable, celui d'un père qui, pour graver dans la mémoire de son fils une défense dic¬tée peut-être par l'anour paternel, lui coupa un doigt et lui enjoi¬gnit de ne plus aller à l'af̂t du lion : la perte de ce doigt, disait ce musulman, appellera sans cesse à mon fils la volonté de son père. — Quand les familles sont peu nombreuses, il n'est pas rare de voir les fils rester dans le voisinage de leur père et vivre entre eux en parfaite intelligence. Telle était la famille de Ben-Abbou, pacha de Tanger. Ses deux fils le suivaient dans toutes ses expéditions et don¬naient l'exemple du plus touchant respect filial. Mais quand, excep<pb facs="#facs_139" n="136" source="lesouvriersdesde02sociuoft_0142.xml"/>tionnellement, un musulman est père de vingt, de trente, de qua¬rante enfants, on conçoit que les liens de famille se relâchent singulièrement, et qu'ils ne tardent pas à se briser.</p>
+        <p xml:id="para_5_136_170">Les enfants témoignent généralement un grand amour et un grand respect pour leur mère. C'est là, au Maroc, le côté le plus heureux de la vie des femmes : leurs relations conjugales sont avi¬lissantes ; mais, comme mères, elles retrouvent les hommages et les sentiments qui leur sont dus. Elles-mêmes sont très-dévouées à leurs enfants. Il faut toutefois noter la sensible différence qu'on observe sur ce point entre les Maures, les Arabes et certaines tribus des Berbères. Chez ces derniers, la femme est considérée comme un meuble dont le maître peut disposer à son gré. Si le mari meurt sans enfants, sa femme revient par droit d'héritage au frère ou au plus proche parent du défunt ; si au contraire il laisse un fils, celui¬ci devient propriétaire de sa mère, qu'il peut vendre au même prix qu'elle a coûté à son père.</p>
+        <p xml:id="para_5_136_171">C'est aussi le Koran qui règle les héritages ; mais le prophète¬législateur est loin d'avoir tout prévu, et cette matière a été l'objet d'importants travaux de la part des jurisconsultes qui ont com¬menté, expliqué et complété la loi. Voici, dans ses dispositions es¬sentielles, le régime des héritages en vigueur dans tous les pays muSulmans.</p>
+        <p xml:id="para_5_136_172">Le père dispose du tiers de ses biens s'il n'a pas de dettes. La loi dispose du reste comme il suit : s'il y a des enfants, les gar¬cons reçoivent deux parts, les filles une seule part, c'est-à-dire la moitié de ce que leurs frères ont reçu. S'il n'y a que des garçons, chacun rȩoit une part égale, sans aucune faveur pour l'aîné ; s'il n'y a que des filles, elles rȩoivent les deux tiers de l'héritage ; s'il n'y a qu'une seule fille, elle ne reçoit que la moitié de l'héritage.</p>
+        <p xml:id="para_5_136_173">Bien que le père puisse disposer absolument, s'il n'a pas de dettes, du tiers de ses biens, il fait presque toujours le partage légal du, tout ; il est très-rare que le tiers dont il peut disposer soit employvé en faveur des aînés. S'il arrive que le père désire disposer de plus du tiers de ses biens, il peut le faire moyennant le consentement des héritiers. Si une partie seulement des héritiers consent, les con¬sentants cèdent une fraction convenue de ce que la loi leur assigne, et les autres recoivent intégralement leur part.</p>
+        <p xml:id="para_5_136_174">Les enfants naturels, c'est-à-dire ceux qui ne sont nés ni d'une femme légitime ni d'une esclave, ne sont pas appelés à hériter.</p>
+        <p xml:id="para_5_136_175">Aux hommes revient la moitié de ce,que laissent leurs femmes si elles n'ont pas d'enfant; le quart, si elles en ont, mais seulement après les legs qu'elles auront fait, et les dettes payées.</p>
+        <p xml:id="para_5_136_176">Aux femmes revient le quart de ce que laisse le mari s'il n'a pas<pb facs="#facs_140" n="137" source="lesouvriersdesde02sociuoft_0143.xml"/>d'enfant ; s'il en a, elles auront le huitième de la succession, aprèg les legs faits par le mari et les dettes payées.</p>
+        <p xml:id="para_5_137_178">Si le défunt laisse un enfant, é père et la mère du défunt reçoi¬vent chacun un sixième. Si, au contraire, il n'y a pas d'enfant, et que les ascendants héritent, le père aura deux tiers ét la mère l'autre tiers. Si le défunt laisse des frères, la mère n'aura qu'un sixième, et les frères se partageront l'autre sixième.</p>
+        <p xml:id="para_5_137_179">Si un homme hérite d'un parent éloigné, et qu'il ait des frères ou des sœurs, ceux-ci concourront au tiers de la succession, les legs et les dettes prélevés.</p>
+        <p xml:id="para_5_137_180">Les petits enfants n'héritent qu'à défaut d'enfants directs. Les oncles paternels seuls peuvent hériter ; ce n'est qu'à leur défaut que les oncles maternels prennent part à la succession.</p>
+        <p xml:id="para_5_137_181">Si le défunt ne laisse aucun héritage, les enfants ne sont pas res¬ponsables de ses dettes.</p>
+        <p xml:id="para_5_137_182">Lorsqu'un homme est mort en laissant du bien, on commence par prélever pour les funérailles la somme estimée nécessaire. Puis la femme prélève la dot qui lui a été assurée ; puis les créanciers sont payés dans un ordre déterminé ; et enfin, les héritiers reçoivent leur part d'héritage.</p>
+        <p xml:id="para_5_137_183">On comprend quelles complications inouies la polygamie fait naltre dans la répartition des héritages. C'est un fractionnement poussé quelquefois jusqu'à une quasi-annihilation des biens. Aussi, beaucoup de musulmans ne profitent pas de la liberté que leur ac¬corde la loi, et s'en tiennent à une seule femme. L'ouvrier dont nous avons fait la monographie se trouve dans ce cas.</p>
+        <p xml:id="para_5_137_184">En résumé, la liberté absolue de tester n'existe pas parmi les musulmans, et la loi impose le partage de la plus grande partie des biens, sans que les alnés aient aucun druit qui les distingue des autres enfants ; les femmes sont toujours traitées avec défaveur ; elles ne sont à la lettre que la moitié des hommes. En méditant sur ces points, on arriverait sans aucun doute à expliquer en partie l'abaissement des sociétés musulmanes.</p>
        </div>
        <div n="004" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_20">
-         (D) SR LS MURS PRTVÉES ET LES RAPPORTS SOCIAUX AU MAROC.
-        </head>
-        <p xml:id="para_5_137_186">
-         Dans les tribus arabes, le maréchal ferrant est considéré comme une personne quasi sacrée. Il jouit d'une foule de priviléges eit de
-         <pb facs="#facs_141" n="138" source="lesouvriersdesde02sociuoft_0144.xml"/>
-         nombreuses immunités. S'il se trouve dans quelque mêlée, quel que soit l'acharnement des combattants, et quelque danger que coure sa vie, il lui suffit de faire un signe caractéristique pour qu'à l'instant les assaillants cessent de le menacer. Ce signe indique sa profession : il est connu de toutes les tribus, et on ne cite pas d'exemple de son inefficacité. Ce respect des Arabes pour la personne du maréchal ferrant a évidemment sa source dans l'amour singulier qu'ils ont pour le cheval et pour tout ce qui intéresse l'éducation de ce précieux compagnon de leur vie nomade.
-        </p>
-        <p xml:id="para_5_138_188">
-         En observant chacune des races qui forment la population, on découvre, sous l'apparence d'unité qui résulte d'une foi commune, des particularités caractéristiques dont l'ensemble établit entre elles une véritable dissidence, et cet antagonisme profond, que le génie de plusieurs grands princes a été impuissant à détruire. Nous ne pouvons qu'indiquer en quelques traits ces particularités.
-        </p>
-        <p xml:id="para_5_138_189">
-         Les nègres, libres ou esclaves, sont tous musulmans ; et cepen¬dant ils conservent certaines croyances dont leur esprit ne peut se dégager. Ils ont leurs sorciers, leurs devins, leurs amulettes et leurs légendes. Ils ont tous un goût prononcé pour le clinquant et la ver¬roterie, célèbrent leurs fêtes avec des danses bizarres qui exi¬gent des jarrets infatigables, et se délectent au son d'une musique dont l'efet certain serait de. rendre sourd pour plusieurs heures quiconque affronterait longtemps leur orchestre. Ces fêtes, ces danses, cette musique, durent parfois trois jours et trois nuits sans interruption. Ils ne s'arrêtent que chacun à son tour, pour en¬gloutir des mets à l'huile, au beurre rance, au piment, en quantités énormes.
-        </p>
-        <p xml:id="para_5_138_190">
-         Les Maures, superstitieux à l'excès, croient à tous les présages, principalement aux plus funestes. Il sont convaincus que le premier objet qui s'offre, le matin, à leurs regards, aura une influence heu¬reuse ou pernicieuse sur toute la journée : si c'est un objet noir ou un juif, ils s'enferment avec soin et se gardent d'entreprendre quoi que ce soit jusqu'au lendemain. Ce procédé serait offensant pour les nègres ; les casuistes maures ont su concilier la politesse avec le préjugé. S'il advient qu'un nègre se présente le premier aux yeux d'un Maure, celui-ci, avant de le saluer ou de l'aborder, lui crie de loin : biôd ! (fais-toi blanc !) et le nègre de montrer ses dents d'ivoire en roulant ses gros yeux blancs. Le nègre se venge en disant : « Les blancs sont des raisins mal mûris. »
-        </p>
-        <p xml:id="para_5_138_191">
-         Les Berbères sont la race la plus antipathique à la race maure. Ils sont fort mauvais musulmans, ne paient tribut aux sultans que lorsqu'ils y sont contraints par la voie des armes, n'ont aucun res¬pect pour les chérifs, se gouvernent d'après des lois particulières,
-         <pb facs="#facs_142" n="139" source="lesouvriersdesde02sociuoft_0145.xml"/>
-         et obéissent à des chefs de léur race qu'ils choisissent eux-mêmes et qui les gouvernent avec un pouvoir absolu. Leurs femmes voint bibrement et sans voile. Chez eux, le paganisme et le christianisme ont laissé de nombreuses traces.
-        </p>
-        <p xml:id="para_5_139_193">
-         Chez certaines peuplades, lorsqu'une femme est dans les dou¬leurs de l'enfantement, ses amies accourent et adressent de longues et ardentes invocations à la oiere ˉMarie, qui a enfanté sans dou¬leur. Quand la délivrance est opérée, elles reconduisent la vierge ˉMarie au ciel en chantant des louanges et des bénédictions. Ils ont aussi, à l'époque où le blé sort en herbe, certaines processions qui se font à la suite de mannequins représentant une sorte de déesse favorable aux moissons. Les Maures ont toutes ces cérémonies en horreur, et les considèrent comme des pratiques d'idolatrie. IIs affichent un souverain mépris pour la manière dont les femmes ber¬bères sont traitées par leurs maris. Ce sentiment est encore fortifié par les idées qu'ils se font de la beauté des femmes. Les femmes berbères, menant une vie libre et active, sont en général de forme svelte et même un peu anguleuse; or, suivant les idées des Maures, la beauté est en raison directe de l'opulence et de l'exubérance des contours. Leurs femmes passent leur vie au fond de chambres hu¬mides et obscures, et s'y développent comme des plantes grasses, n'ayant d'autre souci que de se parer, de manger et de dormir. Lorsqu'une jeune Mauresque est fiancée, on la soumet à une reclu¬sion rigoureuse ; et, outre les repas qu'elle fait d'habitude, on lui fait avaler chaque jour une énorme quantité de boulettes de pain, qu'elle précipite au moyen de fréquentes gorgées d'eauclaire. En quelques semaines, les parents ont la satisfaction de présenter pd¬bliquement une fiancée dont la face, suivant les poétes, « fait rougir la lune de dépit, » et dont la démarche est « gracieuse comme celle du jeune éléphant. »
-        </p>
-        <p xml:id="para_5_139_194">
-         Les montagnards qui peuplent la côte du Maroc, entre Tanger et la frontière algérienne, appartiennent à la race berbère. Toute cette partie de la côte d'Afrique est connue sous le nom de Riff, et ses habitants, sous celui de Rifini ou Riffains. — Les Rifains se distin¬guent par leur caractère belliqueux et agressif. Ils font suirtout le métier de chasseurs et de pirates ; mais ils ne trouvent ni dans leurs ressources, ni dans leurs connaissances maritimes, le moyen d'exer¬cer la piraterie dans des proportions qui rappellent les entreprises des anciens corsaires africains, entreprises qui ont nécessité et légi¬timé l'occupation française en Afrique. Il n'y a plus de marine marocaine, il n'y eut jamais de marine riffaine. On ne saurait don¬ner ce nom h̀ quelques centaines de grosses barques mal con¬struites, mal gréées et incapables de tenir la mer. Tout ce qu'ils
-         <pb facs="#facs_143" n="140" source="lesouvriersdesde02sociuoft_0146.xml"/>
-         peuvent tenter, avec de pareils moyens, c'est d'aborder les navires marchands que les courants ont entraînés vers la côte, et que le calme empêche de regagnèr la haute mer. Lorsqu'ils voient un bâti¬ment dans cette situation, ils sortent en foule de leurs villages, se jettent dans leurs embarcations, dont chacune peut porter de 20 à 30 hommes,; et dui fond des innombrables criques rocheuses qui les recèlent, se pressent à force d'avirons, quelquefois avec le secours de lambeaux de toile, vers une proie qu'il savent incapable d'oppo¬ser aucune résistance. Ils entourent le navire, sautent à l'abordage, le plus souvent sans tirer un coup de fusil, et font immédiatement passer la cargaison par-dessus le bord, pour la conduire dans leurs retraites, où elle est reçue aux acclamations d'une multitude impa¬tiente. On peut évaluer à 5 ou 6, en moyenne, le nombre de navires que les Riffains pillent chaque année de cette manière. Le dommage est donc peu considérable quant aux biens ; pour les corps, il est rare que les pillards s'en préoccupent, à moins qu'ils ne veuillent se ménager des otages, en prévision de quelque revers ; mais, le plus souvent, ils laissent les équipages attendre sur leurs na¬vires dévalisés l'instant propice où ils pourront rallier de meil¬leurs parages. Les derniers actes de piraterie exercés par les Riffains, et dont les journaux ont publié les détails, ont été accompagnés du massacre des équipages. Il faut attribuer ces cruautés inusitées aux leçons sévères, mais incomplètes, qu'on avait précédemment infligées à ces bandits.
-        </p>
-        <p xml:id="para_5_140_196">
-         Les mœurs qu'on observe au Maroc, dans toutes les classes de la société, sont plus dignes du paganisme que des sectateurs d'une religion monothéiste. La chasteté y est une vertu complétement in¬connue. C'est à peine si le sentiment de la pudeur apparaît chez les femmes ; mais jamais il ne se manifeste en elles avec cette énergie qui atteste sa vivacité native. Elles montrent une pudeur de con¬vention et de préjugé : ainsi, la plupart d'entre elles découvriront sans hésiter toutes les paries de leur corps, à l'exception du visage. Elles n'ont que fort peu d'influence sur les mœurs publiques ou privées. Les hommes les traitent en général avec dédain et s'adon¬nent, dès leur jeunesse, aux vices contre nature. La bestialité est la plaie des Arabes campagnards.
-        </p>
-        <p xml:id="para_5_140_197">
-         Les derviches, les ministres de la religion, donnent l'exemple public de la plus grande corruption. Bon nombre de ceux qu'on vénère comme saints restent des heures entières, sur quelque ter¬tre avoisinant les portes des villes, dans un état complet de nudité et dans des attitudes obscènes. Les pères s'estiment honorés quand certains saints accordent leurs faveurs à leurs filles. Les maris ne se montrent pas plus scrupuleux. En 1853, le grand chérif d'Ouezzan,
-         <pb facs="#facs_144" n="141" source="lesouvriersdesde02sociuoft_0147.xml"/>
-         chef de la secte des Moulai-Thaieb, se rendit à Tanger, où il devait s'embarquer pour le pèlerinage de la Mee. Durant tout son trajet de Ouezan à Tanger, on lui présentait de toutes parts des femmes et des jeunes filles qu'on le suppliait de hénir. Chacune de ces dé¬votes briguait les faveurs du saint personnage, et espérait devenir mère d'un chérif. — Je cite ce fait entre cent autres qui sont venus à ma connaissance. Ces mœurs, il est vrai, sont contraires à la lettre du Koran ; mais il est facile, en étudiant le livre sacré des Arabes, de sentir combieninsuffisant est le frein que l'enseignement religieux impose, sur ce point, à des populations grossières et ignorantes.
-        </p>
-        <p xml:id="para_5_141_200">
-         Les Maures marocains'sont étrangers à ce que nous appelons les idées de castes, d'aristocratie, de priviléges attachés à la naissance. Les chérifs, ou descendants de la famille du prophète, ne consti¬tuent pas, à proprement parler, une noblesse héréditaire, puisqu'ils n'ont aucuns priviléges qui les élèvent au-dessus des autres musul¬nans. ll y a, parmi les Maures, un véritable esprit d'égalité : un musulman vaut un autre musulman; et il n'en saurait être autre¬ment puisque, chez eux, la loi religieuse qui consacre ce principe domine toutes les institutions politiques et nationales.
-        </p>
-        <p xml:id="para_5_141_201">
-         Cet état de choses n'empêche pas que certaines familles, tradi¬tionnellement connues par leur amour du bien, par leurs travaux religieux ou scientifiques, ne soient en possession d'une estime et d'une vénération universelles qui leur assurent une grande influence. Mais ces familles se distinguent entre toutes par leur politesse, par leur modestie, et, dans certaines circonstances données, ne jugeront aucune autre famille, quelque obscure qu'elle soit, indigne de leur alliance.
-        </p>
-        <p xml:id="para_5_141_202">
-         D'autres familles sont aussi plus influentes dans le pays parce que, depuis un certain nombre de générations, elles ont fourni des dignitaires, de hauts fonctionnaires publics. Mais cet éclat est abso¬lument éphémère : que les faveurs impériales se retirent, et ces familles rentreront dans l'obscurité, tandis que d'autres arriveront aux premiers honneurs.
-        </p>
-        <p xml:id="para_5_141_203">
-         Ainsi, les rappurts des sujets marocains entre eux sont tels qu'on les rencontrerait dans un état démocratique. Il n'en est pas de même pour les Arabes des tribus, où l'on retrouve tout le système féodal tel qu'il fut en vigueur dans notre moyen âge.
-        </p>
-        <p xml:id="para_5_141_204">
-         Nous devons signaler, au nombre des particularités les plus re¬marquables qu'offrent les meurs publiques auMaroc, le goût singu¬lier des indigènes pour les récits que font, sur les places des villes ou dans les douars, les improvisateurs ambulants qui parcourent l'empire, sans autre moyen d'existence que le métier de conteurs.
-        </p>
-        <p xml:id="para_5_141_205">
-         Ces conteurs sont en grand nombre ; leurs femmes sont presque
-         <pb facs="#facs_145" n="142" source="lesouvriersdesde02sociuoft_0148.xml"/>
-         toutes des devineresses et vont de maison en maison prédire l'ave¬nir, moyennant rétribution.
-        </p>
-        <p xml:id="para_5_142_207">
-         C'est au déclin du jour que le conteur se rend sur la place de la ville et rassemble autour de lui un cercle d'hommes et d'enfants qui accourent à l'appel du tambour de basque. Seul debout au milieu de l'assemblée accroupie, il psalmodie une longue prière écoutée avec recueillement. A certaines paroles, toutes les têtes s'inclinent, toutes les lèvres murmurent : Amîn amîn puis il commence le récit. Les conteurs marocains sont d'incomparables artistes : soit qu'ils veuillent remuer, par des dithyrambes religieux et guerriers, les passions héréditaires de la multitude, soit qu'ils charment par des récits merveilleux l'imagination rêveuse de l'auditoire, ou qu'ils instruisent par'des apologues, ils savent déployer les ressources d'une pantomime, toujours ingénieuse, simple, expressive dans le plus juste degré. Leurs gestes graves, comiques, violents, toujours en parfaite harmonie avec les pensées ou avec les images qu'ils ex¬priment, sont une expansion visible de l'âme, un langage qui touche les yeux en même temps que la parole frappe les oreilles et meut les esprits. Le costume des conteurs ajoute eecore à la grâce, à la noblesse de leurs mouvements : c'est une longue draperie blanche serrée autour de la tête par une corde en poil de chàmeau, et dont les plis abondants, ramassés sous les bras ou rejetés sur une épaule, donnent à l'orateur un air de grandeur antique. Un or¬chestre, presque toujours composé de tambours de basque et de hautbois, fait l'office des chœurs dans les tragédies grecques, et interprète avec une rare intelligence les émotions de l'auditoire. C'est d'abord comme une basse continue au récit ; puis, à mesure que l'action se déroule, les coups de tambour se précipitent ou se ralen¬tissent, comme l'écho de sentiments violents ou de pensées pai¬sibles. L'intensité des battements varie avec la cadence, jusqu'au moment décisif où l'improvisateur se résume en traits passionnés et poétiques. Alors tambours et grelots mugissent et frémissent entre les doigts des artistes qui les lancent en l'air, les ressaisissent au vol, et se lèvent enfin pour recueillir dans les rangs un salairemérité.
-        </p>
-        <p xml:id="para_5_142_208">
-         Les conteurs n'empruntent pas toujours leurs sujets à l'histoire ancienne ou aux ˉMille et une ˉNuits ; ils traitent fréquemment de l'histoire contemporaine et des événements politiques. C'est par leur entremise qu'Abd-el-ader a fomenté contre nous, au Maroc, les haines qui ont éclaté naguère avec tant de violence.
-        </p>
-        <p xml:id="para_5_142_209">
-         Les saltimbanques sont aussi en grand nombre au Maroc. Presque tous viennent de la province de Sous. Ils voyagent par troupes de cinq, six, et quelquefois douze hommes et enfants. Leurs excur¬sions s'étepndent dans toute l'Afrique septentrionale. On se rappelle
-         <pb facs="#facs_146" n="143" source="lesouvriersdesde02sociuoft_0149.xml"/>
-         que, il y a quelques années, une troupe vint à Paris, où elle donna quelques représentations. Leurs exercices sont à peu près les mêmes que nous voyons dans toutes nos foires, et leur condition sociale, parmi les musulmans, a beaucoup d'analogie avec celle des comédiens ambulants au xv° siècle.
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_20">(D) SR LS MURS PRTVÉES ET LES RAPPORTS SOCIAUX AU MAROC.</head>
+        <p xml:id="para_5_137_186">Dans les tribus arabes, le maréchal ferrant est considéré comme une personne quasi sacrée. Il jouit d'une foule de priviléges eit de<pb facs="#facs_141" n="138" source="lesouvriersdesde02sociuoft_0144.xml"/>nombreuses immunités. S'il se trouve dans quelque mêlée, quel que soit l'acharnement des combattants, et quelque danger que coure sa vie, il lui suffit de faire un signe caractéristique pour qu'à l'instant les assaillants cessent de le menacer. Ce signe indique sa profession : il est connu de toutes les tribus, et on ne cite pas d'exemple de son inefficacité. Ce respect des Arabes pour la personne du maréchal ferrant a évidemment sa source dans l'amour singulier qu'ils ont pour le cheval et pour tout ce qui intéresse l'éducation de ce précieux compagnon de leur vie nomade.</p>
+        <p xml:id="para_5_138_188">En observant chacune des races qui forment la population, on découvre, sous l'apparence d'unité qui résulte d'une foi commune, des particularités caractéristiques dont l'ensemble établit entre elles une véritable dissidence, et cet antagonisme profond, que le génie de plusieurs grands princes a été impuissant à détruire. Nous ne pouvons qu'indiquer en quelques traits ces particularités.</p>
+        <p xml:id="para_5_138_189">Les nègres, libres ou esclaves, sont tous musulmans ; et cepen¬dant ils conservent certaines croyances dont leur esprit ne peut se dégager. Ils ont leurs sorciers, leurs devins, leurs amulettes et leurs légendes. Ils ont tous un goût prononcé pour le clinquant et la ver¬roterie, célèbrent leurs fêtes avec des danses bizarres qui exi¬gent des jarrets infatigables, et se délectent au son d'une musique dont l'efet certain serait de. rendre sourd pour plusieurs heures quiconque affronterait longtemps leur orchestre. Ces fêtes, ces danses, cette musique, durent parfois trois jours et trois nuits sans interruption. Ils ne s'arrêtent que chacun à son tour, pour en¬gloutir des mets à l'huile, au beurre rance, au piment, en quantités énormes.</p>
+        <p xml:id="para_5_138_190">Les Maures, superstitieux à l'excès, croient à tous les présages, principalement aux plus funestes. Il sont convaincus que le premier objet qui s'offre, le matin, à leurs regards, aura une influence heu¬reuse ou pernicieuse sur toute la journée : si c'est un objet noir ou un juif, ils s'enferment avec soin et se gardent d'entreprendre quoi que ce soit jusqu'au lendemain. Ce procédé serait offensant pour les nègres ; les casuistes maures ont su concilier la politesse avec le préjugé. S'il advient qu'un nègre se présente le premier aux yeux d'un Maure, celui-ci, avant de le saluer ou de l'aborder, lui crie de loin : biôd ! (fais-toi blanc !) et le nègre de montrer ses dents d'ivoire en roulant ses gros yeux blancs. Le nègre se venge en disant : « Les blancs sont des raisins mal mûris. »</p>
+        <p xml:id="para_5_138_191">Les Berbères sont la race la plus antipathique à la race maure. Ils sont fort mauvais musulmans, ne paient tribut aux sultans que lorsqu'ils y sont contraints par la voie des armes, n'ont aucun res¬pect pour les chérifs, se gouvernent d'après des lois particulières,<pb facs="#facs_142" n="139" source="lesouvriersdesde02sociuoft_0145.xml"/>et obéissent à des chefs de léur race qu'ils choisissent eux-mêmes et qui les gouvernent avec un pouvoir absolu. Leurs femmes voint bibrement et sans voile. Chez eux, le paganisme et le christianisme ont laissé de nombreuses traces.</p>
+        <p xml:id="para_5_139_193">Chez certaines peuplades, lorsqu'une femme est dans les dou¬leurs de l'enfantement, ses amies accourent et adressent de longues et ardentes invocations à la oiere ˉMarie, qui a enfanté sans dou¬leur. Quand la délivrance est opérée, elles reconduisent la vierge ˉMarie au ciel en chantant des louanges et des bénédictions. Ils ont aussi, à l'époque où le blé sort en herbe, certaines processions qui se font à la suite de mannequins représentant une sorte de déesse favorable aux moissons. Les Maures ont toutes ces cérémonies en horreur, et les considèrent comme des pratiques d'idolatrie. IIs affichent un souverain mépris pour la manière dont les femmes ber¬bères sont traitées par leurs maris. Ce sentiment est encore fortifié par les idées qu'ils se font de la beauté des femmes. Les femmes berbères, menant une vie libre et active, sont en général de forme svelte et même un peu anguleuse; or, suivant les idées des Maures, la beauté est en raison directe de l'opulence et de l'exubérance des contours. Leurs femmes passent leur vie au fond de chambres hu¬mides et obscures, et s'y développent comme des plantes grasses, n'ayant d'autre souci que de se parer, de manger et de dormir. Lorsqu'une jeune Mauresque est fiancée, on la soumet à une reclu¬sion rigoureuse ; et, outre les repas qu'elle fait d'habitude, on lui fait avaler chaque jour une énorme quantité de boulettes de pain, qu'elle précipite au moyen de fréquentes gorgées d'eauclaire. En quelques semaines, les parents ont la satisfaction de présenter pd¬bliquement une fiancée dont la face, suivant les poétes, « fait rougir la lune de dépit, » et dont la démarche est « gracieuse comme celle du jeune éléphant. »</p>
+        <p xml:id="para_5_139_194">Les montagnards qui peuplent la côte du Maroc, entre Tanger et la frontière algérienne, appartiennent à la race berbère. Toute cette partie de la côte d'Afrique est connue sous le nom de Riff, et ses habitants, sous celui de Rifini ou Riffains. — Les Rifains se distin¬guent par leur caractère belliqueux et agressif. Ils font suirtout le métier de chasseurs et de pirates ; mais ils ne trouvent ni dans leurs ressources, ni dans leurs connaissances maritimes, le moyen d'exer¬cer la piraterie dans des proportions qui rappellent les entreprises des anciens corsaires africains, entreprises qui ont nécessité et légi¬timé l'occupation française en Afrique. Il n'y a plus de marine marocaine, il n'y eut jamais de marine riffaine. On ne saurait don¬ner ce nom h̀ quelques centaines de grosses barques mal con¬struites, mal gréées et incapables de tenir la mer. Tout ce qu'ils<pb facs="#facs_143" n="140" source="lesouvriersdesde02sociuoft_0146.xml"/>peuvent tenter, avec de pareils moyens, c'est d'aborder les navires marchands que les courants ont entraînés vers la côte, et que le calme empêche de regagnèr la haute mer. Lorsqu'ils voient un bâti¬ment dans cette situation, ils sortent en foule de leurs villages, se jettent dans leurs embarcations, dont chacune peut porter de 20 à 30 hommes,; et dui fond des innombrables criques rocheuses qui les recèlent, se pressent à force d'avirons, quelquefois avec le secours de lambeaux de toile, vers une proie qu'il savent incapable d'oppo¬ser aucune résistance. Ils entourent le navire, sautent à l'abordage, le plus souvent sans tirer un coup de fusil, et font immédiatement passer la cargaison par-dessus le bord, pour la conduire dans leurs retraites, où elle est reçue aux acclamations d'une multitude impa¬tiente. On peut évaluer à 5 ou 6, en moyenne, le nombre de navires que les Riffains pillent chaque année de cette manière. Le dommage est donc peu considérable quant aux biens ; pour les corps, il est rare que les pillards s'en préoccupent, à moins qu'ils ne veuillent se ménager des otages, en prévision de quelque revers ; mais, le plus souvent, ils laissent les équipages attendre sur leurs na¬vires dévalisés l'instant propice où ils pourront rallier de meil¬leurs parages. Les derniers actes de piraterie exercés par les Riffains, et dont les journaux ont publié les détails, ont été accompagnés du massacre des équipages. Il faut attribuer ces cruautés inusitées aux leçons sévères, mais incomplètes, qu'on avait précédemment infligées à ces bandits.</p>
+        <p xml:id="para_5_140_196">Les mœurs qu'on observe au Maroc, dans toutes les classes de la société, sont plus dignes du paganisme que des sectateurs d'une religion monothéiste. La chasteté y est une vertu complétement in¬connue. C'est à peine si le sentiment de la pudeur apparaît chez les femmes ; mais jamais il ne se manifeste en elles avec cette énergie qui atteste sa vivacité native. Elles montrent une pudeur de con¬vention et de préjugé : ainsi, la plupart d'entre elles découvriront sans hésiter toutes les paries de leur corps, à l'exception du visage. Elles n'ont que fort peu d'influence sur les mœurs publiques ou privées. Les hommes les traitent en général avec dédain et s'adon¬nent, dès leur jeunesse, aux vices contre nature. La bestialité est la plaie des Arabes campagnards.</p>
+        <p xml:id="para_5_140_197">Les derviches, les ministres de la religion, donnent l'exemple public de la plus grande corruption. Bon nombre de ceux qu'on vénère comme saints restent des heures entières, sur quelque ter¬tre avoisinant les portes des villes, dans un état complet de nudité et dans des attitudes obscènes. Les pères s'estiment honorés quand certains saints accordent leurs faveurs à leurs filles. Les maris ne se montrent pas plus scrupuleux. En 1853, le grand chérif d'Ouezzan,<pb facs="#facs_144" n="141" source="lesouvriersdesde02sociuoft_0147.xml"/>chef de la secte des Moulai-Thaieb, se rendit à Tanger, où il devait s'embarquer pour le pèlerinage de la Mee. Durant tout son trajet de Ouezan à Tanger, on lui présentait de toutes parts des femmes et des jeunes filles qu'on le suppliait de hénir. Chacune de ces dé¬votes briguait les faveurs du saint personnage, et espérait devenir mère d'un chérif. — Je cite ce fait entre cent autres qui sont venus à ma connaissance. Ces mœurs, il est vrai, sont contraires à la lettre du Koran ; mais il est facile, en étudiant le livre sacré des Arabes, de sentir combieninsuffisant est le frein que l'enseignement religieux impose, sur ce point, à des populations grossières et ignorantes.</p>
+        <p xml:id="para_5_141_200">Les Maures marocains'sont étrangers à ce que nous appelons les idées de castes, d'aristocratie, de priviléges attachés à la naissance. Les chérifs, ou descendants de la famille du prophète, ne consti¬tuent pas, à proprement parler, une noblesse héréditaire, puisqu'ils n'ont aucuns priviléges qui les élèvent au-dessus des autres musul¬nans. ll y a, parmi les Maures, un véritable esprit d'égalité : un musulman vaut un autre musulman; et il n'en saurait être autre¬ment puisque, chez eux, la loi religieuse qui consacre ce principe domine toutes les institutions politiques et nationales.</p>
+        <p xml:id="para_5_141_201">Cet état de choses n'empêche pas que certaines familles, tradi¬tionnellement connues par leur amour du bien, par leurs travaux religieux ou scientifiques, ne soient en possession d'une estime et d'une vénération universelles qui leur assurent une grande influence. Mais ces familles se distinguent entre toutes par leur politesse, par leur modestie, et, dans certaines circonstances données, ne jugeront aucune autre famille, quelque obscure qu'elle soit, indigne de leur alliance.</p>
+        <p xml:id="para_5_141_202">D'autres familles sont aussi plus influentes dans le pays parce que, depuis un certain nombre de générations, elles ont fourni des dignitaires, de hauts fonctionnaires publics. Mais cet éclat est abso¬lument éphémère : que les faveurs impériales se retirent, et ces familles rentreront dans l'obscurité, tandis que d'autres arriveront aux premiers honneurs.</p>
+        <p xml:id="para_5_141_203">Ainsi, les rappurts des sujets marocains entre eux sont tels qu'on les rencontrerait dans un état démocratique. Il n'en est pas de même pour les Arabes des tribus, où l'on retrouve tout le système féodal tel qu'il fut en vigueur dans notre moyen âge.</p>
+        <p xml:id="para_5_141_204">Nous devons signaler, au nombre des particularités les plus re¬marquables qu'offrent les meurs publiques auMaroc, le goût singu¬lier des indigènes pour les récits que font, sur les places des villes ou dans les douars, les improvisateurs ambulants qui parcourent l'empire, sans autre moyen d'existence que le métier de conteurs.</p>
+        <p xml:id="para_5_141_205">Ces conteurs sont en grand nombre ; leurs femmes sont presque<pb facs="#facs_145" n="142" source="lesouvriersdesde02sociuoft_0148.xml"/>toutes des devineresses et vont de maison en maison prédire l'ave¬nir, moyennant rétribution.</p>
+        <p xml:id="para_5_142_207">C'est au déclin du jour que le conteur se rend sur la place de la ville et rassemble autour de lui un cercle d'hommes et d'enfants qui accourent à l'appel du tambour de basque. Seul debout au milieu de l'assemblée accroupie, il psalmodie une longue prière écoutée avec recueillement. A certaines paroles, toutes les têtes s'inclinent, toutes les lèvres murmurent : Amîn amîn puis il commence le récit. Les conteurs marocains sont d'incomparables artistes : soit qu'ils veuillent remuer, par des dithyrambes religieux et guerriers, les passions héréditaires de la multitude, soit qu'ils charment par des récits merveilleux l'imagination rêveuse de l'auditoire, ou qu'ils instruisent par'des apologues, ils savent déployer les ressources d'une pantomime, toujours ingénieuse, simple, expressive dans le plus juste degré. Leurs gestes graves, comiques, violents, toujours en parfaite harmonie avec les pensées ou avec les images qu'ils ex¬priment, sont une expansion visible de l'âme, un langage qui touche les yeux en même temps que la parole frappe les oreilles et meut les esprits. Le costume des conteurs ajoute eecore à la grâce, à la noblesse de leurs mouvements : c'est une longue draperie blanche serrée autour de la tête par une corde en poil de chàmeau, et dont les plis abondants, ramassés sous les bras ou rejetés sur une épaule, donnent à l'orateur un air de grandeur antique. Un or¬chestre, presque toujours composé de tambours de basque et de hautbois, fait l'office des chœurs dans les tragédies grecques, et interprète avec une rare intelligence les émotions de l'auditoire. C'est d'abord comme une basse continue au récit ; puis, à mesure que l'action se déroule, les coups de tambour se précipitent ou se ralen¬tissent, comme l'écho de sentiments violents ou de pensées pai¬sibles. L'intensité des battements varie avec la cadence, jusqu'au moment décisif où l'improvisateur se résume en traits passionnés et poétiques. Alors tambours et grelots mugissent et frémissent entre les doigts des artistes qui les lancent en l'air, les ressaisissent au vol, et se lèvent enfin pour recueillir dans les rangs un salairemérité.</p>
+        <p xml:id="para_5_142_208">Les conteurs n'empruntent pas toujours leurs sujets à l'histoire ancienne ou aux ˉMille et une ˉNuits ; ils traitent fréquemment de l'histoire contemporaine et des événements politiques. C'est par leur entremise qu'Abd-el-ader a fomenté contre nous, au Maroc, les haines qui ont éclaté naguère avec tant de violence.</p>
+        <p xml:id="para_5_142_209">Les saltimbanques sont aussi en grand nombre au Maroc. Presque tous viennent de la province de Sous. Ils voyagent par troupes de cinq, six, et quelquefois douze hommes et enfants. Leurs excur¬sions s'étepndent dans toute l'Afrique septentrionale. On se rappelle<pb facs="#facs_146" n="143" source="lesouvriersdesde02sociuoft_0149.xml"/>que, il y a quelques années, une troupe vint à Paris, où elle donna quelques représentations. Leurs exercices sont à peu près les mêmes que nous voyons dans toutes nos foires, et leur condition sociale, parmi les musulmans, a beaucoup d'analogie avec celle des comédiens ambulants au xv° siècle.</p>
        </div>
        <div n="005" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_21">
-         (E) SUR LES PROGRES DE L'INELUENCE DES CHRÉTIENS AU MAROC.
-        </head>
-        <p xml:id="para_5_143_212">
-         Par diférents traités actuellement en vigueur, les consuls des nations chrétiennes ont le droit d'accorder leur protection aux su¬jets marocains qui sont à leur service. Ce droit de protection s'étend, dans la pratique, sur des indigènes dont les services sont purement accidentels. La protection des puissances chrétiennes est fort re¬cherchée au Maroc, car elle soustrait les protégés au régime de vio¬lence et de spoliation en vigueur dans tout l'empire, et les place entièrement sous la juridiction du consul chrétien. Quel que soit le délit imputé à un indigène, s'il est protégé, l'autorité locale ne peut le frapper dans sa personne ou dans ses biens sans le consente¬ment du consul protecteur. On comprend quel prix attachent à la protection d'un pavillon chrétien des hommes sans cesse menacés de la bastonnade, de la prison et des exactions les plus arbitraires. Quelques indigènes donnent encore l'exemple d'une aversion fa¬rouche pour les infidèles; ils aiment mieux encourir toutes les dis¬grâces que de demander leur appui ; mais ils restent isolés au milieu du mouvement général ; leur sombre attitude ne fait que rendre plus sensible la confiance et l'entraînement qui porte un grand nombre de leurs frères à profiter des bienfaits de notre civilisation. On peut calculer les progrès de cet heureux esprit en voyant chaque année des pèlerins, en plus grand nombre, se rendre à Tanger pour s'embarquer sur des paquebots français et anglais qui les transportent en dix jours à Alexandrie, alors que les fanatiques ac¬complissent pénblement leur pèlerinage par l'intérieur, au risque de se voir dévalisés et d'endurer des privations et des fatigues mor¬telle. On peut évaluer actuellement à 8 ou 10,000 le nombre des pèlerins qui s'embarquent annuellement à Tanger.
-        </p>
-        <p xml:id="para_5_143_213">
-         Chaque jour aussi voit s'accroitre le nombre de ceux qui viennent de tous les points de 'empire consulter les médecins français. Ce qui frappe surtout l'imagination des indigènes, c'est la quantité de
-         <pb facs="#facs_147" n="144" source="lesouvriersdesde02sociuoft_0150.xml"/>
-         fioles et de bocaux rangés dans l'officine du pharmacien de Tanger. Cet aspect leur donne la plus haute idée de la médecine chrétienne. Ils ont d'ailleurs, à ce sujet, les idées les plus erronées : le signe, surtout, est considéré parmi eux au point que des centaines de ma¬lades ont avalé l'ordonnance écrite par le médecin chrétien, et se sont ainsi prétendus guéris.
-        </p>
-        <p xml:id="para_5_144_215">
-         La résistance d'Abd-el-ader a longtemps paralysé touteinfluence française au Maroc. Longtemps aussi les Marocains ont pensé que l'Angleterre nous empêcherait d'occuper définitivement l'Algérie. C'était une opinion partout répandue et hautement exprimée. Alors les Anglais étaient tout-puissants ; le consul général d'Angleterre était souverain au Maroc. Mais les choses, depuis dix ans, ont bien changé : on sait que l'Algérie est décidément terre française ; on craint ce redoutable voisinage autant qu'on affectait de le dédaigner. Aujourd'hui l'influence française, augmentée par le prestige du nom de l'empereur, est prépondérante au Maroc. Mais on se trom perait étrangement si on pensait que notre action s'exerce jusque dans la sphère du pouvoir. Le sultan confond dans une commune haine toutes les puissances chrétiennes. Pour lui, les relations avec l'étranger sont une peste inévitable ; son plus cher désir est d'igno¬rer ce qui se passe sur les points de son territoire livrés à la souil¬lure nazaréenne. Tanger, résidence des consuls chrétiens, lui est particulièrement odieuse. 'Cette capitale maritime est tellement déconsidérée à ses yeux, que le nom même en est prononcé avec mépris. Il a choisi, pour traiter avec les consuls, un homme du commun que de fréquentes relations de commerce ont, en partie, initié aux habitudes européennes. Cette considération n'était qu'un prétexte, car on eût trouvé facilement, dans un rang plus élevé, un vizir doué des mêmes aptitudes : ce choix a été dicté évidemment, par un sentiment de mépris. C'est après des représentations éner¬giques que les consuls de France et d'Angleterre ont obtenu que le vizir désigné par le sultan cessât de débiter encore publiquement le sucre et le café, après son élévation.
-        </p>
-        <p xml:id="para_5_144_216">
-         A toutes les réclamations des consuls, répondre par des promesses ; différer sans cesse l'accomplissement de ce qui a été promis ; gagner du temps ; susciter des entraves de toute nature aux réclamants ; faire en sorte que, de guerre lasse, ils se désistent ; si le canon intervient, se jeter dans la poussière, et ne céder enfinqu'à la dernière extré¬mité Surtout, que le sultan ne sache rienl qu'il n'entende jamais parler des chrétiens. — Tel est le programme imposé au vizir Sidi Mohammed-el-hatib.
-        </p>
+        <head type="sub_sub_section" xml:id="part_03_01_21">(E) SUR LES PROGRES DE L'INELUENCE DES CHRÉTIENS AU MAROC.</head>
+        <p xml:id="para_5_143_212">Par diférents traités actuellement en vigueur, les consuls des nations chrétiennes ont le droit d'accorder leur protection aux su¬jets marocains qui sont à leur service. Ce droit de protection s'étend, dans la pratique, sur des indigènes dont les services sont purement accidentels. La protection des puissances chrétiennes est fort re¬cherchée au Maroc, car elle soustrait les protégés au régime de vio¬lence et de spoliation en vigueur dans tout l'empire, et les place entièrement sous la juridiction du consul chrétien. Quel que soit le délit imputé à un indigène, s'il est protégé, l'autorité locale ne peut le frapper dans sa personne ou dans ses biens sans le consente¬ment du consul protecteur. On comprend quel prix attachent à la protection d'un pavillon chrétien des hommes sans cesse menacés de la bastonnade, de la prison et des exactions les plus arbitraires. Quelques indigènes donnent encore l'exemple d'une aversion fa¬rouche pour les infidèles; ils aiment mieux encourir toutes les dis¬grâces que de demander leur appui ; mais ils restent isolés au milieu du mouvement général ; leur sombre attitude ne fait que rendre plus sensible la confiance et l'entraînement qui porte un grand nombre de leurs frères à profiter des bienfaits de notre civilisation. On peut calculer les progrès de cet heureux esprit en voyant chaque année des pèlerins, en plus grand nombre, se rendre à Tanger pour s'embarquer sur des paquebots français et anglais qui les transportent en dix jours à Alexandrie, alors que les fanatiques ac¬complissent pénblement leur pèlerinage par l'intérieur, au risque de se voir dévalisés et d'endurer des privations et des fatigues mor¬telle. On peut évaluer actuellement à 8 ou 10,000 le nombre des pèlerins qui s'embarquent annuellement à Tanger.</p>
+        <p xml:id="para_5_143_213">Chaque jour aussi voit s'accroitre le nombre de ceux qui viennent de tous les points de 'empire consulter les médecins français. Ce qui frappe surtout l'imagination des indigènes, c'est la quantité de<pb facs="#facs_147" n="144" source="lesouvriersdesde02sociuoft_0150.xml"/>fioles et de bocaux rangés dans l'officine du pharmacien de Tanger. Cet aspect leur donne la plus haute idée de la médecine chrétienne. Ils ont d'ailleurs, à ce sujet, les idées les plus erronées : le signe, surtout, est considéré parmi eux au point que des centaines de ma¬lades ont avalé l'ordonnance écrite par le médecin chrétien, et se sont ainsi prétendus guéris.</p>
+        <p xml:id="para_5_144_215">La résistance d'Abd-el-ader a longtemps paralysé touteinfluence française au Maroc. Longtemps aussi les Marocains ont pensé que l'Angleterre nous empêcherait d'occuper définitivement l'Algérie. C'était une opinion partout répandue et hautement exprimée. Alors les Anglais étaient tout-puissants ; le consul général d'Angleterre était souverain au Maroc. Mais les choses, depuis dix ans, ont bien changé : on sait que l'Algérie est décidément terre française ; on craint ce redoutable voisinage autant qu'on affectait de le dédaigner. Aujourd'hui l'influence française, augmentée par le prestige du nom de l'empereur, est prépondérante au Maroc. Mais on se trom perait étrangement si on pensait que notre action s'exerce jusque dans la sphère du pouvoir. Le sultan confond dans une commune haine toutes les puissances chrétiennes. Pour lui, les relations avec l'étranger sont une peste inévitable ; son plus cher désir est d'igno¬rer ce qui se passe sur les points de son territoire livrés à la souil¬lure nazaréenne. Tanger, résidence des consuls chrétiens, lui est particulièrement odieuse. 'Cette capitale maritime est tellement déconsidérée à ses yeux, que le nom même en est prononcé avec mépris. Il a choisi, pour traiter avec les consuls, un homme du commun que de fréquentes relations de commerce ont, en partie, initié aux habitudes européennes. Cette considération n'était qu'un prétexte, car on eût trouvé facilement, dans un rang plus élevé, un vizir doué des mêmes aptitudes : ce choix a été dicté évidemment, par un sentiment de mépris. C'est après des représentations éner¬giques que les consuls de France et d'Angleterre ont obtenu que le vizir désigné par le sultan cessât de débiter encore publiquement le sucre et le café, après son élévation.</p>
+        <p xml:id="para_5_144_216">A toutes les réclamations des consuls, répondre par des promesses ; différer sans cesse l'accomplissement de ce qui a été promis ; gagner du temps ; susciter des entraves de toute nature aux réclamants ; faire en sorte que, de guerre lasse, ils se désistent ; si le canon intervient, se jeter dans la poussière, et ne céder enfinqu'à la dernière extré¬mité Surtout, que le sultan ne sache rienl qu'il n'entende jamais parler des chrétiens. — Tel est le programme imposé au vizir Sidi Mohammed-el-hatib.</p>
        </div>
       </div>
      </div>

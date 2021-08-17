@@ -1,169 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-032a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xml:id="ID-032a" xml:lang="fr">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title level="m" n="32" type="main">
-     Manœuvre-vigneron de la Basse-Bourgogne (Yonne - France)
-    </title>
-    <title level="s" type="desc">
-     Les Ouvriers des Deux Mondes - série 1, volume 4 - Transcription
-    </title>
-    <title level="m" type="short">
-     manoeuvre-vigneron-basse-bourgogne-32
-    </title>
-    <author n="1" role="investigator">
-     Ernest Avalle
-    </author>
-    <editor>
-     Société internationale des études pratiques d'économie sociale
-    </editor>
+    <title level="m" n="32" type="main">Manœuvre-vigneron de la Basse-Bourgogne (Yonne - France)</title>
+    <title level="s" type="desc">Les Ouvriers des Deux Mondes - série 1, volume 4 - Transcription</title>
+    <title level="m" type="short">manoeuvre-vigneron-basse-bourgogne-32</title>
+    <author n="1" role="investigator">Ernest Avalle</author>
+    <editor>Société internationale des études pratiques d'économie sociale</editor>
     <respStmt>
-     <resp>
-      Fichier XML-TEI encodé de 2019 à 2021
-     </resp>
-     <orgName>
-      programme ANR TIME US
-     </orgName>
+     <resp>Fichier XML-TEI encodé de 2019 à 2021</resp>
+     <orgName>programme ANR TIME US</orgName>
     </respStmt>
    </titleStmt>
    <editionStmt>
-    <edition>
-     Édition et encodage scientifique de la monographie n°32 des Ouvriers des deux mondes, "Manœuvre-vigneron de la Basse-Bourgogne (Yonne - France)". Elle a d'abord été publiée en fascicule en 1862, puis reliée en 1862, à partir d'une enquête réalisée à D606 Joigny à Auxerre (Yonne, France) en septembre 1860.
-    </edition>
-    <funder>
-     Agence nationale de la Recherche
-    </funder>
+    <edition>Édition et encodage scientifique de la monographie n°32 des Ouvriers des deux mondes, "Manœuvre-vigneron de la Basse-Bourgogne (Yonne - France)". Elle a d'abord été publiée en fascicule en 1862, puis reliée en 1862, à partir d'une enquête réalisée à D606 Joigny à Auxerre (Yonne, France) en septembre 1860.</edition>
+    <funder>Agence nationale de la Recherche</funder>
     <respStmt>
      <persName>
-      <forename>
-       Alix
-      </forename>
-      <surname>
-       Chagué
-      </surname>
-      <affiliation>
-       ingénieure de recherche et de développement,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Alix</forename>
+      <surname>Chagué</surname>
+      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      acquisition et structuration initiale des textes
-     </resp>
+     <resp>acquisition et structuration initiale des textes</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Jean-Damien
-      </forename>
-      <surname>
-       Généro
-      </surname>
-      <affiliation from="2020-03" to="2020-09">
-       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Jean-Damien</forename>
+      <surname>Généro</surname>
+      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">
-       ingénieur d'études,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
-      <affiliation from="2020-12">
-       ingénieur d'études,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      encodage scientifique
-     </resp>
+     <resp>encodage scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Stéphane
-      </forename>
-      <surname>
-       Baciocchi
-      </surname>
-      <affiliation>
-       ingénieur de recherche de l’EHESS,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <forename>Stéphane</forename>
+      <surname>Baciocchi</surname>
+      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Anne
-      </forename>
-      <surname>
-       Lhuissier
-      </surname>
-      <affiliation>
-       directrice de recherche de l'INRAE,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <forename>Anne</forename>
+      <surname>Lhuissier</surname>
+      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Éric
-      </forename>
-      <surname>
-       Villemonte de la Clergerie
-      </surname>
-      <affiliation>
-       chargé de recherches,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Éric</forename>
+      <surname>Villemonte de la Clergerie</surname>
+      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      supervision technique
-     </resp>
+     <resp>supervision technique</resp>
     </respStmt>
    </editionStmt>
    <publicationStmt>
-    <publisher>
-     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
-    </publisher>
+    <publisher>Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH</publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>
-     Paris, France
-    </pubPlace>
-    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
-     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
-    </authority>
+    <pubPlace>Paris, France</pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century</authority>
     <availability status="free">
-     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
-      Distributed under an Open License 2.0
-     </licence>
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">Distributed under an Open License 2.0</licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <p>
-     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
-    </p>
+    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
    </sourceDesc>
   </fileDesc>
  </teiHeader>
@@ -355,897 +269,314 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_10_195_1">
-      N° 32.
-     </p>
-     <p xml:id="para_10_195_2">
-      MANŒUVRE-VIGNERON
-     </p>
-     <p xml:id="para_10_195_3">
-      DE LA BASSE-BOURGOGNE
-     </p>
-     <p>
-      (YONNE — FRANCE)
-     </p>
-     <p xml:id="para_10_195_4">
-      (Journalier-tacheron-propriétaire dans le système des engagements momentanés)
-     </p>
-     <p>
-      D'APRÈS LES
-     </p>
-     <p xml:id="para_10_195_5">
-      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN SEPTEMBRE 1860
-     </p>
-     <p>
-      PAR
-     </p>
-     <p xml:id="para_10_195_6">
-      M.
-      <persName>
-       E. AVALLE
-      </persName>
-      .
-     </p>
+     <p xml:id="para_10_195_1">N° 32.</p>
+     <p xml:id="para_10_195_2">MANŒUVRE-VIGNERON</p>
+     <p xml:id="para_10_195_3">DE LA BASSE-BOURGOGNE</p>
+     <p>(YONNE — FRANCE)</p>
+     <p xml:id="para_10_195_4">(Journalier-tacheron-propriétaire dans le système des engagements momentanés)</p>
+     <p>D'APRÈS LES</p>
+     <p xml:id="para_10_195_5">RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN SEPTEMBRE 1860</p>
+     <p>PAR</p>
+     <p xml:id="para_10_195_6">M.<persName>E. AVALLE</persName>.</p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">
-      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES IVERS MEMDRES DE LA FAMILLE.
-     </head>
+     <head type="section" xml:id="part_02">OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES IVERS MEMDRES DE LA FAMILLE.</head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
-       I. Définition du lieu, de l'organisation industrielle et de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_01">I. Définition du lieu, de l'organisation industrielle et de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
-        § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
-       </head>
-       <p xml:id="para_10_195_11">
-        <pb facs="#facs_198" n="195" source="lesouvriersdesde04sociuoft_0201.xml"/>
-        La famille habite le bourg de S***, chef-lieu d'un canton com¬prenant 11 communes. Ce bourg, situé par 2°15'52'' de longitude est et 47°54'24'' de latitude nord, est à une distance de 13 kilo¬mètres de la ville d'Auxerre. Il est traversé par une route départe¬menale qui conduit de cette ville à Joigny.
-       </p>
-       <p xml:id="para_10_195_12">
-        Le territoire de la commune s'étend sur le flanc d'un coteau exposé au nord et descendant par une pente assez rapide vers une plaine qu'arrose la petite rivière du Serain.
-       </p>
-       <p xml:id="para_10_195_13">
-        Le sol de cette contrée repose sur cet étage du terrain crétacé infé
-        <pb facs="#facs_199" n="196" source="lesouvriersdesde04sociuoft_0202.xml"/>
-        rieur, désigné par les géologues sous les noms de gault ou d'argile du Perthois, et appelé étage albien par M. Alcide d'Orbigny.
-       </p>
-       <p xml:id="para_10_196_15">
-        La terre est de nature argileuse; elle est sabionneuse en quelques endroits, sur les hauteurs principalement. Ces derniers terrains sont les moins estimés et ils ont besoin d'être fumés souvent. Dans certaines parties de la vallée, la couche de terre végétale est telle¬ment profonde que les propriétaires en vendent quelquefois une épaisseur de 30 ou 40 centimètres, qui sont reportés sur les places les plus arides ou les plus appauvries.
-       </p>
-       <p xml:id="para_10_196_16">
-        Le pays est généralement sec et découvert ; il est coupé de plaines et de collines, et arrosé par quatre rivières : l'Yonne, le Serain, l'Armançon et le Ru de Sinotte ; ces trois derniers cours d'eau se jettent dans l'Yonne.
-       </p>
-       <p xml:id="para_10_196_17">
-        La commune de S*** parait être d'une très-grande salubrité. Les vieillards y sont très-nombreux ; on y compte plusieurs nonagénaires et un certain nombre d'octogénaires, qui travaillent encore aux champs.
-       </p>
-       <p xml:id="para_10_196_18">
-        Le territoire est assez fertile ; on y récolte des céréales, du vin, du chanvre, des pommes de terre, etc. Les bois, qui s'étendent au nord et au midi, se composent surtout de chênes.
-       </p>
-       <p xml:id="para_10_196_19">
-        La commune ne possède pas de biens communaux ; elle les a tous aliénés peu après la révolution de 1789.
-       </p>
-       <p xml:id="para_10_196_20">
-        Sa superficie est de 1,346 hectares, ainsi répartis :
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. — État du sol, de l'industrie et de la population.</head>
+       <p xml:id="para_10_195_11"><pb facs="#facs_198" n="195" source="lesouvriersdesde04sociuoft_0201.xml"/> La famille habite le bourg de S***, chef-lieu d'un canton com¬prenant 11 communes. Ce bourg, situé par 2°15'52'' de longitude est et 47°54'24'' de latitude nord, est à une distance de 13 kilo¬mètres de la ville d'Auxerre. Il est traversé par une route départe¬menale qui conduit de cette ville à Joigny.</p>
+       <p xml:id="para_10_195_12">Le territoire de la commune s'étend sur le flanc d'un coteau exposé au nord et descendant par une pente assez rapide vers une plaine qu'arrose la petite rivière du Serain.</p>
+       <p xml:id="para_10_195_13">Le sol de cette contrée repose sur cet étage du terrain crétacé infé<pb facs="#facs_199" n="196" source="lesouvriersdesde04sociuoft_0202.xml"/>rieur, désigné par les géologues sous les noms de gault ou d'argile du Perthois, et appelé étage albien par M. Alcide d'Orbigny.</p>
+       <p xml:id="para_10_196_15">La terre est de nature argileuse; elle est sabionneuse en quelques endroits, sur les hauteurs principalement. Ces derniers terrains sont les moins estimés et ils ont besoin d'être fumés souvent. Dans certaines parties de la vallée, la couche de terre végétale est telle¬ment profonde que les propriétaires en vendent quelquefois une épaisseur de 30 ou 40 centimètres, qui sont reportés sur les places les plus arides ou les plus appauvries.</p>
+       <p xml:id="para_10_196_16">Le pays est généralement sec et découvert ; il est coupé de plaines et de collines, et arrosé par quatre rivières : l'Yonne, le Serain, l'Armançon et le Ru de Sinotte ; ces trois derniers cours d'eau se jettent dans l'Yonne.</p>
+       <p xml:id="para_10_196_17">La commune de S*** parait être d'une très-grande salubrité. Les vieillards y sont très-nombreux ; on y compte plusieurs nonagénaires et un certain nombre d'octogénaires, qui travaillent encore aux champs.</p>
+       <p xml:id="para_10_196_18">Le territoire est assez fertile ; on y récolte des céréales, du vin, du chanvre, des pommes de terre, etc. Les bois, qui s'étendent au nord et au midi, se composent surtout de chênes.</p>
+       <p xml:id="para_10_196_19">La commune ne possède pas de biens communaux ; elle les a tous aliénés peu après la révolution de 1789.</p>
+       <p xml:id="para_10_196_20">Sa superficie est de 1,346 hectares, ainsi répartis :</p>
        <figure rend="portrait" type="inventory">
-        <head resp="added" type="inventory" xml:id="figure_1">
-         Répartition des hectares de la commune de S*** (§1)
-        </head>
-        <graphic facs="#facs_199" url="#"/>
+        <head resp="added" type="inventory" xml:id="figure_1">Répartition des hectares de la commune de S*** (§1)</head>
+        <graphic facs="#facs_199" url="https://iiif.archivelab.org/iiif/lesouvriersdesde04sociuoft%24202/380,1379,941,481/full/0/default.jpg"/>
        </figure>
-       <!--<p xml:id="para_10_196_21">
-        Terres labourabes... .....
-        </p>
-        <p xml:id="para_10_196_22">
-        Chêneviéres... .......:...
-        </p>
-        <p xml:id="para_10_196_23">
-        Jardius potagers...........
-        </p>
-        <p xml:id="para_10_196_24">
-        V'egers...................
-        </p>
-        <p xml:id="para_10_196_25">
-        SQTeS .................
-        </p>
-        <p xml:id="para_10_196_26">
-        Planttions diverses........
-        </p>
-        <p xml:id="para_10_196_27">
-        Propriétés baties..........
-        </p>
-        <p xml:id="para_10_196_28">
-        Routes, chenins et riviéres.
-        </p>
-        <p xml:id="para_10_196_29">
-        5 hectares.
-        </p>
-        <p xml:id="para_10_196_30">
-        1346 hectares.
-        </p>-->
-       <p xml:id="para_10_196_31">
-        On compte dans la commune : 388 maisons, 2 huileries, 2 tui¬leries, 2 moulins à blé et 1 moulin à foulon mus par l'eau, 10 pres¬soirs, 1 lavoir public.
-       </p>
-       <p xml:id="para_10_196_32">
-        La propriéé du sol est rès-divisée; à l'exception d'un grand domaine de 343 hectares, que l'on désigne encore sous le nom de erres du Chaitcu, quoique le château ait été démoli en 1798, et d'un autre domaine de 60 hectares, les plus grandes propriétés n'excèdent pas 25 hectares. Il n'y a pas une seule ferme dans la
-        <pb facs="#facs_200" n="197" source="lesouvriersdesde04sociuoft_0203.xml"/>
-        commune; chaque propriétaire exploite son propre bien lui-même ou aidé de quelques ouvriers journaliers.
-       </p>
-       <p xml:id="para_10_197_34">
-        Le tableau suivant donne une idée du morcellement de la pro¬priété dans la commune de S***. Sur 762 propriétés, il y en a :
-       </p>
+       <!--<p xml:id="para_10_196_21">Terres labourabes... .....</p>
+        <p xml:id="para_10_196_22">Chêneviéres... .......:...</p>
+        <p xml:id="para_10_196_23">Jardius potagers...........</p>
+        <p xml:id="para_10_196_24">V'egers...................</p>
+        <p xml:id="para_10_196_25">SQTeS .................</p>
+        <p xml:id="para_10_196_26">Planttions diverses........</p>
+        <p xml:id="para_10_196_27">Propriétés baties..........</p>
+        <p xml:id="para_10_196_28">Routes, chenins et riviéres.</p>
+        <p xml:id="para_10_196_29">5 hectares.</p>
+        <p xml:id="para_10_196_30">1346 hectares.</p>-->
+       <p xml:id="para_10_196_31">On compte dans la commune : 388 maisons, 2 huileries, 2 tui¬leries, 2 moulins à blé et 1 moulin à foulon mus par l'eau, 10 pres¬soirs, 1 lavoir public.</p>
+       <p xml:id="para_10_196_32">La propriéé du sol est rès-divisée; à l'exception d'un grand domaine de 343 hectares, que l'on désigne encore sous le nom de erres du Chaitcu, quoique le château ait été démoli en 1798, et d'un autre domaine de 60 hectares, les plus grandes propriétés n'excèdent pas 25 hectares. Il n'y a pas une seule ferme dans la<pb facs="#facs_200" n="197" source="lesouvriersdesde04sociuoft_0203.xml"/>commune; chaque propriétaire exploite son propre bien lui-même ou aidé de quelques ouvriers journaliers.</p>
+       <p xml:id="para_10_197_34">Le tableau suivant donne une idée du morcellement de la pro¬priété dans la commune de S***. Sur 762 propriétés, il y en a :</p>
        <figure rend="portrait" type="inventory">
-        <head resp="added" type="inventory" xml:id="figure_2">
-         Répartition des propriétaires de la commune de S*** en fonction du nombre d'hectare en leur possession (§1)
-        </head>
-        <graphic facs="#facs_200" url="#"/>
+        <head resp="added" type="inventory" xml:id="figure_2">Répartition des propriétaires de la commune de S*** en fonction du nombre d'hectare en leur possession (§1)</head>
+        <graphic facs="#facs_200" url="https://iiif.archivelab.org/iiif/lesouvriersdesde04sociuoft%24203/228,450,1166,350/full/0/default.jpg"/>
        </figure>
-       <p xml:id="para_10_197_37">
-        La population de s se compose de 1,546 habitants; elle en comptait 1,800 vers le milieu du siècle dernier. Cette diminution doit êre attribuée à la suppression de la manufacture royale de serge
-        <ref target="#part_03_01_20" type="renvoi_int_mono">
-         (D)
-        </ref>
-        , ainsi qu'à la tendance actuelle des jeunes gens à aban¬donner les travaux des champs pour ceux des villes
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         (A)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_197_38">
-        Cette population est principalement composée de paysans vivant dans des conditions analogues à celles que fait connaitre la présente monographie, c'est-à-dire cultivant leur petit domaine, élevant quel¬ques bestiaux, et travaillant à la journée ou à la tâche le reste du temps. Quelques-uns exercent des métiers ouse livrent aucommerce.
-       </p>
-       <p xml:id="para_10_197_39">
-        Les chefs de famille se répartissent ainsi qu'il suit entre les diverses professions :
-       </p>
+       <p xml:id="para_10_197_37">La population de s se compose de 1,546 habitants; elle en comptait 1,800 vers le milieu du siècle dernier. Cette diminution doit êre attribuée à la suppression de la manufacture royale de serge (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>), ainsi qu'à la tendance actuelle des jeunes gens à aban¬donner les travaux des champs pour ceux des villes (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>).</p>
+       <p xml:id="para_10_197_38">Cette population est principalement composée de paysans vivant dans des conditions analogues à celles que fait connaitre la présente monographie, c'est-à-dire cultivant leur petit domaine, élevant quel¬ques bestiaux, et travaillant à la journée ou à la tâche le reste du temps. Quelques-uns exercent des métiers ouse livrent aucommerce.</p>
+       <p xml:id="para_10_197_39">Les chefs de famille se répartissent ainsi qu'il suit entre les diverses professions :</p>
        <figure rend="portrait" type="inventory">
-        <head resp="added" type="inventory" xml:id="figure_3">
-         Répartition des chefs de famille de la commune de S*** en fonction de leurs catégories socio-professionnelles (§1)
-        </head>
-        <graphic facs="#facs_200" url="#"/>
+        <head resp="added" type="inventory" xml:id="figure_3">Répartition des chefs de famille de la commune de S*** en fonction de leurs catégories socio-professionnelles (§1)</head>
+        <graphic facs="#facs_200" url="https://iiif.archivelab.org/iiif/lesouvriersdesde04sociuoft%24203/312,1426,978,806/full/0/default.jpg"/>
        </figure>
-       <!--<p xml:id="para_10_197_40">
-        Agriculture : Propriétaires exploitant leur hien............ 48
-        </p>
-        <p xml:id="para_10_197_41">
-        Onviers-propriétaires et ouvries-journaliers
-        </p>
-        <p xml:id="para_10_197_42">
-        cultivaut la lerre ........................ 102
-        </p>
-        <p xml:id="para_10_197_43">
-        popnneerS.. .............................. 1
-        </p>
-        <p xml:id="para_10_197_44">
-        ndustries de lalimentation : Meuniers, boulangers, bou¬chers, charcuties, épiciers, cafetiers, auber¬Se ..... . . ...... .... .................
-        </p>
-        <p xml:id="para_10_197_45">
-        lndustries du vêtement : Blanchisseurs, sabotiers, cordon¬nies, chapeliers, tailleurs, marchauds de
-        </p>
-        <p xml:id="para_10_197_46">
-        DouveueS...  . .................... ........
-        </p>
-        <p xml:id="para_10_197_47">
-        ndustries des constructions et de l'ameublement : Maçons, chpentiers, couvreurs, menuisiers, serrnriers, peintres, tourneurs, ébénistes, taillandies,
-        </p>
-        <p xml:id="para_10_197_48">
-        chdTODeTS............................. 7
-        </p>
-        <p xml:id="para_10_197_49">
-        Industries des transports : voituriers, charrons, forgerons,
-        </p>
-        <p xml:id="para_10_197_50">
-        naréchaux-errants........................ 11
-        </p>
-        <p xml:id="para_10_197_51">
-        Comnerce : Marchands de laine........................ 5
-        </p>
-        <p xml:id="para_10_197_52">
-        Art médical : Pharmaciens, médeciuns.................... 4
-        </p>
-        <p xml:id="para_10_197_53">
-        Enseignement, culte et administration................... 17
-        </p>
-        <p xml:id="para_10_197_54">
-        Prolessions deiveses.................................... 7
-        </p>
-        <p xml:id="para_10_197_55">
-        Total...... 32
-        </p>-->
-       <p xml:id="para_10_197_56">
-        Comme on le voit, la moitié de la population appartient à l'agri¬culture. Il n'en a pas toujours été ainsi. Vers le milieu du siècle
-        <pb facs="#facs_201" n="198" source="lesouvriersdesde04sociuoft_0204.xml"/>
-        dernier, le pays était beaucoup plus industriel, à cause de la ma¬nufacture royale de serge et de la manufacture de soieries qui y étaient établies ; la première en effet occupait à elle seule jusqu'à 700 ouvriers
-        <ref target="#part_03_01_20" type="renvoi_int_mono">
-         (D)
-        </ref>
-        . Depuis sa suppression, le commerce des laines, qui avait pris un grand développement, a été en diminuant de plus en plus, et 5 marchands de laine, qui font encore plusieurs centaines de mille francs d'affaires, sont les derniers représentants de la splendeur commerciale de S***.
-       </p>
-       <p xml:id="para_10_198_58">
-        L'agriculture est en voie de progrès dans la commune, dont les habitants se sont presque exclusivement livrés à l'exploitation des champs, après la disparition des fabriques. La culture de la vigne surtout a été portée à un haut degré de perfectionnement et a pris une extension considérable. L'avenir de cette culture serait assuré, si l'on ne remarquait une tendance fâcheuse à remplacer les plants anciens par des plants,moins estimés, mais d'un produit plus abondant.
-       </p>
+       <!--<p xml:id="para_10_197_40">Agriculture : Propriétaires exploitant leur hien............ 48</p>
+        <p xml:id="para_10_197_41">Onviers-propriétaires et ouvries-journaliers</p>
+        <p xml:id="para_10_197_42">cultivaut la lerre ........................ 102</p>
+        <p xml:id="para_10_197_43">popnneerS.. .............................. 1</p>
+        <p xml:id="para_10_197_44">ndustries de lalimentation : Meuniers, boulangers, bou¬chers, charcuties, épiciers, cafetiers, auber¬Se ..... . . ...... .... .................</p>
+        <p xml:id="para_10_197_45">lndustries du vêtement : Blanchisseurs, sabotiers, cordon¬nies, chapeliers, tailleurs, marchauds de</p>
+        <p xml:id="para_10_197_46">DouveueS...  . .................... ........</p>
+        <p xml:id="para_10_197_47">ndustries des constructions et de l'ameublement : Maçons, chpentiers, couvreurs, menuisiers, serrnriers, peintres, tourneurs, ébénistes, taillandies,</p>
+        <p xml:id="para_10_197_48">chdTODeTS............................. 7</p>
+        <p xml:id="para_10_197_49">Industries des transports : voituriers, charrons, forgerons,</p>
+        <p xml:id="para_10_197_50">naréchaux-errants........................ 11</p>
+        <p xml:id="para_10_197_51">Comnerce : Marchands de laine........................ 5</p>
+        <p xml:id="para_10_197_52">Art médical : Pharmaciens, médeciuns.................... 4</p>
+        <p xml:id="para_10_197_53">Enseignement, culte et administration................... 17</p>
+        <p xml:id="para_10_197_54">Prolessions deiveses.................................... 7</p>
+        <p xml:id="para_10_197_55">Total...... 32</p>-->
+       <p xml:id="para_10_197_56">Comme on le voit, la moitié de la population appartient à l'agri¬culture. Il n'en a pas toujours été ainsi. Vers le milieu du siècle<pb facs="#facs_201" n="198" source="lesouvriersdesde04sociuoft_0204.xml"/>dernier, le pays était beaucoup plus industriel, à cause de la ma¬nufacture royale de serge et de la manufacture de soieries qui y étaient établies ; la première en effet occupait à elle seule jusqu'à 700 ouvriers (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>). Depuis sa suppression, le commerce des laines, qui avait pris un grand développement, a été en diminuant de plus en plus, et 5 marchands de laine, qui font encore plusieurs centaines de mille francs d'affaires, sont les derniers représentants de la splendeur commerciale de S***.</p>
+       <p xml:id="para_10_198_58">L'agriculture est en voie de progrès dans la commune, dont les habitants se sont presque exclusivement livrés à l'exploitation des champs, après la disparition des fabriques. La culture de la vigne surtout a été portée à un haut degré de perfectionnement et a pris une extension considérable. L'avenir de cette culture serait assuré, si l'on ne remarquait une tendance fâcheuse à remplacer les plants anciens par des plants,moins estimés, mais d'un produit plus abondant.</p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Etienne M** (n°032aE1) - Alexandrine F** (n°032aE2) - Nathalie M** (n°032aE3) - Eugène M** (n°032aE4) - Elisa M** (n°032aE5) - Victor M** (n°032aE6) - Eugénie M** (n°032aE7) - Marie M** (n°032aE8) - Joseph M** (n°032aE9) - Amélie M** (n°032aE10)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
-        § 2. — ÉTAT CIVIL DE LA FAMILLE.
-       </head>
-       <p xml:id="para_10_198_60">
-        La famille fait une honorable exception au régime de stérilié systématique qui envahit si rapidement toutes les classes de la na¬tion française ; elle comprend deux époux et huit enfants, savoir :
-       </p>
-       <p xml:id="para_10_198_61">
-        1.
-        <persName xml:id="ID-032aE1">
-         ÉTIENNE M***
-        </persName>
-        , chef de famille, né à R**, marié depuis 2 ans............ 56 ans.
-       </p>
-       <p xml:id="para_10_198_62">
-        2.
-        <persName xml:id="ID-032aE2">
-         ALEXANDRINE F***
-        </persName>
-        , sa femme, née à Saint-F***............ 45
-       </p>
-       <p xml:id="para_10_198_63">
-        3.
-        <persName xml:id="ID-032aE3">
-         Nahalie M**
-        </persName>
-        , leur fille aînée, née à S***............ 21 —
-       </p>
-       <p xml:id="para_10_198_64">
-        4.
-        <persName xml:id="ID-032aE4">
-         Eugène M**
-        </persName>
-        , leur fils aîné, né à S***............ 18 —
-       </p>
-       <p xml:id="para_10_198_65">
-        5.
-        <persName xml:id="ID-032aE5">
-         Élisa M**
-        </persName>
-        , leur 2ᵉ fille, née à S***............ 15 —
-       </p>
-       <p xml:id="para_10_198_66">
-        6.
-        <persName xml:id="ID-032aE6">
-         Victor M**
-        </persName>
-        , leur 2ᵉ fils, né à S***............ 14 —
-       </p>
-       <p xml:id="para_10_198_67">
-        7.
-        <persName xml:id="ID-032aE7">
-         Eugénie M**
-        </persName>
-        , leur 3ᵉ fille, née à S***............ 12 —
-       </p>
-       <p xml:id="para_10_198_68">
-        8.
-        <persName xml:id="ID-032aE8">
-         Marie M**
-        </persName>
-        , leur 4ᵉ fille, née a S***............ 9 —
-       </p>
-       <p xml:id="para_10_198_69">
-        9.
-        <persName xml:id="ID-032aE9">
-         Joseph M**
-        </persName>
-        , leur 3ᵉ fils, né à S***............ 7 —
-       </p>
-       <p xml:id="para_10_198_70">
-        10.
-        <persName xml:id="ID-032aE10">
-         Amélie M**
-        </persName>
-        , leur 5ᵉ fille, née à S***............ 7 mois.
-       </p>
-       <p xml:id="para_10_198_71">
-        La 2ᵉ fille est placée comme domestique dans une maison du pays ; elle ne loge ni ne mange avec ses parents, mais elle est entretenue par eux et leur donne tous ses gages.
-       </p>
-       <p xml:id="para_10_198_72">
-        Les deux époux ont eu deux autres enfants, dont l'un est mort en naissant et l'autre en bas âge. Ils n'ont plus ni père ni mère.
-       </p>
-       <p xml:id="para_10_198_73">
-        L'ouvrier a encore cinq frères qui exercent des professions di¬verses : deux sont vignerons comme lui, deux sont cantonniers et un autre est teinturier dans la même commune. Il a deux sœurs qui sont mariées dans des communes voisines à des ouvriers-cultivateurs.
-       </p>
-       <p xml:id="para_10_198_74">
-        La femme de l'ouvrier a un frère et une sœur, tous deux mariés.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. — État civil de la famille.</head>
+       <p xml:id="para_10_198_60">La famille fait une honorable exception au régime de stérilié systématique qui envahit si rapidement toutes les classes de la na¬tion française ; elle comprend deux époux et huit enfants, savoir :</p>
+       <p xml:id="para_10_198_61">1.<persName xml:id="ID-032aE1">ÉTIENNE M***</persName>, chef de famille, né à R**, marié depuis 2 ans............ 56 ans.</p>
+       <p xml:id="para_10_198_62">2.<persName xml:id="ID-032aE2">ALEXANDRINE F***</persName>, sa femme, née à Saint-F***............ 45</p>
+       <p xml:id="para_10_198_63">3.<persName xml:id="ID-032aE3">Nahalie M**</persName>, leur fille aînée, née à S***............ 21 —</p>
+       <p xml:id="para_10_198_64">4.<persName xml:id="ID-032aE4">Eugène M**</persName>, leur fils aîné, né à S***............ 18 —</p>
+       <p xml:id="para_10_198_65">5.<persName xml:id="ID-032aE5">Élisa M**</persName>, leur 2ᵉ fille, née à S***............ 15 —</p>
+       <p xml:id="para_10_198_66">6.<persName xml:id="ID-032aE6">Victor M**</persName>, leur 2ᵉ fils, né à S***............ 14 —</p>
+       <p xml:id="para_10_198_67">7.<persName xml:id="ID-032aE7">Eugénie M**</persName>, leur 3ᵉ fille, née à S***............ 12 —</p>
+       <p xml:id="para_10_198_68">8.<persName xml:id="ID-032aE8">Marie M**</persName>, leur 4ᵉ fille, née a S***............ 9 —</p>
+       <p xml:id="para_10_198_69">9.<persName xml:id="ID-032aE9">Joseph M**</persName>, leur 3ᵉ fils, né à S***............ 7 —</p>
+       <p xml:id="para_10_198_70">10.<persName xml:id="ID-032aE10">Amélie M**</persName>, leur 5ᵉ fille, née à S***............ 7 mois.</p>
+       <p xml:id="para_10_198_71">La 2ᵉ fille est placée comme domestique dans une maison du pays ; elle ne loge ni ne mange avec ses parents, mais elle est entretenue par eux et leur donne tous ses gages.</p>
+       <p xml:id="para_10_198_72">Les deux époux ont eu deux autres enfants, dont l'un est mort en naissant et l'autre en bas âge. Ils n'ont plus ni père ni mère.</p>
+       <p xml:id="para_10_198_73">L'ouvrier a encore cinq frères qui exercent des professions di¬verses : deux sont vignerons comme lui, deux sont cantonniers et un autre est teinturier dans la même commune. Il a deux sœurs qui sont mariées dans des communes voisines à des ouvriers-cultivateurs.</p>
+       <p xml:id="para_10_198_74">La femme de l'ouvrier a un frère et une sœur, tous deux mariés.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
-        § 3. — RELIGION ET HABITUDES MORALES.
-       </head>
-       <p xml:id="para_10_199_76">
-        <pb facs="#facs_202" n="199" source="lesouvriersdesde04sociuoft_0205.xml"/>
-        Les deux époux appartiennent à la religion catholique romaine, mais ils n'en accomplissent pas exactement les devoirs. Ce n'est pas qu'ils manifestent une opposition systématique aux doctrines religieuses, mais ils prétendent que leurs travaux continus ne leur laissent pas le temps de suivre exactement les exercices du culte. L'ouvrier ne se rend à l'église qu'aux jours de grande fête. Quant à la femme, depuis qu'elle est chargèe de famille, elle ne va plus à la messe qu'aux époques de ses relevailles ; néanmoins elle y envoie régulièrement ses enfants le dimanche. Ceux-ci, a l'excep¬tion des quatre derniers, ont fait leur première communion, les garçons à douze ans et les filles à onze.
+       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. — Religion et habitudes morales.</head>
+       <p xml:id="para_10_199_76"><pb facs="#facs_202" n="199" source="lesouvriersdesde04sociuoft_0205.xml"/> Les deux époux appartiennent à la religion catholique romaine, mais ils n'en accomplissent pas exactement les devoirs. Ce n'est pas qu'ils manifestent une opposition systématique aux doctrines religieuses, mais ils prétendent que leurs travaux continus ne leur laissent pas le temps de suivre exactement les exercices du culte. L'ouvrier ne se rend à l'église qu'aux jours de grande fête. Quant à la femme, depuis qu'elle est chargèe de famille, elle ne va plus à la messe qu'aux époques de ses relevailles ; néanmoins elle y envoie régulièrement ses enfants le dimanche. Ceux-ci, a l'excep¬tion des quatre derniers, ont fait leur première communion, les garçons à douze ans et les filles à onze.</p>
+       <p xml:id="para_10_199_77">Les deux époux ont beaucoup de respect pour les classes élevées de la société ; ils ont un vif sentiment du devoir et possèdent à un haut degré l'esprit de prévoyance, qui ne dégénère pas chez eux en avarice.</p>
+       <p xml:id="para_10_199_78">La fécondité de la femme n'a pas été pour les époux une cause de chagrin et de découragement ; fiers de leurs huit enfants, ils rappellent avec orgueil que c'est grâce à leur travail seulement qu'ils ont pu les élever en les faisant honnêtes et laborieux. Ceux¬ci témoignent pour leurs parents une grande affection et beaucoup de déférence.</p>
+       <p xml:id="para_10_199_79">L'ouvrier a une intelligence peu développée ; il ne sait ni lire ni écrire. Sa femme est douée plus heureusement. lntelligente et vive, bien qu'aussi illettrée que son mari, elle doit à un excellent jugement, à un caractère persévérant et ferme, d'exercer un ascen¬dant salutaire sur les affaires domestiques. C'est graice à son in¬fluence que le budget se résume chaque année en une épargne qui a élevé progressivement la famille à la propriété (<ref target="#" type="renvoi_ext_oe">les ˉOuv. curop., XV, XXX, XXXIII les Ouv. des ˉDeux-mondes, Nos <ref target="#ID-002a" type="renvoi_int_od2m">2</ref>,<ref target="#ID-009a" type="renvoi_int_od2m">9</ref>,<ref target="#ID-016a" type="renvoi_int_od2m">16</ref>.</ref>)
        </p>
-       <p xml:id="para_10_199_77">
-        Les deux époux ont beaucoup de respect pour les classes élevées de la société ; ils ont un vif sentiment du devoir et possèdent à un haut degré l'esprit de prévoyance, qui ne dégénère pas chez eux en avarice.
-       </p>
-       <p xml:id="para_10_199_78">
-        La fécondité de la femme n'a pas été pour les époux une cause de chagrin et de découragement ; fiers de leurs huit enfants, ils rappellent avec orgueil que c'est grâce à leur travail seulement qu'ils ont pu les élever en les faisant honnêtes et laborieux. Ceux¬ci témoignent pour leurs parents une grande affection et beaucoup de déférence.
-       </p>
-       <p xml:id="para_10_199_79">
-        L'ouvrier a une intelligence peu développée ; il ne sait ni lire ni écrire. Sa femme est douée plus heureusement. lntelligente et vive, bien qu'aussi illettrée que son mari, elle doit à un excellent jugement, à un caractère persévérant et ferme, d'exercer un ascen¬dant salutaire sur les affaires domestiques. C'est graice à son in¬fluence que le budget se résume chaque année en une épargne qui a élevé progressivement la famille à la propriété
-        <ref target="#" type="renvoi_ext_oe">
-         (les ˉOuv. curop., XV, XXX, XXXIII les Ouv. des ˉDeux-mondes, Nos
-         <ref target="#ID-002a" type="renvoi_int_od2m">
-          2
-         </ref>
-         ,
-         <ref target="#ID-009a" type="renvoi_int_od2m">
-          9
-         </ref>
-         ,
-         <ref target="#ID-016a" type="renvoi_int_od2m">
-          16
-         </ref>
-         .)
-        </ref>
-       </p>
-       <p xml:id="para_10_199_80">
-        Tous les enfants, à l'exception du plus jeune, ont fréquenté l'école communale à tour de rôle ; mais, d'une intelligence bornée, ils n'ont pu acquérir qu'une instruction fort restreinte. Les deux aînés fréquentent encore les classes du soir destinées aux adultes. L'instruction est donnée, dans la commune, aux garçons par les Frères de la Doctrine chrétienne, et aux filles par les Sœurs de la Congrégation de Nevers
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_199_81">
-        En résumé, la moralité de cette famille paraît avoir pour base principale la volonté d'acquérir, d'où résultent les habitudes d'ordre et de travail qui la distinguent.
-       </p>
+       <p xml:id="para_10_199_80">Tous les enfants, à l'exception du plus jeune, ont fréquenté l'école communale à tour de rôle ; mais, d'une intelligence bornée, ils n'ont pu acquérir qu'une instruction fort restreinte. Les deux aînés fréquentent encore les classes du soir destinées aux adultes. L'instruction est donnée, dans la commune, aux garçons par les Frères de la Doctrine chrétienne, et aux filles par les Sœurs de la Congrégation de Nevers (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>).</p>
+       <p xml:id="para_10_199_81">En résumé, la moralité de cette famille paraît avoir pour base principale la volonté d'acquérir, d'où résultent les habitudes d'ordre et de travail qui la distinguent.</p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
-        § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
-       </head>
-       <p xml:id="para_10_200_85">
-        <pb facs="#facs_203" n="200" source="lesouvriersdesde04sociuoft_0206.xml"/>
-        L'ouvrier est d'une taille au-dessus de la moyenne (1ᵐ 70 envi¬ron), d'un tempérament nerveux et d'une bonne constituion. Il n'a jamais eu de graves maladies. Il y a dix ans, il s'est brisé une côte en travaillant, et cet accident l'a contraint de garderla chambre pendant six mois. Il est devenu sourd et ne sait pas à quelle cause cette infirmité doit être attribuée.
-       </p>
-       <p xml:id="para_10_200_86">
-        La femme est de taille moyenne et jouit d'une bonne santé. Elle pa¬raît cependant avoir été un peu afaiblie par ses nombreuses couches, par les devoirs de la maternité, et peut-être aussi par le peu de soin qu'elle prenait d'elle-même en ces circonstances. llle a eu dix enfants qu'elle a tous nouris elle-même, et, cinq à six jours après leur naissance, elle reprenait ordinairement ses occupations domestiques.
-       </p>
-       <p xml:id="para_10_200_87">
-        Dans les premiers temps de son mariage, la femme M*** a éé at¬teinte de fièvres dont elle a souffert pendant près de deux ans, sans jamais iuterrompre pour cela les affaires de son ménage et les travaux des champs. Elle soufre en ce moment de maux d'yeux, et attribue cete maladie a ses fatigues journalières. Elle ne les soigne pas au¬trement qu'en les lavant de temps en temps avec de l'eau fraiche.
-       </p>
-       <p xml:id="para_10_200_88">
-        La santé des enfauts est généralement bonne; ils sont grands e forts et ont été exempts de la plupart des maladies de l'enfance. Ils ont tous reçu la vaccine, dont l'usage est très-répandu dans le pays.
-       </p>
-       <p xml:id="para_10_200_89">
-        La famille n'a recours au médecin qu'à de très-rares intervalles. Les visites se payent 1ᶠ 00; et depuis leur mariage, les deux époux n'ont pas dépensé plus de soixane francs pour cet objet. La femme est assistée dans ses couches par une sage-lemme du pays, dont la réribution est de six francs.
-       </p>
-       <p xml:id="para_10_200_90">
-        Les médicaments, dont on fait presque exclusivement usage dans la famille pour les petites indispositions, sont des tisanes d'orge et des infusions de fleurs de guimauve, que l'on sucre avec de la réglisse. Pour l'usage externe, on emploie des cataplasmes de mie de pain et de racine de guimauve. Ces médicaments ne donnent lieu qu'à une dépense annuelle fort minime.
-       </p>
-       <p xml:id="para_10_200_91">
-        La femme soigne ses enfants avec la plus grande sollicitude ; elle veille à ce qu'ils ne souffrent ni du froid ni de l'humidité; elle leur fait prendre fréquemment des bains, surtout aux plus jeunes.
-       </p>
-       <p xml:id="para_10_200_92">
-        Les soins médicaux sont donnés dans la commune par deux docteurs-médecins et par un officier de santé.
-       </p>
-       <p xml:id="para_10_200_93">
-        Il n'y existe pas de société d'assistance mutuelle pour les cas de maladie, mais on songe à en établir une sous le patronage des sociétés de Saint-Vincent de Paul.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. — Hygiène et service de santé.</head>
+       <p xml:id="para_10_200_85"><pb facs="#facs_203" n="200" source="lesouvriersdesde04sociuoft_0206.xml"/> L'ouvrier est d'une taille au-dessus de la moyenne (1ᵐ 70 envi¬ron), d'un tempérament nerveux et d'une bonne constituion. Il n'a jamais eu de graves maladies. Il y a dix ans, il s'est brisé une côte en travaillant, et cet accident l'a contraint de garderla chambre pendant six mois. Il est devenu sourd et ne sait pas à quelle cause cette infirmité doit être attribuée.</p>
+       <p xml:id="para_10_200_86">La femme est de taille moyenne et jouit d'une bonne santé. Elle pa¬raît cependant avoir été un peu afaiblie par ses nombreuses couches, par les devoirs de la maternité, et peut-être aussi par le peu de soin qu'elle prenait d'elle-même en ces circonstances. llle a eu dix enfants qu'elle a tous nouris elle-même, et, cinq à six jours après leur naissance, elle reprenait ordinairement ses occupations domestiques.</p>
+       <p xml:id="para_10_200_87">Dans les premiers temps de son mariage, la femme M*** a éé at¬teinte de fièvres dont elle a souffert pendant près de deux ans, sans jamais iuterrompre pour cela les affaires de son ménage et les travaux des champs. Elle soufre en ce moment de maux d'yeux, et attribue cete maladie a ses fatigues journalières. Elle ne les soigne pas au¬trement qu'en les lavant de temps en temps avec de l'eau fraiche.</p>
+       <p xml:id="para_10_200_88">La santé des enfauts est généralement bonne; ils sont grands e forts et ont été exempts de la plupart des maladies de l'enfance. Ils ont tous reçu la vaccine, dont l'usage est très-répandu dans le pays.</p>
+       <p xml:id="para_10_200_89">La famille n'a recours au médecin qu'à de très-rares intervalles. Les visites se payent 1ᶠ 00; et depuis leur mariage, les deux époux n'ont pas dépensé plus de soixane francs pour cet objet. La femme est assistée dans ses couches par une sage-lemme du pays, dont la réribution est de six francs.</p>
+       <p xml:id="para_10_200_90">Les médicaments, dont on fait presque exclusivement usage dans la famille pour les petites indispositions, sont des tisanes d'orge et des infusions de fleurs de guimauve, que l'on sucre avec de la réglisse. Pour l'usage externe, on emploie des cataplasmes de mie de pain et de racine de guimauve. Ces médicaments ne donnent lieu qu'à une dépense annuelle fort minime.</p>
+       <p xml:id="para_10_200_91">La femme soigne ses enfants avec la plus grande sollicitude ; elle veille à ce qu'ils ne souffrent ni du froid ni de l'humidité; elle leur fait prendre fréquemment des bains, surtout aux plus jeunes.</p>
+       <p xml:id="para_10_200_92">Les soins médicaux sont donnés dans la commune par deux docteurs-médecins et par un officier de santé.</p>
+       <p xml:id="para_10_200_93">Il n'y existe pas de société d'assistance mutuelle pour les cas de maladie, mais on songe à en établir une sous le patronage des sociétés de Saint-Vincent de Paul.</p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
-        § 5. — RANG DE LA FAMILLE.
-       </head>
-       <p xml:id="para_10_201_95">
-        <pb facs="#facs_204" n="201" source="lesouvriersdesde04sociuoft_0207.xml"/>
-        Éienne M** appartient à la catégorie des ouvriers-propriétaires : il possède une maison, un jardin et un champ. Cette possession exerce sur toute la famille une influence morale très-salutaire. Son principal mobile consiste en effet à augmenter, à arrondir cette propriéé. A l'époque de leur mariage, les époux ne possédaient qu'un champ de vigne échu en héritage à l'ouvrier. Ils tenaient en location la maison qu'ils occupaient et trouvaient fort onéreux le loyer, d'ailleurs modique, qu'ils avaient à payer : aussi leur premier effort fut-il de réunir assez d'argent pour acheter leur demeure. Il n'y sont parvenus qu'à force de travail et d'économie, grâce surtout a l'acivité, à l'ordre et à la persévérance de la femme, qui, malgré le nombre croissant de ses enfants, trouvait encore le moyen d'éle¬ver des bestiau et d'augmenter ainsi le bien-être et les ressources de la famille.
-       </p>
-       <p xml:id="para_10_201_96">
-        En dehos de l'exploitation de son bien, l'ouvrier travaille tantôt à la tâche, tantôt à la journée. Il n'est pas très-habile dans son état.. Cependant il est, ainsi que ses deux fils aînés, assez recherché par les propriétaires de la commune, parce qu'il travaille conscien¬cieusement et avec assiduité.
-       </p>
-       <p xml:id="para_10_201_97">
-        La famille, par sa probité et son avoir, s'est attiré l'estime et la considération des habitants de S***, Elle parait du reste avoir atteint le plus haut degré auquel elle puisse parvenir ; sa propriété s'augmentera probablement encore, mais les époux arriveront à la vieillesse sans s'élever au-dessus de leur condition actuelle, faute d'instruction e de capacité.
-       </p>
-       <p xml:id="para_10_201_98">
-        ls n'ont d'ailleurs aucun désir d'en sortir ; leur seule ambition est d'établir convenablement chacun de leurs enfants. Leur unique espérance est de penser que ceux-ci prendront soin de leurs vieux jours quand, ne pouvant plus travailler, ils auront donné à chacun d'eux une part de leur propriété.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
+       <p xml:id="para_10_201_95"><pb facs="#facs_204" n="201" source="lesouvriersdesde04sociuoft_0207.xml"/> Éienne M** appartient à la catégorie des ouvriers-propriétaires : il possède une maison, un jardin et un champ. Cette possession exerce sur toute la famille une influence morale très-salutaire. Son principal mobile consiste en effet à augmenter, à arrondir cette propriéé. A l'époque de leur mariage, les époux ne possédaient qu'un champ de vigne échu en héritage à l'ouvrier. Ils tenaient en location la maison qu'ils occupaient et trouvaient fort onéreux le loyer, d'ailleurs modique, qu'ils avaient à payer : aussi leur premier effort fut-il de réunir assez d'argent pour acheter leur demeure. Il n'y sont parvenus qu'à force de travail et d'économie, grâce surtout a l'acivité, à l'ordre et à la persévérance de la femme, qui, malgré le nombre croissant de ses enfants, trouvait encore le moyen d'éle¬ver des bestiau et d'augmenter ainsi le bien-être et les ressources de la famille.</p>
+       <p xml:id="para_10_201_96">En dehos de l'exploitation de son bien, l'ouvrier travaille tantôt à la tâche, tantôt à la journée. Il n'est pas très-habile dans son état.. Cependant il est, ainsi que ses deux fils aînés, assez recherché par les propriétaires de la commune, parce qu'il travaille conscien¬cieusement et avec assiduité.</p>
+       <p xml:id="para_10_201_97">La famille, par sa probité et son avoir, s'est attiré l'estime et la considération des habitants de S***, Elle parait du reste avoir atteint le plus haut degré auquel elle puisse parvenir ; sa propriété s'augmentera probablement encore, mais les époux arriveront à la vieillesse sans s'élever au-dessus de leur condition actuelle, faute d'instruction e de capacité.</p>
+       <p xml:id="para_10_201_98">ls n'ont d'ailleurs aucun désir d'en sortir ; leur seule ambition est d'établir convenablement chacun de leurs enfants. Leur unique espérance est de penser que ceux-ci prendront soin de leurs vieux jours quand, ne pouvant plus travailler, ils auront donné à chacun d'eux une part de leur propriété.</p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
-       II. Moyens d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_02">II. Moyens d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
-        § 6. — PROPRIÉTÉS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
        <div subtype="proprietes_texte_1" type="proprietes">
-        <p xml:id="para_10_201_100">
-         (Mobilier et vêtements non compris).
-        </p>
+        <p xml:id="para_10_201_100">(Mobilier et vêtements non compris).</p>
        </div>
        <div subtype="immeubles" type="proprietes">
-        <p xml:id="para_10_201_101">
-         IMMEUBLES acquis partie par succession, partie au moyen des épargnes annuelles............ 3,550ᶠ00
-        </p>
-        <p xml:id="para_10_202_102">
-         <pb facs="#facs_205" n="202" source="lesouvriersdesde04sociuoft_0208.xml"/>
-         1° Habitation. — Deux maisons comprenant chacune un rez-de-chaussée et un grenier : 2,1I30 fr.
-        </p>
-        <p xml:id="para_10_202_103">
-         2° Bâtiments ruraux. — Étable, 60ᶠ00; — porcherie et poulailler, 30ᶠ00. — Total, 90ᶠo0.
-        </p>
-        <p xml:id="para_10_202_104">
-         3° lmmeubles ruru. — Champ de vigne (0 2s) et arbres épars, 10s0ᶠ00; jardin-potager (0e 07), 2s0ᶠ00. — Total, 1,330ᶠ00.
-        </p>
+        <p xml:id="para_10_201_101">IMMEUBLES acquis partie par succession, partie au moyen des épargnes annuelles............ 3,550ᶠ00</p>
+        <p xml:id="para_10_202_102"><pb facs="#facs_205" n="202" source="lesouvriersdesde04sociuoft_0208.xml"/> 1° Habitation. — Deux maisons comprenant chacune un rez-de-chaussée et un grenier : 2,1I30 fr.</p>
+        <p xml:id="para_10_202_103">2° Bâtiments ruraux. — Étable, 60ᶠ00; — porcherie et poulailler, 30ᶠ00. — Total, 90ᶠo0.</p>
+        <p xml:id="para_10_202_104">3° lmmeubles ruru. — Champ de vigne (0 2s) et arbres épars, 10s0ᶠ00; jardin-potager (0e 07), 2s0ᶠ00. — Total, 1,330ᶠ00.</p>
        </div>
        <div subtype="argent" type="proprietes">
-        <p xml:id="para_10_202_106">
-         ARGENT............ 50ᶠ 00
-        </p>
-        <p xml:id="para_10_202_107">
-         Somme hahituellement gardée au logis pour les besoins éventuels : s0ᶠ00.
-        </p>
+        <p xml:id="para_10_202_106">ARGENT............ 50ᶠ 00</p>
+        <p xml:id="para_10_202_107">Somme hahituellement gardée au logis pour les besoins éventuels : s0ᶠ00.</p>
        </div>
        <div subtype="animaux" type="proprietes">
-        <p xml:id="para_10_202_108">
-         ANIMAUX DOMESTIQUES entretenus toute l'année..... 447ᶠ00
-        </p>
-        <p xml:id="para_10_202_109">
-         2 vaches, 400ᶠ00; — 2 moutons, 35ᶠ00; — 2 lapins, 3ᶠ00; — 6 poules, 9ᶠ00 ; — Total, 47ᶠ00.
-        </p>
-        <p xml:id="para_10_202_110">
-         ANIMAUX DOMESTIQUES entretenus seulement une partie de l'année............ 80ᶠ 00
-        </p>
-        <p xml:id="para_10_202_111">
-         2 porcs : valeur calculée pour l' année entière, 80ᶠ00.
-        </p>
+        <p xml:id="para_10_202_108">ANIMAUX DOMESTIQUES entretenus toute l'année..... 447ᶠ00</p>
+        <p xml:id="para_10_202_109">2 vaches, 400ᶠ00; — 2 moutons, 35ᶠ00; — 2 lapins, 3ᶠ00; — 6 poules, 9ᶠ00 ; — Total, 47ᶠ00.</p>
+        <p xml:id="para_10_202_110">ANIMAUX DOMESTIQUES entretenus seulement une partie de l'année............ 80ᶠ 00</p>
+        <p xml:id="para_10_202_111">2 porcs : valeur calculée pour l' année entière, 80ᶠ00.</p>
        </div>
        <div subtype="materiel" type="proprietes">
-        <p xml:id="para_10_202_112">
-         MATÉRIEL SPÉCIAL des travaux et industries............ 272ᶠ65
-        </p>
-        <p xml:id="para_10_202_113">
-         1° Pour l'exploitation du champn, la moisson et le battae des grains. — 7 faucilles pour couper le blé, 10ᶠ50 ; — 2 faux, avec enclume et nmarteau, 10ᶠ00; — 1 pierre a aiguiser, 0ᶠ7 ; — 2 leaux à bature, 3ᶠ00 ; — 2 rateaux de bois pour la fenaison, 3ᶠ00; — 2 fourches de bois pour le même oljet, 1ᶠ50 ; — 1 crible, 2ᶠ50; — 1 houe à main, 2ᶠ00 ; — 2 sacs de toile pour mettre lcs pommes de terre, 2ᶠ00. — Total, 3Sᶠ25.
-        </p>
-        <p xml:id="para_10_202_115">
-         2° Pour l'erploilaltion des animaux domestiques. — 2 fomrches de fer pour l'étable, 3ᶠ50 ; — 1 brouette pour le fumier, 5ᶠ00 ; — 2 échelles pour l'arrangement des four¬rages, 5ᶠ00; — 1 hotteau pour rapporter l'herbe, 1ᶠ0; — 1 tréyied de hois et 2 seaux pour traire les vaches, 4ᶠ50; — 1 tamis à cercle de bois et fond de crin pour le lait, 1ᶠ00; — 1 aratte de bois, 3ᶠ00 ; — 2 gandes jarres pour le lait, 3ᶠ50; — 2 moules de bois ponr le fromage, 1ᶠ00 ; — auges, vases et ustensiles pour les cochons, 5ᶠ00 ; — usten siles pour les lapins, 2ᶠ00. — Total, 3ᶠ00.
-        </p>
-        <p xml:id="para_10_202_117">
-         3° Pour l'exploitation du jardin-potaaer. — 1 êche de fer, 3ᶠ00; — 1 binette à double dent, 1ᶠ50 ; — 1 rateau, ᶠs0; — 1 arrosoir, 2ᶠ00. — Tota, Sᶠ00.
-        </p>
-        <p xml:id="para_10_202_118">
-         4° Pour l'exploitation de la cipne. — 3 pioches a double dent, 18ᶠ00; — 1 pioche a une seule dent, 5ᶠ00; — 4 serpes, 4ᶠ00. — Total, 27ᶠ00.
-        </p>
-        <p xml:id="para_10_202_119">
-         5° Pour la faoricaton du vin. — 1 grande cuve, 40ᶠ00 ; — 6 tonneaux de diverses graundeurs, 30ᶠ00 ; — 3 hottes de bois pour la vendange, 15ᶠ00; — 3 panies de ven¬dange, 0ᶠ60 ; — 6 serpettes, 1ᶠ80; — 3 batons (eraloirs) pour écraser les grappes, 0ᶠ60. — Total, 88ᶠ00.
-        </p>
-        <p xml:id="para_10_202_121">
-         6° Pour la fabrication du pm. — 1 maie de chéne, 25ᶠ00; — 1 outil de fer pour éparpiller la braise, 2ᶠ00 ; — 2 pelles à enlourner, 1ᶠ0. — Tota, 28ᶠ00.
-        </p>
-        <p xml:id="para_10_202_122">
-         7° Pour la récolte de l'herbe et du bois. — 1 croissant avec un long manche de bois, 8ᶠ00; — 4 serpes, 4ᶠ00; — 1 scie à bas, 5ᶠ00; —  hottes, 3ᶠ00; — 1 gand panier, 1ᶠ50. — Total, 21ᶠ0.
-         <pb facs="#facs_206" n="203" source="lesouvriersdesde04sociuoft_0209.xml"/>
-         gP Pouᵉ le blanchissape du linge e des vêtements. — 1 cuvier pour couler la les¬sive, 15ᶠ00; — 1 trépiel, 3ᶠ00; — 1 petit baquet, 0ᶠ75; — 1 fer à repasser, 1ᶠ2S ; — battoirs (roupols), 0ᶠ40 ; —  garde-enoux tauaée), 2ᶠ00; — 1 hotte (hotteriaou), 2ᶠS0; — 1 chaudière de fonte, 5ᶠ00. — Total,2ᶠ90.
-        </p>
+        <p xml:id="para_10_202_112">MATÉRIEL SPÉCIAL des travaux et industries............ 272ᶠ65</p>
+        <p xml:id="para_10_202_113">1° Pour l'exploitation du champn, la moisson et le battae des grains. — 7 faucilles pour couper le blé, 10ᶠ50 ; — 2 faux, avec enclume et nmarteau, 10ᶠ00; — 1 pierre a aiguiser, 0ᶠ7 ; — 2 leaux à bature, 3ᶠ00 ; — 2 rateaux de bois pour la fenaison, 3ᶠ00; — 2 fourches de bois pour le même oljet, 1ᶠ50 ; — 1 crible, 2ᶠ50; — 1 houe à main, 2ᶠ00 ; — 2 sacs de toile pour mettre lcs pommes de terre, 2ᶠ00. — Total, 3Sᶠ25.</p>
+        <p xml:id="para_10_202_115">2° Pour l'erploilaltion des animaux domestiques. — 2 fomrches de fer pour l'étable, 3ᶠ50 ; — 1 brouette pour le fumier, 5ᶠ00 ; — 2 échelles pour l'arrangement des four¬rages, 5ᶠ00; — 1 hotteau pour rapporter l'herbe, 1ᶠ0; — 1 tréyied de hois et 2 seaux pour traire les vaches, 4ᶠ50; — 1 tamis à cercle de bois et fond de crin pour le lait, 1ᶠ00; — 1 aratte de bois, 3ᶠ00 ; — 2 gandes jarres pour le lait, 3ᶠ50; — 2 moules de bois ponr le fromage, 1ᶠ00 ; — auges, vases et ustensiles pour les cochons, 5ᶠ00 ; — usten siles pour les lapins, 2ᶠ00. — Total, 3ᶠ00.</p>
+        <p xml:id="para_10_202_117">3° Pour l'exploitation du jardin-potaaer. — 1 êche de fer, 3ᶠ00; — 1 binette à double dent, 1ᶠ50 ; — 1 rateau, ᶠs0; — 1 arrosoir, 2ᶠ00. — Tota, Sᶠ00.</p>
+        <p xml:id="para_10_202_118">4° Pour l'exploitation de la cipne. — 3 pioches a double dent, 18ᶠ00; — 1 pioche a une seule dent, 5ᶠ00; — 4 serpes, 4ᶠ00. — Total, 27ᶠ00.</p>
+        <p xml:id="para_10_202_119">5° Pour la faoricaton du vin. — 1 grande cuve, 40ᶠ00 ; — 6 tonneaux de diverses graundeurs, 30ᶠ00 ; — 3 hottes de bois pour la vendange, 15ᶠ00; — 3 panies de ven¬dange, 0ᶠ60 ; — 6 serpettes, 1ᶠ80; — 3 batons (eraloirs) pour écraser les grappes, 0ᶠ60. — Total, 88ᶠ00.</p>
+        <p xml:id="para_10_202_121">6° Pour la fabrication du pm. — 1 maie de chéne, 25ᶠ00; — 1 outil de fer pour éparpiller la braise, 2ᶠ00 ; — 2 pelles à enlourner, 1ᶠ0. — Tota, 28ᶠ00.</p>
+        <p xml:id="para_10_202_122">7° Pour la récolte de l'herbe et du bois. — 1 croissant avec un long manche de bois, 8ᶠ00; — 4 serpes, 4ᶠ00; — 1 scie à bas, 5ᶠ00; —  hottes, 3ᶠ00; — 1 gand panier, 1ᶠ50. — Total, 21ᶠ0.<pb facs="#facs_206" n="203" source="lesouvriersdesde04sociuoft_0209.xml"/>gP Pouᵉ le blanchissape du linge e des vêtements. — 1 cuvier pour couler la les¬sive, 15ᶠ00; — 1 trépiel, 3ᶠ00; — 1 petit baquet, 0ᶠ75; — 1 fer à repasser, 1ᶠ2S ; — battoirs (roupols), 0ᶠ40 ; —  garde-enoux tauaée), 2ᶠ00; — 1 hotte (hotteriaou), 2ᶠS0; — 1 chaudière de fonte, 5ᶠ00. — Total,2ᶠ90.</p>
        </div>
        <div subtype="proprietes_total" type="proprietes">
-        <p xml:id="para_10_203_124">
-         VALEUR TOTALE des propriétés............ 4,399ᶠ65
-        </p>
+        <p xml:id="para_10_203_124">VALEUR TOTALE des propriétés............ 4,399ᶠ65</p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
-        § 7. — SUBVENTIONS.
-       </head>
-       <p xml:id="para_10_203_126">
-        La principale subvention de la famille consiste dans le bois mort et les racines qu'elle ramasse dans les bois du grand propriétaire de la commune. Ce droit, qui est d'une grande ressource pour les familles nécessiteuses, a été concédé de temps immémorial aux habitants par les seigneurs
-        <ref target="#part_03_01_19" type="renvoi_int_mono">
-         (C)
-        </ref>
-        . On peut aller ramasser le bois mort en tout temps ;: quant aux racines ou souches des arbres qui ont été sciés rez-terre, on n'a que deux jours chaque année, au com¬mencement de l'hiver, pour aller les arracher ; il faut les rapporter a dos d'homme ou de mulet, toute voiture étant interdite pour ce transport. Les paysans ont en outre le droit de récolter des herbes et de la litière dans les mêmes bois.
-       </p>
-       <p xml:id="para_10_203_127">
-        Jusqu'à ces dernières années, les paysans avaient la liberté de faire paitre leurs bestiaux dans les forêts seigneuriales. Cette jouis¬sance avait été anciennement accordée par les seigneurs sous cer¬taines redevances déterminées ; mais, usant de la faculté que la loi accorde en cette circonstance, les propriétaires de ces bois ont racheté dernièrement à la commune ce droit de pacage, moyen¬nant une somme d'argent et d'autres concessions
-        <ref target="#part_03_01_19" type="renvoi_int_mono">
-         (C)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_203_128">
-        Ce rachat n'a pas été préjudiciable aux habitants de S***, qui du reste avaient cessé pour la plupart de faire usage de ce droit.
-       </p>
-       <p xml:id="para_10_203_129">
-        Au second rang des subventions, il faut placer l'herbe broutée par les animaux domestiques le long des chemins communaux, ainsi que les branches et feuilles que l'ouvrier élague en taillant la vigne et qui sont sa propriété.
-       </p>
-       <p xml:id="para_10_203_130">
-        La famille reçoit enfin de quelques patrons aisés un assez grand nombre de cadeaux en nature, consistant principalement en vieux vêtements que l'on arrange pour les jeunes enfants.
-       </p>
-       <p xml:id="para_10_203_131">
-        La famille n'a aucun droit aux secours donnés par la commune, car elle n'est inscrite ni sur la liste des indigents, ni sur celle du bureau de bienfaisance. Ces secours sont distribués par les Sœurs de la Charité et de l'Instruction chrétienne de la Congrégation de Nevers, au moyen d'une fondation charitable de la famille des an¬ciens seigneurs du pays, qui fait à la commune une rente annuelle de 1,200ᶠ à cette intention. Ces sœurs, qui vont visiter les é
-        <pb facs="#facs_207" n="204" source="lesouvriersdesde04sociuoft_0210.xml"/>
-        cessiteux et les malades, principalement dans l'hiver, leur distri¬buent, selon leurs besoins, du bois de chauffage, du pain, de la viande, des ustensiles de ménage, des vêtements et des médica¬ments. Les plus malades sont envoyés à l'hôpital d'Auxerre, où la commune s'est assuré la disposition de 4 lits moyennant une rente annuelle de 96ᶠ00.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
+       <p xml:id="para_10_203_126">La principale subvention de la famille consiste dans le bois mort et les racines qu'elle ramasse dans les bois du grand propriétaire de la commune. Ce droit, qui est d'une grande ressource pour les familles nécessiteuses, a été concédé de temps immémorial aux habitants par les seigneurs (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>). On peut aller ramasser le bois mort en tout temps ;: quant aux racines ou souches des arbres qui ont été sciés rez-terre, on n'a que deux jours chaque année, au com¬mencement de l'hiver, pour aller les arracher ; il faut les rapporter a dos d'homme ou de mulet, toute voiture étant interdite pour ce transport. Les paysans ont en outre le droit de récolter des herbes et de la litière dans les mêmes bois.</p>
+       <p xml:id="para_10_203_127">Jusqu'à ces dernières années, les paysans avaient la liberté de faire paitre leurs bestiaux dans les forêts seigneuriales. Cette jouis¬sance avait été anciennement accordée par les seigneurs sous cer¬taines redevances déterminées ; mais, usant de la faculté que la loi accorde en cette circonstance, les propriétaires de ces bois ont racheté dernièrement à la commune ce droit de pacage, moyen¬nant une somme d'argent et d'autres concessions (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>).</p>
+       <p xml:id="para_10_203_128">Ce rachat n'a pas été préjudiciable aux habitants de S***, qui du reste avaient cessé pour la plupart de faire usage de ce droit.</p>
+       <p xml:id="para_10_203_129">Au second rang des subventions, il faut placer l'herbe broutée par les animaux domestiques le long des chemins communaux, ainsi que les branches et feuilles que l'ouvrier élague en taillant la vigne et qui sont sa propriété.</p>
+       <p xml:id="para_10_203_130">La famille reçoit enfin de quelques patrons aisés un assez grand nombre de cadeaux en nature, consistant principalement en vieux vêtements que l'on arrange pour les jeunes enfants.</p>
+       <p xml:id="para_10_203_131">La famille n'a aucun droit aux secours donnés par la commune, car elle n'est inscrite ni sur la liste des indigents, ni sur celle du bureau de bienfaisance. Ces secours sont distribués par les Sœurs de la Charité et de l'Instruction chrétienne de la Congrégation de Nevers, au moyen d'une fondation charitable de la famille des an¬ciens seigneurs du pays, qui fait à la commune une rente annuelle de 1,200ᶠ à cette intention. Ces sœurs, qui vont visiter les é<pb facs="#facs_207" n="204" source="lesouvriersdesde04sociuoft_0210.xml"/>cessiteux et les malades, principalement dans l'hiver, leur distri¬buent, selon leurs besoins, du bois de chauffage, du pain, de la viande, des ustensiles de ménage, des vêtements et des médica¬ments. Les plus malades sont envoyés à l'hôpital d'Auxerre, où la commune s'est assuré la disposition de 4 lits moyennant une rente annuelle de 96ᶠ00.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
-        § 8. — TRAVAUX ET INDUSTRIES.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
        <div subtype="ouvrier" type="travaux">
-        <p xml:id="para_10_204_134">
-         TRAVAUX DE L'OUVRIER. — La culture de la vigne est le tra¬vail principal de l'ouvrier, qui l'exécute habiuellement à la tâche pour le compte de divers propriétaires de la commune. Ce tra¬vail consiste à donner quatre facons de labour à la vigne pen¬dant le cours de l'année et à la tailler aux époques d'usage. Les labours se font à la main avec une pioche à double dent. Ces travaux sont ordinairement entrepris pour une année entière, et réribues à raison de 80ᶠ l'arpent environ pour les quatre façons et la taille.
-        </p>
-        <p xml:id="para_10_204_135">
-         Les travaux entrepris dans les intervalles que laisse la culture de la vigne, comprennent la fauchaison des foins, la récolte des céréales, l'entretien de jardins potagers et de jardins à fleurs pour le compte de divers particuliers. En hiver, quand le temps ne permet plus de travailler dans les champs, l'ouvrier va battre en grange ou bien il se livre à la fabrication des cercles de futailles pour le compte d'un tonnelier qui lui fournit tous les matériaux et le rétribue à la pièce.
-        </p>
-        <p xml:id="para_10_204_136">
-         Les travaux secondaires de l'ouvrier sont : la culture de sa pièce de vigne, la fabricaion du vin avec les raisins qu'elle produit, la culture du jardin poager attenant à la maison, l'exploitation d'un champ affermé et la récolte du bois mort.
-        </p>
+        <p xml:id="para_10_204_134">TRAVAUX DE L'OUVRIER. — La culture de la vigne est le tra¬vail principal de l'ouvrier, qui l'exécute habiuellement à la tâche pour le compte de divers propriétaires de la commune. Ce tra¬vail consiste à donner quatre facons de labour à la vigne pen¬dant le cours de l'année et à la tailler aux époques d'usage. Les labours se font à la main avec une pioche à double dent. Ces travaux sont ordinairement entrepris pour une année entière, et réribues à raison de 80ᶠ l'arpent environ pour les quatre façons et la taille.</p>
+        <p xml:id="para_10_204_135">Les travaux entrepris dans les intervalles que laisse la culture de la vigne, comprennent la fauchaison des foins, la récolte des céréales, l'entretien de jardins potagers et de jardins à fleurs pour le compte de divers particuliers. En hiver, quand le temps ne permet plus de travailler dans les champs, l'ouvrier va battre en grange ou bien il se livre à la fabrication des cercles de futailles pour le compte d'un tonnelier qui lui fournit tous les matériaux et le rétribue à la pièce.</p>
+        <p xml:id="para_10_204_136">Les travaux secondaires de l'ouvrier sont : la culture de sa pièce de vigne, la fabricaion du vin avec les raisins qu'elle produit, la culture du jardin poager attenant à la maison, l'exploitation d'un champ affermé et la récolte du bois mort.</p>
        </div>
        <div subtype="femme" type="travaux">
-        <p xml:id="para_10_204_137">
-         TRAVAUX DE LA FEMME. — La femme consacre aux travaux du ménage, à la préparation des aliments, aux soins à donner à ses enfants jeunes, une grande partie de son temps.
-        </p>
-        <p xml:id="para_10_204_138">
-         C'est elle qui s'occupe presque exclusivement, avec le concours de sa petite famille, de l'exploitation des animaux domestiques. Elle va ramasser dans les bois une partie de l'herbe pour la nour¬riture des bestiaux, ainsi que du bois mort pour les besoins domes¬tiques. Elle fournit aussi quelques journées pour les travaux du jardin potager et du champ afermé.
-        </p>
-        <p xml:id="para_10_204_139">
-         Elle prépare et fait cuire aussi elle-même le pain de la famille ;
-         <pb facs="#facs_208" n="205" source="lesouvriersdesde04sociuoft_0211.xml"/>
-         elle fait la lessive plusieurs fois par an et va laver le linge à la rivière, distante de près de deux kilomètres de la maison.
-        </p>
-        <p xml:id="para_10_205_141">
-         Elle emploie enfin une partie des soirées d'hiver au filage du chanvre.
-        </p>
+        <p xml:id="para_10_204_137">TRAVAUX DE LA FEMME. — La femme consacre aux travaux du ménage, à la préparation des aliments, aux soins à donner à ses enfants jeunes, une grande partie de son temps.</p>
+        <p xml:id="para_10_204_138">C'est elle qui s'occupe presque exclusivement, avec le concours de sa petite famille, de l'exploitation des animaux domestiques. Elle va ramasser dans les bois une partie de l'herbe pour la nour¬riture des bestiaux, ainsi que du bois mort pour les besoins domes¬tiques. Elle fournit aussi quelques journées pour les travaux du jardin potager et du champ afermé.</p>
+        <p xml:id="para_10_204_139">Elle prépare et fait cuire aussi elle-même le pain de la famille ;<pb facs="#facs_208" n="205" source="lesouvriersdesde04sociuoft_0211.xml"/>elle fait la lessive plusieurs fois par an et va laver le linge à la rivière, distante de près de deux kilomètres de la maison.</p>
+        <p xml:id="para_10_205_141">Elle emploie enfin une partie des soirées d'hiver au filage du chanvre.</p>
        </div>
        <div subtype="deux_fils_aines" type="travaux">
-        <p xml:id="para_10_205_142">
-         TRAVAUX DES DEUX FILS AINÉS. — Les deux fils aînés travaillent avec leur père à la culture de la vigne. Ils fauchent les foins et les céréales au moment de la récolte, et font la vendange pour le compte de divers propriétaires. En automne et en hiver ils battent en grange. Ils contribuent enfin à la culture du champ affermé, du jardin potager, de la pièce de vigne, et à la fabrication du vin.
-        </p>
-        <p xml:id="para_10_205_143">
-         Le second fils fournit en outre les trois journées de prestation en nature que doivent les habitants de la commune pour l'entretien des chemins vicinaux.
-        </p>
+        <p xml:id="para_10_205_142">TRAVAUX DES DEUX FILS AINÉS. — Les deux fils aînés travaillent avec leur père à la culture de la vigne. Ils fauchent les foins et les céréales au moment de la récolte, et font la vendange pour le compte de divers propriétaires. En automne et en hiver ils battent en grange. Ils contribuent enfin à la culture du champ affermé, du jardin potager, de la pièce de vigne, et à la fabrication du vin.</p>
+        <p xml:id="para_10_205_143">Le second fils fournit en outre les trois journées de prestation en nature que doivent les habitants de la commune pour l'entretien des chemins vicinaux.</p>
        </div>
        <div subtype="fille_ainee" type="travaux">
-        <p xml:id="para_10_205_144">
-         TRAVAUX DE LA FILLE AINÉE. — Le travail principal de la fille aînée est celui qu'elle exécute comme couturière, à la journée, chez des habitants aisés de la commune.
-        </p>
-        <p xml:id="para_10_205_145">
-         Comme travail secondaire, elle confectionne et entretient les vêtements et le linge de la famille. Elle aide sa mère dans les tra¬vaux du ménage et dans ceux de la lessive ; elle repasse le linge fin de la famille.
-        </p>
+        <p xml:id="para_10_205_144">TRAVAUX DE LA FILLE AINÉE. — Le travail principal de la fille aînée est celui qu'elle exécute comme couturière, à la journée, chez des habitants aisés de la commune.</p>
+        <p xml:id="para_10_205_145">Comme travail secondaire, elle confectionne et entretient les vêtements et le linge de la famille. Elle aide sa mère dans les tra¬vaux du ménage et dans ceux de la lessive ; elle repasse le linge fin de la famille.</p>
        </div>
        <div subtype="fille_deuxieme" type="travaux">
-        <p xml:id="para_10_205_146">
-         TRAVAUX DE LA 2e FILLE. — La seconde fille est placée comme domestique chez un habitant du pays et n'entreprend, par consé¬quent, aucun travail pour le compte de ses parents. Mais elle ne leur en donne pas moins régulièrement le montant de ses gages, et continue à être entretenue de linge et de vêtements aux frais de la famille.
-        </p>
+        <p xml:id="para_10_205_146">TRAVAUX DE LA 2e FILLE. — La seconde fille est placée comme domestique chez un habitant du pays et n'entreprend, par consé¬quent, aucun travail pour le compte de ses parents. Mais elle ne leur en donne pas moins régulièrement le montant de ses gages, et continue à être entretenue de linge et de vêtements aux frais de la famille.</p>
        </div>
        <div subtype="enfants" type="travaux">
-        <p xml:id="para_10_205_147">
-         TRAVAUX DES TROIS ENFANTS DE 12, 9 ET 7 ANS. — La 3° et la 4ᵉ fille et le 3ᵉ fils sont occupés, pendant la majeure partie de leur temps, à conduire les bestiaux brouter l'herbe des chemins, quand le temps et la saison le permettent. Ils aident leur mère à ramasser de l'herbe et du bois mort. A l'époque de la vendange ils vont, pendant une quinaaine de jours, travailler pour le compte de divers propriétaires du pays et des communes environnantes.
-        </p>
+        <p xml:id="para_10_205_147">TRAVAUX DES TROIS ENFANTS DE 12, 9 ET 7 ANS. — La 3° et la 4ᵉ fille et le 3ᵉ fils sont occupés, pendant la majeure partie de leur temps, à conduire les bestiaux brouter l'herbe des chemins, quand le temps et la saison le permettent. Ils aident leur mère à ramasser de l'herbe et du bois mort. A l'époque de la vendange ils vont, pendant une quinaaine de jours, travailler pour le compte de divers propriétaires du pays et des communes environnantes.</p>
        </div>
        <div subtype="famille" type="industries">
-        <p xml:id="para_10_205_148">
-         INDUSTRIES ENTREPRISES AU COMPTE DE LA FAMILLE. — La plus importante des industries entreprises par la famille à son propre compte est celle des animaux domestiques. C'est en effet à l'éle¬vage des bestiaux, exclusivement dirigé par la femme, que la
-         <pb facs="#facs_209" n="206" source="lesouvriersdesde04sociuoft_0212.xml"/>
-         famille doit d'avoir pu faire face aux lourdes charges qui lui étaient imposées. Comprenant que les produits d'une vache l'aideraient à élever ses enfants, la femme en acheta une à crédit dès la seconde année de son ménage. L'année suivante elle éleva une génisse, la vendit au bout de quelque temps, et depuis lors elle a toujours continué à entretenir au moins deux vaches. On achète à peu près chaque année deux jeunes agneaux qu'on vend quand ils sont engraissés, et on conserve la laine pour faire des matelas. Vers le mois de février on se procure deux jeunes porcs qu'on engraisse et qu'on abat vers Noèl; on vend une partie de la viande fraiche au charcutier et on sale ce qui reste pour la nourriture de la famille. Un couple de lapins produit annuellement un asse grand nombre de jeunes ; on en vend la plus grande partie et on consomme les autres dans la maison. Quelques poules fournissent des œufs qui sont consommés dans le ménage et quelques poulets qui sont tous vendus.
-        </p>
-        <p xml:id="para_10_206_150">
-         L'exploitation d'un champ pris en location est une autre industrie de la famille ; elle y récolte une partie des céréales et des pommes de terre nécessaires à sa subsistance, ainsi qu'une partie des fourrages pour les bestiaux.
-        </p>
-        <p xml:id="para_10_206_151">
-         La culture du jardin potager procure à la famille une plus grande quantité de légumes qu'elle n'en peut consommer; le sur¬plus est vendu.
-        </p>
-        <p xml:id="para_10_206_152">
-         La pièce de vigne, héritage de l'ouvrier, donne le seul vin qui soit consommé dans la maison. Un assez grand nombre d'arbres fruitiers (pommiers, poiriers et pêchers), s'élèvent parmi les ceps et donnent ordinairement des fruits abondants.
-        </p>
-        <p xml:id="para_10_206_153">
-         On peut enfin considérer comme une industrie les travaux de battage en grange, de moisson et de fauchaison entrepris pour le compte de divers par l'ouvrier et ses fils; ces travaux s'exécutent à la tâche et se payent en nature; cette rétribution consiste en grains et en fourrages qui servent à la nourriture de la famille et de ses bestiaux. Elle reçoit aussi en payement de ces travaux du chanvre qui est filé par la femme et que l'on fait ensuite tisser.
-        </p>
-        <p xml:id="para_10_206_154">
-         Parmi les industries domestiques, il faut encore compter la fabrication du pain, le filage du chanvre et le blanchissage du linge et des vêtements.
-        </p>
-        <p xml:id="para_10_206_155">
-         Comme on le voit par le budget des dépenses, la famille pour¬voit en grande partie a sa nourriture avec les produits des indus¬tries qu'elle entreprend et réalise encore quelques économies.
-        </p>
+        <p xml:id="para_10_205_148">INDUSTRIES ENTREPRISES AU COMPTE DE LA FAMILLE. — La plus importante des industries entreprises par la famille à son propre compte est celle des animaux domestiques. C'est en effet à l'éle¬vage des bestiaux, exclusivement dirigé par la femme, que la<pb facs="#facs_209" n="206" source="lesouvriersdesde04sociuoft_0212.xml"/>famille doit d'avoir pu faire face aux lourdes charges qui lui étaient imposées. Comprenant que les produits d'une vache l'aideraient à élever ses enfants, la femme en acheta une à crédit dès la seconde année de son ménage. L'année suivante elle éleva une génisse, la vendit au bout de quelque temps, et depuis lors elle a toujours continué à entretenir au moins deux vaches. On achète à peu près chaque année deux jeunes agneaux qu'on vend quand ils sont engraissés, et on conserve la laine pour faire des matelas. Vers le mois de février on se procure deux jeunes porcs qu'on engraisse et qu'on abat vers Noèl; on vend une partie de la viande fraiche au charcutier et on sale ce qui reste pour la nourriture de la famille. Un couple de lapins produit annuellement un asse grand nombre de jeunes ; on en vend la plus grande partie et on consomme les autres dans la maison. Quelques poules fournissent des œufs qui sont consommés dans le ménage et quelques poulets qui sont tous vendus.</p>
+        <p xml:id="para_10_206_150">L'exploitation d'un champ pris en location est une autre industrie de la famille ; elle y récolte une partie des céréales et des pommes de terre nécessaires à sa subsistance, ainsi qu'une partie des fourrages pour les bestiaux.</p>
+        <p xml:id="para_10_206_151">La culture du jardin potager procure à la famille une plus grande quantité de légumes qu'elle n'en peut consommer; le sur¬plus est vendu.</p>
+        <p xml:id="para_10_206_152">La pièce de vigne, héritage de l'ouvrier, donne le seul vin qui soit consommé dans la maison. Un assez grand nombre d'arbres fruitiers (pommiers, poiriers et pêchers), s'élèvent parmi les ceps et donnent ordinairement des fruits abondants.</p>
+        <p xml:id="para_10_206_153">On peut enfin considérer comme une industrie les travaux de battage en grange, de moisson et de fauchaison entrepris pour le compte de divers par l'ouvrier et ses fils; ces travaux s'exécutent à la tâche et se payent en nature; cette rétribution consiste en grains et en fourrages qui servent à la nourriture de la famille et de ses bestiaux. Elle reçoit aussi en payement de ces travaux du chanvre qui est filé par la femme et que l'on fait ensuite tisser.</p>
+        <p xml:id="para_10_206_154">Parmi les industries domestiques, il faut encore compter la fabrication du pain, le filage du chanvre et le blanchissage du linge et des vêtements.</p>
+        <p xml:id="para_10_206_155">Comme on le voit par le budget des dépenses, la famille pour¬voit en grande partie a sa nourriture avec les produits des indus¬tries qu'elle entreprend et réalise encore quelques économies.</p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
-       III. Mode d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_03">III. Mode d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
-        § 9. — ALIMENTS ET REPAS.
-       </head>
-       <p xml:id="para_10_207_159">
-        <pb facs="#facs_210" n="207" source="lesouvriersdesde04sociuoft_0213.xml"/>
-        Le régime alimentaire de la famille est soumis aux règles de la plus stricte économie; et il suffit néanmoins à entretenir la santé et les forces de ses divers membres. Il a pour bases principales : les céréales (seigle et froment), les légumes (pommes de terre, choux, etc.), et la viande de porc ; on consomme aussi dans le ménage de la viande de bœu et de lapin, mais en petite proportion.
-       </p>
-       <p xml:id="para_10_207_160">
-        La famille fait, par jour, trois repas en hiver et quatre en été :
-       </p>
-       <p xml:id="para_10_207_161">
-        1ᵉ Le déjeuner ; de 7 à S heures du matin en été comme en hiver : soupe au lait avec pain, ou bien, en été, pommes de terre cuites avec pain et sel ;
-       </p>
-       <p xml:id="para_10_207_162">
-        2ᵉ Le diner, vers midi : soupe au lard ou aux légumes (haricots, choux, pommes de terre), que l'on mange ensuite avec du pain. Quelquefois les légumes sont remplacés par des tartes ou flancs aux légumes. En été, lorsque le père et les fils travaillent loin de la maison, un des jeunes enfants est chargé de leur apporter aux champs leur déjeuner et leur dîner;
-        <pb facs="#facs_211" n="208" source="lesouvriersdesde04sociuoft_0214.xml"/>
-        poireaux, épinards), tantôt du lait caillé ou en bouillie, soit des galettes faites avec de la farine et du fromage blanc en guise de beurre.
-       </p>
-       <p xml:id="para_10_208_164">
-        On consomme une assez grande quantité de salades, surtout en été au repas du soir. Ces salades viennent du jardin et sont assai¬sonnées avec du vinaigre et de l'huile de noix ; quand celle-ci manque, on la remplace par la graisse de lard fondue.
-       </p>
-       <p xml:id="para_10_208_165">
-        La famille (les enfants principalement) fait une grande consom¬mation de fruits de toutes sortes, qu'on mange aux repas de la journée et souvent entre les repas.
-       </p>
-       <p xml:id="para_10_208_166">
-        On est sobre de vin : on n'en boit guère que le soir, et toujours avec de l'eau ; le reste du temps c'est l'eau qui est la boisson ordi¬
-       </p>
-       <p xml:id="para_10_208_167">
-        Quelquefois, le dimanche ou les jours de grande fête, on fait un repas extraordinaire ; il consiste en un lapin fricassé aux pommes de terre, ou en un morceau de viande cuit au four avec des pommes de terre ; la femme y ajoute quelque pâtisserie de sa façon : une tarte aux fruits, à la crème ou aux œufs et au lait.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
+       <p xml:id="para_10_207_159"><pb facs="#facs_210" n="207" source="lesouvriersdesde04sociuoft_0213.xml"/> Le régime alimentaire de la famille est soumis aux règles de la plus stricte économie; et il suffit néanmoins à entretenir la santé et les forces de ses divers membres. Il a pour bases principales : les céréales (seigle et froment), les légumes (pommes de terre, choux, etc.), et la viande de porc ; on consomme aussi dans le ménage de la viande de bœu et de lapin, mais en petite proportion.</p>
+       <p xml:id="para_10_207_160">La famille fait, par jour, trois repas en hiver et quatre en été :</p>
+       <p xml:id="para_10_207_161">1ᵉ Le déjeuner ; de 7 à S heures du matin en été comme en hiver : soupe au lait avec pain, ou bien, en été, pommes de terre cuites avec pain et sel ;</p>
+       <p xml:id="para_10_207_162">2ᵉ Le diner, vers midi : soupe au lard ou aux légumes (haricots, choux, pommes de terre), que l'on mange ensuite avec du pain. Quelquefois les légumes sont remplacés par des tartes ou flancs aux légumes. En été, lorsque le père et les fils travaillent loin de la maison, un des jeunes enfants est chargé de leur apporter aux champs leur déjeuner et leur dîner;<pb facs="#facs_211" n="208" source="lesouvriersdesde04sociuoft_0214.xml"/>poireaux, épinards), tantôt du lait caillé ou en bouillie, soit des galettes faites avec de la farine et du fromage blanc en guise de beurre.</p>
+       <p xml:id="para_10_208_164">On consomme une assez grande quantité de salades, surtout en été au repas du soir. Ces salades viennent du jardin et sont assai¬sonnées avec du vinaigre et de l'huile de noix ; quand celle-ci manque, on la remplace par la graisse de lard fondue.</p>
+       <p xml:id="para_10_208_165">La famille (les enfants principalement) fait une grande consom¬mation de fruits de toutes sortes, qu'on mange aux repas de la journée et souvent entre les repas.</p>
+       <p xml:id="para_10_208_166">On est sobre de vin : on n'en boit guère que le soir, et toujours avec de l'eau ; le reste du temps c'est l'eau qui est la boisson ordi¬</p>
+       <p xml:id="para_10_208_167">Quelquefois, le dimanche ou les jours de grande fête, on fait un repas extraordinaire ; il consiste en un lapin fricassé aux pommes de terre, ou en un morceau de viande cuit au four avec des pommes de terre ; la femme y ajoute quelque pâtisserie de sa façon : une tarte aux fruits, à la crème ou aux œufs et au lait.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
-        § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="para_10_208_169">
-         L'habitation, exposée au midi, comprend deux maisons d'inégale grandeur, situées l'une à côté de l'autre, ayant chacune leur entrée séparée, et occupant la partie nord d'une cour de 150 mètres carrés. Cette cour est au fond d'une impasse longue de 60 mètres, qui conduit à l'une des rues principales du village.
-        </p>
-        <p xml:id="para_10_208_170">
-         Les deux maisos sont construites en maconnerie et couvertes en tuiles du côté du midi, et en chaume du côté du nord. Un bâtiment de terre et de cailloux, de mètres de façade, surmonté d'un gre¬nier couvert en chaume, occupe le côté oriental de la cour, et sert de cellieret de bûcher. lne petite construction du même genre, mais sans grenicer, couverte également en chaume et servant d'étable, s'élève au nord de la cour. A gauche de l'étable, se trouve un toit à porcs en planches, et à droite un puits à margelle de pierre, profond de 0 mètres, et commun à trois autres maisons de l'im¬passe. Dans un coin de la cour, près de l'étable, s'amoncelle un tas de fumier produit par les bestiaux.
-        </p>
-        <p xml:id="para_10_208_171">
-         L'enturée du jardin potager, d'une superficie de 0 07, est au fond de la cour à gauche de l'étable ; il est séparé des jardins voi¬sins par un treillage de bois.
-        </p>
-        <p xml:id="para_10_208_172">
-         La maison principale, occupée par la famille depuis le mariage des époux et achetée par eux à créditpeu de temps après, a570 de
-         <pb facs="#facs_212" n="209" source="lesouvriersdesde04sociuoft_0215.xml"/>
-         facade sur 450 de profondeur, et 2ᵐ 80 de hauteur jusqu'au gre¬nier, placé sous le toit. Elle est divisée, sur la profondeur, en deux pièces ; celle d'entrée est éclairée par une croisée de moyenne grandeur et a une superficie de 13 mètres carrés ; la pièce du fond prend jour sur les champs par une petite lucarne, et couvre une surface de 8 mètres carrés ; elle n'a que 2ᵐ de hauteur, le toit de chaume du côté sud de la maison étant beaucoup plus incliné que le toit de tuiles du côté nord; deux lits y sont placés pour les trois garçons. C'est dans la première pièce que l'on se tient constam¬ment. Les époux y ont leur lit ; on y prend les repas, on y fait la cuisine dans un vaste foyer à manteau de pierre. A côté du foyer se trouve le four de 0 60 d'ouverture et d'un mètre de profon¬deur; ce four fait saillie à l'extérieur de la maison. Une pierre à évier est scellée dans le mur près de la porte.
-        </p>
-        <p xml:id="para_10_209_174">
-         L'autre maison, qui forme l'angle de la cour et de l'impasse, a3 de facade sur 4 de profondeur, et280 de hauteur jusqu'au grenier; elle n'a qu'une seule pièce à feu, éclairée par une croisée donnant sur la cour et par une croisée plus petite donnant sur l'impasse. Cette grande pièce, tenue avec une grande propreté, sert de chambre à coucher aux quatre filles. Cette maison a été achetée récemment au prix de 700ᶠ 00, sur lesquels il reste encore dû une somme de 400ᶠ00; elle est desinée a faire partie de la dot de la fille aînée, si son mari consent à rester près des parents de sa femme.
-        </p>
-        <p xml:id="para_10_209_175">
-         Les greniers, qui s'étendent au-dessus des trois bâtiments, ser¬vent à la conservaion des fourrages.
-        </p>
-        <p xml:id="para_10_209_176">
-         Le sol des pièces est carrelé, les murs sont blanchis à la chaux. Sous la maison principale est creusée une cave peu profonde, à la¬quelle on parvient par un escalier de marches qui s'ouvre dans le cellier.
-        </p>
-        <p xml:id="para_10_209_177">
-         La valeur du mobilier et des vêtements peut être établie ainsi qu'il suit :
-        </p>
+        <p xml:id="para_10_208_169">L'habitation, exposée au midi, comprend deux maisons d'inégale grandeur, situées l'une à côté de l'autre, ayant chacune leur entrée séparée, et occupant la partie nord d'une cour de 150 mètres carrés. Cette cour est au fond d'une impasse longue de 60 mètres, qui conduit à l'une des rues principales du village.</p>
+        <p xml:id="para_10_208_170">Les deux maisos sont construites en maconnerie et couvertes en tuiles du côté du midi, et en chaume du côté du nord. Un bâtiment de terre et de cailloux, de mètres de façade, surmonté d'un gre¬nier couvert en chaume, occupe le côté oriental de la cour, et sert de cellieret de bûcher. lne petite construction du même genre, mais sans grenicer, couverte également en chaume et servant d'étable, s'élève au nord de la cour. A gauche de l'étable, se trouve un toit à porcs en planches, et à droite un puits à margelle de pierre, profond de 0 mètres, et commun à trois autres maisons de l'im¬passe. Dans un coin de la cour, près de l'étable, s'amoncelle un tas de fumier produit par les bestiaux.</p>
+        <p xml:id="para_10_208_171">L'enturée du jardin potager, d'une superficie de 0 07, est au fond de la cour à gauche de l'étable ; il est séparé des jardins voi¬sins par un treillage de bois.</p>
+        <p xml:id="para_10_208_172">La maison principale, occupée par la famille depuis le mariage des époux et achetée par eux à créditpeu de temps après, a570 de<pb facs="#facs_212" n="209" source="lesouvriersdesde04sociuoft_0215.xml"/>facade sur 450 de profondeur, et 2ᵐ 80 de hauteur jusqu'au gre¬nier, placé sous le toit. Elle est divisée, sur la profondeur, en deux pièces ; celle d'entrée est éclairée par une croisée de moyenne grandeur et a une superficie de 13 mètres carrés ; la pièce du fond prend jour sur les champs par une petite lucarne, et couvre une surface de 8 mètres carrés ; elle n'a que 2ᵐ de hauteur, le toit de chaume du côté sud de la maison étant beaucoup plus incliné que le toit de tuiles du côté nord; deux lits y sont placés pour les trois garçons. C'est dans la première pièce que l'on se tient constam¬ment. Les époux y ont leur lit ; on y prend les repas, on y fait la cuisine dans un vaste foyer à manteau de pierre. A côté du foyer se trouve le four de 0 60 d'ouverture et d'un mètre de profon¬deur; ce four fait saillie à l'extérieur de la maison. Une pierre à évier est scellée dans le mur près de la porte.</p>
+        <p xml:id="para_10_209_174">L'autre maison, qui forme l'angle de la cour et de l'impasse, a3 de facade sur 4 de profondeur, et280 de hauteur jusqu'au grenier; elle n'a qu'une seule pièce à feu, éclairée par une croisée donnant sur la cour et par une croisée plus petite donnant sur l'impasse. Cette grande pièce, tenue avec une grande propreté, sert de chambre à coucher aux quatre filles. Cette maison a été achetée récemment au prix de 700ᶠ 00, sur lesquels il reste encore dû une somme de 400ᶠ00; elle est desinée a faire partie de la dot de la fille aînée, si son mari consent à rester près des parents de sa femme.</p>
+        <p xml:id="para_10_209_175">Les greniers, qui s'étendent au-dessus des trois bâtiments, ser¬vent à la conservaion des fourrages.</p>
+        <p xml:id="para_10_209_176">Le sol des pièces est carrelé, les murs sont blanchis à la chaux. Sous la maison principale est creusée une cave peu profonde, à la¬quelle on parvient par un escalier de marches qui s'ouvre dans le cellier.</p>
+        <p xml:id="para_10_209_177">La valeur du mobilier et des vêtements peut être établie ainsi qu'il suit :</p>
        </div>
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="meubles">
-         MEUBLES : de formes anciennes, bien entretenus et acquis pour la majeure partie par héritage....................... 09ᶠ25
-        </p>
-        <p xml:id="para_10_209_179">
-         1° Lits. — Lit des parents : 1 bois de lit de noyer, 0ᶠ00 ; — 1 mafelas de laine, 30ᶠ00; — 1 paillasse, 2ᶠ50; — 1 couverture de laiue, 10ᶠ00; — 1 traversin rempli de paille. 2ᶠ50; — 2 oreilles remplis de plume d'oie, 15ᶠ00. — Tota, 90ᶠ00.  Lit de la fille alnée : 1 lit de bois peint, 1ᶠ00; — 1 maelas de laine, 2ᶠ00 ; — 1 pillsse, 9ᶠ50; — 1 traversin rempli de blles d'avoine, 2ᶠ50; — 1 couvertue de laine, 8ᶠ00. — Tot, 53ᶠ00.  t du fs alné : 1 litde l ois peiut, 10ᶠ00 ; — 1 paillasse et 1 taver¬sin rempls de paille, 5ᶠ00 ; 1 vieille couverture de laiue, 6ᶠ00. — Total, 2ᶠ00.  Lits de 4 autres enfants :  lits de sangte, 20ᶠ00; — 2 paillasses et 2 traversius remplis de paille, 10ᶠ00 ; — 2 couvre-pieds faits avec de vieilles robes, 4ᶠ00 ; — 2 couvertures de coton, 8ᶠ00. — Total, 42ᶠ00.  Lit de la plus jeune fille : 1 herceau d'osier sur un pied
-         <pb facs="#facs_213" n="210" source="lesouvriersdesde04sociuoft_0216.xml"/>
-         de bois, 2ᶠ0; — 1 couverture faite avec de vieilles robes, 1ᶠ00; — 1 petit oreiller et 1 matelas de balles d'avoine, 1ᶠ50. — Total, ᶠ00.  Total pour les lits : 11ᶠ00.
-        </p>
-        <p xml:id="para_10_210_182">
-         2° Mobilier de la pièce princinale. — 1 armoire a linge de noyer et 1 de chene avec garuiture de cuivre, 90ᶠ00 ; — 1 horloge-haht de bois de clèue, 60ᶠ00 ; — 1 naie de bois de chene (émoire) ; — 1 table de hois blaunc, 8ᶠ00 ; — 6 chaises de bois blanc, 192ᶠ00 ; — escabeaux de bois, 2ᶠ50; — 1 chariot de bois à roulettes, au milieu duquel on met le petit eufaut pour lui appreudre à marcher seul, 1ᶠ25; — 1 miroir, 2ᶠ50; — 1 cage d'oiseau, 1ᶠ50. — Total, 177ᶠ7S.
-        </p>
-        <p xml:id="para_10_210_184">
-         3° Mobilier de la chambre de la fille aînée. — 1 table de bois de sapin, 6ᶠ00; — 2 chaises de paille, 4ᶠ00; — 1 miroir, 3ᶠ00 ;— 2 petits rideaux de mousseline blanche, 2ᶠ00. — Total, 17ᶠ00.
-        </p>
-        <p xml:id="para_10_210_186">
-         4° Objets relatifs au culte domestique. — 2 tableaux de première communion, 1ᶠ00; — 1 cuciix de bois, 1ᶠ00; — 1 statue de platre de la sainte Mierge, 1ᶠ0. — Total, 3ᶠ50.
-        </p>
+        <p xml:id="meubles">MEUBLES : de formes anciennes, bien entretenus et acquis pour la majeure partie par héritage....................... 09ᶠ25</p>
+        <p xml:id="para_10_209_179">1° Lits. — Lit des parents : 1 bois de lit de noyer, 0ᶠ00 ; — 1 mafelas de laine, 30ᶠ00; — 1 paillasse, 2ᶠ50; — 1 couverture de laiue, 10ᶠ00; — 1 traversin rempli de paille. 2ᶠ50; — 2 oreilles remplis de plume d'oie, 15ᶠ00. — Tota, 90ᶠ00.  Lit de la fille alnée : 1 lit de bois peint, 1ᶠ00; — 1 maelas de laine, 2ᶠ00 ; — 1 pillsse, 9ᶠ50; — 1 traversin rempli de blles d'avoine, 2ᶠ50; — 1 couvertue de laine, 8ᶠ00. — Tot, 53ᶠ00.  t du fs alné : 1 litde l ois peiut, 10ᶠ00 ; — 1 paillasse et 1 taver¬sin rempls de paille, 5ᶠ00 ; 1 vieille couverture de laiue, 6ᶠ00. — Total, 2ᶠ00.  Lits de 4 autres enfants :  lits de sangte, 20ᶠ00; — 2 paillasses et 2 traversius remplis de paille, 10ᶠ00 ; — 2 couvre-pieds faits avec de vieilles robes, 4ᶠ00 ; — 2 couvertures de coton, 8ᶠ00. — Total, 42ᶠ00.  Lit de la plus jeune fille : 1 herceau d'osier sur un pied<pb facs="#facs_213" n="210" source="lesouvriersdesde04sociuoft_0216.xml"/>de bois, 2ᶠ0; — 1 couverture faite avec de vieilles robes, 1ᶠ00; — 1 petit oreiller et 1 matelas de balles d'avoine, 1ᶠ50. — Total, ᶠ00.  Total pour les lits : 11ᶠ00.</p>
+        <p xml:id="para_10_210_182">2° Mobilier de la pièce princinale. — 1 armoire a linge de noyer et 1 de chene avec garuiture de cuivre, 90ᶠ00 ; — 1 horloge-haht de bois de clèue, 60ᶠ00 ; — 1 naie de bois de chene (émoire) ; — 1 table de hois blaunc, 8ᶠ00 ; — 6 chaises de bois blanc, 192ᶠ00 ; — escabeaux de bois, 2ᶠ50; — 1 chariot de bois à roulettes, au milieu duquel on met le petit eufaut pour lui appreudre à marcher seul, 1ᶠ25; — 1 miroir, 2ᶠ50; — 1 cage d'oiseau, 1ᶠ50. — Total, 177ᶠ7S.</p>
+        <p xml:id="para_10_210_184">3° Mobilier de la chambre de la fille aînée. — 1 table de bois de sapin, 6ᶠ00; — 2 chaises de paille, 4ᶠ00; — 1 miroir, 3ᶠ00 ;— 2 petits rideaux de mousseline blanche, 2ᶠ00. — Total, 17ᶠ00.</p>
+        <p xml:id="para_10_210_186">4° Objets relatifs au culte domestique. — 2 tableaux de première communion, 1ᶠ00; — 1 cuciix de bois, 1ᶠ00; — 1 statue de platre de la sainte Mierge, 1ᶠ0. — Total, 3ᶠ50.</p>
        </div>
        <div subtype="ustensiles" type="par_10">
-        <p xml:id="para_10_210_188">
-         USTENSILES : réduits au strict nécessaire, très-communs, mais bien entretenus. ................................. 7ᶠ §
-        </p>
-        <p xml:id="para_10_210_189">
-         1° Dépendant de la cheminée : 4 paire de chenêts, 1 paire de pelles et pincettes, 1 cré¬maillère, 4 réchaud de tole, 1 étoufoir à brauise, un souflet ; ensemhle, 1ᶠ00.
-        </p>
-        <p xml:id="para_10_210_190">
-         2° Employés pour la cuisson et la consommation des aiments : 1 mamite de fonte avec sou couvercle, 3ᶠ50; — 1 cusserle de fer (cocotte), 3ᶠ00; — 1 bouilloire, 2ᶠ50 ; — 1 poèle a rire, 2ᶠ25; — 1 outil à écraser les pommes de terre, 2ᶠ50; — 3 poelons de tene, 3ᶠ00; — 1 soupière, 1 saladier, 3 plats, 10 assetutes, 4 tsses et 3 pots de faience, 10ᶠ0; — 2 verres à boire, 0ᶠ40; — 2 tibales de plomb, 0ᶠ50 ; — S cuil¬lers, 8 fourchettes et 1 cuiller a pot de fer étmé, 3ᶠ50 ; — 5 couteux de poche, 5ᶠ00 ; — 1 terrine de terre verunissée, 1ᶠ50; — 1 jarre pour conserver l'eau, 250 ; — 10 bou¬teilles de vere, 1ᶠ00; — 3 seaux de bhois, 6ᶠ00. — Total, 47ᶠ1IS.
-        </p>
-        <p xml:id="para_10_210_193">
-         3° Servant ad l'eclairae : 2 chandeliers de fer, 1ᶠ00; — 1 chandelier de cuivre, 2ᶠ00; — 1 lauterne, 1ᶠ50. — otal, 4ᶠ50.
-        </p>
-        <p xml:id="para_10_210_195">
-         4° Employés pour la 1oibete. — 1 brosse a habits, 1ᶠ25; — 2 brosses à chaussures, 1ᶠ00; — 1 paire de rasoirs, 4ᶠ50. — Tota, 6ᶠ75.
-        </p>
-        <p xml:id="para_10_210_196">
-         5° Employés pour divers usages. — 2 paniers, 2ᶠ00; — 1 balai, 0ᶠ75. — Total, ᶠ7S.
-        </p>
+        <p xml:id="para_10_210_188">USTENSILES : réduits au strict nécessaire, très-communs, mais bien entretenus. ................................. 7ᶠ §</p>
+        <p xml:id="para_10_210_189">1° Dépendant de la cheminée : 4 paire de chenêts, 1 paire de pelles et pincettes, 1 cré¬maillère, 4 réchaud de tole, 1 étoufoir à brauise, un souflet ; ensemhle, 1ᶠ00.</p>
+        <p xml:id="para_10_210_190">2° Employés pour la cuisson et la consommation des aiments : 1 mamite de fonte avec sou couvercle, 3ᶠ50; — 1 cusserle de fer (cocotte), 3ᶠ00; — 1 bouilloire, 2ᶠ50 ; — 1 poèle a rire, 2ᶠ25; — 1 outil à écraser les pommes de terre, 2ᶠ50; — 3 poelons de tene, 3ᶠ00; — 1 soupière, 1 saladier, 3 plats, 10 assetutes, 4 tsses et 3 pots de faience, 10ᶠ0; — 2 verres à boire, 0ᶠ40; — 2 tibales de plomb, 0ᶠ50 ; — S cuil¬lers, 8 fourchettes et 1 cuiller a pot de fer étmé, 3ᶠ50 ; — 5 couteux de poche, 5ᶠ00 ; — 1 terrine de terre verunissée, 1ᶠ50; — 1 jarre pour conserver l'eau, 250 ; — 10 bou¬teilles de vere, 1ᶠ00; — 3 seaux de bhois, 6ᶠ00. — Total, 47ᶠ1IS.</p>
+        <p xml:id="para_10_210_193">3° Servant ad l'eclairae : 2 chandeliers de fer, 1ᶠ00; — 1 chandelier de cuivre, 2ᶠ00; — 1 lauterne, 1ᶠ50. — otal, 4ᶠ50.</p>
+        <p xml:id="para_10_210_195">4° Employés pour la 1oibete. — 1 brosse a habits, 1ᶠ25; — 2 brosses à chaussures, 1ᶠ00; — 1 paire de rasoirs, 4ᶠ50. — Tota, 6ᶠ75.</p>
+        <p xml:id="para_10_210_196">5° Employés pour divers usages. — 2 paniers, 2ᶠ00; — 1 balai, 0ᶠ75. — Total, ᶠ7S.</p>
        </div>
        <div subtype="linge" type="par_10">
-        <p xml:id="para_10_210_197">
-         LINGE DE MÉNAGE : grossier, mais en assez grande quantité, la famille mettant une certaine gloire à avoir beaucoup de linge et l'entretenant avec soin....................... ... 26ᶠ 00
-        </p>
-        <p xml:id="para_10_210_198">
-         20 paires de draps de lits de toile commune, 20ᶠ00; — 1 douaine d'essuie-mains, 1Sᶠ00; — 6 torchons, 6ᶠ00; — vieux linge, 3ᶠ00. — Total, 2ᶠ00.
-        </p>
+        <p xml:id="para_10_210_197">LINGE DE MÉNAGE : grossier, mais en assez grande quantité, la famille mettant une certaine gloire à avoir beaucoup de linge et l'entretenant avec soin....................... ... 26ᶠ 00</p>
+        <p xml:id="para_10_210_198">20 paires de draps de lits de toile commune, 20ᶠ00; — 1 douaine d'essuie-mains, 1Sᶠ00; — 6 torchons, 6ᶠ00; — vieux linge, 3ᶠ00. — Total, 2ᶠ00.</p>
        </div>
        <div subtype="vetements" type="par_10">
-        <p xml:id="para_10_210_199">
-         VÊTEMENTS : costume des gens de la campagne, d'une extrême simplicité, raccommodé jusqu'à usure complète. Le père et le fils aîné ont des habits de drappour les jours fériés ; à l'exception d'une robe de laine noire qu'il est d'usage d'avoir dans ce pays pour les temps de deuil, la femme n'a que des robes d'indienne de façon très-simple. La fille aînée a un costume un peu plus recherché,
-         <pb facs="#facs_214" n="211" source="lesouvriersdesde04sociuoft_0217.xml"/>
-         mais sans coquetterie. Les vêtements des jeunes enfants sont con¬fectionnés avec ceux qui ont déjà servi aux aînés ou aux parents. Le linge de corps est degrosse toile de fabrication domestique. 529ᶠ25
-        </p>
-        <p xml:id="para_10_211_201">
-         VÊTEMENTS DE L'OUVRIER (116ᶠ65) :
-        </p>
-        <p xml:id="para_10_211_202">
-         1° Vêtements du dimanche. — 1 habit de drap bleu foncé, 30ᶠ00; — 1 pantalon de drap, 12ᶠ00 ; — 1 gilet de molleton de cotn, 4ᶠ00; — 2 paires de bas de coton, 1ᶠs0; — 1 cravate de soie noire, 1ᶠ50; — 1 chapeau de soie noire, 5ᶠ00; — 1 paire de bottes, 6ᶠ00. — Toa, 60ᶠ00.
-        </p>
-        <p xml:id="para_10_211_204">
-         2° Vêtements de travail. — 2 blouses d'étofe de coton bleu, 3ᶠ00; — 1 pantalon de velours de coton, 4ᶠ0; — 1 pantalon,de toile grise, 2ᶠ00; — 1 gilet de molletou de coton à maches, 2ᶠ50; — 16 chemises de grosse toile, 40ᶠ00; — 3 mouchoirs de coton de couleur, 0ᶠ7s ; — 1 chapeau rond de feutre gris, 1ᶠs0 ; — 3 paires de sabots, 0ᶠ90 ; — 2 paires de chaussons de lisières, 1ᶠ50. — Total, 6ᶠ65.
-        </p>
-        <p xml:id="para_10_211_206">
-         VÊTEMENTS DB LA FEMME (75Sᶠ10) :
-        </p>
-        <p xml:id="para_10_211_207">
-         1° Vêtements du dimanche. — 1 robe de laine noire pour deuil, 14ᶠ00; — 1 robe d'indiene, 4ᶠ00; — 1 bonet-linge sans rubans, 1ᶠ75 ; — 1 paie de souliers, 4ᶠ00. —
-        </p>
-        <p xml:id="para_10_211_208">
-         2° Vêtements de travail. — 1 robe d'indienne imprimée, 3ᶠ00 ; — 2 camisoles d'in¬dienne de couleur, 2ᶠ00; — 2 jupons faits avec de vieilles robes (ménoire) ; — 20 che¬mises de gosse toile, 40ᶠ00 ; — 3 mouchoirs de coton de couleur, 0ᶠ75; — 3 paires de bas de coton, 1ᶠ50; — 2 ichus de tete dits armottes, 0ᶠ7s; — 2 ichus de cou, 0ᶠ75 ; — 2 paires de sabots, 0ᶠ60 ; — 2 paires de chaussures de laine noire foulée, 2ᶠ00. Toa, sᶠ35.
-        </p>
-        <p xml:id="para_10_211_210">
-         VÊTEMENTS DU FILS AINÉ (14ᶠ40) :
-        </p>
-        <p xml:id="para_10_211_211">
-         1° Vêtements du dimanche. — 1 redingote de drap noir, 30ᶠ00 ; — 1 pantalon de drap de couleur foncée, 14ᶠ00; — 1 gilet d'étoffe de laine et coton, 5ᶠ00; — 2 paires de bas, 1ᶠ50; — 1 cravate de soie de couleur, 2ᶠ00 ; — 1 chapeau de feutre rond, 3ᶠ00; — 1 paire de souliers, 6ᶠ00. — Total, 6Iᶠ50.
-        </p>
-        <p xml:id="para_10_211_213">
-         2° Vêtements de travail. — 1 Mouse d'étoffe de coton bleu, 2ᶠ00; — 1 pantalon de velours de coton, 4ᶠ30 ; — 1 gilet de molleton à maches, 2ᶠ50; — 16 chemises de grosse toile, 40ᶠ00; — 3 mouchoirs de coon de couleur, 0ᶠ75; —  chapeau de paille, 0ᶠ7; — 3 paires de sabots, 0ᶠ90 ; — 2 paies de chaussons de lisières, 1ᶠ50. — Total, 5ᶠ90.
-        </p>
-        <p xml:id="para_10_211_215">
-         VÊTEMENTS DE LA FILLE AINEE (9Sᶠ00). — Elle a déja réuni une partie de son trous¬
-        </p>
-        <p xml:id="para_10_211_216">
-         1° Vêtements du dimanche. — 1 robe de percale blanche, 4ᶠ00 ; — 1 robe d'indienne rose, 4ᶠ00 ; — 1 robe de laine noire pour deuil, 16ᶠ00 ; — 1 pèlerine de mérinos noir, 1ᶠ50; — 1 jupon de calicot hlanc, ᶠ00; — 1 corset, 39ᶠ00 ; — 1 bonnet-linge avec un ruban rose, ᶠ50 ; — 1 paire de gants de coton blanc, 3ᶠ00; — 1 paire de souliers, 4ᶠ00. — Total, 42ᶠ00.
-        </p>
-        <p xml:id="para_10_211_217">
-         2° Vêtements de travail. — 2 rohs d'indienne, 5ᶠ00; — 2 jupons faits avec de vieilles roles (mémoire) ; — 20 chemises de grosse toile, 40ᶠ00; — 3 mouchoirs de coton de coulenr, 0ᶠ75 ; — 3 paires de bas de coton, 1ᶠ50 ; — 2 paires de bas de laine, 2ᶠ00; — 2 bonnets-linge, 1ᶠ50; — 3 flchus de tete dits narmottes, 1ᶠ20 ; — 3 chus de cou, 0ᶠ90 ; — 1 paire de chaussons de lisières, 0ᶠ7s; — 1 paire de sabots, 0ᶠ30. — Total, 3ᶠ00.
-        </p>
-        <p xml:id="para_10_212_219">
-         <pb facs="#facs_215" n="212" source="lesouvriersdesde04sociuoft_0218.xml"/>
-         VÊTEMENTS DE LA SECONDE FLLE (S7ᶠ70).
-        </p>
-        <p xml:id="para_10_212_220">
-         1° Vêtements du dimancheˉ. — 1 robe d'indienne, 3ᶠ0; — 1 robe d'indienne recne en cudeau, ᶠ00; — 1 jupon de calicot blanc, 1ᶠ50; — 1 bonne-linge, 2ᶠ00; — 1 paire de souliers, 3ᶠ00. — Toa, 15ᶠ00.
-        </p>
-        <p xml:id="para_10_212_221">
-         2° Vêtements de travail. — 1 robe d'indienne, 3ᶠ00 ; — 2 jupons faits avec de vieilles robes (mémore) ; — 16 chemises de grosse toile, 32ᶠ00 ; — 3 mouchois de coton de couleur, 0ᶠ75 ; — 2 paies de bas de coton, 1ᶠ50 ; — 2 paires de has de laine, 2ᶠ00; — 3 fichus de téte, 1ᶠ50; — 3 fichus de cou, 0ᶠ90 ; — 1 paire de sabots, 0ᶠ30; 1 paire de chaussons de lisières, 0ᶠ75. — Total, 42ᶠ70.
-        </p>
-        <p xml:id="para_10_212_222">
-         VÊTEMENTS DU SECOND FILS (30ᶠ40). — Il n'a pas encore de vêtements spéciaux pour le dimanche, et met ce jour-là les vêtements de travail les plus neufs.
-        </p>
-        <p xml:id="para_10_212_223">
-         Vêtements de travail. — 3 blouses d'étofe de coton bleu, 6ᶠ00 ; — 1 pautaon d'étoffe de laine, reçu en cadeau, 3ᶠ00 ; — 2 gilets à manches, dont un reçu en cudeau, ᶠ00; — 5 chemises de toile, 12ᶠ50 ; — 2 monchoirs de cotn de couleur, 0ᶠ50; — 2 cravates de coton, 0ᶠ80; — 1 casquette de couuil, 1ᶠ25 ; — 2 paires de sahots, 0ᶠ60; — 1 paire de chaussons, 0ᶠ75 ; — vieux vèteents da fère aîné mémoire). — Total, 30ᶠ40.
-        </p>
-        <p xml:id="para_10_212_224">
-         VÊTEMENTS DES QUATRE DERNIERS ENFANTS (40ᶠ00).
-        </p>
-        <p xml:id="para_10_212_225">
-         Les vêtements des plus jeunes enfants sont en partie confectionnés avec d'anciens vêtements, en partie reçus en cadeaux. On peut estinmer leur valeur a 40ᶠ00.
-        </p>
+        <p xml:id="para_10_210_199">VÊTEMENTS : costume des gens de la campagne, d'une extrême simplicité, raccommodé jusqu'à usure complète. Le père et le fils aîné ont des habits de drappour les jours fériés ; à l'exception d'une robe de laine noire qu'il est d'usage d'avoir dans ce pays pour les temps de deuil, la femme n'a que des robes d'indienne de façon très-simple. La fille aînée a un costume un peu plus recherché,<pb facs="#facs_214" n="211" source="lesouvriersdesde04sociuoft_0217.xml"/>mais sans coquetterie. Les vêtements des jeunes enfants sont con¬fectionnés avec ceux qui ont déjà servi aux aînés ou aux parents. Le linge de corps est degrosse toile de fabrication domestique. 529ᶠ25</p>
+        <p xml:id="para_10_211_201">VÊTEMENTS DE L'OUVRIER (116ᶠ65) :</p>
+        <p xml:id="para_10_211_202">1° Vêtements du dimanche. — 1 habit de drap bleu foncé, 30ᶠ00; — 1 pantalon de drap, 12ᶠ00 ; — 1 gilet de molleton de cotn, 4ᶠ00; — 2 paires de bas de coton, 1ᶠs0; — 1 cravate de soie noire, 1ᶠ50; — 1 chapeau de soie noire, 5ᶠ00; — 1 paire de bottes, 6ᶠ00. — Toa, 60ᶠ00.</p>
+        <p xml:id="para_10_211_204">2° Vêtements de travail. — 2 blouses d'étofe de coton bleu, 3ᶠ00; — 1 pantalon de velours de coton, 4ᶠ0; — 1 pantalon,de toile grise, 2ᶠ00; — 1 gilet de molletou de coton à maches, 2ᶠ50; — 16 chemises de grosse toile, 40ᶠ00; — 3 mouchoirs de coton de couleur, 0ᶠ7s ; — 1 chapeau rond de feutre gris, 1ᶠs0 ; — 3 paires de sabots, 0ᶠ90 ; — 2 paires de chaussons de lisières, 1ᶠ50. — Total, 6ᶠ65.</p>
+        <p xml:id="para_10_211_206">VÊTEMENTS DB LA FEMME (75Sᶠ10) :</p>
+        <p xml:id="para_10_211_207">1° Vêtements du dimanche. — 1 robe de laine noire pour deuil, 14ᶠ00; — 1 robe d'indiene, 4ᶠ00; — 1 bonet-linge sans rubans, 1ᶠ75 ; — 1 paie de souliers, 4ᶠ00. —</p>
+        <p xml:id="para_10_211_208">2° Vêtements de travail. — 1 robe d'indienne imprimée, 3ᶠ00 ; — 2 camisoles d'in¬dienne de couleur, 2ᶠ00; — 2 jupons faits avec de vieilles robes (ménoire) ; — 20 che¬mises de gosse toile, 40ᶠ00 ; — 3 mouchoirs de coton de couleur, 0ᶠ75; — 3 paires de bas de coton, 1ᶠ50; — 2 ichus de tete dits armottes, 0ᶠ7s; — 2 ichus de cou, 0ᶠ75 ; — 2 paires de sabots, 0ᶠ60 ; — 2 paires de chaussures de laine noire foulée, 2ᶠ00. Toa, sᶠ35.</p>
+        <p xml:id="para_10_211_210">VÊTEMENTS DU FILS AINÉ (14ᶠ40) :</p>
+        <p xml:id="para_10_211_211">1° Vêtements du dimanche. — 1 redingote de drap noir, 30ᶠ00 ; — 1 pantalon de drap de couleur foncée, 14ᶠ00; — 1 gilet d'étoffe de laine et coton, 5ᶠ00; — 2 paires de bas, 1ᶠ50; — 1 cravate de soie de couleur, 2ᶠ00 ; — 1 chapeau de feutre rond, 3ᶠ00; — 1 paire de souliers, 6ᶠ00. — Total, 6Iᶠ50.</p>
+        <p xml:id="para_10_211_213">2° Vêtements de travail. — 1 Mouse d'étoffe de coton bleu, 2ᶠ00; — 1 pantalon de velours de coton, 4ᶠ30 ; — 1 gilet de molleton à maches, 2ᶠ50; — 16 chemises de grosse toile, 40ᶠ00; — 3 mouchoirs de coon de couleur, 0ᶠ75; —  chapeau de paille, 0ᶠ7; — 3 paires de sabots, 0ᶠ90 ; — 2 paies de chaussons de lisières, 1ᶠ50. — Total, 5ᶠ90.</p>
+        <p xml:id="para_10_211_215">VÊTEMENTS DE LA FILLE AINEE (9Sᶠ00). — Elle a déja réuni une partie de son trous¬</p>
+        <p xml:id="para_10_211_216">1° Vêtements du dimanche. — 1 robe de percale blanche, 4ᶠ00 ; — 1 robe d'indienne rose, 4ᶠ00 ; — 1 robe de laine noire pour deuil, 16ᶠ00 ; — 1 pèlerine de mérinos noir, 1ᶠ50; — 1 jupon de calicot hlanc, ᶠ00; — 1 corset, 39ᶠ00 ; — 1 bonnet-linge avec un ruban rose, ᶠ50 ; — 1 paire de gants de coton blanc, 3ᶠ00; — 1 paire de souliers, 4ᶠ00. — Total, 42ᶠ00.</p>
+        <p xml:id="para_10_211_217">2° Vêtements de travail. — 2 rohs d'indienne, 5ᶠ00; — 2 jupons faits avec de vieilles roles (mémoire) ; — 20 chemises de grosse toile, 40ᶠ00; — 3 mouchoirs de coton de coulenr, 0ᶠ75 ; — 3 paires de bas de coton, 1ᶠ50 ; — 2 paires de bas de laine, 2ᶠ00; — 2 bonnets-linge, 1ᶠ50; — 3 flchus de tete dits narmottes, 1ᶠ20 ; — 3 chus de cou, 0ᶠ90 ; — 1 paire de chaussons de lisières, 0ᶠ7s; — 1 paire de sabots, 0ᶠ30. — Total, 3ᶠ00.</p>
+        <p xml:id="para_10_212_219"><pb facs="#facs_215" n="212" source="lesouvriersdesde04sociuoft_0218.xml"/> VÊTEMENTS DE LA SECONDE FLLE (S7ᶠ70).</p>
+        <p xml:id="para_10_212_220">1° Vêtements du dimancheˉ. — 1 robe d'indienne, 3ᶠ0; — 1 robe d'indienne recne en cudeau, ᶠ00; — 1 jupon de calicot blanc, 1ᶠ50; — 1 bonne-linge, 2ᶠ00; — 1 paire de souliers, 3ᶠ00. — Toa, 15ᶠ00.</p>
+        <p xml:id="para_10_212_221">2° Vêtements de travail. — 1 robe d'indienne, 3ᶠ00 ; — 2 jupons faits avec de vieilles robes (mémore) ; — 16 chemises de grosse toile, 32ᶠ00 ; — 3 mouchois de coton de couleur, 0ᶠ75 ; — 2 paies de bas de coton, 1ᶠ50 ; — 2 paires de has de laine, 2ᶠ00; — 3 fichus de téte, 1ᶠ50; — 3 fichus de cou, 0ᶠ90 ; — 1 paire de sabots, 0ᶠ30; 1 paire de chaussons de lisières, 0ᶠ75. — Total, 42ᶠ70.</p>
+        <p xml:id="para_10_212_222">VÊTEMENTS DU SECOND FILS (30ᶠ40). — Il n'a pas encore de vêtements spéciaux pour le dimanche, et met ce jour-là les vêtements de travail les plus neufs.</p>
+        <p xml:id="para_10_212_223">Vêtements de travail. — 3 blouses d'étofe de coton bleu, 6ᶠ00 ; — 1 pautaon d'étoffe de laine, reçu en cadeau, 3ᶠ00 ; — 2 gilets à manches, dont un reçu en cudeau, ᶠ00; — 5 chemises de toile, 12ᶠ50 ; — 2 monchoirs de cotn de couleur, 0ᶠ50; — 2 cravates de coton, 0ᶠ80; — 1 casquette de couuil, 1ᶠ25 ; — 2 paires de sahots, 0ᶠ60; — 1 paire de chaussons, 0ᶠ75 ; — vieux vèteents da fère aîné mémoire). — Total, 30ᶠ40.</p>
+        <p xml:id="para_10_212_224">VÊTEMENTS DES QUATRE DERNIERS ENFANTS (40ᶠ00).</p>
+        <p xml:id="para_10_212_225">Les vêtements des plus jeunes enfants sont en partie confectionnés avec d'anciens vêtements, en partie reçus en cadeaux. On peut estinmer leur valeur a 40ᶠ00.</p>
        </div>
        <div subtype="par_10_total" type="par_10">
-        <p xml:id="para_10_212_226">
-         VALEUR TOTALE du mobilier et des vêtements.. 1,278ᶠ 15
-        </p>
+        <p xml:id="para_10_212_226">VALEUR TOTALE du mobilier et des vêtements.. 1,278ᶠ 15</p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
-        § 11. — RÉCRÉATIONS.
-       </head>
-       <p xml:id="para_10_212_228">
-        Les mœurs simples de cette famille ne lui inspirent pas le désir de rechercher au dehors des distractions. C'est ainsi que les enfants les plus âgés ont pu se soustraire jusqu'à présent au goût de la danse, qui domine aujourd'hui dans le pays, et qui y a remplacé les jeux anciens de la boule et du tonneau. Les bals commencent tous les dimanches vers le soir, dans une ou deux auberges du vil¬lage ; les jeunes filles sy rendent parées de leurs plus beaux vête¬ments ; ces réunions se prolongent fort avant dans la nuit et ont souvent pour la moralité de funestes conséquences
-        <ref target="#part_02_01_01" type="renvoi_int_mono">
-         (A)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_212_229">
-        Le seul bal que fréquentent les enfants aînés de la famille est celui de la fête patronale du pays, ui a lieu le 1ᵉ juillet, lejour de la Saint-hlartial. Ce jour-là le service divin est ćlebré avec pope, et la plupartdes membes de la famille y assistent. Il y a sur la place du marché des jeux publics, quelques spectacles forains, des bou¬tiques de pain d'épice, etc. C'est l'occasion de dépenser quelques sous en gâteaux ou en friandises pour les plus jeunes enfants. Lesoir, toute la jeunesse se réunit dans un bal que les jeunes gens organi¬sent en e cotisant entre eux.
-       </p>
-       <p xml:id="para_10_213_230">
-        <pb facs="#facs_216" n="213" source="lesouvriersdesde04sociuoft_0219.xml"/>
-        Quelquefois les enfants, en compagnie de leur père, mais ra¬rement avec leur mère, se rendent à la fête patronale de quelque village voisin. C'est plutôt pour la famille un but de promenade qu'une occasion de dépense.
-       </p>
-       <p xml:id="para_10_213_231">
-        Le mari ni son fils aîné ne vont jamais au cabaret. L'usage de la pipe est leur plus habituelle distraction. L'ouvrier se plait à culti¬ver quelques fleurs, des roses principalement, dans ses moments de loisir.
-       </p>
-       <p xml:id="para_10_213_232">
-        La fille aînée élève des oiseau.
-       </p>
-       <p xml:id="para_10_213_233">
-        Quant à la femme, elle ne quitte guère la maison que pour aller travailler dans les champs et. aux bois. On peut dire que sa seule distraction est de se reposer le soir sur le devant de sa porte, quand son travail est terminé.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
+       <p xml:id="para_10_212_228">Les mœurs simples de cette famille ne lui inspirent pas le désir de rechercher au dehors des distractions. C'est ainsi que les enfants les plus âgés ont pu se soustraire jusqu'à présent au goût de la danse, qui domine aujourd'hui dans le pays, et qui y a remplacé les jeux anciens de la boule et du tonneau. Les bals commencent tous les dimanches vers le soir, dans une ou deux auberges du vil¬lage ; les jeunes filles sy rendent parées de leurs plus beaux vête¬ments ; ces réunions se prolongent fort avant dans la nuit et ont souvent pour la moralité de funestes conséquences (<ref target="#part_02_01_01" type="renvoi_int_mono">A</ref>).</p>
+       <p xml:id="para_10_212_229">Le seul bal que fréquentent les enfants aînés de la famille est celui de la fête patronale du pays, ui a lieu le 1ᵉ juillet, lejour de la Saint-hlartial. Ce jour-là le service divin est ćlebré avec pope, et la plupartdes membes de la famille y assistent. Il y a sur la place du marché des jeux publics, quelques spectacles forains, des bou¬tiques de pain d'épice, etc. C'est l'occasion de dépenser quelques sous en gâteaux ou en friandises pour les plus jeunes enfants. Lesoir, toute la jeunesse se réunit dans un bal que les jeunes gens organi¬sent en e cotisant entre eux.</p>
+       <p xml:id="para_10_213_230"><pb facs="#facs_216" n="213" source="lesouvriersdesde04sociuoft_0219.xml"/> Quelquefois les enfants, en compagnie de leur père, mais ra¬rement avec leur mère, se rendent à la fête patronale de quelque village voisin. C'est plutôt pour la famille un but de promenade qu'une occasion de dépense.</p>
+       <p xml:id="para_10_213_231">Le mari ni son fils aîné ne vont jamais au cabaret. L'usage de la pipe est leur plus habituelle distraction. L'ouvrier se plait à culti¬ver quelques fleurs, des roses principalement, dans ses moments de loisir.</p>
+       <p xml:id="para_10_213_232">La fille aînée élève des oiseau.</p>
+       <p xml:id="para_10_213_233">Quant à la femme, elle ne quitte guère la maison que pour aller travailler dans les champs et. aux bois. On peut dire que sa seule distraction est de se reposer le soir sur le devant de sa porte, quand son travail est terminé.</p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
-       IV. Histoire de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_04">IV. Histoire de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
-        § 12. — PHASES PRINCIPALES DE L'EXISTENCE.
-       </head>
-       <p xml:id="para_10_213_237">
-        La vie des deux époux n'a été marquée par aucun événement important. Les parents d'Éienne M*** eaient maneuvres-vigne¬rons ; ils avaient amassé un petit bien consistant en quelques pièces de vignes, qui, à leur mort, ont été partagées également entre leurs enfants. Chacun de ceux-ci est assez convenablement placé
-        <ref target="#part_02_01_02" type="renvoi_int_mono">
-         (§ 2)
-        </ref>
-        . Ils n'ont reçu aucune insuruction. Éuienne M**°, pour sa part, parait vivement le regretter; il donnerait volontiers, dit-il, deux doigts de sa main pour savoir lire et écrire.
-       </p>
-       <p xml:id="para_10_213_238">
-        Il a été exempté par le sort de la conscription. Depuis sa jeu¬nesse, il a toujours exécuté le même travail que son père, celui de manœuvre-vigneron ; c'est le même état qu'il a donné à ses enfants ; 'idée ne lui est pas venue de leur en faire apprendre d'autre. Étienne M*** 'est marié à l'âge de 34 ans.
-       </p>
-       <p xml:id="para_10_213_239">
-        La femme, Alexandrine ᵉ, est fille de petits cultivateurs des environs qui n'ont pas réussi dans leurs entreprises. Son père était mauvais travaelleur et s'adonnait à la boisson ; à sa mort, il n'a laissé que des dettes, et tout ce que possédait la famille a été vendu pour en acquitter une partie. Alexandrine ᵉ* aait été placée de bonne heure chez des étrangers comme domestique. C'est dans cette condition qu'elle fit la connaissance de son mari qui venait travailler chez ses maîtres. Une fois mariée, elle a été bientôt
-        <pb facs="#facs_217" n="214" source="lesouvriersdesde04sociuoft_0220.xml"/>
-        absorbée par les soins de sa nombreuse famille ; aussi les quinze premières années du ménage ont-elles été bien duires à passer. Les époux n'avaient presque rien en commençant, si ce n'est quel¬ques meubles et la pièce de vigne appartenant à l'ouvrier. Mais ils travaillèrent avec une indomptable énergie, et le nombre des enfants, qui augmentait sans cesse, ne fut pas pour eux une cause de découragement. Ils étaient plutôt portés à voir dans cet accrois¬sement de famille des ressources pour l'avenir, et leur espoir n'a pas été déçu. Tous les enfants sont laborieux ; déjà les aînés appor¬tent un salaire à la bourse commune. Le prix de la maison et du jardin, que l'on avait pu acheter dès la deuxième année du ma¬riage, a été remboursé  peu à peu; Étienne M*** a même acheté la maison contigué qu'il destineà la fille ou au fils aîné, selon les cir¬constances, et qu'il paye également par à-comptes.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
+       <p xml:id="para_10_213_237">La vie des deux époux n'a été marquée par aucun événement important. Les parents d'Éienne M*** eaient maneuvres-vigne¬rons ; ils avaient amassé un petit bien consistant en quelques pièces de vignes, qui, à leur mort, ont été partagées également entre leurs enfants. Chacun de ceux-ci est assez convenablement placé (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>). Ils n'ont reçu aucune insuruction. Éuienne M**°, pour sa part, parait vivement le regretter; il donnerait volontiers, dit-il, deux doigts de sa main pour savoir lire et écrire.</p>
+       <p xml:id="para_10_213_238">Il a été exempté par le sort de la conscription. Depuis sa jeu¬nesse, il a toujours exécuté le même travail que son père, celui de manœuvre-vigneron ; c'est le même état qu'il a donné à ses enfants ; 'idée ne lui est pas venue de leur en faire apprendre d'autre. Étienne M*** 'est marié à l'âge de 34 ans.</p>
+       <p xml:id="para_10_213_239">La femme, Alexandrine ᵉ, est fille de petits cultivateurs des environs qui n'ont pas réussi dans leurs entreprises. Son père était mauvais travaelleur et s'adonnait à la boisson ; à sa mort, il n'a laissé que des dettes, et tout ce que possédait la famille a été vendu pour en acquitter une partie. Alexandrine ᵉ* aait été placée de bonne heure chez des étrangers comme domestique. C'est dans cette condition qu'elle fit la connaissance de son mari qui venait travailler chez ses maîtres. Une fois mariée, elle a été bientôt<pb facs="#facs_217" n="214" source="lesouvriersdesde04sociuoft_0220.xml"/>absorbée par les soins de sa nombreuse famille ; aussi les quinze premières années du ménage ont-elles été bien duires à passer. Les époux n'avaient presque rien en commençant, si ce n'est quel¬ques meubles et la pièce de vigne appartenant à l'ouvrier. Mais ils travaillèrent avec une indomptable énergie, et le nombre des enfants, qui augmentait sans cesse, ne fut pas pour eux une cause de découragement. Ils étaient plutôt portés à voir dans cet accrois¬sement de famille des ressources pour l'avenir, et leur espoir n'a pas été déçu. Tous les enfants sont laborieux ; déjà les aînés appor¬tent un salaire à la bourse commune. Le prix de la maison et du jardin, que l'on avait pu acheter dès la deuxième année du ma¬riage, a été remboursé  peu à peu; Étienne M*** a même acheté la maison contigué qu'il destineà la fille ou au fils aîné, selon les cir¬constances, et qu'il paye également par à-comptes.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
-        § 13. — MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
-       </head>
-       <p xml:id="para_10_214_242">
-        L'avenir de la famille est principalement assuré par les habitudes de travail, de sobriété, d'ordre et d'économie qui la distinguent
-        <ref target="#part_02_01_03" type="renvoi_int_mono">
-         (§ 3)
-        </ref>
-        . Le patronage bienveillant d'une riche famille de la localité, en procurant aux paysans certaines subventions, contribue à assurer leur bien-être dans une certaine mesure
-        <ref target="#part_02_02_07" type="renvoi_int_mono">
-         (§ 7)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_214_243">
-        La famille n'a pas recours à l'assistance publique
-        <ref target="#part_02_02_07" type="renvoi_int_mono">
-         (§ 7)
-        </ref>
-        ; mais si quelque cas imprévu, une maladie, une épidémie, venait à la jeter dans la misère, cette nature de secours ne lui ferait pas défaut. L'assistance publique est en effet organisée dans la commune depuis près d'un siècle. n hôpital y a été fondé par un des seigneurs du pays qui laissa par testament un capital de 25,000ᶠ, dont le revenu devait être affecté a l'entretien de cet établissement. Ce capital fut augmenté par divers autres legs.
-       </p>
-       <p xml:id="para_10_214_244">
-        Dans l'origine, il y avait, à l'hôpial de s°, 8 lis pour les malades ; plus tard on cessa de les recevoir, mais on sassura 4 lits à l'hôpital du chef-lieu du département, moyennant le payement d'une rente annuelle de 24ᶠ pour chaque lit. L'administration muni¬cipale eut recours à cette mesure afin de diminuer les charges de l'établissement et de multiplier les secours à domicile. Cinq sœurs de la charité et de l'instruction chrétienne de la congrégation de Nevers, les mêmes qui dirigent le pensionna et l'asile des filles
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        , sont chargées du gouvernement de cette maison. La supérieure est autorisée par un ancien arrêt du parlement à vendre des médica¬ments aux personnes aisées, et, par ce moyen, elle parvient à
-        <pb facs="#facs_218" n="215" source="lesouvriersdesde04sociuoft_0221.xml"/>
-        entretenir sans frais une pharmacie en faveur des pauvres. Les religieuses vont visiter les malades à domicile, et leur prodiguent tous les secours et tous les soins dont ils ont besoin. Elles étendent aussi leur sollicitude sur les vieillards et sur les orphelins ; les distributions de pain et de viande se font toutes les semaines dans une proportion mesurée sur les besoins des malheureux et sur les ressources de l'établissement, dont lerevenu est de 13,000ᶠ.
-       </p>
-       <p xml:id="para_10_215_246">
-        Il y a aussi le bureau de bienfaisance établi par l'administration communale. Son revenu varie de 1,500 à 1,700ᶠ; le grand pro¬priétaire du village en fournit environ le tiers. Étienne Mᵉᵉʳᵉ en reçoit aucun secours ; il y a dans la commune 75 a 80 familles susceptibles d'être inscrites au bureau de bienfaisance. Sur ce nombre, 25 rȩoivent des secours pendant toue l'année, et 40 n'en reçoivent que temporairement, principalement en hiver.
-       </p>
-       <p xml:id="para_10_215_247">
-        Aucune société d'assurance mutuelle n'est encore organisée dans la commune, mais quelques-uns de ses membres influents songent à en fonder une sous le patronage de la société de Saint-Vincent de Paul.
-       </p>
-       <p xml:id="para_10_215_248">
-        Comme on le voit, la famille n'a pas recours à l'assistance. C'est grâce au travail de ses membres, grâce surtout à l'activité de la femme, qui sait imprimer une bonne direction aux entreprises de la famille, que celle-ci peut suffire à ses besoins actuels. Les époux avancent en age, il est vrai ; le moment viendra où ils ne seront plus en état de travailler, et ce n'est pas sur le revenu de leurs épargnes qu'ils pourront vivre dans leurs vieux jours ; mais ils comptent bien qu'alors leurs enfants leur viendront en aide. Dès aujourd'hui, il est prouvé par le budget
-        <ref target="#part_02_05_14" type="renvoi_int_mono">
-         (R. 3ᵉ Son)
-        </ref>
-        que la fécon¬dié de leur union, à ne considérer que le moindre côte de la ques¬tion, se rouve être leur plus utile entreprise et leur épargne la plus réelle.
-       </p>
-       <p xml:id="para_10_215_249">
-        Si les efforts et les privations de cette famille ont pu lui per¬ettre d'amasser un petit bien, les habitudes en vigueur dans cette localité, conformes aux dispositions de notre Code, en empêcheront la conservation. On ne verra pas se créer là une de ces familles¬souches, qui se forment et prospèrent dans d'autres localités sous l'empire de coutumes respectant chez le père la liberté de tester. Le partage égal engendre dans cette commune, où les mariages sont en général féconds. une grande instabilité dans les propriétés et dans les familles.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
+       <p xml:id="para_10_214_242">L'avenir de la famille est principalement assuré par les habitudes de travail, de sobriété, d'ordre et d'économie qui la distinguent (<ref target="#part_02_01_03" type="renvoi_int_mono">§ 3</ref>). Le patronage bienveillant d'une riche famille de la localité, en procurant aux paysans certaines subventions, contribue à assurer leur bien-être dans une certaine mesure (<ref target="#part_02_02_07" type="renvoi_int_mono">§ 7</ref>).</p>
+       <p xml:id="para_10_214_243">La famille n'a pas recours à l'assistance publique (<ref target="#part_02_02_07" type="renvoi_int_mono">§ 7</ref>) ; mais si quelque cas imprévu, une maladie, une épidémie, venait à la jeter dans la misère, cette nature de secours ne lui ferait pas défaut. L'assistance publique est en effet organisée dans la commune depuis près d'un siècle. n hôpital y a été fondé par un des seigneurs du pays qui laissa par testament un capital de 25,000ᶠ, dont le revenu devait être affecté a l'entretien de cet établissement. Ce capital fut augmenté par divers autres legs.</p>
+       <p xml:id="para_10_214_244">Dans l'origine, il y avait, à l'hôpial de s°, 8 lis pour les malades ; plus tard on cessa de les recevoir, mais on sassura 4 lits à l'hôpital du chef-lieu du département, moyennant le payement d'une rente annuelle de 24ᶠ pour chaque lit. L'administration muni¬cipale eut recours à cette mesure afin de diminuer les charges de l'établissement et de multiplier les secours à domicile. Cinq sœurs de la charité et de l'instruction chrétienne de la congrégation de Nevers, les mêmes qui dirigent le pensionna et l'asile des filles (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>), sont chargées du gouvernement de cette maison. La supérieure est autorisée par un ancien arrêt du parlement à vendre des médica¬ments aux personnes aisées, et, par ce moyen, elle parvient à
+        <pb facs="#facs_218" n="215" source="lesouvriersdesde04sociuoft_0221.xml"/> entretenir sans frais une pharmacie en faveur des pauvres. Les religieuses vont visiter les malades à domicile, et leur prodiguent tous les secours et tous les soins dont ils ont besoin. Elles étendent aussi leur sollicitude sur les vieillards et sur les orphelins ; les distributions de pain et de viande se font toutes les semaines dans une proportion mesurée sur les besoins des malheureux et sur les ressources de l'établissement, dont lerevenu est de 13,000ᶠ.</p>
+       <p xml:id="para_10_215_246">Il y a aussi le bureau de bienfaisance établi par l'administration communale. Son revenu varie de 1,500 à 1,700ᶠ; le grand pro¬priétaire du village en fournit environ le tiers. Étienne Mᵉᵉʳᵉ en reçoit aucun secours ; il y a dans la commune 75 a 80 familles susceptibles d'être inscrites au bureau de bienfaisance. Sur ce nombre, 25 rȩoivent des secours pendant toue l'année, et 40 n'en reçoivent que temporairement, principalement en hiver.</p>
+       <p xml:id="para_10_215_247">Aucune société d'assurance mutuelle n'est encore organisée dans la commune, mais quelques-uns de ses membres influents songent à en fonder une sous le patronage de la société de Saint-Vincent de Paul.</p>
+       <p xml:id="para_10_215_248">Comme on le voit, la famille n'a pas recours à l'assistance. C'est grâce au travail de ses membres, grâce surtout à l'activité de la femme, qui sait imprimer une bonne direction aux entreprises de la famille, que celle-ci peut suffire à ses besoins actuels. Les époux avancent en age, il est vrai ; le moment viendra où ils ne seront plus en état de travailler, et ce n'est pas sur le revenu de leurs épargnes qu'ils pourront vivre dans leurs vieux jours ; mais ils comptent bien qu'alors leurs enfants leur viendront en aide. Dès aujourd'hui, il est prouvé par le budget (<ref target="#part_02_05_14" type="renvoi_int_mono">R. 3ᵉ Son</ref>) que la fécon¬dié de leur union, à ne considérer que le moindre côte de la ques¬tion, se rouve être leur plus utile entreprise et leur épargne la plus réelle.</p>
+       <p xml:id="para_10_215_249">Si les efforts et les privations de cette famille ont pu lui per¬ettre d'amasser un petit bien, les habitudes en vigueur dans cette localité, conformes aux dispositions de notre Code, en empêcheront la conservation. On ne verra pas se créer là une de ces familles¬souches, qui se forment et prospèrent dans d'autres localités sous l'empire de coutumes respectant chez le père la liberté de tester. Le partage égal engendre dans cette commune, où les mariages sont en général féconds. une grande instabilité dans les propriétés et dans les familles.</p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
-        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
        <pb facs="#facs_219" n="216" source="lesouvriersdesde04sociuoft_0222.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_219" url="#" xml:id="illu_10_216_1"/>
@@ -1267,17 +598,13 @@
         <graphic facs="#facs_223" url="#" xml:id="illu_10_220_5"/>
        </figure>
        <pb facs="#facs_224" n="221" source="lesouvriersdesde04sociuoft_0227.xml"/>
-       <!--<p xml:id="para_10_221_251">
-        BUDGET DES RECETTES DE LANNÉE (SUITE).
-        </p>-->
+       <!--<p xml:id="para_10_221_251">BUDGET DES RECETTES DE LANNÉE (SUITE).</p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_224" url="#" xml:id="illu_10_221_6"/>
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
-        § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
        <pb facs="#facs_225" n="222" source="lesouvriersdesde04sociuoft_0228.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_225" url="#" xml:id="tble_10_222_7"/>
@@ -1292,9 +619,7 @@
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
-        § 16. — COMPTES ANNEXES AUX BUDGETS
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. — Comptes annexés aux budgets</head>
        <pb facs="#facs_228" n="225" source="lesouvriersdesde04sociuoft_0231.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_228" url="#" xml:id="illu_10_225_10"/>
@@ -1340,199 +665,64 @@
      </div>
     </div>
     <div n="003" type="section">
-     <head type="section" xml:id="part_03">
-      NOTES.
-     </head>
-     <p xml:id="para_10_233_259">
-      FAITS IMPORTANTS D'ORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES; APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.
-     </p>
+     <head type="section" xml:id="part_03">Notes.</head>
+     <p xml:id="para_10_233_259">FAITS IMPORTANTS D'ORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES; APPRÉCIATIONS GÉNÉRALES; CONCLUSIONS.</p>
      <div n="001" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_17">
-        (A) SUR L'ÉTAT MOAL ET RELIGIEUX DES HABITANTS DE LA COMMUNE DE S*** ET SUR LEUR TENDANCE A ABANDONNER LES TRAVAUX DES CHAMPS POUR CEUX DES VILLES.
-       </head>
-       <p xml:id="para_10_233_262">
-        <pb facs="#facs_236" n="233" source="lesouvriersdesde04sociuoft_0239.xml"/>
-        Dans la commune de S***, l'indifférence en matière de religion est le sentiment dominant, surtout dans la classe des paysans. La bourgeoisie suit avec assez d'assiduité les exercices du culte. Cette situation doit être attribuée aux habitudes contractées dans les manufactures qui existaient dans la localité à la fin du siècle der¬nier et au commencement de celui-ci
-        <ref target="#part_02_01_03" type="renvoi_int_mono">
-         (§ 3)
-        </ref>
-        . L'agglomération dans les ateliers des ouvriers des deux sexes était nuisible aux bonnes meurs, et, malgré la disparition de ces fabriques, la population actuelle se ressent encore des habitudes dans lesquelles elle a été
-       </p>
-       <p xml:id="para_10_233_263">
-        Cependant le clergé de la commune, composé d'un curé et d'un vicaire, n'éprouve en général aucune difficulté à faire faire la pre¬mière communion aux enfants ; mais il est rare qu'après l'accom¬plissement de cet acte il puisse les conserver au catéchisme de persévérance. La première communion est considérée par les parents comme le terme de l'éducation de leurs enfants qui, à partir de ce moment, s'adonnent complétement au travail, soit dans la famille, soit en apprentissage. Le curé de S*** se plaît a constater que depuis une vingtaine d'années le respect de la reli¬gion a fait quelques progrès dans la commune. La ferveur religieuse n'a pas augmenté, mais il n'y a plus dans la classe ouvrière, comme au dernier siècle, d'hostilié manifeste contre les choses saintes, hostilité qui se traduisait souvent par des propos injurieux contre les ministres du culte. En même temps, les mœurs se sont amé¬liorées ; ainsi le concubinage est aussi rare maintenant dans le pays qu'il était fréquent au temps des fabriques.
-       </p>
-       <p xml:id="para_10_233_264">
-        Ce progrès moral, qui doit être attribué principalement à la dispariion des manufactures, est du aussi, en parie, à l'établis¬sement dans le pays des frères de la Doctrine chrétienne, qui sont parvenus à acquérir sur la jeunesse une influence salutaire
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_234_265">
-        <pb facs="#facs_237" n="234" source="lesouvriersdesde04sociuoft_0240.xml"/>
-        Les habitants ont généralement des mœurs douces ; ils sont polis et respectueux envers leurs supérieurs ; il est rare qu'on rencontre un paysan, sans qu'il vous salue le premier. Leur principal défaut est de rechercher avant tout le bien-étre matériel et l'apparence du luxe : une bonne nourriture, de beaux habits, des habitations commodes, souvent plus propres à l'extérieur qu'à l'intérieur.
-       </p>
-       <p xml:id="para_10_234_266">
-        On remarque également chez eux une tendance assez générale à sortir de leur condition. Les paysans considèrent le travail de la terre comme plus vil que celui d'un métier quelconque ; les gar¬çons veulent aller dans les villes pour y apprendre un état. Il en est de même des filles ; elles se font couturières. Elles trouvent que le travail des champs est trop fatigant, et qu'il ne se prète pas assez à la toilette et à la coquetterie. Enfin, pour se marier, elles préfèrent les ouvriers de l'industrie aux cultivateurs. Cet état de choses menace sérieusement de priver de bras l'agriculture.
-       </p>
-       <p xml:id="para_10_234_267">
-        Et cependant, qui n'a remarqué que les ouvriers à métiers, bien que gagnant des salaires plus élevés, sont généralement moins heureux et plus exposés à l'indigence que les travailleurs des champs Ils n'ont pas la même facilité que ces derniers de devenir un jour propriétaires, et ils n'en ont pas autant le désir. IIs ne cherchent pas à faire d'épargnes dans ce but, et ils dépensent la plupart du temps leurs salaires à mesure qu'ils les touchent. L'argent leur est plus familier qu'au laboureur, qui en reçoit moins souvent et qui y attache plus de prix. Plus économe par consé¬quent, plus attentif a restreindre ses besoins, ce dernier parvient ordinairement, à force de privations, à acquérir une petite pro¬priété. Le jardin, le champ qu'il cultive, lui fournissent une partie des choses nécessaires à la vie ; pour lui, jamais de chomage : sa position est donc plus assurée que celle de l'artisan. Aussi voit-on plus d'indigents dans les pays indusriels que dans les pays agri¬coles, où le plus pauvre a en général une vache, un porc ou quel¬ques autres animaux domestiques, qui contribuent à accroîre le budget de ses recettes.
-       </p>
-       <p xml:id="para_10_234_268">
-        Les économistes et les hommes d'Etat ne sauraient trop s'appli¬quer aujourd'hui à déterminer exactement les causes qui entrainent la dépopulatio de nos campagnes, et à rechercher ensuite, soit dans l'initiative privée, soit dans l'intervention du gouvernement, les moyens d'arrêter un mal si préjudiciable à notre pays.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_17">(A) SUR L'ÉTAT MOAL ET RELIGIEUX DES HABITANTS DE LA COMMUNE DE S*** ET SUR LEUR TENDANCE A ABANDONNER LES TRAVAUX DES CHAMPS POUR CEUX DES VILLES.</head>
+       <p xml:id="para_10_233_262"><pb facs="#facs_236" n="233" source="lesouvriersdesde04sociuoft_0239.xml"/> Dans la commune de S***, l'indifférence en matière de religion est le sentiment dominant, surtout dans la classe des paysans. La bourgeoisie suit avec assez d'assiduité les exercices du culte. Cette situation doit être attribuée aux habitudes contractées dans les manufactures qui existaient dans la localité à la fin du siècle der¬nier et au commencement de celui-ci (<ref target="#part_02_01_03" type="renvoi_int_mono">§ 3</ref>). L'agglomération dans les ateliers des ouvriers des deux sexes était nuisible aux bonnes meurs, et, malgré la disparition de ces fabriques, la population actuelle se ressent encore des habitudes dans lesquelles elle a été </p>
+       <p xml:id="para_10_233_263">Cependant le clergé de la commune, composé d'un curé et d'un vicaire, n'éprouve en général aucune difficulté à faire faire la pre¬mière communion aux enfants ; mais il est rare qu'après l'accom¬plissement de cet acte il puisse les conserver au catéchisme de persévérance. La première communion est considérée par les parents comme le terme de l'éducation de leurs enfants qui, à partir de ce moment, s'adonnent complétement au travail, soit dans la famille, soit en apprentissage. Le curé de S*** se plaît a constater que depuis une vingtaine d'années le respect de la reli¬gion a fait quelques progrès dans la commune. La ferveur religieuse n'a pas augmenté, mais il n'y a plus dans la classe ouvrière, comme au dernier siècle, d'hostilié manifeste contre les choses saintes, hostilité qui se traduisait souvent par des propos injurieux contre les ministres du culte. En même temps, les mœurs se sont amé¬liorées ; ainsi le concubinage est aussi rare maintenant dans le pays qu'il était fréquent au temps des fabriques.</p>
+       <p xml:id="para_10_233_264">Ce progrès moral, qui doit être attribué principalement à la dispariion des manufactures, est du aussi, en parie, à l'établis¬sement dans le pays des frères de la Doctrine chrétienne, qui sont parvenus à acquérir sur la jeunesse une influence salutaire (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>).</p>
+       <p xml:id="para_10_234_265"><pb facs="#facs_237" n="234" source="lesouvriersdesde04sociuoft_0240.xml"/> Les habitants ont généralement des mœurs douces ; ils sont polis et respectueux envers leurs supérieurs ; il est rare qu'on rencontre un paysan, sans qu'il vous salue le premier. Leur principal défaut est de rechercher avant tout le bien-étre matériel et l'apparence du luxe : une bonne nourriture, de beaux habits, des habitations commodes, souvent plus propres à l'extérieur qu'à l'intérieur.</p>
+       <p xml:id="para_10_234_266">On remarque également chez eux une tendance assez générale à sortir de leur condition. Les paysans considèrent le travail de la terre comme plus vil que celui d'un métier quelconque ; les gar¬çons veulent aller dans les villes pour y apprendre un état. Il en est de même des filles ; elles se font couturières. Elles trouvent que le travail des champs est trop fatigant, et qu'il ne se prète pas assez à la toilette et à la coquetterie. Enfin, pour se marier, elles préfèrent les ouvriers de l'industrie aux cultivateurs. Cet état de choses menace sérieusement de priver de bras l'agriculture.</p>
+       <p xml:id="para_10_234_267">Et cependant, qui n'a remarqué que les ouvriers à métiers, bien que gagnant des salaires plus élevés, sont généralement moins heureux et plus exposés à l'indigence que les travailleurs des champs Ils n'ont pas la même facilité que ces derniers de devenir un jour propriétaires, et ils n'en ont pas autant le désir. IIs ne cherchent pas à faire d'épargnes dans ce but, et ils dépensent la plupart du temps leurs salaires à mesure qu'ils les touchent. L'argent leur est plus familier qu'au laboureur, qui en reçoit moins souvent et qui y attache plus de prix. Plus économe par consé¬quent, plus attentif a restreindre ses besoins, ce dernier parvient ordinairement, à force de privations, à acquérir une petite pro¬priété. Le jardin, le champ qu'il cultive, lui fournissent une partie des choses nécessaires à la vie ; pour lui, jamais de chomage : sa position est donc plus assurée que celle de l'artisan. Aussi voit-on plus d'indigents dans les pays indusriels que dans les pays agri¬coles, où le plus pauvre a en général une vache, un porc ou quel¬ques autres animaux domestiques, qui contribuent à accroîre le budget de ses recettes.</p>
+       <p xml:id="para_10_234_268">Les économistes et les hommes d'Etat ne sauraient trop s'appli¬quer aujourd'hui à déterminer exactement les causes qui entrainent la dépopulatio de nos campagnes, et à rechercher ensuite, soit dans l'initiative privée, soit dans l'intervention du gouvernement, les moyens d'arrêter un mal si préjudiciable à notre pays.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_18">
-        (B) SUR L'ÉTAT DE L'INSTRUCTION PUBLIQUE DANS LA COMMUNE DE S***
-       </head>
-       <p xml:id="para_10_235_270">
-        <pb facs="#facs_238" n="235" source="lesouvriersdesde04sociuoft_0241.xml"/>
-        L'instruction publique est en voie de progrès dans le canton, depuis que des écoles primaires y ont été établies, et surtout depuis que la loi du 28 juin 1833 a obligé les communes à pourvoir hono¬rablement aux frais de leur école.
-       </p>
-       <p xml:id="para_10_235_271">
-        La direction de l'école communale de gᵉ est confiée à trois frères de la Doctrine chrétienne, dont la maison centrale est établie à Vezelize, près de Nancy. Cette communauté compte 200 membres.
-       </p>
-       <p xml:id="para_10_235_272">
-        Les frères reçoivent la rétribution attribuée aux instituteurs primaires, qui est de 1ᶠ 50 par mois et par élève. De son côté, la commune leur donne une gratification annuelle de 300ᶠ; en outre, c'est elle qui fournit la maison d'école et le bois de chauffage pour les classes. Les frères sont tenus de recevoir gratuitement à l'école 24 enfants d'indigents. Pour avoir leurs enfants admis en cette qualité, les parents doivent en faire la demande au maire de la com¬mune, qui prend ordinairement l'avis du curé et fait ensuite ap¬prouver sa décision par le préfet du département. Mais en général les pauvres gens mettent un certain amour-propre à ne pas pro¬fiter de ce bénéfice, et ils préfèrent payer la rétribution intégrale.
-       </p>
-       <p xml:id="para_10_235_273">
-        Les frères prennent des élèves dès l'âge de 7 ans, et ils les conservent habituellement jusqu'à l'époque de la première com¬munion, c'est-à-dire jusqu'à 12 ans environ. Les parents retirent leurs enfants au moment où ils commenceraient à travailler plus sérieusement.
-       </p>
-       <p xml:id="para_10_235_274">
-        D'après les derniers recensements, il y avait dans la commune 97 garçons, dont 5 seulement n'ont pas fréquenté l'école pendant l'année. C'est en février qu'il y a eu le plus grand nombre d'élèves; on en a compté jusqu'à 71 pendant ce mois ; en juillet et en sep¬tembre, leur nombre est descendu à 50. 28 élèves recoivent une insruction spéciale, qui sort du cadre de l'enseignement pri¬maire. L'école est divisée en quatre divisions ou classes ; on compte en outre deux classes de plain-chant comptant 35 élèves, dont une partie se réunit le dimanche et les jours de fête à l'église pour chanter la grand'messe, en donnant ainsi un plus grand éclat aux cérémonies religieuses.
-       </p>
-       <p xml:id="para_10_235_275">
-        Il y a aussi à S***, chez les frères, des leçons d'arboriculture pour les élèves.
-       </p>
-       <p xml:id="para_10_235_276">
-        L'instruction est donnée aux filles par les dames de la Congré¬gation de Nevers. L'école des filles est plus considérable que celle
-        <pb facs="#facs_239" n="236" source="lesouvriersdesde04sociuoft_0242.xml"/>
-        des garçons : on y compte environ 120 filles de 7 à 14 ans, parmi lesquelles une trentaine de pensionnaires qui n'appartiennent pas toutes à la commune. Le prix de l'externat varie de 1ᶠ 50 a 5ᶠ 00 par mois ; 38 elèves, filles de parents indigents, reçoivent l'instruc¬tion gratuite. Sur le nombre des jeunes filles en état de fréquenter l'école à  S***, il n'y en a que qui ne s'y rendent pas.
-       </p>
-       <p xml:id="para_10_236_278">
-        Les religieuses tiennent en outre un asile pour les garçons et pour les filles de 2 à 7 ans. L'asile reçoit en moyenne 80 enfants ; sur ce nombre, 30 sont admis gratuitement par suite d'une sub¬vention de 100ᶠ donnée à l'asile par la commune. Le prix d'ad¬mission est de 0ᶠ 50 par mois : les enfants en sortent sachant à peine lire.
-       </p>
-       <p xml:id="para_10_236_279">
-        Généralement à S***, comme dans la plupart des communes rurales, les enfants ont à mener de front avec les travaux de l'école une série d'occupations domestiques, profitables au bien-être de leurs familles. C'est ainsi que les garçons sont chargés de la garde des besiaux, les filles des soins à donner à certaines parties du mé¬nage et à leurs jeunes frères et sœurs. De plus, les enfants ne fré¬quentent pas l'école pendant les mois de la belle saison ; car alors les travaux de récolte leur permettent de donner à leurs parents un concours encore plus efficace. La fécondité du ménage ici dé¬crit lui a donné l'aisance plutôt que la gêne : elle a été le stimu¬lant le plus efficace pour pousser l'ouvrier à l'épargne, et le frein le plus sûr pour le détourner de la dissipation ; elle est maintenant une source de profits importants, comme le prouve (R. 3ᵉ et 4ᵉ SP) la part des enfants dans les salaires de la famille et dans les béné¬fices de ses industries. La présente monographie ne justifie donc point la doctrine de quelques économistes qui, se fondant sur un principe de population trop célèbre, recommandent la stérilié au nom d'une fausse prévoyance. La même conclusion se trouve déjà établie par beaucoup de monographies publiées. [
-        <ref target="#" type="renvoi_ext_oe">
-         Les Ouv. europ., XV (A), XXIII (§ 4)
-        </ref>
-        :
-        <ref target="#ID-003a" type="renvoi_int_od2m">
-         les ouv. des Deux Mondes, Nos 3
-        </ref>
-        ,
-        <ref target="#ID-021a" type="renvoi_int_od2m">
-         21
-        </ref>
-        ,
-        <ref target="#ID-027a" type="renvoi_int_od2m">
-         27
-        </ref>
-        .]
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_18">(B) SUR L'ÉTAT DE L'INSTRUCTION PUBLIQUE DANS LA COMMUNE DE S***</head>
+       <p xml:id="para_10_235_270"><pb facs="#facs_238" n="235" source="lesouvriersdesde04sociuoft_0241.xml"/> L'instruction publique est en voie de progrès dans le canton, depuis que des écoles primaires y ont été établies, et surtout depuis que la loi du 28 juin 1833 a obligé les communes à pourvoir hono¬rablement aux frais de leur école.</p>
+       <p xml:id="para_10_235_271">La direction de l'école communale de gᵉ est confiée à trois frères de la Doctrine chrétienne, dont la maison centrale est établie à Vezelize, près de Nancy. Cette communauté compte 200 membres.</p>
+       <p xml:id="para_10_235_272">Les frères reçoivent la rétribution attribuée aux instituteurs primaires, qui est de 1ᶠ 50 par mois et par élève. De son côté, la commune leur donne une gratification annuelle de 300ᶠ; en outre, c'est elle qui fournit la maison d'école et le bois de chauffage pour les classes. Les frères sont tenus de recevoir gratuitement à l'école 24 enfants d'indigents. Pour avoir leurs enfants admis en cette qualité, les parents doivent en faire la demande au maire de la com¬mune, qui prend ordinairement l'avis du curé et fait ensuite ap¬prouver sa décision par le préfet du département. Mais en général les pauvres gens mettent un certain amour-propre à ne pas pro¬fiter de ce bénéfice, et ils préfèrent payer la rétribution intégrale.</p>
+       <p xml:id="para_10_235_273">Les frères prennent des élèves dès l'âge de 7 ans, et ils les conservent habituellement jusqu'à l'époque de la première com¬munion, c'est-à-dire jusqu'à 12 ans environ. Les parents retirent leurs enfants au moment où ils commenceraient à travailler plus sérieusement.</p>
+       <p xml:id="para_10_235_274">D'après les derniers recensements, il y avait dans la commune 97 garçons, dont 5 seulement n'ont pas fréquenté l'école pendant l'année. C'est en février qu'il y a eu le plus grand nombre d'élèves; on en a compté jusqu'à 71 pendant ce mois ; en juillet et en sep¬tembre, leur nombre est descendu à 50. 28 élèves recoivent une insruction spéciale, qui sort du cadre de l'enseignement pri¬maire. L'école est divisée en quatre divisions ou classes ; on compte en outre deux classes de plain-chant comptant 35 élèves, dont une partie se réunit le dimanche et les jours de fête à l'église pour chanter la grand'messe, en donnant ainsi un plus grand éclat aux cérémonies religieuses.</p>
+       <p xml:id="para_10_235_275">Il y a aussi à S***, chez les frères, des leçons d'arboriculture pour les élèves.</p>
+       <p xml:id="para_10_235_276">L'instruction est donnée aux filles par les dames de la Congré¬gation de Nevers. L'école des filles est plus considérable que celle<pb facs="#facs_239" n="236" source="lesouvriersdesde04sociuoft_0242.xml"/>des garçons : on y compte environ 120 filles de 7 à 14 ans, parmi lesquelles une trentaine de pensionnaires qui n'appartiennent pas toutes à la commune. Le prix de l'externat varie de 1ᶠ 50 a 5ᶠ 00 par mois ; 38 elèves, filles de parents indigents, reçoivent l'instruc¬tion gratuite. Sur le nombre des jeunes filles en état de fréquenter l'école à  S***, il n'y en a que qui ne s'y rendent pas.</p>
+       <p xml:id="para_10_236_278">Les religieuses tiennent en outre un asile pour les garçons et pour les filles de 2 à 7 ans. L'asile reçoit en moyenne 80 enfants ; sur ce nombre, 30 sont admis gratuitement par suite d'une sub¬vention de 100ᶠ donnée à l'asile par la commune. Le prix d'ad¬mission est de 0ᶠ 50 par mois : les enfants en sortent sachant à peine lire.</p>
+       <p xml:id="para_10_236_279">Généralement à S***, comme dans la plupart des communes rurales, les enfants ont à mener de front avec les travaux de l'école une série d'occupations domestiques, profitables au bien-être de leurs familles. C'est ainsi que les garçons sont chargés de la garde des besiaux, les filles des soins à donner à certaines parties du mé¬nage et à leurs jeunes frères et sœurs. De plus, les enfants ne fré¬quentent pas l'école pendant les mois de la belle saison ; car alors les travaux de récolte leur permettent de donner à leurs parents un concours encore plus efficace. La fécondité du ménage ici dé¬crit lui a donné l'aisance plutôt que la gêne : elle a été le stimu¬lant le plus efficace pour pousser l'ouvrier à l'épargne, et le frein le plus sûr pour le détourner de la dissipation ; elle est maintenant une source de profits importants, comme le prouve (R. 3ᵉ et 4ᵉ SP) la part des enfants dans les salaires de la famille et dans les béné¬fices de ses industries. La présente monographie ne justifie donc point la doctrine de quelques économistes qui, se fondant sur un principe de population trop célèbre, recommandent la stérilié au nom d'une fausse prévoyance. La même conclusion se trouve déjà établie par beaucoup de monographies publiées. [<ref target="#" type="renvoi_ext_oe">Les Ouv. europ., XV (A), XXIII (§ 4)</ref> :<ref target="#ID-003a" type="renvoi_int_od2m">les ouv. des Deux Mondes, Nos 3</ref>,<ref target="#ID-021a" type="renvoi_int_od2m">21</ref>,<ref target="#ID-027a" type="renvoi_int_od2m">27</ref>.]</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_19">
-        (C) SUR LES EFFETS DU RACHAT DU DROIT DE PACAGE.
-       </head>
-       <p xml:id="para_10_237_281">
-        <pb facs="#facs_240" n="237" source="lesouvriersdesde04sociuoft_0243.xml"/>
-        Depuis le XVᵉ siècle, les habitants de la commune de S*** ont joui de cetains droits d'usage qui leur avaient été accordés par leurs seigneurs moyennant la faible redevance d'un bichet
-        <note type="bp">
-         <p>
-          Un demi-hectolitre.
-         </p>
-        </note>
-        d'avoine qu'ils portaient chaque année dans les greniers du château. Cette redevance a été payée jusqu'en 1789.
-       </p>
-       <p xml:id="para_10_237_282">
-        Ces droits d'usage consistaient à pouvoir couper et ramasser le bois mort et à faire paître les bestiaux dans les bois seigneuriaux ; mais dans ces derniers temps la jouissance du droit de pacage était à peu près abandonnée par les habitans. La cause de cet abandon volontaire résultait principalement d'une difficulté inhérente à l'exercice du droit lui-mêne, à savoir, la difficulté de trouver un pâtre commun pour les bestiaux, condition qui avait été imposée aux habitants. Les progrès de l'agriculture démonraient qu'il n'y avait pas profit, pour le propriétaire de bestiaux, à les envoyer paître, comme on le faisait autrefois, dans les bois du seigneur. De là une diminution toujours croissante dans le nombre des bêtes à conduire au pacage, et, comme la minime rétribution du pâtre commun était en raison de chaque tête de bétail, il s'ensuivait, ou qu'on ne trouvait pas de pâtre commun, ou que, si on parvenait à s'en procurer un, celui- ci, au bout de peu de temps, laissait là le troupeau, trouvant plus d'avantage à faire quelque autre mé¬tier. L'exercice du droit de pacage était donc tantôt repris, tantôt abandonné, suivant qu'il était possible ou non d'avoir un pâtre commun.
-       </p>
-       <p xml:id="para_10_237_283">
-        Tel etait l'état des choses, lorsqu'en 1852, le propriétaire des anciens bois seigneuriaux, se prévalant de la faculté que donnent les articles 64 et 120 du Code forestier
-        <note type="bp">
-         <p>
-          Art. 64. — Quant aux autres droits d'usage quelconques et aux pâturage, passage et glandée dans les forêts de l'État, ils ne pourront être convertis en cantonnements; mais ils pourront être rachetés moyennant des indemnités qui seront réglées de gré à gré, ou, en cas de contestation, par les tribunaux. — Néanmoins, le rachat ne pourra être requis par l'administration, dans les lieux où l'exercice du droit de pâturage est devenu d'une absolue nécessité pour les hahitants d'une ou de plusieurs communes. Si cette nécessité est contetée par l'administration forestière, les parties se pourvoiront devant le conseil de préfecture, qui, après une enquête de commodo et incommodo, statuera, sauf le recours au conseil d'Etat.
-         </p>
-         <p>
-          Art. 120. — Toutes les dispositions contenues dans les art. 64, 66... de la présente loi, sont applicables à l'exercice des droits d'usage dans les forêts des particuliers, lesquels y exercent, à cet effet, les mêmes droits et la même surveillance que les agents du gouvernement dans les forêts soumises au régime forestier.
-         </p>
-        </note>
-        , demanda de racheter le
-        <pb facs="#facs_241" n="238" source="lesouvriersdesde04sociuoft_0244.xml"/>
-        droit de pâturage, moyennant une indemnité. Après autorisation de l'administration départementale, la commune fit abandon de ce droit et obtint en retour certaines concessions, représentant une rente annuelle de 325ᶠ, somme à laquelle le revenu du droit de pacage avait été contradictoirement estimé. Ces conditions furent considérées comme avantageuses pour la commune. Les paysans, en genéral, n'ont fait entendre aucune plainte au sujet de cette mesure, et depuis huit ans qu'elle a été prise le nombre des bes¬tiaux n'a pas diminué dans la localité. Il est bon de remarquer d'ailleurs que les habitants ont conservé le droit d'aller faire de l'herbe dans les bois pour leurs bestiaux et qu'ils en usent large¬ment. Les animaux sortent, il est vrai, moins souvent qu'autrefois de l'étable, mais les fumiers n'en sont que plus abondants, et les paysans savent fort bien apprécier cet avantage pour leurs récoltes. Les jachères ont disparu presque complétement, et des prairies ar¬ificielles ont été introduites dans le système de culture. Le rachat du droit de pacage paraît donc avoir été une des causes du pro¬grès de l'agriculture dans cette localité.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_19">(C) SUR LES EFFETS DU RACHAT DU DROIT DE PACAGE.</head>
+       <p xml:id="para_10_237_281"><pb facs="#facs_240" n="237" source="lesouvriersdesde04sociuoft_0243.xml"/> Depuis le XVᵉ siècle, les habitants de la commune de S*** ont joui de cetains droits d'usage qui leur avaient été accordés par leurs seigneurs moyennant la faible redevance d'un bichet<note type="bp">
+         <p>Un demi-hectolitre.</p>
+        </note>d'avoine qu'ils portaient chaque année dans les greniers du château. Cette redevance a été payée jusqu'en 1789.</p>
+       <p xml:id="para_10_237_282">Ces droits d'usage consistaient à pouvoir couper et ramasser le bois mort et à faire paître les bestiaux dans les bois seigneuriaux ; mais dans ces derniers temps la jouissance du droit de pacage était à peu près abandonnée par les habitans. La cause de cet abandon volontaire résultait principalement d'une difficulté inhérente à l'exercice du droit lui-mêne, à savoir, la difficulté de trouver un pâtre commun pour les bestiaux, condition qui avait été imposée aux habitants. Les progrès de l'agriculture démonraient qu'il n'y avait pas profit, pour le propriétaire de bestiaux, à les envoyer paître, comme on le faisait autrefois, dans les bois du seigneur. De là une diminution toujours croissante dans le nombre des bêtes à conduire au pacage, et, comme la minime rétribution du pâtre commun était en raison de chaque tête de bétail, il s'ensuivait, ou qu'on ne trouvait pas de pâtre commun, ou que, si on parvenait à s'en procurer un, celui- ci, au bout de peu de temps, laissait là le troupeau, trouvant plus d'avantage à faire quelque autre mé¬tier. L'exercice du droit de pacage était donc tantôt repris, tantôt abandonné, suivant qu'il était possible ou non d'avoir un pâtre commun.</p>
+       <p xml:id="para_10_237_283">Tel etait l'état des choses, lorsqu'en 1852, le propriétaire des anciens bois seigneuriaux, se prévalant de la faculté que donnent les articles 64 et 120 du Code forestier<note type="bp">
+         <p>Art. 64. — Quant aux autres droits d'usage quelconques et aux pâturage, passage et glandée dans les forêts de l'État, ils ne pourront être convertis en cantonnements; mais ils pourront être rachetés moyennant des indemnités qui seront réglées de gré à gré, ou, en cas de contestation, par les tribunaux. — Néanmoins, le rachat ne pourra être requis par l'administration, dans les lieux où l'exercice du droit de pâturage est devenu d'une absolue nécessité pour les hahitants d'une ou de plusieurs communes. Si cette nécessité est contetée par l'administration forestière, les parties se pourvoiront devant le conseil de préfecture, qui, après une enquête de commodo et incommodo, statuera, sauf le recours au conseil d'Etat.</p>
+         <p>Art. 120. — Toutes les dispositions contenues dans les art. 64, 66... de la présente loi, sont applicables à l'exercice des droits d'usage dans les forêts des particuliers, lesquels y exercent, à cet effet, les mêmes droits et la même surveillance que les agents du gouvernement dans les forêts soumises au régime forestier.</p>
+        </note>, demanda de racheter le<pb facs="#facs_241" n="238" source="lesouvriersdesde04sociuoft_0244.xml"/>droit de pâturage, moyennant une indemnité. Après autorisation de l'administration départementale, la commune fit abandon de ce droit et obtint en retour certaines concessions, représentant une rente annuelle de 325ᶠ, somme à laquelle le revenu du droit de pacage avait été contradictoirement estimé. Ces conditions furent considérées comme avantageuses pour la commune. Les paysans, en genéral, n'ont fait entendre aucune plainte au sujet de cette mesure, et depuis huit ans qu'elle a été prise le nombre des bes¬tiaux n'a pas diminué dans la localité. Il est bon de remarquer d'ailleurs que les habitants ont conservé le droit d'aller faire de l'herbe dans les bois pour leurs bestiaux et qu'ils en usent large¬ment. Les animaux sortent, il est vrai, moins souvent qu'autrefois de l'étable, mais les fumiers n'en sont que plus abondants, et les paysans savent fort bien apprécier cet avantage pour leurs récoltes. Les jachères ont disparu presque complétement, et des prairies ar¬ificielles ont été introduites dans le système de culture. Le rachat du droit de pacage paraît donc avoir été une des causes du pro¬grès de l'agriculture dans cette localité.</p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_20">
-        (D) SUR LA SUPPRESSION DES FABRIQUES A S***
-       </head>
-       <p xml:id="para_10_238_286">
-        En 1666, une manufacture de serges, facon de Londres, fut établie à S*** par Colbert dans un vaste bâtiment construit dans ce but. On fit venir de Londres des ouvriers qui furent entretenus à grands frais pour apprendre la fabrication aux habitants dupays. Ces serges ou londes étaient, de toute la France, celles qui se rap¬prochaient le plus des serges anglaises. C'était une étoffe de laine assez grossière, tenant le milieu entre le drap et les tissus de laine légers, très-solide et revenant à un prix assez élevé. On fabri¬quait dans le même établissement du drap pour les fournitures mi¬liaires.
-       </p>
-       <p xml:id="para_10_238_287">
-        Cette manufacture fut régie aux frais de l'Eat jusqu'en 1789; aussi l'appelait-on mufcture royade. Pour y attirer les ouvriers, on y avait ouvert un asile, de sorte que celui qui était poursuivi par la justice pour un délit quelconque pouvait s'y réfugier et y de¬meurer en sûreté comme dans un sanctuaire inviolable. Ce privilége y amena un grand nombre d'ouvriers de toutes les parties de la France ; on en compta un moment jusqu'à 700.
-       </p>
-       <p xml:id="para_10_239_288">
-        <pb facs="#facs_242" n="239" source="lesouvriersdesde04sociuoft_0245.xml"/>
-        Dans la Descrpion du duché de Bourgoge, on lit : « Les bâti¬ments appartiennent au roi, qui donne à l'entrepreneur 600 livres par an pour l'entretien. » Par le traité que l'entrepreneur avait fait avec les fermiers généraux, qui s'étaient chargés decette ma¬nufacture vers la fin du xv siècle, il devait s'y fabriquer 900 pièces de serge par an.
-       </p>
-       <p xml:id="para_10_239_289">
-        En même temps que la fabrique de serge on installa à S*** ne manufacture de soie, qui reçut moins de développement que la première.
-       </p>
-       <p xml:id="para_10_239_290">
-        La manufacture royale ayant été supprimée en 1790, divers par¬ticuliers en acbetèrent le matèriel, retinrent ses ouvriers et fon¬dèrent de petites fabriques qui conservèrent l'ancienne réputation du pays pour la fabrication des serges.
-       </p>
-       <p xml:id="para_10_239_291">
-        En 1815, la concurrence des mécaniques de Troyes qui cardaient et filaient les laines mirent 2060 ouvriers de dans la nécessité de s'expatrier. Deu pareilles mécaniques s'établirent même sur la rivière du Serain, près de S***, et diminuèrent encore dans la com¬mune le nombre des ouvriers, dont une grande partie alla cher¬cher du travail dans les villes. En 1847, on ne comptait plus que trois fabriques dans la localité; elles cessèrent complétement deux années après, se trouvant dans l'impossibilité de lutter avec les villes manufacturières du Nord. Les draps légers et de belle ap¬parence fabriqués par ces dernières obtinrent la préférence sur ceux de S***, bien que ceux-ci fussent plus forts et plus durables.
-       </p>
-       <p xml:id="para_10_239_292">
-        C'est ainsi que le pays, de manufacturier qu'il était à la fin du XVI Siècle, est redevenu complétement agricole. On ne saurait le regretter au point de vue moral, puisque nous avons vu combien, à cet égard, il avait gagné à cette transformation [
-        <ref target="#part_02_01_03" type="renvoi_int_mono">
-         §3
-        </ref>
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         (A)
-        </ref>
-        ].
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_20">(D) SUR LA SUPPRESSION DES FABRIQUES A S***</head>
+       <p xml:id="para_10_238_286">En 1666, une manufacture de serges, facon de Londres, fut établie à S*** par Colbert dans un vaste bâtiment construit dans ce but. On fit venir de Londres des ouvriers qui furent entretenus à grands frais pour apprendre la fabrication aux habitants dupays. Ces serges ou londes étaient, de toute la France, celles qui se rap¬prochaient le plus des serges anglaises. C'était une étoffe de laine assez grossière, tenant le milieu entre le drap et les tissus de laine légers, très-solide et revenant à un prix assez élevé. On fabri¬quait dans le même établissement du drap pour les fournitures mi¬liaires.</p>
+       <p xml:id="para_10_238_287">Cette manufacture fut régie aux frais de l'Eat jusqu'en 1789; aussi l'appelait-on mufcture royade. Pour y attirer les ouvriers, on y avait ouvert un asile, de sorte que celui qui était poursuivi par la justice pour un délit quelconque pouvait s'y réfugier et y de¬meurer en sûreté comme dans un sanctuaire inviolable. Ce privilége y amena un grand nombre d'ouvriers de toutes les parties de la France ; on en compta un moment jusqu'à 700.</p>
+       <p xml:id="para_10_239_288"><pb facs="#facs_242" n="239" source="lesouvriersdesde04sociuoft_0245.xml"/> Dans la Descrpion du duché de Bourgoge, on lit : « Les bâti¬ments appartiennent au roi, qui donne à l'entrepreneur 600 livres par an pour l'entretien. » Par le traité que l'entrepreneur avait fait avec les fermiers généraux, qui s'étaient chargés decette ma¬nufacture vers la fin du xv siècle, il devait s'y fabriquer 900 pièces de serge par an.</p>
+       <p xml:id="para_10_239_289">En même temps que la fabrique de serge on installa à S*** ne manufacture de soie, qui reçut moins de développement que la première.</p>
+       <p xml:id="para_10_239_290">La manufacture royale ayant été supprimée en 1790, divers par¬ticuliers en acbetèrent le matèriel, retinrent ses ouvriers et fon¬dèrent de petites fabriques qui conservèrent l'ancienne réputation du pays pour la fabrication des serges.</p>
+       <p xml:id="para_10_239_291">En 1815, la concurrence des mécaniques de Troyes qui cardaient et filaient les laines mirent 2060 ouvriers de dans la nécessité de s'expatrier. Deu pareilles mécaniques s'établirent même sur la rivière du Serain, près de S***, et diminuèrent encore dans la com¬mune le nombre des ouvriers, dont une grande partie alla cher¬cher du travail dans les villes. En 1847, on ne comptait plus que trois fabriques dans la localité; elles cessèrent complétement deux années après, se trouvant dans l'impossibilité de lutter avec les villes manufacturières du Nord. Les draps légers et de belle ap¬parence fabriqués par ces dernières obtinrent la préférence sur ceux de S***, bien que ceux-ci fussent plus forts et plus durables.</p>
+       <p xml:id="para_10_239_292">C'est ainsi que le pays, de manufacturier qu'il était à la fin du XVI Siècle, est redevenu complétement agricole. On ne saurait le regretter au point de vue moral, puisque nous avons vu combien, à cet égard, il avait gagné à cette transformation [<ref target="#part_02_01_03" type="renvoi_int_mono">§3</ref> (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>)
+        ].</p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_21">
-        (E) SUR QUELQUES ANCIENS USAGES CONSERVÉS DANS LA COMMUNE DE S***
-       </head>
-       <p xml:id="para_10_239_294">
-        Il ne sera pas sans intérêt de passer en revue quelques anciens usaes qui ont été conservés dans la commune de S***.
-       </p>
-       <p xml:id="para_10_239_295">
-        Pendant la soirée qui précède la messe de minuit, la veille de Noél, les enfants vont chanter aux portes un vieux cantique, dia¬logue entre Die et une âme arrivée aux portes du ciel, à laquelle on demande compte de sa vie.
-       </p>
-       <p xml:id="para_10_239_296">
-        Une fois la chanson terminée, on donne aux chanteurs leur
-        <pb facs="#facs_243" n="240" source="lesouvriersdesde04sociuoft_0246.xml"/>
-        grigcnleu, c'est-à-dire quelques fruits, quelques noix ou quelques sous. Pendant que l'on sonne le premier coup de matines, on met au feu la buiche de oel, qui doit brûler jusqu'au jour des Rois ; ce qui en reste est conservé pour garantir du tonnerre.
-       </p>
-       <p xml:id="para_10_240_298">
-        Pendant la nuit du 1ᵉ mai, les jeunes jeunes gens dressent un ai devant la porte de celles qu'ils ont demandées pour épouses : c'est ordinairement un baliveau arraché la nuit dans les bois.
-       </p>
-       <p xml:id="para_10_240_299">
-        Nous citerons encore d'autres usages tels que la pelée, les roulées et la groudee.
-       </p>
-       <p xml:id="para_10_240_300">
-        En deblayant le dernier de leurs champs, les laboureurs donnent une javelle à chaque glaneur et font ensuite un festin : c'est ce qu'on appelle la pelée.
-       </p>
-       <p xml:id="para_10_240_301">
-        Les roulécs sont dues par les parrains et les marraines à leurs filleuls le lendemain de Pâques ; elles consistent en deux œufs rouges et en deux crapualins, sorte de petits gâteaux secs, d'une forme carrée ou oblongue, dans la confection desquels il entre des
-       </p>
-       <p xml:id="para_10_240_302">
-        La groulée est un repas que les parents et amis prennent chez les nouveaux mariés le dimanche qui suit leurs noces, ou que l'on donne à ses amis et connaissances lorsqu'on est nouvelle¬ment emménagé dans une maison.
-       </p>
-       <p xml:id="para_10_240_303">
-        A la fête des Morts, chaque famille offre habituellement à l'autel un pain et une bouteille de vin. Le même jour ie curé donne à diner à tous les gens de l'église. Aux inhumations et aux relevailles on fait une pareille offrande à laquelle on ajoute quelques sous.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_21">(E) SUR QUELQUES ANCIENS USAGES CONSERVÉS DANS LA COMMUNE DE S***</head>
+       <p xml:id="para_10_239_294">Il ne sera pas sans intérêt de passer en revue quelques anciens usaes qui ont été conservés dans la commune de S***.</p>
+       <p xml:id="para_10_239_295">Pendant la soirée qui précède la messe de minuit, la veille de Noél, les enfants vont chanter aux portes un vieux cantique, dia¬logue entre Die et une âme arrivée aux portes du ciel, à laquelle on demande compte de sa vie.</p>
+       <p xml:id="para_10_239_296">Une fois la chanson terminée, on donne aux chanteurs leur<pb facs="#facs_243" n="240" source="lesouvriersdesde04sociuoft_0246.xml"/>grigcnleu, c'est-à-dire quelques fruits, quelques noix ou quelques sous. Pendant que l'on sonne le premier coup de matines, on met au feu la buiche de oel, qui doit brûler jusqu'au jour des Rois ; ce qui en reste est conservé pour garantir du tonnerre.</p>
+       <p xml:id="para_10_240_298">Pendant la nuit du 1ᵉ mai, les jeunes jeunes gens dressent un ai devant la porte de celles qu'ils ont demandées pour épouses : c'est ordinairement un baliveau arraché la nuit dans les bois.</p>
+       <p xml:id="para_10_240_299">Nous citerons encore d'autres usages tels que la pelée, les roulées et la groudee.</p>
+       <p xml:id="para_10_240_300">En deblayant le dernier de leurs champs, les laboureurs donnent une javelle à chaque glaneur et font ensuite un festin : c'est ce qu'on appelle la pelée.</p>
+       <p xml:id="para_10_240_301">Les roulécs sont dues par les parrains et les marraines à leurs filleuls le lendemain de Pâques ; elles consistent en deux œufs rouges et en deux crapualins, sorte de petits gâteaux secs, d'une forme carrée ou oblongue, dans la confection desquels il entre des</p>
+       <p xml:id="para_10_240_302">La groulée est un repas que les parents et amis prennent chez les nouveaux mariés le dimanche qui suit leurs noces, ou que l'on donne à ses amis et connaissances lorsqu'on est nouvelle¬ment emménagé dans une maison.</p>
+       <p xml:id="para_10_240_303">A la fête des Morts, chaque famille offre habituellement à l'autel un pain et une bouteille de vin. Le même jour ie curé donne à diner à tous les gens de l'église. Aux inhumations et aux relevailles on fait une pareille offrande à laquelle on ajoute quelques sous.</p>
       </div>
      </div>
     </div>
