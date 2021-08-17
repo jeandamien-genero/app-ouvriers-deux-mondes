@@ -54,7 +54,7 @@ def monographies():
         dict_mono = {}
         for row in file:
             dict_mono[row[3]] = [row[0], row[2]]
-        del dict_mono['Titres']
+        del dict_mono['Titles']
     return render_template("corpus.html", corpus=dict_mono)
 
 @app.route("/monographie/<mono_id>")
