@@ -6,19 +6,18 @@ Author : Jean-Damien Généro
 Affiliation : French National Center for Scientific Research (CNRS)
 Assigned at the Centre de recherches historiques (CRH, UMR 8558)
 Date : 2021-07-28
-Update :
+Update : 2021-08-19
 """
 
 
 import csv
-import re
 import os
 from bs4 import BeautifulSoup
 
 
-def persname_id(fileslist) -> None:
+def investigators(fileslist) -> None:
     """
-    Adding persName id. ID = "ID-" + monograph's id + "E" + persName index order.
+    Adding invetigators' ids to <persName>. ID = "ID-" + monograph's id + "E" + persName index order.
     :param fileslist: csv with monographs list, where column 1 is monographs' Ids and column 2 monographs' filenames.
     :type fileslist: str
     """
@@ -45,4 +44,4 @@ def persname_id(fileslist) -> None:
             print("{} ----> Done !".format(path))
 
 
-# persname_id("../csv/id_monographies.csv")
+# investigators("../csv/id_monographies.csv")
