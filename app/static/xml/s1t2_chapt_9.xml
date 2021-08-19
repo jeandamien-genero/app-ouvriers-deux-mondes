@@ -1,83 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-016a" xml:lang="fr">
+<TEI xml:id="ID-016a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title level="m" n="16" type="main">Monteur d'outils en acier de la fabrique d'Hérimoncourt (Doubs - France)</title>
-    <title level="s" type="desc">Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription</title>
-    <title level="m" type="short">monteur-outils-acier-fabrique-herimoncourt-16</title>
-    <author n="1" role="investigator">Charles Robert</author>
-    <editor>Société internationale des études pratiques d'économie sociale</editor>
+    <title level="m" n="16" type="main">
+     Monteur d'outils en acier de la fabrique d'Hérimoncourt (Doubs - France)
+    </title>
+    <title level="s" type="desc">
+     Les Ouvriers des Deux Mondes - série 1, volume 2 - Transcription
+    </title>
+    <title level="m" type="short">
+     monteur-outils-acier-fabrique-herimoncourt-16
+    </title>
+    <author n="1" role="investigator">
+     Charles Robert
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
     <respStmt>
-     <resp>Fichier XML-TEI encodé de 2019 à 2021</resp>
-     <orgName>programme ANR TIME US</orgName>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
     </respStmt>
    </titleStmt>
    <editionStmt>
-    <edition>Édition et encodage scientifique de la monographie n°16 des Ouvriers des deux mondes, "Monteur d'outils en acier de la fabrique d'Hérimoncourt (Doubs - France)". Elle a d'abord été publiée en fascicule en 1858, puis reliée en 1858, à partir d'une enquête réalisée à Hérimoncourt (Doubs, France)  en août et septembre 1858.</edition>
-    <funder>Agence nationale de la Recherche</funder>
+    <edition>
+     Édition et encodage scientifique de la monographie n°16 des Ouvriers des deux mondes, "Monteur d'outils en acier de la fabrique d'Hérimoncourt (Doubs - France)". Elle a d'abord été publiée en fascicule en 1858, puis reliée en 1858, à partir d'une enquête réalisée à Hérimoncourt (Doubs, France)  en août et septembre 1858.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>encodage scientifique</resp>
+     <resp>
+      encodage scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>supervision technique</resp>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </editionStmt>
    <publicationStmt>
-    <publisher>Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH</publisher>
+    <publisher>
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
+    </publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
-    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century</authority>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
     <availability status="free">
-     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">Distributed under an Open License 2.0</licence>
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
    </sourceDesc>
   </fileDesc>
  </teiHeader>
@@ -229,205 +315,640 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_9_285_1">N° 16.</p>
-     <p xml:id="para_9_285_2">MONTEUR D'OUTILS EN ACIER</p>
-     <p xml:id="para_9_285_3">DE LA FABRIQUE D'HÉRIMONCOURT</p>
-     <p>(DOUBS — FRANCE)</p>
-     <p xml:id="para_9_285_4">(Tâcheron chef d'industrie dans le système des engagements volontaires permanents)</p>
-     <p>D'APRÈS LES</p>
-     <p xml:id="para_9_285_5">RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN AOUT ET SEPTEMBRE 1858</p>
-     <p xml:id="para_9_285_6">PAR</p>
-     <p xml:id="para_9_285_7">M.<persName>CHARLES ROBERT</persName>
+     <p xml:id="para_9_285_1">
+      N° 16.
      </p>
-     <p xml:id="para_9_285_8">MAITRE DES REQUÊTES AU CONSEIL D'ÉTAT.</p>
+     <p xml:id="para_9_285_2">
+      MONTEUR D'OUTILS EN ACIER
+     </p>
+     <p xml:id="para_9_285_3">
+      DE LA FABRIQUE D'HÉRIMONCOURT
+     </p>
+     <p>
+      (DOUBS — FRANCE)
+     </p>
+     <p xml:id="para_9_285_4">
+      (Tâcheron chef d'industrie dans le système des engagements volontaires permanents)
+     </p>
+     <p>
+      D'APRÈS LES
+     </p>
+     <p xml:id="para_9_285_5">
+      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN AOUT ET SEPTEMBRE 1858
+     </p>
+     <p xml:id="para_9_285_6">
+      PAR
+     </p>
+     <p xml:id="para_9_285_7">
+      M.
+      <persName>
+       CHARLES ROBERT
+      </persName>
+     </p>
+     <p xml:id="para_9_285_8">
+      MAITRE DES REQUÊTES AU CONSEIL D'ÉTAT.
+     </p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille.</head>
+     <head type="section" xml:id="part_02">
+      Observations préliminaires définissant la condition des divers membres de la famille.
+     </head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">I. Définition du lieu, de l'organisation industrielle et de la famille</head>
+      <head type="sub_section" xml:id="part_02_01">
+       I. Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. — État du sol, de l'industrie et de la population.</head>
-       <p xml:id="para_9_285_14"><pb facs="#facs_288" n="285" source="lesouvriersdesde02sociuoft_0291.xml"/> La famille qui fait l'objet de la présente monographie appartient au district agricole et industriel décrit dans un type précédent (
-        <ref target="#ID-015a" type="renvoi_int_od2m">N° 15, § 1ᵉʳ</ref>) ; l'ouvrier habite le village d'Hérimoncourt et travaille dans l'usine de Terre-Blanche, l'une de celles qu'exploitent les frères P***, sur le territoire des communes d'Hérimoncourt et de Valentigney, et qui sont destinées à la fabrication des outils en acier. Il se rap¬porte à la catégorie des tâcherons monteurs d'outils. Avec le secours de quatre ouvrières formant, à l'usine, un petit atelier placé sous sa direction et dont le matériel spécial lui appartient, il entre<pb facs="#facs_289" n="286" source="lesouvriersdesde02sociuoft_0292.xml"/>prend à des conditions débattues avec les patrons et fixées tempo¬rairement, le montage de certains outils en acier. Le salaire de ces ouvrières, rétribuées comme lui à la tâche, est fixé par le patron sur les propositions discutées et souvent modifiées que l'ouvrier lui-même a faites. Les patrons, servant ainsi d'arbitres entre le tâcheron chef d'industrie et les ouvrières qu'il emploie, empêchent que celui-ci n'abaisse abusivement le prix de la main-d'œuvre, et ne les exploite à son profit. C'est la règle suivie dans les usines des frères P*** ; certains forgeurs, tâcherons, chefs d'industrie dépendant du même établissement, mais travaillant chez eux, emploient des compagnons que les patrons ne connaissent pas et dont ils n'ont pas à défendre les intérêts.</p>
-       <p xml:id="para_9_286_20">La femme de l'ouvrier exerce une industrie domestique dans les moments que lui laissent les soins du ménage ; elle pare et perce les pignons de montre, pour une fabrique du pays. Des travaux acces¬soires, entrepris par elle au compte de la famille, exercent une heu¬reuse influence sur le bien-être du ménage.</p>
-       <p xml:id="para_9_286_21">L'habileté de l'ouvrier, sa bonne conduite, l'énergie et l'esprit de prévoyance de sa compagne placent la famille à un niveau élevé et en font un type de l'ouvrier aisé dans ce district industriel.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1ᵉʳ. — État du sol, de l'industrie et de la population.
+       </head>
+       <p xml:id="para_9_285_14">
+        <pb facs="#facs_288" n="285" source="lesouvriersdesde02sociuoft_0291.xml"/>
+        La famille qui fait l'objet de la présente monographie appartient au district agricole et industriel décrit dans un type précédent (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N° 15, § 1ᵉʳ
+        </ref>
+        ) ; l'ouvrier habite le village d'Hérimoncourt et travaille dans l'usine de Terre-Blanche, l'une de celles qu'exploitent les frères P***, sur le territoire des communes d'Hérimoncourt et de Valentigney, et qui sont destinées à la fabrication des outils en acier. Il se rap¬porte à la catégorie des tâcherons monteurs d'outils. Avec le secours de quatre ouvrières formant, à l'usine, un petit atelier placé sous sa direction et dont le matériel spécial lui appartient, il entre
+        <pb facs="#facs_289" n="286" source="lesouvriersdesde02sociuoft_0292.xml"/>
+        prend à des conditions débattues avec les patrons et fixées tempo¬rairement, le montage de certains outils en acier. Le salaire de ces ouvrières, rétribuées comme lui à la tâche, est fixé par le patron sur les propositions discutées et souvent modifiées que l'ouvrier lui-même a faites. Les patrons, servant ainsi d'arbitres entre le tâcheron chef d'industrie et les ouvrières qu'il emploie, empêchent que celui-ci n'abaisse abusivement le prix de la main-d'œuvre, et ne les exploite à son profit. C'est la règle suivie dans les usines des frères P*** ; certains forgeurs, tâcherons, chefs d'industrie dépendant du même établissement, mais travaillant chez eux, emploient des compagnons que les patrons ne connaissent pas et dont ils n'ont pas à défendre les intérêts.
+       </p>
+       <p xml:id="para_9_286_20">
+        La femme de l'ouvrier exerce une industrie domestique dans les moments que lui laissent les soins du ménage ; elle pare et perce les pignons de montre, pour une fabrique du pays. Des travaux acces¬soires, entrepris par elle au compte de la famille, exercent une heu¬reuse influence sur le bien-être du ménage.
+       </p>
+       <p xml:id="para_9_286_21">
+        L'habileté de l'ouvrier, sa bonne conduite, l'énergie et l'esprit de prévoyance de sa compagne placent la famille à un niveau élevé et en font un type de l'ouvrier aisé dans ce district industriel.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Georges B*** (n°016aE1) - Catherine C*** (n°016aE2) - Emma B*** (n°016aE3)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. — État civil de la famille.</head>
-       <p xml:id="para_9_286_23">La famille se compose de trois personnes, savoir :</p>
-       <p xml:id="para_9_286_24">1.<persName xml:id="ID-016aE1">GEORGES B***</persName>, né à Hérimoncourt (Doubs), marié depuis 4 ans 1/2............ 30 ans;</p>
-       <p xml:id="para_9_286_26">2.<persName xml:id="ID-016aE2">CATHERINE C***</persName>, sa femme, née à Meslières, à 2 kilomètres d'Hérimoncourt............ 30 —</p>
-       <p xml:id="para_9_286_28">3.<persName xml:id="ID-016aE3">Emma B**</persName>, leur fille, née à Hérimoncourt............ 3 1/2</p>
-       <p xml:id="para_9_286_29">Le père de l'ouvrier, Jean B***, est décapeur d'acier dans la même usine (<ref target="#ID-015a" type="renvoi_int_od2m">N°15</ref>) ; malgré son âge, il soutient sa famille par son travail et il en améliore la position par ses épargnes.</p>
-       <p xml:id="para_9_286_30">Les parents de la femme de l'ouvrier habitent la commune de Meslières ; son père, âgé de 54 ans, a travaillé dans le pays comme ouvrier tailleur de pierres ; il est aujourd'hui garde de nuit dans une usine, et propriétaire d'une maison et de quelques champs cultivés par lui ; il possède une vache, une charrue et deux chevaux. La valeur de sa propriété est d'environ 4,000ᶠ; il a eu sept enfants, dont la femme de Georges B*** est l'aînée, et il s'est toujours trouvé dans une position difficile ; sa femme, malade depuis quatre ans, ne peut plus travailler.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. — État civil de la famille.
+       </head>
+       <p xml:id="para_9_286_23">
+        La famille se compose de trois personnes, savoir :
+       </p>
+       <p xml:id="para_9_286_24">
+        1.
+        <persName type="respondent" xml:id="ID-016aE1">
+         GEORGES B***
+        </persName>
+        , né à Hérimoncourt (Doubs), marié depuis 4 ans 1/2............ 30 ans;
+       </p>
+       <p xml:id="para_9_286_26">
+        2.
+        <persName type="respondent" xml:id="ID-016aE2">
+         CATHERINE C***
+        </persName>
+        , sa femme, née à Meslières, à 2 kilomètres d'Hérimoncourt............ 30 —
+       </p>
+       <p xml:id="para_9_286_28">
+        3.
+        <persName type="respondent" xml:id="ID-016aE3">
+         Emma B**
+        </persName>
+        , leur fille, née à Hérimoncourt............ 3 1/2
+       </p>
+       <p xml:id="para_9_286_29">
+        Le père de l'ouvrier, Jean B***, est décapeur d'acier dans la même usine (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N°15
+        </ref>
+        ) ; malgré son âge, il soutient sa famille par son travail et il en améliore la position par ses épargnes.
+       </p>
+       <p xml:id="para_9_286_30">
+        Les parents de la femme de l'ouvrier habitent la commune de Meslières ; son père, âgé de 54 ans, a travaillé dans le pays comme ouvrier tailleur de pierres ; il est aujourd'hui garde de nuit dans une usine, et propriétaire d'une maison et de quelques champs cultivés par lui ; il possède une vache, une charrue et deux chevaux. La valeur de sa propriété est d'environ 4,000ᶠ; il a eu sept enfants, dont la femme de Georges B*** est l'aînée, et il s'est toujours trouvé dans une position difficile ; sa femme, malade depuis quatre ans, ne peut plus travailler.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. — Religion et habitudes morales.</head>
-       <p xml:id="para_9_287_32"><pb facs="#facs_290" n="287" source="lesouvriersdesde02sociuoft_0293.xml"/> Les deux époux professent et pratiquent, comme leurs parents, la religion protestate, et appartiennent à l'Église de la confession d'ugsbourg. Georges B*** aime à lire dans la Bible le soir lorsqu'il a du loisir, et le dimanche quandil ne sort pas ; il a déjà lu deux ou trois fois le Nouveau-Testament tout entier ; il va souvent le diman¬che au temple d'Hérimoncourt, et consacre ce jour au repos. Retenue assez fréquemment au logis par des travaux de ménage, sa femme qui, étant fille, nemanquaitjamais d'assister au cule public, regrette de ne pouvoir s'y rendre avec la même régularité. Elle s'occupe avec une grande sollicitude de l'éducation de sa petite fille ; bien que fatiguée par la turbulence de cette enfant qui l'empêche de se livrer avec assiduité à son travail d'horlogerie (
-        <ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), elle la garde à la maison auprès d'elle, de peur que la fréquetation des autres en¬fants du village lui donne des habitudes de vagabondage et de gros¬sièreté ; elle la conduit dans les champs, lorsqu'elle va les cul¬tiver (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), et attend avec impatience le moment où elle pourra l'envoyer à l'école gratuite fondée par une dame d'érimon¬court (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>).</p>
-       <p xml:id="para_9_287_33">L'ouvrier Georges B*** sait lire et écrire couramment, et faire parfaitement les quatre règles de l'arithmétique. Par suite de la briè¬veté de son séjour à l'école primaire d'Hérimoncourt qu'il a quittée à l'âge de 11 ans, pour entrer dans une fabrique d'horlogerie, il a dû faire d'assez grands efforts pour acquérir ces connaissances élémen¬taires. Elles lui étaientcependant tout à faitindispensablespour l'exer¬cice de sa profession : ayant quatre ouvrières à la tâche sous ses ordres (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), il doit tenir pour chacune d'elles un tableau indiquant avec détail la main-d'œuvre exécutée ; il doit pouvoir faire les calculs que comporte l'application des prix aux pièces fabriquées. Grâce à son goût pour la lecture, il a quelques notions de géographie et d'histoire ; mais il sent et regrette l'insuffisance de sa première instruction (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>). Sa femme sait lire, mais elle ne peut écrire qu'avec peine à cause du manque d'habitude.</p>
-       <p xml:id="para_9_287_34">L'ouvrier et sa femme vivent avec les parents de chacun d'eux dans les meilleurs rapports. De continuels échanges de services et de bons procédés ont lieu entre le ménage de Georges B*** et celui de son père Jean B***, qui habite au rez-de-chaussée de la maison et qui se loue de la manière dont son fils aîné et sa belle-fille rem¬plissent leurs devoirs envers lui. Georges B*** et sa femme, en effet, au lieu de placer leurs économies à 5 p. 00 dans la Caisse d'épar¬gne de la maison P** ou d'acheter de la terre, ont avancé gratui<pb facs="#facs_291" n="288" source="lesouvriersdesde02sociuoft_0294.xml"/>tement 330ᶠ à leurs parents d'Hérimoncourt (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15 § 12</ref>), et 200 à leurs parents de Meslières, auxquels ils font le dimanche de fré¬quentes visites : de plus, il est rare que Georges B*** et sa femme se permettent une dépense d'agrément sans en faire profiter en partie le ménage peu fortuné de Jean Bᵏ.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. — Religion et habitudes morales.
+       </head>
+       <p xml:id="para_9_287_32">
+        <pb facs="#facs_290" n="287" source="lesouvriersdesde02sociuoft_0293.xml"/>
+        Les deux époux professent et pratiquent, comme leurs parents, la religion protestate, et appartiennent à l'Église de la confession d'ugsbourg. Georges B*** aime à lire dans la Bible le soir lorsqu'il a du loisir, et le dimanche quandil ne sort pas ; il a déjà lu deux ou trois fois le Nouveau-Testament tout entier ; il va souvent le diman¬che au temple d'Hérimoncourt, et consacre ce jour au repos. Retenue assez fréquemment au logis par des travaux de ménage, sa femme qui, étant fille, nemanquaitjamais d'assister au cule public, regrette de ne pouvoir s'y rendre avec la même régularité. Elle s'occupe avec une grande sollicitude de l'éducation de sa petite fille ; bien que fatiguée par la turbulence de cette enfant qui l'empêche de se livrer avec assiduité à son travail d'horlogerie (
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         § 8
+        </ref>
+        ), elle la garde à la maison auprès d'elle, de peur que la fréquetation des autres en¬fants du village lui donne des habitudes de vagabondage et de gros¬sièreté ; elle la conduit dans les champs, lorsqu'elle va les cul¬tiver (
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         § 8
+        </ref>
+        ), et attend avec impatience le moment où elle pourra l'envoyer à l'école gratuite fondée par une dame d'érimon¬court (
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         A
+        </ref>
+        ).
+       </p>
+       <p xml:id="para_9_287_33">
+        L'ouvrier Georges B*** sait lire et écrire couramment, et faire parfaitement les quatre règles de l'arithmétique. Par suite de la briè¬veté de son séjour à l'école primaire d'Hérimoncourt qu'il a quittée à l'âge de 11 ans, pour entrer dans une fabrique d'horlogerie, il a dû faire d'assez grands efforts pour acquérir ces connaissances élémen¬taires. Elles lui étaientcependant tout à faitindispensablespour l'exer¬cice de sa profession : ayant quatre ouvrières à la tâche sous ses ordres (
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         § 8
+        </ref>
+        ), il doit tenir pour chacune d'elles un tableau indiquant avec détail la main-d'œuvre exécutée ; il doit pouvoir faire les calculs que comporte l'application des prix aux pièces fabriquées. Grâce à son goût pour la lecture, il a quelques notions de géographie et d'histoire ; mais il sent et regrette l'insuffisance de sa première instruction (
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         A
+        </ref>
+        ). Sa femme sait lire, mais elle ne peut écrire qu'avec peine à cause du manque d'habitude.
+       </p>
+       <p xml:id="para_9_287_34">
+        L'ouvrier et sa femme vivent avec les parents de chacun d'eux dans les meilleurs rapports. De continuels échanges de services et de bons procédés ont lieu entre le ménage de Georges B*** et celui de son père Jean B***, qui habite au rez-de-chaussée de la maison et qui se loue de la manière dont son fils aîné et sa belle-fille rem¬plissent leurs devoirs envers lui. Georges B*** et sa femme, en effet, au lieu de placer leurs économies à 5 p. 00 dans la Caisse d'épar¬gne de la maison P** ou d'acheter de la terre, ont avancé gratui
+        <pb facs="#facs_291" n="288" source="lesouvriersdesde02sociuoft_0294.xml"/>
+        tement 330ᶠ à leurs parents d'Hérimoncourt (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N° 15 § 12
+        </ref>
+        ), et 200 à leurs parents de Meslières, auxquels ils font le dimanche de fré¬quentes visites : de plus, il est rare que Georges B*** et sa femme se permettent une dépense d'agrément sans en faire profiter en partie le ménage peu fortuné de Jean Bᵏ.
+       </p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. — Hygiène et service de santé.</head>
-       <p xml:id="para_9_288_37">L'ouvrier Georges B*** est de moyenne taille, jouit d'une bonne santé, et n'a jamais eu de maladie grave.</p>
-       <p xml:id="para_9_288_38">Sa femme, petite, brune et fortement constituée, se livre, sans en ressentir de suites fâcheuses, aux travaux que son zèle pour la prospérité de la famille lui a fait entreprendre (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>). A l'âge de 12 ans, elle a été atteinte de fièvres dont elle a souffert pendant deux ans, et qui n'ont pas reparu.</p>
-       <p xml:id="para_9_288_39">Leur petite fille est fraîche et robuste.</p>
-       <p xml:id="para_9_288_40">L'ouvrier, qui verse à la Caisse de secours des ouvriers de la mai¬son P (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15 (D</ref>
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. — Hygiène et service de santé.
+       </head>
+       <p xml:id="para_9_288_37">
+        L'ouvrier Georges B*** est de moyenne taille, jouit d'une bonne santé, et n'a jamais eu de maladie grave.
+       </p>
+       <p xml:id="para_9_288_38">
+        Sa femme, petite, brune et fortement constituée, se livre, sans en ressentir de suites fâcheuses, aux travaux que son zèle pour la prospérité de la famille lui a fait entreprendre (
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         § 8
+        </ref>
+        ). A l'âge de 12 ans, elle a été atteinte de fièvres dont elle a souffert pendant deux ans, et qui n'ont pas reparu.
+       </p>
+       <p xml:id="para_9_288_39">
+        Leur petite fille est fraîche et robuste.
+       </p>
+       <p xml:id="para_9_288_40">
+        L'ouvrier, qui verse à la Caisse de secours des ouvriers de la mai¬son P (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N° 15 (D
+        </ref>
         )
-        ], une cotisation de 1 1/2 p. 00 de son salaire, dont le montant, du 1ᵉʳ août 1857 au 1ᵉʳ août 1858, s'est élevé à 16ᶠ 38, a droit pour lui et sa famille aux soins du médecin et aux médicaments ; de plus, s'il est malade, il a droit, à compter du cin¬quième jour, à une indemnité égale à la moitié de son salaire. Le ménage n'aurait recours aux soins du médecin et ne ferait valoir son droit aux médicaments qu'en cas de maladie sérieuse. Lorsqu'n des membres de la famille n'est qu'indisposé, on achète les menus médicaments qui peuvent être nécessaires.</p>
+        ], une cotisation de 1 1/2 p. 00 de son salaire, dont le montant, du 1ᵉʳ août 1857 au 1ᵉʳ août 1858, s'est élevé à 16ᶠ 38, a droit pour lui et sa famille aux soins du médecin et aux médicaments ; de plus, s'il est malade, il a droit, à compter du cin¬quième jour, à une indemnité égale à la moitié de son salaire. Le ménage n'aurait recours aux soins du médecin et ne ferait valoir son droit aux médicaments qu'en cas de maladie sérieuse. Lorsqu'n des membres de la famille n'est qu'indisposé, on achète les menus médicaments qui peuvent être nécessaires.
+       </p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
-       <p xml:id="para_9_288_42">Georges B*** est considéré par le directeur de Terre-Blanche comme un des meilleurs ouvriers de cette. usine. abitué de bonne heure aux travauix industriels, intelligent et adroit, il a pu être placé à la tête d'un atelierimportant, celuidu montage de certains appareils spéciaux, travail d'assemblage et d'ajustage très-compliqué ; sa bonne conduite lui a gagné l'estime des patrons et des ouvriers. Le carnet de Georges B*** ne mentionne aucune amende pour retard ou contravention aux règlements. Marié depuis quatre ans, et père de famille, il comprendl'importance et les avantages de l'économie; toutefois, le chiffre de 50 à 60ᶠ auquel s'élèvent annuellement les dépenses qu'il fait le dimanche avec ses amis montre que l'amour de l'épargne est moins grand chez lui que chez sa femme ; celle-ci, en effet, voudrait mettre de côté autant d'argent que possible pour<pb facs="#facs_292" n="289" source="lesouvriersdesde02sociuoft_0295.xml"/>acheter de la terre ; elle renoncerait à ce désir sil fallait, pour le sa¬tisfaire, retirer à ses parents et à ceux de son mari les épargnes montant à 530ᶠ qui leur ont été prêtées sans intérêts, mais elle pense qu'il serait bon, pour développer chez son mari l'esprit d'éco¬nomie, d'acheter un champ à crédit ; elle est persuadée que si les termes de paiement étaient échelonnés sur un délai de deux ou trois ans, le ménage pourrait sans difficulté, et moyennant quelques pri¬vations, d'autant moins pénibles qu'elles auraient un but précis, arriver à solder le prix de l'acuisition.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. — Rang de la famille.
+       </head>
+       <p xml:id="para_9_288_42">
+        Georges B*** est considéré par le directeur de Terre-Blanche comme un des meilleurs ouvriers de cette. usine. abitué de bonne heure aux travauix industriels, intelligent et adroit, il a pu être placé à la tête d'un atelierimportant, celuidu montage de certains appareils spéciaux, travail d'assemblage et d'ajustage très-compliqué ; sa bonne conduite lui a gagné l'estime des patrons et des ouvriers. Le carnet de Georges B*** ne mentionne aucune amende pour retard ou contravention aux règlements. Marié depuis quatre ans, et père de famille, il comprendl'importance et les avantages de l'économie; toutefois, le chiffre de 50 à 60ᶠ auquel s'élèvent annuellement les dépenses qu'il fait le dimanche avec ses amis montre que l'amour de l'épargne est moins grand chez lui que chez sa femme ; celle-ci, en effet, voudrait mettre de côté autant d'argent que possible pour
+        <pb facs="#facs_292" n="289" source="lesouvriersdesde02sociuoft_0295.xml"/>
+        acheter de la terre ; elle renoncerait à ce désir sil fallait, pour le sa¬tisfaire, retirer à ses parents et à ceux de son mari les épargnes montant à 530ᶠ qui leur ont été prêtées sans intérêts, mais elle pense qu'il serait bon, pour développer chez son mari l'esprit d'éco¬nomie, d'acheter un champ à crédit ; elle est persuadée que si les termes de paiement étaient échelonnés sur un délai de deux ou trois ans, le ménage pourrait sans difficulté, et moyennant quelques pri¬vations, d'autant moins pénibles qu'elles auraient un but précis, arriver à solder le prix de l'acuisition.
+       </p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">II. Moyens d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_02">
+       II. Moyens d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. — Propriétés.
+       </head>
        <div subtype="proprietes_texte_1" type="proprietes">
-        <p xml:id="para_9_289_51">(Mobilier et vêtements non compris)</p>
+        <p xml:id="para_9_289_51">
+         (Mobilier et vêtements non compris)
+        </p>
        </div>
        <div subtype="immeubles" type="proprietes">
-        <p xml:id="para_9_289_52">IMMEUBLES...................................... 00ᶠ 00</p>
-        <p xml:id="para_9_289_53">La famille ne possède aucun immeuble ; elle pourra arriver à la propriété immobilière soit par voie d'héritage du chef des parents de l'ouvrier et du chef. des parents de sa femme, soit en employant a l'acquisition d'un champ les épargnes amassées. Les droits éventuels de l'ouvrier dans la succession de ses père et mère, qu'il partagera avec son frère, peuvent être évalués à 1,500; les droits éventuels de ménme nature qui appartiennent à sa femme représentent une valeur d'environ 4 a 500f.</p>
+        <p xml:id="para_9_289_52">
+         IMMEUBLES...................................... 00ᶠ 00
+        </p>
+        <p xml:id="para_9_289_53">
+         La famille ne possède aucun immeuble ; elle pourra arriver à la propriété immobilière soit par voie d'héritage du chef des parents de l'ouvrier et du chef. des parents de sa femme, soit en employant a l'acquisition d'un champ les épargnes amassées. Les droits éventuels de l'ouvrier dans la succession de ses père et mère, qu'il partagera avec son frère, peuvent être évalués à 1,500; les droits éventuels de ménme nature qui appartiennent à sa femme représentent une valeur d'environ 4 a 500f.
+        </p>
        </div>
        <div subtype="argent" type="proprietes">
-        <p xml:id="para_9_289_54">ARGENT....................................... 590ᶠ 00</p>
-        <p xml:id="para_9_289_55">Les époux ont prêté, sans interêts, leurs épargnes à leurs parents, savoir :</p>
-        <p xml:id="para_9_289_56">1° Une somme de 330ᶠ a Jean B***, père de l'ouvrier (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15, §12</ref>) ;</p>
-        <p xml:id="para_9_289_57">2° Une somme de 200ᶠ au père de la femme de l'ouvrier qui habite Mesliêres, pour l'aider à subvenir aux besoins de sa famille.</p>
-        <p xml:id="para_9_289_58">Ces deux sommes ont été économisées sur le produit des salaires de l'ouvrier et de sa femme, pendant les années 1856 et 1857.</p>
-        <p xml:id="para_9_289_59">3° Une somme de 40ᶠ reste disponible entre les mains de la femme pour pourvoir aux circonstances imprévues qui pourraient se présenter.</p>
+        <p xml:id="para_9_289_54">
+         ARGENT....................................... 590ᶠ 00
+        </p>
+        <p xml:id="para_9_289_55">
+         Les époux ont prêté, sans interêts, leurs épargnes à leurs parents, savoir :
+        </p>
+        <p xml:id="para_9_289_56">
+         1° Une somme de 330ᶠ a Jean B***, père de l'ouvrier (
+         <ref target="#ID-015a" type="renvoi_int_od2m">
+          N° 15, §12
+         </ref>
+         ) ;
+        </p>
+        <p xml:id="para_9_289_57">
+         2° Une somme de 200ᶠ au père de la femme de l'ouvrier qui habite Mesliêres, pour l'aider à subvenir aux besoins de sa famille.
+        </p>
+        <p xml:id="para_9_289_58">
+         Ces deux sommes ont été économisées sur le produit des salaires de l'ouvrier et de sa femme, pendant les années 1856 et 1857.
+        </p>
+        <p xml:id="para_9_289_59">
+         3° Une somme de 40ᶠ reste disponible entre les mains de la femme pour pourvoir aux circonstances imprévues qui pourraient se présenter.
+        </p>
        </div>
        <div subtype="materiel" type="proprietes">
-        <p xml:id="para_9_289_60">MATÉRIEL SPÉCAL des travaux et industries.......... 145ᶠ 75</p>
-        <p xml:id="para_9_289_61">1° Outils servant à l'ouvrier et auxouvrières sous ses ordres poaur travailler ˉl'¬ineˉ. — 16 pièces dites gauides, en acier, à 1ᶠ 50 la pièce, 24ᶠ 00 ; — 16 arbres en acier à 0ᶠ50 la pièce, 8ᶠ 00 ; — 10 mèches à 0ᶠ 35 la pièce, 3ᶠ 50 ; — 30 limes de toute es¬pèce, 20ᶠ 00; — menus outils de toute espèce, pour assembler et ajuster, tels que ci¬seaux, compas, 34ᶠ 50. — Total, 90ᶠ 00.</p>
-        <p xml:id="para_9_289_62">2° Matériel relatifau tour d'horlogerie employe par lafèmme. — 1 établi en bois, 6ᶠ 00; — 1 tabouret, 1ᶠ 00; — accessoires du tourd'horlogerie prèté par la maison pour laquelle la femme travaille, 0ᶠ 0. — Total, 7ᶠ 50. 7</p>
-        <p xml:id="para_9_289_63">3° Outils eruant à la culture du jardin et du chap. — 1 pelle-bêche, 5ᶠ00;<pb facs="#facs_293" n="290" source="lesouvriersdesde02sociuoft_0296.xml"/>un rateau de fer, 1ᶠ 50; — 1 grande pioche, 2 50; 1 petite pioche pour sarcler, 1ᶠ 7; — 1 crochet pour arracher les pommes de terre, 2ᶠ 50; — 3 corbeilles pour récolter les legumes, 2ᶠ 00 ; —7 sacs pour mettre les pommes de terre, 13ᶠ 00. — Total, 28ᶠ 25.</p>
-        <p xml:id="para_9_290_67">4° Utensiles emploes pour ˉle blanchissageˉ. — Cuveau pour couler la lessive, 10ᶠ 00; — drap pour la lessive en très-grosse toile,7ᶠ00 ; —2 baquets, 2ᶠ 00 ; —1 fer à repasser, 1ᶠ 00. — Total, 20ᶠ 00.</p>
-        <p xml:id="para_9_290_69">Pour les menus travaux relatifs à l'entretien du mobilier, et pour le sciage du bois, l'ouvrier se sert d'outils qui appartiennent à son père.</p>
+        <p xml:id="para_9_289_60">
+         MATÉRIEL SPÉCAL des travaux et industries.......... 145ᶠ 75
+        </p>
+        <p xml:id="para_9_289_61">
+         1° Outils servant à l'ouvrier et auxouvrières sous ses ordres poaur travailler ˉl'¬ineˉ. — 16 pièces dites gauides, en acier, à 1ᶠ 50 la pièce, 24ᶠ 00 ; — 16 arbres en acier à 0ᶠ50 la pièce, 8ᶠ 00 ; — 10 mèches à 0ᶠ 35 la pièce, 3ᶠ 50 ; — 30 limes de toute es¬pèce, 20ᶠ 00; — menus outils de toute espèce, pour assembler et ajuster, tels que ci¬seaux, compas, 34ᶠ 50. — Total, 90ᶠ 00.
+        </p>
+        <p xml:id="para_9_289_62">
+         2° Matériel relatifau tour d'horlogerie employe par lafèmme. — 1 établi en bois, 6ᶠ 00; — 1 tabouret, 1ᶠ 00; — accessoires du tourd'horlogerie prèté par la maison pour laquelle la femme travaille, 0ᶠ 0. — Total, 7ᶠ 50. 7
+        </p>
+        <p xml:id="para_9_289_63">
+         3° Outils eruant à la culture du jardin et du chap. — 1 pelle-bêche, 5ᶠ00;
+         <pb facs="#facs_293" n="290" source="lesouvriersdesde02sociuoft_0296.xml"/>
+         un rateau de fer, 1ᶠ 50; — 1 grande pioche, 2 50; 1 petite pioche pour sarcler, 1ᶠ 7; — 1 crochet pour arracher les pommes de terre, 2ᶠ 50; — 3 corbeilles pour récolter les legumes, 2ᶠ 00 ; —7 sacs pour mettre les pommes de terre, 13ᶠ 00. — Total, 28ᶠ 25.
+        </p>
+        <p xml:id="para_9_290_67">
+         4° Utensiles emploes pour ˉle blanchissageˉ. — Cuveau pour couler la lessive, 10ᶠ 00; — drap pour la lessive en très-grosse toile,7ᶠ00 ; —2 baquets, 2ᶠ 00 ; —1 fer à repasser, 1ᶠ 00. — Total, 20ᶠ 00.
+        </p>
+        <p xml:id="para_9_290_69">
+         Pour les menus travaux relatifs à l'entretien du mobilier, et pour le sciage du bois, l'ouvrier se sert d'outils qui appartiennent à son père.
+        </p>
        </div>
        <div subtype="proprietes_total" type="proprietes">
-        <p xml:id="para_9_290_70">VAEUR TOTALE des propriétés..................... 735ᶠ 75</p>
+        <p xml:id="para_9_290_70">
+         VAEUR TOTALE des propriétés..................... 735ᶠ 75
+        </p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
-       <p xml:id="para_9_290_72">Le logement occupé par l'ouvrier représente, d'après le taux actuel des lyers dans la commune <ref target="#ID-015a" type="renvoi_int_od2m">[N°15 (F)]</ref>, un loyer mensuel de 8ᶠ : son père ne lui demandant que 5ᶠ, la différence entre ces deux chiffres constitue une subvention de 36ᶠ par an.</p>
-       <p xml:id="para_9_290_73">Une autre subvention notable est celle qui consiste dans les avances sans intérêt faites à l'ouvrier par les patrons. <ref target="#ID-015a" type="renvoi_int_od2m">[N°15 (G)]</ref> ; des sommes plus ou moins fortes sont souvent prêtées ainsi aux ouvriers qu'un motif honorable oblige à emprunter. Georges B*** qui doit employer, pour le travail dont il est chargé, des outils dont la va¬leur estde 90ᶠ (<ref target="#part_02_02_06" type="renvoi_int_mono">§ 6</ref>), arecu ces outils de la maison P*** en mai 1857; la somme due par lui a été remboursée peu à peu, par à-compte de 5ᶠ retenus sur la paye mensuelle, et il ne doit pluis aujourd'hui que 15ᶠ.</p>
-       <p xml:id="para_9_290_74">Il faut mentionner un cadeau de fruits provenant du jardin de Jean B*** et donnés par cedernier à son fils, et le travail fait par Jean B*** pour scier une partie du bois de son fils.</p>
-       <p xml:id="para_9_290_75">Jusqu'à présent Georges B*** 'a eu aucune part aux distributions de bois d'affouage faites par la commune d'Hérimoncourt (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15 § 7</ref>), ila réclamé contre son omission sur la liste des ayants droit et il y sera porté pour 1859. Sa fille n'étant pas encore en âge de fré¬quenter l'école, il ne paiera, pour avoir part aux distributions de bois, qu'une taxe de 3ᶠ (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>).</p>
-       <p xml:id="para_9_290_76">George B*** ne va pas, comme son père, faire des achats à bon marché au delà de la frontière suisse située à 6kilomètres de la maison (<ref target="#ID-015a" type="renvoi_int_od2m">N°15 § 7</ref>).</p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. — Subventions.
+       </head>
+       <p xml:id="para_9_290_72">
+        Le logement occupé par l'ouvrier représente, d'après le taux actuel des lyers dans la commune
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N°15 (F)]
+        </ref>
+        , un loyer mensuel de 8ᶠ : son père ne lui demandant que 5ᶠ, la différence entre ces deux chiffres constitue une subvention de 36ᶠ par an.
+       </p>
+       <p xml:id="para_9_290_73">
+        Une autre subvention notable est celle qui consiste dans les avances sans intérêt faites à l'ouvrier par les patrons.
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N°15 (G)]
+        </ref>
+        ; des sommes plus ou moins fortes sont souvent prêtées ainsi aux ouvriers qu'un motif honorable oblige à emprunter. Georges B*** qui doit employer, pour le travail dont il est chargé, des outils dont la va¬leur estde 90ᶠ (
+        <ref target="#part_02_02_06" type="renvoi_int_mono">
+         § 6
+        </ref>
+        ), arecu ces outils de la maison P*** en mai 1857; la somme due par lui a été remboursée peu à peu, par à-compte de 5ᶠ retenus sur la paye mensuelle, et il ne doit pluis aujourd'hui que 15ᶠ.
+       </p>
+       <p xml:id="para_9_290_74">
+        Il faut mentionner un cadeau de fruits provenant du jardin de Jean B*** et donnés par cedernier à son fils, et le travail fait par Jean B*** pour scier une partie du bois de son fils.
+       </p>
+       <p xml:id="para_9_290_75">
+        Jusqu'à présent Georges B*** 'a eu aucune part aux distributions de bois d'affouage faites par la commune d'Hérimoncourt (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N° 15 § 7
+        </ref>
+        ), ila réclamé contre son omission sur la liste des ayants droit et il y sera porté pour 1859. Sa fille n'étant pas encore en âge de fré¬quenter l'école, il ne paiera, pour avoir part aux distributions de bois, qu'une taxe de 3ᶠ (
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         A
+        </ref>
+        ).
+       </p>
+       <p xml:id="para_9_290_76">
+        George B*** ne va pas, comme son père, faire des achats à bon marché au delà de la frontière suisse située à 6kilomètres de la maison (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N°15 § 7
+        </ref>
+        ).
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. — Travaux et industries.
+       </head>
        <div subtype="ouvrier" type="travaux">
-        <p xml:id="para_9_291_78"><pb facs="#facs_294" n="291" source="lesouvriersdesde02sociuoft_0297.xml"/> TRAVAUX DE L'OUVRIER. — Georges B*** entreprend, comme tâche¬ron, le montage de certains outils ou appareils spéciaux. Pour exé¬cuter ce travail il a sous ses ordres un petit atelier composé de quatre filles. On lui remet les pièces préparées ; le montage de ces pièces exige sept ou huit mains-d'œuvre ou façons exécutées pour la plupart par les quatre ouvrières à la pièce qui composent l'atelier de Georges B***, Celui-ci surveille et active le travail des ouvrières et met aussi la main aux diverses façons ; puis il remet aux chefs de l'usine la pièce montée et inie. On porte à son compte une somme fixe pour chaque article monté qui sort de son atelier, le prix des diverses mains-d'œuvre faites par ses ouvrières qui sont, elles aussi, à la tâche, a été fixé (
-         <ref target="#part_02_01_01" type="renvoi_int_mono">§ 1ᵉʳ</ref>) de concert avec les patrons ; on le dé¬duit du total des sommes portées au compte de l'ouvrier, et l'excé¬dant représente à la fois son salaire et son bénéfice.</p>
-        <p xml:id="para_9_291_79">Il convient de placer ici une observation générale sur la fixation des prix pour le travail à la tâche. Au début d'une fabrication nou¬velle, lorsque les éléments du prix dé revient ne sont pas encore parfaitement connus, les patrons font le prix avec l'ouvrier à tant la pièce ; cet ouvrier, encore novice, qui n'a pas l'habitude du genre de travail dont il se charge, peut produire, par exemple, 20 pièces par jour, dont le prix, fixé à 0ᶠ15 l'une, va lui faire gagner un salaire de 3ᶠ; mais il s'exerce, devient plus adroit et surtout plus alerte, et arrive à fabriquer, par exemple, 40 pièces par jour. Le prix d'unité de 0ᶠ15 représente alors un salaire journalier de 6ᶠ. Ce salaire est anomal, car l'ouvrier qui le reçoit n'a peut-être qu'un travail purement manuel à faire, et n'a d'autre mérite que celui de la rapidité, tandis qu'à côté de lui, ses camarades, ouvriers à la tâche, et ajusteurs à la journée, ouvriers intelligents auxquels un long apprentissage a été nécessaire, et qui sont employés à des tra¬vaux où la dextérité de la main doit être aidée par la réflexion et la justesse du coup d'œil, ne gagneront que 2ᶠ50 à 3ᶠ. Pour éviter cet inconvénient, le prix à tant la pièce n'est fixé avec les ouvriers que pour une période déterminée, et les arrangements librement con¬venus entre les deux parties, et loyalement observés, se succèdent sans réductions arbitraires. Ces changements de prix ont déterminé des fluctuations dans le salaire de Georges B*** qui a été de 70ᶠa80ᶠ par mois, s'est élevé exceptionnellement à 120ᶠ et 130ᶠ, et se trouve ramené aujourd'hui à un taux moyen de 90ᶠ.</p>
-        <p xml:id="para_9_291_80">Georges B***, par exception, travaille quelquefois à la journée ; il gagne alors 2ᶠ 65.</p>
-        <p xml:id="para_9_292_81"><pb facs="#facs_295" n="292" source="lesouvriersdesde02sociuoft_0298.xml"/> La journée qui commence à 5 heures du matin et finit à 7 heures du soir, représente douze heures de travail effectif.</p>
-        <p xml:id="para_9_292_82">L'ouvrier s'occupe le soir en rentrant de l'usine, et quelquefois le matin, de scier le bois de chauffage que consomme la famille ; le temps qu'il emploie à ce travail équivaut environ à quatre journées par an ; il consacre une ou deux journées à l'entretien du mobilier, et au dépeçage du porc acheté et tué à Noel.</p>
+        <p xml:id="para_9_291_78">
+         <pb facs="#facs_294" n="291" source="lesouvriersdesde02sociuoft_0297.xml"/>
+         TRAVAUX DE L'OUVRIER. — Georges B*** entreprend, comme tâche¬ron, le montage de certains outils ou appareils spéciaux. Pour exé¬cuter ce travail il a sous ses ordres un petit atelier composé de quatre filles. On lui remet les pièces préparées ; le montage de ces pièces exige sept ou huit mains-d'œuvre ou façons exécutées pour la plupart par les quatre ouvrières à la pièce qui composent l'atelier de Georges B***, Celui-ci surveille et active le travail des ouvrières et met aussi la main aux diverses façons ; puis il remet aux chefs de l'usine la pièce montée et inie. On porte à son compte une somme fixe pour chaque article monté qui sort de son atelier, le prix des diverses mains-d'œuvre faites par ses ouvrières qui sont, elles aussi, à la tâche, a été fixé (
+         <ref target="#part_02_01_01" type="renvoi_int_mono">
+          § 1ᵉʳ
+         </ref>
+         ) de concert avec les patrons ; on le dé¬duit du total des sommes portées au compte de l'ouvrier, et l'excé¬dant représente à la fois son salaire et son bénéfice.
+        </p>
+        <p xml:id="para_9_291_79">
+         Il convient de placer ici une observation générale sur la fixation des prix pour le travail à la tâche. Au début d'une fabrication nou¬velle, lorsque les éléments du prix dé revient ne sont pas encore parfaitement connus, les patrons font le prix avec l'ouvrier à tant la pièce ; cet ouvrier, encore novice, qui n'a pas l'habitude du genre de travail dont il se charge, peut produire, par exemple, 20 pièces par jour, dont le prix, fixé à 0ᶠ15 l'une, va lui faire gagner un salaire de 3ᶠ; mais il s'exerce, devient plus adroit et surtout plus alerte, et arrive à fabriquer, par exemple, 40 pièces par jour. Le prix d'unité de 0ᶠ15 représente alors un salaire journalier de 6ᶠ. Ce salaire est anomal, car l'ouvrier qui le reçoit n'a peut-être qu'un travail purement manuel à faire, et n'a d'autre mérite que celui de la rapidité, tandis qu'à côté de lui, ses camarades, ouvriers à la tâche, et ajusteurs à la journée, ouvriers intelligents auxquels un long apprentissage a été nécessaire, et qui sont employés à des tra¬vaux où la dextérité de la main doit être aidée par la réflexion et la justesse du coup d'œil, ne gagneront que 2ᶠ50 à 3ᶠ. Pour éviter cet inconvénient, le prix à tant la pièce n'est fixé avec les ouvriers que pour une période déterminée, et les arrangements librement con¬venus entre les deux parties, et loyalement observés, se succèdent sans réductions arbitraires. Ces changements de prix ont déterminé des fluctuations dans le salaire de Georges B*** qui a été de 70ᶠa80ᶠ par mois, s'est élevé exceptionnellement à 120ᶠ et 130ᶠ, et se trouve ramené aujourd'hui à un taux moyen de 90ᶠ.
+        </p>
+        <p xml:id="para_9_291_80">
+         Georges B***, par exception, travaille quelquefois à la journée ; il gagne alors 2ᶠ 65.
+        </p>
+        <p xml:id="para_9_292_81">
+         <pb facs="#facs_295" n="292" source="lesouvriersdesde02sociuoft_0298.xml"/>
+         La journée qui commence à 5 heures du matin et finit à 7 heures du soir, représente douze heures de travail effectif.
+        </p>
+        <p xml:id="para_9_292_82">
+         L'ouvrier s'occupe le soir en rentrant de l'usine, et quelquefois le matin, de scier le bois de chauffage que consomme la famille ; le temps qu'il emploie à ce travail équivaut environ à quatre journées par an ; il consacre une ou deux journées à l'entretien du mobilier, et au dépeçage du porc acheté et tué à Noel.
+        </p>
        </div>
        <div subtype="femme" type="travaux">
-        <p xml:id="para_9_292_83">TRAVAUX DE LA FEMME. — La femme se lève avant cinq heures du matin, prépare les aliments, et porte une fois par jour à l'usine le repas de son mari, de son beau-père et de son beau-frère ; le second repas leur est apporté par sa belle-mère ; elle soigne et sur¬veille son enfant, raccommode les habits et le linge de la famille et s'occupe de tous les détails du ménage ; elle blanchit elle-même le linge.</p>
-        <p xml:id="para_9_292_84">Elle travaille chez elle à la tâche, au moyen d'un tour d'horlo¬gerie, mû avec le pied et prêté par les patrons, au percement des pignons de montre, pour le compte d'une maison d'Hérimoncour. On lui remet les pignons bruts ; son travail consiste à leur donner un coup de lime et à les percer ; elle reçoit pour la douzaine, 0ᶠ 08, 0ᶠ 06, ou 0ᶠ 03 selon la dimension du trou; les pignons à 0ᶠ 03 sont ceux qui lui rapportent le plus ; elle a toujours de l'ou¬vrage. Le produit de ce travail, auquel la femme consacre men¬suellement environ 15 journées, en employant tout le temps dont elle peut disposer, s'éleve quelquefois à 18 et 20ᶠ par mois ; il ne descend presque jamais au-dessous de 12ᶠ; en moyenne, il est de 1a5ᶠ.</p>
-        <p xml:id="para_9_292_85">Enfin, la femme s'occupe de la culture d'un jardin situé vis-à-vis de la maison et d'un champ éloigné de 2 kilomètres, formant en¬semble 8 ares, et loués à l'année à raison de 20ᶠ50; elle pioche ce champ et ce jardin trois fois par an, et fait tous les travaux d'ense¬mencement, d'entretien et de récolte ; ces deux parcelles de terre produisent des pommes de terre, des choux, des haricots et d'au¬tres légumes, et leur exploitation est pour la famille une précieuse ressource.</p>
+        <p xml:id="para_9_292_83">
+         TRAVAUX DE LA FEMME. — La femme se lève avant cinq heures du matin, prépare les aliments, et porte une fois par jour à l'usine le repas de son mari, de son beau-père et de son beau-frère ; le second repas leur est apporté par sa belle-mère ; elle soigne et sur¬veille son enfant, raccommode les habits et le linge de la famille et s'occupe de tous les détails du ménage ; elle blanchit elle-même le linge.
+        </p>
+        <p xml:id="para_9_292_84">
+         Elle travaille chez elle à la tâche, au moyen d'un tour d'horlo¬gerie, mû avec le pied et prêté par les patrons, au percement des pignons de montre, pour le compte d'une maison d'Hérimoncour. On lui remet les pignons bruts ; son travail consiste à leur donner un coup de lime et à les percer ; elle reçoit pour la douzaine, 0ᶠ 08, 0ᶠ 06, ou 0ᶠ 03 selon la dimension du trou; les pignons à 0ᶠ 03 sont ceux qui lui rapportent le plus ; elle a toujours de l'ou¬vrage. Le produit de ce travail, auquel la femme consacre men¬suellement environ 15 journées, en employant tout le temps dont elle peut disposer, s'éleve quelquefois à 18 et 20ᶠ par mois ; il ne descend presque jamais au-dessous de 12ᶠ; en moyenne, il est de 1a5ᶠ.
+        </p>
+        <p xml:id="para_9_292_85">
+         Enfin, la femme s'occupe de la culture d'un jardin situé vis-à-vis de la maison et d'un champ éloigné de 2 kilomètres, formant en¬semble 8 ares, et loués à l'année à raison de 20ᶠ50; elle pioche ce champ et ce jardin trois fois par an, et fait tous les travaux d'ense¬mencement, d'entretien et de récolte ; ces deux parcelles de terre produisent des pommes de terre, des choux, des haricots et d'au¬tres légumes, et leur exploitation est pour la famille une précieuse ressource.
+        </p>
        </div>
        <div subtype="famille" type="industries">
-        <p xml:id="para_9_292_86">INDUSTRIES ENTREPRISES PAR LA FAMILLE. — Le montage des outils en acier, entrepris par l'ouvrier est la première de ces industries. L'industrie principale de la femme consiste dans le percement des pignons de montre, entrepris par elle à la tâche. La famille tire avantage des industries accessoires entreprises en outre par la femme; ce sont : l'exploitation duchamp et du jardin, loués à l'année, le blanchissage du linge et des vêtements de la famille, la salaison<pb facs="#facs_296" n="293" source="lesouvriersdesde02sociuoft_0299.xml"/>et le fumage d'un porc acheté et tué à Noel et consommé dans le ménage pendant l'année suivante.</p>
+        <p xml:id="para_9_292_86">
+         INDUSTRIES ENTREPRISES PAR LA FAMILLE. — Le montage des outils en acier, entrepris par l'ouvrier est la première de ces industries. L'industrie principale de la femme consiste dans le percement des pignons de montre, entrepris par elle à la tâche. La famille tire avantage des industries accessoires entreprises en outre par la femme; ce sont : l'exploitation duchamp et du jardin, loués à l'année, le blanchissage du linge et des vêtements de la famille, la salaison
+         <pb facs="#facs_296" n="293" source="lesouvriersdesde02sociuoft_0299.xml"/>
+         et le fumage d'un porc acheté et tué à Noel et consommé dans le ménage pendant l'année suivante.
+        </p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">III. Mode d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_03">
+       III. Mode d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
-       <p xml:id="para_9_293_91">L'alimentation de la famille a pour base les pommes de terre, quelques légumes et la viande de porc salé et fumé. Le pain, con¬sommé en petite quantité, est blanc, de bonne qualité, il est acheté chez un aubergiste-boulanger.</p>
-       <p xml:id="para_9_293_92">En partant avant 5 heures du matin pour son travail, l'ouvrier prend une goutte d'eau-de-vie et un peu de pain.</p>
-       <p xml:id="para_9_293_93">A 8 heures du matin, sa femme lui porte un déjeuneir composé de café au lait et de pommes de terre ; elle prend à la maison avec sa fille un repas semblable.</p>
-       <p xml:id="para_9_293_94">Le diner de midi se compose d'une soupe de légumes, le plus souvent de pommes de terre, préparée avec de la graisse de porc ou du beurre. Pendant la saison d'été, on mange à diner de gros haricots verts et des choux récoltés dans le jardin et le champ loués à l'année. Ce repas est porté à l'ouvrier par sa mère. Le mardi et le jeudi le dîner est rendu plus substantiel par laddition d'une cèrtaine quantité de viande de porc, provenant d'un porc acheté, tué et salé à Noel. Le dimanche, la viande salée est remplacée par de la viande de bœuf fraîche, achetée à laboucherie.</p>
-       <p xml:id="para_9_293_95">Le souper, à 7 heures 1/2, ou 8 heures du soir, est le seul repas qui ait lieu en famille pendant la semaine ; il se compose, en été, d'une soupe d'oignons et de pommes de terre ; quand ce dernier légume manque, on y supplée par une omelette de deux ou trois œufs dont la femme ne veut jamais prendre sa part ; en hiver, on mange à souper des pommes de terre avec du lait ; le dimanche et quelquefois pendant la semaine, on remplace le lait par le café au lait.</p>
-       <p xml:id="para_9_293_96">L'eau est la boisson ordinaire pendant les repas ; mais, presque tous les ans, à l'occasion de la fête patronale, et quelque temps avant l'on achète un petit tonneau de vin, d'une contenance de 50 a 60 litres ; pendant les six semaines qui précèdent la fête, on en boit quelquefois aux repas ; la femme joint souvent une chope de vin au diner que son mari prend à l'usine ; lors de la fête, qui réunit les parents et les amis (<ref target="#part_02_03_11" type="renvoi_int_mono">§ 11</ref>), on consomme environ10à15 litres ;<pb facs="#facs_297" n="294" source="lesouvriersdesde02sociuoft_0300.xml"/>mais il en reste encore assez pour que le tonneau ne soit vide qu'un mois ou six semaines après. L'ouvrier partage fréquemment avec son père le vin qu'il va chercher au tonneau ; sa femme ne boit presque jamais de vin.</p>
-       <p xml:id="para_9_294_98">L'ouvrier et sa femme se plaignent de la cherté des articles d'épi¬cerie et de mercerie <ref target="#ID-015a" type="renvoi_int_od2m">[N° 15 (H)]</ref>.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. — Aliments et repas.
+       </head>
+       <p xml:id="para_9_293_91">
+        L'alimentation de la famille a pour base les pommes de terre, quelques légumes et la viande de porc salé et fumé. Le pain, con¬sommé en petite quantité, est blanc, de bonne qualité, il est acheté chez un aubergiste-boulanger.
+       </p>
+       <p xml:id="para_9_293_92">
+        En partant avant 5 heures du matin pour son travail, l'ouvrier prend une goutte d'eau-de-vie et un peu de pain.
+       </p>
+       <p xml:id="para_9_293_93">
+        A 8 heures du matin, sa femme lui porte un déjeuneir composé de café au lait et de pommes de terre ; elle prend à la maison avec sa fille un repas semblable.
+       </p>
+       <p xml:id="para_9_293_94">
+        Le diner de midi se compose d'une soupe de légumes, le plus souvent de pommes de terre, préparée avec de la graisse de porc ou du beurre. Pendant la saison d'été, on mange à diner de gros haricots verts et des choux récoltés dans le jardin et le champ loués à l'année. Ce repas est porté à l'ouvrier par sa mère. Le mardi et le jeudi le dîner est rendu plus substantiel par laddition d'une cèrtaine quantité de viande de porc, provenant d'un porc acheté, tué et salé à Noel. Le dimanche, la viande salée est remplacée par de la viande de bœuf fraîche, achetée à laboucherie.
+       </p>
+       <p xml:id="para_9_293_95">
+        Le souper, à 7 heures 1/2, ou 8 heures du soir, est le seul repas qui ait lieu en famille pendant la semaine ; il se compose, en été, d'une soupe d'oignons et de pommes de terre ; quand ce dernier légume manque, on y supplée par une omelette de deux ou trois œufs dont la femme ne veut jamais prendre sa part ; en hiver, on mange à souper des pommes de terre avec du lait ; le dimanche et quelquefois pendant la semaine, on remplace le lait par le café au lait.
+       </p>
+       <p xml:id="para_9_293_96">
+        L'eau est la boisson ordinaire pendant les repas ; mais, presque tous les ans, à l'occasion de la fête patronale, et quelque temps avant l'on achète un petit tonneau de vin, d'une contenance de 50 a 60 litres ; pendant les six semaines qui précèdent la fête, on en boit quelquefois aux repas ; la femme joint souvent une chope de vin au diner que son mari prend à l'usine ; lors de la fête, qui réunit les parents et les amis (
+        <ref target="#part_02_03_11" type="renvoi_int_mono">
+         § 11
+        </ref>
+        ), on consomme environ10à15 litres ;
+        <pb facs="#facs_297" n="294" source="lesouvriersdesde02sociuoft_0300.xml"/>
+        mais il en reste encore assez pour que le tonneau ne soit vide qu'un mois ou six semaines après. L'ouvrier partage fréquemment avec son père le vin qu'il va chercher au tonneau ; sa femme ne boit presque jamais de vin.
+       </p>
+       <p xml:id="para_9_294_98">
+        L'ouvrier et sa femme se plaignent de la cherté des articles d'épi¬cerie et de mercerie
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N° 15 (H)]
+        </ref>
+        .
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. — Habitation, mobilier et vêtements.
+       </head>
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="para_9_294_100">La famille occupe au premier étage de la maison dont le père de l'ouvrier est le propriétaire (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15 § 10</ref>), et moyennant un loyer réduit de 5ᶠ par mois, un petit logement de deux pièces, savoir :</p>
-        <p xml:id="para_9_294_101">1° Une pièce d'entrée sur laquelle débouche l'escalier, et où est placé pendant lété le fourneau-poêle qui sert à la cuisson des ali¬ments.</p>
-        <p xml:id="para_9_294_102">2° Une chambre à coucher pour les époux et leur enfant, servant d'atelierà la femme pour ses travaux d'horlogerie. Cette chambre est éclairée et ventilée par deux fenêtres à six carreaux placées en face l'une de l'autre ; en hiver, on y transporte le fourneau-poêle.</p>
-        <p xml:id="para_9_294_103">La surface totale de ce logement est de 25ᵉ,13, dont 18,54 pour la chambre à coucher, et 6,59 pour la pièce d'entrée. Sa hauteur est de 2,20. Les deux pièces sont blanchies à la chaux et plan¬chéiées.</p>
-        <p xml:id="para_9_294_104">Le logement comprend en outre un petit grenier pour mettre le bois, la paille et le linge sale, et la moitié d'une petite cave creusée sous le plancher de la chambre à coucher du rez-de-chaussée et dans laquelle on descend par une'trappe et une échelle.</p>
-        <p xml:id="para_9_294_105">Le ménage est tenu par la femme avec soin et propreté.</p>
+        <p xml:id="para_9_294_100">
+         La famille occupe au premier étage de la maison dont le père de l'ouvrier est le propriétaire (
+         <ref target="#ID-015a" type="renvoi_int_od2m">
+          N° 15 § 10
+         </ref>
+         ), et moyennant un loyer réduit de 5ᶠ par mois, un petit logement de deux pièces, savoir :
+        </p>
+        <p xml:id="para_9_294_101">
+         1° Une pièce d'entrée sur laquelle débouche l'escalier, et où est placé pendant lété le fourneau-poêle qui sert à la cuisson des ali¬ments.
+        </p>
+        <p xml:id="para_9_294_102">
+         2° Une chambre à coucher pour les époux et leur enfant, servant d'atelierà la femme pour ses travaux d'horlogerie. Cette chambre est éclairée et ventilée par deux fenêtres à six carreaux placées en face l'une de l'autre ; en hiver, on y transporte le fourneau-poêle.
+        </p>
+        <p xml:id="para_9_294_103">
+         La surface totale de ce logement est de 25ᵉ,13, dont 18,54 pour la chambre à coucher, et 6,59 pour la pièce d'entrée. Sa hauteur est de 2,20. Les deux pièces sont blanchies à la chaux et plan¬chéiées.
+        </p>
+        <p xml:id="para_9_294_104">
+         Le logement comprend en outre un petit grenier pour mettre le bois, la paille et le linge sale, et la moitié d'une petite cave creusée sous le plancher de la chambre à coucher du rez-de-chaussée et dans laquelle on descend par une'trappe et une échelle.
+        </p>
+        <p xml:id="para_9_294_105">
+         Le ménage est tenu par la femme avec soin et propreté.
+        </p>
        </div>
        <div subtype="meubles" type="par_10">
-        <p xml:id="para_9_294_106">MEUBLES : fort simples, mais bien entretenus.......... 453ᶠ25</p>
-        <p xml:id="para_9_294_107">1° Lits. —1 Lit en bois peint avec sangle, 22ᶠ 00; — 1 paillasse, 9ᶠ 00. (Il n'y a pas de matelas ; le lit est rempli de paille, sur laquelle on met la paillasse ; on ne fait usage ni de couvertures, ni de drap supérieur ; un couvre la paillasse d'un drap unique sur le¬quel on couche, et on serecouvre d'un édredon appelé duvet, plein de plume commune.) — 1 duvet de plume commune, dans une taie qui est de coton bleu par-dessus, et de toile blanche du côté qui touche au corps, 28ᶠ 00 ; — 2 traversins remplis de plume commune, 10ᶠ 00; — 1 lit en bois de chene donné à la femme par ses parents et de la même dimension que le premier, 30ᶠ 00; — 1 paillasse, 9ᶠ 00 ; — 1 duvet et 2 traversins donnés à la femme par ses parents, 38 00 ; — rideaux de coton bleu, 20ᶠ 00 ; — paille pour les deux lits, 10ᶠ. —Total, 176ᶠ 00.</p>
-        <p xml:id="para_9_294_108">2° Meubles de ˉla chambre à coucher. —1 Grande horloge achetée il y a trois.ans par le mari qui, dans ce but, avait vendu sa montre remplacée depuis, 48ᶠ 00; — 1 grande armoire en bois peint pour serrer les hahits, 50ᶠ 00 ; — 1 petite caisse en noyér, placée sur cette armoire et donnée à la femme par son mari pour serrer ses bonnets, 6ᶠ; — 1 table ronde en chêne, 30ᶠ 00; — 1 haise en bois de chêne, 3ᶠ 00; — 6 chaises de<pb facs="#facs_298" n="295" source="lesouvriersdesde02sociuoft_0301.xml"/>paille achetées a un marchand ambulant, 18ᶠ 00; —1 miroir acheté d'occasion,7ᶠ 00; — 1 petit miroir à barbe, 1ᶠ 25,; — 1 petite chaise et 1 tabouret pour l'enfant, poupées en lambeaux, 3ᶠ 00. — Total, 166ᶠ23.</p>
-        <p xml:id="para_9_295_110">3° Meubles de ˉla pièce d'entrée. — 1 Fourneau-poêle avec tuyaux et marmites en fonte pour le chauffage et la cuisine. acheté à Montbéliard, 50ᶠ; — 2 tablettes pour mettre les baquets et les ustensiles de ménage, 6ᶠ 00; — 1 armoire pour la vaisselle, 35ᶠ 00. — Total, 91ᶠ 00.</p>
-        <p xml:id="para_9_295_111">4° Livres. — La sainte Bible, donnée gratuitement par l'Église aux époux lors de leur mariage ; — le Nouueau estament de Notre-Seigneur Jlesus-ˉCrist, donné de la même manière à l'ouvrier lors de sa confirmation ; — une autre édition du Nouuveau Testament; — Noueau choix de Psaumes et de Cantiques pour les églises, les écoles et les familles de l'inspection ecclésiastique de Montbéliard ; — arithmetique de ˉ'Ecole primaire, par Bergery; — les Mille et une Nuits, contes arabes traduits par Galland, achetés par l'ouvrier au prix de 2ᶠ 00. — Total, 20ᶠ 00 environ.</p>
+        <p xml:id="para_9_294_106">
+         MEUBLES : fort simples, mais bien entretenus.......... 453ᶠ25
+        </p>
+        <p xml:id="para_9_294_107">
+         1° Lits. —1 Lit en bois peint avec sangle, 22ᶠ 00; — 1 paillasse, 9ᶠ 00. (Il n'y a pas de matelas ; le lit est rempli de paille, sur laquelle on met la paillasse ; on ne fait usage ni de couvertures, ni de drap supérieur ; un couvre la paillasse d'un drap unique sur le¬quel on couche, et on serecouvre d'un édredon appelé duvet, plein de plume commune.) — 1 duvet de plume commune, dans une taie qui est de coton bleu par-dessus, et de toile blanche du côté qui touche au corps, 28ᶠ 00 ; — 2 traversins remplis de plume commune, 10ᶠ 00; — 1 lit en bois de chene donné à la femme par ses parents et de la même dimension que le premier, 30ᶠ 00; — 1 paillasse, 9ᶠ 00 ; — 1 duvet et 2 traversins donnés à la femme par ses parents, 38 00 ; — rideaux de coton bleu, 20ᶠ 00 ; — paille pour les deux lits, 10ᶠ. —Total, 176ᶠ 00.
+        </p>
+        <p xml:id="para_9_294_108">
+         2° Meubles de ˉla chambre à coucher. —1 Grande horloge achetée il y a trois.ans par le mari qui, dans ce but, avait vendu sa montre remplacée depuis, 48ᶠ 00; — 1 grande armoire en bois peint pour serrer les hahits, 50ᶠ 00 ; — 1 petite caisse en noyér, placée sur cette armoire et donnée à la femme par son mari pour serrer ses bonnets, 6ᶠ; — 1 table ronde en chêne, 30ᶠ 00; — 1 haise en bois de chêne, 3ᶠ 00; — 6 chaises de
+         <pb facs="#facs_298" n="295" source="lesouvriersdesde02sociuoft_0301.xml"/>
+         paille achetées a un marchand ambulant, 18ᶠ 00; —1 miroir acheté d'occasion,7ᶠ 00; — 1 petit miroir à barbe, 1ᶠ 25,; — 1 petite chaise et 1 tabouret pour l'enfant, poupées en lambeaux, 3ᶠ 00. — Total, 166ᶠ23.
+        </p>
+        <p xml:id="para_9_295_110">
+         3° Meubles de ˉla pièce d'entrée. — 1 Fourneau-poêle avec tuyaux et marmites en fonte pour le chauffage et la cuisine. acheté à Montbéliard, 50ᶠ; — 2 tablettes pour mettre les baquets et les ustensiles de ménage, 6ᶠ 00; — 1 armoire pour la vaisselle, 35ᶠ 00. — Total, 91ᶠ 00.
+        </p>
+        <p xml:id="para_9_295_111">
+         4° Livres. — La sainte Bible, donnée gratuitement par l'Église aux époux lors de leur mariage ; — le Nouueau estament de Notre-Seigneur Jlesus-ˉCrist, donné de la même manière à l'ouvrier lors de sa confirmation ; — une autre édition du Nouuveau Testament; — Noueau choix de Psaumes et de Cantiques pour les églises, les écoles et les familles de l'inspection ecclésiastique de Montbéliard ; — arithmetique de ˉ'Ecole primaire, par Bergery; — les Mille et une Nuits, contes arabes traduits par Galland, achetés par l'ouvrier au prix de 2ᶠ 00. — Total, 20ᶠ 00 environ.
+        </p>
        </div>
        <div subtype="ustensiles" type="par_10">
-        <p xml:id="para_9_295_112">USTENSILES DE MÉNAGE........................... §2)ᶠ 2)5</p>
-        <p xml:id="para_9_295_113">1° Dependant du foyer. — 1 crochet en fer pour attiser le feu et 1 pelle en fer-blanc, 0ᶠ 50.</p>
-        <p xml:id="para_9_295_114">2° Employés pour le service de l'alimentation.—1 moulin à café,4ᶠ00 ;— 1 cafetière en fer-blane, 2ᶠ00 ; — 1 grand pot au lait,1ᶠ 00 ; — 6 petites tasses à café, 1ᶠ20; — 1 sucrier enporcelaine dorée,gagnéà la loterie à la fête, 1ᶠ00;-1 sucrier en faience, 0ᶠ50; 5 bou¬teilles, 1 carafe, 14 verres, 5ᶠ 85 ; — 2 flacons pour eau-de-vie et eau de noyau, 1ᶠ 00 ; — 3 tasses pour café au lait, 12 assiettes en faience, 1 soupièe en faience, 2 soupières en poterie commune, vases en terre, en grès et en fer-blanc, plats en faience et en terre, 10ᶠ 00 ; — 12 couverts en fer, 4 couteaux, 2 cuillers à servir la soupe. 2 cuillers dites poches, 1 écumoire, 3ᶠ 00 ; — 1 bassin en cuivre pour l'eau, 250 ; — 1 baquet cerclé en fer, 2ᶠ50 ; — 2 bidons en fér-blanc pour porter les repas à l'usine, 2ᶠ00. — Total, 36ᶠ55.</p>
-        <p xml:id="para_9_295_115">3° Employés pour les soins de propreté. —1 rasoir, 3ᶠ 00 ; — 1 cuvette, 0ᶠ30 ; — 1 ba¬lai, 1ᶠ 00. —Total, 4ᶠ 30.</p>
-        <p xml:id="para_9_295_116">4° Employés pour usages divers.—1 lampe, 2ᶠ50 ; —1 autre lampe, 1ᶠ 03; — 1 lampe de travail pour la femme, 3ᶠ 00; —1 parapluie en soie, 10ᶠ 00; -1 parapluie pour aller à l'usine, 4ᶠ 00; — 1 vieux parapluie, 1ᶠ 00. — Total, 22ᶠ 00.</p>
+        <p xml:id="para_9_295_112">
+         USTENSILES DE MÉNAGE........................... §2)ᶠ 2)5
+        </p>
+        <p xml:id="para_9_295_113">
+         1° Dependant du foyer. — 1 crochet en fer pour attiser le feu et 1 pelle en fer-blanc, 0ᶠ 50.
+        </p>
+        <p xml:id="para_9_295_114">
+         2° Employés pour le service de l'alimentation.—1 moulin à café,4ᶠ00 ;— 1 cafetière en fer-blane, 2ᶠ00 ; — 1 grand pot au lait,1ᶠ 00 ; — 6 petites tasses à café, 1ᶠ20; — 1 sucrier enporcelaine dorée,gagnéà la loterie à la fête, 1ᶠ00;-1 sucrier en faience, 0ᶠ50; 5 bou¬teilles, 1 carafe, 14 verres, 5ᶠ 85 ; — 2 flacons pour eau-de-vie et eau de noyau, 1ᶠ 00 ; — 3 tasses pour café au lait, 12 assiettes en faience, 1 soupièe en faience, 2 soupières en poterie commune, vases en terre, en grès et en fer-blanc, plats en faience et en terre, 10ᶠ 00 ; — 12 couverts en fer, 4 couteaux, 2 cuillers à servir la soupe. 2 cuillers dites poches, 1 écumoire, 3ᶠ 00 ; — 1 bassin en cuivre pour l'eau, 250 ; — 1 baquet cerclé en fer, 2ᶠ50 ; — 2 bidons en fér-blanc pour porter les repas à l'usine, 2ᶠ00. — Total, 36ᶠ55.
+        </p>
+        <p xml:id="para_9_295_115">
+         3° Employés pour les soins de propreté. —1 rasoir, 3ᶠ 00 ; — 1 cuvette, 0ᶠ30 ; — 1 ba¬lai, 1ᶠ 00. —Total, 4ᶠ 30.
+        </p>
+        <p xml:id="para_9_295_116">
+         4° Employés pour usages divers.—1 lampe, 2ᶠ50 ; —1 autre lampe, 1ᶠ 03; — 1 lampe de travail pour la femme, 3ᶠ 00; —1 parapluie en soie, 10ᶠ 00; -1 parapluie pour aller à l'usine, 4ᶠ 00; — 1 vieux parapluie, 1ᶠ 00. — Total, 22ᶠ 00.
+        </p>
        </div>
        <div subtype="linge" type="par_10">
-        <p xml:id="para_9_295_117">LINGE DE MÉNAGE fait de toile de chanvre et soigneusement rac¬COnnOé. ...........:.......................... (§5ᶠ §y)</p>
-        <p xml:id="para_9_295_118">6 draps de lit, 36ᶠ 00; — 6 taies de duvet et 12taies de traversin, 10ᶠ 00; — 1 nape, 81 00; — 7 serviettes, 10ᶠ50 ; — 8 essuie-mains en toile de chanvre, 4ᶠ 00.</p>
+        <p xml:id="para_9_295_117">
+         LINGE DE MÉNAGE fait de toile de chanvre et soigneusement rac¬COnnOé. ...........:.......................... (§5ᶠ §y)
+        </p>
+        <p xml:id="para_9_295_118">
+         6 draps de lit, 36ᶠ 00; — 6 taies de duvet et 12taies de traversin, 10ᶠ 00; — 1 nape, 81 00; — 7 serviettes, 10ᶠ50 ; — 8 essuie-mains en toile de chanvre, 4ᶠ 00.
+        </p>
        </div>
        <div subtype="vetements" type="par_10">
-        <p xml:id="para_9_295_119">VÊTEMENTS propres et bien tenus ; la mise de l'ouvrieret de sa femme est convenable et décente ; le linge de corps est très-fré¬quemment changé et blanchi. ..................... . 63ᶠ 95</p>
-        <p xml:id="para_9_295_120">VÊTEMENTS DE L'OUVRIER, 299 30.</p>
-        <p xml:id="para_9_295_121">1° Vêtements du dimanche. — 1 habit en drap bleu, que l'ouvrier ne met que très¬rarement, et qui date de son mariage, 30ᶠ 00; — 2 pantalons de laine, à 10ᶠ 00 l'un, 20 00; — 1 pantalon neuf en drap, 20ᶠ 00 ; — 3 gilets dont 1 en drap noir, 24ᶠ 00 ; — 1 blouse de dimanche, en toile bleue, qu'on peut mettre pour aller à l'église, 8ᶠ 00 ; — 1 gros gilet de laine à manches, pour mettre sous la blouse en hive, 10ᶠ 00 ; — 1 cha¬peau noir en soie, que l'ouvrier ne met que très-raement, 10ᶠ 00; — 1 cravate noire en soie, 4ᶠ 00; — 1 casquette, 4ᶠ 00: — 1 paire de brodequins neufs, 12ᶠ 00; — 1 paire de bottes remises à neuf, 15ᶠ 00. — Total 157ᶠ 00. —</p>
-        <p xml:id="para_9_296_122"><pb facs="#facs_299" n="296" source="lesouvriersdesde02sociuoft_0302.xml"/> 2° Vêtements de travail. — 1 blouse, 5ᶠ 00; — 2 demi-blouses, 6ᶠ 00 ; — 1 pantalon de velours grossier, 7ᶠ 00; — 1 pantalon en fil et coton, 6ᶠ 00 ; — 1 vieux gilet, 1ᶠ 50; — 1 casquette, 2ᶠ 00; — 1 paire de sabots, 0ᶠ 0; (1 paire ous les deux mois); — 25 che¬mises en toile de chanvre dont 11 en bon état, à 5ᶠ 00 l'une, et 13 usées à 3ᶠ 00 l'une, 94ᶠ 00 ; — 2 caleçons en coton, 5ᶠ 00; — 4 paires de bas de coton, 6ᶠ 00; — 18 mou¬choirs de poche en coton, 9ᶠ 00. — Total, 142ᶠ 30.</p>
-        <p xml:id="para_9_296_124">VÊTEMENTS DE LA FEMME, 248ᶠ 30.</p>
-        <p xml:id="para_9_296_125">1° Vêtements u dimnche. — 6 bonnets à la mode du pays, dits bonnets huguenots, avec rubans et broderies en or ou argent, dont 1 à 5ᶠ 00, et les autres à 4t 00, 25ᶠ00 ; — 2 robes en laine, 32ᶠ 00; — 3 robes en coton, 27ᶠ 00 ; — 2 tabliers en soie, 8ᶠ 00; - 9 tahliers en laine, 6ᶠ 00 ; — 1 paire de souliers, 650; — 1 châle en laine, 13ᶠ00; — 1 fchu en laine, 9ᶠ 00; — 3 fchus laine et coton, 15ᶠ 00. — Total, 141ᶠ 50.</p>
-        <p xml:id="para_9_296_128">2° Vêtements de travail.—2 robes en coton, 4ᶠ 00 ;—1 jupon en coton, 3ᶠ 00; —20 che¬mises en toile de chanvre, dont 10 à5ᶠ 00, et 10 usées à 2ᶠ 00, 70t 00 ; — 8 bonnets, 4ᶠ 00 ; — 18 mouchoirs de coton, 9ᶠ 00 ; — 6paires de bas de coton, 9 00; — 2 paires de bas de laine, 4ᶠ 00 ; — 1 paire de vieux souliers, 3ᶠ 00; — 1 paire de sabots, 0ᶠ 80; (1 paire tous les deux mois). — Total, 106ᶠ 80.</p>
-        <p xml:id="para_9_296_129">VÊTEMENTS DE LA PETITE FILLE, 52 3S.</p>
-        <p xml:id="para_9_296_130">2 robes dui dimanche, 10ᶠ00; — 1 réseau pour mettre sur la tête le dimanche,2ᶠ00; ¬</p>
-        <p xml:id="para_9_296_131">2 bonnets du dimanche, 5ᶠ 00;—8 chemises,12ᶠ00; — 5 paires de bas de coton, 2ᶠ50; — 2 paires de bas de laine, 1ᶠ 50 ; — 4 mouchoirs de poche, 0ᶠ 80; — 4 bonnets et 2 ré¬seaux, 3ᶠ 50; —1 chapeau de paille, 3ᶠ00 ; — 3 robes pour la semaine, 6ᶠ60 ; — 3paires de souliers, 6ᶠ05.—Total, 52ᶠ3s.</p>
-        <p xml:id="para_9_296_132">OU....................................... §§ ))</p>
-        <p xml:id="para_9_296_133">1 montre en argent, achetée par l'ouvrier, 35ᶠ00.</p>
+        <p xml:id="para_9_295_119">
+         VÊTEMENTS propres et bien tenus ; la mise de l'ouvrieret de sa femme est convenable et décente ; le linge de corps est très-fré¬quemment changé et blanchi. ..................... . 63ᶠ 95
+        </p>
+        <p xml:id="para_9_295_120">
+         VÊTEMENTS DE L'OUVRIER, 299 30.
+        </p>
+        <p xml:id="para_9_295_121">
+         1° Vêtements du dimanche. — 1 habit en drap bleu, que l'ouvrier ne met que très¬rarement, et qui date de son mariage, 30ᶠ 00; — 2 pantalons de laine, à 10ᶠ 00 l'un, 20 00; — 1 pantalon neuf en drap, 20ᶠ 00 ; — 3 gilets dont 1 en drap noir, 24ᶠ 00 ; — 1 blouse de dimanche, en toile bleue, qu'on peut mettre pour aller à l'église, 8ᶠ 00 ; — 1 gros gilet de laine à manches, pour mettre sous la blouse en hive, 10ᶠ 00 ; — 1 cha¬peau noir en soie, que l'ouvrier ne met que très-raement, 10ᶠ 00; — 1 cravate noire en soie, 4ᶠ 00; — 1 casquette, 4ᶠ 00: — 1 paire de brodequins neufs, 12ᶠ 00; — 1 paire de bottes remises à neuf, 15ᶠ 00. — Total 157ᶠ 00. —
+        </p>
+        <p xml:id="para_9_296_122">
+         <pb facs="#facs_299" n="296" source="lesouvriersdesde02sociuoft_0302.xml"/>
+         2° Vêtements de travail. — 1 blouse, 5ᶠ 00; — 2 demi-blouses, 6ᶠ 00 ; — 1 pantalon de velours grossier, 7ᶠ 00; — 1 pantalon en fil et coton, 6ᶠ 00 ; — 1 vieux gilet, 1ᶠ 50; — 1 casquette, 2ᶠ 00; — 1 paire de sabots, 0ᶠ 0; (1 paire ous les deux mois); — 25 che¬mises en toile de chanvre dont 11 en bon état, à 5ᶠ 00 l'une, et 13 usées à 3ᶠ 00 l'une, 94ᶠ 00 ; — 2 caleçons en coton, 5ᶠ 00; — 4 paires de bas de coton, 6ᶠ 00; — 18 mou¬choirs de poche en coton, 9ᶠ 00. — Total, 142ᶠ 30.
+        </p>
+        <p xml:id="para_9_296_124">
+         VÊTEMENTS DE LA FEMME, 248ᶠ 30.
+        </p>
+        <p xml:id="para_9_296_125">
+         1° Vêtements u dimnche. — 6 bonnets à la mode du pays, dits bonnets huguenots, avec rubans et broderies en or ou argent, dont 1 à 5ᶠ 00, et les autres à 4t 00, 25ᶠ00 ; — 2 robes en laine, 32ᶠ 00; — 3 robes en coton, 27ᶠ 00 ; — 2 tabliers en soie, 8ᶠ 00; - 9 tahliers en laine, 6ᶠ 00 ; — 1 paire de souliers, 650; — 1 châle en laine, 13ᶠ00; — 1 fchu en laine, 9ᶠ 00; — 3 fchus laine et coton, 15ᶠ 00. — Total, 141ᶠ 50.
+        </p>
+        <p xml:id="para_9_296_128">
+         2° Vêtements de travail.—2 robes en coton, 4ᶠ 00 ;—1 jupon en coton, 3ᶠ 00; —20 che¬mises en toile de chanvre, dont 10 à5ᶠ 00, et 10 usées à 2ᶠ 00, 70t 00 ; — 8 bonnets, 4ᶠ 00 ; — 18 mouchoirs de coton, 9ᶠ 00 ; — 6paires de bas de coton, 9 00; — 2 paires de bas de laine, 4ᶠ 00 ; — 1 paire de vieux souliers, 3ᶠ 00; — 1 paire de sabots, 0ᶠ 80; (1 paire tous les deux mois). — Total, 106ᶠ 80.
+        </p>
+        <p xml:id="para_9_296_129">
+         VÊTEMENTS DE LA PETITE FILLE, 52 3S.
+        </p>
+        <p xml:id="para_9_296_130">
+         2 robes dui dimanche, 10ᶠ00; — 1 réseau pour mettre sur la tête le dimanche,2ᶠ00; ¬
+        </p>
+        <p xml:id="para_9_296_131">
+         2 bonnets du dimanche, 5ᶠ 00;—8 chemises,12ᶠ00; — 5 paires de bas de coton, 2ᶠ50; — 2 paires de bas de laine, 1ᶠ 50 ; — 4 mouchoirs de poche, 0ᶠ 80; — 4 bonnets et 2 ré¬seaux, 3ᶠ 50; —1 chapeau de paille, 3ᶠ00 ; — 3 robes pour la semaine, 6ᶠ60 ; — 3paires de souliers, 6ᶠ05.—Total, 52ᶠ3s.
+        </p>
+        <p xml:id="para_9_296_132">
+         OU....................................... §§ ))
+        </p>
+        <p xml:id="para_9_296_133">
+         1 montre en argent, achetée par l'ouvrier, 35ᶠ00.
+        </p>
        </div>
        <div subtype="par_10_total" type="par_10">
-        <p xml:id="para_9_296_134">VALEUR TOTALE du mobilier, et des vêtements........ 1216ᶠ 55</p>
+        <p xml:id="para_9_296_134">
+         VALEUR TOTALE du mobilier, et des vêtements........ 1216ᶠ 55
+        </p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
-       <p xml:id="para_9_296_136">Les repas et les visites de parents et d'amis auxquels donnent lieu les fêtes patronales d'Hérimoncourt et de Meslières (<ref target="#part_02_03_11" type="renvoi_int_mono">§ 11</ref>), tiennent le premier rang dans les récréations de Georges B*** et de sa femme.</p>
-       <p xml:id="para_9_296_137">Comme justification de la dépense assez élevée, 20ᶠ environ, faite dans le ménage de l'ouvrier pour les repas et les gâteaux de la fête patronale d'Hérimoncourt, il convient de faire remarquer que les restes de ces repas servent à nourrir la famille pendant la plus grande partie de la semaine suivante ; d'un autre côté, la dépense atteindrait certainement un chiffre bien supérieur si l'ou¬vrier et les frères de sa femme, qui viennent à cette occasion de Meslières pour leur rendre visite, prenaient l'habitude de célébrer la fête au cabaret ; mais il faut ajouter que dans les diverses com¬munes du pays, les fêtes patronales n'ont pas lieu en même temps ; de telle sorte que l'ouvrier et sa femme, qui avaient reçu à Iléri<pb facs="#facs_300" n="297" source="lesouvriersdesde02sociuoft_0303.xml"/>moncourt leurs parents de Meslières, ont été, huit ou quinze jours après, passer avec eux les deux jours de la fête de cette dernière commune ; la femme de l'ouvrier, qui craint toujours les occasions de dépense et regrette les journées qui ne rapportent point de sa¬laire, voudrait que toutes les fêtes du pays fussent célébrées le même jour.</p>
-       <p xml:id="para_9_297_139">Le dimanche, l'ouvrier et a femme vont ordinairement se pro¬mener avec leur enfant du côté de Meslières ; ces visites sont rendues fréquentes par l'état de maladie de la mère de la femme. Georges B*** aime la lecture ; le dimanche, lorsque le temps est mauvais, et le soir, il se plaît quelquefois à lire à sa femme des passages de divers ouvrages prêtés par la bibliothèque populaire établie à Hérimoncourt pour les ouvriers de la maison P*** (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>), ou par des camarades ; la lec¬ture à haute voix faite par l'ouvrier des Contes des ˉMille et une ˉMuits, achetés par lui, a beaucoup diverti sa femme.</p>
-       <p xml:id="para_9_297_140">Un grand nombre d'ouvriers, habituellement sobres, se laissent entraîner à quelques excès de boisson lorsqu'ils ont reçu leur paie mensuelle. Georges B***, au contraire, rapporte toujours à sa femme la totalité de son salaire ; mais il dépense environ 4 à 5ᶠ par mois en buvant au cabaret le dimanche avec un ou deux amis.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. — Récréations.
+       </head>
+       <p xml:id="para_9_296_136">
+        Les repas et les visites de parents et d'amis auxquels donnent lieu les fêtes patronales d'Hérimoncourt et de Meslières (
+        <ref target="#part_02_03_11" type="renvoi_int_mono">
+         § 11
+        </ref>
+        ), tiennent le premier rang dans les récréations de Georges B*** et de sa femme.
+       </p>
+       <p xml:id="para_9_296_137">
+        Comme justification de la dépense assez élevée, 20ᶠ environ, faite dans le ménage de l'ouvrier pour les repas et les gâteaux de la fête patronale d'Hérimoncourt, il convient de faire remarquer que les restes de ces repas servent à nourrir la famille pendant la plus grande partie de la semaine suivante ; d'un autre côté, la dépense atteindrait certainement un chiffre bien supérieur si l'ou¬vrier et les frères de sa femme, qui viennent à cette occasion de Meslières pour leur rendre visite, prenaient l'habitude de célébrer la fête au cabaret ; mais il faut ajouter que dans les diverses com¬munes du pays, les fêtes patronales n'ont pas lieu en même temps ; de telle sorte que l'ouvrier et sa femme, qui avaient reçu à Iléri
+        <pb facs="#facs_300" n="297" source="lesouvriersdesde02sociuoft_0303.xml"/>
+        moncourt leurs parents de Meslières, ont été, huit ou quinze jours après, passer avec eux les deux jours de la fête de cette dernière commune ; la femme de l'ouvrier, qui craint toujours les occasions de dépense et regrette les journées qui ne rapportent point de sa¬laire, voudrait que toutes les fêtes du pays fussent célébrées le même jour.
+       </p>
+       <p xml:id="para_9_297_139">
+        Le dimanche, l'ouvrier et a femme vont ordinairement se pro¬mener avec leur enfant du côté de Meslières ; ces visites sont rendues fréquentes par l'état de maladie de la mère de la femme. Georges B*** aime la lecture ; le dimanche, lorsque le temps est mauvais, et le soir, il se plaît quelquefois à lire à sa femme des passages de divers ouvrages prêtés par la bibliothèque populaire établie à Hérimoncourt pour les ouvriers de la maison P*** (
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         B
+        </ref>
+        ), ou par des camarades ; la lec¬ture à haute voix faite par l'ouvrier des Contes des ˉMille et une ˉMuits, achetés par lui, a beaucoup diverti sa femme.
+       </p>
+       <p xml:id="para_9_297_140">
+        Un grand nombre d'ouvriers, habituellement sobres, se laissent entraîner à quelques excès de boisson lorsqu'ils ont reçu leur paie mensuelle. Georges B***, au contraire, rapporte toujours à sa femme la totalité de son salaire ; mais il dépense environ 4 à 5ᶠ par mois en buvant au cabaret le dimanche avec un ou deux amis.
+       </p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">IV. Histoire de la famille</head>
+      <head type="sub_section" xml:id="part_02_04">
+       IV. Histoire de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
-       <p xml:id="para_9_297_144">Georges B**, né en 1827 (<ref target="#ID-015a" type="renvoi_int_od2m">N°15 § 2</ref>), a été employé, dès l'âge de 11 ans, dans une fabrique d'horlogerie d'Hérimoncourt, à faire les commissions ; il recevait 0ᶠ25 par jour. En 1839, il entra dans la maison Pᵉᵉ, 2 l'usine de Terre-Blanche, où il fut chargé de grais¬ser, de soigner et d'empaqueter les outils, et gagna bientot0ᶠ45. Son salaire s'élevant avec la difficulté et l'importance de son travail, iltouchait, lorsqu'il atteignit l'âge de20 ans, unsalaire de 1ᶠ45 par jour.</p>
-       <p xml:id="para_9_297_145">A cette époque, en 1848, il s'engagea volontairement pour deux ans ; cette résolution eut pour causes le manque de travail et ses rapports avec un employé de l'usine dont il croyait avoir à se plaindre. Le tirage de la classe à laquelle il appartenait eut lieu pendant qu'il était sous les drapeaux. Exempté par son numéro, il rentra dans ses foyers à l'expiration de son engagement.</p>
-       <p xml:id="para_9_297_146">Les salaires que rȩoivent à Hérimoncourt les ouvriers horlogers<pb facs="#facs_301" n="298" source="lesouvriersdesde02sociuoft_0304.xml"/>(<ref target="#ID-015a" type="renvoi_int_od2m">Nᵉ 15 § 1ᵉʳ</ref>) sont en général supérieurs à cex des ouvriers de l'usine de Terre-Blanche ; la moyenne des premiers est aujourd'hui de 80 à 90ᶠ; celle des seconds de 60 a 65ᶠ; de plus, le travail de l'horlogerie moins fatigant, moins salissant que celui de l'usine, at¬tire davantage certains ouvriers. Georges B*** en quittant le service militaire se mit à l'horlogerie, mais il renoņa définitivement, huit mois après, à ce genre de travail pour rentrer dans la maison s où il est employé aujourd'hui, comme tâcheron, au montage des outils (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>). Il a épousé, en 1854, à l'âge de 26 ans, Cathe¬rine C*** qui ne lui a apporté qu'un petit trousseau d'une faible valeur ; il ne possédait rien, et a acheté peu à peu avec les écono¬mies faites sur son salaire, les meubles et les ustensiles indispen¬sables à un ménage. Il a dépensé ainsi environ 600ᶠ.</p>
-       <p xml:id="para_9_298_148">La femme Catherine est la fille aînée d'un cultivateur de Meslières (<ref target="#part_02_01_02" type="renvoi_int_mono">§ 2</ref>) ; elle est restée dans la maison paternelle jusqu'à l'âge de 20 ans ; sa mère étant toujours malade, elle s'occupait des travaux du ménage, et des soins à donner à ses frères et sœurs plus jeunes. De 20 à22 ans, elle aété placée, comme bonne d'enfants, dans une famille d'Audincourt. Cédant ensuite aux conseils d'une de ses parentes, ouvrière en horlogerie, elle prit le parti de se livrer à cette industrie qu'elle exerça pendant quatre ans comme denteuse de pignons, dans une fabrique de la commune de Seloncourt ; elle de¬meurait avec sa parente. Elle s'est mariée avec Georges B***  l'âge de 26 ans, et, en 1855, elle a donné le jour à une fille. Elle con¬tinue dans son ménage (<ref target="#part_02_02_08" type="renvoi_int_mono">§ 8</ref>), à travailler à l'horlogerie ; mais un apprentissage spécial lui a été nécessaire pour pouvoir s'occuper du percement des pignons.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. — Phases principales de l'existence.
+       </head>
+       <p xml:id="para_9_297_144">
+        Georges B**, né en 1827 (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N°15 § 2
+        </ref>
+        ), a été employé, dès l'âge de 11 ans, dans une fabrique d'horlogerie d'Hérimoncourt, à faire les commissions ; il recevait 0ᶠ25 par jour. En 1839, il entra dans la maison Pᵉᵉ, 2 l'usine de Terre-Blanche, où il fut chargé de grais¬ser, de soigner et d'empaqueter les outils, et gagna bientot0ᶠ45. Son salaire s'élevant avec la difficulté et l'importance de son travail, iltouchait, lorsqu'il atteignit l'âge de20 ans, unsalaire de 1ᶠ45 par jour.
+       </p>
+       <p xml:id="para_9_297_145">
+        A cette époque, en 1848, il s'engagea volontairement pour deux ans ; cette résolution eut pour causes le manque de travail et ses rapports avec un employé de l'usine dont il croyait avoir à se plaindre. Le tirage de la classe à laquelle il appartenait eut lieu pendant qu'il était sous les drapeaux. Exempté par son numéro, il rentra dans ses foyers à l'expiration de son engagement.
+       </p>
+       <p xml:id="para_9_297_146">
+        Les salaires que rȩoivent à Hérimoncourt les ouvriers horlogers
+        <pb facs="#facs_301" n="298" source="lesouvriersdesde02sociuoft_0304.xml"/>
+        (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         Nᵉ 15 § 1ᵉʳ
+        </ref>
+        ) sont en général supérieurs à cex des ouvriers de l'usine de Terre-Blanche ; la moyenne des premiers est aujourd'hui de 80 à 90ᶠ; celle des seconds de 60 a 65ᶠ; de plus, le travail de l'horlogerie moins fatigant, moins salissant que celui de l'usine, at¬tire davantage certains ouvriers. Georges B*** en quittant le service militaire se mit à l'horlogerie, mais il renoņa définitivement, huit mois après, à ce genre de travail pour rentrer dans la maison s où il est employé aujourd'hui, comme tâcheron, au montage des outils (
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         § 8
+        </ref>
+        ). Il a épousé, en 1854, à l'âge de 26 ans, Cathe¬rine C*** qui ne lui a apporté qu'un petit trousseau d'une faible valeur ; il ne possédait rien, et a acheté peu à peu avec les écono¬mies faites sur son salaire, les meubles et les ustensiles indispen¬sables à un ménage. Il a dépensé ainsi environ 600ᶠ.
+       </p>
+       <p xml:id="para_9_298_148">
+        La femme Catherine est la fille aînée d'un cultivateur de Meslières (
+        <ref target="#part_02_01_02" type="renvoi_int_mono">
+         § 2
+        </ref>
+        ) ; elle est restée dans la maison paternelle jusqu'à l'âge de 20 ans ; sa mère étant toujours malade, elle s'occupait des travaux du ménage, et des soins à donner à ses frères et sœurs plus jeunes. De 20 à22 ans, elle aété placée, comme bonne d'enfants, dans une famille d'Audincourt. Cédant ensuite aux conseils d'une de ses parentes, ouvrière en horlogerie, elle prit le parti de se livrer à cette industrie qu'elle exerça pendant quatre ans comme denteuse de pignons, dans une fabrique de la commune de Seloncourt ; elle de¬meurait avec sa parente. Elle s'est mariée avec Georges B***  l'âge de 26 ans, et, en 1855, elle a donné le jour à une fille. Elle con¬tinue dans son ménage (
+        <ref target="#part_02_02_08" type="renvoi_int_mono">
+         § 8
+        </ref>
+        ), à travailler à l'horlogerie ; mais un apprentissage spécial lui a été nécessaire pour pouvoir s'occuper du percement des pignons.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
-       <p xml:id="para_9_298_150">La famille de l'ouvrier porte en elle-même des garanties d'avenir, etl'influence de la femme réussira à y développer le goût de l'épargne qui conduit à la propriété. Habile et laborieux, l'ouvrier, s'il sait tirer parti du salaire élevé et des bénéfices qui lui sont attribués, doit moins redouter les fâcheuses éventualités que songer aux moyens de continuer, par le travail et l'économie, la petite fortune commencée par son père (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15 § 6</ref>), pour s'élever définitivement à la condition d'ouvrier-propriétaire. Même après que le partage légal aura divisé en deux parts l'héritage paternel, il aura entre les mains une valeur presque double de celle dont son père est parti, et les ressources dont il dispose pour l'augmenter sont beaucoup plus considérables. Les mêmes moyens extérieurs sont à sa disposi<pb facs="#facs_302" n="299" source="lesouvriersdesde02sociuoft_0305.xml"/>tion ; la caisse de secours mutuels organisée dans l'usine <ref target="#ID-015a" type="renvoi_int_od2m">[N 15 (D)]</ref> lui permettra de conjurer les chances d'accidents ou de maladie, ou d'en atténuer tout au moins les conséquences. La caisse d'épargne établie dans l'usine <ref target="#ID-015a" type="renvoi_int_od2m">[N° 15 (E)]</ref>, les avances que les patrons n'hé¬sitent pas à faire gratuitement à leurs ouvriers <ref target="#ID-015a" type="renvoi_int_od2m">[N 15 (G)]</ref> lui faci¬literont l'épargne pour l'acquisition de nouvelles parcelles de pro¬priété. Logé à prix réduit dans la maison de son père, il se trouve à l'abri des prétentions exagérées de certains propriétaires du pays; à défaut de cet avantage, il aurait pu diminuer ses dépenses en recourant aux logements à bon marché construits ou loués par les chefs de l'usine, pour leurs ouvriers <ref target="#ID-015a" type="renvoi_int_od2m">[N° 15 (F)]</ref>.</p>
-       <p xml:id="para_9_299_152">Le bien-être moral de la jeune famille, dont l'ouvrier est le chef, trouvera en outre dans certaines institutions émanant des chefs de l'usine, des garanties qu'il convient de mentionner ici.</p>
-       <p xml:id="para_9_299_153">Si la fille de Georges B***, ou d'autres enfants qu'il aurait par la suite, travaillent pour la maison P***, ces enfants recevront gratuitement, aux frais de cette maison, les éléments de l'in¬struction primaire ; Georges R*** qui sait d'ailleurs, par expé¬rience, que cette instruction n'est pas moins utile à l'ouvrier que la force même de ses bras, devra, sous peine d'amende, leur faire suivre cet enseignement. Quant à l'instruction primaire com¬munale, le taux de la rétribution scolaire est très- peu élevé à Hérimoncourt, et à Valentigney l'instruction primaire est compléte¬ent gratuite (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>). Pour le présent, la famille fait usage des Biblio¬thèques populaires fondées par les frères *** pour leurs ouvriers ; ceux-ci peuvent emporter chez eux, pour les lire en famille, les ouvrages qui composent ces bibliothèques (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>). L'ouvrier se procure ainsi certains livres religieux ou d'autres ouvrages intéressants pour en faire lecture aux moments de loisir.</p>
-       <p xml:id="para_9_299_154">Bien que la famille semble peu exposée aux chances de la misère, si quelque malheur imprévu venait l'atteindre et détruire tout son bien-être, elle trouverait, dans plusieurs institutions charitables, des ressources qui ont été indiquées précédemment (<ref target="#ID-015a" type="renvoi_int_od2m">N° 15 § 13</ref>) et dans une autre institution qui itéresse spécialement les jeunes enfants. Les communes d'Hérimoncourt et de Valentigney profitent de l'Association évangélique pour le patronage des enfants indigents de la circonscription de l'inspection ecclésiastique de Montbé¬liard (<ref target="#part_03_01_19" type="renvoi_int_mono">C</ref>). Cette association recueille les enfants indigents, aban¬donnés ou mendiants, les place dans d'honnêtes familles, leur fait donner l'instruction et l'éducation des enfants du pays et les patronne jusqu'à ce qu'ayant terminé leur apprentissage, ils soient en état de pourvoir par eux-mêmes à leurs besoins.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.
+       </head>
+       <p xml:id="para_9_298_150">
+        La famille de l'ouvrier porte en elle-même des garanties d'avenir, etl'influence de la femme réussira à y développer le goût de l'épargne qui conduit à la propriété. Habile et laborieux, l'ouvrier, s'il sait tirer parti du salaire élevé et des bénéfices qui lui sont attribués, doit moins redouter les fâcheuses éventualités que songer aux moyens de continuer, par le travail et l'économie, la petite fortune commencée par son père (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N° 15 § 6
+        </ref>
+        ), pour s'élever définitivement à la condition d'ouvrier-propriétaire. Même après que le partage légal aura divisé en deux parts l'héritage paternel, il aura entre les mains une valeur presque double de celle dont son père est parti, et les ressources dont il dispose pour l'augmenter sont beaucoup plus considérables. Les mêmes moyens extérieurs sont à sa disposi
+        <pb facs="#facs_302" n="299" source="lesouvriersdesde02sociuoft_0305.xml"/>
+        tion ; la caisse de secours mutuels organisée dans l'usine
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N 15 (D)]
+        </ref>
+        lui permettra de conjurer les chances d'accidents ou de maladie, ou d'en atténuer tout au moins les conséquences. La caisse d'épargne établie dans l'usine
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N° 15 (E)]
+        </ref>
+        , les avances que les patrons n'hé¬sitent pas à faire gratuitement à leurs ouvriers
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N 15 (G)]
+        </ref>
+        lui faci¬literont l'épargne pour l'acquisition de nouvelles parcelles de pro¬priété. Logé à prix réduit dans la maison de son père, il se trouve à l'abri des prétentions exagérées de certains propriétaires du pays; à défaut de cet avantage, il aurait pu diminuer ses dépenses en recourant aux logements à bon marché construits ou loués par les chefs de l'usine, pour leurs ouvriers
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         [N° 15 (F)]
+        </ref>
+        .
+       </p>
+       <p xml:id="para_9_299_152">
+        Le bien-être moral de la jeune famille, dont l'ouvrier est le chef, trouvera en outre dans certaines institutions émanant des chefs de l'usine, des garanties qu'il convient de mentionner ici.
+       </p>
+       <p xml:id="para_9_299_153">
+        Si la fille de Georges B***, ou d'autres enfants qu'il aurait par la suite, travaillent pour la maison P***, ces enfants recevront gratuitement, aux frais de cette maison, les éléments de l'in¬struction primaire ; Georges R*** qui sait d'ailleurs, par expé¬rience, que cette instruction n'est pas moins utile à l'ouvrier que la force même de ses bras, devra, sous peine d'amende, leur faire suivre cet enseignement. Quant à l'instruction primaire com¬munale, le taux de la rétribution scolaire est très- peu élevé à Hérimoncourt, et à Valentigney l'instruction primaire est compléte¬ent gratuite (
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         A
+        </ref>
+        ). Pour le présent, la famille fait usage des Biblio¬thèques populaires fondées par les frères *** pour leurs ouvriers ; ceux-ci peuvent emporter chez eux, pour les lire en famille, les ouvrages qui composent ces bibliothèques (
+        <ref target="#part_03_01_18" type="renvoi_int_mono">
+         B
+        </ref>
+        ). L'ouvrier se procure ainsi certains livres religieux ou d'autres ouvrages intéressants pour en faire lecture aux moments de loisir.
+       </p>
+       <p xml:id="para_9_299_154">
+        Bien que la famille semble peu exposée aux chances de la misère, si quelque malheur imprévu venait l'atteindre et détruire tout son bien-être, elle trouverait, dans plusieurs institutions charitables, des ressources qui ont été indiquées précédemment (
+        <ref target="#ID-015a" type="renvoi_int_od2m">
+         N° 15 § 13
+        </ref>
+        ) et dans une autre institution qui itéresse spécialement les jeunes enfants. Les communes d'Hérimoncourt et de Valentigney profitent de l'Association évangélique pour le patronage des enfants indigents de la circonscription de l'inspection ecclésiastique de Montbé¬liard (
+        <ref target="#part_03_01_19" type="renvoi_int_mono">
+         C
+        </ref>
+        ). Cette association recueille les enfants indigents, aban¬donnés ou mendiants, les place dans d'honnêtes familles, leur fait donner l'instruction et l'éducation des enfants du pays et les patronne jusqu'à ce qu'ayant terminé leur apprentissage, ils soient en état de pourvoir par eux-mêmes à leurs besoins.
+       </p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. — Budget des recettes de l'année.
+       </head>
        <pb facs="#facs_303" n="300" source="lesouvriersdesde02sociuoft_0306.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_303" url="#" xml:id="tble_9_300_1"/>
@@ -448,7 +969,9 @@
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. — Budget des dépenses de l'année.
+       </head>
        <pb facs="#facs_307" n="304" source="lesouvriersdesde02sociuoft_0310.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_307" url="#" xml:id="tble_9_304_5"/>
@@ -465,7 +988,9 @@
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">COMPTES ANNEXÉS AUX BUDGETS.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
        <pb facs="#facs_310" n="307" source="lesouvriersdesde02sociuoft_0313.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_310" url="#" xml:id="tble_9_307_8"/>
@@ -492,62 +1017,156 @@
       </div>
      </div>
      <div n="003" type="section">
-      <head type="section" xml:id="part_03">Notes</head>
-      <p xml:id="para_9_312_162">FAITS IMPORTANTS D'ORGANISATION SOCIALE, PARTICULARITÉS REMARQUABLES APPRÉCIATIONS GÉNÉRALES, CONCLUSIONS.</p>
+      <head type="section" xml:id="part_03">
+       Notes
+      </head>
+      <p xml:id="para_9_312_162">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE, PARTICULARITÉS REMARQUABLES APPRÉCIATIONS GÉNÉRALES, CONCLUSIONS.
+      </p>
       <div n="001" type="sub_section">
        <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">(A) SUR L'INSTRUCTION PRIMAIRE DANS LES COMMUNES D'HÉRIMONCOURT ET DE VALENTIGNE.</head>
-        <p xml:id="para_9_312_164"><pb facs="#facs_315" n="312" source="lesouvriersdesde02sociuoft_0318.xml"/> Dans ces deux communes, quelques vieillards sont les seuls habi¬tants qui ne sachent absolument ni lire ni écrire ; les autres ont généralement reçu les éléments de l'instruction primaire ; beaucoup lisent et écrivent couramment, et savent compter ; mais le nombre est malheureusement trop grand encore de ceux qui ne sont pas assez lettrés pour faire euxmêmes leurs affaires. L'expérience jour¬nalière prouve que les ouvriers industriels dont l'instruction pri¬maire estinsuffisante, peuveit être entravés dans l'exercice de leur profession, quelle que soit d'ailleurs leur habileté manuelle, par l'impossibilité de faire un compte, de tenir un carnet (
-         <ref target="#part_02_01_03" type="renvoi_int_mono">§ 3</ref>) ; il est évident, d'un autre côté, que l'ignorance des femmes est une cause de désordre et de ruine en les empêchant d'avoir une idée exacte de la situation et des dépenses du ménage. On ne peut trop insister sur ce point capital ; il faudrait à toute femme d'ouvrier une excel¬lente instruction primaire, quelques notions théoriques sur la gestion du ménage, l'hygiène et la propreté. Les faits observés dans la lo¬calité prouvent que c'est souvent l'incapacité de la femme qui met obstacle à la prospérité de la famille, et qu'il y a un intéret social de premier ordre à ce que les filles du peuple soient élevées et instruites convenablement.</p>
-        <p xml:id="para_9_312_165">On n'a pas remarqué que la supériorité relative des habitants d'Hérimoncourt et de Valentigney, au point de vue dé l'instruction primaire, ait été l'occasion de déclassements fâcheux ; ils ne sont pas détournés du travail industriel et agricole par l'espoir d'em¬ployer plus utilement dans un autre état les connaissances élémen¬taires qu'ils reçoivent, et dont l'effet est d'augmenter leur capacité professionnelle ; mais il arrive assez souvent que des fils d'ouvriers<pb facs="#facs_316" n="313" source="lesouvriersdesde02sociuoft_0319.xml"/>ou de cultivateurs, qui font preuve d'une aptitude particulière, sont admis dans les bureaux des usines où ils deviennent plus tard em¬ployés.</p>
-        <p xml:id="para_9_313_167">Ces faits positifs et matériels, s'ajoutant aux considérations d'un ordre plus élevé qui dominent la question de l'instruction popu¬laire, ont poussé les administrations unicipales et les chefs d'in¬dustrie à favoriser le développement de l'instruction primaire par tous les moyens en leur pouvoir.</p>
-        <p xml:id="para_9_313_168">Les conseils municipaux se montrent, en effet, disposés à donner gratuitement l'instruction primaire aux enfants de la commune, ou tout au moins à abaisser fortement le taux de la rétribution scolaire. A Hérimoncourt, tout habitant, ayant droit ou non à l'affouage, qui envoie à l'école un ou plusieurs enfants, quel gu'en soit le nombreˉ, ne paie qu'une rétribution scolaire de 6ᶠ par an ; les ayant-droit à l'affouage, qui n'envoient pas d'enfants à l'école, paient néanmoins à l'instituteur une taxe de 3ᶠ. Les enfants d'Hérimoncourt vont ré¬gulièrement à l'école en hiver. Il en est de même à Valentigney où l'instruction primaire est complétement gratuite. Dans une commune voisine, où chaque enfant doit payer une rétribution scolaire de 0ᶠ 50 par mois, beaucoup d'ouvriers industriels ont cessé d'envoyer leurs enfants à l'école. Une circulaire du préfet du Doubs, en date du 24 janvier 1857, adressée aux administrations municipales du département, les informe que les communes n'auront droit à des subventions que si la rétribution scolaire est établie d'une manière positive, et les invite à ne pas abaisser cette rétribution au-dessous de 0ᶠ50 par enfant et par mois, d'après une décision du conseil départemental de l'instruction publique qui a maintenu les taux supérieurs de 0ᶠ 60, 0ᶠ75 et 1ᶠ. Cependant, sur dix communes com¬prises dans la perception dont Valentigney dépend, huit ont maintenu le principe'de la gratuité.</p>
-        <p xml:id="para_9_313_169">Les garçons et les filles sont réunis à Hérimoncourt dans la même école. Cette circonstance contribue à faire apprécier par la femme de Georges B*** a faculté d'envoyer bientôt sa fille à lEécole gra¬tuite tenue par une personne charitable d'Hérimoncourt, et où 40 petites filles, placées sous une influence religieuse et entourées de soins maternels, apprennent à lire, à écrire, à coudre, à tricoter, à broder et à chanter, et sont réunies à la fin de l'année autour d'un arbre de Noel.</p>
-        <p xml:id="para_9_313_170">La maison P*** emploie 67 enfants au-dessous de 16 ans qui ne peuvent suivre à aucune époque les leçons de l'école communale ; elle leur donne les éléments de l'instruction primaire qui est pour eux non-seulement gratuite, mais obligatoire. On leur enseigne la lecture, l'écriture et le calcul ; la maison P*** paie 200ᶠ par an à<pb facs="#facs_317" n="314" source="lesouvriersdesde02sociuoft_0320.xml"/>l'instituteur communalde Valentigney pour faire la classe tous les soirs de7à 8 heures, et tenir une école du dimanche. Les adultes illettrés peuvent assister à ces leçons et en profitent quelquefois : quand on suit de bonnes méthodes, quelques mois de leçois suffisent à un adulte d'une intelligence ordinaire pour apprendre à lire et à écrire passablement ; pour les- enfants qui demeurent autour de l'usine de Terre-Blanche, un employé du bureau de cette usine, ancien insti¬tuteur, qui reçoit pour ce travail 80ᶠ par an, fait la classe tous les jours pendant une demi-heure, après le repas de midi ; enfin, pour les enfants qui habitent Hérimoncourt, l'instituteur de cette com¬mune, moyennant une indemnité de 150ᶠ, fait chaque soir une classe d'une heure. Tous les enfants-ouvriers de l'usine, garçons et filles, assistent à la classe. En cas d'absence non justifiée d'un enfant, le père qui a négligé de l'envoyer à la classe,' ou l'enfant lui-même, est passible d'une amende de 0ᶠ 10 pour chaque contravention. On peut, sans doute, regretter que les conseils des patrons et leur influence morale n'aient pas suffi pour amener à l'école tous les enfants de leurs ouvriers ; mais ces chefs d'industrie ont pensé que le butque¬vait être atteint, même au prix d'une légère contrainte que comporte d'ailleurs l'application de la loi du 22 mars 1841'relative au travail des enfants employés dans les manufactures, usines ou ateliers. Cette loi, en effet, a rendu l'instruction primaire obligatoire pour certaines catégories d'enfants ; son article 5 porte ce qui suit : Nul enfant âgé de moins de douze ans ne pourra être admis (1ᵉ  dans les manufactures, usines et ateliers à moteur mécanique ou à feu con¬tinu, et dans leurs dépendances ; 2ᵉ dans toute fabrique occupant plus de 20 ouvriers réunis en atelier),  qu'autant que ses parents ou tuteur justifieront qu'il fréquente actuellement une des écoles publiques ou privées existant dans la localité. Tout enfant admis devra, jusqu'à l'âge de douze ans, suivre une école. Les enfants âgés de plus de douze ans seront dispensés de suivre une école lorsqu'un certificat, donné par le maire de leur résidence, attestera qu'ils ont reçu l'instruction primaire élémentaire.  Aux termes de l'art. 8, des règlements d'administration publique devront assurer l'instruction primaire et l'enseignement religieux des enfants.  L'article 9 porte que la loi et les règlements d'administration y relatifs seront affichés par les chefs d'industrie dans chaque atelier avec ˉles règlements in¬térieurs qu'ils seront lenus defaire pour en assurer ˉl'exécution. Enfin, d'après les articles 11 et 12, en cas de contravention à la loi, les chefs d'industrie seront traduits devant le juge de paix du canton et punis d'une amende de simple police qui ne pourra excéder 15ᶠ, et, s'il y a récidive, devant le tribunal de police correctionnelle et con¬damnés à une amende de 16 à 100ᶠ.</p>
-        <p xml:id="para_9_315_172"><pb facs="#facs_318" n="315" source="lesouvriersdesde02sociuoft_0321.xml"/> Dans la petite sphère où il est établi, le système répressif adopté par la maison ᵉᵉ* a le mérite d'assurer l'accomplisse¬ment d'un devoir social trop méconnu par les pères de famille et pour lequel on a plusieurs fois réclamé en France, au nom de la religion, de la morale et des principes conservateurs de ᵉla société, une sanction légale qui existe dans un grand nombre d'Éats : on sait, en effet, que l'instruction primaire est obligatoire en Prusse, en Saxe, dans le Hanovre, dans le grand-duché de Bade, dans le duché de Veimar, en Bavière et en Autriche<note type="bp">
-          <p>De l'Éducation popfilaire dans l' Allemagne du Nord, par M. Eugène Rendu, 1855.</p>
-         </note>. Il en est de même en Portugal, n,Danemar et dans le Vurtemberg. Aux États-Unis, l'instruction primaire est obligatoire et gratuite dans le Massachussetts, et dans les États tels que celui de Nev-or, la Pensylvanie et l'Iova qui ont admis ce qu'on appelle system of public schools<note type="bp">
-          <p>Le journal le Courrier du Havre, cité par le Moniteur du 26 mars 1858, fait connaître dans les termes suivants l'admission en Australie du principe de l'obligation de l'enseignement primaire : « Les journaux anglais donnent la plus entière approbation à une mesure que le parlement de Melbourne vient de prendre par l'adoption d'un bill qui punit d'une amende le père de tout enfant de sept ans incapable de lire et d'écrire ou ne fréquentant aucune école. Le Morning Post voudrait, pour sa part, qu'une semblable loi, qui ne peut que produire les effets les plus salutaires, fût adoptée en Angleterre.</p>
-         </note>.</p>
-        <p xml:id="para_9_315_173">Les progrès réalisés par la libre action de l'initiative indi¬viduelle sont certainement préférables à ceux qu'impose la puis¬sance publique ; mais quand ce premier moyen fait défaut, le second devient un expédient auquel il est nécessaire de recourir, et dont l'emploi se justifierait aisément : Si la raison de l'utilité publique suffit au législateur pour toucher à la propriété, pourquoi la raison d'une utilité bien supérieure ne lui suffirait-elle pas pour faire moins, pour exiger que des enfants recoivent l'instruction indispensable à toute créature humaine, afin qu'elle ne devienne pas nuisible à elle¬même et à la société tout entière3 Une certaine instruction dans les citoyens est-elle au plus haut degré utile ou même nécessaire à la société Telle est la question. La résoudre affirmativement, c'est armer la société du droitde veiller à ce que ce peu d'instruction nécessaire à tous ne manque à personne. l est contradictoire de proclamer la nécessité de l'instruction universelle, et de se refuser au seul moyen qui la puisse procurer. Il n'est pas non plus fort conséquent peut-être d'imposer une école à chaque commune, sans imposér aux enfants l'obligation de la fréquenter. Otez cette obli¬gation, à force de sacrifices vous fonderez des écoles ; mais ces écoles pourront être peu fréquentées, et par ceux-là précisément auxquels elles seraient le plus nécessaires... Point d'âge fixe où<pb facs="#facs_319" n="316" source="lesouvriersdesde02sociuoft_0322.xml"/>l'on doive commencer à aller aux écoles et où on doive les quitter ; nulle garantie d'assiduité ; nulle marche régulière des études. ˉLa raie liberté ne peut étre l'ennemie de la civilisation<note type="bp">
-          <p>Rapport présenté à la Chambre des pairs par M. Cousin, le 21 mai 1833, au nom de la commission chargée d'examiner le projet de loi relatif à l'instruction primaire (Loi du 28 juin 1833).</p>
-         </note>.</p>
-        <p xml:id="para_9_316_175">Les statistiques judiciaires montrent que le bienfait del'instruction manque à la plupart des criminels : sur 6,124 accusés jugés contra¬dictoirement par les cours d'assises en 1856, 2,698 étaient com¬plètement illettrés ; 2332 savaient lire seulement ou écrire et lire imparfaitement<note type="bp">
-          <p>Compte général de l'administration de la justice criminelle en France pendant lannée 1856.</p>
-         </note>.</p>
-        <p xml:id="para_9_316_176">En matière d'instruction populaire, la France n'est pas au rang où on aimerait la voir placée : le dernier compte rendu sus le recru¬tement de l'armée publié par M. le ministre de la guerre, et qui s'ap¬plique à la classe de 1855, constate que, sur 317,855 jeunes gens inscrits sur les tableaux de recensement de cette classe, 102,485, c'est-à-dire le tiers environ, ne savaient ni lire niecrire ; 10,162 sa¬vaient lire seulement ; 195,209 savaient lire et écrire (l'instruction de 9,699 n'a pu être vérifiée). Il résulte du même compte rendu que. dans le département du Doubs, sur 2,757 jeunes gens inscrits, 84, c'est-à-dire environ 3 sur 100, ne savaient ni lire ni écrire ; 36 ne savaient que lire; 2,535 savaient lire et écrire (l'instruction de 102 n'avait pu être vérifiée). Il convient de faire remarquer que l'instruction primaire avait été rendue obligatoire dans l'ancien comté de Montbéliard par les ducs de Vurtemberg, souverains de ce comté.</p>
-        <p xml:id="para_9_316_177">S'il s'agissait ici de traiter, à un point de vue général, les questions que soulève le principe de l'obligation appliqué à l'instruction pri¬maire et ses rapports avec l'institution du suffrage universel, il serait facile de faire ressortir les avantages d'une mesure qui pour¬rait s'ajouter à la sanction directe d'une pénalité et par laquelle la loi suspendrait l'exercice du droit électoral à tous les degrés, pour tout citoyen atteignant sa majorité sans savoir lire et écrire. l importe d'accélérer la marche d'un progrès, réel à la vérité, mais qui s'accomplit avec une extrême lenteur ; le nombre des jeunes Français, âgés de 21 ans et ne sachant ni lire ni écrire, était en 1833 d'environ 46 sur 100 ; et, en 1855, 23 ans après, ce nombre était encore d'environ 32 sur 100.</p>
-        <p xml:id="para_9_316_178">Le tableau ci-après permet de suivre en quelque sorte pas à pas, cette difficile conquête de la lumière sur les ténèbres :</p>
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         (A) SUR L'INSTRUCTION PRIMAIRE DANS LES COMMUNES D'HÉRIMONCOURT ET DE VALENTIGNE.
+        </head>
+        <p xml:id="para_9_312_164">
+         <pb facs="#facs_315" n="312" source="lesouvriersdesde02sociuoft_0318.xml"/>
+         Dans ces deux communes, quelques vieillards sont les seuls habi¬tants qui ne sachent absolument ni lire ni écrire ; les autres ont généralement reçu les éléments de l'instruction primaire ; beaucoup lisent et écrivent couramment, et savent compter ; mais le nombre est malheureusement trop grand encore de ceux qui ne sont pas assez lettrés pour faire euxmêmes leurs affaires. L'expérience jour¬nalière prouve que les ouvriers industriels dont l'instruction pri¬maire estinsuffisante, peuveit être entravés dans l'exercice de leur profession, quelle que soit d'ailleurs leur habileté manuelle, par l'impossibilité de faire un compte, de tenir un carnet (
+         <ref target="#part_02_01_03" type="renvoi_int_mono">
+          § 3
+         </ref>
+         ) ; il est évident, d'un autre côté, que l'ignorance des femmes est une cause de désordre et de ruine en les empêchant d'avoir une idée exacte de la situation et des dépenses du ménage. On ne peut trop insister sur ce point capital ; il faudrait à toute femme d'ouvrier une excel¬lente instruction primaire, quelques notions théoriques sur la gestion du ménage, l'hygiène et la propreté. Les faits observés dans la lo¬calité prouvent que c'est souvent l'incapacité de la femme qui met obstacle à la prospérité de la famille, et qu'il y a un intéret social de premier ordre à ce que les filles du peuple soient élevées et instruites convenablement.
+        </p>
+        <p xml:id="para_9_312_165">
+         On n'a pas remarqué que la supériorité relative des habitants d'Hérimoncourt et de Valentigney, au point de vue dé l'instruction primaire, ait été l'occasion de déclassements fâcheux ; ils ne sont pas détournés du travail industriel et agricole par l'espoir d'em¬ployer plus utilement dans un autre état les connaissances élémen¬taires qu'ils reçoivent, et dont l'effet est d'augmenter leur capacité professionnelle ; mais il arrive assez souvent que des fils d'ouvriers
+         <pb facs="#facs_316" n="313" source="lesouvriersdesde02sociuoft_0319.xml"/>
+         ou de cultivateurs, qui font preuve d'une aptitude particulière, sont admis dans les bureaux des usines où ils deviennent plus tard em¬ployés.
+        </p>
+        <p xml:id="para_9_313_167">
+         Ces faits positifs et matériels, s'ajoutant aux considérations d'un ordre plus élevé qui dominent la question de l'instruction popu¬laire, ont poussé les administrations unicipales et les chefs d'in¬dustrie à favoriser le développement de l'instruction primaire par tous les moyens en leur pouvoir.
+        </p>
+        <p xml:id="para_9_313_168">
+         Les conseils municipaux se montrent, en effet, disposés à donner gratuitement l'instruction primaire aux enfants de la commune, ou tout au moins à abaisser fortement le taux de la rétribution scolaire. A Hérimoncourt, tout habitant, ayant droit ou non à l'affouage, qui envoie à l'école un ou plusieurs enfants, quel gu'en soit le nombreˉ, ne paie qu'une rétribution scolaire de 6ᶠ par an ; les ayant-droit à l'affouage, qui n'envoient pas d'enfants à l'école, paient néanmoins à l'instituteur une taxe de 3ᶠ. Les enfants d'Hérimoncourt vont ré¬gulièrement à l'école en hiver. Il en est de même à Valentigney où l'instruction primaire est complétement gratuite. Dans une commune voisine, où chaque enfant doit payer une rétribution scolaire de 0ᶠ 50 par mois, beaucoup d'ouvriers industriels ont cessé d'envoyer leurs enfants à l'école. Une circulaire du préfet du Doubs, en date du 24 janvier 1857, adressée aux administrations municipales du département, les informe que les communes n'auront droit à des subventions que si la rétribution scolaire est établie d'une manière positive, et les invite à ne pas abaisser cette rétribution au-dessous de 0ᶠ50 par enfant et par mois, d'après une décision du conseil départemental de l'instruction publique qui a maintenu les taux supérieurs de 0ᶠ 60, 0ᶠ75 et 1ᶠ. Cependant, sur dix communes com¬prises dans la perception dont Valentigney dépend, huit ont maintenu le principe'de la gratuité.
+        </p>
+        <p xml:id="para_9_313_169">
+         Les garçons et les filles sont réunis à Hérimoncourt dans la même école. Cette circonstance contribue à faire apprécier par la femme de Georges B*** a faculté d'envoyer bientôt sa fille à lEécole gra¬tuite tenue par une personne charitable d'Hérimoncourt, et où 40 petites filles, placées sous une influence religieuse et entourées de soins maternels, apprennent à lire, à écrire, à coudre, à tricoter, à broder et à chanter, et sont réunies à la fin de l'année autour d'un arbre de Noel.
+        </p>
+        <p xml:id="para_9_313_170">
+         La maison P*** emploie 67 enfants au-dessous de 16 ans qui ne peuvent suivre à aucune époque les leçons de l'école communale ; elle leur donne les éléments de l'instruction primaire qui est pour eux non-seulement gratuite, mais obligatoire. On leur enseigne la lecture, l'écriture et le calcul ; la maison P*** paie 200ᶠ par an à
+         <pb facs="#facs_317" n="314" source="lesouvriersdesde02sociuoft_0320.xml"/>
+         l'instituteur communalde Valentigney pour faire la classe tous les soirs de7à 8 heures, et tenir une école du dimanche. Les adultes illettrés peuvent assister à ces leçons et en profitent quelquefois : quand on suit de bonnes méthodes, quelques mois de leçois suffisent à un adulte d'une intelligence ordinaire pour apprendre à lire et à écrire passablement ; pour les- enfants qui demeurent autour de l'usine de Terre-Blanche, un employé du bureau de cette usine, ancien insti¬tuteur, qui reçoit pour ce travail 80ᶠ par an, fait la classe tous les jours pendant une demi-heure, après le repas de midi ; enfin, pour les enfants qui habitent Hérimoncourt, l'instituteur de cette com¬mune, moyennant une indemnité de 150ᶠ, fait chaque soir une classe d'une heure. Tous les enfants-ouvriers de l'usine, garçons et filles, assistent à la classe. En cas d'absence non justifiée d'un enfant, le père qui a négligé de l'envoyer à la classe,' ou l'enfant lui-même, est passible d'une amende de 0ᶠ 10 pour chaque contravention. On peut, sans doute, regretter que les conseils des patrons et leur influence morale n'aient pas suffi pour amener à l'école tous les enfants de leurs ouvriers ; mais ces chefs d'industrie ont pensé que le butque¬vait être atteint, même au prix d'une légère contrainte que comporte d'ailleurs l'application de la loi du 22 mars 1841'relative au travail des enfants employés dans les manufactures, usines ou ateliers. Cette loi, en effet, a rendu l'instruction primaire obligatoire pour certaines catégories d'enfants ; son article 5 porte ce qui suit : Nul enfant âgé de moins de douze ans ne pourra être admis (1ᵉ  dans les manufactures, usines et ateliers à moteur mécanique ou à feu con¬tinu, et dans leurs dépendances ; 2ᵉ dans toute fabrique occupant plus de 20 ouvriers réunis en atelier),  qu'autant que ses parents ou tuteur justifieront qu'il fréquente actuellement une des écoles publiques ou privées existant dans la localité. Tout enfant admis devra, jusqu'à l'âge de douze ans, suivre une école. Les enfants âgés de plus de douze ans seront dispensés de suivre une école lorsqu'un certificat, donné par le maire de leur résidence, attestera qu'ils ont reçu l'instruction primaire élémentaire.  Aux termes de l'art. 8, des règlements d'administration publique devront assurer l'instruction primaire et l'enseignement religieux des enfants.  L'article 9 porte que la loi et les règlements d'administration y relatifs seront affichés par les chefs d'industrie dans chaque atelier avec ˉles règlements in¬térieurs qu'ils seront lenus defaire pour en assurer ˉl'exécution. Enfin, d'après les articles 11 et 12, en cas de contravention à la loi, les chefs d'industrie seront traduits devant le juge de paix du canton et punis d'une amende de simple police qui ne pourra excéder 15ᶠ, et, s'il y a récidive, devant le tribunal de police correctionnelle et con¬damnés à une amende de 16 à 100ᶠ.
+        </p>
+        <p xml:id="para_9_315_172">
+         <pb facs="#facs_318" n="315" source="lesouvriersdesde02sociuoft_0321.xml"/>
+         Dans la petite sphère où il est établi, le système répressif adopté par la maison ᵉᵉ* a le mérite d'assurer l'accomplisse¬ment d'un devoir social trop méconnu par les pères de famille et pour lequel on a plusieurs fois réclamé en France, au nom de la religion, de la morale et des principes conservateurs de ᵉla société, une sanction légale qui existe dans un grand nombre d'Éats : on sait, en effet, que l'instruction primaire est obligatoire en Prusse, en Saxe, dans le Hanovre, dans le grand-duché de Bade, dans le duché de Veimar, en Bavière et en Autriche
+         <note type="bp">
+          <p>
+           De l'Éducation popfilaire dans l' Allemagne du Nord, par M. Eugène Rendu, 1855.
+          </p>
+         </note>
+         . Il en est de même en Portugal, n,Danemar et dans le Vurtemberg. Aux États-Unis, l'instruction primaire est obligatoire et gratuite dans le Massachussetts, et dans les États tels que celui de Nev-or, la Pensylvanie et l'Iova qui ont admis ce qu'on appelle system of public schools
+         <note type="bp">
+          <p>
+           Le journal le Courrier du Havre, cité par le Moniteur du 26 mars 1858, fait connaître dans les termes suivants l'admission en Australie du principe de l'obligation de l'enseignement primaire : « Les journaux anglais donnent la plus entière approbation à une mesure que le parlement de Melbourne vient de prendre par l'adoption d'un bill qui punit d'une amende le père de tout enfant de sept ans incapable de lire et d'écrire ou ne fréquentant aucune école. Le Morning Post voudrait, pour sa part, qu'une semblable loi, qui ne peut que produire les effets les plus salutaires, fût adoptée en Angleterre.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_9_315_173">
+         Les progrès réalisés par la libre action de l'initiative indi¬viduelle sont certainement préférables à ceux qu'impose la puis¬sance publique ; mais quand ce premier moyen fait défaut, le second devient un expédient auquel il est nécessaire de recourir, et dont l'emploi se justifierait aisément : Si la raison de l'utilité publique suffit au législateur pour toucher à la propriété, pourquoi la raison d'une utilité bien supérieure ne lui suffirait-elle pas pour faire moins, pour exiger que des enfants recoivent l'instruction indispensable à toute créature humaine, afin qu'elle ne devienne pas nuisible à elle¬même et à la société tout entière3 Une certaine instruction dans les citoyens est-elle au plus haut degré utile ou même nécessaire à la société Telle est la question. La résoudre affirmativement, c'est armer la société du droitde veiller à ce que ce peu d'instruction nécessaire à tous ne manque à personne. l est contradictoire de proclamer la nécessité de l'instruction universelle, et de se refuser au seul moyen qui la puisse procurer. Il n'est pas non plus fort conséquent peut-être d'imposer une école à chaque commune, sans imposér aux enfants l'obligation de la fréquenter. Otez cette obli¬gation, à force de sacrifices vous fonderez des écoles ; mais ces écoles pourront être peu fréquentées, et par ceux-là précisément auxquels elles seraient le plus nécessaires... Point d'âge fixe où
+         <pb facs="#facs_319" n="316" source="lesouvriersdesde02sociuoft_0322.xml"/>
+         l'on doive commencer à aller aux écoles et où on doive les quitter ; nulle garantie d'assiduité ; nulle marche régulière des études. ˉLa raie liberté ne peut étre l'ennemie de la civilisation
+         <note type="bp">
+          <p>
+           Rapport présenté à la Chambre des pairs par M. Cousin, le 21 mai 1833, au nom de la commission chargée d'examiner le projet de loi relatif à l'instruction primaire (Loi du 28 juin 1833).
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_9_316_175">
+         Les statistiques judiciaires montrent que le bienfait del'instruction manque à la plupart des criminels : sur 6,124 accusés jugés contra¬dictoirement par les cours d'assises en 1856, 2,698 étaient com¬plètement illettrés ; 2332 savaient lire seulement ou écrire et lire imparfaitement
+         <note type="bp">
+          <p>
+           Compte général de l'administration de la justice criminelle en France pendant lannée 1856.
+          </p>
+         </note>
+         .
+        </p>
+        <p xml:id="para_9_316_176">
+         En matière d'instruction populaire, la France n'est pas au rang où on aimerait la voir placée : le dernier compte rendu sus le recru¬tement de l'armée publié par M. le ministre de la guerre, et qui s'ap¬plique à la classe de 1855, constate que, sur 317,855 jeunes gens inscrits sur les tableaux de recensement de cette classe, 102,485, c'est-à-dire le tiers environ, ne savaient ni lire niecrire ; 10,162 sa¬vaient lire seulement ; 195,209 savaient lire et écrire (l'instruction de 9,699 n'a pu être vérifiée). Il résulte du même compte rendu que. dans le département du Doubs, sur 2,757 jeunes gens inscrits, 84, c'est-à-dire environ 3 sur 100, ne savaient ni lire ni écrire ; 36 ne savaient que lire; 2,535 savaient lire et écrire (l'instruction de 102 n'avait pu être vérifiée). Il convient de faire remarquer que l'instruction primaire avait été rendue obligatoire dans l'ancien comté de Montbéliard par les ducs de Vurtemberg, souverains de ce comté.
+        </p>
+        <p xml:id="para_9_316_177">
+         S'il s'agissait ici de traiter, à un point de vue général, les questions que soulève le principe de l'obligation appliqué à l'instruction pri¬maire et ses rapports avec l'institution du suffrage universel, il serait facile de faire ressortir les avantages d'une mesure qui pour¬rait s'ajouter à la sanction directe d'une pénalité et par laquelle la loi suspendrait l'exercice du droit électoral à tous les degrés, pour tout citoyen atteignant sa majorité sans savoir lire et écrire. l importe d'accélérer la marche d'un progrès, réel à la vérité, mais qui s'accomplit avec une extrême lenteur ; le nombre des jeunes Français, âgés de 21 ans et ne sachant ni lire ni écrire, était en 1833 d'environ 46 sur 100 ; et, en 1855, 23 ans après, ce nombre était encore d'environ 32 sur 100.
+        </p>
+        <p xml:id="para_9_316_178">
+         Le tableau ci-après permet de suivre en quelque sorte pas à pas, cette difficile conquête de la lumière sur les ténèbres :
+        </p>
         <figure rend="portrait" type="inventory">
-         <head resp="original" type="inventory" xml:id="figure_1">Nombre proportionnel au chiffre total des inscriptions des jeunes gens inscrits au tableaux de recensement des classes de 1833 a 1855, et ne sachant ni lire ni ecrire [notes annexes]</head>
+         <head resp="original" type="inventory" xml:id="figure_1">
+          Nombre proportionnel au chiffre total des inscriptions des jeunes gens inscrits au tableaux de recensement des classes de 1833 a 1855, et ne sachant ni lire ni ecrire [notes annexes]
+         </head>
          <graphic facs="#facs_320" url="https://iiif.archivelab.org/iiif/lesouvriersdesde02sociuoft%24323/154,720,2166,652/full/0/default.jpg" xml:id="tble_9_317_14"/>
         </figure>
-        <p xml:id="para_9_317_181"><pb facs="#facs_320" n="317" source="lesouvriersdesde02sociuoft_0323.xml"/> C'est pour unepériode de 23 ans un progrès moyen de 0,59 pour 100 par an ; de telle sorte que, la proportion obtenue en 1855 étant de 32,24 pour 100, il faudrait, en suivant le même mouvement, attendre l'année 1909 pour arriver à 0.</p>
+        <p xml:id="para_9_317_181">
+         <pb facs="#facs_320" n="317" source="lesouvriersdesde02sociuoft_0323.xml"/>
+         C'est pour unepériode de 23 ans un progrès moyen de 0,59 pour 100 par an ; de telle sorte que, la proportion obtenue en 1855 étant de 32,24 pour 100, il faudrait, en suivant le même mouvement, attendre l'année 1909 pour arriver à 0.
+        </p>
         <p xml:id="para_9_317_182">
-         « Aujourd'hui, en France, plus de 400,000 jeunes garçons, et plus de 450,000 jeunes filles, c'est-à-dire 850,000 enfants de sept à treize ans ne reçoivent aucune espèce d'instruction ;... que nous sommes loin encore de ce programme tracé, il y a quarante ans, par le ministre, interprète de la pensée de Napoléon IᵉF ; H faut, par l'instruction primaire, élever à la dignité d'homme tous les in¬dividus de l'espèce humaine (Rapport présenté par Carnot à l'Em¬pereur en 1815)<note type="bp">
-          <p>M. Eugène Rendu. Juin 1857.</p>
+         « Aujourd'hui, en France, plus de 400,000 jeunes garçons, et plus de 450,000 jeunes filles, c'est-à-dire 850,000 enfants de sept à treize ans ne reçoivent aucune espèce d'instruction ;... que nous sommes loin encore de ce programme tracé, il y a quarante ans, par le ministre, interprète de la pensée de Napoléon IᵉF ; H faut, par l'instruction primaire, élever à la dignité d'homme tous les in¬dividus de l'espèce humaine (Rapport présenté par Carnot à l'Em¬pereur en 1815)
+         <note type="bp">
+          <p>
+           M. Eugène Rendu. Juin 1857.
+          </p>
          </note>
-         ».</p>
+         ».
+        </p>
        </div>
        <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">(B) SUR LES BBLIOTHÈQUES POPULAIRES DE LA MAISON p*</head>
-        <p xml:id="para_9_317_184">a fondation des bibliothèques populaires de la maison ** e¬monte à l'année 1847. La première fut établie à Hérimoncourt. Il a fallu cette année (1858) renouveler complétement ces bibliothèques, les volumes, au nombre de 250 à 300, qui les composaient se trou¬vant tout à fait usés. Les ouvriers et leurs enfants se montraient fort empressés à les lire; ils peuvent les emporter che eux ; la distri¬bution a lieu deux fois par semaine.</p>
-        <p xml:id="para_9_317_185">Les ouvrages qui forment aujourd'hui ces bibliothèques ont pour la plupart un caractère religieux ; ce sont de petits livres publiés par les deux sociétés des traités religieux de Toulouse et de Paris ; des relations de voyages en Europe et dans les diverses parties du monde ; des ouvrages élémentaires d'histoire, de géographie, d'arithmétique,<pb facs="#facs_321" n="318" source="lesouvriersdesde02sociuoft_0324.xml"/>de géométrie, de physique, de chimie, d'astronomie, d'agriculture ; quelques manuels d'arts et métiers ; plusieurs publications pério¬diques, savoir : ˉle ˉMagasin pittoresqueˉ, l'Ami de la eunesseˉ, recueil publié par l'Église ibre évangélique de Paris ; l'Almanach des familles : cet almanach, publié depuis cinq ans par une réunion de pasteurs et de laiques, se vend 0ᶠ20 le numéro, et se tire à 20,000 exemplaires ; il est lu avec grand plaisirpar les ouvriers du pays de Montbéliard, et contient, avec des anecdotes morales et . religieuses, le récit des grands événements politiques, les décou¬vertes scientifiques et industrielles faites pendant l'année, et des notions d'agriculture et d'hygiène. Cette publication est en progrès.</p>
-        <p xml:id="para_9_318_187">Un petit journal hebdomadaire, rédigé dans le même esprit, va être prochainement fondé à Montbéliard, et répandu autant que possible dans le pays.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         (B) SUR LES BBLIOTHÈQUES POPULAIRES DE LA MAISON p*
+        </head>
+        <p xml:id="para_9_317_184">
+         a fondation des bibliothèques populaires de la maison ** e¬monte à l'année 1847. La première fut établie à Hérimoncourt. Il a fallu cette année (1858) renouveler complétement ces bibliothèques, les volumes, au nombre de 250 à 300, qui les composaient se trou¬vant tout à fait usés. Les ouvriers et leurs enfants se montraient fort empressés à les lire; ils peuvent les emporter che eux ; la distri¬bution a lieu deux fois par semaine.
+        </p>
+        <p xml:id="para_9_317_185">
+         Les ouvrages qui forment aujourd'hui ces bibliothèques ont pour la plupart un caractère religieux ; ce sont de petits livres publiés par les deux sociétés des traités religieux de Toulouse et de Paris ; des relations de voyages en Europe et dans les diverses parties du monde ; des ouvrages élémentaires d'histoire, de géographie, d'arithmétique,
+         <pb facs="#facs_321" n="318" source="lesouvriersdesde02sociuoft_0324.xml"/>
+         de géométrie, de physique, de chimie, d'astronomie, d'agriculture ; quelques manuels d'arts et métiers ; plusieurs publications pério¬diques, savoir : ˉle ˉMagasin pittoresqueˉ, l'Ami de la eunesseˉ, recueil publié par l'Église ibre évangélique de Paris ; l'Almanach des familles : cet almanach, publié depuis cinq ans par une réunion de pasteurs et de laiques, se vend 0ᶠ20 le numéro, et se tire à 20,000 exemplaires ; il est lu avec grand plaisirpar les ouvriers du pays de Montbéliard, et contient, avec des anecdotes morales et . religieuses, le récit des grands événements politiques, les décou¬vertes scientifiques et industrielles faites pendant l'année, et des notions d'agriculture et d'hygiène. Cette publication est en progrès.
+        </p>
+        <p xml:id="para_9_318_187">
+         Un petit journal hebdomadaire, rédigé dans le même esprit, va être prochainement fondé à Montbéliard, et répandu autant que possible dans le pays.
+        </p>
        </div>
        <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">(C) SUR LA SOCIÉTÉ DE PATRONAGE DES ENFANTS INDIGENTS.</head>
-        <p xml:id="para_9_318_189">L'Association évangélique pour le patronage des enfants indigents de ˉla circonscription ˉecclésiastique de ˉMontbeliard (qui embrasse 44 paroisses protestantes réparties entre les départements du Doubs, de la Haute-Saône et du Haut-Rhin, et comprend ainsi une centaine de communes dépendantes de l'ancien comté de Montbéliard), compte actuellement neuf années d'existence. La nécessité d'une œuvre de cette nature se faisait particulièrement sentir dans ce pays en 1849. La mendicité et le vagabondage des enfants avaient pris des proportions inaccoutumées, et les fondateurs de l'asso¬ciation voulurent attaquer le mal dans rsa source. Cette association est organisée de la manière suivante : Les sociétaires de chaque commune se groupent autour d'un comité local qui recherche les enfants pauvres, les fait admettre au nombre des patronnés et fait la collecte annuelle. A la tête de l'œuvre se trouve un conseil cen¬tral composé de 8 membres dont 11 laiques et 7 pasteurs, et chargé à la fois de la direction morale et de l'administration ; c'est lui qui prononce l'admission au' patronage, et règle les conditions du place¬ment des patronnés ; ses décisions sont exécutées par le bureau formé du président, du vice-président, du censeur, du trésorier et du se¬crétaire.</p>
-        <p xml:id="para_9_318_190">Les patronnés ou enfants adoptés sont placés dans des familles hon¬nêtes qui les élèvent chrétiennement et leur donnent l'habitude du travail. Lorsque des enfants catholiques sont recueillis et secourus par<pb facs="#facs_322" n="319" source="lesouvriersdesde02sociuoft_0325.xml"/>cette association protestante, ils sont toujours confiés à des familles catholiques. Chaque enfant a un patron ou une patronne qui le dirige et le surteille dans la famille où il est placé ; il est de plus sous la surveillance très-efficace de l'inspecteur délégué par le conseil cen¬tral pour visiter, plusieurs fois par an, les conités de section. Les enfants patronnés recoivent l'éducation morale et religieuse ainsi que l'instruction primaire ; lors du placement d'un patronné dans une famille, l'association stipule qu'il sera traité comme l'enfant de la maison ; qu'il participera au culte domestique, et fréquentera l'école et l'église. Le patron et l'inspecteur veillent à l'exécution de ces con¬ditions ; lorsqu'elles ne sont pas remplies, ce qui est extrêmement rare, le conseil central déplace aussitôt le patronné pour le confier à une autre famille. Les enfants patronnés sont bien traités dans les familles nourricières où ils sont placés ; elles savent, en effet, que c'est une œuvre de charité qui s'accomplit dans leur sein et par leur concours ; l'orphelin patronné appelle papa et maman son maître et sa maîtresse, et ceuxci le mettent, en effet, au pnombre de leurs enfants ; l'esprit charitable et chrétien qu'on trouve dans la popula¬tion du pays de Montbéliard, a permis à l'association d'atteindre sonbut; les familles qui reçoivent les patronnésne demandent que des prix de pension très-réduits qui, malgré leurs variations, ne dé¬passent jamais 10ᶠ par mois et restent le plus souvent au-dessous, tandis qu'en dehors du patronage, le prix de pension d'un enfant estde 20 à 25ᶠ. Ces prix n'ont pas été augmentés peidant les années de cherté.</p>
-        <p xml:id="para_9_319_192">Lorsque le patronné a terminé son apprentissage, ce qui arrive ordinairement vers l'âge de 16 ou18 ans, c'est presque toujours par les soins de l'association qu'il trouve du travail.</p>
-        <p xml:id="para_9_319_193">Les résultats obtenus sont on ne peut plus satisfaisants. Dans l'espace de neuf ans, 415 enfants ont été patronnés, et 237 sont sortis du patronage en état de gagner leur vie honorablement. On a remarqué que les défauts et les vices qu'engendre la misère, tels que la paresse, la tendance aux petits larcins, le mensonge, la malpro¬preté et la grossièreté des manières et dulangage, cèdent à la bonne influence de la famille nourricière, de l'école et du patronage, et.. sur les 237 sujets qui ont cessé d'être patronnés, quelques-uns seu¬lement, une dizaine environ, n'ont pas répondu par leur conduite aux espérances de l'association ; tous les autres gagnent leur vie, soit comme ouvriers avec des salaires de 30 à 50ᶠ par mois, soit comme domestiques, payés à raison de 5 à 15ᶠ par mois. Dans les paroisses des cantons de Montbéliard, Blamont, Audincourt et Héri-. court, aucun enfant protestant ne mendie : on attribue ce progrès à l'œuvre entreprise par l'association de patronage.</p>
-        <p xml:id="para_9_320_194"><pb facs="#facs_323" n="320" source="lesouvriersdesde02sociuoft_0326.xml"/> Les ressources de cette association sont tout à fait éventuelles. Elle s'est constituée avec l'espoir d'être soutenue par la charité des populations du pays de Montbéliard, et son attente n'a pas été trom¬pées. En huit ans (les chiffres de l'année 1858 ne sont pas encore connus, sauf celui des patronnés qui est de 178) elle a reçu 89,017 73, et elle a dépensé 88,677ᶠ 95. Ces sommes se répartis¬sent de la manière suivante entre les huit années :
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         (C) SUR LA SOCIÉTÉ DE PATRONAGE DES ENFANTS INDIGENTS.
+        </head>
+        <p xml:id="para_9_318_189">
+         L'Association évangélique pour le patronage des enfants indigents de ˉla circonscription ˉecclésiastique de ˉMontbeliard (qui embrasse 44 paroisses protestantes réparties entre les départements du Doubs, de la Haute-Saône et du Haut-Rhin, et comprend ainsi une centaine de communes dépendantes de l'ancien comté de Montbéliard), compte actuellement neuf années d'existence. La nécessité d'une œuvre de cette nature se faisait particulièrement sentir dans ce pays en 1849. La mendicité et le vagabondage des enfants avaient pris des proportions inaccoutumées, et les fondateurs de l'asso¬ciation voulurent attaquer le mal dans rsa source. Cette association est organisée de la manière suivante : Les sociétaires de chaque commune se groupent autour d'un comité local qui recherche les enfants pauvres, les fait admettre au nombre des patronnés et fait la collecte annuelle. A la tête de l'œuvre se trouve un conseil cen¬tral composé de 8 membres dont 11 laiques et 7 pasteurs, et chargé à la fois de la direction morale et de l'administration ; c'est lui qui prononce l'admission au' patronage, et règle les conditions du place¬ment des patronnés ; ses décisions sont exécutées par le bureau formé du président, du vice-président, du censeur, du trésorier et du se¬crétaire.
+        </p>
+        <p xml:id="para_9_318_190">
+         Les patronnés ou enfants adoptés sont placés dans des familles hon¬nêtes qui les élèvent chrétiennement et leur donnent l'habitude du travail. Lorsque des enfants catholiques sont recueillis et secourus par
+         <pb facs="#facs_322" n="319" source="lesouvriersdesde02sociuoft_0325.xml"/>
+         cette association protestante, ils sont toujours confiés à des familles catholiques. Chaque enfant a un patron ou une patronne qui le dirige et le surteille dans la famille où il est placé ; il est de plus sous la surveillance très-efficace de l'inspecteur délégué par le conseil cen¬tral pour visiter, plusieurs fois par an, les conités de section. Les enfants patronnés recoivent l'éducation morale et religieuse ainsi que l'instruction primaire ; lors du placement d'un patronné dans une famille, l'association stipule qu'il sera traité comme l'enfant de la maison ; qu'il participera au culte domestique, et fréquentera l'école et l'église. Le patron et l'inspecteur veillent à l'exécution de ces con¬ditions ; lorsqu'elles ne sont pas remplies, ce qui est extrêmement rare, le conseil central déplace aussitôt le patronné pour le confier à une autre famille. Les enfants patronnés sont bien traités dans les familles nourricières où ils sont placés ; elles savent, en effet, que c'est une œuvre de charité qui s'accomplit dans leur sein et par leur concours ; l'orphelin patronné appelle papa et maman son maître et sa maîtresse, et ceuxci le mettent, en effet, au pnombre de leurs enfants ; l'esprit charitable et chrétien qu'on trouve dans la popula¬tion du pays de Montbéliard, a permis à l'association d'atteindre sonbut; les familles qui reçoivent les patronnésne demandent que des prix de pension très-réduits qui, malgré leurs variations, ne dé¬passent jamais 10ᶠ par mois et restent le plus souvent au-dessous, tandis qu'en dehors du patronage, le prix de pension d'un enfant estde 20 à 25ᶠ. Ces prix n'ont pas été augmentés peidant les années de cherté.
+        </p>
+        <p xml:id="para_9_319_192">
+         Lorsque le patronné a terminé son apprentissage, ce qui arrive ordinairement vers l'âge de 16 ou18 ans, c'est presque toujours par les soins de l'association qu'il trouve du travail.
+        </p>
+        <p xml:id="para_9_319_193">
+         Les résultats obtenus sont on ne peut plus satisfaisants. Dans l'espace de neuf ans, 415 enfants ont été patronnés, et 237 sont sortis du patronage en état de gagner leur vie honorablement. On a remarqué que les défauts et les vices qu'engendre la misère, tels que la paresse, la tendance aux petits larcins, le mensonge, la malpro¬preté et la grossièreté des manières et dulangage, cèdent à la bonne influence de la famille nourricière, de l'école et du patronage, et.. sur les 237 sujets qui ont cessé d'être patronnés, quelques-uns seu¬lement, une dizaine environ, n'ont pas répondu par leur conduite aux espérances de l'association ; tous les autres gagnent leur vie, soit comme ouvriers avec des salaires de 30 à 50ᶠ par mois, soit comme domestiques, payés à raison de 5 à 15ᶠ par mois. Dans les paroisses des cantons de Montbéliard, Blamont, Audincourt et Héri-. court, aucun enfant protestant ne mendie : on attribue ce progrès à l'œuvre entreprise par l'association de patronage.
+        </p>
+        <p xml:id="para_9_320_194">
+         <pb facs="#facs_323" n="320" source="lesouvriersdesde02sociuoft_0326.xml"/>
+         Les ressources de cette association sont tout à fait éventuelles. Elle s'est constituée avec l'espoir d'être soutenue par la charité des populations du pays de Montbéliard, et son attente n'a pas été trom¬pées. En huit ans (les chiffres de l'année 1858 ne sont pas encore connus, sauf celui des patronnés qui est de 178) elle a reçu 89,017 73, et elle a dépensé 88,677ᶠ 95. Ces sommes se répartis¬sent de la manière suivante entre les huit années :
         </p>
         <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_2">Recettes, dépenses et nombre de patronés annuels de la Société de patronage des enfants indigeants (1850-1857) (notes annexes)</head>
+         <head resp="added" type="table" xml:id="figure_2">
+          Recettes, dépenses et nombre de patronés annuels de la Société de patronage des enfants indigeants (1850-1857) (notes annexes)
+         </head>
          <graphic facs="#facs_323" url="https://iiif.archivelab.org/iiif/lesouvriersdesde02sociuoft%24326/674,1024,1754,620/full/0/default.jpg" xml:id="tble_9_320_15"/>
         </figure>
-        <p xml:id="para_9_320_195">Pendant l'année 1857, la dépense moyenne par enfant patronné a été de 72ᶠ 70; le nombre de ceux des donateurs et souscripteurs qui habitent la circonscription du pays de Montbéliard, et parmi lesques se trouuvent eaucoup de cultiateurs et d'ouvriers, s'est élevé à 4,885.</p>
+        <p xml:id="para_9_320_195">
+         Pendant l'année 1857, la dépense moyenne par enfant patronné a été de 72ᶠ 70; le nombre de ceux des donateurs et souscripteurs qui habitent la circonscription du pays de Montbéliard, et parmi lesques se trouuvent eaucoup de cultiateurs et d'ouvriers, s'est élevé à 4,885.
+        </p>
        </div>
       </div>
      </div>

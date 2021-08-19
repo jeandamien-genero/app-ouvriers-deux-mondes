@@ -1,83 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-058b" xml:lang="fr">
+<TEI xml:id="ID-058b" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title level="m" n="58 bis" type="main">Précis d'une monographie du pêcheur côtier, maître de barque, d'Étretat (Seine-Inférieure - France)</title>
-    <title level="s" type="desc">Les Ouvriers des Deux Mondes - série 2, volume 2 - Transcription</title>
-    <title level="m" type="short">pecheur-cotier-maitre-barque-etretat-58b</title>
-    <author n="1" role="investigator">Charles Vallin</author>
-    <editor>Société internationale des études pratiques d'économie sociale</editor>
+    <title level="m" n="58 bis" type="main">
+     Précis d'une monographie du pêcheur côtier, maître de barque, d'Étretat (Seine-Inférieure - France)
+    </title>
+    <title level="s" type="desc">
+     Les Ouvriers des Deux Mondes - série 2, volume 2 - Transcription
+    </title>
+    <title level="m" type="short">
+     pecheur-cotier-maitre-barque-etretat-58b
+    </title>
+    <author n="1" role="investigator">
+     Charles Vallin
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
     <respStmt>
-     <resp>Fichier XML-TEI encodé de 2019 à 2021</resp>
-     <orgName>programme ANR TIME US</orgName>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
     </respStmt>
    </titleStmt>
    <editionStmt>
-    <edition>Édition et encodage scientifique de la monographie n°58 bis des Ouvriers des deux mondes, "Précis d'une monographie du pêcheur côtier, maître de barque, d'Étretat (Seine-Inférieure - France)". Elle a d'abord été publiée en fascicule en 1888, puis reliée en 1890, à partir d'une enquête réalisée à Étretat (Seine-Maritime, France) 1861.</edition>
-    <funder>Agence nationale de la Recherche</funder>
+    <edition>
+     Édition et encodage scientifique de la monographie n°58 bis des Ouvriers des deux mondes, "Précis d'une monographie du pêcheur côtier, maître de barque, d'Étretat (Seine-Inférieure - France)". Elle a d'abord été publiée en fascicule en 1888, puis reliée en 1890, à partir d'une enquête réalisée à Étretat (Seine-Maritime, France) 1861.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>encodage scientifique</resp>
+     <resp>
+      encodage scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
       </affiliation>
      </persName>
-     <resp>direction scientifique</resp>
+     <resp>
+      direction scientifique
+     </resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
       </affiliation>
      </persName>
-     <resp>supervision technique</resp>
+     <resp>
+      supervision technique
+     </resp>
     </respStmt>
    </editionStmt>
    <publicationStmt>
-    <publisher>Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH</publisher>
+    <publisher>
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
+    </publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
-    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century</authority>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
     <availability status="free">
-     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">Distributed under an Open License 2.0</licence>
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
    </sourceDesc>
   </fileDesc>
  </teiHeader>
@@ -165,72 +251,203 @@
   <body>
    <div ana="#ID-058b" type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_9_153_1">N° 58 bis.</p>
-     <p xml:id="para_9_153_2">PRÉCIS D'UNE MONOGRAPHIE</p>
-     <p xml:id="para_9_153_3">PÊCHEUR COTIER.</p>
-     <p xml:id="para_9_153_4">MAITRE DE BARQUE.</p>
-     <p xml:id="para_9_153_5">D'ÉTRETAT (SEINE-INFÉRIEURE),</p>
-     <p xml:id="para_9_153_6">OUVRIER-PROPRIÉTAIRE ET CHEF DE MÉTIER,</p>
-     <p xml:id="para_9_153_7">DANS LE SYSTEME DU TRAVAIL SANS ENGAGEMENTS,</p>
-     <p>PAR</p>
-     <p xml:id="para_9_153_8">M.<persName>CHARLES VALLIN</persName>,</p>
-     <p xml:id="para_9_153_9">professeur de l'Université de France</p>
-     <p xml:id="para_9_153_10">(1861).</p>
+     <p xml:id="para_9_153_1">
+      N° 58 bis.
+     </p>
+     <p xml:id="para_9_153_2">
+      PRÉCIS D'UNE MONOGRAPHIE
+     </p>
+     <p xml:id="para_9_153_3">
+      PÊCHEUR COTIER.
+     </p>
+     <p xml:id="para_9_153_4">
+      MAITRE DE BARQUE.
+     </p>
+     <p xml:id="para_9_153_5">
+      D'ÉTRETAT (SEINE-INFÉRIEURE),
+     </p>
+     <p xml:id="para_9_153_6">
+      OUVRIER-PROPRIÉTAIRE ET CHEF DE MÉTIER,
+     </p>
+     <p xml:id="para_9_153_7">
+      DANS LE SYSTEME DU TRAVAIL SANS ENGAGEMENTS,
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_9_153_8">
+      M.
+      <persName>
+       CHARLES VALLIN
+      </persName>
+      ,
+     </p>
+     <p xml:id="para_9_153_9">
+      professeur de l'Université de France
+     </p>
+     <p xml:id="para_9_153_10">
+      (1861).
+     </p>
     </div>
     <div n="002" type="section">
      <!-- Pas de titre "Observations préliminaires..." dans cette monographie -->
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille<note type="bp">
-        <p>Les traces qui tirent leur subsistance de l'exploitation des grandes production naturelles spontanées, populations de chasseurs, de pasteurs, de pêcheurs. de forestiers ou de mineurs, conservent, même parmi les nations oi l'agriculture. l'industrie manu¬acturière, le commerce et les professions libérales ont pris les plus grands développe¬ments, une stabilité demeurs, de coutumes et d'idées en harmonie avec la permanence des grands phénomènes de la création dont dépendent leurs méthodes de travail et leurs moyens d'existence. A ce titre il est intéressant de mettre en regard les descrip¬tions de deux familles de pêcheurs côtiers, fixées sur les mêmes rivages maritimes à quatre-vingts et quelques lieues l'une de l'autre. mais observées a un quart de siècle de distance : un pecheur cûtier flamand vu en 1885 et un pècheur côtier normand 1el qu'il vivait en 186I. (Note du Comité de publication de la Société.)</p>
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+       <note type="bp">
+        <p>
+         Les traces qui tirent leur subsistance de l'exploitation des grandes production naturelles spontanées, populations de chasseurs, de pasteurs, de pêcheurs. de forestiers ou de mineurs, conservent, même parmi les nations oi l'agriculture. l'industrie manu¬acturière, le commerce et les professions libérales ont pris les plus grands développe¬ments, une stabilité demeurs, de coutumes et d'idées en harmonie avec la permanence des grands phénomènes de la création dont dépendent leurs méthodes de travail et leurs moyens d'existence. A ce titre il est intéressant de mettre en regard les descrip¬tions de deux familles de pêcheurs côtiers, fixées sur les mêmes rivages maritimes à quatre-vingts et quelques lieues l'une de l'autre. mais observées a un quart de siècle de distance : un pecheur cûtier flamand vu en 1885 et un pècheur côtier normand 1el qu'il vivait en 186I. (Note du Comité de publication de la Société.)
+        </p>
        </note>
       </head>
       <div n="001" type="sub_sub_section">
-       <p xml:id="para_9_153_12"><pb facs="#facs_178" n="153" source="lesouvriersdesd02soci_0193.xml"/> Le milieu où vit la famille. — Le village qu'habite la famille compte environ 1.800 habitants de population fixe. Situé sur le bord de la mer dans une petite anse, entre Fécamp et le Havre, à 27 kilomètres 1/2 de ce dernier port, Étretat est resserré par deux falaises pittoresques que l'on désigne sous les noms de côte d'Amont et côte d'Aval. La plage qui limite le village au N.-0, est formée par un fond de roches à fleur d'eau et de galets dont la pente est fort rapide; on n'y rencontre que
-        <pb facs="#facs_179" n="154" source="lesouvriersdesd02soci_0194.xml"/>très peu dé sable, et cette particularité donne à l'eau une limpidité re¬marquable, appréciée de tous les baigneurs. C'est sur cette plage dé¬pourvue de tous travaux d'art que se hissent les bateaux, au retour de la pêche, et quiils restent déposés pendant le temps du repos ou pendant la tourmente. La pêche est à peu près la seule industrie du pays, et elle est à coup sûr la plus ancienne et la plus importante. Deux sortes de pêches occupent tour à tour les marins d'Étretat : du mois de mai au mois de juillet, c'est la pêche du maquereau, qui se fait exclusivement sur la côte voisine, à quelques milles au large ; du mois d'octobre au mois de décembre, la pêche du hareng. qui s'exerce au contraire sur les côtes de Dieppe.</p>
-       <p xml:id="para_9_154_15">Dans les courts intervalles qui séparent ces deux genres de pêclie. e pêcheur cauchois se met en devoir de soigner ses engins, de ré¬parer ses filets, de les tanner, c'est-à-dire de les soumettre pendant plusieurs jours à l'action de l'écorce de chêne, dont la décoction leur assure un degré supérieur de conservation et de solidité. Le reste du temps, l'Éretatais se livre, en compagnie d'un matelot ou d'un mousse, dans un petit canot construit à dessein, à plusieurs autres genres de pêche. C'est aujourd'hui la pêche au gros poisson de table : turbots. barbues, bars, raies, soles, etc. ; demain ce sera le tour des homards, des tourteaux et des crabes ; plus tard, armé d'un croc et d'une hotte de chiffonnier, il arpentera, à mer basse, plusieurs kilomètres de ro¬chers et de falaises, pour y découvrir quelques belles chevrettes ou bouquets, ou bien encore pour arracher le varech destiné à faire la soude nécessaire à la fabrication du verre. Ces derniêres industries se¬raient assez productives, si la concurrence ne venait diminuer les bé¬néfices individuels ; mais comme elles exigent peu de frais, chacun est sûr de trouver dans son énergie seule les ressources nécessaires ; aussi les grèves pittoresques qui s'étendent entre les fonds d'Etretat et la pointe d'Antifer sont-elles couvertes dans les basses eaux (lors des sy ygies) de travailleurs hardis qui s'y choquent et s'y croisent, sans amais se chercher querelle, tant on est persuadé au village que les bords de la mer sont la propriété de l'Etat, c'est-à-dire le domaine commun où chacun peut, en se conormant aux prescriptions légales, sous la haute surveillance de M. le garde-pêche, exercer librement ses talents et son industrie.</p>
+       <p xml:id="para_9_153_12">
+        <pb facs="#facs_178" n="153" source="lesouvriersdesd02soci_0193.xml"/>
+        Le milieu où vit la famille. — Le village qu'habite la famille compte environ 1.800 habitants de population fixe. Situé sur le bord de la mer dans une petite anse, entre Fécamp et le Havre, à 27 kilomètres 1/2 de ce dernier port, Étretat est resserré par deux falaises pittoresques que l'on désigne sous les noms de côte d'Amont et côte d'Aval. La plage qui limite le village au N.-0, est formée par un fond de roches à fleur d'eau et de galets dont la pente est fort rapide; on n'y rencontre que
+        <pb facs="#facs_179" n="154" source="lesouvriersdesd02soci_0194.xml"/>
+        très peu dé sable, et cette particularité donne à l'eau une limpidité re¬marquable, appréciée de tous les baigneurs. C'est sur cette plage dé¬pourvue de tous travaux d'art que se hissent les bateaux, au retour de la pêche, et quiils restent déposés pendant le temps du repos ou pendant la tourmente. La pêche est à peu près la seule industrie du pays, et elle est à coup sûr la plus ancienne et la plus importante. Deux sortes de pêches occupent tour à tour les marins d'Étretat : du mois de mai au mois de juillet, c'est la pêche du maquereau, qui se fait exclusivement sur la côte voisine, à quelques milles au large ; du mois d'octobre au mois de décembre, la pêche du hareng. qui s'exerce au contraire sur les côtes de Dieppe.
+       </p>
+       <p xml:id="para_9_154_15">
+        Dans les courts intervalles qui séparent ces deux genres de pêclie. e pêcheur cauchois se met en devoir de soigner ses engins, de ré¬parer ses filets, de les tanner, c'est-à-dire de les soumettre pendant plusieurs jours à l'action de l'écorce de chêne, dont la décoction leur assure un degré supérieur de conservation et de solidité. Le reste du temps, l'Éretatais se livre, en compagnie d'un matelot ou d'un mousse, dans un petit canot construit à dessein, à plusieurs autres genres de pêche. C'est aujourd'hui la pêche au gros poisson de table : turbots. barbues, bars, raies, soles, etc. ; demain ce sera le tour des homards, des tourteaux et des crabes ; plus tard, armé d'un croc et d'une hotte de chiffonnier, il arpentera, à mer basse, plusieurs kilomètres de ro¬chers et de falaises, pour y découvrir quelques belles chevrettes ou bouquets, ou bien encore pour arracher le varech destiné à faire la soude nécessaire à la fabrication du verre. Ces derniêres industries se¬raient assez productives, si la concurrence ne venait diminuer les bé¬néfices individuels ; mais comme elles exigent peu de frais, chacun est sûr de trouver dans son énergie seule les ressources nécessaires ; aussi les grèves pittoresques qui s'étendent entre les fonds d'Etretat et la pointe d'Antifer sont-elles couvertes dans les basses eaux (lors des sy ygies) de travailleurs hardis qui s'y choquent et s'y croisent, sans amais se chercher querelle, tant on est persuadé au village que les bords de la mer sont la propriété de l'Etat, c'est-à-dire le domaine commun où chacun peut, en se conormant aux prescriptions légales, sous la haute surveillance de M. le garde-pêche, exercer librement ses talents et son industrie.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Etienne V*** (n°058bE1) - Félicité M*** (n°058bE2) - Pierre  (n°058bE3) - Eugène  (n°058bE4) - Louis  (n°058bE5) - Marie  (n°058bE6) - Rose  (n°058bE7) - Victoire  (n°058bE8) - Hélène  (n°058bE9)-->
-       <p xml:id="para_9_154_16">Les membres de la famille. — D'abord le père, Etienne V***, né à<persName xml:id="ID-058bE1">Etretat</persName>, marié depuis 27 ans, âgé de 47 ; sa femme,<persName xml:id="ID-058bE2">Félicité</persName>M***, née à Etretat, 48 ans. Ils ont eu dix enfants, dont sept seulement survivent ;<pb facs="#facs_180" n="155" source="lesouvriersdesd02soci_0195.xml"/>quatre fils :<persName xml:id="ID-058bE3">Pierre</persName>, 26 ans ;<persName xml:id="ID-058bE4">Eugène</persName>, 19 ans ;<persName xml:id="ID-058bE5">Louis</persName>, 13 ans ;<persName xml:id="ID-058bE6">Marie</persName>, 9 ans ; trois filles :<persName xml:id="ID-058bE7">Rose</persName>, 23 ans ;<persName xml:id="ID-058bE8">Victoire</persName>, 20 ans ;<persName xml:id="ID-058bE9">Hélène</persName>17 ans.</p>
+       <p xml:id="para_9_154_16">
+        Les membres de la famille. — D'abord le père, Etienne V***, né à
+        <persName type="respondent" xml:id="ID-058bE1">
+         Etretat
+        </persName>
+        , marié depuis 27 ans, âgé de 47 ; sa femme,
+        <persName type="respondent" xml:id="ID-058bE2">
+         Félicité
+        </persName>
+        M***, née à Etretat, 48 ans. Ils ont eu dix enfants, dont sept seulement survivent ;
+        <pb facs="#facs_180" n="155" source="lesouvriersdesd02soci_0195.xml"/>
+        quatre fils :
+        <persName type="respondent" xml:id="ID-058bE3">
+         Pierre
+        </persName>
+        , 26 ans ;
+        <persName type="respondent" xml:id="ID-058bE4">
+         Eugène
+        </persName>
+        , 19 ans ;
+        <persName type="respondent" xml:id="ID-058bE5">
+         Louis
+        </persName>
+        , 13 ans ;
+        <persName type="respondent" xml:id="ID-058bE6">
+         Marie
+        </persName>
+        , 9 ans ; trois filles :
+        <persName type="respondent" xml:id="ID-058bE7">
+         Rose
+        </persName>
+        , 23 ans ;
+        <persName type="respondent" xml:id="ID-058bE8">
+         Victoire
+        </persName>
+        , 20 ans ;
+        <persName type="respondent" xml:id="ID-058bE9">
+         Hélène
+        </persName>
+        17 ans.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <p xml:id="para_9_155_18">ˉReligion et habitudes morales. — La foi catholique romaine a persisté jusqu'ici sans la moindre altération dans le village d'Étretat, ou elle se maintient par l'influence légitime du curé etpar la ferveur particu¬lière aux pêcheurs côtiers de la Manche. Ici, comme on le voit d'ordi¬naire chez les populations maritimes, la dévotion à la Vierge et aux saints est de rigueur. La fête de l'Ascension, jour vénéré ou l'on bénit la mer, au milieu d'un concours de pêcheurs fervents et d'étrangers curieux ; la fête de l'apôtre Pierre, ce pêcheur de poissons devenu pê¬cheur d'hommes ; la Saint-Sauveur (U août, transfiguration de N.-S.) ; la fête de Noél enfin, sont les quatre fêtes que les matelots célèbrent en grande cérémonie. Les jeunes filles à leur tour adressent leurs hommages à la Vierge, le jour de l'Assomption. Elles offrent alors un pain bénit spécial, et toutes, vêtues de blanc, elles se rendent en procession solennelle, avec rubans, banderolles et bannières, de l'é¬glise paroissiale à la petite chapelle de Notre-Dame de la Garde, bâtie au haut de la falaise d'Amont avec l'obole du pauvre et les offrandes du riche. Elles sont, dans ces pieux pêlerinages, suivies de leurs pères, de leurs frères, de leurs futurs maris, qui mêlent à leurs chants argentins une voix souvent rude et grossière, et, le chapeau à la main, gravissent la colline en répétant en chœur ce cantique local à la mère de Jésus-Christ :</p>
+       <p xml:id="para_9_155_18">
+        ˉReligion et habitudes morales. — La foi catholique romaine a persisté jusqu'ici sans la moindre altération dans le village d'Étretat, ou elle se maintient par l'influence légitime du curé etpar la ferveur particu¬lière aux pêcheurs côtiers de la Manche. Ici, comme on le voit d'ordi¬naire chez les populations maritimes, la dévotion à la Vierge et aux saints est de rigueur. La fête de l'Ascension, jour vénéré ou l'on bénit la mer, au milieu d'un concours de pêcheurs fervents et d'étrangers curieux ; la fête de l'apôtre Pierre, ce pêcheur de poissons devenu pê¬cheur d'hommes ; la Saint-Sauveur (U août, transfiguration de N.-S.) ; la fête de Noél enfin, sont les quatre fêtes que les matelots célèbrent en grande cérémonie. Les jeunes filles à leur tour adressent leurs hommages à la Vierge, le jour de l'Assomption. Elles offrent alors un pain bénit spécial, et toutes, vêtues de blanc, elles se rendent en procession solennelle, avec rubans, banderolles et bannières, de l'é¬glise paroissiale à la petite chapelle de Notre-Dame de la Garde, bâtie au haut de la falaise d'Amont avec l'obole du pauvre et les offrandes du riche. Elles sont, dans ces pieux pêlerinages, suivies de leurs pères, de leurs frères, de leurs futurs maris, qui mêlent à leurs chants argentins une voix souvent rude et grossière, et, le chapeau à la main, gravissent la colline en répétant en chœur ce cantique local à la mère de Jésus-Christ :
+       </p>
        <quote>
-        <p xml:id="para_9_155_19">Notre-Dame de la Garde,</p>
-        <p xml:id="para_9_155_20">Bonne mère des matelets,</p>
-        <p xml:id="para_9_155_21">Que votre bonté nous garde ;</p>
-        <p xml:id="para_9_155_22">Par pitié, sauvez-nous des llots,</p>
-        <p xml:id="para_9_155_23">Notre-Dame de la Garde,</p>
-        <p xml:id="para_9_155_24">Par pitié, sauvez-nous des flots:</p>
+        <p xml:id="para_9_155_19">
+         Notre-Dame de la Garde,
+        </p>
+        <p xml:id="para_9_155_20">
+         Bonne mère des matelets,
+        </p>
+        <p xml:id="para_9_155_21">
+         Que votre bonté nous garde ;
+        </p>
+        <p xml:id="para_9_155_22">
+         Par pitié, sauvez-nous des llots,
+        </p>
+        <p xml:id="para_9_155_23">
+         Notre-Dame de la Garde,
+        </p>
+        <p xml:id="para_9_155_24">
+         Par pitié, sauvez-nous des flots:
+        </p>
        </quote>
-       <p xml:id="para_9_155_25">Tous les membres de la famille accomplissent d'une façon régulière leurs devoirs religieux. La femme surtout se montre digne des premiers temps du christianisme ; les enfants suivent son exemple, et les hommes qui, se souvenant du service de l'Etat, se laissent parfois un peu aller à l'indifférence, ou plutôt au respect humain, se feraient cependant un cas de conscience de manquer à l'appel que leur adresse, une ou deux fois l'an, leur excellent pasteur. Malgré ce èle religieux, la famille ne fait presque aucune dépense pour le culte. Le curén'a guère pour vivre que son faible traitement de desservant, quelques rares cadeaux en nature et fort peu d'éventuel en argent. Quant aux frais généraux de la paroisse, la piété ou plutôt la vanité des riches baigneurs vient à pro<pb facs="#facs_181" n="156" source="lesouvriersdesd02soci_0196.xml"/>pos, pendant l'été, au secours de la fabrique et permet au prêtre prévoyant de subvenir aux dépenses de l'hiver.</p>
-       <p xml:id="para_9_156_27">La femme est un peu plus âgée que le mari ; cela n'est pas rare : les garçons d'Etretat se marient fort jeunes, à dix-huit ans environ, avec des filles du même âge qu'ils courtisent depuis longtemps. quel¬quefois même depuis qu'elles sont nubiles. Ces fréquentations pro¬longées amènent souvent entre les deux fiancés une familiarité dont les conséquences seraient dangereuses partout ailleurs ; mais à Etretat les garçons, fidèles à leur bonne amie, se moatrent assez scrupuleux au point de vue moral, et, si parfois un malheur arrive, un mariage précipité vient bientôt tout réparer en légitimant l'union anticipée. C'est une honte dans le pays, pour un jeune homme, d'abandonner une fille dont il a compromis l'honneur et la position. Si jamais le fait s'est présenté, le coupable s'est vu contraint de s'expatrier et de chercher ailleurs une feme ; il n'en trouverait plus au village.</p>
-       <p xml:id="para_9_156_28">Le chef de famille et sa femme sont presque sans instruction. Ils parlent un langage normand assez difficile à saisir pour une oreille peu exercée ; ils savent un peu lire et écrire. Le patron de barque est cependant assez fort pour se rendre un compte exact du livre de pêche que l'on tient pour lui. Mais il aurait pu, dans son en¬fance, si ce n'eût été son goût pour l'indépendance et le jeu, s'ins¬truire davantage. Aussi regrette-t-il maintenant son temps d'école, et force-t-il ses enfants à suivre l'enseignement quasi gratuit que le gouvernement et la commune font donner aux filles par des sœurs de charité, et aux garçons par un instituteur laique.</p>
-       <p xml:id="para_9_156_29">Les mœurs des pêcheurs sont en général plus recommandables que celles des ouvriers des villes ;. à part les relations anticipées des futurs époux (et il y a encore quelques exceptions heureuses), la chro¬nique scandaleuse du village ne signale guère de fautes contre la morale ou l'honneur. Point d'adultêres, point d'escroqueries ni de vols. La confiance des habitants est même si grande sur ce dernier point que personne ne ferme sa porte ni le jour ni la nuit ; la maison reste ouverte, sans danger, à tout venant. Les gens mariés vivent presque tous en bonne intelligence ; la femme s'occupe du ménage et de quelques travaux extérieurs ; elle tient sa maison avec ordre et propreté, soigne ses enfants, serre à propos les cordons de la bourse, pour les dénouer assez rarement. Cette précaution est sage, car le café et l'eau-de-vie, boissons favorites du mari, absorberaient bientôt tous les profits de la semaine. Le matelot dépenserait volon<pb facs="#facs_182" n="157" source="lesouvriersdesd02soci_0197.xml"/>tiers quelques francs, non pas pour s'enivrer complètement, mais pour s'étourdir. La maîtresse du logis est là, par bonheur, pour restreindre à quelques sous l'extra du dimanche. Cette sollicitude de la femme pour les intérêts futurs ne s'étend pas plus loin. Les pêcheurs, proba¬blement à cause de la médiocrité de leur gain, n'ont pas de grandes idées de prévoyance ; ils vivent au jour le jour, sans se préoccuper de l'avenir. Dans la morte-saison, ils ne peuvent payer ni leur épicier. ni leur boulanger, et comme ils tiennent à s'acquitter de leurs dettes, par honnêteté d'abord, et puis pour se ménager un crédit nécessaire, ils engagent d'avance une partie de leurs bénéfices.</p>
-       <p xml:id="para_9_157_31">Une dernière observation à faire, c'est que la femme d'Étretat parait ordinairement supérieure à son mari. Elle dirige mieux que lui ses enfants, travaille, sinon davantage, du moins avec plus de constance, et occupe dans la communauté une place honorable, pour ne rien dire de plus. Comme elle est honnête et courageuse, son homme, bon comme elle, la laisse gouverner tout à sa guise, sans craindre un instant de lui accorder trop d'influence ; c'est un temps de repos pour lui, et il en a souvent besoin.</p>
+       <p xml:id="para_9_155_25">
+        Tous les membres de la famille accomplissent d'une façon régulière leurs devoirs religieux. La femme surtout se montre digne des premiers temps du christianisme ; les enfants suivent son exemple, et les hommes qui, se souvenant du service de l'Etat, se laissent parfois un peu aller à l'indifférence, ou plutôt au respect humain, se feraient cependant un cas de conscience de manquer à l'appel que leur adresse, une ou deux fois l'an, leur excellent pasteur. Malgré ce èle religieux, la famille ne fait presque aucune dépense pour le culte. Le curén'a guère pour vivre que son faible traitement de desservant, quelques rares cadeaux en nature et fort peu d'éventuel en argent. Quant aux frais généraux de la paroisse, la piété ou plutôt la vanité des riches baigneurs vient à pro
+        <pb facs="#facs_181" n="156" source="lesouvriersdesd02soci_0196.xml"/>
+        pos, pendant l'été, au secours de la fabrique et permet au prêtre prévoyant de subvenir aux dépenses de l'hiver.
+       </p>
+       <p xml:id="para_9_156_27">
+        La femme est un peu plus âgée que le mari ; cela n'est pas rare : les garçons d'Etretat se marient fort jeunes, à dix-huit ans environ, avec des filles du même âge qu'ils courtisent depuis longtemps. quel¬quefois même depuis qu'elles sont nubiles. Ces fréquentations pro¬longées amènent souvent entre les deux fiancés une familiarité dont les conséquences seraient dangereuses partout ailleurs ; mais à Etretat les garçons, fidèles à leur bonne amie, se moatrent assez scrupuleux au point de vue moral, et, si parfois un malheur arrive, un mariage précipité vient bientôt tout réparer en légitimant l'union anticipée. C'est une honte dans le pays, pour un jeune homme, d'abandonner une fille dont il a compromis l'honneur et la position. Si jamais le fait s'est présenté, le coupable s'est vu contraint de s'expatrier et de chercher ailleurs une feme ; il n'en trouverait plus au village.
+       </p>
+       <p xml:id="para_9_156_28">
+        Le chef de famille et sa femme sont presque sans instruction. Ils parlent un langage normand assez difficile à saisir pour une oreille peu exercée ; ils savent un peu lire et écrire. Le patron de barque est cependant assez fort pour se rendre un compte exact du livre de pêche que l'on tient pour lui. Mais il aurait pu, dans son en¬fance, si ce n'eût été son goût pour l'indépendance et le jeu, s'ins¬truire davantage. Aussi regrette-t-il maintenant son temps d'école, et force-t-il ses enfants à suivre l'enseignement quasi gratuit que le gouvernement et la commune font donner aux filles par des sœurs de charité, et aux garçons par un instituteur laique.
+       </p>
+       <p xml:id="para_9_156_29">
+        Les mœurs des pêcheurs sont en général plus recommandables que celles des ouvriers des villes ;. à part les relations anticipées des futurs époux (et il y a encore quelques exceptions heureuses), la chro¬nique scandaleuse du village ne signale guère de fautes contre la morale ou l'honneur. Point d'adultêres, point d'escroqueries ni de vols. La confiance des habitants est même si grande sur ce dernier point que personne ne ferme sa porte ni le jour ni la nuit ; la maison reste ouverte, sans danger, à tout venant. Les gens mariés vivent presque tous en bonne intelligence ; la femme s'occupe du ménage et de quelques travaux extérieurs ; elle tient sa maison avec ordre et propreté, soigne ses enfants, serre à propos les cordons de la bourse, pour les dénouer assez rarement. Cette précaution est sage, car le café et l'eau-de-vie, boissons favorites du mari, absorberaient bientôt tous les profits de la semaine. Le matelot dépenserait volon
+        <pb facs="#facs_182" n="157" source="lesouvriersdesd02soci_0197.xml"/>
+        tiers quelques francs, non pas pour s'enivrer complètement, mais pour s'étourdir. La maîtresse du logis est là, par bonheur, pour restreindre à quelques sous l'extra du dimanche. Cette sollicitude de la femme pour les intérêts futurs ne s'étend pas plus loin. Les pêcheurs, proba¬blement à cause de la médiocrité de leur gain, n'ont pas de grandes idées de prévoyance ; ils vivent au jour le jour, sans se préoccuper de l'avenir. Dans la morte-saison, ils ne peuvent payer ni leur épicier. ni leur boulanger, et comme ils tiennent à s'acquitter de leurs dettes, par honnêteté d'abord, et puis pour se ménager un crédit nécessaire, ils engagent d'avance une partie de leurs bénéfices.
+       </p>
+       <p xml:id="para_9_157_31">
+        Une dernière observation à faire, c'est que la femme d'Étretat parait ordinairement supérieure à son mari. Elle dirige mieux que lui ses enfants, travaille, sinon davantage, du moins avec plus de constance, et occupe dans la communauté une place honorable, pour ne rien dire de plus. Comme elle est honnête et courageuse, son homme, bon comme elle, la laisse gouverner tout à sa guise, sans craindre un instant de lui accorder trop d'influence ; c'est un temps de repos pour lui, et il en a souvent besoin.
+       </p>
       </div>
       <div n="004" type="sub_sub_section">
-       <p xml:id="para_9_157_32">ˉHygiene et seroice de santé. — Le climat d'Etretat est frais et sain ; aussi les personnes dont la poitrine n'est pas trop délicate pour résister au grand air, y acquièrent-elles bientôt une force et une santé peu communes.</p>
-       <p xml:id="para_9_157_33">La famille habite une maison bien sèche, convenablement aérée et surtout proprement tenue. Le pêcheur, sa femme et ses enfants, quoique d'une taille moyenne, ont une grande vigueur. Ils ne sont que rarement malades ; quelques-uns même ne l'ont jamais été. L'usage constant des vêtements de laine et de grosse toile tannée, comme par¬dessus, les met à l'abri de la pluie, du vent, et des changements brus¬ques de température si fréquents sur nos côtes de la Manche. D'ailleurs le rude métier de la mer les endurcit contre tout accident. Leurs con¬naissances pratiques, leur habileté et leur prudence les préservent du naufrage, aussi les sinistres maritimes sont-ils fort rares ; une ou deux pertes seulement, en l'absence de données exactes, ont été signalées à l'attention publique depuis une période de trente ans environ. En cas de mort fortuite, aucune assurance ne vient en aide aux veuves et aux orphelins ; le gouvernement et la charité privée se chargent des plus nécessiteux.</p>
-       <p xml:id="para_9_157_34">Quand par hasard onest malade, au village, la femme, toujours in¬quiéte de la santé de son mari, de ses enfants, recourt au pharma<pb facs="#facs_183" n="158" source="lesouvriersdesd02soci_0198.xml"/>cien du pays et plus tard à l'officier de santé des hameaux envi¬ronnants. Mais la saison des eau ramène chaque année à Etretat un praticien habile et expérimenté.</p>
+       <p xml:id="para_9_157_32">
+        ˉHygiene et seroice de santé. — Le climat d'Etretat est frais et sain ; aussi les personnes dont la poitrine n'est pas trop délicate pour résister au grand air, y acquièrent-elles bientôt une force et une santé peu communes.
+       </p>
+       <p xml:id="para_9_157_33">
+        La famille habite une maison bien sèche, convenablement aérée et surtout proprement tenue. Le pêcheur, sa femme et ses enfants, quoique d'une taille moyenne, ont une grande vigueur. Ils ne sont que rarement malades ; quelques-uns même ne l'ont jamais été. L'usage constant des vêtements de laine et de grosse toile tannée, comme par¬dessus, les met à l'abri de la pluie, du vent, et des changements brus¬ques de température si fréquents sur nos côtes de la Manche. D'ailleurs le rude métier de la mer les endurcit contre tout accident. Leurs con¬naissances pratiques, leur habileté et leur prudence les préservent du naufrage, aussi les sinistres maritimes sont-ils fort rares ; une ou deux pertes seulement, en l'absence de données exactes, ont été signalées à l'attention publique depuis une période de trente ans environ. En cas de mort fortuite, aucune assurance ne vient en aide aux veuves et aux orphelins ; le gouvernement et la charité privée se chargent des plus nécessiteux.
+       </p>
+       <p xml:id="para_9_157_34">
+        Quand par hasard onest malade, au village, la femme, toujours in¬quiéte de la santé de son mari, de ses enfants, recourt au pharma
+        <pb facs="#facs_183" n="158" source="lesouvriersdesd02soci_0198.xml"/>
+        cien du pays et plus tard à l'officier de santé des hameaux envi¬ronnants. Mais la saison des eau ramène chaque année à Etretat un praticien habile et expérimenté.
+       </p>
       </div>
       <div n="005" type="sub_sub_section">
-       <p xml:id="para_9_158_36">Rang de la famille. — Comme le pêcheur a généralement une part soit dans la barque soit dans les ustensiles de pêche, il se rattache à la classe des petits propriétaires, et vit par conséquent assez indépen¬dant. L'association d'intérèts lui donne une certaine franchise d'allu¬res, qui lui permet de vivre sans servitude, mais aussi sans vanité. Le chef du bateau et ses matelots, comme les femmes et les filles entre elles, ne n'isolent jamais ; les plus heureux et ceux qui le sont moins restent sur un pied d'égalité presque complète. Chacun au village a conservé l'habitude de se tutoyer, et les mots de onsieur, de madame placés devant un nom propre ne sont réservés qu'aux étrangers, ou bien aux petits fonctionnaires qui représentent à Etretat l'autorité gou¬vernementale. Les enfants du pays, reçus plus tard soit capitaines au long cours, soit maîtres au cabotage. ont aussi le privilège de se voir traités moins familièrement ; leur femme et leurs enfants héritent de ces titres honorifiques, en ayant soin pourtant de laisser de côté tout sentiment d'orgueil et de fierté.</p>
-       <p xml:id="para_9_158_37">Le seul endroit peut-être ou l'on commence à introduire quelque distinction, c'est à l'église ; là, les plus aisés du village aiment à payer un banc de la grande nef, le plus haut possible vers le chœur. Ces places recherchées se louent à l'année arsez cher pour le pays ; mais elles donnent un peu de ton aux familles qui peuvent, sans trop de gêne, établir ces sortes de démarcations si contraires à l'esprit chré¬tien. Les ménages moins privilégiés occupent l'entrée de l'église, et les plus pauvres prennent gratuitement place sur les bas-côtés de l'édifice, tandis que les hommes bavards et les garçons rieurs vont s'asseoir sous le clocher, pour s'y divertir un peu, pendant les offices, et mettre à l'épreuve la patience amicale du suisse ou du bedeau. Passé le porche ou le portail de l'église, à la sortie, toutes ces distinctions de rang cessent immédiatement ; les Etretatais redeviennent égaux ; la fra. ternité la mieux entendue règgne désormais entre eux.</p>
+       <p xml:id="para_9_158_36">
+        Rang de la famille. — Comme le pêcheur a généralement une part soit dans la barque soit dans les ustensiles de pêche, il se rattache à la classe des petits propriétaires, et vit par conséquent assez indépen¬dant. L'association d'intérèts lui donne une certaine franchise d'allu¬res, qui lui permet de vivre sans servitude, mais aussi sans vanité. Le chef du bateau et ses matelots, comme les femmes et les filles entre elles, ne n'isolent jamais ; les plus heureux et ceux qui le sont moins restent sur un pied d'égalité presque complète. Chacun au village a conservé l'habitude de se tutoyer, et les mots de onsieur, de madame placés devant un nom propre ne sont réservés qu'aux étrangers, ou bien aux petits fonctionnaires qui représentent à Etretat l'autorité gou¬vernementale. Les enfants du pays, reçus plus tard soit capitaines au long cours, soit maîtres au cabotage. ont aussi le privilège de se voir traités moins familièrement ; leur femme et leurs enfants héritent de ces titres honorifiques, en ayant soin pourtant de laisser de côté tout sentiment d'orgueil et de fierté.
+       </p>
+       <p xml:id="para_9_158_37">
+        Le seul endroit peut-être ou l'on commence à introduire quelque distinction, c'est à l'église ; là, les plus aisés du village aiment à payer un banc de la grande nef, le plus haut possible vers le chœur. Ces places recherchées se louent à l'année arsez cher pour le pays ; mais elles donnent un peu de ton aux familles qui peuvent, sans trop de gêne, établir ces sortes de démarcations si contraires à l'esprit chré¬tien. Les ménages moins privilégiés occupent l'entrée de l'église, et les plus pauvres prennent gratuitement place sur les bas-côtés de l'édifice, tandis que les hommes bavards et les garçons rieurs vont s'asseoir sous le clocher, pour s'y divertir un peu, pendant les offices, et mettre à l'épreuve la patience amicale du suisse ou du bedeau. Passé le porche ou le portail de l'église, à la sortie, toutes ces distinctions de rang cessent immédiatement ; les Etretatais redeviennent égaux ; la fra. ternité la mieux entendue règgne désormais entre eux.
+       </p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
       <div n="006" type="sub_sub_section">
        <div subtype="proprietes_texte_1" type="proprietes">
-        <p xml:id="para_9_158_39">Propriétes. — Toutes les familles de pêcheurs ne possèdent pas leur habitation : mais la plupart des maîtres de barque en sont propriétaires</p>
-        <p xml:id="para_9_159_40"><pb facs="#facs_184" n="159" source="lesouvriersdesd02soci_0199.xml"/> Les matelots qui ne sont pas propriétaires louent un logis 60 ou 80 francs par an.</p>
-        <p xml:id="para_9_159_41">L'argent qui peut exister à la maison est confié à la garde de la femme ; il est réservé aux dépenses hebdomadaires ; les fonds de roulement et l'argent des matelots se trouvent déposés ailleurs, chez une femme, espèce de courtier-commissionnaire, qui tient à la fois la comptabilité de plusieurs bateaux moyennant une rétribution légère proportionnelle aux sommes reçues et versées. La famille ne possède point d'argent placé à intérets ; la vie devient coûteuse, les affaires marchent médiocrement ; il faut réparer et la barque et les engins de pêche, remplacer ce qui s'use, modifier ce qui devient trop vieux ; tout cela rend à peu près nulles les économies qu'on pourrait réaliser.</p>
-        <p xml:id="para_9_159_42">Le patron possède ordinairement en toute propriété la grande barque ou le grand canot ponté ; si par hasard le tout ne lui appartient pas, sa famille seule (parents et alliés) y prend une petite part, en lui prêtant une certaine somme pour compléter le prix d'achat.</p>
-        <p xml:id="para_9_159_43">Le pêcheur ici décrit a en résumé pour 5,105 francs de propriétés.</p>
+        <p xml:id="para_9_158_39">
+         Propriétes. — Toutes les familles de pêcheurs ne possèdent pas leur habitation : mais la plupart des maîtres de barque en sont propriétaires
+        </p>
+        <p xml:id="para_9_159_40">
+         <pb facs="#facs_184" n="159" source="lesouvriersdesd02soci_0199.xml"/>
+         Les matelots qui ne sont pas propriétaires louent un logis 60 ou 80 francs par an.
+        </p>
+        <p xml:id="para_9_159_41">
+         L'argent qui peut exister à la maison est confié à la garde de la femme ; il est réservé aux dépenses hebdomadaires ; les fonds de roulement et l'argent des matelots se trouvent déposés ailleurs, chez une femme, espèce de courtier-commissionnaire, qui tient à la fois la comptabilité de plusieurs bateaux moyennant une rétribution légère proportionnelle aux sommes reçues et versées. La famille ne possède point d'argent placé à intérets ; la vie devient coûteuse, les affaires marchent médiocrement ; il faut réparer et la barque et les engins de pêche, remplacer ce qui s'use, modifier ce qui devient trop vieux ; tout cela rend à peu près nulles les économies qu'on pourrait réaliser.
+        </p>
+        <p xml:id="para_9_159_42">
+         Le patron possède ordinairement en toute propriété la grande barque ou le grand canot ponté ; si par hasard le tout ne lui appartient pas, sa famille seule (parents et alliés) y prend une petite part, en lui prêtant une certaine somme pour compléter le prix d'achat.
+        </p>
+        <p xml:id="para_9_159_43">
+         Le pêcheur ici décrit a en résumé pour 5,105 francs de propriétés.
+        </p>
        </div>
        <div subtype="immeubles" type="proprietes">
-        <p xml:id="para_9_159_44">IMMEUBLES : Une maison d'habitation où il réside et qui vaut 1.800ᶠ00;</p>
+        <p xml:id="para_9_159_44">
+         IMMEUBLES : Une maison d'habitation où il réside et qui vaut 1.800ᶠ00;
+        </p>
        </div>
        <div subtype="argent" type="proprietes">
         <p>
@@ -239,130 +456,263 @@
        </div>
        <div subtype="materiel" type="proprietes">
         <p>
-         — MATÉRIEL SPÉCIAL des travaux et industries : Une barque de pêche, avec gréement et acces¬soires, estimée 3.000ᶠ00 ; une vieille barque en très mauvais état, couverte d'un chaume et servant de cadoge ou petit magasin, plus cabestan et outils nécessaires à l'entretien de la barque, ensemble, 200ᶠ00; engins de péche, lignes, plombs pour le maquereauu, filets pour le hareng, cordes, et., ensemble, 80ᶠ00.</p>
+         — MATÉRIEL SPÉCIAL des travaux et industries : Une barque de pêche, avec gréement et acces¬soires, estimée 3.000ᶠ00 ; une vieille barque en très mauvais état, couverte d'un chaume et servant de cadoge ou petit magasin, plus cabestan et outils nécessaires à l'entretien de la barque, ensemble, 200ᶠ00; engins de péche, lignes, plombs pour le maquereauu, filets pour le hareng, cordes, et., ensemble, 80ᶠ00.
+        </p>
        </div>
       </div>
       <div n="007" type="sub_sub_section">
-       <p xml:id="para_9_159_45">Subventions. — Comme le poisson de mer est une richesse naturelle qui n'est la propriété exclusive de personne, les pêcheurs d'Etretat tirent de là un revenu de communauté qui est la base de leur existence ; c'est une espèce de subvention d'une valeur inappréciable. La famille jouit de quelques autres subventions départementales ou communales ; c'est le cas de toutes les populations rurales de la France. n point qui mérite l'attention, c'est qu'il n'existait pas de mendiants à ́tretat, avant que ce pays fût devenu une station de baigneurs ; chacun alors, dans la mesure de ses forces et de ses besoins, trouvait sa subsis¬tance sans recourir à la charité locale. Aujourd'hui, au contraire, les enfants, les hommes, les femmes elles-mêmes ne craignent plus de solliciter quelques pièces de monnaie pour de prétendus services dont l'étranger se passerait fort bien. La dignité personnelle va sans cesse en se perdant, et c'est là un des fâcheux symptômes de cor¬ruption qu'il faut signaler.</p>
+       <p xml:id="para_9_159_45">
+        Subventions. — Comme le poisson de mer est une richesse naturelle qui n'est la propriété exclusive de personne, les pêcheurs d'Etretat tirent de là un revenu de communauté qui est la base de leur existence ; c'est une espèce de subvention d'une valeur inappréciable. La famille jouit de quelques autres subventions départementales ou communales ; c'est le cas de toutes les populations rurales de la France. n point qui mérite l'attention, c'est qu'il n'existait pas de mendiants à ́tretat, avant que ce pays fût devenu une station de baigneurs ; chacun alors, dans la mesure de ses forces et de ses besoins, trouvait sa subsis¬tance sans recourir à la charité locale. Aujourd'hui, au contraire, les enfants, les hommes, les femmes elles-mêmes ne craignent plus de solliciter quelques pièces de monnaie pour de prétendus services dont l'étranger se passerait fort bien. La dignité personnelle va sans cesse en se perdant, et c'est là un des fâcheux symptômes de cor¬ruption qu'il faut signaler.
+       </p>
       </div>
       <div n="008" type="sub_sub_section">
        <div subtype="chef_famille" type="travaux">
-        <p xml:id="para_9_160_46"><pb facs="#facs_185" n="160" source="lesouvriersdesd02soci_0200.xml"/> Travaux du chef de la famille. — Comme le travail de la pêche est sujet à de nombreuses interruptions, soit à cause du mauvais temps, soit par suite de l'absence momentanée du poisson, les pêcheurs restent assez souvent à terre. Ils consacrent alors leur temps. noOn pas au repos, mais à la réparation de leurs ustensiles et pariois même au ménage ; ils aident leur femme dans les soins inté¬rieurs, dans l'installation de quelques travaux de menuiserie gros¬siêre, etc. La plupart des matelots ne se font pas prier pour s'oe¬cuper de leurs enfants ou petits-enfants en bas âge ; ils les bercent, les amusent ou les promènent avec la meilleure volonté du monde. Quelques-uns poussent la complaisance jusqu'à laver la vaisselle et aire la cuisine. Mais dès que la pêche est commencée, le chef de amille, patron ou matelot, s'y livre tout entier ; aussi ne peut-il plus rien faire que conduire, maneuvrer la barque et concourir, pour sa part, aux diverses opérations de son métier. Quand il rentre chez lui, fatigué toujours, bien souvent mouillé, il ne peut guêre rendre de services ; il se contente de manger un modeste souper, supé¬rieur cependant au pain et au beurre qui l'ont soutenu à la mer, et s'em¬presse de se coucher en même temps que le soleil, pour se relever le lendemain à la première heure et recommencer son travail journalier.</p>
-        <p xml:id="para_9_160_47">Notre pêcheur est un patron propriétaire de bateau. Il est bien rare d'ailleurs que le patron soit un homme payé par un armateur ; chacun à Etretat travaille le plus longtemps possible, et commande lui-même l'embarcation qu'il possède. Les autres gens embarqués sont à la part, et n'ont pas d'autre propriété que leur lot exigé d'engins de pêche. Les bénéfices se répartissent en autant de lots qu'il y a d'hommes ; seulement on fait toujours 1 lot 1/4 pour le bateau, 1/2 lot pour le mousse de mer, 1/4 de lot pour le mousse de terre ; de sorte qu'une embarcation montée de 8 hommes et de 1 mousse comporte 10 lots : le patron n'a rien de plus que les ma¬telots ; mais il a son privilege de propriétaire (1 lot 1/4) et le droit de prendre dans sa famille le mousse de mer (/2 lot) comme le mousse de terre (14 de lot) ; de cette façon sur les 10 lots, il en touche 3, lorsque vient le jour du partage, à la fin de la semaine pour la pêche du maquereau, au bout de la saison pour la pêche du hareng. (bLa pêche du maquereau, produit, bon an mal an, 140 francs à l'homme ; celle du hareng, 150 francs environ.) Ces con¬ditions sont du reste assez variables; elles dépendent des arranger ments fait d'avance et acceptés par l'équipage.</p>
+        <p xml:id="para_9_160_46">
+         <pb facs="#facs_185" n="160" source="lesouvriersdesd02soci_0200.xml"/>
+         Travaux du chef de la famille. — Comme le travail de la pêche est sujet à de nombreuses interruptions, soit à cause du mauvais temps, soit par suite de l'absence momentanée du poisson, les pêcheurs restent assez souvent à terre. Ils consacrent alors leur temps. noOn pas au repos, mais à la réparation de leurs ustensiles et pariois même au ménage ; ils aident leur femme dans les soins inté¬rieurs, dans l'installation de quelques travaux de menuiserie gros¬siêre, etc. La plupart des matelots ne se font pas prier pour s'oe¬cuper de leurs enfants ou petits-enfants en bas âge ; ils les bercent, les amusent ou les promènent avec la meilleure volonté du monde. Quelques-uns poussent la complaisance jusqu'à laver la vaisselle et aire la cuisine. Mais dès que la pêche est commencée, le chef de amille, patron ou matelot, s'y livre tout entier ; aussi ne peut-il plus rien faire que conduire, maneuvrer la barque et concourir, pour sa part, aux diverses opérations de son métier. Quand il rentre chez lui, fatigué toujours, bien souvent mouillé, il ne peut guêre rendre de services ; il se contente de manger un modeste souper, supé¬rieur cependant au pain et au beurre qui l'ont soutenu à la mer, et s'em¬presse de se coucher en même temps que le soleil, pour se relever le lendemain à la première heure et recommencer son travail journalier.
+        </p>
+        <p xml:id="para_9_160_47">
+         Notre pêcheur est un patron propriétaire de bateau. Il est bien rare d'ailleurs que le patron soit un homme payé par un armateur ; chacun à Etretat travaille le plus longtemps possible, et commande lui-même l'embarcation qu'il possède. Les autres gens embarqués sont à la part, et n'ont pas d'autre propriété que leur lot exigé d'engins de pêche. Les bénéfices se répartissent en autant de lots qu'il y a d'hommes ; seulement on fait toujours 1 lot 1/4 pour le bateau, 1/2 lot pour le mousse de mer, 1/4 de lot pour le mousse de terre ; de sorte qu'une embarcation montée de 8 hommes et de 1 mousse comporte 10 lots : le patron n'a rien de plus que les ma¬telots ; mais il a son privilege de propriétaire (1 lot 1/4) et le droit de prendre dans sa famille le mousse de mer (/2 lot) comme le mousse de terre (14 de lot) ; de cette façon sur les 10 lots, il en touche 3, lorsque vient le jour du partage, à la fin de la semaine pour la pêche du maquereau, au bout de la saison pour la pêche du hareng. (bLa pêche du maquereau, produit, bon an mal an, 140 francs à l'homme ; celle du hareng, 150 francs environ.) Ces con¬ditions sont du reste assez variables; elles dépendent des arranger ments fait d'avance et acceptés par l'équipage.
+        </p>
        </div>
        <div subtype="femme" type="travaux">
-        <p xml:id="para_9_161_48"><pb facs="#facs_186" n="161" source="lesouvriersdesd02soci_0201.xml"/> Travaux de la femme. — La femme s'occupe de son ménage, de ses enfants ; elle fait la cuisine, lave le linge, raccommode les effets, et consacre une partie de ses loisirs à la confection des filets. Le reste du temps, elle va, la nuit, lancer le bateau, le jour, le irer au cabestan, chercher les hardes de mer du mari, les rapporter au logis pour les mettre promptement au sec. Comme travaux d'aiguille elle n'est pas forte ; sa main est trop dure et trop calleuse, pour faire autre chose que le grossier entretien des vêtements de la famille. Elle est obligée de confier ses robes, soit à une couturière qui travaille à facon chez elle, soit à une ouvrière qu'elle prend en journée moyennant la nourriture ordinaire et 60 centimes environ par jour. La femme est d'ailleurs très vaillante : jamais vous ne l'entendez se plaindre de la fatigue ou de la besogne.</p>
+        <p xml:id="para_9_161_48">
+         <pb facs="#facs_186" n="161" source="lesouvriersdesd02soci_0201.xml"/>
+         Travaux de la femme. — La femme s'occupe de son ménage, de ses enfants ; elle fait la cuisine, lave le linge, raccommode les effets, et consacre une partie de ses loisirs à la confection des filets. Le reste du temps, elle va, la nuit, lancer le bateau, le jour, le irer au cabestan, chercher les hardes de mer du mari, les rapporter au logis pour les mettre promptement au sec. Comme travaux d'aiguille elle n'est pas forte ; sa main est trop dure et trop calleuse, pour faire autre chose que le grossier entretien des vêtements de la famille. Elle est obligée de confier ses robes, soit à une couturière qui travaille à facon chez elle, soit à une ouvrière qu'elle prend en journée moyennant la nourriture ordinaire et 60 centimes environ par jour. La femme est d'ailleurs très vaillante : jamais vous ne l'entendez se plaindre de la fatigue ou de la besogne.
+        </p>
        </div>
        <div subtype="fils_aine" type="travaux">
-        <p xml:id="para_9_161_49">Travaux du fils aîné. — Ce jeune homme, qui n'a pas voulu se ma¬rier depuis lamort de sa iancée, décédée en son absence, ne navigue point à Etretat ; il s'est embarqué, depuis son retour du service, sur un des grands bricls ou des trois-màts barques que Fécamp arme tous les ans pour Terre-Neuve, et là, en qualité de maître saleur, il gagne une part proportionnelle aux bénétîces généraux, et dont il fait d'ailleurs un peu profiter la famille. Il est absent neuf mois de l'année pour exercer le plus rude des métiers, et gagner environ ou 800 francs ; le reste du temps, il vient le passer au village. consacrant ses loisirs à de petites parties de pêche d'agrément, à la flànerie sur la grève, et malheureusement aussi au jeu de dominos, qui l'engage à fréquenter le cabaret plus que de raison, sans cependant l'entrainer trop loin.</p>
+        <p xml:id="para_9_161_49">
+         Travaux du fils aîné. — Ce jeune homme, qui n'a pas voulu se ma¬rier depuis lamort de sa iancée, décédée en son absence, ne navigue point à Etretat ; il s'est embarqué, depuis son retour du service, sur un des grands bricls ou des trois-màts barques que Fécamp arme tous les ans pour Terre-Neuve, et là, en qualité de maître saleur, il gagne une part proportionnelle aux bénétîces généraux, et dont il fait d'ailleurs un peu profiter la famille. Il est absent neuf mois de l'année pour exercer le plus rude des métiers, et gagner environ ou 800 francs ; le reste du temps, il vient le passer au village. consacrant ses loisirs à de petites parties de pêche d'agrément, à la flànerie sur la grève, et malheureusement aussi au jeu de dominos, qui l'engage à fréquenter le cabaret plus que de raison, sans cependant l'entrainer trop loin.
+        </p>
        </div>
        <div subtype="fille_ainee" type="travaux">
-        <p xml:id="para_9_161_50">Travaux de la fille aînée. — Cette fille, qui n'est pas encore mariée, parce que son futur mari, plus jeune qu'elle d'un an, est embarqué. comme matelot classé de seconde classe, sur un des bâtiments de la flotte, attend avec patience et résignation la fin de la campagne. Pen¬dant ce temps, elle aide sa mère dans les travaux du ménage ; elle va tous les jours à la fontaine laver le linge de la famille. C'est même là une de ses occupations principales. Aux effets mobiliers de ses frères et sœurs, elle joint souvent, pour les blanchir moyennant ré¬nunération, quelques pièces de linge fin appartenant au étrangers qui peuplent le village en été. Le reste de lajournée se passe à coudre, raccommoder, filer quelquefois, ou bien encore virer au cabestan, au retour de la pêche ; le tout se fait avec entrain et gaité.</p>
+        <p xml:id="para_9_161_50">
+         Travaux de la fille aînée. — Cette fille, qui n'est pas encore mariée, parce que son futur mari, plus jeune qu'elle d'un an, est embarqué. comme matelot classé de seconde classe, sur un des bâtiments de la flotte, attend avec patience et résignation la fin de la campagne. Pen¬dant ce temps, elle aide sa mère dans les travaux du ménage ; elle va tous les jours à la fontaine laver le linge de la famille. C'est même là une de ses occupations principales. Aux effets mobiliers de ses frères et sœurs, elle joint souvent, pour les blanchir moyennant ré¬nunération, quelques pièces de linge fin appartenant au étrangers qui peuplent le village en été. Le reste de lajournée se passe à coudre, raccommoder, filer quelquefois, ou bien encore virer au cabestan, au retour de la pêche ; le tout se fait avec entrain et gaité.
+        </p>
        </div>
        <div subtype="fille_deuxieme" type="travaux">
-        <p xml:id="para_9_161_51">Travaux de la deuxième fille. — Victoire, grande et belle femme de<pb facs="#facs_187" n="162" source="lesouvriersdesd02soci_0202.xml"/>vingt ans, n'est pas mariée non plus elle fréquente un jeune garçon de vingt ans comme elle ; mais elle ne peut l'épouser parce qu'il n'a pas encore satisfait à la loi militaire. Appelé bientôt par le commis¬saire de l'inscription maritime, il ira, comme matelot classé de troisième classe, rejoindre à Cherbourg la division des équipages de ligne, et faire une campagne de trois ans ; et s'il a le bonheur d'être congédié au retour, il épousera celle qui l'aura fidèlement at¬tendu. IPendant cette longue absence, la jeune fille, qui est très labo¬rieuse, exerce son état de repasseuse ou blanchisseuse de tin, où elle est devenue assez habile ; elle gagne ainsi sa nourriture et une dou¬aine de sous par jour. Quand ce travail ne marche pas, la jeune ouvriêre est obligée de s'occuper à l'intérieur de la maison, en prê¬tant secours à sa mère et à ses sœurs.</p>
+        <p xml:id="para_9_161_51">
+         Travaux de la deuxième fille. — Victoire, grande et belle femme de
+         <pb facs="#facs_187" n="162" source="lesouvriersdesd02soci_0202.xml"/>
+         vingt ans, n'est pas mariée non plus elle fréquente un jeune garçon de vingt ans comme elle ; mais elle ne peut l'épouser parce qu'il n'a pas encore satisfait à la loi militaire. Appelé bientôt par le commis¬saire de l'inscription maritime, il ira, comme matelot classé de troisième classe, rejoindre à Cherbourg la division des équipages de ligne, et faire une campagne de trois ans ; et s'il a le bonheur d'être congédié au retour, il épousera celle qui l'aura fidèlement at¬tendu. IPendant cette longue absence, la jeune fille, qui est très labo¬rieuse, exerce son état de repasseuse ou blanchisseuse de tin, où elle est devenue assez habile ; elle gagne ainsi sa nourriture et une dou¬aine de sous par jour. Quand ce travail ne marche pas, la jeune ouvriêre est obligée de s'occuper à l'intérieur de la maison, en prê¬tant secours à sa mère et à ses sœurs.
+        </p>
        </div>
        <div subtype="fils_deuxieme" type="travaux">
-        <p xml:id="para_9_162_54">Travaux du deuxième fils. — Celui-ci navigue avec son père depuis son plus jeune âge ; c'est un bon matelot qui gagne sa part, fera son service comme les camarades et puis reviendra conduire la barque comme patron ; ou bien il suivra son frère au banc de Terre¬Neuve, et se fera peut-être, si les circonstances le permettent, rece¬voir maître au cabotage, pour diriger à la pêche de la morue un des grands bricls de Fécamp. En attendant, il vit au jour le jour, et rap¬porte a sa mère une partie de son gain.</p>
+        <p xml:id="para_9_162_54">
+         Travaux du deuxième fils. — Celui-ci navigue avec son père depuis son plus jeune âge ; c'est un bon matelot qui gagne sa part, fera son service comme les camarades et puis reviendra conduire la barque comme patron ; ou bien il suivra son frère au banc de Terre¬Neuve, et se fera peut-être, si les circonstances le permettent, rece¬voir maître au cabotage, pour diriger à la pêche de la morue un des grands bricls de Fécamp. En attendant, il vit au jour le jour, et rap¬porte a sa mère une partie de son gain.
+        </p>
        </div>
        <div subtype="fille_troisieme" type="travaux">
-        <p xml:id="para_9_162_55">Travaux de la troisième fille. — La troisième fille, depuis sa sortie de l'école (douze ans environ), travaille à son métier de tisserand. Elle fait tous les jours une douzaine de mètres de calicot blanc ou un peu moins de mouchoirs dits de ˉBolbec, et peut gagner net, quand elle a la main avantageuse, de 60 à 75 centimes par jour. Une foule de faux frais restreignent ses profits ; elle perd du temps à monter son métier, à enduire la trame d'une certaine colle à la farine, à rattacher les fils qui cassent, et puis aussi à se reposer, car le travail est fati¬gant pour les bras et la poitrine.</p>
+        <p xml:id="para_9_162_55">
+         Travaux de la troisième fille. — La troisième fille, depuis sa sortie de l'école (douze ans environ), travaille à son métier de tisserand. Elle fait tous les jours une douzaine de mètres de calicot blanc ou un peu moins de mouchoirs dits de ˉBolbec, et peut gagner net, quand elle a la main avantageuse, de 60 à 75 centimes par jour. Une foule de faux frais restreignent ses profits ; elle perd du temps à monter son métier, à enduire la trame d'une certaine colle à la farine, à rattacher les fils qui cassent, et puis aussi à se reposer, car le travail est fati¬gant pour les bras et la poitrine.
+        </p>
        </div>
        <div subtype="fils_troisieme" type="travaux">
-        <p xml:id="para_9_162_56">Travaux du troisième fils. — Louis est embarqué depuis deux ans sur la barque de son père en qualité de mousse ; il a sa petite part dans la pêche (1/2 lot) et rend parfois de bons services. Dans la morte-sai¬son, il va tous les jours à l'école et seconde sa mère pour les commis¬sions à laire dans le village.</p>
+        <p xml:id="para_9_162_56">
+         Travaux du troisième fils. — Louis est embarqué depuis deux ans sur la barque de son père en qualité de mousse ; il a sa petite part dans la pêche (1/2 lot) et rend parfois de bons services. Dans la morte-sai¬son, il va tous les jours à l'école et seconde sa mère pour les commis¬sions à laire dans le village.
+        </p>
        </div>
        <div subtype="fille_quatrieme" type="travaux">
-        <p xml:id="para_9_162_57">Travaux de la quatrième fille. — Le dernier enfant de la famille, la petite Marie, âgée de neuf ans, fréquente la classe des sœurs, tous les jours ouvrables. Elle emploie le reste de la journée à filer des bo¬bines de coton pour le métier de sa sœur, à jouer avec ses jeunes<pb facs="#facs_188" n="163" source="lesouvriersdesd02soci_0203.xml"/>amies, ou encore à remplir, en même temps que sa mère, l'office de mousse de terre.</p>
+        <p xml:id="para_9_162_57">
+         Travaux de la quatrième fille. — Le dernier enfant de la famille, la petite Marie, âgée de neuf ans, fréquente la classe des sœurs, tous les jours ouvrables. Elle emploie le reste de la journée à filer des bo¬bines de coton pour le métier de sa sœur, à jouer avec ses jeunes
+         <pb facs="#facs_188" n="163" source="lesouvriersdesd02soci_0203.xml"/>
+         amies, ou encore à remplir, en même temps que sa mère, l'office de mousse de terre.
+        </p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
       <div n="017" type="sub_sub_section">
-       <p xml:id="para_9_163_60">Aliments et repas. — Le régime alimentaire de la famille est fort simple, mais suffisant. Les enfants ne craignent pas de demander souvent à manger en dehors des repas ; immédiatement la mère leur donne une tartine de mélasse ou de beurre qu'ils emportent dans le jardin ou sur la rue. Les repas se succêdent généralement dans l'ordre suivant : — 1° Déjeuner entre six et sept heures : soupe au lait caillé, à l'oignon, aux poireaux,,ou café (mélange de café et de chicorée) au lait doux sucré avec de la mélasse. —2° Diner à midi: soupe au lait caillé ou à lafromagie (lait caillé amassé dans des barils pendant l'été et con¬servé ainsi pour les mois d'hiver), quelquefois aux pommes de terre, poireaux et oignon, avec assez peu de beurre ; tartine de beurre ; rare¬ment soupe à la viande et viande bouillie, plus rarement encore pois¬son commun cuit à l'eau avec sauce blanche, ou sans sauce au gros sel. Petit cidre ou eau fraiche pour boisson. — 3° Souper à sept ou huit heures du soir : soupe de poisson frais ou salé cuit à l'eau, oOu de légumes (haricots, pois, choux, carottes ou pommes de terre), le tout accommodé au beurre et au lait, rarement à la crème. Le petit cidre de provision est encore la boisson favorite ; mais, dans les mé¬nages tout à fait pauvres, on ne boit que de l'eau. Quant au vin, il n'en entre pas une goutte dans la maison, sau aux jours de fête. La viande est aussi réservée pour le dimanche ; e'est le jour où chaque amille un peu aisée fait le pot-au-feu. Les rôtis se voient seulement trois ou quatre fois l'an, au jours de réjouissance; encore sont-ils cuits au four.</p>
-       <p xml:id="para_9_163_61">La famille fait usage de pain de froment pur, dit en Normandie pain de ménage ou de seconde qualité. Les tourtes de pain sont gé¬néralement de six kilogrammes chacune, par raison d'économie ; on mangerait trop de pain, s'il était trop frais.</p>
-       <p xml:id="para_9_163_62">Les pêcheurs qui restent à lamer toute la journée ont eu soin d'em¬porter, dans un petit sac très propre d'ailleurs, un fort morceau de pain avec une petite quantité de beurre, quelque verres de cidre dans une cruche de grès, et deux ou trois petits verres d'une eau-de-vie assez médiocre. A ces provisions de première nécessité, ils joignent<pb facs="#facs_189" n="164" source="lesouvriersdesd02soci_0204.xml"/>une vieille pipe, et quelques pincées de tabac ; car presque toute la génération actuelle fume ou chique ; cette dernière habitude de mâ¬cher le tabac commence à se perdre ; elle disparaitrait tout à fait, s'il était aussi facile de fumer à la mer qu'il aisé d'enserrer au fond de sa bouche un petit morceau de tabac. Quand la pêche est bonne, l'équi¬page se permet un poisson ou deux qu'on mange cuit à l'eau de mer, sans aucun assaisonnement.</p>
+       <p xml:id="para_9_163_60">
+        Aliments et repas. — Le régime alimentaire de la famille est fort simple, mais suffisant. Les enfants ne craignent pas de demander souvent à manger en dehors des repas ; immédiatement la mère leur donne une tartine de mélasse ou de beurre qu'ils emportent dans le jardin ou sur la rue. Les repas se succêdent généralement dans l'ordre suivant : — 1° Déjeuner entre six et sept heures : soupe au lait caillé, à l'oignon, aux poireaux,,ou café (mélange de café et de chicorée) au lait doux sucré avec de la mélasse. —2° Diner à midi: soupe au lait caillé ou à lafromagie (lait caillé amassé dans des barils pendant l'été et con¬servé ainsi pour les mois d'hiver), quelquefois aux pommes de terre, poireaux et oignon, avec assez peu de beurre ; tartine de beurre ; rare¬ment soupe à la viande et viande bouillie, plus rarement encore pois¬son commun cuit à l'eau avec sauce blanche, ou sans sauce au gros sel. Petit cidre ou eau fraiche pour boisson. — 3° Souper à sept ou huit heures du soir : soupe de poisson frais ou salé cuit à l'eau, oOu de légumes (haricots, pois, choux, carottes ou pommes de terre), le tout accommodé au beurre et au lait, rarement à la crème. Le petit cidre de provision est encore la boisson favorite ; mais, dans les mé¬nages tout à fait pauvres, on ne boit que de l'eau. Quant au vin, il n'en entre pas une goutte dans la maison, sau aux jours de fête. La viande est aussi réservée pour le dimanche ; e'est le jour où chaque amille un peu aisée fait le pot-au-feu. Les rôtis se voient seulement trois ou quatre fois l'an, au jours de réjouissance; encore sont-ils cuits au four.
+       </p>
+       <p xml:id="para_9_163_61">
+        La famille fait usage de pain de froment pur, dit en Normandie pain de ménage ou de seconde qualité. Les tourtes de pain sont gé¬néralement de six kilogrammes chacune, par raison d'économie ; on mangerait trop de pain, s'il était trop frais.
+       </p>
+       <p xml:id="para_9_163_62">
+        Les pêcheurs qui restent à lamer toute la journée ont eu soin d'em¬porter, dans un petit sac très propre d'ailleurs, un fort morceau de pain avec une petite quantité de beurre, quelque verres de cidre dans une cruche de grès, et deux ou trois petits verres d'une eau-de-vie assez médiocre. A ces provisions de première nécessité, ils joignent
+        <pb facs="#facs_189" n="164" source="lesouvriersdesd02soci_0204.xml"/>
+        une vieille pipe, et quelques pincées de tabac ; car presque toute la génération actuelle fume ou chique ; cette dernière habitude de mâ¬cher le tabac commence à se perdre ; elle disparaitrait tout à fait, s'il était aussi facile de fumer à la mer qu'il aisé d'enserrer au fond de sa bouche un petit morceau de tabac. Quand la pêche est bonne, l'équi¬page se permet un poisson ou deux qu'on mange cuit à l'eau de mer, sans aucun assaisonnement.
+       </p>
       </div>
       <div n="018" type="sub_sub_section">
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="para_9_164_64">Habitation, mobilier et vêtements. — La maison du chef de famille, semblable à celle des autres pêcheurs du village, est construite en briques et cailloux, couverte en ardoises, et comporte un corps de logis au rez-de-chaussée, surmonté d'un grenier. Ce corps de logis comprend trois pièces : la première, précédée d'un jardin potager d'une centaine de mètres carrés, est une cuisine où l'on mange et se tient en famille ; la seconde sert de chambre à coucher ; la troisième, plus petite ét mal éclairée, est une sorte de cellier. La cuisine, seule pièce à feu, avec cheminée haute et large, contient une table de sa¬pin, quelques chaises grossières, un banc de bois blanc, un grand buffet de chêne vitré renfermant plusieurs pièces de vaisselle an¬glaise, une horloge avec réveil-matin contenue dans un étui en chêne. Dans la chambre à coucher, deux lits, une grande armoire en chêne, plusieurs chaises et un coffre à linge. Dans le cellier encore deux lits et le métier de tisserand. Au grenier enfin, un cinquième lit. Le tout est fort simple, mais remarquable par une exquise propreté. Le jardin, cultivé aux heures de loisir, par divers membres de la fa¬mille, produit les légumes indispensables à la vie et quelques fruits servant à la confection des liqueurs de famille.</p>
+        <p xml:id="para_9_164_64">
+         Habitation, mobilier et vêtements. — La maison du chef de famille, semblable à celle des autres pêcheurs du village, est construite en briques et cailloux, couverte en ardoises, et comporte un corps de logis au rez-de-chaussée, surmonté d'un grenier. Ce corps de logis comprend trois pièces : la première, précédée d'un jardin potager d'une centaine de mètres carrés, est une cuisine où l'on mange et se tient en famille ; la seconde sert de chambre à coucher ; la troisième, plus petite ét mal éclairée, est une sorte de cellier. La cuisine, seule pièce à feu, avec cheminée haute et large, contient une table de sa¬pin, quelques chaises grossières, un banc de bois blanc, un grand buffet de chêne vitré renfermant plusieurs pièces de vaisselle an¬glaise, une horloge avec réveil-matin contenue dans un étui en chêne. Dans la chambre à coucher, deux lits, une grande armoire en chêne, plusieurs chaises et un coffre à linge. Dans le cellier encore deux lits et le métier de tisserand. Au grenier enfin, un cinquième lit. Le tout est fort simple, mais remarquable par une exquise propreté. Le jardin, cultivé aux heures de loisir, par divers membres de la fa¬mille, produit les légumes indispensables à la vie et quelques fruits servant à la confection des liqueurs de famille.
+        </p>
        </div>
        <div subtype="meubles" type="par_10">
-        <p xml:id="para_9_164_65">Le lit nuptial ou principal comporte un bois de lit en bois blane peint, un matelas, un lit de plumes, un traversin et un oreiller, unc couverture de laine, unecourte-pointe piquée en indienne et des rideaux de la mêm e étoffe. La valeur totale est de 193ᶠ. Les autres lits ont chacun une valeur moyenne de 72ᶠ. Tout le mobilier des chambres à coucher est estimé dans son ensemble (les lits compris) à 579ᶠ. La cuisine a un mobilier de 180ᶠ. Quant au cellier et au grenier, les débarras qu'ils contiennent ne valent pas plus de 12ᶠ. Tout cela donne pour valeur totale des meules une somme de 77 ᶠ.</p>
+        <p xml:id="para_9_164_65">
+         Le lit nuptial ou principal comporte un bois de lit en bois blane peint, un matelas, un lit de plumes, un traversin et un oreiller, unc couverture de laine, unecourte-pointe piquée en indienne et des rideaux de la mêm e étoffe. La valeur totale est de 193ᶠ. Les autres lits ont chacun une valeur moyenne de 72ᶠ. Tout le mobilier des chambres à coucher est estimé dans son ensemble (les lits compris) à 579ᶠ. La cuisine a un mobilier de 180ᶠ. Quant au cellier et au grenier, les débarras qu'ils contiennent ne valent pas plus de 12ᶠ. Tout cela donne pour valeur totale des meules une somme de 77 ᶠ.
+        </p>
        </div>
        <div subtype="ustensiles" type="par_10">
-        <p xml:id="para_9_164_66">Les ustensiles de ménage, le plus souvent achetés neufs et tous en¬tretenus avec soin, doivent être évalués à 60ᶠ.</p>
+        <p xml:id="para_9_164_66">
+         Les ustensiles de ménage, le plus souvent achetés neufs et tous en¬tretenus avec soin, doivent être évalués à 60ᶠ.
+        </p>
        </div>
        <div subtype="linge" type="par_10">
-        <p>Le linge de ménage, en toile de lin assez grossière, mais d'une grande solidité, vaut 220ᶠ.</p>
+        <p>
+         Le linge de ménage, en toile de lin assez grossière, mais d'une grande solidité, vaut 220ᶠ.
+        </p>
        </div>
        <div subtype="vetements" type="par_10">
-        <p xml:id="para_9_164_67">Les vêtements des hommes ont seuls un caractère local et profes<pb facs="#facs_190" n="165" source="lesouvriersdesd02soci_0205.xml"/>sionnel : généralement un gilet-veste rond de gros drap, un pan¬talon de la même étofe, une grosse cravate de laine, une bonne paire de souliers, une casquette de drap ou un chapeau de soie de qualité médiocre pour le travail, un bonnet de laine rouge, dans le genre du bonnet phrygien. Tous ces vêtements sont préservés par un pantalon et une vareuse de toile grossière, souvent tannée ; les hommes portent en outre à la mer de bonnes et grandes bottes. Tout cet attirail s'élève à 180ᶠ. Les vêtements de la femme se distin¬guent par une propreté, un entretien et un ordre parfaits ; ils res¬semblent d'ailleurs à ceux des ouvriêres des villes. Le seul vêtement caractéristique est, pour les mauvais temps, un paletot en serge bleu avec capuchon, semblable à celui des marins. Les vêtements de la femme pour le dimanche peuvent s'estimer environ à 126ᶠ ; les autres a 60ᶠ. Ce qui fait un total de 180ᶠ. Les vêtements des enfants n'ont rien de particulier : l'ensemble des vêtements des 6 enfants présents au foyer (dont trois gagnent suffisamment leur vie) monte à 480ᶠ soit pour l'ensemble des vêtements, 840ᶠ.</p>
+        <p xml:id="para_9_164_67">
+         Les vêtements des hommes ont seuls un caractère local et profes
+         <pb facs="#facs_190" n="165" source="lesouvriersdesd02soci_0205.xml"/>
+         sionnel : généralement un gilet-veste rond de gros drap, un pan¬talon de la même étofe, une grosse cravate de laine, une bonne paire de souliers, une casquette de drap ou un chapeau de soie de qualité médiocre pour le travail, un bonnet de laine rouge, dans le genre du bonnet phrygien. Tous ces vêtements sont préservés par un pantalon et une vareuse de toile grossière, souvent tannée ; les hommes portent en outre à la mer de bonnes et grandes bottes. Tout cet attirail s'élève à 180ᶠ. Les vêtements de la femme se distin¬guent par une propreté, un entretien et un ordre parfaits ; ils res¬semblent d'ailleurs à ceux des ouvriêres des villes. Le seul vêtement caractéristique est, pour les mauvais temps, un paletot en serge bleu avec capuchon, semblable à celui des marins. Les vêtements de la femme pour le dimanche peuvent s'estimer environ à 126ᶠ ; les autres a 60ᶠ. Ce qui fait un total de 180ᶠ. Les vêtements des enfants n'ont rien de particulier : l'ensemble des vêtements des 6 enfants présents au foyer (dont trois gagnent suffisamment leur vie) monte à 480ᶠ soit pour l'ensemble des vêtements, 840ᶠ.
+        </p>
        </div>
       </div>
       <div n="019" type="sub_sub_section">
-       <p xml:id="para_9_165_69">Récréations. — Rentré chez lui, après la pêche journalière, le pe. cheur d'Etretat n'est guère disposé à prendre la moindre distraction. Souper bien vite et se coucher aussitôt pour refaire ses forces en vue du lendemain, ce sont ses premiers besoins ; d'ailleurs l'état de gêne permanente où se trouve la famille ne permet point l'abus de la chandelle ou de tout autre éclairage. Tous les jours de la se¬maine se ressemblent, excepté le samedi réservé au règlement des comptes. On se réunit chez le patron du bateau, et là, à frais com¬muns, sau pour le bois, la lumière et le service qu'on trouve dans la maison, les matelots et leurs familles peuvent se régaler de pois¬son cuit à l'eau et assaisonné à la crème. Ce repas, appelé cau¬dree, se termine ordinairement, pour les hommes, par d'abon¬dantes libations d'eau-de-vie ou de genièvre, pour les femmes, les filles et les enfants, par des chansons plus ou moins bien choisies. C'est alors que le patron compte de vive-voix à ses gens les sommes qu'il a reçues, les dépenses qu'il a faites, établit sa balance exacte, et distribue ce qui revient à chacun.</p>
-       <p xml:id="para_9_165_70">Outre les fêtes religieuses mentionnées plus haut, les marins d'Étretat ont encore quelques fêtes de métier. C'est ainsi qu'ils se livrent à de joyeu ébats à la fin de chaque saison de pêche. Le dera¬dage (c'est le nom qu'ils donnent au désarmement des bateaux) se passe en festins, jeux et chants qui se prolongent à peu près pendant<pb facs="#facs_191" n="166" source="lesouvriersdesd02soci_0206.xml"/>trois jours. C'est alors que, par ex ception, chaque famille un peu aisée, parmi les patrons, se fait un plaisir d'offrir aux matelots, à leurs femmes et à leurs enfants, le gigot cuit au four, la tarte à la bouillie de froment, les bouleaux de pommes ou de poires, le tout accompagné de fortes rasades de gros vin du Midi, de plusieurs coups d'eau-de-vie de betteraves, et d'une ou deux tournées de liqueurs de ménage, cassis ou framboise. Après le repas et les chansons d'u¬sge, filles et garçons se livrent dans les rues, boueuses en hiver, poudreuses en été, au jeu de boules traditionnel. Lorsque ces diver¬tissements sont finis, l'Etretatais aime assez à rester quelques jours sans rien faire ; puis il se remet au travail pour pré parer les usten¬siles nécessaires à la saison prochaine.</p>
+       <p xml:id="para_9_165_69">
+        Récréations. — Rentré chez lui, après la pêche journalière, le pe. cheur d'Etretat n'est guère disposé à prendre la moindre distraction. Souper bien vite et se coucher aussitôt pour refaire ses forces en vue du lendemain, ce sont ses premiers besoins ; d'ailleurs l'état de gêne permanente où se trouve la famille ne permet point l'abus de la chandelle ou de tout autre éclairage. Tous les jours de la se¬maine se ressemblent, excepté le samedi réservé au règlement des comptes. On se réunit chez le patron du bateau, et là, à frais com¬muns, sau pour le bois, la lumière et le service qu'on trouve dans la maison, les matelots et leurs familles peuvent se régaler de pois¬son cuit à l'eau et assaisonné à la crème. Ce repas, appelé cau¬dree, se termine ordinairement, pour les hommes, par d'abon¬dantes libations d'eau-de-vie ou de genièvre, pour les femmes, les filles et les enfants, par des chansons plus ou moins bien choisies. C'est alors que le patron compte de vive-voix à ses gens les sommes qu'il a reçues, les dépenses qu'il a faites, établit sa balance exacte, et distribue ce qui revient à chacun.
+       </p>
+       <p xml:id="para_9_165_70">
+        Outre les fêtes religieuses mentionnées plus haut, les marins d'Étretat ont encore quelques fêtes de métier. C'est ainsi qu'ils se livrent à de joyeu ébats à la fin de chaque saison de pêche. Le dera¬dage (c'est le nom qu'ils donnent au désarmement des bateaux) se passe en festins, jeux et chants qui se prolongent à peu près pendant
+        <pb facs="#facs_191" n="166" source="lesouvriersdesd02soci_0206.xml"/>
+        trois jours. C'est alors que, par ex ception, chaque famille un peu aisée, parmi les patrons, se fait un plaisir d'offrir aux matelots, à leurs femmes et à leurs enfants, le gigot cuit au four, la tarte à la bouillie de froment, les bouleaux de pommes ou de poires, le tout accompagné de fortes rasades de gros vin du Midi, de plusieurs coups d'eau-de-vie de betteraves, et d'une ou deux tournées de liqueurs de ménage, cassis ou framboise. Après le repas et les chansons d'u¬sge, filles et garçons se livrent dans les rues, boueuses en hiver, poudreuses en été, au jeu de boules traditionnel. Lorsque ces diver¬tissements sont finis, l'Etretatais aime assez à rester quelques jours sans rien faire ; puis il se remet au travail pour pré parer les usten¬siles nécessaires à la saison prochaine.
+       </p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
       <div n="020" type="sub_sub_section">
-       <p xml:id="para_9_166_73">ˉLe passé. — Né de parents pêcheurs comme lui, le marin ici décrit a commencé son apprentissage, comme mousse de terre, dès l'ầge de huit ans. Il a fréquenté le moins possible l'école et le catéchisme, jusqu'au moment oùil a pu faire, à douze ans, sa première communion. Depuis cette époque, il a navigué comme mousse de mer, novice, ma¬telot dans les barques du pays ; à dix-huit ans, il a fait deux ou trois voyages au banc de Terre-Neuve, oùil a amassé quelques centaines de francs pour payer le premier à-compte du bateau qu'il dirigera plus tard ; mais il a eu la malheureuse idée de se marier à vingt ans, avant d'avoir accompli son service ; bientôt il a été levé par l'Etat, puis con¬gédié successivement deux ou trois fois dans l'espace de quatre ans, comme homme marié et soutien de famille ; il a pu rester enfin dans ses foyers et remplacer son père dans le commandement du bateau qu'il mène aujourd'hui.</p>
+       <p xml:id="para_9_166_73">
+        ˉLe passé. — Né de parents pêcheurs comme lui, le marin ici décrit a commencé son apprentissage, comme mousse de terre, dès l'ầge de huit ans. Il a fréquenté le moins possible l'école et le catéchisme, jusqu'au moment oùil a pu faire, à douze ans, sa première communion. Depuis cette époque, il a navigué comme mousse de mer, novice, ma¬telot dans les barques du pays ; à dix-huit ans, il a fait deux ou trois voyages au banc de Terre-Neuve, oùil a amassé quelques centaines de francs pour payer le premier à-compte du bateau qu'il dirigera plus tard ; mais il a eu la malheureuse idée de se marier à vingt ans, avant d'avoir accompli son service ; bientôt il a été levé par l'Etat, puis con¬gédié successivement deux ou trois fois dans l'espace de quatre ans, comme homme marié et soutien de famille ; il a pu rester enfin dans ses foyers et remplacer son père dans le commandement du bateau qu'il mène aujourd'hui.
+       </p>
       </div>
       <div n="021" type="sub_sub_section">
-       <p xml:id="para_9_166_74">ˉL'avenir. — Lorsque viendra l'âge de prendre ses invalides, lorsque le pêcheur sera trop vieux pour naviguer, son fils aîné lui succédera. Alors le bonhomme, qui jouira à soixante ans d'une pension annuelle de 80à 120 francs sur la caisse des lnvalides de la Marine, pourra, gràce aux produits d'une petite part qu'il gardera dans son bateau et de quel¬ques pêches momentanées, vivre médiocrement, avec sa femme, lors¬que tous les enfant seront élevés et placés. Dans ses moments perdus, le vieux loup de mer consacrera tous ses soins à ses petits¬enfants. Le dimanche, après l'offiee religieux, il soutirera encore, à<pb facs="#facs_192" n="167" source="lesouvriersdesd02soci_0207.xml"/>grand'peine, quelques sous à sa vieille ménagére, pour se payer le modeste cigare, et par-dessus une demi-tasse de mauvais café, avec deux ou trois rasades de médiocre eau-de-vie. De cette façon, jamais plus riche un jour que l'autre, il se rassurera sur l'avenir des siens en disant à ceux qui doivent lui survivre : « Mes enfants, vous ferez comme votre mère et moi, vous travaillerez, et Dieu vous bénira . Les pêcheurs du littoral de la Manche, dans leur extrême impré¬voyance, n'ont ni caisse de secours mutuels ni assurances sur la vie : leurs bateaux ne sont même point assurés<note type="bp">
-         <p>Écrit en 1861.</p>
-        </note>. Les Étretatais surtout s'inquiètent fort peu de l'avenir ; ils comptent simplement sur les fonds des nvalides de la Marine. Cette caisse toute nationale est entretenue d'ailleurs par les pêcheurs eux-mêmes, qui vers ent au syndic des gens de mer 50 centimes par mois et par lot : c'est à peu près le seul versement qu'ils aient à faire dans les caisses de l'Eat ; car la plupart d'entre eux ne sont point imposés, et si quelques-uns, par exception, ont à payer la cote personnelle au chapitre des contribu¬tions directes, ils ne la doivent généralement que jusqu'à soixante ans, passé cet âge, ils obtiennent facilement décharge.</p>
+       <p xml:id="para_9_166_74">
+        ˉL'avenir. — Lorsque viendra l'âge de prendre ses invalides, lorsque le pêcheur sera trop vieux pour naviguer, son fils aîné lui succédera. Alors le bonhomme, qui jouira à soixante ans d'une pension annuelle de 80à 120 francs sur la caisse des lnvalides de la Marine, pourra, gràce aux produits d'une petite part qu'il gardera dans son bateau et de quel¬ques pêches momentanées, vivre médiocrement, avec sa femme, lors¬que tous les enfant seront élevés et placés. Dans ses moments perdus, le vieux loup de mer consacrera tous ses soins à ses petits¬enfants. Le dimanche, après l'offiee religieux, il soutirera encore, à
+        <pb facs="#facs_192" n="167" source="lesouvriersdesd02soci_0207.xml"/>
+        grand'peine, quelques sous à sa vieille ménagére, pour se payer le modeste cigare, et par-dessus une demi-tasse de mauvais café, avec deux ou trois rasades de médiocre eau-de-vie. De cette façon, jamais plus riche un jour que l'autre, il se rassurera sur l'avenir des siens en disant à ceux qui doivent lui survivre : « Mes enfants, vous ferez comme votre mère et moi, vous travaillerez, et Dieu vous bénira . Les pêcheurs du littoral de la Manche, dans leur extrême impré¬voyance, n'ont ni caisse de secours mutuels ni assurances sur la vie : leurs bateaux ne sont même point assurés
+        <note type="bp">
+         <p>
+          Écrit en 1861.
+         </p>
+        </note>
+        . Les Étretatais surtout s'inquiètent fort peu de l'avenir ; ils comptent simplement sur les fonds des nvalides de la Marine. Cette caisse toute nationale est entretenue d'ailleurs par les pêcheurs eux-mêmes, qui vers ent au syndic des gens de mer 50 centimes par mois et par lot : c'est à peu près le seul versement qu'ils aient à faire dans les caisses de l'Eat ; car la plupart d'entre eux ne sont point imposés, et si quelques-uns, par exception, ont à payer la cote personnelle au chapitre des contribu¬tions directes, ils ne la doivent généralement que jusqu'à soixante ans, passé cet âge, ils obtiennent facilement décharge.
+       </p>
       </div>
      </div>
      <div n="005" type="sub_section">
-      <head type="sub_section" xml:id="part_02_05">BUDGET DOMESTIQUE ANNUEL.</head>
+      <head type="sub_section" xml:id="part_02_05">
+       BUDGET DOMESTIQUE ANNUEL.
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_01">RECETTES DE LA FAMILLE.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_01">
+        RECETTES DE LA FAMILLE.
+       </head>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_192" url="#"/>
        </figure>
-       <!--<p xml:id="para_9_167_80">Revenus des propriétés .................... ... ..... ...... ...... 440ᶠ 00</p>
-        <p xml:id="para_9_167_81">Pproduits des subventions....... ........ .......:........ .... ... 25 00</p>
-        <p xml:id="para_9_167_82">Salaires de la famille ............................................ 1.950 00</p>
-        <p xml:id="para_9_167_83">Bénéfices des industries entreprises par la faumille à son propre C0 ). . ............ .. ......................... ............ . 7) ()()</p>
+       <!--<p xml:id="para_9_167_80">
+        Revenus des propriétés .................... ... ..... ...... ...... 440ᶠ 00
+        </p>
+        <p xml:id="para_9_167_81">
+        Pproduits des subventions....... ........ .......:........ .... ... 25 00
+        </p>
+        <p xml:id="para_9_167_82">
+        Salaires de la famille ............................................ 1.950 00
+        </p>
+        <p xml:id="para_9_167_83">
+        Bénéfices des industries entreprises par la faumille à son propre C0 ). . ............ .. ......................... ............ . 7) ()()
+        </p>
         <p xml:id="para_9_167_84">
-        'otal des ccettes... 2.985 00 </p>-->
+        'otal des ccettes... 2.985 00
+        </p>-->
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_02">DÉPENSES DE LA FAMILLE.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_02">
+        DÉPENSES DE LA FAMILLE.
+       </head>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_192" url="#"/>
        </figure>
-       <!--<p xml:id="para_9_167_86">NOTTitTe..................................................... 1, 400ᶠ 0)</p>
-        <p xml:id="para_9_167_87">Hitai0n............................. .......... ................ 225 0</p>
-        <p xml:id="para_9_167_88">Vjenets....................................................... 2§5: 0)(0</p>
-        <p xml:id="para_9_167_89">Besoins moraux, récréations et service de santé ................ 350 00</p>
-        <p xml:id="para_9_167_90">lIndustries, dettes, impôts et assurances........................ 455 00</p>
-        <p xml:id="para_9_167_91">Total des dépenses... 2. 685 00</p>
-        <p xml:id="para_9_167_92">Epargne annuelle faite en vue de l'entretien de la barque actuelle et de l'acquisition d'une nouvelle barque lorsque celle-là sera hors de service. . . . . . . . . . . . . . . ... . . . . . . . . 3))ᶠ</p>-->
+       <!--<p xml:id="para_9_167_86">
+        NOTTitTe..................................................... 1, 400ᶠ 0)
+        </p>
+        <p xml:id="para_9_167_87">
+        Hitai0n............................. .......... ................ 225 0
+        </p>
+        <p xml:id="para_9_167_88">
+        Vjenets....................................................... 2§5: 0)(0
+        </p>
+        <p xml:id="para_9_167_89">
+        Besoins moraux, récréations et service de santé ................ 350 00
+        </p>
+        <p xml:id="para_9_167_90">
+        lIndustries, dettes, impôts et assurances........................ 455 00
+        </p>
+        <p xml:id="para_9_167_91">
+        Total des dépenses... 2. 685 00
+        </p>
+        <p xml:id="para_9_167_92">
+        Epargne annuelle faite en vue de l'entretien de la barque actuelle et de l'acquisition d'une nouvelle barque lorsque celle-là sera hors de service. . . . . . . . . . . . . . . ... . . . . . . . . 3))ᶠ
+        </p>-->
       </div>
      </div>
     </div>
     <div n="003" type="section">
-     <head type="section" xml:id="part_03">FAITS SOCIAUX REMARQUABLES.</head>
+     <head type="section" xml:id="part_03">
+      FAITS SOCIAUX REMARQUABLES.
+     </head>
      <div n="001" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <p xml:id="para_9_168_95"><pb facs="#facs_193" n="168" source="lesouvriersdesd02soci_0208.xml"/> La pêche du maquereau et celle du hareng à Etretat. — Ces deux peches se font à la fois sur de grandes embarcations massives, mais d'une solidité à l'épreuve et que l'on nomme bateu, et sur des embarcations plus petites, mais non moins fortes, que l'usage a désignées sous le nom de grands canots. Ces bâtiments, de dix à quinze tonneaux de jauge légale, sont à demi pontés, hauts de bordée, propres à résister aux coups de mer, et armes d'une façon spéciale. Leur mâture tient à la fois de celle du lougre et de celle du chasse-marée ; elle se compose de trois màts dont le plus grand s'abat au besoin. La voilure est simple ; ce sont presque toutes voiles faciles à manœuvrer, et capables, par leur étendue et leur disposition, d'im¬primer à la carène grossière qui les porte une marche convenable. Quant aux petits canots, dont l'emploi est réservé aux pêches moins lointaines, ce sont de simples barques, non pontées, marchant à volonté à la voile ou à la rame, mais construites encore avec soin, et susceptibles de tenir la mer.</p>
-       <p xml:id="para_9_168_96">Dès les premiers jours du printemps, le pêcheur d'Etretat se met en devoir d'armer pour le plmb ou pêche du maquereau, à bateaux et canots. Toutes ces embarcations, soigneusement réparées, sont pourvues de leurs agrès, mâture, voilure, ustensiles de pêche Ces derniers consistent alors en lignes de fond d'une grande longueur, avec leurs hameçons et leur plome du poids de quelques kilogrammes. Quand le bateau ainsi muni et maintenu sur la plage en un endroit plat vulgairement appelé le plin, est tout prêt à prendre la mer, le patron ou maître de barque s'occupe de composer son équipag e. en partie formé d'avance de gens connus et appréciés. Il lui faut sept mate¬lots et un mousse. Ces hommes, tous ciassés sur les matricules de la marine, sont en outre embarqués sur le Saint-Pierre ou le Saint-Jen, pour la saison courante, inscrits à cet effet sur le rôle, et soumis aux prescriptions léga¬les et réglementaires, sous la surveillance exclusive du commissaire de l'ins¬cription maritime, représenté dans le pays par le syndic des gens de mer. bLorsque le patron a sous la main tout son monde, il fixe le jour du travail au succès duquel chacun est intéressé pour sa part. Il tient compte des cir¬constances atmosphériques, de l'heure de la marée, de sa propre expérience, et parfois même il consulte ses gens. Sa voix cependant est préponderante en sa qualité de propriétaire exclusif ou de principal propriétaire du bateau. Le départ a toujours lieu la nuit : un jeune garçon, de sept ou huit ans, trop faible encore pour être utile en mer, remplit, pour chaque association de matelots, l'office de mousse de terre. Une heure environ avant le moment fixé, il se lève, s'habille à la hâte et court par le village pour appeler tous les hom¬mes du bateau. Les femm es et les filles de la maison se lèvent aussi ; car ce sont elles qui, aidées du patron, vont faire sur la plage le principal travail. Il s'agit en effet de luncer l'embarcation, c'est-à-dire de la pousser du haut du rivage jusqu'à la mer, sur un plan incliné d'une cinquantaine de mètres de longueur. A cet effet on place le long de la ligne que doit parcourir le bateau, en glissant l'arrière en avant, de petites pièces de bois rondes ou plates enduites d'une matière grasse et sur lesquelles doit porter la quille. Puis le<pb facs="#facs_194" n="169" source="lesouvriersdesd02soci_0209.xml"/>patron appuyant sur ses épaules et sur son dos, à baoord ou u tribord, tout le poids du hateau, le maintient ainsi en équilibre, pendant que les femmes et les fillesle poussent au moyen d'un long mât qui s'adapte à la guibrc, ou avant de l'embarcation, avec un crampon de fer. Pour empêcher que l'impulsion donnée ne devienne trop rapide, on a la précaution de retenir le bateau, par un câble assez fort, ou ansière, à un cabestan placé sur la partie plane au haut du rivage. Cependant le bateau touche à la mer ; les matelots sont tous à bord, à leur poste, prets à manier l'aviron ou à hisser la voile ; encore un dernier effort et l'embarcation va flotter. C'est alors que le patron, quoi¬que muni d'une paire de bottes du poids de plusieurs kilogrammes, dot s'élancer d'un bond et s'embarquer bien vite, pour prendre le gouvernail. Cette opération nocturne du lancement, qui est fort simple et s'effectue sans peine lorsque le temps est calme, présente bien des difficultés quand la mer est grosse.</p>
-       <p xml:id="para_9_169_99">Le patron tenant alors en main la barre du gouvernail dirige son bateau, suivant le vent et la marée, vers le lieu de la peche, à quelques milles au large du rivage, sans perdre toutefois la vue de la terre et des différents amers qui devront guider son retour. Quand on se croit dans un parage favorable, on se met immédiatement à l'œuvre. L'équipage met à l'eau les plombs et les lignes, après avoir garni l'hameçon d'un a ppât particulier; cet appât n'est autre que de la peau même de maquereau. Chaque homme observe attenti¬vement et à la fois plusieurs engins, le patron comme les autres ; quand le poisson mord, on le tire à bord et on le jette à fond de cale sur un lit de cailloux servant de lest au bateau. Cette opération ne se répète pas bien des fois ; car la moyenne des poissons pêchés en un jour varie entre cinquante et quatre-vingts. Cent maquereaux constituent une belle pêche ; passé ce chiffre, on s'estime trop heureux, surtout de nos jours (1861). Vers 1840 et avant cette époque, il n'était pas rare de prendre, par expédition etpar bateau, deux ou trois cents maquereaux ; mais une foule de circonstances défavora¬bles (concurrence, navigation à vapeur, destruction du frai, etc.) ont, depuis cette époque, singulièrement diminué les produits de cette pénible industrie. Lorsque le maître de la barque, guidé par sa seule expérience, croit urgent de retourner à terre (entre trois et quatre heures de l'après-midi), l'équipage profitant de la marée, des courants et du vent, ramène vite le bateau sous l'allure la plus favorable. Dès qu'il approche assez du rivage pour qu'on le distingue au milieu de la petite fotte qui l'accompagne, le mousse de terre, qui l'a reconnu à un signe particulier hissé au haut d'un màt, court appeler ses gcns,; femmes et filles se rendent à cet appel; elles arrivent au galet, et aidées de quelques vieillards et de quelques oisifs, elles s'empressent de tirer des petits magasins rangés sur la plage tous les ustensiles nécessaires à la traction du bateau, disposent le cabestan avecc ses barres et se préparent à virer. Si l'embarcation échoue, le patron, toujours armé de,ses grosses bottes, saute à terre, attache solidement à la guibre le câble sur lequel repose tout le système, se met en position, comme pour le lancement, de soutenir sur son dos le poids du bateau, tandis que les femmes, dans un accoutrement pittoresque, virent péniblement au cabestan, avec une animation, une énergie<pb facs="#facs_195" n="170" source="lesouvriersdesd02soci_0210.xml"/>extrême, au milieu des rires, des chansons et des quolibets. Cependant le bateau, arrivé au haut, repose sur un de ses côtés ; le poisson est débarqué sur le rivage, compté, puis vendu publiquement au plus offrant et der¬nier enchérisseur, par lots assez importants destinés à l'approvisionnement de Paris ou des grandes villes. Cette pêche au maquereau occupe, pendant plusieurs mois de l'année, une grande partie de la population.</p>
-       <p xml:id="para_9_170_101">La pêche aux harengs se fait en hiver ; elle dure ordinairement du mois d'octobre au mois de décembre, et n'a lieu que sur les côtes de Dieppe. A eet effet les bateaux d'Etretat prennent la mer au premier beau temps et vont se joindre aux pêcheurs polletais<note type="bp">
-         <p>Le Pollet est un faubourg de Dieppe dont les habitants, vrais loups de mer, di¬gnes descendants du grand Duquesne, ont conservé sans mélange un type spécial, une vie et des meurs tout à fait à part.</p>
-        </note>. Le hareng ne se prend pas à la ligne, mais dans d'immenses filets assez étroits, qu'on jette à la mer et qu'on soutient sur l'eau, pour en retrouver la trace, avec de petites bouées de liège placées de distance en distance ; tout l'appareil est tanné, comme le cuir, pour résister à la décomposition. Dans les bonnes années, lorsque la mer est agitée par une gentille brise, le hareng, qui voyage toujours par bancs entiers, se prend en abondance ; mais il est facilement détruit, dans les filets mêmes, par un poisson vorace que nos côtiers appellent le chien de mer. Cet animal coupe et taille à belles dents les mailles, se repait des harengs qui s'y trouvent attachés par les ouies, et va les rejeter plus loin à demi-dévorés, pour recommencer aus¬sitôt son œuvre de gloutonnerie et de destruction. Sans cette guerre acharnée, la pêche au hareng frais (qu'il ne faut pas confondre avecla grande peche des ollandais et des mers du Nord)serait assez lucrative ; mais le coût même des filets dont chaque matelot possède un lot, leur entretien, les coups de vent d'é¬quinoxe et du solstice ne tardent pas à absorber la meilleure part des bénéfices. Ajoutons que le bateauabesoin, pour ce genre de pêche, d'un équipagenombreux au moins de dix à douze hommes, et puis la vie matérielle loin du village, quoi¬que très frugale, est plus dispendieuse.</p>
+       <p xml:id="para_9_168_95">
+        <pb facs="#facs_193" n="168" source="lesouvriersdesd02soci_0208.xml"/>
+        La pêche du maquereau et celle du hareng à Etretat. — Ces deux peches se font à la fois sur de grandes embarcations massives, mais d'une solidité à l'épreuve et que l'on nomme bateu, et sur des embarcations plus petites, mais non moins fortes, que l'usage a désignées sous le nom de grands canots. Ces bâtiments, de dix à quinze tonneaux de jauge légale, sont à demi pontés, hauts de bordée, propres à résister aux coups de mer, et armes d'une façon spéciale. Leur mâture tient à la fois de celle du lougre et de celle du chasse-marée ; elle se compose de trois màts dont le plus grand s'abat au besoin. La voilure est simple ; ce sont presque toutes voiles faciles à manœuvrer, et capables, par leur étendue et leur disposition, d'im¬primer à la carène grossière qui les porte une marche convenable. Quant aux petits canots, dont l'emploi est réservé aux pêches moins lointaines, ce sont de simples barques, non pontées, marchant à volonté à la voile ou à la rame, mais construites encore avec soin, et susceptibles de tenir la mer.
+       </p>
+       <p xml:id="para_9_168_96">
+        Dès les premiers jours du printemps, le pêcheur d'Etretat se met en devoir d'armer pour le plmb ou pêche du maquereau, à bateaux et canots. Toutes ces embarcations, soigneusement réparées, sont pourvues de leurs agrès, mâture, voilure, ustensiles de pêche Ces derniers consistent alors en lignes de fond d'une grande longueur, avec leurs hameçons et leur plome du poids de quelques kilogrammes. Quand le bateau ainsi muni et maintenu sur la plage en un endroit plat vulgairement appelé le plin, est tout prêt à prendre la mer, le patron ou maître de barque s'occupe de composer son équipag e. en partie formé d'avance de gens connus et appréciés. Il lui faut sept mate¬lots et un mousse. Ces hommes, tous ciassés sur les matricules de la marine, sont en outre embarqués sur le Saint-Pierre ou le Saint-Jen, pour la saison courante, inscrits à cet effet sur le rôle, et soumis aux prescriptions léga¬les et réglementaires, sous la surveillance exclusive du commissaire de l'ins¬cription maritime, représenté dans le pays par le syndic des gens de mer. bLorsque le patron a sous la main tout son monde, il fixe le jour du travail au succès duquel chacun est intéressé pour sa part. Il tient compte des cir¬constances atmosphériques, de l'heure de la marée, de sa propre expérience, et parfois même il consulte ses gens. Sa voix cependant est préponderante en sa qualité de propriétaire exclusif ou de principal propriétaire du bateau. Le départ a toujours lieu la nuit : un jeune garçon, de sept ou huit ans, trop faible encore pour être utile en mer, remplit, pour chaque association de matelots, l'office de mousse de terre. Une heure environ avant le moment fixé, il se lève, s'habille à la hâte et court par le village pour appeler tous les hom¬mes du bateau. Les femm es et les filles de la maison se lèvent aussi ; car ce sont elles qui, aidées du patron, vont faire sur la plage le principal travail. Il s'agit en effet de luncer l'embarcation, c'est-à-dire de la pousser du haut du rivage jusqu'à la mer, sur un plan incliné d'une cinquantaine de mètres de longueur. A cet effet on place le long de la ligne que doit parcourir le bateau, en glissant l'arrière en avant, de petites pièces de bois rondes ou plates enduites d'une matière grasse et sur lesquelles doit porter la quille. Puis le
+        <pb facs="#facs_194" n="169" source="lesouvriersdesd02soci_0209.xml"/>
+        patron appuyant sur ses épaules et sur son dos, à baoord ou u tribord, tout le poids du hateau, le maintient ainsi en équilibre, pendant que les femmes et les fillesle poussent au moyen d'un long mât qui s'adapte à la guibrc, ou avant de l'embarcation, avec un crampon de fer. Pour empêcher que l'impulsion donnée ne devienne trop rapide, on a la précaution de retenir le bateau, par un câble assez fort, ou ansière, à un cabestan placé sur la partie plane au haut du rivage. Cependant le bateau touche à la mer ; les matelots sont tous à bord, à leur poste, prets à manier l'aviron ou à hisser la voile ; encore un dernier effort et l'embarcation va flotter. C'est alors que le patron, quoi¬que muni d'une paire de bottes du poids de plusieurs kilogrammes, dot s'élancer d'un bond et s'embarquer bien vite, pour prendre le gouvernail. Cette opération nocturne du lancement, qui est fort simple et s'effectue sans peine lorsque le temps est calme, présente bien des difficultés quand la mer est grosse.
+       </p>
+       <p xml:id="para_9_169_99">
+        Le patron tenant alors en main la barre du gouvernail dirige son bateau, suivant le vent et la marée, vers le lieu de la peche, à quelques milles au large du rivage, sans perdre toutefois la vue de la terre et des différents amers qui devront guider son retour. Quand on se croit dans un parage favorable, on se met immédiatement à l'œuvre. L'équipage met à l'eau les plombs et les lignes, après avoir garni l'hameçon d'un a ppât particulier; cet appât n'est autre que de la peau même de maquereau. Chaque homme observe attenti¬vement et à la fois plusieurs engins, le patron comme les autres ; quand le poisson mord, on le tire à bord et on le jette à fond de cale sur un lit de cailloux servant de lest au bateau. Cette opération ne se répète pas bien des fois ; car la moyenne des poissons pêchés en un jour varie entre cinquante et quatre-vingts. Cent maquereaux constituent une belle pêche ; passé ce chiffre, on s'estime trop heureux, surtout de nos jours (1861). Vers 1840 et avant cette époque, il n'était pas rare de prendre, par expédition etpar bateau, deux ou trois cents maquereaux ; mais une foule de circonstances défavora¬bles (concurrence, navigation à vapeur, destruction du frai, etc.) ont, depuis cette époque, singulièrement diminué les produits de cette pénible industrie. Lorsque le maître de la barque, guidé par sa seule expérience, croit urgent de retourner à terre (entre trois et quatre heures de l'après-midi), l'équipage profitant de la marée, des courants et du vent, ramène vite le bateau sous l'allure la plus favorable. Dès qu'il approche assez du rivage pour qu'on le distingue au milieu de la petite fotte qui l'accompagne, le mousse de terre, qui l'a reconnu à un signe particulier hissé au haut d'un màt, court appeler ses gcns,; femmes et filles se rendent à cet appel; elles arrivent au galet, et aidées de quelques vieillards et de quelques oisifs, elles s'empressent de tirer des petits magasins rangés sur la plage tous les ustensiles nécessaires à la traction du bateau, disposent le cabestan avecc ses barres et se préparent à virer. Si l'embarcation échoue, le patron, toujours armé de,ses grosses bottes, saute à terre, attache solidement à la guibre le câble sur lequel repose tout le système, se met en position, comme pour le lancement, de soutenir sur son dos le poids du bateau, tandis que les femmes, dans un accoutrement pittoresque, virent péniblement au cabestan, avec une animation, une énergie
+        <pb facs="#facs_195" n="170" source="lesouvriersdesd02soci_0210.xml"/>
+        extrême, au milieu des rires, des chansons et des quolibets. Cependant le bateau, arrivé au haut, repose sur un de ses côtés ; le poisson est débarqué sur le rivage, compté, puis vendu publiquement au plus offrant et der¬nier enchérisseur, par lots assez importants destinés à l'approvisionnement de Paris ou des grandes villes. Cette pêche au maquereau occupe, pendant plusieurs mois de l'année, une grande partie de la population.
+       </p>
+       <p xml:id="para_9_170_101">
+        La pêche aux harengs se fait en hiver ; elle dure ordinairement du mois d'octobre au mois de décembre, et n'a lieu que sur les côtes de Dieppe. A eet effet les bateaux d'Etretat prennent la mer au premier beau temps et vont se joindre aux pêcheurs polletais
+        <note type="bp">
+         <p>
+          Le Pollet est un faubourg de Dieppe dont les habitants, vrais loups de mer, di¬gnes descendants du grand Duquesne, ont conservé sans mélange un type spécial, une vie et des meurs tout à fait à part.
+         </p>
+        </note>
+        . Le hareng ne se prend pas à la ligne, mais dans d'immenses filets assez étroits, qu'on jette à la mer et qu'on soutient sur l'eau, pour en retrouver la trace, avec de petites bouées de liège placées de distance en distance ; tout l'appareil est tanné, comme le cuir, pour résister à la décomposition. Dans les bonnes années, lorsque la mer est agitée par une gentille brise, le hareng, qui voyage toujours par bancs entiers, se prend en abondance ; mais il est facilement détruit, dans les filets mêmes, par un poisson vorace que nos côtiers appellent le chien de mer. Cet animal coupe et taille à belles dents les mailles, se repait des harengs qui s'y trouvent attachés par les ouies, et va les rejeter plus loin à demi-dévorés, pour recommencer aus¬sitôt son œuvre de gloutonnerie et de destruction. Sans cette guerre acharnée, la pêche au hareng frais (qu'il ne faut pas confondre avecla grande peche des ollandais et des mers du Nord)serait assez lucrative ; mais le coût même des filets dont chaque matelot possède un lot, leur entretien, les coups de vent d'é¬quinoxe et du solstice ne tardent pas à absorber la meilleure part des bénéfices. Ajoutons que le bateauabesoin, pour ce genre de pêche, d'un équipagenombreux au moins de dix à douze hommes, et puis la vie matérielle loin du village, quoi¬que très frugale, est plus dispendieuse.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <p xml:id="para_9_170_102">Renseignements anneés par le Comite de publication aux deu études mono¬rphiques ns 58 et 58 bis. — La détresse de la pêche du hareng dans la Manche et la mer du Nord est un mal déjà ancien, mais qui, depuis 1879, s'est accusé d'année en année au point de constituer une crise redoutable. D'après un travail de M. Édouard Marbeau (Revuefrancaisc de l'etranger et des colonies, nᵐ du 15 mars 1888, page 358 à 375), la pêche du hareng occupe pendant sept mois de l'année la majeure partie de nos pêcheurs francais de Fécamp à Dunlerque ; les lieux et les époques où les pêcheurs exercent cette industrie se comportent comme il suit :</p>
-       <p xml:id="para_9_170_103">Mer du Nord. — Premier voyage, du 1ᵉ au 20 juillet ; de la hauteur de l'île Fair (la plus méridionale des Shetland), par 20 ou 30 lieues au large (entre 60° et 57 lat. N.), jusqu'à la hauteur d'Aberdeen. — Deuxième voyage, du 20 juillet au 20 août ; de la hauteur d'Aberdeen à celle d'Edimbourg (57° à 0° lat. N.), au sud du banc de Long-rForties. — roisième voyage, du20 août<pb facs="#facs_196" n="171" source="lesouvriersdesd02soci_0211.xml"/>au 5 septembre ; d'Edimbourg à Nevcastle-sur-Tyne (56° à 55 lat. N.), sui¬vant une ligne presque parallèle à la côte britannique, par 16 à 23 lieues au large ; puis, du 5 septembre au 15 octobre ; aux alentours du Dogger Bank (0° à 1° long. 0. du mérid. de Paris, 55° à 54ᵒ lat. N.). — Quatrième voyage, dit de Marmouth, du 15 octobre au 1ᵉ novembre ; autour des bancs Svarte, Brolen, Vell, Over et Leman, entre les bancs lladdocl et Sheringham (côte septentrionale du comté de Norfoll), aux abords du banc Gabbard (53ᵉ à 52 lat. N.). — Peche du hareng pour la vente à l'état frais, du 1ᵉ au 15 novembre ; dans des parages de plus en plus voisins du Pas-de-Calais, par une lieue et demie ou cinq lieues au large du banc de uytingen, en face de Dunerque.</p>
-       <p xml:id="para_9_171_108">Manche. — Pêche pour la vente à l'état frais, du 1ᵉᵉ novembre au 1ᵉʳ fé¬vrier ; le long de la côte française, par 2 à 4 milles au large, en avaņant peu à peu du cap Gris-Nez à Etretat, devant Calais, Boulogne, Etaples, Berl. Dieppe, Saint-Valery en Caux et Fécamp. Pendant le mois de février, le hareng devient de plus en plus rare.</p>
-       <p xml:id="para_9_171_109">Or il existe chez nos voisins d'outre-Manche une Associuation des pêcheus nglais, qui se compose de pêcheurs, de marayeurs, de saleurs, etc., large¬ment intéressés dans le commerce du poisson salé sur la côte orientale d'É cosse, depuis Leith jusqu'à Vie. Cette corporation a nettement adopte l'opi¬nion que la salaison du hareng précoce, non arrivé à maturité, que l'on prend dans les mers du Nord, est un gaspillage, et n'est pas seulement pré¬judiciable aux intérèts de toute l'industrie de la pêche, mais est encore une des causes principales de la récente dépréciation du hareng salé écossais : c'est la cause du discrédit où est tombé le hareng sur les marchés du conti¬nent, et des désastres qui ont frappé plusieurs saleurs écossais dans ces deux dernières années n. ne assemblée générale a été tenue à Aberdeen le 10 mars 1886. Une pétition a été adressée par l'Association à lord Roseberry, sous-se¬crétaire d'Etat des affaires étrangères. Il s'agit de provoquer l'entente des na¬tions qui prcnnent part à la pêche du hareng, Grande-Bretagne, France, Hol¬lande et Allemagne. Les pétitionnaires croient pouvoir affirmer qu'aucun bateau belge ne fait la pêche du hareng et que les Suédois et les Norvégiens n'y ont aucun intérèt matériel. On conviendrait d'une sisou ou, en raison du défaut de maturité du hareng et de son infériorité commerciale, l pêche serait nterdite. L'Association a résolu à l'unanimité que l'on ne devraitpas commencer à saler le hareng pour l'exportation avant les dates suivantes : lébrides, 1ᵉ juin ; Shetland, 1ᵉʳ juillet ; Orbney, 15 juillet ; côte orientale d'Ecosse, 20 juillet. Elle a exprimé enfin le veu formel qu'une tailie minimum fût fixée pour éviter la pêche des petits harengs.</p>
-       <p xml:id="para_9_171_110">Les pêcheurs français du littoral de la Seine-nférieure, la Somme, le Pas¬de-Calais et le Nord, ont, à leur tour, adressé, le 22 février 1888, à la Cham¬bre des députés, une pétition signée par trois mille armateurs, patrons et pêcheurs des ports de Dunlerque, Gravelines, Petit-Fort et Grand-Fort-Phi¬lippe, Calais, Vissant, Boulogne, Le Portel, Equihen, Etaples, Bercl, Le Cro¬toy, Cayeux, Le réport, Le Pollet, Dieppe, St-Valery-en-Caux, Grandes-Dalles, Petites-Dalles, Saint-Pierre-en-Port, St-Martin-aux-Buneaux, Fécamp, Mport, Étretat. Comme leurs confrères de la Grande-Bretagne, ils demandent avec<pb facs="#facs_197" n="172" source="lesouvriersdesd02soci_0212.xml"/>instance que le régime de liberté sous lequel la peche du hareng se pratique actuellement, soit remplacé par une réglementation protectrice des intérêts de tous. La pêche du hareng, disentles pétitionnaires, met enjeules moyens d'exis tence de six mille marins et de cent mille citoyens dont les industries s'y ratta¬chent ; la ruine de cette pêche sera celle de toutle littoral de Dunlerque à Etre¬tat « Le mdient de la libertéabsolue qu'ontles pecheurs d'armerâ toute epoque de ˉl'année pour la péche, aoec salaison a bord, de sorte qu'avant même que le hareng soit demandé sur nos marchés, nos quais sont envahis par sept ou huit millions de kilogrammes de harengs huileux et de mauvaise qualité ; ils ne se conservent pas, jaunissent, et se vendent à vil prix... Aussi, depuis 1882, voit-on tous les ans des ruines subites et une diminution du nomtre des bateau de pé¬che... Les pères quisupportent la crise craignent pour leurs enfants ; beaucoup préfèrent les voir suivre toute autre carrière exposée à moins de risques que celle de la pêche. De là une diminutiondns le nombre des inscrits maritimes... L'émigration de notre popudation mritime est aussd a craindre : le signal du départ pourl'étranger a déjàété donné par cent cinquante familles de pêcheurs étahlies définitivement à O0stende... Le remède serait dans l'interdiction des departs pour la pêche du harcng aoant le 25 juillet. En outre, il faudrait que tous les hateaux armés pour la pêche dite de la morue du Nord ou du Dogger Banl ne pussent, sous peine de confiscation, rapporter des harcngs s'ils sont partis avant le 25 juillet.</p>
-       <p xml:id="para_9_172_114">Ainsi la liberté du travail aussi bien que le libre échange sont des princi¬pes dont l'application absolue entraine ̧à et là de fâcheuses conséquences. L'expérience impose de nos jours plus d'un retour aux droits protecteurs ou à la réglementation du travail, et il faut bien reconnaitre que plus d'une cou¬tume, détruite au nom du progrès, aurait mérité d'être d'abord étudiée, ré¬formée au besoin, mais respectée comme un legs de la sagesse de nos aieux, au lieu d'être systématiquement décriée comme un reste de leur ignorance et de leur aveugle servilité.</p>
+       <p xml:id="para_9_170_102">
+        Renseignements anneés par le Comite de publication aux deu études mono¬rphiques ns 58 et 58 bis. — La détresse de la pêche du hareng dans la Manche et la mer du Nord est un mal déjà ancien, mais qui, depuis 1879, s'est accusé d'année en année au point de constituer une crise redoutable. D'après un travail de M. Édouard Marbeau (Revuefrancaisc de l'etranger et des colonies, nᵐ du 15 mars 1888, page 358 à 375), la pêche du hareng occupe pendant sept mois de l'année la majeure partie de nos pêcheurs francais de Fécamp à Dunlerque ; les lieux et les époques où les pêcheurs exercent cette industrie se comportent comme il suit :
+       </p>
+       <p xml:id="para_9_170_103">
+        Mer du Nord. — Premier voyage, du 1ᵉ au 20 juillet ; de la hauteur de l'île Fair (la plus méridionale des Shetland), par 20 ou 30 lieues au large (entre 60° et 57 lat. N.), jusqu'à la hauteur d'Aberdeen. — Deuxième voyage, du 20 juillet au 20 août ; de la hauteur d'Aberdeen à celle d'Edimbourg (57° à 0° lat. N.), au sud du banc de Long-rForties. — roisième voyage, du20 août
+        <pb facs="#facs_196" n="171" source="lesouvriersdesd02soci_0211.xml"/>
+        au 5 septembre ; d'Edimbourg à Nevcastle-sur-Tyne (56° à 55 lat. N.), sui¬vant une ligne presque parallèle à la côte britannique, par 16 à 23 lieues au large ; puis, du 5 septembre au 15 octobre ; aux alentours du Dogger Bank (0° à 1° long. 0. du mérid. de Paris, 55° à 54ᵒ lat. N.). — Quatrième voyage, dit de Marmouth, du 15 octobre au 1ᵉ novembre ; autour des bancs Svarte, Brolen, Vell, Over et Leman, entre les bancs lladdocl et Sheringham (côte septentrionale du comté de Norfoll), aux abords du banc Gabbard (53ᵉ à 52 lat. N.). — Peche du hareng pour la vente à l'état frais, du 1ᵉ au 15 novembre ; dans des parages de plus en plus voisins du Pas-de-Calais, par une lieue et demie ou cinq lieues au large du banc de uytingen, en face de Dunerque.
+       </p>
+       <p xml:id="para_9_171_108">
+        Manche. — Pêche pour la vente à l'état frais, du 1ᵉᵉ novembre au 1ᵉʳ fé¬vrier ; le long de la côte française, par 2 à 4 milles au large, en avaņant peu à peu du cap Gris-Nez à Etretat, devant Calais, Boulogne, Etaples, Berl. Dieppe, Saint-Valery en Caux et Fécamp. Pendant le mois de février, le hareng devient de plus en plus rare.
+       </p>
+       <p xml:id="para_9_171_109">
+        Or il existe chez nos voisins d'outre-Manche une Associuation des pêcheus nglais, qui se compose de pêcheurs, de marayeurs, de saleurs, etc., large¬ment intéressés dans le commerce du poisson salé sur la côte orientale d'É cosse, depuis Leith jusqu'à Vie. Cette corporation a nettement adopte l'opi¬nion que la salaison du hareng précoce, non arrivé à maturité, que l'on prend dans les mers du Nord, est un gaspillage, et n'est pas seulement pré¬judiciable aux intérèts de toute l'industrie de la pêche, mais est encore une des causes principales de la récente dépréciation du hareng salé écossais : c'est la cause du discrédit où est tombé le hareng sur les marchés du conti¬nent, et des désastres qui ont frappé plusieurs saleurs écossais dans ces deux dernières années n. ne assemblée générale a été tenue à Aberdeen le 10 mars 1886. Une pétition a été adressée par l'Association à lord Roseberry, sous-se¬crétaire d'Etat des affaires étrangères. Il s'agit de provoquer l'entente des na¬tions qui prcnnent part à la pêche du hareng, Grande-Bretagne, France, Hol¬lande et Allemagne. Les pétitionnaires croient pouvoir affirmer qu'aucun bateau belge ne fait la pêche du hareng et que les Suédois et les Norvégiens n'y ont aucun intérèt matériel. On conviendrait d'une sisou ou, en raison du défaut de maturité du hareng et de son infériorité commerciale, l pêche serait nterdite. L'Association a résolu à l'unanimité que l'on ne devraitpas commencer à saler le hareng pour l'exportation avant les dates suivantes : lébrides, 1ᵉ juin ; Shetland, 1ᵉʳ juillet ; Orbney, 15 juillet ; côte orientale d'Ecosse, 20 juillet. Elle a exprimé enfin le veu formel qu'une tailie minimum fût fixée pour éviter la pêche des petits harengs.
+       </p>
+       <p xml:id="para_9_171_110">
+        Les pêcheurs français du littoral de la Seine-nférieure, la Somme, le Pas¬de-Calais et le Nord, ont, à leur tour, adressé, le 22 février 1888, à la Cham¬bre des députés, une pétition signée par trois mille armateurs, patrons et pêcheurs des ports de Dunlerque, Gravelines, Petit-Fort et Grand-Fort-Phi¬lippe, Calais, Vissant, Boulogne, Le Portel, Equihen, Etaples, Bercl, Le Cro¬toy, Cayeux, Le réport, Le Pollet, Dieppe, St-Valery-en-Caux, Grandes-Dalles, Petites-Dalles, Saint-Pierre-en-Port, St-Martin-aux-Buneaux, Fécamp, Mport, Étretat. Comme leurs confrères de la Grande-Bretagne, ils demandent avec
+        <pb facs="#facs_197" n="172" source="lesouvriersdesd02soci_0212.xml"/>
+        instance que le régime de liberté sous lequel la peche du hareng se pratique actuellement, soit remplacé par une réglementation protectrice des intérêts de tous. La pêche du hareng, disentles pétitionnaires, met enjeules moyens d'exis tence de six mille marins et de cent mille citoyens dont les industries s'y ratta¬chent ; la ruine de cette pêche sera celle de toutle littoral de Dunlerque à Etre¬tat « Le mdient de la libertéabsolue qu'ontles pecheurs d'armerâ toute epoque de ˉl'année pour la péche, aoec salaison a bord, de sorte qu'avant même que le hareng soit demandé sur nos marchés, nos quais sont envahis par sept ou huit millions de kilogrammes de harengs huileux et de mauvaise qualité ; ils ne se conservent pas, jaunissent, et se vendent à vil prix... Aussi, depuis 1882, voit-on tous les ans des ruines subites et une diminution du nomtre des bateau de pé¬che... Les pères quisupportent la crise craignent pour leurs enfants ; beaucoup préfèrent les voir suivre toute autre carrière exposée à moins de risques que celle de la pêche. De là une diminutiondns le nombre des inscrits maritimes... L'émigration de notre popudation mritime est aussd a craindre : le signal du départ pourl'étranger a déjàété donné par cent cinquante familles de pêcheurs étahlies définitivement à O0stende... Le remède serait dans l'interdiction des departs pour la pêche du harcng aoant le 25 juillet. En outre, il faudrait que tous les hateaux armés pour la pêche dite de la morue du Nord ou du Dogger Banl ne pussent, sous peine de confiscation, rapporter des harcngs s'ils sont partis avant le 25 juillet.
+       </p>
+       <p xml:id="para_9_172_114">
+        Ainsi la liberté du travail aussi bien que le libre échange sont des princi¬pes dont l'application absolue entraine ̧à et là de fâcheuses conséquences. L'expérience impose de nos jours plus d'un retour aux droits protecteurs ou à la réglementation du travail, et il faut bien reconnaitre que plus d'une cou¬tume, détruite au nom du progrès, aurait mérité d'être d'abord étudiée, ré¬formée au besoin, mais respectée comme un legs de la sagesse de nos aieux, au lieu d'être systématiquement décriée comme un reste de leur ignorance et de leur aveugle servilité.
+       </p>
       </div>
      </div>
     </div>
