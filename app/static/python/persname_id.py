@@ -15,11 +15,13 @@ import os
 from bs4 import BeautifulSoup
 
 
-def investigators(fileslist) -> None:
+def monographs(fileslist):
     """
-    Adding invetigators' ids to <persName>. ID = "ID-" + monograph's id + "E" + persName index order.
+    Making a dict with monographs.
     :param fileslist: csv with monographs list, where column 1 is monographs' Ids and column 2 monographs' filenames.
     :type fileslist: str
+    :return: a dict where {filename: id, ...}
+    :rtype: dict
     """
     with open(fileslist) as opening:
         csv_list = csv.reader(opening)
@@ -27,7 +29,15 @@ def investigators(fileslist) -> None:
         for line in csv_list:
             monographs[line[2]] = line[1]
     del monographs["Fichiers XML"], monographs["none"]
-    for monograph in monographs:
+    return monographs
+
+
+def investigators() -> None:
+    """
+    Adding persName id. ID = "ID-" + monograph's id + "E" + persName index order.
+    """
+    monographs_dict = monographs("../csv/id_monographies.csv")
+    for monograph in monographs_dict:
         path = os.path.join("../xml", monograph)
         with open(path, 'r', encoding='utf-8') as opened_xml:
             soup = BeautifulSoup(opened_xml, 'xml')
@@ -42,6 +52,3 @@ def investigators(fileslist) -> None:
         with open(path, 'w', encoding='utf-8') as writting:
             writting.write(result)
             print("{} ----> Done !".format(path))
-
-
-# investigators("../csv/id_monographies.csv")
