@@ -18,7 +18,8 @@ from bs4 import BeautifulSoup
 def monographs(fileslist):
     """
     Making a dict with monographs.
-    :param fileslist: csv with monographs list, where column 1 is monographs' Ids and column 2 monographs' filenames.
+    :param fileslist: csv with monographs list, 
+    where column 1 is monographs' Ids and column 2 monographs' filenames.
     :type fileslist: str
     :return: a dict where {filename: id, ...}
     :rtype: dict
@@ -32,15 +33,16 @@ def monographs(fileslist):
     return monographs
 
 
-def investigators() -> None:
+def respondents() -> None:
     """
-    Adding persName id. ID = "ID-" + monograph's id + "E" + persName index order.
+    Adding @xml:id and @type to respondents' <persName> (§2).
+    ID = "ID-" + monograph's id + "E" + persName index order.
     """
     monographs_dict = monographs("../csv/id_monographies.csv")
     for monograph in monographs_dict:
         path = os.path.join("../xml", monograph)
         with open(path, 'r', encoding='utf-8') as opened_xml:
-            soup = BeautifulSoup(opened_xml, 'xml')
+            soup = BeautifulSoup(opened_xml, 'xml')é
             text = soup.findAll("div", {"n": "002", "type": "section"})
             for tag in text:
                 persnames = tag.findAll("persName")
@@ -48,6 +50,7 @@ def investigators() -> None:
                 for persname in persnames:
                     counter +=1
                     persname["xml:id"] = "ID-" + monographs[monograph] + "E" + str(counter)
+                    persname["type"] = "respondent"
             result = soup.prettify()
         with open(path, 'w', encoding='utf-8') as writting:
             writting.write(result)
