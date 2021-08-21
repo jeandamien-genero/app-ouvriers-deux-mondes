@@ -17,25 +17,29 @@ from geopy.geocoders import Nominatim
 
 def cities(file):
     """
-    Making a list with monographs places.
+    Making a list with monographs informations and places.
     :param file: path to a csv with placename, settlement, country in rows -6, -5, -4.
     :type file: str
-    :return: a list made of lists = [placename, settlement, country]
+    :return: a list made of lists >>
+    city_list = [[number, title, author(s), filename, place, settlement, region, country, publication date], [...]]
     :rtype: list
     """
     city_list = []
     with open(file) as opening:
         csv_list = csv.reader(opening)
         for line in csv_list:
-            city_list.append([line[-7], line[-6], line[-5], line[-4]])
+            if line[8] != "":  # two authors
+                author = line[5] + " " + line[6] + " et " + line[8] + " " + line[9]
+            else:  # one author
+                author = line[5] + " " + line[6]
+            city_list.append([line[0], line[3], author, line[2], line[-7], line[-6], line[-5], line[-4], line[-2]])
     del city_list[0], city_list[-1]
     return city_list
 
 
 def make_csv(csvfile):
     """
-    Making a csv file with four columns out of a dict where
-    {<cityname>: [<settlement>, <departement>, <country>]}
+    Making a csv file with four columns out of a list made with cities() function.
     :param csvfile: path to a csvfile that will be written.
     :type csvfile:str
     :return: a csv file
@@ -43,19 +47,18 @@ def make_csv(csvfile):
     """
     with open(csvfile, 'w', encoding="utf-8") as openedcsv:
         spamwriter = csv.writer(openedcsv)
-        headers = ["PlaceName", "Settlement", "Region", "Country"]
+        headers = ["Number", "Monograph", "Author(s)", "File", "PlaceName", "Settlement", "Region", "Country", "Date"]
         spamwriter.writerow(headers)
-        places = cities("/home/genero/Bureau/OD2M/app-ouvriers-deux-mondes/app/static/csv/id_monographies.csv")
+        places = cities("../csv/id_monographies.csv")
         for place in places:
-            row = place[0], place[1], place[2], place[3]
+            row = place[0], place[1], place[2], place[3], place[4], place[5], place[6], place[7], place[8]
             spamwriter.writerow(row)
     return csvfile
 
 
 def getting_coordinates() -> None:
     start_time = time.time()
-    io = pandas.read_csv(make_csv("/home/genero/Bureau/OD2M/app-ouvriers-deux-mondes/app/static/csv/geocoder.csv"), index_col=None, header=0, sep=",")
-    # print(io)
+    io = pandas.read_csv(make_csv("../csv/geocoder.csv"), index_col="Number", header=0, sep=",")
 
     def get_latitude(x):
         if hasattr(x, 'latitude') and (x.latitude is not None):
@@ -66,13 +69,13 @@ def getting_coordinates() -> None:
             return x.longitude
 
     geolocator = Nominatim(user_agent="You", timeout=5)
-    io['helper'] = io['Settlement'].map(str) + " " + io['Region'].map(str) + " " + io['Country'].map(str)
-    io.to_csv("/home/genero/Bureau/OD2M/app-ouvriers-deux-mondes/app/static/csv/geocoder.csv")
-    geolocate_column = io['helper'].apply(geolocator.geocode)
-
+    io['Localisation'] = io['Settlement'].map(str) + " " + io['Region'].map(str) + " " + io['Country'].map(str)
+    io.to_csv("../csv/geocoder.csv")
+    geolocate_column = io['Localisation'].apply(geolocator.geocode)
     io['latitude'] = geolocate_column.apply(get_latitude)
     io['longitude'] = geolocate_column.apply(get_longitude)
-    io.to_csv("/home/genero/Bureau/OD2M/app-ouvriers-deux-mondes/app/static/csv/geocoder.csv")
+    io = io.drop(["Settlement", "Region", "Country"], axis=1)
+    io.to_csv("../csv/geocoder.csv")
     print("--- %s seconds ---" % (time.time() - start_time))
 
 
