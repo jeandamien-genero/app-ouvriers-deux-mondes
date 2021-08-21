@@ -10,8 +10,8 @@ Update : 2021-08-21
 """
 
 import csv
-import pandas
 import time
+import pandas
 from geopy.geocoders import Nominatim
 
 
