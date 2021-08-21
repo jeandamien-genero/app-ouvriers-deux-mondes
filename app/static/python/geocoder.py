@@ -57,6 +57,10 @@ def make_csv(csvfile):
 
 
 def getting_coordinates() -> None:
+    """
+    Getting monographs' places' coordinates.
+    :return: None
+    """
     start_time = time.time()
     io = pandas.read_csv(make_csv("../csv/geocoder.csv"), index_col="Number", header=0, sep=",")
 
