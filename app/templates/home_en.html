@@ -1,6 +1,6 @@
 {% extends "conteneur.html" %}
 {% block corps %}
-            <div style="text-align: justify;">
+            <div id="home-div">
                   <p style="text-align: center;">
                         → <a href="{{url_for('monographies')}}">Monographs</a> | <a href="{{url_for('search')}}">Search</a> | <a href="{{url_for('home')}}">French</a> ←
                   </p>
@@ -14,4 +14,33 @@
             		The goal of the app is to present the advance of the work on the monographs. 
             	</p>
             </div>
+            <div>
+  <div id="my-map"></div>
+  <script>
+      window.onload = function () {
+        var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> | Localisation des monographies des <i>Ouvriers des deux mondes</i> | &copy; 2021 Jean-Damien Genero'
+        });
+
+        $.getJSON("../static/json/od2m_map.geojson", function(data) {
+
+              var geojson = L.geoJson(data, {
+                  onEachFeature: function (feature, layer) {
+        // layer.bindPopup(feature.properties.Area_Name);
+        layer.bindPopup('<center><p><b>' + feature.properties.PlaceName + '</b></p></center>' + '<p><b> Monographie n°' + feature.properties.Number + ' :</b> <i><a href="http://127.0.0.1:5000/monographie/' + feature.properties.File + '">'+ feature.properties.Monograph + '</a></i>.<p><b> Date de publication :</b> ' + feature.properties.Date  + '<p><b> Localisation :</b> ' + feature.properties.Localisation  + '<p><b> Auteur :</b> ' + feature.properties.Investigator  + '</p>');
+        //EDIT HERE
+  }
+});
+
+              var map = L.map('my-map')
+              .fitBounds(geojson.getBounds());
+//    .setView([0.0,-10.0], 2);
+
+basemap.addTo(map);
+geojson.addTo(map);
+});
+
+  };
+</script>
+</div>
 {% endblock %}

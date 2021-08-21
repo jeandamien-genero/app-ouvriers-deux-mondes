@@ -1,6 +1,6 @@
 {% extends "conteneur.html" %}
 {% block corps %}
-<div style="text-align: justify;">
+<div id="home-div">
       <p style="text-align: center">
             → <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> | <a href="{{url_for('home_en')}}">English</a> ←
       </p>
@@ -10,14 +10,14 @@
     <p>
       L'acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des <a href="http://timeusage.paris.inria.fr/mediawiki/index.php/Aper%C3%A7u_des_%C3%A9tats#Les_Ouvriers_des_Mondes">numérisations d'<i>Internet Archive</i></a>, à l'aide de l'application <a href="https://gitlab.inria.fr/almanach/time-us/LSE-OD2M" target="_blank">LSE-OD2M</a> développée par Alix Chagué ; l'encodage scientifique a ensuite été réalisé de manière semi-automatique par Jean-Damien Généro.
 </p>
+<p style="text-align: center;">
+    Cette application a pour but de présenter un état du travail sur les monographies.
+</p>
 <p style="font-style: italic; font-size: small;">
       Direction technique : Éric Villemonte de la Clergerie, chargé de recherche d'Inria (<a href="https://team.inria.fr/almanach/fr/" target="_blank">ALMAnaCH, 2018-2019</a>), Alix Chagué, ingénieure recherche et développement d'Inria (idem, 2020), Jean-Damien Généro, ingénieur d'études du CNRS (<a href="https://www.cmh.ens.fr/" target="_blank">Centre Maurice Halbwachs</a>, 2020 et <a href="http://crh.ehess.fr/" target="_blank">Centre de recherches historiques</a>, 2020-2021).
 </p>
 <p style="font-style: italic; font-size: small;">
       Direction scientifique : Anne Lhuissier, directrice de recherche de l'INRAE (CMH) et Stéphane Baciocchi, ingénieur de recherche de l'EHESS (CRH).
-</p>
-<p style="text-align: center;">
-    Cette application a pour but de présenter un état du travail sur les monographies.
 </p>
 </div>
 <div>
@@ -25,7 +25,7 @@
   <script>
       window.onload = function () {
         var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> | &copy; 2021 Jean-Damien Genero'
+              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> | Localisation des monographies des <i>Ouvriers des deux mondes</i> | &copy; 2021 Jean-Damien Genero'
         });
 
         $.getJSON("../static/json/od2m_map.geojson", function(data) {

@@ -1,10 +1,11 @@
 {% extends "conteneur.html" %}
 {% block corps %}
-            <div>
-                <p style="text-align: center;">
-                    → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('search')}}">Recherche</a> ←
-                </p>
-                <table style="margin: auto;">
+<div id="other-div">
+    <div>
+        <p style="text-align: center;">
+            → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('search')}}">Recherche</a> ←
+        </p>
+        <table style="margin: auto;">
                     <!--<thead>
                         <tr>
                             <th>Numéro</th>
@@ -12,16 +13,17 @@
                         </tr>
                     </thead>-->
                     {% for mono in corpus %}
-                        <tbody>
-                            <tr>
-                                <td>{{corpus[mono][0]}}</td>
-                                <td><a href="{{url_for('txt_mono', mono_id=corpus[mono][1])}}">{{mono}}</a></td>
-                            </tr>
-                        </tbody>
+                    <tbody>
+                        <tr>
+                            <td>{{corpus[mono][0]}}</td>
+                            <td><a href="{{url_for('txt_mono', mono_id=corpus[mono][1])}}">{{mono}}</a></td>
+                        </tr>
+                    </tbody>
                     {% endfor %}
                 </table>
                 <p style="text-align: center;">
                     → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('search')}}">Recherche</a> ←
                 </p>
-            </div>
+    </div>
+</div>
 {% endblock %}
