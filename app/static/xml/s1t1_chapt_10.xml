@@ -1,169 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-005a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xml:id="ID-005a" xml:lang="fr">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title level="m" n="5" type="main">
-     Métayer de la banlieue de Florence (Grand-Duché de Toscane)
-    </title>
-    <title level="s" type="desc">
-     Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription
-    </title>
-    <title level="m" type="short">
-     metayer-banlieue-florence-5
-    </title>
-    <author n="1" role="investigator">
-     Ulbadino Péruzzi
-    </author>
-    <editor>
-     Société internationale des études pratiques d'économie sociale
-    </editor>
+    <title level="m" n="5" type="main">Métayer de la banlieue de Florence (Grand-Duché de Toscane)</title>
+    <title level="s" type="desc">Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription</title>
+    <title level="m" type="short">metayer-banlieue-florence-5</title>
+    <author n="1" role="investigator">Ulbadino Péruzzi</author>
+    <editor>Société internationale des études pratiques d'économie sociale</editor>
     <respStmt>
-     <resp>
-      Fichier XML-TEI encodé de 2019 à 2021
-     </resp>
-     <orgName>
-      programme ANR TIME US
-     </orgName>
+     <resp>Fichier XML-TEI encodé de 2019 à 2021</resp>
+     <orgName>programme ANR TIME US</orgName>
     </respStmt>
    </titleStmt>
    <editionStmt>
-    <edition>
-     Édition et encodage scientifique de la monographie n°5 des Ouvriers des deux mondes, "Métayer de la banlieue de Florence (Grand-Duché de Toscane)". Elle a d'abord été publiée en fascicule en 1857, puis reliée en 1857, à partir d'une enquête réalisée à La Torre, Florence (Toscane, Italie) en 1857.
-    </edition>
-    <funder>
-     Agence nationale de la Recherche
-    </funder>
+    <edition>Édition et encodage scientifique de la monographie n°5 des Ouvriers des deux mondes, "Métayer de la banlieue de Florence (Grand-Duché de Toscane)". Elle a d'abord été publiée en fascicule en 1857, puis reliée en 1857, à partir d'une enquête réalisée à La Torre, Florence (Toscane, Italie) en 1857.</edition>
+    <funder>Agence nationale de la Recherche</funder>
     <respStmt>
      <persName>
-      <forename>
-       Alix
-      </forename>
-      <surname>
-       Chagué
-      </surname>
-      <affiliation>
-       ingénieure de recherche et de développement,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Alix</forename>
+      <surname>Chagué</surname>
+      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      acquisition et structuration initiale des textes
-     </resp>
+     <resp>acquisition et structuration initiale des textes</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Jean-Damien
-      </forename>
-      <surname>
-       Généro
-      </surname>
-      <affiliation from="2020-03" to="2020-09">
-       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Jean-Damien</forename>
+      <surname>Généro</surname>
+      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
-      <affiliation from="2020-09" to="2020-11">
-       ingénieur d'études,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
-      <affiliation from="2020-12">
-       ingénieur d'études,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      encodage scientifique
-     </resp>
+     <resp>encodage scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Stéphane
-      </forename>
-      <surname>
-       Baciocchi
-      </surname>
-      <affiliation>
-       ingénieur de recherche de l’EHESS,
-       <orgName>
-        Centre de recherches historiques
-       </orgName>
+      <forename>Stéphane</forename>
+      <surname>Baciocchi</surname>
+      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Anne
-      </forename>
-      <surname>
-       Lhuissier
-      </surname>
-      <affiliation>
-       directrice de recherche de l'INRAE,
-       <orgName>
-        Centre Maurice Halbwachs
-       </orgName>
+      <forename>Anne</forename>
+      <surname>Lhuissier</surname>
+      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
       </affiliation>
      </persName>
-     <resp>
-      direction scientifique
-     </resp>
+     <resp>direction scientifique</resp>
     </respStmt>
     <respStmt>
      <persName>
-      <forename>
-       Éric
-      </forename>
-      <surname>
-       Villemonte de la Clergerie
-      </surname>
-      <affiliation>
-       chargé de recherches,
-       <orgName>
-        équipe ALMAnaCH d'Inria
-       </orgName>
+      <forename>Éric</forename>
+      <surname>Villemonte de la Clergerie</surname>
+      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
       </affiliation>
      </persName>
-     <resp>
-      supervision technique
-     </resp>
+     <resp>supervision technique</resp>
     </respStmt>
    </editionStmt>
    <publicationStmt>
-    <publisher>
-     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
-    </publisher>
+    <publisher>Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH</publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>
-     Paris, France
-    </pubPlace>
-    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
-     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
-    </authority>
+    <pubPlace>Paris, France</pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century</authority>
     <availability status="free">
-     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
-      Distributed under an Open License 2.0
-     </licence>
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">Distributed under an Open License 2.0</licence>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <p>
-     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
-    </p>
+    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
    </sourceDesc>
   </fileDesc>
  </teiHeader>
@@ -339,724 +253,276 @@
   <body>
    <div ana="#ID-005a" type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_10_221_1">
-      N° 5.
+     <p xml:id="para_10_221_1">N° 5.</p>
+     <p xml:id="para_10_221_2">MÉTAYER</p>
+     <p>DE LA</p>
+     <p xml:id="para_10_221_3">BANLIEUE DE FLORENCE</p>
+     <p xml:id="para_10_221_4">(GRAND-DUCHÉ DE TOSCANE)</p>
+     <p xml:id="para_10_221_5">(Ouvrier-tenancier, danns le système des engagements volontaires permanents )</p>
+     <p xml:id="para_10_221_6">D'APRÈS LES</p>
+     <p xml:id="para_10_221_7">RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1857</p>
+     <p>PAR</p>
+     <p xml:id="para_10_221_8">M.<persName>U. PERUZI</persName>
      </p>
-     <p xml:id="para_10_221_2">
-      MÉTAYER
-     </p>
-     <p>
-      DE LA
-     </p>
-     <p xml:id="para_10_221_3">
-      BANLIEUE DE FLORENCE
-     </p>
-     <p xml:id="para_10_221_4">
-      (GRAND-DUCHÉ DE TOSCANE)
-     </p>
-     <p xml:id="para_10_221_5">
-      (Ouvrier-tenancier, danns le système des engagements volontaires permanents )
-     </p>
-     <p xml:id="para_10_221_6">
-      D'APRÈS LES
-     </p>
-     <p xml:id="para_10_221_7">
-      RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN 1857
-     </p>
-     <p>
-      PAR
-     </p>
-     <p xml:id="para_10_221_8">
-      M.
-      <persName>
-       U. PERUZI
-      </persName>
-     </p>
-     <p xml:id="para_10_221_9">
-      ANCIEN GONFALONIER DE FLORENCE, DIRECTEUR DU CHEMIN DE FER DE FLORENCE A LIVOURNE
-     </p>
+     <p xml:id="para_10_221_9">ANCIEN GONFALONIER DE FLORENCE, DIRECTEUR DU CHEMIN DE FER DE FLORENCE A LIVOURNE</p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">
-      OBSERVATIONS PRÉLIMINAIRES DÉFINISSANT LA CONDITION DES DIVERS MEMBRES DE LA FAMILLE
-     </head>
+     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille</head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">
-       I. Définition du lieu, de l'organisation industrielle et de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_01">I. Définition du lieu, de l'organisation industrielle et de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">
-        § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
-       </head>
-       <p xml:id="para_10_221_15">
-        <pb facs="#facs_224" n="221" source="lesouvriersdesde01sociuoft_0227.xml"/>
-        La famille décrite dans la présente monographie appartient à la classe la plus nombreuse parmi les agriculteurs de la Toscane, celle des métayers (coloni meaioli) ; elle habite, sur une des col¬lines des environs de Florence et à l'est de cette ville, une maison voisine d'un château avec ferme attenante (fattoria e villae padro¬nale) nommée ˉla rre. Ce château est situé sur un plateau de peu d'étendue, à 500 mètres (1/3 de mille) de la route postale de
-        <pb facs="#facs_225" n="222" source="lesouvriersdesde01sociuoft_0228.xml"/>
-        Florence à Rome, par Arezzo et Pérouse, et sur un chemin commu¬nal qui rejoint cette route à 8 kilomètres (5 milles) de Florence.
-       </p>
-       <p xml:id="para_10_222_17">
-        Le Podere (domaine) cultivé par la famille, faisant partie d'une ferme ou propriété (fatoria) de vingt ˉPoderi
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         (A)
-        </ref>
-        , s'appelle ˉla Villa et est compris dans le territoire de la paroisse de Santa-Maria a ˉl'An¬tellaˉ, de la commune et de l'arrondissement (pretura) du ˉBagno a ˉRipoli, préfecture et archidiocèse de Florence. Le Podere est com¬plétement livré à la culture ; il a l'étendue suivante :
+       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. — État du sol, de l'industrie et de la population.</head>
+       <p xml:id="para_10_221_15"><pb facs="#facs_224" n="221" source="lesouvriersdesde01sociuoft_0227.xml"/> La famille décrite dans la présente monographie appartient à la classe la plus nombreuse parmi les agriculteurs de la Toscane, celle des métayers (coloni meaioli) ; elle habite, sur une des col¬lines des environs de Florence et à l'est de cette ville, une maison voisine d'un château avec ferme attenante (fattoria e villae padro¬nale) nommée ˉla rre. Ce château est situé sur un plateau de peu d'étendue, à 500 mètres (1/3 de mille) de la route postale de
+        <pb facs="#facs_225" n="222" source="lesouvriersdesde01sociuoft_0228.xml"/>Florence à Rome, par Arezzo et Pérouse, et sur un chemin commu¬nal qui rejoint cette route à 8 kilomètres (5 milles) de Florence.</p>
+       <p xml:id="para_10_222_17">Le Podere (domaine) cultivé par la famille, faisant partie d'une ferme ou propriété (fatoria) de vingt ˉPoderi (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>), s'appelle ˉla Villa et est compris dans le territoire de la paroisse de Santa-Maria a ˉl'An¬tellaˉ, de la commune et de l'arrondissement (pretura) du ˉBagno a ˉRipoli, préfecture et archidiocèse de Florence. Le Podere est com¬plétement livré à la culture ; il a l'étendue suivante :
        </p>
        <figure rend="portrait" type="table">
-        <head resp="added" type="table" xml:id="figure_1">
-         Répartition des champs et chaussées cultivées dans le Podere (domaine) familial (§1)
-        </head>
+        <head resp="added" type="table" xml:id="figure_1">Répartition des champs et chaussées cultivées dans le Podere (domaine) familial (§1)</head>
         <graphic facs="#facs_225" url="https://iiif.archivelab.org/iiif/lesouvriersdesde01sociuoft%24228/492,1128,1918,576/full/0/default.jpg"/>
        </figure>
-       <!--<p xml:id="para_10_222_18">
-        Champs situés en plaine, légèrement accidentés, avec oliviers et vignes
-        </p>
-        <p xml:id="para_10_222_19">
-        très-nombreuses, ensemencés en céréales, etc.................... 07
-        </p>
-        <p xml:id="para_10_222_20">
-        Champs élevés sur un coteau exposé au nord, cultivés comme ci-dessus. 1 77
-        </p>
-        <p xml:id="para_10_222_21">
-        dem, eXp0sés à l'est............................................ 1 70
-        </p>
-        <p xml:id="para_10_222_22">
-        Champs exposés au nord, avec vignes plus élaguées, sans oliviers,
-        </p>
-        <p xml:id="para_10_222_23">
-        enSeencés comme ci-dessus................................... 0 82
-        </p>
-        <p xml:id="para_10_222_24">
-        Chaussées ensemencées avec de la luzerne....................... 0 11
-        </p>
-        <p xml:id="para_10_222_25">
-        Surface totale............................ 7 47
-        </p>-->
-       <p xml:id="para_10_222_26">
-        Le sol est du calcaire (alberese), et la terre végétale est trop mêlée de petites pierres que les eaux mettent à nu et dont il faut constam¬ment débarrasser le terrain ; il faut aussi soutenir la terre sur les coteaux par des murs, et régler l'écoulement des eaux par de petites fosses qui les reçoivent des sillons (solchi) de la surface, et des fossés où sont plantés les pieds de vigne et les oliviers. Au fond de ces fosses on place une quantité assez considérable de pierres pour faciliter l'écoulement ; c'est à la fois une sorte de drainage et un lieu de dépôt pour les pierres qui sont si abondantes dans le sol. Les fosses secondaires aboutissent à des aqueducs, souvent con¬struits en maçonnerie, qui se rendent dans la petite rivière de la localité (ˉBorro dell'Antellaˉ).
-       </p>
-       <p xml:id="para_10_222_27">
-        Le sol se réssentant beaucoup de la sécheresse pendant l'été, les cultures de haricots, de mais, de fourrages, etc., sont peu répan¬dues et d'un produit incertain. Les oliviers, quoique ayant un peu souffert par le froid qui, dans ces dernières années, en a détruit à plusieurs reprises un grand nombre en oscane, sont, généralement, d'un bon rapport. Les vignes, un peu malades depuis 1851, don¬naient auparavant une récolte moyenne de vin, un peu plus forte, mais de moindre valeur que la récolte moyenne indiquée dans le bud¬get. Les ceps qui ont péri ne sont pas en grand nombre et les autres sont en assez bon état, ainsi qu'il arrive dans la plupart des localités élevées de la Toscane. Jusqu'ici le Podereˉ n'en a que peu souffert.
-       </p>
-       <p xml:id="para_10_222_28">
-        Le climat est tempéré : le thermonmètre ne descend, sauf quel¬ques rares exceptions, qu'à 5ᵉ centigrades au-dessous de 0ᵉ, et ne monte qu'à 32ᵉ au-dessus. Les vents sont très-fréquents dans cette localité et modèrent l'influence des chaleurs pendant l'été.
-       </p>
-       <p xml:id="para_10_223_29">
-        <pb facs="#facs_226" n="223" source="lesouvriersdesde01sociuoft_0229.xml"/>
-        Les brouillards y sont assez rares, ainsi que la grêle.Le bon entre¬tien des chaussées, l'établissement des routes communales et de la route royale rendent faciles et rapides les transports des fu¬miers, des récoltes, etc., et les communications avec les marchés au moyen des attelages.
-       </p>
+       <!--<p xml:id="para_10_222_18">Champs situés en plaine, légèrement accidentés, avec oliviers et vignes</p>
+        <p xml:id="para_10_222_19">très-nombreuses, ensemencés en céréales, etc.................... 07</p>
+        <p xml:id="para_10_222_20">Champs élevés sur un coteau exposé au nord, cultivés comme ci-dessus. 1 77</p>
+        <p xml:id="para_10_222_21">dem, eXp0sés à l'est............................................ 1 70</p>
+        <p xml:id="para_10_222_22">Champs exposés au nord, avec vignes plus élaguées, sans oliviers,</p>
+        <p xml:id="para_10_222_23">enSeencés comme ci-dessus................................... 0 82</p>
+        <p xml:id="para_10_222_24">Chaussées ensemencées avec de la luzerne....................... 0 11</p>
+        <p xml:id="para_10_222_25">Surface totale............................ 7 47</p>-->
+       <p xml:id="para_10_222_26">Le sol est du calcaire (alberese), et la terre végétale est trop mêlée de petites pierres que les eaux mettent à nu et dont il faut constam¬ment débarrasser le terrain ; il faut aussi soutenir la terre sur les coteaux par des murs, et régler l'écoulement des eaux par de petites fosses qui les reçoivent des sillons (solchi) de la surface, et des fossés où sont plantés les pieds de vigne et les oliviers. Au fond de ces fosses on place une quantité assez considérable de pierres pour faciliter l'écoulement ; c'est à la fois une sorte de drainage et un lieu de dépôt pour les pierres qui sont si abondantes dans le sol. Les fosses secondaires aboutissent à des aqueducs, souvent con¬struits en maçonnerie, qui se rendent dans la petite rivière de la localité (ˉBorro dell'Antellaˉ).</p>
+       <p xml:id="para_10_222_27">Le sol se réssentant beaucoup de la sécheresse pendant l'été, les cultures de haricots, de mais, de fourrages, etc., sont peu répan¬dues et d'un produit incertain. Les oliviers, quoique ayant un peu souffert par le froid qui, dans ces dernières années, en a détruit à plusieurs reprises un grand nombre en oscane, sont, généralement, d'un bon rapport. Les vignes, un peu malades depuis 1851, don¬naient auparavant une récolte moyenne de vin, un peu plus forte, mais de moindre valeur que la récolte moyenne indiquée dans le bud¬get. Les ceps qui ont péri ne sont pas en grand nombre et les autres sont en assez bon état, ainsi qu'il arrive dans la plupart des localités élevées de la Toscane. Jusqu'ici le Podereˉ n'en a que peu souffert.</p>
+       <p xml:id="para_10_222_28">Le climat est tempéré : le thermonmètre ne descend, sauf quel¬ques rares exceptions, qu'à 5ᵉ centigrades au-dessous de 0ᵉ, et ne monte qu'à 32ᵉ au-dessus. Les vents sont très-fréquents dans cette localité et modèrent l'influence des chaleurs pendant l'été.</p>
+       <p xml:id="para_10_223_29"><pb facs="#facs_226" n="223" source="lesouvriersdesde01sociuoft_0229.xml"/> Les brouillards y sont assez rares, ainsi que la grêle.Le bon entre¬tien des chaussées, l'établissement des routes communales et de la route royale rendent faciles et rapides les transports des fu¬miers, des récoltes, etc., et les communications avec les marchés au moyen des attelages.</p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Giuseppe (Joseph) O** (n°005aE1) - Rose N** (n°005aE2) - Pascal, dit Nannoni O** (n°005aE3) - Reine C** (n°005aE4) - Angiolo, dit Nappa O** (n°005aE5) - Emile, dit Pipone O** (n°005aE6) - Gaëtan, dit Gambini O** (n°005aE7) - Joachim, dit Barberino O** (n°005aE8) - François, dit Biribino O** (n°005aE9) - Thérèse, dite Pichichia O** (n°005aE10)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">
-        § 2. — ÉTAT CIVIL DE LA FAMILLE.
-       </head>
-       <p xml:id="para_10_223_31">
-        La famille décrite dans la présente monographie est composée comme il suit :
-       </p>
-       <p xml:id="para_10_223_32">
-        1.
-        <persName type="respondent" xml:id="ID-005aE1">
-         GIUSEPPE (JOSEPH) O**
-        </persName>
-        , père de famille, maître de maison (capoccio), marié depuis 32 ans............ 56 ans.
-       </p>
-       <p xml:id="para_10_223_34">
-        2.
-        <persName type="respondent" xml:id="ID-005aE2">
-         ROSE N**
-        </persName>
-        , maîtresse de maison (massaja), sa femme............ 50 —
-       </p>
-       <p xml:id="para_10_223_35">
-        3.
-        <persName type="respondent" xml:id="ID-005aE3">
-         Pascal, dit Nannoni
-        </persName>
-        , leur fils aîné, marié depuis quelques mois............ 30
-       </p>
-       <p xml:id="para_10_223_37">
-        4.
-        <persName type="respondent" xml:id="ID-005aE4">
-         Reine C**
-        </persName>
-        , sa femme, fiancée d'abord à Séraphin, frère aîné de son mari, mort il y a quatre ans............ 28 —
-       </p>
-       <p xml:id="para_10_223_39">
-        5.
-        <persName type="respondent" xml:id="ID-005aE5">
-         Angiolo, dit Nappa
-        </persName>
-        , second fils............ 28 —
-       </p>
-       <p xml:id="para_10_223_40">
-        6.
-        <persName type="respondent" xml:id="ID-005aE6">
-         Emile, dit Pipone
-        </persName>
-        , troisième fils............ 26 —
-       </p>
-       <p xml:id="para_10_223_41">
-        7.
-        <persName type="respondent" xml:id="ID-005aE7">
-         Gaëtan, dit Gambini
-        </persName>
-        , quatrième fils............ 20 —
-       </p>
-       <p xml:id="para_10_223_42">
-        8.
-        <persName type="respondent" xml:id="ID-005aE8">
-         Joachim, dit Barberino
-        </persName>
-        , cinquième fils............. 15 —
-       </p>
-       <p xml:id="para_10_223_43">
-        9.
-        <persName type="respondent" xml:id="ID-005aE9">
-         François, dit Biribino
-        </persName>
-        , sixième fils............ 14 —
-       </p>
-       <p xml:id="para_10_223_44">
-        10.
-        <persName type="respondent" xml:id="ID-005aE10">
-         Thérèse, dite Pichichia
-        </persName>
-        , fille unique, non mariée............ 24 —
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. — État civil de la famille.</head>
+       <p xml:id="para_10_223_31">La famille décrite dans la présente monographie est composée comme il suit :</p>
+       <p xml:id="para_10_223_32">1.<persName type="respondent" xml:id="ID-005aE1">GIUSEPPE (JOSEPH) O**</persName>, père de famille, maître de maison (capoccio), marié depuis 32 ans............ 56 ans.</p>
+       <p xml:id="para_10_223_34">2.<persName type="respondent" xml:id="ID-005aE2">ROSE N**</persName>, maîtresse de maison (massaja), sa femme............ 50 —</p>
+       <p xml:id="para_10_223_35">3.<persName type="respondent" xml:id="ID-005aE3">Pascal, dit Nannoni</persName>, leur fils aîné, marié depuis quelques mois............ 30</p>
+       <p xml:id="para_10_223_37">4.<persName type="respondent" xml:id="ID-005aE4">Reine C**</persName>, sa femme, fiancée d'abord à Séraphin, frère aîné de son mari, mort il y a quatre ans............ 28 —</p>
+       <p xml:id="para_10_223_39">5.<persName type="respondent" xml:id="ID-005aE5">Angiolo, dit Nappa</persName>, second fils............ 28 —</p>
+       <p xml:id="para_10_223_40">6.<persName type="respondent" xml:id="ID-005aE6">Emile, dit Pipone</persName>, troisième fils............ 26 —</p>
+       <p xml:id="para_10_223_41">7.<persName type="respondent" xml:id="ID-005aE7">Gaëtan, dit Gambini</persName>, quatrième fils............ 20 —</p>
+       <p xml:id="para_10_223_42">8.<persName type="respondent" xml:id="ID-005aE8">Joachim, dit Barberino</persName>, cinquième fils............. 15 —</p>
+       <p xml:id="para_10_223_43">9.<persName type="respondent" xml:id="ID-005aE9">François, dit Biribino</persName>, sixième fils............ 14 —</p>
+       <p xml:id="para_10_223_44">10.<persName type="respondent" xml:id="ID-005aE10">Thérèse, dite Pichichia</persName>, fille unique, non mariée............ 24 —</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">
-        § 3. — RELIGION ET HABITUDES MORALES.
-       </head>
-       <p xml:id="para_10_223_46">
-        La famille est élevée dans la religion catholique ainsi que toute la population indigène de la Toscane
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        Elle en remplit exactement les devoirs, suivant en cela l'habitude de tous les paysans de ce pays ; elle prend beaucoup de goût aux fêtes religieuses et surtout aux processions. Les images de saint Antoine sont attachées sur les portes des étables, et plusieurs images des saints et surtout de la Sainte-ierge ornent les chambres (principalement au-dessus du lit) et la pièce principale de la maison. Les femmes communient assez souvent, les jeunes gens, à Pàques, le père et le fils aîné aux fêtes solennelles et à celles de la confrérie. Ils vont à la messe tous les dimanches et les femmes assistent aussi aux vêpres ; les jeunes gens emploient quelquefois à jouer le temps destiné à ce service.
-       </p>
-       <p xml:id="para_10_223_47">
-        En dehrs des dimanches, il y a treize fêtes qui entraînent le devoir d'aller à la messe et de ne pas travailler : ces fêtes sont observées, comme les dimanches, en allant aux offices du matin et de l'après-midi. Il y a, en outre, vingt-cinq demi-fêtes qui entrai¬nent le devoir d'aller à la messe, sans défense de travailler. Les
-        <pb facs="#facs_227" n="224" source="lesouvriersdesde01sociuoft_0230.xml"/>
-        jours de ces demi-fêtes les paysans entendent la messe de grand matin ; et s'il y a ces jours-là, ou pendant d'autres jours ouvra¬bles, des processions, des neuvaines, ou d'autres cérémonies reli¬gieuses, on les célèbre ordinairement à cette même heure, ou le soir après le coucher du soleil, pour ne pas troubler les travaux. Les paysans y assistent assidûment dans leur costume de travail. Plusieurs de ces cérémonies ont pour but de demander de bonnes récoltes ; telles sont spécialement les processions qui se font le 4 mars, le 21 août le jour des rogations, les trois jours qui pré¬cèdent la fête de l'Ascension. Pendant les deux senmaines qui pré¬cèdent la Pâque de résurrection, les curés font le tour de toutes les maisons de la paroisse et en bénissent toutes les pièces, en rece¬vant quelque offrande en nature et laissant à chaque individu un petit billet qui est présenté à la paroisse au moment de la commu¬nion pascale. C'est un moyen de s'assurer de ceux qui n'observent pas ce précepte (qui à la campagne sont extrêmement rares) et de faire le recencement annuel de la population confié aux curés, qui sont officiers de l'état civil. La bénédiction des maisons offre l'oc¬casion de les faire réparer et nettoyer de fond en comble, ce à quoi les ménagères mettent beaucoup d'empressement ; et certains cu¬rés en profitent aussi pour voir si les pièces sont assez grandes, si les sexes sont assez séparés pour respecter la décence. Si la maison est insuffisante, ou présente quelque danger pour les mœurs ou pour la santé, ils font des remontrances aux propriétaires et provo¬quent, en cas de besoin, l'intervention de l'autorité
-        <ref target="#" type="renvoi_ext_oe">
-         [les ˉOuv. europ. XIX (C)]
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_224_49">
-        Le soir, après le souper, les familles des paysans ont l'habitude de se réunir pour dire le rosaire. La famille ici décrite est très¬religieuse, mais elle n'est pas des plus passionnées pour les céré¬monies de l'église ; aucun de ses membres n'est habituellement employé à la sacristie, ainsi que cela arrive dans quelques autres familles. Le père et les fils Émile et Joachim font parie de la confrérie ou fabrique de la paroisse
-        <ref target="#ID-003a" type="renvoi_int_od2m">
-         (N° 3 § 3)
-        </ref>
-        et ils prêtent leur service suivant les statuts et usages; ils paient la taxe annuelle de 1ᶠ 12 chacun et portent les malades et les morts quand ils sont appelés par la cloche de la confrérie dite de la Miséricorde. Les dimes ne sont obligatoires en Toscane que pour les paroisses qui n'atteignent pas, avec leurs biens ou droits, le revenu normal (con¬grua) de 470ᶠ40 par an. La paroisse de la famille a un revenu beau¬coup plus considérable ; toutefois, on donne volontairement des dimes au curé, ainsi que le font généralement les paysans lorsqu'ils sont en bonnes relations avec le prêtre.
-       </p>
-       <p xml:id="para_10_224_50">
-        Le père et la mère sont honnêtes et laborieux, et n'ont aucune
-        <pb facs="#facs_228" n="225" source="lesouvriersdesde01sociuoft_0231.xml"/>
-        passion pour le luxe des vêtements ; ils s'occupent uniquement du bien-être de la famille et de l'agriculture.
-       </p>
-       <p xml:id="para_10_225_52">
-        Un des fils, Gaétan, très-capable, mais peu porté au travail, chôme quelquefois et perd du temps à se promener dans le pays. L'habitude de se promener, de s'arrêter pour causer avec d'autres jeunes gens, surtout d'aller à toute occasion à la ville et d'y rester plus longtemps qu'il ne serait nécessaire, fait perdre beaucoup de temps aux paysans, notamment à ceux qui habitent les environs des villes ; cette remarque peut s'appliquer aux jeunes gens de cette famille. Ceux-ci ont, en outre, l'habitude de s'amuser avec leurs compagnons, et généralement le goût du jeu est assez répandu dans les campagnes, surtout aux environs de Florence. Les jeunes gens de cette famille ne jouent pas beaucoup, et ne mettent jamais de gros enjeux ; ils aiment assez la toilette, comme la plupartdes jeunes paysans. Les femmes y tiennent aussi beaucoup, surtout les jeunes mariées. Les femmes mariées sont généralement honnêtes et font d'excellentes mères de famille. Les jeunes filles sont presque toutes liées avec quelque jeune homme (ˉDamo) qui leur fait la cour (ce qui s'appelle discorrere con una ragaaaa ou andare a ˉama) avec l'intention de se marier ; elles en changent souvent, soit par incom¬patibilité d'humeur, soit par légèreté d'esprit ; surtout par suite d'obstacles apportés au mariage par les parents. Ces mœurs les exposent à commettre des fautes, qui ne sont toutefois pas aussi fréquentes qu'il y aurait lieu de le supposer d'après la liberté des rapports entre jeunes gens. La jeune fille de cette famille n'est pas asse jolie pour être ainsi recherchée, et elle gardera probablement sa liberté. Les fils Angiolo et Emile vont faire leur cour générale¬ment le dimanche soir, l'un à trois milles de distance, l'autre à un mille ; ils devront renoncer à celles qu'ils fréquentent, ou quit¬ter leur famille s'ils veulent épouser leurs dames. La femme du fils aîné est très-honnête et n'est pas très-recherchée dans ses vêtements.
-       </p>
-       <p xml:id="para_10_225_53">
-        Les rapports des paysans avec les propriétaires sont très-faciles et très-affectueux ; les paysans, qui sont rusés et un peu vifs dans les affaires, ne trompent le propriétaire que sur les petites récoltes et sur la vente des productions secondaires. La famille ici décrite est honnête et intelligente ; le père est très-loyal dans ses rapports avec le propriétaire. Très-opposés en général aux nouveautés, les paysans ne refusent pas d'imiter les pratiques qui, d'après l'ex¬périence des autres, leur paraissent donner de bons résultats. Le chef de cette famille, qui est assez éclairé en comparaison des autres paysans, s'est refusé toutefois, en pleurant, à une modifica¬tion très-importante dans la fabrication de l'huile. orcé par le pro
-        <pb facs="#facs_229" n="226" source="lesouvriersdesde01sociuoft_0232.xml"/>
-        priétaire d'en faire l'expérience, il a fini par devenir partisan de la nouvelle méthode.
-       </p>
-       <p xml:id="para_10_226_56">
-        Quelqu'un des fils sortira de la maison pour s'employer ailleurs, afin de diminuer le nombre des membres de la famille, trop consi¬dérable pour le Podere
-        <ref target="#part_03_01_17" type="renvoi_int_mono">
-         (A)
-        </ref>
-        qu'elle cultive. Le grand nombre d'indi¬vidus qui la composent et quelques habitudes de dépense chez les jeunes gens, que le père, d'un caractère bon et un peu faible, ne contrarie guère, ont empêché de faire beaucoup d'épargnes.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. — Religion et habitudes morales.</head>
+       <p xml:id="para_10_223_46">La famille est élevée dans la religion catholique ainsi que toute la population indigène de la Toscane (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>) Elle en remplit exactement les devoirs, suivant en cela l'habitude de tous les paysans de ce pays ; elle prend beaucoup de goût aux fêtes religieuses et surtout aux processions. Les images de saint Antoine sont attachées sur les portes des étables, et plusieurs images des saints et surtout de la Sainte-ierge ornent les chambres (principalement au-dessus du lit) et la pièce principale de la maison. Les femmes communient assez souvent, les jeunes gens, à Pàques, le père et le fils aîné aux fêtes solennelles et à celles de la confrérie. Ils vont à la messe tous les dimanches et les femmes assistent aussi aux vêpres ; les jeunes gens emploient quelquefois à jouer le temps destiné à ce service.</p>
+       <p xml:id="para_10_223_47">En dehrs des dimanches, il y a treize fêtes qui entraînent le devoir d'aller à la messe et de ne pas travailler : ces fêtes sont observées, comme les dimanches, en allant aux offices du matin et de l'après-midi. Il y a, en outre, vingt-cinq demi-fêtes qui entrai¬nent le devoir d'aller à la messe, sans défense de travailler. Les<pb facs="#facs_227" n="224" source="lesouvriersdesde01sociuoft_0230.xml"/>jours de ces demi-fêtes les paysans entendent la messe de grand matin ; et s'il y a ces jours-là, ou pendant d'autres jours ouvra¬bles, des processions, des neuvaines, ou d'autres cérémonies reli¬gieuses, on les célèbre ordinairement à cette même heure, ou le soir après le coucher du soleil, pour ne pas troubler les travaux. Les paysans y assistent assidûment dans leur costume de travail. Plusieurs de ces cérémonies ont pour but de demander de bonnes récoltes ; telles sont spécialement les processions qui se font le 4 mars, le 21 août le jour des rogations, les trois jours qui pré¬cèdent la fête de l'Ascension. Pendant les deux senmaines qui pré¬cèdent la Pâque de résurrection, les curés font le tour de toutes les maisons de la paroisse et en bénissent toutes les pièces, en rece¬vant quelque offrande en nature et laissant à chaque individu un petit billet qui est présenté à la paroisse au moment de la commu¬nion pascale. C'est un moyen de s'assurer de ceux qui n'observent pas ce précepte (qui à la campagne sont extrêmement rares) et de faire le recencement annuel de la population confié aux curés, qui sont officiers de l'état civil. La bénédiction des maisons offre l'oc¬casion de les faire réparer et nettoyer de fond en comble, ce à quoi les ménagères mettent beaucoup d'empressement ; et certains cu¬rés en profitent aussi pour voir si les pièces sont assez grandes, si les sexes sont assez séparés pour respecter la décence. Si la maison est insuffisante, ou présente quelque danger pour les mœurs ou pour la santé, ils font des remontrances aux propriétaires et provo¬quent, en cas de besoin, l'intervention de l'autorité <ref target="#" type="renvoi_ext_oe">[les ˉOuv. europ. XIX (C)]</ref>.</p>
+       <p xml:id="para_10_224_49">Le soir, après le souper, les familles des paysans ont l'habitude de se réunir pour dire le rosaire. La famille ici décrite est très¬religieuse, mais elle n'est pas des plus passionnées pour les céré¬monies de l'église ; aucun de ses membres n'est habituellement employé à la sacristie, ainsi que cela arrive dans quelques autres familles. Le père et les fils Émile et Joachim font parie de la confrérie ou fabrique de la paroisse (<ref target="#ID-003a" type="renvoi_int_od2m">N° 3 § 3</ref>) et ils prêtent leur service suivant les statuts et usages; ils paient la taxe annuelle de 1ᶠ 12 chacun et portent les malades et les morts quand ils sont appelés par la cloche de la confrérie dite de la Miséricorde. Les dimes ne sont obligatoires en Toscane que pour les paroisses qui n'atteignent pas, avec leurs biens ou droits, le revenu normal (con¬grua) de 470ᶠ40 par an. La paroisse de la famille a un revenu beau¬coup plus considérable ; toutefois, on donne volontairement des dimes au curé, ainsi que le font généralement les paysans lorsqu'ils sont en bonnes relations avec le prêtre.</p>
+       <p xml:id="para_10_224_50">Le père et la mère sont honnêtes et laborieux, et n'ont aucune<pb facs="#facs_228" n="225" source="lesouvriersdesde01sociuoft_0231.xml"/>passion pour le luxe des vêtements ; ils s'occupent uniquement du bien-être de la famille et de l'agriculture.</p>
+       <p xml:id="para_10_225_52">Un des fils, Gaétan, très-capable, mais peu porté au travail, chôme quelquefois et perd du temps à se promener dans le pays. L'habitude de se promener, de s'arrêter pour causer avec d'autres jeunes gens, surtout d'aller à toute occasion à la ville et d'y rester plus longtemps qu'il ne serait nécessaire, fait perdre beaucoup de temps aux paysans, notamment à ceux qui habitent les environs des villes ; cette remarque peut s'appliquer aux jeunes gens de cette famille. Ceux-ci ont, en outre, l'habitude de s'amuser avec leurs compagnons, et généralement le goût du jeu est assez répandu dans les campagnes, surtout aux environs de Florence. Les jeunes gens de cette famille ne jouent pas beaucoup, et ne mettent jamais de gros enjeux ; ils aiment assez la toilette, comme la plupartdes jeunes paysans. Les femmes y tiennent aussi beaucoup, surtout les jeunes mariées. Les femmes mariées sont généralement honnêtes et font d'excellentes mères de famille. Les jeunes filles sont presque toutes liées avec quelque jeune homme (ˉDamo) qui leur fait la cour (ce qui s'appelle discorrere con una ragaaaa ou andare a ˉama) avec l'intention de se marier ; elles en changent souvent, soit par incom¬patibilité d'humeur, soit par légèreté d'esprit ; surtout par suite d'obstacles apportés au mariage par les parents. Ces mœurs les exposent à commettre des fautes, qui ne sont toutefois pas aussi fréquentes qu'il y aurait lieu de le supposer d'après la liberté des rapports entre jeunes gens. La jeune fille de cette famille n'est pas asse jolie pour être ainsi recherchée, et elle gardera probablement sa liberté. Les fils Angiolo et Emile vont faire leur cour générale¬ment le dimanche soir, l'un à trois milles de distance, l'autre à un mille ; ils devront renoncer à celles qu'ils fréquentent, ou quit¬ter leur famille s'ils veulent épouser leurs dames. La femme du fils aîné est très-honnête et n'est pas très-recherchée dans ses vêtements.</p>
+       <p xml:id="para_10_225_53">Les rapports des paysans avec les propriétaires sont très-faciles et très-affectueux ; les paysans, qui sont rusés et un peu vifs dans les affaires, ne trompent le propriétaire que sur les petites récoltes et sur la vente des productions secondaires. La famille ici décrite est honnête et intelligente ; le père est très-loyal dans ses rapports avec le propriétaire. Très-opposés en général aux nouveautés, les paysans ne refusent pas d'imiter les pratiques qui, d'après l'ex¬périence des autres, leur paraissent donner de bons résultats. Le chef de cette famille, qui est assez éclairé en comparaison des autres paysans, s'est refusé toutefois, en pleurant, à une modifica¬tion très-importante dans la fabrication de l'huile. orcé par le pro<pb facs="#facs_229" n="226" source="lesouvriersdesde01sociuoft_0232.xml"/>priétaire d'en faire l'expérience, il a fini par devenir partisan de la nouvelle méthode.</p>
+       <p xml:id="para_10_226_56">Quelqu'un des fils sortira de la maison pour s'employer ailleurs, afin de diminuer le nombre des membres de la famille, trop consi¬dérable pour le Podere (<ref target="#part_03_01_17" type="renvoi_int_mono">A</ref>) qu'elle cultive. Le grand nombre d'indi¬vidus qui la composent et quelques habitudes de dépense chez les jeunes gens, que le père, d'un caractère bon et un peu faible, ne contrarie guère, ont empêché de faire beaucoup d'épargnes.</p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">
-        § 4. — HYGIÈNE ET SERVICE DE SANTÉ.
-       </head>
-       <p xml:id="para_10_226_58">
-        Les individus qui composent la famille jouisseint d'une bonne santé, à l'exception du fils Gaetan, que des douleurs articulaires empêchent souvent de dormir et de travailler. La famille n'a pas d'abonnement
-        <ref target="#part_03_01_21" type="renvoi_int_mono">
-         (E)
-        </ref>
-        avec le médecin, et, lorsque ses soins sont néces¬saires, on lui donne 0ᶠ84 pour chaque visite ; 16ᶠ pour une opération.
-       </p>
-       <p xml:id="para_10_226_59">
-        Le fils aîné, Séraphin, est mort à la suite de la fièvre miliaire (miliare), maladie très-funeste en Toscane
-        <ref target="#part_03_01_21" type="renvoi_int_mono">
-         (E)
-        </ref>
-        et qui, à certaines époques et surtout dans les campagnes, prend souvent le caractère d'une épidémie. Pour les accouchements, les sages-femmes reçoi¬vent ordinairement une indemnité de 3ᶠ. Quoique les membres de cette famille ne soient pas d'une vigueur exceptionnelle parmi les paysans des environs, ils ont rarement besoin d'avoir recours au médecin qui n'est appelé que lorsque la maladie prend des carac¬tères alarmants.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. — Hygiène et service de santé.</head>
+       <p xml:id="para_10_226_58">Les individus qui composent la famille jouisseint d'une bonne santé, à l'exception du fils Gaetan, que des douleurs articulaires empêchent souvent de dormir et de travailler. La famille n'a pas d'abonnement (<ref target="#part_03_01_21" type="renvoi_int_mono">E</ref>) avec le médecin, et, lorsque ses soins sont néces¬saires, on lui donne 0ᶠ84 pour chaque visite ; 16ᶠ pour une opération.</p>
+       <p xml:id="para_10_226_59">Le fils aîné, Séraphin, est mort à la suite de la fièvre miliaire (miliare), maladie très-funeste en Toscane (<ref target="#part_03_01_21" type="renvoi_int_mono">E</ref>) et qui, à certaines époques et surtout dans les campagnes, prend souvent le caractère d'une épidémie. Pour les accouchements, les sages-femmes reçoi¬vent ordinairement une indemnité de 3ᶠ. Quoique les membres de cette famille ne soient pas d'une vigueur exceptionnelle parmi les paysans des environs, ils ont rarement besoin d'avoir recours au médecin qui n'est appelé que lorsque la maladie prend des carac¬tères alarmants.</p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">
-        § 5. — RANG DE LA FAMILLE.
-       </head>
-       <p xml:id="para_10_226_61">
-        La famille fait assez de recettes pour balancer ses dépenses sans avoir recours, pour vivre et pour ses besoins, aux avances faites par le propriétaire
-        <ref target="#part_03_01_20" type="renvoi_int_mono">
-         (D)
-        </ref>
-        ; et, comme son chef, est habile et honnête, elle se trouve dans une position assez indépendante. Elle jouit de certains loisirs : ses membres peuvent, dans les moments les moins intéressants pour l'agriculture, exercer des industries pour leur compte, et ils ne sont appelés à travailler pour le propriétaire qu'en cas de nécessité, tandis que les paysans endettés sont appelés toutes les fois que leur présence n'est pas nécessaire dans le Podereˉ, afin de leur faire acquitter leur dette par le travail
-        <ref target="#part_03_01_20" type="renvoi_int_mono">
-         (D)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_226_62">
-        Du reste, les lois du pays ne donnant aucune attribution spéciale aux métayers, la condition de la famille n'offre rien qui mérite d'être signalé. On peut seulement remarquer que cette famille trouve, sur le domaine qu'elle cultive depuis nombre de générations, une situa
-        <pb facs="#facs_230" n="227" source="lesouvriersdesde01sociuoft_0233.xml"/>
-        tion indépendante, et qu'elle n'est jamais obligée de chercher des ressources dans un travail salarié. En raison de son application au travail et de ses autres qualités morales, elle doit être citée comme un des types les plus estimables de l'antique race des paysans ita¬liens
-        <ref target="#ID-003a" type="renvoi_int_od2m">
-         [n° 3 (A)]
-        </ref>
-        .
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. — Rang de la famille.</head>
+       <p xml:id="para_10_226_61">La famille fait assez de recettes pour balancer ses dépenses sans avoir recours, pour vivre et pour ses besoins, aux avances faites par le propriétaire (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>) ; et, comme son chef, est habile et honnête, elle se trouve dans une position assez indépendante. Elle jouit de certains loisirs : ses membres peuvent, dans les moments les moins intéressants pour l'agriculture, exercer des industries pour leur compte, et ils ne sont appelés à travailler pour le propriétaire qu'en cas de nécessité, tandis que les paysans endettés sont appelés toutes les fois que leur présence n'est pas nécessaire dans le Podereˉ, afin de leur faire acquitter leur dette par le travail (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>).</p>
+       <p xml:id="para_10_226_62">Du reste, les lois du pays ne donnant aucune attribution spéciale aux métayers, la condition de la famille n'offre rien qui mérite d'être signalé. On peut seulement remarquer que cette famille trouve, sur le domaine qu'elle cultive depuis nombre de générations, une situa<pb facs="#facs_230" n="227" source="lesouvriersdesde01sociuoft_0233.xml"/>tion indépendante, et qu'elle n'est jamais obligée de chercher des ressources dans un travail salarié. En raison de son application au travail et de ses autres qualités morales, elle doit être citée comme un des types les plus estimables de l'antique race des paysans ita¬liens <ref target="#ID-003a" type="renvoi_int_od2m">[n° 3 (A)]</ref>.</p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">
-       II. Moyens d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_02">II. Moyens d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">
-        § 6. — PROPRIÉTÉS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. — Propriétés.</head>
        <div subtype="proprietes_texte_1" type="proprietes">
-        <p xml:id="para_10_227_67">
-         (Mobilier et vêtements non compris.)
-        </p>
+        <p xml:id="para_10_227_67">(Mobilier et vêtements non compris.)</p>
        </div>
        <div subtype="immeubles" type="proprietes">
-        <p xml:id="para_10_227_68">
-         IMMEUBLES............ 0ᶠ 00
-        </p>
-        <p xml:id="para_10_227_69">
-         (La famille dont il est ici question ne possède point d'immeubles).
-        </p>
+        <p xml:id="para_10_227_68">IMMEUBLES............ 0ᶠ 00</p>
+        <p xml:id="para_10_227_69">(La famille dont il est ici question ne possède point d'immeubles).</p>
        </div>
        <div subtype="argent" type="proprietes">
-        <p xml:id="para_10_227_71">
-         ARGENT............ 184 80
-        </p>
-        <p xml:id="para_10_227_72">
-         Le chef de famille ne garde habituellement qu'une somme qui n'excède pas 20ᶠ 00; le reste de l'argent aquis à la famille reste entre les mains du propriétaire jusqu'à ce que la famille en ait besoin. — Créance contre le propriétaire en compte courant
-         <ref target="#part_03_01_20" type="renvoi_int_mono">
-          (D)
-         </ref>
-         184ᶠ 80.
-        </p>
+        <p xml:id="para_10_227_71">ARGENT............ 184 80</p>
+        <p xml:id="para_10_227_72">Le chef de famille ne garde habituellement qu'une somme qui n'excède pas 20ᶠ 00; le reste de l'argent aquis à la famille reste entre les mains du propriétaire jusqu'à ce que la famille en ait besoin. — Créance contre le propriétaire en compte courant (<ref target="#part_03_01_20" type="renvoi_int_mono">D</ref>) 184ᶠ 80.</p>
        </div>
        <div subtype="animaux" type="proprietes">
-        <p xml:id="para_10_227_73">
-         ANIMAUx DOMESTIQUES entretenus toute l'année............ 703 50
-        </p>
-        <p xml:id="para_10_227_74">
-         19 Bêtes à cornes. —  bœufs de travail, 549ᶠ 80 ; — 1 vache, 276t 40; — 1 jeune veau, ppoduit de la vache, 76ᶠ 40 ; — 1 veau plus âgé, acheté, 82ᶠ 40. — Total, 985ᶠ 00.
-        </p>
-        <p xml:id="para_10_227_75">
-         2° Animaux divers. — 1 cheval, 314ᶠ 20.
-        </p>
-        <p xml:id="para_10_227_76">
-         3° Basse-cour. — 40 poules et 30 poulets, 53ᶠ 90.
-        </p>
-        <p xml:id="para_10_227_77">
-         La moitié seulement de la valeur des bêtes à cornes et du cheval doit être considérée comme appartenant au paysan, car le capital nécessaire pour acheter ces animaux est avancé par le propriétaire qui se crédite de la moitié contre le paysan ; soit donc à i¬scrire parmi les propriétés de la famille, sur la valeur de ces animaux, 649ᶠ 60.
-        </p>
+        <p xml:id="para_10_227_73">ANIMAUx DOMESTIQUES entretenus toute l'année............ 703 50</p>
+        <p xml:id="para_10_227_74">19 Bêtes à cornes. —  bœufs de travail, 549ᶠ 80 ; — 1 vache, 276t 40; — 1 jeune veau, ppoduit de la vache, 76ᶠ 40 ; — 1 veau plus âgé, acheté, 82ᶠ 40. — Total, 985ᶠ 00.</p>
+        <p xml:id="para_10_227_75">2° Animaux divers. — 1 cheval, 314ᶠ 20.</p>
+        <p xml:id="para_10_227_76">3° Basse-cour. — 40 poules et 30 poulets, 53ᶠ 90.</p>
+        <p xml:id="para_10_227_77">La moitié seulement de la valeur des bêtes à cornes et du cheval doit être considérée comme appartenant au paysan, car le capital nécessaire pour acheter ces animaux est avancé par le propriétaire qui se crédite de la moitié contre le paysan ; soit donc à i¬scrire parmi les propriétés de la famille, sur la valeur de ces animaux, 649ᶠ 60.</p>
        </div>
        <div subtype="materiel" type="proprietes">
-        <p xml:id="para_10_227_78">
-         MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 742 52
-        </p>
-        <p xml:id="para_10_227_79">
-         1° Exploitation agricole
-         <ref target="#part_02_01_01" type="renvoi_int_mono">
-          (§ 1)
-         </ref>
-         . — 3 charrues, 12ᶠ 60 ; — 8 bêches,  houes, 3 pelles, 2 cognées, 3 socs de charrue, 100ᶠ 00 ; — 1 herse, 2ᶠ 80; — 10 faucilles pour le blé,  faux pour couper le foin, 12ᶠ 60 ; — 6 serpes (roncola) pour tailler les oliviers, 8ᶠ48 ; — 1 ci¬seau pour le même objet, 1ᶠ 68 ; — 1 serpe longue pour tailler les haies, 2ᶠ 52 ; — Nattes pour faire sécher le raisin, 5ᶠ 60 ; — 8 tonneaux pour le vin, 8ᶠ 48 ; — 10 pots à huile en terre cuite, 50ᶠ 40 ; — 3 barils, 6ᶠ12; — 12 baquets, 16ᶠ 88 ; — 1 croissaut (falcione) pour couper les herbes et les fourrages, 12ᶠ 60 ; — fourches en fer, civière à bras pour le fumier, corbillons, caisses, etc., 10ᶠ16. — Total, 250ᶠ 92.
-        </p>
-        <p xml:id="para_10_227_82">
-         2° Exploitation des bêtes à cornes et du cheval. — 1 char à bœufs et 1 charrette pour le cheval, 36ᶠ 68 ; — Chevilles en fer et cordages pour le char à beufs, 31ᶠ 00 ; — Joug pour les beufs, 6ᶠ 72; — Harnais pour le cheval, 22ᶠ40. — Total, 366ᶠ80.
-        </p>
-        <p xml:id="para_10_228_84">
-         <pb facs="#facs_231" n="228" source="lesouvriersdesde01sociuoft_0234.xml"/>
-         3° Industrie du menuisier
-         <ref target="#part_02_03_09" type="renvoi_int_mono">
-          (§ 9)
-         </ref>
-         . — 1 rabot, 1 lime, 1 hache, 1 petit rabot, 1 scie, 4 ciseaux de menuisier, 1 percoir, 2 fers à rabot, 21ᶠ 00.
-        </p>
-        <p xml:id="para_10_228_85">
-         4° Industrie du maçon
-         <ref target="#part_02_03_09" type="renvoi_int_mono">
-          (§ 9)
-         </ref>
-         . — 1 marteau, 1 truelle, 1 fil à plomb, 1 auge en bois, 1 pinceau, 1 équerre, 6ᶠ 00.
-        </p>
-        <p xml:id="para_10_228_86">
-         5° Industrie du barbier
-         <ref target="#part_02_03_09" type="renvoi_int_mono">
-          (§ 9)
-         </ref>
-         . — 5 rasoirs, 2 paires de ciseaux, 2 peignes, 1 petit bas¬sin, 11ᶠ 00.
-        </p>
-        <p xml:id="para_10_228_87">
-         6° Blanchissage du linge et des vêtements. — 1 vase pour laver, 8ᶠ 40 ; — 1 chau¬dière, 33ᶠ 60. — Total, 42ᶠ 00.
-        </p>
-        <p xml:id="para_10_228_88">
-         7° Tissage des étoffes. — 1 métier et quelques menus outils, 44ᶠ80.
-        </p>
+        <p xml:id="para_10_227_78">MATÉRIEL SPÉCIAL DES Travaux et industries............ 742 52</p>
+        <p xml:id="para_10_227_79">1° Exploitation agricole (<ref target="#part_02_01_01" type="renvoi_int_mono">§ 1</ref>). — 3 charrues, 12ᶠ 60 ; — 8 bêches,  houes, 3 pelles, 2 cognées, 3 socs de charrue, 100ᶠ 00 ; — 1 herse, 2ᶠ 80; — 10 faucilles pour le blé,  faux pour couper le foin, 12ᶠ 60 ; — 6 serpes (roncola) pour tailler les oliviers, 8ᶠ48 ; — 1 ci¬seau pour le même objet, 1ᶠ 68 ; — 1 serpe longue pour tailler les haies, 2ᶠ 52 ; — Nattes pour faire sécher le raisin, 5ᶠ 60 ; — 8 tonneaux pour le vin, 8ᶠ 48 ; — 10 pots à huile en terre cuite, 50ᶠ 40 ; — 3 barils, 6ᶠ12; — 12 baquets, 16ᶠ 88 ; — 1 croissaut (falcione) pour couper les herbes et les fourrages, 12ᶠ 60 ; — fourches en fer, civière à bras pour le fumier, corbillons, caisses, etc., 10ᶠ16. — Total, 250ᶠ 92.</p>
+        <p xml:id="para_10_227_82">2° Exploitation des bêtes à cornes et du cheval. — 1 char à bœufs et 1 charrette pour le cheval, 36ᶠ 68 ; — Chevilles en fer et cordages pour le char à beufs, 31ᶠ 00 ; — Joug pour les beufs, 6ᶠ 72; — Harnais pour le cheval, 22ᶠ40. — Total, 366ᶠ80.</p>
+        <p xml:id="para_10_228_84"><pb facs="#facs_231" n="228" source="lesouvriersdesde01sociuoft_0234.xml"/> 3° Industrie du menuisier (<ref target="#part_02_03_09" type="renvoi_int_mono">§ 9</ref>). — 1 rabot, 1 lime, 1 hache, 1 petit rabot, 1 scie, 4 ciseaux de menuisier, 1 percoir, 2 fers à rabot, 21ᶠ 00.</p>
+        <p xml:id="para_10_228_85">4° Industrie du maçon (<ref target="#part_02_03_09" type="renvoi_int_mono">§ 9</ref>). — 1 marteau, 1 truelle, 1 fil à plomb, 1 auge en bois, 1 pinceau, 1 équerre, 6ᶠ 00.</p>
+        <p xml:id="para_10_228_86">5° Industrie du barbier (<ref target="#part_02_03_09" type="renvoi_int_mono">§ 9</ref>). — 5 rasoirs, 2 paires de ciseaux, 2 peignes, 1 petit bas¬sin, 11ᶠ 00.</p>
+        <p xml:id="para_10_228_87">6° Blanchissage du linge et des vêtements. — 1 vase pour laver, 8ᶠ 40 ; — 1 chau¬dière, 33ᶠ 60. — Total, 42ᶠ 00.</p>
+        <p xml:id="para_10_228_88">7° Tissage des étoffes. — 1 métier et quelques menus outils, 44ᶠ80.</p>
        </div>
        <div subtype="proprietes_total" type="proprietes">
-        <p xml:id="para_10_228_89">
-         VALEUR TOTALE des propriétés 1,630ᶠ 82
-        </p>
+        <p xml:id="para_10_228_89">VALEUR TOTALE des propriétés 1,630ᶠ 82</p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">
-        § 7. — SUBVENTIONS.
-       </head>
-       <p xml:id="para_10_228_92">
-        Il n'y a généralement, en Toscane, ni biens communaux, ni droits d'usage appartenant en commun aux habitants. Dans la localité étudiée, cette règle ne souffre pas d'exception, et la famille décrite ici ne jouit d'aucune subvention proprement dite. Dans certains cas de malheurs de famille, d'insuffisance de récoltes, etc., le paysan obtient du propriétaire des avances qui sont portées comme dettes au compte courant, et qu'il rembourse au moyen des récoltes sui¬vantes, si elles sont plus abondantes et supérieures aux besoins de la famille pour l'année. Si cela n'arrive pas, le remboursement ne se fait pas, et les avances, perdues pour le propriétaire, deviennent de véritables subventions pour le paysan. La famille décrite ici se suffit ordinairement à elle-même et ne recoit pas habituellement de secours de ce genre ; elle est elle-même créancière du propriétaire en compte courant
-        <ref target="#part_02_02_06" type="renvoi_int_mono">
-         (§ 6)
-        </ref>
-        , et comme elle n'a notamment point reçu d'avances pendant l'année pour laquelle a été fait le budget, on ne peut rien compter à titre de subvention. Ces ressources ne lui ont pas manqué, et ne lui manqueraient pas au besoin, en cas de maladie, de funérailles, de mariages, et surtout lorsqu'il y a quel¬que remplacement militaire. Les sommes sur lesquelles le paysan pourrait compter dépasseraient même, dans une certaine mesure, la créance qu'il peut réclamer du propriétaire.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. — Subventions.</head>
+       <p xml:id="para_10_228_92">Il n'y a généralement, en Toscane, ni biens communaux, ni droits d'usage appartenant en commun aux habitants. Dans la localité étudiée, cette règle ne souffre pas d'exception, et la famille décrite ici ne jouit d'aucune subvention proprement dite. Dans certains cas de malheurs de famille, d'insuffisance de récoltes, etc., le paysan obtient du propriétaire des avances qui sont portées comme dettes au compte courant, et qu'il rembourse au moyen des récoltes sui¬vantes, si elles sont plus abondantes et supérieures aux besoins de la famille pour l'année. Si cela n'arrive pas, le remboursement ne se fait pas, et les avances, perdues pour le propriétaire, deviennent de véritables subventions pour le paysan. La famille décrite ici se suffit ordinairement à elle-même et ne recoit pas habituellement de secours de ce genre ; elle est elle-même créancière du propriétaire en compte courant (<ref target="#part_02_02_06" type="renvoi_int_mono">§ 6</ref>), et comme elle n'a notamment point reçu d'avances pendant l'année pour laquelle a été fait le budget, on ne peut rien compter à titre de subvention. Ces ressources ne lui ont pas manqué, et ne lui manqueraient pas au besoin, en cas de maladie, de funérailles, de mariages, et surtout lorsqu'il y a quel¬que remplacement militaire. Les sommes sur lesquelles le paysan pourrait compter dépasseraient même, dans une certaine mesure, la créance qu'il peut réclamer du propriétaire.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">
-        § 8. — TRAVAUX ET INDUSTRIES.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. — Travaux et industries.</head>
        <div subtype="travaux_texte_1" type="travaux">
-        <p xml:id="para_10_228_94">
-         La famille jouit d'un petit jardin potager cultivé exclusivement pour son compte, sauf quelques cadeaux de primeurs, légumes, salades, etc., que l'on fait ordinairement au propriétaite pendant son séjour à la campagne. Dans le Podereˉ il y a 700 oliviers âgés
-         <pb facs="#facs_232" n="229" source="lesouvriersdesde01sociuoft_0235.xml"/>
-         de plus de cinquante ans ; de moins de 50 ans, 500 ; pieds de vignes, environ 5,000; arbres fruitiers, cerisiers, poiriers, etc., 100.
-        </p>
-        <p xml:id="para_10_229_96">
-         Les différents champs du ˉPodere sont annuellement occupés (sauf quelques changements partiels selon les saisons et le prix courant des produits) par les cultures suivantes. La semence de blé est entièrement à la charge de la famille ; les autres sont fournies par le propriétaire.
-        </p>
+        <p xml:id="para_10_228_94">La famille jouit d'un petit jardin potager cultivé exclusivement pour son compte, sauf quelques cadeaux de primeurs, légumes, salades, etc., que l'on fait ordinairement au propriétaite pendant son séjour à la campagne. Dans le Podereˉ il y a 700 oliviers âgés<pb facs="#facs_232" n="229" source="lesouvriersdesde01sociuoft_0235.xml"/>de plus de cinquante ans ; de moins de 50 ans, 500 ; pieds de vignes, environ 5,000; arbres fruitiers, cerisiers, poiriers, etc., 100.</p>
+        <p xml:id="para_10_229_96">Les différents champs du ˉPodere sont annuellement occupés (sauf quelques changements partiels selon les saisons et le prix courant des produits) par les cultures suivantes. La semence de blé est entièrement à la charge de la famille ; les autres sont fournies par le propriétaire.</p>
         <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_2">
-          Typologie des semences et volume annuel de la recolte des champs du Podere familial (§ 8)
-         </head>
+         <head resp="added" type="table" xml:id="figure_2">Typologie des semences et volume annuel de la recolte des champs du Podere familial (§ 8)</head>
          <graphic facs="#facs_232" url="https://iiif.archivelab.org/iiif/lesouvriersdesde01sociuoft%24235/432,1008,1698,864/full/0/default.jpg" xml:id="tble_10_229_1"/>
         </figure>
-        <p xml:id="para_10_229_97">
-         La famille doit fournir la main-d'œuvre pour toutes les cultures, et pour les autres soins nécessaires à l'entretien du ˉPodereˉ ; les tra¬vaux non annuels, mais extraordinaires sont à la charge du pro¬priétaire (c). Il y a quelques mûriers qui sont entretenus pour le compte du propriétaire. Celui-ci prend la feuille pour ses vers à soie. Parfois l'élevage de ses vers est fait par le paysan, de moitié avec lui
-         <ref target="#" type="renvoi_ext_oe">
-          (les ˉOuvr. europˉ. XX § 8)
-         </ref>
-         .
-        </p>
+        <p xml:id="para_10_229_97">La famille doit fournir la main-d'œuvre pour toutes les cultures, et pour les autres soins nécessaires à l'entretien du ˉPodereˉ ; les tra¬vaux non annuels, mais extraordinaires sont à la charge du pro¬priétaire (c). Il y a quelques mûriers qui sont entretenus pour le compte du propriétaire. Celui-ci prend la feuille pour ses vers à soie. Parfois l'élevage de ses vers est fait par le paysan, de moitié avec lui (<ref target="#" type="renvoi_ext_oe">les ˉOuvr. europˉ. XX § 8</ref>).</p>
        </div>
        <div subtype="chef_famille" type="travaux">
-        <p xml:id="para_10_229_98">
-         TRAVAUX DU CHEEF DE FAMILLE. — Le père de famille dirige l'ex¬ploitation et se réserve les travaux les plus importants, tels que la taille des oliviers et de la vigne, les différentes opérations qu'exige cette dernière culture, etc. Il s'unit aux autres membres de la famille dans les différents travaux agricoles et, par une inclination qui lui est propre, il prend un soin tout spécial de son jardin pota¬ger et de quelques fleurs que l'on trouve presque toujours près des maisons de paysans, dans les environs de Florence.
-        </p>
+        <p xml:id="para_10_229_98">TRAVAUX DU CHEEF DE FAMILLE. — Le père de famille dirige l'ex¬ploitation et se réserve les travaux les plus importants, tels que la taille des oliviers et de la vigne, les différentes opérations qu'exige cette dernière culture, etc. Il s'unit aux autres membres de la famille dans les différents travaux agricoles et, par une inclination qui lui est propre, il prend un soin tout spécial de son jardin pota¬ger et de quelques fleurs que l'on trouve presque toujours près des maisons de paysans, dans les environs de Florence.</p>
        </div>
        <div subtype="fils_aine" type="travaux">
-        <p xml:id="para_10_229_99">
-         TRAVAUX DU FILS AINÉ. — Le fils aîné conduit ordinairement les bœufs, surtout dans le labourage des terres ; il mène souvent le cheval et s'occupe habituellement de l'achat et de la vente des bes¬tiaux et des différents produits.
-        </p>
+        <p xml:id="para_10_229_99">TRAVAUX DU FILS AINÉ. — Le fils aîné conduit ordinairement les bœufs, surtout dans le labourage des terres ; il mène souvent le cheval et s'occupe habituellement de l'achat et de la vente des bes¬tiaux et des différents produits.</p>
        </div>
        <div subtype="enfants" type="travaux">
-        <p xml:id="para_10_229_100">
-         TRAVAUX DES AUTRES FILS ET DES ENFANTS. — Les autres fils aident le père et l'aîné dans les divers travaux. Les enfants aident aussi les autres personnes, surtout dans les travaux les moins fatigants,
-         <pb facs="#facs_233" n="230" source="lesouvriersdesde01sociuoft_0236.xml"/>
-         et ils s'occupent particulièrement de la récolte des olives, même avant qu'elle commence normalement ; ils recueillent, depuis la fin de septembre, les olives à demi mûres que les vents font tomber.
-        </p>
+        <p xml:id="para_10_229_100">TRAVAUX DES AUTRES FILS ET DES ENFANTS. — Les autres fils aident le père et l'aîné dans les divers travaux. Les enfants aident aussi les autres personnes, surtout dans les travaux les moins fatigants,<pb facs="#facs_233" n="230" source="lesouvriersdesde01sociuoft_0236.xml"/>et ils s'occupent particulièrement de la récolte des olives, même avant qu'elle commence normalement ; ils recueillent, depuis la fin de septembre, les olives à demi mûres que les vents font tomber.</p>
        </div>
        <div subtype="femmes" type="travaux">
-        <p xml:id="para_10_230_102">
-         TRAVAUX DES FEMMES. — Les femmes travaillent aussi beaucoup dans les champs, même aux ouvrages les plus fatigants, tels que le travail à la bêche, la moisson, etc. Leurs occupations journalières, pendant la saison où elles en ont, consistent à chercher les herbes dans les champs, au milieu du blé et des autres plantes, à couper les foins et les autres fourrages pour les bestiaux. Elles s'occupent du ménage, du blanchissage, du raccommodage du linge et des vê¬tements, etc., parfois elles tissent la toile ou la soie, elles filent et elles tressent de la paille pour les chapeaux dits de paille d'Italie. Comparativement, les femmes sont plus laborieuses que les hommes.
-        </p>
+        <p xml:id="para_10_230_102">TRAVAUX DES FEMMES. — Les femmes travaillent aussi beaucoup dans les champs, même aux ouvrages les plus fatigants, tels que le travail à la bêche, la moisson, etc. Leurs occupations journalières, pendant la saison où elles en ont, consistent à chercher les herbes dans les champs, au milieu du blé et des autres plantes, à couper les foins et les autres fourrages pour les bestiaux. Elles s'occupent du ménage, du blanchissage, du raccommodage du linge et des vê¬tements, etc., parfois elles tissent la toile ou la soie, elles filent et elles tressent de la paille pour les chapeaux dits de paille d'Italie. Comparativement, les femmes sont plus laborieuses que les hommes.</p>
        </div>
        <div subtype="travaux_texte_2" type="travaux">
-        <p xml:id="para_10_230_103">
-         Le tableau ci-dessous fera connaître d'une manière exacte l'em¬ploi du temps de chacun des membres de la famille.
-        </p>
+        <p xml:id="para_10_230_103">Le tableau ci-dessous fera connaître d'une manière exacte l'em¬ploi du temps de chacun des membres de la famille.</p>
         <figure rend="portrait" type="table">
-         <head resp="added" type="table" xml:id="figure_3">
-          Emploi du temps de chacun des membres de la famille (§ 8)
-         </head>
+         <head resp="added" type="table" xml:id="figure_3">Emploi du temps de chacun des membres de la famille (§ 8)</head>
          <graphic facs="#facs_233" url="https://iiif.archivelab.org/iiif/lesouvriersdesde01sociuoft%24236/376,1888,2140,2120/full/0/default.jpg" xml:id="tble_10_230_2"/>
         </figure>
         <figure rend="portrait" type="table">
          <!-- figure sur 2 pages -->
-         <head resp="added" type="table" xml:id="figure_4">
-          <pb facs="#facs_234" n="231" source="lesouvriersdesde01sociuoft_0237.xml"/>
-          Exploitation agricole Nombre des journées (suite, § 8)
-         </head>
+         <head resp="added" type="table" xml:id="figure_4"><pb facs="#facs_234" n="231" source="lesouvriersdesde01sociuoft_0237.xml"/>Exploitation agricole Nombre des journées (suite, § 8)</head>
          <graphic facs="#facs_234" url="https://iiif.archivelab.org/iiif/lesouvriersdesde01sociuoft%24237/143,392,2164,2816/full/0/default.jpg" xml:id="tble_10_231_3"/>
         </figure>
-        <p xml:id="para_10_231_106">
-         L'évaluation des salaires a été faite, dans le budjet des recettes, d'après le taux habituel des salaires dans le pays. Il n'y a point de différence suivant les saisons, et les ouvriers travaillent toujours depuis le lever jusqu'au coucher du soleil ; pendant l'hiver ils ont une demi-heure de repos le matin et une heure et demie dans l'après-midi; et pendant l'été ils ont une heure le matin et deux heures dans l'après-midi. Le salaire des paysans devrait être un peu moindre que celui des autres journaliers, et il résulterait des revenus qu'ils perçoivent divisés par le nombre de leurs journées
-         <pb facs="#facs_235" n="232" source="lesouvriersdesde01sociuoft_0238.xml"/>
-         de travail ; mais il y a une foule d'avantages dans la condition du paysan habitant au milieu des terres et ayant à sa disposition un grand nombre de produits qui augmentent effectivement son salaire sans qu'il soit possible de l'apprécier exactement.
-        </p>
+        <p xml:id="para_10_231_106">L'évaluation des salaires a été faite, dans le budjet des recettes, d'après le taux habituel des salaires dans le pays. Il n'y a point de différence suivant les saisons, et les ouvriers travaillent toujours depuis le lever jusqu'au coucher du soleil ; pendant l'hiver ils ont une demi-heure de repos le matin et une heure et demie dans l'après-midi; et pendant l'été ils ont une heure le matin et deux heures dans l'après-midi. Le salaire des paysans devrait être un peu moindre que celui des autres journaliers, et il résulterait des revenus qu'ils perçoivent divisés par le nombre de leurs journées<pb facs="#facs_235" n="232" source="lesouvriersdesde01sociuoft_0238.xml"/>de travail ; mais il y a une foule d'avantages dans la condition du paysan habitant au milieu des terres et ayant à sa disposition un grand nombre de produits qui augmentent effectivement son salaire sans qu'il soit possible de l'apprécier exactement.</p>
        </div>
        <div subtype="famille" type="industries">
-        <p xml:id="para_10_232_108">
-         INDUSTRIES ENTREPRISES PAR LA FAMILLE. — Outre les branches de l'exploitation agricole dont il a été parlé ci-dessus, les membres de la famille exercent d'autres industries : l'un des fils, Angiolo, travaille comme maçon ; Pascal, comme charpentier, et il a même appris l'état de tailleur ; Emile exerce l'industrie de barbier le samedi soir et le dimanche matin ; Gaétano s'occupe de la chasse lorsqu'elle est permise. Tous les achats étant faits en gros par le propriétaire qui fournit les semences, fumiers, etc., au paysan, et celui-ci demandant l'argent au propriétaire toutes les fois que la vente des produits ne suffit pas, il n'y a pas de fonds de roulement véritable ni constant.
-        </p>
+        <p xml:id="para_10_232_108">INDUSTRIES ENTREPRISES PAR LA FAMILLE. — Outre les branches de l'exploitation agricole dont il a été parlé ci-dessus, les membres de la famille exercent d'autres industries : l'un des fils, Angiolo, travaille comme maçon ; Pascal, comme charpentier, et il a même appris l'état de tailleur ; Emile exerce l'industrie de barbier le samedi soir et le dimanche matin ; Gaétano s'occupe de la chasse lorsqu'elle est permise. Tous les achats étant faits en gros par le propriétaire qui fournit les semences, fumiers, etc., au paysan, et celui-ci demandant l'argent au propriétaire toutes les fois que la vente des produits ne suffit pas, il n'y a pas de fonds de roulement véritable ni constant.</p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">
-       III. Mode d'existence de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_03">III. Mode d'existence de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">
-        § 9. — ALIMENTS ET REPAS.
-       </head>
-       <p xml:id="para_10_232_112">
-        La base de la nourriture de cette famille, ainsi que des paysans de la contrée, est le pain de froment de bonne qualité, qui a une con¬leur grisâtre à cause du son qu'on laisse dans la farine. On y mange souvent des soupes de pain cuites à l'eau avec sel, huile et hari¬cots, pois chiches, choux, raves, artichauts, lentilles, fèves ou petits pois. On y sert aussi des soupes de pâtes, très-communes en Italie, et qui sont fabriquées avec la farine ; l'usage du ri est très¬restreint dans cette famille. Les mêmes légumes, ainsi que les pommes de terre et les salades, sont aussi consommés à l'huile et au vinaigre aussi bien que cuits et assaisonnés avec des épices. La viande de bœuf, ordinairement au naturel, figure sur la table tous es dimanches et jours de fête ; quand il y a des agneaux et des porcs, on mange de préférence ces viandes grillées, ou cuites dans des vases en terre (eagami), assaisonnées avec beaucoup d'épices et des légumes. En été, dans la saison des fruits, on en mange beau¬coup (notamment les enfants), car ils abondent dans le ˉPodereˉ ; les fruits d'hiver ne sont pas aussi goûtés, et on préfère alors les noix, amandes, noisettes et surtout les figues séchées. En cela les goûts des paysans de la contrée sont partagés de tous points par les indi¬vidus de la famille ici décrite.
-       </p>
-       <p xml:id="para_10_233_113">
-        <pb facs="#facs_236" n="233" source="lesouvriersdesde01sociuoft_0239.xml"/>
-        Repas ordinaires faits en commun pendant le printemps et ˉl'ee. — A midi, soupe, suivant la saison, ainsi qu'il a été dit ci-dessus ; le soir, une heure ou deux après le coucher du soleil, salade ou pain trempé dans l'eau, assaisonné avec du sel, de l'huile et du vinaigre. Pendant les récoltes et les travaux fatigants, outre la soupe, on mange, à midi ou le soir, cuits ou en salade, les légumes frais, si abondants à cette époque ; enfin, toutes les fois que les hommes s'éloignent notablement du ˉPodere pour travailler, ils emportent un morceau de pain, et ils en mangent plusieurs fois par jour, quelquefois jusqu'à quatre fois en dehors des repas ; par¬fois au lieu de l'emporter avec eux, ou ils viennent le chercher, ou ils se le font porter dans les champs par les enfants. Pendant les derniers temps de l'automne et pendant l'hiver, on mange plus sou¬vent le soir un plat chaud, tel que haricots, pois chiches, lentilles sè¬ches, pommes de terre, raves, choux, morue salée ; quelquefois on se contente de pain mangé seul ou avec des noix, etc. Quand il y a des ouvriers du dehors ou d'autres paysans venus pour aider pendant les récoltes ou les grands travaux, on mange, à l'un des repas, de la viande et la soupe au bouillon, avec des pâtes achetées ou fabri¬quées à la maison par la massaga qui, comme cela se voit généra¬lement dans le pays, est très-habile pour cela. On boit alors aussi du petit vin et quelquefois, surtout pendant les grands travaux, du bon vin qu'on ménage exprès pour ces occasions. Autrefois on ne manquait jamais à cet usage qui était aussi celui des jours de fête ; maintenant on ménage le bon vin, depuis que le prix en est aug¬menté, par suite de la maladie de la vigne
-        <ref target="#" type="renvoi_ext_oe">
-         (les ˉOuvr. ˉeuropˉ. II § 11)
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_233_114">
-        Outre les dimanches et les jours de fête, quand les affaires sont prospères, la famille consomme quelquefois la viande le jeudi. Pendant les trois derniers jours du carnaval, les trois fêtes de Pa¬ques, de la Pentecôte et de Noêl, les jours de l'Assomption, de l'As¬cension, de la Fete-Dieu, outre la soupe au bouillon et le bœuf au naturel, on mange un autre plat de viande cuite dans son jus et on boit le meilleur vin de la cave.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. — Aliments et repas.</head>
+       <p xml:id="para_10_232_112">La base de la nourriture de cette famille, ainsi que des paysans de la contrée, est le pain de froment de bonne qualité, qui a une con¬leur grisâtre à cause du son qu'on laisse dans la farine. On y mange souvent des soupes de pain cuites à l'eau avec sel, huile et hari¬cots, pois chiches, choux, raves, artichauts, lentilles, fèves ou petits pois. On y sert aussi des soupes de pâtes, très-communes en Italie, et qui sont fabriquées avec la farine ; l'usage du ri est très¬restreint dans cette famille. Les mêmes légumes, ainsi que les pommes de terre et les salades, sont aussi consommés à l'huile et au vinaigre aussi bien que cuits et assaisonnés avec des épices. La viande de bœuf, ordinairement au naturel, figure sur la table tous es dimanches et jours de fête ; quand il y a des agneaux et des porcs, on mange de préférence ces viandes grillées, ou cuites dans des vases en terre (eagami), assaisonnées avec beaucoup d'épices et des légumes. En été, dans la saison des fruits, on en mange beau¬coup (notamment les enfants), car ils abondent dans le ˉPodereˉ ; les fruits d'hiver ne sont pas aussi goûtés, et on préfère alors les noix, amandes, noisettes et surtout les figues séchées. En cela les goûts des paysans de la contrée sont partagés de tous points par les indi¬vidus de la famille ici décrite.</p>
+       <p xml:id="para_10_233_113"><pb facs="#facs_236" n="233" source="lesouvriersdesde01sociuoft_0239.xml"/> Repas ordinaires faits en commun pendant le printemps et ˉl'ee. — A midi, soupe, suivant la saison, ainsi qu'il a été dit ci-dessus ; le soir, une heure ou deux après le coucher du soleil, salade ou pain trempé dans l'eau, assaisonné avec du sel, de l'huile et du vinaigre. Pendant les récoltes et les travaux fatigants, outre la soupe, on mange, à midi ou le soir, cuits ou en salade, les légumes frais, si abondants à cette époque ; enfin, toutes les fois que les hommes s'éloignent notablement du ˉPodere pour travailler, ils emportent un morceau de pain, et ils en mangent plusieurs fois par jour, quelquefois jusqu'à quatre fois en dehors des repas ; par¬fois au lieu de l'emporter avec eux, ou ils viennent le chercher, ou ils se le font porter dans les champs par les enfants. Pendant les derniers temps de l'automne et pendant l'hiver, on mange plus sou¬vent le soir un plat chaud, tel que haricots, pois chiches, lentilles sè¬ches, pommes de terre, raves, choux, morue salée ; quelquefois on se contente de pain mangé seul ou avec des noix, etc. Quand il y a des ouvriers du dehors ou d'autres paysans venus pour aider pendant les récoltes ou les grands travaux, on mange, à l'un des repas, de la viande et la soupe au bouillon, avec des pâtes achetées ou fabri¬quées à la maison par la massaga qui, comme cela se voit généra¬lement dans le pays, est très-habile pour cela. On boit alors aussi du petit vin et quelquefois, surtout pendant les grands travaux, du bon vin qu'on ménage exprès pour ces occasions. Autrefois on ne manquait jamais à cet usage qui était aussi celui des jours de fête ; maintenant on ménage le bon vin, depuis que le prix en est aug¬menté, par suite de la maladie de la vigne (<ref target="#" type="renvoi_ext_oe">les ˉOuvr. ˉeuropˉ. II § 11</ref>).</p>
+       <p xml:id="para_10_233_114">Outre les dimanches et les jours de fête, quand les affaires sont prospères, la famille consomme quelquefois la viande le jeudi. Pendant les trois derniers jours du carnaval, les trois fêtes de Pa¬ques, de la Pentecôte et de Noêl, les jours de l'Assomption, de l'As¬cension, de la Fete-Dieu, outre la soupe au bouillon et le bœuf au naturel, on mange un autre plat de viande cuite dans son jus et on boit le meilleur vin de la cave.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">
-        § 10. — HABITATION, MOBILIER ET VÊTEMENTS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. — Habitation, mobilier et vêtements.</head>
        <div subtype="par_10_texte_1" type="par_10">
-        <p xml:id="para_10_233_116">
-         La maison est construite en maçonnerie (briques et pierres cal¬caires) badigeonnée et blanchie ; le pavé des pièces au rez-de-chaus¬sée est en dalles de pierre (grès), celui des pièces du premier étage est en briques ; sur le devant de la maison il y a une place (aia) rectangulaire pavée en dalles de pierre, destinée surtout au dépôt provisoire des récoltes et au battage des céréales. Cette gia occupe un espace de 185 mètres carrés.
-        </p>
-        <p xml:id="para_10_234_117">
-         <pb facs="#facs_237" n="234" source="lesouvriersdesde01sociuoft_0240.xml"/>
-         La maison a une porte cochère donnant sur l'aiaˉ, par laquelle on entre dans une pièce rectangulaire. Celle-ci sert de dépôt pro¬visoire pour certaines récoltes, de remise pour le chariot,  et est employée aussi à l'exercice des petites industries, à la fabrication des instruments agricoles, etc. ; elle mesure en surface, 37P15 ; sur cette pièce en donne une autre où sont le four et les vases pour le blanchissage, surface 17P ; puis vient une pièce destinée au dépôt des fourrages et des récoltes, surface, 15P65 ; une étable pouvant contenir 1 cheval séparé des autres bêtes, 19P75, 2 bœufs, 2 20, et 4 veaux ou vaches, 29P60. Les bâtiments compren¬nent encore une grange provisoire de 14r-35; l'escalier (de 13 mar¬ches, divisé en deux branches) menant au premier étage, 4P975; épaisseur des murs, 44e55. — Surface totale du rez-de-chaussée, 207 mètres carrés.
-        </p>
-        <p xml:id="para_10_234_118">
-         Sur le palier de l'escalier donnent deux portes : par l'une on pénètre dans une chambre à coucher exposée au sud, 19P75 ; par l'autre on entre dans la cuisine, qui est en même temps salle à manger, salon de réunion de la famille, salle de travail pour les femmes et même pour certains petits travaux des hommes, le soir et pendant les journées pluvieuses. Cette pièce est ornée de quel¬ques tableaux et estampes représentant des saints. Devant l'image de la Sainte-Vierge, il y a une petite lampe qui est allumée tous les samedis. Cette pièce .est appelée casa (maison) ; elle mesure 36P10. On y remarque, outre deux fenêtres sur le devant et à l'est, trois portes par lesquelles on entre dans trois chambres à coucher : chambre à l'est, 17P00; chambre au nord, 15P65; seconde chambre au nord, 24P20. Sur les étables des veaux et sur la grange il n'y a que le toit. La hauteur du rez-de-chaussée est de 3ᵐ50 ; celle du premier étage est de 4ᵐ 65 au maximum, de 2P90 au minimum. Sous les deux pièces qui contiennent le four ou reçoivent les fourrages, il y a une cave pour le vin. L'escalier, les paliers et les passages occupent, au premier étage, une surface de 580.
-        </p>
-        <p xml:id="para_10_234_119">
-         A une faible distance (3 mètres) de la maison s'élève un petit bâtiment dans lequel se trouve, au rez-de-chaussée, le dépôt du fu¬mier, et au premier la grange aux fourrages, qui n'est pas ache¬vée ; la surface occupée par cette construction est de 34 mètres carrés.
-        </p>
-        <p xml:id="para_10_234_120">
-         Les pièces sont assez propres, surtout les chambres à coucher, dans lesquelles se trouvent ordinairement un lit immense (ayant environ 2 34 de longueur sur 1 30 de hauteur, 1ᵉ75 de largeur), ils sont garnis d'une paillasse en feuilles de mais et d'un matelas rempli de laine.
-        </p>
+        <p xml:id="para_10_233_116">La maison est construite en maçonnerie (briques et pierres cal¬caires) badigeonnée et blanchie ; le pavé des pièces au rez-de-chaus¬sée est en dalles de pierre (grès), celui des pièces du premier étage est en briques ; sur le devant de la maison il y a une place (aia) rectangulaire pavée en dalles de pierre, destinée surtout au dépôt provisoire des récoltes et au battage des céréales. Cette gia occupe un espace de 185 mètres carrés.</p>
+        <p xml:id="para_10_234_117"><pb facs="#facs_237" n="234" source="lesouvriersdesde01sociuoft_0240.xml"/> La maison a une porte cochère donnant sur l'aiaˉ, par laquelle on entre dans une pièce rectangulaire. Celle-ci sert de dépôt pro¬visoire pour certaines récoltes, de remise pour le chariot,  et est employée aussi à l'exercice des petites industries, à la fabrication des instruments agricoles, etc. ; elle mesure en surface, 37P15 ; sur cette pièce en donne une autre où sont le four et les vases pour le blanchissage, surface 17P ; puis vient une pièce destinée au dépôt des fourrages et des récoltes, surface, 15P65 ; une étable pouvant contenir 1 cheval séparé des autres bêtes, 19P75, 2 bœufs, 2 20, et 4 veaux ou vaches, 29P60. Les bâtiments compren¬nent encore une grange provisoire de 14r-35; l'escalier (de 13 mar¬ches, divisé en deux branches) menant au premier étage, 4P975; épaisseur des murs, 44e55. — Surface totale du rez-de-chaussée, 207 mètres carrés.</p>
+        <p xml:id="para_10_234_118">Sur le palier de l'escalier donnent deux portes : par l'une on pénètre dans une chambre à coucher exposée au sud, 19P75 ; par l'autre on entre dans la cuisine, qui est en même temps salle à manger, salon de réunion de la famille, salle de travail pour les femmes et même pour certains petits travaux des hommes, le soir et pendant les journées pluvieuses. Cette pièce est ornée de quel¬ques tableaux et estampes représentant des saints. Devant l'image de la Sainte-Vierge, il y a une petite lampe qui est allumée tous les samedis. Cette pièce .est appelée casa (maison) ; elle mesure 36P10. On y remarque, outre deux fenêtres sur le devant et à l'est, trois portes par lesquelles on entre dans trois chambres à coucher : chambre à l'est, 17P00; chambre au nord, 15P65; seconde chambre au nord, 24P20. Sur les étables des veaux et sur la grange il n'y a que le toit. La hauteur du rez-de-chaussée est de 3ᵐ50 ; celle du premier étage est de 4ᵐ 65 au maximum, de 2P90 au minimum. Sous les deux pièces qui contiennent le four ou reçoivent les fourrages, il y a une cave pour le vin. L'escalier, les paliers et les passages occupent, au premier étage, une surface de 580.</p>
+        <p xml:id="para_10_234_119">A une faible distance (3 mètres) de la maison s'élève un petit bâtiment dans lequel se trouve, au rez-de-chaussée, le dépôt du fu¬mier, et au premier la grange aux fourrages, qui n'est pas ache¬vée ; la surface occupée par cette construction est de 34 mètres carrés.</p>
+        <p xml:id="para_10_234_120">Les pièces sont assez propres, surtout les chambres à coucher, dans lesquelles se trouvent ordinairement un lit immense (ayant environ 2 34 de longueur sur 1 30 de hauteur, 1ᵉ75 de largeur), ils sont garnis d'une paillasse en feuilles de mais et d'un matelas rempli de laine.</p>
        </div>
        <div subtype="meubles" type="par_10">
-        <p xml:id="para_10_235_121">
-         <pb facs="#facs_238" n="235" source="lesouvriersdesde01sociuoft_0241.xml"/>
-         MEUBLES de formes antiques, traditionnelles ; mais en bon état et bien entretenus............ 697ᶠ 00
-        </p>
-        <p xml:id="para_10_235_122">
-         6 lits, 15 chaises, 3 tables, 529ᶠ 00; — 2 commodes, 2 armoires, 3 miroirs, 2 bancs pour la cuisine, 168ᶠ 00. — Total, 697ᶠ 00.
-        </p>
+        <p xml:id="para_10_235_121"><pb facs="#facs_238" n="235" source="lesouvriersdesde01sociuoft_0241.xml"/> MEUBLES de formes antiques, traditionnelles ; mais en bon état et bien entretenus............ 697ᶠ 00 </p>
+        <p xml:id="para_10_235_122">6 lits, 15 chaises, 3 tables, 529ᶠ 00; — 2 commodes, 2 armoires, 3 miroirs, 2 bancs pour la cuisine, 168ᶠ 00. — Total, 697ᶠ 00.</p>
        </div>
        <div subtype="ustensiles" type="par_10">
-        <p xml:id="para_10_235_123">
-         USTENSILES : solidement établis et assez nombreux pour satisfaire à tous les besoins............ 145 20
-        </p>
-        <p xml:id="para_10_235_124">
-         1 huche pour pétrir le pain, des pelles à four et des planches pour le pain, 6 casse¬roles en terre, 8 pots, t bassin, 4 carafes, 12 verres, fourchettes, cuillers, 90ᶠ 00 ; — pelles pour la cheminée, trépieds, coquemars en cuivre, 12ᶠ 00; — 1 chaudron, 2 cru¬ches, 25ᶠ 20; — divers menus objets tels que 3 paires de ciseaux, 4 bagues à coudre, 3 étuis à aiguilles, 3 miroirs, 3 cuvettes avec bassins, 18ᶠ 00. — Total, 145ᶠ 20.
-        </p>
+        <p xml:id="para_10_235_123">USTENSILES : solidement établis et assez nombreux pour satisfaire à tous les besoins............ 145 20</p>
+        <p xml:id="para_10_235_124">1 huche pour pétrir le pain, des pelles à four et des planches pour le pain, 6 casse¬roles en terre, 8 pots, t bassin, 4 carafes, 12 verres, fourchettes, cuillers, 90ᶠ 00 ; — pelles pour la cheminée, trépieds, coquemars en cuivre, 12ᶠ 00; — 1 chaudron, 2 cru¬ches, 25ᶠ 20; — divers menus objets tels que 3 paires de ciseaux, 4 bagues à coudre, 3 étuis à aiguilles, 3 miroirs, 3 cuvettes avec bassins, 18ᶠ 00. — Total, 145ᶠ 20.</p>
        </div>
        <div subtype="linge" type="par_10">
-        <p xml:id="para_10_235_125">
-         LINGE DE MÉNAGE : en toile solide, abondant et bien entre¬tenu............ 235 20
-        </p>
-        <p xml:id="para_10_235_126">
-         18 paires de draps de lit, 168 00; — 4 nappes et 30 serviettes, 67ᶠ 20. — Total 235ᶠ 20.
-        </p>
+        <p xml:id="para_10_235_125">LINGE DE MÉNAGE : en toile solide, abondant et bien entre¬tenu............ 235 20</p>
+        <p xml:id="para_10_235_126">18 paires de draps de lit, 168 00; — 4 nappes et 30 serviettes, 67ᶠ 20. — Total 235ᶠ 20.</p>
        </div>
        <div subtype="vetements" type="par_10">
-        <p xml:id="para_10_235_127">
-         VÊTEMENTS : il y a ordinairement assez de recherche dans la mise des paysans, surtout dans les environs des villes. Les femmes principalement montrent du goût pour le luxe, et même les plus pauvres paysannes ne sauraient se passer de collier et de boucles d'oreilles, ni d'un assez fin chapeau de paille. La robe de soie noire pour le mariage est encore une recherche très-ordinaire des pay¬sannes des environs de Florence. Les jeunes gens ont aussi leur coquetterie pour les dimanches. Les vieillards portent toujours la culotte courte jusqu'au genou et la jaquette ; mais les jeunes gens portent le pantalon descendant jusqu'à la cheville et le bonpiour ou petit paletot court. Les filles commencent, depuis leur enfance, à préparer elles-mêmes leur trousseau ; la toile est tissée à la mai¬son ; on achète seulement le chanvre que file la mère, et la jeune fille tisse. Elles profitent des foires pour acheter à bon marché des étoffes qu'elles conservent et dont elles font des robes, etc. Quand elles se marient, elles possèdent le trousseau dont il est question plus bas ; et la garde -robe diminue toujours après le mariage, parce qu'on ne l'entretient plus au complet ; on con¬serve seulement le nécessaire. Mais c'est après bien des an¬nées qu'on en est réduit là, et alors l'âge mûr, qui est arrivé, fait mépriser le luxe et rend inutiles de nouvelles dépenses. — Valeur des vêtements............ 2,188 60
-        </p>
-        <p xml:id="para_10_235_128">
-         VÊTEMENTS DES HOMMES (le père, 4 fils âgés de plus de 16 ans et deux plus jeunes), 743ᶠ 40; selon le détail ci-dessous :
-        </p>
-        <p xml:id="para_10_235_129">
-         1° Vêtements du pére de famille, 80ᶠ 00.
-        </p>
-        <p xml:id="para_10_236_130">
-         <pb facs="#facs_239" n="236" source="lesouvriersdesde01sociuoft_0242.xml"/>
-         2° Vêtements du fils aîné pour les dimanches. — 1 habit (quelquefois un frac), 1 pantalon, 1 gilet en drap noir, costume du mariage, mis les jours de fêtes, 80ᶠ 00 ; — 1 cravate 3ᶠ 36 ; — 1 chapeau de feutre, 2ᶠ 00. — Total, 85ᶠ 36.
-        </p>
-        <p xml:id="para_10_236_131">
-         3° Vêtements du fils aîné pour les jours ordinaires. — 1 pantalon d'hiver, 4 50; — 1 pantalon d'été, 3ᶠ 00 ; — 1 gilet d'hiver, 3ᶠ 50; — 1 gilet d'été, 2ᶠ 00; — 1 veste (cac¬ciatora) en velours, 12ᶠ 00 ; — 1 veste d'été, 4ᶠ 00; — 1 chapeau de paille, 1ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00; — 1 cravate, 2ᶠ 64 ; — 4 chemises, 16ᶠ 00 ; — Bas, gilet en laine, mouchoirs, 16ᶠ 80. — Total, 70ᶠ 44.
-        </p>
-        <p xml:id="para_10_236_132">
-         4° Vieux vêtements. — Ils servent pour le travail, 15ᶠ 00. — Valeur totale des vête¬nents du fils aîné, 170ᶠ 80.
-        </p>
-        <p xml:id="para_10_236_133">
-         5° Armes et bjioux du fils aîné. — 1 montre en argent, 22ᶠ 40; — 1 fusil, 2320. — Total, 47ᶠ 60.
-        </p>
-        <p xml:id="para_10_236_134">
-         6° Vêtements des trois autres fils âgés de plus de 16 ans, 320ᶠ 00.
-        </p>
-        <p xml:id="para_10_236_135">
-         7° vêtements des deux jeunes garçons. — (Ils usent les vieux vêtements des autres hommes), 125ᶠ 00.
-        </p>
-        <p xml:id="para_10_236_136">
-         VÊTEMENTS DES FEMMES (3 femmes adultes), 1,445ᶠ 20; selon le détail ci-dessous :
-        </p>
-        <p xml:id="para_10_236_137">
-         1° Vêtements de ˉla mêre de famille, 150ᶠ 00.
-        </p>
-        <p xml:id="para_10_236_138">
-         2° Vêtements de la femme et du fils aîné, pour les dimanches. — 1 robe en soie noire avec un mantelet, ayant servi le jour du mariage, et 14 robes de diferentes étofes, telles que bordat, indienne, drap, 176ᶠ 40; — 1 chapeau de paille à larges bords, 20ᶠ 00. — Total, 196ᶠ 40.
-        </p>
-        <p xml:id="para_10_236_139">
-         3° Vêtements de la femme et du fils aîné, pour les jours de travail. — Vieilles robes, souliers, chapeaux, etc., 58ᶠ 80; — 12 chemises, 12 bas, 2 corsets, 4 jupons, mouchoirs, camisoles, etc., 190ᶠ 00. — Total, 248ᶠ 80. — Valeur totale des vêtements de cette femme, 445ᶠ 20.
-        </p>
-        <p xml:id="para_10_236_140">
-         4° Bjoux de ˉla femme du fils atné. — Boucles d'oreilles, collier, bagues en perles et en or, 450ᶠ 00.
-        </p>
-        <p xml:id="para_10_236_141">
-         3 rousseau et vêtements de travail de la pelle, 400ᶠ 00.
-        </p>
+        <p xml:id="para_10_235_127">VÊTEMENTS : il y a ordinairement assez de recherche dans la mise des paysans, surtout dans les environs des villes. Les femmes principalement montrent du goût pour le luxe, et même les plus pauvres paysannes ne sauraient se passer de collier et de boucles d'oreilles, ni d'un assez fin chapeau de paille. La robe de soie noire pour le mariage est encore une recherche très-ordinaire des pay¬sannes des environs de Florence. Les jeunes gens ont aussi leur coquetterie pour les dimanches. Les vieillards portent toujours la culotte courte jusqu'au genou et la jaquette ; mais les jeunes gens portent le pantalon descendant jusqu'à la cheville et le bonpiour ou petit paletot court. Les filles commencent, depuis leur enfance, à préparer elles-mêmes leur trousseau ; la toile est tissée à la mai¬son ; on achète seulement le chanvre que file la mère, et la jeune fille tisse. Elles profitent des foires pour acheter à bon marché des étoffes qu'elles conservent et dont elles font des robes, etc. Quand elles se marient, elles possèdent le trousseau dont il est question plus bas ; et la garde -robe diminue toujours après le mariage, parce qu'on ne l'entretient plus au complet ; on con¬serve seulement le nécessaire. Mais c'est après bien des an¬nées qu'on en est réduit là, et alors l'âge mûr, qui est arrivé, fait mépriser le luxe et rend inutiles de nouvelles dépenses. — Valeur des vêtements............ 2,188 60</p>
+        <p xml:id="para_10_235_128">VÊTEMENTS DES HOMMES (le père, 4 fils âgés de plus de 16 ans et deux plus jeunes), 743ᶠ 40; selon le détail ci-dessous :</p>
+        <p xml:id="para_10_235_129">1° Vêtements du pére de famille, 80ᶠ 00.</p>
+        <p xml:id="para_10_236_130"><pb facs="#facs_239" n="236" source="lesouvriersdesde01sociuoft_0242.xml"/> 2° Vêtements du fils aîné pour les dimanches. — 1 habit (quelquefois un frac), 1 pantalon, 1 gilet en drap noir, costume du mariage, mis les jours de fêtes, 80ᶠ 00 ; — 1 cravate 3ᶠ 36 ; — 1 chapeau de feutre, 2ᶠ 00. — Total, 85ᶠ 36.</p>
+        <p xml:id="para_10_236_131">3° Vêtements du fils aîné pour les jours ordinaires. — 1 pantalon d'hiver, 4 50; — 1 pantalon d'été, 3ᶠ 00 ; — 1 gilet d'hiver, 3ᶠ 50; — 1 gilet d'été, 2ᶠ 00; — 1 veste (cac¬ciatora) en velours, 12ᶠ 00 ; — 1 veste d'été, 4ᶠ 00; — 1 chapeau de paille, 1ᶠ 00 ; — 1 paire de souliers, 5ᶠ 00; — 1 cravate, 2ᶠ 64 ; — 4 chemises, 16ᶠ 00 ; — Bas, gilet en laine, mouchoirs, 16ᶠ 80. — Total, 70ᶠ 44.</p>
+        <p xml:id="para_10_236_132">4° Vieux vêtements. — Ils servent pour le travail, 15ᶠ 00. — Valeur totale des vête¬nents du fils aîné, 170ᶠ 80.</p>
+        <p xml:id="para_10_236_133">5° Armes et bjioux du fils aîné. — 1 montre en argent, 22ᶠ 40; — 1 fusil, 2320. — Total, 47ᶠ 60.</p>
+        <p xml:id="para_10_236_134">6° Vêtements des trois autres fils âgés de plus de 16 ans, 320ᶠ 00.</p>
+        <p xml:id="para_10_236_135">7° vêtements des deux jeunes garçons. — (Ils usent les vieux vêtements des autres hommes), 125ᶠ 00.</p>
+        <p xml:id="para_10_236_136">VÊTEMENTS DES FEMMES (3 femmes adultes), 1,445ᶠ 20; selon le détail ci-dessous :</p>
+        <p xml:id="para_10_236_137">1° Vêtements de ˉla mêre de famille, 150ᶠ 00.</p>
+        <p xml:id="para_10_236_138">2° Vêtements de la femme et du fils aîné, pour les dimanches. — 1 robe en soie noire avec un mantelet, ayant servi le jour du mariage, et 14 robes de diferentes étofes, telles que bordat, indienne, drap, 176ᶠ 40; — 1 chapeau de paille à larges bords, 20ᶠ 00. — Total, 196ᶠ 40.</p>
+        <p xml:id="para_10_236_139">3° Vêtements de la femme et du fils aîné, pour les jours de travail. — Vieilles robes, souliers, chapeaux, etc., 58ᶠ 80; — 12 chemises, 12 bas, 2 corsets, 4 jupons, mouchoirs, camisoles, etc., 190ᶠ 00. — Total, 248ᶠ 80. — Valeur totale des vêtements de cette femme, 445ᶠ 20.</p>
+        <p xml:id="para_10_236_140">4° Bjoux de ˉla femme du fils atné. — Boucles d'oreilles, collier, bagues en perles et en or, 450ᶠ 00.</p>
+        <p xml:id="para_10_236_141">3 rousseau et vêtements de travail de la pelle, 400ᶠ 00.</p>
        </div>
        <div subtype="par_10_total" type="par_10">
-        <p xml:id="para_10_236_142">
-         VALEUR TOTALE du mobilier, du linge et des vêtements............ 3,266ᶠ 00
-        </p>
+        <p xml:id="para_10_236_142">VALEUR TOTALE du mobilier, du linge et des vêtements............ 3,266ᶠ 00</p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">
-        § 11. — RÉCRÉATIONS.
-       </head>
-       <p xml:id="para_10_236_144">
-        Le père et la mère de famille n'ont d'autre récréation que celle de se rendre à toutes les fêtes patronales du voisinage, selon la coutume du pays. Les cérémonies religieuses les attirent aussi aux églises ; et les femmes s'y rendent par groupes, en causant, tan¬dis que les hommes s'entretiennent en chemin, et surtout sur la place de l'Eglise. Les jeunes gens se rendent aussi avec empresse¬ment à des fêtes qui ont lieu à une grande distance, et principale¬ment à des oratoires placés sur le sommet de montagnes et qui sont un but de pèlerinage ; asse souvent ces pèlerinages deviennent des parties de plaisir, mêlées de chants ; on fait des repas à l'air libre
-        <pb facs="#facs_240" n="237" source="lesouvriersdesde01sociuoft_0243.xml"/>
-        (nerende) et trop souvent la fête se termine par des jeux. Les jeunes gens de la famille ne jouent pas gros jeu, ainsi que cela arrive beau¬coup trop communément dans les campagnes, surtout aux environs de Florence ; un seul d'entre eux, celui qui est assez souffrant et par cela même plus oisif, joue quelquefois aux cartes ; les autres jouent à la roulette (ruaola). On se sert pour cela de disques en bois, mais plus souvent de fromages en forme de roulette (forme) quisontgagnés par ceux qui les font rouler à une plus grande distance, ou qui leur font parcourir une distance déterminée en un plus petit nombre de coups. Les enfants jouent avec de petites roulettes en bois ; on se livre à cet amusement sur les chemins publics, surtout ceux où il y a moins de transit, et cela se fait de préférence dans les dernières heures de la journée, après les vêpres. Le jeu de boules, très en usage aussi dans la contrée, n'est pas du goût des jeunes gens de cette famille, qui s'y livrent rarement. Aucun d'eux n'aime le caba¬ret et la boisson. Le soir, surtout les jours de fête, ils se rendent dans d'autres familles de paysans à la veillée (a ceglia) surtout s'ils y ont leur maîtresse (ˉDama) et c'est ce qui arrive pour presque tous.
-       </p>
-       <p xml:id="para_10_237_146">
-        Pendant le carnaval et aux jours des principales récoltes, et même les jours de fête, on danse chez quelque paysan (on a souvent dansé che le chef de famille ici décrit) sur l'aia ou dans la pièce du rez¬de-chaussée. Dans les occasions plus solennelles on est habillé avec recherche, et la musique est faite avec un violon ; mais ordinai¬rement on danse au son d'un petit orgue joué par un paysan. Les danses nationales, le ˉrescone et la ˉManfina sont un peu aban¬données pour la valse et les quadrilles.
-       </p>
-       <p xml:id="para_10_237_147">
-        Nos jeunes gens vont volontiers à la ville les jours de fête, à propos des cérémonies ou des événements extraordinaires. Les voyages exigés par l'achat des bêtes, les visites aux foires sont aussi des occasions de récréation pour l'aîné, qui est accompagné tantôt par l'un, tantôt par l'autre de ses frères.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. — Récréations.</head>
+       <p xml:id="para_10_236_144">Le père et la mère de famille n'ont d'autre récréation que celle de se rendre à toutes les fêtes patronales du voisinage, selon la coutume du pays. Les cérémonies religieuses les attirent aussi aux églises ; et les femmes s'y rendent par groupes, en causant, tan¬dis que les hommes s'entretiennent en chemin, et surtout sur la place de l'Eglise. Les jeunes gens se rendent aussi avec empresse¬ment à des fêtes qui ont lieu à une grande distance, et principale¬ment à des oratoires placés sur le sommet de montagnes et qui sont un but de pèlerinage ; asse souvent ces pèlerinages deviennent des parties de plaisir, mêlées de chants ; on fait des repas à l'air libre<pb facs="#facs_240" n="237" source="lesouvriersdesde01sociuoft_0243.xml"/>(nerende) et trop souvent la fête se termine par des jeux. Les jeunes gens de la famille ne jouent pas gros jeu, ainsi que cela arrive beau¬coup trop communément dans les campagnes, surtout aux environs de Florence ; un seul d'entre eux, celui qui est assez souffrant et par cela même plus oisif, joue quelquefois aux cartes ; les autres jouent à la roulette (ruaola). On se sert pour cela de disques en bois, mais plus souvent de fromages en forme de roulette (forme) quisontgagnés par ceux qui les font rouler à une plus grande distance, ou qui leur font parcourir une distance déterminée en un plus petit nombre de coups. Les enfants jouent avec de petites roulettes en bois ; on se livre à cet amusement sur les chemins publics, surtout ceux où il y a moins de transit, et cela se fait de préférence dans les dernières heures de la journée, après les vêpres. Le jeu de boules, très en usage aussi dans la contrée, n'est pas du goût des jeunes gens de cette famille, qui s'y livrent rarement. Aucun d'eux n'aime le caba¬ret et la boisson. Le soir, surtout les jours de fête, ils se rendent dans d'autres familles de paysans à la veillée (a ceglia) surtout s'ils y ont leur maîtresse (ˉDama) et c'est ce qui arrive pour presque tous.</p>
+       <p xml:id="para_10_237_146">Pendant le carnaval et aux jours des principales récoltes, et même les jours de fête, on danse chez quelque paysan (on a souvent dansé che le chef de famille ici décrit) sur l'aia ou dans la pièce du rez¬de-chaussée. Dans les occasions plus solennelles on est habillé avec recherche, et la musique est faite avec un violon ; mais ordinai¬rement on danse au son d'un petit orgue joué par un paysan. Les danses nationales, le ˉrescone et la ˉManfina sont un peu aban¬données pour la valse et les quadrilles.</p>
+       <p xml:id="para_10_237_147">Nos jeunes gens vont volontiers à la ville les jours de fête, à propos des cérémonies ou des événements extraordinaires. Les voyages exigés par l'achat des bêtes, les visites aux foires sont aussi des occasions de récréation pour l'aîné, qui est accompagné tantôt par l'un, tantôt par l'autre de ses frères.</p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">
-       IV. Histoire de la famille
-      </head>
+      <head type="sub_section" xml:id="part_02_04">IV. Histoire de la famille</head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">
-        § 12. — PHASES PRINCIPALES DE L'EXISTENCE.
-       </head>
-       <p xml:id="para_10_237_151">
-        Les enfants sont élevés par les soins de leur mère ; ils vont aux champs avec elle dès qu'ils peuvent marcher, puis ils portent la nourriture aux travailleurs dans la campagne. Ils ramassent les
-        <pb facs="#facs_241" n="238" source="lesouvriersdesde01sociuoft_0244.xml"/>
-        olives et font de petits travaux à leur portée dès qu'ils le peuvent. Il y en a qui, ayant beaucoup d'affection pour les animaux, com¬mencent de bonne heure à s'en occuper. Les paysans n'ont généra¬lement pas beaucoup degoût pour l'instruction, et il y en a plusieurs, même aux environs des villes, qu'ils n'en donnent aucune à leurs enfants. Le chef de notre famille, qui est très-éclairé pour un paysan, a fait instruire les siens à la maison par un maître qui y vient trois fois par semaine pndant une heure et enseigne l'arith¬métique très-élémentaire, l'écriture et la lecture
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        ; trois des enfants de la famille savent lire et écrire. Tous, tant qu'ils sont enfants, vont le dimanche au catéchisme chez le curé de la paroisse. Dès qu'ils peuvent soutenir des travaux plus rudes, les enfants se livrent à la culture avec les adultes de la famille, ils conduisent quelquefois les bêtes, ils les nourrisent et aident les travailleurs dans tout ce qu'ils ont à faire. Quelquefois ils vont même travailler à la journée pour le compte du propriétaire, qui leur donne un salaire de la moitié ou du tiers de la journée ordinaire, suivant les condi¬tions du travail et suivant leur aptitude.
-       </p>
-       <p xml:id="para_10_238_153">
-        Cette famille habitant auprès de la maison du maître, les enfants sont souvent appelés à aider aux travaux de la cuisine, de l'écurie ou à d'autres soins, et ils tirent de là quelque cadeau, surtout en habillements. La famille cultivait depuis très-longtemps un ˉodere en plaine à une distance de trois milles de Florence ; elle l'a quitté pour celui qu'elle occupe actuellement depuis l'an 1842, parce que le père, ayant de nombreux enfants mâles, a compris la nécessité et la convenance de changer le podere qui suffisait et pouvait être cultivé par lui et par sa femme, contre un plus grand et plus pro¬ducif
-        <ref target="#ID-003a" type="renvoi_int_od2m">
-         [N°3 (D)]
-        </ref>
-        . Quand quelqu'un des fils sortira de la maison, pour s'employer ailleurs, on fera d'abord une évaluation du bien de la famille
-        <ref target="#ID-003a" type="renvoi_int_od2m">
-         [N° 3 (A. et B.)]
-        </ref>
-        et on lui donnera sa portion (parte) qui est fournie le plus souvent en objets mobiliers et peu en argent.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. — Phases principales de l'existence.</head>
+       <p xml:id="para_10_237_151">Les enfants sont élevés par les soins de leur mère ; ils vont aux champs avec elle dès qu'ils peuvent marcher, puis ils portent la nourriture aux travailleurs dans la campagne. Ils ramassent les<pb facs="#facs_241" n="238" source="lesouvriersdesde01sociuoft_0244.xml"/>olives et font de petits travaux à leur portée dès qu'ils le peuvent. Il y en a qui, ayant beaucoup d'affection pour les animaux, com¬mencent de bonne heure à s'en occuper. Les paysans n'ont généra¬lement pas beaucoup degoût pour l'instruction, et il y en a plusieurs, même aux environs des villes, qu'ils n'en donnent aucune à leurs enfants. Le chef de notre famille, qui est très-éclairé pour un paysan, a fait instruire les siens à la maison par un maître qui y vient trois fois par semaine pndant une heure et enseigne l'arith¬métique très-élémentaire, l'écriture et la lecture (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>) ; trois des enfants de la famille savent lire et écrire. Tous, tant qu'ils sont enfants, vont le dimanche au catéchisme chez le curé de la paroisse. Dès qu'ils peuvent soutenir des travaux plus rudes, les enfants se livrent à la culture avec les adultes de la famille, ils conduisent quelquefois les bêtes, ils les nourrisent et aident les travailleurs dans tout ce qu'ils ont à faire. Quelquefois ils vont même travailler à la journée pour le compte du propriétaire, qui leur donne un salaire de la moitié ou du tiers de la journée ordinaire, suivant les condi¬tions du travail et suivant leur aptitude.</p>
+       <p xml:id="para_10_238_153">Cette famille habitant auprès de la maison du maître, les enfants sont souvent appelés à aider aux travaux de la cuisine, de l'écurie ou à d'autres soins, et ils tirent de là quelque cadeau, surtout en habillements. La famille cultivait depuis très-longtemps un ˉodere en plaine à une distance de trois milles de Florence ; elle l'a quitté pour celui qu'elle occupe actuellement depuis l'an 1842, parce que le père, ayant de nombreux enfants mâles, a compris la nécessité et la convenance de changer le podere qui suffisait et pouvait être cultivé par lui et par sa femme, contre un plus grand et plus pro¬ducif <ref target="#ID-003a" type="renvoi_int_od2m">[N°3 (D)]</ref>. Quand quelqu'un des fils sortira de la maison, pour s'employer ailleurs, on fera d'abord une évaluation du bien de la famille <ref target="#ID-003a" type="renvoi_int_od2m">[N° 3 (A. et B.)]</ref> et on lui donnera sa portion (parte) qui est fournie le plus souvent en objets mobiliers et peu en argent.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">
-        § 13. — MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
-       </head>
-       <p xml:id="para_10_238_155">
-        Il convient de remarquer que dans l'example présent les divers membres de la communauté sont père, mère, fils et frères entre eux ; un seul des fils est marié, et les conditions économiques de la famille ne sont ni assez brillantes pour faire naître dans quelqu'un de ses membres le désir de revendiquer sa part pour l'exploiter à sa guise, ni assez restreintes pour les engager à chercher un meilleur avenir ou pour faire craindre que le maître les renvoie. Ces circon
-        <pb facs="#facs_242" n="239" source="lesouvriersdesde01sociuoft_0245.xml"/>
-        stances concourent avec les bons rapports et la moralité des indi¬vidus composant la famille, à maintenir leur union, même après la mort du père ; et par conséquent elles garantissent un heureux avenir. Pour faire face à des éventualités funestes, aux infir¬mités, aux besoins extraordinaires, à une série de récoltes insuf¬fisantes, la famille peut se reposer sur le compte courant avec le propriétaire. Celui-ci fera des avances, ainsi que cela se pratique, quandmême la créance de la famille serait transformée en une dette ; pourvu qu'il soit convaincu qu'on n'en peut imputer la faute à la famille et qu'elle se trouve toujours dans des conditions où ilpeut es¬pérer un remboursement plus ou moins prochain. Ce compte courant, qui est une cause de ruine pour les propriétaires peu avisés et pour les paysans paresseux et immoraux, est d'un grand secours pour cal¬mer les soucis d'un père de famille honnête et laborieux, pendant les moments difficiles. Notre paysan en profite à son véritable point de vue. La caisse d'épargne n'est pas dugoût de cette famille, ni des autres paysans qui préfèrent le plus souvent laisser leurs épargnes dans le compte courant du propriétaire, quoiqu'il n'y produise aucun intérêt, ou les employer en commerce de produits agricoles
-        <ref target="#" type="renvoi_ext_oe">
-         (les Ouvrˉ. ˉeurop. XVIII, XXIV § 6)
-        </ref>
-        . Le peu de confiance dans les administrations publiques est le fond du caractère du peuple et surtout du paysan toscan.
-       </p>
-       <p xml:id="para_10_239_157">
-        La confrérie de la Miséricorde, à laquelle sont rattachés trois membres de la famille, fait porter les malades à l'hôpital dans une litière fort commode, les fait soigner quelquefois à domicile et fait enterrer les morts,même lorsqu'ils ne lui ont pas appartenu ; elle pourvoit aux funérailles de ses membres.
-       </p>
-       <p xml:id="para_10_239_158">
-        Si la jeune fille avait dû se marier, elle aurait pu espérer une des nombreuses dots qui sont obtenues par tirage au sort, ou de celles qui sont données dans le pays par le grand-duc, les com¬munes, certaines corporations ou même certaines familles riches. C'est une ressource assurée aux filles qui pourraient naître encore, et il convenait de la signaler ici.
-       </p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. — Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
+       <p xml:id="para_10_238_155">Il convient de remarquer que dans l'example présent les divers membres de la communauté sont père, mère, fils et frères entre eux ; un seul des fils est marié, et les conditions économiques de la famille ne sont ni assez brillantes pour faire naître dans quelqu'un de ses membres le désir de revendiquer sa part pour l'exploiter à sa guise, ni assez restreintes pour les engager à chercher un meilleur avenir ou pour faire craindre que le maître les renvoie. Ces circon<pb facs="#facs_242" n="239" source="lesouvriersdesde01sociuoft_0245.xml"/>stances concourent avec les bons rapports et la moralité des indi¬vidus composant la famille, à maintenir leur union, même après la mort du père ; et par conséquent elles garantissent un heureux avenir. Pour faire face à des éventualités funestes, aux infir¬mités, aux besoins extraordinaires, à une série de récoltes insuf¬fisantes, la famille peut se reposer sur le compte courant avec le propriétaire. Celui-ci fera des avances, ainsi que cela se pratique, quandmême la créance de la famille serait transformée en une dette ; pourvu qu'il soit convaincu qu'on n'en peut imputer la faute à la famille et qu'elle se trouve toujours dans des conditions où ilpeut es¬pérer un remboursement plus ou moins prochain. Ce compte courant, qui est une cause de ruine pour les propriétaires peu avisés et pour les paysans paresseux et immoraux, est d'un grand secours pour cal¬mer les soucis d'un père de famille honnête et laborieux, pendant les moments difficiles. Notre paysan en profite à son véritable point de vue. La caisse d'épargne n'est pas dugoût de cette famille, ni des autres paysans qui préfèrent le plus souvent laisser leurs épargnes dans le compte courant du propriétaire, quoiqu'il n'y produise aucun intérêt, ou les employer en commerce de produits agricoles (<ref target="#" type="renvoi_ext_oe">les Ouvrˉ. ˉeurop. XVIII, XXIV § 6</ref>). Le peu de confiance dans les administrations publiques est le fond du caractère du peuple et surtout du paysan toscan.</p>
+       <p xml:id="para_10_239_157">La confrérie de la Miséricorde, à laquelle sont rattachés trois membres de la famille, fait porter les malades à l'hôpital dans une litière fort commode, les fait soigner quelquefois à domicile et fait enterrer les morts,même lorsqu'ils ne lui ont pas appartenu ; elle pourvoit aux funérailles de ses membres.</p>
+       <p xml:id="para_10_239_158">Si la jeune fille avait dû se marier, elle aurait pu espérer une des nombreuses dots qui sont obtenues par tirage au sort, ou de celles qui sont données dans le pays par le grand-duc, les com¬munes, certaines corporations ou même certaines familles riches. C'est une ressource assurée aux filles qui pourraient naître encore, et il convenait de la signaler ici.</p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">
-        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. — Budget des recettes de l'année.</head>
        <pb facs="#facs_243" n="240" source="lesouvriersdesde01sociuoft_0246.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_243" url="#" xml:id="tble_10_240_4"/>
        </figure>
        <pb facs="#facs_244" n="241" source="lesouvriersdesde01sociuoft_0247.xml"/>
-       <!--<p xml:id="para_10_241_160">
-        § 14. — BUDGET DES RECETTES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_10_241_160">§ 14. — Budget des recettes de l'année.</p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_244" url="#" xml:id="tble_10_241_5"/>
        </figure>
        <pb facs="#facs_245" n="242" source="lesouvriersdesde01sociuoft_0248.xml"/>
-       <!--<p xml:id="para_10_242_161">
-        BUDGET DES RECETTES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_10_242_161">Budget des recettes de l'année.</p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_245" url="#" xml:id="tble_10_242_6"/>
        </figure>
        <pb facs="#facs_246" n="243" source="lesouvriersdesde01sociuoft_0249.xml"/>
-       <!--<p xml:id="para_10_243_162">
-        BUDGET DES RECETTES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_10_243_162">Budget des recettes de l'année.</p>-->
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_246" url="#" xml:id="tble_10_243_7"/>
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">
-        § 15. — BUDGET DES DÉPENSES DE L'ANNÉE.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. — Budget des dépenses de l'année.</head>
        <pb facs="#facs_247" n="244" source="lesouvriersdesde01sociuoft_0250.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_247" url="#" xml:id="tble_10_244_8"/>
        </figure>
        <pb facs="#facs_248" n="245" source="lesouvriersdesde01sociuoft_0251.xml"/>
-       <!--<p xml:id="para_10_245_164">
-        BUDGET DES DÉPENSES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_10_245_164">Budget des dépenses de l'année.</p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_248" url="#" xml:id="tble_10_245_9"/>
        </figure>
        <pb facs="#facs_249" n="246" source="lesouvriersdesde01sociuoft_0252.xml"/>
-       <!--<p xml:id="para_10_246_165">
-        BUDGET DES DÉPENSES DE L'ANNÉE.
-        </p>-->
+       <!--<p xml:id="para_10_246_165">Budget des dépenses de l'année.</p>-->
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_249" url="#" xml:id="tble_10_246_10"/>
        </figure>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">
-        COMPTES ANNEXÉS AUX BUDGETS.
-       </head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">Comptes annexés aux budgets.</head>
        <pb facs="#facs_250" n="247" source="lesouvriersdesde01sociuoft_0253.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_250" url="#" xml:id="tble_10_247_11"/>
@@ -1088,187 +554,59 @@
      </div>
     </div>
     <div n="003" type="section">
-     <head type="section" xml:id="part_03">
-      NOTES
-     </head>
-     <p xml:id="para_10_253_168">
-      FAITS IMPORTANTS D'ORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.
-     </p>
+     <head type="section" xml:id="part_03">Notes</head>
+     <p xml:id="para_10_253_168">FAITS IMPORTANTS D'ORGANISATION SOCIALE ; PARTICULARITÉS REMARQUABLES ; APPRÉCIATIONS GÉNÉRALES ; CONCLUSIONS.</p>
      <div n="001" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_17">
-        (A) SUR L'ORGANISATION DU TRAVAIL AGRICOLE EN TOSCANE.
-       </head>
-       <p xml:id="para_10_253_170">
-        <pb facs="#facs_256" n="253" source="lesouvriersdesde01sociuoft_0259.xml"/>
-        La Toscane est un pays très-varié par suite de la structure même du sol : on y trouve des plaines assez vastes qui ressemblent à celles de la Lombardie (ex. : les Maremmes dans leurs parties assainies, le al di ˉChianaˉ, le al di Nievoleˉ, les deux vallées de l'Arno, appe¬lées al d'Arno supérieur et iférieur) ; des vallées étroites for¬mant des plateaux assez élevés environnés des hautes montagnes des Apennins (ex. : ˉMugello, Casentino) ; des collines en partie boisées, en partie cultivées (ex. : les environs de Florence, Sienne, Lucques, etc.); des régions de montagnes cultivées dans leur par¬tie inférieure et dans leurs étroites vallées, et boisées dans quel¬ques parties où la manie du déboisement ne les a pas encore expo¬sées à l'action des eaux (ex. : Romagne toscane, montagnes de Pistoiaˉ, ˉChianti, montagnes du ˉCasentino, etc.).
-       </p>
-       <p xml:id="para_10_253_171">
-        Le mode de culture varie dans ces différentes régions et, par cela même, la condition de la population ouvrière y est très-différente.
-       </p>
-       <p xml:id="para_10_253_172">
-        Les vallées, très-fertiles, sont généralement cultivées en vastes champs séparés par des fossés pour l'écoulement des eaux. Les bords de ces fossés sont plantés de pieds de vigne, appuyés contre des arbres tels que les peupliers, ou les mûriers, qui sont répandus dans beaucoup de localités. Dans quelques-unes .de ces contrées en plaines le système de la grande culture a été appliqué depuis plu¬sieurs années. Le blé, le mais, la paille à chapeau, les fourrages, les prairies naturelles et artificielles et, dans le voisinage des villes, les plantes légumineuses, recouvrent généralement le terrain.
-       </p>
-       <p xml:id="para_10_253_173">
-        Dans plusieurs plaines et dans quelques montagnes il existe de petits propriétaires qui travaillent eux-mêmes sur leur domaine, ou des tenanciers possédant, à titre emphytéotique, des terrains qui, en général, appartiennent à des corporations religieuses, au gouverne¬ment, etc. Le gouvernement a beaucoup favorisé ce système, pour morceler les grandes propriétés et diminuer l'étendue des biens ecclésiastiques administrés par le clergé.
-       </p>
-       <p xml:id="para_10_253_174">
-        Les petits propriétaires et les tenanciers (livellari) ne consti¬tuent pas généralement la partie la plus heureuse de la population
-        <pb facs="#facs_257" n="254" source="lesouvriersdesde01sociuoft_0260.xml"/>
-        agricole de la Toscane, quoiqu'ils soient ordinairement très-labo¬rieux et très-habiles pour faire valoir leurs terres. Privés de capi¬taux, et n'ayant à leur disposition qu'un très-petit bien, ils font souvent des dettes ; dans les mauvais jours, ils engagent leurs biens par quelques hypothèques et se trouvent souvent réduits à posséder et à travailler pour le compte de leurs créanciers
-        <ref target="#" type="renvoi_ext_oe">
-         [les ˉOuv. europ. XV (A et B), XX (B)]
-        </ref>
-        Quelques grands propriétaires cultivent, pour leur propre compte, de vastes terrains en alternant la culture des cé¬réales avec celle des plantes fourragères et en entretenant des quan¬tités considérables de vaches, de bœufs et de chevaux. Dans ce cas ils prennent des journaliers appartenant à la classe des propriétaires
-        <ref target="#" type="renvoi_ext_oe">
-         [les ˉOuv. europ. XXVII (B)]
-        </ref>
-        et habitant généralement dans les vil¬lages et dans des hameaux composés de peu de maisons très-misé¬rables. La plus grande partie de la Toscane est formée de collines cultivées en forèts d'oliviers (ex. : collines de Pise, Calci, ˉButi ; et collines de l'ancien duché de Lucques et du territoire de ˉPietra¬Santa) ou en champs arables, plantés de vignes et d'oliviers, dans l'intervalle desquels on sème des céréales, des fourrages et quelques légumineuses.
-       </p>
-       <p xml:id="para_10_254_176">
-        Sur ces collines on a, depuis une quarantaine d'années, trans¬formé en champs cultivés, comme il a été dit, une grande partie des bois, dont il reste toutefois une assez grande étendue, et ils sont généralement entrecoupés de terres arables ou réunis dans les parties les plus hautes. Dans les montagnes peu élevées, on ren¬contre souvent une petite maison de paysans qui cultivent quelques champs au milieu des bois.
-       </p>
-       <p xml:id="para_10_254_177">
-        Les arbres existant dans les bois des collines et des montagnes les moins élevées, sont : les chataigniers cultivés pour la production du bois de construction, pour la récolte des chataignes (assez abon¬dantes dans les montagnes de Pistoia, du Casentino, de Luc¬ques, etc.) ou maintenus en taillis pour faire des échalas, etc. ; les chênes et chênes-verts, dont les glands servent à la nourriture des porcs, ou que l'on maintient en taillis pour bois de chauffage ; les pins, dont de grandes forêts se trouvent près de la mer, aux envi¬rons de Pise, dans les Maremmes, et dans les collines du al di Pesa, non loin de Florence ; enfin les aunes, les acacias, les trem¬bles, etc. Dans les montagnes les plus hautes en rencontre de belles forêts de pins, sapins, mélèzes et hêtres ; dans la partie des Apen¬nins qui avoisine le Casentino, près des sources du Tibre et de l'Arno, de vastes plantations ont été faites depuis une vingtaine d'années. Excepté dans les grandes forêts des Apennins qui sont exploitées à l'aide de journaliers, le système du métayage est sou¬vent en usage pour les bois qui produisent des fruits, tels que cha
-        <pb facs="#facs_258" n="255" source="lesouvriersdesde01sociuoft_0261.xml"/>
-        taignes et glands. Les grands propriétaires ont toutefois de vastes troupeaux de brebis et de porcs qu'ils tiennent pour leur propre compte ; et les bois de construction, ainsi que les taillis, sont ex¬ploités généralement pour le compte de ceux qui les possèdent ou vendus par eux sur pied.
-       </p>
-       <p xml:id="para_10_255_179">
-        Le pâturage des troupeaux des petits propriétaires est toléré dans beaucoup de bois, qui en souffrent assez ; les grands troupeaux passent l'été dans les pays de montagnes et l'hiver dans les Marem¬mes. La omagne entretient des troupeaux considérables de din¬dons.
-       </p>
-       <p xml:id="para_10_255_180">
-        Les bestiaux élevés généralement dans les fermes des collines sont les bœufs et vaches de labour, des vaches laitières, des jeunes veaux, des veaux pour l'engraissement, des mulets, des ânes, des chevaux pour les transports.
-       </p>
-       <p xml:id="para_10_255_181">
-        Les collines, en partie boisées et en partie cultivées en oliviers, vignes, céréales, fourrages, légumineuses, couvrent la plus grande étendue de la Toscane et c'est d'une ferme de colline qu'a été tiré l'exemple qui forme le sujet de la présente monographie.
-       </p>
-       <p xml:id="para_10_255_182">
-        Le système du métayage (ˉMeazaeria ou colonia paraiaria) est suivi dans toutes les collines, dans la partie cultivée des montagnes et dans la plus grande partie des plaines. Les petits propriétaires et les tenanciers sont encore plus malheureux dans les collines que dans les plaines ; parce que la rapidité des cours d'eau oblige les cultiva¬teurs des collines à soutenir les champs par des murs ou des digues, à régler les eaux, à leur mettre des obstacles pour en diminuer la rapidité et à utiliser les terres emportées par elles ; ce qui demande de fréquentes avances de fonds : en outre les récoltes de l'huile et du vin n'étant pas régulières, mais une suite de mauvaises années succédant souvent à une belle récolte, il faut beaucoup de pré¬voyance, et plus que n'en ont généralement les classes ouvrières. Toutefois il y a beaucoup de propriétaires-cultivateurs assez heu¬reux ; mais le sort des métayers (meaioli) est généralement préfé¬rable. Il y a plusieurs familles de paysans métayers qui possèdent des terrains et qui aiment mieux les faire cultiver par d'autres fa¬milles de métayers, plutôt que de quitter le podere de leur maître et de les cultiver par elles-mêmes.
-       </p>
-       <p xml:id="para_10_255_183">
-        La portion de terrain que doit cultiver une famille de paysans nétaers, est ce qu'on appelle le podere : la famille occcupe ordinai¬rement une maison sise au milieu de ce terrain et presque jamais les paysans n'habitent dans les villages.
-       </p>
-       <p xml:id="para_10_255_184">
-        Les villages et les petits bourgs sont habités par des journaliers se livrant généralement aux travaux agricoles pour aider les cultiva¬teurs dans le labourage des terres, et pendant les principales récol
-        <pb facs="#facs_259" n="256" source="lesouvriersdesde01sociuoft_0262.xml"/>
-        tes ou pour prendre part aux travaux du gouvernement des commu¬nes et des particuliers pour entretiens, constructions, ou défriche¬ments, etc. Ces journaliers (pigionali) sont les prolétaires des campagnes de la Toscane et en font la désolation par leur misère et par leurs habitudes de vol à l'égard des produits des champs.
-       </p>
-       <p xml:id="para_10_256_186">
-        Trop souvent exposés à l'indigence par suite du manque de tra¬vaux, des mauvais temps, de malheurs de famille et d'inconduite, ils se transforment en mendiants et en voleurs; si bien que les propriétaires se croient parfois forcés de faire exécuter des tra¬vaux dans le but de les rendre moins dangereux ; et c'est ce même but que se proposent dans certaines années les communes en faisant exécuter des travaux peu utiles : ce qui cause un véritable dérange¬ment dans la fortune publique et privée. La classe des journaliers, jadis assez peu nombreuse, s'est accrue depuis plusieurs années par suite du relâchement des liens de famille parmi les métayers, par la multiplication des mariages dans cette classe, et par l'appât des gains faciles que donnaient les grands travaux publics et privés qui ont été exécutés en Toscane pendant une longue série d'années très¬prospères, depuis 1820 jusqu'en 1847. Tandis que les hommes tra¬vaillent, quand ils ont de l'ouvrage, les femmes rôdent dans les champs et surtout dans les bois exerçant le maraudage comme un véritable métier
-        <ref target="#" type="renvoi_ext_oe">
-         [les ˉOuv. europˉ. XXVI (B)]
-        </ref>
-        .
-       </p>
-       <p xml:id="para_10_256_187">
-        Parmi les journaliers il y en a qui, par quelques travaux spéciaux qu'ils savent exécuter, gagnent une journée plus élevée que le prix ordinaire (0ᶠ84). Les macons, les cantonniers des grands chemins, les ouvriers des chemins de fer, Ies faiseurs de briques, etc., les ouvriers qui travaillent le bois, et ceux qui sont employés à quelques travaux particuliers dans les fermes, etc., gagnent généralement depuis 1ᶠ12 jusqu'à 2ᶠ 24.
-       </p>
-       <p xml:id="para_10_256_188">
-        Dans les mêmes villages habitent aussi les artisans qui exercent les métiers nécessaires à la campagne, tels que ceux de charpen¬tiers, de charrons, de forgerons, de petits marchands ambulants, etc. Toute cette classe de travailleurs, employés autrement que comme simples journaliers, diffère beaucoup de ces derniers ; ils sont beau¬Coup plus rangés et plus moraux.
-       </p>
-       <p xml:id="para_10_256_189">
-        Les grands villages sont habités par quelques grands et petits propriétaires, et surtout par des marchands de produits du sol, tels que le blé, l'huile, le bois ; et par quelques capitalistes de peu de moyens exerçant l'usure aux dépens des paysans.
-       </p>
-       <p xml:id="para_10_256_190">
-        Les communes sont très-étendues en Toscane, et contiennent dans leur territoire plusieurs villages et une grande quantité de maisons éparpillées dans la campagne.
-       </p>
-       <p xml:id="para_10_256_191">
-        Il y a beaucoup de petites propriétés appartenant à des petits
-        <pb facs="#facs_260" n="257" source="lesouvriersdesde01sociuoft_0263.xml"/>
-        propriétaires qui ont un ou deux poeri et une maison de campagne, surtout aux environs des villes ; car l'ambition de la population est de posséder une maison de campagne pour y passer l'automne et le printemps, et un grand nombre de tailleurs, de serruriers et d'au¬tres artisans et petits marchands, notamment de Florence, achètent une propriété de ce genre dès qu'ils ont amassé par leurs épargnes un petit capital.
-       </p>
-       <p xml:id="para_10_257_193">
-        Les propriétaires plus considérables ont une maison de campagne près de laquelle se trouvent les ateliers de fabrication de l'huile, du lin, etc., ainsi que les magasins de produits agricoles et l'habita¬tion de l'administrateur (fattore) et de ses aides. Chaque fattoriaˉ, ou assemblage de poderi dépendant d'un même administrateur, se compose de plusieurs poderi, dont chacun est travaillé et cultivé par une famille de métayers. Les bois sont gardés par des gardes fores¬tiers, et ily a généralement quelques terrains cultivés pour le compte du propriétaire par des ouvriers journaliers sous la direction dufat¬tore. Les fattorie se composent d'un nombre de poderi, qui varie de cinq à six jusqu'à soixante et quatre-vingts : en moyenne, il est de dix à trente.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_17">(A) SUR L'ORGANISATION DU TRAVAIL AGRICOLE EN TOSCANE.</head>
+       <p xml:id="para_10_253_170"><pb facs="#facs_256" n="253" source="lesouvriersdesde01sociuoft_0259.xml"/> La Toscane est un pays très-varié par suite de la structure même du sol : on y trouve des plaines assez vastes qui ressemblent à celles de la Lombardie (ex. : les Maremmes dans leurs parties assainies, le al di ˉChianaˉ, le al di Nievoleˉ, les deux vallées de l'Arno, appe¬lées al d'Arno supérieur et iférieur) ; des vallées étroites for¬mant des plateaux assez élevés environnés des hautes montagnes des Apennins (ex. : ˉMugello, Casentino) ; des collines en partie boisées, en partie cultivées (ex. : les environs de Florence, Sienne, Lucques, etc.); des régions de montagnes cultivées dans leur par¬tie inférieure et dans leurs étroites vallées, et boisées dans quel¬ques parties où la manie du déboisement ne les a pas encore expo¬sées à l'action des eaux (ex. : Romagne toscane, montagnes de Pistoiaˉ, ˉChianti, montagnes du ˉCasentino, etc.).</p>
+       <p xml:id="para_10_253_171">Le mode de culture varie dans ces différentes régions et, par cela même, la condition de la population ouvrière y est très-différente.</p>
+       <p xml:id="para_10_253_172">Les vallées, très-fertiles, sont généralement cultivées en vastes champs séparés par des fossés pour l'écoulement des eaux. Les bords de ces fossés sont plantés de pieds de vigne, appuyés contre des arbres tels que les peupliers, ou les mûriers, qui sont répandus dans beaucoup de localités. Dans quelques-unes .de ces contrées en plaines le système de la grande culture a été appliqué depuis plu¬sieurs années. Le blé, le mais, la paille à chapeau, les fourrages, les prairies naturelles et artificielles et, dans le voisinage des villes, les plantes légumineuses, recouvrent généralement le terrain.</p>
+       <p xml:id="para_10_253_173">Dans plusieurs plaines et dans quelques montagnes il existe de petits propriétaires qui travaillent eux-mêmes sur leur domaine, ou des tenanciers possédant, à titre emphytéotique, des terrains qui, en général, appartiennent à des corporations religieuses, au gouverne¬ment, etc. Le gouvernement a beaucoup favorisé ce système, pour morceler les grandes propriétés et diminuer l'étendue des biens ecclésiastiques administrés par le clergé.</p>
+       <p xml:id="para_10_253_174">Les petits propriétaires et les tenanciers (livellari) ne consti¬tuent pas généralement la partie la plus heureuse de la population<pb facs="#facs_257" n="254" source="lesouvriersdesde01sociuoft_0260.xml"/>agricole de la Toscane, quoiqu'ils soient ordinairement très-labo¬rieux et très-habiles pour faire valoir leurs terres. Privés de capi¬taux, et n'ayant à leur disposition qu'un très-petit bien, ils font souvent des dettes ; dans les mauvais jours, ils engagent leurs biens par quelques hypothèques et se trouvent souvent réduits à posséder et à travailler pour le compte de leurs créanciers <ref target="#" type="renvoi_ext_oe">[les ˉOuv. europ. XV (A et B), XX (B)]</ref> Quelques grands propriétaires cultivent, pour leur propre compte, de vastes terrains en alternant la culture des cé¬réales avec celle des plantes fourragères et en entretenant des quan¬tités considérables de vaches, de bœufs et de chevaux. Dans ce cas ils prennent des journaliers appartenant à la classe des propriétaires <ref target="#" type="renvoi_ext_oe">[les ˉOuv. europ. XXVII (B)]</ref> et habitant généralement dans les vil¬lages et dans des hameaux composés de peu de maisons très-misé¬rables. La plus grande partie de la Toscane est formée de collines cultivées en forèts d'oliviers (ex. : collines de Pise, Calci, ˉButi ; et collines de l'ancien duché de Lucques et du territoire de ˉPietra¬Santa) ou en champs arables, plantés de vignes et d'oliviers, dans l'intervalle desquels on sème des céréales, des fourrages et quelques légumineuses.</p>
+       <p xml:id="para_10_254_176">Sur ces collines on a, depuis une quarantaine d'années, trans¬formé en champs cultivés, comme il a été dit, une grande partie des bois, dont il reste toutefois une assez grande étendue, et ils sont généralement entrecoupés de terres arables ou réunis dans les parties les plus hautes. Dans les montagnes peu élevées, on ren¬contre souvent une petite maison de paysans qui cultivent quelques champs au milieu des bois.</p>
+       <p xml:id="para_10_254_177">Les arbres existant dans les bois des collines et des montagnes les moins élevées, sont : les chataigniers cultivés pour la production du bois de construction, pour la récolte des chataignes (assez abon¬dantes dans les montagnes de Pistoia, du Casentino, de Luc¬ques, etc.) ou maintenus en taillis pour faire des échalas, etc. ; les chênes et chênes-verts, dont les glands servent à la nourriture des porcs, ou que l'on maintient en taillis pour bois de chauffage ; les pins, dont de grandes forêts se trouvent près de la mer, aux envi¬rons de Pise, dans les Maremmes, et dans les collines du al di Pesa, non loin de Florence ; enfin les aunes, les acacias, les trem¬bles, etc. Dans les montagnes les plus hautes en rencontre de belles forêts de pins, sapins, mélèzes et hêtres ; dans la partie des Apen¬nins qui avoisine le Casentino, près des sources du Tibre et de l'Arno, de vastes plantations ont été faites depuis une vingtaine d'années. Excepté dans les grandes forêts des Apennins qui sont exploitées à l'aide de journaliers, le système du métayage est sou¬vent en usage pour les bois qui produisent des fruits, tels que cha<pb facs="#facs_258" n="255" source="lesouvriersdesde01sociuoft_0261.xml"/>taignes et glands. Les grands propriétaires ont toutefois de vastes troupeaux de brebis et de porcs qu'ils tiennent pour leur propre compte ; et les bois de construction, ainsi que les taillis, sont ex¬ploités généralement pour le compte de ceux qui les possèdent ou vendus par eux sur pied.</p>
+       <p xml:id="para_10_255_179">Le pâturage des troupeaux des petits propriétaires est toléré dans beaucoup de bois, qui en souffrent assez ; les grands troupeaux passent l'été dans les pays de montagnes et l'hiver dans les Marem¬mes. La omagne entretient des troupeaux considérables de din¬dons.</p>
+       <p xml:id="para_10_255_180">Les bestiaux élevés généralement dans les fermes des collines sont les bœufs et vaches de labour, des vaches laitières, des jeunes veaux, des veaux pour l'engraissement, des mulets, des ânes, des chevaux pour les transports.</p>
+       <p xml:id="para_10_255_181">Les collines, en partie boisées et en partie cultivées en oliviers, vignes, céréales, fourrages, légumineuses, couvrent la plus grande étendue de la Toscane et c'est d'une ferme de colline qu'a été tiré l'exemple qui forme le sujet de la présente monographie.</p>
+       <p xml:id="para_10_255_182">Le système du métayage (ˉMeazaeria ou colonia paraiaria) est suivi dans toutes les collines, dans la partie cultivée des montagnes et dans la plus grande partie des plaines. Les petits propriétaires et les tenanciers sont encore plus malheureux dans les collines que dans les plaines ; parce que la rapidité des cours d'eau oblige les cultiva¬teurs des collines à soutenir les champs par des murs ou des digues, à régler les eaux, à leur mettre des obstacles pour en diminuer la rapidité et à utiliser les terres emportées par elles ; ce qui demande de fréquentes avances de fonds : en outre les récoltes de l'huile et du vin n'étant pas régulières, mais une suite de mauvaises années succédant souvent à une belle récolte, il faut beaucoup de pré¬voyance, et plus que n'en ont généralement les classes ouvrières. Toutefois il y a beaucoup de propriétaires-cultivateurs assez heu¬reux ; mais le sort des métayers (meaioli) est généralement préfé¬rable. Il y a plusieurs familles de paysans métayers qui possèdent des terrains et qui aiment mieux les faire cultiver par d'autres fa¬milles de métayers, plutôt que de quitter le podere de leur maître et de les cultiver par elles-mêmes.</p>
+       <p xml:id="para_10_255_183">La portion de terrain que doit cultiver une famille de paysans nétaers, est ce qu'on appelle le podere : la famille occcupe ordinai¬rement une maison sise au milieu de ce terrain et presque jamais les paysans n'habitent dans les villages.</p>
+       <p xml:id="para_10_255_184">Les villages et les petits bourgs sont habités par des journaliers se livrant généralement aux travaux agricoles pour aider les cultiva¬teurs dans le labourage des terres, et pendant les principales récol<pb facs="#facs_259" n="256" source="lesouvriersdesde01sociuoft_0262.xml"/>tes ou pour prendre part aux travaux du gouvernement des commu¬nes et des particuliers pour entretiens, constructions, ou défriche¬ments, etc. Ces journaliers (pigionali) sont les prolétaires des campagnes de la Toscane et en font la désolation par leur misère et par leurs habitudes de vol à l'égard des produits des champs.</p>
+       <p xml:id="para_10_256_186">Trop souvent exposés à l'indigence par suite du manque de tra¬vaux, des mauvais temps, de malheurs de famille et d'inconduite, ils se transforment en mendiants et en voleurs; si bien que les propriétaires se croient parfois forcés de faire exécuter des tra¬vaux dans le but de les rendre moins dangereux ; et c'est ce même but que se proposent dans certaines années les communes en faisant exécuter des travaux peu utiles : ce qui cause un véritable dérange¬ment dans la fortune publique et privée. La classe des journaliers, jadis assez peu nombreuse, s'est accrue depuis plusieurs années par suite du relâchement des liens de famille parmi les métayers, par la multiplication des mariages dans cette classe, et par l'appât des gains faciles que donnaient les grands travaux publics et privés qui ont été exécutés en Toscane pendant une longue série d'années très¬prospères, depuis 1820 jusqu'en 1847. Tandis que les hommes tra¬vaillent, quand ils ont de l'ouvrage, les femmes rôdent dans les champs et surtout dans les bois exerçant le maraudage comme un véritable métier <ref target="#" type="renvoi_ext_oe">[les ˉOuv. europˉ. XXVI (B)]</ref>.</p>
+       <p xml:id="para_10_256_187">Parmi les journaliers il y en a qui, par quelques travaux spéciaux qu'ils savent exécuter, gagnent une journée plus élevée que le prix ordinaire (0ᶠ84). Les macons, les cantonniers des grands chemins, les ouvriers des chemins de fer, Ies faiseurs de briques, etc., les ouvriers qui travaillent le bois, et ceux qui sont employés à quelques travaux particuliers dans les fermes, etc., gagnent généralement depuis 1ᶠ12 jusqu'à 2ᶠ 24.</p>
+       <p xml:id="para_10_256_188">Dans les mêmes villages habitent aussi les artisans qui exercent les métiers nécessaires à la campagne, tels que ceux de charpen¬tiers, de charrons, de forgerons, de petits marchands ambulants, etc. Toute cette classe de travailleurs, employés autrement que comme simples journaliers, diffère beaucoup de ces derniers ; ils sont beau¬Coup plus rangés et plus moraux.</p>
+       <p xml:id="para_10_256_189">Les grands villages sont habités par quelques grands et petits propriétaires, et surtout par des marchands de produits du sol, tels que le blé, l'huile, le bois ; et par quelques capitalistes de peu de moyens exerçant l'usure aux dépens des paysans.</p>
+       <p xml:id="para_10_256_190">Les communes sont très-étendues en Toscane, et contiennent dans leur territoire plusieurs villages et une grande quantité de maisons éparpillées dans la campagne.</p>
+       <p xml:id="para_10_256_191">Il y a beaucoup de petites propriétés appartenant à des petits<pb facs="#facs_260" n="257" source="lesouvriersdesde01sociuoft_0263.xml"/>propriétaires qui ont un ou deux poeri et une maison de campagne, surtout aux environs des villes ; car l'ambition de la population est de posséder une maison de campagne pour y passer l'automne et le printemps, et un grand nombre de tailleurs, de serruriers et d'au¬tres artisans et petits marchands, notamment de Florence, achètent une propriété de ce genre dès qu'ils ont amassé par leurs épargnes un petit capital.</p>
+       <p xml:id="para_10_257_193">Les propriétaires plus considérables ont une maison de campagne près de laquelle se trouvent les ateliers de fabrication de l'huile, du lin, etc., ainsi que les magasins de produits agricoles et l'habita¬tion de l'administrateur (fattore) et de ses aides. Chaque fattoriaˉ, ou assemblage de poderi dépendant d'un même administrateur, se compose de plusieurs poderi, dont chacun est travaillé et cultivé par une famille de métayers. Les bois sont gardés par des gardes fores¬tiers, et ily a généralement quelques terrains cultivés pour le compte du propriétaire par des ouvriers journaliers sous la direction dufat¬tore. Les fattorie se composent d'un nombre de poderi, qui varie de cinq à six jusqu'à soixante et quatre-vingts : en moyenne, il est de dix à trente.</p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_18">
-        (B) SUR L'ÉDUCATION PUBLIQUE PARMI LES PAYSANS DE LA TOSCANE.
-       </head>
-       <p xml:id="para_10_257_195">
-        La population indigène de la Toscane professe la religion catho¬lique romaine avec ferveur ; elle manifeste, avec une grande assi¬duité aux offices divins, beaucoup de tendance au culte des images, aux processions et à toutes les pompes du culte catholique. Dans les églises il y a souvent des fêtes, et chaque année deux membres de la confrérie sont chargés de recueillir les offrandes des fidèles pour toutes 'celles. de l'année, de faire les provisions et de régler les fêtes d'accord avec le curé. Les jours fériés d'une paroisse attirent des autres paroisses une assez grande affluence, et il y a souvent une émulation entre les habitants des différentes paroisses à qui aura la plus belle fête.
-       </p>
-       <p xml:id="para_10_257_196">
-        Les paysans, même les plus pauvres, tiennent beaucoup à faire célébrer des funérailles à leurs morts, et dans l'opinion publique les plus riches sont ceux pour lesquels sonnent le plus longtemps les cloches, se disent le plus de messes et brûlent le plus grand nombre de cierges.
-       </p>
-       <p xml:id="para_10_257_197">
-        Les moyens d'instruction varient suivant les communes. Dans quelques-unes, où il y a de gros villages, on trouve des écoles com¬munales ; dans d'autres, ce sont des écoles privées, où l'on apprend la lecture, l'écriture et l'arithmétique ; plusieurs curés tiennent aussi quelques petites écoles.
-       </p>
-       <p xml:id="para_10_258_199">
-        <pb facs="#facs_261" n="258" source="lesouvriersdesde01sociuoft_0264.xml"/>
-        Dans la commune qu'habite la famille décrite dans cette mono¬graphie, il n'y a point de village considérable : il y existe deux écoles communales qui ne sont à la portée que d'une partie de la population ; mais il y a des maîtres privés qui vont de maison en maison pour donner des leçons, moyennant un salaire de 0ᶠ56 à 1ᶠ 68 par mois pour trois leçons par semaine. Ces maîtres qui col¬portent l'instruction dans les campagnes sont rarement des institu¬teurs de profession, cependant plusieurs gagnent leur vie de cette façon, et donnent jusqu'à huit et dix leçons par jour en parcou¬rant un espace très-considérable. L'auteur en a connu un qui fai¬sait de la sorte un parcours de 20 à 25 kilomètres par jour pour gagner à peu près un franc. Il est vrai qu'il avait en même tep un petit commerce de comestibles, de sel et de tabac, tenu par sa femme, et qu'il était organiste de la paroisse ; ce dernier poste lui rapportait 1ᶠ 68 chaque fois qu'il jouait, c'est-à-dire aux jours des fêtes solennelles. Cesmaîtres de profession tirent, en outre, quel¬ques ressources des commissions que leur procure leur réputation, pour écrire des demandes officielles de grâces, secours, dots
-        <ref target="#part_02_04_13" type="renvoi_int_mono">
-         (§ 13)
-        </ref>
-        , dégrèvements d'impôts, etc., et pour opérer quelques liquidations de comptes dans les familles, ou dans les confréries et les paroisses. S'ils ont une habileté réelle, ce qui est assez rare, il y en a qui ont le bonheur de donner des leçons aux enfants des propriétaires pen¬dant leur séjour à la campagne (villeggiatura). Le plus souvent ces maîtres à domicile sont des paysans ou des chefs de boutique qui, ayant reçu quelque instruction, donnent des leçons dans le voisi¬nage le soir, les jours de fête et aux heures de repos, et pour ceux-ci tout salaire est bon, puisque c'est un surplus ajouté à leurs revenus ordinaires. Quant aux jeunes filles, il y a beaucoup de femmes qui tiennent des écoles où elles enseignent à coudre, à blanchir, à faire les habits d'hommes ou les robes pour femmes, et plus rarement à lire et à écrire. La rétribution varie aussi de 0ᶠ56 à 1ᶠ 68 par mois. Le catéchisme est enseigné aux enfants par les curés dans l'après-midi des dimanches.
-       </p>
-       <p xml:id="para_10_258_200">
-        L'instruction n'est pas du goût des paysans ; cependant elle s'étend beaucoup depuis quelques années, surtout dans les contrées les plus rapprochées des villes et dans celles qui sont fréquentées par les propriétaires.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_18">(B) SUR L'ÉDUCATION PUBLIQUE PARMI LES PAYSANS DE LA TOSCANE.</head>
+       <p xml:id="para_10_257_195">La population indigène de la Toscane professe la religion catho¬lique romaine avec ferveur ; elle manifeste, avec une grande assi¬duité aux offices divins, beaucoup de tendance au culte des images, aux processions et à toutes les pompes du culte catholique. Dans les églises il y a souvent des fêtes, et chaque année deux membres de la confrérie sont chargés de recueillir les offrandes des fidèles pour toutes 'celles. de l'année, de faire les provisions et de régler les fêtes d'accord avec le curé. Les jours fériés d'une paroisse attirent des autres paroisses une assez grande affluence, et il y a souvent une émulation entre les habitants des différentes paroisses à qui aura la plus belle fête.</p>
+       <p xml:id="para_10_257_196">Les paysans, même les plus pauvres, tiennent beaucoup à faire célébrer des funérailles à leurs morts, et dans l'opinion publique les plus riches sont ceux pour lesquels sonnent le plus longtemps les cloches, se disent le plus de messes et brûlent le plus grand nombre de cierges.</p>
+       <p xml:id="para_10_257_197">Les moyens d'instruction varient suivant les communes. Dans quelques-unes, où il y a de gros villages, on trouve des écoles com¬munales ; dans d'autres, ce sont des écoles privées, où l'on apprend la lecture, l'écriture et l'arithmétique ; plusieurs curés tiennent aussi quelques petites écoles.</p>
+       <p xml:id="para_10_258_199"><pb facs="#facs_261" n="258" source="lesouvriersdesde01sociuoft_0264.xml"/> Dans la commune qu'habite la famille décrite dans cette mono¬graphie, il n'y a point de village considérable : il y existe deux écoles communales qui ne sont à la portée que d'une partie de la population ; mais il y a des maîtres privés qui vont de maison en maison pour donner des leçons, moyennant un salaire de 0ᶠ56 à 1ᶠ 68 par mois pour trois leçons par semaine. Ces maîtres qui col¬portent l'instruction dans les campagnes sont rarement des institu¬teurs de profession, cependant plusieurs gagnent leur vie de cette façon, et donnent jusqu'à huit et dix leçons par jour en parcou¬rant un espace très-considérable. L'auteur en a connu un qui fai¬sait de la sorte un parcours de 20 à 25 kilomètres par jour pour gagner à peu près un franc. Il est vrai qu'il avait en même tep un petit commerce de comestibles, de sel et de tabac, tenu par sa femme, et qu'il était organiste de la paroisse ; ce dernier poste lui rapportait 1ᶠ 68 chaque fois qu'il jouait, c'est-à-dire aux jours des fêtes solennelles. Cesmaîtres de profession tirent, en outre, quel¬ques ressources des commissions que leur procure leur réputation, pour écrire des demandes officielles de grâces, secours, dots (<ref target="#part_02_04_13" type="renvoi_int_mono">§ 13</ref>), dégrèvements d'impôts, etc., et pour opérer quelques liquidations de comptes dans les familles, ou dans les confréries et les paroisses. S'ils ont une habileté réelle, ce qui est assez rare, il y en a qui ont le bonheur de donner des leçons aux enfants des propriétaires pen¬dant leur séjour à la campagne (villeggiatura). Le plus souvent ces maîtres à domicile sont des paysans ou des chefs de boutique qui, ayant reçu quelque instruction, donnent des leçons dans le voisi¬nage le soir, les jours de fête et aux heures de repos, et pour ceux-ci tout salaire est bon, puisque c'est un surplus ajouté à leurs revenus ordinaires. Quant aux jeunes filles, il y a beaucoup de femmes qui tiennent des écoles où elles enseignent à coudre, à blanchir, à faire les habits d'hommes ou les robes pour femmes, et plus rarement à lire et à écrire. La rétribution varie aussi de 0ᶠ56 à 1ᶠ 68 par mois. Le catéchisme est enseigné aux enfants par les curés dans l'après-midi des dimanches.</p>
+       <p xml:id="para_10_258_200">L'instruction n'est pas du goût des paysans ; cependant elle s'étend beaucoup depuis quelques années, surtout dans les contrées les plus rapprochées des villes et dans celles qui sont fréquentées par les propriétaires.</p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_19">
-        (C) SUR LE MÉTAYAGE PARMI LES PAYSANS TOSCANS.
-       </head>
-       <p xml:id="para_10_258_202">
-        Le paysan décrit dans ce travail appartient à la classe des ouvriers libres ; une portion des produits de son travail lui tient lieu de salaire. Le paysan métayer est sous la dépendance du propriétaire
-        <pb facs="#facs_262" n="259" source="lesouvriersdesde01sociuoft_0265.xml"/>
-        pour ce qui tient au mode d'exploitation du sol, à l'époque des dif férentes cultures, à la vente et à l'achat des bêtes, à l'exécution des travaux dans le podere ou en dehors pour le compte du proprié¬taire ; mais, quant à ce qui concerne les cultures, il n'existe presque pas de paysan qui ne se conforme à l'usage général du pays. Les rap¬ports entre les propriétaires et les paysans sont réglés par l'usage, les lois s'en sont occupées bien peu ; et ordinairement les choses marchent d'elles-mêmes sans donner lieu à des discussions ou à des procès. Le propriétaire quiveut congédier un paysan ou le paysan qui veut quitter un podere doit en donner avis suivant la forme légale avant la fin de novembre, pour que la maison soit quittéele 1ᵉʳ mars suivant. Le paysan qui part doit permettre à son successeur de faire les travaux nécessaires pour les récoltes futures ; mais il a droit à percevoir la moitié de toutes les récoltes auxquelles il a concouru par son travail. La maison appartient au propriétaire, qui la donne gratuitement au paysan : dans des cas extrêmement rares, on lui fait payer un faible loyer. Les animaux appartiennent, en général, pour la moitié au propriétaire et pour l'autre moitié au paysan : les dépen¬ses en argent pour leur entretien, ainsi que les pertes et les béné¬fices, sont divisées par moitié. Les récoltes sont toutes divisées par moitié. D'ailleurs, les conditions varient selon la localité, et il arrive ordifairement que là où les produits sont abondants et riches sans exiger un travail proportionnel à leur valeur, on stipule des condi¬tions plus favorables au propriétaire, telles que les semences à la charge du paysan, des redevances en nature ou en travail personnel envers le propriétaire, une forte partie des dépenses de fumier, échalas, etc., mise à la charge des paysans, etc. Au contraire, das les poderi où les produits ne sont pas assez considérables pour payer le travail du paysan, on établit des conditions qui lui soient plus favorables, telles que les semences, les fumiers, les échalas, etc., à la charge du propriétaire en totalité ou en partie ; peu de redevances à la charge du métayer, etc. Le commerce des bestiaux occupe beaucoup les paysans, qui sont très-enclins à faire des procès sur¬tout au sujet de la qualité et de la santé du bétail.
-       </p>
-       <p xml:id="para_10_259_204">
-        Chaque famille a un chef (capoccio), et la femme s'appelle ménagère (nassagia). Le chef est ordinairement le père de famille, mais parfois c'est le frère aîné, et quelquefois c'est l'individu le plus capable de la famille, choisi d'accord par tous, sans qu'il soit ni le père ni l'âné. Quoique cela se présente moins souvent qu'autrefois, il arrive toute¬fois que plusieurs individus forment une même famille et cultivent un même podereˉ sous la direction d'un chef, n'étant liés entre eux que par une parenté assez éloignée. Le chef de la famille, qui doit être reconnu tel par le propriétaire, est celui au nom duquel se
-        <pb facs="#facs_263" n="260" source="lesouvriersdesde01sociuoft_0266.xml"/>
-        font toutes les affaires, qui tient tout l'argent, pourvoit à tous les besoins du ménage et des individus de la famille, règle ses rap¬ports avec le propriétaire et avec les tiers en encaissant tous les re¬venus, etc. ; c'est le véritable représentant de cette société, dont il est le chef.
-       </p>
-       <p xml:id="para_10_260_206">
-        Les paysans sont généralement attachés à leur podereˉ, et il y a beaucoup de familles qui cultivent le même depuis plusieurs généra¬tions, quelques-unes mêmes depuis des siècles. Peu scrupuleux sur le partage des petits produits, tels que les fruits, etc., les paysans sont généralement assez honnêtes dans leurs rapports importants avec les propriétaires. Il y a quelques exemples de propriétaires qui lais¬saient aux paysans métayers tout le soin de partager les récoltes : ayant chargé plus tard de ce soin un adninistrateur, ils n'ont point trouvé de différence dans la part qui leur revenait. L'ivrognerie est assez rare, quoique le vin fût à bon marché avant le commencement de la maladie de la vigne. Les femmes sont bien traitées et labo¬rieuses. Le caractère des paysans est doux ; mais ils sont très-rusés, surtout dans les affaires d'intérêt et dans le commerce.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_19">(C) SUR LE MÉTAYAGE PARMI LES PAYSANS TOSCANS.</head>
+       <p xml:id="para_10_258_202">Le paysan décrit dans ce travail appartient à la classe des ouvriers libres ; une portion des produits de son travail lui tient lieu de salaire. Le paysan métayer est sous la dépendance du propriétaire<pb facs="#facs_262" n="259" source="lesouvriersdesde01sociuoft_0265.xml"/>pour ce qui tient au mode d'exploitation du sol, à l'époque des dif férentes cultures, à la vente et à l'achat des bêtes, à l'exécution des travaux dans le podere ou en dehors pour le compte du proprié¬taire ; mais, quant à ce qui concerne les cultures, il n'existe presque pas de paysan qui ne se conforme à l'usage général du pays. Les rap¬ports entre les propriétaires et les paysans sont réglés par l'usage, les lois s'en sont occupées bien peu ; et ordinairement les choses marchent d'elles-mêmes sans donner lieu à des discussions ou à des procès. Le propriétaire quiveut congédier un paysan ou le paysan qui veut quitter un podere doit en donner avis suivant la forme légale avant la fin de novembre, pour que la maison soit quittéele 1ᵉʳ mars suivant. Le paysan qui part doit permettre à son successeur de faire les travaux nécessaires pour les récoltes futures ; mais il a droit à percevoir la moitié de toutes les récoltes auxquelles il a concouru par son travail. La maison appartient au propriétaire, qui la donne gratuitement au paysan : dans des cas extrêmement rares, on lui fait payer un faible loyer. Les animaux appartiennent, en général, pour la moitié au propriétaire et pour l'autre moitié au paysan : les dépen¬ses en argent pour leur entretien, ainsi que les pertes et les béné¬fices, sont divisées par moitié. Les récoltes sont toutes divisées par moitié. D'ailleurs, les conditions varient selon la localité, et il arrive ordifairement que là où les produits sont abondants et riches sans exiger un travail proportionnel à leur valeur, on stipule des condi¬tions plus favorables au propriétaire, telles que les semences à la charge du paysan, des redevances en nature ou en travail personnel envers le propriétaire, une forte partie des dépenses de fumier, échalas, etc., mise à la charge des paysans, etc. Au contraire, das les poderi où les produits ne sont pas assez considérables pour payer le travail du paysan, on établit des conditions qui lui soient plus favorables, telles que les semences, les fumiers, les échalas, etc., à la charge du propriétaire en totalité ou en partie ; peu de redevances à la charge du métayer, etc. Le commerce des bestiaux occupe beaucoup les paysans, qui sont très-enclins à faire des procès sur¬tout au sujet de la qualité et de la santé du bétail.</p>
+       <p xml:id="para_10_259_204">Chaque famille a un chef (capoccio), et la femme s'appelle ménagère (nassagia). Le chef est ordinairement le père de famille, mais parfois c'est le frère aîné, et quelquefois c'est l'individu le plus capable de la famille, choisi d'accord par tous, sans qu'il soit ni le père ni l'âné. Quoique cela se présente moins souvent qu'autrefois, il arrive toute¬fois que plusieurs individus forment une même famille et cultivent un même podereˉ sous la direction d'un chef, n'étant liés entre eux que par une parenté assez éloignée. Le chef de la famille, qui doit être reconnu tel par le propriétaire, est celui au nom duquel se<pb facs="#facs_263" n="260" source="lesouvriersdesde01sociuoft_0266.xml"/>font toutes les affaires, qui tient tout l'argent, pourvoit à tous les besoins du ménage et des individus de la famille, règle ses rap¬ports avec le propriétaire et avec les tiers en encaissant tous les re¬venus, etc. ; c'est le véritable représentant de cette société, dont il est le chef.</p>
+       <p xml:id="para_10_260_206">Les paysans sont généralement attachés à leur podereˉ, et il y a beaucoup de familles qui cultivent le même depuis plusieurs généra¬tions, quelques-unes mêmes depuis des siècles. Peu scrupuleux sur le partage des petits produits, tels que les fruits, etc., les paysans sont généralement assez honnêtes dans leurs rapports importants avec les propriétaires. Il y a quelques exemples de propriétaires qui lais¬saient aux paysans métayers tout le soin de partager les récoltes : ayant chargé plus tard de ce soin un adninistrateur, ils n'ont point trouvé de différence dans la part qui leur revenait. L'ivrognerie est assez rare, quoique le vin fût à bon marché avant le commencement de la maladie de la vigne. Les femmes sont bien traitées et labo¬rieuses. Le caractère des paysans est doux ; mais ils sont très-rusés, surtout dans les affaires d'intérêt et dans le commerce.</p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_20">
-        (D) SUR L'ADMINISTRATION INTÉRIEURE DE LA FAMILLE CHEZ LES MÉTAYERS TOSCANS.
-       </head>
-       <p xml:id="para_10_260_208">
-        Le paysan toscan accumule rarement de l'argent, et il a très-peu l'habitude de le placer à intérêt. Quand il a fait des épargnes, il a l'habitude de les employer dans le commerce des produits agricoles, tels que blé, vin, huile, en les achetant des paysans plus pauvres, pour les revendre aux marchés. Les paysans entretiennent parfois des bêtes pour leur propre compte, et quand ils ont assez d'argent ils achètent des maisons ou des terrains. Les épargnes sont em¬ployées à vendre aux paysans pauvres les blés qui leur manquent, pour en retirer lors de la récolte des produits à grand rabais.
-       </p>
-       <p xml:id="para_10_260_209">
-        A la fin de chaque année, les chefs de famille règlent leur compte avec le propriétaire ; et on signe sur le livre d'administration de celui-ci et sur un livret gardé par le paysan les résultats du compte courant. La dette ou la créance résultant de ces comptes ne porte aucun intérêt. A l'occasion du règlement des comptes (saldi), on re¬marque la prodigieuse mémoire des paysans qui n'écrivent rien et se rappellent tout ; et chaque famille garde ses livrets comme des titres de noblesse. Il y en a qui en possèdent avec des dates très-anciennes.
-       </p>
-       <p xml:id="para_10_260_210">
-        Le capoccio achète le blé nécessaire à la nourriture de la famille, en outre de celui qui a été récolté (lorsqu'il n'est pas fourni par le propriétaire en compte courant). Il paie à la fin de l'année ou à l'époque des récoltes les notes des fournisseurs de viandes, de
-        <pb facs="#facs_264" n="261" source="lesouvriersdesde01sociuoft_0267.xml"/>
-        pâtes, etc., et les autres dettes ; il paie aussi le peu de salaires dû aux journaliers pris en aide pour les grands travaux. Ordinaire¬ment ceux-ci ne reçoivent en argent que de 0ᶠ42 à 0ᶠ56 par jour et avec cela une bonne nourriture. En général, c'est par la vente des produits récoltés superflus à la consommation du ménage que l'on acquiert l'argent nécessaire pour ces paiements. Pendant le reste de l'année, les familles qui sont dans une condition moyenne, telle que celle décrite dans cétte monographie, gardent le produit principal de la récolte et le vendent peu à peu, au fur et à mesure des be¬soins d'argent. Les familles plus aisées font le commerce ainsi qu'il a été dit plus haut : celles qui sont plus pauvres reçoivent en nature du propriétaire ce qu'il leur faut pour vivre et quelque peu d'ar¬gent en compte courant, en lui laissant les récoltes qui excèdent la consommation du ménage, pour des prix établis d'uncommun accord.
-       </p>
-       <p xml:id="para_10_261_212">
-        Il arrive quelquefois que des familles, venant à perdre leur chef qui laisse des enfants en bas âge, continuent toutefois à cultiver le podere en prenant des journaliers ou des domestiques de ferme (gar¬aon) qui habitent dans la communauté : tant que les enfants sont trop jeunes, le propriétaire paie les journaliers, les garaoni et tout ce qu'il faut pour l'entretien de la famille et la culture du podereˉ; souvent la dette du métayer envers son propriétaire s'élève alors jusqu'à 1,500ᶠ et 2,000ᶠ, et si les enfants, devenus jeunes gens, sont honnêtes et laborieux, ils acquittent bien viteleur dette. L'auteur peut citer une famille qui, par cette raison, avait à peu près 1,500ᶠ de dette en 1840 : elle avait une créance de 2,000ᶠ en 1852. Par contre-coup, il y a bon nombre de ces créances des propriétaires qui sont perdues ; mais en cela il faut que les propriétaires mettent beau¬coup de soins pour tenir compte des conditions de nombre, de sexe, d'âge, des qualités morales des individus composant la famille, et des ressources du podere. Ce compte courant est la base de l'admi¬nistration des métayers toscans. Le capoccio ne garde donc auprès de lui que fort peu d'argent ; c'est aux vases d'huile, aux tonneaux de vin ou à la bourse du propriétaire qu'il a recours, quand il en a besoin. Le numéraire est enfermé dans les armoires ou caché dans la paillasse de quelque lit. La massagia garde les revenus du poulailler pour acheter les chanvres, etc., et faire le linge pour la famille : les massaie sont fières de cette administration indépen¬dante
-        <ref target="#ID-003a" type="renvoi_int_od2m">
-         [N° 3 (C)]
-        </ref>
-        .
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_20">(D) SUR L'ADMINISTRATION INTÉRIEURE DE LA FAMILLE CHEZ LES MÉTAYERS TOSCANS.</head>
+       <p xml:id="para_10_260_208">Le paysan toscan accumule rarement de l'argent, et il a très-peu l'habitude de le placer à intérêt. Quand il a fait des épargnes, il a l'habitude de les employer dans le commerce des produits agricoles, tels que blé, vin, huile, en les achetant des paysans plus pauvres, pour les revendre aux marchés. Les paysans entretiennent parfois des bêtes pour leur propre compte, et quand ils ont assez d'argent ils achètent des maisons ou des terrains. Les épargnes sont em¬ployées à vendre aux paysans pauvres les blés qui leur manquent, pour en retirer lors de la récolte des produits à grand rabais.</p>
+       <p xml:id="para_10_260_209">A la fin de chaque année, les chefs de famille règlent leur compte avec le propriétaire ; et on signe sur le livre d'administration de celui-ci et sur un livret gardé par le paysan les résultats du compte courant. La dette ou la créance résultant de ces comptes ne porte aucun intérêt. A l'occasion du règlement des comptes (saldi), on re¬marque la prodigieuse mémoire des paysans qui n'écrivent rien et se rappellent tout ; et chaque famille garde ses livrets comme des titres de noblesse. Il y en a qui en possèdent avec des dates très-anciennes.</p>
+       <p xml:id="para_10_260_210">Le capoccio achète le blé nécessaire à la nourriture de la famille, en outre de celui qui a été récolté (lorsqu'il n'est pas fourni par le propriétaire en compte courant). Il paie à la fin de l'année ou à l'époque des récoltes les notes des fournisseurs de viandes, de<pb facs="#facs_264" n="261" source="lesouvriersdesde01sociuoft_0267.xml"/>pâtes, etc., et les autres dettes ; il paie aussi le peu de salaires dû aux journaliers pris en aide pour les grands travaux. Ordinaire¬ment ceux-ci ne reçoivent en argent que de 0ᶠ42 à 0ᶠ56 par jour et avec cela une bonne nourriture. En général, c'est par la vente des produits récoltés superflus à la consommation du ménage que l'on acquiert l'argent nécessaire pour ces paiements. Pendant le reste de l'année, les familles qui sont dans une condition moyenne, telle que celle décrite dans cétte monographie, gardent le produit principal de la récolte et le vendent peu à peu, au fur et à mesure des be¬soins d'argent. Les familles plus aisées font le commerce ainsi qu'il a été dit plus haut : celles qui sont plus pauvres reçoivent en nature du propriétaire ce qu'il leur faut pour vivre et quelque peu d'ar¬gent en compte courant, en lui laissant les récoltes qui excèdent la consommation du ménage, pour des prix établis d'uncommun accord.</p>
+       <p xml:id="para_10_261_212">Il arrive quelquefois que des familles, venant à perdre leur chef qui laisse des enfants en bas âge, continuent toutefois à cultiver le podere en prenant des journaliers ou des domestiques de ferme (gar¬aon) qui habitent dans la communauté : tant que les enfants sont trop jeunes, le propriétaire paie les journaliers, les garaoni et tout ce qu'il faut pour l'entretien de la famille et la culture du podereˉ; souvent la dette du métayer envers son propriétaire s'élève alors jusqu'à 1,500ᶠ et 2,000ᶠ, et si les enfants, devenus jeunes gens, sont honnêtes et laborieux, ils acquittent bien viteleur dette. L'auteur peut citer une famille qui, par cette raison, avait à peu près 1,500ᶠ de dette en 1840 : elle avait une créance de 2,000ᶠ en 1852. Par contre-coup, il y a bon nombre de ces créances des propriétaires qui sont perdues ; mais en cela il faut que les propriétaires mettent beau¬coup de soins pour tenir compte des conditions de nombre, de sexe, d'âge, des qualités morales des individus composant la famille, et des ressources du podere. Ce compte courant est la base de l'admi¬nistration des métayers toscans. Le capoccio ne garde donc auprès de lui que fort peu d'argent ; c'est aux vases d'huile, aux tonneaux de vin ou à la bourse du propriétaire qu'il a recours, quand il en a besoin. Le numéraire est enfermé dans les armoires ou caché dans la paillasse de quelque lit. La massagia garde les revenus du poulailler pour acheter les chanvres, etc., et faire le linge pour la famille : les massaie sont fières de cette administration indépen¬dante <ref target="#ID-003a" type="renvoi_int_od2m">[N° 3 (C)]</ref>.</p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_03_01_21">
-        (E) SUR L'ÉTAT SANITAIRE DES PAYSANS TOSCANS.
-       </head>
-       <p xml:id="para_10_261_214">
-        L'air de la Toscane est généralement pur et salubre, à l'excep¬tion des Maremmes et de quelques localités assez restreintes dans
-        <pb facs="#facs_265" n="262" source="lesouvriersdesde01sociuoft_0268.xml"/>
-        des plaines très-basses ou près de quelques lacs marécageux. La santé des habitants des campagnes est bonne, et il est rare qu'une famille de paysàns n'ait pas un vieillard de 70 ans et au delà, surtout dans les pays de collines. Les femmes, se soignant fort peu après leurs couches et ayant beaucoup d'enfants, vieillissent avant l'âge, et perdent la fraîcheur du teint. Les enfants, jouissant d'une grande liberté et d'une nourriture bonne et abondante, sont beaux et bien constitués.
-       </p>
-       <p xml:id="para_10_262_216">
-        Les habitants des campagnes sont sujets à des maladies provenant de la suppression de la transpiration après quelque travail fatigant; les rhumes qui s'ensuivent, étant souvent négligés, se transforment en maladies inflammatoires. Ils sont exposés aussi aux influences épidémiques du typhus et surtout de la suette miliaire.
-       </p>
-       <p xml:id="para_10_262_217">
-        La dissémination des maisons de paysans au milieu de chaque podere est un obstacle à l'organisation du service médical ainsi qu'à celle de l'enseignement de la part des communes rurales
-        <ref target="#part_03_01_18" type="renvoi_int_mono">
-         (B)
-        </ref>
-        . Il y a toutefois des médecins payés par les communes, résidant sur cer¬tains points de leur territoire ou dans les centres de population, s'il y en a, et tenus à traiter gratuitement les pauvres. La commune ou habite la famille ici décrite entretient trois médecins. Les distances ne permettent pas toujours que leurs soins puissent être suffisam¬ment empressés ni assidus ; en outre, les paysans ont l'habitude de l'appeler après plusieurs jours de maladie. Ajoutez à cela la négli¬gence des malades pour leur santé, et le peu d'habileté des médecins des campagnes, il s'ensuit que les maladies graves sont souvent mor¬telles. Lorsqu'il y a lieu, les malades sont transportés à l'hôpital le plus rapproché sur une bonne litière à ressorts, par les soins de la confrérie de la Miséricorde ; ou sur une charrette découverte lors¬qu'il n'y a pas de telles confréries.
-       </p>
-       <p xml:id="para_10_262_218">
-        Assez souvent les familles des métayers ont un abonnement avec le médecin, auquel ils donnent une redevance habituellement payée en produits de leur podereˉ. Le prix de l'abonnement augmente ordi¬nairement en proportion de la distance et du nombre des individus qui composent la famille. Dans la commune où habite la famille décrite, les redevances sont en moyenne les suivantes : blé, 25 l. ; huile, 2 à 4 k. ; ou 13ᶠ en argent. Certains médecins ont l'habitude de donner un dîner à tous les capocci des familles abonnées avec eux, et c'est dans cette occasion qu'ils reçoivent leurs redevances. Si les paysans sont contents, ils donnent en outre des cadeaux, consistant surtout en fruits, poulets et œufs.
-       </p>
+       <head type="sub_sub_section" xml:id="part_03_01_21">(E) SUR L'ÉTAT SANITAIRE DES PAYSANS TOSCANS.</head>
+       <p xml:id="para_10_261_214">L'air de la Toscane est généralement pur et salubre, à l'excep¬tion des Maremmes et de quelques localités assez restreintes dans<pb facs="#facs_265" n="262" source="lesouvriersdesde01sociuoft_0268.xml"/>des plaines très-basses ou près de quelques lacs marécageux. La santé des habitants des campagnes est bonne, et il est rare qu'une famille de paysàns n'ait pas un vieillard de 70 ans et au delà, surtout dans les pays de collines. Les femmes, se soignant fort peu après leurs couches et ayant beaucoup d'enfants, vieillissent avant l'âge, et perdent la fraîcheur du teint. Les enfants, jouissant d'une grande liberté et d'une nourriture bonne et abondante, sont beaux et bien constitués.</p>
+       <p xml:id="para_10_262_216">Les habitants des campagnes sont sujets à des maladies provenant de la suppression de la transpiration après quelque travail fatigant; les rhumes qui s'ensuivent, étant souvent négligés, se transforment en maladies inflammatoires. Ils sont exposés aussi aux influences épidémiques du typhus et surtout de la suette miliaire.</p>
+       <p xml:id="para_10_262_217">La dissémination des maisons de paysans au milieu de chaque podere est un obstacle à l'organisation du service médical ainsi qu'à celle de l'enseignement de la part des communes rurales (<ref target="#part_03_01_18" type="renvoi_int_mono">B</ref>). Il y a toutefois des médecins payés par les communes, résidant sur cer¬tains points de leur territoire ou dans les centres de population, s'il y en a, et tenus à traiter gratuitement les pauvres. La commune ou habite la famille ici décrite entretient trois médecins. Les distances ne permettent pas toujours que leurs soins puissent être suffisam¬ment empressés ni assidus ; en outre, les paysans ont l'habitude de l'appeler après plusieurs jours de maladie. Ajoutez à cela la négli¬gence des malades pour leur santé, et le peu d'habileté des médecins des campagnes, il s'ensuit que les maladies graves sont souvent mor¬telles. Lorsqu'il y a lieu, les malades sont transportés à l'hôpital le plus rapproché sur une bonne litière à ressorts, par les soins de la confrérie de la Miséricorde ; ou sur une charrette découverte lors¬qu'il n'y a pas de telles confréries.</p>
+       <p xml:id="para_10_262_218">Assez souvent les familles des métayers ont un abonnement avec le médecin, auquel ils donnent une redevance habituellement payée en produits de leur podereˉ. Le prix de l'abonnement augmente ordi¬nairement en proportion de la distance et du nombre des individus qui composent la famille. Dans la commune où habite la famille décrite, les redevances sont en moyenne les suivantes : blé, 25 l. ; huile, 2 à 4 k. ; ou 13ᶠ en argent. Certains médecins ont l'habitude de donner un dîner à tous les capocci des familles abonnées avec eux, et c'est dans cette occasion qu'ils reçoivent leurs redevances. Si les paysans sont contents, ils donnent en outre des cadeaux, consistant surtout en fruits, poulets et œufs.</p>
       </div>
      </div>
     </div>
