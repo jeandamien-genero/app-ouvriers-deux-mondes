@@ -62,7 +62,7 @@ def getting_coordinates() -> None:
     :return: None
     """
     start_time = time.time()
-    io = pandas.read_csv(make_csv("../csv/geocoder.csv"), index_col="Number", header=0, sep=",")
+    data = pandas.read_csv(make_csv("../csv/geocoder.csv"), index_col="Number", header=0, sep=",")
 
     def get_latitude(geolocate):
         """
@@ -86,13 +86,13 @@ def getting_coordinates() -> None:
             return geolocate.longitude
 
     geolocator = Nominatim(user_agent="You", timeout=5)
-    io['Localisation'] = io['Settlement'].map(str) + " " + io['Region'].map(str) + " " + io['Country'].map(str)
-    io.to_csv("../csv/geocoder.csv")
-    geolocate_column = io['Localisation'].apply(geolocator.geocode)
-    io['latitude'] = geolocate_column.apply(get_latitude)
-    io['longitude'] = geolocate_column.apply(get_longitude)
-    io = io.drop(["Settlement", "Region", "Country"], axis=1)
-    io.to_csv("../csv/geocoder.csv")
+    data['Localisation'] = data['Settlement'].map(str) + " " + data['Region'].map(str) + " " + data['Country'].map(str)
+    data.to_csv("../csv/geocoder.csv")
+    geolocate_column = data['Localisation'].apply(geolocator.geocode)
+    data['latitude'] = geolocate_column.apply(get_latitude)
+    data['longitude'] = geolocate_column.apply(get_longitude)
+    data = data.drop(["Settlement", "Region", "Country"], axis=1)
+    data.to_csv("../csv/geocoder.csv")
     print("--- %s seconds ---" % (time.time() - start_time))
 
 
