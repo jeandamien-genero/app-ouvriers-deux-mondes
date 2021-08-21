@@ -64,13 +64,26 @@ def getting_coordinates() -> None:
     start_time = time.time()
     io = pandas.read_csv(make_csv("../csv/geocoder.csv"), index_col="Number", header=0, sep=",")
 
-    def get_latitude(x):
-        if hasattr(x, 'latitude') and (x.latitude is not None):
-            return x.latitude
+    def get_latitude(geolocate):
+        """
+        Getting latitude
+        :param geolocate: string with placename region country
+        :return: latitude
+        :rtype: str
+        """
+        if hasattr(geolocate, 'latitude') and (geolocate.latitude is not None):
+            return geolocate.latitude
 
-    def get_longitude(x):
-        if hasattr(x, 'longitude') and (x.longitude is not None):
-            return x.longitude
+    def get_longitude(geolocate):
+        """
+        Getting longitude.
+        :param geolocate: string with placename region country
+        :type geolocate: str
+        :return: longitude
+        :rtype: str
+        """
+        if hasattr(geolocate, 'longitude') and (geolocate.longitude is not None):
+            return geolocate.longitude
 
     geolocator = Nominatim(user_agent="You", timeout=5)
     io['Localisation'] = io['Settlement'].map(str) + " " + io['Region'].map(str) + " " + io['Country'].map(str)
