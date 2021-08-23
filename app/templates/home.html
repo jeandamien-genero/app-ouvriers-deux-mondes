@@ -33,7 +33,7 @@
               var geojson = L.geoJson(data, {
                   onEachFeature: function (feature, layer) {
         // layer.bindPopup(feature.properties.Area_Name);
-        layer.bindPopup('<center><p><b>' + feature.properties.PlaceName + '</b></p></center>' + '<p><b> Monographie n°' + feature.properties.Number + ' :</b> <i><a href="http://127.0.0.1:5000/monographie/' + feature.properties.File + '">'+ feature.properties.Monograph + '</a></i>.<p><b> Date de publication :</b> ' + feature.properties.Date  + '<p><b> Localisation :</b> ' + feature.properties.Localisation  + '<p><b> Auteur :</b> ' + feature.properties.Investigator  + '</p>');
+        layer.bindPopup('<center><p><b>Monographie n°' + feature.properties.Number +  '</p>' + '<a href="http://127.0.0.1:5000/monographie/' + feature.properties.File + '">'+ feature.properties.Monograph + '</a></b></center><p><i> Auteur :</i> ' + feature.properties.Investigator  + '</p><i> Date de publication :</i> ' + feature.properties.Date  + '<p><i> Localisation :</i> ' + feature.properties.Localisation  + '</p>');
   }
 });
 
