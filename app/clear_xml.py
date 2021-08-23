@@ -96,8 +96,6 @@ def clear_file(input_file):
     # mettre les titres en minuscules :
     for key in titles:
       file = file.replace(key, titles[key])
-    # suppression des namespaces qui bloquent la transformation XSL
-    file = re.sub('(<TEI xml:id=".+" xml:lang="fr") xmlns=".+"( xmlns:xi=".+")?>', '\\1>', file)
     result = file
   with open(input_file, 'w') as wf:
     wf.write(result)

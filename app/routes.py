@@ -66,6 +66,12 @@ def txt_mono(mono_id):
     filename = "../app-ouvriers-deux-mondes/app/static/xml/" + mono_id
     clear_file(filename)
     source_doc = etree.parse(filename)
+    #xpath query for selecting all element nodes in namespace
+    query = "descendant-or-self::*[namespace-uri()!='']"
+    for element in source_doc.xpath(query):
+        #replace element name with its local name
+        element.tag = etree.QName(element).localname
+    etree.cleanup_namespaces(source_doc)
     xslt_doc = etree.parse("../app-ouvriers-deux-mondes/app/static/xsl/mono_od2m.xsl")
     xslt_transformer = etree.XSLT(xslt_doc)
     output_doc = xslt_transformer(source_doc)
