@@ -1,6 +1,6 @@
 {% extends "conteneur.html" %}
 {% block corps %}
-<div id="home-div">
+<div>
       <p style="text-align: center">
             → <a href="{{url_for('monographies')}}">Les monographies</a> | <a href="{{url_for('search')}}">Recherche</a> | <a href="{{url_for('home_en')}}">English</a> ←
       </p>
@@ -34,7 +34,6 @@
                   onEachFeature: function (feature, layer) {
         // layer.bindPopup(feature.properties.Area_Name);
         layer.bindPopup('<center><p><b>' + feature.properties.PlaceName + '</b></p></center>' + '<p><b> Monographie n°' + feature.properties.Number + ' :</b> <i><a href="http://127.0.0.1:5000/monographie/' + feature.properties.File + '">'+ feature.properties.Monograph + '</a></i>.<p><b> Date de publication :</b> ' + feature.properties.Date  + '<p><b> Localisation :</b> ' + feature.properties.Localisation  + '<p><b> Auteur :</b> ' + feature.properties.Investigator  + '</p>');
-        //EDIT HERE
   }
 });
 
