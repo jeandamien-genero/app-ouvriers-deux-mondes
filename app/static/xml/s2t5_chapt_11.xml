@@ -1,74 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-087a" xml:lang="fr">
+<TEI xml:id="ID-087a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription</title>
+    <title level="m" n="87" type="main">
+     Agriculteur du Pas-de-Calais (France)
+    </title>
+    <title level="s" type="desc">
+     Les Ouvriers des Deux Mondes - série 2, volume 5 - Transcription
+    </title>
+    <title level="m" type="short">
+     agriculteur-pas-de-calais-87
+    </title>
+    <author n="1" role="investigator">
+     Yan Kéravic
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
     <respStmt>
-     <persName>
-      <forename>Alix</forename>
-      <surname>Chagué</surname>
-      <affiliation>ingénieure de recherche et de développement,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>acquisition et structuration initiale des textes</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Jean-Damien</forename>
-      <surname>Généro</surname>
-      <affiliation from="2020-03" to="2020-09">stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-      <affiliation from="2020-09" to="2020-11">ingénieur d'études,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-      <affiliation from="2020-12">ingénieur d'études,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>encodage scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Stéphane</forename>
-      <surname>Baciocchi</surname>
-      <affiliation>ingénieur de recherche de l’EHESS,<orgName>Centre de recherches historiques</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Anne</forename>
-      <surname>Lhuissier</surname>
-      <affiliation>directrice de recherche de l'INRAE,<orgName>Centre Maurice Halbwachs</orgName>
-      </affiliation>
-     </persName>
-     <resp>direction scientifique</resp>
-    </respStmt>
-    <respStmt>
-     <persName>
-      <forename>Éric</forename>
-      <surname>Villemonte de la Clergerie</surname>
-      <affiliation>chargé de recherches,<orgName>équipe ALMAnaCH d'Inria</orgName>
-      </affiliation>
-     </persName>
-     <resp>supervision technique</resp>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
     </respStmt>
    </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°87 des Ouvriers des deux mondes, "Agriculteur du Pas-de-Calais (France)". Elle a d'abord été publiée en fascicule en 1897, puis reliée en 1899, à partir d'une enquête réalisée à B? (Pas-de-Calais, France) en novembre 1893.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
+    <respStmt>
+     <persName>
+      <forename>
+       Alix
+      </forename>
+      <surname>
+       Chagué
+      </surname>
+      <affiliation>
+       ingénieure de recherche et de développement,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      acquisition et structuration initiale des textes
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Jean-Damien
+      </forename>
+      <surname>
+       Généro
+      </surname>
+      <affiliation from="2020-03" to="2020-09">
+       stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-09" to="2020-11">
+       ingénieur d'études,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+      <affiliation from="2020-12">
+       ingénieur d'études,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      encodage scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Stéphane
+      </forename>
+      <surname>
+       Baciocchi
+      </surname>
+      <affiliation>
+       ingénieur de recherche de l’EHESS,
+       <orgName>
+        Centre de recherches historiques
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Anne
+      </forename>
+      <surname>
+       Lhuissier
+      </surname>
+      <affiliation>
+       directrice de recherche de l'INRAE,
+       <orgName>
+        Centre Maurice Halbwachs
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      direction scientifique
+     </resp>
+    </respStmt>
+    <respStmt>
+     <persName>
+      <forename>
+       Éric
+      </forename>
+      <surname>
+       Villemonte de la Clergerie
+      </surname>
+      <affiliation>
+       chargé de recherches,
+       <orgName>
+        équipe ALMAnaCH d'Inria
+       </orgName>
+      </affiliation>
+     </persName>
+     <resp>
+      supervision technique
+     </resp>
+    </respStmt>
+   </editionStmt>
    <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
+    <publisher>
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
+    </publisher>
     <date from="2019" to="2021"/>
-    <pubPlace>Paris, France</pubPlace>
+    <pubPlace>
+     Paris, France
+    </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
-    <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
+    <p>
+     Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.
+    </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_298">
   <surface lrx="2638" lry="4302"/>
@@ -210,196 +307,454 @@
   <body>
    <div type="chapter">
     <div n="001" type="section">
-     <p xml:id="para_11_283_1">N° 87.</p>
-     <p xml:id="para_11_283_2">AGRICULTEUR</p>
-     <p xml:id="para_11_283_3">DU PAS-DE-CALAIS — FRANCE</p>
-     <p xml:id="para_11_283_4">PROPRIÉTAIRE-OUVRIER</p>
-     <p xml:id="para_11_283_5">DANS LE SYSTEME DE TRAVAIL SANS ENGAGEMENTS</p>
-     <p>D'APRÈS</p>
-     <p xml:id="para_11_283_6">LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN NOVEMBRE 1893</p>
-     <p>PAR</p>
-     <p xml:id="para_11_283_7">YAN' KÉRAVIC</p>
+     <p xml:id="para_11_283_1">
+      N° 87.
+     </p>
+     <p xml:id="para_11_283_2">
+      AGRICULTEUR
+     </p>
+     <p xml:id="para_11_283_3">
+      DU PAS-DE-CALAIS — FRANCE
+     </p>
+     <p xml:id="para_11_283_4">
+      PROPRIÉTAIRE-OUVRIER
+     </p>
+     <p xml:id="para_11_283_5">
+      DANS LE SYSTEME DE TRAVAIL SANS ENGAGEMENTS
+     </p>
+     <p>
+      D'APRÈS
+     </p>
+     <p xml:id="para_11_283_6">
+      LES RENSEIGNEMENTS RECUEILLIS SUR LES LIEUX EN NOVEMBRE 1893
+     </p>
+     <p>
+      PAR
+     </p>
+     <p xml:id="para_11_283_7">
+      YAN' KÉRAVIC
+     </p>
     </div>
     <div n="002" type="section">
-     <head type="section" xml:id="part_02">Observations préliminaires définissant la condition des divers membres de la famille.</head>
+     <head type="section" xml:id="part_02">
+      Observations préliminaires définissant la condition des divers membres de la famille.
+     </head>
      <div n="001" type="sub_section">
-      <head type="sub_section" xml:id="part_02_01">Définition du lieu, de l'organisation industrielle et de la famille</head>
+      <head type="sub_section" xml:id="part_02_01">
+       Définition du lieu, de l'organisation industrielle et de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_01">§ 1ᵉʳ. ÉTAT DU SOL, DE LA POPULATION ET DE L'INDUSTRIE.</head>
-       <p xml:id="para_11_283_13"><pb facs="#facs_298" n="283" source="2serlesouvriersde05sociuoft_0321.xml"/> Le village de B***, où habite la famille, est situé au milieu d'un pays découvert, sans collines ni forêts. La superficie de la commune est de 530 hectares environ, taxés pour un revenu de 17.280 francs.</p>
-       <p xml:id="para_11_283_14">On peut diviser son étendue en trois parties principales : le village ou manoir, le marais, les marnières. Les deux premières sont très fer¬tiles, la troisième, réputée stérile il y a soixante ans, est devenue d'un bon rendement grâce aux efforts des cultivateurs. Aussi la culture est¬elle très développée et forme-t-elle l'industrie principale du pays ; on y récolte surtout des céréales et des betteraves. Autrefois, on cultivait le colaza, l'œillette et le lin avec un certain succès, mais de ces trois cul<pb facs="#facs_299" n="284" source="2serlesouvriersde05sociuoft_0322.xml"/>tures la dernière est entièrement morte et les deux premières perdent du terrain chaque jour<note type="bp">
+       <head type="sub_sub_section" xml:id="part_02_01_01">
+        § 1ᵉʳ. ÉTAT DU SOL, DE LA POPULATION ET DE L'INDUSTRIE.
+       </head>
+       <p xml:id="para_11_283_13">
+        <pb facs="#facs_298" n="283" source="2serlesouvriersde05sociuoft_0321.xml"/>
+        Le village de B***, où habite la famille, est situé au milieu d'un pays découvert, sans collines ni forêts. La superficie de la commune est de 530 hectares environ, taxés pour un revenu de 17.280 francs.
+       </p>
+       <p xml:id="para_11_283_14">
+        On peut diviser son étendue en trois parties principales : le village ou manoir, le marais, les marnières. Les deux premières sont très fer¬tiles, la troisième, réputée stérile il y a soixante ans, est devenue d'un bon rendement grâce aux efforts des cultivateurs. Aussi la culture est¬elle très développée et forme-t-elle l'industrie principale du pays ; on y récolte surtout des céréales et des betteraves. Autrefois, on cultivait le colaza, l'œillette et le lin avec un certain succès, mais de ces trois cul
+        <pb facs="#facs_299" n="284" source="2serlesouvriersde05sociuoft_0322.xml"/>
+        tures la dernière est entièrement morte et les deux premières perdent du terrain chaque jour
+        <note type="bp">
          <p>
-          <ref target="#ID-086a" type="renvoi_int_od2m">Cf. Monographie du Mineur des mines de houille du Pas-de-Calais, § 18.</ref>
+          <ref target="#ID-086a" type="renvoi_int_od2m">
+           Cf. Monographie du Mineur des mines de houille du Pas-de-Calais, § 18.
+          </ref>
          </p>
-        </note>.</p>
-       <p xml:id="para_11_284_17">Outre l'agriculture, l'industrie de l'extraction de la craie, impropre¬ment appelée marnedans la localité, occupe un petit nombre d'ouvriers.</p>
-       <p xml:id="para_11_284_18">Les carrières de B.... fournissent : la pierre à chaux pour les chau¬fourniers des environs, les matériaux aux municipalités pour la cons¬truction des chemins vicinaux, enfin les amendements pour les culti¬vateurs du Nord dontles terres sont trop grasses. Vers 1860, l'industrie houillère est venue s'implanter dans le pays, et, après des fortunes diverses, elle est actuellement en pleine prospérité. Les besoins de différentes industries ont donné naissance à un commerce assez déve¬loppé. Outre les transactions agricoles qui se font dans le pays même et sur le marché de C... distant de trois kilomètres, on trouve dans le village de B... les ressources de première nécessité.</p>
-       <p xml:id="para_11_284_19">La population atteint le chiffre de 900 habitants environ. Elle se partage en deux camps bien distincts : les cultivateurs et les mineurs, animés l'un contre l'autre de sentiments peu fraternels. Le degré d'ins¬truction va s'améliorant de jour en jour (<ref target="#part_03_01_17" type="renvoi_int_mono">§ 17</ref>), et il existe encore quel¬ques sentiments religieux. Cependant, malgré une certaine douceur de mœurs, les habitants de B... ont un caractère dont le fond est l'envie et la jalousie ; ils déblatèrent volontiers contre le voisin, de sorte qu'au¬cune union n'est possible. Ce village est renommé à la ronde pour la difficulté qu'on éprouve à y vivre en société.</p>
+        </note>
+        .
+       </p>
+       <p xml:id="para_11_284_17">
+        Outre l'agriculture, l'industrie de l'extraction de la craie, impropre¬ment appelée marnedans la localité, occupe un petit nombre d'ouvriers.
+       </p>
+       <p xml:id="para_11_284_18">
+        Les carrières de B.... fournissent : la pierre à chaux pour les chau¬fourniers des environs, les matériaux aux municipalités pour la cons¬truction des chemins vicinaux, enfin les amendements pour les culti¬vateurs du Nord dontles terres sont trop grasses. Vers 1860, l'industrie houillère est venue s'implanter dans le pays, et, après des fortunes diverses, elle est actuellement en pleine prospérité. Les besoins de différentes industries ont donné naissance à un commerce assez déve¬loppé. Outre les transactions agricoles qui se font dans le pays même et sur le marché de C... distant de trois kilomètres, on trouve dans le village de B... les ressources de première nécessité.
+       </p>
+       <p xml:id="para_11_284_19">
+        La population atteint le chiffre de 900 habitants environ. Elle se partage en deux camps bien distincts : les cultivateurs et les mineurs, animés l'un contre l'autre de sentiments peu fraternels. Le degré d'ins¬truction va s'améliorant de jour en jour (
+        <ref target="#part_03_01_17" type="renvoi_int_mono">
+         § 17
+        </ref>
+        ), et il existe encore quel¬ques sentiments religieux. Cependant, malgré une certaine douceur de mœurs, les habitants de B... ont un caractère dont le fond est l'envie et la jalousie ; ils déblatèrent volontiers contre le voisin, de sorte qu'au¬cune union n'est possible. Ce village est renommé à la ronde pour la difficulté qu'on éprouve à y vivre en société.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
        <!--Individus cités : Charles B*** (n°087aE1) - Cécile B*** (n°087aE2) - Fleury B*** (n°087aE3) - Céline  B*** (n°087aE4) - Sophie B*** (n°087aE5) - Charles B*** (n°087aE6)-->
-       <head type="sub_sub_section" xml:id="part_02_01_02">§ 2. État civil de la famille.</head>
-       <p xml:id="para_11_284_22">La famille se compose des personnes suivantes :</p>
+       <head type="sub_sub_section" xml:id="part_02_01_02">
+        § 2. État civil de la famille.
+       </head>
+       <p xml:id="para_11_284_22">
+        La famille se compose des personnes suivantes :
+       </p>
        <p xml:id="para_11_284_23">
-        <persName>CHARLES B</persName>..., père de famille, marié depuis 29 ans............ 59 ans.</p>
+        <persName type="respondent" xml:id="ID-087aE1">
+         CHARLES B
+        </persName>
+        ..., père de famille, marié depuis 29 ans............ 59 ans.
+       </p>
        <p xml:id="para_11_284_24">
-        <persName>CÉCILE B</persName>..., sa femme............ 51 —</p>
+        <persName type="respondent" xml:id="ID-087aE2">
+         CÉCILE B
+        </persName>
+        ..., sa femme............ 51 —
+       </p>
        <p xml:id="para_11_284_25">
-        <persName>FLEURY B</persName>..., fils aîné............ 26 —</p>
+        <persName type="respondent" xml:id="ID-087aE3">
+         FLEURY B
+        </persName>
+        ..., fils aîné............ 26 —
+       </p>
        <p xml:id="para_11_284_26">
-        <persName>CÉLINE B</persName>..., fille aînée............ 22 —</p>
+        <persName type="respondent" xml:id="ID-087aE4">
+         CÉLINE B
+        </persName>
+        ..., fille aînée............ 22 —
+       </p>
        <p xml:id="para_11_284_27">
-        <persName>SOPHIE B</persName>..., 2ᵉ fille............ 18 —</p>
+        <persName type="respondent" xml:id="ID-087aE5">
+         SOPHIE B
+        </persName>
+        ..., 2ᵉ fille............ 18 —
+       </p>
        <p xml:id="para_11_284_28">
-        <persName>CHARLES B</persName>..., 2ᵉ fils............ 16 —</p>
-       <p xml:id="para_11_284_29">D'autres enfants, Céline et Fleury, qui auraient maintenant trente et vingt-huit ans, sont morts tout jeunes, le premier d'une fièvre typhoide, à l'âge de six mois, le second d'une fièvre cérébrale, à trois mois.</p>
+        <persName type="respondent" xml:id="ID-087aE6">
+         CHARLES B
+        </persName>
+        ..., 2ᵉ fils............ 16 —
+       </p>
+       <p xml:id="para_11_284_29">
+        D'autres enfants, Céline et Fleury, qui auraient maintenant trente et vingt-huit ans, sont morts tout jeunes, le premier d'une fièvre typhoide, à l'âge de six mois, le second d'une fièvre cérébrale, à trois mois.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_03">§ 3. Religion et habitudes morales.</head>
-       <p xml:id="para_11_285_33"><pb facs="#facs_300" n="285" source="2serlesouvriersde05sociuoft_0323.xml"/> Charles est ce que l'on peut appeler un type. L'intelligence est prompte, la mémoire excellente; s'il avait été cultivé, il serait assuré¬ment devenu un homme au-dessus de l'ordinaire. Tel qu'il est, en cir¬culant de droite et de gauche pendant sa jeunesse, son esprit naturel¬lement curieux s'est enquis de tout un peu et sa personnalité s'est développée assez originale, supérieure à celle des gens de sa condition.</p>
-       <p xml:id="para_11_285_34">Il possède une certaine quantité de formules, de phrases apprises par cœur, s appliquant à tous les sujets de conversation, et, dans les discussions, fait des citations de la Bible et de la mythologie, entre¬mêle Jean-Jacques Rousseau et Lacordaire, saint Jean Chrysostome et Voltaire, Racine et François Coppée ; il est certain qu'il croit com¬prendre tout ce qu'il dit et imagine ses arguments irrésistibles. C'est surtout dans les discussions religieuses qu'il se montre terrible. D'un catholicisme intransigeant, il a mis en fuite autour de lui tous les pro¬testants, à force de les attaquer chez lui ou jadis au cabaret. Par une bizarre inconséquence, ce catholique fougueux qui va à la messe et observe le repos du dimanche, ainsi que le maigre du vendredi, a négligé ses Pâques depuis tantôt vingt ans; son exemple a d'ailleurs été suivi par sa femme. La raison une question d'intérêt entre lui et le curé d'alors, mort d'ailleurs depuis longtemps. Sur ce point, il est irréductible, mais il enjoint à ses enfants de fréquenter les sacre¬ments, au moins une fois tous les mois ; au besoin il les y force. Il affilié la famille à une confrérie de Saint-Francois de Sales, et ses filles à celle des Enfants de Marie.</p>
-       <p xml:id="para_11_285_35">En politique, il n'a pas d'idées moins arrêtées, il discute volontiers sur la Révolution fraņaise, repousse les progrès du socialisme actuel et se déclare royaliste. Il a le respect de l'autorité et a élevé ses en¬fants dans ces principes. Il s'est beaucoup occupé de leur éducation morale et a cherché à développer che eux l'idée d'honnêteté et de travanil ; il est arrivé à son but et a formé une famille unie et discipli¬née. Cette union se manifeste également dans le culte des parents morts, à la mémoire desquels il fait célébrer tous les ans un service solennel.</p>
-       <p xml:id="para_11_285_36">De ces habitudes morales devait nailtre une grande modération d'i<pb facs="#facs_301" n="286" source="2serlesouvriersde05sociuoft_0324.xml"/>dées au point de vue social ; c'est ainsi que le père cherche à faire fruc¬tifier le bien qu'il a reçu en héritage, mais il considère que le rapport de l'agriculture n'est pas assez rémunérateur pour chercher à agran¬dir ses propriétés. Une autre considération le pousse dans cette voie; il ignore à qui son bien reviendra après lui. Ses filles n'épouseront peut-être pas des cultivateurs, son fils aîné a un travail dans les mines, son second fils est encore trop jeune pour savoir s'il prendra décidé¬ment goût à la culture, et il se chagrine en songeant que son bien sera peut-être divisé. Il n'approuve pas le partage forcé, qui donnera une somme insignifiante à chacun de ses enfants, tandis que son bien inté¬gral nourrirait sa famille tout entière.</p>
-       <p xml:id="para_11_286_39">Cependant, à défaut d'accroissement, il tire tout le profit possible de ce qu'il possède. Il s'enquiert des progrès que la science a fait faire aux méthodes de culture et cherche à en profiter. C'est ainsi qu'il s'oc¬cupe avec activité, donnant l'exemple à ses enfants et à sa femme.</p>
-       <p xml:id="para_11_286_40">Celle-ci joue, au point de vue moral, un rôle un peu effacé, elle s'est laissé conduire docilement par son mari ; d'ailleurs, il lui aurait été impossible de lutter contre des idées aussi arrêtées. Elle se contente de se montrer avec bonne humeur soumise et laborieuse. Son bon¬heur réside dans la joie de sentir ses enfants bien unis et animés du meilleur esprit de famille.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_03">
+        § 3. Religion et habitudes morales.
+       </head>
+       <p xml:id="para_11_285_33">
+        <pb facs="#facs_300" n="285" source="2serlesouvriersde05sociuoft_0323.xml"/>
+        Charles est ce que l'on peut appeler un type. L'intelligence est prompte, la mémoire excellente; s'il avait été cultivé, il serait assuré¬ment devenu un homme au-dessus de l'ordinaire. Tel qu'il est, en cir¬culant de droite et de gauche pendant sa jeunesse, son esprit naturel¬lement curieux s'est enquis de tout un peu et sa personnalité s'est développée assez originale, supérieure à celle des gens de sa condition.
+       </p>
+       <p xml:id="para_11_285_34">
+        Il possède une certaine quantité de formules, de phrases apprises par cœur, s appliquant à tous les sujets de conversation, et, dans les discussions, fait des citations de la Bible et de la mythologie, entre¬mêle Jean-Jacques Rousseau et Lacordaire, saint Jean Chrysostome et Voltaire, Racine et François Coppée ; il est certain qu'il croit com¬prendre tout ce qu'il dit et imagine ses arguments irrésistibles. C'est surtout dans les discussions religieuses qu'il se montre terrible. D'un catholicisme intransigeant, il a mis en fuite autour de lui tous les pro¬testants, à force de les attaquer chez lui ou jadis au cabaret. Par une bizarre inconséquence, ce catholique fougueux qui va à la messe et observe le repos du dimanche, ainsi que le maigre du vendredi, a négligé ses Pâques depuis tantôt vingt ans; son exemple a d'ailleurs été suivi par sa femme. La raison une question d'intérêt entre lui et le curé d'alors, mort d'ailleurs depuis longtemps. Sur ce point, il est irréductible, mais il enjoint à ses enfants de fréquenter les sacre¬ments, au moins une fois tous les mois ; au besoin il les y force. Il affilié la famille à une confrérie de Saint-Francois de Sales, et ses filles à celle des Enfants de Marie.
+       </p>
+       <p xml:id="para_11_285_35">
+        En politique, il n'a pas d'idées moins arrêtées, il discute volontiers sur la Révolution fraņaise, repousse les progrès du socialisme actuel et se déclare royaliste. Il a le respect de l'autorité et a élevé ses en¬fants dans ces principes. Il s'est beaucoup occupé de leur éducation morale et a cherché à développer che eux l'idée d'honnêteté et de travanil ; il est arrivé à son but et a formé une famille unie et discipli¬née. Cette union se manifeste également dans le culte des parents morts, à la mémoire desquels il fait célébrer tous les ans un service solennel.
+       </p>
+       <p xml:id="para_11_285_36">
+        De ces habitudes morales devait nailtre une grande modération d'i
+        <pb facs="#facs_301" n="286" source="2serlesouvriersde05sociuoft_0324.xml"/>
+        dées au point de vue social ; c'est ainsi que le père cherche à faire fruc¬tifier le bien qu'il a reçu en héritage, mais il considère que le rapport de l'agriculture n'est pas assez rémunérateur pour chercher à agran¬dir ses propriétés. Une autre considération le pousse dans cette voie; il ignore à qui son bien reviendra après lui. Ses filles n'épouseront peut-être pas des cultivateurs, son fils aîné a un travail dans les mines, son second fils est encore trop jeune pour savoir s'il prendra décidé¬ment goût à la culture, et il se chagrine en songeant que son bien sera peut-être divisé. Il n'approuve pas le partage forcé, qui donnera une somme insignifiante à chacun de ses enfants, tandis que son bien inté¬gral nourrirait sa famille tout entière.
+       </p>
+       <p xml:id="para_11_286_39">
+        Cependant, à défaut d'accroissement, il tire tout le profit possible de ce qu'il possède. Il s'enquiert des progrès que la science a fait faire aux méthodes de culture et cherche à en profiter. C'est ainsi qu'il s'oc¬cupe avec activité, donnant l'exemple à ses enfants et à sa femme.
+       </p>
+       <p xml:id="para_11_286_40">
+        Celle-ci joue, au point de vue moral, un rôle un peu effacé, elle s'est laissé conduire docilement par son mari ; d'ailleurs, il lui aurait été impossible de lutter contre des idées aussi arrêtées. Elle se contente de se montrer avec bonne humeur soumise et laborieuse. Son bon¬heur réside dans la joie de sentir ses enfants bien unis et animés du meilleur esprit de famille.
+       </p>
       </div>
       <div n="004" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_04">§ 4. Hygiène et service de santé.</head>
-       <p xml:id="para_11_286_43">Les membres de la famille jouissent d'une assez bonne santé. Le père avait les écrouelles au moment de son service militaire, il a été réformé pour ce motif ; depuis, il est devenu robuste et résiste bien aux fatigues de son métier. La femme est assez délicate et ne prend aucune précaution pour réagir contre cette fâcheuse disposition. Les enfants sont d'une forte constitution.</p>
-       <p xml:id="para_11_286_44">La famille prend peu ou point de mesures d'hygiène ; la maison est seulement blanchie à la chaux intérieurement deux fois par an. Tous les samedis, on lave à grande eau tous les dallages et planchers.</p>
-       <p xml:id="para_11_286_45">Il est curieux de remarquer que pour des gens qui mettent leur point d'honneur à avoir des carreaux bien propres et des fourneaux aux cuivres éblouissants, l'usage des bains soit complètement négligé. Le père a bien entendu dire que certaines gens de la ville avaient cette <pb facs="#facs_302" n="287" source="2serlesouvriersde05sociuoft_0325.xml"/> coutume, et « que l'on disait que cela ne pouvait pas faire de mal, mais pour lui, il n'a jamais essayé ». Le fils aîné est affilié à la Caisse de secours des Mines, il est seul à profiter des avantages conférés par elle (médecin et pharmacien gratuitement, plus 1ᶠ50 par jour de ma¬ladie). La famille doit, en cas de maladie, appeler un médecin qu'elle paie. Dans aucun cas, elle ne voudrait avoir recours à un charlatan.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_04">
+        § 4. Hygiène et service de santé.
+       </head>
+       <p xml:id="para_11_286_43">
+        Les membres de la famille jouissent d'une assez bonne santé. Le père avait les écrouelles au moment de son service militaire, il a été réformé pour ce motif ; depuis, il est devenu robuste et résiste bien aux fatigues de son métier. La femme est assez délicate et ne prend aucune précaution pour réagir contre cette fâcheuse disposition. Les enfants sont d'une forte constitution.
+       </p>
+       <p xml:id="para_11_286_44">
+        La famille prend peu ou point de mesures d'hygiène ; la maison est seulement blanchie à la chaux intérieurement deux fois par an. Tous les samedis, on lave à grande eau tous les dallages et planchers.
+       </p>
+       <p xml:id="para_11_286_45">
+        Il est curieux de remarquer que pour des gens qui mettent leur point d'honneur à avoir des carreaux bien propres et des fourneaux aux cuivres éblouissants, l'usage des bains soit complètement négligé. Le père a bien entendu dire que certaines gens de la ville avaient cette
+        <pb facs="#facs_302" n="287" source="2serlesouvriersde05sociuoft_0325.xml"/>
+        coutume, et « que l'on disait que cela ne pouvait pas faire de mal, mais pour lui, il n'a jamais essayé ». Le fils aîné est affilié à la Caisse de secours des Mines, il est seul à profiter des avantages conférés par elle (médecin et pharmacien gratuitement, plus 1ᶠ50 par jour de ma¬ladie). La famille doit, en cas de maladie, appeler un médecin qu'elle paie. Dans aucun cas, elle ne voudrait avoir recours à un charlatan.
+       </p>
       </div>
       <div n="005" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_01_05">§ 5. Rang de la famille.</head>
-       <p xml:id="para_11_287_49">La famille occupe dans le pays une situation ordinauire et représente asse exactement la moyenne générale des petits cultivateurs de la commune. Charles s'occupe de culture depuis relatlvement peu de temps. Il a été dans les commencements en butte aux jalousies de tous les autres agriculteurs ; on lui a cherché chicane pour les limites de ses terres ; il a dû essuyer plusieurs procès qu'il a d'ailleurs gagnés. Du reste il a fini par s'imposer, et jouit maintenant dans le village d'une considération justement méritée.</p>
-       <p xml:id="para_11_287_50">Cependant, la vie est difficile pour lui actuellement, les trois der¬nières années ont été très mauvaises. En 1890, le bénéfice a été nul ; en 1891 et 1892, il a perdu 1.000 francs et a été obligé de contracter un emprunt hypothécaire de 1.500 francs à 5 pour cent, pour com¬mencer l'année 1893. Cette dernière a été, il est vrai, bonne et il compte sur elle pour se libérer en partie de sa dette.</p>
+       <head type="sub_sub_section" xml:id="part_02_01_05">
+        § 5. Rang de la famille.
+       </head>
+       <p xml:id="para_11_287_49">
+        La famille occupe dans le pays une situation ordinauire et représente asse exactement la moyenne générale des petits cultivateurs de la commune. Charles s'occupe de culture depuis relatlvement peu de temps. Il a été dans les commencements en butte aux jalousies de tous les autres agriculteurs ; on lui a cherché chicane pour les limites de ses terres ; il a dû essuyer plusieurs procès qu'il a d'ailleurs gagnés. Du reste il a fini par s'imposer, et jouit maintenant dans le village d'une considération justement méritée.
+       </p>
+       <p xml:id="para_11_287_50">
+        Cependant, la vie est difficile pour lui actuellement, les trois der¬nières années ont été très mauvaises. En 1890, le bénéfice a été nul ; en 1891 et 1892, il a perdu 1.000 francs et a été obligé de contracter un emprunt hypothécaire de 1.500 francs à 5 pour cent, pour com¬mencer l'année 1893. Cette dernière a été, il est vrai, bonne et il compte sur elle pour se libérer en partie de sa dette.
+       </p>
       </div>
      </div>
      <div n="002" type="sub_section">
-      <head type="sub_section" xml:id="part_02_02">Moyens d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_02">
+       Moyens d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_06">§ 6. Propriétés.</head>
-       <div type="proprietes" subtype="proprietes_texte_1">
-        <p xml:id="para_11_287_54">(Mobilier et vêtements non-compris).</p>
+       <head type="sub_sub_section" xml:id="part_02_02_06">
+        § 6. Propriétés.
+       </head>
+       <div subtype="proprietes_texte_1" type="proprietes">
+        <p xml:id="para_11_287_54">
+         (Mobilier et vêtements non-compris).
+        </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
-        <p xml:id="para_11_287_55">IMMEUBLES............ 12.500ᶠ,00</p>
-       <p xml:id="para_11_287_56">1° Habitations. — Maison comprenant un rez-de-chaussée et un étage, 3.000ᶠ 00.</p>
-       <p xml:id="para_11_287_57">2° Immeubles ruraux. — Grange, 800ᶠ00; —— Étables, écurie et porcherie, 1.500ᶠ00. — Total, 00ᶠ00.</p>
-       <p xml:id="para_11_287_58">3° Terre. — Une contenance de 95 ares, 7.200ᶠ 00.</p>
+       <div subtype="immeubles" type="proprietes">
+        <p xml:id="para_11_287_55">
+         IMMEUBLES............ 12.500ᶠ,00
+        </p>
+        <p xml:id="para_11_287_56">
+         1° Habitations. — Maison comprenant un rez-de-chaussée et un étage, 3.000ᶠ 00.
+        </p>
+        <p xml:id="para_11_287_57">
+         2° Immeubles ruraux. — Grange, 800ᶠ00; —— Étables, écurie et porcherie, 1.500ᶠ00. — Total, 00ᶠ00.
+        </p>
+        <p xml:id="para_11_287_58">
+         3° Terre. — Une contenance de 95 ares, 7.200ᶠ 00.
+        </p>
        </div>
-       <div type="proprietes" subtype="argent">
-        <p xml:id="para_11_288_59"><pb facs="#facs_303" n="288" source="2serlesouvriersde05sociuoft_0326.xml"/> ARGENT............ 60ᶠ 00 </p>
-       <p xml:id="para_11_288_60">Argent considéré comme fonds de roulemt pour les besoins de la vie ordinaire ; la somme de 60 francs est rarement dépassée, car l'argent provenant des ventes d'animaux et autres produits, est immédiatement employé dans l'exploitation, 60ᶠ 00.</p>
+       <div subtype="argent" type="proprietes">
+        <p xml:id="para_11_288_59">
+         <pb facs="#facs_303" n="288" source="2serlesouvriersde05sociuoft_0326.xml"/>
+         ARGENT............ 60ᶠ 00
+        </p>
+        <p xml:id="para_11_288_60">
+         Argent considéré comme fonds de roulemt pour les besoins de la vie ordinaire ; la somme de 60 francs est rarement dépassée, car l'argent provenant des ventes d'animaux et autres produits, est immédiatement employé dans l'exploitation, 60ᶠ 00.
+        </p>
        </div>
-       <div type="proprietes" subtype="animaux">
-        <p xml:id="para_11_288_61">ANIMAUX DOMESTIQUES entretenus toute l'année............ 1.515ᶠ00</p>
-       <p xml:id="para_11_288_62">Cheval pour le service de l'exploitatlon agricole, 450ᶠ00; — 3 vaches à 300ᶠ, 900ᶠ00; — 1 porc, 110ᶠ 00 ; — 20 poules et 2 coqs, 44ᶠ 00; — 1 pigeons, 6ᶠ 00; — 1 chien de garde, 5ᶠ 00. — Total, 1.515ᶠ 00.</p>
+       <div subtype="animaux" type="proprietes">
+        <p xml:id="para_11_288_61">
+         ANIMAUX DOMESTIQUES entretenus toute l'année............ 1.515ᶠ00
+        </p>
+        <p xml:id="para_11_288_62">
+         Cheval pour le service de l'exploitatlon agricole, 450ᶠ00; — 3 vaches à 300ᶠ, 900ᶠ00; — 1 porc, 110ᶠ 00 ; — 20 poules et 2 coqs, 44ᶠ 00; — 1 pigeons, 6ᶠ 00; — 1 chien de garde, 5ᶠ 00. — Total, 1.515ᶠ 00.
+        </p>
        </div>
-       <div type="proprietes" subtype="materiel">
-        <p xml:id="para_11_288_65">MATÉRIEL SPÉCIAL DES Travaux et industries............ 875ᶠ10</p>
-       <p xml:id="para_11_288_66">1° Exploitation des champs. — 1 charrue, 671ᶠ 00; — 1 herse en bois, 17Iᶠ 00; — un buiot pour tracer les sillons, 40ᶠ00 ;— 4 houes à main, 10ᶠ 00 ; — 2 houes à placer des bette¬raves, 6ᶠ 00; — 1 arrachoir, 43ᶠ 00; — 1 bascule, 20ᶠ 00 ; —1 brouette à betteraves, 24ᶠ00; — 1 rouleau, 20ᶠ 00; — 2pics à fourches, 5ᶠ00 ; — 1 chariot, 400ᶠ00; — 1' harnachement de cheval, 50ᶠ 00; — 1 moulin à vanner, 40 ᶠ 00; —1 éau et 1 râteau, 5ᶠ 00. — Total, 747ᶠ 00.</p>
-       <p xml:id="para_11_288_67">2° Exploitation de bêtes à cornes et de l'écurie. — 2 rateliers, 12ᶠ 00 ; — 1 échelle, 10ᶠ 00 ;— 2 fourches, 6ᶠ 00; 1 grpwé, 5ᶠ 00; — 2 seaux en bois, 4ᶠ 00; — 1 tonneau au purin, 5ᶠ 00; — 2 seaux galvanisés pour traire les vaches, 4ᶠ 10; — 1 baratte, 32ᶠ 00 ; — 3 traisiers, 6ᶠ 00. — Total, 84ᶠ 10.</p>
-       <p xml:id="para_11_288_70">3° Exploitation du potager. — 1 houe, 5ᶠ 00; — 1 bêche, 5ᶠ 00. — Total, 10ᶠ00.</p>
-       <p xml:id="para_11_288_71">4° Exploitation de la basse-cour. — 1 auge, 4ᶠ 00;— 1 seau en bois, 2ᶠ 00. — Total, 6ᶠ 00.</p>
-       <p xml:id="para_11_288_72">5° Blanchissage. — 2 cuviers, 3ᶠ 00; — 1 trépied, 1ᶠ 50 ; — 1 corde,0ᶠ 50. — 3 fers à repas¬ser, 1ᶠ 50. — Total, 6ᶠ 50.</p>
-       <p xml:id="para_11_288_73">6° Fabrication du pain. — 1 pétrin, 6ᶠ 00 ; — 1 table, 2ᶠ 00; — 1 pelle en bois,1 ᶠ50; — 1 douzaine de catoires (panier pour mouler la pàte), 12ᶠ 00. — Total, 21ᶠ 50.</p>
+       <div subtype="materiel" type="proprietes">
+        <p xml:id="para_11_288_65">
+         MATÉRIEL SPÉCIAL DES Travaux et industries............ 875ᶠ10
+        </p>
+        <p xml:id="para_11_288_66">
+         1° Exploitation des champs. — 1 charrue, 671ᶠ 00; — 1 herse en bois, 17Iᶠ 00; — un buiot pour tracer les sillons, 40ᶠ00 ;— 4 houes à main, 10ᶠ 00 ; — 2 houes à placer des bette¬raves, 6ᶠ 00; — 1 arrachoir, 43ᶠ 00; — 1 bascule, 20ᶠ 00 ; —1 brouette à betteraves, 24ᶠ00; — 1 rouleau, 20ᶠ 00; — 2pics à fourches, 5ᶠ00 ; — 1 chariot, 400ᶠ00; — 1' harnachement de cheval, 50ᶠ 00; — 1 moulin à vanner, 40 ᶠ 00; —1 éau et 1 râteau, 5ᶠ 00. — Total, 747ᶠ 00.
+        </p>
+        <p xml:id="para_11_288_67">
+         2° Exploitation de bêtes à cornes et de l'écurie. — 2 rateliers, 12ᶠ 00 ; — 1 échelle, 10ᶠ 00 ;— 2 fourches, 6ᶠ 00; 1 grpwé, 5ᶠ 00; — 2 seaux en bois, 4ᶠ 00; — 1 tonneau au purin, 5ᶠ 00; — 2 seaux galvanisés pour traire les vaches, 4ᶠ 10; — 1 baratte, 32ᶠ 00 ; — 3 traisiers, 6ᶠ 00. — Total, 84ᶠ 10.
+        </p>
+        <p xml:id="para_11_288_70">
+         3° Exploitation du potager. — 1 houe, 5ᶠ 00; — 1 bêche, 5ᶠ 00. — Total, 10ᶠ00.
+        </p>
+        <p xml:id="para_11_288_71">
+         4° Exploitation de la basse-cour. — 1 auge, 4ᶠ 00;— 1 seau en bois, 2ᶠ 00. — Total, 6ᶠ 00.
+        </p>
+        <p xml:id="para_11_288_72">
+         5° Blanchissage. — 2 cuviers, 3ᶠ 00; — 1 trépied, 1ᶠ 50 ; — 1 corde,0ᶠ 50. — 3 fers à repas¬ser, 1ᶠ 50. — Total, 6ᶠ 50.
+        </p>
+        <p xml:id="para_11_288_73">
+         6° Fabrication du pain. — 1 pétrin, 6ᶠ 00 ; — 1 table, 2ᶠ 00; — 1 pelle en bois,1 ᶠ50; — 1 douzaine de catoires (panier pour mouler la pàte), 12ᶠ 00. — Total, 21ᶠ 50.
+        </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
-        <p xml:id="para_11_288_75">VALEUR TOTALE des propriétés............ 14.950ᶠ10</p>
+       <div subtype="proprietes_total" type="proprietes">
+        <p xml:id="para_11_288_75">
+         VALEUR TOTALE des propriétés............ 14.950ᶠ10
+        </p>
        </div>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_07">§ 7. Subventions.</head>
-       <p xml:id="para_11_288_78">La famille jouit de deux subventions, la première est due au fils aîné, qui, étant occupé aux mines de G*** et ayant une conduite irré¬prochable, s'est vu, suivant les règlements, délivrer son charbon au bout de deux ans de présence ; il touche 5ᶠ 600 de charbon escaillage, ce qui lui vaut un bénéfice de 39ᶠ 60 en nature. (<ref target="#part_02_05_16" type="renvoi_int_mono">§ 16, H.</ref>)</p>
-       <p xml:id="para_11_288_79">La famille jouit aussi de l'usufruit d'un bien communal. La com¬mune possédait en effet sur son territoire un marais qu'on a desséché pour en faire un sol propre à la culture ; ce terrain a été divisé en parts et attribué aux plus anciennes familles du pays. Les parts se trans¬mettent à l'aîné des héritiers du possesseur actuel. Faute de descen¬dance, elles retournent à la commune qui les distribue de nouveau.</p>
-       <p xml:id="para_11_289_80"><pb facs="#facs_304" n="289" source="2serlesouvriersde05sociuoft_0327.xml"/> La part de Charles B*** est grande de 45 ares environ et vaut 1.500ᶠ; il la cultive comme le reste de ses propriétés et des terres qu'il loue. Le bénéfice qui en résulte a été compté à l'exploitation générale ; il eût été trop compliqué et sans utilité de faire autrement.</p>
+       <head type="sub_sub_section" xml:id="part_02_02_07">
+        § 7. Subventions.
+       </head>
+       <p xml:id="para_11_288_78">
+        La famille jouit de deux subventions, la première est due au fils aîné, qui, étant occupé aux mines de G*** et ayant une conduite irré¬prochable, s'est vu, suivant les règlements, délivrer son charbon au bout de deux ans de présence ; il touche 5ᶠ 600 de charbon escaillage, ce qui lui vaut un bénéfice de 39ᶠ 60 en nature. (
+        <ref target="#part_02_05_16" type="renvoi_int_mono">
+         § 16, H.
+        </ref>
+        )
+       </p>
+       <p xml:id="para_11_288_79">
+        La famille jouit aussi de l'usufruit d'un bien communal. La com¬mune possédait en effet sur son territoire un marais qu'on a desséché pour en faire un sol propre à la culture ; ce terrain a été divisé en parts et attribué aux plus anciennes familles du pays. Les parts se trans¬mettent à l'aîné des héritiers du possesseur actuel. Faute de descen¬dance, elles retournent à la commune qui les distribue de nouveau.
+       </p>
+       <p xml:id="para_11_289_80">
+        <pb facs="#facs_304" n="289" source="2serlesouvriersde05sociuoft_0327.xml"/>
+        La part de Charles B*** est grande de 45 ares environ et vaut 1.500ᶠ; il la cultive comme le reste de ses propriétés et des terres qu'il loue. Le bénéfice qui en résulte a été compté à l'exploitation générale ; il eût été trop compliqué et sans utilité de faire autrement.
+       </p>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_02_08">§ 8. Travaux et industries.</head>
-       <div type="travaux" subtype="travaux_texte_1">
-        <p xml:id="para_11_289_83">Tous les membres de la famille, sauf le fils aîné, s'adonnent en com¬mun à la culture. Les terres cultivées par la famille comprennent 95 ares en propriété, 45 ares en subvention et 4 hectares en location.</p>
+       <head type="sub_sub_section" xml:id="part_02_02_08">
+        § 8. Travaux et industries.
+       </head>
+       <div subtype="travaux_texte_1" type="travaux">
+        <p xml:id="para_11_289_83">
+         Tous les membres de la famille, sauf le fils aîné, s'adonnent en com¬mun à la culture. Les terres cultivées par la famille comprennent 95 ares en propriété, 45 ares en subvention et 4 hectares en location.
+        </p>
        </div>
-       <div type="travaux" subtype="hommes">
-        <p xml:id="para_11_289_84">Travaux des hommes. — Les hommes font particulièrement le tra¬vail de la terre, le fauchage des céréales, l'arrachage des betteraves et les prestations en nature. Le père s'occupe en outre de la basse-cour. Le fils aîné est employé aux mines ; il y remplit avec ponctualité un poste fatigant mais rémunérateur.</p>
+       <div subtype="hommes" type="travaux">
+        <p xml:id="para_11_289_84">
+         Travaux des hommes. — Les hommes font particulièrement le tra¬vail de la terre, le fauchage des céréales, l'arrachage des betteraves et les prestations en nature. Le père s'occupe en outre de la basse-cour. Le fils aîné est employé aux mines ; il y remplit avec ponctualité un poste fatigant mais rémunérateur.
+        </p>
        </div>
-       <div type="travaux" subtype="femmes">
-        <p xml:id="para_11_289_85">Travaux des femmes. — La mère ne s'occupe que de la fabrication du pain et des soins du ménage, cuisine et entretien des effets.</p>
-       <p xml:id="para_11_289_86">Les filles travaillent aux champs pour le chargement des betteraves, le bottelage des javelles et la mise en meule. Elles servent de manœu¬vres pour le battage à la machine. Elles sont chargées de soigner les vaches, de les traire et de faire le beurre. Enfin, elles aident leur mère dans les travaux domestiques et s'occupent du blanchissage du linge.</p>
+       <div subtype="femmes" type="travaux">
+        <p xml:id="para_11_289_85">
+         Travaux des femmes. — La mère ne s'occupe que de la fabrication du pain et des soins du ménage, cuisine et entretien des effets.
+        </p>
+        <p xml:id="para_11_289_86">
+         Les filles travaillent aux champs pour le chargement des betteraves, le bottelage des javelles et la mise en meule. Elles servent de manœu¬vres pour le battage à la machine. Elles sont chargées de soigner les vaches, de les traire et de faire le beurre. Enfin, elles aident leur mère dans les travaux domestiques et s'occupent du blanchissage du linge.
+        </p>
        </div>
-       <div type="industries" subtype="famille">
-        <p xml:id="para_11_289_87">Industries entreprises par la famille. — Tout le travail précédemment énoncé, sauf celui de Fleury B***, constituent en réalité une série d'in¬dustries entreprises par la famille, qui sont : l'exploitation des champs, de la vacherie, du potager, de la basse-cour et la fabrication du pain.</p>
+       <div subtype="famille" type="industries">
+        <p xml:id="para_11_289_87">
+         Industries entreprises par la famille. — Tout le travail précédemment énoncé, sauf celui de Fleury B***, constituent en réalité une série d'in¬dustries entreprises par la famille, qui sont : l'exploitation des champs, de la vacherie, du potager, de la basse-cour et la fabrication du pain.
+        </p>
        </div>
       </div>
      </div>
      <div n="003" type="sub_section">
-      <head type="sub_section" xml:id="part_02_03">Mode d'existence de la famille</head>
+      <head type="sub_section" xml:id="part_02_03">
+       Mode d'existence de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_09">§ 9. Aliments et repas.</head>
-       <p xml:id="para_11_289_91">La famille est d'une grande sobriété ; elle parait se trouver à mer¬veille de ce régime frugal et semble croire qu'elle ne peut désirer autre. chose : on n'est pas riche, dit le père, mais on est bien. Après le lever, <pb facs="#facs_305" n="290" source="2serlesouvriersde05sociuoft_0328.xml"/> la famille prend un repas appelé premier déjeuner ; il se compose d'une jatte de café au lait avec une tartine de pain et de beurre. Le père y ajoute un petit verre d'eau-de-vie. A 9 heures, on déjeune ; le café étant trop cher, on prend à ce repas une infusion de sauge au lait avec une tartine. A midi, le dîner se compose d'une soupe grasse que l'on mange avec la viapde bouillie les jours gras, ou d'une soupe aux légumes avec des haricots à la vinaigrette tous les vendredis.</p>
-       <p xml:id="para_11_290_93">On achète le dimanche un morceau de bœuf qui dure jusqu'au lundi soir ; les autres jours de la semaine, la viande de porc sert à faire la soupe. On goûte à 4 heures et l'on soupe à 8 heures avec une infu¬sion de sauge au lait et des tartines de pain beurrées. La sauge, qui joue un rôle important dans l'alimentation de la famille, a l'avantage de ne rien coûter comme culture ; deux ou trois pieds suffisent pour assurer la récolte annuelle ; elle se reproduit très facilement par marcotte et n'exige aucun soin. Dans les mauvaises années, la famille avait réduit la nourriture : les tartines n'étaient plus beurrées, afin que tout le produit de la laiterie fût vendu, et l'on ne mangeait de viande qu'une ou deux fois par semaine. Aux aliments dont il vient d'être question, il convient d'ajouter par jour de travail une dépense de quatre œufs consommés aux champs. Les jours de fête et quelquefois le samedi, quand la récolte est bonne, on se régale de mouton.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_09">
+        § 9. Aliments et repas.
+       </head>
+       <p xml:id="para_11_289_91">
+        La famille est d'une grande sobriété ; elle parait se trouver à mer¬veille de ce régime frugal et semble croire qu'elle ne peut désirer autre. chose : on n'est pas riche, dit le père, mais on est bien. Après le lever,
+        <pb facs="#facs_305" n="290" source="2serlesouvriersde05sociuoft_0328.xml"/>
+        la famille prend un repas appelé premier déjeuner ; il se compose d'une jatte de café au lait avec une tartine de pain et de beurre. Le père y ajoute un petit verre d'eau-de-vie. A 9 heures, on déjeune ; le café étant trop cher, on prend à ce repas une infusion de sauge au lait avec une tartine. A midi, le dîner se compose d'une soupe grasse que l'on mange avec la viapde bouillie les jours gras, ou d'une soupe aux légumes avec des haricots à la vinaigrette tous les vendredis.
+       </p>
+       <p xml:id="para_11_290_93">
+        On achète le dimanche un morceau de bœuf qui dure jusqu'au lundi soir ; les autres jours de la semaine, la viande de porc sert à faire la soupe. On goûte à 4 heures et l'on soupe à 8 heures avec une infu¬sion de sauge au lait et des tartines de pain beurrées. La sauge, qui joue un rôle important dans l'alimentation de la famille, a l'avantage de ne rien coûter comme culture ; deux ou trois pieds suffisent pour assurer la récolte annuelle ; elle se reproduit très facilement par marcotte et n'exige aucun soin. Dans les mauvaises années, la famille avait réduit la nourriture : les tartines n'étaient plus beurrées, afin que tout le produit de la laiterie fût vendu, et l'on ne mangeait de viande qu'une ou deux fois par semaine. Aux aliments dont il vient d'être question, il convient d'ajouter par jour de travail une dépense de quatre œufs consommés aux champs. Les jours de fête et quelquefois le samedi, quand la récolte est bonne, on se régale de mouton.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_10">§ 10. Habitation, mobilier et vêtements.</head>
-       <div type="par_10" subtype="par_10_texte_1">
-        <p xml:id="para_11_290_96">La maison est batie en briques, avec facade à quatre fenêtres et porte cochère. Elle se compose d'une pièce d'entrée et de deux chambres au rez-de-chaussée ; le premier étage mansardé comprend une chambre et un grenier. Les parents couchent dans la première chambre du rez-de¬chaussée, les filles dans la seconde et les fils dans celle du premier.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_10">
+        § 10. Habitation, mobilier et vêtements.
+       </head>
+       <div subtype="par_10_texte_1" type="par_10">
+        <p xml:id="para_11_290_96">
+         La maison est batie en briques, avec facade à quatre fenêtres et porte cochère. Elle se compose d'une pièce d'entrée et de deux chambres au rez-de-chaussée ; le premier étage mansardé comprend une chambre et un grenier. Les parents couchent dans la première chambre du rez-de¬chaussée, les filles dans la seconde et les fils dans celle du premier.
+        </p>
        </div>
-       <div type="par_10" subtype="meubles">
-        <p xml:id="para_11_290_97">MEUBLES : très ordinaires, mais propres............399ᶠ00</p>
-       <p xml:id="para_11_290_98">1° Literies. — 3 bois de lit, 90ᶠ00 ; — 6 paillasses d'avoine, 4ᶠ50 ; — 3 oreillers de plumes, 6ᶠ 00; — 6 couvertures de laine, 36ᶠ00; — 3 couvertures de coton, 7ᶠ50. — Total, 144ᶠ00.</p>
-       <p xml:id="para_11_290_99">2° Mobilier des chambres à coucher. — 1 garde-robe, 30ᶠ00; — 1 secrétaire, 10ᶠ00; — 1 table, 2ᶠ00 ; — 5 chaises, 10ᶠ00; — 1 poêle, 20ᶠ00; — 1 miroir, 4ᶠ00; — 1 coffre, 5ᶠ00. — Total, 81ᶠ00.</p>
-       <p xml:id="para_11_290_100">3° Mobilier de la pièce d'entrée servant de cuisine. — 1 poêle, 60ᶠ 00; — 1 bac à charbon avec accessoires, 4ᶠ00 ; — 6 chaises, 12ᶠ00; — 1 armoire, 40ᶠ00; — 1 table, 8ᶠ00 ; — 1 pen¬dule, 30ᶠ00. — Total, 154ᶠ00.</p>
-       <p xml:id="para_11_290_101">4° Livres et fournitures de bureau. — 20ᶠ 00</p>
+       <div subtype="meubles" type="par_10">
+        <p xml:id="para_11_290_97">
+         MEUBLES : très ordinaires, mais propres............399ᶠ00
+        </p>
+        <p xml:id="para_11_290_98">
+         1° Literies. — 3 bois de lit, 90ᶠ00 ; — 6 paillasses d'avoine, 4ᶠ50 ; — 3 oreillers de plumes, 6ᶠ 00; — 6 couvertures de laine, 36ᶠ00; — 3 couvertures de coton, 7ᶠ50. — Total, 144ᶠ00.
+        </p>
+        <p xml:id="para_11_290_99">
+         2° Mobilier des chambres à coucher. — 1 garde-robe, 30ᶠ00; — 1 secrétaire, 10ᶠ00; — 1 table, 2ᶠ00 ; — 5 chaises, 10ᶠ00; — 1 poêle, 20ᶠ00; — 1 miroir, 4ᶠ00; — 1 coffre, 5ᶠ00. — Total, 81ᶠ00.
+        </p>
+        <p xml:id="para_11_290_100">
+         3° Mobilier de la pièce d'entrée servant de cuisine. — 1 poêle, 60ᶠ 00; — 1 bac à charbon avec accessoires, 4ᶠ00 ; — 6 chaises, 12ᶠ00; — 1 armoire, 40ᶠ00; — 1 table, 8ᶠ00 ; — 1 pen¬dule, 30ᶠ00. — Total, 154ᶠ00.
+        </p>
+        <p xml:id="para_11_290_101">
+         4° Livres et fournitures de bureau. — 20ᶠ 00
+        </p>
        </div>
-       <div type="par_10" subtype="linge">
-        <p xml:id="para_11_291_102"><pb facs="#facs_306" n="291" source="2serlesouvriersde05sociuoft_0329.xml"/> LINGE DE MÉNAGE : en toile grossière............ 88ᶠ20 </p>
-       <p xml:id="para_11_291_103">12 paires de draps, 84ᶠ00 — 1 essuie-mains, 4ᶠ20. — Total, 88ᶠ20.</p>
+       <div subtype="linge" type="par_10">
+        <p xml:id="para_11_291_102">
+         <pb facs="#facs_306" n="291" source="2serlesouvriersde05sociuoft_0329.xml"/>
+         LINGE DE MÉNAGE : en toile grossière............ 88ᶠ20
+        </p>
+        <p xml:id="para_11_291_103">
+         12 paires de draps, 84ᶠ00 — 1 essuie-mains, 4ᶠ20. — Total, 88ᶠ20.
+        </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
-        <p xml:id="para_11_291_104">USTENSILES............ 35ᶠ75</p>
-       <p xml:id="para_11_291_105">1° Employés pour la cuisine et de consommation des aliments. — 3 marmites, 15ᶠ50; — 3 tourtieres en fer, 1 50 ; —  csseroles en fer émaillé, 2ᶠ25; —1 terrine en terre vernie, ᶠ0; — 1 verres à boire, 1ᶠ0; — 1 sses et 1 soucoupes, 3ᶠ00; —  douaaines d'assiet. tes, ᶠ0;— 1 couverts en fer étmé, 1ᶠ0 ; — 1 petits verres, 1ᶠ00; —12 bouteilles, 1ᶠ80. — Total, 33.</p>
-       <p xml:id="para_11_291_107">2° Employés pour l'éclairage. — 1 lampe à pétrole, 3ᶠ00; — 1 cruche à pétrole, 0ᶠ40. — Total. 3ᶠ40.</p>
+       <div subtype="ustensiles" type="par_10">
+        <p xml:id="para_11_291_104">
+         USTENSILES............ 35ᶠ75
+        </p>
+        <p xml:id="para_11_291_105">
+         1° Employés pour la cuisine et de consommation des aliments. — 3 marmites, 15ᶠ50; — 3 tourtieres en fer, 1 50 ; —  csseroles en fer émaillé, 2ᶠ25; —1 terrine en terre vernie, ᶠ0; — 1 verres à boire, 1ᶠ0; — 1 sses et 1 soucoupes, 3ᶠ00; —  douaaines d'assiet. tes, ᶠ0;— 1 couverts en fer étmé, 1ᶠ0 ; — 1 petits verres, 1ᶠ00; —12 bouteilles, 1ᶠ80. — Total, 33.
+        </p>
+        <p xml:id="para_11_291_107">
+         2° Employés pour l'éclairage. — 1 lampe à pétrole, 3ᶠ00; — 1 cruche à pétrole, 0ᶠ40. — Total. 3ᶠ40.
+        </p>
        </div>
-       <div type="par_10" subtype="vetements">
-        <p xml:id="para_11_291_108">VÊTEMENTS. — Les parents ont des vêtements de paysans, les garçons sont mis avec plus de recherche. Les filles ont abandonné le bonnet de linge pour le chapeau, elles portent le costume de petites bour¬geoises............ 1,079ᶠ20</p>
-       <p xml:id="para_11_291_109">VÊTEMENTS DU PÈRE (203ᶠ60).</p>
-       <p xml:id="para_11_291_110">Vêtements de dimanche. — 1 complet redingote, 80ᶠ00,</p>
-       <p xml:id="para_11_291_111">Vêtements de travail. —  complets vestons velours, 60ᶠ00; — 1 casquette, 2ᶠ00; — 3 cra¬vates, 3ᶠ00; — 5 paires de chausettes, 15ᶠ00 ; — 2 paires de souliers, 20ᶠ00; — 4 mouchoirs de poche, 1ᶠ60; — 6 chemises de travail, 1ᶠ00; — 4 chemises blanches, 10ᶠ00. — Total, 13ᶠ60.</p>
-       <p xml:id="para_11_291_113">VÊTEMENTS DE LA MERE (114ᶠ00).</p>
-       <p xml:id="para_11_291_114">Vêtements de dimanche. — 1 robe à corsage de mérinos noir, 1 mante, 40ᶠ00 ; — 1 fchu, ᶠ00; — 1 bonnet de linge, 2ᶠ50. — Total, 44ᶠ50.</p>
-       <p xml:id="para_11_291_115">Vêtements de travail. —3 jupes, 15ᶠ00; — 6 tablier, 12ᶠ00 ; — 6 chemises,13ᶠ50 ; — 5 paires de bas, 15ᶠ00; — 3 caracos, 8ᶠ00; 1 paire de pantoufles en cuir,4ᶠ00; — 1 paire de sabots, 1ᶠ00. — Total, 69ᶠ50.</p>
-       <p xml:id="para_11_291_116">VÊTEMENTS DES FILS (344ᶠ80).</p>
-       <p xml:id="para_11_291_117">Vêtements de dimanche. —  complets en drap noir, 90ᶠ00; — chapeaux, 5ᶠ00; —  cra¬vates, 4ᶠ00; —  paires de bottines, 1ᶠ00; — 8 chemises blanches, 32ᶠ00. — Total, 147ᶠ00.</p>
-       <p xml:id="para_11_291_118">Vêtements de travail. — 4 vêtements en velours, 129ᶠ00; — 1 chemises de couleur, 2ᶠ00 ; — 2 paires de bottines, 20 ᶠ00; — 2 paires de galoches, 5ᶠ00; — 12 paires de chaus¬settes, 4ᶠ00; — 12 mouchoirs de poche, 4ᶠ80. — Total, 197ᶠ80.</p>
-       <p xml:id="para_11_291_119">VÊTEMENTS DES FILLES (416ᶠ80).</p>
-       <p xml:id="para_11_291_120">Vêtements de dimanche. — 2 costumes en mérinos noir, 60ᶠ00; — 1 manteau, 50ᶠ00; 1 jaquette, 30ᶠ00; — 2 chapeaux, 16ᶠ00; — 2 capellines, 7ᶠ00; — 3 cravates, 6ᶠ00 ; — 2 pai¬re de chausures, 14ᶠ00; — 10 pantalons, 20ᶠ00. — Total, 203ᶠ00.</p>
-       <p xml:id="para_11_291_121">Vêtements de travail. — 12 jupes, 36ᶠ00; — 6 caracos, 18ᶠ00; — 2 corsets, 18ᶠ00 ; — 20 chemises, 45ᶠ00 ;— 16 paires de bas, 48ᶠ00 ; — 2 paires de chaussures, 18ᶠ00; — 2 paires de sabots, 2ᶠ00 ; — 8 tabliers, 4ᶠ00; — 12 moucholrs, 4ᶠ80. — Total, 13ᶠ80.</p>
+       <div subtype="vetements" type="par_10">
+        <p xml:id="para_11_291_108">
+         VÊTEMENTS. — Les parents ont des vêtements de paysans, les garçons sont mis avec plus de recherche. Les filles ont abandonné le bonnet de linge pour le chapeau, elles portent le costume de petites bour¬geoises............ 1,079ᶠ20
+        </p>
+        <p xml:id="para_11_291_109">
+         VÊTEMENTS DU PÈRE (203ᶠ60).
+        </p>
+        <p xml:id="para_11_291_110">
+         Vêtements de dimanche. — 1 complet redingote, 80ᶠ00,
+        </p>
+        <p xml:id="para_11_291_111">
+         Vêtements de travail. —  complets vestons velours, 60ᶠ00; — 1 casquette, 2ᶠ00; — 3 cra¬vates, 3ᶠ00; — 5 paires de chausettes, 15ᶠ00 ; — 2 paires de souliers, 20ᶠ00; — 4 mouchoirs de poche, 1ᶠ60; — 6 chemises de travail, 1ᶠ00; — 4 chemises blanches, 10ᶠ00. — Total, 13ᶠ60.
+        </p>
+        <p xml:id="para_11_291_113">
+         VÊTEMENTS DE LA MERE (114ᶠ00).
+        </p>
+        <p xml:id="para_11_291_114">
+         Vêtements de dimanche. — 1 robe à corsage de mérinos noir, 1 mante, 40ᶠ00 ; — 1 fchu, ᶠ00; — 1 bonnet de linge, 2ᶠ50. — Total, 44ᶠ50.
+        </p>
+        <p xml:id="para_11_291_115">
+         Vêtements de travail. —3 jupes, 15ᶠ00; — 6 tablier, 12ᶠ00 ; — 6 chemises,13ᶠ50 ; — 5 paires de bas, 15ᶠ00; — 3 caracos, 8ᶠ00; 1 paire de pantoufles en cuir,4ᶠ00; — 1 paire de sabots, 1ᶠ00. — Total, 69ᶠ50.
+        </p>
+        <p xml:id="para_11_291_116">
+         VÊTEMENTS DES FILS (344ᶠ80).
+        </p>
+        <p xml:id="para_11_291_117">
+         Vêtements de dimanche. —  complets en drap noir, 90ᶠ00; — chapeaux, 5ᶠ00; —  cra¬vates, 4ᶠ00; —  paires de bottines, 1ᶠ00; — 8 chemises blanches, 32ᶠ00. — Total, 147ᶠ00.
+        </p>
+        <p xml:id="para_11_291_118">
+         Vêtements de travail. — 4 vêtements en velours, 129ᶠ00; — 1 chemises de couleur, 2ᶠ00 ; — 2 paires de bottines, 20 ᶠ00; — 2 paires de galoches, 5ᶠ00; — 12 paires de chaus¬settes, 4ᶠ00; — 12 mouchoirs de poche, 4ᶠ80. — Total, 197ᶠ80.
+        </p>
+        <p xml:id="para_11_291_119">
+         VÊTEMENTS DES FILLES (416ᶠ80).
+        </p>
+        <p xml:id="para_11_291_120">
+         Vêtements de dimanche. — 2 costumes en mérinos noir, 60ᶠ00; — 1 manteau, 50ᶠ00; 1 jaquette, 30ᶠ00; — 2 chapeaux, 16ᶠ00; — 2 capellines, 7ᶠ00; — 3 cravates, 6ᶠ00 ; — 2 pai¬re de chausures, 14ᶠ00; — 10 pantalons, 20ᶠ00. — Total, 203ᶠ00.
+        </p>
+        <p xml:id="para_11_291_121">
+         Vêtements de travail. — 12 jupes, 36ᶠ00; — 6 caracos, 18ᶠ00; — 2 corsets, 18ᶠ00 ; — 20 chemises, 45ᶠ00 ;— 16 paires de bas, 48ᶠ00 ; — 2 paires de chaussures, 18ᶠ00; — 2 paires de sabots, 2ᶠ00 ; — 8 tabliers, 4ᶠ00; — 12 moucholrs, 4ᶠ80. — Total, 13ᶠ80.
+        </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
-        <p xml:id="para_11_291_122">VALEUR TOTALE du mobilier et des vêtements............ 1.602ᶠ15</p>
+       <div subtype="par_10_total" type="par_10">
+        <p xml:id="para_11_291_122">
+         VALEUR TOTALE du mobilier et des vêtements............ 1.602ᶠ15
+        </p>
        </div>
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_03_11">§ 11. Récréations.</head>
-       <p xml:id="para_11_292_126"><pb facs="#facs_307" n="292" source="2serlesouvriersde05sociuoft_0330.xml"/> En semaine, tout le monde travaille : on ne se permet de récréations ue le dimanche et les jours de fêtes. Le père ne va plus au cabaret depuis une dizaine d'années ; il y trouve deux avantages une économie très notable, l'absence de cancans sur son compte. Il est, en effet, d'un caractère très gai, et en société tient toujours le dé de la conver¬sation, racontant des histoires, chantant des chansons, amusant tout le monde ; ce faisant, il a provoqué la jalousie de ceux qui ne pou¬vaient en faire autant, et, comme ils sont le plus grand nombre, il en souffrait beaucoup. Maintenant, il reste chez lui le dimanche, il fait la lecture à haute voix dans une vieille année du agasin pittoresue et dans un journal ; il commente les nouvelles, les événements politiques tout en fumant sa pipe.</p>
-       <p xml:id="para_11_292_127">Le tabac est actuellement la seule dépense superflue qu'il se permette, il est vrai qu'il en fume toute la journée, la dépense quotidienne de ce chef est de quinze centimes. Les enfants restent chez eux ; les filles amènent des compagnes pour passer le temps entre les offices, auxquels elles assistent régulièrement. Le fils aîné va au cabaret le dimanche, vers 4 heures du soir, rejoindre quelques jeunes gens qui partagent les mêmes opinions que lui. Il évite de fréquenter les mineurs, joue aux cartes et jamais avec enjeu d'argent ; il est sobre, ne s'enivre jamais ; mais, étant avec ses camarades, il est obligé de payer en moyenne deux à trois tournées et dépense de ce fait 2 francs environ pour sa soirée. Enfin, la ducasse du pays est une occasion d'amusement général pour la famille, on se promène pendant le jour, et le soir, la jeunesse va s'amuser au bal.</p>
+       <head type="sub_sub_section" xml:id="part_02_03_11">
+        § 11. Récréations.
+       </head>
+       <p xml:id="para_11_292_126">
+        <pb facs="#facs_307" n="292" source="2serlesouvriersde05sociuoft_0330.xml"/>
+        En semaine, tout le monde travaille : on ne se permet de récréations ue le dimanche et les jours de fêtes. Le père ne va plus au cabaret depuis une dizaine d'années ; il y trouve deux avantages une économie très notable, l'absence de cancans sur son compte. Il est, en effet, d'un caractère très gai, et en société tient toujours le dé de la conver¬sation, racontant des histoires, chantant des chansons, amusant tout le monde ; ce faisant, il a provoqué la jalousie de ceux qui ne pou¬vaient en faire autant, et, comme ils sont le plus grand nombre, il en souffrait beaucoup. Maintenant, il reste chez lui le dimanche, il fait la lecture à haute voix dans une vieille année du agasin pittoresue et dans un journal ; il commente les nouvelles, les événements politiques tout en fumant sa pipe.
+       </p>
+       <p xml:id="para_11_292_127">
+        Le tabac est actuellement la seule dépense superflue qu'il se permette, il est vrai qu'il en fume toute la journée, la dépense quotidienne de ce chef est de quinze centimes. Les enfants restent chez eux ; les filles amènent des compagnes pour passer le temps entre les offices, auxquels elles assistent régulièrement. Le fils aîné va au cabaret le dimanche, vers 4 heures du soir, rejoindre quelques jeunes gens qui partagent les mêmes opinions que lui. Il évite de fréquenter les mineurs, joue aux cartes et jamais avec enjeu d'argent ; il est sobre, ne s'enivre jamais ; mais, étant avec ses camarades, il est obligé de payer en moyenne deux à trois tournées et dépense de ce fait 2 francs environ pour sa soirée. Enfin, la ducasse du pays est une occasion d'amusement général pour la famille, on se promène pendant le jour, et le soir, la jeunesse va s'amuser au bal.
+       </p>
       </div>
      </div>
      <div n="004" type="sub_section">
-      <head type="sub_section" xml:id="part_02_04">Histoire de la famille</head>
+      <head type="sub_section" xml:id="part_02_04">
+       Histoire de la famille
+      </head>
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_12">§ 12. Phases principales de l'existence.</head>
-       <p xml:id="para_11_292_131">Charles B*** était orphelin huit jours après sa naissance. Son père, dans la joie d'avoir un fils, célébra son bonheur dans de telles liba<pb facs="#facs_308" n="293" source="2serlesouvriersde05sociuoft_0331.xml"/>tions qu'il en mourut subitement, dans un accès de delirium tremens. Sa femme, restée veuve, plaça son enfant che son propre père, et se mit à travailler pour l'élever. Peu de temps après, elle se remarie à un haleur de bateaux. Quant à Charles, il va à l'école à Auchy jusqu'à l'âge de seie ans et mène ensuite une existence assez mouvementée. Il commence à voyager avec son beau-père et le remplace quand il est malade. Puis il va che un aubergiste, à Douai, où il sert en qua¬lité de garçon de cour, quitte cette place pour reprendre le métier de haleur de bateaux et se marie à trente ans. Il change alors d'état, tra¬vaille à l'extraction de la craie pendant l'hiver, et se loue pour la mois¬son et les travaux agricoles pendant la belle saison. Sur ces entre¬faites, son beau-père et sa mère meurent : il est mis en possession de la maison quil habite aujourd'hui, avec ses dépendances. Mais il n'a pas de capitaux sutfisants pour s'établir, et continue son travail jusqu'en 1879, époque où sa femme fait un héritage de 8.000 francs. Avec cet argent, il loue des terres et achète le matériel nécessaire pour s'établir à son compte.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_12">
+        § 12. Phases principales de l'existence.
+       </head>
+       <p xml:id="para_11_292_131">
+        Charles B*** était orphelin huit jours après sa naissance. Son père, dans la joie d'avoir un fils, célébra son bonheur dans de telles liba
+        <pb facs="#facs_308" n="293" source="2serlesouvriersde05sociuoft_0331.xml"/>
+        tions qu'il en mourut subitement, dans un accès de delirium tremens. Sa femme, restée veuve, plaça son enfant che son propre père, et se mit à travailler pour l'élever. Peu de temps après, elle se remarie à un haleur de bateaux. Quant à Charles, il va à l'école à Auchy jusqu'à l'âge de seie ans et mène ensuite une existence assez mouvementée. Il commence à voyager avec son beau-père et le remplace quand il est malade. Puis il va che un aubergiste, à Douai, où il sert en qua¬lité de garçon de cour, quitte cette place pour reprendre le métier de haleur de bateaux et se marie à trente ans. Il change alors d'état, tra¬vaille à l'extraction de la craie pendant l'hiver, et se loue pour la mois¬son et les travaux agricoles pendant la belle saison. Sur ces entre¬faites, son beau-père et sa mère meurent : il est mis en possession de la maison quil habite aujourd'hui, avec ses dépendances. Mais il n'a pas de capitaux sutfisants pour s'établir, et continue son travail jusqu'en 1879, époque où sa femme fait un héritage de 8.000 francs. Avec cet argent, il loue des terres et achète le matériel nécessaire pour s'établir à son compte.
+       </p>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_04_13">§ 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.</head>
-       <p xml:id="para_11_293_135">La famille peut envisager l'avenir sans crainte, les principes de tra¬vail, de morale et d'économie dont les membres sont animés en sont un sûr garant.</p>
-       <p xml:id="para_11_293_136">L'agriculture n'est pas rémunératrice pour le moment, mais les flue¬tuations sont périodiques, et, après les très mauvaises campagnes de ces dernières années, Charles espère que les affaires se relèveront. Il fait son possible pour que son fonds revienne à un de ses enfants ; à défaut d'économies, lui et sa femme comptent habiter chez cèlui qui leur succédera dans la culture, et, lui rendre encore quelques petits services ; ils espèrent ainsi avoir une vieillesse tranquille et heureuse.</p>
+       <head type="sub_sub_section" xml:id="part_02_04_13">
+        § 13. Mœurs et institutions assurant le bien-être physique et moral de la famille.
+       </head>
+       <p xml:id="para_11_293_135">
+        La famille peut envisager l'avenir sans crainte, les principes de tra¬vail, de morale et d'économie dont les membres sont animés en sont un sûr garant.
+       </p>
+       <p xml:id="para_11_293_136">
+        L'agriculture n'est pas rémunératrice pour le moment, mais les flue¬tuations sont périodiques, et, après les très mauvaises campagnes de ces dernières années, Charles espère que les affaires se relèveront. Il fait son possible pour que son fonds revienne à un de ses enfants ; à défaut d'économies, lui et sa femme comptent habiter chez cèlui qui leur succédera dans la culture, et, lui rendre encore quelques petits services ; ils espèrent ainsi avoir une vieillesse tranquille et heureuse.
+       </p>
       </div>
      </div>
      <div n="005" type="sub_section">
       <div n="001" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_14">§ 14. Budget des recettes de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_14">
+        § 14. Budget des recettes de l'année.
+       </head>
        <pb facs="#facs_309" n="294" source="2serlesouvriersde05sociuoft_0332.xml"/>
        <figure rend="portrait" type="cptes_recettes">
         <graphic facs="#facs_309" url="#" xml:id="tble_11_294_1"/>
@@ -438,7 +793,9 @@
        </figure>
       </div>
       <div n="002" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_15">§ 15. Budget des dépenses de l'année.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_15">
+        § 15. Budget des dépenses de l'année.
+       </head>
        <pb facs="#facs_313" n="298" source="2serlesouvriersde05sociuoft_0336.xml"/>
        <figure rend="portrait" type="cptes_depenses">
         <graphic facs="#facs_313" url="#" xml:id="tble_11_298_5"/>
@@ -491,7 +848,9 @@
        <p xml:id="para_11_301_189">3.069 97I</p>-->
       </div>
       <div n="003" type="sub_sub_section">
-       <head type="sub_sub_section" xml:id="part_02_05_16">§ 16. COMPTES ANNEXÉS AUX BUDGETS.</head>
+       <head type="sub_sub_section" xml:id="part_02_05_16">
+        § 16. COMPTES ANNEXÉS AUX BUDGETS.
+       </head>
        <pb facs="#facs_317" n="302" source="2serlesouvriersde05sociuoft_0340.xml"/>
        <figure rend="portrait" type="cptes_annexes">
         <graphic facs="#facs_317" url="#"/>
@@ -560,80 +919,149 @@
       </div>
      </div>
      <div n="003" type="section">
-      <head type="section" xml:id="part_03">Éléments divers de la constitution sociale</head>
-      <p xml:id="para_11_308_260">FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITÉS REMARQUABLES; APPRECIATIONS GENÉRALES; CONCLUSIONS</p>
+      <head type="section" xml:id="part_03">
+       Éléments divers de la constitution sociale
+      </head>
+      <p xml:id="para_11_308_260">
+       FAITS IMPORTANTS D'ORGANISATION SOCIALE; PARTICULARITÉS REMARQUABLES; APPRECIATIONS GENÉRALES; CONCLUSIONS
+      </p>
       <div n="001" type="sub_section">
        <div n="001" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_17">§ 17. SUR LA POPULATION DE B..., SON DEGRÉ D'INSTRUCTION, SA SITUATION FINANCIÈRE.</head>
+        <head type="sub_sub_section" xml:id="part_03_01_17">
+         § 17. SUR LA POPULATION DE B..., SON DEGRÉ D'INSTRUCTION, SA SITUATION FINANCIÈRE.
+        </head>
         <pb facs="#facs_323" n="308" source="2serlesouvriersde05sociuoft_0346.xml"/>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_1">Tableau I. — Mouvement de la population [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_1">
+          Tableau I. — Mouvement de la population [notes annexes]
+         </head>
          <graphic facs="#facs_323" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24346/327,1543,1914,1567/full/0/default.jpg" xml:id="tble_11_308_15"/>
         </figure>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_2">Tableau II. — Nombre des cabarets [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_2">
+          Tableau II. — Nombre des cabarets [notes annexes]
+         </head>
          <graphic facs="#facs_323" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24346/287,3114,2018,735/full/0/default.jpg" xml:id="tble_11_308_16"/>
         </figure>
         <pb facs="#facs_324" n="309" source="2serlesouvriersde05sociuoft_0347.xml"/>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_3">Tableau III. — Relevé des naissances légitimes et illégitimes, de 1868 a 1893 [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_3">
+          Tableau III. — Relevé des naissances légitimes et illégitimes, de 1868 a 1893 [notes annexes]
+         </head>
          <graphic facs="#facs_324" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24347/135,463,2294,2382/full/0/default.jpg" xml:id="tble_11_309_17"/>
         </figure>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_4">Tableau VI. — Groupement de la population [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_4">
+          Tableau VI. — Groupement de la population [notes annexes]
+         </head>
          <graphic facs="#facs_324" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24347/167,2870,2262,1135/full/0/default.jpg" xml:id="tble_11_309_18"/>
         </figure>
         <pb facs="#facs_325" n="310" source="2serlesouvriersde05sociuoft_0348.xml"/>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_5">Tableau V. — Degré d'instruction des habitants, relevé fait d'après les actes de mariages de 1837 a 1882 [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_5">
+          Tableau V. — Degré d'instruction des habitants, relevé fait d'après les actes de mariages de 1837 a 1882 [notes annexes]
+         </head>
          <graphic facs="#facs_325" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24348/271,639,2166,1471/full/0/default.jpg" xml:id="tble_11_310_19"/>
         </figure>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_6">Tableau VI. — Nombre de conscrits illettrés de 1860 à 1882 [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_6">
+          Tableau VI. — Nombre de conscrits illettrés de 1860 à 1882 [notes annexes]
+         </head>
          <graphic facs="#facs_325" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24348/247,2238,2166,1695/full/0/default.jpg" xml:id="illu_11_310_20"/>
         </figure>
         <pb facs="#facs_326" n="311" source="2serlesouvriersde05sociuoft_0349.xml"/>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_7">Tableau VII. — Note relative au degré d'instruction [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_7">
+          Tableau VII. — Note relative au degré d'instruction [notes annexes]
+         </head>
          <graphic facs="#facs_326" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24349/351,575,1814,1343/full/0/default.jpg" xml:id="tble_11_311_21"/>
         </figure>
        </div>
        <div n="002" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_18">§ 18. SUR LES TRAVAUX AGRICOLES.</head>
-        <p xml:id="para_11_311_274">Janvier. — Labours de défonçage pour ameublir la terre pendant les gelées, voiturage de divers engrais, fumiers, etc.</p>
-        <p xml:id="para_11_311_275">Février. — Continuation des travaux du mois précédent.</p>
-        <p xml:id="para_11_311_276">Mars. — Commencement des semailles d'avoine pour les bonnes ter¬res. Labourage des fumiers pour les betteraves.</p>
-        <p xml:id="para_11_311_277">Avril. — Fin des semailles d'avoine et des labours pour les bettera¬ves. Iersage des champs et des premiers semis. Roulage des semailles de septembre. On commence à semer les trèfles dans les blés et les avoines. Plantation des pommes de terre. Commencement des semail¬les de betteraves.</p>
-        <p xml:id="para_11_311_278">Mai. — Fin des semailles de betteraves, de cameline. Toutes les semailles du printemps sont dès lors faites. Nettoyage des blés avec la brouette à main ou à cheval. Roulage des semailles d'automne et de celles du printemps.</p>
-        <p xml:id="para_11_311_279">Juin. — Nettoyage des récoltes au moyen de la brouette, plaçage et binage des betteraves, fauchage des foins.</p>
-        <p xml:id="para_11_311_280">Juillet. — Sarclage des récoltes qui en ont besoin. Commencement <pb facs="#facs_327" n="312" source="2serlesouvriersde05sociuoft_0350.xml"/> de la moisson pour les seigles, les colzas et les premières céréales.</p>
-        <p xml:id="para_11_312_282">Août. — Moisson générale, mise en meules ou en grange des ré¬coltes, voiturage du fumier sur les champs. Commencement des la¬bours après la moisson pour faire lever les mauvaises herbes avant l'hiver.</p>
-        <p xml:id="para_11_312_283">Septembre. — Battage des grains nécessaires pour ensemencer. Commencement des semailles de seigle. Arrachage des pommes de terre. Commencement de l'arrachage des betteraves.</p>
-        <p xml:id="para_11_312_284">Octobre. — Semaille des hivernages et de l'escourgeon. Fin de l'ar¬rachage des betteraves. Commencement des semailles de blé.</p>
-        <p xml:id="para_11_312_285">Novembre. — Fin des semailles de blé, voiturage sur les champs des divers engrais. Commencement des labours de défoncage.</p>
-        <p xml:id="para_11_312_286">Décembre. — Les travaux sont suspendus pendant ce mois à l'exté¬rieur. On travaille à l'intérieur, au battage et au nettoyage des grains, à la réparation des outils et des instruments.</p>
+        <head type="sub_sub_section" xml:id="part_03_01_18">
+         § 18. SUR LES TRAVAUX AGRICOLES.
+        </head>
+        <p xml:id="para_11_311_274">
+         Janvier. — Labours de défonçage pour ameublir la terre pendant les gelées, voiturage de divers engrais, fumiers, etc.
+        </p>
+        <p xml:id="para_11_311_275">
+         Février. — Continuation des travaux du mois précédent.
+        </p>
+        <p xml:id="para_11_311_276">
+         Mars. — Commencement des semailles d'avoine pour les bonnes ter¬res. Labourage des fumiers pour les betteraves.
+        </p>
+        <p xml:id="para_11_311_277">
+         Avril. — Fin des semailles d'avoine et des labours pour les bettera¬ves. Iersage des champs et des premiers semis. Roulage des semailles de septembre. On commence à semer les trèfles dans les blés et les avoines. Plantation des pommes de terre. Commencement des semail¬les de betteraves.
+        </p>
+        <p xml:id="para_11_311_278">
+         Mai. — Fin des semailles de betteraves, de cameline. Toutes les semailles du printemps sont dès lors faites. Nettoyage des blés avec la brouette à main ou à cheval. Roulage des semailles d'automne et de celles du printemps.
+        </p>
+        <p xml:id="para_11_311_279">
+         Juin. — Nettoyage des récoltes au moyen de la brouette, plaçage et binage des betteraves, fauchage des foins.
+        </p>
+        <p xml:id="para_11_311_280">
+         Juillet. — Sarclage des récoltes qui en ont besoin. Commencement
+         <pb facs="#facs_327" n="312" source="2serlesouvriersde05sociuoft_0350.xml"/>
+         de la moisson pour les seigles, les colzas et les premières céréales.
+        </p>
+        <p xml:id="para_11_312_282">
+         Août. — Moisson générale, mise en meules ou en grange des ré¬coltes, voiturage du fumier sur les champs. Commencement des la¬bours après la moisson pour faire lever les mauvaises herbes avant l'hiver.
+        </p>
+        <p xml:id="para_11_312_283">
+         Septembre. — Battage des grains nécessaires pour ensemencer. Commencement des semailles de seigle. Arrachage des pommes de terre. Commencement de l'arrachage des betteraves.
+        </p>
+        <p xml:id="para_11_312_284">
+         Octobre. — Semaille des hivernages et de l'escourgeon. Fin de l'ar¬rachage des betteraves. Commencement des semailles de blé.
+        </p>
+        <p xml:id="para_11_312_285">
+         Novembre. — Fin des semailles de blé, voiturage sur les champs des divers engrais. Commencement des labours de défoncage.
+        </p>
+        <p xml:id="para_11_312_286">
+         Décembre. — Les travaux sont suspendus pendant ce mois à l'exté¬rieur. On travaille à l'intérieur, au battage et au nettoyage des grains, à la réparation des outils et des instruments.
+        </p>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_8">Rendement à l'hectare [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_8">
+          Rendement à l'hectare [notes annexes]
+         </head>
          <graphic facs="#facs_327" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24350/468,1850,1742,912/full/0/default.jpg" xml:id="tble_11_312_22"/>
         </figure>
-        <p xml:id="para_11_312_288">La luerne produit en foin 2 a l'hectare, en fourrage vert 750 bot¬tes. Les cultivateurs se plaignent pour la plupart de la loi de 1884 sur les sucres, qui a mis l'impôt sur la betterave, et de la loi de 1890 qui en a augmenté la prise en charge et l'a portée à 7ᵉ 12.</p>
+        <p xml:id="para_11_312_288">
+         La luerne produit en foin 2 a l'hectare, en fourrage vert 750 bot¬tes. Les cultivateurs se plaignent pour la plupart de la loi de 1884 sur les sucres, qui a mis l'impôt sur la betterave, et de la loi de 1890 qui en a augmenté la prise en charge et l'a portée à 7ᵉ 12.
+        </p>
        </div>
        <div n="003" type="sub_sub_section">
-        <head type="sub_sub_section" xml:id="part_03_01_19">§ 19. BUDGETS COMPARATIFS DU MINEUR ET DE L'AGRICULTEUR DU PAS-DE-CALAIS.</head>
+        <head type="sub_sub_section" xml:id="part_03_01_19">
+         § 19. BUDGETS COMPARATIFS DU MINEUR ET DE L'AGRICULTEUR DU PAS-DE-CALAIS.
+        </head>
         <pb facs="#facs_328" n="313" source="2serlesouvriersde05sociuoft_0351.xml"/>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_9">Budget des recettes [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_9">
+          Budget des recettes [notes annexes]
+         </head>
          <graphic facs="#facs_328" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24351/-8,927,2406,3070/full/0/default.jpg" xml:id="tble_11_313_23"/>
         </figure>
         <pb facs="#facs_329" n="314" source="2serlesouvriersde05sociuoft_0352.xml"/>
         <figure rend="portrait" type="table">
-         <head resp="original" type="table" xml:id="figure_10">Budget des dépenses [notes annexes]</head>
+         <head resp="original" type="table" xml:id="figure_10">
+          Budget des dépenses [notes annexes]
+         </head>
          <graphic facs="#facs_329" url="https://iiif.archivelab.org/iiif/2serlesouvriersde05sociuoft%24352/111,471,2534,3502/full/0/default.jpg" xml:id="tble_11_314_24"/>
         </figure>
-        <p xml:id="para_11_315_294"><pb facs="#facs_330" n="315" source="2serlesouvriersde05sociuoft_0353.xml"/> Les familles du mineur et de l'agriculteur du Pas-de-Calais dont les monographies précèdent ont été choisies entre beaucoup d'autres avec le plus grand soin, pour représenter les types des ouvriers des industries minière et agricole ; c'est-à-dire que placés dans les condi¬tions générales de travail, doués de capacités et de forces moyennes, ils montrent les résultats auxquels peuvent arriver des ouvriers ordi¬naires, à condition d'avoir de l'ordre et de la conduite. Ces deux sujets représentent bien les types qu'il s'agit d'étudier. Aussi bien, il serait oiseux de prendre pour objet d'études des libertins et des ivrognes : il y en a dans tous les métiers. Beaucoupde mineurs s'adonnent d'une façon exagérée à la boisson et vivent dans la misère, il faut bien se garder de rendre la profession responsable de l'ivrognerie. Il s'agit précisément d'attribuer les effets à leur véritable cause et de dégager la vérité. C'est donc pour ce motif qu'il faut écarter avec soin toute influence extérieure, et que les deux types étudiés ont été choisis comme il a été dit. Ce qu'ils font, tous leurs camarades peuvent le faire. On peut ainsi, d'après ces monographies, comparer l'ouvrier de la mine à celui des campagnes.</p>
-        <p xml:id="para_11_315_295">On voit d'abord que toutes les ressources du mineur sont absolu¬ment sûres : la partie principale est formée par son salaire, il peut absolument compter sur lui tant qu'il est bien portant. Les chomages sont rares ; saui quelques petites variations de détail, le travail se présente généralement dans les mêmes conditions. Il n'a pas d'intem¬péries à redouter ; son revenu est donc stable. S'il vient à tomber malade ou à être blessé, ses journées sont réduites, mais non suppri¬mées. D'autre part, les subventions mêmes ont un caractère de fixité; signalons les avantages octroyés pour le logement et le chauffage. Le mineur peut donc asseoir son budget au commencement de l'année et se tracer une ligne de conduite, dont il ne se départira pas. Aussi, devant cette fixité de revenus, il dépense largement ; plus de la moitié des recettes passent dans les frais de nourriture, il consacre une part importante à son habillement et près de 9% en récréations, dont la principale est le cabaret. Pourtant, M*** est un ouvrier raisonna¬ble, c'est un de ceux qui dépensent le moins pour cet objet. En un mot, le mineur s'entoure de tout le bien-être qu'il peut se procurer, et cependant, on le trouve arrivé à la fin de l'année, fier d'avoir mis à la cauisse d'épargne une petite somme s'élevant à 12% de son re¬venu. Ce qu'il a fait cette année, le mineur peut le faire tous les ans. La somme n'est pas grosse à la vérité, mais combien d'ouvriers des <pb facs="#facs_331" n="316" source="2serlesouvriersde05sociuoft_0354.xml"/> grandes villes voudraient pouvoir en faire autant ! Combien de culti¬vateurs désireraient suivre cet exemple !</p>
-        <p xml:id="para_11_316_297">Chez le cultivateur, rien n'est stable. Les revenus des propriétés immobilières sont sujets à des fluctuations malheureuses, et se tien¬nent en particulier pour le moment très bas. Le salaire de la famille s'est élevé, gràce au fils qui travaille aux mines, quant aux autres membres de la famille, si la maladie vient à s'abattre sur eux, c'est autant de bras inoccupés, de bouches à nourrir. Quant aux bénéfices résultant de la culture, ils sont soumis aux plus grands aléas. Le cultivateur dépend de l'avilissement des cours contre lesquels il ne peut pas grand'chose, et des intempéries des saisons contre lesquelles il ne peut rien. Avec un revenu aussi aléatoire, on le voit se restrein¬dre sur la nourriture, sur l'habillement et surtout sur le cabaret, et. quand l'exercice lui a été favorable, qu'il a gagné un petit pécule, il ne peut en disposer. Il faut prélever les intérêts et l'amortissement des hypothêques des mauvaises années, payer les impôts sans cesse plus importants et retrouver une somme assez considérable pour faire face aux dépenses de l'exploitation.</p>
-        <p xml:id="para_11_316_298">Devant cette situation, il semble que le mineur ne soit pas aussi à plaindre qu'on a bien voulu le laisser entendre.</p>
+        <p xml:id="para_11_315_294">
+         <pb facs="#facs_330" n="315" source="2serlesouvriersde05sociuoft_0353.xml"/>
+         Les familles du mineur et de l'agriculteur du Pas-de-Calais dont les monographies précèdent ont été choisies entre beaucoup d'autres avec le plus grand soin, pour représenter les types des ouvriers des industries minière et agricole ; c'est-à-dire que placés dans les condi¬tions générales de travail, doués de capacités et de forces moyennes, ils montrent les résultats auxquels peuvent arriver des ouvriers ordi¬naires, à condition d'avoir de l'ordre et de la conduite. Ces deux sujets représentent bien les types qu'il s'agit d'étudier. Aussi bien, il serait oiseux de prendre pour objet d'études des libertins et des ivrognes : il y en a dans tous les métiers. Beaucoupde mineurs s'adonnent d'une façon exagérée à la boisson et vivent dans la misère, il faut bien se garder de rendre la profession responsable de l'ivrognerie. Il s'agit précisément d'attribuer les effets à leur véritable cause et de dégager la vérité. C'est donc pour ce motif qu'il faut écarter avec soin toute influence extérieure, et que les deux types étudiés ont été choisis comme il a été dit. Ce qu'ils font, tous leurs camarades peuvent le faire. On peut ainsi, d'après ces monographies, comparer l'ouvrier de la mine à celui des campagnes.
+        </p>
+        <p xml:id="para_11_315_295">
+         On voit d'abord que toutes les ressources du mineur sont absolu¬ment sûres : la partie principale est formée par son salaire, il peut absolument compter sur lui tant qu'il est bien portant. Les chomages sont rares ; saui quelques petites variations de détail, le travail se présente généralement dans les mêmes conditions. Il n'a pas d'intem¬péries à redouter ; son revenu est donc stable. S'il vient à tomber malade ou à être blessé, ses journées sont réduites, mais non suppri¬mées. D'autre part, les subventions mêmes ont un caractère de fixité; signalons les avantages octroyés pour le logement et le chauffage. Le mineur peut donc asseoir son budget au commencement de l'année et se tracer une ligne de conduite, dont il ne se départira pas. Aussi, devant cette fixité de revenus, il dépense largement ; plus de la moitié des recettes passent dans les frais de nourriture, il consacre une part importante à son habillement et près de 9% en récréations, dont la principale est le cabaret. Pourtant, M*** est un ouvrier raisonna¬ble, c'est un de ceux qui dépensent le moins pour cet objet. En un mot, le mineur s'entoure de tout le bien-être qu'il peut se procurer, et cependant, on le trouve arrivé à la fin de l'année, fier d'avoir mis à la cauisse d'épargne une petite somme s'élevant à 12% de son re¬venu. Ce qu'il a fait cette année, le mineur peut le faire tous les ans. La somme n'est pas grosse à la vérité, mais combien d'ouvriers des
+         <pb facs="#facs_331" n="316" source="2serlesouvriersde05sociuoft_0354.xml"/>
+         grandes villes voudraient pouvoir en faire autant ! Combien de culti¬vateurs désireraient suivre cet exemple !
+        </p>
+        <p xml:id="para_11_316_297">
+         Chez le cultivateur, rien n'est stable. Les revenus des propriétés immobilières sont sujets à des fluctuations malheureuses, et se tien¬nent en particulier pour le moment très bas. Le salaire de la famille s'est élevé, gràce au fils qui travaille aux mines, quant aux autres membres de la famille, si la maladie vient à s'abattre sur eux, c'est autant de bras inoccupés, de bouches à nourrir. Quant aux bénéfices résultant de la culture, ils sont soumis aux plus grands aléas. Le cultivateur dépend de l'avilissement des cours contre lesquels il ne peut pas grand'chose, et des intempéries des saisons contre lesquelles il ne peut rien. Avec un revenu aussi aléatoire, on le voit se restrein¬dre sur la nourriture, sur l'habillement et surtout sur le cabaret, et. quand l'exercice lui a été favorable, qu'il a gagné un petit pécule, il ne peut en disposer. Il faut prélever les intérêts et l'amortissement des hypothêques des mauvaises années, payer les impôts sans cesse plus importants et retrouver une somme assez considérable pour faire face aux dépenses de l'exploitation.
+        </p>
+        <p xml:id="para_11_316_298">
+         Devant cette situation, il semble que le mineur ne soit pas aussi à plaindre qu'on a bien voulu le laisser entendre.
+        </p>
        </div>
       </div>
      </div>

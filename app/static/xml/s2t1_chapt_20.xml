@@ -4,9 +4,37 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
+    <title level="m" n="53" type="main">
+     Métayer à famille-souche du pays d'Horte (Landes - France)
+    </title>
+    <title level="s" type="desc">
      Les Ouvriers des Deux Mondes - série 2, volume 1 - Transcription
     </title>
+    <title level="m" type="short">
+     metayer-famille-souche-pays-horte-53
+    </title>
+    <author n="1" role="investigator">
+     M. d'Artigues
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
+    <respStmt>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°53 des Ouvriers des deux mondes, "Métayer à famille-souche du pays d'Horte (Landes - France)". Elle a d'abord été publiée en fascicule en 1887, puis reliée en 1887, à partir d'une enquête réalisée à Saint-Étienne-d'Orthe (Landes, France) en 1879.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
       <forename>
@@ -114,15 +142,23 @@
       supervision technique
      </resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
     <publisher>
-     projet ANR Time Us
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
     </publisher>
     <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>
@@ -130,13 +166,6 @@
     </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_358">
   <surface lrx="2189" lry="3505"/>
@@ -439,7 +468,11 @@
       PAR
      </p>
      <p xml:id="para_20_341_6">
-      M. <persName>LE BARON D'ARTIGUES</persName>.
+      M.
+      <persName>
+       LE BARON D'ARTIGUES
+      </persName>
+      .
      </p>
      <p xml:id="para_20_341_7">
       Propriétaire-Agriculteur.
@@ -458,14 +491,23 @@
         § 1. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_20_341_13">
-        <pb facs="#facs_358" n="341" source="s2lesouvriersdes01sociuoft_0397.xml"/> Le village de Saint-Étienne d'Horte, habité par la famille décrite dans la présente monographie, est situé par 3° 31' long. O., 43° 33' lat. N. ; à 9 kilomètres de Peyrehorade, à 20 kilomètres S.-O. de Dax et à 72 kilomètres O. S.-0. de Mont-de-Marsan, chef-lieu du dé¬partement des Landes. Sa superficie totale est de 1,106 hectares 96 ares 20 centiares, et occupe la rive gauche de l'Adour, à 6 kilo¬mètres en amont du confluent du Gave et de l'Adour (Bec-du-Gave). Pour décrire le relief général de Saint-Etienne d'Horte, je suppo¬serai l'observateur placé à peu près au centre de la commune, sur l'éminence que domine l'église. Au nord, un plateau (42 mètres d'al¬titude), coupé de gorges étroites, offre deux parties très tranchées. Tandis qu'au nord-ouest, les maisons sont nombreuses et les champs cultivé ; à l'est, on ne voit que des landes couvertes de bois de pins. Si l'on fait face au sud, l'on a à ses pieds une pente rapide: puis <pb facs="#facs_359" n="342" source="s2lesouvriersdes01sociuoft_0398.xml"/> du sud-est au nord-ouest, s'élargissant en forme de triangle, une dé¬elivité continue ; c'est la plaine, semée de maisons et cultivée sur toute son étendue. Cne ligne, bien nettement marquée du nord-est au sud-ouest, limite un rectangle vert, au niveau des eaux de l'A¬dour : les gens de la localité l'appellent barthe. Les trois aspects s'équilibrent à peu près comme étendue, s'ils diffêrent come na¬ture. Sur le coteau, un heureux mélange d'argile et de sable per¬met, à l'ouest, les travaux agricoles. Des sables tertiaires carac¬térisent au contraire le sol de la région est. Dans la plaine, les alluvions humifères, qu'on rencontre déjà sur la pente la reliant au coteau, donnent une composition aussi homogène que fertile. La barthe est argileuse, compacte, froide et humide. Le sous-sol appartient aux tmps teriaires. Sur le coteau, il est tantôt grave¬leux ou sablonneux, c par conséquent perméable, comme dans la région agricole ; tantôt argileux et imperméable, ainsi quiil arrive dans toute la lande. Plus bas, se rencontrent des marnes argilo-calᵉ caires donnant de 5 à 18 de matières utiles. La composition sa¬blonneuse domine sous la plaine, tandis que l'argile, souvent mêlée de silice, est le fond de la barthe. Dn voit d'ores et déjà que les eaux pluviales s'écoulent promptement là où le sous-sol est sblon¬neux ; les landes, au contraire, assises sur un sous-sol compac, gar¬dent l'humidité. Les gorges dont le coteau est entrecoupé lui ser¬vent de drains naturels. Elles conduisent les nappes souterraines dans la vallée et forment deux ruisseaux principaux, l'un au nord. l'autre au sud, dont les directions sont parallèles (est à ouest), et qui tous deu aoutissent à la barthe, après avoir alimenté deux étangs de meunerie. Les puits sont nombreux et peu profonds sur toute la partie haute. Les chaleurs n'éprouvant pas sérieusement la plaine, on peut en inférer la présence d'eau souterraines. Elles se tiennent vraisemlablement au-dessus de la couche marneuse signalée plus haut. La barthe, pr son défaut de pente, de perméabilité, et son peu d'élévation au-dessus du niveau de l'Adour, reçoit et garde tous les égoûts du haut. Des digues très rudimentaires permettent aux moindres crues d'y pénétrer. Sauf l'été, c'est un lac marécageux. bn a cherché à remédier à ces inconvénients par un système de fossés et de canaux assez mal entretenus
+        <pb facs="#facs_358" n="341" source="s2lesouvriersdes01sociuoft_0397.xml"/>
+        Le village de Saint-Étienne d'Horte, habité par la famille décrite dans la présente monographie, est situé par 3° 31' long. O., 43° 33' lat. N. ; à 9 kilomètres de Peyrehorade, à 20 kilomètres S.-O. de Dax et à 72 kilomètres O. S.-0. de Mont-de-Marsan, chef-lieu du dé¬partement des Landes. Sa superficie totale est de 1,106 hectares 96 ares 20 centiares, et occupe la rive gauche de l'Adour, à 6 kilo¬mètres en amont du confluent du Gave et de l'Adour (Bec-du-Gave). Pour décrire le relief général de Saint-Etienne d'Horte, je suppo¬serai l'observateur placé à peu près au centre de la commune, sur l'éminence que domine l'église. Au nord, un plateau (42 mètres d'al¬titude), coupé de gorges étroites, offre deux parties très tranchées. Tandis qu'au nord-ouest, les maisons sont nombreuses et les champs cultivé ; à l'est, on ne voit que des landes couvertes de bois de pins. Si l'on fait face au sud, l'on a à ses pieds une pente rapide: puis
+        <pb facs="#facs_359" n="342" source="s2lesouvriersdes01sociuoft_0398.xml"/>
+        du sud-est au nord-ouest, s'élargissant en forme de triangle, une dé¬elivité continue ; c'est la plaine, semée de maisons et cultivée sur toute son étendue. Cne ligne, bien nettement marquée du nord-est au sud-ouest, limite un rectangle vert, au niveau des eaux de l'A¬dour : les gens de la localité l'appellent barthe. Les trois aspects s'équilibrent à peu près comme étendue, s'ils diffêrent come na¬ture. Sur le coteau, un heureux mélange d'argile et de sable per¬met, à l'ouest, les travaux agricoles. Des sables tertiaires carac¬térisent au contraire le sol de la région est. Dans la plaine, les alluvions humifères, qu'on rencontre déjà sur la pente la reliant au coteau, donnent une composition aussi homogène que fertile. La barthe est argileuse, compacte, froide et humide. Le sous-sol appartient aux tmps teriaires. Sur le coteau, il est tantôt grave¬leux ou sablonneux, c par conséquent perméable, comme dans la région agricole ; tantôt argileux et imperméable, ainsi quiil arrive dans toute la lande. Plus bas, se rencontrent des marnes argilo-calᵉ caires donnant de 5 à 18 de matières utiles. La composition sa¬blonneuse domine sous la plaine, tandis que l'argile, souvent mêlée de silice, est le fond de la barthe. Dn voit d'ores et déjà que les eaux pluviales s'écoulent promptement là où le sous-sol est sblon¬neux ; les landes, au contraire, assises sur un sous-sol compac, gar¬dent l'humidité. Les gorges dont le coteau est entrecoupé lui ser¬vent de drains naturels. Elles conduisent les nappes souterraines dans la vallée et forment deux ruisseaux principaux, l'un au nord. l'autre au sud, dont les directions sont parallèles (est à ouest), et qui tous deu aoutissent à la barthe, après avoir alimenté deux étangs de meunerie. Les puits sont nombreux et peu profonds sur toute la partie haute. Les chaleurs n'éprouvant pas sérieusement la plaine, on peut en inférer la présence d'eau souterraines. Elles se tiennent vraisemlablement au-dessus de la couche marneuse signalée plus haut. La barthe, pr son défaut de pente, de perméabilité, et son peu d'élévation au-dessus du niveau de l'Adour, reçoit et garde tous les égoûts du haut. Des digues très rudimentaires permettent aux moindres crues d'y pénétrer. Sauf l'été, c'est un lac marécageux. bn a cherché à remédier à ces inconvénients par un système de fossés et de canaux assez mal entretenus
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (§ 20)
         </ref>
         .
        </p>
        <p xml:id="para_20_342_16">
-        Le climat est tempéré dans la moyenne. L'hiver, les plus grands froids dépassent rarement -4°; en été, quelques semaines sont très chaudes et l'on y voit le thermomètre monter jusqu'à +35° ; mais <pb facs="#facs_360" n="343" source="s2lesouvriersdes01sociuoft_0399.xml"/> en général la température se maintient entre +14° et +25°. La cani¬cule amène des orages, quoique la grêle soit rare. Les vents régnants d'entre sud-est et nord-ouest, rendent les pluies fréquentes et, depuis quelques années, les saisons sont très irrégulières. Le voisinage de la mer produit des sautes brusques du thermomètre ; les habitants de la localité s'en garent en portant toujours de la laine <ref target="#part_02_03_10" type="renvoi_int_mono">(§ 10)</ref>. Le grand fléau du pays, ce sont les pluies fréquentes signalées ci-dessus ; les fontes de neige s'y mêlent parfois. Dans les deux cas, le fleuve déborde et couvre toutes les parties basses. Mais la barthe seule en soufre grièvement.
+        Le climat est tempéré dans la moyenne. L'hiver, les plus grands froids dépassent rarement -4°; en été, quelques semaines sont très chaudes et l'on y voit le thermomètre monter jusqu'à +35° ; mais
+        <pb facs="#facs_360" n="343" source="s2lesouvriersdes01sociuoft_0399.xml"/>
+        en général la température se maintient entre +14° et +25°. La cani¬cule amène des orages, quoique la grêle soit rare. Les vents régnants d'entre sud-est et nord-ouest, rendent les pluies fréquentes et, depuis quelques années, les saisons sont très irrégulières. Le voisinage de la mer produit des sautes brusques du thermomètre ; les habitants de la localité s'en garent en portant toujours de la laine
+        <ref target="#part_02_03_10" type="renvoi_int_mono">
+         (§ 10)
+        </ref>
+        . Le grand fléau du pays, ce sont les pluies fréquentes signalées ci-dessus ; les fontes de neige s'y mêlent parfois. Dans les deux cas, le fleuve déborde et couvre toutes les parties basses. Mais la barthe seule en soufre grièvement.
        </p>
        <p xml:id="para_20_343_18">
         Les productions végétales sont nombreuses. Le sol, abandonné à lui-même, produirait de la lande sur le coteau et du bois dans la plaine. On sème le pin maritime dans les parties sablonneuses et imperméaubles des hauteurs. Sous son ombre poussent le genèt, la 1ougère, l'ajonc épineux et la bruyère, dont la réunion forme le sous¬trage. Les diverses parcelles sont séparées par des talus plantés de laux-acacias, de chênes et de châtaigniers, exploités en taillis. Sur certaines parties, on remarque quelques futaies de chênes. Dans la plaine et le marais, le faux-acacia, le chêne blanc, le vergne (aune commun), diverses variétés de saules, plantés en bordure des champs oOu des prairies, sont coupés ous les quatre ans environ. Quant aux végétations variées, l'examen des comptcs annexés au budget
@@ -478,10 +520,11 @@
         <head resp="original" type="table" xml:id="figure_1">
          Culture du tabac à Saint-Étienne d'Horte en 1879 [§1]
         </head>
-        <graphic facs="#facs_360" url="#" xml:id="illu_20_343_1"/>
+        <graphic facs="#facs_360" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24399/377,2495,1525,637/full/0/default.jpg" xml:id="illu_20_343_1"/>
        </figure>
        <p xml:id="para_20_344_20">
-        <pb facs="#facs_361" n="344" source="s2lesouvriersdes01sociuoft_0400.xml"/> Les productions animales naturelles sont rares quant aux moyen¬nes espèces. Le gibier du pays est peu abondant aujourd'hui. Le gibier de passage offre des alternatives de pénurie et d'abondance
+        <pb facs="#facs_361" n="344" source="s2lesouvriersdes01sociuoft_0400.xml"/>
+        Les productions animales naturelles sont rares quant aux moyen¬nes espèces. Le gibier du pays est peu abondant aujourd'hui. Le gibier de passage offre des alternatives de pénurie et d'abondance
         <ref target="#part_02_02_07" type="renvoi_int_mono">
          (§ 7)
         </ref>
@@ -511,14 +554,16 @@
         <ref target="#part_02_02_06" type="renvoi_int_mono">
          (§ 6)
         </ref>
-        , quelquefois principale. Les mo¬teurs à eau consistent en deux moulins : ceux à la houille, en une locomobile actionnant des batteuses et une scie mécanique ; c'est pour leurs propriétaires une industrie domestique accessoire, avec l'aide exceptionnelle d'ouvriers journaliers. Les transports par ani¬maux de bât ou de trait ont un caractère essentiellement particu¬lier, et ceux par batellerie sont rares. Cependant, ils seraient faciles si l'on pouvait aisément rejoiundre le fleuve, car l'Adour est navigable jusqu'à Bayonne (30 kilomètres) et jusqu'à Dax (20 kilomètres). La vicinalité est mauvaise sur le territoire de la commune ; elle devient excellente sur le chemin de grande communication n° 6, de Dax à Port-de-Lanne (3 kilomètres) ou à Orthevielle (6 kilomètres), qui <pb facs="#facs_363" n="346" source="s2lesouvriersdes01sociuoft_0402.xml"/> mettent les habitants en rapport avec Peyrehorade, le chef-lieu de canton. Enfin, la ligne du chemin de fer de Pau à Bayonne se trouve a 7 kilomètres et celle de Bayonne à Paris à 10 kilomètres de la lo¬calité.
+        , quelquefois principale. Les mo¬teurs à eau consistent en deux moulins : ceux à la houille, en une locomobile actionnant des batteuses et une scie mécanique ; c'est pour leurs propriétaires une industrie domestique accessoire, avec l'aide exceptionnelle d'ouvriers journaliers. Les transports par ani¬maux de bât ou de trait ont un caractère essentiellement particu¬lier, et ceux par batellerie sont rares. Cependant, ils seraient faciles si l'on pouvait aisément rejoiundre le fleuve, car l'Adour est navigable jusqu'à Bayonne (30 kilomètres) et jusqu'à Dax (20 kilomètres). La vicinalité est mauvaise sur le territoire de la commune ; elle devient excellente sur le chemin de grande communication n° 6, de Dax à Port-de-Lanne (3 kilomètres) ou à Orthevielle (6 kilomètres), qui
+        <pb facs="#facs_363" n="346" source="s2lesouvriersdes01sociuoft_0402.xml"/>
+        mettent les habitants en rapport avec Peyrehorade, le chef-lieu de canton. Enfin, la ligne du chemin de fer de Pau à Bayonne se trouve a 7 kilomètres et celle de Bayonne à Paris à 10 kilomètres de la lo¬calité.
        </p>
        <!--<pb facs="#facs_362" n="345" source="s2lesouvriersdes01sociuoft_0401.xml"/>-->
        <figure rend="paysage" type="table">
         <head resp="original" type="table" xml:id="figure_2">
          Cadastre de la commune de Saint-Etienne-d'Horte (Landes) [§1]
         </head>
-        <graphic facs="#facs_362" url="#" xml:id="tble_20_345_2"/>
+        <graphic facs="#facs_362" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24401/279,391,1749,2754/full/270/default.jpg" xml:id="tble_20_345_2"/>
        </figure>
        <p xml:id="para_20_346_25">
        </p>
@@ -526,7 +571,7 @@
         <head resp="original" type="table" xml:id="figure_3">
          Tableau de la population sous le rapport de la proprieté [§1]
         </head>
-        <graphic facs="#facs_363" url="#"/>
+        <graphic facs="#facs_363" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24402/289,721,1553,385/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_20_346_26">
         Grands propriétaires ne dépassant pas 50 hectares..................... ...... 9
@@ -550,7 +595,7 @@
         <head resp="original" type="table" xml:id="figure_4">
          Corps de métiers [§1]
         </head>
-        <graphic facs="#facs_363" url="#"/>
+        <graphic facs="#facs_363" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24402/265,1103,1577,505/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_20_346_33">
         Boulanger .......................... 1 Forgerons ... ..... .......... ........ 2
@@ -586,10 +631,16 @@
         Familles de 11 membres..
         </p>-->
        <figure rend="portrait" type="table">
+        <head resp="original" type="table" xml:id="figure_55">
+         Tableau des familles, d'aprés de nombre de membres qui les composent [§1]
+        </head>
+        <graphic facs="#facs_363" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24402/371,1631,1377,625/full/0/default.jpg"/>
+       </figure>
+       <figure rend="portrait" type="table">
         <head resp="original" type="table" xml:id="figure_5">
          Tableau des familles, d'aprés de nombre d'enfants [§1]
         </head>
-        <graphic facs="#facs_363" url="#"/>
+        <graphic facs="#facs_363" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24402/365,1629,1377,625/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_20_346_45">
         Familles qui comptent 8 enfants. ..................:................ 1
@@ -607,10 +658,18 @@
         . (   .  .  . .. . . . . .. . . . . . .. . . . . . .. . . . . . .. . . ()
         </p>-->
        <p xml:id="para_20_346_50">
-        Le rapport de la propriété familiale à la propriété communale et patronale est suffisamment indiqué dans les tableaux précédents. La composition des biens, leur mode de possession et de transmission, les subventions diverses sont sensiblement analogues à ce qui sera décrit pour la famille étudiée, avec cette différence, que les mé<pb facs="#facs_364" n="347" source="s2lesouvriersdes01sociuoft_0403.xml"/>tayers transmettent seulement à l'héritier associé le contrat qui les lie au maître ; mais au point de vue des droits utiles, on peut dire qu'ils possédent la propriété familiale limitée du foyer et du do¬maine. L'exemple choisi fera sufisamment apprécier les points es¬sentiels concernant les biens mobiliers, le salaire, l'épargne, la fa¬mille ouvrière, son mode d'existence, les phases que cette existence peut présenter et le patronage qui la complète. L'organisation so¬ciale dont fait partie la famille décrite apparaitra suffisamment dans la suite de cette étude. Nous signalerons seulement ici quelques traits complémentaires afin de pas surcharger les paragraphes sui¬vants. Il suffira de s'y reporter pour avoir une idée exacte de l'en¬semble et des détails.
+        Le rapport de la propriété familiale à la propriété communale et patronale est suffisamment indiqué dans les tableaux précédents. La composition des biens, leur mode de possession et de transmission, les subventions diverses sont sensiblement analogues à ce qui sera décrit pour la famille étudiée, avec cette différence, que les mé
+        <pb facs="#facs_364" n="347" source="s2lesouvriersdes01sociuoft_0403.xml"/>
+        tayers transmettent seulement à l'héritier associé le contrat qui les lie au maître ; mais au point de vue des droits utiles, on peut dire qu'ils possédent la propriété familiale limitée du foyer et du do¬maine. L'exemple choisi fera sufisamment apprécier les points es¬sentiels concernant les biens mobiliers, le salaire, l'épargne, la fa¬mille ouvrière, son mode d'existence, les phases que cette existence peut présenter et le patronage qui la complète. L'organisation so¬ciale dont fait partie la famille décrite apparaitra suffisamment dans la suite de cette étude. Nous signalerons seulement ici quelques traits complémentaires afin de pas surcharger les paragraphes sui¬vants. Il suffira de s'y reporter pour avoir une idée exacte de l'en¬semble et des détails.
        </p>
        <p xml:id="para_20_347_52">
-        Le village de Saint-Étienne comprend une agglomération de foyers. disposés en forme de rue le long de la route principale et sur la montée qui aboutit au coteau. Sur la côte se trouvent l'élise, la mairie . les écoles. le presbytère, quelques maisons de propriétaires et de métayers, ainsi que les rares petits commercants de la localité. Un second groupe. voisin de l'Adour, porte le nom de Ra-Port. En¬fin, la partie agricole du coteau et l'etrémité de la plaine forment deux quartiers désignés par le nom du principal paysan qui les ha¬bite. Dans la plaine, les métairies sont en général à portée de la voix. Il est rare que le domaine soit d'un seul tènement. Cependant l'agglomération relative du bourg. le morellement des propriétés, ne semblent pas porter avec eux les conséquences habituelles. Les dispo¬sitions du lieu. rendent toute culture agricole diffieile sur la lande et impossible dans la barthe. L'origine des familles de paysans-proprié¬taires constituant leurs biens parcelle par parcelle, suivant les occa¬sions d'achat, et se développant sur l'espace restreint où s'obtiennent les céréales, n'a pas permis la constitution de domaines agglomérés. Les nécessités défensives des temps passés, accusées par l'emplace¬ment des églises. toutes au point culminant des localités. par la forme des clochers, véritables tours carrées, ont sans doute groupé les ha¬bitations près de l'abri commun. Les terres cultivées ont été acqui¬ses. puis conquises pied à pied, par défrichement des bois ou des terres vaggues et l'on s'est établi au centre déijà constitué, pour rayonner à l'entour. La tendance générale du pays. comme dispositions morales, est plutôt contraire à la promiscuité du voisinage. On se ferme vo¬lontiers chez soi ; on est jalou de l'indépendance domestique; on se clôt par des murs., des fossés, des haies épaisses, et l'on recherche <pb facs="#facs_365" n="348" source="s2lesouvriersdes01sociuoft_0404.xml"/> avidement l'occasion d'étendre par des acquisitions, même onéreuses, la zone qui sépare du voisin. La proximité des foyers est subie plu¬tôt que recherchée. Il 'existe aucun château dans la commune <ref target="#part_02_01_03" type="renvoi_int_mono">(§ 3)</ref>. En revanche, les paysans propriétaires sont nombreu. Ils ont, outre une réserve, de une à dix métairies. Le groupe des salariés comprend surtout des ouvriers journaliers agricoles. Quelques-uns sont attachés à des chantiers ou à des artisans chefs de métier. La permmanence des engagements envers un seul patron n'existe pas, mais la permanence du travail et des rapports produit les mêmes effets. En raison de la diversité des travaux, le salaire à la tâche n'apparait qu'exceptionnellement. Les petits commerçants ne vendent que des objets de première nécessité et vivent, pour une part égrale à celle de leur commerce, d'un travail agricole ou du produit de petites industries domestiques.
+        Le village de Saint-Étienne comprend une agglomération de foyers. disposés en forme de rue le long de la route principale et sur la montée qui aboutit au coteau. Sur la côte se trouvent l'élise, la mairie . les écoles. le presbytère, quelques maisons de propriétaires et de métayers, ainsi que les rares petits commercants de la localité. Un second groupe. voisin de l'Adour, porte le nom de Ra-Port. En¬fin, la partie agricole du coteau et l'etrémité de la plaine forment deux quartiers désignés par le nom du principal paysan qui les ha¬bite. Dans la plaine, les métairies sont en général à portée de la voix. Il est rare que le domaine soit d'un seul tènement. Cependant l'agglomération relative du bourg. le morellement des propriétés, ne semblent pas porter avec eux les conséquences habituelles. Les dispo¬sitions du lieu. rendent toute culture agricole diffieile sur la lande et impossible dans la barthe. L'origine des familles de paysans-proprié¬taires constituant leurs biens parcelle par parcelle, suivant les occa¬sions d'achat, et se développant sur l'espace restreint où s'obtiennent les céréales, n'a pas permis la constitution de domaines agglomérés. Les nécessités défensives des temps passés, accusées par l'emplace¬ment des églises. toutes au point culminant des localités. par la forme des clochers, véritables tours carrées, ont sans doute groupé les ha¬bitations près de l'abri commun. Les terres cultivées ont été acqui¬ses. puis conquises pied à pied, par défrichement des bois ou des terres vaggues et l'on s'est établi au centre déijà constitué, pour rayonner à l'entour. La tendance générale du pays. comme dispositions morales, est plutôt contraire à la promiscuité du voisinage. On se ferme vo¬lontiers chez soi ; on est jalou de l'indépendance domestique; on se clôt par des murs., des fossés, des haies épaisses, et l'on recherche
+        <pb facs="#facs_365" n="348" source="s2lesouvriersdes01sociuoft_0404.xml"/>
+        avidement l'occasion d'étendre par des acquisitions, même onéreuses, la zone qui sépare du voisin. La proximité des foyers est subie plu¬tôt que recherchée. Il 'existe aucun château dans la commune
+        <ref target="#part_02_01_03" type="renvoi_int_mono">
+         (§ 3)
+        </ref>
+        . En revanche, les paysans propriétaires sont nombreu. Ils ont, outre une réserve, de une à dix métairies. Le groupe des salariés comprend surtout des ouvriers journaliers agricoles. Quelques-uns sont attachés à des chantiers ou à des artisans chefs de métier. La permmanence des engagements envers un seul patron n'existe pas, mais la permanence du travail et des rapports produit les mêmes effets. En raison de la diversité des travaux, le salaire à la tâche n'apparait qu'exceptionnellement. Les petits commerçants ne vendent que des objets de première nécessité et vivent, pour une part égrale à celle de leur commerce, d'un travail agricole ou du produit de petites industries domestiques.
        </p>
        <p xml:id="para_20_348_54">
         En résumé, l'ensemble agricole est prédominant. Rien n'y vient modifier sensiblement l'égalité des conditions. Sauf un plus grand luxe et un bien-être plus abondant, les familles de cette localité res¬emblent outes à celle que nous allons décrire.
@@ -622,37 +681,75 @@
         § 2. ÉTAT CIVIL DE LA FAMILLE.
        </head>
        <p xml:id="para_20_348_57">
-        La famille est originaire de la localité et constituée en famille-souche <ref target="#part_02_04_12" type="renvoi_int_mono">(§ 12)</ref>, ancien régime de la famille dans le Béarn et le pays d'Horte. Ce régime se conserve particulièrement chez les métayers, qui se font remarquer par une rare fidélité au mœurs patriarcales et à la tradition.
+        La famille est originaire de la localité et constituée en famille-souche
+        <ref target="#part_02_04_12" type="renvoi_int_mono">
+         (§ 12)
+        </ref>
+        , ancien régime de la famille dans le Béarn et le pays d'Horte. Ce régime se conserve particulièrement chez les métayers, qui se font remarquer par une rare fidélité au mœurs patriarcales et à la tradition.
        </p>
        <p xml:id="para_20_348_58">
         Le présent tableau comprend le chef de famille et sa femme, un frère de celle-ci, célibataire ; la fille aînée mariée au foyer et destinée à succéder à ses parents dans la gestion de la métairie, le gendre, deux filles et deux garçons issus de ce mariage, soit :
        </p>
        <p>
-        1° <persName>PIERRE DARTHÈS</persName>, chef de famille............ 69 ans.
+        1°
+        <persName type="respondent" xml:id="ID-053aE1">
+         PIERRE DARTHÈS
+        </persName>
+        , chef de famille............ 69 ans.
        </p>
        <p xml:id="para_20_348_59">
-        2° <persName>CATHERINE BORTHARY</persName>, sa femne............ 64 —
+        2°
+        <persName type="respondent" xml:id="ID-053aE2">
+         CATHERINE BORTHARY
+        </persName>
+        , sa femne............ 64 —
        </p>
        <p xml:id="para_20_348_60">
-        3° <persName>CATHERINE DARTHÈS</persName>, première fille, mariée depuis vingt-deux ans............ 38 —
+        3°
+        <persName type="respondent" xml:id="ID-053aE3">
+         CATHERINE DARTHÈS
+        </persName>
+        , première fille, mariée depuis vingt-deux ans............ 38 —
        </p>
        <p xml:id="para_20_348_61">
-        4° <persName>JEAN MONTAUZÉ</persName>, mari de Catherine Darthès, né à Orthevielle, commune limitrophe............ 49 —
+        4°
+        <persName type="respondent" xml:id="ID-053aE4">
+         JEAN MONTAUZÉ
+        </persName>
+        , mari de Catherine Darthès, né à Orthevielle, commune limitrophe............ 49 —
        </p>
        <p>
-        5° <persName>MARIE-LOUISE</persName>, leur première fille............ 21 —
+        5°
+        <persName type="respondent" xml:id="ID-053aE5">
+         MARIE-LOUISE
+        </persName>
+        , leur première fille............ 21 —
        </p>
        <p>
-        6° <persName>HENRI</persName>, leur premier fils............ 11 —
+        6°
+        <persName type="respondent" xml:id="ID-053aE6">
+         HENRI
+        </persName>
+        , leur premier fils............ 11 —
        </p>
        <p>
-        7° <persName>PIERRE</persName>, leur deuxième fils............ 3 —
+        7°
+        <persName type="respondent" xml:id="ID-053aE7">
+         PIERRE
+        </persName>
+        , leur deuxième fils............ 3 —
        </p>
        <p>
-        8° <persName>PASCAL dit Pascalon</persName>, frère de Catherine Borthary, célibataire............ 58 —
+        8°
+        <persName type="respondent" xml:id="ID-053aE8">
+         PASCAL dit Pascalon
+        </persName>
+        , frère de Catherine Borthary, célibataire............ 58 —
        </p>
        <p xml:id="para_20_348_62">
-        Marcelle, âgée de dix-neuf ans, deuxième fille de Jean Montauzé, est en service depuis un an dans la commune même. Marie Darthès, <pb facs="#facs_366" n="349" source="s2lesouvriersdes01sociuoft_0405.xml"/> âgée de trente-six ans, seconde fille de Pierre Darthès, habite Pey, commune limitrophe ; elle est mariée depuis quatorze ans à un fer¬mier dont elle a eu quatre enfants. Pascalon ne reçoit pas de gages. Il vit dans la famille, y est entretenu, logé et nourri. Il travaille un quart de l'année hors de la maison et pour son propre compte. Il a un patrimoine de mille francs placé dans le pays. Il dispose de son revenu et de ce qu'il gagne pendant qu'il travaille hors de la maison. La famille ne sait rien de ses affaires, mais ne croit pas qu'il économise, parce qu'il aime « à faire la fête ». Jean Montauzé, le gendre, a un frère établi a Port-de-Lanne, et une sœur à Orthe¬vielle, tous deux mariés et avec des enfants. Lanne et Orthevielle confinent à Saint-Etienne-d'Horte
+        Marcelle, âgée de dix-neuf ans, deuxième fille de Jean Montauzé, est en service depuis un an dans la commune même. Marie Darthès,
+        <pb facs="#facs_366" n="349" source="s2lesouvriersdes01sociuoft_0405.xml"/>
+        âgée de trente-six ans, seconde fille de Pierre Darthès, habite Pey, commune limitrophe ; elle est mariée depuis quatorze ans à un fer¬mier dont elle a eu quatre enfants. Pascalon ne reçoit pas de gages. Il vit dans la famille, y est entretenu, logé et nourri. Il travaille un quart de l'année hors de la maison et pour son propre compte. Il a un patrimoine de mille francs placé dans le pays. Il dispose de son revenu et de ce qu'il gagne pendant qu'il travaille hors de la maison. La famille ne sait rien de ses affaires, mais ne croit pas qu'il économise, parce qu'il aime « à faire la fête ». Jean Montauzé, le gendre, a un frère établi a Port-de-Lanne, et une sœur à Orthe¬vielle, tous deux mariés et avec des enfants. Lanne et Orthevielle confinent à Saint-Etienne-d'Horte
         <ref target="#part_02_03_09" type="renvoi_int_mono">
          (§ 9)
         </ref>
@@ -671,7 +768,9 @@
          1° Culte privé. — Le personnel actif du culte privé comprend ha¬bituellement la mère et la fille, exceptionnellement le curé. Le per¬sonnel passif se compose des membres de la famille. Les rites et cou¬tumes se manifestent par la prière dite en particulier le matin et en commun le soir ; et par des images religieuses appendues dans cha¬que chambre. Le curé vient bénir les étables. les chambres, soit en cas de maladie, soit la veille d'un mariage, soit quand un appartement est remis à neuf. On conserve le cierge de la Chandeleur pour le cas où un mort serait dans la maison, et on l'allume également par les temps d'orage. Si l'on est malade, on demande au curé la récita¬tion d'un évanggile ; pendant cette cérémonie, l'étole est posée sur la tête du malade. Enfin, à certaines fêtes et notamment à la Saint¬Jean, on va boire l'eau à certaines fontaines. L'enseigement privé et sa doctrine se bornent à rappeler les ensei,gnements du curé. La fille fait la lecture du catéchisme et des Annales de la Propagation de la Foi. Dieu est souvent invoqué comme auteur des choses heu¬reuses ou malbeureuses. comme devant récompenser ou punir, ain l fortifier les cœurs dans la résignation et la crainte. Tous prennent une part égale à ces manifestations du culte privé.
         </p>
         <p>
-         2° Culte public. — Le personnel actif se compose du curé, et, dans une certaine mesure, des Servantes de Marie. L'influence du premier <pb facs="#facs_367" n="350" source="s2lesouvriersdes01sociuoft_0406.xml"/> est grande ; elle augmente encore quand il y joint des qualités per¬sonnelles. Celles qui sont le plus appréciées sont le désintéressement pécuniaire, le dévouement aux enfants et aux malades, l'impartialité dans les rapports, la sympathie discrète mais affectueuse qui rend siennes les joies et les tristesses mais non les affaires d'autrui. Le per¬sonnel passif comprend les membres de la famille. Les rites et coutu¬mes sont ceux du culte catholique. On constate encore l'intervention de l'Egalise dans les actes importants de la vie matérielle : proces¬sions des Rogations, cérémonies publiques dans les cas de féau ou d'épidémies, bénédiction annuelle des bestiaux, eiin les divers cas prévus par les rituels romains. Les exercices de piété sont fré¬quents. et la vie religieuse se manifeste avec intensité. La doctrine est celle de l'Eglise catholique, l'enseignement s'en inspire. Il se com¬pose des sermons du dimanche et du catéchisme fait aux enfants pen¬dant deux ans. La famille Montauzé pratique très eactement les obli¬gations de sa religion. Autant que l'éloignement le lui permet. elle prend part aux exercices de piété. Elle s'approche régulièrement des sacrements et compte parmi les plus fidèles aux rites et coutumes indiqués plus haut.
+         2° Culte public. — Le personnel actif se compose du curé, et, dans une certaine mesure, des Servantes de Marie. L'influence du premier
+         <pb facs="#facs_367" n="350" source="s2lesouvriersdes01sociuoft_0406.xml"/>
+         est grande ; elle augmente encore quand il y joint des qualités per¬sonnelles. Celles qui sont le plus appréciées sont le désintéressement pécuniaire, le dévouement aux enfants et aux malades, l'impartialité dans les rapports, la sympathie discrète mais affectueuse qui rend siennes les joies et les tristesses mais non les affaires d'autrui. Le per¬sonnel passif comprend les membres de la famille. Les rites et coutu¬mes sont ceux du culte catholique. On constate encore l'intervention de l'Egalise dans les actes importants de la vie matérielle : proces¬sions des Rogations, cérémonies publiques dans les cas de féau ou d'épidémies, bénédiction annuelle des bestiaux, eiin les divers cas prévus par les rituels romains. Les exercices de piété sont fré¬quents. et la vie religieuse se manifeste avec intensité. La doctrine est celle de l'Eglise catholique, l'enseignement s'en inspire. Il se com¬pose des sermons du dimanche et du catéchisme fait aux enfants pen¬dant deux ans. La famille Montauzé pratique très eactement les obli¬gations de sa religion. Autant que l'éloignement le lui permet. elle prend part aux exercices de piété. Elle s'approche régulièrement des sacrements et compte parmi les plus fidèles aux rites et coutumes indiqués plus haut.
         </p>
         <p xml:id="para_20_350_69">
          3° Corporations religieuses. — La grand'mère, la mère et la fille font partie d'une confrérie purement religieuse. Marie-Louise appartient à la Congrégation de la sainte Vierge et la famille est associée de la Propagation de la Foi.
@@ -685,7 +784,9 @@
          Habitudes morales. Education.
         </head>
         <p xml:id="para_20_350_72">
-         La tradition, l'enseignement religieux et l'expérience personnelle confirment chaque génération dans un ensemble d'idées et de meurs auxquelles la famille demeure fermement attachée. L'ensemble des prin¬cipes qui règlent la vie morale est inspiré par la religion chrétienne. Le père et la mère se partagent le dépôt et l'enseignement de ces principes. Montauzé est cependant la premiêre autorité de la famille. Par sa soumission à la loi de Dieu, par son respect pour la tradition des ancêtres, tant au point de vue moral qu'au point de vue matériel, son rôle de gardien vigilant des coutumes héréditaires lui donne tous les droits à la première place. Il la partage la plupart du temps avec sa femme. Celle-ci n'a rien de la soumission servile ou de la rivalité <pb facs="#facs_368" n="351" source="s2lesouvriersdes01sociuoft_0407.xml"/> intéressée. D'un commun accord, ils président au gouvernement de leur foyer avec les nuances de conduite et de procédé qui dérivent de leurs différents caractères. Le père apporte la gaité, la bonté habi¬tuelle que corrigent au besoin les éclats d'une vivacité rude. La mêre montre la même vivacité mais plus ordinairement. Elle veut que les affaires de son ressort marchent énergiquement et rondement. Actuel¬lement, ils ont la direction effective de toutes choses, leurs parents. très âgés, se reposant sur eux du courant de la vie. Au reste, tout se succède dans cette famille, et la génération suivante ressemble à eelle qui précède.
+         La tradition, l'enseignement religieux et l'expérience personnelle confirment chaque génération dans un ensemble d'idées et de meurs auxquelles la famille demeure fermement attachée. L'ensemble des prin¬cipes qui règlent la vie morale est inspiré par la religion chrétienne. Le père et la mère se partagent le dépôt et l'enseignement de ces principes. Montauzé est cependant la premiêre autorité de la famille. Par sa soumission à la loi de Dieu, par son respect pour la tradition des ancêtres, tant au point de vue moral qu'au point de vue matériel, son rôle de gardien vigilant des coutumes héréditaires lui donne tous les droits à la première place. Il la partage la plupart du temps avec sa femme. Celle-ci n'a rien de la soumission servile ou de la rivalité
+         <pb facs="#facs_368" n="351" source="s2lesouvriersdes01sociuoft_0407.xml"/>
+         intéressée. D'un commun accord, ils président au gouvernement de leur foyer avec les nuances de conduite et de procédé qui dérivent de leurs différents caractères. Le père apporte la gaité, la bonté habi¬tuelle que corrigent au besoin les éclats d'une vivacité rude. La mêre montre la même vivacité mais plus ordinairement. Elle veut que les affaires de son ressort marchent énergiquement et rondement. Actuel¬lement, ils ont la direction effective de toutes choses, leurs parents. très âgés, se reposant sur eux du courant de la vie. Au reste, tout se succède dans cette famille, et la génération suivante ressemble à eelle qui précède.
         </p>
         <p xml:id="para_20_351_75">
          Ils restent attachés à la terre, paysans de cœur, et ils en sont fiers: ils ont l'amour du foyer
@@ -728,7 +829,9 @@
          <ref target="#part_03_01_19" type="renvoi_int_mono">
           (§ 19)
          </ref>
-         . V'oiei les trait les plus saillants de cette éducation morale. commune à cette familleet à celles qui l'entourent, et qu'on n'hésite pas à graver dans l'esprit des enfnts par des corrections fréquentes quand l'exemple ne suffit ps. La famille rȩoit l'enseignement religieux du clergé et l'enseignement scolaire de l'insltituteur. Hors du domaine strictement limité de ces deux enseignements, elle n'accepte aucune ingérence étrangère dans la formation de ses enfants. Les représentants des cultures intellee¬tuelles se plaignent de n'être pas secondés par la famille, et par suite de l'insuffisance de l'éducation. On le fait à dessein. Les parents tien¬nent à passer intacts à leur postérité les sentiments. les manières de voir. les affeetions et les haines héréditaires aussi bien que les pro¬cédés de travail. L'émigration vers la ville, que détermine le dévelop¬pement de l'instruction, n'est pas faite pour adoucir ce sentiment d'ex<pb facs="#facs_369" n="352" source="s2lesouvriersdes01sociuoft_0408.xml"/>clusivisme familial et même communal, qui a pour conséquence de marquer d'une forte empreinte les membres d'un même foyer. Le res¬pect des parents, l'attachement au foyer, l'esprit de famille, et un carac¬tère marqué d'originalité en résultent. On se sent les coudes, et cela dans la famille et entre les foyers voisins. La famille forme donc une unité très forte et très compacte. Les caractères apparents sont : la viri¬lité, la fermeté presque entêtée, la susceptibilitéet le défaut de concilia¬tion dans les relations, un prolond sentiment égalitaire, une émulation orgueilleuse à se maintenir au niveau commun, qul, pour avoir quel¬ques inconvénients, n'en produit pas moins de grands résultats, car je la crois le levier de presque toutes leurs actions. Entre eux et avec l'étranger ils sont hospitaliers, serviables, charitables et dévoués, s'entr'aidant ; le tout à titre de revanche et par apprécation très juste de la solidarité qui existe entre les hommes. La discipline maintenue dans la famille, produit le respect et la déférence envers les supé¬rieurs. Leur sentiment d'égalité marque son empreinte sur la façon dont ils considèrent les classes dirigeantes. Ils ne leur reconnaissent nullement une supériorité native ; ils n'aiment pas les chapeaux ; en revanche, si les représentants de ces classes fondent leur ascendant sur le travail, la vertu et les services rendus, ils apprécient l'utilité de leur rôle, sentent de quel intérêt est pour eux l'existence de ces fa¬milles patronales et savent le témoigner. D'autre part, ils ont une idée très nette de la valeur de leur propre rôle ; par suite, leurs rap¬ports avec les classes supérieures sont caractérisés par une grande tierté, de la dignité et de l'indépendance ; mais rien qui ressemble à l'antagonisme ne s'y montre. Il y a chez ces métayers plus de race que dans bien des milieux qui représentent aujourd'hui l'ancienne aristocratie française.
+         . V'oiei les trait les plus saillants de cette éducation morale. commune à cette familleet à celles qui l'entourent, et qu'on n'hésite pas à graver dans l'esprit des enfnts par des corrections fréquentes quand l'exemple ne suffit ps. La famille rȩoit l'enseignement religieux du clergé et l'enseignement scolaire de l'insltituteur. Hors du domaine strictement limité de ces deux enseignements, elle n'accepte aucune ingérence étrangère dans la formation de ses enfants. Les représentants des cultures intellee¬tuelles se plaignent de n'être pas secondés par la famille, et par suite de l'insuffisance de l'éducation. On le fait à dessein. Les parents tien¬nent à passer intacts à leur postérité les sentiments. les manières de voir. les affeetions et les haines héréditaires aussi bien que les pro¬cédés de travail. L'émigration vers la ville, que détermine le dévelop¬pement de l'instruction, n'est pas faite pour adoucir ce sentiment d'ex
+         <pb facs="#facs_369" n="352" source="s2lesouvriersdes01sociuoft_0408.xml"/>
+         clusivisme familial et même communal, qui a pour conséquence de marquer d'une forte empreinte les membres d'un même foyer. Le res¬pect des parents, l'attachement au foyer, l'esprit de famille, et un carac¬tère marqué d'originalité en résultent. On se sent les coudes, et cela dans la famille et entre les foyers voisins. La famille forme donc une unité très forte et très compacte. Les caractères apparents sont : la viri¬lité, la fermeté presque entêtée, la susceptibilitéet le défaut de concilia¬tion dans les relations, un prolond sentiment égalitaire, une émulation orgueilleuse à se maintenir au niveau commun, qul, pour avoir quel¬ques inconvénients, n'en produit pas moins de grands résultats, car je la crois le levier de presque toutes leurs actions. Entre eux et avec l'étranger ils sont hospitaliers, serviables, charitables et dévoués, s'entr'aidant ; le tout à titre de revanche et par apprécation très juste de la solidarité qui existe entre les hommes. La discipline maintenue dans la famille, produit le respect et la déférence envers les supé¬rieurs. Leur sentiment d'égalité marque son empreinte sur la façon dont ils considèrent les classes dirigeantes. Ils ne leur reconnaissent nullement une supériorité native ; ils n'aiment pas les chapeaux ; en revanche, si les représentants de ces classes fondent leur ascendant sur le travail, la vertu et les services rendus, ils apprécient l'utilité de leur rôle, sentent de quel intérêt est pour eux l'existence de ces fa¬milles patronales et savent le témoigner. D'autre part, ils ont une idée très nette de la valeur de leur propre rôle ; par suite, leurs rap¬ports avec les classes supérieures sont caractérisés par une grande tierté, de la dignité et de l'indépendance ; mais rien qui ressemble à l'antagonisme ne s'y montre. Il y a chez ces métayers plus de race que dans bien des milieux qui représentent aujourd'hui l'ancienne aristocratie française.
         </p>
        </div>
       </div>
@@ -737,7 +840,9 @@
         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
        <p xml:id="para_20_352_79">
-        L'apparence de la famille indique la santé. Les vieux parents, amai¬gris par l'âge et le travail, n'en ont pas moins une verte vieillesse. Ils n'ont jamais été malades. Montauzé est de taille moyenne, carrément bâti. et très fort ; ses yveux bleus et la coupe générale de sa figure sont d'un type assez rare. Il n'a pas les caractéristiques arabes très fré¬quentes dans le pays d'IHorte ; le nez est droit, le front et le menton carré, les lèvres assez épaisses ; le teint est hâlé mais clair : il appar<pb facs="#facs_370" n="353" source="s2lesouvriersdes01sociuoft_0409.xml"/>tient à la race indo-germanique, et à la famille des Goths. Sa bonne humeur et sa gaieté sont des indices assurés de son état de santé ha¬bituel. Il a eu cependant dux fois les fièvres malignes, en 1865 pen¬dant vingt jours, et en 1870 pendant un mois. Catherine, sa femme, est grande, très maigre, très active : c'est un paquet de nerfs. Les yeux et les cheveux châtains, le front bombé. le nez recourbé, les lèvres minces, le menton pointu, elle offre. comme ses parents et presque tous les indigènes, le type arabe qu'on observe en Syrie. Des considé¬rations tirées de ia constitution physique, du caractère et des habi¬tudes, du langage et des souvenirs du pays, font en effet reconnaitre, à quiconque a vécu de la vie orientale, que cette population appar¬tient en grande partie aux conquéraunts de l'spagne, venus se greffer sur un fonds celtique et gothique ; mais le sang arabe l'emporte. Marie¬Louise et Henri rappellent leur mère par les traits. En grandissant, comme on le remarque chez les enfants de ce pays. la fille prend les allures maternelles, tandis que le fils tend à ressembler à son père dans l'ensemble de sa maniêre d'être. Quant à Pascalon, il n'offre rien de particulier ; c'est une figure ronde, au nez rouge, au teint enluminé. Dn voit que la bouteille n'est pas son ennemie. La famille a des habitudes de grande propreté. Les ablutions sont fréquentes. Elles ont lieu chaque matin et aprés tous les travaux un peu sales. A cet effet un essuie¬mains est suspendu près de la cruche dans la cuisine. Les bains géné¬raux sont pris tous les trois mois environ.
+        L'apparence de la famille indique la santé. Les vieux parents, amai¬gris par l'âge et le travail, n'en ont pas moins une verte vieillesse. Ils n'ont jamais été malades. Montauzé est de taille moyenne, carrément bâti. et très fort ; ses yveux bleus et la coupe générale de sa figure sont d'un type assez rare. Il n'a pas les caractéristiques arabes très fré¬quentes dans le pays d'IHorte ; le nez est droit, le front et le menton carré, les lèvres assez épaisses ; le teint est hâlé mais clair : il appar
+        <pb facs="#facs_370" n="353" source="s2lesouvriersdes01sociuoft_0409.xml"/>
+        tient à la race indo-germanique, et à la famille des Goths. Sa bonne humeur et sa gaieté sont des indices assurés de son état de santé ha¬bituel. Il a eu cependant dux fois les fièvres malignes, en 1865 pen¬dant vingt jours, et en 1870 pendant un mois. Catherine, sa femme, est grande, très maigre, très active : c'est un paquet de nerfs. Les yeux et les cheveux châtains, le front bombé. le nez recourbé, les lèvres minces, le menton pointu, elle offre. comme ses parents et presque tous les indigènes, le type arabe qu'on observe en Syrie. Des considé¬rations tirées de ia constitution physique, du caractère et des habi¬tudes, du langage et des souvenirs du pays, font en effet reconnaitre, à quiconque a vécu de la vie orientale, que cette population appar¬tient en grande partie aux conquéraunts de l'spagne, venus se greffer sur un fonds celtique et gothique ; mais le sang arabe l'emporte. Marie¬Louise et Henri rappellent leur mère par les traits. En grandissant, comme on le remarque chez les enfants de ce pays. la fille prend les allures maternelles, tandis que le fils tend à ressembler à son père dans l'ensemble de sa maniêre d'être. Quant à Pascalon, il n'offre rien de particulier ; c'est une figure ronde, au nez rouge, au teint enluminé. Dn voit que la bouteille n'est pas son ennemie. La famille a des habitudes de grande propreté. Les ablutions sont fréquentes. Elles ont lieu chaque matin et aprés tous les travaux un peu sales. A cet effet un essuie¬mains est suspendu près de la cruche dans la cuisine. Les bains géné¬raux sont pris tous les trois mois environ.
        </p>
        <p xml:id="para_20_353_81">
         Comme on pourra s'en convaincre en examinant la nourriture
@@ -767,7 +872,8 @@
         . Les lits sont chaudement couverts. Cela tient à la fraicheur des nuits succédant à la chaleur des jours.
        </p>
        <p xml:id="para_20_354_82">
-        <pb facs="#facs_371" n="354" source="s2lesouvriersdes01sociuoft_0410.xml"/> Le médecin est à huit kilomètres de la localité. C'est un officier de santé jouissant d'une popularité universelle. Cette confiance n'est pas altérée par l'insuccès de plusieurs cures, insuccès dû à l'habitude in¬vétérée du paysan d'appeler le médecin trop tard. bLes paysans cepen¬dant ne se médicamentent pas eux-mêmes. Muand ils se sentent at¬teints, ils gardent la diète, prennent des tisanes
+        <pb facs="#facs_371" n="354" source="s2lesouvriersdes01sociuoft_0410.xml"/>
+        Le médecin est à huit kilomètres de la localité. C'est un officier de santé jouissant d'une popularité universelle. Cette confiance n'est pas altérée par l'insuccès de plusieurs cures, insuccès dû à l'habitude in¬vétérée du paysan d'appeler le médecin trop tard. bLes paysans cepen¬dant ne se médicamentent pas eux-mêmes. Muand ils se sentent at¬teints, ils gardent la diète, prennent des tisanes
         <ref target="#part_02_05_15" type="renvoi_int_mono">
          (15, sect. IV)
         </ref>
@@ -791,12 +897,13 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_20_355_89">
-         <pb facs="#facs_372" n="355" source="s2lesouvriersdes01sociuoft_0411.xml"/>(Mobilier et vêtements non compris.)
+         <pb facs="#facs_372" n="355" source="s2lesouvriersdes01sociuoft_0411.xml"/>
+         (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_20_355_90">
          IMMEUBLES............ 0ᶠ 00.
         </p>
@@ -811,15 +918,19 @@
          Maison d'habitation et bâtiments d'exploitation, 6.000ᶠ00 ; — fournière et loge à porcs. 1.800ᶠ00; — terres labourables (42 journades), 21.000ᶠ00 (la journade vaut 14a 89c); — vignes (5 journades), 2.000ᶠ00; — taillis (27 journades), 4.250ᶠ00; — landes (44 journades), 6.600ᶠ00; — pâtures (2 journades 1/2), 375ᶠ00; — barthes (18 journades), 4.500ᶠ00 ; — au¬naies (30 carreau : il y en a 3 dans une journade), 200ᶠ00. — Total, 46.725ᶠ00.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_20_355_93">
          ARGENT............ 1.400ᶠ00.
         </p>
         <p xml:id="para_20_355_94">
-         Somme gardée par la maîtresse de maison et son mari et constituant avec les grains, les bestiaux et les provisions, le fonds de roulement de la famille, 400ᶠ00; — économies réalisées depuis quatre ans (l'état emmbarrassé des affaires de la famille n'ayant cessé qu'à cette époque, <ref target="#part_02_04_12" type="renvoi_int_mono">§12</ref>), 500ᶠ00; — somme possédée à titre iundividuel (réserve person¬nelle du grand-père), 500ᶠ00. — Total, 1.400ᶠ09 (non compris une somme de 1.000ᶠ00, placée à intérêts dans le pays et appartenant au frère de Catherine).
+         Somme gardée par la maîtresse de maison et son mari et constituant avec les grains, les bestiaux et les provisions, le fonds de roulement de la famille, 400ᶠ00; — économies réalisées depuis quatre ans (l'état emmbarrassé des affaires de la famille n'ayant cessé qu'à cette époque,
+         <ref target="#part_02_04_12" type="renvoi_int_mono">
+          §12
+         </ref>
+         ), 500ᶠ00; — somme possédée à titre iundividuel (réserve person¬nelle du grand-père), 500ᶠ00. — Total, 1.400ᶠ09 (non compris une somme de 1.000ᶠ00, placée à intérêts dans le pays et appartenant au frère de Catherine).
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_20_355_95">
          ANIMAUX DOMESTIQUES entretenus toute l'année............ 971ᶠ50.
         </p>
@@ -836,12 +947,14 @@
          1 paire de bœufs achetés 790ᶠ00, vendus au bout de 6 mois et pesant alors 1.450ᵏ, ̀à 0ᶠ 70, soit 1.O15ᶠ00 : valeur moyenne annuelle, 451ᶠ25, dont 50 0/0 au métayer, soit 225ᶠ62 : — 1 paire de bœufs achetés 820ᶠ00, vendus au bout de 6 mois et pesant alors 1.470, à 0ᶠ70, soit 1.029ᶠ00 : valeur moyenne annuelle, 462ᶠ 25, dont 50 0/0 au métayer, soit 231ᶠ12; — 1 paire de bœufs achetés 835ᶠ00, vendus au bout de 3 mois et pesant alors 1.440ᵏ, à 0ᶠ75. soit 1.080ᶠ00 : valeur moyenne annuelle, 239ᶠ37, dont 50 0/0 au métayer, soit 119ᶠ68 ; — 1 veau gardé 3 mois et vendu 50ᶠ00, valeur moyenne annuelle, 12ᶠ50. — Total, 588ᶠ92.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_20_355_100">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 1.715ᶠ 40.
         </p>
         <p xml:id="para_20_355_101">
-         1° Exploitation des champs, des prairies, des arbres et du bois de chauffage. — 4 faux, 11ᶠ50; — 2 paires de marteaux, pierre et repoussoir pour les faux, 12ᶠ00; — 6 rateaux, 12; — 6 fourches en bois, 3ᶠ00; — 5 barres pour presser le foin sunr les charrettes, 7ᶠ09: — <pb facs="#facs_373" n="356" source="s2lesouvriersdes01sociuoft_0412.xml"/> 2 charrues pour le blé, 140ᶠ00; — 2 raineaux à charrue (leuilh), 8ᶠ00; — 3 herses, 25ᶠ00. — 4 pieux, 2ᶠ50; — 2 aiguillons à charrue, 1ᶠ00; — branches pour suspendre le tabac, 1ᶠ30; — clous pour ixer le tabae, 2ᶠ50 ; — 4 pieux pour le porter, 2ᶠ00; — 2 charrues à fer en tréfle pour le malis, 40ᶠ00; — 2 charrues à fer en couteaux, 40ᶠ00; — 1 coutre, 6ᶠ00; — 2 claies pour une charrette à mais, 6ᶠ00 ; — 4 charrue à tracer le mais, 6ᶠ00; — 3 hoyaux pour les vignes t(pics), 6ᶠ0; — 3 hoyaux pour la culture, 9ᶠ00 ; — 3 hoyaux d'une forme plus grande, 18ᶠ00 ; — 4 volants (dail), 24ᶠ 00; — 8 bines (houssepres), 24ᶠ00 ; — 4 rateau a fumier (arrestepiche), 10ᶠ00; — 4 fourches (hourcate), 8ᶠ00; — 3 béches (pades), 12ᶠ00; — 4 bines plus petites, 12ᶠ00; — 10 saes de toile, 10ᶠ00; — 11 paniers de paille 4ᶠ00 ; — 1 petit panier, 1ᶠ25; — 6 faucilles, 12ᶠ00; — 4 serpes (poudeu), 8ᶠ00 ; — 8 barriques, 80ᶠ00; — 2 demi-barriques, 12ᶠ00; — 2 barils, 7ᶠ00; — 1 scie, 2ᶠ25 ; — 2 brouettes, 30ᶠ00 ; — 1 chèvre, 2ᶠ00 : — 1 petite cuve pou mettre le vin en barrique, 3ᶠ00; — 1 entonnoir, 0ᶠ25; — bondes et bouchons de barriques, 1ᶠ00; — 1 cuvier, 6ᶠ00 ; — 2 vieillcs barriques, 8ᶠ50; — bis pour faire rouler les barriques, 7ᶠ00; — bois pour tenir le cuvier, 4ᶠ00; — support pur le cuvier, 6ᶠ00. — Total, 648ᶠ 05.
+         1° Exploitation des champs, des prairies, des arbres et du bois de chauffage. — 4 faux, 11ᶠ50; — 2 paires de marteaux, pierre et repoussoir pour les faux, 12ᶠ00; — 6 rateaux, 12; — 6 fourches en bois, 3ᶠ00; — 5 barres pour presser le foin sunr les charrettes, 7ᶠ09: —
+         <pb facs="#facs_373" n="356" source="s2lesouvriersdes01sociuoft_0412.xml"/>
+         2 charrues pour le blé, 140ᶠ00; — 2 raineaux à charrue (leuilh), 8ᶠ00; — 3 herses, 25ᶠ00. — 4 pieux, 2ᶠ50; — 2 aiguillons à charrue, 1ᶠ00; — branches pour suspendre le tabac, 1ᶠ30; — clous pour ixer le tabae, 2ᶠ50 ; — 4 pieux pour le porter, 2ᶠ00; — 2 charrues à fer en tréfle pour le malis, 40ᶠ00; — 2 charrues à fer en couteaux, 40ᶠ00; — 1 coutre, 6ᶠ00; — 2 claies pour une charrette à mais, 6ᶠ00 ; — 4 charrue à tracer le mais, 6ᶠ00; — 3 hoyaux pour les vignes t(pics), 6ᶠ0; — 3 hoyaux pour la culture, 9ᶠ00 ; — 3 hoyaux d'une forme plus grande, 18ᶠ00 ; — 4 volants (dail), 24ᶠ 00; — 8 bines (houssepres), 24ᶠ00 ; — 4 rateau a fumier (arrestepiche), 10ᶠ00; — 4 fourches (hourcate), 8ᶠ00; — 3 béches (pades), 12ᶠ00; — 4 bines plus petites, 12ᶠ00; — 10 saes de toile, 10ᶠ00; — 11 paniers de paille 4ᶠ00 ; — 1 petit panier, 1ᶠ25; — 6 faucilles, 12ᶠ00; — 4 serpes (poudeu), 8ᶠ00 ; — 8 barriques, 80ᶠ00; — 2 demi-barriques, 12ᶠ00; — 2 barils, 7ᶠ00; — 1 scie, 2ᶠ25 ; — 2 brouettes, 30ᶠ00 ; — 1 chèvre, 2ᶠ00 : — 1 petite cuve pou mettre le vin en barrique, 3ᶠ00; — 1 entonnoir, 0ᶠ25; — bondes et bouchons de barriques, 1ᶠ00; — 1 cuvier, 6ᶠ00 ; — 2 vieillcs barriques, 8ᶠ50; — bis pour faire rouler les barriques, 7ᶠ00; — bois pour tenir le cuvier, 4ᶠ00; — support pur le cuvier, 6ᶠ00. — Total, 648ᶠ 05.
         </p>
         <p xml:id="para_20_356_108">
          2° Exploitation des bêtes a cornes et de la vache laitiére. — 2 charrettes, 500ᶠ00; — 3 mangeoires, 18ᶠ00 ; — 3 jougs complets, 90ᶠ00; — a5 jougs pour mener les bœufs, 6ᶠ25 ; — 2 paires de filets contre les mouches, 8ᶠ00; — 8 jougs, 24ᶠ00 ; — 2 peaux pour jougs (gues). 12ᶠ00; — 3 paires de toiles contre les mouches pour aller au marché, 22ᶠ50; — planches pour les charrettes, 12ᶠ00: — 2 seaux pour l'étable, 6ᶠ00; — 6 hachoirs, 12ᶠ00; — 1 auge à hacher, 30ᶠ00; — 1 hache-paille, 15ᶠ00 ; — 1 vase a traire la vache, 1ᶠ50 ; — 6 plats de terre pour faire crémer le lait, 0ᶠ90. — Tota, 758ᶠ 15.
@@ -880,7 +993,7 @@
          13° Exploitation de la pêche. — Houche à auguilles, 3ᶠ00; — nasse à anguilles, 8ᶠ00. — Total, 11ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_20_356_123">
          VALEUR TOTALE des propriétés............ 4.675ᶠ82.
         </p>
@@ -891,7 +1004,8 @@
         § 7. SUBVENTIONS.
        </head>
        <p xml:id="para_20_357_127">
-        <pb facs="#facs_374" n="357" source="s2lesouvriersdes01sociuoft_0413.xml"/>L'examen des comptes relatifs aux subventions fera connaître leur nombre et leur variété. Elles ont pour origines le patronage, le voisi¬nage et les productions spontanées, notamment les fruits, le gibier et la pêche. Parmi celles qui proviennent du patron, les unes pourvoient au chauffage et à tous les besoins de l'entretien des outils et du matériel d'exploitation. Les autres viennent faciliter dans une large mesure l'existence de la famille ; il suffit pour s'en convaincre de jeter un coup d'œil sur le compte des produits de la vache laitière. Les prin¬cipales subventions consistent certainement dans l'abandon gracieux fait par le maître au métayer, des droits utiles de la propriété, dans son renoncement aux menus profits de l'exploitation, dans la perma¬nence volontaire des engagements. qui produit, par la force de la coutume, toutes les conséquences heureuses du régime des engager ments forcés
+        <pb facs="#facs_374" n="357" source="s2lesouvriersdes01sociuoft_0413.xml"/>
+        L'examen des comptes relatifs aux subventions fera connaître leur nombre et leur variété. Elles ont pour origines le patronage, le voisi¬nage et les productions spontanées, notamment les fruits, le gibier et la pêche. Parmi celles qui proviennent du patron, les unes pourvoient au chauffage et à tous les besoins de l'entretien des outils et du matériel d'exploitation. Les autres viennent faciliter dans une large mesure l'existence de la famille ; il suffit pour s'en convaincre de jeter un coup d'œil sur le compte des produits de la vache laitière. Les prin¬cipales subventions consistent certainement dans l'abandon gracieux fait par le maître au métayer, des droits utiles de la propriété, dans son renoncement aux menus profits de l'exploitation, dans la perma¬nence volontaire des engagements. qui produit, par la force de la coutume, toutes les conséquences heureuses du régime des engager ments forcés
         <ref target="#part_02_04_13" type="renvoi_int_mono">
          (§ 13)
         </ref>
@@ -905,7 +1019,8 @@
         . La principale application de ce principe général apparait dans les échanges des journées à l'é¬poque des grands travaux. Au reste, qu'il s'agisse le l'un ou de l'autre genre de subventions, la réciprocité est de rêgle. Elle est presque absolue entre familles voisines ; à l'égard du patron, elle se manifeste par des redevances minimes, et, si ce dernier a demandé quelques services à son métayer, ils trouvent leur récompense dans le repas du jour de l'an, dans un verre de vin, un repas, un cadeau. Les sub¬ventions perdent ainsi le caractère d'aumônes ; elles présentent, aux yeux des familles ouvriêres, une sorte d'égalité morale entre les classes, et, par suite, contribuent très efficacement à la bonne har¬monie des rapports.
        </p>
        <p xml:id="para_20_358_129">
-        <pb facs="#facs_375" n="358" source="s2lesouvriersdes01sociuoft_0414.xml"/> Les productions spontanées apportent leur contingent au bien-être de la famille. Ces subventions seraient plus importantes, si la famille était voisine de la barthe, où elle trouverait le pâturage, les produits de la chasse et de la pêche en plus grande abondance.
+        <pb facs="#facs_375" n="358" source="s2lesouvriersdes01sociuoft_0414.xml"/>
+        Les productions spontanées apportent leur contingent au bien-être de la famille. Ces subventions seraient plus importantes, si la famille était voisine de la barthe, où elle trouverait le pâturage, les produits de la chasse et de la pêche en plus grande abondance.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
@@ -932,7 +1047,9 @@
          2° Sommaire des heures de travail, de repos et de chomage.
         </head>
         <p xml:id="para_20_358_138">
-         Printemps. — Cette saison agricole commence vers le 15 février et se termine dans la premiêre quinzaine d'avril. Elle comprend neuf di<pb facs="#facs_376" n="359" source="s2lesouvriersdes01sociuoft_0415.xml"/>manches, le mardi gras, le lundi de Pâques. Pendant ces fêtes chômées, on se contente des soins indispensables à donner aux bestiaux et au ménage. Les jours ouvrables, le travail commence à 5 heures, est coupé par le déjeuner de 8 heures
+         Printemps. — Cette saison agricole commence vers le 15 février et se termine dans la premiêre quinzaine d'avril. Elle comprend neuf di
+         <pb facs="#facs_376" n="359" source="s2lesouvriersdes01sociuoft_0415.xml"/>
+         manches, le mardi gras, le lundi de Pâques. Pendant ces fêtes chômées, on se contente des soins indispensables à donner aux bestiaux et au ménage. Les jours ouvrables, le travail commence à 5 heures, est coupé par le déjeuner de 8 heures
          <ref target="#part_02_03_09" type="renvoi_int_mono">
           (§ 9)
          </ref>
@@ -960,17 +1077,19 @@
         <head type="paragraph" xml:id="part_02_02_08_04">
          4° Repartition des travaux entre les membres de la famille.
         </head>
-        <div type="travaux" subtype="hommes">
+        <div subtype="hommes" type="travaux">
          <p xml:id="para_20_359_146">
-          Hommes. — Le grand-père a la direction générale de l'atelier, et Montauzé, celle des travaux journaliers. Les gros travaux, tels que labourages, hersages, conduite des attelages, coupe et transport des produits agricoles, fourragers ou forestiers ; soins, manipulation, trans<pb facs="#facs_377" n="360" source="s2lesouvriersdes01sociuoft_0416.xml"/>port et épandage des fumiers et composts, prestations vicinales ou patronales, entretien du mobilier, assistances aux foires et marchés, sont réservés aux hommes. Dans certains travaux intérieurs, les hom¬mes apportent une aide temporaire aux femmes (§ 14).
+          Hommes. — Le grand-père a la direction générale de l'atelier, et Montauzé, celle des travaux journaliers. Les gros travaux, tels que labourages, hersages, conduite des attelages, coupe et transport des produits agricoles, fourragers ou forestiers ; soins, manipulation, trans
+          <pb facs="#facs_377" n="360" source="s2lesouvriersdes01sociuoft_0416.xml"/>
+          port et épandage des fumiers et composts, prestations vicinales ou patronales, entretien du mobilier, assistances aux foires et marchés, sont réservés aux hommes. Dans certains travaux intérieurs, les hom¬mes apportent une aide temporaire aux femmes (§ 14).
          </p>
         </div>
-        <div type="travaux" subtype="femmes">
+        <div subtype="femmes" type="travaux">
          <p xml:id="para_20_360_148">
           Femmes. — Sauf le labour, le hersage et la conduite des attelages. elles partagent les travaux des hommes. Elles donnent une grande part de leur temps aux travaux d'intérieur. Catherine est plus spé¬cialement chargée des soins domestiques, els que cuisine, ménage, soins de la basse-cour, et Marie-Louise, des travaux extérieurs et de la couture. Il est à remarquer que ce ne sont pas les femmes, mais les hommcs, qui traient les vaches.
          </p>
         </div>
-        <div type="travaux" subtype="enfants">
+        <div subtype="enfants" type="travaux">
          <p xml:id="para_20_360_149">
           Enfants. — Henri passe presque tout son temps à l'école. Les va¬cances ont lieu au mois de septembre. Il prend part aux travaux de la saison. sans faire rien qui excède ses forces. Environ deux mois par an, il reste à la métairie, pour aider aux travaux urgents.
          </p>
@@ -1001,7 +1120,9 @@
         <ref target="#part_02_05_16" type="renvoi_int_mono">
          (§ 16 G)
         </ref>
-        , de fromage ou de lait. Pen¬dant quatre mois environ (ceux où la pénurie du lait ne permet pas la confection des fromages et dont l'époque est variable), le fromage est remplacé par des sardines fumées, à raison d'une douzaine par mois, <pb facs="#facs_378" n="361" source="s2lesouvriersdes01sociuoft_0417.xml"/> et par des œufs en omelette ou frits dans la graisse. A l'époque des Salés (décembre). les produits accessoires des animaux, transformés en conserves, entrent dans la composition de ce premier repas
+        , de fromage ou de lait. Pen¬dant quatre mois environ (ceux où la pénurie du lait ne permet pas la confection des fromages et dont l'époque est variable), le fromage est remplacé par des sardines fumées, à raison d'une douzaine par mois,
+        <pb facs="#facs_378" n="361" source="s2lesouvriersdes01sociuoft_0417.xml"/>
+        et par des œufs en omelette ou frits dans la graisse. A l'époque des Salés (décembre). les produits accessoires des animaux, transformés en conserves, entrent dans la composition de ce premier repas
         <ref target="#part_02_05_15" type="renvoi_int_mono">
          (§ 15, sect. I)
         </ref>
@@ -1019,7 +1140,9 @@
         , montre que ces aliments ne sont pas d'un usage fréquent. Une indisposition, une visite, une pêche heureuse, motivent ces dérogations au régime habituel.
        </p>
        <p xml:id="para_20_361_157">
-        Caractères genéraux de la nourriture selon les époques de l'année : liments solides. — Le fond commmun à toutes les saisons est formé de méture et de pain, de salé, de fromage, d'œufs, de lait. L'hiver, les pommes de terre, haricots, pois, choux, carottes, potirons, châ¬taignes, sont d'usage constant, sauf les deux dernières espèces, res¬treintes, par leur époque de maturité ou leur peu d'abondance, aux seuls mois d'automne. La graisse est, pendant ces mois, l'assaisonne¬ment courant, avec tous les légumes-épices qui peuvent se conser¬ver ; la cuisine parfaite est graisseuse et très montée. L'été, les légu¬mes verts (les salades surtout) accommodés à l'huile et au vinaigre, quelquefois au sel ou à la graisse, dominent dans l'alimentation : ce sont les laitues, piments, ail, tomates, fruits ; les champignons appar raissent vers le mois de septembre, mais toutes les années ne les voient pas aussi nombreux. La famille observe les périodes d'absti¬nence fixées par le culte catholique, mais elle ne supprime alors que <pb facs="#facs_379" n="362" source="s2lesouvriersdes01sociuoft_0418.xml"/> la viande ; la graisse est permise comme assaisonnement, sauf les jours de jeûne
+        Caractères genéraux de la nourriture selon les époques de l'année : liments solides. — Le fond commmun à toutes les saisons est formé de méture et de pain, de salé, de fromage, d'œufs, de lait. L'hiver, les pommes de terre, haricots, pois, choux, carottes, potirons, châ¬taignes, sont d'usage constant, sauf les deux dernières espèces, res¬treintes, par leur époque de maturité ou leur peu d'abondance, aux seuls mois d'automne. La graisse est, pendant ces mois, l'assaisonne¬ment courant, avec tous les légumes-épices qui peuvent se conser¬ver ; la cuisine parfaite est graisseuse et très montée. L'été, les légu¬mes verts (les salades surtout) accommodés à l'huile et au vinaigre, quelquefois au sel ou à la graisse, dominent dans l'alimentation : ce sont les laitues, piments, ail, tomates, fruits ; les champignons appar raissent vers le mois de septembre, mais toutes les années ne les voient pas aussi nombreux. La famille observe les périodes d'absti¬nence fixées par le culte catholique, mais elle ne supprime alors que
+        <pb facs="#facs_379" n="362" source="s2lesouvriersdes01sociuoft_0418.xml"/>
+        la viande ; la graisse est permise comme assaisonnement, sauf les jours de jeûne
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
@@ -1039,27 +1162,31 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_20_362_164">
-         Située sur le bas côté de la plaine, au S. S.-E. du territoire de la commune, ombragée de grands peupliers et de chênes touffus, sous lesquels serpente, toujours clair et abondant, le ruisseau le Leuilh, la métairie de Labarraille demeure cachée aux yeux du passant. En¬tourée de ses champs comme d'un rempart, se sufisant presque à elle-même, dissimulée dans son repli de terrain et dans la verdure de ses arbres, elle offre une apparence de paix, de sécurité et de bon¬heur tranquille qui frappe l'esprit le plus indifférent, si toutefois on a su la découvrir et pénétrer jusqu'à sa porte. Ces conditions physi¬ques ni sa faible alitude (5ᵐ,10) ne nuisent à la salubrité de ce petit coin perdu, et la famille atteste. par sa santé persistante, combien lui <pb facs="#facs_380" n="363" source="s2lesouvriersdes01sociuoft_0419.xml"/> est favorable l'ensemble des conditions, au sein desquelles s'écoule sa tranquille existence. La maison est parfaitement saine et sèche, son aération plus que suffisante ; abritée par un toit en tuiles, dont la forme en accent circonflexe marque son origine ancienne et l'esprit de tradition de son propriétaire, elle a vraiment bon air et l'apparence aisée. L'habitation est tout entière construite en moellons du pays. La charpente forme un angle très obtus, débordant sur des murs de 0,48 d'épaisseur. L'orientation du pignon est E.-0.
+         Située sur le bas côté de la plaine, au S. S.-E. du territoire de la commune, ombragée de grands peupliers et de chênes touffus, sous lesquels serpente, toujours clair et abondant, le ruisseau le Leuilh, la métairie de Labarraille demeure cachée aux yeux du passant. En¬tourée de ses champs comme d'un rempart, se sufisant presque à elle-même, dissimulée dans son repli de terrain et dans la verdure de ses arbres, elle offre une apparence de paix, de sécurité et de bon¬heur tranquille qui frappe l'esprit le plus indifférent, si toutefois on a su la découvrir et pénétrer jusqu'à sa porte. Ces conditions physi¬ques ni sa faible alitude (5ᵐ,10) ne nuisent à la salubrité de ce petit coin perdu, et la famille atteste. par sa santé persistante, combien lui
+         <pb facs="#facs_380" n="363" source="s2lesouvriersdes01sociuoft_0419.xml"/>
+         est favorable l'ensemble des conditions, au sein desquelles s'écoule sa tranquille existence. La maison est parfaitement saine et sèche, son aération plus que suffisante ; abritée par un toit en tuiles, dont la forme en accent circonflexe marque son origine ancienne et l'esprit de tradition de son propriétaire, elle a vraiment bon air et l'apparence aisée. L'habitation est tout entière construite en moellons du pays. La charpente forme un angle très obtus, débordant sur des murs de 0,48 d'épaisseur. L'orientation du pignon est E.-0.
         </p>
         <figure rend="portrait" type="table">
          <head resp="original" type="table" xml:id="figure_6">
           Superpficie de la maison et de ses dépendances [§10]
          </head>
-         <graphic facs="#facs_380" url="#"/>
+         <graphic facs="#facs_380" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24419/399,973,1493,405/full/0/default.jpg"/>
         </figure>
         <p xml:id="para_20_363_173">
          Comme toutes les vieilles métairies du pays, l'habitation de la fa¬mille Montauzé n'a qu'un rez-de-chaussée. On doit attribuer l'adop¬tion de ce modêle unique aux fortes chaleurs de lété. Les paysans reconnaissent que les nouvelles constructions carrées et à deux étages sont beaucoup moins fraiches.
         </p>
         <p xml:id="para_20_363_174">
-         La maison (oustao) est divisée en deux parties égales par un préau long de 15ᵐ,75 et large de 5 mêtres. Au fond, un petit escalier con¬duit au grenier principal, situé au-dessus, et à un grenier-décharge dont la porte est à gauche en montant. Ce préau sert à battre le blé. à dépiquer le mais, à remiser les charrettes, enfin à tous les travaux d'intérieur. C'est aussi le lieu de réunion en été, l'atelier de couture pour les femmes. Deux portes, aux extrémités, le font communi¬quer avec le jardin à l'ouest et la cour à l'est. La muraille nord est percée de deux portes ouvrant l'une sur l'étable et l'autre sur la cham¬bre de Montauzé et de sa femme. Les autres pièces de la maison ou¬vrent sur la muraille sud, à savoir : la chambre de Marie-Louise, celle du grand-père et la cuisine. Les chambres sont carrées, d'une super¬ficie moyenne de 10ᵐ,82, et sont éclairées chacune par une fenêtre de 1ᵐ,30 de haut sur 0ᵐ,80 de large. La cuisine ouvre sur la cour et sur le préau. Elle a 5ᵐ,55 sur 4 mètres. Deux portes intérieures con¬duisent l'une à la laiterie et au chai ou cellier, l'autre à la chambre de Pascalon. La hauteur de toutes ces pièces estde 4ᵐ,50. La fourniêre (ou fournil), séparée de l'habitation et bâtie en moellons, est couverte de tuiles plates. Elle est grande pour le pays. La buanderie se trouve <pb facs="#facs_381" n="364" source="s2lesouvriersdes01sociuoft_0420.xml"/> dans la salle sur laquelle ouvre le four. La porcherie, petite construc¬tion en bois, comprend une sortie entourée de claies.
+         La maison (oustao) est divisée en deux parties égales par un préau long de 15ᵐ,75 et large de 5 mêtres. Au fond, un petit escalier con¬duit au grenier principal, situé au-dessus, et à un grenier-décharge dont la porte est à gauche en montant. Ce préau sert à battre le blé. à dépiquer le mais, à remiser les charrettes, enfin à tous les travaux d'intérieur. C'est aussi le lieu de réunion en été, l'atelier de couture pour les femmes. Deux portes, aux extrémités, le font communi¬quer avec le jardin à l'ouest et la cour à l'est. La muraille nord est percée de deux portes ouvrant l'une sur l'étable et l'autre sur la cham¬bre de Montauzé et de sa femme. Les autres pièces de la maison ou¬vrent sur la muraille sud, à savoir : la chambre de Marie-Louise, celle du grand-père et la cuisine. Les chambres sont carrées, d'une super¬ficie moyenne de 10ᵐ,82, et sont éclairées chacune par une fenêtre de 1ᵐ,30 de haut sur 0ᵐ,80 de large. La cuisine ouvre sur la cour et sur le préau. Elle a 5ᵐ,55 sur 4 mètres. Deux portes intérieures con¬duisent l'une à la laiterie et au chai ou cellier, l'autre à la chambre de Pascalon. La hauteur de toutes ces pièces estde 4ᵐ,50. La fourniêre (ou fournil), séparée de l'habitation et bâtie en moellons, est couverte de tuiles plates. Elle est grande pour le pays. La buanderie se trouve
+         <pb facs="#facs_381" n="364" source="s2lesouvriersdes01sociuoft_0420.xml"/>
+         dans la salle sur laquelle ouvre le four. La porcherie, petite construc¬tion en bois, comprend une sortie entourée de claies.
         </p>
         <p xml:id="para_20_364_176">
          Le sol de la cour disparait sous une épaisse couche de soustrage. Les allées du jardin sont bordées de fleurs les plus brillantes par leurs couleurs, quoique les plus modestes dans leurs espèces. Des carrés, nettement divisés, proprement tenus, quelques arbres fruitiers, et l'on trouve dans ce quadrilatère, adossé au mur 0. de la maison, tout ce qui peut nourrir ses habitants. 'en excepte pourtant les haricots et les pommes de terre, qu'on sème un peu partout, mêlés aux autres récoltes. La jouissance de ce jardin appartient exclusivement à la famille. Elle le prouverait à voir le soin avec lequel elle l'exploite. Il en est de même de la maison. Là aussi brille une propreté scrupu¬leuse due à des balayages quotidiens et aux énergiques nettoyages du samedi. Les humbles chenets de fer de la chambre de Marie-Louise reluisent à l'égal des landiers de la cuisine.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_20_364_177">
          MEUBLES : ils sont nombreux, d'excellente qualité, solidement faits ; presque tous sont en noyer, quelques-uns en châtaignier et en chêne. On les nettoie toutes les semaines en les frottant avec du vinaigre. Le luxe du paysan est d'avoir un mobilier complet de cette apparence. Ils y mettent leur amour-propre et leurs économies jusqu'à ce qu'ils soient parvenus à posséder la moyenne fiée par les usages. Il y a plusieurs années que la famille a réalisé ce veu de tous les métayers du pays d'Horte. Rien ne peut rendre l'aspect confortable et solidement aisé de leurs chambres, décorées avec goût et d'un style sobre, sévère, dont la simplicité est pleine de vraie richesse............ 1.218ᶠ95.
         </p>
@@ -1076,12 +1203,14 @@
          4° Meubles divers. — 1 parapluie, 4ᶠ00; — 1 bâton (maquila), 3ᶠ00 ; — 2 parapluies en soie et coton, 12ᶠ00 ; — 2 paniers à faire le marché, 4ᶠ30. — Total, 23ᶠ30.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_20_364_185">
          USTENSILES : solides ; on a largement pourvu au nécessaire ; tout est entretenu avec soin et propreté............ 332ᶠ 75.
         </p>
         <p xml:id="para_20_364_186">
-         1° Employés à la préparation des aliments. — 3 poèles à frire de 3ᶠ00 chacune, 9ᶠ00; — 2 casseroles à long manche (cachéceusse), 11ᶠ00; — 1 casserole en cuivre, 7ᶠ00; — 2 casse<pb facs="#facs_382" n="365" source="s2lesouvriersdes01sociuoft_0421.xml"/>roles d'étain, 3ᶠ50; — 3 chaudrons, 90ᶠ00 ; —2 petits chaudrons, 41ᶠ00; -planches servant à suspendre la batterie'de cuisine,8ᶠ00 ; — 2 cuillers en fer étamé, 1ᶠ50; — 3 entonnoirs, 0ᶠ75 — 1 écumoire, 0ᶠ65 ; — 2 fourchettes en fer,0ᶠ70 ; — 2 passoires, 0ᶠ70;— 2 poelons. 0ᶠ40; — 8 pots de terre, 4ᶠ 90; — 1 gril, 2ᶠ00 ; — 2 coquilles, 4ᶠ50;—4tamisoires, 7ᶠ25 ; — 1 potde fer, 5ᶠ00. — Total, 197ᶠ5.
+         1° Employés à la préparation des aliments. — 3 poèles à frire de 3ᶠ00 chacune, 9ᶠ00; — 2 casseroles à long manche (cachéceusse), 11ᶠ00; — 1 casserole en cuivre, 7ᶠ00; — 2 casse
+         <pb facs="#facs_382" n="365" source="s2lesouvriersdes01sociuoft_0421.xml"/>
+         roles d'étain, 3ᶠ50; — 3 chaudrons, 90ᶠ00 ; —2 petits chaudrons, 41ᶠ00; -planches servant à suspendre la batterie'de cuisine,8ᶠ00 ; — 2 cuillers en fer étamé, 1ᶠ50; — 3 entonnoirs, 0ᶠ75 — 1 écumoire, 0ᶠ65 ; — 2 fourchettes en fer,0ᶠ70 ; — 2 passoires, 0ᶠ70;— 2 poelons. 0ᶠ40; — 8 pots de terre, 4ᶠ 90; — 1 gril, 2ᶠ00 ; — 2 coquilles, 4ᶠ50;—4tamisoires, 7ᶠ25 ; — 1 potde fer, 5ᶠ00. — Total, 197ᶠ5.
         </p>
         <p xml:id="para_20_365_189">
          2° Employés indirectement à la préparation des aliments. — 1 trépied, 2ᶠ00; — 1 souffle à feu, 1ᶠ25 : — mesures : 1,4 de litre, 12 litre, 1 litre entier, 6ᶠ50 ; — 4 paniers, 3ᶠ05 ; — 1 balance, 3ᶠ00 ; 1 boîte à sel,'1ᶠ50; — 1 paire de landiers, 20ᶠ00; — 1 paire de chenets en fonte, 2ᶠ50. — Total, 39ᶠ80.
@@ -1093,7 +1222,7 @@
          4° Employés a la consommation des aliments. — 7 soupières en terre, 3ᶠ50; — 9 plats en terre, 0ᶠ45 ; — 1 écuelle pour le ehien, 0ᶠ20; — 1 douzaine 1,/2 d'assiettes en faience, 1ᶠ65 : — 1 douaines 1/2 d'assiettes en faience, 7ᶠ60; — 1 douzaine 1/2 d'écuelles en faience, 2ᶠ80; — 7 plats en faienee, 5ᶠ55 ; — 2 soupières en faience, 3ᶠ00 ; — 8 tasses à café, 2ᶠ 00; — 3 cafetieres en terre, 0ᶠ85 ; — 2 douzaines de verres à boire, 4ᶠ80; — 5 bols en faience, 1ᶠ25 ; — 2 cruches,0ᶠ80; — 1 cafetière en faience, 0ᶠ70 ; — 1 bouteille pour l'huile à manger, 0ᶠ50; —10 litres, 2ᶠ50; — 10 couteaux, 3ᶠ00; — 1 salière, 0ᶠ20 ; — 1 sucrier, 0ᶠ30 ; — 1 hui¬lier, 0ᶠ65 ; — 32 cuillers en étain, 16ᶠ00 ; — 22 fourchettes en étain, 22ᶠ00. — Total, 80ᶠ90.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_20_365_193">
          LINGE DE MÉNAGE : solide et abondant ; sa durée est assez lon¬ge............ 960f 76
         </p>
@@ -1101,9 +1230,11 @@
          45 paires de draps de lit, 263ᶠ00 ; — 9 couvertures, dont 5 en laine, 155ᶠ00; — 6 dou¬zaines 1/ de serviettes, 39 nappes et 6 douzaines de torchons, 369ᶠ00; — 2 matrassines aux vieux parents, 10ᶠ00 ; — 2 linceuls, 24ᶠ00; — 3 douaines de mouchoirs de poche, 22ᶠ00; — provision de ltoile pour faire des chemises d'homme, 40ᶠ00; — fil prêt au tissage, 38 l1i¬vres a 1ᶠ44, 54ᶠ72 ; — t donné au tisserand, 16 livres à 1ᶠ44, 23ᶠ04. — Tota, 960ᶠ76.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_20_365_195">
-         VÊTEMENTS : le superflu absent est largement remplacé par le né¬cessaire ; les vêtements sont simples, solides, d'apparence aisée. S'il fait froid, une robe de laine, de couleur sombre, une petite casaque et un large tablier seront l'uniforme des femmes. L'été, de jolies cotonnades aux vives couleurs, une casaque grise ou jaune recou¬vrant le corsage de la robe, sêmeront de points clairs la verdure sombre des champs de mais. Été et hiver, un mouchoir de couleur enveloppe le chignon, laissant à découvert le sommet de la tête. Les modes se modernisent, mais la coquetterie féminine a su retenir éner¬giquement ce gracieux fichu. Les hommes n'ont de caractéristique, dans le costume. que la ceinture de laine rouge, le béret bleu et leur inséparable gilet de tricot. L'instabilité de la température explique suffisamment cet amour de la laine. Sauf ces trois parties de leur habillement, la toile et le coton en sont, pour toute saison (sauf pen¬dant les grands froids), le fond dominant. Une escouade de travail¬leurs, au pantalon bleu, à la ceinture écarlate, à la chemise d'une blancheur éclatante, est un des spectacles les plus gais à observer. On devine la bonne humeur naturelle du paysan en voyant comment il se vêt. Les habits du dimanche deviennent avec le temps les vête<pb facs="#facs_383" n="366" source="s2lesouvriersdes01sociuoft_0422.xml"/>ments de travail ; mais la durée de ces derniers est presque indéfinie, grâce à l'ingéniosité des ménagères. Leur affectation individuelle est à remarquer ; chacun possède sa provision de linge et d'habits, même les enfants.
+         VÊTEMENTS : le superflu absent est largement remplacé par le né¬cessaire ; les vêtements sont simples, solides, d'apparence aisée. S'il fait froid, une robe de laine, de couleur sombre, une petite casaque et un large tablier seront l'uniforme des femmes. L'été, de jolies cotonnades aux vives couleurs, une casaque grise ou jaune recou¬vrant le corsage de la robe, sêmeront de points clairs la verdure sombre des champs de mais. Été et hiver, un mouchoir de couleur enveloppe le chignon, laissant à découvert le sommet de la tête. Les modes se modernisent, mais la coquetterie féminine a su retenir éner¬giquement ce gracieux fichu. Les hommes n'ont de caractéristique, dans le costume. que la ceinture de laine rouge, le béret bleu et leur inséparable gilet de tricot. L'instabilité de la température explique suffisamment cet amour de la laine. Sauf ces trois parties de leur habillement, la toile et le coton en sont, pour toute saison (sauf pen¬dant les grands froids), le fond dominant. Une escouade de travail¬leurs, au pantalon bleu, à la ceinture écarlate, à la chemise d'une blancheur éclatante, est un des spectacles les plus gais à observer. On devine la bonne humeur naturelle du paysan en voyant comment il se vêt. Les habits du dimanche deviennent avec le temps les vête
+         <pb facs="#facs_383" n="366" source="s2lesouvriersdes01sociuoft_0422.xml"/>
+         ments de travail ; mais la durée de ces derniers est presque indéfinie, grâce à l'ingéniosité des ménagères. Leur affectation individuelle est à remarquer ; chacun possède sa provision de linge et d'habits, même les enfants.
         </p>
         <p xml:id="para_20_366_197">
          VÊTEMENTS DES HOMMES............ 1.048ᶠ60.
@@ -1136,7 +1267,9 @@
          2° Vêtements de Catherine. — 20 chemises de bonne toile, 60ᶠ00; — 2 robes de fète, 30ᶠ00; — 2 robes de dimanche, 12ᶠ00; — 2 casaques, 10ᶠ00; — 2 robes de travail en laine. 20ᶠ00; — 2 robes et 1 jupe en coton, 12ᶠ35 ; — 2 jupons, 12ᶠ00; — 5 tabliers, 9ᶠ80 ; — 4 mou¬choirs de tête, 5ᶠ75 ; — 1 chapeau de paille, 0ᶠ85 ; — 1 cape, 30ᶠ00 ; — 1 lainage, 1ᶠ00 ; — 1 cape moins belle, 10ᶠ00 ; — 1 cravate de cou, 3ᶠ00 ; — 2 manteaux de lit, 1ᶠ50; — 4 chales de laine en couleur unie, 40ᶠ 00; — 4 paires de bas de laine, 9ᶠ75 ; — 2 paires d'espadrilles. 1 paire de souliers, 2 paires de sabots, 12ᶠ50. — Total, 280ᶠ50.
         </p>
         <p xml:id="para_20_366_209">
-         3° Vêtements et trousseau de Marie-Louise. — 1 paire de souliers, 8ᶠ00; — 2 paires de sabots,2ᶠ00 ; — 2 paires d'espadrilles,2ᶠ50; — 2 casaques en lainage,17ᶠ40 ; — 4 casaques en cotonnade, 15ᶠ13 ;— 3 robes de laine,50ᶠ26 ; — 8 robes en cotonnade, 34ᶠ24 ; — habits blancs des fêtes religieuses, 11ᶠ35 ; — 15 chemises de toile, 76ᶠ 47 ; — 5 camisoles, 13ᶠ20 ; — 5 cols, 4ᶠ40; — 6 tabliers, 18ᶠ40; — 3 tricots pour cravates, 7ᶠ13 ; — 1 gilet en laine tricotée, 5ᶠ60 ;  — 2 jupes de dessous, 7ᶠ55; — 8 paires de bas de coton, 14ᶠ77; — 12 mouchoirs de tête <pb facs="#facs_384" n="367" source="s2lesouvriersdes01sociuoft_0423.xml"/> achetés, 19ᶠ15; — 5 mouchoirs de téte reçus en cadeau, 5ᶠ00 ; — 7 cravates achetées, 10ᶠ75; — 3 cravates reçues en cadeau, 6ᶠ50 ; — 3 douzaines de mouchoirs de poche, 22ᶠ40; — 2 livres de messe, 5ᶠ25. — Total, 357ᶠ 45.
+         3° Vêtements et trousseau de Marie-Louise. — 1 paire de souliers, 8ᶠ00; — 2 paires de sabots,2ᶠ00 ; — 2 paires d'espadrilles,2ᶠ50; — 2 casaques en lainage,17ᶠ40 ; — 4 casaques en cotonnade, 15ᶠ13 ;— 3 robes de laine,50ᶠ26 ; — 8 robes en cotonnade, 34ᶠ24 ; — habits blancs des fêtes religieuses, 11ᶠ35 ; — 15 chemises de toile, 76ᶠ 47 ; — 5 camisoles, 13ᶠ20 ; — 5 cols, 4ᶠ40; — 6 tabliers, 18ᶠ40; — 3 tricots pour cravates, 7ᶠ13 ; — 1 gilet en laine tricotée, 5ᶠ60 ;  — 2 jupes de dessous, 7ᶠ55; — 8 paires de bas de coton, 14ᶠ77; — 12 mouchoirs de tête
+         <pb facs="#facs_384" n="367" source="s2lesouvriersdes01sociuoft_0423.xml"/>
+         achetés, 19ᶠ15; — 5 mouchoirs de téte reçus en cadeau, 5ᶠ00 ; — 7 cravates achetées, 10ᶠ75; — 3 cravates reçues en cadeau, 6ᶠ50 ; — 3 douzaines de mouchoirs de poche, 22ᶠ40; — 2 livres de messe, 5ᶠ25. — Total, 357ᶠ 45.
         </p>
         <p xml:id="para_20_367_212">
          4° Vêtements en commun. — 12 paires de bas de coton, 33ᶠ00.
@@ -1151,7 +1284,7 @@
          1 paire de boucles d'oreilles en or, 10ᶠ00 ; — 2 bagues dont 1 alliance en or, 14ᶠ00; — 4 paires de boucles d'oreilles aux filles, 20ᶠ00; — 6 chapelets, 3ᶠ00; — 2 cierges, 2ᶠ00 ; ¬images religieuses pendues dans les chambres, 5ᶠ00. — Total, 54ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_20_367_217">
          VALEUR TOTALE du mobilier et des vêtements............ 4.430ᶠ 76.
         </p>
@@ -1174,7 +1307,9 @@
         <ref target="#part_02_01_02" type="renvoi_int_mono">
          (§ 2)
         </ref>
-        . L'assistance aux offices, le repas de midi. en constituent le principal attrait: on se promène un peu à l'issue des vêpres et, s'il y a bal, on regarde danser. Les jeunes filles qui y pren¬nent part ne sont pas très nombreuses, par suite du caractère que le clergé attache à ce divertissement. Une fois par an, la famille fait un pèlerinage au sanctuaire de Notre-Dame de Buglose, et cet acte de dévotion est en même temps une partie de plaisir. Certains actes <pb facs="#facs_385" n="368" source="s2lesouvriersdes01sociuoft_0424.xml"/> de la vie domestique ou agricole sont très aimés de la jeunesse, tels que le dépouillement du mais, fait chez le maître d'abord, chez le métayer ensuite ; les voisins viennent aider, on leur rend la pareille: les garçons et les filles se groupent autour des tas, à la lueur des chandelles de résine, on bavarde, on chante, on se fait la cour et l'on rentre chez soi trés tard dans la nuit ; tels aussi la tuerie des porcs et les bahuts, sorte de veillées ayant un caractère particulier : les jeunes gens et les jeunes filles se réunissent dans une maison, et, grâce à une cagnotte commune, boivent du vin, mangent des châtai¬gnes, et se font mutuellement la cour. On ne prétend pas que ce di¬vertissement soit très moral. La famille Montauzé s'en abstient.
+        . L'assistance aux offices, le repas de midi. en constituent le principal attrait: on se promène un peu à l'issue des vêpres et, s'il y a bal, on regarde danser. Les jeunes filles qui y pren¬nent part ne sont pas très nombreuses, par suite du caractère que le clergé attache à ce divertissement. Une fois par an, la famille fait un pèlerinage au sanctuaire de Notre-Dame de Buglose, et cet acte de dévotion est en même temps une partie de plaisir. Certains actes
+        <pb facs="#facs_385" n="368" source="s2lesouvriersdes01sociuoft_0424.xml"/>
+        de la vie domestique ou agricole sont très aimés de la jeunesse, tels que le dépouillement du mais, fait chez le maître d'abord, chez le métayer ensuite ; les voisins viennent aider, on leur rend la pareille: les garçons et les filles se groupent autour des tas, à la lueur des chandelles de résine, on bavarde, on chante, on se fait la cour et l'on rentre chez soi trés tard dans la nuit ; tels aussi la tuerie des porcs et les bahuts, sorte de veillées ayant un caractère particulier : les jeunes gens et les jeunes filles se réunissent dans une maison, et, grâce à une cagnotte commune, boivent du vin, mangent des châtai¬gnes, et se font mutuellement la cour. On ne prétend pas que ce di¬vertissement soit très moral. La famille Montauzé s'en abstient.
        </p>
        <p xml:id="para_20_368_222">
         Quant aux foires et marchés, ils mettent la famille en mouvement chaque semaine. La dépense qu'on y fait est motivée seulement par les usages commerciaux du pays (§ 15, sect. IV), mais le plaisir de se voir, de causer, de se sentir bousculant et bousculé est irrésistible pour les gens du pays d'Horte. C'est Peyrehorade qui est le grand centre. On ne va à Dax que pour quelques affaires indispensables.
@@ -1192,7 +1327,9 @@
         <ref target="#part_02_01_02" type="renvoi_int_mono">
          (§ 2)
         </ref>
-        , est originaire de la lo¬calité. Le père de Darthès est entré chez un propriétaire de Saint¬Eienne en 1805 ; son fils, chef actuel de la famille, est né en 1809, s'est marié en 1839, et a quitté, en 1873, la métairie devenue trop petite. Pendant cette longue période, les relations de maîtres à mé¬tayers ont été d'une cordialité inaltérable et les bons rapports persis¬tent encore malgré le changement de maître. Montaué est originaire d'Orthevielle, commune limitrophe (S. S.-E. de Saint-́tienne). Il est né dans une métairie que ses parents habitaient depuis vingt-quatre ans. Cette métairie fut vendue et l'acquéreur vint s'y établir. Montauzé cultiva trois ans la métairie de l'ˉOustaaa, puis se maria avec Catherine et resta dix-huit ans dans l'ancien domaine de la famille. Son maître l'a¬vait investi de la plus grande confiance, et, en revenant sur ces souve¬nirs, il était en proie à une profonde émotion. Là naquirent trois en¬fants, l'exploitation devint trop petite, la famille s'endetta, puis quitta son maître du plein gré de celui-ci. Dans leur nouvelle résidence de Labarraille, les affaires prospérèrent : ils purent se libérer entiêrement <pb facs="#facs_386" n="369" source="s2lesouvriersdes01sociuoft_0425.xml"/> en 187I5, et depuis ils luttent contre la dépréciation des denrées agri¬coles, la cherté croissante de la vie, les années mauvaises, sans cepen¬dant entamer leur réserve, et en préparant peu à peu la dot de leurs enfants. Questionné sur le passé, Montaué m'a dit que tout allait comme à présent, que les usages n'avaient pas changé. La seule par¬ticularité qu'il ait notée, c'est ce qu'il avait entendu dire aux vieux : « Dans le temps, il y avait bien des années, quand une famille était restée cent ans sur une métairie, elle en devenait propriétaire.  Cette tradition, jointe à ce que l'on sait de la propriété au moycn âge, dans le pays d'orte ; de la présence dans les diverses communes de biens à usage commun très répandus jadis ; de l'absence d'anciennes familles féodales, sauf une seule ; de la composition et de l'histoire des princi¬pales propriétés du pays, tout en un mot explique le grand nombre de paysans propriétaires qu'on rencontre dans le canton de Pereho¬rade, et dont l'origine vient évidemment, pour quiconque a étudié le moyen âge, de ces haux à long terme. suivis de l'accession à la pro¬priété, auxquels Montauzé faisait allusion.
+        , est originaire de la lo¬calité. Le père de Darthès est entré chez un propriétaire de Saint¬Eienne en 1805 ; son fils, chef actuel de la famille, est né en 1809, s'est marié en 1839, et a quitté, en 1873, la métairie devenue trop petite. Pendant cette longue période, les relations de maîtres à mé¬tayers ont été d'une cordialité inaltérable et les bons rapports persis¬tent encore malgré le changement de maître. Montaué est originaire d'Orthevielle, commune limitrophe (S. S.-E. de Saint-́tienne). Il est né dans une métairie que ses parents habitaient depuis vingt-quatre ans. Cette métairie fut vendue et l'acquéreur vint s'y établir. Montauzé cultiva trois ans la métairie de l'ˉOustaaa, puis se maria avec Catherine et resta dix-huit ans dans l'ancien domaine de la famille. Son maître l'a¬vait investi de la plus grande confiance, et, en revenant sur ces souve¬nirs, il était en proie à une profonde émotion. Là naquirent trois en¬fants, l'exploitation devint trop petite, la famille s'endetta, puis quitta son maître du plein gré de celui-ci. Dans leur nouvelle résidence de Labarraille, les affaires prospérèrent : ils purent se libérer entiêrement
+        <pb facs="#facs_386" n="369" source="s2lesouvriersdes01sociuoft_0425.xml"/>
+        en 187I5, et depuis ils luttent contre la dépréciation des denrées agri¬coles, la cherté croissante de la vie, les années mauvaises, sans cepen¬dant entamer leur réserve, et en préparant peu à peu la dot de leurs enfants. Questionné sur le passé, Montaué m'a dit que tout allait comme à présent, que les usages n'avaient pas changé. La seule par¬ticularité qu'il ait notée, c'est ce qu'il avait entendu dire aux vieux : « Dans le temps, il y avait bien des années, quand une famille était restée cent ans sur une métairie, elle en devenait propriétaire.  Cette tradition, jointe à ce que l'on sait de la propriété au moycn âge, dans le pays d'orte ; de la présence dans les diverses communes de biens à usage commun très répandus jadis ; de l'absence d'anciennes familles féodales, sauf une seule ; de la composition et de l'histoire des princi¬pales propriétés du pays, tout en un mot explique le grand nombre de paysans propriétaires qu'on rencontre dans le canton de Pereho¬rade, et dont l'origine vient évidemment, pour quiconque a étudié le moyen âge, de ces haux à long terme. suivis de l'accession à la pro¬priété, auxquels Montauzé faisait allusion.
        </p>
        <p xml:id="para_20_369_227">
         Comme on le voit, l'histoire des Montauzé n'est marquée par aucun incident remarquable. Elle le devient par son uniformité même. qui atteste la persistance de ses qualités natives et la force de ses tradi¬tions
@@ -1219,7 +1356,9 @@
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
-        . Mais la misère vient, les dettes avec elle ; on quitte la métairie de l'Oustaau pour entrer à La¬barraille. La première communion des enfants est l'époque de leur <pb facs="#facs_387" n="370" source="s2lesouvriersdes01sociuoft_0426.xml"/> adolescence agricole. Ils rentrent définitivement dans la famille, tra¬vaillent avec elle et augmentent ses ressources. On se libère de ses det¬tes en 1875. Comme pour la génération précédente, quand Marie¬Louise a diN-huit ans, on prépare son trousseau. Puis ce sera le tour de Marcelle. enfin les économies péniblement faites doteront encore celui des garçons qui ne sera pas héritier. Marie-Louise est provisoirement héritière ; mais qu'unbon mariage se présente, ellele fera, et, s illui faut quitter la maison, IIenri lui succédera
+        . Mais la misère vient, les dettes avec elle ; on quitte la métairie de l'Oustaau pour entrer à La¬barraille. La première communion des enfants est l'époque de leur
+        <pb facs="#facs_387" n="370" source="s2lesouvriersdes01sociuoft_0426.xml"/>
+        adolescence agricole. Ils rentrent définitivement dans la famille, tra¬vaillent avec elle et augmentent ses ressources. On se libère de ses det¬tes en 1875. Comme pour la génération précédente, quand Marie¬Louise a diN-huit ans, on prépare son trousseau. Puis ce sera le tour de Marcelle. enfin les économies péniblement faites doteront encore celui des garçons qui ne sera pas héritier. Marie-Louise est provisoirement héritière ; mais qu'unbon mariage se présente, ellele fera, et, s illui faut quitter la maison, IIenri lui succédera
         <note type="bp">
          <p>
           En 1880, Marie-Louise s'étant mariée, Henri est devenu héritier.
@@ -1246,7 +1385,8 @@
         .
        </p>
        <p xml:id="para_20_371_234">
-        <pb facs="#facs_388" n="371" source="s2lesouvriersdes01sociuoft_0427.xml"/> La famille est gardée par son isolement, du danger des aggloméra¬tions ; elle vit dans son domaine comme en une place forte à la porte de laquelle meurent les influences délétères. Elle est profondément chrétienne, garde sa langue et ses institutions, les infuse à ses enfants, et l'héritier les transmettra aux générations suivantes. Elle est asse riche de produits en nature pour ne pas connaitre le besoin du pain quotidien ; elle ne l'est pas assez en argent monnayé pour connaître les tentations du luxe. Les deux écueils qu'elle a à franchir seront le séjour à la caserne de l'éritier institué et son mariage. La connais¬sance qu'il a acquise de la langue francaise, lui rendra périlleux ce séjour. L'esprit de nouveauté, de désobéissance et d'individualisme, le mépris de la vie rurale, les habitudes de plaisir et dinconduite, sont en effet d'autant plus développés que le jeune homme parle mieux le français, est plus intelligent et est parvenu à un plus haut grade. Il choisit alors sa compagne parmi les brillantes filles du village ; elle pporte dans la famille des habitudes de luxe, de paresse, des airs demoiselle qui amenent promptement la ruine matérielle et morale. La famille décrite trouvera des garanties sérieuses dans la forte et sévère éducation donnée à ses enfants, dans l'autorité du pèreénergiquement et au besoin même brutalement imposée, pour en assurer le res pect et pour maintenir intacte la pratique des coutumes familiales et des traditions morales.
+        <pb facs="#facs_388" n="371" source="s2lesouvriersdes01sociuoft_0427.xml"/>
+        La famille est gardée par son isolement, du danger des aggloméra¬tions ; elle vit dans son domaine comme en une place forte à la porte de laquelle meurent les influences délétères. Elle est profondément chrétienne, garde sa langue et ses institutions, les infuse à ses enfants, et l'héritier les transmettra aux générations suivantes. Elle est asse riche de produits en nature pour ne pas connaitre le besoin du pain quotidien ; elle ne l'est pas assez en argent monnayé pour connaître les tentations du luxe. Les deux écueils qu'elle a à franchir seront le séjour à la caserne de l'éritier institué et son mariage. La connais¬sance qu'il a acquise de la langue francaise, lui rendra périlleux ce séjour. L'esprit de nouveauté, de désobéissance et d'individualisme, le mépris de la vie rurale, les habitudes de plaisir et dinconduite, sont en effet d'autant plus développés que le jeune homme parle mieux le français, est plus intelligent et est parvenu à un plus haut grade. Il choisit alors sa compagne parmi les brillantes filles du village ; elle pporte dans la famille des habitudes de luxe, de paresse, des airs demoiselle qui amenent promptement la ruine matérielle et morale. La famille décrite trouvera des garanties sérieuses dans la forte et sévère éducation donnée à ses enfants, dans l'autorité du pèreénergiquement et au besoin même brutalement imposée, pour en assurer le res pect et pour maintenir intacte la pratique des coutumes familiales et des traditions morales.
        </p>
       </div>
      </div>
@@ -3390,10 +3530,13 @@
         § 17. SUR LE CONTRAT DE MÉTAYAGE DANS LE PAYS D'HORTE.
        </head>
        <p xml:id="para_20_396_922">
-        <pb facs="#facs_413" n="396" source="s2lesouvriersdes01sociuoft_0452.xml"/> La part réciproque du maître et du métayer est suffisamment éta¬blie par les renseignements précédemment donnés ; elle varie cepen¬dant selon les règles adoptées pour le partage. Ces règles sont la plupart du temps fixées par un simple accord verbal ; les contrats écrits sont la très petite exception. Certains métayers partagent à moitié tous les produits, et, parois, donnent la dime du mais. Nous ne pouvons indiquer ici que la coutume le plus généralement suivie ; quant aux clauses générales, les conventions particulières ne les mo¬difient pas d'une facon sensible. Nous allons supposer un changement de métayer et exposer les usages suivis en pareil cas. Nous omet¬trons tout ce qui ressort de la présente monographie, qui fournira Sur ces divers points les détails nécessaires.
+        <pb facs="#facs_413" n="396" source="s2lesouvriersdes01sociuoft_0452.xml"/>
+        La part réciproque du maître et du métayer est suffisamment éta¬blie par les renseignements précédemment donnés ; elle varie cepen¬dant selon les règles adoptées pour le partage. Ces règles sont la plupart du temps fixées par un simple accord verbal ; les contrats écrits sont la très petite exception. Certains métayers partagent à moitié tous les produits, et, parois, donnent la dime du mais. Nous ne pouvons indiquer ici que la coutume le plus généralement suivie ; quant aux clauses générales, les conventions particulières ne les mo¬difient pas d'une facon sensible. Nous allons supposer un changement de métayer et exposer les usages suivis en pareil cas. Nous omet¬trons tout ce qui ressort de la présente monographie, qui fournira Sur ces divers points les détails nécessaires.
        </p>
        <p xml:id="para_20_396_923">
-        Le congé doit être donné avant le 15 août, et, généralement, on le signifie au règlement de comptes du 15 janvier. Le métayer sortant continue l'exploitation, mais n'emploie plus le fumier à partir du 15 août. A l'entrée du métayer, le fumier avait été mesuré. en tas : il doit donc en laisser autant. Le surplus est parltagé, et la part du mé¬tayer lui est payée par le maître ou par le nouveau métayer. Celui-ci en serait débiteur au cas où le maître l'aurait acheté et réciproque¬ment ; l'estimation est faite par deux experts choisis amiablement. Le bétail doit être vendu au 15 août, et sur le marché, à moins d'en¬tente ou d'expertise amiable. Au prix fait, le maître peut garder le hétail ; sil n'use pas de cette faculté, il peut en exiger la vente à un tiers, Sur le prix, le maître reprend le capital fourni par lui et le bé¬néfice se partage. L'étable vidée sert à abriter le bétail que le métayer sortant reçoit de son nouveau maître et il s'en sert pour travailler les terres de sa future métairie. Souvent la vente du bétail n'a lieu que <pb facs="#facs_414" n="397" source="s2lesouvriersdes01sociuoft_0453.xml"/> fort tard et le métayer sortant travaille ses nouvelles terres avec les attelages de son ancien maître. En fait, la bonne entente mutuelle engendre la réciprocité des services. Les fourrages suivent des règles snéciales. La cime et les feuilles de mais appartiennent au métayer sortant, tandis que la part de dépouille du maître va au nouvel entrant qui a dû venir le dépouiller. Les verdures (trèfle, farouch, luerne) sont la propriété du métayer sortant ; le nouveau métayer aura le foin, qu'il a du reste dû venir faucher. Le métayer sortant n'a pas le droit de couper du bois de moins de quatre ans, et il ne peut en emporter hors de la métairie, quoique, en fait, cette clause soit l'ob¬jet d'une tolérance. Enfin, les réparations locatives sont à la charge du maître, pour ce qui résulte du fait de l'usure. Le métayer doit au contraire payer les dégradations, quoique, en fait, on ne les exige pas. Les améliorations mobilières fixes (couées) faites par le métayer de¬vraient rester à la maison ; ici encore le fait est plus tolérant que le droit. Le métayer doit au maître un nombre illimité de corvées de bé¬tail pour lesquelles il est nourri; en fait, on n'en exige que pour les transports de grains et les bâtisses. De même. le métayer doit aider au battage et il est nourri ce jour-là. Il vient dépouiller le mais dans la grange du maître qui, en échange, lui abandonne la dépouille.
+        Le congé doit être donné avant le 15 août, et, généralement, on le signifie au règlement de comptes du 15 janvier. Le métayer sortant continue l'exploitation, mais n'emploie plus le fumier à partir du 15 août. A l'entrée du métayer, le fumier avait été mesuré. en tas : il doit donc en laisser autant. Le surplus est parltagé, et la part du mé¬tayer lui est payée par le maître ou par le nouveau métayer. Celui-ci en serait débiteur au cas où le maître l'aurait acheté et réciproque¬ment ; l'estimation est faite par deux experts choisis amiablement. Le bétail doit être vendu au 15 août, et sur le marché, à moins d'en¬tente ou d'expertise amiable. Au prix fait, le maître peut garder le hétail ; sil n'use pas de cette faculté, il peut en exiger la vente à un tiers, Sur le prix, le maître reprend le capital fourni par lui et le bé¬néfice se partage. L'étable vidée sert à abriter le bétail que le métayer sortant reçoit de son nouveau maître et il s'en sert pour travailler les terres de sa future métairie. Souvent la vente du bétail n'a lieu que
+        <pb facs="#facs_414" n="397" source="s2lesouvriersdes01sociuoft_0453.xml"/>
+        fort tard et le métayer sortant travaille ses nouvelles terres avec les attelages de son ancien maître. En fait, la bonne entente mutuelle engendre la réciprocité des services. Les fourrages suivent des règles snéciales. La cime et les feuilles de mais appartiennent au métayer sortant, tandis que la part de dépouille du maître va au nouvel entrant qui a dû venir le dépouiller. Les verdures (trèfle, farouch, luerne) sont la propriété du métayer sortant ; le nouveau métayer aura le foin, qu'il a du reste dû venir faucher. Le métayer sortant n'a pas le droit de couper du bois de moins de quatre ans, et il ne peut en emporter hors de la métairie, quoique, en fait, cette clause soit l'ob¬jet d'une tolérance. Enfin, les réparations locatives sont à la charge du maître, pour ce qui résulte du fait de l'usure. Le métayer doit au contraire payer les dégradations, quoique, en fait, on ne les exige pas. Les améliorations mobilières fixes (couées) faites par le métayer de¬vraient rester à la maison ; ici encore le fait est plus tolérant que le droit. Le métayer doit au maître un nombre illimité de corvées de bé¬tail pour lesquelles il est nourri; en fait, on n'en exige que pour les transports de grains et les bâtisses. De même. le métayer doit aider au battage et il est nourri ce jour-là. Il vient dépouiller le mais dans la grange du maître qui, en échange, lui abandonne la dépouille.
        </p>
        <p xml:id="para_20_397_925">
         Quand le maître meurt, ce sont les métayers qui portent le cercueil. On leur offre une collation composée de pain. de fromage et de vin. Le métayer assiste au repas de noce et aide la famille du maître pour les soins du bétail. En revanche, c'est le maître qui fournit la planche pour la bière de son metayer, faite gratuitement par le charpentier. qu'on nourrit ce jour-là
@@ -3411,7 +3554,9 @@
         Le « voisinage a tous les caractères d'une institution tradition¬nelle, imposant des charges et donnant des droits aux familles qui en 1ont partie. Son importance est telle qu'on n'en viole pas les rè¬gles, si grandes soient les haines de famille à famille. Manquer à ces devoirs constitue l'offense la plus grave y renoncer équivaut à la rupture de toutes relations.
        </p>
        <p xml:id="para_20_397_929">
-        Choix des oisins. — Ce n'est pas la position topographique qui établit le voisinage. La tradition détermine ce choix ainsi que la hié¬rarchie des voisins. Lorsqu'un métayer prend un domaine, il connence <pb facs="#facs_415" n="398" source="s2lesouvriersdes01sociuoft_0454.xml"/> par demander quels sont les voisins et quel est leur rang. La maison qui fait face à la porte principale est en général premier ooisin. Les visites en déclaration de voisinage se font alors suivant la hiérarchie établie. On n'est pas astreint à la respecter ni à subir les voisins traditionnels, mais ce changement a des conséquences si graves qu'on ne s'y expose généralement pas. Les visites faites, les voisins opèrent le déménagement et les voisines président à l'installation, terminée par un repas.
+        Choix des oisins. — Ce n'est pas la position topographique qui établit le voisinage. La tradition détermine ce choix ainsi que la hié¬rarchie des voisins. Lorsqu'un métayer prend un domaine, il connence
+        <pb facs="#facs_415" n="398" source="s2lesouvriersdes01sociuoft_0454.xml"/>
+        par demander quels sont les voisins et quel est leur rang. La maison qui fait face à la porte principale est en général premier ooisin. Les visites en déclaration de voisinage se font alors suivant la hiérarchie établie. On n'est pas astreint à la respecter ni à subir les voisins traditionnels, mais ce changement a des conséquences si graves qu'on ne s'y expose généralement pas. Les visites faites, les voisins opèrent le déménagement et les voisines président à l'installation, terminée par un repas.
        </p>
        <p xml:id="para_20_398_931">
         Baptêmes. — La première voisine est avertie avant tous et vient visiter le nouveau-né. Elle annonce la nouvelle aux autres voisins. qui doivent alors une visite de compliments. On leur offre du pain, du vin et du fromage.
@@ -3431,7 +3576,9 @@
         . Les autres voisins vont prévenir les parents et amis.
        </p>
        <p xml:id="para_20_398_934">
-        ˉEnterrements. — bLa première et la dernière voisine font les hon¬neurs de la cérémonie. Le premier et le dernier voisin portent la croix, l'un de la maison à l'église, l'autre de l'église au cimetière. Avant la levée du corps, le premier voisin baise la croix, reçoit de la première voisine un petit cierge qui lui est destiné, et en offre un pour les enfants de chœur. Ce sont les basiliques, droit d'entrée à <pb facs="#facs_416" n="399" source="s2lesouvriersdes01sociuoft_0455.xml"/> l'église. Les autres voisins et amis portent le cercueil. Ils sont tou¬jours de même qualité que le défunt : garçons pour un garçon, pères de famille pour un père de famille, etc. A l'offTertoire de la messe a lieu la premiêre offrande. La première voisine prend le cierge
+        ˉEnterrements. — bLa première et la dernière voisine font les hon¬neurs de la cérémonie. Le premier et le dernier voisin portent la croix, l'un de la maison à l'église, l'autre de l'église au cimetière. Avant la levée du corps, le premier voisin baise la croix, reçoit de la première voisine un petit cierge qui lui est destiné, et en offre un pour les enfants de chœur. Ce sont les basiliques, droit d'entrée à
+        <pb facs="#facs_416" n="399" source="s2lesouvriersdes01sociuoft_0455.xml"/>
+        l'église. Les autres voisins et amis portent le cercueil. Ils sont tou¬jours de même qualité que le défunt : garçons pour un garçon, pères de famille pour un père de famille, etc. A l'offTertoire de la messe a lieu la premiêre offrande. La première voisine prend le cierge
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (§ 19)
         </ref>
@@ -3443,16 +3590,19 @@
         § 19. SUR L'ORIGINE DES ABONNEMENTS EN NATURE SERVIS AUX CURÉS ET SUR LES DÉPENSES QUE LE CULTE IMPOSE AUX POPULATIONS.
        </head>
        <p xml:id="para_20_399_939">
-        Au moment où le Coneordat fut mis en vigueur, les ressources du clergé avaient une triple origine : 1° lindemnité allouee par l'Etat: 2° les rétributions fournies par les fideles dans certaines circonstances (mariages et enterrements), et que l'on désigne sous le nom de casuel, 3° les suppléments en argent ou en nature, fournis par les commu¬nes. Le 14 mai 1806, une convention est passée entre M. Dussaut. curé de Saint-Eienne, et le conseil unicipal, qui s'engage à fournir 25 hectolitres de froment, 50 hectolitres de mais, recueillis par <pb facs="#facs_417" n="400" source="s2lesouvriersdes01sociuoft_0456.xml"/> quatre commissaires délégués par le conseil municipal. Le 23 novembre 1806, le préfet des Landes ordonne que le supplément sera réglé conformément à l'arrêté du 20 floréal an XIII. Le con¬seil émet le vœu suivant : Il sera donné au desservant 22 hectolitres de froment et 44 hectolitres de mais,  plus 13 heetolitres 1 4 pour indemnmité de logement, le tout, bon, marchand, et bien conditionné, rendu et porté chez M. le desservant, savoir, le froment le 15 août, le blé d'nde (mais) le 1ʳ mars 1808, à peine d'y être contraint par arrêté rendu par M. le préfet ». Le rôle de cotisation fut formé par le conseil municipal. Le 20 février 1816. le role est renouvelé. On ac¬corde 25 hectolitres de froment, 50 hectolitres de mais, 200 francs pour indemnité de logement, et le maire est autorisé à poursuivre les récalcitrants. En 1822, une dernière convention fixe la subven¬tion à 22 hectolitres de froment et à 44 hectolitres de mais. En 1879. la quantité fournie par les familles est de 3 hectolitres de froment, de 11 hectolitres de mais et d'à peu près 300 francs en argent. Quelques familles portcnt encore les étrennes au curé. Ces étrennes consistent en chapons, poules ou gàteaux. En dehors de ces abonnements, le casuel, à Saint-Étienne d'Horte, varie selon les familles. Voici le détail des dépenses que les diverses cérémonies religieuses entrainent avec elles pour les métayers de condition moyenne. Nous y joindrons les frais de toute sorte dont elles sont l'occasion. lappelons que. pour les cérémonies principales, le curé est payé par l'abonnement.
+        Au moment où le Coneordat fut mis en vigueur, les ressources du clergé avaient une triple origine : 1° lindemnité allouee par l'Etat: 2° les rétributions fournies par les fideles dans certaines circonstances (mariages et enterrements), et que l'on désigne sous le nom de casuel, 3° les suppléments en argent ou en nature, fournis par les commu¬nes. Le 14 mai 1806, une convention est passée entre M. Dussaut. curé de Saint-Eienne, et le conseil unicipal, qui s'engage à fournir 25 hectolitres de froment, 50 hectolitres de mais, recueillis par
+        <pb facs="#facs_417" n="400" source="s2lesouvriersdes01sociuoft_0456.xml"/>
+        quatre commissaires délégués par le conseil municipal. Le 23 novembre 1806, le préfet des Landes ordonne que le supplément sera réglé conformément à l'arrêté du 20 floréal an XIII. Le con¬seil émet le vœu suivant : Il sera donné au desservant 22 hectolitres de froment et 44 hectolitres de mais,  plus 13 heetolitres 1 4 pour indemnmité de logement, le tout, bon, marchand, et bien conditionné, rendu et porté chez M. le desservant, savoir, le froment le 15 août, le blé d'nde (mais) le 1ʳ mars 1808, à peine d'y être contraint par arrêté rendu par M. le préfet ». Le rôle de cotisation fut formé par le conseil municipal. Le 20 février 1816. le role est renouvelé. On ac¬corde 25 hectolitres de froment, 50 hectolitres de mais, 200 francs pour indemnité de logement, et le maire est autorisé à poursuivre les récalcitrants. En 1822, une dernière convention fixe la subven¬tion à 22 hectolitres de froment et à 44 hectolitres de mais. En 1879. la quantité fournie par les familles est de 3 hectolitres de froment, de 11 hectolitres de mais et d'à peu près 300 francs en argent. Quelques familles portcnt encore les étrennes au curé. Ces étrennes consistent en chapons, poules ou gàteaux. En dehors de ces abonnements, le casuel, à Saint-Étienne d'Horte, varie selon les familles. Voici le détail des dépenses que les diverses cérémonies religieuses entrainent avec elles pour les métayers de condition moyenne. Nous y joindrons les frais de toute sorte dont elles sont l'occasion. lappelons que. pour les cérémonies principales, le curé est payé par l'abonnement.
        </p>
-       <p xml:id="para_20_400_941">t et à 44 hectolitres de mais. En 1879. la quantité fournie par les familles est de 3 hectolitres de froment, de 11 hectolitres de mais et d'à peu près 300 francs en argent. Quel¬ques familles portent encore les étrennes au curé. Ces étrennes consis¬tent en chapons, poules ou gàteaux. En dehors de ces abonnements, le casuel, à Saint-́ie
+       <p xml:id="para_20_400_941">
+        t et à 44 hectolitres de mais. En 1879. la quantité fournie par les familles est de 3 hectolitres de froment, de 11 hectolitres de mais et d'à peu près 300 francs en argent. Quel¬ques familles portent encore les étrennes au curé. Ces étrennes consis¬tent en chapons, poules ou gàteaux. En dehors de ces abonnements, le casuel, à Saint-́ie
         Baptêmes. — On peut estimer la dépense de la manière suivante :
        </p>
        <figure rend="portrait" type="table">
         <head resp="added" type="table" xml:id="figure_7">
          Dépenses occasionnées par un baptême à Saint-Étienne d'Hortes (notes annexes)
         </head>
-        <graphic facs="#facs_417" url="#"/>
+        <graphic facs="#facs_417" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24456/359,2057,1445,309/full/0/default.jpg"/>
        </figure>
        <!--
         <p xml:id="para_20_400_942">
@@ -3482,7 +3632,8 @@
        </p>
        <quote>
         <p xml:id="para_20_401_949">
-         <pb facs="#facs_418" n="401" source="s2lesouvriersdes01sociuoft_0457.xml"/> Patchiec Patchoc
+         <pb facs="#facs_418" n="401" source="s2lesouvriersdes01sociuoft_0457.xml"/>
+         Patchiec Patchoc
         </p>
         <p xml:id="para_20_401_950">
          Que démouri coum l'esclop
@@ -3504,7 +3655,7 @@
         <head resp="added" type="table" xml:id="figure_8">
          Dépenses occasionnées par un mariage à Saint-Étienne d'Hortes (notes annexes)
         </head>
-        <graphic facs="#facs_418" url="#"/>
+        <graphic facs="#facs_418" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24457/303,1077,1597,317/full/0/default.jpg"/>
        </figure>
        <!--
         <p xml:id="para_20_401_955">
@@ -3536,7 +3687,7 @@
         <head resp="added" type="table" xml:id="figure_9">
          Dépenses occasionnées par un service funèbre à Saint-Étienne d'Hortes (notes annexes)
         </head>
-        <graphic facs="#facs_418" url="#"/>
+        <graphic facs="#facs_418" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes01sociuoft%24457/351,2057,1477,741/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_20_401_962">
         Cierge de la veillée moruaire. .. ..... .................................. 2ᶠ 0D)
@@ -3575,7 +3726,9 @@
         Cierges de la Puritfication, qu'on 1ait brûler au temps d'orage et qu'on allume pour aller au-devant du Saint-iatique ( 18)................ 4 00
         </p>-->
        <p xml:id="para_20_401_974">
-        Sur les 12 cierges du catafalque et de l'offrande, il en revient 5 à la famille, 4 au curé et 3 à la fabrique. La famille fait brûler les siens à la messe du dimanche, pendant les dix-huit mois que dure le deuil. Les petits cierges de l'offrande sont pour les enfants de chœur et les <pb facs="#facs_419" n="402" source="s2lesouvriersdes01sociuoft_0458.xml"/> voisins qui portent la croix
+        Sur les 12 cierges du catafalque et de l'offrande, il en revient 5 à la famille, 4 au curé et 3 à la fabrique. La famille fait brûler les siens à la messe du dimanche, pendant les dix-huit mois que dure le deuil. Les petits cierges de l'offrande sont pour les enfants de chœur et les
+        <pb facs="#facs_419" n="402" source="s2lesouvriersdes01sociuoft_0458.xml"/>
+        voisins qui portent la croix
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (§ 18)
         </ref>
@@ -3606,7 +3759,8 @@
         ART. III. — Les syndics ordonneront de fermer la barthe le 25 mars de chaque année ; ils ne pourront en reculer l'époque qu'en cas d'inondation.
        </p>
        <p xml:id="para_20_403_982">
-        <pb facs="#facs_420" n="403" source="s2lesouvriersdes01sociuoft_0459.xml"/> ART. 1V. — Les propriétaires devront curer et récurer leurs rigoles et canaux toutes les fois que les syndics le jugeront nécessaire.
+        <pb facs="#facs_420" n="403" source="s2lesouvriersdes01sociuoft_0459.xml"/>
+        ART. 1V. — Les propriétaires devront curer et récurer leurs rigoles et canaux toutes les fois que les syndics le jugeront nécessaire.
        </p>
        <p xml:id="para_20_403_983">
         ART. V. — Les syndics pourront ordonner des corvées pour la réparation des chemins de communication pour la sortie des récoltes de la barthe. Les syndics pourront également faire des réparations aux ponts et à l'écluse et en construire de nouveaux, mais après avoir pris l'avis et obtenu l'assentiment du conseil municipal.
@@ -3647,7 +3801,9 @@
           La vicomté d'Iorte relevait de la prevôté d'Acqs (Dax) pour la justice basse.
          </p>
         </note>
-        appartenait à la famille de ce nom. Les bois <pb facs="#facs_421" n="404" source="s2lesouvriersdes01sociuoft_0460.xml"/> et les landes constituaient la plus grande partie dece territoire
+        appartenait à la famille de ce nom. Les bois
+        <pb facs="#facs_421" n="404" source="s2lesouvriersdes01sociuoft_0460.xml"/>
+        et les landes constituaient la plus grande partie dece territoire
         <note type="bp">
          <p>
           Placet au roi, de 1668. Ls habitants se plaignent des entraves que le vicomte met à la pêche. leur unique ressource, car cette terre d'Horte est la plus sterile et la plus infertile du royaume, toute composée de sablons, bruyères, landes, montagnes et roches découvertes, le tout presque inculte ; sujette aux ravines fréquentes et à être submergée par le débordement des deux fleuves, causé par les torrents précipités des montagnes voisines et des Pyrénées. lesquelles presque toutes les années entrainent. avec la superficie de ces terres sablonneuses, presque tout le peu de semence demenu grain. Il n'y aqu'environ soixante ans que cette terre était un marais inaccessible qui demeurait submergé sous les eaux.
@@ -3665,7 +3821,9 @@
         moyenne et haute qui appartenait aux maires et jurats de cette ville. Un arrèt du Par¬lement (26 aout 1611) fait mention d'une charte de fondation donnée par Charlema¬gne en 800 et dans laquelle la vicomté d'Horte était nommée. Cet arrêt, qui condamne les caviers à faire hommage au vicomte, nous apprend que la vicomté fut démembrée de la prévôté de Dax par Edouard Hl. en 1344.
        </p>
        <p xml:id="para_20_404_999">
-        Des communes actuelles (V. l'Annuairedu département), Hastingues et Sordes étaient villes royales,Saint-Cricq faisait partie du Béarn, Cauneille était une baronnie séparée. toujours mentionnée à part ; mais dans les cours générales elle votait avec la vi¬comté. Ces cours, formées des syndics, des caviers, des jurats et des délégués des pa roisses, se tenaient devant l'église de Saint-Martin de Pardies à Peyrehorade (Ygas). Les caveries(transaction de Arnaud Ramond, vicomte d'orte. avec les nobles, manants et habitants de la vicomté. 1ᵉ mars 1343) étaient au nombre de 14. La première est celle de Pruilh de Peyreforade. la deuxieme celle de Gestède. Parmi les autres : villemayan (de Lapeyrère), Ordoze, Camiade, Pey, Orist, Lanne, Lue, Villenave, Belus. <pb facs="#facs_422" n="405" source="s2lesouvriersdes01sociuoft_0461.xml"/> étaient d'usage commun. D'autre part, si la propriété individuelle est assez respectée dans les parties agricoles, les habitudes de maraude dans les landes et dans la barthe sont très enracinées. Les familles pauvres les considèrent sans doute comme des biens dont elles ont été injustement privées. Au reste, des témoignages que j'ai recueillis prouvent que c'est là leur maniêre de voir. Enfin, je rappelle ici la tradition à laquelle faisait allusion le métayer décrit
+        Des communes actuelles (V. l'Annuairedu département), Hastingues et Sordes étaient villes royales,Saint-Cricq faisait partie du Béarn, Cauneille était une baronnie séparée. toujours mentionnée à part ; mais dans les cours générales elle votait avec la vi¬comté. Ces cours, formées des syndics, des caviers, des jurats et des délégués des pa roisses, se tenaient devant l'église de Saint-Martin de Pardies à Peyrehorade (Ygas). Les caveries(transaction de Arnaud Ramond, vicomte d'orte. avec les nobles, manants et habitants de la vicomté. 1ᵉ mars 1343) étaient au nombre de 14. La première est celle de Pruilh de Peyreforade. la deuxieme celle de Gestède. Parmi les autres : villemayan (de Lapeyrère), Ordoze, Camiade, Pey, Orist, Lanne, Lue, Villenave, Belus.
+        <pb facs="#facs_422" n="405" source="s2lesouvriersdes01sociuoft_0461.xml"/>
+        étaient d'usage commun. D'autre part, si la propriété individuelle est assez respectée dans les parties agricoles, les habitudes de maraude dans les landes et dans la barthe sont très enracinées. Les familles pauvres les considèrent sans doute comme des biens dont elles ont été injustement privées. Au reste, des témoignages que j'ai recueillis prouvent que c'est là leur maniêre de voir. Enfin, je rappelle ici la tradition à laquelle faisait allusion le métayer décrit
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
@@ -3697,7 +3855,9 @@
           Luce-Antoinette d'Aspremont est la seule fille noble dont on trouve trace dans les archives du pays : encore était-elle de la famille des vicomtes d'Horte. Mariée l 1. vrier 1I775 au vicomte Jean de Monréal. ci-devant marquis de Trois-Villes (Treville), elle se sépara de son mari et émigra a la Révolution. Elle possédait àSaint-Etienne d'lHorte le moulin de Miremont, jardin, barthe. terre en friche. en tout 23arpents. d'un revenu de 1.142 fr. 15, estimés 22.855 livres.
          </p>
         </note>
-        . Aucune des propriétés actuelles n'estd'un seul tènement, on voit, par leur composition, que ce sont des domaines de <pb facs="#facs_423" n="406" source="s2lesouvriersdes01sociuoft_0462.xml"/> paysans, agrandis par le travail et des acquisitions successives, lors¬que d'autres familles descendaient à un rang inférieur dans la hiérar¬chie des conditions.
+        . Aucune des propriétés actuelles n'estd'un seul tènement, on voit, par leur composition, que ce sont des domaines de
+        <pb facs="#facs_423" n="406" source="s2lesouvriersdes01sociuoft_0462.xml"/>
+        paysans, agrandis par le travail et des acquisitions successives, lors¬que d'autres familles descendaient à un rang inférieur dans la hiérar¬chie des conditions.
        </p>
        <p xml:id="para_20_406_1007">
         La propriété commune a donc été suivie de la propriété patronale et féodale, et celle-ci a peu à peu émancipé les familles d'élite en les élevant graduellement au rang de paysanspropriétaires. Cette marche est du reste conforme aux faits observés pour d'autres contrées. A quelle époque les communes se sont-elles substituées à la propriété seigneuriale, c'est ce qu'il est difficile de savoir2 Peut-être seulement à la Révolution, car rien dans la contrée n'indique que la conception de la commune du moyen âge existe dans quelques esprits ou soit trahie par quelque tradition. Au reste, avant le partage des biens communs, les propriétés de paysans étaient fort restreintes. Une grande partie des terres actuellement en culture sont de récents défri¬chements de bois, de landes et de prairies dont la forme actuelle dé¬nonce le partage proportionnel, auquel certaines communes n'ont procédé que tout récemment, et dont nous avons parlé plus haut. Les défrichements eux-mêmes ne datent que de quelques années. Les plus anciens n'ont guère plus de cent ans.
@@ -3709,7 +3869,9 @@
           Les moines de Sordes avaient des droits sur plusieurs églises de la vicomté, en¬tre autres sur celles de Saint-Vincent de Bortes (le B remplace l'l). Sanche. ducde Gas¬cogne. leur donna (1010-1o32 la villa de ce nom. La richesse et le style des églises ne permettent pas. vu la pauvreté du pays, de leur accorder une autre origine que l'origine monastique. De là a la propriété terrienne, acquise par ces riches abbayes aux prises avec des seiggneurs besoigneux. il n'y a qu'un pas.
          </p>
         </note>
-        . La terre soumise au régime agricole est exploitée dans le système des engagements forcés, puis dans le système transitoire dont les paysans russes à l'abrocl nous offrent un exemple enfin, probablement sous la forme de l'emphytéose et avec des rede¬vances personnelles ou en nature, apparition graduelle de la pro¬priété moyenne et petite, et maintien d'une propriété commune, ou plus justement, usage commun des landes, des bois et des barthes, sur une très grande étendue. Ce régime s'est continué jusque vers la Révolution. La paroisse, comme représentant des biens à usage com<pb facs="#facs_424" n="407" source="s2lesouvriersdes01sociuoft_0463.xml"/>mun, remplace le seigneur. Peut-être ces riches et puissantes abbayes de Sordes et de Hastingues ont-elles acheté ces biens aux vicomtes d'Horte. dont la famille décline rapidement
+        . La terre soumise au régime agricole est exploitée dans le système des engagements forcés, puis dans le système transitoire dont les paysans russes à l'abrocl nous offrent un exemple enfin, probablement sous la forme de l'emphytéose et avec des rede¬vances personnelles ou en nature, apparition graduelle de la pro¬priété moyenne et petite, et maintien d'une propriété commune, ou plus justement, usage commun des landes, des bois et des barthes, sur une très grande étendue. Ce régime s'est continué jusque vers la Révolution. La paroisse, comme représentant des biens à usage com
+        <pb facs="#facs_424" n="407" source="s2lesouvriersdes01sociuoft_0463.xml"/>
+        mun, remplace le seigneur. Peut-être ces riches et puissantes abbayes de Sordes et de Hastingues ont-elles acheté ces biens aux vicomtes d'Horte. dont la famille décline rapidement
         <note type="bp">
          <p>
           La famille des vicomtes d'Horte sétait corrompue, comme lant d'autres. Du role de patron, elle avait passé a un genre de vie plus couteux. Le placet au roi voir ci¬dessus) avait pour but de réclamer contre les tracasseries relatives à la pêche. mais il se basait sur ce que les vicomtes s'étaient emparés des meilleurs fonds parmi les terrains laisses à découvert par l'Adour, à la suite de la formation de l'embouchure du louau. Ces petits faits expliquent bien certains cotés de l'histoire de la Révolutiou de 1789.
@@ -3723,7 +3885,9 @@
         § 22. SUR LES SYMPTÔMES DE PROSPÉRITÉ ET DE DÉCADENCE QU'OFFRE LA COMMUNE DÉCRITE.
        </head>
        <p xml:id="para_20_407_1014">
-        Les éléments fondamentaux de la paix sociale sont relativement intacts, au moins dans les familles de métayers. Celle qui fait l'objet de la présente monographie offre le plus haut tvpe de ce qui existe actuellement comme pratique des coutumes traditionnelles. La com¬mune est relativement loin des centres de nouveauté et la métairie de Labarraille est elle-même très isolée par sa situation. Au point de vue matériel, la crise agricole s'accentue là, comme ailleurs. Les prix de vente s'avilissent, les salaires augmentent. les exigences des enfants ou des serviteurs deviennent plus grandes et les budgets s'en ressentent. au point que plusieurs familles sont gravement endettées. L'émigra¬tion vers la ville enlève à la terre des bras nombreux. Au retour du service militaire . les jeunes gens consentent difficilement à reprendre la profession de laboureur. Ils apportent des habitudes de plaisir et de boisson auxquelles la ville offre une satisfaction plus facile. Les filles les y suivent et préfèrent la situation dépendante de domestiques à celle plus digne et moins périlleuse de femmes de métayers. Sans con¬tredit, l'augmentation des dépenses en argent, par suite de la surexci<pb facs="#facs_425" n="408" source="s2lesouvriersdes01sociuoft_0466.xml"/>tation des besoins que le sol ne peut satisfaire, est la principale cause de ce commencement de souffrance. D'autre part, les produits vendus le sont moins avantageusement. Les prix du bétail se soutiennent. Les céréales ont baissé de plus d'un tiers. Il est superflu de décrire par le menu un état de choses aujourd'hui général. Qu'il suffise de savoir que le marché de Peyrehorade est en relations par voies fluviales et par voies ferrées avec Bayonne, où affluent les produits américains. Il en est de même de celui de Dax.
+        Les éléments fondamentaux de la paix sociale sont relativement intacts, au moins dans les familles de métayers. Celle qui fait l'objet de la présente monographie offre le plus haut tvpe de ce qui existe actuellement comme pratique des coutumes traditionnelles. La com¬mune est relativement loin des centres de nouveauté et la métairie de Labarraille est elle-même très isolée par sa situation. Au point de vue matériel, la crise agricole s'accentue là, comme ailleurs. Les prix de vente s'avilissent, les salaires augmentent. les exigences des enfants ou des serviteurs deviennent plus grandes et les budgets s'en ressentent. au point que plusieurs familles sont gravement endettées. L'émigra¬tion vers la ville enlève à la terre des bras nombreux. Au retour du service militaire . les jeunes gens consentent difficilement à reprendre la profession de laboureur. Ils apportent des habitudes de plaisir et de boisson auxquelles la ville offre une satisfaction plus facile. Les filles les y suivent et préfèrent la situation dépendante de domestiques à celle plus digne et moins périlleuse de femmes de métayers. Sans con¬tredit, l'augmentation des dépenses en argent, par suite de la surexci
+        <pb facs="#facs_425" n="408" source="s2lesouvriersdes01sociuoft_0466.xml"/>
+        tation des besoins que le sol ne peut satisfaire, est la principale cause de ce commencement de souffrance. D'autre part, les produits vendus le sont moins avantageusement. Les prix du bétail se soutiennent. Les céréales ont baissé de plus d'un tiers. Il est superflu de décrire par le menu un état de choses aujourd'hui général. Qu'il suffise de savoir que le marché de Peyrehorade est en relations par voies fluviales et par voies ferrées avec Bayonne, où affluent les produits américains. Il en est de même de celui de Dax.
        </p>
        <p xml:id="para_20_408_1017">
         Les remèdes proposés par les hommes les plus en vue, je veux dire la culture rationnelle, un outillage perfectionné, l'achatde semences de choix, la constitution d'associations agricoles, supposent un déve¬loppement intellectuel qui n'existe pas dans ces contrées. Au reste, ce développement intellectuel produirait-il de bonseffets2 L'émigration vers la ville est, dans cette contrée, en raison directe du degré d'ins¬truction des individus. Les faits observés par moi le prouvent surabon¬damment. Quiconque fera ainsi, aboutira aux mêmes conclusions. La même observation des faits montre que les familles qui ont le mieux résisté à la crise agricole sont celles qui, organisées en familles-sou¬ches, sous le patronage des propriétaires résidents, et placées, par leur condition d'existence, assez loin des villes et des chemins de fer, ont trouvé, dans leur attachement entèté à la tradition, la force de de¬meurer fidèles à la pratique des aieux. Cette pratique, c'était le do¬maine procurant à la famille la plupart de ses moyens d'existence ; le complément étant principalement fourni par voie d'échanges en nature. La famille, ayant peuà acheter, se trouve affranchie de toutes les consé¬quences que peuvent entrainer les variations dans les prix de vente. Celle qui est ici décrite a vu son aisance se restreindre, depuis que la mort de la grand'mère est venue diminuer l'industrie de la fabrication domes¬tique de la toile et du linge, et que, poussée par l'esprit de nouveauté, elle achète au dehors une plus grande partie des denrées nécessaires à son alimentation. Ces tendances, plus développées encore dans la classe des paysans-propriétaires, font que celle-ci se trouve relative¬ment plus gènée que les familles obligées, pr la pénurie de leurs ressources, de vivre du sol et par le sol.

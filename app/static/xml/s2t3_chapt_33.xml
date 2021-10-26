@@ -4,9 +4,37 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
+    <title level="m" n="72" type="main">
+     Coutelier de la fabrique collective de Gembloux (Province de Namur - Belgique)
+    </title>
+    <title level="s" type="desc">
      Les Ouvriers des Deux Mondes - série 2, volume 3 - Transcription
     </title>
+    <title level="m" type="short">
+     coutelier-fabrique-collective-gembloux-72
+    </title>
+    <author n="1" role="investigator">
+     Charles Gernart
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
+    <respStmt>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°72 des Ouvriers des deux mondes, "Coutelier de la fabrique collective de Gembloux (Province de Namur - Belgique)". Elle a d'abord été publiée en fascicule en 1892, puis reliée en 1892, à partir d'une enquête réalisée à Grand-Manil, Gembloux (Namur, Belgique) en avril et en juillet 1891.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
       <forename>
@@ -114,15 +142,23 @@
       supervision technique
      </resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
     <publisher>
-     projet ANR Time Us
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
     </publisher>
     <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>
@@ -130,13 +166,6 @@
     </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_438">
   <surface lrx="2151" lry="3478"/>
@@ -362,7 +391,10 @@
       PAR
      </p>
      <p xml:id="para_33_413_8">
-      M. <persName>CHARLES GENART</persName>
+      M.
+      <persName>
+       CHARLES GENART
+      </persName>
       <note type="bp">
        <p>
         La présente monographie a fait l'objet des rapports présentés à la Contférence d'eco¬nomie sociale de Louvain le 6 novembre 1891, et à la Société belge d'Economie sociale le 26 mars 1892.
@@ -384,13 +416,16 @@
         § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_33_413_13">
-        <pb facs="#facs_438" n="413" source="s2lesouvriersdes03sociuoft_0483.xml"/> La famille, objet de la présente monographie, habite Grand-Manil, commune de 800 habitants, contigue à la commune de Gembloux avec laquelle elle ne forme qu'une seule paroisse. Les maisons, en général petites, pauvres et éparses sur tout le territoire, vont presque se confondre avec celles de Gembloux. Cette dernière localité a une population de 4.000 habitants
+        <pb facs="#facs_438" n="413" source="s2lesouvriersdes03sociuoft_0483.xml"/>
+        La famille, objet de la présente monographie, habite Grand-Manil, commune de 800 habitants, contigue à la commune de Gembloux avec laquelle elle ne forme qu'une seule paroisse. Les maisons, en général petites, pauvres et éparses sur tout le territoire, vont presque se confondre avec celles de Gembloux. Cette dernière localité a une population de 4.000 habitants
         <note type="bp">
          <p>
           Population au 31 décembre 1888 (Annuaire statistique de la Belgique, 1889) : Gambloux, 3.931 ; Grand Manil, 797.
          </p>
         </note>
-        ; elle est située sur la route et le chemin de fer de Bruxelles à Namur, et respectivement à 40 et 18 ki¬lomètres de ces villes. De nombreuses voies de communication, routes <pb facs="#facs_439" n="414" source="s2lesouvriersdes03sociuoft_0484.xml"/> et chemins de fer, la relient en outre avec tous les points du pays. Elle fait partie de la province ainsi que de l'arrondissement judiciaire et administratif de Namur.
+        ; elle est située sur la route et le chemin de fer de Bruxelles à Namur, et respectivement à 40 et 18 ki¬lomètres de ces villes. De nombreuses voies de communication, routes
+        <pb facs="#facs_439" n="414" source="s2lesouvriersdes03sociuoft_0484.xml"/>
+        et chemins de fer, la relient en outre avec tous les points du pays. Elle fait partie de la province ainsi que de l'arrondissement judiciaire et administratif de Namur.
        </p>
        <p xml:id="para_33_414_18">
         Grand-Manil est situé sur un plateau à une altitude de 170 mètres : le bas de la côte, vers Gembloux, est arrosé par l'Orneau, petite rivière, affluent de la Sambre.
@@ -417,19 +452,40 @@
         La famille comprend, en 1891, les deux époux et trois enfants, sa¬voir :
        </p>
        <p xml:id="para_33_415_23">
-        <pb facs="#facs_440" n="415" source="s2lesouvriersdes03sociuoft_0485.xml"/> 1. <persName>JOSEPH R***</persName>, chef de famille, né à Grand-Manil, marié en 1879........... 33 ans.
+        <pb facs="#facs_440" n="415" source="s2lesouvriersdes03sociuoft_0485.xml"/>
+        1.
+        <persName type="respondent" xml:id="ID-072aE1">
+         JOSEPH R***
+        </persName>
+        , chef de famille, né à Grand-Manil, marié en 1879........... 33 ans.
        </p>
        <p xml:id="para_33_415_24">
-        2. <persName>PAULINE S***</persName> a femme, née a Grand-Manil............ 34 —
+        2.
+        <persName type="respondent" xml:id="ID-072aE2">
+         PAULINE S***
+        </persName>
+        a femme, née a Grand-Manil............ 34 —
        </p>
        <p xml:id="para_33_415_25">
-        3. <persName>EUGÉNIE R***</persName>, leur fille, née à Grand-Manil............ 11 —
+        3.
+        <persName type="respondent" xml:id="ID-072aE3">
+         EUGÉNIE R***
+        </persName>
+        , leur fille, née à Grand-Manil............ 11 —
        </p>
        <p xml:id="para_33_415_26">
-        4. <persName>AUGUSTE R***</persName>, leur premier fils, né à Grand-Manil............ 10 —
+        4.
+        <persName type="respondent" xml:id="ID-072aE4">
+         AUGUSTE R***
+        </persName>
+        , leur premier fils, né à Grand-Manil............ 10 —
        </p>
        <p xml:id="para_33_415_27">
-        5. <persName>JOSEPH R***</persName>, leur second fils, né à Grand-Manil............ 7 —
+        5.
+        <persName type="respondent" xml:id="ID-072aE5">
+         JOSEPH R***
+        </persName>
+        , leur second fils, né à Grand-Manil............ 7 —
        </p>
        <p xml:id="para_33_415_28">
         L'ouvrier a perdu son père alors qu'il n'avait encore que neuf mois ; c'est chez son frère aîné, établi comme coutelier, que Joseph a fait son apprentissage ; sa mère est morte en 1878, laissant huit enfants, entre lesquels s'est partagé un modeste héritage, composé uniquement de la maison actuellement habitée par Joseph et du jardin y atte¬nant.
@@ -449,7 +505,9 @@
         Les époux R*** appartiennent tous deux à la religion catholique et en remplissent avec régularité les principaux devoirs, mais ils se mon¬trent négligents en ce qui concerne les pratiques du culte domestique ainsi point de benedicite ; parfois la femme fait un simple signe de croix ; il n'est même pas rare qu'on omette les prières du matin et du soir, qui en tous cas sont fort sommaires. Le repos dominical n'est pas très strictement observé ; Joseph se croit trop facilement en règle, quand il suspend son travail principal pour ne se livrer qu'à des occu¬pations secondaires, telles que la culture ; au reste, il est juste de remarquer que ce travail n'est jamais long : l'ouvrier n'y consacre que le temps qui précède la messe.
        </p>
        <p xml:id="para_33_415_34">
-        Dans l'atelier, une place est réservée, au milieu des outils, au vieux crucifix de cuivre ; il y en a un aussi, entouré d'images de la Vierge et de quelques sujets pieux, dans les deux autres pièces. <pb facs="#facs_441" n="416" source="s2lesouvriersdes03sociuoft_0486.xml"/> lEugénie, qui a fait sa première communion l'an dernier, fréquente assidûment le catéchisme de persévérance fait par le doyen, le di¬manche après vêpres. Elle continue à aller à l'école chez les sœurs de Notre-Dame à Gembloux.
+        Dans l'atelier, une place est réservée, au milieu des outils, au vieux crucifix de cuivre ; il y en a un aussi, entouré d'images de la Vierge et de quelques sujets pieux, dans les deux autres pièces.
+        <pb facs="#facs_441" n="416" source="s2lesouvriersdes03sociuoft_0486.xml"/>
+        lEugénie, qui a fait sa première communion l'an dernier, fréquente assidûment le catéchisme de persévérance fait par le doyen, le di¬manche après vêpres. Elle continue à aller à l'école chez les sœurs de Notre-Dame à Gembloux.
        </p>
        <p xml:id="para_33_416_36">
         Auguste et Joseph sont élèves des frères de la Doctrine chrétienne ils recoivent gratuitement l'instruction et même les fournitures clas¬siques. Les bons frêres témoignent un intérêt tout spécial à la fa¬mille R***. Le père et la mère savent lire, écrire et un peu calculer, mais là se bornent toutes leurs connaissances.
@@ -461,7 +519,9 @@
         Joseph attend avec impatience le jour où il pourra rece voir de ses enfants une aide elicace dans son travail ; alors, vu les habitudes de privation de la famille, il lui sera aisé de faire des économies. Main¬tenant ils n'ont jamais d'argent en réserve ; ils payent le dimanche les dépenses de la semaine ; de nombreux achats étant d'ailleurs faits chez le patron même, le prix en est directement imputé sur le sa¬laire.
        </p>
        <p xml:id="para_33_416_39">
-        A Gembloux, le coutelier travaille en général toujours au même genre d'objets : l'un fait le canif, l'autre le couteau de table, un troi¬sième le coutelas de boucher, etc. ; ainsi confiné dans d'étroites li¬mites, l'ouvrier ne développe guère ses aptitudes professionnelles. La coutellerie de luxe seule offre un champ plus vaste à l'habileté et à <pb facs="#facs_442" n="417" source="s2lesouvriersdes03sociuoft_0487.xml"/> l'esprit inventi, mais les ouvriers qui s'en occupent sont peu nom¬breux, les commandes sont rares et les plus adroits sont souvent forcés de se contenter d'un travail tout ordinaire.
+        A Gembloux, le coutelier travaille en général toujours au même genre d'objets : l'un fait le canif, l'autre le couteau de table, un troi¬sième le coutelas de boucher, etc. ; ainsi confiné dans d'étroites li¬mites, l'ouvrier ne développe guère ses aptitudes professionnelles. La coutellerie de luxe seule offre un champ plus vaste à l'habileté et à
+        <pb facs="#facs_442" n="417" source="s2lesouvriersdes03sociuoft_0487.xml"/>
+        l'esprit inventi, mais les ouvriers qui s'en occupent sont peu nom¬breux, les commandes sont rares et les plus adroits sont souvent forcés de se contenter d'un travail tout ordinaire.
        </p>
        <p xml:id="para_33_417_42">
         Joseph travaille le plus généralement à la serpette et au canif. parfois au couteau de cuisine ; il est cependant capable d'un travail plus perfectionné.
@@ -492,7 +552,8 @@
         § 5. RANG DE LA FAMILLE.
        </head>
        <p xml:id="para_33_418_52">
-        <pb facs="#facs_443" n="418" source="s2lesouvriersdes03sociuoft_0488.xml"/>L'ouvrier appartient à la catégorie des tâcherons ; le dimanche, il va chez le patron recevoir de l'ouvrage, ordinairement pour huit ou quinze jours ; en même temps, il achète la matiêre première dont le pri est imputé sur son salaire, lors de la remise des pièces fabri¬quées ; il est payé en proportion de leur nombre et de leur qualité. Joseph obtient un salaire très régulier de 16 francs par semaine, dédue¬tion faite des matières premières proprement dites, c'est-à-dire acier. fer, corne, etc.
+        <pb facs="#facs_443" n="418" source="s2lesouvriersdes03sociuoft_0488.xml"/>
+        L'ouvrier appartient à la catégorie des tâcherons ; le dimanche, il va chez le patron recevoir de l'ouvrage, ordinairement pour huit ou quinze jours ; en même temps, il achète la matiêre première dont le pri est imputé sur son salaire, lors de la remise des pièces fabri¬quées ; il est payé en proportion de leur nombre et de leur qualité. Joseph obtient un salaire très régulier de 16 francs par semaine, dédue¬tion faite des matières premières proprement dites, c'est-à-dire acier. fer, corne, etc.
         <ref target="#part_02_05_16" type="renvoi_int_mono">
          (§ 16, H)
         </ref>
@@ -506,7 +567,9 @@
         C'est à domicile que le coutelier travaille ; cependant la plupart des patrons ont établi des ateliers avec meules à aiguiser et roues de po¬lissage mues par la vapeur ; les ouvriers s'y rendent tous les quinze jours pendant quelques heures pour terminer leur travail : ils payent une rétribution à tant par heure. Notre coutelier s'est soustrait à cette nécessité en acquérant un matériel complet qu'il met en mouvement au moyen de pédales. Il n'a, comme on le remarque tout de suite, que fort peu de rapports avec le patron, qui, de son côté, évite de surveiller de trop près ses ouvriers, et ne leur fait que de rares visites occasion¬nées seulement par les affaires ; aussi n'a-t-il d'autre influence sur eux que celle qui résulte de l'intérèt pécuniaire.
        </p>
        <p xml:id="para_33_418_54">
-        Il y a treie ans, à la mort de la mère de Joseph, la maison pater¬nelle et le jardin furent mis en vente pour arriver à un partage égal l'ouvrier les acheta pour la somme de 1.600 francs ; il avait droit à un huitième de la succession, en sorte qu'il restait redevable à ses frères et sœurs de la somme de 1.400 francs ; il n'est encore parvenu à en payer que 100 francs, et il sert annuellement un intérêt de 5 pour <pb facs="#facs_444" n="419" source="s2lesouvriersdes03sociuoft_0489.xml"/> le reste de la somme. Dans le village, on le croit purement et sim¬plement propriétaire, et cela contribue beaucoup à le faire considérer comme jouissant d'une certaine aisance, alors qu'en réalité il n'a même pas tout à fait le nécessaire.
+        Il y a treie ans, à la mort de la mère de Joseph, la maison pater¬nelle et le jardin furent mis en vente pour arriver à un partage égal l'ouvrier les acheta pour la somme de 1.600 francs ; il avait droit à un huitième de la succession, en sorte qu'il restait redevable à ses frères et sœurs de la somme de 1.400 francs ; il n'est encore parvenu à en payer que 100 francs, et il sert annuellement un intérêt de 5 pour
+        <pb facs="#facs_444" n="419" source="s2lesouvriersdes03sociuoft_0489.xml"/>
+        le reste de la somme. Dans le village, on le croit purement et sim¬plement propriétaire, et cela contribue beaucoup à le faire considérer comme jouissant d'une certaine aisance, alors qu'en réalité il n'a même pas tout à fait le nécessaire.
        </p>
       </div>
      </div>
@@ -518,12 +581,12 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_33_419_59">
          (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_33_419_60">
          IMMEUBLES............ 1,900ᶠ 00
         </p>
@@ -531,7 +594,7 @@
          Joseph possède depuis 1878 la maison paternelle avec le jardin y attenant, d'une conte¬nance de 16 verges (3 ares, 49 centiares), le tout était évalué alors à 1.600 franecs, soit 1.450 fr. pour la maison et 150 fr. pour le jardin. La maison a subi depuis des réparations et des aménagements évalués à 300 francs. La valeur actuelle est donc : pour la maison, 1.750ᶠ 00, et, pour le jardin, 150ᶠ 00. — Total, 1.900ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_33_419_62">
          ARGENT............ 0ᶠ 00
         </p>
@@ -539,7 +602,7 @@
          La famille n'a pas d'argent placé à intérêt ; elle n'en garde même pas pour les besoins quotidiens du ménage.
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_33_419_64">
          ANIMAUX DOMESTIQUES............ 0ᶠ 00
         </p>
@@ -547,7 +610,7 @@
          Actuellement la famille ne possède plus aucun animal domestique ; jusqu'à l'an dernier, elle entretenait une partie de l'année un porc, pour le revendre après engraissement, mais les maladies et la mort des animaux qu'elle élevait l'ayant toujours empêchée d'en retirer un bénéfice, elle a complètement renoncé à l'idée d'en nourrir encore.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_33_419_66">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 314ᶠ 40
         </p>
@@ -558,13 +621,14 @@
          2° Outils servant à la culture. — 2 bêches, 5ᶠ00 ; — 1 fourche, 1ᶠ50: — 1 brouette, 13ᶠ 00; — les autres outils, tels que faux, rateau, etc., sont prétés par les voisins. — Total, 19ᶠ 50.
         </p>
         <p xml:id="para_33_420_70">
-         <pb facs="#facs_445" n="420" source="s2lesouvriersdes03sociuoft_0490.xml"/> 3° Ustensiles employés pour le blanchissage. — 1 cuvier, 4ᶠ50 ; — 1 chaudière, 8ᶠ00; — 2 fers à repasser, 2ᶠ 00. — Total, 14ᶠ50.
+         <pb facs="#facs_445" n="420" source="s2lesouvriersdes03sociuoft_0490.xml"/>
+         3° Ustensiles employés pour le blanchissage. — 1 cuvier, 4ᶠ50 ; — 1 chaudière, 8ᶠ00; — 2 fers à repasser, 2ᶠ 00. — Total, 14ᶠ50.
         </p>
         <p>
          4° Ustensiles employés à la fabrication du pain. — 1 pétrin, 3ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_33_420_71">
          VALEUR TOTALE des propriétés............ 2.214ᶠ40
         </p>
@@ -582,14 +646,16 @@
         . Depuis quelque temps, l'initiative des patrons et des ouvriers s'est portée sur ce point et plusieurs essais ont été tentés dans cette voie. Longtemps les pa¬trons n'ont connu leurs ouvriers que par les rapports d'affaires qu'ils avaient avec eux, et ils n'ont pas cherché autrement à gagner leur sympathie et leur confiance ; mais aujourd'hui ils ont compris com¬bien il importait de s'occuper de la classe laborieuse et de lui venir en aide. Les ouvriers, d'autre part, se sont laissé convaincre peu à peu des multiples avantages que présente la mutualité ; cependant, trop sou¬vent encore, ils sont portés à ne considérer que le présent, ils ne voient que la pièce de monnaie qu'ils devraient verser chaque mois et ne songent nullement à l'éventualité d'une subvention bien plus considérable dont ils pourraient profiter en cas de maladie ou d'acci¬dent.
        </p>
        <p xml:id="para_33_420_74">
-        Les habitants de Grand-Manil ne jouissent collectivement d'aucun droit d'usage, d'aucune subvention quelconque. Quant à la famille R*** elle ne reçoit de secours ni du bureau de bienfaisance, ni de la confé¬rence de Saint-Vincent de Paul qui existe à Gembloux, et même, n'étant pas portée sur la liste des indigents de la commune, elle n'a pas, malgré sa demande, participé à la distribution de secours faite der¬nièrement à l'occasion de la mort du prince Baudouin. Les frères des Ecoles chrétiennes sont seuls à leur venir en aide ; chaque année ils donnent quatre petits costumes, encore en assez bon état, qui, soigneu¬sement entretenus par la mère, peuvent suffire à l'habillement des enfants. Joignons à cela l'instruction donnée gratuitement aux enfants, <pb facs="#facs_446" n="421" source="s2lesouvriersdes03sociuoft_0491.xml"/> et de plus, pour les deux garçons, les fournitures classiques que leurs maîtres leur procurent, et nous aurons cité tout ce qui peut être com¬pris parmi les subventions.
+        Les habitants de Grand-Manil ne jouissent collectivement d'aucun droit d'usage, d'aucune subvention quelconque. Quant à la famille R*** elle ne reçoit de secours ni du bureau de bienfaisance, ni de la confé¬rence de Saint-Vincent de Paul qui existe à Gembloux, et même, n'étant pas portée sur la liste des indigents de la commune, elle n'a pas, malgré sa demande, participé à la distribution de secours faite der¬nièrement à l'occasion de la mort du prince Baudouin. Les frères des Ecoles chrétiennes sont seuls à leur venir en aide ; chaque année ils donnent quatre petits costumes, encore en assez bon état, qui, soigneu¬sement entretenus par la mère, peuvent suffire à l'habillement des enfants. Joignons à cela l'instruction donnée gratuitement aux enfants,
+        <pb facs="#facs_446" n="421" source="s2lesouvriersdes03sociuoft_0491.xml"/>
+        et de plus, pour les deux garçons, les fournitures classiques que leurs maîtres leur procurent, et nous aurons cité tout ce qui peut être com¬pris parmi les subventions.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_33_421_78">
          Travaux de l'ouvrier. — Le travail principal de l'ouvrier consiste dans la fabrication complête du canif, de la serpette et parfois du couteau de cuisine.
         </p>
@@ -597,7 +663,8 @@
          Les matières premières lui sont fournies à l'état tout a fait brut, il doit faire à lui seul tout l'ouvrage ; il recoit l'acier en barres, il doit en forger des lames et des ressorts, les tremper, les battre à froid, leur donner à la lime leur forme définitive, enfin les aiguiser et les polir ; tout cela constitue un travail long et fatigant, et si, en achetant meules et appareil à polir, Joseph s'est soustrait à la pénible corvée d'aller chaque semaine travailler à Gembloux, il n'a par contre nul¬lement ménagé ses forces. Le bois et la corne subissent de même entre les mains de l'ouvrier toutes les transformations qui en font des man¬ches de toutes grandeurs et de tous modèles. Les pièces inies, il s'agit de les réunir, de les ajuster, et, si le montage n'exige pas un grand déploiement de force, il demande en revanche de l'activité et une habileté qu'une longue pratique peut seule faire acquérir. Le coutelier mène toujours de front la fabrication d'une douzaine de couteaux au moins, le plus souvent de trois ou quatre douzaines ; c'est afin d'éviter une perte de temps trop considérable causée par les changements de travail : allumer la forg°, préparer les outils, mettre les meules en mouvement, enduire d'huile et d'émeri les roues à polir, et cent autres opérations qui, trop souvent répétées, absorberaient un temps notable. Cela est si vrai que Joseph arrive, à la fin de la se¬maine à avoir fabriqué une moyenne de huit couteaux par jour, tandis qu'ilne parvient pas en une journée à en terminer plus de six cn entier, en confectionnant successivement chacune des pièces. Pendant quelques mois Joseph avait accepté comme apprenti le fils d'un voisin, jcune garçon de quatore ans, très faible de constitution, pour lequel ce travail était beaucoup trop fatigant. Cette aide ne profitait en rien à l'ouvrier, le travail de l'apprenti rachetant à pcine le temps que Joseph perdait en explications.
         </p>
         <p xml:id="para_33_422_80">
-         <pb facs="#facs_447" n="422" source="s2lesouvriersdes03sociuoft_0492.xml"/> Au travail de bon matin (en été à 5 heures, et même plus tôt ; en hiver à 6 heures), l'ouvrier ne prend son repos qu'à 9 ou 10 heure ; sa journée moyenne est de quatore heures de travail effectif, déduc¬tion faite des reps.
+         <pb facs="#facs_447" n="422" source="s2lesouvriersdes03sociuoft_0492.xml"/>
+         Au travail de bon matin (en été à 5 heures, et même plus tôt ; en hiver à 6 heures), l'ouvrier ne prend son repos qu'à 9 ou 10 heure ; sa journée moyenne est de quatore heures de travail effectif, déduc¬tion faite des reps.
         </p>
         <p xml:id="para_33_422_81">
          Les travaux de coutellerie exécutés pour d'autres que le patron sont tout à fait exceptionnels, oseph ne s'y livre que quand l'occasion se présente de faire un beau bénéfice, et le fait est très rare. Quand arrive la saison de la culture et de la récolte, il s'efforce de finir sa besogne plus tôt que de coutume pour aider ensuite sa femme ; ils soignent ensemble leur jardinet, qui leur procure les légumes pour leur consommation ; l'autre terrain est divisé en deux parties, pour alterner la culture de l'avoine et des pommes de terre ; l'avoine ré¬coltée est immédiatement vendue, les pommes de terre gardées dans l'appentis sulffisent à leur approvisionnement jusque vers le mois de mars : après cela ils sont obligés d'en acheter, et c'est ce qui explique la diférence de valeur mentionnée au
@@ -607,12 +674,12 @@
          .
         </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_33_422_82">
          Travaux de la femme. — La culture est une première occupation de la femme : ce n'est point la principale, les soins du ménage occupent la majecure partie de son temps, ensuite elle répare et entretient le linge et les vêtements, fait pour les étrangers divers travaux de cou¬ture; elle va également travailler comme journalière ; enfin, chaque semaine, un jour est consacré au blanchissage, et quelques heures à la confection du pain de ménage.
         </p>
        </div>
-       <div type="industries" subtype="famille">
+       <div subtype="famille" type="industries">
         <p xml:id="para_33_422_83">
          Industries entreprises par la famille. — Le travail à la tâche de l'ou¬vrier constitue une véritable industrie, à laquelle on peut ajouter les travau de coutellerie exécutés au compte de diverses personnes, l'exploitation du jardin, la confection du pain de ménage et le blan¬chissage du linge et des vêtements de la famille.
         </p>
@@ -628,7 +695,9 @@
         § 9. ALIMENTS ET REPAS.
        </head>
        <p xml:id="para_33_422_87">
-        Le peu de ressources de la famille l'oblige à se contenter d'une ali¬mentation souvent insuffisante ; le pain, les pommes de terre et quel<pb facs="#facs_448" n="423" source="s2lesouvriersdes03sociuoft_0493.xml"/>ques légumes en forment les principaux éléments ; les choux y figu¬gurent en quantité assez considérable, comme d'ailleurs chez tous les paysans de la contrée. Le café est leur unique boisson. Les repas sont au nombre de cinq : deux déjeuners, à 7 et 10 heures, et le goûter, à 4 heures, se composent de pain et de café; le diner à midi et le souper vers heures comportent, suivant les saisons, un poage. des légumes préparés à l'étuvée ou en salade, et toujours des pommes de terre ; en somme, point de mets caractéristique, rien de spécial.
+        Le peu de ressources de la famille l'oblige à se contenter d'une ali¬mentation souvent insuffisante ; le pain, les pommes de terre et quel
+        <pb facs="#facs_448" n="423" source="s2lesouvriersdes03sociuoft_0493.xml"/>
+        ques légumes en forment les principaux éléments ; les choux y figu¬gurent en quantité assez considérable, comme d'ailleurs chez tous les paysans de la contrée. Le café est leur unique boisson. Les repas sont au nombre de cinq : deux déjeuners, à 7 et 10 heures, et le goûter, à 4 heures, se composent de pain et de café; le diner à midi et le souper vers heures comportent, suivant les saisons, un poage. des légumes préparés à l'étuvée ou en salade, et toujours des pommes de terre ; en somme, point de mets caractéristique, rien de spécial.
        </p>
        <p xml:id="para_33_423_89">
         C'est à titre tout à fait exceptionnel que, le jour de la lermesse du village, la viande figure à leur table. La femme réalise, en faisant elle-même le pain, une économie notable ; chaque semaine, elle achète 17 kilogrammes de farine dont elle obtient sept pains d'un pcu plus de 3 kilogrammes.
@@ -638,12 +707,14 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_33_423_92">
          La maison, construite en briques et recouverte de tuiles, ne se com¬pose que d'un rez-de-chaussée, qui comprend trois pièces. La cuisine a bon aspect ; elle est grande et assez élevée, pavée en carreaux de terre cuite et tapissée ; c'est là qu'on prend les repas et que la femme se livre à ses occupations : cependant, par les froids les plus rigoureux, elle prépare le repas du soir sur le petit poêle de la chambre à coucher qui est ainsi chauffée pour la nuit. Vis-à-vis de l'entrée de la maison se trouve la porte de l'atelier, misérable réduit, bas, manquant d'air, et qui ne mesure guère plus de 8 mètres carrés, à peine suflisants pour donner place à la forge et aux outils encombrants qui y sont accu¬mulés. Trois marches conduisent de la cuisine à la chambre à cou¬cher, assez spacieuse mais basse ; au milieu de la pièce, une poutre verticale soutient le vieux plafond de bois ; les murs blanchis à la chaux sont percés de deux fenêtres : cette chambre, ainsi que l'atelier, n'est point pavée, la terre y est simplement durcie. Sous la chambre à coucher se trouve une cave ayant à peu près les mêmes dimensions, où une fontaine fournit en tout temps une très bonne eau.
         </p>
         <p xml:id="para_33_423_93">
-         Un simple coup d'œil jeté dans la cuisine pourrait faire croire à un certain bien-être, car la salle est toujours proprement tenue : les meu¬bles sont vieux mais convenables, les murs sont ornés de sujets reli<pb facs="#facs_449" n="424" source="s2lesouvriersdes03sociuoft_0494.xml"/>gieux ou patriotiques, la fenêtre est garnie de fleurs. Bieu différente est l'impression lorsqu'on entre dans la pièce voisine : deux lits, deux coffres et une petite table, voilà tout le mobilier ; pour tout ornement, un crucitix cassé et une image de la Vierge, on ne tarde pas à s'aper¬cevoir de l'état déplorable de la literie, si l'on peut encore appeler de ce nom le ramassis de guenilles qui sert de couvertures.
+         Un simple coup d'œil jeté dans la cuisine pourrait faire croire à un certain bien-être, car la salle est toujours proprement tenue : les meu¬bles sont vieux mais convenables, les murs sont ornés de sujets reli
+         <pb facs="#facs_449" n="424" source="s2lesouvriersdes03sociuoft_0494.xml"/>
+         gieux ou patriotiques, la fenêtre est garnie de fleurs. Bieu différente est l'impression lorsqu'on entre dans la pièce voisine : deux lits, deux coffres et une petite table, voilà tout le mobilier ; pour tout ornement, un crucitix cassé et une image de la Vierge, on ne tarde pas à s'aper¬cevoir de l'état déplorable de la literie, si l'on peut encore appeler de ce nom le ramassis de guenilles qui sert de couvertures.
         </p>
         <p xml:id="para_33_424_95">
          A la maison est adossé un appentis, servant de remise pour la pro¬vision de pommes de terre et pour divers ustensiles.
@@ -652,7 +723,7 @@
          La valeur du mobilier et des vêtements peut être estimée approxi¬mativement ainsi qu'il suit :
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_33_424_97">
          MEUBLES : tous vieux, les uns bien conservés, les autres en très mauvais état............ 190ᶠ 70
         </p>
@@ -669,7 +740,7 @@
          4° Objets divers. — Crucifix, statuettes et gravures. 6ᶠ 00: — livres (4 livres de prières et quelques autres donnés en récompense aux enfants). ᶠ00. — Total, 14ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_33_424_102">
          USTENSILES : réduits au strict nécessaire............ 75ᶠ 15
         </p>
@@ -680,7 +751,7 @@
          2° Employés pour l'éclairage. — 2 lampes à pétrole, 3ᶠ25 ; — 2 chaudeliers en cuivre. . 4ᶠ00: — 1 paire de ciseaux, 3ᶠ00. — Total, 10ᶠ25.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_33_424_105">
          LINGE DE MÉNAGE : tout à fait insuffisant............ 4ᶠ 50
         </p>
@@ -688,7 +759,7 @@
          2 paires de draps de lit, quelques lambeaux de linge servant d'essuie-mains.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_33_424_107">
          VÊTEMENTS : sans caractère distinctif, portés jusqu'à l'usure la plus complètes............ 93ᶠ 85
         </p>
@@ -699,7 +770,9 @@
          1 veston en drap, 12ᶠ20 ; — 2 blouses, 2ᶠ50 ; — 1 pantalon en drap. 5ᶠ25 ; —— 2 pantalons de travail, 3ᶠ00 : — 3 gilets, 3ᶠ30 : — 1 casquette, 1ᶠ 40 ; — 1 paire de bottines, 4ᶠ00 — 1 paire de sabots, 0ᶠ30 ; — 3 chemises de couleur. 2ᶠ90; — 3 paires de chaussettes, 1ᶠ20. — Total, 36ᶠ05.
         </p>
         <p xml:id="para_33_424_110">
-         VÊTEMENTS DE LA FEMME (23ᶠ45). <pb facs="#facs_450" n="425" source="s2lesouvriersdes03sociuoft_0495.xml"/> en coton, 2ᶠ 40 ; — 2 paires de bas, 1ᶠ30; — 1 bonnet. 1ᶠ50 ; — 1 paire de souliers, 3ᶠ00; 2 taliers en toile bleue, 0ᶠ 40: — 1 paire de sabots, 0ᶠ 20: — 2 mouchoirs, 0ᶠ60.  — Total, 26ᶠ 45.
+         VÊTEMENTS DE LA FEMME (23ᶠ45).
+         <pb facs="#facs_450" n="425" source="s2lesouvriersdes03sociuoft_0495.xml"/>
+         en coton, 2ᶠ 40 ; — 2 paires de bas, 1ᶠ30; — 1 bonnet. 1ᶠ50 ; — 1 paire de souliers, 3ᶠ00; 2 taliers en toile bleue, 0ᶠ 40: — 1 paire de sabots, 0ᶠ 20: — 2 mouchoirs, 0ᶠ60.  — Total, 26ᶠ 45.
         </p>
         <p xml:id="para_33_425_113">
          VÊTEMENTS DES ENEFANTS (34ᶠ35).
@@ -708,7 +781,7 @@
          4 costumes de garçons, 3ᶠ80; — 1 robe. 7ᶠ7; — 1 paire de bottines, 5ᶠ 00 ; — 7 paires de bas, 3ᶠ80: — 6 chemises, 7ᶠ50; — 2 robes, 2ᶠ00;. — 3 paires de sabots, 1ᶠ20. — 3 mouchoirs, 0ᶠ90: — 2 casquettes, 1ᶠ20 ; — 1 chapeau, 1ᶠ20. — Total, 34ᶠ35.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_33_425_115">
          VALEUR TOTALE du mobilier et des vêtements............ 364ᶠ 20
         </p>
@@ -728,7 +801,9 @@
         Parmi les récréations les plus goûtées de la population ouvrière de cette contrée, ligurent en toute première ligne les concours d'oiseaux chanteurs. C'est devenu en certains endroits une véritable plaie ; les ouvriers y consacrent bien des heures qui devraient être employées au travail, souvent même ils y exposent une partie de leur salaire car la passion du jeu n'a pas tardé à étendre ses ravages jusque chez les ouvriers, et l'habitude des paris est venue faire d'une distraction, qut aurait pu être bien légitime, un plaisir en tous cas ruineux. Notre coutelier cependant ne mérite que des louanges à ce sujet : il com¬prend trop combien son salaire est nécessaire aux siens pour aller l'ex poser dans de pareils plaisirs.
        </p>
        <p xml:id="para_33_425_121">
-        Une surveillance trop peu active a laissé renaitre en plusieurs en<pb facs="#facs_451" n="426" source="s2lesouvriersdes03sociuoft_0496.xml"/>droits un autre abus, plus grave, qui a déjà mérité la répression lé¬gale ; ce sont les combats de coqs dont il serait superflu de refaire le procès.
+        Une surveillance trop peu active a laissé renaitre en plusieurs en
+        <pb facs="#facs_451" n="426" source="s2lesouvriersdes03sociuoft_0496.xml"/>
+        droits un autre abus, plus grave, qui a déjà mérité la répression lé¬gale ; ce sont les combats de coqs dont il serait superflu de refaire le procès.
        </p>
       </div>
      </div>
@@ -762,7 +837,9 @@
         Par un travail patient et consciencieux, joint à une modération digne d'éloges, notre ouvrier parvient a entretenir et à élever sa fa¬mille, et sans doute, si la coutellerie n'était dans cette période cri¬tique qui a amené la baisse des salaires, il réaliserait quelques éco¬nomies : mais, dans l'état actuel, il n'espère pas atteindre un meilleur résultat. tanl que ses fils ne seront pas à même de travailler avec lui.
        </p>
        <p xml:id="para_33_426_132">
-        Il y a quelque temps, on a essayé d'étallir à Gembloux une so¬ciété de sccours mutuels ; après l'avoir maintenue à grand'peine, on <pb facs="#facs_452" n="427" source="s2lesouvriersdes03sociuoft_0497.xml"/> s'est vu forcé de la dissoudre ; son existence a été de très courte durée. D'après les renseignements donnés à ce sujet par le coutelier lui¬même, la plupart des ouvriers auraient refusé de s'y affilier, parce que l'indemnité donnée par la société devait être réduite de moitié au bout de trois mois, et cesser complètement après six mois de maladie et d'incapacité de travail, alors que justement elle deviendrait chaque jour plus nécessaire. Cela prouve bien que les ouvriers ne compre¬naient pas les bienfaits de la mutualité.
+        Il y a quelque temps, on a essayé d'étallir à Gembloux une so¬ciété de sccours mutuels ; après l'avoir maintenue à grand'peine, on
+        <pb facs="#facs_452" n="427" source="s2lesouvriersdes03sociuoft_0497.xml"/>
+        s'est vu forcé de la dissoudre ; son existence a été de très courte durée. D'après les renseignements donnés à ce sujet par le coutelier lui¬même, la plupart des ouvriers auraient refusé de s'y affilier, parce que l'indemnité donnée par la société devait être réduite de moitié au bout de trois mois, et cesser complètement après six mois de maladie et d'incapacité de travail, alors que justement elle deviendrait chaque jour plus nécessaire. Cela prouve bien que les ouvriers ne compre¬naient pas les bienfaits de la mutualité.
        </p>
       </div>
      </div>
@@ -1386,7 +1463,8 @@
          A. GEMBLOUN.
         </p>
         <p xml:id="para_33_440_317">
-         <pb facs="#facs_465" n="440" source="s2lesouvriersdes03sociuoft_0510.xml"/> Nous n'avons guère de renseignements sur l'origine et les premiers développements de la coutellerie à embloux. Voici ce qui est inséré à ce sujet dans le Rapport du jury et les documents de l'exposition de l'industrie belge en 1847 :
+         <pb facs="#facs_465" n="440" source="s2lesouvriersdes03sociuoft_0510.xml"/>
+         Nous n'avons guère de renseignements sur l'origine et les premiers développements de la coutellerie à embloux. Voici ce qui est inséré à ce sujet dans le Rapport du jury et les documents de l'exposition de l'industrie belge en 1847 :
         </p>
         <p xml:id="para_33_440_318">
          « De temps immémorial la coutellerie belge a joui d'un grand re¬nom, mais c'est surtout vers la fin du siècle dernier que cette indus¬trie, dont Namur est le centre, a pris un notable accroissement, grâce aux débouchés nombreux que lui procurèrent successivement les conquêtes de la France.
@@ -1395,7 +1473,9 @@
          « La chute de l'Empire francais, restreignant ces débouchés, fut fatale à la coutellerie, comme à beaucoup d'autres branches d'industrie de notre pays. lIleureusement les fabricants de Namur ne s'étaient point endormis dans leur temps de prospérité ; ils avaient eu le bon esprit de chercher à améliorer leurs produits et ne tardèrent pas à recouvrer, malgré la concurrence étrangère, les débouchés qu'ils avaient mo¬mentanément perdus. ll ne pouvait en être autrement, car leurs pro¬duits réunissaient les deux conditions indispensables à toute industrie qui veut prospérer : la bonne qualité et le bon marché. »
         </p>
         <p xml:id="para_33_440_320">
-         Il importe de revendiquer dans ces éloges la juste part de Gem¬bloux, dont on a longtemps désigné les produits sous le nom générique de coutellerie de Namur. Autrefois Gembloux eut pour spécialité les <pb facs="#facs_466" n="441" source="s2lesouvriersdes03sociuoft_0511.xml"/> couteaux fermants et les canifs, mais elle ne tarda pas à généraliser sa fabrication, en même temps qu'elle la perfectionnait, et les vingt années qui suivirent 1860 furent particulièrement prospères ; les dé¬bouchés s'étendirent spécialement du côté des départements du nord de la France ; en même temps on sut mettre à profit la vapeur d'une façon judicieuse, sans nuire à la perfection du produit, car l'industrie coutelière est une de celles où la machine ne peut se substituer en tous points à la main de l'homme sans que la fabrication ne perde de ses qualités. Les industriels de Gembloux le comprirent et continuè¬rent à faire forger l'acier, tandis qu'à l'étranger on employait dejà les machines pour couper les lames. La vapeur ne leur servit que pour diminuer l'effTort ; on ne l'appliqua qu'aux meules ; le produit put baisser de prix tout en gardant ses qualités d'autrefois ; on créa de nouveaux modèles, et les marques de Gembloux furent très recher¬chées. L'industrie était encore dans cette période ascendante, quand le traité de 1881 avec la Erance vint lui porter un coup si terrible qu'elle a grand'peine à s'en relever. Consultons à cet égard les procès¬verbaux des séances d'enquête de la commission du travail
+         Il importe de revendiquer dans ces éloges la juste part de Gem¬bloux, dont on a longtemps désigné les produits sous le nom générique de coutellerie de Namur. Autrefois Gembloux eut pour spécialité les
+         <pb facs="#facs_466" n="441" source="s2lesouvriersdes03sociuoft_0511.xml"/>
+         couteaux fermants et les canifs, mais elle ne tarda pas à généraliser sa fabrication, en même temps qu'elle la perfectionnait, et les vingt années qui suivirent 1860 furent particulièrement prospères ; les dé¬bouchés s'étendirent spécialement du côté des départements du nord de la France ; en même temps on sut mettre à profit la vapeur d'une façon judicieuse, sans nuire à la perfection du produit, car l'industrie coutelière est une de celles où la machine ne peut se substituer en tous points à la main de l'homme sans que la fabrication ne perde de ses qualités. Les industriels de Gembloux le comprirent et continuè¬rent à faire forger l'acier, tandis qu'à l'étranger on employait dejà les machines pour couper les lames. La vapeur ne leur servit que pour diminuer l'effTort ; on ne l'appliqua qu'aux meules ; le produit put baisser de prix tout en gardant ses qualités d'autrefois ; on créa de nouveaux modèles, et les marques de Gembloux furent très recher¬chées. L'industrie était encore dans cette période ascendante, quand le traité de 1881 avec la Erance vint lui porter un coup si terrible qu'elle a grand'peine à s'en relever. Consultons à cet égard les procès¬verbaux des séances d'enquête de la commission du travail
          <note type="bp">
           <p>
            Volume II, section régionale C, p. 230 et suiv., Gembloux, séance du 9 septembre 1886.
@@ -1413,10 +1493,12 @@
          <head resp="added" type="schema" xml:id="figure_1">
           Droits d'entré en France payés par les coutelleries belges après le traité franco-belge de 1881 (notes annexes)
          </head>
-         <graphic facs="#facs_466" url="#" xml:id="illu_33_441_13"/>
+         <graphic facs="#facs_466" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24511/201,2136,1601,298/full/0/default.jpg" xml:id="illu_33_441_13"/>
         </figure>
         <p xml:id="para_33_442_326">
-         Perte complète du débouché français, tel fut pour embloux le ré¬sultat direct et immédiat du traité ; les conséquences plus éloignées ne furent pas moins pénibles. La concurrence intérieure alla toujours croissant ; chacun aurait voulu ne pas diminuer sa production, tous <pb facs="#facs_467" n="442" source="s2lesouvriersdes03sociuoft_0512.xml"/> les efforts tendirent à ce but, mais ce fut peine inutile, le stocl de marchandises devenait chaque jour plus considérable, il fallut bien réduire ; alors, pour ne pas trop restreindre les profits. on se rejeta sur le prix de revient qu'on voulut, coûte que coûte, diminuer ; l'ou¬vrier à son tour fut atteint dans son salaire. Pour produire à meilleur compte, les fabricants recoururent à un autre moyen, signalé à la commission du travailpar M. Tilis, secrétaire communal et secrétaire du bureau de bienfaisance et des hospices de Gembloux
+         Perte complète du débouché français, tel fut pour embloux le ré¬sultat direct et immédiat du traité ; les conséquences plus éloignées ne furent pas moins pénibles. La concurrence intérieure alla toujours croissant ; chacun aurait voulu ne pas diminuer sa production, tous
+         <pb facs="#facs_467" n="442" source="s2lesouvriersdes03sociuoft_0512.xml"/>
+         les efforts tendirent à ce but, mais ce fut peine inutile, le stocl de marchandises devenait chaque jour plus considérable, il fallut bien réduire ; alors, pour ne pas trop restreindre les profits. on se rejeta sur le prix de revient qu'on voulut, coûte que coûte, diminuer ; l'ou¬vrier à son tour fut atteint dans son salaire. Pour produire à meilleur compte, les fabricants recoururent à un autre moyen, signalé à la commission du travailpar M. Tilis, secrétaire communal et secrétaire du bureau de bienfaisance et des hospices de Gembloux
          <note type="bp">
           <p>
            Procès-verbaux des séances d'enquète. Volume 1, section régionale C ; annexes au procès-verbal du 9 septembre 1886, I, note sur l'industrie coutelière, p. 233.
@@ -1431,7 +1513,9 @@
          Tout cela est l'effet du traité de 1881 ; il doit expirer au 1ᵉʳ janvier 1892. La chambre des représentants, en sa séance du juillet, a en¬tendu le rapport fait par M. de Hemptime, au nom de la commission permanente de l'industrie, sur une pétition des couteliers de tiem¬bloux présentée le 18 juin. Leur demande n'a pas changé ; ils réclament, comme en 1886, la réciprocité des tarifs douaniers.
         </p>
         <p xml:id="para_33_442_329">
-         La situation créée par le traité de 1881 a été maintenue jusqu'au 1ᵉ février 1892; un tarif nouveau est alors entré en vigueur, mais il est presque en tous points semblable au tarif conventionnel de 1881. Voici les quelques modifications apportées : on a fait une distinction dans la coutellerie fine, et les couteaux de table à manche d'ivoire ou <pb facs="#facs_468" n="443" source="s2lesouvriersdes03sociuoft_0513.xml"/> de nacre sont taxés à 600 francs les 100 kilog. ; c'est une aggravation très considérable du droit antérieur, mais qui n'atteint guère notre in¬dustrie, car on ne fabrique en Belgique que fort peu de couteaux de ce genre ; ensuite les sécateurs, qui jusqu'en février avaient eu l'entrée libre, sont depuis taxés à raison de 20 francs les 100 kilog. C'est une protection accordée malgré eux aux couteliers de Chàtellerault, les principaux fabricants de cette branche spéciale de la coutellerie: ils n'ont guère de concurrents et ils craignent que cette protection ne leur en suscite. Cette nouvelle taxe doit être de peu d'importance pour la Belgique, car jusqu'à présent nos fabricants ne se sont pas livrés, du moins d'une façon sérieuse, à la fabrication des sécateurs. nfin, une dernière modification porte sur les ciseaux de tailleur ; pour cet ar¬ticle, il y a une réduction notable de droit d'entrée ; ils étaient autre¬fois assimilés aux couteaux de cuisine et payaient 100 francs par 100 kilog., maintenant ils forment uee classe à part avec les sécateurs et sont taxés au même chiffre. Ce changement a pour la coutellerie un peu plus d'importance que les précédents ; il est loin cependant de suffire à relever quelque peu cette industrie en Belgique.
+         La situation créée par le traité de 1881 a été maintenue jusqu'au 1ᵉ février 1892; un tarif nouveau est alors entré en vigueur, mais il est presque en tous points semblable au tarif conventionnel de 1881. Voici les quelques modifications apportées : on a fait une distinction dans la coutellerie fine, et les couteaux de table à manche d'ivoire ou
+         <pb facs="#facs_468" n="443" source="s2lesouvriersdes03sociuoft_0513.xml"/>
+         de nacre sont taxés à 600 francs les 100 kilog. ; c'est une aggravation très considérable du droit antérieur, mais qui n'atteint guère notre in¬dustrie, car on ne fabrique en Belgique que fort peu de couteaux de ce genre ; ensuite les sécateurs, qui jusqu'en février avaient eu l'entrée libre, sont depuis taxés à raison de 20 francs les 100 kilog. C'est une protection accordée malgré eux aux couteliers de Chàtellerault, les principaux fabricants de cette branche spéciale de la coutellerie: ils n'ont guère de concurrents et ils craignent que cette protection ne leur en suscite. Cette nouvelle taxe doit être de peu d'importance pour la Belgique, car jusqu'à présent nos fabricants ne se sont pas livrés, du moins d'une façon sérieuse, à la fabrication des sécateurs. nfin, une dernière modification porte sur les ciseaux de tailleur ; pour cet ar¬ticle, il y a une réduction notable de droit d'entrée ; ils étaient autre¬fois assimilés aux couteaux de cuisine et payaient 100 francs par 100 kilog., maintenant ils forment uee classe à part avec les sécateurs et sont taxés au même chiffre. Ce changement a pour la coutellerie un peu plus d'importance que les précédents ; il est loin cependant de suffire à relever quelque peu cette industrie en Belgique.
         </p>
         <p xml:id="para_33_443_332">
          Quant au traité germano-belge de 1892, il ne touche pas à la cou¬tellerie, la situation est donc maintenue.
@@ -1440,7 +1524,9 @@
          En résumé, la coutellerie de Gembloux est réduite au marché inté¬rieur, que même la France et l'Allemagne viennent de plus cn plus lui disputer. Les pays plus éloignés dans l'Europe sont réservés aux concurrents étrangers, mieux placés pour cette exportation. Il est vrai que plusieurs fabricants de Gembloux ont reçu certaines commandes venant de urquie, mais l'expérience des premiers envois a été si peu encourageante, qu'ils ont renoncé à de nouvelles tentatives dans cette direction. Les couteaux arrivés à destination étaient refusés sous un prétexte quelconque ; on ne consentait à les prendre qu'à un prix très réduit, et l'expéditeur, pour éviter les frais de retour, se voyait forcé de vendre à perte. Les patrons se plaignent d'un manque de sécurité assez fréquent dans les relations commerciales avec ce pays.
         </p>
         <p xml:id="para_33_443_334">
-         Les marchés de l'Europe étant complètement fermés, le succès est réservé maintenant à ceux qui sont capables d'exporter vers des pays plus lointains. Mais, pour cela, il faut une organisation puissante; il faut produire vite et à bon compte, pouvoir répondre en quelques jours à des commandes souvent très considérables, et travailler en vue de satisfaire un acheteur qui réclame avant tout le bon marché: en un mot, il est absolument nécessaire de faire intervenir la machine, même <pb facs="#facs_469" n="444" source="s2lesouvriersdes03sociuoft_0514.xml"/> pour couper les lames, et d'être outillé de façon à pouvoir exécuter les modèles, aux formes variées et parfois bizarres, spéciaux à chaque pays. Aussi, avec leur organisation actuelle, les industriels de Gem¬bloux n'ont pas encore pu songer à ces débouchés, réservés jusqu'à maintenant à la maison la plus importante que la Belgique possède en ce genre d'industrie : la manufacture J.F. Licot et Cie. Fondée à Namur en 1771, elle a bientôt acquis une grande renommée, et aujour¬d'hui ses débouchés se font dans toutes les parties du monde en de¬hors de l'Europe. Ses installations, bien qu'anciennes, sont favorables ; les ateliers sont assez spacieux pour le nombre d'ouvriers, l'éclairage y est abondant, les salles bien aérées, et d'ici à peu de temps on rem¬placera une partie du vieil outillage qui pourrait ofrir quelque danger d'accident.
+         Les marchés de l'Europe étant complètement fermés, le succès est réservé maintenant à ceux qui sont capables d'exporter vers des pays plus lointains. Mais, pour cela, il faut une organisation puissante; il faut produire vite et à bon compte, pouvoir répondre en quelques jours à des commandes souvent très considérables, et travailler en vue de satisfaire un acheteur qui réclame avant tout le bon marché: en un mot, il est absolument nécessaire de faire intervenir la machine, même
+         <pb facs="#facs_469" n="444" source="s2lesouvriersdes03sociuoft_0514.xml"/>
+         pour couper les lames, et d'être outillé de façon à pouvoir exécuter les modèles, aux formes variées et parfois bizarres, spéciaux à chaque pays. Aussi, avec leur organisation actuelle, les industriels de Gem¬bloux n'ont pas encore pu songer à ces débouchés, réservés jusqu'à maintenant à la maison la plus importante que la Belgique possède en ce genre d'industrie : la manufacture J.F. Licot et Cie. Fondée à Namur en 1771, elle a bientôt acquis une grande renommée, et aujour¬d'hui ses débouchés se font dans toutes les parties du monde en de¬hors de l'Europe. Ses installations, bien qu'anciennes, sont favorables ; les ateliers sont assez spacieux pour le nombre d'ouvriers, l'éclairage y est abondant, les salles bien aérées, et d'ici à peu de temps on rem¬placera une partie du vieil outillage qui pourrait ofrir quelque danger d'accident.
         </p>
         <p xml:id="para_33_444_336">
          Depuis quelques jours cette maison a changé de propriétaires ; sans apprécier l'ancienne direction que je n'ai point connue, j'ajouterai que les premiers actes de la nouvelle sont de nature à faire augurer des résultats aussi bons pour le bien de l'ouvrier que pour le succès des affaires. Les patrons se sont empressés d'écarter certains ouvriers adonnés à la boisson, objets constants de mauvais exemple pour leurs compagnons, et ils auront sans doute à cœur de faire en sorte que leurs ouvriers profitent des institutions multiples que le dévouement catholique a établies pour le bien-être et la préservation morale de la classe laborieuse.
@@ -1460,7 +1546,8 @@
          : « Les spécialités lo¬cales, fruit d'une longue éducation technique, division héréditaire du travail, l'activent et le perfectionnent ; au bout de quelques géné¬rations, on nait métallurgiste ou houilleur, armurier ou tailleur en bois, etc. ; l'éducation familiale transmet les finesses du métier.
         </p>
         <p xml:id="para_33_445_341">
-         <pb facs="#facs_470" n="445" source="s2lesouvriersdes03sociuoft_0515.xml"/> L'enseignement professionnel y supplée à peine et chacun en apprécie l'importance. Cest le secret du triomphe de tant d'industries histori¬ques.  Cette transmission héréditaire est d'ailleurs facilitée par la coutume du travail à domicile; il n'existe, même à présent, aucune usine à Gembloux, car on ne peu appeler de ce nom les ateliers mus par la vapeur, où les ouvriers ne vont effectuer que certains travaux, généralement ceux qui se font à la meule ; encore n'y vont-ils que quelques heures tous les quinze jours.
+         <pb facs="#facs_470" n="445" source="s2lesouvriersdes03sociuoft_0515.xml"/>
+         L'enseignement professionnel y supplée à peine et chacun en apprécie l'importance. Cest le secret du triomphe de tant d'industries histori¬ques.  Cette transmission héréditaire est d'ailleurs facilitée par la coutume du travail à domicile; il n'existe, même à présent, aucune usine à Gembloux, car on ne peu appeler de ce nom les ateliers mus par la vapeur, où les ouvriers ne vont effectuer que certains travaux, généralement ceux qui se font à la meule ; encore n'y vont-ils que quelques heures tous les quinze jours.
         </p>
         <p xml:id="para_33_445_342">
          A la maison, l'enfant suit les travaux de son père, et cette simple observation quotidienne, faite sans efforts, inconsciente en quelque sorte, supplée en bien des points à l'apprentissage. C'est encore cette organisation de la fabrique collective qui a permis à la famille de garder sa stabilitéet son indépendance ; et, si l'ouvrier est resté fidèle aux croyances de ses pères, si toutes les théories subversives dont l'extension a été si rapide en ces derniers temps n'ont pas eu d'action sur lui, ne faut-il pas en rendre hommage à cette organisation et re¬connaitre qu'elle y a contribué pour une part notable2 Cela est incon¬testable, d'autant plus que le coutelier de Gembloux, abandonné à ses propres forces, n'eût pas trouvé dans des institutions patronales l'ap¬pui et l'encouragement nécessaires pour résister aux influences perni¬cieuses que l'usine ne tarde pas à répandre, aux nombreuses causes de souffrance et de conflit qu'elle fait naître.
@@ -1469,7 +1556,9 @@
          Mais le travail à domicile a aussi un inconvénient : les loyers étant élevés à Gembloux, l'ouvrier est confiné dans un atelier étroit et mal¬sain, bas, humide, mal aéré ; et c'est là que, douze heures durant, et souvent plus, il se livre à un travail déjà rude par lui-même, mais que ces circonstances rendent plus pénible encore.
         </p>
         <p xml:id="para_33_445_344">
-         Enfin, quels que soient les avantages et les inconvénients de l'état actuel, il ne parait plus devoir se maintenir longtemps : l'usine agglor mérée remplacera bientôt la fabrique collective ; cela est devenu au¬jourd'hui, comme nous l'avons constaté au paragraphe précédent, une véritable nécessité pour les industriels. Si les fabricants en viennent à ce changement, il faudra leur recommander et espérer qu'ils auront la sagesse d'employer les nombreux moyens qui peuvent atténuer les dangers de l'usine. Pour soutenir la lutte industrielle, ils ne cachent point leur désir d'établir des ateliers mus par la vapeur ; la machine serait appelée à remplacer le plus possible la main de l'homme ; on réaliserait la subdivision spéciale du travail entre les ouvriers : certains patrons voudraient même arriver à une notable diminution du <pb facs="#facs_471" n="446" source="s2lesouvriersdes03sociuoft_0516.xml"/> pri de revient en employant des femmes et des enfants, pour bon nombre de petits ouvrages qui leur conviendraient aussi bien sinon mieux qu'aux hommes. C'est d'ailleurs, disent-ils, indépendamment même des droits d'entrée, une des causes du succès obtenu par l'in¬dustrie étrangère, qui. grâce à cette organisation, peut vendre ses produits à des prix inférieurs au prix de revient en Belgique. Le seul obstacle qui empêche encore cette transformation, c'est la situation précaire de la coutellerie ; les patrons craignent d'entreprendre inu¬tilement les dépenses de premier établissement.
+         Enfin, quels que soient les avantages et les inconvénients de l'état actuel, il ne parait plus devoir se maintenir longtemps : l'usine agglor mérée remplacera bientôt la fabrique collective ; cela est devenu au¬jourd'hui, comme nous l'avons constaté au paragraphe précédent, une véritable nécessité pour les industriels. Si les fabricants en viennent à ce changement, il faudra leur recommander et espérer qu'ils auront la sagesse d'employer les nombreux moyens qui peuvent atténuer les dangers de l'usine. Pour soutenir la lutte industrielle, ils ne cachent point leur désir d'établir des ateliers mus par la vapeur ; la machine serait appelée à remplacer le plus possible la main de l'homme ; on réaliserait la subdivision spéciale du travail entre les ouvriers : certains patrons voudraient même arriver à une notable diminution du
+         <pb facs="#facs_471" n="446" source="s2lesouvriersdes03sociuoft_0516.xml"/>
+         pri de revient en employant des femmes et des enfants, pour bon nombre de petits ouvrages qui leur conviendraient aussi bien sinon mieux qu'aux hommes. C'est d'ailleurs, disent-ils, indépendamment même des droits d'entrée, une des causes du succès obtenu par l'in¬dustrie étrangère, qui. grâce à cette organisation, peut vendre ses produits à des prix inférieurs au prix de revient en Belgique. Le seul obstacle qui empêche encore cette transformation, c'est la situation précaire de la coutellerie ; les patrons craignent d'entreprendre inu¬tilement les dépenses de premier établissement.
         </p>
        </div>
        <div n="002" type="sub_sub_section">
@@ -1489,7 +1578,9 @@
            L'article 1ᵉʳ dit que le paiement des salaires doit etre fait en espèces. L'article 2 est ainsi coņu : « Toutefois le patron peut fournir à ses ouvriers, à charge d'imputation sur les salaires : ... 4°Les matières ou matériaux nécessaires au travail et dont les ouvriers ont la charge, selcn l'usage admis ou aux termes de leurs engagements...  : et le même article ajioute :  les objets compris sous les numéros 3ᵉ°. 4°, 5°, ne peuvent être portés en compte à l'ouvrier a un prix dépassant le prix de revient.
           </p>
          </note>
-         . Cette loi a été un des résultats de l'enquête de la commission du travail en 1886. Il avait été fait mention, alors, à Gembloux même, de l'abus que veut réprimer l'article 2. M. Tilis disait dans le rapport déjà cité : « Les matières premières sont comptées à l'ouvrier à un prix très élevé. De là vient qu'il semble obtenir de ses couteaux fabriqués un prix également élevé, et, s'il lui prenait la velléité d'aller en ville, chez un revendeur, offrir son ouvrage fabriqué, que lui répondrait-on2 Mais voici votre ouvrage je l'achête à M. un tel, même à un prix moins élevé que celui que vous m'indiquez, parfois au-dessous du prix que reçoit iei l'ouvrier. Le patron s'est payé sur l'exagéra¬tion du prix des matières premières. « Ainsi il vend : le laiton, qui lui coûte 1ᶠA40 le kilog., à 3 francs ; l'acier, qualité ordinaire, qui lui coûte 0ᶠ42, à 1ᶠ20 ; l'acier in se revend 2 francs le kilog. ; l'argent s neuf», qui lui coûte 5 francs, il le revend 16 francs.  Les patrons ont prc<pb facs="#facs_472" n="447" source="s2lesouvriersdes03sociuoft_0517.xml"/>testé contre ce rapport, affirmant que les chiffres en étaient exagérés. Quoi qu'il en soit, l'abus existait, la matière première était vendue à l'ouvrier moyennant retenue sur son salaire, et cela à un prix de beau¬coup supérieur au prix de revient.
+         . Cette loi a été un des résultats de l'enquête de la commission du travail en 1886. Il avait été fait mention, alors, à Gembloux même, de l'abus que veut réprimer l'article 2. M. Tilis disait dans le rapport déjà cité : « Les matières premières sont comptées à l'ouvrier à un prix très élevé. De là vient qu'il semble obtenir de ses couteaux fabriqués un prix également élevé, et, s'il lui prenait la velléité d'aller en ville, chez un revendeur, offrir son ouvrage fabriqué, que lui répondrait-on2 Mais voici votre ouvrage je l'achête à M. un tel, même à un prix moins élevé que celui que vous m'indiquez, parfois au-dessous du prix que reçoit iei l'ouvrier. Le patron s'est payé sur l'exagéra¬tion du prix des matières premières. « Ainsi il vend : le laiton, qui lui coûte 1ᶠA40 le kilog., à 3 francs ; l'acier, qualité ordinaire, qui lui coûte 0ᶠ42, à 1ᶠ20 ; l'acier in se revend 2 francs le kilog. ; l'argent s neuf», qui lui coûte 5 francs, il le revend 16 francs.  Les patrons ont prc
+         <pb facs="#facs_472" n="447" source="s2lesouvriersdes03sociuoft_0517.xml"/>
+         testé contre ce rapport, affirmant que les chiffres en étaient exagérés. Quoi qu'il en soit, l'abus existait, la matière première était vendue à l'ouvrier moyennant retenue sur son salaire, et cela à un prix de beau¬coup supérieur au prix de revient.
         </p>
         <p xml:id="para_33_447_353">
          Voici comment un patron justifiait, lors de l'enquête, ce mode de vente des matières premières
@@ -1510,7 +1601,9 @@
          Néanmoins, il n'y a pas à embloux de patron qui ait adopté ce système de confier la matière première à l'ouvrier. Leur règle géné¬rale, c'est la vente avec bénéfice.
         </p>
         <p xml:id="para_33_447_357">
-         Loin de dire qu'il n'y a, dans cette méthode, auun inconvénient pour l'ouvrier, nous le voyons de cette façon livré à la merci des pa<pb facs="#facs_473" n="448" source="s2lesouvriersdes03sociuoft_0518.xml"/>trons ; et, en effet, que ceux-ci, sous un prétexte quelconque, refusent les produits, le motif ftôt-il très légitime, un défaut de fabrication, par exemple ; n'importe. voilà l'ouvrier dans l'impossibilité d'obtenir son salaire ; alors évidemment il devra bien passer par toutes les con¬ditions que lui imposera le patron.
+         Loin de dire qu'il n'y a, dans cette méthode, auun inconvénient pour l'ouvrier, nous le voyons de cette façon livré à la merci des pa
+         <pb facs="#facs_473" n="448" source="s2lesouvriersdes03sociuoft_0518.xml"/>
+         trons ; et, en effet, que ceux-ci, sous un prétexte quelconque, refusent les produits, le motif ftôt-il très légitime, un défaut de fabrication, par exemple ; n'importe. voilà l'ouvrier dans l'impossibilité d'obtenir son salaire ; alors évidemment il devra bien passer par toutes les con¬ditions que lui imposera le patron.
         </p>
         <p xml:id="para_33_448_361">
          Quant aux affirmations des industriels que l'ouvrier peut se procurer les matières premières ou bon lui semble, j'admets volontiers qu'il n'est pas dans les conditions du contrat de travail de devoir les acheter chez le patron ; cela est très exact, mais on reconnaitra, et c'est bien ce que disent les ouvriers, qu'ils ne peuvent guère faire autrement, et, en se risquant à acheter au dehors, ils s'exposent à de nombreuses diffi¬cultés.
@@ -1526,7 +1619,9 @@
          Un dernier mot au sujet de la loi du 16 août 1887. Certains patrons, indépendamment de la coutellerie, exercent un commerce et vendent des marchandises à leurs ouvriers ; en cela, ils ne contreviennent pas absolument à la loi, mais ils se mettent cependant dans une situation défavorable, que la loi défend précisément pour faire disparaître toute idée du truch-sgstem. Il résulte en effet de l'artiele 8 que ces patrons s'exposent, dans presque tous les cas, au non-paiement des fournitures faites par eux, puisque l'action qu'ils intenteraient de ce chef à leurs ouvriers ne serait en général pas recevable. Exceptionnellement cepen¬dant, elle aurait pleine valeur pour obtenir le paiement : des four¬nitures relatives au commerce exercé par l'ouvrier ; du logement, de la location d'un terrain, des outils ou instruments nécessaires au tra¬vail, ainsi que de leur entretien ; des matières ou matériaux néces¬saires au travail, et dont les ouvriers ont la charge selon l'usage admis, ou aux termes de leur engagement, et enfin de l'uniforme ou du costume spécial que les ouvriers seraient astreints à porter.
         </p>
         <p xml:id="para_33_448_364">
-         Au cours de la discussion du budget de la justice, plusieurs députés ont signalé à la Chambre les infractions à la loi de 1887 et en ont réclamé une répression plus active. La réponse du ministre a confirmé cette appréciation de la façon suivante : « L'honorable M. Helleputte a demandé la statistique de l'application de la loi sur les salaires. Je la tiens à la disposition de l'honorable membre. Elle marque une appli<pb facs="#facs_474" n="449" source="s2lesouvriersdes03sociuoft_0519.xml"/>cation très insuffisante des dispositions de cette loi. Pendant le dernier exercice, 5 patrons ont été poursuivis dans 22 affaires,  ont été acquittés, 39 ont été condamnés conditionnellement, 13 ont été con¬damnés sans condition. L'honorable M. Helleputte a signalé les diffi¬cultés auxquelles les importantes dispositions de la loi se heurtent dans la pratique. Les ouvriers, qui devraient dénoncer les infractions qui se commettent, ne se sentent pas suffisamment protégés pour oser affronter les conséquences des poursuites qu'ils provoqueraient ; ce sont là de puissantes raisons pour engager les parquets à redoubler de vigi¬lance
+         Au cours de la discussion du budget de la justice, plusieurs députés ont signalé à la Chambre les infractions à la loi de 1887 et en ont réclamé une répression plus active. La réponse du ministre a confirmé cette appréciation de la façon suivante : « L'honorable M. Helleputte a demandé la statistique de l'application de la loi sur les salaires. Je la tiens à la disposition de l'honorable membre. Elle marque une appli
+         <pb facs="#facs_474" n="449" source="s2lesouvriersdes03sociuoft_0519.xml"/>
+         cation très insuffisante des dispositions de cette loi. Pendant le dernier exercice, 5 patrons ont été poursuivis dans 22 affaires,  ont été acquittés, 39 ont été condamnés conditionnellement, 13 ont été con¬damnés sans condition. L'honorable M. Helleputte a signalé les diffi¬cultés auxquelles les importantes dispositions de la loi se heurtent dans la pratique. Les ouvriers, qui devraient dénoncer les infractions qui se commettent, ne se sentent pas suffisamment protégés pour oser affronter les conséquences des poursuites qu'ils provoqueraient ; ce sont là de puissantes raisons pour engager les parquets à redoubler de vigi¬lance
          <note type="bp">
           <p>
            Annades parlementaires. Chambre des représentants: séance du 23 février 1892. p. 692.
@@ -1555,7 +1650,9 @@
          . D'après le principe même de cet impôt appliqué au commerce, la somme à payer doit être en rapport avec l'importance des affaires ; pour réaliser cette proportionnalité, le législateur a fixé, parmi les marchands et bouti¬quiers, 17 classes différentes s'étendant jusqu'à un débit maximum de 265.000 franes. Tous ceux qui l'atteignent et ceux qui le dépassent, quel que soit d'ailleurs le montant de leurs affaires, sont soumis à une taxe uniforme.
         </p>
         <p xml:id="para_33_449_371">
-         Le chiffre de 265.000 paraissait en 1819 un maximum assez élevé <pb facs="#facs_475" n="450" source="s2lesouvriersdes03sociuoft_0520.xml"/> pour ne pas étre dépassé : les entreprises commerciales n'avaient pas l'importance d'aujourd'hui, les baaars immenses où l'on vend des objets de tout genre n'étaient guère connus. Mais depuis, que de chan¬gement Chaque jour on voit le grand commerce se développer da¬vantage les grands magasins s'ouvrent partout, et l'on compte beau¬coup d'établissements pour lesquels une vente de 265.000 francs ne constitue qu'une fraction minime du débit total. Et cependant la patente est restée fixe, calculée sur ce chiffre. Inutile d'insister sur l'inégalité qui en résulte.  Le principe de la proportionnalité de l'im¬pôt, disait à la chambre M. de Smet de Naeyer, strictement appliqué au petit commerce et au commerce moyen, se transforme, quand les intérêts de quelques grandes entreprises commerciales sont en jeu, en une exemption injustifiable. »
+         Le chiffre de 265.000 paraissait en 1819 un maximum assez élevé
+         <pb facs="#facs_475" n="450" source="s2lesouvriersdes03sociuoft_0520.xml"/>
+         pour ne pas étre dépassé : les entreprises commerciales n'avaient pas l'importance d'aujourd'hui, les baaars immenses où l'on vend des objets de tout genre n'étaient guère connus. Mais depuis, que de chan¬gement Chaque jour on voit le grand commerce se développer da¬vantage les grands magasins s'ouvrent partout, et l'on compte beau¬coup d'établissements pour lesquels une vente de 265.000 francs ne constitue qu'une fraction minime du débit total. Et cependant la patente est restée fixe, calculée sur ce chiffre. Inutile d'insister sur l'inégalité qui en résulte.  Le principe de la proportionnalité de l'im¬pôt, disait à la chambre M. de Smet de Naeyer, strictement appliqué au petit commerce et au commerce moyen, se transforme, quand les intérêts de quelques grandes entreprises commerciales sont en jeu, en une exemption injustifiable. »
         </p>
         <p xml:id="para_33_450_375">
          Voilà une première inégalité à laquelle M. de Smet de Naeyer a voulu mettre fin par son projet de loi. Il a proposé et fait voter une disposition nouvelle, soumettant à un droit supplémentaire et propor¬tionnel les débits dont le montant excède le chiffre donnant accès à la première classe. Par,là il répondait aux réclamations bien des fois articulées par les petits marchands et boutiquiers. Mais son ini¬tiative ne s'est pas arrêtée là.
@@ -1576,7 +1673,8 @@
          , vient de déclarer que toutes les coopératives doivent être soumises au droit de patente.
         </p>
         <p xml:id="para_33_451_380">
-         <pb facs="#facs_476" n="451" source="s2lesouvriersdes03sociuoft_0521.xml"/> Un texte exprès a créé une exception pour les sociétés qui se cons¬tituent pour la vente, la construction ou la location d'habitations ou¬vrieres
+         <pb facs="#facs_476" n="451" source="s2lesouvriersdes03sociuoft_0521.xml"/>
+         Un texte exprès a créé une exception pour les sociétés qui se cons¬tituent pour la vente, la construction ou la location d'habitations ou¬vrieres
          <note type="bp">
           <p>
            La disposition concernant cette matière ne figurait pas dans le projet de M. de Smet de Naeyer ; elle aété introduite par M. Beernacrt, ministre des 1inances. s La chare, a-t-il dit, n'a pas oublié que, d'après les termes de la loi du 9 aoùt 1889, les sociétés qui se cons¬tituent pour la vente, la construction ou la location d'habitations ouvrières, peuvent re¬vètir la forme anonyme ou coopérative ; et, en 1867, il a été entendu que ces soci étés se¬raient cependant exemptes de patente. Il n'entre pas dans la pensée des auteurs du projiet de loi de leur enlever ce bénefice, mais je crois qu'il conviendrait de le dire expressément.
@@ -1596,13 +1694,17 @@
          § 21. SUR LA MUTUALITÉ.
         </head>
         <p xml:id="para_33_451_385">
-         Il existe à Gembloux, depuis trente-quatre ans déjà, une association <pb facs="#facs_477" n="452" source="s2lesouvriersdes03sociuoft_0522.xml"/> érigée dans l'établissement des frères des Ecoles chrétiennes et qui s'ap¬pelle Société de Saint-Jean-Baptiste ; c'est avant tout une sorte de con¬frérie, de congrégation ; cependant elle tient quelque chose de la mutua¬lité, et c'est ce qui en rend l'organisation absolument originale. Au dé¬but, c'était exclusivement une œuvre de piété ; je ne veux pasdire qu'elle ait perdu ce caractère, bien au contraire, seulement depuis 1864 elle distribue des secours à ses membres malades. C'est de cette année que datent les statuts imprimés ; jusque-là on s'était contenté d'un règle¬ment écrit que l'on communiquait à ceux qui désiraient en prendre connaissance ; le but et l'esprit de la société étaient d'ailleurs trop bien connus pour que cela pût donner lieu à des difficultés. Cependant la société avait été en progressant, et on crut bientôt utile, pour contri¬buer à sa stabilité et à son extension, de recourir à l'impression des statuts. Ce fut l'occasion de les modifier en quelques points et d'y introduire des rêgles nouvelles.
+         Il existe à Gembloux, depuis trente-quatre ans déjà, une association
+         <pb facs="#facs_477" n="452" source="s2lesouvriersdes03sociuoft_0522.xml"/>
+         érigée dans l'établissement des frères des Ecoles chrétiennes et qui s'ap¬pelle Société de Saint-Jean-Baptiste ; c'est avant tout une sorte de con¬frérie, de congrégation ; cependant elle tient quelque chose de la mutua¬lité, et c'est ce qui en rend l'organisation absolument originale. Au dé¬but, c'était exclusivement une œuvre de piété ; je ne veux pasdire qu'elle ait perdu ce caractère, bien au contraire, seulement depuis 1864 elle distribue des secours à ses membres malades. C'est de cette année que datent les statuts imprimés ; jusque-là on s'était contenté d'un règle¬ment écrit que l'on communiquait à ceux qui désiraient en prendre connaissance ; le but et l'esprit de la société étaient d'ailleurs trop bien connus pour que cela pût donner lieu à des difficultés. Cependant la société avait été en progressant, et on crut bientôt utile, pour contri¬buer à sa stabilité et à son extension, de recourir à l'impression des statuts. Ce fut l'occasion de les modifier en quelques points et d'y introduire des rêgles nouvelles.
         </p>
         <p xml:id="para_33_452_388">
          Le caractère et l'organisation de cette société ne sauraient être mieux définis que par la citation de quelques articles de ces statuts qui sont d'ailleurs fort sommaires.
         </p>
         <p xml:id="para_33_452_389">
-         ... Art. II. Le but que se propose la Société est la gloire de Dieu, l'honneur de Jésus-Christ dansson divin sacrement, et la sanctification deses membres. —Art. II. La congrégation se fait gloire d'assisteraux processions en corps. — Art. IV. La fête principale de la congrégation est celle de) saint Jean-Baptiste. Le dimanche qui suit la fête, commu¬nion générale et réunion. — (L'article V mentionne neuf autres fêtes secondaires, toutes religieuses bien entendu, auxquelles les membres sont invités à faire la communion.) — Art. V. Lorsqu'un membre de la congrégation vient à mourir, les autres sont invités à assister aux offices qui sont célébrés pour le repos de son âme. — Art. V. La con¬grégation fait célébrer un service pour chacun de ses membres qui vient à mourir. — Art. V. La Société vient en aide à ses membres, dans le cas de maladie, par un secours pécuniaire pris sur la caisse d'épargne. Le conseil constate par lui-même les besoins, et avise aux moyens à prendre. Les secours sont en raison de la mise des associés et du temps qu'ils font partie de la Société... — Art. N. Chaque mois, tous les membres sont tenus de verser entre les mains du trésorier 10 centimes pour subvenir aux frais de la congrégation. — Art. XI. Les dons particuliers sont reçus avec reconnaissance, et il en est fait mention dans un registre spécial. — (Les articles NIIà NIN s'occupent du conseil de direction, qui est pris parmi les ouvriers ; ils en fixent la <pb facs="#facs_478" n="453" source="s2lesouvriersdes03sociuoft_0523.xml"/> composition, les attributions, les réunions, etc.) — Art. MX. La con¬grégation se réunit au local des frères des coles chrétiennes, tous les dimanches, à une heure désignée pour assister aux exercices. — Art. NXNI. Ordre des exercices : 1° Cantique ; 2ᵉ Prière eni sancte ˉSpi¬ritus et le Souvenez-vous ; 3° nstruction ; 4° Chant d'un cantique ; 5°rière, Pater, Ae. — (Enfin les articles XNII et XXIII fixent les con¬ditions d'admission et d'exclusion.)
+         ... Art. II. Le but que se propose la Société est la gloire de Dieu, l'honneur de Jésus-Christ dansson divin sacrement, et la sanctification deses membres. —Art. II. La congrégation se fait gloire d'assisteraux processions en corps. — Art. IV. La fête principale de la congrégation est celle de) saint Jean-Baptiste. Le dimanche qui suit la fête, commu¬nion générale et réunion. — (L'article V mentionne neuf autres fêtes secondaires, toutes religieuses bien entendu, auxquelles les membres sont invités à faire la communion.) — Art. V. Lorsqu'un membre de la congrégation vient à mourir, les autres sont invités à assister aux offices qui sont célébrés pour le repos de son âme. — Art. V. La con¬grégation fait célébrer un service pour chacun de ses membres qui vient à mourir. — Art. V. La Société vient en aide à ses membres, dans le cas de maladie, par un secours pécuniaire pris sur la caisse d'épargne. Le conseil constate par lui-même les besoins, et avise aux moyens à prendre. Les secours sont en raison de la mise des associés et du temps qu'ils font partie de la Société... — Art. N. Chaque mois, tous les membres sont tenus de verser entre les mains du trésorier 10 centimes pour subvenir aux frais de la congrégation. — Art. XI. Les dons particuliers sont reçus avec reconnaissance, et il en est fait mention dans un registre spécial. — (Les articles NIIà NIN s'occupent du conseil de direction, qui est pris parmi les ouvriers ; ils en fixent la
+         <pb facs="#facs_478" n="453" source="s2lesouvriersdes03sociuoft_0523.xml"/>
+         composition, les attributions, les réunions, etc.) — Art. MX. La con¬grégation se réunit au local des frères des coles chrétiennes, tous les dimanches, à une heure désignée pour assister aux exercices. — Art. NXNI. Ordre des exercices : 1° Cantique ; 2ᵉ Prière eni sancte ˉSpi¬ritus et le Souvenez-vous ; 3° nstruction ; 4° Chant d'un cantique ; 5°rière, Pater, Ae. — (Enfin les articles XNII et XXIII fixent les con¬ditions d'admission et d'exclusion.)
         </p>
         <p xml:id="para_33_453_391">
          Inutile d'insister sur le caractère religieux de l'œuvre, il résulte assez du seul examen de ces quelques lignes.
@@ -1614,7 +1716,9 @@
          On ne tarda pas à s'apercevoir que l'article VI des statuts déter¬minant un secours en cas de maladie était trop vague et prêtait à de nombreux abus : on introduisit alors une nouvelle modification. On déclara d'abord, ce qui n'était pas dans les statuts, que les membres malades auraient droit aux soins gratuits du médecin et du pharma¬cien ; quant àl'indemnité pécuniaire, elle fut réglée comme suit : chaque membre peut recevoir sur toute l'année un secours total de 24 francs ; cette somme est divisée en quatre bons de 6 francs chacun, que le con¬seil accorde à la demande du malade, après enquète et quand il le juge à propos ; on ne se souvient dans la Société d'aucune difficulté sur¬venue à ce sujet.
         </p>
         <p xml:id="para_33_453_394">
-         La Société a été autrefois très prospère ; elle a eujusqu'à1.600francs en caisse, mais ses ressources ont beaucoup diminué : elle ne compte plus aujourd'hui que 34 membres et possède seulement une somme de 700 francs. nrelevé sommaire des comptes donnera une idée approximative <pb facs="#facs_479" n="454" source="s2lesouvriersdes03sociuoft_0524.xml"/> de la façon dont s'établit l'équilibre des budgets. Commençons par les dépenses : le médecin reçoit annuellement une somme fixe de 50 francs ; en 1891, le pharmacien a reçu 72 francs ; enfin 96 francs ont été dis¬tribués en secours, à cela il faudrait ajouter encore quelques frais de messes et les dépenses générales de la Société ; le tout s'élèverait donc à environ 240 francs. D'autre part, aux recettes figurent 35 francs, comme intérêt à 5 des 700 francs de capital, 198 francs reçus des membres honoraires et protecteurs, enfin 40ᶠ80 de cotisatios, et peut¬être aussi quelques francs d'amende, car les membres effectifs, ui, sans motif légitime, n'assistent pas à l'enterrement d'un membre ho¬n oraire ou effectif, sont passibles d'une amende de 50 centimes. Les recettes s'élèvent donc à plus de 270 francs. La Societé reste par conséquent dans une situation financière favorable.
+         La Société a été autrefois très prospère ; elle a eujusqu'à1.600francs en caisse, mais ses ressources ont beaucoup diminué : elle ne compte plus aujourd'hui que 34 membres et possède seulement une somme de 700 francs. nrelevé sommaire des comptes donnera une idée approximative
+         <pb facs="#facs_479" n="454" source="s2lesouvriersdes03sociuoft_0524.xml"/>
+         de la façon dont s'établit l'équilibre des budgets. Commençons par les dépenses : le médecin reçoit annuellement une somme fixe de 50 francs ; en 1891, le pharmacien a reçu 72 francs ; enfin 96 francs ont été dis¬tribués en secours, à cela il faudrait ajouter encore quelques frais de messes et les dépenses générales de la Société ; le tout s'élèverait donc à environ 240 francs. D'autre part, aux recettes figurent 35 francs, comme intérêt à 5 des 700 francs de capital, 198 francs reçus des membres honoraires et protecteurs, enfin 40ᶠ80 de cotisatios, et peut¬être aussi quelques francs d'amende, car les membres effectifs, ui, sans motif légitime, n'assistent pas à l'enterrement d'un membre ho¬n oraire ou effectif, sont passibles d'une amende de 50 centimes. Les recettes s'élèvent donc à plus de 270 francs. La Societé reste par conséquent dans une situation financière favorable.
         </p>
         <p xml:id="para_33_454_396">
          De cet exposé, il résulte en toute évidence que nous sommes en pré¬sence d'une œuvre de patronage, je dirais même presque de bienfai¬sance, soutenue par les personnes fortunées de la localité, car les co¬tisations des membres effectifs n'interviennent pas même pour le cin¬quième dans les dépenses.
@@ -1632,13 +1736,14 @@
          .
         </p>
         <p xml:id="para_33_455_400">
-         <pb facs="#facs_480" n="455" source="s2lesouvriersdes03sociuoft_0525.xml"/> Enfin, pour la troisiême société : la Fraternité gembloutoise, l'initiative a été prise par les ouvriers seuls ; elle a réuni dès l'abord une vingtaine d'adhérents, et on est déjà parvenu à se mettre en parfait accord au sujet des statuts élaborés avec l'intention de les faire approuver par le gou¬vernement. La Société a pour but de payer aux membres effectifs une indemnité pendant le temps de leur incapacité au travail, de leur pro¬curer les soins du médecin et du pharmacien, et de pourvoir aux funé¬railles des membres décédés. La cotisation est fixée à 1 franc par mois, l'indemnité à 1 franc pendant les trois premiers mois, 0ᶠ75 pendant les trois mois suivants ; il est payé un droit d'entrée fixé comme
+         <pb facs="#facs_480" n="455" source="s2lesouvriersdes03sociuoft_0525.xml"/>
+         Enfin, pour la troisiême société : la Fraternité gembloutoise, l'initiative a été prise par les ouvriers seuls ; elle a réuni dès l'abord une vingtaine d'adhérents, et on est déjà parvenu à se mettre en parfait accord au sujet des statuts élaborés avec l'intention de les faire approuver par le gou¬vernement. La Société a pour but de payer aux membres effectifs une indemnité pendant le temps de leur incapacité au travail, de leur pro¬curer les soins du médecin et du pharmacien, et de pourvoir aux funé¬railles des membres décédés. La cotisation est fixée à 1 franc par mois, l'indemnité à 1 franc pendant les trois premiers mois, 0ᶠ75 pendant les trois mois suivants ; il est payé un droit d'entrée fixé comme
         </p>
         <figure rend="portrait" type="inventory">
          <head resp="added" type="inventory" xml:id="figure_2">
           Indemnité payée par la société de secours mutuels la Fraternité gembloutoise à ses adhérents au chômage en fonction de leur âge (notes annexes)
          </head>
-         <graphic facs="#facs_480" url="#"/>
+         <graphic facs="#facs_480" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24525/255,1170,1409,206/full/0/default.jpg"/>
         </figure>
         <p xml:id="para_33_455_404">
          Pour le reste, les statuts sont conformes aux règles générales que l'on considère comme les principes mêmes de la mutualité.
@@ -1650,13 +1755,15 @@
          A ce propos, il ne sera peut-etre pas sans intérêt de faire un court relevé de la situation de la Belgique entière à ce point de vue. M. le chevalier de Moreau a, dans la monographie d'un Conducteur typo¬graphe (V. ci-dessus, p. 407 a 410), donné un aperçu très intéressant des améliorations qu'un nouveau projet de loi doit apporter pro¬chainement en matière de mutualité et aussi des heureux effets qu'il ne manquera pas d'avoir : c'est un coup d'il sur l'avenir; nous jetterons un regard en arrière pour voir les résultats obtenus jusqu'à ce jour.
         </p>
         <p xml:id="para_33_455_407">
-         Jusqu'en 1848, la mutualité était fort peu développée ; mais les évé¬nements qui signalèrent cette année amenèrent l'État à s'occuper davantage des classes laborieuses. Un arrêté royal du 15 avril 1849 nomma une commission chargée de proposer au gouvernement un système d'institutions de prévoyance en faveur des ouvriers. C'est du travail de cette commission que résulta la loi du 3 avril 1851 qui donna <pb facs="#facs_481" n="456" source="s2lesouvriersdes03sociuoft_0526.xml"/> le premier élan à la mutualité. Voici quelle était la situation peu de temps après sa publication, en 1853.
+         Jusqu'en 1848, la mutualité était fort peu développée ; mais les évé¬nements qui signalèrent cette année amenèrent l'État à s'occuper davantage des classes laborieuses. Un arrêté royal du 15 avril 1849 nomma une commission chargée de proposer au gouvernement un système d'institutions de prévoyance en faveur des ouvriers. C'est du travail de cette commission que résulta la loi du 3 avril 1851 qui donna
+         <pb facs="#facs_481" n="456" source="s2lesouvriersdes03sociuoft_0526.xml"/>
+         le premier élan à la mutualité. Voici quelle était la situation peu de temps après sa publication, en 1853.
         </p>
         <figure rend="portrait" type="table">
          <head resp="added" type="table" xml:id="figure_3">
           Nombre des sociétés de secours mutuels belges, nombre de leurs adhérents et états des recettes en 1853 (notes annexes)
          </head>
-         <graphic facs="#facs_481" url="#"/>
+         <graphic facs="#facs_481" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24526/297,590,1681,558/full/0/default.jpg"/>
         </figure>
         <p xml:id="para_33_456_417">
          Les sociétés qui n'ont pas réclamé le bénéfice de la loi du 3 avril 1851 sont constituées et s'administrent librement, en vertu du droit constitutionnel d'association, en sorte que dans les rapports sur la si¬tuation des sociétés de secours mutuels présentés par la commission permanente, où nous puisons les différentes statistiques, on ne trouve que des renseignements fort incomplets à leur sujet.
@@ -1668,7 +1775,7 @@
          <head resp="added" type="table" xml:id="figure_4">
           Nombre des sociétés de secours mutuels belges reconnues selon la loi du 3 avril 1851, nombre de leurs adhérents et bilan de ces sociétés (notes annexes)
          </head>
-         <graphic facs="#facs_481" url="#" xml:id="illu_33_456_14"/>
+         <graphic facs="#facs_481" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24526/297,1968,1685,898/full/0/default.jpg" xml:id="illu_33_456_14"/>
         </figure>
         <p xml:id="para_33_456_419">
          Il est intéressant, à côté de ce tableau général, de voir d'une façon plus claire la progression des reconnaissances légales, depuis l'institu¬tion même de cette mesure.
@@ -1677,10 +1784,11 @@
          <head resp="added" type="table" xml:id="figure_5">
           Progression des reconnaissances légales de sociétés de secours mutuels en Belgique (1851-1891) (notes annexes)
          </head>
-         <graphic facs="#facs_482" url="#"/>
+         <graphic facs="#facs_482" url="https://iiif.archivelab.org/iiif/s2lesouvriersdes03sociuoft%24527/257,366,1441,750/full/0/default.jpg"/>
         </figure>
         <p xml:id="para_33_457_430">
-         <pb facs="#facs_482" n="457" source="s2lesouvriersdes03sociuoft_0527.xml"/> Au 31 décembre 1891, il y avait déjà 436 sociétés reconnues.
+         <pb facs="#facs_482" n="457" source="s2lesouvriersdes03sociuoft_0527.xml"/>
+         Au 31 décembre 1891, il y avait déjà 436 sociétés reconnues.
         </p>
         <p xml:id="para_33_457_431">
          En observant ces tableaux, on remarque immédiatement le puissant élan qui s'est manifesté depuis 1887. L'enquête de la commission du travail, l'intervention active de M. de Moreau, alors ministre de l'agri¬culture, de l'industrie et des travaux publics, et l'arrêté royal du 22 aout 1887, auquel il a attaché son nom, ont été le point de départ d'un mouvement qui, depuis lors, ne s'est plus ralenti.
@@ -1692,7 +1800,9 @@
          En 1885, on s'est effTorcé de faire un relevé général des sociétés de secours mutuels non reconnues, et on a constaté l'existence de 4 455 d'entre elles, mais les auteurs de la statistique reconnaissent eux-mêmes que ce chiffre est inférieur à la réalité. On se rend ainsi à pecu près compte de l'ensemble de sociétés, reconnues ou non.
         </p>
         <p xml:id="para_33_457_434">
-         De nombreuses mesures administratives ont été prises pour favo¬riser la mutualité : assimilation des sociétés de secours mutuels aux institutions de bienfaisance, quant à la procédure gratuite ; décorations <pb facs="#facs_483" n="458" source="s2lesouvriersdes03sociuoft_0528.xml"/> particulières pour les personnes qui ont rendu des services à la mu¬ualité, concours triennaux avec primes et récompenses, etc.
+         De nombreuses mesures administratives ont été prises pour favo¬riser la mutualité : assimilation des sociétés de secours mutuels aux institutions de bienfaisance, quant à la procédure gratuite ; décorations
+         <pb facs="#facs_483" n="458" source="s2lesouvriersdes03sociuoft_0528.xml"/>
+         particulières pour les personnes qui ont rendu des services à la mu¬ualité, concours triennaux avec primes et récompenses, etc.
         </p>
         <p xml:id="para_33_458_436">
          Un des motifs qui empêchent fréquemment l'ouvrier de s'affilier aux sociétés de secours mutuels, c'est la perspective de perdre tout droit aux indemnités et à l'avoir social, quand il est obligé, pour trouver de l'ouvrage, de quitter la circonscription déterminée par les statuts. On a déjà pensé à y remédier ; dans la Flandre occidentale, une fédé¬ration s'est formée dans ce but ; il est à souhaiter de voir oientôt cet exemple suivi dans tout le pays.
@@ -1716,7 +1826,9 @@
          Rappelons seulement ici les travaux dus, sur ce sujet, à deux mem¬bres éminents de la Société internationale d'Economie sociale : le So¬cialisme d'tat, par M. Claudio Jannet (2 édition, ch. v), et les ˉSgn¬dicats industriels, rapport de M. Ed. Gruner à la Société d'économie sociale, séance du 12 décembre 1887, avec l'intéressante discussion qui l'a suivi.
         </p>
         <p xml:id="para_33_458_442">
-         Le régime légal auquel on doit soumettre ces coalitions a été fort dis¬cuté ; en Belgique l'article 419 du C. de 1810 a disparu du C. pénal de <pb facs="#facs_484" n="459" source="s2lesouvriersdes03sociuoft_0529.xml"/> 1867: on y trouve l'aricle 310 qu'on invoque contre les coalitions de producteurs. Sans entrer dans la controverse, nous croyons, à simple titre de document, intéresser le lecteur en insérant ici un arret qui a jugé le cas en Belgique.
+         Le régime légal auquel on doit soumettre ces coalitions a été fort dis¬cuté ; en Belgique l'article 419 du C. de 1810 a disparu du C. pénal de
+         <pb facs="#facs_484" n="459" source="s2lesouvriersdes03sociuoft_0529.xml"/>
+         1867: on y trouve l'aricle 310 qu'on invoque contre les coalitions de producteurs. Sans entrer dans la controverse, nous croyons, à simple titre de document, intéresser le lecteur en insérant ici un arret qui a jugé le cas en Belgique.
         </p>
         <p xml:id="para_33_459_444">
          En 1872, plusieurs maîtres de verreries s'étaient coalisés en vue de réduire la production du verre à vitres. Chaque adhérent devait payer pendant la durée de la convention 150 francs par mois et par creuset pour chaque four actif, inactif ou en construction. Il devait accepter dans la quinzaine une traite tirée par Mondron, président de l'associa¬tion, pour le montant total de sa cotisation à l'échéance du 10 avril 1873. Ces fonds devaient servir à donner une indemnité de 530 francs par creuset et par mois à chaque membre qui éteignait un four actif ou qui renoncait à mettre en feu un four inactif ou en construction. Malgré leur engagement, Hansotte et Cie refusèrent de payer la traite réguliêrement tirée, protêt fut dressé et le tribunal de commerce de Charleroi, saisi de l'affaire, condamna Hansotte et C au paiement de leurs cotisations.
@@ -1741,7 +1853,8 @@
           « Attendu que si les appelants et les intimés font tous partie d'une fédération connue sous le nom d'Association des maîtres de verreries belges. ce n'est point comme asso¬ciés ou communistes, mais en nom personnel et dans l'intérêt de l'industrie de chacun d'eux qu'ils ont stipulé le 26 novembre 1872, et que c'est à ce titre qu'ils ont été dé¬clarés recevables en leur action ; que chacun des adhérents s'est obligé dans la mesure de son intérêt individuel, sa part contributive dans l'indemnité de chômage étant proportionnée au nombre de ses creusets ;
          </p>
          <p xml:id="para_33_460_451">
-          <pb facs="#facs_485" n="460" source="s2lesouvriersdes03sociuoft_0530.xml"/> « Atendu que cette convention ne constitue pas un engagement purement moral ; qu'elle a créé un lien civil obligatoire entre tous ceux qui adhéraient à cette conven¬tion et s'engageaient les uns envers les autres pour organiser le chômage dans leur in¬érêt commun, et répartir entre tous la perte qui devait résulter de l'inactivité des fours chômants ; qu'ils avaient tous intéret à éviter un avilissement des prix qui aurait eu pour conséquence le travail à perte et une crise industrielle, et que le paiement par tous les adhérents de la cotisation stipulée était la condition du chômage provoqué
+          <pb facs="#facs_485" n="460" source="s2lesouvriersdes03sociuoft_0530.xml"/>
+          « Atendu que cette convention ne constitue pas un engagement purement moral ; qu'elle a créé un lien civil obligatoire entre tous ceux qui adhéraient à cette conven¬tion et s'engageaient les uns envers les autres pour organiser le chômage dans leur in¬érêt commun, et répartir entre tous la perte qui devait résulter de l'inactivité des fours chômants ; qu'ils avaient tous intéret à éviter un avilissement des prix qui aurait eu pour conséquence le travail à perte et une crise industrielle, et que le paiement par tous les adhérents de la cotisation stipulée était la condition du chômage provoqué
          </p>
          <p xml:id="para_33_460_452">
           « Attendu qu'il résulte clairement des termes de la convention, tels qu'ils sont re¬connus entre parties, que c'est le 26 novembre 1872 qu'elle a été conclue et que les appelants ont été définitivement liés ;que dans ces circonstances il importerait peu que le procès-verbal qui est produit, dument enregistré, n'ait été rédigé que postérieu¬rement ;

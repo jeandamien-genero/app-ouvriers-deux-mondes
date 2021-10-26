@@ -4,9 +4,37 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
+    <title level="m" n="26" type="main">
+     Instituteur primaire d'une commune rurale de la Normandie (Eure - France)
+    </title>
+    <title level="s" type="desc">
      Les Ouvriers des Deux Mondes - série 1, volume 3 - Transcription
     </title>
+    <title level="m" type="short">
+     institueur-primaire-commune-rurale-normandie-26
+    </title>
+    <author n="1" role="investigator">
+     Auguste Roguès
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
+    <respStmt>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°26 des Ouvriers des deux mondes, "Instituteur primaire d'une commune rurale de la Normandie (Eure - France)". Elle a d'abord été publiée en fascicule en 1861, puis reliée en 1861, à partir d'une enquête réalisée à N***, canton et arondissement d'Evreux (Eure, France)  en juin 1860.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
       <forename>
@@ -114,15 +142,23 @@
       supervision technique
      </resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
     <publisher>
-     projet ANR Time Us
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
     </publisher>
     <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>
@@ -130,13 +166,6 @@
     </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_332">
   <surface lrx="2194" lry="3402"/>
@@ -374,7 +403,7 @@
         <head resp="added" type="inventory" xml:id="figure_1">
          Répartition des propriétés sur le territoire de la commune de N*** (§1)
         </head>
-        <graphic facs="#facs_333" url="#"/>
+        <graphic facs="#facs_333" url="https://iiif.archivelab.org/iiif/lesouvriersdesde03sociuoft%24336/614,796,1102,650/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_11_328_14">
         Labours........
@@ -410,7 +439,7 @@
         <head resp="added" type="inventory" xml:id="figure_2">
          Produit des cultures de la commune N*** (§1)
         </head>
-        <graphic facs="#facs_333" url="#"/>
+        <graphic facs="#facs_333" url="https://iiif.archivelab.org/iiif/lesouvriersdesde03sociuoft%24336/386,1746,1530,442/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_11_328_24">
         hectres en froment nt donné par hect. 18 hectolitres, pesat 75 kil. l'hect
@@ -449,7 +478,7 @@
         <head resp="added" type="inventory" xml:id="figure_3">
          Valeur des produits de consommation dans la commune N*** (§1)
         </head>
-        <graphic facs="#facs_334" url="#"/>
+        <graphic facs="#facs_334" url="https://iiif.archivelab.org/iiif/lesouvriersdesde03sociuoft%24337/518,1902,1042,518/full/0/default.jpg"/>
        </figure>
        <!--<p xml:id="para_11_329_34">
         Lard....... ...:.:..::...... ... 0160̂ le 12 kilo.
@@ -509,21 +538,21 @@
        </p>
        <p xml:id="para_11_330_48">
         1.
-        <persName>
+        <persName type="respondent" xml:id="ID-026aE1">
          PIERRE F***
         </persName>
         , instituteur des communes réunies de N*** et de S***, marié depuis 27 ans............ 60 ans.
        </p>
        <p xml:id="para_11_330_50">
         2.
-        <persName>
+        <persName type="respondent" xml:id="ID-026aE2">
          MARIE X***
         </persName>
         , sa femme, née a E***............ 47 —
        </p>
        <p xml:id="para_11_330_51">
         3.
-        <persName>
+        <persName type="respondent" xml:id="ID-026aE3">
          Auguste F***
         </persName>
         , leur fils unique............ 18 —

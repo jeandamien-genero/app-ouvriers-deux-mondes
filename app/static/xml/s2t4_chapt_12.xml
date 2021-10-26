@@ -4,9 +4,37 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
+    <title level="m" n="80" type="main">
+     Fermiers montagnards du Haut-Forez (Loire - France)
+    </title>
+    <title level="s" type="desc">
      Les Ouvriers des Deux Mondes - série 2, volume 4 - Transcription
     </title>
+    <title level="m" type="short">
+     fermiers-montagnards-haut-forez-80
+    </title>
+    <author n="1" role="investigator">
+     Pierre du Maroussem
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
+    <respStmt>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°80 des Ouvriers des deux mondes, "Fermiers montagnards du Haut-Forez (Loire - France)". Elle a d'abord été publiée en fascicule en 1894, puis reliée en 1895, à partir d'une enquête réalisée à Saint-Genest-Malifaux (Loire, France) en août 1892 et en août 1893.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
       <forename>
@@ -31,7 +59,9 @@
       <forename>
        Jean-Damien
       </forename>
-      <surname> Généro </surname>
+      <surname>
+       Généro
+      </surname>
       <affiliation from="2020-03" to="2020-09">
        stagiaire du Master « Technologies numériques appliquées à l'histoire » de l'École nationale des chartes,
        <orgName>
@@ -112,15 +142,23 @@
       supervision technique
      </resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
     <publisher>
-     projet ANR Time Us
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
     </publisher>
     <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>
@@ -128,13 +166,6 @@
     </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_406">
   <surface lrx="2253" lry="3506"/>
@@ -482,7 +513,11 @@
       PAR
      </p>
      <p xml:id="para_12_397_6">
-      M. <persName>PIERRE DU MAROUSSEM</persName>,
+      M.
+      <persName>
+       PIERRE DU MAROUSSEM
+      </persName>
+      ,
      </p>
      <p>
       Docteur en droit,
@@ -504,10 +539,15 @@
         § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_12_397_12">
-        <pb facs="#facs_406" n="397" source="s2lesouvriersdes04sociuoft_0443.xml"/> Il n'est guère d'antithèse plus heurtée, au point de vue pittoresque, que celle de la cuvette sombre de Saint-Etienne, — cette reine des terres noires, — et des verdoyants massifs de montagnes, qui de toute part en ferment l'horizon. Au Sud surtout, lorsque le touriste a dé¬passé les derniers halls et les dernières cheminées de la cité travail¬leuse, capitale des armes et des rubans, qui semble mettre sa coquet¬terie à rappeler en miniature Sheffield ou Manchester, il se trouve, dès la première rampe de la route d'Annonay, dans une sorte de paysage boréal, détaché d'un panorama norvégien. Ce sont les sapins <pb facs="#facs_407" n="398" source="s2lesouvriersdes04sociuoft_0444.xml"/> du Nord, les pins, les épicéas, qui tapissent la muraille abrupte de gauche et qui bientôt revêtent presque exclusivement à droite les pa¬rois du lit profond où se dissimule un petit torrent ; c'est la brise fraiche des hauts plateaux qui souffle au visage du voyageur ; ce sont les brouillards des sommets qui l'enveloppent bien vite, car il s'ache¬mine vers la région des nuées inférieures, et ce sont des paysans à grands chapeaux, à blouses bleues, profondément distincts de l'ou¬vrier parisianisé des faubourgs stéphanois, qui descendent en face de lui, derrière leurs vaches laitières, et interrompent un instant, pour considérer de côté ce nouveau venu, la mélopée familière aux bois et aux pâtis de la montagne.
+        <pb facs="#facs_406" n="397" source="s2lesouvriersdes04sociuoft_0443.xml"/>
+        Il n'est guère d'antithèse plus heurtée, au point de vue pittoresque, que celle de la cuvette sombre de Saint-Etienne, — cette reine des terres noires, — et des verdoyants massifs de montagnes, qui de toute part en ferment l'horizon. Au Sud surtout, lorsque le touriste a dé¬passé les derniers halls et les dernières cheminées de la cité travail¬leuse, capitale des armes et des rubans, qui semble mettre sa coquet¬terie à rappeler en miniature Sheffield ou Manchester, il se trouve, dès la première rampe de la route d'Annonay, dans une sorte de paysage boréal, détaché d'un panorama norvégien. Ce sont les sapins
+        <pb facs="#facs_407" n="398" source="s2lesouvriersdes04sociuoft_0444.xml"/>
+        du Nord, les pins, les épicéas, qui tapissent la muraille abrupte de gauche et qui bientôt revêtent presque exclusivement à droite les pa¬rois du lit profond où se dissimule un petit torrent ; c'est la brise fraiche des hauts plateaux qui souffle au visage du voyageur ; ce sont les brouillards des sommets qui l'enveloppent bien vite, car il s'ache¬mine vers la région des nuées inférieures, et ce sont des paysans à grands chapeaux, à blouses bleues, profondément distincts de l'ou¬vrier parisianisé des faubourgs stéphanois, qui descendent en face de lui, derrière leurs vaches laitières, et interrompent un instant, pour considérer de côté ce nouveau venu, la mélopée familière aux bois et aux pâtis de la montagne.
        </p>
        <p xml:id="para_12_398_15">
-        Au bout de deux heures et quart d'une pénible montée, néces¬saire pour franchir une quinzaine de kilomètres, le visiteur, que nous transformons ainsi en alpiniste involontaire, se trouvera au point précis de la présente étude : la commune de Saint-Genest-Mali¬faux, désignée dans les vieux textes du seiième siècle du nom de Saint-Genest en Feugerolles. 45° 20 de latitude Nord et 2ᵉ 6 de longitude Est, telle est l'indication du iuide Joanne, et les hauteurs baromé¬triques, que l'on relève au fur et à mesure des ascensions et des des¬centes rapides, démontrent que l'altitude moyenne oscille autour de 1.000mètres : 1.080 sur les terrasses du château de Saint-Genest, dont les tourelles Louis XIII dominent au loin le paysage ; 990 environ devant l'église du village. De là on arrive sans peine à concevoir le système d'ensemble de cette haute étendue fortement ondulée, tapissant de prairies tous les creux, revêtant de bois noirs toutes les crêtes, et laissant deviner, derrière les épaulements qui s'y succèdent, d'autres cimes plus majestueuses encore : au Nord-Est le mont Pilat qui do¬mine, de ses 1.400mètres d'altitude, la vallée de la Loire et la vallée du Rhône ; au Sud la longue ligne des Cévennes, le pays des Camisards, le Mézenc et la pointe recourbée du Gerbier-des-Joncs. Tous vous sen¬tez sur un des points culminants de l'ossature centrale de la France ; certaines échappées vous ouvrent les vallées de ses plus grands fleuves, les grandes artères de l'ancien empire et de l'ancien royaume ; les sources qui iltrent çà et là, animant les roues d'anciennes scieries transformées le plus souvent en moulinages, prennent au ha¬sard le chemin de l'Ardeche ou du Furens, et alimentent les papete¬ries langguedociennes ou le « barragc, le grand réservoir de la métropole industrielle du lorez. D'autres, indécises, engagées dans de petits vallons sans issue, s'étalent en mares ou en marćcages <pb facs="#facs_408" n="399" source="s2lesouvriersdes04sociuoft_0445.xml"/> dans ces terrains de bruyère dont le défrichement a été la base de la prospérité économique du pays.
+        Au bout de deux heures et quart d'une pénible montée, néces¬saire pour franchir une quinzaine de kilomètres, le visiteur, que nous transformons ainsi en alpiniste involontaire, se trouvera au point précis de la présente étude : la commune de Saint-Genest-Mali¬faux, désignée dans les vieux textes du seiième siècle du nom de Saint-Genest en Feugerolles. 45° 20 de latitude Nord et 2ᵉ 6 de longitude Est, telle est l'indication du iuide Joanne, et les hauteurs baromé¬triques, que l'on relève au fur et à mesure des ascensions et des des¬centes rapides, démontrent que l'altitude moyenne oscille autour de 1.000mètres : 1.080 sur les terrasses du château de Saint-Genest, dont les tourelles Louis XIII dominent au loin le paysage ; 990 environ devant l'église du village. De là on arrive sans peine à concevoir le système d'ensemble de cette haute étendue fortement ondulée, tapissant de prairies tous les creux, revêtant de bois noirs toutes les crêtes, et laissant deviner, derrière les épaulements qui s'y succèdent, d'autres cimes plus majestueuses encore : au Nord-Est le mont Pilat qui do¬mine, de ses 1.400mètres d'altitude, la vallée de la Loire et la vallée du Rhône ; au Sud la longue ligne des Cévennes, le pays des Camisards, le Mézenc et la pointe recourbée du Gerbier-des-Joncs. Tous vous sen¬tez sur un des points culminants de l'ossature centrale de la France ; certaines échappées vous ouvrent les vallées de ses plus grands fleuves, les grandes artères de l'ancien empire et de l'ancien royaume ; les sources qui iltrent çà et là, animant les roues d'anciennes scieries transformées le plus souvent en moulinages, prennent au ha¬sard le chemin de l'Ardeche ou du Furens, et alimentent les papete¬ries langguedociennes ou le « barragc, le grand réservoir de la métropole industrielle du lorez. D'autres, indécises, engagées dans de petits vallons sans issue, s'étalent en mares ou en marćcages
+        <pb facs="#facs_408" n="399" source="s2lesouvriersdes04sociuoft_0445.xml"/>
+        dans ces terrains de bruyère dont le défrichement a été la base de la prospérité économique du pays.
        </p>
        <p xml:id="para_12_399_17">
         Le lecteur, s'il tient à matérialiser cette opposition entre la plaine toute couverte de son peuple d'usines et ces vastes solitudes herbues ainsi que boisées où les petites fermes isolées s'espacent avec cette ré¬gularité propre aux pays à famille-souche, n'a d'ailleurs qu'à jeter les yeux sur la carte géologique de France, section de Saint-Etienne, n° 177
@@ -525,10 +565,14 @@
           Congères, amas d neige trompeurs qui comblent les ravins et les fossés.
          </p>
         </note>
-        , vient achever la physionomie des révolutions de l'année : le froid, le vent, la ncige, <pb facs="#facs_409" n="400" source="s2lesouvriersdes04sociuoft_0446.xml"/> voilà de quoi se fait l'hiver, l'hiver terrible de ces hautes régions. presque sans printemps, mais non sans automne, qui ont été parta¬gées par un hiver de six mois, voiremême davantage, et un été-automne de cinq à six mois ; l'un âpre, impitoyable, contraignant aux longues retraites dans les habitations bien closes, devant les gigantesques che¬minées, où se blottissent frileusement les fourneaux de fonte; l'autre, assez chaud parfois, malgré le rafraichissement des aurores et des crépuscules. Cette division fatale domine tout le régime du travail et le genre de vie même ; elle est révélée auxtouristes de l'été par les petits et grands traîneaux, abandonnés alors au seuil des granges, mais toujours prèts à reprendre leurs courses matinales vers le grand centre mar¬chand de Saint-Etienne, à travers les pentes disparues sous la blancheur uniforme.
+        , vient achever la physionomie des révolutions de l'année : le froid, le vent, la ncige,
+        <pb facs="#facs_409" n="400" source="s2lesouvriersdes04sociuoft_0446.xml"/>
+        voilà de quoi se fait l'hiver, l'hiver terrible de ces hautes régions. presque sans printemps, mais non sans automne, qui ont été parta¬gées par un hiver de six mois, voiremême davantage, et un été-automne de cinq à six mois ; l'un âpre, impitoyable, contraignant aux longues retraites dans les habitations bien closes, devant les gigantesques che¬minées, où se blottissent frileusement les fourneaux de fonte; l'autre, assez chaud parfois, malgré le rafraichissement des aurores et des crépuscules. Cette division fatale domine tout le régime du travail et le genre de vie même ; elle est révélée auxtouristes de l'été par les petits et grands traîneaux, abandonnés alors au seuil des granges, mais toujours prèts à reprendre leurs courses matinales vers le grand centre mar¬chand de Saint-Etienne, à travers les pentes disparues sous la blancheur uniforme.
        </p>
        <p xml:id="para_12_400_22">
-        Seules alors, comme en Lithuanie, comme dans un gouvernement russe quelconque entre Novgorod et Arlhangel, les aiguilles régu¬lières des sapins, disposées en masses serrées, hérissées de larges ra¬meaux qui craquent sous la neige, mettent la note de leur vert sombre : tout autour, les pins sylvestres, les mélèzes, les épicéas, les ayards ou hêtres, les frênes, mais en petit nombre, les sorbiers écla¬tants de leurs grappes rouges en automne, esquissent sous l'épais manteau dont ils sont recouverts les formes les plus disparates. ̧à et là, de plus en plus, les vides s'observent dans leur armée encore in¬nombrable : certaines montagnes sont dénudées, d'autres multiplient les clairiêres ; cependant on devine toujours la gloire de la gigantesque forèt de jadis, dont les larges troncs faussent parfois les versoirs de la charrue au moment des défrichements de brandes. Mais le trait le plus caractéristique de cette flore, c'est l'amoncellement extraordinaire des arbrisseaux producteurs de baies, que Le Play signalait comme une source de bien-être inappréciable pour les populations septen¬trionales : groseillers sauvages, framboisiers, griottiers, ronces cou¬vertes de baies, airelles surtout (myrtiles sauvages) dont les petites feuilles denses tapissent les rochers, puis les champignons variés, parmi lesquels le cèpe et l'orone, les morilles baptisées du nom de « truffes du pays D, le tout emprisonné par la floraison inlinie des fougères, bruyères ou genèts, et parsemé de di;itales pourprées. Voilà qui offre n camp immense pour la ueillette ; voilà aussi qui crée le type social, primitif à coup sûr, du «chercheur d'airelles s, ouvrier sans ouvrage, vgbond déguenillé, qui monte des centres miniers, passe la nuit dans les« bois noirs », autour d'un eu de branches mortes, et, les bouquets <pb facs="#facs_410" n="401" source="s2lesouvriersdes04sociuoft_0447.xml"/> chargés de myrtiles sur l'épaule, redescend, après quelques jours de cette existence agreste, vers la vie civilisée.
+        Seules alors, comme en Lithuanie, comme dans un gouvernement russe quelconque entre Novgorod et Arlhangel, les aiguilles régu¬lières des sapins, disposées en masses serrées, hérissées de larges ra¬meaux qui craquent sous la neige, mettent la note de leur vert sombre : tout autour, les pins sylvestres, les mélèzes, les épicéas, les ayards ou hêtres, les frênes, mais en petit nombre, les sorbiers écla¬tants de leurs grappes rouges en automne, esquissent sous l'épais manteau dont ils sont recouverts les formes les plus disparates. ̧à et là, de plus en plus, les vides s'observent dans leur armée encore in¬nombrable : certaines montagnes sont dénudées, d'autres multiplient les clairiêres ; cependant on devine toujours la gloire de la gigantesque forèt de jadis, dont les larges troncs faussent parfois les versoirs de la charrue au moment des défrichements de brandes. Mais le trait le plus caractéristique de cette flore, c'est l'amoncellement extraordinaire des arbrisseaux producteurs de baies, que Le Play signalait comme une source de bien-être inappréciable pour les populations septen¬trionales : groseillers sauvages, framboisiers, griottiers, ronces cou¬vertes de baies, airelles surtout (myrtiles sauvages) dont les petites feuilles denses tapissent les rochers, puis les champignons variés, parmi lesquels le cèpe et l'orone, les morilles baptisées du nom de « truffes du pays D, le tout emprisonné par la floraison inlinie des fougères, bruyères ou genèts, et parsemé de di;itales pourprées. Voilà qui offre n camp immense pour la ueillette ; voilà aussi qui crée le type social, primitif à coup sûr, du «chercheur d'airelles s, ouvrier sans ouvrage, vgbond déguenillé, qui monte des centres miniers, passe la nuit dans les« bois noirs », autour d'un eu de branches mortes, et, les bouquets
+        <pb facs="#facs_410" n="401" source="s2lesouvriersdes04sociuoft_0447.xml"/>
+        chargés de myrtiles sur l'épaule, redescend, après quelques jours de cette existence agreste, vers la vie civilisée.
        </p>
        <p xml:id="para_12_401_24">
         Trait curieux, cette merveilleuse netteté qu'offre la flore ne se pré¬sente nullement lorsque l'observateur cherche à analyser la faune de ces ihlands. La race des vaches laitières n'est pas une : les diverses variétés qui semblent se donner rendez-vous en ce point unique, res¬tent disparates, mélangées, abâtardies. La zone paraîtrait devoir rentrer dans le vaste domaine de la race salers (petite taille, robe rouge) qui, aux confins de l'Allier et de la vallée de la Loire forézienne, vient heurter la blanche robe du Charolais. Mais différentes importations, dont le but a été surtout de surexciter le rendement et non la qualité de la production laitière, l'introduction simultanée de taureaux hollandais et tarentais (les deux écoles comptent des adeptes), ont peuplé les pàturages de sujets biarres
@@ -541,7 +585,9 @@
         <ref target="#part_03_01_24" type="renvoi_int_mono">
          (§ 24)
         </ref>
-        . Les lapins domestiques retrouveraient bien vite le sort des lapins sauvages, que la neige, aidée d'ailleurs par le fusil des montagnards, a détruits malgré des tentatives d'acclimata¬tion répétées. Le froid tue le gibier, sauf quelques lièvres nomades ; le chasseur doit se résoudre à attendre patiemment le retour des cailles. La vie sauvage elle-même se restreint dans son expansion : la <pb facs="#facs_411" n="402" source="s2lesouvriersdes04sociuoft_0448.xml"/> mouche des « bois anime seule, l'été, l'obscurité des couverts ; les oiseaux chanteurs sont clairsemés, sauf les corbeaux, presque aussi multiples que dans tel paysage d'Écosse, à Abbotsford par exemple. L'hiver, les loups ne peuvent eux-mémes trouver de fourrés dans les hautes colonnades des troncs lisses sans cesse ébranchés ; et seul « l'homme des bois, variété de l'espèce des « ducs, fait retentir son appel régulier, qui semble le cri d'un homme perdu dans la neige et le brouillard.
+        . Les lapins domestiques retrouveraient bien vite le sort des lapins sauvages, que la neige, aidée d'ailleurs par le fusil des montagnards, a détruits malgré des tentatives d'acclimata¬tion répétées. Le froid tue le gibier, sauf quelques lièvres nomades ; le chasseur doit se résoudre à attendre patiemment le retour des cailles. La vie sauvage elle-même se restreint dans son expansion : la
+        <pb facs="#facs_411" n="402" source="s2lesouvriersdes04sociuoft_0448.xml"/>
+        mouche des « bois anime seule, l'été, l'obscurité des couverts ; les oiseaux chanteurs sont clairsemés, sauf les corbeaux, presque aussi multiples que dans tel paysage d'Écosse, à Abbotsford par exemple. L'hiver, les loups ne peuvent eux-mémes trouver de fourrés dans les hautes colonnades des troncs lisses sans cesse ébranchés ; et seul « l'homme des bois, variété de l'espèce des « ducs, fait retentir son appel régulier, qui semble le cri d'un homme perdu dans la neige et le brouillard.
        </p>
        <p xml:id="para_12_402_27">
         Dans ce milieu social, ainsi nettement dessiné, dans ce canton dont les 15.000 hectares ont désormais leur topographie générale comme esquissée par les développements précédents, parmi cette popula¬tion estimée par le dernier recensement à 8.342 habitants
@@ -559,7 +605,9 @@
         , la grande affaire des fermiers était l'ex¬ploitation des forèts et les charrois qui perdaient leurs attelages ; les femmes, et bon nombre d'hommes, cherchaient un supplément de re¬cettes dans l'industrie rubanière. Les bois, les rubans façonnés au métier, surtout ce métier primitif désigné du nom de « basse-lisse, telle était la production locale, fournissant les matériaux de l'industrie du bâtiment et de l'industrie minière, et alimentant les comptoirs, les magasins » des fabriques collectives, centres naturels des 4.000 mé¬tiers. Bien réduite se trouvait ainsi l'agriculture véritable : les petites fermes produisaient le plus possible de seigle pour la nourriture des habitants, tâchant d'écarter la famine par des récoltes suffisantes ; le foin se vendait, la paille se vendait aussi, quelques vaches labouraient et fournissaient des fromages d'un débit difficile ; les beufs souvent les rempla̧aient, par suite de la supériorité de leur force, qui soute¬nait plus facilement les perpétuels transports. »
        </p>
        <p xml:id="para_12_402_28">
-        Actuellement, une révolution presque complète s'est opérée par la clairvoyance et l'énergie de l'homme éminent dont nous venons de citer les paroles. Le voisinage des villes de houillères et de leurs po¬pulations condensées lui inspira cette pensée toute nouvelle, rendue réalisable par le percement des routes : de canton mondagne qui do¬ine aint-'ienne doit etre le grand producteur de lait pour cette cité de <pb facs="#facs_412" n="403" source="s2lesouvriersdes04sociuoft_0449.xml"/> 117.000 âmes. Il organisa le premier convoi matinal en 1857, et au¬jourd'hui, en trente-cinq ans, la surface entière des sept communes est couverte de prairies, qui repoussent et anéantissent presque les cultures ; les lourdes voitures chargées des « biches (seaux de inc contenant le lait) drainent le long de tous les sentiers et des grandes artères la traite de la veille, pour arriver aux laiteries urbaines, régu¬lièrement approvisionnées. Le lait est devenu, avec le bois, l'une des deux sources de prospérité de la race : l'un et l'autre se font rigou¬reusement équilibre dans le total des revenus annuels.
+        Actuellement, une révolution presque complète s'est opérée par la clairvoyance et l'énergie de l'homme éminent dont nous venons de citer les paroles. Le voisinage des villes de houillères et de leurs po¬pulations condensées lui inspira cette pensée toute nouvelle, rendue réalisable par le percement des routes : de canton mondagne qui do¬ine aint-'ienne doit etre le grand producteur de lait pour cette cité de
+        <pb facs="#facs_412" n="403" source="s2lesouvriersdes04sociuoft_0449.xml"/>
+        117.000 âmes. Il organisa le premier convoi matinal en 1857, et au¬jourd'hui, en trente-cinq ans, la surface entière des sept communes est couverte de prairies, qui repoussent et anéantissent presque les cultures ; les lourdes voitures chargées des « biches (seaux de inc contenant le lait) drainent le long de tous les sentiers et des grandes artères la traite de la veille, pour arriver aux laiteries urbaines, régu¬lièrement approvisionnées. Le lait est devenu, avec le bois, l'une des deux sources de prospérité de la race : l'un et l'autre se font rigou¬reusement équilibre dans le total des revenus annuels.
        </p>
        <p xml:id="para_12_403_32">
         Donc le régime du travail actuel se décompose ainsi qu'il suit : en in¬dustrie agricole et industrie rubanière.
@@ -578,7 +626,9 @@
         2° Les fermes ou exploitations rurales : le mot ferme est ainsi employé dans un sens général, comme synonyme de domaine.
        </p>
        <p xml:id="para_12_403_36">
-        Au centre des organisations agricoles, s'espacent des « terres » encore fort importantes : la terre de Saint-Genest, autour de laquelle le bourg s 'est aggloméré peu à peu, et qui, cn ce siècle peut-être plus qu'en tout autre, a maintenu son rôle traditionnel par la révolution agricole dont elle a été le levier, aussi bien que par la tutelle sociale qui s'y est exercée ; la terre du « Bois », avec son manoir envahi jadis par Mandrin, qui a passé par alliance des Quanson aux Costa de Beau¬regard et par achat aux Phillibert de Fontanès ; la terre de La Faye, démembrement de l'antique baronnie montagnarde, aux mains d'un agriculteur distingué, M. Courbon-Lafaye, etc., etc. Chacune d'elles, comme les « terres » de la France entière, comprend château et dé¬pendances, réserve d'expériences, fermes enfin, de 13 à 30 hectares (maximum réduit de tous les pays laitiers). Çà et là, pullulent les do¬maines, assez nettement aggglomérés, d'une infinité de petits proprié¬taires, paysans parfois riches et cultivant eux-mêmes, journaliers-pro<pb facs="#facs_413" n="404" source="s2lesouvriersdes04sociuoft_0450.xml"/>priétaires surtout dont le travail de bûcheron forme l'occupation capitale. Tout cela, grandes terres ou patrimoines modestes, est con¬servé, au moyen de la pratique la plus énergique possible, étant donnée la loi française, de la transmission intégrale, caractéristique de la famille-souche (Stamm-familie).
+        Au centre des organisations agricoles, s'espacent des « terres » encore fort importantes : la terre de Saint-Genest, autour de laquelle le bourg s 'est aggloméré peu à peu, et qui, cn ce siècle peut-être plus qu'en tout autre, a maintenu son rôle traditionnel par la révolution agricole dont elle a été le levier, aussi bien que par la tutelle sociale qui s'y est exercée ; la terre du « Bois », avec son manoir envahi jadis par Mandrin, qui a passé par alliance des Quanson aux Costa de Beau¬regard et par achat aux Phillibert de Fontanès ; la terre de La Faye, démembrement de l'antique baronnie montagnarde, aux mains d'un agriculteur distingué, M. Courbon-Lafaye, etc., etc. Chacune d'elles, comme les « terres » de la France entière, comprend château et dé¬pendances, réserve d'expériences, fermes enfin, de 13 à 30 hectares (maximum réduit de tous les pays laitiers). Çà et là, pullulent les do¬maines, assez nettement aggglomérés, d'une infinité de petits proprié¬taires, paysans parfois riches et cultivant eux-mêmes, journaliers-pro
+        <pb facs="#facs_413" n="404" source="s2lesouvriersdes04sociuoft_0450.xml"/>
+        priétaires surtout dont le travail de bûcheron forme l'occupation capitale. Tout cela, grandes terres ou patrimoines modestes, est con¬servé, au moyen de la pratique la plus énergique possible, étant donnée la loi française, de la transmission intégrale, caractéristique de la famille-souche (Stamm-familie).
        </p>
        <p xml:id="para_12_404_38">
         En résumé, les deux points extrêmes de l'échelle des exploitations rurales seraient représentés par les types suivants :
@@ -646,7 +696,9 @@
         L'industrie a profondément pénétré les habitudes de cette popu¬lation, chezL laquelle les longs hivers multiplient les bras inoccupés. Elle y a revêtu ses deux formes successives : la « fabrique collective n, le grand atelier ».
        </p>
        <p xml:id="para_12_404_53">
-        1° Fabrique collective. — les 4.000 métiers de jadis sont réduits à 4)0. Cependant le comnis en soie », — le représentant fixe du né¬gociant, qui de Saint-tienne domine les ateliers en chambre par <pb facs="#facs_414" n="405" source="s2lesouvriersdes04sociuoft_0451.xml"/> l'expédition de la matière première, par l'exécution de certains tra¬vaux, et même souvent par la propriété du matériel. — reste toujours un personnage fort respecté. Une « maison » surtout a conservé le monopole de ce vieux mode de fabrication, qui résiste victorieusement, grâce à l'extraordinaire abaissement des salaires (0ᶠ 75 à 1 franc pour 10 heures de travail). Cette sorte d'ateliers, où figurent presque exclu¬sivement les femmes, présente les trois catégories de métiers : métier de basse-lisse, réduction du métier à tisser qui déroule une unique pièce ; métier tambour, qui, par le mouvement rythmé de la « barre D, fait circuler six ou douze navettes dans les six ou doue chaînes pa¬rallèles ; métier Jacquart enfin, plus lourd, plus pénible, dont le sys¬tème de cartons compliqué permet de tisser, en même temps que l'é¬troite bande du ruban, les noms et adresses du fabricant, les dessins, les portraits même. L'article « décoration spécialement se fabrique en ces chambres enfumées, à tous les étages des hautes maisons du bourg ; les fots multicolores qui seront plus ard : ordre d'sabelle, Saints-Maurice et Laaare, Pie IN, Grégoire le Grand, médaille de sau¬vetage, médaille militaire, Légion d'honneur, s'échappent de là pour courir à travers le monde, au-devant des actions d'éclat ou des honteux marchandages
+        1° Fabrique collective. — les 4.000 métiers de jadis sont réduits à 4)0. Cependant le comnis en soie », — le représentant fixe du né¬gociant, qui de Saint-tienne domine les ateliers en chambre par
+        <pb facs="#facs_414" n="405" source="s2lesouvriersdes04sociuoft_0451.xml"/>
+        l'expédition de la matière première, par l'exécution de certains tra¬vaux, et même souvent par la propriété du matériel. — reste toujours un personnage fort respecté. Une « maison » surtout a conservé le monopole de ce vieux mode de fabrication, qui résiste victorieusement, grâce à l'extraordinaire abaissement des salaires (0ᶠ 75 à 1 franc pour 10 heures de travail). Cette sorte d'ateliers, où figurent presque exclu¬sivement les femmes, présente les trois catégories de métiers : métier de basse-lisse, réduction du métier à tisser qui déroule une unique pièce ; métier tambour, qui, par le mouvement rythmé de la « barre D, fait circuler six ou douze navettes dans les six ou doue chaînes pa¬rallèles ; métier Jacquart enfin, plus lourd, plus pénible, dont le sys¬tème de cartons compliqué permet de tisser, en même temps que l'é¬troite bande du ruban, les noms et adresses du fabricant, les dessins, les portraits même. L'article « décoration spécialement se fabrique en ces chambres enfumées, à tous les étages des hautes maisons du bourg ; les fots multicolores qui seront plus ard : ordre d'sabelle, Saints-Maurice et Laaare, Pie IN, Grégoire le Grand, médaille de sau¬vetage, médaille militaire, Légion d'honneur, s'échappent de là pour courir à travers le monde, au-devant des actions d'éclat ou des honteux marchandages
         <ref target="#part_03_01_27" type="renvoi_int_mono">
          (§ 27)
         </ref>
@@ -725,7 +777,8 @@
         14.9R 9.0I7 8.774 8.342
         </p>-->
        <p xml:id="para_12_406_77">
-        <pb facs="#facs_415" n="406" source="s2lesouvriersdes04sociuoft_0452.xml"/> La « circulation des habitants, pour ainsi dire, — la rapidité de dé¬veloppement des unités familiales et le départ des individualités déta¬chées, — semble fort aetive. Ce massif de montagnes constitue comme un réservoir d'hommes, un de ces réservoirs qui renouvelle les familles épuisées des cités et repeuple lentement la France, de concert avec telle ou telle province, Auvergne et Bretagne. Les naissances sont élevées, et le total ne s'accroit pas ; point d'agitation à la surface, pas de montée régulière des familles les mieu douées ; les classes sem¬blent figées en leur antithèse, noblesse très restreinte, peuple et bour¬geoisie modeste, unies par une assez grande analogie de mœurs. C'est qu'une émigration constante pousse au dehors les remuants et les ac¬tifs : une continuelle descente s'opère vers les villes industrielles, où le montagnard se transforme en mineur, passementier, verrier, — la gamme entière du prolétariat révolutionnaire ; — çà et là, les indivi¬dualités les plus hautes apparaissent à Paris, à Lyon, dans les grands centres, à tous les degrés des classes libérales et surtout du clergé.
+        <pb facs="#facs_415" n="406" source="s2lesouvriersdes04sociuoft_0452.xml"/>
+        La « circulation des habitants, pour ainsi dire, — la rapidité de dé¬veloppement des unités familiales et le départ des individualités déta¬chées, — semble fort aetive. Ce massif de montagnes constitue comme un réservoir d'hommes, un de ces réservoirs qui renouvelle les familles épuisées des cités et repeuple lentement la France, de concert avec telle ou telle province, Auvergne et Bretagne. Les naissances sont élevées, et le total ne s'accroit pas ; point d'agitation à la surface, pas de montée régulière des familles les mieu douées ; les classes sem¬blent figées en leur antithèse, noblesse très restreinte, peuple et bour¬geoisie modeste, unies par une assez grande analogie de mœurs. C'est qu'une émigration constante pousse au dehors les remuants et les ac¬tifs : une continuelle descente s'opère vers les villes industrielles, où le montagnard se transforme en mineur, passementier, verrier, — la gamme entière du prolétariat révolutionnaire ; — çà et là, les indivi¬dualités les plus hautes apparaissent à Paris, à Lyon, dans les grands centres, à tous les degrés des classes libérales et surtout du clergé.
        </p>
        <p xml:id="para_12_406_78">
         Ce mouvement est nettement prouvé par trois documents. D'abord, ce tableau de la population de la commune-tête, le chef-lieu de canton, pendant la dernière période décennale, démontre l'accroissement.
@@ -806,7 +859,8 @@
         10. ́tablissements d'instruction................................. 60
         </p>-->
        <p xml:id="para_12_407_105">
-        <pb facs="#facs_416" n="407" source="s2lesouvriersdes04sociuoft_0453.xml"/> La conséquence, l'émigration, se devine entre les lignes du tableau suivant, qui donne la répartition des habitants au point de vue de l'âge et de l'état civil :
+        <pb facs="#facs_416" n="407" source="s2lesouvriersdes04sociuoft_0453.xml"/>
+        La conséquence, l'émigration, se devine entre les lignes du tableau suivant, qui donne la répartition des habitants au point de vue de l'âge et de l'état civil :
        </p>
        <figure rend="portrait" type="table">
         <head resp="added" type="table" xml:id="figure_7">
@@ -852,7 +906,9 @@
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (§ 18)
         </ref>
-        . Au point de vue économique, il ne peut en être de même : l'exploitation, la ferme qu'elle détient, — c'est une famille de laitier, — ne vient pas au premier rang par l'importance de ses ré¬coltes et le nombre de ses bestiaux ; elle ne donne pas à elle seule l'i<pb facs="#facs_417" n="408" source="s2lesouvriersdes04sociuoft_0454.xml"/>dée la plus haute de l'agriculture locale. Mais elle offre cet avantage inappréciable de nous placer à la bifurcation, pour ainsi dire, du « fermier » riche et à peu près spécialisé dans la culture, du bûcheron¬manœuvre, établi dans une borderie et louant ses bras pour l'exploi¬tation des forèts voisines, enfin de l'industrie rubanière, car la fille aînée rapporte chaque mois un salaire assez élevé, d'abord d'un mou¬linage et plus tard d'une manufacture de tissage du pays. Le lait, le bois, les rubans : nous sommes à un point stratégique, à l'intersection des trois éléments de la vie économique du pays.
+        . Au point de vue économique, il ne peut en être de même : l'exploitation, la ferme qu'elle détient, — c'est une famille de laitier, — ne vient pas au premier rang par l'importance de ses ré¬coltes et le nombre de ses bestiaux ; elle ne donne pas à elle seule l'i
+        <pb facs="#facs_417" n="408" source="s2lesouvriersdes04sociuoft_0454.xml"/>
+        dée la plus haute de l'agriculture locale. Mais elle offre cet avantage inappréciable de nous placer à la bifurcation, pour ainsi dire, du « fermier » riche et à peu près spécialisé dans la culture, du bûcheron¬manœuvre, établi dans une borderie et louant ses bras pour l'exploi¬tation des forèts voisines, enfin de l'industrie rubanière, car la fille aînée rapporte chaque mois un salaire assez élevé, d'abord d'un mou¬linage et plus tard d'une manufacture de tissage du pays. Le lait, le bois, les rubans : nous sommes à un point stratégique, à l'intersection des trois éléments de la vie économique du pays.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
@@ -864,28 +920,60 @@
         La famille se décompose ainsi qu'il suit :
        </p>
        <p xml:id="para_12_408_118">
-        1° <persName>ANTOINE H***</persName>, dit L***, chef de maison............ 46 ans.
+        1°
+        <persName type="respondent" xml:id="ID-080aE1">
+         ANTOINE H***
+        </persName>
+        , dit L***, chef de maison............ 46 ans.
        </p>
        <p xml:id="para_12_408_119">
-        2° <persName>CATHERINE M***</persName>, sa femme............ 40 —
+        2°
+        <persName type="respondent" xml:id="ID-080aE2">
+         CATHERINE M***
+        </persName>
+        , sa femme............ 40 —
        </p>
        <p xml:id="para_12_408_120">
-        3° <persName>MARIE-ANTOINETTE H***</persName>, leur fille aînée, ouvriére d'une fabrique rurale............ 14 —
+        3°
+        <persName type="respondent" xml:id="ID-080aE3">
+         MARIE-ANTOINETTE H***
+        </persName>
+        , leur fille aînée, ouvriére d'une fabrique rurale............ 14 —
        </p>
        <p xml:id="para_12_408_121">
-        4° <persName>MARIE-ROSE H***</persName>, leur deuxiéme fille, bergère............ 12 —
+        4°
+        <persName type="respondent" xml:id="ID-080aE4">
+         MARIE-ROSE H***
+        </persName>
+        , leur deuxiéme fille, bergère............ 12 —
        </p>
        <p xml:id="para_12_408_122">
-        5° <persName>ANTOINE H***</persName>, leur fils aîné, berger chez sa grand'mère............ 10 —
+        5°
+        <persName type="respondent" xml:id="ID-080aE5">
+         ANTOINE H***
+        </persName>
+        , leur fils aîné, berger chez sa grand'mère............ 10 —
        </p>
        <p xml:id="para_12_408_123">
-        6° <persName>JOSEPH H***</persName>, leur deuxième ils, berger chez un voisin............ 9 —
+        6°
+        <persName type="respondent" xml:id="ID-080aE6">
+         JOSEPH H***
+        </persName>
+        , leur deuxième ils, berger chez un voisin............ 9 —
        </p>
        <p xml:id="para_12_408_124">
-        7° <persName>ANDRÉ H***</persName>, leur troisième fils............ 7 —
+        7°
+        <persName type="respondent" xml:id="ID-080aE7">
+         ANDRÉ H***
+        </persName>
+        , leur troisième fils............ 7 —
        </p>
        <p xml:id="para_12_408_125">
-        8° <persName>CLAUDE-MARIE H***</persName>, leur quatrième fils............ 1 an 1/2
+        8°
+        <persName type="respondent" xml:id="ID-080aE8">
+         CLAUDE-MARIE H***
+        </persName>
+        , leur quatrième fils............ 1 an 1/2
        </p>
        <p xml:id="para_12_408_126">
         Cette famille, fondée depuis dix-sept ans (date du mariage du père et de la mère), offre les éléments distinctifs de la famille-souche, en ce sens qu'elle est issue de deux autres familles organisées d'après ce type social ; cependant, c'est au moment de la transmission de la ferme et du cheptel que se dessinera nettement le caractère de sa constitution
@@ -898,7 +986,9 @@
         Les parents d'Antoine H*** étaient fermiers sur le territoire même de la commune. Sept enfants naquirent de leur union : deux garçons, fermiers l'un et l'autre ; cinq filles, mariées à des journaliers, à des pro¬priétaires ruraux et à de petits commercants du chef-lieu. L'émigra¬tion, on le voit, avait été peu utilisée.
        </p>
        <p xml:id="para_12_408_128">
-        Il n'en a pas été de même de la famille de la femme. Le père, fermier et « scieur », c'est-à-dire préposé à la direction d'une de ces petites scieries de la montagne qui disparaissent devant la concentration in¬dustrielle, fut obligé de recourir à « l'essaimage » vers la plaine et les centres du tissage ou de la houille, pour nourrir ses treize enfants, quatre garçons et neuf filles. Un fils est resté avec la mère ; mais <pb facs="#facs_418" n="409" source="s2lesouvriersdes04sociuoft_0455.xml"/> un second est ouvrier à Saint-Etienne; deux autres sont morts, dont un au service ; les filles survivantes, car là aussi des pertes assez sensibles ont frappé coup sur coup cette famille, sont placées comme domes¬iques à Saint-Chamond ; une est mariée dans le Rhône, une dernière est à Paris, où elle a épousé un boucher établi. Nous saisissons ici le trait dominant de ces populations : la descente continue vers la plaine et les grandes villes, l'exil sans esprit de retour qui conduit parfois vers des situations meilleures, le plus souvent vers la vie précaire des ateliers agglomérés de nos jours. Par cette dispersion à la recherche du pain quotidien, un ou deux enfants seuls restent au foyer : eux seuls peuvent être utiles jusqu'à la mort des parents et prendre alors la continuation de leur tâche. Ainsi, par la force des choses, — le ra¬tionnement du sol, l'exode des jeunes, — s'est constituée cette famille¬souche, dont les vestiges sont semés tout autour de nous.
+        Il n'en a pas été de même de la famille de la femme. Le père, fermier et « scieur », c'est-à-dire préposé à la direction d'une de ces petites scieries de la montagne qui disparaissent devant la concentration in¬dustrielle, fut obligé de recourir à « l'essaimage » vers la plaine et les centres du tissage ou de la houille, pour nourrir ses treize enfants, quatre garçons et neuf filles. Un fils est resté avec la mère ; mais
+        <pb facs="#facs_418" n="409" source="s2lesouvriersdes04sociuoft_0455.xml"/>
+        un second est ouvrier à Saint-Etienne; deux autres sont morts, dont un au service ; les filles survivantes, car là aussi des pertes assez sensibles ont frappé coup sur coup cette famille, sont placées comme domes¬iques à Saint-Chamond ; une est mariée dans le Rhône, une dernière est à Paris, où elle a épousé un boucher établi. Nous saisissons ici le trait dominant de ces populations : la descente continue vers la plaine et les grandes villes, l'exil sans esprit de retour qui conduit parfois vers des situations meilleures, le plus souvent vers la vie précaire des ateliers agglomérés de nos jours. Par cette dispersion à la recherche du pain quotidien, un ou deux enfants seuls restent au foyer : eux seuls peuvent être utiles jusqu'à la mort des parents et prendre alors la continuation de leur tâche. Ainsi, par la force des choses, — le ra¬tionnement du sol, l'exode des jeunes, — s'est constituée cette famille¬souche, dont les vestiges sont semés tout autour de nous.
        </p>
        <p xml:id="para_12_409_130">
         Comme particularité sur les noms de baptême, il convient de relever ce fait, non observé dans la famille étudiée, du très fréquent emploi des noms de Régis et de Marius pour les garçons. Régis évoque le sou¬venir de saint Fraņois de Régis, dont le sanctuaire de la Louvesc, au cœur des montagnes de l'Ardèche, est le centre, incessamment visité, de nombreux pèlerinages. Marius est le masculin de Mariel et assure aux enfants la protection de la sainte Vierge. Voilà un rapprochement que des lettrés parisiens des plus subtils auraient malaisément décou¬vert.
@@ -912,7 +1002,9 @@
         § 3. RELIGION ET HABITUDES MORALES.
        </head>
        <p xml:id="para_12_409_133">
-        Lorsque vous pénétrez dans la salle basse, presque souterraine, de cette petite ferme isolée à la lisière des sapins, deux faits, assurément fort édifiants pour les observateurs épris des mœurs archaliques, viennent vous rappeler la distance prodigieuse qui vous sépare des milieux athées et révoltés des grandes villes. Accroché aux poutres du plafond, au-dessus de la table où se prennent les repas en commun, apparait un autel minuscule, comme ceux que les enfants pieux s'achè<pb facs="#facs_419" n="410" source="s2lesouvriersdes04sociuoft_0456.xml"/>tent dans les imageries du quartier Saint-Sulpice, un crucifix domine le tout, une sainte Vierge en plâtre l'accompagne, puis tout autour de petits chandeliers de plomb, du papier doré, des brins d'herbes, simulent l'ornementation des chapelles catholiques. Au fond, cou¬vrant toute la paroi de la muraille, une vingtaine de photographies dans leurs cadres moirés de brun représentent, non pas des silhouettes massives de montagnards en habits de fête, mais des profils délicats d'enfants luxueusement mis : toute une famille de bienfaiteurs appartenant à une classe dominante, révérée. C'est presque le trone et l'autel : le culte du Dieu traditionnel et du « château » ; deux religions qui s'ajoutent et s'accroissent l'une l'autre l'une manifestée par les prières à haute voix, les chapelets récités aux veillées d'hiver, les « benedicite » avant la nourriture quotidienne ; l'autre, par le dé¬vouement entier, le « loyalisme, pour ainsi dire, à l'égard d'une race à qui le commandement héréditaire semble appartenir.
+        Lorsque vous pénétrez dans la salle basse, presque souterraine, de cette petite ferme isolée à la lisière des sapins, deux faits, assurément fort édifiants pour les observateurs épris des mœurs archaliques, viennent vous rappeler la distance prodigieuse qui vous sépare des milieux athées et révoltés des grandes villes. Accroché aux poutres du plafond, au-dessus de la table où se prennent les repas en commun, apparait un autel minuscule, comme ceux que les enfants pieux s'achè
+        <pb facs="#facs_419" n="410" source="s2lesouvriersdes04sociuoft_0456.xml"/>
+        tent dans les imageries du quartier Saint-Sulpice, un crucifix domine le tout, une sainte Vierge en plâtre l'accompagne, puis tout autour de petits chandeliers de plomb, du papier doré, des brins d'herbes, simulent l'ornementation des chapelles catholiques. Au fond, cou¬vrant toute la paroi de la muraille, une vingtaine de photographies dans leurs cadres moirés de brun représentent, non pas des silhouettes massives de montagnards en habits de fête, mais des profils délicats d'enfants luxueusement mis : toute une famille de bienfaiteurs appartenant à une classe dominante, révérée. C'est presque le trone et l'autel : le culte du Dieu traditionnel et du « château » ; deux religions qui s'ajoutent et s'accroissent l'une l'autre l'une manifestée par les prières à haute voix, les chapelets récités aux veillées d'hiver, les « benedicite » avant la nourriture quotidienne ; l'autre, par le dé¬vouement entier, le « loyalisme, pour ainsi dire, à l'égard d'une race à qui le commandement héréditaire semble appartenir.
        </p>
        <p xml:id="para_12_410_135">
         0r, il n'y a là, au moins dans le premier de ces deux sentiments, qu'un trait général, commun à toutes les familles de ce massifmonta¬gneux, formé par l'intersection de la Loire, de la lIaute-Loire et de l'Ardèche
@@ -935,7 +1027,9 @@
           Delhomme, editeur, Paris.
          </p>
         </note>
-        , le catholicisme a pénétré ces masses, dictant dans la plus large mesure les coutumes de la vie privée et publique : les habitudes intimes de la famille n'en sont pas seulement dominées, au point que le culte domestique y a conservé toute sa force primitive, avec son luxe d'images dévotes et de petits re¬liquaires ; mais les pratiques extérieures, accomplies dans l'église par roissiale, la confession auriculaire et la s communion des espèces transformées par la présence réelle, sont considérées comme un de¬voir strict aux principales fètes de l'année ; le respect humain s'exerce en un sens inverse des tendances courantes dans ce groupement so¬cial, où « confrérie de l'apostolat », confrérie des enfants de Marie, confrérie de aint-Louis de tiontague, saisissent, au sortir de la pre<pb facs="#facs_420" n="411" source="s2lesouvriersdes04sociuoft_0457.xml"/>mière communion et du catéchisme, enfants, jeunes hommes et jeunes filles. A peine quatre ou cinq indiflférents, — le libre-penseur serait un phénomène de réprobation universelle, — se tiennent-ils à distance de l'acte de profession publique exigé dans la période pas¬cale. Bien plus, les manifestations collectives et en masse se tradui¬sent de temps à autre par les missions prêchées par des ordres mo¬nastiques ; missions qui se terminent par des processions gigantesques, véritables fêtes locales, précédées de vingt ou trente cavaliers, réunissant parfois, derrière le clergé et le conseil communal, jusqu'à 3.000 per¬sonnes. Et nous ne parlons ni des pèlerinages inspirés par l'usage, le pèlerinage de la Louvesc, que chaque fidèle, homme ou femme, s'empresse d'accomplir, avec une ponctualité attribuée par les scepti¬ques parisiens aux seuls adorateurs de la asba; ni des vocations religieuses incessantes, multiples, détachant de toutes les familles des individualités d'élite vers les congrégations de femmes, hospitalières ou enseignantes, vers les congrégations d'hommes, surtout les Maris¬tes, et vers le clergé séculier (§
+        , le catholicisme a pénétré ces masses, dictant dans la plus large mesure les coutumes de la vie privée et publique : les habitudes intimes de la famille n'en sont pas seulement dominées, au point que le culte domestique y a conservé toute sa force primitive, avec son luxe d'images dévotes et de petits re¬liquaires ; mais les pratiques extérieures, accomplies dans l'église par roissiale, la confession auriculaire et la s communion des espèces transformées par la présence réelle, sont considérées comme un de¬voir strict aux principales fètes de l'année ; le respect humain s'exerce en un sens inverse des tendances courantes dans ce groupement so¬cial, où « confrérie de l'apostolat », confrérie des enfants de Marie, confrérie de aint-Louis de tiontague, saisissent, au sortir de la pre
+        <pb facs="#facs_420" n="411" source="s2lesouvriersdes04sociuoft_0457.xml"/>
+        mière communion et du catéchisme, enfants, jeunes hommes et jeunes filles. A peine quatre ou cinq indiflférents, — le libre-penseur serait un phénomène de réprobation universelle, — se tiennent-ils à distance de l'acte de profession publique exigé dans la période pas¬cale. Bien plus, les manifestations collectives et en masse se tradui¬sent de temps à autre par les missions prêchées par des ordres mo¬nastiques ; missions qui se terminent par des processions gigantesques, véritables fêtes locales, précédées de vingt ou trente cavaliers, réunissant parfois, derrière le clergé et le conseil communal, jusqu'à 3.000 per¬sonnes. Et nous ne parlons ni des pèlerinages inspirés par l'usage, le pèlerinage de la Louvesc, que chaque fidèle, homme ou femme, s'empresse d'accomplir, avec une ponctualité attribuée par les scepti¬ques parisiens aux seuls adorateurs de la asba; ni des vocations religieuses incessantes, multiples, détachant de toutes les familles des individualités d'élite vers les congrégations de femmes, hospitalières ou enseignantes, vers les congrégations d'hommes, surtout les Maris¬tes, et vers le clergé séculier (§
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          § 17
         </ref>
@@ -950,7 +1044,9 @@
         ).
        </p>
        <p xml:id="para_12_411_140">
-        Ce n'est pas tout : bien que nous soyons sur le terrain même qui a vu surgir entre nobles et paysans les luttes sociales marquées par les grands jours d'Auvergne (il suffit de descendre jusqu'à la mé¬tropole pour constater la bonne justice que les parlementaires anoblis de Paris avaient faite du château féodal de Saint-Priest), l'attache¬ment à la famille des anciens chefs locaux, les barons de Saint¬Genest, se manifeste ici, — sur ce point particulier, — avec une force qui semble réservée aux habitants des highlands d'Ecosse pour leurs chefs de clans. L'incessant souvenir, répété à chaque ferme, de cette autorité sociale disparue il y a vingt ans, le baron Louis de Saint-Genest, le « réformateur de l'agriculture locale », révèle ce sentiment bien évanoui ailleurs : le respect affectueux à un pouvoir légitimé par l'exercice héréditaire. Les fêtes du a château » de¬viennent les fêtes de la contrée tout entière. Qu'il s'agisse de la ré¬ception des jeunes mariées, à qui l'on o ffre le « vin d'honneur », ou des mariages célébrés dans la basilique paroissiale, les foules s'amas¬sent, dressent les arcs de triomphe, déracinent même les sapins pour les planter le long des routes, au grand désespoir des agents voyers. Le « mot d'ordre » politique vient de là : l'opinion du chef naturel devient l'opinion générale ; et, malgré un lent aflaissement qui tend à se produire, elle maintient chez ces montagnards, désireux de vivre en paix avec les puissances et sans convictions politiques tran<pb facs="#facs_421" n="412" source="s2lesouvriersdes04sociuoft_0458.xml"/>chées, le vote machinal en faveur des candidats de la légitimité pure
+        Ce n'est pas tout : bien que nous soyons sur le terrain même qui a vu surgir entre nobles et paysans les luttes sociales marquées par les grands jours d'Auvergne (il suffit de descendre jusqu'à la mé¬tropole pour constater la bonne justice que les parlementaires anoblis de Paris avaient faite du château féodal de Saint-Priest), l'attache¬ment à la famille des anciens chefs locaux, les barons de Saint¬Genest, se manifeste ici, — sur ce point particulier, — avec une force qui semble réservée aux habitants des highlands d'Ecosse pour leurs chefs de clans. L'incessant souvenir, répété à chaque ferme, de cette autorité sociale disparue il y a vingt ans, le baron Louis de Saint-Genest, le « réformateur de l'agriculture locale », révèle ce sentiment bien évanoui ailleurs : le respect affectueux à un pouvoir légitimé par l'exercice héréditaire. Les fêtes du a château » de¬viennent les fêtes de la contrée tout entière. Qu'il s'agisse de la ré¬ception des jeunes mariées, à qui l'on o ffre le « vin d'honneur », ou des mariages célébrés dans la basilique paroissiale, les foules s'amas¬sent, dressent les arcs de triomphe, déracinent même les sapins pour les planter le long des routes, au grand désespoir des agents voyers. Le « mot d'ordre » politique vient de là : l'opinion du chef naturel devient l'opinion générale ; et, malgré un lent aflaissement qui tend à se produire, elle maintient chez ces montagnards, désireux de vivre en paix avec les puissances et sans convictions politiques tran
+        <pb facs="#facs_421" n="412" source="s2lesouvriersdes04sociuoft_0458.xml"/>
+        chées, le vote machinal en faveur des candidats de la légitimité pure
         <note type="bp">
          <p>
           1. 400 electeurs contre 100 dans le canton en moycnne.
@@ -968,7 +1064,8 @@
         Que formera cette éducation De robustes montagnards, agglo¬mérés en groupes nombreux, car ils ignorent la stérilité systématique aux manières un peu frustes pour ceux qui les entourent ; des natures loyales, franches, sauvages, méfiantes à l'égard de l'étranger ren¬contré par asard, peu portées à la politesse de certaines races du Midi et de l'Ouest de la France, mais gaies, heureuses de vivre, recon¬naissantes à qui les sert, d'un dévouement patient, sans éclat ; mal préparées à la lutte héroique et ouverte, mais capables, en 1793, de cacher et finalement de sauver « le citoyen Saint-Genest », ci-devant baron ; amies de la paix sociale et du travail, ́prises d'un pouvoir fort, abhorrant procès et chicane, au point que, sans une com¬munc plus batailleuse que les six autres, la petite justice de paix, continuation du bailliage ancien des seigneurs, chômerait faute de clients ; de meurs douces et honnêtes, malgré la pratique ancienne de l'industrie en chambre, malgré l'invasion constante de la concentra¬tion des usines, grâce à une opinion publique ferme, grâce aussi à des confréries confessionnelles, qui vont jusqu'à  payer la journée » des filles pauvres, pour les écarter de tel contact dangereux ou de telle pente mauvaise.
        </p>
        <p xml:id="para_12_413_147">
-        <pb facs="#facs_422" n="413" source="s2lesouvriersdes04sociuoft_0459.xml"/> Mais cette éducation déracinera-t-elle le « vice national », pour ainsi dire, le vice général, vice des pays pauvres et froids, Russie, Norvège, Angleterre, lcosse, l'alcoolisme, qui a fait surgir les maisons de tem¬pérance d'Edimbourg et des villes anglaises, et quine soulève ici qu'un blâme bien modéré en face de l'infinie variété des restaurants, cafés et débits, échelonnés en jalons sur chaque route ou condensés au chef-lieu Les joyeuses beuveries » du chef de famille aux jours de fête ne permettent pas de le supposer. Le moyen de persuader à ces hommes, souvent mal nourris et bloqués pendant des semaines par la neige, que l'idéal de la vie ne consiste pas à emmagasiner, sous la trappe à bascule de leur cave, le vin ou l'eau-de- vie pour se réchauffer pendant les tempètes d'hiver Comme en Bretagne, des dévotes se rencontrent, respectées pour leur vie irréprochable, mais qui n'ont jamais pu rompre les relations trop réguliêres avec leur bouteille d'eau-de-vie de marc. Quelques cas de delirium tremens en résultent çà et là ; quelques crimes domestiques, même quelques êtres diffor¬mes, de loin en loin, victimes de l'ivrognerie héréditaire ; toutefois, la race dans son ensemble n'en a pas encore souffert.
+        <pb facs="#facs_422" n="413" source="s2lesouvriersdes04sociuoft_0459.xml"/>
+        Mais cette éducation déracinera-t-elle le « vice national », pour ainsi dire, le vice général, vice des pays pauvres et froids, Russie, Norvège, Angleterre, lcosse, l'alcoolisme, qui a fait surgir les maisons de tem¬pérance d'Edimbourg et des villes anglaises, et quine soulève ici qu'un blâme bien modéré en face de l'infinie variété des restaurants, cafés et débits, échelonnés en jalons sur chaque route ou condensés au chef-lieu Les joyeuses beuveries » du chef de famille aux jours de fête ne permettent pas de le supposer. Le moyen de persuader à ces hommes, souvent mal nourris et bloqués pendant des semaines par la neige, que l'idéal de la vie ne consiste pas à emmagasiner, sous la trappe à bascule de leur cave, le vin ou l'eau-de- vie pour se réchauffer pendant les tempètes d'hiver Comme en Bretagne, des dévotes se rencontrent, respectées pour leur vie irréprochable, mais qui n'ont jamais pu rompre les relations trop réguliêres avec leur bouteille d'eau-de-vie de marc. Quelques cas de delirium tremens en résultent çà et là ; quelques crimes domestiques, même quelques êtres diffor¬mes, de loin en loin, victimes de l'ivrognerie héréditaire ; toutefois, la race dans son ensemble n'en a pas encore souffert.
        </p>
        <p xml:id="para_12_413_148">
         Il est deux palliatifs contre l'alcoolisme : la substitution du vin de raisin pur aux alcools des usines et aussi l'instruction, qui, en éle¬vant et compliquant les gouts intellectuels, détourne du plus gros¬sier des vices énumérés par Luther. L'instruction, gènée pendant de longs siècles par l'idiome montagnard
@@ -977,7 +1074,9 @@
           C'est une branche de la langue romane : elle a atteint sa plus haute expression dans les œuvres littéraires du dialecte de Saint-Étienne.
          </p>
         </note>
-        , a été largement distri¬buée, et distribuée par le clergé lui-même. Celui-ci n'a pas voulu laisser détacher de son domaine la supériorité intellectuelle, et depuis de longues années il a absorbé l'enseignement par ses con¬grégations d'hommes et de femmes ; il l'a répandu pour en guider le courant. Jadis, les Béates, sorte de religieuses isolées çà et là dans les hameaux, avaient trouvé la véritable formule de l'enseigne¬ment primaire dans ces pays où les communications se trouvent coupées dans la période hivernale. Depuis que les lois de 1882, qui ont entraîné dans le reste de la France une vive impulsion scolaire, ont exigé, par leurs prescriptions un peu trop rigides, la concentra¬tion des établissements d'instruction, les « Béates » ont dû céder la place aux «écoles, préexistantes d'ailleurs, mais grandies par cela même : Frêres Maristes, pour les garçons ; sœurs de Saint-Joseph, pour les filles. Les premiers, écrasant l'école d'Éat, les secondes <pb facs="#facs_423" n="414" source="s2lesouvriersdes04sociuoft_0460.xml"/> ayant empêché jusqu'à la création d'une concurrence, ont fait « monter, pour ainsi dire, l'idée religieuse et morale, à mesure que les idées, les meurs, s'élevaient vers une complication plus grande. Le chefde famille et sa femme savent lire et écrire, ce que ne sauraient pas forcément les membres d'une famille symétrique dans telle contrée réputée libérale. Les livres pieux, triés avec soin, sont les seuls qui tombent entre leurs mains. Les journaux, peu lus d'ail¬leurs, ne sont achetés que lorsqu'ils restent attachés à l'ancien ordre de choses. La vieille tradition religieuse, morale et politique, a su se maintenir au niveau du siècle.
+        , a été largement distri¬buée, et distribuée par le clergé lui-même. Celui-ci n'a pas voulu laisser détacher de son domaine la supériorité intellectuelle, et depuis de longues années il a absorbé l'enseignement par ses con¬grégations d'hommes et de femmes ; il l'a répandu pour en guider le courant. Jadis, les Béates, sorte de religieuses isolées çà et là dans les hameaux, avaient trouvé la véritable formule de l'enseigne¬ment primaire dans ces pays où les communications se trouvent coupées dans la période hivernale. Depuis que les lois de 1882, qui ont entraîné dans le reste de la France une vive impulsion scolaire, ont exigé, par leurs prescriptions un peu trop rigides, la concentra¬tion des établissements d'instruction, les « Béates » ont dû céder la place aux «écoles, préexistantes d'ailleurs, mais grandies par cela même : Frêres Maristes, pour les garçons ; sœurs de Saint-Joseph, pour les filles. Les premiers, écrasant l'école d'Éat, les secondes
+        <pb facs="#facs_423" n="414" source="s2lesouvriersdes04sociuoft_0460.xml"/>
+        ayant empêché jusqu'à la création d'une concurrence, ont fait « monter, pour ainsi dire, l'idée religieuse et morale, à mesure que les idées, les meurs, s'élevaient vers une complication plus grande. Le chefde famille et sa femme savent lire et écrire, ce que ne sauraient pas forcément les membres d'une famille symétrique dans telle contrée réputée libérale. Les livres pieux, triés avec soin, sont les seuls qui tombent entre leurs mains. Les journaux, peu lus d'ail¬leurs, ne sont achetés que lorsqu'ils restent attachés à l'ancien ordre de choses. La vieille tradition religieuse, morale et politique, a su se maintenir au niveau du siècle.
        </p>
        <p xml:id="para_12_414_152">
         Mais, au sortir de ces impressions de l'école, la pratique de la vie viendra encore consolider la confiance du montagnard dans les vieux rouages de sa constitution locale. Par qui sera-t-il guidé dans ses travaux agricoles2 Précisément par la famille qui exerca jadis le pouvoir seigneurial. C'est elle qui, par une initiative hardie, a pris la direction du mouvement économique, grâce à elle, une idée, com¬battue comme impraticable, a porté à son maximum le bien-être de tous ; à chaque pas son exemple se retrouve, fixant la tradition du travail de la terre, qui existait à peine avant elle et qu'elle a en réalité fondé. L'agronome éminent qui en était le chef a créé l'enseigne¬ment professionnel du travail rural sans frais, sans déplacement, sans utopies. l'ous sont venus se ranger, riches fermiers ou labou¬reurs modestes, sous l'influence déjà lointaine pourtant de cette autorité bienfaisante, de ce patronage utilitaire, qui. jugé infaillible dans les petites choses, est demeuré tout-puissant sur les grandes.
@@ -991,7 +1090,9 @@
         § 4. HYGIÈNE ET SERVICE DE SANTÉ.
        </head>
        <p xml:id="para_12_414_156">
-        Toute la richesse sanguine de cette race brune et musclée, moyenne de taille, un peu lente d'allures, mais carrée et résistante, se retrouve dans la famille étudiée. Le chef d'abord, plutôt au-dessous de la moyenne (1ᵉ60), ancien garde mobile de l'armée de la Loire et de <pb facs="#facs_424" n="415" source="s2lesouvriersdes04sociuoft_0461.xml"/> l'armée de l'Est en 1870-71 ; la femme, plus grande, plus forte (1ᵐ63), s'épanouissant dans la santé franche et gaie des montagnardes, igno¬rant la préoccupation et la maladie ; les enfants, tous superbes, massifs d'une lourdeur bien portante et faite pour humilier les anémies des villes.
+        Toute la richesse sanguine de cette race brune et musclée, moyenne de taille, un peu lente d'allures, mais carrée et résistante, se retrouve dans la famille étudiée. Le chef d'abord, plutôt au-dessous de la moyenne (1ᵉ60), ancien garde mobile de l'armée de la Loire et de
+        <pb facs="#facs_424" n="415" source="s2lesouvriersdes04sociuoft_0461.xml"/>
+        l'armée de l'Est en 1870-71 ; la femme, plus grande, plus forte (1ᵐ63), s'épanouissant dans la santé franche et gaie des montagnardes, igno¬rant la préoccupation et la maladie ; les enfants, tous superbes, massifs d'une lourdeur bien portante et faite pour humilier les anémies des villes.
        </p>
        <p xml:id="para_12_415_158">
         C'est que ces Arvernes, — descendants plus ou moins transformés des Celtes qui attaquèrent César avec le plus d'acharnement irrécon¬ciliable, — habitent les régions à l'air vif et riche, le pays des « cures d'air », des sapins et des larges brises fraîches, que les habitants des cités de la plaine vont chercher en s'installant dans les chambres étroites pendant deux mois.
@@ -1003,7 +1104,9 @@
         A peine deux ennemis apparaissent-ils contre cette uniormité de vigueur : la malpropreté, entretenue chez cette race par une foi iné¬branlable dans l'antiseptie naturelle, la malpropreté que l'exemple des Flandres semble rendre incompatible avec les contrées laitières, et qui ici, — peut-être par retlet du ton de la terre d'Auvergne, — jette une couche sombre sur les intérieurs, assombrit même les toi¬lettes, simplifie à outrance les ablutions personnelles, et restreint même au-dessous des limites permises la confiance dans la mode cou¬rante de l'bydrothérapie. Puis aussi, plus dangereuse pour l'avenir, car elle parait être grosse de menaces, la manufacture, l'usine agglo¬mérée, le moulinage principalement, où toutes les fillettes de dix à dix-huit ans, au moment de la croissance et du développement des forces, subissent un affaiblissement par le surmenage, capable d'étio¬ler peu à peu la race et de la condamner à une prochaine diminution de valeur.
        </p>
        <p xml:id="para_12_415_161">
-        D'ailleurs, l'organisation de l'assistance et du service médical, en avance sur les nouvelles mesures législatives, est venue parer aux cas les plus pressés. Aux remèdes traditionnels, que les bonnes femmes con¬servent çà et là (les tisanes de « cloportes » contre l'hydropisie, les <pb facs="#facs_425" n="416" source="s2lesouvriersdes04sociuoft_0462.xml"/> pigeons ou poulets vivants appliqués contre les pleurésies fréquentes de ces régions de transitions brusques), aux rebouteux, ces chirur¬giens empiriques quelque peu doublés de sorciers, les subventions cantonales versées par les conseils municipanux des i communes ont ajouté la régularité d'un service médical orthodoxe, en assurant à l'unique praticien un traitement fixe qui atteint 4.000 francs. Ici encore l'initiative était venue des deux autorités unies pour le gouvernement de cette petite contrée, décidément bien à part. Le « château avait longtemps été le centre des secours accidents ou épidémies le trou¬vaient toujours disposé aux interventions personnelles et aux appels complaisants des médecins du chef-lieu. L'Eglise avait agi avec non moins de prudence. Ne pouvant exercer, par elle-même et d'après ses canons, le soin des corps, qui a toujours servi, depuis les miracles évangéliques, à la transformation des âmes, elle a créé la seule phar¬macie du pays, comme dépendance de son hôpital ; et, dans cet hôpital même, elle a organisé les secours aux malades atteints d'aflections graves ou incurables, aux vieillards, aux enfants abandonnés ; en un mot, protection de l'enfance, de l'invalidité et de la vieillesse.
+        D'ailleurs, l'organisation de l'assistance et du service médical, en avance sur les nouvelles mesures législatives, est venue parer aux cas les plus pressés. Aux remèdes traditionnels, que les bonnes femmes con¬servent çà et là (les tisanes de « cloportes » contre l'hydropisie, les
+        <pb facs="#facs_425" n="416" source="s2lesouvriersdes04sociuoft_0462.xml"/>
+        pigeons ou poulets vivants appliqués contre les pleurésies fréquentes de ces régions de transitions brusques), aux rebouteux, ces chirur¬giens empiriques quelque peu doublés de sorciers, les subventions cantonales versées par les conseils municipanux des i communes ont ajouté la régularité d'un service médical orthodoxe, en assurant à l'unique praticien un traitement fixe qui atteint 4.000 francs. Ici encore l'initiative était venue des deux autorités unies pour le gouvernement de cette petite contrée, décidément bien à part. Le « château avait longtemps été le centre des secours accidents ou épidémies le trou¬vaient toujours disposé aux interventions personnelles et aux appels complaisants des médecins du chef-lieu. L'Eglise avait agi avec non moins de prudence. Ne pouvant exercer, par elle-même et d'après ses canons, le soin des corps, qui a toujours servi, depuis les miracles évangéliques, à la transformation des âmes, elle a créé la seule phar¬macie du pays, comme dépendance de son hôpital ; et, dans cet hôpital même, elle a organisé les secours aux malades atteints d'aflections graves ou incurables, aux vieillards, aux enfants abandonnés ; en un mot, protection de l'enfance, de l'invalidité et de la vieillesse.
        </p>
        <p xml:id="para_12_416_163">
         Seule, — et ce fait prouve la récente formation de la tradition agricole, — la race des vaches laitières semble un peu abandonnée des prescriptions de l'hygiène. Les hémorragies provenant de l'ané¬mie de cette variété, transplantée de loin, semblent assez fréquentes. IDes accidents au moment des vêlages sont signalés. Le vétérinaire est loin, coûteux, et les hommes d'expérience, fréquents en certains milieux ruraux, restent clairsemés.
@@ -1020,7 +1123,8 @@
         Au milieu de fermiers,  ouvriers-tenanciers suivant l'étiquette exacte, cumulant parfois quelque autre profession, aubergistejou mar¬chand au milieu de bucherons,  journaliers-agricoles » isolés dans leurs petites borderies ; enlin au milieu d' « ouvriersrpassementiers, chefs de métier en leur atelier dépendant de la fabrique collective ou simples journaliers d'une usine, elle représente une combinaison mixte. puisant sa vie à ces trois sources opposées.
        </p>
        <p xml:id="para_12_417_169">
-        <pb facs="#facs_426" n="417" source="s2lesouvriersdes04sociuoft_0463.xml"/> L'exploitation qu'elle détient ne permet pas de la mettre au niveau supérieur des a fermiers ; bien au contraire : ses vaches laitières res¬tent peu nombreuses sur des prairies trop étroites, que l'absentéisme du propriétaire ne permet pas de développer par le défrichement des brandes. Mais, par contre, s'il ne faut pas lui demander les pratiques les plus judicieuses de l'agriculture locale, il faut la placer au-dessus de la race des bûcherons, des manœuvres, qui n'atteignent ni son in¬dépendance ni son bien-être. Enfin la « vie de l'usine », à laquelle est soumis l'un de ses membres, la fille aînée, ne constitue qu'un stage. une préparation à l'existence rurale par l'acquisition de la dot, absolument comme le « placage en condition » ; la vie rurale ne voit pas de ce côté diminuer sa primauté.
+        <pb facs="#facs_426" n="417" source="s2lesouvriersdes04sociuoft_0463.xml"/>
+        L'exploitation qu'elle détient ne permet pas de la mettre au niveau supérieur des a fermiers ; bien au contraire : ses vaches laitières res¬tent peu nombreuses sur des prairies trop étroites, que l'absentéisme du propriétaire ne permet pas de développer par le défrichement des brandes. Mais, par contre, s'il ne faut pas lui demander les pratiques les plus judicieuses de l'agriculture locale, il faut la placer au-dessus de la race des bûcherons, des manœuvres, qui n'atteignent ni son in¬dépendance ni son bien-être. Enfin la « vie de l'usine », à laquelle est soumis l'un de ses membres, la fille aînée, ne constitue qu'un stage. une préparation à l'existence rurale par l'acquisition de la dot, absolument comme le « placage en condition » ; la vie rurale ne voit pas de ce côté diminuer sa primauté.
        </p>
        <p xml:id="para_12_417_170">
         Ce sont, en effet, des paysans, des paysans-montagnards que nous avons devant nous, avec outes les vertus morales de leurs pareils, et leurs défauts aussi, surtout le penchant aux libations copieuses, c'est la fécondité de la race, suivie de locations d'enfants, ou expul¬sions temporaires hors du toit ; c'est la pauvreté, les dures privations, l'acheminement par le travail et la ténacité à l'épargne qui permettra l'établissement de tous.
@@ -1041,12 +1145,13 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_12_418_176">
-         <pb facs="#facs_427" n="418" source="s2lesouvriersdes04sociuoft_0464.xml"/>(Mobilier et vêtements non compris).
+         <pb facs="#facs_427" n="418" source="s2lesouvriersdes04sociuoft_0464.xml"/>
+         (Mobilier et vêtements non compris).
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_12_418_177">
          IMMEUBLES............ 0ᶠ 00
         </p>
@@ -1054,7 +1159,7 @@
          La famille ne possêde aucune propriété immobilière et ne songe pas à la possibilité immédiate d'en acquérir.
         </p>
        </div>
-       <div type="proprietes" subtype="argent">
+       <div subtype="argent" type="proprietes">
         <p xml:id="para_12_418_179">
          ARGENT............ 10ᶠ 00
         </p>
@@ -1062,7 +1167,7 @@
          Aucun argent placé, au lieu des économies assez importantes de l'entrée en ménage. Les épizooties et la survenance des enfants ont été cause de cette disparition. La somme ci-dessus indiquée représente le fonds de roulement de l'entreprise.
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_12_418_182">
          ANIMAUX DOMESTIQUES entretenus toute l'année............ 584ᶠ 70
         </p>
@@ -1079,7 +1184,7 @@
          1 truie, engraissée et consommée dans le ménage, valeur moyenne calculée d'après le temps pendant lequel elle est gardée, 100ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_12_418_189">
          MATÉRIEL SPÉCIAL des travaux et industries............ 622ᶠ 00
         </p>
@@ -1090,7 +1195,9 @@
            Un assez grand nombre de fermes possedent des tomberecaux véritlables de 90ᶠ à 100ᶠ.
           </p>
          </note>
-         , 10ᶠ 00 ; — 2 pièces de charronnage qui se peuvent placer à l'avant et à l'arrière, en vue du transport du foin, 6ᶠ 00; — 1 tour, 3ᶠ 00; — 1 corde, 10ᶠ 00; — 2 jougs en hêtre et en frêne cerclés de fer, 40ᶠ 00; — courroies, 20ᶠ 00;  1 charrue en fer à un seul versoir, 50ᶠ 00 ; — 1 pelite charrue (araire en bois), 4ᶠ 00 ;  — 1 herse eu bois, à dents de fer, 40ᶠ 00; — 1 brouette, 5ᶠ 00; — petit traineau, 3ᶠ00; — 1 meule à poignée en fer, montée sur une double pièce de bois, 8ᶠ00 ; — 1 échelle, 5ᶠ00; — 1 faux neuve, 5ᶠ50. — 1 vieille faux, 1ᶠ00; — 1 enclume et <pb facs="#facs_428" n="419" source="s2lesouvriersdes04sociuoft_0465.xml"/> 1 marteau, 4ᶠ00; — 2 pierres à aiguiser, 2ᶠ00; — 7 râteaux à foin, 5ᶠ25 ; — 1 fourche pour le foin, à 2 dents, 2ᶠ00 ; — 1 fourche. id., a 3 dents, 2ᶠ25 ; — 1 faux à rateau en fit de fer, pour moissonner, 8ᶠ00; — 2 faucilles, 6ᶠ00 ; — 2 bèches à labourer, 7ᶠ00 ; — 3 pelles de ter¬rassier, 5ᶠ10; — 1 pioche (ancien système), autrement dite houe, 7ᶠ50: — 5 petites pio¬ches, 12ᶠ00 ; — 1 houe à dents, 4ᶠ00; — 4 féaux, 6ᶠ00 ; — 1 « bigot », sorte de pioche pour décharger les fumiers,2ᶠ00 ; — 1 fourche à 4 dents pour les fumiers, 1 à 3 dents, 1 à 2 dents,5ᶠ50; — 1 scie (vieille faux a laquelle des dents ont été pratiqućes), emmanchée au bout d'une per¬che, 5ᶠ00; — 1 cognée, 8ᶠ00; — 2 petites cognées, 14ᶠ00; — 1 pic pour pratiquer des trous dans la pierre que l'on veut faire sauter par la poudre de mine, 5ᶠ00 ; — 1 mailloche en bois, 2ᶠ00; — 3 coins en fer, 2ᶠ25 ; — divers : 1 vieux crible, etc., 3ᶠ65. — Total
+         , 10ᶠ 00 ; — 2 pièces de charronnage qui se peuvent placer à l'avant et à l'arrière, en vue du transport du foin, 6ᶠ 00; — 1 tour, 3ᶠ 00; — 1 corde, 10ᶠ 00; — 2 jougs en hêtre et en frêne cerclés de fer, 40ᶠ 00; — courroies, 20ᶠ 00;  1 charrue en fer à un seul versoir, 50ᶠ 00 ; — 1 pelite charrue (araire en bois), 4ᶠ 00 ;  — 1 herse eu bois, à dents de fer, 40ᶠ 00; — 1 brouette, 5ᶠ 00; — petit traineau, 3ᶠ00; — 1 meule à poignée en fer, montée sur une double pièce de bois, 8ᶠ00 ; — 1 échelle, 5ᶠ00; — 1 faux neuve, 5ᶠ50. — 1 vieille faux, 1ᶠ00; — 1 enclume et
+         <pb facs="#facs_428" n="419" source="s2lesouvriersdes04sociuoft_0465.xml"/>
+         1 marteau, 4ᶠ00; — 2 pierres à aiguiser, 2ᶠ00; — 7 râteaux à foin, 5ᶠ25 ; — 1 fourche pour le foin, à 2 dents, 2ᶠ00 ; — 1 fourche. id., a 3 dents, 2ᶠ25 ; — 1 faux à rateau en fit de fer, pour moissonner, 8ᶠ00; — 2 faucilles, 6ᶠ00 ; — 2 bèches à labourer, 7ᶠ00 ; — 3 pelles de ter¬rassier, 5ᶠ10; — 1 pioche (ancien système), autrement dite houe, 7ᶠ50: — 5 petites pio¬ches, 12ᶠ00 ; — 1 houe à dents, 4ᶠ00; — 4 féaux, 6ᶠ00 ; — 1 « bigot », sorte de pioche pour décharger les fumiers,2ᶠ00 ; — 1 fourche à 4 dents pour les fumiers, 1 à 3 dents, 1 à 2 dents,5ᶠ50; — 1 scie (vieille faux a laquelle des dents ont été pratiqućes), emmanchée au bout d'une per¬che, 5ᶠ00; — 1 cognée, 8ᶠ00; — 2 petites cognées, 14ᶠ00; — 1 pic pour pratiquer des trous dans la pierre que l'on veut faire sauter par la poudre de mine, 5ᶠ00 ; — 1 mailloche en bois, 2ᶠ00; — 3 coins en fer, 2ᶠ25 ; — divers : 1 vieux crible, etc., 3ᶠ65. — Total
          <note type="bp">
           <p>
            Le moulin à vanner est emprunté à une ferme voisine.
@@ -1111,7 +1218,7 @@
          5° Pour la confection des vêtements domestiques. — Ciseaux. 2 paires, 2ᶠ50 ; — 1 petite boite à ouvrage, 0ᶠ25 ; — 3 paires d'aiguilles à tricoter, 0ᶠ60; — 1 dévidoir, 1ᶠ50 ; — divers, 1ᶠ15. — Total, 6ᶠ00.
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_12_419_200">
          VALEUR TOTALE des propriétés............ 1.316ᶠ 70
         </p>
@@ -1125,7 +1232,9 @@
         Peu de populations en rFrance pourraient justifier de recettes égales à l'article Subventions. Les formes anciennes et modernes de ces sa¬tisfactions de besoins n, accordées non pas en proportion du travail effectué mais des besoins eux-mêmes, y défilent successivement sans en omettre aucune. La classification complète de Le Play devient in¬dispensable pour les énumérer.
        </p>
        <p xml:id="para_12_419_204">
-        D'abord, ce sont les « droits d'usufruit : les biens communaux proprement dits, 70 hectares environ qui couvrent un mamelon baptisé la Montagne-Verte, — la hauteur de Chaussître a été vainement dispu¬tée jadis à une commune voisine, la commune de Saint-Régis du Coin. Ces 70 hectares restèrent longtemps en pâturages à moutons ; ils per<pb facs="#facs_429" n="420" source="s2lesouvriersdes04sociuoft_0466.xml"/>mettaient aux ménages les plus pauvres de se procurer les quelques livres de laine nécessaires pour fabriquer les vêtements chauds de 1'hiver. La révolution agricole suscitée par M. le baron de Saint-6e¬nest, la création des prairies dans les bas-fonds et des plantations sur les crêtes, entraîna leur transformation partielle : 35 hectares, — la moitié environ, — furent couverts de sapins, qui aujourd'hui commen¬cent à procurer aux habitants un sérieux « droit d'affouage . Sans doute les objections contre le mode de distribution se multiplient. On insiste volontiers sur les inconvénients du travail collectif des hom¬mes de la commune au mois d'octobre. Sans doute, comme toujours dans le collectivisme de tous les temps, les plus courageux assument la totalité de la besogne, tandis que les indolents savent esquiver ha¬bilement les corvées ; sans doute la difficulté d'égaliser des lots tirés au sort peut attribuer la grosse part à ce paresseux et restreindre celle du bûcheron intrépide. Il n'en est pas moins vrai qu'en échange de ses trois jours de travail, la famille étudiée a reçu cette année l'équi¬valent de 300 fagots, sans compter le bois d'œuvre nécessaire pour la confection d'une réserve de 37 paires de sabots. Ce fait tendrait à prouver que les plantations communales revêtent une utilité très ana¬logue à celle des pâtis de jadis.
+        D'abord, ce sont les « droits d'usufruit : les biens communaux proprement dits, 70 hectares environ qui couvrent un mamelon baptisé la Montagne-Verte, — la hauteur de Chaussître a été vainement dispu¬tée jadis à une commune voisine, la commune de Saint-Régis du Coin. Ces 70 hectares restèrent longtemps en pâturages à moutons ; ils per
+        <pb facs="#facs_429" n="420" source="s2lesouvriersdes04sociuoft_0466.xml"/>
+        mettaient aux ménages les plus pauvres de se procurer les quelques livres de laine nécessaires pour fabriquer les vêtements chauds de 1'hiver. La révolution agricole suscitée par M. le baron de Saint-6e¬nest, la création des prairies dans les bas-fonds et des plantations sur les crêtes, entraîna leur transformation partielle : 35 hectares, — la moitié environ, — furent couverts de sapins, qui aujourd'hui commen¬cent à procurer aux habitants un sérieux « droit d'affouage . Sans doute les objections contre le mode de distribution se multiplient. On insiste volontiers sur les inconvénients du travail collectif des hom¬mes de la commune au mois d'octobre. Sans doute, comme toujours dans le collectivisme de tous les temps, les plus courageux assument la totalité de la besogne, tandis que les indolents savent esquiver ha¬bilement les corvées ; sans doute la difficulté d'égaliser des lots tirés au sort peut attribuer la grosse part à ce paresseux et restreindre celle du bûcheron intrépide. Il n'en est pas moins vrai qu'en échange de ses trois jours de travail, la famille étudiée a reçu cette année l'équi¬valent de 300 fagots, sans compter le bois d'œuvre nécessaire pour la confection d'une réserve de 37 paires de sabots. Ce fait tendrait à prouver que les plantations communales revêtent une utilité très ana¬logue à celle des pâtis de jadis.
        </p>
        <p xml:id="para_12_420_207">
         Les « droits d'usage, ou plutôt la « tolérance du droit d'usage» sur les propriétés voisines, atteignent une importance encore plus haute. C'est le combustible entièrement ramassé dans les bois noirs des propriétaires voisins ; c'est la litière des vaches fauchée dans les pâtis, que les troupeaux ne parviennent pas à dénuder ; c'est la cueillette des baies », framboises et myrtiles sauvages, qui cons¬tituent toute la consommation en fruits de cette contrée d'ou l'arbori¬culture est exclue. La comparaison, si souvent répétée, entre ces populations et les peuples de la zone nord de l'Europe, lussie, Norvége et Suède, s'en trouve complètement raffermie.
@@ -1137,19 +1246,21 @@
           Association de charité.
          </p>
         </note>
-        . Enfin les riches propriétaires des environs, reliés à la famille par les liens de parrainage, complètent la liste de ces allocations d'objets et de ser<pb facs="#facs_430" n="421" source="s2lesouvriersdes04sociuoft_0467.xml"/>vices qui établissent une fois de plus l'importance de ces deux élé¬ments de sécurité dans tous les milieux primitifs : patronage et pro¬ductions spontanées.
+        . Enfin les riches propriétaires des environs, reliés à la famille par les liens de parrainage, complètent la liste de ces allocations d'objets et de ser
+        <pb facs="#facs_430" n="421" source="s2lesouvriersdes04sociuoft_0467.xml"/>
+        vices qui établissent une fois de plus l'importance de ces deux élé¬ments de sécurité dans tous les milieux primitifs : patronage et pro¬ductions spontanées.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="travaux_texte_1">
+       <div subtype="travaux_texte_1" type="travaux">
         <p xml:id="para_12_421_214">
          Si l'on excepte le dernier-né, âgé de un an et demi, dont l'inactivité se justifie d'elle-même, tous les membres de la famille ont leur tâche rigoureusement déterminée dans l'exploitation de la ferme, l'aba¬tage des forêts environnantes, la passementerie, le s gardage des bestiaux ou métier de berger. Une grande distinction, générale dans le pays, domine le tout : les travaux de la terre, les cultures de toute espèce, sont réservés aux hommes ; jamais, sau pour la fenaison, les femmes n'interviennent ; leur rôle, avec les soins domestiques, est la fabrication du beurre et du fromage, fort réduite par l'exportation du lait, le métier de nourrice, qui n'est qu'une extension de l'industrie laitière, et celui de passementière. C'est le respect de cet axiome : travail extérieur aux hommes ; travaux intérieurs aux femmes.
         </p>
        </div>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_12_421_215">
          Travaux de l'ouvrier, chef de maison. — Ils sont doubles : exploita¬tion de la ferme ; travail au dehors comme bûcheron.
         </p>
@@ -1176,7 +1287,9 @@
          Valeur : environ 12.000ᶠ. — Loyer : 380ᶠ00 payés à un proprié. taire, plus 20ᶠ 00 à un autre pour un supplément de prairies (30 ares).
          </p>-->
         <p xml:id="para_12_421_220">
-         Cette ferme, domaine rigoureusement aggloméré, sauf les 30ares pré¬cédents, doit être classée comme inférieure, bien qu'elle possède tous les rouages d'une exploitation plus vaste. Les prés sont trop restreints eu égard à la surface totale ; les pâtis, trop développés; la terre ara¬ble, défrichée par le fermier lui-même sans aucun sccours, est insutfi¬sante pour un assolement judicieux, c'est-à-dire trois années en géné¬ral : 1° blé, plus exactement seigle (le froment ne mûrit pas à cette alti<pb facs="#facs_431" n="422" source="s2lesouvriersdes04sociuoft_0468.xml"/>tude) ; 2ᵉ° blé ou avoine ; 3 plantes sarclées (surtout pommes de terre, d'une abondance et d'une saveur toutes particulières). Cet assolement, à notre avis, épuisant pour un sol peu riche, devrait, comme l'usage s'en est établi dans les exploitations plus importantes, être combiné avec le défoncement périodique des prairies (8 à 10 ans environ) ; mais le tra¬vail qu'il faudrait imposer à des vaches laitiêres fait reculer devant cette pratique assurément avantageuse.
+         Cette ferme, domaine rigoureusement aggloméré, sauf les 30ares pré¬cédents, doit être classée comme inférieure, bien qu'elle possède tous les rouages d'une exploitation plus vaste. Les prés sont trop restreints eu égard à la surface totale ; les pâtis, trop développés; la terre ara¬ble, défrichée par le fermier lui-même sans aucun sccours, est insutfi¬sante pour un assolement judicieux, c'est-à-dire trois années en géné¬ral : 1° blé, plus exactement seigle (le froment ne mûrit pas à cette alti
+         <pb facs="#facs_431" n="422" source="s2lesouvriersdes04sociuoft_0468.xml"/>
+         tude) ; 2ᵉ° blé ou avoine ; 3 plantes sarclées (surtout pommes de terre, d'une abondance et d'une saveur toutes particulières). Cet assolement, à notre avis, épuisant pour un sol peu riche, devrait, comme l'usage s'en est établi dans les exploitations plus importantes, être combiné avec le défoncement périodique des prairies (8 à 10 ans environ) ; mais le tra¬vail qu'il faudrait imposer à des vaches laitiêres fait reculer devant cette pratique assurément avantageuse.
         </p>
         <p xml:id="para_12_422_222">
          Toute l'économie rurale du père de famille aboutit à exécuter par lui-même les travaux agricoles, sans débourser la moindre somme en faveur des journaliers du dehors et surtout des domestiques, loués a l'année dans le pays d'après un tarif variable suivant l'âge.
@@ -1195,31 +1308,34 @@
          <ref target="#part_03_01_26" type="renvoi_int_mono">
           (§ 26)
          </ref>
-         . Les quatre vaches, métis de race salers et de race hollandaise, vont créer la grande source de recettes : trois fois par jour, le lait sera tiré, puis placé dans les vases en terre, que l'eau du bassin. — ou bacho, — maintiendra à une tempé¬rature constante. Le soir, un « laitier-camionneur » prendra la bi¬che de fer-blanc au détour d'un sentier et la déposera sur la grande route, où un second convoi l'emènera vers Saint-lEtienne. Il faut donc alimenter ces véritables nourricières le plus possible avec la <pb facs="#facs_432" n="423" source="s2lesouvriersdes04sociuoft_0469.xml"/> moindre somme de travail. Foins, regains, choux, choux-raves, paille aussi, à cause de la sécheresse opiniâtre, leur seront prodigués ; les feuilles de frêne viendront tâcher d'arrêter les hémorragies dont elles sont parfois atteintes. Quand il sera présent à l'étable, où porc engraissé, brebis et poulets dorment en une série de compartiments faits de planches grossières, le chef de famille ne laissera à personne la préparation des rations et de la litière, — réduite cette année à de la fougêre mélangée d'humus.
+         . Les quatre vaches, métis de race salers et de race hollandaise, vont créer la grande source de recettes : trois fois par jour, le lait sera tiré, puis placé dans les vases en terre, que l'eau du bassin. — ou bacho, — maintiendra à une tempé¬rature constante. Le soir, un « laitier-camionneur » prendra la bi¬che de fer-blanc au détour d'un sentier et la déposera sur la grande route, où un second convoi l'emènera vers Saint-lEtienne. Il faut donc alimenter ces véritables nourricières le plus possible avec la
+         <pb facs="#facs_432" n="423" source="s2lesouvriersdes04sociuoft_0469.xml"/>
+         moindre somme de travail. Foins, regains, choux, choux-raves, paille aussi, à cause de la sécheresse opiniâtre, leur seront prodigués ; les feuilles de frêne viendront tâcher d'arrêter les hémorragies dont elles sont parfois atteintes. Quand il sera présent à l'étable, où porc engraissé, brebis et poulets dorment en une série de compartiments faits de planches grossières, le chef de famille ne laissera à personne la préparation des rations et de la litière, — réduite cette année à de la fougêre mélangée d'humus.
         </p>
         <p xml:id="para_12_423_227">
          2° Travail de journalier. — Le chef de famille est en outre périodi¬quement embauché comme journalier dans une exploitation voisine. Déjà, en tant que fermier, il devait, dans un lot de bois de sapins désigné par l'usage, abattre et écorcer pour le compte du propriétaire les arbres désignés par la marque. En équipe de deux ou quatre hom¬mes armés de longues perches, il guidait la chute du sapin, de l'épi¬céa, du pin, du mélêe, qu'avait ébranlé le fer des haches ou adretae, il enlevait rapidement, avec une seconde hache plus petite, l'écorce et les branches, pour en former des fagots. A ce travail de bûcheron se joignent ici le travail du terrassier, la construction des chemins pendant les journées d'hiver, le défrichement des pâtis à la pique ou à la mine puis le gaonnement, les plantations, toute la série des travaux des terres montagneuses.
         </p>
        </div>
-       <div type="travaux" subtype="mere_famille">
+       <div subtype="mere_famille" type="travaux">
         <p xml:id="para_12_423_228">
          Travail de la mère de famille. — Les soins domestiques, la traite des bestiaux, le binage des mauvaises herbes dans le petit jardin, et surtout deux occupations très nettement définies : la fabrication du beurre tous les quinze jours, produit de la crème de la troisième traite, et la confection des vêtements ; car la paysanne a retenu, de son service dans une famille de la classe supérieure, une certaine habileté de tailleuse, dont toutes les paysannes des alentours ne pour¬raient pas témoigner au même degré.
         </p>
        </div>
-       <div type="travaux" subtype="fille_ainee">
+       <div subtype="fille_ainee" type="travaux">
         <p xml:id="para_12_423_229">
          Travail de la fille aînée. — Elle a déjà passé à quatorze ans par le travail de la fabrique. Depuis trois mois, elle a abandonné le « mou¬linage, l'usine où elle dévidait la soie, partant le lundi, revenant le samedi, sous la garde de surveillantes congréganistes. Aujourd'hui elle a été placée dans un tissage du bourg, sa fonction consiste à enlever avec des ciseaux les fils dépassant la sunrface lisse du ruban. Journée régulière et assez dure de 6 heures du matin à  heures du soir, avec trois repos : une demi-heure à 8 heures du matin, 1 heure à midi, une demi-heure à 4 heures ; soit dix heures de travail plein. C'est la limite de la loi du 2 novembre 1892.
         </p>
        </div>
-       <div type="travaux" subtype="enfants">
+       <div subtype="enfants" type="travaux">
         <p>
-         <pb facs="#facs_433" n="424" source="s2lesouvriersdes04sociuoft_0470.xml"/> Travail de la deuxième fillete et des trois garçons. — L'école, l'hiver ; l'été, la garde des bestiaux, soit à la ferme, soit au dehors, pendant trois ou six mois, moyennant 20 à 40 francs et la nourriture. C'est l'es¬saimage hatif des jeunes, caractéristique de la famille-souche.
+         <pb facs="#facs_433" n="424" source="s2lesouvriersdes04sociuoft_0470.xml"/>
+         Travail de la deuxième fillete et des trois garçons. — L'école, l'hiver ; l'été, la garde des bestiaux, soit à la ferme, soit au dehors, pendant trois ou six mois, moyennant 20 à 40 francs et la nourriture. C'est l'es¬saimage hatif des jeunes, caractéristique de la famille-souche.
         </p>
         <p xml:id="para_12_424_231">
          Un seul inoccupé : le bambin de un an et demi, soustrait à toutes les tâches astreignantes, école ou surveillance, pour quelques années en¬core
         </p>
        </div>
-       <div type="industries" subtype="famille">
+       <div subtype="famille" type="industries">
         <p xml:id="para_12_424_232">
          Industries entreprises par la famille. — Toutes les industries sont entreprises par la famille à son compte particulier
          <ref target="#part_02_05_16" type="renvoi_int_mono">
@@ -1245,7 +1361,9 @@
         Dans la période d'eté (mai à septembre), les repas quotidiens sont au nombre de quatre.
        </p>
        <p xml:id="para_12_424_238">
-        7 heures du matin, se sert la soupe, que l'on a posée sur le feu d'écorce de sapin dés le lever, à cinq heures : soupe à la base de légumes, choux principalement, accommodée au lard, et dans laquelle cuit le saucisson, c'est-à-dire à peu près toute la viande consommée dans l'année; sur le pain, — un pain de seigle, noir de couleur et de saveur acide, — on étend le salé, ou bien encore le morceau de lard. <pb facs="#facs_434" n="425" source="s2lesouvriersdes04sociuoft_0471.xml"/> familier à tous les estomacs ruraux de France. Parfois la soupe est une soupe au lait, aux pâtes ou au ri.
+        7 heures du matin, se sert la soupe, que l'on a posée sur le feu d'écorce de sapin dés le lever, à cinq heures : soupe à la base de légumes, choux principalement, accommodée au lard, et dans laquelle cuit le saucisson, c'est-à-dire à peu près toute la viande consommée dans l'année; sur le pain, — un pain de seigle, noir de couleur et de saveur acide, — on étend le salé, ou bien encore le morceau de lard.
+        <pb facs="#facs_434" n="425" source="s2lesouvriersdes04sociuoft_0471.xml"/>
+        familier à tous les estomacs ruraux de France. Parfois la soupe est une soupe au lait, aux pâtes ou au ri.
        </p>
        <p xml:id="para_12_425_240">
         A midi, le diner : la soupe encore, — le régime est plus sain que varié ; — des pommes de terre cuites à l'eau ou ]frites ; du pain à dis¬crétion.
@@ -1270,9 +1388,11 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_12_425_248">
-         La ferme reproduit bien la construction montagnarde, disposée en vue de l'hivernage et des amoncellements de necige. IBatie au centre de l'exploitation, sur le bord d'un petit sentier, avec un jardinet de 3 ares bordé de sorbiers et de griottiers sauvages, elle présente un corps de bâtiment unique, réunissant grange, étables et habitation, <pb facs="#facs_435" n="426" source="s2lesouvriersdes04sociuoft_0472.xml"/> comme dans les landes bretonnes, et une annexe minuscule, le bâcho, ou baquet rempli de l'eau des sources qu'amène un système de tuyaux, et où se rafraichit, dans les « biches » en terre, le lait des dernières traites.
+         La ferme reproduit bien la construction montagnarde, disposée en vue de l'hivernage et des amoncellements de necige. IBatie au centre de l'exploitation, sur le bord d'un petit sentier, avec un jardinet de 3 ares bordé de sorbiers et de griottiers sauvages, elle présente un corps de bâtiment unique, réunissant grange, étables et habitation,
+         <pb facs="#facs_435" n="426" source="s2lesouvriersdes04sociuoft_0472.xml"/>
+         comme dans les landes bretonnes, et une annexe minuscule, le bâcho, ou baquet rempli de l'eau des sources qu'amène un système de tuyaux, et où se rafraichit, dans les « biches » en terre, le lait des dernières traites.
         </p>
         <p xml:id="para_12_426_250">
          Une particularité, qui se retrouverait identique en toutes les fermes isolées dont les tuiles rouges s'espacent sur les ondulations du haut plateau, c'est la situation préméditée à mi-côte d'une pente. Il en ré¬sulte que la partie supérieure du quadrilatère, la grange et le fenil, restent de plain-pied avec le sol : la charrette de foin peut y pénétrer facilement par le large portail et s'y remiser sur le plancher même, qui, pendant les longues journées de janvier ou décembre, se trans¬forme en ire, pour le battage au fléau. Au- dessous, en contre-bas avec l'inclinaison générale du terrain, mais s'ouvrant directement par des portes et fenêtres sur une petite esplanade, l'habitation propre¬ment dite et l'étable ; l'habitation, composée de deux pièces, la salle-cuisine-chambre à coucher », et le fournil avec chambre à dé¬barras ; l'étable, où les vaches laitières sont rangées devant les crèches, et où, entourés de balustrades en planches, brebis et porc partici¬pent à certaines distributions communes, tandis que poules et poulets perchent çà et là.
@@ -1284,9 +1404,11 @@
          La hauteur des chambres habitées est de 2ᵐ15 ; la grande chambre et la petite offrent la même profondeur : 6ᵐ 30, avec une notable différence pour la largeur : 4ᵐ50 dans l'une, dans l'autre 3ᵐ60 seu¬lement. L'une et l'autre sont planchéiées.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_12_426_253">
-         MEUBLES : leur histoire s'est liée peu à peu à celle de la famille, et ils permettent de distinguer les trois influences qui ont présidé à l'établissement du ménage : 1° l'hérédité (quelques ustensiles assez rares) ; 2' les cadeaux des bienfaiteurs, plus importants ; 3° l'initiative personnelle, manilfestée par les acquisitions successives, soit à Saint¬Étienne, soit au bourg, au fur et à mesure que le cercle des enfants s'est élargi. Ils offrent ceci de particulier, que la place d'honneur <pb facs="#facs_436" n="427" source="s2lesouvriersdes04sociuoft_0473.xml"/> n'y est pas occupée par le lit-armoire, enchâssé dans le mur, que toute ferme montre avec orgueil. Ce lit-armoire est d'ailleurs un immeuble par destination, où, dans l'entassement des courtines, rideaux et couvertures, on entrevoit suspendu, à la partie supérieure du plafond, le berceau que l'on peut agiter par une cordelette, sans s'exposer aux refroidissements des nuits d'hiver............ 489ᶠ 35
+         MEUBLES : leur histoire s'est liée peu à peu à celle de la famille, et ils permettent de distinguer les trois influences qui ont présidé à l'établissement du ménage : 1° l'hérédité (quelques ustensiles assez rares) ; 2' les cadeaux des bienfaiteurs, plus importants ; 3° l'initiative personnelle, manilfestée par les acquisitions successives, soit à Saint¬Étienne, soit au bourg, au fur et à mesure que le cercle des enfants s'est élargi. Ils offrent ceci de particulier, que la place d'honneur
+         <pb facs="#facs_436" n="427" source="s2lesouvriersdes04sociuoft_0473.xml"/>
+         n'y est pas occupée par le lit-armoire, enchâssé dans le mur, que toute ferme montre avec orgueil. Ce lit-armoire est d'ailleurs un immeuble par destination, où, dans l'entassement des courtines, rideaux et couvertures, on entrevoit suspendu, à la partie supérieure du plafond, le berceau que l'on peut agiter par une cordelette, sans s'exposer aux refroidissements des nuits d'hiver............ 489ᶠ 35
         </p>
         <p xml:id="para_12_427_255">
          1° Lits. — 1ᵉʳ lit : 1 lit de bois en noyer ciré (fabrication locale), 50ᶠ00; — 1 paillasse remplie de paille de seigle, avec enveloppe en toile, 8ᶠ 00; — 1 matelas en crin végétal, 20ᶠ00; — 1 matelas en laine (14 kilog.), 50ᶠ00 ; — 1 traversin en balle d'avoine, 3ᶠ00; — 1 oreiller, 8ᶠ00 ; — 1 couverture ouatée, 20ᶠ00; — 1 couvre-pied en cretonne à fleurs, 15ᶠ00;  1 paire de ideaux, idem, 12ᶠ50; — 1 boule de verre argenté placée entre les rideaux pour éloigner les mouches, 1ᶠ50; — 2ᵉ lit : 1 l1it de fer, 25ᶠ00; — 1 paillasse, 7ᶠ50; — 1 matelas en crin végétal, 18ᶠ00; — 1 traversin (balle d'avoine), 2ᶠ50; — 1 oreiller, 6ᶠ00; — 1 couverture oua¬tée, 1ᶠ00; — guenilles diverses sur le tout (pDour mémoire): — 1 paire de rideaux à leurs, 12ᶠ50;- 1 boule de verre argenté, 1ᶠ50; — 3ᵉ 1t : 1 lit d'enfant, liteaux de sapins retenus par de grosses pointes et maintes fois raccommodés, 5ᶠ00; — 1 a baldufiêre (paillasse), composée de feuilles de hètre séchées dans une enveloppe de toile, 2ᶠ00 ; — 1 traversin, 1ᶠ00; — 1 couverture ouatée, 7ᶠ00 ; — 4ᵉ° lit ; 1 lit d'enfant plus petit, même garniture, 15ᶠ00; — 1 berceau vide, 3ᶠ00. — Total, 309ᶠ00.
@@ -1307,7 +1429,7 @@
          6° Objets de toilette. — 1 cuvette en fer-blan, 0ᶠ50: — pcignes, 0̂ᶠ75. — Total, 1ᶠ25.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_12_427_262">
          USTENSILES : où prédominent la fonte et le fer-blanc, à la place des poteries usitées en certaines provinces ; réduits au strict néces¬Ssare............ 7ᶠ 00
         </p>
@@ -1315,7 +1437,9 @@
          1° Dépendant du foyer de la cuisine. — (La crémaillère dépend de la maison) ; — 1 paire de chenets en fonte à téte de sphinx (rares dans le pays et remplacés par des pier¬res), 8ᶠ00; — 1 pelle en fer, 1ᶠ00 ; — 1 porte-poéle (chervanto de la pede), 0ᶠ75 ; — 2 balais, 1ᶠ35. — Total, 11ᶠ10.
         </p>
         <p xml:id="para_12_427_264">
-         2° Employés pour la cuisson et la préparation des aliments. — 1 grande marmite en fonte avec couvercle (servant à la préparation des aliments des bestiaux), ᶠ00; — 2 mar<pb facs="#facs_437" n="428" source="s2lesouvriersdes04sociuoft_0474.xml"/>mites (identiques, mais plus petites), 7ᶠ00; — 1 poêle à longue queue pour les fritures, 5ᶠ00; — 1 couvercle pour la poèle, 0ᶠ50; — 1 longue cuiller en fer-lanc, 0ᶠ50; — 2 cuillers longues en bois dur, 1ᶠ00; — 1 rape, 0ᶠ50 ; — 1 passoire, 0ᶠ20 ; — 1 petite casse¬role, 0ᶠ20 ; — 1 seau en bois cerclé de fer, 55ᶠ00; — 1 petite biche ( seau à lait), servant à puiser l'eau, 1ᶠ00; — 1 saliére, 0ᶠ20 ; — 1 poivrière, 0ᶠ30 ; — 6 écuelles en terre vernie, pour la soupe, 0ᶠ60 ; — 2 plats en faience blanche (l'un servant de saladier), 1ᶠ50 ; — 6 bichous, autre forme d'écuelle en terre vernie, 0ᶠ60; — 1 douzaine d'assiettes, 2ᶠ40 ; — 1 douzaine de verres à boire, 1ᶠ20; — 8 couteaux (chacun posséde le sien), 3ᶠ00; — 1 douzaine de fourchettes et cuillers en fer, 4ᶠ80; — 1 cafetiére, 2ᶠ00; — 1 pot au lait à leurs (en grés), 0ᶠ40; — 1 sucrier, 0ᶠ50 ; — 1 douzaine de tasses en faience à fleurs, 1ᶠ20; 30 bouteilles, 3ᶠ00; — 1 tonneau, 3ᶠ00 ;-1 balance (romaine), 3ᶠ50 ; — 2 paniers,3ᶠ00. — Total, 57ᶠ10.
+         2° Employés pour la cuisson et la préparation des aliments. — 1 grande marmite en fonte avec couvercle (servant à la préparation des aliments des bestiaux), ᶠ00; — 2 mar
+         <pb facs="#facs_437" n="428" source="s2lesouvriersdes04sociuoft_0474.xml"/>
+         mites (identiques, mais plus petites), 7ᶠ00; — 1 poêle à longue queue pour les fritures, 5ᶠ00; — 1 couvercle pour la poèle, 0ᶠ50; — 1 longue cuiller en fer-lanc, 0ᶠ50; — 2 cuillers longues en bois dur, 1ᶠ00; — 1 rape, 0ᶠ50 ; — 1 passoire, 0ᶠ20 ; — 1 petite casse¬role, 0ᶠ20 ; — 1 seau en bois cerclé de fer, 55ᶠ00; — 1 petite biche ( seau à lait), servant à puiser l'eau, 1ᶠ00; — 1 saliére, 0ᶠ20 ; — 1 poivrière, 0ᶠ30 ; — 6 écuelles en terre vernie, pour la soupe, 0ᶠ60 ; — 2 plats en faience blanche (l'un servant de saladier), 1ᶠ50 ; — 6 bichous, autre forme d'écuelle en terre vernie, 0ᶠ60; — 1 douzaine d'assiettes, 2ᶠ40 ; — 1 douzaine de verres à boire, 1ᶠ20; — 8 couteaux (chacun posséde le sien), 3ᶠ00; — 1 douzaine de fourchettes et cuillers en fer, 4ᶠ80; — 1 cafetiére, 2ᶠ00; — 1 pot au lait à leurs (en grés), 0ᶠ40; — 1 sucrier, 0ᶠ50 ; — 1 douzaine de tasses en faience à fleurs, 1ᶠ20; 30 bouteilles, 3ᶠ00; — 1 tonneau, 3ᶠ00 ;-1 balance (romaine), 3ᶠ50 ; — 2 paniers,3ᶠ00. — Total, 57ᶠ10.
         </p>
         <p xml:id="para_12_428_269">
          3° Servant à l'éclairage. — 1 a catee (lampe en forme de lampe grecque), 0ᶠ75; — 1 chaleye en cuivre, 0ᶠ75; — 1 lampe à pétrole (avec verre et abat-jour), 1ᶠ25 ; — 1 trotlteuse (lampe) en cuivre, 1ᶠ25 ; — 1 lanterne avec lampe, 3ᶠ00. — Total, 7ᶠ00.
@@ -1327,7 +1451,7 @@
          5° Servant aux réparations domestiques. — 1 couteau à deux mains, 2ᶠ00; — 1 doloire, 2ᶠ50 ; — 1 varlope avec mèche, 1ᶠ5 ; — 4 marteaux, 6ᶠ00; — 2 tenailles, 3ᶠ00; — 1 petite scie à main, 2ᶠ00 ; — 1 tarière, 1ᶠ 0; — 3 limes, 0ᶠ45 ; — divers, 1ᶠ20. — Total, 20ᶠ30.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_12_428_272">
          LINGE DE MÉNAGE : en toile solide (strict nécessaire ; ni nappes, ni serviettes de table)............ 138ᶠ00
         </p>
@@ -1335,7 +1459,7 @@
          6 draps, apportés par la femme cadeau de la chàtelaine), 36ᶠ00 ; — 6 draps, apportés par le mari, 48ᶠ00; — 6 paires de draps pour les enfants, 30ᶠ00; — 1 douzaine de torchons (provenances diverses), 6ᶠ00 ; — 6 serviettes à porter le beurre, 6ᶠ00; — divers, 1ᶠ00: — 6 sacs en toile de chanvre, 6ᶠ00 ; — 10 autres sacs., 5ᶠ00. — Total, 138ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_12_428_274">
          VÊTEMENTS : Solides, réduits au nécessaire, et très semblables à ceux des ouvriers de Saint-Etienne ; le petit bonnet des paysannes a pres¬que disparu, contfiné dans le canton voisin de Riotord ; l'habit à la francaise des hommes se retrouve sur les épaules des octogénaires dont le costume de noce n'a pas été renouvelé............ 538ᶠ 15
         </p>
@@ -1352,7 +1476,9 @@
          VÊTEMENTS DE LA MERE (182ᶠ00).
         </p>
         <p xml:id="para_12_428_280">
-         1° Vêtements du dimanche. — 1 chapeau fermé, 5, 00: — 1 corsage (casauot) en mé¬rinos ou caccmire nor, 8ᶠ00; — 1 jupe, id., 10ᶠ00; — 1 fich de laine noire, 4ᶠ50 ; — <pb facs="#facs_438" n="429" source="s2lesouvriersdes04sociuoft_0475.xml"/> 1 foulard, 1ᶠ00; — 1 corset, 4ᶠ50; — 1 paire de gants en laine pour l'hiver, 0ᶠ0; — 1 paire de souliers, 8ᶠ00 ; — 1 paire de pantoufles, 1ᶠ00 ; — 1 parapluie en coton, 1ᶠ50; — 1 om¬brelle en soie, 2ᶠ25. — Total, 46ᶠ65.
+         1° Vêtements du dimanche. — 1 chapeau fermé, 5, 00: — 1 corsage (casauot) en mé¬rinos ou caccmire nor, 8ᶠ00; — 1 jupe, id., 10ᶠ00; — 1 fich de laine noire, 4ᶠ50 ; —
+         <pb facs="#facs_438" n="429" source="s2lesouvriersdes04sociuoft_0475.xml"/>
+         1 foulard, 1ᶠ00; — 1 corset, 4ᶠ50; — 1 paire de gants en laine pour l'hiver, 0ᶠ0; — 1 paire de souliers, 8ᶠ00 ; — 1 paire de pantoufles, 1ᶠ00 ; — 1 parapluie en coton, 1ᶠ50; — 1 om¬brelle en soie, 2ᶠ25. — Total, 46ᶠ65.
         </p>
         <p xml:id="para_12_429_282">
          2° Vêtements des jours ordinaires. — 1 casaquot de coton, 4ᶠ00; — 1 jupe de coton, 5ᶠ50: — 18 chemises en toile écrue, 36ᶠ00; — 6 camisoles, blanches et de couleur (percale imprimée), 6ᶠ00 ; — 3 pantalons en calicot, 6ᶠ00 ; —  tabliers en cotonnade, 6ᶠ50 ; — 16 paires de bas de laine et de coton, 12ᶠ00; — 4 paires de chaussons en laine pour les sabots, 1ᶠ25; —2 foulards de coton, 0ᶠ80 ; — 1 chapeau de paille, 0ᶠ50; — 3 paires de sabots., 1ᶠ 80; — 2 douzaines de mouchoirs de poche, 15ᶠ00. — Total, 5ᶠ35.
@@ -1397,7 +1523,7 @@
          Réserve de 15 paires de sabots, 9ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_12_429_300">
          VALEUR TOTALE du mobilier et des vêtements............ 1. 124ᶠ 50
         </p>
@@ -1408,7 +1534,9 @@
         § 11. RÉCRÉATIONS.
        </head>
        <p xml:id="para_12_429_303">
-        La religion a discipliné depuis longtemps les moments de halte que la fatigue impose aux tâches quotidiennes. Le dimanche ramène <pb facs="#facs_439" n="430" source="s2lesouvriersdes04sociuoft_0476.xml"/> régulièrement ses offices suivis par des foules en costumes sombres, qui s'amoncellent en groupes animés, et marchandent les étalages des forains accourus ce jour-là sur la place de l'église : car l'éloi¬gnement, la difficulté des transports a fait coincider, contre les usages religieux mêmes, les cérémonies du culte et les transactions commerciales. Une fête domine le tout : la vogue, la fête locale, celle de Saint-Genest, l'acteur converti miraculeusement sur le théâtre, au moment où il jouait le role d'un chrétien bravant le martyre ; elle s'est fondue peu à peu avec la fête du Comice, que la « So¬ciété d'agriculture » de Saint-Genest, fondée en 1857, organise chaque année avec le concours de l'Etat et du Conseil général. Dévotion et tra¬vaux des champs ; messes à grand orchestre et concours de charrues ; l'union de la vie religieuse et du labeur journalier semble intime. En revanche, même ce jour-là, la « danse, proscrite par le clergé de la Restauration, est toujours poursuivie comme plaisir coupable : le rigorisme ambiant, que les efforts de certains cabaretiers tendraient volontiers à ébranler, a pour défenseurs les vigilantes congréga¬tions greffées sur la paroisse. Le « prince de la jeunesse et sa troupe, — Souvenir évident des coutumes de l'ancien régime, — doivent borner leurs joyeuses folies au lancement de pétards et aux harangues adressées aux autorités. Comme sujet de réjouissances plus pro¬fanes : la reboule, le repos après moissons et fauchées faites, célébrée à chaque foyer par un repas copieux ; et la foire, la foire annuelle du mois d'octobre, qui annonce le retour des froids et pourrait s'ap¬peler la fète de la neige. La neige, en effet, va bientôt effacer che¬mins et grandes routes. Les paisibles parties de boules, de a cochon¬net ». qui s'entrevoient à chaque carrefour du village et au loin sur le seuil de maintes fermes, seront elles-mêmes abandonnées. Il ne restera que les conversations, les souvenirs de l'hivernage ; point de distractions artistiques : le chalumeau plaintif des bergers en est demeuré aux mélopées trainantes de l'antiquité ; la peinture et la sculpture sont des paiennes qui s'accommodent mal de l'austérité religieuse ; parfois les cartes, les fortes libations surtout ; le vice local se retrouve sur sa pente, et certains ne peuvent résister à la satisfaction gourmande des longues beuveries solitaires ou en troupe, aux séductions de l'alcool ou du gros vin noir, dont ne se lassent pas les connaisseurs du pays.
+        La religion a discipliné depuis longtemps les moments de halte que la fatigue impose aux tâches quotidiennes. Le dimanche ramène
+        <pb facs="#facs_439" n="430" source="s2lesouvriersdes04sociuoft_0476.xml"/>
+        régulièrement ses offices suivis par des foules en costumes sombres, qui s'amoncellent en groupes animés, et marchandent les étalages des forains accourus ce jour-là sur la place de l'église : car l'éloi¬gnement, la difficulté des transports a fait coincider, contre les usages religieux mêmes, les cérémonies du culte et les transactions commerciales. Une fête domine le tout : la vogue, la fête locale, celle de Saint-Genest, l'acteur converti miraculeusement sur le théâtre, au moment où il jouait le role d'un chrétien bravant le martyre ; elle s'est fondue peu à peu avec la fête du Comice, que la « So¬ciété d'agriculture » de Saint-Genest, fondée en 1857, organise chaque année avec le concours de l'Etat et du Conseil général. Dévotion et tra¬vaux des champs ; messes à grand orchestre et concours de charrues ; l'union de la vie religieuse et du labeur journalier semble intime. En revanche, même ce jour-là, la « danse, proscrite par le clergé de la Restauration, est toujours poursuivie comme plaisir coupable : le rigorisme ambiant, que les efforts de certains cabaretiers tendraient volontiers à ébranler, a pour défenseurs les vigilantes congréga¬tions greffées sur la paroisse. Le « prince de la jeunesse et sa troupe, — Souvenir évident des coutumes de l'ancien régime, — doivent borner leurs joyeuses folies au lancement de pétards et aux harangues adressées aux autorités. Comme sujet de réjouissances plus pro¬fanes : la reboule, le repos après moissons et fauchées faites, célébrée à chaque foyer par un repas copieux ; et la foire, la foire annuelle du mois d'octobre, qui annonce le retour des froids et pourrait s'ap¬peler la fète de la neige. La neige, en effet, va bientôt effacer che¬mins et grandes routes. Les paisibles parties de boules, de a cochon¬net ». qui s'entrevoient à chaque carrefour du village et au loin sur le seuil de maintes fermes, seront elles-mêmes abandonnées. Il ne restera que les conversations, les souvenirs de l'hivernage ; point de distractions artistiques : le chalumeau plaintif des bergers en est demeuré aux mélopées trainantes de l'antiquité ; la peinture et la sculpture sont des paiennes qui s'accommodent mal de l'austérité religieuse ; parfois les cartes, les fortes libations surtout ; le vice local se retrouve sur sa pente, et certains ne peuvent résister à la satisfaction gourmande des longues beuveries solitaires ou en troupe, aux séductions de l'alcool ou du gros vin noir, dont ne se lassent pas les connaisseurs du pays.
        </p>
       </div>
      </div>
@@ -1421,7 +1549,8 @@
         § 12. PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
        <p xml:id="para_12_431_309">
-        <pb facs="#facs_440" n="431" source="s2lesouvriersdes04sociuoft_0477.xml"/>Le chef de la famille et sa femme ont eu le sort commun de tous les enfants des montagnards. Pâtres et domestiques, tels ont été leurs premiers emplois : pâtres, pour économiser à leurs parents le salaire d'un journalier ; domestiques, afin de pouvoir acquérir par leurs économies, l'un le cheptel nécessaire au fermier, l'autre la dot indis¬pensable aux filles à marier.
+        <pb facs="#facs_440" n="431" source="s2lesouvriersdes04sociuoft_0477.xml"/>
+        Le chef de la famille et sa femme ont eu le sort commun de tous les enfants des montagnards. Pâtres et domestiques, tels ont été leurs premiers emplois : pâtres, pour économiser à leurs parents le salaire d'un journalier ; domestiques, afin de pouvoir acquérir par leurs économies, l'un le cheptel nécessaire au fermier, l'autre la dot indis¬pensable aux filles à marier.
        </p>
        <p xml:id="para_12_431_310">
         Antoine l*** ft de bonne heure loué par un vieux gentilhomme des environs, malade et bientôt paralysé de tous ses membres. Il se fit bien vite aimer par sa droiture et son honnêteté ; il avait déjà réuni 600 francs placés de façons diverses, lorsqu'il fit la connaissance de Catherine M***, femme de chambre, ou, plus exactement, bonne d'enfants dans un château voisin. Celle-ci joignait à sa bonne humeur et à sa robuste santé un petit avoirde 250 francs. La part d'héritage du fiancé s'élevait à 600 francs, outre ses 600 francs d'épargne. Le jeune ménage pouvait donc compter sur un capital de 1.450 francs, à peine suffisant pour acheter les vaches laitières, la charrette et les outils in¬dispensables à l'établissement du plus humble fermier. Ainsi, la position de serviteur dans un château, qui arrache complètement le paysan russe aux coutumes rurales, au point de constituer une classe à part
@@ -1438,13 +1567,16 @@
         Le mariage eut lieu d'après les coutumes locales ; les frères et les amis du marié vinrent de grand matin donner l'assaut à la maison de la mariée, un peu avec les mêmes rites que eorges Sand ob¬serva jadis en Berry et qu'elle décrivit dans la « Mare au Diable ».
        </p>
        <p xml:id="para_12_432_313">
-        <pb facs="#facs_441" n="432" source="s2lesouvriersdes04sociuoft_0478.xml"/> La famille de la jeune fille la défendit ; on présenta aux assaillants une poupée grossièrement fabriquée avec des linges entortillés : la recherche continua longtemps au milieu des éclats de rire, car la mariée, suivant l'usage, s'était cachée dans un placard. Enfin le cor¬ège partit, à pied ; c'était un mariage de pauvre. Les paysans ri¬ches sont précédés de coureurs à cheval qui ajoutent toujours à la fête un cachet des plus pittoresques. Sur la place de l'église, on trouva l'époux, qui avait dû disparaitre pendant cette cérémonie, et les formalités légales, puis ecclésiastiques, suivirent leur cours im¬muable. Il en fut de même des réjouissances, repas de noces et danse aux violons.
+        <pb facs="#facs_441" n="432" source="s2lesouvriersdes04sociuoft_0478.xml"/>
+        La famille de la jeune fille la défendit ; on présenta aux assaillants une poupée grossièrement fabriquée avec des linges entortillés : la recherche continua longtemps au milieu des éclats de rire, car la mariée, suivant l'usage, s'était cachée dans un placard. Enfin le cor¬ège partit, à pied ; c'était un mariage de pauvre. Les paysans ri¬ches sont précédés de coureurs à cheval qui ajoutent toujours à la fête un cachet des plus pittoresques. Sur la place de l'église, on trouva l'époux, qui avait dû disparaitre pendant cette cérémonie, et les formalités légales, puis ecclésiastiques, suivirent leur cours im¬muable. Il en fut de même des réjouissances, repas de noces et danse aux violons.
        </p>
        <p xml:id="para_12_432_314">
         Dès le lendemain du mariage, après cette halte de quelques jours, le montagnard vit recommencer sa dure existence. La ferme avait été louée d'avance une petite ferme pouvant nourrir 2 à 3 vaches laitières, celle où nous rencontrons encore la famille ; un frère du marié avait consenti à l'aider pour les travaux préparatoires ; les bes¬tiaux, la charrette avaient été achetés, quelques meubles aussi, — bien peu de meubles, — car le mobilier d'aujourd'hui, si modeste qu'il soit, a été le résultat de longues années de labeur. Mais le fermier avait vingt-neuf ans, la fermière vingt-trois ; l'un et l'autre étaient soutenus par la passion du travail et jouissaient d'une santé à toute épreuve. Ils se mirent joyeusement à l'œuvre.
        </p>
        <p xml:id="para_12_432_315">
-        Il est dans l'histoire de ces fermiers foréziens une phase dans la¬quelle succombent souvent les moins bien doués en courage et en espérance : c'est la période qui suit immédiatement la venue des premiers enfants. Les naissances sont répétées et rapprochées en ce pays, où la haute classe donne elle-même l'exemple de la fécondité d'autrefois, et où, parmi les paysans, des familles de 22 enfants, nés de la même femme, peuvent être citées. Il y eut parfois des retards pour le paiement de la ferme, et la ménagère raconte sans fausse sensiblerie que certains soirs d'hiver on fut se coucher sans souper. Pour comble de malheur, une année, — l'année terrible pour ces êtres isolés dans leurs landes, où les perturbations politiques ne pénètrent guère, — une épizootie subite enleva les deux vaches. lleureusement, le protecteur naturel des paysans, le château, inter¬vint : des dons en nature vinrent permettre de reporter tout l'ar¬gent disponible sur l'achat d'un nouveau cheptel ; l'étable fut re¬blanchie à neuf; le propriétaire consentit à une remise assez forte. Malgré cela, les dettes s'étaient subitement accrues. ll fallait les <pb facs="#facs_442" n="433" source="s2lesouvriersdes04sociuoft_0479.xml"/> amortir. et aussi placer au plus vite les enfants, à peine en âge de se tenir debout.
+        Il est dans l'histoire de ces fermiers foréziens une phase dans la¬quelle succombent souvent les moins bien doués en courage et en espérance : c'est la période qui suit immédiatement la venue des premiers enfants. Les naissances sont répétées et rapprochées en ce pays, où la haute classe donne elle-même l'exemple de la fécondité d'autrefois, et où, parmi les paysans, des familles de 22 enfants, nés de la même femme, peuvent être citées. Il y eut parfois des retards pour le paiement de la ferme, et la ménagère raconte sans fausse sensiblerie que certains soirs d'hiver on fut se coucher sans souper. Pour comble de malheur, une année, — l'année terrible pour ces êtres isolés dans leurs landes, où les perturbations politiques ne pénètrent guère, — une épizootie subite enleva les deux vaches. lleureusement, le protecteur naturel des paysans, le château, inter¬vint : des dons en nature vinrent permettre de reporter tout l'ar¬gent disponible sur l'achat d'un nouveau cheptel ; l'étable fut re¬blanchie à neuf; le propriétaire consentit à une remise assez forte. Malgré cela, les dettes s'étaient subitement accrues. ll fallait les
+        <pb facs="#facs_442" n="433" source="s2lesouvriersdes04sociuoft_0479.xml"/>
+        amortir. et aussi placer au plus vite les enfants, à peine en âge de se tenir debout.
        </p>
        <p xml:id="para_12_433_317">
         Ici commence le procédé du placement habituel à la montagne à quatorze ans, l'ainée des fillettes est envoyée à une fabrique, à l'une de ces fabriques rura les, s un moulinage, où l'on dévide la soie des¬tinée à confectionner ces rubans de Saint-Etienne, dont la renommée s'est étendue sur les marchés des deux Mondes. Nous avons noté au budget
@@ -1459,7 +1591,8 @@
         § 13. MŒURS ET INSTITUTIONS ASSURANT LE BIEN-ÊTRE PHYSIQUE ET MORAL DE LA FAMILLE.
        </head>
        <p xml:id="para_12_434_320">
-        <pb facs="#facs_443" n="434" source="s2lesouvriersdes04sociuoft_0480.xml"/>Malgré un léger commencement de désorganisation, visible seu¬lement pour un observateur minutieux, la famille étudiée, non moins que les familles-souches voisines, offre encore la cohésion puissante qui est le signe des fortes races. Elle a le sens de sa soli¬darité : l'esprit de travail et d'épargne, le dévouement de l'héritier institué, — car on prévoit déjà l'établissement dans une ferme plus im¬portante, — assureront aux membres les plus âgés, au père et à lamère, une vieillesse relativement heureuse. La transmission intégrale, dont on a l'idée et le désir
+        <pb facs="#facs_443" n="434" source="s2lesouvriersdes04sociuoft_0480.xml"/>
+        Malgré un léger commencement de désorganisation, visible seu¬lement pour un observateur minutieux, la famille étudiée, non moins que les familles-souches voisines, offre encore la cohésion puissante qui est le signe des fortes races. Elle a le sens de sa soli¬darité : l'esprit de travail et d'épargne, le dévouement de l'héritier institué, — car on prévoit déjà l'établissement dans une ferme plus im¬portante, — assureront aux membres les plus âgés, au père et à lamère, une vieillesse relativement heureuse. La transmission intégrale, dont on a l'idée et le désir
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (§ 18)
         </ref>
@@ -1470,7 +1603,9 @@
         . C'est bien le réservoir d'hom¬mes dont nous parlions au début, la source jamais tarie, d'où l'émigration incessante des jeunes, dressés à la vie travailleuse et à l'obéissance instinctive, se déverse sur les cités aux labeurs diversifiés qui couvrent la plaine.
        </p>
        <p xml:id="para_12_434_321">
-        Mais alors, dans cette antithèse qui revient sans cesse sous la plume de l'analyste, apparaît une transformation inattendue. Ces indivi¬dualités détachées de la constitution sociale solide, bâtie par les siècles et pour des siècles, que nous venons d'indiquer, ces émigrants sans cesse sollicités un à un par les courants multiples de l'industrie minière, rubanière, par le travail du fer, de la verrerie, les ateliers de construction ou les hauts fourneaux, vont devenir en un clin d'eil <pb facs="#facs_444" n="435" source="s2lesouvriersdes04sociuoft_0481.xml"/> les représentants les plus parfaits de l'instabilité contemporaine. Il ne fonderont plus de « souches » durables. L'imprévoyance aban¬donnera les vieux parents comme un fardeau inutile. Le mépris du culte catholique s'élêvera à la hauteur des dogmes incontestés ; le con¬tre-fanatisme régnera. La révolte soufflera de toute part ; et le « dra¬peau rouge ou noir », les revendications implacables des opprimés de l'ère industrielle nouvelle, se lêveront à la place de la déférence aux mots d'ordre reçus ou même aux conseils donnés.
+        Mais alors, dans cette antithèse qui revient sans cesse sous la plume de l'analyste, apparaît une transformation inattendue. Ces indivi¬dualités détachées de la constitution sociale solide, bâtie par les siècles et pour des siècles, que nous venons d'indiquer, ces émigrants sans cesse sollicités un à un par les courants multiples de l'industrie minière, rubanière, par le travail du fer, de la verrerie, les ateliers de construction ou les hauts fourneaux, vont devenir en un clin d'eil
+        <pb facs="#facs_444" n="435" source="s2lesouvriersdes04sociuoft_0481.xml"/>
+        les représentants les plus parfaits de l'instabilité contemporaine. Il ne fonderont plus de « souches » durables. L'imprévoyance aban¬donnera les vieux parents comme un fardeau inutile. Le mépris du culte catholique s'élêvera à la hauteur des dogmes incontestés ; le con¬tre-fanatisme régnera. La révolte soufflera de toute part ; et le « dra¬peau rouge ou noir », les revendications implacables des opprimés de l'ère industrielle nouvelle, se lêveront à la place de la déférence aux mots d'ordre reçus ou même aux conseils donnés.
        </p>
        <p xml:id="para_12_435_323">
         N'est-ce pas, au fond, le résumé de toute la question sociale2 Un mi¬lieu qui dure depuis des siècles et dont l'organisation a été peu à peu tracée ; un milieu nouveau, surgissant tout d'un coup, sous l'essor de puissantes découvertes, et où l'anarchie subsiste, cherchant encore les concessions réciproques et la hiérarchie définitive, gardienne de la paix sociale D.
@@ -2718,20 +2853,25 @@
          § 17. SUR LE DÉVELOPPEMENT DU DÉCALOGUE PAR L'INSTRUCTION CHRÉTIENNE ; LE « CAMÉRISTAT ».
         </head>
         <p xml:id="para_12_452_716">
-         <pb facs="#facs_461" n="452" source="s2lesouvriersdes04sociuoft_0498.xml"/> Le Play signalait, chaque fois qu'il les rencontrait, ces « oasis de vertu » qui çà et là, dans les massifs montagneux de l'urope, main¬tenaient les grandes et pures traditions de la chrétienté de jadis. Si l'attention publique se dirige assez rarement vers les contrées ana¬logues que recèle encore le plateau central de la France, il n'en est pas de même des diflférentes congrégations catholiques vouées à l'en¬scignement. Pour elles, les replis supérieurs de la Loire, de la Haute¬Loire, de l'Ardéche par exemple, constituent de fortes citadelles, d'autant plus précieuses à conserver que, malgré la nouvelle loi mili¬taire, ces populations, simplement et admirablement croyantes, ne cessent d'assurer leur recrutement. Ces congrégations d'ailleurs sont propriétaires des immeubles qu'elles occupent ; elles ont fondé, elles aussi, leur pouvoir d'apostolat sur la possession de la terre.
+         <pb facs="#facs_461" n="452" source="s2lesouvriersdes04sociuoft_0498.xml"/>
+         Le Play signalait, chaque fois qu'il les rencontrait, ces « oasis de vertu » qui çà et là, dans les massifs montagneux de l'urope, main¬tenaient les grandes et pures traditions de la chrétienté de jadis. Si l'attention publique se dirige assez rarement vers les contrées ana¬logues que recèle encore le plateau central de la France, il n'en est pas de même des diflférentes congrégations catholiques vouées à l'en¬scignement. Pour elles, les replis supérieurs de la Loire, de la Haute¬Loire, de l'Ardéche par exemple, constituent de fortes citadelles, d'autant plus précieuses à conserver que, malgré la nouvelle loi mili¬taire, ces populations, simplement et admirablement croyantes, ne cessent d'assurer leur recrutement. Ces congrégations d'ailleurs sont propriétaires des immeubles qu'elles occupent ; elles ont fondé, elles aussi, leur pouvoir d'apostolat sur la possession de la terre.
         </p>
         <div n="001" type="paragraph">
          <head type="paragraph" xml:id="part_03_01_17_01">
           Enseignement des jeunes garçons.
          </head>
          <p xml:id="para_12_452_718">
-          Grâce à l'esprit de foi, réellement exceptionnel, et aux générosités des riches, les écoles libres de garçons triomphent dans le duel par¬tout ouvert entre l'enseignement congréganiste et l'enseigncment of ieiel. — entre ces deu administrations, de taille à lutter sans trop d'inéalie : 'lise e 'Éa. <pb facs="#facs_462" n="453" source="s2lesouvriersdes04sociuoft_0499.xml"/> lei la congrégation dominante n'est pas la célèbre congrégation des Frêres des écoles cbrétiennes (lgnorantins) du bienheureux de La Salle, non plus que les Frères de Saint-Vincent de Paul, assez ré¬pandus dans quelques cantons voisins, mais bien les Petits Frères de Sainte -Marie, qui viennent au second rang des congrégations ensei¬gnantes et opposent leurs 7.000 frêres aux 12.000 des lgnorantins, répandus surtout dans l'est, au midi, au nord de la France, en Amérique et jusqu'en Australie.
+          Grâce à l'esprit de foi, réellement exceptionnel, et aux générosités des riches, les écoles libres de garçons triomphent dans le duel par¬tout ouvert entre l'enseignement congréganiste et l'enseigncment of ieiel. — entre ces deu administrations, de taille à lutter sans trop d'inéalie : 'lise e 'Éa.
+          <pb facs="#facs_462" n="453" source="s2lesouvriersdes04sociuoft_0499.xml"/>
+          lei la congrégation dominante n'est pas la célèbre congrégation des Frêres des écoles cbrétiennes (lgnorantins) du bienheureux de La Salle, non plus que les Frères de Saint-Vincent de Paul, assez ré¬pandus dans quelques cantons voisins, mais bien les Petits Frères de Sainte -Marie, qui viennent au second rang des congrégations ensei¬gnantes et opposent leurs 7.000 frêres aux 12.000 des lgnorantins, répandus surtout dans l'est, au midi, au nord de la France, en Amérique et jusqu'en Australie.
          </p>
          <p xml:id="para_12_453_720">
           C'est une congrégation, non seulement lyonnaise, — et l'on sait que la ville primatiale des taules l'a fait surgir avec une merveilleuse fécondité, — mais locale. La congrégation des Petits Fr̀res de Marie a été fondée vers 1830 par le Père Champagnat, de Marlhes, commune du canton de Saint-Genest-Malifaux. En même temps, le Père Colon, ami du Père Champagnat, fondait les Pères Maristes. On reconnait la distinction fondamentale du religieux prêtre et des religieux étran¬gers aux ordres, même mineurs. La volonté formelle du Souverain Pontife exigea la séparation complète des deux catégories, qui rend seule possible le maintien dans le niveau inférieur, voué à l'enseigne¬ment, des individualités les plus capables. T'out autre système en¬traine pour le professorat une sélection à rebours. Les Petits Frères de Sainte-Marie prêtent les trois vœux : de pauvreté, de chasteté et d'obéissance ; ils peuvent en être relevés par le pape. Leur costume est en tout semblable à celui des lgnorantins, sauf en d'impercep¬tibles détails : forme du chapeau, du rabat et du manteau. Leur règle est très analogue, et leurs méthodes d'enseignement sensiblement pa¬reilles. La maison-mère primitive était située à La Valla, près Saint-Cha¬mond (Loire), au lieu dit de l'lIermitage. Aujourd'hui, elle a été transportée à Saint-Genis-Laval, près de Lyon. L'attraction de la métropole religieuse se manifeste ainsi plus énergiquement.
          </p>
          <p xml:id="para_12_453_721">
-          La maison des Frêres de Saint-Genest, fondée vers 1830, — l'ancien directeur, EFrère Marie-Aimé, en recueille actuellement les archives, — joue un rôle important, aussi bien dans les intérêts de la congrégation que dans le mouvement intellectuel de la montagne du Forez. Ce n'est pas une simple école primaire, mais bien une école primaire supé¬rieure, à tendance professionnelle (naturellement agricole). Ses di¬recteurs l'ont toujours considérée à bon droit comme le préservatif moral des jeunes gens des montagnes circonvoisines, soustraits ainsi à l'enseignement toujours danggereux d'une ville industrielle, et aussi, à un moindre degré, comme l'antichambre du juvénat », de l'école <pb facs="#facs_463" n="454" source="s2lesouvriersdes04sociuoft_0500.xml"/> préparatoire de la congrégation, située toujours à l'Hermitage.
+          La maison des Frêres de Saint-Genest, fondée vers 1830, — l'ancien directeur, EFrère Marie-Aimé, en recueille actuellement les archives, — joue un rôle important, aussi bien dans les intérêts de la congrégation que dans le mouvement intellectuel de la montagne du Forez. Ce n'est pas une simple école primaire, mais bien une école primaire supé¬rieure, à tendance professionnelle (naturellement agricole). Ses di¬recteurs l'ont toujours considérée à bon droit comme le préservatif moral des jeunes gens des montagnes circonvoisines, soustraits ainsi à l'enseignement toujours danggereux d'une ville industrielle, et aussi, à un moindre degré, comme l'antichambre du juvénat », de l'école
+          <pb facs="#facs_463" n="454" source="s2lesouvriersdes04sociuoft_0500.xml"/>
+          préparatoire de la congrégation, située toujours à l'Hermitage.
          </p>
          <p xml:id="para_12_454_723">
           Deux points sont particuliêrement curieux dans cette école, qui depuis 1830 s'était superposée à l'école communale, alors également aux mains des congréganistes, et qui, depuis la laicisation opérée il y a une dizaine d'années, s'est annexé une école libre devenue très prospère (130 enfants contre 23 confiés à l'instituteur officiel).
@@ -2761,7 +2901,9 @@
           L'expérience du lecteur lui a déjà fait découvrir la définition pré¬cise de ces diverses expressions ; un seul mot reste en dehors de sa langue accoutumée : le caméristat.
          </p>
          <p xml:id="para_12_454_732">
-          C'est un s pensionnat » limité à un minimum très abaissé par ce fait que chaque enfant apporte et enferme en une armoire (camera) la plupart des vivres nécessaires à sa consommation. n a signalé depuis longtemps la tendance des familles rurales à payer en nature les frais d'éducation des enfants. bLa systématisation en a été trouvée <pb facs="#facs_464" n="455" source="s2lesouvriersdes04sociuoft_0501.xml"/> par ces rudes populations des montagnes, qui ont créé d'instinct le caméristat ».
+          C'est un s pensionnat » limité à un minimum très abaissé par ce fait que chaque enfant apporte et enferme en une armoire (camera) la plupart des vivres nécessaires à sa consommation. n a signalé depuis longtemps la tendance des familles rurales à payer en nature les frais d'éducation des enfants. bLa systématisation en a été trouvée
+          <pb facs="#facs_464" n="455" source="s2lesouvriersdes04sociuoft_0501.xml"/>
+          par ces rudes populations des montagnes, qui ont créé d'instinct le caméristat ».
          </p>
         </div>
         <div n="002" type="paragraph">
@@ -2784,13 +2926,16 @@
          Dans la foule des familles paysannes, perpétuant en ce coin ignoré de France la constitution de la famille-souche, se détachent de loin en loin de véritables dynasties, qui se désignent elles-mêmes du nom de « vieilles familles de Saint-Genest, par opposition au flot d'immi¬grants, ouvriers et commerçants, infiltré peu à peu de l'Auvergne et de la Haute-Loire. Immuables en leurs domaines héréditaires, pou¬vant témoigner de deux ou trois siecles de généalogie, reliées à des familles « arrivées » des villes industrielles, — hommes de loi, méde¬cins, chefs d'usine, — par le souvenir d'un essaimage récent, elles reproduisent assez bien ces maisons de Biscaye, où les armoiries de la porte d'entrée annoncent un gentilhomme laboureur, ou mieux encore une bourgeoisie rurale, fière de ses titres, qui n'a jamais rompu avec le travail manuel. C'est à leur école qu'il faut chercher les véritables traditions locales au sujet de l'autorité paternelle et de la transmission intégrale,
         </p>
         <p xml:id="para_12_455_741">
-         Les généralités appliquées à l'ensemble de la contrée présente<pb facs="#facs_465" n="456" source="s2lesouvriersdes04sociuoft_0502.xml"/>raient déjà, en effet, une netteté assez concluante. Le respect des anciens apparait au touriste dês qu'il a franchi le seuil de l'église paroissiale. Au centre s'éleve un autel tendu de noir, ou brûle inces¬samment une lampe : c'est l'altare mortuorum, le symbole rituel, qui a remplacé le cimetière jadis rapproché de l'autel même en une com¬munion perpétuelle et touchante. La vieille religion romaine a déve¬loppé ici plus qu'ailleurs ce vestige du culte des ancêtres, qui s'apr pelle la dévotion aux âmes du purgautoire ; et un usage, inconnu des autres parties du diocèse, impose, avant toute cérémonie religieuse, la psalmodie rapide des vêpres des morts. Cne visite aux fermes-laite¬ries espacées à la limite des bois noirs » démontrerait que cette déférence liturgique n'est que l'expression d'un sentiment profondé¬ment enraciné dans la race, et que les vieux parents » n'ont à crain¬dre, sauf exception rare, ni abandon ni mauvais traitement. L'infirme, l'octogénairc, peut compter au moins sur sa chambrette séparée, où les tracasseries de la vie commune lui seront évitées, sans que cette indépendance soit synonyme de délaissement.
+         Les généralités appliquées à l'ensemble de la contrée présente
+         <pb facs="#facs_465" n="456" source="s2lesouvriersdes04sociuoft_0502.xml"/>
+         raient déjà, en effet, une netteté assez concluante. Le respect des anciens apparait au touriste dês qu'il a franchi le seuil de l'église paroissiale. Au centre s'éleve un autel tendu de noir, ou brûle inces¬samment une lampe : c'est l'altare mortuorum, le symbole rituel, qui a remplacé le cimetière jadis rapproché de l'autel même en une com¬munion perpétuelle et touchante. La vieille religion romaine a déve¬loppé ici plus qu'ailleurs ce vestige du culte des ancêtres, qui s'apr pelle la dévotion aux âmes du purgautoire ; et un usage, inconnu des autres parties du diocèse, impose, avant toute cérémonie religieuse, la psalmodie rapide des vêpres des morts. Cne visite aux fermes-laite¬ries espacées à la limite des bois noirs » démontrerait que cette déférence liturgique n'est que l'expression d'un sentiment profondé¬ment enraciné dans la race, et que les vieux parents » n'ont à crain¬dre, sauf exception rare, ni abandon ni mauvais traitement. L'infirme, l'octogénairc, peut compter au moins sur sa chambrette séparée, où les tracasseries de la vie commune lui seront évitées, sans que cette indépendance soit synonyme de délaissement.
         </p>
         <p xml:id="para_12_456_743">
          D'autre part, en se plaçant au point de vue des chefs de famille, la délégation des terres et du pouvoir reçus s'opère suivant un mode identique à peu de chose près. Un partage testamentaire attribue le quart disponible à l'un des enfants, ordinairement l'aîné. Les autres doivent se contenter de leur part virile, qu'ils transforment volontiers en soulte à recevoir, surtout lorsqu'il s'agit de filles mariées dans la plaine avec quelque ouvrier qui a émigré ou qui est « descendu ». Le paiement des soultes a lieu, soit au moyen d'un emprunt, soit par des libérations successives, soumises à l'intérêt de 4, que le trop¬plein du numéraire des villes d'usines a substitué à l'ancien intérèt normal de 5 (voir obligations de 1837 et années suivantes dans les archives des notaires). La régularité légale reste parfaite ; et l'es¬prit public, d'accord avec les dispositions de dernière volonté, achêve d'établir ces deux coutumes : transmission intégrale aux mains de l'un des fils ; attribution aux autres — surtout aux filles — d'une lé¬gitime en argent. Si les inconvénients ordinaires de notre loi de par¬tage égal ont été jusqu'ici conjurés, c'est, d'une part, par la force des meurs attachées toujours aux usages de transmission intégrale ; c'est, d'autre part, par l'augmentation continue de la valeur des terres ren¬dant possible le paiement des soultes. Mais ce mouvement de hausse s'est arrêté, et les effets destructeurs du Code n'auront plus d'autres contrepoids que l'attachement aux vieilles mœurs.
         </p>
         <p xml:id="para_12_457_744">
-         <pb facs="#facs_466" n="457" source="s2lesouvriersdes04sociuoft_0503.xml"/> D'ailleurs, que le lecteur suive avec nous l'histoire de l'une de ces fa¬milles dont nous parlions plus haut, véritable modèle d'union do¬mestique, où le chef actuel, d'une exceptionnelle hauteur morale, peut jurer devant Dieu que jamais de sa vie entière il n'a désobéi aux ordres de ses parents ». Depuis trois cents ans, le petit domaine de 7 hectares agglomérés, qui nourrit ses 16 vaches et génisses et envoie chaque jour vers la ville ses 100 mesures de lait (50 litres pour 10r00), pu passer par les échelons successifs d'une hérédité directe.
+         <pb facs="#facs_466" n="457" source="s2lesouvriersdes04sociuoft_0503.xml"/>
+         D'ailleurs, que le lecteur suive avec nous l'histoire de l'une de ces fa¬milles dont nous parlions plus haut, véritable modèle d'union do¬mestique, où le chef actuel, d'une exceptionnelle hauteur morale, peut jurer devant Dieu que jamais de sa vie entière il n'a désobéi aux ordres de ses parents ». Depuis trois cents ans, le petit domaine de 7 hectares agglomérés, qui nourrit ses 16 vaches et génisses et envoie chaque jour vers la ville ses 100 mesures de lait (50 litres pour 10r00), pu passer par les échelons successifs d'une hérédité directe.
         </p>
         <p xml:id="para_12_457_745">
          Au début, avant même la Révolution française, le souvenir des an¬cêtres a souvent dépeint la communauté des frères et sœurs qui vi¬vait sur les 14 hectares primitifs. Comme dans les pays basques, la plupart restaient célibataires autour de l'héritier institué.
@@ -2802,7 +2947,9 @@
          Deux enfants seulement représentent la génération suivante : une fille et un fils. La première entre dans une congrégation religieuse. La transmission intégrale est une fois de plus assurée.
         </p>
         <p xml:id="para_12_457_748">
-         Quel sera l'avenir du domaine2 Le « chef » a trois enfants. Il veille avant tout sur l'éducation chrétienne qui constitue pour lui l'élément primordial de la perpétuité des races : « l'union des mœurs et des idées », ce qu'il appelle « l'union des cœurs ». Ce premier point ac¬quis, il léguera le quart à son fils, — à son aîné, dit la langue du pays, bien que cet aîné soit seul ; — ce quart lui semble la juste compen¬sation des obligations qu'impose la représentation de la tige familiale, avec ses réceptions et ses charges. Puis le partage égal divisera le reste entre ce fils et ses filles, qui sont également les enfants de sa chair et de son sang ». Il compte avant tout, comme ces pères de famille du seizième siècle, dont les livres de raison ont été retrouvés par M. de Ribbe et qu'il reproduit avec une dignité austère d'un puissant effet, sur la protection de Dieu, qui ne peut manquer. Les filles entendront-elles <pb facs="#facs_467" n="458" source="s2lesouvriersdes04sociuoft_0504.xml"/> cet appel du côté de la vie monastique ou de la vie séculière ; choisi¬rontelles le couvent ou un mariage lointain, qui leur fera réclamer une soulte et rien de plus Le dévouement qu'elles montrent déjà à la « maison », l'affection qu'elles portent à leur frêre, semblent les plus sûrs garants d'une décision conforme au bien de la communauté.
+         Quel sera l'avenir du domaine2 Le « chef » a trois enfants. Il veille avant tout sur l'éducation chrétienne qui constitue pour lui l'élément primordial de la perpétuité des races : « l'union des mœurs et des idées », ce qu'il appelle « l'union des cœurs ». Ce premier point ac¬quis, il léguera le quart à son fils, — à son aîné, dit la langue du pays, bien que cet aîné soit seul ; — ce quart lui semble la juste compen¬sation des obligations qu'impose la représentation de la tige familiale, avec ses réceptions et ses charges. Puis le partage égal divisera le reste entre ce fils et ses filles, qui sont également les enfants de sa chair et de son sang ». Il compte avant tout, comme ces pères de famille du seizième siècle, dont les livres de raison ont été retrouvés par M. de Ribbe et qu'il reproduit avec une dignité austère d'un puissant effet, sur la protection de Dieu, qui ne peut manquer. Les filles entendront-elles
+         <pb facs="#facs_467" n="458" source="s2lesouvriersdes04sociuoft_0504.xml"/>
+         cet appel du côté de la vie monastique ou de la vie séculière ; choisi¬rontelles le couvent ou un mariage lointain, qui leur fera réclamer une soulte et rien de plus Le dévouement qu'elles montrent déjà à la « maison », l'affection qu'elles portent à leur frêre, semblent les plus sûrs garants d'une décision conforme au bien de la communauté.
         </p>
         <p xml:id="para_12_458_750">
          La transmission intégrale laisse transparaitre ici les deux con¬ditions qui la rendent pratiquement possible en dehors de l'action lé¬gislative :
@@ -2825,7 +2972,8 @@
          Mais il est inutile de développer des considérations générales sur la crise religieuse du territoire fraņais tout entier. Deux faits locaux doi¬vent nous arrêter : l'apparition en ce siècle même de deux sectes dissi¬dentes, une sorte de « raslol », si l'on veut poursuivre l'analogie avec la confession orientale : la ˉPetite ˉglise et le ˉBéguinisme.
         </p>
         <p xml:id="para_12_459_757">
-         <pb facs="#facs_468" n="459" source="s2lesouvriersdes04sociuoft_0505.xml"/> 1° La Petite Église
+         <pb facs="#facs_468" n="459" source="s2lesouvriersdes04sociuoft_0505.xml"/>
+         1° La Petite Église
          <note type="bp">
           <p>
            V. les publications récentes des Pères de l'Assomption sur la Petite Église.
@@ -2843,7 +2991,9 @@
          , a eu pour premier fondateur un prêtre de Saint-Genest-Malifaux : la famille de Digonnet », l'in¬carnation nouvelle méconnue par les tribunaux correctionnels, y est représentée ; et c'est au milieu des bois de la commune même, au ha¬meau s'appelant aujourd'hui la « République, que ces Mormons, moins fameux que leurs émules des Etats-Unis, ont essayé de fonder un Etat nouveau.
         </p>
         <p xml:id="para_12_459_759">
-         Première phase du Béguinisme : les précurseurs. — En 1791, au mo¬ment des troubles de la Révolution française et de la commotion pro¬fonde qu'avait entrainée la constitution civile du clergé, les vicaires Jacques Drevet et Lafay, qui administraient la paroisse de Saint-Jean¬de-Bonnefond, près Saint-Etienne, en pleines terres noires, procla¬mêrent qu'près l'ancienne loi, règne de Dieu le Père, après même la loi nouvelle, règne de Dieu le Fils, il y avait une étape troisième et dernière : avenement de l'sprit-Saint. Le corps était élevé dès lors <pb facs="#facs_469" n="460" source="s2lesouvriersdes04sociuoft_0506.xml"/> au même rang que l'esprit ; l'un et l'autre parfaits n'avaient qu'à dé¬velopper librement leurs inclinations naturelles : la nudité devenait la première marque de respect pour le chef-d'œuvre de Dieu, et les fantaisies de l'imagination la suprême rêgle. Comme conséquence : des orgies nocturnes, renouvelées du sabbat du moyen âge ; les ma¬riages intermittents, etc., etc. On devine la contagion des consé¬quences. L'exode fut même décidé : les femmes en grand nombre partirent à la suite des hommes-initiés et de leur pasteur pour les so¬litudes saintes de la montagne. La maréchaussée de la épublique mit fin à cette folie par l'arrestation des curés Drevet et Lafay, pré¬cisément à ce hameau de la République, qui a gardé le souvenir de la plus bizarre des tentatives de colonisation. Drevet, défroqué et ma¬rié avec l'une des converties, finit épicier à Lyon. Le Béguinisme, qui avait déjà eu le temps de constituer ses manuscrits sacrés, ses marques extérieures (la torsade sur le bonnet des femmes), se cantonna à Saint¬Jean, dans l'attente d'une incarnation nouvelle, qui devait se produire bientôt, car les temps étaient proches.
+         Première phase du Béguinisme : les précurseurs. — En 1791, au mo¬ment des troubles de la Révolution française et de la commotion pro¬fonde qu'avait entrainée la constitution civile du clergé, les vicaires Jacques Drevet et Lafay, qui administraient la paroisse de Saint-Jean¬de-Bonnefond, près Saint-Etienne, en pleines terres noires, procla¬mêrent qu'près l'ancienne loi, règne de Dieu le Père, après même la loi nouvelle, règne de Dieu le Fils, il y avait une étape troisième et dernière : avenement de l'sprit-Saint. Le corps était élevé dès lors
+         <pb facs="#facs_469" n="460" source="s2lesouvriersdes04sociuoft_0506.xml"/>
+         au même rang que l'esprit ; l'un et l'autre parfaits n'avaient qu'à dé¬velopper librement leurs inclinations naturelles : la nudité devenait la première marque de respect pour le chef-d'œuvre de Dieu, et les fantaisies de l'imagination la suprême rêgle. Comme conséquence : des orgies nocturnes, renouvelées du sabbat du moyen âge ; les ma¬riages intermittents, etc., etc. On devine la contagion des consé¬quences. L'exode fut même décidé : les femmes en grand nombre partirent à la suite des hommes-initiés et de leur pasteur pour les so¬litudes saintes de la montagne. La maréchaussée de la épublique mit fin à cette folie par l'arrestation des curés Drevet et Lafay, pré¬cisément à ce hameau de la République, qui a gardé le souvenir de la plus bizarre des tentatives de colonisation. Drevet, défroqué et ma¬rié avec l'une des converties, finit épicier à Lyon. Le Béguinisme, qui avait déjà eu le temps de constituer ses manuscrits sacrés, ses marques extérieures (la torsade sur le bonnet des femmes), se cantonna à Saint¬Jean, dans l'attente d'une incarnation nouvelle, qui devait se produire bientôt, car les temps étaient proches.
         </p>
         <p xml:id="para_12_460_763">
          Seconde phase : l'incarnation. — Ici commence le plus extravagant des romans de mœurs, que le livre assez récent de M. Duplay, « Le Petit Bon Dieu des Béguins »
@@ -2852,7 +3002,9 @@
            Imp. Balay, Saint-́tienne, 1890.
           </p>
          </note>
-         , a retracé avec une exactitude sérieuse, malgré l'abondance voulue des détails les plus bouffons. Pendant que les Béguins de Saint-lean étaient visités successivement par les Qua¬lers d'Angleterre, les méthodistes suisses, les Evangélistes, qui es¬sayaient de ressouder cette secte isolée au corps principal du protes¬tantisme, un macon du Cantal, Denis-Jean-Baptiste Digonnet, né à Mauregard, canton de Montfaucon, le 22 juillet 1780, et habitant la commune de Tence, arrondissement d'Yssingeaux (laute-Loire), s'é¬tait senti touché de l'Esprit-aint, et, à l'âge de quarante-quatre ans. s'était mis à courir les grandes routes. Il ne savait ni lire ni écrire ; son aspect extérieur dénotait la pauvreté la plus repoussante, et, comme son unique occupation consistait à répéter quelques idées bizarres gagnées au contact des « Momiers », protestants des Cévennes, ainsi qu'à affir¬mer son pouvoir divin, il tombait périodiquement sous l'inculpation de vagabondage aux mains de la gendarmerie. Une nouvelle arrestation, en 1846, au moment de la grève dite du « Monopole », le mit par hasard en contact avec un jeune mineur aftilié au Béguinisme. L'un attendait le Messie, l'autre croyait l'être ; l'accord fut vite établi, et Digonnet, <pb facs="#facs_470" n="461" source="s2lesouvriersdes04sociuoft_0507.xml"/> passé « petit bon dieu », fit son entrée solennelle à Saint-Jean-de-Bon¬nefond.
+         , a retracé avec une exactitude sérieuse, malgré l'abondance voulue des détails les plus bouffons. Pendant que les Béguins de Saint-lean étaient visités successivement par les Qua¬lers d'Angleterre, les méthodistes suisses, les Evangélistes, qui es¬sayaient de ressouder cette secte isolée au corps principal du protes¬tantisme, un macon du Cantal, Denis-Jean-Baptiste Digonnet, né à Mauregard, canton de Montfaucon, le 22 juillet 1780, et habitant la commune de Tence, arrondissement d'Yssingeaux (laute-Loire), s'é¬tait senti touché de l'Esprit-aint, et, à l'âge de quarante-quatre ans. s'était mis à courir les grandes routes. Il ne savait ni lire ni écrire ; son aspect extérieur dénotait la pauvreté la plus repoussante, et, comme son unique occupation consistait à répéter quelques idées bizarres gagnées au contact des « Momiers », protestants des Cévennes, ainsi qu'à affir¬mer son pouvoir divin, il tombait périodiquement sous l'inculpation de vagabondage aux mains de la gendarmerie. Une nouvelle arrestation, en 1846, au moment de la grève dite du « Monopole », le mit par hasard en contact avec un jeune mineur aftilié au Béguinisme. L'un attendait le Messie, l'autre croyait l'être ; l'accord fut vite établi, et Digonnet,
+         <pb facs="#facs_470" n="461" source="s2lesouvriersdes04sociuoft_0507.xml"/>
+         passé « petit bon dieu », fit son entrée solennelle à Saint-Jean-de-Bon¬nefond.
         </p>
         <p xml:id="para_12_461_767">
          Nous ne suivrons pas le nouveau dieu à travers toutes les manifes¬tations de sa puissance. L'engouement des Béguins et Béguines, aussi bien à Saint-Jean qu'à Paris (car Paris enfermait une petite colonie de la religion méconnue), atteignit des proportions hautement comiques. Décrassé et choyé, le brave Auvergnat fut même comblé de bijoux et put bientôt, dans les cérémonies nocturnes, arborer l'insigne de sa puissance, le « bouton relique, — une pièce d'orfèvrerie ornée de diamants et payée six ou huit mille francs par les adeptes, — qui pla¬̧ait les initiales J. B. D. et le triangle du Jéhovah un peu plus bas que la ceinture. Les désordres des cérémonies firent intervenir l'auto¬rité publique
@@ -2875,7 +3027,8 @@
          La Manécanterie » est une annexe de la paroisse, destinée en ces pays de foi vive à assurer le recrutement du clergé séculier. Chacun a remarqué les enfants de chœur, désireux d'aborder les ordres ecclé¬siastiques, que les curés-doyens ou simples desservants initient aux premiers rudiments du latin, pour les acheminer peu à peu vers l'é¬cole secondaire, le petit séminaire, et l'école supérieure, le séminaire diocésain. éunissez plusieurs de ces élèves et soumette-les à un jeune prètre, assimilé aux vicaires, mais distinct de ces derniers, vous avez la manécanterie n.
         </p>
         <p xml:id="para_12_462_773">
-         <pb facs="#facs_471" n="462" source="s2lesouvriersdes04sociuoft_0508.xml"/> C'est un pensionnat bon marché, où, moyennant 300 francs par an, — 1 franc par jour, en tenant compte des deux mois de vacances, — l'enfant, nourri et logé, est conduit peu a peu, avec ses dix à douze camarades, des premiers principes à la quatrième et à la troisième. Les aptitudes y sont jugées, et les incapables écartés avant l'heure des « sacrifices . Les vocations réelles y sont passées au crible, et les indignes remerciés.
+         <pb facs="#facs_471" n="462" source="s2lesouvriersdes04sociuoft_0508.xml"/>
+         C'est un pensionnat bon marché, où, moyennant 300 francs par an, — 1 franc par jour, en tenant compte des deux mois de vacances, — l'enfant, nourri et logé, est conduit peu a peu, avec ses dix à douze camarades, des premiers principes à la quatrième et à la troisième. Les aptitudes y sont jugées, et les incapables écartés avant l'heure des « sacrifices . Les vocations réelles y sont passées au crible, et les indignes remerciés.
         </p>
         <p xml:id="para_12_462_774">
          La s manécanterie » de Saint-tGenest, suspendue pendant quelque temps, parait en pleine prospérité. C'est le premier rouage de la filière, qui fait monter les individualités les plus éminentes dans le sacerdoce et maintient l'incontestable prestige du clergé.
@@ -2889,7 +3042,9 @@
          Il semble à première vue que l'un des éléments de la constitution essentielle doive faire défaut ici : le respect de la souveraineté. Ne sommes-nous pas au centre même de cette France, qui, depuis 1789, a accumulé onze renversements de pouvoirs différents2 Et, sur le sol même de ce canton, n'a-t-on pas vu, depuis 1861, l'opposition légi¬timiste intransigeante battre en brèche jusqu'aux maires dictatoriale¬ment choisis du régime impérial Religion et souveraineté semblent divisées entre elles, et la destruction de celle-ci parait s'opérer au profit de celle-là.
         </p>
         <p xml:id="para_12_462_778">
-         Cependant, — nous ne risquerons que ces quelques mots sur le ter¬rain politique, — la souveraineté, » représentée par la forte hiérarchie des administrations qui maintiennent l'unité nationale, exerce un prestige tout-puissant sur ces peuples faconnés à l'obéis¬sance et à qui il coûte de ne pas obéir. Par ses chemins vicinaux, de grande communication et d'intérêt commun, elle a fait pénétrer la prospérité agricole, puisque telle était la condition première de l'exportation régulière du lait. Elle a fait miroiter aux yeux le projet d'un chemin de fer départemental. Elle a savamment utilisé les divers modes d'assujettissement que, sous le nom de subventions ou secours, l'Etat francais a toujours la possibilité d'imposer habilement aux communes. L'idée des « faveurs administratives n a germé peu à peu dans les cerveaux les plus réfléchis. 'n point d'honneur, des af¬ections personnelles retiennent encore : surtout la volonté toute-puis<pb facs="#facs_472" n="463" source="s2lesouvriersdes04sociuoft_0509.xml"/>sante des prêtres. Mais, que le « ralliement » s'accentue : malfaisante ou bienfaisante, la s souveraineté » des puissances établies, sans égard pour les fidélités et les souvenirs, s'implantera avec la solidité qu'elle sait emprunter aux entêtements campagnards. Ce sera la conversion insensible d'une grande masse qui déposera les armes sans se dislo¬quer ni se rompre, en conservant ce que les politiques espagnols ap¬pellent les « caciques, — ses chefs locaux.
+         Cependant, — nous ne risquerons que ces quelques mots sur le ter¬rain politique, — la souveraineté, » représentée par la forte hiérarchie des administrations qui maintiennent l'unité nationale, exerce un prestige tout-puissant sur ces peuples faconnés à l'obéis¬sance et à qui il coûte de ne pas obéir. Par ses chemins vicinaux, de grande communication et d'intérêt commun, elle a fait pénétrer la prospérité agricole, puisque telle était la condition première de l'exportation régulière du lait. Elle a fait miroiter aux yeux le projet d'un chemin de fer départemental. Elle a savamment utilisé les divers modes d'assujettissement que, sous le nom de subventions ou secours, l'Etat francais a toujours la possibilité d'imposer habilement aux communes. L'idée des « faveurs administratives n a germé peu à peu dans les cerveaux les plus réfléchis. 'n point d'honneur, des af¬ections personnelles retiennent encore : surtout la volonté toute-puis
+         <pb facs="#facs_472" n="463" source="s2lesouvriersdes04sociuoft_0509.xml"/>
+         sante des prêtres. Mais, que le « ralliement » s'accentue : malfaisante ou bienfaisante, la s souveraineté » des puissances établies, sans égard pour les fidélités et les souvenirs, s'implantera avec la solidité qu'elle sait emprunter aux entêtements campagnards. Ce sera la conversion insensible d'une grande masse qui déposera les armes sans se dislo¬quer ni se rompre, en conservant ce que les politiques espagnols ap¬pellent les « caciques, — ses chefs locaux.
         </p>
        </div>
        <div n="006" type="sub_sub_section">
@@ -2906,7 +3061,9 @@
          La substitution à 35 hectares de pâtis d'une plantation de conifères, aujourd'hui en plein rapport, avait amené une perturbation de jouis¬sance que les indigents avaient vivement ressentie. Leur misère ex¬cluait la prévoyance ; et, encore aujourd'hui, beaucoup d'entre eux, malgré les distributions de bois d'œuvre et de bois de chauffage, re¬grettent leurs pâturages à moutons.
         </p>
         <p xml:id="para_12_463_785">
-         La distribution des coupes annuelles reste d'ailleurs l'une des préoc¬cupations les plus graves du Conseil communal. La surface replantée est trop restreinte pour l'organisation d'un véritable droit d'affouage. Le principe de la distribution aux pauvres a triomphé. Il en est résulté que, dans cette commune où l'indigence est l'exception, la pauvreté, au moins à l'époque de l'abatage, semble être devenue générale. De plus, la coupe pratiquée en nasse, sous la surveillance du maire et <pb facs="#facs_473" n="464" source="s2lesouvriersdes04sociuoft_0510.xml"/> du garde champêtre, se fait un peu au hasard, par l'impossibilité de maintenir l'ordre. La réserve de bois, si un tel régime devait être main¬tenu, serait promptement épuisée.
+         La distribution des coupes annuelles reste d'ailleurs l'une des préoc¬cupations les plus graves du Conseil communal. La surface replantée est trop restreinte pour l'organisation d'un véritable droit d'affouage. Le principe de la distribution aux pauvres a triomphé. Il en est résulté que, dans cette commune où l'indigence est l'exception, la pauvreté, au moins à l'époque de l'abatage, semble être devenue générale. De plus, la coupe pratiquée en nasse, sous la surveillance du maire et
+         <pb facs="#facs_473" n="464" source="s2lesouvriersdes04sociuoft_0510.xml"/>
+         du garde champêtre, se fait un peu au hasard, par l'impossibilité de maintenir l'ordre. La réserve de bois, si un tel régime devait être main¬tenu, serait promptement épuisée.
         </p>
         <p xml:id="para_12_464_787">
          Jusqu'à sa discipline finale, ce collectivisme rural restera asse proche de l'anarchie.
@@ -2940,7 +3097,8 @@
           Possession dau sol.
          </head>
          <p xml:id="para_12_465_797">
-          <pb facs="#facs_474" n="465" source="s2lesouvriersdes04sociuoft_0511.xml"/> 1° Biens communaux, 0 hectares de bois ;
+          <pb facs="#facs_474" n="465" source="s2lesouvriersdes04sociuoft_0511.xml"/>
+          1° Biens communaux, 0 hectares de bois ;
          </p>
          <p xml:id="para_12_465_798">
           2° Etablissements hospitaliers (trois), 77 hectares ;
@@ -2997,7 +3155,8 @@
          Espèce chevaline. — 68 têtes : 1ᵉ 4 chevaux entiers employés au travail et à la reproduction ; — 2° 29 chevaux hongres ; — 3° 35 ju¬ments, de 3 ans et au-dessus, surtout pour le travail.
         </p>
         <p xml:id="para_12_466_810">
-         <pb facs="#facs_475" n="466" source="s2lesouvriersdes04sociuoft_0512.xml"/> Mulets et mules. — 8 têtes (au-dessus de 3 ans).
+         <pb facs="#facs_475" n="466" source="s2lesouvriersdes04sociuoft_0512.xml"/>
+         Mulets et mules. — 8 têtes (au-dessus de 3 ans).
         </p>
         <p xml:id="para_12_466_811">
          Espèce asine. — 30 têtes : 1ᵉ 14 anes au-dessus de 3 ans ; — 2° 15 ânesses, id. ; — 3°1 ânesse au-dessous de 3 ans.
@@ -3071,7 +3230,9 @@
            Le cube marchand est inférieur d'un quart au cube réel. Le cube marchand est l'usage de la montagne, le cube réel l'usage de la vilte ; de telle sorte que les marchands aché¬tent et vendent le cube au même prix, tout en réalisant des gains énormes.
           </p>
          </note>
-         , en multipliant la longueur <pb facs="#facs_477" n="468" source="s2lesouvriersdes04sociuoft_0514.xml"/> de l'arbre par le quart de la circonférence médiane élevé au carré (cet usage local suppose l'arbre équivalant à un prisme ayant même longueur que lui, et pour base un carré de côté égal au quart de la susdite circonférence). La convention avec le marchand peut s'opérer de deux façons : la vente en bloc, variable évidemment d'après l'im¬portance de la coupe ; la vente au mètre cube, 20, 25, 28, jusqu'à 30 francs et davantage le mètre cube, pour les arbres centenaires plantés en bon terrain
+         , en multipliant la longueur
+         <pb facs="#facs_477" n="468" source="s2lesouvriersdes04sociuoft_0514.xml"/>
+         de l'arbre par le quart de la circonférence médiane élevé au carré (cet usage local suppose l'arbre équivalant à un prisme ayant même longueur que lui, et pour base un carré de côté égal au quart de la susdite circonférence). La convention avec le marchand peut s'opérer de deux façons : la vente en bloc, variable évidemment d'après l'im¬portance de la coupe ; la vente au mètre cube, 20, 25, 28, jusqu'à 30 francs et davantage le mètre cube, pour les arbres centenaires plantés en bon terrain
          <note type="bp">
           <p>
            La vente se conclut encore par coupes les marchands tendent à établir la vente au mètre cube, à cause des chances d'erreur ; un syndicat cherche à se former (syndicat de marchands).
@@ -3097,7 +3258,9 @@
          Cette forme de l'agriculture, inconnue il y a quarante ans, a été l'œuvre de feu M. le baron Louis de Saint-Genest.
         </p>
         <p xml:id="para_12_468_839">
-         Les débuts furent humbles et contestés :  L'incrédulité la plus complète accueillit mon idée (l'exportation du lait à Saint-Etienne), — écrivait M. de Saint-Genest dans une note manuscrite que nous <pb facs="#facs_478" n="469" source="s2lesouvriersdes04sociuoft_0515.xml"/> avons pu consulter. — Je parvins cependant à décider un de mes fermiers à organiser un modeste service quotidien.  Peu à peu la contagion de l'exemple gagna la montagne tout entière. A mesure que les chemins vicinaux perçaient la sombre frontiêre des sapins, les prairies remplacaient les pâtis ; la race des laitières, hollandaises et tarentaises, se multipliait ; les voitures des a laitiers », les rus¬tiques camionneurs qui descendent chaque nuit, au grand trot de leurs chevaux, la pente raide de Saint-Etienne, transportaient les « bi¬ches de fer-blanc de plus de 25 kilomètres, du fond de Marlhes, du Pilat, et même, en dehors du canton, de Saint-Sauveur et de Riotord.
+         Les débuts furent humbles et contestés :  L'incrédulité la plus complète accueillit mon idée (l'exportation du lait à Saint-Etienne), — écrivait M. de Saint-Genest dans une note manuscrite que nous
+         <pb facs="#facs_478" n="469" source="s2lesouvriersdes04sociuoft_0515.xml"/>
+         avons pu consulter. — Je parvins cependant à décider un de mes fermiers à organiser un modeste service quotidien.  Peu à peu la contagion de l'exemple gagna la montagne tout entière. A mesure que les chemins vicinaux perçaient la sombre frontiêre des sapins, les prairies remplacaient les pâtis ; la race des laitières, hollandaises et tarentaises, se multipliait ; les voitures des a laitiers », les rus¬tiques camionneurs qui descendent chaque nuit, au grand trot de leurs chevaux, la pente raide de Saint-Etienne, transportaient les « bi¬ches de fer-blanc de plus de 25 kilomètres, du fond de Marlhes, du Pilat, et même, en dehors du canton, de Saint-Sauveur et de Riotord.
         </p>
         <p xml:id="para_12_469_842">
          Deux transformations s'étaient opérées et s'opèrent encore un peu plus chaque jour : une transformation agricole et une transformation commerciale, dont nous allons noter l'état actuel.
@@ -3106,7 +3269,9 @@
          ransformation agricole. — Il s'agissait de posséder une race de forte production laitière et de la nourrir, c'est-à-dire qu'il fallait im¬porter des vaches laitières et créer des prairies.
         </p>
         <p xml:id="para_12_469_844">
-         Les « vaches laitières » primitives, celles dont le lait servait à fabri¬quer le beurre et le fromage grossier du pays, furent condamnées d'un commun accord. Cette race était, à proprement parler, un mélange disparate, où le salers et la variété froment pâle qui se retrouve aux limites de l'Allier et de la Loire jouaient le principal rôle. Mais deux écoles se formèrent, qui divisent encore la Société d'Agriculture de Saint-Genest-Malifaux, fondée en 1857. Le fondateur, l'initiateur, M. le baron de Saint-Genest, se montrait partisan convaincu des « hol¬landaises à robe noire. Un autre agriculteur, M. Courbon-Lafaye, dont l'exploitation organisée scientifiquement a été décrite dans le compte rendu du Comice agricole du Chambon-rFeugerolles (21 et 22 septembre 1867), soutenait la cause des taureaux suisses, autre¬ment dits tarentais. Cette année (1894), le Comice agricole de Saint¬Genest parait revenir à la première idée, qui a seule donné des résultats satisfaisants. Il semble toutefois que la race hollandaise s'affaiblisse dans ces montagnes de climat trop rude ; dès lors l'achat direct de génisses aux pays d'origine deviendrait préférable à l'élevage et à l'acclimatation des reproducteurs. La moyenne de la production de cette variété atteint facilement 10 à 15 litres de lait par jour mais, en comptant l'époque du vêlage, les arrêts et diminutions, cette pro¬portion doit s'abaisser de près de moitié. Telle exploitation de 10 va¬ches en plein rapport dépasse chaque jour 50 litres, mais sans aller beaucoup plus haut. Quatre vaches constituent le nombre fatidique <pb facs="#facs_479" n="470" source="s2lesouvriersdes04sociuoft_0516.xml"/> qui correspond à la biche journalière de 25 mesures, ou 12 litres 1/2.
+         Les « vaches laitières » primitives, celles dont le lait servait à fabri¬quer le beurre et le fromage grossier du pays, furent condamnées d'un commun accord. Cette race était, à proprement parler, un mélange disparate, où le salers et la variété froment pâle qui se retrouve aux limites de l'Allier et de la Loire jouaient le principal rôle. Mais deux écoles se formèrent, qui divisent encore la Société d'Agriculture de Saint-Genest-Malifaux, fondée en 1857. Le fondateur, l'initiateur, M. le baron de Saint-Genest, se montrait partisan convaincu des « hol¬landaises à robe noire. Un autre agriculteur, M. Courbon-Lafaye, dont l'exploitation organisée scientifiquement a été décrite dans le compte rendu du Comice agricole du Chambon-rFeugerolles (21 et 22 septembre 1867), soutenait la cause des taureaux suisses, autre¬ment dits tarentais. Cette année (1894), le Comice agricole de Saint¬Genest parait revenir à la première idée, qui a seule donné des résultats satisfaisants. Il semble toutefois que la race hollandaise s'affaiblisse dans ces montagnes de climat trop rude ; dès lors l'achat direct de génisses aux pays d'origine deviendrait préférable à l'élevage et à l'acclimatation des reproducteurs. La moyenne de la production de cette variété atteint facilement 10 à 15 litres de lait par jour mais, en comptant l'époque du vêlage, les arrêts et diminutions, cette pro¬portion doit s'abaisser de près de moitié. Telle exploitation de 10 va¬ches en plein rapport dépasse chaque jour 50 litres, mais sans aller beaucoup plus haut. Quatre vaches constituent le nombre fatidique
+         <pb facs="#facs_479" n="470" source="s2lesouvriersdes04sociuoft_0516.xml"/>
+         qui correspond à la biche journalière de 25 mesures, ou 12 litres 1/2.
         </p>
         <p xml:id="para_12_470_846">
          La création des prairies, liée à la question des défrichements, ve¬nait ensuite. Il est inutile de décrire tous les efforts tentés, le défon¬cement de la couche pierreuse au pic et à la mine, le ramassage des cailloux, si coûteux et si lent ; le chaulage avec la chaux de la Palisse, à 25 francs le mètre cube ; puis les récoltes de pommes de terre, de ru¬tabagas, et enfin de fourrages qui se succédaient. Une brochure de M. le baron de Saint-Genest : « Culture des montagnes et défrichement des terrains de bruyêre »
@@ -3133,7 +3298,9 @@
          Mais, à côté de cette ligne de transport, de ce grand central » en miniature, viennent se placer d'autres services plus courts, les ser¬vices des villages écartés de la grande route, — le ruisselet qui se jette dans le grand fleuve, — diminuant encore la recette du pauvre fermier.
         </p>
         <p xml:id="para_12_470_850">
-         2° La vente au détail. — Elle est effectuée par un commercant libre. M. le baron de Saint-tGenest avait tenté le dépôt direct relevant d'un syndicat. L'essai réussit assez mal. Les conventions présentes sont fort simples. Le prix du lait au détail est de 0ᶠ20 par litre. Le marchand tient compte au fermier de la totalité du prix. Au début, il exigeait comme courtage une biche de lait par semaine, aujourd'hui il de¬mande en plus une biche de lait par mois. La sécheresse des deux an<pb facs="#facs_480" n="471" source="s2lesouvriersdes04sociuoft_0517.xml"/>nées précédentes a même empêché de nouvelles surenchères en faveur des s places » réputées solvables. A ces remises le marchand ajoute néces¬sairement ses combinaisons particulières de mouillage. L'écueil, c'est le refus de paiement et le brusque départ de petits commeŗants qui s'écrasent réciproquement par une concurrence terrible. Le verse¬ment a lieu toutes les semaines, toutes les quinzaines, parfois avec des délais plus espacés encore.
+         2° La vente au détail. — Elle est effectuée par un commercant libre. M. le baron de Saint-tGenest avait tenté le dépôt direct relevant d'un syndicat. L'essai réussit assez mal. Les conventions présentes sont fort simples. Le prix du lait au détail est de 0ᶠ20 par litre. Le marchand tient compte au fermier de la totalité du prix. Au début, il exigeait comme courtage une biche de lait par semaine, aujourd'hui il de¬mande en plus une biche de lait par mois. La sécheresse des deux an
+         <pb facs="#facs_480" n="471" source="s2lesouvriersdes04sociuoft_0517.xml"/>
+         nées précédentes a même empêché de nouvelles surenchères en faveur des s places » réputées solvables. A ces remises le marchand ajoute néces¬sairement ses combinaisons particulières de mouillage. L'écueil, c'est le refus de paiement et le brusque départ de petits commeŗants qui s'écrasent réciproquement par une concurrence terrible. Le verse¬ment a lieu toutes les semaines, toutes les quinzaines, parfois avec des délais plus espacés encore.
         </p>
         <p xml:id="para_12_471_854">
          Comme conclusion, le revenu net d'une vache reste ce qu'il était au temps de M. le baron de Saint-Genest : 200 francs par an, —200.000 francs de revenu annuel pour la commune de Saint-Genest.
@@ -3166,7 +3333,8 @@
           Les moulinages.
          </head>
          <p xml:id="para_12_472_862">
-          <pb facs="#facs_481" n="472" source="s2lesouvriersdes04sociuoft_0518.xml"/> Qu'est-ce qu'un moulinage ? C'est une manufacture (le travail en chambre se trouve ici interdit par la force des choses), où la soie grège ou brute subit les différentes opérations qui précèdent la tein¬ture.
+          <pb facs="#facs_481" n="472" source="s2lesouvriersdes04sociuoft_0518.xml"/>
+          Qu'est-ce qu'un moulinage ? C'est une manufacture (le travail en chambre se trouve ici interdit par la force des choses), où la soie grège ou brute subit les différentes opérations qui précèdent la tein¬ture.
          </p>
          <p xml:id="para_12_472_863">
           Les moulineurs peuvent être de simples faconniers, ou des mar¬chands de soie qui font subir une première préparation à la matière première.
@@ -3193,7 +3361,8 @@
           Le marchand de soie a ressaisi son produit ouvré. Rubaniers et fa¬bricants de lacets procèdent à leurs achats et son rôle se termine. Le tisseur est désormais seul maître des écheveau ; il les remet après dé¬ballage aux teintureries, entassées aux abords de Saint-tienne.
          </p>
          <p xml:id="para_12_473_870">
-          <pb facs="#facs_482" n="473" source="s2lesouvriersdes04sociuoft_0519.xml"/> Apres la teinturerie, une autre usine : le dévidage leur donne la dernière main.
+          <pb facs="#facs_482" n="473" source="s2lesouvriersdes04sociuoft_0519.xml"/>
+          Apres la teinturerie, une autre usine : le dévidage leur donne la dernière main.
          </p>
          <p xml:id="para_12_473_871">
           Etles écheveaux reprennent, à moins qu'ils ne soient tissés sur place, dans le milieu urbain, le chemin des montagnes, vers les petites ma¬nufactures ou les ouvriers en chambre. C'est la limite du tissage, et nous ne la franchirons que plus tard.
@@ -3222,7 +3391,8 @@
           Le tissage.
          </head>
          <p xml:id="para_12_474_879">
-          <pb facs="#facs_483" n="474" source="s2lesouvriersdes04sociuoft_0520.xml"/> Ici nous pénétrons dans l'une des multiples branches que com¬mande la préparation de cette matière première unique : la soie.
+          <pb facs="#facs_483" n="474" source="s2lesouvriersdes04sociuoft_0520.xml"/>
+          Ici nous pénétrons dans l'une des multiples branches que com¬mande la préparation de cette matière première unique : la soie.
          </p>
          <p xml:id="para_12_474_880">
           En fixant notre attention sur le canton de Saint-Genest seul, abs¬traction faite de la puissante cité industrielle, dont il constitue une banlieue et une annexe, nous rencontrons dans leur opposition éter¬nelle les deux formes de la grande industrie : fabrique collectiuve et a¬nufacture.
@@ -3249,7 +3419,8 @@
           Salaire : 0ᶠ50 par jour environ, pour une journée qui peut varier de 7 à 10 heures. — Travail aux pièces.
          </p>
          <p xml:id="para_12_475_888">
-          <pb facs="#facs_484" n="475" source="s2lesouvriersdes04sociuoft_0521.xml"/> 2ᵉ forme d'atelier. — Une chambre haute déjà consacrée à la fabri¬cation. C'est un atelier en raccourci, où travaillent deux jeunes filles de dix-huit à vingt ans. Leur père est fermier-agriculteur.
+          <pb facs="#facs_484" n="475" source="s2lesouvriersdes04sociuoft_0521.xml"/>
+          2ᵉ forme d'atelier. — Une chambre haute déjà consacrée à la fabri¬cation. C'est un atelier en raccourci, où travaillent deux jeunes filles de dix-huit à vingt ans. Leur père est fermier-agriculteur.
          </p>
          <p xml:id="para_12_475_889">
           Les métiers dits à « tambour tissent douze, vingt-quatre pièces de rubans simultanément. Les navettes sont mues par le mouvement alternatif de la barre », large bâton de bois que soulève péniblement l'ouvrière. L'objet fabriqué, — ou plutôt les objets fort variés qui sor¬tent de cet atelier pittoresque, — n'est autre que la collection infinie des rubans fraņais et étrangers, depuis la Médaille militaire jusqu'au Mé¬rite agricole, depuis l'ordre de Saint-Grégoire jusqu'à celui des Saints¬Maurice et Laare. On voit s'enrouler autour des canettes, qui bientôt prendront place dans les navettes du métier, toutes les couleurs étincelantes des vitrines du Palais-Royal.
@@ -3273,7 +3444,8 @@
           Il est inutile d'insister sur leur caractêre distinctif : l'agglomeration des ouvriêres en un local unique, loué ou possédé par le patron. Ce¬lui-ci met donc à sa charge : le loyer, l'entretien d'un matériel plus vaste, et aussi les appointements du contre-maître et surveillant, qui correspond, avec plus d'exigences, au commis en soie.
          </p>
          <p xml:id="para_12_476_896">
-          <pb facs="#facs_485" n="476" source="s2lesouvriersdes04sociuoft_0522.xml"/> Le salaire du tissage en manufacture semble plus élevé que le salaire du tissage en chambre. Augmentation de la production, éco¬nomie de la matière première, secret de la fabrication, telles sont les raisons d'être du succès.
+          <pb facs="#facs_485" n="476" source="s2lesouvriersdes04sociuoft_0522.xml"/>
+          Le salaire du tissage en manufacture semble plus élevé que le salaire du tissage en chambre. Augmentation de la production, éco¬nomie de la matière première, secret de la fabrication, telles sont les raisons d'être du succès.
          </p>
          <p xml:id="para_12_476_897">
           1ʳᵉ forme de manufacture. — C'est une manufacture où les métiers juxtaposés sont ma nœuvrés par les ouvrières, de toutes jeunes filles en général. Aucune force naturelle ou artificielle ne vient à leur aide : ni écluse, ni machine à vapeur. C'est le développement rigoureux des petits ateliers étudiés en dernier lieu au paragraphe précéden (30 à 40 ouvrières).

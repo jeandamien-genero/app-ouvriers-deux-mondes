@@ -1,84 +1,92 @@
 {% extends "conteneur.html" %}
-	{% block corps %}
+{% block corps %}
+<div>
     <div>
         <p style="text-align: center;">
-                    → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> ←
+            → <a href="{{url_for('home')}}">Accueil</a> | <a href="{{url_for('monographies')}}">Les monographies</a> ←
         </p>
         <h1>
             Recherche
         </h1>
+        <p>
+            Les paragraphes 6 et 10 des monographies contiennent les inventaires des propriétés mobiblières et immobilières de la famille enquêtées, ainsi que leur estimation. 
+        </p>
         <div style="margin:2%">
-        <form action="{{url_for('results')}}" method="GET">
-            <p>Recherche dans les inventaires des propriétés</p>
-            <div>
+            <form action="{{url_for('results')}}" method="GET">
+                <p>Recherche dans les inventaires des propriétés</p>
                 <div>
-                    <select name="proprietes" type="search" >
-                        {% for item in subtype_tble %}
+                    <div>
+                        <select name="proprietes" type="search" >
+                            {% for item in subtype_tble %}
                             {% if item.st_type_fk == 1 %}
-                                <option value="{{item.subtypeID}}">{{item.st_label}}</option>
+                            <option value="{{item.subtypeID}}">{{item.st_label}}</option>
                             {% endif %}
-                        {% endfor %}
-                    </select>
-                    <button type="submit">Rechercher</button>
+                            {% endfor %}
+                        </select>
+                        <button type="submit">Rechercher</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </div>
-    <div style="margin:2%">
-        <form action="{{url_for('results')}}" method="GET">
-            <p>Recherche dans les inventaires des travaux entrepris par les membres de la famille</p>
-            <div>
+            </form>
+        </div>
+        <div style="margin:2%">
+            <form action="{{url_for('results')}}" method="GET">
+                <p>Recherche dans les inventaires de l'habitation, du mobilier et des vêtements</p>
                 <div>
-                    <select name="travaux" type="search" >
-                        {% for item in subtype_tble %}
-                            {% if item.st_type_fk == 2 %}
-                                <option value="{{item.subtypeID}}">{{item.st_label}}</option>
-                            {% endif %}
-                        {% endfor %}
-                    </select>
-                    <button type="submit">Rechercher</button>
-                </div>
-            </div>
-        </form>
-    </div>
-    <div style="margin:2%">
-        <form action="{{url_for('results')}}" method="GET">
-            <p>Recherche dans les inventaires des industries entreprises par la famille</p>
-            <div>
-                <div>
-                    <select name="industries" type="search" >
-                        {% for item in subtype_tble %}
-                            {% if item.st_type_fk == 3 %}
-                                <option value="{{item.subtypeID}}">{{item.st_label}}</option>
-                            {% endif %}
-                        {% endfor %}
-                    </select>
-                    <button type="submit">Rechercher</button>
-                </div>
-            </div>
-        </form>
-    </div>
-    <div style="margin:2%">
-        <form action="{{url_for('results')}}" method="GET">
-            <p>Recherche dans les inventaires de l'habitation, du mobilier et des vêtements</p>
-            <div>
-                <div>
-                    <select name="par_10" type="search" >
-                        {% for item in subtype_tble %}
+                    <div>
+                        <select name="par_10" type="search" >
+                            {% for item in subtype_tble %}
                             {% if item.st_type_fk == 4 %}
-                                <option value="{{item.subtypeID}}">{{item.st_label}}</option>
+                            <option value="{{item.subtypeID}}">{{item.st_label}}</option>
                             {% endif %}
-                        {% endfor %}
-                    </select>
-                    <button type="submit">Rechercher</button>
+                            {% endfor %}
+                        </select>
+                        <button type="submit">Rechercher</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+        <p>
+            Le paragraphe 8 contient quand à lui les observations de l'enquêteur sur les travaux et les industries menées par les membres de la famille enquêtée.
+        </p>
+        <div style="margin:2%">
+            <form action="{{url_for('results')}}" method="GET">
+                <p>Recherche dans les descriptions des travaux entrepris par les membres de la famille</p>
+                <div>
+                    <div>
+                        <select name="travaux" type="search" >
+                            {% for item in subtype_tble %}
+                            {% if item.st_type_fk == 2 %}
+                            <option value="{{item.subtypeID}}">{{item.st_label}}</option>
+                            {% endif %}
+                            {% endfor %}
+                        </select>
+                        <button type="submit">Rechercher</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div style="margin:2%">
+            <form action="{{url_for('results')}}" method="GET">
+                <p>Recherche dans les descriptions des industries entreprises par la famille</p>
+                <div>
+                    <div>
+                        <select name="industries" type="search" >
+                            {% for item in subtype_tble %}
+                            {% if item.st_type_fk == 3 %}
+                            <option value="{{item.subtypeID}}">{{item.st_label}}</option>
+                            {% endif %}
+                            {% endfor %}
+                        </select>
+                        <button type="submit">Rechercher</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     <!--<p>
         {% for item in inv %}
         {{item.inventoryID}} == {{item.inventory_mono.monotitle}} == {{item.inventory_type.typelabel}} == {{item.inventory_subtype.st_label}} == {{item.inventoryTXT}}<br/><br/>
         {% endfor %}
     </p>-->
     </div>
+</div>
 {% endblock %}

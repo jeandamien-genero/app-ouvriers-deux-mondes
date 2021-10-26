@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--monographie-->
-<TEI xml:id="ID-008a" xml:lang="fr">
+<TEI xml:id="ID-008a" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription</title>
+    <title level="m" n="8" type="main">Manœuvre-agriculteur du comté de Nottingham (Angleterre)</title>
+    <title level="s" type="desc">Les Ouvriers des Deux Mondes - série 1, volume 1 - Transcription</title>
+    <title level="m" type="short">manoeuvre-agriculteur-comte-nottingham-8</title>
+    <author n="1" role="investigator">J. Devey</author>
+    <author n="2" role="investigator">Ernest Avalle</author>
+    <editor>Société internationale des études pratiques d'économie sociale</editor>
+    <respStmt>
+     <resp>Fichier XML-TEI encodé de 2019 à 2021</resp>
+     <orgName>programme ANR TIME US</orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>Édition et encodage scientifique de la monographie n°8 des Ouvriers des deux mondes, "Manœuvre-agriculteur du comté de Nottingham (Angleterre)". Elle a d'abord été publiée en fascicule en 1857, puis reliée en 1857, à partir d'une enquête réalisée à vallée de la Trent, Nottingham (Nottinghamshire, Angleterre) en mai 1856.</edition>
+    <funder>Agence nationale de la Recherche</funder>
     <respStmt>
      <persName>
       <forename>Alix</forename>
@@ -54,21 +67,20 @@
      </persName>
      <resp>supervision technique</resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
-    <publisher>projet ANR Time Us</publisher>
+    <publisher>Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH</publisher>
     <date from="2019" to="2021"/>
     <pubPlace>Paris, France</pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century</authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">Distributed under an Open License 2.0</licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>Les Ouvriers des deux mondes sont des recueils d'enquêtes sociologiques publiées sous l'égide de Frédéric Le Play (†1882) et de la Société internationale des études pratiques d'économie sociale. Ces monographies ont été rassemblées en trois séries de treize volumes de 1857 à 1913, deux fascicules supplémentaires paraissant en 1930. Le programme ANR « Time Us » a entrepris de transcrire et de structurer les monographies au standard TEI afin de permettre leur consultation électronique et leur étude.</p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).</p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_376">
   <surface lrx="2721" lry="4415"/>
@@ -226,17 +238,17 @@
        <p xml:id="para_13_375_21"><pb facs="#facs_378" n="375" source="lesouvriersdesde01sociuoft_0381.xml"/> La famille se compose des deux époux et de quatre enfants, savoir :
        </p>
        <p xml:id="para_13_375_22">
-        <persName>JONH N**</persName>, chef de la famille, marié depuis 17 ans, né à M**, âgé de............ 36 ans</p>
+        <persName type="respondent" xml:id="ID-008aE1">JONH N**</persName>, chef de la famille, marié depuis 17 ans, né à M**, âgé de............ 36 ans</p>
        <p xml:id="para_13_375_24">
-        <persName>MARGARET P**</persName>, sa femme, née à B** (Nottinghamshire)............ 42 —</p>
+        <persName type="respondent" xml:id="ID-008aE2">MARGARET P**</persName>, sa femme, née à B** (Nottinghamshire)............ 42 —</p>
        <p xml:id="para_13_375_25">
-        <persName>Jane N**</persName>, leur 1ʳᵉ fille née à M**............ 16 —</p>
+        <persName type="respondent" xml:id="ID-008aE3">Jane N**</persName>, leur 1ʳᵉ fille née à M**............ 16 —</p>
        <p xml:id="para_13_375_26">
-        <persName>Élizabeth N**</persName>, leur 2ᵉ fille, née à M**............ 9 —</p>
+        <persName type="respondent" xml:id="ID-008aE4">Élizabeth N**</persName>, leur 2ᵉ fille, née à M**............ 9 —</p>
        <p xml:id="para_13_375_27">
-        <persName>Hannah N**</persName>, leur 3ᵉ fille, née a M**............ 6 —</p>
+        <persName type="respondent" xml:id="ID-008aE5">Hannah N**</persName>, leur 3ᵉ fille, née a M**............ 6 —</p>
        <p xml:id="para_13_375_28">
-        <persName>Mary N**</persName>, leur 4ᵉ fille, née à M**............ 2 —</p>
+        <persName type="respondent" xml:id="ID-008aE6">Mary N**</persName>, leur 4ᵉ fille, née à M**............ 2 —</p>
        <p xml:id="para_13_375_29">La fille aînée, entrée en service depuis un an dans une ferme du voisinage, ne fait plus partie de la famille.</p>
        <p xml:id="para_13_375_30">Les trois derniers enfants vont à une petite école de village tenue par une vieille dame qui leur apprend à lire, à coudre et à tricoter.</p>
       </div>

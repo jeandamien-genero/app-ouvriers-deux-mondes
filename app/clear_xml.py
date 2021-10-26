@@ -3,7 +3,8 @@
 
 """
 Author : Jean-Damien Généro
-Date : 4 janvier 2021
+Date : 2021-01-04
+Update : 2021-07-29
 """
 
 # import os
@@ -95,8 +96,6 @@ def clear_file(input_file):
     # mettre les titres en minuscules :
     for key in titles:
       file = file.replace(key, titles[key])
-    # suppression des namespaces qui bloquent la transformation XSL
-    file = re.sub('(<TEI xml:id=".+" xml:lang="fr") xmlns=".+" xmlns:xi=".+">', '\\1>', file)
     result = file
   with open(input_file, 'w') as wf:
     wf.write(result)

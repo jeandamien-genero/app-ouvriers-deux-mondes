@@ -4,9 +4,37 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
+    <title level="m" n="107" type="main">
+     Étameur sur fer-blanc des usines de Commentry (Allier - France)
+    </title>
+    <title level="s" type="desc">
      Les Ouvriers des Deux Mondes - série 3, volume 2 - Transcription
     </title>
+    <title level="m" type="short">
+     etameur-fer-blanc-usines-commentry-107
+    </title>
+    <author n="1" role="investigator">
+     Fénelon Gibon
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
+    <respStmt>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°107 des Ouvriers des deux mondes, "Étameur sur fer-blanc des usines de Commentry (Allier - France)". Elle a d'abord été publiée en fascicule en 1908, puis reliée en 1908, à partir d'une enquête réalisée à Commentry (Allier, France) en 1889 et en août 1890.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
       <forename>
@@ -114,15 +142,23 @@
       supervision technique
      </resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
     <publisher>
-     projet ANR Time Us
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
     </publisher>
     <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>
@@ -130,13 +166,6 @@
     </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_437">
   <surface lrx="2132" lry="3554"/>
@@ -425,7 +454,10 @@
       PAR
      </p>
      <p xml:id="para_9__9">
-      M. <persName>FÉNELON GIBON</persName>
+      M.
+      <persName>
+       FÉNELON GIBON
+      </persName>
      </p>
      <p xml:id="para_9__10">
       Secrétaire de la Société générale d'éducation et d'enseignement
@@ -444,7 +476,10 @@
         § 1ᵉʳ. — ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_9__16">
-        <pb facs="#facs_437" n="433" source="lesouvriersdesde916sociuoft_0471.xml"/> La famille décrite dans cette monographie habite, dans la partie de la ville de Commentry que nous désignons sous le nom de ville ouvrière, la douzième maison située à gauche, en partant de la Grand'Place, dans la rue Saint-Quirin, qui prend son nom d'un saint lorrain, patron des <pb facs="#facs_438" n="434" source="lesouvriersdesde916sociuoft_0472.xml"/> verriers : cette dénomination résulte de ce que les premiers ouvriers ap¬pelés dans la localité, à la suite de l'exploitation des houillères de Com¬mentry, furent appliqués à une glacerie installée sur l'initiative de la duchesse d'Angoulême vers 1820
+        <pb facs="#facs_437" n="433" source="lesouvriersdesde916sociuoft_0471.xml"/>
+        La famille décrite dans cette monographie habite, dans la partie de la ville de Commentry que nous désignons sous le nom de ville ouvrière, la douzième maison située à gauche, en partant de la Grand'Place, dans la rue Saint-Quirin, qui prend son nom d'un saint lorrain, patron des
+        <pb facs="#facs_438" n="434" source="lesouvriersdesde916sociuoft_0472.xml"/>
+        verriers : cette dénomination résulte de ce que les premiers ouvriers ap¬pelés dans la localité, à la suite de l'exploitation des houillères de Com¬mentry, furent appliqués à une glacerie installée sur l'initiative de la duchesse d'Angoulême vers 1820
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (§ 17)
         </ref>
@@ -467,11 +502,13 @@
         .
        </p>
        <p xml:id="para_9_431_23">
-        Parmi les cours d'eau qui arrosent cette portion du territoire, le plus important, le Cher, rivière torrentueuse descendant des monts d'Au¬verge, aux environs de Montel-de-Gelat, baigne les ruines du château <pb facs="#facs_439" n="435" source="lesouvriersdesde916sociuoft_0473.xml"/> de l'Ours, point d'excursion favori des baigneurs de Néris. C'est là le point où il est le plus rapproché de Commentry. A proximité de la ville se trouvent deux autres cours d'eau sans importance : l'Amaron, qui passe à Montluçon et sort de l'étang situé au pied du château des Forges, à un kilomètre environ ; l'Oeil, qui, passant au vieux bourg de Commentry, situé à six ou sept cents mètres de l'hôtel de ville
+        Parmi les cours d'eau qui arrosent cette portion du territoire, le plus important, le Cher, rivière torrentueuse descendant des monts d'Au¬verge, aux environs de Montel-de-Gelat, baigne les ruines du château
+        <pb facs="#facs_439" n="435" source="lesouvriersdesde916sociuoft_0473.xml"/>
+        de l'Ours, point d'excursion favori des baigneurs de Néris. C'est là le point où il est le plus rapproché de Commentry. A proximité de la ville se trouvent deux autres cours d'eau sans importance : l'Amaron, qui passe à Montluçon et sort de l'étang situé au pied du château des Forges, à un kilomètre environ ; l'Oeil, qui, passant au vieux bourg de Commentry, situé à six ou sept cents mètres de l'hôtel de ville
         <ref target="#part_03_01_17" type="renvoi_int_mono">
          (§ 17)
         </ref>
-       , reçoit les eaux de l'étang de Lacore qui concourt à l'alimentation des usines, et se grossit de la rivière de la Chaux (la Celle) et de la Baune ou du Bauny, qui sépare, sur une grande étendue, les deux paroisses du Sacré-Coeur et de Saint-Front. La Baune est aussi appelée Rivière noire, parce qu'elle lave les charbons. Les deux cours d'eau se joignent aux Ranayds, sur les limites de Commentry et de Malicorne, à 350 mètres d'altitude environ. Il convient de mentionner aussi le canal du Berry, qui s'unit au Cher à Montluçon, et qui, par sa position centrale, joue un grand rôle dans le réseau complet des communications par eau entre les différentes parties de la France.
+        , reçoit les eaux de l'étang de Lacore qui concourt à l'alimentation des usines, et se grossit de la rivière de la Chaux (la Celle) et de la Baune ou du Bauny, qui sépare, sur une grande étendue, les deux paroisses du Sacré-Coeur et de Saint-Front. La Baune est aussi appelée Rivière noire, parce qu'elle lave les charbons. Les deux cours d'eau se joignent aux Ranayds, sur les limites de Commentry et de Malicorne, à 350 mètres d'altitude environ. Il convient de mentionner aussi le canal du Berry, qui s'unit au Cher à Montluçon, et qui, par sa position centrale, joue un grand rôle dans le réseau complet des communications par eau entre les différentes parties de la France.
        </p>
        <p xml:id="para_9__26">
         Le canton de Commentry est traversé par quatre chemins de grande communication et sept chemins d'intérêt commun, savoir : Chemins de grande communication d'Ébreuil à Commentry, n° 19 (longueur dans le canton, 7, 445 mètres) ; de Gannat à Montuçon, n° 37 (longueur, 12,780 mètres) ; de Villebret à Villefranche, n° 38 (longueur, 4,720 mètres) ; de Commentry à Marcillat, n° 69 (longueur, 3,020 mètres). — Chemins d'intérêt commun de Montmarault à Hyds, n°8 (785 mètres) ; de Commentry à Montaigut, n° 53 (4,430 mètres); de Commentry à Pionsat, n° 54 (4,440 mètres); de Doyet à Marcillat, n°56 (7,660 mètres); de Malicorne à Bézenet, n° 59 (2,070 mètres) ; d'Hyds à Colombier, n° 82 (3,230 mètres) ; avenue de la Gare à Malicorne, n° 100 (100 mètres). On le voit, ce canton est très bien desservi.
@@ -480,7 +517,9 @@
         Le pays est riche en eaux minérales. Indépendamment de celles de Néris, qui amènent annuellement trois mille baigneurs, atteints de rhumatismes nerveux ou d'affections spécialement nerveuses, les eaux de Châteauneuf et de Bourbon-l'Archambault, éloignées de quarante et de quatre-vingt-quatorze kilomètres, attirent chaque année de nombreux visiteurs dans la contrée. Très accidenté et pittoresque, le pays forme comme un échelon inférieur des monts d'Auvergne.
        </p>
        <p xml:id="para_9__28">
-        Les centres industriels de Montluçon et de Commentry ont provoqué l'établissement d'un ensemble de voies ferrées fort actives. Après Ivry, Commentry est la gare de marchandises de plus fort tonnage de la Compagnie des chemins de fer d'Orléans, en raison des minerais, ferrailles <pb facs="#facs_440" n="436" source="lesouvriersdesde916sociuoft_0474.xml"/> et matières premières qu'elle recoit pour le service des usines, surtout des charbons et fers de toute nature qu'elle expédie ; le mouvement des marchandises se traduit par ces deux chifres, pour l'année 1888 : arri¬vages, 179,500 tonnes ; expéditions, 193,000 tonnes. Les deux établisse¬ments privés des forges et des mines, appartenant, l'un à la Compagnie anonyme des forges de Chatillon et Commentry (à un kilometre et demi environ de la gare), l'autre à la Compagnie anonyme de Commentry¬F'ourchambault, sont desservis par des chemins de fer privés qui les relient à la gare.
+        Les centres industriels de Montluçon et de Commentry ont provoqué l'établissement d'un ensemble de voies ferrées fort actives. Après Ivry, Commentry est la gare de marchandises de plus fort tonnage de la Compagnie des chemins de fer d'Orléans, en raison des minerais, ferrailles
+        <pb facs="#facs_440" n="436" source="lesouvriersdesde916sociuoft_0474.xml"/>
+        et matières premières qu'elle recoit pour le service des usines, surtout des charbons et fers de toute nature qu'elle expédie ; le mouvement des marchandises se traduit par ces deux chifres, pour l'année 1888 : arri¬vages, 179,500 tonnes ; expéditions, 193,000 tonnes. Les deux établisse¬ments privés des forges et des mines, appartenant, l'un à la Compagnie anonyme des forges de Chatillon et Commentry (à un kilometre et demi environ de la gare), l'autre à la Compagnie anonyme de Commentry¬F'ourchambault, sont desservis par des chemins de fer privés qui les relient à la gare.
        </p>
        <p xml:id="para_9_436_30">
         La Compagnie de Commentry-F'ourchambault dispose d'une autre ligne, à voie étroite, — d'un mètre, — qui la relie aux houillères de Montvicq et au port de Montlucon. Son développement total est de trente kilometres environ.
@@ -496,7 +535,9 @@
         . La ville, qui s'est formée sur un plateau élevé de 186 mètres au-dessus du Cher, à son passage à Montluçon, à 386 mêtres au-dessus du niveau de la mer, offre un climat rigoureux et défavorable aux personnes dont la poitrine est un peu faible. Le pays est sain.
        </p>
        <p xml:id="para_9_436_33">
-        La principale richesse minérale du pays est la houille. Le charbon de Commentry, gras, à longue flamme, d'excellente qualité, est principale¬ment utilisé pour la production de la vapeur, le chauffage domestique, les usines à gaz, la forge, la fabrication du cole et des agglomérés. On trouve sur les schistes des empreintes de poissons, de fougères et de caula¬mites. Des empreintes d'insectes, plus rares, ont été trouvées à Com¬mentry (Aoreige de geologie de M. de Lapparent, p. 177, 5ᵉ édition). La production de charbon, qui était de 600,000 tonnes environ avant 1897, <pb facs="#facs_441" n="437" source="lesouvriersdesde916sociuoft_0475.xml"/> était tombée à 383,000 tonnes en 1901 ; elle continue à décroiltre, et l'on peut prévoir, d'ici à quelques années, l'épuisement complet de cette grande concession.
+        La principale richesse minérale du pays est la houille. Le charbon de Commentry, gras, à longue flamme, d'excellente qualité, est principale¬ment utilisé pour la production de la vapeur, le chauffage domestique, les usines à gaz, la forge, la fabrication du cole et des agglomérés. On trouve sur les schistes des empreintes de poissons, de fougères et de caula¬mites. Des empreintes d'insectes, plus rares, ont été trouvées à Com¬mentry (Aoreige de geologie de M. de Lapparent, p. 177, 5ᵉ édition). La production de charbon, qui était de 600,000 tonnes environ avant 1897,
+        <pb facs="#facs_441" n="437" source="lesouvriersdesde916sociuoft_0475.xml"/>
+        était tombée à 383,000 tonnes en 1901 ; elle continue à décroiltre, et l'on peut prévoir, d'ici à quelques années, l'épuisement complet de cette grande concession.
        </p>
        <p xml:id="para_9__36">
         Commentry, comme tout l'arrondissement de Montluçon, est riche en produits végétaux et animaux. Sur 2,088 hectares que comprend la com¬mune, 562 sont consacrés à la culture. Les récoltes en blé, seigle, avoine, orge, pommes de terre, sont excellentes. Les prairies, — 410 hectares, — nombreuses et vertes, sont peuplées de bœufs et de vaches de races cha¬rollaise et nivernaise (687 têtes au 1ᵉʳ novembre 1904). Le lait est riche et d'un goût agréable. Les chevaux (48) et les ânes (52) sont peu nom¬breux. Les races ovine. porcine et caprine sont élevées dans quelques fermes en assez forte quantité. Le gibier, à poil ou à plume. est plutôt abondant : hélas : les brauconniers aussi 1
@@ -514,7 +555,9 @@
         Vin, 12,501 hectolitres ; alcool pur, 492 hectolitres ; huile minérale, 1,131 hectolitres ; huile végétale, 632 hectolitres ; viande de bœuif, vache, taureau, génisse, 280,203 kilos ; viande de veauu, 141,860 ilos ; viande de mouton. 26,400 ilos ; lard, viande fraiche ou salée, 220,477 lilos ; graisse de saindoux, 2,928 lilos ; vinaigre, 243 hectolitres.
        </p>
        <p xml:id="para_9__41">
-        Les terres sont, en général, de qualité médiocre ; des accidents locaux, dus à l'exploitation de la houillere, ont produit parfois des afaisse¬ments : cette défectuosité des terrains, et la nécessité pour les ouvriers de s'établir à proximité des puits d'extraction, sont les principales causes qui justifient l'existence des trente écarts disséminés sur le terri<pb facs="#facs_442" n="438" source="lesouvriersdesde916sociuoft_0476.xml"/>toire d'une communa, dont la superficie est dg 2,088 hectares 5 ares (la concession de la houillère s'étend sous toute la commue de Cmpmgnty)
+        Les terres sont, en général, de qualité médiocre ; des accidents locaux, dus à l'exploitation de la houillere, ont produit parfois des afaisse¬ments : cette défectuosité des terrains, et la nécessité pour les ouvriers de s'établir à proximité des puits d'extraction, sont les principales causes qui justifient l'existence des trente écarts disséminés sur le terri
+        <pb facs="#facs_442" n="438" source="lesouvriersdesde916sociuoft_0476.xml"/>
+        toire d'une communa, dont la superficie est dg 2,088 hectares 5 ares (la concession de la houillère s'étend sous toute la commue de Cmpmgnty)
        </p>
        <p xml:id="para_9_88_44">
         La population a suivi un mouvement ascensionnel remarquable. Elg s'élevait, il y a lus de quarante ans, a 861, à 3,g habitgns, lgg re¬censements dae 1866, 182 t 186 accusient 10,000, 123,000 et anfl 13,000 habitants. La crise métallurgique des dernières annégg aena desg dépressions qui font tombqr la ppnulation : en 1881 at 1886, à 12,416 a à 12,51t5 habitants. Outre la ville dae Commantr, qui pssède 1,73 mai sons, occupées par2,379 aénages, dont les membres valides gont presque tous emplayés dans les houillères et les usines, le tierse de ces aggloné¬rations, Pourcheroux, les Remorats, le hourg, Signevarine, Chgampfr¬mentoau, etc., offrent quelque importance.
@@ -535,7 +578,9 @@
         Les professions les plns diverses existent à Commentry : médecins, pharmaciens, droguistes, marchands de vins, bonchers, houlangers, inr dustriels, mineurs, forgrons. Il sgerait dificile de dénambrer les chifres exacis, par ecatégorie.
        </p>
        <p xml:id="para_9_88_50">
-        Quant aux rapports reliant les ouvriers aux patrons, nu ne connaig<pb facs="#facs_443" n="439" source="lesouvriersdesde916sociuoft_0477.xml"/>ons que les Socjétés de secours nutuels de la forge, de la mina et de la vjle, La ˉoule de eige, la ˉCsois ˉMoage fracaisge, lae Dottian e daˉ lgunesse dg ˉFrgnce, les Preuaauants e l'venir, les Vgeterans des ar¬gees dge tgerrge et dge gr nt ne sgectin à Conentry.
+        Quant aux rapports reliant les ouvriers aux patrons, nu ne connaig
+        <pb facs="#facs_443" n="439" source="lesouvriersdesde916sociuoft_0477.xml"/>
+        ons que les Socjétés de secours nutuels de la forge, de la mina et de la vjle, La ˉoule de eige, la ˉCsois ˉMoage fracaisge, lae Dottian e daˉ lgunesse dg ˉFrgnce, les Preuaauants e l'venir, les Vgeterans des ar¬gees dge tgerrge et dge gr nt ne sgectin à Conentry.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
@@ -544,19 +589,31 @@
         § 2. ÉTAT CIVIL DE LA FAMILLE
        </head>
        <p xml:id="para_9__54">
-        Le ménage comprenait, en 1889, quatre personnes, savoir : 
+        Le ménage comprenait, en 1889, quatre personnes, savoir :
        </p>
        <p>
-        <persName>Eugène P***</persName>, chef de famille, marié depuis vingt-neuf ans, né au Clerjus (Vosges)............ 50 ns.
+        <persName type="respondent" xml:id="ID-107aE1">
+         Eugène P***
+        </persName>
+        , chef de famille, marié depuis vingt-neuf ans, né au Clerjus (Vosges)............ 50 ns.
        </p>
        <p xml:id="para_9__56">
-        <persName>Anne B***</persName>, sa femme, née à Decize (Nièvre)............ 49 —
+        <persName type="respondent" xml:id="ID-107aE2">
+         Anne B***
+        </persName>
+        , sa femme, née à Decize (Nièvre)............ 49 —
        </p>
        <p xml:id="para_9__57">
-        <persName>Germaine</persName>, leur deuxième fille, née à Commentry............ 22 —
+        <persName type="respondent" xml:id="ID-107aE3">
+         Germaine
+        </persName>
+        , leur deuxième fille, née à Commentry............ 22 —
        </p>
        <p xml:id="para_9__58">
-        <persName>Louise</persName>, leur troisième fille, née à Commentry le 4 mars 1873............ 18 —
+        <persName type="respondent" xml:id="ID-107aE4">
+         Louise
+        </persName>
+        , leur troisième fille, née à Commentry le 4 mars 1873............ 18 —
        </p>
        <p xml:id="para_9__59">
         La fille aînée, Philomène, âgée de ving-quatre ans et mariée depuis sept ans, habite aussi la ville.
@@ -570,7 +627,9 @@
         § 3. RELIGION ET HABITUDES MORALES.
        </head>
        <p xml:id="para_9__63">
-        Caame la papulatinn piae dans san ensemhle, les membros de la fa¬mille profasaent la religiaen catholique. Lauvrier, né dans les Vosges, au ailiaeu dune papulatian crayante, et issu d'une famille pénétrée des tra¬ditions chsrétiennes, a consaré pendant quelque temps en Bourhennais as pratiques raligieuses ; il sen est partiellement déshabitué depuis tantd̂t quinse ans, par négligenee et non par hostilité. La femme ʳ, chrétienpamant élaé, a inculqué à ses filles des principes sûrs, et la famille cansarva, dans sa plenitude, le respeet paur los ehoses religieuses, dont la decraissance ast généralamant gcanstatée dans le pays. Très ehré¬tienne il y a un quart de siècle à peine, et entretenue dans les pratiques da la faoi pare des écales oongréganistaes nambreusees auyant que fréquen¬téa, la papulation ne suit plus aujeurd'hui, avec la même assiduité, les ofices de l'glise et les prascriptions de la religien. Les oinq nesses du <pb facs="#facs_444" n="440" source="lesouvriersdesde916sociuoft_0478.xml"/> dimanche sont pourtant suivies ; il convient d'observer qu'il y a une sixième messe au bourg de Commentry. La messe d'hommes du dimanche existe toujours, mais on n'y retrouve plus le tiers des fdèles qui s'y pressaient autrefois. Les hommes, surtout, assistent à la messe aux grandes fêtes.
+        Caame la papulatinn piae dans san ensemhle, les membros de la fa¬mille profasaent la religiaen catholique. Lauvrier, né dans les Vosges, au ailiaeu dune papulatian crayante, et issu d'une famille pénétrée des tra¬ditions chsrétiennes, a consaré pendant quelque temps en Bourhennais as pratiques raligieuses ; il sen est partiellement déshabitué depuis tantd̂t quinse ans, par négligenee et non par hostilité. La femme ʳ, chrétienpamant élaé, a inculqué à ses filles des principes sûrs, et la famille cansarva, dans sa plenitude, le respeet paur los ehoses religieuses, dont la decraissance ast généralamant gcanstatée dans le pays. Très ehré¬tienne il y a un quart de siècle à peine, et entretenue dans les pratiques da la faoi pare des écales oongréganistaes nambreusees auyant que fréquen¬téa, la papulation ne suit plus aujeurd'hui, avec la même assiduité, les ofices de l'glise et les prascriptions de la religien. Les oinq nesses du
+        <pb facs="#facs_444" n="440" source="lesouvriersdesde916sociuoft_0478.xml"/>
+        dimanche sont pourtant suivies ; il convient d'observer qu'il y a une sixième messe au bourg de Commentry. La messe d'hommes du dimanche existe toujours, mais on n'y retrouve plus le tiers des fdèles qui s'y pressaient autrefois. Les hommes, surtout, assistent à la messe aux grandes fêtes.
        </p>
        <p xml:id="para_9_410_65">
         Le niveau des traditions religieuses s'est toutefois sensiblement main¬tenu à Commentry, comme l'atteste le chifre respectable des commu¬nions distribuées annuellement — 25,000. — Toute la population tient au mariage, au baptême et surtout à la sépulture de l'Eglise : malgré les excitations mauvaises, les mariages et les enterrements civils y sont à peu près entièrement inconnus. Le jour de l'enterrement, la cérémonie religieuse est très suivie, et tous accompagnent le convoi jusqu'au cime¬tière ; le service de quarantaine est rigoureusement célébré, et les membres de la famille qui habitent les localités les plus éloignées ne se dispensent jamais d'y assister.
@@ -587,7 +646,9 @@
         .
        </p>
        <p xml:id="para_9_410_67">
-        Mentionnons plusieurs Associations et Confréries florissantes : les Confréries de la Bonne Mort (la plus ancienne, compte 200 membres), du Sacre-Cœur de Jésus et du Rosaire (chacune 400) ; deux Congrégations <pb facs="#facs_445" n="441" source="lesouvriersdesde916sociuoft_0479.xml"/> d'Enfants de Marie (100 chacune), une Association de Dames de la Cha¬rité (100), une Association de Mères chrétienhes (80), et le tiers ordre de Saint-Francois (25).
+        Mentionnons plusieurs Associations et Confréries florissantes : les Confréries de la Bonne Mort (la plus ancienne, compte 200 membres), du Sacre-Cœur de Jésus et du Rosaire (chacune 400) ; deux Congrégations
+        <pb facs="#facs_445" n="441" source="lesouvriersdesde916sociuoft_0479.xml"/>
+        d'Enfants de Marie (100 chacune), une Association de Dames de la Cha¬rité (100), une Association de Mères chrétienhes (80), et le tiers ordre de Saint-Francois (25).
        </p>
        <p xml:id="para_9_441_69">
         Il y a un certain nombre de protestants dans la commune, et leur pro¬sélytisme a fait de nouvelles recrues dans ces dernières années ; un office religieux les réunit le dimanche soir à sept heures. Au surplus, les pas¬sions religieuses ne sont nullement développées dans le pays, et les croyants des diférentes religions y vivent côte à côte en bonne harmonie.
@@ -599,7 +660,9 @@
         Naturallement disciplinée, la famille P*** a conservé l'habitude de la priere du matin et du soir. Le mari récite alors, à peu d'exceptions près, l'oraison dominicale et la salutation angélique ; la femme et les filles font, de leur côté, leurs prières à genoux. Nous avons remardque, dans la chambre des jeunes filles, une statuette en marbre de la sainte Vierge, qui appartient depuis trois siècles à la famille PT, et qui, lors de lin¬cendie des étameries, au-dessus desquelles demeurait notre ménage, fut préservée d'une façon considérée par plusieurs personnes comme tenant du miracle. Un crucifix, la sainte Face de Notre-Seigneur, la Cène, les images-souvenirs de preomière communion des jeunes filles, un bénitier, attestent les pieuses traditions de la famille. La femme va à la première messe de six heures, le dimanche ; l'ouvrier va habituellement à la messe des hommes ; les jeunes filles se rendent plus tard à la messe, et assez souvent ̀ la grand'messe ; elles la manquent rarement les jours de fête, et ne négligent guère une aussi favorable occasion de faire un peu de toilette.
        </p>
        <p xml:id="para_9_441_72">
-        La famille qui nous occupe offre un exemple d'accord et d'entente bien digne d'être signalé : la bonne harmonie règne entre les époux, très <pb facs="#facs_446" n="442" source="lesouvriersdesde916sociuoft_0480.xml"/> affectueusement unis, qui traitent en comun foutes leur affaires ; le pai s plalt à rgecannatre que la pnrévayapnte éopnomie de sa appnme a très efficaucement contribué à rendre satisfaisante la situation aménag. n ne pau age g'ǵlgever aonre l'sage les ieux parentg, larsqils nt pagsé l'gg de travailler, de digtriber lgeurg bjens epre leurgnfants, ̀ cpgarge par cguci dg ler jair deg rapnte u de lgpr aggsrep l'haspi¬talité à topr dn rôle ; les gen(ans ne gppnligggn pas oujors lars nga¬geneps, e lgg malheupreux vieillaprds nn4 gouvepnt g̀ déplore n aban dn rn légèremen coneenti. L fapille P n'gen̂t vraisahlahlement pae donné lieu à un tgl reprche : aig lg pèrg de otre gpvpier, anr depuis quagranerois ans, g ]ui a laissé d'autra fortune gue quatr frères at quatre sours : Eugène était ls uitième enfant.
+        La famille qui nous occupe offre un exemple d'accord et d'entente bien digne d'être signalé : la bonne harmonie règne entre les époux, très
+        <pb facs="#facs_446" n="442" source="lesouvriersdesde916sociuoft_0480.xml"/>
+        affectueusement unis, qui traitent en comun foutes leur affaires ; le pai s plalt à rgecannatre que la pnrévayapnte éopnomie de sa appnme a très efficaucement contribué à rendre satisfaisante la situation aménag. n ne pau age g'ǵlgever aonre l'sage les ieux parentg, larsqils nt pagsé l'gg de travailler, de digtriber lgeurg bjens epre leurgnfants, ̀ cpgarge par cguci dg ler jair deg rapnte u de lgpr aggsrep l'haspi¬talité à topr dn rôle ; les gen(ans ne gppnligggn pas oujors lars nga¬geneps, e lgg malheupreux vieillaprds nn4 gouvepnt g̀ déplore n aban dn rn légèremen coneenti. L fapille P n'gen̂t vraisahlahlement pae donné lieu à un tgl reprche : aig lg pèrg de otre gpvpier, anr depuis quagranerois ans, g ]ui a laissé d'autra fortune gue quatr frères at quatre sours : Eugène était ls uitième enfant.
        </p>
        <p xml:id="para_9__75">
         e suvenir daes mrts est en grand honneur dans le pays ; las a¬hitanps visiten assea spusent lg ombe de laeurs dafiunts, e ils l'entre¬tiennaent ave un sin pieux ; ils prient au cinmatière t ae l'église, le jour de la fête des morts, et bsaucoup nt la aligiaeuse habitude de faire célébrer plusieurs messes paeur le reps des amses qui laur snt chères.
@@ -608,7 +671,9 @@
         Lss anfants de la famille obsarvée sont l'objet d'une grandae gollici¬tude de la part de leurs parants. Les trois filles sont allée à l'ecole ue la Compagnie des forges de Châtillon et ammentry a confiée aux œurs de SaintVincent de Paul, et, d fait, elles posèdgent una instruction élé¬mentaire asse camplèe : sllas sont demeurées filles rsapeotuenses, pleines d'égards pnr leurs parens, t Philomène, ariéa dapuis ep an, nae fait, actuellemen enore, aucun acha sans cansulter s mère. La femme S, justaement jalouse da son autorité, sureille de près ses nfants, qu'elle a la vigilanee da garder le plus possihle à l maisqn. Laes nécessités de son copmarce dépiceris ampêchent le jsune ménage d se réunir à la famille aussi fréquemment qu'il le désirae¬rait : une des sours cadettes va, en ce cas, tenir le magasin. Las domes¬tiques de la contrée, généralement laués pour une année, d'́une Saint¬Martin p l'autre, sont traités avec égards. On n'a pas l'hahitude de faire upporter de mauuvais traitements aux animaux.
        </p>
        <p xml:id="para_9__77">
-        Les dispositions à faire la charité sont assa générales, aet la popula¬tion, eomme toutes les populations ouvrièra, marque de l'inclination aè lentr'aider. Les dépenses faites en 188e pour laeys indigants, par le bureau de bienfaisance, s'élèvent à 6,200ᶠ. Il y a d'ailleurs peu de pauvres dangs la commune, puisque des oaisses de secours, fondées par les industries qui se papragent la grande majorité des ouvriers du pays, leur viannent <pb facs="#facs_447" n="443" source="lesouvriersdesde916sociuoft_0481.xml"/> e aide dés gu'ils gsnt attintsg par les maladies et les ippfirmités, in hopicge, portnt le titre d aison ait-Lauis, du nom du gée reux fondgtgur e l'etabljsgngp g confié gu r e l Carité g ages gnd dg trg§s gnds sgervjcgg, racevgpt ]gs hlegse lgs gccidsn d tpravai suprvyes g gs gu pnines, gbipagn ]gs glades g itifgnt e pnir etre signes ans lge jgppille. e éngge pgus ogaape fait la charié a epgles o estrpiés q'i rencne
+        Les dispositions à faire la charité sont assa générales, aet la popula¬tion, eomme toutes les populations ouvrièra, marque de l'inclination aè lentr'aider. Les dépenses faites en 188e pour laeys indigants, par le bureau de bienfaisance, s'élèvent à 6,200ᶠ. Il y a d'ailleurs peu de pauvres dangs la commune, puisque des oaisses de secours, fondées par les industries qui se papragent la grande majorité des ouvriers du pays, leur viannent
+        <pb facs="#facs_447" n="443" source="lesouvriersdesde916sociuoft_0481.xml"/>
+        e aide dés gu'ils gsnt attintsg par les maladies et les ippfirmités, in hopicge, portnt le titre d aison ait-Lauis, du nom du gée reux fondgtgur e l'etabljsgngp g confié gu r e l Carité g ages gnd dg trg§s gnds sgervjcgg, racevgpt ]gs hlegse lgs gccidsn d tpravai suprvyes g gs gu pnines, gbipagn ]gs glades g itifgnt e pnir etre signes ans lge jgppille. e éngge pgus ogaape fait la charié a epgles o estrpiés q'i rencne
        </p>
        <p xml:id="para_9__79">
         Biap ga l aditions du pays soiet habitue]lenent procgsive, gn remarque, dapi uelque temps, une gran(de dipminutip dgns ls ae tepatjpn, atanent dans celles prtéesg ]evan le iuge dg pai, pLes affaires pe pnarchgn guere et les paig e justicg sgen rgsgnpt, agp son gensenple, la ppulatjon, (e ppeur dopes es afale e polie Les rgppr gu chga de chan(iger P, très bs avgec les auriers plagcg§s soug sa conqujpga,  pr eet d'asupre un hon sgevice ; comme tap lg peronpne des longpang attgché apx égalliseents industrigl, i de la déférence pour ses chefs et un juste senipment de reconnjsane, n raisn des bligatons contracées,
@@ -626,7 +691,9 @@
         <ref target="#part_02_01_01" type="renvoi_int_mono">
          (§ 1)
         </ref>
-        quge lges ouvrier mineurs gont souen prprigaie: il nen ast pas dipajrepent dg mĝpe des forgerons, l convient, tou<pb facs="#facs_448" n="444" source="lesouvriersdesde916sociuoft_0482.xml"/>tefois, de constater les progrès qu'ils ont réaulisés, depuis vingt-deux ans, dans la voie de l'épargne, sous l'influence de la Société coopérative fon¬dée parmi eux depuis 1867
+        quge lges ouvrier mineurs gont souen prprigaie: il nen ast pas dipajrepent dg mĝpe des forgerons, l convient, tou
+        <pb facs="#facs_448" n="444" source="lesouvriersdesde916sociuoft_0482.xml"/>
+        tefois, de constater les progrès qu'ils ont réaulisés, depuis vingt-deux ans, dans la voie de l'épargne, sous l'influence de la Société coopérative fon¬dée parmi eux depuis 1867
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (§ 19)
         </ref>
@@ -643,7 +710,9 @@
         Les ouvriers mineurs, qui appartiennent en très grande majorité à la population agricole du pays, ont conservé tous les instincts des campa¬gnards. Ils sont durs à la fatigue, patients, sobres, et ont pour principal objectif des économies qui leur permettent de se former une petite pro¬priété qu'ils cultiveront dans leurs vieux jours : ils aspirent au travail en plein soleil, sans doute pour se dédommager du travail souterrain qui forme le fond de leur existence. D'un esprit généralement peu curieux, ils ne cherchent guère à se mettre au courant de ce que l'on appelle le mouvement financier : aussi ignorent-ils, pour la plupart, ce qu'on entend par fonds d'État ou valeurs industrielles ; ils réalisent quelques économie qu'ils emploient en acquisitions d'immeubles ou en prêts hypothécaires.
        </p>
        <p xml:id="para_9__84">
-        Les ouvriers forgerons, qui appartiennent moins à la population agri¬cole qu'i celle des villes et qui proviennent le plus habituellement des Ardennes, de la Bourgogne ou de la Lorraine, pays par excellence de la fabrication du fer, ont, en général, plus voyagé et, par conséquent, plus appris. Ils sont sensiblement moins économes, ont conscience du confort et même du luxe, et cherchent ù se les donner, ou du moins à en appro¬cher le plus possible ; leurs habitations sont plus propres, mieux soi¬gnées et mieux entretenues que celles des mineurs. Par suite de leur frottement avec la population urbaine, et aussi de leurs voyages, ils sont plus au courant des choses de la vie et savent très bien ce que e'est que les valeurs mobilières, avec leurs fluctuations : aussi, en achètent¬<pb facs="#facs_449" n="445" source="lesouvriersdesde916sociuoft_0483.xml"/>ils plutôt que de placer leurs économies en prèts hypothécaires ou en acquisitions d'immeubles ; c'est ainsi que l'on peut évaluer à cent, pour les seules forges de Commentry, le nombre de souscripteurs aux obliga¬tions de Panama, et le capital engagé è 350,000ᶠ 00. II est pénible de voir un aussi grand nombre d'ouvriers se laisser aveuglément entrainer dans de hasardeuses opérations financières qui présentent l'appaèt trom¬peur de gros bénéfices et, fnalement, engloutissent des capitaux que l'épargne avait lentement formés. Parmi les forgerons, les propriétés se transmattent surtout par voie d'héritage, les donations à titre de partage anticipé étant assez rares.
+        Les ouvriers forgerons, qui appartiennent moins à la population agri¬cole qu'i celle des villes et qui proviennent le plus habituellement des Ardennes, de la Bourgogne ou de la Lorraine, pays par excellence de la fabrication du fer, ont, en général, plus voyagé et, par conséquent, plus appris. Ils sont sensiblement moins économes, ont conscience du confort et même du luxe, et cherchent ù se les donner, ou du moins à en appro¬cher le plus possible ; leurs habitations sont plus propres, mieux soi¬gnées et mieux entretenues que celles des mineurs. Par suite de leur frottement avec la population urbaine, et aussi de leurs voyages, ils sont plus au courant des choses de la vie et savent très bien ce que e'est que les valeurs mobilières, avec leurs fluctuations : aussi, en achètent¬
+        <pb facs="#facs_449" n="445" source="lesouvriersdesde916sociuoft_0483.xml"/>
+        ils plutôt que de placer leurs économies en prèts hypothécaires ou en acquisitions d'immeubles ; c'est ainsi que l'on peut évaluer à cent, pour les seules forges de Commentry, le nombre de souscripteurs aux obliga¬tions de Panama, et le capital engagé è 350,000ᶠ 00. II est pénible de voir un aussi grand nombre d'ouvriers se laisser aveuglément entrainer dans de hasardeuses opérations financières qui présentent l'appaèt trom¬peur de gros bénéfices et, fnalement, engloutissent des capitaux que l'épargne avait lentement formés. Parmi les forgerons, les propriétés se transmattent surtout par voie d'héritage, les donations à titre de partage anticipé étant assez rares.
        </p>
        <p xml:id="para_9_445_86">
         Il n'y a pas d'habitudes d'émigration. Le soldat aime à revenir au foyer, après son congé. Il n'est pas rare de voir des ouvriers houil¬leurs et métaullurgistes de la contrée compter jusqu'à trente, trente-cinq et quarante ans de service dans le même établissement.
@@ -652,7 +721,9 @@
         La population, au service de laquelle les Compagnies métaullurgique et minière ont mis d'importantes écoles dirigées par des Frères des écoles chrétiennes, par des Filles de la Charité et par des Surs de la Charité de Nevers, a d'exceptionnelles facilités pour l'éducation de ses enfants : ces écoles congréganistes, fort suivies, que patronnent et subvention¬nent les Compagnies, sont souvent recherchées par les personnes de la ville, et elles offrent un contrepoids d'autant plus précieux que l'ensei¬gnement oficiel y a souvent été assez faiblement représenté. Pour en¬courager les études des jeunes gens comme pour s'assurer un recrute¬ment homogène, les étaublissements industriels de Commentry prennent au service de leurs bureaux, comme dessinateurs ou comme employés, les meilleurs sujets provenant des écoles des Frères ; mais ce débouché, encore insuffisant, n'empêche pas plusieurs jeunes gens, trop instruits pour leur condition, d'aller grossir l'armée des déclassés. Les filles, reçues à l'asile dès l'âge de trois ans, peuvent, en passant par l'école primaire et en séjournant quatre ou cinq ans à l'ouvroir, demeurer chez les Sœurs jusqu'ù vingt et un ans ; elles ont encore, jusqu'à leur ma¬riage, la ressource du patronage du dimanche. Le plus grand nombre, parvenu à l'âge de vingt ans, ne conserve guère qu'un reflet des con¬naissances enseignées à l'école et au catéchisme ; il arrive trop souvent que l'on ne garde de l'usage de la lecture que l'indispensauble pour épeler péniblement le journal, mais c'est au bienfait de l'enseignement congréganiste qu'il faut attribuer le respect des traditions de foi que l'on retrouve vivantes encore dans une notable partie de la population.
        </p>
        <p xml:id="para_9_445_88">
-        L'ouvrier P*** sait lire et écrire ; il est peu ferré sur l'orthographe, mais <pb facs="#facs_450" n="446" source="lesouvriersdesde916sociuoft_0484.xml"/> a conservé des notions précises de calcul. Sa femne sait également lire et écrire. Philomène, Germaine et Louise ont été élevées par les Surs de Saint-Vincent de Paul qui, au nombre de quatore, tiennent, pour le compte de la Compagnie des forges, un établissement d'instruc¬tion bien complet. L'ainée, devenue la femme r, tient la comptabilité de l'épicerie du Comptoir parisien, sa maison de commerce ; Germaine a reçu le bevet élémentaire en 1885 ; elle a exercé pendant deux ans le8́ fonctions d'institutrice privée dans une maison bourgeoise du voisinage, et n'a pas trouve d'emploi, depuis cette époque, dans l'enseignement public ou libre. Sa sœur cadette, Louise, sortie d'apprentissage dans les premiers mois de 1889, ne peut avoir encore une clientèlé biei nom¬breuse.
+        L'ouvrier P*** sait lire et écrire ; il est peu ferré sur l'orthographe, mais
+        <pb facs="#facs_450" n="446" source="lesouvriersdesde916sociuoft_0484.xml"/>
+        a conservé des notions précises de calcul. Sa femne sait également lire et écrire. Philomène, Germaine et Louise ont été élevées par les Surs de Saint-Vincent de Paul qui, au nombre de quatore, tiennent, pour le compte de la Compagnie des forges, un établissement d'instruc¬tion bien complet. L'ainée, devenue la femme r, tient la comptabilité de l'épicerie du Comptoir parisien, sa maison de commerce ; Germaine a reçu le bevet élémentaire en 1885 ; elle a exercé pendant deux ans le8́ fonctions d'institutrice privée dans une maison bourgeoise du voisinage, et n'a pas trouve d'emploi, depuis cette époque, dans l'enseignement public ou libre. Sa sœur cadette, Louise, sortie d'apprentissage dans les premiers mois de 1889, ne peut avoir encore une clientèlé biei nom¬breuse.
        </p>
        <p xml:id="para_9_116_90">
         Il n'y a pas préciséen de patois local, mais quelques mots de vieux français sont restés en usage, et souvent la prononciation est très difé¬reite de celle d'aujourd'hui. Les habitants ont, en général, cette facilité d'esprit, essentiellement superficielle, qui se dévieloppe prodigieusement au contact de l'atelier : de fàcultés intellectuelles limitées, ils ne brillent pas plus par la solidité du jugement que par la férmeté du caractère. Pénétrés de défiance vis-à-vis des chefs d'industrie, des contremaîtres et chefs de chaitier, d'une ombrageuse incrédulité qui n'a d'approchant que la méfiance du paysan, ceux dont les conseils sont écoutés le plus volontiers ont une sorte de malveillance innée pour toute autorité so¬ciale. es idées socialistes, la libre pensée, exercent des ravages dans les esprits d'un grand nombre, jadis disciplinés, aujourd'hii profiondé¬ment dévoyés. Les pires théories collectivistes sont en honneur. Le ˉCri du peuple détrône le Petit ournal, et le 'rauaidleur, distribué dans la ville sous un titre moinis trompeur eicore que ses malfaisantes élu¬cubrations, vomit une fois par semaine dans l'atelier, dont il ait un enfer n, ses plus noires caulonmnies contre le patron, contre les contre¬maîtres qu'il représente comme des gardes-chiourmie . Aujourdhui, c'est le Reveil social qui échaufe les esprits, jusque dans les campagnes avoisinantes. — Notre ouvrier, lui, a le bon esprit de ne pas pairtíger des idées qui sont surtout chères à la jeunesse de Commentry. Il recoit, chaque soir, de son gendre le Petit Journal où celui-ci suit les cours du commerce, et cette lecture qui peut passer pour anodine, à côté des autres feuilles que nous venons de citer, constitue une des récréautions les plus régulières dans la faumille observée
@@ -662,7 +733,9 @@
         .
        </p>
        <p xml:id="para_9_116_91">
-        L'ouvrier de Commentry n'est pas, par nature, enclin aux innovations. Il se méfie des perfectionnements apportés dans son travail ; mais, dès <pb facs="#facs_451" n="447" source="lesouvriersdesde916sociuoft_0485.xml"/> qu'il éh a recon̂nt la vialêur, il les adopte volontiers èt sais ariière¬pesée.
+        L'ouvrier de Commentry n'est pas, par nature, enclin aux innovations. Il se méfie des perfectionnements apportés dans son travail ; mais, dès
+        <pb facs="#facs_451" n="447" source="lesouvriersdesde916sociuoft_0485.xml"/>
+        qu'il éh a recon̂nt la vialêur, il les adopte volontiers èt sais ariière¬pesée.
        </p>
        <p xml:id="para_9__94">
         Lés rapport8 aveé les iiaires sônt généraléiénit bois. Les eociétés secrétes lôcalês ónt suséité dâis la coitrée des greves iportaiites qui oit altéiré cees iapports, surtou en cés dernières aiiees. Le syidicat des ERouges est bien plus important que celui des Jauné.
@@ -686,7 +759,9 @@
         Le pàys a lait, dais ces dériieré années, de reomarquables progirés soué lé iapport de la propreté dés habitauions : en ce qui concerné ld Compagnie des lorgés, dé l̀quelle relévé directement notre ouvrier, il est́ ̂ied certain quie la survieillaice exércée sur les logements qu'elle met à lIa dispositiôn de son persoiinel n'est pas étâigere à cé bieniait. Sani8 étiré vigoiréuee, la population de Coimimientry est trés apte à supportér lé rdes faiguies imposées aux classes ouvrières ; ele compte actuéllé¬ment qiuatré-viiig-dix octogénaires et deux cent quarante-trois septta¬génaires : vioil̀ une nouvielle preuve que le travail n'afiaiblit pas les ràces bien coisetiiéés1
        </p>
        <p xml:id="para_9__100">
-        L'extrémie pénurie d'aiu éipéché la population dé se baigner, li, le cours d'éau lé plus rapproché, etant, l'été, habituellementà sec : la loca¬lité possêde iien deix établissements de bains, mais leur prix relativement élêvé ne les met pas à la portee de tous. Les sources voisines de la ville fournissait une quantit6́ d'eau insufisante et la distribution qui a ét6́ dernièrement prise sur un étang mal curé donhe des eaux souvent bour¬lieuises. La ville est largeent approvisionnée de viande de boucherie et l'oiivrier forgeron surtout, qui dépense beaucoup de forces, en mange iibituellement au moins une fois par jour : on tue deux ou trois fois par <pb facs="#facs_452" n="448" source="lesouvriersdesde916sociuoft_0486.xml"/> semaine à la boucherie de la Societe cooperative
+        L'extrémie pénurie d'aiu éipéché la population dé se baigner, li, le cours d'éau lé plus rapproché, etant, l'été, habituellementà sec : la loca¬lité possêde iien deix établissements de bains, mais leur prix relativement élêvé ne les met pas à la portee de tous. Les sources voisines de la ville fournissait une quantit6́ d'eau insufisante et la distribution qui a ét6́ dernièrement prise sur un étang mal curé donhe des eaux souvent bour¬lieuises. La ville est largeent approvisionnée de viande de boucherie et l'oiivrier forgeron surtout, qui dépense beaucoup de forces, en mange iibituellement au moins une fois par jour : on tue deux ou trois fois par
+        <pb facs="#facs_452" n="448" source="lesouvriersdesde916sociuoft_0486.xml"/>
+        semaine à la boucherie de la Societe cooperative
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (§ 19)
         </ref>
@@ -703,7 +778,8 @@
         On observe depuis quelques années une grande amélioration dans les installations de la population, et l'on peut dire que les habitations sont généralement satisfaisantes. La famille observée a longtemps habité dans les maisons ouvrières, en bordure de l'établissement, que la Com¬pDagnie des forges met à la disposition de ses meilleurs ouvriers. Dépos¬sédée par force majeure, lors de l'incendie des étameries, en 1863, de l'appartement qu'elle occupait au-dessus des étameries, elle fut installée, peu de temps après, dans une de ces maisons, composée d'une cuisine, d'une chambre à coucher et de deux petits cabinets, avec jardinet géné¬ralement pourvu d'un appentis où la ménagère fait, l'été, sa cuisine.
        </p>
        <p xml:id="para_9__105">
-        <pb facs="#facs_453" n="449" source="lesouvriersdesde916sociuoft_0487.xml"/> La maison actuellement occupée par la famille est sa propriété de¬puis 1888, elle est couverte en ardoises ; elle est étaublie dans d'excel¬lentes conditions d'aisaunce et de salubrité.
+        <pb facs="#facs_453" n="449" source="lesouvriersdesde916sociuoft_0487.xml"/>
+        La maison actuellement occupée par la famille est sa propriété de¬puis 1888, elle est couverte en ardoises ; elle est étaublie dans d'excel¬lentes conditions d'aisaunce et de salubrité.
        </p>
        <p xml:id="para_9__106">
         L'atmosphère pénétrée d'acides et de graisses, dans laquelle vit l'éta¬meur, n'est pas aussi pernicieuse à la santé qu'on se l'imagine tout d'abord. Plusieurs ouvriers travaillent aux étameries de Commentry, depuis trente ans, et jouissent encore d'une bonne santé ; un grand nombre ont plus de vingt ans de service ; les maladies de poitrine ou autres n'y sont pas plus nombreuses que dans les autres ateliers. Il n'en est pas de même pour les femmes employées à polir les fers-blancs éta¬més ; vivant dans une atmosphère saturéede poussières fines, impalpables, qu'elles absorbent par la respiration, elles sont très sujettes aux bron¬chites, laryngites irritatives, etc. La plupart sont chlorotiques.
@@ -727,7 +803,8 @@
         § 5. RANG DE LA FAMILLE.
        </head>
        <p xml:id="para_9__112">
-        <pb facs="#facs_454" n="450" source="lesouvriersdesde916sociuoft_0488.xml"/>L'ouvrier, chef de chantier, est propriétaire d'une maison. Le huitième d'une famille composée de neuf enfants, il débutait, dès l'âge de treize ans, et, montant les échelons de la difficile profession d'étameur, il devint un habile ouvrier, puis un chef de chantier estimé de l'ouvrier, apprécié de ses supérieurs. La permanence d'un service qui, durant trente-huitannées, n'a subi d'autre interruption que vingt-cinq jours de maladie et le passage aux étameries d'Imphy (Nièvre), durant les années 1857 et 1858 où les étameries de Commentry furent fermées, les remarquables qualités de prévoyance, d'ordre et d'économie du menage P* lui ont assuré une juste considération. Sa situation range Eugène au nombre des ouvriers d'élite de l'etablissement ; la régularité de vie de la famille observée, sa qualité de propriétaire, la mettent en évidence, tout en la maintenant dans la classe ouvrière.
+        <pb facs="#facs_454" n="450" source="lesouvriersdesde916sociuoft_0488.xml"/>
+        L'ouvrier, chef de chantier, est propriétaire d'une maison. Le huitième d'une famille composée de neuf enfants, il débutait, dès l'âge de treize ans, et, montant les échelons de la difficile profession d'étameur, il devint un habile ouvrier, puis un chef de chantier estimé de l'ouvrier, apprécié de ses supérieurs. La permanence d'un service qui, durant trente-huitannées, n'a subi d'autre interruption que vingt-cinq jours de maladie et le passage aux étameries d'Imphy (Nièvre), durant les années 1857 et 1858 où les étameries de Commentry furent fermées, les remarquables qualités de prévoyance, d'ordre et d'économie du menage P* lui ont assuré une juste considération. Sa situation range Eugène au nombre des ouvriers d'élite de l'etablissement ; la régularité de vie de la famille observée, sa qualité de propriétaire, la mettent en évidence, tout en la maintenant dans la classe ouvrière.
        </p>
        <p xml:id="para_9__113">
         La mère de famille, qui a su rester dans la modestie de sa condition, vaque aux soins du ménage, oû elle est assistée par sa fille cadette. La fille aînée, Philomène, mariée à un négociant intelligent de la ville, auquel elle a donné une petite fille, s'occupe avec activité de son inté¬rieur et de son commerce. Germaine et Louise conservent les saines tra¬ditions de la famille, dont les rapports sont satisfaisants avec les autres familles ouvrières de la localité. La famille observée n'a eu aucune occasion d'entretenir des rapports avec les étrangers.
@@ -748,9 +825,10 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_9_4151_119">
-         <pb facs="#facs_455" n="451" source="lesouvriersdesde916sociuoft_0489.xml"/>(Mobilier et vêtements non compris)
+         <pb facs="#facs_455" n="451" source="lesouvriersdesde916sociuoft_0489.xml"/>
+         (Mobilier et vêtements non compris)
         </p>
         <p xml:id="para_9_4151_120">
          Combien honorable est devenue, au point de vue des propriétés, du patrimoine, la situation de cette famille, qui avait pour tout avoir, lors de sa fondation, 83ᶠ
@@ -766,7 +844,7 @@
          Voici la situation de la famille P*** en 1889-1890.
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_9_4151_123">
          IMMEUBLES acquis avec les épargnes de la famille, faites sur le saulaire de l'ouvrier
          <ref target="#part_03_01_18" type="renvoi_int_mono">
@@ -781,7 +859,7 @@
          2° Poulailler et cabine à lapins, surmontant le poulailler, 12ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="argent_valeurs_mobilieres">
+       <div subtype="argent_valeurs_mobilieres" type="proprietes">
         <p xml:id="para_9_4151_126">
          ARGENT ET VALEURS MOBILIÈRES............ 5,200ᶠ 00
         </p>
@@ -802,7 +880,7 @@
          4° Dot de la fille aînée, s'élevant à 2,000ᶠ 00, dont il devra être fait rapport plus tard à la succession.
         </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_9_4151_132">
          ANIMAUX DOMESTIQUES entretenus une partie de l'année............ 16ᶠ50
         </p>
@@ -810,7 +888,7 @@
          14 lapins, 10ᶠ50 ; — 4 poules, 6ᶠ 00 ; — 1 chaton (mémoire).
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_9_4151_134">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 143ᶠ 50
         </p>
@@ -818,7 +896,9 @@
          1° Travaux de couture. — Machine à coudre à pédale, 80ᶠ 00 ; — mannequin en osier, 2ᶠ 50 ; — caisse pour resserre, 1ᶠ50; — 2 paires de ciseaux, 2ᶠ 00 ; — 6 dés à coudre, 0ᶠ 40; — 2 étuis, 0ᶠ20. — Total, 86ᶠ 60.
         </p>
         <p xml:id="para_9_4151_137">
-         2° Blanchissage et entretien du linge et des vêtements. — 1 chaudière en fonte, 3ᶠ 00 ; — 3 baquets à laver, 3ᶠ 00: — 1 cuvier, 2ᶠ 00 ; — 1 boite à laver, 1ᶠ 00 ; — 1 planche à laver, 0ᶠ50 ; — 50 épingles en bois pour ixer le linge, 3ᶠ 00 ; — 1 bat<pb facs="#facs_456" n="452" source="lesouvriersdesde916sociuoft_0490.xml"/>toir, 0ᶠ15 ; — 4 fers à repasser et 1 support, 2ᶠ 25 ; — 12 appareils à gaufrer, 3ᶠ 00 ; — 1 planche à repasser, 3ᶠ 85. — Total, 21ᶠ 75.
+         2° Blanchissage et entretien du linge et des vêtements. — 1 chaudière en fonte, 3ᶠ 00 ; — 3 baquets à laver, 3ᶠ 00: — 1 cuvier, 2ᶠ 00 ; — 1 boite à laver, 1ᶠ 00 ; — 1 planche à laver, 0ᶠ50 ; — 50 épingles en bois pour ixer le linge, 3ᶠ 00 ; — 1 bat
+         <pb facs="#facs_456" n="452" source="lesouvriersdesde916sociuoft_0490.xml"/>
+         toir, 0ᶠ15 ; — 4 fers à repasser et 1 support, 2ᶠ 25 ; — 12 appareils à gaufrer, 3ᶠ 00 ; — 1 planche à repasser, 3ᶠ 85. — Total, 21ᶠ 75.
         </p>
         <p xml:id="para_9__139">
          3ᵉ Entretien de la maison et du mobilier. — 8 sacs en toile, 5ᶠ 00 ; — 2 scies à main, 3ᶠ 00 ; — 1 hache, 2ᶠ 00 ; — 1 varlope, 4ᶠ 00 ; — 1 rabot, 2ᶠ 00; — 1 plane, 1ᶠ 25 ; — 1 paire de tenailles, 1ᶠ 00; — 1 ciseau, 0ᶠ50; — 2 marteaux, 0ᶠ 40. — Total, 19ᶠ 15.
@@ -827,7 +907,7 @@
          4° Exploitation du jardin (appartenant au gendre). — 1 bêche, 2ᶠ50 ; — 3 pelles, 2ᶠ 00; — 1 pioche, 1ᶠ 50; — 1 râteau, 1ᶠ 00 ; — 8 sacs en toile, 5ᶠ 00 ; — 1 hache, 2ᶠ 00 ; — 2 tarières, 2ᶠ 00. — Total, 16ᶠ 00.
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_9__141">
          VALEUR TOTALE des propriétés............ 11,372ᶠ 00
         </p>
@@ -874,14 +954,16 @@
           tion remarquable dans une commune du canton, la commune de Malicorne, pos¬esseur, actuellement encore, de 6l hectares de terrains, qui lui donnent un ravenu annuel de 5,489ᶠ 00. Aussi Malicorne penut-il entreprendre sagement la constrnuction d'un clocher, d'une école de filles et d'un pont, en recourant a un emprunt d 33,300ᶠ 00, amortissable en trente ans au moyen d'un prélèvement sur les revenus ci-dessus. Deux familles étrangères au pays et fixées à Malicorne, depnis peu de temps seulement, sont réduites à la mendicité.
          </p>
         </note>
-        de Commentry sont vendus depuis bien <pb facs="#facs_457" n="453" source="lesouvriersdesde916sociuoft_0491.xml"/> des années ; la plus grande partie en a été partagée ou aliénée de 1850 a 1875. Observons que le grand communal, appelé la Bouige, a servi d'eomplacement pour la construction de la halle et de l'église et a formé la grand'place.
+        de Commentry sont vendus depuis bien
+        <pb facs="#facs_457" n="453" source="lesouvriersdesde916sociuoft_0491.xml"/>
+        des années ; la plus grande partie en a été partagée ou aliénée de 1850 a 1875. Observons que le grand communal, appelé la Bouige, a servi d'eomplacement pour la construction de la halle et de l'église et a formé la grand'place.
        </p>
       </div>
       <div n="003" type="sub_sub_section">
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="ouvrier">
+       <div subtype="ouvrier" type="travaux">
         <p xml:id="para_9_453_155">
          Travaux de l'ouvrier. — L'ouvrier attaché au service de la Compa¬gnie des forges de Chàtillon et Commentry depuis trente-huit ans, si l'on veut bien faire abstraction des interruptions provoquées par deux circonstances de force majeure, exerce, depuis vingt-quatre ans, l'em¬ploi de chef étameur ; il est rémunéré directement
          <note type="bp">
@@ -907,12 +989,14 @@
          . La journée est de dix heures de travail effectif. L'ouvrier s'occupe seul, et par ma¬nière de récréaution, de l'entretien du petit jardin appartenant à son gendre, empêché par les nécessités de son commerce de le cultiver lui-même.
         </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_9_453_156">
-         Travaux de la femme. — C'est elle qui fait le marché, prépare les repas, soigne le mobilier, entretient et blanchit le linge, procêde à la lessive, soigne la petite basse-cour, confectionne et entretient tous les effets de femme. Lingère de sa profession, elle s'occupe aussi d'approvi<pb facs="#facs_458" n="454" source="lesouvriersdesde916sociuoft_0492.xml"/>sionner la malson de linge neuf. Elle élève des lapins, pour la consom¬mation du ménage. Elle achète au marché des petits poulets qu'elle conserve quelque temps, avant de les consommer. La consomma¬tion en poulets dépend du bénéfice résultant de l'écart entre le prix de la volaille et celui de la viande de boucherie. La mére a tenu pendant plusieurs années un café abandonne depuis quatre ans.
+         Travaux de la femme. — C'est elle qui fait le marché, prépare les repas, soigne le mobilier, entretient et blanchit le linge, procêde à la lessive, soigne la petite basse-cour, confectionne et entretient tous les effets de femme. Lingère de sa profession, elle s'occupe aussi d'approvi
+         <pb facs="#facs_458" n="454" source="lesouvriersdesde916sociuoft_0492.xml"/>
+         sionner la malson de linge neuf. Elle élève des lapins, pour la consom¬mation du ménage. Elle achète au marché des petits poulets qu'elle conserve quelque temps, avant de les consommer. La consomma¬tion en poulets dépend du bénéfice résultant de l'écart entre le prix de la volaille et celui de la viande de boucherie. La mére a tenu pendant plusieurs années un café abandonne depuis quatre ans.
         </p>
        </div>
-       <div type="travaux" subtype="jeunes_filles">
+       <div subtype="jeunes_filles" type="travaux">
         <p xml:id="para_9_5_161">
          Travaux des jeunes filles. — Germaine et Louise aident leur mère dans la confection de tous les vêtements et effets de lingerie de la famille, ̀l'exception des effets de toilette du chef de famille, achetés, confectionnés, dans le commerce local.
         </p>
@@ -931,9 +1015,11 @@
          .
         </p>
        </div>
-       <div type="industries" subtype="femmes">
+       <div subtype="femmes" type="industries">
         <p xml:id="para_9_5_164">
-         Quelques travaux de femme, spéciaux au pays (confection de flchus, passementeries et broderies) appellent une mention sommaire. Beau¬coup d'ouvrières sont appliquées à la confection de fichus de laine et peuvent gagner de 0ᶠ 40 a 1ᶠ ; encore n'atteignent-elles ce dernier chifre que lorsqu'elles sont à la journée. Cinquante personnes environ s'occu¬pent de passementeries ; le prix de la journée ordinaire est de 1ᶠ 25. Un nombre encore plus restreint d'ouvrières font quelques broderies ; leur journée ne va pas au delà de 1ᶠ 25. Les ouvroirs, confies aux soins des Religieuses enseignantes, occupent aux ouvrages de lingerie près de <pb facs="#facs_459" n="455" source="lesouvriersdesde916sociuoft_0493.xml"/> deux cents jeunes filles des familles d'ouvriers forgerons ou mineurs ; le montant de la journée est de 0ᶠ50à 1ᶠ.
+         Quelques travaux de femme, spéciaux au pays (confection de flchus, passementeries et broderies) appellent une mention sommaire. Beau¬coup d'ouvrières sont appliquées à la confection de fichus de laine et peuvent gagner de 0ᶠ 40 a 1ᶠ ; encore n'atteignent-elles ce dernier chifre que lorsqu'elles sont à la journée. Cinquante personnes environ s'occu¬pent de passementeries ; le prix de la journée ordinaire est de 1ᶠ 25. Un nombre encore plus restreint d'ouvrières font quelques broderies ; leur journée ne va pas au delà de 1ᶠ 25. Les ouvroirs, confies aux soins des Religieuses enseignantes, occupent aux ouvrages de lingerie près de
+         <pb facs="#facs_459" n="455" source="lesouvriersdesde916sociuoft_0493.xml"/>
+         deux cents jeunes filles des familles d'ouvriers forgerons ou mineurs ; le montant de la journée est de 0ᶠ50à 1ᶠ.
         </p>
        </div>
       </div>
@@ -957,13 +1043,17 @@
         .
        </p>
        <p xml:id="para_9__171">
-        L'habitude du pays, régulièrement suivie dans le ménage observé, est de faire trols repas par jour. Le premier est porté à l'ouvrier, dans une petite marmite en fer battu, par la ménagère ou l'une des jeunes lles qui entre aux étameries, à sept heures, au son de la cloche de l'établissement, en compagnie de plusieurs centuines de femmes : ce repas consiste, le plus souvent, en soupe ou café au lait ; l'ouvrier arrose volontiers, l'été, d'un verre de vin, ce repas pris au pied levé. La mère et ses filles font leur premier déjeuner aussi sommairement, entre sept heures et demie et huit heoures, dès qu'elles sont réunies. — L'ou¬vrier sort de l'usine à onze heures, et, dès son arrivée, on prend en <pb facs="#facs_460" n="456" source="lesouvriersdesde916sociuoft_0494.xml"/> famille, et assis, le principal repas, appelé déjeuner. Ce repas, dont la base habituelle est la soupe, souvent plantureusement accommodée aux choux, comporte, en outre, la viande avec légumes ou un autre plat à part, ou encore de la salade ; malgré son importance, le déjeuner doit être lestement enlevé par l'ouvrier qui est tenu de regagner l'atelier à midi. — Quand il rentre de son travail à six heures, il se nettoie et l'on se met à table pour le diner entre six heures et demie et sept heures, autour d'une soupe aux légumes à laquelle viennent s'ajouter les restes du déjeuner ou quelque morceau de fromage, ce dernier sur¬tout en été. En évitant une nouvelle cuisson, la mère et sa fille cadette peuvont appliquer l'après-midi entière aux soins du ménage et aux tra¬vaux de couture qui jouent un rôle important dans l'organisation de leur vie. La famille, sans exception, prend du vin au déjeuner et au diner qui, respectivement, seraient plus justement qualiiés de diner et de souper : cette consommation a son intérêt, puisque la famille, com¬posée de quatre personnes, consomme en moyenne sept hectolitres de vin par an ; les fatigues mêmes de sa profession contraignent, d'ailleurs, le chef de famille à absorber sensiblement plus de liquide que sa femme et ses filles.
+        L'habitude du pays, régulièrement suivie dans le ménage observé, est de faire trols repas par jour. Le premier est porté à l'ouvrier, dans une petite marmite en fer battu, par la ménagère ou l'une des jeunes lles qui entre aux étameries, à sept heures, au son de la cloche de l'établissement, en compagnie de plusieurs centuines de femmes : ce repas consiste, le plus souvent, en soupe ou café au lait ; l'ouvrier arrose volontiers, l'été, d'un verre de vin, ce repas pris au pied levé. La mère et ses filles font leur premier déjeuner aussi sommairement, entre sept heures et demie et huit heoures, dès qu'elles sont réunies. — L'ou¬vrier sort de l'usine à onze heures, et, dès son arrivée, on prend en
+        <pb facs="#facs_460" n="456" source="lesouvriersdesde916sociuoft_0494.xml"/>
+        famille, et assis, le principal repas, appelé déjeuner. Ce repas, dont la base habituelle est la soupe, souvent plantureusement accommodée aux choux, comporte, en outre, la viande avec légumes ou un autre plat à part, ou encore de la salade ; malgré son importance, le déjeuner doit être lestement enlevé par l'ouvrier qui est tenu de regagner l'atelier à midi. — Quand il rentre de son travail à six heures, il se nettoie et l'on se met à table pour le diner entre six heures et demie et sept heures, autour d'une soupe aux légumes à laquelle viennent s'ajouter les restes du déjeuner ou quelque morceau de fromage, ce dernier sur¬tout en été. En évitant une nouvelle cuisson, la mère et sa fille cadette peuvont appliquer l'après-midi entière aux soins du ménage et aux tra¬vaux de couture qui jouent un rôle important dans l'organisation de leur vie. La famille, sans exception, prend du vin au déjeuner et au diner qui, respectivement, seraient plus justement qualiiés de diner et de souper : cette consommation a son intérêt, puisque la famille, com¬posée de quatre personnes, consomme en moyenne sept hectolitres de vin par an ; les fatigues mêmes de sa profession contraignent, d'ailleurs, le chef de famille à absorber sensiblement plus de liquide que sa femme et ses filles.
        </p>
        <p xml:id="para_9__173">
         Les ouvriers des diférents services des usines de Commentry sont normalement répartis en deux grandes équipes alternativement de se¬maine, le jour et la nuit : le travail de nuit est beauucoup plus excep¬tionnel aux étameries. Les repas de l'ouvrier P* sont nécessairement modifiés, quand il « est de nuit . Il emporte, à six heures du soir, ce qu'il lui faut pour son repas, qui a lieu de onze heures à minuit et qui se compose généralement de pain, de ragoût de pommes de terre en haricot de mouton, ou de veau, de salade ou fromage, de soixante à soixante¬dix centilitres de vin. Il va sans dire qu'il prend un repas avant de se rendre au travail et un autre en rentrant chez lui, avant de se coucher. Les ouvriers des houillères ne font, pour ainsi dire, qu'un seul reopaes par jour, chez eux, à leur retour du travail. La plupart n'ont pas d'heure fixe pour le repas qu'ils font dans la mine et pour lequel ils se contentent le plus généralement de pain et de fromage, poussant la so¬briété jusqu'à se passer de vin.
        </p>
        <p xml:id="para_9__174">
-        La famille P* observe le maigre du vendredi et des quatre-temps : c'est, croyons-nous, un usage peu habituellement suivi. Les jeûnes et absti¬nences sont négligés par cette population ouvrière à laquelle l'autorité ecclésiaustique ne marchande pourtant pas les dispenses : Mgr l'évêque de Moulins a obtenu du Saint-Siège un indult l'exemptant, en caurême, <pb facs="#facs_461" n="457" source="lesouvriersdesde916sociuoft_0495.xml"/> du maigre du samedi. Il ne se trouve pourtant pas d'hommes qui pren¬draient des aliments gras, le vendredi saint.
+        La famille P* observe le maigre du vendredi et des quatre-temps : c'est, croyons-nous, un usage peu habituellement suivi. Les jeûnes et absti¬nences sont négligés par cette population ouvrière à laquelle l'autorité ecclésiaustique ne marchande pourtant pas les dispenses : Mgr l'évêque de Moulins a obtenu du Saint-Siège un indult l'exemptant, en caurême,
+        <pb facs="#facs_461" n="457" source="lesouvriersdesde916sociuoft_0495.xml"/>
+        du maigre du samedi. Il ne se trouve pourtant pas d'hommes qui pren¬draient des aliments gras, le vendredi saint.
        </p>
        <p xml:id="para_9__177">
         Ouvriers des forges et des houillères célèbrent, avec une touchante unanimité, la fête patronale de Commentry qui a lieu les dimanche et lundi suivant le 15 août, la fête nationale du 14 juillet, et aussi les fêtes de corporations de saint Eloi et de saint Thibaud
@@ -977,15 +1067,17 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITTATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_9__180">
          La maison, solidement bâtie en pierres et briques, a ses murs recou¬verts d'un enduit en mortier de chaux, elle est couverte en ardoises ; eile est très saine, bien située dans le voisinage des forges, à proximité des deux grandes places et du jeune ménage établi sur l'une d'elles, la place Martenot, et à l'alignement dans la rue Saint-Quirin, l'une des rues les plus fréquentées de la populeuse cité, qui s'ouvre sur la grande place dite place du 14 Juillet et aboutit au passage à niveau du chemin de fer privé des forges, sur la route qui conduit au vieux Commentry (bourg). Elle est exposée au midi ; quelques pots de feurs placés à la fenêtre de la chambre des jeunes filles qui donne sur la cour forment le jardin suspendu de la famille. Un plancher en très bon état forme le sol de l'habitation, auquel on accède par un escalier droit, en bois, qui dessert également, jusqu'au premier étage, la maison de gauche.
         </p>
         <p xml:id="para_9__181">
-         La maison se compose d'un rez-de-chaussée, d'un premier et d'un se¬cond étages, surmontés d'un très petit grenier. Au re-de-chaussée, trois pièces : la boutique, affectée au commerce d'un quincaillier chaudron¬nier, la cuisine et la chambre à la disposition du gendre, laquelle n'a été occupée qu'un mois par ses employés : le loyer de cette chambre n'a pas eté payé, l'ouvrier l'ayant pretée par complaisance ; un atelier ru¬dimentaire, éalement a l'usage du locataire, est établi dans la cour, sous un fort modeste appentis. Le quincaillier paye un loyer de 250ᶠ par an au ménage P***, qui occupe le reste de la maison. Ne quittons pas la cour sans signaler les latrines, fort convenables, à l'usage exclusif de <pb facs="#facs_462" n="458" source="lesouvriersdesde916sociuoft_0496.xml"/> la famille observée, faisant suite à l'atelier du locataire, et la cabine à la¬pins, surmontée du poulailler. Le premier et le second étage ont, cha¬cun, trois pièces claires, aérées, bien tenues : au premier, la cuisine et deux chambres meublées d'une façon bourgeoise, celle des époux don¬nant sur la rue, celle des jeunes filles prenant jour sur la cour ; au second étage, l'atelier de la couturière et deux chambres de secours, l'une, recevant pour la nuit deux tout jeunes apprentis de la maison d'épicerie G***, l'autre, attendant vraisemblablement le second gendre. Le grenier, auquel on accède par un escaulier faisant suite à celui con¬duisant aux mansardes, sert de débarras.
+         La maison se compose d'un rez-de-chaussée, d'un premier et d'un se¬cond étages, surmontés d'un très petit grenier. Au re-de-chaussée, trois pièces : la boutique, affectée au commerce d'un quincaillier chaudron¬nier, la cuisine et la chambre à la disposition du gendre, laquelle n'a été occupée qu'un mois par ses employés : le loyer de cette chambre n'a pas eté payé, l'ouvrier l'ayant pretée par complaisance ; un atelier ru¬dimentaire, éalement a l'usage du locataire, est établi dans la cour, sous un fort modeste appentis. Le quincaillier paye un loyer de 250ᶠ par an au ménage P***, qui occupe le reste de la maison. Ne quittons pas la cour sans signaler les latrines, fort convenables, à l'usage exclusif de
+         <pb facs="#facs_462" n="458" source="lesouvriersdesde916sociuoft_0496.xml"/>
+         la famille observée, faisant suite à l'atelier du locataire, et la cabine à la¬pins, surmontée du poulailler. Le premier et le second étage ont, cha¬cun, trois pièces claires, aérées, bien tenues : au premier, la cuisine et deux chambres meublées d'une façon bourgeoise, celle des époux don¬nant sur la rue, celle des jeunes filles prenant jour sur la cour ; au second étage, l'atelier de la couturière et deux chambres de secours, l'une, recevant pour la nuit deux tout jeunes apprentis de la maison d'épicerie G***, l'autre, attendant vraisemblablement le second gendre. Le grenier, auquel on accède par un escaulier faisant suite à celui con¬duisant aux mansardes, sert de débarras.
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_9__183">
          MEUBLES : tous achetés dans le commerce, en bon état et très bien tenus............ 1,312ᶠ 00
         </p>
@@ -1005,13 +1097,14 @@
          5° Mobilier de la mansarde affectée à la chambre à coucher des domestiques du gendre, épicier. — 1 guéridon en fer, 3ᶠ 00; — 1 tapis de table, 5ᶠ00 ; — 1 chaise en bon état, 3ᶠ 00 ; — 2 placards en bois blanc, réservés au linge usager, 5ᶠ 00; — 1 vierge en marbre, souvenir de famille (mémoire) ; — objets divers faisant gar¬niture a ladite statue, 3ᶠ 00. — Total, 19ᶠ 00.
         </p>
         <p xml:id="para_9_459_189">
-         <pb facs="#facs_463" n="459" source="lesouvriersdesde916sociuoft_0497.xml"/> 6° Mobilier des deux mansardes affectées à l'atelier de couture. — 1 table rectangulaire, recouverte de toile cirée, 15ᶠ 00 ; — 3 chaises en bon état, 9ᶠ 00. — Total, 24ᶠ 00.
+         <pb facs="#facs_463" n="459" source="lesouvriersdesde916sociuoft_0497.xml"/>
+         6° Mobilier des deux mansardes affectées à l'atelier de couture. — 1 table rectangulaire, recouverte de toile cirée, 15ᶠ 00 ; — 3 chaises en bon état, 9ᶠ 00. — Total, 24ᶠ 00.
         </p>
         <p xml:id="para_9_459_191">
          7° Livres et fournitures de bureau. — Dictionnaire, géographie, arithmétique et plusieurs livres d'instruction élémentaire, 5ᶠ 00 ; — 3 livres de messe, 2ᶠ50 ; — encrier, plumes, crayons, papier et enveloppes pour lettres, 2ᶠ50. — Total, 10ᶠ 00.
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_9_459_192">
          LINGE DE MÉNAGE : en bon état, entretenu et raccommodé avec soin............ 504ᶠ 00
         </p>
@@ -1019,7 +1112,7 @@
          24 paires de draps, 380ᶠ 00; — 6 douzaines de serviettes, 40ᶠ 00; — 2 nappes. 12ᶠ 00 ; — 6 douzaines de torchons, 25ᶠ 00 ; — 8 taies d'oreiller, 15ᶠ 00 ; — 5 paires de rideaux de fenêtres, 12ᶠ 00; — 20 mètres de calicot blanc, en provision pour les besoins du ménage, 20ᶠ 00. — Total, 504ᶠ 00.
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_9_459_194">
          USTENSILES : généralement en bon état, ils comprennent tous les articles de cuisine et de table nécessaires pour recevoir honorablement plusieurs amis............ 244ᶠ 15
         </p>
@@ -1042,7 +1135,7 @@
          6° Employés pour usages divers. — 6 saloirs en grès, 6ᶠ 00 ; — 1 banc de bois avec pieds en fonte, 5ᶠ 00 ; — 2 paniers en jonc, 4ᶠ 00 ; — 1 garde-manger, 3ᶠ00 ; — 12 pots à confitures, 3ᶠ 00; — 2 bocaux, 1ᶠ 50 ; — 1 service à thé, 10ᶠ 00; — 1 service à café, 8ᶠ 00 ; — 1 arrosoir, 2ᶠ 50. — Total, 43ᶠ00.
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_9_459_205">
          VÊTEMENTS
          <note type="bp">
@@ -1057,14 +1150,19 @@
          : en bon état, soigneusement raccommodés ; les jeunes filles sont mises avec un certain luxe. Les vêtements de la famille indi¬quent une aisance qui dépasse la moyenne............ 2,040ᶠ25
         </p>
         <p xml:id="para_9_460_207">
-         <pb facs="#facs_464" n="460" source="lesouvriersdesde916sociuoft_0498.xml"/> VÊTEMENTS DE L'OUVRIER
+         <pb facs="#facs_464" n="460" source="lesouvriersdesde916sociuoft_0498.xml"/>
+         VÊTEMENTS DE L'OUVRIER
          <ref target="#part_02_05_16" type="renvoi_int_mono">
           (voir le détail au § 16, Son I)
          </ref>
          , 600ᶠ 00.
         </p>
         <p xml:id="para_9_460_208">
-         VÊTEMENTS DE LA FBMME <ref target="#part_02_05_16" type="renvoi_int_mono">(§ 16, I)</ref>, 561ᶠ25.
+         VÊTEMENTS DE LA FBMME
+         <ref target="#part_02_05_16" type="renvoi_int_mono">
+          (§ 16, I)
+         </ref>
+         , 561ᶠ25.
         </p>
         <p xml:id="para_9_460_209">
          VÊTEMENTS DES JEUNEs FILLES
@@ -1074,7 +1172,7 @@
          , 879ᶠ 00.
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_9_460_210">
          VALEUR TOTALE du mobilier et des vêtements............ 4,100ᶠ40
         </p>
@@ -1091,7 +1189,9 @@
         Le jeunes filles de Commentry sont passionnées pour les danses qui, là comme dans tous les centres populaires, présentent les plus graves inconvénients. Notre ménagère, ignorant la danse, n'a pu l'enseigner à ses filles et n'a pas voulu qu'elles fussent plus instruites qu'elle dans cette branche dangereuse de connaissances. Quelques jeux de boules et de quilles, dont les mises en argent sont des plus modestes, permettent aux hommes de la contrée de manifester souvent une véritable adresse. Une société de gymnastique fonctionne depuis tantôt deux ans à Com¬mentry et recrute, lù comme ailleurs, une jeunesse bruyante, plus dis¬posée à parader qu'à développer son agilité.
        </p>
        <p xml:id="para_9_460_216">
-        La famille Pᵉᵉ n'a pas l'habitude de prendre des spiritueux. Le chef de famille, seul, consomme par mois, et à domicile, un litre envi¬ron d'eau-de-vie. La famille prend, en moyenne, deux litres de vin par jour. L'ouvrier n'use pas de narcotiques, ne prisant pas, ne fumant pas <pb facs="#facs_465" n="461" source="lesouvriersdesde916sociuoft_0499.xml"/> un cigare par an, risquant aè peine, et de loin en loin, une cigarette de complaisance en compagnie d son gendre ou d'un ami.
+        La famille Pᵉᵉ n'a pas l'habitude de prendre des spiritueux. Le chef de famille, seul, consomme par mois, et à domicile, un litre envi¬ron d'eau-de-vie. La famille prend, en moyenne, deux litres de vin par jour. L'ouvrier n'use pas de narcotiques, ne prisant pas, ne fumant pas
+        <pb facs="#facs_465" n="461" source="lesouvriersdesde916sociuoft_0499.xml"/>
+        un cigare par an, risquant aè peine, et de loin en loin, une cigarette de complaisance en compagnie d son gendre ou d'un ami.
        </p>
        <p xml:id="para_9__218">
         La mère et ses filles, habituellement privées de la société du chef de famille, à la veillée, parce que, si celui-ci n'est employé au service de nuit des étameries, il est pressé de se reposer des fatigues de son tra¬vail du jour, consacrent aux travaux de couture leurs soirées de se¬maine : parfois, l'une des jeunes filles lit à haute voix quelque livre de lecture prêté par la bibliothèque des Surs ou les nouvelles les plus saillantes du Petit Journa : c'est lù la lecture favorite de notre ouvrier, dans ses rares moments de loisir. Les fêtes de la famille se résument dans la célébration des anniversaires de naissance de l'ouvrier et de sa femme
@@ -1113,7 +1213,9 @@
         Les métallurgistes et les mineurs fêtent solennellement leurs patrons, avec le concours de leurs fanfares. La fête patronale de la ville a lieu le dimanche qui suit l'Assomption.
        </p>
        <p xml:id="para_9__221">
-        Les foires de Commentry et de quelques villages environnants atti<pb facs="#facs_466" n="462" source="lesouvriersdesde916sociuoft_0500.xml"/>raient, quand elles étaient moins nombreuses, une plus grande partie de la population des campagnes, et déterminaient plus de transactions. On les a trop multipliées, au détriment des principaux intéressés, dont les occasions de dépenses sont augmentées sans autre raison que l'in¬térêt des cabaretiers.
+        Les foires de Commentry et de quelques villages environnants atti
+        <pb facs="#facs_466" n="462" source="lesouvriersdesde916sociuoft_0500.xml"/>
+        raient, quand elles étaient moins nombreuses, une plus grande partie de la population des campagnes, et déterminaient plus de transactions. On les a trop multipliées, au détriment des principaux intéressés, dont les occasions de dépenses sont augmentées sans autre raison que l'in¬térêt des cabaretiers.
        </p>
        <p xml:id="para_9__224">
         Les cafés et auberges, au nombre de quatre-vingt-dix pour une popu¬lation agglomérée qui ne dépasse guère neui mille habitaunts, sont, à fort peu d'exceptions près, de véritables clubs où sont ouvertement prô¬nées la guerre au capital et les pires théories socialistes : il s'y fait beaucoup de mal et l'on peut dire, sans exagération, qu'ils provoquent de grands ravages dans les esprits. Notre ouvrier, dont le débit était le cent seizième, quand il demanda l'autorisation de police en 1879 — tous les genres de commerce sont compris dans ce chiffre — est un mauvais client pour les cafés : il n'y met pas les pieds dix fois par an. Les cafés¬concerts augmentent et accentuent l'œuvre de démoralisation dont il vient d'ètre parlé ; ce genre de récréation, malsain et habituellement stupide, fait de constants progrès dans la localité.
@@ -1129,7 +1231,9 @@
         . — Comme dans la plu¬part des centres ouvriers, le braconnage est extrêmement répandu à Commentry : le lacet est manié dextrement par un grand nombre d'habi¬tants et les lapins y regcoivet bien des cravates, pour reprendre l'expression imagée, familière aux braconniers. Eugène n'a jamais pra¬tiqué le braconnage.
        </p>
        <p xml:id="para_9__227">
-        La musique est en honneur dans le pays. On compte, à Commentry. <pb facs="#facs_467" n="463" source="lesouvriersdesde916sociuoft_0501.xml"/> jusqu'ù trois sociétés musicaules : une société philharmonique, spéciale¬ment composée d'ouvriers forgerons, la plus ancienne ; elle reçoit une subvention annuelle de 500ᶠ de la Compagnie des forges, qui lui accorde, en outre, gratuitement, un local éclairé et chauffé pour ses répétitions ; la fanfare, et une symphonie, formée de tous éléments pris à la ville et indépendants. Ces trois corps de musique, qui disposent d'une centaine d'exécutants, vont jouer à l'église, à l'occasion des grandes solennités. La symphonie y joue à l'occasion de la Sainte-Cécile.
+        La musique est en honneur dans le pays. On compte, à Commentry.
+        <pb facs="#facs_467" n="463" source="lesouvriersdesde916sociuoft_0501.xml"/>
+        jusqu'ù trois sociétés musicaules : une société philharmonique, spéciale¬ment composée d'ouvriers forgerons, la plus ancienne ; elle reçoit une subvention annuelle de 500ᶠ de la Compagnie des forges, qui lui accorde, en outre, gratuitement, un local éclairé et chauffé pour ses répétitions ; la fanfare, et une symphonie, formée de tous éléments pris à la ville et indépendants. Ces trois corps de musique, qui disposent d'une centaine d'exécutants, vont jouer à l'église, à l'occasion des grandes solennités. La symphonie y joue à l'occasion de la Sainte-Cécile.
        </p>
       </div>
      </div>
@@ -1149,10 +1253,14 @@
         , vint s'installer dans la localité en octobre 1852. Dês le commencement de 1853, Eugene P*, âgé de treie ans, travailla, en compagnie de ses frères aînés et de plusieurs de ses parents, aux étameries où il gagnait vingt sous par jour. Son service ininterrompu, pour ainsi dire, aux étameries de Com¬mentry où il s'est élevé aux fonctions de chef de chantier qu'il remplit depuis vingt-quatre ans, l'exercice de la profession d'étameur par sa famille comme par la famille de sa femme, l'élévation progressive du ménage au rang de propriétaire, par la régularité du travail et l'esprit d'ordre des époux, les judicieuses qualités de la ménagère, l'assiette ainsi conquise dans le pays, nous ont déterminé à prendre la famille pᵉ pour sujet de cette monographie.
        </p>
        <p xml:id="para_9_463_233">
-        L'ouvrier est né au Clerjus (Vosges) en 1840. Le père, Jean-BaptistePᵉ ouvrier de carrière à la Chaudeau, situé dans la laute-Saone à quel¬ques kilomètres du Clerjus, a été prématurément enlevé par la fièvre typhoide, dans son pays natal, à l'age de quarante-quatre ans ; il avait été occupé aux forges de Commentry, les trois dernières années de son existence (184547). Eugène, le huitieme d'une famille de neuf enfants, cinq filles et quatre garçons, étauit dans sa sixième année, quand il <pb facs="#facs_468" n="464" source="lesouvriersdesde916sociuoft_0502.xml"/> perdit son père ; depuis, ila perdu trois sœurs et un frère. Auguste, Nicolas, Joséphine et Adélaide, respectivement âgés de soixante-deux, cinquante¬sept, cinquante-deux et quarante-six ans, vivent encore, les trois premiers mariés, la dernière, veuve depuis six ans, tous établis dans la localité. — La femme Prᵉᵉ, dont le père fut ouvrier aux mêmes forges de Commentry, à la fonderie, puis aux hauts-fourneaux (depuis 1887, il est retraité de son service), a trois frères et surs vivants : Pierre, âgé de cinquante-deux ans, mouleur à l'atelier de construction de la Ville-Gozet dépendant de l'usine Saint-Jacques, de Montlucon, qui appartient aussi à la Compagnie de Chatillon et Commentry ; Élise, âgée de quarante ans, femme de chambre et non mariée ; Joseph, âgé de trente-sept ans, marié et, comme son beau-frère, chef de chantier aux étameries de Commentry. — La mère de l'ouvrier avait huit frères et œurs, une de ses sœurs a huit enfants vivants.
+        L'ouvrier est né au Clerjus (Vosges) en 1840. Le père, Jean-BaptistePᵉ ouvrier de carrière à la Chaudeau, situé dans la laute-Saone à quel¬ques kilomètres du Clerjus, a été prématurément enlevé par la fièvre typhoide, dans son pays natal, à l'age de quarante-quatre ans ; il avait été occupé aux forges de Commentry, les trois dernières années de son existence (184547). Eugène, le huitieme d'une famille de neuf enfants, cinq filles et quatre garçons, étauit dans sa sixième année, quand il
+        <pb facs="#facs_468" n="464" source="lesouvriersdesde916sociuoft_0502.xml"/>
+        perdit son père ; depuis, ila perdu trois sœurs et un frère. Auguste, Nicolas, Joséphine et Adélaide, respectivement âgés de soixante-deux, cinquante¬sept, cinquante-deux et quarante-six ans, vivent encore, les trois premiers mariés, la dernière, veuve depuis six ans, tous établis dans la localité. — La femme Prᵉᵉ, dont le père fut ouvrier aux mêmes forges de Commentry, à la fonderie, puis aux hauts-fourneaux (depuis 1887, il est retraité de son service), a trois frères et surs vivants : Pierre, âgé de cinquante-deux ans, mouleur à l'atelier de construction de la Ville-Gozet dépendant de l'usine Saint-Jacques, de Montlucon, qui appartient aussi à la Compagnie de Chatillon et Commentry ; Élise, âgée de quarante ans, femme de chambre et non mariée ; Joseph, âgé de trente-sept ans, marié et, comme son beau-frère, chef de chantier aux étameries de Commentry. — La mère de l'ouvrier avait huit frères et œurs, une de ses sœurs a huit enfants vivants.
        </p>
        <p xml:id="para_9_464_235">
-        Eugène ne quitta les forges que durant les années 1857 et 1858 qui correspondent à l'arrêt du service des étameries dans la loca¬lité : les frères et sœurs de l'ouvrier résidèrent pendant ces deux années à lmphy (Nièvre), où Eugène exercauit la même profession que ses frères. Il venait de tirer au sort quand il épousa, en janvier 1861, Anne B, originaire de Decize (Nièvre), qui avait vingt ans et exercait la profession de lingère. Notre future ménagère résidait à Commentry depuis 1843 avec sa famille ; et la jeune lingère, elle aussi, travailla de bonne heure, puisqu'elle allait en journée dès l'âge de quatore ans. Les braves jeunes gens n'avaient pas encore réalisé de bien sérieu¬ses économies, leurs porte-monnaie réunis accusaient, le jour de leurs noces, un avoir de 83ᶠ 001 Mais on n'avait pas de dettes et puis, ne s'était-on pas assuré de profondes réserves de régularité, de travail, d'ordre, d'économie, toutes qualités maîtresses autant que fécondes Dans de telles conditions pécuniaires, l'entrée en ménage n'était pas précisément brillante ; toutefois, chacun des époux avait une profession sérieuse, de la moralité, ses dix doigts et bonne envie de réussir. Tous deux se mirent en état d'élever convenablement leurs trois filles, Philo¬mène, Germaine et Louise : les dépenses de leur éducation peuvent être évaluées à 250ᶠ 00. Ils ont marié l'aînée de leurs filles, Philomène, à un intelligent épicier de Commentry, M. G°, qui est en voie de réussir, et ils lui ont donné 2,000ᶠ 00 pour son établissement. Aidés par les Sœurs de l'école libre des forges, ils ont assuré un brevet d'institutrice à Germaine, leur seconde fille, et n'ont pas reculé devant une dépense de 150ᶠ 00 pour la conduire chercher à Guéret un brevet ardemment ambitionné. Ils ont <pb facs="#facs_469" n="465" source="lesouvriersdesde916sociuoft_0503.xml"/> mis aux mains de Louise, leur fille cadette, l'état de couturière ; son apprentissage, qui leur a coûté 60ᶠ 00, met cette jeune personne à même de se sufire, dans un délai que l'on peut dès aujourd'hui prevoir.
+        Eugène ne quitta les forges que durant les années 1857 et 1858 qui correspondent à l'arrêt du service des étameries dans la loca¬lité : les frères et sœurs de l'ouvrier résidèrent pendant ces deux années à lmphy (Nièvre), où Eugène exercauit la même profession que ses frères. Il venait de tirer au sort quand il épousa, en janvier 1861, Anne B, originaire de Decize (Nièvre), qui avait vingt ans et exercait la profession de lingère. Notre future ménagère résidait à Commentry depuis 1843 avec sa famille ; et la jeune lingère, elle aussi, travailla de bonne heure, puisqu'elle allait en journée dès l'âge de quatore ans. Les braves jeunes gens n'avaient pas encore réalisé de bien sérieu¬ses économies, leurs porte-monnaie réunis accusaient, le jour de leurs noces, un avoir de 83ᶠ 001 Mais on n'avait pas de dettes et puis, ne s'était-on pas assuré de profondes réserves de régularité, de travail, d'ordre, d'économie, toutes qualités maîtresses autant que fécondes Dans de telles conditions pécuniaires, l'entrée en ménage n'était pas précisément brillante ; toutefois, chacun des époux avait une profession sérieuse, de la moralité, ses dix doigts et bonne envie de réussir. Tous deux se mirent en état d'élever convenablement leurs trois filles, Philo¬mène, Germaine et Louise : les dépenses de leur éducation peuvent être évaluées à 250ᶠ 00. Ils ont marié l'aînée de leurs filles, Philomène, à un intelligent épicier de Commentry, M. G°, qui est en voie de réussir, et ils lui ont donné 2,000ᶠ 00 pour son établissement. Aidés par les Sœurs de l'école libre des forges, ils ont assuré un brevet d'institutrice à Germaine, leur seconde fille, et n'ont pas reculé devant une dépense de 150ᶠ 00 pour la conduire chercher à Guéret un brevet ardemment ambitionné. Ils ont
+        <pb facs="#facs_469" n="465" source="lesouvriersdesde916sociuoft_0503.xml"/>
+        mis aux mains de Louise, leur fille cadette, l'état de couturière ; son apprentissage, qui leur a coûté 60ᶠ 00, met cette jeune personne à même de se sufire, dans un délai que l'on peut dès aujourd'hui prevoir.
        </p>
       </div>
       <div n="002" type="sub_sub_section">
@@ -1167,7 +1275,9 @@
         . ÉEconome, prévoyante et ordonnée en toutes choses, la ménagère a saugement conduit son intérieur et surveillé la bonne éducation de ses filles ; tous deux jouissent de cette santé satisfaisante qui est habituellement le prix d'une vie régulière et ils ont rapidement fauit des épargnes qui leur ont permis d'acheter, dès 1888, une maison de5,000ᶠ 00, et leur laissent un actif de pres de 6,000ᶠ 00. C'est ainsi que nous sommes amené à relever, pour le budget qui nous occupe, une épargne de155ᶠ80. La bonne entente, la concorde, l'harmonie du ménage ont directement coopéré à ces résultats. Les principes sûrs, les sentimentsreligieux qu'ils ont reçus de leurs familles et soigneusement transmis à leurs enfants, constituent le meilleur de leur patrimoine et la plus solide garantie de leur bonheur. Que le ménage vienne à traverser des circonstances dificiles, l'estime et la considération dont l'entourent les familles de patrons et d'ouvriers de la locaulité lui assuraraient cet appui qui fait rarement défaut aux honnêtes gens. Voilà certes de sé¬rieux éléments de sécurité1
        </p>
        <p xml:id="para_9_165_240">
-        Pour nous conformer à l'exactitude requise dans ce travail, il convient de mentionner deux griefs, malheureusement imputables à la classe ouvrière prise dans sa généralité ; les habitudes de ce milieu, sans excuser la famille observée, seront d'ailleurs justement invoquées ici, à titre de circonstances atténuantes ; les classes populaires, en effet, se laissent souvent séduire par le double mirage des gros dividendes dans leurs spéculations financières et des professions libérales pour leurs enfants. Ainsi, la famille P*ᵉ°, aséduite par un remboursement de capitaul que la Société du canal interocéanique de Panama faisait bruyamment sonner en mars 1888, acheta trois obligations à 6 % qui, vraisemblable<pb facs="#facs_470" n="466" source="lesouvriersdesde916sociuoft_0504.xml"/>ment, n'auront qu'une valeur etive pour elle
+        Pour nous conformer à l'exactitude requise dans ce travail, il convient de mentionner deux griefs, malheureusement imputables à la classe ouvrière prise dans sa généralité ; les habitudes de ce milieu, sans excuser la famille observée, seront d'ailleurs justement invoquées ici, à titre de circonstances atténuantes ; les classes populaires, en effet, se laissent souvent séduire par le double mirage des gros dividendes dans leurs spéculations financières et des professions libérales pour leurs enfants. Ainsi, la famille P*ᵉ°, aséduite par un remboursement de capitaul que la Société du canal interocéanique de Panama faisait bruyamment sonner en mars 1888, acheta trois obligations à 6 % qui, vraisemblable
+        <pb facs="#facs_470" n="466" source="lesouvriersdesde916sociuoft_0504.xml"/>
+        ment, n'auront qu'une valeur etive pour elle
         <ref target="#part_02_02_06" type="renvoi_int_mono">
          (§ 6)
         </ref>
@@ -1199,7 +1309,8 @@
         NOTE SUR L'ÉTAT DE LA FAMILLE EN 1905
        </head>
        <p xml:id="para_9_4167_247">
-        <pb facs="#facs_471" n="467" source="lesouvriersdesde916sociuoft_0505.xml"/> Seize ans après, au moment où l'auteur met la dernière main à une monographie interrompue par la retraite et le décès de son regretté père et par des travaux personnels pressants, des changements considérables sont survenus dans l'état de la famille observée.
+        <pb facs="#facs_471" n="467" source="lesouvriersdesde916sociuoft_0505.xml"/>
+        Seize ans après, au moment où l'auteur met la dernière main à une monographie interrompue par la retraite et le décès de son regretté père et par des travaux personnels pressants, des changements considérables sont survenus dans l'état de la famille observée.
        </p>
        <p xml:id="para_9_4167_248">
         Les voici condensés en quelques lignes.
@@ -1480,7 +1591,8 @@
         § 17. SUR LES ORIGINES DE COMMENTRY, LA FORMATION DE LA CITÉ INDUSTRIELLE ET LA POPULTION.
        </head>
        <p xml:id="para_9__321">
-        <pb facs="#facs_482" n="478" source="lesouvriersdesde916sociuoft_0516.xml"/> Etymologie. — Chazaud, en son dictionnaire des noms de lieux habi¬tés du département de l'Allier, désigne Commentry — qui s est aussi écrit Commentri — du nom latin de ˉCommentriaceus, trouvé dans des archives qui remontent à 1097.
+        <pb facs="#facs_482" n="478" source="lesouvriersdesde916sociuoft_0516.xml"/>
+        Etymologie. — Chazaud, en son dictionnaire des noms de lieux habi¬tés du département de l'Allier, désigne Commentry — qui s est aussi écrit Commentri — du nom latin de ˉCommentriaceus, trouvé dans des archives qui remontent à 1097.
        </p>
        <p xml:id="para_9__322">
         Certains auteurs lui donnent une origine celtique (Iombant-Regez) : ombaut ou oumbaut (vallée, vallon), Regez (braise, charbon), ce qui tendrait à faire supposer que le charbon a été connu de très bonne heure à Commentry où il se trouvait presque à fleur de terre ; de plus, le bourg primitif de Commentry se trouve dans une vallée. Sans être certaine, cette étymologie offre quelque probabilité.
@@ -1489,7 +1601,8 @@
         Origines. — Commentry, ˉCommentriacus, dans la langue romaine, d'après des documents se rapportant au x siecle, avait quatre-vingt¬dix-huit feux en 1569. Si nous nous référons au témoignage du sire de Nicolai, chargé, en qualité de géographe du roi Charles IX, de relever les revenus des paroisses edu Bourbonnais, cette localité, qui était une paroisse de la chàtellenie de Murat et du siège de Malicorne, comptait alors une population de 400 habitants environ, groupée sur les bords de
        </p>
        <p xml:id="para_9__325">
-        <pb facs="#facs_483" n="479" source="lesouvriersdesde916sociuoft_0517.xml"/> Ell, au pled de la cité actuelle qui ne compte pas plus d'un dami¬
+        <pb facs="#facs_483" n="479" source="lesouvriersdesde916sociuoft_0517.xml"/>
+        Ell, au pled de la cité actuelle qui ne compte pas plus d'un dami¬
        </p>
        <p xml:id="para_9__326">
         Au point de vue de la circonsoription eocclésiastique Commèntry paralt avoir appartenu primitivement au territoire des Bituriges. Jus¬qu'à la Révolution, ctte paroisse fut enclavée dans le diooêse de Bourges, dont les limites ne diféraient pas sensiblement de celles de la trlbu gauuloise des Bituriges. En efet, le Bourbonnais était formé, en partie, de l'ancien tarritoire des Arvernes, en partie de l'ancien terri¬toire des Blturiges et de quelques portione du territoire des Edues; auss se partaugeait-ll jusqu'alors entre les trois diocèes de Boure, de Clermont et d'Autun. Commentry, situé ̀ l'extrémié sud du premier de ces diocèses, était peu éloigné des confins de celui de Clermont.
@@ -1505,7 +1618,9 @@
         <ref target="#part_02_01_03" type="renvoi_int_mono">
          (§ 3)
         </ref>
-        . Nous tenons d'un témoin oculaire de nos ami qu'll a vu, en 185, deux pu1s dont les <pb facs="#facs_484" n="480" source="lesouvriersdesde916sociuoft_0518.xml"/> noms sont encore présents a sa mémoire : Sainte-Marguerite et TUion, dont on extrayait le charbon, à l'aide de chevaux : le gros charbon était conduit par voitures au canal de Montlucon ; quelques hectolitres de fin étauient vendus aux forgerons et aux maréchaux fer¬rants des environs, et « le reste servait à arranger les chemins.  En 1840, le feu se déclara dans la houillere, avec une intensité qui ne diminua pas avant 1853 ; il fallut, pour éteindre cet épouvantable incendie, détourner à grands frais une rivière, la Baunie : les premières machines à vapeur que l'on vit dans le pays furent établies pour épui¬ser l'immense amas d'eaux accumulées dans les galeries. La réverbéra¬tion de l'incendie a été' observée du pont de Moulins, distant de vingt lieues : le feu grondait, comme une lave bouillante, dans les profon¬deurs d'immenses crevasses, des gerbes de flammes s'élevaient à une vingtaine de mètres au-dessus du sol ; les curieux accouraient de très loin et les baigneurs de Néris sont actuellement encore exploités par les loueurs de voitures de la station thermale qui leur font payer bien cher le plaisir de contempler la place....
+        . Nous tenons d'un témoin oculaire de nos ami qu'll a vu, en 185, deux pu1s dont les
+        <pb facs="#facs_484" n="480" source="lesouvriersdesde916sociuoft_0518.xml"/>
+        noms sont encore présents a sa mémoire : Sainte-Marguerite et TUion, dont on extrayait le charbon, à l'aide de chevaux : le gros charbon était conduit par voitures au canal de Montlucon ; quelques hectolitres de fin étauient vendus aux forgerons et aux maréchaux fer¬rants des environs, et « le reste servait à arranger les chemins.  En 1840, le feu se déclara dans la houillere, avec une intensité qui ne diminua pas avant 1853 ; il fallut, pour éteindre cet épouvantable incendie, détourner à grands frais une rivière, la Baunie : les premières machines à vapeur que l'on vit dans le pays furent établies pour épui¬ser l'immense amas d'eaux accumulées dans les galeries. La réverbéra¬tion de l'incendie a été' observée du pont de Moulins, distant de vingt lieues : le feu grondait, comme une lave bouillante, dans les profon¬deurs d'immenses crevasses, des gerbes de flammes s'élevaient à une vingtaine de mètres au-dessus du sol ; les curieux accouraient de très loin et les baigneurs de Néris sont actuellement encore exploités par les loueurs de voitures de la station thermale qui leur font payer bien cher le plaisir de contempler la place....
        </p>
        <p xml:id="para_9_480_331">
         La mine de Commentry a commencé à prendre du développement lors de la création du petit chemin de fer à voie étroite qui la relia au port de Montluçon, canal du Berry. Mais sa prospérité remonte à l'époque oû la réunion s'est faite, en une seule Société, des houillères de Com¬mentry à l'usine Guérin, de Montlucon, devenue plus tard l'usine Forey, et aux établissementrs métallurgiques de rFourchambault, de Torteron, d'Imphy, les deux premiers aujourd'hui abandonnés.
@@ -1520,7 +1635,9 @@
         De 1820 a 1825, une verrerie et une manufacture de glaces s'établirent sur l'emplacementdes forges et hauts-fourneaux actuels. La Compagnie de Saint-Gobain racheta ces établissements, qui ;ne fabriquaient que de mauvais verres et de mauvaises glaces, pour les mettre en chômage, et elle les revendit à un notaire du pays, Mᵉ Burjaud, sous condition de ne plus fabriquer.
        </p>
        <p xml:id="para_9_480_335">
-        C'est sur les entrefaites que lesdits bâtiments furent cédés, en 1843, à MM. Martenot frères, Palotte et C°, qui les transformèrent en un établis<pb facs="#facs_485" n="481" source="lesouvriersdesde916sociuoft_0519.xml"/>sement métallurgique destiné, dans la pensée des fondateurs, à la fabri¬cation des fers laminés et des rails.
+        C'est sur les entrefaites que lesdits bâtiments furent cédés, en 1843, à MM. Martenot frères, Palotte et C°, qui les transformèrent en un établis
+        <pb facs="#facs_485" n="481" source="lesouvriersdesde916sociuoft_0519.xml"/>
+        sement métallurgique destiné, dans la pensée des fondateurs, à la fabri¬cation des fers laminés et des rails.
        </p>
        <p xml:id="para_9__337">
         Les matières premières qu'ils avaient à leur disposition étaient les minerais du Berry et les houilles de Commentry, puis celles de Bézenet et de Doyet.
@@ -1541,7 +1658,9 @@
         Quant aux houillères de Commentry, leur production touche à sa fin. L'unique puits d'extraction actuel a été fait pour exploiter les anciens massifs de protection, réservés autrefois pour maintenir la solidité des terrains autour des anciens puits d'extraction abandonnés.— Il y avait six puits d'extraction en 1890 ; il n'y en a qu'un en 1904. — Les houilleres occupaient, en 1890, 1,30 employés et ouvriers ; elles en occupaient 1,000 en 1904.
        </p>
        <p xml:id="para_9__343">
-        ˉPopulation. — La population, de 600 habitants en 1790, resta long<pb facs="#facs_486" n="482" source="lesouvriersdesde916sociuoft_0520.xml"/>temps stationnaire : elle n'était que de 604 en 1823. L'installation des houillères et des usines lui valait, en 1851, 5,465 habitants ; en 1881, 12,416 habitants, dont 9,394 de population glomérée ; en 1891, 12,529
+        ˉPopulation. — La population, de 600 habitants en 1790, resta long
+        <pb facs="#facs_486" n="482" source="lesouvriersdesde916sociuoft_0520.xml"/>
+        temps stationnaire : elle n'était que de 604 en 1823. L'installation des houillères et des usines lui valait, en 1851, 5,465 habitants ; en 1881, 12,416 habitants, dont 9,394 de population glomérée ; en 1891, 12,529
         <note type="bp">
          <p>
           Les chifres du recensement de 1891 se décomposent ainsi : sexe masculin, de 0 à 17 ans, 2,20 ; de I8 et au-dessus, 3,948 6,I52. — Sexe feminin, de 0 à 1I5 ans, 1,866 ; de 16 et au-dsssus.,5ll 6,377.
@@ -1565,7 +1684,8 @@
         Le mineur est habituellament économe. — Le forgeron dépanse au jour le jour.
        </p>
        <p xml:id="para_9__352">
-        <pb facs="#facs_487" n="483" source="lesouvriersdesde916sociuoft_0521.xml"/> Les mineurs des autres centres industriels ne sont pas plas economes que les forgerons. Il convient d'attribuer l'aprlt d'epargne des mineur8 du pays à ce fait que la population minière est indigène, tandis que les forgerons forment une population moins lxe
+        <pb facs="#facs_487" n="483" source="lesouvriersdesde916sociuoft_0521.xml"/>
+        Les mineurs des autres centres industriels ne sont pas plas economes que les forgerons. Il convient d'attribuer l'aprlt d'epargne des mineur8 du pays à ce fait que la population minière est indigène, tandis que les forgerons forment une population moins lxe
         <ref target="#part_02_01_01" type="renvoi_int_mono">
          (§ 1ᵉʳ)
         </ref>
@@ -1598,7 +1718,8 @@
         Voici, succinctement, coœment se fabique le fer-blanc. On désigne ous ce nom des plaques minces en fer o en acer doxt, recouvertes dune légère couche d'étain. Pour fabriquer la tôle a fer-blanc, on se ert, en général, de fer préparé au charbon de bois.
        </p>
        <p xml:id="para_9_484_362">
-        <pb facs="#facs_488" n="484" source="lesouvriersdesde916sociuoft_0522.xml"/> Cette fabrication comprend deux opérations bien distinctes. La pre¬mière consiste à transformer en plaques minces des barres de fer ou d'acier doux. C'est le laminage. Depuis que le fer-blanc n'est plus fabri¬qué avec du fer, mais avec de l'acier doux, la quantité d'ouvriers qui sont employés à cette fabrication a sensiblement diminué, par suite de la suppression de l'opération du « puddlage . La seconde a pour objet de recouvrir les plaques d'une couche d'étain. C'est l'etamage.
+        <pb facs="#facs_488" n="484" source="lesouvriersdesde916sociuoft_0522.xml"/>
+        Cette fabrication comprend deux opérations bien distinctes. La pre¬mière consiste à transformer en plaques minces des barres de fer ou d'acier doux. C'est le laminage. Depuis que le fer-blanc n'est plus fabri¬qué avec du fer, mais avec de l'acier doux, la quantité d'ouvriers qui sont employés à cette fabrication a sensiblement diminué, par suite de la suppression de l'opération du « puddlage . La seconde a pour objet de recouvrir les plaques d'une couche d'étain. C'est l'etamage.
        </p>
        <p xml:id="para_9_484_363">
         ˉLaminage. — Autrefois, les plaques minces destinées à l'étamage étaient obtenues avec des blocs de fer étirés en barres plates. Ces barres étaient sectionnées en fragments appelés largets ou oidons, lesquels, préalablement réchauffés dans des fours spéciaux, étaient laminés jusqu'à ce que leur épaisseur fût réduite au calibre voulu.
@@ -1610,7 +1731,9 @@
         Etamage. — Avant d'être immergées dans le bain d'étain, les plaques minces subissent diférentes préparations intermédiaires. Elles sont d'abord décapées dans un bain acidulé à l'acide sulfurique, puis empi¬lées dans des caisses en fonte ; ainsi encaissées, elles sont introduites dans des fours où elles subissent un recuit à température élevée, dont la durée est de douze heures. Les cauisses sorties du four ne sont ou¬vertes et les plaques retirées de ces caisses qu'après complet refroidisse¬ment. Les plaques sont alors passées entre des cylindres à surface très polie qui leur donnent un glacé aussi parfait que possible. Après cette opération, les plaques subissent un nouveau décapage dans des bains acidulés soit par l'acide sulfurique, soit par l'acide chlorhydrique. C'est après leur sortie de ce dernier bain qu'elles sont plongées dans le creuset à étain.
        </p>
        <p xml:id="para_9_484_366">
-        Jadis, pour étamer les plaques, on les faisait passer successivement dans plusieurs creusets, dont le premier contenait de la graisse, et les autres de l'étain à diférents degrés de température. Aujourd'hui, le pro¬cédé est bien simplifié. Il n'y a plus qu'un seul creuset, divisé en deux compartiments par une cloison qui n'atteint pans le fond du creuset : dans l'un des compartiments ainsi formés, règne au-dessus de l'étain une couche de chlorure de zinc. Trois paires de cylindres sont disposées dans <pb facs="#facs_489" n="485" source="lesouvriersdesde916sociuoft_0523.xml"/> l'intérieur du creuset : une sous la couche de chlorure dans le premier compartiment, une dans la partie inférieure et médiane du creuset, et la troisième dans le second compartiment. Par ce procédé, l'étamage se fait instantanément. La plaque, saisie par la première paire de cylindres, est poussée jusqu'à ce qu'elle soit prise par la seconde, laquelle la jette sur la troisième, d'où la feuille sort complètement étamée.
+        Jadis, pour étamer les plaques, on les faisait passer successivement dans plusieurs creusets, dont le premier contenait de la graisse, et les autres de l'étain à diférents degrés de température. Aujourd'hui, le pro¬cédé est bien simplifié. Il n'y a plus qu'un seul creuset, divisé en deux compartiments par une cloison qui n'atteint pans le fond du creuset : dans l'un des compartiments ainsi formés, règne au-dessus de l'étain une couche de chlorure de zinc. Trois paires de cylindres sont disposées dans
+        <pb facs="#facs_489" n="485" source="lesouvriersdesde916sociuoft_0523.xml"/>
+        l'intérieur du creuset : une sous la couche de chlorure dans le premier compartiment, une dans la partie inférieure et médiane du creuset, et la troisième dans le second compartiment. Par ce procédé, l'étamage se fait instantanément. La plaque, saisie par la première paire de cylindres, est poussée jusqu'à ce qu'elle soit prise par la seconde, laquelle la jette sur la troisième, d'où la feuille sort complètement étamée.
        </p>
        <p xml:id="para_9_85_368">
         A la sortie du bain d'étain, les plaques sont passées mécaniquement dans des bacs contenant de la farine, de la sciure de bois mélangées à des terres capillaires qui absorbent la graisse dont elles sont plus ou moins recouvertes. Après cette dernière opération, elles sont frottées avec soin, tantôt avec des chiffons par des mains de femmes, tantôt mé¬caniquement en passant entre des cylindres recouverts de peaux de mouton. Enfin les feuilles, soigneusement examinées une à une, sont classées suivant leur aspect et la perfection de leur étamage : celles qui présentent des défauts sont mises au rebut ou repassées au bain d'étain ; les autres sont livrées au commerce dans des caisses contenant 225 feuilles de 352  x 257 m/m, et pesant 53 kilos (marque IC).
@@ -1628,7 +1751,9 @@
         Ce chifre est celui de la production normale depuis 1879 ; il peut atteindre facilement 4,000 tonnes.
        </p>
        <p xml:id="para_9_85_371">
-        C'est en cette même année 1879 que les usines de Commentry mon¬tèrent une imprimerie pour fers-blancs. Cette imprimerie a paru surtout nécessaire pour les fournitures de fer-blanc en blanc, par les usines mêmes, à ceux de leurs clients qui employaient de leurs fers-blancs im¬primés. De 1879 a 1889, 800 tonnes dev fer-blanc imprimé ont été ainsi <pb facs="#facs_490" n="486" source="lesouvriersdesde916sociuoft_0524.xml"/> livrées à des fabrieants de conserves, qui ont consommé, en blanc,
+        C'est en cette même année 1879 que les usines de Commentry mon¬tèrent une imprimerie pour fers-blancs. Cette imprimerie a paru surtout nécessaire pour les fournitures de fer-blanc en blanc, par les usines mêmes, à ceux de leurs clients qui employaient de leurs fers-blancs im¬primés. De 1879 a 1889, 800 tonnes dev fer-blanc imprimé ont été ainsi
+        <pb facs="#facs_490" n="486" source="lesouvriersdesde916sociuoft_0524.xml"/>
+        livrées à des fabrieants de conserves, qui ont consommé, en blanc,
        </p>
        <p xml:id="para_9__373">
         4,000 tonnes de fer-blanc.
@@ -1658,7 +1783,9 @@
         Rien ne se perd dans cette fabrication, puisque les rognures de fer¬blanc, qui n'ont pour ainsi dire aucune valeur, sont utilisées. Certains industriels ont pris des brevets pour extraire l'étain de ces déchets par les moyens chimiques. Ces rognures servent également à la confection de ces jouets à bon marché, qui pullulent dans les bazars et font la joie des enfants.
        </p>
        <p xml:id="para_9__382">
-        o0bservation de 1905. — La fabrication du fer-blanc a progressé très sensiblement pendant ces dernières années, comme tous les arts méca¬niques et métallurgiques. L'étameur n'est plus maintenant une sorte de maître ès arts, recevant de ses aieux les secrets de la fabrication et les transmettant à ses enfants. En quelques journées, l'on peut faire main¬tenant un bon étameur avec un ouvrier quelconque. Le chantier d'éta¬mage est devenu, aujourd'hui, un appareil mécanique, dans lequel l'ou<pb facs="#facs_491" n="487" source="lesouvriersdesde916sociuoft_0525.xml"/>vrier introduit la feuille, qul est saisie par les rouleaux et entrainée mécaniquement dans le bain. La feuille est conduite, ensuite, dans une machine qui remplace les farinières d'autrefois, et d'où elle sort prête à ̂tre livrée au commerce.
+        o0bservation de 1905. — La fabrication du fer-blanc a progressé très sensiblement pendant ces dernières années, comme tous les arts méca¬niques et métallurgiques. L'étameur n'est plus maintenant une sorte de maître ès arts, recevant de ses aieux les secrets de la fabrication et les transmettant à ses enfants. En quelques journées, l'on peut faire main¬tenant un bon étameur avec un ouvrier quelconque. Le chantier d'éta¬mage est devenu, aujourd'hui, un appareil mécanique, dans lequel l'ou
+        <pb facs="#facs_491" n="487" source="lesouvriersdesde916sociuoft_0525.xml"/>
+        vrier introduit la feuille, qul est saisie par les rouleaux et entrainée mécaniquement dans le bain. La feuille est conduite, ensuite, dans une machine qui remplace les farinières d'autrefois, et d'où elle sort prête à ̂tre livrée au commerce.
        </p>
        <p xml:id="para_9_87_384">
         L'organisation des usines de Commentry a subi des transformations profondes en ces dernières années. Pour ne parler que des plus récentes, le puddlage a été supprimé à la fin de 1904. Le dernier haut-fourneau et les fours à cole système Appolt ont été éteints en janvier 1905. On tend à supprimer complètement le laminage du fer pour ne laminer que de l'acier. Les lingots d'acier sont fournis par les usines de la Compgnie, Montlucon-Saint-Jacques et Neuves-Maisons, le grand établissement que la Compagnie s'est annexe il y a plus de dix ans.
@@ -1690,7 +1817,10 @@
         § 19. SUR LA SOCIÉTÉ COOPÉRATIVE DES FORGERONS DE COMMENTRY
        </head>
        <p xml:id="para_9_88_392">
-        <pb facs="#facs_492" n="488" source="lesouvriersdesde916sociuoft_0526.xml"/> L'une des plus banales causes de soufrance, dans les ménages ouvriers, est la facilité des achats à crédit. On commence par céder à la tentation ; on se met dans l'impuissance de payer l'arriéré, surtout porsque les frais de poursuite viennent doubler la dette. Dès lors, l'ou¬vrier est à la merci du petit commerçant, obligé de subir, pour tout ce qu'il achète, le prix surfait et la qualité inférieure que le détaillant lui <pb facs="#facs_493" n="489" source="lesouvriersdesde916sociuoft_0527.xml"/> impose, parce que sa solvabilité est douteuse et qu'il ne peut refuser, puisque, pour se fournir ailleurs, il faudrait au préalable éteindre sa dette.
+        <pb facs="#facs_492" n="488" source="lesouvriersdesde916sociuoft_0526.xml"/>
+        L'une des plus banales causes de soufrance, dans les ménages ouvriers, est la facilité des achats à crédit. On commence par céder à la tentation ; on se met dans l'impuissance de payer l'arriéré, surtout porsque les frais de poursuite viennent doubler la dette. Dès lors, l'ou¬vrier est à la merci du petit commerçant, obligé de subir, pour tout ce qu'il achète, le prix surfait et la qualité inférieure que le détaillant lui
+        <pb facs="#facs_493" n="489" source="lesouvriersdesde916sociuoft_0527.xml"/>
+        impose, parce que sa solvabilité est douteuse et qu'il ne peut refuser, puisque, pour se fournir ailleurs, il faudrait au préalable éteindre sa dette.
        </p>
        <p xml:id="para_9_189_394">
         A Commentry, ce mal sévissait avec une acuité extrême. « Au mois de fevrier 1863, quand je suis arrivé aux forges, écrivait en 1887 M. A. Gibon
@@ -1711,7 +1841,8 @@
         Derrière ce premier résultat, déjà enviable, la réduction de la dépense quotidienne du ménage ouvrier, les organisateurs de la Société coopéra¬tive en appelaient un autre, plus haut, qui demande une grande vertu : la constitution de l'épargne . Ce but, plus élevé, de l'afranchissement de l'ouvrier par la prévoyance et par l'épargne, a été atteint. La Societé cooperative des forgerons de Commentry est devenue classique à ce point que l'on ne manque jamais de la citer, quand on touche à l'histoire de la coopération.
        </p>
        <p xml:id="para_9__399">
-        <pb facs="#facs_494" n="490" source="lesouvriersdesde916sociuoft_0528.xml"/> « Le bilans successifs de la Société coopérative attestent son dévelop¬pement progressif sous la présidence de son fondateur (1869 1889), la Mibre adhésion du personnel, les profits pour les actionnaires et les ache¬teurs, la constitution des épargnes durant cette période de prospérité qui n'embrassae pas moins de vingt-deux années.
+        <pb facs="#facs_494" n="490" source="lesouvriersdesde916sociuoft_0528.xml"/>
+        « Le bilans successifs de la Société coopérative attestent son dévelop¬pement progressif sous la présidence de son fondateur (1869 1889), la Mibre adhésion du personnel, les profits pour les actionnaires et les ache¬teurs, la constitution des épargnes durant cette période de prospérité qui n'embrassae pas moins de vingt-deux années.
        </p>
        <p xml:id="para_9__400">
         « Les 127 actionnaires de la fondation sont devenus, en 1887, plus de 500, et, avec leurs enfants, ils représentaient alors plus de la moitié du personnel des forgés.
@@ -1726,7 +1857,9 @@
         Cet éloge de la prospérité introduite par la Soeiete cooperative desforgerons de Commentrg a une grande valeur dans la bouche de M. Delaire, alors secrétaire général de notre chère Société d'économle sociale.
        </p>
        <p xml:id="para_9__404">
-        Nous le trouvons éloquemment confirmé par le fait de la résolutlon que votait l'assemblée générale extraordinaire de la Société coopérative <pb facs="#facs_495" n="491" source="lesouvriersdesde916sociuoft_0529.xml"/> a la date du 26 février 1888. Le texte est d'autant plus à sa place ici que c'est par application de ses dispositions que notre ouvrier touchait, en 1889, précisément dans l'année qui est celle de notre budget, les diverses allocations portées au
+        Nous le trouvons éloquemment confirmé par le fait de la résolutlon que votait l'assemblée générale extraordinaire de la Société coopérative
+        <pb facs="#facs_495" n="491" source="lesouvriersdesde916sociuoft_0529.xml"/>
+        a la date du 26 février 1888. Le texte est d'autant plus à sa place ici que c'est par application de ses dispositions que notre ouvrier touchait, en 1889, précisément dans l'année qui est celle de notre budget, les diverses allocations portées au
         <ref target="#part_02_05_14" type="renvoi_int_mono">
          § 14
         </ref>
@@ -1758,7 +1891,9 @@
         Les ventes dans les diférents magasins atteignaient encore, en l'année 1889, 600,000ᶠ. Depuis la grève survenue en avri1 1890, elles sont deseendues à 200,000ᶠ.
        </p>
        <p xml:id="para_9__413">
-        Le fonctionnement, lui aussi, subit des « transformations . Autrefois, le dilrecteur de l'usine étauit le président de la Societé. Désormais, lae Com¬pagnie des forges laisse la Société a elle-même. Les commerçants de la ville, qui avaient une revanche à prendre, lui font une concurrence acharnée ; ils ont relevé la tête, sans doute, mais non la qualité de leurs <pb facs="#facs_496" n="492" source="lesouvriersdesde916sociuoft_0530.xml"/> marchandises. Les Sœurs de Saint-Vincent de Paul, préposées dès 1867 au magasin de nouveautés de la Société coopérative, en furent retirées en 1890. Désormais, la Société coopérative vend ses produits aux prix de la ville. Elle compte présentement 420 à 430 actionnauires, et 250 à 300 adhérents. Après chaque inventaire semestriel, elle distribue ses acheteurs, actionnaires ou non, à titre de ristourne, 5 a 5,50ᵉ/, sur la totalité des achats atteignant au minimum 50ᶠ par semestre. Au renou¬vellement de la Société, le 17 juin 1902, elle a été amenée à rembourser à ses actionnaires ses bonis et réserves, soit 20ᶠ par action da 50ᶠ.
+        Le fonctionnement, lui aussi, subit des « transformations . Autrefois, le dilrecteur de l'usine étauit le président de la Societé. Désormais, lae Com¬pagnie des forges laisse la Société a elle-même. Les commerçants de la ville, qui avaient une revanche à prendre, lui font une concurrence acharnée ; ils ont relevé la tête, sans doute, mais non la qualité de leurs
+        <pb facs="#facs_496" n="492" source="lesouvriersdesde916sociuoft_0530.xml"/>
+        marchandises. Les Sœurs de Saint-Vincent de Paul, préposées dès 1867 au magasin de nouveautés de la Société coopérative, en furent retirées en 1890. Désormais, la Société coopérative vend ses produits aux prix de la ville. Elle compte présentement 420 à 430 actionnauires, et 250 à 300 adhérents. Après chaque inventaire semestriel, elle distribue ses acheteurs, actionnaires ou non, à titre de ristourne, 5 a 5,50ᵉ/, sur la totalité des achats atteignant au minimum 50ᶠ par semestre. Au renou¬vellement de la Société, le 17 juin 1902, elle a été amenée à rembourser à ses actionnaires ses bonis et réserves, soit 20ᶠ par action da 50ᶠ.
        </p>
        <p xml:id="para_9__415">
         Il serait délicat d'insister ici sur la décroissaunce de cette Société coopé¬rative, institution qui tenait une si grande place dans les sollicitudes patronales de M. A. Gibon, qui fut son fondateur, et qui la présida du¬rant vingt-deux ans. La décroissance d'une institution qui, en fait, fut un bienfait pour le personnel des forges de Commentry, nous parait dé¬montrer la nécessité d'asseoir sur les plus larges bases ces sortes de So¬ciétés. La faculté en fut-elle laissée au fondateur 2 C'est ce que nous ne saurions préciser. appelons, toutefois, que le directeur des forges avait dû soumettre les statuts de la Société coopérative à l'approbation du Conseil d'administration de la Société anonyme des forges
@@ -1785,7 +1920,8 @@
         L'école, qui n'avait que deux classes au début, prospéra rapidement. En novembre 1856, elle comptait déjà 530 élèves, répartis en six classes.
        </p>
        <p xml:id="para_9_493_423">
-        <pb facs="#facs_497" n="493" source="lesouvriersdesde916sociuoft_0531.xml"/> Jusqu'u la fin de l'année scolaire 1872, l'école recevait les enfants fils de mineurs et fils de forgerons. Aux vacances de cette même année, M. Gibon, directeur des usines, fit construire, dans la rue Saint-Quirin, une école de quatre classes qu'il confia également aux Frères des écoles chrétiennes. Lorsque la Compagnie des forges, cédant à la pression poli¬tique, crut devoir supprimer cette école des garçons, une Société fut créée. La Compagnie consentit à lui concéder l'usage gratuit des locaux, et l'école fut ainsi continuée jusqu'en 1894. A cette époque, les Frères furent remplacés par des instituteurs libres qui la dirigèrent jusqu'au la fermeture (avril 1806). La plupart des élèves durent aller à l'école com¬munale. Depuis l'ouverture de l'école des forges, et jusqu'au mois d'oe¬tobre 1903, l'école de la rue de la Mine, dirigée par les Frères, s'appelait 1 «école de la Mine », et ne pouvait recevoir, en dehors des fils de mi¬neurs, qu'un nombre limité d'élèves. La Compagnie de Commentry¬PTourchambault supportait exclusivement toutes les charges de l'école. En 1899, l'administration, jugeant que le nombre des élèves fils de mi¬neurs n'était plus en rapport avec les sacrifices qu'elle s'imposait, et voulant ménager à Commentry l'avantage d'une école chrétienne de garçons, consentit à l'admission, dans son école, des enfants étrangers à la mine, mais à la condition que la Compagnie de Chatillon-Commen¬try et que le Comité formé dans la ville supporteraient une partie des
+        <pb facs="#facs_497" n="493" source="lesouvriersdesde916sociuoft_0531.xml"/>
+        Jusqu'u la fin de l'année scolaire 1872, l'école recevait les enfants fils de mineurs et fils de forgerons. Aux vacances de cette même année, M. Gibon, directeur des usines, fit construire, dans la rue Saint-Quirin, une école de quatre classes qu'il confia également aux Frères des écoles chrétiennes. Lorsque la Compagnie des forges, cédant à la pression poli¬tique, crut devoir supprimer cette école des garçons, une Société fut créée. La Compagnie consentit à lui concéder l'usage gratuit des locaux, et l'école fut ainsi continuée jusqu'en 1894. A cette époque, les Frères furent remplacés par des instituteurs libres qui la dirigèrent jusqu'au la fermeture (avril 1806). La plupart des élèves durent aller à l'école com¬munale. Depuis l'ouverture de l'école des forges, et jusqu'au mois d'oe¬tobre 1903, l'école de la rue de la Mine, dirigée par les Frères, s'appelait 1 «école de la Mine », et ne pouvait recevoir, en dehors des fils de mi¬neurs, qu'un nombre limité d'élèves. La Compagnie de Commentry¬PTourchambault supportait exclusivement toutes les charges de l'école. En 1899, l'administration, jugeant que le nombre des élèves fils de mi¬neurs n'était plus en rapport avec les sacrifices qu'elle s'imposait, et voulant ménager à Commentry l'avantage d'une école chrétienne de garçons, consentit à l'admission, dans son école, des enfants étrangers à la mine, mais à la condition que la Compagnie de Chatillon-Commen¬try et que le Comité formé dans la ville supporteraient une partie des
        </p>
        <p xml:id="para_9_493_424">
         Depuis le mois d'octobre 1899, l'école fonctionne sous ce régime. Elle compte actuellement 330 élèves, repartis en sept classes. Les quatre dernières donnent l'enseignement élémentaire ; les élèves des trois premières recoivent un enseignement complémentaire qui les prépare directoment soit à l'admission aux écoles d'arts etmétiers de Cluny
@@ -1803,7 +1939,9 @@
         , soit à la profession de comptables, de dessinateurs ou d'ou¬vriers industriels (ajusteurs, forgerons, etc.). Les succès de l'enseigne¬ment de cette école, notamment pour le dessin industriel, ont été plus d'une fois constatés dans de brillants concours.
        </p>
        <p xml:id="para_9_493_425">
-        En 1899, la direction de l'école, estimant qu'il serait avantageux pour les plus grands élèves de recevoir des leçons pratiques d'ajustage et de forge, projeta la création d'un atelier. Les administrations des houillères et des usines, et quelques bienfaiteurs fournirent le matériel nécessaire <pb facs="#facs_498" n="494" source="lesouvriersdesde916sociuoft_0532.xml"/> à cette installation. Cinquante-deunx élèves de treie à seie ans suivent actuellement les cours d'ajustage. Les leçons se donnent les mardis et les vendredi, de midi à quatre heures et demie. Les élèves sont répartis en trois groupes ; chaque groupe travaille, pendant une heure et demie, sous la direction d'un professeur d'ajustage et d'un professeur de forge. En 1902, on a créé un cours d'apprentissage pour lau fabrlcation des chailnes.
+        En 1899, la direction de l'école, estimant qu'il serait avantageux pour les plus grands élèves de recevoir des leçons pratiques d'ajustage et de forge, projeta la création d'un atelier. Les administrations des houillères et des usines, et quelques bienfaiteurs fournirent le matériel nécessaire
+        <pb facs="#facs_498" n="494" source="lesouvriersdesde916sociuoft_0532.xml"/>
+        à cette installation. Cinquante-deunx élèves de treie à seie ans suivent actuellement les cours d'ajustage. Les leçons se donnent les mardis et les vendredi, de midi à quatre heures et demie. Les élèves sont répartis en trois groupes ; chaque groupe travaille, pendant une heure et demie, sous la direction d'un professeur d'ajustage et d'un professeur de forge. En 1902, on a créé un cours d'apprentissage pour lau fabrlcation des chailnes.
        </p>
        <p xml:id="para_9_494_429">
         La Compagnie des forges avait également doté les enfant de ses ouvriers d'une école de filles, placée sous la direction des Surs de Saint-Vincent de Paul. Cette école, qui reçut jusqu'a 562 élèves réparties en plusieurs classes, avait pour pépiniére un asile qui ne recevait pas moins de 300 enfants, et pour couronnement un ouvroir de couture suivi par 100 jeunes filles. Un dispensaire pour la distrlbution des seeours médlcaux, confié également aux Filles de le Charité, complétait cet har¬monieux ensemble de dilspositions patronales que les amis de la religlon et de la liberté ont vu disparaître avec douleur (janvier 1904).
@@ -1824,7 +1962,8 @@
         Un médecin, rémunéré par la Compagnie, et demeurant dans les bâtiments de l'administration, à côté de la direction, est à la disposition du personnel de la Compagnie, et prescrit des médicaments délivrés à titre gratuit.
        </p>
        <p xml:id="para_9__435">
-        <pb facs="#facs_499" n="495" source="lesouvriersdesde916sociuoft_0533.xml"/> La Compagnie dispose de deux cent vingt logements d'ouvriers, qu'elle céde tantôt gratuitement, tantôt moyennant une redevance de 6ᶠ par mois. Ces logements, qui se composent de plusieurs pièces et auxquels est annexé habituellement un petit jardin, sont accordés aux ouvriers qui se recommaundent par leurs capacités et leur bonne conduite. Parfois, pour récompenser les plus méritants, la Compagnie leur alloue des in¬demnités, quand elle ne peut leur fournir ce logement. Elle accorde aussi, à titre de récompense, des indemnités de chauffage.
+        <pb facs="#facs_499" n="495" source="lesouvriersdesde916sociuoft_0533.xml"/>
+        La Compagnie dispose de deux cent vingt logements d'ouvriers, qu'elle céde tantôt gratuitement, tantôt moyennant une redevance de 6ᶠ par mois. Ces logements, qui se composent de plusieurs pièces et auxquels est annexé habituellement un petit jardin, sont accordés aux ouvriers qui se recommaundent par leurs capacités et leur bonne conduite. Parfois, pour récompenser les plus méritants, la Compagnie leur alloue des in¬demnités, quand elle ne peut leur fournir ce logement. Elle accorde aussi, à titre de récompense, des indemnités de chauffage.
        </p>
        <p xml:id="para_9__436">
         La Caisse de secours, alimentée exclusivement par les retenues faites sur les salaires des ouvriers, ne peut être considérée comme institution patronale. D'ailleurs, cette Caisse n'existe plus depuis 1899. Elle a été remplacée par un fonds d'assistance administré par les ouvriers, à l'exclusion de tout élément représentant l'influence patronale, et alimenté par une reotenue de 1/2ᵉ, sur les salaires. La Compagnie des forges pre¬nant entièrement à sa charge les médicaments, les honoraires du docteur et toutes les indemnités dues pour accidents contractés pendant le tra¬vail, le fonds d'assistance doit servir les indemnités pour chômages ré¬sultant de maladies ou d'infirmités ; il doit aussi venir en aide aux in¬valides.

@@ -42,7 +42,7 @@ def filenames_dict(csv_path):
             if line[2] != "none":
                 title = [line[0], line[3]]
                 csv_dict[line[2]] = title
-    del csv_dict['Fichiers XML']
+    del csv_dict['Files XML']
     return csv_dict
 
 def get_txt_from_section(xml):

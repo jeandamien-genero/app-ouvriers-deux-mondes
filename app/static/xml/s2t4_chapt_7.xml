@@ -4,9 +4,37 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>
+    <title level="m" n="75" type="main">
+     Métayer de l'Ouest du Texas (États-Unis d'Amérique)
+    </title>
+    <title level="s" type="desc">
      Les Ouvriers des Deux Mondes - série 2, volume 4 - Transcription
     </title>
+    <title level="m" type="short">
+     metayer-ouest-texas-75
+    </title>
+    <author n="1" role="investigator">
+     Claudio Jannet
+    </author>
+    <editor>
+     Société internationale des études pratiques d'économie sociale
+    </editor>
+    <respStmt>
+     <resp>
+      Fichier XML-TEI encodé de 2019 à 2021
+     </resp>
+     <orgName>
+      programme ANR TIME US
+     </orgName>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition>
+     Édition et encodage scientifique de la monographie n°75 des Ouvriers des deux mondes, "Métayer de l'Ouest du Texas (États-Unis d'Amérique)". Elle a d'abord été publiée en fascicule en 1893, puis reliée en 1895, à partir d'une enquête réalisée à Annadale, Baird (Callahan, Texas) en août et en septembre 1891.
+    </edition>
+    <funder>
+     Agence nationale de la Recherche
+    </funder>
     <respStmt>
      <persName>
       <forename>
@@ -114,15 +142,23 @@
       supervision technique
      </resp>
     </respStmt>
-   </titleStmt>
+   </editionStmt>
    <publicationStmt>
     <publisher>
-     projet ANR Time Us
+     Centre de recherches historiques (UMR 8558), Centre Maurice Halbwachs (UMR 8097), Inria ALMAnaCH
     </publisher>
     <date from="2019" to="2021"/>
     <pubPlace>
      Paris, France
     </pubPlace>
+    <authority source="https://anr.fr/Projet-ANR-16-CE26-0018">
+     ANR-16-CE26-0018 – TIME-US – Women’s and men’s remuneration and time budgets in the textile trades in France from the late 17th to the early 20th century
+    </authority>
+    <availability status="free">
+     <licence target="https://github.com/etalab/licence-ouverte/blob/master/open-licence.md">
+      Distributed under an Open License 2.0
+     </licence>
+    </availability>
    </publicationStmt>
    <sourceDesc>
     <p>
@@ -130,13 +166,6 @@
     </p>
    </sourceDesc>
   </fileDesc>
-  <encodingDesc>
-   <projectDesc>
-    <p>
-     L’acquisition et la structuration initiale des textes ont été réalisées automatiquement à partir des numérisations d’Internet Archive, à l’aide de l’application LSE-OD2M développée en 2019 par Alix Chagué, ingénieure de recherche et de développement de l’équipe ALMAnaCH d’Inria. L’encodage scientifique a ensuite été effectué par Jean-Damien Généro, stagiaire de l’École nationale des chartes (mars à sept. 2020), puis ingénieur d’études du CNRS d’abord accueilli au Centre Maurice Halbwachs (sept. à nov. 2020) et enfin affecté au Centre de recherches historiques (dec. 2020), sous la supervision d’Anne Lhuissier, directrice de recherche de l’INRAE (CMH) et de Stéphane Baciocchi, ingénieur de recherche de l’EHESS (CRH).
-    </p>
-   </projectDesc>
-  </encodingDesc>
  </teiHeader>
  <facsimile xml:id="facs_112">
   <surface lrx="2253" lry="3506"/>
@@ -455,7 +484,10 @@
       PAR
      </p>
      <p xml:id="para_7_101_7">
-      <persName>CLAUDIO JANNET</persName>,
+      <persName>
+       CLAUDIO JANNET
+      </persName>
+      ,
      </p>
      <p xml:id="para_7_101_8">
       Professeur à la faculté libre de droit de Paris.
@@ -474,7 +506,8 @@
         § 1ᵉʳ. ÉTAT DU SOL, DE L'INDUSTRIE ET DE LA POPULATION.
        </head>
        <p xml:id="para_7_101_14">
-        <pb facs="#facs_112" n="101" source="s2lesouvriersdes04sociuoft_0127.xml"/> La famille qui fait l'objet de cette étude habite momentanément le domaine d'Annadale, dans le comté de Callahan (Texas), à 10 milles
+        <pb facs="#facs_112" n="101" source="s2lesouvriersdes04sociuoft_0127.xml"/>
+        La famille qui fait l'objet de cette étude habite momentanément le domaine d'Annadale, dans le comté de Callahan (Texas), à 10 milles
         <note type="bp">
          <p>
           Le mille vaut 1.609m,31.
@@ -486,7 +519,9 @@
           Les chiffres de population indiqués dans cette monographie sont ceux du recen¬sement de 1890.
          </p>
         </note>
-        , chef-lieu du comté, et à 195 milles environ de Dallas, dans la même direction. Dallas (37,806habitants) est la plus grande ville du Texas. C'est la métropole de ce vaste Etat (688.342 kilomètres carrés), le plus grand de l'Union américaine. La superficié du Texas est en effet de plus d'un cinquième supérieure à celle de la France entiêre. Il est traversé de l'Est à l'Ouest par l'une des grandes lignes transcontinentales, le Texas and Pacific <pb facs="#facs_113" n="102" source="s2lesouvriersdes04sociuoft_0128.xml"/> Railroad. En allant à l'Ouest, à environ 18 milles, on trouve la cité d'Abilène (3.194 habitants), chef-lieu du comté de Taylor, qui a été fondée il y a huit ans et qui est, au point de vue climatérique et éco¬nomique, le centre de la région où se trouve le domaine d'Annadale. On l'appelle couramment l'Abilene country, quoique ce nom ne cor¬responde à aucune division administrative.
+        , chef-lieu du comté, et à 195 milles environ de Dallas, dans la même direction. Dallas (37,806habitants) est la plus grande ville du Texas. C'est la métropole de ce vaste Etat (688.342 kilomètres carrés), le plus grand de l'Union américaine. La superficié du Texas est en effet de plus d'un cinquième supérieure à celle de la France entiêre. Il est traversé de l'Est à l'Ouest par l'une des grandes lignes transcontinentales, le Texas and Pacific
+        <pb facs="#facs_113" n="102" source="s2lesouvriersdes04sociuoft_0128.xml"/>
+        Railroad. En allant à l'Ouest, à environ 18 milles, on trouve la cité d'Abilène (3.194 habitants), chef-lieu du comté de Taylor, qui a été fondée il y a huit ans et qui est, au point de vue climatérique et éco¬nomique, le centre de la région où se trouve le domaine d'Annadale. On l'appelle couramment l'Abilene country, quoique ce nom ne cor¬responde à aucune division administrative.
        </p>
        <p xml:id="para_7_102_17">
         L'Abilene country occupe une aire d'environ 150 milles de long sur 90 milles de large, entre les 31° et 33° 1/2 de latitude Nord et 99° et 100° 1/2 de longitude Ouest du méridien de Greenwich. Son altitude, qui est en moyenne de 1.800 pieds
@@ -501,7 +536,9 @@
         Le sol appartient exclusivement à la formation calcaire. Au-dessous d'une couche épaisse d'humus noir (loam), variant de 2 à 6 pieds de profondeur (0ᵐ,60) a) 1ᵐ.828), se trouve fréquemment une couche d'argile imperméable, qui assure à la végétation l'humidité néces¬saire pendant les chaleurs de l'été, pourvu que la couche superficielle soit convenablement cultivée. Les puits qu'on y creuse donnent une eau ex cellente, à des profondeurs variables, mais qui à Annadale ne dépassent pas 15 pieds. Les roches calcaires qui affleurent sur les co¬teaux fournissent des matériaux de construction de premier ordre.
        </p>
        <p xml:id="para_7_102_19">
-        Le pays d'Abilène est un steppe ou, comme on dit en Amérique, une prairie, ainsi que presque tout l'Ouest du Texas. La prairie est coupée cependant, à l'Est, entre la petite ville Weather-Fordet Baird, par des collines boisées ou dominent plusieurs espèces de chêne et qui courent du Sud au Nord, sorte de prolongement du plateau mexicain appelé crossed timber. Le sol sablonneux de ces collines est très favorable à la végétation arborescente, quoique le peu d'humidité du sol empêche les <pb facs="#facs_114" n="103" source="s2lesouvriersdes04sociuoft_0129.xml"/> arbres d'y prendre un grand développement : de là le nom local de rus, broussailles, donné à ces forêts. La culture y est très précaire et les plus pauvres habitants y tentent seuls quelques défrichements sur lesquels le coton, grâce à sa racine pivotante, peut donner de bonnes récoltes dans les années favorisées par des pluies suffisantes. La mise en culture des prairies, où le bois est fort rare, assurera avec le temps une valeur à ces terrains, comme annexe des exploitations rurales.
+        Le pays d'Abilène est un steppe ou, comme on dit en Amérique, une prairie, ainsi que presque tout l'Ouest du Texas. La prairie est coupée cependant, à l'Est, entre la petite ville Weather-Fordet Baird, par des collines boisées ou dominent plusieurs espèces de chêne et qui courent du Sud au Nord, sorte de prolongement du plateau mexicain appelé crossed timber. Le sol sablonneux de ces collines est très favorable à la végétation arborescente, quoique le peu d'humidité du sol empêche les
+        <pb facs="#facs_114" n="103" source="s2lesouvriersdes04sociuoft_0129.xml"/>
+        arbres d'y prendre un grand développement : de là le nom local de rus, broussailles, donné à ces forêts. La culture y est très précaire et les plus pauvres habitants y tentent seuls quelques défrichements sur lesquels le coton, grâce à sa racine pivotante, peut donner de bonnes récoltes dans les années favorisées par des pluies suffisantes. La mise en culture des prairies, où le bois est fort rare, assurera avec le temps une valeur à ces terrains, comme annexe des exploitations rurales.
        </p>
        <p xml:id="para_7_103_22">
         Le domaine d'Annadale est à 2 milles environ de ces collines, soit un peu plus de 3 kilomètres. Il esten pleine région de prairie. La prairie est ecaractérisée par l'abondance et la variété des herbes, des graminées surtout, au milieu desquelles poussent quelques cactus et des roseaux sur les bords des crees. Dans cette partie du pays, cependant, la prairie est parsemée d'un arbuste appelé le mesquite (Mimosa niloltica, qui s'élêve à 2 ou 4 mêtres au plus ; son feuillage très grêle ne nuit pas à la pousse de l'herbe, et le bétail est avide des cosses où sa graine est renfermée. Sur les bords des crees, on trouve l'ormeau, le pécan, les saules et la vigne sauvage. Çà et là dans la prairie s'élè¬vent quelques vieux chênes appartenant à une espèce dite live oa (uercus robur). Ces essences ne viennent pas facilement dans ce ter¬rain, et, depuis qu'au lieu d'être pàturée par quelques bisons la prairie l'est par des bœufs et des chevaux nombreux, leurs jeunes plants sont détruits. Dans quelques années, quand les Mesquites auront été tous coupés, les habitants manqueront de bois. La grande dou¬ceur du climat fait qu'ils se préoccupent peu de cette éventualité; mais, dès à présent, le bois de construction est fort cher.
@@ -510,7 +547,9 @@
         La pression atmosphérique normale est égale à environ 28,2 pouces de la colonne de mercure ou 7 41PP67, soit une pression de 1 lilog. par centimètre carré. Les vents du Sud sont prédominants. Presque jamais l'atmosphère n'est absolument calme, ce qui em¬pêche la température d'être trop élevée. Les insolations, si fréquentes dans le Nord des Etats-Unis, sont fort rares. Le pays est d'une salu¬brité parfaite. Les fièvres intermittentes n'atteignent que les individus qui en ont rapporté le germe de la partie Est du Texas où elles sont endémiques.
        </p>
        <p xml:id="para_7_103_24">
-        La température s'abaisse rarement au-dessous de 20 degrés Fahren¬heit ou 6°,67 centigrades, et ne s'élève guère au-dessus de 100ᵉ, ou 37°,78 centigrades. En hiver, il règne parfois pendant dix à quine jours des vents du Nord (Morthers) qui sont le prolongement des Blia¬ards qui désolent le Nord-Ouest des Etats-Unis. La température <pb facs="#facs_115" n="104" source="s2lesouvriersdes04sociuoft_0130.xml"/> descend alors brusquement jusqu'au zéro du thermomêtre Fahrenheit ; mais c'est très momentané. Ces vents sont fort pénibles pour les bestiaux. L'hiver commence à la fin de novembre et finit en mars ; il est caractérisé surtout par des pluies et un ciel nuageux. Il est très rare que le bord des étangs soit pris par la glace.
+        La température s'abaisse rarement au-dessous de 20 degrés Fahren¬heit ou 6°,67 centigrades, et ne s'élève guère au-dessus de 100ᵉ, ou 37°,78 centigrades. En hiver, il règne parfois pendant dix à quine jours des vents du Nord (Morthers) qui sont le prolongement des Blia¬ards qui désolent le Nord-Ouest des Etats-Unis. La température
+        <pb facs="#facs_115" n="104" source="s2lesouvriersdes04sociuoft_0130.xml"/>
+        descend alors brusquement jusqu'au zéro du thermomêtre Fahrenheit ; mais c'est très momentané. Ces vents sont fort pénibles pour les bestiaux. L'hiver commence à la fin de novembre et finit en mars ; il est caractérisé surtout par des pluies et un ciel nuageux. Il est très rare que le bord des étangs soit pris par la glace.
        </p>
        <p xml:id="para_7_104_26">
         D'après les rapports du Signal-Seruice des ́tats-Unis pendant la période de 1880-1890, la quantité de pluie a été en moyenne de 29,20 pouces ou 741ᵐ,68 par an. Elle est suffisante, non seulement pour les herbages, mais pour les cultures, quand elle se produit régu¬lièrement. En 1886 et en 1887, deux grandes sécheresses, pendant le printemps et l'été, causèrent de véritables désastres agricoles. IHeu¬reusement la one des pluies s'étend constamment de l'Est à Ouest, au fur et à mesure que le sol est en partie défriché. Nous constatons le fait, avec tous les habitants du pays, sans prétendre l'expliquer : les environs de Dallas, à 200 milles plus à l'Est, qui, il y a vingt ans, étaient très secs, recoivent aujourd'hui des pluies plutôt trop abon¬dantes pour la réussite du coton.
@@ -522,7 +561,8 @@
         Les rendements qu'on vient d'indiquer sont obtenus sans fumure.
        </p>
        <p xml:id="para_7_105_29">
-        <pb facs="#facs_116" n="105" source="s2lesouvriersdes04sociuoft_0131.xml"/> C'est à peine si, après dix récoltes ininterrompues de blé, une diminu¬tion de rendement se produit. Les cultivateurs avisés recourent alors aux fumiers de leurs écuries, négligés jusque-là, ou bien labourent un peu plus profondément ; mais il est encore plus simple pour eux de planter du coton. Sa racine va chercher une couche d'humus plus profonde, et les cultures multipliées dont il est l'objet permettent au sol de reconstituer sa fertilité par les actions atmosphériques.
+        <pb facs="#facs_116" n="105" source="s2lesouvriersdes04sociuoft_0131.xml"/>
+        C'est à peine si, après dix récoltes ininterrompues de blé, une diminu¬tion de rendement se produit. Les cultivateurs avisés recourent alors aux fumiers de leurs écuries, négligés jusque-là, ou bien labourent un peu plus profondément ; mais il est encore plus simple pour eux de planter du coton. Sa racine va chercher une couche d'humus plus profonde, et les cultures multipliées dont il est l'objet permettent au sol de reconstituer sa fertilité par les actions atmosphériques.
        </p>
        <p xml:id="para_7_105_30">
         A l'Ouest d'Abilêne la quantité de pluie diminue ; la prairie n'est jusqu'à présent propre qu'au pâturage : c'est le pays des ranchs, où che¬vaux, bœufs et moutons sont élevés en liberté sur de vastes parcours.
@@ -543,7 +583,9 @@
         L'Eat du Texas a adopté pour ses terres publiques le système pra¬tiqué aux États-Unis. Des opérations cadastrales (surueg) partagent les territoires non occupés en comtés, en tovnships, en sections de 640 acres (256 hectares), demi-sections de 320 acres (128 hectares) et quarts de sections de 160 acres (64 hectares).
        </p>
        <p xml:id="para_7_105_34">
-        Des routes de différentes largeurs sont réservées entre les sec¬tions à des distances déterminées, en sorte qu'elles se coupent à <pb facs="#facs_117" n="106" source="s2lesouvriersdes04sociuoft_0132.xml"/> angle droit. Le voyageur se rend ainsi toujours compte d'une ma¬nière exacte de la distance qu'il a parcourue. Des bornes en pierre fixent ces limites. Toutes ces sections sont orientées et représentent des caurrés parfaits. Les ventes faites, soit par l'État, soit par les chemins de fer et autres entreprises d'utilité publique subventionnées au moyen de terres domaniales, sont toujours faites en se référant au cadastre. Les transactions postérieures qui s'opèrent entre les acquéreurs suc¬cessifs, quoique amenant souvent la division d'une section, la prennent toujours pour base.
+        Des routes de différentes largeurs sont réservées entre les sec¬tions à des distances déterminées, en sorte qu'elles se coupent à
+        <pb facs="#facs_117" n="106" source="s2lesouvriersdes04sociuoft_0132.xml"/>
+        angle droit. Le voyageur se rend ainsi toujours compte d'une ma¬nière exacte de la distance qu'il a parcourue. Des bornes en pierre fixent ces limites. Toutes ces sections sont orientées et représentent des caurrés parfaits. Les ventes faites, soit par l'État, soit par les chemins de fer et autres entreprises d'utilité publique subventionnées au moyen de terres domaniales, sont toujours faites en se référant au cadastre. Les transactions postérieures qui s'opèrent entre les acquéreurs suc¬cessifs, quoique amenant souvent la division d'une section, la prennent toujours pour base.
        </p>
        <p xml:id="para_7_106_37">
         La constitution agricole repose donc essentiellement sur le domaine aggdoméré. A la différence des Canadiens, qui établissent habituelle¬ment leur maison sur le bord de leur domaine, les Américains la cons¬truisent de préférence au centre. Néanmoins, cette habitude n'est pas sans exception; et la famille, objet de cette monographie, a au contraire placé son habitation presque sur la ligne de séparation de la propriété voisine.
@@ -558,7 +600,9 @@
         Le ˉCensus de 1890 indique, pour le comté de Callahan, une popula¬tion totale de 5.457 habitants. n 1880 elle était seulement de 3.453. Sauf les 850 habitants de Baird, cette population est exclusivement agricole.
        </p>
        <p xml:id="para_7_106_41">
-        A Baird on ne trouve, avec les fonctionnaires résidant au chef¬lieu du comté, que quelques marchands et saooneeers. Un com¬merçant qui a un petit eleuator sur la ligne du chemin de fer y achète <pb facs="#facs_118" n="107" source="s2lesouvriersdes04sociuoft_0133.xml"/> tous les produits agricoles qui lui sont oferts. Il agit comme commis¬sionnaire pour les grands commerçants de Saint-Louis et de Dallas. ne autre petite agglomération, Clde, est beaucoup moins importante : elle a seulement un bureau de poste et une station de chemin de fer ; elle sert de centre de réunion aux catholiques dispersés dans le comté. Une petite colonie d'environ quinze familles portugaises, qui était allée en Californie et n'y avait pas réussi, s'y est arrêtée en revenant sur ses pas, quelques familles irlandaises et une famille canadienne se sont établies dans levoisinage par affinité religieuse. Un prêtre résidant à Eorthvorth, à 150 milles de distance, vient y célébrer lamesse et instruire les enfants une fois par mois
+        A Baird on ne trouve, avec les fonctionnaires résidant au chef¬lieu du comté, que quelques marchands et saooneeers. Un com¬merçant qui a un petit eleuator sur la ligne du chemin de fer y achète
+        <pb facs="#facs_118" n="107" source="s2lesouvriersdes04sociuoft_0133.xml"/>
+        tous les produits agricoles qui lui sont oferts. Il agit comme commis¬sionnaire pour les grands commerçants de Saint-Louis et de Dallas. ne autre petite agglomération, Clde, est beaucoup moins importante : elle a seulement un bureau de poste et une station de chemin de fer ; elle sert de centre de réunion aux catholiques dispersés dans le comté. Une petite colonie d'environ quinze familles portugaises, qui était allée en Californie et n'y avait pas réussi, s'y est arrêtée en revenant sur ses pas, quelques familles irlandaises et une famille canadienne se sont établies dans levoisinage par affinité religieuse. Un prêtre résidant à Eorthvorth, à 150 milles de distance, vient y célébrer lamesse et instruire les enfants une fois par mois
         <note type="bp">
          <p>
           Le Census de 1891 attribue a cette congrégation de catholiques un effectif de 65mem¬bres en âge de communier. Sa chapelle, qui peut contenir 100 sléges, est évaluée à 1.000 dollars.
@@ -573,13 +617,17 @@
         1° Quelques ranchmen ou plutôt propriétaires-éleveurs, selon la mé¬thode indiquée plus haut, qui cherchent à élever autant d'animaux que possible, au besoin en louant des pàtures attenant à leur propriété. Les progrès du défrichement tendent peu à peu à les éliminer, d'autant plus que tous sont prêts à vendre enréalisant la plus-value acquise par leurs terres.
        </p>
        <p xml:id="para_7_107_45">
-        2° Les farmers ou cultivateurs, qui cherchent à étendre chaque jour leur culture sur les terres dont ils disposent. Le minimum d'étendue de ces domaines est un quart de section, 160 acres (64 hectares). C'est l'étendue qui parait nécessaire, étant donné le climat, pour entretenir quelques bestiaux et occuper par la culture l'activité d'un homme. Les farmers qui ont une demi-section, 320 acres (128 hectares), une sec<pb facs="#facs_119" n="108" source="s2lesouvriersdes04sociuoft_0134.xml"/>tion entière, 640 acres (256 hectares), plusieurs sections même, ne sont pas rares. Des degrés de richesse assez élevés se trouvent dans cette partie de la population, quoique la manière de vivre soit à peu près la même pour toutes les familles. Ils forment la partie la plus nombreuse et en même temps la plus solide de la population. C'est à elle qu'appartient la famille objet de cette monographie, quoique mo¬mentanément, et pour réaliser un bénéfice supérieur à celui qu'elle tirerait de sa propriété, elle cultive comme renter (métayer) la farm d'un propriétaire voisin.
+        2° Les farmers ou cultivateurs, qui cherchent à étendre chaque jour leur culture sur les terres dont ils disposent. Le minimum d'étendue de ces domaines est un quart de section, 160 acres (64 hectares). C'est l'étendue qui parait nécessaire, étant donné le climat, pour entretenir quelques bestiaux et occuper par la culture l'activité d'un homme. Les farmers qui ont une demi-section, 320 acres (128 hectares), une sec
+        <pb facs="#facs_119" n="108" source="s2lesouvriersdes04sociuoft_0134.xml"/>
+        tion entière, 640 acres (256 hectares), plusieurs sections même, ne sont pas rares. Des degrés de richesse assez élevés se trouvent dans cette partie de la population, quoique la manière de vivre soit à peu près la même pour toutes les familles. Ils forment la partie la plus nombreuse et en même temps la plus solide de la population. C'est à elle qu'appartient la famille objet de cette monographie, quoique mo¬mentanément, et pour réaliser un bénéfice supérieur à celui qu'elle tirerait de sa propriété, elle cultive comme renter (métayer) la farm d'un propriétaire voisin.
        </p>
        <p xml:id="para_7_108_48">
         3° Le nom de renter désigne, non pas un fermier à rente fixe, — il n'en existe pas un seul dans le comté ni dans les comtés voisins, — mais un colon partiaire. Deux sortes de contrat sont usités. Quand le propriétaire fournit la semence, le matériel d'exploitation, les chevaux et l'habitation, les récoltes, blé, avoine, mais, se partagent par moitié, le renter fournissant toute la main-d'euvre ; la batteuse est payée par moitié, les loueurs de batteuse prélevant le douzième de l'avoine ou du blé battu ; mais le renter doit payer les hommes et le bois nécessaire pour faire marcher la machine. Le coton exigeant beaucoup plus de main-d'œuvre, le propriétaire n'a dans cette combinaison qu'un tiers de la récolte. — Si, au contraire, le renter fournit la semence, le ma¬tériel d'exploitation et les chevaux de labour, le propriétaire n'a droit qu'à un tiers du mais ou de l'avoine et à un quart du coton. Cette combinaison n'est pas usitée pour le blé. Si une quantité de terre assez grande pour occuper une famille est louée dans ces conditions, le propriétaire fournit une maison fort simple et sans aucun mobilier. Des parcelles de quelques acres sont cependant assez souvent louées sans maison, à colonat partiaire, à de petits propriétaires qui vivent sur leur domaine, mais qui n'ont pas de terres suffisantes ou propres à la culture du coton ou du mais.
        </p>
        <p xml:id="para_7_108_49">
-        Le partage des récoltes a lieu en nature pour les céréales, après le battage. Pour le coton, le renter le porte d'abord au moulin (gin) où l'on sépare la graine d'avec la soie puis il le porte au marché voisin ou il est classé et acheté, suivant sa qualité, au prix courant déterminé par les marchés régulateurs de la Nouvelle-Orléans et de Saint-Louis. Le renter remet au propriétaire le tiers du prix obtenu ainsi, déduction faite du tiers des frais de transport. Ces contrats, étant réglés par l'usage local, ne sont pas habituellement constatés par écrit. Ils n'en sont pas moins exécutés avec une grande bonne foi. ln principe, ils ne sont amais conclus que pour une année, et il n'y a rien dans les coutumes <pb facs="#facs_120" n="109" source="s2lesouvriersdes04sociuoft_0135.xml"/> du pays d'analogue à ce qu'on appelle en France la tacite reconduction. Le rentage d'une terre peut se prolonger et se prolonge quelquefois ; mais les conditions économiques de ce pays, en voie de formation, font de la mobilité des personnes et de la brièveté des engagements de travail une nécessité absolue. L'époque usuelle d'entrée en jouis¬sance des renters est le 1ᵉ janvier, qui correspond à la culture du coton : c'est en effet celle en vue de laquelle les contrats de métayage sont le plus usuellement pratiqués.
+        Le partage des récoltes a lieu en nature pour les céréales, après le battage. Pour le coton, le renter le porte d'abord au moulin (gin) où l'on sépare la graine d'avec la soie puis il le porte au marché voisin ou il est classé et acheté, suivant sa qualité, au prix courant déterminé par les marchés régulateurs de la Nouvelle-Orléans et de Saint-Louis. Le renter remet au propriétaire le tiers du prix obtenu ainsi, déduction faite du tiers des frais de transport. Ces contrats, étant réglés par l'usage local, ne sont pas habituellement constatés par écrit. Ils n'en sont pas moins exécutés avec une grande bonne foi. ln principe, ils ne sont amais conclus que pour une année, et il n'y a rien dans les coutumes
+        <pb facs="#facs_120" n="109" source="s2lesouvriersdes04sociuoft_0135.xml"/>
+        du pays d'analogue à ce qu'on appelle en France la tacite reconduction. Le rentage d'une terre peut se prolonger et se prolonge quelquefois ; mais les conditions économiques de ce pays, en voie de formation, font de la mobilité des personnes et de la brièveté des engagements de travail une nécessité absolue. L'époque usuelle d'entrée en jouis¬sance des renters est le 1ᵉ janvier, qui correspond à la culture du coton : c'est en effet celle en vue de laquelle les contrats de métayage sont le plus usuellement pratiqués.
        </p>
        <p xml:id="para_7_109_51">
         Les renters sont assez nombreux dans le comté de Callahan. Des cultivateurs qui n'ont pas de matériel d'exploitation, trouvent dans ce contrat le moyen de se constituer des capitaux par des profits de culture dépassant de beaucoup les salaires qu'ils gagneraient comme journaliers, ou les produits qu'ils retireraient de l'exploitation d'un petit domaine leur appartenant : on le verra par les comptes annexés à la présente monographie. Cette classe de renters tend à s'accroitre, non seulement parce qu'il n'y a plus comme autrefois de terre au prix de 2 $
@@ -597,7 +645,9 @@
         La main-d'œuvre est abondante dans le comté, et les propriétaires ou les renters en trouvent facilement : une sélection légitime s'opère parmi les ouvriers ; les paresseux sont éliminés.
        </p>
        <p xml:id="para_7_109_54">
-        Les relations entre les emplopeurs et les hired hands sont fort bonnes. Les hommes loués à gages travaillent généralement avec régularité et conscience. Le contrat de louage d'ouvrage comprend, dans les idées <pb facs="#facs_121" n="110" source="s2lesouvriersdes04sociuoft_0136.xml"/> courantes, l'obligation de prendre au mieux les intérêts de l'employeur, et il est exécuté ainsi ; quelquefois même ce sentiment est poussé trop loin, et l'on voit dans l'extrême Ouest du Texas les couvbos prendre les intérêts de leur ranchman jusqu'à se battre entre eux, parfois même à commettre des actions délictueuses. Il n'est heureusement pas ques¬tion de cela dans la paisible région où habite F***.
+        Les relations entre les emplopeurs et les hired hands sont fort bonnes. Les hommes loués à gages travaillent généralement avec régularité et conscience. Le contrat de louage d'ouvrage comprend, dans les idées
+        <pb facs="#facs_121" n="110" source="s2lesouvriersdes04sociuoft_0136.xml"/>
+        courantes, l'obligation de prendre au mieux les intérêts de l'employeur, et il est exécuté ainsi ; quelquefois même ce sentiment est poussé trop loin, et l'on voit dans l'extrême Ouest du Texas les couvbos prendre les intérêts de leur ranchman jusqu'à se battre entre eux, parfois même à commettre des actions délictueuses. Il n'est heureusement pas ques¬tion de cela dans la paisible région où habite F***.
        </p>
        <p xml:id="para_7_110_57">
         Le prix d'un ouvrier agricole au mois est de 15 à 20 $ (77ᶠ 70 à 103ᶠ 60), plus la nourriture : on peut louer un couple marié pour le même prix, la femme ne s'occupant que des soins du ménage. Le prix de la journée est de 1 $ (5ᶠ 18) en été, de 50 à 75 cents (2ᶠ 59 à 3ᶠ 89) en hiver. Pour un charpentier ou un maçon, ces prix sont ma¬jorés de 50 %.
@@ -612,7 +662,9 @@
         Les ouvriers domestiques, les journaliers, possèdent tous au moins un cheval et une selle, qui représentent un capital de 75 (388ᶠ 50) environ. Le propriétaire du domaine d'Annadale a en ce moment à son service un jeune homme de vingt-cinq ans qui possède 3 chevaux et paie d'ailleurs leur nourriture, 40 cents (2ᶠ 07) par tête et par mois, sur sa pàture. La possession de ce cheval est pour un journalier la condition indispensable pour aller chercher de l'ouvrage. C'est en même temps une garantie morale pour l'employeur. On prendrait ditficilement un individu ne possédant même pas un cheval. On craindrait d'intro¬duire chez soi un vagabond (tramp).
        </p>
        <p xml:id="para_7_110_61">
-        Les tramps, qui voyagent à pied ou se glissent la nuit sur les vagons des trains de marchandises, et qui sont la plaie de beaucoup de cam¬pagnes américaines, sont heureusement presque inconnus dans les en<pb facs="#facs_122" n="111" source="s2lesouvriersdes04sociuoft_0137.xml"/>virons d'Annadale. Ils ne s'éloignent pas autant de la ligne du chemin de fer.
+        Les tramps, qui voyagent à pied ou se glissent la nuit sur les vagons des trains de marchandises, et qui sont la plaie de beaucoup de cam¬pagnes américaines, sont heureusement presque inconnus dans les en
+        <pb facs="#facs_122" n="111" source="s2lesouvriersdes04sociuoft_0137.xml"/>
+        virons d'Annadale. Ils ne s'éloignent pas autant de la ligne du chemin de fer.
        </p>
        <p xml:id="para_7_111_63">
         Les Indiens chasseurs de la tribu des Comanches, qui occupaient ce pays depuis un temps immémorial, ont complètement disparu. Il n'y a pas un seul nègre dans les campagnes. Quelques noirs des an¬ciens États du Sud vont à Baird ou à Abilene comme servants d'hôtel, barbiers ou autres métiers inférieurs, mais ils n'y amènent pas leur famille. D'après le Census de 1890, il n'y avait que 31 noirs dans le comté de Callahan et 189 dans celui de Taylor. Cette partie du Texas était absolument inexplorée à l'époque de l'esclavage, et la race noire tend plutôt à se concentrer sur son ancien domaine qu'à s'é¬tendre. C'est une condition heureuse pour le pays ; car la pré¬sence de noirs est toujours une cause de démoralisation pour les blancs.
@@ -639,28 +691,57 @@
         § 2. ÉTAT CIVIL DE LA FAMILLE.
        </head>
        <p xml:id="para_7_112_70">
-        <pb facs="#facs_123" n="112" source="s2lesouvriersdes04sociuoft_0138.xml"/>La famille comprend sept personnes :
+        <pb facs="#facs_123" n="112" source="s2lesouvriersdes04sociuoft_0138.xml"/>
+        La famille comprend sept personnes :
        </p>
        <p xml:id="para_7_112_71">
-        1. <persName>W. B. F***</persName>, chef de famille, né dans le Tennessee............ 3 ans.
+        1.
+        <persName type="respondent" xml:id="ID-075aE1">
+         W. B. F***
+        </persName>
+        , chef de famille, né dans le Tennessee............ 3 ans.
        </p>
        <p xml:id="para_7_112_72">
-        2. <persName>L. B***</persName>, sa femme, née dans la Géorgie............ 30 —
+        2.
+        <persName type="respondent" xml:id="ID-075aE2">
+         L. B***
+        </persName>
+        , sa femme, née dans la Géorgie............ 30 —
        </p>
        <p xml:id="para_7_112_73">
-        3. <persName>LAURA F***</persName>, leur fille aînée, née dans le comté d'Ellis (Texas)............ 10 —
+        3.
+        <persName type="respondent" xml:id="ID-075aE3">
+         LAURA F***
+        </persName>
+        , leur fille aînée, née dans le comté d'Ellis (Texas)............ 10 —
        </p>
        <p xml:id="para_7_112_74">
-        4.<persName>SUZY F***</persName>, leur 2ᵉ fille, née dans le comté de Callahan............ 8 —
+        4.
+        <persName type="respondent" xml:id="ID-075aE4">
+         SUZY F***
+        </persName>
+        , leur 2ᵉ fille, née dans le comté de Callahan............ 8 —
        </p>
        <p xml:id="para_7_112_75">
-        5. <persName>ROBERT (BOB) F***</persName>, leur fils aîné, né dans le comté de Callahan............ 5 —
+        5.
+        <persName type="respondent" xml:id="ID-075aE5">
+         ROBERT (BOB) F***
+        </persName>
+        , leur fils aîné, né dans le comté de Callahan............ 5 —
        </p>
        <p xml:id="para_7_112_76">
-        6. <persName>JOHN F***</persName>, leur 2ᵉ fils............ 3 —
+        6.
+        <persName type="respondent" xml:id="ID-075aE6">
+         JOHN F***
+        </persName>
+        , leur 2ᵉ fils............ 3 —
        </p>
        <p xml:id="para_7_112_77">
-        7. <persName>HENRY F***</persName>, leur 3ᵉ fils............ 15 mois.
+        7.
+        <persName type="respondent" xml:id="ID-075aE7">
+         HENRY F***
+        </persName>
+        , leur 3ᵉ fils............ 15 mois.
        </p>
        <p xml:id="para_7_112_78">
         Les époux n'ont pas perdu d'enfants.
@@ -680,7 +761,9 @@
         Les deux époux sont protestants et ont des sentiments chrétiens très prononcés. La femme ainsi que ses parents appartient à l'église baptiste, qui est fort populaire parmi lesfrmers de cette région. Les éleveurs et les gens plus riches, qui descendent de Sudistes ruinés par la guerre de la Sécession, appartiennent généralement à l'Eglise épiscopalienne.
        </p>
        <p xml:id="para_7_112_84">
-        C'est grâce à l'intervention de la femme que les membres de l'Eglise baptiste ont obtenu du propriétaire d'Annadale l'autorisation, — accor¬dée de très bonne grâce quoiqu'il soit catholique, — de procéder dans l'un de ses étangs au baptême par immersion des adultes qui se <pb facs="#facs_124" n="113" source="s2lesouvriersdes04sociuoft_0139.xml"/> joignent à l'Eglise. Une cérémonie de ce genre, qui a eu lieu au mois d'aout 1891, avait attiré, indépendamment des membres de l'Eglise, de nombreux curieux. L'immersion de deux adultes, un jeune homme et une jeune femme, accomplie après des chants et des prières, célébrés sur le bord de l'étang avec une grande ferveur et beaucoup d'émotion, parut vivement intéresser les assistants. Même pour un indifférent, la simplicité de la cérémonie ne laissait pas d'avoir un caractère de grandeur. A cette occasion, la famille F*** a invité à sa table, au diner et au souper, les principaux voisins présents.
+        C'est grâce à l'intervention de la femme que les membres de l'Eglise baptiste ont obtenu du propriétaire d'Annadale l'autorisation, — accor¬dée de très bonne grâce quoiqu'il soit catholique, — de procéder dans l'un de ses étangs au baptême par immersion des adultes qui se
+        <pb facs="#facs_124" n="113" source="s2lesouvriersdes04sociuoft_0139.xml"/>
+        joignent à l'Eglise. Une cérémonie de ce genre, qui a eu lieu au mois d'aout 1891, avait attiré, indépendamment des membres de l'Eglise, de nombreux curieux. L'immersion de deux adultes, un jeune homme et une jeune femme, accomplie après des chants et des prières, célébrés sur le bord de l'étang avec une grande ferveur et beaucoup d'émotion, parut vivement intéresser les assistants. Même pour un indifférent, la simplicité de la cérémonie ne laissait pas d'avoir un caractère de grandeur. A cette occasion, la famille F*** a invité à sa table, au diner et au souper, les principaux voisins présents.
        </p>
        <p xml:id="para_7_113_86">
         L'Élise baptiste n'a pas dans ce comté de lieu de culte lui appar¬tenant en propre, où des services réguliers soient célébrés. Elle est au¬torisée seulement à se servir des bâtiments d'école, en se concertant avec les autres confessions qui en demanderaient l'usage le dimanche. Une sorte de roulement s'établit alors entre elles pour en user
@@ -695,7 +778,9 @@
         Le dimanche, la famille se borne à observer le repos suivant un usage absolument universel en Amérique, et qui au besoin serait sanctionné par la loi. F*** 1ait quelquefois une lecture dans la Bible et la femme chante parfois des cantiques avec les voisines qui sont venues la visiter. Des ministres itinérants viennent de temps à autre visiter la commu¬nauté baptiste, dont le zèle est en temps ordinaire entretenu par les elders ou notables.
        </p>
        <p xml:id="para_7_113_88">
-        Des eetings ont alors lieu plusieurs jours de suite dans les maisons d'école. Les chants, la prédication, les prières improvisées, les récits que les membres de l'Eglise, hommes et femmes, font de leurs expériences religieuses, alternent et occupent plusieurs heures. Outre les membres de l'Eglise, beaucoup defarmers du voisinage accourent à ces réunions qui ont lieu durant les nuits d'été et qui sont une occasion de se voir. lien n'est pittoresque, par un beau clair de lune, comme les chevaux attachés aux barrières voisines de la maison d'école, les vagons dans lesquels les familles sont venues de plusieurs milles à la ronde et où dorment sur un matelas les jeunes enfants qu'elles ont amenés pour ne pas les laisser seuls, les chiens qui ont accompagné leurs maîtres, les poulains qui ont suivi leur mère. Les prédications des ministres, surtout les témoignages rendus par les membres de l'llglise de leur état d'âme, avec une grande surexci¬tation qui se traduit souvent par des pleurs et des crises nerveuses, dé¬terminent généralement chez quelqu'un des assistants la persuasion <pb facs="#facs_125" n="114" source="s2lesouvriersdes04sociuoft_0140.xml"/> que l'lEsprit opère en lui. ll se déclare touché, affirme qu'il veut se convertir et va s'asseoir sur le banc d'anxiété. L'Église redouble de prières pour sa conversion ; ses amis, ses parents lui adressent les plus pressantes exhortations, et généralement, au bout d'une ou de plusieurs séances, le pécheur, touché par l'lEsprit-Saint, se proclame converti et se sent lui-même sanctifié. On le félicite, on l'adjoint à l'Eglise et on pro¬cède assez promptement à son baptême.
+        Des eetings ont alors lieu plusieurs jours de suite dans les maisons d'école. Les chants, la prédication, les prières improvisées, les récits que les membres de l'Eglise, hommes et femmes, font de leurs expériences religieuses, alternent et occupent plusieurs heures. Outre les membres de l'Eglise, beaucoup defarmers du voisinage accourent à ces réunions qui ont lieu durant les nuits d'été et qui sont une occasion de se voir. lien n'est pittoresque, par un beau clair de lune, comme les chevaux attachés aux barrières voisines de la maison d'école, les vagons dans lesquels les familles sont venues de plusieurs milles à la ronde et où dorment sur un matelas les jeunes enfants qu'elles ont amenés pour ne pas les laisser seuls, les chiens qui ont accompagné leurs maîtres, les poulains qui ont suivi leur mère. Les prédications des ministres, surtout les témoignages rendus par les membres de l'llglise de leur état d'âme, avec une grande surexci¬tation qui se traduit souvent par des pleurs et des crises nerveuses, dé¬terminent généralement chez quelqu'un des assistants la persuasion
+        <pb facs="#facs_125" n="114" source="s2lesouvriersdes04sociuoft_0140.xml"/>
+        que l'lEsprit opère en lui. ll se déclare touché, affirme qu'il veut se convertir et va s'asseoir sur le banc d'anxiété. L'Église redouble de prières pour sa conversion ; ses amis, ses parents lui adressent les plus pressantes exhortations, et généralement, au bout d'une ou de plusieurs séances, le pécheur, touché par l'lEsprit-Saint, se proclame converti et se sent lui-même sanctifié. On le félicite, on l'adjoint à l'Eglise et on pro¬cède assez promptement à son baptême.
        </p>
        <p xml:id="para_7_114_92">
         F*** a été précisément, au mois d'août 1891, le héros d'une de ces scènes. Il fréquentait depuis longtemps les meetings de l'Église baptiste et aussi les cmp-meetings qui ont lieu à intervalles irréguliers dans le voisinage. Les influences du milieu, ses sentiments religieux intimes. la grande honnêteté de sa vie devaient un jour ou l'autre amener ce dénouement.
@@ -710,7 +795,9 @@
         Si les protracted meetings que nous venons de décrire et qui sont tenus dans les locaux scolaires, malgré les crises nerveuses qui s'y produisent parfois, sont vus d'un il favorable par toutes les per¬sonnes qui attachent du prix au maintien des sentiments religieux, il n'en est pas de même des camp-mecetings organisés par des prédicants baptistes ou méthodistes. Comme l'indique leur nom, ils ont lieu dans des bois, où les assistants campent pendant plu¬sieurs jours dans une promiscuité très grande. La mangerie et la beuuerie y tiennent une grande place. Les prédications violentes des ministres déterminent chez les femmes des crises d'hystérie. Des hypocrites se glissent dans ces réunions auxquelles la curiosité attire une grande foule, et, la nuit ainsi que l'épaisseur des bois aidant, de graves désordres moraux s'y produisent.
        </p>
        <p xml:id="para_7_114_96">
-        La famille F*** est remarquable par sa moralité, par le dévouement du mari aux siens, par les vertus domestiques de la femme et par la bonne éducation donnée aux enfants. Les parents ne craignent pas <pb facs="#facs_126" n="115" source="s2lesouvriersdes04sociuoft_0141.xml"/> de donner aux plus jeunes quelques légères corrections manuelles appropriées à leur âge.
+        La famille F*** est remarquable par sa moralité, par le dévouement du mari aux siens, par les vertus domestiques de la femme et par la bonne éducation donnée aux enfants. Les parents ne craignent pas
+        <pb facs="#facs_126" n="115" source="s2lesouvriersdes04sociuoft_0141.xml"/>
+        de donner aux plus jeunes quelques légères corrections manuelles appropriées à leur âge.
        </p>
        <p xml:id="para_7_115_99">
         Les familles de farmers sont généralement très morales. L'absence complète de maisons de prostitution (une seule d'un ordre très infime est tolérée à Baird), et l'économie qu'un jeune homme réalise en ayant un ménage au lieu de vivre en pension font dumariage la grande ambition de toutjeune Américain. Recherchées par les jeunes gens avec une liberté d'entretien et de promenades qui est générale dans toutes les classes de la société, les jeunes filles font leur choix librement ; les jeunes gens paresseux ou mal doués sont éliminés. Les parents, au moins dans la classe des farmers, ne se désintéressent pas complète¬ment du mariage de leurs filles. Mais, quand celles-ci ont atteint l'âge de dix-huit ans, leur consentement n'est pas nécessaire pour l'obten¬tion de la licence ou pièce délivrée par le recorder du comté qui auto¬rise tout ministre d'un culte à procéder à la célébration du mariage. Si les parents refusent leur consentement, le couple n'en obtient pas moins sa licence et va se marier. On appelle cela dans le pays : to steal a girl. Les unions de ce genre ne sont pas mal vues par l'opinion.
@@ -725,7 +812,8 @@
         Néanmoins, ce tableau n'est pas sans quelques ombres. Les libres fréquentations des jeunes gens et des jeunes filles à la campagne. durant les nuits d'été, dans les camp-meetings surtout, amènent parfois des désordres que le mariage ne répare pas toujours. Quoique, par suite de certaines précautions, il ne s'ensuive jamais de naissances na¬turelles, il est plus d'une épouse qui n'apporte pas sa virginité à son mari, soit que des fraudes aient empêché la génération, soit même que l'on ait eu recours à des maneuvres abortives. Quelques pères de famille, plus vigilants que la généralité, s'opposent aux libres prome¬nades de leurs filles ; et ils ont leurs raisons pour cela.
        </p>
        <p xml:id="para_7_116_103">
-        <pb facs="#facs_127" n="116" source="s2lesouvriersdes04sociuoft_0142.xml"/> Il y a aussi un certain nombre de femmes divorcées dans le pays On les appelle, par courtoisie, des veuves : en fait, leur considération est quelque peu atteinte.
+        <pb facs="#facs_127" n="116" source="s2lesouvriersdes04sociuoft_0142.xml"/>
+        Il y a aussi un certain nombre de femmes divorcées dans le pays On les appelle, par courtoisie, des veuves : en fait, leur considération est quelque peu atteinte.
        </p>
        <p xml:id="para_7_116_104">
         Les familles de /farmers sont très fécondes. Dans le voisinage, plusieurs farmers ont jusqu'à dix-huit et vingt-quatre enfants, issus, il est vrai, de mariages successifs. Les veufs, dans cette classe, con¬volent avec une grande rapidité. Dans les familles plus riches, surtout parmi les habitants des petites villes de la contrée, les enfants sont au contraire peu nombreux : la généralité de ce fait témoigne d'une sté¬rilité systématique.
@@ -751,7 +839,9 @@
           qu'elle a été fixée par l'assessment du comté. Dans les cités, la taxe peut s'élever à 25 cents (1ᶠ30).
          </p>
         </note>
-        . Il serait <pb facs="#facs_128" n="117" source="s2lesouvriersdes04sociuoft_0143.xml"/> nécessaire d'y recourir, si, comme le demandent les fonctionnaires spéciaux de l'instruction publique, répondant en cela aux vœux des pères de famille peu fortunés, notamment de F***, la législature por¬tait à huit mois le temps pendant lequel l'école serait ouverte, au lieu de six mois, terme actuel, et attribuait gratuitement à tous les élèves les livres de classe.
+        . Il serait
+        <pb facs="#facs_128" n="117" source="s2lesouvriersdes04sociuoft_0143.xml"/>
+        nécessaire d'y recourir, si, comme le demandent les fonctionnaires spéciaux de l'instruction publique, répondant en cela aux vœux des pères de famille peu fortunés, notamment de F***, la législature por¬tait à huit mois le temps pendant lequel l'école serait ouverte, au lieu de six mois, terme actuel, et attribuait gratuitement à tous les élèves les livres de classe.
        </p>
        <p xml:id="para_7_117_111">
         D'après l'organisation actuelle, le territoire des comtés est partagé en school districts et en school communities, là où la population est moins dense. C'est à ce dernier type qu'appartient le comté de Callahan. Les schoolcommunities doivent entretenir une école tous les 4 milles carrés.
@@ -766,7 +856,9 @@
         , c'est¬à-dire partagée en plusieurs classes. En moyenne, elles avaient été ouvertes 4 mois et 14 jours. La population d'âge scolaire était de 1.158 enfants, et, en y comprenant les enfants au-dessus et au-dessous de l'âge légal qui avaient voulu suivre l'école, elle montait à 1.309 en¬fants de l'un et de l'autre sexe, sur lesquels 728 avaient été présents chaque jour en moyenne.
        </p>
        <p xml:id="para_7_117_113">
-        Jusqu'à présent, chaque bureau scolaire choisissait les livres de classe pour ses écoles ; mais, dans la session de 1891, la législature du Texas, cédant à des tendances centralisatrices et bureaucratiques qui se font jour dans beaucoup d'Etats de l'Union, a voté une loi aux termes de laquelle le State board of Education de l'État devra arrêter une liste de livres scolaires obligatoires uniformément dans toutes les écoles publiques de l'EEtat et passer des marchés avec des éditeurs pour qu'ils soient vendus à des prix fixes dans chaque comté. Les électeurs de chaque school commaunil nomment un oard of trustees composé de trois personnes dont les fonctions sont jusqu'à présent gratuites. Ces trustees choisissent librement le teacher, pourvu qu'il remplisse cer¬taines conditions et produise un certificat d'examen prévu par la loi. Les enfants des deux sexes sont élevés en commun ; ils vont depuis l'âge de sept ans dans les common schools et peuvent les fréquenter <pb facs="#facs_129" n="118" source="s2lesouvriersdes04sociuoft_0144.xml"/> jusqu'à seize. Tout enseignement confessionnel, sectarian, est exclu des common schools, et la constitution du Texas défend à la législa¬ture de subventionner aucune école ayant le caractère confessionnel ; néanmoins on chante des hymnes religieux et on fait des lectures de la Bible dans l'école que fréquentent les filles de F***. Le dimanche, des personnes zélées appartenant aux diverses confessions réunissent les enfants dans le local de l'école pour leur donner un enseignement re¬ligieux. En ce qui touche les catholiques, toutes les fois que le prêtre vient dire la messe à Clyde, il remplit ce devoir avec grand zèle dans l'après-midi.
+        Jusqu'à présent, chaque bureau scolaire choisissait les livres de classe pour ses écoles ; mais, dans la session de 1891, la législature du Texas, cédant à des tendances centralisatrices et bureaucratiques qui se font jour dans beaucoup d'Etats de l'Union, a voté une loi aux termes de laquelle le State board of Education de l'État devra arrêter une liste de livres scolaires obligatoires uniformément dans toutes les écoles publiques de l'EEtat et passer des marchés avec des éditeurs pour qu'ils soient vendus à des prix fixes dans chaque comté. Les électeurs de chaque school commaunil nomment un oard of trustees composé de trois personnes dont les fonctions sont jusqu'à présent gratuites. Ces trustees choisissent librement le teacher, pourvu qu'il remplisse cer¬taines conditions et produise un certificat d'examen prévu par la loi. Les enfants des deux sexes sont élevés en commun ; ils vont depuis l'âge de sept ans dans les common schools et peuvent les fréquenter
+        <pb facs="#facs_129" n="118" source="s2lesouvriersdes04sociuoft_0144.xml"/>
+        jusqu'à seize. Tout enseignement confessionnel, sectarian, est exclu des common schools, et la constitution du Texas défend à la législa¬ture de subventionner aucune école ayant le caractère confessionnel ; néanmoins on chante des hymnes religieux et on fait des lectures de la Bible dans l'école que fréquentent les filles de F***. Le dimanche, des personnes zélées appartenant aux diverses confessions réunissent les enfants dans le local de l'école pour leur donner un enseignement re¬ligieux. En ce qui touche les catholiques, toutes les fois que le prêtre vient dire la messe à Clyde, il remplit ce devoir avec grand zèle dans l'après-midi.
        </p>
        <p xml:id="para_7_118_118">
         Le teacher de l'école publique est un jeune homme du Missouri : son salaire est de 54 $ (233ᶠ10) par mois pendant les mois où l'école est effectivement ouverte
@@ -787,7 +879,9 @@
         Il y a encore au Texas un certain nombre de blancs absolument illet¬trés ; mais les grands efforts faits parlegouvernement de l'Étatet les com¬tés, quien 1888-89 n'ontpas dépensémoins de 3.350.000$ (17.353.000fr.) pour l'instruction publique, et surtout le courant très vif de l'opinion publique, feront dans le cours d'une génération cesser cet état de choses regrettable. F***et sa femme, qui, on l'a vu, sont nés l'un en Tennessee, l'autre en Géorgie, savent lire et écrire ; mais ils usent rarement de ces talents. F*** ne recoit pas de journaux et ne lit presque jamais. La correspondance de la famille ne dépasse pas cinq lettres par an ; mais F*** sait à l'occasion faire un compte comportant les opéra¬tions élémentaires de l'arithmétique.
        </p>
        <p xml:id="para_7_118_122">
-        F*** connait fort bien le mécanisme du gouvernement local et s'y intéresse avec sagacité. Le comté est administré sagement et honnê¬<pb facs="#facs_130" n="119" source="s2lesouvriersdes04sociuoft_0145.xml"/>tement. Il avait en 1880 une dette de 9300 dollars ; en 1890, elle était réduite à 8.000 dollars. F*** s'est engagé dans la Farmer's Alliance. C'est une organisation qui a pour objet de défendre les soi-disant in¬térêts économiques particuliers desfarmers. Elle a pris la forme d'une société secrète, suivant une habitude fréquente aux tats-Unis. Cette circonstance ajoute à l'intérêt que F*** prend aux réunions de la loge dont il fait partie
+        F*** connait fort bien le mécanisme du gouvernement local et s'y intéresse avec sagacité. Le comté est administré sagement et honnê¬
+        <pb facs="#facs_130" n="119" source="s2lesouvriersdes04sociuoft_0145.xml"/>
+        tement. Il avait en 1880 une dette de 9300 dollars ; en 1890, elle était réduite à 8.000 dollars. F*** s'est engagé dans la Farmer's Alliance. C'est une organisation qui a pour objet de défendre les soi-disant in¬térêts économiques particuliers desfarmers. Elle a pris la forme d'une société secrète, suivant une habitude fréquente aux tats-Unis. Cette circonstance ajoute à l'intérêt que F*** prend aux réunions de la loge dont il fait partie
         <ref target="#part_03_01_18" type="renvoi_int_mono">
          (§ 18)
         </ref>
@@ -819,7 +913,8 @@
         § 5. RANG DE LA FAMILLE.
        </head>
        <p xml:id="para_7_120_133">
-        <pb facs="#facs_131" n="120" source="s2lesouvriersdes04sociuoft_0146.xml"/>F*** appartient àla classe des petits farmers ; ilne possêde qu'un quart de section, 160 acres (64 hectares). Il a trouvé avantage à louer sa terre en colonat partiaire, pour être lui-même renter sur une farm beaucoup plus vaste et mieux outillée
+        <pb facs="#facs_131" n="120" source="s2lesouvriersdes04sociuoft_0146.xml"/>
+        F*** appartient àla classe des petits farmers ; ilne possêde qu'un quart de section, 160 acres (64 hectares). Il a trouvé avantage à louer sa terre en colonat partiaire, pour être lui-même renter sur une farm beaucoup plus vaste et mieux outillée
         <ref target="#part_02_04_12" type="renvoi_int_mono">
          (§ 12)
         </ref>
@@ -842,7 +937,9 @@
         Le genre de vie de la famille Fᵉ* est celui de tous les petitsfarmers. Elle s'élève au milieu d'eux, seulement par la considération justement acquise aux époux, en raison de leur honneteté, de leurs habitudes la¬borieuses, des bons rapports qu'ils entretiennent avec tout leur voisi¬nage.
        </p>
        <p xml:id="para_7_120_138">
-        L'habileté de F*** comme cultivateur, les talents de sa femme comme ménag̀re, leur permettront d'augmenter leurs propriétés ; mais leur ins<pb facs="#facs_132" n="121" source="s2lesouvriersdes04sociuoft_0147.xml"/>truction bornée les empêchera d'être jamais autre chose que des farmers.
+        L'habileté de F*** comme cultivateur, les talents de sa femme comme ménag̀re, leur permettront d'augmenter leurs propriétés ; mais leur ins
+        <pb facs="#facs_132" n="121" source="s2lesouvriersdes04sociuoft_0147.xml"/>
+        truction bornée les empêchera d'être jamais autre chose que des farmers.
        </p>
        <p xml:id="para_7_121_140">
         La liberté la plus absolue de tester et de disposer de ses biens par donation entre vifs est reconnue par les lois du Texas au père de fa¬mille. A défaunt de testament, les biens meubles et immeubles se parta¬gent par égales parts entre les enfants, sans distinction de sexe. En fait, les pères de famille qui ont des terres étendues en abandonnent à leurs fils certaines parties pour les établir. Quant à leurs filles, ils leur font en les mariant des cadeaux mobiliers, ou leur donnent même une dot proportionnée à leur fortune, mais généralement inférieure à la part de leurs fils. Dans les familles pauvres, et c'était le cas de la femme de F*** elles ne reçoivent à peu près rien.
@@ -867,12 +964,13 @@
        <head type="sub_sub_section" xml:id="part_02_02_06">
         § 6. PROPRIÉTÉS.
        </head>
-       <div type="proprietes" subtype="proprietes_texte_1">
+       <div subtype="proprietes_texte_1" type="proprietes">
         <p xml:id="para_7_122_146">
-         <pb facs="#facs_133" n="122" source="s2lesouvriersdes04sociuoft_0148.xml"/>(Mobilier et vêtements non compris.)
+         <pb facs="#facs_133" n="122" source="s2lesouvriersdes04sociuoft_0148.xml"/>
+         (Mobilier et vêtements non compris.)
         </p>
        </div>
-       <div type="proprietes" subtype="immeubles">
+       <div subtype="immeubles" type="proprietes">
         <p xml:id="para_7_122_147">
          IMMEUBLES : formant un quart de section, soit 160 acres (64 hectares), sis à 2 milles (3.218ᵐ) à l'ouest du domaine d'Annadale sur lequel réside momentanément la famille............ 2.400$ (12.432ᶠ 00).
         </p>
@@ -883,11 +981,12 @@
          Immeubles ruraux. — 60 acres (24 hectares) de terres défrichées, 1.250$ (6.175ᶠ00); — 100 acres en pâture, 800$ (4.144ᶠ090) : — clôtures en fil de fer avec pointes reposant sur des pi¬quets de chêne, 225$ (1.165ᶠ50). — Total, 2.275$ (11.784ᶠ50).
         </p>
        </div>
-       <div type="proprietes" subtype="argent"><p xml:id="para_7_122_150">
-        ARGENT : la famille n'a pas de compte en banque et son fonds de roulement ne dépasse pas............ 22$ (113ᶠ 96).
-       </p>
+       <div subtype="argent" type="proprietes">
+        <p xml:id="para_7_122_150">
+         ARGENT : la famille n'a pas de compte en banque et son fonds de roulement ne dépasse pas............ 22$ (113ᶠ 96).
+        </p>
        </div>
-       <div type="proprietes" subtype="animaux">
+       <div subtype="animaux" type="proprietes">
         <p xml:id="para_7_122_151">
          ANIMAUX DOMESTIQUES entretenus toute l'année............ 345 $ (1.787ᶠ10).
         </p>
@@ -895,7 +994,7 @@
          1 paire de poulinieres, 120$ (621ᶠ60) ; — 1 poulinière forte, 100$ (518ᶠ00): — 1 paire de jeunes mules de 18 mois, 100$ (518ᶠ00) ; — 1 vache laitière, 15$ (77ᶠ70) ; — 20 poules à 50 cents (2ᶠ59), 10$ (51ᶠ80). — Total, 345$ (1.77ᶠ10.)
         </p>
        </div>
-       <div type="proprietes" subtype="materiel">
+       <div subtype="materiel" type="proprietes">
         <p xml:id="para_7_122_153">
          MATÉRIEL SPÉCIAL DES TRAVAUX ET INDUSTRIES............ 91$, 55 (474ᶠ23).
         </p>
@@ -912,7 +1011,7 @@
          4° Pour le blanchissage du linge et la confection des vêtements. — 1 machine à coudre achetée d'occasion dans la présente année, 7$ (36ᶠ26); — 1 petit baquet en bois, 50 cents (2ᶠ59); — 1 vase en fer-blanc pour cauffer l'eau sur le poêle, 25 cents (1ᶠ30); —  fers à re¬passer, 40 cents (2ᶠ0). — Total. 8$, 15 (4ᶠ22).
         </p>
        </div>
-       <div type="proprietes" subtype="proprietes_total">
+       <div subtype="proprietes_total" type="proprietes">
         <p xml:id="para_7_122_162">
          VALEUR TOTALE des propriétés............ 2.858 $, 55 (14.8O7ᶠ 29).
         </p>
@@ -923,7 +1022,9 @@
         § 7. SUBVENTIONS.
        </head>
        <p xml:id="para_7_122_165">
-        Les conditions économiques, dans lesquelles s'accomplit l'occupation des territoires nouveaux à l'Ouest, ne comportent pas la constitution <pb facs="#facs_134" n="123" source="s2lesouvriersdes04sociuoft_0149.xml"/> de hiens communaux, forêts et pâturages, réservés pour l'usage col¬lectif des habitants. Les commons, qui existaient dans quelques colonies de l'Est, ont, dês la seconde moitié du dix-huitième siècle ou au plus tard au commencement de celui-ci, été partagés entre les ayants-droit ou vendus à leur profit
+        Les conditions économiques, dans lesquelles s'accomplit l'occupation des territoires nouveaux à l'Ouest, ne comportent pas la constitution
+        <pb facs="#facs_134" n="123" source="s2lesouvriersdes04sociuoft_0149.xml"/>
+        de hiens communaux, forêts et pâturages, réservés pour l'usage col¬lectif des habitants. Les commons, qui existaient dans quelques colonies de l'Est, ont, dês la seconde moitié du dix-huitième siècle ou au plus tard au commencement de celui-ci, été partagés entre les ayants-droit ou vendus à leur profit
         <note type="bp">
          <p>
           V. notre étude sur 'Histoire de la propriétè fonciére dans les colonies anglaises d'Amerique, dans la Réforme sociale des 1ᵉʳ janvier 1887 et 1ᵉʳ janvier 1888.
@@ -939,7 +1040,9 @@
         . Cela constitue une subvention considérable pour les familles pauvres et nombreuses. F*** ne paye en fait que 1 $, 50 (777) pour la taxe d'Eat. Ses deux filles reçoivent une instruction qui coûte à l'Etat 9 $ (46ᶠ62). A un certain moment, il aura quatre enfants à l'école en même temps : il recevra alors 18 $ (93ᶠ24) de l'État, auquel il paiera seulement 1 $, 50 (7ᶠ77), peut-être 2 $ (10ᶠ 36) de taxe scolaire. On s'explique donc que les farmers de la catégorie de F*** poussent sys¬tématiquement au développement dusysteme de l'instruction publique par l'État : extension du terme scolaire, allocations gratuites de livres, ftt-ce au prix de l'établissement d'une taxe spéciale de comté. La résistance viendrait plutôt des grands propriétaires et de la population de couvbogs, généralementcélibataire, qui vit sur les ranchs elle s'oppose autant que possible à l'élévation des taxes et à la complication des rouages du gouvernement local. C'est là le fonds des petites luttes élec¬torales locales, luttes d'ailleurs exemptes de passion dans le comté de Callahan. Cette opposition de vues chez les divers membres de la communauté reste à l'état latent et ne se manifeste pas ostensible¬
        </p>
        <p xml:id="para_7_123_168">
-        Il n'y a pas dans le comté de système de publiec charities. Le poor<pb facs="#facs_135" n="124" source="s2lesouvriersdes04sociuoft_0150.xml"/>house qui doit exister au chef-lieu
+        Il n'y a pas dans le comté de système de publiec charities. Le poor
+        <pb facs="#facs_135" n="124" source="s2lesouvriersdes04sociuoft_0150.xml"/>
+        house qui doit exister au chef-lieu
         <ref target="#part_03_01_19" type="renvoi_int_mono">
          (§ 19)
         </ref>
@@ -959,15 +1062,17 @@
        <head type="sub_sub_section" xml:id="part_02_02_08">
         § 8. TRAVAUX ET INDUSTRIES.
        </head>
-       <div type="travaux" subtype="travaux_texte_1">
+       <div subtype="travaux_texte_1" type="travaux">
         <p xml:id="para_7_124_176">
-         Les travaux et industries de la famille ont pour objet : 1° la culture des 180 acres (72 hectares) de terre louées en métayage par le pro¬priétaire du domaine d'Annadale, et du jardin qui y est annexé ; 2° l'élevage de veaux et poulains fournis par 1 vache et 3 poulinières, et la fabrication du beurre ; 3° et 4° l'exploitation de 20 poules et de <pb facs="#facs_136" n="125" source="s2lesouvriersdes04sociuoft_0151.xml"/> 4 porcs ; 5° l'exploitation, sur la terre du propriétaire, en vertu d'un contrat spécial, de 3 acres (1 hectare, 20 ares) en millet fourrager 6ᵉ l'exploitation sur son propre domaine de acres (2 hectares, 80 ares) en coton; 7° la confection des vêtements et le blanchissage du linge ; 8° enfin, la famille F*** g'est chargée à forfait, moyennant 8 $ (41ᶠ44) par mois, de la nourriture et du blanchissage du proprié¬taire d'Annadale qui est célibataire, ainsi que des hôtes qu'il a reçus et des journaliers qu'il a employés.
+         Les travaux et industries de la famille ont pour objet : 1° la culture des 180 acres (72 hectares) de terre louées en métayage par le pro¬priétaire du domaine d'Annadale, et du jardin qui y est annexé ; 2° l'élevage de veaux et poulains fournis par 1 vache et 3 poulinières, et la fabrication du beurre ; 3° et 4° l'exploitation de 20 poules et de
+         <pb facs="#facs_136" n="125" source="s2lesouvriersdes04sociuoft_0151.xml"/>
+         4 porcs ; 5° l'exploitation, sur la terre du propriétaire, en vertu d'un contrat spécial, de 3 acres (1 hectare, 20 ares) en millet fourrager 6ᵉ l'exploitation sur son propre domaine de acres (2 hectares, 80 ares) en coton; 7° la confection des vêtements et le blanchissage du linge ; 8° enfin, la famille F*** g'est chargée à forfait, moyennant 8 $ (41ᶠ44) par mois, de la nourriture et du blanchissage du proprié¬taire d'Annadale qui est célibataire, ainsi que des hôtes qu'il a reçus et des journaliers qu'il a employés.
         </p>
         <p xml:id="para_7_125_178">
          Il n'y a dans le pays aucune industrie domestique de filage, de tis¬sage. ni de fabrication d'instruments. Même dans l'Est des Etats-Unis, depuis quarante ans, toutes ces industries domestiques ont dis¬paru. La mère de famille fabrique seulement un savon grossier avec la graisse des porcs élevés sur l'exploitation.
         </p>
        </div>
-       <div type="travaux" subtype="chef_famille">
+       <div subtype="chef_famille" type="travaux">
         <p xml:id="para_7_125_179">
          Travaux du chef de famille. — Ils ont cette année pour principal objet la culture des terres que lui a louées le propriétaire du domaine d'Annadale, et l'exploitation du jardin et de la basse-cour. On compte de ce chefun total de 229 journées. La culture de coton entreprise à son compte a pris 26 journées ; une culture de fourrage entreprise à moitié fruits sur la terre du propriétaire, en vertu d'un contrat posté¬rieur, a pris 3 journées ; la vente des produits de la chasse a enfin absorbé 1 journée. Quant à la chasse et à la pêche elles-mêmes, elles ont eu lieu à temps perdu et doivent être considérées comme des ré¬créations. La recette portée de ce chef au budget des recettes n'est vrai¬semblablement pas de nature à se renouveler. Les soins donnés à l'élevage des poulains figurent dans le compte des salaires pour 18 journées. Mais, en fait, ces soins se répartissent sur un très grand nombre d'heures prélevées sur d'autres travaux, et tous les éleveurs savent que ce travail a des charmes qui ne permettent pas de le comparer aux labeurs de la culture ou des arts mécaniques. F*** trouvé une source de profits en faisant un certain nombre de journées
          <ref target="#part_02_05_16" type="renvoi_int_mono">
@@ -979,9 +1084,10 @@
          Aux époques des grands travaux, F*** n'a pas pu y suffire seul. Il a dû se procurer 250 journées de travail supplémentaires, soit en les payant, soit en rendant des journées en nature. Ces journaliers ont été nourris à la table de famille.
         </p>
        </div>
-       <div type="travaux" subtype="femme">
+       <div subtype="femme" type="travaux">
         <p xml:id="para_7_126_181">
-         <pb facs="#facs_137" n="126" source="s2lesouvriersdes04sociuoft_0152.xml"/> Travaux de la femme. — Le soin de ses enfants et de son ménage, la préparation journaliêre des repas, qui comprend, deux fois par jour, la cuisson du pain, absorbenttous ses instants. Elle ne quitte jamais sa maison. Le blanchissage, eu égard à la petite quantité de linge pos¬sédée par la famille, n'est pas une occupation considérable. L'usage est de repasser soigneusement tout le linge, surtout les robes de toile de coton de la femme et de ses filles ; cette seconde opération entraine plus de travail que la première. Dans ses moments perdus, elle con¬fectionne avec beaucoup d'habileté ses vêtements, ceux de ses enfants et une partie de ceux de son mari.
+         <pb facs="#facs_137" n="126" source="s2lesouvriersdes04sociuoft_0152.xml"/>
+         Travaux de la femme. — Le soin de ses enfants et de son ménage, la préparation journaliêre des repas, qui comprend, deux fois par jour, la cuisson du pain, absorbenttous ses instants. Elle ne quitte jamais sa maison. Le blanchissage, eu égard à la petite quantité de linge pos¬sédée par la famille, n'est pas une occupation considérable. L'usage est de repasser soigneusement tout le linge, surtout les robes de toile de coton de la femme et de ses filles ; cette seconde opération entraine plus de travail que la première. Dans ses moments perdus, elle con¬fectionne avec beaucoup d'habileté ses vêtements, ceux de ses enfants et une partie de ceux de son mari.
         </p>
         <p xml:id="para_7_126_182">
          Cette industrie n'est exercée que sur une petite échelle ; car, en étu¬diant les détails de la monographie, on sera frappé de l'absence pres¬que complète de linge de maison et de la très petite quantité de linge de corps.
@@ -993,12 +1099,14 @@
          Les femmes ne se louant pas à la journée en Amérique, leur travail n'est guère susceptible d'une évaluation monétaire. Néanmoins, en prenant pour base les prix alloués couramment pour le blanchissage ou la confection des vêtements, quand ces travaux sont exécutés à l'entreprise, on a pu fixer à 50 cents (2ᶠ 50) la valeur de la journée de la femme : ce chiffre est la moitié de celui de la journée d'un homme.
         </p>
        </div>
-       <div type="travaux" subtype="jeunes_filles_fils_aine">
+       <div subtype="jeunes_filles_fils_aine" type="travaux">
         <p xml:id="para_7_126_185">
          Travaux des deux jeunes filles et de l'ainé des garçons. — L'ainée des filles, Laura, aide sa mère dans les soins du ménage et dans vl'élevage de la volaille. Elle garde presque constamment son plus jeune frêre, le petit lenry. Les autres enfants sont encore trop jeunes pour se livrer à aucun travail. Néanmoins, ils ont aidé leurs parents à recueillir la récolte de coton faite sur leur domaine à leur compte exclusif.
         </p>
         <p xml:id="para_7_126_186">
-         Les gousses de coton se recueillent au fur et à mesure qu'elles mû¬rissent, depuis le commencement de septembre jusqu'à la fin d'octo¬bre. C'est un travail minutieux mais non fatigant, uquel les femmes et les enfants sont éminemment propres. On le donne à prix fait à rai¬son de 75 cents (3ᶠ89) les 100 livres, ce qui est une très lourde charge pour le propriétaire qui ne travaille pas de ses mains. Dans presque <pb facs="#facs_138" n="127" source="s2lesouvriersdes04sociuoft_0153.xml"/> toute l'Union américaine, le coton est aujourd'hui cultivé par les di¬verses combinaisons du colonat partiaire, de manière à rejeter cette charge sur le cultivateur qui y emploie ses jeunes enfants. Le proprié¬taire n'a que le tiers ou le quart de la récolte.
+         Les gousses de coton se recueillent au fur et à mesure qu'elles mû¬rissent, depuis le commencement de septembre jusqu'à la fin d'octo¬bre. C'est un travail minutieux mais non fatigant, uquel les femmes et les enfants sont éminemment propres. On le donne à prix fait à rai¬son de 75 cents (3ᶠ89) les 100 livres, ce qui est une très lourde charge pour le propriétaire qui ne travaille pas de ses mains. Dans presque
+         <pb facs="#facs_138" n="127" source="s2lesouvriersdes04sociuoft_0153.xml"/>
+         toute l'Union américaine, le coton est aujourd'hui cultivé par les di¬verses combinaisons du colonat partiaire, de manière à rejeter cette charge sur le cultivateur qui y emploie ses jeunes enfants. Le proprié¬taire n'a que le tiers ou le quart de la récolte.
         </p>
         <p xml:id="para_7_127_189">
          Ce résultat ressort très bien du compte de l'exploitation de coton faite par F*** sur les 7 acres (2 hectares) qu'il a cultivés ainsi. Le ramassage de coton est évalué, conformément au prix courant, à 33 $, 75 (174ᶠ 83). Il y a employé personnellement 10 journées à di¬riger ses jeunes enfants. Il reste donc à l'actif de ceux-ci un gain de 23 $, 75 (123ᶠ03).
@@ -1021,7 +1129,9 @@
         Eté comme hiver, la famille fait trois repas par jour : le breabfast une demi-heure après le lever du soleil, le dinner à midi, le supper après le coucher du soleil. La composition de ces trois repas est la même et leur importance est égale.
        </p>
        <p xml:id="para_7_127_195">
-        Chaque repas se compose : 1° de pain, sous la forme de biscuits chauds, c'est-à-dire de farine pétrie dans de la graisse et cuite légêrement sans levain, quelquefois cette préparation est remplacée par une autre qu'on appelle light bread, pain levé avec du ferment qui se rappro¬che davantage du pain français, ou même par des biscuits sucrés; ces sortes de pains sont faits avec de la farine depremière qualité ; —2° de lard frit dans sa graisse. Il est remplacé, pendant trois ou quatre mois <pb facs="#facs_139" n="128" source="s2lesouvriersdes04sociuoft_0154.xml"/> d'hiver, par de la viande fraiche de porc, de veau ou de beuf. La fa¬milleélève quatre porcs par an, qui sont abattus successivement pendant l'hiver et sont consommés comme viande fraîche ou salée. Elle abat aussi quelques veaux. Pendant les mois d'hiver, la viande se conserve facilement moyennant des précautions. Néanmoins, on ne pourrait conserver gelés pendant plusieurs mois des animaux comme on le fait dans le Canada ou les ́tats du Nord. Quand une personne abat un bœuf, elle avertit ses voisins et on se le partage par quartiers. Ceux qui en prennent un ne le payent pas en argent, mais, lorsqu'eux-mêmes tuent un bœuf, ils rendent en nature l'équivalent de ce quartier. — 3Au lard frit ou à la viande s'ajoutent, soit du riz bouilli, soit des pommes de terre ou des légumes, pois, haricots, suivant la saison. — 4° Environ quarante fois par an, quand la famille reçoit des parents, ou bien le dimanche, elle tue un poulet. — 5° Assez fréquemment la femme fait un gâteau (pie) avec de la farine et des raisins secs. Il y a géné¬ralement sur la table du beurre légèrement salé et de la mélasse, quelque fois des confitures, ou des conserves de concombres dans du vinaigre, préparées par la femme.
+        Chaque repas se compose : 1° de pain, sous la forme de biscuits chauds, c'est-à-dire de farine pétrie dans de la graisse et cuite légêrement sans levain, quelquefois cette préparation est remplacée par une autre qu'on appelle light bread, pain levé avec du ferment qui se rappro¬che davantage du pain français, ou même par des biscuits sucrés; ces sortes de pains sont faits avec de la farine depremière qualité ; —2° de lard frit dans sa graisse. Il est remplacé, pendant trois ou quatre mois
+        <pb facs="#facs_139" n="128" source="s2lesouvriersdes04sociuoft_0154.xml"/>
+        d'hiver, par de la viande fraiche de porc, de veau ou de beuf. La fa¬milleélève quatre porcs par an, qui sont abattus successivement pendant l'hiver et sont consommés comme viande fraîche ou salée. Elle abat aussi quelques veaux. Pendant les mois d'hiver, la viande se conserve facilement moyennant des précautions. Néanmoins, on ne pourrait conserver gelés pendant plusieurs mois des animaux comme on le fait dans le Canada ou les ́tats du Nord. Quand une personne abat un bœuf, elle avertit ses voisins et on se le partage par quartiers. Ceux qui en prennent un ne le payent pas en argent, mais, lorsqu'eux-mêmes tuent un bœuf, ils rendent en nature l'équivalent de ce quartier. — 3Au lard frit ou à la viande s'ajoutent, soit du riz bouilli, soit des pommes de terre ou des légumes, pois, haricots, suivant la saison. — 4° Environ quarante fois par an, quand la famille reçoit des parents, ou bien le dimanche, elle tue un poulet. — 5° Assez fréquemment la femme fait un gâteau (pie) avec de la farine et des raisins secs. Il y a géné¬ralement sur la table du beurre légèrement salé et de la mélasse, quelque fois des confitures, ou des conserves de concombres dans du vinaigre, préparées par la femme.
        </p>
        <p xml:id="para_7_128_197">
         Le lait écrémé et le café sucré forment la boisson habituelle ; ra¬rement on a recours au thé. La famille ne consomme de boissons spi¬ritueuses ni chez elle, ni au dehors.
@@ -1046,12 +1156,13 @@
        <head type="sub_sub_section" xml:id="part_02_03_10">
         § 10. HABITATION, MOBILIER ET VÊTEMENTS.
        </head>
-       <div type="par_10" subtype="par_10_texte_1">
+       <div subtype="par_10_texte_1" type="par_10">
         <p xml:id="para_7_129_205">
-         <pb facs="#facs_140" n="129" source="s2lesouvriersdes04sociuoft_0155.xml"/>Les habitations du pays sont precsque toutes en bois, et notam¬ment celle que possède F*** sur son domaine. Par exception, la mai¬son d'Annadale est en pierres, ce qui assure plus de fraicheur en été et plus de chaleur en hiver ; les trois pièces dont la jouissance est abandonnée à la famille, en vertu de son bail de métayage. sont vastes, élevées de plafond et largement aérées. L'une est la chambre à coucher du père et de la mère et des plus jeunes enfants ; il s'y trouve une cheminée, mais l'on a rarement besoin d'y faire du feu. Dans la seconde, qui sert de salle à manger, se trouvent deux grands lits et un petit lit d'enfant. C'est là que couchent l'aieule et les jeunes filles. La troisième pièce sert exclusivement de cuisiue ; le poêle est alimenté avec du bois fourni par le domaine. Il n'y a qu'un rez-de¬chaussée que des vérandas protègent contre l'ardeur du soleil en été. La maison est régulièrement orientée, conformément à l'usage du pays, en sorte que l'ombre indique toujours au moins l'heure de
+         <pb facs="#facs_140" n="129" source="s2lesouvriersdes04sociuoft_0155.xml"/>
+         Les habitations du pays sont precsque toutes en bois, et notam¬ment celle que possède F*** sur son domaine. Par exception, la mai¬son d'Annadale est en pierres, ce qui assure plus de fraicheur en été et plus de chaleur en hiver ; les trois pièces dont la jouissance est abandonnée à la famille, en vertu de son bail de métayage. sont vastes, élevées de plafond et largement aérées. L'une est la chambre à coucher du père et de la mère et des plus jeunes enfants ; il s'y trouve une cheminée, mais l'on a rarement besoin d'y faire du feu. Dans la seconde, qui sert de salle à manger, se trouvent deux grands lits et un petit lit d'enfant. C'est là que couchent l'aieule et les jeunes filles. La troisième pièce sert exclusivement de cuisiue ; le poêle est alimenté avec du bois fourni par le domaine. Il n'y a qu'un rez-de¬chaussée que des vérandas protègent contre l'ardeur du soleil en été. La maison est régulièrement orientée, conformément à l'usage du pays, en sorte que l'ombre indique toujours au moins l'heure de
         </p>
        </div>
-       <div type="par_10" subtype="meubles">
+       <div subtype="meubles" type="par_10">
         <p xml:id="para_7_129_206">
          MEUBLES : le mobilier, ainsi que le linge de ménage et les vête¬ments, est extrêmement simple. C'est un trait général du pays : la po¬pulation, par suite des conditions climatériques analogues, se rap¬proche, sous ce rapport, de celles du midi de l'Espagne et de l'Ialie. La famille F*** met d'ailleurs sa principale ambition à achever les versements qu'elle doit opérer sur le prix d'acquisition de sa terre, à en acheter une seconde et à se constituer un capital d'exploita¬tion............ 45$, 65 (236ᶠ 47)
         </p>
@@ -1065,12 +1176,13 @@
          3° Livres, gravures et objets de piété. — 1 bible, 1$ (5ᶠ 18) ; — livres scolaires des en¬fants, 3$ (15ᶠ54); — 4 images encadrées, 40 cents (2ᶠ07). — Total, 4$,40 (22ᶠ 79).
         </p>
        </div>
-       <div type="par_10" subtype="ustensiles">
+       <div subtype="ustensiles" type="par_10">
         <p xml:id="para_7_129_210">
          UTENSILES : réduits, comme le mobilier, au strict néces¬saire............ 11$, 25 (58ᶠ28)
         </p>
         <p xml:id="para_7_130_212">
-         <pb facs="#facs_141" n="130" source="s2lesouvriersdes04sociuoft_0156.xml"/> 1° Servant à la préparation ou a la consommation des aliments. — 4 pots en fer blanc 2$ (10ᶠ36); — 6 assiettes en faience, 4 verres, 6 tasses en faience, 6 couteaux en fer, 6 four¬chettes en fer, 5$ (25ᶠ 90); — 1 sucrier et 1 pot à lard, 25 cents (1ᶠ30). — Total, 7$, 25 (37ᶠ56).
+         <pb facs="#facs_141" n="130" source="s2lesouvriersdes04sociuoft_0156.xml"/>
+         1° Servant à la préparation ou a la consommation des aliments. — 4 pots en fer blanc 2$ (10ᶠ36); — 6 assiettes en faience, 4 verres, 6 tasses en faience, 6 couteaux en fer, 6 four¬chettes en fer, 5$ (25ᶠ 90); — 1 sucrier et 1 pot à lard, 25 cents (1ᶠ30). — Total, 7$, 25 (37ᶠ56).
         </p>
         <p xml:id="para_7_130_213">
          2° Employés au chauffage, a l'éclairage et au nettoyage. — 1 vieux poêle, 2$ (10ᶠ36) ; 2 lampes à pétrole, 1$ (5ᶠ18). — 1 balai, 25 cents (1ᶠ 30). — Total, 3$, 25 (16ᶠ84).
@@ -1079,7 +1191,7 @@
          3° Objets de toilette. — 2 brosses, 2 peignes et 1 cuvette pour la femme, 75 cents (3ᶠ883).
         </p>
        </div>
-       <div type="par_10" subtype="armes">
+       <div subtype="armes" type="par_10">
         <p xml:id="para_7_130_215">
          ARMES : pour l'usage personnel du chef de famille............ 8$ (41ᶠ44)
         </p>
@@ -1087,7 +1199,7 @@
          1 revolver, 8 (41ᶠ14).
         </p>
        </div>
-       <div type="par_10" subtype="linge">
+       <div subtype="linge" type="par_10">
         <p xml:id="para_7_130_217">
          LINGE DE MÉNAGE : peu abondant et composé exclusivement d'objets en coton............ 6$ (31ᶠ0§8)
         </p>
@@ -1095,7 +1207,7 @@
          4 paires de draps de coton, 3 $ (15ᶠ54); — 2 nappes et 4 serviettes neuves, 2$ (10ᶠ36) ; — nappes et 4 vieilles serviettes, 1$ (5ᶠ18). — Total, 6$ (31ᶠ08).
         </p>
        </div>
-       <div type="par_10" subtype="vetements">
+       <div subtype="vetements" type="par_10">
         <p xml:id="para_7_130_219">
          VÊTEMENTS : réduits au strict nécessaire........ 54$, 95 (284ᶠ64)
         </p>
@@ -1130,7 +1242,7 @@
          VÊTEMENTS DES GARÇONS (arrangés par la mère dans les vieux vêtements de la famille ; sans valeur).
         </p>
        </div>
-       <div type="par_10" subtype="par_10_total">
+       <div subtype="par_10_total" type="par_10">
         <p xml:id="para_7_130_232">
          VALEUR TOTALE du mobilier et des vêtements............ 125 $,85 (651ᶠ91)
         </p>
@@ -1141,7 +1253,8 @@
         § 11. RÉCRÉATIONS.
        </head>
        <p xml:id="para_7_131_235">
-        <pb facs="#facs_142" n="131" source="s2lesouvriersdes04sociuoft_0157.xml"/>Les farmers du comté de Callahan n'ont aucune réjouissance pu¬blique, civile ou religieuse. La fête du4 juillet, anniversaire de l'ndé¬pendance américaine, et le Thanksgiving dag, en octobre, ne sont cé¬lébrés que dans les villes. Ces fêtes ne semblent d'ailleurs pas offrir le même intérêt pour les habitants du Texas que pour ceux des vieux Etats de l'Est.
+        <pb facs="#facs_142" n="131" source="s2lesouvriersdes04sociuoft_0157.xml"/>
+        Les farmers du comté de Callahan n'ont aucune réjouissance pu¬blique, civile ou religieuse. La fête du4 juillet, anniversaire de l'ndé¬pendance américaine, et le Thanksgiving dag, en octobre, ne sont cé¬lébrés que dans les villes. Ces fêtes ne semblent d'ailleurs pas offrir le même intérêt pour les habitants du Texas que pour ceux des vieux Etats de l'Est.
        </p>
        <p xml:id="para_7_131_236">
         Les exercices du culte ne sont pour la famille qu'une distraction in¬termittente, car il n'y a pas de service régulier le dimanche. Ce jour-là, le repos le plus absolu est observé ; on recoit ou l'on fait seulement quelques visites de voisinage.
@@ -1162,7 +1275,9 @@
         .
        </p>
        <p xml:id="para_7_131_239">
-        La femme F***, contrairement à l'usage des campagnardes d'origine <pb facs="#facs_143" n="132" source="s2lesouvriersdes04sociuoft_0158.xml"/> texienne, ne chique pas. Le soin de son ménage et de ses enfants lui per¬met très rarement d'assister à des meetings religieux, malgré le plaisir qu'elle y éprouverait. Sa seule distraction consiste à recevoir les visites de sa mère ou de ses parents, très rarement à aller voir sa sur établie dans le voisinage. Ainsi qu'on l'a dit, la célébration dans l'étang voisin des baptèmes baptistes est pour la famille l'occasion d'une sorte de ré¬ception, qui se renouvelle une ou deux fois tout au plus par an.
+        La femme F***, contrairement à l'usage des campagnardes d'origine
+        <pb facs="#facs_143" n="132" source="s2lesouvriersdes04sociuoft_0158.xml"/>
+        texienne, ne chique pas. Le soin de son ménage et de ses enfants lui per¬met très rarement d'assister à des meetings religieux, malgré le plaisir qu'elle y éprouverait. Sa seule distraction consiste à recevoir les visites de sa mère ou de ses parents, très rarement à aller voir sa sur établie dans le voisinage. Ainsi qu'on l'a dit, la célébration dans l'étang voisin des baptèmes baptistes est pour la famille l'occasion d'une sorte de ré¬ception, qui se renouvelle une ou deux fois tout au plus par an.
        </p>
        <p xml:id="para_7_132_243">
         Les frères et sœurs sont généralement affectionnés les uns aux autres ; les relations de parenté sont entretenues autant que le permettent la dispersion et la mobilité des familles américaines.
@@ -1188,7 +1303,8 @@
         § 12. PHASES PRINCIPALES DE L'EXISTENCE.
        </head>
        <p xml:id="para_7_133_249">
-        <pb facs="#facs_144" n="133" source="s2lesouvriersdes04sociuoft_0159.xml"/>F*** est né dans le 'ennessee d'une famille de petits cultivateurs, de ceux qu'on appelait autrefois les petits blancs. Son père était un émi¬gré écossais. Ses parents sont morts l'un et l'autre. A dix-huit ans, il alla dans le comté d'Ellis, au sudde Dallas, à 200 milles (325,862) de la localitéou il est établi actuellement. C'était alors le point extrême at¬teint à l'Ouest par la colonisation. Il travailla comme journalier che un de ses oncles qui l'avait précédé dans ce pays. Au bout de deux ans, il ft àmême d'acheer un buitième de section. 0 acres. 32 hectares), à raison de 2 $ (10ᶠ 36) l'acre (40 ares), et entreprit de le détfricher. Ils'y construisit lui-même une maison de bois ; car il est habile charpentier en même temps que cultivateur. Il se maria l'an d'après avec une jeune fille de dix-neufans, L.B'**, dont les parents, originaires de la Géorgie, étaient venus, eux aussi. s'établir dans le comté d'Ellis. C'est là qu'ha¬bitent encore sa belle-mère, restée veuve, et plusieurs de ses frères et sœurs. Sa femme ne lui apportait en dot que sa vertu et ses remar¬quables qualités de ménagère.
+        <pb facs="#facs_144" n="133" source="s2lesouvriersdes04sociuoft_0159.xml"/>
+        F*** est né dans le 'ennessee d'une famille de petits cultivateurs, de ceux qu'on appelait autrefois les petits blancs. Son père était un émi¬gré écossais. Ses parents sont morts l'un et l'autre. A dix-huit ans, il alla dans le comté d'Ellis, au sudde Dallas, à 200 milles (325,862) de la localitéou il est établi actuellement. C'était alors le point extrême at¬teint à l'Ouest par la colonisation. Il travailla comme journalier che un de ses oncles qui l'avait précédé dans ce pays. Au bout de deux ans, il ft àmême d'acheer un buitième de section. 0 acres. 32 hectares), à raison de 2 $ (10ᶠ 36) l'acre (40 ares), et entreprit de le détfricher. Ils'y construisit lui-même une maison de bois ; car il est habile charpentier en même temps que cultivateur. Il se maria l'an d'après avec une jeune fille de dix-neufans, L.B'**, dont les parents, originaires de la Géorgie, étaient venus, eux aussi. s'établir dans le comté d'Ellis. C'est là qu'ha¬bitent encore sa belle-mère, restée veuve, et plusieurs de ses frères et sœurs. Sa femme ne lui apportait en dot que sa vertu et ses remar¬quables qualités de ménagère.
        </p>
        <p xml:id="para_7_133_250">
         Les jeunes époux travaillèrent courageusement et seraient arrivés dès lors dans le comté d'Ellis à une situation semblable à celle qu'ils ont aujourd'hui ; malheureusement ils furent saisis par des fièvres in¬termittentes. Les frais de médecin les écrasèrent . ils eurent une fois à payer une note de docteur de 100 $ (518ᶠ) ; en même temps ils étaient obligés de faire cultiver leurs champs de coton par des noirs, en sorte que leurs ressources s'épuisèrent rapidement.
@@ -1197,7 +1313,9 @@
         Ils se résolurent alors à quitter ce pays malsain et à aller plus à l'Ouest où le climat est beaucoup plus salubre. Le comté d'Ellis s'était rapide¬ment peuplé pendant les cinq ans que F*** y avait passés. Il put reven¬dre sa terre à raison de 5 $ (25ᶠ90) l'acre, et, avec le bénéfice ainsi réalisé, payer honnêtement toutes ses dettes.
        </p>
        <p xml:id="para_7_133_252">
-        F*** mit sa femme et sa fille Laura, le seul enfant qu'ils eussent alors, sur un vagon couvert d'une tente en toile et attelé de deux che¬vaux. Avec quelques ustensiles et quelques dollars, c'était toute sa for¬tune. Il s'achemina à l'Ouest, voyageant à petites journées, s'arrètant <pb facs="#facs_145" n="134" source="s2lesouvriersdes04sociuoft_0160.xml"/> pour faire cuire ses repas et paitre ses chevaux sur es terres non en¬closes, et examinant le pays qu'il traversait. Il s'arrêta dans le comté de Callahan, qui n'était pas encore desservi par le Texas and Pacific ail oad, et acheta un quart de section, 160 acres (64 hectares) de terre de bonne qualité, sans défrichement ni clôture, à raison de 3 $ (15ᶠ54) l'acre. L'tat ou les chemins de fer qui vendent les terres le font moyen¬nant un premier paiement d'un dixième comptant et neuf autres paie¬ments d'un dixiême échelonnés en neufannées et portant intérêt à10 . 'ne année de retard est tolérée ; après ce délai, l'expropriation a lieu et, dans ce cas naturellement, le privilège de l'homestead ne s'applique pas. F*** eut donc à faire, sur une somme totale de 480$ (2.486ᶠ 40), un pre¬mier paiement de 48 $ (248ᶠ 64) porté à 50 $ (259ᶠ par les frais d'acte : la seconde année, il eut à payer 48 $ 248ᶠ64) de principal, plus 43 $, 20 (223ᶠ 78) d'intérêts ; la troisième, 48 $ (248ᶠ64 de principal et 38 8, 40 (198ᶠ91) d'intérêts, et ainsi de suite. L'acquéreur peut toujours payer par anticipation, mais F*** n'en était pas là. Pour faire face au premier paiement, il dut vendre ses chevaux, et, comme il n'avait pas lesmoyens de défricher sa terre, il s'engagea comme ouvrier agricole, hired And. I travailla dans ces conditions. à raison de 25 $ (129ᶠ50) par mois, chiffre obtenu parce qu'il n'était pas nourri, la femme préférant le nourrir avec sa famille.
+        F*** mit sa femme et sa fille Laura, le seul enfant qu'ils eussent alors, sur un vagon couvert d'une tente en toile et attelé de deux che¬vaux. Avec quelques ustensiles et quelques dollars, c'était toute sa for¬tune. Il s'achemina à l'Ouest, voyageant à petites journées, s'arrètant
+        <pb facs="#facs_145" n="134" source="s2lesouvriersdes04sociuoft_0160.xml"/>
+        pour faire cuire ses repas et paitre ses chevaux sur es terres non en¬closes, et examinant le pays qu'il traversait. Il s'arrêta dans le comté de Callahan, qui n'était pas encore desservi par le Texas and Pacific ail oad, et acheta un quart de section, 160 acres (64 hectares) de terre de bonne qualité, sans défrichement ni clôture, à raison de 3 $ (15ᶠ54) l'acre. L'tat ou les chemins de fer qui vendent les terres le font moyen¬nant un premier paiement d'un dixième comptant et neuf autres paie¬ments d'un dixiême échelonnés en neufannées et portant intérêt à10 . 'ne année de retard est tolérée ; après ce délai, l'expropriation a lieu et, dans ce cas naturellement, le privilège de l'homestead ne s'applique pas. F*** eut donc à faire, sur une somme totale de 480$ (2.486ᶠ 40), un pre¬mier paiement de 48 $ (248ᶠ 64) porté à 50 $ (259ᶠ par les frais d'acte : la seconde année, il eut à payer 48 $ 248ᶠ64) de principal, plus 43 $, 20 (223ᶠ 78) d'intérêts ; la troisième, 48 $ (248ᶠ64 de principal et 38 8, 40 (198ᶠ91) d'intérêts, et ainsi de suite. L'acquéreur peut toujours payer par anticipation, mais F*** n'en était pas là. Pour faire face au premier paiement, il dut vendre ses chevaux, et, comme il n'avait pas lesmoyens de défricher sa terre, il s'engagea comme ouvrier agricole, hired And. I travailla dans ces conditions. à raison de 25 $ (129ᶠ50) par mois, chiffre obtenu parce qu'il n'était pas nourri, la femme préférant le nourrir avec sa famille.
        </p>
        <p xml:id="para_7_134_254">
         raîce à son économie, à sa sobriété et à l'aide dévouée de sa femme dans les soins du ménage, il put, il y a quatre ans, racheter 2 juments qui lui ont depuis lors donné 5 poulains. Il construisit lui-même sur sa terre une petitemaison en bois de deux pièces avec une étable, et la clô¬tura, ce qui représenta une dépense totale de 350 $ (1.813ᶠ), et il se mit à défricher peu à peu. Toutes les ressources du ménage ont passé à cette acquisition et à la consolidation de leur propriété par le paiement des annuités sur le prix de la terre.
@@ -1206,7 +1324,9 @@
         Ainsi s'explique la grande pauvreté du mobilier et des vêtements : encore faut-il tenir compte de ce que, dans le cours de cette année, les bénéices ex ceptionnels réalisés par la famille lui ont permis de les améliorer un peu.
        </p>
        <p xml:id="para_7_134_256">
-        Le manque d'un capital sufisant d'exploitation a fait trouver à F*** plus avantageux de louer la partie de sa terre défrichée et sa maison a un voisin pour y faire du coton et du mais, moyennant une part de 1/4 et de 13, et d'aller lui-même s'établir à 2 milles de là comme renter sur la farm du domaine d'Annadale. Ayant la disposition d'un capital d'exploitation très complet et étendant son travail sur une <pb facs="#facs_146" n="135" source="s2lesouvriersdes04sociuoft_0161.xml"/> surface plus étendue, il a réalisé dans le cours d'une année des béné¬fices bien supérieurs à ceux qu'il aurait retirés de sa propre farm. Le matériel d'exploitation dont F*** a eu la jouissance consistait en 6 chevaux de labour valant ensemble 500 (2.590ᶠ), en 2 char¬rues de 40 $ (207ᶠ20) chacune, soit 80 $ (414ᶠ40), en une herse à disque de 50 $ (259ᶠ), en un semoir de 60 $ (310ᶠ80), en une mois¬sonneuse de 150 $ (777), en un extirpateur de 40 $ (207ᶠ20), soit au total un capital de 880 $ (4.558ᶠ 40) d'instruments aratoires. Ces instruments sont trop coûteux pour qu'un petit pjarmer puisse se les procurer. bLa moissonneuse particuliêrement dépasse ses moyens. Ceux qui n'en possêdent pas sont obligés de faire moissonner le blé et l'a¬voine à raison de 1 $ (5ᶠ18) l'acre, l'entrepreneur fournissant la ma¬chine, l'huile pour la graisser, les quatre chevaux qui la mettent enmou¬vement, un homme pour la diriger et un conducteur pour les chevaux. Celui qui la loue nourrit les hommes et les chevaux et fournit la ficelle pour attacher les gerbes.
+        Le manque d'un capital sufisant d'exploitation a fait trouver à F*** plus avantageux de louer la partie de sa terre défrichée et sa maison a un voisin pour y faire du coton et du mais, moyennant une part de 1/4 et de 13, et d'aller lui-même s'établir à 2 milles de là comme renter sur la farm du domaine d'Annadale. Ayant la disposition d'un capital d'exploitation très complet et étendant son travail sur une
+        <pb facs="#facs_146" n="135" source="s2lesouvriersdes04sociuoft_0161.xml"/>
+        surface plus étendue, il a réalisé dans le cours d'une année des béné¬fices bien supérieurs à ceux qu'il aurait retirés de sa propre farm. Le matériel d'exploitation dont F*** a eu la jouissance consistait en 6 chevaux de labour valant ensemble 500 (2.590ᶠ), en 2 char¬rues de 40 $ (207ᶠ20) chacune, soit 80 $ (414ᶠ40), en une herse à disque de 50 $ (259ᶠ), en un semoir de 60 $ (310ᶠ80), en une mois¬sonneuse de 150 $ (777), en un extirpateur de 40 $ (207ᶠ20), soit au total un capital de 880 $ (4.558ᶠ 40) d'instruments aratoires. Ces instruments sont trop coûteux pour qu'un petit pjarmer puisse se les procurer. bLa moissonneuse particuliêrement dépasse ses moyens. Ceux qui n'en possêdent pas sont obligés de faire moissonner le blé et l'a¬voine à raison de 1 $ (5ᶠ18) l'acre, l'entrepreneur fournissant la ma¬chine, l'huile pour la graisser, les quatre chevaux qui la mettent enmou¬vement, un homme pour la diriger et un conducteur pour les chevaux. Celui qui la loue nourrit les hommes et les chevaux et fournit la ficelle pour attacher les gerbes.
        </p>
        <p xml:id="para_7_135_258">
         Au taux de 12, intérêt usité pour les prêts gagés sur des objets mobiliers chattel mortgage), la jouissance de ce capital aurait coûté a F*ᵉ* une somme de 105 $, 60 cents (547ᶠ) par an ; mais jamais il n'au¬rait pu obtenir, ni d'une banque ni d'un voisin, le prêt d'une somme aussi considérable relativement.
@@ -1218,7 +1338,9 @@
         A l'expiration de l'année pour laquelle ce contrat a été fait, F°* est rentré sur sa propre farm, disposant d'une épargne totale de 692 dol¬lars (3.583ᶠ, représentée par de l'argent, par la plus-value des ani¬maux domestiques, par un mobilier complété et des approvisionne¬ments abondants (V. Comptes années, L), qui contrastent avec la pé¬nurie dans laquelle il était au début de l'année.
        </p>
        <p xml:id="para_7_135_261">
-        Ilne faudrait pas croire que toute famille de métayers dans cette partie du Texas puisse faire chaque année une épargne aussi considérable. La famille F*** n'en fera vraisemblablement pas souvent de pareille, le propriétaire du domaine d'Annadale préférant désormais exploiter <pb facs="#facs_147" n="136" source="s2lesouvriersdes04sociuoft_0162.xml"/> lui-même sa terre ; mais c'est un exemple de ce que l'esprit d'entre¬prise permet à une famille de travailleurs laborieux et économes de réaliser à un moment donné de leur existence, et des circonstances pareilles se rencontrent dans un pays neuf comme l'Ouest du Texas.
+        Ilne faudrait pas croire que toute famille de métayers dans cette partie du Texas puisse faire chaque année une épargne aussi considérable. La famille F*** n'en fera vraisemblablement pas souvent de pareille, le propriétaire du domaine d'Annadale préférant désormais exploiter
+        <pb facs="#facs_147" n="136" source="s2lesouvriersdes04sociuoft_0162.xml"/>
+        lui-même sa terre ; mais c'est un exemple de ce que l'esprit d'entre¬prise permet à une famille de travailleurs laborieux et économes de réaliser à un moment donné de leur existence, et des circonstances pareilles se rencontrent dans un pays neuf comme l'Ouest du Texas.
        </p>
        <p xml:id="para_7_136_264">
         La famille F*** a profité de cette prospérité pour améliorer son mobilier dans une certaine mesure (achat d'une machine à coudre, de 2 nappes et de 4 serviettes), pour se donner le luxe de quelques le¬cons d'écriture, pour payer les dettes qu'elle avait dû contracter comme prix d'achat à crédit de son petit matériel agricole, pour solder les annuités dues sur sa terre. n outre, F*** ient d'acheter, à raison de 5 8 (25ᶠ 90) l'acre (40 ares), 50 acres (20 hectares) de terre boisée dans le voisinage, de manière à obvier à la pénurie de bois dont souf¬frent déjà les propriétaires qui ne disposent pas de grandes étendues. Il se prépare en outre à agrandir sa maison ainsi que les étables et les greniers en dépendant, et à creuser un puits sur son domaine.
@@ -1238,7 +1360,9 @@
         Cette confiance repose principalement sur l'abondance des richesses naturelles au milieu desquelles elle vit, sur le prix élevé de la main¬d'œuvre, comparativement aux objets de consommation (alimentation, mobilier, vêtement, dont une famille frugale peut se contenter ; — le luxe seul est cher aux Etats-Unis, et, au premier rang du luxe, il faut, en ce pays, placer les boissons alcooliques, — enfin dans la plus¬value rapide que prennent les terres.
        </p>
        <p xml:id="para_7_136_270">
-        Cette plus-value l'a sauvée de la pénible situation ou la maladie l'avait jetée lors de son premier établissement dans le comté d'Ellis. Actuellement, cette plus-value sutirait à élever graduellement le ran de la famille. F*** a refusé cette année de vendre, à raison de 10 $ (51ᶠ80) l'acre (40 ares), les 160 acres (64 hectares qu'il avait <pb facs="#facs_148" n="137" source="s2lesouvriersdes04sociuoft_0163.xml"/> achetés à 3 $ (15ᶠ 54). Il estime que sa terre vaut, améliorations com¬prises, 15 $ (77ᶠ70), et il est certain qu'elle atteindra ce prix avant peu. La plus-value moyenne de la terre est depuis plusieurs années d'un dollar (5ᶠ18) ou 1 dollar 1/2 (7ᶠ 77) par acre chaque année.
+        Cette plus-value l'a sauvée de la pénible situation ou la maladie l'avait jetée lors de son premier établissement dans le comté d'Ellis. Actuellement, cette plus-value sutirait à élever graduellement le ran de la famille. F*** a refusé cette année de vendre, à raison de 10 $ (51ᶠ80) l'acre (40 ares), les 160 acres (64 hectares qu'il avait
+        <pb facs="#facs_148" n="137" source="s2lesouvriersdes04sociuoft_0163.xml"/>
+        achetés à 3 $ (15ᶠ 54). Il estime que sa terre vaut, améliorations com¬prises, 15 $ (77ᶠ70), et il est certain qu'elle atteindra ce prix avant peu. La plus-value moyenne de la terre est depuis plusieurs années d'un dollar (5ᶠ18) ou 1 dollar 1/2 (7ᶠ 77) par acre chaque année.
        </p>
        <p xml:id="para_7_137_272">
         Quant à ses enfants, quelque nombreux qu'ils puissent être dans la suite des années, leur établissement n'inspire aucune sollicitude à la famille. Dès l'âge de dix-sept à dix-huit ans, ses fils pourront, non seu¬lement gagner leur vie, mais se constituer des épargnes :ils se trouveront dans des conditions au moins aussi favorables que leurs parents, et, si la terre est devenue trop chère dans le comté de Callahan, ils iront plus à l'Ouest, ou plus au Sud, ou plus au Nord, dans les comtés occupés aujourd'hui seulement par le pâturage et dont Abilène est la capitale. Aucune obligation de service militaire ne viendra gêner la disposition des plus fécondes années de leur vie, ni les empêcher de faire des éco¬nomies à l'âge où elles sont le plus faciles.
@@ -1260,7 +1384,9 @@
         Les lois du Texas se sont proposé depuis longtemps d'assurer la stabilité de la classe des farmers. C'est cet Etat qui, en 1839, quand il était encore une république indépendante, a le premier introduit les homestead evemptions. Elles ont été développées depuis et sont inscrites dans la Constitution, en sorte que les législatures ordinaires ne pour¬raient pas les modifier ; il faudrait un vote populaire. En voici le résumé :
        </p>
        <p xml:id="para_7_137_277">
-        L'homestead evemption est un bénéfice attribué, sur la terre ou la maison où est établie l'habitation, à la femme pendant le mariage et durant tout son veuvage, ainsi qu'aux enfants mineurs. L'homestead <pb facs="#facs_149" n="138" source="s2lesouvriersdes04sociuoft_0164.xml"/> exemplion résulte du fait même de la loi ; elle n'est subordonnée à aucune déclaration des époux et ne peut par conséquent être l'objet d'aucune renonciation comme dans plusieurs autres Etats de l'Union américaine. A la campagne, l'homestead eremption embrasse 200 acres (80 hectares) deterre, sans limitation de valeur, et toutes les construc¬tions, clôtures, améliorations, qui ont pu y être faites. Il peut être d'un seul tenant ou en plusieurs pièces de terres. Dans les villes et bourgs, un lot, c'est-à-dire tout un terrain affecté à l'habitation ou à l'exercice de l'industrie du propriétaire, est exempt de saisie, jusqu'à concurrence d'une valeur de 5.000 $ (25.900ᶠ, plus 500 $ (2.590ᶠ) d'exemption pour les autres biens mobiliers.
+        L'homestead evemption est un bénéfice attribué, sur la terre ou la maison où est établie l'habitation, à la femme pendant le mariage et durant tout son veuvage, ainsi qu'aux enfants mineurs. L'homestead
+        <pb facs="#facs_149" n="138" source="s2lesouvriersdes04sociuoft_0164.xml"/>
+        exemplion résulte du fait même de la loi ; elle n'est subordonnée à aucune déclaration des époux et ne peut par conséquent être l'objet d'aucune renonciation comme dans plusieurs autres Etats de l'Union américaine. A la campagne, l'homestead eremption embrasse 200 acres (80 hectares) deterre, sans limitation de valeur, et toutes les construc¬tions, clôtures, améliorations, qui ont pu y être faites. Il peut être d'un seul tenant ou en plusieurs pièces de terres. Dans les villes et bourgs, un lot, c'est-à-dire tout un terrain affecté à l'habitation ou à l'exercice de l'industrie du propriétaire, est exempt de saisie, jusqu'à concurrence d'une valeur de 5.000 $ (25.900ᶠ, plus 500 $ (2.590ᶠ) d'exemption pour les autres biens mobiliers.
        </p>
        <p xml:id="para_7_138_279">
         En vertu du privilège de l'homestead, le bien de famille ne peut être vendu à l'amiable que du consentement de la femme, et ce consen¬tement doit être donné dans certaines formes déterminées par la loi. Aucune hypothèque ne peut être opposable à la femme et aux enfants mineurs, quand même elle aurait été consentie par la femme. Le bien de famille ne peut être saisi pour dettes, si ce n'est pour l'acquit des taxes publiques, du prix d'acquisition ou des matériaux pour l'amélio¬rer ; mais, dans ce dernier cas, le contrat d'ou résulte la créance doit avoir été signé par la femme pour lui être opposabhle.
@@ -1274,7 +1400,9 @@
        <p xml:id="para_7_138_282">
         Les femmes mariées peuvent posséder en leur nom propre, comme propiété séparée, tous les biens qu'elles avaient avant leur mariage, ainsi que ous ceux qui pendant le mariage leur échoient par succes¬sion, les ou donation. La femne n'est pas tenue sur ses biens au puie¬
        </p>
-       <p xml:id="para_7_138_283"> <pb facs="#facs_150" n="139" source="s2lesouvriersdes04sociuoft_0165.xml"/> ment des dettes de son mari, ni de celles qu'elle pourrait avoir con¬tractées elle-même, à moins qu'elle ne les ait contractées pour des dépenses faites sur ses biens, ou pour ses besoins personnels ou ceux de ses enfants. Elle n'est pas responsable sur son patrimoine de l'en¬dossement qu'elle aurait fait de titres négociables.
+       <p xml:id="para_7_138_283">
+        <pb facs="#facs_150" n="139" source="s2lesouvriersdes04sociuoft_0165.xml"/>
+        ment des dettes de son mari, ni de celles qu'elle pourrait avoir con¬tractées elle-même, à moins qu'elle ne les ait contractées pour des dépenses faites sur ses biens, ou pour ses besoins personnels ou ceux de ses enfants. Elle n'est pas responsable sur son patrimoine de l'en¬dossement qu'elle aurait fait de titres négociables.
        </p>
        <p xml:id="para_7_139_286">
         En dehors de ces lois, dont du reste F*** n'a jamais eu à invoquer le bénéfice, on doit signaler, comme institutions assurant le bien¬être de la famille, le faible poids des impôts de l'Etat et du comté. La taxe totale de l'Etat ne s'élève pas à plus de 22 cents 1,2 (1ᶠ30) par 100 $ (518ᶠ) de la valeur assessée des propriétés mobilières et immo¬bilières, et l'assessement est généralement de la moitié de la valeur réelle, les assesseurs prenant pour base de leur évaluation ce qu'une vente forcée produirait
@@ -1983,13 +2111,15 @@
          § 17. SUR LA COLONISATION DE L OUEST DU TEXAS.
         </head>
         <p xml:id="para_7_154_492">
-         <pb facs="#facs_165" n="154" source="s2lesouvriersdes04sociuoft_0180.xml"/> Le Texas a une superficie de 274.356milles carrés, soit 175.587.840 acres (70 millions d'hectares en chiffres ronds).
+         <pb facs="#facs_165" n="154" source="s2lesouvriersdes04sociuoft_0180.xml"/>
+         Le Texas a une superficie de 274.356milles carrés, soit 175.587.840 acres (70 millions d'hectares en chiffres ronds).
         </p>
         <p xml:id="para_7_154_493">
          Il est de beaucoup le plus étendu des Etats de l'Union, et on l'ap¬pelle parfois l'E'pire State. Sous la domination espagnole, quelques points seulement avaient été peuplés. Ce sont les Américains du ud des tats-tnis qui, à partir de 1800, ont peu à peu colonisé ce pays. Leur influence amcna en 1837 sa séparaion d'avec le Mexique et son érection en république indépendante, puis en 1845 son annexion aux États-Unis. La population d'origine espagnole est restée cantonnée dans la partie lEst du pays. La guerre de la Sécession, dans laquelle le Texas s'engagea, retarda la colonisation de l'immense région qui s'étend a l'Ouest du 97 degré de longitude. Toutefois le Texas ne fut pas ruiné à fond par la guerre, parce que les esclaves y étaient peu nombreux, et, après les quelques années d'agitation et d'oppression qui suivirent la défaite de la Confédération, il se lança résolument dans le développement des voies ferrées qui, en Amérique, sont la con¬dition préalable de la colonisation. En 1873, le Texas and Pacific at¬tei;nit Dallas, en 1874 le ouston and great Vorthern fut poussé jus¬qu'à Colombia, et le ltio Grande . . jusqu'à Brovnsville au Sud. En éme temps des mesures étaient prises, de concert avec le gouver¬nement des tats-Unis, pour refouler sur le territoire indien les tribus de Comanches qui chssaient le bison dans les plaines de l'Ouest.
         </p>
         <p xml:id="para_7_155_495">
-         <pb facs="#facs_166" n="155" source="s2lesouvriersdes04sociuoft_0181.xml"/> C'est donc en moins de vingt années que s'est accompli le peuplement du Nord-Ouest du Texas. Il s'est opéré avec une rapidité dont les chifres des différents recensements peuvent seuls donner une idée : en 1850, la population de l'Eat était de 212.592 âmes ; en 1860, de 604.215 ; en 1870, de 848.579 ; en 1880, de 1.591.749 ; en 1890, de 2.235.523 àmes. Quoique forcément, plus la population initiale est éle¬vée, moins l'accroissement soit rapide, néanmoins dans la dernière pé¬riode décennale l'accroissement a été encore de 40,44 pour cent.
+         <pb facs="#facs_166" n="155" source="s2lesouvriersdes04sociuoft_0181.xml"/>
+         C'est donc en moins de vingt années que s'est accompli le peuplement du Nord-Ouest du Texas. Il s'est opéré avec une rapidité dont les chifres des différents recensements peuvent seuls donner une idée : en 1850, la population de l'Eat était de 212.592 âmes ; en 1860, de 604.215 ; en 1870, de 848.579 ; en 1880, de 1.591.749 ; en 1890, de 2.235.523 àmes. Quoique forcément, plus la population initiale est éle¬vée, moins l'accroissement soit rapide, néanmoins dans la dernière pé¬riode décennale l'accroissement a été encore de 40,44 pour cent.
         </p>
         <p xml:id="para_7_155_496">
          Le Texas figure actuellement au septiême rang parmi les Etats de l'Union classés d'après leur population.
@@ -2007,7 +2137,9 @@
          Mais c'est surtout par les ventes de terres attribuées au school fund ou à ˉl'niversity fund ou données à titre de subventions aux chemins de fer dans les comtés qu'ils traversent que l'occupation du Texas¬Ouest s'est opérée. Le gouvernement a jugé avec raison : 1 que la construction des chemins de fer devait précéder la colonisation ; 2 que le meilleur moyen de l'activer était de donner aux Compagnies un in¬térêt puissant à peupler le territoire. Les Compagnies multiplient les notices, les publications, les agences, pour arriver à vendre le plus tôt possible les terres qui leur sont ainsi attribuées.
         </p>
         <p xml:id="para_7_155_501">
-         En aon̂t 1891, la seule Compagnie du Missouri, Aansas and Ieas R. . offrait plusieurs millions d'acres à vendre dans quine comtés à des prix variant de 1 $ à 50 $, selon que ces terres sont situées <pb facs="#facs_167" n="156" source="s2lesouvriersdes04sociuoft_0182.xml"/> dans des régions déjà plus ou moins peuplées, et payables en dix an¬nuités moyennant un intérêt de 10 % l'an. Le Veras and Pacific . . en offrait autant à la même date.
+         En aon̂t 1891, la seule Compagnie du Missouri, Aansas and Ieas R. . offrait plusieurs millions d'acres à vendre dans quine comtés à des prix variant de 1 $ à 50 $, selon que ces terres sont situées
+         <pb facs="#facs_167" n="156" source="s2lesouvriersdes04sociuoft_0182.xml"/>
+         dans des régions déjà plus ou moins peuplées, et payables en dix an¬nuités moyennant un intérêt de 10 % l'an. Le Veras and Pacific . . en offrait autant à la même date.
         </p>
         <p xml:id="para_7_156_503">
          La colonisation commence toujours par l'élevage en liberté des bestiaux et des chevaux. C'est l'industrie des ranchmen. Jadis ils fai¬saient pâturer leurs animaux purement et simplement sur les terres publiques ; maintenant qu'elles sont toutes cadastrées, l'Etat les leur loue, mais en se réservant toujours le droit de vendre celles qui sont classées comme propres à l'agriculture. Le locataire, qui a fait des améliorations jusqu'à concurrence de 100 $, peut toujours en devenir propriétaire par préférence ; 500.000 acres de terres sont actuellement louées dans ces conditions. Au bout d'un certain temps, les ranchmen profitent de ces conditions pour devenir propriétaires, au fur et à me¬sure que les défrichements se multiplient, et restreignent leur pàture ; l'évolution du ranc à la stoc farm que nous avons indiquée
@@ -2017,7 +2149,9 @@
          , s'opère ainsi peu à peu. Ce sont les agriculteurs qui donnent véri¬tablement la plus-value aux terres, et, parmi eux, les plus actifs sont ceux qui achètent seulement un quart ou une moitié de section, les pe¬tits farmers en un mot.
         </p>
         <p xml:id="para_7_156_504">
-         Le peuplement de l'Ouest du Texas s'est opéré par deux éléments. Des hommes des anciens Etats du Sud, des Anglais, des Ecossais, quelques rares Francais, ont formé des ranchs et apporté dans le pays les premiers capitaux nécessaires à son ouverture à la civilisation. D'anciens planteurs du 'ennessee et du Mississipi, ruinés par la guerre de la Sécession, ont envoyé leurs fils faire de l'élevage dans ce pays alors désert, et cette nouvelle génération a réussi, à force detravail per¬sonnel, à se faire une position avantageuse, mais bien plus semblable à celle des Américains du Nord qu'à la vie que leurs parents avaient menée autrefois. Quant aux petits farmers, ils viennent tous des anciens États du Sud, et plus particulièrement de l'Est du Texas. Presque aucun immigrant irlandais, hollandais, allemand, scandinave, ne va directe¬ment dans le Sud-Ouest. Ils s'établissent plutôt dans les anciens Etats du Sud et achètent des terres que leurs propriétaires leur vendent pour aller eux-mêmes plus à l'Ouest. On rencontre journellement sur les routes de ces farmers allant plus à l'Duest avec les vagons sur lesquels ils ont leur famille et leur mince mobilier. L'exode que F** a accompli il y a douze ans et huit ans, quand il quitta le I'ennessee pour aller dans l'Ellis County, puis quand il quitta l'Ellis County pour venir dans le Callahan County, se répète journellement dans des proportions considéra<pb facs="#facs_168" n="157" source="s2lesouvriersdes04sociuoft_0183.xml"/>bles. D'aprés le ˉCensus de 1891, dans le comté de Callahan, sur 5. 457 habitants, il y en avait seulement 183 nés à l'étranger et 210 nés de parents étrangers. Dans le comté de 'aylor, sur 6.957 habitants, 227 seulement sont d'origine étrangère et 273 sont nés de parents étrangers. L'homogénéité de la population qui s'établit ainsi dans l'Ouest du Texas est un trait fort heureux pour l'avenir de cette ré¬gion
+         Le peuplement de l'Ouest du Texas s'est opéré par deux éléments. Des hommes des anciens Etats du Sud, des Anglais, des Ecossais, quelques rares Francais, ont formé des ranchs et apporté dans le pays les premiers capitaux nécessaires à son ouverture à la civilisation. D'anciens planteurs du 'ennessee et du Mississipi, ruinés par la guerre de la Sécession, ont envoyé leurs fils faire de l'élevage dans ce pays alors désert, et cette nouvelle génération a réussi, à force detravail per¬sonnel, à se faire une position avantageuse, mais bien plus semblable à celle des Américains du Nord qu'à la vie que leurs parents avaient menée autrefois. Quant aux petits farmers, ils viennent tous des anciens États du Sud, et plus particulièrement de l'Est du Texas. Presque aucun immigrant irlandais, hollandais, allemand, scandinave, ne va directe¬ment dans le Sud-Ouest. Ils s'établissent plutôt dans les anciens Etats du Sud et achètent des terres que leurs propriétaires leur vendent pour aller eux-mêmes plus à l'Ouest. On rencontre journellement sur les routes de ces farmers allant plus à l'Duest avec les vagons sur lesquels ils ont leur famille et leur mince mobilier. L'exode que F** a accompli il y a douze ans et huit ans, quand il quitta le I'ennessee pour aller dans l'Ellis County, puis quand il quitta l'Ellis County pour venir dans le Callahan County, se répète journellement dans des proportions considéra
+         <pb facs="#facs_168" n="157" source="s2lesouvriersdes04sociuoft_0183.xml"/>
+         bles. D'aprés le ˉCensus de 1891, dans le comté de Callahan, sur 5. 457 habitants, il y en avait seulement 183 nés à l'étranger et 210 nés de parents étrangers. Dans le comté de 'aylor, sur 6.957 habitants, 227 seulement sont d'origine étrangère et 273 sont nés de parents étrangers. L'homogénéité de la population qui s'établit ainsi dans l'Ouest du Texas est un trait fort heureux pour l'avenir de cette ré¬gion
          <note type="bp">
           <p>
            Le Census de 1890 indique par les chitfres suivants cette homogénéité relative de la population du Texas : sur 535.942 màles de 21 ans et au-dessus, 460.69 sont nés aux ́tats¬Unis et seulement 75.248 sont nés à l'étranger, ce qui fait une proportion de 85.96 § pour les natifs, et de 14,04 pour les hommes nés à l'étranger. Pour l'ensemble des États¬Unis, ces chifres sont respectivement de 74,33 et de 25,672§. Dans les États où le tlot de Timmigration européenne se porte, les proportions sont toutes différentes. Ainsi. dans le North Dabota, sur 100 abitants. 64,89 sont nés à l'étranger et 35,11 dans le pays dans le Minnesota, sur 100 habitants, 58,85 sont nés ja l'étranger et 41,15 dans le pays ; dans le Massachusets, sur 100 habitants, 38,66 sont nés a l'étranger et 61,34 dans le pays.
@@ -2038,7 +2172,8 @@
          La plupart des occupants actuels du Texas-Ouest ont vendu le home qu'ils avaient autrefois à l'Est; il n'en est pas un seul qui, pour un bénéfice de quelques dollars par acre au-dessus du prix courant, ne soit prêt à vendre sa farm pour aller s'établir plus loin. C'est le trait caractéristique de l'Américain, et c'est par là qu'il pousse sa fortune toujours en avant. Ces ventes et reventes successives ne sont possi¬bles que parce qu'il n'y a pas de droit proportionnel de mutation sur les transactions. On peut vendre et acheter pour 100.000 $ et plus d'immeubles en n'ayant d'autres frais à payer que 4 ou 5 dol¬lars pour le lauvper qui rédige l'acte et 2 dollars pour le recorder du comté qui l'enregistre sur les records publics et le rend par là oppo¬sable aux tiers. Il en est de même pour la conservation du privilège du vendeur (endors ien) ou la concession d'hypothèque (mortgage).
         </p>
         <p xml:id="para_7_158_510">
-         <pb facs="#facs_169" n="158" source="s2lesouvriersdes04sociuoft_0184.xml"/> Une facilité très grande est ainsi donnée aux transactions. Même dans les Etats où la taxation directe est élevée (ce qui n'est pas le cas du Texas), on n'aurait pas l'idée de gêner les transactions par un impôt proportionnel à leur importance.
+         <pb facs="#facs_169" n="158" source="s2lesouvriersdes04sociuoft_0184.xml"/>
+         Une facilité très grande est ainsi donnée aux transactions. Même dans les Etats où la taxation directe est élevée (ce qui n'est pas le cas du Texas), on n'aurait pas l'idée de gêner les transactions par un impôt proportionnel à leur importance.
         </p>
         <p xml:id="para_7_158_511">
          Un certain nombre de spéculateurs, prévoyant la plus-value des terres par la colonisation, ont, il y a quelques années, acheté soit de l'État, soit des Compagnies de chemins de fer, des quantités assez considérables de terres qu'ils détiennent sans les cultiver ni les utili¬ser, même pour le pâturage, en attendant la plus-value que le peuplement des terres voisines leur donnera. insi, sur la limite Ouest du comté de Callahan, dans le comté de Taylor, dont Abilène est le chef-lieu, un syndicat de spéculateurs californiens détient un espace de six milles carrés qu'il n'a pas même fait enclore et sur le¬quel les éleveurs voisins font paître librement leurs bestiaux. Ils paient les taxes annuelles de l'État et du comté, et se refusent à vendre jus¬qu'à présent, estimant que la plus-value future de ces terres sera supérieure à l'intérêt composé de la somme qu'ils retireraient de leur vente au taux actuel. Dans d'autres parties des Etats-Unis, cette spéculation s'est faite sur des proportions plus considé¬rables.
@@ -2050,7 +2185,9 @@
          Certains centres commerciaux sont nécessaires pour servir d'inter¬médiaires entre les régions agricoles et les régions manufacturières. Actuellement, il n'y a pas d'autres centres que Saint-Louis dans le Mis¬souri et la Nouvelle-tbrléans dans la Louisiane. Les villes de Dallas et de l'aris, dans le Texas, semblent par leur position être appclées à r emplir un rôle semblable.
         </p>
         <p xml:id="para_7_158_514">
-         Sans jamais avoir l'importance du Nord-Ouest, parce que son étendue est ort inférieure, et qu'il est limité par les régions sans cau qui occupent une partie considérable du centre du continent améri<pb facs="#facs_170" n="159" source="s2lesouvriersdes04sociuoft_0185.xml"/>cain
+         Sans jamais avoir l'importance du Nord-Ouest, parce que son étendue est ort inférieure, et qu'il est limité par les régions sans cau qui occupent une partie considérable du centre du continent améri
+         <pb facs="#facs_170" n="159" source="s2lesouvriersdes04sociuoft_0185.xml"/>
+         cain
          <note type="bp">
           <p>
            V. notre ouvrage les États-Unis contemporains ou les institutions, les mœurs et les idees depuis la guerre de la Sécession, précédés d'une lettre de Le Play. 4° édit. (librairie Plon). t. 1. p. 275 et suiv.
@@ -2070,7 +2207,9 @@
          La famille décrite dans cette monographie représente bien le ni¬veau élevé de moralité, les bonnes coutumes domestiques, le sen¬timent religieux, qui sont généraux chez les farmers. La propriété acquise ou l'espérance d'y parvenir promptement, la participation au gouvernement local leur donnent une dignité et un sentiment de satisfaction de leur sort qui les élèvent de beaucoup au-dessus des populations rurales de l'Europe. Les farmers seront toujours la base la plus solide de la constitution des Etats-Unis.
         </p>
         <p xml:id="para_7_159_520">
-         Quoique estimant beaucoup l'instruction pour leurs enfants, les farmers du Texas en ont peu eux-mêmes. En eussent-ils davantage qu'ils n'en ont dans cette partie de l'Union, les lumiêres qu'ils reti¬reraient de la lecture seraient toujours fort bornées. Dans les com¬tés où les farmers composent presque exclusivement la population, ils sont peu éclairés sur les choses qui depassent le cercle de leurs intérêts immédiats et journaliers. Ils administrent sagement leurs écoles et leurs routes ; ils maintiennent dans d'étroites limites les depenses auxquelles les fonctionnaires élus sont tentés d'entraîner le comté ; dans l'État, ils font, par leur vote, prévaloir l'économie et la moralité. Toute mesure qui se recommande d'une pensée d'économie — à moins qu'il ne s'agisse de dépenses comme celles des common schoods, qui constituent pour eux des subventions déguisées, — est très populaire parmi les farmers. On peut donc attribuer à leur in<pb facs="#facs_171" n="160" source="s2lesouvriersdes04sociuoft_0186.xml"/>fluence la bonne administration et particulièrement l'excellente situa¬tion financière du lexas. Mais, dans les tats où la population est ex¬clusivement rurale et oi, par conséquent, ils forment la majorité des votants, leur vote tranche des questions qui dépassent leurs connais¬sances et sur lesquelles ils ont des préjugés qu'exploitent habilement les politiciens de profession.
+         Quoique estimant beaucoup l'instruction pour leurs enfants, les farmers du Texas en ont peu eux-mêmes. En eussent-ils davantage qu'ils n'en ont dans cette partie de l'Union, les lumiêres qu'ils reti¬reraient de la lecture seraient toujours fort bornées. Dans les com¬tés où les farmers composent presque exclusivement la population, ils sont peu éclairés sur les choses qui depassent le cercle de leurs intérêts immédiats et journaliers. Ils administrent sagement leurs écoles et leurs routes ; ils maintiennent dans d'étroites limites les depenses auxquelles les fonctionnaires élus sont tentés d'entraîner le comté ; dans l'État, ils font, par leur vote, prévaloir l'économie et la moralité. Toute mesure qui se recommande d'une pensée d'économie — à moins qu'il ne s'agisse de dépenses comme celles des common schoods, qui constituent pour eux des subventions déguisées, — est très populaire parmi les farmers. On peut donc attribuer à leur in
+         <pb facs="#facs_171" n="160" source="s2lesouvriersdes04sociuoft_0186.xml"/>
+         fluence la bonne administration et particulièrement l'excellente situa¬tion financière du lexas. Mais, dans les tats où la population est ex¬clusivement rurale et oi, par conséquent, ils forment la majorité des votants, leur vote tranche des questions qui dépassent leurs connais¬sances et sur lesquelles ils ont des préjugés qu'exploitent habilement les politiciens de profession.
         </p>
         <p xml:id="para_7_160_523">
          Le farmer américain a certaines préventions analogues à celles des paysans européens et qui tiennent évidemment à ses conditions de vie. Il se défie des capitalistes et du pouvoir de l'argent, tout en dé¬sirant obtenir largement du crédit : il croit que l'Etat peut à sa volonté satisfaire tous ses besoins et qu'il n'y a pas de limites à la puissance de la législation. Quoiqu'il proclame bien haut qu'il n'y a point de classes dans la société américaine, il a une secrète jalousie pour les riches ranchmen qui sont disséminés dans le pays. Il est exempt d'antagonisme social, parce que les conditions économiques, et surtout les circonstances historiques qui ont malheureusement développé ce sentiment en lEurope, n'existent pas en Amérique ; mais un observa¬teur attentif peut en apercevoir le germe à l'état d'embryon et encore inconscient
@@ -2089,7 +2228,8 @@
          et aux¬quels arrivent ces exemptions : 200 acres de terre et toutes les améliorations ; 5.500 dollars pour une habitation urbaine, sont exa¬gérés et permettent à des débiteurs de mauvaise foi de frustrer leurs créanciers. Ils propagent l'habitude de ne pas payer ses dettes. Les faillites frauduleuses et les incendies volontaires des bâtiments assurés sont aussi beanucoup trop fréquents dans le pays.
         </p>
         <p xml:id="para_7_161_526">
-         <pb facs="#facs_172" n="161" source="s2lesouvriersdes04sociuoft_0187.xml"/> Sous l'impulsion des plaintes qu'ont soulevées certains accaparements de terre par des compagnies de spéculateurs, la législature du l'eas avait voté, au mois d'avril 1891, une loi, l'Alien land lau bill, qui défen¬dait à tout particulier, et à toute corporation (société anonyme) comp¬tant parmi ses membres un étranger, de devenir propriétaire d'une terre au Texas, même au cas de vente forcée pour la garantie d'une créance hypothécaire à son profit. Les étrangers, propriétaires actuellement, avaient cinq ans pour vendre leurs terres ; ceux qui viendraient à hériter de terres, par succession testamentaire ou ao intestat, devaient vendre dans les cinq ans. Toute terre acquise ou possédée contrairement aux prescriptions de cette loi devait être confisquée au profit de l'État.
+         <pb facs="#facs_172" n="161" source="s2lesouvriersdes04sociuoft_0187.xml"/>
+         Sous l'impulsion des plaintes qu'ont soulevées certains accaparements de terre par des compagnies de spéculateurs, la législature du l'eas avait voté, au mois d'avril 1891, une loi, l'Alien land lau bill, qui défen¬dait à tout particulier, et à toute corporation (société anonyme) comp¬tant parmi ses membres un étranger, de devenir propriétaire d'une terre au Texas, même au cas de vente forcée pour la garantie d'une créance hypothécaire à son profit. Les étrangers, propriétaires actuellement, avaient cinq ans pour vendre leurs terres ; ceux qui viendraient à hériter de terres, par succession testamentaire ou ao intestat, devaient vendre dans les cinq ans. Toute terre acquise ou possédée contrairement aux prescriptions de cette loi devait être confisquée au profit de l'État.
         </p>
         <p xml:id="para_7_161_527">
          Cet acte fut proposé à l'improviste à la fin de la session et voté sans discussion, grâce à la suspension des règles ordinaires. Il me¬na̧ait d'être désastreux pour le pays, qui travaille principalement avec des capitaux anglais et écossais. Quand ils se seront retirés, le taux de l'intéret, déjà si élevé, haussera encore ; le prix de la terre. quand les étrangers ne pourront plus l'acquérir, baissera, et lefamer ne verra plus se réaliser la plus-value sur laquelle il compte. C'est lui qui sera la victime, en derniêre analyse, de cette loi ; mais il est impressionné par ce qu'il a entendu dire des grands spéculateurs étran¬gers, et il ne réfléchit pas que les spéculateurs étrangers font concur¬rence aux spéculateurs nationaux. Ceux-ci sont bien plus dangereux pour lui en réalité. L'opération d'accaparement de terres signalée précélemment
@@ -2102,7 +2242,8 @@
          Dans la même session, la législature a voté un acte qui institue une commission des chemins de fer et lui donne le pouvoir de fixer arbitrairement les tarifs de transport des voyageurs et des mar¬chandises. On a beaucoup discuté sur la validité des lois de ce genre : car, aux tats-Unis, les Compagnies sont des entreprises pri¬vées qui ont un droit acquis à exploiter leur industrie au mieux de leurs intérêts commerciaux. lndépendamment de cette question de droit, la commission a immédiatement fixé des tarifs absolument ruineux pour les Compagnies. Celles-ci, tout en attaquant la cons¬titutionnalité de la loi, ont usé de représailles, en combinant leurs correspondances et leurs tarifs communs de manière à diriger le trafic du centre des Etats-Unis sur la Nouvelle-Orléans au lieu de Galveston, le principal port du Texas. L'imprudence de la législa¬ture aura en réalité grandement nui aux intérêts du pays.
         </p>
         <p xml:id="para_7_162_529">
-         <pb facs="#facs_173" n="162" source="s2lesouvriersdes04sociuoft_0188.xml"/> Les préjugés des farmers ont permis, il y a cinq ans, à d'habiles politiciens de créer une organisation, la Farmer's-Alliance, destinée dans leur pensée à introduire de nouveaux facteurs dans la lutte politique qui atteint son apogée tous les quatre ans pour l'élection présidentielle. La Farmer's Alliance est un ordre sur le modele de la franc-maçonnerie, composé exclusivement de farmers ou de leurs femmes. La Farmer's Alliance n'admet que des agricul¬teurs ou des preachers, des médecins, et des maîtres d'école exercant à la campagne. Les augers sont exclus par-dessus tout. Leurs membres s'appellent frères et surs ; ils prêtent sur la Bible le ser¬ment de garder un secret qu'on ne leur révêle d'ailleurs jamais ; ils ont des signes de reconnaissance et un mot de passe pour pénétrer dans les loges de l'0rdre. Cette organisation plait, par son caractère mystérieux, aux farmers, très amoureux des ordres secrets, comme tous les Américains, et, de plus, elle répond au préjugé qu'ils ont que leurs intérêts sont différents de ceux des autres classes. Une Colored Alliance a été formée pour les nègres qui prennent toujours grand plaisir à ce genre d'organisation. Les deux Alliances réunies affir¬maient en 1891 avoir de 4 à 5 millions de membres, en comptant les Grangers du Nord-Ouest qui se sont fédérés avec elles.
+         <pb facs="#facs_173" n="162" source="s2lesouvriersdes04sociuoft_0188.xml"/>
+         Les préjugés des farmers ont permis, il y a cinq ans, à d'habiles politiciens de créer une organisation, la Farmer's-Alliance, destinée dans leur pensée à introduire de nouveaux facteurs dans la lutte politique qui atteint son apogée tous les quatre ans pour l'élection présidentielle. La Farmer's Alliance est un ordre sur le modele de la franc-maçonnerie, composé exclusivement de farmers ou de leurs femmes. La Farmer's Alliance n'admet que des agricul¬teurs ou des preachers, des médecins, et des maîtres d'école exercant à la campagne. Les augers sont exclus par-dessus tout. Leurs membres s'appellent frères et surs ; ils prêtent sur la Bible le ser¬ment de garder un secret qu'on ne leur révêle d'ailleurs jamais ; ils ont des signes de reconnaissance et un mot de passe pour pénétrer dans les loges de l'0rdre. Cette organisation plait, par son caractère mystérieux, aux farmers, très amoureux des ordres secrets, comme tous les Américains, et, de plus, elle répond au préjugé qu'ils ont que leurs intérêts sont différents de ceux des autres classes. Une Colored Alliance a été formée pour les nègres qui prennent toujours grand plaisir à ce genre d'organisation. Les deux Alliances réunies affir¬maient en 1891 avoir de 4 à 5 millions de membres, en comptant les Grangers du Nord-Ouest qui se sont fédérés avec elles.
         </p>
         <p xml:id="para_7_162_530">
          La Farmer's Alliance s'est répandue surtout dans les Etats du Nord-Ouest et du Sud-Ouest. Elle a une certaine importance au Texas. La armers Alliance, à l'origine, prétendait, en imitant la phraséo¬logie de la franc-maçonnerie, être «un foyer sacré d'éducation pour les farmers et les classes industrielles ». Elle affirmait vouloir se borner à élever la classe des farmers par l'éducation, la coopération, les progrès techniques, et vouloir seulement repousser toute légis¬lation de classe qui ne prendrait pas pour base l'intérêt du plus grand nombre et la volonté du peuple. La armer's lliance affir¬mait ne devoir être hostile à aucune croyance religieuse ni à aucun parti politique.
@@ -2111,7 +2252,9 @@
          L'lliance ne s'est montrée hostile à aucune confession religieuse ; mais il lui a été impossible de ne pas entrer sur le terrain des luttes politiques, et c'est évidemment en vertu d'un mot d'ordre émané de la direction que ses loges ont adopté un certain nombre de reven¬dications qui ont servi de pdatorm à nn nouveau parti politique as¬pirant à se faire une place entre les democrales et les républicains.
         </p>
         <p xml:id="para_7_162_532">
-         En 189)1, la campagne présidentielle approchant, les meneurs du mouvement se sont servis des loges de la Farmer's Aldiance pour <pb facs="#facs_174" n="163" source="s2lesouvriersdes04sociuoft_0189.xml"/> constituer un tiers parti qu'ils ont appelé le People's partg. Il tien des conventions dans la plupart des Etats, et sa prétention est d'a¬voir un candidat propre aux éections présidentielles de 1892. Sur son programme, il inscrit la guerre aux monopoles, la prise de pos¬session par l'Union de tous les chemins de fer, le suffrage des fem¬mes, l'élection directe des sénateurs des Eats-nis par le peuple, le monopole de la fabrication et de la vente de l'alcool par l'Union, le monnayage de l'argent en quantité illimitée, la prohibition absolue de tous marchés à terme, on futures, et l'obligation pour le gouver¬nement des Etats-Unis de faire des prèts à long terme, à raison de 2 %, à tous les propriétaires embarrassés, ou des prêts à court terme sur les produits agricoles
+         En 189)1, la campagne présidentielle approchant, les meneurs du mouvement se sont servis des loges de la Farmer's Aldiance pour
+         <pb facs="#facs_174" n="163" source="s2lesouvriersdes04sociuoft_0189.xml"/>
+         constituer un tiers parti qu'ils ont appelé le People's partg. Il tien des conventions dans la plupart des Etats, et sa prétention est d'a¬voir un candidat propre aux éections présidentielles de 1892. Sur son programme, il inscrit la guerre aux monopoles, la prise de pos¬session par l'Union de tous les chemins de fer, le suffrage des fem¬mes, l'élection directe des sénateurs des Eats-nis par le peuple, le monopole de la fabrication et de la vente de l'alcool par l'Union, le monnayage de l'argent en quantité illimitée, la prohibition absolue de tous marchés à terme, on futures, et l'obligation pour le gouver¬nement des Etats-Unis de faire des prèts à long terme, à raison de 2 %, à tous les propriétaires embarrassés, ou des prêts à court terme sur les produits agricoles
          <note type="bp">
           <p>
            Ce projet qu'on appelle le Subtreasurp bill, consiste en ceci : Le gouvernement de T¬nion devrait établir dans chaque comté une agence du Trésor complétee par un magasin général dont le mger serait elu pour deu ans par le peuple du comté et aurait un salaire de 1.00 dollars par an. Le famers pourraient y porter leur blé, leur tabav, leur coton, leur mais (le sucre a été oublié par les politiciens, auteurs de ce programme, Sans doute parce qu'il est produit presque evxclusivement sur de grandes propriétés. .e mmger de chaque Subtreasur devrait emmagasiner et soigner toutes ces denrées et préter aux déposants, à 1 d'interét par an, 80 ( de leur valeur, sau a les vendre aux enchéres, Si la somme n'était pas remboursée à l'échéance. Il devrait en outre préter aux farmers sur hypothéque a 2 § d'interét, des sommes égales a la valeur de leurs terres. Pour faire lace à ces demandes, le gouvernement de l'Union émettrait du papier-monnaie pour le montant des billets souscrits par les emprunteurs.
@@ -2120,7 +2263,9 @@
          . Pour assurer des appuis dans d'autres organisations du même genre, le People's partg réclame la journée de huit heures, l'instruction obligatoire et la fourniture gratuite des livres scolaires, la contiscation immédiate de toutes les terres possé¬dées par des particuliers ou des syndicats étrangers.
         </p>
         <p xml:id="para_7_163_534">
-         Les bons farmers votent d'enthousiasme ces billevesées qui flat¬tent leurs aspirations secrètes. Malgré cela, le ˉPeoples partg ne pou¬vait être qu'une manœuvre des politiciens. La Farmer's Alliance est en voie de perdre de son prestige, et son sort sera sans doute le même que celui des Chevaliers du travai avec qui elle a noué une alliance solennelle. Au moment de la récolte du blé, en 1891, ses directeurs ont imaginé d'adresser une circulaire à tous leurs membres pour qu'ils ne portassent pas leur blé sur le marché et en fissent, par une coa¬lition générale, hausser le prix à leur profit. On a justement fait remarquer que la Farmer's Alliance ferait en cela une opération du genre de celle qu'elle reproche aux trusts. Bien entendu, cette maneuvre a échoué absolument. Chaque farmer a porté le blé au marché selon ses convenances et ses besoins d'argent son obéis<pb facs="#facs_175" n="164" source="s2lesouvriersdes04sociuoft_0190.xml"/>sance à l'Alliance va bien jusqu'à voter les yeux fermés les pro¬grammes qu'on lui présente, mais non jusqu'à sacrifier son intérêt particulier dans les cas pratiques qui se posent pour lui.
+         Les bons farmers votent d'enthousiasme ces billevesées qui flat¬tent leurs aspirations secrètes. Malgré cela, le ˉPeoples partg ne pou¬vait être qu'une manœuvre des politiciens. La Farmer's Alliance est en voie de perdre de son prestige, et son sort sera sans doute le même que celui des Chevaliers du travai avec qui elle a noué une alliance solennelle. Au moment de la récolte du blé, en 1891, ses directeurs ont imaginé d'adresser une circulaire à tous leurs membres pour qu'ils ne portassent pas leur blé sur le marché et en fissent, par une coa¬lition générale, hausser le prix à leur profit. On a justement fait remarquer que la Farmer's Alliance ferait en cela une opération du genre de celle qu'elle reproche aux trusts. Bien entendu, cette maneuvre a échoué absolument. Chaque farmer a porté le blé au marché selon ses convenances et ses besoins d'argent son obéis
+         <pb facs="#facs_175" n="164" source="s2lesouvriersdes04sociuoft_0190.xml"/>
+         sance à l'Alliance va bien jusqu'à voter les yeux fermés les pro¬grammes qu'on lui présente, mais non jusqu'à sacrifier son intérêt particulier dans les cas pratiques qui se posent pour lui.
         </p>
         <p xml:id="para_7_164_537">
          Il y a vingt ans, un mouvement semblable s'était produit à peu près sous la même forme dans l'Ouest. La armer's Alliance s'appelait alors le most hol order of patrons opf husbandr et le Peoples partg était le granger morement. Les ganges réclamaient alors des émis¬sions abondantes de papier-monnaie (so/f money) comme les farmers demandent aujourd'hui le monnayage illimité de l'argent, ce qui reviendrait au même. Dans l'ensemble, le granger mooement a échoué ; mais il est resté cependant, des plaintes des farmers, la fixation par les Etats des tarifs maxima pour les chemins de fer et la surveillance des tarifs différentiels par l'Union, en vertu de l'terstate ˉCommerce Act de 1887. Quelque chose d'utile sortira-t-il du mouvement actuel2 'rouvera-t-on des moyens pratiques d'em¬pêcher l'accaparement des terres publiques, le gaspillage du domaine national2 L'avenir le montrera ; mais les programmes du People's partg et les discours prononcés dans ses réunions indiquent cer¬taines tendances socialistes et centralisatrices dans la classe des far¬mers. Le développement de l'idée démocratique ne semble pas plus favorable à la liberté en Amérique qu'en Europe. Toutefois, la classe des farmers, étant propriétaire, est mieux que toute autre à même de comprendre les leçons de l'expérience ; et, quand ses erreurs lui occasionneront des pertes matérielles, elle s'en dégagera sans y mettre l'entetement et le fanatisme propres aux Européens
@@ -2141,7 +2286,8 @@
          .
         </p>
         <p xml:id="para_7_165_542">
-         <pb facs="#facs_176" n="165" source="s2lesouvriersdes04sociuoft_0191.xml"/> Il a été beaucoup question, dans ces derniêres années, de la détresse de la classe des famers aux Etats-Unis et de son endette¬ment excessif. On parait avoir généralisé la situation fàcheuse dans laquelle quelques Etats du Nord-Ouest, le ansas, le Nébrasla, les deux Dalotas, se sont trouvés à la suite des mauvaises récoltes de 1889 et de 1890. On avait escompté trop haut le développement de ces pays ; la plus-value des terres et le recours au crédit avaient été poussés trop loin : de là une liquidation pénible. Quoi qu'il en soit, les farmers du Texas ont été beaucoup moins éprouvés par ces vicissitudes, gràce à la beauté de leur climat et aux ressources qu'y offre l'élevage.
+         <pb facs="#facs_176" n="165" source="s2lesouvriersdes04sociuoft_0191.xml"/>
+         Il a été beaucoup question, dans ces derniêres années, de la détresse de la classe des famers aux Etats-Unis et de son endette¬ment excessif. On parait avoir généralisé la situation fàcheuse dans laquelle quelques Etats du Nord-Ouest, le ansas, le Nébrasla, les deux Dalotas, se sont trouvés à la suite des mauvaises récoltes de 1889 et de 1890. On avait escompté trop haut le développement de ces pays ; la plus-value des terres et le recours au crédit avaient été poussés trop loin : de là une liquidation pénible. Quoi qu'il en soit, les farmers du Texas ont été beaucoup moins éprouvés par ces vicissitudes, gràce à la beauté de leur climat et aux ressources qu'y offre l'élevage.
         </p>
         <p xml:id="para_7_165_543">
          Les belles récoltes de l'année 1891 leur ont apporté de larges re¬venus et leur ont donné confiance. Les acquisitions de terre à des prix croissants se multiplient dans cette région. La crise de tassement, de contraction du crédit, qui doit de temps à autre s'opérer dans ces pays où l'on va toujours de l'avant, ne parait pas devoir être bien dure.
@@ -2150,7 +2296,9 @@
          Ce qui a ruiné dans bien des régions les farmers, c'est le luxe relatif qu'ils ont introduit dans leur intérieur. Il y a cinquante ans, dans toutes les maisons de farmers, on filait la laine et le chanvre, les femmes fabriquaient les vêtements de la famille ; on tâchait d'acheter le moins possible ; surtout l'on ne cherchait pas à égaler les citadins, et les enfants ne visaient pas à quitter les champs sous l'influence de l'over-education donnée à l'école. Cet état de choses est de l'histoire ancienne. Le progrès des voies de comnmunication et l'a¬baissement relatif du prix des produits manufacturés ont partout fait disparaitre les industries domestiques ; elles n'existent pas plus dans l'Ouest que dans la Nouvelle-Angleterre. La conséquence en est que le farmer, qui ne vend pas toujours bien ses produits, est obligé quand même d'acheter des objets manufacturés pour satisfaire les besoins plus ou moins factices des siens. n journal de l'Ouest décrivait ré cemment cette situation en termes humoristiques
         </p>
         <p xml:id="para_7_165_545">
-         « Il faut une charrette de pommes de terre pour acheter une paire de botte. Un beau beu gras achète à peine un vêtement complet ordinaire, et il faut une vache pour acheter un paletot assorti. Pour <pb facs="#facs_177" n="166" source="s2lesouvriersdes04sociuoft_0192.xml"/> le chapeau et les mitaines, il faut une charrette de blé ; pour les vête¬ments de dessous, encore une charrette d'avoine. En sorte que lefarmer, pour économe qu'il soit, porte sur son dos la valeur d'un tau¬reau, d'une vache, de trente boisseaux de blé, d'autant d'avoine et de pommes de terre. Quand il calcule combien de travail cela lui a couté et d'autre part que tous ces vêtements représentent seulement la toison de trois ou quatre moutons, il se prend à regretter le rouet et le métier à tisser de ses ancêtres.
+         « Il faut une charrette de pommes de terre pour acheter une paire de botte. Un beau beu gras achète à peine un vêtement complet ordinaire, et il faut une vache pour acheter un paletot assorti. Pour
+         <pb facs="#facs_177" n="166" source="s2lesouvriersdes04sociuoft_0192.xml"/>
+         le chapeau et les mitaines, il faut une charrette de blé ; pour les vête¬ments de dessous, encore une charrette d'avoine. En sorte que lefarmer, pour économe qu'il soit, porte sur son dos la valeur d'un tau¬reau, d'une vache, de trente boisseaux de blé, d'autant d'avoine et de pommes de terre. Quand il calcule combien de travail cela lui a couté et d'autre part que tous ces vêtements représentent seulement la toison de trois ou quatre moutons, il se prend à regretter le rouet et le métier à tisser de ses ancêtres.
         </p>
         <p xml:id="para_7_166_548">
          Les farers du Texas échappent à ces conditions défavorables par leur grande simplicité d'existence. Le luxe des vêtements est in¬connu chez eux ; leur sobriété est très grande. Le climat évidemment exerce une action favorable en ce sens. Les objets grossiers dont ils se contentent ne sont pas renchéris sensiblement par l'effet du système protecteur, sauf quelques articles tels que les objets en cuir ou les machines agricoles. Enfin l'organisation encore rudimentaire de l'ins¬truction publique empêche les funestes effets du déclassement de se produire parmi eux. Les enfants, filles et garçons, suivent volontiers la carrière agricole, où ils ont vu leurs parents arriver à l'aisance dans une vie de travail. Au Texas, de longtemps le déclassement social et l'abandon de la culture par l'effetde l'ouer-education ne se produiront pas comme dans l'Est, et même déjà dans quelques-uns des Etats de l'Ouest le plus anciennement peuplés et dotés largement de moyens d'instruction.
@@ -2164,7 +2312,9 @@
          Le comté est dans le Texas la base du gouvernement local. Il n'y a point aurdessous du comté, comme dans les tats du Nord, de town¬ships, c'est-à-dire de communes formant une unité complète pour tous les buts du gouvernement local. Le comté est seulement partagé en circonscriptions judiciaires, en circonscriptions scolaires, en circons¬criplions de routes, répondant à chacun de ces buts particuliers.
         </p>
         <p xml:id="para_7_166_552">
-         Les agglomérations urbaines peuvent s'ériger en cités ou en tovns, en se conformant aux precscriptions de la loi. lles peuvent de plus, si elles ont une population supérieure à 10.000 habitants, obtenir une charte spéciule de la législature. Les comtés et les cités, ou tovns incorporés, forment des corporations municipales ayant une existence civile distincte de la personne des habitants, par conséquent, les pro<pb facs="#facs_178" n="167" source="s2lesouvriersdes04sociuoft_0193.xml"/>priétés publiques ne peuvent être saisies, si ce n'est par le privilège du vendeur ou des ouvriers constructeurs.
+         Les agglomérations urbaines peuvent s'ériger en cités ou en tovns, en se conformant aux precscriptions de la loi. lles peuvent de plus, si elles ont une population supérieure à 10.000 habitants, obtenir une charte spéciule de la législature. Les comtés et les cités, ou tovns incorporés, forment des corporations municipales ayant une existence civile distincte de la personne des habitants, par conséquent, les pro
+         <pb facs="#facs_178" n="167" source="s2lesouvriersdes04sociuoft_0193.xml"/>
+         priétés publiques ne peuvent être saisies, si ce n'est par le privilège du vendeur ou des ouvriers constructeurs.
         </p>
         <p xml:id="para_7_167_554">
          Les comtés se sont organisés dans l'buest du Texas, au fur et à me¬sure que l'arpentage (surveg) a été achevé et que la population prend quelque consistance.
@@ -2197,7 +2347,9 @@
          Les cités et les towns incorporés forment un school district, et, ainsi qu'il a été dit dans la monographie, les écoles y sont partagées en classes (graded) ; la durée du terme scolaire est de dix mois. La taxe scolaire spéciale pour le district school, qui peut alors être votée, doit être acceptée dans une votation spéciale, à la majorité des deux tiers des électeurs.
         </p>
         <p xml:id="para_7_167_564">
-         Les comtés doivent ériger une court-house, une prison, des routes. <pb facs="#facs_179" n="168" source="s2lesouvriersdes04sociuoft_0194.xml"/> highuoays, et des ponts. Quand ils sont organisés, ils doivent, de plus, entretenir une poor-house et une farm pour le travail des conuicts et des indigents.
+         Les comtés doivent ériger une court-house, une prison, des routes.
+         <pb facs="#facs_179" n="168" source="s2lesouvriersdes04sociuoft_0194.xml"/>
+         highuoays, et des ponts. Quand ils sont organisés, ils doivent, de plus, entretenir une poor-house et une farm pour le travail des conuicts et des indigents.
         </p>
         <p xml:id="para_7_168_566">
          Les autorités du comté sont trois countg commissioners, un sheri un marshall, un cuntg adge, un assessor des taxes, un count attorne, un recorder chargé d'enregistrer tous les actes relatifs aux mutations de propriété immobilière, et des piustices of the peace. bLe coun udge fait en même temps fonction de superintendant des écoles du comté. Le shériff est le personnage le plus important de l'administration locale, et il a, dans la convocation du grand jury, une influence très grande. Dans le comté de Callahan, les émoluments directs ou indi¬rects de sa place ne montent pas à moins de 4.000 § (20.640 ᶠ). l a sous ses ordres un marshall qui opère les arrestations. Dans les comtés qui n'ont pas plus de l0.000 habitants, il fait en outre fonction de col¬ˉlector des axes pour l'Etat. 'T'ous ces fonctionnaires sont élus pour deux ans, à l'exception du countg iudge qui l'est pour six. Le grand et le petit jury se réunissent au chef-lieu du comté.
@@ -2212,7 +2364,9 @@
          La construction et l'entretien des routes sont un des objets les plus importants du gouvernement local. Il y est pourvu d'une manière dif¬férente encore, selon l'état d'avancement des comtés.
         </p>
         <p xml:id="para_7_168_570">
-         Il appartient aux countg commissioners de décider s'il y aura pour tout le comté un road superintendent, ou bien s'il y en aura un pour cha¬que precint. Ces fonctionnaires sont nommmés par les countg commis¬ioners, mais ils doivent être électeurs du comté ou du precinct. Leur salaire est fixé par les countg commissioners, mais le maximum en est limité par la loi à 1.000 $ pour les count road superintendents et à 300 % pour les precinct road superintendents, quand le comté n'a pas plus de 15.000 habitants. Il peut être respectivement élevé à 1.400 $ et à 1.200 $ dans les comtés ayant plus de 15.000 habitants. La fonction desroad superintendents consiste à pourvoir dans le comté oudans le pre¬cinct à l'entretien des routes et ponts existants, et à provoquer la créa¬tion de ceu qui seraient nécessaires. Ils doivent veiller à l'entretien du matériel, appliquer aux routes le travail des prisonniers (convits),et sur<pb facs="#facs_180" n="169" source="s2lesouvriersdes04sociuoft_0195.xml"/>tout y employer soit les journées de corvées dues par tous les citoyens, soit le produit de la taxe spéciale qui peut être levée dans le comté.
+         Il appartient aux countg commissioners de décider s'il y aura pour tout le comté un road superintendent, ou bien s'il y en aura un pour cha¬que precint. Ces fonctionnaires sont nommmés par les countg commis¬ioners, mais ils doivent être électeurs du comté ou du precinct. Leur salaire est fixé par les countg commissioners, mais le maximum en est limité par la loi à 1.000 $ pour les count road superintendents et à 300 % pour les precinct road superintendents, quand le comté n'a pas plus de 15.000 habitants. Il peut être respectivement élevé à 1.400 $ et à 1.200 $ dans les comtés ayant plus de 15.000 habitants. La fonction desroad superintendents consiste à pourvoir dans le comté oudans le pre¬cinct à l'entretien des routes et ponts existants, et à provoquer la créa¬tion de ceu qui seraient nécessaires. Ils doivent veiller à l'entretien du matériel, appliquer aux routes le travail des prisonniers (convits),et sur
+         <pb facs="#facs_180" n="169" source="s2lesouvriersdes04sociuoft_0195.xml"/>
+         tout y employer soit les journées de corvées dues par tous les citoyens, soit le produit de la taxe spéciale qui peut être levée dans le comté.
         </p>
         <p xml:id="para_7_169_572">
          En effet, la Constitution du Texas établit que tout citoyen, entre di¬huit et cinquante-cinq ans, doit faire, sur les routes de son district, un nombre de journées qui ne peut excéder cinq. ln fait, dans le comté de Callahan, le nombre des journées est de trois. Là où les corvées sont en vigueur, le refus de les accomplir entraine une amende de 1 dollar par jour. n réalité, c'est une conversin facultative de la corvée pour chaque contribuable. Comme ces corvées ne donnent pas de meilleurs résultats qu'en Europe, la loi cherche à substituer unc taxe spéciale de 15 cents par 100 de la valeur imposée sur toutes les propriétés. Cette conversion des journées des corvée en une axe spéciale s'opère quand 200 électeurs provoquent dans le comté une votation sur la question, non pas de tous les électeurs, mais de tous les tax payers.
@@ -2230,7 +2384,9 @@
            A mois d'aoùt 1891, le peuple du Texas avait à stauer sur un amendement constitu¬tionnel qui aurait donné à la majorité des électeurs dechaque comté, pevif, town ou city. le droit d'intcrdire la vente des boissons alcooliques. Mais l'amendement n'a pas éte adopté. L'opinien publique dans l'État n'est pas favorable aux evagérations du Parti de la Tempérance
           </p>
          </note>
-         , les électeurs du comté doivent être <pb facs="#facs_181" n="170" source="s2lesouvriersdes04sociuoft_0196.xml"/> consultés spécialement. Par là, le régime du comté tend à se rapprocher peu à peu de celui du tonship, ou l'assemblée des électeurs admi¬nistre directement les intérêts locaux
+         , les électeurs du comté doivent être
+         <pb facs="#facs_181" n="170" source="s2lesouvriersdes04sociuoft_0196.xml"/>
+         consultés spécialement. Par là, le régime du comté tend à se rapprocher peu à peu de celui du tonship, ou l'assemblée des électeurs admi¬nistre directement les intérêts locaux
          <note type="bp">
           <p>
            Sur le gouvernement local aux Etats-Unis, V. l'ouvrage magistral de A. Carlier, Ld lepnuliue Americine (Guillaumin, 1890), t. II, p. 325 à 443.
@@ -2260,7 +2416,9 @@
          pour redonner au corps la force de réaction et partant la vigueur que la chaleur continue des teres chaudes ou des climats tropicaux supprime, ce qui entraine l'anémie pour les hommes des races supérieures. Le Texas est donc éminemment propre à attirer les immigrants de l'Espa¬ne, de l'ltalie et du midi de la France. Si les Espagnols et les taliens ne s'y sont pas déjà portés, c'est qu'ils sont généralement trop pauvres pour pouvoir s'y établir avec avantage comme propriétaires et même comme métayers. Ils préfèrent s'arrèter comme manouvriers à la Nou¬velle-Orléans et à Gialveston, au s'employer dans les riches plantations de cette partie du pays. Mais la réussite du groupe de Portugais qui s'est fixé à Clyde, dans le voisinage du domaine d'Annadale, indique la convenance de cette réuion pour les agriculteurs dumidi de l'Europe.
         </p>
         <p xml:id="para_7_170_582">
-         Les Scandinaves, les Ccossais, les rlandais, les Allemands sont na¬turellement attirés par un climat plus semblable au leur, par des cul<pb facs="#facs_182" n="171" source="s2lesouvriersdes04sociuoft_0197.xml"/>tures analogues à celle de leur patrie, dans les tats du Nord-Ouest, dans le Manitoba et le Nord-Ouest canadien. La transplantation d'une race septentrionale dans un pays relativement chaud lui occasionne¬rait des souffrances, au moins à la première génération.
+         Les Scandinaves, les Ccossais, les rlandais, les Allemands sont na¬turellement attirés par un climat plus semblable au leur, par des cul
+         <pb facs="#facs_182" n="171" source="s2lesouvriersdes04sociuoft_0197.xml"/>
+         tures analogues à celle de leur patrie, dans les tats du Nord-Ouest, dans le Manitoba et le Nord-Ouest canadien. La transplantation d'une race septentrionale dans un pays relativement chaud lui occasionne¬rait des souffrances, au moins à la première génération.
         </p>
         <p xml:id="para_7_171_586">
          Le choix entre les deux régions se pose au contraire pour les im¬migrants français habitués à un climat auprès duquel celui du Ne¬brasla, du Canada, des deux Dalotas, du ansas même, parait bien ri¬goureux ; car, aussi chaud pendant l'été que sur les plateaux du Texas, il comporte en hiver cinq à six mois de neige et l'interruption com¬plête des travaux agricoles.
@@ -2278,7 +2436,8 @@
          Au Texas, les défrichements, l'ensemencement même, peuvent s'exé¬cuter durant un temps plus long, on n'est pas obligé de tout faire en quelques semaines comme dans le Nord-Ouest. Aussi la main-d'œuvre n'est-elle pas aussi rare et elle est à meilleur marché.
         </p>
         <p xml:id="para_7_172_592">
-         <pb facs="#facs_183" n="172" source="s2lesouvriersdes04sociuoft_0198.xml"/> La douceur du climat rend la dépense du combustible insignifiante, elle permet d'avoir des constructions plus légères et moins considé¬rables. Cela constitue ue grande supériorité sur les régions de prai¬rie du Nord où le bois est fort rare et le charbon très cher. On peut dire la même chose de la dépense des vêtements.
+         <pb facs="#facs_183" n="172" source="s2lesouvriersdes04sociuoft_0198.xml"/>
+         La douceur du climat rend la dépense du combustible insignifiante, elle permet d'avoir des constructions plus légères et moins considé¬rables. Cela constitue ue grande supériorité sur les régions de prai¬rie du Nord où le bois est fort rare et le charbon très cher. On peut dire la même chose de la dépense des vêtements.
         </p>
         <p xml:id="para_7_172_593">
          Enfin, le climat du Texas comporte une variété de productions qui lui assurera de plus en plus une supériorité. Le coton, la vigne, l'o¬livier, presque tous les fruits et tous les légumes de l'Europe, y vien¬nent en même temps que le blé, l'orge, l'avoine, le mais. Ces cultures seront dans un certain temps plus rémunératrices que celle des cé¬réales, parce que l'aire capable de produire celles-ci est presqueindéfinie, tandis que les terrains propres à la vigne et au coton sont beaucoup plus limités. Les produits accessoires, légumes, fruits, élevage du lapin et de la volaille, sont une ressource accessoire qui deviendra très pré¬cieuse pour les petits cultivateurs du Texas, quand le développement des agglomérations leur ouvrira un marché.
